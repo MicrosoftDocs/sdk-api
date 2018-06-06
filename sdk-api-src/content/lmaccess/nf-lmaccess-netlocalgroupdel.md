@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
--	Samcli.dll
+ - Netapi32.dll
+ - Samcli.dll
 api_name:
--	NetLocalGroupDel
+ - NetLocalGroupDel
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

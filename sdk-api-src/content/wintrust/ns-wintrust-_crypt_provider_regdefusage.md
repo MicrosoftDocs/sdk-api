@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PROVIDER_REGDEFUSAGE, *PCRYPT_PROVIDER_REGDEFUSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	CRYPT_PROVIDER_REGDEFUSAGE
+ - CRYPT_PROVIDER_REGDEFUSAGE
 product: Windows
 targetos: Windows
 req.lib: 

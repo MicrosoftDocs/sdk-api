@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TPM_DEVICE_INFO, *PTPM_DEVICE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tbs.h
+ - Tbs.h
 api_name:
--	TPM_DEVICE_INFO
+ - TPM_DEVICE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

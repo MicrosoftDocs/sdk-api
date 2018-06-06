@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_VERB, *PHTTP_VERB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	httpapi.dll
+ - httpapi.dll
 api_name:
--	HttpDeclarePush
+ - HttpDeclarePush
 product: Windows
 targetos: Windows
 req.lib: Httpapi.lib

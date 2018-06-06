@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	shlobj_core.h
--	Windows.Storage.dll
+ - shlobj_core.h
+ - Windows.Storage.dll
 api_name:
--	ILLoadFromStreamEx
+ - ILLoadFromStreamEx
 product: Windows
 targetos: Windows
 req.lib: 

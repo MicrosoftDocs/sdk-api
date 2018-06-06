@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_X942_DH_VALIDATION_PARAMS, *PCERT_X942_DH_VALIDATION_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_942_DH_VALIDATION_PARAMS
+ - CERT_942_DH_VALIDATION_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

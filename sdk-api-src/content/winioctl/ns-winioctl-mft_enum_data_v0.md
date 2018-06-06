@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFT_ENUM_DATA_V0, *PMFT_ENUM_DATA_V0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	MFT_ENUM_DATA_V0
+ - MFT_ENUM_DATA_V0
 product: Windows
 targetos: Windows
 req.lib: 

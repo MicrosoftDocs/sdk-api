@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.h
+ - UIAutomationCore.h
 api_name:
--	ITableProvider.GetColumnHeaders
+ - ITableProvider.GetColumnHeaders
 product: Windows
 targetos: Windows
 req.lib: 

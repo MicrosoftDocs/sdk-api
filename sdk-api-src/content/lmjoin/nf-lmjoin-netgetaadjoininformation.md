@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	netapi32.dll
+ - netapi32.dll
 api_name:
--	NetGetAadJoinInformation
+ - NetGetAadJoinInformation
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

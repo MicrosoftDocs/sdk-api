@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TOPOSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfapi.h
+ - mfapi.h
 api_name:
--	MF_TOPOSTATUS
+ - MF_TOPOSTATUS
 product: Windows
 targetos: Windows
 req.lib: 

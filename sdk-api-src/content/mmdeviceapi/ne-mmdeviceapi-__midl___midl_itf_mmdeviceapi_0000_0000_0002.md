@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ERole
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mmdeviceapi.h
+ - Mmdeviceapi.h
 api_name:
--	ERole
+ - ERole
 product: Windows
 targetos: Windows
 req.lib: 

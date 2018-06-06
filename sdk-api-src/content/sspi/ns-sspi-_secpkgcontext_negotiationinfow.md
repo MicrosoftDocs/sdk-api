@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_NegotiationInfoW, *PSecPkgContext_NegotiationInfoW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgContext_NegotiationInfo
--	SecPkgContext_NegotiationInfoA
--	SecPkgContext_NegotiationInfoW
+ - SecPkgContext_NegotiationInfo
+ - SecPkgContext_NegotiationInfoA
+ - SecPkgContext_NegotiationInfoW
 product: Windows
 targetos: Windows
 req.lib: 

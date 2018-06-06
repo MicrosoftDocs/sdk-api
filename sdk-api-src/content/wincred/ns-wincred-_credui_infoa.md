@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDUI_INFOA, *PCREDUI_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinCred.h
+ - WinCred.h
 api_name:
--	CREDUI_INFO
+ - CREDUI_INFO
 product: Windows
 targetos: Windows
 req.lib: 

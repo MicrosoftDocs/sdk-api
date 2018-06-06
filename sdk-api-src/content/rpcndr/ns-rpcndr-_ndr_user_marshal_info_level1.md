@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcndr.h
+ - Rpcndr.h
 api_name:
--	NDR_USER_MARSHAL_INFO_LEVEL1
+ - NDR_USER_MARSHAL_INFO_LEVEL1
 product: Windows
 targetos: Windows
 req.lib: 

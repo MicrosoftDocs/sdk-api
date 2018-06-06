@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDCLNT_SHAREMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Audiosessiontypes.h
+ - Audiosessiontypes.h
 api_name:
--	AUDCLNT_SHAREMODE
+ - AUDCLNT_SHAREMODE
 product: Windows
 targetos: Windows
 req.lib: 

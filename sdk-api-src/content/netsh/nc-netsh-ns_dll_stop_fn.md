@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_USAGE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Netsh.h
+ - Netsh.h
 api_name:
--	NS_DLL_STOP_FN
+ - NS_DLL_STOP_FN
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_ADDRESS_ACCESSENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_ADDRESS_ACCESSENTRY
+ - WM_ADDRESS_ACCESSENTRY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_MOUNT_POINT_NOTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_MOUNT_POINT_NOTIFICATION
+ - VDS_MOUNT_POINT_NOTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

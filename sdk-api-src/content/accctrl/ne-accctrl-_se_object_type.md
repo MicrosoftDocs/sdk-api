@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SE_OBJECT_TYPE
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- SE_OBJECT_TYPE
+ - SE_OBJECT_TYPE
 product: Windows
 targetos: Windows
 ---

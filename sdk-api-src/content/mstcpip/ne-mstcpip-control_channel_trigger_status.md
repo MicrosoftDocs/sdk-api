@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONTROL_CHANNEL_TRIGGER_STATUS, *PCONTROL_CHANNEL_TRIGGER_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	CONTROL_CHANNEL_TRIGGER_STATUS
+ - CONTROL_CHANNEL_TRIGGER_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

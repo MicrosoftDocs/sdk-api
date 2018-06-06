@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONDITION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Subauth.h
+ - Subauth.h
 api_name:
--	Msv1_0SubAuthenticationRoutine
+ - Msv1_0SubAuthenticationRoutine
 product: Windows
 targetos: Windows
 req.lib: 

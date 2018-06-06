@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_BACKUP_SCHEMA
+ - VSS_BACKUP_SCHEMA
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

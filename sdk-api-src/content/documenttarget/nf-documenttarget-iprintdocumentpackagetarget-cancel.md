@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PrintDocumentPackageCompletion
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Documenttarget.h
+ - Documenttarget.h
 api_name:
--	IPrintDocumentPackageTarget.Cancel
+ - IPrintDocumentPackageTarget.Cancel
 product: Windows
 targetos: Windows
 req.lib: 

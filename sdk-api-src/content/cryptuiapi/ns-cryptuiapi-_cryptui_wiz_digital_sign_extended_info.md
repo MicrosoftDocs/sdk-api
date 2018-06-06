@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cryptuiapi.h
+ - Cryptuiapi.h
 api_name:
--	CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
+ - CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_CUSTOM_CHANNEL_CALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_CUSTOM_CHANNEL_CALLBACKS
+ - WS_CUSTOM_CHANNEL_CALLBACKS
 product: Windows
 targetos: Windows
 req.lib: 

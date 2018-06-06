@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-fibers-l2-1-0.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-fibers-l2-1-1.dll
--	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-fibers-l2-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-fibers-l2-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - KernelBase.dll
 api_name:
--	ConvertThreadToFiber
+ - ConvertThreadToFiber
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

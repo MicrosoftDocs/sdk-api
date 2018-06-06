@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	user32.dll
--	API-MS-Win-NTUser-Rectangle-l1-1-0.dll
--	minuser.dll
--	Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+ - user32.dll
+ - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
--	IsRectEmpty
+ - IsRectEmpty
 product: Windows
 targetos: Windows
 req.lib: User32.lib

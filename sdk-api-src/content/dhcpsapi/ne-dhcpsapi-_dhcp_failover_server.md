@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_FAILOVER_SERVER, *LPDHCP_FAILOVER_SERVER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_FAILOVER_SERVER
+ - DHCP_FAILOVER_SERVER
 product: Windows
 targetos: Windows
 req.lib: 

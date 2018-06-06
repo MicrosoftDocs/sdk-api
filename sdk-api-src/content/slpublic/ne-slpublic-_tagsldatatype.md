@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SLDATATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Slpublic.h
+ - Slpublic.h
 api_name:
--	SLDATATYPE
+ - SLDATATYPE
 product: Windows
 targetos: Windows
 req.lib: 

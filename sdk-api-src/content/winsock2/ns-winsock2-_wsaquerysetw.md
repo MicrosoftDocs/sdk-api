@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSAQUERYSETW, PWSAQUERYSETW, LPWSAQUERYSETW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsock2.h
+ - Winsock2.h
 api_name:
--	WSAQUERYSET
--	WSAQUERYSETA
--	WSAQUERYSETW
+ - WSAQUERYSET
+ - WSAQUERYSETA
+ - WSAQUERYSETW
 product: Windows
 targetos: Windows
 req.lib: 

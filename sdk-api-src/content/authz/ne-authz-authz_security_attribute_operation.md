@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OPERATION, *PAUTHZ_SECURITY_ATTRIBUTE_OPERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Authz.h
+ - Authz.h
 api_name:
--	AUTHZ_SECURITY_ATTRIBUTE_OPERATION
+ - AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 product: Windows
 targetos: Windows
 req.lib: 

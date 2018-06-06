@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_ATTR_DATATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_ATTR_DATATYPE
+ - WMT_ATTR_DATATYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPCLOUDINFO, *PPNRPCLOUDINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pnrpns.h
+ - Pnrpns.h
 api_name:
--	PNRPCLOUDINFO
+ - PNRPCLOUDINFO
 product: Windows
 targetos: Windows
 req.lib: 

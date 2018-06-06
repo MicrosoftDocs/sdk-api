@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG_RQST_PACKET, *PMPEG_RQST_PACKET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	MPEG_RQST_PACKET
+ - MPEG_RQST_PACKET
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	Ext-MS-Win-NTUser-Window-l1-1-0.dll
--	Ext-MS-Win-NTUser-Window-l1-1-1.dll
--	Ext-MS-Win-NTUser-Window-l1-1-2.dll
--	ext-ms-win-ntuser-window-l1-1-3.dll
--	Ext-MS-Win-NTUser-Window-L1-1-4.dll
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
--	GetWindowDpiAwarenessContext
+ - GetWindowDpiAwarenessContext
 product: Windows
 targetos: Windows
 req.lib: User32.lib

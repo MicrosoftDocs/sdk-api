@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	windows.devices.alljoyn.interop.h
+ - windows.devices.alljoyn.interop.h
 api_name:
--	IWindowsDevicesAllJoynBusAttachmentInterop
+ - IWindowsDevicesAllJoynBusAttachmentInterop
 product: Windows
 targetos: Windows
 req.lib: 

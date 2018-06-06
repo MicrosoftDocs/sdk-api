@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, *PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
+ - CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 product: Windows
 targetos: Windows
 req.lib: 

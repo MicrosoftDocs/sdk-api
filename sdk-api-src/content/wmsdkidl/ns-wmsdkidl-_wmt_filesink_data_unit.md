@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_FILESINK_DATA_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_FILESINK_DATA_UNIT
+ - WMT_FILESINK_DATA_UNIT
 product: Windows
 targetos: Windows
 req.lib: 

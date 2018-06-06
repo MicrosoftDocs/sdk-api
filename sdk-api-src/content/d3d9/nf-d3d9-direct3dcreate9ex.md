@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	d3d9.dll
--	Ext-MS-Win-DX-D3D9-L1-1-0.dll
+ - d3d9.dll
+ - Ext-MS-Win-DX-D3D9-L1-1-0.dll
 api_name:
--	Direct3DCreate9Ex
+ - Direct3DCreate9Ex
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_VOLUME_SNAPSHOT_ATTRIBUTES, *PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - VSS_VOLUME_SNAPSHOT_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

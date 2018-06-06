@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdateServiceManager2.ClientApplicationID
--	IUpdateServiceManager2.get_ClientApplicationID
--	IUpdateServiceManager2.put_ClientApplicationID
+ - IUpdateServiceManager2.ClientApplicationID
+ - IUpdateServiceManager2.get_ClientApplicationID
+ - IUpdateServiceManager2.put_ClientApplicationID
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

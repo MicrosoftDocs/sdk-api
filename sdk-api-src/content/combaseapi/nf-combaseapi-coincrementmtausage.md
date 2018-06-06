@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: REGCLS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	API-MS-Win-Core-Com-l1-1-0.dll
--	ComBase.dll
--	API-MS-Win-Core-Com-l1-1-1.dll
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
 api_name:
--	CoIncrementMTAUsage
+ - CoIncrementMTAUsage
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

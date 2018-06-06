@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MinWinBase.h
--	WinBase.h
+ - MinWinBase.h
+ - WinBase.h
 api_name:
--	OVERLAPPED_ENTRY
+ - OVERLAPPED_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

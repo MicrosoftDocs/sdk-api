@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+ - JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

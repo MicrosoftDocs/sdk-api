@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPCOLORFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shobjidl.h
+ - Shobjidl.h
 api_name:
--	VPCOLORFLAGS
+ - VPCOLORFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

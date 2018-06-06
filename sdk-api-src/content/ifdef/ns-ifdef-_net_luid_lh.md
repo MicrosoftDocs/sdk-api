@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_LUID_LH, *PNET_LUID_LH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ifdef.h
+ - Ifdef.h
 api_name:
--	NET_LUID
+ - NET_LUID
 product: Windows
 targetos: Windows
 req.lib: 

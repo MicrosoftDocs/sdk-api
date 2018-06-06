@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IPerformanceCounterDataCollector.PerformanceCounters
--	IPerformanceCounterDataCollector.get_PerformanceCounters
--	IPerformanceCounterDataCollector.put_PerformanceCounters
+ - IPerformanceCounterDataCollector.PerformanceCounters
+ - IPerformanceCounterDataCollector.get_PerformanceCounters
+ - IPerformanceCounterDataCollector.put_PerformanceCounters
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLFS_NODE_ID, *PCLFS_NODE_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_NODE_ID
+ - CLFS_NODE_ID
 product: Windows
 targetos: Windows
 req.lib: 

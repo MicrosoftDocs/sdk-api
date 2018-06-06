@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dot1x.h
+ - dot1x.h
 api_name:
--	ONEX_NOTIFICATION_TYPE
+ - ONEX_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

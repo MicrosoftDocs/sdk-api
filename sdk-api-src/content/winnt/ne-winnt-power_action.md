@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	POWER_ACTION
+ - POWER_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

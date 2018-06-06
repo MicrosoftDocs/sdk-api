@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Mi.h
+ - Mi.h
 api_name:
--	MI_Deserializer_ClassObjectNeeded
+ - MI_Deserializer_ClassObjectNeeded
 product: Windows
 targetos: Windows
 req.lib: 

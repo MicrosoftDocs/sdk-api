@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UAL_DATA_BLOB, *PUAL_DATA_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ual.h
+ - Ual.h
 api_name:
--	UAL_DATA_BLOB
+ - UAL_DATA_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

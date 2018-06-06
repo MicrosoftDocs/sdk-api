@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_RESTORE_TARGET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsWriter.h
+ - VsWriter.h
 api_name:
--	VSS_RESTORE_TARGET
+ - VSS_RESTORE_TARGET
 product: Windows
 targetos: Windows
 req.lib: 

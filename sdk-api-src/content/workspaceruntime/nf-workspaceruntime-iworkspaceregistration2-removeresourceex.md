@@ -29,13 +29,13 @@ req.type-library: WkspRt.exe
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	IWorkspaceRegistration2::RemoveResourceEx
+ - IWorkspaceRegistration2::RemoveResourceEx
 product: Windows
 targetos: Windows
 req.lib: 

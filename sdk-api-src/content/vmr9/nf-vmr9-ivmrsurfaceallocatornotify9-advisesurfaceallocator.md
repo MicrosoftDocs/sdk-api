@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VMR9DeinterlaceTech
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator
+ - IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

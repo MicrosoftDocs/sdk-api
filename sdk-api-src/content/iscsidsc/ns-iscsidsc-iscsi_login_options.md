@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	ISCSI_LOGIN_OPTIONS
+ - ISCSI_LOGIN_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

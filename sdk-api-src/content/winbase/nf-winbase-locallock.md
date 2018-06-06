@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
--	kernel32legacy.dll
--	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
--	API-MS-Win-Core-misc-l1-1-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
--	API-Ms-Win-Core-Heap-L2-1-0.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-Heap-L2-1-0.dll
 api_name:
--	LocalLock
+ - LocalLock
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

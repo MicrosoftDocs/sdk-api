@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mcx.h
+ - Mcx.h
 api_name:
--	MODEMSETTINGS
+ - MODEMSETTINGS
 product: Windows
 targetos: Windows
 req.lib: 

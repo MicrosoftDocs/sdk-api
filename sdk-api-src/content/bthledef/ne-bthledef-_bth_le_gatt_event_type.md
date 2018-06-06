@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_LE_GATT_EVENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BthLEDef.h
+ - BthLEDef.h
 api_name:
--	BTH_LE_GATT_EVENT_TYPE
+ - BTH_LE_GATT_EVENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

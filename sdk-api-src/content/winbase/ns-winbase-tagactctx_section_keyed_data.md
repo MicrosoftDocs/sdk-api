@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACTCTX_SECTION_KEYED_DATA, *PACTCTX_SECTION_KEYED_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	ACTCTX_SECTION_KEYED_DATA
+ - ACTCTX_SECTION_KEYED_DATA
 product: Windows
 targetos: Windows
 req.lib: 

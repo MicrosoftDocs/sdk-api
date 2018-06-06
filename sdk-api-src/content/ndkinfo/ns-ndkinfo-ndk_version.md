@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NDK_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndkinfo.h
+ - ndkinfo.h
 api_name:
--	NDK_VERSION
+ - NDK_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_INFORMATION_CLASS
+ - TOKEN_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

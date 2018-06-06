@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
+ - WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 product: Windows
 targetos: Windows
 req.lib: 

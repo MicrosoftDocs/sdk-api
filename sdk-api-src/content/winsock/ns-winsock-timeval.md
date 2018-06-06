@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TIMEVAL, *PTIMEVAL, *LPTIMEVAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsock.h
+ - winsock.h
 api_name:
--	timeval
+ - timeval
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PNAME_CACHE_CONTEXT"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Filehc.h
+ - Filehc.h
 api_name:
--	NAME_CACHE_CONTEXT
+ - NAME_CACHE_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

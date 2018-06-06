@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: WBEM_COMPILE_STATUS_INFO
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	WBEM_COMPILE_STATUS_INFO
+ - WBEM_COMPILE_STATUS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

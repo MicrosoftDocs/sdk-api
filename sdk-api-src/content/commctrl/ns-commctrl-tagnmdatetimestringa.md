@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NMDATETIMESTRINGA, *LPNMDATETIMESTRINGA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMDATETIMESTRING
--	NMDATETIMESTRINGA
--	NMDATETIMESTRINGW
+ - NMDATETIMESTRING
+ - NMDATETIMESTRINGA
+ - NMDATETIMESTRINGW
 product: Windows
 targetos: Windows
 req.lib: 

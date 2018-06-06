@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GAMING_DEVICE_MODEL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	gamingtcui.h
+ - gamingtcui.h
 api_name:
--	GameUICompletionRoutine
+ - GameUICompletionRoutine
 product: Windows
 targetos: Windows
 req.lib: 

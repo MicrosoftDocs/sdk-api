@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CREDENTIALA, *PCREDENTIALA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinCred.h
+ - WinCred.h
 api_name:
--	CREDENTIAL
--	CREDENTIALA
--	CREDENTIALW
+ - CREDENTIAL
+ - CREDENTIALA
+ - CREDENTIALW
 product: Windows
 targetos: Windows
 req.lib: 

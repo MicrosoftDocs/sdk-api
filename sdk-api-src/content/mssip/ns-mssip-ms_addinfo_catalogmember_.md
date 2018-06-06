@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MS_ADDINFO_CATALOGMEMBER, *PMS_ADDINFO_CATALOGMEMBER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	MS_ADDINFO_CATALOGMEMBER
+ - MS_ADDINFO_CATALOGMEMBER
 product: Windows
 targetos: Windows
 req.lib: 

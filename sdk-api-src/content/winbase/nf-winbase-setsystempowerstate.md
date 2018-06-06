@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
+ - Kernel32.dll
 api_name:
--	SetSystemPowerState
+ - SetSystemPowerState
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

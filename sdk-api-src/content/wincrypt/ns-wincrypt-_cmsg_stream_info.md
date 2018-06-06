@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_STREAM_INFO, *PCMSG_STREAM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_STREAM_INFO
+ - CMSG_STREAM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

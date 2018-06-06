@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_ISCSI_IPSEC_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_ISCSI_IPSEC_FLAG
+ - VDS_ISCSI_IPSEC_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

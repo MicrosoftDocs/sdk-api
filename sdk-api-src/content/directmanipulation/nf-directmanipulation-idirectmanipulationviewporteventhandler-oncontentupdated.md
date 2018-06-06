@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	directmanipulation.h
+ - directmanipulation.h
 api_name:
--	IDirectManipulationViewportEventHandler.OnContentUpdated
+ - IDirectManipulationViewportEventHandler.OnContentUpdated
 product: Windows
 targetos: Windows
 req.lib: 

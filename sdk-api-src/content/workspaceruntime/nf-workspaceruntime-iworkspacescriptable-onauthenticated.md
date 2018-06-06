@@ -29,17 +29,17 @@ req.type-library: Wksprt.exe
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wksprt.exe
+ - Wksprt.exe
 api_name:
--	IWorkspaceScriptable.OnAuthenticated
--	IWorkspaceScriptable2.OnAuthenticated
--	IWorkspaceScriptable3.OnAuthenticated
--	Workspace.OnAuthenticated
+ - IWorkspaceScriptable.OnAuthenticated
+ - IWorkspaceScriptable2.OnAuthenticated
+ - IWorkspaceScriptable3.OnAuthenticated
+ - Workspace.OnAuthenticated
 product: Windows
 targetos: Windows
 req.lib: 

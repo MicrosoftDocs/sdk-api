@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_TCP6TABLE, *PMIB_TCP6TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpmib.h
+ - Tcpmib.h
 api_name:
--	MIB_TCP6TABLE
+ - MIB_TCP6TABLE
 product: Windows
 targetos: Windows
 req.lib: 

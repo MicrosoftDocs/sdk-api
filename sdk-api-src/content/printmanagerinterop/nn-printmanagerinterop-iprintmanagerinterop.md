@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	printmanagerinterop.h
+ - printmanagerinterop.h
 api_name:
--	IPrintManagerInterop
+ - IPrintManagerInterop
 product: Windows
 targetos: Windows
 req.lib: 

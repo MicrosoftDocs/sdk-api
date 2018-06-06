@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	ITraceDataCollector.PreallocateFile
--	ITraceDataCollector.get_PreallocateFile
--	ITraceDataCollector.put_PreallocateFile
+ - ITraceDataCollector.PreallocateFile
+ - ITraceDataCollector.get_PreallocateFile
+ - ITraceDataCollector.put_PreallocateFile
 product: Windows
 targetos: Windows
 req.lib: 

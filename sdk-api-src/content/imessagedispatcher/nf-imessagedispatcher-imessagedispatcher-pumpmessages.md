@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imessagedispatcher.h
+ - imessagedispatcher.h
 api_name:
--	IMessageDispatcher.PumpMessages
+ - IMessageDispatcher.PumpMessages
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rdpencomapi.h
+ - Rdpencomapi.h
 api_name:
--	RDPENCOMAPI_CONSTANTS
+ - RDPENCOMAPI_CONSTANTS
 product: Windows
 targetos: Windows
 req.lib: 

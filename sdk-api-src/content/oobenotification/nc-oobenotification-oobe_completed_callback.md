@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_INTERFACE_CONTEXT_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Oobenotification.h
+ - Oobenotification.h
 api_name:
--	OOBE_COMPLETED_CALLBACK
+ - OOBE_COMPLETED_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

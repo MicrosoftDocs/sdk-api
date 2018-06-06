@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADSPROPINITPARAMS, *PADSPROPINITPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Adsprop.h
+ - Adsprop.h
 api_name:
--	ADSPROPINITPARAMS
+ - ADSPROPINITPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

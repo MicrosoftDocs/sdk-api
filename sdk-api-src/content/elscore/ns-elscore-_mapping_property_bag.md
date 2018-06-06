@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAPPING_PROPERTY_BAG, *PMAPPING_PROPERTY_BAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Elscore.h
+ - Elscore.h
 api_name:
--	MAPPING_PROPERTY_BAG
+ - MAPPING_PROPERTY_BAG
 product: Windows
 targetos: Windows
 req.lib: 

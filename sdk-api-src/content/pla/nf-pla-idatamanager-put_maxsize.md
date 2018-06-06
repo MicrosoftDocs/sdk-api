@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IDataManager.MaxSize
--	IDataManager.get_MaxSize
--	IDataManager.put_MaxSize
+ - IDataManager.MaxSize
+ - IDataManager.get_MaxSize
+ - IDataManager.put_MaxSize
 product: Windows
 targetos: Windows
 req.lib: 

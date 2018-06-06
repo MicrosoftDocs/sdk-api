@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Newdev.dll
--	Ext-MS-Win-Newdev-Config-L1-1-1.dll
+ - Newdev.dll
+ - Ext-MS-Win-Newdev-Config-L1-1-1.dll
 api_name:
--	DiInstallDevice
+ - DiInstallDevice
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSP_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tapi3.dll
+ - Tapi3.dll
 api_name:
--	ITAgentSession.get_ACDGroup
+ - ITAgentSession.get_ACDGroup
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

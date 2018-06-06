@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TBREPLACEBITMAP, *LPTBREPLACEBITMAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	TBREPLACEBITMAP
+ - TBREPLACEBITMAP
 product: Windows
 targetos: Windows
 req.lib: 

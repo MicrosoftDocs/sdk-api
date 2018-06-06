@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
--	Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+ - Shlwapi.dll
+ - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+ - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
--	SHCreateShellPalette
+ - SHCreateShellPalette
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

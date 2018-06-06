@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
--	api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
--	PathMakeSystemFolder
--	PathMakeSystemFolderA
--	PathMakeSystemFolderW
+ - PathMakeSystemFolder
+ - PathMakeSystemFolderA
+ - PathMakeSystemFolderW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

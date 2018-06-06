@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	IObjectArray
+ - IObjectArray
 product: Windows
 targetos: Windows
 req.lib: 

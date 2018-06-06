@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_LUN_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VdsLun.h
+ - VdsLun.h
 api_name:
--	VDS_LUN_INFORMATION
+ - VDS_LUN_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VALID_UOP_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	VALID_UOP_FLAG
+ - VALID_UOP_FLAG
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

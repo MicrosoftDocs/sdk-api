@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Faultrep.dll
+ - Faultrep.dll
 api_name:
--	WerReportHang
+ - WerReportHang
 product: Windows
 targetos: Windows
 req.lib: Faultrep.lib

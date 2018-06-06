@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIAVIDEO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wiaservc.dll
+ - Wiaservc.dll
 api_name:
--	IWiaItem.EnumRegisterEventInfo
+ - IWiaItem.EnumRegisterEventInfo
 product: Windows
 targetos: Windows
 req.lib: Wiaguid.lib

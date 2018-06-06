@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	VssApi.dll
+ - VssApi.dll
 api_name:
--	ShouldBlockRevert
+ - ShouldBlockRevert
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

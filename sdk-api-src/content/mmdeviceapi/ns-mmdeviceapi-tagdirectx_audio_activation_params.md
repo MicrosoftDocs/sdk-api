@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mmdeviceapi.h
+ - Mmdeviceapi.h
 api_name:
--	DIRECTX_AUDIO_ACTIVATION_PARAMS
+ - DIRECTX_AUDIO_ACTIVATION_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

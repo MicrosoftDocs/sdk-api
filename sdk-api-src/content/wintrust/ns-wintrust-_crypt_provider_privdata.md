@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PROVIDER_PRIVDATA, *PCRYPT_PROVIDER_PRIVDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	CRYPT_PROVIDER_PRIVDATA
+ - CRYPT_PROVIDER_PRIVDATA
 product: Windows
 targetos: Windows
 req.lib: 

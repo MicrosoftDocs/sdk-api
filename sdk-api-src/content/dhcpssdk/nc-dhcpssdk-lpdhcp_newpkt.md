@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCOPE_MIB_INFO_V5, *LPSCOPE_MIB_INFO_V5
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Dhcpssdk.h
+ - Dhcpssdk.h
 api_name:
--	DhcpNewPktHook
+ - DhcpNewPktHook
 product: Windows
 targetos: Windows
 req.lib: 

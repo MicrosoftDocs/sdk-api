@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXPLORER_BROWSER_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shobjidl_core.h
+ - shobjidl_core.h
 api_name:
--	EXPLORER_BROWSER_OPTIONS
+ - EXPLORER_BROWSER_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

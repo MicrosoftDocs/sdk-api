@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certenroll.dll
+ - Certenroll.dll
 api_name:
--	IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate
--	IX509CertificateRequestPkcs10V3.get_AttestationEncryptionCertificate
--	IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate
+ - IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate
+ - IX509CertificateRequestPkcs10V3.get_AttestationEncryptionCertificate
+ - IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate
 product: Windows
 targetos: Windows
 req.lib: 

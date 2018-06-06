@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STATPROPSETSTG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	propidlbase.h
+ - propidlbase.h
 api_name:
--	STATPROPSETSTG
+ - STATPROPSETSTG
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HANDLE_SHARING_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windowsx.h
+ - Windowsx.h
 api_name:
--	ComboBox_GetExtendedUI
+ - ComboBox_GetExtendedUI
 product: Windows
 targetos: Windows
 req.lib: 

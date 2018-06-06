@@ -29,14 +29,14 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPViewerInputSink.AddTouchInput
+ - IRDPViewerInputSink.AddTouchInput
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ws2_32.dll
+ - Ws2_32.dll
 api_name:
--	InetNtop
--	InetNtopA or inet_ntop
--	InetNtopW
+ - InetNtop
+ - InetNtopA or inet_ntop
+ - InetNtopW
 product: Windows
 targetos: Windows
 req.lib: Ws2_32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Error_Spec_IPv4
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	Error_Spec_IPv4
+ - Error_Spec_IPv4
 product: Windows
 targetos: Windows
 req.lib: 

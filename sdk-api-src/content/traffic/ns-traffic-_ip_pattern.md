@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_PATTERN, *PIP_PATTERN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Traffic.h
+ - Traffic.h
 api_name:
--	IP_PATTERN
+ - IP_PATTERN
 product: Windows
 targetos: Windows
 req.lib: 

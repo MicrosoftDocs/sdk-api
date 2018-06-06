@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WmfPlaceableFileHeader
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Gdiplusmetaheader.h
+ - Gdiplusmetaheader.h
 api_name:
--	WmfPlaceableFileHeader
+ - WmfPlaceableFileHeader
 product: Windows
 targetos: Windows
 req.lib: 

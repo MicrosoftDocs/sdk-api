@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_TRANSLATED_SID2, *PLSA_TRANSLATED_SID2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LsaLookup.h
+ - LsaLookup.h
 api_name:
--	LSA_TRANSLATED_SID2
+ - LSA_TRANSLATED_SID2
 product: Windows
 targetos: Windows
 req.lib: 

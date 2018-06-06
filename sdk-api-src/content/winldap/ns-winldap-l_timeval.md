@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LDAP_TIMEVAL, *PLDAP_TIMEVAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winldap.h
+ - Winldap.h
 api_name:
--	LDAP_TIMEVAL
+ - LDAP_TIMEVAL
 product: Windows
 targetos: Windows
 req.lib: 

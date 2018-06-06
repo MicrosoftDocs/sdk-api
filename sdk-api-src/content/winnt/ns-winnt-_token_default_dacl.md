@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_DEFAULT_DACL
+ - TOKEN_DEFAULT_DACL
 product: Windows
 targetos: Windows
 req.lib: 

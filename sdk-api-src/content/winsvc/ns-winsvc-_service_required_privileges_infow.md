@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_REQUIRED_PRIVILEGES_INFOW, *LPSERVICE_REQUIRED_PRIVILEGES_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SERVICE_REQUIRED_PRIVILEGES_INFO
--	SERVICE_REQUIRED_PRIVILEGES_INFOA
--	SERVICE_REQUIRED_PRIVILEGES_INFOW
+ - SERVICE_REQUIRED_PRIVILEGES_INFO
+ - SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - SERVICE_REQUIRED_PRIVILEGES_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

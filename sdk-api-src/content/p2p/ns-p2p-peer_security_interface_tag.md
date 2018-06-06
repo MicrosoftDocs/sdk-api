@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_SECURITY_INTERFACE, *PPEER_SECURITY_INTERFACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PEER_SECURITY_INTERFACE
+ - PEER_SECURITY_INTERFACE
 product: Windows
 targetos: Windows
 req.lib: 

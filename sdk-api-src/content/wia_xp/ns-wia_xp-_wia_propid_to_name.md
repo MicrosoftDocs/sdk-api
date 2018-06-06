@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wia_xp.h
+ - wia_xp.h
 api_name:
--	WIA_PROPID_TO_NAME
+ - WIA_PROPID_TO_NAME
 product: Windows
 targetos: Windows
 req.lib: 

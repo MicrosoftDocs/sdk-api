@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TimedLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	effects.h
+ - effects.h
 api_name:
--	TimedLevel
+ - TimedLevel
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Imm.h
+ - Imm.h
 api_name:
--	EnumRegisterWordProc
--	EnumRegisterWordProcA
--	EnumRegisterWordProcW
+ - EnumRegisterWordProc
+ - EnumRegisterWordProcA
+ - EnumRegisterWordProcW
 product: Windows
 targetos: Windows
 req.lib: 

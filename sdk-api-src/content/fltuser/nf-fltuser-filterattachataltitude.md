@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	FltLib.dll
+ - FltLib.dll
 api_name:
--	FilterAttachAtAltitude
+ - FilterAttachAtAltitude
 product: Windows
 targetos: Windows
 req.lib: FltLib.lib

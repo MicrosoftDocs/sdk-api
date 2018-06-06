@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINUSB_PIPE_INFORMATION_EX, *PWINUSB_PIPE_INFORMATION_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winusbio.h
+ - winusbio.h
 api_name:
--	WINUSB_PIPE_INFORMATION_EX
+ - WINUSB_PIPE_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.lib: 

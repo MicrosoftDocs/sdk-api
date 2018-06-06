@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESUTIL_ULARGEINT_DATA, *PRESUTIL_ULARGEINT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	RESUTIL_ULARGEINT_DATA
+ - RESUTIL_ULARGEINT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

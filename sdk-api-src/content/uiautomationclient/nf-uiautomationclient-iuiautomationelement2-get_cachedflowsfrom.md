@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationElement2.CachedFlowsFrom
--	IUIAutomationElement2.get_CachedFlowsFrom
--	IUIAutomationElement2.put_CachedFlowsFrom
+ - IUIAutomationElement2.CachedFlowsFrom
+ - IUIAutomationElement2.get_CachedFlowsFrom
+ - IUIAutomationElement2.put_CachedFlowsFrom
 product: Windows
 targetos: Windows
 req.lib: 

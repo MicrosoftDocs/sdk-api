@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_NONGENUINE_UI_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Slpublic.h
+ - Slpublic.h
 api_name:
--	SL_NONGENUINE_UI_OPTIONS
+ - SL_NONGENUINE_UI_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objbase.h
+ - Objbase.h
 api_name:
--	COMSD
+ - COMSD
 product: Windows
 targetos: Windows
 req.lib: 

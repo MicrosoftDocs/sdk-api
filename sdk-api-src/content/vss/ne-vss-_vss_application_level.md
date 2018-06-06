@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_APPLICATION_LEVEL, *PVSS_APPLICATION_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_APPLICATION_LEVEL
+ - VSS_APPLICATION_LEVEL
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

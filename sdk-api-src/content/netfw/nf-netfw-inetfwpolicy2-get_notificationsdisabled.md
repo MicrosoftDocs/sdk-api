@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
+ - FirewallAPI.dll
 api_name:
--	INetFwPolicy2.NotificationsDisabled
--	INetFwPolicy2.get_NotificationsDisabled
--	INetFwPolicy2.put_NotificationsDisabled
+ - INetFwPolicy2.NotificationsDisabled
+ - INetFwPolicy2.get_NotificationsDisabled
+ - INetFwPolicy2.put_NotificationsDisabled
 product: Windows
 targetos: Windows
 req.lib: 

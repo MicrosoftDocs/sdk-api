@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMEUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msime.h
+ - Msime.h
 api_name:
--	IFEDictionary.GetHeader
+ - IFEDictionary.GetHeader
 product: Windows
 targetos: Windows
 req.lib: 

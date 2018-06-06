@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_RPC_LOGIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinEvt.h
+ - WinEvt.h
 api_name:
--	EVT_RPC_LOGIN
+ - EVT_RPC_LOGIN
 product: Windows
 targetos: Windows
 req.lib: 

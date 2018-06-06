@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	TSGAuthenticationEngine.h
+ - TSGAuthenticationEngine.h
 api_name:
--	ITSGAuthenticationEngine.CancelAuthentication
+ - ITSGAuthenticationEngine.CancelAuthentication
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_UI_COMPONENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	shidfact.h
+ - shidfact.h
 api_name:
--	CItemIDFactory.GetPropertyStorage
+ - CItemIDFactory.GetPropertyStorage
 product: Windows
 targetos: Windows
 req.lib: 

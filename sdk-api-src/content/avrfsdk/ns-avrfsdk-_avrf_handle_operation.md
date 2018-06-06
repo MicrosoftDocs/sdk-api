@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVRF_HANDLE_OPERATION, *PAVRF_HANDLE_OPERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Avrfsdk.h
+ - Avrfsdk.h
 api_name:
--	AVRF_HANDLE_OPERATION
+ - AVRF_HANDLE_OPERATION
 product: Windows
 targetos: Windows
 req.lib: 

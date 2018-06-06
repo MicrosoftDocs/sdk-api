@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RADIUS_ACTION, *PRADIUS_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AuthIf.h
+ - AuthIf.h
 api_name:
--	RADIUS_ACTION
+ - RADIUS_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

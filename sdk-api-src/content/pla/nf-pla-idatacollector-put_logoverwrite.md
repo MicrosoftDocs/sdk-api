@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IDataCollector.LogOverwrite
--	IDataCollector.get_LogOverwrite
--	IDataCollector.put_LogOverwrite
+ - IDataCollector.LogOverwrite
+ - IDataCollector.get_LogOverwrite
+ - IDataCollector.put_LogOverwrite
 product: Windows
 targetos: Windows
 req.lib: 

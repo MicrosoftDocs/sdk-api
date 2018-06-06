@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, *PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Minwinbase.h
+ - Minwinbase.h
 api_name:
--	READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
+ - READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

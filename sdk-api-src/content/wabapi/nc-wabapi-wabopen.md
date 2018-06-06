@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateAssessment
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Wabapi.h
+ - Wabapi.h
 api_name:
--	WABOpen
+ - WABOpen
 product: Windows
 targetos: Windows
 req.lib: 

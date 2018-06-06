@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_VARIABLE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3DCompiler_47.dll
+ - D3DCompiler_47.dll
 api_name:
--	ID3DInclude
+ - ID3DInclude
 product: Windows
 targetos: Windows
 req.lib: D3DCompiler.lib

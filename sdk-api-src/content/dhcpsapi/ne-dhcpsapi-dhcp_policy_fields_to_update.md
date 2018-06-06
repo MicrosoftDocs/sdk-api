@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_POLICY_FIELDS_TO_UPDATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_POLICY_FIELDS_TO_UPDATE
+ - DHCP_POLICY_FIELDS_TO_UPDATE
 product: Windows
 targetos: Windows
 req.lib: 

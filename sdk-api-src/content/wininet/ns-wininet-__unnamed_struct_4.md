@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_AUTH_NOTIFY_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_AUTH_NOTIFY_DATA
+ - INTERNET_AUTH_NOTIFY_DATA
 product: Windows
 targetos: Windows
 req.lib: 

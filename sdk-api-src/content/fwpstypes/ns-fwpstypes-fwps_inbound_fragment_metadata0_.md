@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPS_INBOUND_FRAGMENT_METADATA0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fwpstypes.h
+ - fwpstypes.h
 api_name:
--	FWPS_INBOUND_FRAGMENT_METADATA0
+ - FWPS_INBOUND_FRAGMENT_METADATA0
 product: Windows
 targetos: Windows
 req.lib: 

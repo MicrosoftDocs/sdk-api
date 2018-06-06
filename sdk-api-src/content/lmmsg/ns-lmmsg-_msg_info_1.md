@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSG_INFO_1, *PMSG_INFO_1, *LPMSG_INFO_1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmmsg.h
+ - Lmmsg.h
 api_name:
--	MSG_INFO_1
+ - MSG_INFO_1
 product: Windows
 targetos: Windows
 req.lib: 

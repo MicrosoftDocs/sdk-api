@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Prsht.h
+ - Prsht.h
 api_name:
--	PropSheetProc
--	PFNPROPSHEETCALLBACK
+ - PropSheetProc
+ - PFNPROPSHEETCALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

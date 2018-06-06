@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASSEMBLY_FILE_DETAILED_INFORMATION, *PASSEMBLY_FILE_DETAILED_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	ASSEMBLY_FILE_DETAILED_INFORMATION
+ - ASSEMBLY_FILE_DETAILED_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

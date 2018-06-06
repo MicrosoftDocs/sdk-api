@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_CLIENT_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_CLIENT_PROPERTIES
+ - WM_CLIENT_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

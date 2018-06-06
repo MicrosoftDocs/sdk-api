@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPAPI_PARAMS, *PDHCPAPI_PARAMS, *LPDHCPAPI_PARAMS, DHCPCAPI_PARAMS, *PDHCPCAPI_PARAMS, *LPDHCPCAPI_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpcsdk.h
+ - Dhcpcsdk.h
 api_name:
--	DHCPAPI_PARAMS
+ - DHCPAPI_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

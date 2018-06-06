@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_DOMAIN_TRUSTSA, *PDS_DOMAIN_TRUSTSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsgetdc.h
+ - Dsgetdc.h
 api_name:
--	DS_DOMAIN_TRUSTS
--	DS_DOMAIN_TRUSTSA
--	DS_DOMAIN_TRUSTSW
+ - DS_DOMAIN_TRUSTS
+ - DS_DOMAIN_TRUSTSA
+ - DS_DOMAIN_TRUSTSW
 product: Windows
 targetos: Windows
 req.lib: 

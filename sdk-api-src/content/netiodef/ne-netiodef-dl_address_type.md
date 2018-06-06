@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DL_ADDRESS_TYPE, *PDL_ADDRESS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	netiodef.h
+ - netiodef.h
 api_name:
--	DL_ADDRESS_TYPE
+ - DL_ADDRESS_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

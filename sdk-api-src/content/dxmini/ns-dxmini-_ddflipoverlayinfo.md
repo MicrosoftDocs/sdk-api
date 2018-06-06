@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDFLIPOVERLAYINFO, *PDDFLIPOVERLAYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxmini.h
+ - dxmini.h
 api_name:
--	DDFLIPOVERLAYINFO
+ - DDFLIPOVERLAYINFO
 product: Windows
 targetos: Windows
 req.lib: 

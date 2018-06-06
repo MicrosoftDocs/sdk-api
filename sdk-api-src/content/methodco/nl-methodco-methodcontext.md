@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_MEMORY_REGION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	MethodCo.h
+ - MethodCo.h
 api_name:
--	MethodContext
+ - MethodContext
 product: Windows
 targetos: Windows
 req.lib: 

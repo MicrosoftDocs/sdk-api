@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-LibraryLoader-L1-2-2.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+ - KernelBase.dll
 api_name:
--	EnumResourceNames
--	EnumResourceNamesA
--	EnumResourceNamesW
+ - EnumResourceNames
+ - EnumResourceNamesA
+ - EnumResourceNamesW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

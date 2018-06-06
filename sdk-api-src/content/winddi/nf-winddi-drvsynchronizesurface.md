@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	DrvSynchronizeSurface
+ - DrvSynchronizeSurface
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OPENFILENAMEW, *LPOPENFILENAMEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	OPENFILENAME
--	OPENFILENAMEA
--	OPENFILENAMEW
+ - OPENFILENAME
+ - OPENFILENAMEA
+ - OPENFILENAMEW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.dll
+ - UIAutomationCore.dll
 api_name:
--	ITextChildProvider.TextRange
--	ITextChildProvider.get_TextRange
+ - ITextChildProvider.TextRange
+ - ITextChildProvider.get_TextRange
 product: Windows
 targetos: Windows
 req.lib: 

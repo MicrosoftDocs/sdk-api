@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VBS_ENCLAVE_REPORT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntenclv.h
+ - ntenclv.h
 api_name:
--	VBS_ENCLAVE_REPORT
+ - VBS_ENCLAVE_REPORT
 product: Windows
 targetos: Windows
 req.lib: 

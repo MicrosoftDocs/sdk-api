@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	IX509AttributeArchiveKey.EncryptionStrength
--	IX509AttributeArchiveKey.get_EncryptionStrength
+ - IX509AttributeArchiveKey.EncryptionStrength
+ - IX509AttributeArchiveKey.get_EncryptionStrength
 product: Windows
 targetos: Windows
 req.lib: 

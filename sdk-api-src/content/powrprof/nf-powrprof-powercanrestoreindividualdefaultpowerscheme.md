@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POWER_DATA_ACCESSOR, *PPOWER_DATA_ACCESSOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	PowrProf.dll
+ - PowrProf.dll
 api_name:
--	PowerCanRestoreIndividualDefaultPowerScheme
+ - PowerCanRestoreIndividualDefaultPowerScheme
 product: Windows
 targetos: Windows
 req.lib: PowrProf.lib

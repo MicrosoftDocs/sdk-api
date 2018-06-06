@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPV6_ADAPTER_BINDING_INFO, *PIPV6_ADAPTER_BINDING_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Routprot.h
+ - Routprot.h
 api_name:
--	IPV6_ADAPTER_BINDING_INFO
+ - IPV6_ADAPTER_BINDING_INFO
 product: Windows
 targetos: Windows
 req.lib: 

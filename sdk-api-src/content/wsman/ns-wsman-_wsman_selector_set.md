@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSMAN_SELECTOR_SET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_SELECTOR_SET
+ - WSMAN_SELECTOR_SET
 product: Windows
 targetos: Windows
 req.lib: 

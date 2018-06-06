@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AsyncStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	atscpsipparser.h
+ - atscpsipparser.h
 api_name:
--	ISCTE_EAS.GetEASEventCode
+ - ISCTE_EAS.GetEASEventCode
 product: Windows
 targetos: Windows
 req.lib: 

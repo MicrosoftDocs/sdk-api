@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_HEALTH_FAULT_ARRAY, *PCLUSTER_HEALTH_FAULT_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Resapi.h
+ - Resapi.h
 api_name:
--	CLUSTER_HEALTH_FAULT_ARRAY
+ - CLUSTER_HEALTH_FAULT_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

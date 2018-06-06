@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_WATERMARK_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wmvcore.dll
+ - Wmvcore.dll
 api_name:
--	WMCheckURLExtension
+ - WMCheckURLExtension
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib

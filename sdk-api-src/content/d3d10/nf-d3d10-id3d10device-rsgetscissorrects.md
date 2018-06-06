@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_USAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D10.lib
--	D3D10.dll
+ - D3D10.lib
+ - D3D10.dll
 api_name:
--	ID3D10Device.RSGetScissorRects
+ - ID3D10Device.RSGetScissorRects
 product: Windows
 targetos: Windows
 req.lib: D3D10.lib

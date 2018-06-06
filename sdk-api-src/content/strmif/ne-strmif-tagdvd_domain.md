@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_DOMAIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	DVD_DOMAIN
+ - DVD_DOMAIN
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

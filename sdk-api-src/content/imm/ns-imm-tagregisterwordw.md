@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: REGISTERWORDW, *PREGISTERWORDW, *NPREGISTERWORDW, *LPREGISTERWORDW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imm.h
+ - Imm.h
 api_name:
--	REGISTERWORD
--	REGISTERWORDA
--	REGISTERWORDW
+ - REGISTERWORD
+ - REGISTERWORDA
+ - REGISTERWORDW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_CLASSIMAGELIST_DATA
+ - SP_CLASSIMAGELIST_DATA
 product: Windows
 targetos: Windows
 req.lib: 

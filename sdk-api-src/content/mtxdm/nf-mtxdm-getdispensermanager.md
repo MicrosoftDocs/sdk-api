@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	MtxDM.dll
+ - MtxDM.dll
 api_name:
--	GetDispenserManager
+ - GetDispenserManager
 product: Windows
 targetos: Windows
 req.lib: MtxDM.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_SEND, *PFAX_SEND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	FaxRoute.h
+ - FaxRoute.h
 api_name:
--	FaxRouteModifyRoutingData
+ - FaxRouteModifyRoutingData
 product: Windows
 targetos: Windows
 req.lib: 

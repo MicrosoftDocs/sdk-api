@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DS_NAME_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_NAME_ERROR
+ - DS_NAME_ERROR
 product: Windows
 targetos: Windows
 req.lib: 

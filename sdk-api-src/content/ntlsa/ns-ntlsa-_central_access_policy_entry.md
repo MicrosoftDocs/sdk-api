@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CENTRAL_ACCESS_POLICY_ENTRY, *PCENTRAL_ACCESS_POLICY_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntlsa.h
+ - Ntlsa.h
 api_name:
--	CENTRAL_ACCESS_POLICY_ENTRY
+ - CENTRAL_ACCESS_POLICY_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

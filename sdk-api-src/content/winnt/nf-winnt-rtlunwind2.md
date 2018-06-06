@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_OUTCOME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
+ - Kernel32.dll
 api_name:
--	RtlUnwind2
+ - RtlUnwind2
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

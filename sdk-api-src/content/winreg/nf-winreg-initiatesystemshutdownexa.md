@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-Core-shutdown-l1-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-Core-shutdown-l1-1-1.dll
--	API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
--	Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
+ - Advapi32.dll
+ - API-MS-Win-Core-shutdown-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-shutdown-l1-1-1.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+ - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
 api_name:
--	InitiateSystemShutdownEx
--	InitiateSystemShutdownExA
--	InitiateSystemShutdownExW
+ - InitiateSystemShutdownEx
+ - InitiateSystemShutdownExA
+ - InitiateSystemShutdownExW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

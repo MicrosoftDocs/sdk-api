@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CROSS_SLIDE_THRESHOLD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	interactioncontext.h
+ - interactioncontext.h
 api_name:
--	CROSS_SLIDE_THRESHOLD
+ - CROSS_SLIDE_THRESHOLD
 product: Windows
 targetos: Windows
 req.lib: 

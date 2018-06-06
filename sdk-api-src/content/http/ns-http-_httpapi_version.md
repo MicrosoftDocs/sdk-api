@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTPAPI_VERSION, *PHTTPAPI_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTPAPI_VERSION
+ - HTTPAPI_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

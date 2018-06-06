@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_DISPLAY_DATA0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwptypes.h
+ - Fwptypes.h
 api_name:
--	FWPM_DISPLAY_DATA0
+ - FWPM_DISPLAY_DATA0
 product: Windows
 targetos: Windows
 req.lib: 

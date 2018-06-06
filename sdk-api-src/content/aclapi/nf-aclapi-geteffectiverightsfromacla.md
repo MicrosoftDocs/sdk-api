@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-security-trustee-l1-1-1.dll
--	advapi32legacy.dll
+ - Advapi32.dll
+ - API-MS-Win-security-trustee-l1-1-1.dll
+ - advapi32legacy.dll
 api_name:
--	GetEffectiveRightsFromAcl
--	GetEffectiveRightsFromAclA
--	GetEffectiveRightsFromAclW
+ - GetEffectiveRightsFromAcl
+ - GetEffectiveRightsFromAclA
+ - GetEffectiveRightsFromAclW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

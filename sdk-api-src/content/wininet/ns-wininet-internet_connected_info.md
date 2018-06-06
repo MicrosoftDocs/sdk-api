@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_CONNECTED_INFO
+ - INTERNET_CONNECTED_INFO
 product: Windows
 targetos: Windows
 req.lib: 

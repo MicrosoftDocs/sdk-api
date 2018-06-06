@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmFileManagementType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fsrm.h
+ - Fsrm.h
 api_name:
--	FsrmFileManagementType
+ - FsrmFileManagementType
 product: Windows
 targetos: Windows
 req.lib: 

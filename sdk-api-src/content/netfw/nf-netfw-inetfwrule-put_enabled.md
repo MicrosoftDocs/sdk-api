@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
+ - FirewallAPI.dll
 api_name:
--	INetFwRule.Enabled
--	INetFwRule.get_Enabled
--	INetFwRule.put_Enabled
+ - INetFwRule.Enabled
+ - INetFwRule.get_Enabled
+ - INetFwRule.put_Enabled
 product: Windows
 targetos: Windows
 req.lib: 

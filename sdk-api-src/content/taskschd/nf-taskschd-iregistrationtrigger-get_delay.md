@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	IRegistrationTrigger.Delay
--	IRegistrationTrigger.get_Delay
--	IRegistrationTrigger.put_Delay
+ - IRegistrationTrigger.Delay
+ - IRegistrationTrigger.get_Delay
+ - IRegistrationTrigger.put_Delay
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_EVENTTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Uiribbon.h
+ - Uiribbon.h
 api_name:
--	UI_EVENTTYPE
+ - UI_EVENTTYPE
 product: Windows
 targetos: Windows
 req.lib: 

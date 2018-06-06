@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	manipulations.h
+ - manipulations.h
 api_name:
--	IInertiaProcessor.BoundaryLeft
--	IInertiaProcessor.get_BoundaryLeft
--	IInertiaProcessor.put_BoundaryLeft
+ - IInertiaProcessor.BoundaryLeft
+ - IInertiaProcessor.get_BoundaryLeft
+ - IInertiaProcessor.put_BoundaryLeft
 product: Windows
 targetos: Windows
 req.lib: 

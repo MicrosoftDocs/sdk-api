@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMI_METADATA_SIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	emi.h
+ - emi.h
 api_name:
--	EMI_METADATA_SIZE
+ - EMI_METADATA_SIZE
 product: Windows
 targetos: Windows
 req.lib: 

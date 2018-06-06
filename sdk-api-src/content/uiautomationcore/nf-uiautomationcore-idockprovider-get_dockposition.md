@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Uiautomationcore.dll
+ - Uiautomationcore.dll
 api_name:
--	IDockProvider.DockPosition
--	IDockProvider.get_DockPosition
+ - IDockProvider.DockPosition
+ - IDockProvider.get_DockPosition
 product: Windows
 targetos: Windows
 req.lib: 

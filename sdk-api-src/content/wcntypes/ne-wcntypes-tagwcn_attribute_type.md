@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_ATTRIBUTE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wcntypes.h
+ - wcntypes.h
 api_name:
--	WCN_ATTRIBUTE_TYPE
+ - WCN_ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

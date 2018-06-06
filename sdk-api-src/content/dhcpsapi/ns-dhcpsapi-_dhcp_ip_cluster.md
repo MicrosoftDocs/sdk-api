@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_IP_CLUSTER, *LPDHCP_IP_CLUSTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_IP_CLUSTER
+ - DHCP_IP_CLUSTER
 product: Windows
 targetos: Windows
 req.lib: 

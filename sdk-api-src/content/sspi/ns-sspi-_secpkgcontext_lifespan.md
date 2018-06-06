@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_Lifespan, *PSecPkgContext_Lifespan
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgContext_Lifespan
+ - SecPkgContext_Lifespan
 product: Windows
 targetos: Windows
 req.lib: 

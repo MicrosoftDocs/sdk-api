@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Hnetcfg.dll
+ - Hnetcfg.dll
 api_name:
--	INetSharingPrivateConnectionCollection.get_Count
+ - INetSharingPrivateConnectionCollection.get_Count
 product: Windows
 targetos: Windows
 req.lib: 

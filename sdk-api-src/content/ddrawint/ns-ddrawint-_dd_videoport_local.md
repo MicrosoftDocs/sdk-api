@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_VIDEOPORT_LOCAL
+ - DD_VIDEOPORT_LOCAL
 product: Windows
 targetos: Windows
 req.lib: 

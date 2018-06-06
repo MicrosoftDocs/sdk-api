@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkCollector.DynamicRendering
--	IInkCollector.get_DynamicRendering
--	IInkCollector.put_DynamicRendering
--	put_DynamicRendering
--	IInkCollector.put_DynamicRendering
--	InkCollector.get_DynamicRendering
--	InkCollector.put_DynamicRendering
+ - IInkCollector.DynamicRendering
+ - IInkCollector.get_DynamicRendering
+ - IInkCollector.put_DynamicRendering
+ - put_DynamicRendering
+ - IInkCollector.put_DynamicRendering
+ - InkCollector.get_DynamicRendering
+ - InkCollector.put_DynamicRendering
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

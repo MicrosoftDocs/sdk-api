@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winioctl.h
+ - winioctl.h
 api_name:
--	STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

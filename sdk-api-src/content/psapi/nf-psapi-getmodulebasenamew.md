@@ -29,25 +29,25 @@ req.type-library:
 tech.root: 
 req.typenames: PSHNOTIFY, *LPPSHNOTIFY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	Psapi.dll
--	Psapi.dll
--	API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
--	KernelBase.dll
--	API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
--	API-Ms-Win-Core-PsAPI-L1-1-0.dll
+ - Kernel32.dll
+ - Psapi.dll
+ - Psapi.dll
+ - API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
+ - API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
--	GetModuleBaseName
--	GetModuleBaseNameA
--	GetModuleBaseNameW
--	K32GetModuleBaseName
--	K32GetModuleBaseNameW
--	K32GetModuleBaseNameA
+ - GetModuleBaseName
+ - GetModuleBaseNameA
+ - GetModuleBaseNameW
+ - K32GetModuleBaseName
+ - K32GetModuleBaseNameW
+ - K32GetModuleBaseNameA
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP

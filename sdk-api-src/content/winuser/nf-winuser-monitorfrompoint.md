@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	user32.dll
--	Ext-MS-Win-NTUser-Misc-l1-1-0.dll
--	Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
--	minuser.dll
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
 api_name:
--	MonitorFromPoint
+ - MonitorFromPoint
 product: Windows
 targetos: Windows
 req.lib: User32.lib

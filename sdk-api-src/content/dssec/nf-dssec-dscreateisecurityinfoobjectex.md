@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	DSSec.dll
+ - DSSec.dll
 api_name:
--	DSCreateISecurityInfoObjectEx
+ - DSCreateISecurityInfoObjectEx
 product: Windows
 targetos: Windows
 req.lib: DSSec.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_REQUEST_AUTH_TYPE
+ - HTTP_REQUEST_AUTH_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

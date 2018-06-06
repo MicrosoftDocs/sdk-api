@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_ADDRESS_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Iphlpapi.dll
+ - Iphlpapi.dll
 api_name:
--	SetPerTcpConnectionEStats
+ - SetPerTcpConnectionEStats
 product: Windows
 targetos: Windows
 req.lib: Iphlpapi.lib

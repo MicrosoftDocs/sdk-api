@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRACE_PROVIDER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	TRACE_PROVIDER_INFO
+ - TRACE_PROVIDER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

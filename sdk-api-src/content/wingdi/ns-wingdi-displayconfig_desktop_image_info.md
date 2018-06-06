@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wingdi.h
+ - wingdi.h
 api_name:
--	DISPLAYCONFIG_DESKTOP_IMAGE_INFO
+ - DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

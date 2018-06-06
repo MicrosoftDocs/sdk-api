@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESS_INFORMATION, *PPROCESS_INFORMATION, *LPPROCESS_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
--	processthreadsapi.h
+ - WinBase.h
+ - processthreadsapi.h
 api_name:
--	PROCESS_INFORMATION
+ - PROCESS_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

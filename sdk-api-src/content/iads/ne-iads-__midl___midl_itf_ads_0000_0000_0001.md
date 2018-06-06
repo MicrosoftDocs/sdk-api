@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADSTYPEENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADSTYPEENUM
+ - ADSTYPEENUM
 product: Windows
 targetos: Windows
 req.lib: 

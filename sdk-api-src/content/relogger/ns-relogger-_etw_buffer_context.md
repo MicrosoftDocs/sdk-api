@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ETW_BUFFER_CONTEXT, *PETW_BUFFER_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	relogger.h
+ - relogger.h
 api_name:
--	ETW_BUFFER_CONTEXT
+ - ETW_BUFFER_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

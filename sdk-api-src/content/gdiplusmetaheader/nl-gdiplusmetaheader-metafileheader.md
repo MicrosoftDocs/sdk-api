@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	gdiplusmetaheader.h
+ - gdiplusmetaheader.h
 api_name:
--	MetafileHeader
+ - MetafileHeader
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

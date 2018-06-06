@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_PLAYBACK_LOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	DVD_PLAYBACK_LOCATION
+ - DVD_PLAYBACK_LOCATION
 product: Windows
 targetos: Windows
 req.lib: 

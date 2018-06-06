@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	rtscom.h
+ - rtscom.h
 api_name:
--	IRealTimeStylus3
+ - IRealTimeStylus3
 product: Windows
 targetos: Windows
 req.lib: 

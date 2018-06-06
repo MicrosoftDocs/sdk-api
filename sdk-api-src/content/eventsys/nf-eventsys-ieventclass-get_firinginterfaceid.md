@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EOC_ChangeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	eventsys.h
+ - eventsys.h
 api_name:
--	IEventClass.FiringInterfaceID
--	IEventClass.get_FiringInterfaceID
--	IEventClass.put_FiringInterfaceID
+ - IEventClass.FiringInterfaceID
+ - IEventClass.get_FiringInterfaceID
+ - IEventClass.put_FiringInterfaceID
 product: Windows
 targetos: Windows
 req.lib: 

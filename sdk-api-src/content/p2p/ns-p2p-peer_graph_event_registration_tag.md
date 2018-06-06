@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_GRAPH_EVENT_REGISTRATION, *PPEER_GRAPH_EVENT_REGISTRATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PEER_GRAPH_EVENT_REGISTRATION
+ - PEER_GRAPH_EVENT_REGISTRATION
 product: Windows
 targetos: Windows
 req.lib: 

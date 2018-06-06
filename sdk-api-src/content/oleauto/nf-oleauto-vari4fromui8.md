@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REGKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	OleAut32.dll
+ - OleAut32.dll
 api_name:
--	VarI4FromUI8
+ - VarI4FromUI8
 product: Windows
 targetos: Windows
 req.lib: OleAut32.lib

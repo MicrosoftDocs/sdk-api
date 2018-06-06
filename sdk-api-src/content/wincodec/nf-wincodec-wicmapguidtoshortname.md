@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICTiffCompressionOption
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WindowsCodecs.dll
+ - WindowsCodecs.dll
 api_name:
--	WICMapGuidToShortName
+ - WICMapGuidToShortName
 product: Windows
 targetos: Windows
 req.lib: WindowsCodecs.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RESTOREPOINTINFOW, *PRESTOREPOINTINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SRRestorePtAPI.h
+ - SRRestorePtAPI.h
 api_name:
--	RESTOREPOINTINFO
--	RESTOREPOINTINFOA
--	RESTOREPOINTINFOW
+ - RESTOREPOINTINFO
+ - RESTOREPOINTINFOA
+ - RESTOREPOINTINFOW
 product: Windows
 targetos: Windows
 req.lib: 

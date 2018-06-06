@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHChangeDWORDAsIDList, *LPSHChangeDWORDAsIDList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	SHChangeDWORDAsIDList
+ - SHChangeDWORDAsIDList
 product: Windows
 targetos: Windows
 req.lib: 

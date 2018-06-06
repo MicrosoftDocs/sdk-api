@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
--	API-MS-Win-Core-NamedPipe-L1-2-2.dll
--	Kernel32Legacy.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+ - Kernel32Legacy.dll
+ - KernelBase.dll
 api_name:
--	CallNamedPipe
--	CallNamedPipeA
--	CallNamedPipeW
+ - CallNamedPipe
+ - CallNamedPipeA
+ - CallNamedPipeW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

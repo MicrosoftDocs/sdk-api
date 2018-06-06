@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_DEVICE_STATE_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D3D10.dll
+ - D3D10.dll
 api_name:
--	D3D10StateBlockMaskDifference
+ - D3D10StateBlockMaskDifference
 product: Windows
 targetos: Windows
 req.lib: D3D10.lib

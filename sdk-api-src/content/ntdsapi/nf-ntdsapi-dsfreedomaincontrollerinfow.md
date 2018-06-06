@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPL_OP_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdsapi.dll
--	API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
--	KernelBase.dll
--	API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+ - Ntdsapi.dll
+ - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
--	DsFreeDomainControllerInfo
--	DsFreeDomainControllerInfoA
--	DsFreeDomainControllerInfoW
+ - DsFreeDomainControllerInfo
+ - DsFreeDomainControllerInfoA
+ - DsFreeDomainControllerInfoW
 product: Windows
 targetos: Windows
 req.lib: Ntdsapi.lib

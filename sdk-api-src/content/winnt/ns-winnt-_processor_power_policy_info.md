@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESSOR_POWER_POLICY_INFO, *PPROCESSOR_POWER_POLICY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	PROCESSOR_POWER_POLICY_INFO
+ - PROCESSOR_POWER_POLICY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

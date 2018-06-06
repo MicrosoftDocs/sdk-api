@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCRYPTED_LM_OWF_PASSWORD, *PENCRYPTED_LM_OWF_PASSWORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MsChapp.h
+ - MsChapp.h
 api_name:
--	ENCRYPTED_LM_OWF_PASSWORD
+ - ENCRYPTED_LM_OWF_PASSWORD
 product: Windows
 targetos: Windows
 req.lib: 

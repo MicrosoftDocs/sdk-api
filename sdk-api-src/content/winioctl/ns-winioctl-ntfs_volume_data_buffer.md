@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NTFS_VOLUME_DATA_BUFFER, *PNTFS_VOLUME_DATA_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	NTFS_VOLUME_DATA_BUFFER
+ - NTFS_VOLUME_DATA_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

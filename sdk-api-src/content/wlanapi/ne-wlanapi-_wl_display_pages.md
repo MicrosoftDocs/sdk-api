@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WL_DISPLAY_PAGES
+ - WL_DISPLAY_PAGES
 product: Windows
 targetos: Windows
 req.lib: 

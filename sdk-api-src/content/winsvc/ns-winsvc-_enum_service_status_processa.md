@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ENUM_SERVICE_STATUS_PROCESSA, *LPENUM_SERVICE_STATUS_PROCESSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	ENUM_SERVICE_STATUS_PROCESS
--	ENUM_SERVICE_STATUS_PROCESSA
--	ENUM_SERVICE_STATUS_PROCESSW
+ - ENUM_SERVICE_STATUS_PROCESS
+ - ENUM_SERVICE_STATUS_PROCESSA
+ - ENUM_SERVICE_STATUS_PROCESSW
 product: Windows
 targetos: Windows
 req.lib: 

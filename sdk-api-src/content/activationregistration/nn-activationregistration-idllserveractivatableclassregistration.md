@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ThreadingType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	activationregistration.h
+ - activationregistration.h
 api_name:
--	IDllServerActivatableClassRegistration
+ - IDllServerActivatableClassRegistration
 product: Windows
 targetos: Windows
 req.lib: 

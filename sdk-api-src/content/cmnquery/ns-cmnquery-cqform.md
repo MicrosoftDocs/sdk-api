@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CQFORM, *LPCQFORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cmnquery.h
+ - Cmnquery.h
 api_name:
--	CQFORM
+ - CQFORM
 product: Windows
 targetos: Windows
 req.lib: 

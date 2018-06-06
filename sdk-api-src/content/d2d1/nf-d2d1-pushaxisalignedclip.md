@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_WINDOW_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D2d1.dll
+ - D2d1.dll
 api_name:
--	ID2D1RenderTarget::PushAxisAlignedClip
+ - ID2D1RenderTarget::PushAxisAlignedClip
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

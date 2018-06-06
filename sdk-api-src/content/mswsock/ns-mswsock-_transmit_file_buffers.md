@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSMIT_FILE_BUFFERS, *PTRANSMIT_FILE_BUFFERS, *LPTRANSMIT_FILE_BUFFERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mswsock.h
+ - mswsock.h
 api_name:
--	TRANSMIT_FILE_BUFFERS
+ - TRANSMIT_FILE_BUFFERS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	KtmTypes.h
+ - KtmTypes.h
 api_name:
--	TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+ - TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 product: Windows
 targetos: Windows
 req.lib: 

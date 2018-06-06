@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_URL_TRUST_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_URL_TRUST_STATUS
+ - MF_URL_TRUST_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

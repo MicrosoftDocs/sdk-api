@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSIFILEHASHINFO, *PMSIFILEHASHINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msi.h
+ - Msi.h
 api_name:
--	MSIFILEHASHINFO
+ - MSIFILEHASHINFO
 product: Windows
 targetos: Windows
 req.lib: 

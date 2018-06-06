@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPNG_ADDRESS, *PIPNG_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Madcapcl.h
+ - Madcapcl.h
 api_name:
--	IPNG_ADDRESS
+ - IPNG_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

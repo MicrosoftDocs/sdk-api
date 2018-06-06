@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wofapi.h
+ - wofapi.h
 api_name:
--	WOF_FILE_COMPRESSION_INFO_V1
+ - WOF_FILE_COMPRESSION_INFO_V1
 product: Windows
 targetos: Windows
 req.lib: 

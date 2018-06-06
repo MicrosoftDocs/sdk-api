@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAP_VALUETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	MAP_VALUETYPE
+ - MAP_VALUETYPE
 product: Windows
 targetos: Windows
 req.lib: 

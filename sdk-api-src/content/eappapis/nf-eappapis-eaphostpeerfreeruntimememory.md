@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EapPacket
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	eapphost.dll
+ - eapphost.dll
 api_name:
--	EapHostPeerFreeRuntimeMemory
+ - EapHostPeerFreeRuntimeMemory
 product: Windows
 targetos: Windows
 req.lib: Eappprxy.lib

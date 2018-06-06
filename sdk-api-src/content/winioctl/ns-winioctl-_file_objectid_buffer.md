@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_OBJECTID_BUFFER, *PFILE_OBJECTID_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FILE_OBJECTID_BUFFER
+ - FILE_OBJECTID_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

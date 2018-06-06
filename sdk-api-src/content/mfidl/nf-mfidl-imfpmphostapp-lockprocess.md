@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mfidl.h
+ - Mfidl.h
 api_name:
--	IMFPMPHostApp.LockProcess
+ - IMFPMPHostApp.LockProcess
 product: Windows
 targetos: Windows
 req.lib: 

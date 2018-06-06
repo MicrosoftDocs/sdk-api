@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_SERVICE_CONFIG_SSL_CCS_KEY, *PHTTP_SERVICE_CONFIG_SSL_CCS_KEY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_SERVICE_CONFIG_SSL_CCS_KEY
+ - HTTP_SERVICE_CONFIG_SSL_CCS_KEY
 product: Windows
 targetos: Windows
 req.lib: 

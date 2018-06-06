@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_SCHEDULE_TYPE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FaxComex.h
+ - FaxComex.h
 api_name:
--	FAX_SCHEDULE_TYPE_ENUM
+ - FAX_SCHEDULE_TYPE_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

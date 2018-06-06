@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	dxmini.h
+ - dxmini.h
 api_name:
--	DxFlipVideoPort
+ - DxFlipVideoPort
 product: Windows
 targetos: Windows
 req.lib: 

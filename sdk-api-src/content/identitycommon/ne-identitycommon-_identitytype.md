@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IDENTITY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Identitycommon.h
+ - Identitycommon.h
 api_name:
--	IDENTITY_TYPE
+ - IDENTITY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

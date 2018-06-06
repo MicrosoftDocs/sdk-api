@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OFFLINEFILES_SYNC_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CscObj.h
+ - CscObj.h
 api_name:
--	OFFLINEFILES_SYNC_STATE
+ - OFFLINEFILES_SYNC_STATE
 product: Windows
 targetos: Windows
 req.lib: CscApi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gdiplusstringformat.h
+ - gdiplusstringformat.h
 api_name:
--	StringFormat.StringFormat
+ - StringFormat.StringFormat
 product: Windows
 targetos: Windows
 req.lib: 

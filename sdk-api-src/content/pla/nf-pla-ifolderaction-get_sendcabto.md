@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IFolderAction.SendCabTo
--	IFolderAction.get_SendCabTo
--	IFolderAction.put_SendCabTo
+ - IFolderAction.SendCabTo
+ - IFolderAction.get_SendCabTo
+ - IFolderAction.put_SendCabTo
 product: Windows
 targetos: Windows
 req.lib: 

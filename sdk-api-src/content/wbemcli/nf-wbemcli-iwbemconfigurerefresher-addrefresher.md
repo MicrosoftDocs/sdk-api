@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wbemuuid.lib
--	Wbemuuid.dll
+ - Wbemuuid.lib
+ - Wbemuuid.dll
 api_name:
--	IWbemConfigureRefresher.AddRefresher
+ - IWbemConfigureRefresher.AddRefresher
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDS_TRANSPORTCLIENT_REQUEST, *PWDS_TRANSPORTCLIENT_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstci.h
+ - Wdstci.h
 api_name:
--	WDS_TRANSPORTCLIENT_REQUEST
+ - WDS_TRANSPORTCLIENT_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

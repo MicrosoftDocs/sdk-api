@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	VIRTUAL_STORAGE_TYPE
+ - VIRTUAL_STORAGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

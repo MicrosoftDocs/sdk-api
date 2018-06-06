@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_PROCESS_INFO, *PRM_PROCESS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RestartManager.h
+ - RestartManager.h
 api_name:
--	RM_PROCESS_INFO
+ - RM_PROCESS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

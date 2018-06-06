@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
+ - tuner.h
 api_name:
--	IDVBSLocator.get_Azimuth
+ - IDVBSLocator.get_Azimuth
 product: Windows
 targetos: Windows
 req.lib: 

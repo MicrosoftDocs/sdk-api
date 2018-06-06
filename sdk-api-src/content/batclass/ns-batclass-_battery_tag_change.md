@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BATTERY_TAG_CHANGE, *PBATTERY_TAG_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Batclass.h
+ - Batclass.h
 api_name:
--	BATTERY_TAG_CHANGE
+ - BATTERY_TAG_CHANGE
 product: Windows
 targetos: Windows
 req.lib: 

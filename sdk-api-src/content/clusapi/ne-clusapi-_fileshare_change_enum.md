@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILESHARE_CHANGE_ENUM, *PFILESHARE_CHANGE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	FILESHARE_CHANGE_ENUM
+ - FILESHARE_CHANGE_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

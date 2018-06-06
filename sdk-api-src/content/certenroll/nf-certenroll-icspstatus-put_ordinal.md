@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	ICspStatus.Ordinal
--	ICspStatus.get_Ordinal
--	ICspStatus.put_Ordinal
+ - ICspStatus.Ordinal
+ - ICspStatus.get_Ordinal
+ - ICspStatus.put_Ordinal
 product: Windows
 targetos: Windows
 req.lib: 

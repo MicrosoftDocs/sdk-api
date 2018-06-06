@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: X509EnrollmentAuthFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certcli.dll
+ - Certcli.dll
 api_name:
--	ICertRequest3.GetCertificate
--	ICertRequest2.GetCertificate
--	ICertRequest.GetCertificate
--	CCertRequest.GetCertificate
+ - ICertRequest3.GetCertificate
+ - ICertRequest2.GetCertificate
+ - ICertRequest.GetCertificate
+ - CCertRequest.GetCertificate
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

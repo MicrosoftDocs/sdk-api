@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DispatcherQueue.h
+ - DispatcherQueue.h
 api_name:
--	DISPATCHERQUEUE_THREAD_TYPE
+ - DISPATCHERQUEUE_THREAD_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

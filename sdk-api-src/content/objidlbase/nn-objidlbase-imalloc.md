@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: THDTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	objidlbase.h
+ - objidlbase.h
 api_name:
--	IMalloc
+ - IMalloc
 product: Windows
 targetos: Windows
 req.lib: 

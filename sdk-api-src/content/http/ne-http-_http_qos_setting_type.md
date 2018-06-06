@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_QOS_SETTING_TYPE
+ - HTTP_QOS_SETTING_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

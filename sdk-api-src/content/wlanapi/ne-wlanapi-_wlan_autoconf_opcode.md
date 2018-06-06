@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_AUTOCONF_OPCODE, *PWLAN_AUTOCONF_OPCODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_AUTOCONF_OPCODE
+ - WLAN_AUTOCONF_OPCODE
 product: Windows
 targetos: Windows
 req.lib: 

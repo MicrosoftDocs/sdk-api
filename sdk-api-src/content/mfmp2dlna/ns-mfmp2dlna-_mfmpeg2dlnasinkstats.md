@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFMPEG2DLNASINKSTATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfmp2dlna.h
+ - mfmp2dlna.h
 api_name:
--	MFMPEG2DLNASINKSTATS
+ - MFMPEG2DLNASINKSTATS
 product: Windows
 targetos: Windows
 req.lib: 

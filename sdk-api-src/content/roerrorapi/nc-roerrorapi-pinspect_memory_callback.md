@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RO_INIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	roerrorapi.h
+ - roerrorapi.h
 api_name:
--	PINSPECT_MEMORY_CALLBACK
+ - PINSPECT_MEMORY_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

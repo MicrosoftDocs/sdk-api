@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_ESTATS_SND_CONG_ROS_v0, *PTCP_ESTATS_SND_CONG_ROS_v0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpestats.h
+ - Tcpestats.h
 api_name:
--	TCP_ESTATS_SND_CONG_ROS_v0
+ - TCP_ESTATS_SND_CONG_ROS_v0
 product: Windows
 targetos: Windows
 req.lib: 

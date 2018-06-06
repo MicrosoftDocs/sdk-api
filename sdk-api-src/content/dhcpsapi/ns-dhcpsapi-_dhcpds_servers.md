@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPDS_SERVERS, *LPDHCPDS_SERVERS, *PDHCPDS_SERVERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCPDS_SERVERS
+ - DHCPDS_SERVERS
 product: Windows
 targetos: Windows
 req.lib: 

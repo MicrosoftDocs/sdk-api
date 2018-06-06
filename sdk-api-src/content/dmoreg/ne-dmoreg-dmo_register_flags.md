@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dmoreg.h
+ - Dmoreg.h
 api_name:
--	DMO_REGISTER_FLAGS
+ - DMO_REGISTER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: Dmoguids.lib; Msdmo.lib

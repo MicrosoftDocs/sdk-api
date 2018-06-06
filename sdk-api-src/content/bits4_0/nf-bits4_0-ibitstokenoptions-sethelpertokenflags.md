@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_CERT_STORE_LOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bits4_0.h
+ - Bits4_0.h
 api_name:
--	IBitsTokenOptions.SetHelperTokenFlags
+ - IBitsTokenOptions.SetHelperTokenFlags
 product: Windows
 targetos: Windows
 req.lib: 

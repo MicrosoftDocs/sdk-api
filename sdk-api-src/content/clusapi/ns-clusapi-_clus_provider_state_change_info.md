@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_PROVIDER_STATE_CHANGE_INFO, *PCLUS_PROVIDER_STATE_CHANGE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_PROVIDER_STATE_CHANGE_INFO
+ - CLUS_PROVIDER_STATE_CHANGE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

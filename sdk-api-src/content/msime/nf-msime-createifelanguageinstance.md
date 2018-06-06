@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMEUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msime.h
+ - msime.h
 api_name:
--	CreateIFELanguageInstance
+ - CreateIFELanguageInstance
 product: Windows
 targetos: Windows
 req.lib: 

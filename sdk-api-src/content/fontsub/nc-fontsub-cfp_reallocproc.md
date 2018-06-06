@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	FontSub.h
+ - FontSub.h
 api_name:
--	CFP_REALLOCPROC
+ - CFP_REALLOCPROC
 product: Windows
 targetos: Windows
 req.lib: 

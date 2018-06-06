@@ -29,14 +29,14 @@ req.type-library: Msxml.tlb
 tech.root: 
 req.typenames: XHR_CRED_PROMPT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msxml6.h
+ - msxml6.h
 api_name:
--	XHR_CRED_PROMPT
+ - XHR_CRED_PROMPT
 product: Windows
 targetos: Windows
 req.lib: 

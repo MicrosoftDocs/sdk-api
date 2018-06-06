@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_PROCESS_INFOW, *PWTS_PROCESS_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTS_PROCESS_INFO
--	WTS_PROCESS_INFOA
--	WTS_PROCESS_INFOW
+ - WTS_PROCESS_INFO
+ - WTS_PROCESS_INFOA
+ - WTS_PROCESS_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

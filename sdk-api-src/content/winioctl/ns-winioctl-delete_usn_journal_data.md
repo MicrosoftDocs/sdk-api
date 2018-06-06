@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DELETE_USN_JOURNAL_DATA
+ - DELETE_USN_JOURNAL_DATA
 product: Windows
 targetos: Windows
 req.lib: 

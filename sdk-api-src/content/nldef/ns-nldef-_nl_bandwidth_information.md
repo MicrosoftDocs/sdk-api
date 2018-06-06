@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_BANDWIDTH_INFORMATION, *PNL_BANDWIDTH_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nldef.h
+ - Nldef.h
 api_name:
--	NL_BANDWIDTH_INFORMATION
+ - NL_BANDWIDTH_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

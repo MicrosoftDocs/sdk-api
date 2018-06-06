@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FVSHOWINFO, *LPFVSHOWINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlobj.h
+ - Shlobj.h
 api_name:
--	FVSHOWINFO
+ - FVSHOWINFO
 product: Windows
 targetos: Windows
 req.lib: 

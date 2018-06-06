@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_CONTROL_PARAM, *PCSV_CONTROL_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_CONTROL_PARAM
+ - CSV_CONTROL_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

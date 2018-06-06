@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_SUBPICTURE_LANG_EXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	DVD_SUBPICTURE_LANG_EXT
+ - DVD_SUBPICTURE_LANG_EXT
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

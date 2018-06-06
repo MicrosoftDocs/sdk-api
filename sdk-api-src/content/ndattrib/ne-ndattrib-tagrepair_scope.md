@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ndattrib.h
+ - Ndattrib.h
 api_name:
--	REPAIR_SCOPE
+ - REPAIR_SCOPE
 product: Windows
 targetos: Windows
 req.lib: 

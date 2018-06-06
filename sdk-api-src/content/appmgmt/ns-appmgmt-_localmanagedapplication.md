@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOCALMANAGEDAPPLICATION, *PLOCALMANAGEDAPPLICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Appmgmt.h
+ - Appmgmt.h
 api_name:
--	LOCALMANAGEDAPPLICATION
+ - LOCALMANAGEDAPPLICATION
 product: Windows
 targetos: Windows
 req.lib: 

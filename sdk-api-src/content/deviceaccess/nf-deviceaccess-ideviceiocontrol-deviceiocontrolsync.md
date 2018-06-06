@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEOMEMORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Deviceaccess.lib
--	Deviceaccess.dll
+ - Deviceaccess.lib
+ - Deviceaccess.dll
 api_name:
--	IDeviceIoControl.DeviceIoControlSync
+ - IDeviceIoControl.DeviceIoControlSync
 product: Windows
 targetos: Windows
 req.lib: Deviceaccess.lib

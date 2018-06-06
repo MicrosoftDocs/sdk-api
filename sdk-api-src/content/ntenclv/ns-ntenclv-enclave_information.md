@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCLAVE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntenclv.h
+ - ntenclv.h
 api_name:
--	ENCLAVE_INFORMATION
+ - ENCLAVE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

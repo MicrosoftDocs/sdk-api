@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlwapi.h
+ - Shlwapi.h
 api_name:
--	SHLocalStrDup
--	SHLocalStrDupA
--	SHLocalStrDupW
+ - SHLocalStrDup
+ - SHLocalStrDupA
+ - SHLocalStrDupW
 product: Windows
 targetos: Windows
 req.lib: 

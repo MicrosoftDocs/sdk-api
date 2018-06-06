@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PS_SHAPER_STATS, *PPS_SHAPER_STATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntddpsch.h
+ - Ntddpsch.h
 api_name:
--	PS_SHAPER_STATS
+ - PS_SHAPER_STATS
 product: Windows
 targetos: Windows
 req.lib: 

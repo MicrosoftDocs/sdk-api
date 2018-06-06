@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSBX_MACHINE_CONNECT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tssbx.h
+ - Tssbx.h
 api_name:
--	WTSSBX_MACHINE_CONNECT_INFO
+ - WTSSBX_MACHINE_CONNECT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

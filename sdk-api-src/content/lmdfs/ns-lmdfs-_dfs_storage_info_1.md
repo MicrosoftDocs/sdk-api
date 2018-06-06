@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DFS_STORAGE_INFO_1, *PDFS_STORAGE_INFO_1, *LPDFS_STORAGE_INFO_1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LmDfs.h
+ - LmDfs.h
 api_name:
--	DFS_STORAGE_INFO_1
+ - DFS_STORAGE_INFO_1
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITS_FILE_PROPERTY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	BluetoothAPIs.h
+ - BluetoothAPIs.h
 api_name:
--	PFN_AUTHENTICATION_CALLBACK_EX
+ - PFN_AUTHENTICATION_CALLBACK_EX
 product: Windows
 targetos: Windows
 req.lib: 

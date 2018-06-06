@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
+ - MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

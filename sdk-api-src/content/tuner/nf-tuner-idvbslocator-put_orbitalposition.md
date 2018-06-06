@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
+ - tuner.h
 api_name:
--	IDVBSLocator.put_OrbitalPosition
+ - IDVBSLocator.put_OrbitalPosition
 product: Windows
 targetos: Windows
 req.lib: 

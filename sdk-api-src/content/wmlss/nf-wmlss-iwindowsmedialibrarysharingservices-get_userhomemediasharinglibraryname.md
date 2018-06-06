@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WMPMediaSharing.dll
+ - WMPMediaSharing.dll
 api_name:
--	IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
+ - IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CALLFRAME_COPY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Callobj.h
+ - Callobj.h
 api_name:
--	ICallIndirect.GetStackSize
+ - ICallIndirect.GetStackSize
 product: Windows
 targetos: Windows
 req.lib: 

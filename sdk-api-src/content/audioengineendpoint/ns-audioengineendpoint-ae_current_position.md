@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Audioengineendpoint.h
+ - Audioengineendpoint.h
 api_name:
--	AE_CURRENT_POSITION
+ - AE_CURRENT_POSITION
 product: Windows
 targetos: Windows
 req.lib: 

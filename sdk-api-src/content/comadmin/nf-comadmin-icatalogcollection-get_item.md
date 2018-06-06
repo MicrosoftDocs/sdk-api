@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: COMAdminTxIsolationLevelOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ComAdmin.h
+ - ComAdmin.h
 api_name:
--	ICatalogCollection.Item
--	ICatalogCollection.get_Item
+ - ICatalogCollection.Item
+ - ICatalogCollection.get_Item
 product: Windows
 targetos: Windows
 req.lib: 

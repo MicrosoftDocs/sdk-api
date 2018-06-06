@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIPASTEENTRYA, *POLEUIPASTEENTRYA, *LPOLEUIPASTEENTRYA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUIPASTEENTRY
--	OLEUIPASTEENTRYA
--	OLEUIPASTEENTRYW
+ - OLEUIPASTEENTRY
+ - OLEUIPASTEENTRYA
+ - OLEUIPASTEENTRYW
 product: Windows
 targetos: Windows
 req.lib: 

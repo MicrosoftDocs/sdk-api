@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_BROWSE_DLG_CONFIG_HA, *PPDH_BROWSE_DLG_CONFIG_HA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_BROWSE_DLG_CONFIG_H
--	PDH_BROWSE_DLG_CONFIG_HA
--	PDH_BROWSE_DLG_CONFIG_HW
+ - PDH_BROWSE_DLG_CONFIG_H
+ - PDH_BROWSE_DLG_CONFIG_HA
+ - PDH_BROWSE_DLG_CONFIG_HW
 product: Windows
 targetos: Windows
 req.lib: 

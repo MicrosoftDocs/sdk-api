@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AM_FRAMESTEP_STEP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Apphelp.dll
--	Ext-MS-Win-AppCompat-AppHelp-L1-1-0.dll
+ - Apphelp.dll
+ - Ext-MS-Win-AppCompat-AppHelp-L1-1-0.dll
 api_name:
--	ApphelpCheckShellObject
+ - ApphelpCheckShellObject
 product: Windows
 targetos: Windows
 req.lib: 

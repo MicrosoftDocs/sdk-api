@@ -29,17 +29,17 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPIApplication.Shared
--	IRDPSRAPIApplication.get_Shared
--	IRDPSRAPIApplication.put_Shared
--	RDPSRAPIApplication.Shared
+ - IRDPSRAPIApplication.Shared
+ - IRDPSRAPIApplication.get_Shared
+ - IRDPSRAPIApplication.put_Shared
+ - RDPSRAPIApplication.Shared
 product: Windows
 targetos: Windows
 req.lib: 

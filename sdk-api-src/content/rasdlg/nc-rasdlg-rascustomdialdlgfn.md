@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RASNAPSTATE, *LPRASNAPSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Rasdlg.h
+ - Rasdlg.h
 api_name:
--	RasCustomDialDlg
--	RasCustomDialDlgA
--	RasCustomDialDlgW
+ - RasCustomDialDlg
+ - RasCustomDialDlgA
+ - RasCustomDialDlgW
 product: Windows
 targetos: Windows
 req.lib: 

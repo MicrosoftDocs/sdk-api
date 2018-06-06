@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_INFO_LEVELS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-File-l1-2-2.dll
--	KernelBase.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
 api_name:
--	FindNextStreamW
+ - FindNextStreamW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

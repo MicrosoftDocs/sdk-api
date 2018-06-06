@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_REPARSE_POINT_PROP, *PVDS_REPARSE_POINT_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
+ - Vds.h
 api_name:
--	VDS_REPARSE_POINT_PROP
+ - VDS_REPARSE_POINT_PROP
 product: Windows
 targetos: Windows
 req.lib: 

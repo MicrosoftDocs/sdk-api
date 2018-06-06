@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Comdlg32.dll
+ - Comdlg32.dll
 api_name:
--	IFileDialog2.SetNavigationRoot
+ - IFileDialog2.SetNavigationRoot
 product: Windows
 targetos: Windows
 req.lib: Comdlg32.lib

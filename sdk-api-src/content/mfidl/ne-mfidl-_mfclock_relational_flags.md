@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFCLOCK_RELATIONAL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFCLOCK_RELATIONAL_FLAGS
+ - MFCLOCK_RELATIONAL_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

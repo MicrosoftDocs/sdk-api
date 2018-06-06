@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IAMParse.Flush
+ - IAMParse.Flush
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	RegDisableReflectionKey
+ - RegDisableReflectionKey
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

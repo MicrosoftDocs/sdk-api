@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_SOURCE_READER_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfreadwrite.h
+ - mfreadwrite.h
 api_name:
--	IMFSourceReader.ReadSample
+ - IMFSourceReader.ReadSample
 product: Windows
 targetos: Windows
 req.lib: 

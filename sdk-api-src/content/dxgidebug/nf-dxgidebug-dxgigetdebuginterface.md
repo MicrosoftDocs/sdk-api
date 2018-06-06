@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dxgidebug.dll
+ - Dxgidebug.dll
 api_name:
--	DXGIGetDebugInterface
+ - DXGIGetDebugInterface
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
--	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
--	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
--	StrCmpI
--	StrCmpIW
+ - StrCmpI
+ - StrCmpIW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

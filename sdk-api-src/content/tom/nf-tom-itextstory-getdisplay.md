@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANCODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tom.h
+ - tom.h
 api_name:
--	ITextStory.GetDisplay
+ - ITextStory.GetDisplay
 product: Windows
 targetos: Windows
 req.lib: 

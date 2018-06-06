@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, *LPWSANAMESPACE_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsock2.h
+ - Winsock2.h
 api_name:
--	WSANAMESPACE_INFO
--	WSANAMESPACE_INFOA
--	WSANAMESPACE_INFOW
+ - WSANAMESPACE_INFO
+ - WSANAMESPACE_INFOA
+ - WSANAMESPACE_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

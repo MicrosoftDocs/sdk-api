@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_CONTROLLER_PROP, *PVDS_CONTROLLER_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_CONTROLLER_PROP
+ - VDS_CONTROLLER_PROP
 product: Windows
 targetos: Windows
 req.lib: 

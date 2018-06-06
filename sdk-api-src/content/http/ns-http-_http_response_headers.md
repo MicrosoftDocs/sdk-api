@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_RESPONSE_HEADERS, *PHTTP_RESPONSE_HEADERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_RESPONSE_HEADERS
+ - HTTP_RESPONSE_HEADERS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	WinSvc.h
+ - WinSvc.h
 api_name:
--	HandlerEx
+ - HandlerEx
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDENTIAL_ATTRIBUTEW, *PCREDENTIAL_ATTRIBUTEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinCred.h
+ - WinCred.h
 api_name:
--	CREDENTIAL_ATTRIBUTE
+ - CREDENTIAL_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.lib: 

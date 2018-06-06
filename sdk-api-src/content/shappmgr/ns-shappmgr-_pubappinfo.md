@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PUBAPPINFO, *PPUBAPPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shappmgr.h
+ - Shappmgr.h
 api_name:
--	PUBAPPINFO
+ - PUBAPPINFO
 product: Windows
 targetos: Windows
 req.lib: 

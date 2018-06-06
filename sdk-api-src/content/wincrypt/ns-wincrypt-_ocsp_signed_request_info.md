@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OCSP_SIGNED_REQUEST_INFO, *POCSP_SIGNED_REQUEST_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	OCSP_SIGNED_REQUEST_INFO
+ - OCSP_SIGNED_REQUEST_INFO
 product: Windows
 targetos: Windows
 req.lib: 

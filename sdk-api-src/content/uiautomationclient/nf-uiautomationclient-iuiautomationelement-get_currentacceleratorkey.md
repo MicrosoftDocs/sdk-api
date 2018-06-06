@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationElement.CurrentAcceleratorKey
--	IUIAutomationElement.get_CurrentAcceleratorKey
+ - IUIAutomationElement.CurrentAcceleratorKey
+ - IUIAutomationElement.get_CurrentAcceleratorKey
 product: Windows
 targetos: Windows
 req.lib: 

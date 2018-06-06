@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSManProxyAuthenticationFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WSMAuto.dll
+ - WSMAuto.dll
 api_name:
--	IWSManSession.BatchItems
--	IWSManSession.get_BatchItems
--	IWSManSession.put_BatchItems
+ - IWSManSession.BatchItems
+ - IWSManSession.get_BatchItems
+ - IWSManSession.put_BatchItems
 product: Windows
 targetos: Windows
 req.lib: WSManDisp.tlb

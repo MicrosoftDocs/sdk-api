@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
+ - PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
 product: Windows
 targetos: Windows
 req.lib: 

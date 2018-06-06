@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APO_CONNECTION_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Audioapotypes.h
+ - Audioapotypes.h
 api_name:
--	APO_CONNECTION_PROPERTY
+ - APO_CONNECTION_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

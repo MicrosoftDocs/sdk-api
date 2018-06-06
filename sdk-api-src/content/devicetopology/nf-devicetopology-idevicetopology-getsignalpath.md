@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ConnectorType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Devicetopology.h
+ - Devicetopology.h
 api_name:
--	IDeviceTopology.GetSignalPath
+ - IDeviceTopology.GetSignalPath
 product: Windows
 targetos: Windows
 req.lib: 

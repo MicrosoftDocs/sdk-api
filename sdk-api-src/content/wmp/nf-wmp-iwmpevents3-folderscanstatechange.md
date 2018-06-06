@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	IWMPEvents3.FolderScanStateChange
+ - IWMPEvents3.FolderScanStateChange
 product: Windows
 targetos: Windows
 req.lib: 

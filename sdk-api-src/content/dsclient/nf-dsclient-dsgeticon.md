@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dsuiext.dll
+ - Dsuiext.dll
 api_name:
--	DsGetIcon
+ - DsGetIcon
 product: Windows
 targetos: Windows
 req.lib: Dsuiext.lib

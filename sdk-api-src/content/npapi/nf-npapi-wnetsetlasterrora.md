@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NOTIFICATION_USER_INPUT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mpr.dll
+ - Mpr.dll
 api_name:
--	WNetSetLastError
--	WNetSetLastErrorA
+ - WNetSetLastError
+ - WNetSetLastErrorA
 product: Windows
 targetos: Windows
 req.lib: Mpr.lib

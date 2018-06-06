@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certenroll.dll
+ - Certenroll.dll
 api_name:
--	ICertificateAttestationChallenge.RequestID
--	ICertificateAttestationChallenge.get_RequestID
+ - ICertificateAttestationChallenge.RequestID
+ - ICertificateAttestationChallenge.get_RequestID
 product: Windows
 targetos: Windows
 req.lib: 

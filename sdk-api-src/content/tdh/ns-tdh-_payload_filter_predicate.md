@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	PAYLOAD_FILTER_PREDICATE
+ - PAYLOAD_FILTER_PREDICATE
 product: Windows
 targetos: Windows
 req.lib: 

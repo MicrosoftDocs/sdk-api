@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_PROPERTY, *PWCM_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wcmapi.dll
--	Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+ - Wcmapi.dll
+ - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
 api_name:
--	WcmFreeMemory
+ - WcmFreeMemory
 product: Windows
 targetos: Windows
 req.lib: Wcmapi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_CHANNEL_SELECTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1effects.h
+ - d2d1effects.h
 api_name:
--	D2D1_CHANNEL_SELECTOR
+ - D2D1_CHANNEL_SELECTOR
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

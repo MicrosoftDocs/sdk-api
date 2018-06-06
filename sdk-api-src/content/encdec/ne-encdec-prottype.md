@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ProtType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	encdec.h
+ - encdec.h
 api_name:
--	ProtType
+ - ProtType
 product: Windows
 targetos: Windows
 req.lib: 

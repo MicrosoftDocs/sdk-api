@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_GPU_PREFERENCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_6.h
+ - dxgi1_6.h
 api_name:
--	DXGI_GPU_PREFERENCE
+ - DXGI_GPU_PREFERENCE
 product: Windows
 targetos: Windows
 req.lib: 

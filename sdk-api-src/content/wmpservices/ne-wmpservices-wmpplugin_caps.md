@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPPlugin_Caps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmpservices.h
+ - wmpservices.h
 api_name:
--	WMPPlugin_Caps
+ - WMPPlugin_Caps
 product: Windows
 targetos: Windows
 req.lib: 

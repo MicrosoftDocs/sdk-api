@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECTL, *PRECTL, *LPRECTL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_QUERY_COMPLETION_ROUTINE
+ - DNS_QUERY_COMPLETION_ROUTINE
 product: Windows
 targetos: Windows
 req.lib: 

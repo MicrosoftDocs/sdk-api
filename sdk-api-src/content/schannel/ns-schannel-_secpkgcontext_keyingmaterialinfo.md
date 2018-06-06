@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_KeyingMaterialInfo, *PSecPkgContext_KeyingMaterialInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	schannel.h
+ - schannel.h
 api_name:
--	SecPkgContext_KeyingMaterial
--	SecPkgContext_KeyingMaterialA
--	SecPkgContext_KeyingMaterialW
+ - SecPkgContext_KeyingMaterial
+ - SecPkgContext_KeyingMaterialA
+ - SecPkgContext_KeyingMaterialW
 product: Windows
 targetos: Windows
 req.lib: 

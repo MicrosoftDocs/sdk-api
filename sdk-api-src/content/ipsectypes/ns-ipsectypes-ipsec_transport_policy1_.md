@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPSEC_TRANSPORT_POLICY1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipsectypes.h
+ - Ipsectypes.h
 api_name:
--	IPSEC_TRANSPORT_POLICY1
+ - IPSEC_TRANSPORT_POLICY1
 product: Windows
 targetos: Windows
 req.lib: 

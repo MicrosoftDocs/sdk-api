@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	PERF_MULTI_INSTANCES
+ - PERF_MULTI_INSTANCES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NAPI_PROVIDER_INSTALLATION_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mswsock.dll
+ - Mswsock.dll
 api_name:
--	GetService
--	GetServiceA
--	GetServiceW
+ - GetService
+ - GetServiceA
+ - GetServiceW
 product: Windows
 targetos: Windows
 req.lib: Mswsock.lib

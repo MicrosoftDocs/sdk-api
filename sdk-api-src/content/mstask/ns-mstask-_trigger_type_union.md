@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRIGGER_TYPE_UNION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstask.h
+ - Mstask.h
 api_name:
--	TRIGGER_TYPE_UNION
+ - TRIGGER_TYPE_UNION
 product: Windows
 targetos: Windows
 req.lib: 

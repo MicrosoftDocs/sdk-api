@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSC_IISIntrinsicsConfig
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	CSC_IISIntrinsicsConfig
+ - CSC_IISIntrinsicsConfig
 product: Windows
 targetos: Windows
 req.lib: 

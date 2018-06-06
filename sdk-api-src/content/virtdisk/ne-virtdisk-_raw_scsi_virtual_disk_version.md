@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: RAW_SCSI_VIRTUAL_DISK_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	virtdisk.h
--	vdssys.h
+ - virtdisk.h
+ - vdssys.h
 api_name:
--	RAW_SCSI_VIRTUAL_DISK_VERSION
+ - RAW_SCSI_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

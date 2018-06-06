@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_CUSTOM_DECODE_UNIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mfplat.dll
+ - mfplat.dll
 api_name:
--	MFAverageTimePerFrameToFrameRate
+ - MFAverageTimePerFrameToFrameRate
 product: Windows
 targetos: Windows
 req.lib: Mfplat.lib

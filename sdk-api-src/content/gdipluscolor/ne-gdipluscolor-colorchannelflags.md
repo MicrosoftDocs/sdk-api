@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Gdipluscolor.h
+ - Gdipluscolor.h
 api_name:
--	ColorChannelFlags
+ - ColorChannelFlags
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

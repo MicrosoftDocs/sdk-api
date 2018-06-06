@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_PROXY_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_PROXY_INFORMATION
+ - DNS_PROXY_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

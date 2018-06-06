@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_DIAGNOSTIC_SOCKET_INFO, *LPINTERNET_DIAGNOSTIC_SOCKET_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_DIAGNOSTIC_SOCKET_INFO
+ - INTERNET_DIAGNOSTIC_SOCKET_INFO
 product: Windows
 targetos: Windows
 req.lib: 

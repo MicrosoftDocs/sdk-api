@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONTHLYDATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstask.h
+ - Mstask.h
 api_name:
--	MONTHLYDATE
+ - MONTHLYDATE
 product: Windows
 targetos: Windows
 req.lib: 

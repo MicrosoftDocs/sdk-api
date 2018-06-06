@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_BUFFERSW, *LPINTERNET_BUFFERSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_BUFFERS
--	INTERNET_BUFFERSA
--	INTERNET_BUFFERSW
+ - INTERNET_BUFFERS
+ - INTERNET_BUFFERSA
+ - INTERNET_BUFFERSW
 product: Windows
 targetos: Windows
 req.lib: 

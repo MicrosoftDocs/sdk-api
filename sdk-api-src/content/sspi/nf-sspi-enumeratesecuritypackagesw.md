@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	SspiCli.dll
+ - SspiCli.dll
 api_name:
--	EnumerateSecurityPackages
--	EnumerateSecurityPackagesA
--	EnumerateSecurityPackagesW
+ - EnumerateSecurityPackages
+ - EnumerateSecurityPackagesA
+ - EnumerateSecurityPackagesW
 product: Windows
 targetos: Windows
 req.lib: Secur32.lib

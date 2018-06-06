@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTUI_CERT_MGR_STRUCT, *PCRYPTUI_CERT_MGR_STRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cryptuiapi.h
+ - Cryptuiapi.h
 api_name:
--	CRYPTUI_CERT_MGR_STRUCT
+ - CRYPTUI_CERT_MGR_STRUCT
 product: Windows
 targetos: Windows
 req.lib: 

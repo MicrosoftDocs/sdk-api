@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DECODING_SOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	DECODING_SOURCE
+ - DECODING_SOURCE
 product: Windows
 targetos: Windows
 req.lib: 

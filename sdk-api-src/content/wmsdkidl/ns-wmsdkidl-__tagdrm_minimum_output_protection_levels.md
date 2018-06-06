@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmsdkidl.h
+ - wmsdkidl.h
 api_name:
--	DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
+ - DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 product: Windows
 targetos: Windows
 req.lib: 

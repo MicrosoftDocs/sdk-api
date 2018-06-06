@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPV6_STATELESS_PARAMS, *PDHCPV6_STATELESS_PARAMS, *LPDHCPV6_STATELESS_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCPV6_STATELESS_PARAMS
+ - DHCPV6_STATELESS_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

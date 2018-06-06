@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEOINFOHEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	amvideo.h
+ - amvideo.h
 api_name:
--	VIDEOINFOHEADER
+ - VIDEOINFOHEADER
 product: Windows
 targetos: Windows
 req.lib: 

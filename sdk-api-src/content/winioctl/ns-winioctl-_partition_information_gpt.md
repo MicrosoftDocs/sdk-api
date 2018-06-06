@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	PARTITION_INFORMATION_GPT
+ - PARTITION_INFORMATION_GPT
 product: Windows
 targetos: Windows
 req.lib: 

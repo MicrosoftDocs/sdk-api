@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	IX509SignatureInformation.AlternateSignatureAlgorithm
--	IX509SignatureInformation.get_AlternateSignatureAlgorithm
--	IX509SignatureInformation.put_AlternateSignatureAlgorithm
+ - IX509SignatureInformation.AlternateSignatureAlgorithm
+ - IX509SignatureInformation.get_AlternateSignatureAlgorithm
+ - IX509SignatureInformation.put_AlternateSignatureAlgorithm
 product: Windows
 targetos: Windows
 req.lib: 

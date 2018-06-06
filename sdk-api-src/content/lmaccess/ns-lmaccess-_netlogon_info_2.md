@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETLOGON_INFO_2, *PNETLOGON_INFO_2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	NETLOGON_INFO_2
+ - NETLOGON_INFO_2
 product: Windows
 targetos: Windows
 req.lib: 

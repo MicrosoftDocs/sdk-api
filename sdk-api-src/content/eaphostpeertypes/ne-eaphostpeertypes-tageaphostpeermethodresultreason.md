@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EapHostPeerMethodResultReason
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaphostpeertypes.h
+ - eaphostpeertypes.h
 api_name:
--	EapHostPeerMethodResultReason
+ - EapHostPeerMethodResultReason
 product: Windows
 targetos: Windows
 req.lib: Eappcfg.lib

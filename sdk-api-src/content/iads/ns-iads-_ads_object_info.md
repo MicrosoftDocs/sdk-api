@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_OBJECT_INFO, *PADS_OBJECT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_OBJECT_INFO
+ - ADS_OBJECT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

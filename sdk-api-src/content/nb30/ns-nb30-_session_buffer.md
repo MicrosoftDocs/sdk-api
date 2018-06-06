@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SESSION_BUFFER, *PSESSION_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nb30.h
+ - Nb30.h
 api_name:
--	SESSION_BUFFER
+ - SESSION_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

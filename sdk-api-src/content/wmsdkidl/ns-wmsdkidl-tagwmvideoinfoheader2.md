@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMVIDEOINFOHEADER2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMVIDEOINFOHEADER2
+ - WMVIDEOINFOHEADER2
 product: Windows
 targetos: Windows
 req.lib: 

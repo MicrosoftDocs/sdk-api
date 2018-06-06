@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_CANCREATESURFACEDATA
+ - DD_CANCREATESURFACEDATA
 product: Windows
 targetos: Windows
 req.lib: 

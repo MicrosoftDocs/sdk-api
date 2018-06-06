@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCESVC_CONFIGURATION_INFO, *PSCESVC_CONFIGURATION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Scesvc.h
+ - Scesvc.h
 api_name:
--	SCESVC_CONFIGURATION_INFO
+ - SCESVC_CONFIGURATION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

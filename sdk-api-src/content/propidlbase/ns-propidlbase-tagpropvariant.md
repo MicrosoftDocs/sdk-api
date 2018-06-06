@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVARIANT, *LPPROPVARIANT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	propidlbase.h
+ - propidlbase.h
 api_name:
--	PROPVARIANT
+ - PROPVARIANT
 product: Windows
 targetos: Windows
 req.lib: 

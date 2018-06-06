@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D_VECTOR_4F
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dcomp.dll
+ - dcomp.dll
 api_name:
--	DCompositionCreateDevice3
+ - DCompositionCreateDevice3
 product: Windows
 targetos: Windows
 req.lib: Dcomp.lib

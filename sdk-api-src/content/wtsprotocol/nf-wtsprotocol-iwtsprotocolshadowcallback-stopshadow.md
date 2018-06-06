@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wtsprotocol.h
+ - Wtsprotocol.h
 api_name:
--	IWTSProtocolShadowCallback.StopShadow
+ - IWTSProtocolShadowCallback.StopShadow
 product: Windows
 targetos: Windows
 req.lib: 

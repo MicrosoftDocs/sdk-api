@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: QACONTROL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Oleacc.dll
--	Ext-MS-Win-oleacc-l1-1-0.dll
--	ext-ms-win-oleacc-l1-1-1.dll
+ - Oleacc.dll
+ - Ext-MS-Win-oleacc-l1-1-0.dll
+ - ext-ms-win-oleacc-l1-1-1.dll
 api_name:
--	AccessibleObjectFromWindow
+ - AccessibleObjectFromWindow
 product: Windows
 targetos: Windows
 req.lib: Oleacc.lib

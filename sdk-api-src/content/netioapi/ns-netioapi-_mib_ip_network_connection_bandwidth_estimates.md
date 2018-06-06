@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, *PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
+ - MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 product: Windows
 targetos: Windows
 req.lib: 

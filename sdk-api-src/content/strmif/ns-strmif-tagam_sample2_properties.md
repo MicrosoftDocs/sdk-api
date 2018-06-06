@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_SAMPLE2_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	AM_SAMPLE2_PROPERTIES
+ - AM_SAMPLE2_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

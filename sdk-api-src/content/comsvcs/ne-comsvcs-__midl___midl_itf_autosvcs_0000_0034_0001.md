@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRACKING_COLL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	TRACKING_COLL_TYPE
+ - TRACKING_COLL_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

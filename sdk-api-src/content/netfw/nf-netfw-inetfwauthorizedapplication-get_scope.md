@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
--	wfapi.dll
--	Hnetcfg.dll
+ - FirewallAPI.dll
+ - wfapi.dll
+ - Hnetcfg.dll
 api_name:
--	INetFwAuthorizedApplication.Scope
--	INetFwAuthorizedApplication.get_Scope
--	INetFwAuthorizedApplication.put_Scope
+ - INetFwAuthorizedApplication.Scope
+ - INetFwAuthorizedApplication.get_Scope
+ - INetFwAuthorizedApplication.put_Scope
 product: Windows
 targetos: Windows
 req.lib: 

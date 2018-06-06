@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_SIGNER_ENCODE_INFO, *PCMSG_SIGNER_ENCODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_SIGNER_ENCODE_INFO
+ - CMSG_SIGNER_ENCODE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

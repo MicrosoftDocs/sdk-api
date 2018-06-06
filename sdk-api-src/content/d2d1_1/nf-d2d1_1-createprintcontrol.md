@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_UNIT_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1_1.h
+ - d2d1_1.h
 api_name:
--	ID2D1Device::CreatePrintControl
+ - ID2D1Device::CreatePrintControl
 product: Windows
 targetos: Windows
 req.lib: 

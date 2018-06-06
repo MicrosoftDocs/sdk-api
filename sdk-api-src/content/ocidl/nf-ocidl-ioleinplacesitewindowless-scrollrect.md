@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIEWSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OCIdl.h
+ - OCIdl.h
 api_name:
--	IOleInPlaceSiteWindowless.ScrollRect
+ - IOleInPlaceSiteWindowless.ScrollRect
 product: Windows
 targetos: Windows
 req.lib: 

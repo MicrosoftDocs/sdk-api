@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SpatialAudioHrtfEnvironmentType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	spatialaudiohrtf.h
+ - spatialaudiohrtf.h
 api_name:
--	ISpatialAudioObjectForHrtf.SetOrientation
+ - ISpatialAudioObjectForHrtf.SetOrientation
 product: Windows
 targetos: Windows
 req.lib: 

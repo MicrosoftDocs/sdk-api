@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RIO_EXTENSION_FUNCTION_TABLE, *PRIO_EXTENSION_FUNCTION_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mswsockdef.h
+ - Mswsockdef.h
 api_name:
--	RIO_EXTENSION_FUNCTION_TABLE
+ - RIO_EXTENSION_FUNCTION_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

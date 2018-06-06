@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_CHANNEL_ENCODER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_CHANNEL_ENCODER
+ - WS_CHANNEL_ENCODER
 product: Windows
 targetos: Windows
 req.lib: 

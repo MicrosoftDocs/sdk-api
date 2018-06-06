@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DWM_PRESENT_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	DWM_PRESENT_PARAMETERS
+ - DWM_PRESENT_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

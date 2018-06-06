@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	ELEMENT_TYPE
+ - ELEMENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

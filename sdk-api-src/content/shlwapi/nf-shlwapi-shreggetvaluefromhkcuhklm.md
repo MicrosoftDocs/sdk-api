@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-shlwapi-IE-l1-1-0.dll
--	API-MS-Win-ShCore-Registry-l1-1-1.dll
--	ShCore.dll
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-IE-l1-1-0.dll
+ - API-MS-Win-ShCore-Registry-l1-1-1.dll
+ - ShCore.dll
 api_name:
--	SHRegGetValueFromHKCUHKLM
+ - SHRegGetValueFromHKCUHKLM
 product: Windows
 targetos: Windows
 req.lib: 

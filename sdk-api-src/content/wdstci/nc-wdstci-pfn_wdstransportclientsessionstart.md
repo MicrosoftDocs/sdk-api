@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Wdstci.h
+ - Wdstci.h
 api_name:
--	PFN_WdsTransportClientSessionStart
+ - PFN_WdsTransportClientSessionStart
 product: Windows
 targetos: Windows
 req.lib: 

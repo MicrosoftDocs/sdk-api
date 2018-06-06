@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLEDCFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OCIdl.h
+ - OCIdl.h
 api_name:
--	OLEDCFLAGS
+ - OLEDCFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

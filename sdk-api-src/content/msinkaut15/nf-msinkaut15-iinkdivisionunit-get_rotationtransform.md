@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Inkdiv.dll
--	Inkdiv.dll.dll
+ - Inkdiv.dll
+ - Inkdiv.dll.dll
 api_name:
--	IInkDivisionUnit.RotationTransform
--	IInkDivisionUnit.get_RotationTransform
--	IInkDivisionUnit.get_RotationTransform
+ - IInkDivisionUnit.RotationTransform
+ - IInkDivisionUnit.get_RotationTransform
+ - IInkDivisionUnit.get_RotationTransform
 product: Windows
 targetos: Windows
 req.lib: Inkdiv.dll

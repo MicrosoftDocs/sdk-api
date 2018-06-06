@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	IWMPMedia.isReadOnlyItem
--	IWMPMedia2.isReadOnlyItem
--	IWMPMedia3.isReadOnlyItem
+ - IWMPMedia.isReadOnlyItem
+ - IWMPMedia2.isReadOnlyItem
+ - IWMPMedia3.isReadOnlyItem
 product: Windows
 targetos: Windows
 req.lib: 

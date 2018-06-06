@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINHTTP_WEB_SOCKET_OPERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Winhttp.dll
+ - Winhttp.dll
 api_name:
--	WinHttpGetProxyForUrlEx
+ - WinHttpGetProxyForUrlEx
 product: Windows
 targetos: Windows
 req.lib: Winhttp.lib

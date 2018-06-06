@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSMAN_FRAGMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_FRAGMENT
+ - WSMAN_FRAGMENT
 product: Windows
 targetos: Windows
 req.lib: 

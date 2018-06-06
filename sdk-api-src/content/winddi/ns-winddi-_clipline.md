@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLIPLINE, *PCLIPLINE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	CLIPLINE
+ - CLIPLINE
 product: Windows
 targetos: Windows
 req.lib: 

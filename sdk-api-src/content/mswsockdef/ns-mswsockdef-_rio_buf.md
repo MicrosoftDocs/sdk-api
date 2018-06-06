@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RIO_BUF, *PRIO_BUF
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mswsockdef.h
+ - Mswsockdef.h
 api_name:
--	RIO_BUF
+ - RIO_BUF
 product: Windows
 targetos: Windows
 req.lib: 

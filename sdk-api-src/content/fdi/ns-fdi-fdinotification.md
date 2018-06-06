@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fdi.h
+ - Fdi.h
 api_name:
--	FDINOTIFICATION
+ - FDINOTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

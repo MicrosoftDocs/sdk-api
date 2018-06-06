@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_PROFILE_INFO, *PWLAN_PROFILE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_PROFILE_INFO
+ - WLAN_PROFILE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

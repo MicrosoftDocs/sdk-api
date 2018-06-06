@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ServerSelection
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wuapicommon.h
+ - wuapicommon.h
 api_name:
--	ServerSelection
+ - ServerSelection
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

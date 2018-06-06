@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_UI_COMPONENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	shcore.dll
--	api-ms-win-shcore-scaling-l1-1-1.dll
+ - shcore.dll
+ - api-ms-win-shcore-scaling-l1-1-1.dll
 api_name:
--	GetDpiForShellUiComponent
+ - GetDpiForShellUiComponent
 product: Windows
 targetos: Windows
 req.lib: Shcore.lib

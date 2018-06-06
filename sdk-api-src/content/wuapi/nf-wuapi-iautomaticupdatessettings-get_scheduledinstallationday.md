@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IAutomaticUpdatesSettings.ScheduledInstallationDay
--	IAutomaticUpdatesSettings.get_ScheduledInstallationDay
--	IAutomaticUpdatesSettings.put_ScheduledInstallationDay
+ - IAutomaticUpdatesSettings.ScheduledInstallationDay
+ - IAutomaticUpdatesSettings.get_ScheduledInstallationDay
+ - IAutomaticUpdatesSettings.put_ScheduledInstallationDay
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

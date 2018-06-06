@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rtm.dll
+ - Rtm.dll
 api_name:
--	RtmReleaseRoutes
+ - RtmReleaseRoutes
 product: Windows
 targetos: Windows
 req.lib: Rtm.lib

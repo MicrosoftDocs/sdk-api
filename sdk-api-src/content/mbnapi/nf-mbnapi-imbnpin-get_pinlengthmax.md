@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_VOICE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	IMbnPin.PinLengthMax
--	IMbnPin.get_PinLengthMax
+ - IMbnPin.PinLengthMax
+ - IMbnPin.get_PinLengthMax
 product: Windows
 targetos: Windows
 req.lib: 

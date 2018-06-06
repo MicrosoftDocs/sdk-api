@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BATTERY_WMI_TEMPERATURE, *PBATTERY_WMI_TEMPERATURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Batclass.h
+ - Batclass.h
 api_name:
--	BATTERY_WMI_TEMPERATURE
+ - BATTERY_WMI_TEMPERATURE
 product: Windows
 targetos: Windows
 req.lib: 

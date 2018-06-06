@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSLATEURL_IN_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Intshcut.h
+ - Intshcut.h
 api_name:
--	TRANSLATEURL_IN_FLAGS
+ - TRANSLATEURL_IN_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

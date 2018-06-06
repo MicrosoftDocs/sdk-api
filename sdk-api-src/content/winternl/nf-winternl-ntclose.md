@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SYNC_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdll.dll
--	ntoskrnl.exe
+ - Ntdll.dll
+ - ntoskrnl.exe
 api_name:
--	NtClose
+ - NtClose
 product: Windows
 targetos: Windows
 req.lib: 

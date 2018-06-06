@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CredentialProvider.h
+ - CredentialProvider.h
 api_name:
--	ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
+ - ICredentialProviderCredentialWithFieldOptions.GetFieldOptions
 product: Windows
 targetos: Windows
 req.lib: 

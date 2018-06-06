@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_IP_ADDRESS_TYPE, *PWDSTRANSPORT_IP_ADDRESS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstptmgmt.h
+ - Wdstptmgmt.h
 api_name:
--	WDSTRANSPORT_IP_ADDRESS_TYPE
+ - WDSTRANSPORT_IP_ADDRESS_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

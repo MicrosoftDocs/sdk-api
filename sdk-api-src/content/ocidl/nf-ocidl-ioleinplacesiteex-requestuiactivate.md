@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VIEWSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OCIdl.h
--	browsewm.dll
+ - OCIdl.h
+ - browsewm.dll
 api_name:
--	IOleInPlaceSiteEx.RequestUIActivate
+ - IOleInPlaceSiteEx.RequestUIActivate
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINSAT_BITMAP_SIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Winsatapi.dll
+ - Winsatapi.dll
 api_name:
--	IProvideWinSATAssessmentInfo
+ - IProvideWinSATAssessmentInfo
 product: Windows
 targetos: Windows
 req.lib: 

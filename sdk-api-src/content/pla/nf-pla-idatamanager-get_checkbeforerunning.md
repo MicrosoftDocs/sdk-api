@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IDataManager.CheckBeforeRunning
--	IDataManager.get_CheckBeforeRunning
--	IDataManager.put_CheckBeforeRunning
+ - IDataManager.CheckBeforeRunning
+ - IDataManager.get_CheckBeforeRunning
+ - IDataManager.put_CheckBeforeRunning
 product: Windows
 targetos: Windows
 req.lib: 

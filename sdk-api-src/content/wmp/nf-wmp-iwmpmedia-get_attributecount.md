@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	IWMPMedia.get_attributeCount
--	IWMPMedia2.get_attributeCount
--	IWMPMedia3.get_attributeCount
+ - IWMPMedia.get_attributeCount
+ - IWMPMedia2.get_attributeCount
+ - IWMPMedia3.get_attributeCount
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MEM_RANGE, *PMEM_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	MEM_RANGE
+ - MEM_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WALLPAPEROPT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Shlwapi.h
+ - Shlwapi.h
 api_name:
--	DllGetVersion
+ - DllGetVersion
 product: Windows
 targetos: Windows
 req.lib: 

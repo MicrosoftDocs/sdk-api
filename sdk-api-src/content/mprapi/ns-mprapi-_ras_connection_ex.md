@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_CONNECTION_EX, *PRAS_CONNECTION_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	RAS_CONNECTION_EX
+ - RAS_CONNECTION_EX
 product: Windows
 targetos: Windows
 req.lib: 

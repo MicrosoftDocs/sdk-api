@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NMTVGETINFOTIPA, *LPNMTVGETINFOTIPA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMTVGETINFOTIP
--	NMTVGETINFOTIPA
--	NMTVGETINFOTIPW
+ - NMTVGETINFOTIP
+ - NMTVGETINFOTIPA
+ - NMTVGETINFOTIPW
 product: Windows
 targetos: Windows
 req.lib: 

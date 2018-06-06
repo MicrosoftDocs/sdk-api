@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	WIN_CERTIFICATE
+ - WIN_CERTIFICATE
 product: Windows
 targetos: Windows
 req.lib: 

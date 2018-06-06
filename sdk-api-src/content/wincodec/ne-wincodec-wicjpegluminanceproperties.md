@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICJpegLuminanceProperties
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincodec.h
+ - Wincodec.h
 api_name:
--	WICJpegLuminanceProperties
+ - WICJpegLuminanceProperties
 product: Windows
 targetos: Windows
 req.lib: 

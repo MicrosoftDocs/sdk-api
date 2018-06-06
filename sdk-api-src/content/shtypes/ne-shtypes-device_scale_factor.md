@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_SCALE_FACTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shtypes.h
+ - Shtypes.h
 api_name:
--	DEVICE_SCALE_FACTOR
+ - DEVICE_SCALE_FACTOR
 product: Windows
 targetos: Windows
 req.lib: 

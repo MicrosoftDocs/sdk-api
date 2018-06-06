@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXP_SZ_LINK, *LPEXP_SZ_LINK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	EXP_SZ_LINK
+ - EXP_SZ_LINK
 product: Windows
 targetos: Windows
 req.lib: 

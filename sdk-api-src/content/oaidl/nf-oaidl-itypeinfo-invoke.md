@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VARKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	oaidl.h
--	oleaut32.dll
+ - oaidl.h
+ - oleaut32.dll
 api_name:
--	ITypeInfo.Invoke
--	ITypeInfo2.Invoke
+ - ITypeInfo.Invoke
+ - ITypeInfo2.Invoke
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_RELATIVE_BUTTON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmif.h
+ - Strmif.h
 api_name:
--	IDvdInfo.GetCurrentUOPS
+ - IDvdInfo.GetCurrentUOPS
 product: Windows
 targetos: Windows
 req.lib: 

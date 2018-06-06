@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_PTR_DATAW, *PDNS_PTR_DATAW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_PTR_DATA
+ - DNS_PTR_DATA
 product: Windows
 targetos: Windows
 req.lib: 

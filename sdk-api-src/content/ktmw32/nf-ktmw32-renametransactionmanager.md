@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	KtmW32.dll
+ - KtmW32.dll
 api_name:
--	RenameTransactionManager
+ - RenameTransactionManager
 product: Windows
 targetos: Windows
 req.lib: KtmW32.lib

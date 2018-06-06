@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_EapPrfInfo, *PSecPkgContext_EapPrfInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SecPkgContext_EapPrfInfo
+ - SecPkgContext_EapPrfInfo
 product: Windows
 targetos: Windows
 req.lib: 

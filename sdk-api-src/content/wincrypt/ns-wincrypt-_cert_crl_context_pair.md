@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_CRL_CONTEXT_PAIR, *PCERT_CRL_CONTEXT_PAIR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_CRL_CONTEXT_PAIR
+ - CERT_CRL_CONTEXT_PAIR
 product: Windows
 targetos: Windows
 req.lib: 

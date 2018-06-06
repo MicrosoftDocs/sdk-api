@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_EXTENDED_ITEM_STACK_TRACE32, *PEVENT_EXTENDED_ITEM_STACK_TRACE32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evntcons.h
+ - Evntcons.h
 api_name:
--	EVENT_EXTENDED_ITEM_STACK_TRACE32
+ - EVENT_EXTENDED_ITEM_STACK_TRACE32
 product: Windows
 targetos: Windows
 req.lib: 

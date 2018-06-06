@@ -29,15 +29,15 @@ req.type-library: Sensevts.tlb
 tech.root: 
 req.typenames: QOCINFO, *LPQOCINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Sens.dll
+ - Sens.dll
 api_name:
--	ISensLogon2.PostShell
--	ISensLogon2.PostShell
+ - ISensLogon2.PostShell
+ - ISensLogon2.PostShell
 product: Windows
 targetos: Windows
 req.lib: 

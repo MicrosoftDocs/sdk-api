@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Fhcfg.h
+ - Fhcfg.h
 api_name:
--	IFhConfigMgr.ProvisionAndSetNewTarget
--	FhConfigMgr.ProvisionAndSetNewTarget
+ - IFhConfigMgr.ProvisionAndSetNewTarget
+ - FhConfigMgr.ProvisionAndSetNewTarget
 product: Windows
 targetos: Windows
 req.lib: 

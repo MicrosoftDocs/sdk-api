@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Winsync.h
+ - Winsync.h
 api_name:
--	ISyncSessionState2.SetProviderWithError
+ - ISyncSessionState2.SetProviderWithError
 product: Windows
 targetos: Windows
 req.lib: 

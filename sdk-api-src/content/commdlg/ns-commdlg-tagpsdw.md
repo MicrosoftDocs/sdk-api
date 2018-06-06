@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PAGESETUPDLGW, *LPPAGESETUPDLGW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	PAGESETUPDLG
--	PAGESETUPDLGA
--	PAGESETUPDLGW
+ - PAGESETUPDLG
+ - PAGESETUPDLGA
+ - PAGESETUPDLGW
 product: Windows
 targetos: Windows
 req.lib: 

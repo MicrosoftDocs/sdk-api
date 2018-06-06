@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_DEVICE_CLAIMS, *PTOKEN_DEVICE_CLAIMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_DEVICE_CLAIMS
+ - TOKEN_DEVICE_CLAIMS
 product: Windows
 targetos: Windows
 req.lib: 

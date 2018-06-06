@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_LOGGING_ROLLOVER_TYPE
+ - HTTP_LOGGING_ROLLOVER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

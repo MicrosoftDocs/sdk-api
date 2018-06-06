@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSAPI_WORKING_SET_EX_BLOCK, *PPSAPI_WORKING_SET_EX_BLOCK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	PSAPI_WORKING_SET_EX_BLOCK
+ - PSAPI_WORKING_SET_EX_BLOCK
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_POL_COND_ARRAY
+ - DHCP_POL_COND_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

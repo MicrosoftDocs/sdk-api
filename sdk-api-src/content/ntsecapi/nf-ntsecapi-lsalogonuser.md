@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Secur32.dll
+ - Secur32.dll
 api_name:
--	LsaLogonUser
+ - LsaLogonUser
 product: Windows
 targetos: Windows
 req.lib: Secur32.lib

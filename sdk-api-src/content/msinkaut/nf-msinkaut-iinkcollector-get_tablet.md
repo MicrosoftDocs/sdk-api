@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkCollector.Tablet
--	IInkCollector.get_Tablet
--	InkCollector.get_Tablet
+ - IInkCollector.Tablet
+ - IInkCollector.get_Tablet
+ - InkCollector.get_Tablet
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

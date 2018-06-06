@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HHNTRACK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HtmlHelp.h
+ - HtmlHelp.h
 api_name:
--	HHNTRACK
+ - HHNTRACK
 product: Windows
 targetos: Windows
 req.lib: 

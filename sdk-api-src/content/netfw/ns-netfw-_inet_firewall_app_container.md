@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	networkisolation.h
+ - networkisolation.h
 api_name:
--	INET_FIREWALL_APP_CONTAINER
+ - INET_FIREWALL_APP_CONTAINER
 product: Windows
 targetos: Windows
 req.lib: 

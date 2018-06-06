@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNCMGRSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mobsync.dll
+ - Mobsync.dll
 api_name:
--	ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
+ - ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
 product: Windows
 targetos: Windows
 req.lib: 

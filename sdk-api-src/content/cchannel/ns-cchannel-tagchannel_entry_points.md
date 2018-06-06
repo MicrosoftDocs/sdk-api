@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANNEL_ENTRY_POINTS, *PCHANNEL_ENTRY_POINTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cchannel.h
+ - Cchannel.h
 api_name:
--	CHANNEL_ENTRY_POINTS
+ - CHANNEL_ENTRY_POINTS
 product: Windows
 targetos: Windows
 req.lib: 

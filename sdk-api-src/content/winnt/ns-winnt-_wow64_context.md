@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WOW64_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	WOW64_CONTEXT
+ - WOW64_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

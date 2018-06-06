@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
--	Font.GetHeight
+ - Font.GetHeight
 product: Windows
 targetos: Windows
 req.lib: 

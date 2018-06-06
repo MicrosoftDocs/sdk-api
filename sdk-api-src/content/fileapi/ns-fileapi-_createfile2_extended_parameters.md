@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FileAPI.h
+ - FileAPI.h
 api_name:
--	CREATEFILE2_EXTENDED_PARAMETERS
+ - CREATEFILE2_EXTENDED_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

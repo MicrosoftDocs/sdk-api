@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsrm.h
+ - Wsrm.h
 api_name:
--	eWINDOW_ADVANCE_METHOD
+ - eWINDOW_ADVANCE_METHOD
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	eapmethodpeerapis.h
+ - eapmethodpeerapis.h
 api_name:
--	EapPeerGetResponseAttributes
+ - EapPeerGetResponseAttributes
 product: Windows
 targetos: Windows
 req.lib: 

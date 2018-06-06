@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MI_SessionFT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mi.h
+ - mi.h
 api_name:
--	MI_SessionFT
+ - MI_SessionFT
 product: Windows
 targetos: Windows
 req.lib: 

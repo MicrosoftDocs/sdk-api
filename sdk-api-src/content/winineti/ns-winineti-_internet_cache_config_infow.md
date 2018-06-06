@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_CACHE_CONFIG_INFOW, *LPINTERNET_CACHE_CONFIG_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winineti.h
+ - Winineti.h
 api_name:
--	INTERNET_CACHE_CONFIG_INFO
+ - INTERNET_CACHE_CONFIG_INFO
 product: Windows
 targetos: Windows
 req.lib: 

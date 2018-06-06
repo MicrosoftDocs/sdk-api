@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_DURATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdXml.h
+ - WsdXml.h
 api_name:
--	WSD_DURATION
+ - WSD_DURATION
 product: Windows
 targetos: Windows
 req.lib: 

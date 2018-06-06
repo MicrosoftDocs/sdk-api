@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLFS_LOG_ARCHIVE_MODE, *PCLFS_LOG_ARCHIVE_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Clfsw32.dll
+ - Clfsw32.dll
 api_name:
--	LsnNull
+ - LsnNull
 product: Windows
 targetos: Windows
 req.lib: Clfsw32.lib

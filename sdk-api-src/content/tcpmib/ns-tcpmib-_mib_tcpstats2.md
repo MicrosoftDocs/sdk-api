@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpmib.h
+ - Tcpmib.h
 api_name:
--	MIB_TCPSTATS2
+ - MIB_TCPSTATS2
 product: Windows
 targetos: Windows
 req.lib: 

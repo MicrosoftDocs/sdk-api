@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AASHELLMENUITEM, *LPAASHELLMENUITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlobj.h
+ - Shlobj.h
 api_name:
--	AASHELLMENUITEM
+ - AASHELLMENUITEM
 product: Windows
 targetos: Windows
 req.lib: 

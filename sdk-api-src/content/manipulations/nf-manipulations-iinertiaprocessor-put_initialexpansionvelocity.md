@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	manipulations.h
+ - manipulations.h
 api_name:
--	IInertiaProcessor.InitialExpansionVelocity
--	IInertiaProcessor.get_InitialExpansionVelocity
--	IInertiaProcessor.put_InitialExpansionVelocity
+ - IInertiaProcessor.InitialExpansionVelocity
+ - IInertiaProcessor.get_InitialExpansionVelocity
+ - IInertiaProcessor.put_InitialExpansionVelocity
 product: Windows
 targetos: Windows
 req.lib: 

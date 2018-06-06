@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_INSTANCE_DEFINITION, *PPERF_INSTANCE_DEFINITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winperf.h
+ - Winperf.h
 api_name:
--	PERF_INSTANCE_DEFINITION
+ - PERF_INSTANCE_DEFINITION
 product: Windows
 targetos: Windows
 req.lib: 

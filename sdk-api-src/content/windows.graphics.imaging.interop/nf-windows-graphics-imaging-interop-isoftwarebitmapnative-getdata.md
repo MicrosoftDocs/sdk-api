@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	windows.graphics.imaging.interop.dll
+ - windows.graphics.imaging.interop.dll
 api_name:
--	ISoftwareBitmapNative.GetData
+ - ISoftwareBitmapNative.GetData
 product: Windows
 targetos: Windows
 req.lib: Windows.graphics.imaging.interop.lib

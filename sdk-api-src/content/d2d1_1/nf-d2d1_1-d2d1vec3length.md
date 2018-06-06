@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_UNIT_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	d2d1.dll
+ - d2d1.dll
 api_name:
--	D2D1Vec3Length
+ - D2D1Vec3Length
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

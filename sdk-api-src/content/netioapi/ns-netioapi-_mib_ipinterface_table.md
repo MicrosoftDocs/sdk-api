@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IPINTERFACE_TABLE, *PMIB_IPINTERFACE_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	MIB_IPINTERFACE_TABLE
+ - MIB_IPINTERFACE_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

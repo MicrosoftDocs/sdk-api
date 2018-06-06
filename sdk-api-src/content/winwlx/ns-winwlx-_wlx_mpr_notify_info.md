@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLX_MPR_NOTIFY_INFO, *PWLX_MPR_NOTIFY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winwlx.h
+ - Winwlx.h
 api_name:
--	WLX_MPR_NOTIFY_INFO
+ - WLX_MPR_NOTIFY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

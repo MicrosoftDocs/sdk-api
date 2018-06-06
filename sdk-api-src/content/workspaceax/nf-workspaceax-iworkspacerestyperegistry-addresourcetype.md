@@ -29,15 +29,15 @@ req.type-library: TSWorkspace.dll
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	TSWorkspace.dll
+ - TSWorkspace.dll
 api_name:
--	IWorkspaceResTypeRegistry.AddResourceType
--	Workspace.AddResourceType
+ - IWorkspaceResTypeRegistry.AddResourceType
+ - Workspace.AddResourceType
 product: Windows
 targetos: Windows
 req.lib: 

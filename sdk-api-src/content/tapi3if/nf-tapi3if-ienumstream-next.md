@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TERMINAL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tapi3if.h
+ - tapi3if.h
 api_name:
--	IEnumStream.Next
+ - IEnumStream.Next
 product: Windows
 targetos: Windows
 req.lib: 

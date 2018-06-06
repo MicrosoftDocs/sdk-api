@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSV1_0_LM20_LOGON_PROFILE, *PMSV1_0_LM20_LOGON_PROFILE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	MSV1_0_LM20_LOGON_PROFILE
+ - MSV1_0_LM20_LOGON_PROFILE
 product: Windows
 targetos: Windows
 req.lib: 

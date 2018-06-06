@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Amvideo.h
+ - Amvideo.h
 api_name:
--	BIT_MASKS_MATCH
+ - BIT_MASKS_MATCH
 product: Windows
 targetos: Windows
 req.lib: 

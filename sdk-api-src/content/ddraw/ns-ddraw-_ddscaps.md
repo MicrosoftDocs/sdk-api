@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDSCAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ddraw.h
+ - Ddraw.h
 api_name:
--	DDSCAPS
+ - DDSCAPS
 product: Windows
 targetos: Windows
 req.lib: 

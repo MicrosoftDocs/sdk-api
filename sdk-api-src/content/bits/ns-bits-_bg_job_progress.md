@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_JOB_PROGRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bits.h
+ - Bits.h
 api_name:
--	BG_JOB_PROGRESS
+ - BG_JOB_PROGRESS
 product: Windows
 targetos: Windows
 req.lib: 

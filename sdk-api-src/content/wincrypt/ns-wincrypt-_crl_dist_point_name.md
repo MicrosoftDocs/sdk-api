@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRL_DIST_POINT_NAME, *PCRL_DIST_POINT_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRL_DIST_POINT_NAME
+ - CRL_DIST_POINT_NAME
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_RESOURCE_CLASS_INFO, *PCLUS_RESOURCE_CLASS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_RESOURCE_CLASS_INFO
+ - CLUS_RESOURCE_CLASS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

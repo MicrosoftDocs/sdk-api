@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	IOCSPProperty.Value
--	IOCSPProperty.get_Value
--	IOCSPProperty.put_Value
+ - IOCSPProperty.Value
+ - IOCSPProperty.get_Value
+ - IOCSPProperty.put_Value
 product: Windows
 targetos: Windows
 req.lib: Certadm.lib

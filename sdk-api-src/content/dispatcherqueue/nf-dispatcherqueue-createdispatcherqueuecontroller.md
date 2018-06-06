@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	CoreMessaging.dll
+ - CoreMessaging.dll
 api_name:
--	CreateDispatcherQueueController
+ - CreateDispatcherQueueController
 product: Windows
 targetos: Windows
 req.lib: CoreMessaging.lib

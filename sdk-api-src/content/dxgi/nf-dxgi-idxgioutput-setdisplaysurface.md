@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SWAP_EFFECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	DXGI.lib
--	DXGI.dll
+ - DXGI.lib
+ - DXGI.dll
 api_name:
--	IDXGIOutput.SetDisplaySurface
+ - IDXGIOutput.SetDisplaySurface
 product: Windows
 targetos: Windows
 req.lib: DXGI.lib

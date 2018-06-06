@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_APPC_NETWORK_CAPABILITY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
--	FWPM_APPC_NETWORK_CAPABILITY_TYPE
+ - FWPM_APPC_NETWORK_CAPABILITY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

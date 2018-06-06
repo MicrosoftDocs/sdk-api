@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_OR_CRL_BLOB
+ - CERT_OR_CRL_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

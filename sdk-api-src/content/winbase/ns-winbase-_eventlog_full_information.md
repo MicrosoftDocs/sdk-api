@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENTLOG_FULL_INFORMATION, *LPEVENTLOG_FULL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	EVENTLOG_FULL_INFORMATION
+ - EVENTLOG_FULL_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

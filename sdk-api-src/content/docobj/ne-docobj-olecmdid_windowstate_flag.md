@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLECMDID_WINDOWSTATE_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DocObj.h
+ - DocObj.h
 api_name:
--	OLECMDID_WINDOWSTATE_FLAG
+ - OLECMDID_WINDOWSTATE_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

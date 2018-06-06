@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_SELECTIONSTYLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Msdrmdefs.h
+ - Msdrmdefs.h
 api_name:
--	DRMCallback
+ - DRMCallback
 product: Windows
 targetos: Windows
 req.lib: 

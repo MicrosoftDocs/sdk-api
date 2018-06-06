@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoCompressedInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MFVideoCompressedInfo
+ - MFVideoCompressedInfo
 product: Windows
 targetos: Windows
 req.lib: 

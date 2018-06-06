@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TS_SB_SORT_BY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sbtsv.h
+ - sbtsv.h
 api_name:
--	ITsSbResourcePluginStore.SaveTarget
--	ITsSbResourcePluginStoreEx.SaveTarget
+ - ITsSbResourcePluginStore.SaveTarget
+ - ITsSbResourcePluginStoreEx.SaveTarget
 product: Windows
 targetos: Windows
 req.lib: 

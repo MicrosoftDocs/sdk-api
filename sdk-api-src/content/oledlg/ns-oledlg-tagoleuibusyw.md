@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIBUSYW, *POLEUIBUSYW, *LPOLEUIBUSYW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUIBUSY
--	OLEUIBUSYA
--	OLEUIBUSYW
+ - OLEUIBUSY
+ - OLEUIBUSYA
+ - OLEUIBUSYW
 product: Windows
 targetos: Windows
 req.lib: 

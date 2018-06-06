@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BDA_DrmPairingError
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bdaiface.h
+ - Bdaiface.h
 api_name:
--	BDA_DrmPairingError
+ - BDA_DrmPairingError
 product: Windows
 targetos: Windows
 req.lib: 

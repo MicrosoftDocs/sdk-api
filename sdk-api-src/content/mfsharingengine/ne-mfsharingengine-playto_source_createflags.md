@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PLAYTO_SOURCE_CREATEFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfsharingengine.h
+ - mfsharingengine.h
 api_name:
--	PLAYTO_SOURCE_CREATEFLAGS
+ - PLAYTO_SOURCE_CREATEFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_ESTATS_SYN_OPTS_ROS_v0, *PTCP_ESTATS_SYN_OPTS_ROS_v0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpioctl.h
+ - Tcpioctl.h
 api_name:
--	IOCTL_TCP_QUERY_INFORMATION_EX
+ - IOCTL_TCP_QUERY_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.lib: 

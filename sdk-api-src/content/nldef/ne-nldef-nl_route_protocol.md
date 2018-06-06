@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_ROUTE_PROTOCOL, *PNL_ROUTE_PROTOCOL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	nldef.h
+ - nldef.h
 api_name:
--	NL_ROUTE_PROTOCOL
+ - NL_ROUTE_PROTOCOL
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

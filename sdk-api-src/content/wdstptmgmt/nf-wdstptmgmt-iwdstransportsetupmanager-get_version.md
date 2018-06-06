@@ -29,15 +29,15 @@ req.type-library: Wdstptmgmt.tlb
 tech.root: 
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wdstptmgmt.dll
+ - Wdstptmgmt.dll
 api_name:
--	IWdsTransportSetupManager.Version
--	IWdsTransportSetupManager.get_Version
+ - IWdsTransportSetupManager.Version
+ - IWdsTransportSetupManager.get_Version
 product: Windows
 targetos: Windows
 req.lib: 

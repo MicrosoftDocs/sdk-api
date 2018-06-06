@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_6.h
+ - dxgi1_6.h
 api_name:
--	DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
+ - DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

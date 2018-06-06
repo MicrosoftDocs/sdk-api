@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_FEATURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11.h
+ - D3D11.h
 api_name:
--	D3D11_FEATURE
+ - D3D11_FEATURE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxgi1_3.h
+ - dxgi1_3.h
 api_name:
--	IDXGIFactoryMedia
+ - IDXGIFactoryMedia
 product: Windows
 targetos: Windows
 req.lib: Dxgi.lib

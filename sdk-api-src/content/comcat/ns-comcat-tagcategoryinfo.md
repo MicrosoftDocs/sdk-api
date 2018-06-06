@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CATEGORYINFO, *LPCATEGORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Comcat.h
+ - Comcat.h
 api_name:
--	CATEGORYINFO
+ - CATEGORYINFO
 product: Windows
 targetos: Windows
 req.lib: 

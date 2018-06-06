@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROUTER_CONNECTION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	ROUTER_CONNECTION_STATE
+ - ROUTER_CONNECTION_STATE
 product: Windows
 targetos: Windows
 req.lib: 

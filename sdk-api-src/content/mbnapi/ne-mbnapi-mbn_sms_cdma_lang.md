@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_SMS_CDMA_LANG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	MBN_SMS_CDMA_LANG
+ - MBN_SMS_CDMA_LANG
 product: Windows
 targetos: Windows
 req.lib: 

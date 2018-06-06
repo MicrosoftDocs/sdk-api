@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_NOTIFICATION_PARAM, *PWNV_NOTIFICATION_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_NOTIFICATION_PARAM
+ - WNV_NOTIFICATION_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

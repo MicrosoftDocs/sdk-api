@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONITOR_DPI_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ShellScalingApi.h
+ - ShellScalingApi.h
 api_name:
--	MONITOR_DPI_TYPE
+ - MONITOR_DPI_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

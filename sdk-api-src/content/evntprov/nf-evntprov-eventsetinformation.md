@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_INFO_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-eventing-provider-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Eventing-Provider-L1-1-1.dll
+ - Advapi32.dll
+ - API-MS-Win-eventing-provider-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
--	EventSetInformation
+ - EventSetInformation
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

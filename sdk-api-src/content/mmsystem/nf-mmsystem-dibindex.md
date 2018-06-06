@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mmsystem.h
+ - Mmsystem.h
 api_name:
--	DIBINDEX
+ - DIBINDEX
 product: Windows
 targetos: Windows
 req.lib: 

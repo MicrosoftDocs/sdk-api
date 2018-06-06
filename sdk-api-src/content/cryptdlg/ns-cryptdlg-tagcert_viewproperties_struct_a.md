@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_VIEWPROPERTIES_STRUCT_A, *PCERT_VIEWPROPERTIES_STRUCT_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CryptDlg.h
+ - CryptDlg.h
 api_name:
--	CERT_VIEWPROPERTIES_STRUCT
+ - CERT_VIEWPROPERTIES_STRUCT
 product: Windows
 targetos: Windows
 req.lib: 

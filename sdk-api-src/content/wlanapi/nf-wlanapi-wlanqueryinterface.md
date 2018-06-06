@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wlanapi.dll
--	Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+ - Wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
--	WlanQueryInterface
+ - WlanQueryInterface
 product: Windows
 targetos: Windows
 req.lib: Wlanapi.lib

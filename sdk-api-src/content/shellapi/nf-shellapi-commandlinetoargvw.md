@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: SHSTOCKICONID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-DownLevel-shell32-l1-1-0.dll
--	ShCore.dll
--	API-MS-Win-ShCore-Obsolete-l1-1-0.dll
+ - Shell32.dll
+ - API-MS-Win-DownLevel-shell32-l1-1-0.dll
+ - ShCore.dll
+ - API-MS-Win-ShCore-Obsolete-l1-1-0.dll
 api_name:
--	CommandLineToArgvW
--	CommandLineToArgvW
+ - CommandLineToArgvW
+ - CommandLineToArgvW
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

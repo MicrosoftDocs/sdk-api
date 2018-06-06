@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DS_SITE_COST_INFO, *PDS_SITE_COST_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_SITE_COST_INFO
+ - DS_SITE_COST_INFO
 product: Windows
 targetos: Windows
 req.lib: 

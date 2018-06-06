@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SyncProviderConfiguration
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	T2embed.dll
+ - T2embed.dll
 api_name:
--	TTLoadEmbeddedFont
+ - TTLoadEmbeddedFont
 product: Windows
 targetos: Windows
 req.lib: T2embed.lib

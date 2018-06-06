@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSA_INFO_LEVEL, *PMSA_INFO_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	MSA_INFO_LEVEL
+ - MSA_INFO_LEVEL
 product: Windows
 targetos: Windows
 req.lib: WindowsApp.lib

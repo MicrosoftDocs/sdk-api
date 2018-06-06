@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_USER_WEB_URL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_USER_WEB_URL
+ - WM_USER_WEB_URL
 product: Windows
 targetos: Windows
 req.lib: 

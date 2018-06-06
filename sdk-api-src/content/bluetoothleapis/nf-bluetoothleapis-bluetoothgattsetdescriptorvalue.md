@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	BluetoothAPIs.dll
--	Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
--	BluetoothGATTSetDescriptorValue
+ - BluetoothGATTSetDescriptorValue
 product: Windows
 targetos: Windows
 req.lib: BluetoothApis.lib

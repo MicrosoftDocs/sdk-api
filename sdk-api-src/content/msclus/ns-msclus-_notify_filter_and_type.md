@@ -29,15 +29,15 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: NOTIFY_FILTER_AND_TYPE, *PNOTIFY_FILTER_AND_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MsClus.h
+ - ClusApi.h
+ - MsClus.h
 api_name:
--	NOTIFY_FILTER_AND_TYPE
+ - NOTIFY_FILTER_AND_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

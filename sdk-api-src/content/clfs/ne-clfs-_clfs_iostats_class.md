@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLFS_IOSTATS_CLASS, *PCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_IOSTATS_CLASS
+ - CLFS_IOSTATS_CLASS
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

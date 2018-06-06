@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DLLVERSIONINFO2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlwapi.h
+ - Shlwapi.h
 api_name:
--	DLLVERSIONINFO2
+ - DLLVERSIONINFO2
 product: Windows
 targetos: Windows
 req.lib: 

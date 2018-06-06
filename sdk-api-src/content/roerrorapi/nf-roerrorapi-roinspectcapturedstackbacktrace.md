@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComBase.dll
--	API-MS-Win-Core-WinRT-error-l1-1-1.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
--	RoInspectCapturedStackBackTrace
+ - RoInspectCapturedStackBackTrace
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

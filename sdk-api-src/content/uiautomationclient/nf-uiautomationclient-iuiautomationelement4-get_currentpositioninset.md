@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.dll
+ - UIAutomationCore.dll
 api_name:
--	IUIAutomationElement4.CurrentPositionInSet
--	IUIAutomationElement4.get_CurrentPositionInSet
+ - IUIAutomationElement4.CurrentPositionInSet
+ - IUIAutomationElement4.get_CurrentPositionInSet
 product: Windows
 targetos: Windows
 req.lib: 

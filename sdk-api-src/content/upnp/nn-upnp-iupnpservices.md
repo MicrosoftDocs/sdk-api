@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UI_EVENTPARAMS_COMMAND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Upnp.dll
+ - Upnp.dll
 api_name:
--	IUPnPServices
--	IUPnPServices.This interface has no methods.
+ - IUPnPServices
+ - IUPnPServices.This interface has no methods.
 product: Windows
 targetos: Windows
 req.lib: 

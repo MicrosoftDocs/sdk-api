@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_REPLICAPOINTER, *PADS_REPLICAPOINTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_REPLICAPOINTER
+ - ADS_REPLICAPOINTER
 product: Windows
 targetos: Windows
 req.lib: 

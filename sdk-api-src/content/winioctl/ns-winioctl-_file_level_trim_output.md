@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FILE_LEVEL_TRIM_OUTPUT
+ - FILE_LEVEL_TRIM_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

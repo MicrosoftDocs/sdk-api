@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_AUTH_STATUS
+ - HTTP_AUTH_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

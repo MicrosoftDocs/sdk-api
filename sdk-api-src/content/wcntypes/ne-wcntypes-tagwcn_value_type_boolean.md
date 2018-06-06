@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VALUE_TYPE_BOOLEAN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wcntypes.h
+ - wcntypes.h
 api_name:
--	WCN_VALUE_TYPE_BOOLEAN
+ - WCN_VALUE_TYPE_BOOLEAN
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_PROTOCOL_FLAGS, *PWDSTRANSPORT_PROTOCOL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstptmgmt.h
+ - Wdstptmgmt.h
 api_name:
--	WDSTRANSPORT_PROTOCOL_FLAGS
+ - WDSTRANSPORT_PROTOCOL_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

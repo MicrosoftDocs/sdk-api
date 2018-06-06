@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
+ - JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2
 product: Windows
 targetos: Windows
 req.lib: 

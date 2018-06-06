@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_NAMESPACE_INFO
+ - CSV_NAMESPACE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

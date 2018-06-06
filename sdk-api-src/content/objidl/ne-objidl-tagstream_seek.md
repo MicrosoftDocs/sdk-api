@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_SEEK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objidl.h
+ - Objidl.h
 api_name:
--	STREAM_SEEK
+ - STREAM_SEEK
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	ITaskDefinition.XmlText
--	ITaskDefinition.get_XmlText
--	ITaskDefinition.put_XmlText
+ - ITaskDefinition.XmlText
+ - ITaskDefinition.get_XmlText
+ - ITaskDefinition.put_XmlText
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

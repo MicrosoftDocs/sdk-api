@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	IWMReaderCallbackAdvanced.AllocateForOutput
+ - IWMReaderCallbackAdvanced.AllocateForOutput
 product: Windows
 targetos: Windows
 req.lib: 

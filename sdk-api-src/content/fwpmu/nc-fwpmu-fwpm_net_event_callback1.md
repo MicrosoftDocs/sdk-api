@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	fwpmu.h
+ - fwpmu.h
 api_name:
--	FWPM_NET_EVENT_CALLBACK1
+ - FWPM_NET_EVENT_CALLBACK1
 product: Windows
 targetos: Windows
 req.lib: 

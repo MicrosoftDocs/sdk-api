@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NS_REQS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netsh.h
+ - Netsh.h
 api_name:
--	NS_REQS
+ - NS_REQS
 product: Windows
 targetos: Windows
 req.lib: 

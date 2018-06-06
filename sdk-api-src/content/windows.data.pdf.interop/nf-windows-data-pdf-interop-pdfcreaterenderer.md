@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Windows.Data.Pdf.dll
+ - Windows.Data.Pdf.dll
 api_name:
--	PdfCreateRenderer
+ - PdfCreateRenderer
 product: Windows
 targetos: Windows
 req.lib: Windows.data.pdf.lib

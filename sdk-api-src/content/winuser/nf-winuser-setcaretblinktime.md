@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	Ext-MS-Win-NTUser-caret-l1-1-0.dll
--	api-ms-win-ntuser-ie-caret-l1-1-0.dll
--	ie_stubs.dll
+ - User32.dll
+ - Ext-MS-Win-NTUser-caret-l1-1-0.dll
+ - api-ms-win-ntuser-ie-caret-l1-1-0.dll
+ - ie_stubs.dll
 api_name:
--	SetCaretBlinkTime
+ - SetCaretBlinkTime
 product: Windows
 targetos: Windows
 req.lib: User32.lib

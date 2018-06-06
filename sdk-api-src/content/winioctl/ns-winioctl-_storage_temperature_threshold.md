@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoctl.h
+ - WinIoctl.h
 api_name:
--	STORAGE_TEMPERATURE_THRESHOLD
+ - STORAGE_TEMPERATURE_THRESHOLD
 product: Windows
 targetos: Windows
 req.lib: 

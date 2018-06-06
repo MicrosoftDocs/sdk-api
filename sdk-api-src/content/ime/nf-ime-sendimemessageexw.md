@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
+ - User32.dll
 api_name:
--	SendIMEMessageEx
--	SendIMEMessageExA
--	SendIMEMessageExW
+ - SendIMEMessageEx
+ - SendIMEMessageExA
+ - SendIMEMessageExW
 product: Windows
 targetos: Windows
 req.lib: User32.lib

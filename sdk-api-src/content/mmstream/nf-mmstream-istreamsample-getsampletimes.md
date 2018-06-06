@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mmstream.h
+ - mmstream.h
 api_name:
--	IStreamSample.GetSampleTimes
+ - IStreamSample.GetSampleTimes
 product: Windows
 targetos: Windows
 req.lib: 

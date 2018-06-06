@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITextInputPanel.DefaultInPlaceState
--	ITextInputPanel.get_DefaultInPlaceState
--	ITextInputPanel.put_DefaultInPlaceState
--	ITextInputPanel.get_DefaultInPlaceState
--	ITextInputPanel.put_DefaultInPlaceState
+ - ITextInputPanel.DefaultInPlaceState
+ - ITextInputPanel.get_DefaultInPlaceState
+ - ITextInputPanel.put_DefaultInPlaceState
+ - ITextInputPanel.get_DefaultInPlaceState
+ - ITextInputPanel.put_DefaultInPlaceState
 product: Windows
 targetos: Windows
 req.lib: 

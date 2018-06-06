@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsclient.h
+ - Dsclient.h
 api_name:
--	DSDISPLAYSPECOPTIONS
+ - DSDISPLAYSPECOPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

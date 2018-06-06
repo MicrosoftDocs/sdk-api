@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIT_PARAM_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Adtgen.h
+ - Adtgen.h
 api_name:
--	AUDIT_PARAM_TYPE
+ - AUDIT_PARAM_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

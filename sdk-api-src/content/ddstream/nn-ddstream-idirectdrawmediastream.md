@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEOMEMORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ddstream.h
+ - ddstream.h
 api_name:
--	IDirectDrawMediaStream
+ - IDirectDrawMediaStream
 product: Windows
 targetos: Windows
 req.lib: 

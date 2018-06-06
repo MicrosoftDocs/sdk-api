@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_MEMORY_SEGMENT_GROUP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_4.h
+ - dxgi1_4.h
 api_name:
--	DXGI_MEMORY_SEGMENT_GROUP
+ - DXGI_MEMORY_SEGMENT_GROUP
 product: Windows
 targetos: Windows
 req.lib: 

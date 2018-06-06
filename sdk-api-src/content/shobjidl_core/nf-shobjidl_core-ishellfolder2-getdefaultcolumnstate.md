@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	IShellFolder2.GetDefaultColumnState
+ - IShellFolder2.GetDefaultColumnState
 product: Windows
 targetos: Windows
 req.lib: 

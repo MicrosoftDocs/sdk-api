@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	l2cmn.h
+ - l2cmn.h
 api_name:
--	L2_NOTIFICATION_DATA
+ - L2_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
 req.lib: 

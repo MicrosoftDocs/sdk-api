@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Setupapi.dll
--	Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
--	Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
--	SetupIterateCabinet
--	SetupIterateCabinetA
--	SetupIterateCabinetW
+ - SetupIterateCabinet
+ - SetupIterateCabinetA
+ - SetupIterateCabinetW
 product: Windows
 targetos: Windows
 req.lib: Setupapi.lib

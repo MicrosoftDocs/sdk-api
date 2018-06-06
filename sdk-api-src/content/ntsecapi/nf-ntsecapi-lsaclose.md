@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-Security-lsapolicy-l1-1-0.dll
--	sechost.dll
--	API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+ - Advapi32.dll
+ - API-MS-Win-Security-lsapolicy-l1-1-0.dll
+ - sechost.dll
+ - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
 api_name:
--	LsaClose
+ - LsaClose
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

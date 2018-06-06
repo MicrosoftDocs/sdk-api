@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RealTimeStylusDataInterest
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RTSCom.h
+ - RTSCom.h
 api_name:
--	RealTimeStylusDataInterest
+ - RealTimeStylusDataInterest
 product: Windows
 targetos: Windows
 req.lib: 

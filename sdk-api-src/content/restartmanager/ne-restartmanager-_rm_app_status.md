@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_APP_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RestartManager.h
+ - RestartManager.h
 api_name:
--	RM_APP_STATUS
+ - RM_APP_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

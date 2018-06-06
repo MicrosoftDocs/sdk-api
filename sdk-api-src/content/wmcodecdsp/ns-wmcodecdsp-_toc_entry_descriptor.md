@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOC_ENTRY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	TOC_ENTRY_DESCRIPTOR
+ - TOC_ENTRY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

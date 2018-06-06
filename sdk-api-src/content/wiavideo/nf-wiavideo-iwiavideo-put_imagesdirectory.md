@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WIAVIDEO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wiavideo.dll
+ - Wiavideo.dll
 api_name:
--	IWiaVideo.ImagesDirectory
--	IWiaVideo.get_ImagesDirectory
--	IWiaVideo.put_ImagesDirectory
+ - IWiaVideo.ImagesDirectory
+ - IWiaVideo.get_ImagesDirectory
+ - IWiaVideo.put_ImagesDirectory
 product: Windows
 targetos: Windows
 req.lib: 

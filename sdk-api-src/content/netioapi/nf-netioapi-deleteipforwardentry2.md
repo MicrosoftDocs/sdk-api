@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Iphlpapi.dll
+ - Iphlpapi.dll
 api_name:
--	DeleteIpForwardEntry2
+ - DeleteIpForwardEntry2
 product: Windows
 targetos: Windows
 req.lib: Iphlpapi.lib

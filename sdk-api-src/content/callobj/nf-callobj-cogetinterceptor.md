@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CALLFRAME_COPY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
+ - Ole32.dll
 api_name:
--	CoGetInterceptor
+ - CoGetInterceptor
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

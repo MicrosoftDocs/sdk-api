@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BATTERY_MINIPORT_INFO_V1_1, *PBATTERY_MINIPORT_INFO_V1_1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Batclass.h
+ - Batclass.h
 api_name:
--	BATTERY_MINIPORT_INFO_V1_1
+ - BATTERY_MINIPORT_INFO_V1_1
 product: Windows
 targetos: Windows
 req.lib: 

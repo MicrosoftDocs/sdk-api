@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	VssApi.dll
+ - VssApi.dll
 api_name:
--	CreateVssExamineWriterMetadata
--	CreateVssExamineWriterMetadataInternal
+ - CreateVssExamineWriterMetadata
+ - CreateVssExamineWriterMetadataInternal
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

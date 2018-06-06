@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Bits.h
+ - Mpeg2Bits.h
 api_name:
--	MPEG_HEADER_VERSION_BITS
+ - MPEG_HEADER_VERSION_BITS
 product: Windows
 targetos: Windows
 req.lib: 

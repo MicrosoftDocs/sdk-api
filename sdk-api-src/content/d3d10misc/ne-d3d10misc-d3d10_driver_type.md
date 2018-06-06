@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_DRIVER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D10misc.h
+ - D3D10misc.h
 api_name:
--	D3D10_DRIVER_TYPE
+ - D3D10_DRIVER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

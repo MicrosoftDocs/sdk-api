@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGEHLP_GET_TYPE_INFO_PARAMS
+ - IMAGEHLP_GET_TYPE_INFO_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	QueryServiceLockStatus
--	QueryServiceLockStatusA
--	QueryServiceLockStatusW
+ - QueryServiceLockStatus
+ - QueryServiceLockStatusA
+ - QueryServiceLockStatusW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

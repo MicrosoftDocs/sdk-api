@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	RSVP_FILTERSPEC_V6_FLOW
+ - RSVP_FILTERSPEC_V6_FLOW
 product: Windows
 targetos: Windows
 req.lib: 

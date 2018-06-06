@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NT_CONSOLE_PROPS, *LPNT_CONSOLE_PROPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	NT_CONSOLE_PROPS
+ - NT_CONSOLE_PROPS
 product: Windows
 targetos: Windows
 req.lib: 

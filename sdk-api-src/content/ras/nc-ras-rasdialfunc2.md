@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Ras.h
+ - Ras.h
 api_name:
--	RasDialFunc2
+ - RasDialFunc2
 product: Windows
 targetos: Windows
 req.lib: 

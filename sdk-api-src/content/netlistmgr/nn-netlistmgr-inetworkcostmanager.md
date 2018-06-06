@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_NETWORK_PROPERTY_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Netlistmgr.h
+ - Netlistmgr.h
 api_name:
--	INetworkCostManager
--	INetworkCostManager.GetCost
+ - INetworkCostManager
+ - INetworkCostManager.GetCost
 product: Windows
 targetos: Windows
 req.lib: 

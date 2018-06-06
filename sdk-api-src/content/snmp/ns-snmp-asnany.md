@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AsnAny
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Snmp.h
+ - Snmp.h
 api_name:
--	AsnAny
+ - AsnAny
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TYPE1_FONT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	TYPE1_FONT
+ - TYPE1_FONT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IO_RESOURCE, *PIO_RESOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	IO_RESOURCE
+ - IO_RESOURCE
 product: Windows
 targetos: Windows
 req.lib: 

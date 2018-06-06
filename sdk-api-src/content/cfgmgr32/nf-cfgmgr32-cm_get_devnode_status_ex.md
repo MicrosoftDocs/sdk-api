@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Cfgmgr32.dll
--	setupapi.dll
+ - Cfgmgr32.dll
+ - setupapi.dll
 api_name:
--	CM_Get_DevNode_Status_Ex
+ - CM_Get_DevNode_Status_Ex
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib

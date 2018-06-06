@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdateInstaller2.ForceQuiet
--	IUpdateInstaller2.get_ForceQuiet
--	IUpdateInstaller2.put_ForceQuiet
+ - IUpdateInstaller2.ForceQuiet
+ - IUpdateInstaller2.get_ForceQuiet
+ - IUpdateInstaller2.put_ForceQuiet
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ws2_32.dll
+ - Ws2_32.dll
 api_name:
--	WSAStringToAddress
--	WSAStringToAddressA
--	WSAStringToAddressW
+ - WSAStringToAddress
+ - WSAStringToAddressA
+ - WSAStringToAddressW
 product: Windows
 targetos: Windows
 req.lib: Ws2_32.lib

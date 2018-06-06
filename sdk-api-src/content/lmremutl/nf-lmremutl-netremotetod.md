@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSG_INFO_1, *PMSG_INFO_1, *LPMSG_INFO_1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	NetRemoteTOD
+ - NetRemoteTOD
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

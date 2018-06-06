@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_UI_COMPONENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ShellScalingApi.h
+ - ShellScalingApi.h
 api_name:
--	SHELL_UI_COMPONENT
+ - SHELL_UI_COMPONENT
 product: Windows
 targetos: Windows
 req.lib: 

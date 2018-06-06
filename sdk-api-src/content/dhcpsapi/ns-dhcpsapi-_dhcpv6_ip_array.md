@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPV6_IP_ARRAY, *LPDHCPV6_IP_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCPV6_IP_ARRAY
+ - DHCPV6_IP_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

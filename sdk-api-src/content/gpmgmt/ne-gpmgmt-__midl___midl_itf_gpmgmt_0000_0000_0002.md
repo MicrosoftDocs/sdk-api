@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GPMPermissionType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Gpmgmt.h
+ - Gpmgmt.h
 api_name:
--	GPMPermissionType
+ - GPMPermissionType
 product: Windows
 targetos: Windows
 req.lib: 

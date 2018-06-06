@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfplay.h
+ - mfplay.h
 api_name:
--	IMFPMediaPlayer.SetBorderColor
+ - IMFPMediaPlayer.SetBorderColor
 product: Windows
 targetos: Windows
 req.lib: 

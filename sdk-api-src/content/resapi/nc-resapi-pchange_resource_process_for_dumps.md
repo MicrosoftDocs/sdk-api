@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	ChangeResourceProcessForDumps callback
+ - ChangeResourceProcessForDumps callback
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_NONGENUINE_UI_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	SmbClnt.h
+ - SmbClnt.h
 api_name:
--	PREGISTER_APPINSTANCE
+ - PREGISTER_APPINSTANCE
 product: Windows
 targetos: Windows
 req.lib: 

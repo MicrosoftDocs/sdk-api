@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WbemTimeout
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmidcprv.dll
+ - Wmidcprv.dll
 api_name:
--	IWbemDecoupledBasicEventProvider.GetService
--	WbemDecoupledBasicEventProvider.GetService
+ - IWbemDecoupledBasicEventProvider.GetService
+ - WbemDecoupledBasicEventProvider.GetService
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

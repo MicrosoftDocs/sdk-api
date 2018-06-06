@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETCONNECTINFOSTRUCT, *LPNETCONNECTINFOSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnetwk.h
+ - Winnetwk.h
 api_name:
--	NETCONNECTINFOSTRUCT
+ - NETCONNECTINFOSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

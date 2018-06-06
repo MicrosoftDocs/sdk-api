@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITextInputPanel.InPlaceVisibleOnFocus
--	ITextInputPanel.get_InPlaceVisibleOnFocus
--	ITextInputPanel.put_InPlaceVisibleOnFocus
--	ITextInputPanel.get_InPlaceVisibleOnFocus
--	ITextInputPanel.put_InPlaceVisibleOnFocus
+ - ITextInputPanel.InPlaceVisibleOnFocus
+ - ITextInputPanel.get_InPlaceVisibleOnFocus
+ - ITextInputPanel.put_InPlaceVisibleOnFocus
+ - ITextInputPanel.get_InPlaceVisibleOnFocus
+ - ITextInputPanel.put_InPlaceVisibleOnFocus
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Setupapi.lib
--	Setupapi.dll
--	Ext-MS-Win-setupapi-logging-l1-1-0.dll
--	setupapi.dll
+ - Setupapi.lib
+ - Setupapi.dll
+ - Ext-MS-Win-setupapi-logging-l1-1-0.dll
+ - setupapi.dll
 api_name:
--	SetupWriteTextLog
+ - SetupWriteTextLog
 product: Windows
 targetos: Windows
 req.lib: Setupapi.lib

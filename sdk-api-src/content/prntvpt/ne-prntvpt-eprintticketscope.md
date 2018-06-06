@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EPrintTicketScope
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	prntvpt.h
+ - prntvpt.h
 api_name:
--	EPrintTicketScope
+ - EPrintTicketScope
 product: Windows
 targetos: Windows
 req.lib: WinSpool.lib

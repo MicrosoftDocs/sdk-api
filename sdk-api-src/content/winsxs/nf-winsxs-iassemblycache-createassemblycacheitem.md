@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sxs.dll
+ - sxs.dll
 api_name:
--	IAssemblyCache.CreateAssemblyCacheItem
+ - IAssemblyCache.CreateAssemblyCacheItem
 product: Windows
 targetos: Windows
 req.lib: 

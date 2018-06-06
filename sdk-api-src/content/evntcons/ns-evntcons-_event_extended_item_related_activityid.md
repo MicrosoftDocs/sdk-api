@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, *PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evntcons.h
+ - Evntcons.h
 api_name:
--	EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
+ - EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 product: Windows
 targetos: Windows
 req.lib: 

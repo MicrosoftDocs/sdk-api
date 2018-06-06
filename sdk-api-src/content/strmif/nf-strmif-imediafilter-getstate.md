@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_RELATIVE_BUTTON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IMediaFilter.GetState
--	IBaseFilter.GetState
+ - IMediaFilter.GetState
+ - IBaseFilter.GetState
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

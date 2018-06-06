@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNC_REGISTRATION_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Syncregistration.h
+ - Syncregistration.h
 api_name:
--	ISyncRegistrationChange
+ - ISyncRegistrationChange
 product: Windows
 targetos: Windows
 req.lib: 

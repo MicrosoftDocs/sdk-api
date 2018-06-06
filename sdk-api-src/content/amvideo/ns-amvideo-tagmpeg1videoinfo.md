@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG1VIDEOINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	amvideo.h
+ - amvideo.h
 api_name:
--	MPEG1VIDEOINFO
+ - MPEG1VIDEOINFO
 product: Windows
 targetos: Windows
 req.lib: 

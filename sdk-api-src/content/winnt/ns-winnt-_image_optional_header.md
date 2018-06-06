@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_OPTIONAL_HEADER32, *PIMAGE_OPTIONAL_HEADER32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	IMAGE_OPTIONAL_HEADER
--	IMAGE_OPTIONAL_HEADER32
--	PIMAGE_OPTIONAL_HEADER32
--	IMAGE_OPTIONAL_HEADER64
--	PIMAGE_OPTIONAL_HEADER64
+ - IMAGE_OPTIONAL_HEADER
+ - IMAGE_OPTIONAL_HEADER32
+ - PIMAGE_OPTIONAL_HEADER32
+ - IMAGE_OPTIONAL_HEADER64
+ - PIMAGE_OPTIONAL_HEADER64
 product: Windows
 targetos: Windows
 req.lib: 

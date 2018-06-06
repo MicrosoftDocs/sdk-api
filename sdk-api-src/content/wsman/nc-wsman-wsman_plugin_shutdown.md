@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSL_DISTRIBUTION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_PLUGIN_SHUTDOWN
+ - WSMAN_PLUGIN_SHUTDOWN
 product: Windows
 targetos: Windows
 req.lib: 

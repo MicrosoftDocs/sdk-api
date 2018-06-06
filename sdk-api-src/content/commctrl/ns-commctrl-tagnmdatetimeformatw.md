@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NMDATETIMEFORMATW, *LPNMDATETIMEFORMATW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMDATETIMEFORMAT
--	NMDATETIMEFORMATA
--	NMDATETIMEFORMATW
+ - NMDATETIMEFORMAT
+ - NMDATETIMEFORMATA
+ - NMDATETIMEFORMATW
 product: Windows
 targetos: Windows
 req.lib: 

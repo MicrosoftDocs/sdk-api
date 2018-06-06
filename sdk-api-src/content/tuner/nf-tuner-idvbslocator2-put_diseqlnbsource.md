@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
+ - tuner.h
 api_name:
--	IDVBSLocator2.DiseqLNBSource
--	IDVBSLocator2.get_DiseqLNBSource
--	IDVBSLocator2.put_DiseqLNBSource
+ - IDVBSLocator2.DiseqLNBSource
+ - IDVBSLocator2.get_DiseqLNBSource
+ - IDVBSLocator2.put_DiseqLNBSource
 product: Windows
 targetos: Windows
 req.lib: 

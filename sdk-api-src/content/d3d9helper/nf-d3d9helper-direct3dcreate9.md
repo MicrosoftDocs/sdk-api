@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3DVSHADERCAPS2_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	d3d9.dll
--	Ext-MS-Win-dx-d3d9-l1-1-0.dll
+ - d3d9.dll
+ - Ext-MS-Win-dx-d3d9-l1-1-0.dll
 api_name:
--	Direct3DCreate9
+ - Direct3DCreate9
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

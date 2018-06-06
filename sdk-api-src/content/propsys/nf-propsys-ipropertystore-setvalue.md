@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PSC_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Propsys.idl
--	Propsys.idl.dll
+ - Propsys.idl
+ - Propsys.idl.dll
 api_name:
--	IPropertyStore.SetValue
+ - IPropertyStore.SetValue
 product: Windows
 targetos: Windows
 req.lib: Propsys.idl

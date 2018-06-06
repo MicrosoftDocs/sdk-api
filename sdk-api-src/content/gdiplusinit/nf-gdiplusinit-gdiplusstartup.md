@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Gdiplus.dll
+ - Gdiplus.dll
 api_name:
--	GdiplusStartup
+ - GdiplusStartup
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

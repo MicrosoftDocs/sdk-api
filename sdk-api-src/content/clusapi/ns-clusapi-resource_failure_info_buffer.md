@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_FAILURE_INFO_BUFFER, *PRESOURCE_FAILURE_INFO_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MSClus.h
+ - ClusApi.h
+ - MSClus.h
 api_name:
--	RESOURCE_FAILURE_INFO_BUFFER
+ - RESOURCE_FAILURE_INFO_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

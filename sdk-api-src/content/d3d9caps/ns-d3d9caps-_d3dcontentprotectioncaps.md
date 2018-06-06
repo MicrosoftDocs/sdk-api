@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3DCONTENTPROTECTIONCAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d9caps.h
+ - d3d9caps.h
 api_name:
--	D3DCONTENTPROTECTIONCAPS
+ - D3DCONTENTPROTECTIONCAPS
 product: Windows
 targetos: Windows
 req.lib: 

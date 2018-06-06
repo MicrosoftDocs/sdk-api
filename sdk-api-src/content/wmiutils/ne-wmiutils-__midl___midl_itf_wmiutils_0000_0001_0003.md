@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMIQ_ASSOCQ_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WMIUtils.h
+ - WMIUtils.h
 api_name:
--	WMIQ_ASSOCQ_FLAGS
+ - WMIQ_ASSOCQ_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

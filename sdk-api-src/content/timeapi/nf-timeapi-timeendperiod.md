@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: ThumbnailStreamCacheOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Winmm.dll
--	API-MS-Win-mm-Time-l1-1-0.dll
--	Kernel32.dll
--	Kernel32legacy.dll
+ - Winmm.dll
+ - API-MS-Win-mm-Time-l1-1-0.dll
+ - Kernel32.dll
+ - Kernel32legacy.dll
 api_name:
--	timeEndPeriod
+ - timeEndPeriod
 product: Windows
 targetos: Windows
 req.lib: Winmm.lib

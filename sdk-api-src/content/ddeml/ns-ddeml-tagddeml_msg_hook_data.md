@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDEML_MSG_HOOK_DATA, *PDDEML_MSG_HOOK_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ddeml.h
+ - Ddeml.h
 api_name:
--	DDEML_MSG_HOOK_DATA
+ - DDEML_MSG_HOOK_DATA
 product: Windows
 targetos: Windows
 req.lib: 

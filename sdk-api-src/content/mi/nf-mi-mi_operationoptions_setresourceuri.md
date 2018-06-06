@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MI_Type
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mi.dll
+ - Mi.dll
 api_name:
--	MI_OperationOptions_SetResourceUri
+ - MI_OperationOptions_SetResourceUri
 product: Windows
 targetos: Windows
 req.lib: Mi.lib

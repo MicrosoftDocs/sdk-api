@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSC_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Propsys.dll
+ - Propsys.dll
 api_name:
--	PSPropertyBag_WritePOINTL
+ - PSPropertyBag_WritePOINTL
 product: Windows
 targetos: Windows
 req.lib: Propsys.lib

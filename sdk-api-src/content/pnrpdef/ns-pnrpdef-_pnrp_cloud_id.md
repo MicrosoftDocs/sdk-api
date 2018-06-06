@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PNRP_CLOUD_ID, *PPNRP_CLOUD_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pnrpdef.h
+ - Pnrpdef.h
 api_name:
--	PNRP_CLOUD_ID
+ - PNRP_CLOUD_ID
 product: Windows
 targetos: Windows
 req.lib: 

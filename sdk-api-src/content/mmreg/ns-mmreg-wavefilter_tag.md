@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAVEFILTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mmreg.h
+ - Mmreg.h
 api_name:
--	WAVEFILTER
+ - WAVEFILTER
 product: Windows
 targetos: Windows
 req.lib: 

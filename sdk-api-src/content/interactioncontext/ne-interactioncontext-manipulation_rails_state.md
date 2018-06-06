@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_RAILS_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	interactioncontext.h
+ - interactioncontext.h
 api_name:
--	MANIPULATION_RAILS_STATE
+ - MANIPULATION_RAILS_STATE
 product: Windows
 targetos: Windows
 req.lib: 

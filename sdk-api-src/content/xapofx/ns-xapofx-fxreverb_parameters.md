@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FXREVERB_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xapofx.h
+ - xapofx.h
 api_name:
--	FXREVERB_PARAMETERS
+ - FXREVERB_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Ws2spi.h
+ - Ws2spi.h
 api_name:
--	NSPGetServiceClassInfo
+ - NSPGetServiceClassInfo
 product: Windows
 targetos: Windows
 req.lib: 

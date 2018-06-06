@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CEPSetupProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certocm.dll
+ - Certocm.dll
 api_name:
--	ICertSrvSetupKeyInformation.ContainerName
--	ICertSrvSetupKeyInformation.get_ContainerName
--	ICertSrvSetupKeyInformation.put_ContainerName
+ - ICertSrvSetupKeyInformation.ContainerName
+ - ICertSrvSetupKeyInformation.get_ContainerName
+ - ICertSrvSetupKeyInformation.put_ContainerName
 product: Windows
 targetos: Windows
 req.lib: 

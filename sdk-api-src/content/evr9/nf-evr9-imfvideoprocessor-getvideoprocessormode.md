@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoAlphaBitmapFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	strmiids.lib
--	strmiids.dll
+ - strmiids.lib
+ - strmiids.dll
 api_name:
--	IMFVideoProcessor.GetVideoProcessorMode
+ - IMFVideoProcessor.GetVideoProcessorMode
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

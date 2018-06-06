@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	ext-ms-win-ntuser-gui-l1-2-1.dll
--	Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
--	MinUser.dll
+ - User32.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+ - MinUser.dll
 api_name:
--	GetClipCursor
+ - GetClipCursor
 product: Windows
 targetos: Windows
 req.lib: User32.lib

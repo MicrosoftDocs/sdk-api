@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHGLOBALCOUNTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlwapi.h
+ - Shlwapi.h
 api_name:
--	SHGLOBALCOUNTER
+ - SHGLOBALCOUNTER
 product: Windows
 targetos: Windows
 req.lib: 

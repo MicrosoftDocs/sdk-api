@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_CONNECTION_MODE, *PWLAN_CONNECTION_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_CONNECTION_MODE
+ - WLAN_CONNECTION_MODE
 product: Windows
 targetos: Windows
 req.lib: 

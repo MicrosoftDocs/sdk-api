@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	wnvapi.dll
+ - wnvapi.dll
 api_name:
--	WnvOpen
+ - WnvOpen
 product: Windows
 targetos: Windows
 req.lib: 

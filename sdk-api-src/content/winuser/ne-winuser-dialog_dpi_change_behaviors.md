@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIALOG_DPI_CHANGE_BEHAVIORS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winuser.h
+ - winuser.h
 api_name:
--	DIALOG_DPI_CHANGE_BEHAVIORS
+ - DIALOG_DPI_CHANGE_BEHAVIORS
 product: Windows
 targetos: Windows
 req.lib: 

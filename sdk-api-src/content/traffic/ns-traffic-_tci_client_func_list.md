@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCI_CLIENT_FUNC_LIST, *PTCI_CLIENT_FUNC_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Traffic.h
+ - Traffic.h
 api_name:
--	TCI_CLIENT_FUNC_LIST
+ - TCI_CLIENT_FUNC_LIST
 product: Windows
 targetos: Windows
 req.lib: 

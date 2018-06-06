@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSV1_0_PROTOCOL_MESSAGE_TYPE, *PMSV1_0_PROTOCOL_MESSAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	MSV1_0_PROTOCOL_MESSAGE_TYPE
+ - MSV1_0_PROTOCOL_MESSAGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

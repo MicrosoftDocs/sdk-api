@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509Certificate, *PX509Certificate
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	X509Certificate
+ - X509Certificate
 product: Windows
 targetos: Windows
 req.lib: 

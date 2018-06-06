@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MF_FILE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfuuid.lib
--	mfuuid.dll
+ - mfuuid.lib
+ - mfuuid.dll
 api_name:
--	IMF2DBuffer.Unlock2D
+ - IMF2DBuffer.Unlock2D
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib

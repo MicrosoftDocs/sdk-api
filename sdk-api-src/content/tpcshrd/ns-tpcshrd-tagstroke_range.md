@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STROKE_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tpcshrd.h
+ - tpcshrd.h
 api_name:
--	STROKE_RANGE
+ - STROKE_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

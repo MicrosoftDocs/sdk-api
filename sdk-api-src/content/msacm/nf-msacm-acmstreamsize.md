@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msacm32.dll
--	Ext-MS-Win-mm-msacm-l1-1-0.dll
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
--	acmStreamSize
+ - acmStreamSize
 product: Windows
 targetos: Windows
 req.lib: Msacm32.lib

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VIRTUAL_DISK_PROGRESS, *PVIRTUAL_DISK_PROGRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	VIRTUAL_DISK_PROGRESS
+ - VIRTUAL_DISK_PROGRESS
 product: Windows
 targetos: Windows
 req.lib: 

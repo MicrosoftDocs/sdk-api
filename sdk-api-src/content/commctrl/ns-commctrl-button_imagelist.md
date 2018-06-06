@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BUTTON_IMAGELIST, *PBUTTON_IMAGELIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	BUTTON_IMAGELIST
+ - BUTTON_IMAGELIST
 product: Windows
 targetos: Windows
 req.lib: 

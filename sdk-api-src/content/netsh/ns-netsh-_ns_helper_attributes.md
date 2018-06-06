@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NS_HELPER_ATTRIBUTES, *PNS_HELPER_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netsh.h
+ - Netsh.h
 api_name:
--	NS_HELPER_ATTRIBUTES
+ - NS_HELPER_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_FOREST_TRUST_BINARY_DATA, *PLSA_FOREST_TRUST_BINARY_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	LSA_FOREST_TRUST_BINARY_DATA
+ - LSA_FOREST_TRUST_BINARY_DATA
 product: Windows
 targetos: Windows
 req.lib: 

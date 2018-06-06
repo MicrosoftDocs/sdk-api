@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINE_SEGMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	LINE_SEGMENT
+ - LINE_SEGMENT
 product: Windows
 targetos: Windows
 req.lib: 

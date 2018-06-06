@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-String-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
 api_name:
--	CompareStringEx
+ - CompareStringEx
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

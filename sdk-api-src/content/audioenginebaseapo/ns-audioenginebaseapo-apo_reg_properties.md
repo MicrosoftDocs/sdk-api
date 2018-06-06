@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APO_REG_PROPERTIES, *PAPO_REG_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	audioenginebaseapo.h
+ - audioenginebaseapo.h
 api_name:
--	APO_REG_PROPERTIES
+ - APO_REG_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

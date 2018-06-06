@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msi.dll
+ - Msi.dll
 api_name:
--	MsiSetFeatureAttributes
--	MsiSetFeatureAttributesA
--	MsiSetFeatureAttributesW
+ - MsiSetFeatureAttributes
+ - MsiSetFeatureAttributesA
+ - MsiSetFeatureAttributesW
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

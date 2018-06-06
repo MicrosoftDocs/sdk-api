@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MODULE_WRITE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	minidumpapiset.h
+ - minidumpapiset.h
 api_name:
--	MODULE_WRITE_FLAGS
+ - MODULE_WRITE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

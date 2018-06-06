@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_GET_TRANSACTED_VERSION, *PTXFS_GET_TRANSACTED_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_GET_TRANSACTED_VERSION
+ - TXFS_GET_TRANSACTED_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

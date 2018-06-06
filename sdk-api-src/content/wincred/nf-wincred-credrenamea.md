@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	CredRename
--	CredRenameA
--	CredRenameW
+ - CredRename
+ - CredRenameA
+ - CredRenameW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

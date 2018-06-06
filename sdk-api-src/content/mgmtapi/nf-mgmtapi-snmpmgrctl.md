@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mgmtapi.dll
+ - Mgmtapi.dll
 api_name:
--	SnmpMgrCtl
+ - SnmpMgrCtl
 product: Windows
 targetos: Windows
 req.lib: Mgmtapi.lib

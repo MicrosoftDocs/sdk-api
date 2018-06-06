@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	manipulations.h
+ - manipulations.h
 api_name:
--	IInertiaProcessor.ElasticMarginBottom
--	IInertiaProcessor.get_ElasticMarginBottom
--	IInertiaProcessor.put_ElasticMarginBottom
+ - IInertiaProcessor.ElasticMarginBottom
+ - IInertiaProcessor.get_ElasticMarginBottom
+ - IInertiaProcessor.put_ElasticMarginBottom
 product: Windows
 targetos: Windows
 req.lib: 

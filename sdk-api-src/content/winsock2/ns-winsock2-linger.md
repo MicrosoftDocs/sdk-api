@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINGER, *PLINGER, *LPLINGER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsock.h
+ - winsock.h
 api_name:
--	linger
+ - linger
 product: Windows
 targetos: Windows
 req.lib: 

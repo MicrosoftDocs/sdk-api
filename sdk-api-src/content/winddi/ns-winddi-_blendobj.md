@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLENDOBJ, *PBLENDOBJ
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	BLENDOBJ
+ - BLENDOBJ
 product: Windows
 targetos: Windows
 req.lib: 

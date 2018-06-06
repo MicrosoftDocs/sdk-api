@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINTRUST_DATA, *PWINTRUST_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	WINTRUST_DATA
+ - WINTRUST_DATA
 product: Windows
 targetos: Windows
 req.lib: 

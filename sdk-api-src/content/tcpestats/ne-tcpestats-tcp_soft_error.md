@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_SOFT_ERROR, *PTCP_SOFT_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpestats.h
+ - Tcpestats.h
 api_name:
--	TCP_SOFT_ERROR
+ - TCP_SOFT_ERROR
 product: Windows
 targetos: Windows
 req.lib: 

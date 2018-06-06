@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASF_STATUSFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcontainer.h
+ - wmcontainer.h
 api_name:
--	ASF_STATUSFLAGS
+ - ASF_STATUSFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

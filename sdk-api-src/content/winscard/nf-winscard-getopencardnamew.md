@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WINSAT_BITMAP_SIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Scarddlg.dll
+ - Scarddlg.dll
 api_name:
--	GetOpenCardName
--	GetOpenCardNameA
--	GetOpenCardNameW
+ - GetOpenCardName
+ - GetOpenCardNameA
+ - GetOpenCardNameW
 product: Windows
 targetos: Windows
 req.lib: Scarddlg.lib

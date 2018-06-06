@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAUDIO2FX_VOLUMEMETER_LEVELS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xaudio2fx.h
+ - xaudio2fx.h
 api_name:
--	XAUDIO2FX_VOLUMEMETER_LEVELS
+ - XAUDIO2FX_VOLUMEMETER_LEVELS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAY_DEVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ShellScalingAPI.h
+ - ShellScalingAPI.h
 api_name:
--	DISPLAY_DEVICE_TYPE
+ - DISPLAY_DEVICE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILESETINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qmgr.h
+ - Qmgr.h
 api_name:
--	FILESETINFO
+ - FILESETINFO
 product: Windows
 targetos: Windows
 req.lib: 

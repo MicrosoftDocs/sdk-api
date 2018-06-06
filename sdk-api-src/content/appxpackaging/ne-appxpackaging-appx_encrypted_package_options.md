@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPX_ENCRYPTED_PACKAGE_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AppxPackaging.h
+ - AppxPackaging.h
 api_name:
--	APPX_ENCRYPTED_PACKAGE_OPTIONS
+ - APPX_ENCRYPTED_PACKAGE_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: Appnotify.lib

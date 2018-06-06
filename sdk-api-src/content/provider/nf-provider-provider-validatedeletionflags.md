@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	Provider.ValidateDeletionFlags
--	?ValidateDeletionFlags@Provider@@MAEJJ@Z
--	?ValidateDeletionFlags@Provider@@MEAAJJ@Z
+ - Provider.ValidateDeletionFlags
+ - ?ValidateDeletionFlags@Provider@@MAEJJ@Z
+ - ?ValidateDeletionFlags@Provider@@MEAAJJ@Z
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VsBackup.h
+ - VsBackup.h
 api_name:
--	IVssBackupComponentsEx2.FastRecovery
+ - IVssBackupComponentsEx2.FastRecovery
 product: Windows
 targetos: Windows
 req.lib: 

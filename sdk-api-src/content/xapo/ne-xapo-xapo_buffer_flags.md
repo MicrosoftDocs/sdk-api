@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAPO_BUFFER_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xapo.h
+ - xapo.h
 api_name:
--	XAPO_BUFFER_FLAGS
+ - XAPO_BUFFER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_MCAST_LIMIT_ROW
+ - MIB_MCAST_LIMIT_ROW
 product: Windows
 targetos: Windows
 req.lib: 

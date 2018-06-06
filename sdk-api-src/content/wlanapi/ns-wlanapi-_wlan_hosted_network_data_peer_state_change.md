@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, *PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wlanapi.h
+ - Wlanapi.h
 api_name:
--	WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
+ - WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE
 product: Windows
 targetos: Windows
 req.lib: 

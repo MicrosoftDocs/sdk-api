@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDSPP_SUBMIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Credssp.h
+ - Credssp.h
 api_name:
--	CREDSPP_SUBMIT_TYPE
+ - CREDSPP_SUBMIT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

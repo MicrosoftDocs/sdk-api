@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TpcGetSamplesArgs
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-toolhelp-l1-1-0.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-ToolHelp-L1-1-1.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-toolhelp-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
--	Thread32Next
+ - Thread32Next
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

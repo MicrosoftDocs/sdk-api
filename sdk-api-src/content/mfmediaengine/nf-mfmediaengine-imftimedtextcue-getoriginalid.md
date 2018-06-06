@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TIMED_TEXT_WRITING_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfmediaengine.dll
+ - mfmediaengine.dll
 api_name:
--	IMFTimedTextCue.GetOriginalId
+ - IMFTimedTextCue.GetOriginalId
 product: Windows
 targetos: Windows
 req.lib: Mfmediaengine.lib

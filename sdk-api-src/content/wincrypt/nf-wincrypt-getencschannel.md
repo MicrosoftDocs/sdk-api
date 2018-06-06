@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Instrsa5.dll
+ - Instrsa5.dll
 api_name:
--	GetEncSChannel
+ - GetEncSChannel
 product: Windows
 targetos: Windows
 req.lib: 

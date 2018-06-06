@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
--	Kernel32Legacy.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
--	GetCompressedFileSizeTransacted
--	GetCompressedFileSizeTransactedA
--	GetCompressedFileSizeTransactedW
+ - GetCompressedFileSizeTransacted
+ - GetCompressedFileSizeTransactedA
+ - GetCompressedFileSizeTransactedW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

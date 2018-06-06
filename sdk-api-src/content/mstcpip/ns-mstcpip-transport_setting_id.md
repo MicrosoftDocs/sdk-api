@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	transportsettingcommon.h
+ - transportsettingcommon.h
 api_name:
--	TRANSPORT_SETTING_ID
+ - TRANSPORT_SETTING_ID
 product: Windows
 targetos: Windows
 req.lib: 

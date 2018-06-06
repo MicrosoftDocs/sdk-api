@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MilMatrix3x2D
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	MilMatrix3x2D
+ - MilMatrix3x2D
 product: Windows
 targetos: Windows
 req.lib: 

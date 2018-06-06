@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winerror.h
+ - Winerror.h
 api_name:
--	HRESULT_SEVERITY
+ - HRESULT_SEVERITY
 product: Windows
 targetos: Windows
 req.lib: 

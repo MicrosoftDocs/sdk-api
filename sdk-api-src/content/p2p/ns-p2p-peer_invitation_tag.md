@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_INVITATION, *PPEER_INVITATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PEER_INVITATION
+ - PEER_INVITATION
 product: Windows
 targetos: Windows
 req.lib: 

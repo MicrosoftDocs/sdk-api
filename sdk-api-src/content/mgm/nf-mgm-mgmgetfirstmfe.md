@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MGM_ENUM_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rtm.dll
+ - Rtm.dll
 api_name:
--	MgmGetFirstMfe
+ - MgmGetFirstMfe
 product: Windows
 targetos: Windows
 req.lib: Rtm.lib

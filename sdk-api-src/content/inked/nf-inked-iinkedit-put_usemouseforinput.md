@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.UseMouseForInput
--	IInkEdit.get_UseMouseForInput
--	IInkEdit.put_UseMouseForInput
--	InkEdit.get_UseMouseForInput
--	InkEdit.put_UseMouseForInput
+ - IInkEdit.UseMouseForInput
+ - IInkEdit.get_UseMouseForInput
+ - IInkEdit.put_UseMouseForInput
+ - InkEdit.get_UseMouseForInput
+ - InkEdit.put_UseMouseForInput
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

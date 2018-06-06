@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMMCONFIG, *LPCOMMCONFIG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	COMMCONFIG
+ - COMMCONFIG
 product: Windows
 targetos: Windows
 req.lib: 

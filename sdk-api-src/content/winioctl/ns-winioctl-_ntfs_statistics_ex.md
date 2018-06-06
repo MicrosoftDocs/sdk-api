@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NTFS_STATISTICS_EX, *PNTFS_STATISTICS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	NTFS_STATISTICS_EX
+ - NTFS_STATISTICS_EX
 product: Windows
 targetos: Windows
 req.lib: 

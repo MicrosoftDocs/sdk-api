@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_BINDING_HANDLE_TEMPLATE_V1_A, *PRPC_BINDING_HANDLE_TEMPLATE_V1_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_BINDING_HANDLE_TEMPLATE_V1
+ - RPC_BINDING_HANDLE_TEMPLATE_V1
 product: Windows
 targetos: Windows
 req.lib: 

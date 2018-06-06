@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
+ - Kernel32.dll
 api_name:
--	uaw_wcslen
+ - uaw_wcslen
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAUDIO2_FILTER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xaudio2.h
+ - xaudio2.h
 api_name:
--	XAudio2RadiansToCutoffFrequency
+ - XAudio2RadiansToCutoffFrequency
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_SECURITY_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_SECURITY_PROPERTY
+ - WS_SECURITY_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

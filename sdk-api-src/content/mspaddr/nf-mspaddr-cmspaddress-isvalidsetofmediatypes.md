@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSP_EVENT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mspaddr.h
+ - Mspaddr.h
 api_name:
--	CMSPAddress.IsValidSetOfMediaTypes
+ - CMSPAddress.IsValidSetOfMediaTypes
 product: Windows
 targetos: Windows
 req.lib: 

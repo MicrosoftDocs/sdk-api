@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Inaddr.h
--	Winsock2.h
+ - Inaddr.h
+ - Winsock2.h
 api_name:
--	IN_ADDR
+ - IN_ADDR
 product: Windows
 targetos: Windows
 req.lib: 

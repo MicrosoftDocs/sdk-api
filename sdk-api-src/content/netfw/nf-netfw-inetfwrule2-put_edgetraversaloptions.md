@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
+ - FirewallAPI.dll
 api_name:
--	INetFwRule2.EdgeTraversalOptions
--	INetFwRule2.get_EdgeTraversalOptions
--	INetFwRule2.put_EdgeTraversalOptions
+ - INetFwRule2.EdgeTraversalOptions
+ - INetFwRule2.get_EdgeTraversalOptions
+ - INetFwRule2.put_EdgeTraversalOptions
 product: Windows
 targetos: Windows
 req.lib: 

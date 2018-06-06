@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_STORAGE_TIER_REGION, *PFILE_STORAGE_TIER_REGION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoctl.h
+ - WinIoctl.h
 api_name:
--	FILE_STORAGE_TIER_REGION
+ - FILE_STORAGE_TIER_REGION
 product: Windows
 targetos: Windows
 req.lib: 

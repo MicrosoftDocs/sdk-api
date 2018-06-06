@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRSETVIEWPORTORGEX, *PEMRSETVIEWPORTORGEX, EMRSETWINDOWORGEX, *PEMRSETWINDOWORGEX, EMRSETBRUSHORGEX, *PEMRSETBRUSHORGEX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRSETVIEWPORTORGEX
+ - EMRSETVIEWPORTORGEX
 product: Windows
 targetos: Windows
 req.lib: 

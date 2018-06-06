@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_LICENSE_CAPABILITIES
+ - WTS_LICENSE_CAPABILITIES
 product: Windows
 targetos: Windows
 req.lib: 

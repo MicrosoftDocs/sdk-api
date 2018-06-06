@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: GOPHER_FIND_DATAA, *LPGOPHER_FIND_DATAA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	GOPHER_FIND_DATA
--	GOPHER_FIND_DATAA
--	GOPHER_FIND_DATAW
+ - GOPHER_FIND_DATA
+ - GOPHER_FIND_DATAA
+ - GOPHER_FIND_DATAW
 product: Windows
 targetos: Windows
 req.lib: 

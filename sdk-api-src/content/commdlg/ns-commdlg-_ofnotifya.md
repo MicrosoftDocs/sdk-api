@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OFNOTIFYA, *LPOFNOTIFYA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	OFNOTIFY
--	OFNOTIFYA
--	OFNOTIFYW
+ - OFNOTIFY
+ - OFNOTIFYA
+ - OFNOTIFYW
 product: Windows
 targetos: Windows
 req.lib: 

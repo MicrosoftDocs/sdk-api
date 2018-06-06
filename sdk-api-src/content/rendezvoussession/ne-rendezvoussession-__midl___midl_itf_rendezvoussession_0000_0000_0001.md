@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RendezvousSession.h
+ - RendezvousSession.h
 api_name:
--	RENDEZVOUS_SESSION_STATE
+ - RENDEZVOUS_SESSION_STATE
 product: Windows
 targetos: Windows
 req.lib: 

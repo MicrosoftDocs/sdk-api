@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OCSP_BASIC_RESPONSE_ENTRY, *POCSP_BASIC_RESPONSE_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	OCSP_BASIC_RESPONSE_ENTRY
+ - OCSP_BASIC_RESPONSE_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

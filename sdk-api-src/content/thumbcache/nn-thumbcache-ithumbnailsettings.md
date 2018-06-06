@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Thumbcache.h
+ - Thumbcache.h
 api_name:
--	IThumbnailSettings
+ - IThumbnailSettings
 product: Windows
 targetos: Windows
 req.lib: 

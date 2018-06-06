@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADRLIST, *LPADRLIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wabdefs.h
+ - Wabdefs.h
 api_name:
--	Gender
+ - Gender
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_SHADER_VERSION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3DCompiler_47.dll
+ - D3DCompiler_47.dll
 api_name:
--	ID3D11LibraryReflection.GetDesc
+ - ID3D11LibraryReflection.GetDesc
 product: Windows
 targetos: Windows
 req.lib: D3DCompiler.lib

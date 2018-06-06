@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_SENDER_STATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsrm.h
+ - Wsrm.h
 api_name:
--	RM_SENDER_STATS
+ - RM_SENDER_STATS
 product: Windows
 targetos: Windows
 req.lib: 

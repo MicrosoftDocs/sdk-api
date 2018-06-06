@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IDPE_ATTR, *LPIDPE_ATTR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qospol.h
+ - Qospol.h
 api_name:
--	IDPE_ATTR
+ - IDPE_ATTR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SystemHealthAgentState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Hnetcfg.dll
+ - Hnetcfg.dll
 api_name:
--	IStaticPortMappingCollection.get_Count
+ - IStaticPortMappingCollection.get_Count
 product: Windows
 targetos: Windows
 req.lib: 

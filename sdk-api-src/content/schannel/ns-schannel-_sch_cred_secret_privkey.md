@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCH_CRED_SECRET_PRIVKEY, *PSCH_CRED_SECRET_PRIVKEY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SCH_CRED_SECRET_PRIVKEY
+ - SCH_CRED_SECRET_PRIVKEY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAP_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	MAP_FLAGS
+ - MAP_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

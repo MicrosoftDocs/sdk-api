@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_WINNT_AUTH_IDENTITY_A, *PSEC_WINNT_AUTH_IDENTITY_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	SEC_WINNT_AUTH_IDENTITY
+ - SEC_WINNT_AUTH_IDENTITY
 product: Windows
 targetos: Windows
 req.lib: 

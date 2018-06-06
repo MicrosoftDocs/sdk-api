@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TrustLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CInstance.IsNull
--	?IsNull@CInstance@@QBE_NPBG@Z
--	?IsNull@CInstance@@QEBA_NPEBG@Z
+ - CInstance.IsNull
+ - ?IsNull@CInstance@@QBE_NPBG@Z
+ - ?IsNull@CInstance@@QEBA_NPEBG@Z
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_CERT_ROOT_CONFIG0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_CERT_ROOT_CONFIG0
+ - IKEEXT_CERT_ROOT_CONFIG0
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ShellWindowTypeConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Faxcom.dll
+ - Faxcom.dll
 api_name:
--	FaxJob.DisplayName
+ - FaxJob.DisplayName
 product: Windows
 targetos: Windows
 req.lib: 

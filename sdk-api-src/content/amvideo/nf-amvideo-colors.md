@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Strmbase.lib
--	Strmbase.dll
--	Strmbasd.lib
--	Strmbasd.dll
+ - Strmbase.lib
+ - Strmbase.dll
+ - Strmbasd.lib
+ - Strmbasd.dll
 api_name:
--	COLORS
+ - COLORS
 product: Windows
 targetos: Windows
 req.lib: Strmbase.lib (retail builds); Strmbasd.lib (debug builds)

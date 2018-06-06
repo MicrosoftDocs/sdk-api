@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_PROFILE_INFO, *PWCM_PROFILE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_PROFILE_INFO
+ - WCM_PROFILE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

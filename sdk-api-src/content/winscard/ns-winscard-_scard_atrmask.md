@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winscard.h
+ - Winscard.h
 api_name:
--	SCARD_ATRMASK
+ - SCARD_ATRMASK
 product: Windows
 targetos: Windows
 req.lib: 

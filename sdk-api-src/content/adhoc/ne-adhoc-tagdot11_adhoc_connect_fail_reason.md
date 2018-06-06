@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DOT11_ADHOC_CONNECT_FAIL_REASON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	adhoc.h
+ - adhoc.h
 api_name:
--	DOT11_ADHOC_CONNECT_FAIL_REASON
+ - DOT11_ADHOC_CONNECT_FAIL_REASON
 product: Windows
 targetos: Windows
 req.lib: 

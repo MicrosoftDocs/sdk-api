@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSMAN_ENVIRONMENT_VARIABLE_SET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_ENVIRONMENT_VARIABLE_SET
+ - WSMAN_ENVIRONMENT_VARIABLE_SET
 product: Windows
 targetos: Windows
 req.lib: 

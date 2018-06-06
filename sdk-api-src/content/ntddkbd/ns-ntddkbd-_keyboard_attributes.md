@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntddkbd.h
+ - ntddkbd.h
 api_name:
--	KEYBOARD_ATTRIBUTES
+ - KEYBOARD_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

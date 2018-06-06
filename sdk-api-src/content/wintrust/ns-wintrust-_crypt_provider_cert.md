@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PROVIDER_CERT, *PCRYPT_PROVIDER_CERT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	CRYPT_PROVIDER_CERT
+ - CRYPT_PROVIDER_CERT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ProtType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	encdec.h
+ - encdec.h
 api_name:
--	IDTFilter3.GetProtectionType
+ - IDTFilter3.GetProtectionType
 product: Windows
 targetos: Windows
 req.lib: 

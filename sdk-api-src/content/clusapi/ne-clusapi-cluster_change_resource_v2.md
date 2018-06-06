@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_CHANGE_RESOURCE_V2
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	CLUSTER_CHANGE_RESOURCE_V2
+ - CLUSTER_CHANGE_RESOURCE_V2
 product: Windows
 targetos: Windows
 req.lib: 

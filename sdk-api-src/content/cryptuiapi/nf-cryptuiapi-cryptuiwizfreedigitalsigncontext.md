@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Cryptui.dll
+ - Cryptui.dll
 api_name:
--	CryptUIWizFreeDigitalSignContext
+ - CryptUIWizFreeDigitalSignContext
 product: Windows
 targetos: Windows
 req.lib: Cryptui.lib

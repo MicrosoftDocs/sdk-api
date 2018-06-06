@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_NegoStatus, *PSecPkgContext_NegoStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgContext_NegoStatus
+ - SecPkgContext_NegoStatus
 product: Windows
 targetos: Windows
 req.lib: 

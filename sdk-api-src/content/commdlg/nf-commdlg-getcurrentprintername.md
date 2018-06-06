@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UDACCEL, *LPUDACCEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Comdlg32.dll
+ - Comdlg32.dll
 api_name:
--	IPrintDialogServices.GetCurrentPrinterName
+ - IPrintDialogServices.GetCurrentPrinterName
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_DATETIME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_DATETIME_FORMAT
+ - WS_DATETIME_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

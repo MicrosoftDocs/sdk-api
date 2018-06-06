@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_DNS_DOMAIN_INFO, *PPOLICY_DNS_DOMAIN_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dhcpcsvc.dll
+ - Dhcpcsvc.dll
 api_name:
--	McastApiStartup
+ - McastApiStartup
 product: Windows
 targetos: Windows
 req.lib: Dhcpcsvc.lib

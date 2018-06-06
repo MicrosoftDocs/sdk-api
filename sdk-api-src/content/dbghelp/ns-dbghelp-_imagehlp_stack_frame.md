@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_STACK_FRAME, *PIMAGEHLP_STACK_FRAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGEHLP_STACK_FRAME
+ - IMAGEHLP_STACK_FRAME
 product: Windows
 targetos: Windows
 req.lib: 

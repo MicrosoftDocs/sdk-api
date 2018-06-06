@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_INDEX_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_INDEX_TYPE
+ - WMT_INDEX_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

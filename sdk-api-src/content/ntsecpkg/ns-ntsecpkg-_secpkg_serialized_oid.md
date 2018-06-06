@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_SERIALIZED_OID, *PSECPKG_SERIALIZED_OID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_SERIALIZED_OID
+ - SECPKG_SERIALIZED_OID
 product: Windows
 targetos: Windows
 req.lib: 

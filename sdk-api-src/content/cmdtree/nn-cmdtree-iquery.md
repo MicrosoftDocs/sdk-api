@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	cmdtree.h
+ - cmdtree.h
 api_name:
--	IQuery
--	IQuery.AddPostProcessing
--	IQuery.GetCardinalityEstimate
+ - IQuery
+ - IQuery.AddPostProcessing
+ - IQuery.GetCardinalityEstimate
 product: Windows
 targetos: Windows
 req.lib: 

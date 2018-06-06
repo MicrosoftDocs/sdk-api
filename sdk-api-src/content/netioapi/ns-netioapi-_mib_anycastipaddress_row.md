@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_ANYCASTIPADDRESS_ROW, *PMIB_ANYCASTIPADDRESS_ROW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	MIB_ANYCASTIPADDRESS_ROW
+ - MIB_ANYCASTIPADDRESS_ROW
 product: Windows
 targetos: Windows
 req.lib: 

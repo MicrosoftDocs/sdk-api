@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_APP_LAUNCH_INFO, *PPEER_APP_LAUNCH_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PEER_APP_LAUNCH_INFO
+ - PEER_APP_LAUNCH_INFO
 product: Windows
 targetos: Windows
 req.lib: 

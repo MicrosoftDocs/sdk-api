@@ -29,14 +29,14 @@ req.type-library: D2D1.lib
 tech.root: 
 req.typenames: D2D1_IMAGE_BRUSH_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	D2D1.lib
+ - D2D1.lib
 api_name:
--	D2D1_IMAGE_BRUSH_PROPERTIES
+ - D2D1_IMAGE_BRUSH_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

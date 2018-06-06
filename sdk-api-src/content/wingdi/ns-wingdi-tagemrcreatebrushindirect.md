@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRCREATEBRUSHINDIRECT, *PEMRCREATEBRUSHINDIRECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRCREATEBRUSHINDIRECT
+ - EMRCREATEBRUSHINDIRECT
 product: Windows
 targetos: Windows
 req.lib: 

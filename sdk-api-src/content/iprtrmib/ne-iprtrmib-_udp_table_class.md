@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UDP_TABLE_CLASS, *PUDP_TABLE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
--	Iphlpapi.h
+ - Iprtrmib.h
+ - Iphlpapi.h
 api_name:
--	UDP_TABLE_CLASS
+ - UDP_TABLE_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEB, *PPEB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winternl.h
+ - Winternl.h
 api_name:
--	PEB
+ - PEB
 product: Windows
 targetos: Windows
 req.lib: 

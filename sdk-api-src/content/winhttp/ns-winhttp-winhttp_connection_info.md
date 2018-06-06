@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINHTTP_CONNECTION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winhttp.h
+ - Winhttp.h
 api_name:
--	WINHTTP_CONNECTION_INFO
+ - WINHTTP_CONNECTION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

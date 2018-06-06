@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EOC_ChangeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	EventSys.h
+ - EventSys.h
 api_name:
--	IEventSubscription.SubscriberInterface
--	IEventSubscription.get_SubscriberInterface
--	IEventSubscription.put_SubscriberInterface
+ - IEventSubscription.SubscriberInterface
+ - IEventSubscription.get_SubscriberInterface
+ - IEventSubscription.put_SubscriberInterface
 product: Windows
 targetos: Windows
 req.lib: 

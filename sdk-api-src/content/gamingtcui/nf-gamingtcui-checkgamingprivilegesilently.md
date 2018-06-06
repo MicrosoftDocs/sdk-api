@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: KnownGamingPrivileges
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	CheckGamingPrivilegeSilently
+ - CheckGamingPrivilegeSilently
 product: Windows
 targetos: Windows
 req.lib: WindowsApp.lib

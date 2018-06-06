@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROWSETEVENT_ITEMSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	ROWSETEVENT_ITEMSTATE
+ - ROWSETEVENT_ITEMSTATE
 product: Windows
 targetos: Windows
 req.lib: 

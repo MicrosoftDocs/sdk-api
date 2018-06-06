@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: pluginResource2FileAssociation
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tspubplugin2com.h
+ - tspubplugin2com.h
 api_name:
--	pluginResource2FileAssociation
+ - pluginResource2FileAssociation
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_ELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	infocard.h
+ - infocard.h
 api_name:
--	POLICY_ELEMENT
+ - POLICY_ELEMENT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkPresenterDesktop.h
+ - InkPresenterDesktop.h
 api_name:
--	IInkPresenterDesktop.SetCommitRequestHandler
+ - IInkPresenterDesktop.SetCommitRequestHandler
 product: Windows
 targetos: Windows
 req.lib: 

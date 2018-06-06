@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-0.dll
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-0.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	DdQueryDisplaySettingsUniqueness
--	GdiEntry13
+ - DdQueryDisplaySettingsUniqueness
+ - GdiEntry13
 product: Windows
 targetos: Windows
 req.lib: 

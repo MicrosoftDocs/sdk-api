@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TEXT_SOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Indexsrv.h
+ - Indexsrv.h
 api_name:
--	TEXT_SOURCE
+ - TEXT_SOURCE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Credssp.h
+ - Credssp.h
 api_name:
--	SecPkgContext_ClientCreds
+ - SecPkgContext_ClientCreds
 product: Windows
 targetos: Windows
 req.lib: 

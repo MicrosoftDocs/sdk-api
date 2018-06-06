@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_SYSTEM_STORE_RELOCATE_PARA, *PCERT_SYSTEM_STORE_RELOCATE_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_SYSTEM_STORE_RELOCATE_PARA
+ - CERT_SYSTEM_STORE_RELOCATE_PARA
 product: Windows
 targetos: Windows
 req.lib: 

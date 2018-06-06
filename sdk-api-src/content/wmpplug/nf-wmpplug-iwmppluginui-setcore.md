@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmpplug.h
+ - wmpplug.h
 api_name:
--	IWMPPluginUI.SetCore
+ - IWMPPluginUI.SetCore
 product: Windows
 targetos: Windows
 req.lib: 

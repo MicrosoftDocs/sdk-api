@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRMBOUNDLICENSEPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msdrmdefs.h
+ - Msdrmdefs.h
 api_name:
--	DRMBOUNDLICENSEPARAMS
+ - DRMBOUNDLICENSEPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

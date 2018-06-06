@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	opmapi.h
+ - opmapi.h
 api_name:
--	OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+ - OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

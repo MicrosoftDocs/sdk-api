@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_USAGE_MATCH, *PCERT_USAGE_MATCH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_USAGE_MATCH
+ - CERT_USAGE_MATCH
 product: Windows
 targetos: Windows
 req.lib: 

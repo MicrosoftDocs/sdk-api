@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	GdiplusTypes.h
+ - GdiplusTypes.h
 api_name:
--	GdiplusAbort
+ - GdiplusAbort
 product: Windows
 targetos: Windows
 req.lib: 

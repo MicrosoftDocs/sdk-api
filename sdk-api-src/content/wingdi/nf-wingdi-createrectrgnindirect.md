@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gdi32.dll
--	Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
--	ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+ - gdi32.dll
+ - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+ - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
--	CreateRectRgnIndirect
+ - CreateRectRgnIndirect
 product: Windows
 targetos: Windows
 req.lib: Gdi32.lib

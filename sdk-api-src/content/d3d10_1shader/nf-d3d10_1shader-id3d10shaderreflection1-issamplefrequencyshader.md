@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_SHADER_DEBUG_VARTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D10_1Shader.h
+ - D3D10_1Shader.h
 api_name:
--	ID3D10ShaderReflection1.IsSampleFrequencyShader
+ - ID3D10ShaderReflection1.IsSampleFrequencyShader
 product: Windows
 targetos: Windows
 req.lib: 

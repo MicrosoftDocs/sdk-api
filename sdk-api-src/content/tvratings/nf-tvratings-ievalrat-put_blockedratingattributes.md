@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EnTvRat_US_TV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tvratings.h
+ - Tvratings.h
 api_name:
--	IEvalRat.put_BlockedRatingAttributes
+ - IEvalRat.put_BlockedRatingAttributes
 product: Windows
 targetos: Windows
 req.lib: 

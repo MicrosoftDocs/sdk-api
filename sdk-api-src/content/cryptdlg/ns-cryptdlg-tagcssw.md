@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_SELECT_STRUCT_W, *PCERT_SELECT_STRUCT_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CryptDlg.h
+ - CryptDlg.h
 api_name:
--	CERT_SELECT_STRUCT
--	CERT_SELECT_STRUCT_A
--	CERT_SELECT_STRUCT_W
+ - CERT_SELECT_STRUCT
+ - CERT_SELECT_STRUCT_A
+ - CERT_SELECT_STRUCT_W
 product: Windows
 targetos: Windows
 req.lib: 

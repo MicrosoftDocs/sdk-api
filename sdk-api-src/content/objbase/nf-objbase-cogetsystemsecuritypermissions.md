@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComBase.dll
--	API-MS-Win-Core-Com-private-l1-1-0.dll
--	API-MS-Win-Core-COM-Private-l1-1-1.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-private-l1-1-0.dll
+ - API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_name:
--	CoGetSystemSecurityPermissions
+ - CoGetSystemSecurityPermissions
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSL_DISTRIBUTION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-wsl-api-l1-1-0.dll
+ - api-ms-win-wsl-api-l1-1-0.dll
 api_name:
--	WslGetDistributionConfiguration
+ - WslGetDistributionConfiguration
 product: Windows
 targetos: Windows
 req.lib: Wslapi.lib

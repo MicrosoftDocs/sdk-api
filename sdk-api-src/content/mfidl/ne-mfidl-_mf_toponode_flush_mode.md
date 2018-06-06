@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TOPONODE_FLUSH_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_TOPONODE_FLUSH_MODE
+ - MF_TOPONODE_FLUSH_MODE
 product: Windows
 targetos: Windows
 req.lib: 

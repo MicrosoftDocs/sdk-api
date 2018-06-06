@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_VPOV_DIMENSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D3D11.dll
+ - D3D11.dll
 api_name:
--	D3D11CreateDevice
+ - D3D11CreateDevice
 product: Windows
 targetos: Windows
 req.lib: D3D11.lib

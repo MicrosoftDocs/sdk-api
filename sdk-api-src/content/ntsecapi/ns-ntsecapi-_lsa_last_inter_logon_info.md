@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_LAST_INTER_LOGON_INFO, *PLSA_LAST_INTER_LOGON_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	LSA_LAST_INTER_LOGON_INFO
+ - LSA_LAST_INTER_LOGON_INFO
 product: Windows
 targetos: Windows
 req.lib: 

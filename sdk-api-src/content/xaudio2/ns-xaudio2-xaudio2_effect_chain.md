@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAUDIO2_EFFECT_CHAIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xaudio2.h
+ - xaudio2.h
 api_name:
--	XAUDIO2_EFFECT_CHAIN
+ - XAUDIO2_EFFECT_CHAIN
 product: Windows
 targetos: Windows
 req.lib: 

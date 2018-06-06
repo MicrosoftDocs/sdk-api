@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_XML_X509DATA_ITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	CscApi.dll
+ - CscApi.dll
 api_name:
--	OfflineFilesStart
+ - OfflineFilesStart
 product: Windows
 targetos: Windows
 req.lib: CscApi.lib

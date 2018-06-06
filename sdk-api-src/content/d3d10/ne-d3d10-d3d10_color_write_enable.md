@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_COLOR_WRITE_ENABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D10.h
+ - D3D10.h
 api_name:
--	D3D10_COLOR_WRITE_ENABLE
+ - D3D10_COLOR_WRITE_ENABLE
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

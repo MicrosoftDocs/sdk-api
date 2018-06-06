@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_MFE_STATS_TABLE, *PMIB_MFE_STATS_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipmib.h
--	Iprtrmib.h
+ - Ipmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_MFE_STATS_TABLE
+ - MIB_MFE_STATS_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

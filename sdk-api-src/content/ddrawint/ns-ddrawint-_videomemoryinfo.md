@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEOMEMORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	VIDEOMEMORYINFO
+ - VIDEOMEMORYINFO
 product: Windows
 targetos: Windows
 req.lib: 

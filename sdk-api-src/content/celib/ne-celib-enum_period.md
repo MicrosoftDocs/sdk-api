@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	celib.h
+ - celib.h
 api_name:
--	ENUM_PERIOD
+ - ENUM_PERIOD
 product: Windows
 targetos: Windows
 req.lib: 

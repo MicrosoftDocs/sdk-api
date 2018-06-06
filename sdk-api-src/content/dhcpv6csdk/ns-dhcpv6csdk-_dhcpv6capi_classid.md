@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPV6CAPI_CLASSID, *PDHCPV6CAPI_CLASSID, *LPDHCPV6CAPI_CLASSID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpv6csdk.h
+ - Dhcpv6csdk.h
 api_name:
--	DHCPV6CAPI_CLASSID
+ - DHCPV6CAPI_CLASSID
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msi.dll
+ - Msi.dll
 api_name:
--	MsiPreviewDialog
--	MsiPreviewDialogA
--	MsiPreviewDialogW
+ - MsiPreviewDialog
+ - MsiPreviewDialogA
+ - MsiPreviewDialogW
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

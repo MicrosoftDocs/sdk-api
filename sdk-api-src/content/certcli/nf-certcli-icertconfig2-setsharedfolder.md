@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509EnrollmentAuthFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certcli.dll
+ - Certcli.dll
 api_name:
--	ICertConfig2.SetSharedFolder
--	CCertConfig.SetSharedFolder
+ - ICertConfig2.SetSharedFolder
+ - CCertConfig.SetSharedFolder
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

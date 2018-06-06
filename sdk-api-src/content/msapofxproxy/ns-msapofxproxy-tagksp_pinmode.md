@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KSP_PINMODE, *PKSP_PINMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msapofxproxy.h
+ - Msapofxproxy.h
 api_name:
--	KSP_PINMODE
+ - KSP_PINMODE
 product: Windows
 targetos: Windows
 req.lib: 

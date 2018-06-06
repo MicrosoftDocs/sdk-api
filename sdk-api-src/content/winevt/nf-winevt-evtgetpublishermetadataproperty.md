@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_VARIANT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wevtapi.dll
+ - Wevtapi.dll
 api_name:
--	EvtGetPublisherMetadataProperty
+ - EvtGetPublisherMetadataProperty
 product: Windows
 targetos: Windows
 req.lib: Wevtapi.lib

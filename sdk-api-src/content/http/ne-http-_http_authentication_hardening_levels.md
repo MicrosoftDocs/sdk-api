@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_AUTHENTICATION_HARDENING_LEVELS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_AUTHENTICATION_HARDENING_LEVELS
+ - HTTP_AUTHENTICATION_HARDENING_LEVELS
 product: Windows
 targetos: Windows
 req.lib: 

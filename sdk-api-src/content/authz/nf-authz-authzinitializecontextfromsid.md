@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Authz.dll
--	Ext-MS-Win-authz-context-l1-1-0.dll
+ - Authz.dll
+ - Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
--	AuthzInitializeContextFromSid
+ - AuthzInitializeContextFromSid
 product: Windows
 targetos: Windows
 req.lib: Authz.lib

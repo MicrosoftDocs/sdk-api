@@ -29,15 +29,15 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: GROUP_FAILURE_INFO, *PGROUP_FAILURE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MsClus.h
+ - ClusApi.h
+ - MsClus.h
 api_name:
--	GROUP_FAILURE_INFO
+ - GROUP_FAILURE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,13 +29,13 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	IRDPSRAPITransportStreamBuffer::PayloadSize
+ - IRDPSRAPITransportStreamBuffer::PayloadSize
 product: Windows
 targetos: Windows
 req.lib: 

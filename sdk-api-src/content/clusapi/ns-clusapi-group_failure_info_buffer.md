@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: GROUP_FAILURE_INFO_BUFFER, *PGROUP_FAILURE_INFO_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MsClus.h
+ - ClusApi.h
+ - MsClus.h
 api_name:
--	GROUP_FAILURE_INFO_BUFFER
+ - GROUP_FAILURE_INFO_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

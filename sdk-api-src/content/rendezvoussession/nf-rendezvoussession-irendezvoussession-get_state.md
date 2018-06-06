@@ -29,15 +29,15 @@ req.type-library: RendezvousSession.tlb
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RendezvousSession.tlb
+ - RendezvousSession.tlb
 api_name:
--	IRendezvousSession.State
--	IRendezvousSession.get_State
+ - IRendezvousSession.State
+ - IRendezvousSession.get_State
 product: Windows
 targetos: Windows
 req.lib: 

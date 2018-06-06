@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IWindowsDriverUpdate4.WindowsDriverUpdateEntries
--	IWindowsDriverUpdate4.get_WindowsDriverUpdateEntries
+ - IWindowsDriverUpdate4.WindowsDriverUpdateEntries
+ - IWindowsDriverUpdate4.get_WindowsDriverUpdateEntries
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

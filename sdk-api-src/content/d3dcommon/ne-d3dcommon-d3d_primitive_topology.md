@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_PRIMITIVE_TOPOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3DCommon.h
+ - D3DCommon.h
 api_name:
--	D3D_PRIMITIVE_TOPOLOGY
+ - D3D_PRIMITIVE_TOPOLOGY
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

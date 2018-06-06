@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_ANIMATION_IDLE_BEHAVIOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	UIAnimation.h
+ - UIAnimation.h
 api_name:
--	UI_ANIMATION_IDLE_BEHAVIOR
+ - UI_ANIMATION_IDLE_BEHAVIOR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_SELECTUI_INPUT, *PCERT_SELECTUI_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cryptuiapi.h
+ - Cryptuiapi.h
 api_name:
--	CERT_SELECTUI_INPUT
+ - CERT_SELECTUI_INPUT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREATE_CLUSTER_NAME_ACCOUNT, *PCREATE_CLUSTER_NAME_ACCOUNT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CREATE_CLUSTER_NAME_ACCOUNT
+ - CREATE_CLUSTER_NAME_ACCOUNT
 product: Windows
 targetos: Windows
 req.lib: 

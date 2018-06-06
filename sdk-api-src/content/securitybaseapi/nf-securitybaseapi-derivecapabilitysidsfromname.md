@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
+ - Kernel32.dll
 api_name:
--	DeriveCapabilitySidsFromName
+ - DeriveCapabilitySidsFromName
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UNICODE_STRING, *PUNICODE_STRING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Subauth.h
--	Ntsecapi.h
+ - Subauth.h
+ - Ntsecapi.h
 api_name:
--	LSA_UNICODE_STRING
+ - LSA_UNICODE_STRING
 product: Windows
 targetos: Windows
 req.lib: 

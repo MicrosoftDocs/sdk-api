@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_MODIFY_RM
+ - TXFS_MODIFY_RM
 product: Windows
 targetos: Windows
 req.lib: 

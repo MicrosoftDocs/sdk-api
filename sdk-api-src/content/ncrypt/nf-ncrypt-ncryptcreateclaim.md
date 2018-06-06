@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SESSION_HEADER, *PSESSION_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ncrypt.dll
+ - ncrypt.dll
 api_name:
--	NCryptCreateClaim
+ - NCryptCreateClaim
 product: Windows
 targetos: Windows
 req.lib: Ncrypt.lib

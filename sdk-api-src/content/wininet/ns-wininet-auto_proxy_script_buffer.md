@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTO_PROXY_SCRIPT_BUFFER, *LPAUTO_PROXY_SCRIPT_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	AUTO_PROXY_SCRIPT_BUFFER
+ - AUTO_PROXY_SCRIPT_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

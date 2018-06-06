@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_USAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d10.h
+ - d3d10.h
 api_name:
--	ID3D10Query.GetDesc
+ - ID3D10Query.GetDesc
 product: Windows
 targetos: Windows
 req.lib: 

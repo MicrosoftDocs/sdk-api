@@ -29,43 +29,43 @@ req.type-library:
 tech.root: 
 req.typenames: QACONTROL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	oleacc.h
+ - oleacc.h
 api_name:
--	IAccessible
--	IAccessible.accName
--	IAccessible.get_accName
--	IAccessible.accValue
--	IAccessible.get_accValue
--	IAccessible.put_accValue
--	IAccessible.accChild
--	IAccessible.get_accChild
--	IAccessible.accChildCount
--	IAccessible.get_accChildCount
--	IAccessible.accDefaultAction
--	IAccessible.get_accDefaultAction
--	IAccessible.accDescription
--	IAccessible.get_accDescription
--	IAccessible.accFocus
--	IAccessible.get_accFocus
--	IAccessible.accHelp
--	IAccessible.get_accHelp
--	IAccessible.accHelpTopic
--	IAccessible.get_accHelpTopic
--	IAccessible.accKeyboardShortcut
--	IAccessible.get_accKeyboardShortcut
--	IAccessible.accParent
--	IAccessible.get_accParent
--	IAccessible.accRole
--	IAccessible.get_accRole
--	IAccessible.accSelection
--	IAccessible.get_accSelection
--	IAccessible.accState
--	IAccessible.get_accState
+ - IAccessible
+ - IAccessible.accName
+ - IAccessible.get_accName
+ - IAccessible.accValue
+ - IAccessible.get_accValue
+ - IAccessible.put_accValue
+ - IAccessible.accChild
+ - IAccessible.get_accChild
+ - IAccessible.accChildCount
+ - IAccessible.get_accChildCount
+ - IAccessible.accDefaultAction
+ - IAccessible.get_accDefaultAction
+ - IAccessible.accDescription
+ - IAccessible.get_accDescription
+ - IAccessible.accFocus
+ - IAccessible.get_accFocus
+ - IAccessible.accHelp
+ - IAccessible.get_accHelp
+ - IAccessible.accHelpTopic
+ - IAccessible.get_accHelpTopic
+ - IAccessible.accKeyboardShortcut
+ - IAccessible.get_accKeyboardShortcut
+ - IAccessible.accParent
+ - IAccessible.get_accParent
+ - IAccessible.accRole
+ - IAccessible.get_accRole
+ - IAccessible.accSelection
+ - IAccessible.get_accSelection
+ - IAccessible.accState
+ - IAccessible.get_accState
 product: Windows
 targetos: Windows
 req.lib: Oleacc.lib

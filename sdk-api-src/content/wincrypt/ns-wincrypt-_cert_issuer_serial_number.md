@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_ISSUER_SERIAL_NUMBER, *PCERT_ISSUER_SERIAL_NUMBER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_ISSUER_SERIAL_NUMBER
+ - CERT_ISSUER_SERIAL_NUMBER
 product: Windows
 targetos: Windows
 req.lib: 

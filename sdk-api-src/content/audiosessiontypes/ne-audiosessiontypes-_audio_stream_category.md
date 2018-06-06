@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_STREAM_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	audiosessiontypes.h
+ - audiosessiontypes.h
 api_name:
--	AUDIO_STREAM_CATEGORY
+ - AUDIO_STREAM_CATEGORY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SCOPE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
--	Iptypes.h
+ - Ws2def.h
+ - Iptypes.h
 api_name:
--	SCOPE_LEVEL
+ - SCOPE_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

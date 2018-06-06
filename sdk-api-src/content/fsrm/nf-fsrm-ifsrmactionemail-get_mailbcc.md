@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmActionEmail2.MailBcc
--	IFsrmActionEmail2.get_MailBcc
--	IFsrmActionEmail2.put_MailBcc
--	IFsrmActionEmail.MailBcc
--	IFsrmActionEmail.get_MailBcc
--	IFsrmActionEmail.put_MailBcc
+ - IFsrmActionEmail2.MailBcc
+ - IFsrmActionEmail2.get_MailBcc
+ - IFsrmActionEmail2.put_MailBcc
+ - IFsrmActionEmail.MailBcc
+ - IFsrmActionEmail.get_MailBcc
+ - IFsrmActionEmail.put_MailBcc
 product: Windows
 targetos: Windows
 req.lib: 

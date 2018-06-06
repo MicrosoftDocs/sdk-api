@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MGM_ENUM_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mgm.h
+ - Mgm.h
 api_name:
--	MGM_ENUM_TYPES
+ - MGM_ENUM_TYPES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UICloseReasonType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bdaiface.h
+ - Bdaiface.h
 api_name:
--	IBDA_EasMessage.get_EasMessage
+ - IBDA_EasMessage.get_EasMessage
 product: Windows
 targetos: Windows
 req.lib: 

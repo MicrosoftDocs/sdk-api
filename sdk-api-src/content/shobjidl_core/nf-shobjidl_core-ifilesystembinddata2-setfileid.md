@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	shobjidl_core.h
+ - shobjidl_core.h
 api_name:
--	IFileSystemBindData2.SetFileID
+ - IFileSystemBindData2.SetFileID
 product: Windows
 targetos: Windows
 req.lib: 

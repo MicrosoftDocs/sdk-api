@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TSSD_AddrV46Type
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SessDirPublicTypes.h
+ - SessDirPublicTypes.h
 api_name:
--	TSSD_AddrV46Type
+ - TSSD_AddrV46Type
 product: Windows
 targetos: Windows
 req.lib: Sensorsapi.lib

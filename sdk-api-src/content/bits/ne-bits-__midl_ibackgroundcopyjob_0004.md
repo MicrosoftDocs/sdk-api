@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_JOB_PROXY_USAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bits.h
+ - Bits.h
 api_name:
--	BG_JOB_PROXY_USAGE
+ - BG_JOB_PROXY_USAGE
 product: Windows
 targetos: Windows
 req.lib: 

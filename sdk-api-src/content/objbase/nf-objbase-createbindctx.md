@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	API-MS-Win-OLE32-IE-l1-1-0.dll
--	ole32_wp.dll
--	Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
+ - Ole32.dll
+ - API-MS-Win-OLE32-IE-l1-1-0.dll
+ - ole32_wp.dll
+ - Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
 api_name:
--	CreateBindCtx
+ - CreateBindCtx
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

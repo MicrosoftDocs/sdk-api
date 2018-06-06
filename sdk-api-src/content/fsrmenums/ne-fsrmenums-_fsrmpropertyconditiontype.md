@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmPropertyConditionType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fsrm.h
+ - Fsrm.h
 api_name:
--	FsrmPropertyConditionType
+ - FsrmPropertyConditionType
 product: Windows
 targetos: Windows
 req.lib: 

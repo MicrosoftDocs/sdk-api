@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	directxpackedvector.inl
+ - directxpackedvector.inl
 api_name:
--	XMStoreDecN4
+ - XMStoreDecN4
 product: Windows
 targetos: Windows
 req.lib: 

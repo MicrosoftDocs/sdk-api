@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSVidCtlStateList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mswmdm.h
+ - mswmdm.h
 api_name:
--	IMDSPDevice3
+ - IMDSPDevice3
 product: Windows
 targetos: Windows
 req.lib: Mssachlp.lib

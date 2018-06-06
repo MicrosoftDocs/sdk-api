@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIVIEWPROPSA, *POLEUIVIEWPROPSA, *LPOLEUIVIEWPROPSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUIVIEWPROPS
--	OLEUIVIEWPROPSA
--	OLEUIVIEWPROPSW
+ - OLEUIVIEWPROPS
+ - OLEUIVIEWPROPSA
+ - OLEUIVIEWPROPSW
 product: Windows
 targetos: Windows
 req.lib: 

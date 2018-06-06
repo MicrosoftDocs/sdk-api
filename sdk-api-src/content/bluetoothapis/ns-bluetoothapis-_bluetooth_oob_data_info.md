@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLUETOOTH_OOB_DATA_INFO, *PBLUETOOTH_OOB_DATA_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BluetoothAPIs.h
+ - BluetoothAPIs.h
 api_name:
--	BLUETOOTH_OOB_DATA_INFO
+ - BLUETOOTH_OOB_DATA_INFO
 product: Windows
 targetos: Windows
 req.lib: 

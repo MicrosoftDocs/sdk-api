@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_CONTEXTFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Thumbcache.h
+ - Thumbcache.h
 api_name:
--	WTS_CONTEXTFLAGS
+ - WTS_CONTEXTFLAGS
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

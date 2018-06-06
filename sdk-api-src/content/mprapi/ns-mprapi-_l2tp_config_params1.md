@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: L2TP_CONFIG_PARAMS1, *PL2TP_CONFIG_PARAMS1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	L2TP_CONFIG_PARAMS
+ - L2TP_CONFIG_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

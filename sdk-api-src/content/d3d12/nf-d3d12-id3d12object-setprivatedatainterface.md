@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_MODEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D12.dll
+ - D3D12.dll
 api_name:
--	ID3D12Object.SetPrivateDataInterface
+ - ID3D12Object.SetPrivateDataInterface
 product: Windows
 targetos: Windows
 req.lib: D3D12.lib

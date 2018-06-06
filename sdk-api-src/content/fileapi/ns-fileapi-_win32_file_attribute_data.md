@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fileapi.h
+ - fileapi.h
 api_name:
--	WIN32_FILE_ATTRIBUTE_DATA
+ - WIN32_FILE_ATTRIBUTE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

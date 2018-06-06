@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PROVIDER_SGNR, *PCRYPT_PROVIDER_SGNR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	CRYPT_PROVIDER_SGNR
+ - CRYPT_PROVIDER_SGNR
 product: Windows
 targetos: Windows
 req.lib: 

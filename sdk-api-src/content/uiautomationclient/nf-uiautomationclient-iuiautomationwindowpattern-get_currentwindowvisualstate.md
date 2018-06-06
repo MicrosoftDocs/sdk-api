@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationWindowPattern.CurrentWindowVisualState
--	IUIAutomationWindowPattern.get_CurrentWindowVisualState
+ - IUIAutomationWindowPattern.CurrentWindowVisualState
+ - IUIAutomationWindowPattern.get_CurrentWindowVisualState
 product: Windows
 targetos: Windows
 req.lib: 

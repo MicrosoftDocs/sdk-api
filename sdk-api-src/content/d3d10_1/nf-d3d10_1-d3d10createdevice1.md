@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_FEATURE_LEVEL1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D3D10_1.dll
+ - D3D10_1.dll
 api_name:
--	D3D10CreateDevice1
+ - D3D10CreateDevice1
 product: Windows
 targetos: Windows
 req.lib: D3D10_1.lib

@@ -29,24 +29,24 @@ req.type-library:
 tech.root: 
 req.typenames: ICONINFOEXW, *PICONINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-localization-l1-2-1.dll
--	API-MS-Win-Core-Localization-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-Localization-l1-2-0.dll
--	API-MS-Win-Core-Localization-l1-2-1.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-Localization-L1-2-2.dll
--	kernel32.dll
+ - api-ms-win-core-localization-l1-2-1.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+ - kernel32.dll
 api_name:
--	VerLanguageName
--	VerLanguageNameA
--	VerLanguageNameW
+ - VerLanguageName
+ - VerLanguageNameA
+ - VerLanguageNameW
 product: Windows
 targetos: Windows
 req.lib: Mincore.lib

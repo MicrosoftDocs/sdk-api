@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: smiOID, *smiLPOID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsnmp.h
+ - Winsnmp.h
 api_name:
--	smiOID
+ - smiOID
 product: Windows
 targetos: Windows
 req.lib: 

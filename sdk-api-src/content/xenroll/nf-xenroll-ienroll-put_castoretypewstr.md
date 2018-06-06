@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Xenroll.dll
+ - Xenroll.dll
 api_name:
--	IEnroll.CAStoreTypeWStr
--	IEnroll.get_CAStoreTypeWStr
--	IEnroll.put_CAStoreTypeWStr
+ - IEnroll.CAStoreTypeWStr
+ - IEnroll.get_CAStoreTypeWStr
+ - IEnroll.put_CAStoreTypeWStr
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

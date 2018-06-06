@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDMUSB_POWER_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	WDMUSB_POWER_STATE
+ - WDMUSB_POWER_STATE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ProtType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	vertdll.dll
--	api-ms-win-core-enclave-l1-1-0.dll
+ - vertdll.dll
+ - api-ms-win-core-enclave-l1-1-0.dll
 api_name:
--	TerminateEnclave
+ - TerminateEnclave
 product: Windows
 targetos: Windows
 req.lib: Vertdll.lib

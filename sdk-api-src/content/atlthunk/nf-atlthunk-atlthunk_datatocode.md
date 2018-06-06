@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AsyncStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	atlthunk.dll
+ - atlthunk.dll
 api_name:
--	AtlThunk_DataToCode
+ - AtlThunk_DataToCode
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_CERT_SIGNED_SAML_AUTHENTICATOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_CERT_SIGNED_SAML_AUTHENTICATOR
+ - WS_CERT_SIGNED_SAML_AUTHENTICATOR
 product: Windows
 targetos: Windows
 req.lib: 

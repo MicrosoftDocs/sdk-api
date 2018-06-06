@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DWM_SOURCE_FRAME_SAMPLING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	DWM_SOURCE_FRAME_SAMPLING
+ - DWM_SOURCE_FRAME_SAMPLING
 product: Windows
 targetos: Windows
 req.lib: 

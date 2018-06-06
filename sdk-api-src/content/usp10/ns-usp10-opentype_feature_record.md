@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPENTYPE_FEATURE_RECORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Usp10.h
+ - Usp10.h
 api_name:
--	OPENTYPE_FEATURE_RECORD
+ - OPENTYPE_FEATURE_RECORD
 product: Windows
 targetos: Windows
 req.lib: 

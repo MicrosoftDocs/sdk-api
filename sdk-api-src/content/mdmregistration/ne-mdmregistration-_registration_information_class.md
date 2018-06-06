@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MDMRegistration.h
+ - MDMRegistration.h
 api_name:
--	REGISTRATION_INFORMATION_CLASS
+ - REGISTRATION_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

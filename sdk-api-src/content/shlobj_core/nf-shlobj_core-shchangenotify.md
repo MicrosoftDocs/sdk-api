@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-Shell-Changenotify-L1-1-0.dll
--	Ext-Ms-Win-Shell-Directory-L1-1-0.dll
--	Ext-MS-Win-Shell-Shell32-L1-1-0.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-0.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-1.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
--	Windows.Storage.dll
+ - Shell32.dll
+ - API-MS-Win-Shell-Changenotify-L1-1-0.dll
+ - Ext-Ms-Win-Shell-Directory-L1-1-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-1-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Windows.Storage.dll
 api_name:
--	SHChangeNotify
+ - SHChangeNotify
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

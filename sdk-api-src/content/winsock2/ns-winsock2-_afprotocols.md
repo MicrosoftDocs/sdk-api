@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsock2.h
+ - Winsock2.h
 api_name:
--	AFPROTOCOLS
+ - AFPROTOCOLS
 product: Windows
 targetos: Windows
 req.lib: 

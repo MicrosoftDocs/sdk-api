@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: USER_INPUT_STRING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dxva2.dll
--	Ext-MS-Win-moderncore-Win32k-base-ntgdi-l1-1-0.dll
--	win32kfull.sys
--	win32kmin.sys
+ - dxva2.dll
+ - Ext-MS-Win-moderncore-Win32k-base-ntgdi-l1-1-0.dll
+ - win32kfull.sys
+ - win32kmin.sys
 api_name:
--	DestroyPhysicalMonitor
+ - DestroyPhysicalMonitor
 product: Windows
 targetos: Windows
 req.lib: Dxva2.lib

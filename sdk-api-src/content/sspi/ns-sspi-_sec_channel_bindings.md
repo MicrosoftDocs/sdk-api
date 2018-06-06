@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_CHANNEL_BINDINGS, *PSEC_CHANNEL_BINDINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SEC_CHANNEL_BINDINGS
+ - SEC_CHANNEL_BINDINGS
 product: Windows
 targetos: Windows
 req.lib: 

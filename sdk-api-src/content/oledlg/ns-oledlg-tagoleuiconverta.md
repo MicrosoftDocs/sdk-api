@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUICONVERTA, *POLEUICONVERTA, *LPOLEUICONVERTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUICONVERT
--	OLEUICONVERTA
--	OLEUICONVERTW
+ - OLEUICONVERT
+ - OLEUICONVERTA
+ - OLEUICONVERTW
 product: Windows
 targetos: Windows
 req.lib: 

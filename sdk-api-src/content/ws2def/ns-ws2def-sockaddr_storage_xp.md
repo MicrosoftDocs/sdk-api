@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKADDR_STORAGE_XP, *PSOCKADDR_STORAGE_XP, *LPSOCKADDR_STORAGE_XP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ws2def.h
+ - ws2def.h
 api_name:
--	SOCKADDR_STORAGE_LH
+ - SOCKADDR_STORAGE_LH
 product: Windows
 targetos: Windows
 req.lib: 

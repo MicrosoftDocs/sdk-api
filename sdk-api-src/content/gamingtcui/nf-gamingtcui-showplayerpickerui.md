@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: KnownGamingPrivileges
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gamingtcui.dll
--	API-MS-Win-Gaming-Tcui-L1-1-0.dll
--	GamingTcuiStub.dll
--	API-MS-Win-Gaming-Tcui-L1-1-1.dll
--	Xbox.Shell.API.dll
--	API-MS-Win-Gaming-Tcui-L1-1-2.dll
+ - gamingtcui.dll
+ - API-MS-Win-Gaming-Tcui-L1-1-0.dll
+ - GamingTcuiStub.dll
+ - API-MS-Win-Gaming-Tcui-L1-1-1.dll
+ - Xbox.Shell.API.dll
+ - API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
--	ShowPlayerPickerUI
+ - ShowPlayerPickerUI
 product: Windows
 targetos: Windows
 req.lib: WindowsApp.lib

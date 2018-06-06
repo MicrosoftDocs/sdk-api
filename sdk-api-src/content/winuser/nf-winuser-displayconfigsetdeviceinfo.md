@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	API-MS-Win-NTUser-SysParams-l1-1-0.dll
--	minuser.dll
--	Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+ - User32.dll
+ - API-MS-Win-NTUser-SysParams-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
--	DisplayConfigSetDeviceInfo
+ - DisplayConfigSetDeviceInfo
 product: Windows
 targetos: Windows
 req.lib: User32.lib; OneCoreUAP.lib on Windows 10

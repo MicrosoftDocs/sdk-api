@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_PARAMETER_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3dcommon.h
+ - d3dcommon.h
 api_name:
--	D3D_PARAMETER_FLAGS
+ - D3D_PARAMETER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

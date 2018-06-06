@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FaxRoute.h
+ - FaxRoute.h
 api_name:
--	FAX_ROUTE_CALLBACKROUTINES
+ - FAX_ROUTE_CALLBACKROUTINES
 product: Windows
 targetos: Windows
 req.lib: 

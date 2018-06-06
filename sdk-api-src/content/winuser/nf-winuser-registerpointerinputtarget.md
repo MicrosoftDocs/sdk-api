@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	API-MS-Win-RTCore-NTUser-wmpointer-l1-1-1.dll
--	MinUser.dll
--	API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
--	API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-wmpointer-l1-1-1.dll
+ - MinUser.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
--	RegisterPointerInputTarget
+ - RegisterPointerInputTarget
 product: Windows
 targetos: Windows
 req.lib: User32.lib

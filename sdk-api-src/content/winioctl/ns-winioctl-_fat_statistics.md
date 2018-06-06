@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAT_STATISTICS, *PFAT_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FAT_STATISTICS
+ - FAT_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsMgmt.h
+ - VsMgmt.h
 api_name:
--	VSS_VOLUME_PROTECTION_INFO
+ - VSS_VOLUME_PROTECTION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

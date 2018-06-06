@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Routprot.h
+ - Routprot.h
 api_name:
--	PSET_GLOBAL_INFO
+ - PSET_GLOBAL_INFO
 product: Windows
 targetos: Windows
 req.lib: 

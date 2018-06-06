@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINHTTP_WEB_SOCKET_CLOSE_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winhttp.h
+ - winhttp.h
 api_name:
--	WINHTTP_WEB_SOCKET_CLOSE_STATUS
+ - WINHTTP_WEB_SOCKET_CLOSE_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

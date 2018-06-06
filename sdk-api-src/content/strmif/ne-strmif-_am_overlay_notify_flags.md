@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Strmif.h
+ - Strmif.h
 api_name:
--	_AM_OVERLAY_NOTIFY_FLAGS
+ - _AM_OVERLAY_NOTIFY_FLAGS
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

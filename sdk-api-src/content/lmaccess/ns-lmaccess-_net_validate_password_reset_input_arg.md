@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, *PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
+ - NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 product: Windows
 targetos: Windows
 req.lib: 

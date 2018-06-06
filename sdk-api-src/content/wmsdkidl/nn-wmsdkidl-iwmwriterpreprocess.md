@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmsdkidl.h
+ - wmsdkidl.h
 api_name:
--	IWMWriterPreprocess
+ - IWMWriterPreprocess
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib

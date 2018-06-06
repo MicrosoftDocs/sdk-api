@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
--	IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
--	IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
+ - IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
+ - IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
+ - IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

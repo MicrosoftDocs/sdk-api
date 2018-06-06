@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONCBSTRUCT, *PMONCBSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ddeml.h
+ - Ddeml.h
 api_name:
--	MONCBSTRUCT
+ - MONCBSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

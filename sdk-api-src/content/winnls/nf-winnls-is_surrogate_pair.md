@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnls.h
+ - Winnls.h
 api_name:
--	IS_SURROGATE_PAIR
+ - IS_SURROGATE_PAIR
 product: Windows
 targetos: Windows
 req.lib: 

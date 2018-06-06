@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCOPE_MIB_INFO, *LPSCOPE_MIB_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	SCOPE_MIB_INFO
+ - SCOPE_MIB_INFO
 product: Windows
 targetos: Windows
 req.lib: 

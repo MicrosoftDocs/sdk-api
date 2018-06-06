@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STRRET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shtypes.h
+ - Shtypes.h
 api_name:
--	STRRET
+ - STRRET
 product: Windows
 targetos: Windows
 req.lib: 

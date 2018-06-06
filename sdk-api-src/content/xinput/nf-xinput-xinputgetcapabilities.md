@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	xinput1_4.dll
--	xinput9_1_0.dll
--	Ext-MS-Win-Gaming-XInput-L1-1-0.dll
--	xinputuap.dll
+ - xinput1_4.dll
+ - xinput9_1_0.dll
+ - Ext-MS-Win-Gaming-XInput-L1-1-0.dll
+ - xinputuap.dll
 api_name:
--	XInputGetCapabilities
+ - XInputGetCapabilities
 product: Windows
 targetos: Windows
 req.lib: Xinput.lib; Xinput9_1_0.lib

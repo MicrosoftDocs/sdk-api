@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GAMING_DEVICE_VENDOR_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gamingdeviceinformation.h
+ - gamingdeviceinformation.h
 api_name:
--	GAMING_DEVICE_VENDOR_ID
+ - GAMING_DEVICE_VENDOR_ID
 product: Windows
 targetos: Windows
 req.lib: 

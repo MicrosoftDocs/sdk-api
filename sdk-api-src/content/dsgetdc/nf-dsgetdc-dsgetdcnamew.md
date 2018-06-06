@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	NetApi32.dll
+ - NetApi32.dll
 api_name:
--	DsGetDcName
--	DsGetDcNameA
--	DsGetDcNameW
+ - DsGetDcName
+ - DsGetDcNameA
+ - DsGetDcNameW
 product: Windows
 targetos: Windows
 req.lib: NetApi32.lib

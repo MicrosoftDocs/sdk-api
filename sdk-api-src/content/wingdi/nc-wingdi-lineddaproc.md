@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_TIME, *PFAX_TIME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	LineDDAProc
+ - LineDDAProc
 product: Windows
 targetos: Windows
 req.lib: 

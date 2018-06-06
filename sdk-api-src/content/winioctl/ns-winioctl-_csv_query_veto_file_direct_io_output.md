@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT, *PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
+ - CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVABeginFrameInfo, *LPAMVABeginFrameInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	amva.h
+ - amva.h
 api_name:
--	AMVABeginFrameInfo
+ - AMVABeginFrameInfo
 product: Windows
 targetos: Windows
 req.lib: 

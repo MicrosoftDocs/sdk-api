@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_RESOURCE_RESTART_ACTION, CRRA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUSTER_RESOURCE_RESTART_ACTION
+ - CLUSTER_RESOURCE_RESTART_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

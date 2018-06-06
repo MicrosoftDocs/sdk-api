@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IASCOMPONENTPROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SdoIas.h
+ - SdoIas.h
 api_name:
--	IASCOMPONENTPROPERTIES
+ - IASCOMPONENTPROPERTIES
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

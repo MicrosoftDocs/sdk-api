@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_VERB, *PHTTP_VERB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	http.h
+ - http.h
 api_name:
--	HTTP_LESS_VERSION
+ - HTTP_LESS_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

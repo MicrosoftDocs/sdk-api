@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFCARD_RESOURCE, *PMFCARD_RESOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	MFCARD_RESOURCE
+ - MFCARD_RESOURCE
 product: Windows
 targetos: Windows
 req.lib: 

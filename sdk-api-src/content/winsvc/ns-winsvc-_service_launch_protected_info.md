@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_LAUNCH_PROTECTED_INFO, *PSERVICE_LAUNCH_PROTECTED_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinSvc.h
+ - WinSvc.h
 api_name:
--	SERVICE_LAUNCH_PROTECTED_INFO
+ - SERVICE_LAUNCH_PROTECTED_INFO
 product: Windows
 targetos: Windows
 req.lib: 

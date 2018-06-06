@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPX_SERVICE, *PIPX_SERVICE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Stm.h
+ - Stm.h
 api_name:
--	IPX_SERVICE
+ - IPX_SERVICE
 product: Windows
 targetos: Windows
 req.lib: 

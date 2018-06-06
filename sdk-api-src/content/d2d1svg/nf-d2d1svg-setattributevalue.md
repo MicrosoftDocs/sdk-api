@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_SVG_VISIBILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1svg.h
+ - d2d1svg.h
 api_name:
--	ID2D1SvgElement::SetAttributeValue
+ - ID2D1SvgElement::SetAttributeValue
 product: Windows
 targetos: Windows
 req.lib: 

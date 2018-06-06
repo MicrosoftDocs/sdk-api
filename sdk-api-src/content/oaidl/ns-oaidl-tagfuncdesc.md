@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FUNCDESC, *LPFUNCDESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OaIdl.h
+ - OaIdl.h
 api_name:
--	FUNCDESC
+ - FUNCDESC
 product: Windows
 targetos: Windows
 req.lib: 

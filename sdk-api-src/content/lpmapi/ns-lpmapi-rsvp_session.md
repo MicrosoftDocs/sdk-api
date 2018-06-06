@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSVP_SESSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	RSVP_SESSION
+ - RSVP_SESSION
 product: Windows
 targetos: Windows
 req.lib: 

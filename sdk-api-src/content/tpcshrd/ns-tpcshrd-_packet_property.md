@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PACKET_PROPERTY, *PPACKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tpcshrd.h
+ - tpcshrd.h
 api_name:
--	PACKET_PROPERTY
+ - PACKET_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Xenroll.dll
+ - Xenroll.dll
 api_name:
--	ICEnroll4.acceptFilePKCS7
--	ICEnroll3.acceptFilePKCS7
--	ICEnroll2.acceptFilePKCS7
--	ICEnroll.acceptFilePKCS7
--	CEnroll.acceptFilePKCS7
+ - ICEnroll4.acceptFilePKCS7
+ - ICEnroll3.acceptFilePKCS7
+ - ICEnroll2.acceptFilePKCS7
+ - ICEnroll.acceptFilePKCS7
+ - CEnroll.acceptFilePKCS7
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

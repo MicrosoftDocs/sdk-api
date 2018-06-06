@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D_VECTOR_4F
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dcomp.dll
+ - Dcomp.dll
 api_name:
--	IDCompositionRotateTransform3D::SetCenterZ
+ - IDCompositionRotateTransform3D::SetCenterZ
 product: Windows
 targetos: Windows
 req.lib: Dcomp.lib

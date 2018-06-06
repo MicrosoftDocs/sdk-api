@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_COPY_OPL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmsdkidl.h
+ - wmsdkidl.h
 api_name:
--	DRM_COPY_OPL
+ - DRM_COPY_OPL
 product: Windows
 targetos: Windows
 req.lib: 

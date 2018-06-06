@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	WerUnregisterExcludedMemoryBlock
+ - WerUnregisterExcludedMemoryBlock
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

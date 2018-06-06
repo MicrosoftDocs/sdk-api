@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSHCTX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wtypesbase.h
+ - wtypesbase.h
 api_name:
--	MSHCTX
+ - MSHCTX
 product: Windows
 targetos: Windows
 req.lib: 

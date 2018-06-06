@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILESHARE_CHANGE_LIST, *PFILESHARE_CHANGE_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	FILESHARE_CHANGE_LIST
+ - FILESHARE_CHANGE_LIST
 product: Windows
 targetos: Windows
 req.lib: 

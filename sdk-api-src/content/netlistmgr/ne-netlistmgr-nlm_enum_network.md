@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_ENUM_NETWORK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netlistmgr.h
+ - Netlistmgr.h
 api_name:
--	NLM_ENUM_NETWORK
+ - NLM_ENUM_NETWORK
 product: Windows
 targetos: Windows
 req.lib: 

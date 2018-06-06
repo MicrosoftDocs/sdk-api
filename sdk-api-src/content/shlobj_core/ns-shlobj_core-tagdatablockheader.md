@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	DATABLOCK_HEADER
+ - DATABLOCK_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

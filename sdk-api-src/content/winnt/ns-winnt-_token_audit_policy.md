@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_AUDIT_POLICY, *PTOKEN_AUDIT_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_AUDIT_POLICY
+ - TOKEN_AUDIT_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

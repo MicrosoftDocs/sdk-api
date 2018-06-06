@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SmartCardApplication
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	bdatif.h
+ - bdatif.h
 api_name:
--	IMPEG2_TIF_CONTROL.GetPIDCount
+ - IMPEG2_TIF_CONTROL.GetPIDCount
 product: Windows
 targetos: Windows
 req.lib: 

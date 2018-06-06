@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TS_SELECTIONSTYLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Textstor.h
+ - Textstor.h
 api_name:
--	TS_SELECTIONSTYLE
+ - TS_SELECTIONSTYLE
 product: Windows
 targetos: Windows
 req.lib: 

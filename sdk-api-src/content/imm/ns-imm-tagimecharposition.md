@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMECHARPOSITION, *PIMECHARPOSITION, *NPIMECHARPOSITION, *LPIMECHARPOSITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imm.h
+ - Imm.h
 api_name:
--	IMECHARPOSITION
+ - IMECHARPOSITION
 product: Windows
 targetos: Windows
 req.lib: 

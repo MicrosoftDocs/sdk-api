@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-shell-shellfolders-l1-1-0.dll
--	KernelBase.dll
--	Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
--	Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
--	Windows.Storage.dll
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Windows.Storage.dll
 api_name:
--	PathIsExe
+ - PathIsExe
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

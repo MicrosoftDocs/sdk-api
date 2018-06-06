@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_FORM
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- TRUSTEE_FORM
+ - TRUSTEE_FORM
 product: Windows
 targetos: Windows
 ---

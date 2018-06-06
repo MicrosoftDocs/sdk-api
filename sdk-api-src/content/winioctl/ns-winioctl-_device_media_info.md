@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DEVICE_MEDIA_INFO
+ - DEVICE_MEDIA_INFO
 product: Windows
 targetos: Windows
 req.lib: 

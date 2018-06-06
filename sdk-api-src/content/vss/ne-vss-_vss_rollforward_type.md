@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_ROLLFORWARD_TYPE, *PVSS_ROLLFORWARD_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_ROLLFORWARD_TYPE
+ - VSS_ROLLFORWARD_TYPE
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

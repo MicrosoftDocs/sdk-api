@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: BSOS_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ShCore.dll
--	API-MS-Win-ShCore-Stream-WinRT-l1-1-0.dll
+ - ShCore.dll
+ - API-MS-Win-ShCore-Stream-WinRT-l1-1-0.dll
 api_name:
--	CreateRandomAccessStreamOverStream
+ - CreateRandomAccessStreamOverStream
 product: Windows
 targetos: Windows
 req.lib: ShCore.lib

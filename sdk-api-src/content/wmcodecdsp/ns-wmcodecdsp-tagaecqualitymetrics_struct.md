@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AecQualityMetrics_Struct
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	AecQualityMetrics_Struct
+ - AecQualityMetrics_Struct
 product: Windows
 targetos: Windows
 req.lib: 

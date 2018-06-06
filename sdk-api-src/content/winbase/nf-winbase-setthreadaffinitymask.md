@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-ProcessTopology-Obsolete-l1-1-0.dll
--	API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
--	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessTopology-Obsolete-l1-1-0.dll
+ - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - Kernel32Legacy.dll
 api_name:
--	SetThreadAffinityMask
+ - SetThreadAffinityMask
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

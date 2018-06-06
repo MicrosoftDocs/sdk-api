@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICJpegTransferMatrix
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wincodec.h
+ - wincodec.h
 api_name:
--	WICJpegTransferMatrix
+ - WICJpegTransferMatrix
 product: Windows
 targetos: Windows
 req.lib: 

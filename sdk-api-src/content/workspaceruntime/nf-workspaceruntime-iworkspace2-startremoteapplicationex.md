@@ -29,16 +29,16 @@ req.type-library: WkspRt.exe
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WkspRt.exe
+ - WkspRt.exe
 api_name:
--	IWorkspace2.StartRemoteApplicationEx
--	IWorkspace3.StartRemoteApplicationEx
--	Workspace.StartRemoteApplicationEx
+ - IWorkspace2.StartRemoteApplicationEx
+ - IWorkspace3.StartRemoteApplicationEx
+ - Workspace.StartRemoteApplicationEx
 product: Windows
 targetos: Windows
 req.lib: 

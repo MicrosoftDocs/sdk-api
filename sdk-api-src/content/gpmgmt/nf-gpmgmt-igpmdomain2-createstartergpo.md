@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GPMStarterGPOType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	gpmgmt.dll
+ - gpmgmt.dll
 api_name:
--	IGPMDomain2.CreateStarterGPO
+ - IGPMDomain2.CreateStarterGPO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPIInvitation.AttendeeLimit
--	IRDPSRAPIInvitation.get_AttendeeLimit
--	IRDPSRAPIInvitation.put_AttendeeLimit
--	RDPSRAPIInvitation.AttendeeLimit
+ - IRDPSRAPIInvitation.AttendeeLimit
+ - IRDPSRAPIInvitation.get_AttendeeLimit
+ - IRDPSRAPIInvitation.put_AttendeeLimit
+ - RDPSRAPIInvitation.AttendeeLimit
 product: Windows
 targetos: Windows
 req.lib: 

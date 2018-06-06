@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AdrClientErrorType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FsrmEnums.h
+ - FsrmEnums.h
 api_name:
--	AdrClientErrorType
+ - AdrClientErrorType
 product: Windows
 targetos: Windows
 req.lib: 

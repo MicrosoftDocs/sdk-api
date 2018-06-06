@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRAWTEXTPARAMS, *LPDRAWTEXTPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	DRAWTEXTPARAMS
+ - DRAWTEXTPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

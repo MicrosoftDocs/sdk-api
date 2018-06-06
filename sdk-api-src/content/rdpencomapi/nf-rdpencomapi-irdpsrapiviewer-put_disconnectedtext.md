@@ -29,17 +29,17 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPIViewer.DisconnectedText
--	IRDPSRAPIViewer.get_DisconnectedText
--	IRDPSRAPIViewer.put_DisconnectedText
--	RDPViewer.DisconnectedText
+ - IRDPSRAPIViewer.DisconnectedText
+ - IRDPSRAPIViewer.get_DisconnectedText
+ - IRDPSRAPIViewer.put_DisconnectedText
+ - RDPViewer.DisconnectedText
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VMR9VideoStreamInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vpnotify.h
+ - Vpnotify.h
 api_name:
--	IVPBaseNotify
+ - IVPBaseNotify
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

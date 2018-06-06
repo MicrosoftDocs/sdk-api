@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIINSERTOBJECTW, *POLEUIINSERTOBJECTW, *LPOLEUIINSERTOBJECTW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUIINSERTOBJECT
--	OLEUIINSERTOBJECTA
--	OLEUIINSERTOBJECTW
+ - OLEUIINSERTOBJECT
+ - OLEUIINSERTOBJECTA
+ - OLEUIINSERTOBJECTW
 product: Windows
 targetos: Windows
 req.lib: 

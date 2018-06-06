@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CTL_FIND_USAGE_PARA, *PCTL_FIND_USAGE_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CTL_FIND_USAGE_PARA
+ - CTL_FIND_USAGE_PARA
 product: Windows
 targetos: Windows
 req.lib: 

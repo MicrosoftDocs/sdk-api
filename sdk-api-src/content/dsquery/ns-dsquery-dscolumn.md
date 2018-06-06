@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSCOLUMN, *LPDSCOLUMN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsquery.h
+ - Dsquery.h
 api_name:
--	DSCOLUMN
+ - DSCOLUMN
 product: Windows
 targetos: Windows
 req.lib: 

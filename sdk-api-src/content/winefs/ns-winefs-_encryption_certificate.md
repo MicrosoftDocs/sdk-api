@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCRYPTION_CERTIFICATE, *PENCRYPTION_CERTIFICATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winefs.h
+ - Winefs.h
 api_name:
--	ENCRYPTION_CERTIFICATE
+ - ENCRYPTION_CERTIFICATE
 product: Windows
 targetos: Windows
 req.lib: 

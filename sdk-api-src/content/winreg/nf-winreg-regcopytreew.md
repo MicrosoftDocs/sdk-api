@@ -29,25 +29,25 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-Core-registry-l2-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-Core-Registry-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
--	MinKernelBase.dll
--	api-ms-win-core-registry-l1-1-1.dll
--	api-ms-win-core-registry-l2-2-0.dll
+ - Advapi32.dll
+ - API-MS-Win-Core-registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+ - api-ms-win-core-registry-l2-2-0.dll
 api_name:
--	RegCopyTree
--	RegCopyTreeA
--	RegCopyTreeW
+ - RegCopyTree
+ - RegCopyTreeA
+ - RegCopyTreeW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSMCC_ELEMENT, *PDSMCC_ELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	DSMCC_ELEMENT
+ - DSMCC_ELEMENT
 product: Windows
 targetos: Windows
 req.lib: 

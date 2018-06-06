@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MOUSE_UNIT_ID_PARAMETER, *PMOUSE_UNIT_ID_PARAMETER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntddmou.h
+ - ntddmou.h
 api_name:
--	MOUSE_UNIT_ID_PARAMETER
+ - MOUSE_UNIT_ID_PARAMETER
 product: Windows
 targetos: Windows
 req.lib: 

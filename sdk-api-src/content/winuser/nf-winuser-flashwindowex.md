@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	ext-ms-win-ntuser-misc-l1-3-1.dll
--	Ext-MS-Win-NTUser-Misc-L1-4-0.dll
--	Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
--	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+ - User32.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
--	FlashWindowEx
+ - FlashWindowEx
 product: Windows
 targetos: Windows
 req.lib: User32.lib

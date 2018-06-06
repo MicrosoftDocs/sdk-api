@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_VIRTUAL_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wtsapi32.dll
+ - Wtsapi32.dll
 api_name:
--	WTSCreateListener
--	WTSCreateListenerA
--	WTSCreateListenerW
+ - WTSCreateListener
+ - WTSCreateListenerA
+ - WTSCreateListenerW
 product: Windows
 targetos: Windows
 req.lib: Wtsapi32.lib

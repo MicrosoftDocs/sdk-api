@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	filtereg.h
+ - filtereg.h
 api_name:
--	FILTERED_DATA_SOURCES
+ - FILTERED_DATA_SOURCES
 product: Windows
 targetos: Windows
 req.lib: 

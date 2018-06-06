@@ -29,25 +29,25 @@ req.type-library:
 tech.root: 
 req.typenames: PackageOrigin
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-AppModel-Runtime-Internal-L1-1-1.dll
--	API-MS-Win-AppModel-Runtime-Internal-L1-1-2.dll
--	API-MS-Win-AppModel-Runtime-Internal-L1-1-3.dll
--	API-MS-Win-AppModel-Runtime-L1-1-0.dll
--	API-MS-Win-AppModel-Runtime-L1-1-1.dll
--	API-MS-Win-AppModel-Runtime-L1-1-2.dll
--	Ext-MS-Win-Kernel32-Package-L1-1-0.dll
--	Ext-MS-Win-Kernel32-Package-L1-1-1.dll
--	Ext-MS-Win-Kernel32-Package-L1-1-2.dll
--	Kernel.AppCore.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-Internal-L1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-Internal-L1-1-2.dll
+ - API-MS-Win-AppModel-Runtime-Internal-L1-1-3.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-0.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+ - Ext-MS-Win-Kernel32-Package-L1-1-0.dll
+ - Ext-MS-Win-Kernel32-Package-L1-1-1.dll
+ - Ext-MS-Win-Kernel32-Package-L1-1-2.dll
+ - Kernel.AppCore.dll
+ - Kernel32Legacy.dll
 api_name:
--	GetPackageFullNameFromToken
+ - GetPackageFullNameFromToken
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

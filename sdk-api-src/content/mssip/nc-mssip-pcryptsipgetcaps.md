@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SimilarityFileId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	pCryptSIPGetCaps
+ - pCryptSIPGetCaps
 product: Windows
 targetos: Windows
 req.lib: 

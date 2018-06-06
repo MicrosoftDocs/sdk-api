@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_BITMAP_BRUSH_PROPERTIES1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1_1.h
+ - d2d1_1.h
 api_name:
--	D2D1_BITMAP_BRUSH_PROPERTIES1
+ - D2D1_BITMAP_BRUSH_PROPERTIES1
 product: Windows
 targetos: Windows
 req.lib: 

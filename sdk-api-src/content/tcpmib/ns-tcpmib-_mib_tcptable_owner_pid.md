@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_TCPTABLE_OWNER_PID, *PMIB_TCPTABLE_OWNER_PID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpmib.h
--	Iprtrmib.h
+ - Tcpmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_TCPTABLE_OWNER_PID
+ - MIB_TCPTABLE_OWNER_PID
 product: Windows
 targetos: Windows
 req.lib: 

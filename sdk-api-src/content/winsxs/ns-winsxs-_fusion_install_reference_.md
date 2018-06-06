@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsxs.h
+ - Winsxs.h
 api_name:
--	FUSION_INSTALL_REFERENCE
+ - FUSION_INSTALL_REFERENCE
 product: Windows
 targetos: Windows
 req.lib: 

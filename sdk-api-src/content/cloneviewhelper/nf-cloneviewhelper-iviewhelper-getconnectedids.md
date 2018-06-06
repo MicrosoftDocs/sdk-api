@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	cloneviewhelper.h
+ - cloneviewhelper.h
 api_name:
--	IViewHelper.GetConnectedIDs
+ - IViewHelper.GetConnectedIDs
 product: Windows
 targetos: Windows
 req.lib: 

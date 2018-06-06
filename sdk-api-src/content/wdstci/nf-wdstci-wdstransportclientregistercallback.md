@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSPORTCLIENT_CALLBACK_ID, *PTRANSPORTCLIENT_CALLBACK_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wdstptc.dll
+ - Wdstptc.dll
 api_name:
--	WdsTransportClientRegisterCallback
+ - WdsTransportClientRegisterCallback
 product: Windows
 targetos: Windows
 req.lib: Wdstptc.lib

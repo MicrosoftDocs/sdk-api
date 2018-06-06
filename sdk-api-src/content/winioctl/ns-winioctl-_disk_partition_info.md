@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DISK_PARTITION_INFO
+ - DISK_PARTITION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

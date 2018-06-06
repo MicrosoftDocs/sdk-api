@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	HTTP_VERSION_INFO
+ - HTTP_VERSION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

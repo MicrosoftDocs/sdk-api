@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHUNK_BREAKTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Filter.h
+ - Filter.h
 api_name:
--	CHUNK_BREAKTYPE
+ - CHUNK_BREAKTYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: InternetCookieState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wininet.dll
+ - Wininet.dll
 api_name:
--	HttpQueryInfo
--	HttpQueryInfoA
--	HttpQueryInfoW
+ - HttpQueryInfo
+ - HttpQueryInfoA
+ - HttpQueryInfoW
 product: Windows
 targetos: Windows
 req.lib: Wininet.lib

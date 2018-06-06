@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCHANNEL_ALG, *PSCHANNEL_ALG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	SCHANNEL_ALG
+ - SCHANNEL_ALG
 product: Windows
 targetos: Windows
 req.lib: 

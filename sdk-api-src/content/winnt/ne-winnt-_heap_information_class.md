@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HEAP_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	HEAP_INFORMATION_CLASS
+ - HEAP_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

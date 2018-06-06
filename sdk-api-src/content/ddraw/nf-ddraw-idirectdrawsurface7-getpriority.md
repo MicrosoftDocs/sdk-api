@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEDUP_CONTAINER_EXTENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Ddraw.dll
+ - Ddraw.dll
 api_name:
--	IDirectDrawSurface7.GetPriority
+ - IDirectDrawSurface7.GetPriority
 product: Windows
 targetos: Windows
 req.lib: Ddraw.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TpcGetSamplesArgs
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Timeprov.h
+ - Timeprov.h
 api_name:
--	TpcGetSamplesArgs
+ - TpcGetSamplesArgs
 product: Windows
 targetos: Windows
 req.lib: 

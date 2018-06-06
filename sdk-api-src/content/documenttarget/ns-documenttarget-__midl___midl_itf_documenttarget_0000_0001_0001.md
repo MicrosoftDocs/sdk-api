@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PrintDocumentPackageStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Documenttarget.h
+ - Documenttarget.h
 api_name:
--	PrintDocumentPackageStatus
+ - PrintDocumentPackageStatus
 product: Windows
 targetos: Windows
 req.lib: 

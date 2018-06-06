@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NtmsMli.h
+ - NtmsMli.h
 api_name:
--	MediaLabelInfo
+ - MediaLabelInfo
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_CACHE_POLICY, *PHTTP_CACHE_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_CACHE_POLICY
+ - HTTP_CACHE_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

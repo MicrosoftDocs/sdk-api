@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_CLOSE_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Websocket.h
+ - Websocket.h
 api_name:
--	WEB_SOCKET_CLOSE_STATUS
+ - WEB_SOCKET_CLOSE_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

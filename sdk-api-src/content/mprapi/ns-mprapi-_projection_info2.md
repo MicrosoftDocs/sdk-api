@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROJECTION_INFO2, *PPROJECTION_INFO2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mprapi.h
+ - mprapi.h
 api_name:
--	PROJECTION_INFO2
+ - PROJECTION_INFO2
 product: Windows
 targetos: Windows
 req.lib: 

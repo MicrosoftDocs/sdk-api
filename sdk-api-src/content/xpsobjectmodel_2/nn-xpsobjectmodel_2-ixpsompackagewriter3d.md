@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_DOCUMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	XpsObjectModel_2.h
+ - XpsObjectModel_2.h
 api_name:
--	IXpsOMPackageWriter3D
+ - IXpsOMPackageWriter3D
 product: Windows
 targetos: Windows
 req.lib: 

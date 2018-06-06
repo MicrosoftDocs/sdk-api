@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TS_SB_SORT_BY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sbtsv.h
+ - sbtsv.h
 api_name:
--	ITsSbTarget.TargetNetbios
--	ITsSbTarget.get_TargetNetbios
--	ITsSbTarget.put_TargetNetbios
--	ITsSbTargetEx.TargetNetbios
--	ITsSbTargetEx.get_TargetNetbios
--	ITsSbTargetEx.put_TargetNetbios
+ - ITsSbTarget.TargetNetbios
+ - ITsSbTarget.get_TargetNetbios
+ - ITsSbTarget.put_TargetNetbios
+ - ITsSbTargetEx.TargetNetbios
+ - ITsSbTargetEx.get_TargetNetbios
+ - ITsSbTargetEx.put_TargetNetbios
 product: Windows
 targetos: Windows
 req.lib: 

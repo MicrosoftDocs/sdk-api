@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Query.dll
--	NtQuery.dll
+ - Query.dll
+ - NtQuery.dll
 api_name:
--	LoadIFilter
+ - LoadIFilter
 product: Windows
 targetos: Windows
 req.lib: Ntquery.lib

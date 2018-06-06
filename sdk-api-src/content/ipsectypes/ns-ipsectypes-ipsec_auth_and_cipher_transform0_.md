@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipsectypes.h
+ - Ipsectypes.h
 api_name:
--	IPSEC_AUTH_AND_CIPHER_TRANSFORM0
+ - IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 product: Windows
 targetos: Windows
 req.lib: 

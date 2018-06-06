@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Werapi.h
+ - Werapi.h
 api_name:
--	OutOfProcessExceptionEventSignatureCallback
+ - OutOfProcessExceptionEventSignatureCallback
 product: Windows
 targetos: Windows
 req.lib: 

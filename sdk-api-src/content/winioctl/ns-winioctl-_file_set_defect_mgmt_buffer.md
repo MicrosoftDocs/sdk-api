@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_SET_DEFECT_MGMT_BUFFER, *PFILE_SET_DEFECT_MGMT_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FILE_SET_DEFECT_MGMT_BUFFER
+ - FILE_SET_DEFECT_MGMT_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

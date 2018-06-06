@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SimilarityMappedViewInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MsRdc.h
+ - MsRdc.h
 api_name:
--	SimilarityMappedViewInfo
+ - SimilarityMappedViewInfo
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_MAC_FRAME_STATISTICS, *PWLAN_MAC_FRAME_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_MAC_FRAME_STATISTICS
+ - WLAN_MAC_FRAME_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.dll
+ - Azroles.dll
 api_name:
--	IAzTask.BizRuleImportedPath
--	IAzTask.get_BizRuleImportedPath
--	IAzTask.put_BizRuleImportedPath
--	AzTask.BizRuleImportedPath
+ - IAzTask.BizRuleImportedPath
+ - IAzTask.get_BizRuleImportedPath
+ - IAzTask.put_BizRuleImportedPath
+ - AzTask.BizRuleImportedPath
 product: Windows
 targetos: Windows
 req.lib: Azroles.lib

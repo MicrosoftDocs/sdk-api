@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RIO_NOTIFICATION_COMPLETION_TYPE, *PRIO_NOTIFICATION_COMPLETION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mswsock.dll
+ - Mswsock.dll
 api_name:
--	TransmitFile
+ - TransmitFile
 product: Windows
 targetos: Windows
 req.lib: Mswsock.lib

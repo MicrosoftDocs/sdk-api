@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TIMED_TEXT_SCROLL_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfmediaengine.h
+ - mfmediaengine.h
 api_name:
--	MF_TIMED_TEXT_SCROLL_MODE
+ - MF_TIMED_TEXT_SCROLL_MODE
 product: Windows
 targetos: Windows
 req.lib: 

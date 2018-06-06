@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_DEVICE_STATE_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D10Effect.h
+ - D3D10Effect.h
 api_name:
--	D3D10_DEVICE_STATE_TYPES
+ - D3D10_DEVICE_STATE_TYPES
 product: Windows
 targetos: Windows
 req.lib: 

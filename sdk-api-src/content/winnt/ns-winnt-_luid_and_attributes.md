@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LUID_AND_ATTRIBUTES, *PLUID_AND_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	LUID_AND_ATTRIBUTES
+ - LUID_AND_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TERMINAL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tapi3.dll
+ - Tapi3.dll
 api_name:
--	ITLegacyCallMediaControl2.GetIDAsVariant
+ - ITLegacyCallMediaControl2.GetIDAsVariant
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

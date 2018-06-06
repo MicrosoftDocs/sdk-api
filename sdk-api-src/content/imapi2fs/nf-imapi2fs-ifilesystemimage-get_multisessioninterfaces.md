@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	IFileSystemImage.get_MultisessionInterfaces
+ - IFileSystemImage.get_MultisessionInterfaces
 product: Windows
 targetos: Windows
 req.lib: 

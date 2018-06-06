@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERIALIZEDPROPERTYVALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propidl.h
+ - Propidl.h
 api_name:
--	SERIALIZEDPROPERTYVALUE
+ - SERIALIZEDPROPERTYVALUE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X3DAUDIO_EMITTER, *LPX3DAUDIO_EMITTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	x3daudio.h
+ - x3daudio.h
 api_name:
--	X3DAUDIO_EMITTER
+ - X3DAUDIO_EMITTER
 product: Windows
 targetos: Windows
 req.lib: 

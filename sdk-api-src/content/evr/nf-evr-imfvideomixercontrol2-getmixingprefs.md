@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoMixPrefs
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	evr.h
+ - evr.h
 api_name:
--	IMFVideoMixerControl2.GetMixingPrefs
+ - IMFVideoMixerControl2.GetMixingPrefs
 product: Windows
 targetos: Windows
 req.lib: 

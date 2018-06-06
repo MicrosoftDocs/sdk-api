@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESPONSEBODY_Renew
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdTypes.h
+ - WsdTypes.h
 api_name:
--	RESPONSEBODY_Renew
+ - RESPONSEBODY_Renew
 product: Windows
 targetos: Windows
 req.lib: 

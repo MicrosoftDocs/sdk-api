@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: SCRIPT_JUSTIFY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Usp10.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32.dll
--	GDI32Full.dll
+ - Usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
 api_name:
--	ScriptPositionSingleGlyph
+ - ScriptPositionSingleGlyph
 product: Windows
 targetos: Windows
 req.lib: Usp10.lib

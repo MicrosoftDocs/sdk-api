@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: fd_set, FD_SET, *PFD_SET, *LPFD_SET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsock.h
+ - winsock.h
 api_name:
--	fd_set
+ - fd_set
 product: Windows
 targetos: Windows
 req.lib: 

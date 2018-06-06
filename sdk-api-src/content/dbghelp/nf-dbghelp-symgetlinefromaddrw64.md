@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dbghelp.dll
+ - Dbghelp.dll
 api_name:
--	SymGetLineFromAddr64
--	SymGetLineFromAddr64
--	SymGetLineFromAddrW64
--	SymGetLineFromAddr
+ - SymGetLineFromAddr64
+ - SymGetLineFromAddr64
+ - SymGetLineFromAddrW64
+ - SymGetLineFromAddr
 product: Windows
 targetos: Windows
 req.lib: Dbghelp.lib

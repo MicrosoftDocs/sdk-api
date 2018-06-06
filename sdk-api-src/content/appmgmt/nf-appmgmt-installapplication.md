@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: INSTALLSPECTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	ext-ms-win-advapi32-msi-l1-1-0.dll
+ - Advapi32.dll
+ - ext-ms-win-advapi32-msi-l1-1-0.dll
 api_name:
--	InstallApplication
+ - InstallApplication
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

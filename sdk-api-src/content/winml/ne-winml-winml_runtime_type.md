@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINML_RUNTIME_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winml.h
+ - winml.h
 api_name:
--	WINML_RUNTIME_TYPE
+ - WINML_RUNTIME_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

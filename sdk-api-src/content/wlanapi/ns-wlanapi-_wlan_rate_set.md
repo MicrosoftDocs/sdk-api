@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_RATE_SET, *PWLAN_RATE_SET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_RATE_SET
+ - WLAN_RATE_SET
 product: Windows
 targetos: Windows
 req.lib: 

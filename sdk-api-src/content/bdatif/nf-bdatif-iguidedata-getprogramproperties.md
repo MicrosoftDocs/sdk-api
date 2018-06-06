@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SmartCardApplication
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	bdatif.h
+ - bdatif.h
 api_name:
--	IGuideData.GetProgramProperties
+ - IGuideData.GetProgramProperties
 product: Windows
 targetos: Windows
 req.lib: 

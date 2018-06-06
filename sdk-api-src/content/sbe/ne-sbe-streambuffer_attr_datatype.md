@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAMBUFFER_ATTR_DATATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sbe.h
+ - Sbe.h
 api_name:
--	STREAMBUFFER_ATTR_DATATYPE
+ - STREAMBUFFER_ATTR_DATATYPE
 product: Windows
 targetos: Windows
 req.lib: Sas.lib

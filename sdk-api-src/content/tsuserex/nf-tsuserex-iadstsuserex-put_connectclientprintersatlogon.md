@@ -29,16 +29,16 @@ req.type-library: Tsuserex.tlb
 tech.root: 
 req.typenames: WTSSBX_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tsuserex.dll
+ - Tsuserex.dll
 api_name:
--	IADsTSUserEx.ConnectClientPrintersAtLogon
--	IADsTSUserEx.get_ConnectClientPrintersAtLogon
--	IADsTSUserEx.put_ConnectClientPrintersAtLogon
+ - IADsTSUserEx.ConnectClientPrintersAtLogon
+ - IADsTSUserEx.get_ConnectClientPrintersAtLogon
+ - IADsTSUserEx.put_ConnectClientPrintersAtLogon
 product: Windows
 targetos: Windows
 req.lib: 

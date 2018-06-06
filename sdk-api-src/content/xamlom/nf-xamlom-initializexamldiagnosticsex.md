@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VisualMutationType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Windows.UI.Xaml.dll
+ - Windows.UI.Xaml.dll
 api_name:
--	InitializeXamlDiagnosticsEx
+ - InitializeXamlDiagnosticsEx
 product: Windows
 targetos: Windows
 req.lib: 

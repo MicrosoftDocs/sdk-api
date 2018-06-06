@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RND_ADVERTISING_SCOPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rend.h
+ - Rend.h
 api_name:
--	RND_ADVERTISING_SCOPE
+ - RND_ADVERTISING_SCOPE
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

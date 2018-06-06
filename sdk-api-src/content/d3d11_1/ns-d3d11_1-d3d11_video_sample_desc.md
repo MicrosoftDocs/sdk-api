@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_VIDEO_SAMPLE_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d11_1.h
+ - d3d11_1.h
 api_name:
--	D3D11_VIDEO_SAMPLE_DESC
+ - D3D11_VIDEO_SAMPLE_DESC
 product: Windows
 targetos: Windows
 req.lib: 

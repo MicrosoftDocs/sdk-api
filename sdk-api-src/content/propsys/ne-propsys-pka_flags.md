@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PKA_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propsys.h
+ - Propsys.h
 api_name:
--	PKA_FLAGS
+ - PKA_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

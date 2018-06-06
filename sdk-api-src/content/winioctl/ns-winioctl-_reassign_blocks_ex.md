@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	REASSIGN_BLOCKS_EX
+ - REASSIGN_BLOCKS_EX
 product: Windows
 targetos: Windows
 req.lib: 

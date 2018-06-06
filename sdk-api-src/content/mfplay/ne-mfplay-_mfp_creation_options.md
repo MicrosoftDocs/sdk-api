@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_MFP_CREATION_OPTIONS"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfplay.h
+ - mfplay.h
 api_name:
--	_MFP_CREATION_OPTIONS
+ - _MFP_CREATION_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

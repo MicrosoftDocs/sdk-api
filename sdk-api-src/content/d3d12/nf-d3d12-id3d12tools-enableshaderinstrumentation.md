@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_MODEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D12.dll
+ - D3D12.dll
 api_name:
--	ID3D12Tools.EnableShaderInstrumentation
+ - ID3D12Tools.EnableShaderInstrumentation
 product: Windows
 targetos: Windows
 req.lib: D3D12.lib

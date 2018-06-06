@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TYMED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ObjIdl.h
+ - ObjIdl.h
 api_name:
--	TYMED
+ - TYMED
 product: Windows
 targetos: Windows
 req.lib: 

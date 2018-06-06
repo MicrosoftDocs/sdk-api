@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TVITEMW, *LPTVITEMW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	TVITEM
--	TVITEMA
--	TVITEMW
+ - TVITEM
+ - TVITEMA
+ - TVITEMW
 product: Windows
 targetos: Windows
 req.lib: 

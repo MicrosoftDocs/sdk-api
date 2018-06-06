@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmvcore.lib
--	Wmvcore.dll
+ - Wmvcore.lib
+ - Wmvcore.dll
 api_name:
--	IWMVideoMediaProps.SetQuality
+ - IWMVideoMediaProps.SetQuality
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib

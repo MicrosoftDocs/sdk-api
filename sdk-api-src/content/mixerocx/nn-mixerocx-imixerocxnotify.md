@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IMixerOCXNotify
+ - IMixerOCXNotify
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

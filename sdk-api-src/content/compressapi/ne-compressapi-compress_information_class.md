@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMPRESS_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	compressapi.h
+ - compressapi.h
 api_name:
--	COMPRESS_INFORMATION_CLASS
+ - COMPRESS_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.lib: Comppkgsup.lib

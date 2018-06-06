@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+ - User32.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
--	GetNextDlgTabItem
+ - GetNextDlgTabItem
 product: Windows
 targetos: Windows
 req.lib: User32.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Userenv.dll
+ - Userenv.dll
 api_name:
--	ExpandEnvironmentStringsForUser
--	ExpandEnvironmentStringsForUserA
--	ExpandEnvironmentStringsForUserW
+ - ExpandEnvironmentStringsForUser
+ - ExpandEnvironmentStringsForUserA
+ - ExpandEnvironmentStringsForUserW
 product: Windows
 targetos: Windows
 req.lib: Userenv.lib

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WbemTimeout
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wbemdisp.dll
+ - Wbemdisp.dll
 api_name:
--	SWbemSink.Cancel
--	ISWbemSink.Cancel
+ - SWbemSink.Cancel
+ - ISWbemSink.Cancel
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shobjidl.h
+ - Shobjidl.h
 api_name:
--	IUserNotification2.PlaySound
+ - IUserNotification2.PlaySound
 product: Windows
 targetos: Windows
 req.lib: 

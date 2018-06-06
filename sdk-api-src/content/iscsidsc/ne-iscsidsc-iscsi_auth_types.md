@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	ISCSI_AUTH_TYPES
+ - ISCSI_AUTH_TYPES
 product: Windows
 targetos: Windows
 req.lib: 

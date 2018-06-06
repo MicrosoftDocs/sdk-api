@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
+ - Kernel32.dll
 api_name:
--	GetDurationFormat
+ - GetDurationFormat
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

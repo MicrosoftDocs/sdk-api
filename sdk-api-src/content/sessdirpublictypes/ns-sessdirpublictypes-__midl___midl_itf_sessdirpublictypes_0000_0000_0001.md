@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLIENT_DISPLAY, *PCLIENT_DISPLAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SessDirPublicTypes.h
+ - SessDirPublicTypes.h
 api_name:
--	CLIENT_DISPLAY
+ - CLIENT_DISPLAY
 product: Windows
 targetos: Windows
 req.lib: 

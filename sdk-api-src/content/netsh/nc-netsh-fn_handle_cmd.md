@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_USAGE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Netsh.h
+ - Netsh.h
 api_name:
--	FN_HANDLE_CMD
+ - FN_HANDLE_CMD
 product: Windows
 targetos: Windows
 req.lib: 

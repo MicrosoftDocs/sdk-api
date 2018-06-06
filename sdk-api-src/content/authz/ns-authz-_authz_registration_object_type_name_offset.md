@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, *PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Authz.h
+ - Authz.h
 api_name:
--	AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
+ - AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
 product: Windows
 targetos: Windows
 req.lib: 

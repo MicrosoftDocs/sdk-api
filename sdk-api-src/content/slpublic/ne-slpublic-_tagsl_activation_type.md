@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_ACTIVATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	slpublic.h
+ - slpublic.h
 api_name:
--	SL_ACTIVATION_TYPE
+ - SL_ACTIVATION_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

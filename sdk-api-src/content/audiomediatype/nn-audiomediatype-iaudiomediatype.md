@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AE_CURRENT_POSITION, *PAE_CURRENT_POSITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Audiomediatype.h
+ - Audiomediatype.h
 api_name:
--	IAudioMediaType
+ - IAudioMediaType
 product: Windows
 targetos: Windows
 req.lib: 

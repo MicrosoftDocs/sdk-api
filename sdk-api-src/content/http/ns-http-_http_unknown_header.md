@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_UNKNOWN_HEADER, *PHTTP_UNKNOWN_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_UNKNOWN_HEADER
+ - HTTP_UNKNOWN_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

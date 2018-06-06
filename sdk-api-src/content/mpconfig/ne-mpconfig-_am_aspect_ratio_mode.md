@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_ASPECT_RATIO_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mpconfig.h
+ - mpconfig.h
 api_name:
--	AM_ASPECT_RATIO_MODE
+ - AM_ASPECT_RATIO_MODE
 product: Windows
 targetos: Windows
 req.lib: 

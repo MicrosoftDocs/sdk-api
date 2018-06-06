@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	IFsiDirectoryItem2.AddTreeWithNamedStreams
+ - IFsiDirectoryItem2.AddTreeWithNamedStreams
 product: Windows
 targetos: Windows
 req.lib: 

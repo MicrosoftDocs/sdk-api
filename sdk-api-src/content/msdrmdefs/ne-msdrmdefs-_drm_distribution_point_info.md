@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_DISTRIBUTION_POINT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msdrmdefs.h
+ - Msdrmdefs.h
 api_name:
--	DRM_DISTRIBUTION_POINT_INFO
+ - DRM_DISTRIBUTION_POINT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

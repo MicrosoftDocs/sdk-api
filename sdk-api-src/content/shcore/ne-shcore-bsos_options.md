@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BSOS_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shcore.h
+ - shcore.h
 api_name:
--	BSOS_OPTIONS
+ - BSOS_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

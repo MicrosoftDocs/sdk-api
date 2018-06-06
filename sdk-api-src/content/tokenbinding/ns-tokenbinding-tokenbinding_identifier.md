@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKENBINDING_IDENTIFIER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tokenbinding.h
+ - tokenbinding.h
 api_name:
--	TOKENBINDING_IDENTIFIER
+ - TOKENBINDING_IDENTIFIER
 product: Windows
 targetos: Windows
 req.lib: 

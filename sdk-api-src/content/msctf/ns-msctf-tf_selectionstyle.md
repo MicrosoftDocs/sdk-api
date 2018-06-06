@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_SELECTIONSTYLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msctf.h
+ - Msctf.h
 api_name:
--	TF_SELECTIONSTYLE
+ - TF_SELECTIONSTYLE
 product: Windows
 targetos: Windows
 req.lib: 

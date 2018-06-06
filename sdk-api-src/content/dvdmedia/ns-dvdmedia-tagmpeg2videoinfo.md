@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG2VIDEOINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dvdmedia.h
+ - Dvdmedia.h
 api_name:
--	MPEG2VIDEOINFO
+ - MPEG2VIDEOINFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_QUERY_VIDEO_MEMORY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_4.h
+ - dxgi1_4.h
 api_name:
--	DXGI_QUERY_VIDEO_MEMORY_INFO
+ - DXGI_QUERY_VIDEO_MEMORY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schedule.h
+ - Schedule.h
 api_name:
--	SCHEDULE_HEADER
+ - SCHEDULE_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

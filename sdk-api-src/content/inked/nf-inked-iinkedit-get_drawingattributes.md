@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.DrawingAttributes
--	IInkEdit.get_DrawingAttributes
--	InkEdit.get_DrawingAttributes
+ - IInkEdit.DrawingAttributes
+ - IInkEdit.get_DrawingAttributes
+ - InkEdit.get_DrawingAttributes
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

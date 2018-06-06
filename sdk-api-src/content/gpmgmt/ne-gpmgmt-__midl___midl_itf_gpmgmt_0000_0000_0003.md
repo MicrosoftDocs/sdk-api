@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GPMSearchProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gpmgmt.h
+ - gpmgmt.h
 api_name:
--	GPMSearchProperty
+ - GPMSearchProperty
 product: Windows
 targetos: Windows
 req.lib: 

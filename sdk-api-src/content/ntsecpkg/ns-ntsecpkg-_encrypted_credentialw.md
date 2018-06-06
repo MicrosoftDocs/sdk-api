@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCRYPTED_CREDENTIALW, *PENCRYPTED_CREDENTIALW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	ENCRYPTED_CREDENTIALW
+ - ENCRYPTED_CREDENTIALW
 product: Windows
 targetos: Windows
 req.lib: 

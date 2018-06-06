@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback
+ - PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback
 product: Windows
 targetos: Windows
 req.lib: 

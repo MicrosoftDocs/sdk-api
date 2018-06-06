@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_PLAY_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_PLAY_MODE
+ - WMT_PLAY_MODE
 product: Windows
 targetos: Windows
 req.lib: 

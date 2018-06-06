@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIPASTEFLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	IOleUIObjInfo.SetViewInfo
--	IOleUIObjInfoW.SetViewInfo
--	IOleUIObjInfoA.SetViewInfo
+ - IOleUIObjInfo.SetViewInfo
+ - IOleUIObjInfoW.SetViewInfo
+ - IOleUIObjInfoA.SetViewInfo
 product: Windows
 targetos: Windows
 req.lib: 

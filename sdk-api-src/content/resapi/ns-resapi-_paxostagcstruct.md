@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: PaxosTagCStruct, *PPaxosTagCStruct
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	PaxosTagCStruct
+ - PaxosTagCStruct
 product: Windows
 targetos: Windows
 req.lib: 

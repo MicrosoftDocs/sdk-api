@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.dll
+ - UIAutomationClient.dll
 api_name:
--	IUIAutomationSelectionPattern2
+ - IUIAutomationSelectionPattern2
 product: Windows
 targetos: Windows
 req.lib: 

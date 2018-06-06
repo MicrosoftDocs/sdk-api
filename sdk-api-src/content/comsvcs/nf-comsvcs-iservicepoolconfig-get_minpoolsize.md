@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRACKING_COLL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	IServicePoolConfig.get_MinPoolSize
+ - IServicePoolConfig.get_MinPoolSize
 product: Windows
 targetos: Windows
 req.lib: 

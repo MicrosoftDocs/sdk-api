@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Win32k.sys
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32.dll
--	GDI32Full.dll
+ - Win32k.sys
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
 api_name:
--	EngMultiByteToUnicodeN
+ - EngMultiByteToUnicodeN
 product: Windows
 targetos: Windows
 req.lib: Win32k.lib

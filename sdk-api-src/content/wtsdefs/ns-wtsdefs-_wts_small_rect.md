@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_SMALL_RECT, *PWTS_SMALL_RECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_SMALL_RECT
+ - WTS_SMALL_RECT
 product: Windows
 targetos: Windows
 req.lib: 

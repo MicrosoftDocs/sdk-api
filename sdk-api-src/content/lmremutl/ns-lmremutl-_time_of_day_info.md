@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmremutl.h
+ - Lmremutl.h
 api_name:
--	TIME_OF_DAY_INFO
+ - TIME_OF_DAY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

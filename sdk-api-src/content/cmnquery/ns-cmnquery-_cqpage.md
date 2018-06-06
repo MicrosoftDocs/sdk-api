@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CQPAGE, *LPCQPAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cmnquery.h
+ - Cmnquery.h
 api_name:
--	CQPAGE
+ - CQPAGE
 product: Windows
 targetos: Windows
 req.lib: 

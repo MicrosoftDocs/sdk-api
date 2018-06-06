@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BorderStyleConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	inked.h
+ - inked.h
 api_name:
--	BorderStyleConstants
+ - BorderStyleConstants
 product: Windows
 targetos: Windows
 req.lib: 

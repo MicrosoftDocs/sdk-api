@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_VELOCITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-interlocked-l1-2-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-interlocked-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
 api_name:
--	InterlockedPushListSListEx
+ - InterlockedPushListSListEx
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

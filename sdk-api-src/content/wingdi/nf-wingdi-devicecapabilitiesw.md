@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WinSpool.drv
--	Ext-MS-Win-printer-WinSpool-l1-1-2.dll
--	WinSpool.drv
--	Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
+ - WinSpool.drv
+ - Ext-MS-Win-printer-WinSpool-l1-1-2.dll
+ - WinSpool.drv
+ - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
 api_name:
--	DeviceCapabilities
--	DeviceCapabilitiesA
--	DeviceCapabilitiesW
+ - DeviceCapabilities
+ - DeviceCapabilitiesA
+ - DeviceCapabilitiesW
 product: Windows
 targetos: Windows
 req.lib: WinSpool.lib

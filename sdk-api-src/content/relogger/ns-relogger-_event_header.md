@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_HEADER, *PEVENT_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	relogger.h
+ - relogger.h
 api_name:
--	EVENT_HEADER
+ - EVENT_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

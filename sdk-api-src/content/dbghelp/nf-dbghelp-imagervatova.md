@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dbghelp.dll
--	imagehlp.dll
+ - Dbghelp.dll
+ - imagehlp.dll
 api_name:
--	ImageRvaToVa
+ - ImageRvaToVa
 product: Windows
 targetos: Windows
 req.lib: Dbghelp.lib

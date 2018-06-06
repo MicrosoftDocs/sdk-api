@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASSOCIATIONTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shobjidl_core.h
+ - shobjidl_core.h
 api_name:
--	ASSOCIATIONTYPE
+ - ASSOCIATIONTYPE
 product: Windows
 targetos: Windows
 req.lib: 

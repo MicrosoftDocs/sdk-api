@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AudioExtensionParams
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmdeviceapi.h
+ - mmdeviceapi.h
 api_name:
--	AudioExtensionParams
+ - AudioExtensionParams
 product: Windows
 targetos: Windows
 req.lib: 

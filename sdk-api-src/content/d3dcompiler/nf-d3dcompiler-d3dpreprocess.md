@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_BLOB_PART
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	d3dcompiler_47.dll
+ - d3dcompiler_47.dll
 api_name:
--	D3DPreprocess
+ - D3DPreprocess
 product: Windows
 targetos: Windows
 req.lib: D3dcompiler_47.lib

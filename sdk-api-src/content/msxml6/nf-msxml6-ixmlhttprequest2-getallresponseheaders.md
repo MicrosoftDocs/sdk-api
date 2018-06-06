@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XHR_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msxml6.h
+ - msxml6.h
 api_name:
--	IXMLHTTPRequest2.GetAllResponseHeaders
+ - IXMLHTTPRequest2.GetAllResponseHeaders
 product: Windows
 targetos: Windows
 req.lib: 

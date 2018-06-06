@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_NXT_DATA
+ - DNS_NXT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

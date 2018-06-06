@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSV1_0_SUBAUTH_REQUEST, *PMSV1_0_SUBAUTH_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	MSV1_0_SUBAUTH_REQUEST
+ - MSV1_0_SUBAUTH_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

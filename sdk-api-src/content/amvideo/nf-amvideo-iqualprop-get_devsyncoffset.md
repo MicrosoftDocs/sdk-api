@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IQualProp.get_DevSyncOffset
+ - IQualProp.get_DevSyncOffset
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_ADDRESS_STRING, *PIP_ADDRESS_STRING, IP_MASK_STRING, *PIP_MASK_STRING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iptypes.h
+ - Iptypes.h
 api_name:
--	IP_ADDRESS_STRING
+ - IP_ADDRESS_STRING
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WPC_MEDIA_EXPLICIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wpcevent.h
+ - Wpcevent.h
 api_name:
--	WPC_MEDIA_EXPLICIT
+ - WPC_MEDIA_EXPLICIT
 product: Windows
 targetos: Windows
 req.lib: 

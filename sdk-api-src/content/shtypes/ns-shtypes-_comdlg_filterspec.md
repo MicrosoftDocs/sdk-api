@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMDLG_FILTERSPEC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shtypes.h
+ - Shtypes.h
 api_name:
--	COMDLG_FILTERSPEC
+ - COMDLG_FILTERSPEC
 product: Windows
 targetos: Windows
 req.lib: 

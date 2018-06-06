@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_DECODER_GET_CONTENT_TYPE_CALLBACK
+ - WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

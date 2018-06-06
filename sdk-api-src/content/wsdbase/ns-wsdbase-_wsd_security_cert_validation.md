@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_SECURITY_CERT_VALIDATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wsdbase.h
+ - wsdbase.h
 api_name:
--	WSD_SECURITY_CERT_VALIDATION
+ - WSD_SECURITY_CERT_VALIDATION
 product: Windows
 targetos: Windows
 req.lib: 

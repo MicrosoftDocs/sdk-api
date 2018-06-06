@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dwmapi.dll
--	API-MS-Win-dwmapi-l1-1-0.dll
--	DComp.dll
+ - Dwmapi.dll
+ - API-MS-Win-dwmapi-l1-1-0.dll
+ - DComp.dll
 api_name:
--	DwmEnableMMCSS
+ - DwmEnableMMCSS
 product: Windows
 targetos: Windows
 req.lib: Dwmapi.lib

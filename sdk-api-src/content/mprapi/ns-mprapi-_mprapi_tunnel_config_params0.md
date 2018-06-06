@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPRAPI_TUNNEL_CONFIG_PARAMS0, *PMPRAPI_TUNNEL_CONFIG_PARAMS0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	MPRAPI_TUNNEL_CONFIG_PARAMS
+ - MPRAPI_TUNNEL_CONFIG_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

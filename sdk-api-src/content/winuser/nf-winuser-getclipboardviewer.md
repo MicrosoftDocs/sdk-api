@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
--	GetClipboardViewer
+ - GetClipboardViewer
 product: Windows
 targetos: Windows
 req.lib: User32.lib

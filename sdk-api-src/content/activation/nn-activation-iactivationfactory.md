@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Activation.h
+ - Activation.h
 api_name:
--	IActivationFactory
+ - IActivationFactory
 product: Windows
 targetos: Windows
 req.lib: 

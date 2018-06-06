@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESS_PROTECTION_LEVEL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	processthreadsapi.h
+ - processthreadsapi.h
 api_name:
--	PROCESS_PROTECTION_LEVEL_INFORMATION
+ - PROCESS_PROTECTION_LEVEL_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_LINE21_CCLEVEL, *PAM_LINE21_CCLEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	il21dec.h
+ - il21dec.h
 api_name:
--	AM_LINE21_CCLEVEL
+ - AM_LINE21_CCLEVEL
 product: Windows
 targetos: Windows
 req.lib: 

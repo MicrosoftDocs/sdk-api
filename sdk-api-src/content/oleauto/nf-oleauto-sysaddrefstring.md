@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REGKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Oleaut32.dll
+ - Oleaut32.dll
 api_name:
--	SysAddRefString
+ - SysAddRefString
 product: Windows
 targetos: Windows
 req.lib: Mincore.lib

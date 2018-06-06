@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_CROSS_ORIGIN_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	_MF_CROSS_ORIGIN_POLICY
+ - _MF_CROSS_ORIGIN_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

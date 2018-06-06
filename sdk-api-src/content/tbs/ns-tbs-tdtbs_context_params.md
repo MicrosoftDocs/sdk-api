@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TBS_CONTEXT_PARAMS, *PTBS_CONTEXT_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tbs.h
+ - Tbs.h
 api_name:
--	TBS_CONTEXT_PARAMS
+ - TBS_CONTEXT_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

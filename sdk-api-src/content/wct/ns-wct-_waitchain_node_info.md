@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wct.h
+ - Wct.h
 api_name:
--	WAITCHAIN_NODE_INFO
+ - WAITCHAIN_NODE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

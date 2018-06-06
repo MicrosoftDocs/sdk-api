@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DMA_RANGE, *PDMA_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	DMA_RANGE
+ - DMA_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

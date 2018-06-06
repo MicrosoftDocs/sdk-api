@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ATTRIBUTE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndattrib.h
+ - ndattrib.h
 api_name:
--	ATTRIBUTE_TYPE
+ - ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

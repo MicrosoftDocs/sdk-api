@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TDIEntityID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tdiinfo.h
+ - tdiinfo.h
 api_name:
--	TDIEntityID
+ - TDIEntityID
 product: Windows
 targetos: Windows
 req.lib: 

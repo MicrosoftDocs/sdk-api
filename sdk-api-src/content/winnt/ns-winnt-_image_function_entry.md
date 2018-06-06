@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_FUNCTION_ENTRY, *PIMAGE_FUNCTION_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	IMAGE_FUNCTION_ENTRY
+ - IMAGE_FUNCTION_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

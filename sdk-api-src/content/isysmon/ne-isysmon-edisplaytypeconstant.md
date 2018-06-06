@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DisplayTypeConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ISysmon.h
+ - ISysmon.h
 api_name:
--	DisplayTypeConstants
+ - DisplayTypeConstants
 product: Windows
 targetos: Windows
 req.lib: 

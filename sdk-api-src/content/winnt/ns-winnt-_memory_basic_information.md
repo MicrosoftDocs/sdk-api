@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	MEMORY_BASIC_INFORMATION
+ - MEMORY_BASIC_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

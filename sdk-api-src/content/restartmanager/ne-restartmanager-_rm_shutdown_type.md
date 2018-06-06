@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_SHUTDOWN_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RestartManager.h
+ - RestartManager.h
 api_name:
--	RM_SHUTDOWN_TYPE
+ - RM_SHUTDOWN_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

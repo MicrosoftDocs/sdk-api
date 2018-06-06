@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_DECODE_PARA, *PCRYPT_DECODE_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_DECODE_PARA
+ - CRYPT_DECODE_PARA
 product: Windows
 targetos: Windows
 req.lib: 

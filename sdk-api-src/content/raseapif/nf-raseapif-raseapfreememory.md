@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_AUTH_ATTRIBUTE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Raseapif.h
+ - Raseapif.h
 api_name:
--	RasEapFreeMemory
+ - RasEapFreeMemory
 product: Windows
 targetos: Windows
 req.lib: 

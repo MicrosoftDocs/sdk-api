@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_MOVE_TO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_MOVE_TO
+ - WS_MOVE_TO
 product: Windows
 targetos: Windows
 req.lib: 

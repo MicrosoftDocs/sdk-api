@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_DVD_RENDERSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	AM_DVD_RENDERSTATUS
+ - AM_DVD_RENDERSTATUS
 product: Windows
 targetos: Windows
 req.lib: 

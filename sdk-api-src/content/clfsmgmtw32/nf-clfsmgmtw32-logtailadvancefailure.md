@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ClfsW32.dll
+ - ClfsW32.dll
 api_name:
--	LogTailAdvanceFailure
+ - LogTailAdvanceFailure
 product: Windows
 targetos: Windows
 req.lib: ClfsW32.lib

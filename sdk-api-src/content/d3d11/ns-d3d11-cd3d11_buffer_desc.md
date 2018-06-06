@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11.h
+ - D3D11.h
 api_name:
--	CD3D11_BUFFER_DESC
+ - CD3D11_BUFFER_DESC
 product: Windows
 targetos: Windows
 req.lib: 

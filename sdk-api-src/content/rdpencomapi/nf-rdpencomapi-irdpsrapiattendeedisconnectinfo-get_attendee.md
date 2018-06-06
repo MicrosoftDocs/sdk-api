@@ -29,16 +29,16 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPIAttendeeDisconnectInfo.Attendee
--	IRDPSRAPIAttendeeDisconnectInfo.get_Attendee
--	RDPSRAPIAttendeeDisconnectInfo.Attendee
+ - IRDPSRAPIAttendeeDisconnectInfo.Attendee
+ - IRDPSRAPIAttendeeDisconnectInfo.get_Attendee
+ - RDPSRAPIAttendeeDisconnectInfo.Attendee
 product: Windows
 targetos: Windows
 req.lib: 

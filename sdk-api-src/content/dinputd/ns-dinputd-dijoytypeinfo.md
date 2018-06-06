@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dinputd.h
+ - Dinputd.h
 api_name:
--	DIJOYTYPEINFO, *LPDIJOYTYPEINFO
+ - DIJOYTYPEINFO, *LPDIJOYTYPEINFO
 product: Windows
 targetos: Windows
 req.lib: 

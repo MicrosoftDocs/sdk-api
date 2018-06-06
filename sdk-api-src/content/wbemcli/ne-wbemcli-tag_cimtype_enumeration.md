@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CIMTYPE_ENUMERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemcli.h
+ - Wbemcli.h
 api_name:
--	CIMTYPE_ENUMERATION
+ - CIMTYPE_ENUMERATION
 product: Windows
 targetos: Windows
 req.lib: 

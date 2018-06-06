@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IsolationInfoEx
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NapTypes.h
+ - NapTypes.h
 api_name:
--	IsolationInfoEx
+ - IsolationInfoEx
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_SNAPSHOT_PROPERTY_ID, *PVSS_SNAPSHOT_PROPERTY_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_SNAPSHOT_PROPERTY_ID
+ - VSS_SNAPSHOT_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITS_FILE_PROPERTY_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bits5_0.h
+ - Bits5_0.h
 api_name:
--	IBackgroundCopyFile5
+ - IBackgroundCopyFile5
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

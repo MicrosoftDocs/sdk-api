@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Gpedit.h
+ - Gpedit.h
 api_name:
--	GPOBROWSEINFO
+ - GPOBROWSEINFO
 product: Windows
 targetos: Windows
 req.lib: 

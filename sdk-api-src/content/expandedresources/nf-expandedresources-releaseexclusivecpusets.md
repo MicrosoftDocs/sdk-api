@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ShellWindowTypeConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gamemode.dll
+ - gamemode.dll
 api_name:
--	ReleaseExclusiveCpuSets
+ - ReleaseExclusiveCpuSets
 product: Windows
 targetos: Windows
 req.lib: Windowsapp.lib

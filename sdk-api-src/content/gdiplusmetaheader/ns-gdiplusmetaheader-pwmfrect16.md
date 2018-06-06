@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PWMFRect16
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Gdiplusmetaheader.h
+ - Gdiplusmetaheader.h
 api_name:
--	PWMFRect16
+ - PWMFRect16
 product: Windows
 targetos: Windows
 req.lib: 

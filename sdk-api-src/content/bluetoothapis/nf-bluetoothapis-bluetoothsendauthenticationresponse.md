@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLUETOOTH_IO_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Bthprops.dll
+ - Bthprops.dll
 api_name:
--	BluetoothSendAuthenticationResponse
+ - BluetoothSendAuthenticationResponse
 product: Windows
 targetos: Windows
 req.lib: Bthprops.lib

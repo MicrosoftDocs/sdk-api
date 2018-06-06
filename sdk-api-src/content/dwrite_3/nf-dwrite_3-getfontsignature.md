@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dwrite_3.h
+ - dwrite_3.h
 api_name:
--	IDWriteGdiInterop1::GetFontSignature
+ - IDWriteGdiInterop1::GetFontSignature
 product: Windows
 targetos: Windows
 req.lib: 

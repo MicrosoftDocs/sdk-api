@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSV1_0_SUPPLEMENTAL_CREDENTIAL, *PMSV1_0_SUPPLEMENTAL_CREDENTIAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	MSV1_0_SUPPLEMENTAL_CREDENTIAL
+ - MSV1_0_SUPPLEMENTAL_CREDENTIAL
 product: Windows
 targetos: Windows
 req.lib: 

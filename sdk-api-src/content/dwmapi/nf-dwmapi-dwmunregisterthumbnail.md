@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dwmapi.dll
+ - Dwmapi.dll
 api_name:
--	DwmUnregisterThumbnail
+ - DwmUnregisterThumbnail
 product: Windows
 targetos: Windows
 req.lib: Dwmapi.lib

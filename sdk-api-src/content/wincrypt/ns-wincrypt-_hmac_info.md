@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HMAC_INFO, *PHMAC_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	HMAC_INFO
+ - HMAC_INFO
 product: Windows
 targetos: Windows
 req.lib: 

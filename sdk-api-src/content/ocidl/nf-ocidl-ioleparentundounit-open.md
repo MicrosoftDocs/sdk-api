@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIEWSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OCIdl.h
+ - OCIdl.h
 api_name:
--	IOleParentUndoUnit.Open
+ - IOleParentUndoUnit.Open
 product: Windows
 targetos: Windows
 req.lib: 

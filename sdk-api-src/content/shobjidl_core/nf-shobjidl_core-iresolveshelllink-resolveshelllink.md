@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	IResolveShellLink.ResolveShellLink
+ - IResolveShellLink.ResolveShellLink
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SINGLE_LIST_ENTRY, *PSINGLE_LIST_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntdef.h
+ - ntdef.h
 api_name:
--	SINGLE_LIST_ENTRY
+ - SINGLE_LIST_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

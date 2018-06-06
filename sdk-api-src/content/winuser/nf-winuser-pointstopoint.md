@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	POINTSTOPOINT
+ - POINTSTOPOINT
 product: Windows
 targetos: Windows
 req.lib: 

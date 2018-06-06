@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_SOURCE_READER_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mfreadwrite.dll
+ - mfreadwrite.dll
 api_name:
--	MFCreateSourceReaderFromURL
+ - MFCreateSourceReaderFromURL
 product: Windows
 targetos: Windows
 req.lib: Mfreadwrite.lib

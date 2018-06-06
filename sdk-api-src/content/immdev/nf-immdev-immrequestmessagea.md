@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: STYLEBUFW, *PSTYLEBUFW, *NPSTYLEBUFW, *LPSTYLEBUFW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Imm32.dll
+ - Imm32.dll
 api_name:
--	ImmRequestMessage
--	ImmRequestMessageA
--	ImmRequestMessageW
+ - ImmRequestMessage
+ - ImmRequestMessageA
+ - ImmRequestMessageW
 product: Windows
 targetos: Windows
 req.lib: Imm32.lib

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: GPMStarterGPOType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Gpmgmt.dll
+ - Gpmgmt.dll
 api_name:
--	IGPMStarterGPOCollection
--	IGPMStarterGPOCollection.Count
--	IGPMStarterGPOCollection.get_Count
--	IGPMStarterGPOCollection.Item
--	IGPMStarterGPOCollection.get_Item
--	GPMStarterGPOCollection
+ - IGPMStarterGPOCollection
+ - IGPMStarterGPOCollection.Count
+ - IGPMStarterGPOCollection.get_Count
+ - IGPMStarterGPOCollection.Item
+ - IGPMStarterGPOCollection.get_Item
+ - GPMStarterGPOCollection
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3DX11_SCAN_OPCODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3dcsx.lib
--	d3dcsx.dll
+ - d3dcsx.lib
+ - d3dcsx.dll
 api_name:
--	ID3DX11Scan
+ - ID3DX11Scan
 product: Windows
 targetos: Windows
 req.lib: D3dcsx.lib

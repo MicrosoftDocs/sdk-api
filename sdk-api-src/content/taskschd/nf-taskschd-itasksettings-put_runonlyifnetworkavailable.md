@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	ITaskSettings.RunOnlyIfNetworkAvailable
--	ITaskSettings.get_RunOnlyIfNetworkAvailable
--	ITaskSettings.put_RunOnlyIfNetworkAvailable
+ - ITaskSettings.RunOnlyIfNetworkAvailable
+ - ITaskSettings.get_RunOnlyIfNetworkAvailable
+ - ITaskSettings.put_RunOnlyIfNetworkAvailable
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

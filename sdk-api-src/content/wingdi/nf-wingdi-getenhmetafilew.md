@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Gdi32.dll
--	Ext-MS-Win-GDI-Metafile-L1-1-2.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32Full.dll
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Metafile-L1-1-2.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
 api_name:
--	GetEnhMetaFile
--	GetEnhMetaFileA
--	GetEnhMetaFileW
+ - GetEnhMetaFile
+ - GetEnhMetaFileA
+ - GetEnhMetaFileW
 product: Windows
 targetos: Windows
 req.lib: Gdi32.lib

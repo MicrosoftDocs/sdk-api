@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_DATA_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	MBN_DATA_CLASS
+ - MBN_DATA_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

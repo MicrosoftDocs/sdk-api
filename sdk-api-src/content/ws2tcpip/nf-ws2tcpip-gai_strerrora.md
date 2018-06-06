@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2tcpip.h
--	Wspiapi.h
+ - Ws2tcpip.h
+ - Wspiapi.h
 api_name:
--	gai_strerror
--	gai_strerrorA
--	gai_strerrorW
+ - gai_strerror
+ - gai_strerrorA
+ - gai_strerrorW
 product: Windows
 targetos: Windows
 req.lib: 

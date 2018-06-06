@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PACKAGE_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	twinapi.core.dll
--	API-MS-Win-Core-psm-appnotify-l1-1-0.dll
--	twinapi.AppCore.dll
+ - twinapi.core.dll
+ - API-MS-Win-Core-psm-appnotify-l1-1-0.dll
+ - twinapi.AppCore.dll
 api_name:
--	UnregisterAppStateChangeNotification
+ - UnregisterAppStateChangeNotification
 product: Windows
 targetos: Windows
 req.lib: Appnotify.lib

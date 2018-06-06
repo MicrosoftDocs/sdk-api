@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12sdklayers.h
+ - d3d12sdklayers.h
 api_name:
--	D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+ - D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 product: Windows
 targetos: Windows
 req.lib: 

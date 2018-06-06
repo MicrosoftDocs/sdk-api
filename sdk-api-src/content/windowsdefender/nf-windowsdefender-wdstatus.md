@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	MpClient.dll
+ - MpClient.dll
 api_name:
--	WDStatus
+ - WDStatus
 product: Windows
 targetos: Windows
 req.lib: 

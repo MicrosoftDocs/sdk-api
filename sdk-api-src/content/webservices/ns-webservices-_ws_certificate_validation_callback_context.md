@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
+ - WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

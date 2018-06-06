@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITERRESTORE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VssApi.lib
--	VssApi.dll
+ - VssApi.lib
+ - VssApi.dll
 api_name:
--	CVssWriterEx.GetIdentifyInformation
+ - CVssWriterEx.GetIdentifyInformation
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

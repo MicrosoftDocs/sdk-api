@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	XblIdpAuthManager.h
+ - XblIdpAuthManager.h
 api_name:
--	XBL_IDP_AUTH_TOKEN_STATUS
+ - XBL_IDP_AUTH_TOKEN_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_TIME_INFO, *PPDH_TIME_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_TIME_INFO
+ - PDH_TIME_INFO
 product: Windows
 targetos: Windows
 req.lib: 

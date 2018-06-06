@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	ICertAdmin2.RevokeCertificate
--	ICertAdmin.RevokeCertificate
--	CCertAdmin.RevokeCertificate
+ - ICertAdmin2.RevokeCertificate
+ - ICertAdmin.RevokeCertificate
+ - CCertAdmin.RevokeCertificate
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

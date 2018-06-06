@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ExplorerFrame.dll
+ - ExplorerFrame.dll
 api_name:
--	IFolderViewOptions.GetFolderViewOptions
+ - IFolderViewOptions.GetFolderViewOptions
 product: Windows
 targetos: Windows
 req.lib: 

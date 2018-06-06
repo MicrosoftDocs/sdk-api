@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_RESOURCE_CREATE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUSTER_RESOURCE_CREATE_FLAGS
+ - CLUSTER_RESOURCE_CREATE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

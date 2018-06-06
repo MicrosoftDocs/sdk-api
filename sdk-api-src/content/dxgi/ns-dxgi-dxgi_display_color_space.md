@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_DISPLAY_COLOR_SPACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi.h
+ - dxgi.h
 api_name:
--	DXGI_DISPLAY_COLOR_SPACE
+ - DXGI_DISPLAY_COLOR_SPACE
 product: Windows
 targetos: Windows
 req.lib: 

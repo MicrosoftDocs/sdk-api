@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mfplat.dll
+ - mfplat.dll
 api_name:
--	MFCreateSourceResolver
+ - MFCreateSourceResolver
 product: Windows
 targetos: Windows
 req.lib: Mf.lib

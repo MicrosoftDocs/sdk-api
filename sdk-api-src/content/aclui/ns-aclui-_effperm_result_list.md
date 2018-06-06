@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EFFPERM_RESULT_LIST, *PEFFPERM_RESULT_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Aclui.h
+ - Aclui.h
 api_name:
--	EFFPERM_RESULT_LIST
+ - EFFPERM_RESULT_LIST
 product: Windows
 targetos: Windows
 req.lib: 

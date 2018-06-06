@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_DATA_CALLBACK_HEADER, *PWIA_DATA_CALLBACK_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wia_xp.h
+ - wia_xp.h
 api_name:
--	WIA_DATA_CALLBACK_HEADER
+ - WIA_DATA_CALLBACK_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

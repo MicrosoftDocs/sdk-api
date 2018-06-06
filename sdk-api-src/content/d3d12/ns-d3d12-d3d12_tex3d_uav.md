@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_TEX3D_UAV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	D3D12_TEX3D_UAV
+ - D3D12_TEX3D_UAV
 product: Windows
 targetos: Windows
 req.lib: 

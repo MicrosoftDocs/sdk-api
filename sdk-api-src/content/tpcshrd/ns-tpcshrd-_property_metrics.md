@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPERTY_METRICS, *PPROPERTY_METRICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tpcshrd.h
+ - tpcshrd.h
 api_name:
--	PROPERTY_METRICS
+ - PROPERTY_METRICS
 product: Windows
 targetos: Windows
 req.lib: 

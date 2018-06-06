@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VMEMHEAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dmerror.h
+ - dmerror.h
 api_name:
--	MAKE_HRESULT
+ - MAKE_HRESULT
 product: Windows
 targetos: Windows
 req.lib: 

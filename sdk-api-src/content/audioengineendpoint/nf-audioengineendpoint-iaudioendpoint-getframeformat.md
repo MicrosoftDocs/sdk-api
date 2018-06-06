@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AE_POSITION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Audioengineendpoint.h
+ - Audioengineendpoint.h
 api_name:
--	IAudioEndpoint.GetFrameFormat
+ - IAudioEndpoint.GetFrameFormat
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	vptype.h
+ - vptype.h
 api_name:
--	AMVPSIZE
+ - AMVPSIZE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVAHD_BLT_STATE_CONSTRICTION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxvahd.h
+ - dxvahd.h
 api_name:
--	DXVAHD_BLT_STATE_CONSTRICTION_DATA
+ - DXVAHD_BLT_STATE_CONSTRICTION_DATA
 product: Windows
 targetos: Windows
 req.lib: 

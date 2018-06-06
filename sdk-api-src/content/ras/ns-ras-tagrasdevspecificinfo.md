@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ras.h
+ - Ras.h
 api_name:
--	RASDEVSPECIFICINFO
+ - RASDEVSPECIFICINFO
 product: Windows
 targetos: Windows
 req.lib: 

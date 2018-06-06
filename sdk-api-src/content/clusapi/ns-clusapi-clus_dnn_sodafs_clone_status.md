@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_DNN_SODAFS_CLONE_STATUS
+ - CLUS_DNN_SODAFS_CLONE_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

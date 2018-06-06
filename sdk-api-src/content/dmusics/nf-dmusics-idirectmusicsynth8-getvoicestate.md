@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Dmusics.h
+ - Dmusics.h
 api_name:
--	IDirectMusicSynth8.GetVoiceState
+ - IDirectMusicSynth8.GetVoiceState
 product: Windows
 targetos: Windows
 req.lib: 

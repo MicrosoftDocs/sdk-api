@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Windows.UI.Xaml.dll
+ - Windows.UI.Xaml.dll
 api_name:
--	ISurfaceImageSourceNativeWithD2D.ResumeDraw
+ - ISurfaceImageSourceNativeWithD2D.ResumeDraw
 product: Windows
 targetos: Windows
 req.lib: 

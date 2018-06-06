@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Localization-l2-1-0.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l2-1-0.dll
+ - KernelBase.dll
 api_name:
--	EnumCalendarInfoExEx
+ - EnumCalendarInfoExEx
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

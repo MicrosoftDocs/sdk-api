@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, *LPTIME_OF_DAY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	NetServerTransportAddEx
+ - NetServerTransportAddEx
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

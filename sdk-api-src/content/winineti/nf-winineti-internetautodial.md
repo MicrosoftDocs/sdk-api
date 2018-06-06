@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_AUTH_NOTIFY_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wininet.dll
+ - Wininet.dll
 api_name:
--	InternetAutodial
+ - InternetAutodial
 product: Windows
 targetos: Windows
 req.lib: Wininet.lib

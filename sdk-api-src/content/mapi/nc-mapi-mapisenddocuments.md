@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Mapi.h
+ - Mapi.h
 api_name:
--	MAPISendDocuments
+ - MAPISendDocuments
 product: Windows
 targetos: Windows
 req.lib: 

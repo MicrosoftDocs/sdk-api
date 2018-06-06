@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxgi1_5.dll
+ - dxgi1_5.dll
 api_name:
--	IDXGISwapChain4.SetHDRMetaData
+ - IDXGISwapChain4.SetHDRMetaData
 product: Windows
 targetos: Windows
 req.lib: Dxgi1_5.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	eappcfg.dll
+ - eappcfg.dll
 api_name:
--	EapHostPeerConfigBlob2Xml
+ - EapHostPeerConfigBlob2Xml
 product: Windows
 targetos: Windows
 req.lib: Eappcfg.lib

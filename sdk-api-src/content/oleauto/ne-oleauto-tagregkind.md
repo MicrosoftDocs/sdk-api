@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REGKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleAuto.h
+ - OleAuto.h
 api_name:
--	REGKIND
+ - REGKIND
 product: Windows
 targetos: Windows
 req.lib: 

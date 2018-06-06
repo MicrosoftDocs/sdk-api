@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WER_DUMP_CUSTOM_OPTIONS, *PWER_DUMP_CUSTOM_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Werapi.h
+ - Werapi.h
 api_name:
--	WER_DUMP_CUSTOM_OPTIONS
+ - WER_DUMP_CUSTOM_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

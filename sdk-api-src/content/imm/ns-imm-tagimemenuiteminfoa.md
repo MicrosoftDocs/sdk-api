@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: IMEMENUITEMINFOA, *PIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *LPIMEMENUITEMINFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imm.h
+ - Imm.h
 api_name:
--	IMEMENUITEMINFO
--	IMEMENUITEMINFOA
--	IMEMENUITEMINFOW
+ - IMEMENUITEMINFO
+ - IMEMENUITEMINFOA
+ - IMEMENUITEMINFOW
 product: Windows
 targetos: Windows
 req.lib: 

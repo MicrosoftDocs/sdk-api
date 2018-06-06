@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_TRAFFIC_CLASS, *LPQOS_TRAFFIC_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	QosObjs.h
+ - QosObjs.h
 api_name:
--	QOS_TRAFFIC_CLASS
+ - QOS_TRAFFIC_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

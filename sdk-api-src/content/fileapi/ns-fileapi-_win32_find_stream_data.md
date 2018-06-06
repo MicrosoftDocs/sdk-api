@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fileapi.h
+ - fileapi.h
 api_name:
--	WIN32_FIND_STREAM_DATA
+ - WIN32_FIND_STREAM_DATA
 product: Windows
 targetos: Windows
 req.lib: 

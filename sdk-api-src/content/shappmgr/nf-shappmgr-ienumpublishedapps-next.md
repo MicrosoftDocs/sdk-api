@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PUBAPPINFOFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shappmgr.h
+ - Shappmgr.h
 api_name:
--	IEnumPublishedApps.Next
+ - IEnumPublishedApps.Next
 product: Windows
 targetos: Windows
 req.lib: 

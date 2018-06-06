@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
+ - User32.dll
 api_name:
--	wsprintf
--	wsprintfA
--	wsprintfW
+ - wsprintf
+ - wsprintfA
+ - wsprintfW
 product: Windows
 targetos: Windows
 req.lib: User32.lib

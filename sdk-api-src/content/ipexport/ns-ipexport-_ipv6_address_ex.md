@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	IPV6_ADDRESS_EX
+ - IPV6_ADDRESS_EX
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	networkisolation.h
+ - networkisolation.h
 api_name:
--	NETISO_ERROR_TYPE
+ - NETISO_ERROR_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

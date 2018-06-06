@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSDXML_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ws2_32.dll
+ - Ws2_32.dll
 api_name:
--	WSAAsyncGetHostByName
+ - WSAAsyncGetHostByName
 product: Windows
 targetos: Windows
 req.lib: Ws2_32.lib

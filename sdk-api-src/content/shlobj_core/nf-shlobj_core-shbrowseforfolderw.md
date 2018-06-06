@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	shlwapi.dll
--	unicows.dll
+ - Shell32.dll
+ - shlwapi.dll
+ - unicows.dll
 api_name:
--	SHBrowseForFolder
--	SHBrowseForFolderA
--	SHBrowseForFolderW
+ - SHBrowseForFolder
+ - SHBrowseForFolderA
+ - SHBrowseForFolderW
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

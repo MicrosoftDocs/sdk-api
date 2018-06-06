@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.SelUnderline
--	IInkEdit.get_SelUnderline
--	IInkEdit.put_SelUnderline
--	InkEdit.get_SelUnderline
--	InkEdit.put_SelUnderline
+ - IInkEdit.SelUnderline
+ - IInkEdit.get_SelUnderline
+ - IInkEdit.put_SelUnderline
+ - InkEdit.get_SelUnderline
+ - InkEdit.put_SelUnderline
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REOBJECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Richole.h
+ - Richole.h
 api_name:
--	REOBJECT
+ - REOBJECT
 product: Windows
 targetos: Windows
 req.lib: 

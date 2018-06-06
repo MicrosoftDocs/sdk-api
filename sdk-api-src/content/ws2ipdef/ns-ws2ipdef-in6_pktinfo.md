@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: IN6_PKTINFO, *PIN6_PKTINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2ipdef.h
--	Ws2tcpip.h
+ - Ws2ipdef.h
+ - Ws2tcpip.h
 api_name:
--	IN6_PKTINFO
+ - IN6_PKTINFO
 product: Windows
 targetos: Windows
 req.lib: 

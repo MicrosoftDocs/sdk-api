@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTSINFOEX_LEVEL1_W, *PWTSINFOEX_LEVEL1_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTSINFOEX_LEVEL1
--	WTSINFOEX_LEVEL1_A
--	WTSINFOEX_LEVEL1_W
+ - WTSINFOEX_LEVEL1
+ - WTSINFOEX_LEVEL1_A
+ - WTSINFOEX_LEVEL1_W
 product: Windows
 targetos: Windows
 req.lib: 

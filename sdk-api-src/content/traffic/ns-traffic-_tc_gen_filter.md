@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Traffic.h
+ - Traffic.h
 api_name:
--	TC_GEN_FILTER)
+ - TC_GEN_FILTER)
 product: Windows
 targetos: Windows
 req.lib: 

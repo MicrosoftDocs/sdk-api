@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONNECTDATA, *PCONNECTDATA, *LPCONNECTDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ocidl.h
+ - Ocidl.h
 api_name:
--	CONNECTDATA
+ - CONNECTDATA
 product: Windows
 targetos: Windows
 req.lib: 

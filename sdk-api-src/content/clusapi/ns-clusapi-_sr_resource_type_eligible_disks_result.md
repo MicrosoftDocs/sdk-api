@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, *PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
+ - SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 product: Windows
 targetos: Windows
 req.lib: 

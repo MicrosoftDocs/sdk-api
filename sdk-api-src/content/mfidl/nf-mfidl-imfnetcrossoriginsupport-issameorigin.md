@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	IMFNetCrossOriginSupport::IsSameOrigin
+ - IMFNetCrossOriginSupport::IsSameOrigin
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib

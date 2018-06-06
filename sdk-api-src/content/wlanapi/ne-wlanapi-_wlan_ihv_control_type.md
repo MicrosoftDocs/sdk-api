@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_IHV_CONTROL_TYPE, *PWLAN_IHV_CONTROL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_IHV_CONTROL_TYPE
+ - WLAN_IHV_CONTROL_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

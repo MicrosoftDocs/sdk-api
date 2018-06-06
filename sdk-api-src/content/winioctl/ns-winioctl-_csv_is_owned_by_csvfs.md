@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_IS_OWNED_BY_CSVFS, *PCSV_IS_OWNED_BY_CSVFS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_IS_OWNED_BY_CSVFS
+ - CSV_IS_OWNED_BY_CSVFS
 product: Windows
 targetos: Windows
 req.lib: 

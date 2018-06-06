@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SIP_CAP_SET_V2, *PSIP_CAP_SET_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	SIP_CAP_SET
+ - SIP_CAP_SET
 product: Windows
 targetos: Windows
 req.lib: 

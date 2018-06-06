@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Newdev.lib
--	Newdev.dll
+ - Newdev.lib
+ - Newdev.dll
 api_name:
--	UpdateDriverForPlugAndPlayDevices
+ - UpdateDriverForPlugAndPlayDevices
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

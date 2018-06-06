@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.h
+ - UIAutomationCore.h
 api_name:
--	ITransformProvider.CanMove
--	ITransformProvider.get_CanMove
+ - ITransformProvider.CanMove
+ - ITransformProvider.get_CanMove
 product: Windows
 targetos: Windows
 req.lib: 

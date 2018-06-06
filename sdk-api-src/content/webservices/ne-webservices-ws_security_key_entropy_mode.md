@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_SECURITY_KEY_ENTROPY_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_SECURITY_KEY_ENTROPY_MODE
+ - WS_SECURITY_KEY_ENTROPY_MODE
 product: Windows
 targetos: Windows
 req.lib: 

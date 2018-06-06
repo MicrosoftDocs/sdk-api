@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TS_SB_SORT_BY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sbtsv.h
+ - sbtsv.h
 api_name:
--	ITsSbTarget.NumPendingConnections
--	ITsSbTarget.get_NumPendingConnections
--	ITsSbTargetEx.NumPendingConnections
--	ITsSbTargetEx.get_NumPendingConnections
+ - ITsSbTarget.NumPendingConnections
+ - ITsSbTarget.get_NumPendingConnections
+ - ITsSbTargetEx.NumPendingConnections
+ - ITsSbTargetEx.get_NumPendingConnections
 product: Windows
 targetos: Windows
 req.lib: 

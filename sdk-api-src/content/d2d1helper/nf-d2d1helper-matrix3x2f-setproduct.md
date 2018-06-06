@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_VIGNETTE_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D2d1.dll
+ - D2d1.dll
 api_name:
--	Matrix3x2F.SetProduct
+ - Matrix3x2F.SetProduct
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

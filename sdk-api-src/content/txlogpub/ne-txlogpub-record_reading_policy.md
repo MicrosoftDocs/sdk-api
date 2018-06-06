@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECORD_READING_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TxLogpub.h
+ - TxLogpub.h
 api_name:
--	RECORD_READING_POLICY
+ - RECORD_READING_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

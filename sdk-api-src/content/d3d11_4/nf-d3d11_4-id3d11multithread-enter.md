@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11_4.dll
+ - d3d11_4.dll
 api_name:
--	ID3D11Multithread.Enter
+ - ID3D11Multithread.Enter
 product: Windows
 targetos: Windows
 req.lib: D3d11_4.lib

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TEMPLATE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Tdh.dll
--	Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
 api_name:
--	TdhGetWppMessage
+ - TdhGetWppMessage
 product: Windows
 targetos: Windows
 req.lib: Tdh.lib

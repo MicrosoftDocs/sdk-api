@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUS_FLAGS
+ - CLUS_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

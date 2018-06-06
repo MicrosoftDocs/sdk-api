@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_BASIC_CONSTRAINTS2_INFO, *PCERT_BASIC_CONSTRAINTS2_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_BASIC_CONSTRAINTS2_INFO
+ - CERT_BASIC_CONSTRAINTS2_INFO
 product: Windows
 targetos: Windows
 req.lib: 

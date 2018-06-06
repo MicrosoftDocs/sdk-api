@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EDefaultDevmodeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	prntvpt.h
+ - prntvpt.h
 api_name:
--	EDefaultDevmodeType
+ - EDefaultDevmodeType
 product: Windows
 targetos: Windows
 req.lib: WinSpool.lib

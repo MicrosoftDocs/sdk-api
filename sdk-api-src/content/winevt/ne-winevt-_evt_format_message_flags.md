@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_FORMAT_MESSAGE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinEvt.h
+ - WinEvt.h
 api_name:
--	EVT_FORMAT_MESSAGE_FLAGS
+ - EVT_FORMAT_MESSAGE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmClassificationManager.SetFileProperty
--	IFsrmClassificationManager2.SetFileProperty
--	FsrmClassificationManager.SetFileProperty
+ - IFsrmClassificationManager.SetFileProperty
+ - IFsrmClassificationManager2.SetFileProperty
+ - FsrmClassificationManager.SetFileProperty
 product: Windows
 targetos: Windows
 req.lib: 

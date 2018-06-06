@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
+ - Ws2def.h
 api_name:
--	SOCKET_PROCESSOR_AFFINITY
+ - SOCKET_PROCESSOR_AFFINITY
 product: Windows
 targetos: Windows
 req.lib: 

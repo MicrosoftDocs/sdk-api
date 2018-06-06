@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_BYTE_STREAM_CACHE_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mfmediacapture.h
+ - Mfmediacapture.h
 api_name:
--	IAdvancedMediaCaptureInitializationSettings
+ - IAdvancedMediaCaptureInitializationSettings
 product: Windows
 targetos: Windows
 req.lib: 

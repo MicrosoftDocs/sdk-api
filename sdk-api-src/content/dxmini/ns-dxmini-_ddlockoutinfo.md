@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDLOCKOUTINFO, *PDDLOCKOUTINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxmini.h
+ - dxmini.h
 api_name:
--	DDLOCKOUTINFO
+ - DDLOCKOUTINFO
 product: Windows
 targetos: Windows
 req.lib: 

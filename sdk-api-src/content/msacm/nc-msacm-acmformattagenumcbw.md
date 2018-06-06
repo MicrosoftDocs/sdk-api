@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Msacm.h
+ - Msacm.h
 api_name:
--	ACMFORMATTAGENUMCB
--	ACMFORMATTAGENUMCBA
--	ACMFORMATTAGENUMCBW
+ - ACMFORMATTAGENUMCB
+ - ACMFORMATTAGENUMCBA
+ - ACMFORMATTAGENUMCBW
 product: Windows
 targetos: Windows
 req.lib: 

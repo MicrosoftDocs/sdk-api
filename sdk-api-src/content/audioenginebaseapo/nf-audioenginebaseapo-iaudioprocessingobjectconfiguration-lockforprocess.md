@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: APO_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Audioenginebaseapo.idl
--	Audioenginebaseapo.idl.dll
+ - Audioenginebaseapo.idl
+ - Audioenginebaseapo.idl.dll
 api_name:
--	IAudioProcessingObjectConfiguration.LockForProcess
+ - IAudioProcessingObjectConfiguration.LockForProcess
 product: Windows
 targetos: Windows
 req.lib: Audioenginebaseapo.idl

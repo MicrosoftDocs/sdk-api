@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_ISCSI_PORTALGROUP_PROP, *PVDS_ISCSI_PORTALGROUP_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_ISCSI_PORTALGROUP_PROP
+ - VDS_ISCSI_PORTALGROUP_PROP
 product: Windows
 targetos: Windows
 req.lib: 

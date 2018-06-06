@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CEPSetupProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Cchannel.h
+ - Cchannel.h
 api_name:
--	CHANNEL_INIT_EVENT_FN
+ - CHANNEL_INIT_EVENT_FN
 product: Windows
 targetos: Windows
 req.lib: 

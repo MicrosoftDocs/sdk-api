@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_TABLE_CLASS, *PTCP_TABLE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
--	Iphlpapi.h
+ - Iprtrmib.h
+ - Iphlpapi.h
 api_name:
--	TCP_TABLE_CLASS
+ - TCP_TABLE_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

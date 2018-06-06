@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+ - Shlwapi.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
--	StrRetToStr
--	StrRetToStrA
--	StrRetToStrW
+ - StrRetToStr
+ - StrRetToStrA
+ - StrRetToStrW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

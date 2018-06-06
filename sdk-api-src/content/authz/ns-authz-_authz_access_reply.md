@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_ACCESS_REPLY, *PAUTHZ_ACCESS_REPLY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Authz.h
+ - Authz.h
 api_name:
--	AUTHZ_ACCESS_REPLY
+ - AUTHZ_ACCESS_REPLY
 product: Windows
 targetos: Windows
 req.lib: 

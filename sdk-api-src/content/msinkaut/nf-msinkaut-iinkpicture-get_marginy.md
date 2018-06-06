@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkPicture.MarginY
--	IInkPicture.get_MarginY
--	IInkPicture.put_MarginY
--	InkPicture.get_MarginY
--	InkPicture.put_MarginY
+ - IInkPicture.MarginY
+ - IInkPicture.get_MarginY
+ - IInkPicture.put_MarginY
+ - InkPicture.get_MarginY
+ - InkPicture.put_MarginY
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

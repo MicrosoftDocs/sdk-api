@@ -29,14 +29,14 @@ req.type-library: D2D1.lib
 tech.root: 
 req.typenames: D2D1_DRAWING_STATE_DESCRIPTION1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D2D1_1.h
+ - D2D1_1.h
 api_name:
--	D2D1_DRAWING_STATE_DESCRIPTION1
+ - D2D1_DRAWING_STATE_DESCRIPTION1
 product: Windows
 targetos: Windows
 req.lib: 

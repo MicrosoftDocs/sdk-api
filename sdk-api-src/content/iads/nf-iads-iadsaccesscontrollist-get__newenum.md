@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_SD_FORMAT_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Activeds.dll
+ - Activeds.dll
 api_name:
--	IADsAccessControlList.get__NewEnum
+ - IADsAccessControlList.get__NewEnum
 product: Windows
 targetos: Windows
 req.lib: 

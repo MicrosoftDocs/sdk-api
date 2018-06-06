@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPE_ELEMENT, *PMPE_ELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	MPE_ELEMENT
+ - MPE_ELEMENT
 product: Windows
 targetos: Windows
 req.lib: 

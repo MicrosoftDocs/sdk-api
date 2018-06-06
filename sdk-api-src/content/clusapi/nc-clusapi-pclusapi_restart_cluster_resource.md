@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	PCLUSAPI_RESTART_CLUSTER_RESOURCE callback
+ - PCLUSAPI_RESTART_CLUSTER_RESOURCE callback
 product: Windows
 targetos: Windows
 req.lib: 

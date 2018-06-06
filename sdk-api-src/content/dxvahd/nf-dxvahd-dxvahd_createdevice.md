@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVAHD_SURFACE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dxva2.dll
+ - dxva2.dll
 api_name:
--	DXVAHD_CreateDevice
+ - DXVAHD_CreateDevice
 product: Windows
 targetos: Windows
 req.lib: Dxva2.lib

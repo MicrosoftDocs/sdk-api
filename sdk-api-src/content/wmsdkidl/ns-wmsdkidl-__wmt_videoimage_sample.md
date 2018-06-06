@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_VIDEOIMAGE_SAMPLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_VIDEOIMAGE_SAMPLE
+ - WMT_VIDEOIMAGE_SAMPLE
 product: Windows
 targetos: Windows
 req.lib: 

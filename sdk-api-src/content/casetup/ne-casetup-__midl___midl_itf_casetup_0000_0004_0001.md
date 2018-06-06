@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CESSetupProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Casetup.h
+ - Casetup.h
 api_name:
--	CESSetupProperty
+ - CESSetupProperty
 product: Windows
 targetos: Windows
 req.lib: 

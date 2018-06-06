@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRSETCOLORSPACE, *PEMRSETCOLORSPACE, EMRSELECTCOLORSPACE, *PEMRSELECTCOLORSPACE, EMRDELETECOLORSPACE, *PEMRDELETECOLORSPACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRSETCOLORSPACE
+ - EMRSETCOLORSPACE
 product: Windows
 targetos: Windows
 req.lib: 

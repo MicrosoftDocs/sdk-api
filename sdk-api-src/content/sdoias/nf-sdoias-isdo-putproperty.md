@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VENDORPROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Iassdo.dll
+ - Iassdo.dll
 api_name:
--	ISdo.PutProperty
+ - ISdo.PutProperty
 product: Windows
 targetos: Windows
 req.lib: 

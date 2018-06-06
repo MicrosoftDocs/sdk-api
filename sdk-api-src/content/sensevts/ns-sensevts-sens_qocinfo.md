@@ -29,14 +29,14 @@ req.type-library: Sensevts.tlb
 tech.root: 
 req.typenames: SENS_QOCINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sensevts.h
+ - Sensevts.h
 api_name:
--	SENS_QOCINFO
+ - SENS_QOCINFO
 product: Windows
 targetos: Windows
 req.lib: 

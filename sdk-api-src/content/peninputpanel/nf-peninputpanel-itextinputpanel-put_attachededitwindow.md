@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITextInputPanel.AttachedEditWindow
--	ITextInputPanel.get_AttachedEditWindow
--	ITextInputPanel.put_AttachedEditWindow
--	ITextInputPanel.get_AttachedEditWindow
--	ITextInputPanel.put_AttachedEditWindow
+ - ITextInputPanel.AttachedEditWindow
+ - ITextInputPanel.get_AttachedEditWindow
+ - ITextInputPanel.put_AttachedEditWindow
+ - ITextInputPanel.get_AttachedEditWindow
+ - ITextInputPanel.put_AttachedEditWindow
 product: Windows
 targetos: Windows
 req.lib: 

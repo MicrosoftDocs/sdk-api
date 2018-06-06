@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UICloseReasonType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	bdaiface.h
+ - bdaiface.h
 api_name:
--	IBDA_DRIDRMService.SetDRM
+ - IBDA_DRIDRMService.SetDRM
 product: Windows
 targetos: Windows
 req.lib: 

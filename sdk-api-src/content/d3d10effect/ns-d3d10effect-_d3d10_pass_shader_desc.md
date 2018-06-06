@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_PASS_SHADER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d10effect.h
+ - d3d10effect.h
 api_name:
--	D3D10_PASS_SHADER_DESC
+ - D3D10_PASS_SHADER_DESC
 product: Windows
 targetos: Windows
 req.lib: 

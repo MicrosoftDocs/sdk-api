@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoctl.h
+ - WinIoctl.h
 api_name:
--	IOCTL_STORAGE_FIRMWARE_GET_INFO
+ - IOCTL_STORAGE_FIRMWARE_GET_INFO
 product: Windows
 targetos: Windows
 req.lib: 

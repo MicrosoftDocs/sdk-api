@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETEOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	shldisp.h
+ - shldisp.h
 api_name:
--	IShellFolderViewDual.get_Parent
+ - IShellFolderViewDual.get_Parent
 product: Windows
 targetos: Windows
 req.lib: 

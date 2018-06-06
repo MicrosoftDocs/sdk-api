@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DAV_CALLBACK_AUTH_UNP, *PDAV_CALLBACK_AUTH_UNP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Davclnt.h
+ - Davclnt.h
 api_name:
--	DAV_CALLBACK_AUTH_UNP
+ - DAV_CALLBACK_AUTH_UNP
 product: Windows
 targetos: Windows
 req.lib: 

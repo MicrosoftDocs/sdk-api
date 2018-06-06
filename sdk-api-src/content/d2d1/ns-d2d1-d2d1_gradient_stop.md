@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_GRADIENT_STOP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1.h
+ - d2d1.h
 api_name:
--	D2D1_GRADIENT_STOP
+ - D2D1_GRADIENT_STOP
 product: Windows
 targetos: Windows
 req.lib: 

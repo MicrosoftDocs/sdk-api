@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_PRIMARY_CRED, *PSECPKG_PRIMARY_CRED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_PRIMARY_CRED
+ - SECPKG_PRIMARY_CRED
 product: Windows
 targetos: Windows
 req.lib: 

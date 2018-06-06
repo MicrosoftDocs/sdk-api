@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PerfRegInfoType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-Core-perfcounters-l1-1-0.dll
--	KernelBase.dll
+ - Advapi32.dll
+ - API-MS-Win-Core-perfcounters-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	PerfDeleteInstance
+ - PerfDeleteInstance
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

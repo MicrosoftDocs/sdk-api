@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITextInputPanel.PopDownCorrectionHeight
--	ITextInputPanel.get_PopDownCorrectionHeight
--	ITextInputPanel.get_PopDownCorrectionHeight
+ - ITextInputPanel.PopDownCorrectionHeight
+ - ITextInputPanel.get_PopDownCorrectionHeight
+ - ITextInputPanel.get_PopDownCorrectionHeight
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: THREAD_WRITE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dbghelp.dll
--	Dbgcore.dll
--	API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
--	DbgCore.dll
+ - Dbghelp.dll
+ - Dbgcore.dll
+ - API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
+ - DbgCore.dll
 api_name:
--	MiniDumpWriteDump
+ - MiniDumpWriteDump
 product: Windows
 targetos: Windows
 req.lib: Dbghelp.lib

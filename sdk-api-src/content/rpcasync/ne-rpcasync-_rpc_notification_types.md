@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_NOTIFICATION_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RPC_NOTIFICATION_TYPES
+ - RPC_NOTIFICATION_TYPES
 product: Windows
 targetos: Windows
 req.lib: 

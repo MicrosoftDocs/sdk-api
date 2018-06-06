@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHPRIVKEY_VER3, DSSPRIVKEY_VER3
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	DHPRIVKEY_VER3
+ - DHPRIVKEY_VER3
 product: Windows
 targetos: Windows
 req.lib: 

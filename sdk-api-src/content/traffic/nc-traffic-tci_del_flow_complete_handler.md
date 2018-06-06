@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TPMVSCMGR_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Traffic.h
+ - Traffic.h
 api_name:
--	TCI_DEL_FLOW_COMPLETE_HANDLER
+ - TCI_DEL_FLOW_COMPLETE_HANDLER
 product: Windows
 targetos: Windows
 req.lib: 

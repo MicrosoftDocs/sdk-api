@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ARP_SEND_REPLY, *PARP_SEND_REPLY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	ARP_SEND_REPLY
+ - ARP_SEND_REPLY
 product: Windows
 targetos: Windows
 req.lib: 

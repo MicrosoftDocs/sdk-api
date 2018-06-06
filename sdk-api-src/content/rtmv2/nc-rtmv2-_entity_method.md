@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ProxyFileInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_ENTITY_EXPORT_METHOD
+ - RTM_ENTITY_EXPORT_METHOD
 product: Windows
 targetos: Windows
 req.lib: 

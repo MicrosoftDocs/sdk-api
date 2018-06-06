@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SR_RESOURCE_TYPE_DISK_INFO, *PSR_RESOURCE_TYPE_DISK_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	SR_RESOURCE_TYPE_DISK_INFO
+ - SR_RESOURCE_TYPE_DISK_INFO
 product: Windows
 targetos: Windows
 req.lib: 

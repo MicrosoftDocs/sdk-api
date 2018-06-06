@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
--	api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
--	SHSendMessageBroadcast
--	SHSendMessageBroadcastA
--	SHSendMessageBroadcastW
+ - SHSendMessageBroadcast
+ - SHSendMessageBroadcastA
+ - SHSendMessageBroadcastW
 product: Windows
 targetos: Windows
 req.lib: 

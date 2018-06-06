@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winioctl.h
+ - winioctl.h
 api_name:
--	STORAGE_PROTOCOL_COMMAND
+ - STORAGE_PROTOCOL_COMMAND
 product: Windows
 targetos: Windows
 req.lib: 

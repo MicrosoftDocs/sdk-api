@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_JOB_PROXY_USAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	QmgrPrxy.dll
+ - QmgrPrxy.dll
 api_name:
--	IBackgroundCopyJob.Cancel
+ - IBackgroundCopyJob.Cancel
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

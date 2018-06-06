@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: XAUDIO2_VOICE_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	xaudio2.lib
--	xaudio2.dll
+ - xaudio2.lib
+ - xaudio2.dll
 api_name:
--	XAudio2CreateVolumeMeter
+ - XAudio2CreateVolumeMeter
 product: Windows
 targetos: Windows
 req.lib: Xaudio2.lib

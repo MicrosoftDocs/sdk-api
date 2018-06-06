@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SpatialAudioObjectRenderStreamForMetadataActivationParams
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	spatialaudiometadata.h
+ - spatialaudiometadata.h
 api_name:
--	SpatialAudioObjectRenderStreamForMetadataActivationParams
+ - SpatialAudioObjectRenderStreamForMetadataActivationParams
 product: Windows
 targetos: Windows
 req.lib: 

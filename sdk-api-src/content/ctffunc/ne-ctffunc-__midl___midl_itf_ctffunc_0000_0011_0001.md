@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfSapiObject
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ctffunc.h
+ - Ctffunc.h
 api_name:
--	TfSapiObject
+ - TfSapiObject
 product: Windows
 targetos: Windows
 req.lib: 

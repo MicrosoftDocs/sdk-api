@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IGestureRecognizer.MaxStrokeCount
--	IGestureRecognizer.get_MaxStrokeCount
--	IGestureRecognizer.put_MaxStrokeCount
--	IGestureRecognizer.get_MaxStrokeCount
--	IGestureRecognizer.put_MaxStrokeCount
+ - IGestureRecognizer.MaxStrokeCount
+ - IGestureRecognizer.get_MaxStrokeCount
+ - IGestureRecognizer.put_MaxStrokeCount
+ - IGestureRecognizer.get_MaxStrokeCount
+ - IGestureRecognizer.put_MaxStrokeCount
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_WALK_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	kernel32.dll
--	API-MS-Win-Core-Processsnapshot-l1-1-0.dll
--	KernelBase.dll
+ - kernel32.dll
+ - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	PssDuplicateSnapshot
+ - PssDuplicateSnapshot
 product: Windows
 targetos: Windows
 req.lib: 

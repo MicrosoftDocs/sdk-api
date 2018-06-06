@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_PROPERTY_FLAGS
+ - HTTP_PROPERTY_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_RAW_LOG_RECORD, *PPDH_RAW_LOG_RECORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_RAW_LOG_RECORD
+ - PDH_RAW_LOG_RECORD
 product: Windows
 targetos: Windows
 req.lib: 

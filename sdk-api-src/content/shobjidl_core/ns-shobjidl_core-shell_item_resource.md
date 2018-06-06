@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_ITEM_RESOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
--	SHELL_ITEM_RESOURCE
+ - SHELL_ITEM_RESOURCE
 product: Windows
 targetos: Windows
 req.lib: 

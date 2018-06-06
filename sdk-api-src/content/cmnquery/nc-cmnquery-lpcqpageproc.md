@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Cmnquery.h
+ - Cmnquery.h
 api_name:
--	LPCQPAGEPROC
+ - LPCQPAGEPROC
 product: Windows
 targetos: Windows
 req.lib: 

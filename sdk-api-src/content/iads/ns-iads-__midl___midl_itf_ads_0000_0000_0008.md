@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_BACKLINK, *PADS_BACKLINK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_BACKLINK
+ - ADS_BACKLINK
 product: Windows
 targetos: Windows
 req.lib: 

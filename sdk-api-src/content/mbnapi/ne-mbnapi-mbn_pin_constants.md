@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_PIN_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	MBN_PIN_CONSTANTS
+ - MBN_PIN_CONSTANTS
 product: Windows
 targetos: Windows
 req.lib: 

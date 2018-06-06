@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLEMENUGROUPWIDTHS, *LPOLEMENUGROUPWIDTHS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleIdl.h
+ - OleIdl.h
 api_name:
--	OLEMENUGROUPWIDTHS
+ - OLEMENUGROUPWIDTHS
 product: Windows
 targetos: Windows
 req.lib: 

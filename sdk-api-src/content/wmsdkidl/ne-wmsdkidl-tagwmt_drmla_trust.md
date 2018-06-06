@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_DRMLA_TRUST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_DRMLA_TRUST
+ - WMT_DRMLA_TRUST
 product: Windows
 targetos: Windows
 req.lib: 

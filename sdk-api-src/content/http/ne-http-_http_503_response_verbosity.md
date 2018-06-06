@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_503_RESPONSE_VERBOSITY, *PHTTP_503_RESPONSE_VERBOSITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_503_RESPONSE_VERBOSITY
+ - HTTP_503_RESPONSE_VERBOSITY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_CONTENT_INFO, *PCRYPT_CONTENT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_CONTENT_INFO
+ - CRYPT_CONTENT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

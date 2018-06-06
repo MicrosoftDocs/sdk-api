@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: ObjectParserFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CObjectPathParser.Parse
--	?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
--	?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
+ - CObjectPathParser.Parse
+ - ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
+ - ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

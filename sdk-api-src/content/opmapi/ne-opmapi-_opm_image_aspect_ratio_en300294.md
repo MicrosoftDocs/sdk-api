@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_IMAGE_ASPECT_RATIO_EN300294
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	opmapi.h
+ - opmapi.h
 api_name:
--	OPM_IMAGE_ASPECT_RATIO_EN300294
+ - OPM_IMAGE_ASPECT_RATIO_EN300294
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

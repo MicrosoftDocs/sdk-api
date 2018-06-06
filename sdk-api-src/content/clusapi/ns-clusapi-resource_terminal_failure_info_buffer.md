@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, *PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+ - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

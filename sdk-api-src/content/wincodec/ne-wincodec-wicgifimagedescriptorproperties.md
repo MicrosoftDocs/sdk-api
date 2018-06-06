@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICGifImageDescriptorProperties
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincodec.h
+ - Wincodec.h
 api_name:
--	WICGifImageDescriptorProperties
+ - WICGifImageDescriptorProperties
 product: Windows
 targetos: Windows
 req.lib: 

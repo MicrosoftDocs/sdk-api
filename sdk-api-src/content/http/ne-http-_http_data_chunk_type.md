@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_DATA_CHUNK_TYPE, *PHTTP_DATA_CHUNK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_DATA_CHUNK_TYPE
+ - HTTP_DATA_CHUNK_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

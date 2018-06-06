@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
--	wkscli.dll
+ - Netapi32.dll
+ - wkscli.dll
 api_name:
--	NetGetJoinInformation
+ - NetGetJoinInformation
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

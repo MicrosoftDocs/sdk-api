@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_DISPATCH_TABLE, *PRPC_DISPATCH_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RpcdceP.h
+ - RpcdceP.h
 api_name:
--	RPC_DISPATCH_TABLE
+ - RPC_DISPATCH_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

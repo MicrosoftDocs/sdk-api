@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	PCLUSAPI_CLUS_WORKER_TERMINATE
+ - PCLUSAPI_CLUS_WORKER_TERMINATE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UUID_VECTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rpcrt4.dll
+ - Rpcrt4.dll
 api_name:
--	I_RpcBindingInqLocalClientPID
+ - I_RpcBindingInqLocalClientPID
 product: Windows
 targetos: Windows
 req.lib: Rpcrt4.lib

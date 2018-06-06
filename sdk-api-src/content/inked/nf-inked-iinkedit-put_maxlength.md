@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.MaxLength
--	IInkEdit.get_MaxLength
--	IInkEdit.put_MaxLength
--	InkEdit.get_MaxLength
--	InkEdit.put_MaxLength
+ - IInkEdit.MaxLength
+ - IInkEdit.get_MaxLength
+ - IInkEdit.put_MaxLength
+ - InkEdit.get_MaxLength
+ - InkEdit.put_MaxLength
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

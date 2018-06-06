@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSOP_INIT_INFO, *PDSOP_INIT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objsel.h
+ - Objsel.h
 api_name:
--	DSOP_INIT_INFO
+ - DSOP_INIT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UiInfo, *PUiInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ndfapi.dll
+ - Ndfapi.dll
 api_name:
--	NdfExecuteDiagnosis
+ - NdfExecuteDiagnosis
 product: Windows
 targetos: Windows
 req.lib: Ndfapi.lib

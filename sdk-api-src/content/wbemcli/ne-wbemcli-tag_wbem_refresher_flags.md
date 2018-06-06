@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WBEM_REFRESHER_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemcli.h
+ - Wbemcli.h
 api_name:
--	WBEM_REFRESHER_FLAGS
+ - WBEM_REFRESHER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

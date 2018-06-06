@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REPAIR_COPIES_OUTPUT, *PREPAIR_COPIES_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	REPAIR_COPIES_OUTPUT
+ - REPAIR_COPIES_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

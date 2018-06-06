@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSATHREADID, *LPWSATHREADID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2spi.h
+ - Ws2spi.h
 api_name:
--	WSATHREADID
+ - WSATHREADID
 product: Windows
 targetos: Windows
 req.lib: 

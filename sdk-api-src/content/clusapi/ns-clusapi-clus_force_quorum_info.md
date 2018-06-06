@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_FORCE_QUORUM_INFO, *PCLUS_FORCE_QUORUM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_FORCE_QUORUM_INFO
+ - CLUS_FORCE_QUORUM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

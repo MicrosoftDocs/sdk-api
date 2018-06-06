@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_AuthorityW, *PSecPkgContext_AuthorityW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgContext_Authority
--	SecPkgContext_AuthorityA
--	SecPkgContext_AuthorityW
+ - SecPkgContext_Authority
+ - SecPkgContext_AuthorityA
+ - SecPkgContext_AuthorityW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	adhoc.h
+ - adhoc.h
 api_name:
--	IDot11AdHocInterface.IsAdHocCapable
+ - IDot11AdHocInterface.IsAdHocCapable
 product: Windows
 targetos: Windows
 req.lib: 

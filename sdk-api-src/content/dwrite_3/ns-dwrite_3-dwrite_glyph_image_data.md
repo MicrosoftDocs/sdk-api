@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dwrite_3.h
+ - dwrite_3.h
 api_name:
--	DWRITE_GLYPH_IMAGE_DATA
+ - DWRITE_GLYPH_IMAGE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_REVOCATION_STATUS, *PCERT_REVOCATION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_REVOCATION_STATUS
+ - CERT_REVOCATION_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

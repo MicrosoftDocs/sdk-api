@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	READ_ELEMENT_ADDRESS_INFO
+ - READ_ELEMENT_ADDRESS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

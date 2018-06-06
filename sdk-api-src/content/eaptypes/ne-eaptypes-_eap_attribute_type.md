@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_ATTRIBUTE_TYPE, EapAttributeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaptypes.h
+ - eaptypes.h
 api_name:
--	EAP_ATTRIBUTE_TYPE
+ - EAP_ATTRIBUTE_TYPE
 product: Windows
 targetos: Windows
 req.lib: Eappprxy.lib

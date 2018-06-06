@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: InternetCookieState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wininet.dll
+ - Wininet.dll
 api_name:
--	FtpOpenFile
--	FtpOpenFileA
--	FtpOpenFileW
+ - FtpOpenFile
+ - FtpOpenFileA
+ - FtpOpenFileW
 product: Windows
 targetos: Windows
 req.lib: Wininet.lib

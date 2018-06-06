@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_OPTION_INFORMATION32, *PIP_OPTION_INFORMATION32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	IP_OPTION_INFORMATION32
+ - IP_OPTION_INFORMATION32
 product: Windows
 targetos: Windows
 req.lib: 

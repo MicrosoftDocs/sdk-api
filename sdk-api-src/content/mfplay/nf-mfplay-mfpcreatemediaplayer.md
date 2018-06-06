@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mfplay.dll
+ - mfplay.dll
 api_name:
--	MFPCreateMediaPlayer
+ - MFPCreateMediaPlayer
 product: Windows
 targetos: Windows
 req.lib: Mfplay.lib

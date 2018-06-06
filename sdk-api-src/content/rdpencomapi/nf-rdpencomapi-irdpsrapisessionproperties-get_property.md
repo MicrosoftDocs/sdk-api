@@ -29,17 +29,17 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPISessionProperties.Property
--	IRDPSRAPISessionProperties.get_Property
--	IRDPSRAPISessionProperties.put_Property
--	RDPSRAPISessionProperties.Property
+ - IRDPSRAPISessionProperties.Property
+ - IRDPSRAPISessionProperties.get_Property
+ - IRDPSRAPISessionProperties.put_Property
+ - RDPSRAPISessionProperties.Property
 product: Windows
 targetos: Windows
 req.lib: 

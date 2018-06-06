@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IS_ADSPEC_BODY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	IS_ADSPEC_BODY
+ - IS_ADSPEC_BODY
 product: Windows
 targetos: Windows
 req.lib: 

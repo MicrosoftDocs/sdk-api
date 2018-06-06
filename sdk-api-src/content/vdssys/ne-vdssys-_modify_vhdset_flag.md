@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MODIFY_VHDSET_FLAG, *PMODIFY_VHDSET_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	MODIFY_VHDSET_FLAG
+ - MODIFY_VHDSET_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,24 +29,24 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-String-Obsolete-l1-1-0.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-String-Obsolete-l1-1-1.dll
--	API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
--	API-MS-Win-Core-misc-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+ - MinKernelBase.dll
 api_name:
--	lstrcmpi
--	lstrcmpiA
--	lstrcmpiW
+ - lstrcmpi
+ - lstrcmpiA
+ - lstrcmpiW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

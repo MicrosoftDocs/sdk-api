@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASSOCIATE_NAMERES_CONTEXT_INPUT, *PASSOCIATE_NAMERES_CONTEXT_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	ASSOCIATE_NAMERES_CONTEXT_INPUT
+ - ASSOCIATE_NAMERES_CONTEXT_INPUT
 product: Windows
 targetos: Windows
 req.lib: 

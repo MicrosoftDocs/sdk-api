@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PPP_EAP_INFO, *PPPP_EAP_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Raseapif.h
+ - Raseapif.h
 api_name:
--	PPP_EAP_INFO
+ - PPP_EAP_INFO
 product: Windows
 targetos: Windows
 req.lib: 

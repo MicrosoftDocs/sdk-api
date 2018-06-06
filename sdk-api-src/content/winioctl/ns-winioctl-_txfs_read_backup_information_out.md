@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_READ_BACKUP_INFORMATION_OUT, *PTXFS_READ_BACKUP_INFORMATION_OUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_READ_BACKUP_INFORMATION_OUT
+ - TXFS_READ_BACKUP_INFORMATION_OUT
 product: Windows
 targetos: Windows
 req.lib: 

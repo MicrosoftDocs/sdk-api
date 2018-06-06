@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_SHORT_VECTOR, *PSECPKG_SHORT_VECTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_SHORT_VECTOR
+ - SECPKG_SHORT_VECTOR
 product: Windows
 targetos: Windows
 req.lib: 

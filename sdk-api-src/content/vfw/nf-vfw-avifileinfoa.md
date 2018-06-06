@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Avifil32.dll
--	Ext-MS-Win-Media-Avi-L1-1-0.dll
+ - Avifil32.dll
+ - Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
--	AVIFileInfo
--	AVIFileInfoA
--	AVIFileInfoW
+ - AVIFileInfo
+ - AVIFileInfoA
+ - AVIFileInfoW
 product: Windows
 targetos: Windows
 req.lib: Vfw32.lib

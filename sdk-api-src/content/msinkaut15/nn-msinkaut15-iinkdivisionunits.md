@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Inkdiv.dll
--	Inkdiv.dll.dll
+ - Inkdiv.dll
+ - Inkdiv.dll.dll
 api_name:
--	IInkDivisionUnits
--	IInkDivisionUnits._NewEnum
+ - IInkDivisionUnits
+ - IInkDivisionUnits._NewEnum
 product: Windows
 targetos: Windows
 req.lib: Inkdiv.dll

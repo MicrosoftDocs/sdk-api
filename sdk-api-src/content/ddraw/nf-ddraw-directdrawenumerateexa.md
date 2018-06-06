@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: DEDUP_CONTAINER_EXTENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ddraw.dll
--	Ext-MS-Win-DX-DDraw-L1-1-0.dll
+ - Ddraw.dll
+ - Ext-MS-Win-DX-DDraw-L1-1-0.dll
 api_name:
--	DirectDrawEnumerateEx
--	DirectDrawEnumerateExA
--	DirectDrawEnumerateExW
+ - DirectDrawEnumerateEx
+ - DirectDrawEnumerateExA
+ - DirectDrawEnumerateExW
 product: Windows
 targetos: Windows
 req.lib: Ddraw.lib

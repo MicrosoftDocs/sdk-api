@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CALLFRAME_MARSHALCONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	callobj.h
+ - callobj.h
 api_name:
--	CALLFRAME_MARSHALCONTEXT
+ - CALLFRAME_MARSHALCONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

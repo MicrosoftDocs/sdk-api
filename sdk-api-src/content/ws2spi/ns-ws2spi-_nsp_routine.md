@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NSP_ROUTINE, *LPNSP_ROUTINE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2spi.h
+ - Ws2spi.h
 api_name:
--	NSP_ROUTINE, FAR * LPNSP_ROUTINE
+ - NSP_ROUTINE, FAR * LPNSP_ROUTINE
 product: Windows
 targetos: Windows
 req.lib: 

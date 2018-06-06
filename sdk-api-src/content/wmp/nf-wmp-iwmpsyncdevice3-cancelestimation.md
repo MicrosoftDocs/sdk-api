@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	IWMPSyncDevice3.cancelEstimation
+ - IWMPSyncDevice3.cancelEstimation
 product: Windows
 targetos: Windows
 req.lib: 

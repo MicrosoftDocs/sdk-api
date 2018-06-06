@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FORMAT_EX_PARAMETERS, *PFORMAT_EX_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FORMAT_EX_PARAMETERS
+ - FORMAT_EX_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

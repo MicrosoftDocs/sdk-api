@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_SESSION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WcnDevice.h
+ - WcnDevice.h
 api_name:
--	IWCNDevice.Unadvise
+ - IWCNDevice.Unadvise
 product: Windows
 targetos: Windows
 req.lib: 

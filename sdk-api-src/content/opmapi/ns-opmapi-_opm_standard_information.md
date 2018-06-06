@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_STANDARD_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ksopmapi.h
+ - ksopmapi.h
 api_name:
--	OPM_STANDARD_INFORMATION
+ - OPM_STANDARD_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

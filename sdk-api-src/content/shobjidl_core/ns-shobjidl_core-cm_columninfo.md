@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CM_COLUMNINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shobjidl_core.h
+ - shobjidl_core.h
 api_name:
--	CM_COLUMNINFO
+ - CM_COLUMNINFO
 product: Windows
 targetos: Windows
 req.lib: 

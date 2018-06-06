@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_TRANSACTION_ACTIVE_INFO, *PTXFS_TRANSACTION_ACTIVE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_TRANSACTION_ACTIVE_INFO
+ - TXFS_TRANSACTION_ACTIVE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

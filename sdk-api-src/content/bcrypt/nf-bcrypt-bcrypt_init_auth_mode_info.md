@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HASHALGORITHM_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	BCRYPT_INIT_AUTH_MODE_INFO
+ - BCRYPT_INIT_AUTH_MODE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

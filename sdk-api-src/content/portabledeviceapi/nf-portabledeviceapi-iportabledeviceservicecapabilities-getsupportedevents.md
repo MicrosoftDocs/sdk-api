@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	PortableDeviceAPI.h
+ - PortableDeviceAPI.h
 api_name:
--	IPortableDeviceServiceCapabilities.GetSupportedEvents
+ - IPortableDeviceServiceCapabilities.GetSupportedEvents
 product: Windows
 targetos: Windows
 req.lib: 

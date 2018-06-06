@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETLOGON_LOGON_IDENTITY_INFO, *PNETLOGON_LOGON_IDENTITY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Subauth.h
+ - Subauth.h
 api_name:
--	NETLOGON_LOGON_IDENTITY_INFO
+ - NETLOGON_LOGON_IDENTITY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REPARSE_GUID_DATA_BUFFER, *PREPARSE_GUID_DATA_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	REPARSE_GUID_DATA_BUFFER
+ - REPARSE_GUID_DATA_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

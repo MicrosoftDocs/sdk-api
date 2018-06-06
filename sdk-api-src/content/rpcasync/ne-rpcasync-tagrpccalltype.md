@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RpcCallType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RpcCallType
+ - RpcCallType
 product: Windows
 targetos: Windows
 req.lib: 

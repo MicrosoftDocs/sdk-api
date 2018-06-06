@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_CRYPTO_KEY, *PKERB_CRYPTO_KEY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_CRYPTO_KEY
+ - KERB_CRYPTO_KEY
 product: Windows
 targetos: Windows
 req.lib: 

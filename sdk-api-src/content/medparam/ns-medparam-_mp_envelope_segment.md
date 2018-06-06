@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MP_ENVELOPE_SEGMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Medparam.h
+ - Medparam.h
 api_name:
--	MP_ENVELOPE_SEGMENT
+ - MP_ENVELOPE_SEGMENT
 product: Windows
 targetos: Windows
 req.lib: 

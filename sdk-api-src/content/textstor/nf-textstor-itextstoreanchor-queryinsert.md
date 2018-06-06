@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TsRunType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msctf.dll
+ - msctf.dll
 api_name:
--	ITextStoreAnchor.QueryInsert
+ - ITextStoreAnchor.QueryInsert
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSMAN_USERNAME_PASSWORD_CREDS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_USERNAME_PASSWORD_CREDS
+ - WSMAN_USERNAME_PASSWORD_CREDS
 product: Windows
 targetos: Windows
 req.lib: 

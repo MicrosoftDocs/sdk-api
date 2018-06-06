@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rpcns4.dll
+ - Rpcns4.dll
 api_name:
--	RpcNsBindingLookupNext
+ - RpcNsBindingLookupNext
 product: Windows
 targetos: Windows
 req.lib: Rpcns4.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIC_ARRAY_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	MIC_ARRAY_MODE
+ - MIC_ARRAY_MODE
 product: Windows
 targetos: Windows
 req.lib: 

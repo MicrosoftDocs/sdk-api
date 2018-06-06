@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WbemTimeout
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	WBEMTime.GetFILETIME
--	?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
+ - WBEMTime.GetFILETIME
+ - ?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Fxscomex.dll
+ - Fxscomex.dll
 api_name:
--	IFaxOutgoingMessage.Recipient
--	IFaxOutgoingMessage.get_Recipient
+ - IFaxOutgoingMessage.Recipient
+ - IFaxOutgoingMessage.get_Recipient
 product: Windows
 targetos: Windows
 req.lib: 

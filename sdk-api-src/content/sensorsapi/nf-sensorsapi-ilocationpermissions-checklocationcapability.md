@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MagnetometerAccuracy
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sensorsapi.h
+ - sensorsapi.h
 api_name:
--	ILocationPermissions.CheckLocationCapability
+ - ILocationPermissions.CheckLocationCapability
 product: Windows
 targetos: Windows
 req.lib: 

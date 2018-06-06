@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_SERVICE_HOST_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_SERVICE_HOST_STATE
+ - WS_SERVICE_HOST_STATE
 product: Windows
 targetos: Windows
 req.lib: 

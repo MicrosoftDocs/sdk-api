@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSDUdpMessageType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsdbase.h
+ - Wsdbase.h
 api_name:
--	WSDUdpMessageType
+ - WSDUdpMessageType
 product: Windows
 targetos: Windows
 req.lib: Wsdapi.lib

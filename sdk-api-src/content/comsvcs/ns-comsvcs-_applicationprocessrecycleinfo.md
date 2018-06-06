@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ApplicationProcessRecycleInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	ApplicationProcessRecycleInfo
+ - ApplicationProcessRecycleInfo
 product: Windows
 targetos: Windows
 req.lib: 

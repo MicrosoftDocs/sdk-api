@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_CONNECTION_COST_SOURCE, *PWCM_CONNECTION_COST_SOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_CONNECTION_COST_SOURCE
+ - WCM_CONNECTION_COST_SOURCE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSCTL_NETINTERFACE_CODES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUSCTL_NETINTERFACE_CODES
+ - CLUSCTL_NETINTERFACE_CODES
 product: Windows
 targetos: Windows
 req.lib: 

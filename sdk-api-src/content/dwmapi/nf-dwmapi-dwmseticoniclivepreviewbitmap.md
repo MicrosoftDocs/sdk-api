@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dwmapi.dll
--	uxtheme.dll
--	ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - Dwmapi.dll
+ - uxtheme.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
--	DwmSetIconicLivePreviewBitmap
+ - DwmSetIconicLivePreviewBitmap
 product: Windows
 targetos: Windows
 req.lib: Dwmapi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_JOB_TIMES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	bits10_1.h
+ - bits10_1.h
 api_name:
--	IBackgroundCopyFile6
+ - IBackgroundCopyFile6
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Endpointvolume.h
+ - Endpointvolume.h
 api_name:
--	AUDIO_VOLUME_NOTIFICATION_DATA
+ - AUDIO_VOLUME_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VMRGUID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	VMRGUID
+ - VMRGUID
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_SELECTDEVICE_PARAMS_W, *PSP_SELECTDEVICE_PARAMS_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_SELECTDEVICE_PARAMS
+ - SP_SELECTDEVICE_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

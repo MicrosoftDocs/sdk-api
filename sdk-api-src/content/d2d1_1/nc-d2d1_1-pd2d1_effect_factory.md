@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_SVG_VIEWBOX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	D2D1_1.h
+ - D2D1_1.h
 api_name:
--	PD2D1_EFFECT_FACTORY
+ - PD2D1_EFFECT_FACTORY
 product: Windows
 targetos: Windows
 req.lib: 

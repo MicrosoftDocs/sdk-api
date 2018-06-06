@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	AppxPackaging.h
+ - AppxPackaging.h
 api_name:
--	IAppxBundleReader.GetManifest
+ - IAppxBundleReader.GetManifest
 product: Windows
 targetos: Windows
 req.lib: 

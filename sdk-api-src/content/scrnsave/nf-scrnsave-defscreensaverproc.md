@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	None
+ - None
 api_name:
--	DefScreenSaverProc
+ - DefScreenSaverProc
 product: Windows
 targetos: Windows
 req.lib: Scrnsave.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D2d1.dll
+ - D2d1.dll
 api_name:
--	StrokeStyleProperties1
+ - StrokeStyleProperties1
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

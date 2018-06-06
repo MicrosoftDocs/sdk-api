@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Workspaceruntimeclientext.h
+ - Workspaceruntimeclientext.h
 api_name:
--	IWorkspaceClientExt.GetResourceDisplayName
+ - IWorkspaceClientExt.GetResourceDisplayName
 product: Windows
 targetos: Windows
 req.lib: 

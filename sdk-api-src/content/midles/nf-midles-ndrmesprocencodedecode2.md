@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MICUIELEMENTSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	RpcRT4.dll
+ - RpcRT4.dll
 api_name:
--	NdrMesProcEncodeDecode2
+ - NdrMesProcEncodeDecode2
 product: Windows
 targetos: Windows
 req.lib: RpcRT4.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_CACHE_ENTRY_INFOA, *LPINTERNET_CACHE_ENTRY_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_CACHE_ENTRY_INFO
--	INTERNET_CACHE_ENTRY_INFOA
--	INTERNET_CACHE_ENTRY_INFOW
+ - INTERNET_CACHE_ENTRY_INFO
+ - INTERNET_CACHE_ENTRY_INFOA
+ - INTERNET_CACHE_ENTRY_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

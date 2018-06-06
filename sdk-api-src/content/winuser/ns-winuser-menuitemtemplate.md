@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MENUITEMTEMPLATE, *PMENUITEMTEMPLATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	MENUITEMTEMPLATE
+ - MENUITEMTEMPLATE
 product: Windows
 targetos: Windows
 req.lib: 

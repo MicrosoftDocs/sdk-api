@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WORDLIST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Spellcheckprovider.h
+ - Spellcheckprovider.h
 api_name:
--	ISpellCheckProvider.LanguageTag
--	ISpellCheckProvider.get_LanguageTag
+ - ISpellCheckProvider.LanguageTag
+ - ISpellCheckProvider.get_LanguageTag
 product: Windows
 targetos: Windows
 req.lib: 

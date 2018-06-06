@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INSTALLDATA, *PINSTALLDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Appmgmt.h
+ - Appmgmt.h
 api_name:
--	INSTALLDATA
+ - INSTALLDATA
 product: Windows
 targetos: Windows
 req.lib: 

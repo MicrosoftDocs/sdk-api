@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509ProviderType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CertEnroll.h
+ - CertEnroll.h
 api_name:
--	X509ProviderType
+ - X509ProviderType
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

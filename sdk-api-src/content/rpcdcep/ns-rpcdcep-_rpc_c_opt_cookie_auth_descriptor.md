@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdcep.h
+ - Rpcdcep.h
 api_name:
--	RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
--	RPC_CALL_ATTRIBUTES_V1_A
--	RPC_CALL_ATTRIBUTES_V1_W
+ - RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
+ - RPC_CALL_ATTRIBUTES_V1_A
+ - RPC_CALL_ATTRIBUTES_V1_W
 product: Windows
 targetos: Windows
 req.lib: 

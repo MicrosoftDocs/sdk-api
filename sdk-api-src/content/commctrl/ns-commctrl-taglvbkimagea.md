@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: LVBKIMAGEA, *LPLVBKIMAGEA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	LVBKIMAGE
--	LVBKIMAGEA
--	LVBKIMAGEW
+ - LVBKIMAGE
+ - LVBKIMAGEA
+ - LVBKIMAGEW
 product: Windows
 targetos: Windows
 req.lib: 

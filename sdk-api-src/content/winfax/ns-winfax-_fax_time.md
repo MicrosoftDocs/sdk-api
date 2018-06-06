@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_TIME, *PFAX_TIME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_TIME
--	FAX_TIMEA
--	FAX_TIMEW
+ - FAX_TIME
+ - FAX_TIMEA
+ - FAX_TIMEW
 product: Windows
 targetos: Windows
 req.lib: 

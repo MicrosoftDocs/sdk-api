@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	POPEN_CLUSTER_CRYPT_PROVIDER
+ - POPEN_CLUSTER_CRYPT_PROVIDER
 product: Windows
 targetos: Windows
 req.lib: 

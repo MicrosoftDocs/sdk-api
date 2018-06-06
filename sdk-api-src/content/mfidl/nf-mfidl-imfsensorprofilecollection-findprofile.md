@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mfsensorgroup.lib
--	Mfsensorgroup.dll
+ - Mfsensorgroup.lib
+ - Mfsensorgroup.dll
 api_name:
--	IMFSensorProfileCollection.FindProfile
+ - IMFSensorProfileCollection.FindProfile
 product: Windows
 targetos: Windows
 req.lib: Mfsensorgroup.lib

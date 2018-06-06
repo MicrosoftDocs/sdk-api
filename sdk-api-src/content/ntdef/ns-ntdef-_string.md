@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STRING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdef.h
+ - Ntdef.h
 api_name:
--	ANSI_STRING
+ - ANSI_STRING
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkOverlay.EraserMode
--	IInkOverlay.get_EraserMode
--	IInkOverlay.put_EraserMode
--	InkOverlay.get_EraserMode
--	InkOverlay.put_EraserMode
+ - IInkOverlay.EraserMode
+ - IInkOverlay.get_EraserMode
+ - IInkOverlay.put_EraserMode
+ - InkOverlay.get_EraserMode
+ - InkOverlay.put_EraserMode
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

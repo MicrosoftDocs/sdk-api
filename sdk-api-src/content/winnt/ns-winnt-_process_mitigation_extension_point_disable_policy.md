@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY, *PPROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winnt.h
+ - winnt.h
 api_name:
--	PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
+ - PROCESS_MITIGATION_EXTENSION_POINT_DISABLE_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

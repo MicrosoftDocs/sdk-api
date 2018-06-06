@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_RDN_ATTR, *PCERT_RDN_ATTR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_RDN_ATTR
+ - CERT_RDN_ATTR
 product: Windows
 targetos: Windows
 req.lib: 

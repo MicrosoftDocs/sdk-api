@@ -29,23 +29,23 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
--	API-MS-Win-Security-base-l1-1-0.dll
--	API-MS-Win-Security-base-l1-2-0.dll
--	MinKernelBase.dll
--	API-MS-Win-Security-Base-L1-2-1.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
--	AccessCheckAndAuditAlarm
--	AccessCheckAndAuditAlarmA
--	AccessCheckAndAuditAlarmW
+ - AccessCheckAndAuditAlarm
+ - AccessCheckAndAuditAlarmA
+ - AccessCheckAndAuditAlarmW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

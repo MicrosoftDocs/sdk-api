@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FIRMWARE_TYPE, *PFIRMWARE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	FIRMWARE_TYPE
+ - FIRMWARE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

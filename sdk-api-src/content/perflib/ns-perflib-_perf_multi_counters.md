@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_MULTI_COUNTERS, *PPERF_MULTI_COUNTERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	PERF_MULTI_COUNTERS
+ - PERF_MULTI_COUNTERS
 product: Windows
 targetos: Windows
 req.lib: 

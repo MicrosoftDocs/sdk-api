@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LIST_ENTRY, *PLIST_ENTRY, PRLIST_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	SLIST_ENTRY
+ - SLIST_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

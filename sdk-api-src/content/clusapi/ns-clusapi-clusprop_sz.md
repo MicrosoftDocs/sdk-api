@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSPROP_SZ, *PCLUSPROP_SZ
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSPROP_MULTI_SZ
+ - CLUSPROP_MULTI_SZ
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_FREE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dnsapi.dll
+ - Dnsapi.dll
 api_name:
--	DnsAcquireContextHandle
--	DnsAcquireContextHandle_A
--	DnsAcquireContextHandle_W
+ - DnsAcquireContextHandle
+ - DnsAcquireContextHandle_A
+ - DnsAcquireContextHandle_W
 product: Windows
 targetos: Windows
 req.lib: Dnsapi.lib

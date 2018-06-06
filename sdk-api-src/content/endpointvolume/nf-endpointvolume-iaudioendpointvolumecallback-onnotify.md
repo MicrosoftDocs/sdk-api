@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ProtType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Endpointvolume.h
+ - Endpointvolume.h
 api_name:
--	IAudioEndpointVolumeCallback.OnNotify
+ - IAudioEndpointVolumeCallback.OnNotify
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wlanapi.dll
+ - Wlanapi.dll
 api_name:
--	WlanSetAutoConfigParameter
+ - WlanSetAutoConfigParameter
 product: Windows
 targetos: Windows
 req.lib: Wlanapi.lib

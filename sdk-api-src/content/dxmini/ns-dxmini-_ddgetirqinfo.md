@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDGETIRQINFO, *PDDGETIRQINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxmini.h
+ - dxmini.h
 api_name:
--	DDGETIRQINFO
+ - DDGETIRQINFO
 product: Windows
 targetos: Windows
 req.lib: 

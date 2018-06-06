@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AGENT_SESSION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tapi3cc.h
+ - tapi3cc.h
 api_name:
--	AGENT_SESSION_STATE
+ - AGENT_SESSION_STATE
 product: Windows
 targetos: Windows
 req.lib: 

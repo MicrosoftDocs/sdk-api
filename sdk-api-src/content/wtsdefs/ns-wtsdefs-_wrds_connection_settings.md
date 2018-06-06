@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WRDS_CONNECTION_SETTINGS
+ - WRDS_CONNECTION_SETTINGS
 product: Windows
 targetos: Windows
 req.lib: 

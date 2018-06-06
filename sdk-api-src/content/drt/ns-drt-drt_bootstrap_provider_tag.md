@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_BOOTSTRAP_PROVIDER, *PDRT_BOOTSTRAP_PROVIDER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	drt.h
+ - drt.h
 api_name:
--	DRT_BOOTSTRAP_PROVIDER
+ - DRT_BOOTSTRAP_PROVIDER
 product: Windows
 targetos: Windows
 req.lib: 

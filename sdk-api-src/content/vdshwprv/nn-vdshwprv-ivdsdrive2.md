@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_VERSION_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	IVdsDrive2
+ - IVdsDrive2
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

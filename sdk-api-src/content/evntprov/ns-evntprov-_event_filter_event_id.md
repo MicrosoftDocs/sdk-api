@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_FILTER_EVENT_ID, *PEVENT_FILTER_EVENT_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evntprov.h
+ - Evntprov.h
 api_name:
--	EVENT_FILTER_EVENT_ID
+ - EVENT_FILTER_EVENT_ID
 product: Windows
 targetos: Windows
 req.lib: 

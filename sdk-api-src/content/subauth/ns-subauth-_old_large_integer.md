@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Subauth.h
+ - Subauth.h
 api_name:
--	OLD_LARGE_INTEGER
+ - OLD_LARGE_INTEGER
 product: Windows
 targetos: Windows
 req.lib: 

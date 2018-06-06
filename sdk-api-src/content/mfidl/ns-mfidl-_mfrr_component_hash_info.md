@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFRR_COMPONENT_HASH_INFO
+ - MFRR_COMPONENT_HASH_INFO
 product: Windows
 targetos: Windows
 req.lib: 

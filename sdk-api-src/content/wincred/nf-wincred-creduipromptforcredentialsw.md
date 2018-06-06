@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: CRED_PROTECTION_TYPE, *PCRED_PROTECTION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Credui.dll
--	Ext-MS-Win-security-credui-l1-1-0.dll
--	Ext-MS-Win-security-credui-l1-1-1.dll
--	AnalogCredUI.dll
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
 api_name:
--	CredUIPromptForCredentials
--	CredUIPromptForCredentialsA
--	CredUIPromptForCredentialsW
+ - CredUIPromptForCredentials
+ - CredUIPromptForCredentialsA
+ - CredUIPromptForCredentialsW
 product: Windows
 targetos: Windows
 req.lib: Credui.lib

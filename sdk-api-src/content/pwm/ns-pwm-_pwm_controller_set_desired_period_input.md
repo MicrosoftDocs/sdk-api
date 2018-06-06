@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pwm.h
+ - Pwm.h
 api_name:
--	PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
+ - PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT
 product: Windows
 targetos: Windows
 req.lib: 

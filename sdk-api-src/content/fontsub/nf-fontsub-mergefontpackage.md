@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	FontSub.dll
+ - FontSub.dll
 api_name:
--	MergeFontPackage
+ - MergeFontPackage
 product: Windows
 targetos: Windows
 req.lib: FontSub.lib

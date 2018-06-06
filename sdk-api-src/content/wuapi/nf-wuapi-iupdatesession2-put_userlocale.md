@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdateSession2.UserLocale
--	IUpdateSession2.get_UserLocale
--	IUpdateSession2.put_UserLocale
+ - IUpdateSession2.UserLocale
+ - IUpdateSession2.get_UserLocale
+ - IUpdateSession2.put_UserLocale
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: pluginResource
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tspubplugincom.h
+ - tspubplugincom.h
 api_name:
--	pluginResource
+ - pluginResource
 product: Windows
 targetos: Windows
 req.lib: 

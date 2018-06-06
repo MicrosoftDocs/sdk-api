@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	directmanipulation.h
+ - directmanipulation.h
 api_name:
--	DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+ - DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 product: Windows
 targetos: Windows
 req.lib: 

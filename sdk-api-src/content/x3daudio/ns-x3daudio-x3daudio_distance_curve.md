@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X3DAUDIO_DISTANCE_CURVE, *LPX3DAUDIO_DISTANCE_CURVE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	x3daudio.h
+ - x3daudio.h
 api_name:
--	X3DAUDIO_DISTANCE_CURVE
+ - X3DAUDIO_DISTANCE_CURVE
 product: Windows
 targetos: Windows
 req.lib: 

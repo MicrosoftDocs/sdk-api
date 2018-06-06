@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHNEXTSTEP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	davclnt.dll
+ - davclnt.dll
 api_name:
--	DavCancelConnectionsToServer
+ - DavCancelConnectionsToServer
 product: Windows
 targetos: Windows
 req.lib: Davclnt.lib

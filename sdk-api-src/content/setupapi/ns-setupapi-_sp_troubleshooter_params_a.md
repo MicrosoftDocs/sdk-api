@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_TROUBLESHOOTER_PARAMS_A, *PSP_TROUBLESHOOTER_PARAMS_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_TROUBLESHOOTER_PARAMS
+ - SP_TROUBLESHOOTER_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

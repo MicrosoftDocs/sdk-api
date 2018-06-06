@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_ENCLAVE_CONFIG32, *PIMAGE_ENCLAVE_CONFIG32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winnt.h
+ - winnt.h
 api_name:
--	IMAGE_ENCLAVE_CONFIG32
--	IMAGE_ENCLAVE_CONFIG
+ - IMAGE_ENCLAVE_CONFIG32
+ - IMAGE_ENCLAVE_CONFIG
 product: Windows
 targetos: Windows
 req.lib: 

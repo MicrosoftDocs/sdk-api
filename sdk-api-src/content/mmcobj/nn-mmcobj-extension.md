@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Capicom.dll
+ - Capicom.dll
 api_name:
--	Extension
+ - Extension
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

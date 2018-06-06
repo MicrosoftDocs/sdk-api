@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECO_LATTICE_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	RECO_LATTICE_PROPERTIES
+ - RECO_LATTICE_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

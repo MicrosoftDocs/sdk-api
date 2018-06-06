@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CLASS_MEDIA_CHANGE_CONTEXT
+ - CLASS_MEDIA_CHANGE_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

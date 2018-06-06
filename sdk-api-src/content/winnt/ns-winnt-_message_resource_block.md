@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MESSAGE_RESOURCE_BLOCK, *PMESSAGE_RESOURCE_BLOCK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	MESSAGE_RESOURCE_BLOCK
+ - MESSAGE_RESOURCE_BLOCK
 product: Windows
 targetos: Windows
 req.lib: 

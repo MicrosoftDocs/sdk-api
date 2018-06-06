@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MTP_COMMAND_DATA_IN, *PMTP_COMMAND_DATA_IN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MtpExt.h
+ - MtpExt.h
 api_name:
--	MTP_COMMAND_DATA_IN
+ - MTP_COMMAND_DATA_IN
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILEPATHS_SIGNERINFO_A, *PFILEPATHS_SIGNERINFO_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	FILEPATHS_SIGNERINFO
+ - FILEPATHS_SIGNERINFO
 product: Windows
 targetos: Windows
 req.lib: 

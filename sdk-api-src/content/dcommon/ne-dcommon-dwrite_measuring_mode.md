@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DWRITE_MEASURING_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dcommon.h
+ - dcommon.h
 api_name:
--	DWRITE_MEASURING_MODE
+ - DWRITE_MEASURING_MODE
 product: Windows
 targetos: Windows
 req.lib: Dciman32.lib

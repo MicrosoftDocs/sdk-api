@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIDL_STUB_MESSAGE, *PMIDL_STUB_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcndr.h
+ - Rpcndr.h
 api_name:
--	MIDL_STUB_MESSAGE
+ - MIDL_STUB_MESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

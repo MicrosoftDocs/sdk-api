@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHARE_INFO_0, *PSHARE_INFO_0, *LPSHARE_INFO_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmshare.h
+ - Lmshare.h
 api_name:
--	SHARE_INFO_0
+ - SHARE_INFO_0
 product: Windows
 targetos: Windows
 req.lib: 

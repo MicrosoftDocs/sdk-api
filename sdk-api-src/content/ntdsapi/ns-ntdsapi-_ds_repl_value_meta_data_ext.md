@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPL_VALUE_META_DATA_EXT
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	DS_REPL_VALUE_META_DATA_EXT
+ - DS_REPL_VALUE_META_DATA_EXT
 product: Windows
 targetos: Windows
 req.lib: 

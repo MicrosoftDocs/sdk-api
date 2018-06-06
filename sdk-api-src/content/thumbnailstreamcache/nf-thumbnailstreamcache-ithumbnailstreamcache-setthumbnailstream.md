@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ThumbnailStreamCacheOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	thumbnailstreamcache.h
+ - thumbnailstreamcache.h
 api_name:
--	IThumbnailStreamCache.SetThumbnailStream
+ - IThumbnailStreamCache.SetThumbnailStream
 product: Windows
 targetos: Windows
 req.lib: 

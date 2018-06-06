@@ -29,15 +29,15 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: SnapshotFormatType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	MsTscAx.dll
+ - MsTscAx.dll
 api_name:
--	IRemoteDesktopClient.Actions
--	IRemoteDesktopClient.get_Actions
+ - IRemoteDesktopClient.Actions
+ - IRemoteDesktopClient.get_Actions
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_REDIRECT_PARAM
+ - WNV_REDIRECT_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

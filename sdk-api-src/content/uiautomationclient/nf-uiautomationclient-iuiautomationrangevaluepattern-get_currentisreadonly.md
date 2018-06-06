@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationRangeValuePattern.CurrentIsReadOnly
--	IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
+ - IUIAutomationRangeValuePattern.CurrentIsReadOnly
+ - IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
 product: Windows
 targetos: Windows
 req.lib: 

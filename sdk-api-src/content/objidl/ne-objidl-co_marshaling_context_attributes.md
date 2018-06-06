@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CO_MARSHALING_CONTEXT_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	objidl.h
+ - objidl.h
 api_name:
--	CO_MARSHALING_CONTEXT_ATTRIBUTES
+ - CO_MARSHALING_CONTEXT_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

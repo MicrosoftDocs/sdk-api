@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FEATURE_CHANGE_TIME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	featurestagingapi.h
+ - featurestagingapi.h
 api_name:
--	FEATURE_CHANGE_TIME
+ - FEATURE_CHANGE_TIME
 product: Windows
 targetos: Windows
 req.lib: 

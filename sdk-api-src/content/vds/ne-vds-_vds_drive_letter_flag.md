@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_DRIVE_LETTER_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
+ - Vds.h
 api_name:
--	VDS_DRIVE_LETTER_FLAG
+ - VDS_DRIVE_LETTER_FLAG
 product: Windows
 targetos: Windows
 req.lib: VdmDbg.lib

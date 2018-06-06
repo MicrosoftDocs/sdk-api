@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wldap32.dll
+ - Wldap32.dll
 api_name:
--	ber_first_element
+ - ber_first_element
 product: Windows
 targetos: Windows
 req.lib: Wldap32.lib

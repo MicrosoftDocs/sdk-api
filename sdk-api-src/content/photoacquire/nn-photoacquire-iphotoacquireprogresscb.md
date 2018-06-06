@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_INPUT_STRING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	photoacquire.h
+ - photoacquire.h
 api_name:
--	IPhotoAcquireProgressCB
+ - IPhotoAcquireProgressCB
 product: Windows
 targetos: Windows
 req.lib: PhotoAcquireUID.lib

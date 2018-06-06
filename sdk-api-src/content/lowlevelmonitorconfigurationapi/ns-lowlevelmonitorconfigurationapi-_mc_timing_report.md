@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LowLevelMonitorConfigurationAPI.h
+ - LowLevelMonitorConfigurationAPI.h
 api_name:
--	MC_TIMING_REPORT
+ - MC_TIMING_REPORT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_GROUP_START_SETTING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUS_GROUP_START_SETTING
+ - CLUS_GROUP_START_SETTING
 product: Windows
 targetos: Windows
 req.lib: 

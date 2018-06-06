@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	IPrincipal2.ProcessTokenSidType
--	IPrincipal2.get_ProcessTokenSidType
--	IPrincipal2.put_ProcessTokenSidType
+ - IPrincipal2.ProcessTokenSidType
+ - IPrincipal2.get_ProcessTokenSidType
+ - IPrincipal2.put_ProcessTokenSidType
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

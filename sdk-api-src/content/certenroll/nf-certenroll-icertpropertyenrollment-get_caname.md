@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	ICertPropertyEnrollment.CAName
--	ICertPropertyEnrollment.get_CAName
+ - ICertPropertyEnrollment.CAName
+ - ICertPropertyEnrollment.get_CAName
 product: Windows
 targetos: Windows
 req.lib: 

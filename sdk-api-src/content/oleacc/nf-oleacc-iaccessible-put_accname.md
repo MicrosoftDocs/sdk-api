@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: QACONTROL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Oleacc.dll
--	srchctls.dll
+ - Oleacc.dll
+ - srchctls.dll
 api_name:
--	IAccessible.put_accName
+ - IAccessible.put_accName
 product: Windows
 targetos: Windows
 req.lib: Oleacc.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DFS_NAMESPACE_VERSION_ORIGIN, *PDFS_NAMESPACE_VERSION_ORIGIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LmDfs.h
+ - LmDfs.h
 api_name:
--	DFS_NAMESPACE_VERSION_ORIGIN
+ - DFS_NAMESPACE_VERSION_ORIGIN
 product: Windows
 targetos: Windows
 req.lib: 

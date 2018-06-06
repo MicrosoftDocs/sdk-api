@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnls.h
+ - Winnls.h
 api_name:
--	NLSVERSIONINFO
+ - NLSVERSIONINFO
 product: Windows
 targetos: Windows
 req.lib: 

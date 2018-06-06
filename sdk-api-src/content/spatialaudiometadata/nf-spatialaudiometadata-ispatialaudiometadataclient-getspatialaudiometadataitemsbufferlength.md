@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SpatialAudioMetadataWriterOverflowMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	spatialaudiometadata.h
+ - spatialaudiometadata.h
 api_name:
--	ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength
+ - ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength
 product: Windows
 targetos: Windows
 req.lib: 

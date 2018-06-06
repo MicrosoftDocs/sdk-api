@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mmstream.h
+ - Mmstream.h
 api_name:
--	STREAM_STATE
+ - STREAM_STATE
 product: Windows
 targetos: Windows
 req.lib: 

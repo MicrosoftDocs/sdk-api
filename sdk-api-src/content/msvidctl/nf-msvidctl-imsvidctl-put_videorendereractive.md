@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSVidCtlStateList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msvidctl.h
+ - msvidctl.h
 api_name:
--	IMSVidCtl.put_VideoRendererActive
+ - IMSVidCtl.put_VideoRendererActive
 product: Windows
 targetos: Windows
 req.lib: 

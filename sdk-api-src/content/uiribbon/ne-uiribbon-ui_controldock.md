@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_CONTROLDOCK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Uiribbon.h
+ - Uiribbon.h
 api_name:
--	UI_CONTROLDOCK
+ - UI_CONTROLDOCK
 product: Windows
 targetos: Windows
 req.lib: 

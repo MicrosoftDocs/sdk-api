@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTUI_WIZ_IMPORT_SRC_INFO, *PCRYPTUI_WIZ_IMPORT_SRC_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Cryptxml.h
+ - Cryptxml.h
 api_name:
--	PFN_CRYPT_XML_DATA_PROVIDER_READ
+ - PFN_CRYPT_XML_DATA_PROVIDER_READ
 product: Windows
 targetos: Windows
 req.lib: 

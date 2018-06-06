@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	dpa_dsa.h
+ - dpa_dsa.h
 api_name:
--	PFNDPAMERGE
+ - PFNDPAMERGE
 product: Windows
 targetos: Windows
 req.lib: 

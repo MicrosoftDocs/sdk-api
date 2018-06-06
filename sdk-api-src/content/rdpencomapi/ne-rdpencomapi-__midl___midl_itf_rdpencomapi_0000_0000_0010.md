@@ -29,14 +29,14 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPSRAPI_KBD_CODE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	RdpEncomAPI.tlb
+ - RdpEncomAPI.tlb
 api_name:
--	RDPSRAPI_KBD_CODE_TYPE
+ - RDPSRAPI_KBD_CODE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

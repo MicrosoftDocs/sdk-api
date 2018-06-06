@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdateDownloader.Priority
--	IUpdateDownloader.get_Priority
--	IUpdateDownloader.put_Priority
+ - IUpdateDownloader.Priority
+ - IUpdateDownloader.get_Priority
+ - IUpdateDownloader.put_Priority
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

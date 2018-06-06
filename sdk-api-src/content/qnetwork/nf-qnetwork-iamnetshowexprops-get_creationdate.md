@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMExtendedSeekingCapabilities
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Qnetwork.h
+ - Qnetwork.h
 api_name:
--	IAMNetShowExProps.get_CreationDate
+ - IAMNetShowExProps.get_CreationDate
 product: Windows
 targetos: Windows
 req.lib: 

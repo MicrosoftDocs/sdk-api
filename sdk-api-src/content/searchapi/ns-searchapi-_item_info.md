@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ITEM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	ITEM_INFO
+ - ITEM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

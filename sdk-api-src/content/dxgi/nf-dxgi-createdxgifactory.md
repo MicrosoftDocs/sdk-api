@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SWAP_EFFECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	DXGI.dll
+ - DXGI.dll
 api_name:
--	CreateDXGIFactory
+ - CreateDXGIFactory
 product: Windows
 targetos: Windows
 req.lib: DXGI.lib

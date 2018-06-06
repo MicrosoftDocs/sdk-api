@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Imagehlp.h
+ - Imagehlp.h
 api_name:
--	StatusRoutine
+ - StatusRoutine
 product: Windows
 targetos: Windows
 req.lib: 

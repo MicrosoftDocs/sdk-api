@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PLAYTO_SOURCE_CREATEFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfsharingengine.h
+ - mfsharingengine.h
 api_name:
--	IMFImageSharingEngine.GetDevice
+ - IMFImageSharingEngine.GetDevice
 product: Windows
 targetos: Windows
 req.lib: 

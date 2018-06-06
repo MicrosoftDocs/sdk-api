@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIAVIDEO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	OleAut32.dll
+ - OleAut32.dll
 api_name:
--	LPSAFEARRAY_UserMarshal64
+ - LPSAFEARRAY_UserMarshal64
 product: Windows
 targetos: Windows
 req.lib: OleAut32.lib

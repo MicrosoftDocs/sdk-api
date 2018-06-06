@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASF_SELECTION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcontainer.h
+ - wmcontainer.h
 api_name:
--	ASF_SELECTION_STATUS
+ - ASF_SELECTION_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

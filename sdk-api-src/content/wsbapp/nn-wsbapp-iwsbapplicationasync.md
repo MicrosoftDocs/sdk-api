@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WsbApp.h
+ - WsbApp.h
 api_name:
--	IWsbApplicationAsync
+ - IWsbApplicationAsync
 product: Windows
 targetos: Windows
 req.lib: 

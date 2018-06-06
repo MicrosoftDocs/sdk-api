@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WbemChangeFlagEnum
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemdisp.h
+ - Wbemdisp.h
 api_name:
--	WbemChangeFlagEnum
+ - WbemChangeFlagEnum
 product: Windows
 targetos: Windows
 req.lib: 

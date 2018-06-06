@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NTMS_CHANGERTYPEINFORMATIONW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntmsapi.h
+ - Ntmsapi.h
 api_name:
--	NTMS_CHANGERTYPEINFORMATION
+ - NTMS_CHANGERTYPEINFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAPO_PROCESS_BUFFER_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xapo.h
+ - xapo.h
 api_name:
--	XAPO_PROCESS_BUFFER_PARAMETERS
+ - XAPO_PROCESS_BUFFER_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	rometadataapi.h
+ - rometadataapi.h
 api_name:
--	IMetaDataImport.GetCustomAttributeByName
+ - IMetaDataImport.GetCustomAttributeByName
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPServices_StreamState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmsbuffer.h
+ - Wmsbuffer.h
 api_name:
--	IWMSBufferAllocator.AllocatePageSizeBuffer
+ - IWMSBufferAllocator.AllocatePageSizeBuffer
 product: Windows
 targetos: Windows
 req.lib: 

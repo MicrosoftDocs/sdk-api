@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_RESOLVE_MATCH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdTypes.h
+ - WsdTypes.h
 api_name:
--	WSD_RESOLVE_MATCH
+ - WSD_RESOLVE_MATCH
 product: Windows
 targetos: Windows
 req.lib: 

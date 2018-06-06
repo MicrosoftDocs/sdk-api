@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPSEC_KEY_MANAGER_CALLBACKS0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fwpmu.h
+ - fwpmu.h
 api_name:
--	IPSEC_KEY_MANAGER_CALLBACKS0
+ - IPSEC_KEY_MANAGER_CALLBACKS0
 product: Windows
 targetos: Windows
 req.lib: 

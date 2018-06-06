@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TPMVSCMGR_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Traffic.dll
+ - Traffic.dll
 api_name:
--	TcOpenInterface
--	TcOpenInterfaceA
--	TcOpenInterfaceW
+ - TcOpenInterface
+ - TcOpenInterfaceA
+ - TcOpenInterfaceW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSManSessionOption
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WsmSvc.dll
+ - WsmSvc.dll
 api_name:
--	WSManCloseOperation
+ - WSManCloseOperation
 product: Windows
 targetos: Windows
 req.lib: WsmSvc.lib

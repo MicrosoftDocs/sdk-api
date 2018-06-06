@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MINIDUMP_MEMORY_LIST, *PMINIDUMP_MEMORY_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	minidumpapiset.h
+ - minidumpapiset.h
 api_name:
--	MINIDUMP_MEMORY_LIST
+ - MINIDUMP_MEMORY_LIST
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_CLIENT_INFO, *PSECPKG_CLIENT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_CLIENT_INFO
+ - SECPKG_CLIENT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

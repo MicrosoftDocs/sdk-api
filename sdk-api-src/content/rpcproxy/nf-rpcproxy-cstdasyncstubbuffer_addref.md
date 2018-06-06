@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NDR_USER_MARSHAL_INFO_LEVEL1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ole32.dll
--	API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
--	COMBase.dll
+ - ole32.dll
+ - API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+ - COMBase.dll
 api_name:
--	CStdAsyncStubBuffer_AddRef
+ - CStdAsyncStubBuffer_AddRef
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certcli.dll
+ - Certcli.dll
 api_name:
--	ICertServerExit.EnumerateExtensions
--	CCertServerExit.EnumerateExtensions
+ - ICertServerExit.EnumerateExtensions
+ - CCertServerExit.EnumerateExtensions
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

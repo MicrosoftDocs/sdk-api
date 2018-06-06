@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmprealestate.h
+ - wmprealestate.h
 api_name:
--	IWMPAudioRenderConfig
--	IWMPAudioRenderConfig.get_audioOutputDevice
--	IWMPAudioRenderConfig.put_audioOutputDevice
+ - IWMPAudioRenderConfig
+ - IWMPAudioRenderConfig.get_audioOutputDevice
+ - IWMPAudioRenderConfig.put_audioOutputDevice
 product: Windows
 targetos: Windows
 req.lib: 

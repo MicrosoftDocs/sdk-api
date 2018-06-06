@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFP_STOP_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfplay.h
+ - mfplay.h
 api_name:
--	MFP_STOP_EVENT
+ - MFP_STOP_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

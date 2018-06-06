@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NOTIFICATION_USER_INPUT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Npapi.h
+ - Npapi.h
 api_name:
--	NPAddConnection
+ - NPAddConnection
 product: Windows
 targetos: Windows
 req.lib: 

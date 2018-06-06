@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTCATSTORE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	MSChapSrvChangePassword2
+ - MSChapSrvChangePassword2
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECO_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Relogger.h
+ - Relogger.h
 api_name:
--	ITraceRelogger.AddRealtimeTraceStream
+ - ITraceRelogger.AddRealtimeTraceStream
 product: Windows
 targetos: Windows
 req.lib: 

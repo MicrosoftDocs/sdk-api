@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_BSS_LIST, *PWLAN_BSS_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_BSS_LIST
+ - WLAN_BSS_LIST
 product: Windows
 targetos: Windows
 req.lib: 

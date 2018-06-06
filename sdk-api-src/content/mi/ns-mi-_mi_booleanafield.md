@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MI_BooleanAField
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mi.h
+ - Mi.h
 api_name:
--	MI_BooleanAField
+ - MI_BooleanAField
 product: Windows
 targetos: Windows
 req.lib: 

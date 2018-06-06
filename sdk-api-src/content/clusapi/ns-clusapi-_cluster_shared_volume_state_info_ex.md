@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+ - CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 product: Windows
 targetos: Windows
 req.lib: 

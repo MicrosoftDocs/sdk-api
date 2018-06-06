@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CATEGORYINFO, *LPCATEGORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	API-MS-Win-Core-Com-l2-1-1.dll
--	coml2.dll
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
 api_name:
--	FmtIdToPropStgName
+ - FmtIdToPropStgName
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

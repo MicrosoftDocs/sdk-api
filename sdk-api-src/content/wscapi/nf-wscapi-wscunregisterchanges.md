@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wscapi.dll
+ - Wscapi.dll
 api_name:
--	WscUnRegisterChanges
+ - WscUnRegisterChanges
 product: Windows
 targetos: Windows
 req.lib: Wscapi.lib

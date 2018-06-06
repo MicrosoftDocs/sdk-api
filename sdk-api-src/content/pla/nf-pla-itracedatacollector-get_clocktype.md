@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	ITraceDataCollector.ClockType
--	ITraceDataCollector.get_ClockType
--	ITraceDataCollector.put_ClockType
+ - ITraceDataCollector.ClockType
+ - ITraceDataCollector.get_ClockType
+ - ITraceDataCollector.put_ClockType
 product: Windows
 targetos: Windows
 req.lib: 

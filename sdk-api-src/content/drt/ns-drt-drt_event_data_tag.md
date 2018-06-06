@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_EVENT_DATA, *PDRT_EVENT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	drt.h
+ - drt.h
 api_name:
--	DRT_EVENT_DATA
+ - DRT_EVENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVER_INFO_1544, *PSERVER_INFO_1544, *LPSERVER_INFO_1544
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmserver.h
+ - Lmserver.h
 api_name:
--	SERVER_INFO_1544
+ - SERVER_INFO_1544
 product: Windows
 targetos: Windows
 req.lib: 

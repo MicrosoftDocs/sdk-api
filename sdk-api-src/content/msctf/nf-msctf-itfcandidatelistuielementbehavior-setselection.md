@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_DA_ATTR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msctf.dll
+ - Msctf.dll
 api_name:
--	ITfCandidateListUIElementBehavior.SetSelection
+ - ITfCandidateListUIElementBehavior.SetSelection
 product: Windows
 targetos: Windows
 req.lib: 

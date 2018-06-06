@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYSTEM_POWER_STATUS, *LPSYSTEM_POWER_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	SYSTEM_POWER_STATUS
+ - SYSTEM_POWER_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENTSECURITYOPERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evntcons.h
+ - Evntcons.h
 api_name:
--	EVENTSECURITYOPERATION
+ - EVENTSECURITYOPERATION
 product: Windows
 targetos: Windows
 req.lib: 

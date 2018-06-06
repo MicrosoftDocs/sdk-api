@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VideoControlFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	VideoControlFlags
+ - VideoControlFlags
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

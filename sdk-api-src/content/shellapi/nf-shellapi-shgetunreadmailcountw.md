@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SHSTOCKICONID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	SHGetUnreadMailCount
--	SHGetUnreadMailCountW
+ - SHGetUnreadMailCount
+ - SHGetUnreadMailCountW
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

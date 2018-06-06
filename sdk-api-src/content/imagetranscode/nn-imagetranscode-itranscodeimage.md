@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Photometadatahandler.dll
+ - Photometadatahandler.dll
 api_name:
--	ITranscodeImage
+ - ITranscodeImage
 product: Windows
 targetos: Windows
 req.lib: 

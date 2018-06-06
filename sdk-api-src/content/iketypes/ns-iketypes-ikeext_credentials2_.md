@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_CREDENTIALS2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	iketypes.h
+ - iketypes.h
 api_name:
--	IKEEXT_CREDENTIALS2
+ - IKEEXT_CREDENTIALS2
 product: Windows
 targetos: Windows
 req.lib: 

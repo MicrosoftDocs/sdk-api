@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VARKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	oaidl.h
+ - oaidl.h
 api_name:
--	IDispatch.GetTypeInfoCount
--	IAccessible.GetTypeInfoCount
+ - IDispatch.GetTypeInfoCount
+ - IAccessible.GetTypeInfoCount
 product: Windows
 targetos: Windows
 req.lib: 

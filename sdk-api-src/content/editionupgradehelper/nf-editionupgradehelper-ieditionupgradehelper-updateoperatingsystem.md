@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	editionupgradehelper.h
+ - editionupgradehelper.h
 api_name:
--	IEditionUpgradeHelper.UpdateOperatingSystem
+ - IEditionUpgradeHelper.UpdateOperatingSystem
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: REGCLS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	combase.dll
--	API-MS-Win-Core-COM-l1-1-0.dll
--	API-MS-Win-Core-COM-l1-1-1.dll
+ - combase.dll
+ - API-MS-Win-Core-COM-l1-1-0.dll
+ - API-MS-Win-Core-COM-l1-1-1.dll
 api_name:
--	CoCreateInstanceFromApp
+ - CoCreateInstanceFromApp
 product: Windows
 targetos: Windows
 req.lib: Combase.lib

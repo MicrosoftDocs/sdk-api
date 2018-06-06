@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TsLayoutCode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Textstor.h
+ - Textstor.h
 api_name:
--	TsLayoutCode
+ - TsLayoutCode
 product: Windows
 targetos: Windows
 req.lib: 

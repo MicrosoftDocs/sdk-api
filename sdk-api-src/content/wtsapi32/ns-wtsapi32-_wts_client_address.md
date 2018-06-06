@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTS_CLIENT_ADDRESS
+ - WTS_CLIENT_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

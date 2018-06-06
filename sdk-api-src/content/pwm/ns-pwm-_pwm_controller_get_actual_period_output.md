@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pwm.h
+ - Pwm.h
 api_name:
--	PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT
+ - PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
--	API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
 api_name:
--	_lwrite
+ - _lwrite
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

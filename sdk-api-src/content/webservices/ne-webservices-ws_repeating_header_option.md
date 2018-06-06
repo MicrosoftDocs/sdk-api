@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_REPEATING_HEADER_OPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_REPEATING_HEADER_OPTION
+ - WS_REPEATING_HEADER_OPTION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	inked.h
+ - inked.h
 api_name:
--	IInkEdit.SelCharOffset
--	IInkEdit.get_SelCharOffset
--	IInkEdit.put_SelCharOffset
--	InkEdit.get_SelCharOffset
--	InkEdit.put_SelCharOffset
+ - IInkEdit.SelCharOffset
+ - IInkEdit.get_SelCharOffset
+ - IInkEdit.put_SelCharOffset
+ - InkEdit.get_SelCharOffset
+ - InkEdit.put_SelCharOffset
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3DX11_SCAN_DIRECTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3dcsx.h
+ - d3dcsx.h
 api_name:
--	D3DX11_SCAN_DIRECTION
+ - D3DX11_SCAN_DIRECTION
 product: Windows
 targetos: Windows
 req.lib: 

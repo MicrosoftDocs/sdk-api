@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: VMEMHEAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Dmoguids.lib
--	Dmoguids.dll
--	Msdmo.lib
--	Msdmo.dll
+ - Dmoguids.lib
+ - Dmoguids.dll
+ - Msdmo.lib
+ - Msdmo.dll
 api_name:
--	IMediaObjectImpl.OutputType
+ - IMediaObjectImpl.OutputType
 product: Windows
 targetos: Windows
 req.lib: Dmoguids.lib; Msdmo.lib

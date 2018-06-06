@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_BOUNDARYROW, *PMIB_BOUNDARYROW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_BOUNDARYROW
+ - MIB_BOUNDARYROW
 product: Windows
 targetos: Windows
 req.lib: 

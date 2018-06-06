@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVISTDINDEX_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	aviriff.h
+ - aviriff.h
 api_name:
--	AVISTDINDEX_ENTRY
+ - AVISTDINDEX_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

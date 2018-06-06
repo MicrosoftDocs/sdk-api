@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_WRITER_STATE
+ - VSS_WRITER_STATE
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

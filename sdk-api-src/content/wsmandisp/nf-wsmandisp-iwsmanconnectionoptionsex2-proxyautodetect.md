@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSManProxyAuthenticationFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WSManDisp.h
+ - WSManDisp.h
 api_name:
--	IWSManConnectionOptionsEx2.ProxyAutoDetect
+ - IWSManConnectionOptionsEx2.ProxyAutoDetect
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_DISPLAY_GROUP, *PNET_DISPLAY_GROUP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	NET_DISPLAY_GROUP
+ - NET_DISPLAY_GROUP
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RADIUS_VSA_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AuthIf.h
+ - AuthIf.h
 api_name:
--	RADIUS_VSA_FORMAT
+ - RADIUS_VSA_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

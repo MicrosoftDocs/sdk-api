@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winsnmp.h
+ - Winsnmp.h
 api_name:
--	SNMPAPI_CALLBACK
+ - SNMPAPI_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

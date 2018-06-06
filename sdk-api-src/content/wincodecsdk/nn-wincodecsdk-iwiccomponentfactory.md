@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICPersistOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Windowscodecs.dll
+ - Windowscodecs.dll
 api_name:
--	IWICComponentFactory
+ - IWICComponentFactory
 product: Windows
 targetos: Windows
 req.lib: Windowscodecs.lib

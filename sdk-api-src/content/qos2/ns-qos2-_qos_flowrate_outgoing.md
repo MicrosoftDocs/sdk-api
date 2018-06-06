@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_FLOWRATE_OUTGOING, *PQOS_FLOWRATE_OUTGOING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qos2.h
+ - Qos2.h
 api_name:
--	QOS_FLOWRATE_OUTGOING
+ - QOS_FLOWRATE_OUTGOING
 product: Windows
 targetos: Windows
 req.lib: 

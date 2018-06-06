@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Richedit.h
+ - Richedit.h
 api_name:
--	EditWordBreakProcEx
+ - EditWordBreakProcEx
 product: Windows
 targetos: Windows
 req.lib: 

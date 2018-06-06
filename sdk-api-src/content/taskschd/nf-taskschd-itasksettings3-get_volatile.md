@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Taskschd.dll
+ - Taskschd.dll
 api_name:
--	ITaskSettings3.Volatile
--	ITaskSettings3.get_Volatile
--	ITaskSettings3.put_Volatile
+ - ITaskSettings3.Volatile
+ - ITaskSettings3.get_Volatile
+ - ITaskSettings3.put_Volatile
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

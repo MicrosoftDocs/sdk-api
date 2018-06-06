@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	bthledef.h
+ - bthledef.h
 api_name:
--	BluetoothGattEventCallback
+ - BluetoothGattEventCallback
 product: Windows
 targetos: Windows
 req.lib: 

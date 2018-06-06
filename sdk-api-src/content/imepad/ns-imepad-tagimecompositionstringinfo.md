@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imepad.h
+ - Imepad.h
 api_name:
--	IMECOMPOSITIONSTRINGINFO
+ - IMECOMPOSITIONSTRINGINFO
 product: Windows
 targetos: Windows
 req.lib: 

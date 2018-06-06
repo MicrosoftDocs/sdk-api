@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMPRESS_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	cabinet.dll
+ - cabinet.dll
 api_name:
--	CreateCompressor
+ - CreateCompressor
 product: Windows
 targetos: Windows
 req.lib: Cabinet.lib

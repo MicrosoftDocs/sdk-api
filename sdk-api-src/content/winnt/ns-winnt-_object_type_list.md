@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	OBJECT_TYPE_LIST
+ - OBJECT_TYPE_LIST
 product: Windows
 targetos: Windows
 req.lib: 

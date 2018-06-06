@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFMEDIASOURCE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFMEDIASOURCE_CHARACTERISTICS
+ - MFMEDIASOURCE_CHARACTERISTICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STRUCTURED_QUERY_MULTIOPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Structuredquery.h
+ - Structuredquery.h
 api_name:
--	STRUCTURED_QUERY_MULTIOPTION
+ - STRUCTURED_QUERY_MULTIOPTION
 product: Windows
 targetos: Windows
 req.lib: 

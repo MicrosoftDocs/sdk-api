@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_CLIENT_INFO_VQ, *LPDHCP_CLIENT_INFO_VQ
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_CLIENT_INFO_VQ
+ - DHCP_CLIENT_INFO_VQ
 product: Windows
 targetos: Windows
 req.lib: 

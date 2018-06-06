@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	BCRYPT_INTERFACE_VERSION
+ - BCRYPT_INTERFACE_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SIP_SUBJECTINFO, *LPSIP_SUBJECTINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	SIP_SUBJECTINFO
+ - SIP_SUBJECTINFO
 product: Windows
 targetos: Windows
 req.lib: 

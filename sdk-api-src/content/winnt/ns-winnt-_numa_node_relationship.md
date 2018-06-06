@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NUMA_NODE_RELATIONSHIP, *PNUMA_NODE_RELATIONSHIP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	NUMA_NODE_RELATIONSHIP
+ - NUMA_NODE_RELATIONSHIP
 product: Windows
 targetos: Windows
 req.lib: 

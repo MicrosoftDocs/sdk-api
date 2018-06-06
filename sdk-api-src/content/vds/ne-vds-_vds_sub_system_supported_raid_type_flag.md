@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG, *PVDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
+ - VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
 product: Windows
 targetos: Windows
 req.lib: VdmDbg.lib

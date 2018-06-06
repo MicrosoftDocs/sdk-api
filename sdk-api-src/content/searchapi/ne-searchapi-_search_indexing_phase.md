@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEARCH_INDEXING_PHASE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	SEARCH_INDEXING_PHASE
+ - SEARCH_INDEXING_PHASE
 product: Windows
 targetos: Windows
 req.lib: 

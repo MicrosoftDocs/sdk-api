@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_VIEW_INSTANCE_LOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12.h
+ - d3d12.h
 api_name:
--	D3D12_VIEW_INSTANCE_LOCATION
+ - D3D12_VIEW_INSTANCE_LOCATION
 product: Windows
 targetos: Windows
 req.lib: 

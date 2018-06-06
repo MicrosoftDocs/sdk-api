@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SBE_PIN_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sbe.h
+ - Sbe.h
 api_name:
--	SBE_PIN_DATA
+ - SBE_PIN_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rpcrt4.dll
+ - Rpcrt4.dll
 api_name:
--	NdrComplexArrayUnmarshall
+ - NdrComplexArrayUnmarshall
 product: Windows
 targetos: Windows
 req.lib: Rpcrt4.lib

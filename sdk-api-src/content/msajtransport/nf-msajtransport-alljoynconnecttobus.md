@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	MSAJApi.dll
+ - MSAJApi.dll
 api_name:
--	AllJoynConnectToBus
+ - AllJoynConnectToBus
 product: Windows
 targetos: Windows
 req.lib: MSAJApi.lib

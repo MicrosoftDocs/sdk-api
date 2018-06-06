@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
--	PathQuoteSpaces
--	PathQuoteSpacesA
--	PathQuoteSpacesW
+ - PathQuoteSpaces
+ - PathQuoteSpacesA
+ - PathQuoteSpacesW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_CSV_VOLUME_NAME, *PCLUS_CSV_VOLUME_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_CSV_VOLUME_NAME
+ - CLUS_CSV_VOLUME_NAME
 product: Windows
 targetos: Windows
 req.lib: 

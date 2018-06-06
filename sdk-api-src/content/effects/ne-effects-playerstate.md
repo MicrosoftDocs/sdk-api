@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	effects.h
+ - effects.h
 api_name:
--	PlayerState
+ - PlayerState
 product: Windows
 targetos: Windows
 req.lib: Efswrt.h

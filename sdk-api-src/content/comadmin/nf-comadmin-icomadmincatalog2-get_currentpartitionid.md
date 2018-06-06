@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: COMAdminTxIsolationLevelOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ComAdmin.h
+ - ComAdmin.h
 api_name:
--	ICOMAdminCatalog2.CurrentPartitionID
--	ICOMAdminCatalog2.get_CurrentPartitionID
+ - ICOMAdminCatalog2.CurrentPartitionID
+ - ICOMAdminCatalog2.get_CurrentPartitionID
 product: Windows
 targetos: Windows
 req.lib: 

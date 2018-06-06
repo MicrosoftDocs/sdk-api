@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_VERTEX_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	d2d1.dll
+ - d2d1.dll
 api_name:
--	ValueSetter
+ - ValueSetter
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

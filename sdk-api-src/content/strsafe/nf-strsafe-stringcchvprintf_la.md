@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AM_DVD_RENDERSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	StrSafe.h
+ - StrSafe.h
 api_name:
--	StringCchVPrintf_l
--	StringCchVPrintf_lA
--	StringCchVPrintf_lW
+ - StringCchVPrintf_l
+ - StringCchVPrintf_lA
+ - StringCchVPrintf_lW
 product: Windows
 targetos: Windows
 req.lib: 

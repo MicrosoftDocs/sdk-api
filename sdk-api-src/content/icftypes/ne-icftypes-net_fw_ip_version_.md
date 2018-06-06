@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_FW_IP_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Icftypes.h
+ - Icftypes.h
 api_name:
--	NET_FW_IP_VERSION
+ - NET_FW_IP_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

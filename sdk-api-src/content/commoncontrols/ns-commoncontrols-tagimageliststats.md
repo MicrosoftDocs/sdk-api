@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGELISTSTATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commoncontrols.h
+ - Commoncontrols.h
 api_name:
--	IMAGELISTSTATS
+ - IMAGELISTSTATS
 product: Windows
 targetos: Windows
 req.lib: 

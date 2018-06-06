@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	FhSvcCtl.lib
--	FhSvcCtl.dll
+ - FhSvcCtl.lib
+ - FhSvcCtl.dll
 api_name:
--	FhServiceOpenPipe
+ - FhServiceOpenPipe
 product: Windows
 targetos: Windows
 req.lib: FhSvcCtl.lib

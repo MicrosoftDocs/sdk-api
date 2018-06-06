@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVA2_SampleFormat
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxva2api.h
+ - dxva2api.h
 api_name:
--	DXVA2_SampleFormat
+ - DXVA2_SampleFormat
 product: Windows
 targetos: Windows
 req.lib: 

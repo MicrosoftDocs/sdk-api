@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_ACTION, *PWEB_SOCKET_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Websocket.h
+ - Websocket.h
 api_name:
--	WEB_SOCKET_ACTION
+ - WEB_SOCKET_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

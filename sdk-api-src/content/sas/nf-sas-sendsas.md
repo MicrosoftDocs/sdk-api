@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTWQ_WORKQUEUE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Sas.dll
+ - Sas.dll
 api_name:
--	SendSAS
+ - SendSAS
 product: Windows
 targetos: Windows
 req.lib: Sas.lib

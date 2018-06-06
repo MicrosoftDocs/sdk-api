@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ICONINFOEXW, *PICONINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	ICONINFOEX
--	ICONINFOEXA
--	ICONINFOEXW
+ - ICONINFOEX
+ - ICONINFOEXA
+ - ICONINFOEXW
 product: Windows
 targetos: Windows
 req.lib: 

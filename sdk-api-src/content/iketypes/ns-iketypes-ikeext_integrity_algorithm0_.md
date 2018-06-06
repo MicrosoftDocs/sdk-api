@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_INTEGRITY_ALGORITHM0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_INTEGRITY_ALGORITHM0
+ - IKEEXT_INTEGRITY_ALGORITHM0
 product: Windows
 targetos: Windows
 req.lib: 

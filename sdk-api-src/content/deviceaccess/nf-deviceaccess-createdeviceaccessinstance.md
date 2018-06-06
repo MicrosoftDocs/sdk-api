@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEOMEMORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	deviceaccess.dll
+ - deviceaccess.dll
 api_name:
--	CreateDeviceAccessInstance
+ - CreateDeviceAccessInstance
 product: Windows
 targetos: Windows
 req.lib: Deviceaccess.lib

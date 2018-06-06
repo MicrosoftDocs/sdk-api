@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfsmgmtw32.h
+ - Clfsmgmtw32.h
 api_name:
--	LOG_MANAGEMENT_CALLBACKS
+ - LOG_MANAGEMENT_CALLBACKS
 product: Windows
 targetos: Windows
 req.lib: 

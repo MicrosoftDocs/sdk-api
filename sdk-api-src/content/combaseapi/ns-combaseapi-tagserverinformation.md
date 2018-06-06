@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ServerInformation, *PServerInformation
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	combaseapi.h
+ - combaseapi.h
 api_name:
--	ServerInformation
+ - ServerInformation
 product: Windows
 targetos: Windows
 req.lib: 

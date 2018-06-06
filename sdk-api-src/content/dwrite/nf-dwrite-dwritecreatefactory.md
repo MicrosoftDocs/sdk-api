@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dwrite.dll
+ - dwrite.dll
 api_name:
--	DWriteCreateFactory
+ - DWriteCreateFactory
 product: Windows
 targetos: Windows
 req.lib: Dwrite.lib

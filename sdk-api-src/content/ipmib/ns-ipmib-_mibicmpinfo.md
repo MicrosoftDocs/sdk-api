@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIBICMPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipmib.h
--	Iprtrmib.h
+ - Ipmib.h
+ - Iprtrmib.h
 api_name:
--	MIBICMPINFO
+ - MIBICMPINFO
 product: Windows
 targetos: Windows
 req.lib: 

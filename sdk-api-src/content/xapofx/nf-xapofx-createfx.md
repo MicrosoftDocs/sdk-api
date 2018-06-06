@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Windows.Media.Audio.dll
+ - Windows.Media.Audio.dll
 api_name:
--	CreateFX
+ - CreateFX
 product: Windows
 targetos: Windows
 req.lib: XAudio.lib

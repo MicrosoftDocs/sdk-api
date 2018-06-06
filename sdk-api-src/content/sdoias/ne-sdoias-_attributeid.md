@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: ATTRIBUTEID
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	ATTRIBUTEID
+ - ATTRIBUTEID
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

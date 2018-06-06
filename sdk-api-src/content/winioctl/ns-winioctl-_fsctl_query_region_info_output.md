@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FSCTL_QUERY_REGION_INFO_OUTPUT, *PFSCTL_QUERY_REGION_INFO_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoctl.h
+ - WinIoctl.h
 api_name:
--	FSCTL_QUERY_REGION_INFO_OUTPUT
+ - FSCTL_QUERY_REGION_INFO_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

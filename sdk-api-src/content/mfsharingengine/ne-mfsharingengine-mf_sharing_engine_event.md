@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_SHARING_ENGINE_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfsharingengine.h
+ - mfsharingengine.h
 api_name:
--	MF_SHARING_ENGINE_EVENT
+ - MF_SHARING_ENGINE_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

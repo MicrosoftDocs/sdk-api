@@ -29,15 +29,15 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPISharingSession2.FrameBuffer
--	IRDPSRAPISharingSession2.get_FrameBuffer
+ - IRDPSRAPISharingSession2.FrameBuffer
+ - IRDPSRAPISharingSession2.get_FrameBuffer
 product: Windows
 targetos: Windows
 req.lib: 

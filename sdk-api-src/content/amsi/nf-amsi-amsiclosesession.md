@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMSI_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	amsi.dll
+ - amsi.dll
 api_name:
--	AmsiCloseSession
+ - AmsiCloseSession
 product: Windows
 targetos: Windows
 req.lib: Amsi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SdpQueryUuid
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bthsdpdef.h
+ - Bthsdpdef.h
 api_name:
--	SdpQueryUuid
+ - SdpQueryUuid
 product: Windows
 targetos: Windows
 req.lib: 

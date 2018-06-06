@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdate4.PerUser
--	IUpdate4.get_PerUser
+ - IUpdate4.PerUser
+ - IUpdate4.get_PerUser
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

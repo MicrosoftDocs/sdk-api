@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSC_SECURITY_PROVIDER_HEALTH, *PWSC_SECURITY_PROVIDER_HEALTH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wsdapi.dll
+ - Wsdapi.dll
 api_name:
--	IWSDInboundAttachment.Read
+ - IWSDInboundAttachment.Read
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	PortableDeviceGUIDs.lib
--	PortableDeviceGUIDs.dll
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
 api_name:
--	IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs
+ - IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs
 product: Windows
 targetos: Windows
 req.lib: PortableDeviceGUIDs.lib

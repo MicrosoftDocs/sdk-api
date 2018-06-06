@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	GRADIENT_RECT
+ - GRADIENT_RECT
 product: Windows
 targetos: Windows
 req.lib: 

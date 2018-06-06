@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_OPAQUE_QUERY, *PMIB_OPAQUE_QUERY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_OPAQUE_QUERY
+ - MIB_OPAQUE_QUERY
 product: Windows
 targetos: Windows
 req.lib: 

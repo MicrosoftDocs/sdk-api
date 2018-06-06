@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	POLICY_AUDIT_SID_ARRAY
+ - POLICY_AUDIT_SID_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Loadperf.dll
+ - Loadperf.dll
 api_name:
--	UnloadPerfCounterTextStrings
--	UnloadPerfCounterTextStringsA
--	UnloadPerfCounterTextStringsW
+ - UnloadPerfCounterTextStrings
+ - UnloadPerfCounterTextStringsA
+ - UnloadPerfCounterTextStringsW
 product: Windows
 targetos: Windows
 req.lib: Loadperf.lib

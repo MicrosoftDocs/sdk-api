@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIPASTEFLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	IOleUILinkContainer
+ - IOleUILinkContainer
 product: Windows
 targetos: Windows
 req.lib: OleDlg.lib

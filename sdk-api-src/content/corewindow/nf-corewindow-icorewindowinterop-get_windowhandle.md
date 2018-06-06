@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WMPContextMenuInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	corewindow.h
+ - corewindow.h
 api_name:
--	ICoreWindowInterop.WindowHandle
--	ICoreWindowInterop.get_WindowHandle
+ - ICoreWindowInterop.WindowHandle
+ - ICoreWindowInterop.get_WindowHandle
 product: Windows
 targetos: Windows
 req.lib: 

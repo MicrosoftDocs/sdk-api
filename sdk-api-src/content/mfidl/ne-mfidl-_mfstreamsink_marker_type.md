@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFSTREAMSINK_MARKER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFSTREAMSINK_MARKER_TYPE
+ - MFSTREAMSINK_MARKER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

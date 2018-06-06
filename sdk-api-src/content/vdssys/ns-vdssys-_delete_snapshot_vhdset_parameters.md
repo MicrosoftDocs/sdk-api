@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DELETE_SNAPSHOT_VHDSET_PARAMETERS, *PDELETE_SNAPSHOT_VHDSET_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	DELETE_SNAPSHOT_VHDSET_PARAMETERS
+ - DELETE_SNAPSHOT_VHDSET_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

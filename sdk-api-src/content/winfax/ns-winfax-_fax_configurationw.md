@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_CONFIGURATIONW, *PFAX_CONFIGURATIONW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_CONFIGURATION
--	FAX_CONFIGURATIONA
--	FAX_CONFIGURATIONW
+ - FAX_CONFIGURATION
+ - FAX_CONFIGURATIONA
+ - FAX_CONFIGURATIONW
 product: Windows
 targetos: Windows
 req.lib: 

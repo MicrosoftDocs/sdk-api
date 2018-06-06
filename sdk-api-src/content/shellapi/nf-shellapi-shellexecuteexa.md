@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: SHSTOCKICONID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	Ext-MS-Win-shell-shell32-l1-2-0.dll
--	ext-ms-win-shell-shell32-l1-2-1.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
--	windows.storage.dll
+ - Shell32.dll
+ - Ext-MS-Win-shell-shell32-l1-2-0.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - windows.storage.dll
 api_name:
--	ShellExecuteEx
--	ShellExecuteExA
--	ShellExecuteExW
+ - ShellExecuteEx
+ - ShellExecuteExA
+ - ShellExecuteExW
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ALT_BREAKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	ALT_BREAKS
+ - ALT_BREAKS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONDITION_CREATION_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Structuredquery.h
+ - Structuredquery.h
 api_name:
--	CONDITION_CREATION_OPTIONS
+ - CONDITION_CREATION_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

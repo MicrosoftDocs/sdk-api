@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_SESSION_INFO_1A, *PWTS_SESSION_INFO_1A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTS_SESSION_INFO_1
--	WTS_SESSION_INFO_1A
--	WTS_SESSION_INFO_1W
+ - WTS_SESSION_INFO_1
+ - WTS_SESSION_INFO_1A
+ - WTS_SESSION_INFO_1W
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_COUNTRY_OR_REGION_STRING_LIST, *PWLAN_COUNTRY_OR_REGION_STRING_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_COUNTRY_OR_REGION_STRING_LIST
+ - WLAN_COUNTRY_OR_REGION_STRING_LIST
 product: Windows
 targetos: Windows
 req.lib: 

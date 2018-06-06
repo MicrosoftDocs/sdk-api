@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSESSION_NOTIFICATION, *PWTSSESSION_NOTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	WTSSESSION_NOTIFICATION
+ - WTSSESSION_NOTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEV2_PROJECTION_INFO, *PIKEV2_PROJECTION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	IKEV2_PROJECTION_INFO
+ - IKEV2_PROJECTION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

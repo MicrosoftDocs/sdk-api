@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_RELATIVE_BUTTON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IDvdControl2.PlayPrevChapter
+ - IDvdControl2.PlayPrevChapter
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

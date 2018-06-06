@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_FW_SERVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wab32.dll
+ - Wab32.dll
 api_name:
--	IContact.GetPath
+ - IContact.GetPath
 product: Windows
 targetos: Windows
 req.lib: 

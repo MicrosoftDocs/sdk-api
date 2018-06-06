@@ -29,23 +29,23 @@ req.type-library:
 tech.root: 
 req.typenames: TpcGetSamplesArgs
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-toolhelp-l1-1-0.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
--	API-MS-Win-Core-ToolHelp-L1-1-1.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-toolhelp-l1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
--	Module32Next
--	Module32Next
--	Module32NextW
+ - Module32Next
+ - Module32Next
+ - Module32NextW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

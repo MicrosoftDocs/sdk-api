@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_COMMON_STATISTICS1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_COMMON_STATISTICS1
+ - IKEEXT_COMMON_STATISTICS1
 product: Windows
 targetos: Windows
 req.lib: 

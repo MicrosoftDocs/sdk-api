@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, *PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
+ - SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

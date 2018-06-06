@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FXECHO_INITDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xapofx.h
+ - xapofx.h
 api_name:
--	FXECHO_INITDATA
+ - FXECHO_INITDATA
 product: Windows
 targetos: Windows
 req.lib: 

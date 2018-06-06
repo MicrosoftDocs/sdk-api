@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PerfRegInfoType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	AdvAPI32.dll
+ - AdvAPI32.dll
 api_name:
--	PerfCloseQueryHandle
+ - PerfCloseQueryHandle
 product: Windows
 targetos: Windows
 req.lib: AdvAPI32.lib

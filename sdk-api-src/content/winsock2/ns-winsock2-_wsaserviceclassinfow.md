@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, *LPWSASERVICECLASSINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsock2.h
+ - Winsock2.h
 api_name:
--	WSASERVICECLASSINFO
--	WSASERVICECLASSINFOA
--	WSASERVICECLASSINFOW
+ - WSASERVICECLASSINFO
+ - WSASERVICECLASSINFOA
+ - WSASERVICECLASSINFOW
 product: Windows
 targetos: Windows
 req.lib: 

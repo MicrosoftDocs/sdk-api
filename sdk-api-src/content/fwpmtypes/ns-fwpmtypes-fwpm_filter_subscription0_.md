@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_FILTER_SUBSCRIPTION0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
--	FWPM_FILTER_SUBSCRIPTION0
+ - FWPM_FILTER_SUBSCRIPTION0
 product: Windows
 targetos: Windows
 req.lib: 

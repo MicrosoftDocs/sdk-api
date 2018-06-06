@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-security-logon-l1-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-Security-Logon-L1-1-1.dll
+ - Advapi32.dll
+ - API-MS-Win-security-logon-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Security-Logon-L1-1-1.dll
 api_name:
--	LogonUserEx
--	LogonUserExA
--	LogonUserExW
+ - LogonUserEx
+ - LogonUserExA
+ - LogonUserExW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

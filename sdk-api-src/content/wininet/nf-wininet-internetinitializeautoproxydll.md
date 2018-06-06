@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InternetCookieState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	JSProxy.dll
+ - JSProxy.dll
 api_name:
--	InternetInitializeAutoProxyDll
+ - InternetInitializeAutoProxyDll
 product: Windows
 targetos: Windows
 req.lib: 

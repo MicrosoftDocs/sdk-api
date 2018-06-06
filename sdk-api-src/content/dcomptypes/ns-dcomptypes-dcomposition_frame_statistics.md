@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DCOMPOSITION_FRAME_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DcompTypes.h
+ - DcompTypes.h
 api_name:
--	DCOMPOSITION_FRAME_STATISTICS
+ - DCOMPOSITION_FRAME_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

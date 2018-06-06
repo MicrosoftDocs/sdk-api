@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TS_SB_SORT_BY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sbtsv.h
+ - sbtsv.h
 api_name:
--	ITsSbTarget.TargetPropertySet
--	ITsSbTarget.get_TargetPropertySet
--	ITsSbTarget.put_TargetPropertySet
--	ITsSbTargetEx.TargetPropertySet
--	ITsSbTargetEx.get_TargetPropertySet
--	ITsSbTargetEx.put_TargetPropertySet
+ - ITsSbTarget.TargetPropertySet
+ - ITsSbTarget.get_TargetPropertySet
+ - ITsSbTarget.put_TargetPropertySet
+ - ITsSbTargetEx.TargetPropertySet
+ - ITsSbTargetEx.get_TargetPropertySet
+ - ITsSbTargetEx.put_TargetPropertySet
 product: Windows
 targetos: Windows
 req.lib: 

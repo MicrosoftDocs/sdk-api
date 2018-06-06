@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_SELECTIONSTYLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	msctf.dll
+ - msctf.dll
 api_name:
--	UninitLocalMsCtfMonitor
+ - UninitLocalMsCtfMonitor
 product: Windows
 targetos: Windows
 req.lib: MsCtfMonitor.lib

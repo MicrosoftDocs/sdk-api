@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_VLV, *PADS_VLV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_VLV
+ - ADS_VLV
 product: Windows
 targetos: Windows
 req.lib: 

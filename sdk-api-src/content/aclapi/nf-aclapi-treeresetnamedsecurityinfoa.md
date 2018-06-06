@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
--	advapi32legacy.dll
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
+ - advapi32legacy.dll
 api_name:
--	TreeResetNamedSecurityInfo
--	TreeResetNamedSecurityInfoA
--	TreeResetNamedSecurityInfoW
+ - TreeResetNamedSecurityInfo
+ - TreeResetNamedSecurityInfoA
+ - TreeResetNamedSecurityInfoW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

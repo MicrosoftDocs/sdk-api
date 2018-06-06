@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GROUP_SOURCE_REQ, *PGROUP_SOURCE_REQ
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2ipdef.h
+ - Ws2ipdef.h
 api_name:
--	GROUP_SOURCE_REQ
+ - GROUP_SOURCE_REQ
 product: Windows
 targetos: Windows
 req.lib: 

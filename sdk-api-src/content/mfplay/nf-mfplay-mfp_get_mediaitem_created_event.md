@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_MFP_MEDIAITEM_CHARACTERISTICS"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfplay.h
+ - mfplay.h
 api_name:
--	MFP_GET_MEDIAITEM_CREATED_EVENT
+ - MFP_GET_MEDIAITEM_CREATED_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

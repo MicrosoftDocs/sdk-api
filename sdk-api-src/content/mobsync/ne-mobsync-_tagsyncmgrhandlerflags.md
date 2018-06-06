@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNCMGRHANDLERFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mobsync.h
+ - Mobsync.h
 api_name:
--	SYNCMGRHANDLERFLAGS
+ - SYNCMGRHANDLERFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

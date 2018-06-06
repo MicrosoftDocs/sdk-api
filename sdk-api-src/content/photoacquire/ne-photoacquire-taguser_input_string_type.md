@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_INPUT_STRING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PhotoAcquire.h
+ - PhotoAcquire.h
 api_name:
--	USER_INPUT_STRING_TYPE
+ - USER_INPUT_STRING_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

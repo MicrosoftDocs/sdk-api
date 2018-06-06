@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEGLAYER3WAVEFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmreg.h
+ - mmreg.h
 api_name:
--	MPEGLAYER3WAVEFORMAT
+ - MPEGLAYER3WAVEFORMAT
 product: Windows
 targetos: Windows
 req.lib: 

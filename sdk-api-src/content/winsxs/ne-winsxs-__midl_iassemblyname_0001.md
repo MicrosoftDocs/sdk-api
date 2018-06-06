@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASM_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsxs.h
+ - Winsxs.h
 api_name:
--	ASM_NAME
+ - ASM_NAME
 product: Windows
 targetos: Windows
 req.lib: 

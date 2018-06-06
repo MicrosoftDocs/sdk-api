@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	AudioPolicy.h
+ - AudioPolicy.h
 api_name:
--	IAudioVolumeDuckNotification.OnVolumeDuckNotification
+ - IAudioVolumeDuckNotification.OnVolumeDuckNotification
 product: Windows
 targetos: Windows
 req.lib: 

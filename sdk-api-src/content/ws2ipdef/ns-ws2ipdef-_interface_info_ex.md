@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: INTERFACE_INFO_EX, *LPINTERFACE_INFO_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2ipdef.h
--	Ws2tcpip.h
+ - Ws2ipdef.h
+ - Ws2tcpip.h
 api_name:
--	INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
+ - INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
 product: Windows
 targetos: Windows
 req.lib: 

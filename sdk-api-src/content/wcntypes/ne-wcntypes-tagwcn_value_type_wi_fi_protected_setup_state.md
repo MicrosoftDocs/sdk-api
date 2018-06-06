@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wcntypes.h
+ - wcntypes.h
 api_name:
--	WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
+ - WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 product: Windows
 targetos: Windows
 req.lib: 

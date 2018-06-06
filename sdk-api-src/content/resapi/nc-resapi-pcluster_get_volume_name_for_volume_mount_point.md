@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
+ - PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
 product: Windows
 targetos: Windows
 req.lib: 

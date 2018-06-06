@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUICHANGESOURCEA, *POLEUICHANGESOURCEA, *LPOLEUICHANGESOURCEA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUICHANGESOURCE
--	OLEUICHANGESOURCEA
--	OLEUICHANGESOURCEW
+ - OLEUICHANGESOURCE
+ - OLEUICHANGESOURCEA
+ - OLEUICHANGESOURCEW
 product: Windows
 targetos: Windows
 req.lib: 

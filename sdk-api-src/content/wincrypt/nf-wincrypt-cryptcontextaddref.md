@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-Security-cryptoapi-l1-1-0.dll
--	cryptsp.dll
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
 api_name:
--	CryptContextAddRef
+ - CryptContextAddRef
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

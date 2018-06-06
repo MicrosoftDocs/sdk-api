@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certidl.lib
--	Certidl.dll
+ - Certidl.lib
+ - Certidl.dll
 api_name:
--	ICertManageModule.SetProperty
--	CCertManageModule.SetProperty
+ - ICertManageModule.SetProperty
+ - CCertManageModule.SetProperty
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

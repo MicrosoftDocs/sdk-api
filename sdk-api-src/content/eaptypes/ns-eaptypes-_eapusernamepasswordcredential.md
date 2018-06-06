@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EapUsernamePasswordCredential
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaptypes.h
+ - eaptypes.h
 api_name:
--	EapUsernamePasswordCredential
+ - EapUsernamePasswordCredential
 product: Windows
 targetos: Windows
 req.lib: 

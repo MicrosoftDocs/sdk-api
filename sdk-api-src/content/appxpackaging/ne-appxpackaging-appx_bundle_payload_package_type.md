@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AppxPackaging.h
+ - AppxPackaging.h
 api_name:
--	APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
+ - APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: Appnotify.lib

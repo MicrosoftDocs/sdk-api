@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Gdiplus.lib
--	Gdiplus.dll
+ - Gdiplus.lib
+ - Gdiplus.dll
 api_name:
--	IsAlphaPixelFormat
+ - IsAlphaPixelFormat
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

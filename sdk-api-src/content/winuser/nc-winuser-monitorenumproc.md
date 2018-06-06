@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINUSB_PIPE_INFORMATION_EX, *PWINUSB_PIPE_INFORMATION_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	MonitorEnumProc
+ - MonitorEnumProc
 product: Windows
 targetos: Windows
 req.lib: 

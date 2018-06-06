@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_WATCH_PERMISSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	P2P.dll
+ - P2P.dll
 api_name:
--	PeerCollabSignout
+ - PeerCollabSignout
 product: Windows
 targetos: Windows
 req.lib: P2P.lib

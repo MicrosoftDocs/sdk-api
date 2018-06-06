@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsrole.h
+ - Dsrole.h
 api_name:
--	DSROLE_UPGRADE_STATUS_INFO
+ - DSROLE_UPGRADE_STATUS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

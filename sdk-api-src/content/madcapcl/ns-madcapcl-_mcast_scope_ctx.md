@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MCAST_SCOPE_CTX, *PMCAST_SCOPE_CTX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Madcapcl.h
+ - Madcapcl.h
 api_name:
--	MCAST_SCOPE_CTX
+ - MCAST_SCOPE_CTX
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USN_JOURNAL_DATA_V0, *PUSN_JOURNAL_DATA_V0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	USN_JOURNAL_DATA_V0
+ - USN_JOURNAL_DATA_V0
 product: Windows
 targetos: Windows
 req.lib: 

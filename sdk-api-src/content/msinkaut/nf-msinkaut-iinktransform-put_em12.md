@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkTransform.eM12
--	IInkTransform.get_eM12
--	IInkTransform.put_eM12
--	InkTransform.get_eM12
--	InkTransform.put_eM12
+ - IInkTransform.eM12
+ - IInkTransform.get_eM12
+ - IInkTransform.put_eM12
+ - InkTransform.get_eM12
+ - InkTransform.put_eM12
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

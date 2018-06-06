@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: EOC_ChangeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Eventsys.h
+ - Eventsys.h
 api_name:
--	IEventObjectCollection._NewEnum
--	IEventObjectCollection.get__NewEnum
+ - IEventObjectCollection._NewEnum
+ - IEventObjectCollection.get__NewEnum
 product: Windows
 targetos: Windows
 req.lib: 

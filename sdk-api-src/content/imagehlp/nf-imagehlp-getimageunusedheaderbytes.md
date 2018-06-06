@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Imagehlp.dll
+ - Imagehlp.dll
 api_name:
--	GetImageUnusedHeaderBytes
+ - GetImageUnusedHeaderBytes
 product: Windows
 targetos: Windows
 req.lib: Imagehlp.lib

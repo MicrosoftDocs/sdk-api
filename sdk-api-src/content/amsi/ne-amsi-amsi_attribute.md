@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMSI_ATTRIBUTE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	amsi.h
+ - amsi.h
 api_name:
--	AMSI_ATTRIBUTE
+ - AMSI_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

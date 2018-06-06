@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_ESCAPE_MODE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_ESCAPE_MODE_ENUM
+ - ADS_ESCAPE_MODE_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

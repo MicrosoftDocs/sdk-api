@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certenroll.h
+ - Certenroll.h
 api_name:
--	IX509PolicyServerUrl.Cost
--	IX509PolicyServerUrl.get_Cost
--	IX509PolicyServerUrl.put_Cost
+ - IX509PolicyServerUrl.Cost
+ - IX509PolicyServerUrl.get_Cost
+ - IX509PolicyServerUrl.put_Cost
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOGICAL_PROCESSOR_RELATIONSHIP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	LOGICAL_PROCESSOR_RELATIONSHIP
+ - LOGICAL_PROCESSOR_RELATIONSHIP
 product: Windows
 targetos: Windows
 req.lib: 

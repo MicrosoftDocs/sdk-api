@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_JOB_ENTRYW, *PFAX_JOB_ENTRYW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_JOB_ENTRY
--	FAX_JOB_ENTRYA
--	FAX_JOB_ENTRYW
+ - FAX_JOB_ENTRY
+ - FAX_JOB_ENTRYA
+ - FAX_JOB_ENTRYW
 product: Windows
 targetos: Windows
 req.lib: 

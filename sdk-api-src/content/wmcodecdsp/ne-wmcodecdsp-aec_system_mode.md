@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AEC_SYSTEM_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	AEC_SYSTEM_MODE
+ - AEC_SYSTEM_MODE
 product: Windows
 targetos: Windows
 req.lib: 

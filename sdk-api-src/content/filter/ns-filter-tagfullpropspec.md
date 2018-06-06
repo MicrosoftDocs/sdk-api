@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FULLPROPSPEC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Filter.h
+ - Filter.h
 api_name:
--	FULLPROPSPEC
+ - FULLPROPSPEC
 product: Windows
 targetos: Windows
 req.lib: 

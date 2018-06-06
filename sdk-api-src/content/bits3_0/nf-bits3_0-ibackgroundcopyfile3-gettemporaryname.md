@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: BG_CERT_STORE_LOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bits.lib
--	Bits.dll
+ - Bits.lib
+ - Bits.dll
 api_name:
--	IBackgroundCopyFile3.GetTemporaryName
+ - IBackgroundCopyFile3.GetTemporaryName
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

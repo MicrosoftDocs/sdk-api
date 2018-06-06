@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GETPROPERTYSTOREFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propsys.h
+ - Propsys.h
 api_name:
--	GETPROPERTYSTOREFLAGS
+ - GETPROPERTYSTOREFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

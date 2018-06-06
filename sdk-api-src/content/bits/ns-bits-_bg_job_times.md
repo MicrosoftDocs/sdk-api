@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_JOB_TIMES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bits.h
+ - Bits.h
 api_name:
--	BG_JOB_TIMES
+ - BG_JOB_TIMES
 product: Windows
 targetos: Windows
 req.lib: 

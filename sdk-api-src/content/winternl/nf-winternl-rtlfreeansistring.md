@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNC_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdll.dll
+ - Ntdll.dll
 api_name:
--	RtlFreeAnsiString
+ - RtlFreeAnsiString
 product: Windows
 targetos: Windows
 req.lib: 

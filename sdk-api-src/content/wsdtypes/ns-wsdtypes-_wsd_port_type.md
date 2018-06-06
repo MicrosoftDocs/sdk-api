@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_PORT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdTypes.h
+ - WsdTypes.h
 api_name:
--	WSD_PORT_TYPE
+ - WSD_PORT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

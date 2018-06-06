@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PENDINGMSG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objidl.h
+ - Objidl.h
 api_name:
--	PENDINGMSG
+ - PENDINGMSG
 product: Windows
 targetos: Windows
 req.lib: 

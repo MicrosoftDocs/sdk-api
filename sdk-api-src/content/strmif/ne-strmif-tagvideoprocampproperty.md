@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VideoProcAmpProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	VideoProcAmpProperty
+ - VideoProcAmpProperty
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

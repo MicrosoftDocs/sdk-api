@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Audioclient.h
+ - Audioclient.h
 api_name:
--	IAudioClient2
+ - IAudioClient2
 product: Windows
 targetos: Windows
 req.lib: 

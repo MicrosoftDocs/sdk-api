@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_INFO_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
--	KernelBase.dll
--	API-MS-Win-eventing-provider-l1-1-0.dll
--	API-MS-Win-Eventing-Provider-L1-1-1.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-eventing-provider-l1-1-0.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
--	EventWriteEx
+ - EventWriteEx
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

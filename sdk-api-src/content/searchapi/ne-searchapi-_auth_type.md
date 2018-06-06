@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTH_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	AUTH_TYPE
+ - AUTH_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
--	Hnetcfg.dll
+ - FirewallAPI.dll
+ - Hnetcfg.dll
 api_name:
--	INetFwIcmpSettings.AllowInboundEchoRequest
--	INetFwIcmpSettings.get_AllowInboundEchoRequest
--	INetFwIcmpSettings.put_AllowInboundEchoRequest
+ - INetFwIcmpSettings.AllowInboundEchoRequest
+ - INetFwIcmpSettings.get_AllowInboundEchoRequest
+ - INetFwIcmpSettings.put_AllowInboundEchoRequest
 product: Windows
 targetos: Windows
 req.lib: 

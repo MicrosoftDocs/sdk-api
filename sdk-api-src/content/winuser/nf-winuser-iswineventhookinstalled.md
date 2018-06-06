@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
--	minuser.dll
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+ - minuser.dll
 api_name:
--	IsWinEventHookInstalled
+ - IsWinEventHookInstalled
 product: Windows
 targetos: Windows
 req.lib: User32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_XML_WRITER_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_XML_WRITER_PROPERTIES
+ - WS_XML_WRITER_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WMPServices_StreamState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmsbuffer.h
+ - wmsbuffer.h
 api_name:
--	INSSBuffer2
--	INSSBuffer2.GetSampleProperties
--	INSSBuffer2.SetSampleProperties
+ - INSSBuffer2
+ - INSSBuffer2.GetSampleProperties
+ - INSSBuffer2.SetSampleProperties
 product: Windows
 targetos: Windows
 req.lib: 

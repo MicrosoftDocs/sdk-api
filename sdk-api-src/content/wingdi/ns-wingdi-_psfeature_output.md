@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSFEATURE_OUTPUT, *PPSFEATURE_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	PSFEATURE_OUTPUT
+ - PSFEATURE_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

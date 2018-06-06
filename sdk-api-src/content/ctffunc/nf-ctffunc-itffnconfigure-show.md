@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfIntegratableCandidateListSelectionStyle
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imekrcic.dll
+ - imekrcic.dll
 api_name:
--	ITfFnConfigure.Show
+ - ITfFnConfigure.Show
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winioctl.h
+ - winioctl.h
 api_name:
--	STORAGE_DEVICE_POWER_CAP
+ - STORAGE_DEVICE_POWER_CAP
 product: Windows
 targetos: Windows
 req.lib: 

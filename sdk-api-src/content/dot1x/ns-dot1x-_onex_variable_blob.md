@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dot1x.h
+ - dot1x.h
 api_name:
--	ONEX_VARIABLE_BLOB
+ - ONEX_VARIABLE_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

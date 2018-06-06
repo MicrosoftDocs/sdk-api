@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CHOOSEFONTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	CHOOSEFONT
--	CHOOSEFONTA
--	CHOOSEFONTW
+ - CHOOSEFONT
+ - CHOOSEFONTA
+ - CHOOSEFONTW
 product: Windows
 targetos: Windows
 req.lib: 

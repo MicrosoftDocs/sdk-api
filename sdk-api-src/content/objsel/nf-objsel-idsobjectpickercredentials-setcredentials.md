@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ObjectParserFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Objsel.dll
+ - Objsel.dll
 api_name:
--	IDsObjectPickerCredentials.SetCredentials
+ - IDsObjectPickerCredentials.SetCredentials
 product: Windows
 targetos: Windows
 req.lib: 

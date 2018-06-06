@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
--	API-MS-Win-Core-Synch-L1-2-1.dll
--	Kernel32Legacy.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Synch-L1-2-1.dll
+ - Kernel32Legacy.dll
+ - KernelBase.dll
 api_name:
--	CreateWaitableTimer
--	CreateWaitableTimerA
--	CreateWaitableTimerW
+ - CreateWaitableTimer
+ - CreateWaitableTimerA
+ - CreateWaitableTimerW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

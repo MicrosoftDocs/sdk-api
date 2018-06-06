@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	drt.h
+ - drt.h
 api_name:
--	DRT_REGISTRATION_STATE
+ - DRT_REGISTRATION_STATE
 product: Windows
 targetos: Windows
 req.lib: 

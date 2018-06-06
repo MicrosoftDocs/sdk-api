@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_DA_ATTR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msctf.h
+ - msctf.h
 api_name:
--	ITfThreadMgr2.ResumeKeystrokeHandling
+ - ITfThreadMgr2.ResumeKeystrokeHandling
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKET_PEER_TARGET_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	SOCKET_PEER_TARGET_NAME
+ - SOCKET_PEER_TARGET_NAME
 product: Windows
 targetos: Windows
 req.lib: 

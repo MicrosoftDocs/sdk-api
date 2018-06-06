@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-shlwapi-IE-l1-1-0.dll
--	Ext-MS-Win-shell-shlwapi-l1-1-0.dll
--	Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
--	Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-IE-l1-1-0.dll
+ - Ext-MS-Win-shell-shlwapi-l1-1-0.dll
+ - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
+ - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
--	PathIsDirectory
--	PathIsDirectoryA
--	PathIsDirectoryW
+ - PathIsDirectory
+ - PathIsDirectoryA
+ - PathIsDirectoryW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRCREATEDIBPATTERNBRUSHPT, *PEMRCREATEDIBPATTERNBRUSHPT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRCREATEDIBPATTERNBRUSHPT
+ - EMRCREATEDIBPATTERNBRUSHPT
 product: Windows
 targetos: Windows
 req.lib: 

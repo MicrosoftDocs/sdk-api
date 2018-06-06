@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_INFO_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evntprov.h
+ - Evntprov.h
 api_name:
--	EventDescGetChannel
+ - EventDescGetChannel
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MULTIPLE_TRUSTEE_OPERATION
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- MULTIPLE_TRUSTEE_OPERATION
+ - MULTIPLE_TRUSTEE_OPERATION
 product: Windows
 targetos: Windows
 ---

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_COPY_MACROVISION_LEVEL, *PAM_COPY_MACROVISION_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dvdmedia.h
+ - Dvdmedia.h
 api_name:
--	AM_COPY_MACROVISION_LEVEL
+ - AM_COPY_MACROVISION_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

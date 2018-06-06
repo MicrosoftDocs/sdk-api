@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFASYNC_WORKQUEUE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfapi.h
+ - mfapi.h
 api_name:
--	MFASYNC_WORKQUEUE_TYPE
+ - MFASYNC_WORKQUEUE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

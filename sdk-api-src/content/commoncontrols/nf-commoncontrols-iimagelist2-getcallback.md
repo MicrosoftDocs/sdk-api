@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OFNOTIFYW, *LPOFNOTIFYW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Comctl32.dll
+ - Comctl32.dll
 api_name:
--	IImageList2.GetCallback
+ - IImageList2.GetCallback
 product: Windows
 targetos: Windows
 req.lib: 

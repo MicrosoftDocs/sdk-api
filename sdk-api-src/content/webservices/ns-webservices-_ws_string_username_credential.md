@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_STRING_USERNAME_CREDENTIAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_STRING_USERNAME_CREDENTIAL
+ - WS_STRING_USERNAME_CREDENTIAL
 product: Windows
 targetos: Windows
 req.lib: 

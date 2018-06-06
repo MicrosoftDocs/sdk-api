@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADAPTER_STATUS, *PADAPTER_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nb30.h
+ - Nb30.h
 api_name:
--	ADAPTER_STATUS
+ - ADAPTER_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

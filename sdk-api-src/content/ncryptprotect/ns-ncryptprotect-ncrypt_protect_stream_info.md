@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NCRYPT_PROTECT_STREAM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NCryptprotect.h
+ - NCryptprotect.h
 api_name:
--	NCRYPT_PROTECT_STREAM_INFO
+ - NCRYPT_PROTECT_STREAM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_SD_FORMAT_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Activeds.dll
--	Adsldp.dll
--	Adsldpc.dll
+ - Activeds.dll
+ - Adsldp.dll
+ - Adsldpc.dll
 api_name:
--	IDirectorySearch.GetFirstRow
+ - IDirectorySearch.GetFirstRow
 product: Windows
 targetos: Windows
 req.lib: 

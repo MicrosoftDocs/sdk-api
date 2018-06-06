@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Avicap32.dll
+ - Avicap32.dll
 api_name:
--	capGetDriverDescription
--	capGetDriverDescriptionA
--	capGetDriverDescriptionW
+ - capGetDriverDescription
+ - capGetDriverDescriptionA
+ - capGetDriverDescriptionW
 product: Windows
 targetos: Windows
 req.lib: Vfw32.lib

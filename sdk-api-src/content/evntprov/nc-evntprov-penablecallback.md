@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_RECORD, *PEVENT_RECORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Evntprov.h
+ - Evntprov.h
 api_name:
--	PENABLECALLBACK
+ - PENABLECALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

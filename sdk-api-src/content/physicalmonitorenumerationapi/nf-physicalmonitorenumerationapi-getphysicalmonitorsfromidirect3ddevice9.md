@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_INPUT_STRING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dxva2.dll
+ - dxva2.dll
 api_name:
--	GetPhysicalMonitorsFromIDirect3DDevice9
+ - GetPhysicalMonitorsFromIDirect3DDevice9
 product: Windows
 targetos: Windows
 req.lib: Dxva2.lib

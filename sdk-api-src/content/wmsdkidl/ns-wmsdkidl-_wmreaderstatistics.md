@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_READER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_READER_STATISTICS
+ - WM_READER_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

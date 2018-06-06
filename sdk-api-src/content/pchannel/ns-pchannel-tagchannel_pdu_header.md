@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pchannel.h
+ - Pchannel.h
 api_name:
--	CHANNEL_PDU_HEADER
+ - CHANNEL_PDU_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

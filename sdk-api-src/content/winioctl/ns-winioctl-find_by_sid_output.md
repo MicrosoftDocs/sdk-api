@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FIND_BY_SID_OUTPUT, *PFIND_BY_SID_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FIND_BY_SID_OUTPUT
+ - FIND_BY_SID_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

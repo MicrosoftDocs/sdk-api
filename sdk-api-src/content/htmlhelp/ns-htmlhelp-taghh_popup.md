@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HH_POPUP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HtmlHelp.h
+ - HtmlHelp.h
 api_name:
--	HH_POPUP
+ - HH_POPUP
 product: Windows
 targetos: Windows
 req.lib: 

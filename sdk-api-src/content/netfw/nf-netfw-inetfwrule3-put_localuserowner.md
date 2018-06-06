@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
+ - FirewallAPI.dll
 api_name:
--	INetFwRule3.LocalUserOwner
--	INetFwRule3.get_LocalUserOwner
--	INetFwRule3.put_LocalUserOwner
+ - INetFwRule3.LocalUserOwner
+ - INetFwRule3.get_LocalUserOwner
+ - INetFwRule3.put_LocalUserOwner
 product: Windows
 targetos: Windows
 req.lib: 

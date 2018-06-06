@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAPPING_DATA_RANGE, *PMAPPING_DATA_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Elscore.h
+ - Elscore.h
 api_name:
--	MAPPING_DATA_RANGE
+ - MAPPING_DATA_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

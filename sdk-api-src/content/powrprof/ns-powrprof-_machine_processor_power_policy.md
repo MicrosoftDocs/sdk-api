@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MACHINE_PROCESSOR_POWER_POLICY, *PMACHINE_PROCESSOR_POWER_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PowrProf.h
+ - PowrProf.h
 api_name:
--	MACHINE_PROCESSOR_POWER_POLICY
+ - MACHINE_PROCESSOR_POWER_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

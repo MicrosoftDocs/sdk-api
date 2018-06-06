@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D11.lib
--	D3D11.dll
+ - D3D11.lib
+ - D3D11.dll
 api_name:
--	ID3D11RasterizerState1.GetDesc1
+ - ID3D11RasterizerState1.GetDesc1
 product: Windows
 targetos: Windows
 req.lib: D3D11.lib

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Cryptui.dll
--	Ext-MS-Win-security-cryptui-l1-1-0.dll
--	ext-ms-win-security-cryptui-l1-1-1.dll
--	CertCredProviderOneCore.dll
+ - Cryptui.dll
+ - Ext-MS-Win-security-cryptui-l1-1-0.dll
+ - ext-ms-win-security-cryptui-l1-1-1.dll
+ - CertCredProviderOneCore.dll
 api_name:
--	CertSelectionGetSerializedBlob
+ - CertSelectionGetSerializedBlob
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMSCRIPTFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMSCRIPTFORMAT
+ - WMSCRIPTFORMAT
 product: Windows
 targetos: Windows
 req.lib: 

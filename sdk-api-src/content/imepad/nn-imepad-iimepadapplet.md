@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Imepad.h
+ - Imepad.h
 api_name:
--	IImePadApplet
+ - IImePadApplet
 product: Windows
 targetos: Windows
 req.lib: 

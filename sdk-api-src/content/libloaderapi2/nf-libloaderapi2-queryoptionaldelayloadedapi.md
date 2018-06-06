@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-libraryloader-l1-1-1.dll
--	kernelbase.dll
--	api-ms-win-core-libraryloader-l2-1-0.dll
--	API-MS-Win-Core-LibraryLoader-Private-L1-1-0.dll
+ - api-ms-win-core-libraryloader-l1-1-1.dll
+ - kernelbase.dll
+ - api-ms-win-core-libraryloader-l2-1-0.dll
+ - API-MS-Win-Core-LibraryLoader-Private-L1-1-0.dll
 api_name:
--	QueryOptionalDelayLoadedAPI
+ - QueryOptionalDelayLoadedAPI
 product: Windows
 targetos: Windows
 req.lib: WindowsApp.lib

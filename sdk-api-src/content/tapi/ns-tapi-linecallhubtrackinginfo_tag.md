@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINECALLHUBTRACKINGINFO, *LPLINECALLHUBTRACKINGINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi.h
+ - Tapi.h
 api_name:
--	LINECALLHUBTRACKINGINFO
+ - LINECALLHUBTRACKINGINFO
 product: Windows
 targetos: Windows
 req.lib: 

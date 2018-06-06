@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLRES_V1_FUNCTIONS, *PCLRES_V1_FUNCTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	CLRES_V1_FUNCTIONS
+ - CLRES_V1_FUNCTIONS
 product: Windows
 targetos: Windows
 req.lib: 

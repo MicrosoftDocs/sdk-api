@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	jobapi2.h
+ - jobapi2.h
 api_name:
--	JOBOBJECT_IO_RATE_CONTROL_INFORMATION
+ - JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

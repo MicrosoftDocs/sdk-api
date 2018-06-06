@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAGIMAGEHEADER, *PMAGIMAGEHEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Magnification.h
+ - Magnification.h
 api_name:
--	MAGIMAGEHEADER
+ - MAGIMAGEHEADER
 product: Windows
 targetos: Windows
 req.lib: 

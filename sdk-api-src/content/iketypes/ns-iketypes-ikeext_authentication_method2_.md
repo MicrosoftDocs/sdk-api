@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_AUTHENTICATION_METHOD2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	iketypes.h
+ - iketypes.h
 api_name:
--	IKEEXT_AUTHENTICATION_METHOD2
+ - IKEEXT_AUTHENTICATION_METHOD2
 product: Windows
 targetos: Windows
 req.lib: 

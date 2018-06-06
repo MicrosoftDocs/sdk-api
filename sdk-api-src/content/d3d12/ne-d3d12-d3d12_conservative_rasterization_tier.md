@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_CONSERVATIVE_RASTERIZATION_TIER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	D3D12_CONSERVATIVE_RASTERIZATION_TIER
+ - D3D12_CONSERVATIVE_RASTERIZATION_TIER
 product: Windows
 targetos: Windows
 req.lib: 

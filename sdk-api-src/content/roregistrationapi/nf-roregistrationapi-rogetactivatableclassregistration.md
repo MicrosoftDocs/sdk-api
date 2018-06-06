@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	runtimeobject.lib
--	runtimeobject.dll
--	API-MS-Win-Core-WinRT-registration-l1-1-0.dll
--	ComBase.dll
+ - runtimeobject.lib
+ - runtimeobject.dll
+ - API-MS-Win-Core-WinRT-registration-l1-1-0.dll
+ - ComBase.dll
 api_name:
--	RoGetActivatableClassRegistration
+ - RoGetActivatableClassRegistration
 product: Windows
 targetos: Windows
 req.lib: Runtimeobject.lib

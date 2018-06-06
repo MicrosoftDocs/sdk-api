@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_DECODE_SWAP_CHAIN_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_3.h
+ - dxgi1_3.h
 api_name:
--	DXGI_DECODE_SWAP_CHAIN_DESC
+ - DXGI_DECODE_SWAP_CHAIN_DESC
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_NEWDEVICEWIZARD_DATA, *PSP_NEWDEVICEWIZARD_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_ADDPROPERTYPAGE_DATA
+ - SP_ADDPROPERTYPAGE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

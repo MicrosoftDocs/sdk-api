@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mstask.dll
+ - Mstask.dll
 api_name:
--	IScheduledWorkItem.GetExitCode
+ - IScheduledWorkItem.GetExitCode
 product: Windows
 targetos: Windows
 req.lib: Mstask.lib

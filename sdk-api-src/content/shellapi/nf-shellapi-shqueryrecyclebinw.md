@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SHSTOCKICONID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	SHQueryRecycleBin
--	SHQueryRecycleBinA
--	SHQueryRecycleBinW
+ - SHQueryRecycleBin
+ - SHQueryRecycleBinA
+ - SHQueryRecycleBinW
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

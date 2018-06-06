@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVP_MESSAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	evr.h
+ - evr.h
 api_name:
--	MFVP_MESSAGE_TYPE
+ - MFVP_MESSAGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

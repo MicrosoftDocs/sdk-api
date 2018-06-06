@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DWM_TIMING_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	DWM_TIMING_INFO
+ - DWM_TIMING_INFO
 product: Windows
 targetos: Windows
 req.lib: 

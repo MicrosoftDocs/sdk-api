@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PeerDist.h
+ - PeerDist.h
 api_name:
--	PeerDistGetStatusEx
+ - PeerDistGetStatusEx
 product: Windows
 targetos: Windows
 req.lib: 

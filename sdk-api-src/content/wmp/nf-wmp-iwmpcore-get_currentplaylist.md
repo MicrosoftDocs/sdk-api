@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	IWMPCore.get_currentPlaylist
--	IWMPPlayer4.get_currentPlaylist
+ - IWMPCore.get_currentPlaylist
+ - IWMPPlayer4.get_currentPlaylist
 product: Windows
 targetos: Windows
 req.lib: 

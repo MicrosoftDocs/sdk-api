@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIEFFESCAPE, *LPDIEFFESCAPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dinputd.h
+ - dinputd.h
 api_name:
--	IDirectInputJoyConfig8.SendNotify
+ - IDirectInputJoyConfig8.SendNotify
 product: Windows
 targetos: Windows
 req.lib: 

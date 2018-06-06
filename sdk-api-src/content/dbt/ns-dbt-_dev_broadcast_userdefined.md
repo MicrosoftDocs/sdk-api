@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dbt.h
+ - Dbt.h
 api_name:
--	_DEV_BROADCAST_USERDEFINED
+ - _DEV_BROADCAST_USERDEFINED
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VsAdmin.h
+ - VsAdmin.h
 api_name:
--	IVssAdmin.UnregisterProvider
+ - IVssAdmin.UnregisterProvider
 product: Windows
 targetos: Windows
 req.lib: 

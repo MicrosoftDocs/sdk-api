@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ifdef.h
+ - Ifdef.h
 api_name:
--	NET_PHYSICAL_LOCATION
+ - NET_PHYSICAL_LOCATION
 product: Windows
 targetos: Windows
 req.lib: 

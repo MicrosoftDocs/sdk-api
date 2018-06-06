@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_HOSTED_NETWORK_STATUS, *PWLAN_HOSTED_NETWORK_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wlanapi.h
+ - Wlanapi.h
 api_name:
--	WLAN_HOSTED_NETWORK_STATUS
+ - WLAN_HOSTED_NETWORK_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

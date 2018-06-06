@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	API-MS-Win-NTUser-IE-Message-l1-1-0.dll
--	IE_Shims.dll
--	API-MS-Win-RTCore-NTUser-Synch-l1-1-0.dll
--	MinUser.dll
--	Ext-MS-Win-NTUser-Synch-l1-1-0.dll
--	Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
--	NTUserSynchExtHost.dll
--	ComBase.dll
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Message-l1-1-0.dll
+ - IE_Shims.dll
+ - API-MS-Win-RTCore-NTUser-Synch-l1-1-0.dll
+ - MinUser.dll
+ - Ext-MS-Win-NTUser-Synch-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
+ - NTUserSynchExtHost.dll
+ - ComBase.dll
 api_name:
--	MsgWaitForMultipleObjectsEx
+ - MsgWaitForMultipleObjectsEx
 product: Windows
 targetos: Windows
 req.lib: User32.lib

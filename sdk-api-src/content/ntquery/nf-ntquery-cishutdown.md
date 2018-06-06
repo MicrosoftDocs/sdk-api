@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Query.dll
+ - Query.dll
 api_name:
--	CIShutdown
+ - CIShutdown
 product: Windows
 targetos: Windows
 req.lib: 

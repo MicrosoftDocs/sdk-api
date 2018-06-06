@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdateInstaller.ParentHwnd
--	IUpdateInstaller.get_ParentHwnd
--	IUpdateInstaller.put_ParentHwnd
+ - IUpdateInstaller.ParentHwnd
+ - IUpdateInstaller.get_ParentHwnd
+ - IUpdateInstaller.put_ParentHwnd
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

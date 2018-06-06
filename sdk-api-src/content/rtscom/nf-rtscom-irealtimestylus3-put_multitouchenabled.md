@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	rtscom.h
+ - rtscom.h
 api_name:
--	IRealTimeStylus3.MultiTouchEnabled
--	IRealTimeStylus3.get_MultiTouchEnabled
--	IRealTimeStylus3.put_MultiTouchEnabled
--	IRealTimeStylus3.get_MultiTouchEnabled
--	IRealTimeStylus3.put_MultiTouchEnabled
+ - IRealTimeStylus3.MultiTouchEnabled
+ - IRealTimeStylus3.get_MultiTouchEnabled
+ - IRealTimeStylus3.put_MultiTouchEnabled
+ - IRealTimeStylus3.get_MultiTouchEnabled
+ - IRealTimeStylus3.put_MultiTouchEnabled
 product: Windows
 targetos: Windows
 req.lib: 

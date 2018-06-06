@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: THDTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ObjIdl.h
+ - ObjIdl.h
 api_name:
--	IEnumSTATDATA.Next
+ - IEnumSTATDATA.Next
 product: Windows
 targetos: Windows
 req.lib: 

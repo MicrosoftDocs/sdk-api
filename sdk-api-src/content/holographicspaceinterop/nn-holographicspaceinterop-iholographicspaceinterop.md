@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_SIZE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	HolographicSpaceInterop.h
+ - HolographicSpaceInterop.h
 api_name:
--	IHolographicSpaceInterop
+ - IHolographicSpaceInterop
 product: Windows
 targetos: Windows
 req.lib: 

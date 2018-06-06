@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, *LPDSDISPLAYSPECOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	DsGetDcClose
--	DsGetDcCloseW
+ - DsGetDcClose
+ - DsGetDcCloseW
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

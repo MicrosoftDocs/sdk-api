@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINEDIALPARAMS, *LPLINEDIALPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi.h
+ - Tapi.h
 api_name:
--	LINEDIALPARAMS
+ - LINEDIALPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

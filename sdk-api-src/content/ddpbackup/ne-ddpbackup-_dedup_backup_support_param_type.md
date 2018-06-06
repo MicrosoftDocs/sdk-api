@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DdpBackup.h
+ - DdpBackup.h
 api_name:
--	DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+ - DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_RLDO_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D12sdklayers.h
+ - D3D12sdklayers.h
 api_name:
--	ID3D12Debug2
+ - ID3D12Debug2
 product: Windows
 targetos: Windows
 req.lib: 

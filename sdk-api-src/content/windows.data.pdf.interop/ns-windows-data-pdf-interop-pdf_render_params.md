@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	windows.data.pdf.interop.h
+ - windows.data.pdf.interop.h
 api_name:
--	PDF_RENDER_PARAMS
+ - PDF_RENDER_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

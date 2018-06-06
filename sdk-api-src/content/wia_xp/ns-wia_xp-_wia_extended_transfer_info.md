@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_EXTENDED_TRANSFER_INFO, *PWIA_EXTENDED_TRANSFER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wia_xp.h
+ - wia_xp.h
 api_name:
--	WIA_EXTENDED_TRANSFER_INFO
+ - WIA_EXTENDED_TRANSFER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

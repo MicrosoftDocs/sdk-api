@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EnrollmentTemplateProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Certenroll.h
+ - Certenroll.h
 api_name:
--	EnrollmentTemplateProperty
+ - EnrollmentTemplateProperty
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

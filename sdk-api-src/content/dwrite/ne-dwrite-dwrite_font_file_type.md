@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dwrite.h
+ - dwrite.h
 api_name:
--	DWRITE_FONT_FILE_TYPE
+ - DWRITE_FONT_FILE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

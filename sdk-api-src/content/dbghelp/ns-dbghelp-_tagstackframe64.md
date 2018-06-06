@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: STACKFRAME64, *LPSTACKFRAME64
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	STACKFRAME64
--	STACKFRAME
+ - STACKFRAME64
+ - STACKFRAME
 product: Windows
 targetos: Windows
 req.lib: 

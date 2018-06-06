@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	LPM_Initialize
+ - LPM_Initialize
 product: Windows
 targetos: Windows
 req.lib: 

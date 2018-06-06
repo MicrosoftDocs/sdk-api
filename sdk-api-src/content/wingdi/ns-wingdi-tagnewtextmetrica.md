@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NEWTEXTMETRICA, *PNEWTEXTMETRICA, *NPNEWTEXTMETRICA, *LPNEWTEXTMETRICA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	NEWTEXTMETRIC
--	NEWTEXTMETRICA
--	NEWTEXTMETRICW
+ - NEWTEXTMETRIC
+ - NEWTEXTMETRICA
+ - NEWTEXTMETRICW
 product: Windows
 targetos: Windows
 req.lib: 

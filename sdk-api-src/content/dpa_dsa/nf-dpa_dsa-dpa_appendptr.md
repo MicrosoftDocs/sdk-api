@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dpa_dsa.h
+ - dpa_dsa.h
 api_name:
--	DPA_AppendPtr
+ - DPA_AppendPtr
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_SECURITY_QOS_V5_W, *PRPC_SECURITY_QOS_V5_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_SECURITY_QOS_V5
+ - RPC_SECURITY_QOS_V5
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_RESSUBCLASS_STORAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUS_RESSUBCLASS_STORAGE
+ - CLUS_RESSUBCLASS_STORAGE
 product: Windows
 targetos: Windows
 req.lib: 

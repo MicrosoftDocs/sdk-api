@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: ICONINFOEXW, *PICONINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-version-l1-1-0.dll
--	version.dll
+ - api-ms-win-core-version-l1-1-0.dll
+ - version.dll
 api_name:
--	VerInstallFile
--	VerInstallFileA
--	VerInstallFileW
+ - VerInstallFile
+ - VerInstallFileA
+ - VerInstallFileW
 product: Windows
 targetos: Windows
 req.lib: Mincore.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_LOG_CATEGORYW, *PFAX_LOG_CATEGORYW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_LOG_CATEGORY
--	FAX_LOG_CATEGORYA
--	FAX_LOG_CATEGORYW
+ - FAX_LOG_CATEGORY
+ - FAX_LOG_CATEGORYA
+ - FAX_LOG_CATEGORYW
 product: Windows
 targetos: Windows
 req.lib: 

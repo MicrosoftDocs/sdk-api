@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	SR_DISK_REPLICATION_ELIGIBLE
+ - SR_DISK_REPLICATION_ELIGIBLE
 product: Windows
 targetos: Windows
 req.lib: 

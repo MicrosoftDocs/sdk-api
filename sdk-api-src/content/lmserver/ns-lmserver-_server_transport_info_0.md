@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, *LPSERVER_TRANSPORT_INFO_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmserver.h
+ - Lmserver.h
 api_name:
--	SERVER_TRANSPORT_INFO_0
+ - SERVER_TRANSPORT_INFO_0
 product: Windows
 targetos: Windows
 req.lib: 

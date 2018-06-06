@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STGC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WTypes.h
+ - WTypes.h
 api_name:
--	STGC
+ - STGC
 product: Windows
 targetos: Windows
 req.lib: 

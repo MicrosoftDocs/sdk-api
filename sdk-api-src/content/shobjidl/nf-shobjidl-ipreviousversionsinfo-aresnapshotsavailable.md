@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Twext.dll
+ - Twext.dll
 api_name:
--	IPreviousVersionsInfo.AreSnapshotsAvailable
+ - IPreviousVersionsInfo.AreSnapshotsAvailable
 product: Windows
 targetos: Windows
 req.lib: 

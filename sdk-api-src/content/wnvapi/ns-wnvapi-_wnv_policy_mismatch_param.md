@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_POLICY_MISMATCH_PARAM, *PWNV_POLICY_MISMATCH_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_POLICY_MISMATCH_PARAM
+ - WNV_POLICY_MISMATCH_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

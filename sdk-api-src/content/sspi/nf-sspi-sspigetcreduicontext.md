@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Credui.dll
--	Ext-MS-Win-security-credui-l1-1-1.dll
--	AnalogCredUI.dll
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
 api_name:
--	SspiGetCredUIContext
+ - SspiGetCredUIContext
 product: Windows
 targetos: Windows
 req.lib: Credui.lib

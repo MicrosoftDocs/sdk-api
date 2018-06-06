@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONDITION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Structuredquerycondition.h
+ - Structuredquerycondition.h
 api_name:
--	ICondition
+ - ICondition
 product: Windows
 targetos: Windows
 req.lib: 

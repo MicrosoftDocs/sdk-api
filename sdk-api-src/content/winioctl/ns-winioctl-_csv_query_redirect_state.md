@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_QUERY_REDIRECT_STATE, *PCSV_QUERY_REDIRECT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_QUERY_REDIRECT_STATE
+ - CSV_QUERY_REDIRECT_STATE
 product: Windows
 targetos: Windows
 req.lib: 

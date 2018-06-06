@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEARCH_QUERY_SYNTAX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	SEARCH_QUERY_SYNTAX
+ - SEARCH_QUERY_SYNTAX
 product: Windows
 targetos: Windows
 req.lib: 

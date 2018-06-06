@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wer.dll
--	Ext-MS-Win-wer-reporting-l1-1-0.dll
--	errorhandlingext.dll
--	Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
 api_name:
--	WerReportCloseHandle
+ - WerReportCloseHandle
 product: Windows
 targetos: Windows
 req.lib: Wer.lib

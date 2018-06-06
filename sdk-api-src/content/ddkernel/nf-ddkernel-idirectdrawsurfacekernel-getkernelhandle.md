@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONMSGSTRUCT, *PMONMSGSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ddkernel.h
+ - ddkernel.h
 api_name:
--	IDirectDrawSurfaceKernel.GetKernelHandle
+ - IDirectDrawSurfaceKernel.GetKernelHandle
 product: Windows
 targetos: Windows
 req.lib: 

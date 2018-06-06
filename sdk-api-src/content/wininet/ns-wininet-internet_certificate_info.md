@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_CERTIFICATE_INFO
+ - INTERNET_CERTIFICATE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

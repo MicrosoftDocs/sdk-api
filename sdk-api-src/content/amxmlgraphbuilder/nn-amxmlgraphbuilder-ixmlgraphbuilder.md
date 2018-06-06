@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_FRAMESTEP_STEP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	amxmlgraphbuilder.h
+ - amxmlgraphbuilder.h
 api_name:
--	IXMLGraphBuilder
+ - IXMLGraphBuilder
 product: Windows
 targetos: Windows
 req.lib: 

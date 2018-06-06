@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ddkmapi.h
+ - ddkmapi.h
 api_name:
--	NotifyCallback
+ - NotifyCallback
 product: Windows
 targetos: Windows
 req.lib: 

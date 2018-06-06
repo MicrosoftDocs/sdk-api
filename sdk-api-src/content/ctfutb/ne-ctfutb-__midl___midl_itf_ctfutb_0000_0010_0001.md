@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfLBIClick
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ctfutb.h
+ - Ctfutb.h
 api_name:
--	TfLBIClick
+ - TfLBIClick
 product: Windows
 targetos: Windows
 req.lib: 

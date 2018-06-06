@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_RETRIEVE_TKT_RESPONSE, *PKERB_RETRIEVE_TKT_RESPONSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_RETRIEVE_TKT_RESPONSE
+ - KERB_RETRIEVE_TKT_RESPONSE
 product: Windows
 targetos: Windows
 req.lib: 

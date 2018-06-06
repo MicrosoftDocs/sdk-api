@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEV_BROADCAST_DEVICEINTERFACE_A, *PDEV_BROADCAST_DEVICEINTERFACE_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dbt.h
+ - Dbt.h
 api_name:
--	DEV_BROADCAST_DEVICEINTERFACE
+ - DEV_BROADCAST_DEVICEINTERFACE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NTMS_IEDOORINFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntmsapi.h
+ - Ntmsapi.h
 api_name:
--	NTMS_IEDOORINFORMATION
+ - NTMS_IEDOORINFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

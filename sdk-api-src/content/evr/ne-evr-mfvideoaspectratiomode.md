@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoAspectRatioMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	evr.h
+ - evr.h
 api_name:
--	MFVideoAspectRatioMode
+ - MFVideoAspectRatioMode
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KSJACK_SINK_CONNECTIONTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Devicetopology.h
+ - Devicetopology.h
 api_name:
--	KSJACK_SINK_CONNECTIONTYPE
+ - KSJACK_SINK_CONNECTIONTYPE
 product: Windows
 targetos: Windows
 req.lib: Deviceaccess.lib

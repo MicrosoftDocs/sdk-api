@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPX_ADDRESS_DATA, *PIPX_ADDRESS_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsnwlink.h
+ - Wsnwlink.h
 api_name:
--	IPX_ADDRESS_DATA
+ - IPX_ADDRESS_DATA
 product: Windows
 targetos: Windows
 req.lib: 

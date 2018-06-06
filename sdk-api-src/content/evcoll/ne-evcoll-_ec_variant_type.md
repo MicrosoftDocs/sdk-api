@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EC_VARIANT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evcoll.h
+ - Evcoll.h
 api_name:
--	EC_VARIANT_TYPE
+ - EC_VARIANT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

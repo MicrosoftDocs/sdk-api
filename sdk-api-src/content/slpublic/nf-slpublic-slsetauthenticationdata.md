@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_ACTIVATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Slc.dll
+ - Slc.dll
 api_name:
--	SLSetAuthenticationData
+ - SLSetAuthenticationData
 product: Windows
 targetos: Windows
 req.lib: Slc.lib

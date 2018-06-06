@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FUNCKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OAIdl.h
+ - OAIdl.h
 api_name:
--	FUNCKIND
+ - FUNCKIND
 product: Windows
 targetos: Windows
 req.lib: 

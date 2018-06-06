@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_VOLUME_PROP, *PVSS_VOLUME_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsMgmt.h
+ - VsMgmt.h
 api_name:
--	VSS_VOLUME_PROP
+ - VSS_VOLUME_PROP
 product: Windows
 targetos: Windows
 req.lib: 

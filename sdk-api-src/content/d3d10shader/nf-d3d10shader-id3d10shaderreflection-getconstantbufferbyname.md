@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D10Shader.h
+ - D3D10Shader.h
 api_name:
--	ID3D10ShaderReflection.GetConstantBufferByName
+ - ID3D10ShaderReflection.GetConstantBufferByName
 product: Windows
 targetos: Windows
 req.lib: 

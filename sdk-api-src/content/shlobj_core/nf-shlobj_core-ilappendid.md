@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-Shell-Namespace-L1-1-0.dll
--	Windows.Storage.dll
+ - Shell32.dll
+ - API-MS-Win-Shell-Namespace-L1-1-0.dll
+ - Windows.Storage.dll
 api_name:
--	ILAppendID
+ - ILAppendID
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

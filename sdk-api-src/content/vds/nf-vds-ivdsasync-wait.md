@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_VOLUME_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Uuid.lib
--	Uuid.dll
+ - Uuid.lib
+ - Uuid.dll
 api_name:
--	IVdsAsync.Wait
+ - IVdsAsync.Wait
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

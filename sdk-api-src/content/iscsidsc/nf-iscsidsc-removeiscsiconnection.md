@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TARGET_INFORMATION_CLASS, *PTARGET_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Iscsidsc.dll
+ - Iscsidsc.dll
 api_name:
--	RemoveIscsiConnection
+ - RemoveIscsiConnection
 product: Windows
 targetos: Windows
 req.lib: Iscsidsc.lib

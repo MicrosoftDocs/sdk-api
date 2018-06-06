@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_RECORD, *PEVENT_RECORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComBase.dll
--	API-MS-Win-Core-WinRT-String-l1-1-0.dll
--	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
--	HSTRING_UserFree64
+ - HSTRING_UserFree64
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

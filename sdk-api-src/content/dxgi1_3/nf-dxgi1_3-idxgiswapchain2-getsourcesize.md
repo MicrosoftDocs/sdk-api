@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_OVERLAY_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxgi.lib
--	dxgi.dll
+ - dxgi.lib
+ - dxgi.dll
 api_name:
--	IDXGISwapChain2.GetSourceSize
+ - IDXGISwapChain2.GetSourceSize
 product: Windows
 targetos: Windows
 req.lib: Dxgi.lib

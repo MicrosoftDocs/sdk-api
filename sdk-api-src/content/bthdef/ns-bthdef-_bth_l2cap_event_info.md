@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bthdef.h
+ - Bthdef.h
 api_name:
--	BTH_L2CAP_EVENT_INFO
+ - BTH_L2CAP_EVENT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

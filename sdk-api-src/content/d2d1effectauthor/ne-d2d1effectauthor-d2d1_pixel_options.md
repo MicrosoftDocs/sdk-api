@@ -29,15 +29,15 @@ req.type-library: D2d1.lib; D2d1.dll
 tech.root: 
 req.typenames: D2D1_PIXEL_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	D2d1.lib
--	D2d1.dll
+ - D2d1.lib
+ - D2d1.dll
 api_name:
--	D2D1_PIXEL_OPTIONS
+ - D2D1_PIXEL_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

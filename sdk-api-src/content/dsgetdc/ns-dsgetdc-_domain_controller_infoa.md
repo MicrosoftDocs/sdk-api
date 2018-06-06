@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DOMAIN_CONTROLLER_INFOA, *PDOMAIN_CONTROLLER_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsgetdc.h
+ - Dsgetdc.h
 api_name:
--	DOMAIN_CONTROLLER_INFO
--	DOMAIN_CONTROLLER_INFOA
--	DOMAIN_CONTROLLER_INFOW
+ - DOMAIN_CONTROLLER_INFO
+ - DOMAIN_CONTROLLER_INFOA
+ - DOMAIN_CONTROLLER_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

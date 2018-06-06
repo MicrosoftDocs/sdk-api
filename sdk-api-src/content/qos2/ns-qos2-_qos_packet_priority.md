@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_PACKET_PRIORITY, *PQOS_PACKET_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qos2.h
+ - Qos2.h
 api_name:
--	QOS_PACKET_PRIORITY
+ - QOS_PACKET_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: 

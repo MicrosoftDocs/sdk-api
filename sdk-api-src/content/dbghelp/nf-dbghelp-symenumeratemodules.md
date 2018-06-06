@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dbghelp.dll
+ - Dbghelp.dll
 api_name:
--	SymEnumerateModules64
--	SymEnumerateModules64
--	SymEnumerateModulesW64
--	SymEnumerateModules
+ - SymEnumerateModules64
+ - SymEnumerateModules64
+ - SymEnumerateModulesW64
+ - SymEnumerateModules
 product: Windows
 targetos: Windows
 req.lib: Dbghelp.lib

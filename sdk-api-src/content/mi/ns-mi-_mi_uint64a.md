@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MI_Uint64A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mi.h
+ - Mi.h
 api_name:
--	MI_Uint64A
+ - MI_Uint64A
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DD_GETHEAPALIGNMENTDATA, *PDD_GETHEAPALIGNMENTDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dmemmgr.h
+ - dmemmgr.h
 api_name:
--	DD_GETHEAPALIGNMENTDATA
+ - DD_GETHEAPALIGNMENTDATA
 product: Windows
 targetos: Windows
 req.lib: 

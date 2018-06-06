@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Powrprof.dll
--	API-MS-Win-power-setting-l1-1-0.dll
+ - Powrprof.dll
+ - API-MS-Win-power-setting-l1-1-0.dll
 api_name:
--	PowerSettingUnregisterNotification
+ - PowerSettingUnregisterNotification
 product: Windows
 targetos: Windows
 req.lib: Powrprof.lib

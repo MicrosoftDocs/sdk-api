@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	ITraceDataProvider.FilterData
--	ITraceDataProvider.get_FilterData
--	ITraceDataProvider.put_FilterData
+ - ITraceDataProvider.FilterData
+ - ITraceDataProvider.get_FilterData
+ - ITraceDataProvider.put_FilterData
 product: Windows
 targetos: Windows
 req.lib: 

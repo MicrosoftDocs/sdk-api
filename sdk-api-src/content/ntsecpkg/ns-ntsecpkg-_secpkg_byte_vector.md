@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_BYTE_VECTOR, *PSECPKG_BYTE_VECTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_BYTE_VECTOR
+ - SECPKG_BYTE_VECTOR
 product: Windows
 targetos: Windows
 req.lib: 

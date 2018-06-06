@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL
+ - PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL
 product: Windows
 targetos: Windows
 req.lib: 

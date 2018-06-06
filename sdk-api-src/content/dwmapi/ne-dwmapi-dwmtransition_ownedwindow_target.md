@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	DWMTRANSITION_OWNEDWINDOW_TARGET
+ - DWMTRANSITION_OWNEDWINDOW_TARGET
 product: Windows
 targetos: Windows
 req.lib: 

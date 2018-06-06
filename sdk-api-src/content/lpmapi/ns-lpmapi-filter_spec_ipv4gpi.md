@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Filter_Spec_IPv4GPI
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	Filter_Spec_IPv4GPI
+ - Filter_Spec_IPv4GPI
 product: Windows
 targetos: Windows
 req.lib: 

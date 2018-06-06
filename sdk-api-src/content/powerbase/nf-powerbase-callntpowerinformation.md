@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	PowrProf.dll
--	API-MS-Win-power-base-l1-1-0.dll
+ - PowrProf.dll
+ - API-MS-Win-power-base-l1-1-0.dll
 api_name:
--	CallNtPowerInformation
+ - CallNtPowerInformation
 product: Windows
 targetos: Windows
 req.lib: PowrProf.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GROUP_USERS_INFO_1, *PGROUP_USERS_INFO_1, *LPGROUP_USERS_INFO_1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	GROUP_USERS_INFO_1
+ - GROUP_USERS_INFO_1
 product: Windows
 targetos: Windows
 req.lib: 

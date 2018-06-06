@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP4_ARRAY, *PIP4_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	IP4_ARRAY
+ - IP4_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

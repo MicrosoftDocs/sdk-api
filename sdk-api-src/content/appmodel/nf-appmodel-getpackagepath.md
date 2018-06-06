@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: PackageOrigin
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-AppModel-Runtime-l1-1-0.dll
--	kernel32legacy.dll
--	Ext-MS-Win-kernel32-package-l1-1-0.dll
--	Kernel.AppCore.dll
--	API-MS-Win-AppModel-RunTime-l1-1-1.dll
--	Ext-MS-Win-Kernel32-package-l1-1-2.dll
--	ext-ms-win-kernel32-package-l1-1-1.dll
--	API-MS-Win-AppModel-Runtime-L1-1-2.dll
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
--	GetPackagePath
+ - GetPackagePath
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

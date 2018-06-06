@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_OUTCOME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ntdll.dll
--	API-MS-Win-Core-RTLSupport-l1-2-0.dll
+ - ntdll.dll
+ - API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
--	RtlDeleteGrowableFunctionTable
+ - RtlDeleteGrowableFunctionTable
 product: Windows
 targetos: Windows
 req.lib: Ntdll.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Npapi.h
+ - Npapi.h
 api_name:
--	NOTIFYCANCEL
+ - NOTIFYCANCEL
 product: Windows
 targetos: Windows
 req.lib: 

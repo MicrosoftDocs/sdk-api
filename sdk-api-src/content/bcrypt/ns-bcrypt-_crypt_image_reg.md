@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_IMAGE_REG, *PCRYPT_IMAGE_REG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	CRYPT_IMAGE_REG
+ - CRYPT_IMAGE_REG
 product: Windows
 targetos: Windows
 req.lib: 

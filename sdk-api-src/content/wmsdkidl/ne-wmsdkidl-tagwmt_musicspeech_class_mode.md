@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_MUSICSPEECH_CLASS_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_MUSICSPEECH_CLASS_MODE
+ - WMT_MUSICSPEECH_CLASS_MODE
 product: Windows
 targetos: Windows
 req.lib: 

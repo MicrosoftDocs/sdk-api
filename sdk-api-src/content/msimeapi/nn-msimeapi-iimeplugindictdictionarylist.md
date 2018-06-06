@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POSTBL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msimeapi.h
+ - Msimeapi.h
 api_name:
--	IImePlugInDictDictionaryList
+ - IImePlugInDictDictionaryList
 product: Windows
 targetos: Windows
 req.lib: 

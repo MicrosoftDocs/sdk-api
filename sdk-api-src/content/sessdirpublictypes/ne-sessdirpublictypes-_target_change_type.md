@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TARGET_CHANGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SessDirPublicTypes.h
+ - SessDirPublicTypes.h
 api_name:
--	TARGET_CHANGE_TYPE
+ - TARGET_CHANGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: Sensorsapi.lib

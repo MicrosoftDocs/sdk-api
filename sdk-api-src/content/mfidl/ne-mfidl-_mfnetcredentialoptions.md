@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFNetCredentialOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFNetCredentialOptions
+ - MFNetCredentialOptions
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CUSTDATA, *LPCUSTDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OaIdl.h
+ - OaIdl.h
 api_name:
--	CUSTDATA
+ - CUSTDATA
 product: Windows
 targetos: Windows
 req.lib: 

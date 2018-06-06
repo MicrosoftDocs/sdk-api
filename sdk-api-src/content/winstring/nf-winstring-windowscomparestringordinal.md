@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WinRTType.lib
--	WinRTType.dll
--	API-MS-Win-Core-WinRT-String-l1-1-0.dll
--	ComBase.dll
--	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+ - WinRTType.lib
+ - WinRTType.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
--	WindowsCompareStringOrdinal
+ - WindowsCompareStringOrdinal
 product: Windows
 targetos: Windows
 req.lib: WinRTType.lib

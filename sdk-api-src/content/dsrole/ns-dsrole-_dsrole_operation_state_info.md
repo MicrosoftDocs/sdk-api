@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_OPERATION_STATE_INFO, *PDSROLE_OPERATION_STATE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsrole.h
+ - Dsrole.h
 api_name:
--	DSROLE_OPERATION_STATE_INFO
+ - DSROLE_OPERATION_STATE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

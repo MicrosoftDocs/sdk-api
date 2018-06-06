@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROUTER_INTERFACE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	ROUTER_INTERFACE_TYPE
+ - ROUTER_INTERFACE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UMS_SCHEDULER_STARTUP_INFO, *PUMS_SCHEDULER_STARTUP_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	UMS_SCHEDULER_STARTUP_INFO
+ - UMS_SCHEDULER_STARTUP_INFO
 product: Windows
 targetos: Windows
 req.lib: 

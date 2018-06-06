@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_UI_COMPONENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	shcore.dll
--	API-MS-Win-shcore-scaling-l1-1-1.dll
--	API-MS-Win-ShCore-Scaling-l1-1-2.dll
--	api-ms-win-shcore-scaling-l1.dll
+ - shcore.dll
+ - API-MS-Win-shcore-scaling-l1-1-1.dll
+ - API-MS-Win-ShCore-Scaling-l1-1-2.dll
+ - api-ms-win-shcore-scaling-l1.dll
 api_name:
--	GetScaleFactorForMonitor
+ - GetScaleFactorForMonitor
 product: Windows
 targetos: Windows
 req.lib: Shcore.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsock2.h
+ - Winsock2.h
 api_name:
--	ntohf
+ - ntohf
 product: Windows
 targetos: Windows
 req.lib: 

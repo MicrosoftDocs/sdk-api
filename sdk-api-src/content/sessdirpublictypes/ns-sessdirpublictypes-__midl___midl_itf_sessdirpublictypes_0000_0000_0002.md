@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SessDirPublicTypes.h
+ - SessDirPublicTypes.h
 api_name:
--	TSSD_ConnectionPoint
+ - TSSD_ConnectionPoint
 product: Windows
 targetos: Windows
 req.lib: 

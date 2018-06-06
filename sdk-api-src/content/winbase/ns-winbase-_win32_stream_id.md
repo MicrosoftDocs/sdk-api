@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	WIN32_STREAM_ID
+ - WIN32_STREAM_ID
 product: Windows
 targetos: Windows
 req.lib: 

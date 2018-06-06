@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENHMETAHEADER3
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Gdiplusmetaheader.h
+ - Gdiplusmetaheader.h
 api_name:
--	ENHMETAHEADER3
+ - ENHMETAHEADER3
 product: Windows
 targetos: Windows
 req.lib: 

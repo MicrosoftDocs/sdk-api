@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, *LPENUMLOGFONTEXDVA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	ENUMLOGFONTEXDV
--	ENUMLOGFONTEXDVA
--	ENUMLOGFONTEXDVW
+ - ENUMLOGFONTEXDV
+ - ENUMLOGFONTEXDVA
+ - ENUMLOGFONTEXDVW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PrintAsyncNotifyUserFilter
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	prnasnot.h
+ - prnasnot.h
 api_name:
--	PrintAsyncNotifyUserFilter
+ - PrintAsyncNotifyUserFilter
 product: Windows
 targetos: Windows
 req.lib: 

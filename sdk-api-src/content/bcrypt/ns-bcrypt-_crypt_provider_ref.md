@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PROVIDER_REF, *PCRYPT_PROVIDER_REF
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	CRYPT_PROVIDER_REF
+ - CRYPT_PROVIDER_REF
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	EXP_DARWIN_LINK
+ - EXP_DARWIN_LINK
 product: Windows
 targetos: Windows
 req.lib: 

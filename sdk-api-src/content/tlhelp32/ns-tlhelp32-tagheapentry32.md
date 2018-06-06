@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HEAPENTRY32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TlHelp32.h
+ - TlHelp32.h
 api_name:
--	HEAPENTRY32
+ - HEAPENTRY32
 product: Windows
 targetos: Windows
 req.lib: 

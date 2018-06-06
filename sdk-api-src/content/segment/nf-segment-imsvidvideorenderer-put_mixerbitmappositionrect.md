@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SourceSizeList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	segment.h
+ - segment.h
 api_name:
--	IMSVidVideoRenderer.put_MixerBitmapPositionRect
+ - IMSVidVideoRenderer.put_MixerBitmapPositionRect
 product: Windows
 targetos: Windows
 req.lib: 

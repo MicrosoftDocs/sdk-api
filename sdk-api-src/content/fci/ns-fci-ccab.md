@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CCAB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fci.h
+ - Fci.h
 api_name:
--	CCAB
+ - CCAB
 product: Windows
 targetos: Windows
 req.lib: 

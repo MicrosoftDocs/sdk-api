@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UPDATE_COMPLETE_MESSAGE, *PUPDATE_COMPLETE_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Routprot.h
+ - Routprot.h
 api_name:
--	UPDATE_COMPLETE_MESSAGE
+ - UPDATE_COMPLETE_MESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

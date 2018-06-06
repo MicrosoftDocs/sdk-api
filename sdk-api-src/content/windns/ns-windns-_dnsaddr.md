@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_ADDR, *PDNS_ADDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_ADDR
+ - DNS_ADDR
 product: Windows
 targetos: Windows
 req.lib: 

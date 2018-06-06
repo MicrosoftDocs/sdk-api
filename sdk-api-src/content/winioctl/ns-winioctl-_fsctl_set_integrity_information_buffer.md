@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+ - FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
+ - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
 req.lib: 

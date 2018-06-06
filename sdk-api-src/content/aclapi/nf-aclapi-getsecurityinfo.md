@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
--	advapi32legacy.dll
--	api-ms-win-security-provider-l1-1-0.dll
--	API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
--	ntmarta.dll
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
+ - advapi32legacy.dll
+ - api-ms-win-security-provider-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+ - ntmarta.dll
 api_name:
--	GetSecurityInfo
+ - GetSecurityInfo
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

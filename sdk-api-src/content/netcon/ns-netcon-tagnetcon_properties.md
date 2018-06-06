@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETCON_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NetCon.h
+ - NetCon.h
 api_name:
--	NETCON_PROPERTIES
+ - NETCON_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

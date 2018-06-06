@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AsyncStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mstask.dll
+ - Mstask.dll
 api_name:
--	GetNetScheduleAccountInformation
+ - GetNetScheduleAccountInformation
 product: Windows
 targetos: Windows
 req.lib: Mstask.lib

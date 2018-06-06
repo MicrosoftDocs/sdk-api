@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, *LPSERVER_TRANSPORT_INFO_3
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	NetFileEnum
+ - NetFileEnum
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

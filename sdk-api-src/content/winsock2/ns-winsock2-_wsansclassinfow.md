@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSANSCLASSINFOW, *PWSANSCLASSINFOW, *LPWSANSCLASSINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsock2.h
+ - Winsock2.h
 api_name:
--	WSANSCLASSINFO
+ - WSANSCLASSINFO
 product: Windows
 targetos: Windows
 req.lib: 

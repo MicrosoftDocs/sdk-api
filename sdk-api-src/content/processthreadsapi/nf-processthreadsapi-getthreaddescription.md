@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_VA_SPACE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	Kernelbase.dll
--	Api-ms-win-core-processthreads-l1-1-3.dll
+ - Kernel32.dll
+ - Kernelbase.dll
+ - Api-ms-win-core-processthreads-l1-1-3.dll
 api_name:
--	GetThreadDescription
+ - GetThreadDescription
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

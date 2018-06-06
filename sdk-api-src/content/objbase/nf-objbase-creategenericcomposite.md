@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+ - Ole32.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
--	CreateGenericComposite
+ - CreateGenericComposite
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RASNAPSTATE, *LPRASNAPSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rasdlg.dll
+ - Rasdlg.dll
 api_name:
--	RasPhonebookDlg
--	RasPhonebookDlgA
--	RasPhonebookDlgW
+ - RasPhonebookDlg
+ - RasPhonebookDlgA
+ - RasPhonebookDlgW
 product: Windows
 targetos: Windows
 req.lib: Rasdlg.lib

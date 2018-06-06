@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SecPkgContext_ConnectionInfo
+ - SecPkgContext_ConnectionInfo
 product: Windows
 targetos: Windows
 req.lib: 

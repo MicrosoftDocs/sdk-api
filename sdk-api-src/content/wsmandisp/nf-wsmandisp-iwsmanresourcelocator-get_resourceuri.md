@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WSManProxyAuthenticationFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WSMAuto.dll
+ - WSMAuto.dll
 api_name:
--	IWSManResourceLocator.ResourceURI
--	IWSManResourceLocator.get_ResourceURI
--	IWSManResourceLocator.put_ResourceURI
--	WSMan.ResourceURI
+ - IWSManResourceLocator.ResourceURI
+ - IWSManResourceLocator.get_ResourceURI
+ - IWSManResourceLocator.put_ResourceURI
+ - WSMan.ResourceURI
 product: Windows
 targetos: Windows
 req.lib: WSManDisp.tlb

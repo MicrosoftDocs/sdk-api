@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
+ - tuner.h
 api_name:
--	IDVBSLocator2.LocalSpectralInversionOverride
--	IDVBSLocator2.get_LocalSpectralInversionOverride
--	IDVBSLocator2.put_LocalSpectralInversionOverride
+ - IDVBSLocator2.LocalSpectralInversionOverride
+ - IDVBSLocator2.get_LocalSpectralInversionOverride
+ - IDVBSLocator2.put_LocalSpectralInversionOverride
 product: Windows
 targetos: Windows
 req.lib: 

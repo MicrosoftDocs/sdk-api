@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EFS_HASH_BLOB, *PEFS_HASH_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winefs.h
+ - Winefs.h
 api_name:
--	EFS_HASH_BLOB
+ - EFS_HASH_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NET_FW_SERVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Iphlpapi.dll
--	Icmp.dll
+ - Iphlpapi.dll
+ - Icmp.dll
 api_name:
--	IcmpSendEcho2
+ - IcmpSendEcho2
 product: Windows
 targetos: Windows
 req.lib: Iphlpapi.lib

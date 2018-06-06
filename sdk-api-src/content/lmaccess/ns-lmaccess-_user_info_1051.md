@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_INFO_1051, *PUSER_INFO_1051, *LPUSER_INFO_1051
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	USER_INFO_1051
+ - USER_INFO_1051
 product: Windows
 targetos: Windows
 req.lib: 

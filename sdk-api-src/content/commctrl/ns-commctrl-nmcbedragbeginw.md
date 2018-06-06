@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NMCBEDRAGBEGINW, *LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMCBEDRAGBEGIN
--	NMCBEDRAGBEGINA
--	NMCBEDRAGBEGINW
+ - NMCBEDRAGBEGIN
+ - NMCBEDRAGBEGINA
+ - NMCBEDRAGBEGINW
 product: Windows
 targetos: Windows
 req.lib: 

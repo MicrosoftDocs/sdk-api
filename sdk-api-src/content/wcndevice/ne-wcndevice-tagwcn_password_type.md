@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_PASSWORD_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wcndevice.h
+ - wcndevice.h
 api_name:
--	WCN_PASSWORD_TYPE
+ - WCN_PASSWORD_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

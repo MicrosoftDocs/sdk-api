@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
--	Hnetcfg.dll
+ - FirewallAPI.dll
+ - Hnetcfg.dll
 api_name:
--	INetFwAuthorizedApplications._NewEnum
--	INetFwAuthorizedApplications.get__NewEnum
+ - INetFwAuthorizedApplications._NewEnum
+ - INetFwAuthorizedApplications.get__NewEnum
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WORDREP_BREAK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	indexsrv.h
+ - indexsrv.h
 api_name:
--	IColumnMapper
+ - IColumnMapper
 product: Windows
 targetos: Windows
 req.lib: 

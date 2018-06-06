@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_DATA_DESCRIPTOR, *PEVENT_DATA_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evntprov.h
+ - Evntprov.h
 api_name:
--	EVENT_DATA_DESCRIPTOR
+ - EVENT_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

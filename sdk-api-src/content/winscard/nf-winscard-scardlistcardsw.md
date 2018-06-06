@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: WINSAT_BITMAP_SIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Winscard.dll
--	Ext-MS-Win-wlan-scard-l1-1-0.dll
--	Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+ - Winscard.dll
+ - Ext-MS-Win-wlan-scard-l1-1-0.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
--	SCardListCards
--	SCardListCardsA
--	SCardListCardsW
+ - SCardListCards
+ - SCardListCardsA
+ - SCardListCardsW
 product: Windows
 targetos: Windows
 req.lib: Winscard.lib

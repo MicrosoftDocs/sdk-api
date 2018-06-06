@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DD_D3DBUFCALLBACKS, *PDD_D3DBUFCALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_D3DBUFCALLBACKS
+ - DD_D3DBUFCALLBACKS
 product: Windows
 targetos: Windows
 req.lib: 

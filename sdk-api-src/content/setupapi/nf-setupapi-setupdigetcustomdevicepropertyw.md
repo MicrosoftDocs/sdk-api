@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	setupapi.dll
+ - setupapi.dll
 api_name:
--	SetupDiGetCustomDeviceProperty
--	SetupDiGetCustomDevicePropertyA
--	SetupDiGetCustomDevicePropertyW
+ - SetupDiGetCustomDeviceProperty
+ - SetupDiGetCustomDevicePropertyA
+ - SetupDiGetCustomDevicePropertyW
 product: Windows
 targetos: Windows
 req.lib: Setupapi.lib

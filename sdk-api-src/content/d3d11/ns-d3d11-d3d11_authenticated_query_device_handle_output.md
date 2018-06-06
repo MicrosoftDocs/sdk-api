@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d11.h
+ - d3d11.h
 api_name:
--	D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
+ - D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

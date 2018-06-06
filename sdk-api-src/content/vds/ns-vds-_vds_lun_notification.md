@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_LUN_NOTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_LUN_NOTIFICATION
+ - VDS_LUN_NOTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

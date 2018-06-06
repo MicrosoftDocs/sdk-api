@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dvp.h
+ - dvp.h
 api_name:
--	DDVIDEOPORTBANDWIDTH
+ - DDVIDEOPORTBANDWIDTH
 product: Windows
 targetos: Windows
 req.lib: 

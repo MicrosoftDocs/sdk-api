@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVAHDSW_CALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxvahd.h
+ - dxvahd.h
 api_name:
--	DXVAHDSW_CALLBACKS
+ - DXVAHDSW_CALLBACKS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vfw32.lib
--	Vfw32.dll
+ - Vfw32.lib
+ - Vfw32.dll
 api_name:
--	IAVIEditStream.Paste
+ - IAVIEditStream.Paste
 product: Windows
 targetos: Windows
 req.lib: Vfw32.lib

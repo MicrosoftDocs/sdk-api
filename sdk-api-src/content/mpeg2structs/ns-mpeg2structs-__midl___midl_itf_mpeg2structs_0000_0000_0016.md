@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSMCC_FILTER_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	DSMCC_FILTER_OPTIONS
+ - DSMCC_FILTER_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

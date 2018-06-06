@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Pdh.dll
+ - Pdh.dll
 api_name:
--	PdhGetDefaultPerfObject
--	PdhGetDefaultPerfObjectA
--	PdhGetDefaultPerfObjectW
+ - PdhGetDefaultPerfObject
+ - PdhGetDefaultPerfObjectA
+ - PdhGetDefaultPerfObjectW
 product: Windows
 targetos: Windows
 req.lib: Pdh.lib

@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: ITEMPROP, *LPITEMPROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Synch-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-Synch-l1-2-0.dll
--	API-MS-Win-Core-Synch-l1-2-1.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
 api_name:
--	CreateEvent
--	CreateEventA
--	CreateEventW
+ - CreateEvent
+ - CreateEventA
+ - CreateEventW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

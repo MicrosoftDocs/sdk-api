@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERVAL_LIMIT_KIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Structuredquery.h
+ - Structuredquery.h
 api_name:
--	INTERVAL_LIMIT_KIND
+ - INTERVAL_LIMIT_KIND
 product: Windows
 targetos: Windows
 req.lib: 

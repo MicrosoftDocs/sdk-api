@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSMAN_AUTHZ_QUOTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_AUTHZ_QUOTA
+ - WSMAN_AUTHZ_QUOTA
 product: Windows
 targetos: Windows
 req.lib: 

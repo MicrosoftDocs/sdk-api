@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_ATTRIBUTES_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	FILE_ATTRIBUTES_ARRAY
+ - FILE_ATTRIBUTES_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

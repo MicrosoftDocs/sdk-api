@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wfapi.dll
+ - wfapi.dll
 api_name:
--	INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
--	INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
--	INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
+ - INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
+ - INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
+ - INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PXE_DHCP_MESSAGE, *PPXE_DHCP_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WdsPxe.h
+ - WdsPxe.h
 api_name:
--	PXE_DHCP_MESSAGE
+ - PXE_DHCP_MESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

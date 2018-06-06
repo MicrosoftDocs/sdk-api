@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	wer.dll
--	API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
--	KernelBase.dll
+ - wer.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	WerStoreQueryReportMetadataV2
+ - WerStoreQueryReportMetadataV2
 product: Windows
 targetos: Windows
 req.lib: Wer.lib

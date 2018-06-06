@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-shlwapi-ie-l1-1-0.dll
--	shlwapi.dll
+ - Shell32.dll
+ - API-MS-Win-shlwapi-ie-l1-1-0.dll
+ - shlwapi.dll
 api_name:
--	SHRegGetBoolValueFromHKCUHKLM
+ - SHRegGetBoolValueFromHKCUHKLM
 product: Windows
 targetos: Windows
 req.lib: 

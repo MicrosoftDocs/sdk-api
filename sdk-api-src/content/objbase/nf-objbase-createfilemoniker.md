@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	Ext-MS-Win-Com-Ole32-L1-1-4.dll
+ - Ole32.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
--	CreateFileMoniker
+ - CreateFileMoniker
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RETRIEVAL_POINTER_BASE, *PRETRIEVAL_POINTER_BASE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	RETRIEVAL_POINTER_BASE
+ - RETRIEVAL_POINTER_BASE
 product: Windows
 targetos: Windows
 req.lib: 

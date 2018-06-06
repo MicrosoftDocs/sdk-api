@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WSClient.dll
--	Ext-MS-Win-WSClient-devlicense-l1-1-0.dll
--	Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
+ - WSClient.dll
+ - Ext-MS-Win-WSClient-devlicense-l1-1-0.dll
+ - Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
 api_name:
--	CheckDeveloperLicense
+ - CheckDeveloperLicense
 product: Windows
 targetos: Windows
 req.lib: 

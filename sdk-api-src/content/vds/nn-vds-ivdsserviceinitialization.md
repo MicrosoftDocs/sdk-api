@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_VOLUME_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	vds.h
+ - vds.h
 api_name:
--	IVdsServiceInitialization
+ - IVdsServiceInitialization
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

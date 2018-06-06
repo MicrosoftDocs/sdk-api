@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	ITraceDataCollector.NumberOfBuffers
--	ITraceDataCollector.get_NumberOfBuffers
--	ITraceDataCollector.put_NumberOfBuffers
+ - ITraceDataCollector.NumberOfBuffers
+ - ITraceDataCollector.get_NumberOfBuffers
+ - ITraceDataCollector.put_NumberOfBuffers
 product: Windows
 targetos: Windows
 req.lib: 

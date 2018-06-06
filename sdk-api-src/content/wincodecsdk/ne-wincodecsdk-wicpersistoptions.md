@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICPersistOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincodecsdk.h
+ - Wincodecsdk.h
 api_name:
--	WICPersistOptions
+ - WICPersistOptions
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAGTRANSFORM, *PMAGTRANSFORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Magnification.h
+ - Magnification.h
 api_name:
--	MAGTRANSFORM
+ - MAGTRANSFORM
 product: Windows
 targetos: Windows
 req.lib: 

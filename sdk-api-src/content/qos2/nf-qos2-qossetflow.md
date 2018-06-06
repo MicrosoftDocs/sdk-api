@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_TRAFFIC_TYPE, *PQOS_TRAFFIC_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	qwave.dll
+ - qwave.dll
 api_name:
--	QOSSetFlow
+ - QOSSetFlow
 product: Windows
 targetos: Windows
 req.lib: Qwave.lib

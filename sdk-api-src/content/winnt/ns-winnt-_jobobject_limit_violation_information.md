@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION, *PJOBOBJECT_LIMIT_VIOLATION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	JOBOBJECT_LIMIT_VIOLATION_INFORMATION
+ - JOBOBJECT_LIMIT_VIOLATION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

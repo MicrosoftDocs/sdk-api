@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_ACCESS_RIGHTS_ENUM_2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FaxComex.h
+ - FaxComex.h
 api_name:
--	FAX_ACCESS_RIGHTS_ENUM_2
+ - FAX_ACCESS_RIGHTS_ENUM_2
 product: Windows
 targetos: Windows
 req.lib: 

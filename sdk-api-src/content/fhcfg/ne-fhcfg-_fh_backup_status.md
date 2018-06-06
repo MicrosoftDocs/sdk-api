@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FH_BACKUP_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fhcfg.h
+ - Fhcfg.h
 api_name:
--	FH_BACKUP_STATUS
+ - FH_BACKUP_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

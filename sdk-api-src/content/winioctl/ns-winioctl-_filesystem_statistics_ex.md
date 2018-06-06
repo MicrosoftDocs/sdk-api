@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILESYSTEM_STATISTICS_EX, *PFILESYSTEM_STATISTICS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FILESYSTEM_STATISTICS_EX
+ - FILESYSTEM_STATISTICS_EX
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TIMED_TEXT_WRITING_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfmp2dlna.h
+ - mfmp2dlna.h
 api_name:
--	IMFDLNASinkInit.Initialize
+ - IMFDLNASinkInit.Initialize
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMPOSITIONFORM, *PCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *LPCOMPOSITIONFORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imm.h
+ - Imm.h
 api_name:
--	COMPOSITIONFORM
+ - COMPOSITIONFORM
 product: Windows
 targetos: Windows
 req.lib: 

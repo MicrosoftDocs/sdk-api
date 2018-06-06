@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREATE_ASM_NAME_OBJ_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsxs.h
+ - Winsxs.h
 api_name:
--	CREATE_ASM_NAME_OBJ_FLAGS
+ - CREATE_ASM_NAME_OBJ_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

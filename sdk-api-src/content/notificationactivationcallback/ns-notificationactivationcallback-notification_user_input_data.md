@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NOTIFICATION_USER_INPUT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NotificationActivationCallback.h
+ - NotificationActivationCallback.h
 api_name:
--	NOTIFICATION_USER_INPUT_DATA
+ - NOTIFICATION_USER_INPUT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SoH, SoHRequest, SoHResponse
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NapTypes.h
+ - NapTypes.h
 api_name:
--	SoH
+ - SoH
 product: Windows
 targetos: Windows
 req.lib: 

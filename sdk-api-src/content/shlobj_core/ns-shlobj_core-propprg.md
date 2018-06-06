@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPPRG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlobj_core.h
+ - Shlobj_core.h
 api_name:
--	PROPPRG
+ - PROPPRG
 product: Windows
 targetos: Windows
 req.lib: 

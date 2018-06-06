@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRBITBLT, *PEMRBITBLT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRBITBLT
+ - EMRBITBLT
 product: Windows
 targetos: Windows
 req.lib: 

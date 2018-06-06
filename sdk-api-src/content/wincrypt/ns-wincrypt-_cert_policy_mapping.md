@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_POLICY_MAPPING, *PCERT_POLICY_MAPPING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_POLICY_MAPPING
+ - CERT_POLICY_MAPPING
 product: Windows
 targetos: Windows
 req.lib: 

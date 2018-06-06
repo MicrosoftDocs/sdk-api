@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FsiFileSystems
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	FsiFileSystems
+ - FsiFileSystems
 product: Windows
 targetos: Windows
 req.lib: 

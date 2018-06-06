@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MSIPATCHSEQUENCEINFOA, *PMSIPATCHSEQUENCEINFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msi.h
+ - Msi.h
 api_name:
--	MSIPATCHSEQUENCEINFO
--	MSIPATCHSEQUENCEINFOA
--	MSIPATCHSEQUENCEINFOW
+ - MSIPATCHSEQUENCEINFO
+ - MSIPATCHSEQUENCEINFOA
+ - MSIPATCHSEQUENCEINFOW
 product: Windows
 targetos: Windows
 req.lib: 

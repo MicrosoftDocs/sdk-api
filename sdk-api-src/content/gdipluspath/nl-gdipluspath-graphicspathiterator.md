@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WmfPlaceableFileHeader
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	gdipluspath.h
+ - gdipluspath.h
 api_name:
--	GraphicsPathIterator
+ - GraphicsPathIterator
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

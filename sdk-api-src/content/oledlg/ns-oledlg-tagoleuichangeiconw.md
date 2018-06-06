@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUICHANGEICONW, *POLEUICHANGEICONW, *LPOLEUICHANGEICONW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUICHANGEICON
--	tagOLEUICHANGEICONA
--	tagOLEUICHANGEICONW
+ - OLEUICHANGEICON
+ - tagOLEUICHANGEICONA
+ - tagOLEUICHANGEICONW
 product: Windows
 targetos: Windows
 req.lib: 

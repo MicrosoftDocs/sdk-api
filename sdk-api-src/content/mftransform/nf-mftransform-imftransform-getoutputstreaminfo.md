@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfuuid.lib
--	mfuuid.dll
+ - mfuuid.lib
+ - mfuuid.dll
 api_name:
--	IMFTransform.GetOutputStreamInfo
+ - IMFTransform.GetOutputStreamInfo
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SimilarityFileId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Crypt32.dll
+ - Crypt32.dll
 api_name:
--	CryptSIPAddProvider
+ - CryptSIPAddProvider
 product: Windows
 targetos: Windows
 req.lib: Crypt32.lib

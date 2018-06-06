@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_SYMBOL64, *PIMAGEHLP_SYMBOL64
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGEHLP_SYMBOL64
--	IMAGEHLP_SYMBOL64
--	IMAGEHLP_SYMBOLW64
--	IMAGEHLP_SYMBOL
+ - IMAGEHLP_SYMBOL64
+ - IMAGEHLP_SYMBOL64
+ - IMAGEHLP_SYMBOLW64
+ - IMAGEHLP_SYMBOL
 product: Windows
 targetos: Windows
 req.lib: 

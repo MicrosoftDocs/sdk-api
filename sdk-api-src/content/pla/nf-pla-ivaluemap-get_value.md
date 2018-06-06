@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IValueMap.Value
--	IValueMap.get_Value
--	IValueMap.put_Value
+ - IValueMap.Value
+ - IValueMap.get_Value
+ - IValueMap.put_Value
 product: Windows
 targetos: Windows
 req.lib: 

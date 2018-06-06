@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSP_CALL_EVENT_CAUSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msp.h
+ - msp.h
 api_name:
--	MSP_CALL_EVENT_CAUSE
+ - MSP_CALL_EVENT_CAUSE
 product: Windows
 targetos: Windows
 req.lib: 

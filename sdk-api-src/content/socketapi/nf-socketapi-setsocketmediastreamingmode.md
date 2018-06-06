@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SnmpVarBindList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Windows.Networking.dll
+ - Windows.Networking.dll
 api_name:
--	SetSocketMediaStreamingMode
+ - SetSocketMediaStreamingMode
 product: Windows
 targetos: Windows
 req.lib: Windows.Networking.lib

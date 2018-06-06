@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OPENCARD_SEARCH_CRITERIAA, *POPENCARD_SEARCH_CRITERIAA, *LPOPENCARD_SEARCH_CRITERIAA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winscard.h
+ - Winscard.h
 api_name:
--	OPENCARD_SEARCH_CRITERIA
--	OPENCARD_SEARCH_CRITERIAA
--	OPENCARD_SEARCH_CRITERIAW
+ - OPENCARD_SEARCH_CRITERIA
+ - OPENCARD_SEARCH_CRITERIAA
+ - OPENCARD_SEARCH_CRITERIAW
 product: Windows
 targetos: Windows
 req.lib: 

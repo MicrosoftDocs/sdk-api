@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRACKING_COLL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	IComObjectPoolEvents2.OnObjPoolTimeout
+ - IComObjectPoolEvents2.OnObjPoolTimeout
 product: Windows
 targetos: Windows
 req.lib: 

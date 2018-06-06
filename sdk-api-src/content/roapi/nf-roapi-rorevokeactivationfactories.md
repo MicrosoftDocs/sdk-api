@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RO_INIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComBase.dll
--	API-MS-Win-Core-WinRT-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-l1-1-0.dll
 api_name:
--	RoRevokeActivationFactories
--	WinRTRevokeActivationFactories
+ - RoRevokeActivationFactories
+ - WinRTRevokeActivationFactories
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

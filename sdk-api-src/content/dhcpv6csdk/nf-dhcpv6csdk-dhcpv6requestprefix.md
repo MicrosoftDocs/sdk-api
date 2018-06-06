@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: StatusCode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dhcpcsvc6.dll
+ - Dhcpcsvc6.dll
 api_name:
--	Dhcpv6RequestPrefix
+ - Dhcpv6RequestPrefix
 product: Windows
 targetos: Windows
 req.lib: Dhcpcsvc6.lib

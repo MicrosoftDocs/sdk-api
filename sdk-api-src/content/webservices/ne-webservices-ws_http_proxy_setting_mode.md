@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_HTTP_PROXY_SETTING_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_HTTP_PROXY_SETTING_MODE
+ - WS_HTTP_PROXY_SETTING_MODE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
+ - WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 product: Windows
 targetos: Windows
 req.lib: 

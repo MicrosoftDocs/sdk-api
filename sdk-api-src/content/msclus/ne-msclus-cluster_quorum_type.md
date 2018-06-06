@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_QUORUM_TYPE
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	CLUSTER_QUORUM_TYPE
+ - CLUSTER_QUORUM_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	None
+ - None
 api_name:
--	FreeConfirmConflictItem
+ - FreeConfirmConflictItem
 product: Windows
 targetos: Windows
 req.lib: 

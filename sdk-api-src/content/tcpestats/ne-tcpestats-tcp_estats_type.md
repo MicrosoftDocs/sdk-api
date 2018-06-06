@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_ESTATS_TYPE, *PTCP_ESTATS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpestats.h
+ - Tcpestats.h
 api_name:
--	TCP_ESTATS_TYPE
+ - TCP_ESTATS_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

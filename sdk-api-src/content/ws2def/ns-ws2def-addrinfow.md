@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ADDRINFOW, *PADDRINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
--	Ws2tcpip.h
+ - Ws2def.h
+ - Ws2tcpip.h
 api_name:
--	ADDRINFOW
+ - ADDRINFOW
 product: Windows
 targetos: Windows
 req.lib: 

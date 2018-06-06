@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	OCSP_BASIC_REVOKED_INFO
+ - OCSP_BASIC_REVOKED_INFO
 product: Windows
 targetos: Windows
 req.lib: 

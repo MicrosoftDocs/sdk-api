@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ShellWindowTypeConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Exdisp.h
+ - Exdisp.h
 api_name:
--	ShellWindowTypeConstants
+ - ShellWindowTypeConstants
 product: Windows
 targetos: Windows
 req.lib: 

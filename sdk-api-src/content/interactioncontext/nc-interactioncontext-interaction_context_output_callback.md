@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TrustLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	interactioncontext.h
+ - interactioncontext.h
 api_name:
--	INTERACTION_CONTEXT_OUTPUT_CALLBACK
+ - INTERACTION_CONTEXT_OUTPUT_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

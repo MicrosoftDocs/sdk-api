@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSC_Binding
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	CSC_Binding
+ - CSC_Binding
 product: Windows
 targetos: Windows
 req.lib: 

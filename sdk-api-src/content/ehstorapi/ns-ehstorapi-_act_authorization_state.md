@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACT_AUTHORIZATION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	EhStorAPI.h
+ - EhStorAPI.h
 api_name:
--	ACT_AUTHORIZATION_STATE
+ - ACT_AUTHORIZATION_STATE
 product: Windows
 targetos: Windows
 req.lib: 

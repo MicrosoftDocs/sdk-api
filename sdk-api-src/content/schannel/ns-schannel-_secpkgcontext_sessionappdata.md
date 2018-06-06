@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_SessionAppData, *PSecPkgContext_SessionAppData
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SecPkgContext_SessionAppData
+ - SecPkgContext_SessionAppData
 product: Windows
 targetos: Windows
 req.lib: 

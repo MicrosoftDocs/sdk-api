@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ICONINFOEXW, *PICONINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winwlx.h
+ - Winwlx.h
 api_name:
--	WlxScreenSaverNotify
+ - WlxScreenSaverNotify
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_CACHE_GROUP_INFOW, *LPINTERNET_CACHE_GROUP_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_CACHE_GROUP_INFO
--	INTERNET_CACHE_GROUP_INFOA
--	INTERNET_CACHE_GROUP_INFOW
+ - INTERNET_CACHE_GROUP_INFO
+ - INTERNET_CACHE_GROUP_INFOA
+ - INTERNET_CACHE_GROUP_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

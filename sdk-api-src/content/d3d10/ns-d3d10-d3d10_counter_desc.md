@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_COUNTER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D10.h
+ - D3D10.h
 api_name:
--	D3D10_COUNTER_DESC
+ - D3D10_COUNTER_DESC
 product: Windows
 targetos: Windows
 req.lib: 

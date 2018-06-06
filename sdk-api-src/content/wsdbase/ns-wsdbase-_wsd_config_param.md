@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_CONFIG_PARAM, *PWSD_CONFIG_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wsdbase.h
+ - wsdbase.h
 api_name:
--	WSD_CONFIG_PARAM
+ - WSD_CONFIG_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

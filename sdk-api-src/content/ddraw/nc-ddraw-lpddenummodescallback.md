@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEDUP_CONTAINER_EXTENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Ddraw.h
+ - Ddraw.h
 api_name:
--	EnumModesCallback
+ - EnumModesCallback
 product: Windows
 targetos: Windows
 req.lib: 

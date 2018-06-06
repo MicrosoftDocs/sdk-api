@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SourceSizeList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	segment.h
+ - segment.h
 api_name:
--	IMSVidStreamBufferSource2.put_RateEx
+ - IMSVidStreamBufferSource2.put_RateEx
 product: Windows
 targetos: Windows
 req.lib: 

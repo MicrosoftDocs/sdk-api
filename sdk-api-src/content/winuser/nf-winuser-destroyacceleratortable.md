@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	ext-ms-win-ntuser-keyboard-l1-1-2.dll
--	Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
--	Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
--	Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+ - User32.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
--	DestroyAcceleratorTable
+ - DestroyAcceleratorTable
 product: Windows
 targetos: Windows
 req.lib: User32.lib

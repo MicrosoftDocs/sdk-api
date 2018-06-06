@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DISK_GEOMETRY_EX
+ - DISK_GEOMETRY_EX
 product: Windows
 targetos: Windows
 req.lib: 

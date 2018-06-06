@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SHSTOCKICONID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	Windows.Storage.dll
--	API-MS-Win-Shell-Associations-L1-1-0.dll
+ - Shell32.dll
+ - Windows.Storage.dll
+ - API-MS-Win-Shell-Associations-L1-1-0.dll
 api_name:
--	AssocCreateForClasses
+ - AssocCreateForClasses
 product: Windows
 targetos: Windows
 req.lib: 

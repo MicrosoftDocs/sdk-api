@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: QACONTROL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
--	ie_shims.dll
--	ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
--	API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+ - Ole32.dll
+ - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+ - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
--	OleSetClipboard
+ - OleSetClipboard
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

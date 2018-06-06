@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: URL_COMPONENTSA, *LPURL_COMPONENTSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	URL_COMPONENTS
--	URL_COMPONENTSA
--	URL_COMPONENTSW
+ - URL_COMPONENTS
+ - URL_COMPONENTSA
+ - URL_COMPONENTSW
 product: Windows
 targetos: Windows
 req.lib: 

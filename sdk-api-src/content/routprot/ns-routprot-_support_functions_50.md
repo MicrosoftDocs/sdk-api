@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SUPPORT_FUNCTIONS_50
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Routprot.h
+ - Routprot.h
 api_name:
--	SUPPORT_FUNCTIONS
+ - SUPPORT_FUNCTIONS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_SHUTDOWN_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rstrtmgr.dll
+ - Rstrtmgr.dll
 api_name:
--	RmJoinSession
+ - RmJoinSession
 product: Windows
 targetos: Windows
 req.lib: Rstrtmgr.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DESCKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OaIdl.h
+ - OaIdl.h
 api_name:
--	DESCKIND
+ - DESCKIND
 product: Windows
 targetos: Windows
 req.lib: 

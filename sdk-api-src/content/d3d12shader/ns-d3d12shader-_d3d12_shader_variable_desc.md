@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_SHADER_VARIABLE_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12shader.h
+ - d3d12shader.h
 api_name:
--	D3D12_SHADER_VARIABLE_DESC
+ - D3D12_SHADER_VARIABLE_DESC
 product: Windows
 targetos: Windows
 req.lib: 

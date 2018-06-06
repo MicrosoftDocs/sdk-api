@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRACKING_COLL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	ICrmCompensator.BeginPrepare
+ - ICrmCompensator.BeginPrepare
 product: Windows
 targetos: Windows
 req.lib: 

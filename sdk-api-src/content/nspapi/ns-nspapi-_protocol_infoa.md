@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PROTOCOL_INFOA, *PPROTOCOL_INFOA, *LPPROTOCOL_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nspapi.h
+ - Nspapi.h
 api_name:
--	PROTOCOL_INFO
--	PROTOCOL_INFOA
--	PROTOCOL_INFOW
+ - PROTOCOL_INFO
+ - PROTOCOL_INFOA
+ - PROTOCOL_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_IO_STATISTICS
+ - CLFS_IO_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	IMAGE_FILE_HEADER
+ - IMAGE_FILE_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

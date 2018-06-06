@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_AUTH_CREDENTIALS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	BitsPrx3.dll
+ - BitsPrx3.dll
 api_name:
--	IBackgroundCopyJob3.AddFileWithRanges
+ - IBackgroundCopyJob3.AddFileWithRanges
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

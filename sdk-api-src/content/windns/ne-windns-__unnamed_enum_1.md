@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_FREE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_FREE_TYPE
+ - DNS_FREE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_VERSION, *PHTTP_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	IAccess.h
+ - IAccess.h
 api_name:
--	IAccessControl.GetAllAccessRights
+ - IAccessControl.GetAllAccessRights
 product: Windows
 targetos: Windows
 req.lib: 

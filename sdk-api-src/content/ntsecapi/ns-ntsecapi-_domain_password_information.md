@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DOMAIN_PASSWORD_INFORMATION, *PDOMAIN_PASSWORD_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	DOMAIN_PASSWORD_INFORMATION
+ - DOMAIN_PASSWORD_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

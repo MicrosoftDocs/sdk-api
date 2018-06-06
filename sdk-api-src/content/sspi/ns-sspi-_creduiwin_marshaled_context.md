@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDUIWIN_MARSHALED_CONTEXT, *PCREDUIWIN_MARSHALED_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	CREDUIWIN_MARSHALED_CONTEXT
+ - CREDUIWIN_MARSHALED_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PSHNOTIFY, *LPPSHNOTIFY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	EnumPageFilesProc
--	PENUM_PAGE_FILE_CALLBACKA
--	PENUM_PAGE_FILE_CALLBACKW
+ - EnumPageFilesProc
+ - PENUM_PAGE_FILE_CALLBACKA
+ - PENUM_PAGE_FILE_CALLBACKW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTH_VALIDATION_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	AUTH_VALIDATION_EX
+ - AUTH_VALIDATION_EX
 product: Windows
 targetos: Windows
 req.lib: 

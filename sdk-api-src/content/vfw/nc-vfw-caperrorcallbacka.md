@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Vfw.h
+ - Vfw.h
 api_name:
--	capErrorCallback
--	CAPERRORCALLBACKA
--	CAPERRORCALLBACKW
+ - capErrorCallback
+ - CAPERRORCALLBACKA
+ - CAPERRORCALLBACKW
 product: Windows
 targetos: Windows
 req.lib: 

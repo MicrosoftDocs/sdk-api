@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADDRESS_CAPABILITY_STRING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi3if.h
+ - Tapi3if.h
 api_name:
--	ADDRESS_CAPABILITY_STRING
+ - ADDRESS_CAPABILITY_STRING
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

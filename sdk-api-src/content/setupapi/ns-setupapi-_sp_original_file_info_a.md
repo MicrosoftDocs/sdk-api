@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_ORIGINAL_FILE_INFO_A, *PSP_ORIGINAL_FILE_INFO_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_ORIGINAL_FILE_INFO
+ - SP_ORIGINAL_FILE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

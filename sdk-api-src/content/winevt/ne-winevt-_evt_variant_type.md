@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_VARIANT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinEvt.h
+ - WinEvt.h
 api_name:
--	EVT_VARIANT_TYPE
+ - EVT_VARIANT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

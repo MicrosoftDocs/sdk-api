@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D_MATRIX_4X3_F
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dcommon.h
+ - dcommon.h
 api_name:
--	D2D_MATRIX_4X3_F
+ - D2D_MATRIX_4X3_F
 product: Windows
 targetos: Windows
 req.lib: 

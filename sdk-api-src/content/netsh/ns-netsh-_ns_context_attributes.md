@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netsh.h
+ - Netsh.h
 api_name:
--	NS_CONTEXT_ATTRIBUTES
+ - NS_CONTEXT_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

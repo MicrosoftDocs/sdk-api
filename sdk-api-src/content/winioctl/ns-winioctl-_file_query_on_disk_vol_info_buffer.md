@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+ - FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

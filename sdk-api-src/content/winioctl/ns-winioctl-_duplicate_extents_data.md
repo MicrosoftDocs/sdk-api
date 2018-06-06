@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DUPLICATE_EXTENTS_DATA, *PDUPLICATE_EXTENTS_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DUPLICATE_EXTENTS_DATA
+ - DUPLICATE_EXTENTS_DATA
 product: Windows
 targetos: Windows
 req.lib: 

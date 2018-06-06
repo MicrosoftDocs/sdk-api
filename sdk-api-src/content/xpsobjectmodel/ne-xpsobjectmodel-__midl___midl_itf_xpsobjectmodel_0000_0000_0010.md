@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_FILL_RULE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xpsobjectmodel.h
+ - xpsobjectmodel.h
 api_name:
--	XPS_FILL_RULE
+ - XPS_FILL_RULE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
--	ComBase.dll
+ - api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
+ - ComBase.dll
 api_name:
--	RoGetParameterizedTypeInstanceIID
+ - RoGetParameterizedTypeInstanceIID
 product: Windows
 targetos: Windows
 req.lib: 

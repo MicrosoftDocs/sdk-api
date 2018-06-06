@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	ShCore.dll
--	API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
--	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
--	API-MS-Win-ShCore-thread-l1-1-0.dll
+ - Shlwapi.dll
+ - ShCore.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
--	SHSetThreadRef
+ - SHSetThreadRef
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

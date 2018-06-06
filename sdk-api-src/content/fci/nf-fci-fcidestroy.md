@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Cabinet.dll
+ - Cabinet.dll
 api_name:
--	FCIDestroy
+ - FCIDestroy
 product: Windows
 targetos: Windows
 req.lib: Cabinet.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FINDTEXTEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Richedit.h
+ - Richedit.h
 api_name:
--	FINDTEXTEX
--	FINDTEXTEXA
--	FINDTEXTEXW
+ - FINDTEXTEX
+ - FINDTEXTEXA
+ - FINDTEXTEXW
 product: Windows
 targetos: Windows
 req.lib: 

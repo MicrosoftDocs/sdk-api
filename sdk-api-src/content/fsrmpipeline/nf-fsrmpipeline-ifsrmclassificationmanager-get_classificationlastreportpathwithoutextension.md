@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
--	IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
--	IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
--	IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
 product: Windows
 targetos: Windows
 req.lib: 

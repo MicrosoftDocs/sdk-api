@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_VERSION_INFO, *PISCSI_VERSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	ISCSI_VERSION_INFO
+ - ISCSI_VERSION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

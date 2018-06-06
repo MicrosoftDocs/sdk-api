@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_MACRO, *LPD3D_SHADER_MACRO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3DCommon.h
+ - D3DCommon.h
 api_name:
--	D3D_SHADER_MACRO
+ - D3D_SHADER_MACRO
 product: Windows
 targetos: Windows
 req.lib: 

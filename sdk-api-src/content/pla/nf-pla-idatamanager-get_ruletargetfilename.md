@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IDataManager.RuleTargetFileName
--	IDataManager.get_RuleTargetFileName
--	IDataManager.put_RuleTargetFileName
+ - IDataManager.RuleTargetFileName
+ - IDataManager.get_RuleTargetFileName
+ - IDataManager.put_RuleTargetFileName
 product: Windows
 targetos: Windows
 req.lib: 

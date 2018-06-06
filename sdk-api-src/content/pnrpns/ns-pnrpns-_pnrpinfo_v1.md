@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPINFO_V1, *PPNRPINFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pnrpns.h
+ - Pnrpns.h
 api_name:
--	PNRPINFO_V1
+ - PNRPINFO_V1
 product: Windows
 targetos: Windows
 req.lib: 

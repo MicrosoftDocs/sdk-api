@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CrmLogRecordRead
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	CrmLogRecordRead
+ - CrmLogRecordRead
 product: Windows
 targetos: Windows
 req.lib: 

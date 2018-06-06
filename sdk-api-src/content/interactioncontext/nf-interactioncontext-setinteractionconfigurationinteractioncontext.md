@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: MOUSE_WHEEL_PARAMETER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ninput.dll
--	edgehtml.dll
--	API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
--	IE_Shims.dll
+ - ninput.dll
+ - edgehtml.dll
+ - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+ - IE_Shims.dll
 api_name:
--	SetInteractionConfigurationInteractionContext
+ - SetInteractionConfigurationInteractionContext
 product: Windows
 targetos: Windows
 req.lib: Ninput.lib

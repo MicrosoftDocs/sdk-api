@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAINTENANCE_MODE_TYPE_ENUM, *PMAINTENANCE_MODE_TYPE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	MAINTENANCE_MODE_TYPE_ENUM
+ - MAINTENANCE_MODE_TYPE_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

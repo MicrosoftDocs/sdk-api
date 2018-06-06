@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_SNAPSHOT_COMPATIBILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_SNAPSHOT_COMPATIBILITY
+ - VSS_SNAPSHOT_COMPATIBILITY
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

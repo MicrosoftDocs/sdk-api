@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntddpsch.h
+ - Ntddpsch.h
 api_name:
--	PS_CONFORMER_STATS
+ - PS_CONFORMER_STATS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STATPROPSTG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propkeydef.h
+ - Propkeydef.h
 api_name:
--	DEFINE_PROPERTYKEY
+ - DEFINE_PROPERTYKEY
 product: Windows
 targetos: Windows
 req.lib: 

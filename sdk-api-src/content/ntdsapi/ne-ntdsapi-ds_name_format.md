@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DS_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_NAME_FORMAT
+ - DS_NAME_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

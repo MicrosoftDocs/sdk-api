@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	evr.h
+ - evr.h
 api_name:
--	MFCreateVideoPresenter
+ - MFCreateVideoPresenter
 product: Windows
 targetos: Windows
 req.lib: 

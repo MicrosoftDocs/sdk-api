@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3DVSHADERCAPS2_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D9.lib
--	D3D9.dll
+ - D3D9.lib
+ - D3D9.dll
 api_name:
--	IDirect3DDevice9.GetDepthStencilSurface
+ - IDirect3DDevice9.GetDepthStencilSurface
 product: Windows
 targetos: Windows
 req.lib: D3D9.lib

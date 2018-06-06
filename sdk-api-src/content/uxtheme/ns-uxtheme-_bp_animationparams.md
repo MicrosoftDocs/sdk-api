@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BP_ANIMATIONPARAMS, *PBP_ANIMATIONPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Uxtheme.h
+ - Uxtheme.h
 api_name:
--	BP_ANIMATIONPARAMS
+ - BP_ANIMATIONPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

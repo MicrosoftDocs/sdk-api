@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntmsapi.dll
+ - Ntmsapi.dll
 api_name:
--	CloseNtmsNotification
+ - CloseNtmsNotification
 product: Windows
 targetos: Windows
 req.lib: Ntmsapi.lib

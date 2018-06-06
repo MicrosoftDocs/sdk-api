@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
+ - Advapi32.dll
+ - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
--	ClearEventLog
--	ClearEventLogA
--	ClearEventLogW
+ - ClearEventLog
+ - ClearEventLogA
+ - ClearEventLogW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

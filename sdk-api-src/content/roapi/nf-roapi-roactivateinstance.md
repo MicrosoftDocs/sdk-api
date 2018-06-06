@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: RO_INIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	roapi.h
--	API-MS-Win-Core-WinRT-l1-1-0.dll
--	ComBase.dll
+ - roapi.h
+ - API-MS-Win-Core-WinRT-l1-1-0.dll
+ - ComBase.dll
 api_name:
--	RoActivateInstance
--	WinRTActivateInstance
+ - RoActivateInstance
+ - WinRTActivateInstance
 product: Windows
 targetos: Windows
 req.lib: 

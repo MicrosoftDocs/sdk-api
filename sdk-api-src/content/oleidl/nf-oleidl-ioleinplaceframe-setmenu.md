@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USERCLASSTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OleIdl.h
+ - OleIdl.h
 api_name:
--	IOleInPlaceFrame.SetMenu
+ - IOleInPlaceFrame.SetMenu
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SLOWAPPINFO, *PSLOWAPPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shappmgr.h
+ - Shappmgr.h
 api_name:
--	SLOWAPPINFO
+ - SLOWAPPINFO
 product: Windows
 targetos: Windows
 req.lib: 

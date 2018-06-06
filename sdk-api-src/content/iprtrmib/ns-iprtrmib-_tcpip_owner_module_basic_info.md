@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
--	Iphlpapi.h
+ - Iprtrmib.h
+ - Iphlpapi.h
 api_name:
--	TCPIP_OWNER_MODULE_BASIC_INFO
+ - TCPIP_OWNER_MODULE_BASIC_INFO
 product: Windows
 targetos: Windows
 req.lib: 

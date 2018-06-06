@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_DEVICE_INFO, *PBTH_DEVICE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bthdef.h
+ - Bthdef.h
 api_name:
--	BTH_DEVICE_INFO
+ - BTH_DEVICE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

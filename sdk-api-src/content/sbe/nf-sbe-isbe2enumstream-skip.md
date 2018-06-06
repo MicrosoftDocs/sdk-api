@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAMBUFFER_ATTR_DATATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sbe.dll
+ - sbe.dll
 api_name:
--	ISBE2EnumStream.Skip
+ - ISBE2EnumStream.Skip
 product: Windows
 targetos: Windows
 req.lib: 

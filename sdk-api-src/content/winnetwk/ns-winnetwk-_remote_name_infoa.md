@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: REMOTE_NAME_INFOA, *LPREMOTE_NAME_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnetwk.h
+ - Winnetwk.h
 api_name:
--	REMOTE_NAME_INFO
--	REMOTE_NAME_INFOA
--	REMOTE_NAME_INFOW
+ - REMOTE_NAME_INFO
+ - REMOTE_NAME_INFOA
+ - REMOTE_NAME_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IGestureRecognizer.Enabled
--	IGestureRecognizer.get_Enabled
--	IGestureRecognizer.put_Enabled
--	IGestureRecognizer.get_Enabled
--	IGestureRecognizer.put_Enabled
+ - IGestureRecognizer.Enabled
+ - IGestureRecognizer.get_Enabled
+ - IGestureRecognizer.put_Enabled
+ - IGestureRecognizer.get_Enabled
+ - IGestureRecognizer.put_Enabled
 product: Windows
 targetos: Windows
 req.lib: 

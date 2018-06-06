@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgContext_StreamSizes
+ - SecPkgContext_StreamSizes
 product: Windows
 targetos: Windows
 req.lib: 

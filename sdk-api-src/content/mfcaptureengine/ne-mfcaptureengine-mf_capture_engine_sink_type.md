@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_CAPTURE_ENGINE_SINK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfcaptureengine.h
+ - mfcaptureengine.h
 api_name:
--	MF_CAPTURE_ENGINE_SINK_TYPE
+ - MF_CAPTURE_ENGINE_SINK_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

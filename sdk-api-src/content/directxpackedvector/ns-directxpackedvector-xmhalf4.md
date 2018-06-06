@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DirectXPackedVector.h
+ - DirectXPackedVector.h
 api_name:
--	XMHALF4
+ - XMHALF4
 product: Windows
 targetos: Windows
 req.lib: 

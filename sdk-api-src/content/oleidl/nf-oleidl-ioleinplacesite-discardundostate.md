@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: USERCLASSTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OleIdl.h
--	browsewm.dll
+ - OleIdl.h
+ - browsewm.dll
 api_name:
--	IOleInPlaceSite.DiscardUndoState
--	IOleInPlaceSiteWindowless.DiscardUndoState
+ - IOleInPlaceSite.DiscardUndoState
+ - IOleInPlaceSiteWindowless.DiscardUndoState
 product: Windows
 targetos: Windows
 req.lib: 

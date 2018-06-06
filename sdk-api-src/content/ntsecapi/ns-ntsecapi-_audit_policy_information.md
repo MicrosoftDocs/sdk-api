@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	AUDIT_POLICY_INFORMATION
+ - AUDIT_POLICY_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

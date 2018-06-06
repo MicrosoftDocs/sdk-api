@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVP_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	vptype.h
+ - vptype.h
 api_name:
--	AMVP_MODE
+ - AMVP_MODE
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASF_INDEX_IDENTIFIER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmdxva.h
+ - wmdxva.h
 api_name:
--	IWMCodecAMVideoAccelerator
+ - IWMCodecAMVideoAccelerator
 product: Windows
 targetos: Windows
 req.lib: 

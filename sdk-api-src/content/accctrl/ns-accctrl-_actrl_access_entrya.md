@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACTRL_ACCESS_ENTRYA, *PACTRL_ACCESS_ENTRYA
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- ACTRL_ACCESS_ENTRY
+ - ACTRL_ACCESS_ENTRY
  - ACTRL_ACCESS_ENTRYA
  - ACTRL_ACCESS_ENTRYW
 product: Windows

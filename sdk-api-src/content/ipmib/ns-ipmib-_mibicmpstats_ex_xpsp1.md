@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIBICMPSTATS_EX_XPSP1, *PMIBICMPSTATS_EX_XPSP1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipmib.h
--	Iprtrmib.h
+ - Ipmib.h
+ - Iprtrmib.h
 api_name:
--	MIBICMPSTATS_EX
+ - MIBICMPSTATS_EX
 product: Windows
 targetos: Windows
 req.lib: 

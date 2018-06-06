@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: THDTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	objidlbase.h
+ - objidlbase.h
 api_name:
--	THDTYPE
+ - THDTYPE
 product: Windows
 targetos: Windows
 req.lib: 

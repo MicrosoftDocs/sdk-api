@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_CONFIG_PARAM_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wsdapi.dll
+ - wsdapi.dll
 api_name:
--	IWSDSSLClientCertificate.GetMappedAccessToken
+ - IWSDSSLClientCertificate.GetMappedAccessToken
 product: Windows
 targetos: Windows
 req.lib: 

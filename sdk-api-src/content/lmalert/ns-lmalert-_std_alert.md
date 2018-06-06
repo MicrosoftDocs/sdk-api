@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmalert.h
+ - Lmalert.h
 api_name:
--	STD_ALERT
+ - STD_ALERT
 product: Windows
 targetos: Windows
 req.lib: 

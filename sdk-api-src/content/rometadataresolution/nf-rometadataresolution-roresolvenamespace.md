@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WinTypes.dll
--	API-MS-Win-ro-typeresolution-l1-1-0.dll
--	Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+ - WinTypes.dll
+ - API-MS-Win-ro-typeresolution-l1-1-0.dll
+ - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
 api_name:
--	RoResolveNamespace
+ - RoResolveNamespace
 product: Windows
 targetos: Windows
 req.lib: WinTypes.lib

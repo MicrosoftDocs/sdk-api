@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	CfgMgr32.dll
--	API-MS-Win-devices-config-l1-1-0.dll
--	API-MS-Win-devices-config-l1-1-1.dll
+ - CfgMgr32.dll
+ - API-MS-Win-devices-config-l1-1-0.dll
+ - API-MS-Win-devices-config-l1-1-1.dll
 api_name:
--	CM_Register_Notification
+ - CM_Register_Notification
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_IF_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_IF_ID
+ - RPC_IF_ID
 product: Windows
 targetos: Windows
 req.lib: 

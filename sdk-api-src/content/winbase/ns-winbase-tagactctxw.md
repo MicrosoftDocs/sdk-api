@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ACTCTXW, *PACTCTXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	ACTCTX
--	ACTCTXW
--	ACTCTXW
+ - ACTCTX
+ - ACTCTXW
+ - ACTCTXW
 product: Windows
 targetos: Windows
 req.lib: 

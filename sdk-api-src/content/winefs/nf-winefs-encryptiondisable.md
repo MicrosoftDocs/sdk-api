@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HANDLE_SHARING_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	EncryptionDisable
+ - EncryptionDisable
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

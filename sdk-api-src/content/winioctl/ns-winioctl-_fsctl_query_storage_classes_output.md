@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoctl.h
+ - WinIoctl.h
 api_name:
--	FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ - FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

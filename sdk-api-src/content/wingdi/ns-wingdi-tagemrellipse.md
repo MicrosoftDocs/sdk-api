@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRELLIPSE, *PEMRELLIPSE, EMRRECTANGLE, *PEMRRECTANGLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRELLIPSE
+ - EMRELLIPSE
 product: Windows
 targetos: Windows
 req.lib: 

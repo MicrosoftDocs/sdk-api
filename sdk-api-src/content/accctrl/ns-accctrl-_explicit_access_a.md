@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXPLICIT_ACCESS_A, *PEXPLICIT_ACCESS_A, EXPLICIT_ACCESSA, *PEXPLICIT_ACCESSA
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- EXPLICIT_ACCESS
+ - EXPLICIT_ACCESS
  - EXPLICIT_ACCESS_A
  - EXPLICIT_ACCESS_W
 product: Windows

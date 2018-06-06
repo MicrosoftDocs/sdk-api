@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_SCAN_CONTEXT
+ - CLFS_SCAN_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

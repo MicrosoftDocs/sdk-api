@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_LBBALLOONINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Ctxtcall.h
+ - Ctxtcall.h
 api_name:
--	IContextCallback.ContextCallback
+ - IContextCallback.ContextCallback
 product: Windows
 targetos: Windows
 req.lib: 

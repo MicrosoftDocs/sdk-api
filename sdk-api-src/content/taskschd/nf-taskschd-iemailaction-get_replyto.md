@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	IEmailAction.ReplyTo
--	IEmailAction.get_ReplyTo
--	IEmailAction.put_ReplyTo
+ - IEmailAction.ReplyTo
+ - IEmailAction.get_ReplyTo
+ - IEmailAction.put_ReplyTo
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

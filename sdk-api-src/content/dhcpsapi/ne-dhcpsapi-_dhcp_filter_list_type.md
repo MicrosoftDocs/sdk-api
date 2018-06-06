@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_FILTER_LIST_TYPE, *LPDHCP_FILTER_LIST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_FILTER_LIST_TYPE
+ - DHCP_FILTER_LIST_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

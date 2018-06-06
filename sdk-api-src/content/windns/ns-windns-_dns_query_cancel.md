@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_QUERY_CANCEL, *PDNS_QUERY_CANCEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_QUERY_CANCEL
+ - DNS_QUERY_CANCEL
 product: Windows
 targetos: Windows
 req.lib: 

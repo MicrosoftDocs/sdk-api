@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IDataCollectorSet.LatestOutputLocation
--	IDataCollectorSet.get_LatestOutputLocation
--	IDataCollectorSet.put_LatestOutputLocation
+ - IDataCollectorSet.LatestOutputLocation
+ - IDataCollectorSet.get_LatestOutputLocation
+ - IDataCollectorSet.put_LatestOutputLocation
 product: Windows
 targetos: Windows
 req.lib: 

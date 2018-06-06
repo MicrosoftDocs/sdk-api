@@ -29,14 +29,14 @@ req.type-library: D2D1.lib
 tech.root: 
 req.typenames: D2D1_MAPPED_RECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	D2D1.lib
+ - D2D1.lib
 api_name:
--	D2D1_MAPPED_RECT
+ - D2D1_MAPPED_RECT
 product: Windows
 targetos: Windows
 req.lib: 

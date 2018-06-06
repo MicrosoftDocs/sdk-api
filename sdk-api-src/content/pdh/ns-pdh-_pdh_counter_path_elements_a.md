@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_COUNTER_PATH_ELEMENTS_A, *PPDH_COUNTER_PATH_ELEMENTS_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_COUNTER_PATH_ELEMENTS
--	PDH_COUNTER_PATH_ELEMENTS_A
--	PDH_COUNTER_PATH_ELEMENTS_W
+ - PDH_COUNTER_PATH_ELEMENTS
+ - PDH_COUNTER_PATH_ELEMENTS_A
+ - PDH_COUNTER_PATH_ELEMENTS_W
 product: Windows
 targetos: Windows
 req.lib: 

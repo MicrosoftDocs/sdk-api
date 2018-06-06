@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TEB, *PTEB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wintrust.dll
+ - Wintrust.dll
 api_name:
--	WTHelperGetProvPrivateDataFromChain
+ - WTHelperGetProvPrivateDataFromChain
 product: Windows
 targetos: Windows
 req.lib: Wintrust.lib

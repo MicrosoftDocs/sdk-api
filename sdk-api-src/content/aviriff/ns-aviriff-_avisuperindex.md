@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVISUPERINDEX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	aviriff.h
+ - aviriff.h
 api_name:
--	AVISUPERINDEX
+ - AVISUPERINDEX
 product: Windows
 targetos: Windows
 req.lib: 

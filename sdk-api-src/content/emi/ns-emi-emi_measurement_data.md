@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMI_MEASUREMENT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	emi.h
+ - emi.h
 api_name:
--	EMI_MEASUREMENT_DATA
+ - EMI_MEASUREMENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSBX_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	TsVirtualChannels.h
+ - TsVirtualChannels.h
 api_name:
--	IWTSVirtualChannelCallback
+ - IWTSVirtualChannelCallback
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
--	Windows.Storage.dll
+ - Shell32.dll
+ - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+ - Windows.Storage.dll
 api_name:
--	SHResolveLibrary
+ - SHResolveLibrary
 product: Windows
 targetos: Windows
 req.lib: 

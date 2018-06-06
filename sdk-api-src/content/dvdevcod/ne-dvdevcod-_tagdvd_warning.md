@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_WARNING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dvdevcod.h
+ - dvdevcod.h
 api_name:
--	DVD_WARNING
+ - DVD_WARNING
 product: Windows
 targetos: Windows
 req.lib: 

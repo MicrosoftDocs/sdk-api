@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Amvideo.h
+ - Amvideo.h
 api_name:
--	SIZE_MPEG1VIDEOINFO
+ - SIZE_MPEG1VIDEOINFO
 product: Windows
 targetos: Windows
 req.lib: 

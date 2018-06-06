@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SL_ACTIVATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-slapi-l1-1-0.dll
--	Slc.dll
--	Clipc.dll
+ - api-ms-win-core-slapi-l1-1-0.dll
+ - Slc.dll
+ - Clipc.dll
 api_name:
--	SLQueryLicenseValueFromApp
+ - SLQueryLicenseValueFromApp
 product: Windows
 targetos: Windows
 req.lib: Api-ms-win-core-slapi-l1-1-0.lib

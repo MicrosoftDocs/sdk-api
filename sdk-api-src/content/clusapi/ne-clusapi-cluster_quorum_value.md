@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_QUORUM_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msclus.h
+ - msclus.h
 api_name:
--	CLUSTER_QUORUM_VALUE
+ - CLUSTER_QUORUM_VALUE
 product: Windows
 targetos: Windows
 req.lib: 

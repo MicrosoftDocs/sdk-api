@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PerfRegInfoType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	PerfRegInfoType
+ - PerfRegInfoType
 product: Windows
 targetos: Windows
 req.lib: 

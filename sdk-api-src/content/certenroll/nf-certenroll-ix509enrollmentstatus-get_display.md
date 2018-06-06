@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	IX509EnrollmentStatus.Display
--	IX509EnrollmentStatus.get_Display
--	IX509EnrollmentStatus.put_Display
+ - IX509EnrollmentStatus.Display
+ - IX509EnrollmentStatus.get_Display
+ - IX509EnrollmentStatus.put_Display
 product: Windows
 targetos: Windows
 req.lib: 

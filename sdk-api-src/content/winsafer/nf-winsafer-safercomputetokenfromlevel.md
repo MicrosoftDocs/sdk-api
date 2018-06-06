@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SAFER_POLICY_INFO_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
--	SaferComputeTokenFromLevel
+ - SaferComputeTokenFromLevel
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

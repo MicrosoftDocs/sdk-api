@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_POL_LOGIC_OPER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_POL_LOGIC_OPER
+ - DHCP_POL_LOGIC_OPER
 product: Windows
 targetos: Windows
 req.lib: 

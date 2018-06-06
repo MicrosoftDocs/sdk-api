@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEARCH_NOTIFICATION_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	SEARCH_NOTIFICATION_PRIORITY
+ - SEARCH_NOTIFICATION_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: 

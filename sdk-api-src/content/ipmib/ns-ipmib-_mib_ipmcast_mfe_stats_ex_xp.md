@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IPMCAST_MFE_STATS_EX_XP, *PMIB_IPMCAST_MFE_STATS_EX_XP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipmib.h
--	Iprtrmib.h
+ - Ipmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_IPMCAST_MFE_STATS_EX
+ - MIB_IPMCAST_MFE_STATS_EX
 product: Windows
 targetos: Windows
 req.lib: 

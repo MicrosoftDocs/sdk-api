@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	PARAM_BUFFER
+ - PARAM_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

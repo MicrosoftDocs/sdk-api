@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDBLTFX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ddraw.h
+ - Ddraw.h
 api_name:
--	DDBLTFX
+ - DDBLTFX
 product: Windows
 targetos: Windows
 req.lib: 

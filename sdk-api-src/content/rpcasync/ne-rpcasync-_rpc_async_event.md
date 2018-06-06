@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_ASYNC_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RPC_ASYNC_EVENT
+ - RPC_ASYNC_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

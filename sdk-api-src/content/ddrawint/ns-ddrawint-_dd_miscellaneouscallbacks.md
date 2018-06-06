@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DD_MISCELLANEOUSCALLBACKS, *PDD_MISCELLANEOUSCALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_MISCELLANEOUSCALLBACKS
+ - DD_MISCELLANEOUSCALLBACKS
 product: Windows
 targetos: Windows
 req.lib: 

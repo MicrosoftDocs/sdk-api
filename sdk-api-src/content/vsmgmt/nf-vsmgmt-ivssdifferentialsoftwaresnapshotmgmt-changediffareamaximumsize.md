@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VsMgmt.h
+ - VsMgmt.h
 api_name:
--	IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
+ - IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
 product: Windows
 targetos: Windows
 req.lib: 

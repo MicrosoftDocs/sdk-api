@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROFILEINFOW, *LPPROFILEINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Ole32.dll
+ - Ole32.dll
 api_name:
--	IPropertySetStorage.Enum
+ - IPropertySetStorage.Enum
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

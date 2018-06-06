@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MODULEINFO, *LPMODULEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	MODULEINFO
+ - MODULEINFO
 product: Windows
 targetos: Windows
 req.lib: 

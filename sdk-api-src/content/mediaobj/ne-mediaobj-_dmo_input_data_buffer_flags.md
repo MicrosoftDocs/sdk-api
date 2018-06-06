@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mediaobj.h
+ - Mediaobj.h
 api_name:
--	_DMO_INPUT_DATA_BUFFER_FLAGS
+ - _DMO_INPUT_DATA_BUFFER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-shell-shellfolders-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
--	Windows.Storage.dll
--	Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
--	Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+ - Windows.Storage.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
 api_name:
--	SHGetFolderPathAndSubDir
--	SHGetFolderPathAndSubDirA
--	SHGetFolderPathAndSubDirW
+ - SHGetFolderPathAndSubDir
+ - SHGetFolderPathAndSubDirA
+ - SHGetFolderPathAndSubDirW
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

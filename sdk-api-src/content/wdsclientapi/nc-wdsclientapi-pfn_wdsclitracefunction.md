@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	WdsClientAPI.h
+ - WdsClientAPI.h
 api_name:
--	PFN_WdsCliTraceFunction
+ - PFN_WdsCliTraceFunction
 product: Windows
 targetos: Windows
 req.lib: 

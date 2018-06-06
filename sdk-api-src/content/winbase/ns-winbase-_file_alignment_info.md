@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_ALIGNMENT_INFO, *PFILE_ALIGNMENT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	FILE_ALIGNMENT_INFO
+ - FILE_ALIGNMENT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

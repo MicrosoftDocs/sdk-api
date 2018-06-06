@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_LOCAL_BINDING, *PIP_LOCAL_BINDING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Routprot.h
+ - Routprot.h
 api_name:
--	IP_LOCAL_BINDING
+ - IP_LOCAL_BINDING
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PLEX_READ_DATA_REQUEST, *PPLEX_READ_DATA_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	PLEX_READ_DATA_REQUEST
+ - PLEX_READ_DATA_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

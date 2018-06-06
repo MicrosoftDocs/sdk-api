@@ -29,14 +29,14 @@ req.type-library: Msxml.tlb
 tech.root: 
 req.typenames: XHR_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msxml6.h
+ - msxml6.h
 api_name:
--	XHR_PROPERTY
+ - XHR_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

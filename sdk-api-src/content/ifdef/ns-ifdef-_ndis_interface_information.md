@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ifdef.h
+ - ifdef.h
 api_name:
--	NDIS_INTERFACE_INFORMATION
+ - NDIS_INTERFACE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

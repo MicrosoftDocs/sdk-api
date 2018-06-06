@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_UDPROW_OWNER_MODULE, *PMIB_UDPROW_OWNER_MODULE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Udpmib.h
--	Iprtrmib.h
+ - Udpmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_UDPROW_OWNER_MODULE
+ - MIB_UDPROW_OWNER_MODULE
 product: Windows
 targetos: Windows
 req.lib: 

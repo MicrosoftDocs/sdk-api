@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CHANGER_MOVE_MEDIUM
+ - CHANGER_MOVE_MEDIUM
 product: Windows
 targetos: Windows
 req.lib: 

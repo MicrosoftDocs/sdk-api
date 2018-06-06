@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPX_KEY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AppxPackaging.h
+ - AppxPackaging.h
 api_name:
--	APPX_KEY_INFO
+ - APPX_KEY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

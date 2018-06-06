@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_SHADER_VERSION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11shader.h
+ - d3d11shader.h
 api_name:
--	ID3D11ShaderReflectionVariable.GetBuffer
+ - ID3D11ShaderReflectionVariable.GetBuffer
 product: Windows
 targetos: Windows
 req.lib: 

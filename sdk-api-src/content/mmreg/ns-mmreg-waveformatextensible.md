@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MMReg.h
--	Ksmedia.h
+ - MMReg.h
+ - Ksmedia.h
 api_name:
--	WAVEFORMATEXTENSIBLE
+ - WAVEFORMATEXTENSIBLE
 product: Windows
 targetos: Windows
 req.lib: 

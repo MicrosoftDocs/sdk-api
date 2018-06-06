@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CPINFO, *LPCPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnls.h
+ - Winnls.h
 api_name:
--	CPINFO
+ - CPINFO
 product: Windows
 targetos: Windows
 req.lib: 

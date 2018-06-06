@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DX_IRQDATA, *PDX_IRQDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxmini.h
+ - dxmini.h
 api_name:
--	DX_IRQDATA
+ - DX_IRQDATA
 product: Windows
 targetos: Windows
 req.lib: 

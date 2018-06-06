@@ -29,23 +29,23 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Xenroll.dll
+ - Xenroll.dll
 api_name:
--	ICEnroll4.EnableT61DNEncoding
--	ICEnroll4.get_EnableT61DNEncoding
--	ICEnroll4.put_EnableT61DNEncoding
--	ICEnroll3.EnableT61DNEncoding
--	ICEnroll3.get_EnableT61DNEncoding
--	ICEnroll3.put_EnableT61DNEncoding
--	ICEnroll2.EnableT61DNEncoding
--	ICEnroll2.get_EnableT61DNEncoding
--	ICEnroll2.put_EnableT61DNEncoding
--	CEnroll.EnableT61DNEncoding
+ - ICEnroll4.EnableT61DNEncoding
+ - ICEnroll4.get_EnableT61DNEncoding
+ - ICEnroll4.put_EnableT61DNEncoding
+ - ICEnroll3.EnableT61DNEncoding
+ - ICEnroll3.get_EnableT61DNEncoding
+ - ICEnroll3.put_EnableT61DNEncoding
+ - ICEnroll2.EnableT61DNEncoding
+ - ICEnroll2.get_EnableT61DNEncoding
+ - ICEnroll2.put_EnableT61DNEncoding
+ - CEnroll.EnableT61DNEncoding
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

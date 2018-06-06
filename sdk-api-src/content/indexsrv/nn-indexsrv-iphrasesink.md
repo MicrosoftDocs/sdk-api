@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WORDREP_BREAK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Indexsrv.h
+ - Indexsrv.h
 api_name:
--	IPhraseSink
--	IPhraseSink.PutSmallPhrase
+ - IPhraseSink
+ - IPhraseSink.PutSmallPhrase
 product: Windows
 targetos: Windows
 req.lib: 

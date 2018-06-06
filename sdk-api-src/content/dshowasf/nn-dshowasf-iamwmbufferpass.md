@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Dshowasf.h
+ - Dshowasf.h
 api_name:
--	IAMWMBufferPass
+ - IAMWMBufferPass
 product: Windows
 targetos: Windows
 req.lib: 

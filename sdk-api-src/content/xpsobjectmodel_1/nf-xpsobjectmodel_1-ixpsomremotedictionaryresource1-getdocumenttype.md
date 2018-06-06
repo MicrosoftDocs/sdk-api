@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_DOCUMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	none
--	none.dll
+ - none
+ - none.dll
 api_name:
--	IXpsOMRemoteDictionaryResource1.GetDocumentType
+ - IXpsOMRemoteDictionaryResource1.GetDocumentType
 product: Windows
 targetos: Windows
 req.lib: None

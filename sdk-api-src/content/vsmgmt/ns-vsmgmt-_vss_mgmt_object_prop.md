@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_MGMT_OBJECT_PROP, *PVSS_MGMT_OBJECT_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsMgmt.h
+ - VsMgmt.h
 api_name:
--	VSS_MGMT_OBJECT_PROP
+ - VSS_MGMT_OBJECT_PROP
 product: Windows
 targetos: Windows
 req.lib: 

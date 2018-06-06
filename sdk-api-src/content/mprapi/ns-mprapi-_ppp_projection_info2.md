@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PPP_PROJECTION_INFO2, *PPPP_PROJECTION_INFO2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mprapi.h
+ - mprapi.h
 api_name:
--	PPP_PROJECTION_INFO2
+ - PPP_PROJECTION_INFO2
 product: Windows
 targetos: Windows
 req.lib: 

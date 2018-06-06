@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_MESSAGE_SEVERITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11SDKLayers.h
+ - D3D11SDKLayers.h
 api_name:
--	D3D11_MESSAGE_SEVERITY
+ - D3D11_MESSAGE_SEVERITY
 product: Windows
 targetos: Windows
 req.lib: 

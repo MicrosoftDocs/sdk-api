@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_PIXEL_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dcommon.h
+ - dcommon.h
 api_name:
--	D2D1_PIXEL_FORMAT
+ - D2D1_PIXEL_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

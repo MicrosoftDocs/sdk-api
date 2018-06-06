@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Localization-l2-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
 api_name:
--	EnumSystemCodePages
--	EnumSystemCodePagesA
--	EnumSystemCodePagesW
+ - EnumSystemCodePages
+ - EnumSystemCodePagesA
+ - EnumSystemCodePagesW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

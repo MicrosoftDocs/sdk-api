@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROG_INVOKE_SETTING, *PPROG_INVOKE_SETTING
 topic_type:
-- APIRef
+ - APIRef
  - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- AccCtrl.h
+ - AccCtrl.h
 api_name:
-- PROG_INVOKE_SETTING
+ - PROG_INVOKE_SETTING
 product: Windows
 targetos: Windows
 ---

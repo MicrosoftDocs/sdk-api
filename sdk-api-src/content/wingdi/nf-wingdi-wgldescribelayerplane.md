@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	opengl32.dll
+ - opengl32.dll
 api_name:
--	wglDescribeLayerPlane
+ - wglDescribeLayerPlane
 product: Windows
 targetos: Windows
 req.lib: Opengl32.lib

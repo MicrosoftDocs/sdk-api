@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_PROVIDER_CONTEXT, *PPERF_PROVIDER_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	PERF_PROVIDER_CONTEXT
+ - PERF_PROVIDER_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

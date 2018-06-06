@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROFILEINFOW, *LPPROFILEINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	MicrosoftAccountTokenProvider.dll
+ - MicrosoftAccountTokenProvider.dll
 api_name:
--	IProofOfPossessionCookieInfoManager.GetCookieInfoForUri
+ - IProofOfPossessionCookieInfoManager.GetCookieInfoForUri
 product: Windows
 targetos: Windows
 req.lib: 

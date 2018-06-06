@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_FILE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	IMFDXGIDeviceManager.UnlockDevice
+ - IMFDXGIDeviceManager.UnlockDevice
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Timeprov.h
+ - Timeprov.h
 api_name:
--	TimeProvClose
+ - TimeProvClose
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: KnownGamingPrivileges
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Gdiplus.lib
--	Gdiplus.dll
+ - Gdiplus.lib
+ - Gdiplus.dll
 api_name:
--	GdiplusBase.operator new[]
+ - GdiplusBase.operator new[]
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

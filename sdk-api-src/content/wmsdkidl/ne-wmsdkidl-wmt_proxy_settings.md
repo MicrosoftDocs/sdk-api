@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_PROXY_SETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_PROXY_SETTINGS
+ - WMT_PROXY_SETTINGS
 product: Windows
 targetos: Windows
 req.lib: 

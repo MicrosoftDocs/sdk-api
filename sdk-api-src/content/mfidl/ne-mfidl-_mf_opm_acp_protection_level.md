@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_OPM_ACP_PROTECTION_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_OPM_ACP_PROTECTION_LEVEL
+ - MF_OPM_ACP_PROTECTION_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

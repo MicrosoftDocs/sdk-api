@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmFileScreenBase.BlockedFileGroups
--	IFsrmFileScreenBase.get_BlockedFileGroups
--	IFsrmFileScreenBase.put_BlockedFileGroups
+ - IFsrmFileScreenBase.BlockedFileGroups
+ - IFsrmFileScreenBase.get_BlockedFileGroups
+ - IFsrmFileScreenBase.put_BlockedFileGroups
 product: Windows
 targetos: Windows
 req.lib: 

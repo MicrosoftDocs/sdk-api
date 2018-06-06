@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TrustLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Inspectable.h
+ - Inspectable.h
 api_name:
--	TrustLevel
+ - TrustLevel
 product: Windows
 targetos: Windows
 req.lib: 

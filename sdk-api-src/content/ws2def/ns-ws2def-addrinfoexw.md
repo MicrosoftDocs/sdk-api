@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: ADDRINFOEXW, *PADDRINFOEXW, *LPADDRINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
--	Ws2tcpip.h
+ - Ws2def.h
+ - Ws2tcpip.h
 api_name:
--	ADDRINFOEX
--	addrinfoexA
--	addrinfoexW
+ - ADDRINFOEX
+ - addrinfoexA
+ - addrinfoexW
 product: Windows
 targetos: Windows
 req.lib: 

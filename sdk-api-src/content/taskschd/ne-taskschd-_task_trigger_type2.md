@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	taskschd.h
+ - taskschd.h
 api_name:
--	TASK_TRIGGER_TYPE2
+ - TASK_TRIGGER_TYPE2
 product: Windows
 targetos: Windows
 req.lib: 

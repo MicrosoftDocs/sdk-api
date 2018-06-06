@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PHYSICAL_MONITOR, *LPPHYSICAL_MONITOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PhysicalMonitorEnumerationAPI.h
+ - PhysicalMonitorEnumerationAPI.h
 api_name:
--	PHYSICAL_MONITOR
+ - PHYSICAL_MONITOR
 product: Windows
 targetos: Windows
 req.lib: 

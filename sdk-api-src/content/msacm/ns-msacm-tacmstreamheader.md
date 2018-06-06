@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACMSTREAMHEADER, *PACMSTREAMHEADER, *LPACMSTREAMHEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msacm.h
+ - Msacm.h
 api_name:
--	ACMSTREAMHEADER
+ - ACMSTREAMHEADER
 product: Windows
 targetos: Windows
 req.lib: 

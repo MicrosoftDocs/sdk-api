@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TERMINAL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tapi3.dll
+ - Tapi3.dll
 api_name:
--	ITAddressEvent.get_Address
+ - ITAddressEvent.get_Address
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

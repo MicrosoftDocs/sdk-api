@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREATE_DISK, *PCREATE_DISK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CREATE_DISK
+ - CREATE_DISK
 product: Windows
 targetos: Windows
 req.lib: 

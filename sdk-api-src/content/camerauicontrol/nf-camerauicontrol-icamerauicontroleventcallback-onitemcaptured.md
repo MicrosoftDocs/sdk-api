@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CALLFRAME_MARSHALCONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	camerauicontrol.h
+ - camerauicontrol.h
 api_name:
--	ICameraUIControlEventCallback.OnItemCaptured
+ - ICameraUIControlEventCallback.OnItemCaptured
 product: Windows
 targetos: Windows
 req.lib: 

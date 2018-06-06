@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_RELATIVE_BUTTON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Quartz.dll
+ - Quartz.dll
 api_name:
--	ICaptureGraphBuilder.SetOutputFileName
+ - ICaptureGraphBuilder.SetOutputFileName
 product: Windows
 targetos: Windows
 req.lib: 

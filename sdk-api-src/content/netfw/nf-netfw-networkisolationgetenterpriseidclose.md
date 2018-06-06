@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	firewallapi.dll
+ - firewallapi.dll
 api_name:
--	NetworkIsolationGetEnterpriseIdClose
+ - NetworkIsolationGetEnterpriseIdClose
 product: Windows
 targetos: Windows
 req.lib: 

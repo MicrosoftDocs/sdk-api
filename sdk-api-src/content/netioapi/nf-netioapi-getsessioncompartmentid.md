@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	GetSessionCompartmentId
+ - GetSessionCompartmentId
 product: Windows
 targetos: Windows
 req.lib: 

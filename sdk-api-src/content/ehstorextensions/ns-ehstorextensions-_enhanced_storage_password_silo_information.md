@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	EhStorExtensions.h
+ - EhStorExtensions.h
 api_name:
--	ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+ - ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

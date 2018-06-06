@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_MODEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	ID3D12GraphicsCommandList1.SetViewInstanceMask
+ - ID3D12GraphicsCommandList1.SetViewInstanceMask
 product: Windows
 targetos: Windows
 req.lib: 

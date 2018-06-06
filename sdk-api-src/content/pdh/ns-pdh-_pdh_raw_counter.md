@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_RAW_COUNTER, *PPDH_RAW_COUNTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_RAW_COUNTER
+ - PDH_RAW_COUNTER
 product: Windows
 targetos: Windows
 req.lib: 

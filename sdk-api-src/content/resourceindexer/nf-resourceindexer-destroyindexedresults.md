@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WitnessTagUpdateHelper
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mrmsupport.dll
+ - mrmsupport.dll
 api_name:
--	DestroyIndexedResults
+ - DestroyIndexedResults
 product: Windows
 targetos: Windows
 req.lib: Mrmsupport.lib

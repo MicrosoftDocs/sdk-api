@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_TEX2D_ARRAY_RTV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	D3D12_TEX2D_ARRAY_RTV
+ - D3D12_TEX2D_ARRAY_RTV
 product: Windows
 targetos: Windows
 req.lib: 

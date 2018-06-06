@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WORDLIST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Nmapi.dll
+ - Nmapi.dll
 api_name:
--	AddProperty
+ - AddProperty
 product: Windows
 targetos: Windows
 req.lib: Nmapi.lib

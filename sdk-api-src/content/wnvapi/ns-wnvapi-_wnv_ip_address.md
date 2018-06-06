@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_IP_ADDRESS, *PWNV_IP_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_IP_ADDRESS
+ - WNV_IP_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

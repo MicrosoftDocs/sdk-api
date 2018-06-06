@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_LICENSE_ACQ_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Msi.h
+ - Msi.h
 api_name:
--	INSTALLUI_HANDLER
--	INSTALLUI_HANDLERA
--	INSTALLUI_HANDLERW
+ - INSTALLUI_HANDLER
+ - INSTALLUI_HANDLERA
+ - INSTALLUI_HANDLERW
 product: Windows
 targetos: Windows
 req.lib: 

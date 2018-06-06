@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PRINT_OTHER_INFO, *PPRINT_OTHER_INFO, *LPPRINT_OTHER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmalert.h
+ - Lmalert.h
 api_name:
--	PRINT_OTHER_INFO
+ - PRINT_OTHER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

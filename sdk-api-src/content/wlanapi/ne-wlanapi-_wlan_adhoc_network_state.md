@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_ADHOC_NETWORK_STATE, *PWLAN_ADHOC_NETWORK_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_ADHOC_NETWORK_STATE
+ - WLAN_ADHOC_NETWORK_STATE
 product: Windows
 targetos: Windows
 req.lib: 

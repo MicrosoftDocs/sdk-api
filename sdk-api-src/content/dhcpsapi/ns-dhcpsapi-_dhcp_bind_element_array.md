@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_BIND_ELEMENT_ARRAY, *LPDHCP_BIND_ELEMENT_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_BIND_ELEMENT_ARRAY
+ - DHCP_BIND_ELEMENT_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

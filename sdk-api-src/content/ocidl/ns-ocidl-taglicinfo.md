@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LICINFO, *LPLICINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OCIdl.h
+ - OCIdl.h
 api_name:
--	LICINFO
+ - LICINFO
 product: Windows
 targetos: Windows
 req.lib: 

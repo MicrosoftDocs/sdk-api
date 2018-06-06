@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	VOLUME_DISK_EXTENTS
+ - VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vidcap.h
+ - Vidcap.h
 api_name:
--	IVideoProcAmp.getRange_Sharpness
+ - IVideoProcAmp.getRange_Sharpness
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_STREAM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	AM_STREAM_INFO
+ - AM_STREAM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

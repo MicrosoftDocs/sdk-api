@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_INTERFACE_CAPABILITY, *PWLAN_INTERFACE_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_INTERFACE_CAPABILITY
+ - WLAN_INTERFACE_CAPABILITY
 product: Windows
 targetos: Windows
 req.lib: 

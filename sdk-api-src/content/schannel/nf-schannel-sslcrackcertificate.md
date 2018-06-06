@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Schannel.dll
+ - Schannel.dll
 api_name:
--	SslCrackCertificate
+ - SslCrackCertificate
 product: Windows
 targetos: Windows
 req.lib: 

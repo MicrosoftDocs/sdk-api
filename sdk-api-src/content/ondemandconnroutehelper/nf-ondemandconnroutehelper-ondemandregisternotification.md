@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLEVERB, *LPOLEVERB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	OnDemandConnRouteHelper.dll
+ - OnDemandConnRouteHelper.dll
 api_name:
--	OnDemandRegisterNotification
+ - OnDemandRegisterNotification
 product: Windows
 targetos: Windows
 req.lib: OnDemandConnRouteHelper.lib

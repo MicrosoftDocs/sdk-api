@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_FEATURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_5.h
+ - DXGI1_5.h
 api_name:
--	DXGI_FEATURE
+ - DXGI_FEATURE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_UNICODE_STRING, *PLSA_UNICODE_STRING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	lsalookup.h
+ - lsalookup.h
 api_name:
--	LSA_UNICODE_STRING
+ - LSA_UNICODE_STRING
 product: Windows
 targetos: Windows
 req.lib: 

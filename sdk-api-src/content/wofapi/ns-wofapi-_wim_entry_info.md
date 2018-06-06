@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIM_ENTRY_INFO, *PWIM_ENTRY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wofapi.h
+ - wofapi.h
 api_name:
--	WIM_ENTRY_INFO
+ - WIM_ENTRY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

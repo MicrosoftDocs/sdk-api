@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_WMT_EVENT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	evcode.h
+ - evcode.h
 api_name:
--	AM_WMT_EVENT_DATA
+ - AM_WMT_EVENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

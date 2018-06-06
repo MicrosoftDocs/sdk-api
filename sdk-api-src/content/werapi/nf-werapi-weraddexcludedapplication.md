@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wer.dll
+ - Wer.dll
 api_name:
--	WerAddExcludedApplication
+ - WerAddExcludedApplication
 product: Windows
 targetos: Windows
 req.lib: Wer.lib

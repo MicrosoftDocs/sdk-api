@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_GENUINE_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Slpublic.h
+ - Slpublic.h
 api_name:
--	SL_GENUINE_STATE
+ - SL_GENUINE_STATE
 product: Windows
 targetos: Windows
 req.lib: 

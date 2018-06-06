@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENUM_PAGE_FILE_INFORMATION, *PENUM_PAGE_FILE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	ENUM_PAGE_FILE_INFORMATION
+ - ENUM_PAGE_FILE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

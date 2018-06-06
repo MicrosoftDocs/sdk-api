@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINTRUST_CERT_INFO, *PWINTRUST_CERT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	WINTRUST_CERT_INFO
+ - WINTRUST_CERT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

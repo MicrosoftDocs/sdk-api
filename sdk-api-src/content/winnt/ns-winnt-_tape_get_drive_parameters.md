@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TAPE_GET_DRIVE_PARAMETERS
+ - TAPE_GET_DRIVE_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

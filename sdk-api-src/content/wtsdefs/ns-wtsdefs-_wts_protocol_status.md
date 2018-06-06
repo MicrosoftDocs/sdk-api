@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_PROTOCOL_STATUS, *PWTS_PROTOCOL_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_PROTOCOL_STATUS
+ - WTS_PROTOCOL_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

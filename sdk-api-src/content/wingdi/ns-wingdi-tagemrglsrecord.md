@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRGLSRECORD, *PEMRGLSRECORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRGLSRECORD
+ - EMRGLSRECORD
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_STRONG_SIGN_SERIALIZED_INFO, *PCERT_STRONG_SIGN_SERIALIZED_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_STRONG_SIGN_SERIALIZED_INFO
+ - CERT_STRONG_SIGN_SERIALIZED_INFO
 product: Windows
 targetos: Windows
 req.lib: 

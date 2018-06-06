@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROWSETEVENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	ISearchScopeRule.get_IsDefault
+ - ISearchScopeRule.get_IsDefault
 product: Windows
 targetos: Windows
 req.lib: 

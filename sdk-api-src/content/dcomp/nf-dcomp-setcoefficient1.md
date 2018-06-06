@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D_VECTOR_4F
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dcomp.h
+ - dcomp.h
 api_name:
--	IDCompositionArithmeticCompositeEffect::setcoefficient1
+ - IDCompositionArithmeticCompositeEffect::setcoefficient1
 product: Windows
 targetos: Windows
 req.lib: 

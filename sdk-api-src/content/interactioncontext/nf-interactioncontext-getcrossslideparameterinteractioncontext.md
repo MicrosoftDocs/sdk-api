@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MOUSE_WHEEL_PARAMETER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ninput.dll
+ - ninput.dll
 api_name:
--	GetCrossSlideParameterInteractionContext
+ - GetCrossSlideParameterInteractionContext
 product: Windows
 targetos: Windows
 req.lib: Ninput.lib

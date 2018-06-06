@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVIMAINHEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Aviriff.h
+ - Aviriff.h
 api_name:
--	AVIMAINHEADER
+ - AVIMAINHEADER
 product: Windows
 targetos: Windows
 req.lib: 

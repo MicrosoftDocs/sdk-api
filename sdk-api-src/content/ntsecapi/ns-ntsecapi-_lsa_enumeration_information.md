@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_ENUMERATION_INFORMATION, *PLSA_ENUMERATION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	LSA_ENUMERATION_INFORMATION
+ - LSA_ENUMERATION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 
