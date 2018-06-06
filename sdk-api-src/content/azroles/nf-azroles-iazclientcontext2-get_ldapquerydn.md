@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.dll
+ - Azroles.dll
 api_name:
--	IAzClientContext2.LDAPQueryDN
--	IAzClientContext2.get_LDAPQueryDN
--	IAzClientContext2.put_LDAPQueryDN
+ - IAzClientContext2.LDAPQueryDN
+ - IAzClientContext2.get_LDAPQueryDN
+ - IAzClientContext2.put_LDAPQueryDN
 product: Windows
 targetos: Windows
 req.lib: Azroles.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Credentialprovider.h
+ - Credentialprovider.h
 api_name:
--	CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
+ - CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 product: Windows
 targetos: Windows
 req.lib: 

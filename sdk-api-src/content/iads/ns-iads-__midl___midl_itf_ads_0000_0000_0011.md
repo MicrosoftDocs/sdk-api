@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_NETADDRESS, *PADS_NETADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_NETADDRESS
+ - ADS_NETADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

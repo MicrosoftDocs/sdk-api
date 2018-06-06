@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHPUBKEY_VER3, DSSPUBKEY_VER3
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	DHPUBKEY_VER3
+ - DHPUBKEY_VER3
 product: Windows
 targetos: Windows
 req.lib: 

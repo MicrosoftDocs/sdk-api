@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Dbghelp.h
+ - Dbghelp.h
 api_name:
--	SymEnumSourceFileTokensProc
+ - SymEnumSourceFileTokensProc
 product: Windows
 targetos: Windows
 req.lib: 

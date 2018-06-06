@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	ENG_TIME_FIELDS
+ - ENG_TIME_FIELDS
 product: Windows
 targetos: Windows
 req.lib: 

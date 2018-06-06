@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_PROFILE_BUFFER_TYPE, *PKERB_PROFILE_BUFFER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_PROFILE_BUFFER_TYPE
+ - KERB_PROFILE_BUFFER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

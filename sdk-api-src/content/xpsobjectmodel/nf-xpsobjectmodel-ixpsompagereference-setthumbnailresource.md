@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_INTERLEAVING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	xpsobjectmodel.h
+ - xpsobjectmodel.h
 api_name:
--	IXpsOMPageReference.SetThumbnailResource
+ - IXpsOMPageReference.SetThumbnailResource
 product: Windows
 targetos: Windows
 req.lib: 

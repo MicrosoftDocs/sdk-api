@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: RASNAPSTATE, *LPRASNAPSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rasdlg.dll
--	Ext-MS-Win-ras-rasdlg-l1-1-0.dll
+ - Rasdlg.dll
+ - Ext-MS-Win-ras-rasdlg-l1-1-0.dll
 api_name:
--	RasDialDlg
--	RasDialDlgA
--	RasDialDlgW
+ - RasDialDlg
+ - RasDialDlgA
+ - RasDialDlgW
 product: Windows
 targetos: Windows
 req.lib: Rasdlg.lib

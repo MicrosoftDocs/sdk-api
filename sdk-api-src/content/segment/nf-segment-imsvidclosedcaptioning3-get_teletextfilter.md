@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SourceSizeList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	segment.h
+ - segment.h
 api_name:
--	IMSVidClosedCaptioning3.get_TeleTextFilter
+ - IMSVidClosedCaptioning3.get_TeleTextFilter
 product: Windows
 targetos: Windows
 req.lib: 

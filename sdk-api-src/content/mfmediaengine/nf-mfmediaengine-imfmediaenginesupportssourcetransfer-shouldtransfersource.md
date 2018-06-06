@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TIMED_TEXT_WRITING_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfmediaengine.h
+ - mfmediaengine.h
 api_name:
--	IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource
+ - IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource
 product: Windows
 targetos: Windows
 req.lib: 

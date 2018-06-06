@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MP_PARAMINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-memory-l1-1-4.dll
+ - api-ms-win-core-memory-l1-1-4.dll
 api_name:
--	QueryVirtualMemoryInformation
+ - QueryVirtualMemoryInformation
 product: Windows
 targetos: Windows
 req.lib: Onecore.lib

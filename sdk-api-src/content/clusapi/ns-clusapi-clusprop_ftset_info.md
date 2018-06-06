@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSPROP_FTSET_INFO, *PCLUSPROP_FTSET_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSPROP_FTSET_INFO
+ - CLUSPROP_FTSET_INFO
 product: Windows
 targetos: Windows
 req.lib: 

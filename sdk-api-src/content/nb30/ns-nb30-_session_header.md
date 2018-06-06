@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SESSION_HEADER, *PSESSION_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nb30.h
+ - Nb30.h
 api_name:
--	SESSION_HEADER
+ - SESSION_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

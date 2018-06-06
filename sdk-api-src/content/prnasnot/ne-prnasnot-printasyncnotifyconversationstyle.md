@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PrintAsyncNotifyConversationStyle
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	prnasnot.h
+ - prnasnot.h
 api_name:
--	PrintAsyncNotifyConversationStyle
+ - PrintAsyncNotifyConversationStyle
 product: Windows
 targetos: Windows
 req.lib: 

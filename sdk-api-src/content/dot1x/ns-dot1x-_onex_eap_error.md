@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ONEX_EAP_ERROR, *PONEX_EAP_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dot1x.h
+ - dot1x.h
 api_name:
--	ONEX_EAP_ERROR
+ - ONEX_EAP_ERROR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11_1.h
+ - d3d11_1.h
 api_name:
--	ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
+ - ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters
 product: Windows
 targetos: Windows
 req.lib: 

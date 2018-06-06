@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DFS_GET_PKT_ENTRY_STATE_ARG, *PDFS_GET_PKT_ENTRY_STATE_ARG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LmDfs.h
+ - LmDfs.h
 api_name:
--	DFS_GET_PKT_ENTRY_STATE_ARG
+ - DFS_GET_PKT_ENTRY_STATE_ARG
 product: Windows
 targetos: Windows
 req.lib: 

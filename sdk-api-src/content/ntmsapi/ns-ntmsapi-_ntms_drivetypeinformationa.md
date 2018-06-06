@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NTMS_DRIVETYPEINFORMATIONA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntmsapi.h
+ - Ntmsapi.h
 api_name:
--	NTMS_DRIVETYPEINFORMATION
+ - NTMS_DRIVETYPEINFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

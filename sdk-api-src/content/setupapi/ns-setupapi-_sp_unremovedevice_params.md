@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_UNREMOVEDEVICE_PARAMS
+ - SP_UNREMOVEDEVICE_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

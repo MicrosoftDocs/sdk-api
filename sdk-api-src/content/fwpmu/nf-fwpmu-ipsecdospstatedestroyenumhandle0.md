@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Fwpuclnt.dll
+ - Fwpuclnt.dll
 api_name:
--	IPsecDospStateDestroyEnumHandle0
+ - IPsecDospStateDestroyEnumHandle0
 product: Windows
 targetos: Windows
 req.lib: Fwpuclnt.lib

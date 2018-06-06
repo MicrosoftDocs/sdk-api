@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Prsht.h
+ - Prsht.h
 api_name:
--	PropSheet_RecalcPageSizes
+ - PropSheet_RecalcPageSizes
 product: Windows
 targetos: Windows
 req.lib: 

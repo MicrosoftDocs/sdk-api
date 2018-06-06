@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2.h
+ - imapi2.h
 api_name:
--	IWriteEngine2.get_StartingSectorsPerSecond
+ - IWriteEngine2.get_StartingSectorsPerSecond
 product: Windows
 targetos: Windows
 req.lib: 

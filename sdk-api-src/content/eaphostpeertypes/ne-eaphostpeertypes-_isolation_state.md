@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ISOLATION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaphostpeertypes.h
+ - eaphostpeertypes.h
 api_name:
--	ISOLATION_STATE
+ - ISOLATION_STATE
 product: Windows
 targetos: Windows
 req.lib: Eappcfg.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TVAudioMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Strmif.h
+ - Strmif.h
 api_name:
--	TVAudioMode
+ - TVAudioMode
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BIDIOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Richedit.h
+ - Richedit.h
 api_name:
--	BIDIOPTIONS
+ - BIDIOPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

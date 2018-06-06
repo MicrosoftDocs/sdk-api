@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPS_CLASSIFY_OUT0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwpstypes.h
+ - Fwpstypes.h
 api_name:
--	FWPS_CLASSIFY_OUT0
+ - FWPS_CLASSIFY_OUT0
 product: Windows
 targetos: Windows
 req.lib: 

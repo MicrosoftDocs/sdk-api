@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SendToMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Fxsutility.dll
+ - Fxsutility.dll
 api_name:
--	SendToFaxRecipient
+ - SendToFaxRecipient
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_SCHEMA_GUID_MAPA, *PDS_SCHEMA_GUID_MAPA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_SCHEMA_GUID_MAP
--	DS_SCHEMA_GUID_MAPA
--	DS_SCHEMA_GUID_MAPW
+ - DS_SCHEMA_GUID_MAP
+ - DS_SCHEMA_GUID_MAPA
+ - DS_SCHEMA_GUID_MAPW
 product: Windows
 targetos: Windows
 req.lib: 

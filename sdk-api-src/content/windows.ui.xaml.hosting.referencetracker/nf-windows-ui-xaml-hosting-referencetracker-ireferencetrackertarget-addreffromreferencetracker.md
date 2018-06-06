@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Windows.ui.xaml.hosting.referencetracker.h
+ - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
--	IReferenceTrackerTarget.AddRefFromReferenceTracker
+ - IReferenceTrackerTarget.AddRefFromReferenceTracker
 product: Windows
 targetos: Windows
 req.lib: 

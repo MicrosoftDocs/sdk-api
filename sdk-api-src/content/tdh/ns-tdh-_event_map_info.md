@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVENT_MAP_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	EVENT_MAP_INFO
+ - EVENT_MAP_INFO
 product: Windows
 targetos: Windows
 req.lib: 

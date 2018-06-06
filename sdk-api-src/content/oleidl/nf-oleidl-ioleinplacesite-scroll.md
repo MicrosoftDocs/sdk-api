@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: USERCLASSTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OleIdl.h
--	browsewm.dll
+ - OleIdl.h
+ - browsewm.dll
 api_name:
--	IOleInPlaceSite.Scroll
--	IOleInPlaceSiteWindowless.Scroll
+ - IOleInPlaceSite.Scroll
+ - IOleInPlaceSiteWindowless.Scroll
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JAVA_TRUST, *PJAVA_TRUST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Capi.h
+ - Capi.h
 api_name:
--	JAVA_TRUST
+ - JAVA_TRUST
 product: Windows
 targetos: Windows
 req.lib: 

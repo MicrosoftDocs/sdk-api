@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	GdiplusColorMatrix.h
+ - GdiplusColorMatrix.h
 api_name:
--	HistogramFormat
+ - HistogramFormat
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

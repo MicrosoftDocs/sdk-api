@@ -29,16 +29,16 @@ req.type-library: Tsuserex.tlb
 tech.root: 
 req.typenames: WTSSBX_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tsuserex.dll
+ - Tsuserex.dll
 api_name:
--	IADsTSUserEx.MaxConnectionTime
--	IADsTSUserEx.get_MaxConnectionTime
--	IADsTSUserEx.put_MaxConnectionTime
+ - IADsTSUserEx.MaxConnectionTime
+ - IADsTSUserEx.get_MaxConnectionTime
+ - IADsTSUserEx.put_MaxConnectionTime
 product: Windows
 targetos: Windows
 req.lib: 

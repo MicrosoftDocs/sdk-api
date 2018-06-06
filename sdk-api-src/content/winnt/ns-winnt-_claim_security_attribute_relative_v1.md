@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, *PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+ - CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 product: Windows
 targetos: Windows
 req.lib: 

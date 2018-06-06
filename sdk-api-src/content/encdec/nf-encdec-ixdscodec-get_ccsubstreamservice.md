@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ProtType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	EncDec.h
+ - EncDec.h
 api_name:
--	IXDSCodec.get_CCSubstreamService
+ - IXDSCodec.get_CCSubstreamService
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Avrt.dll
+ - Avrt.dll
 api_name:
--	AvRtCreateThreadOrderingGroup
+ - AvRtCreateThreadOrderingGroup
 product: Windows
 targetos: Windows
 req.lib: Avrt.lib

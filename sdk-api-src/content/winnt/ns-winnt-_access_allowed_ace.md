@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACCESS_ALLOWED_ACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	ACCESS_ALLOWED_ACE
+ - ACCESS_ALLOWED_ACE
 product: Windows
 targetos: Windows
 req.lib: 

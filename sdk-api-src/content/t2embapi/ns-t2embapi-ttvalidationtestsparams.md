@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TTVALIDATIONTESTSPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	T2embapi.h
+ - T2embapi.h
 api_name:
--	TTVALIDATIONTESTSPARAMS
+ - TTVALIDATIONTESTSPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

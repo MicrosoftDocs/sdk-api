@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WSAMSG, *PWSAMSG, *LPWSAMSG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
--	Mswsock.h
+ - Ws2def.h
+ - Mswsock.h
 api_name:
--	WSAMSG
+ - WSAMSG
 product: Windows
 targetos: Windows
 req.lib: 

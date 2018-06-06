@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.ScrollBars
--	IInkEdit.get_ScrollBars
--	IInkEdit.put_ScrollBars
--	InkEdit.get_ScrollBars
--	InkEdit.put_ScrollBars
+ - IInkEdit.ScrollBars
+ - IInkEdit.get_ScrollBars
+ - IInkEdit.put_ScrollBars
+ - InkEdit.get_ScrollBars
+ - InkEdit.put_ScrollBars
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

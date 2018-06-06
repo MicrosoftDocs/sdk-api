@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	windows.storage.dll
--	API-MS-Win-Shell-Dataobject-L1-1-0.dll
+ - Shell32.dll
+ - windows.storage.dll
+ - API-MS-Win-Shell-Dataobject-L1-1-0.dll
 api_name:
--	SHCreateDataObject
+ - SHCreateDataObject
 product: Windows
 targetos: Windows
 req.lib: 

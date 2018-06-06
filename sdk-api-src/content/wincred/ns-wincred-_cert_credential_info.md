@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_CREDENTIAL_INFO, *PCERT_CREDENTIAL_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinCred.h
+ - WinCred.h
 api_name:
--	CERT_CREDENTIAL_INFO
+ - CERT_CREDENTIAL_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wdsbp.dll
+ - Wdsbp.dll
 api_name:
--	WdsBpParseInitializev6
+ - WdsBpParseInitializev6
 product: Windows
 targetos: Windows
 req.lib: Wdsbp.lib

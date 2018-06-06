@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PPP_IPXCP_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	PPP_IPXCP_INFO
+ - PPP_IPXCP_INFO
 product: Windows
 targetos: Windows
 req.lib: 

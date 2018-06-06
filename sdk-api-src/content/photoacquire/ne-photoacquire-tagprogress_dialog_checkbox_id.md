@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROGRESS_DIALOG_CHECKBOX_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PhotoAcquire.h
+ - PhotoAcquire.h
 api_name:
--	PROGRESS_DIALOG_CHECKBOX_ID
+ - PROGRESS_DIALOG_CHECKBOX_ID
 product: Windows
 targetos: Windows
 req.lib: 

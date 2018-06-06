@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REMEDIATIONSERVERGROUPPROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SdoIas.h
+ - SdoIas.h
 api_name:
--	REMEDIATIONSERVERGROUPPROPERTIES
+ - REMEDIATIONSERVERGROUPPROPERTIES
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

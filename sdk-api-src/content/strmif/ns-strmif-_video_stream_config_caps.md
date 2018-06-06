@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEO_STREAM_CONFIG_CAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	VIDEO_STREAM_CONFIG_CAPS
+ - VIDEO_STREAM_CONFIG_CAPS
 product: Windows
 targetos: Windows
 req.lib: 

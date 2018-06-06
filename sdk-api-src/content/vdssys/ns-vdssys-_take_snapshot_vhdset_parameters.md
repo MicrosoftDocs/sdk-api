@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TAKE_SNAPSHOT_VHDSET_PARAMETERS, *PTAKE_SNAPSHOT_VHDSET_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	TAKE_SNAPSHOT_VHDSET_PARAMETERS
+ - TAKE_SNAPSHOT_VHDSET_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

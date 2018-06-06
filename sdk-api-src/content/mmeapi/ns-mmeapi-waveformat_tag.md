@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAVEFORMAT, *PWAVEFORMAT, *NPWAVEFORMAT, *LPWAVEFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmeapi.h
+ - mmeapi.h
 api_name:
--	WAVEFORMAT
+ - WAVEFORMAT
 product: Windows
 targetos: Windows
 req.lib: 

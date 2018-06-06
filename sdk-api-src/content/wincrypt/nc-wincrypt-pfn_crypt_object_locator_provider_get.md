@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
+ - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 product: Windows
 targetos: Windows
 req.lib: 

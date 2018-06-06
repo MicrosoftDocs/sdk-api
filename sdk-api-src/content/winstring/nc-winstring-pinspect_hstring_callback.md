@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	winstring.h
+ - winstring.h
 api_name:
--	PINSPECT_HSTRING_CALLBACK
+ - PINSPECT_HSTRING_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

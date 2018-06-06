@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	IWMPPlayer2.get_stretchToFit
+ - IWMPPlayer2.get_stretchToFit
 product: Windows
 targetos: Windows
 req.lib: 

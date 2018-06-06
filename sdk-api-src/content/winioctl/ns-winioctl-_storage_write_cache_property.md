@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	STORAGE_WRITE_CACHE_PROPERTY
+ - STORAGE_WRITE_CACHE_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

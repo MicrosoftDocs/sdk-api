@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_SMART_CARD_ROOT_INFO, *PCRYPT_SMART_CARD_ROOT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_SMART_CARD_ROOT_INFO
+ - CRYPT_SMART_CARD_ROOT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

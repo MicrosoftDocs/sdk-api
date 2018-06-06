@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TOPOLOGY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_TOPOLOGY_TYPE
+ - MF_TOPOLOGY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

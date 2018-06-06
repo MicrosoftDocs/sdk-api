@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, *LPDHCPV6PrefixLeaseInformation
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpv6csdk.h
+ - Dhcpv6csdk.h
 api_name:
--	DHCPV6PrefixLeaseInformation
+ - DHCPV6PrefixLeaseInformation
 product: Windows
 targetos: Windows
 req.lib: 

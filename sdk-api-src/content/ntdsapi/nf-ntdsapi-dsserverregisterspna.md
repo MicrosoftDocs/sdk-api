@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPL_OP_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdsapi.dll
+ - Ntdsapi.dll
 api_name:
--	DsServerRegisterSpn
--	DsServerRegisterSpnA
--	DsServerRegisterSpnW
+ - DsServerRegisterSpn
+ - DsServerRegisterSpnA
+ - DsServerRegisterSpnW
 product: Windows
 targetos: Windows
 req.lib: Ntdsapi.lib

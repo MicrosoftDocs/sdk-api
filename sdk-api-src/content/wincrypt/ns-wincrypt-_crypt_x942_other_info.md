@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_X942_OTHER_INFO, *PCRYPT_X942_OTHER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_X942_OTHER_INFO
+ - CRYPT_X942_OTHER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

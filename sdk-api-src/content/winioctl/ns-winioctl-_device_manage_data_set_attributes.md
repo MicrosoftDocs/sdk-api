@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

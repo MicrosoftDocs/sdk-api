@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_STREAM_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Authif.h
+ - Authif.h
 api_name:
--	PRADIUS_EXTENSION_PROCESS_EX
+ - PRADIUS_EXTENSION_PROCESS_EX
 product: Windows
 targetos: Windows
 req.lib: 

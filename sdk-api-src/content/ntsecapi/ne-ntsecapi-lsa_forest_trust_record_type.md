@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_FOREST_TRUST_RECORD_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	LSA_FOREST_TRUST_RECORD_TYPE
+ - LSA_FOREST_TRUST_RECORD_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

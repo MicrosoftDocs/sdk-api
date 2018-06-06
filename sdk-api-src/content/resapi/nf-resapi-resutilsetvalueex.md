@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_EXIT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ResUtils.dll
+ - ResUtils.dll
 api_name:
--	ResUtilSetValueEx
+ - ResUtilSetValueEx
 product: Windows
 targetos: Windows
 req.lib: ResUtils.lib

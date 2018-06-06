@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: X509SCEPFailInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certidl.lib
--	Certidl.dll
+ - Certidl.lib
+ - Certidl.dll
 api_name:
--	ICertPolicy2.Initialize
--	ICertPolicy.Initialize
--	CCertPolicy.Initialize
+ - ICertPolicy2.Initialize
+ - ICertPolicy.Initialize
+ - CCertPolicy.Initialize
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

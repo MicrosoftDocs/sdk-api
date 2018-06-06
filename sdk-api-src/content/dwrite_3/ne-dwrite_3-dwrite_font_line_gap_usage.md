@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dwrite_3.h
+ - dwrite_3.h
 api_name:
--	DWRITE_FONT_LINE_GAP_USAGE
+ - DWRITE_FONT_LINE_GAP_USAGE
 product: Windows
 targetos: Windows
 req.lib: 

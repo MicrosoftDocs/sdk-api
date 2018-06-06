@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POWERBROADCAST_SETTING, *PPOWERBROADCAST_SETTING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinUser.h
+ - WinUser.h
 api_name:
--	POWERBROADCAST_SETTING
+ - POWERBROADCAST_SETTING
 product: Windows
 targetos: Windows
 req.lib: 

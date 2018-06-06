@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_IF_ACCESS_TYPE, *PNET_IF_ACCESS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ifdef.h
+ - ifdef.h
 api_name:
--	NET_IF_ACCESS_TYPE
+ - NET_IF_ACCESS_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

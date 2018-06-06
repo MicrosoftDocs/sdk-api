@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	STORAGE_PHYSICAL_ADAPTER_DATA
+ - STORAGE_PHYSICAL_ADAPTER_DATA
 product: Windows
 targetos: Windows
 req.lib: 

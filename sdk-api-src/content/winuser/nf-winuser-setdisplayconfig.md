@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
--	MinUser.dll
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+ - MinUser.dll
 api_name:
--	SetDisplayConfig
+ - SetDisplayConfig
 product: Windows
 targetos: Windows
 req.lib: User32.lib

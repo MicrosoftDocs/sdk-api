@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USB_CONTROLLER_INFO_0, *PUSB_CONTROLLER_INFO_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USB_CONTROLLER_INFO_0
+ - USB_CONTROLLER_INFO_0
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SyncProviderConfigUIConfiguration
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Syncregistration.h
+ - Syncregistration.h
 api_name:
--	SyncProviderConfigUI
+ - SyncProviderConfigUI
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITERRESTORE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	vswriter.h
--	Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
--	VssAPI.dll
+ - vswriter.h
+ - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+ - VssAPI.dll
 api_name:
--	CreateWriterEx
+ - CreateWriterEx
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationTransformPattern2.CachedZoomLevel
--	IUIAutomationTransformPattern2.get_CachedZoomLevel
+ - IUIAutomationTransformPattern2.CachedZoomLevel
+ - IUIAutomationTransformPattern2.get_CachedZoomLevel
 product: Windows
 targetos: Windows
 req.lib: 

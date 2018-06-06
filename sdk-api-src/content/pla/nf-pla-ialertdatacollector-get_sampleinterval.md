@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IAlertDataCollector.SampleInterval
--	IAlertDataCollector.get_SampleInterval
--	IAlertDataCollector.put_SampleInterval
+ - IAlertDataCollector.SampleInterval
+ - IAlertDataCollector.get_SampleInterval
+ - IAlertDataCollector.put_SampleInterval
 product: Windows
 targetos: Windows
 req.lib: 

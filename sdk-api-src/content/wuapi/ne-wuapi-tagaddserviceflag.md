@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AddServiceFlag
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wuapi.h
+ - Wuapi.h
 api_name:
--	AddServiceFlag
+ - AddServiceFlag
 product: Windows
 targetos: Windows
 req.lib: 

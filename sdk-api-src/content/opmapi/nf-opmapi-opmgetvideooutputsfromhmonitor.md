@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dxva2.dll
+ - dxva2.dll
 api_name:
--	OPMGetVideoOutputsFromHMONITOR
+ - OPMGetVideoOutputsFromHMONITOR
 product: Windows
 targetos: Windows
 req.lib: Dxva2.lib

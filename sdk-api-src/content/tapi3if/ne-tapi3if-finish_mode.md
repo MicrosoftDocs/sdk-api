@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FINISH_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi3if.h
+ - Tapi3if.h
 api_name:
--	FINISH_MODE
+ - FINISH_MODE
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

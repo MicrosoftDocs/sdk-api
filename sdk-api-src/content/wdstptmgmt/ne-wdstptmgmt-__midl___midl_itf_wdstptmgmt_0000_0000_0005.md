@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_SERVICE_NOTIFICATION, *PWDSTRANSPORT_SERVICE_NOTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstptmgmt.h
+ - Wdstptmgmt.h
 api_name:
--	WDSTRANSPORT_SERVICE_NOTIFICATION
+ - WDSTRANSPORT_SERVICE_NOTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

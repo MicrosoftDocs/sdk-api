@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MP_PARAMINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Medparam.h
+ - Medparam.h
 api_name:
--	MP_PARAMINFO
+ - MP_PARAMINFO
 product: Windows
 targetos: Windows
 req.lib: 

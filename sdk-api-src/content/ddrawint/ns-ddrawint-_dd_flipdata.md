@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_FLIPDATA, DD_FLIPDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_FLIPDATA
+ - DD_FLIPDATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ddrawgdi.h
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32.dll
--	GDI32Full.dll
+ - Ddrawgdi.h
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
 api_name:
--	DdQueryDirectDrawObject
--	GdiEntry2
+ - DdQueryDirectDrawObject
+ - GdiEntry2
 product: Windows
 targetos: Windows
 req.lib: 

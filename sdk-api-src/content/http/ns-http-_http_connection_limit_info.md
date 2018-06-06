@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_CONNECTION_LIMIT_INFO
+ - HTTP_CONNECTION_LIMIT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

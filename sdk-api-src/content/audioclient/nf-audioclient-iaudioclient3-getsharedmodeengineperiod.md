@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	audioclient.h
+ - audioclient.h
 api_name:
--	IAudioClient3.GetSharedModeEnginePeriod
+ - IAudioClient3.GetSharedModeEnginePeriod
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	PROCESSOR_GROUP_INFO
+ - PROCESSOR_GROUP_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTWQ_WORKQUEUE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RTWorkQ.h
+ - RTWorkQ.h
 api_name:
--	RTWQ_WORKQUEUE_TYPE
+ - RTWQ_WORKQUEUE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

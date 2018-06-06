@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WSManProxyAuthenticationFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WSMAuto.dll
+ - WSMAuto.dll
 api_name:
--	IWSManEnumerator.Error
--	IWSManEnumerator.get_Error
+ - IWSManEnumerator.Error
+ - IWSManEnumerator.get_Error
 product: Windows
 targetos: Windows
 req.lib: WSManDisp.tlb

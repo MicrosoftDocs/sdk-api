@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SecPkgContext_SupportedSignatures
+ - SecPkgContext_SupportedSignatures
 product: Windows
 targetos: Windows
 req.lib: 

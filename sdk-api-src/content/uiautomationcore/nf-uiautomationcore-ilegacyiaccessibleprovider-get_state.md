@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UiAutomationCore.dll
+ - UiAutomationCore.dll
 api_name:
--	ILegacyIAccessibleProvider.State
--	ILegacyIAccessibleProvider.get_State
+ - ILegacyIAccessibleProvider.State
+ - ILegacyIAccessibleProvider.get_State
 product: Windows
 targetos: Windows
 req.lib: 

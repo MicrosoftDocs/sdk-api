@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RUNTIME_FUNCTION, *PRUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, *_PIMAGE_RUNTIME_FUNCTION_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	_IMAGE_RUNTIME_FUNCTION_ENTRY
+ - _IMAGE_RUNTIME_FUNCTION_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

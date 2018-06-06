@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	API-MS-Win-OLE32-IE-l1-1-0.dll
--	ole32_wp.dll
+ - Ole32.dll
+ - API-MS-Win-OLE32-IE-l1-1-0.dll
+ - ole32_wp.dll
 api_name:
--	CoFileTimeNow
+ - CoFileTimeNow
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

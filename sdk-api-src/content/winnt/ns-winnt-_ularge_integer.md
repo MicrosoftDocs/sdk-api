@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ULARGE_INTEGER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	ULARGE_INTEGER
+ - ULARGE_INTEGER
 product: Windows
 targetos: Windows
 req.lib: 

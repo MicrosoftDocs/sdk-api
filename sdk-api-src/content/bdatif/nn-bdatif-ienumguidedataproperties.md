@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SmartCardApplication
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bdatif.h
+ - Bdatif.h
 api_name:
--	IEnumGuideDataProperties
+ - IEnumGuideDataProperties
 product: Windows
 targetos: Windows
 req.lib: 

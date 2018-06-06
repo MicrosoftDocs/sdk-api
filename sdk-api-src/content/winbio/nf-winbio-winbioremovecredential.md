@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Winbio.dll
--	ext-ms-win-biometrics-winbio-core-l1-1-0.dll
--	Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
--	WinBioRemoveCredential
+ - WinBioRemoveCredential
 product: Windows
 targetos: Windows
 req.lib: Winbio.lib

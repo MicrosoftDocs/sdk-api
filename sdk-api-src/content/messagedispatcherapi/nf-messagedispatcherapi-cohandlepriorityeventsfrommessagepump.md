@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_MEMORY_REGION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ole32.dll
+ - ole32.dll
 api_name:
--	CoHandlePriorityEventsFromMessagePump
+ - CoHandlePriorityEventsFromMessagePump
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

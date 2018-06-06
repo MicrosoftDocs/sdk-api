@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
--	Winsock2.h
+ - Ws2def.h
+ - Winsock2.h
 api_name:
--	SOCKET_ADDRESS
+ - SOCKET_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

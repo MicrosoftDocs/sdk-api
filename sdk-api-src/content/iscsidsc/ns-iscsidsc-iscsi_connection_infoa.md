@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_CONNECTION_INFOA, *PISCSI_CONNECTION_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	ISCSI_CONNECTION_INFO
--	ISCSI_CONNECTION_INFOA
--	ISCSI_CONNECTION_INFOW
+ - ISCSI_CONNECTION_INFO
+ - ISCSI_CONNECTION_INFOA
+ - ISCSI_CONNECTION_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

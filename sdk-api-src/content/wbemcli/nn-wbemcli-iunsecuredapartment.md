@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Unsecapp.exe
+ - Unsecapp.exe
 api_name:
--	IUnsecuredApartment
--	UnsecuredApartment
+ - IUnsecuredApartment
+ - UnsecuredApartment
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

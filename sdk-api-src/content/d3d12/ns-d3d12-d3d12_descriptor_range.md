@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_DESCRIPTOR_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	D3D12_DESCRIPTOR_RANGE
+ - D3D12_DESCRIPTOR_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

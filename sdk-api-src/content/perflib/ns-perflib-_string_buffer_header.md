@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_STRING_BUFFER_HEADER, *PPERF_STRING_BUFFER_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	PERF_STRING_BUFFER_HEADER
+ - PERF_STRING_BUFFER_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

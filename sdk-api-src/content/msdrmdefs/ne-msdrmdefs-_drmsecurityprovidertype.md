@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRMSECURITYPROVIDERTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msdrmdefs.h
+ - Msdrmdefs.h
 api_name:
--	DRMSECURITYPROVIDERTYPE
+ - DRMSECURITYPROVIDERTYPE
 product: Windows
 targetos: Windows
 req.lib: 

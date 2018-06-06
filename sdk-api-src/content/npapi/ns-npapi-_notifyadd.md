@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NOTIFYADD, *LPNOTIFYADD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Npapi.h
+ - Npapi.h
 api_name:
--	NOTIFYADD
+ - NOTIFYADD
 product: Windows
 targetos: Windows
 req.lib: 

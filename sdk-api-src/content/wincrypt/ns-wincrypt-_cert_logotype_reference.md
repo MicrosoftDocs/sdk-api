@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_LOGOTYPE_REFERENCE, *PCERT_LOGOTYPE_REFERENCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_LOGOTYPE_REFERENCE
+ - CERT_LOGOTYPE_REFERENCE
 product: Windows
 targetos: Windows
 req.lib: 

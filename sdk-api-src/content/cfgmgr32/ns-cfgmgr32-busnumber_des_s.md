@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BUSNUMBER_DES, *PBUSNUMBER_DES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	BUSNUMBER_DES
+ - BUSNUMBER_DES
 product: Windows
 targetos: Windows
 req.lib: 

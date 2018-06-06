@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
+ - Ole32.dll
 api_name:
--	IsEqualGUID
+ - IsEqualGUID
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

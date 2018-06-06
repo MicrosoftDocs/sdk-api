@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAUDIO2FX_REVERB_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xaudio2fx.h
+ - xaudio2fx.h
 api_name:
--	XAUDIO2FX_REVERB_PARAMETERS
+ - XAUDIO2FX_REVERB_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

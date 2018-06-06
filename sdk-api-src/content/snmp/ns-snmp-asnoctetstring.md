@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AsnOctetString
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Snmp.h
+ - Snmp.h
 api_name:
--	AsnOctetString
+ - AsnOctetString
 product: Windows
 targetos: Windows
 req.lib: 

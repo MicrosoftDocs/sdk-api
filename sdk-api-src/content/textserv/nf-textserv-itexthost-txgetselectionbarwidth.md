@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TMGR_DIRECTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msftedit.dll
+ - Msftedit.dll
 api_name:
--	ITextHost.TxGetSelectionBarWidth
+ - ITextHost.TxGetSelectionBarWidth
 product: Windows
 targetos: Windows
 req.lib: 

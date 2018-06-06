@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Websocket.h
+ - Websocket.h
 api_name:
--	WEB_SOCKET_PROPERTY
+ - WEB_SOCKET_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

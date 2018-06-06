@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINML_TENSOR_DATA_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	winml.dll
+ - winml.dll
 api_name:
--	IWinMLRuntime
+ - IWinMLRuntime
 product: Windows
 targetos: Windows
 req.lib: Winml.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCH_CRED_PUBLIC_CERTCHAIN, *PSCH_CRED_PUBLIC_CERTCHAIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SCH_CRED_PUBLIC_CERTCHAIN
+ - SCH_CRED_PUBLIC_CERTCHAIN
 product: Windows
 targetos: Windows
 req.lib: 

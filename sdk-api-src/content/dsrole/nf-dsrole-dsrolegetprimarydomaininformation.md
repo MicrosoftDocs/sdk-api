@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_SERVER_STATE, *PDSROLE_SERVER_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	DsRoleGetPrimaryDomainInformation
+ - DsRoleGetPrimaryDomainInformation
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

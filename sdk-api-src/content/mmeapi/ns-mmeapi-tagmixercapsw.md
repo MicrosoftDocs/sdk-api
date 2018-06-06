@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIXERCAPSW, *PMIXERCAPSW, *LPMIXERCAPSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmeapi.h
+ - mmeapi.h
 api_name:
--	MIXERCAPS
+ - MIXERCAPS
 product: Windows
 targetos: Windows
 req.lib: 

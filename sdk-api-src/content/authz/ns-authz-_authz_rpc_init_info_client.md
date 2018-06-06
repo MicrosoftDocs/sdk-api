@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_RPC_INIT_INFO_CLIENT, *PAUTHZ_RPC_INIT_INFO_CLIENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Authz.h
+ - Authz.h
 api_name:
--	AUTHZ_RPC_INIT_INFO_CLIENT
+ - AUTHZ_RPC_INIT_INFO_CLIENT
 product: Windows
 targetos: Windows
 req.lib: 

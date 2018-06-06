@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USB_POWER_INFO, *PUSB_POWER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USB_POWER_INFO
+ - USB_POWER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

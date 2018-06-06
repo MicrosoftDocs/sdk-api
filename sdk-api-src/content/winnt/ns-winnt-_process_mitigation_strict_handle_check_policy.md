@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, *PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
+ - PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FPO_DATA, *PFPO_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	FPO_DATA
+ - FPO_DATA
 product: Windows
 targetos: Windows
 req.lib: 

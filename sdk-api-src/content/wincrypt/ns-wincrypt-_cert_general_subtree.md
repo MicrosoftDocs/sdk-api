@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_GENERAL_SUBTREE, *PCERT_GENERAL_SUBTREE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_GENERAL_SUBTREE
+ - CERT_GENERAL_SUBTREE
 product: Windows
 targetos: Windows
 req.lib: 

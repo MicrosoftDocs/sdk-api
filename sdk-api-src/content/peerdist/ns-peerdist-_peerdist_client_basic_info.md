@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEERDIST_CLIENT_BASIC_INFO, *PPEERDIST_CLIENT_BASIC_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	peerdist.h
+ - peerdist.h
 api_name:
--	PEERDIST_CLIENT_BASIC_INFO
+ - PEERDIST_CLIENT_BASIC_INFO
 product: Windows
 targetos: Windows
 req.lib: 

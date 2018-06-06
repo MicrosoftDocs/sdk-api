@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1effects_2.h
+ - d2d1effects_2.h
 api_name:
--	D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
+ - D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

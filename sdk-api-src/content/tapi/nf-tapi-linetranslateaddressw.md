@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: FLICK_POINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Tapi32.dll
--	Ext-MS-Win-ras-tapi32-l1-1-0.dll
+ - Tapi32.dll
+ - Ext-MS-Win-ras-tapi32-l1-1-0.dll
 api_name:
--	lineTranslateAddress
--	lineTranslateAddressA
--	lineTranslateAddressW
+ - lineTranslateAddress
+ - lineTranslateAddressA
+ - lineTranslateAddressW
 product: Windows
 targetos: Windows
 req.lib: Tapi32.lib

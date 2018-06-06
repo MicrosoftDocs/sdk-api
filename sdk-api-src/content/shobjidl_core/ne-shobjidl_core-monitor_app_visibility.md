@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONITOR_APP_VISIBILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shobjidl_core.h
+ - shobjidl_core.h
 api_name:
--	MONITOR_APP_VISIBILITY
+ - MONITOR_APP_VISIBILITY
 product: Windows
 targetos: Windows
 req.lib: 

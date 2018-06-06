@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LmDfs.h
+ - LmDfs.h
 api_name:
--	DFS_TARGET_PRIORITY
+ - DFS_TARGET_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EC_SUBSCRIPTION_CONTENT_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evcoll.h
+ - Evcoll.h
 api_name:
--	EC_SUBSCRIPTION_CONTENT_FORMAT
+ - EC_SUBSCRIPTION_CONTENT_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

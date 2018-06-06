@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPC_CANONICALIZATION_METHOD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msopc.h
+ - msopc.h
 api_name:
--	OPC_CANONICALIZATION_METHOD
+ - OPC_CANONICALIZATION_METHOD
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

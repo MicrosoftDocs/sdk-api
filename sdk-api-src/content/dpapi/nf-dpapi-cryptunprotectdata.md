@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ONEX_VARIABLE_BLOB, *PONEX_VARIABLE_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Crypt32.dll
+ - Crypt32.dll
 api_name:
--	CryptUnprotectData
+ - CryptUnprotectData
 product: Windows
 targetos: Windows
 req.lib: Crypt32.lib

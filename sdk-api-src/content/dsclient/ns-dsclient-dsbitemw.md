@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DSBITEMW, *PDSBITEMW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsclient.h
+ - Dsclient.h
 api_name:
--	DSBITEM
--	DSBITEMA
--	DSBITEMW
+ - DSBITEM
+ - DSBITEMA
+ - DSBITEMW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_FAILURE_ACTIONSW, *LPSERVICE_FAILURE_ACTIONSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SERVICE_FAILURE_ACTIONS
--	SERVICE_FAILURE_ACTIONSA
--	SERVICE_FAILURE_ACTIONSW
+ - SERVICE_FAILURE_ACTIONS
+ - SERVICE_FAILURE_ACTIONSA
+ - SERVICE_FAILURE_ACTIONSW
 product: Windows
 targetos: Windows
 req.lib: 

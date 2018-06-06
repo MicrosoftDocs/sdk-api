@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, *PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
+ - CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 product: Windows
 targetos: Windows
 req.lib: 

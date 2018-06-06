@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_DRVINFO_DATA_V2_A, *PSP_DRVINFO_DATA_V2_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_DRVINFO_DATA
+ - SP_DRVINFO_DATA
 product: Windows
 targetos: Windows
 req.lib: 

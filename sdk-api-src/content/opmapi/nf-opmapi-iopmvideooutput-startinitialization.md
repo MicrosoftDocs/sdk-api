@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_VIDEO_OUTPUT_SEMANTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	opmapi.h
+ - opmapi.h
 api_name:
--	IOPMVideoOutput.StartInitialization
+ - IOPMVideoOutput.StartInitialization
 product: Windows
 targetos: Windows
 req.lib: 

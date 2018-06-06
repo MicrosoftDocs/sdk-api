@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RIO_NOTIFICATION_COMPLETION, *PRIO_NOTIFICATION_COMPLETION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mswsock.h
+ - Mswsock.h
 api_name:
--	RIO_NOTIFICATION_COMPLETION
+ - RIO_NOTIFICATION_COMPLETION
 product: Windows
 targetos: Windows
 req.lib: 

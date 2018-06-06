@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SRow, *LPSRow
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wabdefs.h
+ - Wabdefs.h
 api_name:
--	SRow
+ - SRow
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_SCAN_FLAG
+ - DHCP_SCAN_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

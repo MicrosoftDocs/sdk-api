@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_CREATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	taskschd.h
+ - taskschd.h
 api_name:
--	TASK_CREATION
+ - TASK_CREATION
 product: Windows
 targetos: Windows
 req.lib: 

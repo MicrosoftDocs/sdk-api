@@ -29,23 +29,23 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
--	API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
--	SetVolumeMountPoint
--	SetVolumeMountPointA
--	SetVolumeMountPointW
+ - SetVolumeMountPoint
+ - SetVolumeMountPointA
+ - SetVolumeMountPointW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

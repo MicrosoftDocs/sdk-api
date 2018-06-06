@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMCOPPStatusOutput, *LPAMCOPPStatusOutput
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	AMCOPPStatusOutput
+ - AMCOPPStatusOutput
 product: Windows
 targetos: Windows
 req.lib: 

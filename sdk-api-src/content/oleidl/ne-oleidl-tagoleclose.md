@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OLECLOSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ole.h
+ - ole.h
 api_name:
--	OLECLOSE
+ - OLECLOSE
 product: Windows
 targetos: Windows
 req.lib: 

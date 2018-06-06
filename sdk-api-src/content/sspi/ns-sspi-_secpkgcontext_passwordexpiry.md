@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_PasswordExpiry, *PSecPkgContext_PasswordExpiry
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgContext_PasswordExpiry
+ - SecPkgContext_PasswordExpiry
 product: Windows
 targetos: Windows
 req.lib: 

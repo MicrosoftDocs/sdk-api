@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NCRYPT_SUPPORTED_LENGTHS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ncrypt.h
+ - Ncrypt.h
 api_name:
--	NCRYPT_SUPPORTED_LENGTHS
+ - NCRYPT_SUPPORTED_LENGTHS
 product: Windows
 targetos: Windows
 req.lib: 

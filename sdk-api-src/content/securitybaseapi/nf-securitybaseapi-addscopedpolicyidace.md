@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Security-base-l1-2-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
--	API-MS-Win-Security-Base-L1-2-1.dll
+ - Kernel32.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
--	AddScopedPolicyIDAce
+ - AddScopedPolicyIDAce
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

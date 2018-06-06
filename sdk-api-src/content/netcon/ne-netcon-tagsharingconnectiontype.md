@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	NetCon.h
+ - NetCon.h
 api_name:
--	SHARINGCONNECTIONTYPE
+ - SHARINGCONNECTIONTYPE
 product: Windows
 targetos: Windows
 req.lib: 

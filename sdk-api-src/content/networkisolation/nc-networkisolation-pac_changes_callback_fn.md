@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TAG_TYPE, *PTAG_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	networkisolation.h
+ - networkisolation.h
 api_name:
--	PAC_CHANGES_CALLBACK_FN
+ - PAC_CHANGES_CALLBACK_FN
 product: Windows
 targetos: Windows
 req.lib: 

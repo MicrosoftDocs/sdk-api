@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ClusAPI.dll
--	Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
--	ClusterResourceTypeControl
+ - ClusterResourceTypeControl
 product: Windows
 targetos: Windows
 req.lib: ClusAPI.lib

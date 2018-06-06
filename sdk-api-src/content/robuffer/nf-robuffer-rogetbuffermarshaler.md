@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: RO_INIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	wintypes.dll
--	API-MS-Win-Core-Winrt-robuffer-l1-1-0.dll
+ - wintypes.dll
+ - API-MS-Win-Core-Winrt-robuffer-l1-1-0.dll
 api_name:
--	RoGetBufferMarshaler
+ - RoGetBufferMarshaler
 product: Windows
 targetos: Windows
 req.lib: 

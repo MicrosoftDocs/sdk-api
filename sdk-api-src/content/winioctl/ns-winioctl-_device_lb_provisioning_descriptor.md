@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DEVICE_LB_PROVISIONING_DESCRIPTOR
+ - DEVICE_LB_PROVISIONING_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

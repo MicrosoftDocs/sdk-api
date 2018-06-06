@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_ECC_SIGNATURE, *PCERT_ECC_SIGNATURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_ECC_SIGNATURE
+ - CERT_ECC_SIGNATURE
 product: Windows
 targetos: Windows
 req.lib: 

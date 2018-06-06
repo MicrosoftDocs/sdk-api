@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TAPE_WRITE_MARKS
+ - TAPE_WRITE_MARKS
 product: Windows
 targetos: Windows
 req.lib: 

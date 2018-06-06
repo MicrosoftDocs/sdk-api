@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Infotech.h
+ - Infotech.h
 api_name:
--	IITResultSet.Get
+ - IITResultSet.Get
 product: Windows
 targetos: Windows
 req.lib: 

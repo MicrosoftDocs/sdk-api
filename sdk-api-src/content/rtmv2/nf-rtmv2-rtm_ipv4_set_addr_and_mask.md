@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_EVENT_TYPE, *PRTM_EVENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_IPV4_SET_ADDR_AND_MASK
+ - RTM_IPV4_SET_ADDR_AND_MASK
 product: Windows
 targetos: Windows
 req.lib: 

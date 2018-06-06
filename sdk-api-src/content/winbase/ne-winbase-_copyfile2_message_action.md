@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COPYFILE2_MESSAGE_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	COPYFILE2_MESSAGE_ACTION
+ - COPYFILE2_MESSAGE_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

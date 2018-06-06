@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Fxscomex.dll
+ - Fxscomex.dll
 api_name:
--	IFaxIncomingMessageIterator.PrefetchSize
--	IFaxIncomingMessageIterator.get_PrefetchSize
--	IFaxIncomingMessageIterator.put_PrefetchSize
+ - IFaxIncomingMessageIterator.PrefetchSize
+ - IFaxIncomingMessageIterator.get_PrefetchSize
+ - IFaxIncomingMessageIterator.put_PrefetchSize
 product: Windows
 targetos: Windows
 req.lib: 

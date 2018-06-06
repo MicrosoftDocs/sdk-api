@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoChromaSubsampling
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MFVideoChromaSubsampling
+ - MFVideoChromaSubsampling
 product: Windows
 targetos: Windows
 req.lib: 

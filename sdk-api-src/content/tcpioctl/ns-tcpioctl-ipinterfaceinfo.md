@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPInterfaceInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpioctl.h
+ - Tcpioctl.h
 api_name:
--	IPInterfaceInfo
+ - IPInterfaceInfo
 product: Windows
 targetos: Windows
 req.lib: 

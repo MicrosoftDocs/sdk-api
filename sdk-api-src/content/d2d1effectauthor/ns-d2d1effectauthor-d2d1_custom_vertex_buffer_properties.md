@@ -29,14 +29,14 @@ req.type-library: D2d1.lib; D2d1.dll
 tech.root: 
 req.typenames: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1effectauthor.h
+ - d2d1effectauthor.h
 api_name:
--	D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
+ - D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

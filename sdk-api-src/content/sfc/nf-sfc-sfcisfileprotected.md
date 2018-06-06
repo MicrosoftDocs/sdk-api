@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Sfc.dll
--	Ext-MS-Win-Wrp-Sfc-L1-1-0.dll
--	sfc_os.dll
+ - Sfc.dll
+ - Ext-MS-Win-Wrp-Sfc-L1-1-0.dll
+ - sfc_os.dll
 api_name:
--	SfcIsFileProtected
+ - SfcIsFileProtected
 product: Windows
 targetos: Windows
 req.lib: Sfc.lib

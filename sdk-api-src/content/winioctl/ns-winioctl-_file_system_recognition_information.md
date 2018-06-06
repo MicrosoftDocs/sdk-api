@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_SYSTEM_RECOGNITION_INFORMATION, *PFILE_SYSTEM_RECOGNITION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	FILE_SYSTEM_RECOGNITION_INFORMATION
+ - FILE_SYSTEM_RECOGNITION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

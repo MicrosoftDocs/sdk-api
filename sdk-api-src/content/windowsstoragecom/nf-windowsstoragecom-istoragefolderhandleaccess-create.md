@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HANDLE_SHARING_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	windows.storage.dll
+ - windows.storage.dll
 api_name:
--	IStorageFolderHandleAccess.Create
+ - IStorageFolderHandleAccess.Create
 product: Windows
 targetos: Windows
 req.lib: 

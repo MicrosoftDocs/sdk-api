@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILEPATHS_W, *PFILEPATHS_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	FILEPATHS
+ - FILEPATHS
 product: Windows
 targetos: Windows
 req.lib: 

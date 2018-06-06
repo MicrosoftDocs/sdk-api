@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Raseapif.h
+ - Raseapif.h
 api_name:
--	RAS_AUTH_ATTRIBUTE
+ - RAS_AUTH_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.lib: 

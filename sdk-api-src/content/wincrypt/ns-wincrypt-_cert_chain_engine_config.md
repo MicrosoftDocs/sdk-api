@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_CHAIN_ENGINE_CONFIG
+ - CERT_CHAIN_ENGINE_CONFIG
 product: Windows
 targetos: Windows
 req.lib: 

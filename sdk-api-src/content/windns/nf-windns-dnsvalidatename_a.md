@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_FREE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dnsapi.dll
+ - Dnsapi.dll
 api_name:
--	DnsValidateName
--	DnsValidateName_A
--	DnsValidateName_W
--	DnsValidateName_UTF8
+ - DnsValidateName
+ - DnsValidateName_A
+ - DnsValidateName_W
+ - DnsValidateName_UTF8
 product: Windows
 targetos: Windows
 req.lib: Dnsapi.lib

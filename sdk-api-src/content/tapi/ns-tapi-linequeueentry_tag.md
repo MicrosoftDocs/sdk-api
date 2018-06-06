@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINEQUEUEENTRY, *LPLINEQUEUEENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi.h
+ - Tapi.h
 api_name:
--	LINEQUEUEENTRY
+ - LINEQUEUEENTRY
 product: Windows
 targetos: Windows
 req.lib: 

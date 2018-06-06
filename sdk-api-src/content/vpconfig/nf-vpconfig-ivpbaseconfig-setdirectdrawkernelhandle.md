@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VMR9VideoStreamInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vpconfig.h
+ - Vpconfig.h
 api_name:
--	IVPBaseConfig.SetDirectDrawKernelHandle
+ - IVPBaseConfig.SetDirectDrawKernelHandle
 product: Windows
 targetos: Windows
 req.lib: 

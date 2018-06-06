@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	XAPOBase.lib
--	XAPOBase.dll
+ - XAPOBase.lib
+ - XAPOBase.dll
 api_name:
--	CXAPOBase
+ - CXAPOBase
 product: Windows
 targetos: Windows
 req.lib: XAPOBase.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WeekDays
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pla.h
+ - Pla.h
 api_name:
--	WeekDays
+ - WeekDays
 product: Windows
 targetos: Windows
 req.lib: 

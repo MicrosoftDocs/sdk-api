@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	_AM_PUSHSOURCE_FLAGS
+ - _AM_PUSHSOURCE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

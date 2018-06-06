@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPX_ENCRYPTED_PACKAGE_SETTINGS2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AppxPackaging.h
+ - AppxPackaging.h
 api_name:
--	APPX_ENCRYPTED_PACKAGE_SETTINGS2
+ - APPX_ENCRYPTED_PACKAGE_SETTINGS2
 product: Windows
 targetos: Windows
 req.lib: 

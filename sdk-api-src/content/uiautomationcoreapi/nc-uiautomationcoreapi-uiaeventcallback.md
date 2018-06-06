@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	UIAutomationCoreApi.h
+ - UIAutomationCoreApi.h
 api_name:
--	UiaEventCallback
+ - UiaEventCallback
 product: Windows
 targetos: Windows
 req.lib: 

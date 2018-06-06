@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mssachlp.lib
--	mssachlp.dll
+ - mssachlp.lib
+ - mssachlp.dll
 api_name:
--	CSecureChannelServer.SetCertificate
+ - CSecureChannelServer.SetCertificate
 product: Windows
 targetos: Windows
 req.lib: Mssachlp.lib

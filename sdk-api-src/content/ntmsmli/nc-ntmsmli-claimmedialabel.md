@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NTMS_STORAGESLOTINFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	NtmsMli.h
+ - NtmsMli.h
 api_name:
--	ClaimMediaLabel
+ - ClaimMediaLabel
 product: Windows
 targetos: Windows
 req.lib: 

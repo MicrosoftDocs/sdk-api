@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3DCOMPILER_STRIP_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3Dcompiler.h
+ - D3Dcompiler.h
 api_name:
--	D3DCOMPILER_STRIP_FLAGS
+ - D3DCOMPILER_STRIP_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

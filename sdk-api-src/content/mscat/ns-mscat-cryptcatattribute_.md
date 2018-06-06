@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTCATATTRIBUTE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mscat.h
+ - Mscat.h
 api_name:
--	CRYPTCATATTRIBUTE
+ - CRYPTCATATTRIBUTE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
+ - Ole32.dll
 api_name:
--	CoInstall
+ - CoInstall
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

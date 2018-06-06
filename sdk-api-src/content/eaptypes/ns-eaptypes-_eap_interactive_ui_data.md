@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_INTERACTIVE_UI_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaptypes.h
+ - eaptypes.h
 api_name:
--	EAP_INTERACTIVE_UI_DATA
+ - EAP_INTERACTIVE_UI_DATA
 product: Windows
 targetos: Windows
 req.lib: 

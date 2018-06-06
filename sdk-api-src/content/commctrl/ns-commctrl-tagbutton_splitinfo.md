@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	BUTTON_SPLITINFO
+ - BUTTON_SPLITINFO
 product: Windows
 targetos: Windows
 req.lib: 

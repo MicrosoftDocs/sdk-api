@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.DisableNoScroll
--	IInkEdit.get_DisableNoScroll
--	IInkEdit.put_DisableNoScroll
--	InkEdit.get_DisableNoScroll
--	InkEdit.put_DisableNoScroll
+ - IInkEdit.DisableNoScroll
+ - IInkEdit.get_DisableNoScroll
+ - IInkEdit.put_DisableNoScroll
+ - InkEdit.get_DisableNoScroll
+ - InkEdit.put_DisableNoScroll
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

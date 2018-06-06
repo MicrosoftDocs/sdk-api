@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_VELOCITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-interlocked-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-interlocked-l1-2-0.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
--	Ntoskrnl.exe
+ - Kernel32.dll
+ - API-MS-Win-Core-interlocked-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-interlocked-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - Ntoskrnl.exe
 api_name:
--	InterlockedPopEntrySList
+ - InterlockedPopEntrySList
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

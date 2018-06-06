@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_VARIANT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wevtapi.dll
--	Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
--	Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
--	Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+ - Wevtapi.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
--	EvtOpenChannelConfig
+ - EvtOpenChannelConfig
 product: Windows
 targetos: Windows
 req.lib: Wevtapi.lib

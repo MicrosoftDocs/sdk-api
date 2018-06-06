@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINE_METRICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	LINE_METRICS
+ - LINE_METRICS
 product: Windows
 targetos: Windows
 req.lib: 

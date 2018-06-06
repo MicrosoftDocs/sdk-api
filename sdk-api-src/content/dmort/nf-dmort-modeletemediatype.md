@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msdmo.dll
+ - Msdmo.dll
 api_name:
--	MoDeleteMediaType
+ - MoDeleteMediaType
 product: Windows
 targetos: Windows
 req.lib: Msdmo.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BIND_OPTS2, *LPBIND_OPTS2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objidl.h
+ - Objidl.h
 api_name:
--	BIND_OPTS2
+ - BIND_OPTS2
 product: Windows
 targetos: Windows
 req.lib: 

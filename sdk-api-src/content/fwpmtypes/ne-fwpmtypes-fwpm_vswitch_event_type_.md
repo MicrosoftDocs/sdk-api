@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_VSWITCH_EVENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
--	FWPM_VSWITCH_EVENT_TYPE
+ - FWPM_VSWITCH_EVENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

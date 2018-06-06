@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECURITY_OBJECT, *PSECURITY_OBJECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Aclui.h
+ - Aclui.h
 api_name:
--	SECURITY_OBJECT
+ - SECURITY_OBJECT
 product: Windows
 targetos: Windows
 req.lib: 

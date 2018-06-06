@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	wofutil.dll
+ - wofutil.dll
 api_name:
--	WofFileEnumFiles
+ - WofFileEnumFiles
 product: Windows
 targetos: Windows
 req.lib: Wofutil.lib

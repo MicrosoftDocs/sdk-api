@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LUID, *PLUID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Devicetopology.h
+ - Devicetopology.h
 api_name:
--	LUID
+ - LUID
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	SYSTEM_MANDATORY_LABEL_ACE
+ - SYSTEM_MANDATORY_LABEL_ACE
 product: Windows
 targetos: Windows
 req.lib: 

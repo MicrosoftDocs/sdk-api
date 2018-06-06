@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVAUncompDataInfo, *LPAMVAUncompDataInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	amva.h
+ - amva.h
 api_name:
--	AMVAUncompDataInfo
+ - AMVAUncompDataInfo
 product: Windows
 targetos: Windows
 req.lib: 

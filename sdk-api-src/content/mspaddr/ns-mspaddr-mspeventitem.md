@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mspaddr.h
+ - Mspaddr.h
 api_name:
--	MSPEVENTITEM
+ - MSPEVENTITEM
 product: Windows
 targetos: Windows
 req.lib: 

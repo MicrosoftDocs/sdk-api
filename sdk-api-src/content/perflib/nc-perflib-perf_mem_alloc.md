@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	AllocateMemory
+ - AllocateMemory
 product: Windows
 targetos: Windows
 req.lib: 

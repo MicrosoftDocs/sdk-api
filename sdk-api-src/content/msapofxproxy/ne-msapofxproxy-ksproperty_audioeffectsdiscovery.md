@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msapofxproxy.h
+ - Msapofxproxy.h
 api_name:
--	KSPROPERTY_AUDIOEFFECTSDISCOVERY
+ - KSPROPERTY_AUDIOEFFECTSDISCOVERY
 product: Windows
 targetos: Windows
 req.lib: MSAJApi.lib

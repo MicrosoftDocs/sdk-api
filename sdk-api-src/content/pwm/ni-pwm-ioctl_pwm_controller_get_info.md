@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PWM_POLARITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pwm.h
+ - Pwm.h
 api_name:
--	IOCTL_PWM_CONTROLLER_GET_INFO
+ - IOCTL_PWM_CONTROLLER_GET_INFO
 product: Windows
 targetos: Windows
 req.lib: 

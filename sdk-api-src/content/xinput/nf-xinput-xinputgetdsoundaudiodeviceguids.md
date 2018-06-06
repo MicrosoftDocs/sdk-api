@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	xinput9_1_0.dll
+ - xinput9_1_0.dll
 api_name:
--	XInputGetDSoundAudioDeviceGuids
+ - XInputGetDSoundAudioDeviceGuids
 product: Windows
 targetos: Windows
 req.lib: Xinput.lib; Xinput9_1_0.lib

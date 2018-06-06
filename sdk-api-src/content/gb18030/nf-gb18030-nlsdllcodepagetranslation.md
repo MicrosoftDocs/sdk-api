@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KnownGamingPrivileges
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	C_g18030.dll
+ - C_g18030.dll
 api_name:
--	NlsDllCodePageTranslation
+ - NlsDllCodePageTranslation
 product: Windows
 targetos: Windows
 req.lib: 

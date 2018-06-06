@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_STROKE_STYLE_PROPERTIES1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d2d1_1helper.h
+ - d2d1_1helper.h
 api_name:
--	Matrix4x4F.RotationZ
+ - Matrix4x4F.RotationZ
 product: Windows
 targetos: Windows
 req.lib: 

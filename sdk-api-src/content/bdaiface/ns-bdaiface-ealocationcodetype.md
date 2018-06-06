@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EALocationCodeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	bdaiface_enums.h
+ - bdaiface_enums.h
 api_name:
--	EALocationCodeType
+ - EALocationCodeType
 product: Windows
 targetos: Windows
 req.lib: 

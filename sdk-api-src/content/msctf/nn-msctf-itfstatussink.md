@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_DA_ATTR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITfStatusSink
+ - ITfStatusSink
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmGetFilePropertyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fsrm.h
+ - Fsrm.h
 api_name:
--	FsrmGetFilePropertyOptions
+ - FsrmGetFilePropertyOptions
 product: Windows
 targetos: Windows
 req.lib: 

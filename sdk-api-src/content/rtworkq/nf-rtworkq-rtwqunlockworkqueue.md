@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTWQ_WORKQUEUE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	RTWorkQ.dll
+ - RTWorkQ.dll
 api_name:
--	RtwqUnlockWorkQueue
+ - RtwqUnlockWorkQueue
 product: Windows
 targetos: Windows
 req.lib: Rtworkq.lib

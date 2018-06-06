@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PackageOrigin
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AppModel.h
+ - AppModel.h
 api_name:
--	PackageOrigin
+ - PackageOrigin
 product: Windows
 targetos: Windows
 req.lib: 

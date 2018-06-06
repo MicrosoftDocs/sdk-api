@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONTHLYDOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstask.h
+ - Mstask.h
 api_name:
--	MONTHLYDOW
+ - MONTHLYDOW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HANDLE_SHARING_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windowsx.h
+ - Windowsx.h
 api_name:
--	Edit_GetRect
+ - Edit_GetRect
 product: Windows
 targetos: Windows
 req.lib: 

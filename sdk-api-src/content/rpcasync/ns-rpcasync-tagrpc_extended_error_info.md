@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_EXTENDED_ERROR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RPC_EXTENDED_ERROR_INFO
+ - RPC_EXTENDED_ERROR_INFO
 product: Windows
 targetos: Windows
 req.lib: 

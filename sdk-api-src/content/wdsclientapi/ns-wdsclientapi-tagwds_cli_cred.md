@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDS_CLI_CRED, *PWDS_CLI_CRED, *LPWDS_CLI_CRED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WdsClientAPI.h
+ - WdsClientAPI.h
 api_name:
--	WDS_CLI_CRED
+ - WDS_CLI_CRED
 product: Windows
 targetos: Windows
 req.lib: 

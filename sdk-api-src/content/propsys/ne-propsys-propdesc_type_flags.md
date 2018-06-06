@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPDESC_TYPE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propsys.h
+ - Propsys.h
 api_name:
--	PROPDESC_TYPE_FLAGS
+ - PROPDESC_TYPE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

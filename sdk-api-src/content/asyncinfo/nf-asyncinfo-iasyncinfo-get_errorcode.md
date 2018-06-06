@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AsyncStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	AsyncInfo.h
+ - AsyncInfo.h
 api_name:
--	IAsyncInfo.ErrorCode
--	IAsyncInfo.get_ErrorCode
+ - IAsyncInfo.ErrorCode
+ - IAsyncInfo.get_ErrorCode
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	inked.h
+ - inked.h
 api_name:
--	IInkEdit.SelColor
--	IInkEdit.get_SelColor
--	IInkEdit.put_SelColor
--	InkEdit.get_SelColor
--	InkEdit.put_SelColor
+ - IInkEdit.SelColor
+ - IInkEdit.get_SelColor
+ - IInkEdit.put_SelColor
+ - InkEdit.get_SelColor
+ - InkEdit.put_SelColor
 product: Windows
 targetos: Windows
 req.lib: 

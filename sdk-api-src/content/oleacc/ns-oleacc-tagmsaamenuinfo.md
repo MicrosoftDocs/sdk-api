@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSAAMENUINFO, *LPMSAAMENUINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Oleacc.h
+ - Oleacc.h
 api_name:
--	MSAAMENUINFO
+ - MSAAMENUINFO
 product: Windows
 targetos: Windows
 req.lib: 

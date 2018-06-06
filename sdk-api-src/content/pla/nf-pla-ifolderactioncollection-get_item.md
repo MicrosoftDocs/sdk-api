@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IFolderActionCollection.Item
--	IFolderActionCollection.get_Item
+ - IFolderActionCollection.Item
+ - IFolderActionCollection.get_Item
 product: Windows
 targetos: Windows
 req.lib: 

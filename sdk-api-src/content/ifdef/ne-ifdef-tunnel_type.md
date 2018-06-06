@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TUNNEL_TYPE, *PTUNNEL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ifdef.h
+ - ifdef.h
 api_name:
--	TUNNEL_TYPE
+ - TUNNEL_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SFVM_HELPTOPIC_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	SFVM_HELPTOPIC_DATA
+ - SFVM_HELPTOPIC_DATA
 product: Windows
 targetos: Windows
 req.lib: 

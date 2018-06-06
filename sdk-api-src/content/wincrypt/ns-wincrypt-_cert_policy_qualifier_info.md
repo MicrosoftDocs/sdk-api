@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_POLICY_QUALIFIER_INFO, *PCERT_POLICY_QUALIFIER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_POLICY_QUALIFIER_INFO
+ - CERT_POLICY_QUALIFIER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

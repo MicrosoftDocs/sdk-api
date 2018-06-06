@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IDynamicRenderer.HWND
--	IDynamicRenderer.get_HWND
--	IDynamicRenderer.put_HWND
--	IDynamicRenderer.get_HWND
--	IDynamicRenderer.put_HWND
+ - IDynamicRenderer.HWND
+ - IDynamicRenderer.get_HWND
+ - IDynamicRenderer.put_HWND
+ - IDynamicRenderer.get_HWND
+ - IDynamicRenderer.put_HWND
 product: Windows
 targetos: Windows
 req.lib: 

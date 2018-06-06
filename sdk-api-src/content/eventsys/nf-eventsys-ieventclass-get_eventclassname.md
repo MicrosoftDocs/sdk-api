@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EOC_ChangeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	eventsys.h
+ - eventsys.h
 api_name:
--	IEventClass.EventClassName
--	IEventClass.get_EventClassName
--	IEventClass.put_EventClassName
+ - IEventClass.EventClassName
+ - IEventClass.get_EventClassName
+ - IEventClass.put_EventClassName
 product: Windows
 targetos: Windows
 req.lib: 

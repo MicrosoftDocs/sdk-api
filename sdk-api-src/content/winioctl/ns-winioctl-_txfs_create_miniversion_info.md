@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_CREATE_MINIVERSION_INFO, *PTXFS_CREATE_MINIVERSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_CREATE_MINIVERSION_INFO
+ - TXFS_CREATE_MINIVERSION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

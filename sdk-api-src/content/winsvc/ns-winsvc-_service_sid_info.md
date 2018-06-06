@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SERVICE_SID_INFO
+ - SERVICE_SID_INFO
 product: Windows
 targetos: Windows
 req.lib: 

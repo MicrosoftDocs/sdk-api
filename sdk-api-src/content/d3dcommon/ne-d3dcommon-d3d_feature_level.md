@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_FEATURE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3DCommon.h
+ - D3DCommon.h
 api_name:
--	D3D_FEATURE_LEVEL
+ - D3D_FEATURE_LEVEL
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

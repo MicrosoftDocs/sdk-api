@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MODLOAD_CVMISC, *PMODLOAD_CVMISC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	MODLOAD_CVMISC
+ - MODLOAD_CVMISC
 product: Windows
 targetos: Windows
 req.lib: 

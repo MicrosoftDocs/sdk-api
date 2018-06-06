@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11.lib
--	d3d11.dll
+ - d3d11.lib
+ - d3d11.dll
 api_name:
--	ID3D11Device5
+ - ID3D11Device5
 product: Windows
 targetos: Windows
 req.lib: D3d11.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_PROVIDER_CONTEXT1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
--	FWPM_PROVIDER_CONTEXT1
+ - FWPM_PROVIDER_CONTEXT1
 product: Windows
 targetos: Windows
 req.lib: 

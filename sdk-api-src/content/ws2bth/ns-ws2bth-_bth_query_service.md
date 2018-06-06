@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_QUERY_SERVICE, *PBTH_QUERY_SERVICE, BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2bth.h
+ - Ws2bth.h
 api_name:
--	BTH_QUERY_SERVICE
+ - BTH_QUERY_SERVICE
 product: Windows
 targetos: Windows
 req.lib: 

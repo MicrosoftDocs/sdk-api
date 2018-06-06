@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_UDP6TABLE, *PMIB_UDP6TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Udpmib.h
+ - Udpmib.h
 api_name:
--	MIB_UDP6TABLE
+ - MIB_UDP6TABLE
 product: Windows
 targetos: Windows
 req.lib: 

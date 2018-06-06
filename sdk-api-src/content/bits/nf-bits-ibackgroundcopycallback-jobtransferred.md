@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_JOB_PROXY_USAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bits.h
+ - Bits.h
 api_name:
--	IBackgroundCopyCallback.JobTransferred
+ - IBackgroundCopyCallback.JobTransferred
 product: Windows
 targetos: Windows
 req.lib: 

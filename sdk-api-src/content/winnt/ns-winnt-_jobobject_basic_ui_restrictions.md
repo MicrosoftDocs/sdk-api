@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JOBOBJECT_BASIC_UI_RESTRICTIONS, *PJOBOBJECT_BASIC_UI_RESTRICTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	JOBOBJECT_BASIC_UI_RESTRICTIONS
+ - JOBOBJECT_BASIC_UI_RESTRICTIONS
 product: Windows
 targetos: Windows
 req.lib: 

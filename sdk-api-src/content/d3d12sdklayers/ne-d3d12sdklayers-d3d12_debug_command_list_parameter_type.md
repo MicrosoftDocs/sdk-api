@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12sdklayers.h
+ - d3d12sdklayers.h
 api_name:
--	D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE
+ - D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

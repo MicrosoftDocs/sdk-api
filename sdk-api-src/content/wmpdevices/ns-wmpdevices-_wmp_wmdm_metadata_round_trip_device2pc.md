@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmpdevices.h
+ - wmpdevices.h
 api_name:
--	WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
+ - WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
 product: Windows
 targetos: Windows
 req.lib: 

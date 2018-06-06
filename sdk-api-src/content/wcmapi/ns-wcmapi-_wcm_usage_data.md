@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_USAGE_DATA, *PWCM_USAGE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_USAGE_DATA
+ - WCM_USAGE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

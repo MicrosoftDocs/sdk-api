@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TAPE_ERASE, *PTAPE_ERASE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TAPE_ERASE
+ - TAPE_ERASE
 product: Windows
 targetos: Windows
 req.lib: 

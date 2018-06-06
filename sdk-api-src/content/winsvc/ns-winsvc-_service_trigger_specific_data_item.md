@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, *PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsvc.h
+ - winsvc.h
 api_name:
--	SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 product: Windows
 targetos: Windows
 req.lib: 

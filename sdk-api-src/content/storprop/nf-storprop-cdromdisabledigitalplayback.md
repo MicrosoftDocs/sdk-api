@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	StorProp.dll
+ - StorProp.dll
 api_name:
--	CdromDisableDigitalPlayback
+ - CdromDisableDigitalPlayback
 product: Windows
 targetos: Windows
 req.lib: 

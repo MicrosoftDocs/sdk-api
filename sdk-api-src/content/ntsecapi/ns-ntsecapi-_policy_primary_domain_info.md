@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_PRIMARY_DOMAIN_INFO, *PPOLICY_PRIMARY_DOMAIN_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	POLICY_PRIMARY_DOMAIN_INFO
+ - POLICY_PRIMARY_DOMAIN_INFO
 product: Windows
 targetos: Windows
 req.lib: 

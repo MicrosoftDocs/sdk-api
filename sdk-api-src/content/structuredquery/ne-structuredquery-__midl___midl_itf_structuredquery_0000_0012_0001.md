@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NAMED_ENTITY_CERTAINTY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Structuredquery.h
+ - Structuredquery.h
 api_name:
--	NAMED_ENTITY_CERTAINTY
+ - NAMED_ENTITY_CERTAINTY
 product: Windows
 targetos: Windows
 req.lib: 

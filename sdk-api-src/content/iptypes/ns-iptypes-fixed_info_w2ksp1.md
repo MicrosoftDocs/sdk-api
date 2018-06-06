@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FIXED_INFO_W2KSP1, *PFIXED_INFO_W2KSP1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iptypes.h
+ - Iptypes.h
 api_name:
--	FIXED_INFO
+ - FIXED_INFO
 product: Windows
 targetos: Windows
 req.lib: 

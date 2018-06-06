@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	playtomanagerinterop.h
+ - playtomanagerinterop.h
 api_name:
--	IPlayToManagerInterop.GetForWindow
+ - IPlayToManagerInterop.GetForWindow
 product: Windows
 targetos: Windows
 req.lib: 

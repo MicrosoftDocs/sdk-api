@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Shell32.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
--	SHGetTemporaryPropertyForItem
+ - SHGetTemporaryPropertyForItem
 product: Windows
 targetos: Windows
 req.lib: 

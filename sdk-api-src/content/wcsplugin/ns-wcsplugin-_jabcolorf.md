@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: JabColorF
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	JabColorF
+ - JabColorF
 product: Windows
 targetos: Windows
 req.lib: 

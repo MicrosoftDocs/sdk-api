@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINTRUST_SGNR_INFO, *PWINTRUST_SGNR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	WINTRUST_SGNR_INFO
+ - WINTRUST_SGNR_INFO
 product: Windows
 targetos: Windows
 req.lib: 

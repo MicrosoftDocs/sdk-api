@@ -29,27 +29,27 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	API-MS-Win-Core-LibraryLoader-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-LibraryLoader-l1-1-1.dll
--	API-MS-Win-Core-LibraryLoader-l1-2-0.dll
--	API-MS-Win-Core-Stringloader-l1-1-0.dll
--	API-MS-Win-Core-Stringloader-l1-1-1.dll
--	API-MS-Win-DownLevel-user32-l1-1-1.dll
--	MinKernelBase.dll
--	kernel32.dll
--	API-MS-Win-Core-Libraryloader-l1-2-1.dll
--	API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+ - User32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-Core-Stringloader-l1-1-0.dll
+ - API-MS-Win-Core-Stringloader-l1-1-1.dll
+ - API-MS-Win-DownLevel-user32-l1-1-1.dll
+ - MinKernelBase.dll
+ - kernel32.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
--	LoadString
--	LoadStringA
--	LoadStringW
+ - LoadString
+ - LoadStringA
+ - LoadStringW
 product: Windows
 targetos: Windows
 req.lib: User32.lib

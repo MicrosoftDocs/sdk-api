@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FLICK_POINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Tapi32.dll
+ - Tapi32.dll
 api_name:
--	phoneSetDisplay
+ - phoneSetDisplay
 product: Windows
 targetos: Windows
 req.lib: Tapi32.lib

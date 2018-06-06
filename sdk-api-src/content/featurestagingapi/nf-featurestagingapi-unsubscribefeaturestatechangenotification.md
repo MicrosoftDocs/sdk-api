@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FEATURE_ENABLED_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-featurestaging-l1-1-0.dll
+ - api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
--	UnsubscribeFeatureStateChangeNotification
+ - UnsubscribeFeatureStateChangeNotification
 product: Windows
 targetos: Windows
 req.lib: Shcore.lib

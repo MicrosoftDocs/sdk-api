@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NSTCSTYLE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shobjidl.h
+ - Shobjidl.h
 api_name:
--	NSTCSTYLE2
+ - NSTCSTYLE2
 product: Windows
 targetos: Windows
 req.lib: 

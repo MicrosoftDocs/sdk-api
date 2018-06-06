@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	ClusterSetupProgressCallback callback
+ - ClusterSetupProgressCallback callback
 product: Windows
 targetos: Windows
 req.lib: 

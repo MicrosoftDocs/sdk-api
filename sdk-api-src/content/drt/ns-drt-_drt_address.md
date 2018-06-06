@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_ADDRESS, *PDRT_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	drt.h
+ - drt.h
 api_name:
--	DRT_ADDRESS
+ - DRT_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

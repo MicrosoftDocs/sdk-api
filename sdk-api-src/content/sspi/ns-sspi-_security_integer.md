@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECURITY_INTEGER, *PSECURITY_INTEGER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SECURITY_INTEGER
+ - SECURITY_INTEGER
 product: Windows
 targetos: Windows
 req.lib: 

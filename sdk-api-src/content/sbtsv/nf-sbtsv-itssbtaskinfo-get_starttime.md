@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TS_SB_SORT_BY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sbtsv.h
+ - sbtsv.h
 api_name:
--	ITsSbTaskInfo.StartTime
--	ITsSbTaskInfo.get_StartTime
+ - ITsSbTaskInfo.StartTime
+ - ITsSbTaskInfo.get_StartTime
 product: Windows
 targetos: Windows
 req.lib: 

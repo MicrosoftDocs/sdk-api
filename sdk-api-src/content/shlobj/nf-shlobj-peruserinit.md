@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETEOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mydocs.dll
+ - Mydocs.dll
 api_name:
--	PerUserInit
+ - PerUserInit
 product: Windows
 targetos: Windows
 req.lib: 

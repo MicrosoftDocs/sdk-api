@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_INTERCONNECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VdsLun.h
+ - VdsLun.h
 api_name:
--	VDS_INTERCONNECT
+ - VDS_INTERCONNECT
 product: Windows
 targetos: Windows
 req.lib: 

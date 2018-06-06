@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_WATERMARK_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmsecure.h
+ - Wmsecure.h
 api_name:
--	IWMSecureChannel.WMSC_Lock
+ - IWMSecureChannel.WMSC_Lock
 product: Windows
 targetos: Windows
 req.lib: 

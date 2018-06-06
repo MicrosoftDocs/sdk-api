@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RO_INIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	roapi.h
+ - roapi.h
 api_name:
--	RO_INIT_TYPE
+ - RO_INIT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

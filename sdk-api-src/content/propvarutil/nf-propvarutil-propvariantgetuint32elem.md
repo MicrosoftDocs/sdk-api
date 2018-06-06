@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Propsys.dll
+ - Propsys.dll
 api_name:
--	PropVariantGetUInt32Elem
+ - PropVariantGetUInt32Elem
 product: Windows
 targetos: Windows
 req.lib: Propsys.lib

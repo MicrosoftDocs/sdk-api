@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WIAVIDEO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wiaguid.lib
--	Wiaguid.dll
+ - Wiaguid.lib
+ - Wiaguid.dll
 api_name:
--	IEnumWIA_DEV_CAPS.Next
+ - IEnumWIA_DEV_CAPS.Next
 product: Windows
 targetos: Windows
 req.lib: Wiaguid.lib

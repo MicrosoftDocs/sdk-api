@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipsectypes.h
+ - Ipsectypes.h
 api_name:
--	IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
+ - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 product: Windows
 targetos: Windows
 req.lib: 

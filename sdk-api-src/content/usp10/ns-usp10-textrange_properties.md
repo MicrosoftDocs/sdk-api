@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TEXTRANGE_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Usp10.h
+ - Usp10.h
 api_name:
--	TEXTRANGE_PROPERTIES
+ - TEXTRANGE_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

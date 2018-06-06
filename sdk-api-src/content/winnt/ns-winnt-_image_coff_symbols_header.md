@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_COFF_SYMBOLS_HEADER, *PIMAGE_COFF_SYMBOLS_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	IMAGE_COFF_SYMBOLS_HEADER
+ - IMAGE_COFF_SYMBOLS_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_IF_MEDIA_CONNECT_STATE, *PNET_IF_MEDIA_CONNECT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ifdef.h
+ - ifdef.h
 api_name:
--	NET_IF_MEDIA_CONNECT_STATE
+ - NET_IF_MEDIA_CONNECT_STATE
 product: Windows
 targetos: Windows
 req.lib: 

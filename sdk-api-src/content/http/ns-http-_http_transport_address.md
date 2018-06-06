@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_TRANSPORT_ADDRESS, *PHTTP_TRANSPORT_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_TRANSPORT_ADDRESS
+ - HTTP_TRANSPORT_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

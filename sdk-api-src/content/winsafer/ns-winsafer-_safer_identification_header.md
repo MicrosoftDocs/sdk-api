@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SAFER_IDENTIFICATION_HEADER, *PSAFER_IDENTIFICATION_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinSafer.h
+ - WinSafer.h
 api_name:
--	SAFER_IDENTIFICATION_HEADER
+ - SAFER_IDENTIFICATION_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

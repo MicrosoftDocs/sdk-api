@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PNP_VETO_TYPE, *PPNP_VETO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfg.h
+ - cfg.h
 api_name:
--	PNP_VETO_TYPE
+ - PNP_VETO_TYPE
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

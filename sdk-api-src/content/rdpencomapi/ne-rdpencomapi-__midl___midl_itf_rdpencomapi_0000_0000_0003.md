@@ -29,14 +29,14 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: CHANNEL_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rdpencomapi.h
+ - Rdpencomapi.h
 api_name:
--	CHANNEL_PRIORITY
+ - CHANNEL_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: 

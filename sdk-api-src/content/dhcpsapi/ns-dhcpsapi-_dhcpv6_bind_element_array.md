@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPV6_BIND_ELEMENT_ARRAY, *LPDHCPV6_BIND_ELEMENT_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCPV6_BIND_ELEMENT_ARRAY
+ - DHCPV6_BIND_ELEMENT_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SAMPLE_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgicommon.h
+ - dxgicommon.h
 api_name:
--	DXGI_SAMPLE_DESC
+ - DXGI_SAMPLE_DESC
 product: Windows
 targetos: Windows
 req.lib: 

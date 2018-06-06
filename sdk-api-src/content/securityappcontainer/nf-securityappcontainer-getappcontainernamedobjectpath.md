@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Security-AppContainer-l1-1-0.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Security-AppContainer-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	GetAppContainerNamedObjectPath
+ - GetAppContainerNamedObjectPath
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	KernelBase.dll
--	API-MS-Win-Eventing-Provider-L1-1-1.dll
--	API-MS-Win-Security-Base-L1-2-1.dll
+ - Advapi32.dll
+ - KernelBase.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
--	CveEventWrite
+ - CveEventWrite
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

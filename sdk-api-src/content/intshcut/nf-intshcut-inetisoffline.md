@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Url.dll
+ - Url.dll
 api_name:
--	InetIsOffline
+ - InetIsOffline
 product: Windows
 targetos: Windows
 req.lib: 

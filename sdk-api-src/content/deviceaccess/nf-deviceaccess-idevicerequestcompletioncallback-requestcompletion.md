@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIDEOMEMORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	deviceaccess.h
+ - deviceaccess.h
 api_name:
--	IDeviceRequestCompletionCallback.RequestCompletion
+ - IDeviceRequestCompletionCallback.RequestCompletion
 product: Windows
 targetos: Windows
 req.lib: 

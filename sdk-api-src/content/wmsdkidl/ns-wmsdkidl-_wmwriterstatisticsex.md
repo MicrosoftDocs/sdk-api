@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_WRITER_STATISTICS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_WRITER_STATISTICS_EX
+ - WM_WRITER_STATISTICS_EX
 product: Windows
 targetos: Windows
 req.lib: 

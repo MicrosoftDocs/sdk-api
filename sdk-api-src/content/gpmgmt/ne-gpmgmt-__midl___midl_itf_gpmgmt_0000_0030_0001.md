@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GPMBackupType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gpmgmt.h
+ - gpmgmt.h
 api_name:
--	GPMBackupType
+ - GPMBackupType
 product: Windows
 targetos: Windows
 req.lib: 

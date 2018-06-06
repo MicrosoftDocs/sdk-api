@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_FILE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mfobjects.h
+ - Mfobjects.h
 api_name:
--	IMFAsyncCallbackLogging
+ - IMFAsyncCallbackLogging
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib

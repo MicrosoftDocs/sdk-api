@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USE_INFO_2, *PUSE_INFO_2, *LPUSE_INFO_2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmuse.h
+ - Lmuse.h
 api_name:
--	USE_INFO_2
+ - USE_INFO_2
 product: Windows
 targetos: Windows
 req.lib: 

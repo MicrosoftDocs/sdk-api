@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CHANGER_EXCHANGE_MEDIUM
+ - CHANGER_EXCHANGE_MEDIUM
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IRQ_DES_32, *PIRQ_DES_32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	IRQ_DES
+ - IRQ_DES
 product: Windows
 targetos: Windows
 req.lib: 

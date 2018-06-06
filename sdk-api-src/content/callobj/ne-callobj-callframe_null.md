@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CallObj.h
+ - CallObj.h
 api_name:
--	CALLFRAME_NULL
+ - CALLFRAME_NULL
 product: Windows
 targetos: Windows
 req.lib: 

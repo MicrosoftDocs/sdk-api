@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GESTURENOTIFYSTRUCT, *PGESTURENOTIFYSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winuser.h
+ - winuser.h
 api_name:
--	GESTURENOTIFYSTRUCT
+ - GESTURENOTIFYSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

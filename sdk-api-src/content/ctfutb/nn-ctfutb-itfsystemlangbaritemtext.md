@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfLBIClick
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ctfutb.h
+ - ctfutb.h
 api_name:
--	ITfSystemLangBarItemText
+ - ITfSystemLangBarItemText
 product: Windows
 targetos: Windows
 req.lib: 

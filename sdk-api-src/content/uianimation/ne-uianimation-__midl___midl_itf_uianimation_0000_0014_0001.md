@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	UIAnimation.h
+ - UIAnimation.h
 api_name:
--	UI_ANIMATION_TIMER_CLIENT_STATUS
+ - UI_ANIMATION_TIMER_CLIENT_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Battc.lib
--	Battc.dll
+ - Battc.lib
+ - Battc.dll
 api_name:
--	BatteryClassQueryWmiDataBlock
+ - BatteryClassQueryWmiDataBlock
 product: Windows
 targetos: Windows
 req.lib: Battc.lib

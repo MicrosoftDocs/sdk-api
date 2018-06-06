@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_MANDATORY_POLICY, *PTOKEN_MANDATORY_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_MANDATORY_POLICY
+ - TOKEN_MANDATORY_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

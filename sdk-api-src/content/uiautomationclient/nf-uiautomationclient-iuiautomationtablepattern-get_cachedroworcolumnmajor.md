@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationTablePattern.CachedRowOrColumnMajor
--	IUIAutomationTablePattern.get_CachedRowOrColumnMajor
+ - IUIAutomationTablePattern.CachedRowOrColumnMajor
+ - IUIAutomationTablePattern.get_CachedRowOrColumnMajor
 product: Windows
 targetos: Windows
 req.lib: 

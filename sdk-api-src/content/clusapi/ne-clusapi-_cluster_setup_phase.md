@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_SETUP_PHASE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSTER_SETUP_PHASE
+ - CLUSTER_SETUP_PHASE
 product: Windows
 targetos: Windows
 req.lib: 

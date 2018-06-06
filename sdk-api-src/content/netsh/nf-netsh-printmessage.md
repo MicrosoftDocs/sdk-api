@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NS_REQS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netsh.exe
+ - Netsh.exe
 api_name:
--	PrintMessage
+ - PrintMessage
 product: Windows
 targetos: Windows
 req.lib: Netsh.lib

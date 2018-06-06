@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DcompTypes.h
+ - DcompTypes.h
 api_name:
--	DCOMPOSITION_BACKFACE_VISIBILITY
+ - DCOMPOSITION_BACKFACE_VISIBILITY
 product: Windows
 targetos: Windows
 req.lib: Dcomp.lib

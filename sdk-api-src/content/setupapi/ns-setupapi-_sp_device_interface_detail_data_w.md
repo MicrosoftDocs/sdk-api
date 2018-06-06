@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_DEVICE_INTERFACE_DETAIL_DATA_W, *PSP_DEVICE_INTERFACE_DETAIL_DATA_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_DEVICE_INTERFACE_DETAIL_DATA
+ - SP_DEVICE_INTERFACE_DETAIL_DATA
 product: Windows
 targetos: Windows
 req.lib: 

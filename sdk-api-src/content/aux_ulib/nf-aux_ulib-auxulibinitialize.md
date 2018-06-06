@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_SOURCE_SCHEMA_REGISTRATION, *PAUTHZ_SOURCE_SCHEMA_REGISTRATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Aux_ulib.lib
+ - Aux_ulib.lib
 api_name:
--	AuxUlibInitialize
+ - AuxUlibInitialize
 product: Windows
 targetos: Windows
 req.lib: Aux_ulib.lib

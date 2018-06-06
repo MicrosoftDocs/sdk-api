@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmSetting.EnableScreeningAudit
--	IFsrmSetting.get_EnableScreeningAudit
--	IFsrmSetting.put_EnableScreeningAudit
--	FsrmSetting.EnableScreeningAudit
+ - IFsrmSetting.EnableScreeningAudit
+ - IFsrmSetting.get_EnableScreeningAudit
+ - IFsrmSetting.put_EnableScreeningAudit
+ - FsrmSetting.EnableScreeningAudit
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	manipulations.h
+ - manipulations.h
 api_name:
--	IManipulationProcessor.PivotPointX
--	IManipulationProcessor.get_PivotPointX
--	IManipulationProcessor.put_PivotPointX
+ - IManipulationProcessor.PivotPointX
+ - IManipulationProcessor.get_PivotPointX
+ - IManipulationProcessor.put_PivotPointX
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CTL_USAGE
+ - CTL_USAGE
 product: Windows
 targetos: Windows
 req.lib: 

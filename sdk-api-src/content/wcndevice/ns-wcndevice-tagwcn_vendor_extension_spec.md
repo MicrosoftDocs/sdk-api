@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VENDOR_EXTENSION_SPEC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcndevice.h
+ - Wcndevice.h
 api_name:
--	WCN_VENDOR_EXTENSION_SPEC
+ - WCN_VENDOR_EXTENSION_SPEC
 product: Windows
 targetos: Windows
 req.lib: 

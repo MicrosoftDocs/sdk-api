@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ENUMLOGFONTA, *LPENUMLOGFONTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	ENUMLOGFONT
--	ENUMLOGFONTA
--	ENUMLOGFONTW
+ - ENUMLOGFONT
+ - ENUMLOGFONTA
+ - ENUMLOGFONTW
 product: Windows
 targetos: Windows
 req.lib: 

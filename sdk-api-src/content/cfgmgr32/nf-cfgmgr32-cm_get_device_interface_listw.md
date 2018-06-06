@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	CfgMgr32.dll
--	API-MS-Win-Devices-Config-L1-1-0.dll
--	API-MS-Win-Devices-Config-L1-1-1.dll
+ - CfgMgr32.dll
+ - API-MS-Win-Devices-Config-L1-1-0.dll
+ - API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
--	CM_Get_Device_Interface_List
--	CM_Get_Device_Interface_ListA
--	CM_Get_Device_Interface_ListW
+ - CM_Get_Device_Interface_List
+ - CM_Get_Device_Interface_ListA
+ - CM_Get_Device_Interface_ListW
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib

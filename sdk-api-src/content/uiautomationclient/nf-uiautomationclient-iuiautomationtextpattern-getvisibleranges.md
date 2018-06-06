@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationTextPattern.GetVisibleRanges
+ - IUIAutomationTextPattern.GetVisibleRanges
 product: Windows
 targetos: Windows
 req.lib: 

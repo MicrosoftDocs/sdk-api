@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMC_TAGGED_CERT_REQUEST, *PCMC_TAGGED_CERT_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMC_TAGGED_CERT_REQUEST
+ - CMC_TAGGED_CERT_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

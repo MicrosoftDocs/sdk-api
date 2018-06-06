@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-Core-url-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
--	API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
--	UrlFixupW
--	UrlFixupW
+ - UrlFixupW
+ - UrlFixupW
 product: Windows
 targetos: Windows
 req.lib: 

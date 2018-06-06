@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MEM_DES, *PMEM_DES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	MEM_DES
+ - MEM_DES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmcobj.h
+ - mmcobj.h
 api_name:
--	ColumnSortOrder
+ - ColumnSortOrder
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

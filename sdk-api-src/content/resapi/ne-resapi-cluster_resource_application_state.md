@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_RESOURCE_APPLICATION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Resapi.h
+ - Resapi.h
 api_name:
--	CLUSTER_RESOURCE_APPLICATION_STATE
+ - CLUSTER_RESOURCE_APPLICATION_STATE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONFIDENCE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	CONFIDENCE_LEVEL
+ - CONFIDENCE_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

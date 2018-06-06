@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WORDLIST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	spellcheckprovider.h
+ - spellcheckprovider.h
 api_name:
--	IComprehensiveSpellCheckProvider
+ - IComprehensiveSpellCheckProvider
 product: Windows
 targetos: Windows
 req.lib: 

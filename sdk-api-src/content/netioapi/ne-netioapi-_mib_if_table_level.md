@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IF_TABLE_LEVEL, *PMIB_IF_TABLE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	netioapi.h
+ - netioapi.h
 api_name:
--	MIB_IF_TABLE_LEVEL
+ - MIB_IF_TABLE_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

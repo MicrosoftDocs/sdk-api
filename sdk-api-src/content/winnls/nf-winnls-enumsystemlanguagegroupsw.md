@@ -29,24 +29,24 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
--	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
 api_name:
--	EnumSystemLanguageGroups
--	EnumSystemLanguageGroupsA
--	EnumSystemLanguageGroupsW
+ - EnumSystemLanguageGroups
+ - EnumSystemLanguageGroupsA
+ - EnumSystemLanguageGroupsW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

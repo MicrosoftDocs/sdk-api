@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OFNOTIFYEXA, *LPOFNOTIFYEXA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	OFNOTIFYEX
--	OFNOTIFYEXA
--	OFNOTIFYEXW
+ - OFNOTIFYEX
+ - OFNOTIFYEXA
+ - OFNOTIFYEXW
 product: Windows
 targetos: Windows
 req.lib: 

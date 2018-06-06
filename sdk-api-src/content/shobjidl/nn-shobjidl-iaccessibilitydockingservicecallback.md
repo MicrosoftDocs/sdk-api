@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	shobjidl.h
+ - shobjidl.h
 api_name:
--	IAccessibilityDockingServiceCallback
--	IAccessibilityDockingServiceCallback.Undocked
+ - IAccessibilityDockingServiceCallback
+ - IAccessibilityDockingServiceCallback.Undocked
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

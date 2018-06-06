@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACDGROUP_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tapi3cc.h
+ - tapi3cc.h
 api_name:
--	ACDGROUP_EVENT
+ - ACDGROUP_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EVENTSECURITYOPERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Sechost.dll
--	Advapi32.dll
--	API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
--	API-MS-Win-Eventing-Controller-l1-1-0.dll
--	KernelBase.dll
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	EventAccessRemove
+ - EventAccessRemove
 product: Windows
 targetos: Windows
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista

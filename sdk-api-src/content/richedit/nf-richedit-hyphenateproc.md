@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UNDONAMEID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Richedit.h
+ - Richedit.h
 api_name:
--	HyphenateProc
+ - HyphenateProc
 product: Windows
 targetos: Windows
 req.lib: 

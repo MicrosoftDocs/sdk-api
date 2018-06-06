@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
+ - STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Fastprox.dll
--	Krnlprov.dll
--	Ncprov.dll
--	Wbemcore.dll
+ - Fastprox.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
 api_name:
--	IWbemQualifierSet.Get
+ - IWbemQualifierSet.Get
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

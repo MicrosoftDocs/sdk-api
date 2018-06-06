@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITERRESTORE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	vswriter.h
+ - vswriter.h
 api_name:
--	IVssComponentEx2.SetFailure
+ - IVssComponentEx2.SetFailure
 product: Windows
 targetos: Windows
 req.lib: 

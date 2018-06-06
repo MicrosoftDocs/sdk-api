@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ConnectorType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Devicetopology.h
+ - Devicetopology.h
 api_name:
--	IKsJackDescription
+ - IKsJackDescription
 product: Windows
 targetos: Windows
 req.lib: 

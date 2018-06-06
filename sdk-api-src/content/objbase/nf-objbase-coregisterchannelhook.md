@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	combase.dll
+ - combase.dll
 api_name:
--	CoRegisterChannelHook
+ - CoRegisterChannelHook
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

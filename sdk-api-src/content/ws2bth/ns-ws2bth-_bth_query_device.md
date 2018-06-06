@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2bth.h
+ - Ws2bth.h
 api_name:
--	BTH_QUERY_DEVICE
+ - BTH_QUERY_DEVICE
 product: Windows
 targetos: Windows
 req.lib: 

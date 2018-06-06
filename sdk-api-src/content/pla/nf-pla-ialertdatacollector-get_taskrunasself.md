@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IAlertDataCollector.TaskRunAsSelf
--	IAlertDataCollector.get_TaskRunAsSelf
--	IAlertDataCollector.put_TaskRunAsSelf
+ - IAlertDataCollector.TaskRunAsSelf
+ - IAlertDataCollector.get_TaskRunAsSelf
+ - IAlertDataCollector.put_TaskRunAsSelf
 product: Windows
 targetos: Windows
 req.lib: 

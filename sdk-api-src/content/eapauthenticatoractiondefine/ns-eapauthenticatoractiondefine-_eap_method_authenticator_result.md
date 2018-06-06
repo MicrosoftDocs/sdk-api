@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_METHOD_AUTHENTICATOR_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	EapAuthenticatorActionDefine.h
+ - EapAuthenticatorActionDefine.h
 api_name:
--	EAP_METHOD_AUTHENTICATOR_RESULT
+ - EAP_METHOD_AUTHENTICATOR_RESULT
 product: Windows
 targetos: Windows
 req.lib: 

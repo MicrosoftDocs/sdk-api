@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VisualMutationType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	xamlom.h
+ - xamlom.h
 api_name:
--	IVisualTreeServiceCallback2
+ - IVisualTreeServiceCallback2
 product: Windows
 targetos: Windows
 req.lib: 

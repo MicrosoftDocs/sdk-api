@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgCredentials_Cert, *PSecPkgCredentials_Cert
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecPkgCredentials_Cert
+ - SecPkgCredentials_Cert
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_INTERFACE_NAME_INFO_W2KSP1, *PIP_INTERFACE_NAME_INFO_W2KSP1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iptypes.h
+ - Iptypes.h
 api_name:
--	IP_INTERFACE_NAME_INFO
+ - IP_INTERFACE_NAME_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_FEC_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsrm.h
+ - Wsrm.h
 api_name:
--	RM_FEC_INFO
+ - RM_FEC_INFO
 product: Windows
 targetos: Windows
 req.lib: 

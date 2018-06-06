@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	GET_LENGTH_INFORMATION
+ - GET_LENGTH_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

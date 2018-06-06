@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certexit.h
+ - Certexit.h
 api_name:
--	ICertExit2.GetManageModule
--	CCertExit.GetManageModule
+ - ICertExit2.GetManageModule
+ - CCertExit.GetManageModule
 product: Windows
 targetos: Windows
 req.lib: 

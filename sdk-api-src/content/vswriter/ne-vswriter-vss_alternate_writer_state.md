@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_ALTERNATE_WRITER_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsWriter.h
+ - VsWriter.h
 api_name:
--	VSS_ALTERNATE_WRITER_STATE
+ - VSS_ALTERNATE_WRITER_STATE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

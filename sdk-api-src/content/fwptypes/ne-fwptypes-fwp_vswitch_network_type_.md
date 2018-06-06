@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWP_VSWITCH_NETWORK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fwptypes.h
+ - fwptypes.h
 api_name:
--	FWP_VSWITCH_NETWORK_TYPE
+ - FWP_VSWITCH_NETWORK_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

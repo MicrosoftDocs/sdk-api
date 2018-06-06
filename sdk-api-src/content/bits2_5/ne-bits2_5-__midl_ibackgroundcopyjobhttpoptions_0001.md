@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_CERT_STORE_LOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bits2_5.h
+ - Bits2_5.h
 api_name:
--	BG_CERT_STORE_LOCATION
+ - BG_CERT_STORE_LOCATION
 product: Windows
 targetos: Windows
 req.lib: 

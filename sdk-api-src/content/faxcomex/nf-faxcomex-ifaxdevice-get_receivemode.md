@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Fxscomex.dll
+ - Fxscomex.dll
 api_name:
--	IFaxDevice.ReceiveMode
--	IFaxDevice.get_ReceiveMode
--	IFaxDevice.put_ReceiveMode
+ - IFaxDevice.ReceiveMode
+ - IFaxDevice.get_ReceiveMode
+ - IFaxDevice.put_ReceiveMode
 product: Windows
 targetos: Windows
 req.lib: 

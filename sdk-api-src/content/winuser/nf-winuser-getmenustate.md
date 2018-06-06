@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	ext-ms-win-ntuser-menu-l1-1-2.dll
--	Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+ - User32.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
--	GetMenuState
+ - GetMenuState
 product: Windows
 targetos: Windows
 req.lib: User32.lib

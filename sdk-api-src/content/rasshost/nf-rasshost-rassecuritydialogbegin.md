@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Rasshost.h
+ - Rasshost.h
 api_name:
--	RasSecurityDialogBegin
+ - RasSecurityDialogBegin
 product: Windows
 targetos: Windows
 req.lib: 

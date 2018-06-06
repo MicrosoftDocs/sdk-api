@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRL_ENTRY, *PCRL_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRL_ENTRY
+ - CRL_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

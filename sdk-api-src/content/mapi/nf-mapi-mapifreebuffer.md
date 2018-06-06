@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mapi32.dll
+ - Mapi32.dll
 api_name:
--	MAPIFreeBuffer
+ - MAPIFreeBuffer
 product: Windows
 targetos: Windows
 req.lib: 

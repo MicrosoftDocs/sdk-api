@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RO_INIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	combase.dll
--	API-MS-Win-Core-Winrt-l1-1-0.dll
+ - combase.dll
+ - API-MS-Win-Core-Winrt-l1-1-0.dll
 api_name:
--	RoGetActivationFactory
--	WinRTGetActivationFactory
+ - RoGetActivationFactory
+ - WinRTGetActivationFactory
 product: Windows
 targetos: Windows
 req.lib: 

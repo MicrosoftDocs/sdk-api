@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CIPROPERTYDEF
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntquery.h
+ - Ntquery.h
 api_name:
--	CIPROPERTYDEF
+ - CIPROPERTYDEF
 product: Windows
 targetos: Windows
 req.lib: 

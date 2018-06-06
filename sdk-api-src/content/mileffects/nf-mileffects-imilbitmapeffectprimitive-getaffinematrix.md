@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MICUIELEMENTSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mileffects.h
+ - Mileffects.h
 api_name:
--	IMILBitmapEffectPrimitive.GetAffineMatrix
+ - IMILBitmapEffectPrimitive.GetAffineMatrix
 product: Windows
 targetos: Windows
 req.lib: 

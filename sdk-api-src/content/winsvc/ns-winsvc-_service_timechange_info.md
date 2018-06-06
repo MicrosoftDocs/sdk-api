@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_TIMECHANGE_INFO, *PSERVICE_TIMECHANGE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsvc.h
+ - winsvc.h
 api_name:
--	SERVICE_TIMECHANGE_INFO
+ - SERVICE_TIMECHANGE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

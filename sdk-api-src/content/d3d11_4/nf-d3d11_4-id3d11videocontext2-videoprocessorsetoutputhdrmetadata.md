@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11_4.h
+ - d3d11_4.h
 api_name:
--	ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
+ - ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 product: Windows
 targetos: Windows
 req.lib: 

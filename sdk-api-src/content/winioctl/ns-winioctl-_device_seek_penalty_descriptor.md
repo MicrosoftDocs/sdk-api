@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_SEEK_PENALTY_DESCRIPTOR, *PDEVICE_SEEK_PENALTY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DEVICE_SEEK_PENALTY_DESCRIPTOR
+ - DEVICE_SEEK_PENALTY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

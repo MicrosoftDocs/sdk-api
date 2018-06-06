@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	VssApi.dll
--	Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+ - VssApi.dll
+ - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
--	VssFreeSnapshotProperties
--	VssFreeSnapshotPropertiesInternal
+ - VssFreeSnapshotProperties
+ - VssFreeSnapshotPropertiesInternal
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

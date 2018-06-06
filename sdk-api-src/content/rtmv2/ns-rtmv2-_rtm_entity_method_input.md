@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_ENTITY_METHOD_INPUT, *PRTM_ENTITY_METHOD_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_ENTITY_METHOD_INPUT
+ - RTM_ENTITY_METHOD_INPUT
 product: Windows
 targetos: Windows
 req.lib: 

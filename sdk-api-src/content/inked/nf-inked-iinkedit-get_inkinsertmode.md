@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.InkInsertMode
--	IInkEdit.get_InkInsertMode
--	IInkEdit.put_InkInsertMode
--	InkEdit.get_InkInsertMode
--	InkEdit.put_InkInsertMode
+ - IInkEdit.InkInsertMode
+ - IInkEdit.get_InkInsertMode
+ - IInkEdit.put_InkInsertMode
+ - InkEdit.get_InkInsertMode
+ - InkEdit.put_InkInsertMode
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_ASSOCIATION_ATTRIBUTES, *PWLAN_ASSOCIATION_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_ASSOCIATION_ATTRIBUTES
+ - WLAN_ASSOCIATION_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

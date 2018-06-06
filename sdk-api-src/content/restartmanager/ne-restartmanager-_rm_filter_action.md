@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_FILTER_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RestartManager.h
+ - RestartManager.h
 api_name:
--	RM_FILTER_ACTION
+ - RM_FILTER_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

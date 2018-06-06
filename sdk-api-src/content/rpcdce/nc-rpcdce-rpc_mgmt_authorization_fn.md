@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_MGMT_AUTHORIZATION_FN
+ - RPC_MGMT_AUTHORIZATION_FN
 product: Windows
 targetos: Windows
 req.lib: 

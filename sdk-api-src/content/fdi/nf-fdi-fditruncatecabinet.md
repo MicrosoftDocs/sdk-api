@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CCAB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Cabinet.dll
+ - Cabinet.dll
 api_name:
--	FDITruncateCabinet
+ - FDITruncateCabinet
 product: Windows
 targetos: Windows
 req.lib: Cabinet.lib

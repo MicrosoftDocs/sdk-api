@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANCODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msftedit.dll
+ - Msftedit.dll
 api_name:
--	ITextRow.GetHeight
+ - ITextRow.GetHeight
 product: Windows
 targetos: Windows
 req.lib: 

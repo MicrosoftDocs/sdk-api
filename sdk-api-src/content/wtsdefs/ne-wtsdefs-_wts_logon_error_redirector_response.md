@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
+ - WTS_LOGON_ERROR_REDIRECTOR_RESPONSE
 product: Windows
 targetos: Windows
 req.lib: 

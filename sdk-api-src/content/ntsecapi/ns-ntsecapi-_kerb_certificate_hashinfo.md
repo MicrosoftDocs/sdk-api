@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_CERTIFICATE_HASHINFO, *PKERB_CERTIFICATE_HASHINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_CERTIFICATE_HASHINFO
+ - KERB_CERTIFICATE_HASHINFO
 product: Windows
 targetos: Windows
 req.lib: 

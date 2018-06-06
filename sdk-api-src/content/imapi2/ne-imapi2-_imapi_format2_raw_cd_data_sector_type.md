@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE, *PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	imapi2.h
+ - imapi2.h
 api_name:
--	IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
+ - IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

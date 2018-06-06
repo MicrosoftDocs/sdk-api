@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_ATTR_IMAGETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_ATTR_IMAGETYPE
+ - WMT_ATTR_IMAGETYPE
 product: Windows
 targetos: Windows
 req.lib: 

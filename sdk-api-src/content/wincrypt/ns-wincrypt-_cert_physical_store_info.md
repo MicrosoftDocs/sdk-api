@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_PHYSICAL_STORE_INFO, *PCERT_PHYSICAL_STORE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_PHYSICAL_STORE_INFO
+ - CERT_PHYSICAL_STORE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

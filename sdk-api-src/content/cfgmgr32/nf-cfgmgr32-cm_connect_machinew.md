@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Cfgmgr32.lib
--	Cfgmgr32.dll
+ - Cfgmgr32.lib
+ - Cfgmgr32.dll
 api_name:
--	CM_Connect_Machine
--	CM_Connect_MachineW
+ - CM_Connect_Machine
+ - CM_Connect_MachineW
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib

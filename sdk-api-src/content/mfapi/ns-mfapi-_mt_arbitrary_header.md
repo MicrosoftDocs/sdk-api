@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MT_ARBITRARY_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfapi.h
+ - mfapi.h
 api_name:
--	MT_ARBITRARY_HEADER
+ - MT_ARBITRARY_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

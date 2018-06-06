@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Secur32.dll
--	Ext-MS-Win-secur32-translatename-l1-1-0.dll
--	Ext-MS-Win-Secur32-Translatename-L1-1-1.dll
+ - Secur32.dll
+ - Ext-MS-Win-secur32-translatename-l1-1-0.dll
+ - Ext-MS-Win-Secur32-Translatename-L1-1-1.dll
 api_name:
--	GetComputerObjectName
--	GetComputerObjectNameA
--	GetComputerObjectNameW
+ - GetComputerObjectName
+ - GetComputerObjectNameA
+ - GetComputerObjectNameW
 product: Windows
 targetos: Windows
 req.lib: Secur32.lib

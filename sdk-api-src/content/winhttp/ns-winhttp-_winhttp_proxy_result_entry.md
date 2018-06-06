@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINHTTP_PROXY_RESULT_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winhttp.h
+ - winhttp.h
 api_name:
--	WINHTTP_PROXY_RESULT_ENTRY
+ - WINHTTP_PROXY_RESULT_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

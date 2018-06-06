@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	MDMRegistration.dll
--	MDMRegistration2.dll
+ - MDMRegistration.dll
+ - MDMRegistration2.dll
 api_name:
--	IsDeviceRegisteredWithManagement
+ - IsDeviceRegisteredWithManagement
 product: Windows
 targetos: Windows
 req.lib: MDMRegistration.lib

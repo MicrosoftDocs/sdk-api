@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+ - ACTCTX_COMPATIBILITY_ELEMENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

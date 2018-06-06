@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.dll
+ - UIAutomationCore.dll
 api_name:
--	IUIAutomation2.TransactionTimeout
--	IUIAutomation2.get_TransactionTimeout
--	IUIAutomation2.put_TransactionTimeout
+ - IUIAutomation2.TransactionTimeout
+ - IUIAutomation2.get_TransactionTimeout
+ - IUIAutomation2.put_TransactionTimeout
 product: Windows
 targetos: Windows
 req.lib: 

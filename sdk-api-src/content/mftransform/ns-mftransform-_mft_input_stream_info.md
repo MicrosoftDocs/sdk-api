@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFT_INPUT_STREAM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mftransform.h
+ - mftransform.h
 api_name:
--	MFT_INPUT_STREAM_INFO
+ - MFT_INPUT_STREAM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

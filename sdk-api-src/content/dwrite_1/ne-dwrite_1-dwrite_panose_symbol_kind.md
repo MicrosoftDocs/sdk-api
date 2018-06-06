@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwrite_1.h
+ - Dwrite_1.h
 api_name:
--	DWRITE_PANOSE_SYMBOL_KIND
+ - DWRITE_PANOSE_SYMBOL_KIND
 product: Windows
 targetos: Windows
 req.lib: 

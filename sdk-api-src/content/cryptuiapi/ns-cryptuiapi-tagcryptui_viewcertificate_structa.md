@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTUI_VIEWCERTIFICATE_STRUCTA, *PCRYPTUI_VIEWCERTIFICATE_STRUCTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cryptuiapi.h
+ - Cryptuiapi.h
 api_name:
--	CRYPTUI_VIEWCERTIFICATE_STRUCT
--	CRYPTUI_VIEWCERTIFICATE_STRUCTA
--	CRYPTUI_VIEWCERTIFICATE_STRUCTW
+ - CRYPTUI_VIEWCERTIFICATE_STRUCT
+ - CRYPTUI_VIEWCERTIFICATE_STRUCTA
+ - CRYPTUI_VIEWCERTIFICATE_STRUCTW
 product: Windows
 targetos: Windows
 req.lib: 

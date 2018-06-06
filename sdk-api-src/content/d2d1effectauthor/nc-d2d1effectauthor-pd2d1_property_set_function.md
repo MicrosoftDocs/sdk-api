@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_TRIANGLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	D2d1effectauthor.h
+ - D2d1effectauthor.h
 api_name:
--	PD2D1_PROPERTY_SET_FUNCTION
+ - PD2D1_PROPERTY_SET_FUNCTION
 product: Windows
 targetos: Windows
 req.lib: 

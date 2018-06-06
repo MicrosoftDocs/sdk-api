@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TSSESSION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SessDirPublicTypes.h
+ - SessDirPublicTypes.h
 api_name:
--	TSSESSION_STATE
+ - TSSESSION_STATE
 product: Windows
 targetos: Windows
 req.lib: Sensorsapi.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_TABLE_ENTRYA, *LPSERVICE_TABLE_ENTRYA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SERVICE_TABLE_ENTRY
--	SERVICE_TABLE_ENTRYA
--	SERVICE_TABLE_ENTRYW
+ - SERVICE_TABLE_ENTRY
+ - SERVICE_TABLE_ENTRYA
+ - SERVICE_TABLE_ENTRYW
 product: Windows
 targetos: Windows
 req.lib: 

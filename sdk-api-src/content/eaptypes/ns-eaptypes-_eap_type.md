@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaptypes.h
+ - eaptypes.h
 api_name:
--	EAP_TYPE
+ - EAP_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

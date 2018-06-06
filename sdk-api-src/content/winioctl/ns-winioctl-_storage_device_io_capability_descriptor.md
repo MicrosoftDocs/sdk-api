@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winioctl.h
+ - winioctl.h
 api_name:
--	STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+ - STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WWAHost.exe
--	WWAHost.exe.dll
+ - WWAHost.exe
+ - WWAHost.exe.dll
 api_name:
--	IWebApplicationActivation.CancelPendingActivation
+ - IWebApplicationActivation.CancelPendingActivation
 product: Windows
 targetos: Windows
 req.lib: WWAHost.exe

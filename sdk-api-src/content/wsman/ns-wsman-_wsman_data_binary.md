@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSMAN_DATA_BINARY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsman.h
+ - Wsman.h
 api_name:
--	WSMAN_DATA_BINARY
+ - WSMAN_DATA_BINARY
 product: Windows
 targetos: Windows
 req.lib: 

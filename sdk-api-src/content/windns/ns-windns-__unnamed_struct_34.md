@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_ATMA_DATA, *PDNS_ATMA_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_ATMA_DATA
+ - DNS_ATMA_DATA
 product: Windows
 targetos: Windows
 req.lib: 

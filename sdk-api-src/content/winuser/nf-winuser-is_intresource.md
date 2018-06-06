@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	IS_INTRESOURCE
+ - IS_INTRESOURCE
 product: Windows
 targetos: Windows
 req.lib: 

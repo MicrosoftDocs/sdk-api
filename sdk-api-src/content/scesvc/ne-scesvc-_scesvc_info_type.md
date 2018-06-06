@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCESVC_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Scesvc.h
+ - Scesvc.h
 api_name:
--	SCESVC_INFO_TYPE
+ - SCESVC_INFO_TYPE
 product: Windows
 targetos: Windows
 req.lib: Mssachlp.lib

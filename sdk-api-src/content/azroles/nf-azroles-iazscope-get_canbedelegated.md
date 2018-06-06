@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.dll
+ - Azroles.dll
 api_name:
--	IAzScope.CanBeDelegated
--	IAzScope.get_CanBeDelegated
--	AzScope.CanBeDelegated
+ - IAzScope.CanBeDelegated
+ - IAzScope.get_CanBeDelegated
+ - AzScope.CanBeDelegated
 product: Windows
 targetos: Windows
 req.lib: Azroles.lib

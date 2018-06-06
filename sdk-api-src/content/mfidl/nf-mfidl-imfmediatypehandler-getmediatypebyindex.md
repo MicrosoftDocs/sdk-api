@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfuuid.lib
--	mfuuid.dll
+ - mfuuid.lib
+ - mfuuid.dll
 api_name:
--	IMFMediaTypeHandler.GetMediaTypeByIndex
+ - IMFMediaTypeHandler.GetMediaTypeByIndex
 product: Windows
 targetos: Windows
 req.lib: Mfuuid.lib

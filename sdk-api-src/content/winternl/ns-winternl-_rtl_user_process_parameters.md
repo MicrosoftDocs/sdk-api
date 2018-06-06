@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTL_USER_PROCESS_PARAMETERS, *PRTL_USER_PROCESS_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winternl.h
+ - Winternl.h
 api_name:
--	RTL_USER_PROCESS_PARAMETERS
+ - RTL_USER_PROCESS_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

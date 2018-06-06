@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D9.lib
--	D3D9.dll
+ - D3D9.lib
+ - D3D9.dll
 api_name:
--	IDirect3DDevice9.TestCooperativeLevel
+ - IDirect3DDevice9.TestCooperativeLevel
 product: Windows
 targetos: Windows
 req.lib: D3D9.lib

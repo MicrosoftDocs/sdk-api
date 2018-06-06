@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Textserv.h
+ - Textserv.h
 api_name:
--	CHANGENOTIFY
+ - CHANGENOTIFY
 product: Windows
 targetos: Windows
 req.lib: 

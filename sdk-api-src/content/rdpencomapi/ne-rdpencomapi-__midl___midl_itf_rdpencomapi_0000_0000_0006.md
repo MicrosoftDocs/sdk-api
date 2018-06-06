@@ -29,14 +29,14 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: RDPENCOMAPI_ATTENDEE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rdpencomapi.h
+ - Rdpencomapi.h
 api_name:
--	RDPENCOMAPI_ATTENDEE_FLAGS
+ - RDPENCOMAPI_ATTENDEE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

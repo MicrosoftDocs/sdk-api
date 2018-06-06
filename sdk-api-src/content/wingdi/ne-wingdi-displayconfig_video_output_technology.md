@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wingdi.h
+ - wingdi.h
 api_name:
--	DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
+ - DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 product: Windows
 targetos: Windows
 req.lib: 

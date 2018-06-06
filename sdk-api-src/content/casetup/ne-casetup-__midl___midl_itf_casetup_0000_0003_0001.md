@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSCEPSetupProperty
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Casetup.h
+ - Casetup.h
 api_name:
--	MSCEPSetupProperty
+ - MSCEPSetupProperty
 product: Windows
 targetos: Windows
 req.lib: 

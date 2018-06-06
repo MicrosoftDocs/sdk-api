@@ -29,14 +29,14 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: TfShiftDir
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msctf.h
+ - Msctf.h
 api_name:
--	TfShiftDir
+ - TfShiftDir
 product: Windows
 targetos: Windows
 req.lib: 

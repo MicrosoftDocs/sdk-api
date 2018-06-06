@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FaxComex.h
+ - FaxComex.h
 api_name:
--	IFaxDevices.get_ItemById
+ - IFaxDevices.get_ItemById
 product: Windows
 targetos: Windows
 req.lib: 

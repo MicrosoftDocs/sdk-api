@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	processsnapshot.h
+ - processsnapshot.h
 api_name:
--	PSS_OBJECT_TYPE
+ - PSS_OBJECT_TYPE
 product: Windows
 targetos: Windows
 req.lib: Prntvpt.lib

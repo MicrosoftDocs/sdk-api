@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PWM_CONTROLLER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pwm.h
+ - Pwm.h
 api_name:
--	PWM_CONTROLLER_INFO
+ - PWM_CONTROLLER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

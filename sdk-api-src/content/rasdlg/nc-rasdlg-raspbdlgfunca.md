@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RASNAPSTATE, *LPRASNAPSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Rasdlg.h
+ - Rasdlg.h
 api_name:
--	RasPBDlgFunc
--	RasPBDlgFuncA
--	RasPBDlgFuncW
+ - RasPBDlgFunc
+ - RasPBDlgFuncA
+ - RasPBDlgFuncW
 product: Windows
 targetos: Windows
 req.lib: 

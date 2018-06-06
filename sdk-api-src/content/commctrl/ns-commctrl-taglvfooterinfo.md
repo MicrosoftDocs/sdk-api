@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LVFOOTERINFO, *LPLVFOOTERINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	LVFOOTERINFO
+ - LVFOOTERINFO
 product: Windows
 targetos: Windows
 req.lib: 

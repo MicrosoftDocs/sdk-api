@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SpatialAudioHrtfActivationParams
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	spatialaudiohrtf.h
+ - spatialaudiohrtf.h
 api_name:
--	SpatialAudioHrtfActivationParams
+ - SpatialAudioHrtfActivationParams
 product: Windows
 targetos: Windows
 req.lib: 

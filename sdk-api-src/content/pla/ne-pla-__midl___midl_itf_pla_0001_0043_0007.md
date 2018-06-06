@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CommitMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pla.h
+ - Pla.h
 api_name:
--	CommitMode
+ - CommitMode
 product: Windows
 targetos: Windows
 req.lib: 

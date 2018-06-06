@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEARCH_COLUMN_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	searchapi.h
+ - searchapi.h
 api_name:
--	SEARCH_COLUMN_PROPERTIES
+ - SEARCH_COLUMN_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

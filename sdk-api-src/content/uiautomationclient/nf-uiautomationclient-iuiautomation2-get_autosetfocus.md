@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.dll
+ - UIAutomationCore.dll
 api_name:
--	IUIAutomation2.AutoSetFocus
--	IUIAutomation2.get_AutoSetFocus
--	IUIAutomation2.put_AutoSetFocus
+ - IUIAutomation2.AutoSetFocus
+ - IUIAutomation2.get_AutoSetFocus
+ - IUIAutomation2.put_AutoSetFocus
 product: Windows
 targetos: Windows
 req.lib: 

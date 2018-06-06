@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECTL, *PRECTL, *LPRECTL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	windef.h
+ - windef.h
 api_name:
--	RECTL
+ - RECTL
 product: Windows
 targetos: Windows
 req.lib: 

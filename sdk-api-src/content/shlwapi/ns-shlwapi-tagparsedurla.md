@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PARSEDURLA, *PPARSEDURLA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlwapi.h
+ - Shlwapi.h
 api_name:
--	PARSEDURL
--	PARSEDURLA
--	PARSEDURLW
+ - PARSEDURL
+ - PARSEDURLA
+ - PARSEDURLW
 product: Windows
 targetos: Windows
 req.lib: 

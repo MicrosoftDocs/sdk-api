@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VssApi.lib
--	VssApi.dll
+ - VssApi.lib
+ - VssApi.dll
 api_name:
--	IVssBackupComponents.PrepareForBackup
+ - IVssBackupComponents.PrepareForBackup
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

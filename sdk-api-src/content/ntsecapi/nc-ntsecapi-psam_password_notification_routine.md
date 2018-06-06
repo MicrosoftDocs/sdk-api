@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CI_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	PasswordChangeNotify
+ - PasswordChangeNotify
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_GETINTERNALMOCOMPDATA
+ - DD_GETINTERNALMOCOMPDATA
 product: Windows
 targetos: Windows
 req.lib: 

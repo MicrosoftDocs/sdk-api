@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_VOLUME_PROP, *PVDS_VOLUME_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
+ - Vds.h
 api_name:
--	VDS_VOLUME_PROP
+ - VDS_VOLUME_PROP
 product: Windows
 targetos: Windows
 req.lib: 

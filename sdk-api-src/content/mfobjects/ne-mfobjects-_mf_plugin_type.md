@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_Plugin_Type
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MF_Plugin_Type
+ - MF_Plugin_Type
 product: Windows
 targetos: Windows
 req.lib: 

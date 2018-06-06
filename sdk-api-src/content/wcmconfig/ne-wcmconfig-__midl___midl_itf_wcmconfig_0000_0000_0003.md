@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WcmDataType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WcmConfig.h
+ - WcmConfig.h
 api_name:
--	WcmDataType
+ - WcmDataType
 product: Windows
 targetos: Windows
 req.lib: 

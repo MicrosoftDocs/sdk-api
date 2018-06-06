@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ws2_32.dll
+ - Ws2_32.dll
 api_name:
--	WSAEnumProtocols
--	WSAEnumProtocolsA
--	WSAEnumProtocolsW
+ - WSAEnumProtocols
+ - WSAEnumProtocolsA
+ - WSAEnumProtocolsW
 product: Windows
 targetos: Windows
 req.lib: Ws2_32.lib

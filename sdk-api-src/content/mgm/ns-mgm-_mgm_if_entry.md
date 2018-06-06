@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MGM_IF_ENTRY, *PMGM_IF_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mgm.h
+ - Mgm.h
 api_name:
--	MGM_IF_ENTRY
+ - MGM_IF_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

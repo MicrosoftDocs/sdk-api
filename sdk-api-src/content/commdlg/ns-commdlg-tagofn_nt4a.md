@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OPENFILENAME_NT4A, *LPOPENFILENAME_NT4A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	OPENFILENAME_NT4
--	OPENFILENAME_NT4A
--	OPENFILENAME_NT4W
+ - OPENFILENAME_NT4
+ - OPENFILENAME_NT4A
+ - OPENFILENAME_NT4W
 product: Windows
 targetos: Windows
 req.lib: 

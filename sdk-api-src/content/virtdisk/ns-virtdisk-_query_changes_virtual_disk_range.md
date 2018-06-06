@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: QUERY_CHANGES_VIRTUAL_DISK_RANGE, *PQUERY_CHANGES_VIRTUAL_DISK_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	QUERY_CHANGES_VIRTUAL_DISK_RANGE
+ - QUERY_CHANGES_VIRTUAL_DISK_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

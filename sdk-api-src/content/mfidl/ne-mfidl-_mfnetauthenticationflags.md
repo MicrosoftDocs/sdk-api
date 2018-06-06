@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFNetAuthenticationFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFNetAuthenticationFlags
+ - MFNetAuthenticationFlags
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwpmtypes.h
+ - Fwpmtypes.h
 api_name:
--	FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
+ - FWPM_NET_EVENT_IKEEXT_EM_FAILURE1
 product: Windows
 targetos: Windows
 req.lib: 

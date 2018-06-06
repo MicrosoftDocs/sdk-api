@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dsattrib.h
+ - dsattrib.h
 api_name:
--	IAttributeGet.GetCount
+ - IAttributeGet.GetCount
 product: Windows
 targetos: Windows
 req.lib: 

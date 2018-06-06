@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_NEIGHBOR_STATE, *PNL_NEIGHBOR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	nldef.h
+ - nldef.h
 api_name:
--	NL_NEIGHBOR_STATE
+ - NL_NEIGHBOR_STATE
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

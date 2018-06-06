@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wldap32.dll
+ - Wldap32.dll
 api_name:
--	ldap_memfree
--	ldap_memfreeA
--	ldap_memfreeW
+ - ldap_memfree
+ - ldap_memfreeA
+ - ldap_memfreeW
 product: Windows
 targetos: Windows
 req.lib: Wldap32.lib

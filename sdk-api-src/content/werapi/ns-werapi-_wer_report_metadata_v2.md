@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WER_REPORT_METADATA_V2, *PWER_REPORT_METADATA_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Werapi.h
+ - Werapi.h
 api_name:
--	WER_REPORT_METADATA_V2
+ - WER_REPORT_METADATA_V2
 product: Windows
 targetos: Windows
 req.lib: 

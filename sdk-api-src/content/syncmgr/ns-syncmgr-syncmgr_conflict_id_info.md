@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNCMGR_CONFLICT_ID_INFO, *PSYNCMGR_CONFLICT_ID_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Syncmgr.h
+ - Syncmgr.h
 api_name:
--	SYNCMGR_CONFLICT_ID_INFO
+ - SYNCMGR_CONFLICT_ID_INFO
 product: Windows
 targetos: Windows
 req.lib: 

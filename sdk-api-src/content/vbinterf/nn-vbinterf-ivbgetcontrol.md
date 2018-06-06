@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VbInterf.h
+ - VbInterf.h
 api_name:
--	IVBGetControl
+ - IVBGetControl
 product: Windows
 targetos: Windows
 req.lib: 

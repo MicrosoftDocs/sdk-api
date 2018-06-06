@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	ITaskSettings.MultipleInstances
--	ITaskSettings.get_MultipleInstances
--	ITaskSettings.put_MultipleInstances
+ - ITaskSettings.MultipleInstances
+ - ITaskSettings.get_MultipleInstances
+ - ITaskSettings.put_MultipleInstances
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

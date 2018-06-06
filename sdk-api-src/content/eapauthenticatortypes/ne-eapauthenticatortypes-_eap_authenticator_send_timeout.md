@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_AUTHENTICATOR_SEND_TIMEOUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eapAuthenticatorTypes.h
+ - eapAuthenticatorTypes.h
 api_name:
--	EAP_AUTHENTICATOR_SEND_TIMEOUT
+ - EAP_AUTHENTICATOR_SEND_TIMEOUT
 product: Windows
 targetos: Windows
 req.lib: 

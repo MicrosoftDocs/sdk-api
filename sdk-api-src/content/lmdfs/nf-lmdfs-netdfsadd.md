@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DFS_TARGET_PRIORITY_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	NetApi32.dll
+ - NetApi32.dll
 api_name:
--	NetDfsAdd
+ - NetDfsAdd
 product: Windows
 targetos: Windows
 req.lib: NetApi32.lib

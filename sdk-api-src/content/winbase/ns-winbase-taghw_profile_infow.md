@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: HW_PROFILE_INFOW, *LPHW_PROFILE_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbase.h
+ - Winbase.h
 api_name:
--	HW_PROFILE_INFO
--	HW_PROFILE_INFOA
--	HW_PROFILE_INFOW
+ - HW_PROFILE_INFO
+ - HW_PROFILE_INFOA
+ - HW_PROFILE_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

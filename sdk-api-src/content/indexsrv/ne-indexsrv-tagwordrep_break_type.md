@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WORDREP_BREAK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Indexsrv.h
+ - Indexsrv.h
 api_name:
--	WORDREP_BREAK_TYPE
+ - WORDREP_BREAK_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

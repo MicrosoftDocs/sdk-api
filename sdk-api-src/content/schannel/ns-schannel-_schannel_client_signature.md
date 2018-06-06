@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SCHANNEL_CLIENT_SIGNATURE
+ - SCHANNEL_CLIENT_SIGNATURE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmvcore.lib
--	Wmvcore.dll
--	WMStubDRM.lib
--	WMStubDRM.dll
--	qasf.dll
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
 api_name:
--	IWMHeaderInfo.GetAttributeByIndex
--	IWMHeaderInfo2.GetAttributeByIndex
--	IWMHeaderInfo3.GetAttributeByIndex
+ - IWMHeaderInfo.GetAttributeByIndex
+ - IWMHeaderInfo2.GetAttributeByIndex
+ - IWMHeaderInfo3.GetAttributeByIndex
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

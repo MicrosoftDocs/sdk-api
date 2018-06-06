@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIXERCONTROLDETAILS, *PMIXERCONTROLDETAILS, *LPMIXERCONTROLDETAILS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmeapi.h
+ - mmeapi.h
 api_name:
--	MIXERCONTROLDETAILS
+ - MIXERCONTROLDETAILS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msinkaut.h
+ - msinkaut.h
 api_name:
--	DISPID_InkRecognizerGuide
+ - DISPID_InkRecognizerGuide
 product: Windows
 targetos: Windows
 req.lib: 

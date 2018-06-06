@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFT_MESSAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mftransform.h
+ - mftransform.h
 api_name:
--	MFT_MESSAGE_TYPE
+ - MFT_MESSAGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: Mfobjects.lib

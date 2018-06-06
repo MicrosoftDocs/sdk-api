@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ScrollBarsConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	inked.h
+ - inked.h
 api_name:
--	ScrollBarsConstants
+ - ScrollBarsConstants
 product: Windows
 targetos: Windows
 req.lib: 

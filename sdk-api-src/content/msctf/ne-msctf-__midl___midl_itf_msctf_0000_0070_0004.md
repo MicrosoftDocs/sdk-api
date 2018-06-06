@@ -29,14 +29,14 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: TF_DA_ATTR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msctf.h
+ - Msctf.h
 api_name:
--	TF_DA_ATTR_INFO
+ - TF_DA_ATTR_INFO
 product: Windows
 targetos: Windows
 req.lib: 

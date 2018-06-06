@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: ProtType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-enclave-l1-1-0.dll
--	kernel32.dll
--	KernelBase.dll
--	API-MS-Win-Core-Enclave-L1-1-0.dll
+ - api-ms-win-core-enclave-l1-1-0.dll
+ - kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Enclave-L1-1-0.dll
 api_name:
--	IsEnclaveTypeSupported
+ - IsEnclaveTypeSupported
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

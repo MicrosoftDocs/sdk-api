@@ -29,18 +29,18 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RdpEncom.dll
+ - RdpEncom.dll
 api_name:
--	IRDPSRAPISharingSession2.Attendees
--	IRDPSRAPISharingSession2.get_Attendees
--	IRDPSRAPISharingSession.Attendees
--	IRDPSRAPISharingSession.get_Attendees
--	RDPSession.Attendees
+ - IRDPSRAPISharingSession2.Attendees
+ - IRDPSRAPISharingSession2.get_Attendees
+ - IRDPSRAPISharingSession.Attendees
+ - IRDPSRAPISharingSession.get_Attendees
+ - RDPSession.Attendees
 product: Windows
 targetos: Windows
 req.lib: 

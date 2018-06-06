@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UMS_SYSTEM_THREAD_INFORMATION, *PUMS_SYSTEM_THREAD_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	UMS_SYSTEM_THREAD_INFORMATION
+ - UMS_SYSTEM_THREAD_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_LICENSING_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	slpublic.h
+ - slpublic.h
 api_name:
--	SL_LICENSING_STATUS
+ - SL_LICENSING_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

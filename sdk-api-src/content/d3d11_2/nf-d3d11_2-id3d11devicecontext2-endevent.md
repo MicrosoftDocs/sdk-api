@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_TILE_RANGE_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11_2.h
+ - d3d11_2.h
 api_name:
--	ID3D11DeviceContext2.EndEvent
+ - ID3D11DeviceContext2.EndEvent
 product: Windows
 targetos: Windows
 req.lib: 

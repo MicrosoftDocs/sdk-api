@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ARM64_NT_CONTEXT, *PARM64_NT_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	CONTEXT
+ - CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

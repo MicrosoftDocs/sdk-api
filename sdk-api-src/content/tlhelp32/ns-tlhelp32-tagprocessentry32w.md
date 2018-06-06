@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESSENTRY32W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TlHelp32.h
+ - TlHelp32.h
 api_name:
--	PROCESSENTRY32
--	PROCESSENTRY32
--	PROCESSENTRY32W
+ - PROCESSENTRY32
+ - PROCESSENTRY32
+ - PROCESSENTRY32W
 product: Windows
 targetos: Windows
 req.lib: 

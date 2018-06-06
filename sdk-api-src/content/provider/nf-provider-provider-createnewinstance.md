@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	Provider.CreateNewInstance
--	?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
--	?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z
+ - Provider.CreateNewInstance
+ - ?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
+ - ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

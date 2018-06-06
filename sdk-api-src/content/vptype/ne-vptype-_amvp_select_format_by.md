@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVP_SELECT_FORMAT_BY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	vptype.h
+ - vptype.h
 api_name:
--	AMVP_SELECT_FORMAT_BY
+ - AMVP_SELECT_FORMAT_BY
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

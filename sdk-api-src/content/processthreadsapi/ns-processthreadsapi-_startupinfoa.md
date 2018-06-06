@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: STARTUPINFOA, *LPSTARTUPINFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
--	processthreadsapi.h
+ - WinBase.h
+ - processthreadsapi.h
 api_name:
--	STARTUPINFO
--	STARTUPINFOA
--	STARTUPINFOW
+ - STARTUPINFO
+ - STARTUPINFOA
+ - STARTUPINFOW
 product: Windows
 targetos: Windows
 req.lib: 

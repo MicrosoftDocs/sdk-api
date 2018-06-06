@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfIntegratableCandidateListSelectionStyle
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Ctffunc.h
+ - Ctffunc.h
 api_name:
--	IUIManagerEventSink
+ - IUIManagerEventSink
 product: Windows
 targetos: Windows
 req.lib: 

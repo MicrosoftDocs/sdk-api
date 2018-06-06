@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: GPMStarterGPOType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernelbase.dll
--	api-ms-win-core-handle-l1-1-0.lib
--	api-ms-win-core-handle-l1-1-0.dll
--	Kernel32.dll
+ - Kernelbase.dll
+ - api-ms-win-core-handle-l1-1-0.lib
+ - api-ms-win-core-handle-l1-1-0.dll
+ - Kernel32.dll
 api_name:
--	CompareObjectHandles
+ - CompareObjectHandles
 product: Windows
 targetos: Windows
 req.lib: Kernelbase.lib

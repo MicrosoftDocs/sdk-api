@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Fcachdll.dll
+ - Fcachdll.dll
 api_name:
--	InsertFile
+ - InsertFile
 product: Windows
 targetos: Windows
 req.lib: Fcachdll.lib

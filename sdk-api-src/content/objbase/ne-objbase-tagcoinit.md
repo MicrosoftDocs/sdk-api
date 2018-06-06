@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COINIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objbase.h
+ - Objbase.h
 api_name:
--	COINIT
+ - COINIT
 product: Windows
 targetos: Windows
 req.lib: 

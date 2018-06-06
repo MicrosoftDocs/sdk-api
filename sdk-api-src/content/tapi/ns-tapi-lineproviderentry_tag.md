@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINEPROVIDERENTRY, *LPLINEPROVIDERENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi.h
+ - Tapi.h
 api_name:
--	LINEPROVIDERENTRY
+ - LINEPROVIDERENTRY
 product: Windows
 targetos: Windows
 req.lib: 

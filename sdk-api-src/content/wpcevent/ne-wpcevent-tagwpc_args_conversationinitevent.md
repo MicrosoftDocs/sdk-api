@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WPC_ARGS_CONVERSATIONINITEVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wpcevent.h
+ - Wpcevent.h
 api_name:
--	WPC_ARGS_CONVERSATIONINITEVENT
+ - WPC_ARGS_CONVERSATIONINITEVENT
 product: Windows
 targetos: Windows
 req.lib: 

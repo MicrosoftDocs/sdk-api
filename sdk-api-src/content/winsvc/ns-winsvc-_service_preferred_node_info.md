@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_PREFERRED_NODE_INFO, *LPSERVICE_PREFERRED_NODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsvc.h
+ - winsvc.h
 api_name:
--	SERVICE_PREFERRED_NODE_INFO
+ - SERVICE_PREFERRED_NODE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

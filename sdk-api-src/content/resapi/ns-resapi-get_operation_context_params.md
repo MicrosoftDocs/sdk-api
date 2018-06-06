@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: GET_OPERATION_CONTEXT_PARAMS, *PGET_OPERATION_CONTEXT_PARAMS
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	GET_OPERATION_CONTEXT_PARAMS
+ - GET_OPERATION_CONTEXT_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

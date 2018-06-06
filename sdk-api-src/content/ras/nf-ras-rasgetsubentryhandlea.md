@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RASPROJECTION_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rasapi32.dll
+ - Rasapi32.dll
 api_name:
--	RasGetSubEntryHandle
--	RasGetSubEntryHandleA
--	RasGetSubEntryHandleW
+ - RasGetSubEntryHandle
+ - RasGetSubEntryHandleA
+ - RasGetSubEntryHandleW
 product: Windows
 targetos: Windows
 req.lib: Rasapi32.lib

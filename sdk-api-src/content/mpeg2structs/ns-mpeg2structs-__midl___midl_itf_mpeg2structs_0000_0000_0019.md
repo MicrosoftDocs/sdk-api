@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG2_FILTER, *PMPEG2_FILTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	MPEG2_FILTER
+ - MPEG2_FILTER
 product: Windows
 targetos: Windows
 req.lib: 

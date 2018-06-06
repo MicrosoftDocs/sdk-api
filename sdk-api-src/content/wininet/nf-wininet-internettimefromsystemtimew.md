@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: InternetCookieState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wininet.dll
--	API-MS-Win-Http-Time-l1-1-0.dll
--	KernelBase.dll
+ - Wininet.dll
+ - API-MS-Win-Http-Time-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	InternetTimeFromSystemTime
--	InternetTimeFromSystemTimeA
--	InternetTimeFromSystemTimeW
+ - InternetTimeFromSystemTime
+ - InternetTimeFromSystemTimeA
+ - InternetTimeFromSystemTimeW
 product: Windows
 targetos: Windows
 req.lib: Wininet.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VALENTA, *PVALENTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winreg.h
+ - Winreg.h
 api_name:
--	VALENT
--	VALENTA
--	VALENTW
+ - VALENT
+ - VALENTA
+ - VALENTW
 product: Windows
 targetos: Windows
 req.lib: 

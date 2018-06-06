@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WER_EXCEPTION_INFORMATION, *PWER_EXCEPTION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Werapi.h
+ - Werapi.h
 api_name:
--	WER_EXCEPTION_INFORMATION
+ - WER_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

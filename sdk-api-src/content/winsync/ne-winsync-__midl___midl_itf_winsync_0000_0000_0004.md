@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNC_FULL_ENUMERATION_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsync.h
+ - winsync.h
 api_name:
--	SYNC_FULL_ENUMERATION_ACTION
+ - SYNC_FULL_ENUMERATION_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

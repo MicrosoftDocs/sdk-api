@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_DOMAIN_CONTROLLER_INFO_2W, *PDS_DOMAIN_CONTROLLER_INFO_2W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_DOMAIN_CONTROLLER_INFO_2
--	DS_DOMAIN_CONTROLLER_INFO_2A
--	DS_DOMAIN_CONTROLLER_INFO_2W
+ - DS_DOMAIN_CONTROLLER_INFO_2
+ - DS_DOMAIN_CONTROLLER_INFO_2A
+ - DS_DOMAIN_CONTROLLER_INFO_2W
 product: Windows
 targetos: Windows
 req.lib: 

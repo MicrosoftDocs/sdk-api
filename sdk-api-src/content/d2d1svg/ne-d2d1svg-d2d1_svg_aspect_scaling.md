@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_SVG_ASPECT_SCALING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1svg.h
+ - d2d1svg.h
 api_name:
--	D2D1_SVG_ASPECT_SCALING
+ - D2D1_SVG_ASPECT_SCALING
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

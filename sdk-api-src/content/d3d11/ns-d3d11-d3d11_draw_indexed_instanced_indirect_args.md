@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d11.h
+ - d3d11.h
 api_name:
--	D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
+ - D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
 product: Windows
 targetos: Windows
 req.lib: 

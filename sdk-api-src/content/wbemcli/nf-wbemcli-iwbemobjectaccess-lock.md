@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Esscli.dll
--	Fastprox.dll
--	Wbemess.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - Wbemess.dll
 api_name:
--	IWbemObjectAccess.Lock
+ - IWbemObjectAccess.Lock
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

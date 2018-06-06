@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SyncProviderConfiguration
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	systemmediatransportcontrolsinterop.h
+ - systemmediatransportcontrolsinterop.h
 api_name:
--	ISystemMediaTransportControlsInterop
+ - ISystemMediaTransportControlsInterop
 product: Windows
 targetos: Windows
 req.lib: 

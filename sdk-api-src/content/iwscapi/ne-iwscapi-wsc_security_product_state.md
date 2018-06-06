@@ -29,14 +29,14 @@ req.type-library: Wscapi.lib
 tech.root: 
 req.typenames: WSC_SECURITY_PRODUCT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Wscapi.lib
+ - Wscapi.lib
 api_name:
--	WSC_SECURITY_PRODUCT_STATE
+ - WSC_SECURITY_PRODUCT_STATE
 product: Windows
 targetos: Windows
 req.lib: 

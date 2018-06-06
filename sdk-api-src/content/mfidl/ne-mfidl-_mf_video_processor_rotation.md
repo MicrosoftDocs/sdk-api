@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_VIDEO_PROCESSOR_ROTATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_VIDEO_PROCESSOR_ROTATION
+ - MF_VIDEO_PROCESSOR_ROTATION
 product: Windows
 targetos: Windows
 req.lib: 

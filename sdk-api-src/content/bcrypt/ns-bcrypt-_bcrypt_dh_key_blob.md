@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BCRYPT_DH_KEY_BLOB, *PBCRYPT_DH_KEY_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	BCRYPT_DH_KEY_BLOB
+ - BCRYPT_DH_KEY_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

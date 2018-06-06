@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpcsdk.h
+ - Dhcpcsdk.h
 api_name:
--	DHCPCAPI_PARAMS_ARRAY
+ - DHCPCAPI_PARAMS_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

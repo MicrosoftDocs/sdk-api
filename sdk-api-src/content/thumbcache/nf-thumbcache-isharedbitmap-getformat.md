@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Thumbcache.h
+ - Thumbcache.h
 api_name:
--	ISharedBitmap.GetFormat
+ - ISharedBitmap.GetFormat
 product: Windows
 targetos: Windows
 req.lib: 

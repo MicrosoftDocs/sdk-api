@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	IOCSPCAConfiguration.Modified
--	IOCSPCAConfiguration.get_Modified
+ - IOCSPCAConfiguration.Modified
+ - IOCSPCAConfiguration.get_Modified
 product: Windows
 targetos: Windows
 req.lib: Certadm.lib

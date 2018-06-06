@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkPicture.SizeMode
--	IInkPicture.get_SizeMode
--	IInkPicture.put_SizeMode
--	InkPicture.get_SizeMode
--	InkPicture.put_SizeMode
+ - IInkPicture.SizeMode
+ - IInkPicture.get_SizeMode
+ - IInkPicture.put_SizeMode
+ - InkPicture.get_SizeMode
+ - InkPicture.put_SizeMode
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_SERVICE_METADATA_DOCUMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_SERVICE_METADATA_DOCUMENT
+ - WS_SERVICE_METADATA_DOCUMENT
 product: Windows
 targetos: Windows
 req.lib: 

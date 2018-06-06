@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_TRUST_STATUS, *PCERT_TRUST_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_TRUST_STATUS
+ - CERT_TRUST_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

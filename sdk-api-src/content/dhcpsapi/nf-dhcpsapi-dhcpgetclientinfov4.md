@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QuarantineStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dhcpsapi.dll
+ - Dhcpsapi.dll
 api_name:
--	DhcpGetClientInfoV4
+ - DhcpGetClientInfoV4
 product: Windows
 targetos: Windows
 req.lib: Dhcpsapi.lib

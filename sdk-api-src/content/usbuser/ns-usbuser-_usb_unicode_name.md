@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USB_UNICODE_NAME
+ - USB_UNICODE_NAME
 product: Windows
 targetos: Windows
 req.lib: 

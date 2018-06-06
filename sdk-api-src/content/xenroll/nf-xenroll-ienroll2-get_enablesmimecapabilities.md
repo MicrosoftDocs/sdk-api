@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Xenroll.dll
+ - Xenroll.dll
 api_name:
--	IEnroll2.EnableSMIMECapabilities
--	IEnroll2.get_EnableSMIMECapabilities
--	IEnroll2.put_EnableSMIMECapabilities
+ - IEnroll2.EnableSMIMECapabilities
+ - IEnroll2.get_EnableSMIMECapabilities
+ - IEnroll2.put_EnableSMIMECapabilities
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

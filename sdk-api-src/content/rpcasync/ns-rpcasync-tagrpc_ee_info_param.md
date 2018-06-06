@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_EE_INFO_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RPC_EE_INFO_PARAM
+ - RPC_EE_INFO_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

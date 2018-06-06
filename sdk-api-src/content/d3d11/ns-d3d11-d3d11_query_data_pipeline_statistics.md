@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_QUERY_DATA_PIPELINE_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11.h
+ - D3D11.h
 api_name:
--	D3D11_QUERY_DATA_PIPELINE_STATISTICS
+ - D3D11_QUERY_DATA_PIPELINE_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

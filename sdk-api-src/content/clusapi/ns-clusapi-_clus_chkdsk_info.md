@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_CHKDSK_INFO, *PCLUS_CHKDSK_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_CHKDSK_INFO
+ - CLUS_CHKDSK_INFO
 product: Windows
 targetos: Windows
 req.lib: 

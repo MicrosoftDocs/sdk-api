@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_4.h
+ - DXGI1_4.h
 api_name:
--	DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+ - DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

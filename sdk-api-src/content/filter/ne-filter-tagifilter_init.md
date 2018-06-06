@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: IFILTER_INIT
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	IFILTER_INIT
+ - IFILTER_INIT
 product: Windows
 targetos: Windows
 req.lib: 

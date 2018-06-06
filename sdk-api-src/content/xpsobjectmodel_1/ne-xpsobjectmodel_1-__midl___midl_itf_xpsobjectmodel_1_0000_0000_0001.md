@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_DOCUMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xpsobjectmodel_1.h
+ - xpsobjectmodel_1.h
 api_name:
--	XPS_DOCUMENT_TYPE
+ - XPS_DOCUMENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

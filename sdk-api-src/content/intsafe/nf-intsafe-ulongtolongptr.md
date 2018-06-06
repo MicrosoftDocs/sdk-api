@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_VELOCITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Intsafe.h
+ - Intsafe.h
 api_name:
--	ULongToLongPtr
+ - ULongToLongPtr
 product: Windows
 targetos: Windows
 req.lib: 

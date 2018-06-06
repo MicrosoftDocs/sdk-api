@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.BackColor
--	IInkEdit.get_BackColor
--	IInkEdit.put_BackColor
--	InkEdit.get_BackColor
--	InkEdit.put_BackColor
+ - IInkEdit.BackColor
+ - IInkEdit.get_BackColor
+ - IInkEdit.put_BackColor
+ - InkEdit.get_BackColor
+ - InkEdit.put_BackColor
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

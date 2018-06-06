@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Evcoll.h
+ - Evcoll.h
 api_name:
--	EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
+ - EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

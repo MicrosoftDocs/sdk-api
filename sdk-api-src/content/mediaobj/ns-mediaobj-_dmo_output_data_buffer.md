@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DMO_OUTPUT_DATA_BUFFER, *PDMO_OUTPUT_DATA_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mediaobj.h
+ - Mediaobj.h
 api_name:
--	DMO_OUTPUT_DATA_BUFFER
+ - DMO_OUTPUT_DATA_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

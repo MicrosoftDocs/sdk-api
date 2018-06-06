@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_LOG_DATA, *PHTTP_LOG_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_LOG_DATA
+ - HTTP_LOG_DATA
 product: Windows
 targetos: Windows
 req.lib: 

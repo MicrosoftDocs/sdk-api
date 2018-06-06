@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLUETOOTH_GATT_VALUE_CHANGED_EVENT, *PBLUETOOTH_GATT_VALUE_CHANGED_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BthLEDef.h
+ - BthLEDef.h
 api_name:
--	BLUETOOTH_GATT_VALUE_CHANGED_EVENT
+ - BLUETOOTH_GATT_VALUE_CHANGED_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

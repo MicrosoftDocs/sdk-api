@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	peerdist.h
+ - peerdist.h
 api_name:
--	PeerDistGetOverlappedResult
+ - PeerDistGetOverlappedResult
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: EDefaultDevmodeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	prntvpt.dll
--	Ext-MS-Win-printer-prntvpt-l1-1-0.dll
+ - prntvpt.dll
+ - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
 api_name:
--	PTQuerySchemaVersionSupport
+ - PTQuerySchemaVersionSupport
 product: Windows
 targetos: Windows
 req.lib: Prntvpt.lib

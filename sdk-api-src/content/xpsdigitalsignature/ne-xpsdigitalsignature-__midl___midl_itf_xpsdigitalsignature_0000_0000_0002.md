@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_SIGN_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xpsdigitalsignature.h
+ - xpsdigitalsignature.h
 api_name:
--	XPS_SIGN_POLICY
+ - XPS_SIGN_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

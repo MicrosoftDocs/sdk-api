@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_CONNECTION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PEER_CONNECTION_FLAGS
+ - PEER_CONNECTION_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PWM_PIN_GET_POLARITY_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pwm.h
+ - Pwm.h
 api_name:
--	PWM_PIN_GET_POLARITY_OUTPUT
+ - PWM_PIN_GET_POLARITY_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

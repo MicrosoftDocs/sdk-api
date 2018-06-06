@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: THDTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	objidlbase.h
+ - objidlbase.h
 api_name:
--	IObjContext
--	IObjContext.Reserved1
--	IObjContext.Reserved2
--	IObjContext.Reserved3
--	IObjContext.Reserved4
--	IObjContext.Reserved5
--	IObjContext.Reserved6
--	IObjContext.Reserved7
+ - IObjContext
+ - IObjContext.Reserved1
+ - IObjContext.Reserved2
+ - IObjContext.Reserved3
+ - IObjContext.Reserved4
+ - IObjContext.Reserved5
+ - IObjContext.Reserved6
+ - IObjContext.Reserved7
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

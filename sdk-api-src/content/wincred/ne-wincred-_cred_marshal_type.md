@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinCred.h
+ - WinCred.h
 api_name:
--	CRED_MARSHAL_TYPE
+ - CRED_MARSHAL_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

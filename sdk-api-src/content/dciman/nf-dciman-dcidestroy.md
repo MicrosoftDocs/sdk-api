@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEV_BROADCAST_VOLUME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dciman32.dll
+ - Dciman32.dll
 api_name:
--	DCIDestroy
+ - DCIDestroy
 product: Windows
 targetos: Windows
 req.lib: Dciman32.lib

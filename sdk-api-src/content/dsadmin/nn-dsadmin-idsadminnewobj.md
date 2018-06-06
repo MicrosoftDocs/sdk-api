@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	DSAdmin.dll
+ - DSAdmin.dll
 api_name:
--	IDsAdminNewObj
+ - IDsAdminNewObj
 product: Windows
 targetos: Windows
 req.lib: 

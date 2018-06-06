@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Twinapi.dll
+ - Twinapi.dll
 api_name:
--	IApplicationDesignModeSettings.SetApplicationViewState
+ - IApplicationDesignModeSettings.SetApplicationViewState
 product: Windows
 targetos: Windows
 req.lib: 

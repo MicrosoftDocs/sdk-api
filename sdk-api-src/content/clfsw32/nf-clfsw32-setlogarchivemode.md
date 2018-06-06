@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ClfsW32.dll
+ - ClfsW32.dll
 api_name:
--	SetLogArchiveMode
+ - SetLogArchiveMode
 product: Windows
 targetos: Windows
 req.lib: ClfsW32.lib

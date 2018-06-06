@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHNEXTSTEP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	netapi32.dll
--	DavHlpr.dll
--	Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+ - netapi32.dll
+ - DavHlpr.dll
+ - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
 api_name:
--	DavGetExtendedError
+ - DavGetExtendedError
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_REQUEST_QUERY_INFORMATION_EX_XP, *PTCP_REQUEST_QUERY_INFORMATION_EX_XP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tdiinfo.h
+ - tdiinfo.h
 api_name:
--	TCP_REQUEST_QUERY_INFORMATION_EX
+ - TCP_REQUEST_QUERY_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.lib: 

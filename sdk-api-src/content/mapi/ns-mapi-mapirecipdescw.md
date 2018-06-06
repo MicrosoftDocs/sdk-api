@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MapiRecipDescW, *lpMapiRecipDescW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mapi.h
+ - Mapi.h
 api_name:
--	MapiRecipDescW
+ - MapiRecipDescW
 product: Windows
 targetos: Windows
 req.lib: 

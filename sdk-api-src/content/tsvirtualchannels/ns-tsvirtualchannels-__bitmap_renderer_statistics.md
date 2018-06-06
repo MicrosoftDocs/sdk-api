@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tsvirtualchannels.h
+ - tsvirtualchannels.h
 api_name:
--	BITMAP_RENDERER_STATISTICS
+ - BITMAP_RENDERER_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RADIUS_REJECT_REASON_CODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AuthIf.h
+ - AuthIf.h
 api_name:
--	RADIUS_REJECT_REASON_CODE
+ - RADIUS_REJECT_REASON_CODE
 product: Windows
 targetos: Windows
 req.lib: 

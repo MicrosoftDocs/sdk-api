@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMINVOKECOMMANDINFOEX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
--	CMINVOKECOMMANDINFOEX
+ - CMINVOKECOMMANDINFOEX
 product: Windows
 targetos: Windows
 req.lib: 

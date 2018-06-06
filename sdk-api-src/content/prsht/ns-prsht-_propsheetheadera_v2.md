@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PROPSHEETHEADERA_V2, *LPPROPSHEETHEADERA_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Prsht.h
+ - Prsht.h
 api_name:
--	PROPSHEETHEADER
--	PROPSHEETHEADERA
--	PROPSHEETHEADERW
+ - PROPSHEETHEADER
+ - PROPSHEETHEADERA
+ - PROPSHEETHEADERW
 product: Windows
 targetos: Windows
 req.lib: 

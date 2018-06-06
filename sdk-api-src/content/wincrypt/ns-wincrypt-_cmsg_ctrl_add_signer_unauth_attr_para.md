@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA, *PCMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
+ - CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 product: Windows
 targetos: Windows
 req.lib: 

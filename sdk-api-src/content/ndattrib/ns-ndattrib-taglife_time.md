@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LIFE_TIME, *PLIFE_TIME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndattrib.h
+ - ndattrib.h
 api_name:
--	LIFE_TIME, *PLIFE_TIME
+ - LIFE_TIME, *PLIFE_TIME
 product: Windows
 targetos: Windows
 req.lib: 

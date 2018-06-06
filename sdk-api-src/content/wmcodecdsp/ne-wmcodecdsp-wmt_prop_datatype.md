@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_PROP_DATATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	WMT_PROP_DATATYPE
+ - WMT_PROP_DATATYPE
 product: Windows
 targetos: Windows
 req.lib: 

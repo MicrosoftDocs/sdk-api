@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_ROUTING_METHODW, *PFAX_ROUTING_METHODW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_ROUTING_METHOD
--	FAX_ROUTING_METHODA
--	FAX_ROUTING_METHODW
+ - FAX_ROUTING_METHOD
+ - FAX_ROUTING_METHODA
+ - FAX_ROUTING_METHODW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSVidCtlStateList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msvidctl.h
+ - msvidctl.h
 api_name:
--	IMSVidCtl.get_ColorKey
+ - IMSVidCtl.get_ColorKey
 product: Windows
 targetos: Windows
 req.lib: 

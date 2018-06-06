@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WFD_OPEN_SESSION_COMPLETE_CALLBACK
+ - WFD_OPEN_SESSION_COMPLETE_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

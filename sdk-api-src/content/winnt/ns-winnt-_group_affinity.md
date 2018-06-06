@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	GROUP_AFFINITY
+ - GROUP_AFFINITY
 product: Windows
 targetos: Windows
 req.lib: 

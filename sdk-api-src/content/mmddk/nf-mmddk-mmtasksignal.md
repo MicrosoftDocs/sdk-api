@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mmtasksignal.dll
+ - mmtasksignal.dll
 api_name:
--	mmTaskSignal
+ - mmTaskSignal
 product: Windows
 targetos: Windows
 req.lib: 

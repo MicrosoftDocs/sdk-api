@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_INTERFACE_CONTEXT_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OnDemandConnRouteHelper.h
+ - OnDemandConnRouteHelper.h
 api_name:
--	NET_INTERFACE_CONTEXT_TABLE
+ - NET_INTERFACE_CONTEXT_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IF_COUNTED_STRING_LH, *PIF_COUNTED_STRING_LH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ifdef.h
+ - Ifdef.h
 api_name:
--	IF_COUNTED_STRING
+ - IF_COUNTED_STRING
 product: Windows
 targetos: Windows
 req.lib: 

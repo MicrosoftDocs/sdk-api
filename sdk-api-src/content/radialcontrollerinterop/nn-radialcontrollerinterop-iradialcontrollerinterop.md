@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RadialControllerInterop.h
+ - RadialControllerInterop.h
 api_name:
--	IRadialControllerInterop
+ - IRadialControllerInterop
 product: Windows
 targetos: Windows
 req.lib: 

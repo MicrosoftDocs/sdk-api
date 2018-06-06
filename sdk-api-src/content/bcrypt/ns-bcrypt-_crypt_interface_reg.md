@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	CRYPT_INTERFACE_REG
+ - CRYPT_INTERFACE_REG
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	IMFRealTimeClientEx.UnregisterThreads
+ - IMFRealTimeClientEx.UnregisterThreads
 product: Windows
 targetos: Windows
 req.lib: 

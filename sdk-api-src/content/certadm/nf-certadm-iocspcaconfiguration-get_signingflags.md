@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	IOCSPCAConfiguration.SigningFlags
--	IOCSPCAConfiguration.get_SigningFlags
--	IOCSPCAConfiguration.put_SigningFlags
+ - IOCSPCAConfiguration.SigningFlags
+ - IOCSPCAConfiguration.get_SigningFlags
+ - IOCSPCAConfiguration.put_SigningFlags
 product: Windows
 targetos: Windows
 req.lib: Certadm.lib

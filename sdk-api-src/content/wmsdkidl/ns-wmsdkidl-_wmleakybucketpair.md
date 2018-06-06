@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_LEAKY_BUCKET_PAIR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_LEAKY_BUCKET_PAIR
+ - WM_LEAKY_BUCKET_PAIR
 product: Windows
 targetos: Windows
 req.lib: 

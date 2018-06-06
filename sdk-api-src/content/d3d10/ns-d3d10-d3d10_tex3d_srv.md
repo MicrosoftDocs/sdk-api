@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_TEX3D_SRV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D10.h
+ - D3D10.h
 api_name:
--	D3D10_TEX3D_SRV
+ - D3D10_TEX3D_SRV
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_VAL16
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	DRM_VAL16
+ - DRM_VAL16
 product: Windows
 targetos: Windows
 req.lib: 

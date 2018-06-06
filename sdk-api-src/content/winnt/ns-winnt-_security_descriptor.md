@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECURITY_DESCRIPTOR, *PISECURITY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	SECURITY_DESCRIPTOR
+ - SECURITY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

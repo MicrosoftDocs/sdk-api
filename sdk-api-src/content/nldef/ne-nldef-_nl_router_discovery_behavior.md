@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_ROUTER_DISCOVERY_BEHAVIOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	nldef.h
+ - nldef.h
 api_name:
--	NL_ROUTER_DISCOVERY_BEHAVIOR
+ - NL_ROUTER_DISCOVERY_BEHAVIOR
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

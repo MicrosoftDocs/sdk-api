@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_RENDERING_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D2D1_2.h
+ - D2D1_2.h
 api_name:
--	D2D1_RENDERING_PRIORITY
+ - D2D1_RENDERING_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

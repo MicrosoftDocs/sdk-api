@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-firmware-l1-1-0.dll
--	kernel32legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-firmware-l1-1-0.dll
+ - kernel32legacy.dll
 api_name:
--	SetFirmwareEnvironmentVariableEx
--	SetFirmwareEnvironmentVariableExA
--	SetFirmwareEnvironmentVariableExW
+ - SetFirmwareEnvironmentVariableEx
+ - SetFirmwareEnvironmentVariableExA
+ - SetFirmwareEnvironmentVariableExW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

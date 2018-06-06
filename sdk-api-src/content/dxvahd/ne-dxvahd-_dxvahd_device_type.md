@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVAHD_DEVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxvahd.h
+ - dxvahd.h
 api_name:
--	DXVAHD_DEVICE_TYPE
+ - DXVAHD_DEVICE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

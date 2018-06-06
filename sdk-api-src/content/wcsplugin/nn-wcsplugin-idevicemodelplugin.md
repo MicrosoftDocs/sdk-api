@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wcsplugin.h
+ - wcsplugin.h
 api_name:
--	IDeviceModelPlugIn
+ - IDeviceModelPlugIn
 product: Windows
 targetos: Windows
 req.lib: 

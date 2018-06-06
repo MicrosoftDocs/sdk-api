@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: ICONINFOEXW, *PICONINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-version-l1-1-0.dll
--	API-MS-Win-Core-Versionansi-L1-1-1.dll
--	API-MS-Win-Core-Version-L1-1-1.dll
--	KernelBase.dll
--	version.dll
+ - api-ms-win-core-version-l1-1-0.dll
+ - API-MS-Win-Core-Versionansi-L1-1-1.dll
+ - API-MS-Win-Core-Version-L1-1-1.dll
+ - KernelBase.dll
+ - version.dll
 api_name:
--	GetFileVersionInfoSize
--	GetFileVersionInfoSizeA
--	GetFileVersionInfoSizeW
+ - GetFileVersionInfoSize
+ - GetFileVersionInfoSizeA
+ - GetFileVersionInfoSizeW
 product: Windows
 targetos: Windows
 req.lib: Mincore.lib

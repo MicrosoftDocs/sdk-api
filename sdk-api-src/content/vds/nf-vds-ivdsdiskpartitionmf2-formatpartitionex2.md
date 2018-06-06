@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_VOLUME_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vds.h
+ - Vds.h
 api_name:
--	IVdsDiskPartitionMF2.FormatPartitionEx2
+ - IVdsDiskPartitionMF2.FormatPartitionEx2
 product: Windows
 targetos: Windows
 req.lib: 

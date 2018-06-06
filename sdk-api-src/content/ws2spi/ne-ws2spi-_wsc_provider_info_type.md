@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSC_PROVIDER_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2spi.h
+ - Ws2spi.h
 api_name:
--	WSC_PROVIDER_INFO_TYPE
+ - WSC_PROVIDER_INFO_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

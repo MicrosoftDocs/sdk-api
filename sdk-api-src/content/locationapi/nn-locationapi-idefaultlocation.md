@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	LocationAPI.dll
+ - LocationAPI.dll
 api_name:
--	IDefaultLocation
+ - IDefaultLocation
 product: Windows
 targetos: Windows
 req.lib: 

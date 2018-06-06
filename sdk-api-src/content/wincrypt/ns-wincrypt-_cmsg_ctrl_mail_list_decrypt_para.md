@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, *PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
+ - CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 product: Windows
 targetos: Windows
 req.lib: 

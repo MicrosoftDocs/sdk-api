@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: MF_FILE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfplat.lib
--	mfplat.dll
--	mfplat.dll
--	mfplat.dll.dll
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
 api_name:
--	IMFMuxStreamMediaTypeManager.GetStreamConfiguration
+ - IMFMuxStreamMediaTypeManager.GetStreamConfiguration
 product: Windows
 targetos: Windows
 req.lib: Mfplat.lib; Mfplat.dll

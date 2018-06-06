@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
+ - PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
 product: Windows
 targetos: Windows
 req.lib: 

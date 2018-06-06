@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVER_INFO_403, *PSERVER_INFO_403, *LPSERVER_INFO_403
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmserver.h
+ - Lmserver.h
 api_name:
--	SERVER_INFO_403
+ - SERVER_INFO_403
 product: Windows
 targetos: Windows
 req.lib: 

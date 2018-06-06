@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NMLISTVIEW, *LPNMLISTVIEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMLISTVIEW
+ - NMLISTVIEW
 product: Windows
 targetos: Windows
 req.lib: 

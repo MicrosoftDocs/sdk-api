@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_2.h
+ - dxgi1_2.h
 api_name:
--	DXGI_OFFER_RESOURCE_PRIORITY
+ - DXGI_OFFER_RESOURCE_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: 

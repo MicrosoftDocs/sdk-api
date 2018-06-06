@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ONEX_AUTH_STATUS, PONEX_AUTH_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dot1x.h
+ - dot1x.h
 api_name:
--	ONEX_AUTH_STATUS
+ - ONEX_AUTH_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

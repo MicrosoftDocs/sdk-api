@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFASF_STREAMSELECTOR_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcontainer.h
+ - wmcontainer.h
 api_name:
--	MFASF_STREAMSELECTOR_FLAGS
+ - MFASF_STREAMSELECTOR_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

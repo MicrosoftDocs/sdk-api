@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	winusb.dll
+ - winusb.dll
 api_name:
--	WinUsb_SetPipePolicy
+ - WinUsb_SetPipePolicy
 product: Windows
 targetos: Windows
 req.lib: Winusb.lib

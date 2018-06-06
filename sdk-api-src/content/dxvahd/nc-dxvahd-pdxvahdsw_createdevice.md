@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVA_COPPStatusSignalingCmdData
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	dxvahd.h
+ - dxvahd.h
 api_name:
--	PDXVAHDSW_CreateDevice
+ - PDXVAHDSW_CreateDevice
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDMOCOMPBUFFERINFO, *LPDDMOCOMPBUFFERINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DDMOCOMPBUFFERINFO
+ - DDMOCOMPBUFFERINFO
 product: Windows
 targetos: Windows
 req.lib: 

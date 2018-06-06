@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_EVENTW, *PFAX_EVENTW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_EVENT
--	FAX_EVENTA
--	FAX_EVENTW
+ - FAX_EVENT
+ - FAX_EVENTA
+ - FAX_EVENTW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WAVEFORMAT, *PWAVEFORMAT, *NPWAVEFORMAT, *LPWAVEFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	winmmbse.dll
--	API-MS-Win-mm-misc-l1-1-1.dll
--	winmmbase.dll
+ - winmmbse.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+ - winmmbase.dll
 api_name:
--	sndOpenSound
+ - sndOpenSound
 product: Windows
 targetos: Windows
 req.lib: Winmmbse.lib

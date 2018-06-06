@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_MAIL_LIST_RECIPIENT_INFO, *PCMSG_MAIL_LIST_RECIPIENT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_MAIL_LIST_RECIPIENT_INFO
+ - CMSG_MAIL_LIST_RECIPIENT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

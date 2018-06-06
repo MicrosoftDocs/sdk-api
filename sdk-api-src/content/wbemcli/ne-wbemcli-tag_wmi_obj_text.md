@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemcli.h
+ - Wbemcli.h
 api_name:
--	WMI_OBJ_TEXT
+ - WMI_OBJ_TEXT
 product: Windows
 targetos: Windows
 req.lib: 

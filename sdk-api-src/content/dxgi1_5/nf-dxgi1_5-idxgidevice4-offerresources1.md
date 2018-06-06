@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_RECLAIM_RESOURCE_RESULTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxgi.dll
+ - dxgi.dll
 api_name:
--	IDXGIDevice4.OfferResources1
+ - IDXGIDevice4.OfferResources1
 product: Windows
 targetos: Windows
 req.lib: Dxgi.lib

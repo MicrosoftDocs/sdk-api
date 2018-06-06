@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPC_SIGNATURE_VALIDATION_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msopc.h
+ - msopc.h
 api_name:
--	OPC_SIGNATURE_VALIDATION_RESULT
+ - OPC_SIGNATURE_VALIDATION_RESULT
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

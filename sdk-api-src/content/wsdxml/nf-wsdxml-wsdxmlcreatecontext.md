@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESPONSEBODY_SubscriptionEnd
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WsdApi.dll
+ - WsdApi.dll
 api_name:
--	WSDXMLCreateContext
+ - WSDXMLCreateContext
 product: Windows
 targetos: Windows
 req.lib: WsdApi.lib

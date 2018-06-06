@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TMGR_DIRECTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tapi3.dll
+ - Tapi3.dll
 api_name:
--	ITPluggableTerminalClassRegistration.get_Company
+ - ITPluggableTerminalClassRegistration.get_Company
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

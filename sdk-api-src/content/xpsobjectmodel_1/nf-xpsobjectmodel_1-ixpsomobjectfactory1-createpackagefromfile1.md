@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_DOCUMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	none
--	none.dll
+ - none
+ - none.dll
 api_name:
--	IXpsOMObjectFactory1.CreatePackageFromFile1
+ - IXpsOMObjectFactory1.CreatePackageFromFile1
 product: Windows
 targetos: Windows
 req.lib: None

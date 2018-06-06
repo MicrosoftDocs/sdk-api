@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mdhcp.dll
+ - Mdhcp.dll
 api_name:
--	IMcastLeaseInfo.get_TTL
+ - IMcastLeaseInfo.get_TTL
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

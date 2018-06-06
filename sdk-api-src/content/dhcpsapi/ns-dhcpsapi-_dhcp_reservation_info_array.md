@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_RESERVATION_INFO_ARRAY, *LPDHCP_RESERVATION_INFO_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_RESERVATION_INFO_ARRAY
+ - DHCP_RESERVATION_INFO_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

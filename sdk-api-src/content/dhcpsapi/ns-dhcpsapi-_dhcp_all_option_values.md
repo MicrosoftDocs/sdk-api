@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_ALL_OPTION_VALUES, *LPDHCP_ALL_OPTION_VALUES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_ALL_OPTION_VALUES
+ - DHCP_ALL_OPTION_VALUES
 product: Windows
 targetos: Windows
 req.lib: 

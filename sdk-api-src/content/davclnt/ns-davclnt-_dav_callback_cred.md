@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Davclnt.h
+ - Davclnt.h
 api_name:
--	DAV_CALLBACK_CRED
+ - DAV_CALLBACK_CRED
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_NET_ADDRESS, *PRTM_NET_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_NET_ADDRESS
+ - RTM_NET_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

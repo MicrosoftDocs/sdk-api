@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbio.h
+ - Winbio.h
 api_name:
--	WINBIO_ASYNC_NOTIFICATION_METHOD
+ - WINBIO_ASYNC_NOTIFICATION_METHOD
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dcommon.h
+ - dcommon.h
 api_name:
--	DWRITE_GLYPH_IMAGE_FORMATS
+ - DWRITE_GLYPH_IMAGE_FORMATS
 product: Windows
 targetos: Windows
 req.lib: Dciman32.lib

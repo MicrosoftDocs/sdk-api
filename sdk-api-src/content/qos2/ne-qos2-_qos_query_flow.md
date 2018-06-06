@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qos2.h
+ - Qos2.h
 api_name:
--	QOS_QUERY_FLOW
+ - QOS_QUERY_FLOW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TOKENBINDING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	tokenbinding.dll
--	Ksecdd.sys
+ - tokenbinding.dll
+ - Ksecdd.sys
 api_name:
--	TokenBindingGetKeyTypesServer
+ - TokenBindingGetKeyTypesServer
 product: Windows
 targetos: Windows
 req.lib: Tokenbinding.lib

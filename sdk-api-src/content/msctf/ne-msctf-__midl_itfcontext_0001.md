@@ -29,14 +29,14 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: TfActiveSelEnd
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msctf.h
+ - Msctf.h
 api_name:
--	TfActiveSelEnd
+ - TfActiveSelEnd
 product: Windows
 targetos: Windows
 req.lib: 

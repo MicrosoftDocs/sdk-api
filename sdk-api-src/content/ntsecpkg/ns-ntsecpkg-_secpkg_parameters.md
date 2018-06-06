@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_PARAMETERS, *PSECPKG_PARAMETERS, SECPKG_EVENT_DOMAIN_CHANGE, *PSECPKG_EVENT_DOMAIN_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_PARAMETERS
+ - SECPKG_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

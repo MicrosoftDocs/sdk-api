@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_REGISTER_CONTROL_STATUSA, *PSP_REGISTER_CONTROL_STATUSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_REGISTER_CONTROL_STATUS
+ - SP_REGISTER_CONTROL_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

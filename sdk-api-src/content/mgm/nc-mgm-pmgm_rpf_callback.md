@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Mgm.h
+ - Mgm.h
 api_name:
--	PMGM_RPF_CALLBACK
+ - PMGM_RPF_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

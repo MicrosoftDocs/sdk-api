@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: QUERY_SERVICE_CONFIGA, *LPQUERY_SERVICE_CONFIGA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	QUERY_SERVICE_CONFIG
--	QUERY_SERVICE_CONFIGA
--	QUERY_SERVICE_CONFIGW
+ - QUERY_SERVICE_CONFIG
+ - QUERY_SERVICE_CONFIGA
+ - QUERY_SERVICE_CONFIGW
 product: Windows
 targetos: Windows
 req.lib: 

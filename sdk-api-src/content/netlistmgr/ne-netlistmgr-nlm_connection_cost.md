@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_CONNECTION_COST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netlistmgr.h
+ - Netlistmgr.h
 api_name:
--	NLM_CONNECTION_COST
+ - NLM_CONNECTION_COST
 product: Windows
 targetos: Windows
 req.lib: 

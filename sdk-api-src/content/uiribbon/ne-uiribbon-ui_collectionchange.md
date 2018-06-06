@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_COLLECTIONCHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Uiribbon.h
+ - Uiribbon.h
 api_name:
--	UI_COLLECTIONCHANGE
+ - UI_COLLECTIONCHANGE
 product: Windows
 targetos: Windows
 req.lib: 

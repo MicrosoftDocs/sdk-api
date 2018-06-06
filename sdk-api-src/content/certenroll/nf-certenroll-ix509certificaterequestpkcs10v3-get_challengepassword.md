@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certenroll.dll
+ - Certenroll.dll
 api_name:
--	IX509CertificateRequestPkcs10V3.ChallengePassword
--	IX509CertificateRequestPkcs10V3.get_ChallengePassword
--	IX509CertificateRequestPkcs10V3.put_ChallengePassword
+ - IX509CertificateRequestPkcs10V3.ChallengePassword
+ - IX509CertificateRequestPkcs10V3.get_ChallengePassword
+ - IX509CertificateRequestPkcs10V3.put_ChallengePassword
 product: Windows
 targetos: Windows
 req.lib: 

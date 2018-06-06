@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_PRIVATE_KEY_VALIDITY, *PCERT_PRIVATE_KEY_VALIDITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_PRIVATE_KEY_VALIDITY
+ - CERT_PRIVATE_KEY_VALIDITY
 product: Windows
 targetos: Windows
 req.lib: 

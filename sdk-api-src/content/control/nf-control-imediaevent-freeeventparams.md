@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WMPContextMenuInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IMediaEvent.FreeEventParams
--	IMediaEventEx.FreeEventParams
+ - IMediaEvent.FreeEventParams
+ - IMediaEventEx.FreeEventParams
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

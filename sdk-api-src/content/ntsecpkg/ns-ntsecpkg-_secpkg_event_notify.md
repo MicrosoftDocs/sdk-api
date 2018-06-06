@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_EVENT_NOTIFY, *PSECPKG_EVENT_NOTIFY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_EVENT_NOTIFY
+ - SECPKG_EVENT_NOTIFY
 product: Windows
 targetos: Windows
 req.lib: 

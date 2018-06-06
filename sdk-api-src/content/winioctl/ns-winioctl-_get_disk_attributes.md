@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	GET_DISK_ATTRIBUTES
+ - GET_DISK_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

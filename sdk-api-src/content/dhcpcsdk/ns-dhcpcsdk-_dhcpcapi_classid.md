@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPCAPI_CLASSID, *PDHCPCAPI_CLASSID, *LPDHCPCAPI_CLASSID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpcsdk.h
+ - Dhcpcsdk.h
 api_name:
--	DHCPCAPI_CLASSID
+ - DHCPCAPI_CLASSID
 product: Windows
 targetos: Windows
 req.lib: 

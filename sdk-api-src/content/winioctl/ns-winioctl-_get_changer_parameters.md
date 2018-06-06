@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	GET_CHANGER_PARAMETERS
+ - GET_CHANGER_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

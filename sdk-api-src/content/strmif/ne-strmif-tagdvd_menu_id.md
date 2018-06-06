@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_MENU_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	DVD_MENU_ID
+ - DVD_MENU_ID
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

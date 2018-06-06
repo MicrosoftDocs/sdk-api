@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_REGION, *PDVD_REGION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dvdmedia.h
+ - Dvdmedia.h
 api_name:
--	DVD_REGION
+ - DVD_REGION
 product: Windows
 targetos: Windows
 req.lib: 

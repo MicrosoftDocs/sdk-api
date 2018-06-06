@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_IN_CABINET_INFO_W, *PFILE_IN_CABINET_INFO_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	FILE_IN_CABINET_INFO
+ - FILE_IN_CABINET_INFO
 product: Windows
 targetos: Windows
 req.lib: 

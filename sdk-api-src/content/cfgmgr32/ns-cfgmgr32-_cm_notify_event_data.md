@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CM_NOTIFY_EVENT_DATA, *PCM_NOTIFY_EVENT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cfgmgr32.h
+ - Cfgmgr32.h
 api_name:
--	CM_NOTIFY_EVENT_DATA
+ - CM_NOTIFY_EVENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

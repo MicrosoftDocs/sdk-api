@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_EXIT_STATE
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	FreeClusterHealthFault
+ - FreeClusterHealthFault
 product: Windows
 targetos: Windows
 req.lib: ResUtils.lib

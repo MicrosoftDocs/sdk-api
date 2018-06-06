@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_SUBSCRIBE_NOTIFY_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinEvt.h
+ - WinEvt.h
 api_name:
--	EVT_SUBSCRIBE_NOTIFY_ACTION
+ - EVT_SUBSCRIBE_NOTIFY_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

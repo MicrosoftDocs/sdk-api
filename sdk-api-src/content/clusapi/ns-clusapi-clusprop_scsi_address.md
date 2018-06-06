@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSPROP_SCSI_ADDRESS
+ - CLUSPROP_SCSI_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

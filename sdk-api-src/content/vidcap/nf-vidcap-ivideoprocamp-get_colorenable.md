@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vidcap.h
+ - Vidcap.h
 api_name:
--	IVideoProcAmp.get_ColorEnable
+ - IVideoProcAmp.get_ColorEnable
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_SET_SERVICE, *PBTH_SET_SERVICE, BTHNS_SETBLOB, *PBTHNS_SETBLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2bth.h
+ - Ws2bth.h
 api_name:
--	BTH_SET_SERVICE
+ - BTH_SET_SERVICE
 product: Windows
 targetos: Windows
 req.lib: 

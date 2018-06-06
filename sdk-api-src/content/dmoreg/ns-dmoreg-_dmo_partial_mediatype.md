@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dmoreg.h
+ - Dmoreg.h
 api_name:
--	DMO_PARTIAL_MEDIATYPE
+ - DMO_PARTIAL_MEDIATYPE
 product: Windows
 targetos: Windows
 req.lib: 

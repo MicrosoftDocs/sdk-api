@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFASF_STREAMSELECTOR_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmcontainer.h
+ - wmcontainer.h
 api_name:
--	IMFDRMNetHelper.GetChainedLicenseResponse
+ - IMFDRMNetHelper.GetChainedLicenseResponse
 product: Windows
 targetos: Windows
 req.lib: 

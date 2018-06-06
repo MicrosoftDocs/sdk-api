@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EOC_ChangeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Eventsys.h
+ - Eventsys.h
 api_name:
--	IEventControl.AllowInprocActivation
--	IEventControl.get_AllowInprocActivation
--	IEventControl.put_AllowInprocActivation
+ - IEventControl.AllowInprocActivation
+ - IEventControl.get_AllowInprocActivation
+ - IEventControl.put_AllowInprocActivation
 product: Windows
 targetos: Windows
 req.lib: 

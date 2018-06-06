@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	EXFAT_STATISTICS
+ - EXFAT_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FD_KERNINGPAIR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	FD_KERNINGPAIR
+ - FD_KERNINGPAIR
 product: Windows
 targetos: Windows
 req.lib: 

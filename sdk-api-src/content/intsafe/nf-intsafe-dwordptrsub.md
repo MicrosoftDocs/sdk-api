@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_VELOCITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	None
+ - None
 api_name:
--	DWordPtrSub
+ - DWordPtrSub
 product: Windows
 targetos: Windows
 req.lib: 

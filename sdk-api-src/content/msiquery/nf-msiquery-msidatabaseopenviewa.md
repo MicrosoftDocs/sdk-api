@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msi.dll
--	Ext-MS-Win-MSI-Misc-l1-1-0.dll
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
--	MsiDatabaseOpenView
--	MsiDatabaseOpenViewA
--	MsiDatabaseOpenViewW
+ - MsiDatabaseOpenView
+ - MsiDatabaseOpenViewA
+ - MsiDatabaseOpenViewW
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

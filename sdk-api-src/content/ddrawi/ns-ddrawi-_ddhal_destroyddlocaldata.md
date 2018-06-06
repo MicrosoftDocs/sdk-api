@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawi.h
+ - ddrawi.h
 api_name:
--	DDHAL_DESTROYDDLOCALDATA
+ - DDHAL_DESTROYDDLOCALDATA
 product: Windows
 targetos: Windows
 req.lib: 

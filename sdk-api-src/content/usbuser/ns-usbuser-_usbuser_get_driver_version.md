@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USBUSER_GET_DRIVER_VERSION, *PUSBUSER_GET_DRIVER_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USBUSER_GET_DRIVER_VERSION
+ - USBUSER_GET_DRIVER_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

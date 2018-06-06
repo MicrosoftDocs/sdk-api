@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_CBA_READ_MEMORY, *PIMAGEHLP_CBA_READ_MEMORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGEHLP_CBA_READ_MEMORY
+ - IMAGEHLP_CBA_READ_MEMORY
 product: Windows
 targetos: Windows
 req.lib: 

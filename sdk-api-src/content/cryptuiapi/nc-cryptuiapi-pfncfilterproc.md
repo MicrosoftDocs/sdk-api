@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Cryptuiapi.h
+ - Cryptuiapi.h
 api_name:
--	PFNCFILTERPROC
+ - PFNCFILTERPROC
 product: Windows
 targetos: Windows
 req.lib: 

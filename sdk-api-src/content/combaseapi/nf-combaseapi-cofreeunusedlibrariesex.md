@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: REGCLS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComBase.dll
--	API-MS-Win-Core-Com-l1-1-0.dll
--	API-MS-Win-Core-Com-l1-1-1.dll
--	API-MS-Win-DownLevel-Ole32-l1-1-0.dll
--	API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
--	CoFreeUnusedLibrariesEx
+ - CoFreeUnusedLibrariesEx
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

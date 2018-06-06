@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOCINFO, *LPQOCINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sensapi.h
+ - Sensapi.h
 api_name:
--	QOCINFO
+ - QOCINFO
 product: Windows
 targetos: Windows
 req.lib: 

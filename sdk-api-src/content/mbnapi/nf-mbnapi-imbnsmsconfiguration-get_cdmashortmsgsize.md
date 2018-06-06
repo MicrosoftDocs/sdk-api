@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_VOICE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	IMbnSmsConfiguration.CdmaShortMsgSize
--	IMbnSmsConfiguration.get_CdmaShortMsgSize
+ - IMbnSmsConfiguration.CdmaShortMsgSize
+ - IMbnSmsConfiguration.get_CdmaShortMsgSize
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_NODE_DRAIN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MSClus.h
+ - ClusApi.h
+ - MSClus.h
 api_name:
--	CLUSTER_NODE_DRAIN_STATUS
+ - CLUSTER_NODE_DRAIN_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

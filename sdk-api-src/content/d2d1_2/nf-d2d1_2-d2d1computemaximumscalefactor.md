@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_RENDERING_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D2d1.dll
+ - D2d1.dll
 api_name:
--	D2D1ComputeMaximumScaleFactor
+ - D2D1ComputeMaximumScaleFactor
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

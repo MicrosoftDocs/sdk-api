@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_EVENTPARAMS_COMMAND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	RpcRT4.dll
+ - RpcRT4.dll
 api_name:
--	IUnknown_AddRef_Proxy
+ - IUnknown_AddRef_Proxy
 product: Windows
 targetos: Windows
 req.lib: RpcRT4.lib

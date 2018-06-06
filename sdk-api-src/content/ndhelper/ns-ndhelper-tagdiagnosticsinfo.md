@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DiagnosticsInfo, *PDiagnosticsInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndhelper.h
+ - ndhelper.h
 api_name:
--	DiagnosticsInfo, *PDiagnosticsInfo
+ - DiagnosticsInfo, *PDiagnosticsInfo
 product: Windows
 targetos: Windows
 req.lib: 

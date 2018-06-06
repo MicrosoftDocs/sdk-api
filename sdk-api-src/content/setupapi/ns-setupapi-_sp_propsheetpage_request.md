@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_PROPSHEETPAGE_REQUEST
+ - SP_PROPSHEETPAGE_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

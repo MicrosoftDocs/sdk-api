@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ATSC_FILTER_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mpeg2structs.h
+ - mpeg2structs.h
 api_name:
--	ATSC_FILTER_OPTIONS
+ - ATSC_FILTER_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

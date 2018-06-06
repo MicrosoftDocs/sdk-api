@@ -29,23 +29,23 @@ req.type-library:
 tech.root: 
 req.typenames: PackageOrigin
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-AppModel-Runtime-l1-1-0.dll
--	kernel32legacy.dll
--	Ext-MS-Win-kernel32-package-current-l1-1-0.dll
--	modernapiexthost.dll
--	kernel.appcore.dll
--	API-MS-Win-AppModel-Runtime-l1-1-1.dll
--	API-MS-Win-AppModel-Runtime-l1-1-1.dll
--	API-MS-Win-AppModel-Runtime-l1-1-1.dll
--	API-MS-Win-AppModel-Runtime-L1-1-2.dll
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-current-l1-1-0.dll
+ - modernapiexthost.dll
+ - kernel.appcore.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
--	GetCurrentPackageInfo
+ - GetCurrentPackageInfo
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

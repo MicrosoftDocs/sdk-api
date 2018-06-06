@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
--	Tuner.idl
+ - tuner.h
+ - Tuner.idl
 api_name:
--	ITunerCapEx
+ - ITunerCapEx
 product: Windows
 targetos: Windows
 req.lib: 

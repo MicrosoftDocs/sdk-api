@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	MS_ADDINFO_FLAT
+ - MS_ADDINFO_FLAT
 product: Windows
 targetos: Windows
 req.lib: 

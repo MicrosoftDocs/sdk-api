@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Winmm.dll
--	API-MS-Win-mm-joystick-l1-1-0.dll
--	winmmbase.dll
+ - Winmm.dll
+ - API-MS-Win-mm-joystick-l1-1-0.dll
+ - winmmbase.dll
 api_name:
--	joyConfigChanged
+ - joyConfigChanged
 product: Windows
 targetos: Windows
 req.lib: Winmm.lib

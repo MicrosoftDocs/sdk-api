@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDADDVPCAPTUREBUFF, *LPDDADDVPCAPTUREBUFF
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddkmapi.h
+ - ddkmapi.h
 api_name:
--	DDADDVPCAPTUREBUFF
+ - DDADDVPCAPTUREBUFF
 product: Windows
 targetos: Windows
 req.lib: 

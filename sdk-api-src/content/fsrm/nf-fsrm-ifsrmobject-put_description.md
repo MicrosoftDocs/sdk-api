@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmObject.Description
--	IFsrmObject.get_Description
--	IFsrmObject.put_Description
+ - IFsrmObject.Description
+ - IFsrmObject.get_Description
+ - IFsrmObject.put_Description
 product: Windows
 targetos: Windows
 req.lib: 

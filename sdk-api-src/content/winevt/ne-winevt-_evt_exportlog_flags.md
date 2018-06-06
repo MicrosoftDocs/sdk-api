@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_EXPORTLOG_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinEvt.h
+ - WinEvt.h
 api_name:
--	EVT_EXPORTLOG_FLAGS
+ - EVT_EXPORTLOG_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TimeAPI.h
--	Mmsystem.h
+ - TimeAPI.h
+ - Mmsystem.h
 api_name:
--	TIMECAPS
+ - TIMECAPS
 product: Windows
 targetos: Windows
 req.lib: 

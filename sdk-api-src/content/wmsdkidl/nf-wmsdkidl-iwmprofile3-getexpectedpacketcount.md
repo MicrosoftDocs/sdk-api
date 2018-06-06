@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmvcore.lib
--	Wmvcore.dll
--	WMStubDRM.lib
--	WMStubDRM.dll
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
 api_name:
--	IWMProfile3.GetExpectedPacketCount
+ - IWMProfile3.GetExpectedPacketCount
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

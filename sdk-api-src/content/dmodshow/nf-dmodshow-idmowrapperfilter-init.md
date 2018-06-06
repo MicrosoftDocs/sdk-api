@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VMEMHEAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Dmoguids.lib
--	Dmoguids.dll
+ - Dmoguids.lib
+ - Dmoguids.dll
 api_name:
--	IDMOWrapperFilter.Init
+ - IDMOWrapperFilter.Init
 product: Windows
 targetos: Windows
 req.lib: Dmoguids.lib

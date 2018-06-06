@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: GPMStarterGPOType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Gpmgmt.dll
+ - Gpmgmt.dll
 api_name:
--	IGPMSecurityInfo
--	IGPMSecurityInfo.Item
--	IGPMSecurityInfo.get_Item
--	GPMSecurityInfo
+ - IGPMSecurityInfo
+ - IGPMSecurityInfo.Item
+ - IGPMSecurityInfo.get_Item
+ - GPMSecurityInfo
 product: Windows
 targetos: Windows
 req.lib: 

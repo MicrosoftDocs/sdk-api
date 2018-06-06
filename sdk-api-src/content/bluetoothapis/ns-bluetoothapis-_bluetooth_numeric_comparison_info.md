@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLUETOOTH_NUMERIC_COMPARISON_INFO, *PBLUETOOTH_NUMERIC_COMPARISON_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BluetoothAPIs.h
+ - BluetoothAPIs.h
 api_name:
--	BLUETOOTH_NUMERIC_COMPARISON_INFO
+ - BLUETOOTH_NUMERIC_COMPARISON_INFO
 product: Windows
 targetos: Windows
 req.lib: 

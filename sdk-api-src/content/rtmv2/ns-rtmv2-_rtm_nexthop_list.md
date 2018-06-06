@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_NEXTHOP_LIST, *PRTM_NEXTHOP_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_NEXTHOP_LIST
+ - RTM_NEXTHOP_LIST
 product: Windows
 targetos: Windows
 req.lib: 

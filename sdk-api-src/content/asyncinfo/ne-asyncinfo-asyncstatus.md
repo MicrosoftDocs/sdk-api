@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AsyncStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AsyncInfo.h
+ - AsyncInfo.h
 api_name:
--	AsyncStatus
+ - AsyncStatus
 product: Windows
 targetos: Windows
 req.lib: 

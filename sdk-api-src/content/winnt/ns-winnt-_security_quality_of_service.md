@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECURITY_QUALITY_OF_SERVICE, *PSECURITY_QUALITY_OF_SERVICE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	SECURITY_QUALITY_OF_SERVICE
+ - SECURITY_QUALITY_OF_SERVICE
 product: Windows
 targetos: Windows
 req.lib: 

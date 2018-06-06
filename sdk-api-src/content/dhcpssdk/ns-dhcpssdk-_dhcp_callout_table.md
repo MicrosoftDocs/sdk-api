@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_CALLOUT_TABLE, *LPDHCP_CALLOUT_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpssdk.h
+ - Dhcpssdk.h
 api_name:
--	DHCP_CALLOUT_TABLE
+ - DHCP_CALLOUT_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

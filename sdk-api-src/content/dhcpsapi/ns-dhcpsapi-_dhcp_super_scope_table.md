@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_SUPER_SCOPE_TABLE, *LPDHCP_SUPER_SCOPE_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_SUPER_SCOPE_TABLE
+ - DHCP_SUPER_SCOPE_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

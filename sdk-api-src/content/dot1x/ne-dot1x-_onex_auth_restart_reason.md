@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ONEX_AUTH_RESTART_REASON, PONEX_AUTH_RESTART_REASON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dot1x.h
+ - dot1x.h
 api_name:
--	ONEX_AUTH_RESTART_REASON
+ - ONEX_AUTH_RESTART_REASON
 product: Windows
 targetos: Windows
 req.lib: 

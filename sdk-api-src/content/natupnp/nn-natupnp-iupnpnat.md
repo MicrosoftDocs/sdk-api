@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SystemHealthAgentState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Hnetcfg.dll
+ - Hnetcfg.dll
 api_name:
--	IUPnPNAT
--	IUPnPNAT.get_DynamicPortMappingCollection
+ - IUPnPNAT
+ - IUPnPNAT.get_DynamicPortMappingCollection
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CROSS_CERT_DIST_POINTS_INFO, *PCROSS_CERT_DIST_POINTS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CROSS_CERT_DIST_POINTS_INFO
+ - CROSS_CERT_DIST_POINTS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

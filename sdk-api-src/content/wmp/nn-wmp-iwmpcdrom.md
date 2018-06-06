@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSyncState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmp.h
+ - wmp.h
 api_name:
--	IWMPCdrom
+ - IWMPCdrom
 product: Windows
 targetos: Windows
 req.lib: 

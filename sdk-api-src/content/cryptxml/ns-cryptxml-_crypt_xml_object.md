@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_XML_OBJECT, *PCRYPT_XML_OBJECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cryptxml.h
+ - Cryptxml.h
 api_name:
--	CRYPT_XML_OBJECT
+ - CRYPT_XML_OBJECT
 product: Windows
 targetos: Windows
 req.lib: 

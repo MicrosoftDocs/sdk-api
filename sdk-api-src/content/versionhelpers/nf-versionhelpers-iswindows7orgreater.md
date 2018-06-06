@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	ntdll.dll
+ - Kernel32.dll
+ - ntdll.dll
 api_name:
--	IsWindows7OrGreater
+ - IsWindows7OrGreater
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib; Ntdll.lib

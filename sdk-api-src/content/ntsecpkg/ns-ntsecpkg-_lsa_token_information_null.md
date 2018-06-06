@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_TOKEN_INFORMATION_NULL, *PLSA_TOKEN_INFORMATION_NULL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	LSA_TOKEN_INFORMATION_NULL
+ - LSA_TOKEN_INFORMATION_NULL
 product: Windows
 targetos: Windows
 req.lib: 

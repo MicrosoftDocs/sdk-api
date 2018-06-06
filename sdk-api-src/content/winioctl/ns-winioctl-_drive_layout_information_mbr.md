@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DRIVE_LAYOUT_INFORMATION_MBR
+ - DRIVE_LAYOUT_INFORMATION_MBR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENTERPRISE_DATA_POLICIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	srpapi.h
+ - srpapi.h
 api_name:
--	ENTERPRISE_DATA_POLICIES
+ - ENTERPRISE_DATA_POLICIES
 product: Windows
 targetos: Windows
 req.lib: Nmapi.lib

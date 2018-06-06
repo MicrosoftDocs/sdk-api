@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: smiCNTR64, *smiLPCNTR64
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsnmp.h
+ - Winsnmp.h
 api_name:
--	smiCNTR64
+ - smiCNTR64
 product: Windows
 targetos: Windows
 req.lib: 

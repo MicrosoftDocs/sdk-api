@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.dll
+ - Azroles.dll
 api_name:
--	IAzAuthorizationStore.MaxScriptEngines
--	IAzAuthorizationStore.get_MaxScriptEngines
--	IAzAuthorizationStore.put_MaxScriptEngines
--	AzAuthorizationStore.MaxScriptEngines
+ - IAzAuthorizationStore.MaxScriptEngines
+ - IAzAuthorizationStore.get_MaxScriptEngines
+ - IAzAuthorizationStore.put_MaxScriptEngines
+ - AzAuthorizationStore.MaxScriptEngines
 product: Windows
 targetos: Windows
 req.lib: Azroles.lib

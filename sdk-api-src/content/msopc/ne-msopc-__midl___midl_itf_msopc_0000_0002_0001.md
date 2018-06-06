@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPC_URI_TARGET_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msopc.h
+ - msopc.h
 api_name:
--	OPC_URI_TARGET_MODE
+ - OPC_URI_TARGET_MODE
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

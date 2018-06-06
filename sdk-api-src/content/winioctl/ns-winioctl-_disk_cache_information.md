@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DISK_CACHE_INFORMATION
+ - DISK_CACHE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

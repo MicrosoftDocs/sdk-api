@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCLAVE_INIT_INFO_VBS, *PENCLAVE_INIT_INFO_VBS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winnt.h
+ - winnt.h
 api_name:
--	ENCLAVE_INIT_INFO_VBS
+ - ENCLAVE_INIT_INFO_VBS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMPSTATEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	COMPSTATEINFO
+ - COMPSTATEINFO
 product: Windows
 targetos: Windows
 req.lib: 

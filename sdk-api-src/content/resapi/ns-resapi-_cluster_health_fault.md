@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_HEALTH_FAULT, *PCLUSTER_HEALTH_FAULT
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	CLUSTER_HEALTH_FAULT
+ - CLUSTER_HEALTH_FAULT
 product: Windows
 targetos: Windows
 req.lib: 

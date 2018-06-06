@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Secur32.dll
--	security.dll
--	schannel.dll
+ - Secur32.dll
+ - security.dll
+ - schannel.dll
 api_name:
--	InitSecurityInterface
--	InitSecurityInterfaceA
--	InitSecurityInterfaceW
+ - InitSecurityInterface
+ - InitSecurityInterfaceA
+ - InitSecurityInterfaceW
 product: Windows
 targetos: Windows
 req.lib: Secur32.lib

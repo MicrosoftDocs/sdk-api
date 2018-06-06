@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IDynamicRenderer.ClipRectangle
--	IDynamicRenderer.get_ClipRectangle
--	IDynamicRenderer.put_ClipRectangle
--	IDynamicRenderer.get_ClipRectangle
--	IDynamicRenderer.put_ClipRectangle
+ - IDynamicRenderer.ClipRectangle
+ - IDynamicRenderer.get_ClipRectangle
+ - IDynamicRenderer.put_ClipRectangle
+ - IDynamicRenderer.get_ClipRectangle
+ - IDynamicRenderer.put_ClipRectangle
 product: Windows
 targetos: Windows
 req.lib: 

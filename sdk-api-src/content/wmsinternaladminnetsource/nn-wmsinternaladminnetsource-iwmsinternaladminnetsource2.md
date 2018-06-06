@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmsinternaladminnetsource.h
+ - wmsinternaladminnetsource.h
 api_name:
--	IWMSInternalAdminNetSource2
--	IWMSInternalAdminNetSource2.FindProxyForURLEx
+ - IWMSInternalAdminNetSource2
+ - IWMSInternalAdminNetSource2.FindProxyForURLEx
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

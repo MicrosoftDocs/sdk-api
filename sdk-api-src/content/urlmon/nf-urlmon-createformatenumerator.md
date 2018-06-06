@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_EVENTPARAMS_COMMAND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Urlmon.dll
+ - Urlmon.dll
 api_name:
--	CreateFormatEnumerator
+ - CreateFormatEnumerator
 product: Windows
 targetos: Windows
 req.lib: Urlmon.lib

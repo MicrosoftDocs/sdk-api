@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREDENTIAL_PROVIDER_STATUS_ICON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Credentialprovider.h
+ - Credentialprovider.h
 api_name:
--	CREDENTIAL_PROVIDER_STATUS_ICON
+ - CREDENTIAL_PROVIDER_STATUS_ICON
 product: Windows
 targetos: Windows
 req.lib: 

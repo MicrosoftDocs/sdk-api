@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfcaptureengine.h
+ - mfcaptureengine.h
 api_name:
--	MF_CAPTURE_ENGINE_STREAM_CATEGORY
+ - MF_CAPTURE_ENGINE_STREAM_CATEGORY
 product: Windows
 targetos: Windows
 req.lib: 

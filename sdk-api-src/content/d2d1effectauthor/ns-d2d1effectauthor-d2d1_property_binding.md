@@ -29,14 +29,14 @@ req.type-library: D2d1.lib; D2d1.dll
 tech.root: 
 req.typenames: D2D1_PROPERTY_BINDING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1effectauthor.h
+ - d2d1effectauthor.h
 api_name:
--	D2D1_PROPERTY_BINDING
+ - D2D1_PROPERTY_BINDING
 product: Windows
 targetos: Windows
 req.lib: 

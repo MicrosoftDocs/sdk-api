@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComCtl32.dll
+ - ComCtl32.dll
 api_name:
--	Str_SetPtr
--	Str_SetPtrA
--	Str_SetPtrW
+ - Str_SetPtr
+ - Str_SetPtrA
+ - Str_SetPtrW
 product: Windows
 targetos: Windows
 req.lib: Comctl32.lib

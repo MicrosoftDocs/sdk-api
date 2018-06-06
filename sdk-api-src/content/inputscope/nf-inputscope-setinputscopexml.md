@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InputScope
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	msctf.dll
+ - msctf.dll
 api_name:
--	SetInputScopeXML
+ - SetInputScopeXML
 product: Windows
 targetos: Windows
 req.lib: 

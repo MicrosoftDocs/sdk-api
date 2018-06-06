@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_PARENTAL_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	DVD_PARENTAL_LEVEL
+ - DVD_PARENTAL_LEVEL
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

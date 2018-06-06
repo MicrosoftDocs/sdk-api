@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qos.h
+ - Qos.h
 api_name:
--	FLOWSPEC
+ - FLOWSPEC
 product: Windows
 targetos: Windows
 req.lib: 

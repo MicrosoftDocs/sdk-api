@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.dll
+ - Azroles.dll
 api_name:
--	IAzAuthorizationStore.ScriptEngineTimeout
--	IAzAuthorizationStore.get_ScriptEngineTimeout
--	IAzAuthorizationStore.put_ScriptEngineTimeout
--	AzAuthorizationStore.ScriptEngineTimeout
+ - IAzAuthorizationStore.ScriptEngineTimeout
+ - IAzAuthorizationStore.get_ScriptEngineTimeout
+ - IAzAuthorizationStore.put_ScriptEngineTimeout
+ - AzAuthorizationStore.ScriptEngineTimeout
 product: Windows
 targetos: Windows
 req.lib: Azroles.lib

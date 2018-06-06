@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: ITEMPROP, *LPITEMPROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Synch-l1-2-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-Synch-l1-2-1.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - MinKernelBase.dll
 api_name:
--	WaitOnAddress
+ - WaitOnAddress
 product: Windows
 targetos: Windows
 req.lib: Synchronization.lib

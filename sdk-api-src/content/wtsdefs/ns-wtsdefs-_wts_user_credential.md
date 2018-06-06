@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_USER_CREDENTIAL, *PWTS_USER_CREDENTIAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_USER_CREDENTIAL
+ - WTS_USER_CREDENTIAL
 product: Windows
 targetos: Windows
 req.lib: 

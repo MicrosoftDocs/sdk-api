@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDS_TRANSPORTPROVIDER_INIT_PARAMS, *PWDS_TRANSPORTPROVIDER_INIT_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstpdi.h
+ - Wdstpdi.h
 api_name:
--	WDS_TRANSPORTPROVIDER_INIT_PARAMS
+ - WDS_TRANSPORTPROVIDER_INIT_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

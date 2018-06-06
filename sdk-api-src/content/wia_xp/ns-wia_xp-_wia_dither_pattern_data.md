@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_DITHER_PATTERN_DATA, *PWIA_DITHER_PATTERN_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wia_xp.h
+ - wia_xp.h
 api_name:
--	WIA_DITHER_PATTERN_DATA
+ - WIA_DITHER_PATTERN_DATA
 product: Windows
 targetos: Windows
 req.lib: 

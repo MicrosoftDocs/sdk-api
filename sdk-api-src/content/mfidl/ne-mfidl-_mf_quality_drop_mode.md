@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_QUALITY_DROP_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_QUALITY_DROP_MODE
+ - MF_QUALITY_DROP_MODE
 product: Windows
 targetos: Windows
 req.lib: 

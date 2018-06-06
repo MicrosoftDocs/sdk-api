@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_AUXILIARY_PAGE_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	processsnapshot.h
+ - processsnapshot.h
 api_name:
--	PSS_AUXILIARY_PAGE_ENTRY
+ - PSS_AUXILIARY_PAGE_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

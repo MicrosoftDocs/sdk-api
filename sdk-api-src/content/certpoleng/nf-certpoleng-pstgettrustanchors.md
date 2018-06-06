@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509SCEPFailInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Certpoleng.dll
+ - Certpoleng.dll
 api_name:
--	PstGetTrustAnchors
+ - PstGetTrustAnchors
 product: Windows
 targetos: Windows
 req.lib: Certpoleng.lib

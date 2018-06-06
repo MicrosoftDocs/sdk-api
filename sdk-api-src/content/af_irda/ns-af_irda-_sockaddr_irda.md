@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Af_irda.h
+ - Af_irda.h
 api_name:
--	SOCKADDR_IRDA
+ - SOCKADDR_IRDA
 product: Windows
 targetos: Windows
 req.lib: 

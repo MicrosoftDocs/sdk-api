@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-base-util-l1-1-0.dll
--	advapi32legacy.dll
+ - Advapi32.dll
+ - API-MS-Win-base-util-l1-1-0.dll
+ - advapi32legacy.dll
 api_name:
--	IsTextUnicode
+ - IsTextUnicode
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

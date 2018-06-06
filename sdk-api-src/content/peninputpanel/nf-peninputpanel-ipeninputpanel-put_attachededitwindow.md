@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IPenInputPanel.AttachedEditWindow
--	IPenInputPanel.get_AttachedEditWindow
--	IPenInputPanel.put_AttachedEditWindow
--	PenInputPanel.get_AttachedEditWindow
--	PenInputPanel.put_AttachedEditWindow
+ - IPenInputPanel.AttachedEditWindow
+ - IPenInputPanel.get_AttachedEditWindow
+ - IPenInputPanel.put_AttachedEditWindow
+ - PenInputPanel.get_AttachedEditWindow
+ - PenInputPanel.put_AttachedEditWindow
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

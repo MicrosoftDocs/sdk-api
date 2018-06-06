@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EnTvRat_US_TV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tvratings.h
+ - Tvratings.h
 api_name:
--	EnTvRat_US_TV
+ - EnTvRat_US_TV
 product: Windows
 targetos: Windows
 req.lib: 

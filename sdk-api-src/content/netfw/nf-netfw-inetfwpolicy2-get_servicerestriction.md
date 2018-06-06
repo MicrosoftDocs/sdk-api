@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
+ - FirewallAPI.dll
 api_name:
--	INetFwPolicy2.ServiceRestriction
--	INetFwPolicy2.get_ServiceRestriction
+ - INetFwPolicy2.ServiceRestriction
+ - INetFwPolicy2.get_ServiceRestriction
 product: Windows
 targetos: Windows
 req.lib: 

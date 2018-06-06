@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, *LPBY_HANDLE_FILE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FileAPI.h
--	WinBase.h
+ - FileAPI.h
+ - WinBase.h
 api_name:
--	BY_HANDLE_FILE_INFORMATION
+ - BY_HANDLE_FILE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

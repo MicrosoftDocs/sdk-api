@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDCLNT_STREAMOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	audioclient.h
+ - audioclient.h
 api_name:
--	AUDCLNT_STREAMOPTIONS
+ - AUDCLNT_STREAMOPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

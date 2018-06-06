@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_RESOURCE_ENUM_ITEM, *PCLUSTER_RESOURCE_ENUM_ITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MsClus.h
+ - ClusApi.h
+ - MsClus.h
 api_name:
--	CLUSTER_RESOURCE_ENUM_ITEM
+ - CLUSTER_RESOURCE_ENUM_ITEM
 product: Windows
 targetos: Windows
 req.lib: 

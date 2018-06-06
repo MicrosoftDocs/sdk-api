@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_RESERVE_PORT_RANGE, *PTCP_RESERVE_PORT_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	TCP_RESERVE_PORT_RANGE
+ - TCP_RESERVE_PORT_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

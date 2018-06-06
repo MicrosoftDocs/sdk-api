@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HELPINFO, *LPHELPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	HELPINFO
+ - HELPINFO
 product: Windows
 targetos: Windows
 req.lib: 

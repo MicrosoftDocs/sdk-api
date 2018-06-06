@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NAPI_DOMAIN_DESCRIPTION_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nsemail.h
+ - Nsemail.h
 api_name:
--	NAPI_DOMAIN_DESCRIPTION_BLOB
+ - NAPI_DOMAIN_DESCRIPTION_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

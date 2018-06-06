@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_STARTING_PARAMS, *PCLUS_STARTING_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_STARTING_PARAMS
+ - CLUS_STARTING_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

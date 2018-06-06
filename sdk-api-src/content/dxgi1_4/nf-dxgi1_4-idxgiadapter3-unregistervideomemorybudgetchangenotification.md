@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxgi.dll
+ - dxgi.dll
 api_name:
--	IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
+ - IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
 product: Windows
 targetos: Windows
 req.lib: Dxgi.lib

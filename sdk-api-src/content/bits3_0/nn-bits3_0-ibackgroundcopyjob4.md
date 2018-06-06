@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_CERT_STORE_LOCATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	BitsPrx4.dll
+ - BitsPrx4.dll
 api_name:
--	IBackgroundCopyJob4
+ - IBackgroundCopyJob4
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

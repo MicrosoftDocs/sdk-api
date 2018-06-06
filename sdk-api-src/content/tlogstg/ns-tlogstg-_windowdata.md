@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINDOWDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tlogstg.h
+ - Tlogstg.h
 api_name:
--	WINDOWDATA
+ - WINDOWDATA
 product: Windows
 targetos: Windows
 req.lib: 

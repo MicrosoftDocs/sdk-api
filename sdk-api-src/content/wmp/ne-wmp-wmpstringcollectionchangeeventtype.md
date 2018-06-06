@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPStringCollectionChangeEventType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmp.h
+ - wmp.h
 api_name:
--	WMPStringCollectionChangeEventType
+ - WMPStringCollectionChangeEventType
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

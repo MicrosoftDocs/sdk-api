@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	CertSrvBackupClose
+ - CertSrvBackupClose
 product: Windows
 targetos: Windows
 req.lib: Certadm.lib

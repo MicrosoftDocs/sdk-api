@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WbemPrivilegeEnum
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemdisp.h
+ - Wbemdisp.h
 api_name:
--	WbemPrivilegeEnum
+ - WbemPrivilegeEnum
 product: Windows
 targetos: Windows
 req.lib: 

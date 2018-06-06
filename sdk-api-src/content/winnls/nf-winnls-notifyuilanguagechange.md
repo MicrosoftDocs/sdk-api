@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	Ext-MS-Win-Kernel32-localization-l1-1-0.dll
+ - Kernel32.dll
+ - Ext-MS-Win-Kernel32-localization-l1-1-0.dll
 api_name:
--	NotifyUILanguageChange
+ - NotifyUILanguageChange
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

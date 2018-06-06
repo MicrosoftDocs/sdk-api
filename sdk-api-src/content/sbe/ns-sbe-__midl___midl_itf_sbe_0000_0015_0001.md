@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SBE2_STREAM_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	sbe.h
+ - sbe.h
 api_name:
--	SBE2_STREAM_DESC
+ - SBE2_STREAM_DESC
 product: Windows
 targetos: Windows
 req.lib: 

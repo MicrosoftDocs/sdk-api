@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DD_NTPRIVATEDRIVERCAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_NTPRIVATEDRIVERCAPS
+ - DD_NTPRIVATEDRIVERCAPS
 product: Windows
 targetos: Windows
 req.lib: 

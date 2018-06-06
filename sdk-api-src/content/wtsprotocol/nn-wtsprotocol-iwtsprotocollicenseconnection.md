@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wtsprotocol.h
+ - wtsprotocol.h
 api_name:
--	IWTSProtocolLicenseConnection
+ - IWTSProtocolLicenseConnection
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_CHASE_REFERRALS_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_CHASE_REFERRALS_ENUM
+ - ADS_CHASE_REFERRALS_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

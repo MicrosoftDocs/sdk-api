@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IDynamicRenderer.ClipRegion
--	IDynamicRenderer.get_ClipRegion
--	IDynamicRenderer.put_ClipRegion
--	IDynamicRenderer.get_ClipRegion
--	IDynamicRenderer.put_ClipRegion
+ - IDynamicRenderer.ClipRegion
+ - IDynamicRenderer.get_ClipRegion
+ - IDynamicRenderer.put_ClipRegion
+ - IDynamicRenderer.get_ClipRegion
+ - IDynamicRenderer.put_ClipRegion
 product: Windows
 targetos: Windows
 req.lib: 

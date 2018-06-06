@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIM_EXTERNAL_FILE_INFO, *PWIM_EXTERNAL_FILE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wofapi.h
+ - wofapi.h
 api_name:
--	WIM_EXTERNAL_FILE_INFO
+ - WIM_EXTERNAL_FILE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

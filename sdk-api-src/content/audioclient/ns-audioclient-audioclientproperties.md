@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AudioClientProperties
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Audioclient.h
+ - Audioclient.h
 api_name:
--	AudioClientProperties
+ - AudioClientProperties
 product: Windows
 targetos: Windows
 req.lib: 

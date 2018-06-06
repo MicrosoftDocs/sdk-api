@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KSP_PINMODE, *PKSP_PINMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wintrust.dll
+ - Wintrust.dll
 api_name:
--	CryptCATAdminReleaseCatalogContext
+ - CryptCATAdminReleaseCatalogContext
 product: Windows
 targetos: Windows
 req.lib: Wintrust.lib

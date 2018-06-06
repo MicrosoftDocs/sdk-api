@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPLETIDLIST, *LPAPPLETIDLIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imepad.h
+ - Imepad.h
 api_name:
--	APPLETIDLIST
+ - APPLETIDLIST
 product: Windows
 targetos: Windows
 req.lib: 

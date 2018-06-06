@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	PSAPI_WS_WATCH_INFORMATION_EX
+ - PSAPI_WS_WATCH_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TARGETPROTOCOLTYPE, *PTARGETPROTOCOLTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	TARGETPROTOCOLTYPE
+ - TARGETPROTOCOLTYPE
 product: Windows
 targetos: Windows
 req.lib: 

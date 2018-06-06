@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_SP3_COMPATIBLE_AUX_INFO, *PCMSG_SP3_COMPATIBLE_AUX_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_SP3_COMPATIBLE_AUX_INFO
+ - CMSG_SP3_COMPATIBLE_AUX_INFO
 product: Windows
 targetos: Windows
 req.lib: 

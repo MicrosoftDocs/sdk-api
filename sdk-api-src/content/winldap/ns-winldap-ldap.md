@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LDAP, *PLDAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winldap.h
+ - Winldap.h
 api_name:
--	LDAP
+ - LDAP
 product: Windows
 targetos: Windows
 req.lib: 

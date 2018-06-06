@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCNRT_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	SCNRT_STATUS
+ - SCNRT_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

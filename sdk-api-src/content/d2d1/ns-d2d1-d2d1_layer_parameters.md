@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_LAYER_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1.h
+ - d2d1.h
 api_name:
--	D2D1_LAYER_PARAMETERS
+ - D2D1_LAYER_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

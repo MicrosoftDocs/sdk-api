@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IFROW, *PMIB_IFROW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ifmib.h
--	Iprtrmib.h
+ - Ifmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_IFROW
+ - MIB_IFROW
 product: Windows
 targetos: Windows
 req.lib: 

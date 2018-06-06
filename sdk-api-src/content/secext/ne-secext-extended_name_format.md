@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Secext.h
+ - Secext.h
 api_name:
--	EXTENDED_NAME_FORMAT
+ - EXTENDED_NAME_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

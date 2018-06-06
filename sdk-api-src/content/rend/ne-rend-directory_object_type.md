@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIRECTORY_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rend.h
+ - Rend.h
 api_name:
--	DIRECTORY_OBJECT_TYPE
+ - DIRECTORY_OBJECT_TYPE
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

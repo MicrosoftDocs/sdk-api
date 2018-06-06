@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XFORM, *PXFORM, *LPXFORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	XFORM
+ - XFORM
 product: Windows
 targetos: Windows
 req.lib: 

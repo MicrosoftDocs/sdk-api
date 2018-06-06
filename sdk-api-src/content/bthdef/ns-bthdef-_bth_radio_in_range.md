@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bthdef.h
+ - Bthdef.h
 api_name:
--	BTH_RADIO_IN_RANGE
+ - BTH_RADIO_IN_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

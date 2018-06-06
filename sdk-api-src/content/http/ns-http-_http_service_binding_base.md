@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_SERVICE_BINDING_BASE, *PHTTP_SERVICE_BINDING_BASE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_SERVICE_BINDING_BASE
+ - HTTP_SERVICE_BINDING_BASE
 product: Windows
 targetos: Windows
 req.lib: 

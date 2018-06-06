@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MPR40_SERVICE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Routprot.h
--	Stm.h
+ - Routprot.h
+ - Stm.h
 api_name:
--	MPR_SERVICE_CHARACTERISTICS
+ - MPR_SERVICE_CHARACTERISTICS
 product: Windows
 targetos: Windows
 req.lib: 

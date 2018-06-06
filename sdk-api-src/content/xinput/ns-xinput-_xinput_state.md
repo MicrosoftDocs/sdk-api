@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XINPUT_STATE, *PXINPUT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	XInput.h
+ - XInput.h
 api_name:
--	XINPUT_STATE
+ - XINPUT_STATE
 product: Windows
 targetos: Windows
 req.lib: 

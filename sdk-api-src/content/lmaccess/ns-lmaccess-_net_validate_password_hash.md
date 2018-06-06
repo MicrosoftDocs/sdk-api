@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_VALIDATE_PASSWORD_HASH, *PNET_VALIDATE_PASSWORD_HASH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	NET_VALIDATE_PASSWORD_HASH
+ - NET_VALIDATE_PASSWORD_HASH
 product: Windows
 targetos: Windows
 req.lib: 

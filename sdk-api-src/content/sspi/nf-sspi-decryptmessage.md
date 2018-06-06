@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, *PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Secur32.dll
--	sspicli.dll
+ - Secur32.dll
+ - sspicli.dll
 api_name:
--	DecryptMessage
+ - DecryptMessage
 product: Windows
 targetos: Windows
 req.lib: Secur32.lib

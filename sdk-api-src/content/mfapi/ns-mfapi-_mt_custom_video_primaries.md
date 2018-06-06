@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MT_CUSTOM_VIDEO_PRIMARIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfapi.h
+ - mfapi.h
 api_name:
--	MT_CUSTOM_VIDEO_PRIMARIES
+ - MT_CUSTOM_VIDEO_PRIMARIES
 product: Windows
 targetos: Windows
 req.lib: 

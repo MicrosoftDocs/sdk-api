@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NCRYPT_UI_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	NCryptprotect.h
+ - NCryptprotect.h
 api_name:
--	PFNCryptStreamOutputCallback
+ - PFNCryptStreamOutputCallback
 product: Windows
 targetos: Windows
 req.lib: 

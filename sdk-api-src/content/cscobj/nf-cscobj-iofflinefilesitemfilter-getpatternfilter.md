@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: OFFLINEFILES_SYNC_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CscSvc.dll
--	CscObj.dll
+ - CscSvc.dll
+ - CscObj.dll
 api_name:
--	IOfflineFilesItemFilter.GetPatternFilter
+ - IOfflineFilesItemFilter.GetPatternFilter
 product: Windows
 targetos: Windows
 req.lib: 

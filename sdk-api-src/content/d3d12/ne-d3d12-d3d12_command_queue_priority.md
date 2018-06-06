@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_COMMAND_QUEUE_PRIORITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12.h
+ - d3d12.h
 api_name:
--	D3D12_COMMAND_QUEUE_PRIORITY
+ - D3D12_COMMAND_QUEUE_PRIORITY
 product: Windows
 targetos: Windows
 req.lib: 

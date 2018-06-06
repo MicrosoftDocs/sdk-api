@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AGENT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tapi3.dll
+ - Tapi3.dll
 api_name:
--	ITAgentSessionEvent.get_Event
+ - ITAgentSessionEvent.get_Event
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

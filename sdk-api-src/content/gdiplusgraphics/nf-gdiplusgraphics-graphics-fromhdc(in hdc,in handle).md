@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
--	Graphics.FromHDC
+ - Graphics.FromHDC
 product: Windows
 targetos: Windows
 req.lib: 

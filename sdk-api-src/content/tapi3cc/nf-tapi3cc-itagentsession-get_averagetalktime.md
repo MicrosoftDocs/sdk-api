@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AGENT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tapi3.dll
+ - Tapi3.dll
 api_name:
--	ITAgentSession.get_AverageTalkTime
+ - ITAgentSession.get_AverageTalkTime
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Adapters
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cloneviewhelper.h
+ - cloneviewhelper.h
 api_name:
--	Adapters
+ - Adapters
 product: Windows
 targetos: Windows
 req.lib: 

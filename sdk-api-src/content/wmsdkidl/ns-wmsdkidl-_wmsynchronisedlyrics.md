@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_SYNCHRONISED_LYRICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_SYNCHRONISED_LYRICS
+ - WM_SYNCHRONISED_LYRICS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Newdev.dll
+ - Newdev.dll
 api_name:
--	DiRollbackDriver
+ - DiRollbackDriver
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

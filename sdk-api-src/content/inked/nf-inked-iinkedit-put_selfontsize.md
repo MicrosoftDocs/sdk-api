@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.SelFontSize
--	IInkEdit.get_SelFontSize
--	IInkEdit.put_SelFontSize
--	InkEdit.get_SelFontSize
--	InkEdit.put_SelFontSize
+ - IInkEdit.SelFontSize
+ - IInkEdit.get_SelFontSize
+ - IInkEdit.put_SelFontSize
+ - InkEdit.get_SelFontSize
+ - InkEdit.put_SelFontSize
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

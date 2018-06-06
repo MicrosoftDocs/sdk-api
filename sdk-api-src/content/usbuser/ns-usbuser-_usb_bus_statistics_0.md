@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USB_BUS_STATISTICS_0, *PUSB_BUS_STATISTICS_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USB_BUS_STATISTICS_0
+ - USB_BUS_STATISTICS_0
 product: Windows
 targetos: Windows
 req.lib: 

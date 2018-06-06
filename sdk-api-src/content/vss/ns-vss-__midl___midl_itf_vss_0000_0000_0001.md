@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_OBJECT_UNION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vss.h
+ - Vss.h
 api_name:
--	VSS_OBJECT_UNION
+ - VSS_OBJECT_UNION
 product: Windows
 targetos: Windows
 req.lib: 

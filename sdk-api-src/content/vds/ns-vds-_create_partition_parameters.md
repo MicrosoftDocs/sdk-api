@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CREATE_PARTITION_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
+ - Vds.h
 api_name:
--	CREATE_PARTITION_PARAMETERS
+ - CREATE_PARTITION_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

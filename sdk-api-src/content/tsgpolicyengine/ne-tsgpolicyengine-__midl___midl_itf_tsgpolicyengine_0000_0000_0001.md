@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AAAuthSchemes
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tsgpolicyengine.h
--	TSGPolicyEngine.h
+ - Tsgpolicyengine.h
+ - TSGPolicyEngine.h
 api_name:
--	AAAuthSchemes
+ - AAAuthSchemes
 product: Windows
 targetos: Windows
 req.lib: 

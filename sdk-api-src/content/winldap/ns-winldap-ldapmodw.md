@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: LDAPModW, *PLDAPModW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winldap.h
+ - Winldap.h
 api_name:
--	LDAPMod
--	ldapmodA
--	ldapmodW
+ - LDAPMod
+ - ldapmodA
+ - ldapmodW
 product: Windows
 targetos: Windows
 req.lib: 

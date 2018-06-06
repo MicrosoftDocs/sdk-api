@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFBYTESTREAM_SEEK_ORIGIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MFBYTESTREAM_SEEK_ORIGIN
+ - MFBYTESTREAM_SEEK_ORIGIN
 product: Windows
 targetos: Windows
 req.lib: 

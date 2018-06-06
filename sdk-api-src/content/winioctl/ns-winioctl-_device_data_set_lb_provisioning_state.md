@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DSM_ALLOCATION_OUTPUT, *PDEVICE_DSM_ALLOCATION_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - DEVICE_DATA_SET_LB_PROVISIONING_STATE
 product: Windows
 targetos: Windows
 req.lib: 

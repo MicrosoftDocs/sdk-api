@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IPNET_ROW2, *PMIB_IPNET_ROW2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	MIB_IPNET_ROW2
+ - MIB_IPNET_ROW2
 product: Windows
 targetos: Windows
 req.lib: 

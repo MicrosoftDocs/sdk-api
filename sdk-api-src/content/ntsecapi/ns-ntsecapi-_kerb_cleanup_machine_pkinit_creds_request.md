@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST, *PKERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
+ - KERB_CLEANUP_MACHINE_PKINIT_CREDS_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

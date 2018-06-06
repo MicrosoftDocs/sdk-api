@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DSAdmin.h
+ - DSAdmin.h
 api_name:
--	DSA_NEWOBJ_DISPINFO
+ - DSA_NEWOBJ_DISPINFO
 product: Windows
 targetos: Windows
 req.lib: 

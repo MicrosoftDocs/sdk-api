@@ -29,14 +29,14 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: RemoteActionType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	MsTscAx.dll
+ - MsTscAx.dll
 api_name:
--	RemoteActionType
+ - RemoteActionType
 product: Windows
 targetos: Windows
 req.lib: 

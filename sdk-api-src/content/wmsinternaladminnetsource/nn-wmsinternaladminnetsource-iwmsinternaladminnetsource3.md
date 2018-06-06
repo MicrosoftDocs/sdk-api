@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmsinternaladminnetsource.h
+ - wmsinternaladminnetsource.h
 api_name:
--	IWMSInternalAdminNetSource3
--	IWMSInternalAdminNetSource3.GetNetSourceCreator2
--	IWMSInternalAdminNetSource3.IsUsingIE2
--	IWMSInternalAdminNetSource3.RegisterProxyFailure2
+ - IWMSInternalAdminNetSource3
+ - IWMSInternalAdminNetSource3.GetNetSourceCreator2
+ - IWMSInternalAdminNetSource3.IsUsingIE2
+ - IWMSInternalAdminNetSource3.RegisterProxyFailure2
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

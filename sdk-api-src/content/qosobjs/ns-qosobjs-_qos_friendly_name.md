@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_FRIENDLY_NAME, *LPQOS_FRIENDLY_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	QosObjs.h
+ - QosObjs.h
 api_name:
--	QOS_FRIENDLY_NAME
+ - QOS_FRIENDLY_NAME
 product: Windows
 targetos: Windows
 req.lib: 

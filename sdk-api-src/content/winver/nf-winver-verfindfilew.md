@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: ICONINFOEXW, *PICONINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-core-version-l1-1-0.dll
--	API-MS-Win-Core-version-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-versionansi-l1-1-0.dll
--	API-MS-Win-DownLevel-version-l1-1-0.dll
--	API-MS-Win-Core-Versionansi-L1-1-1.dll
--	API-MS-Win-Core-Version-L1-1-1.dll
+ - api-ms-win-core-version-l1-1-0.dll
+ - API-MS-Win-Core-version-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-versionansi-l1-1-0.dll
+ - API-MS-Win-DownLevel-version-l1-1-0.dll
+ - API-MS-Win-Core-Versionansi-L1-1-1.dll
+ - API-MS-Win-Core-Version-L1-1-1.dll
 api_name:
--	VerFindFile
--	VerFindFileA
--	VerFindFileW
+ - VerFindFile
+ - VerFindFileA
+ - VerFindFileW
 product: Windows
 targetos: Windows
 req.lib: Mincore.lib

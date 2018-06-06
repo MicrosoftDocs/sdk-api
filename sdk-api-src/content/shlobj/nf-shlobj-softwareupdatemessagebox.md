@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETEOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shdocvw.dll
+ - Shdocvw.dll
 api_name:
--	SoftwareUpdateMessageBox
+ - SoftwareUpdateMessageBox
 product: Windows
 targetos: Windows
 req.lib: 

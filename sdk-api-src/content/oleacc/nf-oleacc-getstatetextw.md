@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: QACONTROL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Oleacc.dll
+ - Oleacc.dll
 api_name:
--	GetStateText
--	GetStateTextA
--	GetStateTextW
+ - GetStateText
+ - GetStateTextA
+ - GetStateTextW
 product: Windows
 targetos: Windows
 req.lib: Oleacc.lib

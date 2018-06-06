@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GamutShell
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WcsPlugIn.h
+ - WcsPlugIn.h
 api_name:
--	GamutShell
+ - GamutShell
 product: Windows
 targetos: Windows
 req.lib: 

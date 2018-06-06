@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMDRM_IMPORT_INIT_STRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmsdkidl.h
+ - wmsdkidl.h
 api_name:
--	WMDRM_IMPORT_INIT_STRUCT
+ - WMDRM_IMPORT_INIT_STRUCT
 product: Windows
 targetos: Windows
 req.lib: 

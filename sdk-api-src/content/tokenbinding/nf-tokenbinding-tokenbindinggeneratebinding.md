@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKENBINDING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	tokenbinding.dll
+ - tokenbinding.dll
 api_name:
--	TokenBindingGenerateBinding
+ - TokenBindingGenerateBinding
 product: Windows
 targetos: Windows
 req.lib: Tokenbinding.lib

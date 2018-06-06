@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_ROTATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wingdi.h
+ - wingdi.h
 api_name:
--	DISPLAYCONFIG_ROTATION
+ - DISPLAYCONFIG_ROTATION
 product: Windows
 targetos: Windows
 req.lib: 

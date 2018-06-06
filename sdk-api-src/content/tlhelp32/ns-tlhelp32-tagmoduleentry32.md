@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MODULEENTRY32
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TlHelp32.h
+ - TlHelp32.h
 api_name:
--	MODULEENTRY32
--	MODULEENTRY32
--	MODULEENTRY32W
+ - MODULEENTRY32
+ - MODULEENTRY32
+ - MODULEENTRY32W
 product: Windows
 targetos: Windows
 req.lib: 

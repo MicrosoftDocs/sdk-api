@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-security-sddl-ansi-l1-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
--	sechost.dll
--	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
--	API-MS-Win-Security-sddl-l1-1-0.dll
+ - Advapi32.dll
+ - API-MS-Win-security-sddl-ansi-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
--	ConvertSidToStringSid
--	ConvertSidToStringSidA
--	ConvertSidToStringSidW
+ - ConvertSidToStringSid
+ - ConvertSidToStringSidA
+ - ConvertSidToStringSidW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

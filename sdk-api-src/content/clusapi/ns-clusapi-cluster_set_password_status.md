@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_SET_PASSWORD_STATUS, *PCLUSTER_SET_PASSWORD_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSTER_SET_PASSWORD_STATUS
+ - CLUSTER_SET_PASSWORD_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

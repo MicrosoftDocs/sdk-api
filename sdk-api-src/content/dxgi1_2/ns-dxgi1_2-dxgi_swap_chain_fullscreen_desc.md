@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_2.h
+ - DXGI1_2.h
 api_name:
--	DXGI_SWAP_CHAIN_FULLSCREEN_DESC
+ - DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 product: Windows
 targetos: Windows
 req.lib: 

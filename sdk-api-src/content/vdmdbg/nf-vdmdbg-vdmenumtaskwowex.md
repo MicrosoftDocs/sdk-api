@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	VdmDbg.dll
+ - VdmDbg.dll
 api_name:
--	VDMEnumTaskWOWEx
+ - VDMEnumTaskWOWEx
 product: Windows
 targetos: Windows
 req.lib: VdmDbg.lib

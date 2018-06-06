@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Werapi.h
+ - Werapi.h
 api_name:
--	WER_REPORT_INFORMATION
+ - WER_REPORT_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

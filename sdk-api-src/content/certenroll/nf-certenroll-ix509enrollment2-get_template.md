@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certenroll.h
+ - Certenroll.h
 api_name:
--	IX509Enrollment2.Template
--	IX509Enrollment2.get_Template
+ - IX509Enrollment2.Template
+ - IX509Enrollment2.get_Template
 product: Windows
 targetos: Windows
 req.lib: 

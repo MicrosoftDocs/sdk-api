@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REGCLS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	combaseapi.h
+ - combaseapi.h
 api_name:
--	DllCanUnloadNow
+ - DllCanUnloadNow
 product: Windows
 targetos: Windows
 req.lib: 

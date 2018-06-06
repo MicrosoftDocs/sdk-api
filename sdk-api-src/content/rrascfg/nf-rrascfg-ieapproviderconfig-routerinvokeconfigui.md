@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ProxyFileInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Rrascfg.h
+ - Rrascfg.h
 api_name:
--	IEAPProviderConfig.RouterInvokeConfigUI
+ - IEAPProviderConfig.RouterInvokeConfigUI
 product: Windows
 targetos: Windows
 req.lib: 

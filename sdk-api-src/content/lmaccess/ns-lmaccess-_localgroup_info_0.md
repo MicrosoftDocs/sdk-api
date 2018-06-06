@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOCALGROUP_INFO_0, *PLOCALGROUP_INFO_0, *LPLOCALGROUP_INFO_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	LOCALGROUP_INFO_0
+ - LOCALGROUP_INFO_0
 product: Windows
 targetos: Windows
 req.lib: 

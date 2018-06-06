@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_QUERY_RM_INFORMATION, *PTXFS_QUERY_RM_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_QUERY_RM_INFORMATION
+ - TXFS_QUERY_RM_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

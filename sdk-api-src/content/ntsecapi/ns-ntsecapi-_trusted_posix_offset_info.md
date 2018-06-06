@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	TRUSTED_POSIX_OFFSET_INFO
+ - TRUSTED_POSIX_OFFSET_INFO
 product: Windows
 targetos: Windows
 req.lib: 

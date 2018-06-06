@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, *LPDHCPV6CAPI_PARAMS_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpv6csdk.h
+ - Dhcpv6csdk.h
 api_name:
--	DHCPV6CAPI_PARAMS_ARRAY
+ - DHCPV6CAPI_PARAMS_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

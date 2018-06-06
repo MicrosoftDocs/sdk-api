@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NCRYPT_KEY_BLOB_HEADER, *PNCRYPT_KEY_BLOB_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ncrypt.h
+ - Ncrypt.h
 api_name:
--	NCRYPT_KEY_BLOB_HEADER
+ - NCRYPT_KEY_BLOB_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

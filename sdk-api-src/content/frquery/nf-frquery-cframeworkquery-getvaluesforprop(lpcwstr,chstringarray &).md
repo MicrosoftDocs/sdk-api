@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CFrameworkQuery::GetValuesForProp
+ - CFrameworkQuery::GetValuesForProp
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

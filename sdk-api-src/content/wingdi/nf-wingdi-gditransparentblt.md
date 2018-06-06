@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Gdi32.dll
--	ext-ms-win-gdi-draw-l1-1-2.dll
--	Ext-MS-Win-GDI-Draw-L1-1-3.dll
--	GDI32Full.dll
+ - Gdi32.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
 api_name:
--	GdiTransparentBlt
+ - GdiTransparentBlt
 product: Windows
 targetos: Windows
 req.lib: Gdi32.lib

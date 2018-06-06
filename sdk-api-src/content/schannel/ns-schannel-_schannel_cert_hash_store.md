@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCHANNEL_CERT_HASH_STORE, *PSCHANNEL_CERT_HASH_STORE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Schannel.h
+ - Schannel.h
 api_name:
--	SCHANNEL_CERT_HASH_STORE
+ - SCHANNEL_CERT_HASH_STORE
 product: Windows
 targetos: Windows
 req.lib: 

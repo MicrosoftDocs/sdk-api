@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dsuiext.dll
+ - Dsuiext.dll
 api_name:
--	DsBrowseForContainer
--	DsBrowseForContainerA
--	DsBrowseForContainerW
+ - DsBrowseForContainer
+ - DsBrowseForContainerA
+ - DsBrowseForContainerW
 product: Windows
 targetos: Windows
 req.lib: Dsuiext.lib

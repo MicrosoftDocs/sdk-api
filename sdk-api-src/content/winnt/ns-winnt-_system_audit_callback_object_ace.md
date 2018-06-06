@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE, *PSYSTEM_AUDIT_CALLBACK_OBJECT_ACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
+ - SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwrite_3.h
+ - Dwrite_3.h
 api_name:
--	DWRITE_LINE_SPACING
+ - DWRITE_LINE_SPACING
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, *LPDHCP_ATTRIB_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_ATTRIB_ARRAY
+ - DHCP_ATTRIB_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

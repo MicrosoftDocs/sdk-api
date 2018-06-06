@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IndexedResourceQualifier
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	resourceindexer.h
+ - resourceindexer.h
 api_name:
--	IndexedResourceQualifier
+ - IndexedResourceQualifier
 product: Windows
 targetos: Windows
 req.lib: 

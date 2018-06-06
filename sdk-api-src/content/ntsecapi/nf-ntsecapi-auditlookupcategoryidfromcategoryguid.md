@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	AuditLookupCategoryIdFromCategoryGuid
+ - AuditLookupCategoryIdFromCategoryGuid
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

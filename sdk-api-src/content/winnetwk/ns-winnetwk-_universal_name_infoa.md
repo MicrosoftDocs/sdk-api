@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UNIVERSAL_NAME_INFOA, *LPUNIVERSAL_NAME_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnetwk.h
+ - Winnetwk.h
 api_name:
--	UNIVERSAL_NAME_INFO
--	UNIVERSAL_NAME_INFOA
--	UNIVERSAL_NAME_INFOW
+ - UNIVERSAL_NAME_INFO
+ - UNIVERSAL_NAME_INFOA
+ - UNIVERSAL_NAME_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

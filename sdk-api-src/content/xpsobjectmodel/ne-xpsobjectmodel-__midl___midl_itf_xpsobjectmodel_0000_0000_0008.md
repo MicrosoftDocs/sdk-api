@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_IMAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xpsobjectmodel.h
+ - xpsobjectmodel.h
 api_name:
--	XPS_IMAGE_TYPE
+ - XPS_IMAGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

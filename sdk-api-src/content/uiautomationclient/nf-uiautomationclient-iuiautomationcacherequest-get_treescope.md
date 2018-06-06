@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationCacheRequest.TreeScope
--	IUIAutomationCacheRequest.get_TreeScope
--	IUIAutomationCacheRequest.put_TreeScope
+ - IUIAutomationCacheRequest.TreeScope
+ - IUIAutomationCacheRequest.get_TreeScope
+ - IUIAutomationCacheRequest.put_TreeScope
 product: Windows
 targetos: Windows
 req.lib: 

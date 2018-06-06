@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ServerSelection
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	xaudio2.lib
--	xaudio2.dll
+ - xaudio2.lib
+ - xaudio2.dll
 api_name:
--	X3DAudioCalculate
+ - X3DAudioCalculate
 product: Windows
 targetos: Windows
 req.lib: Xaudio2.lib

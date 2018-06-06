@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RdcMappingAccessMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	MsRdc.dll
+ - MsRdc.dll
 api_name:
--	ISimilarity.FindSimilarFileId
+ - ISimilarity.FindSimilarFileId
 product: Windows
 targetos: Windows
 req.lib: 

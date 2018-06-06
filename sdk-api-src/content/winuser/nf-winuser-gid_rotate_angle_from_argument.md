@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winuser.h
+ - winuser.h
 api_name:
--	GID_ROTATE_ANGLE_FROM_ARGUMENT
+ - GID_ROTATE_ANGLE_FROM_ARGUMENT
 product: Windows
 targetos: Windows
 req.lib: 

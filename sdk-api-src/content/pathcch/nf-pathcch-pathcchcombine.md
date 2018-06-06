@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_VERSION_DATA, *PPEER_VERSION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	pathcch.lib
--	API-MS-Win-Core-Path-l1-1-0.dll
--	KernelBase.dll
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	PathCchCombine
+ - PathCchCombine
 product: Windows
 targetos: Windows
 req.lib: Pathcch.lib

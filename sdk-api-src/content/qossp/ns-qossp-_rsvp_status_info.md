@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSVP_STATUS_INFO, *LPRSVP_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	RSVP_STATUS_INFO
+ - RSVP_STATUS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

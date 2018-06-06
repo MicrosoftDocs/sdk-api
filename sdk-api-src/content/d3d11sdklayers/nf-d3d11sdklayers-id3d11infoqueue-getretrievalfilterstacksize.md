@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D11.lib
--	D3D11.dll
+ - D3D11.lib
+ - D3D11.dll
 api_name:
--	ID3D11InfoQueue.GetRetrievalFilterStackSize
+ - ID3D11InfoQueue.GetRetrievalFilterStackSize
 product: Windows
 targetos: Windows
 req.lib: D3D11.lib

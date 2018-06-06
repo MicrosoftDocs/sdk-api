@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ENUM_SERVICE_STATUSW, *LPENUM_SERVICE_STATUSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	ENUM_SERVICE_STATUS
--	ENUM_SERVICE_STATUSA
--	ENUM_SERVICE_STATUSW
+ - ENUM_SERVICE_STATUS
+ - ENUM_SERVICE_STATUSA
+ - ENUM_SERVICE_STATUSW
 product: Windows
 targetos: Windows
 req.lib: 

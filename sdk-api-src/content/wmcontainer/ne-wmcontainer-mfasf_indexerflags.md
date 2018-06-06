@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFASF_INDEXER_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcontainer.h
+ - wmcontainer.h
 api_name:
--	MFASF_INDEXER_FLAGS
+ - MFASF_INDEXER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

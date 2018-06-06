@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	IP6_ADDRESS
+ - IP6_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_VERSION_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Uuid.lib
--	Uuid.dll
+ - Uuid.lib
+ - Uuid.dll
 api_name:
--	IVdsIscsiPortal.SetStatus
+ - IVdsIscsiPortal.SetStatus
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

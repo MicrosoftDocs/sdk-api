@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509SCEPDisposition
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	certpol.h
+ - certpol.h
 api_name:
--	X509SCEPDisposition
+ - X509SCEPDisposition
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

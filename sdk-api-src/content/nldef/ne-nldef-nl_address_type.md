@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_ADDRESS_TYPE, *PNL_ADDRESS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	nldef.h
+ - nldef.h
 api_name:
--	NL_ADDRESS_TYPE
+ - NL_ADDRESS_TYPE
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HrtfDirectivity
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HrtfApoApi.h
+ - HrtfApoApi.h
 api_name:
--	HrtfDirectivity
+ - HrtfDirectivity
 product: Windows
 targetos: Windows
 req.lib: 

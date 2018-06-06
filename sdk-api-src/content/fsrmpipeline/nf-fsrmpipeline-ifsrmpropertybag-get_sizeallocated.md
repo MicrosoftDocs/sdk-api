@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmPropertyBag.SizeAllocated
--	IFsrmPropertyBag.get_SizeAllocated
+ - IFsrmPropertyBag.SizeAllocated
+ - IFsrmPropertyBag.get_SizeAllocated
 product: Windows
 targetos: Windows
 req.lib: 

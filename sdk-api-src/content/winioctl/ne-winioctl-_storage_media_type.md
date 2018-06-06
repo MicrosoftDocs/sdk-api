@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	STORAGE_MEDIA_TYPE
+ - STORAGE_MEDIA_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

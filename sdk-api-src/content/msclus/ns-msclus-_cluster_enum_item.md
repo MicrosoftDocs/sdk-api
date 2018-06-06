@@ -29,15 +29,15 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: CLUSTER_ENUM_ITEM, *PCLUSTER_ENUM_ITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MSClus.h
+ - ClusApi.h
+ - MSClus.h
 api_name:
--	CLUSTER_ENUM_ITEM
+ - CLUSTER_ENUM_ITEM
 product: Windows
 targetos: Windows
 req.lib: 

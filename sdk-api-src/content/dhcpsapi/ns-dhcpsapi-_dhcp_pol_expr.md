@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_POL_EXPR, *PDHCP_POL_EXPR, *LPDHCP_POL_EXPR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_POL_EXPR
+ - DHCP_POL_EXPR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Gads_parms_t
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	Gads_parms_t
+ - Gads_parms_t
 product: Windows
 targetos: Windows
 req.lib: 

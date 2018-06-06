@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_SERVICE_CONFIG_QUERY_TYPE, *PHTTP_SERVICE_CONFIG_QUERY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_SERVICE_CONFIG_QUERY_TYPE
+ - HTTP_SERVICE_CONFIG_QUERY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

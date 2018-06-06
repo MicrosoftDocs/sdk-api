@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_FRAME_STATISTICS_MEDIA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_3.h
+ - dxgi1_3.h
 api_name:
--	DXGI_FRAME_STATISTICS_MEDIA
+ - DXGI_FRAME_STATISTICS_MEDIA
 product: Windows
 targetos: Windows
 req.lib: 

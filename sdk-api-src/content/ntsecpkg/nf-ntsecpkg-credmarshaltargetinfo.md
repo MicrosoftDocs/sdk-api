@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_SESSIONINFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
+ - Advapi32.dll
 api_name:
--	CredMarshalTargetInfo
+ - CredMarshalTargetInfo
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

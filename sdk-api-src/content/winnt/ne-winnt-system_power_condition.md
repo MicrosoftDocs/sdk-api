@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYSTEM_POWER_CONDITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	SYSTEM_POWER_CONDITION
+ - SYSTEM_POWER_CONDITION
 product: Windows
 targetos: Windows
 req.lib: 

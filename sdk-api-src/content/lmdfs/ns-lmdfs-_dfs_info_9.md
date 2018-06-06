@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DFS_INFO_9, *PDFS_INFO_9, *LPDFS_INFO_9
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LmDfs.h
+ - LmDfs.h
 api_name:
--	DFS_INFO_9
+ - DFS_INFO_9
 product: Windows
 targetos: Windows
 req.lib: 

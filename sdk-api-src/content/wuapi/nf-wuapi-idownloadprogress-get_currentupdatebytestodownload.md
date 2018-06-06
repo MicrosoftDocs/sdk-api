@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IDownloadProgress.CurrentUpdateBytesToDownload
--	IDownloadProgress.get_CurrentUpdateBytesToDownload
+ - IDownloadProgress.CurrentUpdateBytesToDownload
+ - IDownloadProgress.get_CurrentUpdateBytesToDownload
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

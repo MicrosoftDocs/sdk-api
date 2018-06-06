@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SC_ACTION, *LPSC_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SC_ACTION
+ - SC_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

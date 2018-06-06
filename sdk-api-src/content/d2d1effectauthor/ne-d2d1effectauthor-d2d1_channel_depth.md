@@ -29,14 +29,14 @@ req.type-library: D2d1effectauthor.lib
 tech.root: 
 req.typenames: D2D1_CHANNEL_DEPTH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	d2d1effectauthor.lib
+ - d2d1effectauthor.lib
 api_name:
--	D2D1_CHANNEL_DEPTH
+ - D2D1_CHANNEL_DEPTH
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IWebProxy.BypassList
--	IWebProxy.get_BypassList
--	IWebProxy.put_BypassList
+ - IWebProxy.BypassList
+ - IWebProxy.get_BypassList
+ - IWebProxy.put_BypassList
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

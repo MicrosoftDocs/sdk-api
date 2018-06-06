@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_CAPTURE_ENGINE_STREAM_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfcaptureengine.h
+ - mfcaptureengine.h
 api_name:
--	IMFCaptureRecordSink.SetOutputByteStream
+ - IMFCaptureRecordSink.SetOutputByteStream
 product: Windows
 targetos: Windows
 req.lib: 

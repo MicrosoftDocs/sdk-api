@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REGFILTER2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	REGFILTER2
+ - REGFILTER2
 product: Windows
 targetos: Windows
 req.lib: 

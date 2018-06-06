@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509SCEPFailInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	certpol.h
+ - certpol.h
 api_name:
--	INDESPolicy.GenerateChallenge
+ - INDESPolicy.GenerateChallenge
 product: Windows
 targetos: Windows
 req.lib: 

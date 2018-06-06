@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_READ_BATCH_COMMAND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSTER_READ_BATCH_COMMAND
+ - CLUSTER_READ_BATCH_COMMAND
 product: Windows
 targetos: Windows
 req.lib: 

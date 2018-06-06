@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NUMBERFMTW, *LPNUMBERFMTW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	VectoredHandler
+ - VectoredHandler
 product: Windows
 targetos: Windows
 req.lib: 

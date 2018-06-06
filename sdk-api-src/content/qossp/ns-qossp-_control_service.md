@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	CONTROL_SERVICE
+ - CONTROL_SERVICE
 product: Windows
 targetos: Windows
 req.lib: 

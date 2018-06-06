@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DATE_TIME, *PDATE_TIME, *LPDATE_TIME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DATE_TIME
+ - DATE_TIME
 product: Windows
 targetos: Windows
 req.lib: 

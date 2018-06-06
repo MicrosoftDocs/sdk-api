@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REAL_TIME_NOTIFICATION_SETTING_INPUT, *PREAL_TIME_NOTIFICATION_SETTING_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	REAL_TIME_NOTIFICATION_SETTING_INPUT
+ - REAL_TIME_NOTIFICATION_SETTING_INPUT
 product: Windows
 targetos: Windows
 req.lib: 

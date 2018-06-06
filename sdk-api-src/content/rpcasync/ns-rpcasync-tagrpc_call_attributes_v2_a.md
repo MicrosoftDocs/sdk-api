@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_CALL_ATTRIBUTES_V2_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RPC_CALL_ATTRIBUTES_V2
--	RPC_CALL_ATTRIBUTES_V2_A
--	RPC_CALL_ATTRIBUTES_V2_W
+ - RPC_CALL_ATTRIBUTES_V2
+ - RPC_CALL_ATTRIBUTES_V2_A
+ - RPC_CALL_ATTRIBUTES_V2_W
 product: Windows
 targetos: Windows
 req.lib: 

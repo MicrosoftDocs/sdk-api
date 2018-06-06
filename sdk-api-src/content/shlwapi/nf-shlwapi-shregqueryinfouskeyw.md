@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
--	KernelBase.dll
+ - Shlwapi.dll
+ - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	SHRegQueryInfoUSKey
--	SHRegQueryInfoUSKeyA
--	SHRegQueryInfoUSKeyW
+ - SHRegQueryInfoUSKey
+ - SHRegQueryInfoUSKeyA
+ - SHRegQueryInfoUSKeyW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

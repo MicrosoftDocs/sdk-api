@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	IX509CertificateRequestCertificate.NotBefore
--	IX509CertificateRequestCertificate.get_NotBefore
--	IX509CertificateRequestCertificate.put_NotBefore
+ - IX509CertificateRequestCertificate.NotBefore
+ - IX509CertificateRequestCertificate.get_NotBefore
+ - IX509CertificateRequestCertificate.put_NotBefore
 product: Windows
 targetos: Windows
 req.lib: 

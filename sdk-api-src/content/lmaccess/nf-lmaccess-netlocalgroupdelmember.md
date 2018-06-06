@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSA_INFO_STATE, *PMSA_INFO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	lmaccess.h
+ - lmaccess.h
 api_name:
--	NetLocalGroupDelMember
+ - NetLocalGroupDelMember
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SOURCEFILEW, *PSOURCEFILEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	SOURCEFILE
--	SOURCEFILE
--	SOURCEFILEW
+ - SOURCEFILE
+ - SOURCEFILE
+ - SOURCEFILEW
 product: Windows
 targetos: Windows
 req.lib: 

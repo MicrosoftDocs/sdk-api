@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_DSS_PARAMETERS, *PCERT_DSS_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_DSS_PARAMETERS
+ - CERT_DSS_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

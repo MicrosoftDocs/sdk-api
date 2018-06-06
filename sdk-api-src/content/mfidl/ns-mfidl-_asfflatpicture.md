@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASF_FLAT_PICTURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	ASF_FLAT_PICTURE
+ - ASF_FLAT_PICTURE
 product: Windows
 targetos: Windows
 req.lib: 

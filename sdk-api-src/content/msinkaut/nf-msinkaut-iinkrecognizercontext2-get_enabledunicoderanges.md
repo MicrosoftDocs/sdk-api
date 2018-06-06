@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkRecognizerContext2.EnabledUnicodeRanges
--	IInkRecognizerContext2.get_EnabledUnicodeRanges
--	IInkRecognizerContext2.put_EnabledUnicodeRanges
--	IInkRecognizerContext2.get_EnabledUnicodeRanges
--	IInkRecognizerContext2.put_EnabledUnicodeRanges
+ - IInkRecognizerContext2.EnabledUnicodeRanges
+ - IInkRecognizerContext2.get_EnabledUnicodeRanges
+ - IInkRecognizerContext2.put_EnabledUnicodeRanges
+ - IInkRecognizerContext2.get_EnabledUnicodeRanges
+ - IInkRecognizerContext2.put_EnabledUnicodeRanges
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Userenv.h
+ - Userenv.h
 api_name:
--	PFNSTATUSMESSAGECALLBACK
+ - PFNSTATUSMESSAGECALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

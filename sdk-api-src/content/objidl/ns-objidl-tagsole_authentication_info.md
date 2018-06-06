@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOLE_AUTHENTICATION_INFO, *PSOLE_AUTHENTICATION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	objidlbase.h
+ - objidlbase.h
 api_name:
--	SOLE_AUTHENTICATION_INFO
+ - SOLE_AUTHENTICATION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

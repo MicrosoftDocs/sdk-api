@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: GPMStarterGPOType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-heap-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-heap-l1-2-0.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
 api_name:
--	HeapCreate
+ - HeapCreate
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

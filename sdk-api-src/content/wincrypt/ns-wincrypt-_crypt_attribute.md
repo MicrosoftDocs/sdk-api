@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_ATTRIBUTE
+ - CRYPT_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.lib: 

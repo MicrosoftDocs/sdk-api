@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CHANGER_ELEMENT_LIST
+ - CHANGER_ELEMENT_LIST
 product: Windows
 targetos: Windows
 req.lib: 

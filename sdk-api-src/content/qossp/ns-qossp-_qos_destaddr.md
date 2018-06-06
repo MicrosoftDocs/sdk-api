@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_DESTADDR, *LPQOS_DESTADDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	QOS_DESTADDR
+ - QOS_DESTADDR
 product: Windows
 targetos: Windows
 req.lib: 

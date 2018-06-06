@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1_3.h
+ - d2d1_3.h
 api_name:
--	D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
+ - D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

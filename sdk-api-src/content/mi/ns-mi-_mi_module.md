@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MI_Module
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mi.h
+ - Mi.h
 api_name:
--	MI_Module
+ - MI_Module
 product: Windows
 targetos: Windows
 req.lib: 

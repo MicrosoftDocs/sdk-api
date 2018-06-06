@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_MULTICASTIPADDRESS_TABLE, *PMIB_MULTICASTIPADDRESS_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	MIB_MULTICASTIPADDRESS_TABLE
+ - MIB_MULTICASTIPADDRESS_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

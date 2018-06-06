@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_SMIME_CAPABILITIES, *PCRYPT_SMIME_CAPABILITIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_SMIME_CAPABILITIES
+ - CRYPT_SMIME_CAPABILITIES
 product: Windows
 targetos: Windows
 req.lib: 

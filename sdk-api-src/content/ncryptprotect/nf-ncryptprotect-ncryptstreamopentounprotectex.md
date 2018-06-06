@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NCRYPT_UI_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ncrypt.dll
+ - ncrypt.dll
 api_name:
--	NCryptStreamOpenToUnprotectEx
+ - NCryptStreamOpenToUnprotectEx
 product: Windows
 targetos: Windows
 req.lib: Ncrypt.lib

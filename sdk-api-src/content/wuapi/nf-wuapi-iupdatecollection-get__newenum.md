@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wuapi.dll
+ - Wuapi.dll
 api_name:
--	IUpdateCollection._NewEnum
--	IUpdateCollection.get__NewEnum
+ - IUpdateCollection._NewEnum
+ - IUpdateCollection.get__NewEnum
 product: Windows
 targetos: Windows
 req.lib: Wuguid.lib

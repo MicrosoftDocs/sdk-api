@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	manipulations.h
+ - manipulations.h
 api_name:
--	MANIPULATION_PROCESSOR_MANIPULATIONS
+ - MANIPULATION_PROCESSOR_MANIPULATIONS
 product: Windows
 targetos: Windows
 req.lib: 

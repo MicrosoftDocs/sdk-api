@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmQuotaManager.CreateQuotaCollection
--	IFsrmQuotaManagerEx.CreateQuotaCollection
--	FsrmQuotaManager.CreateQuotaCollection
+ - IFsrmQuotaManager.CreateQuotaCollection
+ - IFsrmQuotaManagerEx.CreateQuotaCollection
+ - FsrmQuotaManager.CreateQuotaCollection
 product: Windows
 targetos: Windows
 req.lib: 

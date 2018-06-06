@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_SINK_WRITER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfreadwrite.h
+ - mfreadwrite.h
 api_name:
--	MF_SINK_WRITER_STATISTICS
+ - MF_SINK_WRITER_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

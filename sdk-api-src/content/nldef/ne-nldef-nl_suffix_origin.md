@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: NL_SUFFIX_ORIGIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nldef.h
--	Iptypes.h
+ - Nldef.h
+ - Iptypes.h
 api_name:
--	IP_SUFFIX_ORIGIN
+ - IP_SUFFIX_ORIGIN
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

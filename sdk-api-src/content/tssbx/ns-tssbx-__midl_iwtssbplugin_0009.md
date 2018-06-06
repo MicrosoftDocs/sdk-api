@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSBX_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tssbx.h
+ - Tssbx.h
 api_name:
--	WTSSBX_SESSION_INFO
+ - WTSSBX_SESSION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIXERLINECONTROLSA, *PMIXERLINECONTROLSA, *LPMIXERLINECONTROLSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmeapi.h
+ - mmeapi.h
 api_name:
--	MIXERLINECONTROLS
+ - MIXERLINECONTROLS
 product: Windows
 targetos: Windows
 req.lib: 

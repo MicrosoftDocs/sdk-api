@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COPP_BusType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxva9typ.h
+ - dxva9typ.h
 api_name:
--	COPP_BusType
+ - COPP_BusType
 product: Windows
 targetos: Windows
 req.lib: 

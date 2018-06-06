@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
--	API-MS-Win-shlwapi-IE-l1-1-0.dll
--	API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
--	ShCore.dll
--	API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
--	API-MS-Win-ShCore-Registry-l1-1-0.dll
--	API-MS-Win-ShCore-Registry-l1-1-1.dll
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-IE-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+ - ShCore.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - API-MS-Win-ShCore-Registry-l1-1-0.dll
+ - API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
--	SHRegGetValue
--	SHRegGetValueA
--	SHRegGetValueW
+ - SHRegGetValue
+ - SHRegGetValueA
+ - SHRegGetValueW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

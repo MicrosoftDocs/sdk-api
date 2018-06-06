@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dpapi.h
--	Wincrypt.h
+ - Dpapi.h
+ - Wincrypt.h
 api_name:
--	CRYPTPROTECT_PROMPTSTRUCT
+ - CRYPTPROTECT_PROMPTSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

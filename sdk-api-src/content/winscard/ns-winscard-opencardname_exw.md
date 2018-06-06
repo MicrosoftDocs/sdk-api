@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OPENCARDNAME_EXW, *POPENCARDNAME_EXW, *LPOPENCARDNAME_EXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winscard.h
+ - Winscard.h
 api_name:
--	OPENCARDNAME_EX
--	OPENCARDNAME_EXA
--	OPENCARDNAME_EXW
+ - OPENCARDNAME_EX
+ - OPENCARDNAME_EXA
+ - OPENCARDNAME_EXW
 product: Windows
 targetos: Windows
 req.lib: 

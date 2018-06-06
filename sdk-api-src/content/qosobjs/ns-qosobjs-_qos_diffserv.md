@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_DIFFSERV, *LPQOS_DIFFSERV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	QosObjs.h
+ - QosObjs.h
 api_name:
--	QOS_DIFFSERV
+ - QOS_DIFFSERV
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
--	sechost.dll
--	API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
--	API-MS-Win-Service-management-l1-1-0.dll
--	API-MS-Win-Service-Winsvc-l1-1-0.dll
--	API-MS-Win-Service-Winsvc-l1-2-0.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
--	OpenSCManager
--	OpenSCManagerA
--	OpenSCManagerW
+ - OpenSCManager
+ - OpenSCManagerA
+ - OpenSCManagerW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

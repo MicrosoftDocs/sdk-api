@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11_2.h
+ - D3D11_2.h
 api_name:
--	D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+ - D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

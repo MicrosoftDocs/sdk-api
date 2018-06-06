@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RADIUS_ATTRIBUTE_ARRAY, *PRADIUS_ATTRIBUTE_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	AuthIf.h
+ - AuthIf.h
 api_name:
--	RADIUS_ATTRIBUTE_ARRAY
+ - RADIUS_ATTRIBUTE_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

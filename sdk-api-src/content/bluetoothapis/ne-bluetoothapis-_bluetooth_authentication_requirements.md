@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BluetoothAPIs.h
+ - BluetoothAPIs.h
 api_name:
--	AUTHENTICATION_REQUIREMENTS
+ - AUTHENTICATION_REQUIREMENTS
 product: Windows
 targetos: Windows
 req.lib: 

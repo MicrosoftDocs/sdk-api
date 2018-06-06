@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_VARIANT, *PEVT_VARIANT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	WinFax.lib
--	WinFax.dll
+ - WinFax.lib
+ - WinFax.dll
 api_name:
--	FaxSetGlobalRoutingInfo
--	FaxSetGlobalRoutingInfoA
--	FaxSetGlobalRoutingInfoW
+ - FaxSetGlobalRoutingInfo
+ - FaxSetGlobalRoutingInfoA
+ - FaxSetGlobalRoutingInfoW
 product: Windows
 targetos: Windows
 req.lib: WinFax.lib

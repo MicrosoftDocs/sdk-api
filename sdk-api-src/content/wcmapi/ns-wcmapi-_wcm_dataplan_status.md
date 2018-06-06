@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_DATAPLAN_STATUS, *PWCM_DATAPLAN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_DATAPLAN_STATUS
+ - WCM_DATAPLAN_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

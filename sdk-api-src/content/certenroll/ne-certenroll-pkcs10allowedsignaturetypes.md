@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Pkcs10AllowedSignatureTypes
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CertEnroll.h
+ - CertEnroll.h
 api_name:
--	Pkcs10AllowedSignatureTypes
+ - Pkcs10AllowedSignatureTypes
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

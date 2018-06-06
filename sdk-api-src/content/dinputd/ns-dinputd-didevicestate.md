@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIDEVICESTATE, *LPDIDEVICESTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dinputd.h
+ - Dinputd.h
 api_name:
--	DIDEVICESTATE
+ - DIDEVICESTATE
 product: Windows
 targetos: Windows
 req.lib: 

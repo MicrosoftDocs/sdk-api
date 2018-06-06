@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_UNIQUE_SESSION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_CONNECTION_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	isolatedapplauncher.h
+ - isolatedapplauncher.h
 api_name:
--	IIsolatedAppLauncher
+ - IIsolatedAppLauncher
 product: Windows
 targetos: Windows
 req.lib: 

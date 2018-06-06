@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_GETVPORTBANDWIDTHDATA
+ - DD_GETVPORTBANDWIDTHDATA
 product: Windows
 targetos: Windows
 req.lib: 

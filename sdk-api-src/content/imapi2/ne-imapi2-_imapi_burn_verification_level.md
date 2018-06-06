@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAPI_BURN_VERIFICATION_LEVEL, *PIMAPI_BURN_VERIFICATION_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	imapi2.h
+ - imapi2.h
 api_name:
--	IMAPI_BURN_VERIFICATION_LEVEL
+ - IMAPI_BURN_VERIFICATION_LEVEL
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

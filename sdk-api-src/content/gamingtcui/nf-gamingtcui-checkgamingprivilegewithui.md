@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KnownGamingPrivileges
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gamingtcui.dll
+ - gamingtcui.dll
 api_name:
--	CheckGamingPrivilegeWithUI
+ - CheckGamingPrivilegeWithUI
 product: Windows
 targetos: Windows
 req.lib: WindowsApp.lib

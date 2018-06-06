@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PASSWORD_CREDENTIALSW, *PCRYPT_PASSWORD_CREDENTIALSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinCrypt.h
+ - WinCrypt.h
 api_name:
--	CRYPT_PASSWORD_CREDENTIALS
--	CRYPT_PASSWORD_CREDENTIALSA
--	CRYPT_PASSWORD_CREDENTIALSW
+ - CRYPT_PASSWORD_CREDENTIALS
+ - CRYPT_PASSWORD_CREDENTIALSA
+ - CRYPT_PASSWORD_CREDENTIALSW
 product: Windows
 targetos: Windows
 req.lib: 

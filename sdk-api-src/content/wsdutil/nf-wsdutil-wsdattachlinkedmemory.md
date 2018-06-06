@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESPONSEBODY_SubscriptionEnd
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wsdapi.dll
+ - Wsdapi.dll
 api_name:
--	WSDAttachLinkedMemory
+ - WSDAttachLinkedMemory
 product: Windows
 targetos: Windows
 req.lib: Wsdapi.lib

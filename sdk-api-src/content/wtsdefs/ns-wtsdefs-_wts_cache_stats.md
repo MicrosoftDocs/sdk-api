@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_CACHE_STATS, *PWTS_CACHE_STATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_CACHE_STATS
+ - WTS_CACHE_STATS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OSUpdateAssessment
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	waasapitypes.h
+ - waasapitypes.h
 api_name:
--	OSUpdateAssessment
+ - OSUpdateAssessment
 product: Windows
 targetos: Windows
 req.lib: 

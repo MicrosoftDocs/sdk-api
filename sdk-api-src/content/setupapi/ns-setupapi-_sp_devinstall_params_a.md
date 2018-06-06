@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_DEVINSTALL_PARAMS_A, *PSP_DEVINSTALL_PARAMS_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_DEVINSTALL_PARAMS
+ - SP_DEVINSTALL_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SAFER_URLZONE_IDENTIFICATION, *PSAFER_URLZONE_IDENTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinSafer.h
+ - WinSafer.h
 api_name:
--	SAFER_URLZONE_IDENTIFICATION
+ - SAFER_URLZONE_IDENTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSPROP_SECURITY_DESCRIPTOR
+ - CLUSPROP_SECURITY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

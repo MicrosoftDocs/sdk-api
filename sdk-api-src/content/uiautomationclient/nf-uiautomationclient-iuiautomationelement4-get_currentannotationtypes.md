@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.dll
+ - UIAutomationCore.dll
 api_name:
--	IUIAutomationElement4.CurrentAnnotationTypes
--	IUIAutomationElement4.get_CurrentAnnotationTypes
+ - IUIAutomationElement4.CurrentAnnotationTypes
+ - IUIAutomationElement4.get_CurrentAnnotationTypes
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	evalcom2.h
+ - evalcom2.h
 api_name:
--	LPEVALCOMCALLBACK
+ - LPEVALCOMCALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

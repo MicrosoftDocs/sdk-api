@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICMetadataHeader
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincodecsdk.h
+ - Wincodecsdk.h
 api_name:
--	WICMetadataHeader
+ - WICMetadataHeader
 product: Windows
 targetos: Windows
 req.lib: 

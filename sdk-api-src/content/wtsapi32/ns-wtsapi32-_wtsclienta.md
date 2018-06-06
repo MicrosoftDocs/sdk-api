@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTSCLIENTA, *PWTSCLIENTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTSCLIENT
--	WTSCLIENTA
--	WTSCLIENTW
+ - WTSCLIENT
+ - WTSCLIENTA
+ - WTSCLIENTW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VBS_ENCLAVE_REPORT_VARDATA_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ntlsa.h
+ - ntlsa.h
 api_name:
--	FreeLsaHeap
+ - FreeLsaHeap
 product: Windows
 targetos: Windows
 req.lib: 

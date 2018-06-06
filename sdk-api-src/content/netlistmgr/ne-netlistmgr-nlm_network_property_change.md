@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_NETWORK_PROPERTY_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netlistmgr.h
+ - Netlistmgr.h
 api_name:
--	NLM_NETWORK_PROPERTY_CHANGE
+ - NLM_NETWORK_PROPERTY_CHANGE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_AES_128_KEY_STATE, *PCRYPT_AES_128_KEY_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_AES_128_KEY_STATE
+ - CRYPT_AES_128_KEY_STATE
 product: Windows
 targetos: Windows
 req.lib: 

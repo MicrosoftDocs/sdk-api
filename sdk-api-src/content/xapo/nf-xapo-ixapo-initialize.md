@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAPO_BUFFER_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	XAPO.h
+ - XAPO.h
 api_name:
--	IXAPO.Initialize
+ - IXAPO.Initialize
 product: Windows
 targetos: Windows
 req.lib: 

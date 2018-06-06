@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOOLBARITEM, *LPTOOLBARITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shdeprecated.h
+ - Shdeprecated.h
 api_name:
--	TOOLBARITEM
+ - TOOLBARITEM
 product: Windows
 targetos: Windows
 req.lib: 

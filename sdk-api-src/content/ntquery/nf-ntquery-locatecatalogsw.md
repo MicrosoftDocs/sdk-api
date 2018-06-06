@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntquery.dll
+ - Ntquery.dll
 api_name:
--	LocateCatalogs
--	LocateCatalogsA
--	LocateCatalogsW
+ - LocateCatalogs
+ - LocateCatalogsA
+ - LocateCatalogsW
 product: Windows
 targetos: Windows
 req.lib: Ntquery.lib

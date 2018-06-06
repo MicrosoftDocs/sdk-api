@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_GAIN_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HighLevelMonitorConfigurationAPI.h
+ - HighLevelMonitorConfigurationAPI.h
 api_name:
--	MC_GAIN_TYPE
+ - MC_GAIN_TYPE
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

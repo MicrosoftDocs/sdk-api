@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_TEMPERATUREANDTINT_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1effects_2.h
+ - d2d1effects_2.h
 api_name:
--	D2D1_TEMPERATUREANDTINT_PROP
+ - D2D1_TEMPERATUREANDTINT_PROP
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

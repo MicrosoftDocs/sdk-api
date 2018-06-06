@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntddkbd.h
+ - ntddkbd.h
 api_name:
--	IOCTL_KEYBOARD_SET_TYPEMATIC
+ - IOCTL_KEYBOARD_SET_TYPEMATIC
 product: Windows
 targetos: Windows
 req.lib: 

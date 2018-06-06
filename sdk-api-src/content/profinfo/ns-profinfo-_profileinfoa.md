@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PROFILEINFOA, *LPPROFILEINFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Profinfo.h
+ - Profinfo.h
 api_name:
--	PROFILEINFO
--	PROFILEINFOA
--	PROFILEINFOW
+ - PROFILEINFO
+ - PROFILEINFOA
+ - PROFILEINFOW
 product: Windows
 targetos: Windows
 req.lib: 

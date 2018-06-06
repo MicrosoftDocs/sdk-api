@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTERVERSIONINFO_NT4, *PCLUSTERVERSIONINFO_NT4
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSTERVERSIONINFO_NT4
+ - CLUSTERVERSIONINFO_NT4
 product: Windows
 targetos: Windows
 req.lib: 

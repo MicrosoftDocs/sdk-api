@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEERDIST_RETRIEVAL_OPTIONS, *PPEERDIST_RETRIEVAL_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	peerdist.h
+ - peerdist.h
 api_name:
--	PEERDIST_RETRIEVAL_OPTIONS
+ - PEERDIST_RETRIEVAL_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MICUIELEMENTSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mileffects.dll
+ - Mileffects.dll
 api_name:
--	IMILBitmapEffectOutputConnector
+ - IMILBitmapEffectOutputConnector
 product: Windows
 targetos: Windows
 req.lib: 

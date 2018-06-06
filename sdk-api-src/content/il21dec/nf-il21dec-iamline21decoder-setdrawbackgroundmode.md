@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AM_LINE21_DRAWBGMODE, *PAM_LINE21_DRAWBGMODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IAMLine21Decoder.SetDrawBackgroundMode
+ - IAMLine21Decoder.SetDrawBackgroundMode
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

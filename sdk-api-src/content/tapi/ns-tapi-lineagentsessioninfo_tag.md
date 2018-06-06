@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LINEAGENTSESSIONINFO, *LPLINEAGENTSESSIONINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi.h
+ - Tapi.h
 api_name:
--	LINEAGENTSESSIONINFO
+ - LINEAGENTSESSIONINFO
 product: Windows
 targetos: Windows
 req.lib: 

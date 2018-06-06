@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	ICMP_ECHO_REPLY
+ - ICMP_ECHO_REPLY
 product: Windows
 targetos: Windows
 req.lib: 

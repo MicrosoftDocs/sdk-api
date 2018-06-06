@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ShellWindowFindWindowOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ExDisp.h
+ - ExDisp.h
 api_name:
--	ShellWindowFindWindowOptions
+ - ShellWindowFindWindowOptions
 product: Windows
 targetos: Windows
 req.lib: 

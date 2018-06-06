@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Session_IPv4
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	Session_IPv4
+ - Session_IPv4
 product: Windows
 targetos: Windows
 req.lib: 

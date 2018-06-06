@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVA_COPPStatusHDCPKeyData
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxva9typ.h
+ - dxva9typ.h
 api_name:
--	DXVA_COPPStatusHDCPKeyData
+ - DXVA_COPPStatusHDCPKeyData
 product: Windows
 targetos: Windows
 req.lib: 

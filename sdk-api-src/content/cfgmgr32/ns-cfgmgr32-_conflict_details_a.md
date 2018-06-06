@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CONFLICT_DETAILS_A, *PCONFLICT_DETAILS_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	CONFLICT_DETAILS
+ - CONFLICT_DETAILS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmQuotaTemplateImported.OverwriteOnCommit
--	IFsrmQuotaTemplateImported.get_OverwriteOnCommit
--	IFsrmQuotaTemplateImported.put_OverwriteOnCommit
+ - IFsrmQuotaTemplateImported.OverwriteOnCommit
+ - IFsrmQuotaTemplateImported.get_OverwriteOnCommit
+ - IFsrmQuotaTemplateImported.put_OverwriteOnCommit
 product: Windows
 targetos: Windows
 req.lib: 

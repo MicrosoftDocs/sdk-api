@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EncodingType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CertEnroll.h
+ - CertEnroll.h
 api_name:
--	EncodingType
+ - EncodingType
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

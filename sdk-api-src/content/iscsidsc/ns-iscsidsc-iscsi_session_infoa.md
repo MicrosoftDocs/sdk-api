@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_SESSION_INFOA, *PISCSI_SESSION_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	ISCSI_SESSION_INFO
--	ISCSI_SESSION_INFOA
--	ISCSI_SESSION_INFOW
+ - ISCSI_SESSION_INFO
+ - ISCSI_SESSION_INFOA
+ - ISCSI_SESSION_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

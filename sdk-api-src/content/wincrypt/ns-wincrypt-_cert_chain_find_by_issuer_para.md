@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_CHAIN_FIND_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_BY_ISSUER_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	_CERT_CHAIN_FIND_BY_ISSUER_PARA
+ - _CERT_CHAIN_FIND_BY_ISSUER_PARA
 product: Windows
 targetos: Windows
 req.lib: 

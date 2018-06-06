@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	DXGIDebug.dll
+ - DXGIDebug.dll
 api_name:
--	IDXGIDebug1.IsLeakTrackingEnabledForThread
+ - IDXGIDebug1.IsLeakTrackingEnabledForThread
 product: Windows
 targetos: Windows
 req.lib: 

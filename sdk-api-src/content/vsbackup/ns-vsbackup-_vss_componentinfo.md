@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_COMPONENTINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsBackup.h
+ - VsBackup.h
 api_name:
--	VSS_COMPONENTINFO
+ - VSS_COMPONENTINFO
 product: Windows
 targetos: Windows
 req.lib: 

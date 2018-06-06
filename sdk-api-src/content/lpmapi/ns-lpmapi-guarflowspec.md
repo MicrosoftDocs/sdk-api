@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GuarFlowSpec
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	GuarFlowSpec
+ - GuarFlowSpec
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PICTDESC, *LPPICTDESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Olectl.h
+ - Olectl.h
 api_name:
--	PICTDESC
+ - PICTDESC
 product: Windows
 targetos: Windows
 req.lib: 

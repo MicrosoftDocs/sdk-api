@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_ANIMATION_SCHEDULING_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	UIAnimation.h
+ - UIAnimation.h
 api_name:
--	UI_ANIMATION_SCHEDULING_RESULT
+ - UI_ANIMATION_SCHEDULING_RESULT
 product: Windows
 targetos: Windows
 req.lib: 

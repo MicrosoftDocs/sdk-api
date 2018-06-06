@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WdsClientApi.dll
+ - WdsClientApi.dll
 api_name:
--	WdsCliGetImageName
+ - WdsCliGetImageName
 product: Windows
 targetos: Windows
 req.lib: WdsClientApi.lib

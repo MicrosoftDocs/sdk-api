@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoInterlaceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MFVideoInterlaceMode
+ - MFVideoInterlaceMode
 product: Windows
 targetos: Windows
 req.lib: 

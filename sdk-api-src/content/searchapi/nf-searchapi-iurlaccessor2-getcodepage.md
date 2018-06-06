@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ROWSETEVENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Searchapi.h
+ - Searchapi.h
 api_name:
--	IUrlAccessor2.GetCodePage
--	IUrlAccessor4.GetCodePage
+ - IUrlAccessor2.GetCodePage
+ - IUrlAccessor4.GetCodePage
 product: Windows
 targetos: Windows
 req.lib: 

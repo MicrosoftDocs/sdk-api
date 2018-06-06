@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_PRIVILEGES
+ - TOKEN_PRIVILEGES
 product: Windows
 targetos: Windows
 req.lib: 

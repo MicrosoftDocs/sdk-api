@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESS_MEMORY_COUNTERS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	PROCESS_MEMORY_COUNTERS_EX
+ - PROCESS_MEMORY_COUNTERS_EX
 product: Windows
 targetos: Windows
 req.lib: 

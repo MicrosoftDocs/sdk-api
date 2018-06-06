@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_SCOPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	drt.h
+ - drt.h
 api_name:
--	DRT_SCOPE
+ - DRT_SCOPE
 product: Windows
 targetos: Windows
 req.lib: 

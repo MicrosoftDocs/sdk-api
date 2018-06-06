@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	winsync.h
+ - winsync.h
 api_name:
--	IFilterRequestCallback
+ - IFilterRequestCallback
 product: Windows
 targetos: Windows
 req.lib: 

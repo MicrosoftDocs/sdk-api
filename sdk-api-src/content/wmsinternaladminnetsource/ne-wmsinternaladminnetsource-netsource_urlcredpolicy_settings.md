@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETSOURCE_URLCREDPOLICY_SETTINGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmsinternaladminnetsource.h
+ - wmsinternaladminnetsource.h
 api_name:
--	NETSOURCE_URLCREDPOLICY_SETTINGS
+ - NETSOURCE_URLCREDPOLICY_SETTINGS
 product: Windows
 targetos: Windows
 req.lib: 

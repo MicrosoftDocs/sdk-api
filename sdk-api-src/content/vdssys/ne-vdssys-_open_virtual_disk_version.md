@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: OPEN_VIRTUAL_DISK_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	OPEN_VIRTUAL_DISK_VERSION
+ - OPEN_VIRTUAL_DISK_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

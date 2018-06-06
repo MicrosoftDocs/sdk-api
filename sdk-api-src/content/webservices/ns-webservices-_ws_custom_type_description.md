@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_CUSTOM_TYPE_DESCRIPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_CUSTOM_TYPE_DESCRIPTION
+ - WS_CUSTOM_TYPE_DESCRIPTION
 product: Windows
 targetos: Windows
 req.lib: 

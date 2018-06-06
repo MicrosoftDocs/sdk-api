@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECORD_READING_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Txlogpub.h
+ - Txlogpub.h
 api_name:
--	ILog.SetAccessPolicyHint
+ - ILog.SetAccessPolicyHint
 product: Windows
 targetos: Windows
 req.lib: 

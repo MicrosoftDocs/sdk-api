@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	AD_GENERAL_PARAMS
+ - AD_GENERAL_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

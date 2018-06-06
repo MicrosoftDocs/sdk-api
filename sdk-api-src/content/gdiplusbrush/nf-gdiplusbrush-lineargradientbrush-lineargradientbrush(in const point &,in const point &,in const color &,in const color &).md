@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KnownGamingPrivileges
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gdiplusbrush.h
+ - gdiplusbrush.h
 api_name:
--	LinearGradientBrush.LinearGradientBrush
+ - LinearGradientBrush.LinearGradientBrush
 product: Windows
 targetos: Windows
 req.lib: 

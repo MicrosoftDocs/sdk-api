@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gdi32.dll
--	ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
--	API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
--	GDI32Full.dll
--	GDI32Min.dll
+ - gdi32.dll
+ - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+ - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+ - GDI32Full.dll
+ - GDI32Min.dll
 api_name:
--	PtInRegion
+ - PtInRegion
 product: Windows
 targetos: Windows
 req.lib: Gdi32.lib

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: SelAlignmentConstants
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkEd.dll
--	InkEd.dll.dll
+ - InkEd.dll
+ - InkEd.dll.dll
 api_name:
--	IInkEdit.RecognitionTimeout
--	IInkEdit.get_RecognitionTimeout
--	IInkEdit.put_RecognitionTimeout
--	InkEdit.get_RecognitionTimeout
--	InkEdit.put_RecognitionTimeout
+ - IInkEdit.RecognitionTimeout
+ - IInkEdit.get_RecognitionTimeout
+ - IInkEdit.put_RecognitionTimeout
+ - InkEdit.get_RecognitionTimeout
+ - InkEdit.put_RecognitionTimeout
 product: Windows
 targetos: Windows
 req.lib: InkEd.dll

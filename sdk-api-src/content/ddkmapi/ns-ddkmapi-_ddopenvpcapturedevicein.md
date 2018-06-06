@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDOPENVPCAPTUREDEVICEIN, *LPDDOPENVPCAPTUREDEVICEIN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddkmapi.h
+ - ddkmapi.h
 api_name:
--	DDOPENVPCAPTUREDEVICEIN
+ - DDOPENVPCAPTUREDEVICEIN
 product: Windows
 targetos: Windows
 req.lib: 

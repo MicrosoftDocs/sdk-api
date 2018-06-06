@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InstancingType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	activationregistration.h
+ - activationregistration.h
 api_name:
--	InstancingType
+ - InstancingType
 product: Windows
 targetos: Windows
 req.lib: 

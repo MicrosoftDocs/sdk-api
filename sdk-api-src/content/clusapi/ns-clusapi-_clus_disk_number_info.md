@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_DISK_NUMBER_INFO, *PCLUS_DISK_NUMBER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_DISK_NUMBER_INFO
+ - CLUS_DISK_NUMBER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

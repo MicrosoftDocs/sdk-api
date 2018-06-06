@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CryptDlg.h
+ - CryptDlg.h
 api_name:
--	CTL_MODIFY_REQUEST
+ - CTL_MODIFY_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

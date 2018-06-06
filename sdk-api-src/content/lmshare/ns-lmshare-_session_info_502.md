@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SESSION_INFO_502, *PSESSION_INFO_502, *LPSESSION_INFO_502
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmshare.h
+ - Lmshare.h
 api_name:
--	SESSION_INFO_502
+ - SESSION_INFO_502
 product: Windows
 targetos: Windows
 req.lib: 

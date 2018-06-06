@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIRTUAL_DISK_ACCESS_MASK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	VirtDisk.dll
+ - VirtDisk.dll
 api_name:
--	GetVirtualDiskInformation
+ - GetVirtualDiskInformation
 product: Windows
 targetos: Windows
 req.lib: VirtDisk.lib

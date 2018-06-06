@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MULTICAST_MODE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2ipdef.h
+ - Ws2ipdef.h
 api_name:
--	MULTICAST_MODE_TYPE
+ - MULTICAST_MODE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

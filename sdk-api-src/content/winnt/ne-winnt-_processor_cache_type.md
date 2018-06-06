@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESSOR_CACHE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	PROCESSOR_CACHE_TYPE
+ - PROCESSOR_CACHE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

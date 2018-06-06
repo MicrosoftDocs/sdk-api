@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLFS_MGMT_POLICY_TYPE, *PCLFS_MGMT_POLICY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfsmgmt.h
+ - Clfsmgmt.h
 api_name:
--	CLFS_MGMT_POLICY_TYPE
+ - CLFS_MGMT_POLICY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

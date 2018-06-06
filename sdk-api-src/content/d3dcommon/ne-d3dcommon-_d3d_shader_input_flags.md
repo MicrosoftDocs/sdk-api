@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_INPUT_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3DCommon.h
+ - D3DCommon.h
 api_name:
--	D3D_SHADER_INPUT_FLAGS
+ - D3D_SHADER_INPUT_FLAGS
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

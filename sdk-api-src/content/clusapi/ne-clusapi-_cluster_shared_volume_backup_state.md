@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_SHARED_VOLUME_BACKUP_STATE, *PCLUSTER_SHARED_VOLUME_BACKUP_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSTER_SHARED_VOLUME_BACKUP_STATE
+ - CLUSTER_SHARED_VOLUME_BACKUP_STATE
 product: Windows
 targetos: Windows
 req.lib: 

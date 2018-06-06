@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICTiffCompressionOption
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wincodec.h
+ - wincodec.h
 api_name:
--	IWICBitmapEncoder
+ - IWICBitmapEncoder
 product: Windows
 targetos: Windows
 req.lib: Windowscodecs.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACL_REVISION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	ACL_REVISION_INFORMATION
+ - ACL_REVISION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

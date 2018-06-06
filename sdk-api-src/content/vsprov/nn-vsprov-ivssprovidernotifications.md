@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VsProv.h
+ - VsProv.h
 api_name:
--	IVssProviderNotifications
+ - IVssProviderNotifications
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

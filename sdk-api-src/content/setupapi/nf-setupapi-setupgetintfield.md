@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Setupapi.dll
--	Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
--	SetupGetIntField
+ - SetupGetIntField
 product: Windows
 targetos: Windows
 req.lib: Setupapi.lib

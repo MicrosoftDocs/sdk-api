@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EOC_ChangeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	eventsys.h
+ - eventsys.h
 api_name:
--	IEventClass2.FireInParallel
--	IEventClass2.get_FireInParallel
--	IEventClass2.put_FireInParallel
+ - IEventClass2.FireInParallel
+ - IEventClass2.get_FireInParallel
+ - IEventClass2.put_FireInParallel
 product: Windows
 targetos: Windows
 req.lib: 

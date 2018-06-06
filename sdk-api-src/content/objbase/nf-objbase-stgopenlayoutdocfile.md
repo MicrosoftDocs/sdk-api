@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	DfLayout.dll
+ - DfLayout.dll
 api_name:
--	StgOpenLayoutDocfile
+ - StgOpenLayoutDocfile
 product: Windows
 targetos: Windows
 req.lib: DfLayout.lib

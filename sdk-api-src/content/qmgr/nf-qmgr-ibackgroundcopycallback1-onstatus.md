@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GROUPPROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Qmgr.h
+ - Qmgr.h
 api_name:
--	IBackgroundCopyCallback1.OnStatus
+ - IBackgroundCopyCallback1.OnStatus
 product: Windows
 targetos: Windows
 req.lib: 

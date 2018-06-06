@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_DATA_DIRECTORY, *PIMAGE_DATA_DIRECTORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	IMAGE_DATA_DIRECTORY
+ - IMAGE_DATA_DIRECTORY
 product: Windows
 targetos: Windows
 req.lib: 

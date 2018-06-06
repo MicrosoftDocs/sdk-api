@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: BROWSEINFOA, *PBROWSEINFOA, *LPBROWSEINFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	BROWSEINFO
--	BROWSEINFOA
--	BROWSEINFOW
+ - BROWSEINFO
+ - BROWSEINFOA
+ - BROWSEINFOW
 product: Windows
 targetos: Windows
 req.lib: 

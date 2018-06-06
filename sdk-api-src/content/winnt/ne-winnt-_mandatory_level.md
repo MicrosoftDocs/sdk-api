@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANDATORY_LEVEL, *PMANDATORY_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	MANDATORY_LEVEL
+ - MANDATORY_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

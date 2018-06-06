@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: UDACCEL, *LPUDACCEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Comdlg32.dll
--	ext-ms-win-shell-comdlg32-l1-1-0.dll
+ - Comdlg32.dll
+ - ext-ms-win-shell-comdlg32-l1-1-0.dll
 api_name:
--	CommDlgExtendedError
+ - CommDlgExtendedError
 product: Windows
 targetos: Windows
 req.lib: Comdlg32.lib

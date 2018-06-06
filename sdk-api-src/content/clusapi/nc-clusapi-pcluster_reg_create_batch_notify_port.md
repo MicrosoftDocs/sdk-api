@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT
+ - PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT
 product: Windows
 targetos: Windows
 req.lib: 

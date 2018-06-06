@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_NODE_RESUME_FAILBACK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
+ - ClusApi.h
 api_name:
--	CLUSTER_NODE_RESUME_FAILBACK_TYPE
+ - CLUSTER_NODE_RESUME_FAILBACK_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

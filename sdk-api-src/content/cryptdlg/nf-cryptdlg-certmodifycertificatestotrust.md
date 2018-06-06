@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecPkgContext_ClientCreds, *PSecPkgContext_ClientCreds
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	CryptDlg.dll
+ - CryptDlg.dll
 api_name:
--	CertModifyCertificatesToTrust
+ - CertModifyCertificatesToTrust
 product: Windows
 targetos: Windows
 req.lib: 

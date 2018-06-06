@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: CATEGORYINFO, *LPCATEGORYINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
--	API-MS-Win-Core-Com-l2-1-1.dll
--	coml2.dll
+ - Ole32.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
 api_name:
--	StgOpenStorage
+ - StgOpenStorage
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

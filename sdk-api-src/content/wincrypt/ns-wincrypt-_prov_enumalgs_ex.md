@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROV_ENUMALGS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	PROV_ENUMALGS_EX
+ - PROV_ENUMALGS_EX
 product: Windows
 targetos: Windows
 req.lib: 

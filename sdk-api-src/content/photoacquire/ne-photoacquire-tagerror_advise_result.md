@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ERROR_ADVISE_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PhotoAcquire.h
+ - PhotoAcquire.h
 api_name:
--	ERROR_ADVISE_RESULT
+ - ERROR_ADVISE_RESULT
 product: Windows
 targetos: Windows
 req.lib: 

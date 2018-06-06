@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CATSORT_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shobjidl_core.h
+ - shobjidl_core.h
 api_name:
--	CATSORT_FLAGS
+ - CATSORT_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

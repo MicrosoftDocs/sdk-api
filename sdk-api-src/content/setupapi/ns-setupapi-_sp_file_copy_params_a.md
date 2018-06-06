@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_FILE_COPY_PARAMS_A, *PSP_FILE_COPY_PARAMS_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_FILE_COPY_PARAMS
+ - SP_FILE_COPY_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

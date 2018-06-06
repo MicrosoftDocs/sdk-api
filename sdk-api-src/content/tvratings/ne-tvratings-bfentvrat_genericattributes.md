@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BfEnTvRat_GenericAttributes
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tvratings.h
+ - Tvratings.h
 api_name:
--	BfEnTvRat_GenericAttributes
+ - BfEnTvRat_GenericAttributes
 product: Windows
 targetos: Windows
 req.lib: 

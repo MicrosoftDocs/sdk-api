@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SystemVisibilityFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FunDisc.dll
+ - FunDisc.dll
 api_name:
--	IFunctionInstanceCollection
+ - IFunctionInstanceCollection
 product: Windows
 targetos: Windows
 req.lib: 

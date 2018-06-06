@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT, *PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
+ - CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

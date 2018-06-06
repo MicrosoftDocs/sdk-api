@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shlwapi.dll
+ - Shlwapi.dll
 api_name:
--	ChrCmpI
--	ChrCmpIA
--	ChrCmpIW
+ - ChrCmpI
+ - ChrCmpIA
+ - ChrCmpIW
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

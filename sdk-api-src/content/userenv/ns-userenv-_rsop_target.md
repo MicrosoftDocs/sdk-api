@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSOP_TARGET, *PRSOP_TARGET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Userenv.h
+ - Userenv.h
 api_name:
--	RSOP_TARGET
+ - RSOP_TARGET
 product: Windows
 targetos: Windows
 req.lib: 

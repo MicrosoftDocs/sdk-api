@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EXCEPTION_POINTERS, *PEXCEPTION_POINTERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	EXCEPTION_POINTERS
+ - EXCEPTION_POINTERS
 product: Windows
 targetos: Windows
 req.lib: 

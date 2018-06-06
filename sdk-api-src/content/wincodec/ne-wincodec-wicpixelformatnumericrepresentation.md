@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICPixelFormatNumericRepresentation
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincodec.h
+ - Wincodec.h
 api_name:
--	WICPixelFormatNumericRepresentation
+ - WICPixelFormatNumericRepresentation
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_WALK_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	processsnapshot.h
+ - processsnapshot.h
 api_name:
--	PSS_WALK_INFORMATION_CLASS
+ - PSS_WALK_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.lib: Prntvpt.lib

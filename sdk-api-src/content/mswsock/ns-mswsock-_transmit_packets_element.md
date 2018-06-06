@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, *LPTRANSMIT_PACKETS_ELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mswsock.h
+ - Mswsock.h
 api_name:
--	TRANSMIT_PACKETS_ELEMENT
+ - TRANSMIT_PACKETS_ELEMENT
 product: Windows
 targetos: Windows
 req.lib: 

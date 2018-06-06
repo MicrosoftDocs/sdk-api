@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIFFDEVICEATTRIBUTES, *LPDIFFDEVICEATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dinputd.h
+ - dinputd.h
 api_name:
--	DIFFDEVICEATTRIBUTES
+ - DIFFDEVICEATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_PRINT_INFOW, *PFAX_PRINT_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_PRINT_INFO
--	FAX_PRINT_INFOA
--	FAX_PRINT_INFOW
+ - FAX_PRINT_INFO
+ - FAX_PRINT_INFOA
+ - FAX_PRINT_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOOKUP_STREAM_FROM_CLUSTER_ENTRY, *PLOOKUP_STREAM_FROM_CLUSTER_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	LOOKUP_STREAM_FROM_CLUSTER_ENTRY
+ - LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USN_RECORD_EXTENT, *PUSN_RECORD_EXTENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	USN_RECORD_EXTENT
+ - USN_RECORD_EXTENT
 product: Windows
 targetos: Windows
 req.lib: 

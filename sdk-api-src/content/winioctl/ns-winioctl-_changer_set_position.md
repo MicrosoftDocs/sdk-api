@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANGER_SET_POSITION, *PCHANGER_SET_POSITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CHANGER_SET_POSITION
+ - CHANGER_SET_POSITION
 product: Windows
 targetos: Windows
 req.lib: 

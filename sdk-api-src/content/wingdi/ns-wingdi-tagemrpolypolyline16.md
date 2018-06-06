@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRPOLYPOLYLINE16, *PEMRPOLYPOLYLINE16, EMRPOLYPOLYGON16, *PEMRPOLYPOLYGON16
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRPOLYPOLYLINE16
+ - EMRPOLYPOLYLINE16
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-security-trustee-l1-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-security-trustee-l1-1-1.dll
+ - Advapi32.dll
+ - API-MS-Win-security-trustee-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-security-trustee-l1-1-1.dll
 api_name:
--	BuildSecurityDescriptor
--	BuildSecurityDescriptorA
--	BuildSecurityDescriptorW
+ - BuildSecurityDescriptor
+ - BuildSecurityDescriptorA
+ - BuildSecurityDescriptorW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

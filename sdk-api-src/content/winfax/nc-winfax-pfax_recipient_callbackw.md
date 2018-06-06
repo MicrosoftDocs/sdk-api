@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EVT_VARIANT, *PEVT_VARIANT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_RECIPIENT_CALLBACK
--	PFAX_RECIPIENT_CALLBACKA
--	PFAX_RECIPIENT_CALLBACKW
+ - FAX_RECIPIENT_CALLBACK
+ - PFAX_RECIPIENT_CALLBACKA
+ - PFAX_RECIPIENT_CALLBACKW
 product: Windows
 targetos: Windows
 req.lib: 

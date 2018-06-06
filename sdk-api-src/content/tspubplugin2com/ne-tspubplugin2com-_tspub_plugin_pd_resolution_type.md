@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tspubplugin2com.h
+ - tspubplugin2com.h
 api_name:
--	TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+ - TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

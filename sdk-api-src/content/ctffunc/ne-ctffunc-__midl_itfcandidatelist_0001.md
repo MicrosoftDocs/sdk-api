@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfCandidateResult
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ctffunc.h
+ - Ctffunc.h
 api_name:
--	TfCandidateResult
+ - TfCandidateResult
 product: Windows
 targetos: Windows
 req.lib: 

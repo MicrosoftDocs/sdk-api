@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WmfPlaceableFileHeader
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gdipluspath.h
+ - gdipluspath.h
 api_name:
--	GraphicsPath.IsVisible
+ - GraphicsPath.IsVisible
 product: Windows
 targetos: Windows
 req.lib: 

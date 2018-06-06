@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: STYLEBUFA, *PSTYLEBUFA, *NPSTYLEBUFA, *LPSTYLEBUFA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imm.h
+ - Imm.h
 api_name:
--	STYLEBUF
--	STYLEBUFA
--	STYLEBUFW
+ - STYLEBUF
+ - STYLEBUFA
+ - STYLEBUFW
 product: Windows
 targetos: Windows
 req.lib: 

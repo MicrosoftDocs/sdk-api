@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SILO_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	EhStorAPI.h
+ - EhStorAPI.h
 api_name:
--	SILO_INFO
+ - SILO_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_MODE_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wingdi.h
+ - wingdi.h
 api_name:
--	DISPLAYCONFIG_MODE_INFO_TYPE
+ - DISPLAYCONFIG_MODE_INFO_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

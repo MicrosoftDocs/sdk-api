@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NLM_NETWORK_PROPERTY_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Netlistmgr.h
+ - Netlistmgr.h
 api_name:
--	INetworkListManager.get_IsConnectedToInternet
+ - INetworkListManager.get_IsConnectedToInternet
 product: Windows
 targetos: Windows
 req.lib: 

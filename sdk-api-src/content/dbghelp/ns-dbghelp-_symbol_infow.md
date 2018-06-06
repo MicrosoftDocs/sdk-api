@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SYMBOL_INFOW, *PSYMBOL_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	SYMBOL_INFO
--	SYMBOL_INFO
--	SYMBOL_INFOW
+ - SYMBOL_INFO
+ - SYMBOL_INFO
+ - SYMBOL_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

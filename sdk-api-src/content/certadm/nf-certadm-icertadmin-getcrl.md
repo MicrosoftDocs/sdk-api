@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	ICertAdmin2.GetCRL
--	ICertAdmin.GetCRL
--	CCertAdmin.GetCRL
+ - ICertAdmin2.GetCRL
+ - ICertAdmin.GetCRL
+ - CCertAdmin.GetCRL
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

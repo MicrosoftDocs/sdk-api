@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_FAULT_CODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_FAULT_CODE
+ - WS_FAULT_CODE
 product: Windows
 targetos: Windows
 req.lib: 

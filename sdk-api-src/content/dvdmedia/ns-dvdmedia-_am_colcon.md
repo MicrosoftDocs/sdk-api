@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_COLCON, *PAM_COLCON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dvdmedia.h
+ - Dvdmedia.h
 api_name:
--	AM_COLCON
+ - AM_COLCON
 product: Windows
 targetos: Windows
 req.lib: 

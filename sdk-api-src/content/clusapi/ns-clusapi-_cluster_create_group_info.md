@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_CREATE_GROUP_INFO, *PCLUSTER_CREATE_GROUP_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MSClus.h
+ - ClusAPI.h
+ - MSClus.h
 api_name:
--	CLUSTER_CREATE_GROUP_INFO
+ - CLUSTER_CREATE_GROUP_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHNEXTSTEP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	davclnt.h
+ - davclnt.h
 api_name:
--	AUTHNEXTSTEP
+ - AUTHNEXTSTEP
 product: Windows
 targetos: Windows
 req.lib: 

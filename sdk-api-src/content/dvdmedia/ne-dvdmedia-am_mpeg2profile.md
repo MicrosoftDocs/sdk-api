@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dvdmedia.h
+ - Dvdmedia.h
 api_name:
--	AM_MPEG2Profile
+ - AM_MPEG2Profile
 product: Windows
 targetos: Windows
 req.lib: 

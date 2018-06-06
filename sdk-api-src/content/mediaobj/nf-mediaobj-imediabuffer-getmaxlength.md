@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Dmoguids.lib
--	Dmoguids.dll
+ - Dmoguids.lib
+ - Dmoguids.dll
 api_name:
--	IMediaBuffer.GetMaxLength
+ - IMediaBuffer.GetMaxLength
 product: Windows
 targetos: Windows
 req.lib: Dmoguids.lib

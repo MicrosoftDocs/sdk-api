@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InstallationImpact
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wuapi.h
+ - Wuapi.h
 api_name:
--	InstallationImpact
+ - InstallationImpact
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: CHARFORMAT2W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Richedit.h
+ - Richedit.h
 api_name:
--	CHARFORMAT2
--	CHARFORMAT2A
--	CHARFORMAT2W
+ - CHARFORMAT2
+ - CHARFORMAT2A
+ - CHARFORMAT2W
 product: Windows
 targetos: Windows
 req.lib: 

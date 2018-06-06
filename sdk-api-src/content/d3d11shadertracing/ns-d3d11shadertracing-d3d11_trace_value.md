@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_TRACE_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11ShaderTracing.h
+ - D3D11ShaderTracing.h
 api_name:
--	D3D11_TRACE_VALUE
+ - D3D11_TRACE_VALUE
 product: Windows
 targetos: Windows
 req.lib: 

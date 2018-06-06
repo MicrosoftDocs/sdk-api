@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLRES_CALLBACK_FUNCTION_TABLE, *PCLRES_CALLBACK_FUNCTION_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	CLRES_CALLBACK_FUNCTION_TABLE
+ - CLRES_CALLBACK_FUNCTION_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

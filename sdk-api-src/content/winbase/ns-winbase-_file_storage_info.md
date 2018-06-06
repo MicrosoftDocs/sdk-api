@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_STORAGE_INFO, *PFILE_STORAGE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	FILE_STORAGE_INFO
+ - FILE_STORAGE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

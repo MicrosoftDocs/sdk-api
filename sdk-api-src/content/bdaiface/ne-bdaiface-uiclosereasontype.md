@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UICloseReasonType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bdaiface.h
+ - Bdaiface.h
 api_name:
--	UICloseReasonType
+ - UICloseReasonType
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mgm.h
+ - Mgm.h
 api_name:
--	SOURCE_GROUP_ENTRY
+ - SOURCE_GROUP_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

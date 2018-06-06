@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	vertdll.dll
+ - vertdll.dll
 api_name:
--	EnclaveGetAttestationReport
+ - EnclaveGetAttestationReport
 product: Windows
 targetos: Windows
 req.lib: Vertdll.lib

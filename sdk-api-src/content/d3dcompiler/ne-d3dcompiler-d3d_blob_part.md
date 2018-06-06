@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_BLOB_PART
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3Dcompiler.h
+ - D3Dcompiler.h
 api_name:
--	D3D_BLOB_PART
+ - D3D_BLOB_PART
 product: Windows
 targetos: Windows
 req.lib: 

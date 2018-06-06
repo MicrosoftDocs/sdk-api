@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_S4U_LOGON, *PKERB_S4U_LOGON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_S4U_LOGON
+ - KERB_S4U_LOGON
 product: Windows
 targetos: Windows
 req.lib: 

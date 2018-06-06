@@ -29,14 +29,14 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: CHANNEL_ACCESS_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rdpencomapi.h
+ - Rdpencomapi.h
 api_name:
--	CHANNEL_ACCESS_ENUM
+ - CHANNEL_ACCESS_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

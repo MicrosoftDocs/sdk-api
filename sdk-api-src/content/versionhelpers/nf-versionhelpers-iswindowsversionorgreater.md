@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VersionHelpers.h
+ - VersionHelpers.h
 api_name:
--	IsWindowsVersionOrGreater
+ - IsWindowsVersionOrGreater
 product: Windows
 targetos: Windows
 req.lib: 

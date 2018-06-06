@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.h
+ - Azroles.h
 api_name:
--	IAzBizRuleInterfaces.Count
--	IAzBizRuleInterfaces.get_Count
+ - IAzBizRuleInterfaces.Count
+ - IAzBizRuleInterfaces.get_Count
 product: Windows
 targetos: Windows
 req.lib: 

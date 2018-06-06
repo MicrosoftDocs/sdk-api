@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_LOAD_CONFIG_DIRECTORY64, *PIMAGE_LOAD_CONFIG_DIRECTORY64
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	IMAGE_LOAD_CONFIG_DIRECTORY64
--	IMAGE_LOAD_CONFIG_DIRECTORY
+ - IMAGE_LOAD_CONFIG_DIRECTORY64
+ - IMAGE_LOAD_CONFIG_DIRECTORY
 product: Windows
 targetos: Windows
 req.lib: 

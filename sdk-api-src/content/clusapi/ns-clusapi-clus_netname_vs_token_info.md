@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_NETNAME_VS_TOKEN_INFO, CLUS_VS_TOKEN_INFO, *PCLUS_NETNAME_VS_TOKEN_INFO, *PCLUS_VS_TOKEN_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_NETNAME_VS_TOKEN_INFO
+ - CLUS_NETNAME_VS_TOKEN_INFO
 product: Windows
 targetos: Windows
 req.lib: 

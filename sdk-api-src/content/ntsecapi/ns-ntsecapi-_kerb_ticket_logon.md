@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_TICKET_LOGON, *PKERB_TICKET_LOGON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_TICKET_LOGON
+ - KERB_TICKET_LOGON
 product: Windows
 targetos: Windows
 req.lib: 

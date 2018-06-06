@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Normaliz.dll
--	API-MS-Win-Core-normalization-l1-1-0.dll
--	KernelBase.dll
+ - Normaliz.dll
+ - API-MS-Win-Core-normalization-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	IsNormalizedString
+ - IsNormalizedString
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	SIP_DISPATCH_INFO
+ - SIP_DISPATCH_INFO
 product: Windows
 targetos: Windows
 req.lib: 

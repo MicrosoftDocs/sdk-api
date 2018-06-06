@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Comctl32.dll
+ - Comctl32.dll
 api_name:
--	CreatePropertySheetPage
--	CreatePropertySheetPageA
--	CreatePropertySheetPageW
+ - CreatePropertySheetPage
+ - CreatePropertySheetPageA
+ - CreatePropertySheetPageW
 product: Windows
 targetos: Windows
 req.lib: Comctl32.lib

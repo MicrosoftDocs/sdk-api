@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WINBIO_ASYNC_NOTIFICATION_METHOD, *PWINBIO_ASYNC_NOTIFICATION_METHOD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Winbio.dll
--	Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
--	winbioext.dll
--	Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
--	WinBioEnrollCaptureWithCallback
+ - WinBioEnrollCaptureWithCallback
 product: Windows
 targetos: Windows
 req.lib: Winbio.lib

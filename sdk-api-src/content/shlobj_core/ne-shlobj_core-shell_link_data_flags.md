@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_LINK_DATA_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	SHELL_LINK_DATA_FLAGS
+ - SHELL_LINK_DATA_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

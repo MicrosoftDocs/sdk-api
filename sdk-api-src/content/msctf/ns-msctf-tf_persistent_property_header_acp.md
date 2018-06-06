@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_PERSISTENT_PROPERTY_HEADER_ACP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msctf.h
+ - Msctf.h
 api_name:
--	TF_PERSISTENT_PROPERTY_HEADER_ACP
+ - TF_PERSISTENT_PROPERTY_HEADER_ACP
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: MI_Type
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mi.dll
--	Wmidcom.dll
--	WsmSvc.dll
+ - Mi.dll
+ - Wmidcom.dll
+ - WsmSvc.dll
 api_name:
--	MI_Application_InitializeV1
--	MI_Application_Initialize
+ - MI_Application_InitializeV1
+ - MI_Application_Initialize
 product: Windows
 targetos: Windows
 req.lib: Mi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_OUTCOME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winnt.h
+ - winnt.h
 api_name:
--	TpInitializeCallbackEnviron
+ - TpInitializeCallbackEnviron
 product: Windows
 targetos: Windows
 req.lib: 

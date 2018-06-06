@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ADDRINFOEX4, *PADDRINFOEX4, *LPADDRINFOEX4
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2def.h
+ - Ws2def.h
 api_name:
--	addrinfoex4
--	addrinfoex4A
--	addrinfoex4W
+ - addrinfoex4
+ - addrinfoex4A
+ - addrinfoex4W
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TTLOADINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	T2embapi.h
+ - T2embapi.h
 api_name:
--	TTLOADINFO
+ - TTLOADINFO
 product: Windows
 targetos: Windows
 req.lib: 

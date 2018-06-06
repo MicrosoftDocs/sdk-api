@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECURITY_MESSAGE, *PSECURITY_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rasshost.h
+ - Rasshost.h
 api_name:
--	SECURITY_MESSAGE
+ - SECURITY_MESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

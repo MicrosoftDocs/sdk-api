@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TI_FINDCHILDREN_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	TI_FINDCHILDREN_PARAMS
+ - TI_FINDCHILDREN_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LDAP_BERVAL, *PLDAP_BERVAL, BERVAL, *PBERVAL, BerValue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winldap.h
+ - Winldap.h
 api_name:
--	LDAP_BERVAL
+ - LDAP_BERVAL
 product: Windows
 targetos: Windows
 req.lib: 

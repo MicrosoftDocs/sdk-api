@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_PROCESSTOKENSID_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	taskschd.h
+ - taskschd.h
 api_name:
--	TASK_PROCESSTOKENSID_TYPE
+ - TASK_PROCESSTOKENSID_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

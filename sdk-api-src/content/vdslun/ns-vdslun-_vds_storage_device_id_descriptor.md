@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VdsLun.h
+ - VdsLun.h
 api_name:
--	VDS_STORAGE_DEVICE_ID_DESCRIPTOR
+ - VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

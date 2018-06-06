@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Activeds.dll
--	AdsLdpc.dll
+ - Activeds.dll
+ - AdsLdpc.dll
 api_name:
--	ADsEncodeBinaryData
+ - ADsEncodeBinaryData
 product: Windows
 targetos: Windows
 req.lib: Activeds.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shobjidl.h
+ - Shobjidl.h
 api_name:
--	IHWEventHandler2.HandleEventWithHWND
+ - IHWEventHandler2.HandleEventWithHWND
 product: Windows
 targetos: Windows
 req.lib: 

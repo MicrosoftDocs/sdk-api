@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_ENDPOINT_REFERENCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsdtypes.h
+ - Wsdtypes.h
 api_name:
--	WSD_ENDPOINT_REFERENCE
+ - WSD_ENDPOINT_REFERENCE
 product: Windows
 targetos: Windows
 req.lib: 

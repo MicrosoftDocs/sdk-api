@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSBX_NOTIFICATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tssbx.h
+ - Tssbx.h
 api_name:
--	WTSSBX_NOTIFICATION_TYPE
+ - WTSSBX_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

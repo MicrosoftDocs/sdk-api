@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POINTS, *PPOINTS, *LPPOINTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	windef.h
+ - windef.h
 api_name:
--	POINTS
+ - POINTS
 product: Windows
 targetos: Windows
 req.lib: 

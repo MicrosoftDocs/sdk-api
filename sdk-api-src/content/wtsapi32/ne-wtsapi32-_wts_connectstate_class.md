@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_CONNECTSTATE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTS_CONNECTSTATE_CLASS
+ - WTS_CONNECTSTATE_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

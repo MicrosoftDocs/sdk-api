@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
+ - SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.lib: 

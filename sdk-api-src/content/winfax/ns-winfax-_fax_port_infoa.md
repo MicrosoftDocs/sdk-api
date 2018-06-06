@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_PORT_INFOA, *PFAX_PORT_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_PORT_INFO
--	FAX_PORT_INFOA
--	FAX_PORT_INFOW
+ - FAX_PORT_INFO
+ - FAX_PORT_INFOA
+ - FAX_PORT_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

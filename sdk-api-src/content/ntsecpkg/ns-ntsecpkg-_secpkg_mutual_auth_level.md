@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_MUTUAL_AUTH_LEVEL, *PSECPKG_MUTUAL_AUTH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	SECPKG_MUTUAL_AUTH_LEVEL
+ - SECPKG_MUTUAL_AUTH_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

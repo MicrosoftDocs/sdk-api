@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, *LPDHCP_SUBNET_INFO_V6
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_SUBNET_INFO_V6
+ - DHCP_SUBNET_INFO_V6
 product: Windows
 targetos: Windows
 req.lib: 

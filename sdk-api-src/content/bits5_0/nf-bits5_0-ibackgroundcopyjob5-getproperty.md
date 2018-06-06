@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: BITS_FILE_PROPERTY_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Bits.lib
--	Bits.dll
+ - Bits.lib
+ - Bits.dll
 api_name:
--	IBackgroundCopyJob5.GetProperty
+ - IBackgroundCopyJob5.GetProperty
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

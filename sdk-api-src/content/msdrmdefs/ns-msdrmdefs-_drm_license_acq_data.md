@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_LICENSE_ACQ_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msdrmdefs.h
+ - Msdrmdefs.h
 api_name:
--	DRM_LICENSE_ACQ_DATA
+ - DRM_LICENSE_ACQ_DATA
 product: Windows
 targetos: Windows
 req.lib: 

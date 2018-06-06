@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wingdi.h
+ - wingdi.h
 api_name:
--	DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
+ - DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 product: Windows
 targetos: Windows
 req.lib: 

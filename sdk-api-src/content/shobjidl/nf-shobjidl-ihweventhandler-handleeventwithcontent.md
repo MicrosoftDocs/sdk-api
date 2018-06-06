@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shimgvw.dll
+ - Shimgvw.dll
 api_name:
--	IHWEventHandler.HandleEventWithContent
+ - IHWEventHandler.HandleEventWithContent
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINML_SEQUENCE_VARIABLE_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winml.h
+ - winml.h
 api_name:
--	WINML_SEQUENCE_VARIABLE_DESC
+ - WINML_SEQUENCE_VARIABLE_DESC
 product: Windows
 targetos: Windows
 req.lib: 

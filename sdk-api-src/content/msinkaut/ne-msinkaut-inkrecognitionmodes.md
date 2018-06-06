@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecognitionModes
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msinkaut.h
+ - msinkaut.h
 api_name:
--	InkRecognitionModes
+ - InkRecognitionModes
 product: Windows
 targetos: Windows
 req.lib: 

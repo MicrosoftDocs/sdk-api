@@ -29,16 +29,16 @@ req.type-library: MsClus.tlb
 tech.root: 
 req.typenames: CLUS_GROUP_START_SETTING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	MsClus.dll
+ - MsClus.dll
 api_name:
--	Cluster.QuorumResource
--	ISCluster.get_QuorumResource
--	ISCluster.put_QuorumResource
+ - Cluster.QuorumResource
+ - ISCluster.get_QuorumResource
+ - ISCluster.put_QuorumResource
 product: Windows
 targetos: Windows
 req.lib: 

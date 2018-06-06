@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CHStringArray.CHStringArray
--	??0CHStringArray@@QAE@XZ
--	??0CHStringArray@@QEAA@XZ
+ - CHStringArray.CHStringArray
+ - ??0CHStringArray@@QAE@XZ
+ - ??0CHStringArray@@QEAA@XZ
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

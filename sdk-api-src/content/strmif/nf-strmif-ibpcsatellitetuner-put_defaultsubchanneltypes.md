@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_RELATIVE_BUTTON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmif.h
+ - Strmif.h
 api_name:
--	IBPCSatelliteTuner.put_DefaultSubChannelTypes
+ - IBPCSatelliteTuner.put_DefaultSubChannelTypes
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APOInitBaseStruct
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Audioenginebaseapo.h
+ - Audioenginebaseapo.h
 api_name:
--	APOInitBaseStruct
+ - APOInitBaseStruct
 product: Windows
 targetos: Windows
 req.lib: 

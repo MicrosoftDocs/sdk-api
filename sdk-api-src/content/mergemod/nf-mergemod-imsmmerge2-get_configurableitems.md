@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_MEMORY_REGION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mergemod.dll
+ - Mergemod.dll
 api_name:
--	IMsmMerge2.get_ConfigurableItems
+ - IMsmMerge2.get_ConfigurableItems
 product: Windows
 targetos: Windows
 req.lib: 

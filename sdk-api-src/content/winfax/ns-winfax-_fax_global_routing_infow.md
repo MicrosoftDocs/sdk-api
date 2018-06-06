@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_GLOBAL_ROUTING_INFOW, *PFAX_GLOBAL_ROUTING_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_GLOBAL_ROUTING_INFO
--	FAX_GLOBAL_ROUTING_INFOA
--	FAX_GLOBAL_ROUTING_INFOW
+ - FAX_GLOBAL_ROUTING_INFO
+ - FAX_GLOBAL_ROUTING_INFOA
+ - FAX_GLOBAL_ROUTING_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

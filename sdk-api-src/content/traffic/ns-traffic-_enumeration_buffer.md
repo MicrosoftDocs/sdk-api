@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENUMERATION_BUFFER, *PENUMERATION_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Traffic.h
+ - Traffic.h
 api_name:
--	ENUMERATION_BUFFER
+ - ENUMERATION_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

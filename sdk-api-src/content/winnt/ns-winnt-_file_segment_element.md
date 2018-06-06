@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	FILE_SEGMENT_ELEMENT
+ - FILE_SEGMENT_ELEMENT
 product: Windows
 targetos: Windows
 req.lib: 

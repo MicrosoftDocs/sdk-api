@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoNormalizedRect
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	evr.h
+ - evr.h
 api_name:
--	MFVideoNormalizedRect
+ - MFVideoNormalizedRect
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_TRACE_REGISTER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D11SDKLayers.dll
--	D3D11_1SDKLayers.dll
--	D3D11_2SDKLayers.dll
+ - D3D11SDKLayers.dll
+ - D3D11_1SDKLayers.dll
+ - D3D11_2SDKLayers.dll
 api_name:
--	ID3D11ShaderTrace.GetStep
+ - ID3D11ShaderTrace.GetStep
 product: Windows
 targetos: Windows
 req.lib: 

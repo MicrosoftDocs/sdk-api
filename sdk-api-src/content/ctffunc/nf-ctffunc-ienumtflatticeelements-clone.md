@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfIntegratableCandidateListSelectionStyle
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Sptip.dll
+ - Sptip.dll
 api_name:
--	IEnumTfLatticeElements.Clone
+ - IEnumTfLatticeElements.Clone
 product: Windows
 targetos: Windows
 req.lib: 

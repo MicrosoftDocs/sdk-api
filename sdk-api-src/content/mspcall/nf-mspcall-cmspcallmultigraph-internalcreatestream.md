@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mspcall.h
+ - Mspcall.h
 api_name:
--	CMSPCallMultiGraph.InternalCreateStream
+ - CMSPCallMultiGraph.InternalCreateStream
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: IP_MREQ_SOURCE, *PIP_MREQ_SOURCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2ipdef.h
--	Ws2tcpip.h
+ - Ws2ipdef.h
+ - Ws2tcpip.h
 api_name:
--	IP_MREQ_SOURCE
+ - IP_MREQ_SOURCE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FilterType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	FilterType
+ - FilterType
 product: Windows
 targetos: Windows
 req.lib: 

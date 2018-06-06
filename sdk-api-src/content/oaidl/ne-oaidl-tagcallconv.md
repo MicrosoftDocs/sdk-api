@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CALLCONV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OaIdl.h
+ - OaIdl.h
 api_name:
--	CALLCONV
+ - CALLCONV
 product: Windows
 targetos: Windows
 req.lib: 

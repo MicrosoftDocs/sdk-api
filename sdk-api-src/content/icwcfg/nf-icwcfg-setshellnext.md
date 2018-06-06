@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_FW_SERVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Inetcfg.dll
+ - Inetcfg.dll
 api_name:
--	SetShellNext
+ - SetShellNext
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USN_TRACK_MODIFIED_RANGES, *PUSN_TRACK_MODIFIED_RANGES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	USN_TRACK_MODIFIED_RANGES
+ - USN_TRACK_MODIFIED_RANGES
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_SUBNET_INFO_VQ, *LPDHCP_SUBNET_INFO_VQ
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_SUBNET_INFO_VQ
+ - DHCP_SUBNET_INFO_VQ
 product: Windows
 targetos: Windows
 req.lib: 

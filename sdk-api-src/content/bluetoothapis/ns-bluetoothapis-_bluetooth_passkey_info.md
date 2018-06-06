@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BLUETOOTH_PASSKEY_INFO, *PBLUETOOTH_PASSKEY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BluetoothAPIs.h
+ - BluetoothAPIs.h
 api_name:
--	BLUETOOTH_PASSKEY_INFO
+ - BLUETOOTH_PASSKEY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

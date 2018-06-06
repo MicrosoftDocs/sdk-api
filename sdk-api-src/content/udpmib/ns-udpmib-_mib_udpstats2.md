@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_UDPSTATS2, *PMIB_UDPSTATS2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	udpmib.h
+ - udpmib.h
 api_name:
--	MIB_UDPSTATS2
+ - MIB_UDPSTATS2
 product: Windows
 targetos: Windows
 req.lib: 

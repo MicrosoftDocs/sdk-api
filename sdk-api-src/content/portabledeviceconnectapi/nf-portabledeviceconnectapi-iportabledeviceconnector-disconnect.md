@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	PortableDeviceGuids.lib
--	PortableDeviceGuids.dll
+ - PortableDeviceGuids.lib
+ - PortableDeviceGuids.dll
 api_name:
--	IPortableDeviceConnector.Disconnect
+ - IPortableDeviceConnector.Disconnect
 product: Windows
 targetos: Windows
 req.lib: PortableDeviceGuids.lib

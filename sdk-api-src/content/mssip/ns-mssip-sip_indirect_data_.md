@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SIP_INDIRECT_DATA, *PSIP_INDIRECT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	SIP_INDIRECT_DATA
+ - SIP_INDIRECT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

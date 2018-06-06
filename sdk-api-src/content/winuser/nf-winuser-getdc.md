@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	user32.dll
--	Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
--	Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
--	minuser.dll
--	api-ms-win-ntuser-dc-access-l1-1-0.dll
--	Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
+ - user32.dll
+ - Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-dc-access-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
 api_name:
--	GetDC
+ - GetDC
 product: Windows
 targetos: Windows
 req.lib: User32.lib

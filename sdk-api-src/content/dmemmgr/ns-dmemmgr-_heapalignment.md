@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dmemmgr.h
+ - dmemmgr.h
 api_name:
--	HEAPALIGNMENT
+ - HEAPALIGNMENT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TPMVSCMGR_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	N/A
+ - N/A
 api_name:
--	TraceLoggingSetInformation
+ - TraceLoggingSetInformation
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

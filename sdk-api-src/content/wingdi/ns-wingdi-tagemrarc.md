@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRARC, *PEMRARC, EMRARCTO, *PEMRARCTO, EMRCHORD, *PEMRCHORD, EMRPIE, *PEMRPIE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRARC
+ - EMRARC
 product: Windows
 targetos: Windows
 req.lib: 

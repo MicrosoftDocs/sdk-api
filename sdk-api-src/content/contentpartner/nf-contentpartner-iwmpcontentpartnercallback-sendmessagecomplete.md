@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPTransactionType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	contentpartner.h
+ - contentpartner.h
 api_name:
--	IWMPContentPartnerCallback.SendMessageComplete
+ - IWMPContentPartnerCallback.SendMessageComplete
 product: Windows
 targetos: Windows
 req.lib: 

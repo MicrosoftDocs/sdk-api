@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Explorerframe.dll
+ - Explorerframe.dll
 api_name:
--	ITaskbarList3.SetProgressState
+ - ITaskbarList3.SetProgressState
 product: Windows
 targetos: Windows
 req.lib: Explorerframe.lib

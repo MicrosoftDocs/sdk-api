@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_VIDEO_COLOR_RGBA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d11.h
+ - d3d11.h
 api_name:
--	D3D11_VIDEO_COLOR_RGBA
+ - D3D11_VIDEO_COLOR_RGBA
 product: Windows
 targetos: Windows
 req.lib: 

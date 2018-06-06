@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_EXIT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	CLRES_V2_FUNCTION_TABLE_SET
+ - CLRES_V2_FUNCTION_TABLE_SET
 product: Windows
 targetos: Windows
 req.lib: 

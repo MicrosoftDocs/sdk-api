@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_AES_CTR_IV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D11.dll
+ - D3D11.dll
 api_name:
--	ID3D11On12Device.AcquireWrappedResources
+ - ID3D11On12Device.AcquireWrappedResources
 product: Windows
 targetos: Windows
 req.lib: D3D11.lib

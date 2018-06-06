@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APPLICATION_VIEW_SIZE_PREFERENCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shobjidl_core.h
+ - Shobjidl_core.h
 api_name:
--	APPLICATION_VIEW_SIZE_PREFERENCE
+ - APPLICATION_VIEW_SIZE_PREFERENCE
 product: Windows
 targetos: Windows
 req.lib: 

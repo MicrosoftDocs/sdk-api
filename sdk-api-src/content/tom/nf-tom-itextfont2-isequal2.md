@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANCODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msftedit.dll
+ - Msftedit.dll
 api_name:
--	ITextFont2.IsEqual2
+ - ITextFont2.IsEqual2
 product: Windows
 targetos: Windows
 req.lib: 

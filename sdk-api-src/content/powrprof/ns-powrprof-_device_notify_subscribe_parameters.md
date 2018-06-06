@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, *PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Powrprof.h
+ - Powrprof.h
 api_name:
--	DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
+ - DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

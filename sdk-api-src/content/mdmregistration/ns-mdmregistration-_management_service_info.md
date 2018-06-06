@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANAGEMENT_SERVICE_INFO, *PMANAGEMENT_SERVICE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MDMRegistration.h
+ - MDMRegistration.h
 api_name:
--	MANAGEMENT_SERVICE_INFO
+ - MANAGEMENT_SERVICE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

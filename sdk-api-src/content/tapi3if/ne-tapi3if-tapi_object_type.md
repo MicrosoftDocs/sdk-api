@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TAPI_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi3if.h
+ - Tapi3if.h
 api_name:
--	TAPI_OBJECT_TYPE
+ - TAPI_OBJECT_TYPE
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

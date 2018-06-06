@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QUERY_PARSER_MANAGER_OPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Structuredquery.h
+ - Structuredquery.h
 api_name:
--	QUERY_PARSER_MANAGER_OPTION
+ - QUERY_PARSER_MANAGER_OPTION
 product: Windows
 targetos: Windows
 req.lib: 

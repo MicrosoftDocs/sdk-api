@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ConnectorType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Devicetopology.h
+ - Devicetopology.h
 api_name:
--	IDeviceSpecificProperty.Get4BRange
+ - IDeviceSpecificProperty.Get4BRange
 product: Windows
 targetos: Windows
 req.lib: 

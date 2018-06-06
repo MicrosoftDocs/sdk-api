@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_RUNLEVEL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	taskschd.h
+ - taskschd.h
 api_name:
--	TASK_RUNLEVEL_TYPE
+ - TASK_RUNLEVEL_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TBSAVEPARAMSA, *LPTBSAVEPARAMSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	TBSAVEPARAMS
--	TBSAVEPARAMSA
--	TBSAVEPARAMSW
+ - TBSAVEPARAMS
+ - TBSAVEPARAMSA
+ - TBSAVEPARAMSW
 product: Windows
 targetos: Windows
 req.lib: 

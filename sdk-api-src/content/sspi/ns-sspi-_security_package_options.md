@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECURITY_PACKAGE_OPTIONS, *PSECURITY_PACKAGE_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SECURITY_PACKAGE_OPTIONS
+ - SECURITY_PACKAGE_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

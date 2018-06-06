@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_FILE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	IMFPluginControl2
+ - IMFPluginControl2
 product: Windows
 targetos: Windows
 req.lib: Mfplat.lib; Mfplat.dll

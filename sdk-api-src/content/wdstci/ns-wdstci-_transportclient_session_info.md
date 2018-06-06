@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSPORTCLIENT_SESSION_INFO, *PTRANSPORTCLIENT_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstci.h
+ - Wdstci.h
 api_name:
--	TRANSPORTCLIENT_SESSION_INFO
+ - TRANSPORTCLIENT_SESSION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

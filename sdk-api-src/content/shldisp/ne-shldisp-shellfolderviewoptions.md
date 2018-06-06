@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ShellFolderViewOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shldisp.h
+ - Shldisp.h
 api_name:
--	ShellFolderViewOptions
+ - ShellFolderViewOptions
 product: Windows
 targetos: Windows
 req.lib: 

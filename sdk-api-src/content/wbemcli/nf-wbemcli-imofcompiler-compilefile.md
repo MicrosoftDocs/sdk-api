@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mofd.dll
+ - Mofd.dll
 api_name:
--	IMofCompiler.CompileFile
+ - IMofCompiler.CompileFile
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

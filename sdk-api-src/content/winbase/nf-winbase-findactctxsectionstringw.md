@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-sidebyside-l1-1-0.dll
--	KernelBase.dll
--	API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-sidebyside-l1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
 api_name:
--	FindActCtxSectionString
--	FindActCtxSectionStringA
--	FindActCtxSectionStringW
+ - FindActCtxSectionString
+ - FindActCtxSectionStringA
+ - FindActCtxSectionStringW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: STARTUPINFOEXA, *LPSTARTUPINFOEXA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	STARTUPINFOEX
--	STARTUPINFOEXA
--	STARTUPINFOEXW
+ - STARTUPINFOEX
+ - STARTUPINFOEXA
+ - STARTUPINFOEXW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	effects.h
+ - effects.h
 api_name:
--	IWMPEffects.RenderFullScreen
+ - IWMPEffects.RenderFullScreen
 product: Windows
 targetos: Windows
 req.lib: 

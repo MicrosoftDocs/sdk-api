@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_ACTUAL_OUTPUT_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	opmapi.h
+ - opmapi.h
 api_name:
--	OPM_ACTUAL_OUTPUT_FORMAT
+ - OPM_ACTUAL_OUTPUT_FORMAT
 product: Windows
 targetos: Windows
 req.lib: 

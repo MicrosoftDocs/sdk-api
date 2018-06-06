@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_CBA_EVENT, *PIMAGEHLP_CBA_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGEHLP_CBA_EVENT
--	IMAGEHLP_CBA_EVENT
--	IMAGEHLP_CBA_EVENTW
+ - IMAGEHLP_CBA_EVENT
+ - IMAGEHLP_CBA_EVENT
+ - IMAGEHLP_CBA_EVENTW
 product: Windows
 targetos: Windows
 req.lib: 

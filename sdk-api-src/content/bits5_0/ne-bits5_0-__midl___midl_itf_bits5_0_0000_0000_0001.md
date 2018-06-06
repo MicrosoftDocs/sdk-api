@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITS_JOB_TRANSFER_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bits5_0.h
+ - Bits5_0.h
 api_name:
--	BITS_JOB_TRANSFER_POLICY
+ - BITS_JOB_TRANSFER_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

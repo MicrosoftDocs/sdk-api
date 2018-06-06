@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: DVD_RELATIVE_BUTTON
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
--	wmp.dll
+ - Strmiids.lib
+ - Strmiids.dll
+ - wmp.dll
 api_name:
--	IFilterGraph.Disconnect
--	IGraphBuilder.Disconnect
--	IGraphBuilder.Disconnect
+ - IFilterGraph.Disconnect
+ - IGraphBuilder.Disconnect
+ - IGraphBuilder.Disconnect
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

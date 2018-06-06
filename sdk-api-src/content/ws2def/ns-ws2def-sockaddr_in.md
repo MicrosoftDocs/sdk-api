@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKADDR_IN, *PSOCKADDR_IN
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ws2def.h
+ - ws2def.h
 api_name:
--	SOCKADDR_IN
+ - SOCKADDR_IN
 product: Windows
 targetos: Windows
 req.lib: 

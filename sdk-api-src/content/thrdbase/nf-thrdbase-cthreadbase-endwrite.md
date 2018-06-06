@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TS_TEXTCHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CThreadBase.EndWrite
--	?Empty@CHString@@QEAAXXZ
+ - CThreadBase.EndWrite
+ - ?Empty@CHString@@QEAAXXZ
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

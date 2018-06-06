@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2spi.h
+ - Ws2spi.h
 api_name:
--	WSPPROC_TABLE
+ - WSPPROC_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

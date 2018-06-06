@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UpdateExceptionContext
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wuapi.h
+ - Wuapi.h
 api_name:
--	UpdateExceptionContext
+ - UpdateExceptionContext
 product: Windows
 targetos: Windows
 req.lib: 

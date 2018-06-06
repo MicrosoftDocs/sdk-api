@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	ITaskSettings.DisallowStartIfOnBatteries
--	ITaskSettings.get_DisallowStartIfOnBatteries
--	ITaskSettings.put_DisallowStartIfOnBatteries
+ - ITaskSettings.DisallowStartIfOnBatteries
+ - ITaskSettings.get_DisallowStartIfOnBatteries
+ - ITaskSettings.put_DisallowStartIfOnBatteries
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

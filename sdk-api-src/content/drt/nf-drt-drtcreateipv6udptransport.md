@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_REGISTRATION_STATE, *PDRT_REGISTRATION_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	drt.dll
+ - drt.dll
 api_name:
--	DrtCreateIpv6UdpTransport
+ - DrtCreateIpv6UdpTransport
 product: Windows
 targetos: Windows
 req.lib: Drttransport.lib

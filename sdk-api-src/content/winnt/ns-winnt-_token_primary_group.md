@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_PRIMARY_GROUP, *PTOKEN_PRIMARY_GROUP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_PRIMARY_GROUP
+ - TOKEN_PRIMARY_GROUP
 product: Windows
 targetos: Windows
 req.lib: 

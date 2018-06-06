@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAPI_CD_TRACK_DIGITAL_COPY_SETTING, *PIMAPI_CD_TRACK_DIGITAL_COPY_SETTING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	imapi2.h
+ - imapi2.h
 api_name:
--	IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
+ - IMAPI_CD_TRACK_DIGITAL_COPY_SETTING
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

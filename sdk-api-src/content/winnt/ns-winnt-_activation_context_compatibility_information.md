@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, *PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
+ - ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

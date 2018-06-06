@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE
+ - PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE
 product: Windows
 targetos: Windows
 req.lib: 

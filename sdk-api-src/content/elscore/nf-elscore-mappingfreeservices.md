@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, *PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Elscore.dll
--	ext-ms-win-els-elscore-l1-1-0.dll
+ - Elscore.dll
+ - ext-ms-win-els-elscore-l1-1-0.dll
 api_name:
--	MappingFreeServices
+ - MappingFreeServices
 product: Windows
 targetos: Windows
 req.lib: Elscore.lib

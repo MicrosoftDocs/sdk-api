@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, *PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
+ - IP_UNIDIRECTIONAL_ADAPTER_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

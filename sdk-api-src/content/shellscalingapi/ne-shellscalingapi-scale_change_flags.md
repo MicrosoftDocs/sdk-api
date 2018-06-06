@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCALE_CHANGE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ShellScalingAPI.h
+ - ShellScalingAPI.h
 api_name:
--	SCALE_CHANGE_FLAGS
+ - SCALE_CHANGE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

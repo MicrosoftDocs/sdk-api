@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DOCMISC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	DocObj.h
+ - DocObj.h
 api_name:
--	IContinueCallback.FContinue
+ - IContinueCallback.FContinue
 product: Windows
 targetos: Windows
 req.lib: 

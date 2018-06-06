@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PropertyConstraint
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FunctionDiscoveryProvider.h
+ - FunctionDiscoveryProvider.h
 api_name:
--	IProviderPropertyConstraintCollection.GetCount
+ - IProviderPropertyConstraintCollection.GetCount
 product: Windows
 targetos: Windows
 req.lib: 

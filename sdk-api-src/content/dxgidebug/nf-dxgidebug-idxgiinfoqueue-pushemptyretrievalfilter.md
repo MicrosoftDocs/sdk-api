@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	DXGIDebug.dll
+ - DXGIDebug.dll
 api_name:
--	IDXGIInfoQueue.PushEmptyRetrievalFilter
+ - IDXGIInfoQueue.PushEmptyRetrievalFilter
 product: Windows
 targetos: Windows
 req.lib: 

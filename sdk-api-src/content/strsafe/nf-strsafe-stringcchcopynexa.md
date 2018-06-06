@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AM_DVD_RENDERSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Strsafe.h
+ - Strsafe.h
 api_name:
--	StringCchCopyNEx
--	StringCchCopyNExA
--	StringCchCopyNExW
+ - StringCchCopyNEx
+ - StringCchCopyNExA
+ - StringCchCopyNExW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FLICK_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	tabflicks.h
+ - tabflicks.h
 api_name:
--	FLICK_DATA
+ - FLICK_DATA
 product: Windows
 targetos: Windows
 req.lib: 

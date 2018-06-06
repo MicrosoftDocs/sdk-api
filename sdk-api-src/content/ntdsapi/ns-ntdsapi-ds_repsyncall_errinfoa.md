@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPSYNCALL_ERRINFOA, *PDS_REPSYNCALL_ERRINFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_REPSYNCALL_ERRINFO
--	DS_REPSYNCALL_ERRINFOA
--	DS_REPSYNCALL_ERRINFOW
+ - DS_REPSYNCALL_ERRINFO
+ - DS_REPSYNCALL_ERRINFOA
+ - DS_REPSYNCALL_ERRINFOW
 product: Windows
 targetos: Windows
 req.lib: 

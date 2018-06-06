@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_SCOPEENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_SCOPEENUM
+ - ADS_SCOPEENUM
 product: Windows
 targetos: Windows
 req.lib: 

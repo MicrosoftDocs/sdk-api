@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WPCFLAG_IM_LEAVE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wpcevent.h
+ - Wpcevent.h
 api_name:
--	WPCFLAG_IM_LEAVE
+ - WPCFLAG_IM_LEAVE
 product: Windows
 targetos: Windows
 req.lib: 

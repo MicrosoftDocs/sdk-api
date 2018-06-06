@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_COVERPAGE_INFOW, *PFAX_COVERPAGE_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winfax.h
+ - Winfax.h
 api_name:
--	FAX_COVERPAGE_INFO
--	FAX_COVERPAGE_INFOA
--	FAX_COVERPAGE_INFOW
+ - FAX_COVERPAGE_INFO
+ - FAX_COVERPAGE_INFOA
+ - FAX_COVERPAGE_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

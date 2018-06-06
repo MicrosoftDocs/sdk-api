@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: GROUP_POLICY_OBJECTW, *PGROUP_POLICY_OBJECTW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Userenv.h
+ - Userenv.h
 api_name:
--	GROUP_POLICY_OBJECT
--	GROUP_POLICY_OBJECTA
--	GROUP_POLICY_OBJECTW
+ - GROUP_POLICY_OBJECT
+ - GROUP_POLICY_OBJECTA
+ - GROUP_POLICY_OBJECTW
 product: Windows
 targetos: Windows
 req.lib: 

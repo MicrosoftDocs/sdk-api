@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BASEBROWSERDATAXP, *LPBASEBROWSERDATAXP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shdeprecated.h
+ - Shdeprecated.h
 api_name:
--	BASEBROWSERDATA
+ - BASEBROWSERDATA
 product: Windows
 targetos: Windows
 req.lib: 

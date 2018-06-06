@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMSI_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	amstream.h
+ - amstream.h
 api_name:
--	IAMMediaTypeSample.SetSyncPoint
+ - IAMMediaTypeSample.SetSyncPoint
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LM_OWF_PASSWORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MsChapp.h
+ - MsChapp.h
 api_name:
--	LM_OWF_PASSWORD
+ - LM_OWF_PASSWORD
 product: Windows
 targetos: Windows
 req.lib: 

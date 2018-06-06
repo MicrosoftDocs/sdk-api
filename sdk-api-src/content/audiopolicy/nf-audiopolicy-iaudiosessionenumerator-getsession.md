@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UNCOMPRESSEDAUDIOFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	audiopolicy.h
+ - audiopolicy.h
 api_name:
--	IAudioSessionEnumerator.GetSession
+ - IAudioSessionEnumerator.GetSession
 product: Windows
 targetos: Windows
 req.lib: 

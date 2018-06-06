@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WcmNamespaceAccess
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SMIEngine.dll
+ - SMIEngine.dll
 api_name:
--	ISettingsIdentity.GetFlags
+ - ISettingsIdentity.GetFlags
 product: Windows
 targetos: Windows
 req.lib: 

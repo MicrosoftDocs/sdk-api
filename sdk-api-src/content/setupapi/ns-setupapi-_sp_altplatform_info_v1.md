@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_ALTPLATFORM_INFO_V1, *PSP_ALTPLATFORM_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_ALTPLATFORM_INFO_V1
+ - SP_ALTPLATFORM_INFO_V1
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XINPUT_VIBRATION, *PXINPUT_VIBRATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	XInput.h
+ - XInput.h
 api_name:
--	XINPUT_VIBRATION
+ - XINPUT_VIBRATION
 product: Windows
 targetos: Windows
 req.lib: 

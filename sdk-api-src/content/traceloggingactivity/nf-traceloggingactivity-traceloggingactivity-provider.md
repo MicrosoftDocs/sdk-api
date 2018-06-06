@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TPMVSCMGR_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	traceloggingactivity.h
+ - traceloggingactivity.h
 api_name:
--	TraceLoggingActivity.Provider
+ - TraceLoggingActivity.Provider
 product: Windows
 targetos: Windows
 req.lib: 

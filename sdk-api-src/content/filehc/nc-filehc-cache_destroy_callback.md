@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Filehc.h
+ - Filehc.h
 api_name:
--	CACHE_DESTROY_CALLBACK
+ - CACHE_DESTROY_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

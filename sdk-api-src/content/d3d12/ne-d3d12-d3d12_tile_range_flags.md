@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_TILE_RANGE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	D3D12_TILE_RANGE_FLAGS
+ - D3D12_TILE_RANGE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

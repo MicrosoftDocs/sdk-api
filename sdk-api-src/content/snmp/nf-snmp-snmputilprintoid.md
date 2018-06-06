@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_NONGENUINE_UI_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Snmpapi.dll
+ - Snmpapi.dll
 api_name:
--	SnmpUtilPrintOid
+ - SnmpUtilPrintOid
 product: Windows
 targetos: Windows
 req.lib: Snmpapi.lib

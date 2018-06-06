@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_PROPERTY_VALUE
+ - WTS_PROPERTY_VALUE
 product: Windows
 targetos: Windows
 req.lib: 

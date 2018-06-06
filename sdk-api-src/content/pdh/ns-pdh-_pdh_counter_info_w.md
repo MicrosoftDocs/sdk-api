@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_COUNTER_INFO_W, *PPDH_COUNTER_INFO_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_COUNTER_INFO
--	PDH_COUNTER_INFO_A
--	PDH_COUNTER_INFO_W
+ - PDH_COUNTER_INFO
+ - PDH_COUNTER_INFO_A
+ - PDH_COUNTER_INFO_W
 product: Windows
 targetos: Windows
 req.lib: 

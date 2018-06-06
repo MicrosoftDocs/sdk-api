@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_EXIT_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	RESOURCE_EXIT_STATE
+ - RESOURCE_EXIT_STATE
 product: Windows
 targetos: Windows
 req.lib: 

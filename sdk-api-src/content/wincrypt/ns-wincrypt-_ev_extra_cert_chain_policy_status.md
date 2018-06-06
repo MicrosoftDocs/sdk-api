@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EV_EXTRA_CERT_CHAIN_POLICY_STATUS, *PEV_EXTRA_CERT_CHAIN_POLICY_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	EV_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - EV_EXTRA_CERT_CHAIN_POLICY_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

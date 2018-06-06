@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HrtfEnvironment
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	HrtfApo.dll
+ - HrtfApo.dll
 api_name:
--	CreateHrtfApo
+ - CreateHrtfApo
 product: Windows
 targetos: Windows
 req.lib: 

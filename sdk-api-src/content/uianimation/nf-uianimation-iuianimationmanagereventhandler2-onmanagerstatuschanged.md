@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_ANIMATION_TIMER_CLIENT_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAnimation.dll
+ - UIAnimation.dll
 api_name:
--	IUIAnimationManagerEventHandler2.OnManagerStatusChanged
+ - IUIAnimationManagerEventHandler2.OnManagerStatusChanged
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ATM_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2atm.h
+ - Ws2atm.h
 api_name:
--	ATM_ADDRESS
+ - ATM_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

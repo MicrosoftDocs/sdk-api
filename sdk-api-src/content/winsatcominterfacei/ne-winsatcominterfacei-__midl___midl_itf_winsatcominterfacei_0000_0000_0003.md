@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINSAT_ASSESSMENT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsatcominterfacei.h
+ - Winsatcominterfacei.h
 api_name:
--	WINSAT_ASSESSMENT_TYPE
+ - WINSAT_ASSESSMENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

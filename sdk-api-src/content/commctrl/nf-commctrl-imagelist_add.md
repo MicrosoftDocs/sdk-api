@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STGOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Comctl32.dll
+ - Comctl32.dll
 api_name:
--	ImageList_Add
+ - ImageList_Add
 product: Windows
 targetos: Windows
 req.lib: Comctl32.lib

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSCTL_CLUSTER_CODES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MsClus.h
+ - ClusAPI.h
+ - MsClus.h
 api_name:
--	CLUSCTL_CLUSTER_CODES
+ - CLUSCTL_CLUSTER_CODES
 product: Windows
 targetos: Windows
 req.lib: 

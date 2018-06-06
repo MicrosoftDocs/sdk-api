@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_CSV_MAINTENANCE_MODE_INFO, *PCLUS_CSV_MAINTENANCE_MODE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
+ - ClusApi.h
 api_name:
--	CLUS_CSV_MAINTENANCE_MODE_INFO
+ - CLUS_CSV_MAINTENANCE_MODE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

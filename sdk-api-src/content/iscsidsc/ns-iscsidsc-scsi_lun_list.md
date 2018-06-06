@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCSI_LUN_LIST, *PSCSI_LUN_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	SCSI_LUN_LIST
+ - SCSI_LUN_LIST
 product: Windows
 targetos: Windows
 req.lib: 

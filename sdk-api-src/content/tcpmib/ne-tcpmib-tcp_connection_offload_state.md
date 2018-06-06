@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_CONNECTION_OFFLOAD_STATE, *PTCP_CONNECTION_OFFLOAD_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tcpmib.h
--	Iprtrmib.h
+ - Tcpmib.h
+ - Iprtrmib.h
 api_name:
--	TCP_CONNECTION_OFFLOAD_STATE
+ - TCP_CONNECTION_OFFLOAD_STATE
 product: Windows
 targetos: Windows
 req.lib: 

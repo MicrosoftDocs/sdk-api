@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIEWSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ocidl.h
+ - ocidl.h
 api_name:
--	IEnumConnectionPoints.Next
+ - IEnumConnectionPoints.Next
 product: Windows
 targetos: Windows
 req.lib: 

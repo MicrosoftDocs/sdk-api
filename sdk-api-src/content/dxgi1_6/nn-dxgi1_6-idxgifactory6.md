@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxgi.lib
--	dxgi.dll
+ - dxgi.lib
+ - dxgi.dll
 api_name:
--	IDXGIFactory6
+ - IDXGIFactory6
 product: Windows
 targetos: Windows
 req.lib: Dxgi.lib

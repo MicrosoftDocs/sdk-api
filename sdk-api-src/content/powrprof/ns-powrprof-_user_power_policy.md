@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_POWER_POLICY, *PUSER_POWER_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PowrProf.h
+ - PowrProf.h
 api_name:
--	USER_POWER_POLICY
+ - USER_POWER_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

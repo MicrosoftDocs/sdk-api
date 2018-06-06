@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_STREAM_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	austream.h
+ - austream.h
 api_name:
--	IMemoryData.GetInfo
+ - IMemoryData.GetInfo
 product: Windows
 targetos: Windows
 req.lib: 

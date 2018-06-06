@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_ASYNC_RESULT
+ - INTERNET_ASYNC_RESULT
 product: Windows
 targetos: Windows
 req.lib: 

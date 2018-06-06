@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wscapi.h
+ - Wscapi.h
 api_name:
--	WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
+ - WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
 product: Windows
 targetos: Windows
 req.lib: 

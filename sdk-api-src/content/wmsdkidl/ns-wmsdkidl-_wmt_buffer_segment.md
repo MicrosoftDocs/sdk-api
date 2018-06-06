@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_BUFFER_SEGMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_BUFFER_SEGMENT
+ - WMT_BUFFER_SEGMENT
 product: Windows
 targetos: Windows
 req.lib: 

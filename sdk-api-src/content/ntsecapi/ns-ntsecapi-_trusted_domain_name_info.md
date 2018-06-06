@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTED_DOMAIN_NAME_INFO, *PTRUSTED_DOMAIN_NAME_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	TRUSTED_DOMAIN_NAME_INFO
+ - TRUSTED_DOMAIN_NAME_INFO
 product: Windows
 targetos: Windows
 req.lib: 

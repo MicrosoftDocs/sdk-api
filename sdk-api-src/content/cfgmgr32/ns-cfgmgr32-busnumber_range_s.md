@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BUSNUMBER_RANGE, *PBUSNUMBER_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	cfgmgr32.h
+ - cfgmgr32.h
 api_name:
--	BUSNUMBER_RANGE
+ - BUSNUMBER_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

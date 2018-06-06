@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmExportImport.ExportQuotaTemplates
--	FsrmExportImport.ExportQuotaTemplates
+ - IFsrmExportImport.ExportQuotaTemplates
+ - FsrmExportImport.ExportQuotaTemplates
 product: Windows
 targetos: Windows
 req.lib: 

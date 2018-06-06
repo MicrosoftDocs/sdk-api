@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_STANDARD_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PFNPEER_SECURE_RECORD
+ - PFNPEER_SECURE_RECORD
 product: Windows
 targetos: Windows
 req.lib: 

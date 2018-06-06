@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	ISignerCertificates._NewEnum
--	ISignerCertificates.get__NewEnum
+ - ISignerCertificates._NewEnum
+ - ISignerCertificates.get__NewEnum
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_ADAPTER_PREFIX_XP, *PIP_ADAPTER_PREFIX_XP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iptypes.h
+ - Iptypes.h
 api_name:
--	IP_ADAPTER_PREFIX
+ - IP_ADAPTER_PREFIX
 product: Windows
 targetos: Windows
 req.lib: 

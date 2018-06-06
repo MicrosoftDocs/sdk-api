@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WbemTimeout
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CWbemProviderGlue.GetNameSpaceConnection
--	?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z
--	?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
+ - CWbemProviderGlue.GetNameSpaceConnection
+ - ?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z
+ - ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

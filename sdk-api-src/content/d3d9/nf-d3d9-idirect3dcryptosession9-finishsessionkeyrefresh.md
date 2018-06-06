@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d9.h
+ - d3d9.h
 api_name:
--	IDirect3DCryptoSession9.FinishSessionKeyRefresh
+ - IDirect3DCryptoSession9.FinishSessionKeyRefresh
 product: Windows
 targetos: Windows
 req.lib: 

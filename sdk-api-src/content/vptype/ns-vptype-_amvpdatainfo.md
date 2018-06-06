@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMVPDATAINFO, *LPAMVPDATAINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	vptype.h
+ - vptype.h
 api_name:
--	AMVPDATAINFO
+ - AMVPDATAINFO
 product: Windows
 targetos: Windows
 req.lib: 

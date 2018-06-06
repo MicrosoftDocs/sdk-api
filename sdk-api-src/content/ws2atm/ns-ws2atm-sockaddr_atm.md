@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: sockaddr_atm, SOCKADDR_ATM, *PSOCKADDR_ATM, *LPSOCKADDR_ATM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2atm.h
+ - Ws2atm.h
 api_name:
--	sockaddr_atm
+ - sockaddr_atm
 product: Windows
 targetos: Windows
 req.lib: 

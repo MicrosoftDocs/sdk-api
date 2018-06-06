@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-String-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
 api_name:
--	FoldString
--	FoldStringA
--	FoldStringW
+ - FoldString
+ - FoldStringA
+ - FoldStringW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SFVM_PROPPAGE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	shlobj_core.h
+ - shlobj_core.h
 api_name:
--	SFVM_PROPPAGE_DATA
+ - SFVM_PROPPAGE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

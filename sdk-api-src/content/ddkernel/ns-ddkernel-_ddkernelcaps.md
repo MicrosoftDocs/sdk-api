@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDKERNELCAPS, DDKERNELCAPS"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddkernel.h
+ - ddkernel.h
 api_name:
--	DDKERNELCAPS
+ - DDKERNELCAPS
 product: Windows
 targetos: Windows
 req.lib: 

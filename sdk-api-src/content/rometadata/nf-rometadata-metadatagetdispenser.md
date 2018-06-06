@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	rometadata.dll
--	Ext-MS-Win-rometadata-dispenser-l1-1-0.dll
+ - rometadata.dll
+ - Ext-MS-Win-rometadata-dispenser-l1-1-0.dll
 api_name:
--	MetaDataGetDispenser
+ - MetaDataGetDispenser
 product: Windows
 targetos: Windows
 req.lib: Rometadata.lib

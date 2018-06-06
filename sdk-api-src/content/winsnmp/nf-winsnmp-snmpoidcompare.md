@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wsnmp32.dll
+ - Wsnmp32.dll
 api_name:
--	SnmpOidCompare
+ - SnmpOidCompare
 product: Windows
 targetos: Windows
 req.lib: Wsnmp32.lib

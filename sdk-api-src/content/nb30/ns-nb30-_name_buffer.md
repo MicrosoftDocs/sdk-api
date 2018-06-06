@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NAME_BUFFER, *PNAME_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nb30.h
+ - Nb30.h
 api_name:
--	NAME_BUFFER
+ - NAME_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

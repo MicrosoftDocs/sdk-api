@@ -29,14 +29,14 @@ req.type-library: MsRdc.dll
 tech.root: 
 req.typenames: RdcMappingAccessMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	MsRdc.dll
+ - MsRdc.dll
 api_name:
--	IRdcLibrary.ComputeDefaultRecursionDepth
+ - IRdcLibrary.ComputeDefaultRecursionDepth
 product: Windows
 targetos: Windows
 req.lib: 

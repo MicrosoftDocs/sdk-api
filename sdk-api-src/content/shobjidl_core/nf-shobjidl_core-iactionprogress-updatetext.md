@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shobjidl.idl
+ - Shobjidl.idl
 api_name:
--	IActionProgress.UpdateText
+ - IActionProgress.UpdateText
 product: Windows
 targetos: Windows
 req.lib: 

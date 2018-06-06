@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	DbgHelp.dll
+ - DbgHelp.dll
 api_name:
--	SymEnumSymbolsEx
--	SymEnumSymbolsEx
--	SymEnumSymbolsExW
+ - SymEnumSymbolsEx
+ - SymEnumSymbolsEx
+ - SymEnumSymbolsExW
 product: Windows
 targetos: Windows
 req.lib: DbgHelp.lib

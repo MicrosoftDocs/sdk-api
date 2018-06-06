@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERCEIVED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shtypes.h
+ - Shtypes.h
 api_name:
--	PERCEIVED
+ - PERCEIVED
 product: Windows
 targetos: Windows
 req.lib: 

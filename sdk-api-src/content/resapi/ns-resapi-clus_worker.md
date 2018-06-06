@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_WORKER, *PCLUS_WORKER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	CLUS_WORKER
+ - CLUS_WORKER
 product: Windows
 targetos: Windows
 req.lib: 

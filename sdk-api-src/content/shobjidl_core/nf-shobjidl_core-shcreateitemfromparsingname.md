@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-Shell-Namespace-L1-1-0.dll
--	Ext-MS-Win-shell-shell32-L1-2-0.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-1.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
--	Windows.Storage.Dll
+ - Shell32.dll
+ - API-MS-Win-Shell-Namespace-L1-1-0.dll
+ - Ext-MS-Win-shell-shell32-L1-2-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Windows.Storage.Dll
 api_name:
--	SHCreateItemFromParsingName
+ - SHCreateItemFromParsingName
 product: Windows
 targetos: Windows
 req.lib: 

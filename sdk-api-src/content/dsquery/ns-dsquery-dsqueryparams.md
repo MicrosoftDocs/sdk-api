@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSQUERYPARAMS, *LPDSQUERYPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsquery.h
+ - Dsquery.h
 api_name:
--	DSQUERYPARAMS
+ - DSQUERYPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

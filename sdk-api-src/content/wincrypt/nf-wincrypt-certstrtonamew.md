@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Crypt32.dll
+ - Crypt32.dll
 api_name:
--	CertStrToName
--	CertStrToNameA
--	CertStrToNameW
+ - CertStrToName
+ - CertStrToNameA
+ - CertStrToNameW
 product: Windows
 targetos: Windows
 req.lib: Crypt32.lib

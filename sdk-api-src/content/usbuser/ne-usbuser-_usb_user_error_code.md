@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USB_USER_ERROR_CODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USB_USER_ERROR_CODE
+ - USB_USER_ERROR_CODE
 product: Windows
 targetos: Windows
 req.lib: 

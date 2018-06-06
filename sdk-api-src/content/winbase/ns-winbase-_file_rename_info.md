@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_RENAME_INFO, *PFILE_RENAME_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
--	FileExtd.h
+ - WinBase.h
+ - FileExtd.h
 api_name:
--	FILE_RENAME_INFO
+ - FILE_RENAME_INFO
 product: Windows
 targetos: Windows
 req.lib: 

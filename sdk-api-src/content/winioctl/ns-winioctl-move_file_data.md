@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	MOVE_FILE_DATA
+ - MOVE_FILE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

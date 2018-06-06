@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkDrawingAttributes.FitToCurve
--	IInkDrawingAttributes.get_FitToCurve
--	IInkDrawingAttributes.put_FitToCurve
--	InkDrawingAttributes.get_FitToCurve
--	InkDrawingAttributes.put_FitToCurve
+ - IInkDrawingAttributes.FitToCurve
+ - IInkDrawingAttributes.get_FitToCurve
+ - IInkDrawingAttributes.put_FitToCurve
+ - InkDrawingAttributes.get_FitToCurve
+ - InkDrawingAttributes.put_FitToCurve
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

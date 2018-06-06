@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_FORCE_FLAG, *LPDHCP_FORCE_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_FORCE_FLAG
+ - DHCP_FORCE_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

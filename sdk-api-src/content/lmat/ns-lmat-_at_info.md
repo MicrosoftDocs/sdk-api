@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmat.h
+ - Lmat.h
 api_name:
--	AT_INFO
+ - AT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

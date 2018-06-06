@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SL_ACTIVATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Slwga.dll
+ - Slwga.dll
 api_name:
--	SLIsGenuineLocalEx
+ - SLIsGenuineLocalEx
 product: Windows
 targetos: Windows
 req.lib: Slwga.lib

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_VA_SPACE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-ProcessThreads-l1-1-1.dll
--	KernelBase.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-ProcessThreads-l1-1-2.dll
--	API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
--	SetProcessMitigationPolicy
+ - SetProcessMitigationPolicy
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

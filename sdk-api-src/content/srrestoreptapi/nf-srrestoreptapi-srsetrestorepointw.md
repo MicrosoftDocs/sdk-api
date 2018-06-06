@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: ENTERPRISE_DATA_POLICIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	SrClient.dll
--	sfc.dll
+ - SrClient.dll
+ - sfc.dll
 api_name:
--	SRSetRestorePoint
--	SRSetRestorePointA
--	SRSetRestorePointW
+ - SRSetRestorePoint
+ - SRSetRestorePointA
+ - SRSetRestorePointW
 product: Windows
 targetos: Windows
 req.lib: 

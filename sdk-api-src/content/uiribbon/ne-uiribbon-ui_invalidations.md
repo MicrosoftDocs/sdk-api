@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_INVALIDATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Uiribbon.h
+ - Uiribbon.h
 api_name:
--	UI_INVALIDATIONS
+ - UI_INVALIDATIONS
 product: Windows
 targetos: Windows
 req.lib: 

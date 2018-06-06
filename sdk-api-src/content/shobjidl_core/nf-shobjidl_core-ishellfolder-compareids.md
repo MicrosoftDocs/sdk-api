@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	IShellFolder.CompareIDs
--	IShellFolder2.CompareIDs
+ - IShellFolder.CompareIDs
+ - IShellFolder2.CompareIDs
 product: Windows
 targetos: Windows
 req.lib: 

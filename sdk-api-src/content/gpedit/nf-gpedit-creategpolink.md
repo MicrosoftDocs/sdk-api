@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	GPEdit.dll
+ - GPEdit.dll
 api_name:
--	CreateGPOLink
+ - CreateGPOLink
 product: Windows
 targetos: Windows
 req.lib: GPEdit.lib

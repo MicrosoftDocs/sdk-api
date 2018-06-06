@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKET_SECURITY_QUERY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	SOCKET_SECURITY_QUERY_INFO
+ - SOCKET_SECURITY_QUERY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

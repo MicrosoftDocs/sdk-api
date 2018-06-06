@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	API-MS-Win-Shell-Namespace-L1-1-0.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-1.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
--	Windows.Storage.Dll
+ - Shell32.dll
+ - API-MS-Win-Shell-Namespace-L1-1-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Windows.Storage.Dll
 api_name:
--	SHBindToParent
+ - SHBindToParent
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

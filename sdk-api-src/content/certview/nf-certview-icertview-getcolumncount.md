@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ENUM_CATYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	ICertView2.GetColumnCount
--	ICertView.GetColumnCount
--	CCertView.GetColumnCount
+ - ICertView2.GetColumnCount
+ - ICertView.GetColumnCount
+ - CCertView.GetColumnCount
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

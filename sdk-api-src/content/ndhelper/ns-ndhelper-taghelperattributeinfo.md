@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HelperAttributeInfo, *PHelperAttributeInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndhelper.h
+ - ndhelper.h
 api_name:
--	HelperAttributeInfo, *PHelperAttributeInfo
+ - HelperAttributeInfo, *PHelperAttributeInfo
 product: Windows
 targetos: Windows
 req.lib: 

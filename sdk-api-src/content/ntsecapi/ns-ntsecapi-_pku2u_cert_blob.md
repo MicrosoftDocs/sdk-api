@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PKU2U_CERT_BLOB, *PPKU2U_CERT_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	PKU2U_CERT_BLOB
+ - PKU2U_CERT_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

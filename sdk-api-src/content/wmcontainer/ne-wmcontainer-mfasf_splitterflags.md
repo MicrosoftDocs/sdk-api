@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFASF_SPLITTERFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcontainer.h
+ - wmcontainer.h
 api_name:
--	MFASF_SPLITTERFLAGS
+ - MFASF_SPLITTERFLAGS
 product: Windows
 targetos: Windows
 req.lib: 

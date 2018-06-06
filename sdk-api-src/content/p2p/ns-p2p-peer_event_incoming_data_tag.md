@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PEER_EVENT_INCOMING_DATA, *PPEER_EVENT_INCOMING_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	P2P.h
+ - P2P.h
 api_name:
--	PEER_EVENT_INCOMING_DATA
+ - PEER_EVENT_INCOMING_DATA
 product: Windows
 targetos: Windows
 req.lib: 

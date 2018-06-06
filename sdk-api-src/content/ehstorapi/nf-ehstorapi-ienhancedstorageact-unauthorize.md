@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TimedLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	EhStorAPI.h
+ - EhStorAPI.h
 api_name:
--	IEnhancedStorageACT.Unauthorize
+ - IEnhancedStorageACT.Unauthorize
 product: Windows
 targetos: Windows
 req.lib: 

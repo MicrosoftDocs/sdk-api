@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	GET_MEDIA_TYPES
+ - GET_MEDIA_TYPES
 product: Windows
 targetos: Windows
 req.lib: 

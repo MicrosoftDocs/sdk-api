@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTED_POSIX_OFFSET_INFO, *PTRUSTED_POSIX_OFFSET_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Ntsecpkg.h
+ - Ntsecpkg.h
 api_name:
--	ConvertAuthDataToToken
+ - ConvertAuthDataToToken
 product: Windows
 targetos: Windows
 req.lib: 

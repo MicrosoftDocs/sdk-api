@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_RADIO_STATE, *PWLAN_RADIO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_RADIO_STATE
+ - WLAN_RADIO_STATE
 product: Windows
 targetos: Windows
 req.lib: 

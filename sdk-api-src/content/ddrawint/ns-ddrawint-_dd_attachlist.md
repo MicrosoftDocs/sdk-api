@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_ATTACHLIST, DD_ATTACHLIST"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_ATTACHLIST
+ - DD_ATTACHLIST
 product: Windows
 targetos: Windows
 req.lib: 

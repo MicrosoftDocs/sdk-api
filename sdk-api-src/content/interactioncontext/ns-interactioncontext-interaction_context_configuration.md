@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERACTION_CONTEXT_CONFIGURATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	interactioncontext.h
+ - interactioncontext.h
 api_name:
--	INTERACTION_CONTEXT_CONFIGURATION
+ - INTERACTION_CONTEXT_CONFIGURATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AEC_VAD_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	AEC_VAD_MODE
+ - AEC_VAD_MODE
 product: Windows
 targetos: Windows
 req.lib: 

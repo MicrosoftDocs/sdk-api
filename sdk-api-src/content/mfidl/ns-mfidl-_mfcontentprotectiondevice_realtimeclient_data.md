@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
+ - MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

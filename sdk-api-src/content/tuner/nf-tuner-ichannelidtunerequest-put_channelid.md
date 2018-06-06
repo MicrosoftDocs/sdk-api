@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
+ - tuner.h
 api_name:
--	IChannelIDTuneRequest.ChannelID
--	IChannelIDTuneRequest.get_ChannelID
--	IChannelIDTuneRequest.put_ChannelID
+ - IChannelIDTuneRequest.ChannelID
+ - IChannelIDTuneRequest.get_ChannelID
+ - IChannelIDTuneRequest.put_ChannelID
 product: Windows
 targetos: Windows
 req.lib: 

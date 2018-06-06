@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINUSB_SETUP_PACKET, *PWINUSB_SETUP_PACKET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winusb.h
+ - winusb.h
 api_name:
--	WINUSB_SETUP_PACKET
+ - WINUSB_SETUP_PACKET
 product: Windows
 targetos: Windows
 req.lib: 

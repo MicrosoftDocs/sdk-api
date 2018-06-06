@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_FEATURE_LEVEL1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d10_1.h
+ - d3d10_1.h
 api_name:
--	ID3D10ShaderResourceView1.GetDesc1
+ - ID3D10ShaderResourceView1.GetDesc1
 product: Windows
 targetos: Windows
 req.lib: 

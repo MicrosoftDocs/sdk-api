@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_JOB_COMPLETION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	XpsPrint.h
+ - XpsPrint.h
 api_name:
--	IXpsPrintJob
+ - IXpsPrintJob
 product: Windows
 targetos: Windows
 req.lib: XpsPrint.lib

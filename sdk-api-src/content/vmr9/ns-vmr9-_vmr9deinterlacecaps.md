@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VMR9DeinterlaceCaps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vmr9.h
+ - Vmr9.h
 api_name:
--	VMR9DeinterlaceCaps
+ - VMR9DeinterlaceCaps
 product: Windows
 targetos: Windows
 req.lib: 

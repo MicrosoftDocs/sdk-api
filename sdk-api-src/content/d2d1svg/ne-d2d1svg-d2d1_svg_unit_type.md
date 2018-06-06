@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_SVG_UNIT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1svg.h
+ - d2d1svg.h
 api_name:
--	D2D1_SVG_UNIT_TYPE
+ - D2D1_SVG_UNIT_TYPE
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

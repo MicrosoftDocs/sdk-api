@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG_CURRENT_NEXT_BIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	MPEG_CURRENT_NEXT_BIT
+ - MPEG_CURRENT_NEXT_BIT
 product: Windows
 targetos: Windows
 req.lib: 

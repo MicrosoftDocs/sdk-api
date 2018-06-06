@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_ADAPTER_INFO, *PIP_ADAPTER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iptypes.h
+ - Iptypes.h
 api_name:
--	IP_ADAPTER_INFO
+ - IP_ADAPTER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

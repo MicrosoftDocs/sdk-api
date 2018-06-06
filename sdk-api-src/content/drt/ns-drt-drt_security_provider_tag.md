@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRT_SECURITY_PROVIDER, *PDRT_SECURITY_PROVIDER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Drt.h
+ - Drt.h
 api_name:
--	DRT_SECURITY_PROVIDER
+ - DRT_SECURITY_PROVIDER
 product: Windows
 targetos: Windows
 req.lib: 

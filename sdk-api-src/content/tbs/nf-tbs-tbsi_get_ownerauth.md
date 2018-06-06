@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Tbs.dll
+ - Tbs.dll
 api_name:
--	Tbsi_Get_OwnerAuth
+ - Tbsi_Get_OwnerAuth
 product: Windows
 targetos: Windows
 req.lib: Tbs.lib

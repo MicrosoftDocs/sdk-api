@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_TIME_INTERVAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_TIME_INTERVAL
+ - WCM_TIME_INTERVAL
 product: Windows
 targetos: Windows
 req.lib: 

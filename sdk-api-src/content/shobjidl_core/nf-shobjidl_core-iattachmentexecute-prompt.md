@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shdocvw.dll
+ - Shdocvw.dll
 api_name:
--	IAttachmentExecute.Prompt
+ - IAttachmentExecute.Prompt
 product: Windows
 targetos: Windows
 req.lib: 

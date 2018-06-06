@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BCRYPT_HASH_OPERATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bcrypt.h
+ - Bcrypt.h
 api_name:
--	BCRYPT_HASH_OPERATION_TYPE
+ - BCRYPT_HASH_OPERATION_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNC_ENGINE_STATE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shobjidl.h
+ - Shobjidl.h
 api_name:
--	SYNC_ENGINE_STATE_FLAGS
+ - SYNC_ENGINE_STATE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

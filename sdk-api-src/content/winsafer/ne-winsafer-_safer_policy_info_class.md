@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SAFER_POLICY_INFO_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinSafer.h
+ - WinSafer.h
 api_name:
--	SAFER_POLICY_INFO_CLASS
+ - SAFER_POLICY_INFO_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

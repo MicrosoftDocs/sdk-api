@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_SECURITY_INFO, *PRAS_SECURITY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rasshost.h
+ - Rasshost.h
 api_name:
--	RAS_SECURITY_INFO
+ - RAS_SECURITY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STARTING_VCN_INPUT_BUFFER, *PSTARTING_VCN_INPUT_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	STARTING_VCN_INPUT_BUFFER
+ - STARTING_VCN_INPUT_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

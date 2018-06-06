@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NETRESOURCEA, *LPNETRESOURCEA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnetwk.h
+ - Winnetwk.h
 api_name:
--	NETRESOURCE
--	NETRESOURCEA
--	NETRESOURCEW
+ - NETRESOURCE
+ - NETRESOURCEA
+ - NETRESOURCEW
 product: Windows
 targetos: Windows
 req.lib: 

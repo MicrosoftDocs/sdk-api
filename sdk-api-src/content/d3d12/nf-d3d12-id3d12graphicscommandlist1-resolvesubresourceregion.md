@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_MODEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d12.dll
+ - d3d12.dll
 api_name:
--	ID3D12GraphicsCommandList1.ResolveSubresourceRegion
+ - ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 product: Windows
 targetos: Windows
 req.lib: D3d12.lib

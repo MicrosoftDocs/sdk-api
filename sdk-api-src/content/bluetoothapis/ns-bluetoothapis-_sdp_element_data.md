@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BluetoothAPIs.h
+ - BluetoothAPIs.h
 api_name:
--	SDP_ELEMENT_DATA
+ - SDP_ELEMENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TKBLayoutType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ctffunc.h
+ - Ctffunc.h
 api_name:
--	TKBLayoutType
+ - TKBLayoutType
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TIMED_TEXT_WRITING_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfmediaengine.h
+ - mfmediaengine.h
 api_name:
--	IMFMediaEngineEx.IsStereo3D
+ - IMFMediaEngineEx.IsStereo3D
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WcsPlugIn.h
+ - WcsPlugIn.h
 api_name:
--	IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
+ - IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 product: Windows
 targetos: Windows
 req.lib: 

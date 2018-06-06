@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NMHDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	richedit.h
+ - richedit.h
 api_name:
--	NMHDR
+ - NMHDR
 product: Windows
 targetos: Windows
 req.lib: 

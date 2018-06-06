@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_AUTH_NOTIFY_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wininet.dll
+ - Wininet.dll
 api_name:
--	GetUrlCacheConfigInfo
--	GetUrlCacheConfigInfoA
--	GetUrlCacheConfigInfoW
+ - GetUrlCacheConfigInfo
+ - GetUrlCacheConfigInfoA
+ - GetUrlCacheConfigInfoW
 product: Windows
 targetos: Windows
 req.lib: Wininet.lib

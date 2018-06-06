@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSP_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msp.h
+ - msp.h
 api_name:
--	ITMSPAddress.ShutdownMSPCall
+ - ITMSPAddress.ShutdownMSPCall
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InputScope
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	InputScope.h
+ - InputScope.h
 api_name:
--	InputScope
+ - InputScope
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IPMCAST_BOUNDARY_TABLE, *PMIB_IPMCAST_BOUNDARY_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iprtrmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_IPMCAST_BOUNDARY_TABLE
+ - MIB_IPMCAST_BOUNDARY_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

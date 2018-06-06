@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_LICENSE_ACQ_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msi.dll
+ - Msi.dll
 api_name:
--	MsiProvideQualifiedComponentEx
--	MsiProvideQualifiedComponentExA
--	MsiProvideQualifiedComponentExW
+ - MsiProvideQualifiedComponentEx
+ - MsiProvideQualifiedComponentExA
+ - MsiProvideQualifiedComponentExW
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TOKEN_USER, *PTOKEN_USER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TOKEN_USER
+ - TOKEN_USER
 product: Windows
 targetos: Windows
 req.lib: 

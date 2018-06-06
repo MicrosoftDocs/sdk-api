@@ -29,14 +29,14 @@ req.type-library: Sensevts.tlb
 tech.root: 
 req.typenames: MagnetometerAccuracy
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	sensorsapi.h
+ - sensorsapi.h
 api_name:
--	MagnetometerAccuracy
+ - MagnetometerAccuracy
 product: Windows
 targetos: Windows
 req.lib: 

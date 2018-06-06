@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECO_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	regbag.h
+ - regbag.h
 api_name:
--	ICreatePropBagOnRegKey.Create
+ - ICreatePropBagOnRegKey.Create
 product: Windows
 targetos: Windows
 req.lib: 

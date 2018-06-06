@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_INF_SIGNER_INFO_V1_A, *PSP_INF_SIGNER_INFO_V1_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SP_INF_SIGNER_INFO
+ - SP_INF_SIGNER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

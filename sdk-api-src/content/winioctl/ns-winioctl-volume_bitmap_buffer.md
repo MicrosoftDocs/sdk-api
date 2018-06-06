@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VOLUME_BITMAP_BUFFER, *PVOLUME_BITMAP_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	VOLUME_BITMAP_BUFFER
+ - VOLUME_BITMAP_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

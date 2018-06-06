@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfIntegratableCandidateListSelectionStyle
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tiptsf.dll
+ - Tiptsf.dll
 api_name:
--	ITfCandidateList.EnumCandidates
+ - ITfCandidateList.EnumCandidates
 product: Windows
 targetos: Windows
 req.lib: 

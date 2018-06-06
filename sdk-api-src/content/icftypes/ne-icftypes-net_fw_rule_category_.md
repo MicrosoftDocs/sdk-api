@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_FW_RULE_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Icftypes.h
+ - Icftypes.h
 api_name:
--	NET_FW_RULE_CATEGORY
+ - NET_FW_RULE_CATEGORY
 product: Windows
 targetos: Windows
 req.lib: 

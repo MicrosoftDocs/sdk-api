@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WRDS_DYNAMIC_TIME_ZONE_INFORMATION, *PWRDS_DYNAMIC_TIME_ZONE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WRDS_DYNAMIC_TIME_ZONE_INFORMATION
+ - WRDS_DYNAMIC_TIME_ZONE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

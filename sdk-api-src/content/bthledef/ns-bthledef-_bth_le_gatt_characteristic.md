@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_LE_GATT_CHARACTERISTIC, *PBTH_LE_GATT_CHARACTERISTIC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BthLEDef.h
+ - BthLEDef.h
 api_name:
--	BTH_LE_GATT_CHARACTERISTIC
+ - BTH_LE_GATT_CHARACTERISTIC
 product: Windows
 targetos: Windows
 req.lib: 

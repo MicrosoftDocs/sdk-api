@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_DESCRIPTIONW, *LPSERVICE_DESCRIPTIONW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SERVICE_DESCRIPTION
--	SERVICE_DESCRIPTIONA
--	SERVICE_DESCRIPTIONW
+ - SERVICE_DESCRIPTION
+ - SERVICE_DESCRIPTIONA
+ - SERVICE_DESCRIPTIONW
 product: Windows
 targetos: Windows
 req.lib: 

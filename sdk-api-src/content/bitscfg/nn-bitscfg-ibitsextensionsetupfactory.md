@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITS_FILE_PROPERTY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	BitsMgr.dll
+ - BitsMgr.dll
 api_name:
--	IBITSExtensionSetupFactory
+ - IBITSExtensionSetupFactory
 product: Windows
 targetos: Windows
 req.lib: 

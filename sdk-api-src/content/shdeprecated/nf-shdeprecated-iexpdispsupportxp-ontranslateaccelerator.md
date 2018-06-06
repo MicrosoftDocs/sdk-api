@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BNSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	shdeprecated.h
+ - shdeprecated.h
 api_name:
--	IExpDispSupportXP.OnTranslateAccelerator
+ - IExpDispSupportXP.OnTranslateAccelerator
 product: Windows
 targetos: Windows
 req.lib: 

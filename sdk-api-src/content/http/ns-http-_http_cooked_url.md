@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_COOKED_URL, *PHTTP_COOKED_URL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_COOKED_URL
+ - HTTP_COOKED_URL
 product: Windows
 targetos: Windows
 req.lib: 

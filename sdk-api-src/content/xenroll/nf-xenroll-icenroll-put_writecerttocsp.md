@@ -29,26 +29,26 @@ req.type-library:
 tech.root: 
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Xenroll.dll
+ - Xenroll.dll
 api_name:
--	ICEnroll4.WriteCertToCSP
--	ICEnroll4.get_WriteCertToCSP
--	ICEnroll4.put_WriteCertToCSP
--	ICEnroll3.WriteCertToCSP
--	ICEnroll3.get_WriteCertToCSP
--	ICEnroll3.put_WriteCertToCSP
--	ICEnroll2.WriteCertToCSP
--	ICEnroll2.get_WriteCertToCSP
--	ICEnroll2.put_WriteCertToCSP
--	ICEnroll.WriteCertToCSP
--	ICEnroll.get_WriteCertToCSP
--	ICEnroll.put_WriteCertToCSP
--	CEnroll.WriteCertToCSP
+ - ICEnroll4.WriteCertToCSP
+ - ICEnroll4.get_WriteCertToCSP
+ - ICEnroll4.put_WriteCertToCSP
+ - ICEnroll3.WriteCertToCSP
+ - ICEnroll3.get_WriteCertToCSP
+ - ICEnroll3.put_WriteCertToCSP
+ - ICEnroll2.WriteCertToCSP
+ - ICEnroll2.get_WriteCertToCSP
+ - ICEnroll2.put_WriteCertToCSP
+ - ICEnroll.WriteCertToCSP
+ - ICEnroll.get_WriteCertToCSP
+ - ICEnroll.put_WriteCertToCSP
+ - CEnroll.WriteCertToCSP
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

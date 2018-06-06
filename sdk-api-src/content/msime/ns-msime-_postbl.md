@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POSTBL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msime.h
+ - Msime.h
 api_name:
--	POSTBL
+ - POSTBL
 product: Windows
 targetos: Windows
 req.lib: 

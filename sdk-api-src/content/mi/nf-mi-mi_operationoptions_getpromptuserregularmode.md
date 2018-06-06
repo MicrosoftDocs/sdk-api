@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: MI_Type
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	MI_OperationOptions_GetPromptUserRegularMode
+ - MI_OperationOptions_GetPromptUserRegularMode
 product: Windows
 targetos: Windows
 req.lib: Mi.lib

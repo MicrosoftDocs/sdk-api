@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: USER_INPUT_STRING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	PhotoAcquireUID.lib
--	PhotoAcquireUID.dll
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
 api_name:
--	IPhotoAcquireSource.GetPhotoAcquireSettings
+ - IPhotoAcquireSource.GetPhotoAcquireSettings
 product: Windows
 targetos: Windows
 req.lib: PhotoAcquireUID.lib

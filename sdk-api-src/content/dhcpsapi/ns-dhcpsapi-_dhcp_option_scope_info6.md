@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_OPTION_SCOPE_INFO6, *LPDHCP_OPTION_SCOPE_INFO6
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_OPTION_SCOPE_INFO6
+ - DHCP_OPTION_SCOPE_INFO6
 product: Windows
 targetos: Windows
 req.lib: 

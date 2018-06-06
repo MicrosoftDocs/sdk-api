@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IP_ADAPTER_ORDER_MAP, *PIP_ADAPTER_ORDER_MAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	IP_ADAPTER_ORDER_MAP
+ - IP_ADAPTER_ORDER_MAP
 product: Windows
 targetos: Windows
 req.lib: 

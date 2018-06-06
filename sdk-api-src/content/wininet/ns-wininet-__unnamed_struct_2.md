@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: InternetCookieHistory
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	InternetCookieHistory
+ - InternetCookieHistory
 product: Windows
 targetos: Windows
 req.lib: 

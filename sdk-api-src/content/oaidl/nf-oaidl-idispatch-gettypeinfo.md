@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VARKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	oaidl.h
--	Shdocvw.dll
+ - oaidl.h
+ - Shdocvw.dll
 api_name:
--	IDispatch.GetTypeInfo
--	IWebBrowser2.GetTypeInfo
+ - IDispatch.GetTypeInfo
+ - IWebBrowser2.GetTypeInfo
 product: Windows
 targetos: Windows
 req.lib: 

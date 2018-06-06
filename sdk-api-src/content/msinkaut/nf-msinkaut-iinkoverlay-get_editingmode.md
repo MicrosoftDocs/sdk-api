@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkOverlay.EditingMode
--	IInkOverlay.get_EditingMode
--	IInkOverlay.put_EditingMode
--	InkOverlay.get_EditingMode
--	InkOverlay.put_EditingMode
+ - IInkOverlay.EditingMode
+ - IInkOverlay.get_EditingMode
+ - IInkOverlay.put_EditingMode
+ - InkOverlay.get_EditingMode
+ - InkOverlay.put_EditingMode
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

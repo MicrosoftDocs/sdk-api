@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TIMED_TEXT_ALIGNMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfmediaengine.h
+ - mfmediaengine.h
 api_name:
--	MF_TIMED_TEXT_ALIGNMENT
+ - MF_TIMED_TEXT_ALIGNMENT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	recapis.h
+ - recapis.h
 api_name:
--	SetEnabledUnicodeRanges
+ - SetEnabledUnicodeRanges
 product: Windows
 targetos: Windows
 req.lib: 

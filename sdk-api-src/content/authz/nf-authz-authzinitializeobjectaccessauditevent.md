@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Authz.dll
+ - Authz.dll
 api_name:
--	AuthzInitializeObjectAccessAuditEvent
+ - AuthzInitializeObjectAccessAuditEvent
 product: Windows
 targetos: Windows
 req.lib: Authz.lib

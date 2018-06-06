@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGELISTDRAWPARAMS, *LPIMAGELISTDRAWPARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	commoncontrols.h
+ - commoncontrols.h
 api_name:
--	IMAGELISTDRAWPARAMS
+ - IMAGELISTDRAWPARAMS
 product: Windows
 targetos: Windows
 req.lib: 

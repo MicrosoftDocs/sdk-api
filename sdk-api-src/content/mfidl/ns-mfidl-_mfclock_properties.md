@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFCLOCK_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFCLOCK_PROPERTIES
+ - MFCLOCK_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

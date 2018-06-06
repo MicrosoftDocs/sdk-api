@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_OBJECT_HDR, *LPQOS_OBJECT_HDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qos.h
+ - Qos.h
 api_name:
--	QOS_OBJECT_HDR
+ - QOS_OBJECT_HDR
 product: Windows
 targetos: Windows
 req.lib: 

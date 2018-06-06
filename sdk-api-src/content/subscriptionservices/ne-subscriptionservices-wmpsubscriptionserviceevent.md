@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPSubscriptionServiceEvent
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	subscriptionservices.h
+ - subscriptionservices.h
 api_name:
--	WMPSubscriptionServiceEvent
+ - WMPSubscriptionServiceEvent
 product: Windows
 targetos: Windows
 req.lib: 

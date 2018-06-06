@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPSYNCALL_SYNCA, *PDS_REPSYNCALL_SYNCA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_REPSYNCALL_SYNC
--	DS_REPSYNCALL_SYNCA
--	DS_REPSYNCALL_SYNCW
+ - DS_REPSYNCALL_SYNC
+ - DS_REPSYNCALL_SYNCA
+ - DS_REPSYNCALL_SYNCW
 product: Windows
 targetos: Windows
 req.lib: 

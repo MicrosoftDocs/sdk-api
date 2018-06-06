@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAPHOST_AUTH_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	eapmethodauthenticatorapis.h
+ - eapmethodauthenticatorapis.h
 api_name:
--	EapMethodAuthenticatorEndSession
+ - EapMethodAuthenticatorEndSession
 product: Windows
 targetos: Windows
 req.lib: 

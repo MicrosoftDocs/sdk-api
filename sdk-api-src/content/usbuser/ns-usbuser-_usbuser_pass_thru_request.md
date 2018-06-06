@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USBUSER_PASS_THRU_REQUEST, *PUSBUSER_PASS_THRU_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	usbuser.h
+ - usbuser.h
 api_name:
--	USBUSER_PASS_THRU_REQUEST
+ - USBUSER_PASS_THRU_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

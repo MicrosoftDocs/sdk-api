@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NUMBERFMTW, *LPNUMBERFMTW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	FlsCallback
+ - FlsCallback
 product: Windows
 targetos: Windows
 req.lib: 

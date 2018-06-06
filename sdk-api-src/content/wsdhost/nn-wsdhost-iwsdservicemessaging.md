@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_SECURITY_SIGNATURE_VALIDATION, *PWSD_SECURITY_SIGNATURE_VALIDATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wsdapi.dll
+ - wsdapi.dll
 api_name:
--	IWSDServiceMessaging
+ - IWSDServiceMessaging
 product: Windows
 targetos: Windows
 req.lib: Wsdapi.lib

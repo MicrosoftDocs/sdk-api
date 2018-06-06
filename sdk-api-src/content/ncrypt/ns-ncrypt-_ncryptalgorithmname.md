@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NCryptAlgorithmName
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ncrypt.h
+ - Ncrypt.h
 api_name:
--	NCryptAlgorithmName
+ - NCryptAlgorithmName
 product: Windows
 targetos: Windows
 req.lib: 

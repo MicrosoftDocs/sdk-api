@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_XML_PROPERTY_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Cryptxml.dll
+ - Cryptxml.dll
 api_name:
--	CryptXmlGetReference
+ - CryptXmlGetReference
 product: Windows
 targetos: Windows
 req.lib: Cryptxml.lib

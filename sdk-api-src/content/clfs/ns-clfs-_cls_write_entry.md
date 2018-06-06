@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_WRITE_ENTRY
+ - CLFS_WRITE_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

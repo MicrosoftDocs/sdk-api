@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_EVENTPARAMS_COMMAND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	unknwnbase.h
+ - unknwnbase.h
 api_name:
--	IClassFactory.LockServer
+ - IClassFactory.LockServer
 product: Windows
 targetos: Windows
 req.lib: 

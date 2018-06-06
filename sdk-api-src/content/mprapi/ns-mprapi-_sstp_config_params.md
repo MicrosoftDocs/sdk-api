@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	SSTP_CONFIG_PARAMS
+ - SSTP_CONFIG_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: HSTRING_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Htmlhelp.dll
+ - Htmlhelp.dll
 api_name:
--	HtmlHelp
--	HtmlHelpA
--	HtmlHelpW
+ - HtmlHelp
+ - HtmlHelpA
+ - HtmlHelpW
 product: Windows
 targetos: Windows
 req.lib: Htmlhelp.lib

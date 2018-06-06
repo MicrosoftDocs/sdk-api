@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWP_TOKEN_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwptypes.h
+ - Fwptypes.h
 api_name:
--	FWP_TOKEN_INFORMATION
+ - FWP_TOKEN_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

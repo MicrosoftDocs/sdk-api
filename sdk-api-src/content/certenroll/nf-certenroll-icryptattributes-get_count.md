@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	ICryptAttributes.Count
--	ICryptAttributes.get_Count
+ - ICryptAttributes.Count
+ - ICryptAttributes.get_Count
 product: Windows
 targetos: Windows
 req.lib: 

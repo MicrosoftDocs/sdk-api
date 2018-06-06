@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLFS_MGMT_NOTIFICATION, *PCLFS_MGMT_NOTIFICATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClfsMgmt.h
+ - ClfsMgmt.h
 api_name:
--	CLFS_MGMT_NOTIFICATION
+ - CLFS_MGMT_NOTIFICATION
 product: Windows
 targetos: Windows
 req.lib: 

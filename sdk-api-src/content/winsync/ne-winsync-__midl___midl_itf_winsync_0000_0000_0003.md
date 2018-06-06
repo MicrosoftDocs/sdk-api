@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNC_PROGRESS_STAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsync.h
+ - winsync.h
 api_name:
--	SYNC_PROGRESS_STAGE
+ - SYNC_PROGRESS_STAGE
 product: Windows
 targetos: Windows
 req.lib: 

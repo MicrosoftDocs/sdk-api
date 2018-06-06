@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FH_LOCAL_POLICY_TYPE, *PFH_LOCAL_POLICY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fhcfg.h
+ - Fhcfg.h
 api_name:
--	FH_LOCAL_POLICY_TYPE
+ - FH_LOCAL_POLICY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MICUIELEMENTSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	micaut.h
+ - micaut.h
 api_name:
--	IMathInputControl.IsVisible
+ - IMathInputControl.IsVisible
 product: Windows
 targetos: Windows
 req.lib: 

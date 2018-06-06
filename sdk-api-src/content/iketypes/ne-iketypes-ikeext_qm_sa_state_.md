@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_QM_SA_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_QM_SA_STATE
+ - IKEEXT_QM_SA_STATE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITER_STATE, *PVSS_WRITER_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	VssApi.lib
--	VssApi.dll
+ - VssApi.lib
+ - VssApi.dll
 api_name:
--	IVssAsync.Wait
+ - IVssAsync.Wait
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

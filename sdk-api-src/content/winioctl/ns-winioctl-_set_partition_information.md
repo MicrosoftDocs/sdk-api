@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	SET_PARTITION_INFORMATION
+ - SET_PARTITION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

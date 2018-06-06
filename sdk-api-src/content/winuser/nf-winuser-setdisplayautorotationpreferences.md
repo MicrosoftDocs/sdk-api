@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	kernel.dll
--	Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
--	user32.dll
--	ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
+ - kernel.dll
+ - Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
+ - user32.dll
+ - ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
 api_name:
--	SetDisplayAutoRotationPreferences
+ - SetDisplayAutoRotationPreferences
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROBLEM_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndhelper.h
+ - ndhelper.h
 api_name:
--	PROBLEM_TYPE
+ - PROBLEM_TYPE
 product: Windows
 targetos: Windows
 req.lib: Ndfapi.lib

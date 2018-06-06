@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_MPEGSTREAMTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mpegtype.h
+ - mpegtype.h
 api_name:
--	AM_MPEGSTREAMTYPE
+ - AM_MPEGSTREAMTYPE
 product: Windows
 targetos: Windows
 req.lib: 

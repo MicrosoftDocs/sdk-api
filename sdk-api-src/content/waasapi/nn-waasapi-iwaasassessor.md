@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITERRESTORE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	waasapi.h
+ - waasapi.h
 api_name:
--	IWaaSAssessor
+ - IWaaSAssessor
 product: Windows
 targetos: Windows
 req.lib: 

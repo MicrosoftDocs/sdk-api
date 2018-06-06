@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NET_INTERFACE_CONTEXT_TABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-oobe-notification-l1-1-0.dll
--	Kernel32Legacy.dll
+ - Kernel32.dll
+ - API-MS-Win-oobe-notification-l1-1-0.dll
+ - Kernel32Legacy.dll
 api_name:
--	UnregisterWaitUntilOOBECompleted
+ - UnregisterWaitUntilOOBECompleted
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

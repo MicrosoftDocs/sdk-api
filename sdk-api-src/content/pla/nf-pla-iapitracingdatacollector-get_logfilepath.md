@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IApiTracingDataCollector.LogFilePath
--	IApiTracingDataCollector.get_LogFilePath
--	IApiTracingDataCollector.put_LogFilePath
+ - IApiTracingDataCollector.LogFilePath
+ - IApiTracingDataCollector.get_LogFilePath
+ - IApiTracingDataCollector.put_LogFilePath
 product: Windows
 targetos: Windows
 req.lib: 

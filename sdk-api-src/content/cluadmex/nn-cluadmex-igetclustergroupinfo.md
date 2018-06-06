@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	cluadmex.h
+ - cluadmex.h
 api_name:
--	IGetClusterGroupInfo
+ - IGetClusterGroupInfo
 product: Windows
 targetos: Windows
 req.lib: 

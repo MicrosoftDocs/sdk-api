@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_QUERY_BINDING_CACHE_RESPONSE, *PKERB_QUERY_BINDING_CACHE_RESPONSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_QUERY_BINDING_CACHE_RESPONSE
+ - KERB_QUERY_BINDING_CACHE_RESPONSE
 product: Windows
 targetos: Windows
 req.lib: 

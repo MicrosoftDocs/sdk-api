@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dhcpcsvc.dll
+ - Dhcpcsvc.dll
 api_name:
--	DhcpRemoveDNSRegistrations
+ - DhcpRemoveDNSRegistrations
 product: Windows
 targetos: Windows
 req.lib: Dhcpcsvc.lib

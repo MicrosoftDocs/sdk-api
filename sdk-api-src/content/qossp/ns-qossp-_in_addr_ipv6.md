@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IN_ADDR_IPV6, *LPIN_ADDR_IPV6
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qossp.h
+ - Qossp.h
 api_name:
--	IN_ADDR_IPV6
+ - IN_ADDR_IPV6
 product: Windows
 targetos: Windows
 req.lib: 

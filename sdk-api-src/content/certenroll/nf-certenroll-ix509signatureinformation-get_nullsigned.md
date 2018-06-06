@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	IX509SignatureInformation.NullSigned
--	IX509SignatureInformation.get_NullSigned
--	IX509SignatureInformation.put_NullSigned
+ - IX509SignatureInformation.NullSigned
+ - IX509SignatureInformation.get_NullSigned
+ - IX509SignatureInformation.put_NullSigned
 product: Windows
 targetos: Windows
 req.lib: 

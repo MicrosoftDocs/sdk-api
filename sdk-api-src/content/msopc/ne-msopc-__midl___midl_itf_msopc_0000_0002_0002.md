@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPC_COMPRESSION_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msopc.h
+ - msopc.h
 api_name:
--	OPC_COMPRESSION_OPTIONS
+ - OPC_COMPRESSION_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkRectangle.Left
--	IInkRectangle.get_Left
--	IInkRectangle.put_Left
--	InkRectangle.get_Left
--	InkRectangle.put_Left
+ - IInkRectangle.Left
+ - IInkRectangle.get_Left
+ - IInkRectangle.put_Left
+ - InkRectangle.get_Left
+ - InkRectangle.put_Left
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

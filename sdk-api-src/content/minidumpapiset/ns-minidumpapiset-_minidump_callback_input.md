@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MINIDUMP_CALLBACK_INPUT, *PMINIDUMP_CALLBACK_INPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	minidumpapiset.h
+ - minidumpapiset.h
 api_name:
--	MINIDUMP_CALLBACK_INPUT
+ - MINIDUMP_CALLBACK_INPUT
 product: Windows
 targetos: Windows
 req.lib: 

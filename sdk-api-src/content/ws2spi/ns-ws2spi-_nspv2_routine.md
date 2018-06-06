@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NSPV2_ROUTINE, *PNSPV2_ROUTINE, *LPNSPV2_ROUTINE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2spi.h
+ - Ws2spi.h
 api_name:
--	NSPV2_ROUTINE
+ - NSPV2_ROUTINE
 product: Windows
 targetos: Windows
 req.lib: 

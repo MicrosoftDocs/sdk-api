@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Syncmgr.h
+ - Syncmgr.h
 api_name:
--	ISyncMgrHandlerInfo.IsActive
+ - ISyncMgrHandlerInfo.IsActive
 product: Windows
 targetos: Windows
 req.lib: 

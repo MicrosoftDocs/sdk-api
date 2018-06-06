@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_AUTH_CREDENTIALS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Bits1_5.h
+ - Bits1_5.h
 api_name:
--	BG_AUTH_CREDENTIALS
+ - BG_AUTH_CREDENTIALS
 product: Windows
 targetos: Windows
 req.lib: 

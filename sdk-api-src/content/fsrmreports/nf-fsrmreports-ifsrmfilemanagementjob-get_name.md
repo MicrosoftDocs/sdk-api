@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmFileManagementJob.Name
--	IFsrmFileManagementJob.get_Name
--	IFsrmFileManagementJob.put_Name
+ - IFsrmFileManagementJob.Name
+ - IFsrmFileManagementJob.get_Name
+ - IFsrmFileManagementJob.put_Name
 product: Windows
 targetos: Windows
 req.lib: 

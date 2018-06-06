@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12.h
+ - d3d12.h
 api_name:
--	D3D12_FEATURE_DATA_D3D12_OPTIONS1
+ - D3D12_FEATURE_DATA_D3D12_OPTIONS1
 product: Windows
 targetos: Windows
 req.lib: 

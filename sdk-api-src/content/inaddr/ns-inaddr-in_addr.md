@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: IN_ADDR, *PIN_ADDR, *LPIN_ADDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Inaddr.h
--	Ipexport.h
+ - Inaddr.h
+ - Ipexport.h
 api_name:
--	IPAddr
+ - IPAddr
 product: Windows
 targetos: Windows
 req.lib: 

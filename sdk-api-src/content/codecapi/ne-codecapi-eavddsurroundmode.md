@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	codecapi.h
+ - codecapi.h
 api_name:
--	eAVDDSurroundMode
+ - eAVDDSurroundMode
 product: Windows
 targetos: Windows
 req.lib: 

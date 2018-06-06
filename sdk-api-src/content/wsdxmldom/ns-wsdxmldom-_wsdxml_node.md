@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSDXML_NODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdXmldom.h
+ - WsdXmldom.h
 api_name:
--	WSDXML_NODE
+ - WSDXML_NODE
 product: Windows
 targetos: Windows
 req.lib: 

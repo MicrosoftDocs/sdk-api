@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmjoin.h
+ - Lmjoin.h
 api_name:
--	NETSETUP_PROVISIONING_PARAMS
+ - NETSETUP_PROVISIONING_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

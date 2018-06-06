@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRSCALEVIEWPORTEXTEX, *PEMRSCALEVIEWPORTEXTEX, EMRSCALEWINDOWEXTEX, *PEMRSCALEWINDOWEXTEX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRSCALEVIEWPORTEXTEX
+ - EMRSCALEVIEWPORTEXTEX
 product: Windows
 targetos: Windows
 req.lib: 

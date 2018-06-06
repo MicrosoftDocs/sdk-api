@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSL_DISTRIBUTION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wslapi.h
+ - wslapi.h
 api_name:
--	WSL_DISTRIBUTION_FLAGS
+ - WSL_DISTRIBUTION_FLAGS
 product: Windows
 targetos: Windows
 req.lib: Ws2_32.lib

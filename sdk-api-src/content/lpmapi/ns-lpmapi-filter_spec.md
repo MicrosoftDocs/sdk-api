@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILTER_SPEC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	FILTER_SPEC
+ - FILTER_SPEC
 product: Windows
 targetos: Windows
 req.lib: 

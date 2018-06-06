@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER
+ - PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: DCOMPOSITION_FRAME_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	Ext-MS-Win-NTUser-Misc-L1-1-0.dll
--	Ext-MS-Win-NTUser-Misc-L1-2-0.dll
--	Ext-MS-Win-NTUser-Misc-L1-3-0.dll
--	Ext-MS-Win-NTUser-Misc-L1-4-0.dll
--	Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
--	Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-L1-1-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-3-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
--	FreeDDElParam
+ - FreeDDElParam
 product: Windows
 targetos: Windows
 req.lib: User32.lib

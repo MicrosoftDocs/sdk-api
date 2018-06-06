@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkOverlay.SupportHighContrastSelectionUI
--	IInkOverlay.get_SupportHighContrastSelectionUI
--	IInkOverlay.put_SupportHighContrastSelectionUI
--	InkOverlay.get_SupportHighContrastSelectionUI
--	InkOverlay.put_SupportHighContrastSelectionUI
+ - IInkOverlay.SupportHighContrastSelectionUI
+ - IInkOverlay.get_SupportHighContrastSelectionUI
+ - IInkOverlay.put_SupportHighContrastSelectionUI
+ - InkOverlay.get_SupportHighContrastSelectionUI
+ - InkOverlay.put_SupportHighContrastSelectionUI
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmSetting.AdminEmail
--	IFsrmSetting.get_AdminEmail
--	IFsrmSetting.put_AdminEmail
--	FsrmSetting.AdminEmail
+ - IFsrmSetting.AdminEmail
+ - IFsrmSetting.get_AdminEmail
+ - IFsrmSetting.put_AdminEmail
+ - FsrmSetting.AdminEmail
 product: Windows
 targetos: Windows
 req.lib: 

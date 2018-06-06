@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DSBROWSEINFOW, *PDSBROWSEINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsclient.h
+ - Dsclient.h
 api_name:
--	DSBROWSEINFOW
--	DSBROWSEINFOA
--	DSBROWSEINFOW
+ - DSBROWSEINFOW
+ - DSBROWSEINFOA
+ - DSBROWSEINFOW
 product: Windows
 targetos: Windows
 req.lib: 

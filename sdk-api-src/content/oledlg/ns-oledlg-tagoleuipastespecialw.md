@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIPASTESPECIALW, *POLEUIPASTESPECIALW, *LPOLEUIPASTESPECIALW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleDlg.h
+ - OleDlg.h
 api_name:
--	OLEUIPASTESPECIAL
--	OLEUIPASTESPECIALA
--	OLEUIPASTESPECIALW
+ - OLEUIPASTESPECIAL
+ - OLEUIPASTESPECIALA
+ - OLEUIPASTESPECIALW
 product: Windows
 targetos: Windows
 req.lib: 

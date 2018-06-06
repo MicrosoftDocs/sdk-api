@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_MONITOR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	RESOURCE_MONITOR_STATE
+ - RESOURCE_MONITOR_STATE
 product: Windows
 targetos: Windows
 req.lib: 

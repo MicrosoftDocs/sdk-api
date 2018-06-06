@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WICPersistOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Windowscodecs.dll
--	Wincodec.lib
+ - Windowscodecs.dll
+ - Wincodec.lib
 api_name:
--	WICMatchMetadataContent
+ - WICMatchMetadataContent
 product: Windows
 targetos: Windows
 req.lib: 

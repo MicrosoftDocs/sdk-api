@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PXE_PROVIDER, *PPXE_PROVIDER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WdsPxe.h
+ - WdsPxe.h
 api_name:
--	PXE_PROVIDER
+ - PXE_PROVIDER
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROCESS_DPI_AWARENESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ShellScalingApi.h
+ - ShellScalingApi.h
 api_name:
--	PROCESS_DPI_AWARENESS
+ - PROCESS_DPI_AWARENESS
 product: Windows
 targetos: Windows
 req.lib: 

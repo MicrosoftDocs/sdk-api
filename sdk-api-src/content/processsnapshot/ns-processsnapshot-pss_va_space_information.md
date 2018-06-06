@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_VA_SPACE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	processsnapshot.h
+ - processsnapshot.h
 api_name:
--	PSS_VA_SPACE_INFORMATION
+ - PSS_VA_SPACE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SI_OBJECT_INFO, *PSI_OBJECT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Aclui.h
+ - Aclui.h
 api_name:
--	SI_OBJECT_INFO
+ - SI_OBJECT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	clusapi.h
+ - clusapi.h
 api_name:
--	PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY
+ - PCLUSAPI_REMOVE_CLUSTER_GROUP_DEPENDENCY
 product: Windows
 targetos: Windows
 req.lib: 

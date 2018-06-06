@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOURCE_MEDIA_A, *PSOURCE_MEDIA_A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Setupapi.h
+ - Setupapi.h
 api_name:
--	SOURCE_MEDIA
+ - SOURCE_MEDIA
 product: Windows
 targetos: Windows
 req.lib: 

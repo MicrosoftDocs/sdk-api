@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TCP_INITIAL_RTO_PARAMETERS, *PTCP_INITIAL_RTO_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	TCP_INITIAL_RTO_PARAMETERS
+ - TCP_INITIAL_RTO_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

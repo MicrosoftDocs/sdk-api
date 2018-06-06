@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TEMPLATE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Tdh.dll
--	API-MS-Win-Eventing-Tdh-L1-1-0.dll
--	MinTdh.dll
+ - Tdh.dll
+ - API-MS-Win-Eventing-Tdh-L1-1-0.dll
+ - MinTdh.dll
 api_name:
--	TdhGetProperty
+ - TdhGetProperty
 product: Windows
 targetos: Windows
 req.lib: Tdh.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12.h
+ - d3d12.h
 api_name:
--	D3D12_PLACED_SUBRESOURCE_FOOTPRINT
+ - D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 product: Windows
 targetos: Windows
 req.lib: 

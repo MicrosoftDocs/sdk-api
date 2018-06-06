@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, *PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wlanapi.h
+ - Wlanapi.h
 api_name:
--	WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 product: Windows
 targetos: Windows
 req.lib: 

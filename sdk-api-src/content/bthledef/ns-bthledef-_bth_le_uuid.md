@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BTH_LE_UUID, *PBTH_LE_UUID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	BthLEDef.h
+ - BthLEDef.h
 api_name:
--	BTH_LE_UUID
+ - BTH_LE_UUID
 product: Windows
 targetos: Windows
 req.lib: 

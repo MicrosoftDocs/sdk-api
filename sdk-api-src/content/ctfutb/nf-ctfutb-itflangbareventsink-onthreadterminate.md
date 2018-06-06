@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfLBIClick
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msutb.dll
+ - msutb.dll
 api_name:
--	ITfLangBarEventSink.OnThreadTerminate
+ - ITfLangBarEventSink.OnThreadTerminate
 product: Windows
 targetos: Windows
 req.lib: 

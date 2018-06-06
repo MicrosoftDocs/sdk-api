@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UNIVERSAL_NAME_INFOW, *LPUNIVERSAL_NAME_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winnls.h
+ - Winnls.h
 api_name:
--	Geo_EnumNameProc
+ - Geo_EnumNameProc
 product: Windows
 targetos: Windows
 req.lib: 

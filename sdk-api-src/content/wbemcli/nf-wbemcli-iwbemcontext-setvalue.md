@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Esscli.dll
--	Fastprox.dll
--	FrameDyn.dll
--	FrameDynOS.dll
--	Wbemcomn.dll
--	Wbemcore.dll
--	Wbemess.dll
--	Wmipjobj.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipjobj.dll
 api_name:
--	IWbemContext.SetValue
+ - IWbemContext.SetValue
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

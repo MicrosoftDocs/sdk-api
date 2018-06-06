@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PrintAsyncNotifyUserFilter
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	prnasnot.h
+ - prnasnot.h
 api_name:
--	IPrintAsyncNotifyDataObject
+ - IPrintAsyncNotifyDataObject
 product: Windows
 targetos: Windows
 req.lib: WinSpool.lib

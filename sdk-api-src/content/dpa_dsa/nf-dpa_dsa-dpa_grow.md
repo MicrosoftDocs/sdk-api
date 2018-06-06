@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTPROTECT_PROMPTSTRUCT, *PCRYPTPROTECT_PROMPTSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Comctl32.dll
+ - Comctl32.dll
 api_name:
--	DPA_Grow
+ - DPA_Grow
 product: Windows
 targetos: Windows
 req.lib: 

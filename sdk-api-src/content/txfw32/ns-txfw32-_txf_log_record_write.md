@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXF_LOG_RECORD_WRITE, *PTXF_LOG_RECORD_WRITE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TxfW32.h
+ - TxfW32.h
 api_name:
--	TXF_LOG_RECORD_WRITE
+ - TXF_LOG_RECORD_WRITE
 product: Windows
 targetos: Windows
 req.lib: 

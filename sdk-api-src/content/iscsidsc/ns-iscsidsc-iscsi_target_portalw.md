@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ISCSI_TARGET_PORTALW, *PISCSI_TARGET_PORTALW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	ISCSI_TARGET_PORTAL
--	ISCSI_TARGET_PORTALA
--	ISCSI_TARGET_PORTALW
+ - ISCSI_TARGET_PORTAL
+ - ISCSI_TARGET_PORTALA
+ - ISCSI_TARGET_PORTALW
 product: Windows
 targetos: Windows
 req.lib: 

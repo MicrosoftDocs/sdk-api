@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_DIFF_AREA_PROP, *PVSS_DIFF_AREA_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsMgmt.h
+ - VsMgmt.h
 api_name:
--	VSS_DIFF_AREA_PROP
+ - VSS_DIFF_AREA_PROP
 product: Windows
 targetos: Windows
 req.lib: 

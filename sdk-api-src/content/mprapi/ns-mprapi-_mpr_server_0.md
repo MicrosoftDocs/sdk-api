@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPR_SERVER_0, *PMPR_SERVER_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	MPR_SERVER_0
+ - MPR_SERVER_0
 product: Windows
 targetos: Windows
 req.lib: 

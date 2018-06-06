@@ -29,14 +29,14 @@ req.type-library: Wscapi.lib
 tech.root: 
 req.typenames: WSC_SECURITY_SIGNATURE_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Wscapi.lib
+ - Wscapi.lib
 api_name:
--	WSC_SECURITY_SIGNATURE_STATUS
+ - WSC_SECURITY_SIGNATURE_STATUS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHUNKSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Filter.h
+ - Filter.h
 api_name:
--	CHUNKSTATE
+ - CHUNKSTATE
 product: Windows
 targetos: Windows
 req.lib: 

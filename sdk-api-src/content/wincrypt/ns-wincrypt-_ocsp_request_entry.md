@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OCSP_REQUEST_ENTRY, *POCSP_REQUEST_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	OCSP_REQUEST_ENTRY
+ - OCSP_REQUEST_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

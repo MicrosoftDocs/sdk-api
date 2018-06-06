@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	efswrt.dll
--	Ext-MS-Win-Security-EfsWrt-L1-1-1.dll
+ - efswrt.dll
+ - Ext-MS-Win-Security-EfsWrt-L1-1-1.dll
 api_name:
--	ProtectFileToEnterpriseIdentity
+ - ProtectFileToEnterpriseIdentity
 product: Windows
 targetos: Windows
 req.lib: Efswrt.h

@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: RESOURCE_STATUS_EX, *PRESOURCE_STATUS_EX
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	RESOURCE_STATUS_EX
+ - RESOURCE_STATUS_EX
 product: Windows
 targetos: Windows
 req.lib: 

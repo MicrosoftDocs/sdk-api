@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_VIGNETTE_PROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D2d1.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32.dll
--	GDI32Full.dll
+ - D2d1.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
 api_name:
--	Ellipse
+ - Ellipse
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

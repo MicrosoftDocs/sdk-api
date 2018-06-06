@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_STATE_BLOCK_MASK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d10effect.h
+ - d3d10effect.h
 api_name:
--	D3D10_STATE_BLOCK_MASK
+ - D3D10_STATE_BLOCK_MASK
 product: Windows
 targetos: Windows
 req.lib: 

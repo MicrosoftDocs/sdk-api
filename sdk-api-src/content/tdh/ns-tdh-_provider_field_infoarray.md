@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROVIDER_FIELD_INFOARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tdh.h
+ - Tdh.h
 api_name:
--	PROVIDER_FIELD_INFOARRAY
+ - PROVIDER_FIELD_INFOARRAY
 product: Windows
 targetos: Windows
 req.lib: 

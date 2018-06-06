@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	GenericUsbFnIoctl.h
+ - GenericUsbFnIoctl.h
 api_name:
--	IOCTL_GENERICUSBFN_REGISTER_USB_STRING
+ - IOCTL_GENERICUSBFN_REGISTER_USB_STRING
 product: Windows
 targetos: Windows
 req.lib: 

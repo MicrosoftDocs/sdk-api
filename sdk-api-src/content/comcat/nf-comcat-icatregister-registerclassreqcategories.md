@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ServerInformation, *PServerInformation
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ComCat.h
+ - ComCat.h
 api_name:
--	ICatRegister.RegisterClassReqCategories
+ - ICatRegister.RegisterClassReqCategories
 product: Windows
 targetos: Windows
 req.lib: 

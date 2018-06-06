@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: XYZColorF
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	Ext-MS-Win-wer-wct-l1-1-0.dll
--	wer.dll
+ - Advapi32.dll
+ - Ext-MS-Win-wer-wct-l1-1-0.dll
+ - wer.dll
 api_name:
--	GetThreadWaitChain
+ - GetThreadWaitChain
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

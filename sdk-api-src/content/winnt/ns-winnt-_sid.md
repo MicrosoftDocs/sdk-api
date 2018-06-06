@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SID, *PISID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	SID
+ - SID
 product: Windows
 targetos: Windows
 req.lib: 

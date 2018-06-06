@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	CounterPathCallBack
+ - CounterPathCallBack
 product: Windows
 targetos: Windows
 req.lib: 

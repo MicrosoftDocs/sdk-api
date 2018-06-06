@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS1, *PIKEV2_TUNNEL_CONFIG_PARAMS1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mprapi.h
+ - mprapi.h
 api_name:
--	IKEV2_TUNNEL_CONFIG_PARAMS1
+ - IKEV2_TUNNEL_CONFIG_PARAMS1
 product: Windows
 targetos: Windows
 req.lib: 

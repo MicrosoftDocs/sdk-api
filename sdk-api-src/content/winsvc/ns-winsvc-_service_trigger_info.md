@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_TRIGGER_INFO, *PSERVICE_TRIGGER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsvc.h
+ - winsvc.h
 api_name:
--	SERVICE_TRIGGER_INFO
+ - SERVICE_TRIGGER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

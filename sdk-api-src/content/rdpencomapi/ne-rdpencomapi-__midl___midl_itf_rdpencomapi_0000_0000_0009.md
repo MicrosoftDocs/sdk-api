@@ -29,14 +29,14 @@ req.type-library: RdpEncomAPI.tlb
 tech.root: 
 req.typenames: RDPSRAPI_MOUSE_BUTTON_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	RdpEncomAPI.tlb
+ - RdpEncomAPI.tlb
 api_name:
--	RDPSRAPI_MOUSE_BUTTON_TYPE
+ - RDPSRAPI_MOUSE_BUTTON_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

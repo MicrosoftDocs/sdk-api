@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VALUE_TYPE_RF_BANDS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wcntypes.h
+ - wcntypes.h
 api_name:
--	WCN_VALUE_TYPE_RF_BANDS
+ - WCN_VALUE_TYPE_RF_BANDS
 product: Windows
 targetos: Windows
 req.lib: 

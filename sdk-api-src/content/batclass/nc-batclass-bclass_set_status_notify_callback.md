@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Batclass.h
+ - Batclass.h
 api_name:
--	BatteryMiniSetStatusNotify
+ - BatteryMiniSetStatusNotify
 product: Windows
 targetos: Windows
 req.lib: 

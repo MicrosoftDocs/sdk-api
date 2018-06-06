@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DNS_MESSAGE_BUFFER, *PDNS_MESSAGE_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Windns.h
+ - Windns.h
 api_name:
--	DNS_MESSAGE_BUFFER
+ - DNS_MESSAGE_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

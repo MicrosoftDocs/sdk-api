@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	OSVERSIONINFO
--	OSVERSIONINFOA
--	OSVERSIONINFOW
+ - OSVERSIONINFO
+ - OSVERSIONINFOA
+ - OSVERSIONINFOW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GLYPHMETRICS, *LPGLYPHMETRICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	GLYPHMETRICS
+ - GLYPHMETRICS
 product: Windows
 targetos: Windows
 req.lib: 

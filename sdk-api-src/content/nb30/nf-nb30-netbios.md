@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SystemHealthAgentState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	netapi32.dll
+ - netapi32.dll
 api_name:
--	Netbios
+ - Netbios
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

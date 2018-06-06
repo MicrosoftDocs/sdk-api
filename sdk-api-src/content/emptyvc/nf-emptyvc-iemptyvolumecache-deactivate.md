@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMI_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shell32.dll
+ - Shell32.dll
 api_name:
--	IEmptyVolumeCache.Deactivate
+ - IEmptyVolumeCache.Deactivate
 product: Windows
 targetos: Windows
 req.lib: 

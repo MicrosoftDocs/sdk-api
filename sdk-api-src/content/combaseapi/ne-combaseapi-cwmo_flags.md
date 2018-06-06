@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CWMO_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	combaseapi.h
+ - combaseapi.h
 api_name:
--	CWMO_FLAGS
+ - CWMO_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

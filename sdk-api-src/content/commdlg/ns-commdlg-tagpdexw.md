@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PRINTDLGEXW, *LPPRINTDLGEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commdlg.h
+ - Commdlg.h
 api_name:
--	PRINTDLGEX
--	PRINTDLGEXA
--	PRINTDLGEXW
+ - PRINTDLGEX
+ - PRINTDLGEXA
+ - PRINTDLGEXW
 product: Windows
 targetos: Windows
 req.lib: 

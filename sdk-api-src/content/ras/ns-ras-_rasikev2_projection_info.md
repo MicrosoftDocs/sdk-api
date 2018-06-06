@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ras.h
+ - Ras.h
 api_name:
--	RASIKEV2_PROJECTION_INFO
+ - RASIKEV2_PROJECTION_INFO
 product: Windows
 targetos: Windows
 req.lib: 

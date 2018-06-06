@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_SD_MODE, *LPQOS_SD_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Qos.h
+ - Qos.h
 api_name:
--	QOS_SD_MODE
+ - QOS_SD_MODE
 product: Windows
 targetos: Windows
 req.lib: 

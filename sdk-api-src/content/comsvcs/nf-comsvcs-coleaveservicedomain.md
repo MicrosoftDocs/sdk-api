@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRACKING_COLL_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComSvcs.dll
+ - ComSvcs.dll
 api_name:
--	CoLeaveServiceDomain
+ - CoLeaveServiceDomain
 product: Windows
 targetos: Windows
 req.lib: ComSvcs.lib

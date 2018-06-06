@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkPicture.EraserWidth
--	IInkPicture.get_EraserWidth
--	IInkPicture.put_EraserWidth
--	InkPicture.get_EraserWidth
--	InkPicture.put_EraserWidth
+ - IInkPicture.EraserWidth
+ - IInkPicture.get_EraserWidth
+ - IInkPicture.put_EraserWidth
+ - InkPicture.get_EraserWidth
+ - InkPicture.put_EraserWidth
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

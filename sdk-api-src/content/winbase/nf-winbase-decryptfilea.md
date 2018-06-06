@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
--	Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
--	DecryptFile
--	DecryptFileA
--	DecryptFileW
+ - DecryptFile
+ - DecryptFileA
+ - DecryptFileW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

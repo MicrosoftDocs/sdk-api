@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_INFO_2, *PFILE_INFO_2, *LPFILE_INFO_2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmshare.h
+ - Lmshare.h
 api_name:
--	FILE_INFO_2
+ - FILE_INFO_2
 product: Windows
 targetos: Windows
 req.lib: 

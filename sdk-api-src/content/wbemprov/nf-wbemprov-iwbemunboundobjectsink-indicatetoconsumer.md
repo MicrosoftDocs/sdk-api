@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WbemTimeout
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Fastprox.dll
+ - Fastprox.dll
 api_name:
--	IWbemUnboundObjectSink.IndicateToConsumer
+ - IWbemUnboundObjectSink.IndicateToConsumer
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_HDR_METADATA_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_5.h
+ - dxgi1_5.h
 api_name:
--	DXGI_HDR_METADATA_TYPE
+ - DXGI_HDR_METADATA_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

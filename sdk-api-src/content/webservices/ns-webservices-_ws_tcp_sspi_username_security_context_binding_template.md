@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
+ - WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
 req.lib: 

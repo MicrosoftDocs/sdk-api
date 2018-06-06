@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_INFO_QUEUE_FILTER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12sdklayers.h
+ - d3d12sdklayers.h
 api_name:
--	D3D12_INFO_QUEUE_FILTER_DESC
+ - D3D12_INFO_QUEUE_FILTER_DESC
 product: Windows
 targetos: Windows
 req.lib: 

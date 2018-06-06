@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITextInputPanel.CurrentInteractionMode
--	ITextInputPanel.get_CurrentInteractionMode
--	ITextInputPanel.get_CurrentInteractionMode
+ - ITextInputPanel.CurrentInteractionMode
+ - ITextInputPanel.get_CurrentInteractionMode
+ - ITextInputPanel.get_CurrentInteractionMode
 product: Windows
 targetos: Windows
 req.lib: 

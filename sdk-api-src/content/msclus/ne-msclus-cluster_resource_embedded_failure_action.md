@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
--	MSClus.h
+ - ClusAPI.h
+ - MSClus.h
 api_name:
--	CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
+ - CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

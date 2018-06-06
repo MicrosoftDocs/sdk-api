@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSREG_USER_INFO, *PDSREG_USER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	lmjoin.h
+ - lmjoin.h
 api_name:
--	DSREG_USER_INFO
+ - DSREG_USER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

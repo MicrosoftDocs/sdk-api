@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USERCLASSTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	adhocreportingexcelclient.dll
+ - adhocreportingexcelclient.dll
 api_name:
--	IViewObject2.GetExtent
+ - IViewObject2.GetExtent
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: PSS_VA_SPACE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdll.dll
--	API-MS-Win-Core-Processthreads-l1-1-2.dll
--	Kernel32.dll
--	KernelBase.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+ - Ntdll.dll
+ - API-MS-Win-Core-Processthreads-l1-1-2.dll
+ - Kernel32.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
--	IsProcessCritical
+ - IsProcessCritical
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

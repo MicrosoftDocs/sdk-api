@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_REGN_PROFILE, *PRTM_REGN_PROFILE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_REGN_PROFILE
+ - RTM_REGN_PROFILE
 product: Windows
 targetos: Windows
 req.lib: 

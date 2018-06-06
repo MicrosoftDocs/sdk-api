@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPC_CERTIFICATE_EMBEDDING_OPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msopc.h
+ - msopc.h
 api_name:
--	OPC_CERTIFICATE_EMBEDDING_OPTION
+ - OPC_CERTIFICATE_EMBEDDING_OPTION
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

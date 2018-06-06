@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_DEBUG_INFORMATION, *PIMAGE_DEBUG_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGE_DEBUG_INFORMATION
+ - IMAGE_DEBUG_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

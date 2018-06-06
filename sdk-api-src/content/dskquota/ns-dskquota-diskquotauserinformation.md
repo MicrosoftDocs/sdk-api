@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DISKQUOTA_USER_INFORMATION, *PDISKQUOTA_USER_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dskquota.h
+ - Dskquota.h
 api_name:
--	DISKQUOTA_USER_INFORMATION
+ - DISKQUOTA_USER_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

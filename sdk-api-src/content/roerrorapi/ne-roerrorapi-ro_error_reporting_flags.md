@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	roerrorapi.h
+ - roerrorapi.h
 api_name:
--	RO_ERROR_REPORTING_FLAGS
+ - RO_ERROR_REPORTING_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

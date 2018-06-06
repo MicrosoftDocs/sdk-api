@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: THERMAL_EVENT, *PTHERMAL_EVENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PowrProf.h
+ - PowrProf.h
 api_name:
--	THERMAL_EVENT
+ - THERMAL_EVENT
 product: Windows
 targetos: Windows
 req.lib: 

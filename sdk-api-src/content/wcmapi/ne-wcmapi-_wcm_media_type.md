@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_MEDIA_TYPE, *PWCM_MEDIA_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_MEDIA_TYPE
+ - WCM_MEDIA_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

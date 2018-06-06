@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_CHANNEL_BIND_INFO, *PHTTP_CHANNEL_BIND_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_CHANNEL_BIND_INFO
+ - HTTP_CHANNEL_BIND_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MODLOAD_DATA, *PMODLOAD_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	MODLOAD_DATA
+ - MODLOAD_DATA
 product: Windows
 targetos: Windows
 req.lib: 

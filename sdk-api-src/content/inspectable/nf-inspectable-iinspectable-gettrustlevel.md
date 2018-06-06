@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TrustLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Inspectable.h
+ - Inspectable.h
 api_name:
--	IInspectable.GetTrustLevel
--	IInputPaneInterop.GetTrustLevel
+ - IInspectable.GetTrustLevel
+ - IInputPaneInterop.GetTrustLevel
 product: Windows
 targetos: Windows
 req.lib: 

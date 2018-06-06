@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_INFO_LEVELS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fileapi.h
+ - fileapi.h
 api_name:
--	STREAM_INFO_LEVELS
+ - STREAM_INFO_LEVELS
 product: Windows
 targetos: Windows
 req.lib: FhSvcCtl.lib

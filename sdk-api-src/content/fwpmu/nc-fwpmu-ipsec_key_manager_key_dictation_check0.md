@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Fwpmu.h
+ - Fwpmu.h
 api_name:
--	IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+ - IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_IPFORWARDTABLE, *PMIB_IPFORWARDTABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipmib.h
--	Iprtrmib.h
+ - Ipmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_IPFORWARDTABLE
+ - MIB_IPFORWARDTABLE
 product: Windows
 targetos: Windows
 req.lib: 

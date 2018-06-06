@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSC_TransactionConfig
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ComSvcs.h
+ - ComSvcs.h
 api_name:
--	CSC_TransactionConfig
+ - CSC_TransactionConfig
 product: Windows
 targetos: Windows
 req.lib: 

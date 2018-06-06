@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFNetCredentialManagerGetParam
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFNetCredentialManagerGetParam
+ - MFNetCredentialManagerGetParam
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAMBUFFER_ATTR_DATATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Sbe.h
+ - Sbe.h
 api_name:
--	IStreamBufferConfigure3.SetStartRecConfig
+ - IStreamBufferConfigure3.SetStartRecConfig
 product: Windows
 targetos: Windows
 req.lib: 

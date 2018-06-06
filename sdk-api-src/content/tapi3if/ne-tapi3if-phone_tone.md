@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PHONE_TONE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi3if.h
+ - Tapi3if.h
 api_name:
--	PHONE_TONE
+ - PHONE_TONE
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

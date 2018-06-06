@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWPM_NET_EVENT_CLASSIFY_DROP2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	fwpmtypes.h
+ - fwpmtypes.h
 api_name:
--	FWPM_NET_EVENT_CLASSIFY_DROP2
+ - FWPM_NET_EVENT_CLASSIFY_DROP2
 product: Windows
 targetos: Windows
 req.lib: 

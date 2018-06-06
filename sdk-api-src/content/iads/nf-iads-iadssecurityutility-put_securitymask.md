@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_SD_FORMAT_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Activeds.dll
+ - Activeds.dll
 api_name:
--	IADsSecurityUtility.SecurityMask
--	IADsSecurityUtility.get_SecurityMask
--	IADsSecurityUtility.put_SecurityMask
+ - IADsSecurityUtility.SecurityMask
+ - IADsSecurityUtility.get_SecurityMask
+ - IADsSecurityUtility.put_SecurityMask
 product: Windows
 targetos: Windows
 req.lib: 

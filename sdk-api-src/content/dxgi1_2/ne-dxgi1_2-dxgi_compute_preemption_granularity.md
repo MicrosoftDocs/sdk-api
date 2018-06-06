@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_COMPUTE_PREEMPTION_GRANULARITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_2.h
+ - DXGI1_2.h
 api_name:
--	DXGI_COMPUTE_PREEMPTION_GRANULARITY
+ - DXGI_COMPUTE_PREEMPTION_GRANULARITY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BNSTATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Shdeprecated.h
+ - Shdeprecated.h
 api_name:
--	ITravelLog.GetTravelEntry
+ - ITravelLog.GetTravelEntry
 product: Windows
 targetos: Windows
 req.lib: 

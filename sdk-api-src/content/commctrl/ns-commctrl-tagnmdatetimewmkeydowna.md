@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NMDATETIMEWMKEYDOWNA, *LPNMDATETIMEWMKEYDOWNA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMDATETIMEWMKEYDOWN
--	NMDATETIMEWMKEYDOWNA
--	NMDATETIMEWMKEYDOWNW
+ - NMDATETIMEWMKEYDOWN
+ - NMDATETIMEWMKEYDOWNA
+ - NMDATETIMEWMKEYDOWNW
 product: Windows
 targetos: Windows
 req.lib: 

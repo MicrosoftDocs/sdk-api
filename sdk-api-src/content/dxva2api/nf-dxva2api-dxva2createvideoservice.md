@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVA2_SurfaceType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dxva2.dll
+ - dxva2.dll
 api_name:
--	DXVA2CreateVideoService
+ - DXVA2CreateVideoService
 product: Windows
 targetos: Windows
 req.lib: Dxva2.lib

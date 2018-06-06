@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_VIRTUAL_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wtsapi32.dll
--	Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+ - Wtsapi32.dll
+ - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
--	WTSFreeMemoryEx
--	WTSFreeMemoryExA
--	WTSFreeMemoryExW
+ - WTSFreeMemoryEx
+ - WTSFreeMemoryExA
+ - WTSFreeMemoryExW
 product: Windows
 targetos: Windows
 req.lib: Wtsapi32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL, *PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
+ - ClusApi.h
 api_name:
--	CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
+ - CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 product: Windows
 targetos: Windows
 req.lib: 

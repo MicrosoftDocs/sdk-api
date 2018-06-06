@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WICSectionAccessLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincodec.h
+ - Wincodec.h
 api_name:
--	WICSectionAccessLevel
+ - WICSectionAccessLevel
 product: Windows
 targetos: Windows
 req.lib: 

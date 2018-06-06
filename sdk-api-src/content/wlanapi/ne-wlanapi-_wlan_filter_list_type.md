@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_FILTER_LIST_TYPE, *PWLAN_FILTER_LIST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_FILTER_LIST_TYPE
+ - WLAN_FILTER_LIST_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	Ext-MS-Win-NTUser-Window-L1-1-4.dll
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
--	LogicalToPhysicalPointForPerMonitorDPI
+ - LogicalToPhysicalPointForPerMonitorDPI
 product: Windows
 targetos: Windows
 req.lib: User32.lib

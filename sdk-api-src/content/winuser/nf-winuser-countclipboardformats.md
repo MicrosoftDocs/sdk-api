@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
--	API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
--	minuser.dll
--	api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
--	ie_stubs.dll
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+ - ie_stubs.dll
 api_name:
--	CountClipboardFormats
+ - CountClipboardFormats
 product: Windows
 targetos: Windows
 req.lib: User32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsock.h
+ - winsock.h
 api_name:
--	HOSTENT
+ - HOSTENT
 product: Windows
 targetos: Windows
 req.lib: 

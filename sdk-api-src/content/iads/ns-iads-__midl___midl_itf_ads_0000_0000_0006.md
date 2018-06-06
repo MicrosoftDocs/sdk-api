@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_POSTALADDRESS, *PADS_POSTALADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_POSTALADDRESS
+ - ADS_POSTALADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

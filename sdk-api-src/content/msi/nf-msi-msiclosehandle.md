@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_LICENSE_ACQ_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msi.dll
--	Ext-MS-Win-MSI-Misc-l1-1-0.dll
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
--	MsiCloseHandle
+ - MsiCloseHandle
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

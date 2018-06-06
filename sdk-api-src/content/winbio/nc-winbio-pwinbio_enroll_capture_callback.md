@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Winbio.h
+ - Winbio.h
 api_name:
--	PWINBIO_ENROLL_CAPTURE_CALLBACK
+ - PWINBIO_ENROLL_CAPTURE_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

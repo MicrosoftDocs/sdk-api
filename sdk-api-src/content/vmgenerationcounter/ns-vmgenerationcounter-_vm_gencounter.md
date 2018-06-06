@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vmgenerationcounter.h
+ - Vmgenerationcounter.h
 api_name:
--	VM_GENCOUNTER
+ - VM_GENCOUNTER
 product: Windows
 targetos: Windows
 req.lib: 

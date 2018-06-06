@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DDHAL_WAITFORVERTICALBLANKDATA
+ - DDHAL_WAITFORVERTICALBLANKDATA
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPL_OP_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdsapi.dll
--	KernelBase.dll
--	API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
--	API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+ - Ntdsapi.dll
+ - KernelBase.dll
+ - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+ - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
--	DsUnBind
--	DsUnBindA
--	DsUnBindW
+ - DsUnBind
+ - DsUnBindA
+ - DsUnBindW
 product: Windows
 targetos: Windows
 req.lib: Ntdsapi.lib

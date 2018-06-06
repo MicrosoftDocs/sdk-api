@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_TEMPERATURE_INFO, *PSTORAGE_TEMPERATURE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoctl.h
+ - WinIoctl.h
 api_name:
--	STORAGE_TEMPERATURE_INFO
+ - STORAGE_TEMPERATURE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVA2_NominalRange
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxva2api.h
+ - dxva2api.h
 api_name:
--	DXVA2_NominalRange
+ - DXVA2_NominalRange
 product: Windows
 targetos: Windows
 req.lib: 

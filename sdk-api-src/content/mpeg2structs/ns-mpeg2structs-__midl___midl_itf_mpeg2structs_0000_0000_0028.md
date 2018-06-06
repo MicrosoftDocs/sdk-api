@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG_BCS_DEMUX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	MPEG_BCS_DEMUX
+ - MPEG_BCS_DEMUX
 product: Windows
 targetos: Windows
 req.lib: 

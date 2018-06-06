@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_SIGN_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	xpsdigitalsignature.h
+ - xpsdigitalsignature.h
 api_name:
--	IXpsSignatureBlock.GetDocumentIndex
+ - IXpsSignatureBlock.GetDocumentIndex
 product: Windows
 targetos: Windows
 req.lib: 

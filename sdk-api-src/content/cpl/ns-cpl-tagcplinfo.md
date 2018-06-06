@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CPLINFO, *LPCPLINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cpl.h
+ - Cpl.h
 api_name:
--	CPLINFO
+ - CPLINFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_LOG_LEVEL_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FaxComex.h
+ - FaxComex.h
 api_name:
--	FAX_LOG_LEVEL_ENUM
+ - FAX_LOG_LEVEL_ENUM
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LATTICE_METRICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	LATTICE_METRICS
+ - LATTICE_METRICS
 product: Windows
 targetos: Windows
 req.lib: 

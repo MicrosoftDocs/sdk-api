@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INTERFACEDATA, *LPINTERFACEDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	OleAuto.h
+ - OleAuto.h
 api_name:
--	INTERFACEDATA
+ - INTERFACEDATA
 product: Windows
 targetos: Windows
 req.lib: 

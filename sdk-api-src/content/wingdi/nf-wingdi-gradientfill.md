@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msimg32.dll
--	ext-ms-win-msimg-draw-l1-1-0.dll
+ - Msimg32.dll
+ - ext-ms-win-msimg-draw-l1-1-0.dll
 api_name:
--	GradientFill
+ - GradientFill
 product: Windows
 targetos: Windows
 req.lib: Msimg32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SP_CLASSINSTALL_HEADER, *PSP_CLASSINSTALL_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	setupapi.h
+ - setupapi.h
 api_name:
--	SP_CLASSINSTALL_HEADER
+ - SP_CLASSINSTALL_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

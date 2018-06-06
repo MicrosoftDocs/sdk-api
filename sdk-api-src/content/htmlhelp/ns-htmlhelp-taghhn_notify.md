@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HHN_NOTIFY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HtmlHelp.h
+ - HtmlHelp.h
 api_name:
--	HHN_NOTIFY
+ - HHN_NOTIFY
 product: Windows
 targetos: Windows
 req.lib: 

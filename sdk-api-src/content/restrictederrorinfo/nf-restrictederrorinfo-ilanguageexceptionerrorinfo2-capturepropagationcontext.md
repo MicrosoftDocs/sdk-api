@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	restrictederrorinfo.h
+ - restrictederrorinfo.h
 api_name:
--	ILanguageExceptionErrorInfo2.CapturePropagationContext
+ - ILanguageExceptionErrorInfo2.CapturePropagationContext
 product: Windows
 targetos: Windows
 req.lib: 

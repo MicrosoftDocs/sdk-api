@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	D3D11_FEATURE_DATA_ARCHITECTURE_INFO
+ - D3D11_FEATURE_DATA_ARCHITECTURE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

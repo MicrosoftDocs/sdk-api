@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	NET_VALIDATE_PERSISTED_FIELDS
+ - NET_VALIDATE_PERSISTED_FIELDS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_IPV6_CGA_AUTHENTICATION0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_IPV6_CGA_AUTHENTICATION0
+ - IKEEXT_IPV6_CGA_AUTHENTICATION0
 product: Windows
 targetos: Windows
 req.lib: 

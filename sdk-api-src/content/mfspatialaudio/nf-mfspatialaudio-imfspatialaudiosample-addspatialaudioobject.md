@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DEVICE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfobjects.lib
--	mfobjects.dll
+ - mfobjects.lib
+ - mfobjects.dll
 api_name:
--	IMFSpatialAudioSample.AddSpatialAudioObject
+ - IMFSpatialAudioSample.AddSpatialAudioObject
 product: Windows
 targetos: Windows
 req.lib: Mfobjects.lib

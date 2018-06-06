@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVIStreamHeader
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	avifmt.h
+ - avifmt.h
 api_name:
--	AVISTREAMHEADER
+ - AVISTREAMHEADER
 product: Windows
 targetos: Windows
 req.lib: 

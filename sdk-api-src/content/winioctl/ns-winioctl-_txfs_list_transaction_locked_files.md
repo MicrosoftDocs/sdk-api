@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES, *PTXFS_LIST_TRANSACTION_LOCKED_FILES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_LIST_TRANSACTION_LOCKED_FILES
+ - TXFS_LIST_TRANSACTION_LOCKED_FILES
 product: Windows
 targetos: Windows
 req.lib: 

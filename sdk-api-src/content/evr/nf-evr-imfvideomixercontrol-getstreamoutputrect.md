@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoMixPrefs
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	strmiids.lib
--	strmiids.dll
+ - strmiids.lib
+ - strmiids.dll
 api_name:
--	IMFVideoMixerControl.GetStreamOutputRect
+ - IMFVideoMixerControl.GetStreamOutputRect
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

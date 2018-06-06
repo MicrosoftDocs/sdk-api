@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: THREAD_POWER_THROTTLING_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	processthreadsapi.h
+ - processthreadsapi.h
 api_name:
--	THREAD_POWER_THROTTLING_STATE
+ - THREAD_POWER_THROTTLING_STATE
 product: Windows
 targetos: Windows
 req.lib: 

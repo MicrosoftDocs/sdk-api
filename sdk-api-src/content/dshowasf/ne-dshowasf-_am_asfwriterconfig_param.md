@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dshowasf.h
+ - dshowasf.h
 api_name:
--	_AM_ASFWRITERCONFIG_PARAM
+ - _AM_ASFWRITERCONFIG_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

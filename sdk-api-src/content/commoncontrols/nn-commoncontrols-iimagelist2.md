@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OFNOTIFYW, *LPOFNOTIFYW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Commoncontrols.h
+ - Commoncontrols.h
 api_name:
--	IImageList2
+ - IImageList2
 product: Windows
 targetos: Windows
 req.lib: Comctl32.lib

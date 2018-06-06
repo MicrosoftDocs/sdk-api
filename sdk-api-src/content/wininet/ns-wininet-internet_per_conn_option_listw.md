@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: INTERNET_PER_CONN_OPTION_LISTW, *LPINTERNET_PER_CONN_OPTION_LISTW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	INTERNET_PER_CONN_OPTION_LIST
--	INTERNET_PER_CONN_OPTION_LISTA
--	INTERNET_PER_CONN_OPTION_LISTW
+ - INTERNET_PER_CONN_OPTION_LIST
+ - INTERNET_PER_CONN_OPTION_LISTA
+ - INTERNET_PER_CONN_OPTION_LISTW
 product: Windows
 targetos: Windows
 req.lib: 

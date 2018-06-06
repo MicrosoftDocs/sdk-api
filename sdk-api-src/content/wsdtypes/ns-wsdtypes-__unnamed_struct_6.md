@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESPONSEBODY_GetStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdTypes.h
+ - WsdTypes.h
 api_name:
--	RESPONSEBODY_GetStatus
+ - RESPONSEBODY_GetStatus
 product: Windows
 targetos: Windows
 req.lib: 

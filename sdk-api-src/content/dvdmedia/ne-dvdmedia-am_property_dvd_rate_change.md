@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_PROPERTY_DVD_RATE_CHANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dvdmedia.h
+ - Dvdmedia.h
 api_name:
--	AM_PROPERTY_DVD_RATE_CHANGE
+ - AM_PROPERTY_DVD_RATE_CHANGE
 product: Windows
 targetos: Windows
 req.lib: 

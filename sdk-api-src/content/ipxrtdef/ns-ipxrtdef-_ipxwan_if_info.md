@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipxrtdef.h
+ - Ipxrtdef.h
 api_name:
--	IPXWAN_IF_INFO
+ - IPXWAN_IF_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tiptsf.dll
+ - tiptsf.dll
 api_name:
--	ITextInputPanel.ExpandPostInsertionCorrection
--	ITextInputPanel.get_ExpandPostInsertionCorrection
--	ITextInputPanel.put_ExpandPostInsertionCorrection
--	ITextInputPanel.get_ExpandPostInsertionCorrection
--	ITextInputPanel.put_ExpandPostInsertionCorrection
+ - ITextInputPanel.ExpandPostInsertionCorrection
+ - ITextInputPanel.get_ExpandPostInsertionCorrection
+ - ITextInputPanel.put_ExpandPostInsertionCorrection
+ - ITextInputPanel.get_ExpandPostInsertionCorrection
+ - ITextInputPanel.put_ExpandPostInsertionCorrection
 product: Windows
 targetos: Windows
 req.lib: 

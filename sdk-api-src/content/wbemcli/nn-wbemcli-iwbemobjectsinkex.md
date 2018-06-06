@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	IWbemObjectSinkEx
+ - IWbemObjectSinkEx
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

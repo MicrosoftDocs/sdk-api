@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CERT_AUTHORITY_INFO_ACCESS, *PCERT_AUTHORITY_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CERT_AUTHORITY_INFO_ACCESS
+ - CERT_AUTHORITY_INFO_ACCESS
 product: Windows
 targetos: Windows
 req.lib: 

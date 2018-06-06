@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	user32.dll
--	Ext-MS-Win-NTUser-Draw-l1-1-1.dll
--	ext-ms-win-ntuser-draw-l1-1-2.dll
+ - user32.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
--	LoadBitmap
--	LoadBitmapA
--	LoadBitmapW
+ - LoadBitmap
+ - LoadBitmapA
+ - LoadBitmapW
 product: Windows
 targetos: Windows
 req.lib: User32.lib

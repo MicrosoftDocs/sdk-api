@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_PROPID_TO_NAME, *PWIA_PROPID_TO_NAME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	ImportCallback
--	PFE_IMPORT_FUNC
+ - ImportCallback
+ - PFE_IMPORT_FUNC
 product: Windows
 targetos: Windows
 req.lib: 

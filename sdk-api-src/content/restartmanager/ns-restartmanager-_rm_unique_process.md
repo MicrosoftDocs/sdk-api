@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RestartManager.h
+ - RestartManager.h
 api_name:
--	RM_UNIQUE_PROCESS
+ - RM_UNIQUE_PROCESS
 product: Windows
 targetos: Windows
 req.lib: 

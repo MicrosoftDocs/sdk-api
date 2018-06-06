@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmActionReport.ReportTypes
--	IFsrmActionReport.get_ReportTypes
--	IFsrmActionReport.put_ReportTypes
+ - IFsrmActionReport.ReportTypes
+ - IFsrmActionReport.get_ReportTypes
+ - IFsrmActionReport.put_ReportTypes
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: GROUPPROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	QmgrPrxy.dll
+ - QmgrPrxy.dll
 api_name:
--	IBackgroundCopyJob1
--	IBackgroundCopyJob1.CancelJob
--	IBackgroundCopyJob1.SwitchToForeground
--	IBackgroundCopyJob1.GetTimes
+ - IBackgroundCopyJob1
+ - IBackgroundCopyJob1.CancelJob
+ - IBackgroundCopyJob1.SwitchToForeground
+ - IBackgroundCopyJob1.GetTimes
 product: Windows
 targetos: Windows
 req.lib: 

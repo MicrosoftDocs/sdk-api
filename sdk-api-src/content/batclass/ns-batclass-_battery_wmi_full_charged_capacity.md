@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Batclass.h
+ - Batclass.h
 api_name:
--	BATTERY_WMI_FULL_CHARGED_CAPACITY
+ - BATTERY_WMI_FULL_CHARGED_CAPACITY
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: PERSISTENT_ISCSI_LOGIN_INFOW, *PPERSISTENT_ISCSI_LOGIN_INFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	PERSISTENT_ISCSI_LOGIN_INFO
--	PERSISTENT_ISCSI_LOGIN_INFOA
--	PERSISTENT_ISCSI_LOGIN_INFOW
+ - PERSISTENT_ISCSI_LOGIN_INFO
+ - PERSISTENT_ISCSI_LOGIN_INFOA
+ - PERSISTENT_ISCSI_LOGIN_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

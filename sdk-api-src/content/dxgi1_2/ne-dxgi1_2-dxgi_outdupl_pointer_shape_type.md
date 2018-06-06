@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_OUTDUPL_POINTER_SHAPE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_2.h
+ - DXGI1_2.h
 api_name:
--	DXGI_OUTDUPL_POINTER_SHAPE_TYPE
+ - DXGI_OUTDUPL_POINTER_SHAPE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

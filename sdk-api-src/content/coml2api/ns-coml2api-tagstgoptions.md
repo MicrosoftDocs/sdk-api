@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STGOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	coml2api.h
+ - coml2api.h
 api_name:
--	STGOPTIONS
+ - STGOPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

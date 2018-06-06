@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDEADVISE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dde.h
+ - Dde.h
 api_name:
--	DDEADVISE
+ - DDEADVISE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_GETVPORTINPUTFORMATDATA
+ - DD_GETVPORTINPUTFORMATDATA
 product: Windows
 targetos: Windows
 req.lib: 

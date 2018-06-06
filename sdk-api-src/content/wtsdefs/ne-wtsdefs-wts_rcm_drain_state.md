@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_RCM_DRAIN_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsdefs.h
+ - Wtsdefs.h
 api_name:
--	WTS_RCM_DRAIN_STATE
+ - WTS_RCM_DRAIN_STATE
 product: Windows
 targetos: Windows
 req.lib: 

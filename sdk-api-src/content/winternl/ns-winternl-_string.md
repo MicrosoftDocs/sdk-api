@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STRING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winternl.h
+ - Winternl.h
 api_name:
--	STRING
+ - STRING
 product: Windows
 targetos: Windows
 req.lib: 

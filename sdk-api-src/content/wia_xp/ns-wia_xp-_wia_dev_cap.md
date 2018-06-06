@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_DEV_CAP, *PWIA_DEV_CAP, WIA_EVENT_HANDLER, *PWIA_EVENT_HANDLER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wia_xp.h
+ - wia_xp.h
 api_name:
--	WIA_DEV_CAP
+ - WIA_DEV_CAP
 product: Windows
 targetos: Windows
 req.lib: 

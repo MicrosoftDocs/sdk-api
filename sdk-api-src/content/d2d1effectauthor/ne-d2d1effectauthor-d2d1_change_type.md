@@ -29,15 +29,15 @@ req.type-library: D2d1.lib; D2d1.dll
 tech.root: 
 req.typenames: D2D1_CHANGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	D2d1.lib
--	D2d1.dll
+ - D2d1.lib
+ - D2d1.dll
 api_name:
--	D2D1_CHANGE_TYPE
+ - D2D1_CHANGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

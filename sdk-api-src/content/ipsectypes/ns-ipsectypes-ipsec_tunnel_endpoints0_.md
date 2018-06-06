@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPSEC_TUNNEL_ENDPOINTS0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipsectypes.h
+ - Ipsectypes.h
 api_name:
--	IPSEC_TUNNEL_ENDPOINTS0
+ - IPSEC_TUNNEL_ENDPOINTS0
 product: Windows
 targetos: Windows
 req.lib: 

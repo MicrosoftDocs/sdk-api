@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	QosObjs.h
+ - QosObjs.h
 api_name:
--	QOS_DS_CLASS
+ - QOS_DS_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

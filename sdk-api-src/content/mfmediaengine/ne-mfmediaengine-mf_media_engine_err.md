@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_MEDIA_ENGINE_ERR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfmediaengine.h
+ - mfmediaengine.h
 api_name:
--	MF_MEDIA_ENGINE_ERR
+ - MF_MEDIA_ENGINE_ERR
 product: Windows
 targetos: Windows
 req.lib: 

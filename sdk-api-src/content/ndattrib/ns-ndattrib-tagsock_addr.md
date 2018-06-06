@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIAG_SOCKADDR, *PDIAG_SOCK_ADDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndattrib.h
+ - ndattrib.h
 api_name:
--	DIAG_SOCKADDR
+ - DIAG_SOCKADDR
 product: Windows
 targetos: Windows
 req.lib: 

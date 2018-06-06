@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	kernel32.lib
--	API-MS-Win-Core-Wow64-L1-1-1.dll
--	KernelBase.dll
+ - kernel32.lib
+ - API-MS-Win-Core-Wow64-L1-1-1.dll
+ - KernelBase.dll
 api_name:
--	IsWow64GuestMachineSupported
+ - IsWow64GuestMachineSupported
 product: Windows
 targetos: Windows
 req.lib: Kernel32.dll

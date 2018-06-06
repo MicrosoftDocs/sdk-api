@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERFORMANCE_INFORMATION, *PPERFORMANCE_INFORMATION, PERFORMACE_INFORMATION, *PPERFORMACE_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Psapi.h
+ - Psapi.h
 api_name:
--	PERFORMANCE_INFORMATION
+ - PERFORMANCE_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

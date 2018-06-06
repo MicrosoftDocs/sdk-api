@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WBEM_STATUS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemcli.h
+ - Wbemcli.h
 api_name:
--	WBEM_STATUS_TYPE
+ - WBEM_STATUS_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

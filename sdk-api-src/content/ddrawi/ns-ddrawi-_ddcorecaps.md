@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDCORECAPS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawi.h
+ - ddrawi.h
 api_name:
--	DDCORECAPS
+ - DDCORECAPS
 product: Windows
 targetos: Windows
 req.lib: 

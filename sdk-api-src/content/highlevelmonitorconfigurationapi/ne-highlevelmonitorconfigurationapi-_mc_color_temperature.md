@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_COLOR_TEMPERATURE, *LPMC_COLOR_TEMPERATURE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HighLevelMonitorConfigurationAPI.h
+ - HighLevelMonitorConfigurationAPI.h
 api_name:
--	MC_COLOR_TEMPERATURE
+ - MC_COLOR_TEMPERATURE
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

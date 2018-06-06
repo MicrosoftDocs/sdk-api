@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_DRIVE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	HighLevelMonitorConfigurationAPI.h
+ - HighLevelMonitorConfigurationAPI.h
 api_name:
--	MC_DRIVE_TYPE
+ - MC_DRIVE_TYPE
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FWP_IP_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fwptypes.h
+ - Fwptypes.h
 api_name:
--	FWP_IP_VERSION
+ - FWP_IP_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

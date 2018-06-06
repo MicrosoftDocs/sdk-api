@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_MESSAGE, *PRPC_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RpcdceP.h
+ - RpcdceP.h
 api_name:
--	RPC_MESSAGE
+ - RPC_MESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

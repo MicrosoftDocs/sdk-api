@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SystemHealthAgentState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Hnetcfg.dll
+ - Hnetcfg.dll
 api_name:
--	IUPnPNAT.get_NATEventManager
+ - IUPnPNAT.get_NATEventManager
 product: Windows
 targetos: Windows
 req.lib: 

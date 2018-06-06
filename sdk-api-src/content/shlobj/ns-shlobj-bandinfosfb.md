@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BANDINFOSFB, *PBANDINFOSFB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shlobj.h
+ - Shlobj.h
 api_name:
--	BANDINFOSFB
+ - BANDINFOSFB
 product: Windows
 targetos: Windows
 req.lib: 

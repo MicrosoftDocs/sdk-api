@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VARKIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	oaidl.h
+ - oaidl.h
 api_name:
--	IRecordInfo.RecordCreateCopy
+ - IRecordInfo.RecordCreateCopy
 product: Windows
 targetos: Windows
 req.lib: 

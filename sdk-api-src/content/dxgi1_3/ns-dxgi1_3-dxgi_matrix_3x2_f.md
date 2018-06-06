@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_MATRIX_3X2_F
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxgi1_3.h
+ - dxgi1_3.h
 api_name:
--	DXGI_MATRIX_3X2_F
+ - DXGI_MATRIX_3X2_F
 product: Windows
 targetos: Windows
 req.lib: 

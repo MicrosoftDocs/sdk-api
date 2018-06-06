@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfLBIClick
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msctf.dll
+ - msctf.dll
 api_name:
--	ITfLangBarItemMgr.AddItem
+ - ITfLangBarItemMgr.AddItem
 product: Windows
 targetos: Windows
 req.lib: 

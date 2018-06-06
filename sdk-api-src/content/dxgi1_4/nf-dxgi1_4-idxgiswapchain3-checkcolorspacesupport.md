@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Dxgi.lib
--	Dxgi.dll
+ - Dxgi.lib
+ - Dxgi.dll
 api_name:
--	IDXGISwapChain3.CheckColorSpaceSupport
+ - IDXGISwapChain3.CheckColorSpaceSupport
 product: Windows
 targetos: Windows
 req.lib: Dxgi.lib

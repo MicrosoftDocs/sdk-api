@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_SUBNET_STATE, *LPDHCP_SUBNET_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_SUBNET_STATE
+ - DHCP_SUBNET_STATE
 product: Windows
 targetos: Windows
 req.lib: 

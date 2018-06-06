@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_PARTITION_INFO_EX, *PCLUS_PARTITION_INFO_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_PARTITION_INFO_EX
+ - CLUS_PARTITION_INFO_EX
 product: Windows
 targetos: Windows
 req.lib: 

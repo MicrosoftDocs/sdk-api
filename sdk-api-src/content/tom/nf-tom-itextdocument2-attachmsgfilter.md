@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANCODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msftedit.dll
+ - Msftedit.dll
 api_name:
--	ITextDocument2.AttachMsgFilter
+ - ITextDocument2.AttachMsgFilter
 product: Windows
 targetos: Windows
 req.lib: 

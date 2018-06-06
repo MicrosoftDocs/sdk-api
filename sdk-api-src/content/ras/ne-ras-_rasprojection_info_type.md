@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RASPROJECTION_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ras.h
+ - Ras.h
 api_name:
--	RASPROJECTION_INFO_TYPE
+ - RASPROJECTION_INFO_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

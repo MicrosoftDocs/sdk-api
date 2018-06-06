@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationClient.h
+ - UIAutomationClient.h
 api_name:
--	IUIAutomationDragPattern.CurrentDropEffects
--	IUIAutomationDragPattern.get_CurrentDropEffects
+ - IUIAutomationDragPattern.CurrentDropEffects
+ - IUIAutomationDragPattern.get_CurrentDropEffects
 product: Windows
 targetos: Windows
 req.lib: 

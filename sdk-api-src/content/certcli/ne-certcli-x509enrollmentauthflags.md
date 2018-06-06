@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509EnrollmentAuthFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Certcli.h
+ - Certcli.h
 api_name:
--	X509EnrollmentAuthFlags
+ - X509EnrollmentAuthFlags
 product: Windows
 targetos: Windows
 req.lib: Certadm.lib

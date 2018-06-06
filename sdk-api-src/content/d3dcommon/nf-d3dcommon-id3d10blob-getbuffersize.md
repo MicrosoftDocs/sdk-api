@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D_SHADER_VARIABLE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3DCommon.h
+ - D3DCommon.h
 api_name:
--	ID3D10Blob.GetBufferSize
+ - ID3D10Blob.GetBufferSize
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AudioClientProperties
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	AudioEndpoints.h
+ - AudioEndpoints.h
 api_name:
--	IAudioEndpointFormatControl
+ - IAudioEndpointFormatControl
 product: Windows
 targetos: Windows
 req.lib: 

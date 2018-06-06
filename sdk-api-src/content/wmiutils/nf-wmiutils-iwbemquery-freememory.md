@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMIQ_ASSOCQ_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmiutils.dll
+ - Wmiutils.dll
 api_name:
--	IWbemQuery.FreeMemory
+ - IWbemQuery.FreeMemory
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

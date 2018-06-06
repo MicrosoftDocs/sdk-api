@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SYMSRV_INDEX_INFO, *PSYMSRV_INDEX_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dbghelp.h
+ - Dbghelp.h
 api_name:
--	SYMSRV_INDEX_INFO
--	SYMSRV_INDEX_INFO
--	SYMSRV_INDEX_INFOW
+ - SYMSRV_INDEX_INFO
+ - SYMSRV_INDEX_INFO
+ - SYMSRV_INDEX_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

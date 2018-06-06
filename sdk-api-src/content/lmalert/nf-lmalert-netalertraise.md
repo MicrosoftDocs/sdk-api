@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_MODALS_INFO_3, *PUSER_MODALS_INFO_3, *LPUSER_MODALS_INFO_3
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	NetAlertRaise
+ - NetAlertRaise
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

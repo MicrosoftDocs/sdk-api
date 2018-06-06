@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LSA_OBJECT_ATTRIBUTES, *PLSA_OBJECT_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	LsaLookup.h
+ - LsaLookup.h
 api_name:
--	LSA_OBJECT_ATTRIBUTES
+ - LSA_OBJECT_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

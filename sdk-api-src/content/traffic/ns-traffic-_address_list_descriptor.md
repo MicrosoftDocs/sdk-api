@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADDRESS_LIST_DESCRIPTOR, *PADDRESS_LIST_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Traffic.h
+ - Traffic.h
 api_name:
--	ADDRESS_LIST_DESCRIPTOR
+ - ADDRESS_LIST_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXF_ID, *PTXF_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TxfW32.h
+ - TxfW32.h
 api_name:
--	TXF_ID
+ - TXF_ID
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FSM_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	FSM_STATE
+ - FSM_STATE
 product: Windows
 targetos: Windows
 req.lib: 

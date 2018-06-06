@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_POLICY_VALUE, *PWCM_POLICY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_POLICY_VALUE
+ - WCM_POLICY_VALUE
 product: Windows
 targetos: Windows
 req.lib: 

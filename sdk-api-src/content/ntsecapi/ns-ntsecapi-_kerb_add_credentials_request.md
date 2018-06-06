@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KERB_ADD_CREDENTIALS_REQUEST, *PKERB_ADD_CREDENTIALS_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	KERB_ADD_CREDENTIALS_REQUEST
+ - KERB_ADD_CREDENTIALS_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

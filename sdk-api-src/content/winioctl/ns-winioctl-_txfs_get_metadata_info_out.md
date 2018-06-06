@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_GET_METADATA_INFO_OUT, *PTXFS_GET_METADATA_INFO_OUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_GET_METADATA_INFO_OUT
+ - TXFS_GET_METADATA_INFO_OUT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_VOICE_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	IMbnSmsConfiguration.ServiceCenterAddress
--	IMbnSmsConfiguration.get_ServiceCenterAddress
--	IMbnSmsConfiguration.put_ServiceCenterAddress
+ - IMbnSmsConfiguration.ServiceCenterAddress
+ - IMbnSmsConfiguration.get_ServiceCenterAddress
+ - IMbnSmsConfiguration.put_ServiceCenterAddress
 product: Windows
 targetos: Windows
 req.lib: 

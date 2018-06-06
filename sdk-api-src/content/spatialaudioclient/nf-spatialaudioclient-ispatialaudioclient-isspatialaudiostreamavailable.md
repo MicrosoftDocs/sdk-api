@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AudioObjectType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	spatialaudioclient.h
+ - spatialaudioclient.h
 api_name:
--	ISpatialAudioClient.IsSpatialAudioStreamAvailable
+ - ISpatialAudioClient.IsSpatialAudioStreamAvailable
 product: Windows
 targetos: Windows
 req.lib: 

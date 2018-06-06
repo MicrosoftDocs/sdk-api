@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DS_MANGLE_FOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsparse.h
+ - Dsparse.h
 api_name:
--	DS_MANGLE_FOR
+ - DS_MANGLE_FOR
 product: Windows
 targetos: Windows
 req.lib: 

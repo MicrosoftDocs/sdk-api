@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_QUARANTINE_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	RAS_QUARANTINE_STATE
+ - RAS_QUARANTINE_STATE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	PFREE_CLUSTER_CRYPT callback
+ - PFREE_CLUSTER_CRYPT callback
 product: Windows
 targetos: Windows
 req.lib: 

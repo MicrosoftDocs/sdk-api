@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_NOTIFICATION_TYPE, *PWNV_NOTIFICATION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_NOTIFICATION_TYPE
+ - WNV_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

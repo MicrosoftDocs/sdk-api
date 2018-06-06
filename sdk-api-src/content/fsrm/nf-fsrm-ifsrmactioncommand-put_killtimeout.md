@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERED_DATA_SOURCES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmActionCommand.KillTimeOut
--	IFsrmActionCommand.get_KillTimeOut
--	IFsrmActionCommand.put_KillTimeOut
+ - IFsrmActionCommand.KillTimeOut
+ - IFsrmActionCommand.get_KillTimeOut
+ - IFsrmActionCommand.put_KillTimeOut
 product: Windows
 targetos: Windows
 req.lib: 

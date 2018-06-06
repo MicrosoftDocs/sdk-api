@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_SECURABLE_OBJECT, *PWLAN_SECURABLE_OBJECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_SECURABLE_OBJECT
+ - WLAN_SECURABLE_OBJECT
 product: Windows
 targetos: Windows
 req.lib: 

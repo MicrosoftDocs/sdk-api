@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	VERIFY_INFORMATION
+ - VERIFY_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

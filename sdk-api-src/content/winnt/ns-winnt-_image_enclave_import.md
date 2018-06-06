@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGE_ENCLAVE_IMPORT, *PIMAGE_ENCLAVE_IMPORT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winnt.h
+ - winnt.h
 api_name:
--	IMAGE_ENCLAVE_IMPORT
+ - IMAGE_ENCLAVE_IMPORT
 product: Windows
 targetos: Windows
 req.lib: 

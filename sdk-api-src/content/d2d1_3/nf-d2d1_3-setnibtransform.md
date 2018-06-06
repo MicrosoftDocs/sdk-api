@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d2d1_3.h
+ - d2d1_3.h
 api_name:
--	ID2D1InkStyle::SetNibTransform
+ - ID2D1InkStyle::SetNibTransform
 product: Windows
 targetos: Windows
 req.lib: 

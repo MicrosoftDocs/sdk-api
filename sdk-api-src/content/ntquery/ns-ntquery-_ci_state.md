@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CI_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntquery.h
+ - Ntquery.h
 api_name:
--	CI_STATE
+ - CI_STATE
 product: Windows
 targetos: Windows
 req.lib: 

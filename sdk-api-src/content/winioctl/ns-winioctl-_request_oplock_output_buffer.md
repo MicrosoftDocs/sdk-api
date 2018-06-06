@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REQUEST_OPLOCK_OUTPUT_BUFFER, *PREQUEST_OPLOCK_OUTPUT_BUFFER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	REQUEST_OPLOCK_OUTPUT_BUFFER
+ - REQUEST_OPLOCK_OUTPUT_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

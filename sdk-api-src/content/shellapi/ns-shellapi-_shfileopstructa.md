@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHFILEOPSTRUCTA, *LPSHFILEOPSTRUCTA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shellapi.h
+ - Shellapi.h
 api_name:
--	SHFILEOPSTRUCT
+ - SHFILEOPSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

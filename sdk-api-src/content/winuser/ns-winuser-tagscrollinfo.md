@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCROLLINFO, *LPSCROLLINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	SCROLLINFO
+ - SCROLLINFO
 product: Windows
 targetos: Windows
 req.lib: 

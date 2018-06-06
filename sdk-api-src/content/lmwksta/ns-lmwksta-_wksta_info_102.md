@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WKSTA_INFO_102, *PWKSTA_INFO_102, *LPWKSTA_INFO_102
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmwksta.h
+ - Lmwksta.h
 api_name:
--	WKSTA_INFO_102
+ - WKSTA_INFO_102
 product: Windows
 targetos: Windows
 req.lib: 

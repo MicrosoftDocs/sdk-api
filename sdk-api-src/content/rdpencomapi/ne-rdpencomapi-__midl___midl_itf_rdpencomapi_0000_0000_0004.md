@@ -29,14 +29,14 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: CHANNEL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rdpencomapi.h
+ - Rdpencomapi.h
 api_name:
--	CHANNEL_FLAGS
+ - CHANNEL_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

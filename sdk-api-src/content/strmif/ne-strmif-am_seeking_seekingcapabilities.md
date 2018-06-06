@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_SEEKING_SEEKING_CAPABILITIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	AM_SEEKING_SEEKING_CAPABILITIES
+ - AM_SEEKING_SEEKING_CAPABILITIES
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

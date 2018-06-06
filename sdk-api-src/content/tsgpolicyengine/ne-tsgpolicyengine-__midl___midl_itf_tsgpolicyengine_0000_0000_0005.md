@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PolicyAttributeType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TSGPolicyEngine.h
+ - TSGPolicyEngine.h
 api_name:
--	PolicyAttributeType
+ - PolicyAttributeType
 product: Windows
 targetos: Windows
 req.lib: 

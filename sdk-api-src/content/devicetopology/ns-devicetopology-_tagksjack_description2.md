@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Devicetopology.h
+ - Devicetopology.h
 api_name:
--	KSJACK_DESCRIPTION2
+ - KSJACK_DESCRIPTION2
 product: Windows
 targetos: Windows
 req.lib: 

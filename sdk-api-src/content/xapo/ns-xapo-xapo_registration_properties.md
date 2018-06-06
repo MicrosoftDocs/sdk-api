@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xapo.h
+ - xapo.h
 api_name:
--	XAPO_REGISTRATION_PROPERTIES
+ - XAPO_REGISTRATION_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

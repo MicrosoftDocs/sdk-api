@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: UDACCEL, *LPUDACCEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Comdlg32.dll
+ - Comdlg32.dll
 api_name:
--	GetFileTitle
--	GetFileTitleA
--	GetFileTitleW
+ - GetFileTitle
+ - GetFileTitleA
+ - GetFileTitleW
 product: Windows
 targetos: Windows
 req.lib: Comdlg32.lib

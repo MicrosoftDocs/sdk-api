@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_DEBUG_RLO_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGIDebug.h
+ - DXGIDebug.h
 api_name:
--	DXGI_DEBUG_RLO_FLAGS
+ - DXGI_DEBUG_RLO_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

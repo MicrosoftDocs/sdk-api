@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	RuntimeObject.lib
--	RuntimeObject.dll
--	API-MS-Win-Core-WinRT-error-l1-1-0.dll
--	ComBase.dll
--	API-MS-Win-Core-WinRT-error-l1-1-1.dll
+ - RuntimeObject.lib
+ - RuntimeObject.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
--	RoOriginateError
--	WinRTOriginateError
+ - RoOriginateError
+ - WinRTOriginateError
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

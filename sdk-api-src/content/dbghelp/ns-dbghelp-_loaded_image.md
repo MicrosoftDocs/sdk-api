@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: LOADED_IMAGE, *PLOADED_IMAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	LOADED_IMAGE
+ - LOADED_IMAGE
 product: Windows
 targetos: Windows
 req.lib: 

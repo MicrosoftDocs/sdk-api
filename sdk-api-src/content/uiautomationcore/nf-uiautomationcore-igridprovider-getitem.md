@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Uiautomationcore.dll
+ - Uiautomationcore.dll
 api_name:
--	IGridProvider.GetItem
+ - IGridProvider.GetItem
 product: Windows
 targetos: Windows
 req.lib: 

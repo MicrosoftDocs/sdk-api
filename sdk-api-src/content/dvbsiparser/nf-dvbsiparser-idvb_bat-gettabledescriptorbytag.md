@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dvbsiparser.h
+ - dvbsiparser.h
 api_name:
--	IDVB_BAT.GetTableDescriptorByTag
+ - IDVB_BAT.GetTableDescriptorByTag
 product: Windows
 targetos: Windows
 req.lib: 

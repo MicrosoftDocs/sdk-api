@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IFILTER_INIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Filter.h
+ - Filter.h
 api_name:
--	IFilter.GetText
+ - IFilter.GetText
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_L2TP_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mprapi.h
+ - mprapi.h
 api_name:
--	ROUTER_CUSTOM_IKEv2_POLICY0
+ - ROUTER_CUSTOM_IKEv2_POLICY0
 product: Windows
 targetos: Windows
 req.lib: 

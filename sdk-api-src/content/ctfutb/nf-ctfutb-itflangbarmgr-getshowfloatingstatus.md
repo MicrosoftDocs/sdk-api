@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfLBIClick
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msctf.dll
+ - Msctf.dll
 api_name:
--	ITfLangBarMgr.GetShowFloatingStatus
+ - ITfLangBarMgr.GetShowFloatingStatus
 product: Windows
 targetos: Windows
 req.lib: 

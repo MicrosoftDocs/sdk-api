@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_LINE21_CCSERVICE, *PAM_LINE21_CCSERVICE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	il21dec.h
+ - il21dec.h
 api_name:
--	AM_LINE21_CCSERVICE
+ - AM_LINE21_CCSERVICE
 product: Windows
 targetos: Windows
 req.lib: 

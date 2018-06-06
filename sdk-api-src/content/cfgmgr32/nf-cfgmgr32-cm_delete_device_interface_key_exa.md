@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Cfgmgr32.lib
--	Cfgmgr32.dll
+ - Cfgmgr32.lib
+ - Cfgmgr32.dll
 api_name:
--	CM_Delete_Device_Interface_Key_ExA
+ - CM_Delete_Device_Interface_Key_ExA
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib

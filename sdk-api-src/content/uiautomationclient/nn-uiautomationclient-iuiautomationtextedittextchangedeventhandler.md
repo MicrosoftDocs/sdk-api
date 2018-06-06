@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	UIAutomationCore.dll
+ - UIAutomationCore.dll
 api_name:
--	IUIAutomationTextEditTextChangedEventHandler
--	IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
+ - IUIAutomationTextEditTextChangedEventHandler
+ - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 product: Windows
 targetos: Windows
 req.lib: 

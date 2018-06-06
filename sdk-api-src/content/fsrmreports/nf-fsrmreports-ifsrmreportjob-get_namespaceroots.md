@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmReportJob.NamespaceRoots
--	IFsrmReportJob.get_NamespaceRoots
--	IFsrmReportJob.put_NamespaceRoots
+ - IFsrmReportJob.NamespaceRoots
+ - IFsrmReportJob.get_NamespaceRoots
+ - IFsrmReportJob.put_NamespaceRoots
 product: Windows
 targetos: Windows
 req.lib: 

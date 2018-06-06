@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	kernel32.dll
--	API-MS-Win-Core-Job-L2-1-1.dll
--	Kernel32Legacy.dll
+ - kernel32.dll
+ - API-MS-Win-Core-Job-L2-1-1.dll
+ - Kernel32Legacy.dll
 api_name:
--	QueryIoRateControlInformationJobObject
+ - QueryIoRateControlInformationJobObject
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_MSM_NOTIFICATION_DATA, *PWLAN_MSM_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_MSM_NOTIFICATION_DATA
+ - WLAN_MSM_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
 req.lib: 

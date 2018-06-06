@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, *LPERRLOG_OTHER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmalert.h
+ - Lmalert.h
 api_name:
--	ERRLOG_OTHER_INFO
+ - ERRLOG_OTHER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

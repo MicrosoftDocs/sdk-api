@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_SD_FORMAT_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Activeds.dll
+ - Activeds.dll
 api_name:
--	IDirectorySchemaMgmt
--	IDirectorySchemaMgmt.EnumAttributes
--	IDirectorySchemaMgmt.CreateAttributeDefinition
--	IDirectorySchemaMgmt.WriteAttributeDefinition
--	IDirectorySchemaMgmt.DeleteAttributeDefinition
--	IDirectorySchemaMgmt.EnumClasses
--	IDirectorySchemaMgmt.CreateClassDefinition
--	IDirectorySchemaMgmt.WriteClassDefinition
--	IDirectorySchemaMgmt.DeleteClassDefinition
+ - IDirectorySchemaMgmt
+ - IDirectorySchemaMgmt.EnumAttributes
+ - IDirectorySchemaMgmt.CreateAttributeDefinition
+ - IDirectorySchemaMgmt.WriteAttributeDefinition
+ - IDirectorySchemaMgmt.DeleteAttributeDefinition
+ - IDirectorySchemaMgmt.EnumClasses
+ - IDirectorySchemaMgmt.CreateClassDefinition
+ - IDirectorySchemaMgmt.WriteClassDefinition
+ - IDirectorySchemaMgmt.DeleteClassDefinition
 product: Windows
 targetos: Windows
 req.lib: 

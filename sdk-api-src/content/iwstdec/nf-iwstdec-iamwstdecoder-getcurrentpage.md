@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	IAMWstDecoder.GetCurrentPage
+ - IAMWstDecoder.GetCurrentPage
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

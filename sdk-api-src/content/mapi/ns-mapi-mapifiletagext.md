@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MapiFileTagExt, *lpMapiFileTagExt
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mapi.h
+ - Mapi.h
 api_name:
--	MapiFileTagExt
+ - MapiFileTagExt
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmvcore.lib
--	Wmvcore.dll
--	WMStubDRM.lib
--	WMStubDRM.dll
--	qasf.dll
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
 api_name:
--	IWMProfile.GetVersion
--	IWMProfile2.GetVersion
--	IWMProfile3.GetVersion
+ - IWMProfile.GetVersion
+ - IWMProfile2.GetVersion
+ - IWMProfile3.GetVersion
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

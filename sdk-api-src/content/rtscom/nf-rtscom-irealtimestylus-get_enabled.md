@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IRealTimeStylus.Enabled
--	IRealTimeStylus.get_Enabled
--	IRealTimeStylus.put_Enabled
--	IRealTimeStylus.get_Enabled
--	IRealTimeStylus.put_Enabled
+ - IRealTimeStylus.Enabled
+ - IRealTimeStylus.get_Enabled
+ - IRealTimeStylus.put_Enabled
+ - IRealTimeStylus.get_Enabled
+ - IRealTimeStylus.put_Enabled
 product: Windows
 targetos: Windows
 req.lib: 

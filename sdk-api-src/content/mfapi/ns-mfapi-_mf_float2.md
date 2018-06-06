@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_FLOAT2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfapi.h
+ - mfapi.h
 api_name:
--	MF_FLOAT2
+ - MF_FLOAT2
 product: Windows
 targetos: Windows
 req.lib: 

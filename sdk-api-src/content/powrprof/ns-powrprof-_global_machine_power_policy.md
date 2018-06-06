@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: GLOBAL_MACHINE_POWER_POLICY, *PGLOBAL_MACHINE_POWER_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	PowrProf.h
+ - PowrProf.h
 api_name:
--	GLOBAL_MACHINE_POWER_POLICY
+ - GLOBAL_MACHINE_POWER_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

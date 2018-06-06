@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OFFLINEFILES_EVENTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CscObj.h
+ - CscObj.h
 api_name:
--	OFFLINEFILES_EVENTS
+ - OFFLINEFILES_EVENTS
 product: Windows
 targetos: Windows
 req.lib: CscApi.lib

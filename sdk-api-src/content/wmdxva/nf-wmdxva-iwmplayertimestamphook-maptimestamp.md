@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASF_INDEX_IDENTIFIER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmdxva.h
+ - Wmdxva.h
 api_name:
--	IWMPlayerTimestampHook.MapTimestamp
+ - IWMPlayerTimestampHook.MapTimestamp
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.h
+ - Azroles.h
 api_name:
--	IAzApplicationGroup2.BizRule
--	IAzApplicationGroup2.get_BizRule
--	IAzApplicationGroup2.put_BizRule
+ - IAzApplicationGroup2.BizRule
+ - IAzApplicationGroup2.get_BizRule
+ - IAzApplicationGroup2.put_BizRule
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILTERING_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winsync.h
+ - winsync.h
 api_name:
--	FILTERING_TYPE
+ - FILTERING_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

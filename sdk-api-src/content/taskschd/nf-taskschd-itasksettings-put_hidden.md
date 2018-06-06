@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	ITaskSettings.Hidden
--	ITaskSettings.get_Hidden
--	ITaskSettings.put_Hidden
+ - ITaskSettings.Hidden
+ - ITaskSettings.get_Hidden
+ - ITaskSettings.put_Hidden
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

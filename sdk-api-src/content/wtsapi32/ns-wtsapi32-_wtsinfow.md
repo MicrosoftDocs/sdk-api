@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTSINFOW, *PWTSINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTSINFO
--	WTSINFOA
--	WTSINFOW
+ - WTSINFO
+ - WTSINFOA
+ - WTSINFOW
 product: Windows
 targetos: Windows
 req.lib: 

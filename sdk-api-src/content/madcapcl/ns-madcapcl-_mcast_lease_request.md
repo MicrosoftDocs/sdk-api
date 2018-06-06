@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MCAST_LEASE_REQUEST, *PMCAST_LEASE_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Madcapcl.h
+ - Madcapcl.h
 api_name:
--	MCAST_LEASE_REQUEST
+ - MCAST_LEASE_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

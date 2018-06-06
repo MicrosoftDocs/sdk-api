@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PXE_DHCPV6_OPTION, *PPXE_DHCPV6_OPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WdsPxe.h
+ - WdsPxe.h
 api_name:
--	PXE_DHCPV6_OPTION
+ - PXE_DHCPV6_OPTION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Win32k.sys
+ - Win32k.sys
 api_name:
--	HeapVidMemAllocAligned
+ - HeapVidMemAllocAligned
 product: Windows
 targetos: Windows
 req.lib: Win32k.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, *LPADS_SEARCHPREF_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iads.h
+ - Iads.h
 api_name:
--	ADS_SEARCHPREF_INFO
+ - ADS_SEARCHPREF_INFO
 product: Windows
 targetos: Windows
 req.lib: 

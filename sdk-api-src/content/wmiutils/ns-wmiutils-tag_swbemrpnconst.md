@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SWbemRpnConst
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmiutils.h
+ - Wmiutils.h
 api_name:
--	SWbemRpnConst
+ - SWbemRpnConst
 product: Windows
 targetos: Windows
 req.lib: 

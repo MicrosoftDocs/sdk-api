@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MULTI_QI
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	objidlbase.h
+ - objidlbase.h
 api_name:
--	MULTI_QI
+ - MULTI_QI
 product: Windows
 targetos: Windows
 req.lib: 

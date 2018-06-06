@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DDP_FILE_EXTENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DdpBackup.h
+ - DdpBackup.h
 api_name:
--	DDP_FILE_EXTENT
+ - DDP_FILE_EXTENT
 product: Windows
 targetos: Windows
 req.lib: 

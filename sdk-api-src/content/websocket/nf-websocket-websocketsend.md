@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WEB_SOCKET_PROPERTY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	websocket.dll
+ - websocket.dll
 api_name:
--	WebSocketSend
+ - WebSocketSend
 product: Windows
 targetos: Windows
 req.lib: Websocket.lib

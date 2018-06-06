@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EC_VARIANT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Wecapi.dll
+ - Wecapi.dll
 api_name:
--	EcRemoveObjectArrayElement
+ - EcRemoveObjectArrayElement
 product: Windows
 targetos: Windows
 req.lib: Wecapi.lib

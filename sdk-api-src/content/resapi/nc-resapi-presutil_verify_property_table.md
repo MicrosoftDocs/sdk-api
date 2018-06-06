@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	PRESUTIL_VERIFY_PROPERTY_TABLE
+ - PRESUTIL_VERIFY_PROPERTY_TABLE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_SYMBOL_TYPE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dbghelp.dll
+ - Dbghelp.dll
 api_name:
--	UnmapDebugInformation
+ - UnmapDebugInformation
 product: Windows
 targetos: Windows
 req.lib: Dbghelp.lib

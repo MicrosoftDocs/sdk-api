@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D2D1_UNIT_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	D2d1.dll
+ - D2d1.dll
 api_name:
--	ID2D1Geometry::GetBounds
+ - ID2D1Geometry::GetBounds
 product: Windows
 targetos: Windows
 req.lib: D2d1.lib

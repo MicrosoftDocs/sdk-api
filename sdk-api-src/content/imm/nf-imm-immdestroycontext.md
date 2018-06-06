@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMECOMPOSITIONSTRINGINFO, *LPIMECOMPOSITIONSTRINGINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	imm32.dll
+ - imm32.dll
 api_name:
--	ImmDestroyContext
+ - ImmDestroyContext
 product: Windows
 targetos: Windows
 req.lib: Imm32.lib

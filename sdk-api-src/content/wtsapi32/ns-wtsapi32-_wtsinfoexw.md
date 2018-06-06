@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: WTSINFOEXW, *PWTSINFOEXW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wtsapi32.h
+ - Wtsapi32.h
 api_name:
--	WTSINFOEX
--	WTSINFOEXA
--	WTSINFOEXW
+ - WTSINFOEX
+ - WTSINFOEXA
+ - WTSINFOEXW
 product: Windows
 targetos: Windows
 req.lib: 

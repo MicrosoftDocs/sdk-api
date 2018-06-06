@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MI_ConstReal32A
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mi.h
+ - Mi.h
 api_name:
--	MI_ConstReal32A
+ - MI_ConstReal32A
 product: Windows
 targetos: Windows
 req.lib: 

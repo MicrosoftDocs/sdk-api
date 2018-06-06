@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_UPGRADE_STATUS_INFO, *PDSROLE_UPGRADE_STATUS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dvbsiparser.h
+ - dvbsiparser.h
 api_name:
--	IISDB_BIT.GetVersionNumber
+ - IISDB_BIT.GetVersionNumber
 product: Windows
 targetos: Windows
 req.lib: 

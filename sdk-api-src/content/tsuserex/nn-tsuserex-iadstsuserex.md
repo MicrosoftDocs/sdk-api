@@ -29,14 +29,14 @@ req.type-library: Tsuserex.tlb
 tech.root: 
 req.typenames: WTSSBX_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Tsuserex.dll
+ - Tsuserex.dll
 api_name:
--	IADsTSUserEx
+ - IADsTSUserEx
 product: Windows
 targetos: Windows
 req.lib: 

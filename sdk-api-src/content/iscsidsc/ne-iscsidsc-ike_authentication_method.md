@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKE_AUTHENTICATION_METHOD, *PIKE_AUTHENTICATION_METHOD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iscsidsc.h
+ - Iscsidsc.h
 api_name:
--	IKE_AUTHENTICATION_METHOD
+ - IKE_AUTHENTICATION_METHOD
 product: Windows
 targetos: Windows
 req.lib: 

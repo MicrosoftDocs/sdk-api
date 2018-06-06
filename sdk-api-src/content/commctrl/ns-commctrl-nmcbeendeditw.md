@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NMCBEENDEDITW, *LPNMCBEENDEDITW, *PNMCBEENDEDITW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Commctrl.h
+ - Commctrl.h
 api_name:
--	NMCBEENDEDIT
--	NMCBEENDEDITA
--	NMCBEENDEDITW
+ - NMCBEENDEDIT
+ - NMCBEENDEDITA
+ - NMCBEENDEDITW
 product: Windows
 targetos: Windows
 req.lib: 

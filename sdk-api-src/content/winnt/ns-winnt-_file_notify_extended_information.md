@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_NOTIFY_EXTENDED_INFORMATION, *PFILE_NOTIFY_EXTENDED_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	FILE_NOTIFY_EXTENDED_INFORMATION
+ - FILE_NOTIFY_EXTENDED_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

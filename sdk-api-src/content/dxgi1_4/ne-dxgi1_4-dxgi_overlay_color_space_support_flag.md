@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_4.h
+ - DXGI1_4.h
 api_name:
--	DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
+ - DXGI_OVERLAY_COLOR_SPACE_SUPPORT_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

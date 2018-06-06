@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	wofapi.h
+ - wofapi.h
 api_name:
--	WofEnumEntryProc
+ - WofEnumEntryProc
 product: Windows
 targetos: Windows
 req.lib: 

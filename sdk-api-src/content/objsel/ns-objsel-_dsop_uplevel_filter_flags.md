@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSOP_UPLEVEL_FILTER_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Objsel.h
+ - Objsel.h
 api_name:
--	DSOP_UPLEVEL_FILTER_FLAGS
+ - DSOP_UPLEVEL_FILTER_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCESVC_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wsecedit.dll
+ - Wsecedit.dll
 api_name:
--	ISceSvcAttachmentPersistInfo.IsDirty
+ - ISceSvcAttachmentPersistInfo.IsDirty
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_RESP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	eaptypes.h
+ - eaptypes.h
 api_name:
--	EAP_CRED_EXPIRY_REQ
+ - EAP_CRED_EXPIRY_REQ
 product: Windows
 targetos: Windows
 req.lib: 

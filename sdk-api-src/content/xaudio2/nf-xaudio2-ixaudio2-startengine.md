@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XAUDIO2_FILTER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	xaudio2.h
+ - xaudio2.h
 api_name:
--	IXAudio2.StartEngine
+ - IXAudio2.StartEngine
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFT_REGISTER_TYPE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MFT_REGISTER_TYPE_INFO
+ - MFT_REGISTER_TYPE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

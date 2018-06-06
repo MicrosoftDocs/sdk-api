@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Magnification.dll
+ - Magnification.dll
 api_name:
--	MagGetImageScalingCallback
+ - MagGetImageScalingCallback
 product: Windows
 targetos: Windows
 req.lib: Magnification.lib

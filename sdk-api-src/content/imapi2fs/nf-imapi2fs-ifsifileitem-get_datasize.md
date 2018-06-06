@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	IFsiFileItem.get_DataSize
+ - IFsiFileItem.get_DataSize
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: CLCTL_CODES
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	CLCTL_CODES
+ - CLCTL_CODES
 product: Windows
 targetos: Windows
 req.lib: 

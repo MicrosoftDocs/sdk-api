@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSB_OB_STATUS_ENTRY_PAIR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WsbOnline.dll
+ - WsbOnline.dll
 api_name:
--	UpdateOBStatusInWindowsServerBackup
+ - UpdateOBStatusInWindowsServerBackup
 product: Windows
 targetos: Windows
 req.lib: 

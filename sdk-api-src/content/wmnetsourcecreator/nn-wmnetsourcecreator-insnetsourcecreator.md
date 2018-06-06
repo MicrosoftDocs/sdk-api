@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: WindowsMediaLibrarySharingDeviceAuthorizationStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmnetsourcecreator.h
+ - wmnetsourcecreator.h
 api_name:
--	INSNetSourceCreator
--	INSNetSourceCreator.CreateNetSource
--	INSNetSourceCreator.GetNetSourceProperties
--	INSNetSourceCreator.GetNetSourceSharedNamespace
--	INSNetSourceCreator.GetNumProtocolsSupported
--	INSNetSourceCreator.GetProtocolName
+ - INSNetSourceCreator
+ - INSNetSourceCreator.CreateNetSource
+ - INSNetSourceCreator.GetNetSourceProperties
+ - INSNetSourceCreator.GetNetSourceSharedNamespace
+ - INSNetSourceCreator.GetNumProtocolsSupported
+ - INSNetSourceCreator.GetProtocolName
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ENTERPRISE_DATA_POLICIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	srpapi.dll
--	Ext-MS-Win-Security-Srp-L1-1-0.dll
--	Ext-MS-Win-Security-Srp-L1-1-1.dll
+ - srpapi.dll
+ - Ext-MS-Win-Security-Srp-L1-1-0.dll
+ - Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
--	SrpSetTokenEnterpriseId
+ - SrpSetTokenEnterpriseId
 product: Windows
 targetos: Windows
 req.lib: Srpapi.lib

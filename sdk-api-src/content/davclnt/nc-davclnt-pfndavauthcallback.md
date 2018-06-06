@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3DX11_FFT_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Davclnt.h
+ - Davclnt.h
 api_name:
--	DavAuthCallback
+ - DavAuthCallback
 product: Windows
 targetos: Windows
 req.lib: 

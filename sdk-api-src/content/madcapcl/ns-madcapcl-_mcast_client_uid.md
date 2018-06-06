@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Madcapcl.h
+ - Madcapcl.h
 api_name:
--	MCAST_CLIENT_UID
+ - MCAST_CLIENT_UID
 product: Windows
 targetos: Windows
 req.lib: 

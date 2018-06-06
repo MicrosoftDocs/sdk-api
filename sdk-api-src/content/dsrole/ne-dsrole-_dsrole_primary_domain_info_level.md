@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsrole.h
+ - Dsrole.h
 api_name:
--	DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+ - DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 product: Windows
 targetos: Windows
 req.lib: 

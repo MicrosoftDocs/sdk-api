@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIRECTMANIPULATION_HITTEST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	directmanipulation.h
+ - directmanipulation.h
 api_name:
--	DIRECTMANIPULATION_HITTEST_TYPE
+ - DIRECTMANIPULATION_HITTEST_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

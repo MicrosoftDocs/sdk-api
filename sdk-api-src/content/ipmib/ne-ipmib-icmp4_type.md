@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ICMP4_TYPE, *PICMP4_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipmib.h
--	Iprtrmib.h
+ - Ipmib.h
+ - Iprtrmib.h
 api_name:
--	ICMP4_TYPE
+ - ICMP4_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

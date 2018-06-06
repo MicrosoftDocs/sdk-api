@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfidl.h
--	Mfidl.idl
+ - mfidl.h
+ - Mfidl.idl
 api_name:
--	IMFPMPClientApp.SetPMPHost
+ - IMFPMPClientApp.SetPMPHost
 product: Windows
 targetos: Windows
 req.lib: 

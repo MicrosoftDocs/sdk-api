@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPVAR_COMPARE_UNIT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propvarutil.h
+ - Propvarutil.h
 api_name:
--	InitVariantFromUInt64
+ - InitVariantFromUInt64
 product: Windows
 targetos: Windows
 req.lib: 

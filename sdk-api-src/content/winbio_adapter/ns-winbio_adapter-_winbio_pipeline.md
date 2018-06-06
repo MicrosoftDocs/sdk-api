@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbio_adapter.h
+ - Winbio_adapter.h
 api_name:
--	WINBIO_PIPELINE
+ - WINBIO_PIPELINE
 product: Windows
 targetos: Windows
 req.lib: 

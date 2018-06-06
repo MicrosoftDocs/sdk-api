@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECPKG_CRED_CLASS, *PSECPKG_CRED_CLASS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SECPKG_CRED_CLASS
+ - SECPKG_CRED_CLASS
 product: Windows
 targetos: Windows
 req.lib: 

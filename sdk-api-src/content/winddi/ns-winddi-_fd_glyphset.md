@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FD_GLYPHSET, *PFD_GLYPHSET
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winddi.h
+ - winddi.h
 api_name:
--	FD_GLYPHSET
+ - FD_GLYPHSET
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_OUTCOME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-rtlsupport-l1-1-0.dll
--	ntdll.dll
--	API-MS-Win-Core-rtlsupport-l1-2-0.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-rtlsupport-l1-1-0.dll
+ - ntdll.dll
+ - API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
--	RtlDeleteFunctionTable
+ - RtlDeleteFunctionTable
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

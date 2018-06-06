@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EMRRESTOREDC, *PEMRRESTOREDC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	EMRRESTOREDC
+ - EMRRESTOREDC
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCM_BILLING_CYCLE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wcmapi.h
+ - Wcmapi.h
 api_name:
--	WCM_BILLING_CYCLE_INFO
+ - WCM_BILLING_CYCLE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

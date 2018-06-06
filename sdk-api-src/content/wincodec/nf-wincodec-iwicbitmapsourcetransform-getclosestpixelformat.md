@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WICTiffCompressionOption
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Windowscodecs.lib
--	Windowscodecs.dll
+ - Windowscodecs.lib
+ - Windowscodecs.dll
 api_name:
--	IWICBitmapSourceTransform.GetClosestPixelFormat
+ - IWICBitmapSourceTransform.GetClosestPixelFormat
 product: Windows
 targetos: Windows
 req.lib: Windowscodecs.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPC_SIGNATURE_TIME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msopc.h
+ - msopc.h
 api_name:
--	IOpcSignatureRelationshipReferenceSet.Create
+ - IOpcSignatureRelationshipReferenceSet.Create
 product: Windows
 targetos: Windows
 req.lib: 

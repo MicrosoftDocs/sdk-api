@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, *LPSOCKET_ADDRESS_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ws2def.h
+ - ws2def.h
 api_name:
--	SOCKET_ADDRESS_LIST
+ - SOCKET_ADDRESS_LIST
 product: Windows
 targetos: Windows
 req.lib: 

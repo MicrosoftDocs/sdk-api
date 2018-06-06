@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPTNET_URL_CACHE_FLUSH_INFO, *PCRYPTNET_URL_CACHE_FLUSH_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPTNET_URL_CACHE_FLUSH_INFO
+ - CRYPTNET_URL_CACHE_FLUSH_INFO
 product: Windows
 targetos: Windows
 req.lib: 

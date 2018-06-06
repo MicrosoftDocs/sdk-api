@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUTHZ_SID_OPERATION, *PAUTHZ_SID_OPERATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Authz.h
+ - Authz.h
 api_name:
--	AUTHZ_SID_OPERATION
+ - AUTHZ_SID_OPERATION
 product: Windows
 targetos: Windows
 req.lib: 

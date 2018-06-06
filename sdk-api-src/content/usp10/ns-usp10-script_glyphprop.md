@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SCRIPT_GLYPHPROP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Usp10.h
+ - Usp10.h
 api_name:
--	SCRIPT_GLYPHPROP
+ - SCRIPT_GLYPHPROP
 product: Windows
 targetos: Windows
 req.lib: 

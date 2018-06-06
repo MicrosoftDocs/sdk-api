@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SourceSizeList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Sensapi.dll
+ - Sensapi.dll
 api_name:
--	IsDestinationReachable
--	IsDestinationReachableA
--	IsDestinationReachableW
+ - IsDestinationReachable
+ - IsDestinationReachableA
+ - IsDestinationReachableW
 product: Windows
 targetos: Windows
 req.lib: Sensapi.lib

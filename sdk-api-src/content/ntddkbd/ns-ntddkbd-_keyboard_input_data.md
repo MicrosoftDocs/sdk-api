@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: KEYBOARD_INPUT_DATA, *PKEYBOARD_INPUT_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ntddkbd.h
+ - ntddkbd.h
 api_name:
--	KEYBOARD_INPUT_DATA
+ - KEYBOARD_INPUT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

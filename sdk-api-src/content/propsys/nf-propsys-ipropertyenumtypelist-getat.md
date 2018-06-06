@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSC_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Propsys.h
+ - Propsys.h
 api_name:
--	IPropertyEnumTypeList.GetAt
+ - IPropertyEnumTypeList.GetAt
 product: Windows
 targetos: Windows
 req.lib: 

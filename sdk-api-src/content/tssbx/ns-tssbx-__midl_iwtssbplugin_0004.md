@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSBX_IP_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tssbx.h
+ - Tssbx.h
 api_name:
--	WTSSBX_IP_ADDRESS
+ - WTSSBX_IP_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

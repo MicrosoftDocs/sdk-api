@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FirewallAPI.dll
--	Hnetcfg.dll
+ - FirewallAPI.dll
+ - Hnetcfg.dll
 api_name:
--	INetFwService.RemoteAddresses
--	INetFwService.get_RemoteAddresses
--	INetFwService.put_RemoteAddresses
+ - INetFwService.RemoteAddresses
+ - INetFwService.get_RemoteAddresses
+ - INetFwService.put_RemoteAddresses
 product: Windows
 targetos: Windows
 req.lib: 

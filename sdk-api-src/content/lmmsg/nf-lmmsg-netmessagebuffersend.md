@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NETSETUP_PROVISIONING_PARAMS, *PNETSETUP_PROVISIONING_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	NetMessageBufferSend
+ - NetMessageBufferSend
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

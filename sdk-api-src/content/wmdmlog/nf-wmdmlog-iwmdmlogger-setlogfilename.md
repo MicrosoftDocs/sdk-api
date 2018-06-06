@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ASF_INDEX_IDENTIFIER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mssachlp.lib
--	mssachlp.dll
+ - mssachlp.lib
+ - mssachlp.dll
 api_name:
--	IWMDMLogger.SetLogFileName
+ - IWMDMLogger.SetLogFileName
 product: Windows
 targetos: Windows
 req.lib: Mssachlp.lib

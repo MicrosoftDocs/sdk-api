@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	gdiplusmatrix.h
+ - gdiplusmatrix.h
 api_name:
--	Matrix
+ - Matrix
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

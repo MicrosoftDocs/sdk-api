@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_QUERY_DATA_SO_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D12.h
+ - D3D12.h
 api_name:
--	D3D12_QUERY_DATA_SO_STATISTICS
+ - D3D12_QUERY_DATA_SO_STATISTICS
 product: Windows
 targetos: Windows
 req.lib: 

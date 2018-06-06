@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_INTERLEAVING
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	xpsobjectmodel.h
+ - xpsobjectmodel.h
 api_name:
--	IXpsOMPackageWriter.Close
--	IXpsOMPackageWriter3D.Close
+ - IXpsOMPackageWriter.Close
+ - IXpsOMPackageWriter3D.Close
 product: Windows
 targetos: Windows
 req.lib: 

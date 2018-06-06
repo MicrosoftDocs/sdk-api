@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MapiRecipDescW, *lpMapiRecipDescW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mapi32.dll
+ - mapi32.dll
 api_name:
--	MAPISendMailHelper
+ - MAPISendMailHelper
 product: Windows
 targetos: Windows
 req.lib: 

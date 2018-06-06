@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAPI_READ_TRACK_ADDRESS_TYPE, *PIMAPI_READ_TRACK_ADDRESS_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2.h
+ - imapi2.h
 api_name:
--	DDiscMaster2Events.NotifyDeviceRemoved
+ - DDiscMaster2Events.NotifyDeviceRemoved
 product: Windows
 targetos: Windows
 req.lib: 

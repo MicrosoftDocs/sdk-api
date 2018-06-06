@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_BIT_BLOB, *PCRYPT_BIT_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_BIT_BLOB
+ - CRYPT_BIT_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

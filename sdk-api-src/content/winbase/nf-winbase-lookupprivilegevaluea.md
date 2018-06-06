@@ -29,23 +29,23 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-security-lsalookup-l2-1-0.dll
--	API-MS-Win-security-lsalookup-l2-1-1.dll
--	Ext-MS-Win-AdvAPI32-auth-l1-1-0.dll
--	API-MS-Win-Security-LSALookup-L2-1-2.dll
--	API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-security-lsalookup-l2-1-0.dll
+ - API-MS-Win-security-lsalookup-l2-1-1.dll
+ - Ext-MS-Win-AdvAPI32-auth-l1-1-0.dll
+ - API-MS-Win-Security-LSALookup-L2-1-2.dll
+ - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
--	LookupPrivilegeValue
--	LookupPrivilegeValueA
--	LookupPrivilegeValueW
+ - LookupPrivilegeValue
+ - LookupPrivilegeValueA
+ - LookupPrivilegeValueW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

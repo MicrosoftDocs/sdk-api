@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SI_PAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Aclui.dll
+ - Aclui.dll
 api_name:
--	CreateSecurityPage
+ - CreateSecurityPage
 product: Windows
 targetos: Windows
 req.lib: Aclui.lib

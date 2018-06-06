@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADMINISTRATOR_POWER_POLICY, *PADMINISTRATOR_POWER_POLICY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	ADMINISTRATOR_POWER_POLICY
+ - ADMINISTRATOR_POWER_POLICY
 product: Windows
 targetos: Windows
 req.lib: 

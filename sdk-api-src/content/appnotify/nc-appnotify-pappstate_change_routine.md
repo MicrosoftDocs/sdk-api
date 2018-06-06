@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PACKAGE_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	appnotify.h
+ - appnotify.h
 api_name:
--	PAPPSTATE_CHANGE_ROUTINE
+ - PAPPSTATE_CHANGE_ROUTINE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_INTERFACE_TEMPLATEA, *PRPC_INTERFACE_TEMPLATEA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_INTERFACE_TEMPLATE
--	RPC_INTERFACE_TEMPLATEA
--	RPC_INTERFACE_TEMPLATEW
+ - RPC_INTERFACE_TEMPLATE
+ - RPC_INTERFACE_TEMPLATEA
+ - RPC_INTERFACE_TEMPLATEW
 product: Windows
 targetos: Windows
 req.lib: 

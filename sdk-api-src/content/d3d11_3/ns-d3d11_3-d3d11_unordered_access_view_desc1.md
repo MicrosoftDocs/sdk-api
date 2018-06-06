@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_UNORDERED_ACCESS_VIEW_DESC1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11_3.h
+ - D3D11_3.h
 api_name:
--	D3D11_UNORDERED_ACCESS_VIEW_DESC1
+ - D3D11_UNORDERED_ACCESS_VIEW_DESC1
 product: Windows
 targetos: Windows
 req.lib: 

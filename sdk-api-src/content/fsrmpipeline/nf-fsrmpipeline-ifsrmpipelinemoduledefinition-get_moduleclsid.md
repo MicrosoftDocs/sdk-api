@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmPipelineModuleDefinition.ModuleClsid
--	IFsrmPipelineModuleDefinition.get_ModuleClsid
--	IFsrmPipelineModuleDefinition.put_ModuleClsid
+ - IFsrmPipelineModuleDefinition.ModuleClsid
+ - IFsrmPipelineModuleDefinition.get_ModuleClsid
+ - IFsrmPipelineModuleDefinition.put_ModuleClsid
 product: Windows
 targetos: Windows
 req.lib: 

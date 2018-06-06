@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_INFO_QUEUE_FILTER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGIDebug.h
+ - DXGIDebug.h
 api_name:
--	DXGI_INFO_QUEUE_FILTER
+ - DXGI_INFO_QUEUE_FILTER
 product: Windows
 targetos: Windows
 req.lib: 

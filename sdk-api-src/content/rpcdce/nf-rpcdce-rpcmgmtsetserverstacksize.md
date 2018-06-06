@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rpcrt4.dll
+ - Rpcrt4.dll
 api_name:
--	RpcMgmtSetServerStackSize
+ - RpcMgmtSetServerStackSize
 product: Windows
 targetos: Windows
 req.lib: Rpcrt4.lib

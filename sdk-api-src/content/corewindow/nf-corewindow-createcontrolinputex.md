@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPContextMenuInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Windows.UI.dll
+ - Windows.UI.dll
 api_name:
--	CreateControlInputEx
+ - CreateControlInputEx
 product: Windows
 targetos: Windows
 req.lib: 

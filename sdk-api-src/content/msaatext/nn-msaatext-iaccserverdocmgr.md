@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msaatext.h
+ - msaatext.h
 api_name:
--	IAccServerDocMgr
+ - IAccServerDocMgr
 product: Windows
 targetos: Windows
 req.lib: 

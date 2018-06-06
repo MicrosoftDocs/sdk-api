@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EnTvRat_US_TV
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	TxfW32.dll
+ - TxfW32.dll
 api_name:
--	TxfLogReadRecords
+ - TxfLogReadRecords
 product: Windows
 targetos: Windows
 req.lib: TxfW32.lib

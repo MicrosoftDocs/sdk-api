@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SHELL_UI_COMPONENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	shcore.dll
--	api-ms-win-shcore-scaling-l1-1-1.dll
--	API-MS-Win-ShCore-Scaling-L1-1-2.dll
+ - shcore.dll
+ - api-ms-win-shcore-scaling-l1-1-1.dll
+ - API-MS-Win-ShCore-Scaling-L1-1-2.dll
 api_name:
--	GetProcessDpiAwareness
+ - GetProcessDpiAwareness
 product: Windows
 targetos: Windows
 req.lib: Shcore.lib

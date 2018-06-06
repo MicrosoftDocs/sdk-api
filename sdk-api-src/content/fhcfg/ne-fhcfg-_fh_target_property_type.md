@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fhcfg.h
+ - Fhcfg.h
 api_name:
--	FH_TARGET_PROPERTY_TYPE
+ - FH_TARGET_PROPERTY_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VIEWSTATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	OCIdl.h
--	wmp.dll
+ - OCIdl.h
+ - wmp.dll
 api_name:
--	IOleInPlaceSiteEx.OnInPlaceDeactivateEx
--	IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx
+ - IOleInPlaceSiteEx.OnInPlaceDeactivateEx
+ - IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx
 product: Windows
 targetos: Windows
 req.lib: 

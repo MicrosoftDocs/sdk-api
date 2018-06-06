@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE, *PCLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
+ - CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE
 product: Windows
 targetos: Windows
 req.lib: 

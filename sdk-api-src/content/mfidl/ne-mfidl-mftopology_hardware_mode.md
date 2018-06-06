@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFTOPOLOGY_HARDWARE_MODE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFTOPOLOGY_HARDWARE_MODE
+ - MFTOPOLOGY_HARDWARE_MODE
 product: Windows
 targetos: Windows
 req.lib: 

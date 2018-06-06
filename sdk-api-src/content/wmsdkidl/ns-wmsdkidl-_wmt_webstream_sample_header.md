@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMT_WEBSTREAM_SAMPLE_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WMT_WEBSTREAM_SAMPLE_HEADER
+ - WMT_WEBSTREAM_SAMPLE_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

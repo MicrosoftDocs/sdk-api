@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CALL_STATE_EVENT_CAUSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi3if.h
+ - Tapi3if.h
 api_name:
--	CALL_STATE_EVENT_CAUSE
+ - CALL_STATE_EVENT_CAUSE
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

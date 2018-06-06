@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Evalcom2.dll
+ - Evalcom2.dll
 api_name:
--	IValidate.CloseDatabase
+ - IValidate.CloseDatabase
 product: Windows
 targetos: Windows
 req.lib: 

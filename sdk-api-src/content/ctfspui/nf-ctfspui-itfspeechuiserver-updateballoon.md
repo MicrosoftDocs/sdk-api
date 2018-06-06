@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TF_LMLATTELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	sptip.dll
+ - sptip.dll
 api_name:
--	ITfSpeechUIServer.UpdateBalloon
+ - ITfSpeechUIServer.UpdateBalloon
 product: Windows
 targetos: Windows
 req.lib: 

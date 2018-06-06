@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_APP_SEQUENCE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdTypes.h
+ - WsdTypes.h
 api_name:
--	WSD_APP_SEQUENCE
+ - WSD_APP_SEQUENCE
 product: Windows
 targetos: Windows
 req.lib: 

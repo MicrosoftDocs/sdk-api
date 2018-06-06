@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, *LPMEASUREITEMSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	MEASUREITEMSTRUCT
+ - MEASUREITEMSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

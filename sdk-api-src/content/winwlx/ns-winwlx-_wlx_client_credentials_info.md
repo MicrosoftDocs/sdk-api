@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLX_CLIENT_CREDENTIALS_INFO_V1_0, *PWLX_CLIENT_CREDENTIALS_INFO_V1_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winwlx.h
+ - Winwlx.h
 api_name:
--	WLX_CLIENT_CREDENTIALS_INFO_V1_0
+ - WLX_CLIENT_CREDENTIALS_INFO_V1_0
 product: Windows
 targetos: Windows
 req.lib: 

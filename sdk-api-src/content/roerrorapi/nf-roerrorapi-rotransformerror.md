@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: RO_ERROR_REPORTING_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	roerrorapi.h
--	API-MS-Win-Core-WinRT-error-l1-1-0.dll
--	ComBase.dll
--	API-MS-Win-Core-WinRT-error-l1-1-1.dll
+ - roerrorapi.h
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
--	RoTransformError
--	WinRTTransformError
+ - RoTransformError
+ - WinRTTransformError
 product: Windows
 targetos: Windows
 req.lib: 

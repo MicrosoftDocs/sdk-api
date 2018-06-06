@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DRM_OUTPUT_PROTECTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wmsdkidl.h
+ - wmsdkidl.h
 api_name:
--	DRM_VIDEO_OUTPUT_PROTECTION
+ - DRM_VIDEO_OUTPUT_PROTECTION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: StylusInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RTSCom.h
+ - RTSCom.h
 api_name:
--	StylusInfo
+ - StylusInfo
 product: Windows
 targetos: Windows
 req.lib: 

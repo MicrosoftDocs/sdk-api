@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IN6_ADDR, *PIN6_ADDR, *LPIN6_ADDR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	in6addr.h
+ - in6addr.h
 api_name:
--	IN6_ADDR
+ - IN6_ADDR
 product: Windows
 targetos: Windows
 req.lib: 

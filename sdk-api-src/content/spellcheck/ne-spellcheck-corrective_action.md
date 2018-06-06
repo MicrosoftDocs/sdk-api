@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CORRECTIVE_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	SpellCheck.h
+ - SpellCheck.h
 api_name:
--	CORRECTIVE_ACTION
+ - CORRECTIVE_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

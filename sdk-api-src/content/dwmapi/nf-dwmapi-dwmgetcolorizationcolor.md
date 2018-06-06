@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dwmapi.dll
--	ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - Dwmapi.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
--	DwmGetColorizationColor
+ - DwmGetColorizationColor
 product: Windows
 targetos: Windows
 req.lib: Dwmapi.lib

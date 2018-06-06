@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_IPV6_ADDRESS, *LPDHCP_IPV6_ADDRESS, *PDHCP_IPV6_ADDRESS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dhcpsapi.h
+ - Dhcpsapi.h
 api_name:
--	DHCP_IPV6_ADDRESS
+ - DHCP_IPV6_ADDRESS
 product: Windows
 targetos: Windows
 req.lib: 

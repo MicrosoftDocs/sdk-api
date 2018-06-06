@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IDynamicRenderer.DrawingAttributes
--	IDynamicRenderer.get_DrawingAttributes
--	IDynamicRenderer.put_DrawingAttributes
--	IDynamicRenderer.get_DrawingAttributes
--	IDynamicRenderer.put_DrawingAttributes
+ - IDynamicRenderer.DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
 product: Windows
 targetos: Windows
 req.lib: 

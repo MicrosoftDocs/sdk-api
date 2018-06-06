@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	SymEnumSymbolsProc
--	PSYM_ENUMERATESYMBOLS_CALLBACK
--	PSYM_ENUMERATESYMBOLS_CALLBACKW
+ - SymEnumSymbolsProc
+ - PSYM_ENUMERATESYMBOLS_CALLBACK
+ - PSYM_ENUMERATESYMBOLS_CALLBACKW
 product: Windows
 targetos: Windows
 req.lib: 

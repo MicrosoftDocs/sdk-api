@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_HOSTED_NETWORK_PEER_AUTH_STATE, *PWLAN_HOSTED_NETWORK_PEER_AUTH_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wlanapi.h
+ - Wlanapi.h
 api_name:
--	WLAN_HOSTED_NETWORK_PEER_AUTH_STATE
+ - WLAN_HOSTED_NETWORK_PEER_AUTH_STATE
 product: Windows
 targetos: Windows
 req.lib: 

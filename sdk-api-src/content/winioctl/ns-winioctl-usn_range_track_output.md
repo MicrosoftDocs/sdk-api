@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	USN_RANGE_TRACK_OUTPUT
+ - USN_RANGE_TRACK_OUTPUT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: APO_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	audioenginebaseapo.h
+ - audioenginebaseapo.h
 api_name:
--	IAudioSystemEffectsCustomFormats
+ - IAudioSystemEffectsCustomFormats
 product: Windows
 targetos: Windows
 req.lib: 

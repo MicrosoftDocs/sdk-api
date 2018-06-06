@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_STATS_VECTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_STATS_VECTOR
+ - RPC_STATS_VECTOR
 product: Windows
 targetos: Windows
 req.lib: 

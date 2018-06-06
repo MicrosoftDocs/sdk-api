@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FH_PROTECTED_ITEM_CATEGORY, *PFH_PROTECTED_ITEM_CATEGORY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fhcfg.h
+ - Fhcfg.h
 api_name:
--	FH_PROTECTED_ITEM_CATEGORY
+ - FH_PROTECTED_ITEM_CATEGORY
 product: Windows
 targetos: Windows
 req.lib: 

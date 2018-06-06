@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_SECURITY_ATTRIBUTES, *PWLAN_SECURITY_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_SECURITY_ATTRIBUTES
+ - WLAN_SECURITY_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

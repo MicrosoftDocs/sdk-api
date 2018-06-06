@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WL_DISPLAY_PAGES, *PWL_DISPLAY_PAGES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	wlanui.dll
+ - wlanui.dll
 api_name:
--	WlanUIEditProfile
+ - WlanUIEditProfile
 product: Windows
 targetos: Windows
 req.lib: Wlanui.lib

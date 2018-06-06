@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoDSPMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	wmcodecdsp.h
+ - wmcodecdsp.h
 api_name:
--	IWMVideoDecoderReconBuffer
+ - IWMVideoDecoderReconBuffer
 product: Windows
 targetos: Windows
 req.lib: 

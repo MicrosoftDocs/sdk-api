@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: QuarantineStatus
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	QuarantineStatus
+ - QuarantineStatus
 product: Windows
 targetos: Windows
 req.lib: 

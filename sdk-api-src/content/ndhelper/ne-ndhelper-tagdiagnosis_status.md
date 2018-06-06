@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DIAGNOSIS_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndhelper.h
+ - ndhelper.h
 api_name:
--	DIAGNOSIS_STATUS
+ - DIAGNOSIS_STATUS
 product: Windows
 targetos: Windows
 req.lib: Ndfapi.lib

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DbgHelp.h
+ - DbgHelp.h
 api_name:
--	IMAGEHLP_MODULE64
--	IMAGEHLP_MODULE64
--	IMAGEHLP_MODULEW64
--	IMAGEHLP_MODULE
+ - IMAGEHLP_MODULE64
+ - IMAGEHLP_MODULE64
+ - IMAGEHLP_MODULEW64
+ - IMAGEHLP_MODULE
 product: Windows
 targetos: Windows
 req.lib: 

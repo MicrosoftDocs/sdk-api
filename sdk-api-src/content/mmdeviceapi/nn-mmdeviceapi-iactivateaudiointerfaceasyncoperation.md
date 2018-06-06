@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: EndpointFormFactor
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mmdevapi.dll
+ - Mmdevapi.dll
 api_name:
--	IActivateAudioInterfaceAsyncOperation
+ - IActivateAudioInterfaceAsyncOperation
 product: Windows
 targetos: Windows
 req.lib: 

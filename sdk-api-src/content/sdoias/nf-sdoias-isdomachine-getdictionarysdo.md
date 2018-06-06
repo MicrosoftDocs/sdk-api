@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VENDORPROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Iassdo.dll
+ - Iassdo.dll
 api_name:
--	ISdoMachine.GetDictionarySDO
--	SdoMachine.GetDictionarySDO
+ - ISdoMachine.GetDictionarySDO
+ - SdoMachine.GetDictionarySDO
 product: Windows
 targetos: Windows
 req.lib: 

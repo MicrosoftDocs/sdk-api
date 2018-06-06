@@ -29,13 +29,13 @@ req.type-library:
 tech.root: 
 req.typenames: WBEM_CONNECT_OPTIONS
 topic_type:
--	kbSyntax
+ - kbSyntax
 api_type:
--	<TBD>
+ - <TBD>
 api_location:
--
+ -
 api_name:
--	WBEM_CONNECT_OPTIONS
+ - WBEM_CONNECT_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

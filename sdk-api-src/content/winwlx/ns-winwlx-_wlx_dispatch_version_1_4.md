@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLX_DISPATCH_VERSION_1_4, *PWLX_DISPATCH_VERSION_1_4
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winwlx.h
+ - Winwlx.h
 api_name:
--	WLX_DISPATCH_VERSION_1_4
+ - WLX_DISPATCH_VERSION_1_4
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PS_ADAPTER_STATS, *PPS_ADAPTER_STATS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntddpsch.h
+ - Ntddpsch.h
 api_name:
--	PS_ADAPTER_STATS
+ - PS_ADAPTER_STATS
 product: Windows
 targetos: Windows
 req.lib: 

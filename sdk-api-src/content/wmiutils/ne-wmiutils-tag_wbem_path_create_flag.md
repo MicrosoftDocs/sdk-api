@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: tag_WBEM_PATH_CREATE_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WMIUtils.h
+ - WMIUtils.h
 api_name:
--	tag_WBEM_PATH_CREATE_FLAG
+ - tag_WBEM_PATH_CREATE_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

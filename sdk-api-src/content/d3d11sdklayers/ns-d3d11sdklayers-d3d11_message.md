@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_MESSAGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11SDKLayers.h
+ - D3D11SDKLayers.h
 api_name:
--	D3D11_MESSAGE
+ - D3D11_MESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

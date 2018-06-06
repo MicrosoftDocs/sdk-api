@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MsChapp.h
+ - MsChapp.h
 api_name:
--	SAMPR_ENCRYPTED_USER_PASSWORD
+ - SAMPR_ENCRYPTED_USER_PASSWORD
 product: Windows
 targetos: Windows
 req.lib: 

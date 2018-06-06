@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Uiautomationcore.dll
+ - Uiautomationcore.dll
 api_name:
--	UiaNodeFromHandle
+ - UiaNodeFromHandle
 product: Windows
 targetos: Windows
 req.lib: Uiautomationcore.lib

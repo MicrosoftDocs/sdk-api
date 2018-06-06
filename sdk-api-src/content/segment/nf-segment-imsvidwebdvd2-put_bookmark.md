@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SourceSizeList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	segment.h
+ - segment.h
 api_name:
--	IMSVidWebDVD2.Bookmark
--	IMSVidWebDVD2.get_Bookmark
--	IMSVidWebDVD2.put_Bookmark
+ - IMSVidWebDVD2.Bookmark
+ - IMSVidWebDVD2.get_Bookmark
+ - IMSVidWebDVD2.put_Bookmark
 product: Windows
 targetos: Windows
 req.lib: 

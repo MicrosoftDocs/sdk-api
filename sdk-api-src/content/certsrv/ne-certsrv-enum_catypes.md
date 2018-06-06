@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENUM_CATYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Certsrv.h
+ - Certsrv.h
 api_name:
--	ENUM_CATYPES
+ - ENUM_CATYPES
 product: Windows
 targetos: Windows
 req.lib: Certpoleng.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXF_LOG_RECORD_TRUNCATE, *PTXF_LOG_RECORD_TRUNCATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TxfW32.h
+ - TxfW32.h
 api_name:
--	TXF_LOG_RECORD_TRUNCATE
+ - TXF_LOG_RECORD_TRUNCATE
 product: Windows
 targetos: Windows
 req.lib: 

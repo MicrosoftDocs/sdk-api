@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AMExtendedSeekingCapabilities
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Qnetwork.h
+ - Qnetwork.h
 api_name:
--	IAMNetShowConfig.put_EnableTCP
+ - IAMNetShowConfig.put_EnableTCP
 product: Windows
 targetos: Windows
 req.lib: 

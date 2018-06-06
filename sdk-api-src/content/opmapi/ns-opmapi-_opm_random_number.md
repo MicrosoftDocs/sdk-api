@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_RANDOM_NUMBER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ksopmapi.h
+ - ksopmapi.h
 api_name:
--	OPM_RANDOM_NUMBER
+ - OPM_RANDOM_NUMBER
 product: Windows
 targetos: Windows
 req.lib: 

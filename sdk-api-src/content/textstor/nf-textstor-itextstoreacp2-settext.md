@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TsRunType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	msctf.dll
+ - msctf.dll
 api_name:
--	ITextStoreACP2.SetText
+ - ITextStoreACP2.SetText
 product: Windows
 targetos: Windows
 req.lib: 

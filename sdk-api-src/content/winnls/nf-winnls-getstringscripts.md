@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-normalization-l1-1-0.dll
--	KernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-normalization-l1-1-0.dll
+ - KernelBase.dll
 api_name:
--	GetStringScripts
+ - GetStringScripts
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

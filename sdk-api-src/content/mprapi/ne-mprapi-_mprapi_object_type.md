@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPRAPI_OBJECT_TYPE, *PMPRAPI_OBJECT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mprapi.h
+ - Mprapi.h
 api_name:
--	MPRAPI_OBJECT_TYPE
+ - MPRAPI_OBJECT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SECTION, *PSECTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mpeg2Structs.h
+ - Mpeg2Structs.h
 api_name:
--	SECTION
+ - SECTION
 product: Windows
 targetos: Windows
 req.lib: 

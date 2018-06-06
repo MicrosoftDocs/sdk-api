@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	webapplication.h
+ - webapplication.h
 api_name:
--	IWebApplicationUpdateEvents.OnCssChanged
+ - IWebApplicationUpdateEvents.OnCssChanged
 product: Windows
 targetos: Windows
 req.lib: 

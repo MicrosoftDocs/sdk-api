@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MC_SIZE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	dxva2.dll
+ - dxva2.dll
 api_name:
--	GetMonitorContrast
+ - GetMonitorContrast
 product: Windows
 targetos: Windows
 req.lib: Dxva2.lib

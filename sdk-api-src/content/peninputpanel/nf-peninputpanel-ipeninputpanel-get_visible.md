@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: EventMask
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IPenInputPanel.Visible
--	IPenInputPanel.get_Visible
--	PenInputPanel.get_Visible
+ - IPenInputPanel.Visible
+ - IPenInputPanel.get_Visible
+ - PenInputPanel.get_Visible
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

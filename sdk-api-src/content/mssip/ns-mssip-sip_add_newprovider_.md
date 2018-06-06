@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SIP_ADD_NEWPROVIDER, *PSIP_ADD_NEWPROVIDER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mssip.h
+ - Mssip.h
 api_name:
--	SIP_ADD_NEWPROVIDER
+ - SIP_ADD_NEWPROVIDER
 product: Windows
 targetos: Windows
 req.lib: 

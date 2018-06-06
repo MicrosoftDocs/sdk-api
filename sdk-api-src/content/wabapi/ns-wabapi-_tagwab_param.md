@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WAB_PARAM, *LPWAB_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wabapi.h
+ - Wabapi.h
 api_name:
--	WAB_PARAM
+ - WAB_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

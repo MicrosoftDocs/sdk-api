@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	NotificationActivationCallback.h
+ - NotificationActivationCallback.h
 api_name:
--	INotificationActivationCallback
+ - INotificationActivationCallback
 product: Windows
 targetos: Windows
 req.lib: 

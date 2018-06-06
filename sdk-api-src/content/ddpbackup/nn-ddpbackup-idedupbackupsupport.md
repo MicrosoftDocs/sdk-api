@@ -29,14 +29,14 @@ req.type-library: DdpBackup.dll
 tech.root: 
 req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	DdpBackup.dll
+ - DdpBackup.dll
 api_name:
--	IDedupBackupSupport
+ - IDedupBackupSupport
 product: Windows
 targetos: Windows
 req.lib: 

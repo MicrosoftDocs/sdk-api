@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gdi32.dll
--	Ext-MS-Win-GDI-Draw-L1-1-3.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32Full.dll
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
 api_name:
--	SwapBuffers
+ - SwapBuffers
 product: Windows
 targetos: Windows
 req.lib: Gdi32.lib

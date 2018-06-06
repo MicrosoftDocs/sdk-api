@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3DVSHADERCAPS2_0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d9.lib
--	d3d9.dll
+ - d3d9.lib
+ - d3d9.dll
 api_name:
--	IDirect3DIndexBuffer9
+ - IDirect3DIndexBuffer9
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib

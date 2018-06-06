@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_AUDIT_EVENTS_INFO, *PPOLICY_AUDIT_EVENTS_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	POLICY_AUDIT_EVENTS_INFO
+ - POLICY_AUDIT_EVENTS_INFO
 product: Windows
 targetos: Windows
 req.lib: 

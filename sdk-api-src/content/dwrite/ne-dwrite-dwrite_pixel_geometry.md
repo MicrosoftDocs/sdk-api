@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dwrite.h
+ - dwrite.h
 api_name:
--	DWRITE_PIXEL_GEOMETRY
+ - DWRITE_PIXEL_GEOMETRY
 product: Windows
 targetos: Windows
 req.lib: 

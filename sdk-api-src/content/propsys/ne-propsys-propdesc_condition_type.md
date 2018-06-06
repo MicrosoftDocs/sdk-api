@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PROPDESC_CONDITION_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Propsys.h
+ - Propsys.h
 api_name:
--	PROPDESC_CONDITION_TYPE
+ - PROPDESC_CONDITION_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

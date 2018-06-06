@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_REMOTE_PROTOCOL_INFO, *PFILE_REMOTE_PROTOCOL_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	FILE_REMOTE_PROTOCOL_INFO
+ - FILE_REMOTE_PROTOCOL_INFO
 product: Windows
 targetos: Windows
 req.lib: 

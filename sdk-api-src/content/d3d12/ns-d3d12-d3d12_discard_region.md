@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_DISCARD_REGION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d12.h
+ - d3d12.h
 api_name:
--	D3D12_DISCARD_REGION
+ - D3D12_DISCARD_REGION
 product: Windows
 targetos: Windows
 req.lib: 

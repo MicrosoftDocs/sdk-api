@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmvcore.lib
--	Wmvcore.dll
--	WMStubDRM.lib
--	WMStubDRM.dll
--	qasf.dll
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
 api_name:
--	IWMProfile.GetMutualExclusion
--	IWMProfile2.GetMutualExclusion
--	IWMProfile3.GetMutualExclusion
+ - IWMProfile.GetMutualExclusion
+ - IWMProfile2.GetMutualExclusion
+ - IWMProfile3.GetMutualExclusion
 product: Windows
 targetos: Windows
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)

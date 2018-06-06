@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DD_COLORCONTROLDATA
+ - DD_COLORCONTROLDATA
 product: Windows
 targetos: Windows
 req.lib: 

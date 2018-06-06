@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_NETWORK_PROFILE_TYPE, *PWDSTRANSPORT_NETWORK_PROFILE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wdstptmgmt.h
+ - Wdstptmgmt.h
 api_name:
--	WDSTRANSPORT_NETWORK_PROFILE_TYPE
+ - WDSTRANSPORT_NETWORK_PROFILE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

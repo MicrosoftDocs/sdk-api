@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSPUPCALLTABLE, *LPWSPUPCALLTABLE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Fwpuclnt.dll
+ - Fwpuclnt.dll
 api_name:
--	WSADeleteSocketPeerTargetName
+ - WSADeleteSocketPeerTargetName
 product: Windows
 targetos: Windows
 req.lib: Fwpuclnt.lib

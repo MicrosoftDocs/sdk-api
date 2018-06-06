@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_VPOV_DIMENSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d11.h
+ - d3d11.h
 api_name:
--	ID3D11AuthenticatedChannel
+ - ID3D11AuthenticatedChannel
 product: Windows
 targetos: Windows
 req.lib: D3D11.lib

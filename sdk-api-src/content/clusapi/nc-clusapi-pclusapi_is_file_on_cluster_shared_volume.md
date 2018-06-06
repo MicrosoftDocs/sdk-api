@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME
+ - PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME
 product: Windows
 targetos: Windows
 req.lib: 

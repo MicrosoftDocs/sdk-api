@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTPSPolicyCallbackData, *PHTTPSPolicyCallbackData, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	HTTPSPolicyCallbackData
+ - HTTPSPolicyCallbackData
 product: Windows
 targetos: Windows
 req.lib: 

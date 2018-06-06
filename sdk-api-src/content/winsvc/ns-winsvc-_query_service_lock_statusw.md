@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: QUERY_SERVICE_LOCK_STATUSW, *LPQUERY_SERVICE_LOCK_STATUSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	QUERY_SERVICE_LOCK_STATUS
--	QUERY_SERVICE_LOCK_STATUSA
--	QUERY_SERVICE_LOCK_STATUSW
+ - QUERY_SERVICE_LOCK_STATUS
+ - QUERY_SERVICE_LOCK_STATUSA
+ - QUERY_SERVICE_LOCK_STATUSW
 product: Windows
 targetos: Windows
 req.lib: 

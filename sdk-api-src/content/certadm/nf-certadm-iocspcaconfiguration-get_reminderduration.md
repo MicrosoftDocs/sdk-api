@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	IOCSPCAConfiguration.ReminderDuration
--	IOCSPCAConfiguration.get_ReminderDuration
--	IOCSPCAConfiguration.put_ReminderDuration
+ - IOCSPCAConfiguration.ReminderDuration
+ - IOCSPCAConfiguration.get_ReminderDuration
+ - IOCSPCAConfiguration.put_ReminderDuration
 product: Windows
 targetos: Windows
 req.lib: Certadm.lib

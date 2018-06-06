@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: GPMStarterGPOType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	gpmgmt.dll
+ - gpmgmt.dll
 api_name:
--	IGPMBackupDirEx.SearchBackups
--	GPMBackupDirEx.SearchBackups
+ - IGPMBackupDirEx.SearchBackups
+ - GPMBackupDirEx.SearchBackups
 product: Windows
 targetos: Windows
 req.lib: 

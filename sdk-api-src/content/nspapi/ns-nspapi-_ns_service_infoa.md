@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: NS_SERVICE_INFOA, *PNS_SERVICE_INFOA, *LPNS_SERVICE_INFOA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nspapi.h
+ - Nspapi.h
 api_name:
--	NS_SERVICE_INFO
--	NS_SERVICE_INFOA
--	NS_SERVICE_INFOW
+ - NS_SERVICE_INFO
+ - NS_SERVICE_INFOA
+ - NS_SERVICE_INFOW
 product: Windows
 targetos: Windows
 req.lib: 

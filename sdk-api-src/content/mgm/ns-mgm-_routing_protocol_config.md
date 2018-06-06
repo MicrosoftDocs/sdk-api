@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROUTING_PROTOCOL_CONFIG, *PROUTING_PROTOCOL_CONFIG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mgm.h
+ - Mgm.h
 api_name:
--	ROUTING_PROTOCOL_CONFIG
+ - ROUTING_PROTOCOL_CONFIG
 product: Windows
 targetos: Windows
 req.lib: 

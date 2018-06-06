@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SecBuffer, *PSecBuffer
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SecBuffer
+ - SecBuffer
 product: Windows
 targetos: Windows
 req.lib: 

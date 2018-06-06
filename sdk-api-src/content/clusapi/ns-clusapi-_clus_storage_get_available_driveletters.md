@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, *PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
+ - CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: MP_PARAMINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-memory-l1-1-1.dll
--	KernelBase.dll
--	API-MS-Win-Core-memory-l1-1-2.dll
--	API-MS-Win-Core-memory-l1-1-3.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-Memory-L1-1-4.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
--	CreateFileMappingFromApp
+ - CreateFileMappingFromApp
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

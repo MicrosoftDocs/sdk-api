@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dmusics.h
+ - dmusics.h
 api_name:
--	IDirectMusicSynth.GetPortCaps
+ - IDirectMusicSynth.GetPortCaps
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: X509RequestType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	CertEnroll.dll
+ - CertEnroll.dll
 api_name:
--	IX509PublicKey.Length
--	IX509PublicKey.get_Length
+ - IX509PublicKey.Length
+ - IX509PublicKey.get_Length
 product: Windows
 targetos: Windows
 req.lib: 

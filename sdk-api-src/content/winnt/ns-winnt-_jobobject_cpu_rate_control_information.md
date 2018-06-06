@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, *PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

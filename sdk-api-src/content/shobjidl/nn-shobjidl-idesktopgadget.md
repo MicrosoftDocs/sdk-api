@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VPWATERMARKFLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Sbdrop.dll
+ - Sbdrop.dll
 api_name:
--	IDesktopGadget
+ - IDesktopGadget
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

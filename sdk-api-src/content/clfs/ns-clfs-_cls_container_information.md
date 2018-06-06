@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_CONTAINER_INFORMATION
+ - CLFS_CONTAINER_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

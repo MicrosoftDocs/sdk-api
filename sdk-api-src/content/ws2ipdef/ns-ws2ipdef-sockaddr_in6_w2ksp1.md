@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6_W2KSP1, *LPSOCKADDR_IN6_W2KSP1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ws2ipdef.h
+ - Ws2ipdef.h
 api_name:
--	SOCKADDR_IN6
+ - SOCKADDR_IN6
 product: Windows
 targetos: Windows
 req.lib: 

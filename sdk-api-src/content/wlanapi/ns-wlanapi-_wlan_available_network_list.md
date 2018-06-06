@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_AVAILABLE_NETWORK_LIST, *PWLAN_AVAILABLE_NETWORK_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_AVAILABLE_NETWORK_LIST
+ - WLAN_AVAILABLE_NETWORK_LIST
 product: Windows
 targetos: Windows
 req.lib: 

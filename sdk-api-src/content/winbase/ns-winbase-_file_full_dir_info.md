@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_FULL_DIR_INFO, *PFILE_FULL_DIR_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
+ - WinBase.h
 api_name:
--	FILE_FULL_DIR_INFO
+ - FILE_FULL_DIR_INFO
 product: Windows
 targetos: Windows
 req.lib: 

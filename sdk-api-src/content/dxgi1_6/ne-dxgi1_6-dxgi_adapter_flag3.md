@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXGI_ADAPTER_FLAG3
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	DXGI1_6.h
+ - DXGI1_6.h
 api_name:
--	DXGI_ADAPTER_FLAG3
+ - DXGI_ADAPTER_FLAG3
 product: Windows
 targetos: Windows
 req.lib: 

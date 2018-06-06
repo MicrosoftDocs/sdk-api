@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FLICK_POINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Tapi.h
+ - Tapi.h
 api_name:
--	TAPIERROR_FORMATMESSAGE
+ - TAPIERROR_FORMATMESSAGE
 product: Windows
 targetos: Windows
 req.lib: 

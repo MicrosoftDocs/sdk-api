@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	opmapi.h
+ - opmapi.h
 api_name:
--	OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
+ - OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 product: Windows
 targetos: Windows
 req.lib: 

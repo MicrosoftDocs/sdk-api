@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_WRITERRESTORE_ENUM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	vswriter.h
+ - vswriter.h
 api_name:
--	CreateWriter
+ - CreateWriter
 product: Windows
 targetos: Windows
 req.lib: 

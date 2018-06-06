@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, *PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_W
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_HTTP_TRANSPORT_CREDENTIALS_V3
+ - RPC_HTTP_TRANSPORT_CREDENTIALS_V3
 product: Windows
 targetos: Windows
 req.lib: 

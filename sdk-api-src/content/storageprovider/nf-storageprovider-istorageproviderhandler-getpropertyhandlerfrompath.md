@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPR50_SERVICE_CHARACTERISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	storageprovider.h
+ - storageprovider.h
 api_name:
--	IStorageProviderHandler.GetPropertyHandlerFromPath
+ - IStorageProviderHandler.GetPropertyHandlerFromPath
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MONERRSTRUCT, *PMONERRSTRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ddeml.h
+ - Ddeml.h
 api_name:
--	MONERRSTRUCT
+ - MONERRSTRUCT
 product: Windows
 targetos: Windows
 req.lib: 

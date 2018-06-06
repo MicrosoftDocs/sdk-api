@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UI_VIEWVERB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Uiribbon.dll
+ - Uiribbon.dll
 api_name:
--	IUIRibbon
+ - IUIRibbon
 product: Windows
 targetos: Windows
 req.lib: 

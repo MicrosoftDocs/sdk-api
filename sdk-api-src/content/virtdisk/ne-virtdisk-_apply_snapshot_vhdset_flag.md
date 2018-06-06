@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: APPLY_SNAPSHOT_VHDSET_FLAG, *PAPPLY_SNAPSHOT_VHDSET_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	APPLY_SNAPSHOT_VHDSET_FLAG
+ - APPLY_SNAPSHOT_VHDSET_FLAG
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

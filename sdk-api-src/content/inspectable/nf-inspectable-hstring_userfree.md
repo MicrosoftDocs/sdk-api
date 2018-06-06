@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TrustLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	ComBase.dll
--	API-MS-Win-Core-WinRT-String-l1-1-0.dll
--	API-MS-Win-Core-WinRT-String-L1-1-1.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
--	HSTRING_UserFree
+ - HSTRING_UserFree
 product: Windows
 targetos: Windows
 req.lib: RuntimeObject.lib

@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_FIND_DATAW, *PWIN32_FIND_DATAW, *LPWIN32_FIND_DATAW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MinWinBase.h
--	WinBase.h
+ - MinWinBase.h
+ - WinBase.h
 api_name:
--	WIN32_FIND_DATA
--	WIN32_FIND_DATAA
--	WIN32_FIND_DATAW
+ - WIN32_FIND_DATA
+ - WIN32_FIND_DATAA
+ - WIN32_FIND_DATAW
 product: Windows
 targetos: Windows
 req.lib: 

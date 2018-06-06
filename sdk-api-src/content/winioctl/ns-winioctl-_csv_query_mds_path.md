@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_QUERY_MDS_PATH, *PCSV_QUERY_MDS_PATH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_QUERY_MDS_PATH
+ - CSV_QUERY_MDS_PATH
 product: Windows
 targetos: Windows
 req.lib: 

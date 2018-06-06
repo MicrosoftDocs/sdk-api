@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_CIPHER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_CIPHER_TYPE
+ - IKEEXT_CIPHER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

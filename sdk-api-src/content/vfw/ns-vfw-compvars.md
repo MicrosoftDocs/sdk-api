@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMPVARS, *PCOMPVARS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vfw.h
+ - Vfw.h
 api_name:
--	COMPVARS
+ - COMPVARS
 product: Windows
 targetos: Windows
 req.lib: 

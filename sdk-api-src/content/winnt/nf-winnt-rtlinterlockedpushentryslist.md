@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSACTION_OUTCOME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdll.dll
+ - Ntdll.dll
 api_name:
--	RtlInterlockedPushEntrySList
+ - RtlInterlockedPushEntrySList
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: InkRecoGuide
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msi.dll
+ - Msi.dll
 api_name:
--	MsiCreateTransformSummaryInfo
--	MsiCreateTransformSummaryInfoA
--	MsiCreateTransformSummaryInfoW
+ - MsiCreateTransformSummaryInfo
+ - MsiCreateTransformSummaryInfoA
+ - MsiCreateTransformSummaryInfoW
 product: Windows
 targetos: Windows
 req.lib: Msi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: POLICY_LSA_SERVER_ROLE_INFO, *PPOLICY_LSA_SERVER_ROLE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntsecapi.h
+ - Ntsecapi.h
 api_name:
--	POLICY_LSA_SERVER_ROLE_INFO
+ - POLICY_LSA_SERVER_ROLE_INFO
 product: Windows
 targetos: Windows
 req.lib: 

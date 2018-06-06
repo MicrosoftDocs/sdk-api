@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MPEG_HEADER_VERSION_BITS, *PMPEG_HEADER_VERSION_BITS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mpeg2PsiParser.h
+ - Mpeg2PsiParser.h
 api_name:
--	IPAT
+ - IPAT
 product: Windows
 targetos: Windows
 req.lib: 

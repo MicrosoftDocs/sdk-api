@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_FEATURE_LEVEL1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D10_1.h
+ - D3D10_1.h
 api_name:
--	ID3D10Device1.GetFeatureLevel
+ - ID3D10Device1.GetFeatureLevel
 product: Windows
 targetos: Windows
 req.lib: 

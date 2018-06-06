@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nspapi.h
+ - Nspapi.h
 api_name:
--	SERVICE_ADDRESSES
+ - SERVICE_ADDRESSES
 product: Windows
 targetos: Windows
 req.lib: 

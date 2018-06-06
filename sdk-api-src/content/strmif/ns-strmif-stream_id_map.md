@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STREAM_ID_MAP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	STREAM_ID_MAP
+ - STREAM_ID_MAP
 product: Windows
 targetos: Windows
 req.lib: 

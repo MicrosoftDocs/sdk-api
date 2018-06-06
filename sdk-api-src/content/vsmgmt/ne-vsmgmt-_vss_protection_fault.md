@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_PROTECTION_FAULT, *PVSS_PROTECTION_FAULT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VsMgmt.h
+ - VsMgmt.h
 api_name:
--	VSS_PROTECTION_FAULT
+ - VSS_PROTECTION_FAULT
 product: Windows
 targetos: Windows
 req.lib: 

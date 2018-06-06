@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WtsApi32.dll
+ - WtsApi32.dll
 api_name:
--	WTSSetRenderHint
+ - WTSSetRenderHint
 product: Windows
 targetos: Windows
 req.lib: WtsApi32.lib

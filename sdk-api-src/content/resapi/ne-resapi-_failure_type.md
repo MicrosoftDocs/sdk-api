@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAILURE_TYPE, *PFAILURE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	FAILURE_TYPE
+ - FAILURE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

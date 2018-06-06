@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PERF_COUNTER_IDENTIFIER, *PPERF_COUNTER_IDENTIFIER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Perflib.h
+ - Perflib.h
 api_name:
--	PERF_COUNTER_IDENTIFIER
+ - PERF_COUNTER_IDENTIFIER
 product: Windows
 targetos: Windows
 req.lib: 

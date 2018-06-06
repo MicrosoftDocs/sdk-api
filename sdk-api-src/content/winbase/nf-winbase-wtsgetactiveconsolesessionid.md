@@ -29,22 +29,22 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	api-ms-win-core-kernel32-legacy-l1-1-0.dll
--	kernel32legacy.dll
--	api-ms-win-core-kernel32-legacy-l1-1-1.dll
--	api-ms-win-core-kernel32-legacy-l1-1-2.dll
--	api-ms-win-downlevel-kernel32-l2-1-0.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - Kernel32.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-1.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
--	WTSGetActiveConsoleSessionId
+ - WTSGetActiveConsoleSessionId
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

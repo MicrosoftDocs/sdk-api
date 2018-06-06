@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HEAACWAVEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmreg.h
+ - mmreg.h
 api_name:
--	HEAACWAVEINFO
+ - HEAACWAVEINFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_ISCSI_PORTAL_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
--	VdsHwPrv.h
+ - Vds.h
+ - VdsHwPrv.h
 api_name:
--	VDS_ISCSI_PORTAL_STATUS
+ - VDS_ISCSI_PORTAL_STATUS
 product: Windows
 targetos: Windows
 req.lib: VdmDbg.lib

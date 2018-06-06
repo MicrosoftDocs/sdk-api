@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, *LPADMIN_OTHER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmalert.h
+ - Lmalert.h
 api_name:
--	ADMIN_OTHER_INFO
+ - ADMIN_OTHER_INFO
 product: Windows
 targetos: Windows
 req.lib: 

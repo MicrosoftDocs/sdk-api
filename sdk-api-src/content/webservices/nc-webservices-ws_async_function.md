@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_ASYNC_FUNCTION
+ - WS_ASYNC_FUNCTION
 product: Windows
 targetos: Windows
 req.lib: 

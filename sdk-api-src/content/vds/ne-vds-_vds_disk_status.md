@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VDS_DISK_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vds.h
+ - Vds.h
 api_name:
--	VDS_DISK_STATUS
+ - VDS_DISK_STATUS
 product: Windows
 targetos: Windows
 req.lib: VdmDbg.lib

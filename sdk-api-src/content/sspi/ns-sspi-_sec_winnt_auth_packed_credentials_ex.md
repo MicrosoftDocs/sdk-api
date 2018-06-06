@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
+ - SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
 product: Windows
 targetos: Windows
 req.lib: 

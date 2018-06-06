@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: XPS_COLOR_INTERPOLATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	xpsobjectmodel.h
+ - xpsobjectmodel.h
 api_name:
--	XPS_COLOR_INTERPOLATION
+ - XPS_COLOR_INTERPOLATION
 product: Windows
 targetos: Windows
 req.lib: 

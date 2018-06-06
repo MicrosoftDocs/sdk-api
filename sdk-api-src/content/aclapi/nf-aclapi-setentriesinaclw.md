@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-Security-Provider-l1-1-0.dll
--	advapi32legacy.dll
--	API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
--	ntmarta.dll
--	API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
+ - Advapi32.dll
+ - API-MS-Win-Security-Provider-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+ - ntmarta.dll
+ - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
 api_name:
--	SetEntriesInAcl
--	SetEntriesInAclA
--	SetEntriesInAclW
+ - SetEntriesInAcl
+ - SetEntriesInAclA
+ - SetEntriesInAclW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

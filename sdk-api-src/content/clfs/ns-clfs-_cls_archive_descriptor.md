@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, PPCLS_ARCHIVE_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Clfs.h
+ - Clfs.h
 api_name:
--	CLFS_ARCHIVE_DESCRIPTOR
+ - CLFS_ARCHIVE_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

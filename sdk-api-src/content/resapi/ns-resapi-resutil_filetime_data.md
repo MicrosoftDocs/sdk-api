@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RESUTIL_FILETIME_DATA, *PRESUTIL_FILETIME_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
+ - ResApi.h
 api_name:
--	RESUTIL_FILETIME_DATA
+ - RESUTIL_FILETIME_DATA
 product: Windows
 targetos: Windows
 req.lib: 

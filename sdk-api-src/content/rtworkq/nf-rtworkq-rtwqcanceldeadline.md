@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTWQ_WORKQUEUE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rtworkq.h
+ - rtworkq.h
 api_name:
--	RtwqCancelDeadline
+ - RtwqCancelDeadline
 product: Windows
 targetos: Windows
 req.lib: 

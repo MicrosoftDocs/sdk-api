@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Iketypes.h
+ - Iketypes.h
 api_name:
--	IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
+ - IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 product: Windows
 targetos: Windows
 req.lib: 

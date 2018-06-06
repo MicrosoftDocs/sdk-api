@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_FENCE_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d11_3.h
+ - d3d11_3.h
 api_name:
--	D3D11_FENCE_FLAG
+ - D3D11_FENCE_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AVISUPERINDEX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Avrfsdk.h
+ - Avrfsdk.h
 api_name:
--	AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+ - AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 product: Windows
 targetos: Windows
 req.lib: 

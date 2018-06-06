@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVAHD_FILTER_RANGE_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxvahd.h
+ - dxvahd.h
 api_name:
--	DXVAHD_FILTER_RANGE_DATA
+ - DXVAHD_FILTER_RANGE_DATA
 product: Windows
 targetos: Windows
 req.lib: 

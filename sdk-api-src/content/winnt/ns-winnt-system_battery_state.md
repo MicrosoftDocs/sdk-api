@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYSTEM_BATTERY_STATE, *PSYSTEM_BATTERY_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	SYSTEM_BATTERY_STATE
+ - SYSTEM_BATTERY_STATE
 product: Windows
 targetos: Windows
 req.lib: 

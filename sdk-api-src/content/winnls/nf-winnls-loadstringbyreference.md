@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Localization-private-l1-1-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-private-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
 api_name:
--	LoadStringByReference
+ - LoadStringByReference
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIAVIDEO_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wiavideo.h
+ - Wiavideo.h
 api_name:
--	WIAVIDEO_STATE
+ - WIAVIDEO_STATE
 product: Windows
 targetos: Windows
 req.lib: 

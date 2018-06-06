@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FDICABINETINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Fdi.h
+ - Fdi.h
 api_name:
--	FDICABINETINFO FAR *PFDICABINETINFO
+ - FDICABINETINFO FAR *PFDICABINETINFO
 product: Windows
 targetos: Windows
 req.lib: 

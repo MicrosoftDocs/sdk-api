@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FAX_RECEIVE, *PFAX_RECEIVE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FaxDev.h
+ - FaxDev.h
 api_name:
--	FAX_RECEIVE
+ - FAX_RECEIVE
 product: Windows
 targetos: Windows
 req.lib: 

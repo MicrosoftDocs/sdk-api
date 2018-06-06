@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DWM_THUMBNAIL_PROPERTIES, *PDWM_THUMBNAIL_PROPERTIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	DWM_THUMBNAIL_PROPERTIES
+ - DWM_THUMBNAIL_PROPERTIES
 product: Windows
 targetos: Windows
 req.lib: 

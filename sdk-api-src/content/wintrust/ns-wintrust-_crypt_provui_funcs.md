@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_PROVUI_FUNCS, *PCRYPT_PROVUI_FUNCS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wintrust.h
+ - Wintrust.h
 api_name:
--	CRYPT_PROVUI_FUNCS
+ - CRYPT_PROVUI_FUNCS
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDF_RENDER_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	windows.media.core.interop.h
+ - windows.media.core.interop.h
 api_name:
--	IAudioFrameNativeFactory.CreateFromMFSample
+ - IAudioFrameNativeFactory.CreateFromMFSample
 product: Windows
 targetos: Windows
 req.lib: 

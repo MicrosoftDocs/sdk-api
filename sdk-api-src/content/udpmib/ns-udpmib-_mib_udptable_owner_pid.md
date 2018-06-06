@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_UDPTABLE_OWNER_PID, *PMIB_UDPTABLE_OWNER_PID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Udpmib.h
--	Iprtrmib.h
+ - Udpmib.h
+ - Iprtrmib.h
 api_name:
--	MIB_UDPTABLE_OWNER_PID
+ - MIB_UDPTABLE_OWNER_PID
 product: Windows
 targetos: Windows
 req.lib: 

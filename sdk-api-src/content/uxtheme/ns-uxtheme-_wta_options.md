@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTA_OPTIONS, *PWTA_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Uxtheme.h
+ - Uxtheme.h
 api_name:
--	WTA_OPTIONS
+ - WTA_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

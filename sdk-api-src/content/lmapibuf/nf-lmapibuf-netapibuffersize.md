@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_OTHER_INFO, *PUSER_OTHER_INFO, *LPUSER_OTHER_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netapi32.dll
+ - Netapi32.dll
 api_name:
--	NetApiBufferSize
+ - NetApiBufferSize
 product: Windows
 targetos: Windows
 req.lib: Netapi32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CorrectionMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	peninputpanel.h
+ - peninputpanel.h
 api_name:
--	CorrectionMode
+ - CorrectionMode
 product: Windows
 targetos: Windows
 req.lib: 

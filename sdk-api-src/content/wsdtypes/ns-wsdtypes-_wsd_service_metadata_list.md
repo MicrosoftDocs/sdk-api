@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_SERVICE_METADATA_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WsdTypes.h
+ - WsdTypes.h
 api_name:
--	WSD_SERVICE_METADATA_LIST
+ - WSD_SERVICE_METADATA_LIST
 product: Windows
 targetos: Windows
 req.lib: 

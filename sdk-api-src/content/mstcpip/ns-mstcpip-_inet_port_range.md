@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INET_PORT_RANGE, *PINET_PORT_RANGE, INET_PORT_RESERVATION, *PINET_PORT_RESERVATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstcpip.h
+ - Mstcpip.h
 api_name:
--	INET_PORT_RANGE
+ - INET_PORT_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

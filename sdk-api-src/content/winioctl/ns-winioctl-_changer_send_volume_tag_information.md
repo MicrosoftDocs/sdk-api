@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CHANGER_SEND_VOLUME_TAG_INFORMATION
+ - CHANGER_SEND_VOLUME_TAG_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

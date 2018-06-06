@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_ENDPOINT_TEMPLATEA, *PRPC_ENDPOINT_TEMPLATEA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	RPC_ENDPOINT_TEMPLATE
--	RPC_ENDPOINT_TEMPLATEA
--	RPC_ENDPOINT_TEMPLATEW
+ - RPC_ENDPOINT_TEMPLATE
+ - RPC_ENDPOINT_TEMPLATEA
+ - RPC_ENDPOINT_TEMPLATEW
 product: Windows
 targetos: Windows
 req.lib: 

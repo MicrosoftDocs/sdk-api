@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	ddrawint.h
+ - ddrawint.h
 api_name:
--	DdMoCompBeginFrame
+ - DdMoCompBeginFrame
 product: Windows
 targetos: Windows
 req.lib: 

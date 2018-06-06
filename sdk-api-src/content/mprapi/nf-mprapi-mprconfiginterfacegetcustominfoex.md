@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ROUTER_INTERFACE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Mprapi.dll
+ - Mprapi.dll
 api_name:
--	MprConfigInterfaceGetCustomInfoEx
+ - MprConfigInterfaceGetCustomInfoEx
 product: Windows
 targetos: Windows
 req.lib: Mprapi.lib

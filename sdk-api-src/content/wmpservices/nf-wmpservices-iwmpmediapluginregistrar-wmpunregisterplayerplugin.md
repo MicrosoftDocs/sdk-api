@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPServices_StreamState
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	wmp.dll
+ - wmp.dll
 api_name:
--	WMPUnRegisterPlayerPlugin
+ - WMPUnRegisterPlayerPlugin
 product: Windows
 targetos: Windows
 req.lib: 

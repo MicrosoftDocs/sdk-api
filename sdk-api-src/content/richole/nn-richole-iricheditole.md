@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TEXTRANGEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msftedit.dll
+ - Msftedit.dll
 api_name:
--	IRichEditOle
+ - IRichEditOle
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: QACONTROL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ole32.dll
--	Ext-MS-Win-COM-OLE32-l1-1-0.dll
--	Ext-MS-Win-COM-OLE32-l1-1-1.dll
--	Ext-MS-Win-COM-OLE32-l1-1-2.dll
--	ext-ms-win-com-ole32-l1-1-3.dll
--	Ext-MS-Win-Com-Ole32-L1-1-4.dll
+ - Ole32.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-0.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
--	OleSetContainedObject
+ - OleSetContainedObject
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

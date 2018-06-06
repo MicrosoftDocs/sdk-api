@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSTER_NOTIFICATIONS_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusApi.h
--	MsClus.h
+ - ClusApi.h
+ - MsClus.h
 api_name:
--	CLUSTER_NOTIFICATIONS_VERSION
+ - CLUSTER_NOTIFICATIONS_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

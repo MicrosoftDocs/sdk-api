@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	PREVENT_MEDIA_REMOVAL
+ - PREVENT_MEDIA_REMOVAL
 product: Windows
 targetos: Windows
 req.lib: 

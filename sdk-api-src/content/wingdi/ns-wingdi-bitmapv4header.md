@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAPV4HEADER, *LPBITMAPV4HEADER, *PBITMAPV4HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	BITMAPV4HEADER
+ - BITMAPV4HEADER
 product: Windows
 targetos: Windows
 req.lib: 

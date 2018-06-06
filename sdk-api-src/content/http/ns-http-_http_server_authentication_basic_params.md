@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Http.h
+ - Http.h
 api_name:
--	HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
+ - HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
 product: Windows
 targetos: Windows
 req.lib: 

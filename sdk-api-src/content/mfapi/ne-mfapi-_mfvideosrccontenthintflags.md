@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFVideoSrcContentHintFlags
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfapi.h
+ - mfapi.h
 api_name:
--	MFVideoSrcContentHintFlags
+ - MFVideoSrcContentHintFlags
 product: Windows
 targetos: Windows
 req.lib: 

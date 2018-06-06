@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: TPMVSCMGR_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Vscmgr.lib
--	Vscmgr.dll
+ - Vscmgr.lib
+ - Vscmgr.dll
 api_name:
--	ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
+ - ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 product: Windows
 targetos: Windows
 req.lib: Vscmgr.lib

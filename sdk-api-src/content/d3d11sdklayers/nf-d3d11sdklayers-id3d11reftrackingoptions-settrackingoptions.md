@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_SHADER_TRACKING_RESOURCE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3DCompiler.lib
--	D3DCompiler.dll
+ - D3DCompiler.lib
+ - D3DCompiler.dll
 api_name:
--	ID3D11RefTrackingOptions.SetTrackingOptions
+ - ID3D11RefTrackingOptions.SetTrackingOptions
 product: Windows
 targetos: Windows
 req.lib: D3DCompiler.lib

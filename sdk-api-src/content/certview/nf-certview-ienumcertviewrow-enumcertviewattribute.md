@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: ENUM_CATYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Certadm.dll
+ - Certadm.dll
 api_name:
--	IEnumCERTVIEWROW.EnumCertViewAttribute
--	IEnumCERTVIEWROW.EnumCertViewAttribute
+ - IEnumCERTVIEWROW.EnumCertViewAttribute
+ - IEnumCERTVIEWROW.EnumCertViewAttribute
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

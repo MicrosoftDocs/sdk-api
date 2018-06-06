@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	TXFS_LIST_TRANSACTIONS
+ - TXFS_LIST_TRANSACTIONS
 product: Windows
 targetos: Windows
 req.lib: 

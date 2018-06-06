@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COMSD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	objectarray.h
+ - objectarray.h
 api_name:
--	IObjectCollection.AddObject
+ - IObjectCollection.AddObject
 product: Windows
 targetos: Windows
 req.lib: 

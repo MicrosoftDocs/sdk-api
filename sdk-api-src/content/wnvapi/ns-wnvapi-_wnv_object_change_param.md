@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_OBJECT_CHANGE_PARAM, *PWNV_OBJECT_CHANGE_PARAM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_OBJECT_CHANGE_PARAM
+ - WNV_OBJECT_CHANGE_PARAM
 product: Windows
 targetos: Windows
 req.lib: 

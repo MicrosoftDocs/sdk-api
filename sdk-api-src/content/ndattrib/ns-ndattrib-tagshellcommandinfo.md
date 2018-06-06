@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ShellCommandInfo, *PShellCommandInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ndattrib.h
+ - ndattrib.h
 api_name:
--	ShellCommandInfo, *PShellCommandInfo
+ - ShellCommandInfo, *PShellCommandInfo
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSVidCtlStateList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Mswsock.h
+ - Mswsock.h
 api_name:
--	LPFN_CONNECTEX
+ - LPFN_CONNECTEX
 product: Windows
 targetos: Windows
 req.lib: 

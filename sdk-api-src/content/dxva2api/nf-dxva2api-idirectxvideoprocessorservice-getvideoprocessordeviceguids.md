@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVA2_SurfaceType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	dxva2api.h
+ - dxva2api.h
 api_name:
--	IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
+ - IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PIN_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	PIN_INFO
+ - PIN_INFO
 product: Windows
 targetos: Windows
 req.lib: 

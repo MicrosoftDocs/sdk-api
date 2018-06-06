@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLX_DESKTOP, *PWLX_DESKTOP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winwlx.h
+ - Winwlx.h
 api_name:
--	WLX_DESKTOP
+ - WLX_DESKTOP
 product: Windows
 targetos: Windows
 req.lib: 

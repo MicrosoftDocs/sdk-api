@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: GET_STORAGE_DEPENDENCY_FLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	VirtDisk.h
--	vdssys.h
+ - VirtDisk.h
+ - vdssys.h
 api_name:
--	GET_STORAGE_DEPENDENCY_FLAG
+ - GET_STORAGE_DEPENDENCY_FLAG
 product: Windows
 targetos: Windows
 req.lib: 

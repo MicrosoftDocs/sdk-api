@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: SR_REPLICATED_DISK_TYPE, *PSR_REPLICATED_DISK_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ResApi.h
--	ClusApi.h
+ - ResApi.h
+ - ClusApi.h
 api_name:
--	SR_REPLICATED_DISK_TYPE
+ - SR_REPLICATED_DISK_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

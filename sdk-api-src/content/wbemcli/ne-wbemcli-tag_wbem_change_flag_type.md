@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WBEM_CHANGE_FLAG_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wbemcli.h
+ - Wbemcli.h
 api_name:
--	WBEM_CHANGE_FLAG_TYPE
+ - WBEM_CHANGE_FLAG_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

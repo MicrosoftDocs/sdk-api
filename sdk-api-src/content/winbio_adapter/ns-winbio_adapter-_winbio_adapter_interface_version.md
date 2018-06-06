@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINBIO_ADAPTER_INTERFACE_VERSION, *PWINBIO_ADAPTER_INTERFACE_VERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winbio_adapter.h
+ - Winbio_adapter.h
 api_name:
--	WINBIO_ADAPTER_INTERFACE_VERSION
+ - WINBIO_ADAPTER_INTERFACE_VERSION
 product: Windows
 targetos: Windows
 req.lib: 

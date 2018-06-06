@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMD_ENTRY, *PCMD_ENTRY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netsh.h
+ - Netsh.h
 api_name:
--	CMD_ENTRY
+ - CMD_ENTRY
 product: Windows
 targetos: Windows
 req.lib: 

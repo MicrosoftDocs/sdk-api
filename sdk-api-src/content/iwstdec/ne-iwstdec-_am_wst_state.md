@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AM_WST_STATE, *PAM_WST_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	iwstdec.h
+ - iwstdec.h
 api_name:
--	AM_WST_STATE
+ - AM_WST_STATE
 product: Windows
 targetos: Windows
 req.lib: Wscapi.lib

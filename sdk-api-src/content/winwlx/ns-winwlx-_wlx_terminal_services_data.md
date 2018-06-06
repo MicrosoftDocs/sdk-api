@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLX_TERMINAL_SERVICES_DATA, *PWLX_TERMINAL_SERVICES_DATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winwlx.h
+ - Winwlx.h
 api_name:
--	WLX_TERMINAL_SERVICES_DATA
+ - WLX_TERMINAL_SERVICES_DATA
 product: Windows
 targetos: Windows
 req.lib: 

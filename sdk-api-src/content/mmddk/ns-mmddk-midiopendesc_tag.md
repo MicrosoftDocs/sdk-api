@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIDIOPENDESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mmddk.h
+ - mmddk.h
 api_name:
--	MIDIOPENDESC
+ - MIDIOPENDESC
 product: Windows
 targetos: Windows
 req.lib: 

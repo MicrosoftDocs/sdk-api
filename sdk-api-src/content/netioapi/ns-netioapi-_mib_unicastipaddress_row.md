@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MIB_UNICASTIPADDRESS_ROW, *PMIB_UNICASTIPADDRESS_ROW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Netioapi.h
+ - Netioapi.h
 api_name:
--	MIB_UNICASTIPADDRESS_ROW
+ - MIB_UNICASTIPADDRESS_ROW
 product: Windows
 targetos: Windows
 req.lib: 

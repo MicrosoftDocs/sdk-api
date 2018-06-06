@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Azroles.dll
+ - Azroles.dll
 api_name:
--	IAzRole.Name
--	IAzRole.get_Name
--	IAzRole.put_Name
--	AzRole.Name
+ - IAzRole.Name
+ - IAzRole.get_Name
+ - IAzRole.put_Name
+ - AzRole.Name
 product: Windows
 targetos: Windows
 req.lib: Azroles.lib

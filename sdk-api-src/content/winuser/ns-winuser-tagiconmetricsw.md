@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: ICONMETRICSW, *PICONMETRICSW, *LPICONMETRICSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winuser.h
+ - Winuser.h
 api_name:
--	ICONMETRICS
--	ICONMETRICSA
--	ICONMETRICSW
+ - ICONMETRICS
+ - ICONMETRICSA
+ - ICONMETRICSW
 product: Windows
 targetos: Windows
 req.lib: 

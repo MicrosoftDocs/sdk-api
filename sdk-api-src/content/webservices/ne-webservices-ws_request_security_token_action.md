@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_REQUEST_SECURITY_TOKEN_ACTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WebServices.h
+ - WebServices.h
 api_name:
--	WS_REQUEST_SECURITY_TOKEN_ACTION
+ - WS_REQUEST_SECURITY_TOKEN_ACTION
 product: Windows
 targetos: Windows
 req.lib: 

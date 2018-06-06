@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VMRMONITORINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	strmif.h
+ - strmif.h
 api_name:
--	VMRMONITORINFO
+ - VMRMONITORINFO
 product: Windows
 targetos: Windows
 req.lib: 

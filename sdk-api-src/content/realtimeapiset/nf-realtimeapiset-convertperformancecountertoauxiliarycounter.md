@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RDPENCOMAPI_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
+ - Kernel32.dll
 api_name:
--	ConvertPerformanceCounterToAuxiliaryCounter
+ - ConvertPerformanceCounterToAuxiliaryCounter
 product: Windows
 targetos: Windows
 req.lib: Mincore.lib

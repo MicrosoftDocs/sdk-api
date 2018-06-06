@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	AdvApi32Legacy.dll
--	API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
--	API-MS-Win-Service-Core-Ansi-L1-1-1.dll
--	API-Ms-Win-Service-Core-L1-1-2.dll
--	SecHost.dll
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
+ - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+ - API-Ms-Win-Service-Core-L1-1-2.dll
+ - SecHost.dll
 api_name:
--	GetServiceKeyName
--	GetServiceKeyNameA
--	GetServiceKeyNameW
+ - GetServiceKeyName
+ - GetServiceKeyNameA
+ - GetServiceKeyNameW
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

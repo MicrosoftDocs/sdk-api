@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_SHADER_DEBUG_SCOPETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	d3d10_1shader.h
+ - d3d10_1shader.h
 api_name:
--	D3D10_SHADER_DEBUG_SCOPETYPE
+ - D3D10_SHADER_DEBUG_SCOPETYPE
 product: Windows
 targetos: Windows
 req.lib: 

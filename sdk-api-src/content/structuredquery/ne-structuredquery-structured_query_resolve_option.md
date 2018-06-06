@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STRUCTURED_QUERY_RESOLVE_OPTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Structuredquery.h
+ - Structuredquery.h
 api_name:
--	STRUCTURED_QUERY_RESOLVE_OPTION
+ - STRUCTURED_QUERY_RESOLVE_OPTION
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUS_NETNAME_PWD_INFO, *PCLUS_NETNAME_PWD_INFO, CLUS_RLUA_PWD_INFO, *PCLUS_RLUA_PWD_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUS_NETNAME_PWD_INFO
+ - CLUS_NETNAME_PWD_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DXVACompBufferInfo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxva9typ.h
+ - dxva9typ.h
 api_name:
--	DXVACompBufferInfo
+ - DXVACompBufferInfo
 product: Windows
 targetos: Windows
 req.lib: 

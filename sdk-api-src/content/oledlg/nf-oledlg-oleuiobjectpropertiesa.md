@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: OLEUIPASTEFLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	OleDlg.dll
+ - OleDlg.dll
 api_name:
--	OleUIObjectProperties
--	OleUIObjectPropertiesA
--	OleUIObjectPropertiesW
+ - OleUIObjectProperties
+ - OleUIObjectPropertiesA
+ - OleUIObjectPropertiesW
 product: Windows
 targetos: Windows
 req.lib: OleDlg.lib

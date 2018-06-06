@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	IFsiFileItem2.RemoveStream
+ - IFsiFileItem2.RemoveStream
 product: Windows
 targetos: Windows
 req.lib: 

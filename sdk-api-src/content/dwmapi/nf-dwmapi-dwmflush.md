@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Dwmapi.dll
--	ext-ms-win-dwmapi-ext-l1-1-0.dll
--	API-Ms-Win-DwmAPI-L1-1-0.dll
--	DComp.dll
+ - Dwmapi.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - API-Ms-Win-DwmAPI-L1-1-0.dll
+ - DComp.dll
 api_name:
--	DwmFlush
+ - DwmFlush
 product: Windows
 targetos: Windows
 req.lib: Dwmapi.lib

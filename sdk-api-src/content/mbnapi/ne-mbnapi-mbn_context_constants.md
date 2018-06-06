@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MBN_CONTEXT_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mbnapi.h
+ - mbnapi.h
 api_name:
--	MBN_CONTEXT_CONSTANTS
+ - MBN_CONTEXT_CONSTANTS
 product: Windows
 targetos: Windows
 req.lib: 

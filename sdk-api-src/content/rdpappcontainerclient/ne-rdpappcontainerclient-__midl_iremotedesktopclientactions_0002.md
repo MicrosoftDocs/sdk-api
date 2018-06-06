@@ -29,14 +29,14 @@ req.type-library: MsTscAx.dll
 tech.root: 
 req.typenames: SnapshotEncodingType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	MsTscAx.dll
+ - MsTscAx.dll
 api_name:
--	SnapshotEncodingType
+ - SnapshotEncodingType
 product: Windows
 targetos: Windows
 req.lib: 

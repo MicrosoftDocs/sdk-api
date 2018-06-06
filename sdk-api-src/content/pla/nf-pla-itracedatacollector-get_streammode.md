@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	ITraceDataCollector.StreamMode
--	ITraceDataCollector.get_StreamMode
--	ITraceDataCollector.put_StreamMode
+ - ITraceDataCollector.StreamMode
+ - ITraceDataCollector.get_StreamMode
+ - ITraceDataCollector.put_StreamMode
 product: Windows
 targetos: Windows
 req.lib: 

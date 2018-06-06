@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	inkrenderer.h
+ - inkrenderer.h
 api_name:
--	IInkD2DRenderer.Draw
+ - IInkD2DRenderer.Draw
 product: Windows
 targetos: Windows
 req.lib: 

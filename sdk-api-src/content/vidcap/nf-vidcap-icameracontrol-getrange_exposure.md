@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: AVISTREAMINFOW, *LPAVISTREAMINFOW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Strmiids.lib
--	Strmiids.dll
+ - Strmiids.lib
+ - Strmiids.dll
 api_name:
--	ICameraControl.getRange_Exposure
+ - ICameraControl.getRange_Exposure
 product: Windows
 targetos: Windows
 req.lib: Strmiids.lib

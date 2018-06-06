@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	SHRINK_VOLUME_INFORMATION
+ - SHRINK_VOLUME_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

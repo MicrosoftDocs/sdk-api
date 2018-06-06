@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIN32_MEMORY_REGION_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MemoryApi.h
+ - MemoryApi.h
 api_name:
--	WIN32_MEMORY_REGION_INFORMATION
+ - WIN32_MEMORY_REGION_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

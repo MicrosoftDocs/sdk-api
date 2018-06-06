@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, *PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Cryptxml.h
+ - Cryptxml.h
 api_name:
--	CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
+ - CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 product: Windows
 targetos: Windows
 req.lib: 

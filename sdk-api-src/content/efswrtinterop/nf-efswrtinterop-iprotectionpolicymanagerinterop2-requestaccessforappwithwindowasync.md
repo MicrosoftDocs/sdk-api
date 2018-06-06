@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TimedLevel
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	efswrt.dll
+ - efswrt.dll
 api_name:
--	IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
+ - IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
 product: Windows
 targetos: Windows
 req.lib: 

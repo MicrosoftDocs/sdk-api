@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WM_AETYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	WMStubDRM.lib
--	WMStubDRM.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
 api_name:
--	IWMDRMReader.Individualize
+ - IWMDRMReader.Individualize
 product: Windows
 targetos: Windows
 req.lib: WMStubDRM.lib

@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WMI_OBJ_TEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wmiutils.dll
+ - Wmiutils.dll
 api_name:
--	IWbemStatusCodeText
--	WbemStatusCodeText
+ - IWbemStatusCodeText
+ - WbemStatusCodeText
 product: Windows
 targetos: Windows
 req.lib: Wbemuuid.lib

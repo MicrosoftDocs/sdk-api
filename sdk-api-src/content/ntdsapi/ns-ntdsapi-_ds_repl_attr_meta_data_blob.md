@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPL_ATTR_META_DATA_BLOB
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_REPL_ATTR_META_DATA_BLOB
+ - DS_REPL_ATTR_META_DATA_BLOB
 product: Windows
 targetos: Windows
 req.lib: 

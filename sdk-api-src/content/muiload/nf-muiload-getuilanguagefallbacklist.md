@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Muiload.lib
+ - Muiload.lib
 api_name:
--	GetUILanguageFallbackList
+ - GetUILanguageFallbackList
 product: Windows
 targetos: Windows
 req.lib: Muiload.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_CLIENT_INTERFACE, *PRPC_CLIENT_INTERFACE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	RpcdceP.h
+ - RpcdceP.h
 api_name:
--	RPC_CLIENT_INTERFACE
+ - RPC_CLIENT_INTERFACE
 product: Windows
 targetos: Windows
 req.lib: 

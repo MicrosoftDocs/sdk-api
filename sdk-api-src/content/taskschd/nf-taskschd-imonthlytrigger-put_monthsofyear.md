@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE2
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	taskschd.dll
+ - taskschd.dll
 api_name:
--	IMonthlyTrigger.MonthsOfYear
--	IMonthlyTrigger.get_MonthsOfYear
--	IMonthlyTrigger.put_MonthsOfYear
+ - IMonthlyTrigger.MonthsOfYear
+ - IMonthlyTrigger.get_MonthsOfYear
+ - IMonthlyTrigger.put_MonthsOfYear
 product: Windows
 targetos: Windows
 req.lib: Taskschd.lib

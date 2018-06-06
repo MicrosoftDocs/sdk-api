@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	mf.dll
+ - mf.dll
 api_name:
--	MFCreateTranscodeSinkActivate
+ - MFCreateTranscodeSinkActivate
 product: Windows
 targetos: Windows
 req.lib: Mf.lib

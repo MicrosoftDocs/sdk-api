@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STATFLAG
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WTypes.h
+ - WTypes.h
 api_name:
--	STATFLAG
+ - STATFLAG
 product: Windows
 targetos: Windows
 req.lib: 

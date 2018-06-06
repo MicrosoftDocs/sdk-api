@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Subauth.h
+ - Subauth.h
 api_name:
--	SR_SECURITY_DESCRIPTOR
+ - SR_SECURITY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.lib: 

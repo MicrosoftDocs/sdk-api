@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IConfigurationDataCollector.FileMaxCount
--	IConfigurationDataCollector.get_FileMaxCount
--	IConfigurationDataCollector.put_FileMaxCount
+ - IConfigurationDataCollector.FileMaxCount
+ - IConfigurationDataCollector.get_FileMaxCount
+ - IConfigurationDataCollector.put_FileMaxCount
 product: Windows
 targetos: Windows
 req.lib: 

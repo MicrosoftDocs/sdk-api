@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: BP_BUFFERFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	UxTheme.dll
--	Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
--	xamlpalwp.dll
--	ext-ms-win-uxtheme-themes-l1-1-1.dll
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
--	GetThemeFont
+ - GetThemeFont
 product: Windows
 targetos: Windows
 req.lib: UxTheme.lib

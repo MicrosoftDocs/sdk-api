@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UNSIGNED_RATIO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	UNSIGNED_RATIO
+ - UNSIGNED_RATIO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_MODALS_INFO_1, *PUSER_MODALS_INFO_1, *LPUSER_MODALS_INFO_1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lmaccess.h
+ - Lmaccess.h
 api_name:
--	USER_MODALS_INFO_1
+ - USER_MODALS_INFO_1
 product: Windows
 targetos: Windows
 req.lib: 

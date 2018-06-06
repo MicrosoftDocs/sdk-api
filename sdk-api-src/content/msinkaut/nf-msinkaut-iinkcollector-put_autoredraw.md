@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: TabletPropertyMetricUnit
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	InkObj.dll
--	InkObj.dll.dll
+ - InkObj.dll
+ - InkObj.dll.dll
 api_name:
--	IInkCollector.AutoRedraw
--	IInkCollector.get_AutoRedraw
--	IInkCollector.put_AutoRedraw
--	InkCollector.get_AutoRedraw
--	InkCollector.put_AutoRedraw
+ - IInkCollector.AutoRedraw
+ - IInkCollector.get_AutoRedraw
+ - IInkCollector.put_AutoRedraw
+ - InkCollector.get_AutoRedraw
+ - InkCollector.put_AutoRedraw
 product: Windows
 targetos: Windows
 req.lib: InkObj.dll

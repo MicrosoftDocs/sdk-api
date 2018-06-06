@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_CONTROL_STATUS_REASON_PARAMSW, *PSERVICE_CONTROL_STATUS_REASON_PARAMSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsvc.h
+ - Winsvc.h
 api_name:
--	SERVICE_CONTROL_STATUS_REASON_PARAMS
--	SERVICE_CONTROL_STATUS_REASON_PARAMSA
--	SERVICE_CONTROL_STATUS_REASON_PARAMSW
+ - SERVICE_CONTROL_STATUS_REASON_PARAMS
+ - SERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - SERVICE_CONTROL_STATUS_REASON_PARAMSW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TMGR_DIRECTION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Termmgr.h
+ - Termmgr.h
 api_name:
--	TMGR_DIRECTION
+ - TMGR_DIRECTION
 product: Windows
 targetos: Windows
 req.lib: 

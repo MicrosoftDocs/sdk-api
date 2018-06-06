@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMEAPPLETUI, *LPIMEAPPLETUI
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Imepad.h
+ - Imepad.h
 api_name:
--	IMEAPPLETUI
+ - IMEAPPLETUI
 product: Windows
 targetos: Windows
 req.lib: 

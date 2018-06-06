@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WM_PORT_NUMBER_RANGE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wmsdkidl.h
+ - Wmsdkidl.h
 api_name:
--	WM_PORT_NUMBER_RANGE
+ - WM_PORT_NUMBER_RANGE
 product: Windows
 targetos: Windows
 req.lib: 

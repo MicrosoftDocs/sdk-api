@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SEC_WINNT_CREDUI_CONTEXT, *PSEC_WINNT_CREDUI_CONTEXT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Sspi.h
+ - Sspi.h
 api_name:
--	SEC_WINNT_CREDUI_CONTEXT
+ - SEC_WINNT_CREDUI_CONTEXT
 product: Windows
 targetos: Windows
 req.lib: 

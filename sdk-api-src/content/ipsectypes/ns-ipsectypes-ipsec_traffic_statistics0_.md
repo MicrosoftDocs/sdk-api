@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IPSEC_TRAFFIC_STATISTICS0
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipsectypes.h
+ - Ipsectypes.h
 api_name:
--	IPSEC_TRAFFIC_STATISTICS0
+ - IPSEC_TRAFFIC_STATISTICS0
 product: Windows
 targetos: Windows
 req.lib: 

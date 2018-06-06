@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Mstask.h
+ - Mstask.h
 api_name:
--	TASK_TRIGGER_TYPE
+ - TASK_TRIGGER_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

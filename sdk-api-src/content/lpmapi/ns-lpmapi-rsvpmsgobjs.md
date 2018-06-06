@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RSVP_MSG_OBJS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	RSVP_MSG_OBJS
+ - RSVP_MSG_OBJS
 product: Windows
 targetos: Windows
 req.lib: 

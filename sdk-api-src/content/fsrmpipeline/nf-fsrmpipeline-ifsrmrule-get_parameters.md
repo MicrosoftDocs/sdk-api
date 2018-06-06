@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmTemplateApplyOptions
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	SrmSvc.dll
+ - SrmSvc.dll
 api_name:
--	IFsrmRule.Parameters
--	IFsrmRule.get_Parameters
--	IFsrmRule.put_Parameters
+ - IFsrmRule.Parameters
+ - IFsrmRule.get_Parameters
+ - IFsrmRule.put_Parameters
 product: Windows
 targetos: Windows
 req.lib: 

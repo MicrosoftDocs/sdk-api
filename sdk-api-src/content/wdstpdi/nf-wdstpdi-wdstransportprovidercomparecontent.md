@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	wdstpdi.h
+ - wdstpdi.h
 api_name:
--	WdsTransportProviderCompareContent
+ - WdsTransportProviderCompareContent
 product: Windows
 targetos: Windows
 req.lib: 

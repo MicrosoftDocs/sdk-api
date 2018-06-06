@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, *PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ClusAPI.h
+ - ClusAPI.h
 api_name:
--	CLUSCTL_RESOURCE_STATE_CHANGE_REASON
+ - CLUSCTL_RESOURCE_STATE_CHANGE_REASON
 product: Windows
 targetos: Windows
 req.lib: 

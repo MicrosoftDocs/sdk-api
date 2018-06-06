@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WINHTTP_CERTIFICATE_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	Wininet.h
+ - Wininet.h
 api_name:
--	GOPHER_ATTRIBUTE_ENUMERATOR
+ - GOPHER_ATTRIBUTE_ENUMERATOR
 product: Windows
 targetos: Windows
 req.lib: 

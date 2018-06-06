@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PrintDocumentPackageCompletion
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	documenttarget.h
+ - documenttarget.h
 api_name:
--	IPrintDocumentPackageTargetFactory
+ - IPrintDocumentPackageTargetFactory
 product: Windows
 targetos: Windows
 req.lib: 

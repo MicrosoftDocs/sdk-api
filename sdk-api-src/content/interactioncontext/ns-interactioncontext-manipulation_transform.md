@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_TRANSFORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	interactioncontext.h
+ - interactioncontext.h
 api_name:
--	MANIPULATION_TRANSFORM
+ - MANIPULATION_TRANSFORM
 product: Windows
 targetos: Windows
 req.lib: 

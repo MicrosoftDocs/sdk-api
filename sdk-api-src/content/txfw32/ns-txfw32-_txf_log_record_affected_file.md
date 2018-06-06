@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TXF_LOG_RECORD_AFFECTED_FILE, *PTXF_LOG_RECORD_AFFECTED_FILE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	TxfW32.h
+ - TxfW32.h
 api_name:
--	TXF_LOG_RECORD_AFFECTED_FILE
+ - TXF_LOG_RECORD_AFFECTED_FILE
 product: Windows
 targetos: Windows
 req.lib: 

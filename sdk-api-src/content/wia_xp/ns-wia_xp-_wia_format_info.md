@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WIA_FORMAT_INFO, *PWIA_FORMAT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wia_xp.h
+ - wia_xp.h
 api_name:
--	WIA_FORMAT_INFO
+ - WIA_FORMAT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

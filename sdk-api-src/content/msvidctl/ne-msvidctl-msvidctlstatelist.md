@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSVidCtlStateList
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	msvidctl.h
+ - msvidctl.h
 api_name:
--	MSVidCtlStateList
+ - MSVidCtlStateList
 product: Windows
 targetos: Windows
 req.lib: 

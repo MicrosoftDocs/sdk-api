@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WNV_OBJECT_HEADER, *PWNV_OBJECT_HEADER
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wnvapi.h
+ - wnvapi.h
 api_name:
--	WNV_OBJECT_HEADER
+ - WNV_OBJECT_HEADER
 product: Windows
 targetos: Windows
 req.lib: 

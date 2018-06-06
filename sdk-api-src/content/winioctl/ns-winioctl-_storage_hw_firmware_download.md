@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winioctl.h
+ - winioctl.h
 api_name:
--	STORAGE_HW_FIRMWARE_DOWNLOAD
+ - STORAGE_HW_FIRMWARE_DOWNLOAD
 product: Windows
 targetos: Windows
 req.lib: 

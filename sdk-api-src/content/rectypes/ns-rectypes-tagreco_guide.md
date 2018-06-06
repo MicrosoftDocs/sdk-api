@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RECO_GUIDE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	rectypes.h
+ - rectypes.h
 api_name:
--	RECO_GUIDE
+ - RECO_GUIDE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	gdipluspixelformats.h
+ - gdipluspixelformats.h
 api_name:
--	DitherType
+ - DitherType
 product: Windows
 targetos: Windows
 req.lib: Gdiplus.lib

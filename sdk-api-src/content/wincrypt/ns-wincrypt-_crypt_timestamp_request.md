@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_TIMESTAMP_REQUEST, *PCRYPT_TIMESTAMP_REQUEST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_TIMESTAMP_REQUEST
+ - CRYPT_TIMESTAMP_REQUEST
 product: Windows
 targetos: Windows
 req.lib: 

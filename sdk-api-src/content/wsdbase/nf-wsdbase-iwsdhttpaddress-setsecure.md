@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSD_CONFIG_PARAM_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Wsdapi.dll
+ - Wsdapi.dll
 api_name:
--	IWSDHttpAddress.SetSecure
+ - IWSDHttpAddress.SetSecure
 product: Windows
 targetos: Windows
 req.lib: 

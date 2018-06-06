@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IAlertDataCollector.EventLog
--	IAlertDataCollector.get_EventLog
--	IAlertDataCollector.put_EventLog
+ - IAlertDataCollector.EventLog
+ - IAlertDataCollector.get_EventLog
+ - IAlertDataCollector.put_EventLog
 product: Windows
 targetos: Windows
 req.lib: 

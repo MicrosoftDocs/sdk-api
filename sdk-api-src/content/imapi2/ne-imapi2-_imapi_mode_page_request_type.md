@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: IMAPI_MODE_PAGE_REQUEST_TYPE, *PIMAPI_MODE_PAGE_REQUEST_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	imapi2.h
+ - imapi2.h
 api_name:
--	IMAPI_MODE_PAGE_REQUEST_TYPE
+ - IMAPI_MODE_PAGE_REQUEST_TYPE
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

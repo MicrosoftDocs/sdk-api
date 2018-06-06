@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FsrmPropertyDefinitionAppliesTo
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	FsrmEnums.h
+ - FsrmEnums.h
 api_name:
--	FsrmPropertyDefinitionAppliesTo
+ - FsrmPropertyDefinitionAppliesTo
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: BITMAP_RENDERER_STATISTICS, *PBITMAP_RENDERER_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tuner.h
--	Tuner.idl
+ - tuner.h
+ - Tuner.idl
 api_name:
--	ITunerCapEx.Has608_708Caption
--	ITunerCapEx.get_Has608_708Caption
+ - ITunerCapEx.Has608_708Caption
+ - ITunerCapEx.get_Has608_708Caption
 product: Windows
 targetos: Windows
 req.lib: 

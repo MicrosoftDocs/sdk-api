@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: FindSimilarFileIndexResults
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	MsRdc.h
+ - MsRdc.h
 api_name:
--	FindSimilarFileIndexResults
+ - FindSimilarFileIndexResults
 product: Windows
 targetos: Windows
 req.lib: 

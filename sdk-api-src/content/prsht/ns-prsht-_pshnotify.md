@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PSHNOTIFY, *LPPSHNOTIFY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Prsht.h
+ - Prsht.h
 api_name:
--	PSHNOTIFY
+ - PSHNOTIFY
 product: Windows
 targetos: Windows
 req.lib: 

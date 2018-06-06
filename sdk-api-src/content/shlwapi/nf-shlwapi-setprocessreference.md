@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: URL_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	api-ms-win-shcore-thread-L1-1-0.dll
--	ShCore.dll
+ - api-ms-win-shcore-thread-L1-1-0.dll
+ - ShCore.dll
 api_name:
--	SetProcessReference
+ - SetProcessReference
 product: Windows
 targetos: Windows
 req.lib: Shlwapi.lib

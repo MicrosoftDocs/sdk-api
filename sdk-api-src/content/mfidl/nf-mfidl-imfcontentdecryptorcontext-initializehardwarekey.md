@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFSensorDeviceMode
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	mfplat.dll
+ - mfplat.dll
 api_name:
--	IMFContentDecryptorContext.InitializeHardwareKey
+ - IMFContentDecryptorContext.InitializeHardwareKey
 product: Windows
 targetos: Windows
 req.lib: Mfplat.lib

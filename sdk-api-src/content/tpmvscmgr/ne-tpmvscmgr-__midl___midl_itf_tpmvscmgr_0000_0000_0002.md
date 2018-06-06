@@ -29,14 +29,14 @@ req.type-library: Vscmgr.lib
 tech.root: 
 req.typenames: TPMVSCMGR_ERROR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	LibDef
+ - LibDef
 api_location:
--	Vscmgr.lib
+ - Vscmgr.lib
 api_name:
--	TPMVSCMGR_ERROR
+ - TPMVSCMGR_ERROR
 product: Windows
 targetos: Windows
 req.lib: 

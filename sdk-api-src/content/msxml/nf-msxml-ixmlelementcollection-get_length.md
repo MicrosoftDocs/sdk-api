@@ -29,14 +29,14 @@ req.type-library: Msxml.tlb
 tech.root: 
 req.typenames: RIO_BUF, *PRIO_BUF
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Msxml.dll
+ - Msxml.dll
 api_name:
--	IXMLElementCollection.get_length
+ - IXMLElementCollection.get_length
 product: Windows
 targetos: Windows
 req.lib: 

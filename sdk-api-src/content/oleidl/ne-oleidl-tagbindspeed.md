@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BINDSPEED
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Oleidl.h
+ - Oleidl.h
 api_name:
--	BINDSPEED
+ - BINDSPEED
 product: Windows
 targetos: Windows
 req.lib: 

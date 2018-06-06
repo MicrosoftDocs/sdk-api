@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	IFileSystemImage.put_ISO9660InterchangeLevel
+ - IFileSystemImage.put_ISO9660InterchangeLevel
 product: Windows
 targetos: Windows
 req.lib: 

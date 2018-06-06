@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Sources
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	clusapi.h
+ - clusapi.h
 api_name:
--	ClusterUpgradeProgressCallback
+ - ClusterUpgradeProgressCallback
 product: Windows
 targetos: Windows
 req.lib: 

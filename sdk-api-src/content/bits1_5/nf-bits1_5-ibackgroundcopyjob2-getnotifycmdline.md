@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BG_AUTH_SCHEME
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	BitsPrx2.dll
+ - BitsPrx2.dll
 api_name:
--	IBackgroundCopyJob2.GetNotifyCmdLine
+ - IBackgroundCopyJob2.GetNotifyCmdLine
 product: Windows
 targetos: Windows
 req.lib: Bits.lib

@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: RASPROJECTION_INFO_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rasapi32.dll
--	Ext-MS-Win-ras-rasapi32-l1-1-0.dll
--	Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
--	RasGetConnectionStatistics
+ - RasGetConnectionStatistics
 product: Windows
 targetos: Windows
 req.lib: Rasapi32.lib

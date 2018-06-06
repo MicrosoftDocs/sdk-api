@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	nldef.h
+ - nldef.h
 api_name:
--	NL_LINK_LOCAL_ADDRESS_BEHAVIOR
+ - NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib

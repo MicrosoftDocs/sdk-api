@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: WICTiffCompressionOption
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Windowscodecs.lib
--	Windowscodecs.dll
+ - Windowscodecs.lib
+ - Windowscodecs.dll
 api_name:
--	IWICPixelFormatInfo.GetChannelMask
+ - IWICPixelFormatInfo.GetChannelMask
 product: Windows
 targetos: Windows
 req.lib: Windowscodecs.lib

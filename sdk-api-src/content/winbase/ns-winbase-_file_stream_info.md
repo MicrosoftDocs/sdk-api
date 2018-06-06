@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: FILE_STREAM_INFO, *PFILE_STREAM_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinBase.h
--	FileExtd.h
+ - WinBase.h
+ - FileExtd.h
 api_name:
--	FILE_STREAM_INFO
+ - FILE_STREAM_INFO
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SYNCMGR_SYNC_CONTROL_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Syncmgr.h
+ - Syncmgr.h
 api_name:
--	SYNCMGR_SYNC_CONTROL_FLAGS
+ - SYNCMGR_SYNC_CONTROL_FLAGS
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

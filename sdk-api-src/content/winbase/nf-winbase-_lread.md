@@ -29,19 +29,19 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	kernel32.dll
--	iexpress.exe
--	API-MS-Win-Core-Kernel32-Private-L1-1-0.dll
--	API-MS-Win-Core-Kernel32-Private-L1-1-1.dll
--	API-MS-Win-Core-Kernel32-Private-L1-1-2.dll
--	Kernel32Legacy.dll
+ - kernel32.dll
+ - iexpress.exe
+ - API-MS-Win-Core-Kernel32-Private-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Private-L1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Private-L1-1-2.dll
+ - Kernel32Legacy.dll
 api_name:
--	_lread
+ - _lread
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ICMPV6_ECHO_REPLY_LH, *PICMPV6_ECHO_REPLY_LH
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ipexport.h
+ - Ipexport.h
 api_name:
--	ICMPV6_ECHO_REPLY
+ - ICMPV6_ECHO_REPLY
 product: Windows
 targetos: Windows
 req.lib: 

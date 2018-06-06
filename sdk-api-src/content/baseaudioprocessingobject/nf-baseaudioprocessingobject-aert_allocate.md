@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: AZ_PROP_CONSTANTS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Audioeng.dll
+ - Audioeng.dll
 api_name:
--	AERT_Allocate
+ - AERT_Allocate
 product: Windows
 targetos: Windows
 req.lib: Audioeng.lib

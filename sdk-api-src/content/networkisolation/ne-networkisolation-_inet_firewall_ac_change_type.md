@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: INET_FIREWALL_AC_CHANGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	networkisolation.h
+ - networkisolation.h
 api_name:
--	INET_FIREWALL_AC_CHANGE_TYPE
+ - INET_FIREWALL_AC_CHANGE_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

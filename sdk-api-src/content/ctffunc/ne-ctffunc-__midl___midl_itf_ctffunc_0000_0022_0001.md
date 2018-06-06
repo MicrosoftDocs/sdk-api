@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TfIntegratableCandidateListSelectionStyle
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	ctffunc.h
+ - ctffunc.h
 api_name:
--	TfIntegratableCandidateListSelectionStyle
+ - TfIntegratableCandidateListSelectionStyle
 product: Windows
 targetos: Windows
 req.lib: 

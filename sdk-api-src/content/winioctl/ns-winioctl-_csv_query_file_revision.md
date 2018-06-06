@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_QUERY_FILE_REVISION, *PCSV_QUERY_FILE_REVISION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_QUERY_FILE_REVISION
+ - CSV_QUERY_FILE_REVISION
 product: Windows
 targetos: Windows
 req.lib: 

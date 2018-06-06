@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: THDTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Ole32.dll
+ - Ole32.dll
 api_name:
--	IFillLockBytes.SetFillSize
+ - IFillLockBytes.SetFillSize
 product: Windows
 targetos: Windows
 req.lib: Uuid.lib

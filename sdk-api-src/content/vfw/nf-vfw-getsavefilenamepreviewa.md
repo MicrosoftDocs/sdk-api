@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: VS_FIXEDFILEINFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msvfw32.dll
+ - Msvfw32.dll
 api_name:
--	GetSaveFileNamePreview
--	GetSaveFileNamePreviewA
--	GetSaveFileNamePreviewW
+ - GetSaveFileNamePreview
+ - GetSaveFileNamePreviewA
+ - GetSaveFileNamePreviewW
 product: Windows
 targetos: Windows
 req.lib: Vfw32.lib

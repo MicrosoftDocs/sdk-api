@@ -29,29 +29,29 @@ req.type-library:
 tech.root: 
 req.typenames: PRIORITY_HINT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Kernel32.dll
--	API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
--	kernel32legacy.dll
--	API-MS-Win-Core-memory-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-Core-memory-l1-1-1.dll
--	API-MS-Win-Core-memory-l1-1-2.dll
--	API-MS-Win-Core-memory-l1-1-3.dll
--	API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
--	MinKernelBase.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
--	API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
--	API-MS-Win-Core-Memory-L1-1-4.dll
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
--	OpenFileMapping
--	OpenFileMappingA
--	OpenFileMappingW
+ - OpenFileMapping
+ - OpenFileMappingA
+ - OpenFileMappingW
 product: Windows
 targetos: Windows
 req.lib: Kernel32.lib

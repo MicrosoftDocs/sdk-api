@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D12_SIGNATURE_PARAMETER_DESC
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d9.h
+ - d3d9.h
 api_name:
--	IDirect3DDevice9Video.CreateAuthenticatedChannel
+ - IDirect3DDevice9Video.CreateAuthenticatedChannel
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,20 +29,20 @@ req.type-library:
 tech.root: 
 req.typenames: AR_STATE, *PAR_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	user32.dll
--	API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
--	minuser.dll
--	Ext-MS-Win-NTUser-Draw-l1-1-0.dll
--	Ext-MS-Win-NTUser-Draw-l1-1-1.dll
--	ext-ms-win-ntuser-draw-l1-1-2.dll
--	Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
+ - user32.dll
+ - API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
 api_name:
--	RedrawWindow
+ - RedrawWindow
 product: Windows
 targetos: Windows
 req.lib: User32.lib

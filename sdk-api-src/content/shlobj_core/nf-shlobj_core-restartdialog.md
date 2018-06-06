@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: AUTOCOMPLETELISTOPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Shell32.dll
--	ext-ms-win-shell-shell32-l1-2-1.dll
--	Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
--	RestartDialog
+ - RestartDialog
 product: Windows
 targetos: Windows
 req.lib: Shell32.lib

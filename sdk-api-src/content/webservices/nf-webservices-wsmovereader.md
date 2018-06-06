@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WS_SECURITY_ALGORITHM_PROPERTY_ID
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	WebServices.dll
+ - WebServices.dll
 api_name:
--	WsMoveReader
+ - WsMoveReader
 product: Windows
 targetos: Windows
 req.lib: WebServices.lib

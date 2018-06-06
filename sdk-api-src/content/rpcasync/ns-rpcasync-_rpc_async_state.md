@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RPC_ASYNC_STATE, *PRPC_ASYNC_STATE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcasync.h
+ - Rpcasync.h
 api_name:
--	RPC_ASYNC_STATE
+ - RPC_ASYNC_STATE
 product: Windows
 targetos: Windows
 req.lib: 

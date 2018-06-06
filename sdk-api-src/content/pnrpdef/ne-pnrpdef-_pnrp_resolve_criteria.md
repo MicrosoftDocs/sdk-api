@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PNRP_RESOLVE_CRITERIA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pnrpdef.h
+ - Pnrpdef.h
 api_name:
--	PNRP_RESOLVE_CRITERIA
+ - PNRP_RESOLVE_CRITERIA
 product: Windows
 targetos: Windows
 req.lib: 

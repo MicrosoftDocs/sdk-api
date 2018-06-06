@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: REPAIR_STATUS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	ndhelper.h
+ - ndhelper.h
 api_name:
--	INetDiagHelper.Repair
+ - INetDiagHelper.Repair
 product: Windows
 targetos: Windows
 req.lib: 

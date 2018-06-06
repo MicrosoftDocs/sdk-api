@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_ATTRIBUTES_MATCH_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfobjects.h
+ - mfobjects.h
 api_name:
--	MF_ATTRIBUTES_MATCH_TYPE
+ - MF_ATTRIBUTES_MATCH_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

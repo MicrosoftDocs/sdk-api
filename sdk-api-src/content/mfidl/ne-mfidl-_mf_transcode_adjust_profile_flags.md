@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MF_TRANSCODE_ADJUST_PROFILE_FLAGS
+ - MF_TRANSCODE_ADJUST_PROFILE_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

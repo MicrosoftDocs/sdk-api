@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DSOBJECT, *LPDSOBJECT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dsclient.h
+ - Dsclient.h
 api_name:
--	DSOBJECT
+ - DSOBJECT
 product: Windows
 targetos: Windows
 req.lib: 

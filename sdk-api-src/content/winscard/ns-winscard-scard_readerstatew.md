@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SCARD_READERSTATEW, *PSCARD_READERSTATEW, *LPSCARD_READERSTATEW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winscard.h
+ - Winscard.h
 api_name:
--	SCARD_READERSTATE
--	SCARD_READERSTATEA
--	SCARD_READERSTATEW
+ - SCARD_READERSTATE
+ - SCARD_READERSTATEA
+ - SCARD_READERSTATEW
 product: Windows
 targetos: Windows
 req.lib: 

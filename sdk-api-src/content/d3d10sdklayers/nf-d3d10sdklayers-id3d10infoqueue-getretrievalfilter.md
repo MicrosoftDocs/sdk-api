@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_MESSAGE_SEVERITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	D3D10SDKLayers.h
+ - D3D10SDKLayers.h
 api_name:
--	ID3D10InfoQueue.GetRetrievalFilter
+ - ID3D10InfoQueue.GetRetrievalFilter
 product: Windows
 targetos: Windows
 req.lib: 

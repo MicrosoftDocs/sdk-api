@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MFNETSOURCE_TRANSPORT_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	mfidl.h
+ - mfidl.h
 api_name:
--	MFNETSOURCE_TRANSPORT_TYPE
+ - MFNETSOURCE_TRANSPORT_TYPE
 product: Windows
 targetos: Windows
 req.lib: 

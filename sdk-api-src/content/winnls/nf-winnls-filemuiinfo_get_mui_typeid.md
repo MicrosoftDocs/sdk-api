@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: NORM_FORM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnls.h
+ - Winnls.h
 api_name:
--	FILEMUIINFO_GET_MUI_TYPEID
+ - FILEMUIINFO_GET_MUI_TYPEID
 product: Windows
 targetos: Windows
 req.lib: 

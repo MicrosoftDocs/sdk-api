@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_MANGLE_FOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdsapi.dll
+ - Ntdsapi.dll
 api_name:
--	DsCrackUnquotedMangledRdn
--	DsCrackUnquotedMangledRdnA
--	DsCrackUnquotedMangledRdnW
+ - DsCrackUnquotedMangledRdn
+ - DsCrackUnquotedMangledRdnA
+ - DsCrackUnquotedMangledRdnW
 product: Windows
 targetos: Windows
 req.lib: Ntdsapi.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PDH_FMT_COUNTERVALUE, *PPDH_FMT_COUNTERVALUE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Pdh.h
+ - Pdh.h
 api_name:
--	PDH_FMT_COUNTERVALUE
+ - PDH_FMT_COUNTERVALUE
 product: Windows
 targetos: Windows
 req.lib: 

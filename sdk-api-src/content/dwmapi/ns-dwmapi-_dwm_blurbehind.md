@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DWM_BLURBEHIND, *PDWM_BLURBEHIND
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Dwmapi.h
+ - Dwmapi.h
 api_name:
--	DWM_BLURBEHIND
+ - DWM_BLURBEHIND
 product: Windows
 targetos: Windows
 req.lib: 

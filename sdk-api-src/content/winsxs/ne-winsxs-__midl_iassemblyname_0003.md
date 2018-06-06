@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ASM_DISPLAY_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winsxs.h
+ - Winsxs.h
 api_name:
--	ASM_DISPLAY_FLAGS
+ - ASM_DISPLAY_FLAGS
 product: Windows
 targetos: Windows
 req.lib: 

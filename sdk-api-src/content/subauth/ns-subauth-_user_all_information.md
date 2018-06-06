@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: USER_ALL_INFORMATION, *PUSER_ALL_INFORMATION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Subauth.h
+ - Subauth.h
 api_name:
--	USER_ALL_INFORMATION
+ - USER_ALL_INFORMATION
 product: Windows
 targetos: Windows
 req.lib: 

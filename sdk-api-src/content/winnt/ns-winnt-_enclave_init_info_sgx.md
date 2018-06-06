@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ENCLAVE_INIT_INFO_SGX, *PENCLAVE_INIT_INFO_SGX
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	winnt.h
+ - winnt.h
 api_name:
--	ENCLAVE_INIT_INFO_SGX
+ - ENCLAVE_INIT_INFO_SGX
 product: Windows
 targetos: Windows
 req.lib: 

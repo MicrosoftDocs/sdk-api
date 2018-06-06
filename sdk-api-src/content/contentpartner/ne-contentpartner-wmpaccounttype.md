@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WMPAccountType
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	contentpartner.h
+ - contentpartner.h
 api_name:
--	WMPAccountType
+ - WMPAccountType
 product: Windows
 targetos: Windows
 req.lib: 

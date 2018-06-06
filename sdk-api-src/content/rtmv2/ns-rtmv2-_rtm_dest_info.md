@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RTM_DEST_INFO, *PRTM_DEST_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rtmv2.h
+ - Rtmv2.h
 api_name:
--	RTM_DEST_INFO
+ - RTM_DEST_INFO
 product: Windows
 targetos: Windows
 req.lib: 

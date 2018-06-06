@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: RAS_AUTH_ATTRIBUTE, *PRAS_AUTH_ATTRIBUTE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Rasman.dll
+ - Rasman.dll
 api_name:
--	RasSecurityDialogReceive
+ - RasSecurityDialogReceive
 product: Windows
 targetos: Windows
 req.lib: 

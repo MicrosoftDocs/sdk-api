@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MAPPING_OPTIONS, *PMAPPING_OPTIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Elscore.h
+ - Elscore.h
 api_name:
--	MAPPING_OPTIONS
+ - MAPPING_OPTIONS
 product: Windows
 targetos: Windows
 req.lib: 

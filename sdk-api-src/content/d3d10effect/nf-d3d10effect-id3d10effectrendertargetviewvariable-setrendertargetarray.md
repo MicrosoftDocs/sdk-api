@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D10_DEVICE_STATE_TYPES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	d3d10effect.h
+ - d3d10effect.h
 api_name:
--	ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
+ - ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,18 +29,18 @@ req.type-library:
 tech.root: 
 req.typenames: StylusQueue
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	RTSCom.dll
+ - RTSCom.dll
 api_name:
--	IStrokeBuilder.Ink
--	IStrokeBuilder.get_Ink
--	IStrokeBuilder.put_Ink
--	IStrokeBuilder.get_Ink
--	IStrokeBuilder.put_Ink
+ - IStrokeBuilder.Ink
+ - IStrokeBuilder.get_Ink
+ - IStrokeBuilder.put_Ink
+ - IStrokeBuilder.get_Ink
+ - IStrokeBuilder.put_Ink
 product: Windows
 targetos: Windows
 req.lib: 

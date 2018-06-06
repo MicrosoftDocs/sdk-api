@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DOT11_NETWORK, *PDOT11_NETWORK
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	DOT11_NETWORK
+ - DOT11_NETWORK
 product: Windows
 targetos: Windows
 req.lib: 

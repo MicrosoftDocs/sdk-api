@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MSPEVENTITEM, *PMSPEVENTITEM
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Msports.dll
+ - Msports.dll
 api_name:
--	ComDBReleasePort
+ - ComDBReleasePort
 product: Windows
 targetos: Windows
 req.lib: Msports.lib

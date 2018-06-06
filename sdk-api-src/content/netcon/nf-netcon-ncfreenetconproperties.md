@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Netshell.dll
+ - Netshell.dll
 api_name:
--	NcFreeNetconProperties
+ - NcFreeNetconProperties
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Msacm.h
+ - Msacm.h
 api_name:
--	ACMFORMATCHOOSE
+ - ACMFORMATCHOOSE
 product: Windows
 targetos: Windows
 req.lib: 

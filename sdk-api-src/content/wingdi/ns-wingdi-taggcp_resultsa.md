@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: GCP_RESULTSA, *LPGCP_RESULTSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wingdi.h
+ - Wingdi.h
 api_name:
--	GCP_RESULTS
--	GCP_RESULTSA
--	GCP_RESULTSW
+ - GCP_RESULTS
+ - GCP_RESULTSA
+ - GCP_RESULTSW
 product: Windows
 targetos: Windows
 req.lib: 

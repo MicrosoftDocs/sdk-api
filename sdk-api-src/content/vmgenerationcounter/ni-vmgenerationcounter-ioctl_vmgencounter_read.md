@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Vmgenerationcounter.h
+ - Vmgenerationcounter.h
 api_name:
--	IOCTL_VMGENCOUNTER_READ
+ - IOCTL_VMGENCOUNTER_READ
 product: Windows
 targetos: Windows
 req.lib: 

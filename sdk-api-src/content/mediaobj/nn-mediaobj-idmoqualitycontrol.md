@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: 
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Mediaobj.h
+ - Mediaobj.h
 api_name:
--	IDMOQualityControl
+ - IDMOQualityControl
 product: Windows
 targetos: Windows
 req.lib: Dmoguids.lib

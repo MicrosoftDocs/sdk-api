@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WTSSBX_SESSION_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	tsvirtualchannels.h
+ - tsvirtualchannels.h
 api_name:
--	IWTSBitmapRenderer.Render
+ - IWTSBitmapRenderer.Render
 product: Windows
 targetos: Windows
 req.lib: 

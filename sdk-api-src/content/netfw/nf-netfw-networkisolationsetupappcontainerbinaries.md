@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: NETISO_ERROR_TYPE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	firewallapi.dll
--	API-MS-Win-Net-Isolation-l1-1-0.dll
--	API-MS-Win-Net-Isolation-l1-1-1.dll
--	wfapihost.dll
+ - firewallapi.dll
+ - API-MS-Win-Net-Isolation-l1-1-0.dll
+ - API-MS-Win-Net-Isolation-l1-1-1.dll
+ - wfapihost.dll
 api_name:
--	NetworkIsolationSetupAppContainerBinaries
+ - NetworkIsolationSetupAppContainerBinaries
 product: Windows
 targetos: Windows
 req.lib: 

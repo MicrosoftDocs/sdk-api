@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PlatformId
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	imapi2fs.h
+ - imapi2fs.h
 api_name:
--	IFileSystemImageResult2.get_ModifiedBlocks
+ - IFileSystemImageResult2.get_ModifiedBlocks
 product: Windows
 targetos: Windows
 req.lib: 

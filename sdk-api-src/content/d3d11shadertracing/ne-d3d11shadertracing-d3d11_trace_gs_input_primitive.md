@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: D3D11_TRACE_GS_INPUT_PRIMITIVE
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	D3D11ShaderTracing.h
+ - D3D11ShaderTracing.h
 api_name:
--	D3D11_TRACE_GS_INPUT_PRIMITIVE
+ - D3D11_TRACE_GS_INPUT_PRIMITIVE
 product: Windows
 targetos: Windows
 req.lib: 

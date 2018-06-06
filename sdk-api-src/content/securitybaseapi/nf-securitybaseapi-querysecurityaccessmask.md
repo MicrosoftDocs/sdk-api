@@ -29,21 +29,21 @@ req.type-library:
 tech.root: 
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Advapi32.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
--	KernelBase.dll
--	API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
--	API-MS-Win-Security-base-l1-1-0.dll
--	API-MS-Win-Security-base-l1-2-0.dll
--	MinKernelBase.dll
--	API-MS-Win-Security-Base-L1-2-1.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
--	QuerySecurityAccessMask
+ - QuerySecurityAccessMask
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

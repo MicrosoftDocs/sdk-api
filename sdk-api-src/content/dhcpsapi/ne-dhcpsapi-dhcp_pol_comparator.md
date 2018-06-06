@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DHCP_POL_COMPARATOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dhcpsapi.h
+ - dhcpsapi.h
 api_name:
--	DHCP_POL_COMPARATOR
+ - DHCP_POL_COMPARATOR
 product: Windows
 targetos: Windows
 req.lib: 

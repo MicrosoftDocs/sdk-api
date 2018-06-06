@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinIoCtl.h
+ - WinIoCtl.h
 api_name:
--	CSV_CONTROL_OP
+ - CSV_CONTROL_OP
 product: Windows
 targetos: Windows
 req.lib: 

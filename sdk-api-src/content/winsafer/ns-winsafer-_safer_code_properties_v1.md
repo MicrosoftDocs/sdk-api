@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SAFER_CODE_PROPERTIES_V1, *PSAFER_CODE_PROPERTIES_V1
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinSafer.h
+ - WinSafer.h
 api_name:
--	SAFER_CODE_PROPERTIES_V1
+ - SAFER_CODE_PROPERTIES_V1
 product: Windows
 targetos: Windows
 req.lib: 

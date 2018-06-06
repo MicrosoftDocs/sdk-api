@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	manipulations.h
+ - manipulations.h
 api_name:
--	IInertiaProcessor.DesiredAngularDeceleration
--	IInertiaProcessor.get_DesiredAngularDeceleration
--	IInertiaProcessor.put_DesiredAngularDeceleration
+ - IInertiaProcessor.DesiredAngularDeceleration
+ - IInertiaProcessor.get_DesiredAngularDeceleration
+ - IInertiaProcessor.put_DesiredAngularDeceleration
 product: Windows
 targetos: Windows
 req.lib: 

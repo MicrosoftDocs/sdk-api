@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: FolderActionSteps
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	Pla.dll
+ - Pla.dll
 api_name:
--	IConfigurationDataCollector.QueryNetworkAdapters
--	IConfigurationDataCollector.get_QueryNetworkAdapters
--	IConfigurationDataCollector.put_QueryNetworkAdapters
+ - IConfigurationDataCollector.QueryNetworkAdapters
+ - IConfigurationDataCollector.get_QueryNetworkAdapters
+ - IConfigurationDataCollector.put_QueryNetworkAdapters
 product: Windows
 targetos: Windows
 req.lib: 

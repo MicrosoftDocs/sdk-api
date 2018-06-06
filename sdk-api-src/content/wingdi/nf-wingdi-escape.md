@@ -29,15 +29,15 @@ req.type-library:
 tech.root: 
 req.typenames: DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	gdi32.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
--	Escape
+ - Escape
 product: Windows
 targetos: Windows
 req.lib: Gdi32.lib

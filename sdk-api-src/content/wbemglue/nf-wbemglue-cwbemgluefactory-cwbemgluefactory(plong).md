@@ -29,17 +29,17 @@ req.type-library:
 tech.root: 
 req.typenames: WbemTimeout
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	COM
+ - COM
 api_location:
--	FrameDynOS.dll
--	FrameDyn.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
 api_name:
--	CWbemGlueFactory.CWbemGlueFactory
--	??0CWbemGlueFactory@@QAE@XZ
--	??0CWbemGlueFactory@@QEAA@XZ
+ - CWbemGlueFactory.CWbemGlueFactory
+ - ??0CWbemGlueFactory@@QAE@XZ
+ - ??0CWbemGlueFactory@@QEAA@XZ
 product: Windows
 targetos: Windows
 req.lib: FrameDyn.lib

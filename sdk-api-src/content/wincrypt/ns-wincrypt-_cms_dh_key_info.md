@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMS_DH_KEY_INFO, *PCMS_DH_KEY_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMS_DH_KEY_INFO
+ - CMS_DH_KEY_INFO
 product: Windows
 targetos: Windows
 req.lib: 

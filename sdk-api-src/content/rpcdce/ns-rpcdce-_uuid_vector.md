@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UUID_VECTOR
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Rpcdce.h
+ - Rpcdce.h
 api_name:
--	UUID_VECTOR
+ - UUID_VECTOR
 product: Windows
 targetos: Windows
 req.lib: 

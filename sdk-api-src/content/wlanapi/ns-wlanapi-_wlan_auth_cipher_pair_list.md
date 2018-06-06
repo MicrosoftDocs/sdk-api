@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WLAN_AUTH_CIPHER_PAIR_LIST, *PWLAN_AUTH_CIPHER_PAIR_LIST
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wlanapi.h
+ - wlanapi.h
 api_name:
--	WLAN_AUTH_CIPHER_PAIR_LIST
+ - WLAN_AUTH_CIPHER_PAIR_LIST
 product: Windows
 targetos: Windows
 req.lib: 

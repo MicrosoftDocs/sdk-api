@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: PARAMDATA, *LPPARAMDATA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Oleaut32.dll
+ - Oleaut32.dll
 api_name:
--	OleIconToCursor
+ - OleIconToCursor
 product: Windows
 targetos: Windows
 req.lib: Oleaut32.lib

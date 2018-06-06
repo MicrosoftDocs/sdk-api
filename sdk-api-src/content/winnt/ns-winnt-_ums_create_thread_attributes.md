@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: UMS_CREATE_THREAD_ATTRIBUTES, *PUMS_CREATE_THREAD_ATTRIBUTES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	WinNT.h
+ - WinNT.h
 api_name:
--	UMS_CREATE_THREAD_ATTRIBUTES
+ - UMS_CREATE_THREAD_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

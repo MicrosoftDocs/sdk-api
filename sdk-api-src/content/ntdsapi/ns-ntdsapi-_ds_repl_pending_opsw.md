@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DS_REPL_PENDING_OPSW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_REPL_PENDING_OPS
+ - DS_REPL_PENDING_OPS
 product: Windows
 targetos: Windows
 req.lib: 

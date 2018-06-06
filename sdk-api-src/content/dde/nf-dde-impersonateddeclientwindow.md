@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: DCOMPOSITION_FRAME_STATISTICS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	User32.dll
+ - User32.dll
 api_name:
--	ImpersonateDdeClientWindow
+ - ImpersonateDdeClientWindow
 product: Windows
 targetos: Windows
 req.lib: User32.lib

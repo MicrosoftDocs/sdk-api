@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CRYPT_BLOB_ARRAY, *PCRYPT_BLOB_ARRAY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CRYPT_BLOB_ARRAY
+ - CRYPT_BLOB_ARRAY
 product: Windows
 targetos: Windows
 req.lib: 

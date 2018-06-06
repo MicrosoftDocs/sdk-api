@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BP_BUFFERFORMAT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	UxTheme.dll
+ - UxTheme.dll
 api_name:
--	GetThemeBool
+ - GetThemeBool
 product: Windows
 targetos: Windows
 req.lib: UxTheme.lib

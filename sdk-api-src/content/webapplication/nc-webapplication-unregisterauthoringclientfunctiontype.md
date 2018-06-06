@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	UserDefined
+ - UserDefined
 api_location:
--	webapplication.h
+ - webapplication.h
 api_name:
--	UnregisterAuthoringClientFunctionType
+ - UnregisterAuthoringClientFunctionType
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: X509CertificateTemplatePrivateKeyFlag
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	CertEnroll.h
+ - CertEnroll.h
 api_name:
--	X509CertificateTemplatePrivateKeyFlag
+ - X509CertificateTemplatePrivateKeyFlag
 product: Windows
 targetos: Windows
 req.lib: Certidl.lib

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: CMSG_CONTENT_ENCRYPT_INFO, *PCMSG_CONTENT_ENCRYPT_INFO
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wincrypt.h
+ - Wincrypt.h
 api_name:
--	CMSG_CONTENT_ENCRYPT_INFO
+ - CMSG_CONTENT_ENCRYPT_INFO
 product: Windows
 targetos: Windows
 req.lib: 

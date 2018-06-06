@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: Scope_list_ipv4
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Lpmapi.h
+ - Lpmapi.h
 api_name:
--	Scope_list_ipv4
+ - Scope_list_ipv4
 product: Windows
 targetos: Windows
 req.lib: 

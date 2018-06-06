@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	DllExport
+ - DllExport
 api_location:
--	Ntdll.dll
+ - Ntdll.dll
 api_name:
--	RtlIpv4AddressToString
--	RtlIpv4AddressToStringA
--	RtlIpv4AddressToStringW
+ - RtlIpv4AddressToString
+ - RtlIpv4AddressToStringA
+ - RtlIpv4AddressToStringW
 product: Windows
 targetos: Windows
 req.lib: 

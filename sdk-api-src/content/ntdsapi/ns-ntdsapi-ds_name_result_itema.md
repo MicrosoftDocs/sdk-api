@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: DS_NAME_RESULT_ITEMA, *PDS_NAME_RESULT_ITEMA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Ntdsapi.h
+ - Ntdsapi.h
 api_name:
--	DS_NAME_RESULT_ITEM
--	DS_NAME_RESULT_ITEMA
--	DS_NAME_RESULT_ITEMW
+ - DS_NAME_RESULT_ITEM
+ - DS_NAME_RESULT_ITEMA
+ - DS_NAME_RESULT_ITEMW
 product: Windows
 targetos: Windows
 req.lib: 

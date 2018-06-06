@@ -29,16 +29,16 @@ req.type-library:
 tech.root: 
 req.typenames: SERVICE_TYPE_INFO_ABSA, *PSERVICE_TYPE_INFO_ABSA, *LPSERVICE_TYPE_INFO_ABSA
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Nspapi.h
+ - Nspapi.h
 api_name:
--	SERVICE_TYPE_INFO_ABS
--	SERVICE_TYPE_INFO_ABSA
--	SERVICE_TYPE_INFO_ABSW
+ - SERVICE_TYPE_INFO_ABS
+ - SERVICE_TYPE_INFO_ABSA
+ - SERVICE_TYPE_INFO_ABSW
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WCN_VALUE_TYPE_CONFIG_METHODS
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	wcntypes.h
+ - wcntypes.h
 api_name:
--	WCN_VALUE_TYPE_CONFIG_METHODS
+ - WCN_VALUE_TYPE_CONFIG_METHODS
 product: Windows
 targetos: Windows
 req.lib: 

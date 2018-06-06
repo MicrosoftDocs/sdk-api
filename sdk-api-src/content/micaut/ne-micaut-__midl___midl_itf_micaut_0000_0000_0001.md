@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: MICUIELEMENT
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	micaut.h
+ - micaut.h
 api_name:
--	MICUIELEMENT
+ - MICUIELEMENT
 product: Windows
 targetos: Windows
 req.lib: 

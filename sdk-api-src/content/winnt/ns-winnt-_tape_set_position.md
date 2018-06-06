@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winnt.h
+ - Winnt.h
 api_name:
--	TAPE_SET_POSITION
+ - TAPE_SET_POSITION
 product: Windows
 targetos: Windows
 req.lib: 

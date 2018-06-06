@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: BerElement
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Winldap.h
+ - Winldap.h
 api_name:
--	BerElement
+ - BerElement
 product: Windows
 targetos: Windows
 req.lib: 

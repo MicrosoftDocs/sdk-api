@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: VSS_PROVIDER_CAPABILITIES, *PVSS_PROVIDER_CAPABILITIES
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	vss.h
+ - vss.h
 api_name:
--	_VSS_PROVIDER_CAPABILITIES
+ - _VSS_PROVIDER_CAPABILITIES
 product: Windows
 targetos: Windows
 req.lib: VssApi.lib

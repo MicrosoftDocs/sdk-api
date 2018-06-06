@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: WSDUdpRetransmitParams
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Wsdbase.h
+ - Wsdbase.h
 api_name:
--	WSDUdpRetransmitParams
+ - WSDUdpRetransmitParams
 product: Windows
 targetos: Windows
 req.lib: 

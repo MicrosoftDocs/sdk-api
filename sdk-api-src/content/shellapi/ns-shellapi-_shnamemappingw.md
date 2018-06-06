@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: SHNAMEMAPPINGW, *LPSHNAMEMAPPINGW
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	Shellapi.h
+ - Shellapi.h
 api_name:
--	SHNAMEMAPPING
+ - SHNAMEMAPPING
 product: Windows
 targetos: Windows
 req.lib: 

@@ -29,14 +29,14 @@ req.type-library:
 tech.root: 
 req.typenames: COPP_ACP_Protection_Level
 topic_type:
--	APIRef
--	kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
--	HeaderDef
+ - HeaderDef
 api_location:
--	dxva9typ.h
+ - dxva9typ.h
 api_name:
--	COPP_ACP_Protection_Level
+ - COPP_ACP_Protection_Level
 product: Windows
 targetos: Windows
 req.lib: 
