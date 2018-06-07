@@ -124,7 +124,7 @@ A text service can use the notifications of this interface to prevent itself fro
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
  
 
  

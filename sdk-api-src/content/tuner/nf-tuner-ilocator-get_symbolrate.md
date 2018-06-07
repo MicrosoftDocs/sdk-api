@@ -85,7 +85,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_put_symbolrate">put_SymbolRate</a>
+<a href="https://www.bing.com/search?q=put_SymbolRate">put_SymbolRate</a>
  
 
  

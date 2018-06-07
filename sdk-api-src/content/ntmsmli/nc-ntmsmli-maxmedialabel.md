@@ -111,7 +111,7 @@ When the media format of the media specified in the
 
 
 
-<a href="removable_storage_manager_functions.htm">Media Label Library Functions</a>
+<a href="https://www.bing.com/search?q=Media+Label+Library+Functions">Media Label Library Functions</a>
  
 
  

@@ -90,7 +90,7 @@ The count returned by the
 
 
 
-<a href="database_functions.htm">Record Processing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
  
 
  

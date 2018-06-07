@@ -108,7 +108,7 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://www.bing.com/search?q=Access+Control+Editor+Functions">Access Control Editor Functions</a>
 
 
 

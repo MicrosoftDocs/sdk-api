@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <b>IUIAutomation::ElementFromPoint</b> method returns the <a href="uiauto_error_codes.htm">UIA_E_ELEMENTNOTAVAILABLE</a> error code if the element under the point is already removed by the time the method returns. Clients should handle errors from this method gracefully; for example, by trying the call again. 
+The <b>IUIAutomation::ElementFromPoint</b> method returns the <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-error-codes">UIA_E_ELEMENTNOTAVAILABLE</a> error code if the element under the point is already removed by the time the method returns. Clients should handle errors from this method gracefully; for example, by trying the call again. 
 			
 
 

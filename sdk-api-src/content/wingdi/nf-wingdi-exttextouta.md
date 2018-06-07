@@ -352,7 +352,7 @@ Note, the <i>alpDx</i> values from <a href="https://msdn.microsoft.com/b873a059-
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://www.bing.com/search?q=Using+Menus">Using Menus</a>.
 
 <div class="code"></div>
 

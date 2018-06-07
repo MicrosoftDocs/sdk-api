@@ -70,7 +70,7 @@ Pointer to an <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
  If BackBuffer exceeds or equals the total number of back buffers, the function fails and returns D3DERR_INVALIDCALL. 

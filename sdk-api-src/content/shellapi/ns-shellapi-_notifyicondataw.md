@@ -645,7 +645,7 @@ The binary file that contains the icon was moved. The path of the binary file is
 
 This also occurs in the case of a side-by-side installation. When dealing with a side-by-side installation, new versions of the application should update the GUID of the binary file.
 
-<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="_inet_Authenticode_node_entry">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
+<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="https://www.bing.com/search?q=Authenticode">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
 <div> </div>
 </li>
 </ol>

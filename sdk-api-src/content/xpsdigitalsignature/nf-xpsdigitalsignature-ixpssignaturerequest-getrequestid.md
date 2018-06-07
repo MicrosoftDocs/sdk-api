@@ -118,7 +118,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>requestId</i>.  If <i>requestId</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>requestId</i>.  If <i>requestId</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
  The <i>requestId</i> parameter receives the value of the <b>SpotID</b> attribute  of the <b>SignatureDefinition</b> element. The <b>SpotID</b> attribute  is required and should follow the xs:ID (XML ID) format; however, 
     existing SignatureDefinitions parts are not checked for adherence to the recommended format. Some XPS documents that were produced by Windows Presentation Foundation (WPF) applications may have an ID that starts with a digit.

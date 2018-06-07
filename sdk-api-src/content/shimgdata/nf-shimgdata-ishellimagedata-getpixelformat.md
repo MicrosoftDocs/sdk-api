@@ -63,7 +63,7 @@ Gets the pixel format of the image.
 
 Type: <b>PixelFormat*</b>
 
-A pointer to a value of type <a href="_gdiplus_CONSTANT_Image_Pixel_Format_Constants">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a value of type <a href="https://www.bing.com/search?q=PixelFormat">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
 
 
 ## -returns

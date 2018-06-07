@@ -242,7 +242,7 @@ To remove the CRL context link from the certificate store, use the  <a href="htt
 
 
 
-<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
  
 
  

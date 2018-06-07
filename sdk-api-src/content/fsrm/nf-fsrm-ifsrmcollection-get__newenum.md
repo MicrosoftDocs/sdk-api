@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Retrieves the <a href="_com_IUnknown">IUnknown</a> pointer of a new 
+Retrieves the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer of a new 
     <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration for the items in 
     the collection.
 
@@ -68,7 +68,7 @@ This property is read-only.
 
 C/C++ users use this method to enumerate items in the collection. Call the 
     <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> of the 
-    <a href="_com_IUnknown">IUnknown</a> interface to get the 
+    <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface to get the 
     <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface. Use the 
     <a href="https://msdn.microsoft.com/691c1624-8d01-41e0-890e-a4782eba1f59">IEnumVARIANT::Next</a> method to enumerate 
     the items of the collection. The items are returned as <b>VARIANT</b> values.

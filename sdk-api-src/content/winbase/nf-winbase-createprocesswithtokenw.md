@@ -168,7 +168,7 @@ If <i>lpApplicationName</i> is NULL, the first white space–delimited token of 
 <li>The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched.</li>
 <li>The Windows directory. Use the 
 <a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="_win32_ShellExecute_cpp">ShellExecute</a> function.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://www.bing.com/search?q=ShellExecute">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 
@@ -229,7 +229,7 @@ This flag is enabled by default.
 </td>
 <td width="60%">
 The new process is the root process of a new process group. The process group includes all processes that are descendants of this root process. The process identifier of the new process group is the same as the process identifier, which is returned in the <i>lpProcessInfo</i> parameter. Process groups are used by the 
-<a href="base.generateconsolectrlevent">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
+<a href="https://www.bing.com/search?q=GenerateConsoleCtrlEvent">GenerateConsoleCtrlEvent</a> function to enable sending a CTRL+C or CTRL+BREAK signal to a group of console processes. 
 
 
 
@@ -310,7 +310,7 @@ An environment block can contain Unicode or ANSI characters. If the environment 
 An ANSI environment block is terminated by two zero bytes: one for the last string, one more to terminate the block. A Unicode environment block is terminated by four zero bytes: two for the last string and two more to terminate the block.
 
 To retrieve a copy of the environment block for a specific user, use the 
-<a href="_shell_createenvironmentblock">CreateEnvironmentBlock</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
 
 ### -param lpCurrentDirectory [in, optional]
@@ -377,7 +377,7 @@ Note that the function returns before the process has finished initialization. I
 
 By default, 
 <b>CreateProcessWithTokenW</b> does not load the specified user's profile into the <b>HKEY_USERS</b> registry key. This means that access to information in the  <b>HKEY_CURRENT_USER</b> registry key may not produce results consistent with a normal interactive logon. It is your responsibility to load the user's registry hive into <b>HKEY_USERS</b>  by either using LOGON_WITH_PROFILE, or by calling the 
-<a href="_shell_loaduserprofile">LoadUserProfile</a> function before calling this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> function before calling this function.
 
 If the <i>lpEnvironment</i> parameter is NULL, the new process uses an environment block created from the profile of the user specified by <i>lpUserName</i>. If the HOMEDRIVE and HOMEPATH variables are not set, <b>CreateProcessWithTokenW</b> modifies the environment block to use the drive and path of the user's working directory.
 
@@ -429,7 +429,7 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 
 
 
-<a href="_shell_createenvironmentblock">CreateEnvironmentBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a>
 
 
 

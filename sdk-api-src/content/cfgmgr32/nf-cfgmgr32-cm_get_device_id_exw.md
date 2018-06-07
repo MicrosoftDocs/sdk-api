@@ -54,7 +54,7 @@ req.irql:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538405">CM_Get_Device_ID</a> instead.]
 
-The <b>CM_Get_Device_ID_Ex</b> function retrieves the <a href="devinst.device_instance_ids">device instance ID</a> for a specified <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on a local or a remote machine.
+The <b>CM_Get_Device_ID_Ex</b> function retrieves the <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a> for a specified <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on a local or a remote machine.
 
 
 ## -parameters
@@ -104,7 +104,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The function appends a NULL terminator to the supplied <a href="devinst.device_instance_ids">device instance ID</a> string, unless the buffer is too small to hold the string. In this case, the function supplies as much of the identifier string as will fit into the buffer, and then returns CR_BUFFER_SMALL.
+The function appends a NULL terminator to the supplied <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a> string, unless the buffer is too small to hold the string. In this case, the function supplies as much of the identifier string as will fit into the buffer, and then returns CR_BUFFER_SMALL.
 
 For information about device instance IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 

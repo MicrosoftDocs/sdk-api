@@ -112,7 +112,7 @@ The method succeeded.
 
 
 
-No watermarking <a href="wmformat_glossary.htm">DMOs</a> are provided with the Windows Media Format SDK. You can install third-party DMOs to use with your application.
+No watermarking <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DMOs</a> are provided with the Windows Media Format SDK. You can install third-party DMOs to use with your application.
 
 
 

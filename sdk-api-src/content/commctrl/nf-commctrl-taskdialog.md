@@ -384,7 +384,7 @@ else if (IDCANCEL == nButtonPressed)
 
 
 
-<a href="winui._win32_Dialog_Boxes">Dialog Boxes</a>
+<a href="https://www.bing.com/search?q=Dialog+Boxes">Dialog Boxes</a>
  
 
  

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the <a href="Extended_list_view_styles.htm">LVS_EX_CHECKBOXES</a> style. 
+Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the <a href="https://www.bing.com/search?q=LVS_EX_CHECKBOXES">LVS_EX_CHECKBOXES</a> style. 
 
 
 ## -parameters

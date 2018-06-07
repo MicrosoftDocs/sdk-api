@@ -302,11 +302,11 @@ One or more arguments are not valid.
 
 
 
-<a href="cryptography_functions.htm">Low-level Message Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
  
 
  

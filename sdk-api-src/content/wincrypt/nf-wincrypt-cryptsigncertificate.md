@@ -193,7 +193,7 @@ The signature algorithm's <a href="https://msdn.microsoft.com/e6be8932-015e-4058
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

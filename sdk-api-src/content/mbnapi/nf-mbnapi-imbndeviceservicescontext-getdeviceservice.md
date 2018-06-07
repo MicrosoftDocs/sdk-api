@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the <a href="IMbnDeviceService">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <a href="https://msdn.microsoft.com/3AE6D7A6-3974-4517-AEB6-992CAC543247">de
 
 ### -param mbnDeviceService [out, retval]
 
-The <a href="IMbnDeviceService">IMbnDeviceService</a> object.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object.
 
 
 ## -returns
@@ -112,7 +112,7 @@ An error was encountered when executing this method.
 
 
 
-<b>GetDeviceService</b> may return an <a href="IMbnDeviceService">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
+<b>GetDeviceService</b> may return an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object that already has a command or data session open. The calling process can check if the device service is already open.
 
 
 

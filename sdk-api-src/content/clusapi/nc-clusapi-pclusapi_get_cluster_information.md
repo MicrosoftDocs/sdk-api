@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves a <a href="c_gly.htm">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
+Retrieves a <a href="https://www.bing.com/search?q=cluster's">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
 
 
 ## -parameters

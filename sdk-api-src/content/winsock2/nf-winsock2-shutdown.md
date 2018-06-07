@@ -129,7 +129,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAECONNABORTED">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -142,7 +142,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAECONNRESET">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -155,7 +155,7 @@ This error applies only to a connection-oriented socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -177,7 +177,7 @@ The <i>how</i> parameter is not valid, or is not consistent with the socket type
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -188,7 +188,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAENOTCONN">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -199,7 +199,7 @@ The socket is not connected.  This error applies only to a connection-oriented s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -210,7 +210,7 @@ The socket is not connected.  This error applies only to a connection-oriented s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -63,7 +63,7 @@ The
 ### -field Uuid
 
 Specifies the interface 
-<a href="midl.uuid">UUID</a>.
+<a href="https://www.bing.com/search?q=UUID">UUID</a>.
 
 
 ### -field VersMajor

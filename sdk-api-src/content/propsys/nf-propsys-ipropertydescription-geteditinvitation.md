@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <i>invitationText</i> attribute of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>invitationText</i> attribute of the <a href="https://www.bing.com/search?q=labelInfo">labelInfo</a> element in the property's .propdesc file.
 
 
               It is the responsibility of the calling application to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string referred to by <i>pszInvite</i> when it is no longer needed.
@@ -102,7 +102,7 @@ The information retrieved by this method comes from the <i>invitationText</i> at
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
 
 
 

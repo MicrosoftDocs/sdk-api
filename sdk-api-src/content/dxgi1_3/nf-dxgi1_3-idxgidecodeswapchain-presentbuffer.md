@@ -70,14 +70,14 @@ An index indicating which member of the subresource array to present.
 An integer that specifies how to synchronize presentation of a frame with the vertical blank.
 
 
-For the bit-block transfer (bitblt) model (<a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_DISCARD</a>
-or <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
+For the bit-block transfer (bitblt) model (<a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_DISCARD">DXGI_SWAP_EFFECT_DISCARD</a>
+or <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_SEQUENTIAL">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - The presentation occurs immediately, there is no synchronization.</li>
 <li>1,2,3,4 - Synchronize presentation after the <i>n</i>th vertical blank.</li>
 </ul>
-For the flip model (<a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
+For the flip model (<a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - Cancel the remaining time on the previously presented frame and discard this frame if a newer frame is queued.
@@ -99,9 +99,9 @@ The <b>DXGI_PRESENT_USE_DURATION</b> flag must be set if a custom present durati
 This method returns <b>S_OK</b> on success, or it returns one of the following error codes:
 
 <ul>
-<li><a href="dxgi_error.htm">DXGI_ERROR_DEVICE_REMOVED</a></li>
-<li><a href="dxgi_status.htm">DXGI_STATUS_OCCLUDED</a></li>
-<li><a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a></li>
+<li><a href="https://www.bing.com/search?q=DXGI_ERROR_DEVICE_REMOVED">DXGI_ERROR_DEVICE_REMOVED</a></li>
+<li><a href="https://www.bing.com/search?q=DXGI_STATUS_OCCLUDED">DXGI_STATUS_OCCLUDED</a></li>
+<li><a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a></li>
 <li><b>E_OUTOFMEMORY</b></li>
 </ul>
 

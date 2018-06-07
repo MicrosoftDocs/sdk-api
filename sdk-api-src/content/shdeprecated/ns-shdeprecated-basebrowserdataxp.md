@@ -75,9 +75,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb
 
 ### -field _phlf
 
-Type: <b><a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>*</b>
+Type: <b><a href="https://www.bing.com/search?q=IHlinkFrame">IHlinkFrame</a>*</b>
 
-A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
+A pointer to the browser's <a href="https://www.bing.com/search?q=IHlinkFrame">IHlinkFrame</a>.
     
                         
 

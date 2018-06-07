@@ -207,13 +207,13 @@ If the pointer contains the address of the user-supplied buffer, the length memb
 For 
 <b>WinHttpCrackUrl</b> to work properly, the size of the 
 <a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure must be stored in the 
-<a href="url_components.htm">dwStructSize</a> member of that structure.
+<a href="/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_2">dwStructSize</a> member of that structure.
 
 If the Internet protocol of the URL passed in for 
 <i>pwszUrl</i> is not HTTP or HTTPS, then 
 <b>WinHttpCrackUrl</b>  returns  <b>FALSE</b> and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>  indicates  
-<a href="error_messages.htm">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
+<a href="https://www.bing.com/search?q=ERROR_WINHTTP_UNRECOGNIZED_SCHEME">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
 
 <b>WinHttpCrackUrl</b> does not check the validity or format of a URL before attempting to crack it. As a result, if a string such as ""http://server?Bad=URL"" is passed in, the function returns incorrect results.
 

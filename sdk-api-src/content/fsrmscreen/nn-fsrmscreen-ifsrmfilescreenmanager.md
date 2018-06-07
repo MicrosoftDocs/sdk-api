@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to manage file screen objects.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileScreenManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileScreenManager)</code> as the interface identifier. 
     For an example, see <a href="https://msdn.microsoft.com/1b5227e7-4272-4e23-ba55-d6161e2987bc">Defining a File Screen</a>.

@@ -83,7 +83,7 @@ Returns the
 
 
 
-<a href="cryptography_functions.htm">Data Conversion Functions</a>
+<a href="https://www.bing.com/search?q=Data+Conversion+Functions">Data Conversion Functions</a>
  
 
  

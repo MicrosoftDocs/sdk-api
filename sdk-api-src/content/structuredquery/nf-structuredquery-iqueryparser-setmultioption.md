@@ -80,10 +80,10 @@ Type: <b>LPCWSTR</b>
 
 ### -param pOptionValue [in]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 
-          Pointer to a <a href="_stg_propvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
+          Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 

@@ -70,7 +70,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The component of the combo box for which to set the height. This parameter must be –1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the <a href="Combo_Box_Styles.htm">CBS_OWNERDRAWVARIABLE</a> style. In that case, the <i>index</i> parameter is the zero-based index of a specific list item.
+The component of the combo box for which to set the height. This parameter must be –1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the <a href="https://www.bing.com/search?q=CBS_OWNERDRAWVARIABLE">CBS_OWNERDRAWVARIABLE</a> style. In that case, the <i>index</i> parameter is the zero-based index of a specific list item.
 
 
 ### -param cyItem

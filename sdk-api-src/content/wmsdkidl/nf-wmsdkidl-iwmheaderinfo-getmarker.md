@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetMarker</b> method returns the name and time of a <a href="wmformat_glossary.htm">marker</a>.
+The <b>GetMarker</b> method returns the name and time of a <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">marker</a>.
 
 
 

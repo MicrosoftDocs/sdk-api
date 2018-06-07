@@ -63,7 +63,7 @@ The function takes the object, decodes it, and provides a pointer to an array of
 
 ### -param pszUrlOid [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the URL being requested. If the <a href="_win32_hiword_cpp">HIWORD</a> of the <i>pszUrlOid</i> parameter is zero, the <a href="_win32_loword_cpp">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
+A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the URL being requested. If the <a href="https://www.bing.com/search?q=HIWORD">HIWORD</a> of the <i>pszUrlOid</i> parameter is zero, the <a href="https://www.bing.com/search?q=LOWORD">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
 
 
 
@@ -356,7 +356,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="cryptography_functions.htm">Remote Object Retrieval Functions</a>
+<a href="https://www.bing.com/search?q=Remote+Object+Retrieval+Functions">Remote Object Retrieval Functions</a>
  
 
  

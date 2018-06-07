@@ -167,7 +167,7 @@ Places the item on a new line (for a menu bar) or in a new column (for a drop-do
 </dl>
 </td>
 <td width="60%">
-Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
+Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
 
 </td>
 </tr>
@@ -255,7 +255,7 @@ Contains a bitmap handle.
 </dl>
 </td>
 <td width="60%">
-Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a> or <a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a> message sent when the menu is created or its appearance is updated. 
+Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> or <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> message sent when the menu is created or its appearance is updated. 
 
 </td>
 </tr>
@@ -291,7 +291,7 @@ If the function succeeds, the return value is nonzero. If the function fails, th
 
 The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
-To get keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. For more information, see <a href="using_menus.htm">Owner-Drawn Menus and the WM_MENUCHAR Message</a>.
+To get keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. For more information, see <a href="https://www.bing.com/search?q=Owner-Drawn+Menus+and+the+WM_MENUCHAR+Message">Owner-Drawn Menus and the WM_MENUCHAR Message</a>.
 
 The following groups of flags cannot be used together:
 
@@ -304,7 +304,7 @@ The following groups of flags cannot be used together:
 
 #### Examples
 
-For an example, see <a href="using_menus.htm">Adding Lines and Graphs to a Menu</a>. 
+For an example, see <a href="https://www.bing.com/search?q=Adding+Lines+and+Graphs+to+a+Menu">Adding Lines and Graphs to a Menu</a>. 
 
 <div class="code"></div>
 

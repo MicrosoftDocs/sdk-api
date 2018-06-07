@@ -57,7 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="wmformat_glossary.htm">packet</a> in an ASF file. 
+The <b>GetMaxPacketSize</b> method retrieves the maximum size of a <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">packet</a> in an ASF file. 
 
 
 

@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <a href="tsf.inputscope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
+The <a href="https://www.bing.com/search?q=InputScope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
 
 
 ## -enum-fields

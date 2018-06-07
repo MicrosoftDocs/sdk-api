@@ -126,7 +126,7 @@ No callback interface has been specified.
 </dl>
 </td>
 <td width="60%">
-Attempted read on a file protected by <a href="wmformat_glossary.htm">DRM</a>.
+Attempted read on a file protected by <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DRM</a>.
 
 </td>
 </tr>

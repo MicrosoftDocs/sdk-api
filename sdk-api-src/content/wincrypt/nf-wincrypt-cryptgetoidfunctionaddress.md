@@ -148,7 +148,7 @@ For retrieval of the default functions, set <i>dwEncodingType</i> to a bitwise <
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

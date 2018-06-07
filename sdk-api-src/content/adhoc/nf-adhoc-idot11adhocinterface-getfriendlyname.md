@@ -62,7 +62,7 @@ Gets the friendly name of the NIC.
 
 The friendly name of the NIC. The SSID of the network is used as the friendly name.
 
-You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
+You must free this string using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns

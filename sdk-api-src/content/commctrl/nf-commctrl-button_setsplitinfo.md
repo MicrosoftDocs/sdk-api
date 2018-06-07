@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/ea2292c3-1dad-4e4f-9ebc-1719c
 
 
 
-Use this macro only with the <a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> button styles.
+Use this macro only with the <a href="https://www.bing.com/search?q=BS_SPLITBUTTON">BS_SPLITBUTTON</a> and <a href="https://www.bing.com/search?q=BS_DEFSPLITBUTTON">BS_DEFSPLITBUTTON</a> button styles.
 
 
 

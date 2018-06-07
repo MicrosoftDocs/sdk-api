@@ -95,7 +95,7 @@ Note that the <i>boolVal</i> member specifically initialized by this function is
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,15 +124,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
+<a href="https://www.bing.com/search?q=InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="shell.PropVariantToBoolean">PropVariantToBoolean</a>
+<a href="https://www.bing.com/search?q=PropVariantToBoolean">PropVariantToBoolean</a>
  
 
  

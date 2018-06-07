@@ -52,7 +52,7 @@ req.irql:
 
 Implement the <b>IWEExtendPropertySheet</b> 
     interface to create property sheet pages for a 
-    <a href="c_gly.htm">cluster object</a> and add them to a 
+    <a href="https://www.bing.com/search?q=cluster+object">cluster object</a> and add them to a 
     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> property 
     sheet.
 

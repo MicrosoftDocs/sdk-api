@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> that belong to the 
-    <a href="p_gly.htm">preferred owner</a> list for a 
+    <a href="https://www.bing.com/search?q=preferred+owner">preferred owner</a> list for a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a>.
 
 

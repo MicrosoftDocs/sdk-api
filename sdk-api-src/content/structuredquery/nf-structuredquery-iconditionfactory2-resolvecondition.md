@@ -84,7 +84,7 @@ Pointer to a <b>SYSTEMTIME</b> value to use as the reference date and time. A nu
 
 Type: <b>REFIID</b>
 
-The desired IID of the  enumerating interface: either <a href="_com_IEnumUnknown">IEnumUnknown</a>, <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
+The desired IID of the  enumerating interface: either <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
 
 
 ### -param ppv [out]

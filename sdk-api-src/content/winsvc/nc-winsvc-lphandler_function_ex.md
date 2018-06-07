@@ -523,7 +523,7 @@ Be sure to handle Plug and Play device events as quickly as possible; otherwise,
     to start another thread to perform the operation asynchronously.
 
 Services can also use the 
-    <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive 
+    <a href="https://www.bing.com/search?q=SetConsoleCtrlHandler">SetConsoleCtrlHandler</a> function to receive 
     shutdown notification. This notification is received when the running applications are shutting down, which occurs 
     before services are shut down.
 

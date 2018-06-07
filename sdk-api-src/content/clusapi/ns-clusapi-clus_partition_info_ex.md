@@ -51,7 +51,7 @@ req.irql:
 
 
 Describes a 
-    <a href="s_gly.htm">storage class resource</a> volume and file 
+    <a href="https://www.bing.com/search?q=storage+class+resource">storage class resource</a> volume and file 
     system. It is used as the data member of a 
     <a href="https://msdn.microsoft.com/cda1e334-dba8-4fe9-b035-4e475245869c">CLUSPROP_PARTITION_INFO</a> structure and as the 
     return value of some <a href="https://msdn.microsoft.com/47618915-0985-4415-b7d4-5959fb27eb9f">control code</a> operations.

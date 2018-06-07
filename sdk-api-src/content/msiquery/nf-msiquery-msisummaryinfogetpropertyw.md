@@ -138,7 +138,7 @@ The property information returned by the <b>MsiSummaryInfoGetProperty</b> functi
 
 
 
-<a href="database_functions.htm">Summary Information Property Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Summary Information Property Functions</a>
 
 
 

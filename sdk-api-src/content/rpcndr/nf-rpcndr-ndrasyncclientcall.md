@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="midl._oi">/Oi</a> and <b>/Oic</b> mode stub.
+The <b>NdrAsyncClientCall</b> function is the asynchronous client-side entry point for the <a href="https://www.bing.com/search?q=/Oi">/Oi</a> and <b>/Oic</b> mode stub.
 
 
 ## -parameters

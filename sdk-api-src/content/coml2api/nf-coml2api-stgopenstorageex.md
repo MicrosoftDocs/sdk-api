@@ -82,7 +82,7 @@ A value that specifies the access mode to open the new storage object. For more 
 If the storage object is opened in direct mode (<b>STGM_DIRECT</b>) with access to either <b>STGM_WRITE</b> or <b>STGM_READWRITE</b>, the sharing mode must be <b>STGM_SHARE_EXCLUSIVE</b> unless the <b>STGM_DIRECT_SWMR</b> mode is specified. For more information, see the Remarks section. If the storage object is opened in direct mode with access to <b>STGM_READ</b>, the sharing mode must be either <b>STGM_SHARE_EXCLUSIVE</b> or <b>STGM_SHARE_DENY_WRITE</b>, unless <b>STGM_PRIORITY</b> or <b>STGM_DIRECT_SWMR</b> is specified. For more information, see the Remarks section.
 
 The mode in which a file is opened can affect implementation performance. For more information, see 
-<a href="structured_storage_interfaces.htm">Compound File Implementation Limits</a>.
+<a href="https://docs.microsoft.com/windows/desktop//Stg/structured-storage-interfaces">Compound File Implementation Limits</a>.
 
 
 ### -param stgfmt [in]
@@ -132,8 +132,8 @@ Reserved; must be zero.
 
 
 
-						This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see <a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
-<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
+						This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>.
 
 
 

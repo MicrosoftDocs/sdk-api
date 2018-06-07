@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the width of the property description.
+Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets the width of the property description.
 
 
 ## -parameters

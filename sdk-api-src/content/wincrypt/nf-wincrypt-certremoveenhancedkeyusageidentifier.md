@@ -87,7 +87,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
+<a href="https://www.bing.com/search?q=Enhanced+Key+Usage+Functions">Enhanced Key Usage Functions</a>
  
 
  

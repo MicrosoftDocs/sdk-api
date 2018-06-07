@@ -98,7 +98,7 @@ The name of the resource to share. The name is limited to MAX_PATH characters. N
 						
 						You will need the  resource name if you  call the <a href="https://msdn.microsoft.com/5A7575E4-382E-4A2F-AFE8-2E5850526E75">ID3D11Device1::OpenSharedResourceByName</a> method to access the shared resource by name. If you instead  call the <a href="https://msdn.microsoft.com/4751B49E-01DB-467B-879C-743C8B43DDA5">ID3D11Device1::OpenSharedResource1</a> method to access the shared resource by handle, set this parameter to <b>NULL</b>.
 
-If <i>lpName</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="dxgi_error.htm">DXGI_ERROR_NAME_ALREADY_EXISTS</a>. This occurs because these objects share the same namespace.
+If <i>lpName</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://www.bing.com/search?q=DXGI_ERROR_NAME_ALREADY_EXISTS">DXGI_ERROR_NAME_ALREADY_EXISTS</a>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
 <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
@@ -118,8 +118,8 @@ A pointer to a variable that receives the NT HANDLE value to the resource to sha
 Returns S_OK if successful; otherwise, returns one of the following values:
 
 <ul>
-<li><a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.</li>
-<li><a href="dxgi_error.htm">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.</li>
+<li><a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.</li>
+<li><a href="https://www.bing.com/search?q=DXGI_ERROR_NAME_ALREADY_EXISTS">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.</li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
 <li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic. </li>

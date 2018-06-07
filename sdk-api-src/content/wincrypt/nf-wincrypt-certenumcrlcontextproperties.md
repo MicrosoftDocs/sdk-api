@@ -94,7 +94,7 @@ The return value is a <b>DWORD</b> value that identifies a CRL context's propert
 
 
 
-<a href="cryptography_functions.htm">Extended Property Functions</a>
+<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
  
 
  

@@ -64,7 +64,7 @@ The
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that receives a pointer to an <a href="_com_iunknown">IUnknown</a> interface for the collection.
+Pointer to an interface pointer that receives a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface for the collection.
 
 
 ## -returns

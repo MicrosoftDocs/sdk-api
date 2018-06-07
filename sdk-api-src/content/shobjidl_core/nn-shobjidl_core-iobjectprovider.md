@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Exposes a method to discover objects that are named with a <b>GUID</b> from another object. Unlike <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> this interface will not delegate its functionality on to other objects.
+Exposes a method to discover objects that are named with a <b>GUID</b> from another object. Unlike <a href="https://www.bing.com/search?q=QueryService">QueryService</a> this interface will not delegate its functionality on to other objects.
 
 
 ## -inheritance
@@ -85,7 +85,7 @@ Queries for a specified object.
 
 
 
-Similar to <a href="_inet_IServiceProvider_Interface">IServiceProvider</a>, except that this method does not imply that unhandled or unknown requests should be forwarded.
+Similar to <a href="https://www.bing.com/search?q=IServiceProvider">IServiceProvider</a>, except that this method does not imply that unhandled or unknown requests should be forwarded.
 
 
 

@@ -156,7 +156,7 @@ Invokes the reconversion process in the language model text service for a range.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
  
 
  

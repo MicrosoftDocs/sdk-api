@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <b>FindAttribute</b> method retrieves matching text regardless of whether the text is hidden or visible. Use <a href="uiauto_textattribute_ids.htm">UIA_IsHiddenAttributeId</a> to check text visibility.
+The <b>FindAttribute</b> method retrieves matching text regardless of whether the text is hidden or visible. Use <a href="https://www.bing.com/search?q=UIA_IsHiddenAttributeId">UIA_IsHiddenAttributeId</a> to check text visibility.
 
 
 

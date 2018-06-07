@@ -174,7 +174,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <ul>
 <li>The number of input samples (<i>NumSamples</i>) must be less than or equal to <b>MAX_DEINTERLACE_SURFACES</b>. </li>
 <li>The Direct3D surface must be a valid target for <b>VideoProcessBlt</b>. See the description of the <i>pRT</i> parameter for details.</li>
-<li>The presentation time (<b>TargetFrame</b>) given in <i>pBltParams</i> must match the start and end times for the current picture from the primary stream. Specifically, it must be less than the end time and greater than or equal to the start time. Note that the first sample in <i>pSamples</i> might not be the current picture, if the <i>pSamples</i> array contains backward reference pictures. For more information, see <a href="dxva_video_processing.htm">Input Sample Order</a>.</li>
+<li>The presentation time (<b>TargetFrame</b>) given in <i>pBltParams</i> must match the start and end times for the current picture from the primary stream. Specifically, it must be less than the end time and greater than or equal to the start time. Note that the first sample in <i>pSamples</i> might not be the current picture, if the <i>pSamples</i> array contains backward reference pictures. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/dxva-video-processing">Input Sample Order</a>.</li>
 <li>The target rectangle (<b>TargetRect</b>) given in <i>pBltParams</i> cannot be larger than the destination surface (<i>pRT</i>).</li>
 <li>The  constriction size (<b>ConstrictionSize</b>) given in <i>pBltParams</i> cannot be less than zero or larger than the target rectangle.</li>
 <li>The alpha component of the background color must be opqaue.</li>

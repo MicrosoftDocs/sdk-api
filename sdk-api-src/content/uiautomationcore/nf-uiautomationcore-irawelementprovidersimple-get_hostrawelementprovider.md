@@ -69,7 +69,7 @@ This property is generally the Microsoft UI Automation provider for the window o
 			of the element is usually obtained from the host provider.
 
 A host provider must be returned in the following cases: when the element is a fragment root, 
-			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="uiauto_ServerSideProvider.htm">Provider Repositioning</a>). 
+			when the element is a simple element (such as a push button), and when the provider is a repositioning placeholder (for more information, see <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-serversideprovider">Provider Repositioning</a>). 
 			 In other cases, the property should be <b>NULL</b>.
 
 

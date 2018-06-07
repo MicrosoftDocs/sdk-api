@@ -323,7 +323,7 @@ PCCRYPT_OID_INFO pOIDInfo = CryptFindOIDInfo(
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

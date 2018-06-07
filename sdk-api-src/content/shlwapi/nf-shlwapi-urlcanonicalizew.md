@@ -214,7 +214,7 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 
 
 
-<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
+<a href="https://docs.microsoft.com/windows/desktop//WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
  
 
  

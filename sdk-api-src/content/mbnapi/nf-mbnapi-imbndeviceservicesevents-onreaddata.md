@@ -61,7 +61,7 @@ Notification for data being read from a device service data session.
 
 ### -param deviceService [in]
 
-The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the data was read.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> session object on which the data was read.
 
 
 ### -param deviceServiceData [in]

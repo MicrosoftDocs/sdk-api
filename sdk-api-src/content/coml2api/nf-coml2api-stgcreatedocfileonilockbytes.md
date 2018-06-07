@@ -91,8 +91,8 @@ A pointer to the location of the
 
 The <b>StgCreateDocfileOnILockBytes</b> function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface error return values. For more information, see 
-<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
-<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
+<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>.
 
 
 

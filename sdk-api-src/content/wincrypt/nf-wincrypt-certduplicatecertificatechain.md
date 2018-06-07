@@ -85,7 +85,7 @@ If the function fails, <b>NULL</b> is returned.
 
 
 
-<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Chain+Verification+Functions">Certificate Chain Verification Functions</a>
  
 
  

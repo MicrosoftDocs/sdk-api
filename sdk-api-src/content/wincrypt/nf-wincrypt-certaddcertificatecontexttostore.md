@@ -266,7 +266,7 @@ To access a specific certificate you must iterate across the certificates in the
 
 
 
-<a href="cryptography_functions.htm">Certificate Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Functions">Certificate Functions</a>
  
 
  

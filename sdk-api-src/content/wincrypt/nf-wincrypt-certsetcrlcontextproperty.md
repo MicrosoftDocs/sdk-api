@@ -552,7 +552,7 @@ For an example that uses this function, see
 
 
 
-<a href="cryptography_functions.htm">Extended Property Functions</a>
+<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
  
 
  

@@ -77,7 +77,7 @@ Specifies the property identifier. For information about this parameter, see the
 
 A pointer to the string representing the property's display name.
 
-It is the responsibility of the caller to free the <b>BSTR</b> when done by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
+It is the responsibility of the caller to free the <b>BSTR</b> when done by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 ## -returns

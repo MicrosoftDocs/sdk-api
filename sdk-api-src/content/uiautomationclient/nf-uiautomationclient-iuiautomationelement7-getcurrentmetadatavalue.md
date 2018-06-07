@@ -88,7 +88,7 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="winauto.iuiautomationelement7">IUIAutomationElement7</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement7.md">IUIAutomationElement7</a>
 
 
 

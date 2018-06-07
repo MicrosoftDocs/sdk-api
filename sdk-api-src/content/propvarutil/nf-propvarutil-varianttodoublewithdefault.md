@@ -94,12 +94,12 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type VT_R8, the function attempts to convert the value in the <b>VARIANT</b> into a <b>DOUBLE</b>.
 
-If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="https://www.bing.com/search?q=VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> returns the default value provided by <i>dblDefault</i>. See <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToDoubleWithDefault">VariantToDoubleWithDefault</a> to access a <b>DOUBLE</b> value stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -126,19 +126,19 @@ DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
 
 
-<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
+<a href="https://www.bing.com/search?q=InitVariantFromDouble">InitVariantFromDouble</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://www.bing.com/search?q=PropVariantToDouble">PropVariantToDouble</a>
 
 
 
-<a href="shell.VariantToDouble">VariantToDouble</a>
+<a href="https://www.bing.com/search?q=VariantToDouble">VariantToDouble</a>
  
 
  

@@ -75,7 +75,7 @@ A pointer to a structure that contains information about the control pattern to 
 
 Type: <b>PROPERTYID*</b>
 
-Receives the property identifier for the pattern.  This value can be used with UI Automation client methods to determine whether the element supports the new pattern. This is equivalent to values such as <a href="uiauto_control_pattern_availability_propids.htm">UIA_IsInvokePatternAvailablePropertyId</a>.
+Receives the property identifier for the pattern.  This value can be used with UI Automation client methods to determine whether the element supports the new pattern. This is equivalent to values such as <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-control-pattern-availability-propids">UIA_IsInvokePatternAvailablePropertyId</a>.
 
 
 ### -param propertyIdCount [in]

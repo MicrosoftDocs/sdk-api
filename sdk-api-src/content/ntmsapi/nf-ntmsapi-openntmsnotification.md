@@ -174,7 +174,7 @@ The function failed.
 
 
 
-<a href="removable_storage_manager_functions.htm">Database Notification Functions</a>
+<a href="https://www.bing.com/search?q=Database+Notification+Functions">Database Notification Functions</a>
 
 
 

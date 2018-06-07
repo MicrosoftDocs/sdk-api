@@ -117,7 +117,7 @@ Required. Called to stop the COM handler.
 
 
 
-<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop//TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
  
 
  

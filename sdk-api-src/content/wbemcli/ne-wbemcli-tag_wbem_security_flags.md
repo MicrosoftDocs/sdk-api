@@ -61,7 +61,7 @@ Contains flags used for setting security access levels.
 
 ### -field WBEM_ENABLE
 
-Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="gloss_w.htm">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
+Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="https://www.bing.com/search?q=WMI+Control">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
 
 
 ### -field WBEM_METHOD_EXECUTE

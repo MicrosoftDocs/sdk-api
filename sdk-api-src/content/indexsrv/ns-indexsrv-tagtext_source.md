@@ -103,9 +103,9 @@ Windows Search populates the members of this structure when the word breaker is 
 <li>FILTER_E_NO_MORE_TEXT</li>
 <li>FILTER_E_END_OF_CHUNKS</li>
 </ul>
-For more information about these return values, see <a href="_idxs_filter_interface_values">Filter-Interface Values</a>.
+For more information about these return values, see <a href="https://www.bing.com/search?q=Filter-Interface+Values">Filter-Interface Values</a>.
 
-The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="_idxs_word_breaking_values">Word-Breaking Values</a>.
+The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="https://www.bing.com/search?q=Word-Breaking+Values">Word-Breaking Values</a>.
 
 
 

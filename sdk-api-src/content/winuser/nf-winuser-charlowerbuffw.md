@@ -108,7 +108,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 #### Examples
 
-For an example, see "Creating a Spell Dialog Box" in <a href="_win32_Using_Combo_Boxes">Using Combo Boxes</a>. 
+For an example, see "Creating a Spell Dialog Box" in <a href="https://www.bing.com/search?q=Using+Combo+Boxes">Using Combo Boxes</a>. 
 
 
 

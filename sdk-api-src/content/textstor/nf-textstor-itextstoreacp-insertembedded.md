@@ -76,7 +76,7 @@ Contains the ending character position where the object is inserted.
 
 ### -param pDataObject [in]
 
-Pointer to an <a href="_ole_idataobject">IDataObject</a> interface that contains data about the object inserted.
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a> interface that contains data about the object inserted.
 
 
 ### -param pChange [out]
@@ -172,7 +172,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a>
 
 
 

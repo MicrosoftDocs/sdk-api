@@ -67,7 +67,7 @@ Zero-based index of the button image. Set this member to I_IMAGECALLBACK, and th
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
 
-If the button is a separator, that is, if <b>fsStyle</b> is set to <a href="Toolbar_Control_and_Button_Styles.htm">BTNS_SEP</a>, <b>iBitmap</b> determines the width of the separator, in pixels. For information on selecting button images from image lists, see <a href="https://msdn.microsoft.com/432ffdfc-bb63-4405-90da-9392910fdbb6">TB_SETIMAGELIST</a> message.
+If the button is a separator, that is, if <b>fsStyle</b> is set to <a href="https://www.bing.com/search?q=BTNS_SEP">BTNS_SEP</a>, <b>iBitmap</b> determines the width of the separator, in pixels. For information on selecting button images from image lists, see <a href="https://msdn.microsoft.com/432ffdfc-bb63-4405-90da-9392910fdbb6">TB_SETIMAGELIST</a> message.
 
 
 ### -field idCommand
