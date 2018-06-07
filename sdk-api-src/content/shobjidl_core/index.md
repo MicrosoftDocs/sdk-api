@@ -2,12 +2,12 @@
 UID: NA:shobjidl_core
 ms.assetid: 73c069a9-9e15-357c-9c84-3dd7166c825c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: nfswmi
+tech.root: properties
 ---
 
 # Shobjidl_Core.h header

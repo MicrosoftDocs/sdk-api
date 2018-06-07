@@ -2,12 +2,12 @@
 UID: NA:mmcobj
 ms.assetid: 7f95157e-7412-35a5-8536-40b4788da6e5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mmc
+tech.root: lwef
 ---
 
 # Mmcobj.h header

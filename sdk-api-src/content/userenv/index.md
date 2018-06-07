@@ -2,12 +2,12 @@
 UID: NA:userenv
 ms.assetid: 9bc0312c-0381-3855-9cb0-72ac898bed1e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: policy
+tech.root: shell
 ---
 
 # Userenv.h header

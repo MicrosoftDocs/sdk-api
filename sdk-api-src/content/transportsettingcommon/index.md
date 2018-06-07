@@ -2,7 +2,7 @@
 UID: NA:transportsettingcommon
 ms.assetid: bbb51c68-5f03-30ad-9bea-9e9651f26109
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

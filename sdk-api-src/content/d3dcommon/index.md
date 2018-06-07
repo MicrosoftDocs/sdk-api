@@ -2,12 +2,12 @@
 UID: NA:d3dcommon
 ms.assetid: 74c800d7-df10-3e74-b39e-d36d7acd05ef
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: direct3d11
+tech.root: direct3d10
 ---
 
 # D3Dcommon.h header

@@ -2,12 +2,12 @@
 UID: NA:tapi
 ms.assetid: 02fee33b-32b4-3b18-98a7-0e1ee369b5e3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: tspi
+tech.root: tapi2
 ---
 
 # Tapi.h header

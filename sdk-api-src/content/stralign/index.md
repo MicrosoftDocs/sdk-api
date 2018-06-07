@@ -2,7 +2,7 @@
 UID: NA:stralign
 ms.assetid: 64c931c2-4006-370d-b0a8-8a9509f58118
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

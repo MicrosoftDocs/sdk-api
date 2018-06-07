@@ -2,7 +2,7 @@
 UID: NA:fxsutility
 ms.assetid: d49c47fb-9a4d-31ea-9397-3cc9357b111d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

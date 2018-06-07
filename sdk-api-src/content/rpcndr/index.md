@@ -2,12 +2,12 @@
 UID: NA:rpcndr
 ms.assetid: 94d2ad6f-f235-3269-ab39-c3bf3e799b2b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: rpc
+tech.root: winprog
 ---
 
 # Rpcndr.h header

@@ -2,12 +2,12 @@
 UID: NA:aclui
 ms.assetid: eb0a39ca-cecb-3c84-93be-39d8e13e320e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: cimwin32
+tech.root: security
 ---
 
 # Aclui.h header

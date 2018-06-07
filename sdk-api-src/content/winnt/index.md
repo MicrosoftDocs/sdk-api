@@ -2,12 +2,12 @@
 UID: NA:winnt
 ms.assetid: 800710c2-56cd-36a6-a445-b2520f403001
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: kernel
+tech.root: backup
 ---
 
 # Winnt.h header

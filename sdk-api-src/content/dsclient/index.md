@@ -2,12 +2,12 @@
 UID: NA:dsclient
 ms.assetid: 067265ba-83f1-39aa-a861-5f34057c802f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mmc
+tech.root: ad
 ---
 
 # Dsclient.h header

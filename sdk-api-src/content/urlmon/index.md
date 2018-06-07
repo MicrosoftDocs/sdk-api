@@ -2,12 +2,12 @@
 UID: NA:urlmon
 ms.assetid: 2eb4adc6-b51d-36c4-b443-17c903257819
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: shell
+tech.root: com
 ---
 
 # Urlmon.h header

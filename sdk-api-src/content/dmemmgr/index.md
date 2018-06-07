@@ -2,7 +2,7 @@
 UID: NA:dmemmgr
 ms.assetid: 9b1577ca-eaf8-39a6-b4b9-4b30cc0e628e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

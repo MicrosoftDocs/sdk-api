@@ -2,7 +2,7 @@
 UID: NA:recapis
 ms.assetid: 33d1b3ba-350d-318d-b102-05913390c283
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

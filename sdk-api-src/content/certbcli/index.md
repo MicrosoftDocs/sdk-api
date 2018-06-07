@@ -2,7 +2,7 @@
 UID: NA:certbcli
 ms.assetid: 7dfb68f5-a353-389e-8f70-11dc35667822
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

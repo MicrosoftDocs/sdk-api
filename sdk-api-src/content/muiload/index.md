@@ -2,7 +2,7 @@
 UID: NA:muiload
 ms.assetid: 881ea66f-10cf-358e-9fdc-63c0e29b33ee
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

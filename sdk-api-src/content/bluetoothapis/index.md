@@ -2,12 +2,12 @@
 UID: NA:bluetoothapis
 ms.assetid: 7e6756ab-d600-3ad6-98c6-23228515bb5c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: bltooth
+tech.root: bluetooth
 ---
 
 # Bluetoothapis.h header

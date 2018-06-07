@@ -2,12 +2,12 @@
 UID: NA:mbnapi
 ms.assetid: a9df3d02-5d8b-3f51-936d-f40bc611f763
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/07/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: cimwin32
+tech.root: mbn
 ---
 
 # Mbnapi.h header
