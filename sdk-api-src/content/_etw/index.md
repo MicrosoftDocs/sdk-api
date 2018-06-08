@@ -2,7 +2,7 @@
 UID: TP:etw
 ms.assetid: 74293fa7-68c7-3af9-9ada-3864addbc351
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Event Tracing
 
-
+## -description
 
 Overview of the Event Tracing technology.
 

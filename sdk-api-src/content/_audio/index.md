@@ -2,7 +2,7 @@
 UID: TP:audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Audio Devices DDI Reference
 
-
+## -description
 
 Overview of the Audio Devices DDI Reference technology.
 

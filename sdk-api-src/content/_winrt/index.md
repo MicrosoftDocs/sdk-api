@@ -2,7 +2,7 @@
 UID: TP:winrt
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Runtime C++ reference
 
-
+## -description
 
 Overview of the Windows Runtime C++ reference technology.
 

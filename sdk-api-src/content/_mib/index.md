@@ -2,7 +2,7 @@
 UID: TP:mib
 ms.assetid: ab00077e-575e-37b9-8750-c458f936d496
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Management Information Base
 
-
+## -description
 
 Overview of the Management Information Base technology.
 

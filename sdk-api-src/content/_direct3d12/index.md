@@ -2,7 +2,7 @@
 UID: TP:direct3d12
 ms.assetid: 7a701202-f29f-3d16-a1f3-84c2485de6f5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Direct3D 12 Graphics
 
-
+## -description
 
 Overview of the Direct3D 12 Graphics technology.
 

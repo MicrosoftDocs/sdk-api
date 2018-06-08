@@ -2,7 +2,7 @@
 UID: TP:tapi2
 ms.assetid: d4383253-bb9f-3e50-9472-7eb4b1e25b60
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Tapi2
 
-
+## -description
 
 Overview of the Tapi2 technology.
 

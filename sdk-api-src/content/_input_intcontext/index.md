@@ -2,7 +2,7 @@
 UID: TP:input_intcontext
 ms.assetid: 861b8874-7988-364c-9d5c-69f24caf0a0a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Interaction Context
 
-
+## -description
 
 Overview of the Interaction Context technology.
 

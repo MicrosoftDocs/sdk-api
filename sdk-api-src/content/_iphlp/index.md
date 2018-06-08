@@ -2,7 +2,7 @@
 UID: TP:iphlp
 ms.assetid: 2d8e8199-22bc-381d-9913-ad803143e6e3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # IP Helper
 
-
+## -description
 
 Overview of the IP Helper technology.
 

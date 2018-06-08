@@ -2,7 +2,7 @@
 UID: TP:wds
 ms.assetid: a2f5b90c-451d-365d-a3fa-82d6ea954496
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Deployment Services
 
-
+## -description
 
 Overview of the Windows Deployment Services technology.
 

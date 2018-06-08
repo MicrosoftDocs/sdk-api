@@ -2,7 +2,7 @@
 UID: TP:mscs
 ms.assetid: 4a4e5260-2486-38d5-9a4b-e7c5cebf7cdf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Clustering
 
-
+## -description
 
 Overview of the Windows Clustering technology.
 

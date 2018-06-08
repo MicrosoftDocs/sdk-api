@@ -2,7 +2,7 @@
 UID: TP:secbiomet
 ms.assetid: e8f9b75a-0dd8-3544-bc54-6d945c8b30fc
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Biometric Framework
 
-
+## -description
 
 Overview of the Windows Biometric Framework technology.
 

@@ -2,7 +2,7 @@
 UID: TP:wcs
 ms.assetid: eeb1ffa7-e242-359c-9255-b6198917a526
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Color System
 
-
+## -description
 
 Overview of the Windows Color System technology.
 

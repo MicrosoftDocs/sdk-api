@@ -2,7 +2,7 @@
 UID: TP:http
 ms.assetid: cfab313a-3f98-3ef1-aa82-fdcc1fc87df9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows HTTP Services (WinHTTP)
 
-
+## -description
 
 Overview of the Windows HTTP Services (WinHTTP) technology.
 

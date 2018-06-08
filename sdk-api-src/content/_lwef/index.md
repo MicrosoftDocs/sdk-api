@@ -2,7 +2,7 @@
 UID: TP:lwef
 ms.assetid: 384117d0-d2cd-3434-b330-5f546ef90ab4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Legacy Windows Environment Features
 
-
+## -description
 
 Overview of the Legacy Windows Environment Features technology.
 

@@ -2,7 +2,7 @@
 UID: TP:whqlprov
 ms.assetid: 4b03a092-fbb9-32d9-907b-c71270069e23
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # WhqlProvider Provider
 
-
+## -description
 
 Overview of the WhqlProvider Provider technology.
 

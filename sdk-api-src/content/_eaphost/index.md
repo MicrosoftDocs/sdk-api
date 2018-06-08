@@ -2,7 +2,7 @@
 UID: TP:eaphost
 ms.assetid: bfd933dc-0ef7-3b44-91ff-81467060c7da
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Extensible Authentication Protocol Host
 
-
+## -description
 
 Overview of the Extensible Authentication Protocol Host technology.
 

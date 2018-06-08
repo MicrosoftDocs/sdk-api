@@ -2,7 +2,7 @@
 UID: TP:direct3d11
 ms.assetid: b11d0120-422b-381b-b4ce-ba3e6eb45625
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Direct3D 11 Graphics
 
-
+## -description
 
 Overview of the Direct3D 11 Graphics technology.
 

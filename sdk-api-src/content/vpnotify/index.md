@@ -2,7 +2,7 @@
 UID: NA:vpnotify
 ms.assetid: 73b1c34d-9829-3a61-bf4a-fce71bd51cf9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

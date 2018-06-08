@@ -2,7 +2,7 @@
 UID: TP:coreaudio
 ms.assetid: 42959537-bb25-3eb8-8a95-3f33f2da8462
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Core Audio APIs
 
-
+## -description
 
 Overview of the Core Audio APIs technology.
 

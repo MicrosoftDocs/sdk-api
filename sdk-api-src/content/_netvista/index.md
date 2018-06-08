@@ -2,7 +2,7 @@
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Network Drivers, Windows Vista and Later
 
-
+## -description
 
 Overview of the Network Drivers, Windows Vista and Later technology.
 

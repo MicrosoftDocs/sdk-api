@@ -2,7 +2,7 @@
 UID: TP:inputmsg
 ms.assetid: 815352f7-9437-3a64-b091-0fb601b3368d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Pointer Input Messages and Notifications
 
-
+## -description
 
 Overview of the Pointer Input Messages and Notifications technology.
 

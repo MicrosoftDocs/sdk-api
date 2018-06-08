@@ -2,7 +2,7 @@
 UID: TP:wer
 ms.assetid: 4554db0d-bd2b-3460-bb7e-ee4cf72d0c19
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Error Reporting
 
-
+## -description
 
 Overview of the Windows Error Reporting technology.
 

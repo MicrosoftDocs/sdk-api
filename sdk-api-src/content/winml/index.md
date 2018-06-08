@@ -2,7 +2,7 @@
 UID: NA:winml
 ms.assetid: 53ebaf75-681b-37e7-ad63-dd0466c53914
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: machinelearning
 
 This header is used by machinelearning. For more information, see:
 
-- [<built-in method title of str object at 0x000001704B7854B0>](../_machinelearning/index.md)
+- [<built-in method title of str object at 0x0000022CFFF255B0>](../_machinelearning/index.md)

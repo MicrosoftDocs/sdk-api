@@ -2,7 +2,7 @@
 UID: NA:eventsys
 ms.assetid: eab25bea-a3c2-3d64-ae7c-4c8d9d13f5e9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

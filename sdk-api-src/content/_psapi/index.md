@@ -2,7 +2,7 @@
 UID: TP:psapi
 ms.assetid: 957b2319-c806-3914-844e-95dc41196ab4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Process Status API (PSAPI)
 
-
+## -description
 
 Overview of the Process Status API (PSAPI) technology.
 

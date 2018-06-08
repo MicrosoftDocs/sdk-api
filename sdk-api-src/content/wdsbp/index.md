@@ -2,7 +2,7 @@
 UID: NA:wdsbp
 ms.assetid: 1a3db2f8-b870-3f2a-91f2-5ce4802047f8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

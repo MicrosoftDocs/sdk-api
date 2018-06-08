@@ -2,7 +2,7 @@
 UID: TP:eap
 ms.assetid: 2c2b371a-b75c-3d1c-9d43-32181af4e3e1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Extensible Authentication Protocol
 
-
+## -description
 
 Overview of the Extensible Authentication Protocol technology.
 

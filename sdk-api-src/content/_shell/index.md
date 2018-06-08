@@ -2,7 +2,7 @@
 UID: TP:shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # The Windows Shell
 
-
+## -description
 
 Overview of the The Windows Shell technology.
 

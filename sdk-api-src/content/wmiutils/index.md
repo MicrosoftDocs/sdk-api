@@ -2,7 +2,7 @@
 UID: NA:wmiutils
 ms.assetid: 22f6e95f-ec03-39be-94c4-81ea966f50da
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

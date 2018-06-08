@@ -2,7 +2,7 @@
 UID: TP:wiaaut
 ms.assetid: 4b515fa1-265e-372e-a1c2-cf91e40f456c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # WIA Automation
 
-
+## -description
 
 Overview of the WIA Automation technology.
 

@@ -2,7 +2,7 @@
 UID: TP:directmanipulation
 ms.assetid: b4054831-982d-3b85-96f1-a2f6819aac6a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Direct Manipulation
 
-
+## -description
 
 Overview of the Direct Manipulation technology.
 

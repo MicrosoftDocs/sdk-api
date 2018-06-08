@@ -2,7 +2,7 @@
 UID: TP:qos
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Quality of Service (QOS)
 
-
+## -description
 
 Overview of the Quality of Service (QOS) technology.
 

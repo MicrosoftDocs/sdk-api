@@ -2,7 +2,7 @@
 UID: TP:numerics_h
 ms.assetid: b9cac013-64b0-3818-a2bc-91f1189620ce
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # windowsnumerics.h APIs
 
-
+## -description
 
 Overview of the windowsnumerics.h APIs technology.
 

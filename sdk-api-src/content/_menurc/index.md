@@ -2,7 +2,7 @@
 UID: TP:menurc
 ms.assetid: b31c1492-ece3-3752-be79-c315513f21a3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Menus and Other Resources
 
-
+## -description
 
 Overview of the Menus and Other Resources technology.
 

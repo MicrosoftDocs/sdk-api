@@ -2,7 +2,7 @@
 UID: TP:kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Kernel-Mode Driver Reference
 
-
+## -description
 
 Overview of the Kernel-Mode Driver Reference technology.
 

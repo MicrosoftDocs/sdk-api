@@ -2,7 +2,7 @@
 UID: TP:devinst
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Device and Driver Installation Reference
 
-
+## -description
 
 Overview of the Device and Driver Installation Reference technology.
 

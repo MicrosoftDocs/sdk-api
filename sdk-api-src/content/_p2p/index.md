@@ -2,7 +2,7 @@
 UID: TP:p2p
 ms.assetid: 0c843192-94e8-3052-850f-b269421b4dff
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Peer-to-Peer
 
-
+## -description
 
 Overview of the Peer-to-Peer technology.
 

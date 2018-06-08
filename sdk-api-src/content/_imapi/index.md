@@ -2,7 +2,7 @@
 UID: TP:imapi
 ms.assetid: d5ee2b29-ba7f-3360-9fd6-16f32572a676
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Image Mastering API
 
-
+## -description
 
 Overview of the Image Mastering API technology.
 

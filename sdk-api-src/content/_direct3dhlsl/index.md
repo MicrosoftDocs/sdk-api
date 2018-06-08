@@ -2,7 +2,7 @@
 UID: TP:direct3dhlsl
 ms.assetid: 351c8dd2-97c5-39de-8ade-c55ddf3acc2c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # HLSL
 
-
+## -description
 
 Overview of the HLSL technology.
 

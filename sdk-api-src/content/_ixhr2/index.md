@@ -2,7 +2,7 @@
 UID: TP:ixhr2
 ms.assetid: 1bcd6a5a-1ca6-357d-9684-cbdeef45fb68
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # XML HTTP Extended Request
 
-
+## -description
 
 Overview of the XML HTTP Extended Request technology.
 

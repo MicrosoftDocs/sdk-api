@@ -2,7 +2,7 @@
 UID: TP:wab
 ms.assetid: 56a65500-d04e-3d2e-85d2-62accfb13a81
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Address Book
 
-
+## -description
 
 Overview of the Windows Address Book technology.
 

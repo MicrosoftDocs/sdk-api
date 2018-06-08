@@ -2,7 +2,7 @@
 UID: TP:recovery
 ms.assetid: 62e538d1-edb1-3529-b421-8e044a033509
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Application Recovery and Restart
 
-
+## -description
 
 Overview of the Application Recovery and Restart technology.
 

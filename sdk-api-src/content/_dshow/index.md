@@ -2,7 +2,7 @@
 UID: TP:dshow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # DirectShow
 
-
+## -description
 
 Overview of the DirectShow technology.
 

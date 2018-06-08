@@ -2,7 +2,7 @@
 UID: TP:hyperv
 ms.assetid: 61481173-288c-3c51-981d-d766e94aef88
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Hyper-V management
 
-
+## -description
 
 Overview of the Hyper-V management technology.
 

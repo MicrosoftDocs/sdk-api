@@ -2,7 +2,7 @@
 UID: TP:sr
 ms.assetid: 40d297e6-ff66-3421-9344-6dcb60c30222
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # System Restore
 
-
+## -description
 
 Overview of the System Restore technology.
 

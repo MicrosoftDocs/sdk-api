@@ -2,7 +2,7 @@
 UID: TP:windowssetupandmigration
 ms.assetid: 53912da4-42c2-33af-8b53-5bbaa7bfd68c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # OOBE APIs for setup state and notification
 
-
+## -description
 
 Overview of the OOBE APIs for setup state and notification technology.
 

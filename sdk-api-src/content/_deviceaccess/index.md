@@ -2,7 +2,7 @@
 UID: TP:deviceaccess
 ms.assetid: c4afd78e-1e89-3dda-9c6f-6a2002ebabca
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Device Access API
 
-
+## -description
 
 Overview of the Device Access API technology.
 

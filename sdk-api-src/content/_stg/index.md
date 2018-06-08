@@ -2,7 +2,7 @@
 UID: TP:stg
 ms.assetid: a33edc05-7320-3955-9c15-3b5514e4ac75
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Structured Storage
 
-
+## -description
 
 Overview of the Structured Storage technology.
 

@@ -2,7 +2,7 @@
 UID: TP:clushyperv
 ms.assetid: 09a832ff-7219-3268-86c1-02f6fc739622
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Failover Clustering Hyper-V WMI Provider
 
-
+## -description
 
 Overview of the Failover Clustering Hyper-V WMI Provider technology.
 

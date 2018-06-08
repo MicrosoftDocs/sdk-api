@@ -2,7 +2,7 @@
 UID: TP:fs
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Data Access and Storage
 
-
+## -description
 
 Overview of the Data Access and Storage technology.
 

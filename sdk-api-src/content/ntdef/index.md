@@ -2,7 +2,7 @@
 UID: NA:ntdef
 ms.assetid: 2b32bfac-ffb7-339b-bf8b-ff83be6543e4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: kernel
 
 This header is used by kernel. For more information, see:
 
-- [<built-in method title of str object at 0x000001704B784180>](../_kernel/index.md)
+- [<built-in method title of str object at 0x0000022CFFF241F0>](../_kernel/index.md)

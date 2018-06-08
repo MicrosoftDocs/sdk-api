@@ -2,7 +2,7 @@
 UID: TP:dataxchg
 ms.assetid: 8367a3cd-5a5f-3203-9e68-d3a9a508c968
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Data Exchange
 
-
+## -description
 
 Overview of the Data Exchange technology.
 

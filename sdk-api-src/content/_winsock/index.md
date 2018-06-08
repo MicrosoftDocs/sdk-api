@@ -2,7 +2,7 @@
 UID: TP:winsock
 ms.assetid: 517f0d35-1c4a-3ed3-b68d-6bb755388d9e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Sockets 2
 
-
+## -description
 
 Overview of the Windows Sockets 2 technology.
 

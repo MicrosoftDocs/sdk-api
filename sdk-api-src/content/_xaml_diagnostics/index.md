@@ -2,7 +2,7 @@
 UID: TP:xaml_diagnostics
 ms.assetid: 9fd3de2c-6dbc-307e-b52e-afb4af9c54d0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # XAML Diagnostics
 
-
+## -description
 
 Overview of the XAML Diagnostics technology.
 

@@ -2,7 +2,7 @@
 UID: TP:xperf
 ms.assetid: e3e1478a-9f81-3396-aa20-610a32edf6d2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Performance Analyzer (WPA)
 
-
+## -description
 
 Overview of the Windows Performance Analyzer (WPA) technology.
 

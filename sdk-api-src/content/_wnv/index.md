@@ -2,7 +2,7 @@
 UID: TP:wnv
 ms.assetid: 0373728d-f3cc-3b01-ab7e-474698d5e450
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Network Virtualization
 
-
+## -description
 
 Overview of the Windows Network Virtualization technology.
 

@@ -2,7 +2,7 @@
 UID: TP:direct3d10
 ms.assetid: a9b90496-403a-3103-9c22-78cf6593fb96
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Direct3D 10 Graphics
 
-
+## -description
 
 Overview of the Direct3D 10 Graphics technology.
 

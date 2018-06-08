@@ -2,7 +2,7 @@
 UID: NA:mfidl
 ms.assetid: 18649fc4-e301-3952-9662-48f1c9a4e6bb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:devlic
 ms.assetid: e6269e03-703c-34d5-9f95-03f3a0f3921e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Developer licensing
 
-
+## -description
 
 Overview of the Developer licensing technology.
 

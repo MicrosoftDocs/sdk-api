@@ -2,7 +2,7 @@
 UID: TP:indexsrv
 ms.assetid: 45f6cbf9-5f8f-3f61-8756-c82b7e311782
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Indexing Service
 
-
+## -description
 
 Overview of the Indexing Service technology.
 

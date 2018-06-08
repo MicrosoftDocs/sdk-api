@@ -2,7 +2,7 @@
 UID: TP:uianimation
 ms.assetid: 7f1f0a86-c201-3b53-888d-1528979b5d00
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Animation Manager
 
-
+## -description
 
 Overview of the Windows Animation Manager technology.
 

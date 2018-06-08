@@ -2,7 +2,7 @@
 UID: TP:debug
 ms.assetid: ef7e939a-0110-36b3-8c6d-e740e5c83133
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Debugging and authoring support
 
-
+## -description
 
 Overview of the Debugging and authoring support technology.
 

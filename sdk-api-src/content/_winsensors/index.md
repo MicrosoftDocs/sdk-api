@@ -2,7 +2,7 @@
 UID: TP:winsensors
 ms.assetid: f5d46aad-1a36-3ec7-9968-cbf8b3e24824
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Sensor API
 
-
+## -description
 
 Overview of the Sensor API technology.
 

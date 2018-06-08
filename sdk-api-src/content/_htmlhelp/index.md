@@ -2,7 +2,7 @@
 UID: TP:htmlhelp
 ms.assetid: adfbbda2-b7ca-3f58-bd38-3aaccbf29126
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Microsoft HTML Help 1.4
 
-
+## -description
 
 Overview of the Microsoft HTML Help 1.4 technology.
 

@@ -2,7 +2,7 @@
 UID: TP:policy
 ms.assetid: 5cc02d60-54b0-3330-8ff8-1b2f6e1f8c31
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Group Policy API
 
-
+## -description
 
 Overview of the Group Policy API technology.
 

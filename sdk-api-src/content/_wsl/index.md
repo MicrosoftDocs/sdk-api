@@ -2,7 +2,7 @@
 UID: TP:wsl
 ms.assetid: 6050dbda-ec04-3dd4-a492-e2713ff71245
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Subsystem for Linux
 
-
+## -description
 
 Overview of the Windows Subsystem for Linux technology.
 

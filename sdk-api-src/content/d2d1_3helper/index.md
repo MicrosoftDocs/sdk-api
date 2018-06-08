@@ -2,7 +2,7 @@
 UID: NA:d2d1_3helper
 ms.assetid: d433218a-8fe0-3073-824f-0f8c2743416c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

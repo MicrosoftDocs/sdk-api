@@ -2,7 +2,7 @@
 UID: TP:buses
 ms.assetid: 7759b99f-4c43-36f8-a7e6-b99866828c68
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # USB driver reference
 
-
+## -description
 
 Overview of the USB driver reference technology.
 

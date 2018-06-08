@@ -2,7 +2,7 @@
 UID: TP:controls
 ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Controls
 
-
+## -description
 
 Overview of the Windows Controls technology.
 

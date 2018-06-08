@@ -2,7 +2,7 @@
 UID: TP:secsmart
 ms.assetid: 7278bd47-0afb-3871-a295-7c3ccd0cc1b3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Smart Card API
 
-
+## -description
 
 Overview of the Smart Card API technology.
 

@@ -2,7 +2,7 @@
 UID: TP:winauto
 ms.assetid: 36f74dca-3718-33e7-a3b8-2c7b0e5e736b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Accessibility Features
 
-
+## -description
 
 Overview of the Windows Accessibility Features technology.
 

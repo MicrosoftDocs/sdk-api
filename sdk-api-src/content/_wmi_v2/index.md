@@ -2,7 +2,7 @@
 UID: TP:wmi_v2
 ms.assetid: 824b23dd-9cc9-3dd8-bc5a-af4068a53abd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Management Infrastructure (MI)
 
-
+## -description
 
 Overview of the Windows Management Infrastructure (MI) technology.
 

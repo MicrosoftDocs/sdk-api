@@ -2,7 +2,7 @@
 UID: NA:wbemprov
 ms.assetid: c62991b7-953a-3437-a1b3-71d9aa11b1e8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

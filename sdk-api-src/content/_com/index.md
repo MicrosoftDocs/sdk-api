@@ -2,7 +2,7 @@
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Component Object Model (COM)
 
-
+## -description
 
 Overview of the Component Object Model (COM) technology.
 

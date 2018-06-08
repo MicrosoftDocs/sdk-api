@@ -2,7 +2,7 @@
 UID: NA:shdeprecated
 ms.assetid: 1d2c0e23-f2b0-35f7-bbd5-61e60eaa3283
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:rpc
 ms.assetid: 47b47c5f-ee14-33e0-96c0-18c7b2796fcb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Remote Procedure Call (RPC)
 
-
+## -description
 
 Overview of the Remote Procedure Call (RPC) technology.
 

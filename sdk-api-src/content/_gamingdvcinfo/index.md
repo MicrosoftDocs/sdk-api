@@ -2,7 +2,7 @@
 UID: TP:gamingdvcinfo
 ms.assetid: b4972891-4403-3035-b6d1-a021050f576f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Gaming Device Information
 
-
+## -description
 
 Overview of the Gaming Device Information technology.
 

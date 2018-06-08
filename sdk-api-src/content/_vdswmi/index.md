@@ -2,7 +2,7 @@
 UID: TP:vdswmi
 ms.assetid: ae6821c9-59eb-3c66-aea2-099b0d06ded4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Storage Volume Provider
 
-
+## -description
 
 Overview of the Storage Volume Provider technology.
 

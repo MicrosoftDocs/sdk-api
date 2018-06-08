@@ -2,7 +2,7 @@
 UID: NA:resapi
 ms.assetid: 7faec6a1-d5d6-3cde-81e5-1e05a05d961f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Tablet PC
 
-
+## -description
 
 Overview of the Tablet PC technology.
 

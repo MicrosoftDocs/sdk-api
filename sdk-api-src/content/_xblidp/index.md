@@ -2,7 +2,7 @@
 UID: TP:xblidp
 ms.assetid: 171eec04-c9a1-34cd-9e47-c871eea2a356
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # XblIdpAuthManager
 
-
+## -description
 
 Overview of the XblIdpAuthManager technology.
 
