@@ -17,11 +17,11 @@ Overview of the Windows Filtering Platform technology.
 
 To develop Windows Filtering Platform, you need these headers:
 
- * [fwpmtypes.h](..\fwpmtypes\index.md)
- * [fwpmu.h](..\fwpmu\index.md)
- * [fwptypes.h](..\fwptypes\index.md)
- * [iketypes.h](..\iketypes\index.md)
- * [ipsectypes.h](..\ipsectypes\index.md)
- * [netiodef.h](..\netiodef\index.md)
+ * [fwpmtypes.h](../fwpmtypes/index.md)
+ * [fwpmu.h](../fwpmu/index.md)
+ * [fwptypes.h](../fwptypes/index.md)
+ * [iketypes.h](../iketypes/index.md)
+ * [ipsectypes.h](../ipsectypes/index.md)
+ * [netiodef.h](../netiodef/index.md)
 
 For the programming guide, see [Windows Filtering Platform](/windows/desktop/fwp).

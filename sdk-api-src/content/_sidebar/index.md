@@ -18,6 +18,6 @@ Overview of the Windows Sidebar technology.
 
 To develop Windows Sidebar, you need these headers:
 
- * [wbemcli.h](..\wbemcli\index.md)
+ * [wbemcli.h](../wbemcli/index.md)
 
 For the programming guide, see [Windows Sidebar](/previous-versions/windows/desktop/sidebar).

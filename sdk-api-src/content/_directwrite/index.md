@@ -17,9 +17,9 @@ Overview of the DirectWrite technology.
 
 To develop DirectWrite, you need these headers:
 
- * [dwrite.h](..\dwrite\index.md)
- * [dwrite_1.h](..\dwrite_1\index.md)
- * [dwrite_2.h](..\dwrite_2\index.md)
- * [dwrite_3.h](..\dwrite_3\index.md)
+ * [dwrite.h](../dwrite/index.md)
+ * [dwrite_1.h](../dwrite_1/index.md)
+ * [dwrite_2.h](../dwrite_2/index.md)
+ * [dwrite_3.h](../dwrite_3/index.md)
 
 For the programming guide, see [DirectWrite](/windows/desktop/directwrite).

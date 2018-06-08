@@ -18,11 +18,11 @@ Overview of the File Server Resource Manager technology.
 
 To develop File Server Resource Manager, you need these headers:
 
- * [fsrm.h](..\fsrm\index.md)
- * [fsrmenums.h](..\fsrmenums\index.md)
- * [fsrmpipeline.h](..\fsrmpipeline\index.md)
- * [fsrmquota.h](..\fsrmquota\index.md)
- * [fsrmreports.h](..\fsrmreports\index.md)
- * [fsrmscreen.h](..\fsrmscreen\index.md)
+ * [fsrm.h](../fsrm/index.md)
+ * [fsrmenums.h](../fsrmenums/index.md)
+ * [fsrmpipeline.h](../fsrmpipeline/index.md)
+ * [fsrmquota.h](../fsrmquota/index.md)
+ * [fsrmreports.h](../fsrmreports/index.md)
+ * [fsrmscreen.h](../fsrmscreen/index.md)
 
 For the programming guide, see [File Server Resource Manager](/previous-versions/windows/desktop/fsrm).

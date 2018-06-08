@@ -18,7 +18,7 @@ Overview of the Game Mode technology.
 
 To develop Game Mode, you need these headers:
 
- * [expandedresources.h](..\expandedresources\index.md)
+ * [expandedresources.h](../expandedresources/index.md)
 
 For the programming guide, see [Game Mode](/previous-versions/windows/desktop/gamemode).
 

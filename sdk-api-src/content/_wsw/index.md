@@ -17,8 +17,8 @@ Overview of the Windows Web Services technology.
 
 To develop Windows Web Services, you need these headers:
 
- * [icontentprefetchertasktrigger.h](..\icontentprefetchertasktrigger\index.md)
- * [webservices.h](..\webservices\index.md)
+ * [icontentprefetchertasktrigger.h](../icontentprefetchertasktrigger/index.md)
+ * [webservices.h](../webservices/index.md)
 
 For the programming guide, see [Windows Web Services](/windows/desktop/wsw).
 

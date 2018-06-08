@@ -17,7 +17,7 @@ Overview of the Task Scheduler technology.
 
 To develop Task Scheduler, you need these headers:
 
- * [mstask.h](..\mstask\index.md)
- * [taskschd.h](..\taskschd\index.md)
+ * [mstask.h](../mstask/index.md)
+ * [taskschd.h](../taskschd/index.md)
 
 For the programming guide, see [Task Scheduler](/windows/desktop/taskschd).

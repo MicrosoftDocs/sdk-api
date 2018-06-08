@@ -18,7 +18,7 @@ Overview of the Remote Assistance technology.
 
 To develop Remote Assistance, you need these headers:
 
- * [rendezvoussession.h](..\rendezvoussession\index.md)
+ * [rendezvoussession.h](../rendezvoussession/index.md)
 
 For the programming guide, see [Remote Assistance](/previous-versions/windows/desktop/remoteassist).
 

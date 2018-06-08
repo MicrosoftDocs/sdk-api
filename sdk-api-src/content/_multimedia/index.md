@@ -17,13 +17,13 @@ Overview of the Windows Multimedia technology.
 
 To develop Windows Multimedia, you need these headers:
 
- * [digitalv.h](..\digitalv\index.md)
- * [joystickapi.h](..\joystickapi\index.md)
- * [mmddk.h](..\mmddk\index.md)
- * [mmeapi.h](..\mmeapi\index.md)
- * [mmiscapi.h](..\mmiscapi\index.md)
- * [msacm.h](..\msacm\index.md)
- * [timeapi.h](..\timeapi\index.md)
- * [vfw.h](..\vfw\index.md)
+ * [digitalv.h](../digitalv/index.md)
+ * [joystickapi.h](../joystickapi/index.md)
+ * [mmddk.h](../mmddk/index.md)
+ * [mmeapi.h](../mmeapi/index.md)
+ * [mmiscapi.h](../mmiscapi/index.md)
+ * [msacm.h](../msacm/index.md)
+ * [timeapi.h](../timeapi/index.md)
+ * [vfw.h](../vfw/index.md)
 
 For the programming guide, see [Windows Multimedia](/windows/desktop/multimedia).

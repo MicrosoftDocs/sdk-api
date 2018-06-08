@@ -17,6 +17,6 @@ Overview of the Antimalware Scan Interface technology.
 
 To develop Antimalware Scan Interface, you need these headers:
 
- * [amsi.h](..\amsi\index.md)
+ * [amsi.h](../amsi/index.md)
 
 For the programming guide, see [Antimalware Scan Interface](/windows/desktop/amsi).

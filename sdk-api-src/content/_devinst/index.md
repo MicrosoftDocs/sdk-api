@@ -17,9 +17,9 @@ Overview of the Device and Driver Installation Reference technology.
 
 To develop Device and Driver Installation Reference, you need these headers:
 
- * [cfg.h](..\cfg\index.md)
- * [cfgmgr32.h](..\cfgmgr32\index.md)
- * [newdev.h](..\newdev\index.md)
+ * [cfg.h](../cfg/index.md)
+ * [cfgmgr32.h](../cfgmgr32/index.md)
+ * [newdev.h](../newdev/index.md)
 
 For the programming guide, see [Device and Driver Installation Reference](/windows/desktop/devinst).
 

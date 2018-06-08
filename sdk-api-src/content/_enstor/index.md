@@ -18,8 +18,8 @@ Overview of the Enhanced Storage technology.
 
 To develop Enhanced Storage, you need these headers:
 
- * [ehstorapi.h](..\ehstorapi\index.md)
- * [ehstorextensions.h](..\ehstorextensions\index.md)
+ * [ehstorapi.h](../ehstorapi/index.md)
+ * [ehstorextensions.h](../ehstorextensions/index.md)
 
 For the programming guide, see [Enhanced Storage](/previous-versions/windows/desktop/enstor).
 

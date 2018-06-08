@@ -17,9 +17,9 @@ Overview of the USB driver reference technology.
 
 To develop USB driver reference, you need these headers:
 
- * [genericusbfnioctl.h](..\genericusbfnioctl\index.md)
- * [usbuser.h](..\usbuser\index.md)
- * [winusb.h](..\winusb\index.md)
- * [winusbio.h](..\winusbio\index.md)
+ * [genericusbfnioctl.h](../genericusbfnioctl/index.md)
+ * [usbuser.h](../usbuser/index.md)
+ * [winusb.h](../winusb/index.md)
+ * [winusbio.h](../winusbio/index.md)
 
 For the programming guide, see [USB driver reference](/windows/desktop/buses).

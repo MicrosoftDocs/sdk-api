@@ -18,7 +18,7 @@ Overview of the Tiles, badges, and notifications for Classic desktop application
 
 To develop Tiles, badges, and notifications for Classic desktop applications, you need these headers:
 
- * [notificationactivationcallback.h](..\notificationactivationcallback\index.md)
+ * [notificationactivationcallback.h](../notificationactivationcallback/index.md)
 
 For the programming guide, see [Tiles, badges, and notifications for Classic desktop applications](/previous-versions/windows/desktop/win32_tile_badge_notif).
 

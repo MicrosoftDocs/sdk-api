@@ -17,6 +17,6 @@ Overview of the Restart Manager technology.
 
 To develop Restart Manager, you need these headers:
 
- * [restartmanager.h](..\restartmanager\index.md)
+ * [restartmanager.h](../restartmanager/index.md)
 
 For the programming guide, see [Restart Manager](/windows/desktop/rstmgr).

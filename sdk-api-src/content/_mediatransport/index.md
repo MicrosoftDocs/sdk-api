@@ -18,7 +18,7 @@ Overview of the Media Transport Controls technology.
 
 To develop Media Transport Controls, you need these headers:
 
- * [systemmediatransportcontrolsinterop.h](..\systemmediatransportcontrolsinterop\index.md)
+ * [systemmediatransportcontrolsinterop.h](../systemmediatransportcontrolsinterop/index.md)
 
 For the programming guide, see [Media Transport Controls](/previous-versions/windows/desktop/mediatransport).
 

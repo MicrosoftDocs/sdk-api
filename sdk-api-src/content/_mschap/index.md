@@ -18,6 +18,6 @@ Overview of the MS-CHAP Password Management API technology.
 
 To develop MS-CHAP Password Management API, you need these headers:
 
- * [mschapp.h](..\mschapp\index.md)
+ * [mschapp.h](../mschapp/index.md)
 
 For the programming guide, see [MS-CHAP Password Management API](/previous-versions/windows/desktop/mschap).

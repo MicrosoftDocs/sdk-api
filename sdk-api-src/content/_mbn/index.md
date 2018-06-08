@@ -17,7 +17,7 @@ Overview of the Mobile Broadband technology.
 
 To develop Mobile Broadband, you need these headers:
 
- * [mbnapi.h](..\mbnapi\index.md)
+ * [mbnapi.h](../mbnapi/index.md)
 
 For the programming guide, see [Mobile Broadband](/windows/desktop/mbn).
 

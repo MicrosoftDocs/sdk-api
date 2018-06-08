@@ -17,10 +17,10 @@ Overview of the Windows Media Device Manager 11 SDK technology.
 
 To develop Windows Media Device Manager 11 SDK, you need these headers:
 
- * [mswmdm.h](..\mswmdm\index.md)
- * [mtpext.h](..\mtpext\index.md)
- * [scclient.h](..\scclient\index.md)
- * [scserver.h](..\scserver\index.md)
- * [wmdmlog.h](..\wmdmlog\index.md)
+ * [mswmdm.h](../mswmdm/index.md)
+ * [mtpext.h](../mtpext/index.md)
+ * [scclient.h](../scclient/index.md)
+ * [scserver.h](../scserver/index.md)
+ * [wmdmlog.h](../wmdmlog/index.md)
 
 For the programming guide, see [Windows Media Device Manager 11 SDK](/windows/desktop/wmdm).

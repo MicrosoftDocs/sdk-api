@@ -17,9 +17,9 @@ Overview of the Windows Accessibility Features technology.
 
 To develop Windows Accessibility Features, you need these headers:
 
- * [oleacc.h](..\oleacc\index.md)
- * [uiautomationclient.h](..\uiautomationclient\index.md)
- * [uiautomationcore.h](..\uiautomationcore\index.md)
- * [uiautomationcoreapi.h](..\uiautomationcoreapi\index.md)
+ * [oleacc.h](../oleacc/index.md)
+ * [uiautomationclient.h](../uiautomationclient/index.md)
+ * [uiautomationcore.h](../uiautomationcore/index.md)
+ * [uiautomationcoreapi.h](../uiautomationcoreapi/index.md)
 
 For the programming guide, see [Windows Accessibility Features](/windows/desktop/winauto).

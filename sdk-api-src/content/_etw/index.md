@@ -17,10 +17,10 @@ Overview of the Event Tracing technology.
 
 To develop Event Tracing, you need these headers:
 
- * [evntcons.h](..\evntcons\index.md)
- * [evntprov.h](..\evntprov\index.md)
- * [relogger.h](..\relogger\index.md)
- * [securitybaseapi.h](..\securitybaseapi\index.md)
- * [tdh.h](..\tdh\index.md)
+ * [evntcons.h](../evntcons/index.md)
+ * [evntprov.h](../evntprov/index.md)
+ * [relogger.h](../relogger/index.md)
+ * [securitybaseapi.h](../securitybaseapi/index.md)
+ * [tdh.h](../tdh/index.md)
 
 For the programming guide, see [Event Tracing](/windows/desktop/etw).

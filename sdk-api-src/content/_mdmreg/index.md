@@ -17,6 +17,6 @@ Overview of the Mobile Device Management Registration technology.
 
 To develop Mobile Device Management Registration, you need these headers:
 
- * [mdmregistration.h](..\mdmregistration\index.md)
+ * [mdmregistration.h](../mdmregistration/index.md)
 
 For the programming guide, see [Mobile Device Management Registration](/windows/desktop/mdmreg).

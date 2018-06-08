@@ -18,8 +18,8 @@ Overview of the Ink input technology.
 
 To develop Ink input, you need these headers:
 
- * [inkpresenterdesktop.h](..\inkpresenterdesktop\index.md)
- * [inkrenderer.h](..\inkrenderer\index.md)
+ * [inkpresenterdesktop.h](../inkpresenterdesktop/index.md)
+ * [inkrenderer.h](../inkrenderer/index.md)
 
 For the programming guide, see [Ink input](/previous-versions/windows/desktop/input_ink).
 

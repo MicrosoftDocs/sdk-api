@@ -17,9 +17,9 @@ Overview of the Data Exchange technology.
 
 To develop Data Exchange, you need these headers:
 
- * [dde.h](..\dde\index.md)
- * [ddeml.h](..\ddeml\index.md)
- * [wingdi.h](..\wingdi\index.md)
+ * [dde.h](../dde/index.md)
+ * [ddeml.h](../ddeml/index.md)
+ * [wingdi.h](../wingdi/index.md)
 
 For the programming guide, see [Data Exchange](/windows/desktop/dataxchg).
 

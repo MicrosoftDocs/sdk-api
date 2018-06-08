@@ -17,8 +17,8 @@ Overview of the TraceLogging technology.
 
 To develop TraceLogging, you need these headers:
 
- * [traceloggingactivity.h](..\traceloggingactivity\index.md)
- * [traceloggingprovider.h](..\traceloggingprovider\index.md)
+ * [traceloggingactivity.h](../traceloggingactivity/index.md)
+ * [traceloggingprovider.h](../traceloggingprovider/index.md)
 
 For the programming guide, see [TraceLogging](/windows/desktop/tracelogging).
 

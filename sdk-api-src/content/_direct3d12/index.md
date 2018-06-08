@@ -17,10 +17,10 @@ Overview of the Direct3D 12 Graphics technology.
 
 To develop Direct3D 12 Graphics, you need these headers:
 
- * [d3d11on12.h](..\d3d11on12\index.md)
- * [d3d12.h](..\d3d12\index.md)
- * [d3d12sdklayers.h](..\d3d12sdklayers\index.md)
- * [d3d12shader.h](..\d3d12shader\index.md)
+ * [d3d11on12.h](../d3d11on12/index.md)
+ * [d3d12.h](../d3d12/index.md)
+ * [d3d12sdklayers.h](../d3d12sdklayers/index.md)
+ * [d3d12shader.h](../d3d12shader/index.md)
 
 For the programming guide, see [Direct3D 12 Graphics](/windows/desktop/direct3d12).
 

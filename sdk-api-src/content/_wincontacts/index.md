@@ -18,7 +18,7 @@ Overview of the Windows Contacts technology.
 
 To develop Windows Contacts, you need these headers:
 
- * [icontact.h](..\icontact\index.md)
+ * [icontact.h](../icontact/index.md)
 
 For the programming guide, see [Windows Contacts](/previous-versions/windows/desktop/wincontacts).
 

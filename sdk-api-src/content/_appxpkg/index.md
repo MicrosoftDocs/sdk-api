@@ -17,8 +17,8 @@ Overview of the Packaging, deployment, and query of Windows Store apps technolog
 
 To develop Packaging, deployment, and query of Windows Store apps, you need these headers:
 
- * [appmodel.h](..\appmodel\index.md)
- * [appxpackaging.h](..\appxpackaging\index.md)
+ * [appmodel.h](../appmodel/index.md)
+ * [appxpackaging.h](../appxpackaging/index.md)
 
 For the programming guide, see [Packaging, deployment, and query of Windows Store apps](/windows/desktop/appxpkg).
 

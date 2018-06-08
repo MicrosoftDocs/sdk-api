@@ -18,7 +18,7 @@ Overview of the Offline Files technology.
 
 To develop Offline Files, you need these headers:
 
- * [cscapi.h](..\cscapi\index.md)
- * [cscobj.h](..\cscobj\index.md)
+ * [cscapi.h](../cscapi/index.md)
+ * [cscobj.h](../cscobj/index.md)
 
 For the programming guide, see [Offline Files](/previous-versions/windows/desktop/of).

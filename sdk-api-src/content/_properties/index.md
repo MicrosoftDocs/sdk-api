@@ -17,10 +17,10 @@ Overview of the Windows Property System technology.
 
 To develop Windows Property System, you need these headers:
 
- * [propidl.h](..\propidl\index.md)
- * [propsys.h](..\propsys\index.md)
- * [propvarutil.h](..\propvarutil\index.md)
- * [shobjidl_core.h](..\shobjidl_core\index.md)
+ * [propidl.h](../propidl/index.md)
+ * [propsys.h](../propsys/index.md)
+ * [propvarutil.h](../propvarutil/index.md)
+ * [shobjidl_core.h](../shobjidl_core/index.md)
 
 For the programming guide, see [Windows Property System](/windows/desktop/properties).
 

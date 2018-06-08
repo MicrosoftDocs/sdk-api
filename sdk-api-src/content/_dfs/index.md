@@ -18,6 +18,6 @@ Overview of the Distributed File System technology.
 
 To develop Distributed File System, you need these headers:
 
- * [lmdfs.h](..\lmdfs\index.md)
+ * [lmdfs.h](../lmdfs/index.md)
 
 For the programming guide, see [Distributed File System](/previous-versions/windows/desktop/dfs).

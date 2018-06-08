@@ -17,6 +17,6 @@ Overview of the WebDAV technology.
 
 To develop WebDAV, you need these headers:
 
- * [davclnt.h](..\davclnt\index.md)
+ * [davclnt.h](../davclnt/index.md)
 
 For the programming guide, see [WebDAV](/windows/desktop/webdav).

@@ -17,6 +17,6 @@ Overview of the Sensor API technology.
 
 To develop Sensor API, you need these headers:
 
- * [sensorsapi.h](..\sensorsapi\index.md)
+ * [sensorsapi.h](../sensorsapi/index.md)
 
 For the programming guide, see [Sensor API](/windows/desktop/winsensors).

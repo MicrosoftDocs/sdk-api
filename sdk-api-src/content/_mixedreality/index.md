@@ -18,7 +18,7 @@ Overview of the Windows Mixed Reality technology.
 
 To develop Windows Mixed Reality, you need these headers:
 
- * [holographicspaceinterop.h](..\holographicspaceinterop\index.md)
- * [spatialinteractionmanagerinterop.h](..\spatialinteractionmanagerinterop\index.md)
+ * [holographicspaceinterop.h](../holographicspaceinterop/index.md)
+ * [spatialinteractionmanagerinterop.h](../spatialinteractionmanagerinterop/index.md)
 
 For the programming guide, see [Windows Mixed Reality](/previous-versions/windows/desktop/mixedreality).

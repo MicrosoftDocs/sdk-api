@@ -17,11 +17,11 @@ Overview of the Windows Deployment Services technology.
 
 To develop Windows Deployment Services, you need these headers:
 
- * [wdsbp.h](..\wdsbp\index.md)
- * [wdsclientapi.h](..\wdsclientapi\index.md)
- * [wdspxe.h](..\wdspxe\index.md)
- * [wdstci.h](..\wdstci\index.md)
- * [wdstpdi.h](..\wdstpdi\index.md)
- * [wdstptmgmt.h](..\wdstptmgmt\index.md)
+ * [wdsbp.h](../wdsbp/index.md)
+ * [wdsclientapi.h](../wdsclientapi/index.md)
+ * [wdspxe.h](../wdspxe/index.md)
+ * [wdstci.h](../wdstci/index.md)
+ * [wdstpdi.h](../wdstpdi/index.md)
+ * [wdstptmgmt.h](../wdstptmgmt/index.md)
 
 For the programming guide, see [Windows Deployment Services](/windows/desktop/wds).

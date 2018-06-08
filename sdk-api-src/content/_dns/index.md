@@ -17,6 +17,6 @@ Overview of the Domain Name System (DNS) technology.
 
 To develop Domain Name System (DNS), you need these headers:
 
- * [windns.h](..\windns\index.md)
+ * [windns.h](../windns/index.md)
 
 For the programming guide, see [Domain Name System (DNS)](/windows/desktop/dns).

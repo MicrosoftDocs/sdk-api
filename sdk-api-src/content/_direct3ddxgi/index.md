@@ -17,15 +17,15 @@ Overview of the DXGI technology.
 
 To develop DXGI, you need these headers:
 
- * [dxgi.h](..\dxgi\index.md)
- * [dxgi1_2.h](..\dxgi1_2\index.md)
- * [dxgi1_3.h](..\dxgi1_3\index.md)
- * [dxgi1_4.h](..\dxgi1_4\index.md)
- * [dxgi1_5.h](..\dxgi1_5\index.md)
- * [dxgi1_6.h](..\dxgi1_6\index.md)
- * [dxgicommon.h](..\dxgicommon\index.md)
- * [dxgidebug.h](..\dxgidebug\index.md)
- * [dxgiformat.h](..\dxgiformat\index.md)
+ * [dxgi.h](../dxgi/index.md)
+ * [dxgi1_2.h](../dxgi1_2/index.md)
+ * [dxgi1_3.h](../dxgi1_3/index.md)
+ * [dxgi1_4.h](../dxgi1_4/index.md)
+ * [dxgi1_5.h](../dxgi1_5/index.md)
+ * [dxgi1_6.h](../dxgi1_6/index.md)
+ * [dxgicommon.h](../dxgicommon/index.md)
+ * [dxgidebug.h](../dxgidebug/index.md)
+ * [dxgiformat.h](../dxgiformat/index.md)
 
 For the programming guide, see [DXGI](/windows/desktop/direct3ddxgi).
 

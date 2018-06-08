@@ -18,7 +18,7 @@ Overview of the Lightweight Directory Access Protocol technology.
 
 To develop Lightweight Directory Access Protocol, you need these headers:
 
- * [winber.h](..\winber\index.md)
- * [winldap.h](..\winldap\index.md)
+ * [winber.h](../winber/index.md)
+ * [winldap.h](../winldap/index.md)
 
 For the programming guide, see [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap).

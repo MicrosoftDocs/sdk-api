@@ -17,6 +17,6 @@ Overview of the Windows Event Collector technology.
 
 To develop Windows Event Collector, you need these headers:
 
- * [evcoll.h](..\evcoll\index.md)
+ * [evcoll.h](../evcoll/index.md)
 
 For the programming guide, see [Windows Event Collector](/windows/desktop/wec).

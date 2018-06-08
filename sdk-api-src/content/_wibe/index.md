@@ -18,7 +18,7 @@ Overview of the WPF Bitmap Effects technology.
 
 To develop WPF Bitmap Effects, you need these headers:
 
- * [mileffects.h](..\mileffects\index.md)
+ * [mileffects.h](../mileffects/index.md)
 
 For the programming guide, see [WPF Bitmap Effects](/previous-versions/windows/desktop/wibe).
 

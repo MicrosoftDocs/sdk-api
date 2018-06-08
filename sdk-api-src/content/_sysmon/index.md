@@ -17,6 +17,6 @@ Overview of the System Monitor technology.
 
 To develop System Monitor, you need these headers:
 
- * [isysmon.h](..\isysmon\index.md)
+ * [isysmon.h](../isysmon/index.md)
 
 For the programming guide, see [System Monitor](/windows/desktop/sysmon).

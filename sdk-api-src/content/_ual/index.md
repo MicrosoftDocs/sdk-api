@@ -18,7 +18,7 @@ Overview of the User Access Logging technology.
 
 To develop User Access Logging, you need these headers:
 
- * [ual.h](..\ual\index.md)
+ * [ual.h](../ual/index.md)
 
 For the programming guide, see [User Access Logging](/previous-versions/windows/desktop/ual).
 

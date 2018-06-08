@@ -17,9 +17,9 @@ Overview of the DirectXMath technology.
 
 To develop DirectXMath, you need these headers:
 
- * [directxcollision.h](..\directxcollision\index.md)
- * [directxmath.h](..\directxmath\index.md)
- * [directxpackedvector.h](..\directxpackedvector\index.md)
+ * [directxcollision.h](../directxcollision/index.md)
+ * [directxmath.h](../directxmath/index.md)
+ * [directxpackedvector.h](../directxpackedvector/index.md)
 
 For the programming guide, see [DirectXMath](/windows/desktop/dxmath).
 

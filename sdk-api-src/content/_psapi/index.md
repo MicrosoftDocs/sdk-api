@@ -17,7 +17,7 @@ Overview of the Process Status API (PSAPI) technology.
 
 To develop Process Status API (PSAPI), you need these headers:
 
- * [psapi.h](..\psapi\index.md)
+ * [psapi.h](../psapi/index.md)
 
 For the programming guide, see [Process Status API (PSAPI)](/windows/desktop/psapi).
 

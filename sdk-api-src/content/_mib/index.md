@@ -18,9 +18,9 @@ Overview of the Management Information Base technology.
 
 To develop Management Information Base, you need these headers:
 
- * [ifmib.h](..\ifmib\index.md)
- * [ipmib.h](..\ipmib\index.md)
- * [tcpmib.h](..\tcpmib\index.md)
- * [udpmib.h](..\udpmib\index.md)
+ * [ifmib.h](../ifmib/index.md)
+ * [ipmib.h](../ipmib/index.md)
+ * [tcpmib.h](../tcpmib/index.md)
+ * [udpmib.h](../udpmib/index.md)
 
 For the programming guide, see [Management Information Base](/previous-versions/windows/desktop/mib).

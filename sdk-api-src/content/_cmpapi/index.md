@@ -17,7 +17,7 @@ Overview of the Compression API technology.
 
 To develop Compression API, you need these headers:
 
- * [compressapi.h](..\compressapi\index.md)
+ * [compressapi.h](../compressapi/index.md)
 
 For the programming guide, see [Compression API](/windows/desktop/cmpapi).
 

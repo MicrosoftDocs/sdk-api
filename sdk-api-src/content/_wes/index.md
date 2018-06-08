@@ -17,6 +17,6 @@ Overview of the Windows Event Log technology.
 
 To develop Windows Event Log, you need these headers:
 
- * [winevt.h](..\winevt\index.md)
+ * [winevt.h](../winevt/index.md)
 
 For the programming guide, see [Windows Event Log](/windows/desktop/wes).

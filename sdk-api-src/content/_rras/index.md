@@ -17,14 +17,14 @@ Overview of the Routing and Remote Access Service technology.
 
 To develop Routing and Remote Access Service, you need these headers:
 
- * [ipxrtdef.h](..\ipxrtdef\index.md)
- * [mgm.h](..\mgm\index.md)
- * [mprapi.h](..\mprapi\index.md)
- * [ras.h](..\ras\index.md)
- * [rasdlg.h](..\rasdlg\index.md)
- * [rasshost.h](..\rasshost\index.md)
- * [routprot.h](..\routprot\index.md)
- * [rtmv2.h](..\rtmv2\index.md)
- * [stm.h](..\stm\index.md)
+ * [ipxrtdef.h](../ipxrtdef/index.md)
+ * [mgm.h](../mgm/index.md)
+ * [mprapi.h](../mprapi/index.md)
+ * [ras.h](../ras/index.md)
+ * [rasdlg.h](../rasdlg/index.md)
+ * [rasshost.h](../rasshost/index.md)
+ * [routprot.h](../routprot/index.md)
+ * [rtmv2.h](../rtmv2/index.md)
+ * [stm.h](../stm/index.md)
 
 For the programming guide, see [Routing and Remote Access Service](/windows/desktop/rras).

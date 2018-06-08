@@ -17,6 +17,6 @@ Overview of the Network Policy Server technology.
 
 To develop Network Policy Server, you need these headers:
 
- * [authif.h](..\authif\index.md)
+ * [authif.h](../authif/index.md)
 
 For the programming guide, see [Network Policy Server](/windows/desktop/nps).

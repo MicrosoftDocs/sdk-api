@@ -18,6 +18,6 @@ Overview of the NetShell technology.
 
 To develop NetShell, you need these headers:
 
- * [netsh.h](..\netsh\index.md)
+ * [netsh.h](../netsh/index.md)
 
 For the programming guide, see [NetShell](/previous-versions/windows/desktop/netshell).

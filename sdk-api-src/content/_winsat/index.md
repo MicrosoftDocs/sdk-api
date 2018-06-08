@@ -17,6 +17,6 @@ Overview of the Windows System Assessment Tool technology.
 
 To develop Windows System Assessment Tool, you need these headers:
 
- * [winsatcominterfacei.h](..\winsatcominterfacei\index.md)
+ * [winsatcominterfacei.h](../winsatcominterfacei/index.md)
 
 For the programming guide, see [Windows System Assessment Tool](/windows/desktop/winsat).

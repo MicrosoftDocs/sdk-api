@@ -17,8 +17,8 @@ Overview of the Windows Connect Now technology.
 
 To develop Windows Connect Now, you need these headers:
 
- * [wcndevice.h](..\wcndevice\index.md)
- * [wcntypes.h](..\wcntypes\index.md)
+ * [wcndevice.h](../wcndevice/index.md)
+ * [wcntypes.h](../wcntypes/index.md)
 
 For the programming guide, see [Windows Connect Now](/windows/desktop/wcn).
 

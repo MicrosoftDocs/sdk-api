@@ -18,7 +18,7 @@ Overview of the Process Snapshotting technology.
 
 To develop Process Snapshotting, you need these headers:
 
- * [processsnapshot.h](..\processsnapshot\index.md)
+ * [processsnapshot.h](../processsnapshot/index.md)
 
 For the programming guide, see [Process Snapshotting](/previous-versions/windows/desktop/proc_snap).
 

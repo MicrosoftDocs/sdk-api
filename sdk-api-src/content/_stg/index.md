@@ -17,8 +17,8 @@ Overview of the Structured Storage technology.
 
 To develop Structured Storage, you need these headers:
 
- * [coml2api.h](..\coml2api\index.md)
- * [propapi.h](..\propapi\index.md)
- * [propidlbase.h](..\propidlbase\index.md)
+ * [coml2api.h](../coml2api/index.md)
+ * [propapi.h](../propapi/index.md)
+ * [propidlbase.h](../propidlbase/index.md)
 
 For the programming guide, see [Structured Storage](/windows/desktop/stg).

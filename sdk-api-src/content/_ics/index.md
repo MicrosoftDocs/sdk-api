@@ -18,10 +18,10 @@ Overview of the Windows Firewall Technologies technology.
 
 To develop Windows Firewall Technologies, you need these headers:
 
- * [icftypes.h](..\icftypes\index.md)
- * [natupnp.h](..\natupnp\index.md)
- * [netcon.h](..\netcon\index.md)
- * [netfw.h](..\netfw\index.md)
- * [networkisolation.h](..\networkisolation\index.md)
+ * [icftypes.h](../icftypes/index.md)
+ * [natupnp.h](../natupnp/index.md)
+ * [netcon.h](../netcon/index.md)
+ * [netfw.h](../netfw/index.md)
+ * [networkisolation.h](../networkisolation/index.md)
 
 For the programming guide, see [Windows Firewall Technologies](/previous-versions/windows/desktop/ics).

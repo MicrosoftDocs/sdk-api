@@ -17,7 +17,7 @@ Overview of the Network List Manager technology.
 
 To develop Network List Manager, you need these headers:
 
- * [netlistmgr.h](..\netlistmgr\index.md)
- * [ondemandconnroutehelper.h](..\ondemandconnroutehelper\index.md)
+ * [netlistmgr.h](../netlistmgr/index.md)
+ * [ondemandconnroutehelper.h](../ondemandconnroutehelper/index.md)
 
 For the programming guide, see [Network List Manager](/windows/desktop/nla).

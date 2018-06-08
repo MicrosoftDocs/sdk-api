@@ -17,6 +17,6 @@ Overview of the Hyper-V management technology.
 
 To develop Hyper-V management, you need these headers:
 
- * [vmgenerationcounter.h](..\vmgenerationcounter\index.md)
+ * [vmgenerationcounter.h](../vmgenerationcounter/index.md)
 
 For the programming guide, see [Hyper-V management](/windows/desktop/hyperv).

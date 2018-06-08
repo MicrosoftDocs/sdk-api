@@ -17,13 +17,13 @@ Overview of the Application Installation and Servicing technology.
 
 To develop Application Installation and Servicing, you need these headers:
 
- * [evalcom2.h](..\evalcom2\index.md)
- * [instance.h](..\instance\index.md)
- * [mergemod.h](..\mergemod\index.md)
- * [msi.h](..\msi\index.md)
- * [msiquery.h](..\msiquery\index.md)
- * [setupapi.h](..\setupapi\index.md)
- * [sfc.h](..\sfc\index.md)
- * [winsxs.h](..\winsxs\index.md)
+ * [evalcom2.h](../evalcom2/index.md)
+ * [instance.h](../instance/index.md)
+ * [mergemod.h](../mergemod/index.md)
+ * [msi.h](../msi/index.md)
+ * [msiquery.h](../msiquery/index.md)
+ * [setupapi.h](../setupapi/index.md)
+ * [sfc.h](../sfc/index.md)
+ * [winsxs.h](../winsxs/index.md)
 
 For the programming guide, see [Application Installation and Servicing](/windows/desktop/setup).

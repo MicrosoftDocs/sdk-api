@@ -17,8 +17,8 @@ Overview of the Windows Imaging Component technology.
 
 To develop Windows Imaging Component, you need these headers:
 
- * [wincodec.h](..\wincodec\index.md)
- * [wincodecsdk.h](..\wincodecsdk\index.md)
+ * [wincodec.h](../wincodec/index.md)
+ * [wincodecsdk.h](../wincodecsdk/index.md)
 
 For the programming guide, see [Windows Imaging Component](/windows/desktop/wic).
 

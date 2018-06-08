@@ -18,6 +18,6 @@ Overview of the Multicast Address Dynamic Client Allocation Protocol (MADCAP) te
 
 To develop Multicast Address Dynamic Client Allocation Protocol (MADCAP), you need these headers:
 
- * [madcapcl.h](..\madcapcl\index.md)
+ * [madcapcl.h](../madcapcl/index.md)
 
 For the programming guide, see [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](/previous-versions/windows/desktop/madcap).

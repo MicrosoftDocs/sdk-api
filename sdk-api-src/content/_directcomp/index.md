@@ -17,9 +17,9 @@ Overview of the DirectComposition technology.
 
 To develop DirectComposition, you need these headers:
 
- * [dcomp.h](..\dcomp\index.md)
- * [dcompanimation.h](..\dcompanimation\index.md)
- * [dcomptypes.h](..\dcomptypes\index.md)
+ * [dcomp.h](../dcomp/index.md)
+ * [dcompanimation.h](../dcompanimation/index.md)
+ * [dcomptypes.h](../dcomptypes/index.md)
 
 For the programming guide, see [DirectComposition](/windows/desktop/directcomp).
 

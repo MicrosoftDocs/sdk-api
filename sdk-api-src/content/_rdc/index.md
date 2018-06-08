@@ -18,6 +18,6 @@ Overview of the Remote Differential Compression technology.
 
 To develop Remote Differential Compression, you need these headers:
 
- * [msrdc.h](..\msrdc\index.md)
+ * [msrdc.h](../msrdc/index.md)
 
 For the programming guide, see [Remote Differential Compression](/previous-versions/windows/desktop/rdc).

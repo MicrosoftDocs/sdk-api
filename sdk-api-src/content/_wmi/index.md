@@ -17,17 +17,17 @@ Overview of the Windows Management Instrumentation technology.
 
 To develop Windows Management Instrumentation, you need these headers:
 
- * [chptrarr.h](..\chptrarr\index.md)
- * [chstrarr.h](..\chstrarr\index.md)
- * [chstring.h](..\chstring\index.md)
- * [frquery.h](..\frquery\index.md)
- * [methodco.h](..\methodco\index.md)
- * [objpath.h](..\objpath\index.md)
- * [refptrco.h](..\refptrco\index.md)
- * [thrdbase.h](..\thrdbase\index.md)
- * [wbemdisp.h](..\wbemdisp\index.md)
- * [wbemglue.h](..\wbemglue\index.md)
- * [wbemprov.h](..\wbemprov\index.md)
- * [wbemtime.h](..\wbemtime\index.md)
+ * [chptrarr.h](../chptrarr/index.md)
+ * [chstrarr.h](../chstrarr/index.md)
+ * [chstring.h](../chstring/index.md)
+ * [frquery.h](../frquery/index.md)
+ * [methodco.h](../methodco/index.md)
+ * [objpath.h](../objpath/index.md)
+ * [refptrco.h](../refptrco/index.md)
+ * [thrdbase.h](../thrdbase/index.md)
+ * [wbemdisp.h](../wbemdisp/index.md)
+ * [wbemglue.h](../wbemglue/index.md)
+ * [wbemprov.h](../wbemprov/index.md)
+ * [wbemtime.h](../wbemtime/index.md)
 
 For the programming guide, see [Windows Management Instrumentation](/windows/desktop/wmi).

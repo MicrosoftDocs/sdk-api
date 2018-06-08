@@ -17,10 +17,10 @@ Overview of the Human Interface Devices Reference technology.
 
 To develop Human Interface Devices Reference, you need these headers:
 
- * [dinput.h](..\dinput\index.md)
- * [dinputd.h](..\dinputd\index.md)
- * [ntddkbd.h](..\ntddkbd\index.md)
- * [ntddmou.h](..\ntddmou\index.md)
+ * [dinput.h](../dinput/index.md)
+ * [dinputd.h](../dinputd/index.md)
+ * [ntddkbd.h](../ntddkbd/index.md)
+ * [ntddmou.h](../ntddmou/index.md)
 
 For the programming guide, see [Human Interface Devices Reference](/windows/desktop/hid).
 

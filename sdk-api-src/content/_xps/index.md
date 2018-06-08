@@ -17,11 +17,11 @@ Overview of the Xps technology.
 
 To develop Xps, you need these headers:
 
- * [documenttarget.h](..\documenttarget\index.md)
- * [xpsdigitalsignature.h](..\xpsdigitalsignature\index.md)
- * [xpsobjectmodel.h](..\xpsobjectmodel\index.md)
- * [xpsobjectmodel_1.h](..\xpsobjectmodel_1\index.md)
- * [xpsobjectmodel_2.h](..\xpsobjectmodel_2\index.md)
- * [xpsprint.h](..\xpsprint\index.md)
+ * [documenttarget.h](../documenttarget/index.md)
+ * [xpsdigitalsignature.h](../xpsdigitalsignature/index.md)
+ * [xpsobjectmodel.h](../xpsobjectmodel/index.md)
+ * [xpsobjectmodel_1.h](../xpsobjectmodel_1/index.md)
+ * [xpsobjectmodel_2.h](../xpsobjectmodel_2/index.md)
+ * [xpsprint.h](../xpsprint/index.md)
 
 

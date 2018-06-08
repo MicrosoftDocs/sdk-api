@@ -18,6 +18,6 @@ Overview of the Debugging and authoring support technology.
 
 To develop Debugging and authoring support, you need these headers:
 
- * [webapplication.h](..\webapplication\index.md)
+ * [webapplication.h](../webapplication/index.md)
 
 For the programming guide, see [Debugging and authoring support](/previous-versions/windows/desktop/debug).

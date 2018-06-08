@@ -18,6 +18,6 @@ Overview of the OOBE APIs for setup state and notification technology.
 
 To develop OOBE APIs for setup state and notification, you need these headers:
 
- * [oobenotification.h](..\oobenotification\index.md)
+ * [oobenotification.h](../oobenotification/index.md)
 
 For the programming guide, see [OOBE APIs for setup state and notification](/previous-versions/windows/desktop/windowssetupandmigration).

@@ -17,7 +17,7 @@ Overview of the Windows Ribbon Framework technology.
 
 To develop Windows Ribbon Framework, you need these headers:
 
- * [uiribbon.h](..\uiribbon\index.md)
+ * [uiribbon.h](../uiribbon/index.md)
 
 For the programming guide, see [Windows Ribbon Framework](/windows/desktop/windowsribbon).
 

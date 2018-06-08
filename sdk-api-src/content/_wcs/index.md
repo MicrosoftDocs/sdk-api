@@ -18,6 +18,6 @@ Overview of the Windows Color System technology.
 
 To develop Windows Color System, you need these headers:
 
- * [wcsplugin.h](..\wcsplugin\index.md)
+ * [wcsplugin.h](../wcsplugin/index.md)
 
 For the programming guide, see [Windows Color System](/previous-versions/windows/desktop/wcs).

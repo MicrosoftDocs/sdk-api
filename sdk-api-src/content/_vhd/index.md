@@ -17,6 +17,6 @@ Overview of the Vhd technology.
 
 To develop Vhd, you need these headers:
 
- * [virtdisk.h](..\virtdisk\index.md)
+ * [virtdisk.h](../virtdisk/index.md)
 
 

@@ -17,7 +17,7 @@ Overview of the HLSL technology.
 
 To develop HLSL, you need these headers:
 
- * [d3dcompiler.h](..\d3dcompiler\index.md)
+ * [d3dcompiler.h](../d3dcompiler/index.md)
 
 For the programming guide, see [HLSL](/windows/desktop/direct3dhlsl).
 

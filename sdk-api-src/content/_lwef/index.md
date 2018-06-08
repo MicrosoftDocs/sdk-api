@@ -17,14 +17,14 @@ Overview of the Legacy Windows Environment Features technology.
 
 To develop Legacy Windows Environment Features, you need these headers:
 
- * [emptyvc.h](..\emptyvc\index.md)
- * [mmcobj.h](..\mmcobj\index.md)
- * [provider.h](..\provider\index.md)
- * [searchapi.h](..\searchapi\index.md)
- * [shldisp.h](..\shldisp\index.md)
- * [shlobj_core.h](..\shlobj_core\index.md)
- * [windowsdefender.h](..\windowsdefender\index.md)
- * [wmiutils.h](..\wmiutils\index.md)
+ * [emptyvc.h](../emptyvc/index.md)
+ * [mmcobj.h](../mmcobj/index.md)
+ * [provider.h](../provider/index.md)
+ * [searchapi.h](../searchapi/index.md)
+ * [shldisp.h](../shldisp/index.md)
+ * [shlobj_core.h](../shlobj_core/index.md)
+ * [windowsdefender.h](../windowsdefender/index.md)
+ * [wmiutils.h](../wmiutils/index.md)
 
 For the programming guide, see [Legacy Windows Environment Features](/windows/desktop/lwef).
 

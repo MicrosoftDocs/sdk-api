@@ -17,7 +17,7 @@ Overview of the COM+ (Component Services) technology.
 
 To develop COM+ (Component Services), you need these headers:
 
- * [comadmin.h](..\comadmin\index.md)
- * [mtxdm.h](..\mtxdm\index.md)
+ * [comadmin.h](../comadmin/index.md)
+ * [mtxdm.h](../mtxdm/index.md)
 
 For the programming guide, see [COM+ (Component Services)](/windows/desktop/cos).

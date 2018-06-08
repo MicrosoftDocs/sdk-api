@@ -17,7 +17,7 @@ Overview of the Backup technology.
 
 To develop Backup, you need these headers:
 
- * [winbase.h](..\winbase\index.md)
- * [winnt.h](..\winnt\index.md)
+ * [winbase.h](../winbase/index.md)
+ * [winnt.h](../winnt/index.md)
 
 For the programming guide, see [Backup](/windows/desktop/backup).

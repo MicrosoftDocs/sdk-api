@@ -17,7 +17,7 @@ Overview of the Desktop Window Manager (DWM) technology.
 
 To develop Desktop Window Manager (DWM), you need these headers:
 
- * [dwmapi.h](..\dwmapi\index.md)
+ * [dwmapi.h](../dwmapi/index.md)
 
 For the programming guide, see [Desktop Window Manager (DWM)](/windows/desktop/dwm).
 

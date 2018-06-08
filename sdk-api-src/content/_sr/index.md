@@ -17,7 +17,7 @@ Overview of the System Restore technology.
 
 To develop System Restore, you need these headers:
 
- * [srrestoreptapi.h](..\srrestoreptapi\index.md)
+ * [srrestoreptapi.h](../srrestoreptapi/index.md)
 
 For the programming guide, see [System Restore](/windows/desktop/sr).
 

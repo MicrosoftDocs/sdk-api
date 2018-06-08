@@ -17,7 +17,7 @@ Overview of the DirectDraw technology.
 
 To develop DirectDraw, you need these headers:
 
- * [ddraw.h](..\ddraw\index.md)
+ * [ddraw.h](../ddraw/index.md)
 
 For the programming guide, see [DirectDraw](/windows/desktop/directdraw).
 

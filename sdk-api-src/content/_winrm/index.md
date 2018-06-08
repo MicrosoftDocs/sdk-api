@@ -17,7 +17,7 @@ Overview of the Windows Remote Management technology.
 
 To develop Windows Remote Management, you need these headers:
 
- * [wsman.h](..\wsman\index.md)
- * [wsmandisp.h](..\wsmandisp\index.md)
+ * [wsman.h](../wsman/index.md)
+ * [wsmandisp.h](../wsmandisp/index.md)
 
 For the programming guide, see [Windows Remote Management](/windows/desktop/winrm).

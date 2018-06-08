@@ -18,7 +18,7 @@ Overview of the Extensible Authentication Protocol technology.
 
 To develop Extensible Authentication Protocol, you need these headers:
 
- * [raseapif.h](..\raseapif\index.md)
- * [rrascfg.h](..\rrascfg\index.md)
+ * [raseapif.h](../raseapif/index.md)
+ * [rrascfg.h](../rrascfg/index.md)
 
 For the programming guide, see [Extensible Authentication Protocol](/previous-versions/windows/desktop/eap).

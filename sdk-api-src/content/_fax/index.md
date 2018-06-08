@@ -18,12 +18,12 @@ Overview of the Fax Service technology.
 
 To develop Fax Service, you need these headers:
 
- * [faxcom.h](..\faxcom\index.md)
- * [faxcomex.h](..\faxcomex\index.md)
- * [faxdev.h](..\faxdev\index.md)
- * [faxext.h](..\faxext\index.md)
- * [faxroute.h](..\faxroute\index.md)
- * [fxsutility.h](..\fxsutility\index.md)
- * [winfax.h](..\winfax\index.md)
+ * [faxcom.h](../faxcom/index.md)
+ * [faxcomex.h](../faxcomex/index.md)
+ * [faxdev.h](../faxdev/index.md)
+ * [faxext.h](../faxext/index.md)
+ * [faxroute.h](../faxroute/index.md)
+ * [fxsutility.h](../fxsutility/index.md)
+ * [winfax.h](../winfax/index.md)
 
 For the programming guide, see [Fax Service](/previous-versions/windows/desktop/fax).

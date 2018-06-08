@@ -17,13 +17,13 @@ Overview of the Windows GDI technology.
 
 To develop Windows GDI, you need these headers:
 
- * [fontsub.h](..\fontsub\index.md)
- * [mmsystem.h](..\mmsystem\index.md)
- * [prnasnot.h](..\prnasnot\index.md)
- * [prntvpt.h](..\prntvpt\index.md)
- * [t2embapi.h](..\t2embapi\index.md)
- * [tvout.h](..\tvout\index.md)
- * [windef.h](..\windef\index.md)
+ * [fontsub.h](../fontsub/index.md)
+ * [mmsystem.h](../mmsystem/index.md)
+ * [prnasnot.h](../prnasnot/index.md)
+ * [prntvpt.h](../prntvpt/index.md)
+ * [t2embapi.h](../t2embapi/index.md)
+ * [tvout.h](../tvout/index.md)
+ * [windef.h](../windef/index.md)
 
 For the programming guide, see [Windows GDI](/windows/desktop/gdi).
 

@@ -17,7 +17,7 @@ Overview of the Wua technology.
 
 To develop Wua, you need these headers:
 
- * [wuapi.h](..\wuapi\index.md)
- * [wuapicommon.h](..\wuapicommon\index.md)
+ * [wuapi.h](../wuapi/index.md)
+ * [wuapicommon.h](../wuapicommon/index.md)
 
 

@@ -17,6 +17,6 @@ Overview of the Picture Acquisition technology.
 
 To develop Picture Acquisition, you need these headers:
 
- * [photoacquire.h](..\photoacquire\index.md)
+ * [photoacquire.h](../photoacquire/index.md)
 
 For the programming guide, see [Picture Acquisition](/windows/desktop/picacq).

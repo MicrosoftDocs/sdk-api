@@ -17,7 +17,7 @@ Overview of the WIA technology.
 
 To develop WIA, you need these headers:
 
- * [wiavideo.h](..\wiavideo\index.md)
+ * [wiavideo.h](../wiavideo/index.md)
 
 For the programming guide, see [WIA](/windows/desktop/wia).
 

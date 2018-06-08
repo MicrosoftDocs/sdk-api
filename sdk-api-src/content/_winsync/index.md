@@ -18,8 +18,8 @@ Overview of the Windows Sync technology.
 
 To develop Windows Sync, you need these headers:
 
- * [syncregistration.h](..\syncregistration\index.md)
- * [winsync.h](..\winsync\index.md)
+ * [syncregistration.h](../syncregistration/index.md)
+ * [winsync.h](../winsync/index.md)
 
 For the programming guide, see [Windows Sync](/previous-versions/windows/desktop/winsync).
 

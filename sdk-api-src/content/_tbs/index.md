@@ -17,6 +17,6 @@ Overview of the TPM Base Services technology.
 
 To develop TPM Base Services, you need these headers:
 
- * [tbs.h](..\tbs\index.md)
+ * [tbs.h](../tbs/index.md)
 
 For the programming guide, see [TPM Base Services](/windows/desktop/tbs).

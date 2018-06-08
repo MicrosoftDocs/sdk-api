@@ -17,8 +17,8 @@ Overview of the Monitor Configuration technology.
 
 To develop Monitor Configuration, you need these headers:
 
- * [highlevelmonitorconfigurationapi.h](..\highlevelmonitorconfigurationapi\index.md)
- * [lowlevelmonitorconfigurationapi.h](..\lowlevelmonitorconfigurationapi\index.md)
- * [physicalmonitorenumerationapi.h](..\physicalmonitorenumerationapi\index.md)
+ * [highlevelmonitorconfigurationapi.h](../highlevelmonitorconfigurationapi/index.md)
+ * [lowlevelmonitorconfigurationapi.h](../lowlevelmonitorconfigurationapi/index.md)
+ * [physicalmonitorenumerationapi.h](../physicalmonitorenumerationapi/index.md)
 
 For the programming guide, see [Monitor Configuration](/windows/desktop/monitor).

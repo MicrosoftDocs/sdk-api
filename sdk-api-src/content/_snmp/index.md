@@ -17,8 +17,8 @@ Overview of the Simple Network Management Protocol technology.
 
 To develop Simple Network Management Protocol, you need these headers:
 
- * [mgmtapi.h](..\mgmtapi\index.md)
- * [snmp.h](..\snmp\index.md)
- * [winsnmp.h](..\winsnmp\index.md)
+ * [mgmtapi.h](../mgmtapi/index.md)
+ * [snmp.h](../snmp/index.md)
+ * [winsnmp.h](../winsnmp/index.md)
 
 For the programming guide, see [Simple Network Management Protocol](/windows/desktop/snmp).

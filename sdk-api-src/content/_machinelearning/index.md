@@ -17,6 +17,6 @@ Overview of the Windows Machine Learning technology.
 
 To develop Windows Machine Learning, you need these headers:
 
- * [winml.h](..\winml\index.md)
+ * [winml.h](../winml/index.md)
 
 For the programming guide, see [Windows Machine Learning](/windows/desktop/machinelearning).

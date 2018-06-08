@@ -17,7 +17,7 @@ Overview of the Windows HTTP Services (WinHTTP) technology.
 
 To develop Windows HTTP Services (WinHTTP), you need these headers:
 
- * [http.h](..\http\index.md)
- * [winhttp.h](..\winhttp\index.md)
+ * [http.h](../http/index.md)
+ * [winhttp.h](../winhttp/index.md)
 
 For the programming guide, see [Windows HTTP Services (WinHTTP)](/windows/desktop/http).

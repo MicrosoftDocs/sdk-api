@@ -18,10 +18,10 @@ Overview of the Windows Clustering technology.
 
 To develop Windows Clustering, you need these headers:
 
- * [cluadmex.h](..\cluadmex\index.md)
- * [clusapi.h](..\clusapi\index.md)
- * [msclus.h](..\msclus\index.md)
- * [resapi.h](..\resapi\index.md)
- * [smbclnt.h](..\smbclnt\index.md)
+ * [cluadmex.h](../cluadmex/index.md)
+ * [clusapi.h](../clusapi/index.md)
+ * [msclus.h](../msclus/index.md)
+ * [resapi.h](../resapi/index.md)
+ * [smbclnt.h](../smbclnt/index.md)
 
 For the programming guide, see [Windows Clustering](/previous-versions/windows/desktop/mscs).

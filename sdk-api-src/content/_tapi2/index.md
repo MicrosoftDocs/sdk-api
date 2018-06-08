@@ -17,6 +17,6 @@ Overview of the Tapi2 technology.
 
 To develop Tapi2, you need these headers:
 
- * [tapi.h](..\tapi\index.md)
+ * [tapi.h](../tapi/index.md)
 
 

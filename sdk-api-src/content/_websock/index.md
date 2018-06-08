@@ -17,6 +17,6 @@ Overview of the WebSocket Protocol Component API technology.
 
 To develop WebSocket Protocol Component API, you need these headers:
 
- * [websocket.h](..\websocket\index.md)
+ * [websocket.h](../websocket/index.md)
 
 For the programming guide, see [WebSocket Protocol Component API](/windows/desktop/websock).

@@ -17,12 +17,12 @@ Overview of the Remote Procedure Call (RPC) technology.
 
 To develop Remote Procedure Call (RPC), you need these headers:
 
- * [midles.h](..\midles\index.md)
- * [rpc.h](..\rpc\index.md)
- * [rpcasync.h](..\rpcasync\index.md)
- * [rpcdcep.h](..\rpcdcep\index.md)
- * [rpcnsi.h](..\rpcnsi\index.md)
- * [rpcproxy.h](..\rpcproxy\index.md)
- * [rpcssl.h](..\rpcssl\index.md)
+ * [midles.h](../midles/index.md)
+ * [rpc.h](../rpc/index.md)
+ * [rpcasync.h](../rpcasync/index.md)
+ * [rpcdcep.h](../rpcdcep/index.md)
+ * [rpcnsi.h](../rpcnsi/index.md)
+ * [rpcproxy.h](../rpcproxy/index.md)
+ * [rpcssl.h](../rpcssl/index.md)
 
 For the programming guide, see [Remote Procedure Call (RPC)](/windows/desktop/rpc).

@@ -18,4 +18,4 @@ tech.root: kernel
 
 This header is used by kernel. For more information, see:
 
-- [<built-in method title of str object at 0x0000022CFFF241F0>](../_kernel/index.md)
+- [<built-in method title of str object at 0x000002D601714180>](../_kernel/index.md)

@@ -18,7 +18,7 @@ Overview of the Windows Messaging (MAPI) technology.
 
 To develop Windows Messaging (MAPI), you need these headers:
 
- * [mapi.h](..\mapi\index.md)
- * [mapiunicodehelp.h](..\mapiunicodehelp\index.md)
+ * [mapi.h](../mapi/index.md)
+ * [mapiunicodehelp.h](../mapiunicodehelp/index.md)
 
 For the programming guide, see [Windows Messaging (MAPI)](/previous-versions/windows/desktop/mapi).

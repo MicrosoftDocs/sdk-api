@@ -17,8 +17,8 @@ Overview of the Native Wifi technology.
 
 To develop Native Wifi, you need these headers:
 
- * [adhoc.h](..\adhoc\index.md)
- * [dot1x.h](..\dot1x\index.md)
- * [wlanapi.h](..\wlanapi\index.md)
+ * [adhoc.h](../adhoc/index.md)
+ * [dot1x.h](../dot1x/index.md)
+ * [wlanapi.h](../wlanapi/index.md)
 
 For the programming guide, see [Native Wifi](/windows/desktop/nwifi).

@@ -17,7 +17,7 @@ Overview of the Power Metering and Budgeting Reference technology.
 
 To develop Power Metering and Budgeting Reference, you need these headers:
 
- * [emi.h](..\emi\index.md)
+ * [emi.h](../emi/index.md)
 
 For the programming guide, see [Power Metering and Budgeting Reference](/windows/desktop/powermeter).
 

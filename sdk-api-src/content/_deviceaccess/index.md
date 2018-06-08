@@ -18,7 +18,7 @@ Overview of the Device Access API technology.
 
 To develop Device Access API, you need these headers:
 
- * [deviceaccess.h](..\deviceaccess\index.md)
+ * [deviceaccess.h](../deviceaccess/index.md)
 
 For the programming guide, see [Device Access API](/previous-versions/windows/desktop/deviceaccess).
 

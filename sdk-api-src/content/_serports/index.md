@@ -17,7 +17,7 @@ Overview of the Serial Controller Driver Reference technology.
 
 To develop Serial Controller Driver Reference, you need these headers:
 
- * [msports.h](..\msports\index.md)
+ * [msports.h](../msports/index.md)
 
 For the programming guide, see [Serial Controller Driver Reference](/windows/desktop/serports).
 

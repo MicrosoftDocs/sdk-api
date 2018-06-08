@@ -18,6 +18,6 @@ Overview of the Interaction Context technology.
 
 To develop Interaction Context, you need these headers:
 
- * [interactioncontext.h](..\interactioncontext\index.md)
+ * [interactioncontext.h](../interactioncontext/index.md)
 
 For the programming guide, see [Interaction Context](/previous-versions/windows/desktop/input_intcontext).

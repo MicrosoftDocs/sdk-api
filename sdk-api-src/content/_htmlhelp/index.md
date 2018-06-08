@@ -18,8 +18,8 @@ Overview of the Microsoft HTML Help 1.4 technology.
 
 To develop Microsoft HTML Help 1.4, you need these headers:
 
- * [htmlhelp.h](..\htmlhelp\index.md)
- * [infotech.h](..\infotech\index.md)
+ * [htmlhelp.h](../htmlhelp/index.md)
+ * [infotech.h](../infotech/index.md)
 
 For the programming guide, see [Microsoft HTML Help 1.4](/previous-versions/windows/desktop/htmlhelp).
 

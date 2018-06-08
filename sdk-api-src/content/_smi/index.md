@@ -18,6 +18,6 @@ Overview of the Settings Management Infrastructure (SMI) technology.
 
 To develop Settings Management Infrastructure (SMI), you need these headers:
 
- * [wcmconfig.h](..\wcmconfig\index.md)
+ * [wcmconfig.h](../wcmconfig/index.md)
 
 For the programming guide, see [Settings Management Infrastructure (SMI)](/previous-versions/windows/desktop/smi).

@@ -17,7 +17,7 @@ Overview of the Touch Input technology.
 
 To develop Touch Input, you need these headers:
 
- * [manipulations.h](..\manipulations\index.md)
+ * [manipulations.h](../manipulations/index.md)
 
 For the programming guide, see [Touch Input](/windows/desktop/wintouch).
 

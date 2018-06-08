@@ -17,6 +17,6 @@ Overview of the Tool Help Library technology.
 
 To develop Tool Help Library, you need these headers:
 
- * [tlhelp32.h](..\tlhelp32\index.md)
+ * [tlhelp32.h](../tlhelp32/index.md)
 
 For the programming guide, see [Tool Help Library](/windows/desktop/toolhelp).

@@ -17,18 +17,18 @@ Overview of the Other Devices Technologies technology.
 
 To develop Other Devices Technologies, you need these headers:
 
- * [functiondiscoveryapi.h](..\functiondiscoveryapi\index.md)
- * [functiondiscoveryconstraints.h](..\functiondiscoveryconstraints\index.md)
- * [functiondiscoveryprovider.h](..\functiondiscoveryprovider\index.md)
- * [pnpxassoc.h](..\pnpxassoc\index.md)
- * [wsdattachment.h](..\wsdattachment\index.md)
- * [wsdbase.h](..\wsdbase\index.md)
- * [wsdclient.h](..\wsdclient\index.md)
- * [wsddisco.h](..\wsddisco\index.md)
- * [wsdhost.h](..\wsdhost\index.md)
- * [wsdtypes.h](..\wsdtypes\index.md)
- * [wsdutil.h](..\wsdutil\index.md)
- * [wsdxml.h](..\wsdxml\index.md)
- * [wsdxmldom.h](..\wsdxmldom\index.md)
+ * [functiondiscoveryapi.h](../functiondiscoveryapi/index.md)
+ * [functiondiscoveryconstraints.h](../functiondiscoveryconstraints/index.md)
+ * [functiondiscoveryprovider.h](../functiondiscoveryprovider/index.md)
+ * [pnpxassoc.h](../pnpxassoc/index.md)
+ * [wsdattachment.h](../wsdattachment/index.md)
+ * [wsdbase.h](../wsdbase/index.md)
+ * [wsdclient.h](../wsdclient/index.md)
+ * [wsddisco.h](../wsddisco/index.md)
+ * [wsdhost.h](../wsdhost/index.md)
+ * [wsdtypes.h](../wsdtypes/index.md)
+ * [wsdutil.h](../wsdutil/index.md)
+ * [wsdxml.h](../wsdxml/index.md)
+ * [wsdxmldom.h](../wsdxmldom/index.md)
 
 For the programming guide, see [Other Devices Technologies](/windows/desktop/ncd).

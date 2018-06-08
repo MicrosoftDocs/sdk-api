@@ -17,13 +17,13 @@ Overview of the Windows Media Format 11 SDK technology.
 
 To develop Windows Media Format 11 SDK, you need these headers:
 
- * [wmdxva.h](..\wmdxva\index.md)
- * [wmnetsourcecreator.h](..\wmnetsourcecreator\index.md)
- * [wmsbuffer.h](..\wmsbuffer\index.md)
- * [wmsdkidl.h](..\wmsdkidl\index.md)
- * [wmsdkvalidate.h](..\wmsdkvalidate\index.md)
- * [wmsecure.h](..\wmsecure\index.md)
- * [wmsinternaladminnetsource.h](..\wmsinternaladminnetsource\index.md)
+ * [wmdxva.h](../wmdxva/index.md)
+ * [wmnetsourcecreator.h](../wmnetsourcecreator/index.md)
+ * [wmsbuffer.h](../wmsbuffer/index.md)
+ * [wmsdkidl.h](../wmsdkidl/index.md)
+ * [wmsdkvalidate.h](../wmsdkvalidate/index.md)
+ * [wmsecure.h](../wmsecure/index.md)
+ * [wmsinternaladminnetsource.h](../wmsinternaladminnetsource/index.md)
 
 For the programming guide, see [Windows Media Format 11 SDK](/windows/desktop/wmformat).
 

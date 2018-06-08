@@ -18,9 +18,9 @@ Overview of the Windows Address Book technology.
 
 To develop Windows Address Book, you need these headers:
 
- * [wabapi.h](..\wabapi\index.md)
- * [wabdefs.h](..\wabdefs\index.md)
- * [wabtags.h](..\wabtags\index.md)
+ * [wabapi.h](../wabapi/index.md)
+ * [wabdefs.h](../wabdefs/index.md)
+ * [wabtags.h](../wabtags/index.md)
 
 For the programming guide, see [Windows Address Book](/previous-versions/windows/desktop/wab).
 

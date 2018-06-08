@@ -18,7 +18,7 @@ Overview of the XAML Diagnostics technology.
 
 To develop XAML Diagnostics, you need these headers:
 
- * [xamlom.h](..\xamlom\index.md)
+ * [xamlom.h](../xamlom/index.md)
 
 For the programming guide, see [XAML Diagnostics](/previous-versions/windows/desktop/xaml_diagnostics).
 

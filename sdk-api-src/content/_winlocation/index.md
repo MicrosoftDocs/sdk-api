@@ -17,6 +17,6 @@ Overview of the Location API technology.
 
 To develop Location API, you need these headers:
 
- * [locationapi.h](..\locationapi\index.md)
+ * [locationapi.h](../locationapi/index.md)
 
 For the programming guide, see [Location API](/windows/desktop/winlocation).

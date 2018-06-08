@@ -17,6 +17,6 @@ Overview of the Active Directory Service Interfaces technology.
 
 To develop Active Directory Service Interfaces, you need these headers:
 
- * [adshlp.h](..\adshlp\index.md)
+ * [adshlp.h](../adshlp/index.md)
 
 For the programming guide, see [Active Directory Service Interfaces](/windows/desktop/adsi).

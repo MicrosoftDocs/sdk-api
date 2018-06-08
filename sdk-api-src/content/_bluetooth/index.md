@@ -17,9 +17,9 @@ Overview of the Bluetooth technology.
 
 To develop Bluetooth, you need these headers:
 
- * [bluetoothapis.h](..\bluetoothapis\index.md)
- * [bthdef.h](..\bthdef\index.md)
- * [bthsdpdef.h](..\bthsdpdef\index.md)
- * [ws2bth.h](..\ws2bth\index.md)
+ * [bluetoothapis.h](../bluetoothapis/index.md)
+ * [bthdef.h](../bthdef/index.md)
+ * [bthsdpdef.h](../bthsdpdef/index.md)
+ * [ws2bth.h](../ws2bth/index.md)
 
 For the programming guide, see [Bluetooth](/windows/desktop/bluetooth).

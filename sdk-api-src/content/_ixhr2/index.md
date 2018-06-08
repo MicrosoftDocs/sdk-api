@@ -18,7 +18,7 @@ Overview of the XML HTTP Extended Request technology.
 
 To develop XML HTTP Extended Request, you need these headers:
 
- * [msxml6.h](..\msxml6\index.md)
+ * [msxml6.h](../msxml6/index.md)
 
 For the programming guide, see [XML HTTP Extended Request](/previous-versions/windows/desktop/ixhr2).
 

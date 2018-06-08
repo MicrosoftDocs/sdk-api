@@ -17,7 +17,7 @@ Overview of the Installable file systems DDI reference technology.
 
 To develop Installable file systems DDI reference, you need these headers:
 
- * [fltuser.h](..\fltuser\index.md)
+ * [fltuser.h](../fltuser/index.md)
 
 For the programming guide, see [Installable file systems DDI reference](/windows/desktop/ifsk).
 

@@ -17,8 +17,8 @@ Overview of the Network Diagnostics Framework technology.
 
 To develop Network Diagnostics Framework, you need these headers:
 
- * [ndattrib.h](..\ndattrib\index.md)
- * [ndfapi.h](..\ndfapi\index.md)
- * [ndhelper.h](..\ndhelper\index.md)
+ * [ndattrib.h](../ndattrib/index.md)
+ * [ndfapi.h](../ndfapi/index.md)
+ * [ndhelper.h](../ndhelper/index.md)
 
 For the programming guide, see [Network Diagnostics Framework](/windows/desktop/ndf).

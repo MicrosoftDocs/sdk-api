@@ -17,8 +17,8 @@ Overview of the Parental Controls technology.
 
 To develop Parental Controls, you need these headers:
 
- * [wpcapi.h](..\wpcapi\index.md)
- * [wpcevent.h](..\wpcevent\index.md)
+ * [wpcapi.h](../wpcapi/index.md)
+ * [wpcevent.h](../wpcevent/index.md)
 
 For the programming guide, see [Parental Controls](/windows/desktop/parcon).
 

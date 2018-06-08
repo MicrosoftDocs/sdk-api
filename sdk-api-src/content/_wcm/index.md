@@ -17,7 +17,7 @@ Overview of the Windows Connection Manager technology.
 
 To develop Windows Connection Manager, you need these headers:
 
- * [wcmapi.h](..\wcmapi\index.md)
+ * [wcmapi.h](../wcmapi/index.md)
 
 For the programming guide, see [Windows Connection Manager](/windows/desktop/wcm).
 

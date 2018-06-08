@@ -17,7 +17,7 @@ Overview of the System Event Notification Service technology.
 
 To develop System Event Notification Service, you need these headers:
 
- * [sensapi.h](..\sensapi\index.md)
- * [sensevts.h](..\sensevts\index.md)
+ * [sensapi.h](../sensapi/index.md)
+ * [sensevts.h](../sensevts/index.md)
 
 For the programming guide, see [System Event Notification Service](/windows/desktop/sens).

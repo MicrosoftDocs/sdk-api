@@ -17,17 +17,17 @@ Overview of the Windows Controls technology.
 
 To develop Windows Controls, you need these headers:
 
- * [commctrl.h](..\commctrl\index.md)
- * [commoncontrols.h](..\commoncontrols\index.md)
- * [dpa_dsa.h](..\dpa_dsa\index.md)
- * [prsht.h](..\prsht\index.md)
- * [richedit.h](..\richedit\index.md)
- * [richole.h](..\richole\index.md)
- * [shlobj.h](..\shlobj\index.md)
- * [textserv.h](..\textserv\index.md)
- * [tom.h](..\tom\index.md)
- * [uxtheme.h](..\uxtheme\index.md)
- * [windowsx.h](..\windowsx\index.md)
- * [winuser.h](..\winuser\index.md)
+ * [commctrl.h](../commctrl/index.md)
+ * [commoncontrols.h](../commoncontrols/index.md)
+ * [dpa_dsa.h](../dpa_dsa/index.md)
+ * [prsht.h](../prsht/index.md)
+ * [richedit.h](../richedit/index.md)
+ * [richole.h](../richole/index.md)
+ * [shlobj.h](../shlobj/index.md)
+ * [textserv.h](../textserv/index.md)
+ * [tom.h](../tom/index.md)
+ * [uxtheme.h](../uxtheme/index.md)
+ * [windowsx.h](../windowsx/index.md)
+ * [winuser.h](../winuser/index.md)
 
 For the programming guide, see [Windows Controls](/windows/desktop/controls).

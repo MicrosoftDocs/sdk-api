@@ -17,13 +17,13 @@ Overview of the XAudio2 APIs technology.
 
 To develop XAudio2 APIs, you need these headers:
 
- * [hrtfapoapi.h](..\hrtfapoapi\index.md)
- * [x3daudio.h](..\x3daudio\index.md)
- * [xapo.h](..\xapo\index.md)
- * [xapobase.h](..\xapobase\index.md)
- * [xapofx.h](..\xapofx\index.md)
- * [xaudio2.h](..\xaudio2\index.md)
- * [xaudio2fx.h](..\xaudio2fx\index.md)
+ * [hrtfapoapi.h](../hrtfapoapi/index.md)
+ * [x3daudio.h](../x3daudio/index.md)
+ * [xapo.h](../xapo/index.md)
+ * [xapobase.h](../xapobase/index.md)
+ * [xapofx.h](../xapofx/index.md)
+ * [xaudio2.h](../xaudio2/index.md)
+ * [xaudio2fx.h](../xaudio2fx/index.md)
 
 For the programming guide, see [XAudio2 APIs](/windows/desktop/xaudio2).
 

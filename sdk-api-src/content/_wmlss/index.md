@@ -18,6 +18,6 @@ Overview of the Windows Media Library Sharing Services technology.
 
 To develop Windows Media Library Sharing Services, you need these headers:
 
- * [wmlss.h](..\wmlss\index.md)
+ * [wmlss.h](../wmlss/index.md)
 
 For the programming guide, see [Windows Media Library Sharing Services](/previous-versions/windows/desktop/wmlss).

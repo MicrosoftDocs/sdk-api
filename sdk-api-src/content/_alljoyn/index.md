@@ -18,7 +18,7 @@ Overview of the AllJoyn API technology.
 
 To develop AllJoyn API, you need these headers:
 
- * [msajtransport.h](..\msajtransport\index.md)
- * [windows.devices.alljoyn.interop.h](..\windows.devices.alljoyn.interop\index.md)
+ * [msajtransport.h](../msajtransport/index.md)
+ * [windows.devices.alljoyn.interop.h](../windows.devices.alljoyn.interop/index.md)
 
 For the programming guide, see [AllJoyn API](/previous-versions/windows/desktop/alljoyn).

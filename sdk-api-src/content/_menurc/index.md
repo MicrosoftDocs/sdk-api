@@ -17,11 +17,11 @@ Overview of the Menus and Other Resources technology.
 
 To develop Menus and Other Resources, you need these headers:
 
- * [resourceindexer.h](..\resourceindexer\index.md)
- * [shellapi.h](..\shellapi\index.md)
- * [strsafe.h](..\strsafe\index.md)
- * [verrsrc.h](..\verrsrc\index.md)
- * [winver.h](..\winver\index.md)
+ * [resourceindexer.h](../resourceindexer/index.md)
+ * [shellapi.h](../shellapi/index.md)
+ * [strsafe.h](../strsafe/index.md)
+ * [verrsrc.h](../verrsrc/index.md)
+ * [winver.h](../winver/index.md)
 
 For the programming guide, see [Menus and Other Resources](/windows/desktop/menurc).
 

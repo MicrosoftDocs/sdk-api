@@ -17,10 +17,10 @@ Overview of the Audio Devices DDI Reference technology.
 
 To develop Audio Devices DDI Reference, you need these headers:
 
- * [audiomediatype.h](..\audiomediatype\index.md)
- * [baseaudioprocessingobject.h](..\baseaudioprocessingobject\index.md)
- * [dmusics.h](..\dmusics\index.md)
- * [msapofxproxy.h](..\msapofxproxy\index.md)
+ * [audiomediatype.h](../audiomediatype/index.md)
+ * [baseaudioprocessingobject.h](../baseaudioprocessingobject/index.md)
+ * [dmusics.h](../dmusics/index.md)
+ * [msapofxproxy.h](../msapofxproxy/index.md)
 
 For the programming guide, see [Audio Devices DDI Reference](/windows/desktop/audio).
 

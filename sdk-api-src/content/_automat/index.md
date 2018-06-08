@@ -18,11 +18,11 @@ Overview of the Automation technology.
 
 To develop Automation, you need these headers:
 
- * [oaidl.h](..\oaidl\index.md)
- * [oleauto.h](..\oleauto\index.md)
- * [olectl.h](..\olectl\index.md)
- * [wia_xp.h](..\wia_xp\index.md)
- * [wtypes.h](..\wtypes\index.md)
+ * [oaidl.h](../oaidl/index.md)
+ * [oleauto.h](../oleauto/index.md)
+ * [olectl.h](../olectl/index.md)
+ * [wia_xp.h](../wia_xp/index.md)
+ * [wtypes.h](../wtypes/index.md)
 
 For the programming guide, see [Automation](/previous-versions/windows/desktop/automat).
 

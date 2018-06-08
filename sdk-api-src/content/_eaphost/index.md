@@ -18,14 +18,14 @@ Overview of the Extensible Authentication Protocol Host technology.
 
 To develop Extensible Authentication Protocol Host, you need these headers:
 
- * [eapauthenticatoractiondefine.h](..\eapauthenticatoractiondefine\index.md)
- * [eapauthenticatortypes.h](..\eapauthenticatortypes\index.md)
- * [eaphostpeerconfigapis.h](..\eaphostpeerconfigapis\index.md)
- * [eaphostpeertypes.h](..\eaphostpeertypes\index.md)
- * [eapmethodauthenticatorapis.h](..\eapmethodauthenticatorapis\index.md)
- * [eapmethodpeerapis.h](..\eapmethodpeerapis\index.md)
- * [eapmethodtypes.h](..\eapmethodtypes\index.md)
- * [eappapis.h](..\eappapis\index.md)
- * [eaptypes.h](..\eaptypes\index.md)
+ * [eapauthenticatoractiondefine.h](../eapauthenticatoractiondefine/index.md)
+ * [eapauthenticatortypes.h](../eapauthenticatortypes/index.md)
+ * [eaphostpeerconfigapis.h](../eaphostpeerconfigapis/index.md)
+ * [eaphostpeertypes.h](../eaphostpeertypes/index.md)
+ * [eapmethodauthenticatorapis.h](../eapmethodauthenticatorapis/index.md)
+ * [eapmethodpeerapis.h](../eapmethodpeerapis/index.md)
+ * [eapmethodtypes.h](../eapmethodtypes/index.md)
+ * [eappapis.h](../eappapis/index.md)
+ * [eaptypes.h](../eaptypes/index.md)
 
 For the programming guide, see [Extensible Authentication Protocol Host](/previous-versions/windows/desktop/eaphost).

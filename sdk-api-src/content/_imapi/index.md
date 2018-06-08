@@ -17,9 +17,9 @@ Overview of the Image Mastering API technology.
 
 To develop Image Mastering API, you need these headers:
 
- * [imapi.h](..\imapi\index.md)
- * [imapi2.h](..\imapi2\index.md)
- * [imapi2fs.h](..\imapi2fs\index.md)
+ * [imapi.h](../imapi/index.md)
+ * [imapi2.h](../imapi2/index.md)
+ * [imapi2fs.h](../imapi2fs/index.md)
 
 For the programming guide, see [Image Mastering API](/windows/desktop/imapi).
 

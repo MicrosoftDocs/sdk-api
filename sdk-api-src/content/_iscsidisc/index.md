@@ -18,6 +18,6 @@ Overview of the iSCSI Discovery Library API technology.
 
 To develop iSCSI Discovery Library API, you need these headers:
 
- * [iscsidsc.h](..\iscsidsc\index.md)
+ * [iscsidsc.h](../iscsidsc/index.md)
 
 For the programming guide, see [iSCSI Discovery Library API](/previous-versions/windows/desktop/iscsidisc).

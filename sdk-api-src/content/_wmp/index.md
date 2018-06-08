@@ -17,12 +17,12 @@ Overview of the Windows Media Player SDK technology.
 
 To develop Windows Media Player SDK, you need these headers:
 
- * [contentpartner.h](..\contentpartner\index.md)
- * [effects.h](..\effects\index.md)
- * [subscriptionservices.h](..\subscriptionservices\index.md)
- * [wmpdevices.h](..\wmpdevices\index.md)
- * [wmpplug.h](..\wmpplug\index.md)
- * [wmprealestate.h](..\wmprealestate\index.md)
- * [wmpservices.h](..\wmpservices\index.md)
+ * [contentpartner.h](../contentpartner/index.md)
+ * [effects.h](../effects/index.md)
+ * [subscriptionservices.h](../subscriptionservices/index.md)
+ * [wmpdevices.h](../wmpdevices/index.md)
+ * [wmpplug.h](../wmpplug/index.md)
+ * [wmprealestate.h](../wmprealestate/index.md)
+ * [wmpservices.h](../wmpservices/index.md)
 
 For the programming guide, see [Windows Media Player SDK](/windows/desktop/wmp).

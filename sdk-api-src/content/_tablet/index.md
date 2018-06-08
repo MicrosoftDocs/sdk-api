@@ -17,16 +17,16 @@ Overview of the Tablet PC technology.
 
 To develop Tablet PC, you need these headers:
 
- * [inked.h](..\inked\index.md)
- * [micaut.h](..\micaut\index.md)
- * [msinkaut.h](..\msinkaut\index.md)
- * [msinkaut15.h](..\msinkaut15\index.md)
- * [peninputpanel.h](..\peninputpanel\index.md)
- * [recapis.h](..\recapis\index.md)
- * [rectypes.h](..\rectypes\index.md)
- * [rtscom.h](..\rtscom\index.md)
- * [tabflicks.h](..\tabflicks\index.md)
- * [tpcshrd.h](..\tpcshrd\index.md)
+ * [inked.h](../inked/index.md)
+ * [micaut.h](../micaut/index.md)
+ * [msinkaut.h](../msinkaut/index.md)
+ * [msinkaut15.h](../msinkaut15/index.md)
+ * [peninputpanel.h](../peninputpanel/index.md)
+ * [recapis.h](../recapis/index.md)
+ * [rectypes.h](../rectypes/index.md)
+ * [rtscom.h](../rtscom/index.md)
+ * [tabflicks.h](../tabflicks/index.md)
+ * [tpcshrd.h](../tpcshrd/index.md)
 
 For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 

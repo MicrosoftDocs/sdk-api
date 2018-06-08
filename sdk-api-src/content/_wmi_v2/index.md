@@ -18,7 +18,7 @@ Overview of the Windows Management Infrastructure (MI) technology.
 
 To develop Windows Management Infrastructure (MI), you need these headers:
 
- * [mi.h](..\mi\index.md)
+ * [mi.h](../mi/index.md)
 
 For the programming guide, see [Windows Management Infrastructure (MI)](/previous-versions/windows/desktop/wmi_v2).
 

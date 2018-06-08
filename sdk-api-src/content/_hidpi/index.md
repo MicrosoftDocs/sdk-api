@@ -17,7 +17,7 @@ Overview of the High DPI technology.
 
 To develop High DPI, you need these headers:
 
- * [shellscalingapi.h](..\shellscalingapi\index.md)
+ * [shellscalingapi.h](../shellscalingapi/index.md)
 
 For the programming guide, see [High DPI](/windows/desktop/hidpi).
 

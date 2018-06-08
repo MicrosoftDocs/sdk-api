@@ -17,8 +17,8 @@ Overview of the Performance Counters technology.
 
 To develop Performance Counters, you need these headers:
 
- * [pdh.h](..\pdh\index.md)
- * [perflib.h](..\perflib\index.md)
- * [winperf.h](..\winperf\index.md)
+ * [pdh.h](../pdh/index.md)
+ * [perflib.h](../perflib/index.md)
+ * [winperf.h](../winperf/index.md)
 
 For the programming guide, see [Performance Counters](/windows/desktop/perf).

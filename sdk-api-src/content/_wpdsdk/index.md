@@ -17,7 +17,7 @@ Overview of the WPD Application Programming Interface technology.
 
 To develop WPD Application Programming Interface, you need these headers:
 
- * [portabledeviceapi.h](..\portabledeviceapi\index.md)
- * [portabledeviceconnectapi.h](..\portabledeviceconnectapi\index.md)
+ * [portabledeviceapi.h](../portabledeviceapi/index.md)
+ * [portabledeviceconnectapi.h](../portabledeviceconnectapi/index.md)
 
 For the programming guide, see [WPD Application Programming Interface](/windows/desktop/wpdsdk).

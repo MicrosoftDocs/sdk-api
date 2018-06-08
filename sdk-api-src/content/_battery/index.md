@@ -17,7 +17,7 @@ Overview of the Battery Devices Reference technology.
 
 To develop Battery Devices Reference, you need these headers:
 
- * [batclass.h](..\batclass\index.md)
+ * [batclass.h](../batclass/index.md)
 
 For the programming guide, see [Battery Devices Reference](/windows/desktop/battery).
 

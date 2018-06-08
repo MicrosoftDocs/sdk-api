@@ -17,7 +17,7 @@ Overview of the Developer licensing technology.
 
 To develop Developer licensing, you need these headers:
 
- * [wsdevlicensing.h](..\wsdevlicensing\index.md)
+ * [wsdevlicensing.h](../wsdevlicensing/index.md)
 
 For the programming guide, see [Developer licensing](/windows/desktop/devlic).
 

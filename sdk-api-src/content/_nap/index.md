@@ -17,6 +17,6 @@ Overview of the Network Access Protection technology.
 
 To develop Network Access Protection, you need these headers:
 
- * [naptypes.h](..\naptypes\index.md)
+ * [naptypes.h](../naptypes/index.md)
 
 For the programming guide, see [Network Access Protection](/windows/desktop/nap).

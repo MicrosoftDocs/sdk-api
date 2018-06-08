@@ -17,6 +17,6 @@ Overview of the Windows Animation Manager technology.
 
 To develop Windows Animation Manager, you need these headers:
 
- * [uianimation.h](..\uianimation\index.md)
+ * [uianimation.h](../uianimation/index.md)
 
 For the programming guide, see [Windows Animation Manager](/windows/desktop/uianimation).

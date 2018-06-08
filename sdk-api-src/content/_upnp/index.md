@@ -17,7 +17,7 @@ Overview of the UPnP APIs technology.
 
 To develop UPnP APIs, you need these headers:
 
- * [upnp.h](..\upnp\index.md)
- * [upnphost.h](..\upnphost\index.md)
+ * [upnp.h](../upnp/index.md)
+ * [upnphost.h](../upnphost/index.md)
 
 For the programming guide, see [UPnP APIs](/windows/desktop/upnp).

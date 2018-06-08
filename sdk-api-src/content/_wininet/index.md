@@ -17,7 +17,7 @@ Overview of the Windows Internet technology.
 
 To develop Windows Internet, you need these headers:
 
- * [proofofpossessioncookieinfo.h](..\proofofpossessioncookieinfo\index.md)
- * [winineti.h](..\winineti\index.md)
+ * [proofofpossessioncookieinfo.h](../proofofpossessioncookieinfo/index.md)
+ * [winineti.h](../winineti/index.md)
 
 For the programming guide, see [Windows Internet](/windows/desktop/wininet).

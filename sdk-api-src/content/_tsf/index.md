@@ -17,13 +17,13 @@ Overview of the Text Services Framework technology.
 
 To develop Text Services Framework, you need these headers:
 
- * [ctffunc.h](..\ctffunc\index.md)
- * [ctfspui.h](..\ctfspui\index.md)
- * [ctfutb.h](..\ctfutb\index.md)
- * [inputscope.h](..\inputscope\index.md)
- * [msaatext.h](..\msaatext\index.md)
- * [msctf.h](..\msctf\index.md)
- * [msctfmonitorapi.h](..\msctfmonitorapi\index.md)
- * [textstor.h](..\textstor\index.md)
+ * [ctffunc.h](../ctffunc/index.md)
+ * [ctfspui.h](../ctfspui/index.md)
+ * [ctfutb.h](../ctfutb/index.md)
+ * [inputscope.h](../inputscope/index.md)
+ * [msaatext.h](../msaatext/index.md)
+ * [msctf.h](../msctf/index.md)
+ * [msctfmonitorapi.h](../msctfmonitorapi/index.md)
+ * [textstor.h](../textstor/index.md)
 
 For the programming guide, see [Text Services Framework](/windows/desktop/tsf).

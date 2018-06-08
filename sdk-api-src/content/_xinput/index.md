@@ -17,7 +17,7 @@ Overview of the XInput Game Controller APIs technology.
 
 To develop XInput Game Controller APIs, you need these headers:
 
- * [xinput.h](..\xinput\index.md)
+ * [xinput.h](../xinput/index.md)
 
 For the programming guide, see [XInput Game Controller APIs](/windows/desktop/xinput).
 

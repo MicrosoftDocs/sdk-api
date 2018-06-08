@@ -17,7 +17,7 @@ Overview of the Dialog Boxes technology.
 
 To develop Dialog Boxes, you need these headers:
 
- * [commdlg.h](..\commdlg\index.md)
+ * [commdlg.h](../commdlg/index.md)
 
 For the programming guide, see [Dialog Boxes](/windows/desktop/dlgbox).
 

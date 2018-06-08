@@ -17,7 +17,7 @@ Overview of the Windows Biometric Framework technology.
 
 To develop Windows Biometric Framework, you need these headers:
 
- * [winbio.h](..\winbio\index.md)
- * [winbio_adapter.h](..\winbio_adapter\index.md)
+ * [winbio.h](../winbio/index.md)
+ * [winbio_adapter.h](../winbio_adapter/index.md)
 
 For the programming guide, see [Windows Biometric Framework](/windows/desktop/secbiomet).

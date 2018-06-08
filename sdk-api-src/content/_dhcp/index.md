@@ -18,9 +18,9 @@ Overview of the Dynamic Host Configuration Protocol (DHCP) technology.
 
 To develop Dynamic Host Configuration Protocol (DHCP), you need these headers:
 
- * [dhcpcsdk.h](..\dhcpcsdk\index.md)
- * [dhcpsapi.h](..\dhcpsapi\index.md)
- * [dhcpssdk.h](..\dhcpssdk\index.md)
- * [dhcpv6csdk.h](..\dhcpv6csdk\index.md)
+ * [dhcpcsdk.h](../dhcpcsdk/index.md)
+ * [dhcpsapi.h](../dhcpsapi/index.md)
+ * [dhcpssdk.h](../dhcpssdk/index.md)
+ * [dhcpv6csdk.h](../dhcpv6csdk/index.md)
 
 For the programming guide, see [Dynamic Host Configuration Protocol (DHCP)](/previous-versions/windows/desktop/dhcp).
