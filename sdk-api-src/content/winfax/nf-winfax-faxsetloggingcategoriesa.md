@@ -116,7 +116,7 @@ One or all of the <i>FaxHandle</i>, <i>Categories</i>, or <i>NumberCategories</i
 </dl>
 </td>
 <td width="60%">
-The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="_win32_WM_USER">WM_USER</a>.
+The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="https://www.bing.com/search?q=WM_USER">WM_USER</a>.
 
 </td>
 </tr>

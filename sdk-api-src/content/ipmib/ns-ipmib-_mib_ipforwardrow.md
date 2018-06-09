@@ -516,11 +516,11 @@ To view an example that retrieves the <a href="https://msdn.microsoft.com/bdecf9
 
 
 
-<a href="_iphlp_createipforwardentry">CreateIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>
 
 
 
-<a href="_iphlp_deleteipforwardentry">DeleteIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>
 
 
 
@@ -544,7 +544,7 @@ To view an example that retrieves the <a href="https://msdn.microsoft.com/bdecf9
 
 
 
-<a href="_iphlp_setipforwardentry">SetIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a>
  
 
  

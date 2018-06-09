@@ -85,8 +85,8 @@ At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9b
 ### -field ClusterGroupPartialOnline
 
 At least one resource in the group is online. No resources are 
-      <a href="p_gly.htm">pending</a> or 
-      <a href="f_gly.htm">failed</a>.
+      <a href="https://www.bing.com/search?q=pending">pending</a> or 
+      <a href="https://www.bing.com/search?q=failed">failed</a>.
 
 
 ### -field ClusterGroupPending

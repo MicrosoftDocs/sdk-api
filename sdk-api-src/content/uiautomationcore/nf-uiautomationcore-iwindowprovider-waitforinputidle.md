@@ -94,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-            This method is typically used in conjunction with the handling of a <a href="uiauto_event_ids.htm">UIA_Window_WindowOpenedEventId</a>.
+            This method is typically used in conjunction with the handling of a <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-event-ids">UIA_Window_WindowOpenedEventId</a>.
         The implementation is dependent on the underlying application framework; 
         therefore this method might return some time after the window is ready for user input. 
         The calling code should not rely on this method to ascertain exactly when the window has become idle. 

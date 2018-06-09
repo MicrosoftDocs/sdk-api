@@ -55,7 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>CreateColorSpace</b> function creates a logical <a href="c.htm">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical <a href="https://www.bing.com/search?q=color+space">color space</a>.
 
 
 ## -parameters

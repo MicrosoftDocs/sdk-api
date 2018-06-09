@@ -229,7 +229,7 @@ The <b>CertDllVerifyCTLUsage</b> function in Cryptnet.dll can be installed by us
 
 
 
-<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
+<a href="https://www.bing.com/search?q=Verification+Functions+Using+CTLs">Verification Functions Using CTLs</a>
  
 
  

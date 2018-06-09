@@ -63,14 +63,14 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 Type: <b>WORD</b>
 
-<b>WORD</b> value that represents an MS-DOS date. See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about this format.
+<b>WORD</b> value that represents an MS-DOS date. See <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dosdatetimetovarianttime">DosDateTimeToVariantTime</a> for more information about this format.
 
 
 ### -param wTime [in]
 
 Type: <b>WORD</b>
 
-<b>WORD</b> value that represents an MS-DOS time. See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about this format.
+<b>WORD</b> value that represents an MS-DOS time. See <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dosdatetimetovarianttime">DosDateTimeToVariantTime</a> for more information about this format.
 
 
 ### -param pvar [out]
@@ -97,14 +97,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Creates a <b>VT_DATE</b> variant.
 
-See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about the formats of <i>wDate</i>, <i>wTime</i>, and of the resulting variant date.
+See <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dosdatetimetovarianttime">DosDateTimeToVariantTime</a> for more information about the formats of <i>wDate</i>, <i>wTime</i>, and of the resulting variant date.
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDosDateTime">InitVariantFromDosDateTime</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromDosDateTime">InitVariantFromDosDateTime</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,19 +134,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="shell.InitVariantFromFileTime">InitVariantFromFileTime</a>
+<a href="https://www.bing.com/search?q=InitVariantFromFileTime">InitVariantFromFileTime</a>
 
 
 
-<a href="shell.VariantToDosDateTime">VariantToDosDateTime</a>
+<a href="https://www.bing.com/search?q=VariantToDosDateTime">VariantToDosDateTime</a>
 
 
 
-<a href="shell.VariantToFileTime">VariantToFileTime</a>
+<a href="https://www.bing.com/search?q=VariantToFileTime">VariantToFileTime</a>
  
 
  

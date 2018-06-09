@@ -229,7 +229,7 @@ Only media that is in the Available state can be decommissioned. For more inform
 
 
 
-<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
+<a href="https://www.bing.com/search?q=Media+Services+Functions">Media Services Functions</a>
  
 
  

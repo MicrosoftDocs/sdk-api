@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Set the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Set the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">constant buffers</a> used by the <a href="https://www.bing.com/search?q=pixel+shader">pixel shader</a> pipeline stage.
 
 
 ## -parameters

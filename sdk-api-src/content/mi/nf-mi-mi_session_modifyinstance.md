@@ -68,7 +68,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="mi_flags.htm">flags</a>. May be 
+      <a href="https://www.bing.com/search?q=flags">flags</a>. May be 
       set to 0.
 
 

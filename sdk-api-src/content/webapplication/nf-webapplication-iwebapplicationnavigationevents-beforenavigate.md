@@ -61,7 +61,7 @@ Fired before navigate occurs in the given host (window or frameset element).
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
+Type: <b><a href="https://www.bing.com/search?q=IHTMLWindow2">IHTMLWindow2</a>*</b>
 
 The window or frame in which the navigation is about occur.
 

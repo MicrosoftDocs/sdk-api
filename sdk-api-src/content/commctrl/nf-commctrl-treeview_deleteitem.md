@@ -89,7 +89,7 @@ The parent window receives a <a href="https://msdn.microsoft.com/0d8801e0-02ae-4
 
 If the item label is being edited, the edit operation is canceled and the parent window receives the <a href="https://msdn.microsoft.com/82eb9fcd-de10-4efb-8501-78c5af5e089e">TVN_ENDLABELEDIT</a> notification code. 
 
-If you delete all items in a tree-view control that has the <a href="Tree_View_Control_Window_Styles.htm">TVS_NOSCROLL</a> style, items subsequently added may not display properly. For more information, see <a href="https://msdn.microsoft.com/f8c4e79a-f4d7-497b-964d-b9a80f16be3c">TreeView_DeleteAllItems</a>.
+If you delete all items in a tree-view control that has the <a href="https://www.bing.com/search?q=TVS_NOSCROLL">TVS_NOSCROLL</a> style, items subsequently added may not display properly. For more information, see <a href="https://msdn.microsoft.com/f8c4e79a-f4d7-497b-964d-b9a80f16be3c">TreeView_DeleteAllItems</a>.
 
 
 

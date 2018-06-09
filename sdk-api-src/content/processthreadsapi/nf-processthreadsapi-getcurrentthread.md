@@ -100,7 +100,7 @@ Do not create a thread while impersonating a security context. The call will suc
 #### Examples
 
 For an example, see 
-<a href="security.checking_client_access">Checking Client Access</a>.
+<a href="https://www.bing.com/search?q=Checking+Client+Access">Checking Client Access</a>.
 
 <div class="code"></div>
 

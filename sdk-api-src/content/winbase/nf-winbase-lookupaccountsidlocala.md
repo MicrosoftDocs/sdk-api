@@ -146,7 +146,7 @@ This function is similar to <a href="https://msdn.microsoft.com/b8a44ffc-86e1-4f
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
 
 
 

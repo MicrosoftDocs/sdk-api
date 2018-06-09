@@ -80,11 +80,11 @@ The index of the interface on which to act as a proxy for the address specified 
 
 
 
-<a href="_iphlp_createproxyarpentry">CreateProxyArpEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createproxyarpentry">CreateProxyArpEntry</a>
 
 
 
-<a href="_iphlp_deleteproxyarpentry">DeleteProxyArpEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteproxyarpentry">DeleteProxyArpEntry</a>
  
 
  

@@ -130,7 +130,7 @@ The RPC run-time library allocates memory for the string returned in the <i>Stri
 <a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> function to deallocate that memory.
 
 If the binding handle in the <i>Binding</i> parameter contained a nil object 
-<a href="midl.uuid">UUID</a>, the object UUID field is not included in the returned string.
+<a href="https://www.bing.com/search?q=UUID">UUID</a>, the object UUID field is not included in the returned string.
 
 To parse the returned <i>StringBinding</i> parameter, call the 
 <a href="https://msdn.microsoft.com/c55d0259-e251-42d0-8565-ce71ab3bb59c">RpcStringBindingParse</a> function.

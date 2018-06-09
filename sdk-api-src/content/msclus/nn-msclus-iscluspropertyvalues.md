@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in 
     subsequent versions.]
 
-Contains all of the <a href="p_gly.htm">property values</a> 
+Contains all of the <a href="https://www.bing.com/search?q=property+values">property values</a> 
     associated with a multi-value property, with each value represented by a 
     <a href="https://msdn.microsoft.com/6a8ffae6-c4f3-42fb-9703-eeb695902877">ClusPropertyValue</a> object.
 

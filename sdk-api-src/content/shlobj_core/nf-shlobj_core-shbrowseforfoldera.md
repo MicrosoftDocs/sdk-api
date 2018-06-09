@@ -321,7 +321,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 
 
-<a href="_win32_open_and_save_as_dialog_boxes">Open and Save as Dialog Boxes</a>
+<a href="https://www.bing.com/search?q=Open+and+Save+as+Dialog+Boxes">Open and Save as Dialog Boxes</a>
  
 
  

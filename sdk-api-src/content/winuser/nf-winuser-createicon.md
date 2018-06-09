@@ -163,7 +163,7 @@ When you are finished using the icon, destroy it using the <a href="https://msdn
 
 #### Examples
 
-For an example, see <a href="using_icons.htm">Creating an Icon</a>.
+For an example, see <a href="https://www.bing.com/search?q=Creating+an+Icon">Creating an Icon</a>.
 
 <div class="code"></div>
 

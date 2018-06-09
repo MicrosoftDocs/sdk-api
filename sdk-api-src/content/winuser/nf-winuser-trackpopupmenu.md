@@ -401,7 +401,7 @@ However, when the current window is the foreground window, the second time this 
 
 #### Examples
 
-For an example, see <a href="using_menus.htm">Displaying a Shortcut Menu</a>. 
+For an example, see <a href="https://www.bing.com/search?q=Displaying+a+Shortcut+Menu">Displaying a Shortcut Menu</a>. 
 
 <div class="code"></div>
 

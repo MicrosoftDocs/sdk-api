@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromDouble">InitPropVariantFromDouble</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,19 +124,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
+<a href="https://www.bing.com/search?q=InitVariantFromDouble">InitVariantFromDouble</a>
 
 
 
-<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://www.bing.com/search?q=PropVariantToDouble">PropVariantToDouble</a>
 
 
 
-<a href="shell.PropVariantToDoubleWithDefault">PropVariantToDoubleWithDefault</a>
+<a href="https://www.bing.com/search?q=PropVariantToDoubleWithDefault">PropVariantToDoubleWithDefault</a>
  
 
  

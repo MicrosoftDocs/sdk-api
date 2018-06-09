@@ -80,7 +80,7 @@ An existing object was deleted.
 
 
 
-<a href="_cos_IEventObjectChange">IEventObjectChange</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange.md">IEventObjectChange</a>
  
 
  

@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-    Represents a stream of results returned from  operations such as a WS-Management protocol <a href="windows_remote_management_glossary.htm">WS-Enumeration</a>:Enumerate operation.
+    Represents a stream of results returned from  operations such as a WS-Management protocol <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">WS-Enumeration</a>:Enumerate operation.
    
 
 

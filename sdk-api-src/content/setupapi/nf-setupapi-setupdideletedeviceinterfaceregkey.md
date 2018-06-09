@@ -61,7 +61,7 @@ The <b>SetupDiDeleteDeviceInterfaceRegKey</b> function deletes the registry subk
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains the interface for which to delete interface-specific information in the registry. The device information set must not contain remote elements.
+A pointer to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the interface for which to delete interface-specific information in the registry. The device information set must not contain remote elements.
 
 
 ### -param DeviceInterfaceData [in]

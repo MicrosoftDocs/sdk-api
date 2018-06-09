@@ -188,7 +188,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Access+Control+Functions">Low-level Access Control Functions</a>
 
 
 

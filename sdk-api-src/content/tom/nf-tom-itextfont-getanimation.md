@@ -66,15 +66,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="tomconstants.htm">tomNoAnimation</a>
-<a href="tomconstants.htm">tomLasVegasLights</a>
-<a href="tomconstants.htm">tomBlinkingBackground</a>
-<a href="tomconstants.htm">tomSparkleText</a>
-<a href="tomconstants.htm">tomMarchingBlackAnts</a>
-<a href="tomconstants.htm">tomMarchingRedAnts</a>
-<a href="tomconstants.htm">tomShimmer</a>
-<a href="tomconstants.htm">tomWipeDown</a>
-<a href="tomconstants.htm">tomWipeRight</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoAnimation</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLasVegasLights</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBlinkingBackground</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSparkleText</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingBlackAnts</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingRedAnts</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShimmer</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeDown</a>
+<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeRight</a>
 
 ## -returns
 

@@ -70,7 +70,7 @@ Must contain the size of this structure in bytes. Should be initialized to <b>si
 
 Type: <b>GUID</b>
 
-Indicates the image clipboard format. For a list of clipboard formats, see <a href="winui._win32_SetClipboardData">SetClipboardData</a> Function. This parameter is queried during a callback to the <a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i> parameter set to IT_MSG_DATA_HEADER.
+Indicates the image clipboard format. For a list of clipboard formats, see <a href="https://www.bing.com/search?q=SetClipboardData">SetClipboardData</a> Function. This parameter is queried during a callback to the <a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">IWiaDataCallback::BandedDataCallback</a> method with the <i>lMessage</i> parameter set to IT_MSG_DATA_HEADER.
 
 
 ### -field lBufferSize

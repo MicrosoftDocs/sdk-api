@@ -226,7 +226,7 @@ The media for both LMIDs must not be in use for this function to succeed.
 
 
 
-<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
+<a href="https://www.bing.com/search?q=Media+Services+Functions">Media Services Functions</a>
  
 
  

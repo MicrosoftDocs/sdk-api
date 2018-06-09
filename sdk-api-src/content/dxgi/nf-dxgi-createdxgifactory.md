@@ -77,7 +77,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/642aac36-ca5a-4c6
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns <b>S_OK</b> if successful; otherwise, returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
@@ -94,7 +94,7 @@ If the <b>CreateDXGIFactory</b> function succeeds, the reference count on the <a
 
 <div class="alert"><b>Note</b>  Do not mix the use of DXGI 1.0 (<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a>) in an application. Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  <b>CreateDXGIFactory</b> fails if your app's <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function calls it. For more info about how DXGI responds from <b>DllMain</b>, see <a href="d3d10_graphics_programming_guide_dxgi.htm">DXGI Responses from DLLMain</a>.</div>
+<div class="alert"><b>Note</b>  <b>CreateDXGIFactory</b> fails if your app's <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> function calls it. For more info about how DXGI responds from <b>DllMain</b>, see <a href="https://www.bing.com/search?q=DXGI+Responses+from+DLLMain">DXGI Responses from DLLMain</a>.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  Starting with Windows 8, all DXGI factories (regardless if they were created with <b>CreateDXGIFactory</b> or <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a>) enumerate adapters identically. The enumeration order of adapters, which you retrieve with <a href="https://msdn.microsoft.com/23e876c7-b32a-4bc9-84c1-9e8949680e14">IDXGIFactory::EnumAdapters</a> or <a href="https://msdn.microsoft.com/351b7b2d-abb7-449e-bee2-eea96fef3b9d">IDXGIFactory1::EnumAdapters1</a>, is as follows: <ul>
 <li>Adapter with the output on which the desktop primary is displayed. This adapter corresponds with an index of zero.</li>

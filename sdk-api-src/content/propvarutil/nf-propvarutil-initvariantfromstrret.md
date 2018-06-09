@@ -102,7 +102,7 @@ Creates a VT_BSTR variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromStrRet">InitVariantFromStrRet</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -133,15 +133,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromString">InitVariantFromString</a>
+<a href="https://www.bing.com/search?q=InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="shell.VariantToString">VariantToString</a>
+<a href="https://www.bing.com/search?q=VariantToString">VariantToString</a>
 
 
 
-<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
+<a href="https://www.bing.com/search?q=VariantToStringWithDefault">VariantToStringWithDefault</a>
  
 
  

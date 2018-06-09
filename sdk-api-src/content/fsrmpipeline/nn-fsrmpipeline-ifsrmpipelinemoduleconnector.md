@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Creates the communication channel between FSRM and your pipeline module implementation.
 
 Your pipeline module implementation must create this interface and To create this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileManagementJobManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileManagementJobManager)</code> as the interface identifier.
 
@@ -166,7 +166,7 @@ The name of the module.
 Your 
     <a href="https://msdn.microsoft.com/69d848b9-4143-4b6c-9a45-66ff44c54b66">IFsrmPipelineModuleImplementation::OnLoad</a> 
     implementation must create an instance of an object implementing this interface. To create this instance, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmPipelineModuleConnector</b> as the class identifier and 
     <code>__uuidof(IFsrmPipelineModuleConnector)</code> as the interface identifier. Use 
     the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX_INPROC_SERVER</a> class context to create the instance.

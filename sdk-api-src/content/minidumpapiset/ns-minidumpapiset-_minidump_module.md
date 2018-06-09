@@ -88,7 +88,7 @@ An RVA to a
 ### -field VersionInfo
 
 A 
-<a href="_win32_vs_fixedfileinfo_str">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
+<a href="https://www.bing.com/search?q=VS_FIXEDFILEINFO">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
 
 
 ### -field CvRecord
@@ -124,7 +124,7 @@ Reserved for future use.
 
 
 
-<a href="_win32_vs_fixedfileinfo_str">VS_FIXEDFILEINFO</a>
+<a href="https://www.bing.com/search?q=VS_FIXEDFILEINFO">VS_FIXEDFILEINFO</a>
  
 
  

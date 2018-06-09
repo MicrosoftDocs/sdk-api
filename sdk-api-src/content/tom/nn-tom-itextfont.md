@@ -598,7 +598,7 @@ See <a href="https://msdn.microsoft.com/15630fec-83b2-4169-b141-8ce253dd25fe">Se
 
 The <b>ITextFont</b> attribute interface represents the traditional Microsoft Visual Basic for Applications (VBA) way of setting properties and it gives the desired VBA notation.
 
-<b>ITextFont</b> uses the "tomBool" type for rich-text attributes that have binary states. For more information, see <a href="About_Text_Object_Model.htm">The tomBool Type</a>.
+<b>ITextFont</b> uses the "tomBool" type for rich-text attributes that have binary states. For more information, see <a href="https://www.bing.com/search?q=The+tomBool+Type">The tomBool Type</a>.
 
 The rich edit control is able to accept and return all <b>ITextFont</b> properties intact, that is, without modification, both through TOM and through its Rich Text Format (RTF) converters. However, it cannot display the All Caps, Animation, Embossed, Imprint, Shadow, Small Caps, Hidden, Kerning, Outline, and Style font properties.
 

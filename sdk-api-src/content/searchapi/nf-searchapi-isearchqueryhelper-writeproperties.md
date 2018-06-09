@@ -75,10 +75,10 @@ The number of properties being written.
 
 ### -param pColumns [in]
 
-Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
  
-                Pointer to an array of <a href="_shell_PROPERTYKEY">PROPERTYKEY</a> structures that represent the properties.
+                Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures that represent the properties.
 
 
 ### -param pValues [in]
@@ -90,7 +90,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/89a3c625-7853-4e4d-8f
 
 ### -param pftGatherModifiedTime [in]
 
-Type: <b><a href="_com_FILETIME">FILETIME</a>*</b>
+Type: <b><a href="https://www.bing.com/search?q=FILETIME">FILETIME</a>*</b>
 
 A pointer to the last modified time for the item being written. This time stamp is used later to see if an item has been changed and requires updating.
 

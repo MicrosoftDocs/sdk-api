@@ -160,7 +160,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="_wic_about_metadata.htm">Writing Metadata</a>
+<a href="https://docs.microsoft.com/windows/desktop//wic/-wic-about-metadata">Writing Metadata</a>
  
 
  

@@ -83,7 +83,7 @@ Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.micros
 <a href="https://msdn.microsoft.com/5157d823-d3a1-46d2-8ae8-07e904001a14">FrameworkLogoffDLL</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="_com_dllcanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
+Called by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nc-combaseapi-lpfncanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.micros
 <a href="https://msdn.microsoft.com/5157d823-d3a1-46d2-8ae8-07e904001a14">FrameworkLogoffDLL</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="_com_dllcanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
+Called by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nc-combaseapi-lpfncanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
 
 </td>
 </tr>
@@ -350,7 +350,7 @@ Sets the parameters of a status object which is used to supply more information 
 </tr>
 </table>Called when the DLL_PROCESS_ATTACH value is sent to <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> to determine whether the provider server can be loaded.
 
-Called by <a href="_com_dllcanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
+Called by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nc-combaseapi-lpfncanunloadnow">DllCanUnloadNow</a> to determine whether the provider server is not in use and can be unloaded.
 
 Retrieves a list of instances derived from a particular base class.
 
