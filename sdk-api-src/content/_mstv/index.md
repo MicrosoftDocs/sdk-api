@@ -2,7 +2,7 @@
 UID: TP:mstv
 ms.assetid: c2a5b070-2d31-379e-bb1b-8084848a387c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -197,6 +197,7 @@ For the programming guide, see [Microsoft TV Technologies](/previous-versions/wi
 | [IDVB_BAT interface](..\dvbsiparser\nn-dvbsiparser-idvb_bat.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [IDVB_DIT interface](..\dvbsiparser\nn-dvbsiparser-idvb_dit.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [IDVB_EIT interface](..\dvbsiparser\nn-dvbsiparser-idvb_eit.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
+| [IDVB_EIT2 interface](..\dvbsiparser\nn-dvbsiparser-idvb_eit2.md) | The IDVB_EIT2 interface enables an application to get information from a Digital Video Broadcasting (DVB) event information table (EIT). The IDvbSiParser2 |
 | [IDVB_NIT interface](..\dvbsiparser\nn-dvbsiparser-idvb_nit.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [IDVB_RST interface](..\dvbsiparser\nn-dvbsiparser-idvb_rst.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [IDVB_SDT interface](..\dvbsiparser\nn-dvbsiparser-idvb_sdt.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
@@ -271,6 +272,7 @@ For the programming guide, see [Microsoft TV Technologies](/previous-versions/wi
 | [IIsdbCADescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbcadescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) descriptor. |
 | [IIsdbCAServiceDescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbcaservicedescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor. |
 | [IIsdbComponentGroupDescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbcomponentgroupdescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. |
+| [IIsdbDataContentDescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbdatacontentdescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. |
 | [IIsdbDigitalCopyControlDescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbdigitalcopycontroldescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor. |
 | [IIsdbDownloadContentDescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbdownloadcontentdescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. |
 | [IIsdbEmergencyInformationDescriptor interface](..\dvbsiparser\nn-dvbsiparser-iisdbemergencyinformationdescriptor.md) | Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) emergency information descriptor. |

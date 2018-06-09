@@ -2,7 +2,7 @@
 UID: NA:adhoc
 ms.assetid: ac096921-2541-3360-b42d-7aeda408cc95
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

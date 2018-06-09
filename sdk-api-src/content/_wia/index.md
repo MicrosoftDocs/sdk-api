@@ -2,7 +2,7 @@
 UID: TP:wia
 ms.assetid: 3aacaecd-d808-35d7-b283-04705ef2fdca
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

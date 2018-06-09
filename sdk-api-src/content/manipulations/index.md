@@ -2,7 +2,7 @@
 UID: NA:manipulations
 ms.assetid: 64194f16-1b72-3e36-8291-029e4cb3f6bd
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

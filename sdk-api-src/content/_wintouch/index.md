@@ -2,7 +2,7 @@
 UID: TP:wintouch
 ms.assetid: 7340eb41-5269-3872-ab0e-7e5a90776681
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,10 +99,12 @@ For the programming guide, see [Touch Input](/windows/desktop/wintouch).
 | [IManipulationProcessor::ProcessMove](..\manipulations\nf-manipulations-imanipulationprocessor-processmove.md) | The ProcessMove method feeds movement data for the target object to its manipulation processor. |
 | [IManipulationProcessor::ProcessUpWithTime](..\manipulations\nf-manipulations-imanipulationprocessor-processupwithtime.md) | Feeds data, including a timestamp, to a target's manipulation processor for touch-up sequences. |
 | [IManipulationProcessor::ProcessUp](..\manipulations\nf-manipulations-imanipulationprocessor-processup.md) | The ProcessUp method feeds data to a target's manipulation processor for touch up sequences. |
+| [IManipulationProcessor::get_MinimumScaleRotateRadius](..\manipulations\nf-manipulations-imanipulationprocessor-get_minimumscalerotateradius.md) | Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation. |
 | [IManipulationProcessor::get_PivotPointX](..\manipulations\nf-manipulations-imanipulationprocessor-get_pivotpointx.md) | The PivotPointX property is the horizontal center of the object. |
 | [IManipulationProcessor::get_PivotPointY](..\manipulations\nf-manipulations-imanipulationprocessor-get_pivotpointy.md) | The PivotPointY property is the vertical center of the object. |
 | [IManipulationProcessor::get_PivotRadius](..\manipulations\nf-manipulations-imanipulationprocessor-get_pivotradius.md) | The PivotRadius property is used to determine how much rotation is used in single finger manipulation. |
 | [IManipulationProcessor::get_SupportedManipulations](..\manipulations\nf-manipulations-imanipulationprocessor-get_supportedmanipulations.md) | The SupportedManipulations property is used to indicate which manipulations are supported by an object. |
+| [IManipulationProcessor::put_MinimumScaleRotateRadius](..\manipulations\nf-manipulations-imanipulationprocessor-put_minimumscalerotateradius.md) | Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation. |
 | [IManipulationProcessor::put_PivotPointX](..\manipulations\nf-manipulations-imanipulationprocessor-put_pivotpointx.md) | The PivotPointX property is the horizontal center of the object. |
 | [IManipulationProcessor::put_PivotPointY](..\manipulations\nf-manipulations-imanipulationprocessor-put_pivotpointy.md) | The PivotPointY property is the vertical center of the object. |
 | [IManipulationProcessor::put_PivotRadius](..\manipulations\nf-manipulations-imanipulationprocessor-put_pivotradius.md) | The PivotRadius property is used to determine how much rotation is used in single finger manipulation. |

@@ -2,7 +2,7 @@
 UID: TP:direct3ddxgi
 ms.assetid: 13788405-72f0-3653-b458-78589ede8b8a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -218,6 +218,7 @@ For the programming guide, see [DXGI](/windows/desktop/direct3ddxgi).
 | [IDXGIFactory2::RegisterStereoStatusWindow](..\dxgi1_2\nf-dxgi1_2-idxgifactory2-registerstereostatuswindow.md) | Registers an application window to receive notification messages of changes of stereo status. |
 | [IDXGIFactory2::UnregisterOcclusionStatus](..\dxgi1_2\nf-dxgi1_2-idxgifactory2-unregisterocclusionstatus.md) | Unregisters a window or an event to stop it from receiving notification when occlusion status changes. |
 | [IDXGIFactory2::UnregisterStereoStatus](..\dxgi1_2\nf-dxgi1_2-idxgifactory2-unregisterstereostatus.md) | Unregisters a window or an event to stop it from receiving notification when stereo status changes. |
+| [IDXGIFactory3::GetCreationFlags](..\dxgi1_3\nf-dxgi1_3-idxgifactory3-getcreationflags.md) | Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created. |
 | [IDXGIFactory4::EnumAdapterByLuid](..\dxgi1_4\nf-dxgi1_4-idxgifactory4-enumadapterbyluid.md) | Outputs the IDXGIAdapter for the specified LUID. |
 | [IDXGIFactory4::EnumWarpAdapter](..\dxgi1_4\nf-dxgi1_4-idxgifactory4-enumwarpadapter.md) | Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer. |
 | [IDXGIFactory5::CheckFeatureSupport](..\dxgi1_5\nf-dxgi1_5-idxgifactory5-checkfeaturesupport.md) | Used to check for hardware feature support. |

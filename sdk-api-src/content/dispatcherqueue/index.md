@@ -2,7 +2,7 @@
 UID: NA:dispatcherqueue
 ms.assetid: c8dd2bfa-e43d-3631-a911-59055132d000
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

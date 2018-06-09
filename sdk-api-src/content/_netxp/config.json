@@ -1,13 +1,13 @@
 {
   "tech": "netxp",
   "headers": [
+    "tbd",
+    "wdm.h",
     "oemupgex.h",
+    "ntddndis.h",
     "winsock2.h",
     "ws2spi.h",
-    "in6addr.h",
-    "netcfgn.h",
-    "netcfgx.h",
-    "netprov.h"
+    "in6addr.h"
   ],
   "displayName": "Network Drivers Prior to Windows Vista"
 }

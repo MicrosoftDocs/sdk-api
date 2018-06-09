@@ -2,7 +2,7 @@
 UID: NA:wcmconfig
 ms.assetid: 95ac423c-bf97-334b-a8ff-0e284ec817e7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

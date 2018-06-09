@@ -2,7 +2,7 @@
 UID: NA:mpconfig
 ms.assetid: e3804186-1709-34fa-bf68-111ffe7ed080
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

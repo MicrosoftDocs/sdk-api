@@ -2,7 +2,7 @@
 UID: TP:mbn
 ms.assetid: a50fdfaa-8786-3d51-8479-2ca7260c9904
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,6 +64,7 @@ For the programming guide, see [Mobile Broadband](/windows/desktop/mbn).
 | [MBN_REGISTER_STATE enumeration](..\mbnapi\ne-mbnapi-mbn_register_state.md) | The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device. |
 | [MBN_REGISTRATION_CONSTANTS enumeration](..\mbnapi\ne-mbnapi-mbn_registration_constants.md) | The MBN_REGISTRATION_CONSTANTS enumerated type contains specific values used by IMbnRegistration interface operations. |
 | [MBN_SIGNAL_CONSTANTS enumeration](..\mbnapi\ne-mbnapi-mbn_signal_constants.md) | THE MBN_SIGNAL_CONSTANTS enumerated type contains specific values used by IMbnSignal interface operations. |
+| [MBN_SMS_CAPS enumeration](..\mbnapi\ne-mbnapi-mbn_sms_caps.md) | The MBN_SMS_CAPS enumerated type contains bitfield values that specify SMS capabilities. |
 | [MBN_SMS_CDMA_ENCODING enumeration](..\mbnapi\ne-mbnapi-mbn_sms_cdma_encoding.md) | The MBN_SMS_CDMA_ENCODING enumerated type specifies character encoding types for CDMA. |
 | [MBN_SMS_CDMA_LANG enumeration](..\mbnapi\ne-mbnapi-mbn_sms_cdma_lang.md) | The MBN_SMS_CDMA_LANG enumerated type represents the different languages that can be used in a CDMA message. |
 | [MBN_SMS_CONSTANTS enumeration](..\mbnapi\ne-mbnapi-mbn_sms_constants.md) | The MBN_SMS_CONSTANTS enumerated type contains SMS constant values. |
@@ -153,10 +154,13 @@ For the programming guide, see [Mobile Broadband](/windows/desktop/mbn).
 | [IMbnDeviceService::CloseCommandSession](..\mbnapi\nf-mbnapi-imbndeviceservice-closecommandsession.md) | Closes a command session to a device service on a Mobile Broadband device. |
 | [IMbnDeviceService::CloseDataSession](..\mbnapi\nf-mbnapi-imbndeviceservice-closedatasession.md) | Closes the data session to a device service on a Mobile Broadband device. |
 | [IMbnDeviceService::OpenCommandSession](..\mbnapi\nf-mbnapi-imbndeviceservice-opencommandsession.md) | Opens a command session to a device service on a Mobile Broadband device. |
+| [IMbnDeviceService::OpenDataSession](..\mbnapi\nf-mbnapi-imbndeviceservice-opendatasession.md) | Open a data session to the device service on a Mobile Broadband device. |
 | [IMbnDeviceService::QueryCommand](..\mbnapi\nf-mbnapi-imbndeviceservice-querycommand.md) | Sends a QUERY control command to the device service of a Mobile Broadband device. |
 | [IMbnDeviceService::QuerySupportedCommands](..\mbnapi\nf-mbnapi-imbndeviceservice-querysupportedcommands.md) | Gets the list of commands IDs supported by the Mobile Broadband device service. |
 | [IMbnDeviceService::SetCommand](..\mbnapi\nf-mbnapi-imbndeviceservice-setcommand.md) | Sends a SET control command to the device service of a Mobile Broadband device. |
+| [IMbnDeviceService::WriteData](..\mbnapi\nf-mbnapi-imbndeviceservice-writedata.md) | Write data to a device service data session. |
 | [IMbnDeviceService::get_DeviceServiceID](..\mbnapi\nf-mbnapi-imbndeviceservice-get_deviceserviceid.md) | The ID of the device service to which this object is associated. |
+| [IMbnDeviceService::get_InterfaceID](..\mbnapi\nf-mbnapi-imbndeviceservice-get_interfaceid.md) | The interface ID of the Mobile Broadband device to which this object is associated. |
 | [IMbnDeviceService::get_IsCommandSessionOpen](..\mbnapi\nf-mbnapi-imbndeviceservice-get_iscommandsessionopen.md) | Reports if the device service command session is open. |
 | [IMbnDeviceService::get_IsDataSessionOpen](..\mbnapi\nf-mbnapi-imbndeviceservice-get_isdatasessionopen.md) | Reports if the device service data session is open. |
 | [IMbnDeviceServicesContext::EnumerateDeviceServices](..\mbnapi\nf-mbnapi-imbndeviceservicescontext-enumeratedeviceservices.md) | Gets the list of supported device services by the Mobile Broadband device. |
@@ -276,6 +280,7 @@ For the programming guide, see [Mobile Broadband](/windows/desktop/mbn).
 | [IMbnSmsEvents::OnSmsSendComplete](..\mbnapi\nf-mbnapi-imbnsmsevents-onsmssendcomplete.md) | Notification method that indicates the completion of a message send operation. |
 | [IMbnSmsEvents::OnSmsStatusChange](..\mbnapi\nf-mbnapi-imbnsmsevents-onsmsstatuschange.md) | Notification method indicating a change in the status of the message store. |
 | [IMbnSmsReadMsgPdu::get_Index](..\mbnapi\nf-mbnapi-imbnsmsreadmsgpdu-get_index.md) | The index of the message in the device SMS store. |
+| [IMbnSmsReadMsgPdu::get_Message](..\mbnapi\nf-mbnapi-imbnsmsreadmsgpdu-get_message.md) | Message in WMT format as used by CDMA devices. |
 | [IMbnSmsReadMsgPdu::get_PduData](..\mbnapi\nf-mbnapi-imbnsmsreadmsgpdu-get_pdudata.md) | The PDU message in hexadecimal format as used by GSM devices. |
 | [IMbnSmsReadMsgPdu::get_Status](..\mbnapi\nf-mbnapi-imbnsmsreadmsgpdu-get_status.md) | The type of message. |
 | [IMbnSmsReadMsgTextCdma::get_Address](..\mbnapi\nf-mbnapi-imbnsmsreadmsgtextcdma-get_address.md) | The mobile number associated with a message. |

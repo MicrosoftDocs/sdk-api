@@ -2,7 +2,7 @@
 UID: NA:mspstrm
 ms.assetid: f4210eb0-569f-388f-be3f-e14dd8539d1f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

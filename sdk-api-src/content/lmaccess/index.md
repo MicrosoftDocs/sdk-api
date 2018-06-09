@@ -2,7 +2,7 @@
 UID: NA:lmaccess
 ms.assetid: e6a63d6d-2398-3c89-9214-b964d3e829c8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

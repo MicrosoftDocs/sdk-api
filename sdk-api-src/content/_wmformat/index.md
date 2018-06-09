@@ -2,7 +2,7 @@
 UID: TP:wmformat
 ms.assetid: d9cec177-31f2-3ccd-a314-e6d46703ed09
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,6 +179,7 @@ For the programming guide, see [Windows Media Format 11 SDK](/windows/desktop/wm
 | [IWMPacketSize2 interface](..\wmsdkidl\nn-wmsdkidl-iwmpacketsize2.md) | The IWMPacketSize2 interface provides methods to set and retrieve the minimum packet size for a profile.An IWMPacketSize2 interface can be obtained for either a profile object, a reader object, or a synchronous reader object. |
 | [IWMPlayerHook interface](..\wmsdkidl\nn-wmsdkidl-iwmplayerhook.md) | The IWMPlayerHook interface can be implemented by a player application that uses DirectX Video Acceleration (DirectX VA). |
 | [IWMPlayerTimestampHook interface](..\wmdxva\nn-wmdxva-iwmplayertimestamphook.md) | The IWMPlayerTimestampHook interface is implemented on a player's source filter. |
+| [IWMProfile interface](..\wmsdkidl\nn-wmsdkidl-iwmprofile.md) | The IWMProfile interface is the primary interface for a profile object. |
 | [IWMProfile2 interface](..\wmsdkidl\nn-wmsdkidl-iwmprofile2.md) | The IWMProfile2 interface exposes the globally unique identifier for a system profile. |
 | [IWMProfile3 interface](..\wmsdkidl\nn-wmsdkidl-iwmprofile3.md) | The IWMProfile3 interface provides enhanced features for profiles. |
 | [IWMProfileManager interface](..\wmsdkidl\nn-wmsdkidl-iwmprofilemanager.md) | The IWMProfileManager interface is used to create profiles, load existing profiles, and save profiles. |

@@ -2,7 +2,7 @@
 UID: NA:cloneviewhelper
 ms.assetid: 71a392b8-59d8-30e1-93ba-dd6624f6c816
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

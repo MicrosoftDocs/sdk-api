@@ -2,7 +2,7 @@
 UID: TP:shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -1156,6 +1156,7 @@ For the programming guide, see [The Windows Shell](/windows/desktop/shell).
 | [IStorageProviderHandler::GetPropertyHandlerFromPath](..\storageprovider\nf-storageprovider-istorageproviderhandler-getpropertyhandlerfrompath.md) | Gets an instance of IStorageProviderPropertyHandler associated with the provided path. |
 | [IStorageProviderHandler::GetPropertyHandlerFromUri](..\storageprovider\nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromuri.md) | Gets an instance of IStorageProviderPropertyHandler associated with the provided URI. |
 | [IStorageProviderPropertyHandler::RetrieveProperties](..\storageprovider\nf-storageprovider-istorageproviderpropertyhandler-retrieveproperties.md) | Gets the properties managed by the sync engine. |
+| [IStorageProviderPropertyHandler::SaveProperties](..\storageprovider\nf-storageprovider-istorageproviderpropertyhandler-saveproperties.md) | Saves properties associated with a file or folder. |
 | [ISyncMgrConflict::GetConflictIdInfo](..\syncmgr\nf-syncmgr-isyncmgrconflict-getconflictidinfo.md) | Gets information that identifies a conflict within a conflict store. |
 | [ISyncMgrConflict::GetItemsArray](..\syncmgr\nf-syncmgr-isyncmgrconflict-getitemsarray.md) | Retrieves a conflict items array. |
 | [ISyncMgrConflict::GetProperty](..\syncmgr\nf-syncmgr-isyncmgrconflict-getproperty.md) | Gets a conflict property, given a property key. |

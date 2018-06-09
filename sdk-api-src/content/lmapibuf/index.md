@@ -2,7 +2,7 @@
 UID: NA:lmapibuf
 ms.assetid: b954c882-6e1d-3d59-b534-1d53c4b3e6c1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

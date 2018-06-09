@@ -2,7 +2,7 @@
 UID: NA:waasapi
 ms.assetid: cf8095f2-ec7d-3436-931f-4999d897e04f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,6 +174,7 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IDynamicRenderer interface](..\rtscom\nn-rtscom-idynamicrenderer.md) | Displays the tablet pen data in real-time as that data is being handled by the RealTimeStylus Class object. |
 | [IGestureRecognizer interface](..\rtscom\nn-rtscom-igesturerecognizer.md) | Reacts to events by recognizing gestures and adding gesture data to the input queue. |
 | [IHandwrittenTextInsertion interface](..\peninputpanel\nn-peninputpanel-ihandwrittentextinsertion.md) | Used by the application's custom text entry code to insert the text into both the text field and the Text Services backing-store. |
+| [IInkCollector interface](..\msinkaut\nn-msinkaut-iinkcollector.md) | "." |
 | [IInkCursor interface](..\msinkaut\nn-msinkaut-iinkcursor.md) | Represents general information about the tablet cursor. |
 | [IInkCursorButton interface](..\msinkaut\nn-msinkaut-iinkcursorbutton.md) | Represents general information about a button on a tablet pointing and selecting device. |
 | [IInkCursorButtons interface](..\msinkaut\nn-msinkaut-iinkcursorbuttons.md) | Represents a collection of IInkCursorButton objects for an IInkCursor interface. |
@@ -182,6 +183,7 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IInkDivisionResult interface](..\msinkaut15\nn-msinkaut15-iinkdivisionresult.md) | Represents the layout analysis of the collection of strokes contained by the InkDivider object. |
 | [IInkDivisionUnit interface](..\msinkaut15\nn-msinkaut15-iinkdivisionunit.md) | Represents a single structural element within an IInkDivisionResult object. |
 | [IInkDivisionUnits interface](..\msinkaut15\nn-msinkaut15-iinkdivisionunits.md) | Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object. |
+| [IInkDrawingAttributes interface](..\msinkaut\nn-msinkaut-iinkdrawingattributes.md) | "." |
 | [IInkEdit interface](..\inked\nn-inked-iinkedit.md) | "." |
 | [IInkExtendedProperties interface](..\msinkaut\nn-msinkaut-iinkextendedproperties.md) | Represents a collection of IInkExtendedProperty objects that contain application-defined data. |
 | [IInkExtendedProperty interface](..\msinkaut\nn-msinkaut-iinkextendedproperty.md) | Represents the ability to add your own data to a variety of objects within the Tablet PC object model. |
@@ -193,11 +195,18 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IInkRecognizer interface](..\msinkaut\nn-msinkaut-iinkrecognizer.md) | Represents the ability to process ink, or handwriting, and translate the stroke into text or gesture. The recognizer creates an InkRecognizerContext object, which is used to perform the actual handwriting recognition. |
 | [IInkRecognizer2 interface](..\msinkaut\nn-msinkaut-iinkrecognizer2.md) | Adds members to the IInkWordList2 Interface. |
 | [IInkRecognizerContext2 interface](..\msinkaut\nn-msinkaut-iinkrecognizercontext2.md) | Adds members to the InkRecognizerContext Class. |
+| [IInkRecognizerGuide interface](..\msinkaut\nn-msinkaut-iinkrecognizerguide.md) | "." |
+| [IInkRecognizers interface](..\msinkaut\nn-msinkaut-iinkrecognizers.md) | "." |
+| [IInkRectangle interface](..\msinkaut\nn-msinkaut-iinkrectangle.md) | "." |
 | [IInkStrokeDisp interface](..\msinkaut\nn-msinkaut-iinkstrokedisp.md) | Represents a single ink stroke. |
+| [IInkStrokes interface](..\msinkaut\nn-msinkaut-iinkstrokes.md) | "." |
 | [IInkTablet interface](..\msinkaut\nn-msinkaut-iinktablet.md) | Represents the digitizer device of Tablet PC that receives tablet device messages or events. |
 | [IInkTablet2 interface](..\msinkaut\nn-msinkaut-iinktablet2.md) | Extends the IInkTablet interface. |
+| [IInkTablets interface](..\msinkaut\nn-msinkaut-iinktablets.md) | "." |
+| [IInkTransform interface](..\msinkaut\nn-msinkaut-iinktransform.md) | "." |
 | [IInkWordList2 interface](..\msinkaut\nn-msinkaut-iinkwordlist2.md) | Adds members to the InkWordList Class. |
 | [IMathInputControl interface](..\micaut\nn-micaut-imathinputcontrol.md) | Exposes methods that turn ink input into interpreted math output. |
+| [IPenInputPanel interface](..\peninputpanel\nn-peninputpanel-ipeninputpanel.md) | "." |
 | [IRealTimeStylus interface](..\rtscom\nn-rtscom-irealtimestylus.md) | Handles the stylus packet data from a digitizer in real time. |
 | [IRealTimeStylus2 interface](..\rtscom\nn-rtscom-irealtimestylus2.md) | Extends the IRealTimeStylus interface. |
 | [IRealTimeStylus3 interface](..\rtscom\nn-rtscom-irealtimestylus3.md) | The IRealTimeStylus3 interface enables multitouch for the realtime stylus. |
@@ -317,6 +326,13 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IInkDisp::get_ExtendedProperties](..\msinkaut\nf-msinkaut-iinkdisp-get_extendedproperties.md) | Gets the collection of application-defined data that are stored in an object. |
 | [IInkDisp::get_Strokes](..\msinkaut\nf-msinkaut-iinkdisp-get_strokes.md) | Gets the collection of strokes that are contained in an object or used to create an object. |
 | [IInkDisp::put_Dirty](..\msinkaut\nf-msinkaut-iinkdisp-put_dirty.md) | Gets or sets the value that specifies whether the strokes of an InkDisp Class object have been modified since the last time the ink was saved. |
+| [IInkDivider::Divide](..\msinkaut15\nf-msinkaut15-iinkdivider-divide.md) | Returns a IInkDivisionResult object that contains the results of the layout analysis of strokes in the InkDivider object. |
+| [IInkDivider::get_LineHeight](..\msinkaut15\nf-msinkaut15-iinkdivider-get_lineheight.md) | Gets or sets the expected handwriting height, in HIMETRIC units. |
+| [IInkDivider::get_RecognizerContext](..\msinkaut15\nf-msinkaut15-iinkdivider-get_recognizercontext.md) | Gets or sets the InkRecognizerContext object that the InkDivider object uses for layout analysis. |
+| [IInkDivider::get_Strokes](..\msinkaut15\nf-msinkaut15-iinkdivider-get_strokes.md) | Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis. |
+| [IInkDivider::put_LineHeight](..\msinkaut15\nf-msinkaut15-iinkdivider-put_lineheight.md) | Gets or sets the expected handwriting height, in HIMETRIC units. |
+| [IInkDivider::putref_RecognizerContext](..\msinkaut15\nf-msinkaut15-iinkdivider-putref_recognizercontext.md) | Gets or sets the InkRecognizerContext object that the InkDivider object uses for layout analysis. |
+| [IInkDivider::putref_Strokes](..\msinkaut15\nf-msinkaut15-iinkdivider-putref_strokes.md) | Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis. |
 | [IInkDivisionResult::ResultByType](..\msinkaut15\nf-msinkaut15-iinkdivisionresult-resultbytype.md) | Gets the requested structural units of the analysis results for an IInkDivisionUnits collection. |
 | [IInkDivisionResult::get_Strokes](..\msinkaut15\nf-msinkaut15-iinkdivisionresult-get_strokes.md) | Gets the collection of strokes that are contained in an object or used to create an object. |
 | [IInkDivisionUnit::get_DivisionType](..\msinkaut15\nf-msinkaut15-iinkdivisionunit-get_divisiontype.md) | Gets the type of structural unit the IInkDivisionUnit object represents within the analysis results. |
@@ -747,17 +763,20 @@ For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 | [IPenInputPanel::MoveTo](..\peninputpanel\nf-peninputpanel-ipeninputpanel-moveto.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets the position of the PenInputPanel object to a static screen position. |
 | [IPenInputPanel::Refresh](..\peninputpanel\nf-peninputpanel-ipeninputpanel-refresh.md) | Refresh is no longer available for use as of Windows XP Tablet PC Edition. |
 | [IPenInputPanel::get_AttachedEditWindow](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_attachededitwindow.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to. |
+| [IPenInputPanel::get_AutoShow](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_autoshow.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen. |
 | [IPenInputPanel::get_Busy](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_busy.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets a a value that indicates whether the PenInputPanel object is currently processing ink. |
 | [IPenInputPanel::get_CurrentPanel](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_currentpanel.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets which panel type is currently being used for input within the PenInputPanel object. |
 | [IPenInputPanel::get_DefaultPanel](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_defaultpanel.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object. |
 | [IPenInputPanel::get_Factoid](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_factoid.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object. |
 | [IPenInputPanel::get_Height](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_height.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the height of the pen input panel in client coordinates. |
 | [IPenInputPanel::get_HorizontalOffset](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_horizontaloffset.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the offset between the left edge of the pen input panel and the left edge of the control to which it is attached. |
+| [IPenInputPanel::get_Left](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_left.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the horizontal, or x-axis, location of the left edge of the PenInputPanel object, in screen coordinates. |
 | [IPenInputPanel::get_Top](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_top.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the vertical, or y-axis, location of the top edge of the PenInputPanel object, in screen coordinates. |
 | [IPenInputPanel::get_VerticalOffset](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_verticaloffset.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the offset between the closest horizontal edge of the pen input panel and the closest horizontal edge of the control to which it is attached. |
 | [IPenInputPanel::get_Visible](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_visible.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the PenInputPanel object is visible. |
 | [IPenInputPanel::get_Width](..\peninputpanel\nf-peninputpanel-ipeninputpanel-get_width.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the width of the pen input panel in client coordinates. |
 | [IPenInputPanel::put_AttachedEditWindow](..\peninputpanel\nf-peninputpanel-ipeninputpanel-put_attachededitwindow.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to. |
+| [IPenInputPanel::put_AutoShow](..\peninputpanel\nf-peninputpanel-ipeninputpanel-put_autoshow.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen. |
 | [IPenInputPanel::put_CurrentPanel](..\peninputpanel\nf-peninputpanel-ipeninputpanel-put_currentpanel.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets which panel type is currently being used for input within the PenInputPanel object. |
 | [IPenInputPanel::put_DefaultPanel](..\peninputpanel\nf-peninputpanel-ipeninputpanel-put_defaultpanel.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object. |
 | [IPenInputPanel::put_Factoid](..\peninputpanel\nf-peninputpanel-ipeninputpanel-put_factoid.md) | Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the string name of the factoid used by the PenInputPanel object. |

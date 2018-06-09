@@ -2,7 +2,7 @@
 UID: NA:winddi
 ms.assetid: 5d0d3b4a-c5bd-306f-8fb4-0bb6b1ce60f6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
