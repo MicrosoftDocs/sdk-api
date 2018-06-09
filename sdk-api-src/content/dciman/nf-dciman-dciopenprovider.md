@@ -7,7 +7,7 @@ old-location: winprog\_dciman_dciopenprovider.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciopenprovider.htm
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dciopenprovider, dciman/DCIOpenProvider, winprog._dciman_dciopenprovider, winui._dciman_dciopenprovider
 ms.prod: windows
 ms.technology: windows-sdk

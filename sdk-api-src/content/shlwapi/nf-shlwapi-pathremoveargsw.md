@@ -7,7 +7,7 @@ old-location: shell\PathRemoveArgs.htm
 old-project: shell
 ms.assetid: 430072bc-4ddc-4b3d-bf32-fb60d7b56faf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: PathRemoveArgs, PathRemoveArgs function [Windows Shell], PathRemoveArgsA, PathRemoveArgsW, _win32_PathRemoveArgs, shell.PathRemoveArgs, shlwapi/PathRemoveArgs, shlwapi/PathRemoveArgsA, shlwapi/PathRemoveArgsW
 ms.prod: windows
 ms.technology: windows-sdk

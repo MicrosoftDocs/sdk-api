@@ -7,7 +7,7 @@ old-location: security\cryptmsgopentodecode.htm
 old-project: SecCrypto
 ms.assetid: b3df6312-c866-4faa-8b89-bda67c697631
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToDecode, CryptMsgOpenToDecode function [Security], _crypto2_cryptmsgopentodecode, security.cryptmsgopentodecode, wincrypt/CryptMsgOpenToDecode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -298,11 +298,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="cryptography_functions.htm">Low-level Message Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
  
 
  

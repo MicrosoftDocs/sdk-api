@@ -7,7 +7,7 @@ old-location: mf\itocentrylist_getentrybyindex.htm
 old-project: medfound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryByIndex method, ITocEntryList.GetEntryByIndex, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
 ms.prod: windows
 ms.technology: windows-sdk

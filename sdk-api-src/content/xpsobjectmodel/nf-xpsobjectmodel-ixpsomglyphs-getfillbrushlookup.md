@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getfillbrushlookup.htm
 old-project: printdocs
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ The method succeeded.
 
 
 
-This method allocates the memory that is used by the string returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory that is used by the string returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

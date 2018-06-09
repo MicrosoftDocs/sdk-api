@@ -7,7 +7,7 @@ old-location: mf\opm_dpcp_protection_level.htm
 old-project: medfound
 ms.assetid: c761f3c1-f18e-4ae9-9aa1-1ba440a6c8df
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: OPM_DPCP_FORCE_ULONG, OPM_DPCP_OFF, OPM_DPCP_ON, OPM_DPCP_PROTECTION_LEVEL, OPM_DPCP_PROTECTION_LEVEL enumeration [Media Foundation], _OPM_DPCP_PROTECTION_LEVEL, mf.opm_dpcp_protection_level, opmapi/OPM_DPCP_FORCE_ULONG, opmapi/OPM_DPCP_OFF, opmapi/OPM_DPCP_ON, opmapi/OPM_DPCP_PROTECTION_LEVEL
 ms.prod: windows
 ms.technology: windows-sdk

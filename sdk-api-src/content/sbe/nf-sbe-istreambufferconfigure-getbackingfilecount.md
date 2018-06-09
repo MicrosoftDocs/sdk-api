@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure_getbackingfilecount.htm
 old-project: mstv
 ms.assetid: 5bf2a99a-ed6b-4ce6-9190-756393afcef0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetBackingFileCount, GetBackingFileCount method [Microsoft TV Technologies], GetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetBackingFileCount method, IStreamBufferConfigure.GetBackingFileCount, IStreamBufferConfigure::GetBackingFileCount, IStreamBufferConfigureGetBackingFileCount, mstv.istreambufferconfigure_getbackingfilecount, sbe/IStreamBufferConfigure::GetBackingFileCount
 ms.prod: windows
 ms.technology: windows-sdk

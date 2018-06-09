@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereferencecollection.htm
 old-project: printdocs
 ms.assetid: 4b51bc29-c653-41fa-bbd3-9ff529f84e4e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],described, xps.ixpsompagereferencecollection, xpsobjectmodel/IXpsOMPageReferenceCollection
 ms.prod: windows
 ms.technology: windows-sdk

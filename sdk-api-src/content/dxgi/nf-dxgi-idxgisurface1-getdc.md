@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgisurface1_getdc.htm
 old-project: direct3ddxgi
 ms.assetid: b148d2b4-36a2-46b9-8a98-9f3c478549a4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetDC, GetDC method [DXGI], GetDC method [DXGI],IDXGISurface1 interface, IDXGISurface1 interface [DXGI],GetDC method, IDXGISurface1.GetDC, IDXGISurface1::GetDC, aa5d4cb4-dcad-b7fd-560c-12cc222965a0, direct3ddxgi.idxgisurface1_getdc, dxgi/IDXGISurface1::GetDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ A pointer to an <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, an error code.
 

@@ -7,7 +7,7 @@ old-location: intl\primarylangid.htm
 old-project: Intl
 ms.assetid: e463a2dc-bf36-4fbb-8df6-799ca1d549fa
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Windows Applications], _win32_PRIMARYLANGID, intl.primarylangid, winnt/PRIMARYLANGID
 ms.prod: windows
 ms.technology: windows-sdk

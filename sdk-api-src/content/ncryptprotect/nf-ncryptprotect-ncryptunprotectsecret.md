@@ -7,7 +7,7 @@ old-location: security\ncryptunprotectsecret.htm
 old-project: SecCNG
 ms.assetid: F532F0ED-36F4-47E3-B478-089CC083E5D1
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCRYPT_UNPROTECT_NO_DECRYPT, NCryptUnprotectSecret, NCryptUnprotectSecret function [Security], ncryptprotect/NCryptUnprotectSecret, security.ncryptunprotectsecret
 ms.prod: windows
 ms.technology: windows-sdk

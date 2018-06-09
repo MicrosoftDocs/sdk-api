@@ -7,7 +7,7 @@ old-location: mstv\iesevent_getdata.htm
 old-project: mstv
 ms.assetid: bef529c5-0a97-4eb0-83ca-669edc7a2452
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetData method, IESEvent.GetData, IESEvent::GetData, mstv.iesevent_getdata, tuner/IESEvent::GetData
 ms.prod: windows
 ms.technology: windows-sdk

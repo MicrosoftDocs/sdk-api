@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_initialize.htm
 old-project: mstv
 ms.assetid: 9a127b94-7591-47b4-b631-50a347b540c6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IATSC_VCT interface [Microsoft TV Technologies],Initialize method, IATSC_VCT.Initialize, IATSC_VCT::Initialize, IATSC_VCTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_VCT interface, atscpsipparser/IATSC_VCT::Initialize, mstv.iatsc_vct_initialize
 ms.prod: windows
 ms.technology: windows-sdk

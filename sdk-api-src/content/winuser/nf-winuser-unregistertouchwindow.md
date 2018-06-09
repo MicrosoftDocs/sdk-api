@@ -7,7 +7,7 @@ old-location: wintouch\unregistertouchwindow.htm
 old-project: wintouch
 ms.assetid: 19b83312-b52b-45a5-9595-23d4621c4342
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/04/2018
 ms.keywords: UnregisterTouchWindow, UnregisterTouchWindow function [Windows Touch], wintouch.unregistertouchwindow, winuser/UnregisterTouchWindow
 ms.prod: windows
 ms.technology: windows-sdk

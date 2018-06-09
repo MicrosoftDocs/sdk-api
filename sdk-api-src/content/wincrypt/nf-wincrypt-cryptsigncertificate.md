@@ -7,7 +7,7 @@ old-location: security\cryptsigncertificate.htm
 old-project: SecCrypto
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ The signature algorithm's <a href="https://msdn.microsoft.com/e6be8932-015e-4058
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

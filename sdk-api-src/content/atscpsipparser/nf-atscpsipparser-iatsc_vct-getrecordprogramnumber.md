@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordprogramnumber.htm
 old-project: mstv
 ms.assetid: 11bf3b27-98da-4f4f-a6a9-6c69b20aedda
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IATSC_VCT.GetRecordProgramNumber, IATSC_VCT::GetRecordProgramNumber, IATSC_VCTGetRecordProgramNumber, atscpsipparser/IATSC_VCT::GetRecordProgramNumber, mstv.iatsc_vct_getrecordprogramnumber
 ms.prod: windows
 ms.technology: windows-sdk

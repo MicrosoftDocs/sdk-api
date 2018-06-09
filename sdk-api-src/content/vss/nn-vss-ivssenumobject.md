@@ -56,7 +56,7 @@ The <b>IVssEnumObject</b> interface contains methods
     to iterate over and perform other operations on a list of enumerated objects.
 
 The calling application is responsible for calling 
-    <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources held by the 
+    <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> to release the resources held by the 
     returned <b>IVssEnumObject</b> when it is no longer needed. It 
     may also need to call <b>IUnknown::Release</b> to release 
     temporary objects (such as strings) returned during enumeration.

@@ -7,7 +7,7 @@ old-location: shell\ScreenSaverProc.htm
 old-project: shell
 ms.assetid: cc013841-41fc-404a-a239-4118f70542b5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
 ms.prod: windows
 ms.technology: windows-sdk

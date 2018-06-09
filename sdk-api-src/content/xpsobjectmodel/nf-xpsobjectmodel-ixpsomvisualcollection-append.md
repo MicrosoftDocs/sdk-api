@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualcollection_append.htm
 old-project: printdocs
 ms.assetid: e0e5134b-9f8a-45ff-9892-fd010d7df787
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],Append method, IXpsOMVisualCollection.Append, IXpsOMVisualCollection::Append, xps.ixpsomvisualcollection_append, xpsobjectmodel/IXpsOMVisualCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

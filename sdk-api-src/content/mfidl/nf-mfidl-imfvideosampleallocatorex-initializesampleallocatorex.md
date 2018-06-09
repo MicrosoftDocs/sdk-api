@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatorex_initializesampleallocatorex.htm
 old-project: medfound
 ms.assetid: 0AE0826D-058C-4A2F-94F2-A761CA885E67
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFVideoSampleAllocatorEx interface [Media Foundation],InitializeSampleAllocatorEx method, IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx, IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx, InitializeSampleAllocatorEx, InitializeSampleAllocatorEx method [Media Foundation], InitializeSampleAllocatorEx method [Media Foundation],IMFVideoSampleAllocatorEx interface, mf.imfvideosampleallocatorex_initializesampleallocatorex, mfidl/IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
 ms.prod: windows
 ms.technology: windows-sdk

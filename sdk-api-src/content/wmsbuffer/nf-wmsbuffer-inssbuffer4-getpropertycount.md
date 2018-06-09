@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer4_getpropertycount.htm
 old-project: wmformat
 ms.assetid: b47f26b3-e816-498d-adc3-c6d3357971e6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyCount method, INSSBuffer4.GetPropertyCount, INSSBuffer4::GetPropertyCount, INSSBuffer4GetPropertyCount, wmformat.inssbuffer4_getpropertycount, wmsbuffer/INSSBuffer4::GetPropertyCount
 ms.prod: windows
 ms.technology: windows-sdk

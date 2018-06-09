@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getinfo.htm
 old-project: CoreAudio
 ms.assetid: F54BF2B9-B9A4-47EF-8C18-DC58B24B617E
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetInfo, GetInfo method [Core Audio], GetInfo method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetInfo method, ISpatialAudioMetadataItems.GetInfo, ISpatialAudioMetadataItems::GetInfo, coreaudio.ispatialaudiometadataitems_getinfo, spatialaudiometadata/ISpatialAudioMetadataItems::GetInfo
 ms.prod: windows
 ms.technology: windows-sdk

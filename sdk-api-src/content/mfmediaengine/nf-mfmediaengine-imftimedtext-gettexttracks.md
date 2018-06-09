@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_gettexttracks.htm
 old-project: medfound
 ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetTextTracks, GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTextTracks method, IMFTimedText.GetTextTracks, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

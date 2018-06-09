@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setplaybackrate.htm
 old-project: medfound
 ms.assetid: 648BF1CC-BFAC-4874-808B-F8B46E3E9989
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPlaybackRate method, IMFMediaEngine.SetPlaybackRate, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

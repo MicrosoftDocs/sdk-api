@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactionemail_mailfrom.htm
 old-project: Fsrm
 ms.assetid: 67fb5ae6-7728-4c95-92d6-f36859346cc7
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail.MailFrom, IFsrmActionEmail.put_MailFrom, IFsrmActionEmail2 interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail2.MailFrom, IFsrmActionEmail2::MailFrom, IFsrmActionEmail2::get_MailFrom, IFsrmActionEmail2::put_MailFrom, IFsrmActionEmail::get_MailFrom, IFsrmActionEmail::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],IFsrmActionEmail interface, MailFrom property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailfrom, fsrm.ifsrmactionemail_mailfrom, fsrm/IFsrmActionEmail2::MailFrom, fsrm/IFsrmActionEmail2::get_MailFrom, fsrm/IFsrmActionEmail2::put_MailFrom, fsrm/IFsrmActionEmail::MailFrom, fsrm/IFsrmActionEmail::get_MailFrom, fsrm/IFsrmActionEmail::put_MailFrom, put_MailFrom
 ms.prod: windows
 ms.technology: windows-sdk

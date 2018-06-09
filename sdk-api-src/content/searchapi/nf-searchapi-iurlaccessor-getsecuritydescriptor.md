@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetSecurityDescriptor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecuritydescriptor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [search], GetSecurityDescriptor method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityDescriptor method, IUrlAccessor.GetSecurityDescriptor, IUrlAccessor::GetSecurityDescriptor, _search_IUrlAccessor_GetSecurityDescriptor, search._search_IUrlAccessor_GetSecurityDescriptor, searchapi/IUrlAccessor::GetSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

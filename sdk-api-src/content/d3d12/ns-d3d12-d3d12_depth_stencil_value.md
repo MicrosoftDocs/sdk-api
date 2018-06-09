@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_depth_stencil_value.htm
 old-project: direct3d12
 ms.assetid: 9C37A002-F65A-4943-AA15-C62D7DD25A74
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_DEPTH_STENCIL_VALUE, D3D12_DEPTH_STENCIL_VALUE structure, d3d12/D3D12_DEPTH_STENCIL_VALUE, direct3d12.d3d12_depth_stencil_value
 ms.prod: windows
 ms.technology: windows-sdk

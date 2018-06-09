@@ -7,7 +7,7 @@ old-location: multimedia\icgetbufferswanted.htm
 old-project: Multimedia
 ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
 ms.prod: windows
 ms.technology: windows-sdk

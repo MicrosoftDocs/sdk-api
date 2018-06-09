@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getinstancesbyquery.htm
 old-project: WmiSdk
 ms.assetid: cf086577-8964-4b6b-8863-78b53f73397e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQuery method, CWbemProviderGlue.GetInstancesByQuery, CWbemProviderGlue::GetInstancesByQuery, GetInstancesByQuery, GetInstancesByQuery method [Windows Management Instrumentation], GetInstancesByQuery method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyquery, wbemglue/CWbemProviderGlue::GetInstancesByQuery, wmi.cwbemproviderglue_getinstancesbyquery
 ms.prod: windows
 ms.technology: windows-sdk

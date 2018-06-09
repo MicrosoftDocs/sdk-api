@@ -7,7 +7,7 @@ old-location: winprog\rtlfreeunicodestring.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeunicodestring.htm
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString function [Windows API], winprog.rtlfreeunicodestring, winternl/RtlFreeUnicodeString, winui.rtlfreeunicodestring
 ms.prod: windows
 ms.technology: windows-sdk

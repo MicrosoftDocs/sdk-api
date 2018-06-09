@@ -7,7 +7,7 @@ old-location: base\localrealloc.htm
 old-project: Memory
 ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
 ms.prod: windows
 ms.technology: windows-sdk

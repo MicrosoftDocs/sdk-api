@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_getsignaturevalue.htm
 old-project: printdocs
 ms.assetid: 40a21fa3-cf71-4c0d-8343-83a2c1a216c9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureValue method, IXpsSignature.GetSignatureValue, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ The interface is not connected to the signature manager.
 
 
 
-This method allocates the memory buffer whose pointer is returned in <i>signatureHashValue</i>.  If <i>signatureHashValue</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory buffer whose pointer is returned in <i>signatureHashValue</i>.  If <i>signatureHashValue</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

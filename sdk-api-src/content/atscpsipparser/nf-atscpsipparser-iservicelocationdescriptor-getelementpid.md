@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementpid.htm
 old-project: mstv
 ms.assetid: 97b6091b-cacb-4e69-8ca4-c9f4b70f6304
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetElementPID, GetElementPID method [Microsoft TV Technologies], GetElementPID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementPID method, IServiceLocationDescriptor.GetElementPID, IServiceLocationDescriptor::GetElementPID, atscpsipparser/IServiceLocationDescriptor::GetElementPID, mstv.iservicelocationdescriptor_getelementpid
 ms.prod: windows
 ms.technology: windows-sdk

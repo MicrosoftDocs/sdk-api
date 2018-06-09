@@ -7,7 +7,7 @@ old-location: dshow\pin_direction.htm
 old-project: DirectShow
 ms.assetid: 87f4e2e8-543f-46a3-b385-cc2e6af39770
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: PINDIR_INPUT, PINDIR_OUTPUT, PIN_DIRECTION, PIN_DIRECTION , PIN_DIRECTION enumeration [DirectShow], PIN_DIRECTIONEnumeration, _PinDirection, dshow.pin_direction, strmif/PINDIR_INPUT, strmif/PINDIR_OUTPUT, strmif/PIN_DIRECTION
 ms.prod: windows
 ms.technology: windows-sdk

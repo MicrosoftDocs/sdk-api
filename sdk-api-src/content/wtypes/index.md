@@ -2,12 +2,12 @@
 UID: NA:wtypes
 ms.assetid: aba348b1-6708-3974-997a-5f118bf78bc9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: stg
+tech.root: automat
 ---
 
 # Wtypes.h header

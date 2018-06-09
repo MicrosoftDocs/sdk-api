@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_GetIndexerVersion.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversion.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetIndexerVersion, GetIndexerVersion method [search], GetIndexerVersion method [search],ISearchManager interface, ISearchManager interface [search],GetIndexerVersion method, ISearchManager.GetIndexerVersion, ISearchManager::GetIndexerVersion, _search_ISearchManager_GetIndexerVersion, search._search_ISearchManager_GetIndexerVersion, searchapi/ISearchManager::GetIndexerVersion
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager2.htm
 old-project: Wua_Sdk
 ms.assetid: 26b75edc-eb43-4ee0-8040-da8b3252cf21
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], IUpdateServiceManager2 interface [Windows Update Agent],described, wua.iupdateservicemanager2, wuapi/IUpdateServiceManager2
 ms.prod: windows
 ms.technology: windows-sdk

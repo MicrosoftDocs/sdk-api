@@ -7,7 +7,7 @@ old-location: wua\iupdate_kbarticleids.htm
 old-project: Wua_Sdk
 ms.assetid: 3f30f356-6534-40b7-b3e5-18ab2980a610
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdate interface [Windows Update Agent],KBArticleIDs property, IUpdate.KBArticleIDs, IUpdate.get_KBArticleIDs, IUpdate::KBArticleIDs, IUpdate::get_KBArticleIDs, KBArticleIDs property [Windows Update Agent], KBArticleIDs property [Windows Update Agent],IUpdate interface, get_KBArticleIDs, wua.iupdate_kbarticleids, wuapi/IUpdate::KBArticleIDs, wuapi/IUpdate::get_KBArticleIDs
 ms.prod: windows
 ms.technology: windows-sdk

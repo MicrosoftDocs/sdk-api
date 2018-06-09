@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_GetNamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getnamedentity.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetNamedEntity, GetNamedEntity method [search], GetNamedEntity method [search],IEntity interface, IEntity interface [search],GetNamedEntity method, IEntity.GetNamedEntity, IEntity::GetNamedEntity, _search_IEntity_GetNamedEntity, search._search_IEntity_GetNamedEntity, structuredquery/IEntity::GetNamedEntity
 ms.prod: windows
 ms.technology: windows-sdk

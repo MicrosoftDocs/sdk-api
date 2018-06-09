@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_gettableidext.htm
 old-project: mstv
 ms.assetid: 2b77ce3b-c706-4820-88dc-08b37978664b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTableIdExt, GetTableIdExt method [Microsoft TV Technologies], GetTableIdExt method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTableIdExt method, IISDB_SDTT.GetTableIdExt, IISDB_SDTT::GetTableIdExt, dvbsiparser/IISDB_SDTT::GetTableIdExt, mstv.iisdb_sdtt_gettableidext
 ms.prod: windows
 ms.technology: windows-sdk

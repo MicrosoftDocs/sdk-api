@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getid.htm
 old-project: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

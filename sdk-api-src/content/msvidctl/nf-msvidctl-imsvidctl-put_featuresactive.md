@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_featuresactive.htm
 old-project: mstv
 ms.assetid: 293506fa-3208-468e-982a-3c1f8ce0269b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_FeaturesActive method, IMSVidCtl.put_FeaturesActive, IMSVidCtl::put_FeaturesActive, IMSVidCtlput_FeaturesActive, mstv.imsvidctl_put_featuresactive, msvidctl/IMSVidCtl::put_FeaturesActive, put_FeaturesActive, put_FeaturesActive method [Microsoft TV Technologies], put_FeaturesActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows
 ms.technology: windows-sdk

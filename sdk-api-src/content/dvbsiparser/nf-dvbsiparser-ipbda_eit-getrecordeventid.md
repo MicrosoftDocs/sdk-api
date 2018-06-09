@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecordeventid.htm
 old-project: mstv
 ms.assetid: c34ad3ee-f4f9-4088-88ae-1340ea503cf5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IPBDA_EIT.GetRecordEventId, IPBDA_EIT::GetRecordEventId, dvbsiparser/IPBDA_EIT::GetRecordEventId, mstv.ipbda_eit_getrecordeventid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Receives the unique identifier from an event record in an event information tabl
 
 
   Specifies the service record number, indexed from zero.
-  Call the <a href="mstv.ipda_eit_getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
+  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords.md">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 
 

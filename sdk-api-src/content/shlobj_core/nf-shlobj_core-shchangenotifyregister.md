@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotifyRegister.htm
 old-project: shell
 ms.assetid: 73143865-ca2f-4578-a7a2-2ba4833eddd8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: NTSHChangeNotifyRegister, SHCNRF_InterruptLevel, SHCNRF_NewDelivery, SHCNRF_RecursiveInterrupt, SHCNRF_ShellLevel, SHChangeNotifyRegister, SHChangeNotifyRegister function [Windows Shell], _win32_SHChangeNotifyRegister, shell.SHChangeNotifyRegister, shlobj_core/NTSHChangeNotifyRegister, shlobj_core/SHChangeNotifyRegister
 ms.prod: windows
 ms.technology: windows-sdk

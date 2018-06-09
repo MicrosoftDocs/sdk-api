@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsevents_onsmsnewclass0message.htm
 old-project: mbn
 ms.assetid: e6d13393-557c-462c-a640-2228ab0c9c17
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsNewClass0Message method, IMbnSmsEvents.OnSmsNewClass0Message, IMbnSmsEvents::OnSmsNewClass0Message, OnSmsNewClass0Message, OnSmsNewClass0Message method [Microsoft Broadband Networks], OnSmsNewClass0Message method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsnewclass0message, mbnapi/IMbnSmsEvents::OnSmsNewClass0Message
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,9 +87,9 @@ This method must return <b>S_OK</b>.
 
 
 
-For GSM devices, the calling application should call <a href="_com_IUnknown_QueryInterface">QueryInterface</a> on each element in <i>readMsgs</i> for an <a href="https://msdn.microsoft.com/dc0e15c4-6203-4105-9d19-5931b27047d2">IMbnSmsReadMsgPdu</a> interface.
+For GSM devices, the calling application should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on each element in <i>readMsgs</i> for an <a href="https://msdn.microsoft.com/dc0e15c4-6203-4105-9d19-5931b27047d2">IMbnSmsReadMsgPdu</a> interface.
 
-For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>, then the calling application should call <a href="_com_IUnknown_QueryInterface">QueryInterface</a> for a <a href="https://msdn.microsoft.com/d26b09f7-eb83-46ed-82cb-a702d3af5d05">IMbnSmsReadMsgTextCdma</a> interface. If <i>smsFormat</i> is <b>MBN_SMS_FORMAT_PDU</b>, then the calling application should call <b>QueryInterface</b> for a <a href="https://msdn.microsoft.com/dc0e15c4-6203-4105-9d19-5931b27047d2">IMbnSmsReadMsgPdu</a> interface. 
+For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>, then the calling application should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for a <a href="https://msdn.microsoft.com/d26b09f7-eb83-46ed-82cb-a702d3af5d05">IMbnSmsReadMsgTextCdma</a> interface. If <i>smsFormat</i> is <b>MBN_SMS_FORMAT_PDU</b>, then the calling application should call <b>QueryInterface</b> for a <a href="https://msdn.microsoft.com/dc0e15c4-6203-4105-9d19-5931b27047d2">IMbnSmsReadMsgPdu</a> interface. 
 
 
 

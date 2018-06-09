@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingportmapping_next.htm
 old-project: ICS
 ms.assetid: bf90fca7-0c4f-474f-a856-7d6865ea8f03
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Next method, IEnumNetSharingPortMapping.Next, IEnumNetSharingPortMapping::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_next, ics.ienumnetsharingportmapping_next, netcon/IEnumNetSharingPortMapping::Next
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressgetpalette.htm
 old-project: Multimedia
 ms.assetid: 433155ce-f9a1-408d-9caa-43a736fbdc67
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICDecompressGetPalette, ICDecompressGetPalette macro [Windows Multimedia], _win32_ICDecompressGetPalette, multimedia.icdecompressgetpalette, vfw/ICDecompressGetPalette
 ms.prod: windows
 ms.technology: windows-sdk

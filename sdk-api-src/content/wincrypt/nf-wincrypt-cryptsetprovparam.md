@@ -7,7 +7,7 @@ old-location: security\cryptsetprovparam.htm
 old-project: SecCrypto
 ms.assetid: 98306a7b-b218-4eb4-99f0-0b5bcc632a13
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptSetProvParam, CryptSetProvParam function [Security], PP_CLIENT_HWND, PP_DELETEKEY, PP_KEYEXCHANGE_ALG, PP_KEYEXCHANGE_KEYSIZE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_PIN_PROMPT_STRING, PP_ROOT_CERTSTORE, PP_SECURE_KEYEXCHANGE_PIN, PP_SECURE_SIGNATURE_PIN, PP_SIGNATURE_ALG, PP_SIGNATURE_KEYSIZE, PP_SIGNATURE_PIN, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_UI_PROMPT, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, _crypto2_cryptsetprovparam, security.cryptsetprovparam, wincrypt/CryptSetProvParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -428,7 +428,7 @@ The function failed in some unexpected way.
 
 
 
-<a href="cryptography_functions.htm">Service Provider Functions</a>
+<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
  
 
  

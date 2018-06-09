@@ -7,7 +7,7 @@ old-location: gdi\ptmergeandvalidateprintticket.htm
 old-project: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ Settings that are outside of the <i>scope</i> are not included in the <i>pResult
 
 When the function returns a value, the seek position of <i>pResultTicket</i> is at the end of the print ticket content. The caller is responsible for resetting the seek position before reading the data.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 

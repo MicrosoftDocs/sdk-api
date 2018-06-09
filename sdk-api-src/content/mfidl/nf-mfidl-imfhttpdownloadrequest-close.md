@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_close.htm
 old-project: medfound
 ms.assetid: BA560323-EE64-4423-B63A-F2B6FDE608DC
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],Close method, IMFHttpDownloadRequest.Close, IMFHttpDownloadRequest::Close, mf.imfhttpdownloadrequest_close, mfidl/IMFHttpDownloadRequest::Close
 ms.prod: windows
 ms.technology: windows-sdk

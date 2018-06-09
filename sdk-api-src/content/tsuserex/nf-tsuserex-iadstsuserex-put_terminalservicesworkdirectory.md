@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm
 old-project: TermServ
 ms.assetid: 66048329-ae5a-4e70-b6a4-dcdc312a74df
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesWorkDirectory property, IADsTSUserEx.TerminalServicesWorkDirectory, IADsTSUserEx.put_TerminalServicesWorkDirectory, IADsTSUserEx::TerminalServicesWorkDirectory, IADsTSUserEx::get_TerminalServicesWorkDirectory, IADsTSUserEx::put_TerminalServicesWorkDirectory, TerminalServicesWorkDirectory property [Remote Desktop Services], TerminalServicesWorkDirectory property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesWorkDirectory, termserv.iadstsuserex_terminalservicesworkdirectory, tsuserex/IADsTSUserEx::TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::get_TerminalServicesWorkDirectory, tsuserex/IADsTSUserEx::put_TerminalServicesWorkDirectory
 ms.prod: windows
 ms.technology: windows-sdk

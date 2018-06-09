@@ -7,7 +7,7 @@ old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 15b70e2e-21e0-406c-9d7a-32031114d50b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbTerrestrialDeliverySystemDescriptor.GetTag, IIsdbTerrestrialDeliverySystemDescriptor::GetTag, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTag, mstv.iisdbterrestrialdeliverysystemdescriptor_gettag
 ms.prod: windows
 ms.technology: windows-sdk

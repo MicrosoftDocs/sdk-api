@@ -7,7 +7,7 @@ old-location: fsrm\fsrmfilemanagementtype.htm
 old-project: Fsrm
 ms.assetid: f4e352c7-32fe-4a42-9d64-604c29680d7d
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: FsrmFileManagementType, FsrmFileManagementType enumeration [File Server Resource Manager], FsrmFileManagementType_Custom, FsrmFileManagementType_Expiration, FsrmFileManagementType_Rms, FsrmFileManagementType_Unknown, _FsrmFileManagementType, fs.fsrmfilemanagementtype, fsrm.fsrmfilemanagementtype, fsrm/FsrmFileManagementType, fsrm/FsrmFileManagementType_Custom, fsrm/FsrmFileManagementType_Expiration, fsrm/FsrmFileManagementType_Rms, fsrm/FsrmFileManagementType_Unknown
 ms.prod: windows
 ms.technology: windows-sdk

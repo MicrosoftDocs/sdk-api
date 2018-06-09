@@ -7,7 +7,7 @@ old-location: winprog\recordfeatureusage.htm
 old-project: DevNotes
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
 ms.prod: windows
 ms.technology: windows-sdk

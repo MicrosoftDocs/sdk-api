@@ -7,7 +7,7 @@ old-location: mstv\istreambuffersink3.htm
 old-project: mstv
 ms.assetid: a3adbe79-7d7c-4b12-a574-23c64d2311af
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IStreamBufferSink3, IStreamBufferSink3 interface [Microsoft TV Technologies], IStreamBufferSink3 interface [Microsoft TV Technologies],described, IStreamBufferSink3Interface, mstv.istreambuffersink3, sbe/IStreamBufferSink3
 ms.prod: windows
 ms.technology: windows-sdk

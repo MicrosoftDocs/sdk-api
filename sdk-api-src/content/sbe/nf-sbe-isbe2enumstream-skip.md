@@ -7,7 +7,7 @@ old-location: mstv\isbe2enumstream_skip.htm
 old-project: mstv
 ms.assetid: 52979cbc-203b-49ae-9892-db1abfeae94b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, ISBE2EnumStream.Skip, ISBE2EnumStream::Skip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
 ms.prod: windows
 ms.technology: windows-sdk

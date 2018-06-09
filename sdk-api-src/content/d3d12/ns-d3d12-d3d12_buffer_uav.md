@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_uav.htm
 old-project: direct3d12
 ms.assetid: 13E48B8F-4EF7-45B7-88F2-61D9BA1801D2
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_BUFFER_UAV, D3D12_BUFFER_UAV structure, d3d12/D3D12_BUFFER_UAV, direct3d12.d3d12_buffer_uav
 ms.prod: windows
 ms.technology: windows-sdk

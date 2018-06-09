@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginenotify_eventnotify.htm
 old-project: medfound
 ms.assetid: F6B9E025-53C4-4459-9EC4-EA228065FAD3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: EventNotify, EventNotify method [Media Foundation], EventNotify method [Media Foundation],IMFMediaEngineNotify interface, IMFMediaEngineNotify interface [Media Foundation],EventNotify method, IMFMediaEngineNotify.EventNotify, IMFMediaEngineNotify::EventNotify, mf.imfmediaenginenotify_eventnotify, mfmediaengine/IMFMediaEngineNotify::EventNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

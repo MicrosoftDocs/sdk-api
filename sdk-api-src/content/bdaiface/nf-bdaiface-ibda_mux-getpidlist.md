@@ -7,7 +7,7 @@ old-location: mstv\ibda_mux_getpidlist.htm
 old-project: mstv
 ms.assetid: 92b13d40-4841-45ce-b232-5e29a93d71c5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetPidList, GetPidList method [Microsoft TV Technologies], GetPidList method [Microsoft TV Technologies],IBDA_MUX interface, IBDA_MUX interface [Microsoft TV Technologies],GetPidList method, IBDA_MUX.GetPidList, IBDA_MUX::GetPidList, bdaiface/IBDA_MUX::GetPidList, mstv.ibda_mux_getpidlist
 ms.prod: windows
 ms.technology: windows-sdk

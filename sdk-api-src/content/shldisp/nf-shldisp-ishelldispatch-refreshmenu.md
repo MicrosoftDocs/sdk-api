@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_RefreshMenu.htm
 old-project: shell
 ms.assetid: D36FA5A0-AF03-4627-86E0-869BF1440958
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IShellDispatch object [Windows Shell],RefreshMenu method, IShellDispatch.RefreshMenu, IShellDispatch::RefreshMenu, RefreshMenu, RefreshMenu method [Windows Shell], RefreshMenu method [Windows Shell],IShellDispatch object, shell.IShellDispatch_RefreshMenu
 ms.prod: windows
 ms.technology: windows-sdk

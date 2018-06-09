@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor_getcountoflists.htm
 old-project: mstv
 ms.assetid: 13a439d1-c6b6-49ab-a41e-caa27e320f37
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfLists, GetCountOfLists method [Microsoft TV Technologies], GetCountOfLists method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetCountOfLists method, IDvbLogicalChannel2Descriptor.GetCountOfLists, IDvbLogicalChannel2Descriptor::GetCountOfLists, dvbsiparser/IDvbLogicalChannel2Descriptor::GetCountOfLists, mstv.idvblogicalchannel2descriptor_getcountoflists
 ms.prod: windows
 ms.technology: windows-sdk

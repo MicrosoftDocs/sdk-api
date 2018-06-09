@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_stalefiledeleted.htm
 old-project: mstv
 ms.assetid: 23cd93d9-3615-4fbf-a6de-61ee69cd51e3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferV2SourceEvent.StaleFileDeleted, IMSVidStreamBufferV2SourceEvent::StaleFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_stalefiledeleted, segment/IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
 ms.prod: windows
 ms.technology: windows-sdk

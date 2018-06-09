@@ -7,7 +7,7 @@ old-location: mf\imfdlnasinkinit.htm
 old-project: medfound
 ms.assetid: fec2933a-aa1a-41e5-b697-fdae548b3789
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFDLNASinkInit, IMFDLNASinkInit interface [Media Foundation], IMFDLNASinkInit interface [Media Foundation],described, mf.imfdlnasinkinit, mfmp2dlna/IMFDLNASinkInit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

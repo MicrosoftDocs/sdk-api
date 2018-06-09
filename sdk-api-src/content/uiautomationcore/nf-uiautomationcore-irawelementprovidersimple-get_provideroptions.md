@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple_ProviderOptions.htm
 old-project: WinAuto
 ms.assetid: fd41bb43-bbf1-4022-9472-0ad2816074c6
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IRawElementProviderSimple interface [Windows Accessibility],ProviderOptions property, IRawElementProviderSimple.ProviderOptions, IRawElementProviderSimple.get_ProviderOptions, IRawElementProviderSimple::ProviderOptions, IRawElementProviderSimple::get_ProviderOptions, ProviderOptions property [Windows Accessibility], ProviderOptions property [Windows Accessibility],IRawElementProviderSimple interface, get_ProviderOptions, uiauto.uiauto_IRawElementProviderSimple_ProviderOptions, uiauto_IRawElementProviderSimple_ProviderOptions, uiautomationcore/IRawElementProviderSimple::ProviderOptions, uiautomationcore/IRawElementProviderSimple::get_ProviderOptions, winauto.uiauto_IRawElementProviderSimple_ProviderOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The method must return either <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ServerSideProvider</a> or <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ClientSideProvider</a>.
+The method must return either <a href="https://www.bing.com/search?q=ProviderOptions_ServerSideProvider">ProviderOptions_ServerSideProvider</a> or <a href="https://www.bing.com/search?q=ProviderOptions_ClientSideProvider">ProviderOptions_ClientSideProvider</a>.
 
 UI Automation handles the various types of providers differently. 
 			For example, events from a server-side provider are broadcast to all listening clients, 

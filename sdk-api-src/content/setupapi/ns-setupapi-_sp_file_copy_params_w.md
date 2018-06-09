@@ -7,7 +7,7 @@ old-location: setup\sp_file_copy_params.htm
 old-project: SetupApi
 ms.assetid: 4c4d418d-e279-40ea-9ec1-42ced523db34
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: "*PSP_FILE_COPY_PARAMS_W, PSP_FILE_COPY_PARAMS, PSP_FILE_COPY_PARAMS structure pointer [Setup API], SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SP_FILE_COPY_PARAMS, SP_FILE_COPY_PARAMS structure [Setup API], SP_FILE_COPY_PARAMS_W, _SP_FILE_COPY_PARAMS_W, _setupapi_sp_file_copy_params, setup.sp_file_copy_params, setupapi/PSP_FILE_COPY_PARAMS, setupapi/SP_FILE_COPY_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,7 +145,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="https://www.bing.com/search?q=VS_FIXEDFILEINFO">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 

@@ -7,7 +7,7 @@ old-location: tablet\inkedit_enabled.htm
 old-project: tablet
 ms.assetid: e3a143ed-82e4-46ba-9745-066eaa08bf7f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Enabled property, IInkEdit.Enabled, IInkEdit.put_Enabled, IInkEdit::Enabled, IInkEdit::get_Enabled, IInkEdit::put_Enabled, InkEdit.get_Enabled, InkEdit.put_Enabled, get_Enabled, inked/IInkEdit::Enabled, inked/IInkEdit::get_Enabled, inked/IInkEdit::put_Enabled, put_Enabled, tablet.inkedit_enabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The <b>Enabled</b> property allows objects to be enabled or disabled at run time
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

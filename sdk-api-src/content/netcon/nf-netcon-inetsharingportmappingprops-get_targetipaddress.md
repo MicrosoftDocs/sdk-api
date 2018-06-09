@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm
 old-project: ICS
 ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetIPAddress method, INetSharingPortMappingProps.get_TargetIPAddress, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 ### -param pbstrTargetIPAddress [out]
 
 Pointer to a 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that receives the IP address of the target computer for this port mapping.
+<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that receives the IP address of the target computer for this port mapping.
 
 
 ## -returns

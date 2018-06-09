@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_GetFocusedElementBuildCache.htm
 old-project: WinAuto
 ms.assetid: c37c2703-ce01-44fe-a959-33b9f7d66e98
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetFocusedElementBuildCache, GetFocusedElementBuildCache method [Windows Accessibility], GetFocusedElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetFocusedElementBuildCache method, IUIAutomation.GetFocusedElementBuildCache, IUIAutomation::GetFocusedElementBuildCache, uiauto.uiauto_IUIAutomation_GetFocusedElementBuildCache, uiauto_IUIAutomation_GetFocusedElementBuildCache, uiautomationclient/IUIAutomation::GetFocusedElementBuildCache, winauto.uiauto_IUIAutomation_GetFocusedElementBuildCache
 ms.prod: windows
 ms.technology: windows-sdk

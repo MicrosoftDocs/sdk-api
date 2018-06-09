@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetoutputstereomode.htm
 old-project: medfound
 ms.assetid: 86449010-6F46-460B-9972-4186FD84B407
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputStereoMode method, ID3D11VideoContext.VideoProcessorSetOutputStereoMode, ID3D11VideoContext::VideoProcessorSetOutputStereoMode, VideoProcessorSetOutputStereoMode, VideoProcessorSetOutputStereoMode method [Media Foundation], VideoProcessorSetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputStereoMode, mf.id3d11videocontext_videoprocessorsetoutputstereomode
 ms.prod: windows
 ms.technology: windows-sdk

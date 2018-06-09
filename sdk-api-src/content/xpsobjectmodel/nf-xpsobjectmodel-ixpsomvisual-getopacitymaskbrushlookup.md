@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getopacitymaskbrushlookup.htm
 old-project: printdocs
 ms.assetid: 84d4aae9-e3e3-4c82-8877-b8206d3678f0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetOpacityMaskBrushLookup, GetOpacityMaskBrushLookup method [XPS Documents and Packaging], GetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLookup method, IXpsOMVisual.GetOpacityMaskBrushLookup, IXpsOMVisual::GetOpacityMaskBrushLookup, xps.ixpsomvisual_getopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ The method succeeded.
 
 
 
-This method allocates the memory that is used by the string returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory that is used by the string returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_setwindowposition.htm
 old-project: DirectShow
 ms.assetid: 5e667044-1781-4380-b855-d15cf8cd2349
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowPosition method, IVideoWindow.SetWindowPosition, IVideoWindow::SetWindowPosition, IVideoWindowSetWindowPosition, SetWindowPosition, SetWindowPosition method [DirectShow], SetWindowPosition method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowPosition, dshow.ivideowindow_setwindowposition
 ms.prod: windows
 ms.technology: windows-sdk

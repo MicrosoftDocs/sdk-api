@@ -7,7 +7,7 @@ old-location: mstv\iisdbtsinformationdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 17c74b77-0754-47de-97f8-db1c15707276
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbTSInformationDescriptor.GetLength, IIsdbTSInformationDescriptor::GetLength, dvbsiparser/IIsdbTSInformationDescriptor::GetLength, mstv.iisdbtsinformationdescriptor_getlength
 ms.prod: windows
 ms.technology: windows-sdk

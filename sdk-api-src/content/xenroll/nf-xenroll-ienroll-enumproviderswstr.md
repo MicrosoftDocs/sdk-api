@@ -7,7 +7,7 @@ old-location: security\ienroll4_enumproviderswstr.htm
 old-project: SecCrypto
 ms.assetid: f3b40f56-3332-44e8-9753-4107948d0801
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enumProvidersWStr, IEnroll::enumProvidersWStr, enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security],IEnroll interface, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
 ms.prod: windows
 ms.technology: windows-sdk

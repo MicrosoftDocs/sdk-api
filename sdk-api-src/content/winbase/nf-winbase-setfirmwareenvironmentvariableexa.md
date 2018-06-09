@@ -7,7 +7,7 @@ old-location: base\setfirmwareenvironmentvariableex.htm
 old-project: SysInfo
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
 ms.prod: windows
 ms.technology: windows-sdk

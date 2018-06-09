@@ -7,7 +7,7 @@ old-location: mscs\registerclusternotifyv2.htm
 old-project: MsCS
 ms.assetid: DCBE285A-7386-4922-8599-19149FEBBD9F
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 callback, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, mscs.registerclusternotifyv2
 ms.prod: windows
 ms.technology: windows-sdk

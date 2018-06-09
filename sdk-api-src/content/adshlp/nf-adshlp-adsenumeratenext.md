@@ -62,7 +62,7 @@ The <b>ADsEnumerateNext</b> function enumerates through a specified number of el
 
 Type: <b>IEnumVARIANT*</b>
 
-Pointer to the  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on the enumerator object.
+Pointer to the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface on the enumerator object.
 
 
 ### -param cElements [in]
@@ -107,7 +107,7 @@ The general process to enumerate objects in a container involves the following:
 
 First, create an enumerator object on that container.
 
-Second, retrieve the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface pointer.
+Second, retrieve the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface pointer.
 
 Third, call the <b>ADsEnumerateNext</b> function to return an enumerated set of elements from the enumerator object.
 
@@ -143,7 +143,7 @@ For more information and a code example, see the  <a href="https://msdn.microsof
 
 
 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>
  
 
  

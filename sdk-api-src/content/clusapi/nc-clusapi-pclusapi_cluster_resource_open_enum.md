@@ -7,7 +7,7 @@ old-location: mscs\clusterresourceopenenum.htm
 old-project: MsCS
 ms.assetid: f801401f-f49d-41de-b88b-b832330eeccf
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM callback function [Failover Cluster], _wolf_clusterresourceopenenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, mscs.clusterresourceopenenum
 ms.prod: windows
 ms.technology: windows-sdk

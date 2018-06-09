@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetposition.htm
 old-project: Multimedia
 ms.assetid: 317e2d37-432b-41ae-a1ef-66e2dd31a21c
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: MCIWndGetPosition, MCIWndGetPosition macro [Windows Multimedia], _win32_MCIWndGetPosition, multimedia.mciwndgetposition, vfw/MCIWndGetPosition
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputstreaminfo.htm
 old-project: medfound
 ms.assetid: d57ffac7-1a92-4c6b-bd59-0acd7239c0a6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ req.product: GDI+ 1.1
 
 It is valid to call this method before setting the media types.
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputStreamInfo</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetInputStreamInfo</b>. See <a href="https://docs.microsoft.com/windows/desktop//medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

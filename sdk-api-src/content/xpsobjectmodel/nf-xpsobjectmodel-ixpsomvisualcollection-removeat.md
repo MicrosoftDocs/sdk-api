@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualcollection_removeat.htm
 old-project: printdocs
 ms.assetid: 476c296e-a4f1-4c87-afff-c8231290c581
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMVisualCollection.RemoveAt, IXpsOMVisualCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_removeat, xpsobjectmodel/IXpsOMVisualCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

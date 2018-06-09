@@ -7,7 +7,7 @@ old-location: security\cryptcatadminremovecatalog.htm
 old-project: SecCrypto
 ms.assetid: e09fe991-0e7a-45da-910a-8cb148bdff9a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptCATAdminRemoveCatalog, CryptCATAdminRemoveCatalog function [Security], mscat/CryptCATAdminRemoveCatalog, security.cryptcatadminremovecatalog
 ms.prod: windows
 ms.technology: windows-sdk

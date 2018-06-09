@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_getportcaps.htm
 old-project: audio
 ms.assetid: 9e4ba4e3-5bd7-4a90-a591-8bffaa0265d0
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: GetPortCaps, GetPortCaps method [Audio Devices], GetPortCaps method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetPortCaps method, IDirectMusicSynth.GetPortCaps, IDirectMusicSynth::GetPortCaps, audio.idirectmusicsynth_getportcaps, audmp-routines_b2b05c43-5c58-414c-aac4-3a37eceab293.xml, dmusics/IDirectMusicSynth::GetPortCaps
 ms.prod: windows
 ms.technology: windows-sdk

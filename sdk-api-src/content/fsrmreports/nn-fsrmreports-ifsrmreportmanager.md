@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportmanager.htm
 old-project: Fsrm
 ms.assetid: 112ed457-1083-4550-abd6-933f4b128e9a
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], IFsrmReportManager interface [File Server Resource Manager],described, fs.ifsrmreportmanager, fsrm.ifsrmreportmanager, fsrmreports/IFsrmReportManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to manage report jobs.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmReportManager</b> as the class identifier and 
     <code>__uuidof(IFsrmReportManager)</code> as the interface identifier. For 
     an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-559e16668c87">Defining a Report Job</a>.

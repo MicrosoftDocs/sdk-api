@@ -7,7 +7,7 @@ old-location: wmi\iwbemservices_createclassenumasync.htm
 old-project: WmiSdk
 ms.assetid: 02b81f48-c6a0-44db-86b9-936331b15cc4
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CreateClassEnumAsync, CreateClassEnumAsync method [Windows Management Instrumentation], CreateClassEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnumAsync method, IWbemServices.CreateClassEnumAsync, IWbemServices::CreateClassEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenumasync, wbemcli/IWbemServices::CreateClassEnumAsync, wmi.iwbemservices_createclassenumasync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The
 <b>IWbemServices::CreateClassEnumAsync</b> method  returns an enumeration of all classes that the class provider supports. The class provider  creates each class definition from scratch and  only returns subclasses of the requested class. As an asynchronous method, 
 <b>CreateClassEnumAsync</b> returns a status message immediately and then updates the sink passed through the <i>pResponseHandler</i> parameter—if necessary.
 
-When a call succeeds, WMI calls <a href="_com_iunknown_addref">AddRef</a> on the pointer <i>pResponseHandler</i>, returns immediately, and  then asynchronously calls <i>pResponseHandler</i>– &gt;
+When a call succeeds, WMI calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the pointer <i>pResponseHandler</i>, returns immediately, and  then asynchronously calls <i>pResponseHandler</i>– &gt;
 <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> from another thread with class definitions until the query is satisfied.
 
 
@@ -221,7 +221,7 @@ The following code example shows how to implement
 </td>
 </tr>
 </table></span></div>
-In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="_com_iunknown_addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>
 

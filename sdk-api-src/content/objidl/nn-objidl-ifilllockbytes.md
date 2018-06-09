@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes.htm
 old-project: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,15 +120,15 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="ie.BINDINFO_Structure">BINDINFO</a>
+<a href="https://www.bing.com/search?q=BINDINFO">BINDINFO</a>
 
 
 
-<a href="_com_iconnectionpoint">IConnectionPoint</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint.md">IConnectionPoint</a>
 
 
 
-<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer.md">IConnectionPointContainer</a>
 
 
 
@@ -136,7 +136,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="_com_iprogressnotify">IProgressNotify</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify.md">IProgressNotify</a>
 
 
 

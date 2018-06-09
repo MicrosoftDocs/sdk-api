@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_get_top.htm
 old-project: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IMSVidRect.get_Top, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
 ms.prod: windows
 ms.technology: windows-sdk

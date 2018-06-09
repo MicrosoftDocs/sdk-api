@@ -7,7 +7,7 @@ old-location: winprog\java_trust.htm
 old-project: DevNotes
 ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], _JAVA_TRUST, capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust"
 ms.prod: windows
 ms.technology: windows-sdk

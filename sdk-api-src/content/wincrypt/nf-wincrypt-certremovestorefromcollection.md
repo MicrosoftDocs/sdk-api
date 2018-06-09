@@ -7,7 +7,7 @@ old-location: security\certremovestorefromcollection.htm
 old-project: SecCrypto
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ This function does not return a value.
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
  
 
  

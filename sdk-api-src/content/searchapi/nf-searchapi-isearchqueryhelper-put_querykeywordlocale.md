@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_put_QueryKeywordLocale.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querykeywordlocale.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryKeywordLocale method, ISearchQueryHelper.put_QueryKeywordLocale, ISearchQueryHelper::put_QueryKeywordLocale, _search_ISearchQueryHelper_put_QueryKeywordLocale, put_QueryKeywordLocale, put_QueryKeywordLocale method [search], put_QueryKeywordLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryKeywordLocale, searchapi/ISearchQueryHelper::put_QueryKeywordLocale
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,12 @@
 UID: NA:wia_xp
 ms.assetid: ef43ca4f-6fc3-3d64-a4bb-72f44caa18e5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wia
+tech.root: automat
 ---
 
 # Wia_Xp.h header

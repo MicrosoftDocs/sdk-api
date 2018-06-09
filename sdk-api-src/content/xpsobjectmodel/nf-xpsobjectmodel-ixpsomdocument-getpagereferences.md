@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument_getpagereferences.htm
 old-project: printdocs
 ms.assetid: 65e8b20b-6a6b-4d24-86a1-b9d1833caa3c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetPageReferences, GetPageReferences method [XPS Documents and Packaging], GetPageReferences method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPageReferences method, IXpsOMDocument.GetPageReferences, IXpsOMDocument::GetPageReferences, xps.ixpsomdocument_getpagereferences, xpsobjectmodel/IXpsOMDocument::GetPageReferences
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getaccessibilityshortdescription.htm
 old-project: printdocs
 ms.assetid: 0124d37a-74c1-4f8b-9d91-c12e92cd5e8c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMPath.GetAccessibilityShortDescription, IXpsOMPath::GetAccessibilityShortDescription, xps.ixpsompath_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityShortDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ The value that is returned in <i>shortDescription</i> is the value of the <b>Aut
 
 
 
-This method allocates the memory used by the string that is returned in <i>shortDescription</i>.  If <i>shortDescription</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>shortDescription</i>.  If <i>shortDescription</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

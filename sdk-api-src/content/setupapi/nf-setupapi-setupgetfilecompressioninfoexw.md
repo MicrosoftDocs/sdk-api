@@ -7,7 +7,7 @@ old-location: setup\setupgetfilecompressioninfoex.htm
 old-project: SetupApi
 ms.assetid: e6f01e02-ea39-4b25-bcc0-2aee941c7834
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupGetFileCompressionInfoEx, SetupGetFileCompressionInfoEx function [Setup API], SetupGetFileCompressionInfoExA, SetupGetFileCompressionInfoExW, _setupapi_setupgetfilecompressioninfoex, setup.setupgetfilecompressioninfoex, setupapi/SetupGetFileCompressionInfoEx, setupapi/SetupGetFileCompressionInfoExA, setupapi/SetupGetFileCompressionInfoExW
 ms.prod: windows
 ms.technology: windows-sdk

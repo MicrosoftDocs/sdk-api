@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcherserverselection.htm
 old-project: Wua_Sdk
 ms.assetid: b514545a-d983-491b-9a28-540bd5c4c128
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServerSelection property, IUpdateSearcher.ServerSelection, IUpdateSearcher.put_ServerSelection, IUpdateSearcher::ServerSelection, IUpdateSearcher::get_ServerSelection, IUpdateSearcher::put_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateSearcher interface, put_ServerSelection, wua.iupdatesearcherserverselection, wuapi/IUpdateSearcher::ServerSelection, wuapi/IUpdateSearcher::get_ServerSelection, wuapi/IUpdateSearcher::put_ServerSelection
 ms.prod: windows
 ms.technology: windows-sdk

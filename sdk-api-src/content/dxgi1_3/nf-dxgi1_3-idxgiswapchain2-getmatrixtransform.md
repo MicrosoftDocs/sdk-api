@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain2_getmatrixtransform.htm
 old-project: direct3ddxgi
 ms.assetid: 90302283-BB0A-44A9-8CD2-591571EF74ED
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
 ms.prod: windows
 ms.technology: windows-sdk

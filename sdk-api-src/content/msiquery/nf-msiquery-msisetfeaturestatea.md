@@ -171,7 +171,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="database_functions.htm">Installer Selection Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer Selection Functions</a>
  
 
  

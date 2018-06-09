@@ -7,7 +7,7 @@ old-location: base\getprivateprofilestring.htm
 old-project: SysInfo
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
 ms.prod: windows
 ms.technology: windows-sdk

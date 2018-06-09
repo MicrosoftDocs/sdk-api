@@ -7,7 +7,7 @@ old-location: fsrm\fsrmquotaflags.htm
 old-project: Fsrm
 ms.assetid: 254a26c7-a859-4b23-a3e2-9d261c848eef
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: FsrmQuotaFlags, FsrmQuotaFlags enumeration [File Server Resource Manager], FsrmQuotaFlags_Disable, FsrmQuotaFlags_Enforce, FsrmQuotaFlags_StatusIncomplete, FsrmQuotaFlags_StatusRebuilding, _FsrmQuotaFlags, fs.fsrmquotaflags, fsrm.fsrmquotaflags, fsrmenums/FsrmQuotaFlags, fsrmenums/FsrmQuotaFlags_Disable, fsrmenums/FsrmQuotaFlags_Enforce, fsrmenums/FsrmQuotaFlags_StatusIncomplete, fsrmenums/FsrmQuotaFlags_StatusRebuilding
 ms.prod: windows
 ms.technology: windows-sdk

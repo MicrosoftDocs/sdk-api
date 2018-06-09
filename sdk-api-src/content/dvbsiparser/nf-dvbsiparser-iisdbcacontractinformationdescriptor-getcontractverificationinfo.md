@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationi
 old-project: mstv
 ms.assetid: bfec246a-df34-46c3-9529-dc1fa75582da
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
 ms.prod: windows
 ms.technology: windows-sdk

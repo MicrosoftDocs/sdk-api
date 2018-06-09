@@ -7,7 +7,7 @@ old-location: security\cryptunprotectdata.htm
 old-project: SecCrypto
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPTPROTECT_UI_FORBIDDEN, CRYPTPROTECT_VERIFY_PROTECTION, CryptUnprotectData, CryptUnprotectData function [Security], _crypto2_cryptunprotectdata, dpapi/CryptUnprotectData, security.cryptunprotectdata, wincrypt/CryptUnprotectData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -217,7 +217,7 @@ else
 
 
 
-<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
+<a href="https://www.bing.com/search?q=Data+Encryption+and+Decryption+Functions">Data Encryption and Decryption Functions</a>
 
 
 

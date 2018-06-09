@@ -7,7 +7,7 @@ old-location: base\queryinterrupttime.htm
 old-project: SysInfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ This function does not return a value.
 
 The interrupt-time count begins at zero when the system starts and is incremented at each clock interrupt by the length of a clock tick. The exact length of a clock tick depends on underlying hardware and can vary between systems.
 
-Unlike system time, the interrupt-time count is not subject to adjustments by users or the Windows time service. Applications can use the interrupt-time count to measure finer durations than are possible with system time. Applications that require greater precision than the interrupt-time count should use a <a href="_win32_about_timers_cpp">high-resolution timer</a>. Use the <a href="_win32_queryperformancefrequency_cpp">QueryPerformanceFrequency</a> function to retrieve the frequency of the high-resolution timer and the <a href="_win32_queryperformancecounter_cpp">QueryPerformanceCounter</a> function to retrieve the counter's value.
+Unlike system time, the interrupt-time count is not subject to adjustments by users or the Windows time service. Applications can use the interrupt-time count to measure finer durations than are possible with system time. Applications that require greater precision than the interrupt-time count should use a <a href="https://www.bing.com/search?q=high-resolution+timer">high-resolution timer</a>. Use the <a href="https://www.bing.com/search?q=QueryPerformanceFrequency">QueryPerformanceFrequency</a> function to retrieve the frequency of the high-resolution timer and the <a href="https://www.bing.com/search?q=QueryPerformanceCounter">QueryPerformanceCounter</a> function to retrieve the counter's value.
 
 The  timer resolution set by the <a href="https://msdn.microsoft.com/7168981c-9af8-4665-88a2-7d96a8f2b273">timeBeginPeriod</a> and <a href="https://msdn.microsoft.com/b06531f9-4fd7-4051-80d4-5a175fdd37e7">timeEndPeriod</a> functions affects the resolution of  the <b>QueryInterruptTime</b> function. However, increasing the timer resolution is not recommended because it can reduce overall system performance and   increase system power consumption by preventing the processor from entering power-saving states. Instead, applications should use a high-resolution timer.
 

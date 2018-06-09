@@ -7,7 +7,7 @@ old-location: dshow\ivpmanager_setvideoportindex.htm
 old-project: DirectShow
 ms.assetid: a75332c9-ce3f-4122-ac6c-45478bb5f82c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IVPManager interface [DirectShow],SetVideoPortIndex method, IVPManager.SetVideoPortIndex, IVPManager::SetVideoPortIndex, IVPManagerSetVideoPortIndex, SetVideoPortIndex, SetVideoPortIndex method [DirectShow], SetVideoPortIndex method [DirectShow],IVPManager interface, dshow.ivpmanager_setvideoportindex, strmif/IVPManager::SetVideoPortIndex
 ms.prod: windows
 ms.technology: windows-sdk

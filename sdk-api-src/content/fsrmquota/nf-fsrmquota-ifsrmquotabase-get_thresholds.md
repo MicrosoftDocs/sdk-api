@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotabase_thresholds.htm
 old-project: Fsrm
 ms.assetid: e9a68b62-5d53-419f-a0c4-2e284fa51313
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],Thresholds property, IFsrmQuotaBase.Thresholds, IFsrmQuotaBase.get_Thresholds, IFsrmQuotaBase::Thresholds, IFsrmQuotaBase::get_Thresholds, Thresholds property [File Server Resource Manager], Thresholds property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_thresholds, fsrm.ifsrmquotabase_thresholds, fsrmquota/IFsrmQuotaBase::Thresholds, fsrmquota/IFsrmQuotaBase::get_Thresholds, get_Thresholds
 ms.prod: windows
 ms.technology: windows-sdk

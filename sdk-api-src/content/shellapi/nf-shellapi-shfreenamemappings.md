@@ -7,7 +7,7 @@ old-location: shell\SHFreeNameMappings.htm
 old-project: shell
 ms.assetid: 4552b2e0-9257-48f8-84cc-003217f1696f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHFreeNameMappings, SHFreeNameMappings function [Windows Shell], _win32_SHFreeNameMappings, shell.SHFreeNameMappings, shellapi/SHFreeNameMappings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\cryptunregisterdefaultoidfunction.htm
 old-project: SecCrypto
 ms.assetid: 63f5b0c7-f574-4dc6-92c7-091f25febd48
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptUnregisterDefaultOIDFunction, CryptUnregisterDefaultOIDFunction function [Security], _crypto2_cryptunregisterdefaultoidfunction, security.cryptunregisterdefaultoidfunction, wincrypt/CryptUnregisterDefaultOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

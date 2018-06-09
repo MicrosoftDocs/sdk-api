@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmsetting.htm
 old-project: Fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to configure FSRM.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
 

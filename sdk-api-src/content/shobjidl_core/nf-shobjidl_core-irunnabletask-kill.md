@@ -7,7 +7,7 @@ old-location: shell\IRunnableTask_Kill.htm
 old-project: shell
 ms.assetid: 7465aded-43ff-4b63-8a90-b9f55240625b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Kill method, IRunnableTask.Kill, IRunnableTask::Kill, Kill, Kill method [Windows Shell], Kill method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Kill, shell.IRunnableTask_Kill, shobjidl_core/IRunnableTask::Kill
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpservergetconfigv4.htm
 old-project: DHCP
 ms.assetid: edbed013-6e17-42f4-b109-9676da80de20
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpServerGetConfigV4, DhcpServerGetConfigV4 function [DHCP], dhcp.dhcpservergetconfigv4, dhcpsapi/DhcpServerGetConfigV4
 ms.prod: windows
 ms.technology: windows-sdk

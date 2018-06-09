@@ -7,7 +7,7 @@ old-location: mf\imfaudiomediatype.htm
 old-project: medfound
 ms.assetid: 425a4a37-6fd3-4724-9d18-c39cc2862ef7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 425a4a37-6fd3-4724-9d18-c39cc2862ef7, IMFAudioMediaType, IMFAudioMediaType interface [Media Foundation], IMFAudioMediaType interface [Media Foundation],described, mf.imfaudiomediatype, mfobjects/IMFAudioMediaType
 ms.prod: windows
 ms.technology: windows-sdk

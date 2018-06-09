@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentrycollection_item.htm
 old-project: Wua_Sdk
 ms.assetid: 4d91a59d-895b-41a5-b631-e954fa60b80c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Item property, IWindowsDriverUpdateEntryCollection.Item, IWindowsDriverUpdateEntryCollection.get_Item, IWindowsDriverUpdateEntryCollection::Item, IWindowsDriverUpdateEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get_Item, wua.iwindowsdriverupdateentrycollection_item, wuapi/IWindowsDriverUpdateEntryCollection::Item, wuapi/IWindowsDriverUpdateEntryCollection::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

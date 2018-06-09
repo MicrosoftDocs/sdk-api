@@ -7,7 +7,7 @@ old-location: winrt\ipdfrenderernative.htm
 old-project: WinRT
 ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], IPdfRendererNative interface [Windows Runtime],described, windows/IPdfRendererNative, winrt.ipdfrenderernative
 ms.prod: windows
 ms.technology: windows-sdk

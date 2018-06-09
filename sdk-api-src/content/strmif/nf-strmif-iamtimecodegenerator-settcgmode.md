@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_settcgmode.htm
 old-project: DirectShow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTCGMode method, IAMTimecodeGenerator.SetTCGMode, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
 ms.prod: windows
 ms.technology: windows-sdk

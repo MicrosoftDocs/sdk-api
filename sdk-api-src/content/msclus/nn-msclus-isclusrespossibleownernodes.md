@@ -7,7 +7,7 @@ old-location: mscs\clusrespossibleownernodes_collection.htm
 old-project: MsCS
 ms.assetid: a3269288-f32f-45d5-8fd4-4e6fb257c1be
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusResPossibleOwnerNodes, ClusResPossibleOwnerNodes collection [Failover Cluster], ClusResPossibleOwnerNodes collection [Failover Cluster],described, ISClusResPossibleOwnerNodes, _wolf_clusrespossibleownernodes_collection, msclus/ClusResPossibleOwnerNodes, mscs.clusrespossibleownernodes_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to a resource's list of 
-    <a href="p_gly.htm">possible owner</a>
+    <a href="https://www.bing.com/search?q=possible+owner">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>.
 
 

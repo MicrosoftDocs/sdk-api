@@ -7,7 +7,7 @@ old-location: mstv\iesrequesttunerevent.htm
 old-project: mstv
 ms.assetid: da1183a3-6f31-402a-b103-448cf13705a9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], IESRequestTunerEvent interface [Microsoft TV Technologies],described, mstv.iesrequesttunerevent, tuner/IESRequestTunerEvent
 ms.prod: windows
 ms.technology: windows-sdk

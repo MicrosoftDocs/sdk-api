@@ -7,7 +7,7 @@ old-location: base\enclavesealdata.htm
 old-project: Memory
 ms.assetid: C5711D43-F0B4-43C6-B0DB-D65622851384
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ENCLAVE_RUNTIME_POLICY_ALLOW_DYNAMIC_DEBUG, ENCLAVE_RUNTIME_POLICY_ALLOW_FULL_DEBUG, EnclaveSealData, EnclaveSealData function, base.enclavesealdata, winenclaveapi/EnclaveSealData
 ms.prod: windows
 ms.technology: windows-sdk

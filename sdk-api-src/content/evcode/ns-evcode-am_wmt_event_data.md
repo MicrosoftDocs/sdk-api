@@ -7,7 +7,7 @@ old-location: dshow\am_wmt_event_data.htm
 old-project: DirectShow
 ms.assetid: d28efe7f-b1ff-4454-8779-95851a86c94a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [DirectShow], AM_WMT_EVENT_DATAStructure, dshow.am_wmt_event_data, evcode/AM_WMT_EVENT_DATA
 ms.prod: windows
 ms.technology: windows-sdk

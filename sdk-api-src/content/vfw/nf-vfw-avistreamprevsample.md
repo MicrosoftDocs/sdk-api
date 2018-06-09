@@ -7,7 +7,7 @@ old-location: multimedia\avistreamprevsample.htm
 old-project: Multimedia
 ms.assetid: 86bc141f-6e58-49ac-b3f1-1e29e028be31
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: AVIStreamPrevSample, AVIStreamPrevSample macro [Windows Multimedia], _win32_AVIStreamPrevSample, multimedia.avistreamprevsample, vfw/AVIStreamPrevSample
 ms.prod: windows
 ms.technology: windows-sdk

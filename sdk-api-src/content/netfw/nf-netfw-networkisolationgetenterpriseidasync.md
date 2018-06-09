@@ -2,13 +2,13 @@
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdAsync
 title: NetworkIsolationGetEnterpriseIdAsync function
 author: windows-sdk-content
-description: Gets the Enterprise ID for Enterprise Data Protection Server endpoints.
+description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.
 old-location: ics\networkisolationgetenterpriseidasync.htm
 old-project: ICS
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
 ms.author: windowssdkdev
-ms.date: 05/11/2018
-ms.keywords: NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
+ms.date: 06/07/2018
+ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NEUTRAL_AWARE, NETISO_GEID_FOR_WDAG, NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets the Enterprise ID for Enterprise Data Protection Server endpoints.
+Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios. If neither WIP nor WDAG are on, the API returns NULL, unless the flag <b>NETISO_GEID_FORCE_TO_CHECK</b> is passed.  The Enterprise ID can be any string different from NULL or “*”.
 
 
 ## -parameters
@@ -66,7 +66,66 @@ The name of the Enterprise Data Protection Server.
 
 ### -param dwFlags [in]
 
-Not implemented. Set to 0.
+A bitmask value of control flags which specify the context of the API call.  May contain one or more of the following flags.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NETISO_GEID_DEFAULT"></a><a id="netiso_geid_default"></a><dl>
+<dt><b>NETISO_GEID_DEFAULT</b></dt>
+<dt>0x00</dt>
+</dl>
+</td>
+<td width="60%">
+Default API behavior.
+Returns the Enterprise ID for Enterprise resources.
+Returns NULL for Personal resources.
+For Neutral resources, returns Enterprise ID if it is called from an Enterprise context, or returns NULL if it is called from a Personal context.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NETISO_GEID_FOR_WDAG"></a><a id="netiso_geid_for_wdag"></a><dl>
+<dt><b>NETISO_GEID_FOR_WDAG</b></dt>
+<dt>0x01</dt>
+</dl>
+</td>
+<td width="60%">
+Used in the context of the Windows Defender Application Guard (WDAG) scenario.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NETISO_GEID_FOR_NEUTRAL_AWARE"></a><a id="netiso_geid_for_neutral_aware"></a><dl>
+<dt><b>NETISO_GEID_FOR_NEUTRAL_AWARE</b></dt>
+<dt>0x02</dt>
+</dl>
+</td>
+<td width="60%">
+Used by applications that are aware of neutral resources.
+For Neutral resources the API will return L”*”.
+For Enterprise resources the API will return the Enterprise ID.
+For Personal resources the API will return NULL.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NETISO_GEID_FORCE_TO_CHECK"></a><a id="netiso_geid_force_to_check"></a><dl>
+<dt><b>NETISO_GEID_FORCE_TO_CHECK</b></dt>
+<dt>0x04</dt>
+</dl>
+</td>
+<td width="60%">
+Forces API to check the resource even in cases when neither Windows Information Protection nor Windows Defender Application Guard are enabled.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -param context [in, optional]

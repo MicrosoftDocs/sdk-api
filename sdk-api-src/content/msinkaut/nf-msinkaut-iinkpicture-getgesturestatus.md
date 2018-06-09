@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_getgesturestatus.htm
 old-project: tablet
 ms.assetid: b4ccc35d-35b5-4633-acc9-efd4c7eb05e3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetGestureStatus method, IInkPicture.GetGestureStatus, IInkPicture::GetGestureStatus, b4ccc35d-35b5-4633-acc9-efd4c7eb05e3, msinkaut/IInkPicture::GetGestureStatus, tablet.inkpicture_getgesturestatus
 ms.prod: windows
 ms.technology: windows-sdk

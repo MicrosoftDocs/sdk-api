@@ -7,7 +7,7 @@ old-location: shell\IQueryCancelAutoPlay_AllowAutoPlay.htm
 old-project: shell
 ms.assetid: ebc826a2-d7ea-413a-836b-c7e51f13692a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ARCONTENT_AUDIOCD, ARCONTENT_AUTOPLAYMUSIC, ARCONTENT_AUTOPLAYPIX, ARCONTENT_AUTOPLAYVIDEO, ARCONTENT_AUTORUNINF, ARCONTENT_BLANKBD, ARCONTENT_BLANKCD, ARCONTENT_BLANKDVD, ARCONTENT_BLURAY, ARCONTENT_CAMERASTORAGE, ARCONTENT_CUSTOMEVENT, ARCONTENT_DVDAUDIO, ARCONTENT_DVDMOVIE, ARCONTENT_MASK, ARCONTENT_NONE, ARCONTENT_PHASE_FINAL, ARCONTENT_PHASE_MASK, ARCONTENT_PHASE_PRESNIFF, ARCONTENT_PHASE_SNIFFING, ARCONTENT_PHASE_UNKNOWN, ARCONTENT_SVCD, ARCONTENT_UNKNOWNCONTENT, ARCONTENT_VCD, AllowAutoPlay, AllowAutoPlay method [Windows Shell], AllowAutoPlay method [Windows Shell],IQueryCancelAutoPlay interface, IQueryCancelAutoPlay interface [Windows Shell],AllowAutoPlay method, IQueryCancelAutoPlay.AllowAutoPlay, IQueryCancelAutoPlay::AllowAutoPlay, _shell_IQueryCancelAutoPlay_AllowAutoPlay, shell.IQueryCancelAutoPlay_AllowAutoPlay, shobjidl/IQueryCancelAutoPlay::AllowAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk

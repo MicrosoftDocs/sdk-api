@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings_required.htm
 old-project: Wua_Sdk
 ms.assetid: d3700208-4e87-495e-98cf-cc495b380528
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Required property, IAutomaticUpdatesSettings.Required, IAutomaticUpdatesSettings.get_Required, IAutomaticUpdatesSettings::Required, IAutomaticUpdatesSettings::get_Required, Required property [Windows Update Agent], Required property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_Required, wua.iautomaticupdatessettings_required, wuapi/IAutomaticUpdatesSettings::Required, wuapi/IAutomaticUpdatesSettings::get_Required
 ms.prod: windows
 ms.technology: windows-sdk

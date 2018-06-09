@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_getatendofpayload.htm
 old-project: medfound
 ms.assetid: 2F2D65BA-4719-4633-9B2D-2CAF88F4E3DD
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetAtEndOfPayload, GetAtEndOfPayload method [Media Foundation], GetAtEndOfPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetAtEndOfPayload method, IMFHttpDownloadRequest.GetAtEndOfPayload, IMFHttpDownloadRequest::GetAtEndOfPayload, mf.imfhttpdownloadrequest_getatendofpayload, mfidl/IMFHttpDownloadRequest::GetAtEndOfPayload
 ms.prod: windows
 ms.technology: windows-sdk

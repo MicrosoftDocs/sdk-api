@@ -7,7 +7,7 @@ old-location: wintouch\manipulation_processor_manipulations.htm
 old-project: wintouch
 ms.assetid: 85ddd2d3-cb4b-48ae-8ad4-230be5420abd
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/04/2018
 ms.keywords: MANIPULATION_ALL, MANIPULATION_NONE, MANIPULATION_PROCESSOR_MANIPULATIONS, MANIPULATION_PROCESSOR_MANIPULATIONS enumeration [Windows Touch], MANIPULATION_ROTATE, MANIPULATION_SCALE, MANIPULATION_TRANSLATE_X, MANIPULATION_TRANSLATE_Y, manipulations/MANIPULATION_ALL, manipulations/MANIPULATION_NONE, manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS, manipulations/MANIPULATION_ROTATE, manipulations/MANIPULATION_SCALE, manipulations/MANIPULATION_TRANSLATE_X, manipulations/MANIPULATION_TRANSLATE_Y, wintouch.manipulation_processor_manipulations
 ms.prod: windows
 ms.technology: windows-sdk

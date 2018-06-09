@@ -7,7 +7,7 @@ old-location: security\certstoreprovwritecrlcallback.htm
 old-project: SecCrypto
 ms.assetid: ba259770-4462-4d1e-bd60-8572612fe032
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertStoreProvWriteCRLCallback, CertStoreProvWriteCRLCallback callback, CertStoreProvWriteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CRL, PFN_CERT_STORE_PROV_WRITE_CRL callback function [Security], _crypto2_certstoreprovwritecrlcallback, security.certstoreprovwritecrlcallback, wincrypt/CertStoreProvWriteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CRL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ CERT_STORE_PROV_WRITE_ADD_FLAG is used to specify when this function is called b
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
 
 
 

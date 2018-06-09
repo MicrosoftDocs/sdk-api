@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultoiddlllist.htm
 old-project: SecCrypto
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,7 +135,7 @@ If the buffer specified by the <i>pwszDllList</i> parameter is not large enough 
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

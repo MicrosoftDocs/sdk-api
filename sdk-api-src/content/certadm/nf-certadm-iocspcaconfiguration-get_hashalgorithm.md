@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
 old-project: SecCrypto
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration.get_HashAlgorithm, IOCSPCAConfiguration::HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, get_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
 ms.prod: windows
 ms.technology: windows-sdk

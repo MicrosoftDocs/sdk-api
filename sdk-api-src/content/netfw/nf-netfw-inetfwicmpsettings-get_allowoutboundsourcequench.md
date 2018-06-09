@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowoutboundsourcequench.htm
 old-project: ICS
 ms.assetid: a70cdff7-5e93-4120-9000-424a91d522ea
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: AllowOutboundSourceQuench property [ICS/ICF], AllowOutboundSourceQuench property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundSourceQuench property, INetFwIcmpSettings.AllowOutboundSourceQuench, INetFwIcmpSettings.get_AllowOutboundSourceQuench, INetFwIcmpSettings::AllowOutboundSourceQuench, INetFwIcmpSettings::get_AllowOutboundSourceQuench, INetFwIcmpSettings::put_AllowOutboundSourceQuench, get_AllowOutboundSourceQuench, ics.inetfwicmpsettings_allowoutboundsourcequench, netfw/INetFwIcmpSettings::AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::get_AllowOutboundSourceQuench, netfw/INetFwIcmpSettings::put_AllowOutboundSourceQuench
 ms.prod: windows
 ms.technology: windows-sdk

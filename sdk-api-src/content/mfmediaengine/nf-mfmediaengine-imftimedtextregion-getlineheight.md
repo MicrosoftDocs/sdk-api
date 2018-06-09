@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getlineheight.htm
 old-project: medfound
 ms.assetid: 41514FCA-5C2A-48E5-A9F8-72B5B9160CD6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetLineHeight method, IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

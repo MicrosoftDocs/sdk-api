@@ -2,12 +2,12 @@
 UID: NA:propidl
 ms.assetid: 35325608-666b-3821-b511-23a7a15f76f8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: stg
+tech.root: properties
 ---
 
 # Propidl.h header

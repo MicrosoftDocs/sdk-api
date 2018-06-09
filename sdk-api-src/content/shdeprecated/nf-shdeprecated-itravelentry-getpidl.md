@@ -7,7 +7,7 @@ old-location: shell\ITravelEntry_GetPidl.htm
 old-project: shell
 ms.assetid: 9a3a156f-4d61-4987-b1d8-9e77564d3962
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetPidl, GetPidl method [Windows Shell], GetPidl method [Windows Shell],ITravelEntry interface, ITravelEntry interface [Windows Shell],GetPidl method, ITravelEntry.GetPidl, ITravelEntry::GetPidl, shdeprecated/ITravelEntry::GetPidl, shell.ITravelEntry_GetPidl, zone_ITravelEntry_GetPidl
 ms.prod: windows
 ms.technology: windows-sdk

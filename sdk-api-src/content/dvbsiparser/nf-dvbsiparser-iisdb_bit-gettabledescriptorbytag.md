@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: ef54b6bc-7150-4246-8058-4e57f25c2ad3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_BIT.GetTableDescriptorByTag, IISDB_BIT::GetTableDescriptorByTag, dvbsiparser/IISDB_BIT::GetTableDescriptorByTag, mstv.iisdb_bit_gettabledescriptorbytag
 ms.prod: windows
 ms.technology: windows-sdk

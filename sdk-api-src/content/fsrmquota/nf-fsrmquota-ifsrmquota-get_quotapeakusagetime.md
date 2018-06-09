@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquota_quotapeakusagetime.htm
 old-project: Fsrm
 ms.assetid: 08b7c438-6bcf-4323-ac27-7e3c79c062da
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsageTime property, IFsrmQuota.QuotaPeakUsageTime, IFsrmQuota.get_QuotaPeakUsageTime, IFsrmQuota::QuotaPeakUsageTime, IFsrmQuota::get_QuotaPeakUsageTime, QuotaPeakUsageTime property [File Server Resource Manager], QuotaPeakUsageTime property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotapeakusagetime, fsrm.ifsrmquota_quotapeakusagetime, fsrmquota/IFsrmQuota::QuotaPeakUsageTime, fsrmquota/IFsrmQuota::get_QuotaPeakUsageTime, get_QuotaPeakUsageTime
 ms.prod: windows
 ms.technology: windows-sdk

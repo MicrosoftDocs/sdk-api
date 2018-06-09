@@ -115,7 +115,7 @@ The HLSL <a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa
 
 The HLSL <a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">SampleCmp</a> and <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">SampleCmpLevelZero</a> functions for texture objects are supported.
 
-<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
+<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
 </div>
 <div> </div>
 

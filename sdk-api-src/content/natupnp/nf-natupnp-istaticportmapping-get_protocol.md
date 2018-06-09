@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_get_protocol.htm
 old-project: ICS
 ms.assetid: b9fc5ccc-43af-4dce-ba69-d11cdb4e3154
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Protocol method, IStaticPortMapping.get_Protocol, IStaticPortMapping::get_Protocol, _ics_istaticportmapping_get_protocol, get_Protocol, get_Protocol method [ICS/ICF], get_Protocol method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_protocol, natupnp/IStaticPortMapping::get_Protocol
 ms.prod: windows
 ms.technology: windows-sdk

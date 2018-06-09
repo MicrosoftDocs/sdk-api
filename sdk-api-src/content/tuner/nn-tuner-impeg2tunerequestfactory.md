@@ -7,7 +7,7 @@ old-location: mstv\impeg2tunerequestfactory.htm
 old-project: mstv
 ms.assetid: 0fbeab7d-0c54-45e3-a73c-755df28a16d5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface [Microsoft TV Technologies],described, IMPEG2TuneRequestFactoryInterface, mstv.impeg2tunerequestfactory, tuner/IMPEG2TuneRequestFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IMPEG2TuneRequestFactory</b> interface creates a tune request for a basic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequestFactory</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMPEG2TuneRequestFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2TuneRequestFactory</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>IMPEG2TuneRequestFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -102,7 +102,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
 
 
 

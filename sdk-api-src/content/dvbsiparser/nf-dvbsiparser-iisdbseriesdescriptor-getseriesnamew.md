@@ -7,7 +7,7 @@ old-location: mstv\iisdbseriesdescriptor_getseriesnamew.htm
 old-project: mstv
 ms.assetid: 7638dc5b-6542-42f4-9996-f851704098a0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetSeriesNameW, GetSeriesNameW method [Microsoft TV Technologies], GetSeriesNameW method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetSeriesNameW method, IIsdbSeriesDescriptor.GetSeriesNameW, IIsdbSeriesDescriptor::GetSeriesNameW, dvbsiparser/IIsdbSeriesDescriptor::GetSeriesNameW, mstv.iisdbseriesdescriptor_getseriesnamew
 ms.prod: windows
 ms.technology: windows-sdk

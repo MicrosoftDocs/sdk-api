@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_roll.htm
 old-project: DirectShow
 ms.assetid: 14400765-d8a2-4ac2-a26b-39949ecd2bda
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Roll method, ICameraControl.getRange_Roll, ICameraControl::getRange_Roll, ICameraControlgetRange_Roll, dshow.icameracontrol_getrange_roll, getRange_Roll, getRange_Roll method [DirectShow], getRange_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Roll
 ms.prod: windows
 ms.technology: windows-sdk

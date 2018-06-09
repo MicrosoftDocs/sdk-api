@@ -7,7 +7,7 @@ old-location: setup\setupinstallfrominfsection.htm
 old-project: SetupApi
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -217,7 +217,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 The file version information used during version checks is that specified in the 
           <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-          <a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled 
+          <a href="https://www.bing.com/search?q=VS_FIXEDFILEINFO">VS_FIXEDFILEINFO</a> structure, as filled 
           in by the  version functions. If one of the files does not have version resources, or if they have 
           identical version information, the source file is considered newer.
 

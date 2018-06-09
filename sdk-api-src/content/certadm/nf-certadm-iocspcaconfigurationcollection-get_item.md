@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection_item_method.htm
 old-project: SecCrypto
 ms.assetid: 6cf02663-dd08-43be-a5b1-c7b04c5d1e9b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],Item property, IOCSPCAConfigurationCollection.Item, IOCSPCAConfigurationCollection.get_Item, IOCSPCAConfigurationCollection::Item, IOCSPCAConfigurationCollection::get_Item, Item property [Security], Item property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::Item, certadm/IOCSPCAConfigurationCollection::get_Item, get_Item, security.iocspcaconfigurationcollection_item_method
 ms.prod: windows
 ms.technology: windows-sdk

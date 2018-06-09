@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_getsegmentdata.htm
 old-project: printdocs
 ms.assetid: e2e6be6f-3a9d-4d39-875f-cd23bc82e74b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetSegmentData, GetSegmentData method [XPS Documents and Packaging], GetSegmentData method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentData method, IXpsOMGeometryFigure.GetSegmentData, IXpsOMGeometryFigure::GetSegmentData, xps.ixpsomgeometryfigure_getsegmentdata, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentData
 ms.prod: windows
 ms.technology: windows-sdk

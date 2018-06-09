@@ -7,7 +7,7 @@ old-location: mscs\getclusterresourcestate.htm
 old-project: MsCS
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE callback, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE callback function [Failover Cluster], _wolf_getclusterresourcestate, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, mscs.getclusterresourcestate
 ms.prod: windows
 ms.technology: windows-sdk

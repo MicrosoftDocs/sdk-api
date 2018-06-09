@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentrycollection__newenum.htm
 old-project: Wua_Sdk
 ms.assetid: ef1179a6-5d93-4a4f-8cda-a1876f01be5d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],_NewEnum property, IWindowsDriverUpdateEntryCollection._NewEnum, IWindowsDriverUpdateEntryCollection.get__NewEnum, IWindowsDriverUpdateEntryCollection::_NewEnum, IWindowsDriverUpdateEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get__NewEnum, wua.iwindowsdriverupdateentrycollection__newenum, wuapi/IWindowsDriverUpdateEntryCollection::_NewEnum, wuapi/IWindowsDriverUpdateEntryCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Gets an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface that is used to enumerate the collection.
+Gets an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface that is used to enumerate the collection.
 
 This property is read-only.
 

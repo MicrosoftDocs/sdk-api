@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_reset.htm
 old-project: CoreAudio
 ms.assetid: c1a4f673-ecbf-4855-b8bb-c0f0807dedd4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAudioClient interface [Core Audio],Reset method, IAudioClient.Reset, IAudioClient::Reset, IAudioClientReset, Reset, Reset method [Core Audio], Reset method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Reset, coreaudio.iaudioclient_reset
 ms.prod: windows
 ms.technology: windows-sdk

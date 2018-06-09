@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getgammacontrol.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getgammacontrol.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetGammaControl, GetGammaControl method [DXGI], GetGammaControl method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetGammaControl method, IDXGIOutput.GetGammaControl, IDXGIOutput::GetGammaControl, direct3ddxgi.idxgioutput_getgammacontrol, dxgi/IDXGIOutput::GetGammaControl, eec103ab-9b5d-9ed5-ce8f-90664ac48789
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ An array of gamma control settings (see <a href="https://msdn.microsoft.com/1c21
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 

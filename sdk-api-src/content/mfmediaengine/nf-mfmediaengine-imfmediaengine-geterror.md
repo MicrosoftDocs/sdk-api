@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_geterror.htm
 old-project: medfound
 ms.assetid: F8A51AF8-8D73-47BC-ADA2-7F5108587873
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetError, GetError method [Media Foundation], GetError method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetError method, IMFMediaEngine.GetError, IMFMediaEngine::GetError, mf.imfmediaengine_geterror, mfmediaengine/IMFMediaEngine::GetError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

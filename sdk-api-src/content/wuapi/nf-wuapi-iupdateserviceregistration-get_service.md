@@ -7,7 +7,7 @@ old-location: wua\iupdateserviceregistration_service.htm
 old-project: Wua_Sdk
 ms.assetid: d890c92f-c0f5-4445-ba6d-044bb0d6983b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],Service property, IUpdateServiceRegistration.Service, IUpdateServiceRegistration.get_Service, IUpdateServiceRegistration::Service, IUpdateServiceRegistration::get_Service, Service property [Windows Update Agent], Service property [Windows Update Agent],IUpdateServiceRegistration interface, get_Service, wua.iupdateserviceregistration_service, wuapi/IUpdateServiceRegistration::Service, wuapi/IUpdateServiceRegistration::get_Service
 ms.prod: windows
 ms.technology: windows-sdk

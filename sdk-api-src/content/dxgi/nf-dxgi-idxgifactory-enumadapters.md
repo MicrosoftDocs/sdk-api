@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_enumadapters.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_enumadapters.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 457b8c88-be8c-c241-7864-e16ac2622ee0, EnumAdapters, EnumAdapters method [DXGI], EnumAdapters method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],EnumAdapters method, IDXGIFactory.EnumAdapters, IDXGIFactory::EnumAdapters, direct3ddxgi.idxgifactory_enumadapters, dxgi/IDXGIFactory::EnumAdapters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,9 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/02fc6b37-bd8f
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns <a href="dxgi_error.htm">DXGI_ERROR_NOT_FOUND</a> if the index is greater than or equal to the number of adapters in the local system, or <a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if <i>ppAdapter</i> parameter is <b>NULL</b>.
+Returns S_OK if successful; otherwise, returns <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_FOUND">DXGI_ERROR_NOT_FOUND</a> if the index is greater than or equal to the number of adapters in the local system, or <a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a> if <i>ppAdapter</i> parameter is <b>NULL</b>.
 
 
 

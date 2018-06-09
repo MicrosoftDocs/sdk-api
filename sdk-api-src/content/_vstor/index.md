@@ -2,7 +2,7 @@
 UID: TP:vstor
 ms.assetid: 7572d149-9532-3543-a1bd-0a81a813d12c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Virtual Storage
 
-
+## -description
 
 Overview of the Virtual Storage technology.
 

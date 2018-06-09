@@ -7,7 +7,7 @@ old-location: ics\inetfwservicerestriction_servicerestricted.htm
 old-project: ICS
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
 ms.prod: windows
 ms.technology: windows-sdk

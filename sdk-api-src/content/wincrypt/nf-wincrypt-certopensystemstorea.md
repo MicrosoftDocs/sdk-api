@@ -7,7 +7,7 @@ old-location: security\certopensystemstore.htm
 old-project: SecCrypto
 ms.assetid: 23699439-1a6c-4907-93fa-651024856be7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CA, CertOpenSystemStore, CertOpenSystemStore function [Security], CertOpenSystemStoreA, CertOpenSystemStoreW, MY, ROOT, SPC, _crypto2_certopensystemstore, security.certopensystemstore, wincrypt/CertOpenSystemStore, wincrypt/CertOpenSystemStoreA, wincrypt/CertOpenSystemStoreW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -226,7 +226,7 @@ if(!CertCloseStore(hSystemStore, 0))
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
  
 
  

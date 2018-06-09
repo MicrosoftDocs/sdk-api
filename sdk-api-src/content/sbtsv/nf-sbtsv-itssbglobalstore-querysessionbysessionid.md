@@ -7,7 +7,7 @@ old-location: termserv\itssbglobalstore_querysessionbysessionid.htm
 old-project: TermServ
 ms.assetid: d710842a-9bd5-4791-8f6e-bac2fe07c93f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbGlobalStore.QuerySessionBySessionId, ITsSbGlobalStore::QuerySessionBySessionId, QuerySessionBySessionId, QuerySessionBySessionId method [Remote Desktop Services], QuerySessionBySessionId method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QuerySessionBySessionId, termserv.itssbglobalstore_querysessionbysessionid
 ms.prod: windows
 ms.technology: windows-sdk

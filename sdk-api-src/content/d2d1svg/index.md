@@ -2,7 +2,7 @@
 UID: NA:d2d1svg
 ms.assetid: 31be8d9d-1b44-3985-93a3-bdf5a001be02
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

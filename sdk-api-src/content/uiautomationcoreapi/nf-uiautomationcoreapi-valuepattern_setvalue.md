@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ValuePattern_SetValueConPat.htm
 old-project: WinAuto
 ms.assetid: 6233abb0-7d18-4d1f-a611-28931d874bda
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: ValuePattern_SetValue, ValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_ValuePattern_SetValueConPat, uiauto_ValuePattern_SetValueConPat, uiautomationcoreapi/ValuePattern_SetValue, winauto.uiauto_ValuePattern_SetValueConPat
 ms.prod: windows
 ms.technology: windows-sdk

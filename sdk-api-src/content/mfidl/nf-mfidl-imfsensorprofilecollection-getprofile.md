@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofilecollection_getprofile.htm
 old-project: medfound
 ms.assetid: 3E229A12-D53A-493F-9EFB-EA28131ABB10
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],GetProfile method, IMFSensorProfileCollection.GetProfile, IMFSensorProfileCollection::GetProfile, mf.imfsensorprofilecollection_getprofile, mfidl/IMFSensorProfileCollection::GetProfile
 ms.prod: windows
 ms.technology: windows-sdk

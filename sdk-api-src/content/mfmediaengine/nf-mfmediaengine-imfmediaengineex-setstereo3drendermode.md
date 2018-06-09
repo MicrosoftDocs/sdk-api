@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setstereo3drendermode.htm
 old-project: medfound
 ms.assetid: 89B6B2AC-A721-4C56-BF0A-A19350FE4823
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetStereo3DRenderMode method, IMFMediaEngineEx.SetStereo3DRenderMode, IMFMediaEngineEx::SetStereo3DRenderMode, SetStereo3DRenderMode, SetStereo3DRenderMode method [Media Foundation], SetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setstereo3drendermode, mfmediaengine/IMFMediaEngineEx::SetStereo3DRenderMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

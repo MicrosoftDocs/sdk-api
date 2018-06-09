@@ -7,7 +7,7 @@ old-location: security\certregisterphysicalstore.htm
 old-project: SecCrypto
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertRegisterPhysicalStore, CertRegisterPhysicalStore function [Security], _crypto2_certregisterphysicalstore, security.certregisterphysicalstore, wincrypt/CertRegisterPhysicalStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,7 +162,7 @@ If the function fails, it returns zero.
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
  
 
  

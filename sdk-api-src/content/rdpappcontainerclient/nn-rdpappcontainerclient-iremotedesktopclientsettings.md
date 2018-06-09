@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientsettings.htm
 old-project: TermServ
 ms.assetid: 8bdb224c-bb29-43f1-8a7c-94686a8efe0a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], IRemoteDesktopClientSettings interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientSettings, termserv.iremotedesktopclientsettings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getheapproperties.htm
 old-project: direct3d12
 ms.assetid: 7F76986D-02F1-4E5A-B9A4-CFB021B72026
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetHeapProperties, GetHeapProperties method, GetHeapProperties method,ID3D12Resource interface, ID3D12Resource interface,GetHeapProperties method, ID3D12Resource.GetHeapProperties, ID3D12Resource::GetHeapProperties, d3d12/ID3D12Resource::GetHeapProperties, direct3d12.id3d12resource_getheapproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Type: <b><a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D6772E
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.

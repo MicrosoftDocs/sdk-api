@@ -7,7 +7,7 @@ old-location: wmi\iwbemlocator.htm
 old-project: WmiSdk
 ms.assetid: 3e630987-82e3-4eb0-aec0-30562bc7c843
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], IWbemLocator interface [Windows Management Instrumentation],described, _hmm_iwbemlocator, wbemcli/IWbemLocator, wmi.iwbemlocator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Use the
 <b>IWbemServices</b> pointer, which is returned by the 
 <a href="https://msdn.microsoft.com/92222e08-8622-46c3-9465-cd12260a2ca0">IWbemLocator::ConnectServer</a> method.
 
-A client or provider that requires Windows Management services first obtains a pointer to the locator using <a href="_com_cocreateinstance">CoCreateInstance</a> or <a href="_com_cocreateinstanceex">CoCreateInstanceEx</a>, as specified in the COM documentation in the Microsoft Windows Software Development Kit (SDK). The 
+A client or provider that requires Windows Management services first obtains a pointer to the locator using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>, as specified in the COM documentation in the Microsoft Windows Software Development Kit (SDK). The 
 <b>IWbemLocator</b> object is always an in-process COM server. The interface pointer to the desired namespace on the desired target computer is then obtained through the 
 <a href="https://msdn.microsoft.com/92222e08-8622-46c3-9465-cd12260a2ca0">IWbemLocator::ConnectServer</a> method, which is the only method on this interface.
 

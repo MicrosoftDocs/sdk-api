@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getinput.htm
 old-project: medfound
 ms.assetid: 49969e6d-c893-4f6f-8c1d-87d32405a65d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 49969e6d-c893-4f6f-8c1d-87d32405a65d, GetInput, GetInput method [Media Foundation], GetInput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInput method, IMFTopologyNode.GetInput, IMFTopologyNode::GetInput, mf.imftopologynode_getinput, mfidl/IMFTopologyNode::GetInput
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\CreateEnvironmentBlock.htm
 old-project: shell
 ms.assetid: bda8879d-d33a-48f4-8b08-e3a279126a07
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock
 ms.prod: windows
 ms.technology: windows-sdk

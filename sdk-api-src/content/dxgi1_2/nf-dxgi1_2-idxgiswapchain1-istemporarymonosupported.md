@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_istemporarymonosupported.htm
 old-project: direct3ddxgi
 ms.assetid: 0943F04B-15E4-4802-ABD1-3E7F5EF774E5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],IsTemporaryMonoSupported method, IDXGISwapChain1.IsTemporaryMonoSupported, IDXGISwapChain1::IsTemporaryMonoSupported, IsTemporaryMonoSupported, IsTemporaryMonoSupported method [DXGI], IsTemporaryMonoSupported method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_istemporarymonosupported, dxgi1_2/IDXGISwapChain1::IsTemporaryMonoSupported
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Indicates whether to use the swap chain in temporary mono mode. <b>TRUE</b> indi
 
 
 
-Temporary mono is a feature where a stereo swap chain can be presented using only the content in the left buffer.  To present using the left buffer as a mono buffer, an application calls the  <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method with the <a href="dxgi_present.htm">DXGI_PRESENT_STEREO_TEMPORARY_MONO</a> 
+Temporary mono is a feature where a stereo swap chain can be presented using only the content in the left buffer.  To present using the left buffer as a mono buffer, an application calls the  <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> method with the <a href="https://www.bing.com/search?q=DXGI_PRESENT_STEREO_TEMPORARY_MONO">DXGI_PRESENT_STEREO_TEMPORARY_MONO</a> 
 flag.  All windowed swap chains support temporary mono. However, full-screen swap chains optionally support temporary mono because not all hardware supports temporary mono on full-screen swap chains efficiently.
 
 

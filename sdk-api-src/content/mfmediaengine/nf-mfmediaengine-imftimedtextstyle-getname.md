@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getname.htm
 old-project: medfound
 ms.assetid: C1B28336-27D1-4592-B583-940C2C9EF9A0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetName method, IMFTimedTextStyle.GetName, IMFTimedTextStyle::GetName, mf.imftimedtextstyle_getname, mfmediaengine/IMFTimedTextStyle::GetName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

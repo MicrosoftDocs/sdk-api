@@ -123,7 +123,7 @@ Indicates a request for <i>piidSource</i> information.
 
 ### -param pptiCoClass [out]
 
-The <a href="https://msdn.microsoft.com/333d0904-ffa2-4d25-878d-7422bcd40582">coclass</a> type information for the requested contributor. See <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>.
+The <a href="https://msdn.microsoft.com/333d0904-ffa2-4d25-878d-7422bcd40582">coclass</a> type information for the requested contributor. See <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo.md">ITypeInfo</a>.
 
 
 ### -param pdwTIFlags [out]

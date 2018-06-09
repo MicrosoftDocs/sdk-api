@@ -7,7 +7,7 @@ old-location: mscs\resutilinitializeresourcestatus.htm
 old-project: MsCS
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ResUtilInitializeResourceStatus, ResUtilInitializeResourceStatus macro [Failover Cluster], _wolf_resutilinitializeresourcestatus, mscs.resutilinitializeresourcestatus, resapi/ResUtilInitializeResourceStatus
 ms.prod: windows
 ms.technology: windows-sdk

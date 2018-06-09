@@ -7,7 +7,7 @@ old-location: mscs\closeclusternetwork.htm
 old-project: MsCS
 ms.assetid: 2d112729-1306-45ff-8845-43032a55ca1c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NETWORK, PCLUSAPI_CLOSE_CLUSTER_NETWORK callback, PCLUSAPI_CLOSE_CLUSTER_NETWORK callback function [Failover Cluster], _wolf_closeclusternetwork, clusapi/PCLUSAPI_CLOSE_CLUSTER_NETWORK, mscs.closeclusternetwork
 ms.prod: windows
 ms.technology: windows-sdk

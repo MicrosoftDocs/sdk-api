@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol_ShutDown.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\shutdown.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol.ShutDown, ISearchProtocol::ShutDown, ShutDown, ShutDown method [search], ShutDown method [search],ISearchProtocol interface, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
 ms.prod: windows
 ms.technology: windows-sdk

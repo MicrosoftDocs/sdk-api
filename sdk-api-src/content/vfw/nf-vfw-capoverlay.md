@@ -7,7 +7,7 @@ old-location: multimedia\capoverlay.htm
 old-project: Multimedia
 ms.assetid: a6508e33-7864-4f19-a844-0ba280028f43
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: "_win32_capOverlay, capOverlay, capOverlay macro [Windows Multimedia], multimedia.capoverlay, vfw/capOverlay"
 ms.prod: windows
 ms.technology: windows-sdk

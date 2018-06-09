@@ -2,12 +2,12 @@
 UID: NA:mmreg
 ms.assetid: d007b444-9242-3b0d-ba8b-3719f561c30a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: audio
+tech.root: dshow
 ---
 
 # Mmreg.h header

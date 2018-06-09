@@ -7,7 +7,7 @@ old-location: base\setfiletime.htm
 old-project: SysInfo
 ms.assetid: 75d988e4-22a3-4084-a5f8-1fca73ccd542
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime
 ms.prod: windows
 ms.technology: windows-sdk

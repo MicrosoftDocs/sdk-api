@@ -7,7 +7,7 @@ old-location: mstv\ibda_topology_getcontrolnode.htm
 old-project: mstv
 ms.assetid: eff76633-10c0-4f71-a267-b2e454dcfa6c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetControlNode, GetControlNode method [Microsoft TV Technologies], GetControlNode method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetControlNode method, IBDA_Topology.GetControlNode, IBDA_Topology::GetControlNode, IBDA_TopologyGetControlNode, bdaiface/IBDA_Topology::GetControlNode, mstv.ibda_topology_getcontrolnode
 ms.prod: windows
 ms.technology: windows-sdk

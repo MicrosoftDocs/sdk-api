@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_createmoduledefinition.htm
 old-project: Fsrm
 ms.assetid: 1964f4b6-b4e0-45a2-aca1-2e3dc44745a4
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: CreateModuleDefinition, CreateModuleDefinition method [File Server Resource Manager], CreateModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreateModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager.CreateModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateModuleDefinition method, IFsrmClassificationManager2::CreateModuleDefinition, IFsrmClassificationManager::CreateModuleDefinition, fs.ifsrmclassificationmanager_createmoduledefinition, fsrm.ifsrmclassificationmanager_createmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::CreateModuleDefinition, fsrmpipeline/IFsrmClassificationManager::CreateModuleDefinition
 ms.prod: windows
 ms.technology: windows-sdk

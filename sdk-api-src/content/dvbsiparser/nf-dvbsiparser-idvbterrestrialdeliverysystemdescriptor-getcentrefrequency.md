@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcentrefrequency.ht
 old-project: mstv
 ms.assetid: 80ce6831-afb0-4fdd-844d-1aa400449110
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCentreFrequency, GetCentreFrequency method [Microsoft TV Technologies], GetCentreFrequency method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCentreFrequency method, IDvbTerrestrialDeliverySystemDescriptor.GetCentreFrequency, IDvbTerrestrialDeliverySystemDescriptor::GetCentreFrequency, IDvbTerrestrialDeliverySystemDescriptorGetCentreFrequency, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCentreFrequency, mstv.idvbterrestrialdeliverysystemdescriptor_getcentrefrequency
 ms.prod: windows
 ms.technology: windows-sdk

@@ -166,7 +166,7 @@ An unspecified error occurred.
 
 
 
-<a href="ranges.htm">Ranges: Clones and Backups</a>
+<a href="https://www.bing.com/search?q=Ranges:+Clones+and+Backups">Ranges: Clones and Backups</a>
  
 
  

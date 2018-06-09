@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry_gettransformlookup.htm
 old-project: printdocs
 ms.assetid: 21a9a2c5-c9f2-42a4-84c4-8f702950d7ba
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGeometry.GetTransformLookup, IXpsOMGeometry::GetTransformLookup, xps.ixpsomgeometry_gettransformlookup, xpsobjectmodel/IXpsOMGeometry::GetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,7 +151,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>lookup</i>.  If <i>lookup</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>lookup</i>.  If <i>lookup</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

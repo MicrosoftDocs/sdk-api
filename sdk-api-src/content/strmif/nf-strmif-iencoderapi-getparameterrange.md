@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getparameterrange.htm
 old-project: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
 ms.prod: windows
 ms.technology: windows-sdk

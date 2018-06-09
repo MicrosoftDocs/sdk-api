@@ -131,7 +131,7 @@ No service provider was found that supports the current address.
 
 
 The application must use 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 You can retrieve the name of the provider in a TSP-dependent format using 

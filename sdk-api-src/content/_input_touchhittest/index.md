@@ -2,7 +2,7 @@
 UID: TP:input_touchhittest
 ms.assetid: e1c0359c-7587-3b38-920e-8ec8db2c2104
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Touch Hit Testing
 
-
+## -description
 
 Overview of the Touch Hit Testing technology.
 

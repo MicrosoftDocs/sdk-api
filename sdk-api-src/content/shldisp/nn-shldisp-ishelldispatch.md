@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch.htm
 old-project: shell
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IShellDispatch, IShellDispatch object [Windows Shell], IShellDispatch object [Windows Shell],described, shell.IShellDispatch, shldisp/IShellDispatch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -316,7 +316,7 @@ Retrieves an object that represents the parent of the current object.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\cryptmsgupdate.htm
 old-project: SecCrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptMsgUpdate, CryptMsgUpdate function [Security], _crypto2_cryptmsgupdate, security.cryptmsgupdate, wincrypt/CryptMsgUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -239,11 +239,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="cryptography_functions.htm">Low-level Message Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
  
 
  

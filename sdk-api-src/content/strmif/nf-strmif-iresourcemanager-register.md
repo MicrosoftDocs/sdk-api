@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_register.htm
 old-project: DirectShow
 ms.assetid: 23fa6830-144b-479f-8a8e-b637d82f51d1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceManager.Register, IResourceManager::Register, IResourceManagerRegister, Register, Register method [DirectShow], Register method [DirectShow],IResourceManager interface, dshow.iresourcemanager_register, strmif/IResourceManager::Register
 ms.prod: windows
 ms.technology: windows-sdk

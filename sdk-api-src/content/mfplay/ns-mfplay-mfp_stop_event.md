@@ -7,7 +7,7 @@ old-location: mf\mfp_stop_event.htm
 old-project: medfound
 ms.assetid: 67459c57-7912-4c51-9d76-3dc98f0e65ba
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFP_STOP_EVENT, MFP_STOP_EVENT structure [Media Foundation], mf.mfp_stop_event, mfplay/MFP_STOP_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

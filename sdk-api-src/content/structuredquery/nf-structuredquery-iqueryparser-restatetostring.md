@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_RestateToString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatetostring.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IQueryParser interface [search],RestateToString method, IQueryParser.RestateToString, IQueryParser::RestateToString, RestateToString, RestateToString method [search], RestateToString method [search],IQueryParser interface, _search_IQueryParser_RestateToString, search._search_IQueryParser_RestateToString, structuredquery/IQueryParser::RestateToString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Reserved. Must be <b>FALSE</b>.
 
 Type: <b>LPWSTR*</b>
 
-Receives the restated query string. The caller must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
+Receives the restated query string. The caller must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns

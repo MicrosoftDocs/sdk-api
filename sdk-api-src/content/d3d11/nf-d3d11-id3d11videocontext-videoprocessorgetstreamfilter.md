@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamfilter.htm
 old-project: medfound
 ms.assetid: E18146E9-FBF4-4A1E-AC6C-7500CDA9DC59
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamFilter method, ID3D11VideoContext.VideoProcessorGetStreamFilter, ID3D11VideoContext::VideoProcessorGetStreamFilter, VideoProcessorGetStreamFilter, VideoProcessorGetStreamFilter method [Media Foundation], VideoProcessorGetStreamFilter method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFilter, mf.id3d11videocontext_videoprocessorgetstreamfilter
 ms.prod: windows
 ms.technology: windows-sdk

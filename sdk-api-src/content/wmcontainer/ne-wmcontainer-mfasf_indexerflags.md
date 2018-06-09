@@ -7,7 +7,7 @@ old-location: mf\mfasf_indexer_flags.htm
 old-project: medfound
 ms.assetid: e5794835-218d-4759-bf3e-a573b24424c3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFASF_INDEXERFLAGS, MFASF_INDEXER_FLAGS, MFASF_INDEXER_FLAGS enumeration [Media Foundation], MFASF_INDEXER_READ_FOR_REVERSEPLAYBACK, MFASF_INDEXER_WRITE_FOR_LIVEREAD, MFASF_INDEXER_WRITE_NEW_INDEX, e5794835-218d-4759-bf3e-a573b24424c3, enumeration [Media Foundation], mf.mfasf_indexer_flags, wmcontainer/MFASF_INDEXER_FLAGS, wmcontainer/MFASF_INDEXER_READ_FOR_REVERSEPLAYBACK, wmcontainer/MFASF_INDEXER_WRITE_FOR_LIVEREAD, wmcontainer/MFASF_INDEXER_WRITE_NEW_INDEX
 ms.prod: windows
 ms.technology: windows-sdk

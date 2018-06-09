@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_disconnectoutput.htm
 old-project: medfound
 ms.assetid: 77b91797-d9a7-40da-827d-6e2a347112dc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 77b91797-d9a7-40da-827d-6e2a347112dc, DisconnectOutput, DisconnectOutput method [Media Foundation], DisconnectOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],DisconnectOutput method, IMFTopologyNode.DisconnectOutput, IMFTopologyNode::DisconnectOutput, mf.imftopologynode_disconnectoutput, mfidl/IMFTopologyNode::DisconnectOutput
 ms.prod: windows
 ms.technology: windows-sdk

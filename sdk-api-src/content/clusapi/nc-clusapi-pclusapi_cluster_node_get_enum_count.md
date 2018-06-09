@@ -7,7 +7,7 @@ old-location: mscs\clusternodegetenumcount.htm
 old-project: MsCS
 ms.assetid: bec31b84-a4fd-48a3-b465-ceebb1f61028
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clusternodegetenumcount, clusapi/PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT, mscs.clusternodegetenumcount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ilocator_get_outerfec.htm
 old-project: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,15 +85,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_get_innerfec">get_InnerFEC</a>
+<a href="https://www.bing.com/search?q=get_InnerFEC">get_InnerFEC</a>
 
 
 
-<a href="mstv.idigitallocator_get_outerfecrate">get_OuterFECRate</a>
+<a href="https://www.bing.com/search?q=get_OuterFECRate">get_OuterFECRate</a>
 
 
 
-<a href="mstv.idigitallocator_put_outerfec">put_OuterFEC</a>
+<a href="https://www.bing.com/search?q=put_OuterFEC">put_OuterFEC</a>
  
 
  

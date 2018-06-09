@@ -7,7 +7,7 @@ old-location: mf\imfmediakeys_get_keysystem.htm
 old-project: medfound
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

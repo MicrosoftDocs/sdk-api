@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlDropHandler_OnDragLeave.htm
 old-project: shell
 ms.assetid: b5c67541-dcc2-412f-84aa-df0b0d135597
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragLeave method, INameSpaceTreeControlDropHandler.OnDragLeave, INameSpaceTreeControlDropHandler::OnDragLeave, OnDragLeave, OnDragLeave method [Windows Shell], OnDragLeave method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragLeave, shell.INameSpaceTreeControlDropHandler_OnDragLeave, shobjidl/INameSpaceTreeControlDropHandler::OnDragLeave
 ms.prod: windows
 ms.technology: windows-sdk

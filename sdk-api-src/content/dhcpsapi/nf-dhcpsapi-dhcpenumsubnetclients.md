@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclients.htm
 old-project: DHCP
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
 ms.prod: windows
 ms.technology: windows-sdk

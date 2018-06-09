@@ -7,8 +7,8 @@ old-location: stg\ipropertystorage_revert.htm
 old-project: Stg
 ms.assetid: 31e0d3e7-8575-4788-b42e-606221cf5a4c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: IPropertyStorage interface [Structured Storage],Revert method, IPropertyStorage.Revert, IPropertyStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_revert, propidl/IPropertyStorage::Revert, stg.ipropertystorage_revert
+ms.date: 06/06/2018
+ms.keywords: IPropertyStorage [Strctd Stg],Revert, IPropertyStorage interface [Structured Storage],Revert method, IPropertyStorage.Revert, IPropertyStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_revert, propidl/IPropertyStorage::Revert, stg.ipropertystorage_revert
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -84,6 +84,10 @@ For direct-mode property sets, this request is ignored and returns S_OK.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

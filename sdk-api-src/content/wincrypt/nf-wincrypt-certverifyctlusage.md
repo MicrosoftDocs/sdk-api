@@ -7,7 +7,7 @@ old-location: security\certverifyctlusage.htm
 old-project: SecCrypto
 ms.assetid: d87d8157-8e52-4198-bfd4-46d83d72eb13
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertVerifyCTLUsage, CertVerifyCTLUsage function [Security], _crypto2_certverifyctlusage, security.certverifyctlusage, wincrypt/CertVerifyCTLUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -229,7 +229,7 @@ The <b>CertDllVerifyCTLUsage</b> function in Cryptnet.dll can be installed by us
 
 
 
-<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
+<a href="https://www.bing.com/search?q=Verification+Functions+Using+CTLs">Verification Functions Using CTLs</a>
  
 
  

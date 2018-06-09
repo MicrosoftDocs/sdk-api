@@ -7,7 +7,7 @@ old-location: security\icertserverexit_getrequestattribute.htm
 old-project: SecCrypto
 ms.assetid: 894bde77-5e76-452b-acf5-c73fcaf1fa31
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerExit object, GetRequestAttribute method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestAttribute method, ICertServerExit.GetRequestAttribute, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ A pointer to a <b>BSTR</b> value that will contain the attribute value.
 
 To use this method, create a variable of type <b>BSTR</b>, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrAttributeValue</i>.
 
- When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+ When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 

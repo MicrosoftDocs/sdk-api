@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamids.htm
 old-project: medfound
 ms.assetid: 0715c78e-de92-439d-a4f3-078e19f78a8e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -195,7 +195,7 @@ This method must be implemented if any of the following conditions is true:
         By convention, if an MFT has exactly one fixed input stream and one fixed output stream, it should assign the identifier 0 to both streams.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="https://docs.microsoft.com/windows/desktop//medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

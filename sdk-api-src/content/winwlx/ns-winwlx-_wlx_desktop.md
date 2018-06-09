@@ -102,7 +102,7 @@ Indicates that the handle specified in <b>hDesktop</b> is valid.
 
 ### -field hDesktop
 
-A handle to the desktop returned by <a href="base.createdesktop">CreateDesktop</a> and <a href="base.opendesktop">OpenDesktop</a>.
+A handle to the desktop returned by <a href="https://www.bing.com/search?q=CreateDesktop">CreateDesktop</a> and <a href="https://www.bing.com/search?q=OpenDesktop">OpenDesktop</a>.
 
 
 ### -field pszDesktopName

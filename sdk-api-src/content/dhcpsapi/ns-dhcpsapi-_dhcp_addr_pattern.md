@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_addr_pattern.htm
 old-project: DHCP
 ms.assetid: 8c645b03-9859-48e9-8974-2dbdc9cfcac6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN structure [DHCP], PDHCP_ADDR_PATTERN, PDHCP_ADDR_PATTERN structure pointer [DHCP], _DHCP_ADDR_PATTERN, dhcp.dhcp_addr_pattern, dhcpsapi/DHCP_ADDR_PATTERN, dhcpsapi/PDHCP_ADDR_PATTERN"
 ms.prod: windows
 ms.technology: windows-sdk

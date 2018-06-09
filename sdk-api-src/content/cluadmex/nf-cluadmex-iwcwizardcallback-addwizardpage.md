@@ -7,7 +7,7 @@ old-location: mscs\iwcwizardcallback_addwizardpage.htm
 old-project: MsCS
 ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: AddWizardPage, AddWizardPage method [Failover Cluster], AddWizardPage method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],AddWizardPage method, IWCWizardCallback.AddWizardPage, IWCWizardCallback::AddWizardPage, _wolf_iwcwizardcallback_addwizardpage, cluadmex/IWCWizardCallback::AddWizardPage, mscs.iwcwizardcallback_addwizardpage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ If <b>AddWizardPage</b> is not successful,
      <a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a> 
      methods. Before calling <b>AddWizardPage</b>, 
      extensions must call the function 
-     <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a> to retrieve a 
+     <a href="https://www.bing.com/search?q=CreatePropertySheetPage">CreatePropertySheetPage</a> to retrieve a 
      handle to pass in the <i>hpage</i> parameter.
 
 Use 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo3_getcodecenumerationsetting.htm
 old-project: wmformat
 ms.assetid: 9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetCodecEnumerationSetting, GetCodecEnumerationSetting method [windows Media Format], GetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecEnumerationSetting method, IWMCodecInfo3.GetCodecEnumerationSetting, IWMCodecInfo3::GetCodecEnumerationSetting, IWMCodecInfo3GetCodecEnumerationSetting, wmformat.iwmcodecinfo3_getcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting
 ms.prod: windows
 ms.technology: windows-sdk

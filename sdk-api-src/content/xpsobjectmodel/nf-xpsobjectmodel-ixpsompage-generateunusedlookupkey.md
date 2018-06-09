@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_generateunusedlookupkey.htm
 old-project: printdocs
 ms.assetid: 79599ede-fd81-4d1a-b71b-ac5742e384ca
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GenerateUnusedLookupKey, GenerateUnusedLookupKey method [XPS Documents and Packaging], GenerateUnusedLookupKey method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GenerateUnusedLookupKey method, IXpsOMPage.GenerateUnusedLookupKey, IXpsOMPage::GenerateUnusedLookupKey, xps.ixpsompage_generateunusedlookupkey, xpsobjectmodel/IXpsOMPage::GenerateUnusedLookupKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -242,7 +242,7 @@ XPS_OBJECT_TYPE_VISUAL_BRUSH
 
 </div>
 <div> </div>
-This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

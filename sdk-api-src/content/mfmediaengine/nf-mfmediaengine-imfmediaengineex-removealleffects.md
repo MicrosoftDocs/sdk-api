@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_removealleffects.htm
 old-project: medfound
 ms.assetid: B9EF1440-27DA-48C6-B840-FF61DBF19E63
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],RemoveAllEffects method, IMFMediaEngineEx.RemoveAllEffects, IMFMediaEngineEx::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_removealleffects, mfmediaengine/IMFMediaEngineEx::RemoveAllEffects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

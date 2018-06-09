@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlprfreev4policy.htm
 old-project: DHCP
 ms.assetid: ace10974-784b-41f7-aee9-461c8d63b479
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpHlprFreeV4Policy, DhcpHlprFreeV4Policy function [DHCP], dhcp.dhcphlprfreev4policy, dhcpsapi/DhcpHlprFreeV4Policy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IConditionGenerator interface [search],RecognizeNamedEntities method, IConditionGenerator.RecognizeNamedEntities, IConditionGenerator::RecognizeNamedEntities, RecognizeNamedEntities, RecognizeNamedEntities method [search], RecognizeNamedEntities method [search],IConditionGenerator interface, _search_IConditionGenerator_RecognizeNamedEntities, search._search_IConditionGenerator_RecognizeNamedEntities, structuredquery/IConditionGenerator::RecognizeNamedEntities
 ms.prod: windows
 ms.technology: windows-sdk

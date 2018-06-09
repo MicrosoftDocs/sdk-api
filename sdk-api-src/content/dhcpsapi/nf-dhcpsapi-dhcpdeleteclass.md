@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeleteclass.htm
 old-project: DHCP
 ms.assetid: 45659805-d0d0-4b84-ac98-4a0f53133b0c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpDeleteClass, DhcpDeleteClass function [DHCP], dhcp.dhcpdeleteclass, dhcpsapi/DhcpDeleteClass
 ms.prod: windows
 ms.technology: windows-sdk

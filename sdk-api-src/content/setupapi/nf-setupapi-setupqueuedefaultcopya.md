@@ -7,7 +7,7 @@ old-location: setup\setupqueuedefaultcopy.htm
 old-project: SetupApi
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupQueueDefaultCopy, SetupQueueDefaultCopy function [Setup API], SetupQueueDefaultCopyA, SetupQueueDefaultCopyW, _setupapi_setupqueuedefaultcopy, setup.setupqueuedefaultcopy, setupapi/SetupQueueDefaultCopy, setupapi/SetupQueueDefaultCopyA, setupapi/SetupQueueDefaultCopyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="https://www.bing.com/search?q=VS_FIXEDFILEINFO">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 

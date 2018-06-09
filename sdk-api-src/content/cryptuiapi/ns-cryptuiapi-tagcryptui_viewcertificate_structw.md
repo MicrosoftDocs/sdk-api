@@ -7,7 +7,7 @@ old-location: security\cryptui_viewcertificate_struct.htm
 old-project: SecCrypto
 ms.assetid: 7bbd58df-3a1b-4d82-9a90-7c94260a7165
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_ACCEPT_DECLINE_STYLE, CRYPTUI_CACHE_ONLY_URL_RETRIEVAL, CRYPTUI_DISABLE_ADDTOSTORE, CRYPTUI_DISABLE_EDITPROPERTIES, CRYPTUI_DISABLE_EXPORT, CRYPTUI_DISABLE_HTMLLINK, CRYPTUI_DISABLE_ISSUERSTATEMENT, CRYPTUI_DONT_OPEN_STORES, CRYPTUI_ENABLE_ADDTOSTORE, CRYPTUI_ENABLE_EDITPROPERTIES, CRYPTUI_ENABLE_REVOCATION_CHECKING, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN, CRYPTUI_ENABLE_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CRYPTUI_ENABLE_REVOCATION_CHECK_END_CERT, CRYPTUI_HIDE_DETAILPAGE, CRYPTUI_HIDE_HIERARCHYPAGE, CRYPTUI_IGNORE_UNTRUSTED_ROOT, CRYPTUI_ONLY_OPEN_ROOT_STORE, CRYPTUI_VIEWCERTIFICATE_STRUCT, CRYPTUI_VIEWCERTIFICATE_STRUCT structure [Security], CRYPTUI_VIEWCERTIFICATE_STRUCTA, CRYPTUI_VIEWCERTIFICATE_STRUCTW, CRYPTUI_WARN_REMOTE_TRUST, CRYPTUI_WARN_UNTRUSTED_ROOT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT, PCCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], PCRYPTUI_VIEWCERTIFICATE_STRUCT, PCRYPTUI_VIEWCERTIFICATE_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTA, cryptuiapi/CRYPTUI_VIEWCERTIFICATE_STRUCTW, cryptuiapi/PCCRYPTUI_VIEWCERTIFICATE_STRUCT, cryptuiapi/PCRYPTUI_VIEWCERTIFICATE_STRUCT, security.cryptui_viewcertificate_struct, security.cryptui_viewcertificate_structw, tagCRYPTUI_VIEWCERTIFICATE_STRUCTW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -363,7 +363,7 @@ The number of property pages to add to the dialog box.
 
 ### -field rgPropSheetPages
 
-An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://msdn.microsoft.com/c6335c02-3b3e-45e2-bb58-b7213aea500b">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> for which the page is being displayed.
+An array of property pages to add to the dialog box.                        Each page in this array will not receive the <b>lParam</b> in the <a href="https://www.bing.com/search?q=PROPSHEETPAGE">PROPSHEETPAGE</a> structure as the <b>lParam</b> in the <a href="https://www.bing.com/search?q=WM_INITDIALOG">WM_INITDIALOG</a> message. It will instead receive a pointer to a <a href="https://msdn.microsoft.com/c6335c02-3b3e-45e2-bb58-b7213aea500b">CRYPTUI_INITDIALOG_STRUCT</a>  structure. It contains the <b>lParam</b> in  <b>PROPSHEETPAGE</b> and the pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> for which the page is being displayed.
 
 
 ### -field nStartPage

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subresource_range_uint64.htm
 old-project: direct3d12
 ms.assetid: D8DACE22-9AFD-4DCD-A254-A34AD532ACD7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_SUBRESOURCE_RANGE_UINT64, D3D12_SUBRESOURCE_RANGE_UINT64 structure, d3d12/D3D12_SUBRESOURCE_RANGE_UINT64, direct3d12.d3d12_subresource_range_uint64
 ms.prod: windows
 ms.technology: windows-sdk

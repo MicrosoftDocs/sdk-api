@@ -7,7 +7,7 @@ old-location: mstv\iisdbtsinformationdescriptor_gettsnamew.htm
 old-project: mstv
 ms.assetid: 4c8900d1-1047-4b11-87e0-da1a72f511f7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTSNameW, GetTSNameW method [Microsoft TV Technologies], GetTSNameW method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTSNameW method, IIsdbTSInformationDescriptor.GetTSNameW, IIsdbTSInformationDescriptor::GetTSNameW, dvbsiparser/IIsdbTSInformationDescriptor::GetTSNameW, mstv.iisdbtsinformationdescriptor_gettsnamew
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getqueryclassname.htm
 old-project: WmiSdk
 ms.assetid: 6cb3da43-dab1-4049-9793-d62f027efe1c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetQueryClassName method, CFrameworkQuery.GetQueryClassName, CFrameworkQuery::GetQueryClassName, GetQueryClassName, GetQueryClassName method [Windows Management Instrumentation], GetQueryClassName method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getqueryclassname, frquery/CFrameworkQuery::GetQueryClassName, wmi.cframeworkquery_getqueryclassname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Returns the class name if the operation was successful and <b>NULL</b> otherwise
 
 
 
-It is the developer's responsibility to call <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> on the <b>BSTR</b> returned by this method to avoid a memory leak.
+It is the developer's responsibility to call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the <b>BSTR</b> returned by this method to avoid a memory leak.
 
 
 

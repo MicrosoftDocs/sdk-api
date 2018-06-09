@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_ink.htm
 old-project: tablet
 ms.assetid: 973d9aaa-0897-4e3f-a57f-ce505853f310
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 973d9aaa-0897-4e3f-a57f-ce505853f310, IInkStrokes interface [Tablet PC],Ink property, IInkStrokes.Ink, IInkStrokes.get_Ink, IInkStrokes::Ink, IInkStrokes::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkStrokes interface, InkStrokes.get_Ink, get_Ink, msinkaut/IInkStrokes::Ink, msinkaut/IInkStrokes::get_Ink, tablet.inkstrokes_ink
 ms.prod: windows
 ms.technology: windows-sdk

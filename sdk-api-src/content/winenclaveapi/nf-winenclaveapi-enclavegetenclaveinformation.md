@@ -7,7 +7,7 @@ old-location: base\enclavegetenclaveinformation.htm
 old-project: Memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
 ms.prod: windows
 ms.technology: windows-sdk

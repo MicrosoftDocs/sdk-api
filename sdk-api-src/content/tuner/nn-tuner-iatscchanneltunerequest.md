@@ -7,7 +7,7 @@ old-location: mstv\iatscchanneltunerequest.htm
 old-project: mstv
 ms.assetid: 9b55e181-ae03-473c-a85a-f169744d911d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IATSCChannelTuneRequest, IATSCChannelTuneRequest interface [Microsoft TV Technologies], IATSCChannelTuneRequest interface [Microsoft TV Technologies],described, IATSCChannelTuneRequestInterface, mstv.iatscchanneltunerequest, tuner/IATSCChannelTuneRequest
 ms.prod: windows
 ms.technology: windows-sdk

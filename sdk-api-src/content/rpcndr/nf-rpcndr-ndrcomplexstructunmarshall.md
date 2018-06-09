@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexstructunmarshall.htm
 old-project: DevNotes
 ms.assetid: a29d685e-df89-4ffd-95e1-d265a8e7b7a2
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: NdrComplexStructUnmarshall, NdrComplexStructUnmarshall function [Windows API], rpcndr/NdrComplexStructUnmarshall, winprog.ndrcomplexstructunmarshall
 ms.prod: windows
 ms.technology: windows-sdk

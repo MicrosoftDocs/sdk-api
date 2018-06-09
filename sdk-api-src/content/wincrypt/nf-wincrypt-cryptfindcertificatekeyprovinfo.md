@@ -7,7 +7,7 @@ old-location: security\cryptfindcertificatekeyprovinfo.htm
 old-project: SecCrypto
 ms.assetid: 9e63517d-a56e-45a9-972c-de9a297e9e25
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_FIND_MACHINE_KEYSET_FLAG, CRYPT_FIND_SILENT_KEYSET_FLAG, CRYPT_FIND_USER_KEYSET_FLAG, CryptFindCertificateKeyProvInfo, CryptFindCertificateKeyProvInfo function [Security], _crypto2_cryptfindcertificatekeyprovinfo, security.cryptfindcertificatekeyprovinfo, wincrypt/CryptFindCertificateKeyProvInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -212,7 +212,7 @@ This function enumerates the cryptographic providers and their containers to fin
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

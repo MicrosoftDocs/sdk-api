@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary_iaccdictionary__convertvaluetostring.htm
 old-project: WinAuto
 ms.assetid: 30ac7ba4-9968-40dd-99d2-8600d25ade20
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: ConvertValueToString, ConvertValueToString method [Windows Accessibility], ConvertValueToString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],ConvertValueToString method, IAccDictionary.ConvertValueToString, IAccDictionary::ConvertValueToString, _msaa_IAccDictionary_ConvertValueToString, msaa.iaccdictionary_iaccdictionary__convertvaluetostring, msaatext/IAccDictionary::ConvertValueToString, winauto.iaccdictionary_iaccdictionary__convertvaluetostring
 ms.prod: windows
 ms.technology: windows-sdk

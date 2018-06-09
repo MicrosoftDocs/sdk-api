@@ -7,7 +7,7 @@ old-location: mscs\moveclustergroup.htm
 old-project: MsCS
 ms.assetid: 32408600-5118-47fb-890b-9c31faef2299
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_MOVE_CLUSTER_GROUP, PCLUSAPI_MOVE_CLUSTER_GROUP callback, PCLUSAPI_MOVE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_moveclustergroup, clusapi/PCLUSAPI_MOVE_CLUSTER_GROUP, mscs.moveclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

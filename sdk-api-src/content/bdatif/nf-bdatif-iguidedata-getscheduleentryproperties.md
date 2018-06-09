@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getscheduleentryproperties.htm
 old-project: mstv
 ms.assetid: 7fe01a0b-8101-40a2-97ee-e0f5c9d8d1a0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetScheduleEntryProperties, GetScheduleEntryProperties method [Microsoft TV Technologies], GetScheduleEntryProperties method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryProperties method, IGuideData.GetScheduleEntryProperties, IGuideData::GetScheduleEntryProperties, IGuideDataGetScheduleEntryProperties, bdatif/IGuideData::GetScheduleEntryProperties, mstv.iguidedata_getscheduleentryproperties
 ms.prod: windows
 ms.technology: windows-sdk

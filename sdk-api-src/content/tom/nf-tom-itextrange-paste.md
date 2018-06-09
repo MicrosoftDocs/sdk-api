@@ -79,7 +79,7 @@ The <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">ID
 
 Type: <b>long</b>
 
-The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="winui._win32_Clipboard_Formats">Clipboard Formats</a>.
+The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="https://www.bing.com/search?q=Clipboard+Formats">Clipboard Formats</a>.
 
 
 ## -returns
@@ -137,7 +137,7 @@ For more information, see<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-
 
 
 
-<a href="winui._win32_Clipboard_Formats">Clipboard Formats</a>
+<a href="https://www.bing.com/search?q=Clipboard+Formats">Clipboard Formats</a>
 
 
 

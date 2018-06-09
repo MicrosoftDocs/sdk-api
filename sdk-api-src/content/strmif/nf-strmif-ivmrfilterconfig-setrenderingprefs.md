@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig_setrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: 1374d071-f396-4fcb-8ca2-ac3986960207
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetRenderingPrefs method, IVMRFilterConfig.SetRenderingPrefs, IVMRFilterConfig::SetRenderingPrefs, IVMRFilterConfigSetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setrenderingprefs, strmif/IVMRFilterConfig::SetRenderingPrefs
 ms.prod: windows
 ms.technology: windows-sdk

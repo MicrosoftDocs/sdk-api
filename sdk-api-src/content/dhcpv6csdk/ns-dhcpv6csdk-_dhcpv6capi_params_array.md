@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6capi_params_array.htm
 old-project: DHCP
 ms.assetid: 2392586f-94a0-4667-b59a-88c0e1d88713
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCPV6CAPI_PARAMS_ARRAY, *PDHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_PARAMS_ARRAY, DHCPV6CAPI_PARAMS_ARRAY structure [DHCP], LPDHCPV6CAPI_PARAMS_ARRAY, LPDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP], PDHCPV6CAPI_PARAMS_ARRAY, PDHCPV6CAPI_PARAMS_ARRAY structure pointer [DHCP], _DHCPV6CAPI_PARAMS_ARRAY, dhcp.dhcpv6capi_params_array, dhcpv6csdk/DHCPV6CAPI_PARAMS_ARRAY, dhcpv6csdk/LPDHCPV6CAPI_PARAMS_ARRAY, dhcpv6csdk/PDHCPV6CAPI_PARAMS_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

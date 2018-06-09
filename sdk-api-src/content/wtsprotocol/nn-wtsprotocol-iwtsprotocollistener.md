@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollistener.htm
 old-project: TermServ
 ms.assetid: b11eb19f-ffc3-4a68-85c6-90a2412168f8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWTSProtocolListener, IWTSProtocolListener interface [Remote Desktop Services], IWTSProtocolListener interface [Remote Desktop Services],described, termserv.iwtsprotocollistener, wtsprotocol/IWTSProtocolListener
 ms.prod: windows
 ms.technology: windows-sdk

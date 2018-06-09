@@ -7,7 +7,7 @@ old-location: mf\mfcreateaudiorenderer.htm
 old-project: medfound
 ms.assetid: 9554e39b-9d14-4b7f-862c-a1ffcf84543c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 9554e39b-9d14-4b7f-862c-a1ffcf84543c, MFCreateAudioRenderer, MFCreateAudioRenderer function [Media Foundation], mf.mfcreateaudiorenderer, mfidl/MFCreateAudioRenderer
 ms.prod: windows
 ms.technology: windows-sdk

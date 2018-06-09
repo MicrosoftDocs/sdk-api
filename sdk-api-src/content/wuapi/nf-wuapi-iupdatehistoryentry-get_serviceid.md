@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_serviceid.htm
 old-project: Wua_Sdk
 ms.assetid: 01e430fa-6ff6-47f9-bac7-7d611b0f934f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServiceID property, IUpdateHistoryEntry.ServiceID, IUpdateHistoryEntry.get_ServiceID, IUpdateHistoryEntry::ServiceID, IUpdateHistoryEntry::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServiceID, wua.iupdatehistoryentry_serviceid, wuapi/IUpdateHistoryEntry::ServiceID, wuapi/IUpdateHistoryEntry::get_ServiceID
 ms.prod: windows
 ms.technology: windows-sdk

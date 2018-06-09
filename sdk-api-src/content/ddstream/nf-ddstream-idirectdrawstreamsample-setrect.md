@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawstreamsample_setrect.htm
 old-project: DirectShow
 ms.assetid: 10b25552-e923-4cd5-afb7-52164057f2e0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDirectDrawStreamSample interface [DirectShow],SetRect method, IDirectDrawStreamSample.SetRect, IDirectDrawStreamSample::SetRect, IDirectDrawStreamSampleSetRect, SetRect, SetRect method [DirectShow], SetRect method [DirectShow],IDirectDrawStreamSample interface, ddstream/IDirectDrawStreamSample::SetRect, dshow.idirectdrawstreamsample_setrect
 ms.prod: windows
 ms.technology: windows-sdk

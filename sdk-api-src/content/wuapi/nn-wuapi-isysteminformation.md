@@ -7,7 +7,7 @@ old-location: wua\isysteminformation.htm
 old-project: Wua_Sdk
 ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
 ms.prod: windows
 ms.technology: windows-sdk

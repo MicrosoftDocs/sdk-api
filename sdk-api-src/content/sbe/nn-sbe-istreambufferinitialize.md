@@ -7,7 +7,7 @@ old-location: mstv\istreambufferinitialize.htm
 old-project: mstv
 ms.assetid: 357b2979-78de-4a99-bf52-4117af7dfaad
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], IStreamBufferInitialize interface [Microsoft TV Technologies],described, IStreamBufferInitializeInterface, mstv.istreambufferinitialize, sbe/IStreamBufferInitialize
 ms.prod: windows
 ms.technology: windows-sdk

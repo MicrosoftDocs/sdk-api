@@ -7,7 +7,7 @@ old-location: shell\ISearchBoxInfo_GetCondition.htm
 old-project: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 6.01
 ## -description
 
 
-Retrieves the contents of the search box as an <a href="_search_ICondition">ICondition</a> object.
+Retrieves the contents of the search box as an <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition.md">ICondition</a> object.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="_search_ICondition">ICondition</a>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition.md">ICondition</a>.
 
 
 ## -returns

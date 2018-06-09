@@ -2,7 +2,7 @@
 UID: TP:devtest
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Driver Development Tools Reference
 
-
+## -description
 
 Overview of the Driver Development Tools Reference technology.
 

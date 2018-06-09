@@ -7,7 +7,7 @@ old-location: base\writeprivateprofilesection.htm
 old-project: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
 ms.prod: windows
 ms.technology: windows-sdk

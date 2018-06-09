@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_parentwindow.htm
 old-project: Wua_Sdk
 ms.assetid: 06eb4761-3a37-44bc-82b9-b40c0595fe49
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentWindow property, IUpdateInstaller.ParentWindow, IUpdateInstaller.put_ParentWindow, IUpdateInstaller::ParentWindow, IUpdateInstaller::get_ParentWindow, IUpdateInstaller::put_ParentWindow, ParentWindow property [Windows Update Agent], ParentWindow property [Windows Update Agent],IUpdateInstaller interface, put_ParentWindow, wua.iupdateinstaller_parentwindow, wuapi/IUpdateInstaller::ParentWindow, wuapi/IUpdateInstaller::get_ParentWindow, wuapi/IUpdateInstaller::put_ParentWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-This property can be changed only by a user on the computer. This property can be accessed by using the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface.
+This property can be changed only by a user on the computer. This property can be accessed by using the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface.
 
 
 

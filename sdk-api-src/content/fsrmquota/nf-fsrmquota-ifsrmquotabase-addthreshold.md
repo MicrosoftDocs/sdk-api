@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotabase_addthreshold.htm
 old-project: Fsrm
 ms.assetid: 9571e169-01a3-4b72-bc84-2f9b2609a6e2
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: AddThreshold, AddThreshold method [File Server Resource Manager], AddThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],AddThreshold method, IFsrmQuotaBase.AddThreshold, IFsrmQuotaBase::AddThreshold, fs.ifsrmquotabase_addthreshold, fsrm.ifsrmquotabase_addthreshold, fsrmquota/IFsrmQuotaBase::AddThreshold
 ms.prod: windows
 ms.technology: windows-sdk

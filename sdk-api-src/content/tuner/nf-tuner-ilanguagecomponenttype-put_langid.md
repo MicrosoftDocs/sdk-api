@@ -7,7 +7,7 @@ old-location: mstv\ilanguagecomponenttype_put_langid.htm
 old-project: mstv
 ms.assetid: c0dc0141-a839-4fdc-9313-24ddd3eaf63d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],put_LangID method, ILanguageComponentType.put_LangID, ILanguageComponentType::put_LangID, ILanguageComponentTypeput_LangID, mstv.ilanguagecomponenttype_put_langid, put_LangID, put_LangID method [Microsoft TV Technologies], put_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, tuner/ILanguageComponentType::put_LangID
 ms.prod: windows
 ms.technology: windows-sdk

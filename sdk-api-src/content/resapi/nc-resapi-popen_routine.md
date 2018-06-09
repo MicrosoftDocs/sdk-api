@@ -7,7 +7,7 @@ old-location: mscs\open.htm
 old-project: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: Open, Open callback, Open callback function [Failover Cluster], POPEN_ROUTINE, POPEN_ROUTINE callback function [Failover Cluster], _wolf_open, mscs.open, resapi/Open, resapi/POPEN_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ For effective implementation strategies of the <i>Open</i>
 
 #### Examples
 
-See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+See <a href="https://www.bing.com/search?q=Resource+DLL+Examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

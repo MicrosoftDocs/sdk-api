@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink_getidentifier.htm
 old-project: medfound
 ms.assetid: af4855f6-36fa-4949-8b93-9e630a12e71b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [Media Foundation], GetIdentifier method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetIdentifier method, IMFStreamSink.GetIdentifier, IMFStreamSink::GetIdentifier, af4855f6-36fa-4949-8b93-9e630a12e71b, mf.imfstreamsink_getidentifier, mfidl/IMFStreamSink::GetIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

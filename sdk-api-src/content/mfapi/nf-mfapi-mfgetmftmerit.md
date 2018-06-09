@@ -7,7 +7,7 @@ old-location: mf\mfgetmftmerit.htm
 old-project: medfound
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
 ms.prod: windows
 ms.technology: windows-sdk

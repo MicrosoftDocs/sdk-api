@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getclipgeometrylookup.htm
 old-project: printdocs
 ms.assetid: aa101ac6-65e8-4f6b-a6fa-59f3a003ffc5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetClipGeometryLookup, GetClipGeometryLookup method [XPS Documents and Packaging], GetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometryLookup method, IXpsOMVisual.GetClipGeometryLookup, IXpsOMVisual::GetClipGeometryLookup, xps.ixpsomvisual_getclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLookup
 ms.prod: windows
 ms.technology: windows-sdk

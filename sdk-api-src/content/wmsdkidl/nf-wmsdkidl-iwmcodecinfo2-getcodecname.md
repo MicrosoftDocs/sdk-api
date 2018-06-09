@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo2_getcodecname.htm
 old-project: wmformat
 ms.assetid: 4ec4e242-9726-4fac-8867-cb4b13c4cbdc
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetCodecName, GetCodecName method [windows Media Format], GetCodecName method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecName method, IWMCodecInfo2.GetCodecName, IWMCodecInfo2::GetCodecName, IWMCodecInfo2GetCodecName, wmformat.iwmcodecinfo2_getcodecname, wmsdkidl/IWMCodecInfo2::GetCodecName
 ms.prod: windows
 ms.technology: windows-sdk

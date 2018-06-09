@@ -7,7 +7,7 @@ old-location: mscs\clusprop_buffer_helper.htm
 old-project: MsCS
 ms.assetid: a2b706a0-76fe-4757-b76b-96cb6708bb61
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: "*PCLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER union [Failover Cluster], PCLUSPROP_BUFFER_HELPER, PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster], _wolf_clusprop_buffer_helper, clusapi/CLUSPROP_BUFFER_HELPER, clusapi/PCLUSPROP_BUFFER_HELPER, mscs.clusprop_buffer_helper"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,7 +185,7 @@ Pointer to a <a href="https://msdn.microsoft.com/38400cce-d84a-4439-9dab-20102c1
 ### -field pScsiAddressValue
 
 Pointer to a <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
-       structure containing an <a href="s_gly.htm">SCSI</a> 
+       structure containing an <a href="https://www.bing.com/search?q=SCSI">SCSI</a> 
        address value.
 
 

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiomute_setmute.htm
 old-project: CoreAudio
 ms.assetid: e99cb894-b39e-42ec-be8f-dc3fa6e7abcd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAudioMute interface [Core Audio],SetMute method, IAudioMute.SetMute, IAudioMute::SetMute, IAudioMuteSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioMute interface, coreaudio.iaudiomute_setmute, devicetopology/IAudioMute::SetMute
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\ispellingerror_startindex.htm
 old-project: Intl
 ms.assetid: bf4e8981-9f7c-4f4f-bb22-866649af2727
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],StartIndex property, ISpellingError.StartIndex, ISpellingError.get_StartIndex, ISpellingError::StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications],ISpellingError interface, get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
 ms.prod: windows
 ms.technology: windows-sdk

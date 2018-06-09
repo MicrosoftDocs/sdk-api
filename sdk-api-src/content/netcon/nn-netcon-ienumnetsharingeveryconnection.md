@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection.htm
 old-project: ICS
 ms.assetid: d3be8047-e0d5-44b7-97d9-536bc4aa11c5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], IEnumNetSharingEveryConnection interface [ICS/ICF],described, _ics_ienumnetsharingeveryconnection, ics.ienumnetsharingeveryconnection, netcon/IEnumNetSharingEveryConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,7 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>
 
 
 

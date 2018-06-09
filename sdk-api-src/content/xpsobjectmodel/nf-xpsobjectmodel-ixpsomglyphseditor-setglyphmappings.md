@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_setglyphmappings.htm
 old-project: printdocs
 ms.assetid: c09db1ca-b244-46bd-b01a-a40d260562eb
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetGlyphMappings method, IXpsOMGlyphsEditor.SetGlyphMappings, IXpsOMGlyphsEditor::SetGlyphMappings, SetGlyphMappings, SetGlyphMappings method [XPS Documents and Packaging], SetGlyphMappings method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setglyphmappings, xpsobjectmodel/IXpsOMGlyphsEditor::SetGlyphMappings
 ms.prod: windows
 ms.technology: windows-sdk

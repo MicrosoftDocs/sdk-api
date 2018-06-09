@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setmuted.htm
 old-project: medfound
 ms.assetid: 330CB3CF-F649-4964-A24D-3C16E778BFD7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetMuted method, IMFMediaEngine.SetMuted, IMFMediaEngine::SetMuted, SetMuted, SetMuted method [Media Foundation], SetMuted method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setmuted, mfmediaengine/IMFMediaEngine::SetMuted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

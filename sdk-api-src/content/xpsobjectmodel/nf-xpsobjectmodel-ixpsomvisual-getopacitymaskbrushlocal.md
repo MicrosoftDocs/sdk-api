@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getopacitymaskbrushlocal.htm
 old-project: printdocs
 ms.assetid: 654dc003-25a6-4186-9c3b-7fe6f82b5481
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetOpacityMaskBrushLocal, GetOpacityMaskBrushLocal method [XPS Documents and Packaging], GetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLocal method, IXpsOMVisual.GetOpacityMaskBrushLocal, IXpsOMVisual::GetOpacityMaskBrushLocal, xps.ixpsomvisual_getopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLocal
 ms.prod: windows
 ms.technology: windows-sdk

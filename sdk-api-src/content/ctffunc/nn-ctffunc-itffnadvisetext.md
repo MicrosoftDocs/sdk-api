@@ -101,7 +101,7 @@ Called when the text within a context changes.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
  
 
  

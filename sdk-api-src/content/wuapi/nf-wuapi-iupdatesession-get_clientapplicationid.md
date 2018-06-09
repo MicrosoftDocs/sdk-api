@@ -7,7 +7,7 @@ old-location: wua\iupdatesession_clientapplicationid.htm
 old-project: Wua_Sdk
 ms.assetid: 9e025c75-5884-4a45-ab11-24a8b66ab838
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],ClientApplicationID property, IUpdateSession.ClientApplicationID, IUpdateSession.get_ClientApplicationID, IUpdateSession::ClientApplicationID, IUpdateSession::get_ClientApplicationID, IUpdateSession::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatesession_clientapplicationid, wuapi/IUpdateSession::ClientApplicationID, wuapi/IUpdateSession::get_ClientApplicationID, wuapi/IUpdateSession::put_ClientApplicationID
 ms.prod: windows
 ms.technology: windows-sdk

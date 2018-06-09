@@ -7,7 +7,7 @@ old-location: security\certverifycrltimevalidity.htm
 old-project: SecCrypto
 ms.assetid: ff321fe8-df45-4a1d-b626-055fb0696438
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertVerifyCRLTimeValidity, CertVerifyCRLTimeValidity function [Security], _crypto2_certverifycrltimevalidity, security.certverifycrltimevalidity, wincrypt/CertVerifyCRLTimeValidity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

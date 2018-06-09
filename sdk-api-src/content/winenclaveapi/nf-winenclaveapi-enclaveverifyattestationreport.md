@@ -7,7 +7,7 @@ old-location: base\enclaveverifyattestationreport.htm
 old-project: Memory
 ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
 ms.prod: windows
 ms.technology: windows-sdk

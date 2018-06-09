@@ -7,7 +7,7 @@ old-location: security\cryptreleasecontext.htm
 old-project: SecCrypto
 ms.assetid: c1e3e708-b543-4e87-8638-a9946a83e614
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptReleaseContext, CryptReleaseContext function [Security], _crypto2_cryptreleasecontext, security.cryptreleasecontext, wincrypt/CryptReleaseContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,7 +183,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="cryptography_functions.htm">Service Provider Functions</a>
+<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\cryptimportpublickeyinfo.htm
 old-project: SecCrypto
 ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ if(pCertContext)
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

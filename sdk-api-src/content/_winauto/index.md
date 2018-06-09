@@ -2,7 +2,7 @@
 UID: TP:winauto
 ms.assetid: 36f74dca-3718-33e7-a3b8-2c7b0e5e736b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,15 +11,15 @@ ms.topic: portal
 
 # Windows Accessibility Features
 
-
+## -description
 
 Overview of the Windows Accessibility Features technology.
 
 To develop Windows Accessibility Features, you need these headers:
 
- * [oleacc.h](..\oleacc\index.md)
- * [uiautomationclient.h](..\uiautomationclient\index.md)
- * [uiautomationcore.h](..\uiautomationcore\index.md)
- * [uiautomationcoreapi.h](..\uiautomationcoreapi\index.md)
+ * [oleacc.h](../oleacc/index.md)
+ * [uiautomationclient.h](../uiautomationclient/index.md)
+ * [uiautomationcore.h](../uiautomationcore/index.md)
+ * [uiautomationcoreapi.h](../uiautomationcoreapi/index.md)
 
 For the programming guide, see [Windows Accessibility Features](/windows/desktop/winauto).

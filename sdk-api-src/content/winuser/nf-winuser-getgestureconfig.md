@@ -7,7 +7,7 @@ old-location: wintouch\getgestureconfig.htm
 old-project: wintouch
 ms.assetid: 8b7a594c-e9e4-4215-8946-da170c957a2b
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
 ms.prod: windows
 ms.technology: windows-sdk

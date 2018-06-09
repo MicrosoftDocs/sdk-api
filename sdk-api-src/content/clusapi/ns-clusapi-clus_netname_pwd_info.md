@@ -7,7 +7,7 @@ old-location: mscs\clus_netname_pwd_info.htm
 old-project: MsCS
 ms.assetid: 365959c8-63e7-477b-b772-85a0afdaa6f6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: "*PCLUS_NETNAME_PWD_INFO, *PCLUS_RLUA_PWD_INFO, CLUS_NETNAME_PWD_INFO, CLUS_NETNAME_PWD_INFO structure [Failover Cluster], CLUS_RLUA_PWD_INFO, CLUS_RLUA_PWD_INFO structure [Failover Cluster], PCLUS_NETNAME_PWD_INFO, PCLUS_NETNAME_PWD_INFO structure pointer [Failover Cluster], PCLUS_RLUA_PWD_INFO, PCLUS_RLUA_PWD_INFO structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_PWD_INFO, clusapi/CLUS_RLUA_PWD_INFO, clusapi/PCLUS_NETNAME_PWD_INFO, clusapi/PCLUS_RLUA_PWD_INFO, mscs.clus_netname_pwd_info"
 ms.prod: windows
 ms.technology: windows-sdk

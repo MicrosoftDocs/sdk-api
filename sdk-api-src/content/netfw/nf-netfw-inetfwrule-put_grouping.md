@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_grouping.htm
 old-project: ICS
 ms.assetid: 325b0c1d-3988-44ed-931c-6eed835f8c50
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: Grouping property [ICS/ICF], Grouping property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Grouping property, INetFwRule.Grouping, INetFwRule.put_Grouping, INetFwRule::Grouping, INetFwRule::get_Grouping, INetFwRule::put_Grouping, ics.inetfwrule_grouping, netfw/INetFwRule::Grouping, netfw/INetFwRule::get_Grouping, netfw/INetFwRule::put_Grouping, put_Grouping
 ms.prod: windows
 ms.technology: windows-sdk

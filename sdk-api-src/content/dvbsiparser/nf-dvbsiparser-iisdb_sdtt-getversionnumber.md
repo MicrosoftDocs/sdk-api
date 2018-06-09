@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getversionnumber.htm
 old-project: mstv
 ms.assetid: 19b2234b-6836-42b7-9e64-a8212946c77b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_SDTT.GetVersionNumber, IISDB_SDTT::GetVersionNumber, dvbsiparser/IISDB_SDTT::GetVersionNumber, mstv.iisdb_sdtt_getversionnumber
 ms.prod: windows
 ms.technology: windows-sdk

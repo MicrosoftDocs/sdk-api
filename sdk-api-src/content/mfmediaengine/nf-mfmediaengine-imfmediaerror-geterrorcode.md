@@ -7,7 +7,7 @@ old-location: mf\imfmediaerror_geterrorcode.htm
 old-project: medfound
 ms.assetid: 6E4C4559-F59C-488C-A790-D95831BC9D29
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetErrorCode method, IMFMediaError.GetErrorCode, IMFMediaError::GetErrorCode, mf.imfmediaerror_geterrorcode, mfmediaengine/IMFMediaError::GetErrorCode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

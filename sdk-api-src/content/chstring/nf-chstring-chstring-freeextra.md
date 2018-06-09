@@ -7,7 +7,7 @@ old-location: wmi\chstring_freeextra.htm
 old-project: WmiSdk
 ms.assetid: 4330564e-aeae-4ff3-b01d-eceace721c14
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FreeExtra method, CHString.FreeExtra, CHString::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHString interface, _hmm_chstring_freeextra, chstring/CHString::FreeExtra, wmi.chstring_freeextra
 ms.prod: windows
 ms.technology: windows-sdk

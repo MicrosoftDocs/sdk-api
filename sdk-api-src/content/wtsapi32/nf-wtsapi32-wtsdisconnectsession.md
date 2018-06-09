@@ -7,7 +7,7 @@ old-location: termserv\wtsdisconnectsession.htm
 old-project: TermServ
 ms.assetid: 1e9487c2-7678-4f9c-9b0b-e6769718d027
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: WTSDisconnectSession, WTSDisconnectSession function [Remote Desktop Services], _win32_wtsdisconnectsession, termserv.wtsdisconnectsession, wtsapi32/WTSDisconnectSession
 ms.prod: windows
 ms.technology: windows-sdk

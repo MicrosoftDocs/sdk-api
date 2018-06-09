@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_commit.htm
 old-project: DirectShow
 ms.assetid: 34db4c1f-5642-4495-a572-9a78b1ee7b7e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: Commit, Commit method [DirectShow], Commit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Commit method, IMemAllocator.Commit, IMemAllocator::Commit, IMemAllocatorCommit, dshow.imemallocator_commit, strmif/IMemAllocator::Commit
 ms.prod: windows
 ms.technology: windows-sdk

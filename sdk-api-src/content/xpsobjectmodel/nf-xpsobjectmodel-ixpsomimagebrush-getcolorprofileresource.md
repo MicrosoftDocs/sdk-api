@@ -7,7 +7,7 @@ old-location: xps\ixpsomimagebrush_getcolorprofileresource.htm
 old-project: printdocs
 ms.assetid: 7472f84b-cd14-4b9f-8ea9-69e743319d05
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetColorProfileResource, GetColorProfileResource method [XPS Documents and Packaging], GetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetColorProfileResource method, IXpsOMImageBrush.GetColorProfileResource, IXpsOMImageBrush::GetColorProfileResource, xps.ixpsomimagebrush_getcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource
 ms.prod: windows
 ms.technology: windows-sdk

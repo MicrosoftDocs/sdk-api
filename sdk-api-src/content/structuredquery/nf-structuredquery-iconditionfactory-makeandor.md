@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory_MakeAndOr.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeandor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IConditionFactory interface [search],MakeAndOr method, IConditionFactory.MakeAndOr, IConditionFactory::MakeAndOr, MakeAndOr, MakeAndOr method [search], MakeAndOr method [search],IConditionFactory interface, _search_IConditionFactory_MakeAndOr, search._search_IConditionFactory_MakeAndOr, structuredquery/IConditionFactory::MakeAndOr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The <a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CO
 
 ### -param peuSubs [in]
 
-Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>*</b>
 
 A pointer to an enumeration of <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> objects, or <b>NULL</b> for an empty enumeration.
 

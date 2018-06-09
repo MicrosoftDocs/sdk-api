@@ -7,7 +7,7 @@ old-location: mf\imfbufferlistnotify.htm
 old-project: medfound
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

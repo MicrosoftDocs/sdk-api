@@ -7,7 +7,7 @@ old-location: wmi\iwbemprovideridentity_setregistrationobject.htm
 old-project: WmiSdk
 ms.assetid: e600d562-6a93-422c-88f2-d44196191843
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemProviderIdentity interface [Windows Management Instrumentation],SetRegistrationObject method, IWbemProviderIdentity.SetRegistrationObject, IWbemProviderIdentity::SetRegistrationObject, SetRegistrationObject, SetRegistrationObject method [Windows Management Instrumentation], SetRegistrationObject method [Windows Management Instrumentation],IWbemProviderIdentity interface, _hmm_iwbemprovideridentity_setregistrationobject, wbemprov/IWbemProviderIdentity::SetRegistrationObject, wmi.iwbemprovideridentity_setregistrationobject
 ms.prod: windows
 ms.technology: windows-sdk

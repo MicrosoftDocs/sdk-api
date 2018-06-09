@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_getdatafornewhardwarekey.htm
 old-project: medfound
 ms.assetid: 4C02F80C-CF7A-4E66-9172-D55A31986ACD
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetDataForNewHardwareKey, GetDataForNewHardwareKey method [Media Foundation], GetDataForNewHardwareKey method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],GetDataForNewHardwareKey method, ID3D11VideoContext1.GetDataForNewHardwareKey, ID3D11VideoContext1::GetDataForNewHardwareKey, d3d11_1/ID3D11VideoContext1::GetDataForNewHardwareKey, mf.id3d11videocontext1_getdatafornewhardwarekey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ A pointer to the private output data. The return data is defined by the implemen
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

@@ -7,7 +7,7 @@ old-location: wua\iupdateinstallationresult_rebootrequired.htm
 old-project: Wua_Sdk
 ms.assetid: 8c4f7dd1-66f3-43b7-b084-55d64ca748c6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],RebootRequired property, IUpdateInstallationResult.RebootRequired, IUpdateInstallationResult.get_RebootRequired, IUpdateInstallationResult::RebootRequired, IUpdateInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdateInstallationResult interface, get_RebootRequired, wua.iupdateinstallationresult_rebootrequired, wuapi/IUpdateInstallationResult::RebootRequired, wuapi/IUpdateInstallationResult::get_RebootRequired
 ms.prod: windows
 ms.technology: windows-sdk

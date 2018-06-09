@@ -7,7 +7,7 @@ old-location: tablet\createcontext.htm
 old-project: tablet
 ms.assetid: 4e599157-93d6-486f-9498-899e5b53f24b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 4e599157-93d6-486f-9498-899e5b53f24b, CreateContext, CreateContext function [Tablet PC], recapis/CreateContext, tablet.createcontext
 ms.prod: windows
 ms.technology: windows-sdk

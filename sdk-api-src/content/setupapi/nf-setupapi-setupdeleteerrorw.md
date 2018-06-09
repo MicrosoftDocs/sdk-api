@@ -7,7 +7,7 @@ old-location: setup\setupdeleteerror.htm
 old-project: SetupApi
 ms.assetid: 200e1926-7ebd-4373-803d-1c054db5df8d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupDeleteError, SetupDeleteError function [Setup API], SetupDeleteErrorA, SetupDeleteErrorW, _setupapi_setupdeleteerror, setup.setupdeleteerror, setupapi/SetupDeleteError, setupapi/SetupDeleteErrorA, setupapi/SetupDeleteErrorW
 ms.prod: windows
 ms.technology: windows-sdk

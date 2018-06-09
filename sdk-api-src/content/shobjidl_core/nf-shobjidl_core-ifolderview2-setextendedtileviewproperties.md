@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_SetExtendedTileViewProperties.htm
 old-project: shell
 ms.assetid: efb2eb1a-47fa-45b2-8d8d-fc75bbe46c80
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetExtendedTileViewProperties method, IFolderView2.SetExtendedTileViewProperties, IFolderView2::SetExtendedTileViewProperties, SetExtendedTileViewProperties, SetExtendedTileViewProperties method [Windows Shell], SetExtendedTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetExtendedTileViewProperties, shell.IFolderView2_SetExtendedTileViewProperties, shobjidl_core/IFolderView2::SetExtendedTileViewProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-<p class="CCE_Message">[This method is still implemented, but should be considered deprecated as of Windows 7. It might not be implemented in future versions of Windows. It cannot be used with items in search results or library views, so consider using the item's existing properties or, if applicable, emitting properties from your namespace or property handler. See <a href="_search_3x_WDS_ExtIdx_PropertyHandlers">Developing Property Handlers for Windows Search</a> for more information.]
+<p class="CCE_Message">[This method is still implemented, but should be considered deprecated as of Windows 7. It might not be implemented in future versions of Windows. It cannot be used with items in search results or library views, so consider using the item's existing properties or, if applicable, emitting properties from your namespace or property handler. See <a href="https://www.bing.com/search?q=Developing+Property+Handlers+for+Windows+Search">Developing Property Handlers for Windows Search</a> for more information.]
 
 Sets the list of extended tile properties for an item.
         

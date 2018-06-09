@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand_arguments.htm
 old-project: Fsrm
 ms.assetid: 2ffc8753-3a63-4619-936d-f2f4d2362508
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: Arguments property [File Server Resource Manager], Arguments property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Arguments property, IFsrmActionCommand.Arguments, IFsrmActionCommand.put_Arguments, IFsrmActionCommand::Arguments, IFsrmActionCommand::get_Arguments, IFsrmActionCommand::put_Arguments, fs.ifsrmactioncommand_arguments, fsrm.ifsrmactioncommand_arguments, fsrm/IFsrmActionCommand::Arguments, fsrm/IFsrmActionCommand::get_Arguments, fsrm/IFsrmActionCommand::put_Arguments, put_Arguments
 ms.prod: windows
 ms.technology: windows-sdk

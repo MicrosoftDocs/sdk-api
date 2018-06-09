@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysessionnotify.htm
 old-project: medfound
 ms.assetid: d28c16a8-4a74-40c3-be95-ff7e4b1cdc09
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaKeySessionNotify, IMFMediaKeySessionNotify interface [Media Foundation], IMFMediaKeySessionNotify interface [Media Foundation],described, mf.imfmediakeysessionnotify, mfmediaengine/IMFMediaKeySessionNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

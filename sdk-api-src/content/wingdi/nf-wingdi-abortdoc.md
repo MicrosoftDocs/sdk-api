@@ -7,7 +7,7 @@ old-location: gdi\abortdoc.htm
 old-project: printdocs
 ms.assetid: 4ecc371c-34fa-4073-96fe-0de03b84d7e3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abortdoc, wingdi/AbortDoc
 ms.prod: windows
 ms.technology: windows-sdk

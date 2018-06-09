@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getlanguagecode2.htm
 old-project: mstv
 ms.assetid: 3016264e-c952-4243-acd2-a075c89e8c2b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLanguageCode2, GetLanguageCode2 method [Microsoft TV Technologies], GetLanguageCode2 method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode2 method, IIsdbAudioComponentDescriptor.GetLanguageCode2, IIsdbAudioComponentDescriptor::GetLanguageCode2, dvbsiparser/IIsdbAudioComponentDescriptor::GetLanguageCode2, mstv.iisdbaudiocomponentdescriptor_getlanguagecode2
 ms.prod: windows
 ms.technology: windows-sdk

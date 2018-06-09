@@ -7,7 +7,7 @@ old-location: mscs\resutilstopservice.htm
 old-project: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE callback, PRESUTIL_STOP_SERVICE callback function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\wm_client_properties.htm
 old-project: wmformat
 ms.assetid: 62a5bafd-cc49-4a60-be03-038920e5b073
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: WM_CLIENT_PROPERTIES, WM_CLIENT_PROPERTIES structure [windows Media Format], _WMClientProperties, wmformat.wm_client_properties, wmsdkidl/WM_CLIENT_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

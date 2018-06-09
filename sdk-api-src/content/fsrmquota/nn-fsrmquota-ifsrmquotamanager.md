@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager.htm
 old-project: Fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], IFsrmQuotaManager interface [File Server Resource Manager],described, fs.ifsrmquotamanager, fsrm.ifsrmquotamanager, fsrmquota/IFsrmQuotaManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage quotas.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmQuotaManager</b> as the class identifier and 
     <code>__uuidof(IFsrmQuotaManager)</code> as the interface identifier. For 
     an example, see <a href="https://msdn.microsoft.com/b4471a75-f8c9-48aa-8ce3-1e998dbe6952">Defining a Quota</a>.

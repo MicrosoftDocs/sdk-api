@@ -2,12 +2,12 @@
 UID: NA:winuser
 ms.assetid: 36ab57e8-bfcf-33fc-918e-fb2ddcf2a90b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wintouch
+tech.root: controls
 ---
 
 # Winuser.h header

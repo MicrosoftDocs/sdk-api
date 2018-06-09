@@ -2,7 +2,7 @@
 UID: NA:msopc
 ms.assetid: c005e016-3d7c-3e5f-91d0-04af655f8499
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

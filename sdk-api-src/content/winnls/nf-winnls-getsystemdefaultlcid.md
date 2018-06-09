@@ -7,7 +7,7 @@ old-location: intl\getsystemdefaultlcid.htm
 old-project: Intl
 ms.assetid: 67d73d88-6a6c-439b-a321-1b1bd05fe268
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetSystemDefaultLCID, GetSystemDefaultLCID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLCID, intl.getsystemdefaultlcid, winnls/GetSystemDefaultLCID
 ms.prod: windows
 ms.technology: windows-sdk

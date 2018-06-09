@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_colorkey.htm
 old-project: mstv
 ms.assetid: 2f197faf-a91e-4984-8858-ceab6506b273
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_ColorKey method, IMSVidCtl.get_ColorKey, IMSVidCtl::get_ColorKey, IMSVidCtlget_ColorKey, get_ColorKey, get_ColorKey method [Microsoft TV Technologies], get_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_colorkey, msvidctl/IMSVidCtl::get_ColorKey
 ms.prod: windows
 ms.technology: windows-sdk

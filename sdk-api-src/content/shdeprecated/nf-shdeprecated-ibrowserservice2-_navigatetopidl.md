@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__NavigateToPidl.htm
 old-project: shell
 ms.assetid: 71f99bc7-0601-4dc4-90df-c9f9a0ab51a5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRESTRICTIONS, HLNF_EXTERNALNAVIGATE, HLNF_NEWWINDOWSMANAGED, HLNF_TRUSTEDFORACTIVEX, HLNF_TRUSTFIRSTDOWNLOAD, HLNF_UNTRUSTEDFORDOWNLOAD, IBrowserService2 interface [Windows Shell],_NavigateToPidl method, IBrowserService2._NavigateToPidl, IBrowserService2::_NavigateToPidl, SHHLNF_NOAUTOSELECT, SHHLNF_WRITENOHISTORY, _NavigateToPidl, _NavigateToPidl method [Windows Shell], _NavigateToPidl method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_NavigateToPidl, shell.IBrowserService2__NavigateToPidl, zone_IBrowserService2__NavigateToPidl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The PIDL identifying the new location.
 
 Type: <b>DWORD</b>
 
-The value or values from the <a href="_inet_HLNF_Enumerated_Type_cpp">HLNF</a> enumeration. The following values are also supported.
+The value or values from the <a href="https://www.bing.com/search?q=HLNF">HLNF</a> enumeration. The following values are also supported.
 
 
 

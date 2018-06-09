@@ -7,7 +7,7 @@ old-location: setup\setupqueuecopyindirect.htm
 old-project: SetupApi
 ms.assetid: 5c81e83c-7ee3-489f-9d4c-f7c8a1c5cc5b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupQueueCopyIndirect, SetupQueueCopyIndirect function [Setup API], SetupQueueCopyIndirectA, SetupQueueCopyIndirectW, _setupapi_setupqueuecopyindirect, setup.setupqueuecopyindirect, setupapi/SetupQueueCopyIndirect, setupapi/SetupQueueCopyIndirectA, setupapi/SetupQueueCopyIndirectW
 ms.prod: windows
 ms.technology: windows-sdk

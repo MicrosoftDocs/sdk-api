@@ -7,7 +7,7 @@ old-location: tablet\inkoverlayattachmode.htm
 old-project: tablet
 ms.assetid: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0, IOAM_Behind, IOAM_InFront, InkOverlayAttachMode, InkOverlayAttachMode enumeration [Tablet PC], msinkaut/IOAM_Behind, msinkaut/IOAM_InFront, msinkaut/InkOverlayAttachMode, tablet.inkoverlayattachmode
 ms.prod: windows
 ms.technology: windows-sdk

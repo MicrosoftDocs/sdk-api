@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushemptyretrievalfilter.htm
 old-project: direct3ddxgi
 ms.assetid: F6125FB9-EA1B-4052-A527-F4E5FAEE5C61
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyRetrievalFilter method, IDXGIInfoQueue.PushEmptyRetrievalFilter, IDXGIInfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [DXGI], PushEmptyRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptyretrievalfilter, dxgidebug/IDXGIInfoQueue::PushEmptyRetrievalFilter
 ms.prod: windows
 ms.technology: windows-sdk

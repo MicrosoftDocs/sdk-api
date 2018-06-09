@@ -7,7 +7,7 @@ old-location: mf\ievrvideostreamcontrol.htm
 old-project: medfound
 ms.assetid: ea7b0dd2-2eff-4a37-826b-6f87fbea5785
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Foundation], IEVRVideoStreamControl interface [Media Foundation],described, ea7b0dd2-2eff-4a37-826b-6f87fbea5785, evr9/IEVRVideoStreamControl, mf.ievrvideostreamcontrol
 ms.prod: windows
 ms.technology: windows-sdk

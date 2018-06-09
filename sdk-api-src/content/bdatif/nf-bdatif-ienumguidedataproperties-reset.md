@@ -7,7 +7,7 @@ old-location: mstv\ienumguidedataproperties_reset.htm
 old-project: mstv
 ms.assetid: 5e019e0e-81f7-4eb9-9ddb-e20e7e216e33
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Reset method, IEnumGuideDataProperties.Reset, IEnumGuideDataProperties::Reset, IEnumGuideDataPropertiesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Reset, mstv.ienumguidedataproperties_reset
 ms.prod: windows
 ms.technology: windows-sdk

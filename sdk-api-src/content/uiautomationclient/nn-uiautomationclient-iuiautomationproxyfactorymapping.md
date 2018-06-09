@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping.htm
 old-project: WinAuto
 ms.assetid: 7a938c1c-a11c-4fdd-a73a-e7656032f21e
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], IUIAutomationProxyFactoryMapping interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryMapping, uiauto_IUIAutomationProxyFactoryMapping, uiautomationclient/IUIAutomationProxyFactoryMapping, winauto.uiauto_IUIAutomationProxyFactoryMapping
 ms.prod: windows
 ms.technology: windows-sdk

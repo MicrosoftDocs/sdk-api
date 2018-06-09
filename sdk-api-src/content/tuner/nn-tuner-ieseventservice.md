@@ -7,7 +7,7 @@ old-location: mstv\ieseventservice.htm
 old-project: mstv
 ms.assetid: 2720d616-18a6-488e-98ef-565768c22c2a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IESEventService, IESEventService interface [Microsoft TV Technologies], IESEventService interface [Microsoft TV Technologies],described, mstv.ieseventservice, tuner/IESEventService
 ms.prod: windows
 ms.technology: windows-sdk

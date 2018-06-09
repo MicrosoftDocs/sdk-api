@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4createpolicy.htm
 old-project: DHCP
 ms.assetid: c42e9c64-d028-4489-82dc-85ce9a6d6c09
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4CreatePolicy, DhcpV4CreatePolicy function [DHCP], dhcp.dhcpv4createpolicy, dhcpsapi/DhcpV4CreatePolicy
 ms.prod: windows
 ms.technology: windows-sdk

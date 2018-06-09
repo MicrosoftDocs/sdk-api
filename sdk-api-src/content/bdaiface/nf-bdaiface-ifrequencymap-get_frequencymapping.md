@@ -7,7 +7,7 @@ old-location: mstv\ifrequencymap_get_frequencymapping.htm
 old-project: mstv
 ms.assetid: 51fe636f-febe-4306-9c9a-7031a85440c6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_FrequencyMapping method, IFrequencyMap.get_FrequencyMapping, IFrequencyMap::get_FrequencyMapping, IFrequencyMapget_FrequencyMapping, bdaiface/IFrequencyMap::get_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_frequencymapping
 ms.prod: windows
 ms.technology: windows-sdk

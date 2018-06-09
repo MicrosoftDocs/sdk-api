@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: 6930490f-235f-40d5-846d-ae9a075c82cc
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IATSC_VCT.GetCountOfTableDescriptors, IATSC_VCT::GetCountOfTableDescriptors, IATSC_VCTGetCountOfTableDescriptors, atscpsipparser/IATSC_VCT::GetCountOfTableDescriptors, mstv.iatsc_vct_getcountoftabledescriptors
 ms.prod: windows
 ms.technology: windows-sdk

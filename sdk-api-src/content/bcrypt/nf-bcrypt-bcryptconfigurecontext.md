@@ -7,7 +7,7 @@ old-location: security\bcryptconfigurecontext.htm
 old-project: SecCNG
 ms.assetid: 7989fefc-64fe-4ab3-9a48-7992edac171f
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptConfigureContext, BCryptConfigureContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptConfigureContext, security.bcryptconfigurecontext
 ms.prod: windows
 ms.technology: windows-sdk

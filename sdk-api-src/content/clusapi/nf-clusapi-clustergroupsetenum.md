@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectionenum.htm
 old-project: MsCS
 ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterGroupCollectionEnum, ClusterGroupCollectionEnum function [Failover Cluster], ClusterGroupSetEnum, clusapi/ClusterGroupCollectionEnum, mscs.clustergroupcollectionenum
 ms.prod: windows
 ms.technology: windows-sdk

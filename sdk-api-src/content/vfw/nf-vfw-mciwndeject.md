@@ -7,7 +7,7 @@ old-location: multimedia\mciwndeject.htm
 old-project: Multimedia
 ms.assetid: 7d86cc61-849d-40a3-9e8f-e319b0c9ea48
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: MCIWndEject, MCIWndEject macro [Windows Multimedia], _win32_MCIWndEject, multimedia.mciwndeject, vfw/MCIWndEject
 ms.prod: windows
 ms.technology: windows-sdk

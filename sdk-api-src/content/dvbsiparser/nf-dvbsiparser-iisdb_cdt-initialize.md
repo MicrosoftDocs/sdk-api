@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_initialize.htm
 old-project: mstv
 ms.assetid: 0430d839-4b7f-4d1c-9e5b-bd794d67f065
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IISDB_CDT interface [Microsoft TV Technologies],Initialize method, IISDB_CDT.Initialize, IISDB_CDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_CDT interface, dvbsiparser/IISDB_CDT::Initialize, mstv.iisdb_cdt_initialize
 ms.prod: windows
 ms.technology: windows-sdk

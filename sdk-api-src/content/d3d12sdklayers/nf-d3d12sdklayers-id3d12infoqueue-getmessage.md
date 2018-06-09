@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getmessage.htm
 old-project: direct3d12
 ms.assetid: B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessage method, ID3D12InfoQueue.GetMessage, ID3D12InfoQueue::GetMessage, d3d12sdklayers/ID3D12InfoQueue::GetMessage, direct3d12.id3d12infoqueue_getmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Size of <i>pMessage</i> in bytes.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 

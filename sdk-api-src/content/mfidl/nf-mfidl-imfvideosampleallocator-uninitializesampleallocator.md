@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocator_uninitializesampleallocator.htm
 old-project: medfound
 ms.assetid: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator interface [Media Foundation],UninitializeSampleAllocator method, IMFVideoSampleAllocator.UninitializeSampleAllocator, IMFVideoSampleAllocator::UninitializeSampleAllocator, UninitializeSampleAllocator, UninitializeSampleAllocator method [Media Foundation], UninitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, mf.imfvideosampleallocator_uninitializesampleallocator, mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator
 ms.prod: windows
 ms.technology: windows-sdk

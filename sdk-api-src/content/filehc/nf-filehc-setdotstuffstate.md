@@ -7,7 +7,7 @@ old-location: winprog\_setdotstuffstate.htm
 old-project: DevNotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\getclusternetinterfacestate.htm
 old-project: MsCS
 ms.assetid: d84a5e3f-d0f9-4345-b008-e15c277dcbd5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE callback, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE callback function [Failover Cluster], _wolf_getclusternetinterfacestate, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, mscs.getclusternetinterfacestate
 ms.prod: windows
 ms.technology: windows-sdk

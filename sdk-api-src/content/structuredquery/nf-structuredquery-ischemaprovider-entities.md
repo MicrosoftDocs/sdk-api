@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_Entities.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\entities.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: Entities, Entities method [search], Entities method [search],ISchemaProvider interface, ISchemaProvider interface [search],Entities method, ISchemaProvider.Entities, ISchemaProvider::Entities, _search_ISchemaProvider_Entities, search._search_ISchemaProvider_Entities, structuredquery/ISchemaProvider::Entities
 ms.prod: windows
 ms.technology: windows-sdk

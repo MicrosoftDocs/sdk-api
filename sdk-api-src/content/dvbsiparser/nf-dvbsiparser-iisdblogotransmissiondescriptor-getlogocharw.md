@@ -7,7 +7,7 @@ old-location: mstv\iisdblogotransmissiondescriptor_getlogocharw.htm
 old-project: mstv
 ms.assetid: bb4ba9f1-f633-4cb4-adc4-6671bb5fc239
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLogoCharW, GetLogoCharW method [Microsoft TV Technologies], GetLogoCharW method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoCharW method, IIsdbLogoTransmissionDescriptor.GetLogoCharW, IIsdbLogoTransmissionDescriptor::GetLogoCharW, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoCharW, mstv.iisdblogotransmissiondescriptor_getlogocharw
 ms.prod: windows
 ms.technology: windows-sdk

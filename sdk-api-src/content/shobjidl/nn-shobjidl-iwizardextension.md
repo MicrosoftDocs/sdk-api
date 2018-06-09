@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension.htm
 old-project: shell
 ms.assetid: f2d69f18-73de-44c1-9543-909e509b1c4f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWizardExtension interface [Windows Shell],described, _shell_IWizardExtension, shell.IWizardExtension, shobjidl/IWizardExtension
 ms.prod: windows
 ms.technology: windows-sdk

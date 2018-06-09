@@ -7,7 +7,7 @@ old-location: mscs\domainnames_collection.htm
 old-project: MsCS
 ms.assetid: e7f806a7-02e7-41be-b8b9-60351180e748
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: DomainNames, DomainNames collection [Failover Cluster], DomainNames collection [Failover Cluster],described, ISDomainNames, _wolf_domainnames_collection, msclus/DomainNames, mscs.domainnames_collection
 ms.prod: windows
 ms.technology: windows-sdk

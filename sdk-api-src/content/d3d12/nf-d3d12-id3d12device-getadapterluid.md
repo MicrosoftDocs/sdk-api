@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getadapterluid.htm
 old-project: direct3d12
 ms.assetid: 006E72E0-AE09-4834-9ACB-D48698050BF2
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetAdapterLuid, GetAdapterLuid method, GetAdapterLuid method,ID3D12Device interface, ID3D12Device interface,GetAdapterLuid method, ID3D12Device.GetAdapterLuid, ID3D12Device::GetAdapterLuid, d3d12/ID3D12Device::GetAdapterLuid, direct3d12.id3d12device_getadapterluid
 ms.prod: windows
 ms.technology: windows-sdk

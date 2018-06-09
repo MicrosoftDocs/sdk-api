@@ -7,7 +7,7 @@ old-location: shell\SHQueryUserNotificationState.htm
 old-project: shell
 ms.assetid: da6b3915-f4fe-4bab-9bae-9bff0b97b5a0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHQueryUserNotificationState, SHQueryUserNotificationState function [Windows Shell], _shell_SHQueryUserNotificationState, shell.SHQueryUserNotificationState, shellapi/SHQueryUserNotificationState
 ms.prod: windows
 ms.technology: windows-sdk

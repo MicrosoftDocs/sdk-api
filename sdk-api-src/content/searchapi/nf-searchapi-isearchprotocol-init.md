@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol_Init.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\init.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchProtocol interface [search],Init method, ISearchProtocol.Init, ISearchProtocol::Init, Init, Init method [search], Init method [search],ISearchProtocol interface, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-        After the protocol handler is <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">created</a>, this method is called to perform any initialization specific to the protocol handler. This method is not called again.  
+        After the protocol handler is <a href="https://msdn.microsoft.com/library/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">created</a>, this method is called to perform any initialization specific to the protocol handler. This method is not called again.  
       
 
 

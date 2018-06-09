@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_put_displaysize.htm
 old-project: mstv
 ms.assetid: 1771e66b-e5f3-44f5-a489-e57baaf5cf25
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_DisplaySize method, IMSVidCtl.put_DisplaySize, IMSVidCtl::put_DisplaySize, IMSVidCtlput_DisplaySize, mstv.imsvidctl_put_displaysize, msvidctl/IMSVidCtl::put_DisplaySize, put_DisplaySize, put_DisplaySize method [Microsoft TV Technologies], put_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows
 ms.technology: windows-sdk

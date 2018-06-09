@@ -7,7 +7,7 @@ old-location: mstv\iisdbcaservicedescriptor_getcabroadcastergroupid.htm
 old-project: mstv
 ms.assetid: cc783e34-3544-4bcf-9e76-cb098c89cd65
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCABroadcasterGroupId, GetCABroadcasterGroupId method [Microsoft TV Technologies], GetCABroadcasterGroupId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCABroadcasterGroupId method, IIsdbCAServiceDescriptor.GetCABroadcasterGroupId, IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, mstv.iisdbcaservicedescriptor_getcabroadcastergroupid
 ms.prod: windows
 ms.technology: windows-sdk

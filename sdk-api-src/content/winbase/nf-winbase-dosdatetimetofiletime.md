@@ -7,7 +7,7 @@ old-location: base\dosdatetimetofiletime.htm
 old-project: SysInfo
 ms.assetid: 33459ef5-e310-4fe0-bdda-e1db2ffd4888
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime
 ms.prod: windows
 ms.technology: windows-sdk

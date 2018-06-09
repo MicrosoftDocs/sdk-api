@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec_get_xdstoratobjok.htm
 old-project: mstv
 ms.assetid: 846f3f68-8745-416d-9f0e-1e6ef83054b2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_XDSToRatObjOK method, IXDSCodec.get_XDSToRatObjOK, IXDSCodec::get_XDSToRatObjOK, IXDSCodecXDSToRatObjOK, encdec/IXDSCodec::get_XDSToRatObjOK, get_XDSToRatObjOK, get_XDSToRatObjOK method [Microsoft TV Technologies], get_XDSToRatObjOK method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_xdstoratobjok
 ms.prod: windows
 ms.technology: windows-sdk

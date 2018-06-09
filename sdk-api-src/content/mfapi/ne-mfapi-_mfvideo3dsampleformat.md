@@ -7,7 +7,7 @@ old-location: mf\mfvideo3dsampleformat.htm
 old-project: medfound
 ms.assetid: 4EC788EC-85C9-41B2-A105-3B6EA040F2B7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFSampleExtension_3DVideo_MultiView, MFSampleExtension_3DVideo_Packed, MFVideo3DSampleFormat, MFVideo3DSampleFormat enumeration [Media Foundation], _MFVideo3DSampleFormat, mf.mfvideo3dsampleformat, mfapi/MFSampleExtension_3DVideo_MultiView, mfapi/MFSampleExtension_3DVideo_Packed, mfapi/MFVideo3DSampleFormat
 ms.prod: windows
 ms.technology: windows-sdk

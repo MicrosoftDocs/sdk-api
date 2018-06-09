@@ -146,8 +146,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 This function is available on Windows NT Server 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
 <b>RasAdminPortDisconnect</b> rather than 
 <b>MprAdminPortDisconnect</b>. Therefore, when using the RRAS redistributable, use 
-<a href="_win32_loadlibrary">LoadLibrary</a> and 
-<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
+<a href="https://www.bing.com/search?q=LoadLibrary">LoadLibrary</a> and 
+<a href="https://www.bing.com/search?q=GetProcAddress">GetProcAddress</a> to access this function.
 
 
 

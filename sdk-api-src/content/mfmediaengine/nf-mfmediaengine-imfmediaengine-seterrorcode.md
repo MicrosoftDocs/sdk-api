@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_seterrorcode.htm
 old-project: medfound
 ms.assetid: B40AFD99-1048-44C5-A3FA-ED57720956B4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetErrorCode method, IMFMediaEngine.SetErrorCode, IMFMediaEngine::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_seterrorcode, mfmediaengine/IMFMediaEngine::SetErrorCode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_error.htm
 old-project: medfound
 ms.assetid: 3658EE26-497D-4D33-BE68-572BCE1B28B1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: Error, Error method [Media Foundation], Error method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Error method, IMFTimedTextNotify.Error, IMFTimedTextNotify::Error, mf.imftimedtextnotify_error, mfmediaengine/IMFTimedTextNotify::Error
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

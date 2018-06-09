@@ -7,7 +7,7 @@ old-location: wua\istringcollection_insert.htm
 old-project: Wua_Sdk
 ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\resutilfindexpandedszproperty.htm
 old-project: MsCS
 ms.assetid: 7a639932-6dd5-41ef-a126-c2d5001a436f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY callback, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandedszproperty, mscs.resutilfindexpandedszproperty, resapi/PRESUTIL_FIND_EXPANDED_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

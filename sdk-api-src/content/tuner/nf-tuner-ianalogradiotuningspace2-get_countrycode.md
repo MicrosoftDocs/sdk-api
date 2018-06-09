@@ -7,7 +7,7 @@ old-location: mstv\ianalogradiotuningspace2_get_countrycode.htm
 old-project: mstv
 ms.assetid: dc619247-90fc-4db0-9b46-cc81b9ae6916
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],get_CountryCode method, IAnalogRadioTuningSpace2.get_CountryCode, IAnalogRadioTuningSpace2::get_CountryCode, IAnalogRadioTuningSpace2get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogRadioTuningSpace2 interface, mstv.ianalogradiotuningspace2_get_countrycode, tuner/IAnalogRadioTuningSpace2::get_CountryCode
 ms.prod: windows
 ms.technology: windows-sdk

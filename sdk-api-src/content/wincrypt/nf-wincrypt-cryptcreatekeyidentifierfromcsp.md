@@ -7,7 +7,7 @@ old-location: security\cryptcreatekeyidentifierfromcsp.htm
 old-project: SecCrypto
 ms.assetid: 628e1995-8207-4daa-a445-cb21a755ffa6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptCreateKeyIdentifierFromCSP, CryptCreateKeyIdentifierFromCSP function [Security], _crypto2_cryptcreatekeyidentifierfromcsp, security.cryptcreatekeyidentifierfromcsp, wincrypt/CryptCreateKeyIdentifierFromCSP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,7 +147,7 @@ For extended error information, call
 
 
 
-<a href="cryptography_functions.htm">Key Identifier Functions</a>
+<a href="https://www.bing.com/search?q=Key+Identifier+Functions">Key Identifier Functions</a>
  
 
  

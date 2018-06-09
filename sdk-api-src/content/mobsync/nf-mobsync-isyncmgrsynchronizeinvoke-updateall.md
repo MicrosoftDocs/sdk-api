@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateall.htm
 old-project: shell
 ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll method, ISyncMgrSynchronizeInvoke.UpdateAll, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
 ms.prod: windows
 ms.technology: windows-sdk

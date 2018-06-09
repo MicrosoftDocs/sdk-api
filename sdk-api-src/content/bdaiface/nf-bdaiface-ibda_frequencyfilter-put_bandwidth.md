@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter_put_bandwidth.htm
 old-project: mstv
 ms.assetid: 8e44a5b4-c3ea-4afa-aab3-4f6732a3bd82
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Bandwidth method, IBDA_FrequencyFilter.put_Bandwidth, IBDA_FrequencyFilter::put_Bandwidth, IBDA_FrequencyFilterput_Bandwidth, bdaiface/IBDA_FrequencyFilter::put_Bandwidth, mstv.ibda_frequencyfilter_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\cryptsipaddprovider.htm
 old-project: SecCrypto
 ms.assetid: 99633c2f-e5ed-49e4-9c98-7501f66e5571
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptSIPAddProvider, CryptSIPAddProvider function [Security], mssip/CryptSIPAddProvider, security.cryptsipaddprovider
 ms.prod: windows
 ms.technology: windows-sdk

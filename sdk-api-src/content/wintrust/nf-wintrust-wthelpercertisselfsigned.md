@@ -7,7 +7,7 @@ old-location: security\wthelpercertisselfsigned.htm
 old-project: SecCrypto
 ms.assetid: 456b8c8c-6ca3-469a-a415-e72109696bf5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
 ms.prod: windows
 ms.technology: windows-sdk

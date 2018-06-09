@@ -7,7 +7,7 @@ old-location: mscs\clusprop_scsi_address.htm
 old-project: MsCS
 ms.assetid: 30907886-0c86-4e8a-9a95-5b62f6ffff76
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: "*PCLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS structure [Failover Cluster], PCLUSPROP_SCSI_ADDRESS, PCLUSPROP_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clusprop_scsi_address, clusapi/CLUSPROP_SCSI_ADDRESS, clusapi/PCLUSPROP_SCSI_ADDRESS, mscs.clusprop_scsi_address"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Describes an address for a <a href="s_gly.htm">SCSI</a> 
+Describes an address for a <a href="https://www.bing.com/search?q=SCSI">SCSI</a> 
     device. It is used as an entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists 
     of:
 <ul>

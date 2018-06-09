@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink2.htm
 old-project: wmformat
 ms.assetid: 229ae2a5-103a-4a33-b7ca-c9b2854c6741
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMWriterFileSink2, IWMWriterFileSink2 interface [windows Media Format], IWMWriterFileSink2 interface [windows Media Format],described, IWMWriterFileSink2Interface, wmformat.iwmwriterfilesink2, wmsdkidl/IWMWriterFileSink2
 ms.prod: windows
 ms.technology: windows-sdk

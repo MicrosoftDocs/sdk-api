@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_scan_item.htm
 old-project: DHCP
 ms.assetid: 82e36660-fb56-4334-97d0-c34facad55a6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_SCAN_ITEM, DHCP_SCAN_ITEM, DHCP_SCAN_ITEM structure [DHCP], LPDHCP_SCAN_ITEM, LPDHCP_SCAN_ITEM structure pointer [DHCP], _DHCP_SCAN_ITEM, dhcp.dhcp_scan_item, dhcpsapi/LPDHCP_SCAN_ITEM, dhcpsapi/_DHCP_SCAN_ITEM"
 ms.prod: windows
 ms.technology: windows-sdk

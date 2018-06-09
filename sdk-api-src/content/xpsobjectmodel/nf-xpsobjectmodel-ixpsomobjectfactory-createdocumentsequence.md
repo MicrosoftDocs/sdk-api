@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createdocumentsequence.htm
 old-project: printdocs
 ms.assetid: 51d42b34-3380-4464-8feb-d03935f88077
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: CreateDocumentSequence, CreateDocumentSequence method [XPS Documents and Packaging], CreateDocumentSequence method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentSequence method, IXpsOMObjectFactory.CreateDocumentSequence, IXpsOMObjectFactory::CreateDocumentSequence, xps.ixpsomobjectfactory_createdocumentsequence, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence
 ms.prod: windows
 ms.technology: windows-sdk

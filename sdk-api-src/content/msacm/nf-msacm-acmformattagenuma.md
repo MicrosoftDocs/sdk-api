@@ -7,7 +7,7 @@ old-location: multimedia\acmformattagenum.htm
 old-project: Multimedia
 ms.assetid: 1693a7ee-1d9b-494e-8d28-b5e9279951e1
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: "_win32_acmFormatTagEnum, acmFormatTagEnum, acmFormatTagEnum function [Windows Multimedia], acmFormatTagEnumA, acmFormatTagEnumW, msacm/acmFormatTagEnum, msacm/acmFormatTagEnumA, msacm/acmFormatTagEnumW, multimedia.acmformattagenum"
 ms.prod: windows
 ms.technology: windows-sdk

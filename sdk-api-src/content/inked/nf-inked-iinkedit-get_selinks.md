@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selinks.htm
 old-project: tablet
 ms.assetid: dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInks property, IInkEdit.SelInks, IInkEdit.get_SelInks, IInkEdit::SelInks, IInkEdit::get_SelInks, IInkEdit::put_SelInks, InkEdit.get_SelInks, InkEdit.put_SelInks, SelInks property [Tablet PC], SelInks property [Tablet PC],IInkEdit interface, dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20, get_SelInks, inked/IInkEdit::SelInks, inked/IInkEdit::get_SelInks, inked/IInkEdit::put_SelInks, put_SelInks, tablet.inkedit_selinks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ This property is run time only.
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

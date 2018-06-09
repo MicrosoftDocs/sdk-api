@@ -7,7 +7,7 @@ old-location: security\icertgetconfig.htm
 old-project: SecCrypto
 ms.assetid: 753d1527-1863-41af-9715-2c1fe138e67d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: ICertGetConfig, ICertGetConfig interface [Security], ICertGetConfig interface [Security],described, certcli/ICertGetConfig, security.icertgetconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>ICertGetConfig</b> interface provides functionality for retrieving  the p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertGetConfig</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertGetConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertGetConfig</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>ICertGetConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -89,7 +89,7 @@ Retrieves the configuration string for a Certificate Services server.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
  
 
  

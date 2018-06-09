@@ -7,7 +7,7 @@ old-location: dhcp\dhcpaddsubnetelementv6.htm
 old-project: DHCP
 ms.assetid: 9f009140-5301-4aee-a6e5-12f7cd56f906
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpAddSubnetElementV6, DhcpAddSubnetElementV6 function [DHCP], dhcp.dhcpaddsubnetelementv6, dhcpsapi/DhcpAddSubnetElementV6
 ms.prod: windows
 ms.technology: windows-sdk

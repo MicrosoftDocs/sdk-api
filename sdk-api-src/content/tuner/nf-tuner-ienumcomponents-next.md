@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponents_next.htm
 old-project: mstv
 ms.assetid: 73cb45c7-1f74-46cf-a410-ec1d5fed4271
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Next method, IEnumComponents.Next, IEnumComponents::Next, IEnumComponentsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_next, tuner/IEnumComponents::Next
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\iocspadmin_setsecurity.htm
 old-project: SecCrypto
 ms.assetid: 7ff94496-4347-4c08-8c71-0c53af902d9d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IOCSPAdmin interface [Security],SetSecurity method, IOCSPAdmin.SetSecurity, IOCSPAdmin::SetSecurity, SetSecurity, SetSecurity method [Security], SetSecurity method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetSecurity, security.iocspadmin_setsecurity
 ms.prod: windows
 ms.technology: windows-sdk

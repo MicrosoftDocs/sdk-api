@@ -7,7 +7,7 @@ old-location: termserv\wrds_connection_setting_level.htm
 old-project: TermServ
 ms.assetid: 0D82D26F-1EA6-45A5-90DF-80BE144DC3BF
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: "*PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL, WRDS_CONNECTION_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, WRDS_CONNECTION_SETTING_LEVEL_INVALID, _WRDS_CONNECTION_SETTING_LEVEL, termserv.wrds_connection_setting_level, wtsdefs/PWRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_1, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_INVALID"
 ms.prod: windows
 ms.technology: windows-sdk

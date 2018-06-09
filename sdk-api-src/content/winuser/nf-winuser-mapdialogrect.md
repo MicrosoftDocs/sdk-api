@@ -100,7 +100,7 @@ left   = MulDiv(left,   baseunitX, 4);
 right  = MulDiv(right,  baseunitX, 4);
 top    = MulDiv(top,    baseunitY, 8);
 bottom = MulDiv(bottom, baseunitY, 8);</code></pre>
-If the dialog box template has the <a href="about_dialog_boxes.htm">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template. 
+If the dialog box template has the <a href="https://www.bing.com/search?q=DS_SETFONT">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template. 
 
 
 

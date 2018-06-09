@@ -7,7 +7,7 @@ old-location: mscs\resutilexpandenvironmentstrings.htm
 old-project: MsCS
 ms.assetid: 633e49f5-e01c-4cbd-a2ef-61fcb9e192f4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, PRESUTIL_EXPAND_ENVIRONMENT_STRINGS callback, PRESUTIL_EXPAND_ENVIRONMENT_STRINGS callback function [Failover Cluster], _wolf_resutilexpandenvironmentstrings, mscs.resutilexpandenvironmentstrings, resapi/PRESUTIL_EXPAND_ENVIRONMENT_STRINGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Expands strings containing unexpanded references to environment variables. The <
 
 ### -param pszSrc [in]
 
-Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="e_gly.htm">expandable string</a>).
+Pointer to a null-terminated Unicode string containing unexpanded references to environment variables (an <a href="https://www.bing.com/search?q=expandable+string">expandable string</a>).
 
 
 ## -returns

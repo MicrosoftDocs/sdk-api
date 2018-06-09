@@ -7,7 +7,7 @@ old-location: dshow\idvsplitter.htm
 old-project: DirectShow
 ms.assetid: a7fd27f4-2fc7-4115-b669-b08eed1ec032
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDVSplitter, IDVSplitter interface [DirectShow], IDVSplitter interface [DirectShow],described, IDVSplitterInterface, dshow.idvsplitter, strmif/IDVSplitter
 ms.prod: windows
 ms.technology: windows-sdk

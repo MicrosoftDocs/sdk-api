@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_ExplorerPolicy.htm
 old-project: shell
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ExplorerPolicy, ExplorerPolicy method [Windows Shell], ExplorerPolicy method [Windows Shell],IShellDispatch4 object, IShellDispatch4 object [Windows Shell],ExplorerPolicy method, IShellDispatch4.ExplorerPolicy, IShellDispatch4::ExplorerPolicy, _shell_IShellDispatch4_ExplorerPolicy, shell.IShellDispatch4_ExplorerPolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Gets the value for a specified Windows Internet Explorer policy.
 
 ### -param bstrPolicyName [in]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that specifies the name of the policy.
 

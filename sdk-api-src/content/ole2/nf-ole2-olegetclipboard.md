@@ -88,7 +88,7 @@ This function returns S_OK on success. Other possible values include the followi
 </dl>
 </td>
 <td width="60%">
-The <a href="_win32_OpenClipboard_cpp">OpenClipboard</a> function used within <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> failed.
+The <a href="https://www.bing.com/search?q=OpenClipboard">OpenClipboard</a> function used within <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> failed.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="_win32_OpenClipboard_cpp">OpenClipboard</a> function used within <a
 </dl>
 </td>
 <td width="60%">
-The <a href="_win32_CloseClipboard_cpp">CloseClipboard</a> function used within <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> failed.
+The <a href="https://www.bing.com/search?q=CloseClipboard">CloseClipboard</a> function used within <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> failed.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ In the first case, the clipboard data object returned by <b>OleGetClipboard</b> 
 
 In the second case, OLE creates a default data object and returns it to the user. Because the data on the clipboard originated from an <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> call, the OLE-provided data object contains more accurate information about the type of data on the clipboard. In particular, the original medium (TYMED) on which the data was offered is known. Thus, if a data-source application offers a particular clipboard format, for example cfFOO, on a storage object and calls the <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> function, the storage object is copied into memory and the hglobal memory handle is put on the clipboard. Then, when the <b>OleGetClipboard</b> function creates its default data object, the hglobal from the clipboard again becomes an <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> object. Furthermore, the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumerator and the <a href="https://msdn.microsoft.com/38a1bb4f-7762-4e74-a386-4ae05e59d15f">IDataObject::QueryGetData</a> method would all correctly indicate that the original clipboard format (cfFOO) is again available on a TYMED_ISTORAGE.
 
-In the third case, OLE still creates a default data object, but there is no special information about the data in the clipboard formats (particularly for application-defined Clipboard formats). Thus, if an hGlobal-based storage medium were put on the clipboard directly by a call to the <a href="_win32_SetClipboardData_cpp">SetClipboardData</a> function, the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumerator and the <a href="https://msdn.microsoft.com/38a1bb4f-7762-4e74-a386-4ae05e59d15f">IDataObject::QueryGetData</a> method would not indicate that the data was available on a storage medium. A call to the <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> method for TYMED_ISTORAGE would succeed, however. Because of these limitations, it is strongly recommended that OLE-aware applications interact with the clipboard using the OLE clipboard functions.
+In the third case, OLE still creates a default data object, but there is no special information about the data in the clipboard formats (particularly for application-defined Clipboard formats). Thus, if an hGlobal-based storage medium were put on the clipboard directly by a call to the <a href="https://www.bing.com/search?q=SetClipboardData">SetClipboardData</a> function, the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumerator and the <a href="https://msdn.microsoft.com/38a1bb4f-7762-4e74-a386-4ae05e59d15f">IDataObject::QueryGetData</a> method would not indicate that the data was available on a storage medium. A call to the <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> method for TYMED_ISTORAGE would succeed, however. Because of these limitations, it is strongly recommended that OLE-aware applications interact with the clipboard using the OLE clipboard functions.
 
 
 

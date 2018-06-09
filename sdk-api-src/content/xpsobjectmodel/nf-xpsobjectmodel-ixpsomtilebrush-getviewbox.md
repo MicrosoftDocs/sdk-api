@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_getviewbox.htm
 old-project: printdocs
 ms.assetid: dc884aa6-3652-4b94-80f6-83c345973d46
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetViewbox, GetViewbox method [XPS Documents and Packaging], GetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewbox method, IXpsOMTileBrush.GetViewbox, IXpsOMTileBrush::GetViewbox, xps.ixpsomtilebrush_getviewbox, xpsobjectmodel/IXpsOMTileBrush::GetViewbox
 ms.prod: windows
 ms.technology: windows-sdk

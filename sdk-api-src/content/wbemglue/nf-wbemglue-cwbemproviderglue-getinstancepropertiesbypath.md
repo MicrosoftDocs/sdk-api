@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getinstancepropertiesbypath.htm
 old-project: WmiSdk
 ms.assetid: d9232dc0-6df9-440d-bf7a-bf524acbe505
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancePropertiesByPath method, CWbemProviderGlue.GetInstancePropertiesByPath, CWbemProviderGlue::GetInstancePropertiesByPath, GetInstancePropertiesByPath, GetInstancePropertiesByPath method [Windows Management Instrumentation], GetInstancePropertiesByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancepropertiesbypath, wbemglue/CWbemProviderGlue::GetInstancePropertiesByPath, wmi.cwbemproviderglue_getinstancepropertiesbypath
 ms.prod: windows
 ms.technology: windows-sdk

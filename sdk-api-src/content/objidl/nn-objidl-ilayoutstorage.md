@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage.htm
 old-project: Stg
 ms.assetid: 72201600-4bbb-4346-a13f-927e8463b6ec
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILayoutStorage interface [Structured Storage],described, _stg_ilayoutstorage, objidl/ILayoutStorage, stg.ilayoutstorage
 ms.prod: windows
 ms.technology: windows-sdk

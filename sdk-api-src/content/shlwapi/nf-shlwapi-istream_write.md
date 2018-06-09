@@ -7,7 +7,7 @@ old-location: shell\IStream_Write.htm
 old-project: shell
 ms.assetid: fdcfdaf8-7fcb-433e-b3d4-98ca143fbe6b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IStream_Write, IStream_Write function [Windows Shell], _shell_IStream_Write, shell.IStream_Write, shlwapi/IStream_Write
 ms.prod: windows
 ms.technology: windows-sdk

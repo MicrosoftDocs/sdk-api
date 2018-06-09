@@ -7,7 +7,7 @@ old-location: mscs\cluster_resource_class.htm
 old-project: MsCS
 ms.assetid: 65168256-f097-48a5-9e86-ec419ccb13bd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: CLUSTER_RESOURCE_CLASS, CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, _CLUSTER_RESOURCE_CLASS, _CLUSTER_RESOURCE_CLASS enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_CLASS, clusapi/CLUS_RESCLASS_NETWORK, clusapi/CLUS_RESCLASS_STORAGE, clusapi/CLUS_RESCLASS_UNKNOWN, clusapi/CLUS_RESCLASS_USER, clusapi/_CLUSTER_RESOURCE_CLASS, msclus/CLUSTER_RESOURCE_CLASS, msclus/CLUS_RESCLASS_NETWORK, msclus/CLUS_RESCLASS_STORAGE, msclus/CLUS_RESCLASS_UNKNOWN, msclus/CLUS_RESCLASS_USER, msclus/_CLUSTER_RESOURCE_CLASS, mscs.cluster_resource_class
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,12 +68,12 @@ Resource class is unknown.
 ### -field CLUS_RESCLASS_STORAGE
 
 Resource is a storage device, such as a 
-           <a href="p_gly.htm">Physical Disk resource</a>.
+           <a href="https://www.bing.com/search?q=Physical+Disk+resource">Physical Disk resource</a>.
 
 
 ### -field CLUS_RESCLASS_NETWORK
 
-Resource is a <a href="n_gly.htm">network</a> device.
+Resource is a <a href="https://www.bing.com/search?q=network">network</a> device.
 
 
 ### -field CLUS_RESCLASS_USER

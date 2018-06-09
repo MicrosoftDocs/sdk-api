@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getorigin.htm
 old-project: printdocs
 ms.assetid: ec661cff-4671-401b-9c77-5036549762af
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetOrigin, GetOrigin method [XPS Documents and Packaging], GetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetOrigin method, IXpsOMGlyphs.GetOrigin, IXpsOMGlyphs::GetOrigin, xps.ixpsomglyphs_getorigin, xpsobjectmodel/IXpsOMGlyphs::GetOrigin
 ms.prod: windows
 ms.technology: windows-sdk

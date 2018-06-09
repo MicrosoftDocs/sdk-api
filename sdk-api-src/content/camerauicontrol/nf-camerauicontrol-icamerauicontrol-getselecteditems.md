@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_getselecteditems.htm
 old-project: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows API], GetSelectedItems method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetSelectedItems method, ICameraUIControl.GetSelectedItems, ICameraUIControl::GetSelectedItems, camerauicontrol/ICameraUIControl::GetSelectedItems, winprog.icamerauicontrol_getselecteditems
 ms.prod: windows
 ms.technology: windows-sdk

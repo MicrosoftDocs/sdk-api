@@ -7,7 +7,7 @@ old-location: mscs\looksalive.htm
 old-project: MsCS
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ For effective implementation strategies of the
 
 #### Examples
 
-See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+See <a href="https://www.bing.com/search?q=Resource+DLL+Examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

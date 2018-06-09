@@ -7,7 +7,7 @@ old-location: mscs\clusterresourceenumex.htm
 old-project: MsCS
 ms.assetid: 9B5C03DF-84BB-4B3A-8404-94C64F192305
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX callback, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, mscs.clusterresourceenumex
 ms.prod: windows
 ms.technology: windows-sdk

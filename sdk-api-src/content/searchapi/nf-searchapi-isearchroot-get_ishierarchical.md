@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_get_IsHierarchical.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_ishierarchical.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchRoot interface [search],get_IsHierarchical method, ISearchRoot.get_IsHierarchical, ISearchRoot::get_IsHierarchical, _search_ISearchRoot_get_IsHierarchical, get_IsHierarchical, get_IsHierarchical method [search], get_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_get_IsHierarchical, searchapi/ISearchRoot::get_IsHierarchical
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\NOTIFYICONDATA.htm
 old-project: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: "*PNOTIFYICONDATAW, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAW, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _NOTIFYICONDATAW, _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -645,7 +645,7 @@ The binary file that contains the icon was moved. The path of the binary file is
 
 This also occurs in the case of a side-by-side installation. When dealing with a side-by-side installation, new versions of the application should update the GUID of the binary file.
 
-<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="_inet_Authenticode_node_entry">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
+<div class="alert"><b>Note</b>  The only exception to a moved file occurs when both the original and moved binary files are <a href="https://www.bing.com/search?q=Authenticode">Authenticode</a>-signed by the same company. In that case, settings are preserved through the move.</div>
 <div> </div>
 </li>
 </ol>

@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_ip_reservation_v6.htm
 old-project: DHCP
 ms.assetid: f1595632-018b-4626-b3c6-49f0e5b3752c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6, DHCP_IP_RESERVATION_V6 structure [DHCP], PDHCP_IP_RESERVATION_V6, PDHCP_IP_RESERVATION_V6 structure pointer [DHCP], _DHCP_IP_RESERVATION_V6, dhcp.dhcp_ip_reservation_v6, dhcpsapi/DHCP_IP_RESERVATION_V6, dhcpsapi/PDHCP_IP_RESERVATION_V6"
 ms.prod: windows
 ms.technology: windows-sdk

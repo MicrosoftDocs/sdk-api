@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createunorderedaccessview.htm
 old-project: direct3d12
 ms.assetid: E834E469-2958-44A9-978F-F42D6BB6B1DC
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method, CreateUnorderedAccessView method,ID3D12Device interface, ID3D12Device interface,CreateUnorderedAccessView method, ID3D12Device.CreateUnorderedAccessView, ID3D12Device::CreateUnorderedAccessView, d3d12/ID3D12Device::CreateUnorderedAccessView, direct3d12.id3d12device_createunorderedaccessview
 ms.prod: windows
 ms.technology: windows-sdk

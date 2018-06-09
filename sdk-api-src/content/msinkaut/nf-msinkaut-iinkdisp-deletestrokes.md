@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_deletestrokes.htm
 old-project: tablet
 ms.assetid: cbc11006-a434-46f8-a78c-3b67e35ed32a
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: DeleteStrokes, DeleteStrokes method [Tablet PC], DeleteStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],DeleteStrokes method, IInkDisp.DeleteStrokes, IInkDisp::DeleteStrokes, cbc11006-a434-46f8-a78c-3b67e35ed32a, msinkaut/IInkDisp::DeleteStrokes, tablet.inkdisp_deletestrokes
 ms.prod: windows
 ms.technology: windows-sdk

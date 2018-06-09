@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getdispositionmessage.htm
 old-project: SecCrypto
 ms.assetid: c3639cf6-c70f-4f15-a0ed-e60abe2955cb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CCertRequest object [Security],GetDispositionMessage method, GetDispositionMessage, GetDispositionMessage method [Security], GetDispositionMessage method [Security],CCertRequest object, GetDispositionMessage method [Security],ICertRequest interface, GetDispositionMessage method [Security],ICertRequest2 interface, GetDispositionMessage method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetDispositionMessage method, ICertRequest.GetDispositionMessage, ICertRequest2 interface [Security],GetDispositionMessage method, ICertRequest2::GetDispositionMessage, ICertRequest3 interface [Security],GetDispositionMessage method, ICertRequest3::GetDispositionMessage, ICertRequest::GetDispositionMessage, certcli/ICertRequest2::GetDispositionMessage, certcli/ICertRequest3::GetDispositionMessage, certcli/ICertRequest::GetDispositionMessage, security.icertrequest2_getdispositionmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ A pointer to the <b>BSTR</b> that contains the disposition message.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-Upon successful completion of this function, *<i>pstrDispositionMessage</i> is set to the <b>BSTR</b> that contains a human-readable message that gives the current disposition of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrDispositionMessage</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+Upon successful completion of this function, *<i>pstrDispositionMessage</i> is set to the <b>BSTR</b> that contains a human-readable message that gives the current disposition of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrDispositionMessage</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 

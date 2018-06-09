@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlprisv4policyvalid.htm
 old-project: DHCP
 ms.assetid: f11386a6-2b80-4a2b-b859-fb399d7392e8
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpHlprIsV4PolicyValid, DhcpHlprIsV4PolicyValid function [DHCP], dhcp.dhcphlprisv4policyvalid, dhcpsapi/DhcpHlprIsV4PolicyValid
 ms.prod: windows
 ms.technology: windows-sdk

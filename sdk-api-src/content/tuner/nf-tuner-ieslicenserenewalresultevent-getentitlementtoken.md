@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_getentitlementtoken.htm
 old-project: mstv
 ms.assetid: 6178a884-df87-4fcb-a069-3791726d4335
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetEntitlementToken, GetEntitlementToken method [DirectShow], GetEntitlementToken method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetEntitlementToken method, IESLicenseRenewalResultEvent.GetEntitlementToken, IESLicenseRenewalResultEvent::GetEntitlementToken, mstv.ieslicenserenewalresultevent_getentitlementtoken, tuner/IESLicenseRenewalResultEvent::GetEntitlementToken
 ms.prod: windows
 ms.technology: windows-sdk

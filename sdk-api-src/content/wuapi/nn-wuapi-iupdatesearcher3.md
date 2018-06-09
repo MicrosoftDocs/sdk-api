@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcher3.htm
 old-project: Wua_Sdk
 ms.assetid: d37017d5-6f78-4b6c-ac0b-c83b83853079
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateSearcher3, IUpdateSearcher3 interface [Windows Update Agent], IUpdateSearcher3 interface [Windows Update Agent],described, wua.iupdatesearcher3, wuapi/IUpdateSearcher3
 ms.prod: windows
 ms.technology: windows-sdk

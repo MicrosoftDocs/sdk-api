@@ -7,7 +7,7 @@ old-location: mscs\cluster_object.htm
 old-project: MsCS
 ms.assetid: 4a765dce-c823-4a79-8608-ff41feec8a39
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: Cluster, Cluster object [Failover Cluster], Cluster object [Failover Cluster],described, ISCluster, _wolf_cluster_object, msclus/Cluster, mscs.cluster_object
 ms.prod: windows
 ms.technology: windows-sdk

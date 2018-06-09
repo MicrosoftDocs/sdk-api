@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_put_connectinput.htm
 old-project: DirectShow
 ms.assetid: d0ea5d82-acb6-401a-942a-99d34058c648
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMTVTuner interface [DirectShow],put_ConnectInput method, IAMTVTuner.put_ConnectInput, IAMTVTuner::put_ConnectInput, IAMTVTunerput_ConnectInput, dshow.iamtvtuner_put_connectinput, put_ConnectInput, put_ConnectInput method [DirectShow], put_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::put_ConnectInput
 ms.prod: windows
 ms.technology: windows-sdk

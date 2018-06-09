@@ -7,7 +7,7 @@ old-location: intl\getprocesspreferreduilanguages.htm
 old-project: Intl
 ms.assetid: 115fd1f4-39ae-4c69-aa42-606617a989aa
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetProcessPreferredUILanguages, GetProcessPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, intl.getprocesspreferreduilanguages, winnls/GetProcessPreferredUILanguages
 ms.prod: windows
 ms.technology: windows-sdk

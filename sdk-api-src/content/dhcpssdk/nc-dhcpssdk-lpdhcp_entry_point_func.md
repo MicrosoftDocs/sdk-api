@@ -7,7 +7,7 @@ old-location: dhcp\dhcpservercalloutentry.htm
 old-project: DHCP
 ms.assetid: a80c2cd3-291d-4646-9dba-20a42e78dee5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpServerCalloutEntry, LPDHCP_ENTRY_POINT_FUNC, LPDHCP_ENTRY_POINT_FUNC callback, LPDHCP_ENTRY_POINT_FUNC callback function [DHCP], _dhcp_dhcpservercalloutentry, dhcp.dhcpservercalloutentry, dhcpssdk/LPDHCP_ENTRY_POINT_FUNC
 ms.prod: windows
 ms.technology: windows-sdk

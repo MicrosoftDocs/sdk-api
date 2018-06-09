@@ -115,7 +115,7 @@ The resource is an array of cube textures.
 
 ### -field D3D_SRV_DIMENSION_BUFFEREX
 
-The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
+The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ### -field D3D10_SRV_DIMENSION_UNKNOWN
@@ -280,7 +280,7 @@ The resource is an array of cube textures.
 
 ### -field D3D11_SRV_DIMENSION_BUFFEREX
 
-The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
+The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ## -remarks

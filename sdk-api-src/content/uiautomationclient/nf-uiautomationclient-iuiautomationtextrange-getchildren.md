@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_GetChildren.htm
 old-project: WinAuto
 ms.assetid: 714e9d91-c6b9-4fa2-8a14-9bdd721b3135
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetChildren method, IUIAutomationTextRange.GetChildren, IUIAutomationTextRange::GetChildren, uiauto.uiauto_IUIAutomationTextRange_GetChildren, uiauto_IUIAutomationTextRange_GetChildren, uiautomationclient/IUIAutomationTextRange::GetChildren, winauto.uiauto_IUIAutomationTextRange_GetChildren
 ms.prod: windows
 ms.technology: windows-sdk

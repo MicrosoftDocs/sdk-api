@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ Receives a pointer to the number of tokens covered by the named entity keyword t
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the value of the named entity that was found, as a Unicode string. The caller must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>. An <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> object can be obtained by calling the <a href="https://msdn.microsoft.com/aa1a5324-3c23-4e6c-9e97-1a08996a6093">GetNamedEntity</a> method of <i>pEntity</i> and passing the string that was received in this parameter.
+Receives a pointer to the value of the named entity that was found, as a Unicode string. The caller must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. An <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> object can be obtained by calling the <a href="https://msdn.microsoft.com/aa1a5324-3c23-4e6c-9e97-1a08996a6093">GetNamedEntity</a> method of <i>pEntity</i> and passing the string that was received in this parameter.
 
 
 

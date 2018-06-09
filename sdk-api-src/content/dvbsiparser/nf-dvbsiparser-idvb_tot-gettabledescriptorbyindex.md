@@ -7,7 +7,7 @@ old-location: mstv\idvb_tot_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 0d59b778-c8bc-4ccc-bca2-013c2345814f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_TOT.GetTableDescriptorByIndex, IDVB_TOT::GetTableDescriptorByIndex, IDVB_TOTGetTableDescriptorByIndex, dvbsiparser/IDVB_TOT::GetTableDescriptorByIndex, mstv.idvb_tot_gettabledescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduledefinition_moduleclsid.htm
 old-project: Fsrm
 ms.assetid: a90c8836-cd7f-46d8-814c-6f798c930b4d
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],ModuleClsid property, IFsrmPipelineModuleDefinition.ModuleClsid, IFsrmPipelineModuleDefinition.put_ModuleClsid, IFsrmPipelineModuleDefinition::ModuleClsid, IFsrmPipelineModuleDefinition::get_ModuleClsid, IFsrmPipelineModuleDefinition::put_ModuleClsid, ModuleClsid property [File Server Resource Manager], ModuleClsid property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_moduleclsid, fsrm.ifsrmpipelinemoduledefinition_moduleclsid, fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleClsid, fsrmpipeline/IFsrmPipelineModuleDefinition::put_ModuleClsid, put_ModuleClsid
 ms.prod: windows
 ms.technology: windows-sdk

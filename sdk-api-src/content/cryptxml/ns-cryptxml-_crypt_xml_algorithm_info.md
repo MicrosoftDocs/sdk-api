@@ -7,7 +7,7 @@ old-location: security\crypt_xml_algorithm_info.htm
 old-project: SecCrypto
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO structure [Security], CRYPT_XML_GROUP_ID_HASH, CRYPT_XML_GROUP_ID_SIGN, PCRYPT_XML_ALGORITHM_INFO, PCRYPT_XML_ALGORITHM_INFO structure pointer [Security], _CRYPT_XML_ALGORITHM_INFO, cryptxml/CRYPT_XML_ALGORITHM_INFO, cryptxml/PCRYPT_XML_ALGORITHM_INFO, security.crypt_xml_algorithm_info"
 ms.prod: windows
 ms.technology: windows-sdk

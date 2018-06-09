@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_getcuetimeoffset.htm
 old-project: medfound
 ms.assetid: E7619B18-6253-41CF-9D4D-F7944A8E5DDE
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetCueTimeOffset, GetCueTimeOffset method [Media Foundation], GetCueTimeOffset method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetCueTimeOffset method, IMFTimedText.GetCueTimeOffset, IMFTimedText::GetCueTimeOffset, mf.imftimedtext_getcuetimeoffset, mfmediaengine/IMFTimedText::GetCueTimeOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_releasesecondarybufferinterface.htm
 old-project: DirectShow
 ms.assetid: ba563876-074e-49eb-bc53-889ead49ceb8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseSecondaryBufferInterface method, IAMDirectSound.ReleaseSecondaryBufferInterface, IAMDirectSound::ReleaseSecondaryBufferInterface, IAMDirectSoundReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface method [DirectShow], ReleaseSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface, dshow.iamdirectsound_releasesecondarybufferinterface
 ms.prod: windows
 ms.technology: windows-sdk

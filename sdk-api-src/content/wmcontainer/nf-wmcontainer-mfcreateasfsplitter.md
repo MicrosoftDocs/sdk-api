@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfsplitter.htm
 old-project: medfound
 ms.assetid: 05936a66-ed39-4645-adfb-5816b9981771
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 05936a66-ed39-4645-adfb-5816b9981771, MFCreateASFSplitter, MFCreateASFSplitter function [Media Foundation], mf.mfcreateasfsplitter, wmcontainer/MFCreateASFSplitter
 ms.prod: windows
 ms.technology: windows-sdk

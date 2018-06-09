@@ -7,7 +7,7 @@ old-location: intl\scriptcachegetheight.htm
 old-project: Intl
 ms.assetid: e147b0c4-7d9f-4961-8bce-25dab716f7a2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScriptCacheGetHeight, ScriptCacheGetHeight function [Internationalization for Windows Applications], _win32_ScriptCacheGetHeight, intl.scriptcachegetheight, usp10/ScriptCacheGetHeight
 ms.prod: windows
 ms.technology: windows-sdk

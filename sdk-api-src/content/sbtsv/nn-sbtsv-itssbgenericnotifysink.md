@@ -7,7 +7,7 @@ old-location: termserv\itssbgenericnotifysink.htm
 old-project: TermServ
 ms.assetid: 03a895ef-6c67-4537-bc1c-838b65ae3487
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbGenericNotifySink, ITsSbGenericNotifySink interface [Remote Desktop Services], ITsSbGenericNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbGenericNotifySink, termserv.itssbgenericnotifysink
 ms.prod: windows
 ms.technology: windows-sdk

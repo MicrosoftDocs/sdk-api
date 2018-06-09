@@ -7,7 +7,7 @@ old-location: shell\UrlIsNoHistory.htm
 old-project: shell
 ms.assetid: 7602d2ef-1f21-4b2f-8ac9-195bb21d6ae7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: UrlIsNoHistory, UrlIsNoHistory function [Windows Shell], UrlIsNoHistoryA, UrlIsNoHistoryW, _win32_UrlIsNoHistory, shell.UrlIsNoHistory, shlwapi/UrlIsNoHistory, shlwapi/UrlIsNoHistoryA, shlwapi/UrlIsNoHistoryW
 ms.prod: windows
 ms.technology: windows-sdk

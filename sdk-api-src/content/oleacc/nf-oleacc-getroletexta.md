@@ -7,7 +7,7 @@ old-location: winauto\getroletext.htm
 old-project: WinAuto
 ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleTextA, GetRoleTextW, _msaa_GetRoleText, msaa.getroletext, oleacc/GetRoleText, oleacc/GetRoleTextA, oleacc/GetRoleTextW, winauto.getroletext
 ms.prod: windows
 ms.technology: windows-sdk

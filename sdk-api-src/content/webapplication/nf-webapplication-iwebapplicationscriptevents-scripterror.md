@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationscriptevents_scripterror.htm
 old-project: debug_wwahost
 ms.assetid: 4f1e6260-804d-4881-b2d8-70a1463a46bd
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/04/2018
 ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps],ScriptError method, IWebApplicationScriptEvents.ScriptError, IWebApplicationScriptEvents::ScriptError, ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps],IWebApplicationScriptEvents interface, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ Fired when an unhandled script error occurs.
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
+Type: <b><a href="https://www.bing.com/search?q=IHTMLWindow2">IHTMLWindow2</a>*</b>
 
 The window or frame in which the script error occurred.
 
 
 ### -param scriptError [in]
 
-Type: <b><a href="c8e0288d-38ff-4145-a7e3-f8cdfb72eefe">IActiveScriptError</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/c8e0288d-38ff-4145-a7e3-f8cdfb72eefe">IActiveScriptError</a>*</b>
 
 The object that contains info about the script error that occurred.
 

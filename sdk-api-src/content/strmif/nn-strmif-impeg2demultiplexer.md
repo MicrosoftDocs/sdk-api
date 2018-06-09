@@ -7,7 +7,7 @@ old-location: dshow\impeg2demultiplexer.htm
 old-project: DirectShow
 ms.assetid: e9242b96-0fc3-428e-b7ee-91a4f5e67305
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMpeg2Demultiplexer, IMpeg2Demultiplexer interface [DirectShow], IMpeg2Demultiplexer interface [DirectShow],described, IMpeg2DemultiplexerInterface, dshow.impeg2demultiplexer, strmif/IMpeg2Demultiplexer
 ms.prod: windows
 ms.technology: windows-sdk

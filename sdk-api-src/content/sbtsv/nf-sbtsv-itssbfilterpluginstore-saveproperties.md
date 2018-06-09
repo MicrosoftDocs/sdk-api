@@ -7,7 +7,7 @@ old-location: termserv\itssbfilterpluginstore_saveproperties.htm
 old-project: TermServ
 ms.assetid: 79e5e519-e004-49c8-9d1b-705704446628
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbFilterPluginStore interface [Remote Desktop Services],SaveProperties method, ITsSbFilterPluginStore.SaveProperties, ITsSbFilterPluginStore::SaveProperties, SaveProperties, SaveProperties method [Remote Desktop Services], SaveProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, sbtsv/ITsSbFilterPluginStore::SaveProperties, termserv.itssbfilterpluginstore_saveproperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\iwmcodecstringsgetname.htm
 old-project: medfound
 ms.assetid: 12422e46-dfde-4a0f-8988-567a42f5a212
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetName method, IWMCodecStrings.GetName, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/ IWMCodecStrings::GetName
 ms.prod: windows
 ms.technology: windows-sdk

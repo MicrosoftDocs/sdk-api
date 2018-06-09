@@ -7,7 +7,7 @@ old-location: security\cryptcatadminreleasecatalogcontext.htm
 old-project: SecCrypto
 ms.assetid: 6cc13013-2c0a-4934-a866-30b69cbcf934
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptCATAdminReleaseCatalogContext, CryptCATAdminReleaseCatalogContext function [Security], mscat/CryptCATAdminReleaseCatalogContext, security.cryptcatadminreleasecatalogcontext
 ms.prod: windows
 ms.technology: windows-sdk

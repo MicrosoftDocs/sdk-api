@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependency.htm
 old-project: MsCS
 ms.assetid: eee267b4-4272-4938-b061-02990ec528f2
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY, PRESUTIL_GET_RESOURCE_DEPENDENCY callback, PRESUTIL_GET_RESOURCE_DEPENDENCY callback function [Failover Cluster], _wolf_resutilgetresourcedependency, mscs.resutilgetresourcedependency, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY
 ms.prod: windows
 ms.technology: windows-sdk

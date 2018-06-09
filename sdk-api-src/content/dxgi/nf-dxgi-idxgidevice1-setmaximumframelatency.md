@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice1_setmaximumframelatency.htm
 old-project: direct3ddxgi
 ms.assetid: ea477f33-2dba-44ac-9b47-8fd2ce6cec30
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIDevice1 interface [DXGI],SetMaximumFrameLatency method, IDXGIDevice1.SetMaximumFrameLatency, IDXGIDevice1::SetMaximumFrameLatency, SetMaximumFrameLatency, SetMaximumFrameLatency method [DXGI], SetMaximumFrameLatency method [DXGI],IDXGIDevice1 interface, da92b152-07cc-06ca-caa5-a8982fe8fc2f, direct3ddxgi.idxgidevice1_setmaximumframelatency, dxgi/IDXGIDevice1::SetMaximumFrameLatency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The maximum number of back buffer frames that a driver can queue. The value defa
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, DXGI_ERROR_DEVICE_REMOVED if the device was removed.
 

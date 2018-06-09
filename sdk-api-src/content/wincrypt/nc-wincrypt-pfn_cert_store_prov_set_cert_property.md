@@ -7,7 +7,7 @@ old-location: security\certstoreprovsetcertpropertycallback.htm
 old-project: SecCrypto
 ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertStoreProvSetCertPropertyCallback, CertStoreProvSetCertPropertyCallback callback, CertStoreProvSetCertPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], _crypto2_certstoreprovsetcertpropertycallback, security.certstoreprovsetcertpropertycallback, wincrypt/CertStoreProvSetCertPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ See <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">Ce
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
 
 
 

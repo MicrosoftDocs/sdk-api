@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentpolicyserversetup.htm
 old-project: SecCrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], ICertificateEnrollmentPolicyServerSetup interface [Security],described, casetup/ICertificateEnrollmentPolicyServerSetup, security.icertificateenrollmentpolicyserversetup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ A related interface, <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateEnrollmentPolicyServerSetup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertificateEnrollmentPolicyServerSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateEnrollmentPolicyServerSetup</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>ICertificateEnrollmentPolicyServerSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -152,7 +152,7 @@ Retrieves a string that contains additional information about CEP setup failure.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
  
 
  

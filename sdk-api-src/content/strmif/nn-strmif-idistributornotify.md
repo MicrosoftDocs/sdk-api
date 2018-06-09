@@ -7,7 +7,7 @@ old-location: dshow\idistributornotify.htm
 old-project: DirectShow
 ms.assetid: c7c9ee95-9d68-45c5-a3ca-8d6071782851
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow],described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify
 ms.prod: windows
 ms.technology: windows-sdk

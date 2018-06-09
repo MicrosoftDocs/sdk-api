@@ -76,7 +76,7 @@ The resource type to be updated. Alternatively, rather than a pointer, this para
 
 decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258. 
 
-For a list of predefined resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. 
+For a list of predefined resource types, see <a href="https://www.bing.com/search?q=Resource+Types">Resource Types</a>. 
 
 
 ### -param lpName [in]
@@ -195,7 +195,7 @@ This function can update resources within modules that contain both code and res
 
 #### Examples
 
-For an example, see <a href="using_resources.htm">Updating Resources</a>.
+For an example, see <a href="https://www.bing.com/search?q=Updating+Resources">Updating Resources</a>.
 
 <div class="code"></div>
 

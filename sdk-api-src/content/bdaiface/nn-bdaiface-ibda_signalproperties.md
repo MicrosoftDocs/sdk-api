@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalproperties.htm
 old-project: mstv
 ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], IBDA_SignalProperties interface [Microsoft TV Technologies],described, IBDA_SignalPropertiesInterface, bdaiface/IBDA_SignalProperties, mstv.ibda_signalproperties
 ms.prod: windows
 ms.technology: windows-sdk

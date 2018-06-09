@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushretrievalfilter.htm
 old-project: direct3d12
 ms.assetid: 4270B455-7112-4BCD-B8B9-D60B7FEADD9E
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12InfoQueue interface,PushRetrievalFilter method, ID3D12InfoQueue.PushRetrievalFilter, ID3D12InfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method, PushRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushRetrievalFilter, direct3d12.id3d12infoqueue_pushretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/5CD64E71-8530-43FB-B441-25C61ED6F31
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 

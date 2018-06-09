@@ -7,7 +7,7 @@ old-location: xps\ixpsomstoryfragmentsresource_getstream.htm
 old-project: printdocs
 ms.assetid: c119f1c6-59c0-41b2-b79d-5de9a62c146a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],GetStream method, IXpsOMStoryFragmentsResource.GetStream, IXpsOMStoryFragmentsResource::GetStream, xps.ixpsomstoryfragmentsresource_getstream, xpsobjectmodel/IXpsOMStoryFragmentsResource::GetStream
 ms.prod: windows
 ms.technology: windows-sdk

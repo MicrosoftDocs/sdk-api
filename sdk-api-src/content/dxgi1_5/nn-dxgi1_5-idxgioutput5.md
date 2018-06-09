@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput5.htm
 old-project: direct3ddxgi
 ms.assetid: D75529BD-C572-4137-8F1E-91F7C6902EE0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIOutput5, IDXGIOutput5 interface [DXGI], IDXGIOutput5 interface [DXGI],described, direct3ddxgi.idxgioutput5, dxgi1_5/IDXGIOutput5
 ms.prod: windows
 ms.technology: windows-sdk

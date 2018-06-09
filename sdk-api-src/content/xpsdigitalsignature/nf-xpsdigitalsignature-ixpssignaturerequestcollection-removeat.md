@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequestcollection_removeat.htm
 old-project: printdocs
 ms.assetid: 6149de80-d0ca-4b6b-a092-b1c30f313df5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsSignatureRequestCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureRequestCollection.RemoveAt, IXpsSignatureRequestCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, xps.ixpssignaturerequestcollection_removeat, xpsdigitalsignature/IXpsSignatureRequestCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

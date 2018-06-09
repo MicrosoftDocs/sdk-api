@@ -7,7 +7,7 @@ old-location: stg\writeclassstg.htm
 old-project: Stg
 ms.assetid: 5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: WriteClassStg, WriteClassStg function [Structured Storage], _stg_writeclassstg, coml2api/WriteClassStg, stg.writeclassstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ This function returns HRESULT.
 The 
 <b>WriteClassStg</b> function writes a CLSID to the specified storage object so that it can be read by the 
 <a href="https://msdn.microsoft.com/90256fcd-54ce-48e1-aa12-d8f91cd4dfb1">ReadClassStg</a> function. Container applications typically call this function before calling the 
-<a href="_com_ipersiststorage_save">IPersistStorage::Save</a> method.
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save.md">IPersistStorage::Save</a> method.
 
 
 
@@ -97,7 +97,7 @@ The
 
 
 
-<a href="_ole_olesave">OleSave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
 
 
 

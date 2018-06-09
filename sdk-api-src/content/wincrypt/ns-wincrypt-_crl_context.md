@@ -7,7 +7,7 @@ old-location: security\crl_context.htm
 old-project: SecCrypto
 ms.assetid: cf7cabcd-b469-492a-b855-8870465ea1cc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCRL_CONTEXT, CRL_CONTEXT, CRL_CONTEXT structure [Security], PCCRL_CONTEXT, PCCRL_CONTEXT structure pointer [Security], PCRL_CONTEXT, PCRL_CONTEXT structure pointer [Security], _CRL_CONTEXT, _crypto2_crl_context, security.crl_context, wincrypt/CRL_CONTEXT, wincrypt/PCCRL_CONTEXT, wincrypt/PCRL_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:iscsitarg
 ms.assetid: 55221415-bb39-3fdd-9d5e-3be143be538d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # iSCSI Target Server Provider
 
-
+## -description
 
 Overview of the iSCSI Target Server Provider technology.
 

@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadcontent2.htm
 old-project: Wua_Sdk
 ms.assetid: adf2e5df-42ca-41dc-aa84-60302c36a494
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows Update Agent], IUpdateDownloadContent2 interface [Windows Update Agent],described, wua.iupdatedownloadcontent2, wuapi/IUpdateDownloadContent2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\immnotificationclient.htm
 old-project: CoreAudio
 ms.assetid: 76d3cd52-30bd-48b0-8adc-c23991a60d1b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
 ms.prod: windows
 ms.technology: windows-sdk

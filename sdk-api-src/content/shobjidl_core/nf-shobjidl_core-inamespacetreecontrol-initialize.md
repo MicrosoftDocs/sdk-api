@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_Initialize.htm
 old-project: shell
 ms.assetid: dfc602bd-6e4e-492d-8bf4-1499319adee7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],Initialize method, INameSpaceTreeControl.Initialize, INameSpaceTreeControl::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_Initialize, shell.INameSpaceTreeControl_Initialize, shobjidl_core/INameSpaceTreeControl::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

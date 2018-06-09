@@ -7,7 +7,7 @@ old-location: shell\IShellTaskScheduler_CountTasks.htm
 old-project: shell
 ms.assetid: 41c0af40-35c2-4ce2-b9c3-246ee6268f49
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: CountTasks, CountTasks method [Windows Shell], CountTasks method [Windows Shell],IShellTaskScheduler interface, IShellTaskScheduler interface [Windows Shell],CountTasks method, IShellTaskScheduler.CountTasks, IShellTaskScheduler::CountTasks, _win32_IShellTaskScheduler_CountTasks, shell.IShellTaskScheduler_CountTasks, shobjidl_core/IShellTaskScheduler::CountTasks
 ms.prod: windows
 ms.technology: windows-sdk

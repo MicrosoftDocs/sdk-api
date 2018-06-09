@@ -7,7 +7,7 @@ old-location: winprog\ifhreassociation_scantargetforconfigurations.htm
 old-project: DevNotes
 ms.assetid: E26F5C41-50E7-4D4F-A6FF-D1B21AF28A9D
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: FhReassociation class [Windows API],ScanTargetForConfigurations method, IFhReassociation interface [Windows API],ScanTargetForConfigurations method, IFhReassociation.ScanTargetForConfigurations, IFhReassociation::ScanTargetForConfigurations, ScanTargetForConfigurations, ScanTargetForConfigurations method [Windows API], ScanTargetForConfigurations method [Windows API],FhReassociation class, ScanTargetForConfigurations method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::ScanTargetForConfigurations, winprog.ifhreassociation_scantargetforconfigurations
 ms.prod: windows
 ms.technology: windows-sdk

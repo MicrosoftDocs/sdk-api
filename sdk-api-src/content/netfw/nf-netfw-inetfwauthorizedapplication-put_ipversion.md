@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplication_ipversion.htm
 old-project: ICS
 ms.assetid: f0a4127f-4f81-4b71-a5c5-ba9e30927820
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],IpVersion property, INetFwAuthorizedApplication.IpVersion, INetFwAuthorizedApplication.put_IpVersion, INetFwAuthorizedApplication::IpVersion, INetFwAuthorizedApplication::get_IpVersion, INetFwAuthorizedApplication::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_ipversion, netfw/INetFwAuthorizedApplication::IpVersion, netfw/INetFwAuthorizedApplication::get_IpVersion, netfw/INetFwAuthorizedApplication::put_IpVersion, put_IpVersion
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getversionnumber.htm
 old-project: mstv
 ms.assetid: 44f905e2-4814-4990-8a77-6ca6311c5505
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_BIT.GetVersionNumber, IISDB_BIT::GetVersionNumber, dvbsiparser/IISDB_BIT::GetVersionNumber, mstv.iisdb_bit_getversionnumber
 ms.prod: windows
 ms.technology: windows-sdk

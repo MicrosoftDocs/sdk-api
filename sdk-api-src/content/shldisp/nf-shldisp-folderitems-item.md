@@ -7,7 +7,7 @@ old-location: shell\FolderItems_Item.htm
 old-project: shell
 ms.assetid: 164f823d-12d9-4950-a881-63837c53760d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: FolderItems object [Windows Shell],Item method, FolderItems.Item, FolderItems::Item, Item, Item method [Windows Shell], Item method [Windows Shell],FolderItems object, _win32_FolderItems_Item, shell.FolderItems_Item
 ms.prod: windows
 ms.technology: windows-sdk

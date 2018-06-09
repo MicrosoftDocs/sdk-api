@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel_Open.htm
 old-project: shell
 ms.assetid: 9485540b-0c3a-46f7-8c79-55991f943809
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IOpenControlPanel interface [Windows Shell],Open method, IOpenControlPanel.Open, IOpenControlPanel::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IOpenControlPanel interface, _shell_IOpenControlPanel_Open, shell.IOpenControlPanel_Open, shobjidl_core/IOpenControlPanel::Open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
 
 
 

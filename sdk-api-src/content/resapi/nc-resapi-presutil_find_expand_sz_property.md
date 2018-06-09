@@ -7,7 +7,7 @@ old-location: mscs\resutilfindexpandszproperty.htm
 old-project: MsCS
 ms.assetid: 44fb21bd-6cc2-4b1b-ae8f-c977fa336747
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_FIND_EXPAND_SZ_PROPERTY, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandszproperty, mscs.resutilfindexpandszproperty, resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Locates an <a href="e_gly.htm">expandable string</a> property in a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>. The <b>PRESUTIL_FIND_EXPAND_SZ_PROPERTY</b> type defines a pointer to this function.
+Locates an <a href="https://www.bing.com/search?q=expandable+string">expandable string</a> property in a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>. The <b>PRESUTIL_FIND_EXPAND_SZ_PROPERTY</b> type defines a pointer to this function.
 
 
 ## -parameters

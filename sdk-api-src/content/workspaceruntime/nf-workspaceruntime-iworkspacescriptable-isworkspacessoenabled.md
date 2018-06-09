@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable_isworkspacessoenabled.htm
 old-project: TermServ
 ms.assetid: 54608723-9a17-4bf2-a46d-8fed52378767
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],IsWorkspaceSSOEnabled method, IWorkspaceScriptable.IsWorkspaceSSOEnabled, IWorkspaceScriptable2 interface [Remote Desktop Services],IsWorkspaceSSOEnabled method, IWorkspaceScriptable2::IsWorkspaceSSOEnabled, IWorkspaceScriptable3 interface [Remote Desktop Services],IsWorkspaceSSOEnabled method, IWorkspaceScriptable3::IsWorkspaceSSOEnabled, IWorkspaceScriptable::IsWorkspaceSSOEnabled, IsWorkspaceSSOEnabled, IsWorkspaceSSOEnabled method [Remote Desktop Services], IsWorkspaceSSOEnabled method [Remote Desktop Services],IWorkspaceScriptable interface, IsWorkspaceSSOEnabled method [Remote Desktop Services],IWorkspaceScriptable2 interface, IsWorkspaceSSOEnabled method [Remote Desktop Services],IWorkspaceScriptable3 interface, IsWorkspaceSSOEnabled method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsWorkspaceSSOEnabled method, termserv.iworkspacescriptable_isworkspacessoenabled, workspaceruntime/IWorkspaceScriptable2::IsWorkspaceSSOEnabled, workspaceruntime/IWorkspaceScriptable3::IsWorkspaceSSOEnabled, workspaceruntime/IWorkspaceScriptable::IsWorkspaceSSOEnabled
 ms.prod: windows
 ms.technology: windows-sdk

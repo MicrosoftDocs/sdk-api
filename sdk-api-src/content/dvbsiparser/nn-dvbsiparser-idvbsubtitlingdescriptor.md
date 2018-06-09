@@ -7,7 +7,7 @@ old-location: mstv\idvbsubtitlingdescriptor.htm
 old-project: mstv
 ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSubtitlingDescriptor, mstv.idvbsubtitlingdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

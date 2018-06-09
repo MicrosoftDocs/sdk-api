@@ -7,7 +7,7 @@ old-location: dshow\iamstreamselect_info.htm
 old-project: DirectShow
 ms.assetid: 9396d4fb-e06e-4b54-9601-fd443c81ff35
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMStreamSelect interface [DirectShow],Info method, IAMStreamSelect.Info, IAMStreamSelect::Info, IAMStreamSelectInfo, Info, Info method [DirectShow], Info method [DirectShow],IAMStreamSelect interface, dshow.iamstreamselect_info, strmif/IAMStreamSelect::Info
 ms.prod: windows
 ms.technology: windows-sdk

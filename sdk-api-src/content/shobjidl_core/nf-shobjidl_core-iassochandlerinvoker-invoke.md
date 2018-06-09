@@ -7,7 +7,7 @@ old-location: shell\IAssocHandlerInvoker_Invoke.htm
 old-project: shell
 ms.assetid: 9b5de945-b177-4cbc-817c-447b2174323e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],Invoke method, IAssocHandlerInvoker.Invoke, IAssocHandlerInvoker::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_Invoke, shell.IAssocHandlerInvoker_Invoke, shobjidl_core/IAssocHandlerInvoker::Invoke
 ms.prod: windows
 ms.technology: windows-sdk

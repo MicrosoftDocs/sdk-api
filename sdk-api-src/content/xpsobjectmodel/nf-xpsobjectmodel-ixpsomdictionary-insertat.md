@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_insertat.htm
 old-project: printdocs
 ms.assetid: a47b7130-a3c3-44d2-a987-e78b7feb52d6
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],InsertAt method, IXpsOMDictionary.InsertAt, IXpsOMDictionary::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_insertat, xpsobjectmodel/IXpsOMDictionary::InsertAt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getaspectratiomode.htm
 old-project: medfound
 ms.assetid: b5e81f80-e5c9-4ecf-8f10-d52a0533f086
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetAspectRatioMode method, IMFVideoDisplayControl.GetAspectRatioMode, IMFVideoDisplayControl::GetAspectRatioMode, b5e81f80-e5c9-4ecf-8f10-d52a0533f086, evr/IMFVideoDisplayControl::GetAspectRatioMode, mf.imfvideodisplaycontrol_getaspectratiomode
 ms.prod: windows
 ms.technology: windows-sdk

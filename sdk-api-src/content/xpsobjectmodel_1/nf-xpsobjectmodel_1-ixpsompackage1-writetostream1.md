@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage1_writetostream1.htm
 old-project: printdocs
 ms.assetid: 7f430aa1-1570-44d6-9aec-a4b2fb55f2dc
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMPackage1 interface [XPS Documents and Packaging],WriteToStream1 method, IXpsOMPackage1.WriteToStream1, IXpsOMPackage1::WriteToStream1, WriteToStream1, WriteToStream1 method [XPS Documents and Packaging], WriteToStream1 method [XPS Documents and Packaging],IXpsOMPackage1 interface, xps.ixpsompackage1_writetostream1, xpsobjectmodel_1/IXpsOMPackage1::WriteToStream1
 ms.prod: windows
 ms.technology: windows-sdk

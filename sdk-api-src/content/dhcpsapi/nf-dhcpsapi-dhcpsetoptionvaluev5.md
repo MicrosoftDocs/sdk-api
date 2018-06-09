@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptionvaluev5.htm
 old-project: DHCP
 ms.assetid: 05e7930f-e5c1-42e7-a693-f9852cda9494
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionValueV5, DhcpSetOptionValueV5 function [DHCP], dhcp.dhcpsetoptionvaluev5, dhcpsapi/DhcpSetOptionValueV5
 ms.prod: windows
 ms.technology: windows-sdk

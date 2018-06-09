@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetErrors.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
  
-        Each parsing error is represented by an <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="_stg_propvariant">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://msdn.microsoft.com/abc76a8c-ee72-469a-85a0-75c12ee4e5d9">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
+        Each parsing error is represented by an <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://msdn.microsoft.com/abc76a8c-ee72-469a-85a0-75c12ee4e5d9">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
       
 
 

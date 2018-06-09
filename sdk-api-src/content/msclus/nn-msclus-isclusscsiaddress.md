@@ -7,7 +7,7 @@ old-location: mscs\clusscsiaddress_object.htm
 old-project: MsCS
 ms.assetid: 7becbcf6-bad9-44e2-9731-d53de8299b99
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusScsiAddress, ClusScsiAddress object [Failover Cluster], ClusScsiAddress object [Failover Cluster],described, ISClusScsiAddress, _wolf_clusscsiaddress_object, msclus/ClusScsiAddress, mscs.clusscsiaddress_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to 
-    <a href="s_gly.htm">SCSI</a> information about a 
+    <a href="https://www.bing.com/search?q=SCSI">SCSI</a> information about a 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 

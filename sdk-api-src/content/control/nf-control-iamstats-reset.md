@@ -7,7 +7,7 @@ old-location: dshow\iamstats_reset.htm
 old-project: DirectShow
 ms.assetid: daa5f3c0-6785-46b6-987f-acef798b0ed9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMStats interface [DirectShow],Reset method, IAMStats.Reset, IAMStats::Reset, IAMStatsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IAMStats interface, control/IAMStats::Reset, dshow.iamstats_reset
 ms.prod: windows
 ms.technology: windows-sdk

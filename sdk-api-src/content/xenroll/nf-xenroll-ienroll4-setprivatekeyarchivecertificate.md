@@ -7,7 +7,7 @@ old-location: security\ienroll4_setprivatekeyarchivecertificate.htm
 old-project: SecCrypto
 ms.assetid: e37a8055-4074-425b-8f88-69b898855824
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IEnroll4 interface [Security],SetPrivateKeyArchiveCertificate method, IEnroll4.SetPrivateKeyArchiveCertificate, IEnroll4::SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate, SetPrivateKeyArchiveCertificate method [Security], SetPrivateKeyArchiveCertificate method [Security],IEnroll4 interface, security.ienroll4_setprivatekeyarchivecertificate, xenroll/IEnroll4::SetPrivateKeyArchiveCertificate
 ms.prod: windows
 ms.technology: windows-sdk

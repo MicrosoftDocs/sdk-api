@@ -7,7 +7,7 @@ old-location: mf\itocentry_gettitle.htm
 old-project: medfound
 ms.assetid: d610e9e8-daa4-4d8c-a640-627b23afd316
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetTitle, GetTitle method [Media Foundation], GetTitle method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetTitle method, ITocEntry.GetTitle, ITocEntry::GetTitle, codecapi.itocentry_gettitle, mf.itocentry_gettitle, wmcodecdsp/ITocEntry::GetTitle
 ms.prod: windows
 ms.technology: windows-sdk

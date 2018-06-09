@@ -7,7 +7,7 @@ old-location: security\icenroll4_stringtobinary.htm
 old-project: SecCrypto
 ms.assetid: abcc395f-f989-4098-818a-160e427b1da0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CEnroll object [Security],stringToBinary method, ICEnroll4 interface [Security],stringToBinary method, ICEnroll4.stringToBinary, ICEnroll4::stringToBinary, _xen_icenroll4_stringtobinary, security.icenroll4_stringtobinary, stringToBinary, stringToBinary method [Security], stringToBinary method [Security],CEnroll object, stringToBinary method [Security],ICEnroll4 interface, xenroll/ICEnroll4::stringToBinary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ An encoded string to be converted to a binary data <a href="https://msdn.microso
 
 ### -param pstrBinary [out]
 
-A pointer to a  <b>BSTR</b> that receives the binary data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+A pointer to a  <b>BSTR</b> that receives the binary data. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 ## -returns

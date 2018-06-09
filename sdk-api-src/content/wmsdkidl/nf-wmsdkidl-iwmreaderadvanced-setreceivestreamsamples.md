@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setreceivestreamsamples.htm
 old-project: wmformat
 ms.assetid: 3fb39726-7f43-41ec-9ead-38456b5cd964
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetReceiveStreamSamples method, IWMReaderAdvanced.SetReceiveStreamSamples, IWMReaderAdvanced::SetReceiveStreamSamples, IWMReaderAdvancedSetReceiveStreamSamples, SetReceiveStreamSamples, SetReceiveStreamSamples method [windows Media Format], SetReceiveStreamSamples method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setreceivestreamsamples, wmsdkidl/IWMReaderAdvanced::SetReceiveStreamSamples
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ No callback interface has been specified.
 </dl>
 </td>
 <td width="60%">
-Attempted read on a file protected by <a href="wmformat_glossary.htm">DRM</a>.
+Attempted read on a file protected by <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DRM</a>.
 
 </td>
 </tr>

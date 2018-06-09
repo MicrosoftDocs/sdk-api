@@ -7,7 +7,7 @@ old-location: security\cryptverifymessagesignaturewithkey.htm
 old-project: SecCrypto
 ms.assetid: 6fe0f9ee-1838-4eb7-8254-05b878eb8f56
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptVerifyMessageSignatureWithKey, CryptVerifyMessageSignatureWithKey function [Security], security.cryptverifymessagesignaturewithkey, wincrypt/CryptVerifyMessageSignatureWithKey
 ms.prod: windows
 ms.technology: windows-sdk

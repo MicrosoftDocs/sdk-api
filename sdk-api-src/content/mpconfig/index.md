@@ -2,12 +2,12 @@
 UID: NA:mpconfig
 ms.assetid: e3804186-1709-34fa-bf68-111ffe7ed080
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: virtual
+tech.root: dshow
 ---
 
 # Mpconfig.h header

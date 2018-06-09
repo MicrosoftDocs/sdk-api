@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_setinbandenabled.htm
 old-project: medfound
 ms.assetid: 4AF63D30-4A91-4DFF-96B9-0A26102B93FE
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

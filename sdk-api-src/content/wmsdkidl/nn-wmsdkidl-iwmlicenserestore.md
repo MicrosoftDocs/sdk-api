@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicenserestore.htm
 old-project: wmformat
 ms.assetid: 29444445-7104-4900-a00d-dabd2766d1d7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], IWMLicenseRestore interface [windows Media Format],described, IWMLicenseRestoreInterface, wmformat.iwmlicenserestore, wmsdkidl/IWMLicenseRestore
 ms.prod: windows
 ms.technology: windows-sdk

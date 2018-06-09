@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_name.htm
 old-project: ICS
 ms.assetid: 3b6179d0-c16d-43f7-8575-b173841cffe9
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwService interface [ICS/ICF],Name property, INetFwService.Name, INetFwService.get_Name, INetFwService::Name, INetFwService::get_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwService interface, get_Name, ics.inetfwservice_name, netfw/INetFwService::Name, netfw/INetFwService::get_Name
 ms.prod: windows
 ms.technology: windows-sdk

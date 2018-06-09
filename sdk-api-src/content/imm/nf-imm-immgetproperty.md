@@ -7,7 +7,7 @@ old-location: intl\immgetproperty.htm
 old-project: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,7 +196,7 @@ Returns the property or capability value, depending on the value of the <i>dwInd
 <tr>
 <td>IME_PROP_ACCEPT_WIDE_VKEY</td>
 <td>
-                  If set, the IME processes the injected Unicode that came from the <a href="_win32_sendinput_cpp">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
+                  If set, the IME processes the injected Unicode that came from the <a href="https://www.bing.com/search?q=SendInput">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
 </tr>
 </table>
  

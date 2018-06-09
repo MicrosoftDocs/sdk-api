@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogress_percentcomplete.htm
 old-project: Wua_Sdk
 ms.assetid: 46f1d509-942f-4931-81ec-c01bac38c00b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IInstallationProgress interface [Windows Update Agent],PercentComplete property, IInstallationProgress.PercentComplete, IInstallationProgress.get_PercentComplete, IInstallationProgress::PercentComplete, IInstallationProgress::get_PercentComplete, PercentComplete property [Windows Update Agent], PercentComplete property [Windows Update Agent],IInstallationProgress interface, get_PercentComplete, wua.iinstallationprogress_percentcomplete, wuapi/IInstallationProgress::PercentComplete, wuapi/IInstallationProgress::get_PercentComplete
 ms.prod: windows
 ms.technology: windows-sdk

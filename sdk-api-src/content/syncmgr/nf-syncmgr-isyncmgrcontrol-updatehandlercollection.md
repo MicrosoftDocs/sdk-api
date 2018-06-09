@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateHandlerCollection.htm
 old-project: shell
 ms.assetid: 752f197e-0dad-4b3d-9f70-352f5f50e9ee
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandlerCollection method, ISyncMgrControl.UpdateHandlerCollection, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
 ms.prod: windows
 ms.technology: windows-sdk

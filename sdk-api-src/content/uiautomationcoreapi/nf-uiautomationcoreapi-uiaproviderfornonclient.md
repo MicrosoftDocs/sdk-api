@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaProviderForNonClientFunction.htm
 old-project: WinAuto
 ms.assetid: 440E6659-C62F-4567-B00F-B0F0B0F21817
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows Accessibility], uiautomationcoreapi/UiaProviderForNonClient, winauto.uiauto_UiaProviderForNonClientFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The window that owns the non-client area or non-client control.
 
 Type: <b>long</b>
 
-The object identifier of the non-client control, or <a href="object_identifiers.htm">OBJID_WINDOW</a> for the entire non-client area. For a list of possible values, see <b>Object Identifiers</b>.
+The object identifier of the non-client control, or <a href="https://www.bing.com/search?q=OBJID_WINDOW">OBJID_WINDOW</a> for the entire non-client area. For a list of possible values, see <b>Object Identifiers</b>.
 
 
 ### -param idChild [in]
@@ -111,11 +111,11 @@ Returns S_OK if successful or an error value otherwise.
 
 This function returns the default Microsoft UI Automation provider for the non-client area of a window.  UI Automation supports the non-client area without any explicit help from the window. You can override and customize the support by using the <a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a> interface that is retrieved by this function.  
 
-This function is particularly useful when you use it with the <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_RefuseNonClientSupport</a> flag, which disables the UI Automation default provider for the non-client area so that the window can supply  its own provider.
+This function is particularly useful when you use it with the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-provideroptions">ProviderOptions_RefuseNonClientSupport</a> flag, which disables the UI Automation default provider for the non-client area so that the window can supply  its own provider.
 
 
 
-The supported object IDs for controls in the non-client area include <a href="object_identifiers.htm">OBJID_WINDOW</a><a href="object_identifiers.htm">, OBJID_VSCROLL</a>, <a href="object_identifiers.htm">OBJID_HSCROLL</a>, <a href="object_identifiers.htm">OBJID_TITLEBAR</a>, <a href="object_identifiers.htm">OBJID_MENU</a>, and <a href="object_identifiers.htm">OBJID_SIZEGRIP</a>.  For <b>OBJID_TITLEBAR</b>, use the child ID to distinguish between the entire title bar and the buttons that it contains.
+The supported object IDs for controls in the non-client area include <a href="https://www.bing.com/search?q=OBJID_WINDOW">OBJID_WINDOW</a><a href="https://www.bing.com/search?q=,+OBJID_VSCROLL">, OBJID_VSCROLL</a>, <a href="https://www.bing.com/search?q=OBJID_HSCROLL">OBJID_HSCROLL</a>, <a href="https://www.bing.com/search?q=OBJID_TITLEBAR">OBJID_TITLEBAR</a>, <a href="https://www.bing.com/search?q=OBJID_MENU">OBJID_MENU</a>, and <a href="https://www.bing.com/search?q=OBJID_SIZEGRIP">OBJID_SIZEGRIP</a>.  For <b>OBJID_TITLEBAR</b>, use the child ID to distinguish between the entire title bar and the buttons that it contains.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\cryptexportpublickeyinfo.htm
 old-project: SecCrypto
 ms.assetid: ad43a991-aaf5-4272-abab-0a981112e5e4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptExportPublicKeyInfo, CryptExportPublicKeyInfo function [Security], _crypto2_cryptexportpublickeyinfo, security.cryptexportpublickeyinfo, wincrypt/CryptExportPublicKeyInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,7 +162,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

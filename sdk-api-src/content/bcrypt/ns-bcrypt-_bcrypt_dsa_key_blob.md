@@ -7,7 +7,7 @@ old-location: security\bcrypt_dsa_key_blob.htm
 old-project: SecCNG
 ms.assetid: 3db36170-106e-49c8-9866-e25759bdd7f9
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: "*PBCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB structure [Security], BCRYPT_DSA_PRIVATE_MAGIC, BCRYPT_DSA_PUBLIC_MAGIC, PBCRYPT_DSA_KEY_BLOB, PBCRYPT_DSA_KEY_BLOB structure pointer [Security], _BCRYPT_DSA_KEY_BLOB, bcrypt/BCRYPT_DSA_KEY_BLOB, bcrypt/PBCRYPT_DSA_KEY_BLOB, security.bcrypt_dsa_key_blob"
 ms.prod: windows
 ms.technology: windows-sdk

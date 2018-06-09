@@ -7,7 +7,7 @@ old-location: security\pfncfilterproc.htm
 old-project: SecCrypto
 ms.assetid: ced0f35c-7e22-4d19-8352-0bfa37ff1a4b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -85,9 +85,9 @@ Zero-based index of the tab that gets the focus.
 
 
 
-If the tab control has the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style (button mode), the tab with the focus may be different from the selected tab. For example, when a tab is selected, the user can press the arrow keys to set the focus to a different tab without changing the selected tab. In button mode, the <b>TabCtrl_SetCurFocus</b> macro sets the input focus to the button associated with the specified tab, but it does not change the selected tab. 
+If the tab control has the <a href="https://www.bing.com/search?q=TCS_BUTTONS">TCS_BUTTONS</a> style (button mode), the tab with the focus may be different from the selected tab. For example, when a tab is selected, the user can press the arrow keys to set the focus to a different tab without changing the selected tab. In button mode, the <b>TabCtrl_SetCurFocus</b> macro sets the input focus to the button associated with the specified tab, but it does not change the selected tab. 
 
-If the tab control does not have the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style, changing the focus also changes the selected tab. In this case, the tab control sends the <a href="https://msdn.microsoft.com/ec7b1bd3-8932-4418-9eed-ecb7c748e4dd">TCN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/f40e30f6-169b-4381-a300-12c3befb5fc5">TCN_SELCHANGE</a> notification codes to its parent window. 
+If the tab control does not have the <a href="https://www.bing.com/search?q=TCS_BUTTONS">TCS_BUTTONS</a> style, changing the focus also changes the selected tab. In this case, the tab control sends the <a href="https://msdn.microsoft.com/ec7b1bd3-8932-4418-9eed-ecb7c748e4dd">TCN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/f40e30f6-169b-4381-a300-12c3befb5fc5">TCN_SELCHANGE</a> notification codes to its parent window. 
 
 
 

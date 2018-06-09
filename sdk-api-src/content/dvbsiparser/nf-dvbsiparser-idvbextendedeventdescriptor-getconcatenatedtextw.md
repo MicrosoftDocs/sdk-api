@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor_getconcatenatedtextw.htm
 old-project: mstv
 ms.assetid: d8cbfe2c-db33-449d-991c-5fb50d8d974f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetConcatenatedTextW, GetConcatenatedTextW method [Microsoft TV Technologies], GetConcatenatedTextW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetConcatenatedTextW method, IDvbExtendedEventDescriptor.GetConcatenatedTextW, IDvbExtendedEventDescriptor::GetConcatenatedTextW, dvbsiparser/IDvbExtendedEventDescriptor::GetConcatenatedTextW, mstv.idvbextendedeventdescriptor_getconcatenatedtextw
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\cryptverifymessagehash.htm
 old-project: SecCrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -187,7 +187,7 @@ If the buffer specified by the <i>pbToBeHashed</i> parameter is not large enough
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
  
 
  

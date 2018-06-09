@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_insertvideoeffect.htm
 old-project: medfound
 ms.assetid: 7F59BE62-D3F1-4C5A-94FD-F864342797BF
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertVideoEffect method, IMFMediaEngineEx.InsertVideoEffect, IMFMediaEngineEx::InsertVideoEffect, InsertVideoEffect, InsertVideoEffect method [Media Foundation], InsertVideoEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertvideoeffect, mfmediaengine/IMFMediaEngineEx::InsertVideoEffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

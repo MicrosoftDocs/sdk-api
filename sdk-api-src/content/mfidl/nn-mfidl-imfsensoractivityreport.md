@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport.htm
 old-project: medfound
 ms.assetid: 06612B8E-5C1E-487C-B6EF-15F65DEA27D0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFSensorActivityReport, IMFSensorActivityReport interface [Media Foundation], IMFSensorActivityReport interface [Media Foundation],described, mf.imfsensoractivityreport, mfidl/IMFSensorActivityReport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,33 +71,6 @@ The <b>IMFSensorActivityReport</b> interface has these methods.
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6E8D7039-9CBF-45A0-8CAE-48F79091D40B">GetActivityReport</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IMFSensorActivityReport</b> based on the specified index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66FDBCE0-E3F3-43A4-B34A-7FE6C7F3F918">GetActivityReportByDeviceName</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IMFSensorActivityReport</b> based on the specified device name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the count of <b>IMFSensorActivityReport</b> objects that are available to be retrieved.
-
-</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">

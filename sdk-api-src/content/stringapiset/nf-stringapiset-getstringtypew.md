@@ -7,7 +7,7 @@ old-location: intl\getstringtypew.htm
 old-project: Intl
 ms.assetid: 092541ea-e568-4aa3-b99e-ce0bac9c120b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: CT_CTYPE1, CT_CTYPE2, CT_CTYPE3, GetStringTypeW, GetStringTypeW function [Internationalization for Windows Applications], _win32_GetStringTypeW, _win32_GetStringTypeW_cpp, intl.getstringtypew, stringapiset/GetStringTypeW, winui._win32_GetStringTypeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="sec_winui">Security Considerations: Windows User Interface</a>.</div>
+Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://www.bing.com/search?q=Security+Considerations:+Windows+User+Interface">Security Considerations: Windows User Interface</a>.</div>
 <div> </div>
 
 

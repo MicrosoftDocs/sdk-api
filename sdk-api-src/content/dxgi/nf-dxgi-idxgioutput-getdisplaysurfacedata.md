@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getdisplaysurfacedata.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdisplaysurfacedata.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 3af8da91-79a3-e6f5-520c-cc42b8e3e866, GetDisplaySurfaceData, GetDisplaySurfaceData method [DXGI], GetDisplaySurfaceData method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDisplaySurfaceData method, IDXGIOutput.GetDisplaySurfaceData, IDXGIOutput::GetDisplaySurfaceData, direct3ddxgi.idxgioutput_getdisplaysurfacedata, dxgi/IDXGIOutput::GetDisplaySurfaceData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ A pointer to a destination surface (see <a href="https://msdn.microsoft.com/9210
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 

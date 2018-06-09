@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_top.htm
 old-project: tablet
 ms.assetid: 718263ae-d6ba-47ec-a18b-50488480b599
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 718263ae-d6ba-47ec-a18b-50488480b599, Get_Top, IPenInputPanel interface [Tablet PC],Top property, IPenInputPanel.Top, IPenInputPanel.get_Top, IPenInputPanel::Top, IPenInputPanel::get_Top, PenInputPanel.get_Top, Top property [Tablet PC], Top property [Tablet PC],IPenInputPanel interface, get_Top, peninputpanel/IPenInputPanel::Top, peninputpanel/IPenInputPanel::get_Top, tablet.peninputpanel_top
 ms.prod: windows
 ms.technology: windows-sdk

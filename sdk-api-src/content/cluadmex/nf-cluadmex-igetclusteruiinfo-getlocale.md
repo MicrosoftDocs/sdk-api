@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_getlocale.htm
 old-project: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: GetLocale, GetLocale method [Failover Cluster], GetLocale method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetLocale method, IGetClusterUIInfo.GetLocale, IGetClusterUIInfo::GetLocale, _wolf_igetclusteruiinfo_getlocale, cluadmex/IGetClusterUIInfo::GetLocale, mscs.igetclusteruiinfo_getlocale
 ms.prod: windows
 ms.technology: windows-sdk

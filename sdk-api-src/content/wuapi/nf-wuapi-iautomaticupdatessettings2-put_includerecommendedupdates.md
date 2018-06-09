@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm
 old-project: Wua_Sdk
 ms.assetid: 502b0490-8834-496a-8691-d9325ad86799
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdatesSettings2 interface [Windows Update Agent],IncludeRecommendedUpdates property, IAutomaticUpdatesSettings2.IncludeRecommendedUpdates, IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates, IncludeRecommendedUpdates property [Windows Update Agent], IncludeRecommendedUpdates property [Windows Update Agent],IAutomaticUpdatesSettings2 interface, put_IncludeRecommendedUpdates, wua.iautomaticupdatessettings2_includerecommendedupdates, wuapi/IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
 ms.prod: windows
 ms.technology: windows-sdk

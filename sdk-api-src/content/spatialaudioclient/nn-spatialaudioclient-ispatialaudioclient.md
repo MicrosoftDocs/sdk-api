@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient.htm
 old-project: CoreAudio
 ms.assetid: 950778D4-79FE-4222-951F-5A456A633124
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], ISpatialAudioClient interface [Core Audio],described, coreaudio.ispatialaudioclient, spatialaudioclient/ISpatialAudioClient
 ms.prod: windows
 ms.technology: windows-sdk

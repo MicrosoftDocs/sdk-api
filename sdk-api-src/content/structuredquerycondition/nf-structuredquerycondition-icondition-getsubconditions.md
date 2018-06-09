@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_GetSubConditions.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getsubconditions.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetSubConditions, GetSubConditions method [search], GetSubConditions method [search],ICondition interface, ICondition interface [search],GetSubConditions method, ICondition.GetSubConditions, ICondition::GetSubConditions, _search_ICondition_GetSubConditions, search._search_ICondition_GetSubConditions, structuredquerycondition/ICondition::GetSubConditions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Returns S_OK if successful, E_FAIL if this is a leaf node, or an error value oth
 
 
 
-The <i>riid</i> parameter must be the <b>GUID</b> of an <a href="_com_IEnumUnknown">IEnumUnknown</a> or <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface or in the case of a negation node, IID_ICondition.
+The <i>riid</i> parameter must be the <b>GUID</b> of an <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a> or <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface or in the case of a negation node, IID_ICondition.
 
 If the subcondition is a negation node, <i>ppv</i> is set to an enumeration of one element.
 

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager_uninitialize.htm
 old-project: TermServ
 ms.assetid: 1d7bc6e3-798e-4dc8-8892-7be6992b67ab
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Uninitialize method, IWRdsProtocolManager.Uninitialize, IWRdsProtocolManager::Uninitialize, Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
 ms.prod: windows
 ms.technology: windows-sdk

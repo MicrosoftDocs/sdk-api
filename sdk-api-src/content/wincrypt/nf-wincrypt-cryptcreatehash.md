@@ -7,7 +7,7 @@ old-location: security\cryptcreatehash.htm
 old-project: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -351,7 +351,7 @@ if(hCryptProv)
 
 
 
-<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
+<a href="https://www.bing.com/search?q=Hash+and+Digital+Signature+Functions">Hash and Digital Signature Functions</a>
  
 
  

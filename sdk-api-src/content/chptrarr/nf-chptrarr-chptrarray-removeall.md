@@ -7,7 +7,7 @@ old-location: wmi\chptrarray_removeall.htm
 old-project: WmiSdk
 ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
 ms.prod: windows
 ms.technology: windows-sdk

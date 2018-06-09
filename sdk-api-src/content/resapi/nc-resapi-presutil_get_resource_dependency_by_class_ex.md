@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependencybyclassex.htm
 old-project: MsCS
 ms.assetid: D35816C8-A449-41FF-9398-A6A4E19C29FB
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX callback function [Failover Cluster], mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX
 ms.prod: windows
 ms.technology: windows-sdk

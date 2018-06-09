@@ -7,7 +7,7 @@ old-location: wua\iupdate3.htm
 old-project: Wua_Sdk
 ms.assetid: 61b06451-0252-4dbe-8a19-e7260620377d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdate3, IUpdate3 interface [Windows Update Agent], IUpdate3 interface [Windows Update Agent],described, wua.iupdate3, wuapi/IUpdate3
 ms.prod: windows
 ms.technology: windows-sdk

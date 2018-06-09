@@ -7,7 +7,7 @@ old-location: security\certclosestore.htm
 old-project: SecCrypto
 ms.assetid: a93fdd65-359e-4046-910d-347c3af01280
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertCloseStore, CertCloseStore function [Security], _crypto2_certclosestore, security.certclosestore, wincrypt/CertCloseStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,7 +169,7 @@ If CERT_STORE_NO_CRYPT_RELEASE_FLAG was not set when the store was opened, closi
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
 
 
 

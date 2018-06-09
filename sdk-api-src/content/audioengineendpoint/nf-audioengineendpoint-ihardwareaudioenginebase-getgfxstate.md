@@ -7,7 +7,7 @@ old-location: coreaudio\ihardwareaudioenginebase_getgfxstate.htm
 old-project: CoreAudio
 ms.assetid: 519D3BF1-B5C3-469A-A188-7D741E288337
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetGfxState, GetGfxState method [Core Audio], GetGfxState method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetGfxState method, IHardwareAudioEngineBase.GetGfxState, IHardwareAudioEngineBase::GetGfxState, audioengineendpoint/IHardwareAudioEngineBase::GetGfxState, coreaudio.ihardwareaudioenginebase_getgfxstate
 ms.prod: windows
 ms.technology: windows-sdk

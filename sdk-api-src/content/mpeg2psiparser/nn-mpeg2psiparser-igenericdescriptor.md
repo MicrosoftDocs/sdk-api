@@ -7,7 +7,7 @@ old-location: mstv\igenericdescriptor.htm
 old-project: mstv
 ms.assetid: efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

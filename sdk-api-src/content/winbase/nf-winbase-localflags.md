@@ -7,7 +7,7 @@ old-location: base\localflags.htm
 old-project: Memory
 ms.assetid: 4804c8c3-6c0b-4f62-87ab-f64b23fff8b9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: LocalFlags, LocalFlags function, _win32_localflags, base.localflags, winbase/LocalFlags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getstring.htm
 old-project: WinRT
 ms.assetid: 35b79dac-39c7-4ca2-8608-e7ea64d4574c
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetString method, IMetaDataTables.GetString, IMetaDataTables::GetString, rometadataapi/IMetaDataTables::GetString, winrt.imetadatatables_getstring
 ms.prod: windows
 ms.technology: windows-sdk

@@ -86,12 +86,12 @@ The windows that are part of the clipboard viewer chain, called clipboard viewer
 
 A clipboard viewer window must eventually remove itself from the clipboard viewer chain by calling the <a href="https://msdn.microsoft.com/438ff6b4-6b45-4163-87bc-2f354c73fced">ChangeClipboardChain</a> function — for example, in response to the <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message.
 
-The <b>SetClipboardViewer</b> function exists to provide backward compatibility with earlier versions of Windows. The clipboard viewer chain can be broken by an application that fails to handle the clipboard chain messages properly. New applications should use more robust techniques such as the clipboard sequence number or the registration of a clipboard format listener. For further details on these alternatives techniques, see <a href="using_the_clipboard.htm">Monitoring Clipboard Contents</a>.
+The <b>SetClipboardViewer</b> function exists to provide backward compatibility with earlier versions of Windows. The clipboard viewer chain can be broken by an application that fails to handle the clipboard chain messages properly. New applications should use more robust techniques such as the clipboard sequence number or the registration of a clipboard format listener. For further details on these alternatives techniques, see <a href="https://www.bing.com/search?q=Monitoring+Clipboard+Contents">Monitoring Clipboard Contents</a>.
 
 
 #### Examples
 
-For an example, see <a href="using_the_clipboard.htm">Adding a Window to the Clipboard Viewer Chain</a>.
+For an example, see <a href="https://www.bing.com/search?q=Adding+a+Window+to+the+Clipboard+Viewer+Chain">Adding a Window to the Clipboard Viewer Chain</a>.
 
 <div class="code"></div>
 

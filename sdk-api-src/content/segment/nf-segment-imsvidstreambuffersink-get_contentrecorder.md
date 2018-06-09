@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink_get_contentrecorder.htm
 old-project: mstv
 ms.assetid: 9fecdf37-0ad2-499b-8604-5e60bb0aa6e2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ContentRecorder method, IMSVidStreamBufferSink.get_ContentRecorder, IMSVidStreamBufferSink::get_ContentRecorder, IMSVidStreamBufferSinkget_ContentRecorder, get_ContentRecorder, get_ContentRecorder method [Microsoft TV Technologies], get_ContentRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_contentrecorder, segment/IMSVidStreamBufferSink::get_ContentRecorder
 ms.prod: windows
 ms.technology: windows-sdk

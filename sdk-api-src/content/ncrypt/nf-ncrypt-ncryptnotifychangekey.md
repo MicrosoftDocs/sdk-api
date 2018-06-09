@@ -7,7 +7,7 @@ old-location: security\ncryptnotifychangekey.htm
 old-project: SecCNG
 ms.assetid: 2d2ddb55-ef32-4227-b901-ee11e961d0e6
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
 ms.prod: windows
 ms.technology: windows-sdk

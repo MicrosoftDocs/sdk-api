@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent_getrequiredprotections.htm
 old-project: medfound
 ms.assetid: 4D67813D-F222-4EB1-B059-6DB5EC642DA2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetRequiredProtections, GetRequiredProtections method [Media Foundation], GetRequiredProtections method [Media Foundation],IMFMediaEngineProtectedContent interface, IMFMediaEngineProtectedContent interface [Media Foundation],GetRequiredProtections method, IMFMediaEngineProtectedContent.GetRequiredProtections, IMFMediaEngineProtectedContent::GetRequiredProtections, mf.imfmediaengineprotectedcontent_getrequiredprotections, mfmediaengine/IMFMediaEngineProtectedContent::GetRequiredProtections
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

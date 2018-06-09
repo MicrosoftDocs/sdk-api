@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice2.htm
 old-project: mstv
 ms.assetid: cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], IMSVidDevice2 interface [Microsoft TV Technologies],described, IMSVidDevice2Interface, mstv.imsviddevice2, segment/IMSVidDevice2
 ms.prod: windows
 ms.technology: windows-sdk

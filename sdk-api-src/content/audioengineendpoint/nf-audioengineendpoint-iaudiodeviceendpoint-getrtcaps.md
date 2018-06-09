@@ -7,7 +7,7 @@ old-location: termserv\iaudiodeviceendpoint_getrtcaps.htm
 old-project: TermServ
 ms.assetid: ba8aa8c2-8d62-477a-b5c0-338c989c57a6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetRTCaps, GetRTCaps method [Remote Desktop Services], GetRTCaps method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetRTCaps method, IAudioDeviceEndpoint.GetRTCaps, IAudioDeviceEndpoint::GetRTCaps, audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps, termserv.iaudiodeviceendpoint_getrtcaps
 ms.prod: windows
 ms.technology: windows-sdk

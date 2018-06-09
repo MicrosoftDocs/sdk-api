@@ -7,7 +7,7 @@ old-location: multimedia\timegettime.htm
 old-project: Multimedia
 ms.assetid: f9d3a7a9-1457-4993-92f1-f888780a565e
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: "_win32_timeGetTime, mmsystem/timeGetTime, multimedia.timegettime, timeGetTime, timeGetTime function [Windows Multimedia], timeapi/timeGetTime"
 ms.prod: windows
 ms.technology: windows-sdk

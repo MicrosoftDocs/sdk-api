@@ -7,7 +7,7 @@ old-location: security\ncryptgetproperty_func.htm
 old-project: SecCNG
 ms.assetid: 7b857ce0-8525-489b-9987-ef40081a5577
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptGetProperty, NCryptGetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptGetProperty, security.ncryptgetproperty_func
 ms.prod: windows
 ms.technology: windows-sdk

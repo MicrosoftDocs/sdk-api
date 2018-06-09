@@ -7,7 +7,7 @@ old-location: security\tokenbindinggetkeytypesclient.htm
 old-project: SecCNG
 ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
 ms.prod: windows
 ms.technology: windows-sdk

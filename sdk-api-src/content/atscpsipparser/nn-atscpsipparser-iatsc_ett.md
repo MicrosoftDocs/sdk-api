@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett.htm
 old-project: mstv
 ms.assetid: ae52e81e-4de1-480c-82bf-c9629064970c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], IATSC_ETT interface [Microsoft TV Technologies],described, IATSC_ETTInterface, atscpsipparser/IATSC_ETT, mstv.iatsc_ett
 ms.prod: windows
 ms.technology: windows-sdk

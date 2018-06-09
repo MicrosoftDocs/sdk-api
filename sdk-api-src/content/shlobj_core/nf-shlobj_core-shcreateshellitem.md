@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellItem.htm
 old-project: shell
 ms.assetid: d4371cdf-a8f4-4a39-ba66-97fd40ed46ae
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHCreateShellItem, SHCreateShellItem function [Windows Shell], _win32_SHCreateShellItem, shell.SHCreateShellItem, shlobj_core/SHCreateShellItem
 ms.prod: windows
 ms.technology: windows-sdk

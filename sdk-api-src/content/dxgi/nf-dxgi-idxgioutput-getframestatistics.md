@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getframestatistics.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getframestatistics.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 2986a9cc-4b09-8622-8d30-17f06409df3a, GetFrameStatistics, GetFrameStatistics method [DXGI], GetFrameStatistics method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetFrameStatistics method, IDXGIOutput.GetFrameStatistics, IDXGIOutput::GetFrameStatistics, direct3ddxgi.idxgioutput_getframestatistics, dxgi/IDXGIOutput::GetFrameStatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A pointer to frame statistics (see <a href="https://msdn.microsoft.com/183232b9-
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. Otherwise, it might return <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>.
 

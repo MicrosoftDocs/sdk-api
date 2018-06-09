@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter_checkinterfacesupport.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_checkinterfacesupport.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 5922d4df-f6ec-4fce-1a94-3779ba7e2830, CheckInterfaceSupport, CheckInterfaceSupport method [DXGI], CheckInterfaceSupport method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],CheckInterfaceSupport method, IDXGIAdapter.CheckInterfaceSupport, IDXGIAdapter::CheckInterfaceSupport, direct3ddxgi.idxgiadapter_checkinterfacesupport, dxgi/IDXGIAdapter::CheckInterfaceSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The user mode driver version of <i>InterfaceName</i>. This is  returned only if 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 S_OK indicates that the interface is supported, otherwise DXGI_ERROR_UNSUPPORTED is returned (For more information, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>).
 

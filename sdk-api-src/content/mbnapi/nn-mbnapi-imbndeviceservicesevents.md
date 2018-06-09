@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents.htm
 old-project: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesevents, mbnapi/IMbnDeviceServicesEvents
 ms.prod: windows
 ms.technology: windows-sdk

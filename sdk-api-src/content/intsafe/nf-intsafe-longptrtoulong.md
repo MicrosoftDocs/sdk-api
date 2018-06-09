@@ -7,7 +7,7 @@ old-location: shell\LongPtrToULong.htm
 old-project: shell
 ms.assetid: fa263baa-e254-4ef4-8537-5722f6925da6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: LongPtrToDWord, LongPtrToULong, LongPtrToULong function [Windows Shell], SSIZETToDWord, SSIZETToUIntPtr, SSIZETToULong, _shell_LongPtrToULong, intsafe/LongPtrToULong, shell.LongPtrToULong
 ms.prod: windows
 ms.technology: windows-sdk

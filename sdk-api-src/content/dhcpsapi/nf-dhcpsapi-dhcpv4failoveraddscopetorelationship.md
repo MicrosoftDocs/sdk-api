@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failoveraddscopetorelationship.htm
 old-project: DHCP
 ms.assetid: fc54b3dc-86b3-4a18-b05f-7152097f8d5b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4FailoverAddScopeToRelationship, DhcpV4FailoverAddScopeToRelationship function [DHCP], dhcp.dhcpv4failoveraddscopetorelationship, dhcpsapi/DhcpV4FailoverAddScopeToRelationship
 ms.prod: windows
 ms.technology: windows-sdk

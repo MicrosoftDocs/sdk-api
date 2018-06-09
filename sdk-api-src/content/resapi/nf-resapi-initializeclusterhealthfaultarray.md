@@ -7,7 +7,7 @@ old-location: mscs\initializeclusterhealthfaultarray.htm
 old-project: MsCS
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: InitializeClusterHealthFaultArray, InitializeClusterHealthFaultArray function [Failover Cluster], mscs.initializeclusterhealthfaultarray, resapi/InitializeClusterHealthFaultArray
 ms.prod: windows
 ms.technology: windows-sdk

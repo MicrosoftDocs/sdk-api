@@ -60,12 +60,12 @@ req.product: GDI+ 1.1
 
 ### -param wParam [in]
 
-The WPARAM of the key event. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
+The WPARAM of the key event. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://www.bing.com/search?q=WM_KEYUP">WM_KEYUP</a>.
 
 
 ### -param lParam [in]
 
-The LPARAM of the key event. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
+The LPARAM of the key event. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://www.bing.com/search?q=WM_KEYUP">WM_KEYUP</a>.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="_win32_wm_keyup">WM_KEYUP</a>
+<a href="https://www.bing.com/search?q=WM_KEYUP">WM_KEYUP</a>
  
 
  

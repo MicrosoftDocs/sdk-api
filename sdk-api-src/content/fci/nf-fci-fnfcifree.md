@@ -7,7 +7,7 @@ old-location: winprog\fnfcifree.htm
 old-project: DevNotes
 ms.assetid: 48f052e2-7786-430a-b3dc-afcfdffae387
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: FNFCIFREE, FNFCIFREE macro [Windows API], fci/FNFCIFREE, winprog.fnfcifree
 ms.prod: windows
 ms.technology: windows-sdk

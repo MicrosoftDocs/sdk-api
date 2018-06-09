@@ -7,7 +7,7 @@ old-location: mbn\imbnradio.htm
 old-project: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
 ms.prod: windows
 ms.technology: windows-sdk

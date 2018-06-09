@@ -7,7 +7,7 @@ old-location: mscs\resutilfindszproperty.htm
 old-project: MsCS
 ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY callback, PRESUTIL_FIND_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

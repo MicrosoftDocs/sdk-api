@@ -7,7 +7,7 @@ old-location: mstv\iisdbterrestrialdeliverysystemdescriptor.htm
 old-project: mstv
 ms.assetid: 32bde3dd-05e0-466b-9f04-4b55b0d7f374
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor, mstv.iisdbterrestrialdeliverysystemdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

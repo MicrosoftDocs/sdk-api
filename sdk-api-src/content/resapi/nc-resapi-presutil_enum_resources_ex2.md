@@ -7,7 +7,7 @@ old-location: mscs\resutilenumresourcesex2.htm
 old-project: MsCS
 ms.assetid: F178850C-D68A-4A51-A830-F12E023352B4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX2, PRESUTIL_ENUM_RESOURCES_EX2 callback, PRESUTIL_ENUM_RESOURCES_EX2 callback function [Failover Cluster], mscs.resutilenumresourcesex2, resapi/PRESUTIL_ENUM_RESOURCES_EX2
 ms.prod: windows
 ms.technology: windows-sdk

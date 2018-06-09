@@ -7,7 +7,7 @@ old-location: ics\inetfwservicerestriction.htm
 old-project: ICS
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>INetFwServiceRestriction</b> interface provides access to the Windows Ser
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwServiceRestriction</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>INetFwServiceRestriction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -133,11 +133,11 @@ When adding rules, note that there may be a small time lag before the newly-adde
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
 
 
 
-<a href="_com_iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletuningspace.htm
 old-project: mstv
 ms.assetid: a0788405-5502-4d6a-8f94-9957859ac1af
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], IDigitalCableTuningSpace interface [Microsoft TV Technologies],described, IDigitalCableTuningSpaceInterface, mstv.idigitalcabletuningspace, tuner/IDigitalCableTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomstoryfragmentsresource.htm
 old-project: printdocs
 ms.assetid: 83bc8017-c679-40a8-96a8-bff9aa2273af
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin_receivemultiple.htm
 old-project: DirectShow
 ms.assetid: cf90a6e8-0758-4cee-887d-3ac9f7aa764d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMemInputPin interface [DirectShow],ReceiveMultiple method, IMemInputPin.ReceiveMultiple, IMemInputPin::ReceiveMultiple, IMemInputPinReceiveMultiple, ReceiveMultiple, ReceiveMultiple method [DirectShow], ReceiveMultiple method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receivemultiple, strmif/IMemInputPin::ReceiveMultiple
 ms.prod: windows
 ms.technology: windows-sdk

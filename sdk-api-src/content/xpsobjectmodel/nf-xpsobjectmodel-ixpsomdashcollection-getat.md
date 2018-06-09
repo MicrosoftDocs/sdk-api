@@ -7,7 +7,7 @@ old-location: xps\ixpsomdashcollection_getat.htm
 old-project: printdocs
 ms.assetid: 70749e4c-1f67-41e8-9def-85d38493c099
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDashCollection.GetAt, IXpsOMDashCollection::GetAt, xps.ixpsomdashcollection_getat, xpsobjectmodel/IXpsOMDashCollection::GetAt
 ms.prod: windows
 ms.technology: windows-sdk

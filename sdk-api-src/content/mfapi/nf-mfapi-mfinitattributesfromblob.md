@@ -7,7 +7,7 @@ old-location: mf\mfinitattributesfromblob.htm
 old-project: medfound
 ms.assetid: da0f01a3-ed47-42a1-b4af-5f3cbc9271a3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFInitAttributesFromBlob, MFInitAttributesFromBlob function [Media Foundation], da0f01a3-ed47-42a1-b4af-5f3cbc9271a3, mf.mfinitattributesfromblob, mfapi/MFInitAttributesFromBlob
 ms.prod: windows
 ms.technology: windows-sdk

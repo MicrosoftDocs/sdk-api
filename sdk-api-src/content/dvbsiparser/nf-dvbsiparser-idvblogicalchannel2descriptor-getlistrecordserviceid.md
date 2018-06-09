@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor_getlistrecordserviceid.htm
 old-project: mstv
 ms.assetid: ebd81791-558d-4380-af4c-d8380f404771
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetListRecordServiceId, GetListRecordServiceId method [Microsoft TV Technologies], GetListRecordServiceId method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordServiceId method, IDvbLogicalChannel2Descriptor.GetListRecordServiceId, IDvbLogicalChannel2Descriptor::GetListRecordServiceId, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordServiceId, mstv.idvblogicalchannel2descriptor_getlistrecordserviceid
 ms.prod: windows
 ms.technology: windows-sdk

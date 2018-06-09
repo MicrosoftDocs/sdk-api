@@ -7,7 +7,7 @@ old-location: security\bcryptderivekeypbkdf2.htm
 old-project: SecCNG
 ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
 ms.prod: windows
 ms.technology: windows-sdk

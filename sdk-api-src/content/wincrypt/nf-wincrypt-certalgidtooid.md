@@ -7,7 +7,7 @@ old-location: security\certalgidtooid.htm
 old-project: SecCrypto
 ms.assetid: 2a66c6da-22dd-4192-9f3d-2fb85f8032e0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertAlgIdToOID, CertAlgIdToOID function [Security], _crypto2_certalgidtooid, security.certalgidtooid, wincrypt/CertAlgIdToOID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ If no OID string corresponds to the algorithm identifier, the function returns <
 
 
 
-<a href="cryptography_functions.htm">Data Conversion Functions</a>
+<a href="https://www.bing.com/search?q=Data+Conversion+Functions">Data Conversion Functions</a>
  
 
  

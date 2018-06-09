@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_releasefocus.htm
 old-project: DirectShow
 ms.assetid: dfc1b178-eb81-488b-8a4a-f1a454b3d5f4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IResourceManager interface [DirectShow],ReleaseFocus method, IResourceManager.ReleaseFocus, IResourceManager::ReleaseFocus, IResourceManagerReleaseFocus, ReleaseFocus, ReleaseFocus method [DirectShow], ReleaseFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_releasefocus, strmif/IResourceManager::ReleaseFocus
 ms.prod: windows
 ms.technology: windows-sdk

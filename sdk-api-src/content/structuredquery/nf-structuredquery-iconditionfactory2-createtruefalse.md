@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateTrueFalse method, IConditionFactory2.CreateTrueFalse, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The condition creation operation of the leaf condition as the <a href="https://m
 
 Type: <b>REFIID</b>
 
-The desired IID of the enumerating interface: either <a href="_com_IEnumUnknown">IEnumUnknown</a>, <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
+The desired IID of the enumerating interface: either <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
 
 
 ### -param ppv [out]

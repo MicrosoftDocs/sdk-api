@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice4_offerresources1.htm
 old-project: direct3ddxgi
 ms.assetid: 7F6782F3-7779-4DBD-AD5A-AE0FB136FC70
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],OfferResources1 method, IDXGIDevice4.OfferResources1, IDXGIDevice4::OfferResources1, OfferResources1, OfferResources1 method [DXGI], OfferResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_offerresources1, dxgi1_5/IDXGIDevice4::OfferResources1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Specifies the <a href="https://msdn.microsoft.com/55107136-60C0-49E9-8DD1-24878E
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, which can include E_INVALIDARG if a resource in the array, or the priority, is invalid.
 

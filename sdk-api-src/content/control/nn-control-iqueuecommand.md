@@ -7,7 +7,7 @@ old-location: dshow\iqueuecommand.htm
 old-project: DirectShow
 ms.assetid: 08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand interface [DirectShow],described, IQueueCommandInterface, control/IQueueCommand, dshow.iqueuecommand
 ms.prod: windows
 ms.technology: windows-sdk

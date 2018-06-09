@@ -7,7 +7,7 @@ old-location: mscs\openclusterex.htm
 old-project: MsCS
 ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX callback, PCLUSAPI_OPEN_CLUSTER_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
 ms.prod: windows
 ms.technology: windows-sdk

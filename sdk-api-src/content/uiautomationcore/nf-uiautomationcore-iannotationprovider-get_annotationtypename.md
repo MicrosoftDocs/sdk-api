@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAnnotationProvider_AnnotationTypeName.htm
 old-project: WinAuto
 ms.assetid: A13E694C-FFAE-4A9C-BEB4-5D38C7DCBB42
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: AnnotationTypeName property [Windows Accessibility], AnnotationTypeName property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],AnnotationTypeName property, IAnnotationProvider.AnnotationTypeName, IAnnotationProvider.get_AnnotationTypeName, IAnnotationProvider::AnnotationTypeName, IAnnotationProvider::get_AnnotationTypeName, get_AnnotationTypeName, uiautomationcore/IAnnotationProvider::AnnotationTypeName, uiautomationcore/IAnnotationProvider::get_AnnotationTypeName, winauto.uiauto_IAnnotationProvider_AnnotationTypeName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="uiauto_annotation_type_identifiers.htm">AnnotationType_Comment</a>), but it is not required to.
+The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-annotation-type-identifiers">AnnotationType_Comment</a>), but it is not required to.
 
 
 

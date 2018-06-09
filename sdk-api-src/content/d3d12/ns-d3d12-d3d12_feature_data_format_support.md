@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_format_support.htm
 old-project: direct3d12
 ms.assetid: 6E4EB08F-0B60-4B1E-AD27-8F0AE2BD0766
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_SUPPORT, D3D12_FEATURE_DATA_FORMAT_SUPPORT structure, d3d12/D3D12_FEATURE_DATA_FORMAT_SUPPORT, direct3d12.d3d12_feature_data_format_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="https://www.bing.com/search?q=Hardware+Support+for+Direct3D+10Level9+Formats">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>

@@ -7,7 +7,7 @@ old-location: mstv\ituner_validate.htm
 old-project: mstv
 ms.assetid: 10b238b1-1c71-4104-8c2d-f8446f0a3466
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],Validate method, ITuner.Validate, ITuner::Validate, ITunerValidate, Validate, Validate method [Microsoft TV Technologies], Validate method [Microsoft TV Technologies],ITuner interface, mstv.ituner_validate, tuner/ITuner::Validate
 ms.prod: windows
 ms.technology: windows-sdk

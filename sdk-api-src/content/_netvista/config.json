@@ -10,6 +10,7 @@
     "ws2ipdef.h",
     "nldef.h",
     "ws2def.h",
+    "ntddndis.h",
     "in6addr.h",
     "fwpstypes.h",
     "l2cmn.h",

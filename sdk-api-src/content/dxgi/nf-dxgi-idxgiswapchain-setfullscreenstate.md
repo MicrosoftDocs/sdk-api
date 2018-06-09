@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_setfullscreenstate.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_setfullscreenstate.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGISwapChain interface [DXGI],SetFullscreenState method, IDXGISwapChain.SetFullscreenState, IDXGISwapChain::SetFullscreenState, SetFullscreenState, SetFullscreenState method [DXGI], SetFullscreenState method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_setfullscreenstate, dxgi/IDXGISwapChain::SetFullscreenState, f276366b-1618-a552-fa8f-29c081ebbe6d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ If you pass <b>TRUE</b> to the <i>Fullscreen</i> parameter to set the display st
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This methods returns:
         
@@ -112,7 +112,7 @@ DXGI may change the display state of a swap chain in response to end user or sys
 We recommend that you create a windowed swap chain and allow the end user to change the swap chain to full screen through <b>SetFullscreenState</b>; that is, do not set the <b>Windowed</b> member of <a href="https://msdn.microsoft.com/819d4ff3-f717-46ab-a626-cff065681c79">DXGI_SWAP_CHAIN_DESC</a> to FALSE to force the swap chain to be full screen. However, if you create the swap chain as full screen, also provide the end user with a list of supported display modes because a swap chain that is created with an unsupported display mode might cause the display to go black and prevent the end user from seeing anything. Also, we recommend that you have a time-out confirmation screen or other fallback mechanism when you allow the end user to change display modes.
 
 <h3><a id="Notes_for_Windows_Store_apps"></a><a id="notes_for_windows_store_apps"></a><a id="NOTES_FOR_WINDOWS_STORE_APPS"></a>Notes for Windows Store apps</h3>
-If a Windows Store app calls <b>SetFullscreenState</b> to set the display state to full screen, <b>SetFullscreenState</b> fails with <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
+If a Windows Store app calls <b>SetFullscreenState</b> to set the display state to full screen, <b>SetFullscreenState</b> fails with <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
 
 You cannot call <b>SetFullscreenState</b> on a swap chain that you created with <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>.
 

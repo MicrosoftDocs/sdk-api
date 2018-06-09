@@ -2,12 +2,12 @@
 UID: NA:lmserver
 ms.assetid: 8932f934-395f-38b5-9dd6-a70cd12dccc6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: base
+tech.root: netmgmt
 ---
 
 # Lmserver.h header

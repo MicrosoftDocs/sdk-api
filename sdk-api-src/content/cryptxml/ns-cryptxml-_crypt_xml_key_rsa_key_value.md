@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_rsa_key_value.htm
 old-project: SecCrypto
 ms.assetid: e2b1344d-c108-4255-bd50-06d742ed67a8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_XML_KEY_RSA_KEY_VALUE, CRYPT_XML_KEY_RSA_KEY_VALUE structure [Security], _CRYPT_XML_KEY_RSA_KEY_VALUE, cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE, security.crypt_xml_key_rsa_key_value
 ms.prod: windows
 ms.technology: windows-sdk

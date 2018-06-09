@@ -7,7 +7,7 @@ old-location: ics\inetfwservices_item.htm
 old-project: ICS
 ms.assetid: a13740cc-7d9a-4c1f-ae18-a31ca4d39b54
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwServices interface [ICS/ICF],Item method, INetFwServices.Item, INetFwServices::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwServices interface, ics.inetfwservices_item, netfw/INetFwServices::Item
 ms.prod: windows
 ms.technology: windows-sdk

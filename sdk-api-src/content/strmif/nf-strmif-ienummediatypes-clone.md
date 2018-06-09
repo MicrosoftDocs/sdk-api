@@ -7,7 +7,7 @@ old-location: dshow\ienummediatypes_clone.htm
 old-project: DirectShow
 ms.assetid: 7a81496d-34e5-43d2-aad9-510ab515adc2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumMediaTypes interface, IEnumMediaTypes interface [DirectShow],Clone method, IEnumMediaTypes.Clone, IEnumMediaTypes::Clone, IEnumMediaTypesClone, dshow.ienummediatypes_clone, strmif/IEnumMediaTypes::Clone
 ms.prod: windows
 ms.technology: windows-sdk

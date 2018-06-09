@@ -7,7 +7,7 @@ old-location: termserv\iaudiooutputendpointrt.htm
 old-project: TermServ
 ms.assetid: b881b2f9-ffe9-46ff-94aa-eef0af172a3e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IAudioOutputEndpointRT, IAudioOutputEndpointRT interface [Remote Desktop Services], IAudioOutputEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioOutputEndpointRT, termserv.iaudiooutputendpointrt
 ms.prod: windows
 ms.technology: windows-sdk

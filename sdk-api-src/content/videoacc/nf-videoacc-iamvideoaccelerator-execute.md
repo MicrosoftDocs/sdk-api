@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_execute.htm
 old-project: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
 ms.prod: windows
 ms.technology: windows-sdk

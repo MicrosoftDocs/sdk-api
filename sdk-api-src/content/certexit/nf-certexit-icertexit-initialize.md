@@ -7,7 +7,7 @@ old-location: security\icertexit2_initialize.htm
 old-project: SecCrypto
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
 ms.prod: windows
 ms.technology: windows-sdk

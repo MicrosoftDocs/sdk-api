@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology.htm
 old-project: CoreAudio
 ms.assetid: 1b509f69-6277-40c0-a293-02afc30d464a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio],described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
 ms.prod: windows
 ms.technology: windows-sdk

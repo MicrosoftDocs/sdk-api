@@ -7,7 +7,7 @@ old-location: security\crypthashsessionkey.htm
 old-project: SecCrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -244,7 +244,7 @@ The function failed in some unexpected way.
 
 
 
-<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
+<a href="https://www.bing.com/search?q=Hash+and+Digital+Signature+Functions">Hash and Digital Signature Functions</a>
  
 
  

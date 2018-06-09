@@ -7,7 +7,7 @@ old-location: mstv\iesevents_oneseventreceived.htm
 old-project: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
 ms.prod: windows
 ms.technology: windows-sdk

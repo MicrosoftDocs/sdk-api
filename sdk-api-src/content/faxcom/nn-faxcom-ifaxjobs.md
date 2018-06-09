@@ -65,7 +65,7 @@ The <b>IFaxJobs</b> interface includes methods that allow a fax client applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxJobs</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxJobs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxJobs</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>IFaxJobs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,15 +109,15 @@ You should not implement this interface. The Microsoft standard implementation p
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Use the <b>IFaxJobs</b> interface to create and retrieve <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface pointers to <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> objects. There is one FaxJob object for each queued job associated with the connected fax server. 
 
-To create an instance of a <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object, perform the following steps. Note that a fax client application should not call the <a href="_com_CoCreateInstance">CoCreateInstance</a> function to retrieve an <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface pointer. 
+To create an instance of a <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object, perform the following steps. Note that a fax client application should not call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve an <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface pointer. 
 				<ol>
-<li>Call the <a href="_com_CoCreateInstance">CoCreateInstance</a> function to retrieve a pointer to an IFaxServer interface.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve a pointer to an IFaxServer interface.</li>
 <li>Call the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method to connect to a fax server.</li>
 <li>Call the <a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">IFaxServer::GetJobs</a> method to create and initialize a <a href="https://msdn.microsoft.com/7a8ad6e7-8db6-49ba-98de-da583907a54e">FaxJobs</a> object for the fax server.</li>
-<li>Call the <a href="https://msdn.microsoft.com/476d4381-30b4-4749-b1ea-fbd28ca8148d">IFaxJobs::get_Count</a> method and then the <a href="https://msdn.microsoft.com/1279c69b-42b0-4ce2-92e1-307d3d7999b4">IFaxJobs::get_Item</a> method to retrieve <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointers for each child <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object.</li>
-<li>Use the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer to call <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface methods. (You can also call the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.)</li>
+<li>Call the <a href="https://msdn.microsoft.com/476d4381-30b4-4749-b1ea-fbd28ca8148d">IFaxJobs::get_Count</a> method and then the <a href="https://msdn.microsoft.com/1279c69b-42b0-4ce2-92e1-307d3d7999b4">IFaxJobs::get_Item</a> method to retrieve <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface pointers for each child <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object.</li>
+<li>Use the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface pointer to call <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface methods. (You can also call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.)</li>
 <li>Call the <a href="https://msdn.microsoft.com/dccbb6b1-b889-4b73-a3d0-9c5ce6268f4a">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
-<li>Call the <a href="_com_IUnknown_Release">IUnknown::Release</a> method for each <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object to allow the object to deallocate itself, and again to destroy the <b>IFaxJobs</b> interface pointer.</li>
+<li>Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method for each <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object to allow the object to deallocate itself, and again to destroy the <b>IFaxJobs</b> interface pointer.</li>
 </ol>
 
 
@@ -137,7 +137,7 @@ To create an instance of a <a href="https://msdn.microsoft.com/4c8376a4-dded-489
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
  
 
  

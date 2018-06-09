@@ -7,7 +7,7 @@ old-location: dshow\vmrvideostreaminfo.htm
 old-project: DirectShow
 ms.assetid: 1425b3aa-f419-49ee-b262-d8d215466a2c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: VMRVIDEOSTREAMINFO, VMRVIDEOSTREAMINFO structure [DirectShow], VMRVIDEOSTREAMINFOStructure, _VMRVIDEOSTREAMINFO, dshow.vmrvideostreaminfo, strmif/VMRVIDEOSTREAMINFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdate.htm
 old-project: Wua_Sdk
 ms.assetid: 4e2eda04-4f86-4919-b754-dba90fa8d5d8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWindowsDriverUpdate, IWindowsDriverUpdate interface [Windows Update Agent], IWindowsDriverUpdate interface [Windows Update Agent],described, wua.iwindowsdriverupdate, wuapi/IWindowsDriverUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Contains the properties and the methods that are available only from a Windows d
 
 
 
-This interface can be obtained by calling the <a href="_com_iunknown_queryinterface">QueryInterface</a> method on an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface only if the interface represents a Windows driver update.
+This interface can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface only if the interface represents a Windows driver update.
 
 
 

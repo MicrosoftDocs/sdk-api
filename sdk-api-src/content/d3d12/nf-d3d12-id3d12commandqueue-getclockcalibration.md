@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_getclockcalibration.htm
 old-project: direct3d12
 ms.assetid: B8E0F8D4-D291-41B5-8E40-0C1FB3DCC253
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetClockCalibration, GetClockCalibration method, GetClockCalibration method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetClockCalibration method, ID3D12CommandQueue.GetClockCalibration, ID3D12CommandQueue::GetClockCalibration, d3d12/ID3D12CommandQueue::GetClockCalibration, direct3d12.id3d12commandqueue_getclockcalibration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The value of the CPU timestamp counter.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setloop.htm
 old-project: medfound
 ms.assetid: 0B8890EA-9207-428B-8EC2-18B51E1D8365
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMediaEngine.SetLoop, IMFMediaEngine::SetLoop, SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

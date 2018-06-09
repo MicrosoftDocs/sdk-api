@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_addrange.htm
 old-project: medfound
 ms.assetid: 6BA36A44-78AC-4868-9E6A-601C0740E67A
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: AddRange, AddRange method [Media Foundation], AddRange method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],AddRange method, IMFMediaTimeRange.AddRange, IMFMediaTimeRange::AddRange, mf.imfmediatimerange_addrange, mfmediaengine/IMFMediaTimeRange::AddRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

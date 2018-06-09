@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresource_getstream.htm
 old-project: printdocs
 ms.assetid: 1e6c53fa-7180-454d-8bdc-332eb0d3fa27
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetStream method, IXpsOMSignatureBlockResource.GetStream, IXpsOMSignatureBlockResource::GetStream, xps.ixpsomsignatureblockresource_getstream, xpsobjectmodel/IXpsOMSignatureBlockResource::GetStream
 ms.prod: windows
 ms.technology: windows-sdk

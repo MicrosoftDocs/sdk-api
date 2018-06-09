@@ -8,7 +8,7 @@ old-location: wmformat\iwmwriteradvanced_addsink.htm
 old-project: wmformat
 ms.assetid: 65763ac3-fba0-4de6-9c2e-4e241bbe5f13
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
 ms.prod: windows
 ms.technology: windows-sdk

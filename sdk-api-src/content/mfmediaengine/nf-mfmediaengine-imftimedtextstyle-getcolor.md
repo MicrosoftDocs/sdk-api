@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getcolor.htm
 old-project: medfound
 ms.assetid: 262A89EC-7025-4037-B09A-87C9CEE1DF76
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetColor method, IMFTimedTextStyle.GetColor, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

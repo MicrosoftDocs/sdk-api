@@ -7,7 +7,7 @@ old-location: base\regqueryinfokey.htm
 old-project: SysInfo
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
 ms.prod: windows
 ms.technology: windows-sdk

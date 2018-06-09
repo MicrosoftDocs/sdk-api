@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderallocatorex_allocateforoutputex.htm
 old-project: wmformat
 ms.assetid: e2e4881b-2186-47c9-b74e-3a59a9fac7c9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: AllocateForOutputEx, AllocateForOutputEx method [windows Media Format], AllocateForOutputEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForOutputEx method, IWMReaderAllocatorEx.AllocateForOutputEx, IWMReaderAllocatorEx::AllocateForOutputEx, IWMReaderAllocatorExAllocateForOutputEx, wmformat.iwmreaderallocatorex_allocateforoutputex, wmsdkidl/IWMReaderAllocatorEx::AllocateForOutputEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Pointer to a pointer to an <b>INSSBuffer</b> object.
 </tr>
 <tr>
 <td>WM_SFEX_NOTASYNCPOINT</td>
-<td>This flag is the opposite of the WM_SF_CLEANPOINT flag used in other methods of this SDK. It indicates that the point is not a <a href="wmformat_glossary.htm">key frame</a>, or is not a good point to go to during a seek. This inverse definition is used for compatibility with DirectShow.</td>
+<td>This flag is the opposite of the WM_SF_CLEANPOINT flag used in other methods of this SDK. It indicates that the point is not a <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">key frame</a>, or is not a good point to go to during a seek. This inverse definition is used for compatibility with DirectShow.</td>
 </tr>
 <tr>
 <td>WM_SFEX_DATALOSS</td>

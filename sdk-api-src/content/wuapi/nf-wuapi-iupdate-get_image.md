@@ -7,7 +7,7 @@ old-location: wua\iupdate_image.htm
 old-project: Wua_Sdk
 ms.assetid: 0cae0b5b-8a47-461f-ab91-b9ac80418e20
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Image property, IUpdate.Image, IUpdate.get_Image, IUpdate::Image, IUpdate::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],IUpdate interface, get_Image, wua.iupdate_image, wuapi/IUpdate::Image, wuapi/IUpdate::get_Image
 ms.prod: windows
 ms.technology: windows-sdk

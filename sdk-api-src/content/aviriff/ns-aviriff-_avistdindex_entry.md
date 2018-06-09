@@ -7,7 +7,7 @@ old-location: dshow\avistdindex_entry.htm
 old-project: DirectShow
 ms.assetid: 4e408858-b0cb-45dc-a299-a2e35aa6a000
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: AVISTDINDEX_ENTRY, AVISTDINDEX_ENTRY structure [DirectShow], _avistdindex_entry, aviriff/AVISTDINDEX_ENTRY, dshow.avistdindex_entry
 ms.prod: windows
 ms.technology: windows-sdk

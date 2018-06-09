@@ -7,7 +7,7 @@ old-location: mstv\mpe_element.htm
 old-project: mstv
 ms.assetid: 2753160b-de52-4d62-960a-c200c6f5f29a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: "*PMPE_ELEMENT, MPE_ELEMENT, MPE_ELEMENT structure [Microsoft TV Technologies], PMPE_ELEMENT, PMPE_ELEMENT structure pointer [Microsoft TV Technologies], _MPE_ELEMENT, mpeg2structs/MPE_ELEMENT, mpeg2structs/PMPE_ELEMENT, mstv.mpe_element"
 ms.prod: windows
 ms.technology: windows-sdk

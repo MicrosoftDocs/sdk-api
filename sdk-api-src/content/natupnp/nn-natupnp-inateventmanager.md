@@ -7,7 +7,7 @@ old-location: ics\inateventmanager.htm
 old-project: ICS
 ms.assetid: 18c5df1a-e57e-4f44-bac5-a5861f939673
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], INATEventManager interface [ICS/ICF],described, _ics_inateventmanager, ics.inateventmanager, natupnp/INATEventManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INATEventManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INATEventManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INATEventManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>INATEventManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -98,7 +98,7 @@ Registers the
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
 
 
 

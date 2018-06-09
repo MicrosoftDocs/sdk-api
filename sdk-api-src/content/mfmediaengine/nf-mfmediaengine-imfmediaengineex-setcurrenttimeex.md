@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setcurrenttimeex.htm
 old-project: medfound
 ms.assetid: ee594f0c-af49-44c2-8c68-16120f76c5e1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetCurrentTimeEx method, IMFMediaEngineEx.SetCurrentTimeEx, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: tablet\flick_point.htm
 old-project: tablet
 ms.assetid: c9aacc05-02aa-47b5-be58-46321cf6a99d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: FLICK_POINT, FLICK_POINT structure [Tablet PC], c9aacc05-02aa-47b5-be58-46321cf6a99d, tabflicks/FLICK_POINT, tablet.flick_point
 ms.prod: windows
 ms.technology: windows-sdk

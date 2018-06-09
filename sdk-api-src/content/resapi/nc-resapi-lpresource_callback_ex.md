@@ -7,7 +7,7 @@ old-location: mscs\lpresource_callback_ex.htm
 old-project: MsCS
 ms.assetid: 663b009c-92cf-4881-bae7-fb1215140581
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: LPRESOURCE_CALLBACK_EX, LPRESOURCE_CALLBACK_EX callback function [Failover Cluster], ResourceCallbackEx, ResourceCallbackEx callback, ResourceCallbackEx callback function [Failover Cluster], mscs.lpresource_callback_ex, resapi/LPRESOURCE_CALLBACK_EX, resapi/ResourceCallbackEx
 ms.prod: windows
 ms.technology: windows-sdk

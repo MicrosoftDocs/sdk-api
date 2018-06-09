@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushstoragefilter.htm
 old-project: direct3d12
 ms.assetid: F6443483-3983-44E0-B728-F5357966388A
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12InfoQueue interface,PushStorageFilter method, ID3D12InfoQueue.PushStorageFilter, ID3D12InfoQueue::PushStorageFilter, PushStorageFilter, PushStorageFilter method, PushStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushStorageFilter, direct3d12.id3d12infoqueue_pushstoragefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/5CD64E71-8530-43FB-B441-25C61ED6F31
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 

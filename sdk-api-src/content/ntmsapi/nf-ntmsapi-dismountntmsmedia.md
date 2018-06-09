@@ -281,7 +281,7 @@ The
 
 
 
-<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
+<a href="https://www.bing.com/search?q=Media+Services+Functions">Media Services Functions</a>
 
 
 

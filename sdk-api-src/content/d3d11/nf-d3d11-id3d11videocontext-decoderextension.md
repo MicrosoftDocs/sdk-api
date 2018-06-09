@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_decoderextension.htm
 old-project: medfound
 ms.assetid: B96FD793-C82A-4752-8F59-3CC9B86D1C2D
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: DecoderExtension, DecoderExtension method [Media Foundation], DecoderExtension method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderExtension method, ID3D11VideoContext.DecoderExtension, ID3D11VideoContext::DecoderExtension, d3d11/ID3D11VideoContext::DecoderExtension, mf.id3d11videocontext_decoderextension
 ms.prod: windows
 ms.technology: windows-sdk

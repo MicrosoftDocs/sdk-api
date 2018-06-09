@@ -7,7 +7,7 @@ old-location: base\regloadkey.htm
 old-project: SysInfo
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: RegLoadKey, RegLoadKey function, RegLoadKeyA, RegLoadKeyW, _win32_regloadkey, base.regloadkey, winreg/RegLoadKey, winreg/RegLoadKeyA, winreg/RegLoadKeyW
 ms.prod: windows
 ms.technology: windows-sdk

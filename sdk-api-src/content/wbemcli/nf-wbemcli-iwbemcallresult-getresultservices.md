@@ -7,7 +7,7 @@ old-location: wmi\iwbemcallresult_getresultservices.htm
 old-project: WmiSdk
 ms.assetid: 64a4fc4c-f479-4b03-847c-041508e55532
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetResultServices, GetResultServices method [Windows Management Instrumentation], GetResultServices method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetResultServices method, IWbemCallResult.GetResultServices, IWbemCallResult::GetResultServices, _hmm_iwbemcallresult_getresultservices, wbemcli/IWbemCallResult::GetResultServices, wmi.iwbemcallresult_getresultservices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The maximum time in milliseconds that this call blocks before it returns. If you
 
 Cannot be <b>NULL</b>. It receives a pointer to the 
 <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> interface requested by the original call to 
-<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">OpenNamespace</a> when it becomes available The caller must call <a href="_com_iunknown_release">IWbemServices::Release</a>
+<a href="https://msdn.microsoft.com/09ff9078-3d97-432b-8626-62f12b5e3ef4">OpenNamespace</a> when it becomes available The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IWbemServices::Release</a>
       on the returned object when it is no longer required.
 
 On error, a new object is not returned.

@@ -7,7 +7,7 @@ old-location: gdi\endpage.htm
 old-project: printdocs
 ms.assetid: 33e6d005-f00d-4b87-bf7c-fc79c1d05514
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: EndPage, EndPage function [Windows GDI], _win32_EndPage, gdi.endpage, wingdi/EndPage
 ms.prod: windows
 ms.technology: windows-sdk

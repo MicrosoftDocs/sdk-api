@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_next.htm
 old-project: WmiSdk
 ms.assetid: 6d0e8aa3-ae64-4934-9000-2c526ceb7fb6
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Next method, IWbemClassObject.Next, IWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemClassObject interface, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_next, wbemcli/IWbemClassObject::Next, wmi.iwbemclassobject_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,10 +89,10 @@ Reserved. This parameter must be 0.
 ### -param pVal [out]
 
 This <b>VARIANT</b> is filled with the value of the property. The method calls 
-       <a href="96aeb671-5528-4d3c-8e70-313716550b42">VariantInit</a> on this 
+       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> on this 
        <b>VARIANT</b>, so the caller should ensure that the <b>VARIANT</b> 
        is not active prior to the call. The caller must use 
-       <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when the value is no 
+       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when the value is no 
        longer required.
 
 You can set this parameter to <b>NULL</b> if the value is not required. If an error code 

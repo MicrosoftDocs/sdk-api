@@ -7,7 +7,7 @@ old-location: mf\mfloadsignedlibrary.htm
 old-project: medfound
 ms.assetid: 979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFLoadSignedLibrary, MFLoadSignedLibrary function [Media Foundation], mf.mfloadsignedlibrary, mfidl/MFLoadSignedLibrary
 ms.prod: windows
 ms.technology: windows-sdk

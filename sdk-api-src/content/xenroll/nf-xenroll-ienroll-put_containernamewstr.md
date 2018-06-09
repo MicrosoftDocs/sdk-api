@@ -7,7 +7,7 @@ old-location: security\ienroll4_containernamewstr.htm
 old-project: SecCrypto
 ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security],IEnroll interface, IEnroll interface [Security],ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll.put_ContainerNameWStr, IEnroll::ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, put_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
 ms.prod: windows
 ms.technology: windows-sdk

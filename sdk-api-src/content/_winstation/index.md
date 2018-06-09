@@ -2,7 +2,7 @@
 UID: TP:winstation
 ms.assetid: 3a5e52d7-77fd-394a-945f-244406c46175
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Window Stations and Desktops
 
-
+## -description
 
 Overview of the Window Stations and Desktops technology.
 

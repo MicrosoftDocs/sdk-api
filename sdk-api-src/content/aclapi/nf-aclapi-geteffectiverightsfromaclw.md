@@ -440,7 +440,7 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
 
 
 

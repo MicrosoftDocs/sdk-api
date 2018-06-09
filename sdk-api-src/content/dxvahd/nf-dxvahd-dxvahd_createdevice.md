@@ -7,7 +7,7 @@ old-location: mf\dxvahd_createdevice.htm
 old-project: medfound
 ms.assetid: 9a5411f9-2018-4a8a-922d-ab431d615583
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation], dxvahd/DXVAHD_CreateDevice, mf.dxvahd_createdevice
 ms.prod: windows
 ms.technology: windows-sdk

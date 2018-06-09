@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_gettracks.htm
 old-project: medfound
 ms.assetid: 4ECBC4CD-12A0-493A-A301-1E392F6EC280
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetTracks, GetTracks method [Media Foundation], GetTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTracks method, IMFTimedText.GetTracks, IMFTimedText::GetTracks, mf.imftimedtext_gettracks, mfmediaengine/IMFTimedText::GetTracks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax
@@ -70,7 +70,7 @@ Receives a pointer to track list.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -7,7 +7,7 @@ old-location: mstv\ibda_useractivityservice_useractivitydetected.htm
 old-project: mstv
 ms.assetid: 24c5f6af-602d-4e96-9712-5444ffdd4fe6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_UserActivityService interface [Microsoft TV Technologies],UserActivityDetected method, IBDA_UserActivityService.UserActivityDetected, IBDA_UserActivityService::UserActivityDetected, UserActivityDetected, UserActivityDetected method [Microsoft TV Technologies], UserActivityDetected method [Microsoft TV Technologies],IBDA_UserActivityService interface, bdaiface/IBDA_UserActivityService::UserActivityDetected, mstv.ibda_useractivityservice_useractivitydetected
 ms.prod: windows
 ms.technology: windows-sdk

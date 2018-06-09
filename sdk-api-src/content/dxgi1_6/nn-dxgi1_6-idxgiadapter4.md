@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter4.htm
 old-project: direct3ddxgi
 ms.assetid: 176958F9-94C8-4F80-B9A4-96BC9634292E
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIAdapter4, IDXGIAdapter4 interface [DXGI], IDXGIAdapter4 interface [DXGI],described, direct3ddxgi.idxgiadapter4, dxgi1_6/IDXGIAdapter4
 ms.prod: windows
 ms.technology: windows-sdk

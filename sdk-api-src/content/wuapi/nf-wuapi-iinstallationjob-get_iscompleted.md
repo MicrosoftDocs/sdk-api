@@ -7,7 +7,7 @@ old-location: wua\iinstallationjob_iscompleted.htm
 old-project: Wua_Sdk
 ms.assetid: 043e1f6a-993c-48be-9d91-7f99cd5712d4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],IsCompleted property, IInstallationJob.IsCompleted, IInstallationJob.get_IsCompleted, IInstallationJob::IsCompleted, IInstallationJob::get_IsCompleted, IsCompleted property [Windows Update Agent], IsCompleted property [Windows Update Agent],IInstallationJob interface, get_IsCompleted, wua.iinstallationjob_iscompleted, wuapi/IInstallationJob::IsCompleted, wuapi/IInstallationJob::get_IsCompleted
 ms.prod: windows
 ms.technology: windows-sdk

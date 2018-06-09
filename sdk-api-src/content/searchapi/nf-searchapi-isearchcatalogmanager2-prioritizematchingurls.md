@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager2_PrioritizeMatchingURLs.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\prioritizematchingurls.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs method, ISearchCatalogManager2.PrioritizeMatchingURLs, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search],ISearchCatalogManager2 interface, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
 ms.prod: windows
 ms.technology: windows-sdk

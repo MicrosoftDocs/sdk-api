@@ -7,7 +7,7 @@ old-location: mscs\isalive.htm
 old-project: MsCS
 ms.assetid: ff7661af-0a24-4a2e-bb31-c967845a4ff4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: IsAlive, IsAlive callback, IsAlive callback function [Failover Cluster], PIS_ALIVE_ROUTINE, PIS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_isalive, mscs.isalive, resapi/IsAlive, resapi/PIS_ALIVE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ For effective implementation strategies of the <i>IsAlive</i>
 
 #### Examples
 
-See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+See <a href="https://www.bing.com/search?q=Resource+DLL+Examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

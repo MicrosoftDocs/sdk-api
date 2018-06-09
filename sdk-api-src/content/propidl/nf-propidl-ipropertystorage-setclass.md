@@ -7,8 +7,8 @@ old-location: stg\ipropertystorage_setclass.htm
 old-project: Stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
 ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
+ms.date: 06/06/2018
+ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -97,6 +97,10 @@ Setting the CLSID on a nonsimple property set (one that can legally contain stor
 
 
 <a href="https://msdn.microsoft.com/9307788d-bce6-4025-8043-8b68e874a62b">IPropertySetStorage::Create</a>
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

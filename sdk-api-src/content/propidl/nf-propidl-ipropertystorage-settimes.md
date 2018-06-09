@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_settimes.htm
 old-project: Stg
 ms.assetid: 23c7040a-e648-4898-806d-ad01d7027cc6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],SetTimes method, IPropertyStorage.SetTimes, IPropertyStorage::SetTimes, SetTimes, SetTimes method [Structured Storage], SetTimes method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_settimes, propidl/IPropertyStorage::SetTimes, stg.ipropertystorage_settimes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,6 +107,10 @@ Notice that this functionality is provided as an
 
 
 <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

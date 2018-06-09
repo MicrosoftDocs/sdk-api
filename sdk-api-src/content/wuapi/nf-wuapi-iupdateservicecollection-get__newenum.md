@@ -7,7 +7,7 @@ old-location: wua\iupdateservicecollection__newenum.htm
 old-project: Wua_Sdk
 ms.assetid: 13829d36-f0e2-4871-aad5-159b22cb5ccf
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],_NewEnum property, IUpdateServiceCollection._NewEnum, IUpdateServiceCollection.get__NewEnum, IUpdateServiceCollection::_NewEnum, IUpdateServiceCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateServiceCollection interface, get__NewEnum, wua.iupdateservicecollection__newenum, wuapi/IUpdateServiceCollection::_NewEnum, wuapi/IUpdateServiceCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Gets an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 

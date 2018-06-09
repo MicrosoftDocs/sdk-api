@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassifiermoduleimplementation_doespropertyvalueapply.ht
 old-project: Fsrm
 ms.assetid: ab42430c-1e30-4576-b6f8-c0488b6230dd
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],DoesPropertyValueApply method, IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
 ms.prod: windows
 ms.technology: windows-sdk

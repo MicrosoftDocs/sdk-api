@@ -7,7 +7,7 @@ old-location: winprog\fnfciclose.htm
 old-project: DevNotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
 ms.prod: windows
 ms.technology: windows-sdk

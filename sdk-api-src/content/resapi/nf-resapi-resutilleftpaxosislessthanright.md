@@ -7,7 +7,7 @@ old-location: mscs\resutilleftpaxosislessthanright.htm
 old-project: MsCS
 ms.assetid: 01CBFC67-02D0-439D-BE4E-EA0A2448FDEE
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ResUtilLeftPaxosIsLessThanRight, ResUtilLeftPaxosIsLessThanRight function [Failover Cluster], mscs.resutilleftpaxosislessthanright, resapi/ResUtilLeftPaxosIsLessThanRight
 ms.prod: windows
 ms.technology: windows-sdk

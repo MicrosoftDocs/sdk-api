@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysessionnotify_keymessage.htm
 old-project: medfound
 ms.assetid: 50b0eb38-a212-4c89-80e8-83472b3d45ee
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyMessage method, IMFMediaKeySessionNotify.KeyMessage, IMFMediaKeySessionNotify::KeyMessage, KeyMessage, KeyMessage method [Media Foundation], KeyMessage method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keymessage, mfmediaengine/IMFMediaKeySessionNotify::KeyMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\mfvideosrccontenthintflags.htm
 old-project: medfound
 ms.assetid: 6166b880-36bc-4ac3-9d66-d3dd17c29ae7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 6166b880-36bc-4ac3-9d66-d3dd17c29ae7, MFVideoSrcContentHintFlag_16x9, MFVideoSrcContentHintFlag_235_1, MFVideoSrcContentHintFlag_None, MFVideoSrcContentHintFlags, MFVideoSrcContentHintFlags enumeration [Media Foundation], _MFVideoSrcContentHintFlags, mf.mfvideosrccontenthintflags, mfapi/MFVideoSrcContentHintFlag_16x9, mfapi/MFVideoSrcContentHintFlag_235_1, mfapi/MFVideoSrcContentHintFlag_None, mfapi/MFVideoSrcContentHintFlags
 ms.prod: windows
 ms.technology: windows-sdk

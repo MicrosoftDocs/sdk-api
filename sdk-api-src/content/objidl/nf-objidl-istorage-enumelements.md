@@ -7,7 +7,7 @@ old-location: stg\istorage_enumelements.htm
 old-project: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
 ms.prod: windows
 ms.technology: windows-sdk

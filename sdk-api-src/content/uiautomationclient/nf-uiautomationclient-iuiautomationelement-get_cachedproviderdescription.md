@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedProviderDescription.htm
 old-project: WinAuto
 ms.assetid: ed26dbb7-9838-48f2-8401-f169038b8b92
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: CachedProviderDescription property [Windows Accessibility], CachedProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProviderDescription property, IUIAutomationElement.CachedProviderDescription, IUIAutomationElement.get_CachedProviderDescription, IUIAutomationElement::CachedProviderDescription, IUIAutomationElement::get_CachedProviderDescription, get_CachedProviderDescription, uiauto.uiauto_IUIAutomationElement_CachedProviderDescription, uiauto_IUIAutomationElement_CachedProviderDescription, uiautomationclient/IUIAutomationElement::CachedProviderDescription, uiautomationclient/IUIAutomationElement::get_CachedProviderDescription, winauto.uiauto_IUIAutomationElement_CachedProviderDescription
 ms.prod: windows
 ms.technology: windows-sdk

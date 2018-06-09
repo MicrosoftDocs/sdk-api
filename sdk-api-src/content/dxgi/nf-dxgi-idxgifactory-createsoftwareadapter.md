@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_createsoftwareadapter.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createsoftwareadapter.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSoftwareAdapter, CreateSoftwareAdapter method [DXGI], CreateSoftwareAdapter method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSoftwareAdapter method, IDXGIFactory.CreateSoftwareAdapter, IDXGIFactory::CreateSoftwareAdapter, direct3ddxgi.idxgifactory_createsoftwareadapter, dxgi/IDXGIFactory::CreateSoftwareAdapter, eb1643db-ba87-e9e9-56a9-b7f505fcd700
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Address of a pointer to an adapter (see <a href="https://msdn.microsoft.com/02fc
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 A <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">return code</a> indicating success or failure.
 

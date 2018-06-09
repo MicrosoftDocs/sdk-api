@@ -7,7 +7,7 @@ old-location: stg\isequentialstream_write.htm
 old-project: Stg
 ms.assetid: f0323dda-6c31-4411-bf20-9650162109c0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ISequentialStream interface [Structured Storage],Write method, ISequentialStream.Write, ISequentialStream::Write, Write, Write method [Structured Storage], Write method [Structured Storage],ISequentialStream interface, _stg_isequentialstream_write, objidl/ISequentialStream::Write, stg.isequentialstream_write
 ms.prod: windows
 ms.technology: windows-sdk

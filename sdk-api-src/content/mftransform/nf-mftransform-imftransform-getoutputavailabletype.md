@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputavailabletype.htm
 old-project: medfound
 ms.assetid: d0f75414-18cf-4e76-b875-5f373510c87b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Media Foundation], GetOutputAvailableType method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputAvailableType method, IMFTransform.GetOutputAvailableType, IMFTransform::GetOutputAvailableType, d0f75414-18cf-4e76-b875-5f373510c87b, mf.imftransform_getoutputavailabletype, mftransform/IMFTransform::GetOutputAvailableType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -213,7 +213,7 @@ Some MFTs cannot provide an accurate list of output types until the MFT receives
             The client selects a new output type from this list and calls <a href="https://msdn.microsoft.com/a9a1d03f-2e56-490c-885b-78c69dea8e92">SetOutputType</a>.
           </li>
 </ol>
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputAvailableType</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputAvailableType</b>. See <a href="https://docs.microsoft.com/windows/desktop//medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 <h3><a id="Implementation_Notes"></a><a id="implementation_notes"></a><a id="IMPLEMENTATION_NOTES"></a>Implementation Notes</h3>
 If the MFT stores a media type internally, the MFT should return a clone of the media  type, not a pointer to the original type. Otherwise, the caller might modify the type and alter the internal state of the MFT.

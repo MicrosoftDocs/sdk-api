@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getnamespaceat.htm
 old-project: WmiSdk
 ms.assetid: a5180c35-df90-447d-ad52-250ececfd525
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetNamespaceAt, GetNamespaceAt method [Windows Management Instrumentation], GetNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetNamespaceAt method, IWbemPath.GetNamespaceAt, IWbemPath::GetNamespaceAt, _hmm_iwbempath_getnamespaceat, wmi.iwbempath_getnamespaceat, wmiutils/IWbemPath::GetNamespaceAt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_supporturl.htm
 old-project: Wua_Sdk
 ms.assetid: 8dabc5db-2741-4399-9cfc-eb79613e0d57
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],SupportUrl property, IUpdateHistoryEntry.SupportUrl, IUpdateHistoryEntry.get_SupportUrl, IUpdateHistoryEntry::SupportUrl, IUpdateHistoryEntry::get_SupportUrl, SupportUrl property [Windows Update Agent], SupportUrl property [Windows Update Agent],IUpdateHistoryEntry interface, get_SupportUrl, wua.iupdatehistoryentry_supporturl, wuapi/IUpdateHistoryEntry::SupportUrl, wuapi/IUpdateHistoryEntry::get_SupportUrl
 ms.prod: windows
 ms.technology: windows-sdk

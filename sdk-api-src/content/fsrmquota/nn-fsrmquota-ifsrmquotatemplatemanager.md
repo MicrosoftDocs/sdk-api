@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotatemplatemanager.htm
 old-project: Fsrm
 ms.assetid: c6e782ff-b2e7-4bd6-bd9f-cc645c6ee5d6
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], IFsrmQuotaTemplateManager interface [File Server Resource Manager],described, fs.ifsrmquotatemplatemanager, fsrm.ifsrmquotatemplatemanager, fsrmquota/IFsrmQuotaTemplateManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage quota templates.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmQuotaTemplateManager</b> as the class identifier and 
     <code>__uuidof(IFsrmQuotaTemplateManager)</code> as the interface 
     identifier. For an example, see 

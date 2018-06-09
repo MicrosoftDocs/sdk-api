@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_Compare.htm
 old-project: WinAuto
 ms.assetid: 6ccdeeee-4c9b-439b-abb8-1fc71f3d209c
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Compare method, ITextRangeProvider.Compare, ITextRangeProvider::Compare, uiauto.uiauto_ITextRangeProvider_Compare, uiauto_ITextRangeProvider_Compare, uiautomationcore/ITextRangeProvider::Compare, winauto.uiauto_ITextRangeProvider_Compare
 ms.prod: windows
 ms.technology: windows-sdk

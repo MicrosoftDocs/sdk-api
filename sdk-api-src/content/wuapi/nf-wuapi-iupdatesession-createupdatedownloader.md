@@ -7,7 +7,7 @@ old-location: wua\iupdatesession_createupdatedownloader.htm
 old-project: Wua_Sdk
 ms.assetid: 9d410114-2327-489c-84b6-c3f5367008c2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: CreateUpdateDownloader, CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateDownloader method, IUpdateSession.CreateUpdateDownloader, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader
 ms.prod: windows
 ms.technology: windows-sdk

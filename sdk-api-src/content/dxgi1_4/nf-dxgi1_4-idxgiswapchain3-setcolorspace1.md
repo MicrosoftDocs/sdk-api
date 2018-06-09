@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain3_setcolorspace1.htm
 old-project: direct3ddxgi
 ms.assetid: 3B4391A5-C4E0-4D2E-BCEE-5DB635B98CFD
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGISwapChain3 interface [DXGI],SetColorSpace1 method, IDXGISwapChain3.SetColorSpace1, IDXGISwapChain3::SetColorSpace1, SetColorSpace1, SetColorSpace1 method [DXGI], SetColorSpace1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_setcolorspace1, dxgi1_4/IDXGISwapChain3::SetColorSpace1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>S_OK</b> on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 

@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getpmt.htm
 old-project: mstv
 ms.assetid: cb8f21f4-fa03-4006-8563-2026e70d5f43
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPMT method, IDvbSiParser.GetPMT, IDvbSiParser::GetPMT, IDvbSiParserGetPMT, dvbsiparser/IDvbSiParser::GetPMT, mstv.idvbsiparser_getpmt
 ms.prod: windows
 ms.technology: windows-sdk

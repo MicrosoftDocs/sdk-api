@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getsecurity.htm
 old-project: SecCrypto
 ms.assetid: 0859ea85-66b2-45af-9559-c81e6a766cfc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: GetSecurity, GetSecurity method [Security], GetSecurity method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSecurity method, IOCSPAdmin.GetSecurity, IOCSPAdmin::GetSecurity, certadm/IOCSPAdmin::GetSecurity, security.iocspadmin_getsecurity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\cert_physical_store_info.htm
 old-project: SecCrypto
 ms.assetid: ad86f388-27af-442a-a76f-f386f66296ac
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG, CERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_INFO structure [Security], CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG, CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG, CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, PCERT_PHYSICAL_STORE_INFO, PCERT_PHYSICAL_STORE_INFO structure pointer [Security], _CERT_PHYSICAL_STORE_INFO, _crypto2_cert_physical_store_info, security.cert_physical_store_info, wincrypt/CERT_PHYSICAL_STORE_INFO, wincrypt/PCERT_PHYSICAL_STORE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_RemoveStructureChangedEventHandler.ht
 old-project: WinAuto
 ms.assetid: b0f8bb2a-003f-471f-b1a6-ffec97e2752a
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveStructureChangedEventHandler method, IUIAutomation.RemoveStructureChangedEventHandler, IUIAutomation::RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler method [Windows Accessibility], RemoveStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiautomationclient/IUIAutomation::RemoveStructureChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler
 ms.prod: windows
 ms.technology: windows-sdk

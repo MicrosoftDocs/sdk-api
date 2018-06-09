@@ -7,7 +7,7 @@ old-location: stg\ipropertysetstorage_open.htm
 old-project: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
 ms.prod: windows
 ms.technology: windows-sdk

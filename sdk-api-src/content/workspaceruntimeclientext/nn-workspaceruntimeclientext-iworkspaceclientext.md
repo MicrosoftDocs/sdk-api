@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceclientext.htm
 old-project: TermServ
 ms.assetid: f72b0709-1a55-49c9-ab5d-22f9259c41f0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWorkspaceClientExt, IWorkspaceClientExt interface [Remote Desktop Services], IWorkspaceClientExt interface [Remote Desktop Services],described, termserv.iworkspaceclientext, workspaceruntimeclientext/IWorkspaceClientExt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Restarts applications and services that have been shut down by the <a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a> function and that have been registered to be restarted using the <a href="base.registerapplicationrestart">RegisterApplicationRestart</a> function. This function can only be called by the primary installer that called the <a href="https://msdn.microsoft.com/bc79c6e5-49e6-44d3-90f6-b0109fb9611b">RmStartSession</a> function to start the Restart Manager session.
+Restarts applications and services that have been shut down by the <a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a> function and that have been registered to be restarted using the <a href="https://www.bing.com/search?q=RegisterApplicationRestart">RegisterApplicationRestart</a> function. This function can only be called by the primary installer that called the <a href="https://msdn.microsoft.com/bc79c6e5-49e6-44d3-90f6-b0109fb9611b">RmStartSession</a> function to start the Restart Manager session.
 
 
 ## -parameters
@@ -224,7 +224,7 @@ The <b>RmRestart</b> function does not restart any applications that run with el
 
 
 
-<a href="base.registerapplicationrestart">RegisterApplicationRestart</a>
+<a href="https://www.bing.com/search?q=RegisterApplicationRestart">RegisterApplicationRestart</a>
 
 
 

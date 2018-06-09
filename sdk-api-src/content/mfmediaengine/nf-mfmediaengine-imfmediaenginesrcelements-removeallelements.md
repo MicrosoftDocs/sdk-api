@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements_removeallelements.htm
 old-project: medfound
 ms.assetid: 4E867439-CBBA-4D36-9E0F-9034D3803688
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineSrcElements interface [Media Foundation],RemoveAllElements method, IMFMediaEngineSrcElements.RemoveAllElements, IMFMediaEngineSrcElements::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFMediaEngineSrcElements interface, mf.imfmediaenginesrcelements_removeallelements, mfmediaengine/IMFMediaEngineSrcElements::RemoveAllElements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

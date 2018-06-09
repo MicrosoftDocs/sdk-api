@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_getrequestsignbydate.htm
 old-project: printdocs
 ms.assetid: 14cbe79d-a299-4e8d-9734-8571c0b535ce
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetRequestSignByDate, GetRequestSignByDate method [XPS Documents and Packaging], GetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestSignByDate method, IXpsSignatureRequest.GetRequestSignByDate, IXpsSignatureRequest::GetRequestSignByDate, xps.ixpssignaturerequest_getrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::GetRequestSignByDate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>dateString</i>.  If <i>dateString</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>dateString</i>.  If <i>dateString</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

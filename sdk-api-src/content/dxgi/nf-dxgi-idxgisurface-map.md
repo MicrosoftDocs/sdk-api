@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgisurface_map.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_map.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 2353661a-8e73-6878-2899-79d0afdc2901, IDXGISurface interface [DXGI],Map method, IDXGISurface.Map, IDXGISurface::Map, Map, Map method [DXGI], Map method [DXGI],IDXGISurface interface, direct3ddxgi.idxgisurface_map, dxgi/IDXGISurface::Map
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ CPU read-write flags. These flags can be combined with a logical OR.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 

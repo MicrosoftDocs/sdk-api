@@ -2,12 +2,12 @@
 UID: NA:in6addr
 ms.assetid: 2884d416-3704-3d35-8cf6-82005d09ca55
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: netxp
+tech.root: winsock
 ---
 
 # In6Addr.h header

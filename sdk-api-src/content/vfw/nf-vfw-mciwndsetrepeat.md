@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetrepeat.htm
 old-project: Multimedia
 ms.assetid: e9c64f01-dd51-4f45-bf58-e930d5d23461
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: MCIWndSetRepeat, MCIWndSetRepeat macro [Windows Multimedia], _win32_MCIWndSetRepeat, multimedia.mciwndsetrepeat, vfw/MCIWndSetRepeat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmaccessdeniedremediationclient.htm
 old-project: Fsrm
 ms.assetid: 572d2985-a579-4bfa-a305-403b6be516ca
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient, IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager], IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],described, fs.ifsrmaccessdeniedremediationclient, fsrm.ifsrmaccessdeniedremediationclient, fsrm/IFsrmAccessDeniedRemediationClient
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory_gettransforminformation.htm
 old-project: medfound
 ms.assetid: A83B0A75-60CF-49AA-9386-70A30189C009
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetTransformInformation, GetTransformInformation method [Media Foundation], GetTransformInformation method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformInformation method, IMFSensorTransformFactory.GetTransformInformation, IMFSensorTransformFactory::GetTransformInformation, mf.imfsensortransformfactory_gettransforminformation, mfidl/IMFSensorTransformFactory::GetTransformInformation
 ms.prod: windows
 ms.technology: windows-sdk

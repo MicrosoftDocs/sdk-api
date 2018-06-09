@@ -7,7 +7,7 @@ old-location: wua\iupdateservice2.htm
 old-project: Wua_Sdk
 ms.assetid: 6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateService2, IUpdateService2 interface [Windows Update Agent], IUpdateService2 interface [Windows Update Agent],described, wua.iupdateservice2, wuapi/IUpdateService2
 ms.prod: windows
 ms.technology: windows-sdk

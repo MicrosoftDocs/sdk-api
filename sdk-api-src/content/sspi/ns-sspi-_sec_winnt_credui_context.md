@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Specifies unserialized credential information. The credential information can be serialized by passing it as the <b>rgbSerialization</b> member of a <a href="_shell_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure in a call to the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
+Specifies unserialized credential information. The credential information can be serialized by passing it as the <b>rgbSerialization</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure in a call to the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization.md">ICredentialProvider::SetSerialization</a> method.
 
 The unserialized information can be obtained by calling the <a href="https://msdn.microsoft.com/c8861b27-d42d-4f7f-96c7-718f23fbaf86">SspiUnmarshalCredUIContext</a> function.
 

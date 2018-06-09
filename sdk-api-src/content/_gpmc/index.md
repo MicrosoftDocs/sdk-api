@@ -2,7 +2,7 @@
 UID: TP:gpmc
 ms.assetid: 85cebf89-1c3d-31d7-bd1a-e4548abebf06
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,12 +12,12 @@ archived: true
 
 # Group Policy Management Console
 
-
+## -description
 
 Overview of the Group Policy Management Console technology.
 
 To develop Group Policy Management Console, you need these headers:
 
- * [gpmgmt.h](..\gpmgmt\index.md)
+ * [gpmgmt.h](../gpmgmt/index.md)
 
 For the programming guide, see [Group Policy Management Console](/previous-versions/windows/desktop/gpmc).

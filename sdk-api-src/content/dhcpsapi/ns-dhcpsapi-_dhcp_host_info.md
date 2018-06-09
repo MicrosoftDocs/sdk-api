@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_host_info.htm
 old-project: DHCP
 ms.assetid: 3d38f69d-2808-4e52-a3da-b6142578c981
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_HOST_INFO, DHCP_HOST_INFO, DHCP_HOST_INFO structure [DHCP], LPDHCP_HOST_INFO, LPDHCP_HOST_INFO structure pointer [DHCP], _DHCP_HOST_INFO, dhcp.dhcp_host_info, dhcpsapi/LPDHCP_HOST_INFO, dhcpsapi/_DHCP_HOST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

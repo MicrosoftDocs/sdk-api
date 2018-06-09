@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjobmanager.htm
 old-project: Fsrm
 ms.assetid: 2df0e8d0-1da7-422e-8d02-ad5d030fdd8d
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interface [File Server Resource Manager], IFsrmFileManagementJobManager interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjobmanager, fsrm.ifsrmfilemanagementjobmanager, fsrm/IFsrmFileManagementJobManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to manage file management jobs.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileManagementJobManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileManagementJobManager)</code> as the interface 
     identifier.

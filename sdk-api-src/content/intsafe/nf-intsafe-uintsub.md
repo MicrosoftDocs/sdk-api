@@ -7,7 +7,7 @@ old-location: shell\UIntSub.htm
 old-project: shell
 ms.assetid: be257075-84c9-40e2-af3f-75dccd97bab1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: UIntSub, UIntSub function [Windows Shell], _shell_UIntSub, intsafe/UIntSub, shell.UIntSub
 ms.prod: windows
 ms.technology: windows-sdk

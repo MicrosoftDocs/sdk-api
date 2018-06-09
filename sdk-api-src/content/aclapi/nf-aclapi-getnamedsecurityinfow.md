@@ -174,7 +174,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://msdn.
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
 
 
 
@@ -186,7 +186,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://msdn.
 
 
 
-<a href="authorization_constants.htm">Privilege Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop//SecAuthZ/authorization-constants">Privilege Constants</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\icenroll4_createrequest.htm
 old-project: SecCrypto
 ms.assetid: d2a1c1c4-dbbf-423c-bf59-da0ab9a71078
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CEnroll object [Security],createRequest method, ICEnroll4 interface [Security],createRequest method, ICEnroll4.createRequest, ICEnroll4::createRequest, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, _xen_icenroll4_createrequest, createRequest, createRequest method [Security], createRequest method [Security],CEnroll object, createRequest method [Security],ICEnroll4 interface, security.icenroll4_createrequest, xenroll/ICEnroll4::createRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ An <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">obj
 
 ### -param pstrRequest [out]
 
-A pointer to a <b>BSTR</b> (BASE64_HEADER format) that receives the request. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> (BASE64_HEADER format) that receives the request. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 ## -returns

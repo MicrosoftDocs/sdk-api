@@ -7,7 +7,7 @@ old-location: security\cryptcontextaddref.htm
 old-project: SecCrypto
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,7 +173,7 @@ For another example that uses this function, see <a href="https://msdn.microsoft
 
 
 
-<a href="cryptography_functions.htm">Service Provider Functions</a>
+<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
  
 
  

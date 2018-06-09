@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct.htm
 old-project: mstv
 ms.assetid: 3ff9cd6e-0d25-462c-93a7-2399395f68b0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies],described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
 ms.prod: windows
 ms.technology: windows-sdk

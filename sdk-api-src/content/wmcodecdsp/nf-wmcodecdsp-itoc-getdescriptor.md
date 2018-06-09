@@ -7,7 +7,7 @@ old-location: mf\itoc_getdescriptor.htm
 old-project: medfound
 ms.assetid: 4568b50f-a777-4c3d-8c71-66737d24b7cd
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescriptor method, IToc.GetDescriptor, IToc::GetDescriptor, codecapi.itoc_getdescriptor, mf.itoc_getdescriptor, wmcodecdsp/IToc::GetDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

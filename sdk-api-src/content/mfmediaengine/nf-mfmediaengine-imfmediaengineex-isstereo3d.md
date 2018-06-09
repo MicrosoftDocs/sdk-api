@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_isstereo3d.htm
 old-project: medfound
 ms.assetid: 9E1C2E47-416F-4016-A576-7BE360A66A81
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsStereo3D method, IMFMediaEngineEx.IsStereo3D, IMFMediaEngineEx::IsStereo3D, IsStereo3D, IsStereo3D method [Media Foundation], IsStereo3D method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isstereo3d, mfmediaengine/IMFMediaEngineEx::IsStereo3D
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

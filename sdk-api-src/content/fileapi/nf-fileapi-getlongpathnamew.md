@@ -145,7 +145,7 @@ It is possible to have access to a file or directory but not have access to some
     fail when it is unable to query the parent directory of a path component to determine the long name for that 
     component. This check can be skipped for directory components that have file extensions longer than 3 characters, 
     or total lengths longer than 12 characters. For more information, see the 
-    <a href="naming_a_file.htm">Short vs. Long Names</a> section of 
+    <a href="https://docs.microsoft.com/windows/desktop//FileIO/naming-a-file">Short vs. Long Names</a> section of 
     <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.

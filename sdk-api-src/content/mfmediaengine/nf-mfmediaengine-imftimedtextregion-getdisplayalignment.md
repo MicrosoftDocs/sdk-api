@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getdisplayalignment.htm
 old-project: medfound
 ms.assetid: CE2A9014-5510-4648-85F8-4A64C04C9F0C
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetDisplayAlignment, GetDisplayAlignment method [Media Foundation], GetDisplayAlignment method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetDisplayAlignment method, IMFTimedTextRegion.GetDisplayAlignment, IMFTimedTextRegion::GetDisplayAlignment, mf.imftimedtextregion_getdisplayalignment, mfmediaengine/IMFTimedTextRegion::GetDisplayAlignment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

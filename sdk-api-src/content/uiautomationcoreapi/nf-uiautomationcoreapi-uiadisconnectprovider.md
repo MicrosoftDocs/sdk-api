@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaDisconnectProvider.htm
 old-project: WinAuto
 ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 A provider should call this function to clean up UI Automation resources that are associated with a UI element that was destroyed.  The DLL  associated with the UI element can be safely unloaded after the function returns.
 
-After this function returns, all client requests that are associated with the disconnected provider receive the <a href="uiauto_error_codes.htm">UIA_E_ELEMENTNOTAVAILABLE</a> 
+After this function returns, all client requests that are associated with the disconnected provider receive the <a href="https://www.bing.com/search?q=UIA_E_ELEMENTNOTAVAILABLE">UIA_E_ELEMENTNOTAVAILABLE</a> 
 error code.
 
 This function cannot be called in response to a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectProvider</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.

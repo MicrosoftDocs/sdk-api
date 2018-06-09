@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setstrokedashoffset.htm
 old-project: printdocs
 ms.assetid: f6d222e4-9480-4dc7-9963-7dd637892281
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeDashOffset method, IXpsOMPath.SetStrokeDashOffset, IXpsOMPath::SetStrokeDashOffset, SetStrokeDashOffset, SetStrokeDashOffset method [XPS Documents and Packaging], SetStrokeDashOffset method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokedashoffset, xpsobjectmodel/IXpsOMPath::SetStrokeDashOffset
 ms.prod: windows
 ms.technology: windows-sdk

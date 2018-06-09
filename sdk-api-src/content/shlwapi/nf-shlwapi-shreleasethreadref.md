@@ -7,7 +7,7 @@ old-location: shell\SHReleaseThreadRef.htm
 old-project: shell
 ms.assetid: 7f3fd09b-baad-4019-a060-c68727aee61f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHReleaseThreadRef, SHReleaseThreadRef function [Windows Shell], _shell_SHReleaseThreadRef, shell.SHReleaseThreadRef, shlwapi/SHReleaseThreadRef
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\istream_unlockregion.htm
 old-project: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IStream interface [Structured Storage],UnlockRegion method, IStream.UnlockRegion, IStream::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],IStream interface, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
 ms.prod: windows
 ms.technology: windows-sdk

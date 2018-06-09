@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfo.htm
 old-project: mstv
 ms.assetid: 0f9dc48c-7df3-498b-b9ff-4610bd9e7ac2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordModuleInfo, GetRecordModuleInfo method [Microsoft TV Technologies], GetRecordModuleInfo method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfo method, IIsdbDownloadContentDescriptor.GetRecordModuleInfo, IIsdbDownloadContentDescriptor::GetRecordModuleInfo, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfo, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfo
 ms.prod: windows
 ms.technology: windows-sdk

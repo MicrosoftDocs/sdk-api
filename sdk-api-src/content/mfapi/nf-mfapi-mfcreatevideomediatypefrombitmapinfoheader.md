@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatypefrombitmapinfoheader.htm
 old-project: medfound
 ms.assetid: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 5c0f4915-2e8f-4b1e-bd49-39f1854d2640, MFCreateVideoMediaTypeFromBitMapInfoHeader, MFCreateVideoMediaTypeFromBitMapInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheader, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ Returns <b>E_FAIL</b>.
 
 
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/media-foundation-headers-and-libraries">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

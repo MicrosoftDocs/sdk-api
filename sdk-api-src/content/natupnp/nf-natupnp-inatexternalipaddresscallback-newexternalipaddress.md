@@ -7,7 +7,7 @@ old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm
 old-project: ICS
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The system calls the
 ### -param bstrNewExternalIPAddress [in]
 
 Specifies a 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the new external IP address.
+<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the new external IP address.
 
 
 ## -returns

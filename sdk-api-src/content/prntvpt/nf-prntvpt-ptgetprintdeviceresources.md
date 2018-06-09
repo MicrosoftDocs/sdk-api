@@ -7,7 +7,7 @@ old-location: xps\ptgetprintdeviceresources.htm
 old-project: printdocs
 ms.assetid: 39F17562-B8EB-41AF-BA55-42FE35B4560F
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceResources, xps.ptgetprintdeviceresources
 ms.prod: windows
 ms.technology: windows-sdk

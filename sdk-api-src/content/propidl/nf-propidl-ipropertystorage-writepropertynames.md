@@ -2,12 +2,12 @@
 UID: NF:propidl.IPropertyStorage.WritePropertyNames
 title: IPropertyStorage::WritePropertyNames
 author: windows-sdk-content
-description: Assigns string names to a specified array of property IDs in the current property set.
+description: Assigns string IPropertyStoragenames to a specified array of property IDs in the current property set.
 old-location: stg\ipropertystorage_writepropertynames.htm
 old-project: Stg
 ms.assetid: 3612bf29-344a-4389-bd3b-56b9fa297362
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],WritePropertyNames method, IPropertyStorage.WritePropertyNames, IPropertyStorage::WritePropertyNames, WritePropertyNames, WritePropertyNames method [Structured Storage], WritePropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writepropertynames, propidl/IPropertyStorage::WritePropertyNames, stg.ipropertystorage_writepropertynames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>WritePropertyNames</b> method
-			assigns string names to a specified array of property IDs in the current property set.
+			assigns string <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>names to a specified array of property IDs in the current property set.
 
 
 ## -parameters
@@ -108,6 +108,10 @@ If the value of an element in the <i>rgpropid</i> array parameter is set to 0xff
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

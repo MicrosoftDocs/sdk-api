@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_setvideowindow.htm
 old-project: medfound
 ms.assetid: 50bc345c-ee44-4174-9b1a-e406041096b5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 50bc345c-ee44-4174-9b1a-e406041096b5, IMFVideoDisplayControl interface [Media Foundation],SetVideoWindow method, IMFVideoDisplayControl.SetVideoWindow, IMFVideoDisplayControl::SetVideoWindow, SetVideoWindow, SetVideoWindow method [Media Foundation], SetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoWindow, mf.imfvideodisplaycontrol_setvideowindow
 ms.prod: windows
 ms.technology: windows-sdk

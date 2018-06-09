@@ -7,7 +7,7 @@ old-location: winprog\_getfilesizefromcontext.htm
 old-project: DevNotes
 ms.assetid: c44aab72-d5c8-43e0-b2ec-032904806227
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: GetFileSizeFromContext, GetFileSizeFromContext function [Windows API], filehc/GetFileSizeFromContext, winprog._getfilesizefromcontext
 ms.prod: windows
 ms.technology: windows-sdk

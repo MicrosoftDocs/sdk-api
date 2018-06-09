@@ -7,7 +7,7 @@ old-location: setup\setupcommitfilequeue.htm
 old-project: SetupApi
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
 ms.prod: windows
 ms.technology: windows-sdk

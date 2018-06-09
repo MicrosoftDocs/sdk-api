@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo.htm
 old-project: DirectShow
 ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow],described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ Properties set on the Video Renderer persist between successive connections and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -381,7 +381,7 @@ Sets the source rectangle.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
  
 
  

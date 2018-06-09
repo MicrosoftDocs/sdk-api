@@ -2,7 +2,7 @@
 UID: TP:msvs
 ms.assetid: 459a1035-086f-3028-856c-ee41bb56878c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Microsoft Virtual Server
 
-
+## -description
 
 Overview of the Microsoft Virtual Server technology.
 

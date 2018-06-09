@@ -2,12 +2,12 @@
 UID: NA:spellcheck
 ms.assetid: f76616ad-6324-32ad-b54a-894aef1cf4af
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: intl
+tech.root: spellcheck
 ---
 
 # Spellcheck.h header

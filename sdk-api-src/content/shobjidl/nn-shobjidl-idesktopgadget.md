@@ -7,7 +7,7 @@ old-location: shell\IDesktopGadget.htm
 old-project: shell
 ms.assetid: 7b3b273a-41ed-4d45-bde9-8250d74d10a9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], IDesktopGadget interface [Windows Shell],described, _shell_IDesktopGadget, shell.IDesktopGadget, shobjidl/IDesktopGadget
 ms.prod: windows
 ms.technology: windows-sdk

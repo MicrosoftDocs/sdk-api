@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Retrieves an <a href="shell.IPropertyDescription">IPropertyDescription</a> object that represents the related property.
+Retrieves an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> object that represents the related property.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A reference to the IID of the interface to retrieve through the <i>ppv</i> param
 
 Type: <b>void**</b>
 
-Receives the interface pointer requested in the parameter. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>.
+Receives the interface pointer requested in the parameter. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="shell.IPropertyDescriptionRelatedPropertyInfo">IPropertyDescriptionRelatedPropertyInfo</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionrelatedpropertyinfo.md">IPropertyDescriptionRelatedPropertyInfo</a>
 
 
 

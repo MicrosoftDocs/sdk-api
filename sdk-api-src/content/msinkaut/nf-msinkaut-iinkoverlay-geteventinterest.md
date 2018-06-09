@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_geteventinterest.htm
 old-project: tablet
 ms.assetid: 709ba46e-fc39-4b91-b145-72381a1195a1
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInterest method [Tablet PC], GetEventInterest method [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],GetEventInterest method, IInkOverlay.GetEventInterest, IInkOverlay::GetEventInterest, msinkaut/IInkOverlay::GetEventInterest, tablet.inkoverlay_geteventinterest
 ms.prod: windows
 ms.technology: windows-sdk

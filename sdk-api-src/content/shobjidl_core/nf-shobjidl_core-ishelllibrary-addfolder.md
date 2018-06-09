@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_AddFolder.htm
 old-project: shell
 ms.assetid: 7455998a-56a8-4fc1-882b-c0942fd35d8c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: AddFolder, AddFolder method [Windows Shell], AddFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],AddFolder method, IShellLibrary.AddFolder, IShellLibrary::AddFolder, _shell_IShellLibrary_AddFolder, shell.IShellLibrary_AddFolder, shobjidl_core/IShellLibrary::AddFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When a folder is added to a library it is also added to the <a href="_search_3x_WDS_Overview">Windows Search</a> index.
+When a folder is added to a library it is also added to the <a href="https://www.bing.com/search?q=Windows+Search">Windows Search</a> index.
 
 For convenience, <a href="https://msdn.microsoft.com/308e7905-dfa1-438f-9e7e-f895517e7adb">SHAddFolderPathToLibrary</a> can be used in place of this method.
 

@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getcertificate.htm
 old-project: SecCrypto
 ms.assetid: ba8fc725-c376-4e66-8417-777ce13f2954
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, CR_OUT_CRLS, GetCertificate, GetCertificate method [Security], GetCertificate method [Security],CCertRequest object, GetCertificate method [Security],ICertRequest interface, GetCertificate method [Security],ICertRequest2 interface, GetCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCertificate method, ICertRequest.GetCertificate, ICertRequest2 interface [Security],GetCertificate method, ICertRequest2::GetCertificate, ICertRequest3 interface [Security],GetCertificate method, ICertRequest3::GetCertificate, ICertRequest::GetCertificate, certcli/ICertRequest2::GetCertificate, certcli/ICertRequest3::GetCertificate, certcli/ICertRequest::GetCertificate, security.icertrequest2_getcertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,7 +153,7 @@ For example, to retrieve a binary certificate with complete certificate chain in
 
 A pointer to the <b>BSTR</b> that contains the certificate, in the specified format.
 
-When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: mf\imfstreamingsinkconfig_startstreaming.htm
 old-project: medfound
 ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStreaming method, IMFStreamingSinkConfig.StartStreaming, IMFStreamingSinkConfig::StartStreaming, StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation],IMFStreamingSinkConfig interface, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
 ms.prod: windows
 ms.technology: windows-sdk

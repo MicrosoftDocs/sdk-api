@@ -7,7 +7,7 @@ old-location: shell\RegisterScaleChangeNotifications.htm
 old-project: shell
 ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
 ms.prod: windows
 ms.technology: windows-sdk

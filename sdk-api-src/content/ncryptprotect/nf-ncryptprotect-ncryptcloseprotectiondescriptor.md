@@ -7,7 +7,7 @@ old-location: security\ncryptcloseprotectiondescriptor.htm
 old-project: SecCNG
 ms.assetid: 523FD83E-85A3-4A0E-BA8D-2F27F82C1072
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: NCryptCloseProtectionDescriptor, NCryptCloseProtectionDescriptor function [Security], ncryptprotect/NCryptCloseProtectionDescriptor, security.ncryptcloseprotectiondescriptor
 ms.prod: windows
 ms.technology: windows-sdk

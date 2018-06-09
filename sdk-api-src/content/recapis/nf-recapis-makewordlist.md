@@ -7,7 +7,7 @@ old-location: tablet\makewordlist.htm
 old-project: tablet
 ms.assetid: b406a646-ab98-4852-af6d-9f4864ad8cf9
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: MakeWordList, MakeWordList function [Tablet PC], b406a646-ab98-4852-af6d-9f4864ad8cf9, recapis/MakeWordList, tablet.makewordlist
 ms.prod: windows
 ms.technology: windows-sdk

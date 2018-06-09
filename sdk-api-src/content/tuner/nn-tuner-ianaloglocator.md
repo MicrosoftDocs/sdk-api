@@ -7,7 +7,7 @@ old-location: mstv\ianaloglocator.htm
 old-project: mstv
 ms.assetid: d5ed0dcc-347d-4196-a551-88775cb1b253
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IAnalogLocator, IAnalogLocator interface [Microsoft TV Technologies], IAnalogLocator interface [Microsoft TV Technologies],described, IAnalogLocatorInterface, mstv.ianaloglocator, tuner/IAnalogLocator
 ms.prod: windows
 ms.technology: windows-sdk

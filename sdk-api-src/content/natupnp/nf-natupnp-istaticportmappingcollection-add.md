@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_add.htm
 old-project: ICS
 ms.assetid: 5e61629d-80e4-4d44-8e53-12e17b399126
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingCollection interface, IStaticPortMappingCollection interface [ICS/ICF],Add method, IStaticPortMappingCollection.Add, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
 ms.prod: windows
 ms.technology: windows-sdk

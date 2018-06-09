@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplateimported_overwriteoncommit.htm
 old-project: Fsrm
 ms.assetid: 0172be46-f555-4d39-ab2e-890cde6b82b7
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmFileScreenTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmFileScreenTemplateImported.OverwriteOnCommit, IFsrmFileScreenTemplateImported.put_OverwriteOnCommit, IFsrmFileScreenTemplateImported::OverwriteOnCommit, IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmFileScreenTemplateImported interface, fs.ifsrmfilescreentemplateimported_overwriteoncommit, fsrm.ifsrmfilescreentemplateimported_overwriteoncommit, fsrmscreen/IFsrmFileScreenTemplateImported::OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, put_OverwriteOnCommit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\itocparser_addtoc.htm
 old-project: medfound
 ms.assetid: c99ccbb3-ba33-4d87-81a3-0de3c180554a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],AddToc method, ITocParser.AddToc, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
 ms.prod: windows
 ms.technology: windows-sdk

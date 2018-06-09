@@ -7,7 +7,7 @@ old-location: mscs\cluster_network_role.htm
 old-project: MsCS
 ms.assetid: 9c495cc4-d4d5-4465-9172-3171e55a14b0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: CLUSTER_NETWORK_ROLE, CLUSTER_NETWORK_ROLE enumeration [Failover Cluster], ClusterNetworkRoleClientAccess, ClusterNetworkRoleInternalAndClient, ClusterNetworkRoleInternalUse, ClusterNetworkRoleNone, _CLUSTER_NETWORK_ROLE, _CLUSTER_NETWORK_ROLE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ROLE, clusapi/ClusterNetworkRoleClientAccess, clusapi/ClusterNetworkRoleInternalAndClient, clusapi/ClusterNetworkRoleInternalUse, clusapi/ClusterNetworkRoleNone, clusapi/_CLUSTER_NETWORK_ROLE, msclus/CLUSTER_NETWORK_ROLE, msclus/ClusterNetworkRoleClientAccess, msclus/ClusterNetworkRoleInternalAndClient, msclus/ClusterNetworkRoleInternalUse, msclus/ClusterNetworkRoleNone, msclus/_CLUSTER_NETWORK_ROLE, mscs.cluster_network_role
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\iupdatesession2_userlocale.htm
 old-project: Wua_Sdk
 ms.assetid: 30ee1836-ea70-4dd1-b531-a7ca32ca940d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateSession2 interface [Windows Update Agent],UserLocale property, IUpdateSession2.UserLocale, IUpdateSession2.put_UserLocale, IUpdateSession2::UserLocale, IUpdateSession2::get_UserLocale, IUpdateSession2::put_UserLocale, UserLocale property [Windows Update Agent], UserLocale property [Windows Update Agent],IUpdateSession2 interface, put_UserLocale, wua.iupdatesession2_userlocale, wuapi/IUpdateSession2::UserLocale, wuapi/IUpdateSession2::get_UserLocale, wuapi/IUpdateSession2::put_UserLocale
 ms.prod: windows
 ms.technology: windows-sdk

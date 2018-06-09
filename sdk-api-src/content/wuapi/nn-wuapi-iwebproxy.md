@@ -7,7 +7,7 @@ old-location: wua\iwebproxy.htm
 old-project: Wua_Sdk
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
 ms.prod: windows
 ms.technology: windows-sdk

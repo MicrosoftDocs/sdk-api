@@ -95,7 +95,7 @@ The user-friendly name for the GPO from which this application is deployed.
 
 ### -field ProductId
 
-If this application is installed by <a href="setup.windows_installer_start_page">Windows Installer</a>, this member is the ProductId GUID.
+If this application is installed by <a href="https://www.bing.com/search?q=Windows+Installer">Windows Installer</a>, this member is the ProductId GUID.
 
 
 ### -field Language
@@ -136,7 +136,7 @@ Indicates the type of package used to install the application. This member can h
 
 #### MANAGED_APPTYPE_WINDOWSINSTALLER
 
-The application is installed using the <a href="setup.windows_installer_start_page">Windows Installer</a>.
+The application is installed using the <a href="https://www.bing.com/search?q=Windows+Installer">Windows Installer</a>.
 
 
 

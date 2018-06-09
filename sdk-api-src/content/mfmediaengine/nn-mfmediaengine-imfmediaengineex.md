@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex.htm
 old-project: medfound
 ms.assetid: EE3591FD-4FE8-4F20-A4E2-52C896229571
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IMFMediaEngineEx interface [Media Foundation],described, mf.imfmediaengineex, mfmediaengine/IMFMediaEngineEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

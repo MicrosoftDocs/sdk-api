@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistercallback.htm
 old-project: wmformat
 ms.assetid: 3831b727-7fdc-4d05-a7b3-86ca5b5c3b17
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], IWMRegisterCallback interface [windows Media Format],described, IWMRegisterCallbackInterface, wmformat.iwmregistercallback, wmsdkidl/IWMRegisterCallback
 ms.prod: windows
 ms.technology: windows-sdk

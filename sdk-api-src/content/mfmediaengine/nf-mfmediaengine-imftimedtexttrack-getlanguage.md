@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getlanguage.htm
 old-project: medfound
 ms.assetid: 5676082D-A3D2-4239-A73F-65FA77D660EF
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLanguage method, IMFTimedTextTrack.GetLanguage, IMFTimedTextTrack::GetLanguage, mf.imftimedtexttrack_getlanguage, mfmediaengine/IMFTimedTextTrack::GetLanguage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

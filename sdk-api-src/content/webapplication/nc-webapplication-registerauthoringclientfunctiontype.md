@@ -7,7 +7,7 @@ old-location: debug\registerauthoringclientfunctiontype.htm
 old-project: debug_wwahost
 ms.assetid: 31414CBA-12A3-45F8-967B-7ECD9D90D0F6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/04/2018
 ms.keywords: RegisterAuthoringClientFunctionType, RegisterAuthoringClientFunctionType function, RegisterAuthoringClientFunctionType function pointer [Debugging Windows Store apps], debug.registerauthoringclientfunctiontype, webapplication/RegisterAuthoringClientFunctionType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfreadwriteclassfactory_createinstancefromurl.htm
 old-project: medfound
 ms.assetid: 2769faa2-e381-4908-95f8-122ae4cd7ec5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL, CreateInstanceFromURL method [Media Foundation], CreateInstanceFromURL method [Media Foundation],IMFReadWriteClassFactory interface, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromURL method, IMFReadWriteClassFactory.CreateInstanceFromURL, IMFReadWriteClassFactory::CreateInstanceFromURL, mf.imfreadwriteclassfactory_createinstancefromurl, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromURL
 ms.prod: windows
 ms.technology: windows-sdk

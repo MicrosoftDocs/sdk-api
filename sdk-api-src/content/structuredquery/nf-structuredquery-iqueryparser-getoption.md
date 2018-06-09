@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_GetOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getoption.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetOption, GetOption method [search], GetOption method [search],IQueryParser interface, IQueryParser interface [search],GetOption method, IQueryParser.GetOption, IQueryParser::GetOption, _search_IQueryParser_GetOption, search._search_IQueryParser_GetOption, structuredquery/IQueryParser::GetOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec1
 
 ### -param pOptionValue [out, retval]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 
           Receives a pointer to the specified option value. For more information, see <a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a>.

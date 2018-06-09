@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setbordercolor.htm
 old-project: medfound
 ms.assetid: f66b671d-0c7d-4261-8210-05f2d2f8d9a5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBorderColor method, IMFPMediaPlayer.SetBorderColor, IMFPMediaPlayer::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbordercolor, mfplay/IMFPMediaPlayer::SetBorderColor
 ms.prod: windows
 ms.technology: windows-sdk

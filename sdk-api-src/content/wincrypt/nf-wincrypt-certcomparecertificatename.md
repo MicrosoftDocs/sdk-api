@@ -7,7 +7,7 @@ old-location: security\certcomparecertificatename.htm
 old-project: SecCrypto
 ms.assetid: 6249429d-0cb2-4209-9580-87185d44b967
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertCompareCertificateName, CertCompareCertificateName function [Security], _crypto2_certcomparecertificatename, security.certcomparecertificatename, wincrypt/CertCompareCertificateName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

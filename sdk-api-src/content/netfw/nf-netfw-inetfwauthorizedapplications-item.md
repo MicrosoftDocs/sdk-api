@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplications_item.htm
 old-project: ICS
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
 ms.prod: windows
 ms.technology: windows-sdk

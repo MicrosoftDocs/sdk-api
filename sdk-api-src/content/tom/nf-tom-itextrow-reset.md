@@ -63,7 +63,7 @@ Resets a row.
 
 Type: <b>long</b>
 
-The <a href="tomconstants.htm">tomRowUpdate</a> reset value.
+The <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRowUpdate</a> reset value.
 
 
 ## -returns

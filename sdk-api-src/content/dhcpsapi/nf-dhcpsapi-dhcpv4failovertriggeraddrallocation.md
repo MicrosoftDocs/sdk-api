@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovertriggeraddrallocation.htm
 old-project: DHCP
 ms.assetid: ff258179-1091-4338-9317-68fd8fe5a556
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAllocation function [DHCP], dhcp.dhcpv4failovertriggeraddrallocation, dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
 ms.prod: windows
 ms.technology: windows-sdk

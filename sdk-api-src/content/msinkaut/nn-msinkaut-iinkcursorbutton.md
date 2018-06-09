@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbutton.htm
 old-project: tablet
 ms.assetid: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2, IInkCursorButton, IInkCursorButton interface [Tablet PC], IInkCursorButton interface [Tablet PC],described, msinkaut/IInkCursorButton, tablet.iinkcursorbutton
 ms.prod: windows
 ms.technology: windows-sdk

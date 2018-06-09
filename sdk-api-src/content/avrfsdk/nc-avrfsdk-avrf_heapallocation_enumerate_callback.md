@@ -7,7 +7,7 @@ old-location: winprog\avrf_heap_allocation_enumerate_callback.htm
 old-project: DevNotes
 ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, base.avrf_heap_allocation_enumerate_callback, winprog.avrf_heap_allocation_enumerate_callback
 ms.prod: windows
 ms.technology: windows-sdk

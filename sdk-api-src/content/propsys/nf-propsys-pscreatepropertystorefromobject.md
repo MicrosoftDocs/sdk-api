@@ -124,7 +124,7 @@ If the object pointed to by <i>punk</i> already supports <a href="https://msdn.m
 
 
 
-<a href="shell.PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="https://www.bing.com/search?q=PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

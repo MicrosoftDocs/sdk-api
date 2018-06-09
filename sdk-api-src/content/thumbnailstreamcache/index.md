@@ -2,7 +2,7 @@
 UID: NA:thumbnailstreamcache
 ms.assetid: c2d12ac4-72ff-3ea3-bb19-7d90db1388e7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory5_checkfeaturesupport.htm
 old-project: direct3ddxgi
 ms.assetid: 959F83F8-ADC6-4609-8F63-BEDDFC2EF088
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [DXGI], CheckFeatureSupport method [DXGI],IDXGIFactory5 interface, IDXGIFactory5 interface [DXGI],CheckFeatureSupport method, IDXGIFactory5.CheckFeatureSupport, IDXGIFactory5::CheckFeatureSupport, direct3ddxgi.idxgifactory5_checkfeaturesupport, dxgi1_5/IDXGIFactory5::CheckFeatureSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The size, in bytes, of <i>pFeatureSupportData</i>.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

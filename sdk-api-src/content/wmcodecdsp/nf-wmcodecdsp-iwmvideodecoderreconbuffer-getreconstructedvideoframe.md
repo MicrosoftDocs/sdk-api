@@ -7,7 +7,7 @@ old-location: mf\iwmvideodecoderreconbuffergetreconstructedvideoframe.htm
 old-project: medfound
 ms.assetid: 6e952923-2043-4b0d-b936-c570373a3544
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetReconstructedVideoFrame, GetReconstructedVideoFrame method [Media Foundation], GetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframe, mf.iwmvideodecoderreconbuffergetreconstructedvideoframe, wmcodecdsp/ IWMVideoDecoderReconBuffer::GetReconstructedVideoFrame
 ms.prod: windows
 ms.technology: windows-sdk

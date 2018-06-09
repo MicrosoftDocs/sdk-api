@@ -7,7 +7,7 @@ old-location: mscs\resutilsetexpandszvalue.htm
 old-project: MsCS
 ms.assetid: a2049be4-cebb-45bf-b2f7-40841e379b12
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE callback, PRESUTIL_SET_EXPAND_SZ_VALUE callback function [Failover Cluster], _wolf_resutilsetexpandszvalue, mscs.resutilsetexpandszvalue, resapi/PRESUTIL_SET_EXPAND_SZ_VALUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Sets an <a href="e_gly.htm">expandable string</a> value in the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>. The <b>PRESUTIL_SET_EXPAND_SZ_VALUE</b> type defines a pointer to this function.
+Sets an <a href="https://www.bing.com/search?q=expandable+string">expandable string</a> value in the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>. The <b>PRESUTIL_SET_EXPAND_SZ_VALUE</b> type defines a pointer to this function.
 
 
 ## -parameters

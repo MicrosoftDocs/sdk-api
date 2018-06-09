@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_get_DataTimeout.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_datatimeout.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchCatalogManager interface [search],get_DataTimeout method, ISearchCatalogManager.get_DataTimeout, ISearchCatalogManager::get_DataTimeout, _search_ISearchCatalogManager_get_DataTimeout, get_DataTimeout, get_DataTimeout method [search], get_DataTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_DataTimeout, searchapi/ISearchCatalogManager::get_DataTimeout
 ms.prod: windows
 ms.technology: windows-sdk

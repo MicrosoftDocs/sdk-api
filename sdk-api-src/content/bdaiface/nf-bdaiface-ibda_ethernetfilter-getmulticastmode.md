@@ -7,7 +7,7 @@ old-location: mstv\ibda_ethernetfilter_getmulticastmode.htm
 old-project: mstv
 ms.assetid: 8a0a5dbb-642a-458b-a5b2-80e993ab61ca
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetMulticastMode, GetMulticastMode method [Microsoft TV Technologies], GetMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastMode method, IBDA_EthernetFilter.GetMulticastMode, IBDA_EthernetFilter::GetMulticastMode, IBDA_EthernetFilterGetMulticastMode, bdaiface/IBDA_EthernetFilter::GetMulticastMode, mstv.ibda_ethernetfilter_getmulticastmode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getemm.htm
 old-project: mstv
 ms.assetid: 9dc2aaa9-50f0-4c72-a252-3757a1aa13b7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetEMM, GetEMM method [Microsoft TV Technologies], GetEMM method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetEMM method, IIsdbSiParser2.GetEMM, IIsdbSiParser2::GetEMM, dvbsiparser/IIsdbSiParser2::GetEMM, mstv.iisdbsiparser2_getemm
 ms.prod: windows
 ms.technology: windows-sdk

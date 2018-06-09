@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getstrokeendlinecap.htm
 old-project: printdocs
 ms.assetid: 54b4f6e7-3a76-48d3-a180-2bb3a532fc67
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetStrokeEndLineCap, GetStrokeEndLineCap method [XPS Documents and Packaging], GetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeEndLineCap method, IXpsOMPath.GetStrokeEndLineCap, IXpsOMPath::GetStrokeEndLineCap, xps.ixpsompath_getstrokeendlinecap, xpsobjectmodel/IXpsOMPath::GetStrokeEndLineCap
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\cinstance.htm
 old-project: WmiSdk
 ms.assetid: aed29340-eb64-437d-b7e8-4f0e49c8288a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CInstance, CInstance class [Windows Management Instrumentation], CInstance class [Windows Management Instrumentation],described, _hmm_cinstance, instance/CInstance, wmi.cinstance
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getvct.htm
 old-project: mstv
 ms.assetid: d3df008e-020f-4ed3-9422-2d5f0f0b865f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetVCT, GetVCT method [Microsoft TV Technologies], GetVCT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetVCT method, IAtscPsipParser.GetVCT, IAtscPsipParser::GetVCT, IAtscPsipParserGetVCT, atscpsipparser/IAtscPsipParser::GetVCT, mstv.iatscpsipparser_getvct
 ms.prod: windows
 ms.technology: windows-sdk

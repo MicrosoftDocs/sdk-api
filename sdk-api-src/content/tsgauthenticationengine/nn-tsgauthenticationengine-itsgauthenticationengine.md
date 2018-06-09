@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticationengine.htm
 old-project: TermServ
 ms.assetid: c72f3f22-a403-45b0-9ccb-6339ae001024
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], ITSGAuthenticationEngine interface [Remote Desktop Services],described, termserv.itsgauthenticationengine, tsgauthenticationengine/ITSGAuthenticationEngine
 ms.prod: windows
 ms.technology: windows-sdk

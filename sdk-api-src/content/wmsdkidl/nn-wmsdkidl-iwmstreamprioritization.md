@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamprioritization.htm
 old-project: wmformat
 ms.assetid: ef8ae275-c36a-492c-b57c-d640044ede93
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], IWMStreamPrioritization interface [windows Media Format],described, IWMStreamPrioritizationInterface, wmformat.iwmstreamprioritization, wmsdkidl/IWMStreamPrioritization
 ms.prod: windows
 ms.technology: windows-sdk

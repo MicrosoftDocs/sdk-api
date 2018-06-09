@@ -69,7 +69,7 @@ Handle to the tab control.
 
 
 
-Only tab controls that have the <a href="Tab_Control_Styles.htm">TCS_MULTILINE</a> style can have multiple rows of tabs. 
+Only tab controls that have the <a href="https://www.bing.com/search?q=TCS_MULTILINE">TCS_MULTILINE</a> style can have multiple rows of tabs. 
 
 
 

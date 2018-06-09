@@ -7,7 +7,7 @@ old-location: mf\imfratesupport_getfastestrate.htm
 old-project: medfound
 ms.assetid: 00413771-21cb-48a7-9080-2c3d195c366b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate, GetFastestRate method [Media Foundation], GetFastestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetFastestRate method, IMFRateSupport.GetFastestRate, IMFRateSupport::GetFastestRate, mf.imfratesupport_getfastestrate, mfidl/IMFRateSupport::GetFastestRate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputstatus.htm
 old-project: medfound
 ms.assetid: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d, GetOutputStatus, GetOutputStatus method [Media Foundation], GetOutputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStatus method, IMFTransform.GetOutputStatus, IMFTransform::GetOutputStatus, mf.imftransform_getoutputstatus, mftransform/IMFTransform::GetOutputStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,7 +147,7 @@ req.product: GDI+ 1.1
         After the client has set valid media types on all of the streams, the MFT should always be in one of two states: Able to accept more input, or able to produce more output.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputStatus</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputStatus</b>. See <a href="https://docs.microsoft.com/windows/desktop//medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

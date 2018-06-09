@@ -7,7 +7,7 @@ old-location: security\cryptmsgclose.htm
 old-project: SecCrypto
 ms.assetid: 2478dd60-233a-4ef3-86e9-62d2a59ab28a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptMsgClose, CryptMsgClose function [Security], _crypto2_cryptmsgclose, security.cryptmsgclose, wincrypt/CryptMsgClose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,11 +89,11 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="cryptography_functions.htm">Low-level Message Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
  
 
  

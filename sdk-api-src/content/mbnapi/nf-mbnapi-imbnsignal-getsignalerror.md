@@ -7,7 +7,7 @@ old-location: mbn\imbnsignal_getsignalerror.htm
 old-project: mbn
 ms.assetid: 028adb54-9c81-4a5b-85f7-5c12ce8d84e4
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: GetSignalError, GetSignalError method [Microsoft Broadband Networks], GetSignalError method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalError method, IMbnSignal.GetSignalError, IMbnSignal::GetSignalError, mbn.imbnsignal_getsignalerror, mbnapi/IMbnSignal::GetSignalError
 ms.prod: windows
 ms.technology: windows-sdk

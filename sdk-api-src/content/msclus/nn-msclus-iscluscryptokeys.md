@@ -7,7 +7,7 @@ old-location: mscs\cluscryptokeys_collection.htm
 old-project: MsCS
 ms.assetid: 0078ba7a-24d7-4de6-af05-f1a03d9deb0a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusCryptoKeys, ClusCryptoKeys collection [Failover Cluster], ClusCryptoKeys collection [Failover Cluster],described, ISClusCryptoKeys, _wolf_cluscryptokeys_collection, msclus/ClusCryptoKeys, mscs.cluscryptokeys_collection
 ms.prod: windows
 ms.technology: windows-sdk

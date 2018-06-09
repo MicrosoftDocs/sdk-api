@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_pantilt.htm
 old-project: DirectShow
 ms.assetid: 88f67970-2946-49f9-9c90-e562f37edd83
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanTilt method, ICameraControl.get_PanTilt, ICameraControl::get_PanTilt, ICameraControlget_PanTilt, dshow.icameracontrol_get_pantilt, get_PanTilt, get_PanTilt method [DirectShow], get_PanTilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanTilt
 ms.prod: windows
 ms.technology: windows-sdk

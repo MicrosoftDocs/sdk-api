@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnot
 old-project: WinAuto
 ms.assetid: 876ED365-C860-4C71-BF98-D940D49F2A9D
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetCurrentAnnotationObjects, GetCurrentAnnotationObjects method [Windows Accessibility], GetCurrentAnnotationObjects method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationObjects method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects
 ms.prod: windows
 ms.technology: windows-sdk

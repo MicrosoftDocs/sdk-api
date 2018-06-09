@@ -7,7 +7,7 @@ old-location: mf\mfcreateavimediasink.htm
 old-project: medfound
 ms.assetid: BAF47469-783B-4035-BD83-2921A88877E4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateAVIMediaSink, MFCreateAVIMediaSink function [Media Foundation], mf.mfcreateavimediasink, mfidl/MFCreateAVIMediaSink
 ms.prod: windows
 ms.technology: windows-sdk

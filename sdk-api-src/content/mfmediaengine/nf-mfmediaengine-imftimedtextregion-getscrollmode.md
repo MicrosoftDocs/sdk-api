@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getscrollmode.htm
 old-project: medfound
 ms.assetid: 85CD2A7A-23ED-4D5C-AAEC-D5DF9F059897
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetScrollMode, GetScrollMode method [Media Foundation], GetScrollMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetScrollMode method, IMFTimedTextRegion.GetScrollMode, IMFTimedTextRegion::GetScrollMode, mf.imftimedtextregion_getscrollmode, mfmediaengine/IMFTimedTextRegion::GetScrollMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

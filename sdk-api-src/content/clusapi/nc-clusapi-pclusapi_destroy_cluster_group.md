@@ -7,7 +7,7 @@ old-location: mscs\destroyclustergroup.htm
 old-project: MsCS
 ms.assetid: ac293d5b-edc8-4c5f-9b05-9e2349bf1453
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_DESTROY_CLUSTER_GROUP, PCLUSAPI_DESTROY_CLUSTER_GROUP callback, PCLUSAPI_DESTROY_CLUSTER_GROUP callback function [Failover Cluster], clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP, mscs.destroyclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

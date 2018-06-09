@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getpositions.htm
 old-project: DirectShow
 ms.assetid: 1b267c02-ec2d-4251-aac7-f2f711b16062
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetPositions, GetPositions method [DirectShow], GetPositions method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPositions method, IMediaSeeking.GetPositions, IMediaSeeking::GetPositions, IMediaSeekingGetPositions, dshow.imediaseeking_getpositions, strmif/IMediaSeeking::GetPositions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_registerforwhencurrent.htm
 old-project: mstv
 ms.assetid: d68cd8f7-e152-4105-8bc3-e9dad68e4e68
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVB_BAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_BAT.RegisterForWhenCurrent, IDVB_BAT::RegisterForWhenCurrent, IDVB_BATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_BAT interface, dvbsiparser/IDVB_BAT::RegisterForWhenCurrent, mstv.idvb_bat_registerforwhencurrent
 ms.prod: windows
 ms.technology: windows-sdk

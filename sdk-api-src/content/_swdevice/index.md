@@ -2,7 +2,7 @@
 UID: TP:swdevice
 ms.assetid: f47ebb6d-949d-39df-8a1a-b01027d265cc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Software Device API
 
-
+## -description
 
 Overview of the Software Device API technology.
 

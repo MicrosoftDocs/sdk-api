@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getregion.htm
 old-project: medfound
 ms.assetid: 8F5CE96E-9714-4F1A-8CB5-87FA24735B9D
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetRegion, GetRegion method [Media Foundation], GetRegion method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetRegion method, IMFTimedTextCue.GetRegion, IMFTimedTextCue::GetRegion, mf.imftimedtextcue_getregion, mfmediaengine/IMFTimedTextCue::GetRegion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

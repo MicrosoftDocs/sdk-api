@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getdata.htm
 old-project: medfound
 ms.assetid: 18884B70-DE34-494E-A029-6DD48AB0BA13
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetData method, IMFTimedTextCue.GetData, IMFTimedTextCue::GetData, mf.imftimedtextcue_getdata, mfmediaengine/IMFTimedTextCue::GetData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

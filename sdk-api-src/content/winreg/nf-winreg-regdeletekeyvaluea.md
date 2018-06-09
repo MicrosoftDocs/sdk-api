@@ -7,7 +7,7 @@ old-location: base\regdeletekeyvalue.htm
 old-project: SysInfo
 ms.assetid: a4a082c2-8cf3-41eb-87c0-a6c453821f8b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: RegDeleteKeyValue, RegDeleteKeyValue function, RegDeleteKeyValueA, RegDeleteKeyValueW, base.regdeletekeyvalue, winreg/RegDeleteKeyValue, winreg/RegDeleteKeyValueA, winreg/RegDeleteKeyValueW
 ms.prod: windows
 ms.technology: windows-sdk

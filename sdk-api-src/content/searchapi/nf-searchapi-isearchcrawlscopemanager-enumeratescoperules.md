@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_EnumerateScopeRules.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumeratescoperules.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: EnumerateScopeRules, EnumerateScopeRules method [search], EnumerateScopeRules method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateScopeRules method, ISearchCrawlScopeManager.EnumerateScopeRules, ISearchCrawlScopeManager::EnumerateScopeRules, _search_ISearchCrawlScopeManager_EnumerateScopeRules, search._search_ISearchCrawlScopeManager_EnumerateScopeRules, searchapi/ISearchCrawlScopeManager::EnumerateScopeRules
 ms.prod: windows
 ms.technology: windows-sdk

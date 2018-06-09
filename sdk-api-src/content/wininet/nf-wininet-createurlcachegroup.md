@@ -62,7 +62,7 @@ Generates cache group identifications.
 ### -param dwFlags [in]
 
 Controls the creation of the cache group. This parameter can be set to 
-<a href="cache_group_constants.htm">CACHEGROUP_FLAG_GIDONLY</a>, which causes 
+<a href="https://www.bing.com/search?q=CACHEGROUP_FLAG_GIDONLY">CACHEGROUP_FLAG_GIDONLY</a>, which causes 
 <b>CreateUrlCacheGroup</b> to generate a unique GROUPID, but does not create a physical group.
 
 

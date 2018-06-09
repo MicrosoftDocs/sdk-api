@@ -7,7 +7,7 @@ old-location: mscs\deleteclustergroup.htm
 old-project: MsCS
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_GROUP, PCLUSAPI_DELETE_CLUSTER_GROUP callback, PCLUSAPI_DELETE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_deleteclustergroup, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP, mscs.deleteclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

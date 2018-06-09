@@ -2,12 +2,12 @@
 UID: NA:fwptypes
 ms.assetid: 7b41e74f-a163-3d17-835e-8346c2dab457
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: netvista
+tech.root: fwp
 ---
 
 # Fwptypes.h header

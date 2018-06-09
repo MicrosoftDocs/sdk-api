@@ -7,7 +7,7 @@ old-location: mscs\igetclusterresourceinfo_getresourcehandle.htm
 old-project: MsCS
 ms.assetid: a03436da-e12a-45ac-9ac1-1d1896f87fd7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: GetResourceHandle, GetResourceHandle method [Failover Cluster], GetResourceHandle method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceHandle method, IGetClusterResourceInfo.GetResourceHandle, IGetClusterResourceInfo::GetResourceHandle, _wolf_igetclusterresourceinfo_getresourcehandle, cluadmex/IGetClusterResourceInfo::GetResourceHandle, mscs.igetclusterresourceinfo_getresourcehandle
 ms.prod: windows
 ms.technology: windows-sdk

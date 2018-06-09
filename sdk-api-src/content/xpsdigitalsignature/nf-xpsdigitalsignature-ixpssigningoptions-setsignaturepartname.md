@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_setsignaturepartname.htm
 old-project: printdocs
 ms.assetid: 24addd5c-09a5-4f1b-90eb-c398aa7dd9a1
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignaturePartName method, IXpsSigningOptions.SetSignaturePartName, IXpsSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [XPS Documents and Packaging], SetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName
 ms.prod: windows
 ms.technology: windows-sdk

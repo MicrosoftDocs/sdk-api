@@ -7,7 +7,7 @@ old-location: winrt\metadatagetdispenser.htm
 old-project: WinRT
 ms.assetid: F540CD4F-BDFB-44F8-B3A8-BFDA9199F2B9
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: MetaDataGetDispenser, MetaDataGetDispenser function [Windows Runtime], rometadata/MetaDataGetDispenser, winrt.metadatagetdispenser
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\ifecommon_isdefaultime.htm
 old-project: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
 ms.prod: windows
 ms.technology: windows-sdk

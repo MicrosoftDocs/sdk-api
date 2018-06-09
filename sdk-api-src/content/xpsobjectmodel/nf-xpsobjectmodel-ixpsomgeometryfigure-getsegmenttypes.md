@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_getsegmenttypes.htm
 old-project: printdocs
 ms.assetid: a440c227-33c9-42f9-8f4a-4cbe6281f9ad
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetSegmentTypes, GetSegmentTypes method [XPS Documents and Packaging], GetSegmentTypes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentTypes method, IXpsOMGeometryFigure.GetSegmentTypes, IXpsOMGeometryFigure::GetSegmentTypes, xps.ixpsomgeometryfigure_getsegmenttypes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentTypes
 ms.prod: windows
 ms.technology: windows-sdk

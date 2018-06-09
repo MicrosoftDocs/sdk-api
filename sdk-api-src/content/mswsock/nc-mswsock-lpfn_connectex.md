@@ -109,7 +109,7 @@ An
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function to get extended error information. If a call to the 
 <b>WSAGetLastError</b> function returns <b>ERROR_IO_PENDING</b>, the operation initiated successfully and is in progress. Under such circumstances, the call may still fail when the overlapped operation completes.
 
-If the error code returned is <a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a>, <a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a>, or <a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a>, the application can call 
+If the error code returned is <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a>, <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENETUNREACH</a>, or <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>, the application can call 
 <b>ConnectEx</b>, 
 <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a>, or 
 <a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a> again on the same socket.
@@ -122,7 +122,7 @@ If the error code returned is <a href="windows_sockets_error_codes_2.htm">WSAECO
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -146,7 +146,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEADDRINUSE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +160,7 @@ The local address of the socket is already in use, and the socket was not marked
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEALREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -174,7 +174,7 @@ A nonblocking
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEADDRNOTAVAIL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ The remote address is not a valid address, such as ADDR_ANY (the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ Addresses in the specified family cannot be used with this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ The attempt to connect was rejected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ The <i>name</i>, <i>lpSendBuffer</i>, or <i>lpOverlapped</i> parameter is not a 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ The parameter <i>s</i> is an unbound or a listening socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEISCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -241,7 +241,7 @@ The socket is already connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENETUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -252,7 +252,7 @@ The network cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEHOSTUNREACH</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEHOSTUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -263,7 +263,7 @@ A socket operation was attempted to an unreachable host.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -274,7 +274,7 @@ No buffer space is available; the socket cannot be connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -285,7 +285,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -440,7 +440,7 @@ else {
 
 If the address parameter of the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure pointed to in the <i>name</i> parameter is all zeros, 
-<b>ConnectEx</b> returns the error <a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code <a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a>.
+<b>ConnectEx</b> returns the error <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEISCONN</a>.
 
 When a connected socket becomes closed for any reason, it is recommended that the socket be discarded and a new socket created. The reasoning for this is that it  is safest to assume that when things go awry on a connected socket for any reason, the application must discard teh socket and create the needed socket again in order to return to a stable point.
 

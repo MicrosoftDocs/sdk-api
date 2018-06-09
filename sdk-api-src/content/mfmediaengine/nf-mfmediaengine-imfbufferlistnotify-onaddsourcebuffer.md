@@ -7,7 +7,7 @@ old-location: mf\imfbufferlistnotify_onaddsourcebuffer.htm
 old-project: medfound
 ms.assetid: 94b943d7-b67a-4f35-b5a6-2e89b4018ff3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFBufferListNotify interface [Media Foundation],OnAddSourceBuffer method, IMFBufferListNotify.OnAddSourceBuffer, IMFBufferListNotify::OnAddSourceBuffer, OnAddSourceBuffer, OnAddSourceBuffer method [Media Foundation], OnAddSourceBuffer method [Media Foundation],IMFBufferListNotify interface, mf.imfbufferlistnotify_onaddsourcebuffer, mfmediaengine/IMFBufferListNotify::OnAddSourceBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

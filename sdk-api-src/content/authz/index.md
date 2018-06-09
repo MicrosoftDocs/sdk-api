@@ -2,7 +2,7 @@
 UID: NA:authz
 ms.assetid: 09b42913-d051-3d7b-818e-5593f803d25c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

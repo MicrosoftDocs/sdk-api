@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection.htm
 old-project: printdocs
 ms.assetid: 24ed79ff-9160-4e9b-b322-c538b30f113b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigurecollection, xpsobjectmodel/IXpsOMGeometryFigureCollection
 ms.prod: windows
 ms.technology: windows-sdk

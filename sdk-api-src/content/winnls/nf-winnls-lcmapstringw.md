@@ -7,7 +7,7 @@ old-location: intl\lcmapstring.htm
 old-project: Intl
 ms.assetid: 84dda2cd-cbf9-45e9-b18c-7dea0b5bc991
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: LCMapString, LCMapString function [Internationalization for Windows Applications], LCMapStringA, LCMapStringW, _win32_LCMapString, intl.lcmapstring, winnls/LCMapString, winnls/LCMapStringA, winnls/LCMapStringW
 ms.prod: windows
 ms.technology: windows-sdk

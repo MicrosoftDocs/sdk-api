@@ -7,7 +7,7 @@ old-location: shell\UrlFixupW.htm
 old-project: shell
 ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
 ms.prod: windows
 ms.technology: windows-sdk

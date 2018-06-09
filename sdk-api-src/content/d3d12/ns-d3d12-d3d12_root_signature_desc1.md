@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_signature_desc1.htm
 old-project: direct3d12
 ms.assetid: F085D077-1DA8-41A1-9FA3-4423EA003345
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC1, D3D12_ROOT_SIGNATURE_DESC1 structure, d3d12/D3D12_ROOT_SIGNATURE_DESC1, direct3d12.d3d12_root_signature_desc1
 ms.prod: windows
 ms.technology: windows-sdk

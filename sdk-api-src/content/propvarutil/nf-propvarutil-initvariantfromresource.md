@@ -100,7 +100,7 @@ Creates a VT_BSTR variant. If the resource does not exist, this function initial
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromResource">InitVariantFromResource</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromResource">InitVariantFromResource</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,11 +131,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromResource">InitPropVariantFromResource</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromResource">InitPropVariantFromResource</a>
 
 
 
-<a href="shell.InitVariantFromString">InitVariantFromString</a>
+<a href="https://www.bing.com/search?q=InitVariantFromString">InitVariantFromString</a>
 
 
 
@@ -143,11 +143,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.VariantToString">VariantToString</a>
+<a href="https://www.bing.com/search?q=VariantToString">VariantToString</a>
 
 
 
-<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
+<a href="https://www.bing.com/search?q=VariantToStringWithDefault">VariantToStringWithDefault</a>
  
 
  

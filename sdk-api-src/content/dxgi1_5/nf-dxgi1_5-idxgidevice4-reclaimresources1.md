@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice4_reclaimresources1.htm
 old-project: direct3ddxgi
 ms.assetid: 83D09C41-CB96-4ADA-AE38-7D9542CCCFE0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],ReclaimResources1 method, IDXGIDevice4.ReclaimResources1, IDXGIDevice4::ReclaimResources1, ReclaimResources1, ReclaimResources1 method [DXGI], ReclaimResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_reclaimresources1, dxgi1_5/IDXGIDevice4::ReclaimResources1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ A pointer to an array that receives <a href="https://msdn.microsoft.com/AF7082A5
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the resources are invalid.
 

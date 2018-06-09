@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_setdesiredpacketdescription.htm
 old-project: tablet
 ms.assetid: 1ea8359b-fc9f-4929-9499-c5017eb3d763
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 1ea8359b-fc9f-4929-9499-c5017eb3d763, IRealTimeStylus interface [Tablet PC],SetDesiredPacketDescription method, IRealTimeStylus.SetDesiredPacketDescription, IRealTimeStylus::SetDesiredPacketDescription, SetDesiredPacketDescription, SetDesiredPacketDescription method [Tablet PC], SetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetDesiredPacketDescription, tablet.irealtimestylus_setdesiredpacketdescription
 ms.prod: windows
 ms.technology: windows-sdk

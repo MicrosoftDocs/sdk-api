@@ -7,7 +7,7 @@ old-location: shell\IApplicationDocumentLists_SetAppID.htm
 old-project: shell
 ms.assetid: 1c5135c1-b98d-4d27-8437-5ca57af9a525
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IApplicationDocumentLists interface [Windows Shell],SetAppID method, IApplicationDocumentLists.SetAppID, IApplicationDocumentLists::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDocumentLists interface, _shell_IApplicationDocumentLists_SetAppID, shell.IApplicationDocumentLists_SetAppID, shobjidl_core/IApplicationDocumentLists::SetAppID
 ms.prod: windows
 ms.technology: windows-sdk

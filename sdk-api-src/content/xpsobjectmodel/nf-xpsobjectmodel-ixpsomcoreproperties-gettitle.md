@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_gettitle.htm
 old-project: printdocs
 ms.assetid: 32551dd2-2d6e-4aaa-864b-4c922a90fc27
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetTitle method, IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>title</b> property contains the resource's name.
 
-This method allocates the memory used by the string that is returned in <i>title</i>.  If <i>title</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>title</i>.  If <i>title</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

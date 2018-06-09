@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader_setdrmproperty.htm
 old-project: wmformat
 ms.assetid: 52f606c2-a746-488f-bbf7-0d0e54b89bf9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],SetDRMProperty method, IWMDRMReader.SetDRMProperty, IWMDRMReader::SetDRMProperty, IWMDRMReaderSetDRMProperty, SetDRMProperty, SetDRMProperty method [windows Media Format], SetDRMProperty method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_setdrmproperty, wmsdkidl/IWMDRMReader::SetDRMProperty
 ms.prod: windows
 ms.technology: windows-sdk

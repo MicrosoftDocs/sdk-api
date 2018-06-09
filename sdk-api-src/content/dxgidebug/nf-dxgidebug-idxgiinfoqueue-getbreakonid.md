@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getbreakonid.htm
 old-project: direct3ddxgi
 ms.assetid: A7DF79E0-137D-4CBD-AD03-B9BC4532D60F
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method [DXGI], GetBreakOnID method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnID method, IDXGIInfoQueue.GetBreakOnID, IDXGIInfoQueue::GetBreakOnID, direct3ddxgi.idxgiinfoqueue_getbreakonid, dxgidebug/IDXGIInfoQueue::GetBreakOnID
 ms.prod: windows
 ms.technology: windows-sdk

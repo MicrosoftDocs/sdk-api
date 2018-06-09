@@ -7,7 +7,7 @@ old-location: winprog\fnfdinotify.htm
 old-project: DevNotes
 ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
 ms.prod: windows
 ms.technology: windows-sdk

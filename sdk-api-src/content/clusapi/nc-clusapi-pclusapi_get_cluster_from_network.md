@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromnetwork.htm
 old-project: MsCS
 ms.assetid: 90ac313a-9f60-4591-b0fa-89d99b007280
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_FROM_NETWORK, PCLUSAPI_GET_CLUSTER_FROM_NETWORK callback, PCLUSAPI_GET_CLUSTER_FROM_NETWORK callback function [Failover Cluster], _wolf_getclusterfromnetwork, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NETWORK, mscs.getclusterfromnetwork
 ms.prod: windows
 ms.technology: windows-sdk

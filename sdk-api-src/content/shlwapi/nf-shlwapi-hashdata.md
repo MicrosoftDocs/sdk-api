@@ -7,7 +7,7 @@ old-location: shell\HashData.htm
 old-project: shell
 ms.assetid: 7b42b3ae-c021-49be-b5a7-d3bc0a5d346a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: HashData, HashData function [Windows Shell], _win32_HashData, shell.HashData, shlwapi/HashData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -53,8 +53,8 @@ req.irql:
 
 			The <b>CreateSecurityPage</b> function creates a 
 <a href="https://msdn.microsoft.com/6623fe7e-e91d-49c7-9ad0-7791c178d12b">basic security property page</a> that enables the user to view and edit the access rights allowed or denied by the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in an object's <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL). Use the 
-<a href="_win32_propertysheet_cpp">PropertySheet</a> function or the 
-<a href="_win32_psm_addpage_cpp">PSM_ADDPAGE</a> message to add this page to a property sheet.
+<a href="https://www.bing.com/search?q=PropertySheet">PropertySheet</a> function or the 
+<a href="https://www.bing.com/search?q=PSM_ADDPAGE">PSM_ADDPAGE</a> message to add this page to a property sheet.
 		
 
 
@@ -106,7 +106,7 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://www.bing.com/search?q=Access+Control+Editor+Functions">Access Control Editor Functions</a>
 
 
 
@@ -122,11 +122,11 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 
-<a href="_win32_psm_addpage_cpp">PSM_ADDPAGE</a>
+<a href="https://www.bing.com/search?q=PSM_ADDPAGE">PSM_ADDPAGE</a>
 
 
 
-<a href="_win32_propertysheet_cpp">PropertySheet</a>
+<a href="https://www.bing.com/search?q=PropertySheet">PropertySheet</a>
 
 
 

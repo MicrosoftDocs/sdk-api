@@ -2,7 +2,7 @@
 UID: TP:wininet
 ms.assetid: a15a265a-5b11-3750-b1a2-587bb83a92f1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,13 +11,13 @@ ms.topic: portal
 
 # Windows Internet
 
-
+## -description
 
 Overview of the Windows Internet technology.
 
 To develop Windows Internet, you need these headers:
 
- * [proofofpossessioncookieinfo.h](..\proofofpossessioncookieinfo\index.md)
- * [winineti.h](..\winineti\index.md)
+ * [proofofpossessioncookieinfo.h](../proofofpossessioncookieinfo/index.md)
+ * [winineti.h](../winineti/index.md)
 
 For the programming guide, see [Windows Internet](/windows/desktop/wininet).

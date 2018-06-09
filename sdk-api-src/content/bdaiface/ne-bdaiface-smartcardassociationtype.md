@@ -7,7 +7,7 @@ old-location: mstv\smartcardassociationtype.htm
 old-project: mstv
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
 ms.prod: windows
 ms.technology: windows-sdk

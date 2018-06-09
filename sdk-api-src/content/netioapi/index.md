@@ -2,12 +2,12 @@
 UID: NA:netioapi
 ms.assetid: f65aa596-03b5-3fe2-b778-37604a4294d3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mib
+tech.root: iphlp
 ---
 
 # Netioapi.h header

@@ -7,7 +7,7 @@ old-location: winprog\instantiatecomponentfrompackage.htm
 old-project: DevNotes
 ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
 ms.prod: windows
 ms.technology: windows-sdk

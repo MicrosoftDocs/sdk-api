@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig2_getenablecontentcaching.htm
 old-project: wmformat
 ms.assetid: c8fdbb18-ba50-47e7-b7c9-858e6c452071
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetEnableContentCaching, GetEnableContentCaching method [windows Media Format], GetEnableContentCaching method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableContentCaching method, IWMReaderNetworkConfig2.GetEnableContentCaching, IWMReaderNetworkConfig2::GetEnableContentCaching, IWMReaderNetworkConfig2GetEnableContentCaching, wmformat.iwmreadernetworkconfig2_getenablecontentcaching, wmsdkidl/IWMReaderNetworkConfig2::GetEnableContentCaching
 ms.prod: windows
 ms.technology: windows-sdk

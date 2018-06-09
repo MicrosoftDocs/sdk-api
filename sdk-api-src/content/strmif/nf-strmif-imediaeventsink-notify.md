@@ -7,7 +7,7 @@ old-location: dshow\imediaeventsink_notify.htm
 old-project: DirectShow
 ms.assetid: 331f8d58-c7c6-40dd-88ca-5678c7b8c8f1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMediaEventSink interface [DirectShow],Notify method, IMediaEventSink.Notify, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IMediaEventSink interface, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify
 ms.prod: windows
 ms.technology: windows-sdk

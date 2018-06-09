@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactoryex.htm
 old-project: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

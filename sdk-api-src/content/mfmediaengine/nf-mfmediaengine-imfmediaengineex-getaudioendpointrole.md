@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getaudioendpointrole.htm
 old-project: medfound
 ms.assetid: f63fa14e-44e6-41b9-a8c9-4b8eb66e98e0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetAudioEndpointRole, GetAudioEndpointRole method [Media Foundation], GetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioEndpointRole method, IMFMediaEngineEx.GetAudioEndpointRole, IMFMediaEngineEx::GetAudioEndpointRole, mf.imfmediaengineex_getaudioendpointrole, mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

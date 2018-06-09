@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresource_getstream.htm
 old-project: printdocs
 ms.assetid: d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetStream method, IXpsOMFontResource.GetStream, IXpsOMFontResource::GetStream, xps.ixpsomfontresource_getstream, xpsobjectmodel/IXpsOMFontResource::GetStream
 ms.prod: windows
 ms.technology: windows-sdk

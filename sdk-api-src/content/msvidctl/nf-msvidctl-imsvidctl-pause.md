@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_pause.htm
 old-project: mstv
 ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Pause method, IMSVidCtl.Pause, IMSVidCtl::Pause, IMSVidCtlPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatypefrombitmapinfoheaderex.htm
 old-project: medfound
 ms.assetid: 27160995-e934-4050-a231-d69d4f75dfce
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateVideoMediaTypeFromBitMapInfoHeaderEx, MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheaderex, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
 ms.prod: windows
 ms.technology: windows-sdk

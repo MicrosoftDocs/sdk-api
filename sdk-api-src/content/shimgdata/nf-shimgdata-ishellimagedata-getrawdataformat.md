@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetRawDataFormat.htm
 old-project: shell
 ms.assetid: c09c6833-501d-4f27-9d59-3ca9aed9d0d1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetRawDataFormat, GetRawDataFormat method [Windows Shell], GetRawDataFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetRawDataFormat method, IShellImageData.GetRawDataFormat, IShellImageData::GetRawDataFormat, _shell_IShellImageData_GetRawDataFormat, shell.IShellImageData_GetRawDataFormat, shimgdata/IShellImageData::GetRawDataFormat
 ms.prod: windows
 ms.technology: windows-sdk

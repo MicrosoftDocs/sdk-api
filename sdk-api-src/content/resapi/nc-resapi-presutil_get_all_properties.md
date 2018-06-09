@@ -7,7 +7,7 @@ old-location: mscs\resutilgetallproperties.htm
 old-project: MsCS
 ms.assetid: 18a27e1c-e709-4b0a-97c1-b0697deb8dc7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES callback, PRESUTIL_GET_ALL_PROPERTIES callback function [Failover Cluster], _wolf_resutilgetallproperties, mscs.resutilgetallproperties, resapi/PRESUTIL_GET_ALL_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

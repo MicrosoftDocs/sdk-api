@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUser_GetStringValue.htm
 old-project: shell
 ms.assetid: 97FFD00F-6141-472c-A60C-A9A282190C9D
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetStringValue method, ICredentialProviderUser.GetStringValue, ICredentialProviderUser::GetStringValue, credentialprovider/ICredentialProviderUser::GetStringValue, shell.ICredentialProviderUser_GetStringValue
 ms.prod: windows
 ms.technology: windows-sdk

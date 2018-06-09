@@ -7,7 +7,7 @@ old-location: winauto\getoleaccversioninfo.htm
 old-project: WinAuto
 ms.assetid: 96dcdb85-4f35-4274-ba57-2f565c3ebb5f
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetOleaccVersionInfo, GetOleaccVersionInfo function [Windows Accessibility], _msaa_GetOleaccVersionInfo, msaa.getoleaccversioninfo, oleacc/GetOleaccVersionInfo, winauto.getoleaccversioninfo
 ms.prod: windows
 ms.technology: windows-sdk

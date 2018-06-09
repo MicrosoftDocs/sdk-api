@@ -7,7 +7,7 @@ old-location: base\regopencurrentuser.htm
 old-project: SysInfo
 ms.assetid: 10a8cbfb-52dc-436a-827e-78f12eb62af0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: RegOpenCurrentUser, RegOpenCurrentUser function, _win32_regopencurrentuser, base.regopencurrentuser, winreg/RegOpenCurrentUser
 ms.prod: windows
 ms.technology: windows-sdk

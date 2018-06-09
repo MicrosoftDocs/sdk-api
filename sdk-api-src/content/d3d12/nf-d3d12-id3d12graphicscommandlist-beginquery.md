@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_beginquery.htm
 old-project: direct3d12
 ms.assetid: 38011ED8-C867-4ECE-880F-3963A17790F7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: BeginQuery, BeginQuery method, BeginQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginQuery method, ID3D12GraphicsCommandList.BeginQuery, ID3D12GraphicsCommandList::BeginQuery, d3d12/ID3D12GraphicsCommandList::BeginQuery, direct3d12.id3d12graphicscommandlist_beginquery
 ms.prod: windows
 ms.technology: windows-sdk

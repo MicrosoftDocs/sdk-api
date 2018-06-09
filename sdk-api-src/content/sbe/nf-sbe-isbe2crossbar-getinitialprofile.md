@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_getinitialprofile.htm
 old-project: mstv
 ms.assetid: 6a4bec40-2c6d-49fb-8977-3c3db2b2b4df
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetInitialProfile, GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],GetInitialProfile method, ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
 ms.prod: windows
 ms.technology: windows-sdk

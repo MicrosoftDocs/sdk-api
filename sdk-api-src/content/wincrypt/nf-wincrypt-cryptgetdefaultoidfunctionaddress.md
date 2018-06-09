@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultoidfunctionaddress.htm
 old-project: SecCrypto
 ms.assetid: 3977368c-ad13-43f9-859b-10c7f170f482
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptGetDefaultOIDFunctionAddress, CryptGetDefaultOIDFunctionAddress function [Security], _crypto2_cryptgetdefaultoidfunctionaddress, security.cryptgetdefaultoidfunctionaddress, wincrypt/CryptGetDefaultOIDFunctionAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

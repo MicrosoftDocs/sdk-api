@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_reset.htm
 old-project: wintouch
 ms.assetid: 69ce260d-0674-4ff0-8610-bc814976bd3d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/04/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Reset method, IInertiaProcessor.Reset, IInertiaProcessor::Reset, Reset, Reset method [Windows Touch], Reset method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Reset, wintouch.iinertiaprocessor_reset
 ms.prod: windows
 ms.technology: windows-sdk

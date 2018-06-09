@@ -7,7 +7,7 @@ old-location: mscs\pcluster_setup_progress_callback.htm
 old-project: MsCS
 ms.assetid: fb7a6991-576c-4c03-aef0-89811fbc1a0d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseContinue, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEnd, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFatal, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInformational, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStart, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, ClusterSetupPhaseWarning, ClusterSetupProgressCallback, ClusterSetupProgressCallback callback, ClusterSetupProgressCallback callback function [Failover Cluster], PCLUSTER_SETUP_PROGRESS_CALLBACK, PCLUSTER_SETUP_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterSetupProgressCallback, clusapi/PCLUSTER_SETUP_PROGRESS_CALLBACK, mscs.pcluster_setup_progress_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -327,7 +327,7 @@ TBD
 
 The <b>PCLUSTER_SETUP_PROGRESS_CALLBACK</b> type defines a pointer to this function.
 
-The <a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback</a> 
+The <a href="https://www.bing.com/search?q=MSCluster_EventClusterCallback">MSCluster_EventClusterCallback</a> 
      MOF class is used in a similar manner.
 
 
@@ -366,7 +366,7 @@ The <a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback
 
 
 
-<a href="mscs.mscluster_eventclustercallback">MSCluster_EventClusterCallback</a>
+<a href="https://www.bing.com/search?q=MSCluster_EventClusterCallback">MSCluster_EventClusterCallback</a>
  
 
  

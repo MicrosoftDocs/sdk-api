@@ -7,7 +7,7 @@ old-location: stg\stgdeserializepropvariant.htm
 old-project: Stg
 ms.assetid: 55b4de40-d81d-4989-8f57-a286815fa495
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgDeserializePropVariant, StgDeserializePropVariant function [Structured Storage], propvarutil/StgDeserializePropVariant, stg.stgdeserializepropvariant
 ms.prod: windows
 ms.technology: windows-sdk

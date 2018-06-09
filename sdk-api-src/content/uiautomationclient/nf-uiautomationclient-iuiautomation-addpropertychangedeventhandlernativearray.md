@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeA
 old-project: WinAuto
 ms.assetid: 0d3cf5c3-5d0e-4214-a9fc-8b0132ad9b77
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: AddPropertyChangedEventHandlerNativeArray, AddPropertyChangedEventHandlerNativeArray method [Windows Accessibility], AddPropertyChangedEventHandlerNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddPropertyChangedEventHandlerNativeArray method, IUIAutomation.AddPropertyChangedEventHandlerNativeArray, IUIAutomation::AddPropertyChangedEventHandlerNativeArray, uiauto.uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray, uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray, uiautomationclient/IUIAutomation::AddPropertyChangedEventHandlerNativeArray, winauto.uiauto_IUIAutomation_AddPropertyChangedEventHandlerNativeArray
 ms.prod: windows
 ms.technology: windows-sdk

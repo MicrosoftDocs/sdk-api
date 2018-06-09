@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingcollection.htm
 old-project: ICS
 ms.assetid: 09b91df1-b9ef-41b1-b739-65d95f5d60b1
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetSharingPortMappingCollection, INetSharingPortMappingCollection interface [ICS/ICF], INetSharingPortMappingCollection interface [ICS/ICF],described, _ics_inetsharingportmappingcollection, ics.inetsharingportmappingcollection, netcon/INetSharingPortMappingCollection
 ms.prod: windows
 ms.technology: windows-sdk

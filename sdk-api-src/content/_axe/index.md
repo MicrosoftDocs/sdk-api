@@ -2,7 +2,7 @@
 UID: TP:axe
 ms.assetid: 0ebaa899-6918-3bd4-b858-1afff58ee6a4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Unmanaged C++ Version of the AXE API
 
-
+## -description
 
 Overview of the Unmanaged C++ Version of the AXE API technology.
 

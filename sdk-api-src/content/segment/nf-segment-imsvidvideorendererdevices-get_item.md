@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererdevices_get_item.htm
 old-project: mstv
 ms.assetid: 2cb169d2-f6b2-4156-aa11-f9b47437b731
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidVideoRendererDevices.get_Item, IMSVidVideoRendererDevices::get_Item, IMSVidVideoRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_item, segment/IMSVidVideoRendererDevices::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

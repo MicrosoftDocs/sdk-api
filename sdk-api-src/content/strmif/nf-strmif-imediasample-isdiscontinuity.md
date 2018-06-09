@@ -7,7 +7,7 @@ old-location: dshow\imediasample_isdiscontinuity.htm
 old-project: DirectShow
 ms.assetid: 0bab511e-a744-4b6e-afe3-0ceb473dfcae
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMediaSample interface [DirectShow],IsDiscontinuity method, IMediaSample.IsDiscontinuity, IMediaSample::IsDiscontinuity, IMediaSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_isdiscontinuity, strmif/IMediaSample::IsDiscontinuity
 ms.prod: windows
 ms.technology: windows-sdk

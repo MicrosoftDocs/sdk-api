@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getrate.htm
 old-project: medfound
 ms.assetid: 51257361-0362-43c4-8aca-81fd49be8482
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetRate method, IMFPMediaPlayer.GetRate, IMFPMediaPlayer::GetRate, mf.imfpmediaplayer_getrate, mfplay/IMFPMediaPlayer::GetRate
 ms.prod: windows
 ms.technology: windows-sdk

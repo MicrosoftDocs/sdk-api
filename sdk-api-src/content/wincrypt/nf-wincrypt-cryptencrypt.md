@@ -7,7 +7,7 @@ old-location: security\cryptencrypt.htm
 old-project: SecCrypto
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_OAEP, CryptEncrypt, CryptEncrypt function [Security], _crypto2_cryptencrypt, security.cryptencrypt, wincrypt/CryptEncrypt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -401,7 +401,7 @@ For examples that use this function, see  <a href="https://msdn.microsoft.com/a2
 
 
 
-<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
+<a href="https://www.bing.com/search?q=Data+Encryption+and+Decryption+Functions">Data Encryption and Decryption Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\createcluster.htm
 old-project: MsCS
 ms.assetid: 672a1573-63e5-4321-a049-25bdafc1b5e0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER callback, PCLUSAPI_CREATE_CLUSTER callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ The <i>CreateCluster</i> function successfully completes
     seconds.
 
 Before calling the <i>CreateCluster</i> function, 
-    the <a href="_com_coinitializeex">CoInitializeEx</a> function must be called specifying 
+    the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> function must be called specifying 
     both <b>COINIT_MULTITHREADED</b> and <b>COINIT_DISABLE_OLE1DDE</b> for 
     the <i>dwCoInit</i> parameter, as shown in the following code.
 

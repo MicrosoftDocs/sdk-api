@@ -7,7 +7,7 @@ old-location: security\certsavestore.htm
 old-project: SecCrypto
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -263,7 +263,7 @@ Note that <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
 
 
 

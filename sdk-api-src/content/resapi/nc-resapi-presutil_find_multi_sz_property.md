@@ -7,7 +7,7 @@ old-location: mscs\resutilfindmultiszproperty.htm
 old-project: MsCS
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_FIND_MULTI_SZ_PROPERTY, PRESUTIL_FIND_MULTI_SZ_PROPERTY callback, PRESUTIL_FIND_MULTI_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindmultiszproperty, mscs.resutilfindmultiszproperty, resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

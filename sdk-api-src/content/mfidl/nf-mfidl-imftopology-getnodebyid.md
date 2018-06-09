@@ -7,7 +7,7 @@ old-location: mf\imftopology_getnodebyid.htm
 old-project: medfound
 ms.assetid: 34c8326f-bd34-4bf6-9171-a1ed3191b85e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 34c8326f-bd34-4bf6-9171-a1ed3191b85e, GetNodeByID, GetNodeByID method [Media Foundation], GetNodeByID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeByID method, IMFTopology.GetNodeByID, IMFTopology::GetNodeByID, mf.imftopology_getnodebyid, mfidl/IMFTopology::GetNodeByID
 ms.prod: windows
 ms.technology: windows-sdk

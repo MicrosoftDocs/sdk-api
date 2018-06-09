@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcename.htm
 old-project: MsCS
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME callback, PRESUTIL_GET_RESOURCE_NAME callback function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_present1.htm
 old-project: direct3ddxgi
 ms.assetid: F795A719-71BA-4A25-B41A-9D93F96B6CA4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],Present1 method, IDXGISwapChain1.Present1, IDXGISwapChain1::Present1, Present1, Present1 method [DXGI], Present1 method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_present1, dxgi1_2/IDXGISwapChain1::Present1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,14 +65,14 @@ Presents a frame on the display screen.
 An integer that specifies how to synchronize presentation of a frame with the vertical blank.
 
 
-For the bit-block transfer (bitblt) model (<a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_DISCARD</a>
-or <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
+For the bit-block transfer (bitblt) model (<a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_DISCARD">DXGI_SWAP_EFFECT_DISCARD</a>
+or <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_SEQUENTIAL">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - The presentation occurs immediately, there is no synchronization.</li>
 <li>1 through 4 - Synchronize presentation after the <i>n</i>th vertical blank.</li>
 </ul>
-For the flip model (<a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
+For the flip model (<a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - Cancel the remaining time on the previously presented frame and discard this frame if a newer frame is queued.
@@ -98,7 +98,7 @@ A pointer to a <a href="https://msdn.microsoft.com/C2C69457-5415-4CAA-901B-A3A85
 
 
 
-Possible return values include: S_OK, <a href="dxgi_error.htm">DXGI_ERROR_DEVICE_REMOVED</a> , <a href="dxgi_status.htm">DXGI_STATUS_OCCLUDED</a>, <a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a>, or E_OUTOFMEMORY.  
+Possible return values include: S_OK, <a href="https://www.bing.com/search?q=DXGI_ERROR_DEVICE_REMOVED">DXGI_ERROR_DEVICE_REMOVED</a> , <a href="https://www.bing.com/search?q=DXGI_STATUS_OCCLUDED">DXGI_STATUS_OCCLUDED</a>, <a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a>, or E_OUTOFMEMORY.  
 
 
 
@@ -109,11 +109,11 @@ Possible return values include: S_OK, <a href="dxgi_error.htm">DXGI_ERROR_DEVICE
 
 An app can use <b>Present1</b> to optimize presentation by specifying scroll and dirty rectangles. When the runtime has information about these rectangles, the runtime can then perform necessary bitblts during presentation more efficiently and pass this metadata to the Desktop Window Manager (DWM). The DWM can then use the metadata to optimize presentation and pass the metadata to indirect displays and terminal servers to optimize traffic over the wire. An app must confine its modifications to only the dirty regions that it passes to <b>Present1</b>, as well as modify the entire dirty region to avoid undefined resource contents from being exposed.
 
-For flip presentation model swap chains that you create with the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value set, a successful presentation results in an unbind of back buffer 0 from the graphics pipeline, except for when you pass the <a href="dxgi_present.htm">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
+For flip presentation model swap chains that you create with the <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value set, a successful presentation results in an unbind of back buffer 0 from the graphics pipeline, except for when you pass the <a href="https://www.bing.com/search?q=DXGI_PRESENT_DO_NOT_SEQUENCE">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
 
 For info about how data values change when you present content to the screen, see <a href="https://msdn.microsoft.com/1DD8E2D3-430F-4EE4-9C41-78736C904920">Converting data for the color space</a>.
 
-For info about calling <b>Present1</b> when your app uses multiple threads, see <a href="d3d10_graphics_programming_guide_dxgi.htm">Multithread Considerations</a> and <a href="https://msdn.microsoft.com/b4bef1e4-8d34-455c-8aed-01af974c66c8">Multithreading and DXGI</a>.
+For info about calling <b>Present1</b> when your app uses multiple threads, see <a href="https://www.bing.com/search?q=Multithread+Considerations">Multithread Considerations</a> and <a href="https://msdn.microsoft.com/b4bef1e4-8d34-455c-8aed-01af974c66c8">Multithreading and DXGI</a>.
 
 <h3><a id="Flip_presentation_model_queue"></a><a id="flip_presentation_model_queue"></a><a id="FLIP_PRESENTATION_MODEL_QUEUE"></a>Flip presentation model queue</h3>
 Suppose the following frames with sync-interval values are queued from oldest (A) to newest (E) before you call <b>Present1</b>.

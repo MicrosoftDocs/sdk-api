@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_registervideoprocessorsoftwaredev
 old-project: medfound
 ms.assetid: 3d0bdd60-6cc7-4229-aed9-40b407167456
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 3d0bdd60-6cc7-4229-aed9-40b407167456, IDirectXVideoProcessorService interface [Media Foundation],RegisterVideoProcessorSoftwareDevice method, IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice, IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice method [Media Foundation], RegisterVideoProcessorSoftwareDevice method [Media Foundation],IDirectXVideoProcessorService interface, dxva2api/IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, mf.idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice
 ms.prod: windows
 ms.technology: windows-sdk

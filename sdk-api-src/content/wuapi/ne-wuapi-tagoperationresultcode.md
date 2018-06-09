@@ -7,7 +7,7 @@ old-location: wua\operationresultcode.htm
 old-project: Wua_Sdk
 ms.assetid: 02d3442e-d098-42b6-b1b1-cc2d1a815fa4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: OperationResultCode, OperationResultCode enumeration [Windows Update Agent], orcAborted, orcFailed, orcInProgress, orcNotStarted, orcSucceeded, orcSucceededWithErrors, tagOperationResultCode, wua.operationresultcode, wuapi/OperationResultCode, wuapi/orcAborted, wuapi/orcFailed, wuapi/orcInProgress, wuapi/orcNotStarted, wuapi/orcSucceeded, wuapi/orcSucceededWithErrors
 ms.prod: windows
 ms.technology: windows-sdk

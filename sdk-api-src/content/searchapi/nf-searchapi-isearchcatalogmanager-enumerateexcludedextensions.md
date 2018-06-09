@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_EnumerateExcludedExtensions.h
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\enumerateexcludedextensions.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: EnumerateExcludedExtensions, EnumerateExcludedExtensions method [search], EnumerateExcludedExtensions method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],EnumerateExcludedExtensions method, ISearchCatalogManager.EnumerateExcludedExtensions, ISearchCatalogManager::EnumerateExcludedExtensions, _search_ISearchCatalogManager_EnumerateExcludedExtensions, search._search_ISearchCatalogManager_EnumerateExcludedExtensions, searchapi/ISearchCatalogManager::EnumerateExcludedExtensions
 ms.prod: windows
 ms.technology: windows-sdk

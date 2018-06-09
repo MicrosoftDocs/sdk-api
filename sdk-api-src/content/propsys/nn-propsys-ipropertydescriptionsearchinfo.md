@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-      Exposes search-related information for a property. The information provided by this interface comes from the <a href="shell.propdesc_schema_propertyDescription">propertyDescription</a> schema, <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element for a given property. This information is used by the Windows Search Indexer. Most calling applications will not need to call this interface.
+      Exposes search-related information for a property. The information provided by this interface comes from the <a href="https://www.bing.com/search?q=propertyDescription">propertyDescription</a> schema, <a href="https://www.bing.com/search?q=searchInfo">searchInfo</a> element for a given property. This information is used by the Windows Search Indexer. Most calling applications will not need to call this interface.
 
 
 ## -inheritance
@@ -84,7 +84,7 @@ Determines the how the current property is indexed.
 <a href="shell.IPropertyDescriptionSearchInfo_GetMaxSize">GetMaxSize</a>
 </td>
 <td align="left" width="63%">
-Gets the maximum size value from the property schema's <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="https://www.bing.com/search?q=searchInfo">searchInfo</a> element.
 
 </td>
 </tr>
@@ -114,11 +114,11 @@ Gets the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>
 
 
 
-<a href="shell.propdesc_schema_propertyDescription">propertyDescription</a>
+<a href="https://www.bing.com/search?q=propertyDescription">propertyDescription</a>
 
 
 
-<a href="shell.propdesc_schema_searchInfo">searchInfo</a>
+<a href="https://www.bing.com/search?q=searchInfo">searchInfo</a>
  
 
  

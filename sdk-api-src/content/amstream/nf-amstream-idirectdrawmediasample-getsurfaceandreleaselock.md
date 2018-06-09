@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediasample_getsurfaceandreleaselock.htm
 old-project: DirectShow
 ms.assetid: f2b30974-ed4a-4783-bda5-9e7f4f9b4aab
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetSurfaceAndReleaseLock, GetSurfaceAndReleaseLock method [DirectShow], GetSurfaceAndReleaseLock method [DirectShow],IDirectDrawMediaSample interface, IDirectDrawMediaSample interface [DirectShow],GetSurfaceAndReleaseLock method, IDirectDrawMediaSample.GetSurfaceAndReleaseLock, IDirectDrawMediaSample::GetSurfaceAndReleaseLock, IDirectDrawMediaSampleGetSurfaceAndReleaseLock, amstream/IDirectDrawMediaSample::GetSurfaceAndReleaseLock, dshow.idirectdrawmediasample_getsurfaceandreleaselock
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTreeWalker_GetParent.htm
 old-project: WinAuto
 ms.assetid: eaff4d83-a614-4559-a357-dc2d241ecf67
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetParentElement, GetParentElement method [Windows Accessibility], GetParentElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetParentElement method, IUIAutomationTreeWalker.GetParentElement, IUIAutomationTreeWalker::GetParentElement, uiauto.uiauto_IUIAutomationTreeWalker_GetParent, uiauto_IUIAutomationTreeWalker_GetParent, uiautomationclient/IUIAutomationTreeWalker::GetParentElement, winauto.uiauto_IUIAutomationTreeWalker_GetParent
 ms.prod: windows
 ms.technology: windows-sdk

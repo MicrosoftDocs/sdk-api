@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
 old-project: TermServ
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services],IWRdsGraphicsChannelManager interface, IWRdsGraphicsChannelManager interface [Remote Desktop Services],CreateChannel method, IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
 ms.prod: windows
 ms.technology: windows-sdk

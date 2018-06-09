@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_vq.htm
 old-project: DHCP
 ms.assetid: f7bd832d-b4a4-404c-8959-e9653b62d434
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_VQ, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLINED, ADDRESS_STATE_DOOM, ADDRESS_STATE_OFFERED, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_RESERVATION_FLAG, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_VQ, DHCP_CLIENT_INFO_VQ structure [DHCP], PDHCP_CLIENT_INFO_VQ, PDHCP_CLIENT_INFO_VQ structure pointer [DHCP], _DHCP_CLIENT_INFO_VQ, dhcp.dhcp_client_info_vq, dhcpsapi/DHCP_CLIENT_INFO_VQ, dhcpsapi/PDHCP_CLIENT_INFO_VQ"
 ms.prod: windows
 ms.technology: windows-sdk

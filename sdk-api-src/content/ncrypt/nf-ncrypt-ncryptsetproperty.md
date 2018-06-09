@@ -7,7 +7,7 @@ old-location: security\ncryptsetproperty_func.htm
 old-project: SecCNG
 ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
 ms.prod: windows
 ms.technology: windows-sdk

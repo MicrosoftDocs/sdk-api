@@ -7,7 +7,7 @@ old-location: mstv\ipbdaattributesdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 397e76b6-83f2-4d0c-87a0-0575aa746020
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetTag method, IPBDAAttributesDescriptor.GetTag, IPBDAAttributesDescriptor::GetTag, dvbsiparser/IPBDAAttributesDescriptor::GetTag, mstv.ipbdaattributesdescriptor_gettag
 ms.prod: windows
 ms.technology: windows-sdk

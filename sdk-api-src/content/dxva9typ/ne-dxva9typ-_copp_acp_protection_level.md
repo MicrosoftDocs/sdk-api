@@ -7,7 +7,7 @@ old-location: dshow\copp_acp_protection_level.htm
 old-project: DirectShow
 ms.assetid: a3149eb6-e758-4b21-b574-32fb6c2ae3a2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: COPP_ACP_ForceDWORD, COPP_ACP_Level0, COPP_ACP_Level1, COPP_ACP_Level2, COPP_ACP_Level3, COPP_ACP_LevelMax, COPP_ACP_LevelMin, COPP_ACP_Protection_Level, COPP_ACP_Protection_Level , COPP_ACP_Protection_Level enumeration [DirectShow], COPP_ACP_Protection_LevelEnumeration, _COPP_ACP_Protection_Level, dshow.copp_acp_protection_level, dxva9typ/COPP_ACP_ForceDWORD, dxva9typ/COPP_ACP_Level0, dxva9typ/COPP_ACP_Level1, dxva9typ/COPP_ACP_Level2, dxva9typ/COPP_ACP_Level3, dxva9typ/COPP_ACP_LevelMax, dxva9typ/COPP_ACP_LevelMin, dxva9typ/COPP_ACP_Protection_Level
 ms.prod: windows
 ms.technology: windows-sdk

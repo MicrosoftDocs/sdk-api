@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreentemplatemanager_enumtemplates.htm
 old-project: Fsrm
 ms.assetid: 5bfb82f9-50a5-4266-956d-f99e2982a6a5
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager.EnumTemplates, IFsrmFileScreenTemplateManager::EnumTemplates, fs.ifsrmfilescreentemplatemanager_enumtemplates, fsrm.ifsrmfilescreentemplatemanager_enumtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::EnumTemplates
 ms.prod: windows
 ms.technology: windows-sdk

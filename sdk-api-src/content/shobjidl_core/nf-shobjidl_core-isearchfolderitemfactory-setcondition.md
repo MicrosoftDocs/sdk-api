@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetCondition.htm
 old-project: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="_search_ICondition_Clone">ICondition::Clone</a>
+<a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-clone.md">ICondition::Clone</a>
 
 
 

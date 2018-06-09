@@ -7,7 +7,7 @@ old-location: mf\mfcreatetranscodesinkactivate.htm
 old-project: medfound
 ms.assetid: cc9c604d-7f5a-4afb-a2df-b270ef883e68
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateTranscodeSinkActivate, MFCreateTranscodeSinkActivate function [Media Foundation], mf.mfcreatetranscodesinkactivate, mfidl/MFCreateTranscodeSinkActivate
 ms.prod: windows
 ms.technology: windows-sdk

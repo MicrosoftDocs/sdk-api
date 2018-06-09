@@ -7,7 +7,7 @@ old-location: dshow\ifilesinkfilter.htm
 old-project: DirectShow
 ms.assetid: aa1d3f8e-9790-4442-ba7e-896981bf1b96
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IFileSinkFilter, IFileSinkFilter interface [DirectShow], IFileSinkFilter interface [DirectShow],described, IFileSinkFilterInterface, dshow.ifilesinkfilter, strmif/IFileSinkFilter
 ms.prod: windows
 ms.technology: windows-sdk

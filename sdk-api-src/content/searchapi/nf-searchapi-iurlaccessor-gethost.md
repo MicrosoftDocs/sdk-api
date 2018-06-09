@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetHost.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\gethost.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetHost, GetHost method [search], GetHost method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetHost method, IUrlAccessor.GetHost, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
 ms.prod: windows
 ms.technology: windows-sdk

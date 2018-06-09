@@ -7,7 +7,7 @@ old-location: security\cryptenumproviders.htm
 old-project: SecCrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -288,7 +288,7 @@ void main()
 
 
 
-<a href="cryptography_functions.htm">Service Provider Functions</a>
+<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
  
 
  

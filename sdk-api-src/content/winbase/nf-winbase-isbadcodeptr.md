@@ -7,7 +7,7 @@ old-location: base\isbadcodeptr.htm
 old-project: Memory
 ms.assetid: 001b8972-6a7f-4964-af8d-a6f31ea3a525
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IsBadCodePtr, IsBadCodePtr function, _win32_isbadcodeptr, base.isbadcodeptr, winbase/IsBadCodePtr
 ms.prod: windows
 ms.technology: windows-sdk

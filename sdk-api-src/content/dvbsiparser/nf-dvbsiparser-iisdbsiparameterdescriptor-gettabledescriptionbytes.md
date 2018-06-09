@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionbytes.htm
 old-project: mstv
 ms.assetid: dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTableDescriptionBytes, GetTableDescriptionBytes method [Microsoft TV Technologies], GetTableDescriptionBytes method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionBytes method, IIsdbSIParameterDescriptor.GetTableDescriptionBytes, IIsdbSIParameterDescriptor::GetTableDescriptionBytes, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes, mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes
 ms.prod: windows
 ms.technology: windows-sdk

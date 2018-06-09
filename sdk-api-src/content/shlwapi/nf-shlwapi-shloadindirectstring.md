@@ -7,7 +7,7 @@ old-location: shell\SHLoadIndirectString.htm
 old-project: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ This form can be used when a resource is changed but still uses the same index o
 
 </li>
 <li><b>PRI file path and resource ID</b><pre class="syntax" xml:space="preserve"><code>@{PRIFilepath?resource}</code></pre>
-The Package Resource Index (PRI) is a binary format introduced in Windows 8 that contains indexed resources or references to resources. The .pri file is bundled as part of an app's package. For more information on .pri files, see <a href="4f0d7226-dde6-4241-b4fc-a79a8607ac98">Creating and retrieving resources in Windows Store apps</a>.
+The Package Resource Index (PRI) is a binary format introduced in Windows 8 that contains indexed resources or references to resources. The .pri file is bundled as part of an app's package. For more information on .pri files, see <a href="https://msdn.microsoft.com/library/windows/desktop/4f0d7226-dde6-4241-b4fc-a79a8607ac98">Creating and retrieving resources in Windows Store apps</a>.
 
 The string is extracted from the .pri file named, using the <i>resource</i> as a locator. The retrieved string is copied to the output buffer and the function returns S_OK. The string is extracted based on the current Shell environment or <a href="https://msdn.microsoft.com/bab9ae0f-8609-494d-b943-7905eed8ee93">ResourceContext</a>.
 

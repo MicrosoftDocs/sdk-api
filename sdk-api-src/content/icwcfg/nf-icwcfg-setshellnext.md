@@ -7,7 +7,7 @@ old-location: winprog\setshellnext.htm
 old-project: DevNotes
 ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
 ms.prod: windows
 ms.technology: windows-sdk

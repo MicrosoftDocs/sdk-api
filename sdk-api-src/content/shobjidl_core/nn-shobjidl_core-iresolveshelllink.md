@@ -7,7 +7,7 @@ old-location: shell\IResolveShellLink.htm
 old-project: shell
 ms.assetid: ed5fc982-9d20-4ace-9d34-17cbef8ad8e2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IResolveShellLink, IResolveShellLink interface [Windows Shell], IResolveShellLink interface [Windows Shell],described, _win32_IResolveShellLink, shell.IResolveShellLink, shobjidl_core/IResolveShellLink
 ms.prod: windows
 ms.technology: windows-sdk

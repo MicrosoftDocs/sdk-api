@@ -7,7 +7,7 @@ old-location: security\crypthashcertificate.htm
 old-project: SecCrypto
 ms.assetid: a5beba30-f32b-4d57-8a54-7d9096459c50
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptHashCertificate, CryptHashCertificate function [Security], _crypto2_crypthashcertificate, security.crypthashcertificate, wincrypt/CryptHashCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

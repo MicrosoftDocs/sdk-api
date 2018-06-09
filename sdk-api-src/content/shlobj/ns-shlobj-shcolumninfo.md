@@ -7,7 +7,7 @@ old-location: shell\SHCOLUMNINFO_str.htm
 old-project: shell
 ms.assetid: 6d7caeca-38fe-4477-a278-abf483d8d42c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: "*LPSHCOLUMNINFO, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLSTATE_EXTENDED, SHCOLSTATE_HIDDEN, SHCOLSTATE_ONBYDEFAULT, SHCOLSTATE_SECONDARYUI, SHCOLSTATE_SLOW, SHCOLSTATE_TYPE_DATE, SHCOLSTATE_TYPE_INT, SHCOLSTATE_TYPE_STR, SHCOLUMNINFO, SHCOLUMNINFO structure [Windows Shell], _win32_SHCOLUMNINFO_str, shell.SHCOLUMNINFO_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCO
 
 ### -field vt
 
-Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
 The native <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> type of the column's data.
 

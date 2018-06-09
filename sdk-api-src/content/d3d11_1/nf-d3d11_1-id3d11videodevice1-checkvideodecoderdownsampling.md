@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1_checkvideodecoderdownsampling.htm
 old-project: medfound
 ms.assetid: EB05C2F7-AC7A-42BD-A661-5101641A920C
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: CheckVideoDecoderDownsampling, CheckVideoDecoderDownsampling method [Media Foundation], CheckVideoDecoderDownsampling method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],CheckVideoDecoderDownsampling method, ID3D11VideoDevice1.CheckVideoDecoderDownsampling, ID3D11VideoDevice1::CheckVideoDecoderDownsampling, d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling, mf.id3d11videodevice1_checkvideodecoderdownsampling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ Pointer to a boolean value set by the driver that indicates if real-time decodin
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

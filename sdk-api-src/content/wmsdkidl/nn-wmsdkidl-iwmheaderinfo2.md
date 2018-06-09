@@ -7,7 +7,7 @@ old-location: wmformat\iwmheaderinfo2.htm
 old-project: wmformat
 ms.assetid: af670b54-f695-4b6f-8190-c25ea409b53a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMHeaderInfo2, IWMHeaderInfo2 interface [windows Media Format], IWMHeaderInfo2 interface [windows Media Format],described, IWMHeaderInfo2Interface, wmformat.iwmheaderinfo2, wmsdkidl/IWMHeaderInfo2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>IWMHeaderInfo2</b> interface exposes information about the <a href="wmformat_glossary.htm">codecs</a> used to create the content in a file.
+The <b>IWMHeaderInfo2</b> interface exposes information about the <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">codecs</a> used to create the content in a file.
 
 The <b>IWMHeaderInfo2</b> interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object. To obtain a pointer to an instance, call the <b>QueryInterface</b> method of any other interface in the desired object.
 

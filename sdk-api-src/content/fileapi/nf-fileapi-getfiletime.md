@@ -7,7 +7,7 @@ old-location: base\getfiletime.htm
 old-project: SysInfo
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
 ms.prod: windows
 ms.technology: windows-sdk

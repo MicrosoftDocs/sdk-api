@@ -7,7 +7,7 @@ old-location: ixhr2\ixmlhttprequest2_setrequestheader.htm
 old-project: ixhr2
 ms.assetid: FBEEB04C-7976-4017-B56C-17815FC01831
 ms.author: windowssdkdev
-ms.date: 04/02/2018
+ms.date: 06/04/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetRequestHeader method, IXMLHTTPRequest2.SetRequestHeader, IXMLHTTPRequest2::SetRequestHeader, SetRequestHeader, SetRequestHeader method [XMLHttpRequest2], SetRequestHeader method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_setrequestheader, msxml6/IXMLHTTPRequest2::SetRequestHeader
 ms.prod: windows
 ms.technology: windows-sdk

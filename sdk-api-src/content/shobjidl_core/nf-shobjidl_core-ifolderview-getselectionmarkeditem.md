@@ -7,7 +7,7 @@ old-location: shell\IFolderView_GetSelectionMarkedItem.htm
 old-project: shell
 ms.assetid: 86416704-c2e3-4782-a566-b49cbd0e7696
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetSelectionMarkedItem, GetSelectionMarkedItem method [Windows Shell], GetSelectionMarkedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSelectionMarkedItem method, IFolderView.GetSelectionMarkedItem, IFolderView::GetSelectionMarkedItem, _shell_IFolderView_GetSelectionMarkedItem, shell.IFolderView_GetSelectionMarkedItem, shobjidl_core/IFolderView::GetSelectionMarkedItem
 ms.prod: windows
 ms.technology: windows-sdk

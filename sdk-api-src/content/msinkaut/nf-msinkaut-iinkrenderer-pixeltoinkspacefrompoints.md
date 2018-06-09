@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_pixeltoinkspacefrompoints.htm
 old-project: tablet
 ms.assetid: 1427ab50-1b04-43a8-a987-838f2d6893cc
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 1427ab50-1b04-43a8-a987-838f2d6893cc, IInkRenderer, IInkRenderer interface [Tablet PC],PixelToInkSpaceFromPoints method, IInkRenderer.PixelToInkSpaceFromPoints, IInkRenderer::PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints method [Tablet PC], PixelToInkSpaceFromPoints method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::PixelToInkSpaceFromPoints, tablet.inkrenderer_pixeltoinkspacefrompoints
 ms.prod: windows
 ms.technology: windows-sdk

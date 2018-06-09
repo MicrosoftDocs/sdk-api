@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_put__networktype.htm
 old-project: mstv
 ms.assetid: 02e4ec53-e527-4cd2-a424-66c2f3fe4e43
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put__NetworkType method, ITuningSpace.put__NetworkType, ITuningSpace::put__NetworkType, ITuningSpaceput__NetworkType, mstv.ituningspace_put__networktype, put__NetworkType, put__NetworkType method [Microsoft TV Technologies], put__NetworkType method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put__NetworkType
 ms.prod: windows
 ms.technology: windows-sdk

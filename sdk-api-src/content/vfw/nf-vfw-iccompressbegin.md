@@ -7,7 +7,7 @@ old-location: multimedia\iccompressbegin.htm
 old-project: Multimedia
 ms.assetid: e09d3ac8-ead3-459c-a773-ffbe8198b40f
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICCompressBegin, ICCompressBegin macro [Windows Multimedia], _win32_ICCompressBegin, multimedia.iccompressbegin, vfw/ICCompressBegin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\wm_writer_statistics_ex.htm
 old-project: wmformat
 ms.assetid: f98a5934-968e-4c74-9fd2-f824ad77692c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: WM_WRITER_STATISTICS_EX, WM_WRITER_STATISTICS_EX structure [windows Media Format], _WMWriterStatisticsEx, wmformat.wm_writer_statistics_ex, wmsdkidl/WM_WRITER_STATISTICS_EX
 ms.prod: windows
 ms.technology: windows-sdk

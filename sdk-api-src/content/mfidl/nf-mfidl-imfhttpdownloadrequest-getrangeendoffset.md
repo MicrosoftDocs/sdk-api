@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_getrangeendoffset.htm
 old-project: medfound
 ms.assetid: 015CBC40-BE9E-4C9F-AC1B-30FFDD2B11CC
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], GetRangeEndOffset method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetRangeEndOffset method, IMFHttpDownloadRequest.GetRangeEndOffset, IMFHttpDownloadRequest::GetRangeEndOffset, mf.imfhttpdownloadrequest_getrangeendoffset, mfidl/IMFHttpDownloadRequest::GetRangeEndOffset
 ms.prod: windows
 ms.technology: windows-sdk

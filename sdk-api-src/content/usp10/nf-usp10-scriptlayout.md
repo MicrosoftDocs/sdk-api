@@ -7,7 +7,7 @@ old-location: intl\scriptlayout.htm
 old-project: Intl
 ms.assetid: 6f3c74af-8d7f-4c66-8a11-6408a6897cbe
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScriptLayout, ScriptLayout function [Internationalization for Windows Applications], _win32_ScriptLayout, intl.scriptlayout, usp10/ScriptLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Converts an array of run <a href="uniscribe_glossary.htm">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
+Converts an array of run <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
 
 
 ## -parameters

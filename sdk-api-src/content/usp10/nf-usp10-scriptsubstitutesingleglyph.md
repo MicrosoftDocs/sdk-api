@@ -7,7 +7,7 @@ old-location: intl\scriptsubstitutesingleglyph.htm
 old-project: Intl
 ms.assetid: 1aecde5a-ddca-4163-9159-dafc15f9ca59
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScriptSubstituteSingleGlyph, ScriptSubstituteSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptSubstituteSingleGlyph, intl.scriptsubstitutesingleglyph, usp10/ScriptSubstituteSingleGlyph
 ms.prod: windows
 ms.technology: windows-sdk

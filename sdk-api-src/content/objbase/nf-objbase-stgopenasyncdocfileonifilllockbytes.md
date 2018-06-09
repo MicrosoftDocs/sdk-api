@@ -7,7 +7,7 @@ old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
 old-project: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ The byte array wrapper object must have been previously instantiated through a c
 <a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> function.
 
 The returned storage object has a connection point for 
-<a href="_com_iprogressnotify">IProgressNotify</a>.
+<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify.md">IProgressNotify</a>.
 
 
 

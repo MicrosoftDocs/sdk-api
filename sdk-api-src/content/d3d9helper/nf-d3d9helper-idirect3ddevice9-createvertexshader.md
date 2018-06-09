@@ -84,7 +84,7 @@ Pointer to the returned vertex shader interface (see <a href="https://msdn.micro
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, E_OUTOFMEMORY.
 
@@ -102,7 +102,7 @@ When a device is created, <a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591
 <li>Process vertices in software by setting D3DCREATE_SOFTWARE_VERTEXPROCESSING.</li>
 <li>Process vertices in either hardware or software by setting D3DCREATE_MIXED_VERTEXPROCESSING. To switch a mixed-mode device between software and hardware processing, use <a href="https://msdn.microsoft.com/05e67ec5-98f8-47c4-b5b7-aabb974db88a">IDirect3DDevice9::SetSoftwareVertexProcessing</a>.</li>
 </ul>
-For an example using <a href="https://msdn.microsoft.com/9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8">D3DXCompileShader</a>, see <a href="ac1492cf-d8aa-e22d-a7e0-dfd0a84d268d">HLSLwithoutEffects Sample</a>.
+For an example using <a href="https://msdn.microsoft.com/9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8">D3DXCompileShader</a>, see <a href="https://msdn.microsoft.com/library/windows/desktop/ac1492cf-d8aa-e22d-a7e0-dfd0a84d268d">HLSLwithoutEffects Sample</a>.
 
 
 

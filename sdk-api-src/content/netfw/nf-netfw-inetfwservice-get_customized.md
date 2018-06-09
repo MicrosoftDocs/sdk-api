@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_customized.htm
 old-project: ICS
 ms.assetid: 6c26863a-b0eb-4e5a-b3a9-0129ab9a4df2
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: Customized property [ICS/ICF], Customized property [ICS/ICF],INetFwService interface, INetFwService interface [ICS/ICF],Customized property, INetFwService.Customized, INetFwService.get_Customized, INetFwService::Customized, INetFwService::get_Customized, get_Customized, ics.inetfwservice_customized, netfw/INetFwService::Customized, netfw/INetFwService::get_Customized
 ms.prod: windows
 ms.technology: windows-sdk

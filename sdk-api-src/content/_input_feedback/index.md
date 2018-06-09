@@ -2,7 +2,7 @@
 UID: TP:input_feedback
 ms.assetid: f753ea3d-0c89-30d6-9949-c06f7b12cdbf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Input Feedback Configuration
 
-
+## -description
 
 Overview of the Input Feedback Configuration technology.
 

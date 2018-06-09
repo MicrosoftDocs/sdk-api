@@ -7,7 +7,7 @@ old-location: winrt\pdfrenderparams.htm
 old-project: WinRT
 ms.assetid: 5C229DEF-DAF7-414B-B733-4807E4122C16
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], windows/PdfRenderParams, winrt.pdfrenderparams
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusternodecloseenum.htm
 old-project: MsCS
 ms.assetid: 8133125f-eb5a-4cbc-a39d-72fb5f3ee384
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusternodecloseenum, clusapi/PCLUSAPI_CLUSTER_NODE_CLOSE_ENUM, mscs.clusternodecloseenum
 ms.prod: windows
 ms.technology: windows-sdk

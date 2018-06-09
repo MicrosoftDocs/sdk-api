@@ -7,7 +7,7 @@ old-location: intl\scriptitemizeopentype.htm
 old-project: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Breaks a Unicode string into individually shapeable <a href="uniscribe_glossary.htm">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
+Breaks a Unicode string into individually shapeable <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
 
 
 ## -parameters

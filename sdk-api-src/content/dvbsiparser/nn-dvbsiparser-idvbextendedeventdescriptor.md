@@ -7,7 +7,7 @@ old-location: mstv\idvbextendedeventdescriptor.htm
 old-project: mstv
 ms.assetid: db100f17-f7b8-4252-8090-44567ab9dcbe
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbExtendedEventDescriptor, mstv.idvbextendedeventdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

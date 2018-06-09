@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
 old-project: direct3ddxgi
 ms.assetid: 49522ED9-30AD-4F39-96D2-BB6677D72349
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetDisplayModeList1, GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplayModeList1 method, IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ Returns one of the error codes described in the <a href="https://msdn.microsoft.
 
 <b>GetDisplayModeList1</b> is updated from  <a href="https://msdn.microsoft.com/3d791b9b-f9e8-443c-ac7a-fc4faa3eaf95">GetDisplayModeList</a> to return a list of <a href="https://msdn.microsoft.com/8F44CF77-D3A1-44F7-AB7F-69E5727A4378">DXGI_MODE_DESC1</a> structures, which are updated mode descriptions.  <b>GetDisplayModeList</b> behaves as though it calls <b>GetDisplayModeList1</b> because  <b>GetDisplayModeList</b> can return all of the modes that are specified by <a href="https://msdn.microsoft.com/7e0f5629-f8e2-478b-b8eb-00780a3dcf1f">DXGI_ENUM_MODES</a>, including stereo mode.  However, <b>GetDisplayModeList</b> returns a list of <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a> structures, which are the former mode descriptions and do not indicate stereo mode.
 
-The <b>GetDisplayModeList1</b> method does not enumerate stereo modes unless you specify the <a href="dxgi_enum_modes.htm">DXGI_ENUM_MODES_STEREO</a> flag in the <i>Flags</i> parameter.  If you specify DXGI_ENUM_MODES_STEREO, stereo modes are included in the list of returned modes that the <i>pDesc</i> parameter points to.  In other words, the method returns both stereo and mono modes.
+The <b>GetDisplayModeList1</b> method does not enumerate stereo modes unless you specify the <a href="https://www.bing.com/search?q=DXGI_ENUM_MODES_STEREO">DXGI_ENUM_MODES_STEREO</a> flag in the <i>Flags</i> parameter.  If you specify DXGI_ENUM_MODES_STEREO, stereo modes are included in the list of returned modes that the <i>pDesc</i> parameter points to.  In other words, the method returns both stereo and mono modes.
 
 In general, when you switch from windowed to full-screen mode, a swap chain automatically chooses a display mode that meets (or exceeds) the resolution, color 
       depth, and refresh rate of the swap chain. To exercise more control over the display mode, use <b>GetDisplayModeList1</b> to poll the set of display modes that are validated 

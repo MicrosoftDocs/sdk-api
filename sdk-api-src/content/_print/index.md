@@ -2,7 +2,7 @@
 UID: TP:print
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Print DDI reference
 
-
+## -description
 
 Overview of the Print DDI reference technology.
 

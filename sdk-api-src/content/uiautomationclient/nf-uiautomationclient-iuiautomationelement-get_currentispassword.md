@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentIsPassword.htm
 old-project: WinAuto
 ms.assetid: d2af875b-a0d6-41e1-8eec-a38f42fff7ac
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: CurrentIsPassword property [Windows Accessibility], CurrentIsPassword property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsPassword property, IUIAutomationElement.CurrentIsPassword, IUIAutomationElement.get_CurrentIsPassword, IUIAutomationElement::CurrentIsPassword, IUIAutomationElement::get_CurrentIsPassword, get_CurrentIsPassword, uiauto.uiauto_IUIAutomationElement_CurrentIsPassword, uiauto_IUIAutomationElement_CurrentIsPassword, uiautomationclient/IUIAutomationElement::CurrentIsPassword, uiautomationclient/IUIAutomationElement::get_CurrentIsPassword, winauto.uiauto_IUIAutomationElement_CurrentIsPassword
 ms.prod: windows
 ms.technology: windows-sdk

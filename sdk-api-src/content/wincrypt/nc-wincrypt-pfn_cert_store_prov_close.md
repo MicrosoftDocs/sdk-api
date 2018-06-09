@@ -7,7 +7,7 @@ old-location: security\certstoreprovclosecallback.htm
 old-project: SecCrypto
 ms.assetid: 2d0aa2c2-e79f-485c-ad47-6d9672c778da
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertStoreProvCloseCallback, CertStoreProvCloseCallback callback, CertStoreProvCloseCallback callback function [Security], PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STORE_PROV_CLOSE callback function [Security], _crypto2_certstoreprovclosecallback, security.certstoreprovclosecallback, wincrypt/CertStoreProvCloseCallback, wincrypt/PFN_CERT_STORE_PROV_CLOSE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ This callback function does not return a value.
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
  
 
  

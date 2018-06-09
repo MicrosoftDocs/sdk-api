@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlDropHandler_OnDrop.htm
 old-project: shell
 ms.assetid: 05c677fb-a2e2-4aa5-bb27-4dc437ca408c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDrop method, INameSpaceTreeControlDropHandler.OnDrop, INameSpaceTreeControlDropHandler::OnDrop, OnDrop, OnDrop method [Windows Shell], OnDrop method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDrop, shell.INameSpaceTreeControlDropHandler_OnDrop, shobjidl/INameSpaceTreeControlDropHandler::OnDrop
 ms.prod: windows
 ms.technology: windows-sdk

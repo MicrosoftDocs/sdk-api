@@ -7,7 +7,7 @@ old-location: base\regclosekey.htm
 old-project: SysInfo
 ms.assetid: 10175499-abf3-4694-9594-bb97b43f3fa5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclosekey, winreg/RegCloseKey
 ms.prod: windows
 ms.technology: windows-sdk

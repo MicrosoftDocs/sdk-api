@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_RemoveMenusSB.htm
 old-project: shell
 ms.assetid: aa96ac59-62cd-4010-8a0f-b743527f61da
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShellBrowser.RemoveMenusSB, IShellBrowser::RemoveMenusSB, RemoveMenusSB, RemoveMenusSB method [Windows Shell], RemoveMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_RemoveMenusSB, shell.IShellBrowser_RemoveMenusSB, shobjidl_core/IShellBrowser::RemoveMenusSB
 ms.prod: windows
 ms.technology: windows-sdk

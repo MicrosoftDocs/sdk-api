@@ -7,7 +7,7 @@ old-location: winprog\_setdotstuffingonwrites.htm
 old-project: DevNotes
 ms.assetid: 6191e097-3e8a-4149-85bb-88d804caa3ae
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: SetDotStuffingOnWrites, SetDotStuffingOnWrites function [Windows API], filehc/SetDotStuffingOnWrites, winprog._setdotstuffingonwrites
 ms.prod: windows
 ms.technology: windows-sdk

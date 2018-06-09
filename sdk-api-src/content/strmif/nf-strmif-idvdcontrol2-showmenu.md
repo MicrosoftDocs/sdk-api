@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_showmenu.htm
 old-project: DirectShow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.ShowMenu, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu
 ms.prod: windows
 ms.technology: windows-sdk

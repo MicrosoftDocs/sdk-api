@@ -7,7 +7,7 @@ old-location: wmi\chstring_collate.htm
 old-project: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Collate method, CHString.Collate, CHString::Collate, Collate, Collate method [Windows Management Instrumentation], Collate method [Windows Management Instrumentation],CHString interface, _hmm_chstring_collate, chstring/CHString::Collate, wmi.chstring_collate
 ms.prod: windows
 ms.technology: windows-sdk

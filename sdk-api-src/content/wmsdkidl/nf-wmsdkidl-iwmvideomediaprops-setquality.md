@@ -7,7 +7,7 @@ old-location: wmformat\iwmvideomediaprops_setquality.htm
 old-project: wmformat
 ms.assetid: 0f91380d-b8c8-47db-99ca-12c897bdff20
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality method, IWMVideoMediaProps.SetQuality, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The <b>SetQuality</b> method specifies the quality setting for the video stream.
 
 ### -param dwQuality [in]
 
-<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="wmformat_glossary.htm">frame rate</a>) to 100 (maximum image quality).
+<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">frame rate</a>) to 100 (maximum image quality).
 
 
 ## -returns

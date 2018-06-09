@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreport.htm
 old-project: Fsrm
 ms.assetid: 2172a543-b3b7-453e-887b-05c8ee74f197
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmReport, IFsrmReport interface [File Server Resource Manager], IFsrmReport interface [File Server Resource Manager],described, fs.ifsrmreport, fsrm.ifsrmreport, fsrm/IFsrmReport
 ms.prod: windows
 ms.technology: windows-sdk

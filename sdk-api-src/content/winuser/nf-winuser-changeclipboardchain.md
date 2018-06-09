@@ -94,7 +94,7 @@ The window identified by
     <i>hWndNewNext</i> replaces the 
     <i>hWndRemove</i> window in the chain. The <a href="https://msdn.microsoft.com/b1c9c0eb-388f-4fa1-9744-8ebd324cec4f">SetClipboardViewer</a> function sends a <a href="https://msdn.microsoft.com/7be87342-87fa-4cd2-b066-0b36b7ef52f5">WM_CHANGECBCHAIN</a> message to the first window in the clipboard viewer chain.
 
-For an example, see <a href="using_the_clipboard.htm">Removing a Window from the Clipboard Viewer Chain</a>.
+For an example, see <a href="https://www.bing.com/search?q=Removing+a+Window+from+the+Clipboard+Viewer+Chain">Removing a Window from the Clipboard Viewer Chain</a>.
 
 
 

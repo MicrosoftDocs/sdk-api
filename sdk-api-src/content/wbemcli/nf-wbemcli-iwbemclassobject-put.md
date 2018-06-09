@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_put.htm
 old-project: WmiSdk
 ms.assetid: 7b67739f-5c67-447a-a1a5-fad9ce3e857a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],Put method, IWbemClassObject.Put, IWbemClassObject::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_put, wbemcli/IWbemClassObject::Put, wmi.iwbemclassobject_put
 ms.prod: windows
 ms.technology: windows-sdk
@@ -227,7 +227,7 @@ VariantClear(&amp;v);</pre>
 
 
 
-<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
 
 
 

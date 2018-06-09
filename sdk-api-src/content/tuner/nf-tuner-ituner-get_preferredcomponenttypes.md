@@ -7,7 +7,7 @@ old-location: mstv\ituner_get_preferredcomponenttypes.htm
 old-project: mstv
 ms.assetid: 1ed2d1b5-8ba3-4230-8cc3-f8207635a78a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_PreferredComponentTypes method, ITuner.get_PreferredComponentTypes, ITuner::get_PreferredComponentTypes, ITunerget_PreferredComponentTypes, get_PreferredComponentTypes, get_PreferredComponentTypes method [Microsoft TV Technologies], get_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_preferredcomponenttypes, tuner/ITuner::get_PreferredComponentTypes
 ms.prod: windows
 ms.technology: windows-sdk

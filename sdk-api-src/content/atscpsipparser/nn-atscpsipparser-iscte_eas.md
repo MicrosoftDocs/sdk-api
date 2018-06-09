@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas.htm
 old-project: mstv
 ms.assetid: 7b5620c3-f460-4118-a8a2-9b2561bd12cf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], ISCTE_EAS interface [Microsoft TV Technologies],described, ISCTE_EASInterface, atscpsipparser/ISCTE_EAS, mstv.iscte_eas
 ms.prod: windows
 ms.technology: windows-sdk

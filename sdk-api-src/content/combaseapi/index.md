@@ -2,12 +2,12 @@
 UID: NA:combaseapi
 ms.assetid: e62ae5e8-bef8-3cc9-8ea3-abd486b1c7cb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winrt
+tech.root: com
 ---
 
 # Combaseapi.h header

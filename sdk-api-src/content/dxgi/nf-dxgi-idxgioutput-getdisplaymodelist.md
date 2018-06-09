@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getdisplaymodelist.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdisplaymodelist.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 3a76a6e4-1ab8-3f7a-7a2b-1bd9540d34fa, GetDisplayModeList, GetDisplayModeList method [DXGI], GetDisplayModeList method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDisplayModeList method, IDXGIOutput.GetDisplayModeList, IDXGIOutput::GetDisplayModeList, direct3ddxgi.idxgioutput_getdisplaymodelist, dxgi/IDXGIOutput::GetDisplayModeList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ A pointer to a list of display modes (see <a href="https://msdn.microsoft.com/ed
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>. It is rare, but possible, that the display modes available can change immediately after calling 
       this method, in which case DXGI_ERROR_MORE_DATA is returned (if there is not enough room for all the display modes).  

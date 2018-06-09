@@ -7,7 +7,7 @@ old-location: security\certduplicatectlcontext.htm
 old-project: SecCrypto
 ms.assetid: 512d246f-9f22-4ac1-a4fc-d5c615a65cf9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertDuplicateCTLContext, CertDuplicateCTLContext function [Security], _crypto2_certduplicatectlcontext, security.certduplicatectlcontext, wincrypt/CertDuplicateCTLContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Currently, a copy is not made of the context, and the returned pointer to <a hre
 
 
 
-<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Trust+List+Functions">Certificate Trust List Functions</a>
  
 
  

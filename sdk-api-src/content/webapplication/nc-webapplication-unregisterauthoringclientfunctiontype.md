@@ -7,7 +7,7 @@ old-location: debug\unregisterauthoringclientfunctiontype.htm
 old-project: debug_wwahost
 ms.assetid: 2F48142B-88D2-49B7-9FAA-5D6BA4DC3837
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/04/2018
 ms.keywords: UnregisterAuthoringClientFunctionType, UnregisterAuthoringClientFunctionType function, UnregisterAuthoringClientFunctionType function pointer [Debugging Windows Store apps], debug.unregisterauthoringclientfunctiontype, webapplication/UnregisterAuthoringClientFunctionType
 ms.prod: windows
 ms.technology: windows-sdk

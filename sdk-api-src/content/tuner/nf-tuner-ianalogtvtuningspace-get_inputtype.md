@@ -7,7 +7,7 @@ old-location: mstv\ianalogtvtuningspace_get_inputtype.htm
 old-project: mstv
 ms.assetid: c016a61b-6b4f-4101-a357-38b8be754a57
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_InputType method, IAnalogTVTuningSpace.get_InputType, IAnalogTVTuningSpace::get_InputType, IAnalogTVTuningSpaceget_InputType, get_InputType, get_InputType method [Microsoft TV Technologies], get_InputType method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_inputtype, tuner/IAnalogTVTuningSpace::get_InputType
 ms.prod: windows
 ms.technology: windows-sdk

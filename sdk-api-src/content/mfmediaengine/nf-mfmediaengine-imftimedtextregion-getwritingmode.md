@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getwritingmode.htm
 old-project: medfound
 ms.assetid: BCF99D3C-554A-4788-B54B-236F463B1EAE
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritingMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWritingMode method, IMFTimedTextRegion.GetWritingMode, IMFTimedTextRegion::GetWritingMode, mf.imftimedtextregion_getwritingmode, mfmediaengine/IMFTimedTextRegion::GetWritingMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

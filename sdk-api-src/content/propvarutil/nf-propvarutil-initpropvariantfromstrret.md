@@ -102,7 +102,7 @@ Creates a VT_LPWSTR propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStrRet">InitPropVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromStrRet">InitPropVariantFromStrRet</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -135,19 +135,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>
+<a href="https://www.bing.com/search?q=InitVariantFromStrRet">InitVariantFromStrRet</a>
 
 
 
-<a href="shell.PropVariantToString">PropVariantToString</a>
+<a href="https://www.bing.com/search?q=PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
+<a href="https://www.bing.com/search?q=PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
  
 
  

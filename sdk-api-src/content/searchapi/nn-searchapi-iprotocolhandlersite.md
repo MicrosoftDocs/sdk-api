@@ -7,7 +7,7 @@ old-location: search\_search_IProtocolHandlerSite.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\iprotocolhandlersite.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IProtocolHandlerSite, IProtocolHandlerSite interface [search], IProtocolHandlerSite interface [search],described, _search_IProtocolHandlerSite, search._search_IProtocolHandlerSite, searchapi/IProtocolHandlerSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ The <b>IProtocolHandlerSite</b> interface has these methods.
 
 
 
-When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="search._search_IProtocolHandlerSite_GetFilter">IProtocolHandlerSite::GetFilter</a> method.
+When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter.md">IProtocolHandlerSite::GetFilter</a> method.
 
 
 

@@ -448,7 +448,7 @@ Ends the execution of the work item.
 
 
 
-<b>ITask</b> is the primary interface of the <a href="t.htm">task trigger object</a>. To create a task object, call 
+<b>ITask</b> is the primary interface of the <a href="https://www.bing.com/search?q=task+trigger+object">task trigger object</a>. To create a task object, call 
 <a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a> for existing tasks or 
 <a href="https://msdn.microsoft.com/1fbd65ae-0b54-4175-bf26-4226b1aabdc1">ITaskScheduler::NewWorkItem</a> for new tasks.
 

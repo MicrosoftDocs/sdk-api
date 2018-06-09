@@ -7,7 +7,7 @@ old-location: mscs\resutiladdunknownproperties.htm
 old-project: MsCS
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_ADD_UNKNOWN_PROPERTIES, PRESUTIL_ADD_UNKNOWN_PROPERTIES callback, PRESUTIL_ADD_UNKNOWN_PROPERTIES callback function [Failover Cluster], _wolf_resutiladdunknownproperties, mscs.resutiladdunknownproperties, resapi/PRESUTIL_ADD_UNKNOWN_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

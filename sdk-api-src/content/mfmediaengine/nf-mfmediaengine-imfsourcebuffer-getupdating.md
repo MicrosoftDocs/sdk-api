@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_getupdating.htm
 old-project: medfound
 ms.assetid: f1c810d1-05dd-4931-b063-fb86c6bedae3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetUpdating method, IMFSourceBuffer.GetUpdating, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

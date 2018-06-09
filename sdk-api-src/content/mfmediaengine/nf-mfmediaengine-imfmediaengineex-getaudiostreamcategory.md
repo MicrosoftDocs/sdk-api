@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getaudiostreamcategory.htm
 old-project: medfound
 ms.assetid: 587c0844-93be-42e4-96f6-d5aa721e9ced
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetAudioStreamCategory, GetAudioStreamCategory method [Media Foundation], GetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioStreamCategory method, IMFMediaEngineEx.GetAudioStreamCategory, IMFMediaEngineEx::GetAudioStreamCategory, mf.imfmediaengineex_getaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::GetAudioStreamCategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

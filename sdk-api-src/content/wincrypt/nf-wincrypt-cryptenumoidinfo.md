@@ -7,7 +7,7 @@ old-location: security\cryptenumoidinfo.htm
 old-project: SecCrypto
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cryptenumoidinfo, security.cryptenumoidinfo, wincrypt/CryptEnumOIDInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ If the callback function has stopped the enumeration, this function returns <b>F
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

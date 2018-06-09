@@ -7,7 +7,7 @@ old-location: shell\PathCanonicalize.htm
 old-project: shell
 ms.assetid: e9b1e877-2cd6-4dd9-a15b-676cb940daed
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCanonicalizeA, PathCanonicalizeW, _win32_PathCanonicalize, shell.PathCanonicalize, shlwapi/PathCanonicalize, shlwapi/PathCanonicalizeA, shlwapi/PathCanonicalizeW
 ms.prod: windows
 ms.technology: windows-sdk

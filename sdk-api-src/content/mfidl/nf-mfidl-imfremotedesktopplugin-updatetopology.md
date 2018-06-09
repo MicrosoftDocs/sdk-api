@@ -7,7 +7,7 @@ old-location: mf\imfremotedesktopplugin_updatetopology.htm
 old-project: medfound
 ms.assetid: 799ba0b4-b015-4899-9496-d8c23d033b24
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interface [Media Foundation],UpdateTopology method, IMFRemoteDesktopPlugin.UpdateTopology, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFRemoteDesktopPlugin interface, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchainforcompositionsurface.ht
 old-project: direct3ddxgi
 ms.assetid: 8AE13082-F8C3-422A-A111-4E91488BD1AF
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSwapChainForComposition, CreateSwapChainForComposition method [DXGI], CreateSwapChainForComposition method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForComposition method, IDXGIFactory2.CreateSwapChainForComposition, IDXGIFactory2::CreateSwapChainForComposition, direct3ddxgi.idxgifactory2_createswapchainforcompositionsurface, dxgi1_2/IDXGIFactory2::CreateSwapChainForComposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,14 @@ For Direct3D 11, and earlier versions of Direct3D, this is a pointer to the Dire
 
 A pointer to a  <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a> structure for the swap-chain description. This parameter cannot be <b>NULL</b>.
 
-You must specify the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value in the <b>SwapEffect</b> member of <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a> because <b>CreateSwapChainForComposition</b> supports only <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">flip presentation model</a>.
+You must specify the <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value in the <b>SwapEffect</b> member of <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a> because <b>CreateSwapChainForComposition</b> supports only <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">flip presentation model</a>.
 
-You must also specify the <a href="dxgi_scaling.htm">DXGI_SCALING_STRETCH</a> value in the <b>Scaling</b> member of <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a>.
+You must also specify the <a href="/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_scaling">DXGI_SCALING_STRETCH</a> value in the <b>Scaling</b> member of <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a>.
 
 
 ### -param pRestrictToOutput [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the output to restrict content to. You must also pass the <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. However, you can conditionally restrict content based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
+A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the output to restrict content to. You must also pass the <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. However, you can conditionally restrict content based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
 
 
 Set this parameter to <b>NULL</b> if you don't want to restrict content to an output target.
@@ -169,7 +169,7 @@ The <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">IS
 
 
 
-<a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">For best performance, use DXGI flip model</a>
+<a href="https://www.bing.com/search?q=For+best+performance,+use+DXGI+flip+model">For best performance, use DXGI flip model</a>
 
 
 

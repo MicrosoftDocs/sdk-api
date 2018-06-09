@@ -7,7 +7,7 @@ old-location: winprog\ntnotifychangemultiplekeys.htm
 old-project: DevNotes
 ms.assetid: c1ee9793-490c-45de-a2a5-deab630917f6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: NtNotifyChangeMultipleKeys, NtNotifyChangeMultipleKeys function [Windows API], REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, base.ntnotifychangemultiplekeys, winprog.ntnotifychangemultiplekeys, winternl/NtNotifyChangeMultipleKeys
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwatermarkinfo_getwatermarkentrycount.htm
 old-project: wmformat
 ms.assetid: 27a102b7-a495-49ee-9d65-a0276ca2cf76
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetWatermarkEntryCount, GetWatermarkEntryCount method [windows Media Format], GetWatermarkEntryCount method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntryCount method, IWMWatermarkInfo.GetWatermarkEntryCount, IWMWatermarkInfo::GetWatermarkEntryCount, IWMWatermarkInfoGetWatermarkEntryCount, wmformat.iwmwatermarkinfo_getwatermarkentrycount, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntryCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="wmformat_glossary.htm">DMOs</a>.
+The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DMOs</a>.
 
 
 

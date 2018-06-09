@@ -7,7 +7,7 @@ old-location: xps\ixpsomdashcollection_setat.htm
 old-project: printdocs
 ms.assetid: c0ea0ae0-2c28-4478-82fc-3e80bc70eef8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDashCollection.SetAt, IXpsOMDashCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt
 ms.prod: windows
 ms.technology: windows-sdk

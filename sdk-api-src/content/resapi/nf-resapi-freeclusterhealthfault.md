@@ -7,7 +7,7 @@ old-location: mscs\freeclusterhealthfault.htm
 old-project: MsCS
 ms.assetid: 5a79d105-dd15-4205-99e6-b389b2adeed5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: FreeClusterHealthFault, FreeClusterHealthFault function [Failover Cluster], mscs.freeclusterhealthfault, resapi/FreeClusterHealthFault
 ms.prod: windows
 ms.technology: windows-sdk

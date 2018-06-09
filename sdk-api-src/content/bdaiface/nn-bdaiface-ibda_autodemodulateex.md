@@ -7,7 +7,7 @@ old-location: mstv\ibda_autodemodulateex.htm
 old-project: mstv
 ms.assetid: ecc642e4-7c36-400c-8a63-639f75b2bbc2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_AutoDemodulateEx, IBDA_AutoDemodulateEx interface [Microsoft TV Technologies], IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateExInterface, bdaiface/IBDA_AutoDemodulateEx, mstv.ibda_autodemodulateex
 ms.prod: windows
 ms.technology: windows-sdk

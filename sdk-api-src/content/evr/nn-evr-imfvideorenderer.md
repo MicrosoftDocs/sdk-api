@@ -7,7 +7,7 @@ old-location: mf\imfvideorenderer.htm
 old-project: medfound
 ms.assetid: 70596630-5131-460f-9cb3-adcea201c3b2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], IMFVideoRenderer interface [Media Foundation],described, evr/IMFVideoRenderer, mf.imfvideorenderer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependencybyclass.htm
 old-project: MsCS
 ms.assetid: 7c2bd24a-8034-4a5f-8218-0a23d5e29b07
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback function [Failover Cluster], _wolf_resutilgetresourcedependencybyclass, mscs.resutilgetresourcedependencybyclass, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Do not call  <i>ResUtilGetResourceDependencyByClass</i> from any resource DLL en
 
 #### Examples
 
-As the following example illustrates, if you know that resource A depends on a <a href="s_gly.htm">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
+As the following example illustrates, if you know that resource A depends on a <a href="https://www.bing.com/search?q=storage+class+resource">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

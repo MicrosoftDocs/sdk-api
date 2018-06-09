@@ -7,7 +7,7 @@ old-location: security\cryptxmlgetdoccontext.htm
 old-project: SecCrypto
 ms.assetid: 0532c790-381c-4a91-8211-725b0fa73830
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], cryptxml/CryptXmlGetDocContext, security.cryptxmlgetdoccontext
 ms.prod: windows
 ms.technology: windows-sdk

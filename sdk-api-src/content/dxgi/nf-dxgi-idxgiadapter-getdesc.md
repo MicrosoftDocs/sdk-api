@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter_getdesc.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],GetDesc method, IDXGIAdapter.GetDesc, IDXGIAdapter::GetDesc, d6097f67-3411-f7d2-50dc-507efce034b7, direct3ddxgi.idxgiadapter_getdesc, dxgi/IDXGIAdapter::GetDesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A pointer to a <a href="https://msdn.microsoft.com/df39ce37-e1ed-40f3-bfb0-3f7ed
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise returns E_INVALIDARG if the <i>pDesc</i> parameter is <b>NULL</b>.  
         

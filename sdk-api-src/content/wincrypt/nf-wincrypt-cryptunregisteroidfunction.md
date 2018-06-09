@@ -7,7 +7,7 @@ old-location: security\cryptunregisteroidfunction.htm
 old-project: SecCrypto
 ms.assetid: c06ffda5-df7c-4e0e-bf4f-8b8c968fcd4c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptUnregisterOIDFunction, CryptUnregisterOIDFunction function [Security], _crypto2_cryptunregisteroidfunction, security.cryptunregisteroidfunction, wincrypt/CryptUnregisterOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

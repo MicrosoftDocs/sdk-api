@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the height of items in a list box. If the list box has the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/3ac8e935-6de8-465f-a525-1f493b06ee7c">LB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of items in a list box. If the list box has the <a href="https://www.bing.com/search?q=LBS_OWNERDRAWVARIABLE">LBS_OWNERDRAWVARIABLE</a> style, this macro sets the height of the specified item; otherwise, it sets the height of all items. You can use this macro or send the <a href="https://msdn.microsoft.com/3ac8e935-6de8-465f-a525-1f493b06ee7c">LB_SETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The zero-based index of the item. If the list box does not have the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
+The zero-based index of the item. If the list box does not have the <a href="https://www.bing.com/search?q=LBS_OWNERDRAWVARIABLE">LBS_OWNERDRAWVARIABLE</a> style, set this parameter to zero. 
 
 
 ### -param cy

@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialmanager_setgood.htm
 old-project: medfound
 ms.assetid: f58e30ba-3e9b-41b5-9c13-0f9dac541033
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFNetCredentialManager interface [Media Foundation],SetGood method, IMFNetCredentialManager.SetGood, IMFNetCredentialManager::SetGood, SetGood, SetGood method [Media Foundation], SetGood method [Media Foundation],IMFNetCredentialManager interface, f58e30ba-3e9b-41b5-9c13-0f9dac541033, mf.imfnetcredentialmanager_setgood, mfidl/IMFNetCredentialManager::SetGood
 ms.prod: windows
 ms.technology: windows-sdk

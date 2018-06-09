@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getrealtimemode.htm
 old-project: medfound
 ms.assetid: 473a2b5a-5b9d-4754-bd32-89c9c4ab8c4a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetRealTimeMode, GetRealTimeMode method [Media Foundation], GetRealTimeMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetRealTimeMode method, IMFMediaEngineEx.GetRealTimeMode, IMFMediaEngineEx::GetRealTimeMode, mf.imfmediaengineex_getrealtimemode, mfmediaengine/IMFMediaEngineEx::GetRealTimeMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

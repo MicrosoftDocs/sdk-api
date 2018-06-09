@@ -7,7 +7,7 @@ old-location: stg\stgopenlayoutdocfile.htm
 old-project: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
 ms.prod: windows
 ms.technology: windows-sdk

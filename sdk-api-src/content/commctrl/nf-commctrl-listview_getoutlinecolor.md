@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the color of the border of a list-view control if the <a href="Extended_list_view_styles.htm">LVS_EX_BORDERSELECT</a> extended window style is set. You can use this macro or send the <a href="https://msdn.microsoft.com/cc9d69d1-1470-4eaa-8d54-e31b796cf685">LVM_GETOUTLINECOLOR</a> message explicitly. 
+Gets the color of the border of a list-view control if the <a href="https://www.bing.com/search?q=LVS_EX_BORDERSELECT">LVS_EX_BORDERSELECT</a> extended window style is set. You can use this macro or send the <a href="https://msdn.microsoft.com/cc9d69d1-1470-4eaa-8d54-e31b796cf685">LVM_GETOUTLINECOLOR</a> message explicitly. 
 
 
 ## -parameters

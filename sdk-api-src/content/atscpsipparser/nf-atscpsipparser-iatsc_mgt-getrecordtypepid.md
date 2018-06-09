@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_getrecordtypepid.htm
 old-project: mstv
 ms.assetid: c8c4cfba-b03c-478e-a49e-c01d663535a0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordTypePid, GetRecordTypePid method [Microsoft TV Technologies], GetRecordTypePid method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordTypePid method, IATSC_MGT.GetRecordTypePid, IATSC_MGT::GetRecordTypePid, IATSC_MGTGetRecordTypePid, atscpsipparser/IATSC_MGT::GetRecordTypePid, mstv.iatsc_mgt_getrecordtypepid
 ms.prod: windows
 ms.technology: windows-sdk

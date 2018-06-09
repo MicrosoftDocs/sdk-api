@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_beginregisterplatformworkqueuewithmmcss.ht
 old-project: medfound
 ms.assetid: aea9f946-dd59-4e51-a1de-b086e70ea083
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: BeginRegisterPlatformWorkQueueWithMMCSS, BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS, aea9f946-dd59-4e51-a1de-b086e70ea083, mf.imfworkqueueservices_beginregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,12 @@
 UID: NA:dcommon
 ms.assetid: 6348b8d3-df5a-3ff6-a228-80c9fbb44286
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: directwrite
+tech.root: direct2d
 ---
 
 # Dcommon.h header

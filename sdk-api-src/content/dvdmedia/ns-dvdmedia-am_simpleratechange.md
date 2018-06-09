@@ -7,7 +7,7 @@ old-location: dshow\am_simpleratechange.htm
 old-project: DirectShow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
 ms.prod: windows
 ms.technology: windows-sdk

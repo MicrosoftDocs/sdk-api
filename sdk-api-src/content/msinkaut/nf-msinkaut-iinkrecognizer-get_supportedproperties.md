@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer_supportedproperties.htm
 old-project: tablet
 ms.assetid: 11153c7f-5284-483b-b1d5-01e670d924b4
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 11153c7f-5284-483b-b1d5-01e670d924b4, IInkRecognizer interface [Tablet PC],SupportedProperties property, IInkRecognizer.SupportedProperties, IInkRecognizer.get_SupportedProperties, IInkRecognizer::SupportedProperties, IInkRecognizer::get_SupportedProperties, SupportedProperties property [Tablet PC], SupportedProperties property [Tablet PC],IInkRecognizer interface, get_SupportedProperties, msinkaut/IInkRecognizer::SupportedProperties, msinkaut/IInkRecognizer::get_SupportedProperties, tablet.iinkrecognizer_supportedproperties
 ms.prod: windows
 ms.technology: windows-sdk

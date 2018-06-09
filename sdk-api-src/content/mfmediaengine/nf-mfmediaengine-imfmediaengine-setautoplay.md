@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setautoplay.htm
 old-project: medfound
 ms.assetid: 867FE1D2-39AE-4A44-99DD-98A8ABD234A2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetAutoPlay method, IMFMediaEngine.SetAutoPlay, IMFMediaEngine::SetAutoPlay, SetAutoPlay, SetAutoPlay method [Media Foundation], SetAutoPlay method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setautoplay, mfmediaengine/IMFMediaEngine::SetAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

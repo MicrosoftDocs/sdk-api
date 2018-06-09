@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_visible.htm
 old-project: tablet
 ms.assetid: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 561b1a92-2e7e-4e8a-8fad-ebb515328cb7, IPenInputPanel interface [Tablet PC],Visible property, IPenInputPanel.Visible, IPenInputPanel.get_Visible, IPenInputPanel::Visible, IPenInputPanel::get_Visible, IPenInputPanel::putref_Visible, PenInputPanel.get_Visible, Visible property [Tablet PC], Visible property [Tablet PC],IPenInputPanel interface, get_Visible, peninputpanel/IPenInputPanel::Visible, peninputpanel/IPenInputPanel::get_Visible, peninputpanel/IPenInputPanel::putref_Visible, put_Visible, tablet.peninputpanel_visible
 ms.prod: windows
 ms.technology: windows-sdk

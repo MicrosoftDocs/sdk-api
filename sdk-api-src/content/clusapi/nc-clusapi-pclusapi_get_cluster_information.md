@@ -7,7 +7,7 @@ old-location: mscs\getclusterinformation.htm
 old-project: MsCS
 ms.assetid: 5b259eb9-c5d0-4f4f-8a6b-14eaed716612
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_INFORMATION, PCLUSAPI_GET_CLUSTER_INFORMATION callback, PCLUSAPI_GET_CLUSTER_INFORMATION callback function [Failover Cluster], _wolf_getclusterinformation, clusapi/PCLUSAPI_GET_CLUSTER_INFORMATION, mscs.getclusterinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves a <a href="c_gly.htm">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
+Retrieves a <a href="https://www.bing.com/search?q=cluster's">cluster's</a> name and version. The <b>PCLUSAPI_GET_CLUSTER_INFORMATION</b> type defines a pointer to this function.
 
 
 ## -parameters

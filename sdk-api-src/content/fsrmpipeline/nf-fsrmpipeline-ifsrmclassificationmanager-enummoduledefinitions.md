@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassificationmanager_enummoduledefinitions.htm
 old-project: Fsrm
 ms.assetid: eeda0802-e450-4a8b-a08c-135784540b17
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: EnumModuleDefinitions, EnumModuleDefinitions method [File Server Resource Manager], EnumModuleDefinitions method [File Server Resource Manager],FsrmClassificationManager class, EnumModuleDefinitions method [File Server Resource Manager],IFsrmClassificationManager interface, EnumModuleDefinitions method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager interface [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager.EnumModuleDefinitions, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumModuleDefinitions method, IFsrmClassificationManager2::EnumModuleDefinitions, IFsrmClassificationManager::EnumModuleDefinitions, fs.ifsrmclassificationmanager_enummoduledefinitions, fsrm.ifsrmclassificationmanager_enummoduledefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumModuleDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumModuleDefinitions
 ms.prod: windows
 ms.technology: windows-sdk

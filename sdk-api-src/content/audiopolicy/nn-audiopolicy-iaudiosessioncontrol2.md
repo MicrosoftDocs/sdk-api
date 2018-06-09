@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2.htm
 old-project: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
 ms.prod: windows
 ms.technology: windows-sdk

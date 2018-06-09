@@ -7,7 +7,7 @@ old-location: mf\itocentry_setdescriptiondata.htm
 old-project: medfound
 ms.assetid: 260d7699-cf75-4179-9f2b-bc3bc49c94e6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getlength.htm
 old-project: mstv
 ms.assetid: de183193-09b7-4774-9640-f02ec597d9c6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbHierarchicalTransmissionDescriptor.GetLength, IIsdbHierarchicalTransmissionDescriptor::GetLength, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetLength, mstv.iisdbhierarchicaltransmissiondescriptor_getlength
 ms.prod: windows
 ms.technology: windows-sdk

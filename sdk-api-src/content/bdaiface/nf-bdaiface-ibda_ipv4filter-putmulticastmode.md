@@ -7,7 +7,7 @@ old-location: mstv\ibda_ipv4filter_putmulticastmode.htm
 old-project: mstv
 ms.assetid: d0a12c21-e196-4228-9994-51047271cf57
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV4Filter.PutMulticastMode, IBDA_IPV4Filter::PutMulticastMode, IBDA_IPV4FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastMode, mstv.ibda_ipv4filter_putmulticastmode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_stat.htm
 old-project: Stg
 ms.assetid: 46985c49-cb9b-4f67-8dff-e6fad9e188da
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],Stat method, IPropertyStorage.Stat, IPropertyStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_stat, propidl/IPropertyStorage::Stat, stg.ipropertystorage_stat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,6 +96,10 @@ Pointer to a
 
 
 <a href="https://msdn.microsoft.com/979ee86b-fabc-428c-8134-f16c2a33270f">IPropertySetStorage::Enum</a>
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

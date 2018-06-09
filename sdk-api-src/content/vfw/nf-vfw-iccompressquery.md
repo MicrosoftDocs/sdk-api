@@ -7,7 +7,7 @@ old-location: multimedia\iccompressquery.htm
 old-project: Multimedia
 ms.assetid: 5e34a830-5e0c-41e5-9e4a-2d827c73ceeb
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICCompressQuery, ICCompressQuery macro [Windows Multimedia], _win32_ICCompressQuery, multimedia.iccompressquery, vfw/ICCompressQuery
 ms.prod: windows
 ms.technology: windows-sdk

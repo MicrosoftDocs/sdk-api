@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection_append.htm
 old-project: printdocs
 ms.assetid: 4643df46-aa6f-4ffb-90f1-8834e16b4321
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMSignatureBlockResourceCollection.Append, IXpsOMSignatureBlockResourceCollection::Append, xps.ixpsomsignatureblockresourcecollection_append, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

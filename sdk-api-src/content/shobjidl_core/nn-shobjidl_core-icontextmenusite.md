@@ -7,7 +7,7 @@ old-location: shell\IContextMenuSite.htm
 old-project: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Creates and displays a shortcut menu, tracks the selection of items on that menu
 
 The IID for this interface is <b>IID_IContextMenuSite</b>.
 
-To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
+To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="https://www.bing.com/search?q=QueryService">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

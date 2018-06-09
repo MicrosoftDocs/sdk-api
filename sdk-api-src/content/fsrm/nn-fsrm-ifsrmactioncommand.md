@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand.htm
 old-project: Fsrm
 ms.assetid: b7f9fc8c-2f55-4a0e-879a-64c368abcabb
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], IFsrmActionCommand interface [File Server Resource Manager],described, fs.ifsrmactioncommand, fsrm.ifsrmactioncommand, fsrm/IFsrmActionCommand
 ms.prod: windows
 ms.technology: windows-sdk

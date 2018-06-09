@@ -7,7 +7,7 @@ old-location: gdi\psfeature_output.htm
 old-project: printdocs
 ms.assetid: 4ff96d45-e70e-4d80-9bab-dd1d67aee8f3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: "*PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT structure pointer [Windows GDI], PSFEATURE_OUTPUT, PSFEATURE_OUTPUT structure [Windows GDI], _PSFEATURE_OUTPUT, _win32_PSFEATURE_OUTPUT_str, gdi.psfeature_output, wingdi/PPSFEATURE_OUTPUT, wingdi/PSFEATURE_OUTPUT"
 ms.prod: windows
 ms.technology: windows-sdk

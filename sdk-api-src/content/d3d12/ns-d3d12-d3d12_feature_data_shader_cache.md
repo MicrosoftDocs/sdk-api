@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_shader_cache.htm
 old-project: direct3d12
 ms.assetid: B6BC2E8F-04FE-4855-87C2-89A054519AFD
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_FEATURE_DATA_SHADER_CACHE, D3D12_FEATURE_DATA_SHADER_CACHE structure, d3d12/D3D12_FEATURE_DATA_SHADER_CACHE, direct3d12.d3d12_feature_data_shader_cache
 ms.prod: windows
 ms.technology: windows-sdk

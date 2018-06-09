@@ -7,7 +7,7 @@ old-location: mscs\removeclustergrouptogroupcollectiondependency.htm
 old-project: MsCS
 ms.assetid: 2bd7e1f4-0b88-466f-a408-dddb9a11a52d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY callback, PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, mscs.removeclustergrouptogroupcollectiondependency
 ms.prod: windows
 ms.technology: windows-sdk

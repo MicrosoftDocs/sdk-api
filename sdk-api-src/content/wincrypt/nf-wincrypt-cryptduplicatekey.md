@@ -7,7 +7,7 @@ old-location: security\cryptduplicatekey.htm
 old-project: SecCrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -210,7 +210,7 @@ else
 
 
 
-<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
+<a href="https://www.bing.com/search?q=Key+Generation+and+Exchange+Functions">Key Generation and Exchange Functions</a>
  
 
  

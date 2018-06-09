@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdatessettings.htm
 old-project: Wua_Sdk
 ms.assetid: c4672df5-9e47-45f5-9504-1ebb0bf3c6a6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], IAutomaticUpdatesSettings interface [Windows Update Agent],described, wua.iautomaticupdatessettings, wuapi/IAutomaticUpdatesSettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,7 +185,7 @@ Gets and sets the time at which Automatic Updates  installs or uninstalls update
 
 <div class="alert"><b>Note</b>  Starting with Windows 8 and Windows Server 2012, <a href="https://msdn.microsoft.com/057498ad-d329-4fda-b3fe-95bdc27d62a4">ScheduledInstallationDay</a> and <a href="https://msdn.microsoft.com/1b1adefc-785e-46ad-8984-d2beb1c2202c">ScheduledInstallationTime</a> are not supported and will return unreliable values. If you try to modify these properties, the operation will appear to succeed but will have no effect.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <a href="https://msdn.microsoft.com/fb54b900-345a-4b36-b16d-52790c0266f6">IAutomaticUpdatesSettings::Save</a> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="automaticupdatesnotificationlevel.htm">aunlScheduledInstallation</a>).</div>
+<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <a href="https://msdn.microsoft.com/fb54b900-345a-4b36-b16d-52790c0266f6">IAutomaticUpdatesSettings::Save</a> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="/windows/desktop/api/wuapi/ne-wuapi-tagautomaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
 <div> </div>
 
 

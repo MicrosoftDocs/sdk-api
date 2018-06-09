@@ -7,7 +7,7 @@ old-location: wmi\wbemchangeflagenum.htm
 old-project: WmiSdk
 ms.assetid: 586a4a26-2044-4044-a90d-b45d05f6ce66
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: WbemChangeFlagEnum, WbemChangeFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemchangeflagenum, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagStrongValidation, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateForceMode, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemdisp/WbemChangeFlagEnum, wbemdisp/wbemChangeFlagCreateOnly, wbemdisp/wbemChangeFlagCreateOrUpdate, wbemdisp/wbemChangeFlagStrongValidation, wbemdisp/wbemChangeFlagUpdateCompatible, wbemdisp/wbemChangeFlagUpdateForceMode, wbemdisp/wbemChangeFlagUpdateOnly, wbemdisp/wbemChangeFlagUpdateSafeMode, wmi.wbemchangeflagenum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectiongetenumcount.htm
 old-project: MsCS
 ms.assetid: 7e5f3b47-0f31-46eb-8e71-5bd1dc27190d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterGroupSetGetEnumCount, ClusterGroupSetGetEnumCount function [Failover Cluster], clusapi/ClusterGroupSetGetEnumCount, mscs.clustergroupcollectiongetenumcount
 ms.prod: windows
 ms.technology: windows-sdk

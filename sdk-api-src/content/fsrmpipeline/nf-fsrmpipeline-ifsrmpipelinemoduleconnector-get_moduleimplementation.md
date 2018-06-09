@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduleconnector_moduleimplementation.htm
 old-project: Fsrm
 ms.assetid: 0399ffd6-39c1-40fe-8cfa-c627bbd59680
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector.ModuleImplementation, IFsrmPipelineModuleConnector.get_ModuleImplementation, IFsrmPipelineModuleConnector::ModuleImplementation, IFsrmPipelineModuleConnector::get_ModuleImplementation, ModuleImplementation property [File Server Resource Manager], ModuleImplementation property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleImplementation property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_moduleimplementation, fsrm.ifsrmpipelinemoduleconnector_moduleimplementation, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation, get_ModuleImplementation
 ms.prod: windows
 ms.technology: windows-sdk

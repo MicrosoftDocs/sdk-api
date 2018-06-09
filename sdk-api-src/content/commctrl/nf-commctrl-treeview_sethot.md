@@ -85,7 +85,7 @@ Handle to the tree-view control.
 
 The <i>hot item</i> is the item that the mouse is hovering over. The <a href="https://msdn.microsoft.com/5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8">TVM_SETHOT</a> message sent by this macro makes an item look like it is the hot item even if the mouse is not hovering over it.
 
-The <a href="https://msdn.microsoft.com/5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8">TVM_SETHOT</a> message has no visible effect if the <a href="Tree_View_Control_Window_Styles.htm">TVS_TRACKSELECT</a> style is not set.
+The <a href="https://msdn.microsoft.com/5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8">TVM_SETHOT</a> message has no visible effect if the <a href="https://www.bing.com/search?q=TVS_TRACKSELECT">TVS_TRACKSELECT</a> style is not set.
 
 If it succeeds, the <a href="https://msdn.microsoft.com/5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8">TVM_SETHOT</a> message causes the hot item to be redrawn.
 

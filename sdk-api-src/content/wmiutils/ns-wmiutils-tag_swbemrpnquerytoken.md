@@ -7,7 +7,7 @@ old-location: wmi\swbemrpnquerytoken.htm
 old-project: WmiSdk
 ms.assetid: 04ef89e5-ce42-4d2d-8188-c2bbfe821bcc
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: SWbemRpnQueryToken, SWbemRpnQueryToken structure [Windows Management Instrumentation], VT_BOOL, VT_I4, VT_I8, VT_LPWSTR, VT_R8, VT_UI4, VT_UI8, WMIQ_RPN_CONST, WMIQ_RPN_CONST2, WMIQ_RPN_LEFT_FUNCTION, WMIQ_RPN_LEFT_PROPERTY_NAME, WMIQ_RPN_OP_EQ, WMIQ_RPN_OP_GE, WMIQ_RPN_OP_GT, WMIQ_RPN_OP_ISA, WMIQ_RPN_OP_ISNOTA, WMIQ_RPN_OP_ISNOTNULL, WMIQ_RPN_OP_ISNULL, WMIQ_RPN_OP_LE, WMIQ_RPN_OP_LIKE, WMIQ_RPN_OP_LT, WMIQ_RPN_OP_NE, WMIQ_RPN_OP_UNDEFINED, WMIQ_RPN_RELOP, WMIQ_RPN_RIGHT_FUNCTION, WMIQ_RPN_RIGHT_PROPERTY_NAME, WMIQ_RPN_TOKEN_AND, WMIQ_RPN_TOKEN_EXPRESSION, WMIQ_RPN_TOKEN_NOT, WMIQ_RPN_TOKEN_OR, tag_SWbemRpnQueryToken, wmi.swbemrpnquerytoken, wmiutils/SWbemRpnQueryToken
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\property_metrics.htm
 old-project: tablet
 ms.assetid: a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: "*PPROPERTY_METRICS, PPROPERTY_METRICS, PPROPERTY_METRICS structure pointer [Tablet PC], PROPERTY_METRICS, PROPERTY_METRICS structure [Tablet PC], _PROPERTY_METRICS, a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c, tablet.property_metrics, tpcshrd/PPROPERTY_METRICS, tpcshrd/PROPERTY_METRICS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineopminfo.htm
 old-project: medfound
 ms.assetid: 399f81ac-38f8-4aaa-8b34-f5fd13b71402
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineOPMInfo, IMFMediaEngineOPMInfo interface [Media Foundation], IMFMediaEngineOPMInfo interface [Media Foundation],described, mf.imfmediaengineopminfo, mfmediaengine/IMFMediaEngineOPMInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

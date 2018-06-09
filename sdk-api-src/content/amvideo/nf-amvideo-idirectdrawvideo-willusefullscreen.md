@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_willusefullscreen.htm
 old-project: DirectShow
 ms.assetid: de2addfc-e289-4277-a283-b7aa2aa47ba0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],WillUseFullScreen method, IDirectDrawVideo.WillUseFullScreen, IDirectDrawVideo::WillUseFullScreen, IDirectDrawVideoWillUseFullScreen, WillUseFullScreen, WillUseFullScreen method [DirectShow], WillUseFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::WillUseFullScreen, dshow.idirectdrawvideo_willusefullscreen
 ms.prod: windows
 ms.technology: windows-sdk

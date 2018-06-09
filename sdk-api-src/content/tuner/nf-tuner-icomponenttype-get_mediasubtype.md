@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_get_mediasubtype.htm
 old-project: mstv
 ms.assetid: 470b7960-b016-4807-858b-61a53daf2396
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaSubType method, IComponentType.get_MediaSubType, IComponentType::get_MediaSubType, IComponentTypeget_MediaSubType, get_MediaSubType, get_MediaSubType method [Microsoft TV Technologies], get_MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediasubtype, tuner/IComponentType::get_MediaSubType
 ms.prod: windows
 ms.technology: windows-sdk

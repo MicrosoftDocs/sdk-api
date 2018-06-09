@@ -7,7 +7,7 @@ old-location: winrt\registrationscope.htm
 old-project: WinRT
 ms.assetid: B4C14F6B-90BE-43AC-955B-229CDA025224
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: InboxApp, PerMachine, PerUser, RegistrationScope, RegistrationScope enumeration [Windows Runtime], activationregistration/InboxApp, activationregistration/PerMachine, activationregistration/PerUser, activationregistration/RegistrationScope, winrt.registrationscope
 ms.prod: windows
 ms.technology: windows-sdk

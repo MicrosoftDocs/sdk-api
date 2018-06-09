@@ -7,7 +7,7 @@ old-location: mscs\clusternetinterfaceenum.htm
 old-project: MsCS
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterNetInterfaceEnum, ClusterNetInterfaceEnum function [Failover Cluster], clusapi/ClusterNetInterfaceEnum, mscs.clusternetinterfaceenum
 ms.prod: windows
 ms.technology: windows-sdk

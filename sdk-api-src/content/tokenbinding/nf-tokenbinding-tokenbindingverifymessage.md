@@ -7,7 +7,7 @@ old-location: security\tokenbindingverifymessage.htm
 old-project: SecCNG
 ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
 ms.prod: windows
 ms.technology: windows-sdk

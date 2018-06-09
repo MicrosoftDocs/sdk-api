@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_feature.htm
 old-project: direct3ddxgi
 ms.assetid: 207D5BDC-5D10-4F84-931F-4812574FA74B
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: DXGI_FEATURE, DXGI_FEATURE enumeration [DXGI], DXGI_FEATURE_PRESENT_ALLOW_TEARING, direct3ddxgi.dxgi_feature, dxgi1_5/DXGI_FEATURE, dxgi1_5/DXGI_FEATURE_PRESENT_ALLOW_TEARING
 ms.prod: windows
 ms.technology: windows-sdk

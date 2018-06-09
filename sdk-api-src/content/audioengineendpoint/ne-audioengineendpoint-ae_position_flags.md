@@ -7,7 +7,7 @@ old-location: termserv\ae_position_flags.htm
 old-project: TermServ
 ms.assetid: 09edc9ae-923c-4f57-9479-c0331588dd92
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: AE_POSITION_FLAGS, AE_POSITION_FLAGS enumeration [Remote Desktop Services], POSITION_CONTINUOUS, POSITION_DISCONTINUOUS, POSITION_INVALID, POSITION_QPC_ERROR, audioengineendpoint/AE_POSITION_FLAGS, audioengineendpoint/POSITION_CONTINUOUS, audioengineendpoint/POSITION_DISCONTINUOUS, audioengineendpoint/POSITION_INVALID, audioengineendpoint/POSITION_QPC_ERROR, termserv.ae_position_flags
 ms.prod: windows
 ms.technology: windows-sdk

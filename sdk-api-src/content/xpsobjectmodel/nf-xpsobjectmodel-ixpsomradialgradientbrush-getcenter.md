@@ -7,7 +7,7 @@ old-location: xps\ixpsomradialgradientbrush_getcenter.htm
 old-project: printdocs
 ms.assetid: 92ce3433-6c3d-4759-81f8-055fdcc58dcf
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetCenter, GetCenter method [XPS Documents and Packaging], GetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetCenter method, IXpsOMRadialGradientBrush.GetCenter, IXpsOMRadialGradientBrush::GetCenter, xps.ixpsomradialgradientbrush_getcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::GetCenter
 ms.prod: windows
 ms.technology: windows-sdk

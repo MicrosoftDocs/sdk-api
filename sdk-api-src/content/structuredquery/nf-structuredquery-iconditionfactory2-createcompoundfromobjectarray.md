@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateCompoundFromObjectArray.ht
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\createcompoundfromobjectarray.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CreateCompoundFromObjectArray, CreateCompoundFromObjectArray method [search], CreateCompoundFromObjectArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromObjectArray method, IConditionFactory2.CreateCompoundFromObjectArray, IConditionFactory2::CreateCompoundFromObjectArray, _search_IConditionFactory2_CreateCompoundFromObjectArray, search._search_IConditionFactory2_CreateCompoundFromObjectArray, structuredquery/IConditionFactory2::CreateCompoundFromObjectArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The condition creation operation of the leaf condition as the <a href="https://m
 
 Type: <b>REFIID</b>
 
-The desired IID of the enumerating interface: either <a href="_com_IEnumUnknown">IEnumUnknown</a>, IID_IEnumVARIANT, or (for a negation condition) IID_ICondition.
+The desired IID of the enumerating interface: either <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>, IID_IEnumVARIANT, or (for a negation condition) IID_ICondition.
 
 
 ### -param ppv [out]

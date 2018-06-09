@@ -7,7 +7,7 @@ old-location: setup\setuppromptfordisk.htm
 old-project: SetupApi
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW
 ms.prod: windows
 ms.technology: windows-sdk

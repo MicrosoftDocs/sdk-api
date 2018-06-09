@@ -7,7 +7,7 @@ old-location: mf\mfunlockworkqueue.htm
 old-project: medfound
 ms.assetid: bbc22fa7-b4d7-47b2-b065-099fbb2ed092
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFUnlockWorkQueue, MFUnlockWorkQueue function [Media Foundation], bbc22fa7-b4d7-47b2-b065-099fbb2ed092, mf.mfunlockworkqueue, mfapi/MFUnlockWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusterdecrypt.htm
 old-project: MsCS
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSTER_DECRYPT, PCLUSTER_DECRYPT callback, PCLUSTER_DECRYPT callback function [Failover Cluster], mscs.clusterdecrypt, resapi/PCLUSTER_DECRYPT
 ms.prod: windows
 ms.technology: windows-sdk

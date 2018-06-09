@@ -7,7 +7,7 @@ old-location: dshow\iamoverlayfx_getoverlayfx.htm
 old-project: DirectShow
 ms.assetid: f8232fcf-a0d8-4155-941e-8613c09b4bbf
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetOverlayFX, GetOverlayFX method [DirectShow], GetOverlayFX method [DirectShow],IAMOverlayFX interface, IAMOverlayFX interface [DirectShow],GetOverlayFX method, IAMOverlayFX.GetOverlayFX, IAMOverlayFX::GetOverlayFX, IAMOverlayFXGetOverlayFX, dshow.iamoverlayfx_getoverlayfx, strmif/IAMOverlayFX::GetOverlayFX
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_gettransformlookup.htm
 old-project: printdocs
 ms.assetid: 83d30b9c-4d3d-4fca-8dea-121074642b39
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMVisual.GetTransformLookup, IXpsOMVisual::GetTransformLookup, xps.ixpsomvisual_gettransformlookup, xpsobjectmodel/IXpsOMVisual::GetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

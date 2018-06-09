@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_descriptor_range.htm
 old-project: direct3d12
 ms.assetid: 6F1C4D05-3E08-4353-B5B9-4C4270FC1403
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE, D3D12_DESCRIPTOR_RANGE structure, d3d12/D3D12_DESCRIPTOR_RANGE, direct3d12.d3d12_descriptor_range
 ms.prod: windows
 ms.technology: windows-sdk

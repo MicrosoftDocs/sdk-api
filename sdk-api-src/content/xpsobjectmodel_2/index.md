@@ -2,7 +2,7 @@
 UID: NA:xpsobjectmodel_2
 ms.assetid: cf3410bd-b883-3465-aeff-72b65df0a1c6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

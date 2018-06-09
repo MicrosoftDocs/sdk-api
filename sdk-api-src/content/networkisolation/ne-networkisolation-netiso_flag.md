@@ -7,7 +7,7 @@ old-location: ics\netiso_flag.htm
 old-project: ICS
 ms.assetid: 0e07c3ed-0561-453d-b92a-cd0db07ea5cf
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: NETISO_FLAG, NETISO_FLAG enumeration [ICS/ICF], NETISO_FLAG_FORCE_COMPUTE_BINARIES, NETISO_FLAG_MAX, ics.netiso_flag, networkisolation/NETISO_FLAG, networkisolation/NETISO_FLAG_FORCE_COMPUTE_BINARIES, networkisolation/NETISO_FLAG_MAX
 ms.prod: windows
 ms.technology: windows-sdk

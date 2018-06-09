@@ -2,7 +2,7 @@
 UID: TP:msiprov
 ms.assetid: abe8849e-63b1-3b32-9ba5-6645fd44f216
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -12,7 +12,7 @@ archived: true
 
 # Windows Installer Provider
 
-
+## -description
 
 Overview of the Windows Installer Provider technology.
 

@@ -7,7 +7,7 @@ old-location: termserv\itsgauthorizeconnectionsink_onconnectionauthorized.htm
 old-project: TermServ
 ms.assetid: 1151aa89-944b-4497-8a8c-c6d67fbd4051
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITSGAuthorizeConnectionSink interface [Remote Desktop Services],OnConnectionAuthorized method, ITSGAuthorizeConnectionSink.OnConnectionAuthorized, ITSGAuthorizeConnectionSink::OnConnectionAuthorized, OnConnectionAuthorized, OnConnectionAuthorized method [Remote Desktop Services], OnConnectionAuthorized method [Remote Desktop Services],ITSGAuthorizeConnectionSink interface, SESSION_TIMEOUT_ACTION_DISCONNECT, SESSION_TIMEOUT_ACTION_SILENT_REAUTH, termserv.itsgauthorizeconnectionsink_onconnectionauthorized, tsgpolicyengine/ITSGAuthorizeConnectionSink::OnConnectionAuthorized
 ms.prod: windows
 ms.technology: windows-sdk

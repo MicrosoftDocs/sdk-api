@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getcontenttype.htm
 old-project: printdocs
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetContentType, GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentType method, IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ The method succeeded.
 The <b>contentType</b> property stores the type of content that is being represented, and it is generally defined by a
 specific use and intended audience. Examples of <b>contentType</b> values include <b>Whitepaper</b>, <b>Security Bulletin</b>, and <b>Exam</b>.
 
-This method allocates the memory used by the string that is returned in <i>contentType</i>.  If <i>contentType</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>contentType</i>.  If <i>contentType</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 
 

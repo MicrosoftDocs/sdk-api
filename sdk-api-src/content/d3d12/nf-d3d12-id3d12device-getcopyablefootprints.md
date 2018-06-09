@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getcopyablefootprints.htm
 old-project: direct3d12
 ms.assetid: EB3715A9-5A73-45DA-A46F-7889188409A3
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetCopyableFootprints, GetCopyableFootprints method, GetCopyableFootprints method,ID3D12Device interface, ID3D12Device interface,GetCopyableFootprints method, ID3D12Device.GetCopyableFootprints, ID3D12Device::GetCopyableFootprints, d3d12/ID3D12Device::GetCopyableFootprints, direct3d12.id3d12device_getcopyablefootprints
 ms.prod: windows
 ms.technology: windows-sdk

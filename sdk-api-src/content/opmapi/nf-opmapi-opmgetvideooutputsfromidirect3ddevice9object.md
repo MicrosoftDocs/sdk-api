@@ -7,7 +7,7 @@ old-location: mf\opmgetvideooutputsfromidirect3ddevice9object.htm
 old-project: medfound
 ms.assetid: 9b287058-9e06-4c40-84f4-506aefce5b8a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: OPMGetVideoOutputsFromIDirect3DDevice9Object, OPMGetVideoOutputsFromIDirect3DDevice9Object function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromidirect3ddevice9object, opmapi/OPMGetVideoOutputsFromIDirect3DDevice9Object
 ms.prod: windows
 ms.technology: windows-sdk

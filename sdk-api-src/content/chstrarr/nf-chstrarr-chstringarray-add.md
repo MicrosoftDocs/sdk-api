@@ -7,7 +7,7 @@ old-location: wmi\chstringarray_add.htm
 old-project: WmiSdk
 ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add"
 ms.prod: windows
 ms.technology: windows-sdk

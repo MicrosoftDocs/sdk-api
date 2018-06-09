@@ -2,7 +2,7 @@
 UID: TP:p_dism
 ms.assetid: ea4ea73b-c9ad-330f-a31a-b0c80151437e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/09/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # P_Dism
 
-
+## -description
 
 Overview of the P_Dism technology.
 

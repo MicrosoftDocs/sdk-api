@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_getactivesourcebuffers.htm
 old-project: medfound
 ms.assetid: 9d4a70cf-7436-4f4a-9a7c-9127e3829ba8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetActiveSourceBuffers, GetActiveSourceBuffers method [Media Foundation], GetActiveSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetActiveSourceBuffers method, IMFMediaSourceExtension.GetActiveSourceBuffers, IMFMediaSourceExtension::GetActiveSourceBuffers, mf.imfmediasourceextension_getactivesourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetActiveSourceBuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

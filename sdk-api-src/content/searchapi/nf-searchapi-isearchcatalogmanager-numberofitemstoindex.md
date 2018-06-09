@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_NumberOfItemsToIndex.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitemstoindex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchCatalogManager interface [search],NumberOfItemsToIndex method, ISearchCatalogManager.NumberOfItemsToIndex, ISearchCatalogManager::NumberOfItemsToIndex, NumberOfItemsToIndex, NumberOfItemsToIndex method [search], NumberOfItemsToIndex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItemsToIndex, search._search_ISearchCatalogManager_NumberOfItemsToIndex, searchapi/ISearchCatalogManager::NumberOfItemsToIndex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements_getmedia.htm
 old-project: medfound
 ms.assetid: AC99D8D0-ACA6-4FE9-A061-1D3A7D92E596
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetMedia, GetMedia method [Media Foundation], GetMedia method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetMedia method, IMFMediaEngineSrcElements.GetMedia, IMFMediaEngineSrcElements::GetMedia, mf.imfmediaenginesrcelements_getmedia, mfmediaengine/IMFMediaEngineSrcElements::GetMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

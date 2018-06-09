@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduleconnector_hostinguseraccount.htm
 old-project: Fsrm
 ms.assetid: c5935160-81e9-4e2a-88ac-a37d2a78fcff
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingUserAccount property, HostingUserAccount property [File Server Resource Manager], HostingUserAccount property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingUserAccount property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingUserAccount property, IFsrmPipelineModuleConnector.HostingUserAccount, IFsrmPipelineModuleConnector.get_HostingUserAccount, IFsrmPipelineModuleConnector::HostingUserAccount, IFsrmPipelineModuleConnector::get_HostingUserAccount, fs.ifsrmpipelinemoduleconnector_hostinguseraccount, fsrm.ifsrmpipelinemoduleconnector_hostinguseraccount, fsrmpipeline/IFsrmPipelineModuleConnector::HostingUserAccount, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingUserAccount, get_HostingUserAccount
 ms.prod: windows
 ms.technology: windows-sdk

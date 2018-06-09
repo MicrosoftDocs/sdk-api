@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failoverdeleterelationship.htm
 old-project: DHCP
 ms.assetid: c7b894a4-4def-41fe-98b6-f56d6ff0c715
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4FailoverDeleteRelationship, DhcpV4FailoverDeleteRelationship function [DHCP], dhcp.dhcpv4failoverdeleterelationship, dhcpsapi/DhcpV4FailoverDeleteRelationship
 ms.prod: windows
 ms.technology: windows-sdk

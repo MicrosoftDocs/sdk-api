@@ -7,7 +7,7 @@ old-location: mf\imfcapturerecordsink_setrotation.htm
 old-project: medfound
 ms.assetid: 3C451FF9-F5CD-48C6-A7FE-88BD3E82DA83
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetRotation method, IMFCaptureRecordSink.SetRotation, IMFCaptureRecordSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setrotation, mfcaptureengine/IMFCaptureRecordSink::SetRotation
 ms.prod: windows
 ms.technology: windows-sdk

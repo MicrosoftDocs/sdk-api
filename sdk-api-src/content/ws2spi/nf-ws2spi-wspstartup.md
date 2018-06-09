@@ -104,7 +104,7 @@ A pointer to the table of SPI function pointers. This table is returned as an <a
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSNOTREADY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ This error is returned if the Windows Sockets implementation cannot function at 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ The Winsock.dll version is out of range. This error is returned if the version o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ A blocking Windows Sockets 1.1 operation is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROCLIM</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEPROCLIM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ A limit on the number of tasks supported by the Windows Sockets implementation h
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -274,7 +274,7 @@ versions</th>
 <td>1.0</td>
 <td>---</td>
 <td>---</td>
-<td><a href="windows_sockets_error_codes_2.htm">WSAVERNOTSUPPORTED</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></td>
 </tr>
 <tr>
 <td>1.0 1.1</td>
@@ -439,7 +439,7 @@ A service thread can be safely used if these two design rules are carefully foll
 
 
 Several other cautions apply to the use of internal service threads. First, threads generally carry some performance penalty. Use as few as possible, and avoid thread transitions wherever possible. Second, your code should always check for errors in creating threads and fail gracefully and informatively (for example, with 
-<a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
+<a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>) in case some execution event you did not expect results in a 16-bit process executing a code path that needs threads.
 
 A layered service provider supplies an implementation of this function, but it is also a client of this function when it calls 
 <b>WSPStartup</b> to initialize the next layer in the protocol chain. The call to the next layer's 

@@ -7,7 +7,7 @@ old-location: security\certsetenhancedkeyusage.htm
 old-project: SecCrypto
 ms.assetid: 423b0232-846e-4e40-bc42-d30c48c548da
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertSetEnhancedKeyUsage, CertSetEnhancedKeyUsage function [Security], _crypto2_certsetenhancedkeyusage, security.certsetenhancedkeyusage, wincrypt/CertSetEnhancedKeyUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
+<a href="https://www.bing.com/search?q=Enhanced+Key+Usage+Functions">Enhanced Key Usage Functions</a>
  
 
  

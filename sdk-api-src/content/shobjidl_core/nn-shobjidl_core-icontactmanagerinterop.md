@@ -7,7 +7,7 @@ old-location: shell\IContactManagerInterop.htm
 old-project: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
 ms.prod: windows
 ms.technology: windows-sdk
