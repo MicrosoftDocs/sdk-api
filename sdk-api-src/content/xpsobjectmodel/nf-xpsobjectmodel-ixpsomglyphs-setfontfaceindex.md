@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_setfontfaceindex.htm
 old-project: printdocs
 ms.assetid: 9430474d-b874-47c7-b916-089280da8873
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontFaceIndex method, IXpsOMGlyphs.SetFontFaceIndex, IXpsOMGlyphs::SetFontFaceIndex, SetFontFaceIndex, SetFontFaceIndex method [XPS Documents and Packaging], SetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex
 ms.prod: windows
 ms.technology: windows-sdk

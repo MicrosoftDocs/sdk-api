@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext2_videoprocessorgetoutputhdrmetadata.htm
 old-project: medfound
 ms.assetid: 5739668F-DCF8-448C-8690-E254315B92AF
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData, VideoProcessorGetOutputHDRMetaData method [Media Foundation], VideoProcessorGetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorgetoutputhdrmetadata
 ms.prod: windows
 ms.technology: windows-sdk

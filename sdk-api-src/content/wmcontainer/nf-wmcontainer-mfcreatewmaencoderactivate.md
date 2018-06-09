@@ -7,7 +7,7 @@ old-location: mf\mfcreatewmaencoderactivate.htm
 old-project: medfound
 ms.assetid: b322a6a2-edf6-428e-8477-2fcd08e70aa2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateWMAEncoderActivate, MFCreateWMAEncoderActivate function [Media Foundation], b322a6a2-edf6-428e-8477-2fcd08e70aa2, mf.mfcreatewmaencoderactivate, wmcontainer/MFCreateWMAEncoderActivate
 ms.prod: windows
 ms.technology: windows-sdk

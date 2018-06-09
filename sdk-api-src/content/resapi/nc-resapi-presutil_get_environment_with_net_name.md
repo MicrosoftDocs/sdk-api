@@ -7,7 +7,7 @@ old-location: mscs\resutilgetenvironmentwithnetname.htm
 old-project: MsCS
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME callback, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME callback function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_readat.htm
 old-project: Stg
 ms.assetid: 0478d6f0-65c4-445b-946a-692f2373e8f1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ILockBytes interface [Structured Storage],ReadAt method, ILockBytes.ReadAt, ILockBytes::ReadAt, ReadAt, ReadAt method [Structured Storage], ReadAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_readat, objidl/ILockBytes::ReadAt, stg.ilockbytes_readat
 ms.prod: windows
 ms.technology: windows-sdk

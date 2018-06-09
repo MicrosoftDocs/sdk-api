@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetCLSID.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getclsid.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetCLSID method, IUrlAccessor.GetCLSID, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-        Gets the <a href="https://docs.microsoft.com/windows/desktop//com/clsid-key-hklm">CLSID</a> for the document type of the URL item being processed.
+        Gets the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed.
         
 
 
@@ -66,7 +66,7 @@ req.product: Rights Management Services client 1.0 or later
 Type: <b>CLSID*</b>
 
 
-                    Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop//com/clsid-key-hklm">CLSID</a> for the document type of the URL item being processed. 
+                    Receives a pointer to the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed. 
                 
 
 

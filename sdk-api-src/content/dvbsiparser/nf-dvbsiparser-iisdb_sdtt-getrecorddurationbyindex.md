@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecorddurationbyindex.htm
 old-project: mstv
 ms.assetid: e7021a9e-4266-4c17-8874-4b10cf7d6428
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordDurationByIndex, GetRecordDurationByIndex method [Microsoft TV Technologies], GetRecordDurationByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDurationByIndex method, IISDB_SDTT.GetRecordDurationByIndex, IISDB_SDTT::GetRecordDurationByIndex, dvbsiparser/IISDB_SDTT::GetRecordDurationByIndex, mstv.iisdb_sdtt_getrecorddurationbyindex
 ms.prod: windows
 ms.technology: windows-sdk

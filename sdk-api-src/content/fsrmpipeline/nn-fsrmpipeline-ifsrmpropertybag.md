@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag.htm
 old-project: Fsrm
 ms.assetid: 237f024d-2b1d-45d5-a63d-c530426278e6
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], IFsrmPropertyBag interface [File Server Resource Manager],described, fs.ifsrmpropertybag, fsrm.ifsrmpropertybag, fsrm/IFsrmPropertyBag
 ms.prod: windows
 ms.technology: windows-sdk

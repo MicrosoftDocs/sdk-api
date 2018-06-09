@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo.htm
 old-project: mstv
 ms.assetid: e5cb1a15-29c4-4e0f-aed2-eafe12ea007a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], ITuneRequestInfo interface [Microsoft TV Technologies],described, ITuneRequestInfoInterface, bdatif/ITuneRequestInfo, mstv.itunerequestinfo
 ms.prod: windows
 ms.technology: windows-sdk

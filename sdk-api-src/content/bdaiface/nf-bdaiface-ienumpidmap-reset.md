@@ -7,7 +7,7 @@ old-location: dshow\ienumpidmap_reset.htm
 old-project: DirectShow
 ms.assetid: 4f5cc44e-10c0-441f-b34c-80f94c5f6bca
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Reset method, IEnumPIDMap.Reset, IEnumPIDMap::Reset, IEnumPIDMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Reset, dshow.ienumpidmap_reset
 ms.prod: windows
 ms.technology: windows-sdk

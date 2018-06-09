@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry2.htm
 old-project: Wua_Sdk
 ms.assetid: 99965928-17c7-4aaa-ba8c-6f3e07c7c5b7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateHistoryEntry2, IUpdateHistoryEntry2 interface [Windows Update Agent], IUpdateHistoryEntry2 interface [Windows Update Agent],described, wua.iupdatehistoryentry2, wuapi/IUpdateHistoryEntry2
 ms.prod: windows
 ms.technology: windows-sdk

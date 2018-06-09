@@ -7,7 +7,7 @@ old-location: shell\IApplicationDestinations_RemoveAllDestinations.htm
 old-project: shell
 ms.assetid: bda83a9a-9759-47cc-8d15-ac55583a5810
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveAllDestinations method, IApplicationDestinations.RemoveAllDestinations, IApplicationDestinations::RemoveAllDestinations, RemoveAllDestinations, RemoveAllDestinations method [Windows Shell], RemoveAllDestinations method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveAllDestinations, shell.IApplicationDestinations_RemoveAllDestinations, shobjidl_core/IApplicationDestinations::RemoveAllDestinations
 ms.prod: windows
 ms.technology: windows-sdk

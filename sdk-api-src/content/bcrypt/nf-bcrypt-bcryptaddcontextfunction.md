@@ -7,7 +7,7 @@ old-location: security\bcryptaddcontextfunction.htm
 old-project: SecCNG
 ms.assetid: 4f5b6db0-775d-42de-b9d9-a99fb11c89f2
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptAddContextFunction, BCryptAddContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptAddContextFunction, security.bcryptaddcontextfunction
 ms.prod: windows
 ms.technology: windows-sdk

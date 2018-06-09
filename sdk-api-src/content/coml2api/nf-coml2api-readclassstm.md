@@ -7,7 +7,7 @@ old-location: stg\readclassstm.htm
 old-project: Stg
 ms.assetid: bcf11c5b-e164-4a0f-b30f-ee9e76c4356d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ReadClassStm, ReadClassStm function [Structured Storage], _stg_readclassstm, coml2api/ReadClassStm, stg.readclassstm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ This function also returns any of the error values returned by the
 
 Most applications do not call the 
 <b>ReadClassStm</b> function directly. COM calls it before making a call to an object's 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load.md">IPersistStream::Load</a> implementation.
+<a href="_com_ipersiststream_load">IPersistStream::Load</a> implementation.
 
 
 

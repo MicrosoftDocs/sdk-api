@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getvideopaletteentries.htm
 old-project: DirectShow
 ms.assetid: 9a022bc5-56f5-41c0-940f-f9074791a353
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetVideoPaletteEntries, GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoPaletteEntries method, IBasicVideo.GetVideoPaletteEntries, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
 ms.prod: windows
 ms.technology: windows-sdk

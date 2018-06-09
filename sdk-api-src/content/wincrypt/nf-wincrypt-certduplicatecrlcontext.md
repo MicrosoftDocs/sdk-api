@@ -7,7 +7,7 @@ old-location: security\certduplicatecrlcontext.htm
 old-project: SecCrypto
 ms.assetid: ea14c494-d1c7-46d0-9d56-fc89a4b4afa9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertDuplicateCRLContext, CertDuplicateCRLContext function [Security], _crypto2_certduplicatecrlcontext, security.certduplicatecrlcontext, wincrypt/CertDuplicateCRLContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Currently, a copy is not made of the context, and the returned context is the sa
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

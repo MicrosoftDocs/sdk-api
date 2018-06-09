@@ -7,7 +7,7 @@ old-location: base\loadenclaveimage.htm
 old-project: Memory
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
 ms.prod: windows
 ms.technology: windows-sdk

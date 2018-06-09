@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_resume.htm
 old-project: Wua_Sdk
 ms.assetid: 8aabfb89-89e2-450e-bfe6-62a48f93746f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Resume method, IAutomaticUpdates.Resume, IAutomaticUpdates::Resume, Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
 ms.prod: windows
 ms.technology: windows-sdk

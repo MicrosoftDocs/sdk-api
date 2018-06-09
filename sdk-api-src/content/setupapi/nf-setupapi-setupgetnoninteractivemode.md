@@ -74,7 +74,7 @@ The <b>SetupGetNonInteractiveMode</b> function returns the value of a SetupAPI n
 
 
 
-Installation applications and <a href="https://www.bing.com/search?q=co-installers">co-installers</a> can use this function to determine whether the current process can display interactive user interface elements such as dialog boxes. <a href="https://www.bing.com/search?q=SetupAPI">SetupAPI</a> runs a class installer or a co-installer either in an interactive or in a non-interactive process, depending on which <a href="https://www.bing.com/search?q=DIF+code">DIF code</a> SetupAPI is processing.
+Installation applications and <a href="devinst.writing_a_co_installer">co-installers</a> can use this function to determine whether the current process can display interactive user interface elements such as dialog boxes. <a href="devinst.setupapi">SetupAPI</a> runs a class installer or a co-installer either in an interactive or in a non-interactive process, depending on which <a href="devinst.handling_dif_codes">DIF code</a> SetupAPI is processing.
 
 An installation application can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552213">SetupSetNonInteractiveMode</a> to set the SetupAPI non-interactive flag that controls whether SetupAPI can display interactive user interface elements in the caller's context. 
 

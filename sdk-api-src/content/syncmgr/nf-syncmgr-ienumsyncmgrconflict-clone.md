@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrConflict_Clone.htm
 old-project: shell
 ms.assetid: 2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrConflict interface, IEnumSyncMgrConflict interface [Windows Shell],Clone method, IEnumSyncMgrConflict.Clone, IEnumSyncMgrConflict::Clone, _shell_IEnumSyncMgrConflict_Clone, shell.IEnumSyncMgrConflict_Clone, syncmgr/IEnumSyncMgrConflict::Clone
 ms.prod: windows
 ms.technology: windows-sdk

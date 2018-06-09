@@ -68,7 +68,7 @@ The <b>WinHttpOpenRequest</b> function creates an HTTP request handle.
 
 ### -param pwszVerb [in]
 
-Pointer to a string that contains the <a href="https://www.bing.com/search?q=HTTP+verb">HTTP verb</a> to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the <i>HTTP verb</i>. <b>Note</b>  This string should be all uppercase. Many servers treat HTTP verbs as case-sensitive, and the Internet Engineering Task Force (IETF)  Requests for Comments (RFCs) spell these verbs using uppercase characters only.
+Pointer to a string that contains the <a href="glossary.htm">HTTP verb</a> to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the <i>HTTP verb</i>. <b>Note</b>  This string should be all uppercase. Many servers treat HTTP verbs as case-sensitive, and the Internet Engineering Task Force (IETF)  Requests for Comments (RFCs) spell these verbs using uppercase characters only.
 
 
 

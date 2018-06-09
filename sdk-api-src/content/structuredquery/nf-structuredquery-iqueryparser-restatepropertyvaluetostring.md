@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_RestatePropertyValueToString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatepropertyvaluetostring.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IQueryParser interface [search],RestatePropertyValueToString method, IQueryParser.RestatePropertyValueToString, IQueryParser::RestatePropertyValueToString, RestatePropertyValueToString, RestatePropertyValueToString method [search], RestatePropertyValueToString method [search],IQueryParser interface, _search_IQueryParser_RestatePropertyValueToString, search._search_IQueryParser_RestatePropertyValueToString, structuredquery/IQueryParser::RestatePropertyValueToString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Reserved. Must be <b>FALSE</b>.
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the property name as a Unicode string. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to the property name as a Unicode string. The calling application must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ### -param ppszQueryString [out]
@@ -85,7 +85,7 @@ Receives a pointer to the property name as a Unicode string. The calling applica
 Type: <b>LPWSTR*</b>
 
 
-                  Receives a pointer to a query string for that property. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+                  Receives a pointer to a query string for that property. The calling application must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

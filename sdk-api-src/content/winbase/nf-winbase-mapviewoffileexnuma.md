@@ -7,7 +7,7 @@ old-location: base\mapviewoffileexnuma.htm
 old-project: Memory
 ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_READ, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma
 ms.prod: windows
 ms.technology: windows-sdk

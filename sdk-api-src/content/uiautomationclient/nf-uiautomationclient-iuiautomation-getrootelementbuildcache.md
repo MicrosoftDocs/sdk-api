@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_GetRootElementBuildCache.htm
 old-project: WinAuto
 ms.assetid: 0d2c0592-d29a-4e70-978e-55690aed82cb
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetRootElementBuildCache, GetRootElementBuildCache method [Windows Accessibility], GetRootElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElementBuildCache method, IUIAutomation.GetRootElementBuildCache, IUIAutomation::GetRootElementBuildCache, uiauto.uiauto_IUIAutomation_GetRootElementBuildCache, uiauto_IUIAutomation_GetRootElementBuildCache, uiautomationclient/IUIAutomation::GetRootElementBuildCache, winauto.uiauto_IUIAutomation_GetRootElementBuildCache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 You can use the root element as a starting point for finding other elements, using the <a href="https://msdn.microsoft.com/ead73c6d-7fb8-4e00-b027-5d747268af08">FindAll</a> and <a href="https://msdn.microsoft.com/84098431-46e8-49bd-a258-337ad1d68f91">FindFirst</a> methods.
 
-When searching from the root element, be sure to specify <a href="https://www.bing.com/search?q=TreeScope_Children">TreeScope_Children</a> in the scope of the search, not <a href="https://www.bing.com/search?q=TreeScope_Descendants">TreeScope_Descendants</a>. A search through the entire subtree of the desktop could iterate through thousands of items and lead to a stack overflow.
+When searching from the root element, be sure to specify <a href="uiauto_TreeScopeEnum.htm">TreeScope_Children</a> in the scope of the search, not <a href="uiauto_TreeScopeEnum.htm">TreeScope_Descendants</a>. A search through the entire subtree of the desktop could iterate through thousands of items and lead to a stack overflow.
 
 			
 

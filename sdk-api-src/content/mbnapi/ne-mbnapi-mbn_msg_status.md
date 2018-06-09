@@ -7,7 +7,7 @@ old-location: mbn\mbn_msg_status.htm
 old-project: mbn
 ms.assetid: a63cfc67-f1bd-49b0-9a98-2d9da7fef0d2
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: MBN_MSG_STATUS, MBN_MSG_STATUS enumeration [Microsoft Broadband Networks], MBN_MSG_STATUS_DRAFT, MBN_MSG_STATUS_NEW, MBN_MSG_STATUS_OLD, MBN_MSG_STATUS_SENT, mbn.mbn_msg_status, mbnapi/MBN_MSG_STATUS, mbnapi/MBN_MSG_STATUS_DRAFT, mbnapi/MBN_MSG_STATUS_NEW, mbnapi/MBN_MSG_STATUS_OLD, mbnapi/MBN_MSG_STATUS_SENT
 ms.prod: windows
 ms.technology: windows-sdk

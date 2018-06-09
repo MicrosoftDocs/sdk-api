@@ -7,7 +7,7 @@ old-location: stg\readclassstg.htm
 old-project: Stg
 ms.assetid: 90256fcd-54ce-48e1-aa12-d8f91cd4dfb1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ReadClassStg, ReadClassStg function [Structured Storage], _stg_readclassstg, coml2api/ReadClassStg, stg.readclassstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
+<a href="_ole_oleload">OleLoad</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\mfregisterplatformwithmmcss.htm
 old-project: medfound
 ms.assetid: 8F99849B-5363-4EEF-BCB8-C69A5309AF34
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFRegisterPlatformWithMMCSS, MFRegisterPlatformWithMMCSS function [Media Foundation], mf.mfregisterplatformwithmmcss, mfapi/MFRegisterPlatformWithMMCSS, mfplat/MFRegisterPlatformWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\icenroll4_clientid.htm
 old-project: SecCrypto
 ms.assetid: cf46af62-815a-4ad5-bca9-e81eb7c0d1e2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: ClientID property [Security], ClientID property [Security],ICEnroll4 interface, ICEnroll4 interface [Security],ClientID property, ICEnroll4.ClientID, ICEnroll4.put_ClientId, ICEnroll4::ClientID, ICEnroll4::get_ClientID, ICEnroll4::put_ClientID, ICEnroll4::put_ClientId, XECI_AUTOENROLL, XECI_CERTREQ, XECI_DISABLE, XECI_REQWIZARD, XECI_XENROLL, put_ClientId, security.icenroll4_clientid, xenroll/ICEnroll4::ClientID, xenroll/ICEnroll4::get_ClientID, xenroll/ICEnroll4::put_ClientID
 ms.prod: windows
 ms.technology: windows-sdk

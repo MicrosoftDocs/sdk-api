@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_isprotected.htm
 old-project: medfound
 ms.assetid: e4ae8b5e-7657-476c-83f9-c27de858e328
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],IsProtected method, IMFPMediaItem.IsProtected, IMFPMediaItem::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_isprotected, mfplay/IMFPMediaItem::IsProtected
 ms.prod: windows
 ms.technology: windows-sdk

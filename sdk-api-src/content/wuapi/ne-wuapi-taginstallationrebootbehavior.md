@@ -7,7 +7,7 @@ old-location: wua\installationrebootbehavior.htm
 old-project: Wua_Sdk
 ms.assetid: 28c5179a-bdfa-40ca-9cf2-239a9fbf5856
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: InstallationRebootBehavior, InstallationRebootBehavior [Windows Update Services], InstallationRebootBehavior enumeration [Windows Update Agent], irbAlwaysRequiresReboot, irbCanRequestReboot, irbNeverReboots, tagInstallationRebootBehavior, wua.installationrebootbehavior, wuapi/InstallationRebootBehavior, wuapi/irbAlwaysRequiresReboot, wuapi/irbCanRequestReboot, wuapi/irbNeverReboots
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser.htm
 old-project: mstv
 ms.assetid: 092162af-5f88-4ce5-ac2f-89327f094804
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], IDvbSiParser interface [Microsoft TV Technologies],described, IDvbSiParserInterface, dvbsiparser/IDvbSiParser, mstv.idvbsiparser
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\crypthashtobesigned.htm
 old-project: SecCrypto
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,7 +185,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\setgroupdependencyexpression.htm
 old-project: MsCS
 ms.assetid: 4cf98bed-77fd-4c6a-98c1-ce602e1895f9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION callback, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION callback function [Failover Cluster], clusapi/PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, mscs.setgroupdependencyexpression
 ms.prod: windows
 ms.technology: windows-sdk

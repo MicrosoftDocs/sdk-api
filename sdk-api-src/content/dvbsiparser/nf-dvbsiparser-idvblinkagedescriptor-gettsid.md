@@ -7,7 +7,7 @@ old-location: mstv\idvblinkagedescriptor_gettsid.htm
 old-project: mstv
 ms.assetid: 263f3ff1-33a6-4c40-bcdf-049c4dbaf2ef
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTSId, GetTSId method [Microsoft TV Technologies], GetTSId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTSId method, IDvbLinkageDescriptor.GetTSId, IDvbLinkageDescriptor::GetTSId, dvbsiparser/IDvbLinkageDescriptor::GetTSId, mstv.idvblinkagedescriptor_gettsid
 ms.prod: windows
 ms.technology: windows-sdk

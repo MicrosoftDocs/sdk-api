@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordnewversion.htm
 old-project: mstv
 ms.assetid: 0a121a8b-10fd-4f78-922a-6be704c2cab4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordNewVersion, GetRecordNewVersion method [Microsoft TV Technologies], GetRecordNewVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordNewVersion method, IISDB_SDTT.GetRecordNewVersion, IISDB_SDTT::GetRecordNewVersion, dvbsiparser/IISDB_SDTT::GetRecordNewVersion, mstv.iisdb_sdtt_getrecordnewversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getcountofrecords.md">IISDB_SDTT::GetCountOfRecords</a>
+<a href="iisdb_sdtt::getcountofrecords">IISDB_SDTT::GetCountOfRecords</a>
  
 
  

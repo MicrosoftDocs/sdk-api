@@ -7,7 +7,7 @@ old-location: base\atlthunk_freedata.htm
 old-project: Memory
 ms.assetid: 529F37D7-4C23-4E3B-864D-5707B0262A81
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: AtlThunk_FreeData, AtlThunk_FreeData function, atlthunk/AtlThunk_FreeData, base.atlthunk_freedata
 ms.prod: windows
 ms.technology: windows-sdk

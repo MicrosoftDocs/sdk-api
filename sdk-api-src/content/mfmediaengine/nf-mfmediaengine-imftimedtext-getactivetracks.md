@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_getactivetracks.htm
 old-project: medfound
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetActiveTracks, GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetActiveTracks method, IMFTimedText.GetActiveTracks, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

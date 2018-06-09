@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement6.htm
 old-project: WinAuto
 ms.assetid: 3E00CFB1-0683-4946-9E57-7E4F6E86F60C
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationElement6, IUIAutomationElement6 interface [Windows Accessibility], IUIAutomationElement6 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement6, winauto.uiauto_IUIAutomationElement6
 ms.prod: windows
 ms.technology: windows-sdk

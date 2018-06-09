@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformation.htm
 old-project: SecCrypto
 ms.assetid: d27c9ba5-ddee-4c9c-b812-e61b974b515a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: ICertSrvSetupKeyInformation, ICertSrvSetupKeyInformation interface [Security], ICertSrvSetupKeyInformation interface [Security],described, casetup/ICertSrvSetupKeyInformation, security.icertsrvsetupkeyinformation
 ms.prod: windows
 ms.technology: windows-sdk

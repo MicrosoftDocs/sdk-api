@@ -111,7 +111,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
 
 
 

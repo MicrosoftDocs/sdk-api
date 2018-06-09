@@ -7,7 +7,7 @@ old-location: shell\IAutoCompleteDropDown_ResetEnumerator.htm
 old-project: shell
 ms.assetid: 9a880b2a-190a-45ea-8672-f2d0247987ed
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IAutoCompleteDropDown interface [Windows Shell],ResetEnumerator method, IAutoCompleteDropDown.ResetEnumerator, IAutoCompleteDropDown::ResetEnumerator, ResetEnumerator, ResetEnumerator method [Windows Shell], ResetEnumerator method [Windows Shell],IAutoCompleteDropDown interface, _shell_IAutoCompleteDropDown_ResetEnumerator, shell.IAutoCompleteDropDown_ResetEnumerator, shobjidl/IAutoCompleteDropDown::ResetEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

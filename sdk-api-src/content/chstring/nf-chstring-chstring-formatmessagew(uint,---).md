@@ -7,7 +7,7 @@ old-location: wmi\chstring_formatmessagew.htm
 old-project: WmiSdk
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CHString.FormatMessageW, CHString.FormatMessageW(UINT,, CHString::FormatMessageW, CHString::FormatMessageW methods [Windows Management Instrumentation], CHString::FormatMessageW(UINT,, FormatMessageW, chstring/CHString::FormatMessageW, wmi.chstring_formatmessagew
 ms.prod: windows
 ms.technology: windows-sdk

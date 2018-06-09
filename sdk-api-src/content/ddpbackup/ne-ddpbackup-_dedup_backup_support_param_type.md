@@ -73,7 +73,7 @@ Reserved for future use. Do not use.
 
 
 
-<a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles.md">IDedupBackupSupport::RestoreFiles</a>
+<a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a>
  
 
  

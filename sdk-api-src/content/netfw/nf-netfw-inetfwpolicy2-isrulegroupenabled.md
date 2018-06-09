@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_isrulegroupenabled.htm
 old-project: ICS
 ms.assetid: b6f27763-6ceb-4bc3-be6f-f02908dc0387
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],IsRuleGroupEnabled method, INetFwPolicy2.IsRuleGroupEnabled, INetFwPolicy2::IsRuleGroupEnabled, IsRuleGroupEnabled, IsRuleGroupEnabled method [ICS/ICF], IsRuleGroupEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupenabled, netfw/INetFwPolicy2::IsRuleGroupEnabled
 ms.prod: windows
 ms.technology: windows-sdk

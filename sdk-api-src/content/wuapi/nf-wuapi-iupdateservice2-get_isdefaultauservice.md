@@ -7,7 +7,7 @@ old-location: wua\iupdateservice2_isdefaultauservice.htm
 old-project: Wua_Sdk
 ms.assetid: 2c7645b7-3845-4340-904b-38c56d4aa0ac
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateService2 interface [Windows Update Agent],IsDefaultAUService property, IUpdateService2.IsDefaultAUService, IUpdateService2.get_IsDefaultAUService, IUpdateService2::IsDefaultAUService, IUpdateService2::get_IsDefaultAUService, IsDefaultAUService property [Windows Update Agent], IsDefaultAUService property [Windows Update Agent],IUpdateService2 interface, get_IsDefaultAUService, wua.iupdateservice2_isdefaultauservice, wuapi/IUpdateService2::IsDefaultAUService, wuapi/IUpdateService2::get_IsDefaultAUService
 ms.prod: windows
 ms.technology: windows-sdk

@@ -61,7 +61,7 @@ Retrieves a UNC path string and a scope indicator describing which path-based ev
 
 ### -param ppszFilter [out]
 
-Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function.
+Receives a fully qualified UNC path string identifying the path associated with the filter. The memory for this string must be allocated using the <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 
 ### -param pMatch [out]

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getlastmodifiedby.htm
 old-project: printdocs
 ms.assetid: e3e68656-ae4d-45f4-bb2a-3c4c5cecbbae
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetLastModifiedBy, GetLastModifiedBy method [XPS Documents and Packaging], GetLastModifiedBy method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastModifiedBy method, IXpsOMCoreProperties.GetLastModifiedBy, IXpsOMCoreProperties::GetLastModifiedBy, xps.ixpsomcoreproperties_getlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::GetLastModifiedBy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>lastModifiedBy</b> property describes the user who performed the last modification.
 
-This method allocates the memory used by the string that is returned in <i>lastModifiedBy</i>.  If <i>lastModifiedBy</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>lastModifiedBy</i>.  If <i>lastModifiedBy</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

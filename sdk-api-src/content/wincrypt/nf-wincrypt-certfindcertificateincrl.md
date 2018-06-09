@@ -7,7 +7,7 @@ old-location: security\certfindcertificateincrl.htm
 old-project: SecCrypto
 ms.assetid: c05a99e6-da38-431e-8d02-04056047a211
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertFindCertificateInCRL, CertFindCertificateInCRL function [Security], _crypto2_certfindcertificateincrl, security.certfindcertificateincrl, wincrypt/CertFindCertificateInCRL
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\registerclusterresourcetypenotifyv2.htm
 old-project: MsCS
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
 ms.prod: windows
 ms.technology: windows-sdk

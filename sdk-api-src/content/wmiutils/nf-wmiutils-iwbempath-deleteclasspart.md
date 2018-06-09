@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_deleteclasspart.htm
 old-project: WmiSdk
 ms.assetid: 4b79739b-b278-424f-ac3f-2bc769f3cf93
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: DeleteClassPart, DeleteClassPart method [Windows Management Instrumentation], DeleteClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],DeleteClassPart method, IWbemPath.DeleteClassPart, IWbemPath::DeleteClassPart, _hmm_iwbempath_deleteclasspart, wmi.iwbempath_deleteclasspart, wmiutils/IWbemPath::DeleteClassPart
 ms.prod: windows
 ms.technology: windows-sdk

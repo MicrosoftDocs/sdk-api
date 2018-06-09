@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformationcollection_add.htm
 old-project: SecCrypto
 ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Add method, ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
 ms.prod: windows
 ms.technology: windows-sdk

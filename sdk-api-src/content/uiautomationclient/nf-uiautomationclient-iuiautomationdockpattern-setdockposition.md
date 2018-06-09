@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationDockPattern_SetDockPosition.htm
 old-project: WinAuto
 ms.assetid: 165de0f3-61b3-473c-8f97-3070596451db
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationDockPattern interface [Windows Accessibility],SetDockPosition method, IUIAutomationDockPattern.SetDockPosition, IUIAutomationDockPattern::SetDockPosition, SetDockPosition, SetDockPosition method [Windows Accessibility], SetDockPosition method [Windows Accessibility],IUIAutomationDockPattern interface, uiauto.uiauto_IUIAutomationDockPattern_SetDockPosition, uiauto_IUIAutomationDockPattern_SetDockPosition, uiautomationclient/IUIAutomationDockPattern::SetDockPosition, winauto.uiauto_IUIAutomationDockPattern_SetDockPosition
 ms.prod: windows
 ms.technology: windows-sdk

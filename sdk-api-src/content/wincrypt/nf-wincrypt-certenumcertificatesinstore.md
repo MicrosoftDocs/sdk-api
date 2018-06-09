@@ -7,7 +7,7 @@ old-location: security\certenumcertificatesinstore.htm
 old-project: SecCrypto
 ms.assetid: c5ab5b4c-dc0c-416b-aa9e-b939398cfa6d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertEnumCertificatesInStore, CertEnumCertificatesInStore function [Security], _crypto2_certenumcertificatesinstore, security.certenumcertificatesinstore, wincrypt/CertEnumCertificatesInStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -240,7 +240,7 @@ if (!CertCloseStore(
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Functions">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

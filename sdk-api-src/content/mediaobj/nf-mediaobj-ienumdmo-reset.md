@@ -7,7 +7,7 @@ old-location: dshow\ienumdmo_reset.htm
 old-project: DirectShow
 ms.assetid: 1a910c70-7f41-43d5-a677-c299b5181638
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumDMO interface [DirectShow],Reset method, IEnumDMO.Reset, IEnumDMO::Reset, IEnumDMOReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumDMO interface, dshow.ienumdmo_reset, mediaobj/IEnumDMO::Reset
 ms.prod: windows
 ms.technology: windows-sdk

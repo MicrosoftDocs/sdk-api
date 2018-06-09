@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexml.htm
 old-project: mstv
 ms.assetid: 2e08f727-9ffe-435b-9eca-4e9867fe410b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IPersistTuneXml, IPersistTuneXml interface [Microsoft TV Technologies], IPersistTuneXml interface [Microsoft TV Technologies],described, mstv.ipersisttunexml, tuner/IPersistTuneXml
 ms.prod: windows
 ms.technology: windows-sdk

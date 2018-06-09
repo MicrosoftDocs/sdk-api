@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatesecurechannel.htm
 old-project: wmformat
 ms.assetid: 0893162d-f110-472a-91c0-70ba58943a22
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Media Format], wmformat.wmcreatesecurechannel, wmsecure/WMCreateSecureChannel
 ms.prod: windows
 ms.technology: windows-sdk

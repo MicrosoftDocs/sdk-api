@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ProviderTypeEnum.htm
 old-project: WinAuto
 ms.assetid: 442dcda2-046d-4203-aa55-ddf83983cb26
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: ProviderType, ProviderType enumeration [Windows Accessibility], ProviderType_BaseHwnd, ProviderType_NonClientArea, ProviderType_Proxy, uiauto.uiauto_ProviderTypeEnum, uiauto_ProviderTypeEnum, uiautomationcoreapi/ProviderType, uiautomationcoreapi/ProviderType_BaseHwnd, uiautomationcoreapi/ProviderType_NonClientArea, uiautomationcoreapi/ProviderType_Proxy, winauto.uiauto_ProviderTypeEnum
 ms.prod: windows
 ms.technology: windows-sdk

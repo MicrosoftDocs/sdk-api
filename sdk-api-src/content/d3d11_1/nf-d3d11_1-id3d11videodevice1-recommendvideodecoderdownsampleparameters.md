@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice1_recommendvideodecoderdownsampleparameters.ht
 old-project: medfound
 ms.assetid: DD1C1273-C069-4C46-933F-3450F9DDAFBD
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ID3D11VideoDevice1 interface [Media Foundation],RecommendVideoDecoderDownsampleParameters method, ID3D11VideoDevice1.RecommendVideoDecoderDownsampleParameters, ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters, RecommendVideoDecoderDownsampleParameters method [Media Foundation], RecommendVideoDecoderDownsampleParameters method [Media Foundation],ID3D11VideoDevice1 interface, d3d11_1/ID3D11VideoDevice1::RecommendVideoDecoderDownsampleParameters, mf.id3d11videodevice1_recommendvideodecoderdownsampleparameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Pointer to a <a href="https://msdn.microsoft.com/3B6BF76A-6566-4C58-AD26-5B13E6D
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

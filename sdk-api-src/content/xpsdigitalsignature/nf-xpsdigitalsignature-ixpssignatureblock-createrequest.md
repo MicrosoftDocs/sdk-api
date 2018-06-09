@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblock_createrequest.htm
 old-project: printdocs
 ms.assetid: 73b9e0b4-a650-4886-bafb-828a659b8446
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: CreateRequest, CreateRequest method [XPS Documents and Packaging], CreateRequest method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],CreateRequest method, IXpsSignatureBlock.CreateRequest, IXpsSignatureBlock::CreateRequest, xps.ixpssignatureblock_createrequest, xpsdigitalsignature/IXpsSignatureBlock::CreateRequest
 ms.prod: windows
 ms.technology: windows-sdk

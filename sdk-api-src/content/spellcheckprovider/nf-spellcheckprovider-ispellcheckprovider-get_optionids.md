@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_optionids.htm
 old-project: Intl
 ms.assetid: E776D178-D5F0-4761-8A0C-7108C36AE3B1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],OptionIds property, ISpellCheckProvider.OptionIds, ISpellCheckProvider.get_OptionIds, ISpellCheckProvider::OptionIds, ISpellCheckProvider::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_OptionIds, intl.ispellcheckprovider_optionids, spellcheckprovider/ISpellCheckProvider::OptionIds, spellcheckprovider/ISpellCheckProvider::get_OptionIds
 ms.prod: windows
 ms.technology: windows-sdk

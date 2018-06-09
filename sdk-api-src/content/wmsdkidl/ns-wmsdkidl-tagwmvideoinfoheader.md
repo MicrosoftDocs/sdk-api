@@ -7,7 +7,7 @@ old-location: wmformat\wmvideoinfoheader.htm
 old-project: wmformat
 ms.assetid: cf079efd-1759-4787-8aeb-85543847ac44
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: WMVIDEOINFOHEADER, WMVIDEOINFOHEADER structure [windows Media Format], tagWMVIDEOINFOHEADER, wmformat.wmvideoinfoheader, wmsdkidl/WMVIDEOINFOHEADER
 ms.prod: windows
 ms.technology: windows-sdk

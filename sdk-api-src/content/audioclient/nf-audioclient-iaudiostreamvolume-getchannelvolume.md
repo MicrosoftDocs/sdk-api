@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiostreamvolume_getchannelvolume.htm
 old-project: CoreAudio
 ms.assetid: a5ac2c9a-2bbd-42de-b530-f668b26300af
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelVolume method, IAudioStreamVolume.GetChannelVolume, IAudioStreamVolume::GetChannelVolume, IAudioStreamVolumeGetChannelVolume, audioclient/IAudioStreamVolume::GetChannelVolume, coreaudio.iaudiostreamvolume_getchannelvolume
 ms.prod: windows
 ms.technology: windows-sdk

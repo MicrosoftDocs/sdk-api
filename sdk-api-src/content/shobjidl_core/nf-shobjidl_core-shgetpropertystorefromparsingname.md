@@ -75,9 +75,9 @@ A pointer to a <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfc
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags.md">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more values from the <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags.md">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
+One or more values from the <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
 
 
 ### -param riid [in]

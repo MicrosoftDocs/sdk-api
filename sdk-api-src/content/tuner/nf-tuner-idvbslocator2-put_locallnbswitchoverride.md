@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_locallnbswitchoverride.htm
 old-project: mstv
 ms.assetid: d8ec67af-c64f-479a-8f6b-acd42c60d62a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalLNBSwitchOverride property, IDVBSLocator2.LocalLNBSwitchOverride, IDVBSLocator2.put_LocalLNBSwitchOverride, IDVBSLocator2::LocalLNBSwitchOverride, IDVBSLocator2::get_LocalLNBSwitchOverride, IDVBSLocator2::put_LocalLNBSwitchOverride, LocalLNBSwitchOverride property [Microsoft TV Technologies], LocalLNBSwitchOverride property [Microsoft TV Technologies],IDVBSLocator2 interface, mstv.idvbslocator2_locallnbswitchoverride, put_LocalLNBSwitchOverride, tuner/IDVBSLocator2::LocalLNBSwitchOverride, tuner/IDVBSLocator2::get_LocalLNBSwitchOverride, tuner/IDVBSLocator2::put_LocalLNBSwitchOverride
 ms.prod: windows
 ms.technology: windows-sdk

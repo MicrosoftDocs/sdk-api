@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextensionnotify_onsourceended.htm
 old-project: medfound
 ms.assetid: 2ce65194-fb52-41e7-9ca4-d1e65fbbbeb0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceEnded method, IMFMediaSourceExtensionNotify.OnSourceEnded, IMFMediaSourceExtensionNotify::OnSourceEnded, OnSourceEnded, OnSourceEnded method [Media Foundation], OnSourceEnded method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceended, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_InitializeTransitionSite.htm
 old-project: shell
 ms.assetid: 8bb2efc6-699f-4e12-bb52-ee15fb8dc85a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTransitionSite method, IBrowserService2.InitializeTransitionSite, IBrowserService2::InitializeTransitionSite, InitializeTransitionSite, InitializeTransitionSite method [Windows Shell], InitializeTransitionSite method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTransitionSite, shell.IBrowserService2_InitializeTransitionSite, zone_IBrowserService2_InitializeTransitionSite
 ms.prod: windows
 ms.technology: windows-sdk

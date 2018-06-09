@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify.htm
 old-project: medfound
 ms.assetid: FE782D90-8CD4-4F8B-A20E-CE3F792A2DB4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedTextNotify, IMFTimedTextNotify interface [Media Foundation], IMFTimedTextNotify interface [Media Foundation],described, mf.imftimedtextnotify, mfmediaengine/IMFTimedTextNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

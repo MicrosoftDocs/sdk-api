@@ -7,7 +7,7 @@ old-location: gdi\docinfo.htm
 old-project: printdocs
 ms.assetid: 329bf0d9-399b-4f64-a029-361ef7558aeb
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: "*LPDOCINFOA, DOCINFO, DOCINFO structure [Windows GDI], DOCINFOA, LPDOCINFO, LPDOCINFO structure pointer [Windows GDI], _DOCINFOA, _win32_DOCINFO_str, gdi.docinfo, wingdi/DOCINFO, wingdi/LPDOCINFO"
 ms.prod: windows
 ms.technology: windows-sdk

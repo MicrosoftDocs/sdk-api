@@ -7,7 +7,7 @@ old-location: security\bcryptenumproviders_func.htm
 old-project: SecCNG
 ms.assetid: 0496f241-9530-47fb-89e2-15d7ab6da87a
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptEnumProviders, BCryptEnumProviders function [Security], bcrypt/BCryptEnumProviders, security.bcryptenumproviders_func
 ms.prod: windows
 ms.technology: windows-sdk

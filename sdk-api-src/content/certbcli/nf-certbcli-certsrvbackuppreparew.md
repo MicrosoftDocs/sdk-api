@@ -7,7 +7,7 @@ old-location: security\certsrvbackupprepare.htm
 old-project: SecCrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
 ms.prod: windows
 ms.technology: windows-sdk

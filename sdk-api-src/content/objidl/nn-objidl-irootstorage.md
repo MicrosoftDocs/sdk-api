@@ -7,7 +7,7 @@ old-location: stg\irootstorage.htm
 old-project: Stg
 ms.assetid: cf92c62f-ef65-46b1-8f41-f2b31ff52044
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IRootStorage, IRootStorage interface [Structured Storage], IRootStorage interface [Structured Storage],described, _stg_irootstorage, objidl/IRootStorage, stg.irootstorage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IEnumerableView_CreateEnumIDListFromContents.htm
 old-project: shell
 ms.assetid: 413d913d-e6f3-4e2d-bf1f-5d5ad6d4f650
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: CreateEnumIDListFromContents, CreateEnumIDListFromContents method [Windows Shell], CreateEnumIDListFromContents method [Windows Shell],IEnumerableView interface, IEnumerableView interface [Windows Shell],CreateEnumIDListFromContents method, IEnumerableView.CreateEnumIDListFromContents, IEnumerableView::CreateEnumIDListFromContents, _shell_IEnumerableView_CreateEnumIDListFromContents, shell.IEnumerableView_CreateEnumIDListFromContents, shobjidl/IEnumerableView::CreateEnumIDListFromContents
 ms.prod: windows
 ms.technology: windows-sdk

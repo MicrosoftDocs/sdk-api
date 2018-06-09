@@ -7,7 +7,7 @@ old-location: ics\inetfwproduct_displayname.htm
 old-project: ICS
 ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.put_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName, put_DisplayName
 ms.prod: windows
 ms.technology: windows-sdk

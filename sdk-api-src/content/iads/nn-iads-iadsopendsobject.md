@@ -60,7 +60,7 @@ Calling the <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IADsOpenDSObject</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">OpenDSObject</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface on the specified object.
+Gets the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the specified object.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Gets the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatc
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

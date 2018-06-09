@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_destinationheight.htm
 old-project: DirectShow
 ms.assetid: 21d6c74a-2adb-4015-b0df-5acb26c22212
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationHeight method, IBasicVideo.get_DestinationHeight, IBasicVideo::get_DestinationHeight, IBasicVideoget_DestinationHeight, control/IBasicVideo::get_DestinationHeight, dshow.ibasicvideo_get_destinationheight, get_DestinationHeight, get_DestinationHeight method [DirectShow], get_DestinationHeight method [DirectShow],IBasicVideo interface
 ms.prod: windows
 ms.technology: windows-sdk

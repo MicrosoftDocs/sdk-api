@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserverbackupdatabase.htm
 old-project: DHCP
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
 ms.prod: windows
 ms.technology: windows-sdk

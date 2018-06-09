@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: a499d259-460c-428b-ba96-63f71eb556fa
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbComponentGroupDescriptor.GetLength, IIsdbComponentGroupDescriptor::GetLength, dvbsiparser/IIsdbComponentGroupDescriptor::GetLength, mstv.iisdbcomponentgroupdescriptor_getlength
 ms.prod: windows
 ms.technology: windows-sdk

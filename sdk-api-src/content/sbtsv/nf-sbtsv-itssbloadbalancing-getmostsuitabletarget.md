@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalancing_getmostsuitabletarget.htm
 old-project: TermServ
 ms.assetid: 4f625f64-3909-4003-938c-7807ec24e59e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetMostSuitableTarget, GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancing interface, ITsSbLoadBalancing interface [Remote Desktop Services],GetMostSuitableTarget method, ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
 ms.prod: windows
 ms.technology: windows-sdk

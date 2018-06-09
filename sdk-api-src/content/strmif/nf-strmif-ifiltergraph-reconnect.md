@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph_reconnect.htm
 old-project: DirectShow
 ms.assetid: 98a46014-031b-4f35-b1bc-58aef411360b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IFilterGraph interface [DirectShow],Reconnect method, IFilterGraph.Reconnect, IFilterGraph::Reconnect, IFilterGraphReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_reconnect, strmif/IFilterGraph::Reconnect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_programmable_sample_positions_tier.htm
 old-project: direct3d12
 ms.assetid: A20B501F-4F76-4CEA-AAEE-7F732E64F8F6
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER enumeration, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_NOT_SUPPORTED, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_NOT_SUPPORTED, direct3d12.d3d12_programmable_sample_positions_tier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,12 +65,12 @@ Indicates that there's no support for programmable sample positions.
 
 ### -field D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1
 
-Indicates that there's tier 1 support for programmable sample positions. In tier 1, a single sample pattern can be specified to repeat for every pixel (<a href="https://www.bing.com/search?q=SetSamplePosition">SetSamplePosition</a> parameter <i>NumPixels</i> = 1) and ResolveSubResource is supported.
+Indicates that there's tier 1 support for programmable sample positions. In tier 1, a single sample pattern can be specified to repeat for every pixel (<a href="direct3d12.id3d12graphicscommandlist1_setsampleposition">SetSamplePosition</a> parameter <i>NumPixels</i> = 1) and ResolveSubResource is supported.
 
 
 ### -field D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2
 
-Indicates that there's tier 2 support for programmable sample positions. In tier 2, four separate sample patterns can be specified for each pixel in a 2x2 grid (<a href="https://www.bing.com/search?q=SetSamplePosition">SetSamplePosition</a> parameter <i>NumPixels</i> = 1) that repeats over the render-target or viewport, aligned on even coordinates .
+Indicates that there's tier 2 support for programmable sample positions. In tier 2, four separate sample patterns can be specified for each pixel in a 2x2 grid (<a href="direct3d12.id3d12graphicscommandlist1_setsampleposition">SetSamplePosition</a> parameter <i>NumPixels</i> = 1) that repeats over the render-target or viewport, aligned on even coordinates .
 
 
 ## -remarks

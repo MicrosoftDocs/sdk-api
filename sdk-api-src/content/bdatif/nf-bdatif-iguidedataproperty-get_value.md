@@ -7,7 +7,7 @@ old-location: mstv\iguidedataproperty_get_value.htm
 old-project: mstv
 ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value method, IGuideDataProperty.get_Value, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_value
 ms.prod: windows
 ms.technology: windows-sdk

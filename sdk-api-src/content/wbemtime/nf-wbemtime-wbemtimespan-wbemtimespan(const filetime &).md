@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_wbemtimespan.htm
 old-project: WmiSdk
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const FILETIME &), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WBEMTimeSpan(const FILETIME &), WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
 ms.prod: windows
 ms.technology: windows-sdk

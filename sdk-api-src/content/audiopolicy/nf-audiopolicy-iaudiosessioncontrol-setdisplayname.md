@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_setdisplayname.htm
 old-project: CoreAudio
 ms.assetid: d12c12ed-a556-4743-952e-2eb4f58ee0eb
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetDisplayName method, IAudioSessionControl.SetDisplayName, IAudioSessionControl::SetDisplayName, IAudioSessionControlSetDisplayName, SetDisplayName, SetDisplayName method [Core Audio], SetDisplayName method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetDisplayName, coreaudio.iaudiosessioncontrol_setdisplayname
 ms.prod: windows
 ms.technology: windows-sdk

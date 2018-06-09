@@ -7,7 +7,7 @@ old-location: mstv\idvb_st_getdata.htm
 old-project: mstv
 ms.assetid: 3afdafad-462c-4fad-a9c6-ec820bedf31a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IDVB_ST interface, IDVB_ST interface [Microsoft TV Technologies],GetData method, IDVB_ST.GetData, IDVB_ST::GetData, IDVB_STGetData, dvbsiparser/IDVB_ST::GetData, mstv.idvb_st_getdata
 ms.prod: windows
 ms.technology: windows-sdk

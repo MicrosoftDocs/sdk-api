@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecamvideoaccelerator_setplayernotify.htm
 old-project: wmformat
 ms.assetid: 3be015c4-a641-44b9-9be8-a76b5dd4f998
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetPlayerNotify method, IWMCodecAMVideoAccelerator.SetPlayerNotify, IWMCodecAMVideoAccelerator::SetPlayerNotify, IWMCodecAMVideoAcceleratorSetPlayerNotify, SetPlayerNotify, SetPlayerNotify method [windows Media Format], SetPlayerNotify method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::SetPlayerNotify, wmformat.iwmcodecamvideoaccelerator_setplayernotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>SetPlayerNotify</b> method is called by the output pin on the source filter to provide the decoder <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DMO</a> with the source filter's <b>IWMPlayerTimestampHook</b> interface to enable the source filter to update the time stamps on the samples before they are delivered to the renderer.
+The <b>SetPlayerNotify</b> method is called by the output pin on the source filter to provide the decoder <a href="wmformat_glossary.htm">DMO</a> with the source filter's <b>IWMPlayerTimestampHook</b> interface to enable the source filter to update the time stamps on the samples before they are delivered to the renderer.
 
 
 

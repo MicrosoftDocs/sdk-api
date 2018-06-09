@@ -7,7 +7,7 @@ old-location: mscs\backupclusterdatabase.htm
 old-project: MsCS
 ms.assetid: c381b7d3-cc60-45cf-a7f0-eebf44557bcf
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: BackupClusterDatabase, BackupClusterDatabase function [Failover Cluster], _wolf_backupclusterdatabase, clusapi/BackupClusterDatabase, mscs.backupclusterdatabase
 ms.prod: windows
 ms.technology: windows-sdk

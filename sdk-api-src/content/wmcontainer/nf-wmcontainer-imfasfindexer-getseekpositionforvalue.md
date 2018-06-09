@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_getseekpositionforvalue.htm
 old-project: medfound
 ms.assetid: c8e9982e-b056-48dc-ac5f-20bf65b475ec
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetSeekPositionForValue method, IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
 ms.prod: windows
 ms.technology: windows-sdk

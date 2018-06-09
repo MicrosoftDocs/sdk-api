@@ -7,7 +7,7 @@ old-location: wintouch\_imanipulationevents_manipulationstarted.htm
 old-project: wintouch
 ms.assetid: c3e63eb7-65e7-4394-89e4-d95d7e7877cf
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/04/2018
 ms.keywords: ManipulationStarted, ManipulationStarted method [Windows Touch], ManipulationStarted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationStarted method, _IManipulationEvents.ManipulationStarted, _IManipulationEvents::ManipulationStarted, manipulations/_IManipulationEvents::ManipulationStarted, wintouch._imanipulationevents_manipulationstarted
 ms.prod: windows
 ms.technology: windows-sdk

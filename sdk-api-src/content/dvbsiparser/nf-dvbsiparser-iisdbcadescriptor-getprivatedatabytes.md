@@ -7,7 +7,7 @@ old-location: mstv\iisdbcadescriptor_getprivatedatabytes.htm
 old-project: mstv
 ms.assetid: cd64ba74-aab2-45eb-945a-187d3aaf9bdd
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetPrivateDataBytes, GetPrivateDataBytes method [Microsoft TV Technologies], GetPrivateDataBytes method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetPrivateDataBytes method, IIsdbCADescriptor.GetPrivateDataBytes, IIsdbCADescriptor::GetPrivateDataBytes, dvbsiparser/IIsdbCADescriptor::GetPrivateDataBytes, mstv.iisdbcadescriptor_getprivatedatabytes
 ms.prod: windows
 ms.technology: windows-sdk

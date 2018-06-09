@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresource1_write1.htm
 old-project: printdocs
 ms.assetid: 5C5C2DC9-1F03-44F9-9466-7AFD1BD5D098
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],Write1 method, IXpsOMRemoteDictionaryResource1.Write1, IXpsOMRemoteDictionaryResource1::Write1, Write1, Write1 method [XPS Documents and Packaging], Write1 method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, xps.ixpsomremotedictionaryresource1_write1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1
 ms.prod: windows
 ms.technology: windows-sdk

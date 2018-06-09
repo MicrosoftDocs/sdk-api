@@ -7,7 +7,7 @@ old-location: mscs\resutilenumproperties.htm
 old-project: MsCS
 ms.assetid: 1b3a6326-c0da-470a-9cd5-19daa9d48ccd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES callback, PRESUTIL_ENUM_PROPERTIES callback function [Failover Cluster], _wolf_resutilenumproperties, mscs.resutilenumproperties, resapi/PRESUTIL_ENUM_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

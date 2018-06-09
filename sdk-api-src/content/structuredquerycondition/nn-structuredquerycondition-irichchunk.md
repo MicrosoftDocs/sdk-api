@@ -7,7 +7,7 @@ old-location: search\_search_IRichChunk.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichchunk.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search],described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Represents a chunk of data as a string and a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> value.
+          Represents a chunk of data as a string and a <a href="_stg_propvariant">PROPVARIANT</a> value.
         
 
 
@@ -77,7 +77,7 @@ The <b>IRichChunk</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-      Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+      Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The <b>IRichChunk</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-       Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+       Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>

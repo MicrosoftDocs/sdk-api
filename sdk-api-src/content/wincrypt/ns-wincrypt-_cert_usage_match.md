@@ -7,7 +7,7 @@ old-location: security\cert_usage_match.htm
 old-project: SecCrypto
 ms.assetid: 6154f1f7-4293-4b8e-91ab-9f57bb6f5743
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCERT_USAGE_MATCH, CERT_USAGE_MATCH, CERT_USAGE_MATCH structure [Security], PCERT_USAGE_MATCH, PCERT_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _CERT_USAGE_MATCH, _crypto2_cert_usage_match, security.cert_usage_match, wincrypt/CERT_USAGE_MATCH, wincrypt/PCERT_USAGE_MATCH"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getserver.htm
 old-project: WmiSdk
 ms.assetid: 831d34d8-d586-41cc-a878-7a2b837b84de
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetServer, GetServer method [Windows Management Instrumentation], GetServer method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetServer method, IWbemPath.GetServer, IWbemPath::GetServer, _hmm_iwbempath_getserver, wmi.iwbempath_getserver, wmiutils/IWbemPath::GetServer
 ms.prod: windows
 ms.technology: windows-sdk

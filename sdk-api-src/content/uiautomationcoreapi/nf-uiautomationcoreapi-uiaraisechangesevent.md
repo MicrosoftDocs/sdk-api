@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseChangesEventFunction.htm
 old-project: WinAuto
 ms.assetid: AA6F1F6E-3EE9-44A6-B1AE-B08013DC1E37
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: UiaRaiseChangesEvent, UiaRaiseChangesEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseChangesEvent, winauto.uiauto_UiaRaiseChangesEventFunction
 ms.prod: windows
 ms.technology: windows-sdk

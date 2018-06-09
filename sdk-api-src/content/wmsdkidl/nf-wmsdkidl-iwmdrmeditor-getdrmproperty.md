@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmeditor_getdrmproperty.htm
 old-project: wmformat
 ms.assetid: b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMEditor interface, IWMDRMEditor interface [windows Media Format],GetDRMProperty method, IWMDRMEditor.GetDRMProperty, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ]
 
 
-The <b>GetDRMProperty</b> method retrieves the specified <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DRM</a> property.
+The <b>GetDRMProperty</b> method retrieves the specified <a href="wmformat_glossary.htm">DRM</a> property.
 
 
 

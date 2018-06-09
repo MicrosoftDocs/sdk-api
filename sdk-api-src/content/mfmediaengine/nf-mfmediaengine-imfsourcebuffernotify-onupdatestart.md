@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify_onupdatestart.htm
 old-project: medfound
 ms.assetid: 513ef55d-756e-4ae3-b312-6a4178bc2f42
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateStart method, IMFSourceBufferNotify.OnUpdateStart, IMFSourceBufferNotify::OnUpdateStart, OnUpdateStart, OnUpdateStart method [Media Foundation], OnUpdateStart method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdatestart, mfmediaengine/IMFSourceBufferNotify::OnUpdateStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

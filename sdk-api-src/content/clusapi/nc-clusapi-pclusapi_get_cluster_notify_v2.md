@@ -7,7 +7,7 @@ old-location: mscs\getclusternotifyv2.htm
 old-project: MsCS
 ms.assetid: 0AF127E1-D517-4F4B-B797-40822B3B236F
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
 ms.prod: windows
 ms.technology: windows-sdk

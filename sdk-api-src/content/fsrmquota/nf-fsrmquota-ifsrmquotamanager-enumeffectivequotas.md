@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanager_enumeffectivequotas.htm
 old-project: Fsrm
 ms.assetid: abe5e73b-459a-4e2a-9917-91d3c85a15bc
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: EnumEffectiveQuotas, EnumEffectiveQuotas method [File Server Resource Manager], EnumEffectiveQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumEffectiveQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumEffectiveQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManager.EnumEffectiveQuotas, IFsrmQuotaManager::EnumEffectiveQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManagerEx::EnumEffectiveQuotas, fs.ifsrmquotamanager_enumeffectivequotas, fsrm.ifsrmquotamanager_enumeffectivequotas, fsrmquota/IFsrmQuotaManager::EnumEffectiveQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumEffectiveQuotas
 ms.prod: windows
 ms.technology: windows-sdk

@@ -77,7 +77,7 @@ For this value, set the <b>FilterType</b> member of the <a href="https://msdn.mi
 For this value, set the <b>FilterType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt299055">CM_NOTIFY_FILTER</a> structure
  to <b>CM_NOTIFY_FILTER_TYPE_DEVICEHANDLE</b>.
 
-  This action indicates that the device is being query removed.  In order to allow the query remove to succeed, call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> to close any handles you have open to the device. If you do not do this, your open handle prevents the query remove of this device from succeeding.  See <a href="https://www.bing.com/search?q=Registering+for+Notification+of+Device+Interface+Arrival+and+Device+Removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information.
+  This action indicates that the device is being query removed.  In order to allow the query remove to succeed, call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> to close any handles you have open to the device. If you do not do this, your open handle prevents the query remove of this device from succeeding.  See <a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information.
 
 To veto the query remove, return ERROR_CANCELLED.  However, it is recommended that you do not veto the query remove and allow it to happen by closing any handles you have open to the device.
 
@@ -87,7 +87,7 @@ To veto the query remove, return ERROR_CANCELLED.  However, it is recommended th
 For this value, set the <b>FilterType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt299055">CM_NOTIFY_FILTER</a> structure
  to <b>CM_NOTIFY_FILTER_TYPE_DEVICEHANDLE</b>.
 
- This action indicates that the query remove of a device was failed.  If you closed the handle to this device during a previous notification of <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b>, open a new handle to the device to continue sending I/O requests to it.  See <a href="https://www.bing.com/search?q=Registering+for+Notification+of+Device+Interface+Arrival+and+Device+Removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information.
+ This action indicates that the query remove of a device was failed.  If you closed the handle to this device during a previous notification of <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b>, open a new handle to the device to continue sending I/O requests to it.  See <a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information.
 
 
 ### -field CM_NOTIFY_ACTION_DEVICEREMOVEPENDING
@@ -95,7 +95,7 @@ For this value, set the <b>FilterType</b> member of the <a href="https://msdn.mi
 For this value, set the <b>FilterType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt299055">CM_NOTIFY_FILTER</a> structure
  to <b>CM_NOTIFY_FILTER_TYPE_DEVICEHANDLE</b>.
 
-The device will be removed.  If you still have an open handle to the device, call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> to close the device handle. See <a href="https://www.bing.com/search?q=Registering+for+Notification+of+Device+Interface+Arrival+and+Device+Removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information. The system may send a <b>CM_NOTIFY_ACTION_DEVICEREMOVEPENDING</b> notification without sending a corresponding <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> message.  In such cases, the applications and drivers must recover from the loss of the device as best they can.
+The device will be removed.  If you still have an open handle to the device, call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> to close the device handle. See <a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information. The system may send a <b>CM_NOTIFY_ACTION_DEVICEREMOVEPENDING</b> notification without sending a corresponding <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> message.  In such cases, the applications and drivers must recover from the loss of the device as best they can.
 
 
 ### -field CM_NOTIFY_ACTION_DEVICEREMOVECOMPLETE
@@ -103,7 +103,7 @@ The device will be removed.  If you still have an open handle to the device, cal
 For this value, set the <b>FilterType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt299055">CM_NOTIFY_FILTER</a> structure
  to <b>CM_NOTIFY_FILTER_TYPE_DEVICEHANDLE</b>.
 
-The device has been removed.  If you still have an open handle to the device, call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> to close the device handle. See <a href="https://www.bing.com/search?q=Registering+for+Notification+of+Device+Interface+Arrival+and+Device+Removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information.  The system may send a <b>CM_NOTIFY_ACTION_DEVICEREMOVECOMPLETE</b> notification without sending corresponding <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> or <b>CM_NOTIFY_ACTION_DEVICEREMOVEPENDING</b> messages.  In such cases, the applications and drivers must recover from the loss of the device as best they can.
+The device has been removed.  If you still have an open handle to the device, call <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> to close the device handle. See <a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a> for more information.  The system may send a <b>CM_NOTIFY_ACTION_DEVICEREMOVECOMPLETE</b> notification without sending corresponding <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> or <b>CM_NOTIFY_ACTION_DEVICEREMOVEPENDING</b> messages.  In such cases, the applications and drivers must recover from the loss of the device as best they can.
 
 
 ### -field CM_NOTIFY_ACTION_DEVICECUSTOMEVENT

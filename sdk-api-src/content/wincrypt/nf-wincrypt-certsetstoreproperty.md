@@ -7,7 +7,7 @@ old-location: security\certsetstoreproperty.htm
 old-project: SecCrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ For another  example that uses this function, see <a href="https://msdn.microsof
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

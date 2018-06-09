@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 96ca5a6b-c515-4854-8e95-9cb155879b3b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IPBDA_EIT.GetRecordDescriptorByIndex, IPBDA_EIT::GetRecordDescriptorByIndex, dvbsiparser/IPBDA_EIT::GetRecordDescriptorByIndex, mstv.ipbda_eit_getrecorddescriptorbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ req.product: Windows Media Format 9 Series or later
 
 
   Specifies the service record number, indexed from zero.
-  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords.md">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
+  Call the <a href="mstv.ipda_eit_getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\DXGI_SWAP_EFFECT.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_effect.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: DXGI_SWAP_EFFECT, DXGI_SWAP_EFFECT enumeration [DXGI], DXGI_SWAP_EFFECT_DISCARD, DXGI_SWAP_EFFECT_FLIP_DISCARD, DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, DXGI_SWAP_EFFECT_SEQUENTIAL, c9248b7c-731f-95e1-6c64-22fdef69d697, direct3ddxgi.DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ This is because UWP applications are forced into FLIP swap modes (even if other 
 time used by the memory copies originally done by the older bitblt model.
 
 The recommended approach is to manually convert DX11 Discard swap chains to use flip models within UWP,  using <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> instead of <b>DXGI_SWAP_EFFECT_DISCARD</b> where possible.
- Refer to the Example below, and see <a href="https://www.bing.com/search?q=this+article">this article</a> for more information.</div>
+ Refer to the Example below, and see <a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">this article</a> for more information.</div>
 <div> </div>
 
 ### -field DXGI_SWAP_EFFECT_SEQUENTIAL
@@ -85,7 +85,7 @@ The recommended approach is to manually convert DX11 Discard swap chains to use 
               This flag cannot be used with multisampling.
             
 
-<div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="https://www.bing.com/search?q=this+article">this article</a> for more information.</div>
+<div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">this article</a> for more information.</div>
 <div> </div>
 
 ### -field DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL

@@ -7,7 +7,7 @@ old-location: mscs\addclusterresourcenode.htm
 old-project: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
 ms.prod: windows
 ms.technology: windows-sdk

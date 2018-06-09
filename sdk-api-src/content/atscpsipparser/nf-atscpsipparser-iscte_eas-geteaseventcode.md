@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_geteaseventcode.htm
 old-project: mstv
 ms.assetid: 9618fb6f-61f3-44cf-9605-b47a6a1e9be6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetEASEventCode, GetEASEventCode method [Microsoft TV Technologies], GetEASEventCode method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCode method, ISCTE_EAS.GetEASEventCode, ISCTE_EAS::GetEASEventCode, ISCTE_EASGetEASEventCode, atscpsipparser/ISCTE_EAS::GetEASEventCode, mstv.iscte_eas_geteaseventcode
 ms.prod: windows
 ms.technology: windows-sdk

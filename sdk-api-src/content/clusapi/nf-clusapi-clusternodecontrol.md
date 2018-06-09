@@ -7,7 +7,7 @@ old-location: mscs\clusternodecontrol.htm
 old-project: MsCS
 ms.assetid: f6fc8525-a2d3-4643-9372-548df5e30900
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterNodeControl, ClusterNodeControl function [Failover Cluster], _wolf_clusternodecontrol, clusapi/ClusterNodeControl, mscs.clusternodecontrol
 ms.prod: windows
 ms.technology: windows-sdk

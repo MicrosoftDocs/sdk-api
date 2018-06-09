@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_setstablepowerstate.htm
 old-project: direct3d12
 ms.assetid: 6078DAEF-DD8B-4F1F-86C8-96CE7BD691E4
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12Device interface,SetStablePowerState method, ID3D12Device.SetStablePowerState, ID3D12Device::SetStablePowerState, SetStablePowerState, SetStablePowerState method, SetStablePowerState method,ID3D12Device interface, d3d12/ID3D12Device::SetStablePowerState, direct3d12.id3d12device_setstablepowerstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Specifies a BOOL that turns the stable power state on or off.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
 

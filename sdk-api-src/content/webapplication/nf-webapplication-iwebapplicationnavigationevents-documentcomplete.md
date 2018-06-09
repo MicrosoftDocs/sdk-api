@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_documentcomplete.htm
 old-project: debug_wwahost
 ms.assetid: 18dabd8a-d35c-4095-985d-bf712c539df8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/04/2018
 ms.keywords: DocumentComplete, DocumentComplete method [Debugging Windows Store apps], DocumentComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DocumentComplete method, IWebApplicationNavigationEvents.DocumentComplete, IWebApplicationNavigationEvents::DocumentComplete, debug.iwebapplicationnavigationevents_documentcomplete, webapplication/IWebApplicationNavigationEvents::DocumentComplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Fired when the document being navigated to reaches ReadyState_Complete.
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://www.bing.com/search?q=IHTMLWindow2">IHTMLWindow2</a>*</b>
+Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
 
 The window or frame in which the document is loaded.
 

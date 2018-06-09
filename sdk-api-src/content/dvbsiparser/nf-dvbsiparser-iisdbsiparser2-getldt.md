@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getldt.htm
 old-project: mstv
 ms.assetid: b4b91e95-cf0f-488b-9941-4d1d81dc7661
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLDT, GetLDT method [Microsoft TV Technologies], GetLDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetLDT method, IIsdbSiParser2.GetLDT, IIsdbSiParser2::GetLDT, dvbsiparser/IIsdbSiParser2::GetLDT, mstv.iisdbsiparser2_getldt
 ms.prod: windows
 ms.technology: windows-sdk

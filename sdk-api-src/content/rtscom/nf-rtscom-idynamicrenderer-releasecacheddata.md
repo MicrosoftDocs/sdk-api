@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_releasecacheddata.htm
 old-project: tablet
 ms.assetid: 691de815-a5be-4982-a59a-b904c070ede8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 691de815-a5be-4982-a59a-b904c070ede8, IDynamicRenderer interface [Tablet PC],ReleaseCachedData method, IDynamicRenderer.ReleaseCachedData, IDynamicRenderer::ReleaseCachedData, ReleaseCachedData, ReleaseCachedData method [Tablet PC], ReleaseCachedData method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::ReleaseCachedData, tablet.idynamicrenderer_releasecacheddata
 ms.prod: windows
 ms.technology: windows-sdk

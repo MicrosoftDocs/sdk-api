@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduleimplementation_onload.htm
 old-project: Fsrm
 ms.assetid: 69d848b9-4143-4b6c-9a45-66ff44c54b66
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnLoad method, IFsrmClassifierModuleImplementation::OnLoad, IFsrmPipelineModuleImplementation interface [File Server Resource Manager],OnLoad method, IFsrmPipelineModuleImplementation.OnLoad, IFsrmPipelineModuleImplementation::OnLoad, IFsrmStorageModuleImplementation interface [File Server Resource Manager],OnLoad method, IFsrmStorageModuleImplementation::OnLoad, OnLoad, OnLoad method [File Server Resource Manager], OnLoad method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, OnLoad method [File Server Resource Manager],IFsrmPipelineModuleImplementation interface, OnLoad method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmpipelinemoduleimplementation_onload, fsrm.ifsrmpipelinemoduleimplementation_onload, fsrmpipeline/IFsrmClassifierModuleImplementation::OnLoad, fsrmpipeline/IFsrmPipelineModuleImplementation::OnLoad, fsrmpipeline/IFsrmStorageModuleImplementation::OnLoad
 ms.prod: windows
 ms.technology: windows-sdk

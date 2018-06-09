@@ -7,7 +7,7 @@ old-location: mstv\istreambufferreccomp_getcurrentlength.htm
 old-project: mstv
 ms.assetid: d482bddc-3754-4d3c-8a9b-c0dc0afb00bb
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCurrentLength, GetCurrentLength method [Microsoft TV Technologies], GetCurrentLength method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],GetCurrentLength method, IStreamBufferRecComp.GetCurrentLength, IStreamBufferRecComp::GetCurrentLength, IStreamBufferRecCompGetCurrentLength, mstv.istreambufferreccomp_getcurrentlength, sbe/IStreamBufferRecComp::GetCurrentLength
 ms.prod: windows
 ms.technology: windows-sdk

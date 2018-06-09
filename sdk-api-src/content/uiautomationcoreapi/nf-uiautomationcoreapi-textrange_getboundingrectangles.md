@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_GetBoundingRectanglesConPat.htm
 old-project: WinAuto
 ms.assetid: f6b9e6b5-554d-46cb-a423-e7e3f6fb3a04
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: TextRange_GetBoundingRectangles, TextRange_GetBoundingRectangles function [Windows Accessibility], uiauto.uiauto_TextRange_GetBoundingRectanglesConPat, uiauto_TextRange_GetBoundingRectanglesConPat, uiautomationcoreapi/TextRange_GetBoundingRectangles, winauto.uiauto_TextRange_GetBoundingRectanglesConPat
 ms.prod: windows
 ms.technology: windows-sdk

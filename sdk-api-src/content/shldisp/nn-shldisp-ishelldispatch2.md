@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_Object.htm
 old-project: shell
 ms.assetid: 74687929-0777-479b-9853-2b0cf4b6adc9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IShellDispatch2, IShellDispatch2 object [Windows Shell], IShellDispatch2 object [Windows Shell],described, _win32_IShellDispatch2_Object, shell.IShellDispatch2_Object, shldisp/IShellDispatch2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,7 +169,7 @@ For a discussion of Windows services, see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

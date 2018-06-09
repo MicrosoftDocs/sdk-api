@@ -7,7 +7,7 @@ old-location: security\bcrypt_multi_hash_operation.htm
 old-project: SecCNG
 ms.assetid: B0418A07-D2EE-4346-9971-676C8FB08FAA
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure [Security], _BCRYPT_MULTI_HASH_OPERATION, bcrypt/BCRYPT_MULTI_HASH_OPERATION, security.bcrypt_multi_hash_operation
 ms.prod: windows
 ms.technology: windows-sdk

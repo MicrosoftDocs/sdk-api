@@ -7,7 +7,7 @@ old-location: security\cryptacquirecertificateprivatekey.htm
 old-project: SecCrypto
 ms.assetid: 53c9aec9-701d-4c21-9814-d344a8dde0c1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG, CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_CACHE_FLAG, CRYPT_ACQUIRE_COMPARE_KEY_FLAG, CRYPT_ACQUIRE_NO_HEALING, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_SILENT_FLAG, CRYPT_ACQUIRE_USE_PROV_INFO_FLAG, CryptAcquireCertificatePrivateKey, CryptAcquireCertificatePrivateKey function [Security], _crypto2_cryptacquirecertificateprivatekey, security.cryptacquirecertificateprivatekey, wincrypt/CryptAcquireCertificatePrivateKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -368,7 +368,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://www.bing.com/search?q=Key+Generation+and+Exchange+Functions">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

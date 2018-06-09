@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_currentprofiletypes.htm
 old-project: ICS
 ms.assetid: 93f4b508-30db-45a9-a7aa-df4a993dc50b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: CurrentProfileTypes property [ICS/ICF], CurrentProfileTypes property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],CurrentProfileTypes property, INetFwPolicy2.CurrentProfileTypes, INetFwPolicy2.get_CurrentProfileTypes, INetFwPolicy2::CurrentProfileTypes, INetFwPolicy2::get_CurrentProfileTypes, get_CurrentProfileTypes, ics.inetfwpolicy2_currentprofiletypes, netfw/INetFwPolicy2::CurrentProfileTypes, netfw/INetFwPolicy2::get_CurrentProfileTypes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_submitdecoderbuffers1.htm
 old-project: medfound
 ms.assetid: 9E5FC926-71D7-4102-8952-EC0585B4A4FC
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],SubmitDecoderBuffers1 method, ID3D11VideoContext1.SubmitDecoderBuffers1, ID3D11VideoContext1::SubmitDecoderBuffers1, SubmitDecoderBuffers1, SubmitDecoderBuffers1 method [Media Foundation], SubmitDecoderBuffers1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::SubmitDecoderBuffers1, mf.id3d11videocontext1_submitdecoderbuffers1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/B35E4E27-6D69-49D4-
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 

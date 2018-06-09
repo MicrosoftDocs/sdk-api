@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent.htm
 old-project: mstv
 ms.assetid: 9da565f2-fbcb-4d71-ae40-7d9821f46630
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], IGuideDataEvent interface [Microsoft TV Technologies],described, IGuideDataEventInterface, bdatif/IGuideDataEvent, mstv.iguidedataevent
 ms.prod: windows
 ms.technology: windows-sdk

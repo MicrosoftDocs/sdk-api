@@ -7,7 +7,7 @@ old-location: multimedia\icdrawchangepalette.htm
 old-project: Multimedia
 ms.assetid: 4b280b51-a45f-47e5-b54c-47dc4a6ca81c
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICDrawChangePalette, ICDrawChangePalette macro [Windows Multimedia], _win32_ICDrawChangePalette, multimedia.icdrawchangepalette, vfw/ICDrawChangePalette
 ms.prod: windows
 ms.technology: windows-sdk

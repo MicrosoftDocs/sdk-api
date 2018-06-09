@@ -7,7 +7,7 @@ old-location: mscs\clusctl_get_access_mode.htm
 old-project: MsCS
 ms.assetid: 75544022-6c6b-4a04-83cc-427307eaf3ea
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: CLUSCTL_GET_ACCESS_MODE, CLUSCTL_GET_ACCESS_MODE macro [Failover Cluster], _wolf_clusctl_get_access_mode, clusapi/CLUSCTL_GET_ACCESS_MODE, mscs.clusctl_get_access_mode
 ms.prod: windows
 ms.technology: windows-sdk

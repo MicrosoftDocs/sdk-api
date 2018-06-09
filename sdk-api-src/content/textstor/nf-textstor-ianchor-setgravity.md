@@ -96,7 +96,7 @@ The method was successful.
 
 
 
-<a href="https://www.bing.com/search?q=Anchor+Gravity">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 

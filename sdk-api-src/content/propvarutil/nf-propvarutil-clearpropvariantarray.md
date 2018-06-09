@@ -88,12 +88,12 @@ No return value.
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="https://www.bing.com/search?q=FreePropVariantArray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
+This function performs the same action as <a href="shell.FreePropVariantArray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=ClearPropVariantArray">ClearPropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -117,7 +117,7 @@ ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://www.bing.com/search?q=ClearVariantArray">ClearVariantArray</a>
+<a href="shell.ClearVariantArray">ClearVariantArray</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\mfconvertfromfp16array.htm
 old-project: medfound
 ms.assetid: 5cc11d32-8dcd-491d-b3df-c0b061233038
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 5cc11d32-8dcd-491d-b3df-c0b061233038, MFConvertFromFP16Array, MFConvertFromFP16Array function [Media Foundation], mf.mfconvertfromfp16array, mfapi/MFConvertFromFP16Array
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
         The function converts <i>dwCount</i> values in the <i>pSrc</i> array and writes them into the <i>pDest</i> array.
       
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/media-foundation-headers-and-libraries">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

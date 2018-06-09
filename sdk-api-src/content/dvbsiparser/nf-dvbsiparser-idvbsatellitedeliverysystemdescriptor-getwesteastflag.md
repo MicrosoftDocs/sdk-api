@@ -7,7 +7,7 @@ old-location: mstv\idvbsatellitedeliverysystemdescriptor_getwesteastflag.htm
 old-project: mstv
 ms.assetid: 533a2ed4-f5ac-4f41-a03b-0b274f327436
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetWestEastFlag, GetWestEastFlag method [Microsoft TV Technologies], GetWestEastFlag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetWestEastFlag method, IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptorGetWestEastFlag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, mstv.idvbsatellitedeliverysystemdescriptor_getwesteastflag
 ms.prod: windows
 ms.technology: windows-sdk

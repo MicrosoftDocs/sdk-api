@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineextension_endcreateobject.htm
 old-project: medfound
 ms.assetid: F2B19870-7529-4C8C-9FE6-B312F6A2D2ED
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],EndCreateObject method, IMFMediaEngineExtension.EndCreateObject, IMFMediaEngineExtension::EndCreateObject, mf.imfmediaengineextension_endcreateobject, mfmediaengine/IMFMediaEngineExtension::EndCreateObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

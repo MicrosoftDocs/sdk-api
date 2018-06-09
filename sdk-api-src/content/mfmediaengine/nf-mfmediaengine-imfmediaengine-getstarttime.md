@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getstarttime.htm
 old-project: medfound
 ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetStartTime method, IMFMediaEngine.GetStartTime, IMFMediaEngine::GetStartTime, mf.imfmediaengine_getstarttime, mfmediaengine/IMFMediaEngine::GetStartTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

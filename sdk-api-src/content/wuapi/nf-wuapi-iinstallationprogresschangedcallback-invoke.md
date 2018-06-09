@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogresschangedcallback_invoke.htm
 old-project: Wua_Sdk
 ms.assetid: 1ef4ab68-8bf3-4141-aba2-826bb606eab5
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IInstallationProgressChangedCallback interface [Windows Update Agent],Invoke method, IInstallationProgressChangedCallback.Invoke, IInstallationProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationProgressChangedCallback interface, wua.iinstallationprogresschangedcallback_invoke, wuapi/IInstallationProgressChangedCallback::Invoke
 ms.prod: windows
 ms.technology: windows-sdk

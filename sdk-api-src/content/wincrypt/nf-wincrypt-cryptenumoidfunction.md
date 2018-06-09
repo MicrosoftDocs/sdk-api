@@ -7,7 +7,7 @@ old-location: security\cryptenumoidfunction.htm
 old-project: SecCrypto
 ms.assetid: aa2fba03-183b-4b74-b306-8f4592995897
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptEnumOIDFunction, CryptEnumOIDFunction function [Security], _crypto2_cryptenumoidfunction, security.cryptenumoidfunction, wincrypt/CryptEnumOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

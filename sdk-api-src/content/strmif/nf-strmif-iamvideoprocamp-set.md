@@ -7,7 +7,7 @@ old-location: dshow\iamvideoprocamp_set.htm
 old-project: DirectShow
 ms.assetid: 18826377-ddf7-4c36-8995-43310ea077dd
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
 ms.prod: windows
 ms.technology: windows-sdk

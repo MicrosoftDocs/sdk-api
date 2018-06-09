@@ -7,7 +7,7 @@ old-location: base\heapsize.htm
 old-project: Memory
 ms.assetid: a8fcfd99-7b04-4aa3-8619-272b254551a3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize
 ms.prod: windows
 ms.technology: windows-sdk

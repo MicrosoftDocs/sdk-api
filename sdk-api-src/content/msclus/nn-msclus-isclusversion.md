@@ -7,7 +7,7 @@ old-location: mscs\clusversion_object.htm
 old-project: MsCS
 ms.assetid: 2215335a-1858-437f-8654-2e9d601fe061
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusVersion, ClusVersion object [Failover Cluster], ClusVersion object [Failover Cluster],described, ISClusVersion, _wolf_clusversion_object, msclus/ClusVersion, mscs.clusversion_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,9 +57,9 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Provides version information 
-    about the operating system and the <a href="https://www.bing.com/search?q=Cluster+service">Cluster service</a>. 
-    For more information on <a href="https://www.bing.com/search?q=cluster+versions">cluster versions</a> and 
-    <a href="https://www.bing.com/search?q=version+numbers">version numbers</a>, see 
+    about the operating system and the <a href="c_gly.htm">Cluster service</a>. 
+    For more information on <a href="c_gly.htm">cluster versions</a> and 
+    <a href="v_gly.htm">version numbers</a>, see 
     <a href="https://msdn.microsoft.com/919345fa-cbaa-4d01-bd3c-9ca69cab5094">Version Compatibility</a>.
 
 

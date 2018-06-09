@@ -7,7 +7,7 @@ old-location: mstv\iisdbcaservicedescriptor_getserviceids.htm
 old-project: mstv
 ms.assetid: f2a6d1f2-2cd5-4f8c-97e1-33880ffb0449
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetServiceIds, GetServiceIds method [Microsoft TV Technologies], GetServiceIds method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetServiceIds method, IIsdbCAServiceDescriptor.GetServiceIds, IIsdbCAServiceDescriptor::GetServiceIds, dvbsiparser/IIsdbCAServiceDescriptor::GetServiceIds, mstv.iisdbcaservicedescriptor_getserviceids
 ms.prod: windows
 ms.technology: windows-sdk

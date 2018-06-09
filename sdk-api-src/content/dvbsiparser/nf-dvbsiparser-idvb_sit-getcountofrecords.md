@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 93d04770-9ec5-411c-8892-4b9a7944d681
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_SIT.GetCountOfRecords, IDVB_SIT::GetCountOfRecords, IDVB_SITGetCountOfRecords, dvbsiparser/IDVB_SIT::GetCountOfRecords, mstv.idvb_sit_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

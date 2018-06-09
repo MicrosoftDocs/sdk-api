@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_caps.htm
 old-project: medfound
 ms.assetid: EF79BE15-B92E-45C1-BC42-E89E06197C20
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CAPS, D3D11_VIDEO_PROCESSOR_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CAPS, mf.d3d11_video_processor_caps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.micro
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="mf.d3d11_video_processpr_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
 
 
 ### -field InputFormatCaps

@@ -7,7 +7,7 @@ old-location: setup\sp_altplatform_info_v1.htm
 old-project: SetupApi
 ms.assetid: 33872a84-8f7f-4508-a326-2d95ac0fcfd7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: "*PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1, PSP_ALTPLATFORM_INFO_V1 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V1, SP_ALTPLATFORM_INFO_V1 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _SP_ALTPLATFORM_INFO_V1, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v1, setupapi/PSP_ALTPLATFORM_INFO_V1, setupapi/SP_ALTPLATFORM_INFO_V1"
 ms.prod: windows
 ms.technology: windows-sdk

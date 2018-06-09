@@ -7,7 +7,7 @@ old-location: dshow\idvdgraphbuilder_getfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 1f12140b-d10d-47d9-8bac-33fab084bff4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetFiltergraph method, IDvdGraphBuilder.GetFiltergraph, IDvdGraphBuilder::GetFiltergraph, IDvdGraphBuilderGetFiltergraph, dshow.idvdgraphbuilder_getfiltergraph, strmif/IDvdGraphBuilder::GetFiltergraph
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfgetuncompressedvideoformat.htm
 old-project: medfound
 ms.assetid: 7869025a-dacf-47e6-b129-db5b2daefa3b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Returns a FOURCC or <b>D3DFORMAT</b> value that identifies the video format. If 
 
 
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/media-foundation-headers-and-libraries">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

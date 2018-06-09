@@ -7,7 +7,7 @@ old-location: winrt\istoragehandleaccess.htm
 old-project: WinRT
 ms.assetid: 802E6D88-7AFC-4C15-8906-3C08CB44707B
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: IStorageHandleAccess, IStorageItemHandleAccess, IStorageItemHandleAccess interface [Windows Runtime], IStorageItemHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageHandleAccess, winrt.istoragehandleaccess
 ms.prod: windows
 ms.technology: windows-sdk

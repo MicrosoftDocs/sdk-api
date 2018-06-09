@@ -103,7 +103,7 @@ This function has no return values. If an error occurs, the function throws one 
 
 
 
-The <b>NdrConvert</b> function is used by all <a href="https://www.bing.com/search?q=/Oi">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
+The <b>NdrConvert</b> function is used by all <a href="midl._oi">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
 
 
 

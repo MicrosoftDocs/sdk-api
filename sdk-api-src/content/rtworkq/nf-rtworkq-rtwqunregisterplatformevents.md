@@ -77,7 +77,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The app should use the same pointer that was passed to <a href="https://www.bing.com/search?q=RtwqRegisterPlatformExtension">RtwqRegisterPlatformExtension</a>.
+The app should use the same pointer that was passed to <a href="base.rtwqregisterplatformextension">RtwqRegisterPlatformExtension</a>.
 
 
 

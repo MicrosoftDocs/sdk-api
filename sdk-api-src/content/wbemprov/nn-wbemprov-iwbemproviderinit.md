@@ -7,7 +7,7 @@ old-location: wmi\iwbemproviderinit.htm
 old-project: WmiSdk
 ms.assetid: 92edf347-c694-4023-b83f-09531072c631
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemProviderInit, IWbemProviderInit interface [Windows Management Instrumentation], IWbemProviderInit interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinit, wbemprov/IWbemProviderInit, wmi.iwbemproviderinit
 ms.prod: windows
 ms.technology: windows-sdk

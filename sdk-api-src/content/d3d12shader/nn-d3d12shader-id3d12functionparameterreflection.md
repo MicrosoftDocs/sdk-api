@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionparameterreflection.htm
 old-project: direct3d12
 ms.assetid: 9AB312BE-E174-46D2-BF24-32309BD88AC4
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12FunctionParameterReflection, ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,described, d3d12shader/ID3D12FunctionParameterReflection, direct3d12.id3d12functionparameterreflection
 ms.prod: windows
 ms.technology: windows-sdk

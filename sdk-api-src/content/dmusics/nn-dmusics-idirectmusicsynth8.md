@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8.htm
 old-project: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
 ms.prod: windows
 ms.technology: windows-sdk

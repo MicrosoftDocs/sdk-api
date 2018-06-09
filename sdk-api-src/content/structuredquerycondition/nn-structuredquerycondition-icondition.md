@@ -7,7 +7,7 @@ old-location: search\_search_ICondition.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\icondition.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ICondition, ICondition interface [search], ICondition interface [search],described, _search_ICondition, search._search_ICondition, structuredquerycondition/ICondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Provides methods for retrieving information about a search condition. An <b>ICon
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream.md">IPersistStream</a>. <b>ICondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICondition</b> interface inherits from <a href="_com_IPersistStream">IPersistStream</a>. <b>ICondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -175,7 +175,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream.md">IPersistStream</a>
+<a href="_com_IPersistStream">IPersistStream</a>
 
 
 

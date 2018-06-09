@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriternetworksink_open.htm
 old-project: wmformat
 ms.assetid: 2cfd4693-794c-46c8-b72d-b7529c63f16e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],Open method, IWMWriterNetworkSink.Open, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
 ms.prod: windows
 ms.technology: windows-sdk

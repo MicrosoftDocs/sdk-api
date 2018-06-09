@@ -7,7 +7,7 @@ old-location: ics\inetfwrules_item.htm
 old-project: ICS
 ms.assetid: 91c5a93b-7408-4870-a2c0-167648d849cd
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
 ms.prod: windows
 ms.technology: windows-sdk

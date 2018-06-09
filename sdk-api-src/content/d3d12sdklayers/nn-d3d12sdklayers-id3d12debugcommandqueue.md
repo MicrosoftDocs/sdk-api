@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandqueue.htm
 old-project: direct3d12
 ms.assetid: 383F3B25-10C6-464C-AB79-D35F6FD3E879
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12DebugCommandQueue, ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,described, d3d12sdklayers/ID3D12DebugCommandQueue, direct3d12.id3d12debugcommandqueue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfunlockplatform.htm
 old-project: medfound
 ms.assetid: d4ce5315-4bb2-4ca4-a9a0-20b638a43040
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFUnlockPlatform, MFUnlockPlatform function [Media Foundation], d4ce5315-4bb2-4ca4-a9a0-20b638a43040, mf.mfunlockplatform, mfapi/MFUnlockPlatform
 ms.prod: windows
 ms.technology: windows-sdk

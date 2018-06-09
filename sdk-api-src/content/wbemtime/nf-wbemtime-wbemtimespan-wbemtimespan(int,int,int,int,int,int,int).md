@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_.htm
 old-project: WmiSdk
 ms.assetid: b1bd1421-81f6-478a-8ec3-dfacdac3c85f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_"
 ms.prod: windows
 ms.technology: windows-sdk

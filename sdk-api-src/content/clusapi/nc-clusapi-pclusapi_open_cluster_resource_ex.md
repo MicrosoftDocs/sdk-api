@@ -7,7 +7,7 @@ old-location: mscs\openclusterresourceex.htm
 old-project: MsCS
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX callback, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
 ms.prod: windows
 ms.technology: windows-sdk

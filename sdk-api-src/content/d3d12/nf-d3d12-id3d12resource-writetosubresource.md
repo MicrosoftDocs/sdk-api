@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_writetosubresource.htm
 old-project: direct3d12
 ms.assetid: 8781E2FE-8D82-41F5-B541-A96DA11CA290
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12Resource interface,WriteToSubresource method, ID3D12Resource.WriteToSubresource, ID3D12Resource::WriteToSubresource, WriteToSubresource, WriteToSubresource method, WriteToSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::WriteToSubresource, direct3d12.id3d12resource_writetosubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.

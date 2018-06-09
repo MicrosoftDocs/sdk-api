@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_MoveEndpointByRange.htm
 old-project: WinAuto
 ms.assetid: 16cb22ec-2735-41ab-88d5-78a27246af6e
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],MoveEndpointByRange method, IUIAutomationTextRange.MoveEndpointByRange, IUIAutomationTextRange::MoveEndpointByRange, MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange, uiauto_IUIAutomationTextRange_MoveEndpointByRange, uiautomationclient/IUIAutomationTextRange::MoveEndpointByRange, winauto.uiauto_IUIAutomationTextRange_MoveEndpointByRange
 ms.prod: windows
 ms.technology: windows-sdk

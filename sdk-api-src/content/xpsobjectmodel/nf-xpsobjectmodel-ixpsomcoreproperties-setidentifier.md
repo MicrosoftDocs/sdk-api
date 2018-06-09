@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setidentifier.htm
 old-project: printdocs
 ms.assetid: 8ad5a359-77f6-4b11-9c1c-2e4094be65d0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetIdentifier method, IXpsOMCoreProperties.SetIdentifier, IXpsOMCoreProperties::SetIdentifier, SetIdentifier, SetIdentifier method [XPS Documents and Packaging], SetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setidentifier, xpsobjectmodel/IXpsOMCoreProperties::SetIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

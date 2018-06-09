@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_videorendereractive.htm
 old-project: mstv
 ms.assetid: 0b69abaf-95ab-49b9-9555-a2244224cb5d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRendererActive method, IMSVidCtl.get_VideoRendererActive, IMSVidCtl::get_VideoRendererActive, IMSVidCtlget_VideoRendererActive, get_VideoRendererActive, get_VideoRendererActive method [Microsoft TV Technologies], get_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorendereractive, msvidctl/IMSVidCtl::get_VideoRendererActive
 ms.prod: windows
 ms.technology: windows-sdk

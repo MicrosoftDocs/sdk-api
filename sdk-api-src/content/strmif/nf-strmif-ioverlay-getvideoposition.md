@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_getvideoposition.htm
 old-project: DirectShow
 ms.assetid: a140cc63-29a1-4c81-8393-7f4342c7b7cc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetVideoPosition method, IOverlay.GetVideoPosition, IOverlay::GetVideoPosition, IOverlayGetVideoPosition, dshow.ioverlay_getvideoposition, strmif/IOverlay::GetVideoPosition
 ms.prod: windows
 ms.technology: windows-sdk

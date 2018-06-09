@@ -7,7 +7,7 @@ old-location: shell\StrStrNIW.htm
 old-project: shell
 ms.assetid: 743f74f6-a0a6-4c03-b3bf-7f819bbc665f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: StrStrNIW, StrStrNIW function [Windows Shell], _shell_StrStrNIW, shell.StrStrNIW, shlwapi/StrStrNIW
 ms.prod: windows
 ms.technology: windows-sdk

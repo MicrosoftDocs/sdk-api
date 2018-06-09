@@ -7,7 +7,7 @@ old-location: wmi\iwbempath_getkeylist.htm
 old-project: WmiSdk
 ms.assetid: bf62727f-6ce7-4c7a-b757-c36d8cf64652
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetKeyList, GetKeyList method [Windows Management Instrumentation], GetKeyList method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetKeyList method, IWbemPath.GetKeyList, IWbemPath::GetKeyList, _hmm_iwbempath_getkeylist, wmi.iwbempath_getkeylist, wmiutils/IWbemPath::GetKeyList
 ms.prod: windows
 ms.technology: windows-sdk

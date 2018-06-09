@@ -7,7 +7,7 @@ old-location: security\bcryptsetproperty_func.htm
 old-project: SecCNG
 ms.assetid: 687f3410-d28b-4ce2-a2a1-c564f757c668
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptSetProperty, BCryptSetProperty function [Security], bcrypt/BCryptSetProperty, security.bcryptsetproperty_func
 ms.prod: windows
 ms.technology: windows-sdk

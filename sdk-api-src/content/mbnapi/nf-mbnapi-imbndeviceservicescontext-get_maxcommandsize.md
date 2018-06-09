@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicescontext_maxcommandsize.htm
 old-project: mbn
 ms.assetid: FCCE3CA1-ECD2-4964-952F-D4A077959519
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxCommandSize property, IMbnDeviceServicesContext.MaxCommandSize, IMbnDeviceServicesContext.get_MaxCommandSize, IMbnDeviceServicesContext::MaxCommandSize, IMbnDeviceServicesContext::get_MaxCommandSize, MaxCommandSize property [Microsoft Broadband Networks], MaxCommandSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxCommandSize, mbn.imbndeviceservicescontext_maxcommandsize, mbnapi/IMbnDeviceServicesContext::MaxCommandSize, mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\chstring_chstring_wchar_int_.htm
 old-project: WmiSdk
 ms.assetid: 2b0afbc0-3ce0-4bcc-8ad1-e3b546d3b0dd
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "??0CHString@@QAE@GH@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(WCHAR,int), CHString::CHString, CHString::CHString(WCHAR,int), chstring/CHString::CHString, wmi.chstring_chstring_wchar_int_"
 ms.prod: windows
 ms.technology: windows-sdk

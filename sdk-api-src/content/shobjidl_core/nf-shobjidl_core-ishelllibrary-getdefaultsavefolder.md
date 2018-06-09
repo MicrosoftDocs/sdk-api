@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_GetDefaultSaveFolder.htm
 old-project: shell
 ms.assetid: 4bc501b1-2fc4-49ce-a16b-e254a3a40f46
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetDefaultSaveFolder, GetDefaultSaveFolder method [Windows Shell], GetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetDefaultSaveFolder method, IShellLibrary.GetDefaultSaveFolder, IShellLibrary::GetDefaultSaveFolder, _shell_IShellLibrary_GetDefaultSaveFolder, shell.IShellLibrary_GetDefaultSaveFolder, shobjidl_core/IShellLibrary::GetDefaultSaveFolder
 ms.prod: windows
 ms.technology: windows-sdk

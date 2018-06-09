@@ -7,7 +7,7 @@ old-location: multimedia\timeendperiod.htm
 old-project: Multimedia
 ms.assetid: b06531f9-4fd7-4051-80d4-5a175fdd37e7
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: "_win32_timeEndPeriod, mmsystem/timeEndPeriod, multimedia.timeendperiod, timeEndPeriod, timeEndPeriod function [Windows Multimedia], timeapi/timeEndPeriod"
 ms.prod: windows
 ms.technology: windows-sdk

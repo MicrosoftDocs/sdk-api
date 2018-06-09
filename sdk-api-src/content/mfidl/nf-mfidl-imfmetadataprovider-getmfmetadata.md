@@ -7,7 +7,7 @@ old-location: mf\imfmetadataprovider_getmfmetadata.htm
 old-project: medfound
 ms.assetid: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca, GetMFMetadata, GetMFMetadata method [Media Foundation], GetMFMetadata method [Media Foundation],IMFMetadataProvider interface, IMFMetadataProvider interface [Media Foundation],GetMFMetadata method, IMFMetadataProvider.GetMFMetadata, IMFMetadataProvider::GetMFMetadata, mf.imfmetadataprovider_getmfmetadata, mfidl/IMFMetadataProvider::GetMFMetadata
 ms.prod: windows
 ms.technology: windows-sdk

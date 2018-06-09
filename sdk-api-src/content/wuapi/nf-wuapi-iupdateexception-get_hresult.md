@@ -7,7 +7,7 @@ old-location: wua\iupdateexception_hresult.htm
 old-project: Wua_Sdk
 ms.assetid: 122c7945-c75d-4205-8df6-3136d388baee
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],HResult property, IUpdateException.HResult, IUpdateException.get_HResult, IUpdateException::HResult, IUpdateException::get_HResult, get_HResult, wua.iupdateexception_hresult, wuapi/IUpdateException::HResult, wuapi/IUpdateException::get_HResult
 ms.prod: windows
 ms.technology: windows-sdk

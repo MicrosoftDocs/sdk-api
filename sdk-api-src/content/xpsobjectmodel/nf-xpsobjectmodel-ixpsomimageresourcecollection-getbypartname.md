@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresourcecollection_getbypartname.htm
 old-project: printdocs
 ms.assetid: 559461b4-49c1-4dd9-a370-05bfc71b4f36
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMImageResourceCollection.GetByPartName, IXpsOMImageResourceCollection::GetByPartName, xps.ixpsomimageresourcecollection_getbypartname, xpsobjectmodel/IXpsOMImageResourceCollection::GetByPartName
 ms.prod: windows
 ms.technology: windows-sdk

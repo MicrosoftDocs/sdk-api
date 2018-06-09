@@ -7,7 +7,7 @@ old-location: security\tokenbindinggeneratemessage.htm
 old-project: SecCNG
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
 ms.prod: windows
 ms.technology: windows-sdk

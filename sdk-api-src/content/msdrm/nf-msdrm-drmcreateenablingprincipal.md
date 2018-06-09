@@ -89,7 +89,7 @@ A pointer to a <a href="https://msdn.microsoft.com/8b7f22e0-586e-4950-94fe-868b3
 
 ### -param wszCredentials [in]
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://www.bing.com/search?q=rights+account+certificate">rights account certificate</a> of the current user.
+A pointer to a null-terminated Unicode string that contains the <a href="r_gly.htm">rights account certificate</a> of the current user.
 
 
 ### -param phEnablingPrincipal

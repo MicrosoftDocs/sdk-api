@@ -7,7 +7,7 @@ old-location: shell\IEnumObjects_Clone.htm
 old-project: shell
 ms.assetid: 17dd1539-cf98-4cbf-8c06-4e21123f6f54
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumObjects interface, IEnumObjects interface [Windows Shell],Clone method, IEnumObjects.Clone, IEnumObjects::Clone, _shell_IEnumObjects_Clone, shell.IEnumObjects_Clone, shobjidl_core/IEnumObjects::Clone
 ms.prod: windows
 ms.technology: windows-sdk

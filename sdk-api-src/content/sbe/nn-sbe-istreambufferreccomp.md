@@ -7,7 +7,7 @@ old-location: mstv\istreambufferreccomp.htm
 old-project: mstv
 ms.assetid: 2998d606-d5ee-4dc3-a4da-57c597c6b594
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], IStreamBufferRecComp interface [Microsoft TV Technologies],described, IStreamBufferRecCompInterface, mstv.istreambufferreccomp, sbe/IStreamBufferRecComp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 00df3bb9-494b-4e2c-b836-4893fd6eff8c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbCAContractInformationDescriptor.GetCountOfRecords, IIsdbCAContractInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCountOfRecords, mstv.iisdbcacontractinformationdescriptor_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

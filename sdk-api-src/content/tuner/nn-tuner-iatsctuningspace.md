@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace.htm
 old-project: mstv
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies],described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

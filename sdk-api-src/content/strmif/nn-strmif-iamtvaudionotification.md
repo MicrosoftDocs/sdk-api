@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudionotification.htm
 old-project: DirectShow
 ms.assetid: 4f84586f-7384-4dd7-99ce-325fb609daae
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMTVAudioNotification, IAMTVAudioNotification interface [DirectShow], IAMTVAudioNotification interface [DirectShow],described, IAMTVAudioNotificationInterface, dshow.iamtvaudionotification, strmif/IAMTVAudioNotification
 ms.prod: windows
 ms.technology: windows-sdk

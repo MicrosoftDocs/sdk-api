@@ -7,7 +7,7 @@ old-location: mstv\idvbmultilingualservicenamedescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: c157e520-696f-45d8-8e43-0e6845882404
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbMultilingualServiceNameDescriptor.GetCountOfRecords, IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, mstv.idvbmultilingualservicenamedescriptor_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

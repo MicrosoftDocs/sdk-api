@@ -7,7 +7,7 @@ old-location: wua\iupdatecollection_clear.htm
 old-project: Wua_Sdk
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
 ms.prod: windows
 ms.technology: windows-sdk

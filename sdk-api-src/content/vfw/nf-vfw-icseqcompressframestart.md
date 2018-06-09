@@ -7,7 +7,7 @@ old-location: multimedia\icseqcompressframestart.htm
 old-project: Multimedia
 ms.assetid: 90103468-fcdc-4c40-b328-29fe467b9039
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICSeqCompressFrameStart, ICSeqCompressFrameStart function [Windows Multimedia], _win32_ICSeqCompressFrameStart, multimedia.icseqcompressframestart, vfw/ICSeqCompressFrameStart
 ms.prod: windows
 ms.technology: windows-sdk

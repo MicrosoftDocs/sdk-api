@@ -7,7 +7,7 @@ old-location: termserv\iworkspacereportmessage.htm
 old-project: TermServ
 ms.assetid: 841fce89-2996-42eb-81fc-7d6f8f864398
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], IWorkspaceReportMessage interface [Remote Desktop Services],described, termserv.iworkspacereportmessage, workspaceruntime/IWorkspaceReportMessage
 ms.prod: windows
 ms.technology: windows-sdk

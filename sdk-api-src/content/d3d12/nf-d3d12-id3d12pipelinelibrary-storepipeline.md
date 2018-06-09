@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_storepipeline.htm
 old-project: direct3d12
 ms.assetid: A7847966-4B31-47EA-A5CB-B6576CD2501F
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12PipelineLibrary interface,StorePipeline method, ID3D12PipelineLibrary.StorePipeline, ID3D12PipelineLibrary::StorePipeline, StorePipeline, StorePipeline method, StorePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::StorePipeline, direct3d12.id3d12pipelinelibrary_storepipeline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Specifies the <a href="https://msdn.microsoft.com/DD922194-8AD2-4ADF-9AC2-46C903
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the name already exists, E_OUTOFMEMORY if unable to allocate storage in the library. 
 

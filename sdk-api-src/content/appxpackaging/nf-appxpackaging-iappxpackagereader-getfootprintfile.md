@@ -106,7 +106,7 @@ The <i>type</i> parameter is not a member of the <a href="https://msdn.microsoft
 The package does not contain a footprint file of the specified type.
 
 
-<a href="https://msdn.microsoft.com/8CCF9135-308F-4BDC-A67F-1E3ED2ACF565">GetFootprintFile</a> can return this error for <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_footprint_file_type">APPX_FOOTPRINT_FILE_TYPE_SIGNATURE</a> and <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_footprint_file_type">APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY</a> types.
+<a href="https://msdn.microsoft.com/8CCF9135-308F-4BDC-A67F-1E3ED2ACF565">GetFootprintFile</a> can return this error for <a href="appx_footprint_file_type.htm">APPX_FOOTPRINT_FILE_TYPE_SIGNATURE</a> and <a href="appx_footprint_file_type.htm">APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY</a> types.
 
 </td>
 </tr>

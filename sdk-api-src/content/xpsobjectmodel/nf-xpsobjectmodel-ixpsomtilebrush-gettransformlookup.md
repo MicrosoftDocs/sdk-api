@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_gettransformlookup.htm
 old-project: printdocs
 ms.assetid: bebed09b-7af7-4da1-aaa3-e8e2a45f2717
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMTileBrush.GetTransformLookup, IXpsOMTileBrush::GetTransformLookup, xps.ixpsomtilebrush_gettransformlookup, xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,7 +151,7 @@ The method succeeded.
 
 The transform determines how the output area is transformed before the brush image is rendered in the path, stroke, or glyph that is using the tile brush.
 
-This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>key</i>.  If <i>key</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_isusingfastcache.htm
 old-project: wmformat
 ms.assetid: 29d8d12c-db4c-4c2c-8747-30c8a5577f43
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],IsUsingFastCache method, IWMReaderAdvanced4.IsUsingFastCache, IWMReaderAdvanced4::IsUsingFastCache, IWMReaderAdvanced4IsUsingFastCache, IsUsingFastCache, IsUsingFastCache method [windows Media Format], IsUsingFastCache method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_isusingfastcache, wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache
 ms.prod: windows
 ms.technology: windows-sdk

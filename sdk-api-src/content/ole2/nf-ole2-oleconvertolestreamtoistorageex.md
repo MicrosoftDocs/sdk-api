@@ -7,7 +7,7 @@ old-location: stg\oleconvertolestreamtoistorageex.htm
 old-project: Stg
 ms.assetid: 2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: OleConvertOLESTREAMToIStorageEx, OleConvertOLESTREAMToIStorageEx function [Structured Storage], _stg_oleconvertolestreamtoistorageex, ole2/OleConvertOLESTREAMToIStorageEx, stg.oleconvertolestreamtoistorageex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Pointer to where the size in bytes of the converted data is returned.
 ### -param pmedium [out]
 
 Pointer to where the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure for the converted serialized data is returned.
+<a href="_ole_stgmedium">STGMEDIUM</a> structure for the converted serialized data is returned.
 
 
 #### - lpolestm [in]
@@ -128,7 +128,7 @@ This function differs from the
 Since this function can specify which presentation data to convert, it can be used by applications that do not use OLE's default caching resources but do use the conversion resources.
 
 The <b>tymed</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> can only be TYMED_NULL or TYMED_ISTREAM. If it is TYMED_NULL, the data will be returned in a global handle through the <b>hGlobal</b> member of <b>STGMEDIUM</b>, otherwise data will be written into the <b>pstm</b> member of this structure.
+<a href="_ole_stgmedium">STGMEDIUM</a> can only be TYMED_NULL or TYMED_ISTREAM. If it is TYMED_NULL, the data will be returned in a global handle through the <b>hGlobal</b> member of <b>STGMEDIUM</b>, otherwise data will be written into the <b>pstm</b> member of this structure.
 
 
 
@@ -138,7 +138,7 @@ The <b>tymed</b> member of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
+<a href="_com_coisole1class">CoIsOle1Class</a>
 
 
 
@@ -154,11 +154,11 @@ The <b>tymed</b> member of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a>
+<a href="_ole_stgmedium">STGMEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagtymed">TYMED</a>
+<a href="_ole_tymed">TYMED</a>
  
 
  

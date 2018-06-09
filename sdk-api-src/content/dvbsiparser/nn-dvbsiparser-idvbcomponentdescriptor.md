@@ -7,7 +7,7 @@ old-location: mstv\idvbcomponentdescriptor.htm
 old-project: mstv
 ms.assetid: 0dee15ee-5b36-4454-8092-6b57ef5063ce
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], IDvbComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbComponentDescriptor, mstv.idvbcomponentdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

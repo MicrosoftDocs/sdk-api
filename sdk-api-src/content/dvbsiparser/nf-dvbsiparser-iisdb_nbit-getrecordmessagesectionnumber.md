@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordmessagesectionnumber.htm
 old-project: mstv
 ms.assetid: 3bfab381-f5af-4583-b268-72c83f3bfb8d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordMessageSectionNumber, GetRecordMessageSectionNumber method [Microsoft TV Technologies], GetRecordMessageSectionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordMessageSectionNumber method, IISDB_NBIT.GetRecordMessageSectionNumber, IISDB_NBIT::GetRecordMessageSectionNumber, dvbsiparser/IISDB_NBIT::GetRecordMessageSectionNumber, mstv.iisdb_nbit_getrecordmessagesectionnumber
 ms.prod: windows
 ms.technology: windows-sdk

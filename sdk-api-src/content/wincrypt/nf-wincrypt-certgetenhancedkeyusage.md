@@ -7,7 +7,7 @@ old-location: security\certgetenhancedkeyusage.htm
 old-project: SecCrypto
 ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG, CERT_FIND_PROP_ONLY_ENHKEY_USAGE_FLAG, CertGetEnhancedKeyUsage, CertGetEnhancedKeyUsage function [Security], _crypto2_certgetenhancedkeyusage, security.certgetenhancedkeyusage, wincrypt/CertGetEnhancedKeyUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,7 +157,7 @@ If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid fo
 
 
 
-<a href="https://www.bing.com/search?q=Enhanced+Key+Usage+Functions">Enhanced Key Usage Functions</a>
+<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
  
 
  

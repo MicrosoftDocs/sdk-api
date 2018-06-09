@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_getrecordinformationid.htm
 old-project: mstv
 ms.assetid: 9535d587-3e37-4d12-9b96-66ff1c2cf6f3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordInformationId, GetRecordInformationId method [Microsoft TV Technologies], GetRecordInformationId method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordInformationId method, IISDB_NBIT.GetRecordInformationId, IISDB_NBIT::GetRecordInformationId, dvbsiparser/IISDB_NBIT::GetRecordInformationId, mstv.iisdb_nbit_getrecordinformationid
 ms.prod: windows
 ms.technology: windows-sdk

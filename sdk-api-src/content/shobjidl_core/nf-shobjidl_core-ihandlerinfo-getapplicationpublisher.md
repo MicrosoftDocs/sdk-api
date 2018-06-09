@@ -7,7 +7,7 @@ old-location: shell\IHandlerInfo_GetApplicationPublisher.htm
 old-project: shell
 ms.assetid: d5e22afa-69eb-4cf5-98b0-f46e25fb136e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetApplicationPublisher, GetApplicationPublisher method [Windows Shell], GetApplicationPublisher method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationPublisher method, IHandlerInfo.GetApplicationPublisher, IHandlerInfo::GetApplicationPublisher, shell.IHandlerInfo_GetApplicationPublisher, shobjidl_core/IHandlerInfo::GetApplicationPublisher
 ms.prod: windows
 ms.technology: windows-sdk

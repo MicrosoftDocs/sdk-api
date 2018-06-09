@@ -7,7 +7,7 @@ old-location: security\crypthashdata.htm
 old-project: SecCrypto
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -275,7 +275,7 @@ The CSP ran out of memory during the operation.
 
 
 
-<a href="https://www.bing.com/search?q=Hash+and+Digital+Signature+Functions">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

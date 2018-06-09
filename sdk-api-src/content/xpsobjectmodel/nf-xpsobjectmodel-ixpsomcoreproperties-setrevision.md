@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setrevision.htm
 old-project: printdocs
 ms.assetid: 7e2ef3b4-64dd-402e-a282-0ed01e588337
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetRevision method, IXpsOMCoreProperties.SetRevision, IXpsOMCoreProperties::SetRevision, SetRevision, SetRevision method [XPS Documents and Packaging], SetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setrevision, xpsobjectmodel/IXpsOMCoreProperties::SetRevision
 ms.prod: windows
 ms.technology: windows-sdk

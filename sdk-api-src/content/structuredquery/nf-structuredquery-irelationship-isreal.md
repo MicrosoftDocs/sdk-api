@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_IsReal.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
 ms.prod: windows
 ms.technology: windows-sdk

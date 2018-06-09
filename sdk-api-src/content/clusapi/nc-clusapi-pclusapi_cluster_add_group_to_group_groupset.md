@@ -7,7 +7,7 @@ old-location: mscs\clusteraddgrouptogroupcollection.htm
 old-project: MsCS
 ms.assetid: f201dfaa-d9e6-41e0-8d22-23c073b1789d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET callback, PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, mscs.clusteraddgrouptogroupcollection
 ms.prod: windows
 ms.technology: windows-sdk

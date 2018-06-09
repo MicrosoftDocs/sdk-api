@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientbrush_getgradientstops.htm
 old-project: printdocs
 ms.assetid: 1b308323-12d4-427c-a3d8-fcf5488e1dde
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetGradientStops, GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetGradientStops method, IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
 ms.prod: windows
 ms.technology: windows-sdk

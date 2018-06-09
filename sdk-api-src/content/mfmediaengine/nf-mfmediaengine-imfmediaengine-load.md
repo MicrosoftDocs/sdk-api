@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_load.htm
 old-project: medfound
 ms.assetid: 5ACE8143-DC14-495C-A644-A2076FB1980F
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

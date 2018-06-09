@@ -7,7 +7,7 @@ old-location: mstv\idvbservicelistdescriptor_getrecordservicetype.htm
 old-project: mstv
 ms.assetid: c9771d79-7f39-463a-aa20-d5377bbba610
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetRecordServiceType method, IDvbServiceListDescriptor.GetRecordServiceType, IDvbServiceListDescriptor::GetRecordServiceType, dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType, mstv.idvbservicelistdescriptor_getrecordservicetype
 ms.prod: windows
 ms.technology: windows-sdk

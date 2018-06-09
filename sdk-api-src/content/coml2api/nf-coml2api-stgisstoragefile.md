@@ -7,7 +7,7 @@ old-location: stg\stgisstoragefile.htm
 old-project: Stg
 ms.assetid: 6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgIsStorageFile, StgIsStorageFile function [Structured Storage], _stg_stgisstoragefile, coml2api/StgIsStorageFile, stg.stgisstoragefile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,8 @@ Pointer to the null-terminated Unicode string name of the disk file to be examin
 
 
 <b>StgIsStorageFile</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>
 
 
 

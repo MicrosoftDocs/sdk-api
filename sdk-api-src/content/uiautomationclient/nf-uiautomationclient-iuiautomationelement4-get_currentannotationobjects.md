@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationObjects.htm
 old-project: WinAuto
 ms.assetid: 504EB3B3-0241-4164-B775-F2D727D6B5B1
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: CurrentAnnotationObjects property [Windows Accessibility], CurrentAnnotationObjects property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationObjects property, IUIAutomationElement4.CurrentAnnotationObjects, IUIAutomationElement4.get_CurrentAnnotationObjects, IUIAutomationElement4::CurrentAnnotationObjects, IUIAutomationElement4::get_CurrentAnnotationObjects, get_CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://www.bing.com/search?q=CachedAnnotationObjects">CachedAnnotationObjects</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CachedAnnotationObjects">CachedAnnotationObjects</a>
 
 
 
-<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4.md">IUIAutomationElement4</a>
+<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
  
 
  

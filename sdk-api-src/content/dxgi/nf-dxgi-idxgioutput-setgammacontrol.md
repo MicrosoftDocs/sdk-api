@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_setgammacontrol.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setgammacontrol.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: 1363de75-ecbe-4dfc-a09c-6cb809f2a5cf, IDXGIOutput interface [DXGI],SetGammaControl method, IDXGIOutput.SetGammaControl, IDXGIOutput::SetGammaControl, SetGammaControl, SetGammaControl method [DXGI], SetGammaControl method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_setgammacontrol, dxgi/IDXGIOutput::SetGammaControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A pointer to a <a href="https://msdn.microsoft.com/1c215306-f278-4843-8411-eb7e4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 

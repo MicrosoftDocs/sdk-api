@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_getunicodestring.htm
 old-project: printdocs
 ms.assetid: 48190202-2ab4-44ad-98e0-a69e9b48576f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphsEditor.GetUnicodeString, IXpsOMGlyphsEditor::GetUnicodeString, xps.ixpsomglyphseditor_getunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>unicodeString</i>.  If <i>unicodeString</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>unicodeString</i>.  If <i>unicodeString</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

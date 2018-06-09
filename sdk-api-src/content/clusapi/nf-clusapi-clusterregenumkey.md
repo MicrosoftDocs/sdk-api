@@ -7,7 +7,7 @@ old-location: mscs\clusterregenumkey.htm
 old-project: MsCS
 ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbtunerequest_put_tsid.htm
 old-project: mstv
 ms.assetid: f72dce85-3584-40bc-ae7a-69c9914c13b9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_TSID method, IDVBTuneRequest.put_TSID, IDVBTuneRequest::put_TSID, IDVBTuneRequestput_TSID, mstv.idvbtunerequest_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_TSID
 ms.prod: windows
 ms.technology: windows-sdk

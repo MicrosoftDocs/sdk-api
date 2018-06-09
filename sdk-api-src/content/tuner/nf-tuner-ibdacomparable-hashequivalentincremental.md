@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable_hashequivalentincremental.htm
 old-project: mstv
 ms.assetid: 8e5fcaf0-f160-4cff-9e9d-44766e0545c9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: HashEquivalentIncremental, HashEquivalentIncremental method [Microsoft TV Technologies], HashEquivalentIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalentIncremental method, IBDAComparable.HashEquivalentIncremental, IBDAComparable::HashEquivalentIncremental, IBDAComparableHashEquivalentIncremental, mstv.ibdacomparable_hashequivalentincremental, tuner/IBDAComparable::HashEquivalentIncremental
 ms.prod: windows
 ms.technology: windows-sdk

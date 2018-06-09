@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_serviceenabled.htm
 old-project: Wua_Sdk
 ms.assetid: 6d07ed15-f891-47c4-b4a6-2e57207dbdb3
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ServiceEnabled property, IAutomaticUpdates.ServiceEnabled, IAutomaticUpdates.get_ServiceEnabled, IAutomaticUpdates::ServiceEnabled, IAutomaticUpdates::get_ServiceEnabled, ServiceEnabled property [Windows Update Agent], ServiceEnabled property [Windows Update Agent],IAutomaticUpdates interface, get_ServiceEnabled, wua.iautomaticupdates_serviceenabled, wuapi/IAutomaticUpdates::ServiceEnabled, wuapi/IAutomaticUpdates::get_ServiceEnabled
 ms.prod: windows
 ms.technology: windows-sdk

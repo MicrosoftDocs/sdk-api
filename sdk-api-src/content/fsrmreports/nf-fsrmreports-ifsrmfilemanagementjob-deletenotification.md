@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_deletenotification.htm
 old-project: Fsrm
 ms.assetid: d21e289a-5062-4897-9479-3408589db11f
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: DeleteNotification, DeleteNotification method [File Server Resource Manager], DeleteNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DeleteNotification method, IFsrmFileManagementJob.DeleteNotification, IFsrmFileManagementJob::DeleteNotification, fs.ifsrmfilemanagementjob_deletenotification, fsrm.ifsrmfilemanagementjob_deletenotification, fsrmreports/IFsrmFileManagementJob::DeleteNotification
 ms.prod: windows
 ms.technology: windows-sdk

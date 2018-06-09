@@ -7,7 +7,7 @@ old-location: shell\SHRegQueryInfoUSKey.htm
 old-project: shell
 ms.assetid: e47b4fad-50c7-43d7-82f2-6a835ac543f0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHRegQueryInfoUSKey, SHRegQueryInfoUSKey function [Windows Shell], SHRegQueryInfoUSKeyA, SHRegQueryInfoUSKeyW, _win32_SHRegQueryInfoUSKey, shell.SHRegQueryInfoUSKey, shlwapi/SHRegQueryInfoUSKey, shlwapi/SHRegQueryInfoUSKeyA, shlwapi/SHRegQueryInfoUSKeyW
 ms.prod: windows
 ms.technology: windows-sdk

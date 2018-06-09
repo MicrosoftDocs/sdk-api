@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_HasChildScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\haschildscoperule.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: HasChildScopeRule, HasChildScopeRule method [search], HasChildScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],HasChildScopeRule method, ISearchCrawlScopeManager.HasChildScopeRule, ISearchCrawlScopeManager::HasChildScopeRule, _search_ISearchCrawlScopeManager_HasChildScopeRule, search._search_ISearchCrawlScopeManager_HasChildScopeRule, searchapi/ISearchCrawlScopeManager::HasChildScopeRule
 ms.prod: windows
 ms.technology: windows-sdk

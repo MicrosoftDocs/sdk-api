@@ -7,7 +7,7 @@ old-location: mscs\clusterregdeletevalue.htm
 old-project: MsCS
 ms.assetid: 81d2936e-6f2c-48d9-b898-c1d8b2c946e6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterRegDeleteValue, ClusterRegDeleteValue function [Failover Cluster], _wolf_clusterregdeletevalue, clusapi/ClusterRegDeleteValue, mscs.clusterregdeletevalue
 ms.prod: windows
 ms.technology: windows-sdk

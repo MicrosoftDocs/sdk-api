@@ -7,7 +7,7 @@ old-location: mf\mfcreatedevicesourceactivate.htm
 old-project: medfound
 ms.assetid: c52cb35a-8f5b-479e-9c08-3185c9a561f2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateDeviceSourceActivate, MFCreateDeviceSourceActivate function [Media Foundation], mf.mfcreatedevicesourceactivate, mfidl/MFCreateDeviceSourceActivate
 ms.prod: windows
 ms.technology: windows-sdk

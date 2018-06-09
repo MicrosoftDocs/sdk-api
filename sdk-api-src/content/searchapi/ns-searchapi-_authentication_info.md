@@ -7,7 +7,7 @@ old-location: search\_search_AUTHENTICATION_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _AUTHENTICATION_INFO, _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
 ms.prod: windows
 ms.technology: windows-sdk

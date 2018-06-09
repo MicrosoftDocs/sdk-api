@@ -7,7 +7,7 @@ old-location: mscs\isfileonclustersharedvolume.htm
 old-project: MsCS
 ms.assetid: BEE71433-3408-47AA-A7EB-5E212ABC1023
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME callback, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME callback function [Failover Cluster], clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, mscs.isfileonclustersharedvolume
 ms.prod: windows
 ms.technology: windows-sdk

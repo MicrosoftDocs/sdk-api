@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: a802c685-9d7a-446a-a29c-4fc3e9ad3dc4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbTeletextDescriptor.GetCountOfRecords, IDvbTeletextDescriptor::GetCountOfRecords, dvbsiparser/IDvbTeletextDescriptor::GetCountOfRecords, mstv.idvbteletextdescriptor_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

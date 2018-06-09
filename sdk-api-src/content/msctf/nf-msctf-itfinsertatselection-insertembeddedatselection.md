@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a> object at the selection or insertion point.
+The <b>ITfInsertAtSelection::InsertEmbeddedAtSelection</b> method inserts an <a href="_ole_idataobject">IDataObject</a> object at the selection or insertion point.
 
 
 ## -parameters
@@ -190,7 +190,7 @@ To insert text instead of an <b>IDataObject</b> object, use the <a href="https:/
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

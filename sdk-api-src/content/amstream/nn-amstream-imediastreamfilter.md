@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter.htm
 old-project: DirectShow
 ms.assetid: 1ac4976b-7088-47ac-9689-58c143746f05
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], IMediaStreamFilter interface [DirectShow],described, IMediaStreamFilterInterface, amstream/IMediaStreamFilter, dshow.imediastreamfilter
 ms.prod: windows
 ms.technology: windows-sdk

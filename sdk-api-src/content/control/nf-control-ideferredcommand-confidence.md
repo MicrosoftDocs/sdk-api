@@ -7,7 +7,7 @@ old-location: dshow\ideferredcommand_confidence.htm
 old-project: DirectShow
 ms.assetid: fb3e97a5-b9bc-4a72-9ee7-0a6292fad99d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: Confidence, Confidence method [DirectShow], Confidence method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],Confidence method, IDeferredCommand.Confidence, IDeferredCommand::Confidence, IDeferredCommandConfidence, control/IDeferredCommand::Confidence, dshow.ideferredcommand_confidence
 ms.prod: windows
 ms.technology: windows-sdk

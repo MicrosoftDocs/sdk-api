@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_put_mode.htm
 old-project: mstv
 ms.assetid: 762f4604-46c9-4c19-9621-5ede52d8f524
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Mode method, IDVBTLocator.put_Mode, IDVBTLocator::put_Mode, IDVBTLocatorput_Mode, mstv.idvbtlocator_put_mode, put_Mode, put_Mode method [Microsoft TV Technologies], put_Mode method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Mode
 ms.prod: windows
 ms.technology: windows-sdk

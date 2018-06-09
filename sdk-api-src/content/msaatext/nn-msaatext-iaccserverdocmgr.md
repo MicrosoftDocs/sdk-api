@@ -7,7 +7,7 @@ old-location: winauto\iaccserverdocmgr.htm
 old-project: WinAuto
 ms.assetid: a69d46b1-26d2-4121-b89a-42c53343d426
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IAccServerDocMgr, IAccServerDocMgr interface [Windows Accessibility], IAccServerDocMgr interface [Windows Accessibility],described, msaa.iaccserverdocmgr, msaatext/IAccServerDocMgr, winauto.iaccserverdocmgr
 ms.prod: windows
 ms.technology: windows-sdk

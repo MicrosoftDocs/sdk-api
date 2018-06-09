@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_info.htm
 old-project: SecCrypto
 ms.assetid: 0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], _CRYPT_XML_KEY_INFO, cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info"
 ms.prod: windows
 ms.technology: windows-sdk

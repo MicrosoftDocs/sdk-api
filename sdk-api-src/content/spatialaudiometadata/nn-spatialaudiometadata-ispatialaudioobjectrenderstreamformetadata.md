@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
 old-project: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\itssbservicenotification_notifyservicefailure.htm
 old-project: TermServ
 ms.assetid: 76e8819f-93d0-4f1b-a573-5b9aeaaae08a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceFailure method, ITsSbServiceNotification.NotifyServiceFailure, ITsSbServiceNotification::NotifyServiceFailure, NotifyServiceFailure, NotifyServiceFailure method [Remote Desktop Services], NotifyServiceFailure method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceFailure, termserv.itssbservicenotification_notifyservicefailure
 ms.prod: windows
 ms.technology: windows-sdk

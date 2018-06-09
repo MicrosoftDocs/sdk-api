@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getreadystate.htm
 old-project: medfound
 ms.assetid: B8C9B600-87FD-4DE6-8794-5C1E41449554
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetReadyState method, IMFMediaEngine.GetReadyState, IMFMediaEngine::GetReadyState, mf.imfmediaengine_getreadystate, mfmediaengine/IMFMediaEngine::GetReadyState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

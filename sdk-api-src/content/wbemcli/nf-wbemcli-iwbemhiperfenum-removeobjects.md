@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfenum_removeobjects.htm
 old-project: WmiSdk
 ms.assetid: a4f25be2-8450-4e4c-ba6a-8d78c1fefca1
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemHiPerfEnum interface [Windows Management Instrumentation],RemoveObjects method, IWbemHiPerfEnum.RemoveObjects, IWbemHiPerfEnum::RemoveObjects, RemoveObjects, RemoveObjects method [Windows Management Instrumentation], RemoveObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, _hmm_iwbemhiperfenum_removeobjects, wbemcli/IWbemHiPerfEnum::RemoveObjects, wmi.iwbemhiperfenum_removeobjects
 ms.prod: windows
 ms.technology: windows-sdk

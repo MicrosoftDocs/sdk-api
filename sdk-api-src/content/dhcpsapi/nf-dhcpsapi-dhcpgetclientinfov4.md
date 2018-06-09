@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclientinfov4.htm
 old-project: DHCP
 ms.assetid: 3f8b9cbb-f903-4a97-8a38-caf2210b6d48
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpGetClientInfoV4, DhcpGetClientInfoV4 function [DHCP], dhcp.dhcpgetclientinfov4, dhcpsapi/DhcpGetClientInfoV4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\bcryptcreatemultihash.htm
 old-project: SecCNG
 ms.assetid: AAF91460-AEFB-4E16-91EA-4A60272B3839
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
 ms.prod: windows
 ms.technology: windows-sdk

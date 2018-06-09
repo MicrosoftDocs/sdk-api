@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeleteclassv6.htm
 old-project: DHCP
 ms.assetid: b818ed6f-16a3-4259-be40-001875809c78
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpDeleteClassV6, DhcpDeleteClassV6 function [DHCP], dhcp.dhcpdeleteclassv6, dhcpsapi/DhcpDeleteClassV6
 ms.prod: windows
 ms.technology: windows-sdk

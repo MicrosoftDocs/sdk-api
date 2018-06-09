@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduledefinition_moduletype.htm
 old-project: Fsrm
 ms.assetid: 8cf3069d-8ad1-455b-baea-29c30cef1672
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],ModuleType property, IFsrmPipelineModuleDefinition.ModuleType, IFsrmPipelineModuleDefinition.get_ModuleType, IFsrmPipelineModuleDefinition::ModuleType, IFsrmPipelineModuleDefinition::get_ModuleType, ModuleType property [File Server Resource Manager], ModuleType property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_moduletype, fsrm.ifsrmpipelinemoduledefinition_moduletype, fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleType, fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleType, get_ModuleType
 ms.prod: windows
 ms.technology: windows-sdk

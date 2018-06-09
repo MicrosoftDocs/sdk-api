@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_CompareEndpointsConPat.htm
 old-project: WinAuto
 ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
 ms.prod: windows
 ms.technology: windows-sdk

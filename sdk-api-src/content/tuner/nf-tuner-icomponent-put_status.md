@@ -7,7 +7,7 @@ old-location: mstv\icomponent_put_status.htm
 old-project: mstv
 ms.assetid: f1f9cf98-69fd-4c54-8023-742f86413220
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Status method, IComponent.put_Status, IComponent::put_Status, IComponentput_Status, mstv.icomponent_put_status, put_Status, put_Status method [Microsoft TV Technologies], put_Status method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Status
 ms.prod: windows
 ms.technology: windows-sdk

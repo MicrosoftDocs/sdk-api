@@ -7,7 +7,7 @@ old-location: security\certstoreprovwritecertcallback.htm
 old-project: SecCrypto
 ms.assetid: 97cc488a-7993-4b48-a4b4-cb13c6168226
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertStoreProvWriteCertCallback, CertStoreProvWriteCertCallback callback, CertStoreProvWriteCertCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], _crypto2_certstoreprovwritecertcallback, security.certstoreprovwritecertcallback, wincrypt/CertStoreProvWriteCertCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ CERT_STORE_PROV_WRITE_ADD_FLAG is set when this function is called by the follow
 
 
 
-<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

@@ -88,7 +88,7 @@ The low 64 bits of the product.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/13684df3-3ac7-467c-b258-a0e93bc490b5">_umu128</a>
+<a href="13684df3-3ac7-467c-b258-a0e93bc490b5">_umu128</a>
  
 
  

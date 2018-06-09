@@ -7,7 +7,7 @@ old-location: shell\SHBindToObject.htm
 old-project: shell
 ms.assetid: acc16097-8301-4118-8cb5-00aa2705306a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHBindToObject, SHBindToObject function [Windows Shell], _shell_SHBindToObject, shell.SHBindToObject, shlobj_core/SHBindToObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbprivatedataspecifierdescriptor_getprivatedataspecifier.ht
 old-project: mstv
 ms.assetid: bb5b7d8a-6699-49b4-8935-8bfd07d85290
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetPrivateDataSpecifier, GetPrivateDataSpecifier method [Microsoft TV Technologies], GetPrivateDataSpecifier method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetPrivateDataSpecifier method, IDvbPrivateDataSpecifierDescriptor.GetPrivateDataSpecifier, IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier, mstv.idvbprivatedataspecifierdescriptor_getprivatedataspecifier
 ms.prod: windows
 ms.technology: windows-sdk

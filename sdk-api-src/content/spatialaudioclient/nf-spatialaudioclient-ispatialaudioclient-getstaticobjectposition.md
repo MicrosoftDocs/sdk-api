@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_getstaticobjectposition.htm
 old-project: CoreAudio
 ms.assetid: F8CD558A-994D-46E0-98A0-1D7AD3B919C0
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetStaticObjectPosition, GetStaticObjectPosition method [Core Audio], GetStaticObjectPosition method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetStaticObjectPosition method, ISpatialAudioClient.GetStaticObjectPosition, ISpatialAudioClient::GetStaticObjectPosition, coreaudio.ispatialaudioclient_getstaticobjectposition, spatialaudioclient/ISpatialAudioClient::GetStaticObjectPosition
 ms.prod: windows
 ms.technology: windows-sdk

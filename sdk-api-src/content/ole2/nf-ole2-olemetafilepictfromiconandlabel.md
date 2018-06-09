@@ -83,7 +83,7 @@ The location of the icon within the file named by <i>lpszSourceFile</i>, express
 
 
 
-A global handle to a <a href="https://www.bing.com/search?q=METAFILEPICT">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
+A global handle to a <a href="_win32_METAFILEPICT_str_cpp">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
 
 If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to obtain further information. 
 

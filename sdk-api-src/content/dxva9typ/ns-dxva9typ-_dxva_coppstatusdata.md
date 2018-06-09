@@ -7,7 +7,7 @@ old-location: dshow\dxva_coppstatusdata.htm
 old-project: DirectShow
 ms.assetid: 62172141-cda4-4713-8ae2-e1f0c5f3fba8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: DXVA_COPPStatusData, DXVA_COPPStatusData structure [DirectShow], DXVA_COPPStatusDataStructure, _DXVA_COPPStatusData, dshow.dxva_coppstatusdata, dxva9typ/DXVA_COPPStatusData
 ms.prod: windows
 ms.technology: windows-sdk

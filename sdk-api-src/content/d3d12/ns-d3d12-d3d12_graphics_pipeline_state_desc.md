@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_graphics_pipeline_state_desc.htm
 old-project: direct3d12
 ms.assetid: 35D10150-A633-4D38-B684-3E2DF357FFC0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_GRAPHICS_PIPELINE_STATE_DESC, D3D12_GRAPHICS_PIPELINE_STATE_DESC structure, d3d12/D3D12_GRAPHICS_PIPELINE_STATE_DESC, direct3d12.d3d12_graphics_pipeline_state_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -225,7 +225,7 @@ req.irql:
             Whether the linkage between the shader stages is correct.
           </li>
 <li>
-            If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
+            If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="d3d12_primitive_topology_type.htm">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
           </li>
 <li>
             Whether sample frequency execution isn't allowed with the center multi-sample anti-aliasing (MSAA) pattern.

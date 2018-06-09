@@ -7,7 +7,7 @@ old-location: wmi\methodcontext_setstatusobject.htm
 old-project: WmiSdk
 ms.assetid: 5fe1f1af-61a9-490b-95e0-c3a3efe2392d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z, ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z, MethodContext interface [Windows Management Instrumentation],SetStatusObject method, MethodContext.SetStatusObject, MethodContext::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],MethodContext interface, methodco/MethodContext::SetStatusObject, wmi.methodcontext_setstatusobject"
 ms.prod: windows
 ms.technology: windows-sdk

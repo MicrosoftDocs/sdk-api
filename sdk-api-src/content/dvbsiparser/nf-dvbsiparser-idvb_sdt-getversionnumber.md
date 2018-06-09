@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getversionnumber.htm
 old-project: mstv
 ms.assetid: ea39c890-86d5-4eef-8c50-3edfd0d1ec8d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetVersionNumber method, IDVB_SDT.GetVersionNumber, IDVB_SDT::GetVersionNumber, IDVB_SDTGetVersionNumber, dvbsiparser/IDVB_SDT::GetVersionNumber, mstv.idvb_sdt_getversionnumber
 ms.prod: windows
 ms.technology: windows-sdk

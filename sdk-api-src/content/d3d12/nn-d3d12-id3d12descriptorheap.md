@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12descriptorheap.htm
 old-project: direct3d12
 ms.assetid: B6FF011B-3FED-425B-B9D5-A823E6915FD5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
 ms.prod: windows
 ms.technology: windows-sdk

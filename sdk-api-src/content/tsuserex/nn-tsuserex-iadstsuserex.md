@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex.htm
 old-project: TermServ
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], IADsTSUserEx interface [Remote Desktop Services],described, termserv.iadstsuserex, tsuserex/IADsTSUserEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getmediatype.htm
 old-project: medfound
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
 ms.prod: windows
 ms.technology: windows-sdk

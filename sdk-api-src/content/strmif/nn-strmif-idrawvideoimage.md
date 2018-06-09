@@ -7,7 +7,7 @@ old-location: dshow\idrawvideoimage.htm
 old-project: DirectShow
 ms.assetid: ff412213-60e5-43d8-8cb1-e7ae8b3ca1bc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDrawVideoImage, IDrawVideoImage interface [DirectShow], IDrawVideoImage interface [DirectShow],described, IDrawVideoImageInterface, dshow.idrawvideoimage, strmif/IDrawVideoImage
 ms.prod: windows
 ms.technology: windows-sdk

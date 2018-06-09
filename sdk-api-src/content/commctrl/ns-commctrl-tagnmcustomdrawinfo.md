@@ -321,7 +321,7 @@ The item is marked. The meaning of this is determined by the implementation.
 The item is selected.
                     
 
-<div class="alert"><b>Note</b>  This flag does not work correctly for owner-drawn list-view controls that have the <a href="https://www.bing.com/search?q=LVS_SHOWSELALWAYS">LVS_SHOWSELALWAYS</a> style. For these controls, you can determine whether an item is selected by using <a href="https://msdn.microsoft.com/862960ed-a64a-4d66-b384-9228932eae6f">LVM_GETITEMSTATE</a> (or <a href="https://msdn.microsoft.com/82bef643-a0fe-4c87-984e-0ba528a383c4">ListView_GetItemState</a>) and checking for the <b>LVIS_SELECTED</b> flag.</div>
+<div class="alert"><b>Note</b>  This flag does not work correctly for owner-drawn list-view controls that have the <a href="List_view_window_styles.htm">LVS_SHOWSELALWAYS</a> style. For these controls, you can determine whether an item is selected by using <a href="https://msdn.microsoft.com/862960ed-a64a-4d66-b384-9228932eae6f">LVM_GETITEMSTATE</a> (or <a href="https://msdn.microsoft.com/82bef643-a0fe-4c87-984e-0ba528a383c4">ListView_GetItemState</a>) and checking for the <b>LVIS_SELECTED</b> flag.</div>
 <div> </div>
 </td>
 </tr>

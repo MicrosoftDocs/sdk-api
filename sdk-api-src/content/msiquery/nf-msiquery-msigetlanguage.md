@@ -91,7 +91,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

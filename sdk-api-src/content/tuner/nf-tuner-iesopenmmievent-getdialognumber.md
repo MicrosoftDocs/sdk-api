@@ -7,7 +7,7 @@ old-location: mstv\iesopenmmievent_getdialognumber.htm
 old-project: mstv
 ms.assetid: ac96ed00-1b05-4f66-a626-a3e6655a5bb1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetDialogNumber, GetDialogNumber method [Microsoft TV Technologies], GetDialogNumber method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogNumber method, IESOpenMmiEvent.GetDialogNumber, IESOpenMmiEvent::GetDialogNumber, mstv.iesopenmmievent_getdialognumber, tuner/IESOpenMmiEvent::GetDialogNumber
 ms.prod: windows
 ms.technology: windows-sdk

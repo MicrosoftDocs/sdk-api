@@ -7,7 +7,7 @@ old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus.htm
 old-project: WinAuto
 ms.assetid: 305566ed-20c2-42b6-99c8-108e99f9daeb
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],OnDocumentFocus method, IAccServerDocMgr.OnDocumentFocus, IAccServerDocMgr::OnDocumentFocus, OnDocumentFocus, OnDocumentFocus method [Windows Accessibility], OnDocumentFocus method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_OnDocumentFocus, msaa.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus, msaatext/IAccServerDocMgr::OnDocumentFocus, winauto.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus
 ms.prod: windows
 ms.technology: windows-sdk

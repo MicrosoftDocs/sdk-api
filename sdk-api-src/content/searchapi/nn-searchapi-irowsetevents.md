@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetEvents.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\irowsetevents.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IRowsetEvents, IRowsetEvents interface [search], IRowsetEvents interface [search],described, _search_IRowsetEvents, search._search_IRowsetEvents, searchapi/IRowsetEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ Indexer eventing is a new feature for Windows 7 that allows providers to receiv
 
 The <b>IRowsetEvents</b> interface is registered by connection point with an open indexer rowset.
 
-<b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="https://msdn.microsoft.com/library/windows/desktop/1e2f5e85-459e-4588-a6fa-4209d5a667c4">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset eventing.
+<b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="1e2f5e85-459e-4588-a6fa-4209d5a667c4">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset eventing.
 
 
 

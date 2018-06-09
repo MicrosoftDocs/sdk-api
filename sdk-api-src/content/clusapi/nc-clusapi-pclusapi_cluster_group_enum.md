@@ -7,7 +7,7 @@ old-location: mscs\clustergroupenum.htm
 old-project: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM callback, PCLUSAPI_CLUSTER_GROUP_ENUM callback function [Failover Cluster], _wolf_clustergroupenum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
 ms.prod: windows
 ms.technology: windows-sdk

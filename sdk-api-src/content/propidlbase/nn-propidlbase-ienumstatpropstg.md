@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropstg.htm
 old-project: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 ms.prod: windows
 ms.technology: windows-sdk

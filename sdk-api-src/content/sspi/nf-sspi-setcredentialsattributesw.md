@@ -223,7 +223,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

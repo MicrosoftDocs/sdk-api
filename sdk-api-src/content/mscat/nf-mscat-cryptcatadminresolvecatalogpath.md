@@ -7,7 +7,7 @@ old-location: security\cryptcatadminresolvecatalogpath.htm
 old-project: SecCrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptCATAdminResolveCatalogPath, CryptCATAdminResolveCatalogPath function [Security], mscat/CryptCATAdminResolveCatalogPath, security.cryptcatadminresolvecatalogpath
 ms.prod: windows
 ms.technology: windows-sdk

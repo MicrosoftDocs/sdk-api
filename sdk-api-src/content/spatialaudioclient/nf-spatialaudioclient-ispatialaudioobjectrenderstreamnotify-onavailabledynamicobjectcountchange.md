@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstreamnotify_onavailabledynamic
 old-project: CoreAudio
 ms.assetid: BC3F1171-26BC-46D0-8AE2-6BCD2393D617
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify interface [Core Audio],OnAvailableDynamicObjectCountChange method, ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange, ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange, OnAvailableDynamicObjectCountChange method [Core Audio], OnAvailableDynamicObjectCountChange method [Core Audio],ISpatialAudioObjectRenderStreamNotify interface, coreaudio.ispatialaudioobjectrenderstreamnotify_onavailabledynamicobjectcountchange, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
 ms.prod: windows
 ms.technology: windows-sdk

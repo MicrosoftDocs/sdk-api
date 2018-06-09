@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_strokes.htm
 old-project: tablet
 ms.assetid: 57659ad8-b1ca-4da0-94fb-4807a6f9af2f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: IInkRecognitionResult interface [Tablet PC],Strokes property, IInkRecognitionResult.Strokes, IInkRecognitionResult.get_Strokes, IInkRecognitionResult::Strokes, IInkRecognitionResult::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionResult interface, get_Strokes, msinkaut/IInkRecognitionResult::Strokes, msinkaut/IInkRecognitionResult::get_Strokes, tablet.iinkrecognitionresult_strokes
 ms.prod: windows
 ms.technology: windows-sdk

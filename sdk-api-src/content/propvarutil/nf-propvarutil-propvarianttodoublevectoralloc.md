@@ -102,7 +102,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a> to access a double vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToDoubleVector">PropVariantToDoubleVector</a> to access a double vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -146,23 +146,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetDoubleElem">PropVariantGetDoubleElem</a>
+<a href="shell.PropVariantGetDoubleElem">PropVariantGetDoubleElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDouble">PropVariantToDouble</a>
+<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="shell.PropVariantToDoubleVector">PropVariantToDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a>
+<a href="shell.VariantToDoubleArray">VariantToDoubleArray</a>
  
 
  

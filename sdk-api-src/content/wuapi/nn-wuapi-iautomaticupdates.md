@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates.htm
 old-project: Wua_Sdk
 ms.assetid: b5f05e2a-ad60-4d4c-8bdd-1c03df3d508d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], IAutomaticUpdates interface [Windows Update Agent],described, wua.iautomaticupdates, wuapi/IAutomaticUpdates
 ms.prod: windows
 ms.technology: windows-sdk

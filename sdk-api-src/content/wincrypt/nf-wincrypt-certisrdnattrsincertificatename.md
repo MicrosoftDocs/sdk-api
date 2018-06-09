@@ -7,7 +7,7 @@ old-location: security\certisrdnattrsincertificatename.htm
 old-project: SecCrypto
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ Currently, only an exact, case-sensitive match is supported.
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

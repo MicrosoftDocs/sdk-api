@@ -7,7 +7,7 @@ old-location: dshow\iamcameracontrol_set.htm
 old-project: DirectShow
 ms.assetid: d896fb5e-a43b-4cb8-a5d1-4ce6e60831be
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMCameraControl interface [DirectShow],Set method, IAMCameraControl.Set, IAMCameraControl::Set, IAMCameraControlSet, Set, Set method [DirectShow], Set method [DirectShow],IAMCameraControl interface, dshow.iamcameracontrol_set, strmif/IAMCameraControl::Set
 ms.prod: windows
 ms.technology: windows-sdk

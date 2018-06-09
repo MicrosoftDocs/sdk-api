@@ -7,7 +7,7 @@ old-location: mscs\igetclustergroupinfo.htm
 old-project: MsCS
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: IGetClusterGroupInfo, IGetClusterGroupInfo interface [Failover Cluster], IGetClusterGroupInfo interface [Failover Cluster],described, _wolf_igetclustergroupinfo, cluadmex/IGetClusterGroupInfo, mscs.igetclustergroupinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,9 +111,9 @@ If the object being extended is not a group, queries for
 <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
 </li>
 </ul>
-Failover Cluster Administrator passes in an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> 
+Failover Cluster Administrator passes in an <a href="_com_iunknown">IUnknown</a> 
      interface pointer, <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for one of the 
+     <a href="_com_IUnknown_QueryInterface">QueryInterface</a> for one of the 
      <b>IGetClusterGroupInfo</b> methods.
 
 

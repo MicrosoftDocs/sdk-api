@@ -7,7 +7,7 @@ old-location: mscs\clres_v2_function_table_set.htm
 old-project: MsCS
 ms.assetid: DFBCD256-F4E0-4C78-AD4A-54A229B40C5E
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: CLRES_V2_FUNCTION_TABLE_SET, CLRES_V2_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v2_function_table_set, resapi/CLRES_V2_FUNCTION_TABLE_SET
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec.htm
 old-project: mstv
 ms.assetid: c34a3418-2ae5-45a6-9e3b-2bd7cf33d44b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCodec interface [Microsoft TV Technologies],described, IXDSCodecInterface, encdec/IXDSCodec, mstv.ixdscodec
 ms.prod: windows
 ms.technology: windows-sdk

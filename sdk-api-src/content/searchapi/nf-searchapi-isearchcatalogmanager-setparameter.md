@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_SetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setparameter.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchCatalogManager interface [search],SetParameter method, ISearchCatalogManager.SetParameter, ISearchCatalogManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetParameter, search._search_ISearchCatalogManager_SetParameter, searchapi/ISearchCatalogManager::SetParameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param pValue [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 
                     A pointer to the new value for the parameter.

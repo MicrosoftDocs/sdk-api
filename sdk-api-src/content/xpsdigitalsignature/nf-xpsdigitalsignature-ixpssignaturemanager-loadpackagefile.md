@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_loadpackagefile.htm
 old-project: printdocs
 ms.assetid: ecb33eee-4622-4a2e-bc24-7a77d16ef4a4
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageFile method, IXpsSignatureManager.LoadPackageFile, IXpsSignatureManager::LoadPackageFile, LoadPackageFile, LoadPackageFile method [XPS Documents and Packaging], LoadPackageFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagefile, xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
 ms.prod: windows
 ms.technology: windows-sdk

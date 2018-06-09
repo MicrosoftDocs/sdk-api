@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowoutboundpackettoobig.htm
 old-project: ICS
 ms.assetid: 057b2f45-1752-4f6d-a6a6-9871e20cd13a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: AllowOutboundPacketTooBig property [ICS/ICF], AllowOutboundPacketTooBig property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundPacketTooBig property, INetFwIcmpSettings.AllowOutboundPacketTooBig, INetFwIcmpSettings.put_AllowOutboundPacketTooBig, INetFwIcmpSettings::AllowOutboundPacketTooBig, INetFwIcmpSettings::get_AllowOutboundPacketTooBig, INetFwIcmpSettings::put_AllowOutboundPacketTooBig, ics.inetfwicmpsettings_allowoutboundpackettoobig, netfw/INetFwIcmpSettings::AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::get_AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::put_AllowOutboundPacketTooBig, put_AllowOutboundPacketTooBig
 ms.prod: windows
 ms.technology: windows-sdk

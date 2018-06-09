@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport_getcrossoriginpolicy.htm
 old-project: medfound
 ms.assetid: B74FA337-014E-4A5C-83CD-26C563E9BBD4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy
 ms.prod: windows
 ms.technology: windows-sdk

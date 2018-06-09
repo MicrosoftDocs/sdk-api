@@ -7,7 +7,7 @@ old-location: mscs\iwcwizardcallback_enablenext.htm
 old-project: MsCS
 ms.assetid: 6f485ffa-0e94-4443-9c79-991c35a60e97
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],EnableNext method, IWCWizardCallback.EnableNext, IWCWizardCallback::EnableNext, _wolf_iwcwizardcallback_enablenext, cluadmex/IWCWizardCallback::EnableNext, mscs.iwcwizardcallback_enablenext
 ms.prod: windows
 ms.technology: windows-sdk

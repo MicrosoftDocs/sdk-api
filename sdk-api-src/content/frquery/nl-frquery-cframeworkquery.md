@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery.htm
 old-project: WmiSdk
 ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_begininstall.htm
 old-project: Wua_Sdk
 ms.assetid: 756ad613-bc6b-48fb-a079-c192aa98ccfe
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: BeginInstall, BeginInstall method [Windows Update Agent], BeginInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginInstall method, IUpdateInstaller.BeginInstall, IUpdateInstaller::BeginInstall, wua.iupdateinstaller_begininstall, wuapi/IUpdateInstaller::BeginInstall
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand_logresult.htm
 old-project: Fsrm
 ms.assetid: f05751e0-9cd9-4c12-8238-163b1e398b82
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],LogResult property, IFsrmActionCommand.LogResult, IFsrmActionCommand.get_LogResult, IFsrmActionCommand::LogResult, IFsrmActionCommand::get_LogResult, IFsrmActionCommand::put_LogResult, LogResult property [File Server Resource Manager], LogResult property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_logresult, fsrm.ifsrmactioncommand_logresult, fsrm/IFsrmActionCommand::LogResult, fsrm/IFsrmActionCommand::get_LogResult, fsrm/IFsrmActionCommand::put_LogResult, get_LogResult
 ms.prod: windows
 ms.technology: windows-sdk

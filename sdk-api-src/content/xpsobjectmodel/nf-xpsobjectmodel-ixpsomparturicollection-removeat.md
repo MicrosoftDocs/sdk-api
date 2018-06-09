@@ -7,7 +7,7 @@ old-location: xps\ixpsomparturicollection_removeat.htm
 old-project: printdocs
 ms.assetid: db5e7595-eba0-454f-8fb3-f129ab537886
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPartUriCollection.RemoveAt, IXpsOMPartUriCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_removeat, xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

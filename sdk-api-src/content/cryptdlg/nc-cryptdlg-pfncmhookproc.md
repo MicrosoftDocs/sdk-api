@@ -7,7 +7,7 @@ old-location: security\pfncmhookproc.htm
 old-project: SecCrypto
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Return a nonzero value (<b>TRUE</b>) if this function processes the message. Ret
 
 
 
-For information about hooks, see <a href="https://www.bing.com/search?q=Hooks">Hooks</a>.
+For information about hooks, see <a href="_win32_hooks_cpp">Hooks</a>.
 
 
 

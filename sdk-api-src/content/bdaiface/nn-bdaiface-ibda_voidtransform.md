@@ -7,7 +7,7 @@ old-location: mstv\ibda_voidtransform.htm
 old-project: mstv
 ms.assetid: 120638ce-b35f-450e-9675-708495ddd082
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_VoidTransform, IBDA_VoidTransform interface [Microsoft TV Technologies], IBDA_VoidTransform interface [Microsoft TV Technologies],described, IBDA_VoidTransformInterface, bdaiface/IBDA_VoidTransform, mstv.ibda_voidtransform
 ms.prod: windows
 ms.technology: windows-sdk

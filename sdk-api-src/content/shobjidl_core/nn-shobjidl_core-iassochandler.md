@@ -7,7 +7,7 @@ old-location: shell\IAssocHandler.htm
 old-project: shell
 ms.assetid: 5d5a107c-2c0e-4242-8f40-97421937167c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IAssocHandler, IAssocHandler interface [Windows Shell], IAssocHandler interface [Windows Shell],described, _shell_IAssocHandler, shell.IAssocHandler, shobjidl_core/IAssocHandler
 ms.prod: windows
 ms.technology: windows-sdk

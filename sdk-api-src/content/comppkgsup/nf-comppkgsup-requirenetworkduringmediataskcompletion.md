@@ -7,7 +7,7 @@ old-location: winprog\requirenetworkduringmediataskcompletion.htm
 old-project: DevNotes
 ms.assetid: D3A1E926-CC9C-4E5E-B588-A45B2FEE9FAF
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion
 ms.prod: windows
 ms.technology: windows-sdk

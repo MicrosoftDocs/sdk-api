@@ -7,7 +7,7 @@ old-location: stg\remsnb.htm
 old-project: Stg
 ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb, tagRemSNB"
 ms.prod: windows
 ms.technology: windows-sdk

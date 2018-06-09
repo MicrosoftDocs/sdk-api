@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridItemProvider_ContainingGrid.htm
 old-project: WinAuto
 ms.assetid: 760abeea-e432-49e3-a2df-0f6f30b029f0
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: ContainingGrid property [Windows Accessibility], ContainingGrid property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],ContainingGrid property, IGridItemProvider.ContainingGrid, IGridItemProvider.get_ContainingGrid, IGridItemProvider::ContainingGrid, IGridItemProvider::get_ContainingGrid, get_ContainingGrid, uiauto.uiauto_IGridItemProvider_ContainingGrid, uiauto_IGridItemProvider_ContainingGrid, uiautomationcore/IGridItemProvider::ContainingGrid, uiautomationcore/IGridItemProvider::get_ContainingGrid, winauto.uiauto_IGridItemProvider_ContainingGrid
 ms.prod: windows
 ms.technology: windows-sdk

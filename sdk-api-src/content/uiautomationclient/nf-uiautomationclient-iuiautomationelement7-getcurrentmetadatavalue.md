@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement7_GetCurrentMetadataValue.htm
 old-project: WinAuto
 ms.assetid: 09FAECD6-2BD9-4C35-8798-5FF6311CC672
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetCurrentMetadataValue, GetCurrentMetadataValue method [Windows Accessibility], GetCurrentMetadataValue method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],GetCurrentMetadataValue method, IUIAutomationElement7.GetCurrentMetadataValue, IUIAutomationElement7::GetCurrentMetadataValue, uiautomationclient/IUIAutomationElement7::GetCurrentMetadataValue, winauto.uiauto_IUIAutomationElement7_GetCurrentMetadataValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement7.md">IUIAutomationElement7</a>
+<a href="winauto.iuiautomationelement7">IUIAutomationElement7</a>
 
 
 

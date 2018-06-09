@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_clone.htm
 old-project: ICS
 ms.assetid: 5343acd3-d148-442c-a1d7-226248556f17
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPublicConnection interface, IEnumNetSharingPublicConnection interface [ICS/ICF],Clone method, IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
 ms.prod: windows
 ms.technology: windows-sdk

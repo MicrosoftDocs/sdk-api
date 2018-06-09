@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getstatistics.htm
 old-project: medfound
 ms.assetid: 3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStatistics method, IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

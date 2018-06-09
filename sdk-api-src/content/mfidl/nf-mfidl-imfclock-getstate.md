@@ -7,7 +7,7 @@ old-location: mf\imfclock_getstate.htm
 old-project: medfound
 ms.assetid: 8e2dda03-f589-4572-b715-2be7b29a6ace
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 8e2dda03-f589-4572-b715-2be7b29a6ace, GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetState method, IMFClock.GetState, IMFClock::GetState, mf.imfclock_getstate, mfidl/IMFClock::GetState
 ms.prod: windows
 ms.technology: windows-sdk

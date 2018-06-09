@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_makewindowassociation.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_makewindowassociation.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIFactory interface [DXGI],MakeWindowAssociation method, IDXGIFactory.MakeWindowAssociation, IDXGIFactory::MakeWindowAssociation, MakeWindowAssociation, MakeWindowAssociation method [DXGI], MakeWindowAssociation method [DXGI],IDXGIFactory interface, cae30f32-d52e-b4d6-69fc-2b5a2a52afef, direct3ddxgi.idxgifactory_makewindowassociation, dxgi/IDXGIFactory::MakeWindowAssociation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ One or more of the following values:
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if <i>WindowHandle</i> is invalid, or E_OUTOFMEMORY.
@@ -96,7 +96,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 The combination of <i>WindowHandle</i> and <i>Flags</i> informs DXGI to stop monitoring window messages for the previously-associated window.
 
@@ -109,7 +109,7 @@ While windowed, the application can, if it chooses, restrict the size of its win
 Applications that want to handle mode changes or Alt+Enter themselves should call <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swap chain creation. The <i>WindowHandle</i> argument, if non-<b>NULL</b>, specifies that the application message queues will not be handled by the DXGI runtime for all swap chains of a particular target <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>.  Calling <b>MakeWindowAssociation</b> with the DXGI_MWA_NO_WINDOW_CHANGES flag after swapchain creation ensures that DXGI will not interfere with application's handling of window mode changes or Alt+Enter.
 
 <h3><a id="Notes_for_Windows_Store_apps"></a><a id="notes_for_windows_store_apps"></a><a id="NOTES_FOR_WINDOWS_STORE_APPS"></a>Notes for Windows Store apps</h3>
-If a Windows Store app calls <b>MakeWindowAssociation</b>, it fails with <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
+If a Windows Store app calls <b>MakeWindowAssociation</b>, it fails with <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
 
 A Microsoft Win32 application can use <b>MakeWindowAssociation</b> to control full-screen transitions through the Alt+Enter key combination and print screen behavior for full screen.  For Windows Store apps, because DXGI can't perform full-screen transitions, a Windows Store app has no way to control full-screen transitions.
 

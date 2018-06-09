@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_getappend.htm
 old-project: audio
 ms.assetid: fc250e51-2e7d-4406-a8cf-7b7430a0ef7c
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: GetAppend, GetAppend method [Audio Devices], GetAppend method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetAppend method, IDirectMusicSynth.GetAppend, IDirectMusicSynth::GetAppend, audio.idirectmusicsynth_getappend, audmp-routines_691b2730-4c18-43c7-b5cd-1ee1f94c5e3d.xml, dmusics/IDirectMusicSynth::GetAppend
 ms.prod: windows
 ms.technology: windows-sdk

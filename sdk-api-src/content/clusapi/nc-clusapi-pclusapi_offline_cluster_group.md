@@ -7,7 +7,7 @@ old-location: mscs\offlineclustergroup.htm
 old-project: MsCS
 ms.assetid: 465e9eac-6286-4955-a11c-a515c64230da
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_OFFLINE_CLUSTER_GROUP, PCLUSAPI_OFFLINE_CLUSTER_GROUP callback, PCLUSAPI_OFFLINE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_offlineclustergroup, clusapi/PCLUSAPI_OFFLINE_CLUSTER_GROUP, mscs.offlineclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

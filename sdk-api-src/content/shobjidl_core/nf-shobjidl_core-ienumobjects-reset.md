@@ -7,7 +7,7 @@ old-location: shell\IEnumObjects_Reset.htm
 old-project: shell
 ms.assetid: 646ffef2-294e-461d-97e4-39cb68bb85df
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Reset method, IEnumObjects.Reset, IEnumObjects::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Reset, shell.IEnumObjects_Reset, shobjidl_core/IEnumObjects::Reset
 ms.prod: windows
 ms.technology: windows-sdk

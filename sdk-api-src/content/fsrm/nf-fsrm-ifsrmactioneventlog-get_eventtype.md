@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioneventlog_eventtype.htm
 old-project: Fsrm
 ms.assetid: eb76fa86-2d82-46a5-ae76-c2f00f812e48
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: EventType property [File Server Resource Manager], EventType property [File Server Resource Manager],IFsrmActionEventLog interface, IFsrmActionEventLog interface [File Server Resource Manager],EventType property, IFsrmActionEventLog.EventType, IFsrmActionEventLog.get_EventType, IFsrmActionEventLog::EventType, IFsrmActionEventLog::get_EventType, IFsrmActionEventLog::put_EventType, fs.ifsrmactioneventlog_eventtype, fsrm.ifsrmactioneventlog_eventtype, fsrm/IFsrmActionEventLog::EventType, fsrm/IFsrmActionEventLog::get_EventType, fsrm/IFsrmActionEventLog::put_EventType, get_EventType
 ms.prod: windows
 ms.technology: windows-sdk

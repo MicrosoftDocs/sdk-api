@@ -7,7 +7,7 @@ old-location: mscs\resutilsetszvalue.htm
 old-project: MsCS
 ms.assetid: b9227df3-0693-4b0f-99de-d10fa3d7acf5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE callback, PRESUTIL_SET_SZ_VALUE callback function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

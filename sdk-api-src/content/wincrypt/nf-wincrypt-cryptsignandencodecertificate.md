@@ -7,7 +7,7 @@ old-location: security\cryptsignandencodecertificate.htm
 old-project: SecCrypto
 ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -313,7 +313,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

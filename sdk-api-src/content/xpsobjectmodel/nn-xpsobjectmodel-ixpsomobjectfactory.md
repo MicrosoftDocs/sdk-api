@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory.htm
 old-project: printdocs
 ms.assetid: 2444703e-4b89-4ef0-9ed7-aa937bc62e8c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], IXpsOMObjectFactory interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory, xpsobjectmodel/IXpsOMObjectFactory
 ms.prod: windows
 ms.technology: windows-sdk

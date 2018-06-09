@@ -7,7 +7,7 @@ old-location: mscs\clusworkercheckterminate.htm
 old-project: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate callback, PCLUSAPIClusWorkerCheckTerminate callback function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/PCLUSAPIClusWorkerCheckTerminate
 ms.prod: windows
 ms.technology: windows-sdk

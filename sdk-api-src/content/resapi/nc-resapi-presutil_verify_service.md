@@ -7,7 +7,7 @@ old-location: mscs\resutilverifyservice.htm
 old-project: MsCS
 ms.assetid: a846d09f-9fa3-4749-86c8-b57e69b297dd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_VERIFY_SERVICE, PRESUTIL_VERIFY_SERVICE callback, PRESUTIL_VERIFY_SERVICE callback function [Failover Cluster], _wolf_resutilverifyservice, mscs.resutilverifyservice, resapi/PRESUTIL_VERIFY_SERVICE
 ms.prod: windows
 ms.technology: windows-sdk

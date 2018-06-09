@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter_addextension.htm
 old-project: mstv
 ms.assetid: 20484b0e-c6c8-4741-9672-a991ba368e92
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: AddExtension, AddExtension method [Microsoft TV Technologies], AddExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddExtension method, IMpeg2TableFilter.AddExtension, IMpeg2TableFilter::AddExtension, IMpeg2TableFilterAddExtension, mpeg2data/IMpeg2TableFilter::AddExtension, mstv.impeg2tablefilter_addextension
 ms.prod: windows
 ms.technology: windows-sdk

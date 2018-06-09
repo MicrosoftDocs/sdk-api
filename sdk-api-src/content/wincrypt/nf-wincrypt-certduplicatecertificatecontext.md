@@ -7,7 +7,7 @@ old-location: security\certduplicatecertificatecontext.htm
 old-project: SecCrypto
 ms.assetid: 589edd25-c8d0-4f93-83b2-9df2ed2e2812
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertDuplicateCertificateContext, CertDuplicateCertificateContext function [Security], _crypto2_certduplicatecertificatecontext, security.certduplicatecertificatecontext, wincrypt/CertDuplicateCertificateContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Currently, a copy is not made of the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Functions">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

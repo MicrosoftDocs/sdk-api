@@ -7,7 +7,7 @@ old-location: mstv\ibda_easmessage_get_easmessage.htm
 old-project: mstv
 ms.assetid: ac6454f2-28e6-4cb2-8b48-517d4dd8509c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_EasMessage interface [Microsoft TV Technologies],get_EasMessage method, IBDA_EasMessage.get_EasMessage, IBDA_EasMessage::get_EasMessage, IBDA_EasMessageget_EasMessage, bdaiface/IBDA_EasMessage::get_EasMessage, get_EasMessage, get_EasMessage method [Microsoft TV Technologies], get_EasMessage method [Microsoft TV Technologies],IBDA_EasMessage interface, mstv.ibda_easmessage_get_easmessage
 ms.prod: windows
 ms.technology: windows-sdk

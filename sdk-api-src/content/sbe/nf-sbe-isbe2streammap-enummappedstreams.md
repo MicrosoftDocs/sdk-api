@@ -7,7 +7,7 @@ old-location: mstv\isbe2streammap_enummappedstreams.htm
 old-project: mstv
 ms.assetid: bb98db94-3aa1-4f29-b98a-7594e27466ef
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: EnumMappedStreams, EnumMappedStreams method [Microsoft TV Technologies], EnumMappedStreams method [Microsoft TV Technologies],ISBE2StreamMap interface, ISBE2StreamMap interface [Microsoft TV Technologies],EnumMappedStreams method, ISBE2StreamMap.EnumMappedStreams, ISBE2StreamMap::EnumMappedStreams, mstv.isbe2streammap_enummappedstreams, sbe/ISBE2StreamMap::EnumMappedStreams
 ms.prod: windows
 ms.technology: windows-sdk

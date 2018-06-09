@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingpublicconnection_next.htm
 old-project: ICS
 ms.assetid: 36df4f20-785f-4335-ba75-094533068685
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Next method, IEnumNetSharingPublicConnection.Next, IEnumNetSharingPublicConnection::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_next, ics.ienumnetsharingpublicconnection_next, netcon/IEnumNetSharingPublicConnection::Next
 ms.prod: windows
 ms.technology: windows-sdk

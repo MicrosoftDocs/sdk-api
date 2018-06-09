@@ -7,7 +7,7 @@ old-location: ixhr2\xhr_cert_ignore_flag.htm
 old-project: ixhr2
 ms.assetid: 22b7b3b0-a5e2-4cf1-af92-4fe66506fa40
 ms.author: windowssdkdev
-ms.date: 04/02/2018
+ms.date: 06/04/2018
 ms.keywords: XHR_CERT_IGNORE_ALL_SERVER_ERRORS, XHR_CERT_IGNORE_CERT_CN_INVALID, XHR_CERT_IGNORE_CERT_DATE_INVALID, XHR_CERT_IGNORE_FLAG, XHR_CERT_IGNORE_FLAG enumeration [XMLHttpRequest2], XHR_CERT_IGNORE_REVOCATION_FAILED, XHR_CERT_IGNORE_UNKNOWN_CA, _XHR_CERT_IGNORE_FLAG, ixhr2.xhr_cert_ignore_flag, msxml6/XHR_CERT_IGNORE_ALL_SERVER_ERRORS, msxml6/XHR_CERT_IGNORE_CERT_CN_INVALID, msxml6/XHR_CERT_IGNORE_CERT_DATE_INVALID, msxml6/XHR_CERT_IGNORE_FLAG, msxml6/XHR_CERT_IGNORE_REVOCATION_FAILED, msxml6/XHR_CERT_IGNORE_UNKNOWN_CA
 ms.prod: windows
 ms.technology: windows-sdk

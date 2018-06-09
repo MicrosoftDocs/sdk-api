@@ -7,7 +7,7 @@ old-location: coreaudio\parttype.htm
 old-project: CoreAudio
 ms.assetid: 7374d6c6-c59e-4862-8b4c-bbe384ccc9d8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: Connector, PartType, PartType , PartType enumeration [Core Audio], Subunit, __MIDL___MIDL_itf_devicetopology_0000_0000_0012, coreaudio.parttype, devicetopology/Connector, devicetopology/PartType, devicetopology/Subunit
 ms.prod: windows
 ms.technology: windows-sdk

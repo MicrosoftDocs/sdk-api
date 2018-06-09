@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofilemanager.htm
 old-project: mbn
 ms.assetid: a55e4183-f914-4064-a391-3bd31ca59160
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], IMbnConnectionProfileManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofilemanager, mbnapi/IMbnConnectionProfileManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ This interface can be used to access the following notification interfaces.<tabl
 
 
 
-An application can obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with a class id of <b>CLSID_IMbnConnectionProfileManager</b>.
+An application can obtain this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with a class id of <b>CLSID_IMbnConnectionProfileManager</b>.
 
 The following procedure describes how to register for notifications.
 

@@ -7,7 +7,7 @@ old-location: dshow\imediasample_settime.htm
 old-project: DirectShow
 ms.assetid: 531eef13-8b04-48d2-9070-7f6e34cacd9e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMediaSample interface [DirectShow],SetTime method, IMediaSample.SetTime, IMediaSample::SetTime, IMediaSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IMediaSample interface, dshow.imediasample_settime, strmif/IMediaSample::SetTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawmediastream_getdirectdraw.htm
 old-project: DirectShow
 ms.assetid: 44c505fe-70d9-49bd-9135-8a6dc2c72e98
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetDirectDraw method, IDirectDrawMediaStream.GetDirectDraw, IDirectDrawMediaStream::GetDirectDraw, IDirectDrawMediaStreamGetDirectDraw, ddstream/IDirectDrawMediaStream::GetDirectDraw, dshow.idirectdrawmediastream_getdirectdraw
 ms.prod: windows
 ms.technology: windows-sdk

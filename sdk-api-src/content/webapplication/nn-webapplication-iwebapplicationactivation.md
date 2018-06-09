@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationactivation.htm
 old-project: debug_wwahost
 ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/04/2018
 ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
 ms.prod: windows
 ms.technology: windows-sdk

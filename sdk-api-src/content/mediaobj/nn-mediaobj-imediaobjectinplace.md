@@ -8,7 +8,7 @@ old-location: dshow\imediaobjectinplace.htm
 old-project: DirectShow
 ms.assetid: c2105141-6c5e-4edb-aa3b-3227ca223329
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMediaObjectInPlace, IMediaObjectInPlace interface [DirectShow], IMediaObjectInPlace interface [DirectShow],described, IMediaObjectInPlaceInterface, dshow.imediaobjectinplace, mediaobj/IMediaObjectInPlace
 ms.prod: windows
 ms.technology: windows-sdk

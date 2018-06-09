@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_addstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 9A647B60-ACA0-4878-A75B-54CA093DEDD0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],AddStreamConfiguration method, IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 ms.prod: windows
 ms.technology: windows-sdk

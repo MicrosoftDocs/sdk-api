@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderSimple_GetPatternProvider.htm
 old-project: WinAuto
 ms.assetid: 8315c1d4-6347-462f-9c96-121f216faf88
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetPatternProvider, GetPatternProvider method [Windows Accessibility], GetPatternProvider method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPatternProvider method, IRawElementProviderSimple.GetPatternProvider, IRawElementProviderSimple::GetPatternProvider, uiauto.uiauto_IRawElementProviderSimple_GetPatternProvider, uiauto_IRawElementProviderSimple_GetPatternProvider, uiautomationcore/IRawElementProviderSimple::GetPatternProvider, winauto.uiauto_IRawElementProviderSimple_GetPatternProvider
 ms.prod: windows
 ms.technology: windows-sdk

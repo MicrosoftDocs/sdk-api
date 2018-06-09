@@ -7,7 +7,7 @@ old-location: multimedia\mciwndopeninterface.htm
 old-project: Multimedia
 ms.assetid: ad31d945-27f8-48d5-a49b-e36f4beb5de6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: MCIWndOpenInterface, MCIWndOpenInterface macro [Windows Multimedia], _win32_MCIWndOpenInterface, multimedia.mciwndopeninterface, vfw/MCIWndOpenInterface
 ms.prod: windows
 ms.technology: windows-sdk

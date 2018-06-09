@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getplaybackrate.htm
 old-project: medfound
 ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlaybackRate method, IMFMediaEngine.GetPlaybackRate, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

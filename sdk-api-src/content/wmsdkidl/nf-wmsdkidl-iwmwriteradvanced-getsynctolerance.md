@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_getsynctolerance.htm
 old-project: wmformat
 ms.assetid: f62d3405-3125-4df6-bd06-fa70358560ad
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetSyncTolerance, GetSyncTolerance method [windows Media Format], GetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSyncTolerance method, IWMWriterAdvanced.GetSyncTolerance, IWMWriterAdvanced::GetSyncTolerance, IWMWriterAdvancedGetSyncTolerance, wmformat.iwmwriteradvanced_getsynctolerance, wmsdkidl/IWMWriterAdvanced::GetSyncTolerance
 ms.prod: windows
 ms.technology: windows-sdk

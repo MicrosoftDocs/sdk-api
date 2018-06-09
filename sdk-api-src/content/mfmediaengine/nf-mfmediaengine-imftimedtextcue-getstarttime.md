@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getstarttime.htm
 old-project: medfound
 ms.assetid: A5D7766E-7692-449A-86CE-93A787DBDCDC
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Media Foundation], GetStartTime method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetStartTime method, IMFTimedTextCue.GetStartTime, IMFTimedTextCue::GetStartTime, mf.imftimedtextcue_getstarttime, mfmediaengine/IMFTimedTextCue::GetStartTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

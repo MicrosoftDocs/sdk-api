@@ -7,7 +7,7 @@ old-location: mscs\getclusterkey.htm
 old-project: MsCS
 ms.assetid: ddec12fc-6d4d-411d-ab24-6fb60175ba7b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: GetClusterKey, GetClusterKey function [Failover Cluster], _wolf_getclusterkey, clusapi/GetClusterKey, mscs.getclusterkey
 ms.prod: windows
 ms.technology: windows-sdk

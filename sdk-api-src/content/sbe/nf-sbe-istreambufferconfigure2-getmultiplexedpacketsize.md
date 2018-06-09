@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2_getmultiplexedpacketsize.htm
 old-project: mstv
 ms.assetid: 36b5cd06-ba6a-4546-98b6-4c8b47f7f62b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetMultiplexedPacketSize, GetMultiplexedPacketSize method [Microsoft TV Technologies], GetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetMultiplexedPacketSize method, IStreamBufferConfigure2.GetMultiplexedPacketSize, IStreamBufferConfigure2::GetMultiplexedPacketSize, IStreamBufferConfigure2GetMultiplexedPacketSize, mstv.istreambufferconfigure2_getmultiplexedpacketsize, sbe/IStreamBufferConfigure2::GetMultiplexedPacketSize
 ms.prod: windows
 ms.technology: windows-sdk

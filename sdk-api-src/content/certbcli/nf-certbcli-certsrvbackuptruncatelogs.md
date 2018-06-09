@@ -7,7 +7,7 @@ old-location: security\certsrvbackuptruncatelogs.htm
 old-project: SecCrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
 ms.prod: windows
 ms.technology: windows-sdk

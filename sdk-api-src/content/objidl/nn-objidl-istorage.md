@@ -7,7 +7,7 @@ old-location: stg\istorage.htm
 old-project: Stg
 ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interface [Structured Storage],described, _stg_istorage, objidl/IStorage, stg.istorage
 ms.prod: windows
 ms.technology: windows-sdk

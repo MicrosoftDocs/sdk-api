@@ -7,7 +7,7 @@ old-location: mstv\imsvidplaybackevent.htm
 old-project: mstv
 ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], IMSVidPlaybackEvent interface [Microsoft TV Technologies],described, IMSVidPlaybackEventInterface, mstv.imsvidplaybackevent, segment/IMSVidPlaybackEvent
 ms.prod: windows
 ms.technology: windows-sdk

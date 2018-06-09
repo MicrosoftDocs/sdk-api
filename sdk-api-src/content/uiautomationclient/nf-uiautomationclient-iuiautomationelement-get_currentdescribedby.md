@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentDescribedBy.htm
 old-project: WinAuto
 ms.assetid: 059d623e-d312-4427-bb2d-a1431dc68ccd
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: CurrentDescribedBy property [Windows Accessibility], CurrentDescribedBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentDescribedBy property, IUIAutomationElement.CurrentDescribedBy, IUIAutomationElement.get_CurrentDescribedBy, IUIAutomationElement::CurrentDescribedBy, IUIAutomationElement::get_CurrentDescribedBy, get_CurrentDescribedBy, uiauto.uiauto_IUIAutomationElement_CurrentDescribedBy, uiauto_IUIAutomationElement_CurrentDescribedBy, uiautomationclient/IUIAutomationElement::CurrentDescribedBy, uiautomationclient/IUIAutomationElement::get_CurrentDescribedBy, winauto.uiauto_IUIAutomationElement_CurrentDescribedBy
 ms.prod: windows
 ms.technology: windows-sdk

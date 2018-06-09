@@ -7,7 +7,7 @@ old-location: wua\iimageinformation_alttext.htm
 old-project: Wua_Sdk
 ms.assetid: b64f1d4f-6f37-4728-b2e5-f9c408d9909e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: AltText property [Windows Update Agent], AltText property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],AltText property, IImageInformation.AltText, IImageInformation.get_AltText, IImageInformation::AltText, IImageInformation::get_AltText, get_AltText, wua.iimageinformation_alttext, wuapi/IImageInformation::AltText, wuapi/IImageInformation::get_AltText
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmrule.htm
 old-project: Fsrm
 ms.assetid: e1de871f-a2c9-4787-a3e8-8c3428e9249e
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], IFsrmRule interface [File Server Resource Manager],described, fs.ifsrmrule, fsrm.ifsrmrule, fsrm/IFsrmRule
 ms.prod: windows
 ms.technology: windows-sdk

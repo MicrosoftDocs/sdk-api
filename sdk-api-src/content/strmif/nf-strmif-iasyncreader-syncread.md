@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_syncread.htm
 old-project: DirectShow
 ms.assetid: 21806449-97b1-4890-9182-a1244c21ba30
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncRead method, IAsyncReader.SyncRead, IAsyncReader::SyncRead, IAsyncReaderSyncRead, SyncRead, SyncRead method [DirectShow], SyncRead method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncread, strmif/IAsyncReader::SyncRead
 ms.prod: windows
 ms.technology: windows-sdk

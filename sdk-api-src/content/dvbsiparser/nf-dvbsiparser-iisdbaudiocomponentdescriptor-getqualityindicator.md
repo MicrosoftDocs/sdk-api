@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_getqualityindicator.htm
 old-project: mstv
 ms.assetid: 39d85ecd-6ccd-48e8-9498-41aad45a7357
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetQualityIndicator, GetQualityIndicator method [Microsoft TV Technologies], GetQualityIndicator method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetQualityIndicator method, IIsdbAudioComponentDescriptor.GetQualityIndicator, IIsdbAudioComponentDescriptor::GetQualityIndicator, dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator, mstv.iisdbaudiocomponentdescriptor_getqualityindicator
 ms.prod: windows
 ms.technology: windows-sdk

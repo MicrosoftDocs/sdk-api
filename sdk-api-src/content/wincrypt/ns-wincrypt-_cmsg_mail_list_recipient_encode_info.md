@@ -7,7 +7,7 @@ old-location: security\cmsg_mail_list_recipient_encode_info.htm
 old-project: SecCrypto
 ms.assetid: 4303a7e7-cb93-4ed1-85e6-42359c2c687c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_mail_list_recipient_encode_info, security.cmsg_mail_list_recipient_encode_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

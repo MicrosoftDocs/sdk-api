@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragme
 old-project: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Receives the adjacent fragment.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="https://www.bing.com/search?q=NavigateDirection_FirstChild">NavigateDirection_FirstChild</a> or <a href="https://www.bing.com/search?q=NavigateDirection_LastChild">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
+If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="uiauto_NavDirEnum.htm">NavigateDirection_FirstChild</a> or <a href="uiauto_NavDirEnum.htm">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
 
 
 

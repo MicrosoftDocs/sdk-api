@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator_findfirstproxy.htm
 old-project: medfound
 ms.assetid: 48eba170-eeed-4edf-b8d3-2f4541637129
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 48eba170-eeed-4edf-b8d3-2f4541637129, FindFirstProxy, FindFirstProxy method [Media Foundation], FindFirstProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],FindFirstProxy method, IMFNetProxyLocator.FindFirstProxy, IMFNetProxyLocator::FindFirstProxy, mf.imfnetproxylocator_findfirstproxy, mfidl/IMFNetProxyLocator::FindFirstProxy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ibda_conditionalaccessex_checkentitlementtoken.htm
 old-project: mstv
 ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV Technologies], CheckEntitlementToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CheckEntitlementToken method, IBDA_ConditionalAccessEx.CheckEntitlementToken, IBDA_ConditionalAccessEx::CheckEntitlementToken, bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken, mstv.ibda_conditionalaccessex_checkentitlementtoken
 ms.prod: windows
 ms.technology: windows-sdk

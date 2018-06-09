@@ -7,7 +7,7 @@ old-location: mstv\bda_drmpairingerror.htm
 old-project: mstv
 ms.assetid: d1b100e5-497e-4cb1-9cb8-38424c9eecf8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: BDA_DrmPairingError, BDA_DrmPairingError enumeration [Microsoft TV Technologies], BDA_DrmPairing_DrmInitFailed, BDA_DrmPairing_DrmNotPaired, BDA_DrmPairing_DrmRePairSoon, BDA_DrmPairing_HardwareFailure, BDA_DrmPairing_NeedIndiv, BDA_DrmPairing_NeedRevocationData, BDA_DrmPairing_Other, BDA_DrmPairing_Succeeded, bdaiface/BDA_DrmPairingError, bdaiface/BDA_DrmPairing_DrmInitFailed, bdaiface/BDA_DrmPairing_DrmNotPaired, bdaiface/BDA_DrmPairing_DrmRePairSoon, bdaiface/BDA_DrmPairing_HardwareFailure, bdaiface/BDA_DrmPairing_NeedIndiv, bdaiface/BDA_DrmPairing_NeedRevocationData, bdaiface/BDA_DrmPairing_Other, bdaiface/BDA_DrmPairing_Succeeded, mstv.bda_drmpairingerror
 ms.prod: windows
 ms.technology: windows-sdk

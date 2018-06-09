@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateNegation.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createnegation.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CreateNegation, CreateNegation method [search], CreateNegation method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateNegation method, IConditionFactory2.CreateNegation, IConditionFactory2::CreateNegation, _search_IConditionFactory2_CreateNegation, search._search_IConditionFactory2_CreateNegation, structuredquery/IConditionFactory2::CreateNegation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ The condition creation operation of the leaf condition as the <a href="https://m
 
 Type: <b>REFIID</b>
 
-The desired IID of the enumerating interface: either <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
+The desired IID of the enumerating interface: either <a href="_com_IEnumUnknown">IEnumUnknown</a>, <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>, or (for a negation condition) IID_ICondition.
 
 
 ### -param ppv [out]

@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_isinband.htm
 old-project: medfound
 ms.assetid: 02B69F41-313A-4792-BB0C-D14A02738002
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsInBand method, IMFTimedTextTrack.IsInBand, IMFTimedTextTrack::IsInBand, IsInBand, IsInBand method [Media Foundation], IsInBand method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isinband, mfmediaengine/IMFTimedTextTrack::IsInBand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -96,7 +96,7 @@ The method returns an <b>HRESULT</b> value. If the ranges have the same characte
 
 
 The 
-				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="https://www.bing.com/search?q=Finding+Rich+Text">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
+				<b>ITextRange::IsEqual</b> method returns <b>tomTrue</b> only if the range points at the same text as <i>pRange</i>. See <a href="About_Text_Object_Model.htm">Finding Rich Text</a> for code that compares two different pieces of text to see if they contain the same plain text and the same character formatting.
 
 
 

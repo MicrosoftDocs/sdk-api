@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements_addelement.htm
 old-project: medfound
 ms.assetid: 2C98A70B-F6B3-4CA7-8D04-958DFCCD2A50
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],AddElement method, IMFMediaEngineSrcElements.AddElement, IMFMediaEngineSrcElements::AddElement, mf.imfmediaenginesrcelements_addelement, mfmediaengine/IMFMediaEngineSrcElements::AddElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

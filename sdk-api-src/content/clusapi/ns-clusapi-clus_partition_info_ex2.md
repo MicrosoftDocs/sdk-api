@@ -7,7 +7,7 @@ old-location: mscs\clus_partition_info_ex2.htm
 old-project: MsCS
 ms.assetid: 1B6690DB-9D23-4D0C-98B7-3066C5452CD1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: "*PCLUS_PARTITION_INFO_EX2, BitLockerDecrypted, BitLockerDecrypting, BitLockerEnabled, BitLockerEncrypted, BitLockerEncrypting, BitLockerFlagsAll, BitLockerPaused, BitLockerStopped, CLUS_PARTITION_INFO_EX2, CLUS_PARTITION_INFO_EX2 structure [Failover Cluster], PCLUS_PARTITION_INFO_EX2, PCLUS_PARTITION_INFO_EX2 structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX2, clusapi/PCLUS_PARTITION_INFO_EX2, mscs.clus_partition_info_ex2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 
 
 Describes the disk partition information of a  
-    <a href="https://www.bing.com/search?q=storage+class+resource">storage class resource</a>. This structure is used as the data member of a 
+    <a href="s_gly.htm">storage class resource</a>. This structure is used as the data member of a 
     <a href="https://msdn.microsoft.com/D6D26335-80D0-4949-99B4-FE18DD2FFF3C">CLUSPROP_PARTITION_INFO_EX2</a> structure.
 
 

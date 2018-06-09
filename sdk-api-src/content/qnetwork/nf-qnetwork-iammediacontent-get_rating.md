@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_rating.htm
 old-project: DirectShow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
 ms.prod: windows
 ms.technology: windows-sdk

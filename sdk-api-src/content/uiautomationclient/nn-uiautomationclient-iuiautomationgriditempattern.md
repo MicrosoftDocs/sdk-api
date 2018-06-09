@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern.htm
 old-project: WinAuto
 ms.assetid: 03b284de-3079-4543-ac5a-a8504da0d755
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], IUIAutomationGridItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationGridItemPattern, uiauto_IUIAutomationGridItemPattern, uiautomationclient/IUIAutomationGridItemPattern, winauto.uiauto_IUIAutomationGridItemPattern
 ms.prod: windows
 ms.technology: windows-sdk

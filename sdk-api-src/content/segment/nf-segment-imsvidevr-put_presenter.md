@@ -7,7 +7,7 @@ old-location: mstv\imsvidevr_put_presenter.htm
 old-project: mstv
 ms.assetid: 602d92fc-e948-4cea-9bbf-8968c5e31257
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],put_Presenter method, IMSVidEVR.put_Presenter, IMSVidEVR::put_Presenter, IMSVidEVRput_Presenter, mstv.imsvidevr_put_presenter, put_Presenter, put_Presenter method [Microsoft TV Technologies], put_Presenter method [Microsoft TV Technologies],IMSVidEVR interface, segment/IMSVidEVR::put_Presenter
 ms.prod: windows
 ms.technology: windows-sdk

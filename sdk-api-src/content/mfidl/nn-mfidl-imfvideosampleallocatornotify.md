@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatornotify.htm
 old-project: medfound
 ms.assetid: 909c2a68-81dd-4816-b34f-71a67b620faf
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotify, IMFVideoSampleAllocatorNotify interface [Media Foundation], IMFVideoSampleAllocatorNotify interface [Media Foundation],described, mf.imfvideosampleallocatornotify, mfidl/IMFVideoSampleAllocatorNotify
 ms.prod: windows
 ms.technology: windows-sdk

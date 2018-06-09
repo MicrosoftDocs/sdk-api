@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmcollection_getbyid.htm
 old-project: Fsrm
 ms.assetid: 6d6be809-bfe6-46ad-9156-288da834ff13
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: GetById, GetById method [File Server Resource Manager], GetById method [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],GetById method, IFsrmCollection.GetById, IFsrmCollection::GetById, fs.ifsrmcollection_getbyid, fsrm.ifsrmcollection_getbyid, fsrm/IFsrmCollection::GetById
 ms.prod: windows
 ms.technology: windows-sdk

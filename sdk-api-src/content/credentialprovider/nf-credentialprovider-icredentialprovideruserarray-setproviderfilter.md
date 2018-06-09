@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray_SetProviderFilter.htm
 old-project: shell
 ms.assetid: 86FC48BF-FEEA-40c4-91CA-21FFAC210CFA
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ICredentialProviderUserArray interface [Windows Shell],SetProviderFilter method, ICredentialProviderUserArray.SetProviderFilter, ICredentialProviderUserArray::SetProviderFilter, SetProviderFilter, SetProviderFilter method [Windows Shell], SetProviderFilter method [Windows Shell],ICredentialProviderUserArray interface, credentialprovider/ICredentialProviderUserArray::SetProviderFilter, shell.ICredentialProviderUserArray_SetProviderFilter
 ms.prod: windows
 ms.technology: windows-sdk

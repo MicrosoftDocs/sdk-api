@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead.
 
 
 ## -inheritance
@@ -74,7 +74,7 @@ The <b>IPropertyUI</b> interface has these methods.
 <a href="shell.IPropertyUI_FormatForDisplay">FormatForDisplay</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="shell.IPropertyUI_GetCanonicalName">GetCanonicalName</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets the canonical name of the property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the canonical name of the property.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="shell.IPropertyUI_GetDefaultWidth">GetDefaultWidth</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets the width of the property description.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the width of the property description.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="shell.IPropertyUI_GetDisaplayName">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="shell.IPropertyUI_GetHelpInfo">GetHelpInfo</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="shell.IPropertyUI_GetPropertyDescription">GetPropertyDescription</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Gets the property description of a specified property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the property description of a specified property.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-iproperty
 <a href="shell.IPropertyUI_ParsePropertyName">ParsePropertyName</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
 
 </td>
 </tr>

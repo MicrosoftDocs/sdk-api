@@ -7,7 +7,7 @@ old-location: mf\mfcreatemuxstreammediatype.htm
 old-project: medfound
 ms.assetid: 27E1295C-BFB1-45EB-ABB2-DDFF927F6E30
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Media Foundation], mf.mfcreatemuxstreammediatype, mfapi/MFCreateMuxStreamMediaType
 ms.prod: windows
 ms.technology: windows-sdk

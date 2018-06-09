@@ -94,7 +94,7 @@ This function does not return a value.
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer.md">IRpcChannelBuffer</a>
+<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
  
 
  

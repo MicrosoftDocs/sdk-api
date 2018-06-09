@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_iscursorhidden.htm
 old-project: DirectShow
 ms.assetid: 240040d8-433e-4398-a20a-66cc5a27bdae
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IVideoWindow interface [DirectShow],IsCursorHidden method, IVideoWindow.IsCursorHidden, IVideoWindow::IsCursorHidden, IVideoWindowIsCursorHidden, IsCursorHidden, IsCursorHidden method [DirectShow], IsCursorHidden method [DirectShow],IVideoWindow interface, control/IVideoWindow::IsCursorHidden, dshow.ivideowindow_iscursorhidden
 ms.prod: windows
 ms.technology: windows-sdk

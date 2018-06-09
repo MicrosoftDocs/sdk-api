@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createsharedhandle.htm
 old-project: direct3d12
 ms.assetid: AFF058FF-358F-4FF3-8C92-57A9D34B27D9
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle method,ID3D12Device interface, ID3D12Device interface,CreateSharedHandle method, ID3D12Device.CreateSharedHandle, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,7 +158,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
                 Returns S_OK if successful; otherwise, returns one of the following values:

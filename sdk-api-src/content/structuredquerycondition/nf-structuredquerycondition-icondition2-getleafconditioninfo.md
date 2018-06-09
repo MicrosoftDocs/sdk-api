@@ -7,7 +7,7 @@ old-location: search\_search_ICondition2_GetLeafConditionInfo.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getleafconditioninfo.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetLeafConditionInfo, GetLeafConditionInfo method [search], GetLeafConditionInfo method [search],ICondition2 interface, ICondition2 interface [search],GetLeafConditionInfo method, ICondition2.GetLeafConditionInfo, ICondition2::GetLeafConditionInfo, _search_ICondition2_GetLeafConditionInfo, search._search_ICondition2_GetLeafConditionInfo, structuredquerycondition/ICondition2::GetLeafConditionInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param ppropkey [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
 
 
                     Receives the name of the property of the leaf condition as a PROPERTYKEY.

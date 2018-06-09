@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acqui
 old-project: printdocs
 ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ For more information about COM error codes, see <a href="https://msdn.microsoft.
 
 Applications that call this method must call <a href="https://msdn.microsoft.com/f4960aa1-237f-491e-b69c-0aa107d9ddad">ReleaseData</a> when they have finished consuming the notification data.
 
-The <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a> interface must be implemented to ensure that a call of <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> does not free the object if a listening application has not finished consuming the object's data. Accordingly, if a call to <b>Release</b> occurs when an application has called <b>AcquireData</b> but has not yet called <a href="https://msdn.microsoft.com/f4960aa1-237f-491e-b69c-0aa107d9ddad">ReleaseData</a> , then the object must not be freed. For this reason, we recommend that <b>AcquireData</b> use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref.md">IUnknown::AddRef</a> to increment the object's reference count and that <b>ReleaseData</b> decrement the count.
+The <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a> interface must be implemented to ensure that a call of <a href="_com_iunknown_release">IUnknown::Release</a> does not free the object if a listening application has not finished consuming the object's data. Accordingly, if a call to <b>Release</b> occurs when an application has called <b>AcquireData</b> but has not yet called <a href="https://msdn.microsoft.com/f4960aa1-237f-491e-b69c-0aa107d9ddad">ReleaseData</a> , then the object must not be freed. For this reason, we recommend that <b>AcquireData</b> use <a href="_com_iunknown_addref">IUnknown::AddRef</a> to increment the object's reference count and that <b>ReleaseData</b> decrement the count.
 
 When the Print Spooler fails, it creates an <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a> object. When a listener calls <b>AcquireData</b> for this notification, <i>ppNotificationData</i> is <b>NULL</b>, the size is 0, and <i>ppSchema</i> is NOTIFICATION_RELEASE.
 

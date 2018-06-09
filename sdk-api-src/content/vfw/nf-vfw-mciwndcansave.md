@@ -7,7 +7,7 @@ old-location: multimedia\mciwndcansave.htm
 old-project: Multimedia
 ms.assetid: dc08b385-3e19-480d-ab05-58fd9b8c6b3a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: MCIWndCanSave, MCIWndCanSave macro [Windows Multimedia], _win32_MCIWndCanSave, multimedia.mciwndcansave, vfw/MCIWndCanSave
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\restartclusterresource.htm
 old-project: MsCS
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE callback, PCLUSAPI_RESTART_CLUSTER_RESOURCE callback function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, mscs.restartclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -141,7 +141,7 @@ Note that the handle of the thread calling
 
 
 
-<a href="https://www.bing.com/search?q=midl_user_allocate">midl_user_allocate</a>
+<a href="midl.midl_user_allocate_1">midl_user_allocate</a>
  
 
  

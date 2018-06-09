@@ -7,7 +7,7 @@ old-location: mf\mfsession_getfulltopology_flags.htm
 old-project: medfound
 ms.assetid: a635b9c8-f01f-4757-8dc2-f470c2270efa
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFSESSION_GETFULLTOPOLOGY_CURRENT, MFSESSION_GETFULLTOPOLOGY_FLAGS, MFSESSION_GETFULLTOPOLOGY_FLAGS enumeration [Media Foundation], a635b9c8-f01f-4757-8dc2-f470c2270efa, mf.mfsession_getfulltopology_flags, mfidl/MFSESSION_GETFULLTOPOLOGY_CURRENT, mfidl/MFSESSION_GETFULLTOPOLOGY_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

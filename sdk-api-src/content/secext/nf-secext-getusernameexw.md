@@ -7,7 +7,7 @@ old-location: base\getusernameex.htm
 old-project: SysInfo
 ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
 ms.prod: windows
 ms.technology: windows-sdk

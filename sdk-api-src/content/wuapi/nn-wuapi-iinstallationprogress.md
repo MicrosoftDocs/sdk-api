@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogress.htm
 old-project: Wua_Sdk
 ms.assetid: aa7e0c4d-9cb3-4473-a3b9-02ff9643f7de
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IInstallationProgress, IInstallationProgress interface [Windows Update Agent], IInstallationProgress interface [Windows Update Agent],described, wua.iinstallationprogress, wuapi/IInstallationProgress
 ms.prod: windows
 ms.technology: windows-sdk

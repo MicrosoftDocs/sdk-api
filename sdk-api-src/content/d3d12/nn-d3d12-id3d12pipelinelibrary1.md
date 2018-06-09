@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary1.htm
 old-project: direct3d12
 ms.assetid: 66890F5B-7C1F-4E47-B141-253FC2A166B1
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12PipelineLibrary1, ID3D12PipelineLibrary1 interface, ID3D12PipelineLibrary1 interface,described, d3d12/ID3D12PipelineLibrary1, direct3d12.id3d12pipelinelibrary1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Retrieves the requested PSO from the library. The pipeline stream description is
 
 
 
-<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary.md">ID3D12PipelineLibrary</a>
+<a href="id3d12pipelinelibrary">ID3D12PipelineLibrary</a>
  
 
  

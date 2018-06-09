@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovercreaterelationship.htm
 old-project: DHCP
 ms.assetid: 6e360dd4-b4a0-4652-8754-17c3c284271c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship
 ms.prod: windows
 ms.technology: windows-sdk

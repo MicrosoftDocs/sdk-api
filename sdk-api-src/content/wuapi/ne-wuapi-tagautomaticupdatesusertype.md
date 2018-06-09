@@ -7,7 +7,7 @@ old-location: wua\automaticupdatesusertype.htm
 old-project: Wua_Sdk
 ms.assetid: e18c7aa0-111b-4209-bc7f-e533a26d684c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: AutomaticUpdatesUserType, AutomaticUpdatesUserType enumeration [Windows Update Agent], auutCurrentUser, auutLocalAdministrator, tagAutomaticUpdatesUserType, wua.automaticupdatesusertype, wuapi/AutomaticUpdatesUserType, wuapi/auutCurrentUser, wuapi/auutLocalAdministrator
 ms.prod: windows
 ms.technology: windows-sdk

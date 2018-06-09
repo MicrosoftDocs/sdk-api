@@ -70,7 +70,7 @@ The unique ID of the path used by MPIO.
 
 ### -field type
 
-The type of interconnect that the hardware provider supports for this LUN path. <a href="https://www.bing.com/search?q=VDS_HWT_HYBRID">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
+The type of interconnect that the hardware provider supports for this LUN path. <a href="vds_hwprovider_type.htm">VDS_HWT_HYBRID</a> is not a valid value for this member, even if the provider is a hybrid provider.
 
 
 ### -field status

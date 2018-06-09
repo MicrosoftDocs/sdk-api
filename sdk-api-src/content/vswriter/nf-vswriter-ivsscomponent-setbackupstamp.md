@@ -58,7 +58,7 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-<a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-b">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-b">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
+<a href="vssgloss_b.htm">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or <a href="vssgloss_b.htm">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
 
 
 ## -parameters
@@ -142,7 +142,7 @@ The backup stamp set by
 <b>SetBackupStamp</b> applies to all files in the component and any nonselectable subcomponents it has.
 
 Writers typically call 
-<b>SetBackupStamp</b> while handling a <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-p">PostSnapshot</a> event in 
+<b>SetBackupStamp</b> while handling a <a href="vssgloss_p.htm">PostSnapshot</a> event in 
 <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>.
 
 Requesters merely store the backup stamp in the Backup Components Document. They do not make direct use of the backup stamp or have to know how to interpret it.

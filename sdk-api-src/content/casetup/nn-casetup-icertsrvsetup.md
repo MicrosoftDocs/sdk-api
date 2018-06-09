@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup.htm
 old-project: SecCrypto
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ In addition, the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d56
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetup</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>ICertSrvSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertSrvSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -296,7 +296,7 @@ Gets the string data for additional error information related to a failed CA spe
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

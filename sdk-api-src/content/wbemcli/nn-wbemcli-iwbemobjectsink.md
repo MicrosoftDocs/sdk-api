@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsink.htm
 old-project: WmiSdk
 ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemObjectSink, IWbemObjectSink interface [Windows Management Instrumentation], IWbemObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemobjectsink, wbemcli/IWbemObjectSink, wmi.iwbemobjectsink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcheronline.htm
 old-project: Wua_Sdk
 ms.assetid: b395d19f-812c-441a-b0a7-7edb10dc3fcc
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Online property, IUpdateSearcher.Online, IUpdateSearcher.get_Online, IUpdateSearcher::Online, IUpdateSearcher::get_Online, IUpdateSearcher::put_Online, Online property [Windows Update Agent], Online property [Windows Update Agent],IUpdateSearcher interface, get_Online, wua.iupdatesearcheronline, wuapi/IUpdateSearcher::Online, wuapi/IUpdateSearcher::get_Online, wuapi/IUpdateSearcher::put_Online
 ms.prod: windows
 ms.technology: windows-sdk

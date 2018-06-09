@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_autosize.htm
 old-project: mstv
 ms.assetid: 8adbc701-fd05-4520-8f06-95bd67a08d1e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AutoSize method, IMSVidCtl.get_AutoSize, IMSVidCtl::get_AutoSize, IMSVidCtlget_AutoSize, get_AutoSize, get_AutoSize method [Microsoft TV Technologies], get_AutoSize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_autosize, msvidctl/IMSVidCtl::get_AutoSize
 ms.prod: windows
 ms.technology: windows-sdk

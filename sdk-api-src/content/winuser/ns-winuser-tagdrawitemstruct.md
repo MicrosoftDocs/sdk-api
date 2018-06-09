@@ -357,7 +357,7 @@ A rectangle that defines the boundaries of the control to be drawn. This rectang
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG_PTR</a></b>
 
-The application-defined value associated with the menu item. For a control, this parameter specifies the value last assigned to the list box or combo box by the <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a> or <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a> message. If the list box or combo box has the <a href="https://www.bing.com/search?q=LBS_HASSTRINGS">LBS_HASSTRINGS</a> or <a href="https://www.bing.com/search?q=CBS_HASSTRINGS">CBS_HASSTRINGS</a> style, this value is initially zero. Otherwise, this value is initially the value that was passed to the list box or combo box in the <i>lParam</i> parameter of one of the following messages: 
+The application-defined value associated with the menu item. For a control, this parameter specifies the value last assigned to the list box or combo box by the <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a> or <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a> message. If the list box or combo box has the <a href="List_Box_Styles.htm">LBS_HASSTRINGS</a> or <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style, this value is initially zero. Otherwise, this value is initially the value that was passed to the list box or combo box in the <i>lParam</i> parameter of one of the following messages: 
 					
 
 <ul>

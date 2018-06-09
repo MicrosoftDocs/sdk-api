@@ -7,7 +7,7 @@ old-location: security\cryptregisteroidinfo.htm
 old-project: SecCrypto
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ When you have finished using the OID information, unregister it by calling the <
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

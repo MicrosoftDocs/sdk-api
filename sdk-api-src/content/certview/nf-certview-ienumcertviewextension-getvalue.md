@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_getvalue.htm
 old-project: SecCrypto
 ms.assetid: 7a81b096-36ba-416a-ad15-5bf1c4d512dd
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetValue method, IEnumCERTVIEWEXTENSION.GetValue, IEnumCERTVIEWEXTENSION::GetValue, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_ienumcertviewextension_getvalue, certview/IEnumCERTVIEWEXTENSION::GetValue, security.ienumcertviewextension_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -215,7 +215,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarValue [out]
 
-A pointer to a value of <b>VARIANT</b> type that contains the data for the currently referenced extension. This method fails if the   <i>pvarValue</i> parameter is <b>NULL</b>. Upon successful completion of this function, <i>pvarValue</i> contains the extension data currently referenced by the extension-enumeration sequence. The caller is responsible for calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when done with the data in <i>pvarValue</i>.
+A pointer to a value of <b>VARIANT</b> type that contains the data for the currently referenced extension. This method fails if the   <i>pvarValue</i> parameter is <b>NULL</b>. Upon successful completion of this function, <i>pvarValue</i> contains the extension data currently referenced by the extension-enumeration sequence. The caller is responsible for calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when done with the data in <i>pvarValue</i>.
 
 
 ## -returns

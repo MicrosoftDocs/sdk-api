@@ -7,7 +7,7 @@ old-location: dshow\idistributornotify_notifygraphchange.htm
 old-project: DirectShow
 ms.assetid: 5f77f674-643a-450a-9589-16866d6cf680
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDistributorNotify interface [DirectShow],NotifyGraphChange method, IDistributorNotify.NotifyGraphChange, IDistributorNotify::NotifyGraphChange, IDistributorNotifyNotifyGraphChange, NotifyGraphChange, NotifyGraphChange method [DirectShow], NotifyGraphChange method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_notifygraphchange, strmif/IDistributorNotify::NotifyGraphChange
 ms.prod: windows
 ms.technology: windows-sdk

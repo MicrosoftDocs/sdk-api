@@ -7,7 +7,7 @@ old-location: multimedia\icinstall.htm
 old-project: Multimedia
 ms.assetid: 23bbc186-3ef9-479a-94f9-a97269cf6dbc
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: ICInstall, ICInstall function [Windows Multimedia], _win32_ICInstall, multimedia.icinstall, vfw/ICInstall
 ms.prod: windows
 ms.technology: windows-sdk

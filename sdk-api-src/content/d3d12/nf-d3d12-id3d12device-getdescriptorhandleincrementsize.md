@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getdescriptorhandleincrementsize.htm
 old-project: direct3d12
 ms.assetid: 4593C153-913A-49DF-ADDC-6FB1E19D3D17
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetDescriptorHandleIncrementSize, GetDescriptorHandleIncrementSize method, GetDescriptorHandleIncrementSize method,ID3D12Device interface, ID3D12Device interface,GetDescriptorHandleIncrementSize method, ID3D12Device.GetDescriptorHandleIncrementSize, ID3D12Device::GetDescriptorHandleIncrementSize, d3d12/ID3D12Device::GetDescriptorHandleIncrementSize, direct3d12.id3d12device_getdescriptorhandleincrementsize
 ms.prod: windows
 ms.technology: windows-sdk

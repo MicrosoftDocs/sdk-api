@@ -7,7 +7,7 @@ old-location: mstv\iisdbeventgroupdescriptor.htm
 old-project: mstv
 ms.assetid: 1e71f277-0296-4589-8099-dfae2a9dcfb0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

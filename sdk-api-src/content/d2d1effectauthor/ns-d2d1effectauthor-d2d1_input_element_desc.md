@@ -90,7 +90,7 @@ The offset in bytes between each element.
 
 This structure is a subset of <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
 
-If the <a href="https://docs.microsoft.com/windows/desktop//Direct2D/direct2d-constants">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
+If the <a href="direct2d_constants.htm">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
 
 
 

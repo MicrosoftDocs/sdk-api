@@ -7,7 +7,7 @@ old-location: wua\iautomaticupdates_settings.htm
 old-project: Wua_Sdk
 ms.assetid: 4b64d8bd-98bb-4d3a-9e90-2c6500c8614b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Settings property, IAutomaticUpdates.Settings, IAutomaticUpdates.get_Settings, IAutomaticUpdates::Settings, IAutomaticUpdates::get_Settings, Settings property [Windows Update Agent], Settings property [Windows Update Agent],IAutomaticUpdates interface, get_Settings, wua.iautomaticupdates_settings, wuapi/IAutomaticUpdates::Settings, wuapi/IAutomaticUpdates::get_Settings
 ms.prod: windows
 ms.technology: windows-sdk

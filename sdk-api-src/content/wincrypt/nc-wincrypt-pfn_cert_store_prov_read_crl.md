@@ -7,7 +7,7 @@ old-location: security\certstoreprovreadcrlcallback.htm
 old-project: SecCrypto
 ms.assetid: 9644c200-1b55-4287-8d98-27b5a8d38c90
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertStoreProvReadCRLCallback, CertStoreProvReadCRLCallback callback, CertStoreProvReadCRLCallback callback function [Security], PFN_CERT_STORE_PROV_READ_CRL, PFN_CERT_STORE_PROV_READ_CRL callback function [Security], _crypto2_certstoreprovreadcrlcallback, security.certstoreprovreadcrlcallback, wincrypt/CertStoreProvReadCRLCallback, wincrypt/PFN_CERT_STORE_PROV_READ_CRL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ A pointer to a pointer to provider's copy of the CRL context. The context will b
 
 
 
-<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getbuffered.htm
 old-project: medfound
 ms.assetid: 38DABEE7-04AF-4542-AF4D-7988C824EA11
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetBuffered method, IMFMediaEngine.GetBuffered, IMFMediaEngine::GetBuffered, mf.imfmediaengine_getbuffered, mfmediaengine/IMFMediaEngine::GetBuffered
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

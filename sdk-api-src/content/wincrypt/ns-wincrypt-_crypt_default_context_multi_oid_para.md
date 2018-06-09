@@ -7,7 +7,7 @@ old-location: security\crypt_default_context_multi_oid_para.htm
 old-project: SecCrypto
 ms.assetid: 2826ee4f-55b7-4161-8698-3a9b59190dcc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure [Security], PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA structure pointer [Security], _CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, security.crypt_default_context_multi_oid_para, wincrypt/CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA, wincrypt/PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

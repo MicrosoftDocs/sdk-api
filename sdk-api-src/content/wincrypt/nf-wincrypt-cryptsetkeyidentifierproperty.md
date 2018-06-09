@@ -7,7 +7,7 @@ old-location: security\cryptsetkeyidentifierproperty.htm
 old-project: SecCrypto
 ms.assetid: 0970aaaa-3f9a-4471-bd21-5de8746f94a2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_KEYID_DELETE_FLAG, CRYPT_KEYID_MACHINE_FLAG, CRYPT_KEYID_SET_NEW_FLAG, CryptSetKeyIdentifierProperty, CryptSetKeyIdentifierProperty function [Security], _crypto2_cryptsetkeyidentifierproperty, security.cryptsetkeyidentifierproperty, wincrypt/CryptSetKeyIdentifierProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://www.bing.com/search?q=Key+Identifier+Functions">Key Identifier Functions</a>
+<a href="cryptography_functions.htm">Key Identifier Functions</a>
  
 
  

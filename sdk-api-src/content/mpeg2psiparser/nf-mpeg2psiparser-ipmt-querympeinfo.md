@@ -7,7 +7,7 @@ old-location: mstv\ipmt_querympeinfo.htm
 old-project: mstv
 ms.assetid: 14611397-7885-4553-905e-db56404f5e97
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryMPEInfo method, IPMT.QueryMPEInfo, IPMT::QueryMPEInfo, IPMTQueryMPEInfo, QueryMPEInfo, QueryMPEInfo method [Microsoft TV Technologies], QueryMPEInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryMPEInfo, mstv.ipmt_querympeinfo
 ms.prod: windows
 ms.technology: windows-sdk

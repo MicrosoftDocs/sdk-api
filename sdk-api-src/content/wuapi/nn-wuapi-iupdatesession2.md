@@ -7,7 +7,7 @@ old-location: wua\iupdatesession2.htm
 old-project: Wua_Sdk
 ms.assetid: c074cbc8-6d1b-41dd-a54c-30f02fca9215
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateSession2, IUpdateSession2 interface [Windows Update Agent], IUpdateSession2 interface [Windows Update Agent],described, wua.iupdatesession2, wuapi/IUpdateSession2
 ms.prod: windows
 ms.technology: windows-sdk

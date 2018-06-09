@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo.htm
 old-project: MsCS
 ms.assetid: e41afb20-5bb8-475f-a056-53d7be8f4bf0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], IGetClusterUIInfo interface [Failover Cluster],described, _wolf_igetclusteruiinfo, cluadmex/IGetClusterUIInfo, mscs.igetclusteruiinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,15 +136,15 @@ You can use the <b>IGetClusterUIInfo</b> interface when
 <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
 </li>
 </ul>
-Failover Cluster Administrator passes in an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> 
+Failover Cluster Administrator passes in an <a href="_com_iunknown">IUnknown</a> 
      interface pointer, <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for one of the 
+     <a href="_com_IUnknown_QueryInterface">QueryInterface</a> for one of the 
      <b>IGetClusterUIInfo</b> methods.
 
 Do not obtain other information interfaces, such as 
      <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterUIInfo</b> interface. While 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> will return a valid interface, 
+     <a href="_com_IUnknown_QueryInterface">QueryInterface</a> will return a valid interface, 
      the operation is not valid in the context of the cluster, and the result is an interface that represents no real 
      cluster object. For an illustration, see 
      <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a>.

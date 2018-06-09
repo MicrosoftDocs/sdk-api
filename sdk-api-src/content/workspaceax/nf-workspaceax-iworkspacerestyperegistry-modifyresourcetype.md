@@ -7,7 +7,7 @@ old-location: termserv\iworkspacerestyperegistry_modifyresourcetype.htm
 old-project: TermServ
 ms.assetid: a1feac54-218c-4c17-87d6-27d764d355f9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWorkspaceResTypeRegistry interface [Remote Desktop Services],ModifyResourceType method, IWorkspaceResTypeRegistry.ModifyResourceType, IWorkspaceResTypeRegistry::ModifyResourceType, ModifyResourceType, ModifyResourceType method [Remote Desktop Services], ModifyResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, ModifyResourceType method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],ModifyResourceType method, termserv.iworkspacerestyperegistry_modifyresourcetype, workspaceax/IWorkspaceResTypeRegistry::ModifyResourceType
 ms.prod: windows
 ms.technology: windows-sdk

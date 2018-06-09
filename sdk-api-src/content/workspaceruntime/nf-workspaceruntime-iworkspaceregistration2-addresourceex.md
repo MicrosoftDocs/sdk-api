@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceregistration2_addresourceex.htm
 old-project: TermServ
 ms.assetid: 7bb26842-ca30-40e2-b7a2-474dda4ad433
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: AddResourceEx, AddResourceEx method [Remote Desktop Services], AddResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResourceEx method [Remote Desktop Services],Workspace object, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResourceEx method, IWorkspaceRegistration2.AddResourceEx, IWorkspaceRegistration2::AddResourceEx, Workspace object [Remote Desktop Services],AddResourceEx method, termserv.iworkspaceregistration2_addresourceex, workspaceruntime/IWorkspaceRegistration2::AddResourceEx
 ms.prod: windows
 ms.technology: windows-sdk

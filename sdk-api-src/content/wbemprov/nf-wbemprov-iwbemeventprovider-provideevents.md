@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventprovider_provideevents.htm
 old-project: WmiSdk
 ms.assetid: 0ebabdaf-fd91-49f8-8454-38ff77952662
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemEventProvider interface [Windows Management Instrumentation],ProvideEvents method, IWbemEventProvider.ProvideEvents, IWbemEventProvider::ProvideEvents, ProvideEvents, ProvideEvents method [Windows Management Instrumentation], ProvideEvents method [Windows Management Instrumentation],IWbemEventProvider interface, _hmm_iwbemeventprovider_provideevents, wbemprov/IWbemEventProvider::ProvideEvents, wmi.iwbemeventprovider_provideevents
 ms.prod: windows
 ms.technology: windows-sdk

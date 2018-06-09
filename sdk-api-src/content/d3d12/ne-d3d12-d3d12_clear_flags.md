@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_clear_flags.htm
 old-project: direct3d12
 ms.assetid: F66672BC-1610-43F2-BF39-5F498183E3A5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_CLEAR_FLAGS, D3D12_CLEAR_FLAGS enumeration, D3D12_CLEAR_FLAG_DEPTH, D3D12_CLEAR_FLAG_STENCIL, d3d12/D3D12_CLEAR_FLAGS, d3d12/D3D12_CLEAR_FLAG_DEPTH, d3d12/D3D12_CLEAR_FLAG_STENCIL, direct3d12.d3d12_clear_flags
 ms.prod: windows
 ms.technology: windows-sdk

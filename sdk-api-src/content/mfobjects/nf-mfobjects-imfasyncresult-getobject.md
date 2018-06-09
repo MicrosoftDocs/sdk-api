@@ -7,7 +7,7 @@ old-location: mf\imfasyncresult_getobject.htm
 old-project: medfound
 ms.assetid: b4b871ff-370d-4a37-9fe4-91d1805890eb
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetObject method, IMFAsyncResult.GetObject, IMFAsyncResult::GetObject, b4b871ff-370d-4a37-9fe4-91d1805890eb, mf.imfasyncresult_getobject, mfobjects/IMFAsyncResult::GetObject
 ms.prod: windows
 ms.technology: windows-sdk

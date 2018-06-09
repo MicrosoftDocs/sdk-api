@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_close.htm
 old-project: audio
 ms.assetid: 275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: Close, Close method [Audio Devices], Close method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Close method, IDirectMusicSynth.Close, IDirectMusicSynth::Close, audio.idirectmusicsynth_close, audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml, dmusics/IDirectMusicSynth::Close
 ms.prod: windows
 ms.technology: windows-sdk

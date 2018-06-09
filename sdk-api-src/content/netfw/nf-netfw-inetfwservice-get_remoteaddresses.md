@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 6cb1dfa1-1e92-47a8-9a97-45443f487f6e
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwService interface [ICS/ICF],RemoteAddresses property, INetFwService.RemoteAddresses, INetFwService.get_RemoteAddresses, INetFwService::RemoteAddresses, INetFwService::get_RemoteAddresses, INetFwService::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwService interface, get_RemoteAddresses, ics.inetfwservice_remoteaddresses, netfw/INetFwService::RemoteAddresses, netfw/INetFwService::get_RemoteAddresses, netfw/INetFwService::put_RemoteAddresses
 ms.prod: windows
 ms.technology: windows-sdk

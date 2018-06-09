@@ -7,7 +7,7 @@ old-location: winrt\idllserveractivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassRegistration interface [Windows Runtime], IDllServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IDllServerActivatableClassRegistration, winrt.idllserveractivatableclassregistration
 ms.prod: windows
 ms.technology: windows-sdk

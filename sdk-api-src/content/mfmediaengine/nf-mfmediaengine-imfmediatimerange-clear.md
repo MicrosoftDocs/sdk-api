@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_clear.htm
 old-project: medfound
 ms.assetid: F7CDC73E-CF14-48E2-9C8A-E1944099861A
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

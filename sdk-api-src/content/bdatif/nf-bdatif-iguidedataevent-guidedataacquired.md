@@ -7,7 +7,7 @@ old-location: mstv\iguidedataevent_guidedataacquired.htm
 old-project: mstv
 ms.assetid: 00f1aec7-4d26-4323-9d7e-c75d9a0c374c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GuideDataAcquired, GuideDataAcquired method [Microsoft TV Technologies], GuideDataAcquired method [Microsoft TV Technologies],IGuideDataEvent interface, IGuideDataEvent interface [Microsoft TV Technologies],GuideDataAcquired method, IGuideDataEvent.GuideDataAcquired, IGuideDataEvent::GuideDataAcquired, IGuideDataEventGuideDataAcquired, bdatif/IGuideDataEvent::GuideDataAcquired, mstv.iguidedataevent_guidedataacquired
 ms.prod: windows
 ms.technology: windows-sdk

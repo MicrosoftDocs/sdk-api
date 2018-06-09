@@ -7,7 +7,7 @@ old-location: mbn\imbnsms_smsdelete.htm
 old-project: mbn
 ms.assetid: cd37582e-891d-4f6a-aba3-01ad3101a6b9
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsDelete method, IMbnSms.SmsDelete, IMbnSms::SmsDelete, SmsDelete, SmsDelete method [Microsoft Broadband Networks], SmsDelete method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsdelete, mbnapi/IMbnSms::SmsDelete
 ms.prod: windows
 ms.technology: windows-sdk

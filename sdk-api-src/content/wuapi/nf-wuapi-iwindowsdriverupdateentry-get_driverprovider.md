@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentry_driverprovider.htm
 old-project: Wua_Sdk
 ms.assetid: 8462cbf0-b362-4143-9cc5-0af41ae4f597
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdateEntry.DriverProvider, IWindowsDriverUpdateEntry.get_DriverProvider, IWindowsDriverUpdateEntry::DriverProvider, IWindowsDriverUpdateEntry::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdateentry_driverprovider, wuapi/IWindowsDriverUpdateEntry::DriverProvider, wuapi/IWindowsDriverUpdateEntry::get_DriverProvider
 ms.prod: windows
 ms.technology: windows-sdk

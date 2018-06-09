@@ -7,7 +7,7 @@ old-location: security\imscepsetup_getkeylengthlist.htm
 old-project: SecCrypto
 ms.assetid: 992619dd-1d59-4033-b3aa-ae32dc9948c2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetKeyLengthList method, IMSCEPSetup.GetKeyLengthList, IMSCEPSetup::GetKeyLengthList, casetup/IMSCEPSetup::GetKeyLengthList, security.imscepsetup_getkeylengthlist
 ms.prod: windows
 ms.technology: windows-sdk

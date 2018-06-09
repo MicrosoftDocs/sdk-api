@@ -7,7 +7,7 @@ old-location: mstv\idvbteletextdescriptor_getrecordlangid.htm
 old-project: mstv
 ms.assetid: cce0fd15-5098-4871-baab-e40b6cae39b1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbTeletextDescriptor.GetRecordLangId, IDvbTeletextDescriptor::GetRecordLangId, dvbsiparser/IDvbTeletextDescriptor::GetRecordLangId, mstv.idvbteletextdescriptor_getrecordlangid
 ms.prod: windows
 ms.technology: windows-sdk

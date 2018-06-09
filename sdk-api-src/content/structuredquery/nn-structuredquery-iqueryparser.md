@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search],described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -165,7 +165,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://www.bing.com/search?q=Advanced+Query+Syntax">Advanced Query Syntax</a>
+<a href="search._search_2x_WDS_AqsReference">Advanced Query Syntax</a>
  
 
  

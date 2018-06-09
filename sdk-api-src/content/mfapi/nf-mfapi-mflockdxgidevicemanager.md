@@ -7,7 +7,7 @@ old-location: mf\mflockdxgidevicemanager.htm
 old-project: medfound
 ms.assetid: 01A789BA-C1DE-4EF8-81C4-261F59D5843B
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFLockDXGIDeviceManager, MFLockDXGIDeviceManager function [Media Foundation], mf.mflockdxgidevicemanager, mfapi/MFLockDXGIDeviceManager
 ms.prod: windows
 ms.technology: windows-sdk

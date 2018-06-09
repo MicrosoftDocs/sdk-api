@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_beforenavigate.htm
 old-project: debug_wwahost
 ms.assetid: 1088bfa3-0a20-4156-90ff-50129e903052
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/04/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Fired before navigate occurs in the given host (window or frameset element).
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://www.bing.com/search?q=IHTMLWindow2">IHTMLWindow2</a>*</b>
+Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
 
 The window or frame in which the navigation is about occur.
 

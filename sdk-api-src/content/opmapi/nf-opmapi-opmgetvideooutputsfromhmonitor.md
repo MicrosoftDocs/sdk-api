@@ -7,7 +7,7 @@ old-location: mf\opmgetvideooutputsfromhmonitor.htm
 old-project: medfound
 ms.assetid: c034ac81-43d4-482a-9dad-234d33a15046
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromhmonitor, opmapi/OPMGetVideoOutputsFromHMONITOR
 ms.prod: windows
 ms.technology: windows-sdk

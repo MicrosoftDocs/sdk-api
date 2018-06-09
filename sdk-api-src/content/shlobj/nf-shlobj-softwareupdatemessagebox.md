@@ -7,7 +7,7 @@ old-location: shell\SoftwareUpdateMessageBox.htm
 old-project: shell
 ms.assetid: 8b392355-6882-45e3-b915-5091c9ba51ad
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SoftwareUpdateMessageBox, SoftwareUpdateMessageBox function [Windows Shell], _win32_SoftwareUpdateMessageBox, shell.SoftwareUpdateMessageBox, shlobj/SoftwareUpdateMessageBox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,7 +154,7 @@ An error occurred.
 
 
 
-The preferred way to handle updates is to author a Channel Definition Format (CDF) with an Open Software Description (OSD) vocabulary and make the shortcut OSD-aware. Refer to the <a href="https://www.bing.com/search?q=Channel+Definition+Format">Channel Definition Format</a> documentation for details.
+The preferred way to handle updates is to author a Channel Definition Format (CDF) with an Open Software Description (OSD) vocabulary and make the shortcut OSD-aware. Refer to the <a href="_inet_Active_Channel_Technology_Overview">Channel Definition Format</a> documentation for details.
 
 The <b>SoftwareUpdateMessageBox</b> function is intended to be used in the case where Shell shortcut hooks do not work. One example is an application that was not installed on the start menu. If that application needs to do its own software update check, it should use this function.
 

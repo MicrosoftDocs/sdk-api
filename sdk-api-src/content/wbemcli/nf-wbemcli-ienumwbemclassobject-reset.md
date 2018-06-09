@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_reset.htm
 old-project: WmiSdk
 ms.assetid: 571b7067-676f-4e9e-9694-268ec10dc60b
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Reset method, IEnumWbemClassObject.Reset, IEnumWbemClassObject::Reset, Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset
 ms.prod: windows
 ms.technology: windows-sdk

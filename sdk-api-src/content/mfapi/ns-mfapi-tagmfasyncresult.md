@@ -7,7 +7,7 @@ old-location: mf\mfasyncresult.htm
 old-project: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT, tagMFASYNCRESULT
 ms.prod: windows
 ms.technology: windows-sdk

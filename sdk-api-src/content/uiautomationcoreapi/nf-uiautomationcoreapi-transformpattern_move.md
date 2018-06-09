@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TransformPattern_MoveConPat.htm
 old-project: WinAuto
 ms.assetid: 283bf97f-b5fd-438c-b923-9aca97a69e1b
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: TransformPattern_Move, TransformPattern_Move function [Windows Accessibility], uiauto.uiauto_TransformPattern_MoveConPat, uiauto_TransformPattern_MoveConPat, uiautomationcoreapi/TransformPattern_Move, winauto.uiauto_TransformPattern_MoveConPat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmderivedobjectsresult_results.htm
 old-project: Fsrm
 ms.assetid: b5946160-565b-4c94-ba2e-18f270eb1af1
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmDerivedObjectsResult interface [File Server Resource Manager],Results property, IFsrmDerivedObjectsResult.Results, IFsrmDerivedObjectsResult.get_Results, IFsrmDerivedObjectsResult::Results, IFsrmDerivedObjectsResult::get_Results, Results property [File Server Resource Manager], Results property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, fs.ifsrmderivedobjectsresult_results, fsrm.ifsrmderivedobjectsresult_results, fsrm/IFsrmDerivedObjectsResult::Results, fsrm/IFsrmDerivedObjectsResult::get_Results, get_Results
 ms.prod: windows
 ms.technology: windows-sdk

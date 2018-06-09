@@ -7,7 +7,7 @@ old-location: mf\mfputworkitemex2.htm
 old-project: medfound
 ms.assetid: A29DC852-AF0F-4269-97FB-DA1F725E7C09
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFPutWorkItemEx2, MFPutWorkItemEx2 function [Media Foundation], mf.mfputworkitemex2, mfapi/MFPutWorkItemEx2
 ms.prod: windows
 ms.technology: windows-sdk

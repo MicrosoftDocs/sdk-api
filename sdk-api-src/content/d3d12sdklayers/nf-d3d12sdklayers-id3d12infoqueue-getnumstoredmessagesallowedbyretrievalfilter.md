@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnumstoredmessagesallowedbyretrievalf
 old-project: direct3d12
 ms.assetid: 57F10336-2304-4DC9-B62B-6536A7AD76CB
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method, GetNumStoredMessagesAllowedByRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D12InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d12.id3d12infoqueue_getnumstoredmessagesallowedbyretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk

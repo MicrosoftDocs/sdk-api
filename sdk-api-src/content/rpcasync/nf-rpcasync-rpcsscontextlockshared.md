@@ -136,11 +136,11 @@ The
 
 
 
-<a href="https://www.bing.com/search?q=context_handle">context_handle</a>
+<a href="midl.context_handle">context_handle</a>
 
 
 
-<a href="https://www.bing.com/search?q=context_handle_noserialize">context_handle_noserialize</a>
+<a href="midl.context_handle_noserialize">context_handle_noserialize</a>
 
 
 

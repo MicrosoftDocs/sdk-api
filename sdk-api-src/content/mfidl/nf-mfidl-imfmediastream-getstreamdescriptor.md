@@ -7,7 +7,7 @@ old-location: mf\imfmediastream_getstreamdescriptor.htm
 old-project: medfound
 ms.assetid: 574eacfb-3acd-4b47-9c25-3a67aae01178
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 574eacfb-3acd-4b47-9c25-3a67aae01178, GetStreamDescriptor, GetStreamDescriptor method [Media Foundation], GetStreamDescriptor method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetStreamDescriptor method, IMFMediaStream.GetStreamDescriptor, IMFMediaStream::GetStreamDescriptor, mf.imfmediastream_getstreamdescriptor, mfidl/IMFMediaStream::GetStreamDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

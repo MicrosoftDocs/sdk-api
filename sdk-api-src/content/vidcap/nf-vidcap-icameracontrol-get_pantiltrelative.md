@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_pantiltrelative.htm
 old-project: DirectShow
 ms.assetid: 5d96dcfb-c0c4-4521-bf1f-30947577d305
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanTiltRelative method, ICameraControl.get_PanTiltRelative, ICameraControl::get_PanTiltRelative, ICameraControlget_PanTiltRelative, dshow.icameracontrol_get_pantiltrelative, get_PanTiltRelative, get_PanTiltRelative method [DirectShow], get_PanTiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanTiltRelative
 ms.prod: windows
 ms.technology: windows-sdk

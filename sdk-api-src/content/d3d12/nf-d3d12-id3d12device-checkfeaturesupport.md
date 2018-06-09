@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_checkfeaturesupport.htm
 old-project: direct3d12
 ms.assetid: 2E986E37-30C7-45FE-BC8B-A6DD5670938F
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,ID3D12Device interface, ID3D12Device interface,CheckFeatureSupport method, ID3D12Device.CheckFeatureSupport, ID3D12Device::CheckFeatureSupport, d3d12/ID3D12Device::CheckFeatureSupport, direct3d12.id3d12device_checkfeaturesupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
               Returns <b>S_OK</b> if successful; otherwise, returns <b>E_INVALIDARG</b> if an unsupported data type is passed to the <i>pFeatureSupportData</i> parameter or a size mismatch is detected for the <i>FeatureSupportDataSize</i> parameter.
@@ -127,7 +127,7 @@ To view tables of DXGI formats and hardware features, refer to:
 <a href="https://msdn.microsoft.com/735CDA40-557F-4D47-87B7-97A8E120B9D2">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="https://www.bing.com/search?q=Hardware+Support+for+Direct3D+10Level9+Formats">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="direct3ddxgi.d3d11_graphics_programming_guide_dxgi_hw_formats_10level9">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/011ad888-1c1d-4cbd-ab70-12fb8adc000f">Hardware Support for Direct3D 10.1 Formats</a>

@@ -7,7 +7,7 @@ old-location: mstv\idvbshorteventdescriptor_getlanguagecode.htm
 old-project: mstv
 ms.assetid: c531ae74-586f-4191-9b77-5f5837e551c4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbShortEventDescriptor.GetLanguageCode, IDvbShortEventDescriptor::GetLanguageCode, dvbsiparser/IDvbShortEventDescriptor::GetLanguageCode, mstv.idvbshorteventdescriptor_getlanguagecode
 ms.prod: windows
 ms.technology: windows-sdk

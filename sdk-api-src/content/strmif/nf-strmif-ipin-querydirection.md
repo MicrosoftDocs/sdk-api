@@ -7,7 +7,7 @@ old-location: dshow\ipin_querydirection.htm
 old-project: DirectShow
 ms.assetid: cc36b5d6-bcca-403d-b840-ceabbf159f5d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection
 ms.prod: windows
 ms.technology: windows-sdk

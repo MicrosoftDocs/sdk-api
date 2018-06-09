@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_restricted_shared_resource_process_ou
 old-project: medfound
 ms.assetid: 0668B546-6825-4AD9-85CF-CA238028B2E3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT, D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT, mf.d3d11_authenticated_query_restricted_shared_resource_process_output
 ms.prod: windows
 ms.technology: windows-sdk

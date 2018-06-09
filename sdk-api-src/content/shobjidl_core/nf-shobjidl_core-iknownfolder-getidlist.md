@@ -7,7 +7,7 @@ old-location: shell\IKnownFolder_GetIDList.htm
 old-project: shell
 ms.assetid: b1c77198-da52-4f74-9e20-56b6d1d450f5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetIDList method, IKnownFolder.GetIDList, IKnownFolder::GetIDList, _shell_IKnownFolder_GetIDList, shell.IKnownFolder_GetIDList, shobjidl_core/IKnownFolder::GetIDList
 ms.prod: windows
 ms.technology: windows-sdk

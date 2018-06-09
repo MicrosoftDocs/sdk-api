@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferrecordingcontrol_get_starttime.htm
 old-project: mstv
 ms.assetid: 3efe3cd3-cd26-4a91-b305-6e8677a0cd88
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_StartTime method, IMSVidStreamBufferRecordingControl.get_StartTime, IMSVidStreamBufferRecordingControl::get_StartTime, IMSVidStreamBufferRecordingControlget_StartTime, get_StartTime, get_StartTime method [Microsoft TV Technologies], get_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_starttime, segment/IMSVidStreamBufferRecordingControl::get_StartTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_static_sampler_desc.htm
 old-project: direct3d12
 ms.assetid: 35553C1C-3661-4778-8BC5-F2E6775DF96D
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_STATIC_SAMPLER_DESC, D3D12_STATIC_SAMPLER_DESC structure, d3d12/D3D12_STATIC_SAMPLER_DESC, direct3d12.d3d12_static_sampler_desc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfvideodspmode.htm
 old-project: medfound
 ms.assetid: 24A5190B-6839-4CA1-ADBF-CDBF9B47C6AF
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVideoDSPMode_Passthrough, MFVideoDSPMode_Stabilization, _MFVideoDSPMode, mf.mfvideodspmode, wmcodecdsp/MFVideoDSPMode, wmcodecdsp/MFVideoDSPMode_Passthrough, wmcodecdsp/MFVideoDSPMode_Stabilization
 ms.prod: windows
 ms.technology: windows-sdk

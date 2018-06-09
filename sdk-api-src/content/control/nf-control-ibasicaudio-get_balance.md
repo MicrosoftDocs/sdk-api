@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio_get_balance.htm
 old-project: DirectShow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
 ms.prod: windows
 ms.technology: windows-sdk

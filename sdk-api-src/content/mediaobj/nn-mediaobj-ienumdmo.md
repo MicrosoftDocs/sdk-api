@@ -7,7 +7,7 @@ old-location: dshow\ienumdmo.htm
 old-project: DirectShow
 ms.assetid: 221248f2-5c8f-442e-a6ad-e0372ddc1aae
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [DirectShow],described, IEnumDMOInterface, dshow.ienumdmo, mediaobj/IEnumDMO
 ms.prod: windows
 ms.technology: windows-sdk

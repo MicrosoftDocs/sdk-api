@@ -7,7 +7,7 @@ old-location: stg\fmtidtopropstgname.htm
 old-project: Stg
 ms.assetid: 044f8883-bbd2-4cd3-b9dc-739ecb711bdd
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: FmtIdToPropStgName, FmtIdToPropStgName function [Structured Storage], _stg_fmtidtopropstgname, coml2api/FmtIdToPropStgName, stg.fmtidtopropstgname
 ms.prod: windows
 ms.technology: windows-sdk

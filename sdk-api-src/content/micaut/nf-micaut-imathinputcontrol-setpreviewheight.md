@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_setpreviewheight.htm
 old-project: tablet
 ms.assetid: a5e011f6-cd51-4016-ba15-c47c152bfa99
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPreviewHeight method, IMathInputControl.SetPreviewHeight, IMathInputControl::SetPreviewHeight, SetPreviewHeight, SetPreviewHeight method [Tablet PC], SetPreviewHeight method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPreviewHeight, tablet.imathinputcontrol_setpreviewheight
 ms.prod: windows
 ms.technology: windows-sdk

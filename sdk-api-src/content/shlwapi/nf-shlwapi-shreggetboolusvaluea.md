@@ -7,7 +7,7 @@ old-location: shell\SHRegGetBoolUSValue.htm
 old-project: shell
 ms.assetid: afd95ce4-0ced-48ce-814f-1d02d7913be5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHRegGetBoolUSValue, SHRegGetBoolUSValue function [Windows Shell], SHRegGetBoolUSValueA, SHRegGetBoolUSValueW, _win32_SHRegGetBoolUSValue, shell.SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValueA, shlwapi/SHRegGetBoolUSValueW
 ms.prod: windows
 ms.technology: windows-sdk

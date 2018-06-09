@@ -7,7 +7,7 @@ old-location: mbn\mbn_provider.htm
 old-project: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: MBN_PROVIDER, MBN_PROVIDER structure [Microsoft Broadband Networks], mbn.mbn_provider, mbnapi/MBN_PROVIDER
 ms.prod: windows
 ms.technology: windows-sdk

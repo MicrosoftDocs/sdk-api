@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamsamplemanager_getstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 4EC64809-4647-4AEE-98ED-2EB6CC0329DB
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamSampleManager.GetStreamConfiguration, IMFMuxStreamSampleManager::GetStreamConfiguration, mf.imfmuxstreamsamplemanager_getstreamconfiguration, mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_resizetarget.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizetarget.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGISwapChain interface [DXGI],ResizeTarget method, IDXGISwapChain.ResizeTarget, IDXGISwapChain::ResizeTarget, ResizeTarget, ResizeTarget method [DXGI], ResizeTarget method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizetarget, dxgi/IDXGISwapChain::ResizeTarget, f136baf7-17fc-2a80-f25e-e0fc612bcad7
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ A pointer to a <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns a code that indicates success or failure. <b>DXGI_STATUS_MODE_CHANGE_IN_PROGRESS</b> is returned if a full-screen/windowed mode transition is occurring 
       when this API is called. See <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> for additional DXGI error codes.
@@ -89,7 +89,7 @@ Returns a code that indicates success or failure. <b>DXGI_STATUS_MODE_CHANGE_IN_
       chain is in full-screen mode. Therefore, apps can call <b>ResizeTarget</b> to resize the target window (rather than a Microsoft Win32API such as <a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>) 
       without knowledge of the swap chain display mode.
 
-If a Windows Store app calls <b>ResizeTarget</b>, it fails with <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
+If a Windows Store app calls <b>ResizeTarget</b>, it fails with <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
 
 You cannot call <b>ResizeTarget</b> on a swap chain that you created with <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>.
 

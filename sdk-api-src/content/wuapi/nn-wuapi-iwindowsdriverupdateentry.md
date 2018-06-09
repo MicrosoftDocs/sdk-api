@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentry.htm
 old-project: Wua_Sdk
 ms.assetid: 91b8ed77-70f7-400f-a887-b3cf9f573c76
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], IWindowsDriverUpdateEntry interface [Windows Update Agent],described, wua.iwindowsdriverupdateentry, wuapi/IWindowsDriverUpdateEntry
 ms.prod: windows
 ms.technology: windows-sdk

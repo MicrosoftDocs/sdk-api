@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gettransmissionmode.h
 old-project: mstv
 ms.assetid: d825f933-0da6-4e8e-bc28-b9e2db575a12
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, IDvbTerrestrialDeliverySystemDescriptorGetTransmissionMode, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.idvbterrestrialdeliverysystemdescriptor_gettransmissionmode
 ms.prod: windows
 ms.technology: windows-sdk

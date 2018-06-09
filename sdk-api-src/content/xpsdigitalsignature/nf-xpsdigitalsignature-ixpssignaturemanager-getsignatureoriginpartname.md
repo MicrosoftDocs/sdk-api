@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_getsignatureoriginpartname.htm
 old-project: printdocs
 ms.assetid: 0d70e6bc-1101-40fa-b91c-69facc3ca195
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [XPS Documents and Packaging], GetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureOriginPartName method, IXpsSignatureManager.GetSignatureOriginPartName, IXpsSignatureManager::GetSignatureOriginPartName, xps.ixpssignaturemanager_getsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName
 ms.prod: windows
 ms.technology: windows-sdk

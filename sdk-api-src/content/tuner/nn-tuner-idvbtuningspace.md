@@ -7,7 +7,7 @@ old-location: mstv\idvbtuningspace.htm
 old-project: mstv
 ms.assetid: fba3c7f3-61f8-4704-8068-cb1d3171345a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVBTuningSpace, IDVBTuningSpace interface [Microsoft TV Technologies], IDVBTuningSpace interface [Microsoft TV Technologies],described, IDVBTuningSpaceInterface, mstv.idvbtuningspace, tuner/IDVBTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

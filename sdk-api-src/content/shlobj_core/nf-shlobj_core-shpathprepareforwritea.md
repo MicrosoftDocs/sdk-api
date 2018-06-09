@@ -7,7 +7,7 @@ old-location: shell\SHPathPrepareForWrite.htm
 old-project: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHPPFW_ASKDIRCREATE, SHPPFW_DEFAULT, SHPPFW_DIRCREATE, SHPPFW_IGNOREFILENAME, SHPPFW_MEDIACHECKONLY, SHPPFW_NONE, SHPPFW_NOWRITECHECK, SHPathPrepareForWrite, SHPathPrepareForWrite function [Windows Shell], SHPathPrepareForWriteA, SHPathPrepareForWriteW, _shell_shpathprepareforwrite, shell.SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWriteA, shlobj_core/SHPathPrepareForWriteW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>*</b>
+Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface that specifies the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject.md">IOleInPlaceActiveObject</a> object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">EnableModeless</a> method.
+A pointer to an <a href="_com_iunknown">IUnknown</a> interface that specifies the <a href="_ole_ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
 
 
 ### -param pszPath [in]

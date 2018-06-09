@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation5_AddNotificationEventHandler.htm
 old-project: WinAuto
 ms.assetid: 1E6A4683-9439-4212-9EA6-91719A515C4B
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: AddNotificationEventHandler, AddNotificationEventHandler method [Windows Accessibility], AddNotificationEventHandler method [Windows Accessibility],IUIAutomation5 interface, IUIAutomation5 interface [Windows Accessibility],AddNotificationEventHandler method, IUIAutomation5.AddNotificationEventHandler, IUIAutomation5::AddNotificationEventHandler, uiautomationclient/IUIAutomation5::AddNotificationEventHandler, winauto.uiauto_IUIAutomation5_AddNotificationEventHandler
 ms.prod: windows
 ms.technology: windows-sdk

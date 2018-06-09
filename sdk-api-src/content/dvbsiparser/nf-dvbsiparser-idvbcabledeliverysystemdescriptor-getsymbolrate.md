@@ -7,7 +7,7 @@ old-location: mstv\idvbcabledeliverysystemdescriptor_getsymbolrate.htm
 old-project: mstv
 ms.assetid: 0484e12d-6b93-4ed6-865a-d4992ad1de75
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetSymbolRate, GetSymbolRate method [Microsoft TV Technologies], GetSymbolRate method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetSymbolRate method, IDvbCableDeliverySystemDescriptor.GetSymbolRate, IDvbCableDeliverySystemDescriptor::GetSymbolRate, IDvbCableDeliverySystemDescriptorGetSymbolRate, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetSymbolRate, mstv.idvbcabledeliverysystemdescriptor_getsymbolrate
 ms.prod: windows
 ms.technology: windows-sdk

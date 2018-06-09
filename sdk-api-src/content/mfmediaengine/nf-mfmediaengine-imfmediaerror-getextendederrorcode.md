@@ -7,7 +7,7 @@ old-location: mf\imfmediaerror_getextendederrorcode.htm
 old-project: medfound
 ms.assetid: 73B414F2-F17E-418E-9F8B-A7C378F80090
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFMediaError interface, IMFMediaError interface [Media Foundation],GetExtendedErrorCode method, IMFMediaError.GetExtendedErrorCode, IMFMediaError::GetExtendedErrorCode, mf.imfmediaerror_getextendederrorcode, mfmediaengine/IMFMediaError::GetExtendedErrorCode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

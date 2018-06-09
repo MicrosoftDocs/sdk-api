@@ -242,7 +242,7 @@ A fax client application passes the <b>FAX_JOB_PARAM</b> structure in a call to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
+<a href="_tapi2_linemakecall">lineMakeCall</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\igetclustergroupinfo_getgrouphandle.htm
 old-project: MsCS
 ms.assetid: b578b3fa-9c3d-4f94-b35f-ba0fbe1fdd40
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: GetGroupHandle, GetGroupHandle method [Failover Cluster], GetGroupHandle method [Failover Cluster],IGetClusterGroupInfo interface, IGetClusterGroupInfo interface [Failover Cluster],GetGroupHandle method, IGetClusterGroupInfo.GetGroupHandle, IGetClusterGroupInfo::GetGroupHandle, _wolf_igetclustergroupinfo_getgrouphandle, cluadmex/IGetClusterGroupInfo::GetGroupHandle, mscs.igetclustergroupinfo_getgrouphandle
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ics\istaticportmapping_editinternalclient.htm
 old-project: ICS
 ms.assetid: 864d0edf-c9fd-4ea0-b950-119dc4a630dc
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: EditInternalClient, EditInternalClient method [ICS/ICF], EditInternalClient method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalClient method, IStaticPortMapping.EditInternalClient, IStaticPortMapping::EditInternalClient, _ics_istaticportmapping_editinternalclient, ics.istaticportmapping_editinternalclient, natupnp/IStaticPortMapping::EditInternalClient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -181,7 +181,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
 
 
 

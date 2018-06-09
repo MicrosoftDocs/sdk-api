@@ -7,7 +7,7 @@ old-location: security\cryptui_initdialog_struct.htm
 old-project: SecCrypto
 ms.assetid: c6335c02-3b3e-45e2-bb58-b7213aea500b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: "*PCRYPTUI_INITDIALOG_STRUCT, CRYPTUI_INITDIALOG_STRUCT, CRYPTUI_INITDIALOG_STRUCT structure [Security], PCRYPTUI_INITDIALOG_STRUCT, PCRYPTUI_INITDIALOG_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_INITDIALOG_STRUCT, cryptuiapi/PCRYPTUI_INITDIALOG_STRUCT, security.cryptui_initdialog_struct, tagCRYPTUI_INITDIALOG_STRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-The <b>CRYPTUI_INITDIALOG_STRUCT</b> structure supports the <a href="https://msdn.microsoft.com/7bbd58df-3a1b-4d82-9a90-7c94260a7165">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. It  is passed as the <i>lParam</i> in the <a href="https://www.bing.com/search?q=WM_INITDIALOG">WM_INITDIALOG</a> call to each
+The <b>CRYPTUI_INITDIALOG_STRUCT</b> structure supports the <a href="https://msdn.microsoft.com/7bbd58df-3a1b-4d82-9a90-7c94260a7165">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. It  is passed as the <i>lParam</i> in the <a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> call to each
 property sheet that is in the <b>rgPropSheetPages</b> array of the <a href="https://msdn.microsoft.com/7bbd58df-3a1b-4d82-9a90-7c94260a7165">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure. The <b>CRYPTUI_VIEWCERTIFICATE_STRUCT</b> structure is used in the <a href="https://msdn.microsoft.com/5107ff22-78c4-4005-80af-ff45781da6c7">CryptUIDlgViewCertificate</a> function.
 
 
@@ -61,7 +61,7 @@ property sheet that is in the <b>rgPropSheetPages</b> array of the <a href="http
 
 ### -field lParam
 
-The <b>lParam</b> in the <a href="https://www.bing.com/search?q=PROPSHEETPAGE">PROPSHEETPAGE</a> structure.
+The <b>lParam</b> in the <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure.
 
 
 ### -field pCertContext

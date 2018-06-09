@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomixerandpresenter.htm
 old-project: medfound
 ms.assetid: 1777027a-85bb-47d2-baf8-6f420282b01a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 1777027a-85bb-47d2-baf8-6f420282b01a, MFCreateVideoMixerAndPresenter, MFCreateVideoMixerAndPresenter callback, MFCreateVideoMixerAndPresenter callback function [Media Foundation], evr/MFCreateVideoMixerAndPresenter, mf.mfcreatevideomixerandpresenter
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IStream_Copy.htm
 old-project: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
 ms.prod: windows
 ms.technology: windows-sdk

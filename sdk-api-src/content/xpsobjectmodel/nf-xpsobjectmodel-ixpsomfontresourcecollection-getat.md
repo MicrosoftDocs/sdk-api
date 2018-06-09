@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection_getat.htm
 old-project: printdocs
 ms.assetid: c97409fd-3210-4177-8b8e-46a725d17425
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMFontResourceCollection.GetAt, IXpsOMFontResourceCollection::GetAt, xps.ixpsomfontresourcecollection_getat, xpsobjectmodel/IXpsOMFontResourceCollection::GetAt
 ms.prod: windows
 ms.technology: windows-sdk

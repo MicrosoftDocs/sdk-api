@@ -7,7 +7,7 @@ old-location: wua\iinstallationjob_getprogress.htm
 old-project: Wua_Sdk
 ms.assetid: 7d63ec9d-bf7a-4c5d-a1e7-4dcc0f236d07
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetProgress, GetProgress method [Windows Update Agent], GetProgress method [Windows Update Agent],IInstallationJob interface, IInstallationJob interface [Windows Update Agent],GetProgress method, IInstallationJob.GetProgress, IInstallationJob::GetProgress, wua.iinstallationjob_getprogress, wuapi/IInstallationJob::GetProgress
 ms.prod: windows
 ms.technology: windows-sdk

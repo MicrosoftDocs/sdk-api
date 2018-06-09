@@ -7,7 +7,7 @@ old-location: shell\SHFreeShared.htm
 old-project: shell
 ms.assetid: 5a86ae5d-8caa-4126-a22e-bc3cc7df2381
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHFreeShared, SHFreeShared function [Windows Shell], _win32_SHFreeShared, shell.SHFreeShared, shlwapi/SHFreeShared
 ms.prod: windows
 ms.technology: windows-sdk

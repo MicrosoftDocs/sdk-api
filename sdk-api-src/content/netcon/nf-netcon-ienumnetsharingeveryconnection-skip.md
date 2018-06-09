@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingeveryconnection_skip.htm
 old-project: ICS
 ms.assetid: 97400d6a-67b7-4091-82ef-38cbaa27efa5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Skip method, IEnumNetSharingEveryConnection.Skip, IEnumNetSharingEveryConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_skip, ics.ienumnetsharingeveryconnection_skip, netcon/IEnumNetSharingEveryConnection::Skip
 ms.prod: windows
 ms.technology: windows-sdk

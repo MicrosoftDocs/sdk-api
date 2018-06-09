@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetParentSite.htm
 old-project: shell
 ms.assetid: 91d031ae-1451-4379-9d8e-baddefd30435
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetParentSite, GetParentSite method [Windows Shell], GetParentSite method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetParentSite method, IBrowserService.GetParentSite, IBrowserService::GetParentSite, shdeprecated/IBrowserService::GetParentSite, shell.IBrowserService_GetParentSite, zone_IBrowserService_GetParentSite
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ipmt_getprogramnumber.htm
 old-project: mstv
 ms.assetid: 39006f8b-7dd4-4f19-badc-3a288a7b6520
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetProgramNumber, GetProgramNumber method [Microsoft TV Technologies], GetProgramNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetProgramNumber method, IPMT.GetProgramNumber, IPMT::GetProgramNumber, IPMTGetProgramNumber, mpeg2psiparser/IPMT::GetProgramNumber, mstv.ipmt_getprogramnumber
 ms.prod: windows
 ms.technology: windows-sdk

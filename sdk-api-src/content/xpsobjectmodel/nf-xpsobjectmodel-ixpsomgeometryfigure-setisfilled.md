@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_setisfilled.htm
 old-project: printdocs
 ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
 ms.prod: windows
 ms.technology: windows-sdk

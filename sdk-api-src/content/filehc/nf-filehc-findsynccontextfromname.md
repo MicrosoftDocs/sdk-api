@@ -7,7 +7,7 @@ old-location: winprog\_findsynccontextfromname.htm
 old-project: DevNotes
 ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname
 ms.prod: windows
 ms.technology: windows-sdk

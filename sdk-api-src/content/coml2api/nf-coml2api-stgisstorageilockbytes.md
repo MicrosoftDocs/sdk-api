@@ -7,7 +7,7 @@ old-location: stg\stgisstorageilockbytes.htm
 old-project: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,8 @@ The <b>StgIsStorageILockBytes</b> function indicates whether the specified byte 
 
 This function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface error return values. See 
-<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>
 
 
 

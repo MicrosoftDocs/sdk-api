@@ -7,7 +7,7 @@ old-location: wua\iupdate_supersededupdateids.htm
 old-project: Wua_Sdk
 ms.assetid: b819e321-3f8d-4d8f-8f6d-16792af990e5
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupersededUpdateIDs property, IUpdate.SupersededUpdateIDs, IUpdate.get_SupersededUpdateIDs, IUpdate::SupersededUpdateIDs, IUpdate::get_SupersededUpdateIDs, SupersededUpdateIDs property [Windows Update Agent], SupersededUpdateIDs property [Windows Update Agent],IUpdate interface, get_SupersededUpdateIDs, wua.iupdate_supercededupdateids, wua.iupdate_supersededupdateids, wuapi/IUpdate::SupersededUpdateIDs, wuapi/IUpdate::get_SupersededUpdateIDs
 ms.prod: windows
 ms.technology: windows-sdk

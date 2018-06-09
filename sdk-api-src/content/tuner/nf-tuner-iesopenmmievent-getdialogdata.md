@@ -7,7 +7,7 @@ old-location: mstv\iesopenmmievent_getdialogdata.htm
 old-project: mstv
 ms.assetid: c5deaffb-ceac-4609-a862-b050a1afa1f9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetDialogData, GetDialogData method [Microsoft TV Technologies], GetDialogData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogData method, IESOpenMmiEvent.GetDialogData, IESOpenMmiEvent::GetDialogData, mstv.iesopenmmievent_getdialogdata, tuner/IESOpenMmiEvent::GetDialogData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvbservicelistdescriptor.htm
 old-project: mstv
 ms.assetid: 0d39595b-0297-473d-9b0f-e038a938a196
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], IDvbServiceListDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceListDescriptor, mstv.idvbservicelistdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

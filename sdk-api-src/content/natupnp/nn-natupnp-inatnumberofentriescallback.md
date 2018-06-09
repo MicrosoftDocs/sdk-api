@@ -7,7 +7,7 @@ old-location: ics\inatnumberofentriescallback.htm
 old-project: ICS
 ms.assetid: c64e5ce3-78f6-4f51-8ae1-c871c4716d26
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], INATNumberOfEntriesCallback interface [ICS/ICF],described, _ics_inatnumberofentriescallback, ics.inatnumberofentriescallback, natupnp/INATNumberOfEntriesCallback
 ms.prod: windows
 ms.technology: windows-sdk

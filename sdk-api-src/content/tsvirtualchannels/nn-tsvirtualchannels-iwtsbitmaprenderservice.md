@@ -7,7 +7,7 @@ old-location: termserv\iwtsbitmaprenderservice.htm
 old-project: TermServ
 ms.assetid: 5ddc6ad8-1006-473e-b0f4-a5829045219a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: IWTSBitmapRenderService, IWTSBitmapRenderService interface [Remote Desktop Services], IWTSBitmapRenderService interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderservice, tsvirtualchannels/IWTSBitmapRenderService
 ms.prod: windows
 ms.technology: windows-sdk

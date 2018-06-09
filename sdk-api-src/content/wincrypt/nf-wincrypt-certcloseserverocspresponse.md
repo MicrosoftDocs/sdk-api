@@ -7,7 +7,7 @@ old-location: security\certcloseserverocspresponse.htm
 old-project: SecCrypto
 ms.assetid: 6247e8ca-ba12-432f-9bf8-a6c644f253e9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertCloseServerOcspResponse, CertCloseServerOcspResponse function [Security], security.certcloseserverocspresponse, wincrypt/CertCloseServerOcspResponse
 ms.prod: windows
 ms.technology: windows-sdk

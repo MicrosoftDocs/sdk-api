@@ -7,7 +7,7 @@ old-location: winprog\fnfciread.htm
 old-project: DevNotes
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
 ms.prod: windows
 ms.technology: windows-sdk

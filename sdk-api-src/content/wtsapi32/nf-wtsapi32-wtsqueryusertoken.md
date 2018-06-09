@@ -7,7 +7,7 @@ old-location: termserv\wtsqueryusertoken.htm
 old-project: TermServ
 ms.assetid: 5b33b67a-ab19-4c09-94a2-1ab8008551a8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: WTSQueryUserToken, WTSQueryUserToken function [Remote Desktop Services], _win32_wtsqueryusertoken, termserv.wtsqueryusertoken, wtsapi32/WTSQueryUserToken
 ms.prod: windows
 ms.technology: windows-sdk

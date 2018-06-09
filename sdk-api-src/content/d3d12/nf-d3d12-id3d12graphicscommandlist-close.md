@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_close.htm
 old-project: direct3d12
 ms.assetid: EA9F00AD-8506-4F3C-871E-A51ED69005BB
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: Close, Close method, Close method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,Close method, ID3D12GraphicsCommandList.Close, ID3D12GraphicsCommandList::Close, d3d12/ID3D12GraphicsCommandList::Close, direct3d12.id3d12graphicscommandlist_close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ req.irql:
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
                 Returns <b>S_OK</b> if successful; otherwise, returns one of the following values:

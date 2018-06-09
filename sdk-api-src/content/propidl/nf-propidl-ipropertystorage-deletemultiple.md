@@ -7,8 +7,8 @@ old-location: stg\ipropertystorage_deletemultiple.htm
 old-project: Stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
+ms.date: 06/06/2018
+ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeleteMultiple, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method

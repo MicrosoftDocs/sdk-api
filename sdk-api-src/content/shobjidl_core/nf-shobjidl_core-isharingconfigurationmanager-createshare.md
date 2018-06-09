@@ -7,7 +7,7 @@ old-location: shell\ISharingConfigurationManager_CreateShare.htm
 old-project: shell
 ms.assetid: 81bcd470-3fb8-4c6d-af4f-6f11206fa40a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: CreateShare, CreateShare method [Windows Shell], CreateShare method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],CreateShare method, ISharingConfigurationManager.CreateShare, ISharingConfigurationManager::CreateShare, SHARE_ROLE_CO_OWNER, SHARE_ROLE_READER, _shell_ISharingConfigurationManager_CreateShare, shell.ISharingConfigurationManager_CreateShare, shobjidl_core/ISharingConfigurationManager::CreateShare
 ms.prod: windows
 ms.technology: windows-sdk

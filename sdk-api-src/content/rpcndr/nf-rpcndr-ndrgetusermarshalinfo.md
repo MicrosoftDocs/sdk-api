@@ -146,11 +146,11 @@ For a full listing of the information returned by
 
 
 
-<a href="https://www.bing.com/search?q=user_marshal">user_marshal</a>
+<a href="midl.user_marshal">user_marshal</a>
 
 
 
-<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a>
+<a href="midl.wire_marshal">wire_marshal</a>
  
 
  

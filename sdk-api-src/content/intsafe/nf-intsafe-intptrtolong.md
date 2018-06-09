@@ -7,7 +7,7 @@ old-location: shell\IntPtrToLong.htm
 old-project: shell
 ms.assetid: 43ccfd9b-6bef-4870-ad7a-f207443cf5cf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IntPtrToLong, IntPtrToLong function [Windows Shell], _shell_IntPtrToLong, intsafe/IntPtrToLong, shell.IntPtrToLong
 ms.prod: windows
 ms.technology: windows-sdk

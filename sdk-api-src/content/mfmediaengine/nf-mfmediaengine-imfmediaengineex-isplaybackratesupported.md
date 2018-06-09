@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_isplaybackratesupported.htm
 old-project: medfound
 ms.assetid: 2BE9954A-0B67-45A8-9B79-1148DCB4DDC4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsPlaybackRateSupported method, IMFMediaEngineEx.IsPlaybackRateSupported, IMFMediaEngineEx::IsPlaybackRateSupported, IsPlaybackRateSupported, IsPlaybackRateSupported method [Media Foundation], IsPlaybackRateSupported method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isplaybackratesupported, mfmediaengine/IMFMediaEngineEx::IsPlaybackRateSupported
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: mf\mfdeserializepresentationdescriptor.htm
 old-project: medfound
 ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

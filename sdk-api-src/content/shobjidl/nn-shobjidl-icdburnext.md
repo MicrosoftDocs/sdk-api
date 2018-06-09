@@ -7,7 +7,7 @@ old-location: shell\ICDBurnExt.htm
 old-project: shell
 ms.assetid: e87a635b-9614-49e1-8633-f7cbb5050b9a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ICDBurnExt, ICDBurnExt interface [Windows Shell], ICDBurnExt interface [Windows Shell],described, _shell_ICDBurnExt, shell.ICDBurnExt, shobjidl/ICDBurnExt
 ms.prod: windows
 ms.technology: windows-sdk

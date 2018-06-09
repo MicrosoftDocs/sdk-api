@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm
 old-project: Fsrm
 ms.assetid: 02dbd15f-d3a2-4a81-a1e3-1f18676c2f5c
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Version property, IFsrmPipelineModuleDefinition.Version, IFsrmPipelineModuleDefinition.get_Version, IFsrmPipelineModuleDefinition::Version, IFsrmPipelineModuleDefinition::get_Version, IFsrmPipelineModuleDefinition::put_Version, Version property [File Server Resource Manager], Version property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_version, fsrm.ifsrmpipelinemoduledefinition_version, fsrmpipeline/IFsrmPipelineModuleDefinition::Version, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Version, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Version, get_Version
 ms.prod: windows
 ms.technology: windows-sdk

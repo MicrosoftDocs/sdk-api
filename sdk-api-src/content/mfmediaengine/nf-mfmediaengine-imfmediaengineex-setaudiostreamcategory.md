@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setaudiostreamcategory.htm
 old-project: medfound
 ms.assetid: 55906e89-4064-4355-ad44-7d7d973ddb2c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioStreamCategory method, IMFMediaEngineEx.SetAudioStreamCategory, IMFMediaEngineEx::SetAudioStreamCategory, SetAudioStreamCategory, SetAudioStreamCategory method [Media Foundation], SetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::SetAudioStreamCategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

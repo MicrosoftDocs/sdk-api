@@ -7,7 +7,7 @@ old-location: mf\d3d11_vpiv_dimension.htm
 old-project: medfound
 ms.assetid: 65003974-F86E-4604-BA8D-262CA2674D53
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: D3D11_VPIV_DIMENSION, D3D11_VPIV_DIMENSION enumeration [Media Foundation], D3D11_VPIV_DIMENSION_TEXTURE2D, D3D11_VPIV_DIMENSION_UNKNOWN, d3d11/D3D11_VPIV_DIMENSION, d3d11/D3D11_VPIV_DIMENSION_TEXTURE2D, d3d11/D3D11_VPIV_DIMENSION_UNKNOWN, mf.d3d11_vpiv_dimension
 ms.prod: windows
 ms.technology: windows-sdk

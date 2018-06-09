@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_inkspacetopixel.htm
 old-project: tablet
 ms.assetid: 9dfdc481-7129-47b1-9c5e-d17a70571ce2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 9dfdc481-7129-47b1-9c5e-d17a70571ce2, IInkRenderer, IInkRenderer interface [Tablet PC],InkSpaceToPixel method, IInkRenderer.InkSpaceToPixel, IInkRenderer::InkSpaceToPixel, InkSpaceToPixel, InkSpaceToPixel method [Tablet PC], InkSpaceToPixel method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::InkSpaceToPixel, tablet.inkrenderer_inkspacetopixel
 ms.prod: windows
 ms.technology: windows-sdk

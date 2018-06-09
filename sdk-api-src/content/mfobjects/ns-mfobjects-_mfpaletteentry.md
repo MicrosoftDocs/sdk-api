@@ -7,7 +7,7 @@ old-location: mf\mfpaletteentry.htm
 old-project: medfound
 ms.assetid: 72e45756-b1aa-4db0-a6e7-2e6ea97211b4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 72e45756-b1aa-4db0-a6e7-2e6ea97211b4, MFPaletteEntry, MFPaletteEntry union [Media Foundation], _MFPaletteEntry, mf.mfpaletteentry, mfobjects/MFPaletteEntry
 ms.prod: windows
 ms.technology: windows-sdk

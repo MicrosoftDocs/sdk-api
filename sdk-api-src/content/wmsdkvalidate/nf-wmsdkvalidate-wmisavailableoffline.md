@@ -7,7 +7,7 @@ old-location: wmformat\wmisavailableoffline.htm
 old-project: wmformat
 ms.assetid: caa700ba-143e-454b-9016-6e79c0a83271
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: WMIsAvailableOffline, WMIsAvailableOffline function [windows Media Format], wmformat.wmisavailableoffline, wmsdkvalidate/WMIsAvailableOffline
 ms.prod: windows
 ms.technology: windows-sdk

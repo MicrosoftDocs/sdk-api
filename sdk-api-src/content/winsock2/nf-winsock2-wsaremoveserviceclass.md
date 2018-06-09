@@ -82,7 +82,7 @@ Pointer to the GUID for the service class you want to remove.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSATYPE_NOT_FOUND">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -93,7 +93,7 @@ The specified class was not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEACCES">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -104,7 +104,7 @@ The calling routine does not have sufficient privileges to remove the Service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAETOOMANYREFS">WSAETOOMANYREFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAETOOMANYREFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ There are service instances that still reference the class. Removal of this clas
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ The specified GUID was not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSA_NOT_ENOUGH_MEMORY">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">

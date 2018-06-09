@@ -7,7 +7,7 @@ old-location: search\_search_IInterval_GetLimits.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IInterval interface, IInterval interface [search],GetLimits method, IInterval.GetLimits, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Specifies the lower and upper limits of an interval, each of which may be infini
         
 
 
-When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <a href="https://msdn.microsoft.com/b8a55ff7-cbe0-4f58-ad93-1a26ecf3fd7c">IInterval</a>.
+When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="_stg_propvariant">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <a href="https://msdn.microsoft.com/b8a55ff7-cbe0-4f58-ad93-1a26ecf3fd7c">IInterval</a>.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Receives a pointer to a value from the <a href="https://msdn.microsoft.com/02b25
 
 ### -param ppropvarLower [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Receives a pointer to the value for the lower limit of the interval. If the <i>pilkLower</i> parameter is set to <i>ILK_NEGATIVE_INFINITY</i> or <i>ILK_POSITIVE_INFINITY</i>, this value is set to <b>VT_EMPTY</b>.
 
@@ -86,7 +86,7 @@ Receives a pointer to a value from the <a href="https://msdn.microsoft.com/02b25
 
 ### -param ppropvarUpper [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Receives a pointer to the value for the upper limit of the interval. If the <i>pilkUpper</i> parameter is set to <i>ILK_NEGATIVE_INFINITY</i> or <i>ILK_POSITIVE_INFINITY</i>, this value will be set to <b>VT_EMPTY</b>.
 
@@ -106,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method retrieves interval limits in two <a href="https://msdn.microsoft.com/02b25f59-d00f-4ffa-bb7c-f02089235f4f">INTERVAL_LIMIT_KIND</a>—<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
+This method retrieves interval limits in two <a href="https://msdn.microsoft.com/02b25f59-d00f-4ffa-bb7c-f02089235f4f">INTERVAL_LIMIT_KIND</a>—<a href="_stg_propvariant">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
 
 The lower limit must be less than the upper limit or the interval will be empty. The only exception is when the lower and upper limits are equal and both are set to <i>ILK_EXPLICIT_INCLUDED</i>. In this case the range is the single value to which both limits are set. The following table illustrates how the pairs work to define intervals.
 

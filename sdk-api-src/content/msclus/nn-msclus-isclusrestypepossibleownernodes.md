@@ -7,7 +7,7 @@ old-location: mscs\clusrestypepossibleownernodes_collection.htm
 old-project: MsCS
 ms.assetid: be22d5b1-8c61-40a5-883c-f49651ba623d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusResTypePossibleOwnerNodes, ClusResTypePossibleOwnerNodes collection [Failover Cluster], ClusResTypePossibleOwnerNodes collection [Failover Cluster],described, ISClusResTypePossibleOwnerNodes, _wolf_clusrestypepossibleownernodes_collection, msclus/ClusResTypePossibleOwnerNodes, mscs.clusrestypepossibleownernodes_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Provides access to the <a href="https://www.bing.com/search?q=possible+owner">possible owner</a>
+Provides access to the <a href="p_gly.htm">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>.
 

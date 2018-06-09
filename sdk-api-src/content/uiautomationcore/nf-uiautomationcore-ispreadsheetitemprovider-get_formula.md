@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISpreadsheetItemProvider_Formula.htm
 old-project: WinAuto
 ms.assetid: 525A187A-0CAB-479C-9A04-03E231CC10EE
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: Formula property [Windows Accessibility], Formula property [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],Formula property, ISpreadsheetItemProvider.Formula, ISpreadsheetItemProvider.get_Formula, ISpreadsheetItemProvider::Formula, ISpreadsheetItemProvider::get_Formula, get_Formula, uiautomationcore/ISpreadsheetItemProvider::Formula, uiautomationcore/ISpreadsheetItemProvider::get_Formula, winauto.uiauto_ISpreadsheetItemProvider_Formula
 ms.prod: windows
 ms.technology: windows-sdk

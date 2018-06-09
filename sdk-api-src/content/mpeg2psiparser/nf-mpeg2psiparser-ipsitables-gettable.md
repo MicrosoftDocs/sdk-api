@@ -7,7 +7,7 @@ old-location: mstv\ipsitables_gettable.htm
 old-project: mstv
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ PID for a Program Mapping Table or the service ID (SID) for an EIT. Otherwise, n
 
 ### -param ppIUnknown [out]
 
-Pointer to  the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface for the table object that is retrieved. The caller is responsible for freeing the memory.
+Pointer to  the <a href="iunknown">IUnknown</a> interface for the table object that is retrieved. The caller is responsible for freeing the memory.
 
 
 ## -returns
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="iunknown">IUnknown</a>
  
 
  

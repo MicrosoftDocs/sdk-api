@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_sampler_desc.htm
 old-project: direct3d12
 ms.assetid: 96261FE1-89D4-4135-B5C4-2D788DF4FA12
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_SAMPLER_DESC, D3D12_SAMPLER_DESC structure, d3d12/D3D12_SAMPLER_DESC, direct3d12.d3d12_sampler_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ Describes a sampler state.
 ### -field BorderColor
 
 
-            Border color to use if <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE_BORDER</a> is specified for <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b>. Range must be between 0.0 and 1.0 inclusive.
+            Border color to use if <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_BORDER</a> is specified for <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b>. Range must be between 0.0 and 1.0 inclusive.
           
 
 

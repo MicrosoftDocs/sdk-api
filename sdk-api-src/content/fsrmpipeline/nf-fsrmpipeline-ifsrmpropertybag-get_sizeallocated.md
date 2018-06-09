@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_sizeallocated.htm
 old-project: Fsrm
 ms.assetid: d1ec946b-2769-4e0d-b01c-08ef6032df16
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag.get_SizeAllocated, IFsrmPropertyBag::SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated
 ms.prod: windows
 ms.technology: windows-sdk

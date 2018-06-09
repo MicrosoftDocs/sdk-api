@@ -7,7 +7,7 @@ old-location: gdi\ptreleasememory.htm
 old-project: printdocs
 ms.assetid: d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: PTReleaseMemory, PTReleaseMemory function [Windows GDI], _win32_PTReleaseMemory, gdi.ptreleasememory, prntvpt/PTReleaseMemory
 ms.prod: windows
 ms.technology: windows-sdk

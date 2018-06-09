@@ -7,7 +7,7 @@ old-location: multimedia\avistreamwrite.htm
 old-project: Multimedia
 ms.assetid: 9a306939-7b4f-4e0b-8340-270725da74c3
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIStreamWrite, AVIStreamWrite function [Windows Multimedia], _win32_AVIStreamWrite, multimedia.avistreamwrite, vfw/AVIStreamWrite
 ms.prod: windows
 ms.technology: windows-sdk

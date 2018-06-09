@@ -7,7 +7,7 @@ old-location: mscs\getcurrentclusternodeid.htm
 old-project: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
 ms.prod: windows
 ms.technology: windows-sdk

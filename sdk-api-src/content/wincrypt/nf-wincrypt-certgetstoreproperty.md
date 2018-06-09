@@ -7,7 +7,7 @@ old-location: security\certgetstoreproperty.htm
 old-project: SecCrypto
 ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,7 +198,7 @@ if (pvData)
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

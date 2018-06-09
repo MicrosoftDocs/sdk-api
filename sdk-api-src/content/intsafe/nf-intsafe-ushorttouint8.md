@@ -7,7 +7,7 @@ old-location: shell\UShortToUInt8.htm
 old-project: shell
 ms.assetid: 86e8a064-ce83-4224-81d3-84db39905f34
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: UShortToByte, UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
 ms.prod: windows
 ms.technology: windows-sdk

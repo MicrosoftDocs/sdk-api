@@ -7,7 +7,7 @@ old-location: winrt\roresolvenamespace.htm
 old-project: WinRT
 ms.assetid: 597E8B18-B9D9-42E5-B260-595370BEEAC0
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], rometadataresolution/RoResolveNamespace, winrt.roresolvenamespace
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removedefaultscoperule.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveDefaultScopeRule method, ISearchCrawlScopeManager.RemoveDefaultScopeRule, ISearchCrawlScopeManager::RemoveDefaultScopeRule, RemoveDefaultScopeRule, RemoveDefaultScopeRule method [search], RemoveDefaultScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule
 ms.prod: windows
 ms.technology: windows-sdk

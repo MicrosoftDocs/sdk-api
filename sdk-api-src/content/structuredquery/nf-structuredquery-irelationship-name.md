@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\name.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IRelationship interface [search],Name method, IRelationship.Name, IRelationship::Name, Name, Name method [search], Name method [search],IRelationship interface, _search_IRelationship_Name, search._search_IRelationship_Name, structuredquery/IRelationship::Name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the name of the relationship as a Unicode string. The calling application must free the returned string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to the name of the relationship as a Unicode string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getdesc.htm
 old-project: direct3d12
 ms.assetid: D84DC99E-4E0C-4CFC-B061-FCD3C42D7937
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetDesc method, ID3D12ShaderReflection.GetDesc, ID3D12ShaderReflection::GetDesc, d3d12shader/ID3D12ShaderReflection::GetDesc, direct3d12.id3d12shaderreflection_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/FE989434-B1B6-48F3-8F95-64B1E7C988F
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             Returns one of the following <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.

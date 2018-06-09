@@ -7,7 +7,7 @@ old-location: mf\iwmvideoforcekeyframeinterface.htm
 old-project: medfound
 ms.assetid: 74c8db81-f756-497f-a26e-7fb7563fc2c5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IWMVideoForceKeyFrame, IWMVideoForceKeyFrame interface [Media Foundation], IWMVideoForceKeyFrame interface [Media Foundation],described, codecapi.iwmvideoforcekeyframeinterface, mf.iwmvideoforcekeyframe, mf.iwmvideoforcekeyframeinterface, wmcodecdsp/IWMVideoForceKeyFrame
 ms.prod: windows
 ms.technology: windows-sdk

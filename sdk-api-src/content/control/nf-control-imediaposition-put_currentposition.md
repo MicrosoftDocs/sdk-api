@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_put_currentposition.htm
 old-project: DirectShow
 ms.assetid: 6af44ce9-91d3-4329-835a-a1249924d672
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_CurrentPosition method, IMediaPosition.put_CurrentPosition, IMediaPosition::put_CurrentPosition, IMediaPositionput_CurrentPosition, control/IMediaPosition::put_CurrentPosition, dshow.imediaposition_put_currentposition, put_CurrentPosition, put_CurrentPosition method [DirectShow], put_CurrentPosition method [DirectShow],IMediaPosition interface
 ms.prod: windows
 ms.technology: windows-sdk

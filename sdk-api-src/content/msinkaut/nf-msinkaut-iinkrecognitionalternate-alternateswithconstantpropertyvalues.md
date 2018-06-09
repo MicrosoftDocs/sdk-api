@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_alternateswithconstantpropertyvalu
 old-project: tablet
 ms.assetid: 6c199960-e0ee-4370-a302-a45a3dbe8b28
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropertyValues, AlternatesWithConstantPropertyValues method [Tablet PC], AlternatesWithConstantPropertyValues method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],AlternatesWithConstantPropertyValues method, IInkRecognitionAlternate.AlternatesWithConstantPropertyValues, IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, tablet.iinkrecognitionalternate_alternateswithconstantpropertyvalues
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_initialize.htm
 old-project: mstv
 ms.assetid: a0ffa39a-9e91-4229-8dee-b31f3973f384
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],Initialize method, IDVB_EIT.Initialize, IDVB_EIT::Initialize, IDVB_EITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::Initialize, mstv.idvb_eit_initialize
 ms.prod: windows
 ms.technology: windows-sdk

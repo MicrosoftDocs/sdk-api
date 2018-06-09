@@ -7,7 +7,7 @@ old-location: mscs\igetclusterresourceinfo_getresourcenetworkname.htm
 old-project: MsCS
 ms.assetid: 5c4a16ab-b71c-49f6-95cb-8627eaffb8d6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: GetResourceNetworkName, GetResourceNetworkName method [Failover Cluster], GetResourceNetworkName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceNetworkName method, IGetClusterResourceInfo.GetResourceNetworkName, IGetClusterResourceInfo::GetResourceNetworkName, _wolf_igetclusterresourceinfo_getresourcenetworkname, cluadmex/IGetClusterResourceInfo::GetResourceNetworkName, mscs.igetclusterresourceinfo_getresourcenetworkname
 ms.prod: windows
 ms.technology: windows-sdk

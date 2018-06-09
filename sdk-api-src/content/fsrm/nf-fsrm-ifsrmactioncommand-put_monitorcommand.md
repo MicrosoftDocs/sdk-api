@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand_monitorcommand.htm
 old-project: Fsrm
 ms.assetid: 7aa420de-9be5-4333-a511-23e0443e633b
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],MonitorCommand property, IFsrmActionCommand.MonitorCommand, IFsrmActionCommand.put_MonitorCommand, IFsrmActionCommand::MonitorCommand, IFsrmActionCommand::get_MonitorCommand, IFsrmActionCommand::put_MonitorCommand, MonitorCommand property [File Server Resource Manager], MonitorCommand property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_monitorcommand, fsrm.ifsrmactioncommand_monitorcommand, fsrm/IFsrmActionCommand::MonitorCommand, fsrm/IFsrmActionCommand::get_MonitorCommand, fsrm/IFsrmActionCommand::put_MonitorCommand, put_MonitorCommand
 ms.prod: windows
 ms.technology: windows-sdk

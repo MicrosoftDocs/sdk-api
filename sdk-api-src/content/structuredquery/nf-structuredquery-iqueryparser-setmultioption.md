@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_SetMultiOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser.SetMultiOption, IQueryParser::SetMultiOption, SetMultiOption, SetMultiOption method [search], SetMultiOption method [search],IQueryParser interface, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,10 +80,10 @@ Type: <b>LPCWSTR</b>
 
 ### -param pOptionValue [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 
-          Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
+          Pointer to a <a href="_stg_propvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 

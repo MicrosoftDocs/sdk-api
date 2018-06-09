@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_setsignaturexml.htm
 old-project: printdocs
 ms.assetid: 3ba32f16-2e11-479c-bc3c-0982e90b883d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],SetSignatureXml method, IXpsSignature.SetSignatureXml, IXpsSignature::SetSignatureXml, SetSignatureXml, SetSignatureXml method [XPS Documents and Packaging], SetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_setsignaturexml, xpsdigitalsignature/IXpsSignature::SetSignatureXml
 ms.prod: windows
 ms.technology: windows-sdk

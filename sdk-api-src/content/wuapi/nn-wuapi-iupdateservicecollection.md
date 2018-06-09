@@ -7,7 +7,7 @@ old-location: wua\iupdateservicecollection.htm
 old-project: Wua_Sdk
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], IUpdateServiceCollection interface [Windows Update Agent],described, wua.iupdateservicecollection, wuapi/IUpdateServiceCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Represents a list of <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

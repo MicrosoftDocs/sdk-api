@@ -7,7 +7,7 @@ old-location: multimedia\avistreamrelease.htm
 old-project: Multimedia
 ms.assetid: bd71ddf6-9d02-463d-9d1c-50605441ad59
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: AVIStreamRelease, AVIStreamRelease function [Windows Multimedia], _win32_AVIStreamRelease, multimedia.avistreamrelease, vfw/AVIStreamRelease
 ms.prod: windows
 ms.technology: windows-sdk

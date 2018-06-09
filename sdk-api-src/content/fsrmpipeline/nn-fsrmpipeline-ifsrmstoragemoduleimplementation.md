@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmstoragemoduleimplementation.htm
 old-project: Fsrm
 ms.assetid: 8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], IFsrmStorageModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmstoragemoduleimplementation, fsrm.ifsrmstoragemoduleimplementation, fsrm/IFsrmStorageModuleImplementation
 ms.prod: windows
 ms.technology: windows-sdk

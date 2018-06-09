@@ -7,7 +7,7 @@ old-location: security\ncryptsecretagreement.htm
 old-project: SecCNG
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
 ms.prod: windows
 ms.technology: windows-sdk

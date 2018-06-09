@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getversion.htm
 old-project: printdocs
 ms.assetid: d0a693e5-fd98-47c0-aaf7-f8461169a01c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetVersion, GetVersion method [XPS Documents and Packaging], GetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetVersion method, IXpsOMCoreProperties.GetVersion, IXpsOMCoreProperties::GetVersion, xps.ixpsomcoreproperties_getversion, xpsobjectmodel/IXpsOMCoreProperties::GetVersion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>version</b> property contains the resource's version number.
 
-This method allocates the memory used by the string that is returned in <i>version</i>.  If <i>version</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>version</i>.  If <i>version</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

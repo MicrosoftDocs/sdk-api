@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection.htm
 old-project: TermServ
 ms.assetid: 6649f43d-0e2a-42d7-8111-862bb28e3dbc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ITsSbClientConnection interface [Remote Desktop Services],described, sbtsv/ITsSbClientConnection, termserv.itssbclientconnection
 ms.prod: windows
 ms.technology: windows-sdk

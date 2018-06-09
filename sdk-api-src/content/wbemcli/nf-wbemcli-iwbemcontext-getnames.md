@@ -7,7 +7,7 @@ old-location: wmi\iwbemcontext_getnames.htm
 old-project: WmiSdk
 ms.assetid: 781c4a13-ff9e-4448-8a83-3c4d8653324a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetNames method, IWbemContext.GetNames, IWbemContext::GetNames, _hmm_iwbemcontext_getnames, wbemcli/IWbemContext::GetNames, wmi.iwbemcontext_getnames
 ms.prod: windows
 ms.technology: windows-sdk

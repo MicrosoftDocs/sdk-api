@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmclassifiermoduleimplementation.htm
 old-project: Fsrm
 ms.assetid: f238c446-b268-4600-b6e3-ec772a5f7575
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], IFsrmClassifierModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduleimplementation, fsrm.ifsrmclassifiermoduleimplementation, fsrm/IFsrmClassifierModuleImplementation
 ms.prod: windows
 ms.technology: windows-sdk

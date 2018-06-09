@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilegroup.htm
 old-project: Fsrm
 ms.assetid: 9b657f1c-1d59-4ba5-9af9-978ffda1a348
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], IFsrmFileGroup interface [File Server Resource Manager],described, fs.ifsrmfilegroup, fsrm.ifsrmfilegroup, fsrm/IFsrmFileGroup
 ms.prod: windows
 ms.technology: windows-sdk

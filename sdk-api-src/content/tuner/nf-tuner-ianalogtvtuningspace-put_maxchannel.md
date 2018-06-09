@@ -7,7 +7,7 @@ old-location: mstv\ianalogtvtuningspace_put_maxchannel.htm
 old-project: mstv
 ms.assetid: 2a559069-0d8a-4904-b0de-0573b4c0d273
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MaxChannel method, IAnalogTVTuningSpace.put_MaxChannel, IAnalogTVTuningSpace::put_MaxChannel, IAnalogTVTuningSpaceput_MaxChannel, mstv.ianalogtvtuningspace_put_maxchannel, put_MaxChannel, put_MaxChannel method [Microsoft TV Technologies], put_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MaxChannel
 ms.prod: windows
 ms.technology: windows-sdk

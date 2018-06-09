@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_multiple_fence_wait_flags.htm
 old-project: direct3d12
 ms.assetid: A5C52F58-C082-41C2-99E4-800DFBA250D2
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_MULTIPLE_FENCE_WAIT_FLAGS, D3D12_MULTIPLE_FENCE_WAIT_FLAGS enumeration, D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL, D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY, D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE, direct3d12.d3d12_multiple_fence_wait_flags
 ms.prod: windows
 ms.technology: windows-sdk

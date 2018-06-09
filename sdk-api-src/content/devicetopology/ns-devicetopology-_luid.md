@@ -7,7 +7,7 @@ old-location: coreaudio\luid.htm
 old-project: CoreAudio
 ms.assetid: fce02fa7-ce96-417a-b389-cf19e1e3b91c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: "*PLUID, LUID, LUID structure [Core Audio], PLUID, PLUID structure pointer [Core Audio], _LUID, coreaudio.luid, devicetopology/LUID, devicetopology/PLUID"
 ms.prod: windows
 ms.technology: windows-sdk

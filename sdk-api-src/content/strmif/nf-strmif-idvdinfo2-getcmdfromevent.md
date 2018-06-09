@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getcmdfromevent.htm
 old-project: DirectShow
 ms.assetid: 488a394f-222f-4536-a20a-579df5c2f91f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
 ms.prod: windows
 ms.technology: windows-sdk

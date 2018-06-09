@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_ratechange.htm
 old-project: mstv
 ms.assetid: 32af2323-0018-4e77-bf2e-9ff95e59f91e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferV2SourceEvent.RateChange, IMSVidStreamBufferV2SourceEvent::RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratechange, segment/IMSVidStreamBufferV2SourceEvent::RateChange
 ms.prod: windows
 ms.technology: windows-sdk

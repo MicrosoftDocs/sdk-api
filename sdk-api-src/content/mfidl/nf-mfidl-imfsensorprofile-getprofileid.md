@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofile_getprofileid.htm
 old-project: medfound
 ms.assetid: EBBDCC39-8FF9-421B-867D-0AD950C2DDF5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetProfileId, GetProfileId method [Media Foundation], GetProfileId method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],GetProfileId method, IMFSensorProfile.GetProfileId, IMFSensorProfile::GetProfileId, mf.imfsensorprofile_getprofileid, mfidl/IMFSensorProfile::GetProfileId
 ms.prod: windows
 ms.technology: windows-sdk

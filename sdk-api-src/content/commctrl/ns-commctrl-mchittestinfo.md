@@ -171,7 +171,7 @@ The given point was over a day abbreviation ("Fri", for example). The <a href="h
 </dl>
 </td>
 <td width="60%">
-The given point was over a week number (<a href="https://www.bing.com/search?q=MCS_WEEKNUMBERS">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
+The given point was over a week number (<a href="Month_calendar_control_styles.htm">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
 						<i>lpMCHitTest</i>&gt;st is set to the corresponding date in the leftmost column.
 
 </td>

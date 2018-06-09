@@ -7,7 +7,7 @@ old-location: setup\setupfindfirstline.htm
 old-project: SetupApi
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupFindFirstLineA, SetupFindFirstLineW, _setupapi_setupfindfirstline, setup.setupfindfirstline, setupapi/SetupFindFirstLine, setupapi/SetupFindFirstLineA, setupapi/SetupFindFirstLineW
 ms.prod: windows
 ms.technology: windows-sdk

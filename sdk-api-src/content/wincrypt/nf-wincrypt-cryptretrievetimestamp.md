@@ -7,7 +7,7 @@ old-location: security\cryptretrievetimestamp.htm
 old-project: SecCrypto
 ms.assetid: 68ba3d40-08b0-4261-ab2f-6deb1795f830
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptRetrieveTimeStamp, CryptRetrieveTimeStamp function [Security], TIMESTAMP_DONT_HASH_DATA, TIMESTAMP_NO_AUTH_RETRIEVAL, TIMESTAMP_VERIFY_CONTEXT_SIGNATURE, security.cryptretrievetimestamp, wincrypt/CryptRetrieveTimeStamp
 ms.prod: windows
 ms.technology: windows-sdk

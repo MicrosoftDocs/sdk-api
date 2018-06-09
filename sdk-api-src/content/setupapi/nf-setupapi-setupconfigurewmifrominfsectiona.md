@@ -7,7 +7,7 @@ old-location: setup\setupconfigurewmifrominfsection.htm
 old-project: SetupApi
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
 ms.prod: windows
 ms.technology: windows-sdk

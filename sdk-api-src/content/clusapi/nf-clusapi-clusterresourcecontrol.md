@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcecontrol.htm
 old-project: MsCS
 ms.assetid: a98ca55a-6535-48cf-a925-5005baa01b94
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: ClusterResourceControl, ClusterResourceControl function [Failover Cluster], _wolf_clusterresourcecontrol, clusapi/ClusterResourceControl, mscs.clusterresourcecontrol
 ms.prod: windows
 ms.technology: windows-sdk

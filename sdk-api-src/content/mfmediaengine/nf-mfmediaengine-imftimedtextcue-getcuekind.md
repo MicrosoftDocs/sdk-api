@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getcuekind.htm
 old-project: medfound
 ms.assetid: 1BEB539D-4A51-4866-A627-5754525E7C8F
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetCueKind, GetCueKind method [Media Foundation], GetCueKind method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetCueKind method, IMFTimedTextCue.GetCueKind, IMFTimedTextCue::GetCueKind, mf.imftimedtextcue_getcuekind, mfmediaengine/IMFTimedTextCue::GetCueKind
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

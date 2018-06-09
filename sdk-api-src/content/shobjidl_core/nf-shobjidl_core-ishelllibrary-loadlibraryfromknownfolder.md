@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_LoadLibraryFromKnownFolder.htm
 old-project: shell
 ms.assetid: 3fc1147e-6338-4fec-b20d-db5eb1303fe1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromKnownFolder method, IShellLibrary.LoadLibraryFromKnownFolder, IShellLibrary::LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder method [Windows Shell], LoadLibraryFromKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromKnownFolder, shell.IShellLibrary_LoadLibraryFromKnownFolder, shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder
 ms.prod: windows
 ms.technology: windows-sdk

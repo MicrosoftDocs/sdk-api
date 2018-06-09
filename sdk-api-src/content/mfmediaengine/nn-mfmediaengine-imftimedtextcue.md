@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue.htm
 old-project: medfound
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

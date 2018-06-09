@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4removepolicyrange.htm
 old-project: DHCP
 ms.assetid: 2799e869-e9dd-41de-b808-8e4c52ee9ecf
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4RemovePolicyRange, DhcpV4RemovePolicyRange function [DHCP], dhcp.dhcpv4removepolicyrange, dhcpsapi/DhcpV4RemovePolicyRange
 ms.prod: windows
 ms.technology: windows-sdk

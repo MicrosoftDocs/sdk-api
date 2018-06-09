@@ -7,7 +7,7 @@ old-location: intl\immenuminputcontext.htm
 old-project: Intl
 ms.assetid: b066af9a-5bcc-468b-bc1b-79b549a9e55c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: 0, 1, ImmEnumInputContext, ImmEnumInputContext function [Internationalization for Windows Applications], Thread ID, _win32_ImmEnumInputContext, imm/ImmEnumInputContext, intl.immenuminputcontext
 ms.prod: windows
 ms.technology: windows-sdk

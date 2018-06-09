@@ -7,7 +7,7 @@ old-location: security\bcryptregisterconfigchangenotify_handle.htm
 old-project: SecCNG
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle
 ms.prod: windows
 ms.technology: windows-sdk

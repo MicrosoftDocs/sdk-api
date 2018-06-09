@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_setcolorspace.htm
 old-project: direct3ddxgi
 ms.assetid: DE0AA2BF-8E98-4CF4-8CC2-760AB4B8776D
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetColorSpace method, IDXGIDecodeSwapChain.SetColorSpace, IDXGIDecodeSwapChain::SetColorSpace, SetColorSpace, SetColorSpace method [DXGI], SetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setcolorspace, dxgi1_3/IDXGIDecodeSwapChain::SetColorSpace
 ms.prod: windows
 ms.technology: windows-sdk

@@ -250,7 +250,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mstv\ibda_nulltransform.htm
 old-project: mstv
 ms.assetid: f13350cb-5064-405d-aeb6-25f684d0bdbb
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], IBDA_NullTransform interface [Microsoft TV Technologies],described, IBDA_NullTransformInterface, bdaiface/IBDA_NullTransform, mstv.ibda_nulltransform
 ms.prod: windows
 ms.technology: windows-sdk

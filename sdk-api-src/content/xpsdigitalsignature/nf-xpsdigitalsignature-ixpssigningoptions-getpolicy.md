@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getpolicy.htm
 old-project: printdocs
 ms.assetid: 0643ee4d-7991-4570-8dce-8166f007abc8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetPolicy method, IXpsSigningOptions.GetPolicy, IXpsSigningOptions::GetPolicy, xps.ixpssigningoptions_getpolicy, xpsdigitalsignature/IXpsSigningOptions::GetPolicy
 ms.prod: windows
 ms.technology: windows-sdk

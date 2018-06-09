@@ -7,7 +7,7 @@ old-location: winrt\windowsduplicatestring.htm
 old-project: WinRT
 ms.assetid: 65343F8A-ACD5-4BD2-83CD-DA9F71690DF3
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: WindowsDuplicateString, WindowsDuplicateString function [Windows Runtime], winrt.windowsduplicatestring, winstring/WindowsDuplicateString
 ms.prod: windows
 ms.technology: windows-sdk

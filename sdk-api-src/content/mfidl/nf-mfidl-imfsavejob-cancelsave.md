@@ -7,7 +7,7 @@ old-location: mf\imfsavejob_cancelsave.htm
 old-project: medfound
 ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: CancelSave, CancelSave method [Media Foundation], CancelSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],CancelSave method, IMFSaveJob.CancelSave, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
 ms.prod: windows
 ms.technology: windows-sdk

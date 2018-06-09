@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory6_enumadapterbygpupreference.htm
 old-project: direct3ddxgi
 ms.assetid: E5F835FB-3699-4E27-B990-4C1CF6E6DD48
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: EnumAdapterByGpuPreference, EnumAdapterByGpuPreference method [DXGI], EnumAdapterByGpuPreference method [DXGI],IDXGIFactory6 interface, IDXGIFactory6 interface [DXGI],EnumAdapterByGpuPreference method, IDXGIFactory6.EnumAdapterByGpuPreference, IDXGIFactory6::EnumAdapterByGpuPreference, direct3ddxgi.idxgifactory6_enumadapterbygpupreference, dxgi1_6/IDXGIFactory6::EnumAdapterByGpuPreference
 ms.prod: windows
 ms.technology: windows-sdk

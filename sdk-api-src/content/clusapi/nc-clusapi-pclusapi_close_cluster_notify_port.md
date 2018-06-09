@@ -7,7 +7,7 @@ old-location: mscs\closeclusternotifyport.htm
 old-project: MsCS
 ms.assetid: abf7145c-780b-4ec7-babb-0e3975520f4a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT callback function [Failover Cluster], _wolf_closeclusternotifyport, clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, mscs.closeclusternotifyport
 ms.prod: windows
 ms.technology: windows-sdk

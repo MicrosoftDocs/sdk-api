@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_ResumeTimer.htm
 old-project: shell
 ms.assetid: 98886370-fce1-46f5-989d-e0625b196c49
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],ResumeTimer method, IFileOperationProgressSink.ResumeTimer, IFileOperationProgressSink::ResumeTimer, ResumeTimer, ResumeTimer method [Windows Shell], ResumeTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_ResumeTimer, shell.IFileOperationProgressSink_ResumeTimer, shobjidl_core/IFileOperationProgressSink::ResumeTimer
 ms.prod: windows
 ms.technology: windows-sdk

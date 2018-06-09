@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumproperties.htm
 old-project: WinRT
 ms.assetid: 54b89188-43d3-4997-aef4-48beaae151da
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: EnumProperties, EnumProperties method [Windows Runtime], EnumProperties method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumProperties method, IMetaDataImport.EnumProperties, IMetaDataImport::EnumProperties, rometadataapi/IMetaDataImport::EnumProperties, winrt.imetadataimport_enumproperties
 ms.prod: windows
 ms.technology: windows-sdk

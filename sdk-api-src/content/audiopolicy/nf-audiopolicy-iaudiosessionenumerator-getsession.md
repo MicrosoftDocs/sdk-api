@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionenumerator_getsession.htm
 old-project: CoreAudio
 ms.assetid: 45b7af16-aca0-49f8-b977-f7e4f1885687
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetSession, GetSession method [Core Audio], GetSession method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetSession method, IAudioSessionEnumerator.GetSession, IAudioSessionEnumerator::GetSession, audiopolicy/IAudioSessionEnumerator::GetSession, coreaudio.iaudiosessionenumerator_getsession
 ms.prod: windows
 ms.technology: windows-sdk

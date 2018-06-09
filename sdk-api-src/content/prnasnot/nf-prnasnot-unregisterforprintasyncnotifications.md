@@ -7,7 +7,7 @@ old-location: gdi\unregisterforprintasyncnotifications.htm
 old-project: printdocs
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: UnRegisterForPrintAsyncNotifications, UnRegisterForPrintAsyncNotifications function [Windows GDI], _win32_UnRegisterForPrintAsyncNotifications, gdi.unregisterforprintasyncnotifications, prnasnot/UnRegisterForPrintAsyncNotifications
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\getresultpropertylist.htm
 old-project: tablet
 ms.assetid: e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: GetResultPropertyList, GetResultPropertyList function [Tablet PC], e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65, recapis/GetResultPropertyList, tablet.getresultpropertylist
 ms.prod: windows
 ms.technology: windows-sdk

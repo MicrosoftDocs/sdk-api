@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator.htm
 old-project: CoreAudio
 ms.assetid: 1abdeac1-c156-40b8-8b8c-5ddb51e410aa
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IMMDeviceEnumerator, IMMDeviceEnumerator interface [Core Audio], IMMDeviceEnumerator interface [Core Audio],described, coreaudio.immdeviceenumerator, mmdeviceapi/IMMDeviceEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

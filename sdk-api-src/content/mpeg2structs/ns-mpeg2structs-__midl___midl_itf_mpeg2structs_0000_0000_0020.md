@@ -7,7 +7,7 @@ old-location: mstv\mpeg2_filter2.htm
 old-project: mstv
 ms.assetid: 3828f80f-23dc-4028-95d6-d85c007a44ec
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: "*PMPEG2_FILTER2, MPEG2_FILTER2, MPEG2_FILTER2 structure [Microsoft TV Technologies], PMPEG2_FILTER2, PMPEG2_FILTER2 structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0020, mpeg2structs/MPEG2_FILTER, mpeg2structs/PMPEG2_FILTER2, mstv.mpeg2_filter2"
 ms.prod: windows
 ms.technology: windows-sdk

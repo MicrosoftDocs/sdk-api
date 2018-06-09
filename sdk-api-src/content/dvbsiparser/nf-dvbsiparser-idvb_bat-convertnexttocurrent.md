@@ -7,7 +7,7 @@ old-location: mstv\idvb_bat_convertnexttocurrent.htm
 old-project: mstv
 ms.assetid: befcd47c-e05e-4a75-a588-bebdb1cc3218
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_BAT.ConvertNextToCurrent, IDVB_BAT::ConvertNextToCurrent, IDVB_BATConvertNextToCurrent, dvbsiparser/IDVB_BAT::ConvertNextToCurrent, mstv.idvb_bat_convertnexttocurrent
 ms.prod: windows
 ms.technology: windows-sdk

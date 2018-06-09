@@ -7,7 +7,7 @@ old-location: mf\iwmvideodecoderhurryupsethurryup.htm
 old-project: medfound
 ms.assetid: ef01d2ab-2525-4caf-87d9-3acdc0b3b1b3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IWMVideoDecoderHurryup interface [Media Foundation],SetHurryup method, IWMVideoDecoderHurryup.SetHurryup, IWMVideoDecoderHurryup::SetHurryup, SetHurryup, SetHurryup method [Media Foundation], SetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, codecapi.iwmvideodecoderhurryupsethurryup, mf.iwmvideodecoderhurryupsethurryup, wmcodecdsp/ IWMVideoDecoderHurryup::SetHurryup
 ms.prod: windows
 ms.technology: windows-sdk

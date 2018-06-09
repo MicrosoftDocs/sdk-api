@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug1.htm
 old-project: direct3ddxgi
 ms.assetid: 16D52CA2-1495-407C-9B88-CF4D4C90BAFA
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IDXGIDebug1 interface [DXGI],described, direct3ddxgi.idxgidebug1, dxgidebug/IDXGIDebug1
 ms.prod: windows
 ms.technology: windows-sdk

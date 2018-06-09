@@ -7,7 +7,7 @@ old-location: multimedia\avisavev.htm
 old-project: Multimedia
 ms.assetid: e3810588-1be7-4e66-9b25-78aaa24b96c7
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: AVISaveV, AVISaveV function [Windows Multimedia], AVISaveVA, AVISaveVW, _win32_AVISaveV, multimedia.avisavev, vfw/AVISaveV, vfw/AVISaveVA, vfw/AVISaveVW
 ms.prod: windows
 ms.technology: windows-sdk

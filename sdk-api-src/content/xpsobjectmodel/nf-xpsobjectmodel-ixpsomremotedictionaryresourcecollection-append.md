@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresourcecollection_append.htm
 old-project: printdocs
 ms.assetid: 85f56651-2066-4a18-a364-c27c6bc4edb3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMRemoteDictionaryResourceCollection.Append, IXpsOMRemoteDictionaryResourceCollection::Append, xps.ixpsomremotedictionaryresourcecollection_append, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\freeclusterhealthfaultarray.htm
 old-project: MsCS
 ms.assetid: f8c29dc0-dde0-4782-8a54-52a40f6f1586
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: FreeClusterHealthFaultArray, FreeClusterHealthFaultArray function [Failover Cluster], mscs.freeclusterhealthfaultarray, resapi/FreeClusterHealthFaultArray
 ms.prod: windows
 ms.technology: windows-sdk

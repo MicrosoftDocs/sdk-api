@@ -7,7 +7,7 @@ old-location: mscs\resutilremoveresourceserviceenvironment.htm
 old-project: MsCS
 ms.assetid: e0e3ea2d-9cf2-40f6-a3a8-fdcacb63479c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT callback, PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT callback function [Failover Cluster], mscs.resutilremoveresourceserviceenvironment, resapi/PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT
 ms.prod: windows
 ms.technology: windows-sdk

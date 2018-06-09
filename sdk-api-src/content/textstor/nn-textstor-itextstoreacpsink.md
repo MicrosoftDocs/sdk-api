@@ -164,7 +164,7 @@ Called when the text of a document changes.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

@@ -113,7 +113,7 @@ A context cleanup occurs when:
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

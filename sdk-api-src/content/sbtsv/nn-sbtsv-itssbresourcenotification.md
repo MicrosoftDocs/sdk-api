@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotification.htm
 old-project: TermServ
 ms.assetid: 70785b82-239d-4957-9703-ced685a2e0b8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbResourceNotification, ITsSbResourceNotification interface [Remote Desktop Services], ITsSbResourceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbResourceNotification, termserv.itssbresourcenotification
 ms.prod: windows
 ms.technology: windows-sdk

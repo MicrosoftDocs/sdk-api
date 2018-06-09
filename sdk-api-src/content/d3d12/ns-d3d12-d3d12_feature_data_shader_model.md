@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_shader_model.htm
 old-project: direct3d12
 ms.assetid: 17978B9A-D21B-4A8A-B367-12F4ABC43A94
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_FEATURE_DATA_SHADER_MODEL, D3D12_FEATURE_DATA_SHADER_MODEL structure, d3d12/D3D12_FEATURE_DATA_SHADER_MODEL, direct3d12.d3d12_feature_data_shader_model
 ms.prod: windows
 ms.technology: windows-sdk

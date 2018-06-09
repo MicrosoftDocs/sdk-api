@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilescreenmanager.htm
 old-project: Fsrm
 ms.assetid: a0cea95d-5839-41a2-91b9-da8e13030682
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], IFsrmFileScreenManager interface [File Server Resource Manager],described, fs.ifsrmfilescreenmanager, fsrm.ifsrmfilescreenmanager, fsrmscreen/IFsrmFileScreenManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to manage file screen objects.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileScreenManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileScreenManager)</code> as the interface identifier. 
     For an example, see <a href="https://msdn.microsoft.com/1b5227e7-4272-4e23-ba55-d6161e2987bc">Defining a File Screen</a>.

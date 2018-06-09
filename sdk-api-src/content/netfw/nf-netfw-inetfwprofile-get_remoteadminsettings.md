@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile_remoteadminsettings.htm
 old-project: ICS
 ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile.get_RemoteAdminSettings, INetFwProfile::RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF],INetFwProfile interface, get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
 ms.prod: windows
 ms.technology: windows-sdk

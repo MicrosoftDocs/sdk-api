@@ -7,7 +7,7 @@ old-location: mf\d3d11_tex2d_vdov.htm
 old-project: medfound
 ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: D3D11_TEX2D_VDOV, D3D11_TEX2D_VDOV structure [Media Foundation], d3d11/D3D11_TEX2D_VDOV, mf.d3d11_tex2d_vdov
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\openclusternetinterfaceex.htm
 old-project: MsCS
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, mscs.openclusternetinterfaceex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_localaddresses.htm
 old-project: ICS
 ms.assetid: e95c6545-770b-430f-a1fc-32dcaac0eaa0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwRule interface [ICS/ICF],LocalAddresses property, INetFwRule.LocalAddresses, INetFwRule.get_LocalAddresses, INetFwRule::LocalAddresses, INetFwRule::get_LocalAddresses, INetFwRule::put_LocalAddresses, LocalAddresses property [ICS/ICF], LocalAddresses property [ICS/ICF],INetFwRule interface, get_LocalAddresses, ics.inetfwrule_localaddresses, netfw/INetFwRule::LocalAddresses, netfw/INetFwRule::get_LocalAddresses, netfw/INetFwRule::put_LocalAddresses
 ms.prod: windows
 ms.technology: windows-sdk

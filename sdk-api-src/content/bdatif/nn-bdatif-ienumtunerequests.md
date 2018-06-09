@@ -7,7 +7,7 @@ old-location: mstv\ienumtunerequests.htm
 old-project: mstv
 ms.assetid: 5ad872be-4408-4069-80db-ae73b2127b91
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], IEnumTuneRequests interface [Microsoft TV Technologies],described, IEnumTuneRequestsInterface, bdatif/IEnumTuneRequests, mstv.ienumtunerequests
 ms.prod: windows
 ms.technology: windows-sdk

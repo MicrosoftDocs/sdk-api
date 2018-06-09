@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4setoptionvalues.htm
 old-project: DHCP
 ms.assetid: 8c50af53-8298-401e-826e-0fb1d1410499
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV4SetOptionValues, DhcpV4SetOptionValues function [DHCP], dhcp.dhcpv4setoptionvalues, dhcpsapi/DhcpV4SetOptionValues
 ms.prod: windows
 ms.technology: windows-sdk

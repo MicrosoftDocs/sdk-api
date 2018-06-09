@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_endflush.htm
 old-project: DirectShow
 ms.assetid: 38a7fd8a-c027-49fd-8f52-49ddf072fe02
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],EndFlush method, IAsyncReader.EndFlush, IAsyncReader::EndFlush, IAsyncReaderEndFlush, dshow.iasyncreader_endflush, strmif/IAsyncReader::EndFlush
 ms.prod: windows
 ms.technology: windows-sdk

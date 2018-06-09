@@ -7,7 +7,7 @@ old-location: mscs\resutilgetqwordvalue.htm
 old-project: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE callback, PRESUTIL_GET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

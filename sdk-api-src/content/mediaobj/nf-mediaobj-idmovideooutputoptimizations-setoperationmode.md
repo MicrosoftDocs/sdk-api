@@ -7,7 +7,7 @@ old-location: dshow\idmovideooutputoptimizations_setoperationmode.htm
 old-project: DirectShow
 ms.assetid: 07dc29aa-d3ee-409e-9fe8-0c54d2d6f759
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],SetOperationMode method, IDMOVideoOutputOptimizations.SetOperationMode, IDMOVideoOutputOptimizations::SetOperationMode, IDMOVideoOutputOptimizationsSetOperationMode, SetOperationMode, SetOperationMode method [DirectShow], SetOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_setoperationmode, mediaobj/IDMOVideoOutputOptimizations::SetOperationMode
 ms.prod: windows
 ms.technology: windows-sdk

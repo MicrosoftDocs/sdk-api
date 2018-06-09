@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry2_categories.htm
 old-project: Wua_Sdk
 ms.assetid: b821d608-61c2-4442-8b7e-18e27006602b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdateHistoryEntry2 interface, IUpdateHistoryEntry2 interface [Windows Update Agent],Categories property, IUpdateHistoryEntry2.Categories, IUpdateHistoryEntry2.get_Categories, IUpdateHistoryEntry2::Categories, IUpdateHistoryEntry2::get_Categories, get_Categories, wua.iupdatehistoryentry2_categories, wuapi/IUpdateHistoryEntry2::Categories, wuapi/IUpdateHistoryEntry2::get_Categories
 ms.prod: windows
 ms.technology: windows-sdk

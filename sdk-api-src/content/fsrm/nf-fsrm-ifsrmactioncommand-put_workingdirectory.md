@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmactioncommand_workingdirectory.htm
 old-project: Fsrm
 ms.assetid: 6844b6c3-11b4-4544-bd4e-bf2b89af00b7
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],WorkingDirectory property, IFsrmActionCommand.WorkingDirectory, IFsrmActionCommand.put_WorkingDirectory, IFsrmActionCommand::WorkingDirectory, IFsrmActionCommand::get_WorkingDirectory, IFsrmActionCommand::put_WorkingDirectory, WorkingDirectory property [File Server Resource Manager], WorkingDirectory property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_workingdirectory, fsrm.ifsrmactioncommand_workingdirectory, fsrm/IFsrmActionCommand::WorkingDirectory, fsrm/IFsrmActionCommand::get_WorkingDirectory, fsrm/IFsrmActionCommand::put_WorkingDirectory, put_WorkingDirectory
 ms.prod: windows
 ms.technology: windows-sdk

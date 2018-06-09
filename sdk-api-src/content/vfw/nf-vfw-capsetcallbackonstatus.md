@@ -7,7 +7,7 @@ old-location: multimedia\capsetcallbackonstatus.htm
 old-project: Multimedia
 ms.assetid: 7024aa3e-d227-4c22-8259-6299e9205f53
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/05/2018
 ms.keywords: "_win32_capSetCallbackOnStatus, capSetCallbackOnStatus, capSetCallbackOnStatus macro [Windows Multimedia], multimedia.capsetcallbackonstatus, vfw/capSetCallbackOnStatus"
 ms.prod: windows
 ms.technology: windows-sdk

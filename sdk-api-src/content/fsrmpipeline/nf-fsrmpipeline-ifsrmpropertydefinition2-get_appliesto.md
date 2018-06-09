@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertydefinition2_appliesto.htm
 old-project: Fsrm
 ms.assetid: baa7e2a0-71d3-465e-a4aa-5908b28db703
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: AppliesTo property [File Server Resource Manager], AppliesTo property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, IFsrmPropertyDefinition2 interface [File Server Resource Manager],AppliesTo property, IFsrmPropertyDefinition2.AppliesTo, IFsrmPropertyDefinition2.get_AppliesTo, IFsrmPropertyDefinition2::AppliesTo, IFsrmPropertyDefinition2::get_AppliesTo, fs.ifsrmpropertydefinition2_appliesto, fsrm.ifsrmpropertydefinition2_appliesto, fsrmpipeline/IFsrmPropertyDefinition2::AppliesTo, fsrmpipeline/IFsrmPropertyDefinition2::get_AppliesTo, get_AppliesTo
 ms.prod: windows
 ms.technology: windows-sdk

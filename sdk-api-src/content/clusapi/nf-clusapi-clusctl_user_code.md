@@ -7,7 +7,7 @@ old-location: mscs\clusctl_user_code.htm
 old-project: MsCS
 ms.assetid: b21a565a-df43-486c-a474-2dc6d2f45197
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
 ms.prod: windows
 ms.technology: windows-sdk

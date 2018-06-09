@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_executecommandlists.htm
 old-project: direct3d12
 ms.assetid: 653C15CD-0996-4B3B-A5F6-3E85CD0516AD
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ExecuteCommandLists, ExecuteCommandLists method, ExecuteCommandLists method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,ExecuteCommandLists method, ID3D12CommandQueue.ExecuteCommandLists, ID3D12CommandQueue::ExecuteCommandLists, d3d12/ID3D12CommandQueue::ExecuteCommandLists, direct3d12.id3d12commandqueue_executecommandlists
 ms.prod: windows
 ms.technology: windows-sdk

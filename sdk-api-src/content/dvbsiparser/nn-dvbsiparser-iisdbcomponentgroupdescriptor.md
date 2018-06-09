@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor.htm
 old-project: mstv
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
 ms.prod: windows
 ms.technology: windows-sdk

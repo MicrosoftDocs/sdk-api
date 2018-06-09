@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getbackgroundcolor.htm
 old-project: medfound
 ms.assetid: 2641F157-31CE-4659-AF6B-B57774AEF4E5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBackgroundColor method, IMFTimedTextStyle.GetBackgroundColor, IMFTimedTextStyle::GetBackgroundColor, mf.imftimedtextstyle_getbackgroundcolor, mfmediaengine/IMFTimedTextStyle::GetBackgroundColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: shell\display_device_type.htm
 old-project: shell
 ms.assetid: C8964494-339B-4198-A544-3BBCCFEB9596
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: DEVICE_IMMERSIVE, DEVICE_PRIMARY, DISPLAY_DEVICE_TYPE, DISPLAY_DEVICE_TYPE enumeration [Windows Shell], shell.display_device_type, shellscalingapi/DEVICE_IMMERSIVE, shellscalingapi/DEVICE_PRIMARY, shellscalingapi/DISPLAY_DEVICE_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

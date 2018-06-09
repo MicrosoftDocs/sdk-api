@@ -7,7 +7,7 @@ old-location: mstv\idvblinkagedescriptor_getlinkagetype.htm
 old-project: mstv
 ms.assetid: 54e17da4-df93-40a5-a359-274da77f585d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetLinkageType, GetLinkageType method [Microsoft TV Technologies], GetLinkageType method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetLinkageType method, IDvbLinkageDescriptor.GetLinkageType, IDvbLinkageDescriptor::GetLinkageType, dvbsiparser/IDvbLinkageDescriptor::GetLinkageType, mstv.idvblinkagedescriptor_getlinkagetype
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservicecallback2.htm
 old-project: xaml_diagnostics
 ms.assetid: F1C11F32-9524-49D6-89DD-C89E4A81720A
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 06/04/2018
 ms.keywords: IVisualTreeServiceCallback2, IVisualTreeServiceCallback2 interface, IVisualTreeServiceCallback2 interface,described, xaml_diagnostics.ivisualtreeservicecallback2, xamlom/IVisualTreeServiceCallback2
 ms.prod: windows
 ms.technology: windows-sdk

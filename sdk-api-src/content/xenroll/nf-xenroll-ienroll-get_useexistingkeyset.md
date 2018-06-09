@@ -7,7 +7,7 @@ old-location: security\ienroll4_useexistingkeyset.htm
 old-project: SecCrypto
 ms.assetid: 1534ec57-71d3-4189-a94e-7bcb3c0670e1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IEnroll interface [Security],UseExistingKeySet property, IEnroll.UseExistingKeySet, IEnroll.get_UseExistingKeySet, IEnroll::UseExistingKeySet, IEnroll::get_UseExistingKeySet, IEnroll::put_UseExistingKeySet, UseExistingKeySet property [Security], UseExistingKeySet property [Security],IEnroll interface, get_UseExistingKeySet, security.ienroll4_useexistingkeyset, xenroll/IEnroll::UseExistingKeySet, xenroll/IEnroll::get_UseExistingKeySet, xenroll/IEnroll::put_UseExistingKeySet
 ms.prod: windows
 ms.technology: windows-sdk

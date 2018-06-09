@@ -7,7 +7,7 @@ old-location: mf\imfobjectreferencestream_savereference.htm
 old-project: medfound
 ms.assetid: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3, IMFObjectReferenceStream interface [Media Foundation],SaveReference method, IMFObjectReferenceStream.SaveReference, IMFObjectReferenceStream::SaveReference, SaveReference, SaveReference method [Media Foundation], SaveReference method [Media Foundation],IMFObjectReferenceStream interface, mf.imfobjectreferencestream_savereference, mfidl/IMFObjectReferenceStream::SaveReference
 ms.prod: windows
 ms.technology: windows-sdk

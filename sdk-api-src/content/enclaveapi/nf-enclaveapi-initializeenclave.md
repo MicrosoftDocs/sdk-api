@@ -7,7 +7,7 @@ old-location: base\initializeenclave.htm
 old-project: Memory
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_GetIcon.htm
 old-project: shell
 ms.assetid: e71b6748-84fc-4944-90b8-a5b0bf97079d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetIcon method, IExplorerCommand.GetIcon, IExplorerCommand::GetIcon, _shell_IExplorerCommand_GetIcon, shell.IExplorerCommand_GetIcon, shobjidl_core/IExplorerCommand::GetIcon
 ms.prod: windows
 ms.technology: windows-sdk

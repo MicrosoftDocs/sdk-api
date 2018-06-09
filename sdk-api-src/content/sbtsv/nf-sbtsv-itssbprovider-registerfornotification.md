@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_registerfornotification.htm
 old-project: TermServ
 ms.assetid: 71e55a94-7e15-45f1-a1f3-d3cf8814e0c1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbProvider interface [Remote Desktop Services],RegisterForNotification method, ITsSbProvider.RegisterForNotification, ITsSbProvider::RegisterForNotification, RegisterForNotification, RegisterForNotification method [Remote Desktop Services], RegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, sbtsv/ITsSbProvider::RegisterForNotification, termserv.itssbprovider_registerfornotification
 ms.prod: windows
 ms.technology: windows-sdk

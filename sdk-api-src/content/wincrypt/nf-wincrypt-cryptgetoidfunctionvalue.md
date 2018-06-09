@@ -7,7 +7,7 @@ old-location: security\cryptgetoidfunctionvalue.htm
 old-project: SecCrypto
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -191,7 +191,7 @@ If the buffer specified by the <i>pbValueData</i> parameter is not large enough 
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_getsourcerect.htm
 old-project: direct3ddxgi
 ms.assetid: 67DD1267-997A-4D84-BC91-D124ED1E8946
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetSourceRect, GetSourceRect method [DXGI], GetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetSourceRect method, IDXGIDecodeSwapChain.GetSourceRect, IDXGIDecodeSwapChain::GetSourceRect, direct3ddxgi.idxgidecodeswapchain_getsourcerect, dxgi1_3/IDXGIDecodeSwapChain::GetSourceRect
 ms.prod: windows
 ms.technology: windows-sdk

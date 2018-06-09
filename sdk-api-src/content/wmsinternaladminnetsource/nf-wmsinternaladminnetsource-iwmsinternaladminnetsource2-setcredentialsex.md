@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource2_setcredentialsex.htm
 old-project: wmformat
 ms.assetid: ca45626e-3f4d-415d-a4d1-90ce0177bd10
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMSInternalAdminNetSource2 interface [windows Media Format],SetCredentialsEx method, IWMSInternalAdminNetSource2.SetCredentialsEx, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
 ms.prod: windows
 ms.technology: windows-sdk

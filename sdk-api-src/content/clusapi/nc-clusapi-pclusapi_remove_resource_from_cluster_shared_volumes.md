@@ -7,7 +7,7 @@ old-location: mscs\removeresourcefromclustersharedvolumes.htm
 old-project: MsCS
 ms.assetid: 696CBC0D-C1F6-4f1a-94D1-71F77B102258
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES callback, PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES callback function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_RESOURCE_FROM_CLUSTER_SHARED_VOLUMES, mscs.removeresourcefromclustersharedvolumes
 ms.prod: windows
 ms.technology: windows-sdk

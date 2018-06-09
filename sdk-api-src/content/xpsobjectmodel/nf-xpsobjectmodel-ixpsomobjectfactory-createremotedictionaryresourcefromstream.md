@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createremotedictionaryresourcefromstream.h
 old-project: printdocs
 ms.assetid: 996a97f5-320f-4e51-af15-f3b125d4f6c8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: CreateRemoteDictionaryResourceFromStream, CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging], CreateRemoteDictionaryResourceFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRemoteDictionaryResourceFromStream method, IXpsOMObjectFactory.CreateRemoteDictionaryResourceFromStream, IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream, xps.ixpsomobjectfactory_createremotedictionaryresourcefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResourceFromStream
 ms.prod: windows
 ms.technology: windows-sdk

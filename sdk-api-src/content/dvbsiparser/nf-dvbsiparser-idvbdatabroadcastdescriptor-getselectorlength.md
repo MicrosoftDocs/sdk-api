@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastdescriptor_getselectorlength.htm
 old-project: mstv
 ms.assetid: fc1d25be-6f33-4281-a75c-74c7331ab6ed
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IDvbDataBroadcastDescriptor.GetSelectorLength, IDvbDataBroadcastDescriptor::GetSelectorLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorLength, mstv.idvbdatabroadcastdescriptor_getselectorlength
 ms.prod: windows
 ms.technology: windows-sdk

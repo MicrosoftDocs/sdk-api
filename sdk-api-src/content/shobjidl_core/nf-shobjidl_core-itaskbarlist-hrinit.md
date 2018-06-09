@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList_HrInit.htm
 old-project: shell
 ms.assetid: 0344bf0b-b460-4516-88eb-09131cc9a4f8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: HrInit, HrInit method [Windows Shell], HrInit method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],HrInit method, ITaskbarList.HrInit, ITaskbarList::HrInit, _win32_ITaskbarList_HrInit, shell.ITaskbarList_HrInit, shobjidl_core/ITaskbarList::HrInit
 ms.prod: windows
 ms.technology: windows-sdk

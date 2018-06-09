@@ -62,7 +62,7 @@ The <b>SetupDiDestroyDriverInfoList</b> function deletes a driver list.
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the driver list to delete.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the driver list to delete.
 
 
 ### -param DeviceInfoData [in, optional]

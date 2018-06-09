@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmquotamanagerex_isaffectedbyquota.htm
 old-project: Fsrm
 ms.assetid: 8b366eae-5554-4c20-9ba9-c3a6e319712f
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmQuotaManagerEx interface [File Server Resource Manager],IsAffectedByQuota method, IFsrmQuotaManagerEx.IsAffectedByQuota, IFsrmQuotaManagerEx::IsAffectedByQuota, IsAffectedByQuota, IsAffectedByQuota method [File Server Resource Manager], IsAffectedByQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, fs.ifsrmquotamanagerex_isaffectedbyquota, fsrm.ifsrmquotamanagerex_isaffectedbyquota, fsrmquota/IFsrmQuotaManagerEx::IsAffectedByQuota
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getoutputstreaminfo.htm
 old-project: DirectShow
 ms.assetid: a21e9943-4aaf-4f0e-a92a-5fcd551fe7e1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetOutputStreamInfo, GetOutputStreamInfo method [DirectShow], GetOutputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputStreamInfo method, IMediaObject.GetOutputStreamInfo, IMediaObject::GetOutputStreamInfo, IMediaObjectGetOutputStreamInfo, dshow.imediaobject_getoutputstreaminfo, mediaobj/IMediaObject::GetOutputStreamInfo
 ms.prod: windows
 ms.technology: windows-sdk

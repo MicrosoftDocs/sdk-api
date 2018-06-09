@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_getnetworktype.htm
 old-project: mstv
 ms.assetid: 38d9f099-b639-41fe-b0fd-82f056622de0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetNetworkType method, IBDA_NetworkProvider.GetNetworkType, IBDA_NetworkProvider::GetNetworkType, IBDA_NetworkProviderGetNetworkType, bdaiface/IBDA_NetworkProvider::GetNetworkType, mstv.ibda_networkprovider_getnetworktype
 ms.prod: windows
 ms.technology: windows-sdk

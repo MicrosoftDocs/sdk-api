@@ -7,7 +7,7 @@ old-location: shell\SHGetSettings.htm
 old-project: shell
 ms.assetid: 728a4004-f35d-4592-baf1-456a613a3344
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHGetSettings, SHGetSettings function [Windows Shell], SSF_DESKTOPHTML, SSF_DONTPRETTYPATH, SSF_DOUBLECLICKINWEBVIEW, SSF_HIDEICONS, SSF_MAPNETDRVBUTTON, SSF_NOCONFIRMRECYCLE, SSF_SHOWALLOBJECTS, SSF_SHOWATTRIBCOL, SSF_SHOWCOMPCOLOR, SSF_SHOWEXTENSIONS, SSF_SHOWINFOTIP, SSF_SHOWSYSFILES, SSF_WIN95CLASSIC, _win32_SHGetSettings, shell.SHGetSettings, shlobj_core/SHGetSettings
 ms.prod: windows
 ms.technology: windows-sdk

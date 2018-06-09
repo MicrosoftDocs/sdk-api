@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclocktimercontrol_getdefaulttimerresolution.htm
 old-project: DirectShow
 ms.assetid: 8382bc39-bc3d-43a1-aa06-16a4eecbdc7a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetDefaultTimerResolution, GetDefaultTimerResolution method [DirectShow], GetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, IReferenceClockTimerControl interface [DirectShow],GetDefaultTimerResolution method, IReferenceClockTimerControl.GetDefaultTimerResolution, IReferenceClockTimerControl::GetDefaultTimerResolution, IReferenceClockTimerControlGetDefaultTimerResoluti, dshow.ireferenceclocktimercontrol_getdefaulttimerresolution, strmif/IReferenceClockTimerControl::GetDefaultTimerResolution
 ms.prod: windows
 ms.technology: windows-sdk

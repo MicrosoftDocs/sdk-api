@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentrycollection.htm
 old-project: Wua_Sdk
 ms.assetid: f071b05f-f0fa-43af-a502-f83a5f877120
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent], IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],described, wua.iwindowsdriverupdateentrycollection, wuapi/IWindowsDriverUpdateEntryCollection
 ms.prod: windows
 ms.technology: windows-sdk

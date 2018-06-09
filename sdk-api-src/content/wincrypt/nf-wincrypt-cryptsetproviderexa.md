@@ -7,7 +7,7 @@ old-location: security\cryptsetproviderex.htm
 old-project: SecCrypto
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CRYPT_DELETE_DEFAULT, CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptSetProviderEx, CryptSetProviderEx function [Security], CryptSetProviderExA, CryptSetProviderExW, _crypto2_cryptsetproviderex, security.cryptsetproviderex, wincrypt/CryptSetProviderEx, wincrypt/CryptSetProviderExA, wincrypt/CryptSetProviderExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,7 +190,7 @@ Most applications do not specify a CSP name when calling the
 
 
 
-<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

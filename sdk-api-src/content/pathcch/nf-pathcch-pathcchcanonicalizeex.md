@@ -7,7 +7,7 @@ old-location: shell\PathCchCanonicalizeEx.htm
 old-project: shell
 ms.assetid: fd7b8ce0-3c67-48fb-8e7e-521a6b438676
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchCanonicalizeEx, PathCchCanonicalizeEx function [Windows Shell], pathcch/PathCchCanonicalizeEx, shell.PathCchCanonicalizeEx
 ms.prod: windows
 ms.technology: windows-sdk

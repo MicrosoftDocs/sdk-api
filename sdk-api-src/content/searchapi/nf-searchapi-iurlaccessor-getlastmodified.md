@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetLastModified.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getlastmodified.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetLastModified, GetLastModified method [search], GetLastModified method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetLastModified method, IUrlAccessor.GetLastModified, IUrlAccessor::GetLastModified, _search_IUrlAccessor_GetLastModified, search._search_IUrlAccessor_GetLastModified, searchapi/IUrlAccessor::GetLastModified
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,10 +63,10 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param pftLastModified [out]
 
-Type: <b><a href="https://www.bing.com/search?q=FILETIME">FILETIME</a>*</b>
+Type: <b><a href="_com_FILETIME">FILETIME</a>*</b>
 
 
-                Receives a pointer to a variable of type <a href="https://www.bing.com/search?q=FILETIME">FILETIME</a> identifying the time stamp when the URL was last modified.
+                Receives a pointer to a variable of type <a href="_com_FILETIME">FILETIME</a> identifying the time stamp when the URL was last modified.
                 
 
 

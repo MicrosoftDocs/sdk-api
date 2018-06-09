@@ -7,7 +7,7 @@ old-location: security\certcompareintegerblob.htm
 old-project: SecCrypto
 ms.assetid: 467ce464-2f22-4583-a745-711ba3b05f4f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertCompareIntegerBlob, CertCompareIntegerBlob function [Security], _crypto2_certcompareintegerblob, security.certcompareintegerblob, wincrypt/CertCompareIntegerBlob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
 
 
 

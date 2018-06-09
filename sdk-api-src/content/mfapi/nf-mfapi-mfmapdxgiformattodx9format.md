@@ -7,7 +7,7 @@ old-location: mf\mfmapdxgiformattodx9format.htm
 old-project: medfound
 ms.assetid: D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
 ms.prod: windows
 ms.technology: windows-sdk

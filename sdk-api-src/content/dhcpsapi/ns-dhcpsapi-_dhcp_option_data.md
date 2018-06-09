@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_data.htm
 old-project: DHCP
 ms.assetid: 6b2e5866-f65f-4ff0-a531-3d07b972f55e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_OPTION_DATA, DHCP_OPTION_DATA, DHCP_OPTION_DATA structure [DHCP], LPDHCP_OPTION_DATA, LPDHCP_OPTION_DATA structure pointer [DHCP], _DHCP_OPTION_DATA, dhcp.dhcp_option_data, dhcpsapi/LPDHCP_OPTION_DATA, dhcpsapi/_DHCP_OPTION_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

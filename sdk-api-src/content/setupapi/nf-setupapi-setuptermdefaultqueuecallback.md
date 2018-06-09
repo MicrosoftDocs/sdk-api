@@ -7,7 +7,7 @@ old-location: setup\setuptermdefaultqueuecallback.htm
 old-project: SetupApi
 ms.assetid: de99ee40-9fbb-42e2-b070-d1c25b238135
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/07/2018
 ms.keywords: SetupTermDefaultQueueCallback, SetupTermDefaultQueueCallback function [Setup API], _setupapi_setuptermdefaultqueuecallback, setup.setuptermdefaultqueuecallback, setupapi/SetupTermDefaultQueueCallback
 ms.prod: windows
 ms.technology: windows-sdk

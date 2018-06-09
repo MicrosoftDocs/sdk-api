@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_element_info_array_v4.htm
 old-project: DHCP
 ms.assetid: e70581b4-879b-450f-a99b-754145f4bee8
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, dhcp.dhcp_subnet_element_info_array_v4, dhcpsapi/LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_SUBNET_ELEMENT_INFO_ARRAY_V4"
 ms.prod: windows
 ms.technology: windows-sdk

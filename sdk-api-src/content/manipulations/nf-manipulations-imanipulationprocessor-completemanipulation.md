@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_completemanipulation.htm
 old-project: wintouch
 ms.assetid: 01779628-1f46-4cea-90fa-1093e26e0285
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/04/2018
 ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],CompleteManipulation method, IManipulationProcessor.CompleteManipulation, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
 ms.prod: windows
 ms.technology: windows-sdk

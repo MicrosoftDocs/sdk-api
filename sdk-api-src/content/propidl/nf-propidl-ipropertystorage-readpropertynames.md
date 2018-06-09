@@ -7,8 +7,8 @@ old-location: stg\ipropertystorage_readpropertynames.htm
 old-project: Stg
 ms.assetid: 42b0bf7e-0402-425c-8a5f-09eaa16d93fe
 ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
+ms.date: 06/06/2018
+ms.keywords: IPropertyStorage [Strctd Stg], IPropertyStorage [Strctd Stg],ReadPropertyNames, IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -102,6 +102,10 @@ String names mapped to property IDs must be unique within the set.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

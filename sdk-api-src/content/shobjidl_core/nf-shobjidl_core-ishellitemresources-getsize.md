@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_GetSize.htm
 old-project: shell
 ms.assetid: 03e5f9cf-ad5d-487d-bdef-75255a0d1620
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetSize method, IShellItemResources.GetSize, IShellItemResources::GetSize, _shell_IShellItemResources_GetSize, shell.IShellItemResources_GetSize, shobjidl_core/IShellItemResources::GetSize
 ms.prod: windows
 ms.technology: windows-sdk

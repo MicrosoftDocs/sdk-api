@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiresource1_createsubresourcesurface.htm
 old-project: direct3ddxgi
 ms.assetid: 99730AB1-C5D9-41D6-8001-495FF26E8232
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSubresourceSurface, CreateSubresourceSurface method [DXGI], CreateSubresourceSurface method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSubresourceSurface method, IDXGIResource1.CreateSubresourceSurface, IDXGIResource1::CreateSubresourceSurface, direct3ddxgi.idxgiresource1_createsubresourcesurface, dxgi1_2/IDXGIResource1::CreateSubresourceSurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The address of a pointer to a <a href="https://msdn.microsoft.com/EBBB2EE1-C5EA-
 Returns S_OK if successful; otherwise, returns one of the following values:
 
 <ul>
-<li><a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a> if the index is out of range or if the subresource is not a valid surface.</li>
+<li><a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if the index is out of range or if the subresource is not a valid surface.</li>
 <li>E_OUTOFMEMORY if insufficient memory is available to create the subresource surface object.</li>
 </ul>
 A subresource is a valid surface if the original resource would have been a valid surface had its array size been equal to 1.

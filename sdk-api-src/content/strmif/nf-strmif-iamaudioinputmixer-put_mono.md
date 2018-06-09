@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_mono.htm
 old-project: DirectShow
 ms.assetid: fb45a1ad-b6d8-4129-97f3-a9c99053c0f0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Mono method, IAMAudioInputMixer.put_Mono, IAMAudioInputMixer::put_Mono, IAMAudioInputMixerput_Mono, dshow.iamaudioinputmixer_put_mono, put_Mono, put_Mono method [DirectShow], put_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Mono
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorstream.htm
 old-project: medfound
 ms.assetid: 3C260634-E722-4F1D-800C-FB32308CF605
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateSensorStream, MFCreateSensorStream function [Media Foundation], mf.mfcreatesensorstream, mfidl/MFCreateSensorStream
 ms.prod: windows
 ms.technology: windows-sdk

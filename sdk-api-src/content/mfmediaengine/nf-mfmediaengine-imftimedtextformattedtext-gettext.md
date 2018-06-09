@@ -7,7 +7,7 @@ old-location: mf\imftimedtextformattedtext_gettext.htm
 old-project: medfound
 ms.assetid: 0D734EF8-BE52-404D-BEEC-504ECB0F7107
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetText, GetText method [Media Foundation], GetText method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetText method, IMFTimedTextFormattedText.GetText, IMFTimedTextFormattedText::GetText, mf.imftimedtextformattedtext_gettext, mfmediaengine/IMFTimedTextFormattedText::GetText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

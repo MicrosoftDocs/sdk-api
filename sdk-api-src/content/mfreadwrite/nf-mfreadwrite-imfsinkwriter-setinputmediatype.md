@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_setinputmediatype.htm
 old-project: medfound
 ms.assetid: 02a73f73-3b25-4578-9a7e-c9f8a4c8cd99
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SetInputMediaType method, IMFSinkWriter.SetInputMediaType, IMFSinkWriter::SetInputMediaType, SetInputMediaType, SetInputMediaType method [Media Foundation], SetInputMediaType method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_setinputmediatype, mfreadwrite/IMFSinkWriter::SetInputMediaType
 ms.prod: windows
 ms.technology: windows-sdk

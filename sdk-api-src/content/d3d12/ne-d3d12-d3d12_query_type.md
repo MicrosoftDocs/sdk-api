@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_query_type.htm
 old-project: direct3d12
 ms.assetid: F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D12_QUERY_TYPE, D3D12_QUERY_TYPE enumeration, D3D12_QUERY_TYPE_BINARY_OCCLUSION, D3D12_QUERY_TYPE_OCCLUSION, D3D12_QUERY_TYPE_PIPELINE_STATISTICS, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3, D3D12_QUERY_TYPE_TIMESTAMP, D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS, d3d12/D3D12_QUERY_TYPE, d3d12/D3D12_QUERY_TYPE_BINARY_OCCLUSION, d3d12/D3D12_QUERY_TYPE_OCCLUSION, d3d12/D3D12_QUERY_TYPE_PIPELINE_STATISTICS, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3, d3d12/D3D12_QUERY_TYPE_TIMESTAMP, d3d12/D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS, direct3d12.d3d12_query_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ Video decode statistics. Refer to <a href="direct3d12.d3d12_query_data_video_dec
 
 Use this query type to determine if a video was successfully decoded. If decoding fails due to insufficient BitRate or FrameRate parameters set during creation of the decode heap, then the status field of the query is set to D3D12_VIDEO_DECODE_STATUS_RATE_EXCEEDED and the query also contains new BitRate and FrameRate values that would succeed.
 
-This query type can only be performed on video decode command lists (<a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). This query type does not use <a href="https://www.bing.com/search?q=ID3D12VideoDecodeCommandList::BeginQuery">ID3D12VideoDecodeCommandList::BeginQuery</a>, only <a href="https://www.bing.com/search?q=ID3D12VideoDecoeCommandList::EndQuery">ID3D12VideoDecoeCommandList::EndQuery</a>. Statistics are recorded only for the most recent <a href="https://www.bing.com/search?q=ID3D12VideoDecoeCommandList::DecodeFrame">ID3D12VideoDecoeCommandList::DecodeFrame</a> call in the same command list.
+This query type can only be performed on video decode command lists (<a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). This query type does not use <a href="direct3d12.id3d12videodecodecommandlist_beginquery">ID3D12VideoDecodeCommandList::BeginQuery</a>, only <a href="direct3d12.id3d12videodecodecommandlist_endquery">ID3D12VideoDecoeCommandList::EndQuery</a>. Statistics are recorded only for the most recent <a href="direct3d12.id3d12videodecodecommandlist_decodeframe">ID3D12VideoDecoeCommandList::DecodeFrame</a> call in the same command list.
 
 
 ## -remarks

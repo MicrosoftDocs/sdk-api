@@ -7,7 +7,7 @@ old-location: mf\unpack2uint32asuint64.htm
 old-project: medfound
 ms.assetid: 507504c2-85d3-44b6-9972-bcdd3c4227f6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: Unpack2UINT32AsUINT64, Unpack2UINT32AsUINT64 function [Media Foundation], mf.unpack2uint32asuint64, mfapi/Unpack2UINT32AsUINT64
 ms.prod: windows
 ms.technology: windows-sdk

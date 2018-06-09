@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getversionnumber.htm
 old-project: mstv
 ms.assetid: c89e2fde-958f-4193-84d9-2d98e7560c6a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_VCT.GetVersionNumber, IATSC_VCT::GetVersionNumber, IATSC_VCTGetVersionNumber, atscpsipparser/IATSC_VCT::GetVersionNumber, mstv.iatsc_vct_getversionnumber
 ms.prod: windows
 ms.technology: windows-sdk

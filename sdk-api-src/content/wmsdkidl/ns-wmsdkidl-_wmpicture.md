@@ -7,7 +7,7 @@ old-location: wmformat\wm_picture.htm
 old-project: wmformat
 ms.assetid: d3670cce-5b57-4624-b10d-2e4d9e9e263c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: WM_PICTURE, WM_PICTURE structure [windows Media Format], _WMPicture, wmformat.wm_picture, wmsdkidl/WM_PICTURE
 ms.prod: windows
 ms.technology: windows-sdk

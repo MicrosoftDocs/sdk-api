@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_get_sharingconnectiontype.htm
 old-project: ICS
 ms.assetid: 29dfc1cf-4b72-4ba8-9a5c-7e7dd20393ee
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_SharingConnectionType method, INetSharingConfiguration.get_SharingConnectionType, INetSharingConfiguration::get_SharingConnectionType, _ics_inetsharingconfiguration_get_sharingconnectiontype, get_SharingConnectionType, get_SharingConnectionType method [ICS/ICF], get_SharingConnectionType method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_sharingconnectiontype, netcon/INetSharingConfiguration::get_SharingConnectionType
 ms.prod: windows
 ms.technology: windows-sdk

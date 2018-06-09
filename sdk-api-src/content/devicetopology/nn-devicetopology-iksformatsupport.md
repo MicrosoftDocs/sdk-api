@@ -7,7 +7,7 @@ old-location: coreaudio\iksformatsupport.htm
 old-project: CoreAudio
 ms.assetid: 53a29b57-1650-4e4d-b9d2-95307063a733
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IKsFormatSupport, IKsFormatSupport interface [Core Audio], IKsFormatSupport interface [Core Audio],described, coreaudio.iksformatsupport, devicetopology/IKsFormatSupport
 ms.prod: windows
 ms.technology: windows-sdk

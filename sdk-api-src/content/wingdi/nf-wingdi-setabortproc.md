@@ -7,7 +7,7 @@ old-location: gdi\setabortproc.htm
 old-project: printdocs
 ms.assetid: 5b6333fc-f1c3-4c76-906c-0fd13bb73953
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: SetAbortProc, SetAbortProc function [Windows GDI], _win32_SetAbortProc, gdi.setabortproc, wingdi/SetAbortProc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\wthelpergetprovcertfromchain.htm
 old-project: SecCrypto
 ms.assetid: 047278fe-37d5-4fd6-8b36-9e28ead0cc5a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: WTHelperGetProvCertFromChain, WTHelperGetProvCertFromChain function [Security], security.wthelpergetprovcertfromchain, wintrust/WTHelperGetProvCertFromChain
 ms.prod: windows
 ms.technology: windows-sdk

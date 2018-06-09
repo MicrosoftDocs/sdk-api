@@ -7,7 +7,7 @@ old-location: security\certfreectlcontext.htm
 old-project: SecCrypto
 ms.assetid: 84b1aa0c-44d9-4a2f-861c-fa7d8caac192
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertFreeCTLContext, CertFreeCTLContext function [Security], _crypto2_certfreectlcontext, security.certfreectlcontext, wincrypt/CertFreeCTLContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ The function always returns <b>TRUE</b>.
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Trust+List+Functions">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

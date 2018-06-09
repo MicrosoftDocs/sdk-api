@@ -7,7 +7,7 @@ old-location: winrt\iapartmentshutdown.htm
 old-project: WinRT
 ms.assetid: 28EDAC77-5175-4AF7-A06C-B735336AAD9B
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime], IApartmentShutdown interface [Windows Runtime],described, objidl/IApartmentShutdown, winrt.iapartmentshutdown
 ms.prod: windows
 ms.technology: windows-sdk

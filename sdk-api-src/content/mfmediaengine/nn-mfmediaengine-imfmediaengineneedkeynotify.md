@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineneedkeynotify.htm
 old-project: medfound
 ms.assetid: bbedfbe8-9389-4b4f-8d52-111c787a6268
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify, IMFMediaEngineNeedKeyNotify interface [Media Foundation], IMFMediaEngineNeedKeyNotify interface [Media Foundation],described, mf.imfmediaengineneedkeynotify, mfmediaengine/IMFMediaEngineNeedKeyNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

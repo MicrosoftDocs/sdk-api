@@ -7,7 +7,7 @@ old-location: security\extensions.htm
 old-project: SecCrypto
 ms.assetid: f2a6854d-1831-489f-adf6-31a0b26511e3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: Extensions, Extensions object [Security], Extensions object [Security],described, mmcobj/Extensions, security.extensions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,7 +39,7 @@ api_name:
  - Extensions
 product: Windows
 targetos: Windows
-req.lib: Strmiids.lib
+req.lib: 
 req.dll: Capicom.dll
 req.irql: 
 req.product: GDI+ 1.1
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the <a href="T:System.Security.Cryptography.X509Certificates.X509ExtensionCollection">X509ExtensionCollection Class</a> in the <a href="https://www.bing.com/search?q=System.Security.Cryptography.X509Certificates">System.Security.Cryptography.X509Certificates</a> namespace.]
+<p class="CCE_Message">[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the <a href="T:System.Security.Cryptography.X509Certificates.X509ExtensionCollection">X509ExtensionCollection Class</a> in the <a href="frlrfSystemSecurityCryptographyX509Certificates">System.Security.Cryptography.X509Certificates</a> namespace.]
 
 The <b>Extensions</b> object represents a collection of <a href="https://msdn.microsoft.com/cca3121d-0f0f-4de2-a225-6dd3910078d7">Extension</a> objects. Each <a href="https://msdn.microsoft.com/cca3121d-0f0f-4de2-a225-6dd3910078d7">Extension</a> object represents a single certificate extension.
 

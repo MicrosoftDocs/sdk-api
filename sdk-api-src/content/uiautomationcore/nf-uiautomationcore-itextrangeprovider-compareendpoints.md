@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_CompareEndpoints.htm
 old-project: WinAuto
 ms.assetid: 88a59d93-f31b-40d5-a8d9-ef114224019b
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],CompareEndpoints method, ITextRangeProvider.CompareEndpoints, ITextRangeProvider::CompareEndpoints, uiauto.uiauto_ITextRangeProvider_CompareEndpoints, uiauto_ITextRangeProvider_CompareEndpoints, uiautomationcore/ITextRangeProvider::CompareEndpoints, winauto.uiauto_ITextRangeProvider_CompareEndpoints
 ms.prod: windows
 ms.technology: windows-sdk

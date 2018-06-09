@@ -7,7 +7,7 @@ old-location: security\certaddencodedcrltostore.htm
 old-project: SecCrypto
 ms.assetid: ec2361e6-a1e6-413a-828e-d543a09c88f8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCRLToStore, CertAddEncodedCRLToStore function [Security], _crypto2_certaddencodedcrltostore, security.certaddencodedcrltostore, wincrypt/CertAddEncodedCRLToStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -246,7 +246,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

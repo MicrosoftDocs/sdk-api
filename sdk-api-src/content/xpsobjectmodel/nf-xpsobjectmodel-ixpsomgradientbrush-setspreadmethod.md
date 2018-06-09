@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientbrush_setspreadmethod.htm
 old-project: printdocs
 ms.assetid: 2114ba2e-95df-466e-983f-a56491bf891c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetSpreadMethod method, IXpsOMGradientBrush.SetSpreadMethod, IXpsOMGradientBrush::SetSpreadMethod, SetSpreadMethod, SetSpreadMethod method [XPS Documents and Packaging], SetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_setspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod
 ms.prod: windows
 ms.technology: windows-sdk

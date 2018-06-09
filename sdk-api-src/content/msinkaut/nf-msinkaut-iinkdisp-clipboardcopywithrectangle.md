@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clipboardcopywithrectangle.htm
 old-project: tablet
 ms.assetid: a4e6a183-242a-40af-871b-43a0b177a27a
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: ClipboardCopyWithRectangle, ClipboardCopyWithRectangle method [Tablet PC], ClipboardCopyWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopyWithRectangle method, IInkDisp.ClipboardCopyWithRectangle, IInkDisp::ClipboardCopyWithRectangle, a4e6a183-242a-40af-871b-43a0b177a27a, msinkaut/IInkDisp::ClipboardCopyWithRectangle, tablet.inkdisp_clipboardcopywithrectangle
 ms.prod: windows
 ms.technology: windows-sdk

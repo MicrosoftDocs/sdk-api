@@ -7,7 +7,7 @@ old-location: security\imscepsetup_preuninstall.htm
 old-project: SecCrypto
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
 ms.prod: windows
 ms.technology: windows-sdk

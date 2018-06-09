@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_canplaytype.htm
 old-project: medfound
 ms.assetid: 313F631F-7584-4F95-9208-B087CC12010E
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: CanPlayType, CanPlayType method [Media Foundation], CanPlayType method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],CanPlayType method, IMFMediaEngine.CanPlayType, IMFMediaEngine::CanPlayType, mf.imfmediaengine_canplaytype, mfmediaengine/IMFMediaEngine::CanPlayType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

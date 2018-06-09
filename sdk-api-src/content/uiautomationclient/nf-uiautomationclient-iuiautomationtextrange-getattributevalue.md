@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_GetAttributeValue.htm
 old-project: WinAuto
 ms.assetid: 7a77774e-7be0-473e-a0c9-e1aa108549e1
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetAttributeValue method, IUIAutomationTextRange.GetAttributeValue, IUIAutomationTextRange::GetAttributeValue, uiauto.uiauto_IUIAutomationTextRange_GetAttributeValue, uiauto_IUIAutomationTextRange_GetAttributeValue, uiautomationclient/IUIAutomationTextRange::GetAttributeValue, winauto.uiauto_IUIAutomationTextRange_GetAttributeValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The type of value retrieved by this method depends on the <i>attr</i> parameter. 
-For example, calling <b>GetAttributeValue</b> with the <i>attr</i> parameter set to <a href="https://www.bing.com/search?q=UIA_FontNameAttributeId">UIA_FontNameAttributeId</a> returns a string that represents the font name of the text range,  while calling <b>GetAttributeValue</b> with <i>attr</i> set to <a href="https://www.bing.com/search?q=UIA_IsItalicAttributeId">UIA_IsItalicAttributeId</a> would return a boolean.
+For example, calling <b>GetAttributeValue</b> with the <i>attr</i> parameter set to <a href="uiauto_textattribute_ids.htm">UIA_FontNameAttributeId</a> returns a string that represents the font name of the text range,  while calling <b>GetAttributeValue</b> with <i>attr</i> set to <a href="uiauto_textattribute_ids.htm">UIA_IsItalicAttributeId</a> would return a boolean.
 
 
 

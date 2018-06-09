@@ -7,7 +7,7 @@ old-location: mf\imftimedtextcue_getstyle.htm
 old-project: medfound
 ms.assetid: 9E0B570D-69AA-449D-9988-96632A52756F
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetStyle, GetStyle method [Media Foundation], GetStyle method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetStyle method, IMFTimedTextCue.GetStyle, IMFTimedTextCue::GetStyle, mf.imftimedtextcue_getstyle, mfmediaengine/IMFTimedTextCue::GetStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

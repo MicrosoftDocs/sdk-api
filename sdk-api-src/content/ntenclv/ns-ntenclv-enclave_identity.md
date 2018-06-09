@@ -7,7 +7,7 @@ old-location: base\enclave_identity.htm
 old-project: Memory
 ms.assetid: D584D824-3C86-4BBB-9086-6DBE0290E0A4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE, ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED, ENCLAVE_FLAG_FULL_DEBUG_ENABLED, ENCLAVE_IDENTITY, ENCLAVE_IDENTITY structure, base.enclave_identity, ntenclv/ENCLAVE_IDENTITY
 ms.prod: windows
 ms.technology: windows-sdk

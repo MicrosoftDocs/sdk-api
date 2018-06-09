@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure_setbackingfilecount.htm
 old-project: mstv
 ms.assetid: c984ec40-22d0-4670-af7e-3c2ce611850f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetBackingFileCount method, IStreamBufferConfigure.SetBackingFileCount, IStreamBufferConfigure::SetBackingFileCount, IStreamBufferConfigureSetBackingFileCount, SetBackingFileCount, SetBackingFileCount method [Microsoft TV Technologies], SetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setbackingfilecount, sbe/IStreamBufferConfigure::SetBackingFileCount
 ms.prod: windows
 ms.technology: windows-sdk

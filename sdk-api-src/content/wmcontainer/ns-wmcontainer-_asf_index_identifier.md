@@ -7,7 +7,7 @@ old-location: mf\asf_index_identifier.htm
 old-project: medfound
 ms.assetid: 8103a62e-6d1a-4dcd-af91-cedb30523004
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 8103a62e-6d1a-4dcd-af91-cedb30523004, ASF_INDEX_IDENTIFIER, ASF_INDEX_IDENTIFIER structure [Media Foundation], _ASF_INDEX_IDENTIFIER, mf.asf_index_identifier, wmcontainer/ASF_INDEX_IDENTIFIER
 ms.prod: windows
 ms.technology: windows-sdk

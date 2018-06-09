@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm
 old-project: direct3ddxgi
 ms.assetid: 18991B1A-5FA7-4298-A5FD-C8D7C485E4F7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: EnumWarpAdapter, EnumWarpAdapter method [DXGI], EnumWarpAdapter method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumWarpAdapter method, IDXGIFactory4.EnumWarpAdapter, IDXGIFactory4::EnumWarpAdapter, direct3ddxgi.idxgifactory4_enumwarpadapter, dxgi1_4/IDXGIFactory4::EnumWarpAdapter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             Returns S_OK if successful; an error code otherwise.

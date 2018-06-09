@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCacheRequest.htm
 old-project: WinAuto
 ms.assetid: 8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], IUIAutomationCacheRequest interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCacheRequest, uiauto_IUIAutomationCacheRequest, uiautomationclient/IUIAutomationCacheRequest, winauto.uiauto_IUIAutomationCacheRequest
 ms.prod: windows
 ms.technology: windows-sdk

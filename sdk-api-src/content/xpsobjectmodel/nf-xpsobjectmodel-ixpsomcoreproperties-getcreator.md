@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getcreator.htm
 old-project: printdocs
 ms.assetid: 35d7a3ad-e1f7-49bf-ad30-d577cc9d4731
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetCreator, GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreator method, IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ The method succeeded.
 The <b>creator</b> property describes  the entity that is primarily responsible for making the content of
 the resource.
 
-This method allocates the memory used by the string that is returned in <i>creator</i>.  If <i>creator</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>creator</i>.  If <i>creator</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

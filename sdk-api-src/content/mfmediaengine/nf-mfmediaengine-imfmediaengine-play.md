@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_play.htm
 old-project: medfound
 ms.assetid: 2D6083F5-734A-4350-8E54-56C79038389D
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Play method, IMFMediaEngine.Play, IMFMediaEngine::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_play, mfmediaengine/IMFMediaEngine::Play
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

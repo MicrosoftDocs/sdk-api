@@ -7,7 +7,7 @@ old-location: mstv\ibda_fdc_getstatus.htm
 old-project: mstv
 ms.assetid: feaa3d72-353f-45ed-b458-7345bbe07dd2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetStatus, GetStatus method [Microsoft TV Technologies], GetStatus method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetStatus method, IBDA_FDC.GetStatus, IBDA_FDC::GetStatus, bdaiface/IBDA_FDC::GetStatus, mstv.ibda_fdc_getstatus
 ms.prod: windows
 ms.technology: windows-sdk

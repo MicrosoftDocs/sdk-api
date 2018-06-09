@@ -63,7 +63,7 @@ Sets whether a row should appear on the same page as the row that follows it.
 
 Type: <b>long</b>
 
-A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that indicates whether a row should appear on the same page as the row that follows it.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether a row should appear on the same page as the row that follows it.
 
 
 ## -returns

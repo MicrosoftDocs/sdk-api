@@ -7,7 +7,7 @@ old-location: security\cryptsignmessage.htm
 old-project: SecCrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -186,7 +186,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

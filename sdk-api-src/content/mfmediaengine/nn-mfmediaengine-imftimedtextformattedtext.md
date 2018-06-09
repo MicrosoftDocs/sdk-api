@@ -7,7 +7,7 @@ old-location: mf\imftimedtextformattedtext.htm
 old-project: medfound
 ms.assetid: 98327CA2-21C4-481F-B979-12C31AA1E7B2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], IMFTimedTextFormattedText interface [Media Foundation],described, mf.imftimedtextformattedtext, mfmediaengine/IMFTimedTextFormattedText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

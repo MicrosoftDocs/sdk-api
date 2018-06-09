@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink.htm
 old-project: mstv
 ms.assetid: 15181a89-aa64-4ecf-aaf5-4aac36753ddf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], IMSVidGenericSink interface [Microsoft TV Technologies],described, IMSVidGenericSinkInterface, mstv.imsvidgenericsink, segment/IMSVidGenericSink
 ms.prod: windows
 ms.technology: windows-sdk

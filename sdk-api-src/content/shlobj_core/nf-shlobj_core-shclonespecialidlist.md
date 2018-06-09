@@ -7,7 +7,7 @@ old-location: shell\SHCloneSpecialIDList.htm
 old-project: shell
 ms.assetid: ef8a6168-c495-47a7-af97-dfee19a41f64
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHCloneSpecialIDList, SHCloneSpecialIDList function [Windows Shell], _win32_SHCloneSpecialIDList, shell.SHCloneSpecialIDList, shlobj_core/SHCloneSpecialIDList
 ms.prod: windows
 ms.technology: windows-sdk

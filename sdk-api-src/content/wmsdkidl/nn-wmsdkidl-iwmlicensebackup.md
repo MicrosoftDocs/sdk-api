@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicensebackup.htm
 old-project: wmformat
 ms.assetid: 4ef43b7e-706b-48f6-80ba-7d0a59c3929a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMLicenseBackup, IWMLicenseBackup interface [windows Media Format], IWMLicenseBackup interface [windows Media Format],described, IWMLicenseBackupInterface, wmformat.iwmlicensebackup, wmsdkidl/IWMLicenseBackup
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfp_error_event.htm
 old-project: medfound
 ms.assetid: 0ccfdefa-4913-4a02-bb91-14df1c185ddf
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFP_ERROR_EVENT, MFP_ERROR_EVENT structure [Media Foundation], mf.mfp_error_event, mfplay/MFP_ERROR_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilegroupmanager.htm
 old-project: Fsrm
 ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], IFsrmFileGroupManager interface [File Server Resource Manager],described, fs.ifsrmfilegroupmanager, fsrm.ifsrmfilegroupmanager, fsrmscreen/IFsrmFileGroupManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage file group objects.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileGroupManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileGroupManager)</code> as the interface identifier. For an 
     example, see 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink2_getfileduration.htm
 old-project: wmformat
 ms.assetid: b0685760-929d-4c65-84e0-a9745635eddd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetFileDuration, GetFileDuration method [windows Media Format], GetFileDuration method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileDuration method, IWMWriterFileSink2.GetFileDuration, IWMWriterFileSink2::GetFileDuration, IWMWriterFileSink2GetFileDuration, wmformat.iwmwriterfilesink2_getfileduration, wmsdkidl/IWMWriterFileSink2::GetFileDuration
 ms.prod: windows
 ms.technology: windows-sdk

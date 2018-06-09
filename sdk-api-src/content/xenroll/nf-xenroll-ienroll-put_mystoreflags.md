@@ -7,7 +7,7 @@ old-location: security\ienroll4_mystoreflags.htm
 old-project: SecCrypto
 ms.assetid: e545920a-0c39-49bb-90cc-87039d2e2cfd
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IEnroll interface [Security],MyStoreFlags property, IEnroll.MyStoreFlags, IEnroll.put_MyStoreFlags, IEnroll::MyStoreFlags, IEnroll::get_MyStoreFlags, IEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],IEnroll interface, put_MyStoreFlags, security.ienroll4_mystoreflags, xenroll/IEnroll::MyStoreFlags, xenroll/IEnroll::get_MyStoreFlags, xenroll/IEnroll::put_MyStoreFlags
 ms.prod: windows
 ms.technology: windows-sdk

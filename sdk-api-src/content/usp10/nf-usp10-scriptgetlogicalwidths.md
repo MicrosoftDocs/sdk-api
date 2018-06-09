@@ -7,7 +7,7 @@ old-location: intl\scriptgetlogicalwidths.htm
 old-project: Intl
 ms.assetid: ecedd0a1-aad8-4527-be46-6f7dd26a9e9b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScriptGetLogicalWidths, ScriptGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptGetLogicalWidths, intl.scriptgetlogicalwidths, usp10/ScriptGetLogicalWidths
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Converts the glyph <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">advance widths</a> for a specific font into logical widths.
+Converts the glyph <a href="uniscribe_glossary.htm">advance widths</a> for a specific font into logical widths.
 
 
 ## -parameters

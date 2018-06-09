@@ -7,7 +7,7 @@ old-location: security\certrdnvaluetostr.htm
 old-project: SecCrypto
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz
 
 
 
-<a href="https://www.bing.com/search?q=Data+Conversion+Functions">Data Conversion Functions</a>
+<a href="cryptography_functions.htm">Data Conversion Functions</a>
  
 
  

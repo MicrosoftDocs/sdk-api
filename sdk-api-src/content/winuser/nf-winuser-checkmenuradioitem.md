@@ -144,7 +144,7 @@ For more information about menu item type and state flags, see the <a href="http
 
 #### Examples
 
-For an example, see Example of <a href="https://www.bing.com/search?q=Example+of+Using+Custom+Checkmark+Bitmaps">Example of Using Custom Checkmark Bitmaps</a>. 
+For an example, see Example of <a href="using_menus.htm">Example of Using Custom Checkmark Bitmaps</a>. 
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: dshow\iamstreamcontrol_startat.htm
 old-project: DirectShow
 ms.assetid: ce155b83-ee4a-47d4-9258-a1d18cf25f8b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StartAt method, IAMStreamControl.StartAt, IAMStreamControl::StartAt, IAMStreamControlStartAt, StartAt, StartAt method [DirectShow], StartAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_startat, strmif/IAMStreamControl::StartAt
 ms.prod: windows
 ms.technology: windows-sdk

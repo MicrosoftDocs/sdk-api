@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitys
 old-project: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: DecomposeHmenuIdentityString, DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHmenuIdentityString method, IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
 ms.prod: windows
 ms.technology: windows-sdk

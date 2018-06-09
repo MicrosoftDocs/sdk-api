@@ -61,7 +61,7 @@ The <b>SetupDiUnremoveDevice</b> function is the default handler for the <a href
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for the local system that contains a device information element that represents a device to restore and to restart.
+A handle to a <a href="devinst.device_information_sets">device information set</a> for the local system that contains a device information element that represents a device to restore and to restart.
 
 
 ### -param DeviceInfoData [in, out]
@@ -84,7 +84,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 <b>SetupDiUnremoveDevice</b> restores a device to a hardware profile. This function starts the device, if possible, or it sets a flag in the device install parameters that eventually causes the user to be prompted to shut down the system.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiUnremoveDevice</b> and only in those situations where the class installer must perform device unremove operations after <b>SetupDiUnremoveDevice</b> completes the default device unremove operation. In such situations, the class installer must directly call <b>SetupDiUnremoveDevice</b> when the installer processes a DIF_UNREMOVE request. For more information about calling the default handler, see <a href="https://www.bing.com/search?q=Calling+Default+DIF+Code+Handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiUnremoveDevice</b> and only in those situations where the class installer must perform device unremove operations after <b>SetupDiUnremoveDevice</b> completes the default device unremove operation. In such situations, the class installer must directly call <b>SetupDiUnremoveDevice</b> when the installer processes a DIF_UNREMOVE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 The device being restored must have class install parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543728">DIF_UNREMOVE</a> or the function fails and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_NO_CLASSINSTALL_PARAMS.
 

@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink2_resetfilterlist.htm
 old-project: mstv
 ms.assetid: fc899c48-703a-4bdc-849e-73633ae748d0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidGenericSink2 interface [Microsoft TV Technologies],ResetFilterList method, IMSVidGenericSink2.ResetFilterList, IMSVidGenericSink2::ResetFilterList, IMSVidGenericSink2ResetFilterList, ResetFilterList, ResetFilterList method [Microsoft TV Technologies], ResetFilterList method [Microsoft TV Technologies],IMSVidGenericSink2 interface, mstv.imsvidgenericsink2_resetfilterlist, segment/IMSVidGenericSink2::ResetFilterList
 ms.prod: windows
 ms.technology: windows-sdk

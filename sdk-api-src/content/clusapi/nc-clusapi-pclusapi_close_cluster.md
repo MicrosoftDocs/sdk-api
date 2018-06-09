@@ -7,7 +7,7 @@ old-location: mscs\closecluster.htm
 old-project: MsCS
 ms.assetid: cf055fd6-b1e1-4262-b205-c7d926522450
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER, PCLUSAPI_CLOSE_CLUSTER callback, PCLUSAPI_CLOSE_CLUSTER callback function [Failover Cluster], _wolf_closecluster, clusapi/PCLUSAPI_CLOSE_CLUSTER, mscs.closecluster
 ms.prod: windows
 ms.technology: windows-sdk

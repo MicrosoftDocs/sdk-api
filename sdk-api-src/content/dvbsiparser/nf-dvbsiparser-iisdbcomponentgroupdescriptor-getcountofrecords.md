@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: b5b8334c-a3f1-42f7-81c9-d0c461e17f25
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbComponentGroupDescriptor.GetCountOfRecords, IIsdbComponentGroupDescriptor::GetCountOfRecords, dvbsiparser/IIsdbComponentGroupDescriptor::GetCountOfRecords, mstv.iisdbcomponentgroupdescriptor_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

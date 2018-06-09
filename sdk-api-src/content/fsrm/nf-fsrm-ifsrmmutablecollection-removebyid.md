@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmmutablecollection_removebyid.htm
 old-project: Fsrm
 ms.assetid: 42f6fc4c-72fe-47c8-91c5-21987fa91848
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],RemoveById method, IFsrmMutableCollection.RemoveById, IFsrmMutableCollection::RemoveById, RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
 ms.prod: windows
 ms.technology: windows-sdk

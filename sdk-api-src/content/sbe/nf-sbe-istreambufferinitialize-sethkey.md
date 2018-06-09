@@ -7,7 +7,7 @@ old-location: mstv\istreambufferinitialize_sethkey.htm
 old-project: mstv
 ms.assetid: f8d85180-2575-4525-9b8a-bec354e2cd4c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetHKEY method, IStreamBufferInitialize.SetHKEY, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
 ms.prod: windows
 ms.technology: windows-sdk

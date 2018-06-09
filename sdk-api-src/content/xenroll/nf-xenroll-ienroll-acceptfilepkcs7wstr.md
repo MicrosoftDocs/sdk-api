@@ -7,7 +7,7 @@ old-location: security\ienroll4_acceptfilepkcs7wstr.htm
 old-project: SecCrypto
 ms.assetid: 9c2b99df-769b-457b-b5c5-7690b73d6f84
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: IEnroll interface [Security],acceptFilePKCS7WStr method, IEnroll.acceptFilePKCS7WStr, IEnroll::acceptFilePKCS7WStr, acceptFilePKCS7WStr, acceptFilePKCS7WStr method [Security], acceptFilePKCS7WStr method [Security],IEnroll interface, security.ienroll4_acceptfilepkcs7wstr, xenroll/IEnroll::acceptFilePKCS7WStr
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\certduplicatestore.htm
 old-project: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Currently, a copy is not made of the handle, and the returned handle is the same
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

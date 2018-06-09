@@ -7,7 +7,7 @@ old-location: mstv\idvblogicalchannel2descriptor_getlistnamew.htm
 old-project: mstv
 ms.assetid: cbfee1d5-8a38-4c9a-ae5e-2d91970c132e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetListNameW, GetListNameW method [Microsoft TV Technologies], GetListNameW method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListNameW method, IDvbLogicalChannel2Descriptor.GetListNameW, IDvbLogicalChannel2Descriptor::GetListNameW, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW, mstv.idvblogicalchannel2descriptor_getlistnamew
 ms.prod: windows
 ms.technology: windows-sdk

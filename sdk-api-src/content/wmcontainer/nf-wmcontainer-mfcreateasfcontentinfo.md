@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfcontentinfo.htm
 old-project: medfound
 ms.assetid: 00460f79-7033-4893-88c0-b1c939441f70
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 00460f79-7033-4893-88c0-b1c939441f70, MFCreateASFContentInfo, MFCreateASFContentInfo function [Media Foundation], mf.mfcreateasfcontentinfo, wmcontainer/MFCreateASFContentInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-Creates the <a href="https://docs.microsoft.com/windows/desktop//medfound/asf-file-structure">ASF Header Object</a> object.
+Creates the <a href="asf_file_structure.htm">ASF Header Object</a> object.
 
 
 

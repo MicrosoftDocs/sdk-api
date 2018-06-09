@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion2_getrecordname.htm
 old-project: wmformat
 ms.assetid: 7508a473-77ae-49ce-b041-2d171193e730
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetRecordName, GetRecordName method [windows Media Format], GetRecordName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordName method, IWMMutualExclusion2.GetRecordName, IWMMutualExclusion2::GetRecordName, IWMMutualExclusion2GetRecordName, wmformat.iwmmutualexclusion2_getrecordname, wmsdkidl/IWMMutualExclusion2::GetRecordName
 ms.prod: windows
 ms.technology: windows-sdk

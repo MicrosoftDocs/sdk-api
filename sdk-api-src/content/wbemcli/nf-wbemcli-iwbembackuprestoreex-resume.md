@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestoreex_resume.htm
 old-project: WmiSdk
 ms.assetid: fa31860b-36f5-4182-a58c-b8747af0e628
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Resume method, IWbemBackupRestoreEx.Resume, IWbemBackupRestoreEx::Resume, Resume, Resume method [Windows Management Instrumentation], Resume method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Resume, wmi.iwbembackuprestoreex_resume
 ms.prod: windows
 ms.technology: windows-sdk

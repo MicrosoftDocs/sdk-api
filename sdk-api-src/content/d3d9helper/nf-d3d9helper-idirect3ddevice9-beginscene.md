@@ -65,7 +65,7 @@ Begins a scene.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. The method will fail with D3DERR_INVALIDCALL if <b>IDirect3DDevice9::BeginScene</b> is called 
       while already in a <b>IDirect3DDevice9::BeginScene</b>/<a href="https://msdn.microsoft.com/9ff1e40e-9e19-4168-ae29-6f7d204ab236">IDirect3DDevice9::EndScene</a> pair. This happens only 

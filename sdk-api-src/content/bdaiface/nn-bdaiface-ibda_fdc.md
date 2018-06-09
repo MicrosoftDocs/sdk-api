@@ -7,7 +7,7 @@ old-location: mstv\ibda_fdc.htm
 old-project: mstv
 ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies],described, bdaiface/IBDA_FDC, mstv.ibda_fdc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getdefaultmenulanguage.htm
 old-project: DirectShow
 ms.assetid: f2ad5bec-fc8c-4fcf-8657-aa1726c28cdc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetDefaultMenuLanguage, GetDefaultMenuLanguage method [DirectShow], GetDefaultMenuLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultMenuLanguage method, IDvdInfo2.GetDefaultMenuLanguage, IDvdInfo2::GetDefaultMenuLanguage, IDvdInfo2GetDefaultMenuLanguage, dshow.idvdinfo2_getdefaultmenulanguage, strmif/IDvdInfo2::GetDefaultMenuLanguage
 ms.prod: windows
 ms.technology: windows-sdk

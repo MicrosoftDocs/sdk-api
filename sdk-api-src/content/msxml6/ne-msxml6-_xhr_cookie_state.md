@@ -7,7 +7,7 @@ old-location: ixhr2\xhr_cookie_state.htm
 old-project: ixhr2
 ms.assetid: 040a5ae8-ec18-44a6-a3e9-376637cc005a
 ms.author: windowssdkdev
-ms.date: 04/02/2018
+ms.date: 06/04/2018
 ms.keywords: XHR_COOKIE_STATE, XHR_COOKIE_STATE enumeration [XMLHttpRequest2], XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, _XHR_COOKIE_STATE, ixhr2.xhr_cookie_state, msxml6/XHR_COOKIE_STATE, msxml6/XHR_COOKIE_STATE_ACCEPT, msxml6/XHR_COOKIE_STATE_DOWNGRADE, msxml6/XHR_COOKIE_STATE_LEASH, msxml6/XHR_COOKIE_STATE_PROMPT, msxml6/XHR_COOKIE_STATE_REJECT, msxml6/XHR_COOKIE_STATE_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

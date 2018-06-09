@@ -7,7 +7,7 @@ old-location: shell\IContactManagerInterop_ShowContactCardForWindow.htm
 old-project: shell
 ms.assetid: 2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: FP_ABOVE, FP_BELOW, FP_DEFAULT, FP_LEFT, FP_RIGHT, IContactManagerInterop interface [Windows Shell],ShowContactCardForWindow method, IContactManagerInterop.ShowContactCardForWindow, IContactManagerInterop::ShowContactCardForWindow, ShowContactCardForWindow, ShowContactCardForWindow method [Windows Shell], ShowContactCardForWindow method [Windows Shell],IContactManagerInterop interface, shell.IContactManagerInterop_ShowContactCardForWindow, shobjidl_core/IContactManagerInterop::ShowContactCardForWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ Type: <b>HRESULT</b>
 <li>E_POINTER if <i>appWindow</i> is NULL or <i>contact</i> is NULL or <i>selection</i> is NULL</li>
 <li>E_INVALIDARG if <i>contact</i> isn't a <a href="https://msdn.microsoft.com/07883e6f-9eda-48e1-8727-a5831fe8a3e0">Windows.ApplicationModel.Contacts.Contact</a> object or <i>preferredPlacement</i> is an invalid enumeration value</li>
 </ul>
-Other <a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a> values are possible.
+Other <a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a> values are possible.
 
 
 

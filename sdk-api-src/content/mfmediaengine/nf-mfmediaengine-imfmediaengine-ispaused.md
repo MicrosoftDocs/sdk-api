@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_ispaused.htm
 old-project: medfound
 ms.assetid: A2E9C498-FEEB-4506-9E69-59028A6B4EE5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsPaused method, IMFMediaEngine.IsPaused, IMFMediaEngine::IsPaused, IsPaused, IsPaused method [Media Foundation], IsPaused method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_ispaused, mfmediaengine/IMFMediaEngine::IsPaused
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

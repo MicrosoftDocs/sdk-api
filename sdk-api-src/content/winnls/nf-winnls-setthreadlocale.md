@@ -7,7 +7,7 @@ old-location: intl\setthreadlocale.htm
 old-project: Intl
 ms.assetid: d86193c7-9b3a-422b-b76c-ff1992f68958
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SetThreadLocale, SetThreadLocale function [Internationalization for Windows Applications], _win32_SetThreadLocale, intl.setthreadlocale, winnls/SetThreadLocale
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,12 +107,12 @@ The function should return an LCID on success. This is the LCID of the previous 
 
 When a thread is created, it uses the user locale. This value is returned by <a href="https://msdn.microsoft.com/bbf8399e-9034-4480-8d6e-030714f94e48">GetUserDefaultLCID</a>. The user locale can be modified for future processes and thread creation using the regional and language options portion of the Control Panel. The thread locale can also be changed using <b>SetThreadLocale</b>.
 
-<b>SetThreadLocale</b> affects the selection of resources with a <a href="https://msdn.microsoft.com/175e27e2-903a-4aaf-89ef-532166b167e8">LANGUAGE</a> statement. The statement affects such functions as <a href="https://www.bing.com/search?q=CreateDialog">CreateDialog</a>, <a href="https://www.bing.com/search?q=DialogBox">DialogBox</a>, <a href="https://www.bing.com/search?q=LoadMenu">LoadMenu</a>, <a href="https://www.bing.com/search?q=LoadString">LoadString</a>, and <a href="https://www.bing.com/search?q=FindResource">FindResource</a>. It sets the code page implied by CP_THREAD_ACP, but does not affect <a href="https://www.bing.com/search?q=FindResourceEx">FindResourceEx</a>. For more information, see <a href="https://msdn.microsoft.com/5d6fc86a-f205-4d14-bb7c-ecd71682e0fe">Code Page Identifiers</a>.
+<b>SetThreadLocale</b> affects the selection of resources with a <a href="https://msdn.microsoft.com/175e27e2-903a-4aaf-89ef-532166b167e8">LANGUAGE</a> statement. The statement affects such functions as <a href="_win32_createdialog_cpp">CreateDialog</a>, <a href="_win32_dialogbox_cpp">DialogBox</a>, <a href="_win32_loadmenu_cpp">LoadMenu</a>, <a href="_win32_loadstring_cpp">LoadString</a>, and <a href="_win32_findresource_cpp">FindResource</a>. It sets the code page implied by CP_THREAD_ACP, but does not affect <a href="_win32_findresourceex_cpp">FindResourceEx</a>. For more information, see <a href="https://msdn.microsoft.com/5d6fc86a-f205-4d14-bb7c-ecd71682e0fe">Code Page Identifiers</a>.
 
-<b>Windows Vista and later: </b> Do not use <b>SetThreadLocale</b> to select a user interface language. The resource loader selects the resource that is defined in the .rc file with a <a href="https://msdn.microsoft.com/175e27e2-903a-4aaf-89ef-532166b167e8">LANGUAGE</a> statement, or the application can use <a href="https://www.bing.com/search?q=FindResourceEx">FindResourceEx</a>. Additionally, the application can use <a href="https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75">SetThreadUILanguage</a>.
+<b>Windows Vista and later: </b> Do not use <b>SetThreadLocale</b> to select a user interface language. The resource loader selects the resource that is defined in the .rc file with a <a href="https://msdn.microsoft.com/175e27e2-903a-4aaf-89ef-532166b167e8">LANGUAGE</a> statement, or the application can use <a href="_win32_findresourceex_cpp">FindResourceEx</a>. Additionally, the application can use <a href="https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75">SetThreadUILanguage</a>.
       
 
-<b>Windows 2000, Windows XP:</b> Do not use <b>SetThreadLocale</b> to select a user interface language. To select the resource that is defined in the .rc file with a <a href="https://msdn.microsoft.com/175e27e2-903a-4aaf-89ef-532166b167e8">LANGUAGE</a> statement, the application must use the <a href="https://www.bing.com/search?q=FindResourceEx">FindResourceEx</a> function.
+<b>Windows 2000, Windows XP:</b> Do not use <b>SetThreadLocale</b> to select a user interface language. To select the resource that is defined in the .rc file with a <a href="https://msdn.microsoft.com/175e27e2-903a-4aaf-89ef-532166b167e8">LANGUAGE</a> statement, the application must use the <a href="_win32_findresourceex_cpp">FindResourceEx</a> function.
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension.htm
 old-project: medfound
 ms.assetid: 2acabcc2-242d-4b3d-b5b4-680c7973201f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

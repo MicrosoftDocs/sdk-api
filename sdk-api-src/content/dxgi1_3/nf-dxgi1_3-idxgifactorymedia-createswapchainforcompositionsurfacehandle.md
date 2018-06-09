@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactorymedia_createswapchainforcompositionsurfac
 old-project: direct3ddxgi
 ms.assetid: 3C5724B7-598B-44F1-80F3-07010EAA089B
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSwapChainForCompositionSurfaceHandle, CreateSwapChainForCompositionSurfaceHandle method [DXGI], CreateSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,9 +77,9 @@ A pointer to a  <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D
 
 ### -param pRestrictToOutput [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the swap chain to restrict content to. If the swap chain is moved to a different output, the content is black. You can optionally set this parameter to an output target that uses <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict the content on this output. If the swap chain is moved to a different output, the content is black.
+A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the swap chain to restrict content to. If the swap chain is moved to a different output, the content is black. You can optionally set this parameter to an output target that uses <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict the content on this output. If the swap chain is moved to a different output, the content is black.
 
-You must also pass the <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a present call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. However, you can conditionally restrict content based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
+You must also pass the <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a present call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. However, you can conditionally restrict content based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
 
 Set this parameter to <b>NULL</b> if you don't want to restrict content to an output target.
 
@@ -111,7 +111,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 
 
 
-<a href="https://www.bing.com/search?q=For+best+performance,+use+DXGI+flip+model">For best performance, use DXGI flip model</a>
+<a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">For best performance, use DXGI flip model</a>
 
 
 

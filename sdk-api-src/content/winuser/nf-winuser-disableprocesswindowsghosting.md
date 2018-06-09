@@ -7,7 +7,7 @@ old-location: winprog\disableprocesswindowsghosting.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtldisableprocesswindowsghosting.htm
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: DisableProcessWindowsGhosting, DisableProcessWindowsGhosting function [Windows API], winprog.disableprocesswindowsghosting, winui.disableprocesswindowsghosting, winuser/DisableProcessWindowsGhosting
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\extended_name_format_str.htm
 old-project: SysInfo
 ms.assetid: 1270c412-2fa5-4f5d-a86e-1ab3146c6683
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: "*PEXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT enumeration, NameCanonical, NameCanonicalEx, NameDisplay, NameDnsDomain, NameFullyQualifiedDN, NameSamCompatible, NameServicePrincipal, NameUniqueId, NameUnknown, NameUserPrincipal, PEXTENDED_NAME_FORMAT, PEXTENDED_NAME_FORMAT enumeration pointer, _win32_extended_name_format_str, base.extended_name_format_str, secext/EXTENDED_NAME_FORMAT, secext/NameCanonical, secext/NameCanonicalEx, secext/NameDisplay, secext/NameDnsDomain, secext/NameFullyQualifiedDN, secext/NameSamCompatible, secext/NameServicePrincipal, secext/NameUniqueId, secext/NameUnknown, secext/NameUserPrincipal, secext/PEXTENDED_NAME_FORMAT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ A "friendly" display name (for example, Jeff Smith). The display name is not nec
 ### -field NameUniqueId
 
 A GUID string that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
+<a href="_com_iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
 
 
 ### -field NameCanonical

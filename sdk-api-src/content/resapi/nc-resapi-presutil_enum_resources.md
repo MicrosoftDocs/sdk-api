@@ -7,7 +7,7 @@ old-location: mscs\resutilenumresources.htm
 old-project: MsCS
 ms.assetid: 109fefb7-a5fc-44d2-80c0-9a08ce8d91bf
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES, PRESUTIL_ENUM_RESOURCES callback, PRESUTIL_ENUM_RESOURCES callback function [Failover Cluster], _wolf_resutilenumresources, mscs.resutilenumresources, resapi/PRESUTIL_ENUM_RESOURCES
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getidentifier.htm
 old-project: printdocs
 ms.assetid: a397fba0-4e73-4f5b-b292-529a222c2501
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetIdentifier method, IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ The method succeeded.
 The <b>identifier</b> property is an unambiguous reference to the resource within a user-defined
 or application-specific context.
 
-This method allocates the memory used by the string that is returned in <i>identifier</i>.  If <i>identifier</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>identifier</i>.  If <i>identifier</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

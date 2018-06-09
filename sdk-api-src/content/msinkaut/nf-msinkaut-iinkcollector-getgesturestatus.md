@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_getgesturestatus.htm
 old-project: tablet
 ms.assetid: 31973709-1702-4ec1-8228-b0d1bdb64bc8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetGestureStatus method, IInkCollector.GetGestureStatus, IInkCollector::GetGestureStatus, msinkaut/IInkCollector::GetGestureStatus, tablet.inkcollector_getgesturestatus
 ms.prod: windows
 ms.technology: windows-sdk

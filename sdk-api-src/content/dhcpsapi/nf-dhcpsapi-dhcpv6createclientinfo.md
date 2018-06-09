@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6createclientinfo.htm
 old-project: DHCP
 ms.assetid: 5d49ab90-3c40-4577-8e7e-36d1370d8de9
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpV6CreateClientInfo, DhcpV6CreateClientInfo function [DHCP], dhcp.dhcpv6createclientinfo, dhcpsapi/DhcpV6CreateClientInfo
 ms.prod: windows
 ms.technology: windows-sdk

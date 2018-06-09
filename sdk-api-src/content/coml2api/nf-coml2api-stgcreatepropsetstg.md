@@ -7,7 +7,7 @@ old-location: stg\stgcreatepropsetstg.htm
 old-project: Stg
 ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ The
 <b>IStorage</b> by itself, although subsequent calls to the 
 <b>IPropertySetStorage</b> interface might.
 
-<b>StgCreatePropSetStg</b> calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref.md">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
+<b>StgCreatePropSetStg</b> calls <a href="_com_iunknown_addref">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="_com_iunknown_release">Release</a>.
 
 
 #### Examples

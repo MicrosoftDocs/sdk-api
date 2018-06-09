@@ -7,8 +7,8 @@ old-location: stg\ipropertystorage_commit.htm
 old-project: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
-ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
+ms.date: 06/06/2018
+ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Commit, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -144,6 +144,10 @@ omit the call to <b>IPropertyStorage::Commit</b>. Calling IUnknown::Release on t
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
 
 
 

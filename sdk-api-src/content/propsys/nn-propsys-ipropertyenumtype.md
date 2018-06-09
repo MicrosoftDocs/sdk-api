@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Exposes methods that extract data from enumeration information. <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype.md">IPropertyEnumType</a> gives access to the <a href="https://msdn.microsoft.com/c8cc040e-fcce-43a0-98c1-db2b2c616ac3">enum</a> and <a href="https://www.bing.com/search?q=enumRange">enumRange</a> elements in the <a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">property schema</a> in a programmatic way at run time.
+Exposes methods that extract data from enumeration information. <a href="shell.IPropertyEnumType">IPropertyEnumType</a> gives access to the <a href="https://msdn.microsoft.com/c8cc040e-fcce-43a0-98c1-db2b2c616ac3">enum</a> and <a href="shell.propdesc_schema_enumRange">enumRange</a> elements in the <a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">property schema</a> in a programmatic way at run time.
 
 
 ## -inheritance
@@ -121,7 +121,7 @@ Gets a value from an enumeration information structure.
 
 
 
-For additional information, see <a href="https://www.bing.com/search?q=enumeratedList">enumeratedList</a>.
+For additional information, see <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: tablet\inkedit_getgesturestatus.htm
 old-project: tablet
 ms.assetid: 0992dbd2-bd32-4af6-abd1-66027dd2b30f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 0992dbd2-bd32-4af6-abd1-66027dd2b30f, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],GetGestureStatus method, IInkEdit.GetGestureStatus, IInkEdit::GetGestureStatus, inked/IInkEdit::GetGestureStatus, tablet.inkedit_getgesturestatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,7 +198,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/52761cb2-4433-482
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

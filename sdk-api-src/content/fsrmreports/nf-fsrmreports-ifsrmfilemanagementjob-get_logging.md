@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjob_logging.htm
 old-project: Fsrm
 ms.assetid: a1bed6bf-9c34-40ab-b5fc-ba870e1f084a
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Logging property, IFsrmFileManagementJob.Logging, IFsrmFileManagementJob.get_Logging, IFsrmFileManagementJob::Logging, IFsrmFileManagementJob::get_Logging, IFsrmFileManagementJob::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_logging, fsrm.ifsrmfilemanagementjob_logging, fsrmreports/IFsrmFileManagementJob::Logging, fsrmreports/IFsrmFileManagementJob::get_Logging, fsrmreports/IFsrmFileManagementJob::put_Logging, get_Logging
 ms.prod: windows
 ms.technology: windows-sdk

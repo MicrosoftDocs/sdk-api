@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationVirtualizedItemPattern.htm
 old-project: WinAuto
 ms.assetid: 48f066f3-c78c-47a2-9668-ab79b1438130
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationVirtualizedItemPattern, IUIAutomationVirtualizedItemPattern interface [Windows Accessibility], IUIAutomationVirtualizedItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationVirtualizedItemPattern, uiauto_IUIAutomationVirtualizedItemPattern, uiautomationclient/IUIAutomationVirtualizedItemPattern, winauto.uiauto_IUIAutomationVirtualizedItemPattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Creates a full UI Automation element for a virtualized item.
 
 A virtualized item can be an item retrieved from a control that supports the <a href="https://msdn.microsoft.com/6f3dd94e-3563-4a13-9db9-5928a02bab77">ItemContainer</a> control pattern, or a virtualized embedded object retrieved from a control that supports the <a href="https://msdn.microsoft.com/acc2b513-9367-416a-b0d9-3c2bcc14a8a7">Text</a> control pattern.
 
-The placeholder automation element for a virtualized item might not have loaded data for all UI Automation properties, and may return <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-error-codes">UIA_E_ELEMENTNOTAVAILABLE</a> in response to queries for properties that are not available.
+The placeholder automation element for a virtualized item might not have loaded data for all UI Automation properties, and may return <a href="uiauto_error_codes.htm">UIA_E_ELEMENTNOTAVAILABLE</a> in response to queries for properties that are not available.
 
 
 

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpauditloggetparams.htm
 old-project: DHCP
 ms.assetid: 3d0f8f06-d6a6-40b0-a3e8-0e155caee883
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpAuditLogGetParams, DhcpAuditLogGetParams function [DHCP], dhcp.dhcpauditloggetparams, dhcpsapi/DhcpAuditLogGetParams
 ms.prod: windows
 ms.technology: windows-sdk

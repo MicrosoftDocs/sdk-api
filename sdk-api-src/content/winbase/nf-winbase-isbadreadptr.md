@@ -7,7 +7,7 @@ old-location: base\isbadreadptr.htm
 old-project: Memory
 ms.assetid: c1561403-2b77-4c93-80f1-261f26629d4b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IsBadReadPtr, IsBadReadPtr function, _win32_isbadreadptr, base.isbadreadptr, winbase/IsBadReadPtr
 ms.prod: windows
 ms.technology: windows-sdk

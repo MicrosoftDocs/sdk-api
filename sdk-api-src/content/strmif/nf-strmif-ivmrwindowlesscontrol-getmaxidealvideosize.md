@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getmaxidealvideosize.htm
 old-project: DirectShow
 ms.assetid: 1cfd8c4e-70e0-4a7e-a47e-4ad0535e5cb2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetMaxIdealVideoSize, GetMaxIdealVideoSize method [DirectShow], GetMaxIdealVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetMaxIdealVideoSize method, IVMRWindowlessControl.GetMaxIdealVideoSize, IVMRWindowlessControl::GetMaxIdealVideoSize, IVMRWindowlessControlGetMaxIdealVideoSize, dshow.ivmrwindowlesscontrol_getmaxidealvideosize, strmif/IVMRWindowlessControl::GetMaxIdealVideoSize
 ms.prod: windows
 ms.technology: windows-sdk

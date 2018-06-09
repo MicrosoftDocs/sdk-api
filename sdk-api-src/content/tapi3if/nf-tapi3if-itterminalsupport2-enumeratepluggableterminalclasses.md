@@ -145,8 +145,8 @@ The <i>ppClassEnumerator</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/72c0db41-8391-4923-8961-6aefce9886c4">IEnumPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableTerminalClasses</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/72c0db41-8391-4923-8961-6aefce9886c4">IEnumPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableTerminalClasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumPluggableTerminalClassInfo</b> interface to free resources associated with it.
 
 

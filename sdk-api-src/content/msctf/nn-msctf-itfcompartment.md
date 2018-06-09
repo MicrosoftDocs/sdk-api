@@ -101,7 +101,7 @@ Sets the data for a compartment.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

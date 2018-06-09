@@ -7,7 +7,7 @@ old-location: security\certaddstoretocollection.htm
 old-project: SecCrypto
 ms.assetid: ea848d74-c3ec-4166-90ea-121b33f7f318
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertAddStoreToCollection, CertAddStoreToCollection function [Security], _crypto2_certaddstoretocollection, security.certaddstoretocollection, wincrypt/CertAddStoreToCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -238,7 +238,7 @@ else
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

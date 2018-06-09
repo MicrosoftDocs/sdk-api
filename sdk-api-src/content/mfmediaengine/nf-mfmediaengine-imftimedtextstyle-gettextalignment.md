@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_gettextalignment.htm
 old-project: medfound
 ms.assetid: 2BB85E50-250C-4CFD-95DD-198899DCFE1D
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Media Foundation], GetTextAlignment method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextAlignment method, IMFTimedTextStyle.GetTextAlignment, IMFTimedTextStyle::GetTextAlignment, mf.imftimedtextstyle_gettextalignment, mfmediaengine/IMFTimedTextStyle::GetTextAlignment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Given an INF file and a <a href="https://www.bing.com/search?q=hardware+ID">hardware ID</a>, the <b>UpdateDriverForPlugAndPlayDevices</b> function installs updated drivers for devices that match the hardware ID. 
+Given an INF file and a <a href="devinst.hardware_ids">hardware ID</a>, the <b>UpdateDriverForPlugAndPlayDevices</b> function installs updated drivers for devices that match the hardware ID. 
 
 
 ## -parameters
@@ -198,7 +198,7 @@ The function found a match for the <i>HardwareId</i> value, but the specified dr
 
 The default behavior is to only install the specified drivers if they are better match than the currently installed drivers and the specified drivers are also a better match than any drivers in %<i>SystemRoot</i>%\<i>inf</i>. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>. 
 
-<b>UpdateDriverForPlugAndPlayDevices</b> can also be used to determine whether the device with the specified <i>HardwareId</i> value is plugged in. For more information, see <a href="https://www.bing.com/search?q=Writing+a+Device+Installation+Application">Writing a Device Installation Application</a>.
+<b>UpdateDriverForPlugAndPlayDevices</b> can also be used to determine whether the device with the specified <i>HardwareId</i> value is plugged in. For more information, see <a href="devinst.writing_a_device_installation_application">Writing a Device Installation Application</a>.
 
 <b>UpdateDriverForPlugAndPlayDevices</b> sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a> request to the specified device, all the children of the device, and all other devices that are recursively part of the removal relations for the device. If any of these devices fail a query remove request, <b>UpdateDriverForPlugAndPlayDevices</b> sets the DI_NEEDREBOOT flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552346">SP_DEVINSTALL_PARAMS</a> structure for the device. For information about removal relations, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
 
@@ -220,7 +220,7 @@ The application is a class installer, which should set DI_NEEDREBOOT in <a href=
 </ul>
 If the application must call <b>UpdateDriverForPlugAndPlayDevices</b> several times, it should save any <b>TRUE</b> restart status value received and then prompt for a restart after the final call has returned.
 
-If the function returns ERROR_IN_WOW64 in a 32-bit application, the application is executing on a 64-bit system, which is not allowed. For more information, see <a href="https://www.bing.com/search?q=Installing+Devices+on+64-Bit+Systems">Installing Devices on 64-Bit Systems</a>.
+If the function returns ERROR_IN_WOW64 in a 32-bit application, the application is executing on a 64-bit system, which is not allowed. For more information, see <a href="devinst.device_installations_on_64_bit_systems">Installing Devices on 64-Bit Systems</a>.
 
 
 

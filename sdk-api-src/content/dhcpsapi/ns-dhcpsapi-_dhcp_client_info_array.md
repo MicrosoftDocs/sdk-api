@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_array.htm
 old-project: DHCP
 ms.assetid: 32bb0664-5227-4c84-a2d8-c3b348ae451c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY, DHCP_CLIENT_INFO_ARRAY, DHCP_CLIENT_INFO_ARRAY structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY, LPDHCP_CLIENT_INFO_ARRAY structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY, dhcp.dhcp_client_info_array, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

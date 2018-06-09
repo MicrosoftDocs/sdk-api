@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getnatureofactivationtext.htm
 old-project: mstv
 ms.assetid: 36cb57f1-b894-4c41-b555-db15f8dbe516
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetNatureOfActivationText, GetNatureOfActivationText method [Microsoft TV Technologies], GetNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetNatureOfActivationText method, ISCTE_EAS.GetNatureOfActivationText, ISCTE_EAS::GetNatureOfActivationText, ISCTE_EASGetNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetNatureOfActivationText, mstv.iscte_eas_getnatureofactivationtext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createcoreproperties.htm
 old-project: printdocs
 ms.assetid: b7146f0c-e397-45cb-9eb0-e03b3ac0e905
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: CreateCoreProperties, CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCoreProperties method, IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties
 ms.prod: windows
 ms.technology: windows-sdk

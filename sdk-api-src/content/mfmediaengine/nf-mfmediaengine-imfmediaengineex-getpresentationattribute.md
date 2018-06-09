@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getpresentationattribute.htm
 old-project: medfound
 ms.assetid: 127667EA-8ED2-428E-8F6B-C280CF42E1C5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetPresentationAttribute method, IMFMediaEngineEx.GetPresentationAttribute, IMFMediaEngineEx::GetPresentationAttribute, mf.imfmediaengineex_getpresentationattribute, mfmediaengine/IMFMediaEngineEx::GetPresentationAttribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

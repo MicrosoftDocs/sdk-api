@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_setvideomemoryreservation.htm
 old-project: direct3ddxgi
 ms.assetid: 5D17F57F-9FFA-4B5C-98B6-33E5B3982A63
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Type: <b>UINT64</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             Returns S_OK if successful; an error code otherwise.

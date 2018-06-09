@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getcurrenttime.htm
 old-project: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetCurrentTime, GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentTime method, IMFMediaEngine.GetCurrentTime, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: security\certdeletecrlfromstore.htm
 old-project: SecCrypto
 ms.assetid: eb542c25-8d2b-4427-8f2a-719b472613a5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertDeleteCRLFromStore, CertDeleteCRLFromStore function [Security], _crypto2_certdeletecrlfromstore, security.certdeletecrlfromstore, wincrypt/CertDeleteCRLFromStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ The <i>pCrlContext</i> parameter is always freed by this function by using
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

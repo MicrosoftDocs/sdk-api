@@ -7,7 +7,7 @@ old-location: mstv\idtfilter2.htm
 old-project: mstv
 ms.assetid: 351c77ec-fb0c-4780-ad43-8ca6716b208f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], IDTFilter2 interface [Microsoft TV Technologies],described, IDTFilter2Interface, encdec/IDTFilter2, mstv.idtfilter2
 ms.prod: windows
 ms.technology: windows-sdk

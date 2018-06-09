@@ -7,7 +7,7 @@ old-location: base\localhandle.htm
 old-project: Memory
 ms.assetid: 2b252f8b-d0a3-4d7f-9e2e-cb80c1512935
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: LocalHandle, LocalHandle function, _win32_localhandle, base.localhandle, winbase/LocalHandle
 ms.prod: windows
 ms.technology: windows-sdk

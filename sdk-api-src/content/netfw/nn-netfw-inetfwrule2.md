@@ -7,7 +7,7 @@ old-location: ics\inetfwrule2.htm
 old-project: ICS
 ms.assetid: 35c28180-b60c-4dc1-81ce-0ce012f96525
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/07/2018
 ms.keywords: INetFwRule2, INetFwRule2 interface [ICS/ICF], INetFwRule2 interface [ICS/ICF],described, ics.inetfwrule2, netfw/INetFwRule2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onopendatasessioncomplete.htm
 old-project: mbn
 ms.assetid: 50FDF285-0C93-45C3-AB07-9BFB067DAD94
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnOpenDataSessionComplete method, IMbnDeviceServicesEvents.OnOpenDataSessionComplete, IMbnDeviceServicesEvents::OnOpenDataSessionComplete, OnOpenDataSessionComplete, OnOpenDataSessionComplete method [Microsoft Broadband Networks], OnOpenDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onopendatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Notification method indicating that a device service <b>OpenDataSession</b> requ
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
 
 
 ### -param status [in]

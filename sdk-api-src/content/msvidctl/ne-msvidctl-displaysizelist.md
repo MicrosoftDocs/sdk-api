@@ -7,7 +7,7 @@ old-location: mstv\displaysizelist.htm
 old-project: mstv
 ms.assetid: 2e939cbc-fc75-41d7-9fcb-32da5173f9bc
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: DisplaySizeList, DisplaySizeList enumeration [Microsoft TV Technologies], MSVidCtlDisplaySizeListEnumeration, dslDefaultSize, dslDoubleSourceSize, dslFullScreen, dslHalfScreen, dslHalfSourceSize, dslQuarterScreen, dslSixteenthScreen, dslSourceSize, enumeration [Microsoft TV Technologies], mstv.displaysizelist, msvidctl/DisplaySizeList, msvidctl/dslDefaultSize, msvidctl/dslDoubleSourceSize, msvidctl/dslFullScreen, msvidctl/dslHalfScreen, msvidctl/dslHalfSourceSize, msvidctl/dslQuarterScreen, msvidctl/dslSixteenthScreen, msvidctl/dslSourceSize
 ms.prod: windows
 ms.technology: windows-sdk

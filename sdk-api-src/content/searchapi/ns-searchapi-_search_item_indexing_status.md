@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_ITEM_INDEXING_STATUS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_status.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: SEARCH_ITEM_INDEXING_STATUS, SEARCH_ITEM_INDEXING_STATUS structure [search], _SEARCH_ITEM_INDEXING_STATUS, _search_SEARCH_ITEM_INDEXING_STATUS, search._search_SEARCH_ITEM_INDEXING_STATUS, searchapi/SEARCH_ITEM_INDEXING_STATUS
 ms.prod: windows
 ms.technology: windows-sdk

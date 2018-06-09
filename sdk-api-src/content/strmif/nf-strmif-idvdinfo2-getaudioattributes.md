@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getaudioattributes.htm
 old-project: DirectShow
 ms.assetid: 80291efa-f3eb-47f0-94e0-dcde583ff35c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudioAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioAttributes method, IDvdInfo2.GetAudioAttributes, IDvdInfo2::GetAudioAttributes, IDvdInfo2GetAudioAttributes, dshow.idvdinfo2_getaudioattributes, strmif/IDvdInfo2::GetAudioAttributes
 ms.prod: windows
 ms.technology: windows-sdk

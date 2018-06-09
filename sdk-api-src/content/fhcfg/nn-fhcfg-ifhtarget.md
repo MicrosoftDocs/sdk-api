@@ -7,7 +7,7 @@ old-location: winprog\ifhtarget.htm
 old-project: DevNotes
 ms.assetid: 5A73A81A-72A3-4794-86E5-9CA8FCA200C0
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [Windows API],described, fhcfg/IFhTarget, winprog.ifhtarget
 ms.prod: windows
 ms.technology: windows-sdk

@@ -1,0 +1,232 @@
+---
+UID: NF:wbemdisp.ISWbemServices.ExecNotificationQuery
+title: ISWbemServices::ExecNotificationQuery
+author: windows-sdk-content
+description: Executes a query to receive events. The call returns immediately.
+old-location: wmi\swbemservices_execnotificationquery.htm
+old-project: WmiSdk
+ms.assetid: 3e1bb428-5395-4e90-9713-6d96242fef4e
+ms.author: windowssdkdev
+ms.date: 06/07/2018
+ms.keywords: ExecNotificationQuery, ExecNotificationQuery method [Windows Management Instrumentation], ExecNotificationQuery method [Windows Management Instrumentation],ISWbemServices interface, ExecNotificationQuery method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecNotificationQuery method, ISWbemServices.ExecNotificationQuery, ISWbemServices::ExecNotificationQuery, SWbemServices object [Windows Management Instrumentation],ExecNotificationQuery method, SWbemServices.ExecNotificationQuery, _hmm_swbemservices.execnotificationquery, wbemFlagForwardOnly, wbemFlagReturnImmediately, wmi.swbemservices_execnotificationquery
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: wbemdisp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: Wbemdisp.tlb
+tech.root: 
+req.typenames: WbemTimeout
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemdisp.dll
+api_name:
+ - SWbemServices.ExecNotificationQuery
+ - ISWbemServices.ExecNotificationQuery
+ - ISWbemServices.ExecNotificationQuery
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Wbemdisp.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# ISWbemServices::ExecNotificationQuery
+
+
+## -description
+
+
+The 
+<b>ExecNotificationQuery</b> method of the 
+<a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object executes a query to receive events. The call returns immediately. The user can poll the returned enumerator for events as they arrive.
+
+The method is called in the semisynchronous mode. For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+
+For an explanation of this syntax, see 
+<a href="https://msdn.microsoft.com/889e6322-96f6-4a24-a084-e3b7bfa94a40">Document Conventions for the Scripting API</a>.
+
+
+## -parameters
+
+
+
+
+### -param strQuery
+
+Required. String that contains the text of the event-related query. This parameter cannot be blank. For more information on building WMI query strings, see <a href="https://msdn.microsoft.com/7e04ba37-c0e0-4304-b162-8b911f233f38">Querying with WQL</a> and the <a href="https://msdn.microsoft.com/72a7ec04-9af3-41ae-9189-6e1d46803fa9">WQL</a> reference.
+
+
+### -param strQueryLanguage [optional]
+
+String that contains the query language to be used. If specified, this value must be "WQL".
+
+
+### -param iFlags [optional]
+
+This is an integer that determines the behavior of the query. The default value is <b>wbemFlagReturnImmediately</b> + <b>wbemFlagForwardOnly</b>. If you specify this parameter, this parameter must be set to both <b>wbemFlagReturnImmediately</b> and <b>wbemFlagForwardOnly</b> or the call  fails. This parameter can accept the following values.
+
+
+
+#### wbemFlagForwardOnly (32 (0x20))
+
+Causes a forward-only enumerator to be returned. Forward-only enumerators are generally much faster and use less memory than conventional enumerators, but they do not allow calls to 
+<a href="https://msdn.microsoft.com/d0773c94-30b5-4217-8a9a-0bceb9e75f02">SWbemObject.Clone_</a>.
+
+
+
+#### wbemFlagReturnImmediately (16 (0x10))
+
+Causes the call to return immediately.
+
+
+### -param objWbemNamedValueSet [optional]
+
+Typically, this is undefined. Otherwise, this is an 
+<a href="https://msdn.microsoft.com/7d1c3a28-d0d3-4108-9628-74ad483e328e">SWbemNamedValueSet</a> object whose elements represent the context information that can be used by the provider that is servicing the request. A provider that supports or requires such information must document the recognized value names, data type of the value, allowed values, and semantics.
+
+
+### -param objWbemEventSource
+
+
+
+
+
+
+## -returns
+
+
+
+If no error occurs, this method returns an 
+<a href="https://msdn.microsoft.com/7efd5e6a-4311-4d20-8b05-e9208eec098a">SWbemEventSource</a> object. You can call the 
+<a href="https://msdn.microsoft.com/ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489">SWbemEventSource.NextEvent</a> method to retrieve events as they arrive.
+
+
+
+
+## -remarks
+
+
+
+Unlike the 
+<a href="https://msdn.microsoft.com/50c7f62b-dd83-4117-b10e-acee1690ce8c">SWbemServices.ExecQueryAsync</a> method, 
+<b>ExecNotificationQuery</b> returns event type objects that are generated by future events rather than existing objects. The event objects that 
+<b>ExecNotificationQuery</b> requests can either be intrinsic (such as <a href="https://msdn.microsoft.com/41976479-70e3-4914-a56a-fa94a1fd31c7">__InstanceCreationEvent</a>) or extrinsic (such as registry provider events like <a href="https://msdn.microsoft.com/2de566a8-6195-4325-b1d3-4ef37031cbda">RegistryKeyChangeEvent</a> or SNMP events). For more information, see 
+<a href="https://msdn.microsoft.com/46cdfcfa-42c6-4169-bc4d-725867224889">Determining the Type of Event to Receive</a> and <a href="https://msdn.microsoft.com/851ad9bd-2604-4988-8de0-8d29b5300b21">Receiving Event Notifications</a>.
+
+There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be used in WQL queries.  Large numbers of WQL keywords used in a complex query can cause WMI to return the <b>WBEM_E_QUOTA_VIOLATION</b> error code as an <b>HRESULT</b> value.  The limit of WQL keywords depends on how complex the query is.
+
+
+#### Examples
+
+The following VBScript code example monitors changes to volumes on a local computer. Note that <a href="https://msdn.microsoft.com/38595319-d7a1-4dcd-9ad8-a27cc484b699">Win32_VolumeChangeEvent</a> is  an extrinsic event that is defined by a provider—not an intrinsic WMI-defined event. For more information, see <a href="https://msdn.microsoft.com/46cdfcfa-42c6-4169-bc4d-725867224889">Determining the Type of Event to Receive</a>.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set colMonitoredEvents = _
+   GetObject("Winmgmts:").ExecNotificationQuery_
+      ("Select * from Win32_VolumeChangeEvent")
+
+Do While i = 0
+   Set strLatestEvent = colMonitoredEvents.NextEvent
+   Wscript.Echo strLatestEvent.DriveName &amp; "Time Created = " _
+      &amp; strLatestEvent.Time_Created
+
+    Select Case strLatestEvent.EventType 
+       Case 1        
+            WScript.Echo "EventType = Configuration Changed"
+       Case 2
+            WScript.Echo "EventType = Device Arrival"
+       Case 3
+            WScript.Echo "EventType = Device Removal"
+       Case 4
+            WScript.Echo "EventType = Docking"
+
+       Case Else
+            WScript.Echo "Unrecognized EventType"
+       End Select
+Loop</pre>
+</td>
+</tr>
+</table></span></div>
+The following VBScript code example monitors process deletion. If you delete a process in Task Manager or close an application, then the script displays a message. Note that this script queries an intrinsic event that is defined by WMI - <a href="https://msdn.microsoft.com/a370fc95-15e3-49c3-98de-2f40d742f207">__InstanceDeletionEvent</a>.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set objWMIService = GetObject( _
+    "Winmgmts:{impersonationLevel=impersonate}" )
+Set colMonitoredProcesses = _
+    objWMIService.ExecNotificationQuery( _
+    "SELECT * FROM __InstanceDeletionEvent WITHIN 10 WHERE " _
+    &amp; "TargetInstance ISA 'Win32_Process'")
+i = 0
+Do While i &lt; 11
+    Set strLatestProcess = colMonitoredProcesses.NextEvent
+    WScript.Echo strLatestProcess.TargetInstance.Name
+    WScript.Sleep 10000
+    i= i + 1
+Loop</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/46cdfcfa-42c6-4169-bc4d-725867224889">Determining the Type of Event to Receive</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e04ba37-c0e0-4304-b162-8b911f233f38">Querying with WQL</a>
+
+
+
+<a href="https://msdn.microsoft.com/347808a7-0f7b-4687-93f4-bea55c96795a">Receiving a WMI  Event</a>
+
+
+
+<a href="https://msdn.microsoft.com/ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489">SWbemEventSource.NextEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a>
+
+
+
+<a href="https://msdn.microsoft.com/06b9d4c9-cd72-49b2-92b0-d18d94dfbd9f">SWbemServices.ExecQuery</a>
+
+
+
+<a href="https://msdn.microsoft.com/72a7ec04-9af3-41ae-9189-6e1d46803fa9">WQL (SQL for WMI)</a>
+ 
+
+ 
+

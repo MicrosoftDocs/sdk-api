@@ -7,7 +7,7 @@ old-location: security\cryptinstalloidfunctionaddress.htm
 old-project: SecCrypto
 ms.assetid: 934e8278-0e0b-4402-a2b6-ff1e913d54c9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptInstallOIDFunctionAddress, CryptInstallOIDFunctionAddress function [Security], _crypto2_cryptinstalloidfunctionaddress, security.cryptinstalloidfunctionaddress, wincrypt/CryptInstallOIDFunctionAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

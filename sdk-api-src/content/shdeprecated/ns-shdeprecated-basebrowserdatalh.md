@@ -7,7 +7,7 @@ old-location: shell\BASEBROWSERDATA.htm
 old-project: shell
 ms.assetid: d56e42e8-a556-4470-82d9-466edd84214f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: "*LPBASEBROWSERDATA, *LPBASEBROWSERDATALH, BASEBROWSERDATA, BASEBROWSERDATA structure [Windows Shell], BASEBROWSERDATALH, FALSE, LPCBASEBROWSERDATA, LPCBASEBROWSERDATA structure pointer [Windows Shell], SECURELOCK_FIRSTSUGGEST, SECURELOCK_NOCHANGE, SECURELOCK_SET_FORTEZZA, SECURELOCK_SET_MIXED, SECURELOCK_SET_SECURE128BIT, SECURELOCK_SET_SECURE40BIT, SECURELOCK_SET_SECURE56BIT, SECURELOCK_SET_SECUREUNKNOWNBIT, SECURELOCK_SET_UNSECURE, SECURELOCK_SUGGEST_FORTEZZA, SECURELOCK_SUGGEST_MIXED, SECURELOCK_SUGGEST_SECURE128BIT, SECURELOCK_SUGGEST_SECURE40BIT, SECURELOCK_SUGGEST_SECURE56BIT, SECURELOCK_SUGGEST_SECUREUNKNOWNBIT, SECURELOCK_SUGGEST_UNSECURE, TRUE, shdeprecated/BASEBROWSERDATA, shdeprecated/LPCBASEBROWSERDATA, shell.BASEBROWSERDATA, zone_BASEBROWSERDATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ A pointer to the browser's <a href="https://msdn.microsoft.com/820869aa-ca93-4bb
 
 ### -field _phlf
 
-Type: <b><a href="https://www.bing.com/search?q=IHlinkFrame">IHlinkFrame</a>*</b>
+Type: <b><a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>*</b>
 
-A pointer to the browser's <a href="https://www.bing.com/search?q=IHlinkFrame">IHlinkFrame</a>.
+A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
     
                         
 

@@ -7,7 +7,7 @@ old-location: winprog\ipinterfaceinfo.htm
 old-project: DevNotes
 ms.assetid: dc9de369-f739-475c-96f5-e2e058705fe8
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: IPInterfaceInfo, IPInterfaceInfo structure [Windows API], tcpioctl/IPInterfaceInfo, winprog.ipinterfaceinfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stg\istream_stat.htm
 old-project: Stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: IStream interface [Structured Storage],Stat method, IStream.Stat, IStream::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStream interface, _stg_istream_stat, objidl/IStream::Stat, stg.istream_stat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_gettitleparentallevels.htm
 old-project: DirectShow
 ms.assetid: 00c9d1e5-1b1f-41b3-b06c-0b78e2d2db0b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTitleParentalLevels method, IDvdInfo2.GetTitleParentalLevels, IDvdInfo2::GetTitleParentalLevels, IDvdInfo2GetTitleParentalLevels, dshow.idvdinfo2_gettitleparentallevels, strmif/IDvdInfo2::GetTitleParentalLevels
 ms.prod: windows
 ms.technology: windows-sdk

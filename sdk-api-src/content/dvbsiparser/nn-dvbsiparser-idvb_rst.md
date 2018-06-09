@@ -7,7 +7,7 @@ old-location: mstv\idvb_rst.htm
 old-project: mstv
 ms.assetid: deee44cb-92b8-4d10-91d7-c99324ab5832
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDVB_RST, IDVB_RST interface [Microsoft TV Technologies], IDVB_RST interface [Microsoft TV Technologies],described, IDVB_RSTInterface, dvbsiparser/IDVB_RST, mstv.idvb_rst
 ms.prod: windows
 ms.technology: windows-sdk

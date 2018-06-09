@@ -7,7 +7,7 @@ old-location: gdi\printwindow.htm
 old-project: printdocs
 ms.assetid: 00b38cd8-1cfb-408e-88da-6e61563d9d8e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
 ms.prod: windows
 ms.technology: windows-sdk

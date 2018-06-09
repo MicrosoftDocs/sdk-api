@@ -7,7 +7,7 @@ old-location: direct3d12\d3d11on12createdevice.htm
 old-project: direct3d12
 ms.assetid: 6FC2CB44-4AA8-4E89-9E9B-ED1C3C9C64CC
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,7 +182,7 @@ Type: <b>D3D_FEATURE_LEVEL*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> that are documented for

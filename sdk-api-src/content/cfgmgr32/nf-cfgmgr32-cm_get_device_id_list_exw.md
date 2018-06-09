@@ -54,7 +54,7 @@ req.irql:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538415">CM_Get_Device_ID_List</a> instead.]
 
-The <b>CM_Get_Device_ID_List_Ex</b> function retrieves a list of <a href="https://www.bing.com/search?q=device+instance+IDs">device instance IDs</a> for the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a> on a local or a remote machine.
+The <b>CM_Get_Device_ID_List_Ex</b> function retrieves a list of <a href="devinst.device_instance_ids">device instance IDs</a> for the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a> on a local or a remote machine.
 
 
 ## -parameters

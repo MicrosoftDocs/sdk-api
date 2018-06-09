@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createparturi.htm
 old-project: printdocs
 ms.assetid: 0ed86fd1-ebc0-4eb6-a332-0dea3a21c100
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: CreatePartUri, CreatePartUri method [XPS Documents and Packaging], CreatePartUri method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUri method, IXpsOMObjectFactory.CreatePartUri, IXpsOMObjectFactory::CreatePartUri, xps.ixpsomobjectfactory_createparturi, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUri
 ms.prod: windows
 ms.technology: windows-sdk

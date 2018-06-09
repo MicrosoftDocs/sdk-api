@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontroleventcallback_onstartupcomplete.htm
 old-project: DevNotes
 ms.assetid: beb50d34-ff68-43e6-8deb-b1ba2c02d70d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnStartupComplete method, ICameraUIControlEventCallback.OnStartupComplete, ICameraUIControlEventCallback::OnStartupComplete, OnStartupComplete, OnStartupComplete method [Windows API], OnStartupComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnStartupComplete, winprog.icamerauicontroleventcallback_onstartupcomplete
 ms.prod: windows
 ms.technology: windows-sdk

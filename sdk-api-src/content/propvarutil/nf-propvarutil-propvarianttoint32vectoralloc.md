@@ -132,7 +132,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToInt32VectorAlloc">PropVariantToInt32VectorAlloc</a> to access an <b>LONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt32VectorAlloc">PropVariantToInt32VectorAlloc</a> to access an <b>LONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -161,23 +161,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>
+<a href="shell.InitPropVariantFromInt32Vector">InitPropVariantFromInt32Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetInt32Elem">PropVariantGetInt32Elem</a>
+<a href="shell.PropVariantGetInt32Elem">PropVariantGetInt32Elem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt32">PropVariantToInt32</a>
+<a href="shell.PropVariantToInt32">PropVariantToInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt32Vector">PropVariantToInt32Vector</a>
+<a href="shell.PropVariantToInt32Vector">PropVariantToInt32Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToInt32Array">VariantToInt32Array</a>
+<a href="shell.VariantToInt32Array">VariantToInt32Array</a>
  
 
  

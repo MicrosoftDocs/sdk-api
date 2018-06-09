@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_URLBeingIndexed.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\urlbeingindexed.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ISearchCatalogManager interface [search],URLBeingIndexed method, ISearchCatalogManager.URLBeingIndexed, ISearchCatalogManager::URLBeingIndexed, URLBeingIndexed, URLBeingIndexed method [search], URLBeingIndexed method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_URLBeingIndexed, search._search_ISearchCatalogManager_URLBeingIndexed, searchapi/ISearchCatalogManager::URLBeingIndexed
 ms.prod: windows
 ms.technology: windows-sdk

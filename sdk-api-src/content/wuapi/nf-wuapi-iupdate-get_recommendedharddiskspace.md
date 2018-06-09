@@ -7,7 +7,7 @@ old-location: wua\iupdate_recommendedharddiskspace.htm
 old-project: Wua_Sdk
 ms.assetid: 958d3de3-b2e0-47e0-9a71-b12ff6669242
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedHardDiskSpace property, IUpdate.RecommendedHardDiskSpace, IUpdate.get_RecommendedHardDiskSpace, IUpdate::RecommendedHardDiskSpace, IUpdate::get_RecommendedHardDiskSpace, RecommendedHardDiskSpace property [Windows Update Agent], RecommendedHardDiskSpace property [Windows Update Agent],IUpdate interface, get_RecommendedHardDiskSpace, wua.iupdate_recommendedharddiskspace, wuapi/IUpdate::RecommendedHardDiskSpace, wuapi/IUpdate::get_RecommendedHardDiskSpace
 ms.prod: windows
 ms.technology: windows-sdk

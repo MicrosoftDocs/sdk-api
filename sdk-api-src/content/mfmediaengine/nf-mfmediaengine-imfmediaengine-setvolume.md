@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setvolume.htm
 old-project: medfound
 ms.assetid: 010EE05C-3F81-404E-8AFB-7C57CA55A8AE
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetVolume method, IMFMediaEngine.SetVolume, IMFMediaEngine::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setvolume, mfmediaengine/IMFMediaEngine::SetVolume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_resultcode.htm
 old-project: Wua_Sdk
 ms.assetid: 4137dbea-bb68-4187-a8fd-902cb94c4342
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ResultCode property, IUpdateHistoryEntry.ResultCode, IUpdateHistoryEntry.get_ResultCode, IUpdateHistoryEntry::ResultCode, IUpdateHistoryEntry::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IUpdateHistoryEntry interface, get_ResultCode, wua.iupdatehistoryentry_resultcode, wuapi/IUpdateHistoryEntry::ResultCode, wuapi/IUpdateHistoryEntry::get_ResultCode
 ms.prod: windows
 ms.technology: windows-sdk

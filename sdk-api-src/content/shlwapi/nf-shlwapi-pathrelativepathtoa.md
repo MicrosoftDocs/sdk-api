@@ -7,7 +7,7 @@ old-location: shell\PathRelativePathTo.htm
 old-project: shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: PathRelativePathTo, PathRelativePathTo function [Windows Shell], PathRelativePathToA, PathRelativePathToW, _win32_PathRelativePathTo, shell.PathRelativePathTo, shlwapi/PathRelativePathTo, shlwapi/PathRelativePathToA, shlwapi/PathRelativePathToW
 ms.prod: windows
 ms.technology: windows-sdk

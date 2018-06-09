@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetserverbindinginfov6.htm
 old-project: DHCP
 ms.assetid: 1f33ac24-d547-4913-bc37-51627bb3af6a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DHCP], dhcp.dhcpgetserverbindinginfov6, dhcpsapi/DhcpGetServerBindingInfoV6
 ms.prod: windows
 ms.technology: windows-sdk

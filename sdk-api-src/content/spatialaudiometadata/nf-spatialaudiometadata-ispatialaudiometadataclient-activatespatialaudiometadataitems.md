@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadata
 old-project: CoreAudio
 ms.assetid: 0788C3BE-1616-4C7B-8F47-B0C4E4034061
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: ActivateSpatialAudioMetadataItems, ActivateSpatialAudioMetadataItems method [Core Audio], ActivateSpatialAudioMetadataItems method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataItems method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
 ms.prod: windows
 ms.technology: windows-sdk

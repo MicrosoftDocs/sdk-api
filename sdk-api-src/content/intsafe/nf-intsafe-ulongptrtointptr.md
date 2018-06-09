@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToIntPtr.htm
 old-project: shell
 ms.assetid: 06d85c02-8ccf-4913-aec5-f338eebdf366
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: DWordPtrToIntPtr, DWordPtrToPtrdiffT, SIZETToIntPtr, SIZETToPtrdiffT, ULongPtrToIntPtr, ULongPtrToIntPtr function [Windows Shell], ULongPtrToPtrdiffT, _shell_ULongPtrToIntPtr, intsafe/ULongPtrToIntPtr, shell.ULongPtrToIntPtr
 ms.prod: windows
 ms.technology: windows-sdk

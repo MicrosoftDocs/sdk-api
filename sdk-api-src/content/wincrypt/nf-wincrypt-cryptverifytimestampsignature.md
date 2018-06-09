@@ -7,7 +7,7 @@ old-location: security\cryptverifytimestampsignature.htm
 old-project: SecCrypto
 ms.assetid: 791b1500-98e3-49d5-97aa-be91f5edb7c2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptVerifyTimeStampSignature, CryptVerifyTimeStampSignature function [Security], security.cryptverifytimestampsignature, wincrypt/CryptVerifyTimeStampSignature
 ms.prod: windows
 ms.technology: windows-sdk

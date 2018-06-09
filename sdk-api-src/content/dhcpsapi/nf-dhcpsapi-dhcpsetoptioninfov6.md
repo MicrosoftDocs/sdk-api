@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptioninfov6.htm
 old-project: DHCP
 ms.assetid: 146e3dbd-e85c-4efd-9265-1072c799cdd8
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV6, DhcpSetOptionInfoV6 function [DHCP], dhcp.dhcpsetoptioninfov6, dhcpsapi/DhcpSetOptionInfoV6
 ms.prod: windows
 ms.technology: windows-sdk

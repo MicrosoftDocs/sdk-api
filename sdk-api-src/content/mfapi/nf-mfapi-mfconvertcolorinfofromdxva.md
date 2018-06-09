@@ -7,7 +7,7 @@ old-location: mf\mfconvertcolorinfofromdxva.htm
 old-project: medfound
 ms.assetid: b16874cc-1eb3-43dd-bd4c-3ea77be10bd2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFConvertColorInfoFromDXVA, MFConvertColorInfoFromDXVA function [Media Foundation], b16874cc-1eb3-43dd-bd4c-3ea77be10bd2, mf.mfconvertcolorinfofromdxva, mfapi/MFConvertColorInfoFromDXVA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ This function sets the following fields in the <a href="https://msdn.microsoft.c
 <li><b>videoInfo.MFVideoTransferMatrix</b></li>
 <li><b>videoInfo.SourceChromaSubsampling</b></li>
 </ul>
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/media-foundation-headers-and-libraries">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

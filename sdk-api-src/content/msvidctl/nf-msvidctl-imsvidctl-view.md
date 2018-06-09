@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_view.htm
 old-project: mstv
 ms.assetid: ec0e2a88-13c0-42f3-ba7d-8ebff1234b86
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],View method, IMSVidCtl.View, IMSVidCtl::View, IMSVidCtlView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_view, msvidctl/IMSVidCtl::View
 ms.prod: windows
 ms.technology: windows-sdk

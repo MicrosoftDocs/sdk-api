@@ -7,7 +7,7 @@ old-location: wmi\methodcontext_getstatusobject.htm
 old-project: WmiSdk
 ms.assetid: dc68eddb-7991-42bd-bc0e-4f5d890ca468
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ, GetStatusObject, GetStatusObject method [Windows Management Instrumentation], GetStatusObject method [Windows Management Instrumentation],MethodContext interface, MethodContext interface [Windows Management Instrumentation],GetStatusObject method, MethodContext.GetStatusObject, MethodContext::GetStatusObject, methodco/MethodContext::GetStatusObject, wmi.methodcontext_getstatusobject"
 ms.prod: windows
 ms.technology: windows-sdk

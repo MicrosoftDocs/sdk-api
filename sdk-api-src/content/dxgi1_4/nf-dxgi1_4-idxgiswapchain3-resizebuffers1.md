@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain3_resizebuffers1.htm
 old-project: direct3ddxgi
 ms.assetid: 80983033-A348-4B25-B17E-AE7EE189EA1A
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: IDXGISwapChain3 interface [DXGI],ResizeBuffers1 method, IDXGISwapChain3.ResizeBuffers1, IDXGISwapChain3::ResizeBuffers1, ResizeBuffers1, ResizeBuffers1 method [DXGI], ResizeBuffers1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_resizebuffers1, dxgi1_4/IDXGISwapChain3::ResizeBuffers1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,7 +145,7 @@ Type: <b>IUnknown*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             Returns S_OK if successful; an error code otherwise.

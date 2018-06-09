@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariables.htm
 old-project: Fsrm
 ms.assetid: 222c826f-0ade-4e5d-be2e-5c0dfa8758d0
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: ActionVariables property [File Server Resource Manager], ActionVariables property [File Server Resource Manager],FsrmFileManagementJobManager class, ActionVariables property [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],ActionVariables property, IFsrmFileManagementJobManager interface [File Server Resource Manager],ActionVariables property, IFsrmFileManagementJobManager.ActionVariables, IFsrmFileManagementJobManager.get_ActionVariables, IFsrmFileManagementJobManager::ActionVariables, IFsrmFileManagementJobManager::get_ActionVariables, fs.ifsrmfilemanagementjobmanager_actionvariables, fsrm.ifsrmfilemanagementjobmanager_actionvariables, fsrmreports/IFsrmFileManagementJobManager::ActionVariables, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariables, get_ActionVariables
 ms.prod: windows
 ms.technology: windows-sdk

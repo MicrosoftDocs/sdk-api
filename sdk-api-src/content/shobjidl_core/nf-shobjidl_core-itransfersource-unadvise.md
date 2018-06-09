@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_Unadvise.htm
 old-project: shell
 ms.assetid: 4f71134e-dfbf-40e7-b72b-c4913c876689
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ITransferSource interface [Windows Shell],Unadvise method, ITransferSource.Unadvise, ITransferSource::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],ITransferSource interface, _shell_ITransferSource_Unadvise, shell.ITransferSource_Unadvise, shobjidl_core/ITransferSource::Unadvise
 ms.prod: windows
 ms.technology: windows-sdk

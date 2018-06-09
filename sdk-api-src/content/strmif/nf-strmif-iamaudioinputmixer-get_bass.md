@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_bass.htm
 old-project: DirectShow
 ms.assetid: 08edf6be-81b7-4402-a500-1b7d9c389042
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Bass method, IAMAudioInputMixer.get_Bass, IAMAudioInputMixer::get_Bass, IAMAudioInputMixerget_Bass, dshow.iamaudioinputmixer_get_bass, get_Bass, get_Bass method [DirectShow], get_Bass method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Bass
 ms.prod: windows
 ms.technology: windows-sdk

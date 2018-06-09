@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_getwindowassociation.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_getwindowassociation.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: GetWindowAssociation, GetWindowAssociation method [DXGI], GetWindowAssociation method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],GetWindowAssociation method, IDXGIFactory.GetWindowAssociation, IDXGIFactory::GetWindowAssociation, b199d248-a0a8-e257-1b89-68baeb809572, direct3ddxgi.idxgifactory_getwindowassociation, dxgi/IDXGIFactory::GetWindowAssociation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,9 @@ A pointer to a window handle.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns a code that indicates success or failure. <b>S_OK</b> indicates success, <a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a> indicates <i>pWindowHandle</i> was passed in as <b>NULL</b>.
+Returns a code that indicates success or failure. <b>S_OK</b> indicates success, <a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> indicates <i>pWindowHandle</i> was passed in as <b>NULL</b>.
 
 
 
@@ -82,7 +82,7 @@ Returns a code that indicates success or failure. <b>S_OK</b> indicates success,
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 
 

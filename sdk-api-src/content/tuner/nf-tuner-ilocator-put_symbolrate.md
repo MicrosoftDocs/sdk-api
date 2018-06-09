@@ -7,7 +7,7 @@ old-location: mstv\ilocator_put_symbolrate.htm
 old-project: mstv
 ms.assetid: 1eb91e22-b9b1-47dc-a2e4-cc64eeaacaaa
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IDigitalLocatorput_SymbolRate, ILocator interface [Microsoft TV Technologies],put_SymbolRate method, ILocator.put_SymbolRate, ILocator::put_SymbolRate, mstv.ilocator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_SymbolRate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://www.bing.com/search?q=get_SymbolRate">get_SymbolRate</a>
+<a href="mstv.idigitallocator_get_symbolrate">get_SymbolRate</a>
  
 
  

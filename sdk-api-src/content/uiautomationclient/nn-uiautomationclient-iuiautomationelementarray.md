@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElementArray.htm
 old-project: WinAuto
 ms.assetid: 7ecf585c-ff3b-4f89-8a7d-e2de66650ab4
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IUIAutomationElementArray, IUIAutomationElementArray interface [Windows Accessibility], IUIAutomationElementArray interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElementArray, uiauto_IUIAutomationElementArray, uiautomationclient/IUIAutomationElementArray, winauto.uiauto_IUIAutomationElementArray
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ibroadcastevent_fire.htm
 old-project: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microsoft TV Technologies],IBroadcastEvent interface, IBroadcastEvent interface [Microsoft TV Technologies],Fire method, IBroadcastEvent.Fire, IBroadcastEvent::Fire, IBroadcastEventFire, mstv.ibroadcastevent_fire, tuner/IBroadcastEvent::Fire
 ms.prod: windows
 ms.technology: windows-sdk

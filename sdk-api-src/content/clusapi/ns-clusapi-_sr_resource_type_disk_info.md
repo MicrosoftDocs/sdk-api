@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_disk_info.htm
 old-project: MsCS
 ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_DISK_INFO, SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster], _SR_RESOURCE_TYPE_DISK_INFO, clusapi/PSR_RESOURCE_TYPE_DISK_INFO, clusapi/SR_RESOURCE_TYPE_DISK_INFO, msclus/PSR_RESOURCE_TYPE_DISK_INFO, msclus/SR_RESOURCE_TYPE_DISK_INFO, mscs.sr_resource_type_disk_info"
 ms.prod: windows
 ms.technology: windows-sdk

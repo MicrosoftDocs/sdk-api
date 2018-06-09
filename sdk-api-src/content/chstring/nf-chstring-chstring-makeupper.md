@@ -7,7 +7,7 @@ old-location: wmi\chstring_makeupper.htm
 old-project: WmiSdk
 ms.assetid: 7dbce906-9eb3-47d6-9076-20e092b6239e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: "?MakeUpper@CHString@@QAEXXZ, ?MakeUpper@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],MakeUpper method, CHString.MakeUpper, CHString::MakeUpper, MakeUpper, MakeUpper method [Windows Management Instrumentation], MakeUpper method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makeupper, chstring/CHString::MakeUpper, wmi.chstring_makeupper"
 ms.prod: windows
 ms.technology: windows-sdk

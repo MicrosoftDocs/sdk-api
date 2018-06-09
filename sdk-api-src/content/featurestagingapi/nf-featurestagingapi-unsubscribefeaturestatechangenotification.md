@@ -7,7 +7,7 @@ old-location: winprog\unsubscribefeaturestatechangenotification.htm
 old-project: DevNotes
 ms.assetid: 489FFAE2-E2A0-4DE2-B66A-7165E28CD90A
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: UnsubscribeFeatureStateChangeNotification, UnsubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/UnsubscribeFeatureStateChangeNotification, winprog.unsubscribefeaturestatechangenotification
 ms.prod: windows
 ms.technology: windows-sdk

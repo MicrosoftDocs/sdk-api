@@ -7,7 +7,7 @@ old-location: winprog\cache_destroy_callback.htm
 old-project: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/04/2018
 ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DESTROY_CALLBACK callback function [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
 ms.prod: windows
 ms.technology: windows-sdk

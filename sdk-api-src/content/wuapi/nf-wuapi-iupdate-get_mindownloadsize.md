@@ -7,7 +7,7 @@ old-location: wua\iupdate_mindownloadsize.htm
 old-project: Wua_Sdk
 ms.assetid: 58666d64-fe29-4ece-8b51-67212f90e54e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MinDownloadSize property, IUpdate.MinDownloadSize, IUpdate.get_MinDownloadSize, IUpdate::MinDownloadSize, IUpdate::get_MinDownloadSize, MinDownloadSize property [Windows Update Agent], MinDownloadSize property [Windows Update Agent],IUpdate interface, get_MinDownloadSize, wua.iupdate_mindownloadsize, wuapi/IUpdate::MinDownloadSize, wuapi/IUpdate::get_MinDownloadSize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\objectparserflags.htm
 old-project: WmiSdk
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Management Instrumentation], e_ParserAbsoluteNamespaceOnly, e_ParserAcceptAll, e_ParserAcceptRelativeNamespace, objpath/ObjectParserFlags, objpath/e_ParserAbsoluteNamespaceOnly, objpath/e_ParserAcceptAll, objpath/e_ParserAcceptRelativeNamespace, wmi.objectparserflags
 ms.prod: windows
 ms.technology: windows-sdk

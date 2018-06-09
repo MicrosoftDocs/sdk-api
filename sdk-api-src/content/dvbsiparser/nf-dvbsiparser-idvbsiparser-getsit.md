@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getsit.htm
 old-project: mstv
 ms.assetid: d316858e-8014-499c-9727-0a839658fa18
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetSIT, GetSIT method [Microsoft TV Technologies], GetSIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetSIT method, IDvbSiParser.GetSIT, IDvbSiParser::GetSIT, IDvbSiParserGetSIT, dvbsiparser/IDvbSiParser::GetSIT, mstv.idvbsiparser_getsit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\resutilfindbinaryproperty.htm
 old-project: MsCS
 ms.assetid: 3be864ae-dc02-47e7-aa86-a6c14be13091
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_FIND_BINARY_PROPERTY, PRESUTIL_FIND_BINARY_PROPERTY callback, PRESUTIL_FIND_BINARY_PROPERTY callback function [Failover Cluster], _wolf_resutilfindbinaryproperty, mscs.resutilfindbinaryproperty, resapi/PRESUTIL_FIND_BINARY_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

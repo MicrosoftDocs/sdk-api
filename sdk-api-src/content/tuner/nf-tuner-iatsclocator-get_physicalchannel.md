@@ -7,7 +7,7 @@ old-location: mstv\iatsclocator_get_physicalchannel.htm
 old-project: mstv
 ms.assetid: 7550bbb9-d9f7-4565-9c63-7179c0bdffa5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],get_PhysicalChannel method, IATSCLocator.get_PhysicalChannel, IATSCLocator::get_PhysicalChannel, IATSCLocatorget_PhysicalChannel, get_PhysicalChannel, get_PhysicalChannel method [Microsoft TV Technologies], get_PhysicalChannel method [Microsoft TV Technologies],IATSCLocator interface, mstv.iatsclocator_get_physicalchannel, tuner/IATSCLocator::get_PhysicalChannel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorprofile.htm
 old-project: medfound
 ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
 ms.prod: windows
 ms.technology: windows-sdk

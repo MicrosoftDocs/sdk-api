@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_shutdown.htm
 old-project: medfound
 ms.assetid: 8B7BCEAC-7A30-4B60-AD0E-E8DCE404DDE9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Shutdown method, IMFMediaEngine.Shutdown, IMFMediaEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_shutdown, mfmediaengine/IMFMediaEngine::Shutdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

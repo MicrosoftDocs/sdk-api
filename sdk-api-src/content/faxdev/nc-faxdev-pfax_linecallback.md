@@ -149,7 +149,7 @@ The FSP must register the <i>FaxLineCallback</i> callback function by passing it
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="_tapi2_lineinitializeex">lineInitializeEx</a>
  
 
  

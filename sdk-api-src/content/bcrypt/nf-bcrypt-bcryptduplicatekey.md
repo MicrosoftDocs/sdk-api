@@ -7,7 +7,7 @@ old-location: security\bcryptduplicatekey_func.htm
 old-project: SecCNG
 ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func
 ms.prod: windows
 ms.technology: windows-sdk

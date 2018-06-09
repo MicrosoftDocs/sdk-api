@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetclassinfo.htm
 old-project: DHCP
 ms.assetid: c38a593f-60f0-41c7-83a8-bbec9b79dfac
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DhcpGetClassInfo, DhcpGetClassInfo function [DHCP], dhcp.dhcpgetclassinfo, dhcpsapi/DhcpGetClassInfo
 ms.prod: windows
 ms.technology: windows-sdk

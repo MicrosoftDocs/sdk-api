@@ -7,7 +7,7 @@ old-location: intl\getdurationformat.htm
 old-project: Intl
 ms.assetid: bd3e1256-8f0c-488b-9b2f-ca93ffcbad84
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetDurationFormat, GetDurationFormat function [Internationalization for Windows Applications], _win32_GetDurationFormat, intl.getdurationformat, winnls/GetDurationFormat
 ms.prod: windows
 ms.technology: windows-sdk

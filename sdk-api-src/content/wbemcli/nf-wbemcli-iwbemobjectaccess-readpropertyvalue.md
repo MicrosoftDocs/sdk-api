@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectaccess_readpropertyvalue.htm
 old-project: WmiSdk
 ms.assetid: 878fa803-73dc-45ad-8d58-2decb7e316b2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadPropertyValue method, IWbemObjectAccess.ReadPropertyValue, IWbemObjectAccess::ReadPropertyValue, ReadPropertyValue, ReadPropertyValue method [Windows Management Instrumentation], ReadPropertyValue method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readpropertyvalue, wbemcli/IWbemObjectAccess::ReadPropertyValue, wmi.iwbemobjectaccess_readpropertyvalue
 ms.prod: windows
 ms.technology: windows-sdk

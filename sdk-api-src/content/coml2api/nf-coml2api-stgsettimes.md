@@ -7,7 +7,7 @@ old-location: stg\stgsettimes.htm
 old-project: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgsettimes, coml2api/StgSetTimes, stg.stgsettimes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,8 @@ Pointer to the new value for the modification time.
 
 
 The <b>StgSetTimes</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

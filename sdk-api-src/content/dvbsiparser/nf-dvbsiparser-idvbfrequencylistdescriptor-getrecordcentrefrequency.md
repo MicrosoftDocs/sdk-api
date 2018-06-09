@@ -7,7 +7,7 @@ old-location: mstv\idvbfrequencylistdescriptor_getrecordcentrefrequency.htm
 old-project: mstv
 ms.assetid: bb6c3c14-c4b6-412d-ad12-1c7fdb025527
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetRecordCentreFrequency, GetRecordCentreFrequency method [Microsoft TV Technologies], GetRecordCentreFrequency method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetRecordCentreFrequency method, IDvbFrequencyListDescriptor.GetRecordCentreFrequency, IDvbFrequencyListDescriptor::GetRecordCentreFrequency, IDvbFrequencyListDescriptorGetRecordCentreFrequency, dvbsiparser/IDvbFrequencyListDescriptor::GetRecordCentreFrequency, mstv.idvbfrequencylistdescriptor_getrecordcentrefrequency
 ms.prod: windows
 ms.technology: windows-sdk

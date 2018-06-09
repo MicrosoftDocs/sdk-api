@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setbalance.htm
 old-project: medfound
 ms.assetid: 11187826-B873-4182-A77B-FD9CCECFBAE5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetBalance method, IMFMediaEngineEx.SetBalance, IMFMediaEngineEx::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

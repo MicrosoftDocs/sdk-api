@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloader_enddownload.htm
 old-project: Wua_Sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],EndDownload method, IUpdateDownloader.EndDownload, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
 ms.prod: windows
 ms.technology: windows-sdk

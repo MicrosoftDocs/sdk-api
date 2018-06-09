@@ -7,7 +7,7 @@ old-location: tablet\getbestresultstring.htm
 old-project: tablet
 ms.assetid: 97d60330-c808-4d16-a197-7bad7ca9080e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: 97d60330-c808-4d16-a197-7bad7ca9080e, GetBestResultString, GetBestResultString function [Tablet PC], recapis/GetBestResultString, tablet.getbestresultstring
 ms.prod: windows
 ms.technology: windows-sdk

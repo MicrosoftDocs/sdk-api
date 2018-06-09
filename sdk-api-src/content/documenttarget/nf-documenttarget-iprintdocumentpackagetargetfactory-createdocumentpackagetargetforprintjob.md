@@ -7,7 +7,7 @@ old-location: xps\iprintdocumentpackagetargetfactory_createdocumentpackagetarget
 old-project: printdocs
 ms.assetid: F611305F-B577-403F-AD8A-402ABE8F6768
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: CreateDocumentPackageTargetForPrintJob, CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging], CreateDocumentPackageTargetForPrintJob method [XPS Documents and Packaging],IPrintDocumentPackageTargetFactory interface, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],CreateDocumentPackageTargetForPrintJob method, IPrintDocumentPackageTargetFactory.CreateDocumentPackageTargetForPrintJob, IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, documenttarget/IPrintDocumentPackageTargetFactory::CreateDocumentPackageTargetForPrintJob, xps.iprintdocumentpackagetargetfactory_createdocumentpackagetargetforprintjob
 ms.prod: windows
 ms.technology: windows-sdk

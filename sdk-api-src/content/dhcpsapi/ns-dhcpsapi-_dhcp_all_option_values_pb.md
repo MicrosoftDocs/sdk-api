@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_all_option_values_pb.htm
 old-project: DHCP
 ms.assetid: 5b43263a-fea1-452b-9981-a0f2cf1c8cf0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPDHCP_ALL_OPTION_VALUES_PB, DHCP_ALL_OPTION_VALUES_PB, DHCP_ALL_OPTION_VALUES_PB structure [DHCP], LPDHCP_ALL_OPTION_VALUES_PB, LPDHCP_ALL_OPTION_VALUES_PB structure pointer [DHCP], _DHCP_ALL_OPTION_VALUES_PB, dhcp.dhcp_all_option_values_pb, dhcpsapi/DHCP_ALL_OPTION_VALUES_PB, dhcpsapi/LPDHCP_ALL_OPTION_VALUES_PB"
 ms.prod: windows
 ms.technology: windows-sdk

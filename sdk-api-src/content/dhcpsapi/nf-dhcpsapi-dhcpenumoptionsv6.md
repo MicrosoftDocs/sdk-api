@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionsv6.htm
 old-project: DHCP
 ms.assetid: 23abdca3-2241-4766-81c2-a4e8841b89fb
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV6, DhcpEnumOptionsV6 function [DHCP], dhcp.dhcpenumoptionsv6, dhcpsapi/DhcpEnumOptionsV6
 ms.prod: windows
 ms.technology: windows-sdk

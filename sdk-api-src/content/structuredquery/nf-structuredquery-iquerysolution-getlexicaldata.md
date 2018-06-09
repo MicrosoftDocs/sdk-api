@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetLexicalData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getlexicaldata.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetLexicalData, GetLexicalData method [search], GetLexicalData method [search],IQuerySolution interface, IQuerySolution interface [search],GetLexicalData method, IQuerySolution.GetLexicalData, IQuerySolution::GetLexicalData, _search_IQuerySolution_GetLexicalData, search._search_IQuerySolution_GetLexicalData, structuredquery/IQuerySolution::GetLexicalData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Type: <b>LCID*</b>
 
 ### -param ppWordBreaker [out]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>**</b>
+Type: <b><a href="33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
 
               Receives a pointer to the word breaker used for this query. This parameter can be <b>NULL</b>.

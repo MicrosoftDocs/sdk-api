@@ -7,7 +7,7 @@ old-location: stg\stgopenstorageonilockbytes.htm
 old-project: Stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,9 +111,9 @@ After <b>StgOpenStorageOnILockBytes</b> returns, the storage object specified in
 
 The <b>StgOpenStorageOnILockBytes</b> function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
 <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface error return values. See 
-<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> 
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> 
 and 
-<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>.
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

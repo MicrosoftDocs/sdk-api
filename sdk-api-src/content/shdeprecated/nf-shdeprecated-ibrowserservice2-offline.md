@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_Offline.htm
 old-project: shell
 ms.assetid: c1f4a4bd-2fd8-424f-b84a-d68b7e2e019c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],Offline method, IBrowserService2.Offline, IBrowserService2::Offline, Offline, Offline method [Windows Shell], Offline method [Windows Shell],IBrowserService2 interface, SBSC_QUERY, SBSC_TOGGLE, shdeprecated/IBrowserService2::Offline, shell.IBrowserService2_Offline, zone_IBrowserService2_Offline
 ms.prod: windows
 ms.technology: windows-sdk

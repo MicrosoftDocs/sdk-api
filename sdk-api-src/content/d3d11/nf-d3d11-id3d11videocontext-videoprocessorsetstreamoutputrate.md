@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamoutputrate.htm
 old-project: medfound
 ms.assetid: D353F6E8-B465-46CB-AA47-8B097AB4AF2A
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamOutputRate method, ID3D11VideoContext.VideoProcessorSetStreamOutputRate, ID3D11VideoContext::VideoProcessorSetStreamOutputRate, TRUE, VideoProcessorSetStreamOutputRate, VideoProcessorSetStreamOutputRate method [Media Foundation], VideoProcessorSetStreamOutputRate method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate, mf.id3d11videocontext_videoprocessorsetstreamoutputrate
 ms.prod: windows
 ms.technology: windows-sdk

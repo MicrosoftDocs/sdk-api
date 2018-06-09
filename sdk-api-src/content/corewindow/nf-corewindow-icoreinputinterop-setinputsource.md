@@ -7,7 +7,7 @@ old-location: winrt\icoreinputinterop_setinputsource.htm
 old-project: WinRT
 ms.assetid: 693180F5-2C19-47CD-9514-F0CEA1849A4A
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/04/2018
 ms.keywords: ICoreInputInterop interface [Windows Runtime],SetInputSource method, ICoreInputInterop.SetInputSource, ICoreInputInterop::SetInputSource, SetInputSource, SetInputSource method [Windows Runtime], SetInputSource method [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::SetInputSource, winrt.icoreinputinterop_setinputsource
 ms.prod: windows
 ms.technology: windows-sdk

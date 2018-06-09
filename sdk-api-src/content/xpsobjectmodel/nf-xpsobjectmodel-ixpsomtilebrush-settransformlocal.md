@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_settransformlocal.htm
 old-project: printdocs
 ms.assetid: a0a0f0e9-d8b5-4b42-804b-66780f56b09a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMTileBrush.SetTransformLocal, IXpsOMTileBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlocal, xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal
 ms.prod: windows
 ms.technology: windows-sdk

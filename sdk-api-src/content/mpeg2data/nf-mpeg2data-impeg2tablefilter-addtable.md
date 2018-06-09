@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter_addtable.htm
 old-project: mstv
 ms.assetid: b789bfda-bb7e-4a7b-999e-0e2e798df4d5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: AddTable, AddTable method [Microsoft TV Technologies], AddTable method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddTable method, IMpeg2TableFilter.AddTable, IMpeg2TableFilter::AddTable, IMpeg2TableFilterAddTable, mpeg2data/IMpeg2TableFilter::AddTable, mstv.impeg2tablefilter_addtable
 ms.prod: windows
 ms.technology: windows-sdk

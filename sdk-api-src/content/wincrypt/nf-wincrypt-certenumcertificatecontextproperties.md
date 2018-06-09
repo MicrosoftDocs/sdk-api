@@ -7,7 +7,7 @@ old-location: security\certenumcertificatecontextproperties.htm
 old-project: SecCrypto
 ms.assetid: b7304ab2-432b-40c0-8014-7f8874fa36fa
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertEnumCertificateContextProperties, CertEnumCertificateContextProperties function [Security], _crypto2_certenumcertificatecontextproperties, security.certenumcertificatecontextproperties, wincrypt/CertEnumCertificateContextProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ See
 
 
 
-<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

@@ -85,7 +85,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-To associate a work queue with an MMCSS task, call <a href="https://www.bing.com/search?q=RtwqBeginRegisterWorkQueueWithMMCSSEx">RtwqBeginRegisterWorkQueueWithMMCSSEx</a>.
+To associate a work queue with an MMCSS task, call <a href="base.rtwqbeginregisterworkqueuewithmmcssex">RtwqBeginRegisterWorkQueueWithMMCSSEx</a>.
 
 
 

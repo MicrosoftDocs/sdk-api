@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_videoprocessorsetoutputshaderusage.htm
 old-project: medfound
 ms.assetid: 84901282-D4FF-4084-B016-50A66910D0A2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetOutputShaderUsage method, ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage, ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage, VideoProcessorSetOutputShaderUsage, VideoProcessorSetOutputShaderUsage method [Media Foundation], VideoProcessorSetOutputShaderUsage method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage, mf.id3d11videocontext1_videoprocessorsetoutputshaderusage
 ms.prod: windows
 ms.technology: windows-sdk

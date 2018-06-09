@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_shared_resource.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_shared_resource.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: DXGI_SHARED_RESOURCE, DXGI_SHARED_RESOURCE structure [DXGI], aa3179a5-6a16-4e5d-df66-783c4edeb8f4, direct3ddxgi.dxgi_shared_resource, dxgi/DXGI_SHARED_RESOURCE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremoveoptionv6.htm
 old-project: DHCP
 ms.assetid: fccd07f2-b796-46b9-a004-edefa92ed08c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionV6, DhcpRemoveOptionV6 function [DHCP], dhcp.dhcpremoveoptionv6, dhcpsapi/DhcpRemoveOptionV6
 ms.prod: windows
 ms.technology: windows-sdk

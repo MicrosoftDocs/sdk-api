@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_Close.htm
 old-project: WinAuto
 ms.assetid: 3bfd7801-c296-4f59-8094-c13c8f044038
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],Close method, IWindowProvider.Close, IWindowProvider::Close, uiauto.uiauto_IWindowProvider_Close, uiauto_IWindowProvider_Close, uiautomationcore/IWindowProvider::Close, winauto.uiauto_IWindowProvider_Close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IWindowProvider::Close</b> must return immediately without blocking.
         
 
-<b>IWindowProvider::Close</b> raises the <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-event-ids">UIA_Window_WindowClosedEventId</a> 
+<b>IWindowProvider::Close</b> raises the <a href="uiauto_event_ids.htm">UIA_Window_WindowClosedEventId</a> 
         event. 
         If possible, the event should be raised after the control has completed its associated action. 
         

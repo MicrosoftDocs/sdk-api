@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setlanguage.htm
 old-project: printdocs
 ms.assetid: e17901e8-9adb-488e-9c8d-6fa1351520ac
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLanguage method, IXpsOMCoreProperties.SetLanguage, IXpsOMCoreProperties::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlanguage, xpsobjectmodel/IXpsOMCoreProperties::SetLanguage
 ms.prod: windows
 ms.technology: windows-sdk

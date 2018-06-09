@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itextprovider2.htm
 old-project: WinAuto
 ms.assetid: CDA6E93D-6E82-4EC4-8408-09554D039F49
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: ITextProvider2, ITextProvider2 interface [Windows Accessibility], ITextProvider2 interface [Windows Accessibility],described, uiautomationcore/ITextProvider2, winauto.uiauto_itextprovider2
 ms.prod: windows
 ms.technology: windows-sdk

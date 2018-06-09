@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput3_checkoverlaysupport.htm
 old-project: direct3ddxgi
 ms.assetid: D7B90FF5-5E8B-4F9E-A442-B44449438388
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ A pointer to a variable that receives a combination of <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the error codes described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 

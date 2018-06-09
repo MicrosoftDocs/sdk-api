@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_beginuninstall.htm
 old-project: Wua_Sdk
 ms.assetid: 6ff82120-aa8f-4daf-b9f9-e0129fad0a24
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: BeginUninstall, BeginUninstall method [Windows Update Agent], BeginUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginUninstall method, IUpdateInstaller.BeginUninstall, IUpdateInstaller::BeginUninstall, wua.iupdateinstaller_beginuninstall, wuapi/IUpdateInstaller::BeginUninstall
 ms.prod: windows
 ms.technology: windows-sdk

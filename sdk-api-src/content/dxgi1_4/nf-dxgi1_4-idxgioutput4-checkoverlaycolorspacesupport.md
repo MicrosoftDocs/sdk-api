@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput4_checkoverlaycolorspacesupport.htm
 old-project: direct3ddxgi
 ms.assetid: C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI],IDXGIOutput4 interface, IDXGIOutput4 interface [DXGI],CheckOverlayColorSpaceSupport method, IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ A pointer to a variable that receives a combination of <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>S_OK</b> on success, or it returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 

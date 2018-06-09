@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist1_omsetdepthbounds.htm
 old-project: direct3d12
 ms.assetid: 065DBAD3-F4B6-4C94-BA0E-821A46E0B2EE
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,OMSetDepthBounds method, ID3D12GraphicsCommandList1.OMSetDepthBounds, ID3D12GraphicsCommandList1::OMSetDepthBounds, OMSetDepthBounds, OMSetDepthBounds method, OMSetDepthBounds method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds, direct3d12.id3d12graphicscommandlist1_omsetdepthbounds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ Depth-bounds testing allows pixels and samples to be discarded if the currently-
 
 To use depth-bounds testing, the application must use the new <a href="https://msdn.microsoft.com/90557451-CB7A-4F05-8BDB-B611FE034CBB">CreatePipelineState</a> method to enable depth-bounds testing on the PSO and then can use this command list method to change the depth-bounds dynamically.
 
-OMSetDepthBounds is an optional feature. Use the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> method to determine whether or not this feature is supported by the user-mode driver. Support for this feature is reported through the <a href="https://www.bing.com/search?q=D3D12_FEATURE_D3D12_OPTIONS1">D3D12_FEATURE_D3D12_OPTIONS1</a> structure.
+OMSetDepthBounds is an optional feature. Use the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> method to determine whether or not this feature is supported by the user-mode driver. Support for this feature is reported through the <a href="direct3d12.d3d12_feature_d3d12_options1">D3D12_FEATURE_D3D12_OPTIONS1</a> structure.
 
 
 

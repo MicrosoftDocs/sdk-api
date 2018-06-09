@@ -55,7 +55,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="https://www.bing.com/search?q=device+setup+class+property">device setup class property</a>.
+The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="devinst.accessing_device_setup_class_properties">device setup class property</a>.
 
 
 ## -parameters

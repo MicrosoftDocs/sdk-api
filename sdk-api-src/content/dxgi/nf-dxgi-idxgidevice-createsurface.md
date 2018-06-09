@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice_createsurface.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_createsurface.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSurface, CreateSurface method [DXGI], CreateSurface method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],CreateSurface method, IDXGIDevice.CreateSurface, IDXGIDevice::CreateSurface, a6514b10-4398-2f19-86d3-e31bb2c9044c, direct3ddxgi.idxgidevice_createsurface, dxgi/IDXGIDevice::CreateSurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ The address of an <a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 

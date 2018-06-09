@@ -7,7 +7,7 @@ old-location: tablet\line_segment.htm
 old-project: tablet
 ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/06/2018
 ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment, tagLINE_SEGMENT
 ms.prod: windows
 ms.technology: windows-sdk

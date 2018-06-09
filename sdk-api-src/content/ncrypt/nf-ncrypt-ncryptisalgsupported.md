@@ -7,7 +7,7 @@ old-location: security\ncryptisalgsupported_func.htm
 old-project: SecCNG
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
 ms.prod: windows
 ms.technology: windows-sdk

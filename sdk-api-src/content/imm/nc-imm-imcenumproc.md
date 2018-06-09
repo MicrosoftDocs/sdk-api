@@ -7,7 +7,7 @@ old-location: intl\enuminputcontext.htm
 old-project: Intl
 ms.assetid: c66dcc0f-733a-44a2-942f-f518b752d014
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: EnumInputContext, EnumInputContext callback function [Internationalization for Windows Applications], IMCENUMPROC, IMCENUMPROC callback, _win32_EnumInputContext, imm/EnumInputContext, intl.enuminputcontext
 ms.prod: windows
 ms.technology: windows-sdk

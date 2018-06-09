@@ -53,8 +53,8 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>NDR_USER_MARSHAL_INFO_LEVEL1</b> structure holds information about the state of an RPC call that can be passed to 
-<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a> and 
-<a href="https://www.bing.com/search?q=user_marshal">user_marshal</a> helper functions.
+<a href="midl.wire_marshal">wire_marshal</a> and 
+<a href="midl.user_marshal">user_marshal</a> helper functions.
 
 
 ## -struct-fields

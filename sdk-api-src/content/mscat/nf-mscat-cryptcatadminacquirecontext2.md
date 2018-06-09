@@ -7,7 +7,7 @@ old-location: security\cryptcatadminacquirecontext2.htm
 old-project: SecCrypto
 ms.assetid: B089217A-5C12-4C51-8E46-3A9243347B21
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptCATAdminAcquireContext2, CryptCATAdminAcquireContext2 function [Security], mscat/CryptCATAdminAcquireContext2, security.cryptcatadminacquirecontext2
 ms.prod: windows
 ms.technology: windows-sdk

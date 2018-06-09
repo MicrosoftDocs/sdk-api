@@ -7,7 +7,7 @@ old-location: shell\SHCopyKey.htm
 old-project: shell
 ms.assetid: 52521ef4-fe59-4766-8828-acb557b0e968
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: SHCopyKey, SHCopyKey function [Windows Shell], SHCopyKeyA, SHCopyKeyW, _win32_SHCopyKey, shell.SHCopyKey, shlwapi/SHCopyKey, shlwapi/SHCopyKeyA, shlwapi/SHCopyKeyW
 ms.prod: windows
 ms.technology: windows-sdk

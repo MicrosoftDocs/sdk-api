@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmrule_ruleflags.htm
 old-project: Fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule.get_RuleFlags, IFsrmRule::RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, get_RuleFlags
 ms.prod: windows
 ms.technology: windows-sdk

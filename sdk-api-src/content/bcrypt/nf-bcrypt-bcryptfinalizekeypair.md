@@ -7,7 +7,7 @@ old-location: security\bcryptfinalizekeypair_func.htm
 old-project: SecCNG
 ms.assetid: bf0b90f1-6da8-464e-9271-ad60ea762653
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCryptFinalizeKeyPair, BCryptFinalizeKeyPair function [Security], bcrypt/BCryptFinalizeKeyPair, security.bcryptfinalizekeypair_func
 ms.prod: windows
 ms.technology: windows-sdk

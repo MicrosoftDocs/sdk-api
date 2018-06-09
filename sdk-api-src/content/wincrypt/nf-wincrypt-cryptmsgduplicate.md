@@ -7,7 +7,7 @@ old-location: security\cryptmsgduplicate.htm
 old-project: SecCrypto
 ms.assetid: 9b1142b9-0caa-4304-bfe6-1c27c6a7b782
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptMsgDuplicate, CryptMsgDuplicate function [Security], _crypto2_cryptmsgduplicate, security.cryptmsgduplicate, wincrypt/CryptMsgDuplicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,11 +98,11 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

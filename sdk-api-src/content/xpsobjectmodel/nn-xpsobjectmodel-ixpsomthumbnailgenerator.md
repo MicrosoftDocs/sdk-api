@@ -7,7 +7,7 @@ old-location: xps\ixpsomthumbnailgenerator.htm
 old-project: printdocs
 ms.assetid: cac794c0-bea2-417e-880f-15838f718ba7
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Generates a thumbnail image of a page.
 
 
 
-To instantiate this interface, call <a href="https://msdn.microsoft.com/library/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> as shown in the code example that follows.
+To instantiate this interface, call <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> as shown in the code example that follows.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -122,7 +122,7 @@ else
 </tr>
 </table></span></div>
 This interface requires XpsRasterService.dll. 
-If XpsRasterService.dll is not present when <a href="https://msdn.microsoft.com/library/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> is called to create an <b>IXpsOMThumbnailGenerator</b> instance, <b>CoCreateInstance</b> returns E_FAIL.
+If XpsRasterService.dll is not present when <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> is called to create an <b>IXpsOMThumbnailGenerator</b> instance, <b>CoCreateInstance</b> returns E_FAIL.
 
 
 

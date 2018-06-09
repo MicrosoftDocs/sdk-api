@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype.htm
 old-project: mstv
 ms.assetid: e83bbbbe-64a9-4ed3-9c32-925ca80c2c38
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], IComponentType interface [Microsoft TV Technologies],described, IComponentTypeInterface, mstv.icomponenttype, tuner/IComponentType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IComponentType</b> interface is implemented on <a href="https://msdn.micr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentType</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>IComponentType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentType</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IComponentType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -242,7 +242,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

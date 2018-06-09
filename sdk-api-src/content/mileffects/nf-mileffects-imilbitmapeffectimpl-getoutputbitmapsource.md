@@ -84,7 +84,7 @@ A value that indicates whether to modify in-place.
 
 Type: <b>IWICBitmapSource**</b>
 
-A pointer that receives a pointer to the output <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource Interface</a>.
+A pointer that receives a pointer to the output <a href="_wic_codec_iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 
 ## -returns

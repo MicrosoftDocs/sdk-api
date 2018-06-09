@@ -7,7 +7,7 @@ old-location: wmi\iunsecuredapartment_createobjectstub.htm
 old-project: WmiSdk
 ms.assetid: 76a376e4-bd0d-4b8b-b49a-162630c47220
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CreateObjectStub, CreateObjectStub method [Windows Management Instrumentation], CreateObjectStub method [Windows Management Instrumentation],IUnsecuredApartment interface, IUnsecuredApartment interface [Windows Management Instrumentation],CreateObjectStub method, IUnsecuredApartment.CreateObjectStub, IUnsecuredApartment::CreateObjectStub, _hmm_iunsecuredapartment_createobjectstub, wbemcli/IUnsecuredApartment::CreateObjectStub, wmi.iunsecuredapartment_createobjectstub
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Pointer to the client's in-process implementation of
 ### -param ppStub [out]
 
 Receives a pointer to a substitute object to be used in asynchronous 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls. The user receives an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer and must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for <b>IID_WbemObjectSink</b> before using this object in asynchronous 
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls. The user receives an <a href="_com_iunknown">IUnknown</a> pointer and must call <a href="_com_iunknown_queryinterface">QueryInterface</a> for <b>IID_WbemObjectSink</b> before using this object in asynchronous 
 <b>IWbemServices</b> calls.
 
 
@@ -82,7 +82,7 @@ Receives a pointer to a substitute object to be used in asynchronous
 
 
 
-This method returns standard COM error codes for <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>. It returns <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not supported, the method returns <b>E_NOINTERFACE</b>.
+This method returns standard COM error codes for <a href="_com_iunknown_queryinterface">QueryInterface</a>. It returns <b>S_OK</b> if the call succeeds. If the call fails because the requested interface was not supported, the method returns <b>E_NOINTERFACE</b>.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 

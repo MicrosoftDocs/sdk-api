@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist.md">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain either the entire or a partial list of property descriptions in the system.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Gets an instance of the subsystem object that implements <a href="/windows/deskt
 
 ### -param filterOn [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_enumfilter.md">PROPDESC_ENUMFILTER</a></b>
+Type: <b><a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a></b>
 
-The list to return. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_enumfilter.md">PROPDESC_ENUMFILTER</a>. Valid values for this method are 0 through 4.
+The list to return. See <a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a>. Valid values for this method are 0 through 4.
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist.md">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns
@@ -137,7 +137,7 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem.md">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

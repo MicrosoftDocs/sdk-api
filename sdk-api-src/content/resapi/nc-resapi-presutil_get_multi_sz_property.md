@@ -7,7 +7,7 @@ old-location: mscs\resutilgetmultiszproperty.htm
 old-project: MsCS
 ms.assetid: 7f345cce-fa67-467c-bd4f-286609c3f757
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY callback, PRESUTIL_GET_MULTI_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

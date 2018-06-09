@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider_IsTopmost.htm
 old-project: WinAuto
 ms.assetid: 53181d04-112f-4e38-a2ab-760f215defc6
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],IsTopmost property, IWindowProvider.IsTopmost, IWindowProvider.get_IsTopmost, IWindowProvider::IsTopmost, IWindowProvider::get_IsTopmost, IsTopmost property [Windows Accessibility], IsTopmost property [Windows Accessibility],IWindowProvider interface, get_IsTopmost, uiauto.uiauto_IWindowProvider_IsTopmost, uiauto_IWindowProvider_IsTopmost, uiautomationcore/IWindowProvider::IsTopmost, uiautomationcore/IWindowProvider::get_IsTopmost, winauto.uiauto_IWindowProvider_IsTopmost
 ms.prod: windows
 ms.technology: windows-sdk

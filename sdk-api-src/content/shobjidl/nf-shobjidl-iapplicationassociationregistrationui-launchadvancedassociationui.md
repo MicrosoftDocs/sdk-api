@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistrationUI_LaunchAdvancedAssociat
 old-project: shell
 ms.assetid: db2fc087-2f22-40df-8ec9-f673c0fe81ff
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IApplicationAssociationRegistrationUI interface [Windows Shell],LaunchAdvancedAssociationUI method, IApplicationAssociationRegistrationUI.LaunchAdvancedAssociationUI, IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI, LaunchAdvancedAssociationUI method [Windows Shell], LaunchAdvancedAssociationUI method [Windows Shell],IApplicationAssociationRegistrationUI interface, _shell_IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shell.IApplicationAssociationRegistrationUI_LaunchAdvancedAssociationUI, shobjidl/IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI
 ms.prod: windows
 ms.technology: windows-sdk

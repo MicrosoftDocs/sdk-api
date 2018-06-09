@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmreportscheduler_deletescheduletask.htm
 old-project: Fsrm
 ms.assetid: 31541668-6173-48d4-8650-13e78bc7a763
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: DeleteScheduleTask, DeleteScheduleTask method [File Server Resource Manager], DeleteScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, DeleteScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler.DeleteScheduleTask, IFsrmReportScheduler::DeleteScheduleTask, fs.ifsrmreportscheduler_deletescheduletask, fsrm.ifsrmreportscheduler_deletescheduletask, fsrmreports/IFsrmReportScheduler::DeleteScheduleTask
 ms.prod: windows
 ms.technology: windows-sdk

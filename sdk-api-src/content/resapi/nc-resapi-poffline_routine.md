@@ -7,7 +7,7 @@ old-location: mscs\offline.htm
 old-project: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ For effective implementation strategies of the <i>Offline</i>
 
 #### Examples
 
-See <a href="https://www.bing.com/search?q=Resource+DLL+Examples">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

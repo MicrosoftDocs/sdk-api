@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_getqualifierset.htm
 old-project: WmiSdk
 ms.assetid: da86b723-8126-44b9-95ec-120d88390ef3
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetQualifierSet, GetQualifierSet method [Windows Management Instrumentation], GetQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetQualifierSet method, IWbemClassObject.GetQualifierSet, IWbemClassObject::GetQualifierSet, _hmm_iwbemclassobject_getqualifierset, wbemcli/IWbemClassObject::GetQualifierSet, wmi.iwbemclassobject_getqualifierset
 ms.prod: windows
 ms.technology: windows-sdk

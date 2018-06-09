@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropsetstg_clone.htm
 old-project: Stg
 ms.assetid: f875d5e9-fac0-4961-9570-342f55cf307e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSETSTG interface, IEnumSTATPROPSETSTG interface [Structured Storage],Clone method, IEnumSTATPROPSETSTG.Clone, IEnumSTATPROPSETSTG::Clone, propidlbase/IEnumSTATPROPSETSTG::Clone, stg.ienumstatpropsetstg_clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfcreatecontentdecryptorcontext.htm
 old-project: medfound
 ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
 ms.prod: windows
 ms.technology: windows-sdk

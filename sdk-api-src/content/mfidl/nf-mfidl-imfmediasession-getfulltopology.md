@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_getfulltopology.htm
 old-project: medfound
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
 ms.prod: windows
 ms.technology: windows-sdk

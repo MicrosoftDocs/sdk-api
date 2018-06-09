@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getcurrentangle.htm
 old-project: DirectShow
 ms.assetid: 9347cad1-f061-45e9-ab4a-66e87a2b0c86
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetCurrentAngle, GetCurrentAngle method [DirectShow], GetCurrentAngle method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentAngle method, IDvdInfo2.GetCurrentAngle, IDvdInfo2::GetCurrentAngle, IDvdInfo2GetCurrentAngle, dshow.idvdinfo2_getcurrentangle, strmif/IDvdInfo2::GetCurrentAngle
 ms.prod: windows
 ms.technology: windows-sdk

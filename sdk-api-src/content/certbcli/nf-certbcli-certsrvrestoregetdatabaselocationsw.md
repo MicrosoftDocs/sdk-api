@@ -7,7 +7,7 @@ old-location: security\certsrvrestoregetdatabaselocations.htm
 old-project: SecCrypto
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getconnectionbandwidth.htm
 old-project: wmformat
 ms.assetid: cbbc945d-91ea-4d21-a1ac-2fcbcb081447
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetConnectionBandwidth, GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetConnectionBandwidth method, IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
 ms.prod: windows
 ms.technology: windows-sdk

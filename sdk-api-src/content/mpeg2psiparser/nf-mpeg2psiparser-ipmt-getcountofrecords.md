@@ -7,7 +7,7 @@ old-location: mstv\ipmt_getcountofrecords.htm
 old-project: mstv
 ms.assetid: f4e5009b-4c0d-4d0c-b480-4030cedbdb97
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetCountOfRecords method, IPMT.GetCountOfRecords, IPMT::GetCountOfRecords, IPMTGetCountOfRecords, mpeg2psiparser/IPMT::GetCountOfRecords, mstv.ipmt_getcountofrecords
 ms.prod: windows
 ms.technology: windows-sdk

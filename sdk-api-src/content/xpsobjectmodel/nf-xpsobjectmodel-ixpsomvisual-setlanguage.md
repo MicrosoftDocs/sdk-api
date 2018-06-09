@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_setlanguage.htm
 old-project: printdocs
 ms.assetid: 19a7c10d-ceea-4303-a655-a3cb8b910377
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 06/04/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetLanguage method, IXpsOMVisual.SetLanguage, IXpsOMVisual::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage
 ms.prod: windows
 ms.technology: windows-sdk

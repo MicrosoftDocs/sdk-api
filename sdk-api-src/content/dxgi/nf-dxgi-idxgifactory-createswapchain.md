@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_createswapchain.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_createswapchain.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/04/2018
 ms.keywords: CreateSwapChain, CreateSwapChain method [DXGI], CreateSwapChain method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],CreateSwapChain method, IDXGIFactory.CreateSwapChain, IDXGIFactory::CreateSwapChain, adabc9a1-e4c0-9260-1e58-bd7acac73fd8, direct3ddxgi.idxgifactory_createswapchain, dxgi/IDXGIFactory::CreateSwapChain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if <i>pDesc</i> or <i>ppSwapChain</i> is <b>NULL</b>, DXGI_STATUS_OCCLUDED if you request full-screen mode and it is unavailable, or E_OUTOFMEMORY. Other error codes defined by the type of device passed in may also be returned.
@@ -99,7 +99,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 If you attempt to create a swap chain in full-screen mode, and full-screen mode is unavailable, the swap chain will be created in windowed mode and DXGI_STATUS_OCCLUDED will be returned.
 
@@ -165,7 +165,7 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 
 
-<a href="https://www.bing.com/search?q=For+best+performance,+use+DXGI+flip+model">For best performance, use DXGI flip model</a>
+<a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">For best performance, use DXGI flip model</a>
 
 
 

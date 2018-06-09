@@ -7,7 +7,7 @@ old-location: mstv\imsvidencoder.htm
 old-project: mstv
 ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
 ms.prod: windows
 ms.technology: windows-sdk

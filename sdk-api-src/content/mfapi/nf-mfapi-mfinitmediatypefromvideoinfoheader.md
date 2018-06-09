@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefromvideoinfoheader.htm
 old-project: medfound
 ms.assetid: 7f88422d-c968-4eea-83cb-45e6cfe37921
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 7f88422d-c968-4eea-83cb-45e6cfe37921, MFInitMediaTypeFromVideoInfoHeader, MFInitMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader, mfapi/MFInitMediaTypeFromVideoInfoHeader
 ms.prod: windows
 ms.technology: windows-sdk

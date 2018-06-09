@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_getcodecinstalled.htm
 old-project: DirectShow
 ms.assetid: 597178a5-8ead-4562-adbe-e6cd2b352d25
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: GetCodecInstalled, GetCodecInstalled method [DirectShow], GetCodecInstalled method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecInstalled method, IAMNetShowExProps.GetCodecInstalled, IAMNetShowExProps::GetCodecInstalled, IAMNetShowExPropsGetCodecInstalled, dshow.iamnetshowexprops_getcodecinstalled, qnetwork/IAMNetShowExProps::GetCodecInstalled
 ms.prod: windows
 ms.technology: windows-sdk

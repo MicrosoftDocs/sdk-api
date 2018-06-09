@@ -7,7 +7,7 @@ old-location: mf\imfsourcebufferlist_getsourcebuffer.htm
 old-project: medfound
 ms.assetid: 7f756c2e-79d0-400b-a84a-bc0e268f4f5b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetSourceBuffer, GetSourceBuffer method [Media Foundation], GetSourceBuffer method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetSourceBuffer method, IMFSourceBufferList.GetSourceBuffer, IMFSourceBufferList::GetSourceBuffer, mf.imfsourcebufferlist_getsourcebuffer, mfmediaengine/IMFSourceBufferList::GetSourceBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

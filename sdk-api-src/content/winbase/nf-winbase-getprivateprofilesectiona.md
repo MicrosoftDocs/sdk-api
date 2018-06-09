@@ -7,7 +7,7 @@ old-location: base\getprivateprofilesection.htm
 old-project: SysInfo
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetPrivateProfileSection, GetPrivateProfileSection function, GetPrivateProfileSectionA, GetPrivateProfileSectionW, _win32_getprivateprofilesection, base.getprivateprofilesection, winbase/GetPrivateProfileSection, winbase/GetPrivateProfileSectionA, winbase/GetPrivateProfileSectionW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_windowstyle.htm
 old-project: DirectShow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

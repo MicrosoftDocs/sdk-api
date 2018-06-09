@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_loadprofilebyid.htm
 old-project: wmformat
 ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
 ms.prod: windows
 ms.technology: windows-sdk

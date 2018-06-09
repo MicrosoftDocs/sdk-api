@@ -7,7 +7,7 @@ old-location: mscs\opencluster.htm
 old-project: MsCS
 ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER callback, PCLUSAPI_OPEN_CLUSTER callback function [Failover Cluster], _wolf_opencluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ When finished with a cluster handle, it is important to call
 If the cluster is remote, the client must be running a compatible operating system. For example computers running 
      Windows Server 2008 cannot call <i>OpenCluster</i> against a 
      cluster running Windows Server 2016. To remotely manage these clusters, use 
-     <a href="https://www.bing.com/search?q=the+Failover+Cluster+WMI+Provider">the Failover Cluster WMI Provider</a>.
+     <a href="mscs.the_server_cluster_wmi_provider">the Failover Cluster WMI Provider</a>.
 
 
 #### Examples

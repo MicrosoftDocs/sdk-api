@@ -7,7 +7,7 @@ old-location: fsrm\ifsrmpropertybag_setfileproperty.htm
 old-project: Fsrm
 ms.assetid: d3322907-c832-49ef-bf21-2e4581251a88
 ms.author: windowssdkdev
-ms.date: 04/18/2018
+ms.date: 06/04/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SetFileProperty method, IFsrmPropertyBag.SetFileProperty, IFsrmPropertyBag::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_setfileproperty, fsrm.ifsrmpropertybag_setfileproperty, fsrmpipeline/IFsrmPropertyBag::SetFileProperty
 ms.prod: windows
 ms.technology: windows-sdk

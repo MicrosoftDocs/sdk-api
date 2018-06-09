@@ -7,7 +7,7 @@ old-location: intl\comparestringordinal.htm
 old-project: Intl
 ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationalization for Windows Applications], _win32_CompareStringOrdinal, intl.comparestringordinal, stringapiset/CompareStringOrdinal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 This function tests for binary equality, not linguistic equality. For information about the use of the function for ordinal sorting, see <a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>.
 
-Applications that are concerned with linguistic equality should use <a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>, <a href="https://msdn.microsoft.com/264c67b6-848d-48ef-9bfa-4990bfa2fbf5">CompareStringEx</a>, <a href="https://www.bing.com/search?q=lstrcmp">lstrcmp</a>, or <a href="https://www.bing.com/search?q=lstrcmpi">lstrcmpi</a>. For more information about linguistic sorting, see <a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
+Applications that are concerned with linguistic equality should use <a href="https://msdn.microsoft.com/4db84fa7-f3c2-48fb-ad7d-8673397c4b0e">CompareString</a>, <a href="https://msdn.microsoft.com/264c67b6-848d-48ef-9bfa-4990bfa2fbf5">CompareStringEx</a>, <a href="_win32_lstrcmp_cpp">lstrcmp</a>, or <a href="_win32_lstrcmpi_cpp">lstrcmpi</a>. For more information about linguistic sorting, see <a href="https://msdn.microsoft.com/c8fc32bd-02bd-4a40-a836-d9ad9f69c209">Handling Sorting in Your Applications</a>
 
 
 <b>Starting with Windows 8: </b><b>CompareStringOrdinal</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.

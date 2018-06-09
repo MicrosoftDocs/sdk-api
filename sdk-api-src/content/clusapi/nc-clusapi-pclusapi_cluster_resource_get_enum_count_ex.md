@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcegetenumcountex.htm
 old-project: MsCS
 ms.assetid: 97C22642-F968-4E41-90BC-28DF8DF5886C
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/07/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX callback, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT_EX, mscs.clusterresourcegetenumcountex
 ms.prod: windows
 ms.technology: windows-sdk

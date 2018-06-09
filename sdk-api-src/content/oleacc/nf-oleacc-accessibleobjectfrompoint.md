@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfrompoint.htm
 old-project: WinAuto
 ms.assetid: b781b74f-5c36-4a65-a9b1-ecf7f8e5b531
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 06/04/2018
 ms.keywords: AccessibleObjectFromPoint, AccessibleObjectFromPoint function [Windows Accessibility], _msaa_AccessibleObjectFromPoint, msaa.accessibleobjectfrompoint, oleacc/AccessibleObjectFromPoint, winauto.accessibleobjectfrompoint
 ms.prod: windows
 ms.technology: windows-sdk

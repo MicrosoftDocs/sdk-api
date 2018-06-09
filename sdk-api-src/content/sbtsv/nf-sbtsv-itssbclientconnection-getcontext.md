@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_getcontext.htm
 old-project: TermServ
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: GetContext, GetContext method [Remote Desktop Services], GetContext method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetContext method, ITsSbClientConnection.GetContext, ITsSbClientConnection::GetContext, sbtsv/ITsSbClientConnection::GetContext, termserv.itssbclientconnection_getcontext
 ms.prod: windows
 ms.technology: windows-sdk

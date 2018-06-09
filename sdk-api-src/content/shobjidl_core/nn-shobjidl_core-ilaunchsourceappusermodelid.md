@@ -7,7 +7,7 @@ old-location: shell\ILaunchSourceAppUserModelId.htm
 old-project: shell
 ms.assetid: B53325C9-DC89-4411-82D9-247C28AFB177
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ILaunchSourceAppUserModelId, ILaunchSourceAppUserModelId interface [Windows Shell], ILaunchSourceAppUserModelId interface [Windows Shell],described, shell.ILaunchSourceAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId
 ms.prod: windows
 ms.technology: windows-sdk

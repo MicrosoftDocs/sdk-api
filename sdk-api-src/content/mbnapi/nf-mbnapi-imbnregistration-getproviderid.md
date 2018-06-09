@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration_getproviderid.htm
 old-project: mbn
 ms.assetid: 0b21a103-2b49-4d99-8041-c9da9cbc5750
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/04/2018
 ms.keywords: GetProviderID, GetProviderID method [Microsoft Broadband Networks], GetProviderID method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderID method, IMbnRegistration.GetProviderID, IMbnRegistration::GetProviderID, mbn.imbnregistration_getproviderid, mbnapi/IMbnRegistration::GetProviderID
 ms.prod: windows
 ms.technology: windows-sdk

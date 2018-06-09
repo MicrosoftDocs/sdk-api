@@ -7,7 +7,7 @@ old-location: stg\oleconvertistoragetoolestreamex.htm
 old-project: Stg
 ms.assetid: a6026b71-4223-40ab-b209-44531480db57
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/06/2018
 ms.keywords: OleConvertIStorageToOLESTREAMEx, OleConvertIStorageToOLESTREAMEx function [Structured Storage], _stg_oleconvertistoragetoolestreamex, ole2/OleConvertIStorageToOLESTREAMEx, stg.oleconvertistoragetoolestreamex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Size of the data, in bytes, to be converted.
 ### -param pmedium [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure for the serialized data to be converted.
+<a href="_ole_stgmedium">STGMEDIUM</a> structure for the serialized data to be converted.
 
 
 ### -param polestm
@@ -134,8 +134,8 @@ Because
 <b>OleConvertIStorageToOLESTREAMEx</b> can specify which presentation data to convert, it can be used by applications that do not use OLE default caching resources but do use OLE's conversion resources.
 
 The value of the <b>tymed</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagtymed">TYMED</a> enumeration for more information. The medium is not released by the 
+<a href="_ole_stgmedium">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
+<a href="_ole_tymed">TYMED</a> enumeration for more information. The medium is not released by the 
 <b>OleConvertIStorageToOLESTREAMEx</b> function.
 
 
@@ -146,7 +146,7 @@ The value of the <b>tymed</b> member of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
+<a href="_com_coisole1class">CoIsOle1Class</a>
 
 
 
@@ -162,11 +162,11 @@ The value of the <b>tymed</b> member of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a>
+<a href="_ole_stgmedium">STGMEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagtymed">TYMED</a>
+<a href="_ole_tymed">TYMED</a>
  
 
  

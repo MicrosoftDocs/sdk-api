@@ -7,7 +7,7 @@ old-location: security\cryptmsgopentoencode.htm
 old-project: SecCrypto
 ms.assetid: b0d2610b-05ba-4fb6-8f38-10f970a52091
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CMSG_AUTHENTICATED_ATTRIBUTES_FLAG, CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToEncode, CryptMsgOpenToEncode function [Security], _crypto2_cryptmsgopentoencode, security.cryptmsgopentoencode, wincrypt/CryptMsgOpenToEncode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -409,11 +409,11 @@ For examples that use this function, see
 
 
 
-<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

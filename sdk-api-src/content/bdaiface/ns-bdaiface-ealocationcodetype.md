@@ -7,7 +7,7 @@ old-location: mstv\ealocationcodetype.htm
 old-project: mstv
 ms.assetid: dd705e3a-4125-46db-b33d-d97476096484
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Technologies], EALocationCodeTypeStructure, bdaiface_enums/EALocationCodeType, mstv.ealocationcodetype
 ms.prod: windows
 ms.technology: windows-sdk

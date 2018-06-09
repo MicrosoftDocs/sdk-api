@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle.htm
 old-project: medfound
 ms.assetid: ED358A36-BEEF-491E-8984-938F71472F26
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], IMFTimedTextStyle interface [Media Foundation],described, mf.imftimedtextstyle, mfmediaengine/IMFTimedTextStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

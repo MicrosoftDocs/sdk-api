@@ -7,7 +7,7 @@ old-location: mf\imfsamplegrabbersinkcallback_onprocesssample.htm
 old-project: medfound
 ms.assetid: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: 0a7bfee3-9d6f-4cdf-8c64-abfc6ab78e60, IMFSampleGrabberSinkCallback interface [Media Foundation],OnProcessSample method, IMFSampleGrabberSinkCallback.OnProcessSample, IMFSampleGrabberSinkCallback::OnProcessSample, OnProcessSample, OnProcessSample method [Media Foundation], OnProcessSample method [Media Foundation],IMFSampleGrabberSinkCallback interface, mf.imfsamplegrabbersinkcallback_onprocesssample, mfidl/IMFSampleGrabberSinkCallback::OnProcessSample
 ms.prod: windows
 ms.technology: windows-sdk

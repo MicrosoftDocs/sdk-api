@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent_certificatesuccess.htm
 old-project: mstv
 ms.assetid: 23ac75ee-02ee-4159-b503-65604a6601cb
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSinkEvent.CertificateSuccess, IMSVidStreamBufferSinkEvent::CertificateSuccess, IMSVidStreamBufferSinkEventCertificateSuccess, mstv.imsvidstreambuffersinkevent_certificatesuccess, segment/IMSVidStreamBufferSinkEvent::CertificateSuccess
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getbyte.htm
 old-project: WmiSdk
 ms.assetid: a84b2de4-453d-4f69-8bac-df361180bc10
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetByte method, CInstance.GetByte, CInstance::GetByte, GetByte, GetByte method [Windows Management Instrumentation], GetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbyte, instance/CInstance::GetByte, wmi.cinstance_getbyte
 ms.prod: windows
 ms.technology: windows-sdk

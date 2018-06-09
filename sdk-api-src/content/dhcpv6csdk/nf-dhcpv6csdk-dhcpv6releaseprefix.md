@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6releaseprefix.htm
 old-project: DHCP
 ms.assetid: 252646db-f8d2-42d1-87af-2426dff2c72c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 06/07/2018
 ms.keywords: Dhcpv6ReleasePrefix, Dhcpv6ReleasePrefix function [DHCP], dhcp.dhcpv6releaseprefix, dhcpv6csdk/Dhcpv6ReleasePrefix
 ms.prod: windows
 ms.technology: windows-sdk

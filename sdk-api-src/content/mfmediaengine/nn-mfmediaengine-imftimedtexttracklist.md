@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttracklist.htm
 old-project: medfound
 ms.assetid: EA94A81E-3B1D-4723-B00F-B216991E19E5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], IMFTimedTextTrackList interface [Media Foundation],described, mf.imftimedtexttracklist, mfmediaengine/IMFTimedTextTrackList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: wua\isearchjob_asyncstate.htm
 old-project: Wua_Sdk
 ms.assetid: 68d861a3-420d-4a89-ac32-900db6d51036
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],AsyncState property, ISearchJob.AsyncState, ISearchJob.get_AsyncState, ISearchJob::AsyncState, ISearchJob::get_AsyncState, get_AsyncState, wua.isearchjob_asyncstate, wuapi/ISearchJob::AsyncState, wuapi/ISearchJob::get_AsyncState
 ms.prod: windows
 ms.technology: windows-sdk

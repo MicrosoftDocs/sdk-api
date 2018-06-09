@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_isfirstassignment.htm
 old-project: TermServ
 ms.assetid: a086421f-77a4-43c9-8f9f-a24b0d620de2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],IsFirstAssignment property, ITsSbClientConnection.IsFirstAssignment, ITsSbClientConnection.get_IsFirstAssignment, ITsSbClientConnection::IsFirstAssignment, ITsSbClientConnection::get_IsFirstAssignment, IsFirstAssignment property [Remote Desktop Services], IsFirstAssignment property [Remote Desktop Services],ITsSbClientConnection interface, get_IsFirstAssignment, sbtsv/ITsSbClientConnection::IsFirstAssignment, sbtsv/ITsSbClientConnection::get_IsFirstAssignment, termserv.itssbclientconnection_isfirstassignment
 ms.prod: windows
 ms.technology: windows-sdk

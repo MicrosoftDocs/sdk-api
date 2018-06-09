@@ -101,7 +101,7 @@ The <a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">De
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Displaying+a+Shortcut+Menu">Displaying a Shortcut Menu</a>
+For an example, see <a href="using_menus.htm">Displaying a Shortcut Menu</a>
 
 <div class="code"></div>
 

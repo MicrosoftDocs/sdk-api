@@ -7,7 +7,7 @@ old-location: security\cryptmsgcountersign.htm
 old-project: SecCrypto
 ms.assetid: ebf76664-bca6-462d-b519-2b60f435d8ef
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CryptMsgCountersign, CryptMsgCountersign function [Security], _crypto2_cryptmsgcountersign, security.cryptmsgcountersign, wincrypt/CryptMsgCountersign
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,11 +156,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

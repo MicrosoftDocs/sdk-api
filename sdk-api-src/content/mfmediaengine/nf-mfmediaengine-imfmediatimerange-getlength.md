@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_getlength.htm
 old-project: medfound
 ms.assetid: 0865A667-A09E-4F42-A420-4A155AD34394
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetLength method, IMFMediaTimeRange.GetLength, IMFMediaTimeRange::GetLength, mf.imfmediatimerange_getlength, mfmediaengine/IMFMediaTimeRange::GetLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: MF_TIMED_TEXT_WRITING_MODE
+req.typenames: MF_MEDIA_ENGINE_KEYERR
 topic_type:
  - APIRef
  - kbSyntax

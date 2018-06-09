@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_get_numcategories.htm
 old-project: DirectShow
 ms.assetid: 86bbe461-37c1-4dbc-bebd-fa8784d49083
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumCategories method, IKsTopologyInfo.get_NumCategories, IKsTopologyInfo::get_NumCategories, IKsTopologyInfoget_NumCategories, dshow.ikstopologyinfo_get_numcategories, get_NumCategories, get_NumCategories method [DirectShow], get_NumCategories method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumCategories
 ms.prod: windows
 ms.technology: windows-sdk

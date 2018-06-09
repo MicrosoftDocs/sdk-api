@@ -7,7 +7,7 @@ old-location: base\convertperformancecountertoauxiliarycounter.htm
 old-project: SysInfo
 ms.assetid: 2499981B-6C13-4A3D-836A-D4CCD11C8D50
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/04/2018
 ms.keywords: ConvertPerformanceCounterToAuxiliaryCounter, ConvertPerformanceCounterToAuxiliaryCounter function, base.convertperformancecountertoauxiliarycounter, realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
 ms.prod: windows
 ms.technology: windows-sdk

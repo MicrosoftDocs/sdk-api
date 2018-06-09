@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor_termcompositiontarget.htm
 old-project: DirectShow
 ms.assetid: a9526be0-06aa-4fe3-ba05-fbac01806ec4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],TermCompositionTarget method, IVMRImageCompositor.TermCompositionTarget, IVMRImageCompositor::TermCompositionTarget, IVMRImageCompositorStopCompositing, TermCompositionTarget, TermCompositionTarget method [DirectShow], TermCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_termcompositiontarget, strmif/IVMRImageCompositor::TermCompositionTarget
 ms.prod: windows
 ms.technology: windows-sdk

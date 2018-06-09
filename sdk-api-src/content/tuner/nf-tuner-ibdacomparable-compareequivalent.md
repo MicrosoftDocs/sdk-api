@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable_compareequivalent.htm
 old-project: mstv
 ms.assetid: 132c326e-053c-41be-b0fd-bea484fb0acd
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/06/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
 ms.prod: windows
 ms.technology: windows-sdk

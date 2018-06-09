@@ -7,7 +7,7 @@ old-location: shell\IUserNotification2_SetBalloonRetry.htm
 old-project: shell
 ms.assetid: D6A72D9F-108F-4eaf-A867-F81C86C08809
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],SetBalloonRetry method, IUserNotification2.SetBalloonRetry, IUserNotification2::SetBalloonRetry, SetBalloonRetry, SetBalloonRetry method [Windows Shell], SetBalloonRetry method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetBalloonRetry, shell.IUserNotification2_SetBalloonRetry, shobjidl/IUserNotification2::SetBalloonRetry
 ms.prod: windows
 ms.technology: windows-sdk

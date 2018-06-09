@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclock_getposition.htm
 old-project: CoreAudio
 ms.assetid: 2271bd73-8cb6-4048-a16c-f765d0fae6bd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/04/2018
 ms.keywords: GetPosition, GetPosition method [Core Audio], GetPosition method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetPosition method, IAudioClock.GetPosition, IAudioClock::GetPosition, IAudioClockGetPosition, audioclient/IAudioClock::GetPosition, coreaudio.iaudioclock_getposition
 ms.prod: windows
 ms.technology: windows-sdk

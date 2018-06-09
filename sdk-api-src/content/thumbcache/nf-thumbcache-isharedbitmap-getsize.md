@@ -7,7 +7,7 @@ old-location: shell\ISharedBitmap_GetSize.htm
 old-project: shell
 ms.assetid: 612fbb6d-2539-4055-9037-7e64ddced4e9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],GetSize method, ISharedBitmap.GetSize, ISharedBitmap::GetSize, _shell__GetSize, shell.ISharedBitmap_GetSize, thumbcache/ISharedBitmap::GetSize
 ms.prod: windows
 ms.technology: windows-sdk

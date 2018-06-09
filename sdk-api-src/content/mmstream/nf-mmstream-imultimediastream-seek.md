@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_seek.htm
 old-project: DirectShow
 ms.assetid: ac65613f-3fca-4043-83ad-740ebd7687a4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/06/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],Seek method, IMultiMediaStream.Seek, IMultiMediaStream::Seek, IMultiMediaStreamSeek, Seek, Seek method [DirectShow], Seek method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_seek, mmstream/IMultiMediaStream::Seek
 ms.prod: windows
 ms.technology: windows-sdk

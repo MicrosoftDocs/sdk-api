@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_getsize.htm
 old-project: WmiSdk
 ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/07/2018
 ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
 ms.prod: windows
 ms.technology: windows-sdk

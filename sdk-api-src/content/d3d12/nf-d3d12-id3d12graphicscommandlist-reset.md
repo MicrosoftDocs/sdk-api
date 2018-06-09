@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_reset.htm
 old-project: direct3d12
 ms.assetid: 36726FB6-09DE-4723-A60E-75FCE55F2E35
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/04/2018
 ms.keywords: ID3D12GraphicsCommandList interface,Reset method, ID3D12GraphicsCommandList.Reset, ID3D12GraphicsCommandList::Reset, Reset, Reset method, Reset method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::Reset, direct3d12.id3d12graphicscommandlist_reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ For bundles on the other hand, it might make more sense to try to set the initia
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
                 Returns <b>S_OK</b> if successful; otherwise, returns one of the following values:

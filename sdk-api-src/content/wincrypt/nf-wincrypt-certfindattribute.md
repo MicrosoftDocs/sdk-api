@@ -7,7 +7,7 @@ old-location: security\certfindattribute.htm
 old-project: SecCrypto
 ms.assetid: 99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CertFindAttribute, CertFindAttribute function [Security], _crypto2_certfindattribute, security.certfindattribute, wincrypt/CertFindAttribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Returns a pointer to the attribute, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\scriptcptox.htm
 old-project: Intl
 ms.assetid: 65a11b21-3f4b-463a-b347-a00add32380c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/04/2018
 ms.keywords: ScriptCPtoX, ScriptCPtoX function [Internationalization for Windows Applications], _win32_ScriptCPtoX, intl.scriptcptox, usp10/ScriptCPtoX
 ms.prod: windows
 ms.technology: windows-sdk

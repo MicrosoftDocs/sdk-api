@@ -7,7 +7,7 @@ old-location: security\icertrequest2_getcaproperty.htm
 old-project: SecCrypto
 ms.assetid: 093d657d-2d9c-4973-a71b-5b134cc35034
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/04/2018
 ms.keywords: CCertRequest object [Security],GetCAProperty method, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertRequest object, GetCAProperty method [Security],ICertRequest interface, GetCAProperty method [Security],ICertRequest2 interface, ICertRequest interface [Security],GetCAProperty method, ICertRequest2 interface [Security],GetCAProperty method, ICertRequest2.GetCAProperty, ICertRequest2::GetCAProperty, ICertRequest::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getcaproperty, certcli/ICertRequest2::GetCAProperty, certcli/ICertRequest::GetCAProperty, security.icertrequest2_getcaproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -237,7 +237,7 @@ Hexadecimal string with ASCII and address/offset
 
 A pointer to a <b>VARIANT</b> that receives the requested property value.
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function.
 
 
 ## -returns

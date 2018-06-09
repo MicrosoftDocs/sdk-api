@@ -7,7 +7,7 @@ old-location: security\bcryptencrypt_func.htm
 old-project: SecCNG
 ms.assetid: 69fe4530-4b7c-40db-a85c-f9dc458735e7
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptEncrypt, BCryptEncrypt function [Security], bcrypt/BCryptEncrypt, security.bcryptencrypt_func
 ms.prod: windows
 ms.technology: windows-sdk

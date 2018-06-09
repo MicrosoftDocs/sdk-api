@@ -7,7 +7,7 @@ old-location: security\crypt_contexts.htm
 old-project: SecCNG
 ms.assetid: a1b60660-a4c5-4880-8cd4-48d8717c77c3
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 06/06/2018
 ms.keywords: "*PCRYPT_CONTEXTS, CRYPT_CONTEXTS, CRYPT_CONTEXTS structure [Security], PCRYPT_CONTEXTS, PCRYPT_CONTEXTS structure pointer [Security], _CRYPT_CONTEXTS, bcrypt/CRYPT_CONTEXTS, bcrypt/PCRYPT_CONTEXTS, security.crypt_contexts"
 ms.prod: windows
 ms.technology: windows-sdk
