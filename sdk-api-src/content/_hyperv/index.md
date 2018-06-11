@@ -2,7 +2,7 @@
 UID: TP:hyperv
 ms.assetid: 61481173-288c-3c51-981d-d766e94aef88
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,3 +20,4 @@ To develop Hyper-V management, you need these headers:
  * [vmgenerationcounter.h](../vmgenerationcounter/index.md)
 
 For the programming guide, see [Hyper-V management](/windows/desktop/hyperv).
+

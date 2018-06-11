@@ -2,7 +2,7 @@
 UID: NA:stringapiset
 ms.assetid: b0a163cd-d95c-3cca-b637-b21e2c1741bc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: intl
 ## -description
 
 
-This header is used by intl. For more information, see:
+This header is used by Internationalization for Windows Applications. For more information, see:
 
 - [Internationalization for Windows Applications](../_intl/index.md)

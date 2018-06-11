@@ -2,7 +2,7 @@
 UID: TP:fwp
 ms.assetid: a51f62fb-3c8a-3b1f-92ae-873df74e2cc2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -25,3 +25,4 @@ To develop Windows Filtering Platform, you need these headers:
  * [netiodef.h](../netiodef/index.md)
 
 For the programming guide, see [Windows Filtering Platform](/windows/desktop/fwp).
+

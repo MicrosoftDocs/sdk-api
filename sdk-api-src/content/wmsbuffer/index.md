@@ -2,7 +2,7 @@
 UID: NA:wmsbuffer
 ms.assetid: 3613131a-c116-3995-accb-050d1c0c8353
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wmformat
 ## -description
 
 
-This header is used by wmformat. For more information, see:
+This header is used by Windows Media Format 11 SDK. For more information, see:
 
 - [Windows Media Format 11 SDK](../_wmformat/index.md)

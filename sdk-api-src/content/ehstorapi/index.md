@@ -2,7 +2,7 @@
 UID: NA:ehstorapi
 ms.assetid: 8e2a3a3d-4b8c-3f8e-a691-470fd2586eff
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: enstor
 ## -description
 
 
-This header is used by enstor. For more information, see:
+This header is used by Enhanced Storage. For more information, see:
 
 - [Enhanced Storage](../_enstor/index.md)

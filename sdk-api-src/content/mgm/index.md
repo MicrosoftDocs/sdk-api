@@ -2,7 +2,7 @@
 UID: NA:mgm
 ms.assetid: d047a683-0ea2-316a-8def-c5549c7bc855
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: rras
 ## -description
 
 
-This header is used by rras. For more information, see:
+This header is used by Routing and Remote Access Service. For more information, see:
 
 - [Routing and Remote Access Service](../_rras/index.md)

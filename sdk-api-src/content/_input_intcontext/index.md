@@ -2,7 +2,7 @@
 UID: TP:input_intcontext
 ms.assetid: 861b8874-7988-364c-9d5c-69f24caf0a0a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,3 +21,4 @@ To develop Interaction Context, you need these headers:
  * [interactioncontext.h](../interactioncontext/index.md)
 
 For the programming guide, see [Interaction Context](/previous-versions/windows/desktop/input_intcontext).
+

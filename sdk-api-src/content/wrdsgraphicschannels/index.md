@@ -2,7 +2,7 @@
 UID: NA:wrdsgraphicschannels
 ms.assetid: 2300415a-7842-3e17-849f-2ea7ed0d2a68
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: termserv
 ## -description
 
 
-This header is used by termserv. For more information, see:
+This header is used by Remote Desktop Services. For more information, see:
 
 - [Remote Desktop Services](../_termserv/index.md)

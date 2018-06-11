@@ -2,7 +2,7 @@
 UID: NA:resapi
 ms.assetid: 7faec6a1-d5d6-3cde-81e5-1e05a05d961f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: mscs
 ## -description
 
 
-This header is used by mscs. For more information, see:
+This header is used by Windows Clustering. For more information, see:
 
 - [Windows Clustering](../_mscs/index.md)

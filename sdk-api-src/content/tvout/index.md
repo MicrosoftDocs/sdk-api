@@ -2,7 +2,7 @@
 UID: NA:tvout
 ms.assetid: e37193da-c19f-3d92-91b0-3046737bc748
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: gdi
 ## -description
 
 
-This header is used by gdi. For more information, see:
+This header is used by Windows GDI. For more information, see:
 
 - [Windows GDI](../_gdi/index.md)

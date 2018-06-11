@@ -2,7 +2,7 @@
 UID: NA:dxgidebug
 ms.assetid: a1d3e485-0721-3cd3-b78c-50d60d5c6821
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct3ddxgi
 ## -description
 
 
-This header is used by direct3ddxgi. For more information, see:
+This header is used by DXGI. For more information, see:
 
 - [DXGI](../_direct3ddxgi/index.md)

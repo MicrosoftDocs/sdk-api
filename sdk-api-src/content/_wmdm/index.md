@@ -2,7 +2,7 @@
 UID: TP:wmdm
 ms.assetid: ffc3f87d-c8ce-3f13-8c97-815310907dc0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,3 +24,4 @@ To develop Windows Media Device Manager 11 SDK, you need these headers:
  * [wmdmlog.h](../wmdmlog/index.md)
 
 For the programming guide, see [Windows Media Device Manager 11 SDK](/windows/desktop/wmdm).
+

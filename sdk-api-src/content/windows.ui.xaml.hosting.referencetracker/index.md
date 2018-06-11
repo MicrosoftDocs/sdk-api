@@ -2,7 +2,7 @@
 UID: NA:windows.ui.xaml.hosting.referencetracker
 ms.assetid: 2a725ab0-ccd3-39eb-9d42-341832c712bd
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winrt
 ## -description
 
 
-This header is used by winrt. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)

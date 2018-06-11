@@ -2,7 +2,7 @@
 UID: NA:vdssys
 ms.assetid: 1856cb95-112b-35da-9547-af9aa90dd7b1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: stormgmt
 ## -description
 
 
-This header is used by stormgmt. For more information, see:
+This header is used by Windows Storage Management API. For more information, see:
 
 - [Windows Storage Management API](../_stormgmt/index.md)

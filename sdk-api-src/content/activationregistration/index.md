@@ -2,7 +2,7 @@
 UID: NA:activationregistration
 ms.assetid: 10a0ba17-20f5-3cf0-a0dd-880d5f8d28ed
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winrt
 ## -description
 
 
-This header is used by winrt. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)

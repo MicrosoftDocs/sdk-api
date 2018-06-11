@@ -2,7 +2,7 @@
 UID: NA:winver
 ms.assetid: a6c391d8-377e-3ea1-a6de-da8000f31e04
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: menurc
 ## -description
 
 
-This header is used by menurc. For more information, see:
+This header is used by Menus and Other Resources. For more information, see:
 
 - [Menus and Other Resources](../_menurc/index.md)

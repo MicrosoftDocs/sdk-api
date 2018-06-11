@@ -2,7 +2,7 @@
 UID: NA:objbase
 ms.assetid: 4d81bebc-45a5-3d01-849c-a243151bf551
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: com
 ## -description
 
 
-This header is used by com. For more information, see:
+This header is used by Component Object Model (COM). For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)

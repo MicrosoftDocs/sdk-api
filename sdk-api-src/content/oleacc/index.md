@@ -2,7 +2,7 @@
 UID: NA:oleacc
 ms.assetid: b6b79d56-7777-3076-995e-8307fab75125
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winauto
 ## -description
 
 
-This header is used by winauto. For more information, see:
+This header is used by Windows Accessibility Features. For more information, see:
 
-- [Windows Automation API](../_winauto/index.md)
+- [Windows Accessibility Features](../_winauto/index.md)

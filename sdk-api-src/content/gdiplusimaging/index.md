@@ -2,7 +2,7 @@
 UID: NA:gdiplusimaging
 ms.assetid: 94b6f27c-995e-336a-b084-40d41214618e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: gdiplus
 ## -description
 
 
-This header is used by gdiplus. For more information, see:
+This header is used by GDI+. For more information, see:
 
 - [GDI+](../_gdiplus/index.md)

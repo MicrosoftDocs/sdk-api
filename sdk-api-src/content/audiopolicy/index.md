@@ -2,7 +2,7 @@
 UID: NA:audiopolicy
 ms.assetid: ba431e49-4ef3-3039-a4cd-40c0b72f9711
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: coreaudio
 ## -description
 
 
-This header is used by coreaudio. For more information, see:
+This header is used by Core Audio APIs. For more information, see:
 
 - [Core Audio APIs](../_coreaudio/index.md)

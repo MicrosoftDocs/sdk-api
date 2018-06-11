@@ -2,7 +2,7 @@
 UID: NA:intshcut
 ms.assetid: 8ad078b1-c5a8-3609-9401-88a6546547c0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by shell. For more information, see:
+This header is used by The Windows Shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

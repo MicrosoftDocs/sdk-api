@@ -2,7 +2,7 @@
 UID: NA:filter
 ms.assetid: 36c4774d-6d67-38f1-b4e4-5888f68fe2b7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: indexsrv
 ## -description
 
 
-This header is used by indexsrv. For more information, see:
+This header is used by Indexing Service. For more information, see:
 
 - [Indexing Service](../_indexsrv/index.md)

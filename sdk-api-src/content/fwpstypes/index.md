@@ -2,7 +2,7 @@
 UID: NA:fwpstypes
 ms.assetid: cc0a38d5-a1ec-3a9b-80c7-c24d00b84cb0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: netvista
 ## -description
 
 
-This header is used by netvista. For more information, see:
+This header is used by Network Drivers, Windows Vista and Later. For more information, see:
 
 - [Network Drivers, Windows Vista and Later](../_netvista/index.md)

@@ -2,7 +2,7 @@
 UID: NA:nb30
 ms.assetid: 0d412ad3-7766-3bd9-b74f-14bb519c2633
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: netbios
 ## -description
 
 
-This header is used by netbios. For more information, see:
+This header is used by NetBIOS. For more information, see:
 
 - [NetBIOS](../_netbios/index.md)

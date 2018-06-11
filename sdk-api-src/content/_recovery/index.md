@@ -2,7 +2,7 @@
 UID: TP:recovery
 ms.assetid: 62e538d1-edb1-3529-b421-8e044a033509
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,3 +18,4 @@ Overview of the Application Recovery and Restart technology.
 The Application Recovery and Restart technology is not associated with any headers.
 
 For the programming guide, see [Application Recovery and Restart](/windows/desktop/recovery).
+

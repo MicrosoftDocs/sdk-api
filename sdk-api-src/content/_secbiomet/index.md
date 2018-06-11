@@ -2,7 +2,7 @@
 UID: TP:secbiomet
 ms.assetid: e8f9b75a-0dd8-3544-bc54-6d945c8b30fc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,3 +21,4 @@ To develop Windows Biometric Framework, you need these headers:
  * [winbio_adapter.h](../winbio_adapter/index.md)
 
 For the programming guide, see [Windows Biometric Framework](/windows/desktop/secbiomet).
+

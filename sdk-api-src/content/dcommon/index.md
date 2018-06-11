@@ -2,7 +2,7 @@
 UID: NA:dcommon
 ms.assetid: 6348b8d3-df5a-3ff6-a228-80c9fbb44286
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct2d
 ## -description
 
 
-This header is used by direct2d. For more information, see:
+This header is used by Direct2D. For more information, see:
 
 - [Direct2D](../_direct2d/index.md)

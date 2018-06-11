@@ -2,7 +2,7 @@
 UID: NA:storageprovider
 ms.assetid: e40e10d9-a646-3f5f-805f-3492778bf552
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by shell. For more information, see:
+This header is used by The Windows Shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

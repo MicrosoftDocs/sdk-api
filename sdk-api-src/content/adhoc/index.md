@@ -2,7 +2,7 @@
 UID: NA:adhoc
 ms.assetid: ac096921-2541-3360-b42d-7aeda408cc95
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: nwifi
 ## -description
 
 
-This header is used by nwifi. For more information, see:
+This header is used by Native Wifi. For more information, see:
 
 - [Native Wifi](../_nwifi/index.md)

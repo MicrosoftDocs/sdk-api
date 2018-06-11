@@ -2,7 +2,7 @@
 UID: TP:mib
 ms.assetid: ab00077e-575e-37b9-8750-c458f936d496
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,3 +24,4 @@ To develop Management Information Base, you need these headers:
  * [udpmib.h](../udpmib/index.md)
 
 For the programming guide, see [Management Information Base](/previous-versions/windows/desktop/mib).
+

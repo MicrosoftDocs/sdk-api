@@ -2,7 +2,7 @@
 UID: NA:dhcpv6csdk
 ms.assetid: f31358a7-4b3e-352e-be82-92517d26ec1c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: dhcp
 ## -description
 
 
-This header is used by dhcp. For more information, see:
+This header is used by Dynamic Host Configuration Protocol (DHCP). For more information, see:
 
 - [Dynamic Host Configuration Protocol (DHCP)](../_dhcp/index.md)

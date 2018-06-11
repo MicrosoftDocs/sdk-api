@@ -2,7 +2,7 @@
 UID: TP:controls
 ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -31,3 +31,4 @@ To develop Windows Controls, you need these headers:
  * [winuser.h](../winuser/index.md)
 
 For the programming guide, see [Windows Controls](/windows/desktop/controls).
+

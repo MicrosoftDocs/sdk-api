@@ -2,7 +2,7 @@
 UID: TP:wmi
 ms.assetid: f7736949-4243-340f-890f-1ae3a5bda3e9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -31,3 +31,4 @@ To develop Windows Management Instrumentation, you need these headers:
  * [wbemtime.h](../wbemtime/index.md)
 
 For the programming guide, see [Windows Management Instrumentation](/windows/desktop/wmi).
+

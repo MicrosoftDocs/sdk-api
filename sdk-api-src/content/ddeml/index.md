@@ -2,7 +2,7 @@
 UID: NA:ddeml
 ms.assetid: 60102be7-9f24-3611-84c8-c0d1e56ab862
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: dataxchg
 ## -description
 
 
-This header is used by dataxchg. For more information, see:
+This header is used by Data Exchange. For more information, see:
 
 - [Data Exchange](../_dataxchg/index.md)

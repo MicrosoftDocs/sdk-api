@@ -2,7 +2,7 @@
 UID: NA:vpnotify
 ms.assetid: 73b1c34d-9829-3a61-bf4a-fce71bd51cf9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by dshow. For more information, see:
+This header is used by DirectShow. For more information, see:
 
 - [DirectShow](../_dshow/index.md)

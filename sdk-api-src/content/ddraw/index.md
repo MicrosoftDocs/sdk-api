@@ -2,7 +2,7 @@
 UID: NA:ddraw
 ms.assetid: 791ec678-12e0-360d-a622-58aff61d0b8a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: directdraw
 ## -description
 
 
-This header is used by directdraw. For more information, see:
+This header is used by DirectDraw. For more information, see:
 
 - [DirectDraw](../_directdraw/index.md)

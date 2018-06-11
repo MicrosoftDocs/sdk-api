@@ -2,7 +2,7 @@
 UID: NA:appxpackaging
 ms.assetid: d2a5a480-89cf-33fc-bbd1-18e4d5ed5dc8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: appxpkg
 ## -description
 
 
-This header is used by appxpkg. For more information, see:
+This header is used by Packaging, deployment, and query of Windows Store apps. For more information, see:
 
 - [Packaging, deployment, and query of Windows Store apps](../_appxpkg/index.md)

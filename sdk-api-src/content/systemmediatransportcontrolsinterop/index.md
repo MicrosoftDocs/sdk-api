@@ -2,7 +2,7 @@
 UID: NA:systemmediatransportcontrolsinterop
 ms.assetid: fcfbb073-ac49-3b82-bfbf-200fe034062c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: mediatransport
 ## -description
 
 
-This header is used by mediatransport. For more information, see:
+This header is used by Media Transport Controls. For more information, see:
 
 - [Media Transport Controls](../_mediatransport/index.md)

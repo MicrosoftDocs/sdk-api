@@ -2,7 +2,7 @@
 UID: NA:asyncinfo
 ms.assetid: f7edecc9-c124-399e-8fc4-80e915e6257c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winrt
 ## -description
 
 
-This header is used by winrt. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)

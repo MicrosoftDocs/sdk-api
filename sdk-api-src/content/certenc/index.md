@@ -2,7 +2,7 @@
 UID: NA:certenc
 ms.assetid: 85d548ab-64b8-378d-b871-637af43e23eb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: security
 ## -description
 
 
-This header is used by security. For more information, see:
+This header is used by Security and Identity. For more information, see:
 
-- [Authentication](../_security/index.md)
+- [Security and Identity](../_security/index.md)

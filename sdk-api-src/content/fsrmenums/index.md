@@ -2,7 +2,7 @@
 UID: NA:fsrmenums
 ms.assetid: 55538567-5437-307b-a79d-afe4a7f74133
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: fsrm
 ## -description
 
 
-This header is used by fsrm. For more information, see:
+This header is used by File Server Resource Manager. For more information, see:
 
 - [File Server Resource Manager](../_fsrm/index.md)

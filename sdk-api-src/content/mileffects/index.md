@@ -2,7 +2,7 @@
 UID: NA:mileffects
 ms.assetid: 3373afd5-dd48-30e0-bb2b-7f6588fc84a0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: wibe
 ## -description
 
 
-This header is used by wibe. For more information, see:
+This header is used by WPF Bitmap Effects. For more information, see:
 
 - [WPF Bitmap Effects](../_wibe/index.md)

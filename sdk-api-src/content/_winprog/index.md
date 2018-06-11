@@ -2,7 +2,7 @@
 UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,3 +55,4 @@ To develop Developer Notes, you need these headers:
  * [wscapi.h](../wscapi/index.md)
 
 For the programming guide, see [Developer Notes](/windows/desktop/winprog).
+

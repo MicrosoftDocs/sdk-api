@@ -2,7 +2,7 @@
 UID: NA:winbase
 ms.assetid: c7676757-54c2-3bf6-bd4b-6cd582f4b204
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: backup
 ## -description
 
 
-This header is used by backup. For more information, see:
+This header is used by Backup. For more information, see:
 
 - [Backup](../_backup/index.md)

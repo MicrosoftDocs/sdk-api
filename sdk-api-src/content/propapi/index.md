@@ -2,7 +2,7 @@
 UID: NA:propapi
 ms.assetid: c29f690c-152d-37dd-8171-91d771ca2a99
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: stg
 ## -description
 
 
-This header is used by stg. For more information, see:
+This header is used by Structured Storage. For more information, see:
 
 - [Structured Storage](../_stg/index.md)

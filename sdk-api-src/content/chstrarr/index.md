@@ -2,7 +2,7 @@
 UID: NA:chstrarr
 ms.assetid: e38b81d1-057e-3ea0-bd92-b6c10bc02719
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wmi
 ## -description
 
 
-This header is used by wmi. For more information, see:
+This header is used by Windows Management Instrumentation. For more information, see:
 
 - [Windows Management Instrumentation](../_wmi/index.md)

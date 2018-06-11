@@ -2,7 +2,7 @@
 UID: NA:newdev
 ms.assetid: 9bbde2b6-c7c6-393d-9e42-7e4747fe36f9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: devinst
 ## -description
 
 
-This header is used by devinst. For more information, see:
+This header is used by Device and Driver Installation Reference. For more information, see:
 
 - [Device and Driver Installation Reference](../_devinst/index.md)

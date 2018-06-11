@@ -2,7 +2,7 @@
 UID: NA:comppkgsup
 ms.assetid: d9229a96-75e9-36c1-984c-3471f9f9c49b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winprog
 ## -description
 
 
-This header is used by winprog. For more information, see:
+This header is used by Developer Notes. For more information, see:
 
-- [Using the Windows Headers](../_winprog/index.md)
+- [Developer Notes](../_winprog/index.md)

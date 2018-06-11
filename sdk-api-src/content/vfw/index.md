@@ -2,7 +2,7 @@
 UID: NA:vfw
 ms.assetid: 84b00537-6030-36ab-8d3a-4a3fd59cba5c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: multimedia
 ## -description
 
 
-This header is used by multimedia. For more information, see:
+This header is used by Windows Multimedia. For more information, see:
 
 - [Windows Multimedia](../_multimedia/index.md)

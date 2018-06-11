@@ -2,7 +2,7 @@
 UID: TP:coreaudio
 ms.assetid: 42959537-bb25-3eb8-8a95-3f33f2da8462
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -31,3 +31,4 @@ To develop Core Audio APIs, you need these headers:
  * [spatialaudiometadata.h](../spatialaudiometadata/index.md)
 
 For the programming guide, see [Core Audio APIs](/windows/desktop/coreaudio).
+
