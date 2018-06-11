@@ -2,7 +2,7 @@
 UID: NA:oleidl
 ms.assetid: 3326aed1-ea73-3859-bb65-481eb2610f91
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

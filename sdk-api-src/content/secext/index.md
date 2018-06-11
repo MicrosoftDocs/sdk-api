@@ -2,7 +2,7 @@
 UID: NA:secext
 ms.assetid: 1930331a-062c-3f33-bc0a-73e6d8cda9ef
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

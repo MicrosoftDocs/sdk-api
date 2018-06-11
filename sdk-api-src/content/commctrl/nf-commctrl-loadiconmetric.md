@@ -90,7 +90,7 @@ If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> can specify one of two things.
 <li>IDI_SHIELD</li>
 <li>IDI_QUESTION</li>
 </ul>
-To pass these constants to the <b>LoadIconMetric</b> function, use the <a href="https://www.bing.com/search?q=MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
+To pass these constants to the <b>LoadIconMetric</b> function, use the <a href="winui._win32_MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
 
 </li>
 <li>The name of a standalone icon (.ico) file.</li>
@@ -99,7 +99,7 @@ If <i>hinst</i> is non-null, <i>pszName</i> can specify one of two things.
 
 <ol>
 <li>The name of the icon resource, if the icon resource is to be loaded by name from the module.</li>
-<li>The icon ordinal, if the icon resource is to be loaded by ordinal from the module. This ordinal must be packaged by using the <a href="https://www.bing.com/search?q=MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro.</li>
+<li>The icon ordinal, if the icon resource is to be loaded by ordinal from the module. This ordinal must be packaged by using the <a href="winui._win32_MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro.</li>
 </ol>
 
 ### -param lims [in]
@@ -178,7 +178,7 @@ The contents of the buffer pointed to by <i>pszName</i> do not fit any of the ex
 
 
 
-<b>LoadIconMetric</b> is similar to <a href="https://www.bing.com/search?q=LoadIcon">LoadIcon</a>, but with the capability to specify the icon metric. It is used in place of <b>LoadIcon</b> when the calling application wants to ensure a high quality icon. This is particularly useful in high dots per inch (dpi) situations.
+<b>LoadIconMetric</b> is similar to <a href="winui._win32_LoadIcon">LoadIcon</a>, but with the capability to specify the icon metric. It is used in place of <b>LoadIcon</b> when the calling application wants to ensure a high quality icon. This is particularly useful in high dots per inch (dpi) situations.
 
 Icons are extracted or created as follows.
 
@@ -189,7 +189,7 @@ Icons are extracted or created as follows.
 <li>If an exact size match cannot be found and a larger icon is available, a new icon is created by scaling the larger version down to the desired size.</li>
 <li>If an exact size match cannot be found and no larger icon is available, a new icon is created by scaling a smaller icon up to the desired size.</li>
 </ol>
-Comparative calls are shown here for <b>LoadIconMetric</b> and <a href="https://www.bing.com/search?q=LoadIcon">LoadIcon</a>.
+Comparative calls are shown here for <b>LoadIconMetric</b> and <a href="winui._win32_LoadIcon">LoadIcon</a>.
 
 <pre class="syntax" xml:space="preserve"><code>NOTIFYICONDATA  nidIconData  = {0};
 nidIconData.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
@@ -197,7 +197,7 @@ nidIconData.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
 // Or...
 
 HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);</code></pre>
-The application is responsible for calling <a href="https://www.bing.com/search?q=DestroyIcon">DestroyIcon</a> on the retrieved icon.
+The application is responsible for calling <a href="winui._win32_DestroyIcon">DestroyIcon</a> on the retrieved icon.
 
 
 

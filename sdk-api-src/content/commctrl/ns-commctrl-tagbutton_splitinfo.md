@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information that defines a split button (<a href="https://www.bing.com/search?q=BS_SPLITBUTTON">BS_SPLITBUTTON</a> and <a href="https://www.bing.com/search?q=BS_DEFSPLITBUTTON">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://msdn.microsoft.com/d608440d-b8d8-4e32-9128-08b7566b185c">BCM_GETSPLITINFO</a> and <a href="https://msdn.microsoft.com/609b8972-9616-4850-a72c-2f87ce19f563">BCM_SETSPLITINFO</a> messages.
+Contains information that defines a split button (<a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://msdn.microsoft.com/d608440d-b8d8-4e32-9128-08b7566b185c">BCM_GETSPLITINFO</a> and <a href="https://msdn.microsoft.com/609b8972-9616-4850-a72c-2f87ce19f563">BCM_SETSPLITINFO</a> messages.
 
 
 ## -struct-fields

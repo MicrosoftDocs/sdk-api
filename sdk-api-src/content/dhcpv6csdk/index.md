@@ -2,7 +2,7 @@
 UID: NA:dhcpv6csdk
 ms.assetid: f31358a7-4b3e-352e-be82-92517d26ec1c
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -156,7 +156,7 @@ If the function fails, the return value is <b>FALSE</b>.
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

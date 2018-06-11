@@ -123,7 +123,7 @@ The <a href="https://msdn.microsoft.com/81515053-8d89-454f-aeae-9f22a71f5655">IE
 
 
 
-The <b>IEnumWIA_FORMAT_INFO</b> interface is a specific implementation for Windows Image Acquisition (WIA) of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://www.bing.com/search?q=IEnumXXXX">IEnumXXXX</a>.
+The <b>IEnumWIA_FORMAT_INFO</b> interface is a specific implementation for Windows Image Acquisition (WIA) of the standard Component Object Model (COM) enumeration interface. For details, see <a href="_com_ienumxxxx">IEnumXXXX</a>.
 
 Applications obtain a pointer to the <b>IEnumWIA_FORMAT_INFO</b> interface by invoking the <a href="https://msdn.microsoft.com/2e4c6bf5-30b1-45a9-b815-b7cc45a6d387">IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</a> method of an item's <a href="https://msdn.microsoft.com/565e48b7-30c5-4c8b-ae4a-071c2e90b2f9">IWiaDataTransfer</a> interface.
 
@@ -163,7 +163,7 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the
 
 
 
-<a href="https://www.bing.com/search?q=IEnumXXXX">IEnumXXXX</a>
+<a href="_com_ienumxxxx">IEnumXXXX</a>
 
 
 

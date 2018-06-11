@@ -191,7 +191,7 @@ To read the SACL from the security descriptor, the calling process must have bee
 
 
 
-<a href="https://www.bing.com/search?q=Low-level+Access+Control+Functions">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

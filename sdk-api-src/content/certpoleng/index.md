@@ -2,7 +2,7 @@
 UID: NA:certpoleng
 ms.assetid: 9c347ce6-c38e-347a-864d-d7b63c2f5d22
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

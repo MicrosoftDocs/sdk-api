@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Converts an array of run <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
+Converts an array of run <a href="uniscribe_glossary.htm">embedding levels</a> to a map of visual-to-logical position and/or logical-to-visual position.
 
 
 ## -parameters

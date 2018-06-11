@@ -2,7 +2,7 @@
 UID: NA:searchapi
 ms.assetid: 4d67e148-2232-3858-9367-1ba68f3ad28c
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

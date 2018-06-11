@@ -117,7 +117,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

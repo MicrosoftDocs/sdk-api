@@ -201,7 +201,7 @@ See <a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Wo
 Boolean that indicates (for component-mode operations) whether the component is selectable for restore. 
       <b>bSelectableForRestore</b> allows the requester to determine whether this component can be 
       individually selected for restore if it had earlier been 
-      <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-i">implicitly included</a> in the 
+      <a href="vssgloss_i.htm">implicitly included</a> in the 
       backup. The Boolean is <b>true</b> if the component is selectable for restore and 
       <b>false</b> if it is not.
       

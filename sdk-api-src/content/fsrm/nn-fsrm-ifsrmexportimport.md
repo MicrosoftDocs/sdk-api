@@ -53,7 +53,7 @@ req.product: Internet Explorer 5
 
 Used to export and import FSRM objects.
 <div class="alert"><b>Note</b>  This interface supports local use only. Remote operations are not supported.</div><div> </div>To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmExportImport</b> as the class identifier and 
     <code>__uuidof(IFsrmExportImport)</code> as the interface identifier. You must use the 
     <b>CLSCTX_INPROC_SERVER</b> class context to create the object.

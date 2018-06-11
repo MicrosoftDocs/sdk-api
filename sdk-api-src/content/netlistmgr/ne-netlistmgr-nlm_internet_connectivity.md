@@ -96,7 +96,7 @@ These connectivity flags can be retrieved by querying  for the <i>NA_InternetCon
 
 
 
-<a href="https://www.bing.com/search?q=IPropertyBag">IPropertyBag</a>
+<a href="com.ipropertybag">IPropertyBag</a>
  
 
  

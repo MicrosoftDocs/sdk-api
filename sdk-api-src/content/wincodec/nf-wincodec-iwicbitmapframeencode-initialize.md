@@ -61,7 +61,7 @@ Initializes the frame encoder using the given properties.
 
 ### -param pIEncoderOptions [in]
 
-Type: <b><a href="https://www.bing.com/search?q=IPropertyBag2">IPropertyBag2</a>*</b>
+Type: <b><a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a>*</b>
 
 The set of properties to use for <a href="https://msdn.microsoft.com/a8de774b-3783-46be-9a21-c9fec2f10ffd">IWICBitmapFrameEncode</a> initialization.
 
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If you don't want any encoding options, pass <b>NULL</b> for <i>pIEncoderOptions</i>. Otherwise, pass the <a href="https://www.bing.com/search?q=IPropertyBag2">IPropertyBag2</a> that was provided by <a href="https://msdn.microsoft.com/1c48f603-e7be-4b0c-a262-0dd01308e868">IWICBitmapEncoder::CreateNewFrame</a> with updated values.
+If you don't want any encoding options, pass <b>NULL</b> for <i>pIEncoderOptions</i>. Otherwise, pass the <a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a> that was provided by <a href="https://msdn.microsoft.com/1c48f603-e7be-4b0c-a262-0dd01308e868">IWICBitmapEncoder::CreateNewFrame</a> with updated values.
 
 
 For a complete list of encoding options supported by the Windows-provided codecs, see <a href="https://msdn.microsoft.com/8D3E4B3A-FA39-475C-B177-61FC81E5FFCC">Native WIC Codecs</a>. 

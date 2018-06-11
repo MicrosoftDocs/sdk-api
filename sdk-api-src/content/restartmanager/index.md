@@ -2,7 +2,7 @@
 UID: NA:restartmanager
 ms.assetid: 21f1e14b-0313-3382-ac2f-72157ee70414
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetEnableUDP</b> method queries whether <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">UDP</a> is enabled for protocol rollover.
+The <b>GetEnableUDP</b> method queries whether <a href="wmformat_glossary.htm">UDP</a> is enabled for protocol rollover.
 
 
 

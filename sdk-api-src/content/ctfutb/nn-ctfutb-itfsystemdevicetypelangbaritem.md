@@ -107,7 +107,7 @@ Support for this interface is optional and must not be assumed.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -137,7 +137,7 @@ Provides thread safety by indicating the end of a data write operation when the 
 <a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Provides thread safety by indicating the end of a data write operation when the 
 <a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Provides thread safety by indicating the end of a data read operation when the p
 
 Provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework.
 
-Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero.
 
  
 

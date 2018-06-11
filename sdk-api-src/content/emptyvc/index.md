@@ -2,7 +2,7 @@
 UID: NA:emptyvc
 ms.assetid: dc9171a7-acf9-3e6d-b584-9fdbd2cebd74
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

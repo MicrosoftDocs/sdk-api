@@ -2,7 +2,7 @@
 UID: TP:xaml_diagnostics
 ms.assetid: 9fd3de2c-6dbc-307e-b52e-afb4af9c54d0
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,10 +72,6 @@ For the programming guide, see [XAML Diagnostics](/previous-versions/windows/des
 | [IBitmapData::GetBitmapDescription](..\xamlom\nf-xamlom-ibitmapdata-getbitmapdescription.md) | Gets a BitmapDescription that describes the bitmap data stored in the IBitmapData. |
 | [IBitmapData::GetSourceBitmapDescription](..\xamlom\nf-xamlom-ibitmapdata-getsourcebitmapdescription.md) | Gets a BitmapDescription that describes the original format of the bitmap data stored in the IBitmapData. |
 | [IBitmapData::GetStride](..\xamlom\nf-xamlom-ibitmapdata-getstride.md) | Gets the stride of the data. This is the length in bytes of each row of the bitmap. |
-| [IVisualTreeService2::GetPropertyIndex](..\xamlom\nf-xamlom-ivisualtreeservice2-getpropertyindex.md) | Gets the property index for the specified property name. |
-| [IVisualTreeService2::GetProperty](..\xamlom\nf-xamlom-ivisualtreeservice2-getproperty.md) | Gets the effective value of the specified dependency property. |
-| [IVisualTreeService2::RenderTargetBitmap](..\xamlom\nf-xamlom-ivisualtreeservice2-rendertargetbitmap.md) | Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image. |
-| [IVisualTreeService2::ReplaceResource](..\xamlom\nf-xamlom-ivisualtreeservice2-replaceresource.md) | Replaces an existing resource with a new one of the same type. |
 | [IVisualTreeService3::AddDictionaryItem](..\xamlom\nf-xamlom-ivisualtreeservice3-adddictionaryitem.md) | Adds an item to a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key. |
 | [IVisualTreeService3::GetDictionaryItem](..\xamlom\nf-xamlom-ivisualtreeservice3-getdictionaryitem.md) | Gets an item from a ResourceDictionary. |
 | [IVisualTreeService3::RemoveDictionaryItem](..\xamlom\nf-xamlom-ivisualtreeservice3-removedictionaryitem.md) | Removes an item from a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key. |
@@ -92,7 +88,6 @@ For the programming guide, see [XAML Diagnostics](/previous-versions/windows/des
 | [IVisualTreeService::RemoveChild](..\xamlom\nf-xamlom-ivisualtreeservice-removechild.md) | Removes the child element from the specified index. |
 | [IVisualTreeService::SetProperty](..\xamlom\nf-xamlom-ivisualtreeservice-setproperty.md) | Sets a property value on a XAML element. |
 | [IVisualTreeService::UnadviseVisualTreeChange](..\xamlom\nf-xamlom-ivisualtreeservice-unadvisevisualtreechange.md) | Stops listening for changes to the visual tree. |
-| [IVisualTreeServiceCallback2::OnElementStateChanged](..\xamlom\nf-xamlom-ivisualtreeservicecallback2-onelementstatechanged.md) | Communicates the state of an element in the visual tree when it changes. |
 | [IVisualTreeServiceCallback::OnVisualTreeChange](..\xamlom\nf-xamlom-ivisualtreeservicecallback-onvisualtreechange.md) | Communicates the state of the visual tree when it changes. |
 | [IXamlDiagnostics::GetApplication](..\xamlom\nf-xamlom-ixamldiagnostics-getapplication.md) | Gets an instance of the application. |
 | [IXamlDiagnostics::GetDispatcher](..\xamlom\nf-xamlom-ixamldiagnostics-getdispatcher.md) | Gets the core dispatcher used to access elements on the UI thread. |

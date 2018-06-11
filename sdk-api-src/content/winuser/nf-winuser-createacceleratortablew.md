@@ -111,7 +111,7 @@ Before an application closes, it can use the <a href="https://msdn.microsoft.com
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editable+Accelerators">Creating User Editable Accelerators</a>.
+For an example, see <a href="using_keyboard_accelerators.htm">Creating User Editable Accelerators</a>.
 
 <div class="code"></div>
 

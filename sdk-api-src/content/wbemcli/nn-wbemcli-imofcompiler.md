@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 
 The 
-<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="https://www.bing.com/search?q=Managed+Object+Format">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
+<b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="gloss_m.htm">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
 
 
 ## -inheritance

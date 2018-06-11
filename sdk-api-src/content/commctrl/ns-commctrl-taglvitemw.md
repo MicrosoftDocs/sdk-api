@@ -206,11 +206,11 @@ Bits 0 through 7 of this member contain the item state flags. This can be one or
 
 
 
-Bits 8 through 11 of this member specify the one-based overlay image index. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="https://www.bing.com/search?q=LVIS_OVERLAYMASK">LVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, you should use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList_SetOverlayImage</a> function.
+Bits 8 through 11 of this member specify the one-based overlay image index. Both the full-sized icon image list and the small icon image list can have overlay images. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, you should use the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList_SetOverlayImage</a> function.
 
 
 
-Bits 12 through 15 of this member specify the state image index. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="https://www.bing.com/search?q=LVIS_STATEIMAGEMASK">LVIS_STATEIMAGEMASK</a> mask. To set the state image index, use the <a href="https://msdn.microsoft.com/ee66268e-7815-4f63-a6dc-5819406d443c">INDEXTOSTATEIMAGEMASK</a> macro. The state image index specifies the index of the image in the state image list that should be drawn. The state image list is specified with the <a href="https://msdn.microsoft.com/5241065b-85e4-412e-9868-fd5b15ff7c17">LVM_SETIMAGELIST</a> message.
+Bits 12 through 15 of this member specify the state image index. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="List_view_item_states.htm">LVIS_STATEIMAGEMASK</a> mask. To set the state image index, use the <a href="https://msdn.microsoft.com/ee66268e-7815-4f63-a6dc-5819406d443c">INDEXTOSTATEIMAGEMASK</a> macro. The state image index specifies the index of the image in the state image list that should be drawn. The state image list is specified with the <a href="https://msdn.microsoft.com/5241065b-85e4-412e-9868-fd5b15ff7c17">LVM_SETIMAGELIST</a> message.
 
 
 ### -field stateMask
@@ -218,7 +218,7 @@ Bits 12 through 15 of this member specify the state image index. The state image
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Value specifying which bits of the 
-					<b>state</b> member will be retrieved or modified. For example, setting this member to <a href="https://www.bing.com/search?q=LVIS_SELECTED">LVIS_SELECTED</a> will cause only the item's selection state to be retrieved. 
+					<b>state</b> member will be retrieved or modified. For example, setting this member to <a href="List_view_item_states.htm">LVIS_SELECTED</a> will cause only the item's selection state to be retrieved. 
 
 
 
@@ -245,11 +245,11 @@ If the structure receives item attributes, <b>pszText</b> is a pointer to a buff
 
 
 
-If the value of  <b>pszText</b> is LPSTR_TEXTCALLBACK, the item is a <a href="https://www.bing.com/search?q=callback+item">callback item</a>. If the callback text changes, you must explicitly set <b>pszText</b> to LPSTR_TEXTCALLBACK and notify the list-view control of the change by sending an <a href="https://msdn.microsoft.com/f1189b5d-bce7-4569-b4b9-bd750d7ef505">LVM_SETITEM</a> or <a href="https://msdn.microsoft.com/1a9c7e4d-78e0-44c7-bf4f-d0fc7a0049f3">LVM_SETITEMTEXT</a> message.
+If the value of  <b>pszText</b> is LPSTR_TEXTCALLBACK, the item is a <a href="List_View_Controls_Overview.htm">callback item</a>. If the callback text changes, you must explicitly set <b>pszText</b> to LPSTR_TEXTCALLBACK and notify the list-view control of the change by sending an <a href="https://msdn.microsoft.com/f1189b5d-bce7-4569-b4b9-bd750d7ef505">LVM_SETITEM</a> or <a href="https://msdn.microsoft.com/1a9c7e4d-78e0-44c7-bf4f-d0fc7a0049f3">LVM_SETITEMTEXT</a> message.
 
 
 
-Do not set <b>pszText</b> to LPSTR_TEXTCALLBACK if the list-view control has the <a href="https://www.bing.com/search?q=LVS_SORTASCENDING">LVS_SORTASCENDING</a> or <a href="https://www.bing.com/search?q=LVS_SORTDESCENDING">LVS_SORTDESCENDING</a> style.
+Do not set <b>pszText</b> to LPSTR_TEXTCALLBACK if the list-view control has the <a href="List_view_window_styles.htm">LVS_SORTASCENDING</a> or <a href="List_view_window_styles.htm">LVS_SORTDESCENDING</a> style.
 
 
 ### -field cchTextMax

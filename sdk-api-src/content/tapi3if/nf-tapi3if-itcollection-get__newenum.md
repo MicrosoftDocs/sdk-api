@@ -63,14 +63,14 @@ The
 ### -param ppNewEnum [out]
 
 Pointer to an 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface on an enumerator object for the collection. 
+<a href="_com_iunknown">IUnknown</a> interface on an enumerator object for the collection. 
 
 
 
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
+<a href="_com_iunknown_queryinterface">QueryInterface</a> method on the returned <b>IUnknown</b> interface to obtain a pointer to an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration interface on the collection. <b>IEnumVARIANT</b> provides a number of methods that you can use to iterate through the collection.
 
 For more information, see the following Remarks section.
 

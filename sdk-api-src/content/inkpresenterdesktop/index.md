@@ -2,7 +2,7 @@
 UID: NA:inkpresenterdesktop
 ms.assetid: 45556f03-b45f-35f6-aed6-0c56c4bda63f
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

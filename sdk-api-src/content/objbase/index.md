@@ -2,7 +2,7 @@
 UID: NA:objbase
 ms.assetid: 4d81bebc-45a5-3d01-849c-a243151bf551
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

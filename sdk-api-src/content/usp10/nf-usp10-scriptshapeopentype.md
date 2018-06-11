@@ -91,7 +91,7 @@ An <a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPE
 
 ### -param rcRangeChars [in, optional]
 
-Array of characters in each <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">range</a>. The number of array elements is indicated by <i>cRanges</i>. The values of the elements of this array add up to the value of <i>cChars</i>.
+Array of characters in each <a href="uniscribe_glossary.htm">range</a>. The number of array elements is indicated by <i>cRanges</i>. The values of the elements of this array add up to the value of <i>cChars</i>.
 
 
 ### -param rpRangeProperties [in, optional]

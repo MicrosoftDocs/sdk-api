@@ -53,9 +53,9 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Provides the methods for enumerating the tasks in the <a href="https://www.bing.com/search?q=Scheduled+Tasks+folder">Scheduled Tasks folder</a>.
+Provides the methods for enumerating the tasks in the <a href="s.htm">Scheduled Tasks folder</a>.
 
-<b>IEnumWorkItems</b> is the primary interface of the <a href="https://www.bing.com/search?q=enumeration+object">enumeration object</a>. To create the enumeration, call 
+<b>IEnumWorkItems</b> is the primary interface of the <a href="e.htm">enumeration object</a>. To create the enumeration, call 
 <a href="https://msdn.microsoft.com/aca750e3-89b0-47f2-a9b9-49fe5db7f234">ITaskScheduler::Enum</a>.
 
 

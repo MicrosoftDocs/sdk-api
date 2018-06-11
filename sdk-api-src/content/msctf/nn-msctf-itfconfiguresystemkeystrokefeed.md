@@ -100,7 +100,7 @@ Enables the TSF manager to process keystrokes after being disabled by DisableSys
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

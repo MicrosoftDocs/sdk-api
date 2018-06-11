@@ -2,7 +2,7 @@
 UID: NA:ntenclv
 ms.assetid: b2e599c7-4416-36bb-a6eb-5713361ecab0
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

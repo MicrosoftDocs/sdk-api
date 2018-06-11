@@ -2,7 +2,7 @@
 UID: NA:loadperf
 ms.assetid: f0322b8e-3b6d-33fb-a951-03f5bdca629b
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

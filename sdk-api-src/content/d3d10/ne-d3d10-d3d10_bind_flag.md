@@ -70,12 +70,12 @@ Bind a buffer as an <a href="https://msdn.microsoft.com/library/windows/hardware
 
 ### -field D3D10_BIND_CONSTANT_BUFFER
 
-Bind a buffer as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">constant buffer</a> to a <a href="https://www.bing.com/search?q=shader+stage">shader stage</a>; this flag may NOT be combined with any other bind flag.
+Bind a buffer as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">constant buffer</a> to a <a href="direct3d11.d3d10_graphics_programming_guide_shader_stages">shader stage</a>; this flag may NOT be combined with any other bind flag.
 
 
 ### -field D3D10_BIND_SHADER_RESOURCE
 
-Bind a buffer or texture to a <a href="https://www.bing.com/search?q=shader+stage">shader stage</a>; this flag cannot be used with the <a href="https://msdn.microsoft.com/6a8e10cf-2cab-41f0-ba43-afa6854477ff">D3D10_MAP_WRITE_NO_OVERWRITE</a> flag.
+Bind a buffer or texture to a <a href="direct3d11.d3d10_graphics_programming_guide_shader_stages">shader stage</a>; this flag cannot be used with the <a href="https://msdn.microsoft.com/6a8e10cf-2cab-41f0-ba43-afa6854477ff">D3D10_MAP_WRITE_NO_OVERWRITE</a> flag.
 
 
 ### -field D3D10_BIND_STREAM_OUTPUT

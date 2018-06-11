@@ -84,7 +84,7 @@ The number of characters in <i>bstr</i>, not including the terminating null char
 
 
 
-The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen.md">SysAllocStringLen</a> function used to allocate the BSTR.
+The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the <a href="F98BFF39-BC5F-4A81-85D7-D5228E20FBC8">SysAllocStringLen</a> function used to allocate the BSTR.
 
 
 

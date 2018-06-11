@@ -2,7 +2,7 @@
 UID: NA:objidl
 ms.assetid: 61129341-18f7-3ab8-95b4-b450e7060c31
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

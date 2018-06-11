@@ -61,7 +61,7 @@ Notification method indicating that a device service <b>CommandSessionOpen</b> r
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object on which the <b>CommandSessionOpen</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>CommandSessionOpen</b> was requested.
 
 
 ### -param status [in]

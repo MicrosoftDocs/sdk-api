@@ -156,7 +156,7 @@ A language bar bitmap button functions as a button item on the language bar that
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

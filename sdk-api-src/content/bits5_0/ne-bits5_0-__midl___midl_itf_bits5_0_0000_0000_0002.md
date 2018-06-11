@@ -64,7 +64,7 @@ The <b>BITS_JOB_PROPERTY_ID</b> enumeration specifies the
 ### -field BITS_JOB_PROPERTY_ID_COST_FLAGS
 
 The ID that is used to 
-      <a href="/windows/desktop/api/bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001">control transfer behavior</a> over cellular and/or 
+      <a href="bits_job_transfer_policy.htm">control transfer behavior</a> over cellular and/or 
       similar networks. This property may be changed while a transfer is ongoing – the new cost flags will take effect immediately. 
 
 

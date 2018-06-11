@@ -65,11 +65,11 @@ Type: <b>long</b>
 
 The new horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignLeft</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignLeft</a>
 
-<p class="indent"><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignCenter</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignCenter</a>
 
-<p class="indent"><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignRight</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignRight</a>
 
 
 ## -returns

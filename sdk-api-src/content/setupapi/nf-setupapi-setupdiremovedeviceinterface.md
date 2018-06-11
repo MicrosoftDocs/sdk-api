@@ -61,7 +61,7 @@ The <b>SetupDiRemoveDeviceInterface</b> function removes a registered device int
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
 
 
 ### -param DeviceInterfaceData [in, out]

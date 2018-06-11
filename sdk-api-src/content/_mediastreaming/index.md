@@ -2,7 +2,7 @@
 UID: TP:mediastreaming
 ms.assetid: 657c5a21-72d5-3f12-a0eb-79444b5e3ef4
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

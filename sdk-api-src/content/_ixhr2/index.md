@@ -2,7 +2,7 @@
 UID: TP:ixhr2
 ms.assetid: 1bcd6a5a-1ca6-357d-9684-cbdeef45fb68
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,6 +69,5 @@ For the programming guide, see [XML HTTP Extended Request](/previous-versions/wi
 | [IXMLHTTPRequest2Callback::OnHeadersAvailable](..\msxml6\nf-msxml6-ixmlhttprequest2callback-onheadersavailable.md) | Occurs after an HTTP request has been sent to the server and the server has responded with response headers. |
 | [IXMLHTTPRequest2Callback::OnRedirect](..\msxml6\nf-msxml6-ixmlhttprequest2callback-onredirect.md) | Occurs when a client sends an HTTP request that the server redirects to a new URL. |
 | [IXMLHTTPRequest2Callback::OnResponseReceived](..\msxml6\nf-msxml6-ixmlhttprequest2callback-onresponsereceived.md) | Occurs when a client has received a complete response from the server. |
-| [IXMLHTTPRequest3::SetClientCertificate](..\msxml6\nf-msxml6-ixmlhttprequest3-setclientcertificate.md) | Sets a client certificate to be used to authenticate against the URL specified in the Open method. |
 | [IXMLHTTPRequest3Callback::OnClientCertificateRequested](..\msxml6\nf-msxml6-ixmlhttprequest3callback-onclientcertificaterequested.md) | Occurs when a client receives a request for a client certificate during SSL negotiation with the server. |
 | [IXMLHTTPRequest3Callback::OnServerCertificateReceived](..\msxml6\nf-msxml6-ixmlhttprequest3callback-onservercertificatereceived.md) | Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server. |

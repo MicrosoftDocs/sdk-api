@@ -72,7 +72,7 @@ Handle to an instance of a module whose executable file contains a bitmap resour
 Type: <b>const WCHAR*</b>
 
 Pointer to a null-terminated string that specifies the path name of the bitmap resource to be loaded. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. You can use the 
-					<a href="https://www.bing.com/search?q=MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro to create this value. 
+					<a href="_win32_makeintresource">MAKEINTRESOURCE</a> macro to create this value. 
 
 
 ## -returns

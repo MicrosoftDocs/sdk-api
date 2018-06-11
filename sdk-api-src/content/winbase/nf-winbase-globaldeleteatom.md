@@ -95,7 +95,7 @@ Each call to <a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9cca
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Initiating+a+Conversation">Initiating a Conversation</a>.
+For an example, see <a href="using_dynamic_data_exchange.htm">Initiating a Conversation</a>.
 
 <div class="code"></div>
 

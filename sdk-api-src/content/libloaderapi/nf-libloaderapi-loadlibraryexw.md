@@ -395,8 +395,8 @@ You select these optional behaviors by setting the <i>dwFlags</i> parameter; if
 The calling process can use the handle returned by 
     <b>LoadLibraryEx</b> to identify the module in calls to the 
     <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, 
-    <a href="https://www.bing.com/search?q=FindResource">FindResource</a>, and 
-    <a href="https://www.bing.com/search?q=LoadResource">LoadResource</a> functions.
+    <a href="_win32_findresource_cpp">FindResource</a>, and 
+    <a href="_win32_loadresource_cpp">LoadResource</a> functions.
 
 To enable or disable error messages displayed by the loader during DLL loads, use the 
     <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function.
@@ -649,7 +649,7 @@ For an example, see
 
 
 
-<a href="https://www.bing.com/search?q=FindResource">FindResource</a>
+<a href="_win32_findresource_cpp">FindResource</a>
 
 
 
@@ -673,7 +673,7 @@ For an example, see
 
 
 
-<a href="https://www.bing.com/search?q=LoadResource">LoadResource</a>
+<a href="_win32_loadresource_cpp">LoadResource</a>
 
 
 

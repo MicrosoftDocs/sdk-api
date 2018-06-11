@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Represents a factory that can instantiate a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object in a Windows Store app.
+Represents a factory that can instantiate a WPD Automation <a href="wpdauto.device_object_script">Device</a> object in a Windows Store app.
 
 
 ## -inheritance
@@ -74,7 +74,7 @@ The <b>IPortableDeviceWebControl</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ba375082-3f4f-44d7-96d3-bf8151408b9e">GetDeviceFromId</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Dev
 <a href="https://msdn.microsoft.com/a53e4a15-4f51-43e7-84c7-4c75be87e3d9">GetDeviceFromIdAsync</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object asynchronously for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object asynchronously for a given WPD device identifier.
 
 </td>
 </tr>

@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_FILETIME propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,15 +131,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
+<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromFileTimeArray">InitVariantFromFileTimeArray</a>
+<a href="shell.InitVariantFromFileTimeArray">InitVariantFromFileTimeArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
+<a href="shell.PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
  
 
  

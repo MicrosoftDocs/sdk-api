@@ -90,7 +90,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 Hiding is cumulative. If your application calls <b>HideCaret</b> five times in a row, it must also call <a href="https://msdn.microsoft.com/1a3a141e-9b5a-495a-8138-b9522933499f">ShowCaret</a> five times before the caret is displayed. 
 
-For an example, see <a href="https://www.bing.com/search?q=Hiding+a+Caret">Hiding a Caret</a>.
+For an example, see <a href="using_carets.htm">Hiding a Caret</a>.
 
 
 

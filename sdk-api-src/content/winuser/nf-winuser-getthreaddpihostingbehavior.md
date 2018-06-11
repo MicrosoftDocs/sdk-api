@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves the <a href="https://www.bing.com/search?q=DPI_HOSTING_BEHAVIOR">DPI_HOSTING_BEHAVIOR</a> from the current thread.
+Retrieves the <a href="hidpi._dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> from the current thread.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Retrieves the <a href="https://www.bing.com/search?q=DPI_HOSTING_BEHAVIOR">DPI_H
 
 
 
-The <a href="https://www.bing.com/search?q=DPI_HOSTING_BEHAVIOR">DPI_HOSTING_BEHAVIOR</a> of the current thread.
+The <a href="hidpi._dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> of the current thread.
 
 
 
@@ -74,7 +74,7 @@ The <a href="https://www.bing.com/search?q=DPI_HOSTING_BEHAVIOR">DPI_HOSTING_BEH
 
 
 
-This API returns the hosting behavior set by an earlier call of  <a href="https://www.bing.com/search?q=SetThreadDpiHostingBehavior">SetThreadDpiHostingBehavior</a>, or <b>DPI_HOSTING_BEHAVIOR_DEFAULT</b> if no earlier call has been made.
+This API returns the hosting behavior set by an earlier call of  <a href="hidpi.setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a>, or <b>DPI_HOSTING_BEHAVIOR_DEFAULT</b> if no earlier call has been made.
 
 
 
@@ -84,15 +84,15 @@ This API returns the hosting behavior set by an earlier call of  <a href="https:
 
 
 
-<a href="https://www.bing.com/search?q=DPI_HOSTING_BEHAVIOR">DPI_HOSTING_BEHAVIOR</a>
+<a href="hidpi._dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a>
 
 
 
-<a href="https://www.bing.com/search?q=GetWindowDpiHostingBehavior">GetWindowDpiHostingBehavior</a>
+<a href="hidpi.getwindowdpihostingbehavior">GetWindowDpiHostingBehavior</a>
 
 
 
-<a href="https://www.bing.com/search?q=SetThreadDpiHostingBehavior">SetThreadDpiHostingBehavior</a>
+<a href="hidpi.setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a>
  
 
  

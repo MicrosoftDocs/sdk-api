@@ -91,7 +91,7 @@ Target adapter format. Member of the <a href="https://msdn.microsoft.com/a222e3b
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value is D3DERR_INVALIDCALL.
  The method will return D3DERR_NOTAVAILABLE when the hardware does not support conversion between the two formats.

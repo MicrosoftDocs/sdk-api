@@ -186,7 +186,7 @@ The <b>LOADPARMS32</b> structure has the following form:
 <td>Pointer to a structure containing two <b>WORD</b> values. The first value must always be set to two. The second value specifies how the application window is to be shown and is used to supply the <b>wShowWindow</b> member of the 
 <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure to the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
-<a href="https://www.bing.com/search?q=ShowWindow">ShowWindow</a> function for a list of acceptable values.</td>
+<a href="_win32_showwindow_cpp">ShowWindow</a> function for a list of acceptable values.</td>
 </tr>
 <tr>
 <td><b>dwReserved</b></td>

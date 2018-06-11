@@ -73,7 +73,7 @@ Places data on the clipboard in a specified clipboard format. The window must be
 
 Type: <b>UINT</b>
 
-The clipboard format. This parameter can be a registered format or any of the standard clipboard formats. For more information, see <a href="https://msdn.microsoft.com/f0af4e61-7ef1-4263-b2c5-e4114515124f">Standard Clipboard Formats</a> and <a href="https://www.bing.com/search?q=Registered+Clipboard+Formats">Registered Clipboard Formats</a>.
+The clipboard format. This parameter can be a registered format or any of the standard clipboard formats. For more information, see <a href="https://msdn.microsoft.com/f0af4e61-7ef1-4263-b2c5-e4114515124f">Standard Clipboard Formats</a> and <a href="clipboard_formats.htm">Registered Clipboard Formats</a>.
 
 
 ### -param hMem [in, optional]
@@ -108,12 +108,12 @@ If an application calls <b>SetClipboardData</b> in response to <a href="https://
 
 If an application calls <a href="https://msdn.microsoft.com/494e4e6f-6d82-45cc-8c0b-f8c54056bc5f">OpenClipboard</a> with hwnd set to <b>NULL</b>, <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> sets the clipboard owner to <b>NULL</b>; this causes <b>SetClipboardData</b> to fail.
 
-The system performs implicit data format conversions between certain clipboard formats when an application calls the <a href="https://msdn.microsoft.com/5c2adab4-1e13-41a6-9ab9-6ae8a2a2d9f3">GetClipboardData</a> function. For example, if the <b>CF_OEMTEXT</b> format is on the clipboard, a window can retrieve data in the <b>CF_TEXT</b> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="https://www.bing.com/search?q=Synthesized+Clipboard+Formats">Synthesized Clipboard Formats</a>.
+The system performs implicit data format conversions between certain clipboard formats when an application calls the <a href="https://msdn.microsoft.com/5c2adab4-1e13-41a6-9ab9-6ae8a2a2d9f3">GetClipboardData</a> function. For example, if the <b>CF_OEMTEXT</b> format is on the clipboard, a window can retrieve data in the <b>CF_TEXT</b> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="clipboard_formats.htm">Synthesized Clipboard Formats</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Copying+Information+to+the+Clipboard">Copying Information to the Clipboard</a>.
+For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 

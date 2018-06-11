@@ -52,7 +52,7 @@ req.irql:
 
 Contains 
     information relevant to 
-    <a href="https://www.bing.com/search?q=storage+class+resources">storage class resources</a>. It is used as an 
+    <a href="s_gly.htm">storage class resources</a>. It is used as an 
     entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of:
 <ul>
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing the format, 

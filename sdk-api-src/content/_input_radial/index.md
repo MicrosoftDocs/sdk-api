@@ -2,7 +2,7 @@
 UID: TP:input_radial
 ms.assetid: 3b040a71-85bd-31c0-932b-26b46f58738e
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

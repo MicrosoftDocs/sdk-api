@@ -1,9 +1,6 @@
 {
   "tech": "ifsk",
   "headers": [
-    "wdm.h",
-    "ntifs.h",
-    "ntddk.h",
     "ntdef.h",
     "fltuser.h"
   ],

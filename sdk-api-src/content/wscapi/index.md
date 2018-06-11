@@ -2,7 +2,7 @@
 UID: NA:wscapi
 ms.assetid: 9bb7e037-d8a3-31ab-ad51-cdc6531e5b47
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

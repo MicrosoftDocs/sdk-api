@@ -2,7 +2,7 @@
 UID: TP:direct3d12
 ms.assetid: 7a701202-f29f-3d16-a1f3-84c2485de6f5
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -482,7 +482,6 @@ For the programming guide, see [Direct3D 12 Graphics](/windows/desktop/direct3d1
 | [ID3D12GraphicsCommandList::SetMarker](..\d3d12\nf-d3d12-id3d12graphicscommandlist-setmarker.md) | Not intended to be called directly.  Use the PIX event runtime to insert events into a command list. |
 | [ID3D12GraphicsCommandList::SetPipelineState](..\d3d12\nf-d3d12-id3d12graphicscommandlist-setpipelinestate.md) | Sets all shaders and programs most of the fixed-function state of the graphics processing unit (GPU) pipeline. |
 | [ID3D12GraphicsCommandList::SetPredication](..\d3d12\nf-d3d12-id3d12graphicscommandlist-setpredication.md) | Sets a rendering predicate. |
-| [ID3D12Heap::GetDesc](..\d3d12\nf-d3d12-id3d12heap-getdesc.md) | Gets the heap description. |
 | [ID3D12InfoQueue::AddApplicationMessage](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12infoqueue-addapplicationmessage.md) | Adds a user-defined message to the message queue and sends that message to debug output. |
 | [ID3D12InfoQueue::AddMessage](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12infoqueue-addmessage.md) | Adds a debug message to the message queue and sends that message to debug output. |
 | [ID3D12InfoQueue::AddRetrievalFilterEntries](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12infoqueue-addretrievalfilterentries.md) | Add storage filters to the top of the retrieval-filter stack. |
@@ -531,7 +530,6 @@ For the programming guide, see [Direct3D 12 Graphics](/windows/desktop/direct3d1
 | [ID3D12PipelineLibrary::Serialize](..\d3d12\nf-d3d12-id3d12pipelinelibrary-serialize.md) | Writes the contents of the library to the provided memory, to be provided back to the runtime at a later time. |
 | [ID3D12PipelineLibrary::StorePipeline](..\d3d12\nf-d3d12-id3d12pipelinelibrary-storepipeline.md) | Adds the input PSO to an internal database with the corresponding name. |
 | [ID3D12PipelineState::GetCachedBlob](..\d3d12\nf-d3d12-id3d12pipelinestate-getcachedblob.md) | Gets the cached blob representing the pipeline state. |
-| [ID3D12Resource::GetDesc](..\d3d12\nf-d3d12-id3d12resource-getdesc.md) | Gets the resource description. |
 | [ID3D12Resource::GetGPUVirtualAddress](..\d3d12\nf-d3d12-id3d12resource-getgpuvirtualaddress.md) | This method returns the GPU virtual address of a buffer resource. |
 | [ID3D12Resource::GetHeapProperties](..\d3d12\nf-d3d12-id3d12resource-getheapproperties.md) | Retrieves the properties of the resource heap, for placed and committed resources. |
 | [ID3D12Resource::Map](..\d3d12\nf-d3d12-id3d12resource-map.md) | Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. Map also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU. |

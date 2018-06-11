@@ -2,7 +2,7 @@
 UID: NA:adtgen
 ms.assetid: 34f94bb0-5e38-341f-9897-8abff9bfdbe0
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

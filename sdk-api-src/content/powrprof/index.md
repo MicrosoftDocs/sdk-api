@@ -2,7 +2,7 @@
 UID: NA:powrprof
 ms.assetid: 3c12841e-131b-3ade-ba75-d4846154dc3f
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
