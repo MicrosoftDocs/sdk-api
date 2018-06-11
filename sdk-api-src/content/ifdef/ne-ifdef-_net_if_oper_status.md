@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 The NET_IF_OPER_STATUS enumeration type defines the current 
-  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> operational
+  <a href="https://www.bing.com/search?q=NDIS+network+interface">NDIS network interface</a> operational
   status.
 
 

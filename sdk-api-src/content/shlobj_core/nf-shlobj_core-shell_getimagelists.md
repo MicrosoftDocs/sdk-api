@@ -102,7 +102,7 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<a href="_win32_Image_Lists">Image Lists</a>
+<a href="https://www.bing.com/search?q=Image+Lists">Image Lists</a>
 
 
 

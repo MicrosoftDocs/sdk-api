@@ -93,12 +93,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <li><b>BMP</b>Setting color contexts is unsupported. This function will return <b>WINCODEC_ERR_UNSUPPORTEDOPERATION</b>.
 
 </li>
-<li><b>PNG</b>Setting at most one color context is supported, and additional color contexts will be ignored. This context must be a <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a>, and is used to encode the iCCP, gAMA, and cHRM chunks in the PNG file.
+<li><b>PNG</b>Setting at most one color context is supported, and additional color contexts will be ignored. This context must be a <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a>, and is used to encode the iCCP, gAMA, and cHRM chunks in the PNG file.
 
 </li>
-<li><b>JPEG, TIFF, JPEG-XR</b>Setting up to one <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a> and one  <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextExifColorSpace</a> is supported. Users must not provide more than one of each type of color context, as all but the last context of each type will be ignored. In JPEG, the <b>WICColorContextProfile</b> is encoded to JPEG APP2 ICC metadata block.
+<li><b>JPEG, TIFF, JPEG-XR</b>Setting up to one <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a> and one  <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextExifColorSpace</a> is supported. Users must not provide more than one of each type of color context, as all but the last context of each type will be ignored. In JPEG, the <b>WICColorContextProfile</b> is encoded to JPEG APP2 ICC metadata block.
 
-In TIFF and JPEG-XR, the  <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextProfile</a> is encoded to the IFD ICC profile metadata block (IFD tag 0x8773). In all three formats, the <a href="_wic_codec_wiccolorcontexttype.htm">WICColorContextExifColorSpace</a> is encoded to EXIF colorspace metadata block (EXIF tag 0xA001).
+In TIFF and JPEG-XR, the  <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextProfile</a> is encoded to the IFD ICC profile metadata block (IFD tag 0x8773). In all three formats, the <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextExifColorSpace</a> is encoded to EXIF colorspace metadata block (EXIF tag 0xA001).
 
 
 </li>

@@ -61,7 +61,7 @@ The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> to query.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> to query.
 
 
 ### -param ClassGuid [out]

@@ -96,19 +96,19 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="shell.InitVariantFromString">InitVariantFromString</a>
+<a href="https://www.bing.com/search?q=InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="https://www.bing.com/search?q=PropVariantToStringVector">PropVariantToStringVector</a>
  
 
  

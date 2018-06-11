@@ -313,7 +313,7 @@ The path to the log file location must already exist when using this function. T
 
 
 
-<a href="installer_function_reference.htm">Interface and Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/installer-function-reference">Interface and Logging Functions</a>
 
 
 

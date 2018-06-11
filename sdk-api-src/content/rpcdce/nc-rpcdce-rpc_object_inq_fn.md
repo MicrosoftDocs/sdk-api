@@ -63,7 +63,7 @@ The
 ### -param *ObjectUuid
 
 Pointer to the variable that specifies the object 
-<a href="midl.uuid">UUID</a> that is to be mapped to a type UUID.
+<a href="https://www.bing.com/search?q=UUID">UUID</a> that is to be mapped to a type UUID.
 
 
 ### -param *TypeUuid

@@ -90,7 +90,7 @@ A handle to a list-view control.
 
 
 
-A list-view control uses hot tracking and hover selection when the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a> style is set. 
+A list-view control uses hot tracking and hover selection when the <a href="https://www.bing.com/search?q=LVS_EX_TRACKSELECT">LVS_EX_TRACKSELECT</a> style is set. 
 
 
 

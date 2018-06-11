@@ -129,7 +129,7 @@ When you have finished using the OID information, unregister it by calling the <
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

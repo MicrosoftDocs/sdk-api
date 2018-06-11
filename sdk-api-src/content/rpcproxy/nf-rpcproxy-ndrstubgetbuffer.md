@@ -88,11 +88,11 @@ This function has no return value. Throws an exception upon error.
 
 
 
-<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer.md">IRpcChannelBuffer</a>
 
 
 
-<a href="_com_irpcstubbuffer">IRpcStubBuffer</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer.md">IRpcStubBuffer</a>
  
 
  

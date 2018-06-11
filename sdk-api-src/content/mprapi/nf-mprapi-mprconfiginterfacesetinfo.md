@@ -177,7 +177,7 @@ The interface that corresponds to <i>hRouterInterface</i> is not present in the 
 </td>
 <td width="60%">
 Use 
-<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ The
 
 
 
-<a href="_win32_formatmessage">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 

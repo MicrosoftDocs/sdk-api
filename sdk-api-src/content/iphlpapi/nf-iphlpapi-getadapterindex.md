@@ -118,11 +118,11 @@ When one or more adapters are present on the system, <b>GetAdapterIndex</b>  ret
 
 
 
-<a href="_mpr_mprconfiggetfriendlyname">MprConfigGetFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiggetfriendlyname">MprConfigGetFriendlyName</a>
 
 
 
-<a href="_mpr_mprconfiggetguidname">MprConfigGetGuidName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiggetguidname">MprConfigGetGuidName</a>
 
 
 

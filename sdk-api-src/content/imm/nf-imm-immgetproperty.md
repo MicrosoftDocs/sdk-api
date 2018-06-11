@@ -196,7 +196,7 @@ Returns the property or capability value, depending on the value of the <i>dwInd
 <tr>
 <td>IME_PROP_ACCEPT_WIDE_VKEY</td>
 <td>
-                  If set, the IME processes the injected Unicode that came from the <a href="_win32_sendinput_cpp">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
+                  If set, the IME processes the injected Unicode that came from the <a href="https://www.bing.com/search?q=SendInput">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
 </tr>
 </table>
  

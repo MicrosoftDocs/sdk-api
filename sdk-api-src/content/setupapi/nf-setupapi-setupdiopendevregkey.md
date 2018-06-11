@@ -62,7 +62,7 @@ The <b>SetupDiOpenDevRegKey</b> function opens a registry key for device-specifi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to open a registry key.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device information element that represents the device for which to open a registry key.
 
 
 ### -param DeviceInfoData [in]
@@ -126,7 +126,7 @@ Open a <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23"
 
 Open a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> for the device. 
 
-For more information about a device's hardware and software keys, see <a href="devinst.registry_trees_and_keys">Registry Trees and Keys for Devices and Drivers</a>.
+For more information about a device's hardware and software keys, see <a href="https://www.bing.com/search?q=Registry+Trees+and+Keys+for+Devices+and+Drivers">Registry Trees and Keys for Devices and Drivers</a>.
 
 
 ### -param samDesired [in]

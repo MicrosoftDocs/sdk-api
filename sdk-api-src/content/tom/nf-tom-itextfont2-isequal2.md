@@ -70,7 +70,7 @@ The text font object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="About_Rich_Edit_Controls.htm">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
+A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that is <b>tomTrue</b> if the font objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
  For two text font objects to be equal, both must belong to the same Text Object Model (TOM) object. 
 
-The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="tomconstants.htm">tomUndefined</a> value.
+The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUndefined</a> value.
 
 
 

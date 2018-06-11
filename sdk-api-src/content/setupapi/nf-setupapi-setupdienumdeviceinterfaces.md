@@ -63,7 +63,7 @@ The <b>SetupDiEnumDeviceInterfaces</b> function enumerates the device interfaces
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="devinst.device_information_sets">device information set</a> that contains the device interfaces for which to return information. This handle is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>.
+A pointer to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device interfaces for which to return information. This handle is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInfoData [in, optional]

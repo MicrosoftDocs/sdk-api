@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="_shell_common_file_dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="https://www.bing.com/search?q=Common+Item+Dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Creates an <b>Open</b> dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
 
@@ -98,7 +98,7 @@ The Explorer-style <b>Open</b> dialog box provides user-interface features that 
 
 Windows continues to support the old-style <b>Open</b> dialog box for applications that want to maintain a user-interface consistent with the old-style user-interface. To display the old-style <b>Open</b> dialog box, enable an <a href="https://msdn.microsoft.com/ee551824-51f9-422d-9741-96248e3fc8cc">OFNHookProcOldStyle</a> hook procedure and ensure that the <b>OFN_EXPLORER</b> flag is not set.
 
-To display a dialog box that allows the user to select a directory instead of a file, call the <a href="_win32_SHBrowseForFolder">SHBrowseForFolder</a> function.
+To display a dialog box that allows the user to select a directory instead of a file, call the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a> function.
 
 Note, when selecting multiple files, the total character limit for the file names depends on the version of the function.
 
@@ -109,7 +109,7 @@ Note, when selecting multiple files, the total character limit for the file name
 
 #### Examples
 
-For an example, see <a href="using_common_dialog_boxes.htm">Opening a File</a>.
+For an example, see <a href="https://www.bing.com/search?q=Opening+a+File">Opening a File</a>.
 
 <div class="code"></div>
 
@@ -156,7 +156,7 @@ For an example, see <a href="using_common_dialog_boxes.htm">Opening a File</a>.
 
 
 
-<a href="_win32_SHBrowseForFolder">SHBrowseForFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a>
  
 
  

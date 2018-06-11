@@ -75,7 +75,7 @@ Pointer to an <a href="https://msdn.microsoft.com/e09445d2-61e5-4691-b51e-746e0c
 
 ### -param lpmsg [in]
 
-Pointer to an <a href="_win32_MSG_str_cpp">MSG</a> structure containing the keystroke.
+Pointer to an <a href="https://www.bing.com/search?q=MSG">MSG</a> structure containing the keystroke.
 
 
 ## -returns

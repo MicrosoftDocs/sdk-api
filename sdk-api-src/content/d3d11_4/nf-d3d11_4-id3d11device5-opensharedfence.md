@@ -53,7 +53,7 @@ req.irql:
 
 Opens a handle for a shared fence by using HANDLE and REFIID.
 
-This member function is a limited version of the Direct3D 12 <a href="https://msdn.microsoft.com/4F428B06-2906-4ED6-BB75-5DACF2155FA9">ID3D12Device::OpenSharedHandle</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios. Unlike <b>ID3D12Device::OpenSharedHandle</b> which operates on resources, heaps, and fences, the <b>ID3D11Device5::OpenSharedFence</b> function only operates on fences; in Direct3D 11, shared resources are opened with the <a href="direct3d11.id3d11device_opensharedresource1">ID3D11Device::OpenSharedResource1</a> member function.
+This member function is a limited version of the Direct3D 12 <a href="https://msdn.microsoft.com/4F428B06-2906-4ED6-BB75-5DACF2155FA9">ID3D12Device::OpenSharedHandle</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios. Unlike <b>ID3D12Device::OpenSharedHandle</b> which operates on resources, heaps, and fences, the <b>ID3D11Device5::OpenSharedFence</b> function only operates on fences; in Direct3D 11, shared resources are opened with the <a href="https://www.bing.com/search?q=ID3D11Device::OpenSharedResource1">ID3D11Device::OpenSharedResource1</a> member function.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ Type: <b>REFIID</b>
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
@@ -115,7 +115,7 @@ Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 
-<a href="direct3d12.multi-engine">Multi-Adapter (Direct3D 12)</a>
+<a href="https://www.bing.com/search?q=Multi-Adapter+(Direct3D+12)">Multi-Adapter (Direct3D 12)</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
- Supplies the path to a resource. You can use an <b>IWSManResourceLocator</b> object instead of a <a href="windows_remote_management_glossary.htm">resource URI</a> in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">IWSManSession.Get</a>, <a href="https://msdn.microsoft.com/f121d9ce-6aa3-45e3-b0ba-67b19c2f5665">IWSManSession.Put</a>, or <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">IWSManSession.Enumerate</a>.
+ Supplies the path to a resource. You can use an <b>IWSManResourceLocator</b> object instead of a <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">resource URI</a> in <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object operations such as <a href="https://msdn.microsoft.com/873242fd-9da3-42f4-a18e-258fedba77ec">IWSManSession.Get</a>, <a href="https://msdn.microsoft.com/f121d9ce-6aa3-45e3-b0ba-67b19c2f5665">IWSManSession.Put</a>, or <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">IWSManSession.Enumerate</a>.
 
 
 ## -inheritance
@@ -190,7 +190,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="windows_remote_management_glossary.htm">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
+The <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
 
 </td>
 </tr>

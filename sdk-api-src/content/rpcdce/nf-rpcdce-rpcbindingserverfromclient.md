@@ -146,7 +146,7 @@ The following protocol sequences support
 <a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a>
 </li>
 <li>
-<a href="midl.ncadg_ipx">ncadg_ipx</a>
+<a href="https://www.bing.com/search?q=ncadg_ipx">ncadg_ipx</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>
@@ -156,7 +156,7 @@ The following protocol sequences support
 <li>
 <a href="https://msdn.microsoft.com/02961bb8-faf0-42e5-b134-dd2983e6d146">ncacn_np</a> (effective with Windows 2000)</li>
 <li>
-<a href="midl.ncacn_http">ncacn_http</a>
+<a href="https://www.bing.com/search?q=ncacn_http">ncacn_http</a>
 </li>
 <li>ncalrpc</li>
 </ul>
@@ -168,7 +168,7 @@ Calling
 <ul>
 <li>The server handle is a partially-bound handle. It contains a network address for the calling client, but lacks an endpoint.</li>
 <li>The server handle contains the same object 
-<a href="midl.uuid">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
+<a href="https://www.bing.com/search?q=UUID">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
 <a href="https://msdn.microsoft.com/5dcf341f-e392-4608-b741-8fa07cabd50b">RpcBindingsetObject</a>, 
 <a href="https://msdn.microsoft.com/8dca0490-72aa-41e0-b747-863d53a705ea">RpcNsBindingImportBegin</a>, 
 <a href="https://msdn.microsoft.com/75b7e901-706a-4e3d-b958-d04a0709b993">RpcNsBindingLookupBegin</a>, and 

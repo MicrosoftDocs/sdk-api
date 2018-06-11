@@ -70,9 +70,9 @@ TBD
 
 ### -param interpolationMode
 
-Type: <b><a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode.md">D2D1_INTERPOLATION_MODE</a></b>
 
-A value that specifies the interpolation algorithm that is used when images are scaled or rotated. The default value is <a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE_LINEAR</a>.
+A value that specifies the interpolation algorithm that is used when images are scaled or rotated. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE_LINEAR</a>.
 
 
 #### - extendmodeX

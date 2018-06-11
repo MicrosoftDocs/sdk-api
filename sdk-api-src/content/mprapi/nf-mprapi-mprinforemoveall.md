@@ -102,7 +102,7 @@ Either the <i>lpHeader</i> parameter is <b>NULL</b> or the <i>lplpNewHeader</i> 
 </td>
 <td width="60%">
 Use 
-<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Use
 
 
 
-<a href="_win32_formatmessage">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 

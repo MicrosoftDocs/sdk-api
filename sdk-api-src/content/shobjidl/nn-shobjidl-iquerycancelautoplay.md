@@ -97,7 +97,7 @@ A valid use of <b>IQueryCancelAutoPlay</b> is illustrated in the following scena
 
 
 
-<a href="autoplay">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
+<a href="https://www.bing.com/search?q=Autoplay+in+Windows+XP:+Automatically+Detect+and+React+to+New+Devices+on+a+System">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
  
 
  

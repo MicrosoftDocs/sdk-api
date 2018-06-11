@@ -198,7 +198,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/52761cb2-4433-482
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used to update the cached item information for use with a <a href="List_View_Controls_Overview.htm">virtual list view</a>. 
+Contains information used to update the cached item information for use with a <a href="https://www.bing.com/search?q=virtual+list+view">virtual list view</a>. 
 
 
 ## -struct-fields

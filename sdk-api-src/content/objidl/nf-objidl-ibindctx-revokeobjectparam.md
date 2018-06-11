@@ -61,7 +61,7 @@ Removes the specified key and its associated pointer from the bind context's str
 
 ### -param pszKey [in]
 
-The <a href="_shell_STR_constants_cpp">bind context string key</a> to be removed. Key string comparison is case-sensitive.
+The <a href="https://www.bing.com/search?q=bind+context+string+key">bind context string key</a> to be removed. Key string comparison is case-sensitive.
 
 
 ## -returns

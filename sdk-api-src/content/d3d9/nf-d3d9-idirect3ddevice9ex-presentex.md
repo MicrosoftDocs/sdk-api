@@ -101,19 +101,19 @@ Allows the application to request that the method return immediately when the dr
 
 <ul>
 <li>If dwFlags = 0, this method behaves as it did prior to Direct3D 9. Present will spin until the hardware is free, without returning an error.</li>
-<li>If dwFlags = <a href="d3dpresent.htm">D3DPRESENT_DONOTFLIP</a> the display driver is called with the front buffer as both the source and target surface. The driver responds by scheduling a frame synch, but not changing the displayed surface. This flag is only available in full-screen mode or when using D3DSWAPEFFECT_FLIPEX in windowed mode.</li>
-<li>If dwFlags = <a href="d3dpresent.htm">D3DPRESENT_DONOTWAIT</a>, and the hardware is busy processing or waiting for a vertical sync interval, the method will return D3DERR_WASSTILLDRAWING.</li>
-<li>If dwFlags = <a href="d3dpresent.htm">D3DPRESENT_FORCEIMMEDIATE</a>, D3DPRESENT_INTERVAL_IMMEDIATE is enforced on this Present call. This flag can only be specified when using D3DSWAPEFFECT_FLIPEX. This behavior is the same for windowed and full-screen modes.</li>
-<li>If dwFlags = <a href="d3dpresent.htm">D3DPRESENT_LINEAR_CONTENT</a>, gamma correction is performed from linear space to sRGB for windowed swap chains. This flag will take effect only when the driver exposes <a href="https://msdn.microsoft.com/d9cd7388-3413-472d-aacb-0b8c9c60031a">D3DCAPS3_LINEAR_TO_SRGB_PRESENTATION</a> (see <a href="https://msdn.microsoft.com/d076140d-3e91-412a-b099-9baa52f8d7d8">Gamma (Direct3D 9)</a>).</li>
+<li>If dwFlags = <a href="https://www.bing.com/search?q=D3DPRESENT_DONOTFLIP">D3DPRESENT_DONOTFLIP</a> the display driver is called with the front buffer as both the source and target surface. The driver responds by scheduling a frame synch, but not changing the displayed surface. This flag is only available in full-screen mode or when using D3DSWAPEFFECT_FLIPEX in windowed mode.</li>
+<li>If dwFlags = <a href="https://www.bing.com/search?q=D3DPRESENT_DONOTWAIT">D3DPRESENT_DONOTWAIT</a>, and the hardware is busy processing or waiting for a vertical sync interval, the method will return D3DERR_WASSTILLDRAWING.</li>
+<li>If dwFlags = <a href="https://www.bing.com/search?q=D3DPRESENT_FORCEIMMEDIATE">D3DPRESENT_FORCEIMMEDIATE</a>, D3DPRESENT_INTERVAL_IMMEDIATE is enforced on this Present call. This flag can only be specified when using D3DSWAPEFFECT_FLIPEX. This behavior is the same for windowed and full-screen modes.</li>
+<li>If dwFlags = <a href="https://www.bing.com/search?q=D3DPRESENT_LINEAR_CONTENT">D3DPRESENT_LINEAR_CONTENT</a>, gamma correction is performed from linear space to sRGB for windowed swap chains. This flag will take effect only when the driver exposes <a href="https://msdn.microsoft.com/d9cd7388-3413-472d-aacb-0b8c9c60031a">D3DCAPS3_LINEAR_TO_SRGB_PRESENTATION</a> (see <a href="https://msdn.microsoft.com/d076140d-3e91-412a-b099-9baa52f8d7d8">Gamma (Direct3D 9)</a>).</li>
 </ul>
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Possible return values include: S_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3DERR_DEVICEREMOVED, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>). See <a href="dx9lh.htm">Lost Device Behavior Changes</a> for more information about lost, hung, and removed devices.
+Possible return values include: S_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3DERR_DEVICEREMOVED, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>). See <a href="https://www.bing.com/search?q=Lost+Device+Behavior+Changes">Lost Device Behavior Changes</a> for more information about lost, hung, and removed devices.
 
 <table>
 <tr>

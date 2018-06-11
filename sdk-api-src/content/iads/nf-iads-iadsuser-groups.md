@@ -61,7 +61,7 @@ The <b>IADsUser::Groups</b> method obtains a collection of the ADSI group object
 
 ### -param ppGroups [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a> interface on a members object that can be enumerated using  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> to determine the groups to which this end-user belongs.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a> interface on a members object that can be enumerated using  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> to determine the groups to which this end-user belongs.
 
 
 ## -returns
@@ -95,7 +95,7 @@ This method supports the standard return values, including S_OK. For other retur
 
 
 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>
  
 
  

@@ -390,7 +390,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -402,7 +402,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -413,7 +413,7 @@ The network subsystem or the associated service provider has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEAFNOSUPPORT">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -424,7 +424,7 @@ The specified address family is not supported. For example, an application tried
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -435,7 +435,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMFILE</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEMFILE">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -446,7 +446,7 @@ No more socket descriptors are available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -457,7 +457,7 @@ An invalid argument was supplied.  This error is returned if the <i>af</i> param
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVALIDPROVIDER</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINVALIDPROVIDER">WSAEINVALIDPROVIDER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -468,7 +468,7 @@ The service provider returned a version other than 2.2.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVALIDPROCTABLE</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINVALIDPROCTABLE">WSAEINVALIDPROCTABLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -480,7 +480,7 @@ The service provider returned an invalid or incomplete procedure table to the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAENOBUFS">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -491,7 +491,7 @@ No buffer space is available. The socket cannot be created.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEPROTONOSUPPORT">WSAEPROTONOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -502,7 +502,7 @@ The specified protocol is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROTOTYPE</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEPROTOTYPE">WSAEPROTOTYPE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -513,7 +513,7 @@ The specified protocol is the wrong type for this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROVIDERFAILEDINIT</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEPROVIDERFAILEDINIT">WSAEPROVIDERFAILEDINIT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -524,7 +524,7 @@ The service provider failed to initialize. This error is returned if a layered s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAESOCKTNOSUPPORT</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAESOCKTNOSUPPORT">WSAESOCKTNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -553,8 +553,8 @@ Sockets without the overlapped attribute can be created by using
 <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>) also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operation are <b>NULL</b>.
 
 When selecting a protocol and its supporting service provider this procedure will only choose a base protocol or a protocol chain, not a protocol layer by itself. Unchained protocol layers are not considered to have partial matches on <i>type</i> or <i>af</i> either. That is, they do not lead to an error code of 
-<a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a> or 
-<a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a> if no suitable protocol is found.
+<a href="https://www.bing.com/search?q=WSAEAFNOSUPPORT">WSAEAFNOSUPPORT</a> or 
+<a href="https://www.bing.com/search?q=WSAEPROTONOSUPPORT">WSAEPROTONOSUPPORT</a> if no suitable protocol is found.
 
 <div class="alert"><b>Note</b>    The manifest constant <b>AF_UNSPEC</b> continues to be defined in the header file but its use is strongly discouraged, as this can cause ambiguity in interpreting the value of the <i>protocol</i> parameter.</div>
 <div> </div>
@@ -567,7 +567,7 @@ Connection-oriented sockets such as <b>SOCK_STREAM</b> provide full-duplex conne
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> must be performed.
 
 The communications protocols used to implement a reliable, connection-oriented socket ensure that data is not lost or duplicated. If data for which the peer protocol has buffer space cannot be successfully transmitted within a reasonable length of time, the connection is considered broken and subsequent calls will fail with the error code set to 
-<a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a>.
+<a href="https://www.bing.com/search?q=WSAETIMEDOUT">WSAETIMEDOUT</a>.
 
 Connectionless, message-oriented sockets allow sending and receiving of datagrams to and from arbitrary peers using 
 <a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a> and 
@@ -597,7 +597,7 @@ Keep the following in mind:
 <li>Only <b>SOCK_STREAM</b> is supported; the <b>SOCK_DGRAM</b> type is not supported by IrDA.</li>
 <li>The <i>protocol</i> parameter is always set to 0 for IrDA.</li>
 </ul>
-A socket for use with the AF_IRDA address family can only be created if the local computer has an infrared port and driver installed. Otherwise, a call to the <b>socket</b> function with <i>af</i> parameter set to AF_IRDA will fail and <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> returns <a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a>. 
+A socket for use with the AF_IRDA address family can only be created if the local computer has an infrared port and driver installed. Otherwise, a call to the <b>socket</b> function with <i>af</i> parameter set to AF_IRDA will fail and <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> returns <a href="https://www.bing.com/search?q=WSAEPROTONOSUPPORT">WSAEPROTONOSUPPORT</a>. 
 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>socket</b> function to create a socket that is bound to a specific transport service provider..

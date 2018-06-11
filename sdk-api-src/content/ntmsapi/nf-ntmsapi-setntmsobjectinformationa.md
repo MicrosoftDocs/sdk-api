@@ -359,7 +359,7 @@ The following is the list of objects that have members that can be updated.
 
 
 
-<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
+<a href="https://www.bing.com/search?q=Object+Management+Functions">Object Management Functions</a>
  
 
  

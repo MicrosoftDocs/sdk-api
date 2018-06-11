@@ -67,7 +67,7 @@ The handle to the window in which the frame will be extended into the client are
 
 ### -param pMarInset [in]
 
-A pointer to a <a href="inet_MARGINS">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
+A pointer to a <a href="https://www.bing.com/search?q=MARGINS">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
 
 
 ## -returns

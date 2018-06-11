@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage scheduled tasks for report jobs and file management jobs.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmReportScheduler</b> as the class identifier and 
     <code>__uuidof(IFsrmReportScheduler)</code> as the interface identifier. 
     For an example, see <a href="https://msdn.microsoft.com/7994bf40-cc9d-4519-a0d4-d48d7ec10fda">Scheduling a Report Job</a>.

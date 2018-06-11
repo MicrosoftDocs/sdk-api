@@ -106,7 +106,7 @@ When registered clipboard formats are placed on or retrieved from the clipboard,
 
 #### Examples
 
-For an example, see <a href="using_the_clipboard.htm">Registering a Clipboard Format</a>. 
+For an example, see <a href="https://www.bing.com/search?q=Registering+a+Clipboard+Format">Registering a Clipboard Format</a>. 
 
 
 

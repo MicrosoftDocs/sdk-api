@@ -113,7 +113,7 @@ Returns <b>NULL</b> upon success. Returns one of the following exception codes u
 
 
 
-<a href="midl.wire_marshal">wire_marshal</a>
+<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a>
  
 
  

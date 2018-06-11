@@ -70,7 +70,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param pCustomProperties [in]
 
-Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>*</b>
 
 
           An enumeration of <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> objects, one for each custom property the application has recognized. This parameter can be <b>NULL</b>, which is equivalent to an empty enumeration.
@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-        For each <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> object, the position information identifies the character span of the custom property, the string value is the name of an actual property, and the <a href="_stg_propvariant">PROPVARIANT</a> is unused. Although any property could be used, these generic properties are included specifically for this purpose:
+        For each <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> object, the position information identifies the character span of the custom property, the string value is the name of an actual property, and the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> is unused. Although any property could be used, these generic properties are included specifically for this purpose:
         
 
 <ul>

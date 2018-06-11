@@ -53,7 +53,7 @@ req.product: Internet Explorer 6.01
 ## -description
 
 
-Takes a list of arguments and returns the values of the arguments as a <a href="77a854ae-5b48-4865-89f4-f2dc5cf80f52">printf</a>-style formatted string.
+Takes a list of arguments and returns the values of the arguments as a <a href="https://msdn.microsoft.com/library/windows/desktop/77a854ae-5b48-4865-89f4-f2dc5cf80f52">printf</a>-style formatted string.
             
 <div class="alert"><b>Note</b>  Do not use this function. See Remarks for alternative functions.</div><div> </div>
 
@@ -80,7 +80,7 @@ The maximum number of characters allowed in <i>pszDest</i>.
 
 Type: <b>PCTSTR</b>
 
-A <a href="77a854ae-5b48-4865-89f4-f2dc5cf80f52">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
+A <a href="https://msdn.microsoft.com/library/windows/desktop/77a854ae-5b48-4865-89f4-f2dc5cf80f52">printf</a>-style format string. The %s format identifier should never be used in an unbounded form. To avoid potential buffer overruns, always specify a size; for instance "%32s".
 
 
 ### -param arglist [in]

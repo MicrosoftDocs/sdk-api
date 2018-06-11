@@ -144,7 +144,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
 
 
 

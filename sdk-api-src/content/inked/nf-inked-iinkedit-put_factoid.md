@@ -95,7 +95,7 @@ For more information about factoids and how to use them, see <a href="https://ms
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

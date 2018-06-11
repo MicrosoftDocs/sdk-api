@@ -101,7 +101,7 @@ If the property is not defined, it is created by the
 
 
 
-<a href="database_functions.htm">Installer State Access Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer State Access Functions</a>
  
 
  

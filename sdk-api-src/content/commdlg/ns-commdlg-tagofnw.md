@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="_shell_common_file_dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="https://www.bing.com/search?q=Common+Item+Dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Contains information that the <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a> functions use to initialize an <b>Open</b> or <b>Save As</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
@@ -234,7 +234,7 @@ If the user specifies a file that does not exist, this flag causes the dialog bo
 </dl>
 </td>
 <td width="60%">
- Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. To retrieve the location of this directory, call the <a href="_win32_SHGetSpecialFolderLocation">SHGetSpecialFolderLocation</a> function with the <b>CSIDL_RECENT</b> flag.
+ Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. To retrieve the location of this directory, call the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a> function with the <b>CSIDL_RECENT</b> flag.
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ The <b>hInstance</b> member identifies a data block that contains a preloaded di
 </dl>
 </td>
 <td width="60%">
-Indicates that any customizations made to the <b>Open</b> or <b>Save As</b> dialog box use the Explorer-style customization methods. For more information, see <a href="open_and_save_as_dialog_boxes.htm">Explorer-Style Hook Procedures</a> and <a href="open_and_save_as_dialog_boxes.htm">Explorer-Style Custom Templates</a>. 
+Indicates that any customizations made to the <b>Open</b> or <b>Save As</b> dialog box use the Explorer-style customization methods. For more information, see <a href="https://www.bing.com/search?q=Explorer-Style+Hook+Procedures">Explorer-Style Hook Procedures</a> and <a href="https://www.bing.com/search?q=Explorer-Style+Custom+Templates">Explorer-Style Custom Templates</a>. 
 
 By default, the <b>Open</b> and <b>Save As</b> dialog boxes use the Explorer-style user interface regardless of whether this flag is set. This flag is necessary only if you provide a hook procedure or custom template, or set the <b>OFN_ALLOWMULTISELECT</b> flag.
 
@@ -636,7 +636,7 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 
-<a href="_win32_SHGetSpecialFolderLocation">SHGetSpecialFolderLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a>
  
 
  

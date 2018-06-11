@@ -88,12 +88,12 @@ A custom property must have one of the following data types specified by the <a 
 
 
 <ul>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Bool</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Double</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Element</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Int</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Point</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_String</a></li>
+<li><a href="https://www.bing.com/search?q=UIAutomationType_Bool">UIAutomationType_Bool</a></li>
+<li><a href="https://www.bing.com/search?q=UIAutomationType_Double">UIAutomationType_Double</a></li>
+<li><a href="https://www.bing.com/search?q=UIAutomationType_Element">UIAutomationType_Element</a></li>
+<li><a href="https://www.bing.com/search?q=UIAutomationType_Int">UIAutomationType_Int</a></li>
+<li><a href="https://www.bing.com/search?q=UIAutomationType_Point">UIAutomationType_Point</a></li>
+<li><a href="https://www.bing.com/search?q=UIAutomationType_String">UIAutomationType_String</a></li>
 </ul>
 
 
