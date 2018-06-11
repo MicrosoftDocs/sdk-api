@@ -2,7 +2,7 @@
 UID: NA:wabapi
 ms.assetid: 03f7eea4-0c0d-3b20-9057-af11bd3c91b6
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: wab
 ## -description
 
 
-This header is used by wab. For more information, see:
+This header is used by Windows Address Book. For more information, see:
 
 - [Windows Address Book](../_wab/index.md)

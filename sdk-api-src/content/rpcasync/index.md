@@ -2,7 +2,7 @@
 UID: NA:rpcasync
 ms.assetid: 946490f2-beb8-3f4d-8685-b67d79dea575
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: rpc
 ## -description
 
 
-This header is used by rpc. For more information, see:
+This header is used by Remote Procedure Call (RPC). For more information, see:
 
 - [Remote Procedure Call (RPC)](../_rpc/index.md)

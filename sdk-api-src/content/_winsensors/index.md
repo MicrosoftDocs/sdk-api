@@ -2,7 +2,7 @@
 UID: TP:winsensors
 ms.assetid: f5d46aad-1a36-3ec7-9968-cbf8b3e24824
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,3 +20,4 @@ To develop Sensor API, you need these headers:
  * [sensorsapi.h](../sensorsapi/index.md)
 
 For the programming guide, see [Sensor API](/windows/desktop/winsensors).
+

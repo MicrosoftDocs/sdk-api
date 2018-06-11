@@ -2,7 +2,7 @@
 UID: NA:bthdef
 ms.assetid: 74cdc63c-7f61-3f7d-814b-f814f7ef23fb
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: bluetooth
 ## -description
 
 
-This header is used by bluetooth. For more information, see:
+This header is used by Bluetooth. For more information, see:
 
 - [Bluetooth](../_bluetooth/index.md)

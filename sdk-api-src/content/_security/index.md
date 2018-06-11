@@ -2,7 +2,7 @@
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,3 +76,4 @@ To develop Security and Identity, you need these headers:
  * [xenroll.h](../xenroll/index.md)
 
 For the programming guide, see [Security and Identity](/windows/desktop/security).
+

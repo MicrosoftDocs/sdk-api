@@ -2,7 +2,7 @@
 UID: TP:fs
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -36,3 +36,4 @@ To develop Data Access and Storage, you need these headers:
  * [wofapi.h](../wofapi/index.md)
 
 For the programming guide, see [Data Access and Storage](/windows/desktop/fs).
+

@@ -2,7 +2,7 @@
 UID: NA:devicetopology
 ms.assetid: 4d8d6287-231f-3d16-841d-4c06f9ff36df
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: coreaudio
 ## -description
 
 
-This header is used by coreaudio. For more information, see:
+This header is used by Core Audio APIs. For more information, see:
 
 - [Core Audio APIs](../_coreaudio/index.md)

@@ -2,7 +2,7 @@
 UID: NA:comsvcs
 ms.assetid: 03923598-8e51-32d0-ab59-a6cc44135a18
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winmessenger
 ## -description
 
 
-This header is used by winmessenger. For more information, see:
+This header is used by Windows Messenger. For more information, see:
 
 - [Windows Messenger](../_winmessenger/index.md)

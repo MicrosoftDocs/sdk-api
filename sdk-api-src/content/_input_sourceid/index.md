@@ -2,7 +2,7 @@
 UID: TP:input_sourceid
 ms.assetid: 1254a1e0-d95f-3593-a02f-0fce41164894
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,3 +19,4 @@ Overview of the Input Source Identification technology.
 The Input Source Identification technology is not associated with any headers.
 
 For the programming guide, see [Input Source Identification](/previous-versions/windows/desktop/input_sourceid).
+

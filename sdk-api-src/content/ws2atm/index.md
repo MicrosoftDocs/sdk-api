@@ -2,7 +2,7 @@
 UID: NA:ws2atm
 ms.assetid: fcbc2a0c-da3b-380a-bb46-c237a3d33317
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winsock
 ## -description
 
 
-This header is used by winsock. For more information, see:
+This header is used by Windows Sockets 2. For more information, see:
 
 - [Windows Sockets 2](../_winsock/index.md)

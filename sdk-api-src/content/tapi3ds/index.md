@@ -2,7 +2,7 @@
 UID: NA:tapi3ds
 ms.assetid: 5994c4b2-a026-3192-a48c-739747588690
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: tapi3
 ## -description
 
 
-This header is used by tapi3. For more information, see:
+This header is used by Telephony Application Programming Interfaces. For more information, see:
 
 - [Telephony Application Programming Interfaces](../_tapi3/index.md)

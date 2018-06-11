@@ -2,7 +2,7 @@
 UID: NA:pwm
 ms.assetid: f2b86540-240b-3e8f-af5e-b516acb7f661
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: base
 ## -description
 
 
-This header is used by base. For more information, see:
+This header is used by System Services. For more information, see:
 
-- [Error Handling](../_base/index.md)
+- [System Services](../_base/index.md)

@@ -2,7 +2,7 @@
 UID: NA:lmwksta
 ms.assetid: 8b6b0683-a5f5-3571-b91b-ba9310fb8d66
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: netmgmt
 ## -description
 
 
-This header is used by netmgmt. For more information, see:
+This header is used by Network Management. For more information, see:
 
 - [Network Management](../_netmgmt/index.md)

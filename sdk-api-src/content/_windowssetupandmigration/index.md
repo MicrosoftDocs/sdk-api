@@ -2,7 +2,7 @@
 UID: TP:windowssetupandmigration
 ms.assetid: 53912da4-42c2-33af-8b53-5bbaa7bfd68c
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,3 +21,4 @@ To develop OOBE APIs for setup state and notification, you need these headers:
  * [oobenotification.h](../oobenotification/index.md)
 
 For the programming guide, see [OOBE APIs for setup state and notification](/previous-versions/windows/desktop/windowssetupandmigration).
+

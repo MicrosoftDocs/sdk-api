@@ -2,7 +2,7 @@
 UID: NA:pla
 ms.assetid: db8643be-835b-3749-85d9-740e42f4d6c0
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: pla
 ## -description
 
 
-This header is used by pla. For more information, see:
+This header is used by Performance Logs and Alerts. For more information, see:
 
 - [Performance Logs and Alerts](../_pla/index.md)

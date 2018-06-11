@@ -2,7 +2,7 @@
 UID: NA:efswrtinterop
 ms.assetid: 7abe7af0-89b1-33bb-a90b-5f41c2980004
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: edp
 ## -description
 
 
-This header is used by edp. For more information, see:
+This header is used by Windows Information Protection (WIP). For more information, see:
 
 - [Windows Information Protection (WIP)](../_edp/index.md)

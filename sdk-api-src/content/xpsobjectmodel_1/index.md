@@ -2,7 +2,7 @@
 UID: NA:xpsobjectmodel_1
 ms.assetid: c4a28e78-e36a-3188-8a20-2d26fd20f703
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: xps
 ## -description
 
 
-This header is used by xps. For more information, see:
+This header is used by XPS Documents. For more information, see:
 
-- [Documents and Printing](../_xps/index.md)
+- [XPS Documents](../_xps/index.md)

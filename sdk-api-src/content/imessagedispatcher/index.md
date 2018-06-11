@@ -2,7 +2,7 @@
 UID: NA:imessagedispatcher
 ms.assetid: e71c0ec7-dd8b-31a2-a755-c43ec985a38d
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: com
 ## -description
 
 
-This header is used by com. For more information, see:
+This header is used by Component Object Model (COM). For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)

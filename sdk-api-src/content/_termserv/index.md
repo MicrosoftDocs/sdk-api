@@ -2,7 +2,7 @@
 UID: TP:termserv
 ms.assetid: b47fd481-db98-36bc-9504-61dba2bfa2a1
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -40,3 +40,4 @@ To develop Remote Desktop Services, you need these headers:
  * [wtsprotocol.h](../wtsprotocol/index.md)
 
 For the programming guide, see [Remote Desktop Services](/windows/desktop/termserv).
+

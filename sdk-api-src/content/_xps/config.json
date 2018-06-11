@@ -8,5 +8,6 @@
     "xpsdigitalsignature.h",
     "documenttarget.h",
     "prntvpt.h"
-  ]
+  ],
+  "displayName": "XPS Documents"
 }

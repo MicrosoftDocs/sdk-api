@@ -2,7 +2,7 @@
 UID: NA:wincodecsdk
 ms.assetid: 5fd47393-95fa-3680-9f59-01a0412aae65
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wic
 ## -description
 
 
-This header is used by wic. For more information, see:
+This header is used by Windows Imaging Component. For more information, see:
 
 - [Windows Imaging Component](../_wic/index.md)

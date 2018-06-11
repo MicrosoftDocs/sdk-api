@@ -2,7 +2,7 @@
 UID: NA:gpmgmt
 ms.assetid: d6f6d8c9-d4c4-3bd5-b377-ca4015cf9c41
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: gpmc
 ## -description
 
 
-This header is used by gpmc. For more information, see:
+This header is used by Group Policy Management Console. For more information, see:
 
 - [Group Policy Management Console](../_gpmc/index.md)

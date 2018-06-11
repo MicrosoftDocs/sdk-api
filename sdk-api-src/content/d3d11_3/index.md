@@ -2,7 +2,7 @@
 UID: NA:d3d11_3
 ms.assetid: 96a11755-f63a-393e-a41b-5eb091bf0934
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct3d11
 ## -description
 
 
-This header is used by direct3d11. For more information, see:
+This header is used by Direct3D 11 Graphics. For more information, see:
 
 - [Direct3D 11 Graphics](../_direct3d11/index.md)

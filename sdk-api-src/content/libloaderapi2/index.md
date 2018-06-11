@@ -2,7 +2,7 @@
 UID: NA:libloaderapi2
 ms.assetid: e0f6b9b1-452c-36b6-85b9-df707e6929e2
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: base
 ## -description
 
 
-This header is used by base. For more information, see:
+This header is used by System Services. For more information, see:
 
-- [Error Handling](../_base/index.md)
+- [System Services](../_base/index.md)

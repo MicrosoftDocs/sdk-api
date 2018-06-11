@@ -2,7 +2,7 @@
 UID: NA:uiribbon
 ms.assetid: a27b3b32-7e36-395c-beec-b81b278b75df
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: windowsribbon
 ## -description
 
 
-This header is used by windowsribbon. For more information, see:
+This header is used by Windows Ribbon Framework. For more information, see:
 
 - [Windows Ribbon Framework](../_windowsribbon/index.md)

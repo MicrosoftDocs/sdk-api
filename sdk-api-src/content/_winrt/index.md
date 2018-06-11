@@ -2,7 +2,7 @@
 UID: TP:winrt
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,3 +47,4 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [winstring.h](../winstring/index.md)
 
 For the programming guide, see [Windows Runtime C++ reference](/windows/desktop/winrt).
+

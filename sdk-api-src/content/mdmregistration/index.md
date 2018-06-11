@@ -2,7 +2,7 @@
 UID: NA:mdmregistration
 ms.assetid: c9640eec-4d08-33fa-b57b-ca59880510c7
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: mdmreg
 ## -description
 
 
-This header is used by mdmreg. For more information, see:
+This header is used by Mobile Device Management Registration. For more information, see:
 
 - [Mobile Device Management Registration](../_mdmreg/index.md)

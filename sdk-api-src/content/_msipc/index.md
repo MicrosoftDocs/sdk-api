@@ -2,7 +2,7 @@
 UID: TP:msipc
 ms.assetid: 73620ed6-88cf-3cf2-8bc9-535b1f0c618e
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,3 +19,4 @@ Overview of the Rights Management SDK 2.1 technology.
 The Rights Management SDK 2.1 technology is not associated with any headers.
 
 For the programming guide, see [Rights Management SDK 2.1](/previous-versions/windows/desktop/msipc).
+

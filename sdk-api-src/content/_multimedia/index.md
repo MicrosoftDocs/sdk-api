@@ -2,7 +2,7 @@
 UID: TP:multimedia
 ms.assetid: a1710ddf-acd2-3419-b799-1773d9f162a5
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,3 +27,4 @@ To develop Windows Multimedia, you need these headers:
  * [vfw.h](../vfw/index.md)
 
 For the programming guide, see [Windows Multimedia](/windows/desktop/multimedia).
+

@@ -2,7 +2,7 @@
 UID: NA:tpmvscmgr
 ms.assetid: 854666f9-436b-3b7c-b8bb-dc79f5cd74e6
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: security
 ## -description
 
 
-This header is used by security. For more information, see:
+This header is used by Security and Identity. For more information, see:
 
-- [Authentication](../_security/index.md)
+- [Security and Identity](../_security/index.md)

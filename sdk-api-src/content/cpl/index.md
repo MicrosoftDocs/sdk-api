@@ -2,7 +2,7 @@
 UID: NA:cpl
 ms.assetid: e8fa9f63-a6a3-3a6b-b199-c46941dcedbc
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by shell. For more information, see:
+This header is used by The Windows Shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

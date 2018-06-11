@@ -2,7 +2,7 @@
 UID: NA:baseaudioprocessingobject
 ms.assetid: 2d494446-d1ae-3f4f-89e6-9a166b669923
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: audio
 ## -description
 
 
-This header is used by audio. For more information, see:
+This header is used by Audio Devices DDI Reference. For more information, see:
 
 - [Audio Devices DDI Reference](../_audio/index.md)

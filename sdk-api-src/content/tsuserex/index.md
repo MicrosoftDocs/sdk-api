@@ -2,7 +2,7 @@
 UID: NA:tsuserex
 ms.assetid: 8f46dce6-d499-3abf-a561-0ba7eaa5bc12
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: termserv
 ## -description
 
 
-This header is used by termserv. For more information, see:
+This header is used by Remote Desktop Services. For more information, see:
 
 - [Remote Desktop Services](../_termserv/index.md)

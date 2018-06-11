@@ -2,7 +2,7 @@
 UID: NA:genericusbfnioctl
 ms.assetid: b457291b-e7cf-39db-9412-32cd4e08f8da
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: buses
 ## -description
 
 
-This header is used by buses. For more information, see:
+This header is used by USB driver reference. For more information, see:
 
 - [USB driver reference](../_buses/index.md)

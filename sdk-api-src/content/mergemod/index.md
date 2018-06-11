@@ -2,7 +2,7 @@
 UID: NA:mergemod
 ms.assetid: 11ba63d1-3ec2-3d8d-be3d-c597cfbbdc4f
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: setup
 ## -description
 
 
-This header is used by setup. For more information, see:
+This header is used by Application Installation and Servicing. For more information, see:
 
-- [Setup API](../_setup/index.md)
+- [Application Installation and Servicing](../_setup/index.md)

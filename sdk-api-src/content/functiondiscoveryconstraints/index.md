@@ -2,7 +2,7 @@
 UID: NA:functiondiscoveryconstraints
 ms.assetid: 0945fe1d-ffe0-38e9-a536-90a546cd6b90
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: ncd
 ## -description
 
 
-This header is used by ncd. For more information, see:
+This header is used by Other Devices Technologies. For more information, see:
 
-- [Function Discovery](../_ncd/index.md)
+- [Other Devices Technologies](../_ncd/index.md)

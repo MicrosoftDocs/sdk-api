@@ -2,7 +2,7 @@
 UID: NA:d3d10misc
 ms.assetid: 3a46305e-90fd-3a10-9cbb-516f29aa744b
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct3d10
 ## -description
 
 
-This header is used by direct3d10. For more information, see:
+This header is used by Direct3D 10 Graphics. For more information, see:
 
 - [Direct3D 10 Graphics](../_direct3d10/index.md)

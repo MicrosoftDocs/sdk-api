@@ -2,7 +2,7 @@
 UID: NA:winldap
 ms.assetid: 12d3afbf-4b23-3b4f-a06d-76bbe045a2c9
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: ldap
 ## -description
 
 
-This header is used by ldap. For more information, see:
+This header is used by Lightweight Directory Access Protocol. For more information, see:
 
 - [Lightweight Directory Access Protocol](../_ldap/index.md)

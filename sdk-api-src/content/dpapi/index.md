@@ -2,7 +2,7 @@
 UID: NA:dpapi
 ms.assetid: c09dd4ae-455f-3e93-a966-1bf8218c50b9
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: security
 ## -description
 
 
-This header is used by security. For more information, see:
+This header is used by Security and Identity. For more information, see:
 
-- [Authentication](../_security/index.md)
+- [Security and Identity](../_security/index.md)

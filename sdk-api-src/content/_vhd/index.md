@@ -2,21 +2,22 @@
 UID: TP:vhd
 ms.assetid: 0d9a4add-3ac3-3ff9-b349-c6ddc48ae052
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Vhd
+# Virtual Hard Disk
 
 ## -description
 
-Overview of the Vhd technology.
+Overview of the Virtual Hard Disk technology.
 
-To develop Vhd, you need these headers:
+To develop Virtual Hard Disk, you need these headers:
 
  * [virtdisk.h](../virtdisk/index.md)
 
+For the programming guide, see [Virtual Hard Disk](/windows/desktop/vhd).
 

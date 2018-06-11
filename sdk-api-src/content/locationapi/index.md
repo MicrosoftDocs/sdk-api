@@ -2,7 +2,7 @@
 UID: NA:locationapi
 ms.assetid: bad5cac7-9346-349c-87c7-57bca80e3c48
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winlocation
 ## -description
 
 
-This header is used by winlocation. For more information, see:
+This header is used by Location API. For more information, see:
 
 - [Location API](../_winlocation/index.md)

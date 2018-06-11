@@ -2,7 +2,7 @@
 UID: NA:hrtfapoapi
 ms.assetid: a07594a7-e212-3edf-a078-4ba9668a61c4
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: xaudio2
 ## -description
 
 
-This header is used by xaudio2. For more information, see:
+This header is used by XAudio2 APIs. For more information, see:
 
 - [XAudio2 APIs](../_xaudio2/index.md)

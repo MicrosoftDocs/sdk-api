@@ -2,7 +2,7 @@
 UID: TP:ndf
 ms.assetid: 6efa073c-337d-3a85-a426-9819014ee8c3
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,3 +22,4 @@ To develop Network Diagnostics Framework, you need these headers:
  * [ndhelper.h](../ndhelper/index.md)
 
 For the programming guide, see [Network Diagnostics Framework](/windows/desktop/ndf).
+

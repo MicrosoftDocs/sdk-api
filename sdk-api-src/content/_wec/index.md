@@ -2,7 +2,7 @@
 UID: TP:wec
 ms.assetid: 91d1552a-99b3-3690-b81b-c0721e2d2a17
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,3 +20,4 @@ To develop Windows Event Collector, you need these headers:
  * [evcoll.h](../evcoll/index.md)
 
 For the programming guide, see [Windows Event Collector](/windows/desktop/wec).
+

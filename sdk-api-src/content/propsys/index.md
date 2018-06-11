@@ -2,7 +2,7 @@
 UID: NA:propsys
 ms.assetid: 165088b4-d689-36a0-a379-9c0eac613e05
 ms.author: windowssdkdev
-ms.date: 06/09/2018
+ms.date: 06/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: properties
 ## -description
 
 
-This header is used by properties. For more information, see:
+This header is used by Windows Property System. For more information, see:
 
 - [Windows Property System](../_properties/index.md)
