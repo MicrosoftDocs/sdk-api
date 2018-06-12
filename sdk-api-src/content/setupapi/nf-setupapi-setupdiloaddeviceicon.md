@@ -61,7 +61,7 @@ The <b>SetupDiLoadDeviceIcon</b> function retrieves an icon for a specified devi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device information element that represents the device for which to retrieve an icon. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element that represents the device for which to retrieve an icon. 
 
 
 ### -param DeviceInfoData [in]

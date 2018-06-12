@@ -79,7 +79,7 @@ TBD
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://www.bing.com/search?q=Accessing+Menu+Items+Programmatically">Accessing Menu Items Programmatically</a> for more information. 
+The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="about_menus.htm">Accessing Menu Items Programmatically</a> for more information. 
 
 
 ### -param lpmii [in, out]
@@ -127,7 +127,7 @@ If the retrieved menu item is of some other type, then <b>GetMenuItemInfo</b> se
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+Owner-Drawn+Menu+Items">Example of Owner-Drawn Menu Items</a>.
+For an example, see <a href="using_menus.htm">Example of Owner-Drawn Menu Items</a>.
 
 <div class="code"></div>
 

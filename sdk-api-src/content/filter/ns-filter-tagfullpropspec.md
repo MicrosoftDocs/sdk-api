@@ -68,7 +68,7 @@ The globally unique identifier (GUID) that identifies the property set.
 
 ### -field psProperty
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropspec">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
+A pointer to the <a href="_stg_propspec">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
 
 
 ## -see-also

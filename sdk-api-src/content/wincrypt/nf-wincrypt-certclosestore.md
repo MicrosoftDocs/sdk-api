@@ -169,7 +169,7 @@ If CERT_STORE_NO_CRYPT_RELEASE_FLAG was not set when the store was opened, closi
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
 
 
 

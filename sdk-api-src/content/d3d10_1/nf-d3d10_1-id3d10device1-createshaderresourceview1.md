@@ -83,7 +83,7 @@ Address of a pointer to a shader-resource view (see <a href="https://msdn.micros
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
@@ -94,7 +94,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/7b6
 
 
 
-A resource is made up of one or more <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresources</a>, a view identifies which subresources to allow the pipeline to access. In addition, each resource is bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the <a href="https://www.bing.com/search?q=shader+stages">shader stages</a> using the following API methods: <a href="https://msdn.microsoft.com/8481e388-3cfe-43e3-b58e-fea989d942ba">VSSetShaderResources</a>, <a href="https://msdn.microsoft.com/8e012e31-b161-4564-9acf-243d99366092">GSSetShaderResources</a> and <a href="https://msdn.microsoft.com/88b1515b-f070-4725-a844-30575a1800d4">PSSetShaderResources</a>.
+A resource is made up of one or more <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresources</a>, a view identifies which subresources to allow the pipeline to access. In addition, each resource is bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">shader stages</a> using the following API methods: <a href="https://msdn.microsoft.com/8481e388-3cfe-43e3-b58e-fea989d942ba">VSSetShaderResources</a>, <a href="https://msdn.microsoft.com/8e012e31-b161-4564-9acf-243d99366092">GSSetShaderResources</a> and <a href="https://msdn.microsoft.com/88b1515b-f070-4725-a844-30575a1800d4">PSSetShaderResources</a>.
 
 Since a view is fully typed, this means that typeless resources become fully typed when bound to the pipeline.
 

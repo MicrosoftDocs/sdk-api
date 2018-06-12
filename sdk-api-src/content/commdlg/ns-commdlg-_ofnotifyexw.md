@@ -62,7 +62,7 @@ Contains information about a <a href="https://msdn.microsoft.com/0972a78d-e058-4
 
 ### -field hdr
 
-Type: <b><a href="https://www.bing.com/search?q=NMHDR">NMHDR</a></b>
+Type: <b><a href="controls._win32_NMHDR_str">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification message being sent. 
 

@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 The 
 <b>IWbemProviderIdentity</b> interface is implemented by an event provider if the provider registers itself using more than one 
 <b>Name</b> (multiple instances of 
-<a href="https://msdn.microsoft.com/41e0d938-00c6-4f4c-8027-8b8512398dee">__Win32Provider</a>) with the same <a href="https://www.bing.com/search?q=CLSID">CLSID</a> value. The class provides a mechanism for distinguishing which named provider should be used.
+<a href="https://msdn.microsoft.com/41e0d938-00c6-4f4c-8027-8b8512398dee">__Win32Provider</a>) with the same <a href="_com_clsid_progid">CLSID</a> value. The class provides a mechanism for distinguishing which named provider should be used.
 
 
 ## -inheritance

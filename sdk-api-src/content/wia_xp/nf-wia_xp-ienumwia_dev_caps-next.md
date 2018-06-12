@@ -101,7 +101,7 @@ Applications use this method to query the capabilities of each available Windows
 
 WIA device capabilities are defined as events and commands that the device supports. Using the <i>rgelt</i> array, <b>IEnumWIA_DEV_CAPS::Next</b> passes a single structure to the application for each event and command that the device supports.
 
-Note that <b>IEnumWIA_DEV_CAPS::Next</b> dynamically allocates the <a href="https://msdn.microsoft.com/9bf123c7-234f-45d3-bb45-c0cb135ef970">WIA_DEV_CAP</a> structures it provides to applications. Therefore, applications must delete the <b>WIA_DEV_CAP</b> structures they receive through the <i>rgelt</i> parameter. Applications should use <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the <i>bstrName</i>, <i>bstrDescription</i>, and <i>bstrIcon</i> fields of all <b>WIA_DEV_CAP</b> structures.
+Note that <b>IEnumWIA_DEV_CAPS::Next</b> dynamically allocates the <a href="https://msdn.microsoft.com/9bf123c7-234f-45d3-bb45-c0cb135ef970">WIA_DEV_CAP</a> structures it provides to applications. Therefore, applications must delete the <b>WIA_DEV_CAP</b> structures they receive through the <i>rgelt</i> parameter. Applications should use <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the <i>bstrName</i>, <i>bstrDescription</i>, and <i>bstrIcon</i> fields of all <b>WIA_DEV_CAP</b> structures.
 
 
 

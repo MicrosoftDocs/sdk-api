@@ -51,12 +51,12 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Provides a method that retrives an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> interface.
+Provides a method that retrives an <a href="shell.IPropertyDescription">IPropertyDescription</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="shell.IPropertyDescription">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IPropertyDescriptionRelatedPropertyInfo</b> interface has these methods.
 <a href="shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty">GetRelatedProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> object that represents the related property.
+Retrieves an <a href="shell.IPropertyDescription">IPropertyDescription</a> object that represents the related property.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Retrieves an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescripti
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Do not implement this interface. There is only one implementation of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionrelatedpropertyinfo.md">IPropertyDescriptionRelatedPropertyInfo</a> in the system; it is provided by the Shell. 
+Do not implement this interface. There is only one implementation of <a href="shell.IPropertyDescriptionRelatedPropertyInfo">IPropertyDescriptionRelatedPropertyInfo</a> in the system; it is provided by the Shell. 
 
 Only one property description exists for each property in the system.
 
@@ -98,7 +98,7 @@ Only one property description exists for each property in the system.
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

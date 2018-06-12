@@ -90,7 +90,7 @@ Value of type <b>int</b> that contains the new button size, in pixels.
 
 
 
-If the pager control has the <a href="https://www.bing.com/search?q=PGS_HORZ">PGS_HORZ</a> style, the button size determines the width of the pager buttons. If the pager control has the <a href="https://www.bing.com/search?q=PGS_VERT">PGS_VERT</a> style, the button size determines the height of the pager buttons. By default, the pager control sets its button size to three-fourths of the width of the scroll bar. 
+If the pager control has the <a href="Pager_Control_Styles.htm">PGS_HORZ</a> style, the button size determines the width of the pager buttons. If the pager control has the <a href="Pager_Control_Styles.htm">PGS_VERT</a> style, the button size determines the height of the pager buttons. By default, the pager control sets its button size to three-fourths of the width of the scroll bar. 
 
 
 

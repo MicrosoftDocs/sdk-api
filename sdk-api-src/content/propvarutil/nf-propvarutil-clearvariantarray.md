@@ -98,7 +98,7 @@ This function releases the memory and references held by each structure in the a
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=ClearVariantArray">ClearVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearVariantArray">ClearVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -122,11 +122,11 @@ ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://www.bing.com/search?q=ClearPropVariantArray">ClearPropVariantArray</a>
+<a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=FreePropVariantArray">FreePropVariantArray</a>
+<a href="shell.FreePropVariantArray">FreePropVariantArray</a>
  
 
  

@@ -110,7 +110,7 @@ The method succeeded.
 The <b>identifier</b> property is an unambiguous reference to the resource within a user-defined
 or application-specific context.
 
-This method allocates the memory used by the string that is returned in <i>identifier</i>.  If <i>identifier</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>identifier</i>.  If <i>identifier</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

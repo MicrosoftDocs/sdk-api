@@ -84,7 +84,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a> data object.
+The object should be obtained as an <a href="_ole_idataobject">IDataObject</a> data object.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The object should be obtained as an <a href="/windows/desktop/api/objidl/nn-obji
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://docs.microsoft.com/windows/desktop//WinAuto/accessible-objects">Accessible object</a>.
+The object should be obtained as an <a href="_msaa_accessible_objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -252,11 +252,11 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//WinAuto/accessible-objects">Accessible Objects</a>
+<a href="_msaa_accessible_objects">Accessible Objects</a>
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

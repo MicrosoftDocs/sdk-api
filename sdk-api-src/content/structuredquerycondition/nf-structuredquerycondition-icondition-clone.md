@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-        Because there are no methods for modifying an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>, there are few occasions when this method is necessary. In many cases it is adequate to call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method on the <b>ICondition</b> to obtain an additional reference to the same object.
+        Because there are no methods for modifying an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>, there are few occasions when this method is necessary. In many cases it is adequate to call the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method on the <b>ICondition</b> to obtain an additional reference to the same object.
       
 
 

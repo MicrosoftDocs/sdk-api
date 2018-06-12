@@ -65,7 +65,7 @@ The minimum zoom level allowed. Must be greater than or equal to 0.1f, which cor
 
 ### -param zoomMaximum [in]
 
-The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="https://www.bing.com/search?q=FLT_MAX">FLT_MAX</a>.
+The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="_pluslang_Floating_Limits">FLT_MAX</a>.
 
 
 ## -returns

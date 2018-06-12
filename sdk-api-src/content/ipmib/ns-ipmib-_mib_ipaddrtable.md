@@ -99,7 +99,7 @@ To view an example that retrieves the <b>MIB_IPADDRTABLE</b> structure and then 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
+<a href="_iphlp_getipaddrtable">GetIpAddrTable</a>
 
 
 

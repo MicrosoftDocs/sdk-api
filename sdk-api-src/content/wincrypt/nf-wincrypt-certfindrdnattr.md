@@ -92,7 +92,7 @@ Returns a pointer to the attribute, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

@@ -141,7 +141,7 @@ If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VA
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleArray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -179,23 +179,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
+<a href="shell.InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="shell.PropVariantToDoubleVector">PropVariantToDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantGetDoubleElem">VariantGetDoubleElem</a>
+<a href="shell.VariantGetDoubleElem">VariantGetDoubleElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDouble">VariantToDouble</a>
+<a href="shell.VariantToDouble">VariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArrayAlloc">VariantToDoubleArrayAlloc</a>
+<a href="shell.VariantToDoubleArrayAlloc">VariantToDoubleArrayAlloc</a>
  
 
  

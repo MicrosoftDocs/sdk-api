@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 
-The <b>NdrProxyFreeBuffer</b> function calls the <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer.md">IRpcChannelBuffer::FreeBuffer</a> method to free the RPC buffer and release <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer.md">IRpcChannelBuffer</a>.
+The <b>NdrProxyFreeBuffer</b> function calls the <a href="_com_irpcchannelbuffer_freebuffer">IRpcChannelBuffer::FreeBuffer</a> method to free the RPC buffer and release <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>.
 
 
 

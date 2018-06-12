@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines operations and session settings.  Any Windows Remote Management operations require creation of an <b>IWSManSession</b> object that connects to a remote computer, <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">base management controller</a> (BMC), or the local computer. WinRM network operations include getting, writing, enumerating data, or invoking methods.  The methods of the <b>IWSManSession</b> object mirror the basic  operations defined in the WS-Management protocol.
+Defines operations and session settings.  Any Windows Remote Management operations require creation of an <b>IWSManSession</b> object that connects to a remote computer, <a href="windows_remote_management_glossary.htm">base management controller</a> (BMC), or the local computer. WinRM network operations include getting, writing, enumerating data, or invoking methods.  The methods of the <b>IWSManSession</b> object mirror the basic  operations defined in the WS-Management protocol.
 
 
 ## -inheritance

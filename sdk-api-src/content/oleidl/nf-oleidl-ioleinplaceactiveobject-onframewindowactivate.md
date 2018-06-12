@@ -78,7 +78,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://www.bing.com/search?q=GetMessage">GetMessage</a>
+<a href="_win32_GetMessage_cpp">GetMessage</a>
 
 
 
@@ -86,7 +86,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://www.bing.com/search?q=PeekMessage">PeekMessage</a>
+<a href="_win32_PeekMessage_cpp">PeekMessage</a>
  
 
  

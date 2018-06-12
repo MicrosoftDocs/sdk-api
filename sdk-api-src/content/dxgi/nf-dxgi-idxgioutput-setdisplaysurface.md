@@ -71,7 +71,7 @@ A pointer to a surface (see <a href="https://msdn.microsoft.com/9210b966-9e9a-4c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 
@@ -87,7 +87,7 @@ Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a
 This method should only be called between <a href="https://msdn.microsoft.com/8687a41c-8d18-47e2-bb58-ccbf6a21566f">IDXGIOutput::TakeOwnership</a> and <a href="https://msdn.microsoft.com/93a8123c-4e6a-4287-8ef1-1154e8bf8d83">IDXGIOutput::ReleaseOwnership</a> calls.
 
 <h3><a id="Notes_for_Windows_Store_apps"></a><a id="notes_for_windows_store_apps"></a><a id="NOTES_FOR_WINDOWS_STORE_APPS"></a>Notes for Windows Store apps</h3>
-If a Windows Store app uses <b>SetDisplaySurface</b>, it fails with <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
+If a Windows Store app uses <b>SetDisplaySurface</b>, it fails with <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
 
 
 

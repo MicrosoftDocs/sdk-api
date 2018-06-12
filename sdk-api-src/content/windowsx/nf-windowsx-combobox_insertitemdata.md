@@ -84,7 +84,7 @@ The item data to insert.
 
 
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://www.bing.com/search?q=CBS_HASSTRINGS">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>.
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>.
 	
 
 

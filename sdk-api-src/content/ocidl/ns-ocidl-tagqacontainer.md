@@ -126,7 +126,7 @@ Specifies Palette, an ambient property supplied by the container with a DISPID =
 
 ### -field pBindHost
 
-A pointer to an <a href="https://www.bing.com/search?q=IBindHost">IBindHost</a> interface in the container.
+A pointer to an <a href="_inet_IBindHost_Interface_cpp">IBindHost</a> interface in the container.
 
 
 ### -field pOleControlSite
@@ -136,7 +136,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8b022f2c-d4b4-44ca-8e69-46e
 
 ### -field pServiceProvider
 
-A pointer to the <a href="https://www.bing.com/search?q=IServiceProvider">IServiceProvider</a> interface in the container.
+A pointer to the <a href="_inet_IServiceProvider_Interface_cpp">IServiceProvider</a> interface in the container.
 
 
 ## -remarks

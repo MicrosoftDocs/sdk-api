@@ -84,7 +84,7 @@ Pointer to the completion routine called when the provider change notification i
 If no error occurs the 
 <b>WSAProviderConfigChange</b> returns 0. Otherwise, a value of SOCKET_ERROR is returned and a specific error code may be retrieved by calling 
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>. The error code 
-<a href="https://www.bing.com/search?q=WSA_IO_PENDING">WSA_IO_PENDING</a> indicates that the overlapped operation has been successfully initiated and that completion (and thus change event) will be indicated at a later time.
+<a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a> indicates that the overlapped operation has been successfully initiated and that completion (and thus change event) will be indicated at a later time.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ If no error occurs the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +117,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSA_NOT_ENOUGH_MEMORY">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +128,7 @@ Not enough free memory available to complete the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSA_INVALID_HANDLE">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ Value pointed by <i>lpNotificationHandle</i> parameter is not a valid notificati
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">

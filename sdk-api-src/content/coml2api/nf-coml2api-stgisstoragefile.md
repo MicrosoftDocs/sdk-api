@@ -70,8 +70,8 @@ Pointer to the null-terminated Unicode string name of the disk file to be examin
 
 
 <b>StgIsStorageFile</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a> and 
-<a href="https://docs.microsoft.com/windows/desktop//com/handling-unknown-errors">Handling Unknown Errors</a>
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>
 
 
 

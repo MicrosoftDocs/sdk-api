@@ -172,7 +172,7 @@ The specified shadow copy does not exist.
 
 
 
-The caller of this method must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> when it finishes accessing the component information.
+The caller of this method must call <a href="_com_iunknown_release">IUnknown::Release</a> when it finishes accessing the component information.
 
 <b>GetWriterComponents</b> retrieves component information for a component stored in the Backup Components Document by earlier calls to 
 <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a>.

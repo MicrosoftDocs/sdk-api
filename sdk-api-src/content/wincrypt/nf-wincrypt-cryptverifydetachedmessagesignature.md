@@ -199,7 +199,7 @@ The message's signature was not verified.
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

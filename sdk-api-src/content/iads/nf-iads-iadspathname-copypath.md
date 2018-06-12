@@ -62,7 +62,7 @@ The <b>IADsPathname::CopyPath</b> method
 
 ### -param ppAdsPath [out]
 
-The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface pointer on the 
+The <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer on the 
       returned <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> object.
 
 

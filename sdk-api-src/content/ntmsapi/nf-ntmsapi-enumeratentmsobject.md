@@ -492,7 +492,7 @@ If more than one object is listed, the object may be enumerated from more than o
 
 
 
-<a href="https://www.bing.com/search?q=Object+Management+Functions">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
 
 
 

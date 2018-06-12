@@ -53,8 +53,8 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>NDR_USER_MARSHAL_INFO</b> structure holds information about the state of an RPC call that can be passed to 
-<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a> and 
-<a href="https://www.bing.com/search?q=user_marshal">user_marshal</a> helper functions.
+<a href="midl.wire_marshal">wire_marshal</a> and 
+<a href="midl.user_marshal">user_marshal</a> helper functions.
 
 
 ## -struct-fields
@@ -84,8 +84,8 @@ An
 
 The function 
 <a href="https://msdn.microsoft.com/772979eb-eb1c-4e41-91bf-f64766898c8a">NdrGetUserMarshalInfo</a> fills this structure with supplemental information for the 
-<a href="https://www.bing.com/search?q=user_marshal">user_marshal</a> and 
-<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a> helper functions &lt;type&gt;_UserSize, &lt;type&gt;_UserMarshal, &lt;type&gt;_UserUnmarshal, and &lt;type&gt;_UserFree. This information supplements the <i>pFlags</i> parameter that is passed to these helper functions. Not all of these fields will contain valid information in all contexts. Level1.pRpcChannelBuffer is only valid for COM interfaces, and the buffer fields are only valid when 
+<a href="midl.user_marshal">user_marshal</a> and 
+<a href="midl.wire_marshal">wire_marshal</a> helper functions &lt;type&gt;_UserSize, &lt;type&gt;_UserMarshal, &lt;type&gt;_UserUnmarshal, and &lt;type&gt;_UserFree. This information supplements the <i>pFlags</i> parameter that is passed to these helper functions. Not all of these fields will contain valid information in all contexts. Level1.pRpcChannelBuffer is only valid for COM interfaces, and the buffer fields are only valid when 
 <b>NdrGetUserMarshalInfo</b> is called from &lt;type&gt;_UserMarshal or &lt;type&gt;_UserUnmarshal.
 
 

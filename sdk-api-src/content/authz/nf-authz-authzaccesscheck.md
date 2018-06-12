@@ -205,7 +205,7 @@ For more information, see the <a href="https://msdn.microsoft.com/dc98b23e-ce42-
 
 
 
-<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

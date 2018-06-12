@@ -62,7 +62,7 @@ Specifies the type of shader patching used by GPU-Based Validation at either the
 
 ### -field D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE
 
-No shader patching is to be done.  This will retain the original shader bytecode.  Can lead to errors in some of the GPU-Based Validation state tracking as the unpatched shader may still change resource state (see <a href="https://docs.microsoft.com/windows/desktop//direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Common state promotion</a>) but the promotion will be untracked without patching the shader.  This can improve performance but no validation will be performed and may also lead to misleading GPU-Based Validation errors. Use this mode very carefully. 
+No shader patching is to be done.  This will retain the original shader bytecode.  Can lead to errors in some of the GPU-Based Validation state tracking as the unpatched shader may still change resource state (see <a href="using_resource_barriers_to_synchronize_resource_states_in_direct3d_12.htm">Common state promotion</a>) but the promotion will be untracked without patching the shader.  This can improve performance but no validation will be performed and may also lead to misleading GPU-Based Validation errors. Use this mode very carefully. 
 
 
 ### -field D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY

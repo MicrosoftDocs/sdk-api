@@ -167,7 +167,7 @@ The specified component does not exist.
 
 
 
-The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95">IVssWMComponent</a> object.
 
 

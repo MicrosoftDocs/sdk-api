@@ -179,7 +179,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Applications running in the system security context do not get shut down by the operating system. They get notified of shutdown or logoff through the callback function installable via 
-<a href="https://www.bing.com/search?q=SetConsoleCtrlHandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
+<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
 
 
 
@@ -201,7 +201,7 @@ Applications running in the system security context do not get shut down by the 
 
 
 
-<a href="https://www.bing.com/search?q=SetConsoleCtrlHandler">SetConsoleCtrlHandler</a>
+<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>
  
 
  

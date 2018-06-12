@@ -77,7 +77,7 @@ The Boolean value of the non-interactive flag. If <i>NonInteractive</i> is set t
 
 
 
-Installation applications and <a href="https://www.bing.com/search?q=co-installers">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
+Installation applications and <a href="devinst.writing_a_co_installer">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
 
 An installation application or an installer can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552207">SetupGetNonInteractiveMode</a> to retrieve the current value of the non-interactive flag. 
 

@@ -62,7 +62,7 @@ A related interface, <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateEnrollmentServerSetup</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>ICertificateEnrollmentServerSetup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateEnrollmentServerSetup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertificateEnrollmentServerSetup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -166,7 +166,7 @@ Retrieves a string that contains additional information about CES setup failure.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

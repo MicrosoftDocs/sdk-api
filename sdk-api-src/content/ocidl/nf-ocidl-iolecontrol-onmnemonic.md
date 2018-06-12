@@ -61,7 +61,7 @@ Informs a control that the user has pressed a keystroke that represents a keyboa
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=MSG">MSG</a> structure describing the keystroke to be processed.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure describing the keystroke to be processed.
 
 
 ## -returns

@@ -114,7 +114,7 @@ See
 
 
 
-<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

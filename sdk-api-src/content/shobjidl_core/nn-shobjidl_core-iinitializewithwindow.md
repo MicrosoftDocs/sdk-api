@@ -101,7 +101,7 @@ This interface is implemented by the following objects. Note that this is necess
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=267494">Windows.Storage.Pickers.FileOpenPicker</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=267495">Windows.Storage.Pickers.FileSavePicker</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=267496">Windows.Storage.Pickers.FolderPicker</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop//shell/dataobject">CLSID_DragDropHelper</a></li>
+<li><a href="dataobject.htm">CLSID_DragDropHelper</a></li>
 </ul>
 
 

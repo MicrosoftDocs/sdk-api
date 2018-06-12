@@ -287,7 +287,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

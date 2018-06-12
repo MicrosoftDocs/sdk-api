@@ -116,7 +116,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://docs.microsoft.com/windows/desktop//Rpc/rpc-return-values">RPC Return Values</a>.
+This method can also return remote procedure call (RPC) return values. For more information, see <a href="_rpc_rpc_return_values">RPC Return Values</a>.
 
 To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
 

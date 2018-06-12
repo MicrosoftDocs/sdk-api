@@ -207,16 +207,16 @@ To receive remote procedure call requests, a server must register at least one p
 <a href="https://msdn.microsoft.com/3633842c-d1f5-46d9-866e-e54f31415ea5">ncacn_nb_tcp</a>
 </li>
 <li>
-<a href="https://www.bing.com/search?q=ncacn_nb_ipx">ncacn_nb_ipx</a>
+<a href="midl.ncacn_nb_ipx">ncacn_nb_ipx</a>
 </li>
 <li>
-<a href="https://www.bing.com/search?q=ncadg_mq">ncadg_mq</a>
+<a href="midl.ncadg_mq">ncadg_mq</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/3165e4f6-8869-4eff-af65-53e85f78a949">ncacn_at_dsp</a>
 </li>
 <li>
-<a href="https://www.bing.com/search?q=ncacn_http">ncacn_http</a>
+<a href="midl.ncacn_http">ncacn_http</a>
 </li>
 </ul>
 </div>

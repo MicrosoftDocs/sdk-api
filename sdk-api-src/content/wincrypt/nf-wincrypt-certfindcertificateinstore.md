@@ -658,7 +658,7 @@ if(hSystemStore)
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Functions">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

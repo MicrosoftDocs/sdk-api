@@ -84,7 +84,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-        Possible attributes include the <a href="https://docs.microsoft.com/windows/desktop//wpd_sdk/wpd-attributes">WPD_EVENT_ATTRIBUTE_NAME</a>, WPD_EVENT_ATTRIBUTE_PARAMETERS, and WPD_EVENT_ATTRIBUTE_OPTIONS properties.
+        Possible attributes include the <a href="wpd_attributes.htm">WPD_EVENT_ATTRIBUTE_NAME</a>, WPD_EVENT_ATTRIBUTE_PARAMETERS, and WPD_EVENT_ATTRIBUTE_OPTIONS properties.
       
 
 

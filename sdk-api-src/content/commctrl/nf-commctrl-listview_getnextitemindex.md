@@ -198,7 +198,7 @@ Searches for an item to the right of the specified item.
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://www.bing.com/search?q=LVIS_CUT">LVIS_CUT</a> state flag set.
+The item has the <a href="List_view_item_states.htm">LVIS_CUT</a> state flag set.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ The item has the <a href="https://www.bing.com/search?q=LVIS_CUT">LVIS_CUT</a> s
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://www.bing.com/search?q=LVIS_DROPHILITED">LVIS_DROPHILITED</a> state flag set
+The item has the <a href="List_view_item_states.htm">LVIS_DROPHILITED</a> state flag set
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ The item has the <a href="https://www.bing.com/search?q=LVIS_DROPHILITED">LVIS_D
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://www.bing.com/search?q=LVIS_FOCUSED">LVIS_FOCUSED</a> state flag set.
+The item has the <a href="List_view_item_states.htm">LVIS_FOCUSED</a> state flag set.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ The item has the <a href="https://www.bing.com/search?q=LVIS_FOCUSED">LVIS_FOCUS
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://www.bing.com/search?q=LVIS_SELECTED">LVIS_SELECTED</a> state flag set.
+The item has the <a href="List_view_item_states.htm">LVIS_SELECTED</a> state flag set.
 
 </td>
 </tr>

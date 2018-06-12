@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to retrieve the network share paths that are mapped to a local path.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmPathMapper</b> as the class identifier and 
     <code>__uuidof(IFsrmPathMapper)</code> as the interface identifier.
 

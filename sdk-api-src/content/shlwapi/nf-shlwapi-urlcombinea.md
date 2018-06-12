@@ -239,7 +239,7 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
 
 
 

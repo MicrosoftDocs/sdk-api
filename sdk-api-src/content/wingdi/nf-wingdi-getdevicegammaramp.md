@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>GetDeviceGammaRamp</b> function gets the <a href="https://www.bing.com/search?q=gamma+ramp">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>GetDeviceGammaRamp</b> function gets the <a href="g.htm">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 ## -parameters

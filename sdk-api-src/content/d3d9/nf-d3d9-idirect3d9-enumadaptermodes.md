@@ -91,7 +91,7 @@ A pointer to the available display mode of type <a href="https://msdn.microsoft.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 <ul>
 <li>If the device can be used on this adapter, D3D_OK is returned.</li>

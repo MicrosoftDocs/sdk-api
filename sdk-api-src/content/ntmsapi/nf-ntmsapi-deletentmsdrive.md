@@ -192,7 +192,7 @@ You can use this function to remove drives that are no longer connected to the R
 
 
 
-<a href="https://www.bing.com/search?q=Library+Control+Functions">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

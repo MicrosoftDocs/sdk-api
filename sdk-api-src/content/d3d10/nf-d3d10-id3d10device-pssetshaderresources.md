@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Bind an array of shader resources to the <a href="https://www.bing.com/search?q=pixel+shader+stage">pixel shader stage</a>.
+Bind an array of shader resources to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader stage</a>.
 
 
 ## -parameters

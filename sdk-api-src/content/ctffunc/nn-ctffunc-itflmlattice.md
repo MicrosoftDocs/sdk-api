@@ -99,7 +99,7 @@ Determines if a specific lattice element type is supported by the lattice proper
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

@@ -68,9 +68,9 @@ Pointer to an instance of the <a href="https://msdn.microsoft.com/library/window
 
 ### -param ppd [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>*</b>
+Type: <b><a href="shell.IPropertyDescription">IPropertyDescription</a>*</b>
 
-Pointer to an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> interface, which represents the property in the property store.
+Pointer to an instance of the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface, which represents the property in the property store.
 
 
 ### -param ppropvar [out]
@@ -95,12 +95,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to read a property value from a store. If the calling code already has a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> directly.
+This helper function is used to read a property value from a store. If the calling code already has a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> directly.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSGetPropertyValue">PSGetPropertyValue</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyValue">PSGetPropertyValue</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,7 +132,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=PSSetPropertyValue">PSSetPropertyValue</a>
+<a href="shell.PSSetPropertyValue">PSSetPropertyValue</a>
  
 
  

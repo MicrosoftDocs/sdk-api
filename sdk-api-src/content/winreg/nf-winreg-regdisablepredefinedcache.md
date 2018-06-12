@@ -83,7 +83,7 @@ If the function fails, the return value is a
 
 
 Any access of <b>HKEY_CURRENT_USER</b> after this function is called will result in operations being performed on <b>HKEY_USERS</b>\<b>SID_of_current_user</b>,  or on <b>HKEY_USERS\.DEFAULT</b> if the current user's hive is not loaded. For more information on SIDs, see 
-<a href="https://www.bing.com/search?q=Security+Identifiers">Security Identifiers</a>.
+<a href="security.security_identifiers_sids_">Security Identifiers</a>.
 
 
 

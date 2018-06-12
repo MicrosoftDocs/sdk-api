@@ -131,7 +131,7 @@ This parameter is reserved for future use and should always be set to <b>false</
 ### -param bSelectableForRestore [in]
 
 A Boolean value that determines whether a component can be individually restored when it has not been 
-      <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-e">explicitly included</a> in 
+      <a href="vssgloss_e.htm">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       

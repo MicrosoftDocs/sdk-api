@@ -171,7 +171,7 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 
-<a href="https://www.bing.com/search?q=Anchors">Anchors</a>
+<a href="ranges.htm">Anchors</a>
 
 
 

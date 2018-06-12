@@ -121,7 +121,7 @@ For a shader-constant buffer; set <i>pDstBox</i> to <b>NULL</b>. It is not possi
 A resource cannot be used as a destination if:
 
 <ul>
-<li>the resource is created with <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">immutable</a> or <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">dynamic</a> usage.</li>
+<li>the resource is created with <a href="d3d11_usage.htm">immutable</a> or <a href="d3d11_usage.htm">dynamic</a> usage.</li>
 <li>the resource is created as a depth-stencil resource.</li>
 <li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>).</li>
 </ul>

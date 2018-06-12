@@ -88,7 +88,7 @@ The low 64 bits of the product.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/f68914b9-bffb-4e46-b1ba-4c249f7b4ecc">__mul128</a>
+<a href="f68914b9-bffb-4e46-b1ba-4c249f7b4ecc">__mul128</a>
  
 
  

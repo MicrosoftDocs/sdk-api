@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage quotas.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmQuotaManager</b> as the class identifier and 
     <code>__uuidof(IFsrmQuotaManager)</code> as the interface identifier. For 
     an example, see <a href="https://msdn.microsoft.com/b4471a75-f8c9-48aa-8ce3-1e998dbe6952">Defining a Quota</a>.

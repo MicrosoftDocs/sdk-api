@@ -349,7 +349,7 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

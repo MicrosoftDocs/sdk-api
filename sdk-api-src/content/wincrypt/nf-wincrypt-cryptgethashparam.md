@@ -278,7 +278,7 @@ The CSP context that was specified when the hash was created cannot be found.
 
 
 
-<a href="https://www.bing.com/search?q=Hash+and+Digital+Signature+Functions">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

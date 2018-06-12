@@ -68,7 +68,7 @@ Client or server binding handle.
 ### -param ObjectUuid
 
 Returns a pointer to the object 
-<a href="https://www.bing.com/search?q=UUID">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
+<a href="midl.uuid">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The binding handle was invalid.
 
 An application calls the 
 <b>RpcBindingInqObject</b> function to see the object 
-<a href="https://www.bing.com/search?q=UUID">UUID</a> associated with a client or server binding handle.
+<a href="midl.uuid">UUID</a> associated with a client or server binding handle.
 
 
 

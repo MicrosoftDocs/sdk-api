@@ -101,12 +101,12 @@ The cursor is a shared resource. A window should move the cursor only when the c
 
 The calling process must have <b>WINSTA_WRITEATTRIBUTES</b> access to the window station.
 
-The input desktop must be the current desktop when you call <b>SetCursorPos</b>. Call <a href="https://www.bing.com/search?q=OpenInputDesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://www.bing.com/search?q=SetThreadDesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
+The input desktop must be the current desktop when you call <b>SetCursorPos</b>. Call <a href="base.openinputdesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="base.setthreaddesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Using+the+Keyboard+to+Move+the+Cursor">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 

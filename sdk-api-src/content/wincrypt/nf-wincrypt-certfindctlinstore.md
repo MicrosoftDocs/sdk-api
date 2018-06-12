@@ -306,7 +306,7 @@ A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subse
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Trust+List+Functions">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

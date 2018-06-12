@@ -62,7 +62,7 @@ Obtains a <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff425
 
 ### -param dstFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop//wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="_wic_codec_native_pixel_formats.htm">REFWICPixelFormatGUID</a></b>
 
 The pixel format to convert to.
 

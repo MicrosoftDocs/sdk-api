@@ -204,7 +204,7 @@ When the read buffer is very small,
 <b>WinHttpReadData</b> might complete synchronously.  If the WINHTTP_CALLBACK_STATUS_READ_COMPLETE completion triggers another call to 
 <b>WinHttpReadData</b>, the situation can result in a stack overflow.  In general, it is best to use a read buffer that is comparable in size, or larger than the internal read buffer used by WinHTTP, which is 8 KB.
 
-If you are using <b>WinHttpReadData</b> synchronously, and the return value is <b>TRUE</b> and the number of bytes read is zero, the transfer has been completed and there are no more bytes to read on the handle. This is analogous to reaching end-of-file in a local file. If you are using the function asynchronously, the <a href="https://www.bing.com/search?q=WINHTTP_CALLBACK_STATUS_READ_COMPLETE">WINHTTP_CALLBACK_STATUS_READ_COMPLETE</a> callback is called with the <i>dwStatusInformationLength</i> parameter set to zero when the end of a response is found. 
+If you are using <b>WinHttpReadData</b> synchronously, and the return value is <b>TRUE</b> and the number of bytes read is zero, the transfer has been completed and there are no more bytes to read on the handle. This is analogous to reaching end-of-file in a local file. If you are using the function asynchronously, the <a href="internet_status_callback_prototype.htm">WINHTTP_CALLBACK_STATUS_READ_COMPLETE</a> callback is called with the <i>dwStatusInformationLength</i> parameter set to zero when the end of a response is found. 
 
 <b>WinHttpReadData</b> tries to fill the buffer pointed to by 
 <i>lpBuffer</i> until there is no more data available from the response.  If sufficient data has not arrived from the server, the buffer is not filled.

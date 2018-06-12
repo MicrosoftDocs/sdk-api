@@ -77,7 +77,7 @@ The address of a pointer to a <a href="https://msdn.microsoft.com/EBBB2EE1-C5EA-
 Returns S_OK if successful; otherwise, returns one of the following values:
 
 <ul>
-<li><a href="https://www.bing.com/search?q=DXGI_ERROR_INVALID_CALL">DXGI_ERROR_INVALID_CALL</a> if the index is out of range or if the subresource is not a valid surface.</li>
+<li><a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if the index is out of range or if the subresource is not a valid surface.</li>
 <li>E_OUTOFMEMORY if insufficient memory is available to create the subresource surface object.</li>
 </ul>
 A subresource is a valid surface if the original resource would have been a valid surface had its array size been equal to 1.

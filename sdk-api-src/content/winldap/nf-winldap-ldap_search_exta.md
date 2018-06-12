@@ -194,7 +194,7 @@ Multithreading: Calls to <b>ldap_search_ext</b> are thread-safe.
 
 
 
-<a href="https://www.bing.com/search?q=Change+Notifications+in+Active+Directory">Change Notifications in Active Directory</a>
+<a href="ad.change_notifications_in_active_directory">Change Notifications in Active Directory</a>
 
 
 

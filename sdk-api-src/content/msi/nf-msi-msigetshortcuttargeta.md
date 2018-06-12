@@ -103,10 +103,10 @@ This function returns UINT.
 
 
 If the function fails, and the shortcut exists, the regular contents of the shortcut may be accessed through the 
-<a href="https://www.bing.com/search?q=IShellLink">IShellLink</a> interface.
+<a href="_win32_ishelllink_cpp">IShellLink</a> interface.
 
 Otherwise, the state of the target may be determined by using the 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer Selection Functions</a>.
+<a href="database_functions.htm">Installer Selection Functions</a>.
 
 
 

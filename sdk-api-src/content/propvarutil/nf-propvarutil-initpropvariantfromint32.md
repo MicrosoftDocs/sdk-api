@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromInt32">InitPropVariantFromInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt32">InitPropVariantFromInt32</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,15 +124,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromInt32">InitVariantFromInt32</a>
+<a href="shell.InitVariantFromInt32">InitVariantFromInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt32">PropVariantToInt32</a>
+<a href="shell.PropVariantToInt32">PropVariantToInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt32WithDefault">PropVariantToInt32WithDefault</a>
+<a href="shell.PropVariantToInt32WithDefault">PropVariantToInt32WithDefault</a>
  
 
  

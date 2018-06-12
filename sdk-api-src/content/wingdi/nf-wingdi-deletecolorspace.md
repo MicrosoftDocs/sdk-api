@@ -55,7 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="https://www.bing.com/search?q=color+space">color space</a>.
+The <b>DeleteColorSpace</b> function removes and destroys a specified <a href="c.htm">color space</a>.
 
 
 ## -parameters
