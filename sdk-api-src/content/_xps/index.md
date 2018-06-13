@@ -2,7 +2,7 @@
 UID: TP:xps
 ms.assetid: 047318b5-29f7-3069-a13a-0bf4c2391b71
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:shellscalingapi
 ms.assetid: d748591d-610c-3f80-98ea-e0680533f5c1
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

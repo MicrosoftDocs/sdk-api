@@ -2,7 +2,7 @@
 UID: NA:naptypes
 ms.assetid: e50324ba-586f-3cfc-a612-55cd4b98b0d0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

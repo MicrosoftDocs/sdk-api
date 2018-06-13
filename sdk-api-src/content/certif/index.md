@@ -2,7 +2,7 @@
 UID: NA:certif
 ms.assetid: 46b60b96-dbb0-37db-bbea-3f9737cc804a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

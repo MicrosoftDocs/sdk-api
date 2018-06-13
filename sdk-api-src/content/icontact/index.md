@@ -2,7 +2,7 @@
 UID: NA:icontact
 ms.assetid: c62c671d-c967-3561-84d5-ca8e3fe1b2f6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

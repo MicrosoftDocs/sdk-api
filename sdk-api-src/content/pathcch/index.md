@@ -2,7 +2,7 @@
 UID: NA:pathcch
 ms.assetid: ab3e7970-7d47-36c6-9ee7-3d6d2da2d9ec
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

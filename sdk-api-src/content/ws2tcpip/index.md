@@ -2,7 +2,7 @@
 UID: NA:ws2tcpip
 ms.assetid: 7f63b2fa-054f-3bc8-9525-e1c5930d172a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

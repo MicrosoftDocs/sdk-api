@@ -2,7 +2,7 @@
 UID: NA:bluetoothleapis
 ms.assetid: da12075a-3734-36fe-b142-5e2c72776d23
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
