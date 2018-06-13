@@ -2,7 +2,7 @@
 UID: NA:eaptypes
 ms.assetid: aa5c1d16-98ea-35f5-b0bc-bd0f3d4ef3d5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

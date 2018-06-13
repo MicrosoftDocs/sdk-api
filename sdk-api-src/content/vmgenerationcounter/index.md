@@ -2,7 +2,7 @@
 UID: NA:vmgenerationcounter
 ms.assetid: c9a85bb9-c109-36da-9be3-f8ea5a305a83
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

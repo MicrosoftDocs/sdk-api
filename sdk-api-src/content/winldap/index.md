@@ -2,7 +2,7 @@
 UID: NA:winldap
 ms.assetid: 12d3afbf-4b23-3b4f-a06d-76bbe045a2c9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

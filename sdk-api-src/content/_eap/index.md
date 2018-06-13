@@ -2,7 +2,7 @@
 UID: TP:eap
 ms.assetid: 2c2b371a-b75c-3d1c-9d43-32181af4e3e1
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

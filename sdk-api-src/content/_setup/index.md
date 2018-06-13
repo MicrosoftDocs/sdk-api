@@ -2,7 +2,7 @@
 UID: TP:setup
 ms.assetid: 333c3bdd-1089-3313-b2f3-8fa8322fcfb4
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

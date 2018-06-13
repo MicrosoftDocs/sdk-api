@@ -2,7 +2,7 @@
 UID: NA:mfspatialaudio
 ms.assetid: f7664979-6d9a-3c0e-8494-d7000a3bd374
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

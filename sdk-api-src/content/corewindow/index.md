@@ -2,7 +2,7 @@
 UID: NA:corewindow
 ms.assetid: 0875a51e-8a77-31d2-a86c-aeb2f40718a0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

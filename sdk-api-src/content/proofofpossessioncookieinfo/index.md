@@ -2,7 +2,7 @@
 UID: NA:proofofpossessioncookieinfo
 ms.assetid: 9bf43ccb-9843-3be5-ba59-3dea2bfe00cf
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/13/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
