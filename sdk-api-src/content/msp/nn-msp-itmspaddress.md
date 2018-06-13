@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 The 
-<b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="_com_cocreateinstance">CoCreateInstance</a> on this interface to create the MSP object.
+<b>ITMSPAddress</b> interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> on this interface to create the MSP object.
 
 
 ## -inheritance

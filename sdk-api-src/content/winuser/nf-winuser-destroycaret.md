@@ -85,7 +85,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. 
 
-For an example, see <a href="using_carets.htm">Destroying a Caret</a>
+For an example, see <a href="https://www.bing.com/search?q=Destroying+a+Caret">Destroying a Caret</a>
 
 
 

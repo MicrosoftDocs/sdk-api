@@ -76,7 +76,7 @@ A pointer to an array of
 
 
 
-The <a href="_iphlp_getudptable">GetUdpTable</a> function enumerates the table of UDP  endpoints for IPv4 that have been bound to an address on the local computer and returns this information in a <b>MIB_UDPTABLE</b> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a> function enumerates the table of UDP  endpoints for IPv4 that have been bound to an address on the local computer and returns this information in a <b>MIB_UDPTABLE</b> structure. 
 
 This table includes the local IPv4 address and port information for sending and receiving UDP datagrams on the local computer. An array of <a href="https://msdn.microsoft.com/db366802-962f-4e83-838e-1e2f51beab92">MIB_UDPROW</a> structures are contained in the <b>MIB_UDPTABLE</b> structure.
 
@@ -108,7 +108,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_getudptable">GetUdpTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a>
 
 
 

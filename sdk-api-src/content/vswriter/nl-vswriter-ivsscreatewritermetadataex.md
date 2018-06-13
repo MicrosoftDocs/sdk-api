@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 The 
-<b>IVssCreateWriterMetadataEx</b> interface is a C++ (not COM) interface that defines a method to report any <a href="vssgloss_f.htm">file sets</a> that will be explicitly excluded when a shadow copy is created. This interface is used only in 
+<b>IVssCreateWriterMetadataEx</b> interface is a C++ (not COM) interface that defines a method to report any <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">file sets</a> that will be explicitly excluded when a shadow copy is created. This interface is used only in 
 the <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriterEx::OnIdentifyEx</a> method.
 
 The <b>IVssCreateWriterMetadataEx</b> interface inherits from the <a href="https://msdn.microsoft.com/427ed302-c3b7-483a-aa48-da6fec1160a9">IVssCreateWriterMetadata</a> interface and <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>.
@@ -67,7 +67,7 @@ The <b>IVssCreateWriterMetadataEx</b> interface inherits from the <a href="https
 <td>
 <a href="https://msdn.microsoft.com/6be4c63c-c36a-4ff4-92b7-63b69a030b86">AddExcludeFilesFromSnapshot</a>
 </td>
-<td>Reports any <a href="vssgloss_f.htm">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.</td>
+<td>Reports any <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.</td>
 </tr>
 </table>
  

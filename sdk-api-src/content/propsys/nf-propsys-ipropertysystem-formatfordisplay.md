@@ -63,7 +63,7 @@ Gets a formatted, Unicode string representation of a property value.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the requested <a href="shell.PROPERTYKEY">property key</a>.
+A reference to the requested <a href="https://www.bing.com/search?q=property+key">property key</a>.
 
 
 ### -param propvar [in]
@@ -75,9 +75,9 @@ A reference to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8
 
 ### -param pdff [in]
 
-Type: <b><a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags.md">PROPDESC_FORMAT_FLAGS</a></b>
 
-The format of the property string. See <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> for possible values.
+The format of the property string. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags.md">PROPDESC_FORMAT_FLAGS</a> for possible values.
 
 
 ### -param pszText [out]
@@ -150,15 +150,15 @@ Memory allocation failed.
 
 
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before calling <a href="shell.IPropertySystem_FormatForDisplay">IPropertySystem::FormatForDisplay</a>.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before calling <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplay.md">IPropertySystem::FormatForDisplay</a>.
 
-When it succeeds, this method gets a formatted Unicode string representation of a property value for a specified <a href="shell.PROPERTYKEY">PROPERTYKEY</a>, and one or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>. If the <b>PROPERTYKEY</b> is not recognized by the schema subsystem, <a href="shell.IPropertySystem_FormatForDisplay">IPropertySystem::FormatForDisplay</a> attempts to format the value according to its <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a>.
+When it succeeds, this method gets a formatted Unicode string representation of a property value for a specified <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>, and one or more <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags.md">PROPDESC_FORMAT_FLAGS</a>. If the <b>PROPERTYKEY</b> is not recognized by the schema subsystem, <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplay.md">IPropertySystem::FormatForDisplay</a> attempts to format the value according to its <a href="https://msdn.microsoft.com/library/windows/desktop/317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a>.
 
-The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="shell.propdesc_schema_displayInfo">displayInfo</a>, <a href="shell.propdesc_schema_stringFormat">stringFormat</a>, <a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>, <a href="shell.propdesc_schema_numberFormat">numberFormat</a>, <a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>,  and <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.  Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
+The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags.md">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="https://www.bing.com/search?q=displayInfo">displayInfo</a>, <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat.md">stringFormat</a>, <a href="https://www.bing.com/search?q=booleanFormat">booleanFormat</a>, <a href="https://www.bing.com/search?q=numberFormat">numberFormat</a>, <a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>,  and <a href="https://www.bing.com/search?q=enumeratedList">enumeratedList</a>.  Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
 
 The output string may contain Unicode directional characters.  These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left-to-right (LTR) language is drawn on a right-to-left (RTL) window, and vice versa.  These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
-The properties in the following table use special formats and are unaffected by the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
+The properties in the following table use special formats and are unaffected by the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags.md">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
 
 <table class="clsStd">
 <tr>
@@ -262,7 +262,7 @@ If the property key does not correspond to a property description in any of the 
 </tr>
 <tr>
 <td>VT_FILETIME</td>
-<td>Date/time string as specified by <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
+<td>Date/time string as specified by <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags.md">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
 </tr>
 <tr>
 <td>Numeric VARTYPE</td>

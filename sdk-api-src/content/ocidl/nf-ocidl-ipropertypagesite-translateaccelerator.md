@@ -61,7 +61,7 @@ Passes a keystroke to the property frame for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure to be processed.
+A pointer to the <a href="https://www.bing.com/search?q=MSG">MSG</a> structure to be processed.
 
 
 ## -returns

@@ -83,7 +83,7 @@ A pointer to the length of the note, in characters.
 
 
 
-This macro works only with the <a href="Button_Styles.htm">BS_COMMANDLINK</a> and <a href="Button_Styles.htm">BS_DEFCOMMANDLINK</a> button styles.
+This macro works only with the <a href="https://www.bing.com/search?q=BS_COMMANDLINK">BS_COMMANDLINK</a> and <a href="https://www.bing.com/search?q=BS_DEFCOMMANDLINK">BS_DEFCOMMANDLINK</a> button styles.
 
 
 

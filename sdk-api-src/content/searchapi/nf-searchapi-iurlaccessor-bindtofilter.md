@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method retrieves an <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> to enumerate the properties of the item associated with the specified URL, based on the protocol's information about that URL.
             
 
-If the URL's content is also accessible from the <a href="_stg_istream">IStream</a> returned by <a href="https://msdn.microsoft.com/02dc13c0-01a4-416d-ba14-c0390b4c4aae">IUrlAccessor::BindToStream</a>, then a separate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>is invoked on the IStream to retrieve additional properties.
+If the URL's content is also accessible from the <a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a> returned by <a href="https://msdn.microsoft.com/02dc13c0-01a4-416d-ba14-c0390b4c4aae">IUrlAccessor::BindToStream</a>, then a separate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>is invoked on the IStream to retrieve additional properties.
             
 
 

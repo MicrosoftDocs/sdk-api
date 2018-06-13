@@ -110,7 +110,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="http.passport">Passport authentication</a> is to be used.
+<a href="https://www.bing.com/search?q=Passport+authentication">Passport authentication</a> is to be used.
 
 </td>
 </tr>

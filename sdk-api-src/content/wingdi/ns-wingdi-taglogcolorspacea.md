@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="c.htm">color space</a>.
+The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="https://www.bing.com/search?q=color+space">color space</a>.
 
 
 

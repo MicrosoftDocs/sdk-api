@@ -63,7 +63,7 @@ The
 ### -param pItem [in]
 
 Pointer to an 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface that specifies the item to remove.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface that specifies the item to remove.
 
 This parameter must not be <b>NULL</b>.
 

@@ -185,7 +185,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="Header_Control_Styles.htm">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista. </b> The point is within the state icon of the item.  If style <a href="https://www.bing.com/search?q=HDS_CHECKBOXES">HDS_CHECKBOXES</a> is specified, the point is within the checkbox of the item.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ The point is to the right of the header control's bounding rectangle.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="Header_Control_Styles.htm">HDS_OVERFLOW</a> must be set on the header control.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.00</a> and <b>Windows Vista.</b> The point is within the overflow button of the header control.  The style <a href="https://www.bing.com/search?q=HDS_OVERFLOW">HDS_OVERFLOW</a> must be set on the header control.
 
 </td>
 </tr>

@@ -101,12 +101,12 @@ req.product: Windows Media Format 9 Series or later
 
               A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the swap chain to restrict content to. If the swap chain 
               is moved to a different output, the content is black. You can optionally set this parameter to an output target that 
-              uses <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict 
+              uses <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict 
               the content on this output. If the swap chain is moved to a different output, the content is black.
             
 
 
-              You must also pass the <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a 
+              You must also pass the <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a 
               present call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. 
               However, you can conditionally restrict content 
               based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.

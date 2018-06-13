@@ -170,7 +170,7 @@ All impersonate functions, including <b>ImpersonateSecurityContext</b> allow the
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
  
 
  

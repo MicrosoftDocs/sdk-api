@@ -198,7 +198,7 @@ For the
 
 
 
-<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
+<a href="https://www.bing.com/search?q=Cleaner+Management+Functions">Cleaner Management Functions</a>
 
 
 

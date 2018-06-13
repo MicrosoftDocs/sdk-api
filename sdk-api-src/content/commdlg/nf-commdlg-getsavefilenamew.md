@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="_shell_common_file_dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="https://www.bing.com/search?q=Common+Item+Dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Creates a <b>Save</b> dialog box that lets the user specify the drive, directory, and name of a file to save.
 

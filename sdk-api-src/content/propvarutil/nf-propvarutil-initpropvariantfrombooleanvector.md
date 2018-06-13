@@ -100,7 +100,7 @@ This creates a <b>VT_BOOL</b> | <b>VT_VECTOR</b> propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -131,15 +131,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
 
 
 
-<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
+<a href="https://www.bing.com/search?q=InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
+<a href="https://www.bing.com/search?q=PropVariantToBooleanVector">PropVariantToBooleanVector</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-The <a href="base.vss_mgmt_object">VSS_MGMT_OBJECT_UNION</a> union 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> union 
     is a union of <a href="https://msdn.microsoft.com/f17765d5-ccb4-4ede-86e4-36ac80022da0">VSS_VOLUME_PROP</a>, 
     <a href="https://msdn.microsoft.com/c4a20583-7fee-4ae1-97ed-d80b2a7539e3">VSS_DIFF_VOLUME_PROP</a>, and 
     <a href="https://msdn.microsoft.com/9627d7b0-e9d0-425f-9051-cf4ab6b75a8c">VSS_DIFF_AREA_PROP</a> structures determined by the 
@@ -93,18 +93,18 @@ If the <b>Type</b> member of the
 
 
 
-The <a href="base.vss_mgmt_object">VSS_MGMT_OBJECT_UNION</a> structure is used only as a 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> structure is used only as a 
     member of the <a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a> 
     structure.
 
 Applications need to consult the <b>Type</b> member of 
     <a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a> to determine whether the 
-    <a href="base.vss_mgmt_object">VSS_MGMT_OBJECT_UNION</a> contains a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> contains a 
     <a href="https://msdn.microsoft.com/f17765d5-ccb4-4ede-86e4-36ac80022da0">VSS_VOLUME_PROP</a>, 
     <a href="https://msdn.microsoft.com/c4a20583-7fee-4ae1-97ed-d80b2a7539e3">VSS_DIFF_VOLUME_PROP</a>, or 
     <a href="https://msdn.microsoft.com/9627d7b0-e9d0-425f-9051-cf4ab6b75a8c">VSS_DIFF_AREA_PROP</a> object.
 
-When a <a href="base.vss_mgmt_object">VSS_MGMT_OBJECT_UNION</a> structure has been returned 
+When a <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> structure has been returned 
     by a member method of a COM interface (from, for example, 
     <a href="https://msdn.microsoft.com/0ddcf25d-dc3e-4522-a98e-98d867230d42">IVssEnumMgmtObject::Next</a>), an application 
     must call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> for every string and byte array 

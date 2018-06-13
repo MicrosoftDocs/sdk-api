@@ -77,7 +77,7 @@ Clipboard format to use. A value of zero will use the best available format.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HGLOBAL</a></b>
 
-Handle to a metafile containing the icon view of an object. The handle is used only if the <b>DVASPECT_ICON</b> display aspect is required by a <a href="_ole_OleUIPasteSpecial">Paste Special</a> operation. 
+Handle to a metafile containing the icon view of an object. The handle is used only if the <b>DVASPECT_ICON</b> display aspect is required by a <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">Paste Special</a> operation. 
 
 
 ## -returns

@@ -184,7 +184,7 @@ For an example that uses the <b>CryptDestroyKey</b>  function, see <a href="http
 
 
 
-<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
+<a href="https://www.bing.com/search?q=Key+Generation+and+Exchange+Functions">Key Generation and Exchange Functions</a>
  
 
  

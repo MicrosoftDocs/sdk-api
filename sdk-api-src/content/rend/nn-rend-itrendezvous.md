@@ -57,7 +57,7 @@ provides similar functionality.]
 
 The 
 <b>ITRendezvous</b> interface is the main interface for the Rendezvous control. An application calls the COM 
-<a href="_com_cocreateinstance">CoCreateInstance</a> function on this interface to create the Rendezvous object.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function on this interface to create the Rendezvous object.
 
 
 ## -inheritance

@@ -274,7 +274,7 @@ This indicates whether prime response is in the remote or local part of
 ### -param lpdwBufferLength [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by <i>lpqsResults</i>. On output, if the function fails and the error is 
-<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>, then it contains the minimum number of bytes to pass for the <i>lpqsResults</i> to retrieve the record.
+<a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a>, then it contains the minimum number of bytes to pass for the <i>lpqsResults</i> to retrieve the record.
 
 
 ### -param lpqsResults [out]
@@ -299,30 +299,30 @@ A pointer to a block of memory, which will contain one result set in a
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_E_CANCELLED</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSA_E_CANCELLED">WSA_E_CANCELLED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A call to 
-<a href="https://msdn.microsoft.com/f9d2ac54-a818-464d-918e-80ebb5b1b106">WSALookupServiceEnd</a> was made while this call was still processing. The call has been canceled. The data in the <i>lpqsResults</i> buffer is undefined. In Windows Sockets version 2, conflicting error codes are defined for <a href="windows_sockets_error_codes_2.htm">WSAECANCELLED</a> (10103) and <a href="windows_sockets_error_codes_2.htm">WSA_E_CANCELLED</a> (10111). The error code WSAECANCELLED will be removed in a future version and only WSA_E_CANCELLED will remain. For Windows Sockets version 2, however, applications should check for both WSAECANCELLED and WSA_E_CANCELLED for the widest possible compatibility with namespace providers that use either one.
+<a href="https://msdn.microsoft.com/f9d2ac54-a818-464d-918e-80ebb5b1b106">WSALookupServiceEnd</a> was made while this call was still processing. The call has been canceled. The data in the <i>lpqsResults</i> buffer is undefined. In Windows Sockets version 2, conflicting error codes are defined for <a href="https://www.bing.com/search?q=WSAECANCELLED">WSAECANCELLED</a> (10103) and <a href="https://www.bing.com/search?q=WSA_E_CANCELLED">WSA_E_CANCELLED</a> (10111). The error code WSAECANCELLED will be removed in a future version and only WSA_E_CANCELLED will remain. For Windows Sockets version 2, however, applications should check for both WSAECANCELLED and WSA_E_CANCELLED for the widest possible compatibility with namespace providers that use either one.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_E_NO_MORE</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSA_E_NO_MORE">WSA_E_NO_MORE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-There is no more data available. In Windows Sockets version 2, conflicting error codes are defined for <a href="windows_sockets_error_codes_2.htm">WSAENOMORE</a> (10102) and <a href="windows_sockets_error_codes_2.htm">WSA_E_NO_MORE</a> (10110). The error code WSAENOMORE will be removed in a future version and only WSA_E_NO_MORE will remain. For Windows Sockets version 2, however, applications should check for both WSAENOMORE and WSA_E_NO_MORE for the widest possible compatibility with name-space providers that use either one.
+There is no more data available. In Windows Sockets version 2, conflicting error codes are defined for <a href="https://www.bing.com/search?q=WSAENOMORE">WSAENOMORE</a> (10102) and <a href="https://www.bing.com/search?q=WSA_E_NO_MORE">WSA_E_NO_MORE</a> (10110). The error code WSAENOMORE will be removed in a future version and only WSA_E_NO_MORE will remain. For Windows Sockets version 2, however, applications should check for both WSAENOMORE and WSA_E_NO_MORE for the widest possible compatibility with name-space providers that use either one.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -334,7 +334,7 @@ The <i>lpqsResults</i> buffer was too small to contain a
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -345,7 +345,7 @@ One or more required parameters were invalid or missing.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSA_INVALID_HANDLE">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -356,7 +356,7 @@ The specified Lookup handle is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -368,7 +368,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSANO_DATA">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -379,7 +379,7 @@ The name was found in the database, but no data matching the given restrictions 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSA_NOT_ENOUGH_MEMORY">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -418,7 +418,7 @@ Also for example, if LUP_RETURN_BLOB is NOT specified at
 <b>WSALookupServiceNext</b>, the returned information does not include the private data. No error is generated.
 
 If the <b>WSALookupServiceNext</b> function fails with an error of 
-								<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>, this indicates that the buffer pointed to by the <i>lpqsResults</i> parameter was too small to contain the query results. A new buffer for a <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> should be provided with a size specified by the value pointed to by  the <i>lpdwBufferLength</i> parameter. This new buffer for the <b>WSAQUERYSET</b> needs to have some of the members of the <b>WSAQUERYSET</b> specified before calling the <b>WSALookupServiceNext</b> function again. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the new size of the buffer.
+								<a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a>, this indicates that the buffer pointed to by the <i>lpqsResults</i> parameter was too small to contain the query results. A new buffer for a <a href="https://msdn.microsoft.com/6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076">WSAQUERYSET</a> should be provided with a size specified by the value pointed to by  the <i>lpdwBufferLength</i> parameter. This new buffer for the <b>WSAQUERYSET</b> needs to have some of the members of the <b>WSAQUERYSET</b> specified before calling the <b>WSALookupServiceNext</b> function again. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the new size of the buffer.
 
 <h3><a id="Query_Results"></a><a id="query_results"></a><a id="QUERY_RESULTS"></a>Query Results</h3>
 

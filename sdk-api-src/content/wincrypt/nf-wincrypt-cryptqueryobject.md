@@ -806,7 +806,7 @@ If the function fails, it returns zero. For extended error information, call
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

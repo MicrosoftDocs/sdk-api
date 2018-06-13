@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pvarValue [out]
 
-Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
+Pointer to a <b>VARIANT</b> structure that receives the data. This receives VT_EMPTY if the compartment has no value. The caller must free this data when it is no longer required by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 
 ## -returns
@@ -147,7 +147,7 @@ The caller must recognize the supplied data format in order to use the data. The
 
 
 
-<a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
  
 
  

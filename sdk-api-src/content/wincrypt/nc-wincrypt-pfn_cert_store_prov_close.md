@@ -88,7 +88,7 @@ This callback function does not return a value.
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
  
 
  

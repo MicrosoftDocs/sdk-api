@@ -88,7 +88,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-If the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> becomes zero and a DLL is loaded for the function being freed, the DLL might be unloaded. If the DLL exports the <a href="_com_dllcanunloadnow">DLLCanUnloadNow</a> function, that function is called and its return is checked. An S_FALSE return from this function cancels the unloading of the DLL at this time. If the function returns S_TRUE or if the DLL does not export the <b>DLLCanUnloadNow</b> function, an unloading process is started. In this case, actual unloading is deferred for 15 seconds. If another <b>CryptFreeOIDFunctionAddress</b> or <a href="https://msdn.microsoft.com/3977368c-ad13-43f9-859b-10c7f170f482">CryptGetDefaultOIDFunctionAddress</a> that requires the DLL occurs before the 15 seconds elapse, the deferred unload process is canceled.
+If the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> becomes zero and a DLL is loaded for the function being freed, the DLL might be unloaded. If the DLL exports the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nc-combaseapi-lpfncanunloadnow">DLLCanUnloadNow</a> function, that function is called and its return is checked. An S_FALSE return from this function cancels the unloading of the DLL at this time. If the function returns S_TRUE or if the DLL does not export the <b>DLLCanUnloadNow</b> function, an unloading process is started. In this case, actual unloading is deferred for 15 seconds. If another <b>CryptFreeOIDFunctionAddress</b> or <a href="https://msdn.microsoft.com/3977368c-ad13-43f9-859b-10c7f170f482">CryptGetDefaultOIDFunctionAddress</a> that requires the DLL occurs before the 15 seconds elapse, the deferred unload process is canceled.
 
 
 
@@ -106,11 +106,11 @@ If the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd"
 
 
 
-<a href="_com_dllcanunloadnow">DLLCanUnloadNow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nc-combaseapi-lpfncanunloadnow">DLLCanUnloadNow</a>
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

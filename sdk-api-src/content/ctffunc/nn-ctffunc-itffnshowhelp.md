@@ -113,7 +113,7 @@ The TSF manager obtains the help menu text by calling the text service's <a href
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
  
 
  

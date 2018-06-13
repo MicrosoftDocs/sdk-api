@@ -61,7 +61,7 @@ Replaces the first occurrence of a change that affects the same property key as 
 
 ### -param ppropChange [in]
 
-Type: <b><a href="shell.IPropertyChange">IPropertyChange</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange.md">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change
 

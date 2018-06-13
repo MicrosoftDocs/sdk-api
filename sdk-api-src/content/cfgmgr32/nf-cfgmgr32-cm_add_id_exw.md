@@ -54,7 +54,7 @@ req.irql:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff537928">CM_Add_ID</a> instead.]
 
-The <b>CM_Add_ID_Ex</b> function appends a <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> (if not already present) to a device instance's <a href="devinst.hardware_ids">hardware ID</a> list or <a href="devinst.compatible_ids">compatible ID</a> list, on either the local or a remote machine.
+The <b>CM_Add_ID_Ex</b> function appends a <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> (if not already present) to a device instance's <a href="https://www.bing.com/search?q=hardware+ID">hardware ID</a> list or <a href="https://www.bing.com/search?q=compatible+ID">compatible ID</a> list, on either the local or a remote machine.
 
 
 ## -parameters

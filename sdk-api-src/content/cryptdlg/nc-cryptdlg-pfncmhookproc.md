@@ -91,7 +91,7 @@ Return a nonzero value (<b>TRUE</b>) if this function processes the message. Ret
 
 
 
-For information about hooks, see <a href="_win32_hooks_cpp">Hooks</a>.
+For information about hooks, see <a href="https://www.bing.com/search?q=Hooks">Hooks</a>.
 
 
 

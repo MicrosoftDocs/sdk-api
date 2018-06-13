@@ -63,7 +63,7 @@ Creates a Command object, specifying computers, catalogs, and scopes.
 
 ### -param ppCommand
 
-A pointer to an output variable that receives the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface pointer.
+A pointer to an output variable that receives the <a href="https://msdn.microsoft.com/library/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface pointer.
 
 
 ### -param cScope
@@ -78,17 +78,17 @@ A pointer to an array of values that represent the type of search (deep or shall
 
 ### -param awcsScope
 
-A pointer to a an array of null-terminated strings that specify the names of the file path(s) over which the query is processed. This is the value for the DBPROP_CI_INCLUDE_SCOPE property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"\" for the entire catalog. Use L"\" for the entire Internet Information Services (IIS) virtual-path namespace, but set QUERY_VIRTUAL_PATH in the <i>aDepths</i> parameter to indicate that the path is virtual.
+A pointer to a an array of null-terminated strings that specify the names of the file path(s) over which the query is processed. This is the value for the DBPROP_CI_INCLUDE_SCOPE property of the <a href="https://msdn.microsoft.com/library/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"\" for the entire catalog. Use L"\" for the entire Internet Information Services (IIS) virtual-path namespace, but set QUERY_VIRTUAL_PATH in the <i>aDepths</i> parameter to indicate that the path is virtual.
 
 
 ### -param awcsCatalogs
 
-A pointer to a an array of null-terminated strings that specify the names of the catalogs used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. 
+A pointer to a an array of null-terminated strings that specify the names of the catalogs used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="https://msdn.microsoft.com/library/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. 
 
 
 ### -param awcsMachine
 
-A pointer to a null-terminated string that specifies the name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"." for the local computer.
+A pointer to a null-terminated string that specifies the name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="https://msdn.microsoft.com/library/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a> interface. Use L"." for the local computer.
 
 
 ## -returns
@@ -192,7 +192,7 @@ The <b>CIMakeICommand</b> function does not return an error if the catalog or co
 
 
 
-<a href="089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/089427ad-5ba3-4613-b89e-8e86420ccc30">ICommand</a>
  
 
  

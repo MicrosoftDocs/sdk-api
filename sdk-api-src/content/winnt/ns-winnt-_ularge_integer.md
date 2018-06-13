@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Represents a 64-bit unsigned integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="midl.__int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://www.bing.com/search?q=__int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 

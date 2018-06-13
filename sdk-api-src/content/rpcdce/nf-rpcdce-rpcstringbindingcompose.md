@@ -65,7 +65,7 @@ The
 ### -param ObjUuid
 
 Pointer to a <b>null</b>-terminated string representation of an object 
-<a href="midl.uuid">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
+<a href="https://www.bing.com/search?q=UUID">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
 
 
 ### -param ProtSeq

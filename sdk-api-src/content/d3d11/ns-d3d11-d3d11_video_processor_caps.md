@@ -70,7 +70,7 @@ A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.micro
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="mf.d3d11_video_processpr_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_filter_caps">D3D11_VIDEO_PROCESSPR_FILTER_CAPS</a> enumeration.
 
 
 ### -field InputFormatCaps

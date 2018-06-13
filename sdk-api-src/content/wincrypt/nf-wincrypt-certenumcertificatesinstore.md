@@ -240,7 +240,7 @@ if (!CertCloseStore(
 
 
 
-<a href="cryptography_functions.htm">Certificate Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Functions">Certificate Functions</a>
  
 
  

@@ -143,7 +143,7 @@ A handle to a header control.
 
 
 
-A header control set to the <a href="Header_Control_Styles.htm">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
+A header control set to the <a href="https://www.bing.com/search?q=HDS_DRAGDROP">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
 
 
 

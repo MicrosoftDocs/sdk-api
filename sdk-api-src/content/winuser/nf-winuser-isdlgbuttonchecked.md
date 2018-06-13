@@ -82,7 +82,7 @@ The identifier of the button control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The return value from a button created with the <a href="Button_Styles.htm">BS_AUTOCHECKBOX</a>, <a href="Button_Styles.htm">BS_AUTORADIOBUTTON</a>, <a href="Button_Styles.htm">BS_AUTO3STATE</a>, <a href="Button_Styles.htm">BS_CHECKBOX</a>, <a href="Button_Styles.htm">BS_RADIOBUTTON</a>, or <a href="Button_Styles.htm">BS_3STATE</a> styles can be one of the values in the following table. If the button has any other style, the return value is zero. 
+The return value from a button created with the <a href="https://www.bing.com/search?q=BS_AUTOCHECKBOX">BS_AUTOCHECKBOX</a>, <a href="https://www.bing.com/search?q=BS_AUTORADIOBUTTON">BS_AUTORADIOBUTTON</a>, <a href="https://www.bing.com/search?q=BS_AUTO3STATE">BS_AUTO3STATE</a>, <a href="https://www.bing.com/search?q=BS_CHECKBOX">BS_CHECKBOX</a>, <a href="https://www.bing.com/search?q=BS_RADIOBUTTON">BS_RADIOBUTTON</a>, or <a href="https://www.bing.com/search?q=BS_3STATE">BS_3STATE</a> styles can be one of the values in the following table. If the button has any other style, the return value is zero. 
 				
 
 <table>
@@ -108,7 +108,7 @@ The button is checked.
 </dl>
 </td>
 <td width="60%">
-The button is in an indeterminate state (applies only if the button has the <a href="Button_Styles.htm">BS_3STATE</a> or <a href="Button_Styles.htm">BS_AUTO3STATE</a> style).
+The button is in an indeterminate state (applies only if the button has the <a href="https://www.bing.com/search?q=BS_3STATE">BS_3STATE</a> or <a href="https://www.bing.com/search?q=BS_AUTO3STATE">BS_AUTO3STATE</a> style).
 
 </td>
 </tr>

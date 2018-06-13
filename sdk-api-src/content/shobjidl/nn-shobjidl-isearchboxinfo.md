@@ -101,7 +101,7 @@ The search box is shown here in an Windows Explorer window frame.
 <img alt="Screen shot of upper-right corner of explorer frame showing search box" src="images/searchbox.jpg"/>
 The frame that contains the search box might also be hosted in another window or in the common file dialog box.
 
-To access the search dialog, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.
+To access the search dialog, use <a href="https://www.bing.com/search?q=QueryService">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided with Windows. Third parties do not need to implement their own version.

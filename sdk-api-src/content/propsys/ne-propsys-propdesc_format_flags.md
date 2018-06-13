@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Used by property description helper functions, such as <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a>, to indicate the format of a property string.
+Used by property description helper functions, such as <a href="https://www.bing.com/search?q=PSFormatForDisplay">PSFormatForDisplay</a>, to indicate the format of a property string.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ Use the format settings specified in the property's .propdesc file.
 
 ### -field PDFF_PREFIXNAME
 
-Precede the value with the property's display name. If the <i>hideLabelPrefix</i> attribute of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propinfo file is set to <b>true</b>, then this flag is ignored.
+Precede the value with the property's display name. If the <i>hideLabelPrefix</i> attribute of the <a href="https://www.bing.com/search?q=labelInfo">labelInfo</a> element in the property's .propinfo file is set to <b>true</b>, then this flag is ignored.
 
 
 ### -field PDFF_FILENAME
@@ -76,7 +76,7 @@ Treat the string as a file name.
 
 ### -field PDFF_ALWAYSKB
 
-Byte sizes are always displayed in KB, regardless of size. This enables clean alignment of the values in the column. This flag applies only to properties that have been declared as type <b>Integer</b> in the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propinfo file. This flag overrides the <a href="shell.propdesc_schema_numberFormat">numberFormat</a> setting.
+Byte sizes are always displayed in KB, regardless of size. This enables clean alignment of the values in the column. This flag applies only to properties that have been declared as type <b>Integer</b> in the <i>displayType</i> attribute of the <a href="https://www.bing.com/search?q=displayInfo">displayInfo</a> element in the property's .propinfo file. This flag overrides the <a href="https://www.bing.com/search?q=numberFormat">numberFormat</a> setting.
 
 
 ### -field PDFF_RESERVED_RIGHTTOLEFT

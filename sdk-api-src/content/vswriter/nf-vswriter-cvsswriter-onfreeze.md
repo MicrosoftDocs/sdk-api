@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 The 
-<b>OnFreeze</b> method is called by a writer on receipt of a <a href="vssgloss_f.htm">Freeze</a> event at the start of a shadow copy freeze. A writer uses this method to perform operations needed to participate in the freeze or to veto the freeze.
+<b>OnFreeze</b> method is called by a writer on receipt of a <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">Freeze</a> event at the start of a shadow copy freeze. A writer uses this method to perform operations needed to participate in the freeze or to veto the freeze.
 
 <b>OnFreeze</b> is a pure virtual method. It is not implemented by the 
 <a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> base class, and must be implemented by derived classes.
@@ -85,7 +85,7 @@ The implementation of this method must return <b>true</b> except in the case of 
 In this method, the writer application should put itself into a well-defined state that is compatible with the VSS operation.
    
 
-In this method, the writer should complete final preparations to support the creation of a shadow copy. Once the shadow copy is created, the writer will receive the <a href="vssgloss_t.htm">Thaw</a> event and can continue normal operations.
+In this method, the writer should complete final preparations to support the creation of a shadow copy. Once the shadow copy is created, the writer will receive the <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-t">Thaw</a> event and can continue normal operations.
 
 By default, the time-out window between Freeze and Thaw events is 60 seconds. That is, if a Thaw event is not received with the time-out window, an Abort event will be generated. Writers can change the time-out window at initialization time by setting the <i>dwTimeoutFreeze</i> argument to 
 <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>.
@@ -102,7 +102,7 @@ If the writer cannot put itself into a well-defined state for the Freeze, the fo
 </ol>
 Writers should never throw an exception from this method or any other <b>CVssWriter(Ex)::On<i>Xxx</i></b> callback method.
 
-The time-out window for handling the Freeze event is typically relatively short as compared to that for handling the <a href="vssgloss_p.htm">PrepareForSnapshot</a> event. Therefore, developers should avoid lengthy operations in this method. A typical use might be to suspend logging by the writer.
+The time-out window for handling the Freeze event is typically relatively short as compared to that for handling the <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-p">PrepareForSnapshot</a> event. Therefore, developers should avoid lengthy operations in this method. A typical use might be to suspend logging by the writer.
 
 It is recommended that all time-consuming operations be handled by 
 <a href="https://msdn.microsoft.com/a077323e-d04c-4bf7-8aa6-5028fa1c6e6b">CVssWriter::OnPrepareSnapshot</a>.
@@ -112,7 +112,7 @@ Either
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> will be called after this method.
 
 If this method calls the <a href="https://msdn.microsoft.com/bea5ba9c-538b-453f-ae6d-12b94b8edeb6">CVssWriterEx2::GetSessionId</a>, <a href="https://msdn.microsoft.com/9fef9d77-dc0d-4ba0-a317-5c62355458f7">CVssWriter::SetWriterFailure</a>, or <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="writers.htm">Writer Event Handling</a>.
+<a href="https://www.bing.com/search?q=Writer+Event+Handling">Writer Event Handling</a>.
 
 
 

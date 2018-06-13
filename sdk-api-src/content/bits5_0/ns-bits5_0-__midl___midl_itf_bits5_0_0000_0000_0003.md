@@ -64,7 +64,7 @@ The <b>BITS_JOB_PROPERTY_VALUE</b> union provides the
 
 This value is returned when using the enum property ID 
       <b>BITS_JOB_PROPERTY_ID_COST_FLAGS</b> and is applied as the 
-      <a href="bits_job_transfer_policy.htm">transfer policy</a> on the BITS job.
+      <a href="/windows/desktop/api/bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001">transfer policy</a> on the BITS job.
 
 This value is also used when using the <b>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</b> to specify the minimum notification interval.
 

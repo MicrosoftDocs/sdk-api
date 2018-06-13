@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 Used to manage report jobs.
 
 To get this interface, call the 
-    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmReportManager</b> as the class identifier and 
     <code>__uuidof(IFsrmReportManager)</code> as the interface identifier. For 
     an example, see <a href="https://msdn.microsoft.com/a91c4fe7-ec8c-4d2b-b565-559e16668c87">Defining a Report Job</a>.
