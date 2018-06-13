@@ -61,7 +61,7 @@ The <b>SetupDiAskForOEMDisk</b> function displays a dialog that asks the user fo
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for the local computer. This set contains a device information element that represents the device that is being installed. 
+A handle to a <a href="devinst.device_information_sets">device information set</a> for the local computer. This set contains a device information element that represents the device that is being installed. 
 
 
 ### -param DeviceInfoData [in, optional]

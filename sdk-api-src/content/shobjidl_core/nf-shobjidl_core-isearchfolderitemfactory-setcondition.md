@@ -82,7 +82,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-clone.md">ICondition::Clone</a>
+<a href="_search_ICondition_Clone">ICondition::Clone</a>
 
 
 

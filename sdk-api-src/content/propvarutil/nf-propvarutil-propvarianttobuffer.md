@@ -139,7 +139,7 @@ The<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PRO
 
 This function is used in places where the calling application expects a<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>to hold a buffer value. The calling application should check that the value has the expected length before calling this function.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_VECTOR | VT_UI1 or VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the value and places them in the buffer pointed to by <i>pv</i>. If the value has fewer than <i>cb</i> bytes, then <a href="https://www.bing.com/search?q=PropVariantToBuffer">PropVariantToBuffer</a> fails and the buffer is not modified. If the value has more than <i>cb</i> bytes, then <b>PropVariantToBuffer</b> succeeds and truncates the value.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_VECTOR | VT_UI1 or VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the value and places them in the buffer pointed to by <i>pv</i>. If the value has fewer than <i>cb</i> bytes, then <a href="shell.PropVariantToBuffer">PropVariantToBuffer</a> fails and the buffer is not modified. If the value has more than <i>cb</i> bytes, then <b>PropVariantToBuffer</b> succeeds and truncates the value.
 
 
 #### Examples
@@ -186,11 +186,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>
+<a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBuffer">VariantToBuffer</a>
+<a href="shell.VariantToBuffer">VariantToBuffer</a>
  
 
  

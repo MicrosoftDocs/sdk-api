@@ -96,7 +96,7 @@ Type: <b>LPCTSTR</b>
 
 The resource type. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
 
-resource type. For standard resource types, see <a href="https://www.bing.com/search?q=Resource+Types">Resource Types</a>. For more information, see the Remarks section below.
+resource type. For standard resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. For more information, see the Remarks section below.
 
 
 ## -returns
@@ -181,7 +181,7 @@ String resources are stored in sections of up to 16 strings per section. The str
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Updating+Resources">Updating Resources</a>.
+For an example, see <a href="using_resources.htm">Updating Resources</a>.
 
 <div class="code"></div>
 

@@ -120,7 +120,7 @@ The caller must call this function for a security context when that security con
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

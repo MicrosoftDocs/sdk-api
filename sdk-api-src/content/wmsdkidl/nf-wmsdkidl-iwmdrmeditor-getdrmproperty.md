@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ]
 
 
-The <b>GetDRMProperty</b> method retrieves the specified <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">DRM</a> property.
+The <b>GetDRMProperty</b> method retrieves the specified <a href="wmformat_glossary.htm">DRM</a> property.
 
 
 

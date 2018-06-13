@@ -61,7 +61,7 @@ Gets the condition type and default condition operation to use when displaying t
 
 ### -param pcontype [out]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_condition_type.md">PROPDESC_CONDITION_TYPE</a>*</b>
+Type: <b><a href="shell.PROPDESC_CONDITION_TYPE">PROPDESC_CONDITION_TYPE</a>*</b>
 
 A pointer to a value that indicates the condition type.
 
@@ -88,7 +88,7 @@ Always returns <b>S_OK</b>.
 
 
 
-For more information, see the <i>conditionType</i> attribute of the <a href="https://www.bing.com/search?q=typeInfo">typeInfo</a> element in the property's .propdesc file.
+For more information, see the <i>conditionType</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -98,7 +98,7 @@ For more information, see the <i>conditionType</i> attribute of the <a href="htt
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

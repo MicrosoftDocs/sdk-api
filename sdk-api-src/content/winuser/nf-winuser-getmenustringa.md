@@ -171,7 +171,7 @@ The <i>lpString</i> parameter is a <b>TCHAR</b> buffer, and <i>nMaxCount</i> is 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editable+Accelerators">Creating User Editable Accelerators</a>. 
+For an example, see <a href="using_keyboard_accelerators.htm">Creating User Editable Accelerators</a>. 
 
 <div class="code"></div>
 

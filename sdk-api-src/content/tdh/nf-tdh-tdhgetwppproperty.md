@@ -128,7 +128,7 @@ The specified property was not found.
 </dl>
 </td>
 <td width="60%">
-<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://www.bing.com/search?q=TdhGetWppProperty">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
+<i>BufferSize</i> is too small. To get the required buffer size, call <a href="TdhGetWppProperty">TdhGetWppProperty</a> twice, once with a null buffer and a pointer to retrieve the buffer size and then again with the correctly sized buffer.
 
 </td>
 </tr>

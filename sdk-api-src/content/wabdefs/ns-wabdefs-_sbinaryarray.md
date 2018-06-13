@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as <a href="https://msdn.microsoft.com/library/windows/desktop/31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a>.
+Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as <a href="31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a>.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Variable of type <b>ULONG</b> that specifies the number of entry identifiers.
 
 ### -field lpbin
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a>*</b>
+Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a>*</b>
 
-Array of variables of type <a href="https://msdn.microsoft.com/library/windows/desktop/7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a> that specify the entry identifiers.
+Array of variables of type <a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a> that specify the entry identifiers.
 

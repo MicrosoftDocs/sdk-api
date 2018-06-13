@@ -145,7 +145,7 @@ This function can be used to shut down the <a href="https://msdn.microsoft.com/3
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_I8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,15 +130,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromInt64">InitPropVariantFromInt64</a>
+<a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromInt64">InitVariantFromInt64</a>
+<a href="shell.InitVariantFromInt64">InitVariantFromInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt64Vector">PropVariantToInt64Vector</a>
+<a href="shell.PropVariantToInt64Vector">PropVariantToInt64Vector</a>
  
 
  

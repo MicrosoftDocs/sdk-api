@@ -64,7 +64,7 @@ Retrieves a value (internal value-type property) from a chunk, which must have a
 
 ### -param ppPropValue [out]
 
-A pointer to an output variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the value-type property. 
+A pointer to an output variable that receives a pointer to the <a href="_stg_propvariant">PROPVARIANT</a> structure that contains the value-type property. 
 
 
 ## -returns
@@ -130,7 +130,7 @@ Note that the effect of producing the same value from more than one chunk is und
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Allocate the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. Some <b>PROPVARIANT</b> structures contain pointers, which can be freed by calling the <a href="https://www.bing.com/search?q=PropVariantClear">PropVariantClear</a> function. It is up to the caller of the <b>GetValue</b> method to call <b>PropVariantClear</b>.
+Allocate the <a href="_stg_propvariant">PROPVARIANT</a> structure with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. Some <b>PROPVARIANT</b> structures contain pointers, which can be freed by calling the <a href="_stg_propvariantclear">PropVariantClear</a> function. It is up to the caller of the <b>GetValue</b> method to call <b>PropVariantClear</b>.
 
 
 

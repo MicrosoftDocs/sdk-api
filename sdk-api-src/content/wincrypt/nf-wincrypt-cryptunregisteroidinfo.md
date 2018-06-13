@@ -101,7 +101,7 @@ If the function fails, the return value is zero (FALSE).
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

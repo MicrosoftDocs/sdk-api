@@ -84,7 +84,7 @@ Pointer to the buffer resource data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. The following list contains some of the reasons that <b>Map</b> can fail:
       

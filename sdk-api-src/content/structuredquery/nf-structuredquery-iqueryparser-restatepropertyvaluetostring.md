@@ -77,7 +77,7 @@ Reserved. Must be <b>FALSE</b>.
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the property name as a Unicode string. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to the property name as a Unicode string. The calling application must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ### -param ppszQueryString [out]
@@ -85,7 +85,7 @@ Receives a pointer to the property name as a Unicode string. The calling applica
 Type: <b>LPWSTR*</b>
 
 
-                  Receives a pointer to a query string for that property. The calling application must free the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+                  Receives a pointer to a query string for that property. The calling application must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

@@ -72,7 +72,7 @@ Pointer to an array of information IDs. This pointer cannot be <b>NULL</b>.
 
 ### -param pInfoValues [out]
 
-Pointer to a <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of 
+Pointer to a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> of 
       information values.
 
 
@@ -110,7 +110,7 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a>
+<a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a>
 
 
 

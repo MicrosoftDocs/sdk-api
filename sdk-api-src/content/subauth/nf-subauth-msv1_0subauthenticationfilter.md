@@ -130,7 +130,7 @@ Returns the members of the <a href="https://msdn.microsoft.com/18cf7194-4309-47b
 <td width="60%">
 Write the data contained in the <b>Parameters</b> member of the <i>UserAll</i> structure back to the SAM database.
 
-If the size of the <b>Parameters</b> member's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> buffer is changed, <b>Msv1_0SubAuthenticationFilter</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://www.bing.com/search?q=MIDL_user_allocate">MIDL_user_allocate</a> function.
+If the size of the <b>Parameters</b> member's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> buffer is changed, <b>Msv1_0SubAuthenticationFilter</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="midl.midl_user_allocate_1">MIDL_user_allocate</a> function.
 
 </td>
 </tr>

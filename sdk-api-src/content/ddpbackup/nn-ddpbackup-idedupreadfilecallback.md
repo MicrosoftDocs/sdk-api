@@ -103,7 +103,7 @@ Provides the application with a preview of the sequence of reads that are pendin
 
 
 
-The <b>IDedupReadFileCallback</b> interface is implemented by a backup application and passed as a parameter to the <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles.md">IDedupBackupSupport::RestoreFiles</a> method. The callback is used by Data Deduplication to read data from Data Duplication store containers in the backup store.  <b>IDedupReadFileCallback</b> also includes methods that applications can optionally implement to increase the efficiency of the Data Deduplication file restore process.
+The <b>IDedupReadFileCallback</b> interface is implemented by a backup application and passed as a parameter to the <a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a> method. The callback is used by Data Deduplication to read data from Data Duplication store containers in the backup store.  <b>IDedupReadFileCallback</b> also includes methods that applications can optionally implement to increase the efficiency of the Data Deduplication file restore process.
 
 
 
@@ -113,7 +113,7 @@ The <b>IDedupReadFileCallback</b> interface is implemented by a backup applicati
 
 
 
-<a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles.md">IDedupBackupSupport::RestoreFiles</a>
+<a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a>
  
 
  

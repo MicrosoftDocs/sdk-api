@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 Sets the date and time value at a specified property to a given 
-    <a href="https://msdn.microsoft.com/library/windows/desktop/6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
+    <a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
 
 
 ## -parameters
@@ -76,10 +76,10 @@ CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param ftDateTime [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a></b>
+Type: <b><a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure to use for date. 
+<a href="6ca5e0f1-24f8-4087-bf13-7a417bed3ccd">FILETIME</a> structure to use for date. 
 
 
 ## -returns

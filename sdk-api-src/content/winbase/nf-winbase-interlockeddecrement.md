@@ -89,7 +89,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 32-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/windows/desktop/5268fce3-86b5-4b2b-b96c-2e531a3fb9b5">_InterlockedDecrement</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="5268fce3-86b5-4b2b-b96c-2e531a3fb9b5">_InterlockedDecrement</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

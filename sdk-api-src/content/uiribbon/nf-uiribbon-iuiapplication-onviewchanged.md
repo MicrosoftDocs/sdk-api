@@ -79,7 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/9df0b3b7-f41b-4f0b-aa04-307b2eb7652
 
 ### -param view [in]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>*</b>
+Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
 
 
 					A pointer to the View interface.

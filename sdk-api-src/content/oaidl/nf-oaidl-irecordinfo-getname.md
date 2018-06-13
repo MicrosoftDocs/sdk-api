@@ -132,7 +132,7 @@ The state of the type library is not valid for this operation.
 
 
 
-The caller must free the BSTR by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring.md">SysFreeString</a>.
+The caller must free the BSTR by calling <a href="8F230EE3-5F6E-4CB9-A910-9C90B754DCD3">SysFreeString</a>.
 
 
 

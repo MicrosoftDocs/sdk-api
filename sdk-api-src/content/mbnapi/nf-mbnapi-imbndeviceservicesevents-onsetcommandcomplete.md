@@ -61,7 +61,7 @@ Notification method indicating that a device service <b>SET</b> request has comp
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object on which the operation was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the operation was requested.
 
 
 ### -param responseID [in]

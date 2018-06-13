@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromDouble">InitVariantFromDouble</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDouble">InitPropVariantFromDouble</a>
+<a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDouble">VariantToDouble</a>
+<a href="shell.VariantToDouble">VariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleWithDefault">VariantToDoubleWithDefault</a>
+<a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a>
  
 
  

@@ -161,7 +161,7 @@ The library request has been queued for cancellation.
 
 
 
-<a href="https://www.bing.com/search?q=Library+Control+Functions">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

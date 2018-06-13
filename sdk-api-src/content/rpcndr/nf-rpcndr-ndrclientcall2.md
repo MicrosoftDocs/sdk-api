@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://www.bing.com/search?q=/Oicf">/Oicf</a> mode stub.
+The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="midl._oi">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall2</b> function is used by all <a href="https://www.bing.com/search?q=/Oicf">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall2</b> function is used by all <a href="midl._oi">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 

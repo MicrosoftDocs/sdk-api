@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Set an array of sampler states to the <a href="https://www.bing.com/search?q=geometry+shader">geometry shader</a> pipeline stage.
+Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader</a> pipeline stage.
 
 
 ## -parameters

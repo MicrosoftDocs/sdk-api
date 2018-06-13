@@ -630,7 +630,7 @@ else
 
 
 
-<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
 
 
 

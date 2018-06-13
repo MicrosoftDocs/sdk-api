@@ -263,7 +263,7 @@ Note that <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
 
 
 

@@ -63,7 +63,7 @@ Gets whether this row is allowed to be broken across pages.
 
 Type: <b>long*</b>
 
-A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that indicates whether this row can be broken across pages.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row can be broken across pages.
 
 
 ## -returns

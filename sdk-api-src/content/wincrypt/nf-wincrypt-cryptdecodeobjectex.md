@@ -378,7 +378,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://www.bing.com/search?q=Object+Encoding+and+Decoding+Functions">Object Encoding and Decoding Functions</a>
+<a href="cryptography_functions.htm">Object Encoding and Decoding Functions</a>
  
 
  

@@ -79,7 +79,7 @@ The browser's user-agent string.
 
 ### -field wszBrowserWebPage
 
-Web page that contains the <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">plug-in</a>.
+Web page that contains the <a href="wmformat_glossary.htm">plug-in</a>.
 
 
 ### -field qwReserved

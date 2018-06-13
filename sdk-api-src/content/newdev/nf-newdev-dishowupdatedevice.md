@@ -66,7 +66,7 @@ A handle to the top-level window that <b>DiShowUpdateDevice</b> uses to display 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
 
 
 ### -param DeviceInfoData [in]
@@ -124,7 +124,7 @@ The user canceled the Hardware Update wizard.
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://www.bing.com/search?q=Installing+Devices+on+64-Bit+Systems">Installing Devices on 64-Bit Systems</a>. 
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="devinst.device_installations_on_64_bit_systems">Installing Devices on 64-Bit Systems</a>. 
 
 </td>
 </tr>

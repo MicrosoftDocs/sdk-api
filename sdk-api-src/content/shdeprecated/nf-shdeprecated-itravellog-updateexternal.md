@@ -51,7 +51,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Deprecated. Updates an entry that originated out of the current procedure through <a href="https://www.bing.com/search?q=IHlinkFrame">IHlinkFrame</a>.
+Deprecated. Updates an entry that originated out of the current procedure through <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame</a>.
 
 
 ## -parameters

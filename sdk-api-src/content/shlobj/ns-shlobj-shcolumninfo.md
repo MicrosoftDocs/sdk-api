@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCO
 
 ### -field vt
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
 The native <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> type of the column's data.
 

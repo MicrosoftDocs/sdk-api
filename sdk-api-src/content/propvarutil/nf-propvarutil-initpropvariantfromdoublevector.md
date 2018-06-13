@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_R8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,15 +130,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDouble">InitPropVariantFromDouble</a>
+<a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
+<a href="shell.InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="shell.PropVariantToDoubleVector">PropVariantToDoubleVector</a>
  
 
  

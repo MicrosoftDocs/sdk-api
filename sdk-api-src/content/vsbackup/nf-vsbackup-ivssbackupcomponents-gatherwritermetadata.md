@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 The 
-<b>GatherWriterMetadata</b> method prompts each writer to send the metadata they have collected. The method will generate an <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-i">Identify</a> event to communicate with writers.
+<b>GatherWriterMetadata</b> method prompts each writer to send the metadata they have collected. The method will generate an <a href="vssgloss_i.htm">Identify</a> event to communicate with writers.
 
 
 ## -parameters

@@ -74,7 +74,7 @@ This is because UWP applications are forced into FLIP swap modes (even if other 
 time used by the memory copies originally done by the older bitblt model.
 
 The recommended approach is to manually convert DX11 Discard swap chains to use flip models within UWP,  using <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> instead of <b>DXGI_SWAP_EFFECT_DISCARD</b> where possible.
- Refer to the Example below, and see <a href="https://www.bing.com/search?q=this+article">this article</a> for more information.</div>
+ Refer to the Example below, and see <a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">this article</a> for more information.</div>
 <div> </div>
 
 ### -field DXGI_SWAP_EFFECT_SEQUENTIAL
@@ -85,7 +85,7 @@ The recommended approach is to manually convert DX11 Discard swap chains to use 
               This flag cannot be used with multisampling.
             
 
-<div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="https://www.bing.com/search?q=this+article">this article</a> for more information.</div>
+<div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">this article</a> for more information.</div>
 <div> </div>
 
 ### -field DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL

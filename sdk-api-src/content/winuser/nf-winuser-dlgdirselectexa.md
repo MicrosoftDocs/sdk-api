@@ -139,7 +139,7 @@ If the string is as long or longer than the buffer, the buffer will contain the 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+a+Directory+Listing+in+a+Single-selection+List+Box">Creating a Directory Listing in a Single-selection List Box</a>.
+For an example, see <a href="Using_List_Boxes.htm">Creating a Directory Listing in a Single-selection List Box</a>.
 
 <div class="code"></div>
 

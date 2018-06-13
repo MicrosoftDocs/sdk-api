@@ -89,7 +89,7 @@ Resources associated with a menu that is assigned to a window are freed automati
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Adding+Lines+and+Graphs+to+a+Menu">Adding Lines and Graphs to a Menu</a>.
+For an example, see <a href="using_menus.htm">Adding Lines and Graphs to a Menu</a>.
 
 <div class="code"></div>
 

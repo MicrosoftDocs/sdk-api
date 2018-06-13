@@ -164,7 +164,7 @@ and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="ht
 
 
 
-<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

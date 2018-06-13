@@ -163,7 +163,7 @@ When you have finished using the buffer, free it by calling the <a href="https:/
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> value, which can be one of the following values or one of the 
-<a href="https://docs.microsoft.com/windows/desktop//SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

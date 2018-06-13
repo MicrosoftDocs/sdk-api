@@ -78,7 +78,7 @@ Currently, a copy is not made of the handle, and the returned handle is the same
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

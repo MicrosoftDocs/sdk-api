@@ -149,7 +149,7 @@ Type: <b>LPCWSTR</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
                 Returns S_OK if successful; otherwise, returns one of the following values:
@@ -173,7 +173,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52
 
 
 
-In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_fence_flag.md">D3D11_FENCE_FLAG</a> enumeration.
+In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="direct3d11.d3d11fenceflag">D3D11_FENCE_FLAG</a> enumeration.
 
 
 

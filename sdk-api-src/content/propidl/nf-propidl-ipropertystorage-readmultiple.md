@@ -89,7 +89,7 @@ Caller-allocated array of a
 						This method supports the standard return value <b>E_UNEXPECTED</b>, as well as the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop//com/error-handling-strategies">Error Handling Strategies</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a>.
 
 For more information, see 
 <a href="https://msdn.microsoft.com/7540966f-a3b2-46c9-9e04-b15133a517eb">Property Storage Considerations</a>.

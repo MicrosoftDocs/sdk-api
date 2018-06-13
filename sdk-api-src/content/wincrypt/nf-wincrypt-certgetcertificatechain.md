@@ -379,7 +379,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Chain+Verification+Functions">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
  
 
  

@@ -93,7 +93,7 @@ The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Confining+a+Cursor">Confining a Cursor</a>.
+For an example, see <a href="using_cursors.htm">Confining a Cursor</a>.
 
 <div class="code"></div>
 

@@ -109,7 +109,7 @@ A pointer to a pointer to provider's copy of the CRL context. The context will b
 
 
 
-<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

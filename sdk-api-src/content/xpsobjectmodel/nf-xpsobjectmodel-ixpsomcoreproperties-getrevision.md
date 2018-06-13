@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>revision</b> property contains the resource's revision number.
 
-This method allocates the memory used by the string that is returned in <i>revision</i>.  If <i>revision</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>revision</i>.  If <i>revision</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

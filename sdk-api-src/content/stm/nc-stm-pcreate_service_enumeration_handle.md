@@ -120,7 +120,7 @@ Pointer to an
 If the function succeeds, the return value is a handle for use with the service enumeration function.
 
 A <b>NULL</b> handle indicates no services exists with the specified criteria, or that the operation failed. For more information, call 
-<a href="https://www.bing.com/search?q=GetLastError">GetLastError</a> and check the error code against the table below.
+<a href="_win32_getlasterror">GetLastError</a> and check the error code against the table below.
 
 <table>
 <tr>
@@ -172,7 +172,7 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://www.bing.com/search?q=GetLastError">GetLastError</a>
+<a href="_win32_getlasterror">GetLastError</a>
 
 
 

@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>AddMarker</b> method adds a <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">marker</a>, consisting of a name and a specific time, to the header section of the ASF file.
+The <b>AddMarker</b> method adds a <a href="wmformat_glossary.htm">marker</a>, consisting of a name and a specific time, to the header section of the ASF file.
 
 
 

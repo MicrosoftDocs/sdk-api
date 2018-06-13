@@ -180,7 +180,7 @@ For more information, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

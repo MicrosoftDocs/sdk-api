@@ -109,7 +109,7 @@ Called when an existing composition is changed.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

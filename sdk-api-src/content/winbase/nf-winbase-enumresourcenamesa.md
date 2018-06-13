@@ -134,7 +134,7 @@ The enumeration never includes duplicates: if resources with the same name are c
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+a+Resource+List">Creating a Resource List</a>.
+For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
 
 <div class="code"></div>
 

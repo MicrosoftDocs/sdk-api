@@ -71,15 +71,15 @@ The desired output signal period, in picoseconds, for the controller. This value
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period.md">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info.md">IOCTL_PWM_CONTROLLER_GET_INFO</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_set_desired_period.md">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
  
 
  

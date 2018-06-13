@@ -212,7 +212,7 @@ After the new process is created, wait for the process to become idle before ret
 
 #### SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)
 
-The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="https://www.bing.com/search?q=IServiceProvider">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
+The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="_inet_iserviceprovider_interface">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 

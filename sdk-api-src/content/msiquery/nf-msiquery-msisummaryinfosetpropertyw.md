@@ -114,7 +114,7 @@ Specifies the text value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Summary Information Property Functions</a>
+<a href="database_functions.htm">Summary Information Property Functions</a>
 
 
 

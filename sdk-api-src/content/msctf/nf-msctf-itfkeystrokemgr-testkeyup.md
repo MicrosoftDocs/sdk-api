@@ -60,12 +60,12 @@ req.product: GDI+ 1.1
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://www.bing.com/search?q=WM_KEYUP">WM_KEYUP</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://www.bing.com/search?q=WM_KEYUP">WM_KEYUP</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYUP</a>.
 
 
 ### -param pfEaten [out]
@@ -175,7 +175,7 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 
-<a href="https://www.bing.com/search?q=WM_KEYUP">WM_KEYUP</a>
+<a href="_win32_wm_keyup">WM_KEYUP</a>
  
 
  

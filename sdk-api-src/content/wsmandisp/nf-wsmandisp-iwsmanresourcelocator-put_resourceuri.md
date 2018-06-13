@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
+The <a href="windows_remote_management_glossary.htm">resource URI</a> of the requested resource. This property can contain only the path, not a query string for specific instances.
 
 This property is read/write.
 
