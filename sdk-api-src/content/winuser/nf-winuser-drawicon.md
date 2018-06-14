@@ -113,7 +113,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Displaying+an+Icon">Displaying an Icon</a>.
+For an example, see <a href="using_icons.htm">Displaying an Icon</a>.
 
 <div class="code"></div>
 

@@ -67,14 +67,14 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 An integer that specifies how to synchronize presentation of a frame with the vertical blank.
 
 
-For the bit-block transfer (bitblt) model (<a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_DISCARD">DXGI_SWAP_EFFECT_DISCARD</a>
-or <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_SEQUENTIAL">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
+For the bit-block transfer (bitblt) model (<a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_DISCARD</a>
+or <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - The presentation occurs immediately, there is no synchronization.</li>
 <li>1 through 4 - Synchronize presentation after the <i>n</i>th vertical blank.</li>
 </ul>
-For the flip model (<a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
+For the flip model (<a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>), values are:
 
 <ul>
 <li>0 - Cancel the remaining time on the previously presented frame and discard this frame if a newer frame is queued.
@@ -97,7 +97,7 @@ An integer value that contains swap-chain presentation options. These options ar
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Possible return values include: S_OK, DXGI_ERROR_DEVICE_RESET or DXGI_ERROR_DEVICE_REMOVED (see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>), DXGI_STATUS_OCCLUDED (see <a href="https://msdn.microsoft.com/dd7480b4-8218-4716-ab9f-74a9955b8aa7">DXGI_STATUS</a>), or D3DDDIERR_DEVICEREMOVED.  
 
@@ -110,7 +110,7 @@ Possible return values include: S_OK, DXGI_ERROR_DEVICE_RESET or DXGI_ERROR_DEVI
 
 
 
-Starting with Direct3D 11.1, consider using <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> because you can then use dirty rectangles and the scroll rectangle in the swap chain presentation and as such use less memory bandwidth and as a result less system power. For more info about using dirty rectangles and the scroll rectangle in swap chain presentation, see <a href="https://docs.microsoft.com/windows/desktop//direct3ddxgi/dxgi-1-2-presentation-improvements">Using dirty rectangles and the scroll rectangle in swap chain presentation</a>.
+Starting with Direct3D 11.1, consider using <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> because you can then use dirty rectangles and the scroll rectangle in the swap chain presentation and as such use less memory bandwidth and as a result less system power. For more info about using dirty rectangles and the scroll rectangle in swap chain presentation, see <a href="dxgi_1_2_presentation_improvements.htm">Using dirty rectangles and the scroll rectangle in swap chain presentation</a>.
 
 For the best performance when flipping swap-chain buffers in a full-screen application, see <a href="https://msdn.microsoft.com/0522ccbf-e754-470a-8199-004fcbaa927d">Full-Screen Application Performance Hints</a>.
 
@@ -121,14 +121,14 @@ Because calling <b>Present</b> might cause the render thread to wait on the mess
 <td>
 Differences between Direct3D 9 and Direct3D 10:
 
-Specifying <a href="https://www.bing.com/search?q=DXGI_PRESENT_TEST">DXGI_PRESENT_TEST</a> in the <i>Flags</i> parameter is analogous to <a href="https://msdn.microsoft.com/da2ac8dd-0df8-4661-995f-9c3e6ccb62d2">IDirect3DDevice9::TestCooperativeLevel</a> in Direct3D 9.
+Specifying <a href="dxgi_present.htm">DXGI_PRESENT_TEST</a> in the <i>Flags</i> parameter is analogous to <a href="https://msdn.microsoft.com/da2ac8dd-0df8-4661-995f-9c3e6ccb62d2">IDirect3DDevice9::TestCooperativeLevel</a> in Direct3D 9.
 
 </td>
 </tr>
 </table>
  
 
-For flip presentation model swap chains that you create with the <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value set, a successful presentation unbinds back buffer 0 from the graphics pipeline, except for when you pass the <a href="https://www.bing.com/search?q=DXGI_PRESENT_DO_NOT_SEQUENCE">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
+For flip presentation model swap chains that you create with the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value set, a successful presentation unbinds back buffer 0 from the graphics pipeline, except for when you pass the <a href="dxgi_present.htm">DXGI_PRESENT_DO_NOT_SEQUENCE</a> flag in the <i>Flags</i> parameter.
 
 For info about how data values change when you present content to the screen, see <a href="https://msdn.microsoft.com/1DD8E2D3-430F-4EE4-9C41-78736C904920">Converting data for the color space</a>.
 

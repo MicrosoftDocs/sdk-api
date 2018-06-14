@@ -2,7 +2,7 @@
 UID: NA:inputscope
 ms.assetid: 34803fab-f9b7-37c1-a42f-98fbb1bee73c
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: tsf
 ## -description
 
 
-This header is used by Text Services Framework. For more information, see:
+This header is used by tsf. For more information, see:
 
 - [Text Services Framework](../_tsf/index.md)

@@ -135,7 +135,7 @@ If the buffer specified by the <i>pwszDllList</i> parameter is not large enough 
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

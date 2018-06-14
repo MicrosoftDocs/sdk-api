@@ -2,7 +2,7 @@
 UID: TP:tsf
 ms.assetid: 7bfc05f4-38f9-394b-8f17-66bae94f970d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,4 +27,3 @@ To develop Text Services Framework, you need these headers:
  * [textstor.h](../textstor/index.md)
 
 For the programming guide, see [Text Services Framework](/windows/desktop/tsf).
-

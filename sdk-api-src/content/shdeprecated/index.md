@@ -2,7 +2,7 @@
 UID: NA:shdeprecated
 ms.assetid: 1d2c0e23-f2b0-35f7-bbd5-61e60eaa3283
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by The Windows Shell. For more information, see:
+This header is used by shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

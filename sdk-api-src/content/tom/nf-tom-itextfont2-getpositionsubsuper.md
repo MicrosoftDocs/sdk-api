@@ -83,7 +83,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 The subscript or superscript position is relative to the baseline as a percent of the font height.
 
-Subscripts and superscripts in math zones are handled using the <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubscript</a>, <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSuperscript</a>, <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubSup</a>, and <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomLeftSubSup</a> mathematical objects. See <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+Subscripts and superscripts in math zones are handled using the <a href="objecttype.htm">tomSubscript</a>, <a href="objecttype.htm">tomSuperscript</a>, <a href="objecttype.htm">tomSubSup</a>, and <a href="objecttype.htm">tomLeftSubSup</a> mathematical objects. See <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
 
 
 

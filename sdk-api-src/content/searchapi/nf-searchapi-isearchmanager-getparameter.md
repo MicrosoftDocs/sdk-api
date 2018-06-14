@@ -71,7 +71,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>**</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>**</b>
 
 
                     Returns a value in an undefined state as there are no properties currently defined to retrieve values from.

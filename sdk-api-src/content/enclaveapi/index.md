@@ -2,7 +2,7 @@
 UID: NA:enclaveapi
 ms.assetid: 91a0db05-9113-3f1e-987e-2ce774ff0b6f
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: base
 ## -description
 
 
-This header is used by System Services. For more information, see:
+This header is used by base. For more information, see:
 
-- [System Services](../_base/index.md)
+- [Error Handling](../_base/index.md)

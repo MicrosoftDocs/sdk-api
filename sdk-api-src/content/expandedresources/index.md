@@ -2,7 +2,7 @@
 UID: NA:expandedresources
 ms.assetid: 38a92760-c59b-33df-9c93-c34bb0842696
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: gamemode
 ## -description
 
 
-This header is used by Game Mode. For more information, see:
+This header is used by gamemode. For more information, see:
 
 - [Game Mode](../_gamemode/index.md)

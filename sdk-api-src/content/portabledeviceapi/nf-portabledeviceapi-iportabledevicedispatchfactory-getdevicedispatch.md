@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ A pointer to a <b>String</b> that is used by Plug-and-play to identify a current
 
 ### -param ppDeviceDispatch [out]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object.
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
 
 
 

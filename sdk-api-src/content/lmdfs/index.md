@@ -2,7 +2,7 @@
 UID: NA:lmdfs
 ms.assetid: 7aa42b48-14a8-3900-9365-8053f6637629
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: dfs
 ## -description
 
 
-This header is used by Distributed File System. For more information, see:
+This header is used by dfs. For more information, see:
 
 - [Distributed File System](../_dfs/index.md)

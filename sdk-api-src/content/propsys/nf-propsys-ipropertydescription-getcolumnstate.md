@@ -88,7 +88,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://www.bing.com/search?q=displayInfo">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -98,7 +98,7 @@ The value retrieved by this method is originally set through the <i>displayType<
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Represents a chunk of data as a string and a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> value.
+          Represents a chunk of data as a string and a <a href="_stg_propvariant">PROPVARIANT</a> value.
         
 
 
@@ -77,7 +77,7 @@ The <b>IRichChunk</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-      Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+      Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The <b>IRichChunk</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-       Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+       Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>

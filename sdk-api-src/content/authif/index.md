@@ -2,7 +2,7 @@
 UID: NA:authif
 ms.assetid: 8eca223c-8778-3929-be13-32b86e797ece
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: nps
 ## -description
 
 
-This header is used by Network Policy Server. For more information, see:
+This header is used by nps. For more information, see:
 
 - [Network Policy Server](../_nps/index.md)

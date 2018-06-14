@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://www.bing.com/search?q=CurrentAnnotationObjects">CurrentAnnotationObjects</a>
+<a href="winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects">CurrentAnnotationObjects</a>
 
 
 
-<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4.md">IUIAutomationElement4</a>
+<a href="winauto.iuiautomationelement4">IUIAutomationElement4</a>
  
 
  

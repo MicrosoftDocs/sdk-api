@@ -238,7 +238,7 @@ To remove the CTL context from the certificate store, use the  <a href="https://
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Trust+List+Functions">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

@@ -76,7 +76,7 @@ Name of the qualifier that is being written. The pointer is treated as read-only
 
 ### -param pVal [in]
 
-Cannot be <b>NULL</b>. This must point to a valid <b>VARIANT</b> that contains the qualifier value to be written. The pointer is treated as read-only. It is the caller's responsibility to call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> on this pointer after the value is not required.
+Cannot be <b>NULL</b>. This must point to a valid <b>VARIANT</b> that contains the qualifier value to be written. The pointer is treated as read-only. It is the caller's responsibility to call <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> on this pointer after the value is not required.
 
 Only variants and arrays of type <b>VT_I4</b>, <b>VT_R8</b>, <b>VT_BSTR</b>, <b>VT_BOOL</b> are supported.
 

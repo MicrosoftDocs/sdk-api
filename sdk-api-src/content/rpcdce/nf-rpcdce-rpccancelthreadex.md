@@ -143,8 +143,8 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 <div class="alert"><b>Note</b>  You can use 
 <b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
-<a href="https://www.bing.com/search?q=ncacn_http">ncacn_http</a>, and with any of the datagram protocols except 
-<a href="https://www.bing.com/search?q=ncadg_mq">ncadg_mq</a> and 
+<a href="midl.ncacn_http">ncacn_http</a>, and with any of the datagram protocols except 
+<a href="midl.ncadg_mq">ncadg_mq</a> and 
 <a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a>.</div>
 <div> </div>
 
@@ -167,7 +167,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://www.bing.com/search?q=ncacn_http">ncacn_http</a>
+<a href="midl.ncacn_http">ncacn_http</a>
 
 
 
@@ -175,7 +175,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://www.bing.com/search?q=ncadg_mq">ncadg_mq</a>
+<a href="midl.ncadg_mq">ncadg_mq</a>
 
 
 

@@ -2,7 +2,7 @@
 UID: TP:upnp
 ms.assetid: c3b0bda6-483a-3b34-92b5-8e06e3b07799
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,4 +21,3 @@ To develop UPnP APIs, you need these headers:
  * [upnphost.h](../upnphost/index.md)
 
 For the programming guide, see [UPnP APIs](/windows/desktop/upnp).
-

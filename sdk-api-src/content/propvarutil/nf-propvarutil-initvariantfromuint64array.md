@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
+<a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromUInt64">InitVariantFromUInt64</a>
+<a href="shell.InitVariantFromUInt64">InitVariantFromUInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt64Array">VariantToUInt64Array</a>
+<a href="shell.VariantToUInt64Array">VariantToUInt64Array</a>
  
 
  

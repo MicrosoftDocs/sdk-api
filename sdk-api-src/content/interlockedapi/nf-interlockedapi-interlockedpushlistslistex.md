@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://msdn.microsoft.com/library/windows/desktop/bb5b9c8a-dfad-450c-9119-0ac2bc59544f">__fastcall</a> calling convention.
+Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="bb5b9c8a-dfad-450c-9119-0ac2bc59544f">__fastcall</a> calling convention.
 
 
 ## -parameters

@@ -2,7 +2,7 @@
 UID: NA:wsbonline
 ms.assetid: 9df88687-7f2b-3cfe-b7a1-e8804e6fc954
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: wsb
 ## -description
 
 
-This header is used by Windows Server Backup. For more information, see:
+This header is used by wsb. For more information, see:
 
 - [Windows Server Backup](../_wsb/index.md)

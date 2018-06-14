@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>, to obtain the property description for a given <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>.
+Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescription">IPropertyDescription</a>, to obtain the property description for a given <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets an instance of the subsystem object that implements <a href="/windows/deskt
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the desired property key. See <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>.
+A reference to the desired property key. See <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> interface pointer.
+The address of an <a href="shell.IPropertyDescription">IPropertyDescription</a> interface pointer.
 
 
 ## -returns
@@ -122,7 +122,7 @@ Indicates that <i>ppv</i> is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem.md">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

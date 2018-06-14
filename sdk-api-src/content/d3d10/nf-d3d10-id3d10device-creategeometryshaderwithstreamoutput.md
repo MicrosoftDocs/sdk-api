@@ -65,7 +65,7 @@ Type: <b>const void*</b>
 
 A pointer to the compiled geometry shader for a standard geometry shader plus stream output. For info on how to get this pointer, see <a href="https://msdn.microsoft.com/cff6f901-cb9b-44d5-a75b-9a4029a37215">Getting a Pointer to a Compiled Shader</a>.
 
-To create the stream output without using a geometry shader, pass a pointer to the output signature for the prior stage. To obtain this output signature, call the <a href="https://msdn.microsoft.com/25b5f9ef-16fe-4875-ab20-762360c3ee1b">D3DGetOutputSignatureBlob</a> compiler function. You can also pass a pointer to the compiled <a href="https://www.bing.com/search?q=vertex+shader">vertex shader</a> that is used in the prior stage. This compiled shader provides the output signature for the data.
+To create the stream output without using a geometry shader, pass a pointer to the output signature for the prior stage. To obtain this output signature, call the <a href="https://msdn.microsoft.com/25b5f9ef-16fe-4875-ab20-762360c3ee1b">D3DGetOutputSignatureBlob</a> compiler function. You can also pass a pointer to the compiled <a href="direct3d11.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> that is used in the prior stage. This compiled shader provides the output signature for the data.
 
 
 ### -param BytecodeLength [in]
@@ -107,7 +107,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/ffe713b9-93d6-4e0
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 

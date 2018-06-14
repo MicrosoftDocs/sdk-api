@@ -2,7 +2,7 @@
 UID: NA:ntddmou
 ms.assetid: 3d739718-a93c-3c79-98ae-f230261063b5
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: hid
 ## -description
 
 
-This header is used by Human Interface Devices Reference. For more information, see:
+This header is used by hid. For more information, see:
 
 - [Human Interface Devices Reference](../_hid/index.md)

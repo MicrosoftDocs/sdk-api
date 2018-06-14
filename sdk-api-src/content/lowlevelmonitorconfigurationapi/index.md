@@ -2,7 +2,7 @@
 UID: NA:lowlevelmonitorconfigurationapi
 ms.assetid: cad85e24-c16b-37e3-b635-d5ef7c3d2481
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: monitor
 ## -description
 
 
-This header is used by Monitor Configuration. For more information, see:
+This header is used by monitor. For more information, see:
 
 - [Monitor Configuration](../_monitor/index.md)

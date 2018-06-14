@@ -111,7 +111,7 @@ See <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">Ce
 
 
 
-<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

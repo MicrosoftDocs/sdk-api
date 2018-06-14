@@ -118,12 +118,12 @@ The message body has been read or written (the end of the
                 The following are the state transitions while writing or sending:
             
 
-<img alt="" src="/images/MessageSendStates.png"/>
+<img alt="" src="images/MessageSendStates.png"/>
 
                 The following are the state transitions while reading or receiving:
             
 
-<img alt="" src="/images/MessageReceiveStates.png"/>
+<img alt="" src="images/MessageReceiveStates.png"/>
 
                 Note that in the above diagrams, only valid transitions are
                 shown.

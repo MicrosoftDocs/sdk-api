@@ -101,7 +101,7 @@ Supplying a null billboard name in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">User Interface Functions</a>
+<a href="database_functions.htm">User Interface Functions</a>
  
 
  

@@ -2,7 +2,7 @@
 UID: TP:winsock
 ms.assetid: 517f0d35-1c4a-3ed3-b68d-6bb755388d9e
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -36,4 +36,3 @@ To develop Windows Sockets 2, you need these headers:
  * [wsrm.h](../wsrm/index.md)
 
 For the programming guide, see [Windows Sockets 2](/windows/desktop/winsock).
-

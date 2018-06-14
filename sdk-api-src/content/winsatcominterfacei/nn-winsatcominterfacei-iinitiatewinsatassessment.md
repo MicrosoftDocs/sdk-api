@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Initiates an assessment.
 
-To retrieve this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CInitiateWinSAT) as the class identifier and __uuidof(IInitiateWinSATAssessment) as the interface identifier.
+To retrieve this interface, call the <a href="_com_cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CInitiateWinSAT) as the class identifier and __uuidof(IInitiateWinSATAssessment) as the interface identifier.
 
 
 ## -inheritance

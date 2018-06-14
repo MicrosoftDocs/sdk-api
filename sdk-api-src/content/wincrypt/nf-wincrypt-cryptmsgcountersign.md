@@ -156,11 +156,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Low-level+Message+Functions">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

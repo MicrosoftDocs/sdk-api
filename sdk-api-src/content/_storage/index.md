@@ -2,7 +2,7 @@
 UID: TP:storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,3 @@ Overview of the Storage driver DDI reference technology.
 The Storage driver DDI reference technology is not associated with any headers.
 
 For the programming guide, see [Storage driver DDI reference](/windows/desktop/storage).
-

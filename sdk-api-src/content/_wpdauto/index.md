@@ -2,7 +2,7 @@
 UID: TP:wpdauto
 ms.assetid: 1534bd35-a9fd-3d4f-9602-4f8af31bb141
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,3 @@ Overview of the WPD Automation Object Model technology.
 The WPD Automation Object Model technology is not associated with any headers.
 
 For the programming guide, see [WPD Automation Object Model](/previous-versions/windows/desktop/wpdauto).
-

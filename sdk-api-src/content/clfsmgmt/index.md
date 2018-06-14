@@ -2,7 +2,7 @@
 UID: NA:clfsmgmt
 ms.assetid: 9bcc8074-3629-3551-ad5f-02315b992d65
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: fs
 ## -description
 
 
-This header is used by Data Access and Storage. For more information, see:
+This header is used by fs. For more information, see:
 
-- [Data Access and Storage](../_fs/index.md)
+- [Removable Storage Manager](../_fs/index.md)

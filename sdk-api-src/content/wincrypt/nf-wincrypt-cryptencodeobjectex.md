@@ -514,7 +514,7 @@ if(pbEncoded)
 
 
 
-<a href="https://www.bing.com/search?q=Object+Encoding+and+Decoding+Functions">Object Encoding and Decoding Functions</a>
+<a href="cryptography_functions.htm">Object Encoding and Decoding Functions</a>
  
 
  

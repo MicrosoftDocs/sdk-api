@@ -2,7 +2,7 @@
 UID: NA:msajtransport
 ms.assetid: c59fe873-368c-3798-a004-f41c3063785b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: alljoyn
 ## -description
 
 
-This header is used by AllJoyn API. For more information, see:
+This header is used by alljoyn. For more information, see:
 
 - [AllJoyn API](../_alljoyn/index.md)

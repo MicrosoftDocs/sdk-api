@@ -64,7 +64,7 @@ Takes an array of advance widths for a <a href="https://msdn.microsoft.com/libra
 
 ### -param piDx [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">advance widths</a> in logical order, one per code point.
+Pointer to an array of <a href="uniscribe_glossary.htm">advance widths</a> in logical order, one per code point.
 
 
 ### -param cChars [in]
@@ -99,7 +99,7 @@ Pointer to a <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3d
 
 ### -param pABC [in, out, optional]
 
-Pointer to the overall <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">ABC width</a> of a run. On input, the parameter should contain the run ABC widths retrieved by <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>. On output, the parameter indicates the ABC width updated to match the new widths.
+Pointer to the overall <a href="uniscribe_glossary.htm">ABC width</a> of a run. On input, the parameter should contain the run ABC widths retrieved by <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>. On output, the parameter indicates the ABC width updated to match the new widths.
 
 
 ### -param piJustify [out]

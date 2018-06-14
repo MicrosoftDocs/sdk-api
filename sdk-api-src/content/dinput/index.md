@@ -2,7 +2,7 @@
 UID: NA:dinput
 ms.assetid: b3863d7e-5815-3deb-b7ae-defb8eb6e15a
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: hid
 ## -description
 
 
-This header is used by Human Interface Devices Reference. For more information, see:
+This header is used by hid. For more information, see:
 
 - [Human Interface Devices Reference](../_hid/index.md)

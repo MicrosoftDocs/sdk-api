@@ -61,7 +61,7 @@ Passes a keystroke to the control site for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=MSG">MSG</a> structure describing the keystroke to be processed.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure describing the keystroke to be processed.
 
 
 ### -param grfModifiers [in]

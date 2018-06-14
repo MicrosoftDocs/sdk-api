@@ -185,7 +185,7 @@ An FWPS_ACTION0 structure is contained within an
 
 
 
-<a href="https://www.bing.com/search?q=Types+of+Callouts">Types of Callouts</a>
+<a href="netvista.types_of_callouts">Types of Callouts</a>
 
 
 

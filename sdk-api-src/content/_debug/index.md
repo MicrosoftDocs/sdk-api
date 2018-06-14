@@ -2,7 +2,7 @@
 UID: TP:debug
 ms.assetid: ef7e939a-0110-36b3-8c6d-e740e5c83133
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,4 +21,3 @@ To develop Debugging and authoring support, you need these headers:
  * [webapplication.h](../webapplication/index.md)
 
 For the programming guide, see [Debugging and authoring support](/previous-versions/windows/desktop/debug).
-

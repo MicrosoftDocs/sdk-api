@@ -2,7 +2,7 @@
 UID: NA:effects
 ms.assetid: 83d6d36b-e15b-3519-b476-cd79cc8f2728
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wmp
 ## -description
 
 
-This header is used by Windows Media Player SDK. For more information, see:
+This header is used by wmp. For more information, see:
 
 - [Windows Media Player SDK](../_wmp/index.md)

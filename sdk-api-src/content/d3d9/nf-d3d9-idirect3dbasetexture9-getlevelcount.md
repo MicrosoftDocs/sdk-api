@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWOR
 
 
 
-<div class="alert"><b>Warning</b>  If you create a texture with <a href="https://www.bing.com/search?q=D3DUSAGE_AUTOGENMIPMAP">D3DUSAGE_AUTOGENMIPMAP</a> to make that texture automatically generate sublevels, <b>GetLevelCount</b> always returns 1 for the number of levels.</div>
+<div class="alert"><b>Warning</b>  If you create a texture with <a href="d3dusage.htm">D3DUSAGE_AUTOGENMIPMAP</a> to make that texture automatically generate sublevels, <b>GetLevelCount</b> always returns 1 for the number of levels.</div>
 <div> </div>
 This method applies to the following interfaces, which inherit from <a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a>.
 

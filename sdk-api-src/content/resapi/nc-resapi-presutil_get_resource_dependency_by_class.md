@@ -100,7 +100,7 @@ Do not call  <i>ResUtilGetResourceDependencyByClass</i> from any resource DLL en
 
 #### Examples
 
-As the following example illustrates, if you know that resource A depends on a <a href="https://www.bing.com/search?q=storage+class+resource">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
+As the following example illustrates, if you know that resource A depends on a <a href="s_gly.htm">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -102,7 +102,7 @@ You can provide an <a href="https://msdn.microsoft.com/fe71a71f-9b29-465a-ace4-3
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Finding+Text">Finding Text</a>.
+For an example, see <a href="using_common_dialog_boxes.htm">Finding Text</a>.
 
 <div class="code"></div>
 

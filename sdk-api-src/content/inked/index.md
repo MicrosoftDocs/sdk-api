@@ -2,7 +2,7 @@
 UID: NA:inked
 ms.assetid: 9d8b5187-1dd9-36ba-a92d-7b58ceff402d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: tablet
 ## -description
 
 
-This header is used by Tablet PC. For more information, see:
+This header is used by tablet. For more information, see:
 
 - [Tablet PC](../_tablet/index.md)

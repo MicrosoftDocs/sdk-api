@@ -113,7 +113,7 @@ A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/8E3
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

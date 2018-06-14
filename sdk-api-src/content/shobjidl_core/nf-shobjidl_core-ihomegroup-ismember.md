@@ -124,7 +124,7 @@ hr = spHomeGroup-&gt;IsMember(&amp;fIsHGMember);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a>
+<a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a>
 
 
 

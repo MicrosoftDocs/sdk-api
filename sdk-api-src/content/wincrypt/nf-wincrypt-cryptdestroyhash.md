@@ -193,7 +193,7 @@ For an example that uses the <b>CryptDestroyHash</b> function, see <a href="http
 
 
 
-<a href="https://www.bing.com/search?q=Hash+and+Digital+Signature+Functions">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

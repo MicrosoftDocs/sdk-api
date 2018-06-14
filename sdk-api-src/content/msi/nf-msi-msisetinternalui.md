@@ -208,7 +208,7 @@ When Msi.dll is loaded, the user interface level is set to DEFAULT and the user 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/installer-function-reference">Interface and Logging Functions</a>
+<a href="installer_function_reference.htm">Interface and Logging Functions</a>
  
 
  

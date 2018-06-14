@@ -115,7 +115,7 @@ The service exists in the table.
 </td>
 <td width="60%">
 No such service exists, or the operation failed. Call 
-<a href="https://www.bing.com/search?q=GetLastError">GetLastError</a> for more information about the failure.
+<a href="_win32_getlasterror">GetLastError</a> for more information about the failure.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The service type or name is invalid.
 
 
 
-<a href="https://www.bing.com/search?q=GetLastError">GetLastError</a>
+<a href="_win32_getlasterror">GetLastError</a>
 
 
 

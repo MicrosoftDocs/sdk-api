@@ -168,7 +168,7 @@ Sets a property for a shadow copy.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

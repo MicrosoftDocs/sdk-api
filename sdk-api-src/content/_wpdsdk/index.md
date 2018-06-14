@@ -2,7 +2,7 @@
 UID: TP:wpdsdk
 ms.assetid: 5764d0d2-f296-38a9-9d56-8a2adb838489
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,4 +21,3 @@ To develop WPD Application Programming Interface, you need these headers:
  * [portabledeviceconnectapi.h](../portabledeviceconnectapi/index.md)
 
 For the programming guide, see [WPD Application Programming Interface](/windows/desktop/wpdsdk).
-

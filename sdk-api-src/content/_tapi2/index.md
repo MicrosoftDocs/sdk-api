@@ -2,22 +2,21 @@
 UID: TP:tapi2
 ms.assetid: d4383253-bb9f-3e50-9472-7eb4b1e25b60
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# TAPI 2.2
+# Tapi2
 
 ## -description
 
-Overview of the TAPI 2.2 technology.
+Overview of the Tapi2 technology.
 
-To develop TAPI 2.2, you need these headers:
+To develop Tapi2, you need these headers:
 
  * [tapi.h](../tapi/index.md)
 
-For the programming guide, see [TAPI 2.2](/windows/desktop/tapi2).
 

@@ -78,7 +78,7 @@ TBD
 
 Type: <b>BOOL</b>
 
-Controls the meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://www.bing.com/search?q=Accessing+Menu+Items+Programmatically">Accessing Menu Items Programmatically</a> for more information.
+Controls the meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="about_menus.htm">Accessing Menu Items Programmatically</a> for more information.
 
 
 ### -param lpmi
@@ -128,12 +128,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
 
-In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. See <a href="https://www.bing.com/search?q=Owner-Drawn+Menus+and+the+WM_MENUCHAR+Message">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
+In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/de6c91bb-80fd-44b2-8d96-d016477a6547">WM_MENUCHAR</a> message. See <a href="using_menus.htm">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+Menu-Item+Bitmaps">Example of Menu-Item Bitmaps</a>.
+For an example, see <a href="using_menus.htm">Example of Menu-Item Bitmaps</a>.
 
 <div class="code"></div>
 

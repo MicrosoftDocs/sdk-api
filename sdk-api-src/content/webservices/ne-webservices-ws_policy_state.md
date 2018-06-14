@@ -84,7 +84,7 @@ req.product: Windows Address Book 5.0
                 cause state transitions in the policy object.
             
 
-<img alt="" src="/images/PolicyStates.png"/>
+<img alt="" src="images/PolicyStates.png"/>
 
 
 

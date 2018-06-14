@@ -2,7 +2,7 @@
 UID: NA:syncmgr
 ms.assetid: 00d830a4-f7de-3553-ba48-0c001fccf645
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by The Windows Shell. For more information, see:
+This header is used by shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

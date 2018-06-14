@@ -511,7 +511,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-The <b>cxMinChild</b>, <b>cyMinChild</b>, and <b>cx</b> members provide information on dimensions relative to the orientation of the control. That is, for a horizontal rebar control, <b>cxMinChild</b> and <b>cx</b> are horizontal measurements and <b>cyMinChild</b> is a vertical measurement. However, if the control uses the <a href="https://www.bing.com/search?q=CCS_VERT">CCS_VERT</a> style, <b>cxMinChild</b> and <b>cx</b> are vertical measurements and <b>cyMinChild</b> is a horizontal measurement. 
+The <b>cxMinChild</b>, <b>cyMinChild</b>, and <b>cx</b> members provide information on dimensions relative to the orientation of the control. That is, for a horizontal rebar control, <b>cxMinChild</b> and <b>cx</b> are horizontal measurements and <b>cyMinChild</b> is a vertical measurement. However, if the control uses the <a href="Common_Control_Styles.htm">CCS_VERT</a> style, <b>cxMinChild</b> and <b>cx</b> are vertical measurements and <b>cyMinChild</b> is a horizontal measurement. 
 
 
 

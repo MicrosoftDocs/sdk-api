@@ -78,7 +78,7 @@ Set to <b>TRUE</b> to enable other threads or applications to take ownership of 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> values.
 
@@ -94,7 +94,7 @@ When you are finished with the output, call <a href="https://msdn.microsoft.com/
 <b>TakeOwnership</b> should not be called directly by applications, since results will be unpredictable. It is called implicitly by the DXGI swap chain object during full-screen transitions, and should not be used as a substitute for swap-chain methods.
 
 <h3><a id="Notes_for_Windows_Store_apps"></a><a id="notes_for_windows_store_apps"></a><a id="NOTES_FOR_WINDOWS_STORE_APPS"></a>Notes for Windows Store apps</h3>
-If a Windows Store app uses <b>TakeOwnership</b>, it fails with <a href="https://www.bing.com/search?q=DXGI_ERROR_NOT_CURRENTLY_AVAILABLE">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
+If a Windows Store app uses <b>TakeOwnership</b>, it fails with <a href="dxgi_error.htm">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.
 
 
 

@@ -65,9 +65,9 @@ A buffer that contains the XML markup for the <b>Object</b> element to be repres
 
 This XML markup must include the opening <b>Object</b> and closing <b>/Object</b> tags.
 
-The encoding of the markup contained in <i>xmlMarkup</i> will be inferred. Inclusion of a <a href="https://www.bing.com/search?q=byte+order+mark">byte order mark</a> at the beginning of the buffer passed in <i>xmlMarkup</i> is optional.
+The encoding of the markup contained in <i>xmlMarkup</i> will be inferred. Inclusion of a <a href="_win32_Byte_Order_Mark">byte order mark</a> at the beginning of the buffer passed in <i>xmlMarkup</i> is optional.
 
-The following encodings and <a href="https://www.bing.com/search?q=byte+order+mark">byte order mark</a> values are supported:<table>
+The following encodings and <a href="_win32_Byte_Order_Mark">byte order mark</a> values are supported:<table>
 <tr>
 <th>Encoding</th>
 <th>Description</th>

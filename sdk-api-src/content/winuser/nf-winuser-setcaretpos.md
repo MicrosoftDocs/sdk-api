@@ -103,7 +103,7 @@ This API does not participate in DPI virtualization. The provided position is in
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+and+Displaying+a+Caret">Creating and Displaying a Caret</a>.
+For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 

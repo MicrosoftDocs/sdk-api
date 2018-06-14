@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Enables an input source on a Windows Store app's <a href="https://www.bing.com/search?q=CoreInput">CoreInput</a> object. 
+Enables an input source on a Windows Store app's <a href="w_ui_core.coreinput">CoreInput</a> object. 
 
 
 ## -inheritance
@@ -127,7 +127,7 @@ The <a href="https://msdn.microsoft.com/917cbf9f-bd19-4e05-bcd1-cf6a86f16e65">Co
 
 
 
-<a href="https://www.bing.com/search?q=CoreInput">CoreInput</a>
+<a href="w_ui_core.coreinput">CoreInput</a>
  
 
  

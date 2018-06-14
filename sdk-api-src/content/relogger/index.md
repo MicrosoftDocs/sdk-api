@@ -2,7 +2,7 @@
 UID: NA:relogger
 ms.assetid: 1eef453f-1303-3d70-840f-ee4f0039c030
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: etw
 ## -description
 
 
-This header is used by Event Tracing. For more information, see:
+This header is used by etw. For more information, see:
 
 - [Event Tracing](../_etw/index.md)

@@ -172,7 +172,7 @@ VOID Example_SetClearColorKey(HDC hdc)
 </table></span></div>
 The preceding code, along with a particular file, TestMetafile5.png, produced the following output. The bars in the left column were drawn with a pen, and the bars in the right column were filled with a brush. The default color key applies to the bars filled with a brush. The color key that applies to the bars drawn with a pen varies according to the <a href="https://msdn.microsoft.com/d58ba121-877a-447b-8920-440ab3686d7e">ImageAttributes::SetColorKey</a> and <b>ImageAttributes::ClearColorKey</b> calls.
 
-<img alt="Illustration showing bars in four rows of two columns each; the last two have unequal numbers of bars in each row" src="/images/imageattributesclearcolorkey.png"/>
+<img alt="Illustration showing bars in four rows of two columns each; the last two have unequal numbers of bars in each row" src="images/imageattributesclearcolorkey.png"/>
 
 <div class="code"></div>
 

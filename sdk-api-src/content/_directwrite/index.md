@@ -2,7 +2,7 @@
 UID: TP:directwrite
 ms.assetid: 1466a8a8-0196-3cad-99b3-da84e788e1e7
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -23,4 +23,3 @@ To develop DirectWrite, you need these headers:
  * [dwrite_3.h](../dwrite_3/index.md)
 
 For the programming guide, see [DirectWrite](/windows/desktop/directwrite).
-

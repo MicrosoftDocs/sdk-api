@@ -2,7 +2,7 @@
 UID: NA:stralign
 ms.assetid: 64c931c2-4006-370d-b0a8-8a9509f58118
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winprog
 ## -description
 
 
-This header is used by Developer Notes. For more information, see:
+This header is used by winprog. For more information, see:
 
-- [Developer Notes](../_winprog/index.md)
+- [Using the Windows Headers](../_winprog/index.md)

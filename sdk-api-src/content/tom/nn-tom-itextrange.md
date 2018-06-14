@@ -56,7 +56,7 @@ The <b>ITextRange</b> objects are powerful editing and data-binding tools that a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRange</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>ITextRange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRange</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITextRange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -552,12 +552,12 @@ The first character in a story has <i>cpFirst</i> = zero. If a <i>cp</i> argumen
 
 In the following figure, character positions are represented by the lines separating the letters. The corresponding character position values are given beneath the lines. The range starting at <i>cpFirst</i> = 5 and ending at <i>cpLim</i> = 7 contains the two-letter word is. If this figure depicts the complete text in a story, the story length is 30.
 
-<img alt="Diagram of a 30-character text string, with two of the five words shaded" src="/images/textpos1.png"/>
+<img alt="Diagram of a 30-character text string, with two of the five words shaded" src="images/textpos1.png"/>
 The <i>length</i> of a range is given by <i>cpLim</i> - <i>cpFirst</i> or equivalently by End - Start. A range with zero length is called a <i>degenerate</i> or <i>empty</i> range and has equal <i>cp</i>* values, that is, <i>cpFirst</i> = <i>cpLim</i>. An example of a degenerate range is the current insertion point. A non-null selection is an example of a nondegenerate range.
 
 Suppose that the range from 5 to 7 indicated by shaded cells in the preceding figure is told to delete its text (see <a href="https://msdn.microsoft.com/ae81420c-e35d-4c81-b103-cb8674c55576">Delete</a>), thereby turning itself into an insertion point. The range from 25 to 29 would automatically track its contents, namely the word text. The following figure shows the result.
 
-<img alt="Diagram of a 28-character text string, with one of the four words shaded" src="/images/textpos2.png"/>
+<img alt="Diagram of a 28-character text string, with one of the four words shaded" src="images/textpos2.png"/>
 In this figure, the range for text now has been <i>automatically</i> adjusted to have <i>cpFirst</i> = 23 and <i>cpLim</i> = 27. The owner of the range does not have to worry about updating the range character position values in the face of editing.
 
 The names of the move methods indicate which end to move, but note that if any method attempts to move one range end past the other, both ends get moved to the target position. As a result, the insertion point is at the target position. The concept is that <i>cpFirst</i> and <i>cpLim</i> always have to obey the fundamental condition
@@ -699,7 +699,7 @@ Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="h
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

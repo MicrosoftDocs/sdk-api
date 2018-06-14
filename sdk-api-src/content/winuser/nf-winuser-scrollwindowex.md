@@ -218,7 +218,7 @@ All input and output coordinates (for
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Scrolling+Text+with+the+WM_PAINT+Message">Scrolling Text with the WM_PAINT Message</a>.
+For an example, see <a href="Using_Scroll_Bars.htm">Scrolling Text with the WM_PAINT Message</a>.
 
 <div class="code"></div>
 

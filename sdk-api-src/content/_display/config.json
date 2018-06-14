@@ -1,18 +1,12 @@
 {
   "tech": "display",
   "headers": [
-    "ksmedia.h",
     "winddi.h",
     "winuser.h",
     "wingdi.h",
-    "d3d9types.h",
-    "dxgitype.h",
     "ddraw.h",
-    "dxva.h",
     "windef.h",
     "tvout.h",
-    "ntddvdeo.h",
-    "prntfont.h",
     "ddrawint.h",
     "cloneviewhelper.h",
     "ddkernel.h",

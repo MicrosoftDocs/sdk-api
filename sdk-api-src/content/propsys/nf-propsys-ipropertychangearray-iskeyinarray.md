@@ -63,7 +63,7 @@ Specifies whether a particular property key exists in the change array.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure of interest.
+A reference to the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure of interest.
 
 
 ## -returns

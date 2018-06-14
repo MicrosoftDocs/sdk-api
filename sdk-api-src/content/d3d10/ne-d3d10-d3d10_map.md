@@ -103,7 +103,7 @@ D3D10_MAP_WRITE_NO_OVERWRITE signifies that the application promises not to writ
 
 For example, consider the buffer illustrated in the following diagram. If a Draw call has been issued that uses vertices 4-6, an application that calls Map on this buffer must ensure that it does not write to the vertices that the Draw call will access during rendering.
 
-<img alt="Diagram of vertex data in different stages of utilization" src="/images/d3d10_map_nooverwrite.png"/>
+<img alt="Diagram of vertex data in different stages of utilization" src="images/d3d10_map_nooverwrite.png"/>
 However, ensuring this can be difficult, because the GPU is often many frames behind the CPU in terms of which frame it is currently processing. Keeping track of which sections of a resource are being used because of calls made 2 to 5 frames ago is difficult and error-prone. Because of this, it is recommended that applications only write to the uninitialized portions of a resource when using D3D10_MAP_WRITE_NO_OVERWRITE.
 
 <h3><a id="DISCARD_NO_OVERWRITE_USES"></a><a id="discard_no_overwrite_uses"></a>Common Usage of D3D10_MAP_WRITE_DISCARD with D3D10_MAP_WRITE_NO_OVERWRITE</h3>

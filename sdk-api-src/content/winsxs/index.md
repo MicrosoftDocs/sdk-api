@@ -2,7 +2,7 @@
 UID: NA:winsxs
 ms.assetid: 712d9914-8cf8-3b2f-b55b-e6c64a26f40f
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: setup
 ## -description
 
 
-This header is used by Application Installation and Servicing. For more information, see:
+This header is used by setup. For more information, see:
 
-- [Application Installation and Servicing](../_setup/index.md)
+- [Setup API](../_setup/index.md)

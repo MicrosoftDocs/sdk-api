@@ -58,7 +58,7 @@ Your writer application should implement this interface only if you need to use 
 The <b>IVssExamineWriterMetadataEx2</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface, and pass  
    the <b>IID_IVssExamineWriterMetadataEx2</b> constant as the interface identifier (IID) parameter.
 

@@ -2,7 +2,7 @@
 UID: NA:d2d1_1helper
 ms.assetid: c94ea661-b910-3910-9528-15c03470e322
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct2d
 ## -description
 
 
-This header is used by Direct2D. For more information, see:
+This header is used by direct2d. For more information, see:
 
 - [Direct2D](../_direct2d/index.md)

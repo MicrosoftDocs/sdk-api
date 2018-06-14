@@ -2,7 +2,7 @@
 UID: TP:wmp
 ms.assetid: 3fef26d9-3534-3463-99c7-69be76d785ec
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -26,4 +26,3 @@ To develop Windows Media Player SDK, you need these headers:
  * [wmpservices.h](../wmpservices/index.md)
 
 For the programming guide, see [Windows Media Player SDK](/windows/desktop/wmp).
-

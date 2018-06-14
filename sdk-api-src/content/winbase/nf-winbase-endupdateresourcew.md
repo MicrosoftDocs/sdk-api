@@ -101,7 +101,7 @@ This function can update resources within modules that contain both code and res
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Updating+Resources">Updating Resources</a>.
+For an example, see <a href="using_resources.htm">Updating Resources</a>.
 
 <div class="code"></div>
 

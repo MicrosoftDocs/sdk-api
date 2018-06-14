@@ -75,7 +75,7 @@ The type of text-edit change that occurred.
 
 ### -param eventStrings [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-workingwithsafearrays">SAFEARRAY</a>*</b>
+Type: <b><a href="uiauto_WorkingWithSafeArrays.htm">SAFEARRAY</a>*</b>
 
 Event data passed by the event.
 

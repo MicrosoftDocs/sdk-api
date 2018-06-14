@@ -156,7 +156,7 @@ Consider using <a href="https://msdn.microsoft.com/9cbf6ce6-ef45-4bb9-bc1f-a55db
 				being aware that, when copying to a pointer, the caller is responsible for 
 				passing in the size of the pointed-to memory in characters. 
 
-Review <a href="https://www.bing.com/search?q=Security+Considerations:+Windows+User+Interface">Security Considerations: Windows User Interface</a> before continuing.
+Review <a href="winui.sec_winui">Security Considerations: Windows User Interface</a> before continuing.
 
 
 

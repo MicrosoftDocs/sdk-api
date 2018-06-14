@@ -2,7 +2,7 @@
 UID: NA:upnp
 ms.assetid: 99e57801-310a-32df-bdd4-8cfc1004985b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: upnp
 ## -description
 
 
-This header is used by UPnP APIs. For more information, see:
+This header is used by upnp. For more information, see:
 
 - [UPnP APIs](../_upnp/index.md)

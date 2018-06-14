@@ -150,7 +150,7 @@ The <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">Lo
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Sharing+Icon+Resources">Sharing Icon Resources</a>.
+For an example, see <a href="using_icons.htm">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 

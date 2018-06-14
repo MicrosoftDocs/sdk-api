@@ -2,7 +2,7 @@
 UID: NA:mmdeviceapi
 ms.assetid: 4b57a412-ba54-35c5-9867-03aac210211e
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: coreaudio
 ## -description
 
 
-This header is used by Core Audio APIs. For more information, see:
+This header is used by coreaudio. For more information, see:
 
 - [Core Audio APIs](../_coreaudio/index.md)

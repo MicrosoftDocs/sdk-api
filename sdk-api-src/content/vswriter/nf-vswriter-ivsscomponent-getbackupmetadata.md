@@ -170,7 +170,7 @@ This method can be called at any time depending on the logic of a given writer.
     <b>GetBackupMetadata</b> returns S_FALSE.
    
 
-If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 

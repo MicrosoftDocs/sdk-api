@@ -94,7 +94,7 @@ Type: <b><a href="https://msdn.microsoft.com/289555d8-2a6e-454f-86bc-48fb2c8ea34
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
@@ -117,7 +117,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52
 Because a view is fully typed, this means that typeless resources become fully typed when bound to the pipeline.
 
 <div class="alert"><b>Note</b>  
-          To successfully create a shader-resource view from a typeless buffer (for example, <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32G32B32A32_TYPELESS</a>), you must set the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS</a> flag when you create the buffer.
+          To successfully create a shader-resource view from a typeless buffer (for example, <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32G32B32A32_TYPELESS</a>), you must set the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS</a> flag when you create the buffer.
         </div>
 <div> </div>
 

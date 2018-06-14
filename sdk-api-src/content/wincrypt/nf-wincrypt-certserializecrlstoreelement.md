@@ -112,7 +112,7 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

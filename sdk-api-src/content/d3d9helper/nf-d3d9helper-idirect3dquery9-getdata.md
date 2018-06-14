@@ -84,7 +84,7 @@ Data flags specifying the query type. Valid values are either 0 or <a href="http
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 The return type identifies the query state (see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>). The method returns S_OK if the query data is available and S_FALSE if it is not.  These are considered successful return values. If the method fails when <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a> is used, the return value can be D3DERR_DEVICELOST.
 

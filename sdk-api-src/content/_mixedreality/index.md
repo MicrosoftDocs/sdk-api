@@ -2,7 +2,7 @@
 UID: TP:mixedreality
 ms.assetid: a417faa2-0605-3077-8a35-ccd591af9ea5
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,4 +22,3 @@ To develop Windows Mixed Reality, you need these headers:
  * [spatialinteractionmanagerinterop.h](../spatialinteractionmanagerinterop/index.md)
 
 For the programming guide, see [Windows Mixed Reality](/previous-versions/windows/desktop/mixedreality).
-

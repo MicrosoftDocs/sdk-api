@@ -155,7 +155,7 @@ The
 
 
 
-<a href="https://www.bing.com/search?q=Database+Backup+and+Recovery+Functions">Database Backup and Recovery Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Backup and Recovery Functions</a>
 
 
 

@@ -80,7 +80,7 @@ If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

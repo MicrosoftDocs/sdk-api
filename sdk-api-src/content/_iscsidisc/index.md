@@ -2,7 +2,7 @@
 UID: TP:iscsidisc
 ms.assetid: 1847a03e-ccd7-31ab-aef2-7722c427e045
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,4 +21,3 @@ To develop iSCSI Discovery Library API, you need these headers:
  * [iscsidsc.h](../iscsidsc/index.md)
 
 For the programming guide, see [iSCSI Discovery Library API](/previous-versions/windows/desktop/iscsidisc).
-

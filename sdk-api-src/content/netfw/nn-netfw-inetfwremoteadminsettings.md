@@ -59,7 +59,7 @@ The <b>INetFwRemoteAdminSettings</b> interface provides access to the settings t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -222,7 +222,7 @@ All configuration changes take
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
@@ -230,7 +230,7 @@ All configuration changes take
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

@@ -1,15 +1,8 @@
 {
   "tech": "stream",
   "headers": [
-    "bdatypes.h",
-    "ksmedia.h",
-    "bdamedia.h",
-    "dsound.h",
-    "ksproxy.h",
-    "ks.h",
     "mfidl.h",
-    "mfapi.h",
-    "mftransform.h"
+    "mfapi.h"
   ],
   "displayName": "Streaming media DDI reference"
 }

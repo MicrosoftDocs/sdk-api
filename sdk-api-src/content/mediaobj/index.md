@@ -2,7 +2,7 @@
 UID: NA:mediaobj
 ms.assetid: d6194c4e-18c3-302b-8437-32d383b8790b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by DirectShow. For more information, see:
+This header is used by dshow. For more information, see:
 
 - [DirectShow](../_dshow/index.md)

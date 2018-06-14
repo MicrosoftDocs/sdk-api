@@ -95,7 +95,7 @@ Do not place an object on the clipboard after calling <b>CloseClipboard</b>.
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboard+Viewer">Example of a Clipboard Viewer</a>.
+For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 

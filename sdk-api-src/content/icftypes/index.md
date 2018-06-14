@@ -2,7 +2,7 @@
 UID: NA:icftypes
 ms.assetid: 08aa9064-3b43-3595-8942-7682f54aa15f
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: ics
 ## -description
 
 
-This header is used by Windows Firewall Technologies. For more information, see:
+This header is used by ics. For more information, see:
 
 - [Windows Firewall Technologies](../_ics/index.md)

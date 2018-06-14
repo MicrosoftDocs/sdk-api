@@ -2,7 +2,7 @@
 UID: NA:inaddr
 ms.assetid: a2d56811-ac52-35ff-a2c8-49af9809ceae
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: iphlp
 ## -description
 
 
-This header is used by IP Helper. For more information, see:
+This header is used by iphlp. For more information, see:
 
 - [IP Helper](../_iphlp/index.md)

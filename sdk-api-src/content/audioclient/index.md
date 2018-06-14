@@ -2,7 +2,7 @@
 UID: NA:audioclient
 ms.assetid: fe5915ee-d844-316f-bd2f-12f8234f5119
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: coreaudio
 ## -description
 
 
-This header is used by Core Audio APIs. For more information, see:
+This header is used by coreaudio. For more information, see:
 
 - [Core Audio APIs](../_coreaudio/index.md)

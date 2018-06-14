@@ -85,7 +85,7 @@ Optional flags. Can be 0 or any combination of the flags enumerated by
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. Otherwise, possible 
           return values are the following:
@@ -262,7 +262,7 @@ If the asynchronous interface that calls this API is <a href="https://msdn.micro
 
 The value returned by a D3D10_COUNTER_GPU_IDLE, D3D10_COUNTER_VERTEX_PROCESSING, D3D10_COUNTER_GEOMETRY_PROCESSING, D3D10_COUNTER_PIXEL_PROCESSING, or D3D10_COUNTER_OTHER_GPU_PROCESSING counter may be different depending on the number of parallel counters that exist on a video card, and those values can be interpreted with the following equation:
 
-<img alt="Equation to interpret the number of parallel counters" src="/images/parallelUnits.jpg"/>
+<img alt="Equation to interpret the number of parallel counters" src="images/parallelUnits.jpg"/>
 
 The number of parallel counters that a video card has is available from <b>NumDetectableParallelUnits</b> in <a href="https://msdn.microsoft.com/7df1d574-4660-4249-90b9-03933449be84">D3D10_COUNTER_INFO</a>, and it can be retrieved by calling <a href="https://msdn.microsoft.com/dfa4cc61-2c1d-45a7-839c-f7df64d488ac">ID3D10Device::CheckCounterInfo</a>.
 

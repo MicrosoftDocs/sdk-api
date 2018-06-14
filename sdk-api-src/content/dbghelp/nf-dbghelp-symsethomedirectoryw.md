@@ -67,7 +67,7 @@ A handle to a process. This handle must have been previously passed to the <a hr
 
 ### -param dir [in, optional]
 
-The home directory. This directory must be writable, otherwise the home directory is the common application directory specified with <a href="https://www.bing.com/search?q=CSIDL_COMMON_APPDATA">CSIDL_COMMON_APPDATA</a>. If this parameter is <b>NULL</b>, the function uses the default directory.
+The home directory. This directory must be writable, otherwise the home directory is the common application directory specified with <a href="csidl_common_appdata">CSIDL_COMMON_APPDATA</a>. If this parameter is <b>NULL</b>, the function uses the default directory.
 
 
 ## -returns

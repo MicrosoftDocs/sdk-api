@@ -71,7 +71,7 @@ A handle to the button control.
 
 Beginning with comctl32 DLL version 6.01, command link buttons may have a note. For information on DLL versions, see <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Control Versions</a>.
 
-The <b>Button_GetNoteLength</b> macro works only with the <a href="https://www.bing.com/search?q=BS_COMMANDLINK">BS_COMMANDLINK</a> and <a href="https://www.bing.com/search?q=BS_DEFCOMMANDLINK">BS_DEFCOMMANDLINK</a> button styles.
+The <b>Button_GetNoteLength</b> macro works only with the <a href="Button_Styles.htm">BS_COMMANDLINK</a> and <a href="Button_Styles.htm">BS_DEFCOMMANDLINK</a> button styles.
 
 
 

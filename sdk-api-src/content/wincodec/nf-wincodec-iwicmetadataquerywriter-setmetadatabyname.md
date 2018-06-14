@@ -68,7 +68,7 @@ The name of the metadata item.
 
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 The metadata to set.
 
@@ -127,7 +127,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>
+<a href="_stg_propvariant">PROPVARIANT</a>
 
 
 

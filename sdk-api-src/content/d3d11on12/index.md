@@ -2,7 +2,7 @@
 UID: NA:d3d11on12
 ms.assetid: e0d38688-a299-3faf-a080-d8cff729c371
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct3d12
 ## -description
 
 
-This header is used by Direct3D 12 Graphics. For more information, see:
+This header is used by direct3d12. For more information, see:
 
 - [Direct3D 12 Graphics](../_direct3d12/index.md)

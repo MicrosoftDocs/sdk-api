@@ -2,7 +2,7 @@
 UID: NA:corewindow
 ms.assetid: 0875a51e-8a77-31d2-a86c-aeb2f40718a0
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winrt
 ## -description
 
 
-This header is used by Windows Runtime C++ reference. For more information, see:
+This header is used by winrt. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)

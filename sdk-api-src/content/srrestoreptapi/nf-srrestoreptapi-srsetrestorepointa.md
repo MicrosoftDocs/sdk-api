@@ -92,7 +92,7 @@ If the function fails, the return value is <b>FALSE</b>. The <b>nStatus</b> memb
 
 
 
-You must initialize COM security to allow NetworkService, LocalService and System to call back into any process that uses <b>SRSetRestorePoint</b>. This is necessary for <b>SRSetRestorePoint</b> to operate properly. For information on setting up the COM calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, see <a href="https://msdn.microsoft.com/98c79305-3659-4d1a-8165-bb6e451e2d1e">Using System Restore</a>.
+You must initialize COM security to allow NetworkService, LocalService and System to call back into any process that uses <b>SRSetRestorePoint</b>. This is necessary for <b>SRSetRestorePoint</b> to operate properly. For information on setting up the COM calls to <a href="_com_coinitializeex">CoInitializeEx</a> and <a href="_com_coinitializesecurity">CoInitializeSecurity</a>, see <a href="https://msdn.microsoft.com/98c79305-3659-4d1a-8165-bb6e451e2d1e">Using System Restore</a>.
 
 This function cannot be called in safe mode. It also fails if System Restore has been disabled (see 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a>).

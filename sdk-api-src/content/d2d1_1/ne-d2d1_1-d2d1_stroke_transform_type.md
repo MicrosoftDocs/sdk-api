@@ -96,10 +96,10 @@ It is important to distinguish between the geometry being stroked and the shape 
 
 Here is an illustration of a stroke with dashing and a skew and stretch transform.
 
-<img alt="An illustration of a stroke with dashing and a skew and stretch transform." src="/images/skewedstroke.png"/>
+<img alt="An illustration of a stroke with dashing and a skew and stretch transform." src="images/skewedstroke.png"/>
 And here is an illustration of a fixed width stroke which does not get transformed.
 
-<img alt="An illustration of a fixed width stroke which does not get transformed." src="/images/fixedwidthstroke.png"/>
+<img alt="An illustration of a fixed width stroke which does not get transformed." src="images/fixedwidthstroke.png"/>
 
 
 

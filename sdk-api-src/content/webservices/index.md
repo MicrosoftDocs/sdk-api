@@ -2,7 +2,7 @@
 UID: NA:webservices
 ms.assetid: 4fc13355-6c50-32c3-a0e1-9a8c29fdafad
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wsw
 ## -description
 
 
-This header is used by Windows Web Services. For more information, see:
+This header is used by wsw. For more information, see:
 
 - [Windows Web Services](../_wsw/index.md)

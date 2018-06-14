@@ -72,7 +72,7 @@ A pointer to a variable of type <b>HRESULT</b> that, when this method returns, i
 
 Type: <b>IXMLDOMDocument**</b>
 
-Address of an <a href="https://msdn.microsoft.com/library/windows/desktop/7d0088e0-c309-4e57-9533-6700f80074b3">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
+Address of an <a href="7d0088e0-c309-4e57-9533-6700f80074b3">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
 
 
 ## -returns

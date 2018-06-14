@@ -2,7 +2,7 @@
 UID: NA:msxml6
 ms.assetid: e7171135-c530-3f6a-9ffa-b24ec47757c9
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: ixhr2
 ## -description
 
 
-This header is used by XML HTTP Extended Request. For more information, see:
+This header is used by ixhr2. For more information, see:
 
 - [XML HTTP Extended Request](../_ixhr2/index.md)

@@ -390,7 +390,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://www.bing.com/search?q=Data+Encryption/Decryption+Functions">Data Encryption/Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption/Decryption Functions</a>
  
 
  

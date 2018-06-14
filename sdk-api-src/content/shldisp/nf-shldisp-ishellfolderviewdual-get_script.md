@@ -61,7 +61,7 @@ Gets the scripting object for the view.
 
 ### -param ppDisp [out]
 
-Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 The scripting object for the view. This represents the scripting automation model.
 

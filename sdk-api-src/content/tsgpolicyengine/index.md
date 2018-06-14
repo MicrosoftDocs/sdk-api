@@ -2,7 +2,7 @@
 UID: NA:tsgpolicyengine
 ms.assetid: e10a2b62-7ae2-38df-8c08-1cae3a20664b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: termserv
 ## -description
 
 
-This header is used by Remote Desktop Services. For more information, see:
+This header is used by termserv. For more information, see:
 
 - [Remote Desktop Services](../_termserv/index.md)

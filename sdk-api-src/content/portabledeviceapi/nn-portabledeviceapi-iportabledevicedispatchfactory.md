@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Represents a factory that can instantiate a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object.
+Represents a factory that can instantiate a WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
 
 
 ## -inheritance
@@ -75,7 +75,7 @@ The <b>IPortableDeviceDispatchFactory</b> interface has these methods.
 <a href="https://msdn.microsoft.com/80aa36cd-3831-4eb5-a5bb-a8e48f20fc62">GetDeviceDispatch</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 </td>
 </tr>

@@ -63,7 +63,7 @@ Gets whether old-style numbers are active.
 
 Type: <b>long*</b>
 
-A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

@@ -186,7 +186,7 @@ If the DACL is <b>NULL</b>, and the SE_DACL_PRESENT control bit is not set in th
 
 
 
-<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
