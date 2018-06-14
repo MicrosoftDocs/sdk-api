@@ -99,7 +99,7 @@ Returns a pointer to the extension, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
  
 
  

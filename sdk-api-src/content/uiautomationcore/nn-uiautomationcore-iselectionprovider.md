@@ -138,7 +138,7 @@ Read-only
 
 This interface is implemented by a UI Automation provider.
 
-Providers should raise an event of type <a href="uiauto_event_ids.htm">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
+Providers should raise an event of type <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-event-ids">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
 
 
 

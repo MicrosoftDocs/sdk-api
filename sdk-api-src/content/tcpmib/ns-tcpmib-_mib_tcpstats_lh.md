@@ -230,7 +230,7 @@ The number of connections that are currently present in the system. This total n
 
 
 
-The <a href="_iphlp_gettcpstatistics">GetTcpStatistics</a> function returns a pointer to a <b>MIB_TCPSTATS</b> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a> function returns a pointer to a <b>MIB_TCPSTATS</b> structure. 
 
 The <b>MIB_TCPSTATS</b> structure changed slightly on Windows Vista and later. On Windows Vista
    and later, the <b>dwRtoAlgorithm</b> member is replaced by  a union that contains the following members.
@@ -278,7 +278,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_gettcpstatistics">GetTcpStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a>
 
 
 

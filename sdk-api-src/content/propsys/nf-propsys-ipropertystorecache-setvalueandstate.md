@@ -63,7 +63,7 @@ Sets value and state data for a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
+A reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
 
 
 ### -param ppropvar [in]

@@ -108,7 +108,7 @@ Actions that update the system, such as the
 
 
 
-<a href="database_functions.htm">Installer Action Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer Action Functions</a>
  
 
  

@@ -69,7 +69,7 @@ Handle to the tab control.
 
 
 
-A tab control creates a tooltip control if it has the <a href="Tab_Control_Styles.htm">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/c1b173b1-9da6-441a-a2b6-3875e2c343f8">TCM_SETTOOLTIPS</a> message. 
+A tab control creates a tooltip control if it has the <a href="https://www.bing.com/search?q=TCS_TOOLTIPS">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/c1b173b1-9da6-441a-a2b6-3875e2c343f8">TCM_SETTOOLTIPS</a> message. 
 
 
 

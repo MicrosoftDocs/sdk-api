@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Retrieves the input <a href="_wic_codec_iwicbitmapsource">IWICBitmapSource Interface</a>.
+Retrieves the input <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 
 ## -parameters

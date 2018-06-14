@@ -77,7 +77,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D
 
 ### -param pRestrictToOutput [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface that the swap chain is restricted to. If the swap chain is moved to a different output, the content is black. You can optionally set this parameter to an output target that uses <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict the content on this output. If you do not set this parameter to restrict content on an output target, you can set it to <b>NULL</b>. 
+A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface that the swap chain is restricted to. If the swap chain is moved to a different output, the content is black. You can optionally set this parameter to an output target that uses <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict the content on this output. If you do not set this parameter to restrict content on an output target, you can set it to <b>NULL</b>. 
 
 
 ### -param ppSwapChain [out]
@@ -192,7 +192,7 @@ if (SUCCEEDED(hr) &amp;&amp; m_foregroundSwapChain)
 
 
 
-<a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">For best performance, use DXGI flip model</a>
+<a href="https://www.bing.com/search?q=For+best+performance,+use+DXGI+flip+model">For best performance, use DXGI flip model</a>
 
 
 

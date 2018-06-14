@@ -66,7 +66,7 @@ A window handle that will be the parent of any dialogs created during the proces
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for which to select a driver. 
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to select a driver. 
 
 
 ### -param DeviceInfoData [in, out]

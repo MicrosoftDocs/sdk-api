@@ -129,7 +129,7 @@ When you have finished using an OID function, unregister it by calling the <a hr
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
  
 
  

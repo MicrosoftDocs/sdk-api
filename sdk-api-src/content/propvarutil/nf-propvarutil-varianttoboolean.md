@@ -92,12 +92,12 @@ This helper function is used when the calling application expects a <a href="htt
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_BOOL, this function extracts the <b>BOOL</b> value.
 
-If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type VT_BOOL, this function attempts to convert the value in the <b>VARIANT</b> structure into a <b>BOOL</b>. If a conversion is not possible, <a href="shell.VariantToBoolean">VariantToBoolean</a> returns a failure code and sets <i>pfRet</i> to <b>FALSE</b>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to <b>FALSE</b>.
+If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type VT_BOOL, this function attempts to convert the value in the <b>VARIANT</b> structure into a <b>BOOL</b>. If a conversion is not possible, <a href="https://www.bing.com/search?q=VariantToBoolean">VariantToBoolean</a> returns a failure code and sets <i>pfRet</i> to <b>FALSE</b>. See <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to <b>FALSE</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBoolean">VariantToBoolean</a> to access a <b>BOOL</b> value in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToBoolean">VariantToBoolean</a> to access a <b>BOOL</b> value in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,19 +131,19 @@ else
 
 
 
-<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
+<a href="https://www.bing.com/search?q=InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToBoolean">PropVariantToBoolean</a>
+<a href="https://www.bing.com/search?q=PropVariantToBoolean">PropVariantToBoolean</a>
 
 
 
-<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
+<a href="https://www.bing.com/search?q=VariantToBooleanArray">VariantToBooleanArray</a>
  
 
  

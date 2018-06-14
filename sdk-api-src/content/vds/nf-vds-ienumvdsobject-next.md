@@ -70,7 +70,7 @@ The number of objects to return.
 
 ### -param ppObjectArray [out]
 
-The address of an array of <a href="_com_iunknown">IUnknown</a> pointers, which VDS initializes 
+The address of an array of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointers, which VDS initializes 
       on return.
 
 
@@ -84,7 +84,7 @@ The address of a <b>ULONG</b>, which VDS initializes on return to the number of
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ The specified number of returned objects is greater than the number of objects r
 
 
 
-To obtain object-specific interface pointers from the <a href="_com_iunknown">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a> method.
+To obtain object-specific interface pointers from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method.
 
 
 

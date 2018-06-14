@@ -75,7 +75,7 @@ Contains a GUID value that identifies the language to obtain the profile descrip
 
 ### -param pbstrProfile [out]
 
-Pointer to a <b>BSTR</b> value that receives the description string. The caller is responsible for freeing this memory using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
+Pointer to a <b>BSTR</b> value that receives the description string. The caller is responsible for freeing this memory using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 
 ## -returns
@@ -142,7 +142,7 @@ An unspecified error occurred.
 
 
 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
  
 
  

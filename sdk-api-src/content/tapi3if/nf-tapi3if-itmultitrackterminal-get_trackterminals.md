@@ -54,7 +54,7 @@ req.product: Windows XP with SP1 and later
 The 
 <b>get_TrackTerminals</b> method creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called. The variant returned contains a pointer to an 
 <a href="https://msdn.microsoft.com/2286678a-68b9-4f4a-b36b-7fdf8cdad6a6">ITCollection</a> interface that can be used to iterate through elements of type 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>. The elements of the collection contain pointers to tracks.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>. The elements of the collection contain pointers to tracks.
 
 
 ## -parameters

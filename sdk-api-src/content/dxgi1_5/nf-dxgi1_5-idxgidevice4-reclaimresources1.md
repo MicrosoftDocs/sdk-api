@@ -84,7 +84,7 @@ A pointer to an array that receives <a href="https://msdn.microsoft.com/AF7082A5
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, including E_INVALIDARG if the resources are invalid.
 

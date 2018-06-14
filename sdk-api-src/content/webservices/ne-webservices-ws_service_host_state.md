@@ -83,7 +83,7 @@ The states that a service host can be in.
 
 The following are the state transitions for a service host
 
-<img alt="" src="images/ServiceHostStates.png"/>
+<img alt="" src="/images/ServiceHostStates.png"/>
 
 
 

@@ -83,7 +83,7 @@ Specifies the redraw time interval. Redraw at every elasped interval, until the 
 
 
 
-Autoscroll information is used to scroll a nonvisible item into view. The control must have the <a href="Tree_View_Control_Window_Extended_Styles.htm">TVS_EX_AUTOHSCROLL</a> extended style. For information on extended styles, see Tree-View Control Extended Styles.
+Autoscroll information is used to scroll a nonvisible item into view. The control must have the <a href="https://www.bing.com/search?q=TVS_EX_AUTOHSCROLL">TVS_EX_AUTOHSCROLL</a> extended style. For information on extended styles, see Tree-View Control Extended Styles.
 
 
 

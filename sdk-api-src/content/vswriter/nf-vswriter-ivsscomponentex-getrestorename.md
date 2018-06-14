@@ -121,7 +121,7 @@ The caller is out of memory or other system resources.
 
 The <a href="https://msdn.microsoft.com/a8334b28-9328-49f4-bf92-f43c556781bf">GetRestoreName</a> method can only be called during a restore operation.
 
-If the call to <a href="https://msdn.microsoft.com/a8334b28-9328-49f4-bf92-f43c556781bf">GetRestoreName</a> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrName</i> parameter by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
+If the call to <a href="https://msdn.microsoft.com/a8334b28-9328-49f4-bf92-f43c556781bf">GetRestoreName</a> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrName</i> parameter by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 A writer indicates that it supports this method by setting the <b>VSS_BS_RESTORE_RENAME</b> flag in its backup schema mask.
 

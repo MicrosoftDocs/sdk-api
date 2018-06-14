@@ -76,13 +76,13 @@ Pointer to  the friendly Starter Group Policy object (GPO) display name search. 
 
 #### starterGPOPermissions
 
-Pointer to an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> or <a href="_com_iunknown">IUnknown</a> interface to query the <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a> interface. For script programmers, his is a reference to a <b>GPMPermission</b> object. The valid criteria include the <b>opContains</b> or <b>opNotContains</b> search operators.
+Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> or <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface to query the <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a> interface. For script programmers, his is a reference to a <b>GPMPermission</b> object. The valid criteria include the <b>opContains</b> or <b>opNotContains</b> search operators.
 
 
 
 #### starterGPOEffectivePermissions
 
-Pointer to an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> or <a href="_com_iunknown">IUnknown</a> interface to query the 
+Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> or <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface to query the 
 <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a> interface. The valid criteria include the <b>opContains</b> and <b>opNotContains</b> search operators.
 
 

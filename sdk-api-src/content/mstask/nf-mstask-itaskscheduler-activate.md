@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>Activate</b> method returns an active interface for a specified <a href="w.htm">work item</a>.
+<b>Activate</b> method returns an active interface for a specified <a href="/windows/desktop/api/mstask/ns-mstask-_monthlydow">work item</a>.
 
 
 ## -parameters

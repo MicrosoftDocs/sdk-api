@@ -76,11 +76,11 @@ Active Low.
 
 
 
-<a href="base.ioctl_ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_get_polarity.md">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity.md">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
 
 
 

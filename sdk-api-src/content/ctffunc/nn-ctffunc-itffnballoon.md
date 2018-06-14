@@ -95,7 +95,7 @@ Changes the style and text of a language bar balloon item.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
  
 
  

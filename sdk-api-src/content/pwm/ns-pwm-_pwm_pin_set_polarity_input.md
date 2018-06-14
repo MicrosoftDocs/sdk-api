@@ -71,7 +71,7 @@ The desired polarity for the pin or channel as a <a href="https://msdn.microsoft
 
 
 
-<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity.md">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

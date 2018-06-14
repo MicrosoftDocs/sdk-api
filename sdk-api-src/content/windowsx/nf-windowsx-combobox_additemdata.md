@@ -77,7 +77,7 @@ A pointer to the item data to add.
 
 
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="Combo_Box_Styles.htm">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>.
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://www.bing.com/search?q=CBS_HASSTRINGS">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>.
 	
 
 

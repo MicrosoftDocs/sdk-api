@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Gets an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface that can be used to enumerate the collection.
+Gets an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 

@@ -158,7 +158,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). To get extended 
 
 
 
-<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
+<a href="https://www.bing.com/search?q=Verification+Functions+Using+CTLs">Verification Functions Using CTLs</a>
  
 
  

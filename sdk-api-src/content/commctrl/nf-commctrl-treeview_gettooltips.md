@@ -78,7 +78,7 @@ Handle to a tree-view control.
 
 
 
-When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="Tree_View_Control_Window_Styles.htm">TVS_NOTOOLTIPS</a> style. 
+When created, tree-view controls automatically create a child tooltip control. To prevent a tree-view control from using tooltips, create the control with the <a href="https://www.bing.com/search?q=TVS_NOTOOLTIPS">TVS_NOTOOLTIPS</a> style. 
 
 
 

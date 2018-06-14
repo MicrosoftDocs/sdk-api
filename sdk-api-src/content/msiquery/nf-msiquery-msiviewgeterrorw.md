@@ -489,7 +489,7 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 
 
-<a href="database_functions.htm">General Database Access Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">General Database Access Functions</a>
 
 
 

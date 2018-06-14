@@ -90,7 +90,7 @@ A handle to the instance of the module that is creating the animation control.
 
 
 
-The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="Animation_Control_Styles.htm">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip. 
+The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="https://www.bing.com/search?q=ACS_CENTER">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip. 
 
 
 

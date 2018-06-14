@@ -126,7 +126,7 @@ Anchors are always positioned between characters or regions. When two anchors ar
 
 
 
-<a href="ranges.htm">Anchors</a>
+<a href="https://www.bing.com/search?q=Anchors">Anchors</a>
 
 
 

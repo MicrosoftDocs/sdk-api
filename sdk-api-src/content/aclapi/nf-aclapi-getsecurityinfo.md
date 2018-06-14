@@ -172,7 +172,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
 
 
 
@@ -184,7 +184,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 
 
-<a href="authorization_constants.htm">Privilege Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop//SecAuthZ/authorization-constants">Privilege Constants</a>
 
 
 

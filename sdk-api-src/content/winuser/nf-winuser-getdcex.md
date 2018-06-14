@@ -213,7 +213,7 @@ If the function fails, the return value is <b>NULL</b>. An invalid value for the
 
 Unless the display DC belongs to a window class, the <a href="https://msdn.microsoft.com/c4f48f1e-4a37-4330-908e-2ac5c65e1a1d">ReleaseDC</a> function must be called to release the DC after painting. Also, <b>ReleaseDC</b> must be called from the same thread that called <b>GetDCEx</b>. The number of DCs is limited only by available memory.
 
-The function returns a handle to a DC that belongs to the window's class if CS_CLASSDC, CS_OWNDC or CS_PARENTDC was specified as a style in the <a href="_win32_wndclass_str_cpp">WNDCLASS</a> structure when the class was registered.
+The function returns a handle to a DC that belongs to the window's class if CS_CLASSDC, CS_OWNDC or CS_PARENTDC was specified as a style in the <a href="https://www.bing.com/search?q=WNDCLASS">WNDCLASS</a> structure when the class was registered.
 
 
 
@@ -243,7 +243,7 @@ The function returns a handle to a DC that belongs to the window's class if CS_C
 
 
 
-<a href="_win32_wndclass_str_cpp">WNDCLASS</a>
+<a href="https://www.bing.com/search?q=WNDCLASS">WNDCLASS</a>
  
 
  

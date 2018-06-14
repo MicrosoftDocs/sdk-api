@@ -91,13 +91,13 @@ The 8-bit console functions use the OEM code page by default. All other function
     functions, and vice versa. For example, if the 
     <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFileA</a> function returns a string that contains 
     certain extended ANSI characters, and the 8-bit console functions are set to use the OEM code page, then the 
-    <a href="base.writeconsole">WriteConsoleA</a> function does not display the string 
+    <a href="https://www.bing.com/search?q=WriteConsoleA">WriteConsoleA</a> function does not display the string 
     properly.
 
 Use the <a href="https://msdn.microsoft.com/6bebe896-86d1-40b8-ab7f-0305ada71fdf">AreFileApisANSI</a> function to determine 
     which code page the set of file I/O functions is currently using. Use the 
-    <a href="base.setconsolecp">SetConsoleCP</a> and 
-    <a href="base.setconsoleoutputcp">SetConsoleOutputCP</a> functions to set the code page 
+    <a href="https://www.bing.com/search?q=SetConsoleCP">SetConsoleCP</a> and 
+    <a href="https://www.bing.com/search?q=SetConsoleOutputCP">SetConsoleOutputCP</a> functions to set the code page 
     for the 8-bit console functions.
 
 To solve the problem of code page incompatibility, it is best to use Unicode for console applications. Console 
@@ -193,11 +193,11 @@ Yes
 
 
 
-<a href="base.setconsolecp">SetConsoleCP</a>
+<a href="https://www.bing.com/search?q=SetConsoleCP">SetConsoleCP</a>
 
 
 
-<a href="base.setconsoleoutputcp">SetConsoleOutputCP</a>
+<a href="https://www.bing.com/search?q=SetConsoleOutputCP">SetConsoleOutputCP</a>
 
 
 
@@ -205,7 +205,7 @@ Yes
 
 
 
-<a href="base.writeconsole">WriteConsoleA</a>
+<a href="https://www.bing.com/search?q=WriteConsoleA">WriteConsoleA</a>
  
 
  

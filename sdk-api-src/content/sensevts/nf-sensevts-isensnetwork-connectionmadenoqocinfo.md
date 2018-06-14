@@ -106,7 +106,7 @@ SENS calls this method to notify your application that the specified connection 
 
 
 			Filtering can be performed on the publisher property <i>ulConnectionMadeTypeNoQOC</i> by setting it to either CONNECTION_LAN or CONNECTION_WAN or both. Use 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty.md">IEventSubscription::PutPublisherProperty</a> to set the publisher property.
 
 
 
@@ -120,11 +120,11 @@ SENS calls this method to notify your application that the specified connection 
 
 
 
-<a href="_cos_ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription.md">IEventSubscription</a>
 
 
 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty.md">IEventSubscription::PutPublisherProperty</a>
 
 
 

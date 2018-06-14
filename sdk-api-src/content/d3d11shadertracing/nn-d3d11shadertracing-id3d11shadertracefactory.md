@@ -88,7 +88,7 @@ Creates a shader-trace interface for a shader-trace information object.
 
 These APIs require the Windows Software Development Kit (SDK) for Windows 8.
 
-To retrieve an instance of <b>ID3D11ShaderTraceFactory</b>, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> that you created with <a href="d3d11_create_device_flag.htm">D3D11_CREATE_DEVICE_DEBUGGABLE</a>. 
+To retrieve an instance of <b>ID3D11ShaderTraceFactory</b>, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> that you created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_DEBUGGABLE</a>. 
 
 
 

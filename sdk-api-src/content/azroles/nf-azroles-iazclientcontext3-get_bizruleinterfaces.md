@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
+The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
 
 This property is read-only.
 

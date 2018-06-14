@@ -82,7 +82,7 @@ One of the following values that specifies alignment:
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNLEFT</a> style instead.
+Not implemented. Apply the <a href="https://www.bing.com/search?q=LVS_ALIGNLEFT">LVS_ALIGNLEFT</a> style instead.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNLEFT</
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNTOP</a> style instead.
+Not implemented. Apply the <a href="https://www.bing.com/search?q=LVS_ALIGNTOP">LVS_ALIGNTOP</a> style instead.
 
 </td>
 </tr>

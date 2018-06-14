@@ -68,7 +68,7 @@ Specifies the right to play content without restriction.
 
 ### -field WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE
 
-Specifies the right to copy content to a device not compliant with the <a href="wmformat_glossary.htm">Secure Digital Music Initiative (SDMI)</a>.
+Specifies the right to copy content to a device not compliant with the <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">Secure Digital Music Initiative (SDMI)</a>.
 
 
 ### -field WMT_RIGHT_COPY_TO_CD

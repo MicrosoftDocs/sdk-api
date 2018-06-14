@@ -88,7 +88,7 @@ A pointer to a <a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b
 On input, the number of bytes contained in the buffer pointed to by the <i>lpServiceClassInfo</i> parameter. 
 
 On output, if the function fails and the error is 
-<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to <i>lpServiceClassInfo</i> needed to retrieve the record.
+<a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a>, this parameter specifies the minimum size, in bytes, of the buffer pointed to <i>lpServiceClassInfo</i> needed to retrieve the record.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The return value is zero if the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSA_NOT_ENOUGH_MEMORY">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEACCES">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -129,7 +129,7 @@ The calling routine does not have sufficient privileges to access the informatio
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ The buffer pointed to by the <i>lpServiceClassInfo</i> parameter is too small to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ The specified service class identifier or namespace provider identifier is not v
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +162,7 @@ The operation is not supported for the type of object referenced. This error is 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSANO_DATA">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -173,7 +173,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -185,7 +185,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://www.bing.com/search?q=WSATYPE_NOT_FOUND">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">

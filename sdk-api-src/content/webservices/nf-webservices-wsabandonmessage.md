@@ -139,7 +139,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
                 state diagram:
             
 
-<img alt="" src="images/AbandonMessage.png"/>
+<img alt="" src="/images/AbandonMessage.png"/>
 
 
                 For read operations, an application typically calls <b>WsAbandonMessage</b> when it is unnecessary for the application to continue reading the 

@@ -61,22 +61,22 @@ Defines values that are used with the Text Object Model (TOM) API.
 
 ### -field tomFalse
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates false.
+A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that indicates false.
 
 
 ### -field tomTrue
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates true.
+A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that indicates true.
 
 
 ### -field tomUndefined
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
+A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
 
 
 ### -field tomToggle
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that toggles the state of a property.
+A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that toggles the state of a property.
 
 
 ### -field tomAutoColor
@@ -555,19 +555,19 @@ The value returned by <a href="https://msdn.microsoft.com/e797f494-bc34-4529-a77
 
 List is ordered with Unicode circled numbers 
 
-<img alt="Unicode numbers in a circle." src="images/unicodecirclednumbers.png"/>
+<img alt="Unicode numbers in a circle." src="/images/unicodecirclednumbers.png"/>
 
 ### -field tomListNumberedBlackCircleWingding
 
 List is ordered with Wingdings black circled digits 
 
-<img alt="Circled black digits." src="images/wingdingblackcircleddigits.png"/>
+<img alt="Circled black digits." src="/images/wingdingblackcircleddigits.png"/>
 
 ### -field tomListNumberedWhiteCircleWingding
 
 List is ordered with Wingdings white circled digits:
 
-<img alt="White digits in a black circle." src="images/wingdingwhitecircleddigits.png"/>
+<img alt="White digits in a black circle." src="/images/wingdingwhitecircleddigits.png"/>
 
 ### -field tomListNumberedArabicWide
 

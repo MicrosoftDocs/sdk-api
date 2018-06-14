@@ -235,7 +235,7 @@ else
 
 
 
-<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
+<a href="https://www.bing.com/search?q=Data+Encryption+and+Decryption+Functions">Data Encryption and Decryption Functions</a>
 
 
 

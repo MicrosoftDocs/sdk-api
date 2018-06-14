@@ -91,7 +91,7 @@ The
 
 
 
-<a href="database_functions.htm">General Database Access Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">General Database Access Functions</a>
  
 
  

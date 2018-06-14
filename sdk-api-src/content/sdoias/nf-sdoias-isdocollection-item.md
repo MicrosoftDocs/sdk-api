@@ -64,13 +64,13 @@ The
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>. Store the name of the object in a 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> in this <b>VARIANT</b>.
+<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> in this <b>VARIANT</b>.
 
 
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface for the object.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface for the object.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
+<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
 
 
 

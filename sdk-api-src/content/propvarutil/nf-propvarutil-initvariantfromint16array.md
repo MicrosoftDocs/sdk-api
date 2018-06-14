@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_I2 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt16Array">InitVariantFromInt16Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromInt16Array">InitVariantFromInt16Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
+<a href="https://www.bing.com/search?q=InitVariantFromInt16">InitVariantFromInt16</a>
 
 
 
-<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
+<a href="https://www.bing.com/search?q=VariantToInt16Array">VariantToInt16Array</a>
  
 
  

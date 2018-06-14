@@ -120,7 +120,7 @@ If a character does not exist in the current font, it is assigned the width of t
 
 #### Examples
 
-For an example, see "Displaying Keyboard Input" in <a href="_win32_Using_Keyboard_Input_cpp">Using Keyboard Input</a>.
+For an example, see "Displaying Keyboard Input" in <a href="https://www.bing.com/search?q=Using+Keyboard+Input">Using Keyboard Input</a>.
 
 <div class="code"></div>
 

@@ -160,7 +160,7 @@ void main()
 
 
 
-<a href="_com_iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
 
 
 

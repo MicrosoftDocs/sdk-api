@@ -90,12 +90,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold an Int16 value. For instance, an application obtaining values from a property store can use this to safely extract the Int16 value for Int16 properties.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_I2</b>, this helper function extracts the Int16 value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into an Int16. If a conversion is not possible, <a href="shell.PropVariantToInt16">PropVariantToInt16</a> will return a failure code and set <i>piRet</i> to 0. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to 0.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_I2</b>, this helper function extracts the Int16 value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into an Int16. If a conversion is not possible, <a href="https://www.bing.com/search?q=PropVariantToInt16">PropVariantToInt16</a> will return a failure code and set <i>piRet</i> to 0. See <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to 0.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt16">PropVariantToInt16</a> to access an Int16 value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToInt16">PropVariantToInt16</a> to access an Int16 value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

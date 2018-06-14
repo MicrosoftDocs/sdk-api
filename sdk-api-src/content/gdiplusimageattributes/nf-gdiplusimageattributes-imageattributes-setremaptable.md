@@ -152,7 +152,7 @@ VOID Example_SetRemapTable(HDC hdc)
 </table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing a rectangle with red and green regions, then the same rectangle with the red region replaced with blue" src="images/imageattributessetremaptable.png"/>
+<img alt="Illustration showing a rectangle with red and green regions, then the same rectangle with the red region replaced with blue" src="/images/imageattributessetremaptable.png"/>
 
 <div class="code"></div>
 

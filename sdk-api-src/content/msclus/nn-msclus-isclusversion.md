@@ -57,9 +57,9 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Provides version information 
-    about the operating system and the <a href="c_gly.htm">Cluster service</a>. 
-    For more information on <a href="c_gly.htm">cluster versions</a> and 
-    <a href="v_gly.htm">version numbers</a>, see 
+    about the operating system and the <a href="https://www.bing.com/search?q=Cluster+service">Cluster service</a>. 
+    For more information on <a href="https://www.bing.com/search?q=cluster+versions">cluster versions</a> and 
+    <a href="https://www.bing.com/search?q=version+numbers">version numbers</a>, see 
     <a href="https://msdn.microsoft.com/919345fa-cbaa-4d01-bd3c-9ca69cab5094">Version Compatibility</a>.
 
 
