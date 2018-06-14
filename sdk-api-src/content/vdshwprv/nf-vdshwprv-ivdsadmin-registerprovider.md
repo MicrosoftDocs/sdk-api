@@ -139,7 +139,7 @@ If necessary, call
     before registering a new version.
 
 An in-process provider calls this method from 
-    <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>; whereas, an out-of-process 
+    <a href="https://www.bing.com/search?q=DllRegisterServer">DllRegisterServer</a>; whereas, an out-of-process 
     provider calls from the 
     <a href="https://www.bing.com/search?q=WinMain">WinMain</a> 
     function.

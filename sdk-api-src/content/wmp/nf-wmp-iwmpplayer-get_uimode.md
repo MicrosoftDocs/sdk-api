@@ -90,20 +90,20 @@ Pointer to a <b>BSTR</b> containing one of the following values.
 <tr>
 <td>none</td>
 <td>Windows Media Player is embedded without controls, and with only the video or visualization window displayed.</td>
-<td><img alt='uiMode="none" with audio' border="0" src="images/uimode_none_audio_v11.png"/></td>
-<td><img alt='uiMode="none" with video' border="0" src="images/uimode_none_video_v11.png"/></td>
+<td><img alt='uiMode="none" with audio' border="0" src="/images/uimode_none_audio_v11.png"/></td>
+<td><img alt='uiMode="none" with video' border="0" src="/images/uimode_none_video_v11.png"/></td>
 </tr>
 <tr>
 <td>mini</td>
 <td>Windows Media Player is embedded with the status window, play/pause, stop, mute, and volume controls shown in addition to the video or visualization window.</td>
-<td><img alt='uiMode="mini" with audio' border="0" src="images/uimode_mini_audio_v11.png"/></td>
-<td><img alt='uiMode="mini" with video' border="0" src="images/uimode_mini_video_v11.png"/></td>
+<td><img alt='uiMode="mini" with audio' border="0" src="/images/uimode_mini_audio_v11.png"/></td>
+<td><img alt='uiMode="mini" with video' border="0" src="/images/uimode_mini_video_v11.png"/></td>
 </tr>
 <tr>
 <td>full</td>
 <td>Default. Windows Media Player is embedded with the status window, seek bar, play/pause, stop, mute, next, previous, fast forward, fast reverse, and volume controls in addition to the video or visualization window.</td>
-<td><img alt='uiMode="full" with audio' border="0" src="images/uimode_full_audio_v11.png"/></td>
-<td><img alt='uiMode="full" with video' border="0" src="images/uimode_full_video_v11.png"/></td>
+<td><img alt='uiMode="full" with audio' border="0" src="/images/uimode_full_audio_v11.png"/></td>
+<td><img alt='uiMode="full" with video' border="0" src="/images/uimode_full_video_v11.png"/></td>
 </tr>
 <tr>
 <td>custom</td>

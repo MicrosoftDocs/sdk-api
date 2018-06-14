@@ -81,7 +81,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 
 
 An in-process provider calls this method from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> function; whereas, an out-of-process 
+    <a href="https://www.bing.com/search?q=DllRegisterServer">DllRegisterServer</a> function; whereas, an out-of-process 
     provider calls from the 
     <a href="https://www.bing.com/search?q=WinMain">WinMain</a> 
     function.

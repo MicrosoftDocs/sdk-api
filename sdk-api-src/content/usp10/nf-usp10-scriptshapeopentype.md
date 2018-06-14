@@ -193,7 +193,7 @@ For the <i>rpRangeProperties</i> parameter, the <a href="https://msdn.microsoft.
 </ul>
 </li>
 </ul>
-<img alt="Illustration showing the range, item, run, and feature of each word in a line of text that uses six properties to present eight words" border="" src="images/Nested_Properties.GIF"/>
+<img alt="Illustration showing the range, item, run, and feature of each word in a line of text that uses six properties to present eight words" border="" src="/images/Nested_Properties.GIF"/>
 <div class="alert"><b>Note</b>  The illustration makes use of many calls to <b>ScriptShapeOpenType</b>, each representing one run.</div>
 <div> </div>
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
