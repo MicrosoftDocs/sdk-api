@@ -2,7 +2,7 @@
 UID: NA:rpcdce
 ms.assetid: a5344ffc-da83-3b13-a817-48a23b104a56
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: com
 ## -description
 
 
-This header is used by com. For more information, see:
+This header is used by Component Object Model (COM). For more information, see:
 
 - [Component Object Model (COM)](../_com/index.md)

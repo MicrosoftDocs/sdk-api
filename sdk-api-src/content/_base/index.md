@@ -2,7 +2,7 @@
 UID: TP:base
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,4 +66,21 @@ To develop System Services, you need these headers:
  * [winternl.h](../winternl/index.md)
  * [wow64apiset.h](../wow64apiset/index.md)
 
-For the programming guide, see [System Services](/windows/desktop/base).
+For programming guidance for this technology, see:
+* [Error Handling](/windows/desktop/Debug)
+* [Debug Help Library](/windows/desktop/Debug)
+* [Communications Resources](/windows/desktop/DevIO)
+* [Dynamic-Link Libraries](/windows/desktop/Dlls)
+* [Event Logging](/windows/desktop/EventLog)
+* [Interprocess Communications](/windows/desktop/ipc)
+* [Memory Management](/windows/desktop/Memory)
+* [Power Management](/windows/desktop/Power)
+* [Processes and Threads](/windows/desktop/ProcThread)
+* [Services](/windows/desktop/Services)
+* [System Shutdown](/windows/desktop/Shutdown)
+* [Synchronization](/windows/desktop/Sync)
+* [Windows System Information](/windows/desktop/SysInfo)
+* [Virtual Disk Service](/windows/desktop/VDS)
+* [VDS Reference](/windows/desktop/VDS)
+* [Volume Shadow Copy Service](/windows/desktop/VSS)
+

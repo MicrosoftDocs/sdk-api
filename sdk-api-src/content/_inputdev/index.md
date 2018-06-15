@@ -2,7 +2,7 @@
 UID: TP:inputdev
 ms.assetid: 70e74cba-8c16-3058-9f60-28cc19fa9410
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,4 +17,6 @@ Overview of the Keyboard and Mouse Input technology.
 
 The Keyboard and Mouse Input technology is not associated with any headers.
 
-For the programming guide, see [Keyboard and Mouse Input](/windows/desktop/inputdev).
+For programming guidance for this technology, see:
+* [Keyboard and Mouse Input](/windows/desktop/inputdev)
+

@@ -2,7 +2,7 @@
 UID: TP:snmp
 ms.assetid: ba20b313-5fd0-3d24-a094-f411706096ba
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,4 +21,6 @@ To develop Simple Network Management Protocol, you need these headers:
  * [snmp.h](../snmp/index.md)
  * [winsnmp.h](../winsnmp/index.md)
 
-For the programming guide, see [Simple Network Management Protocol](/windows/desktop/snmp).
+For programming guidance for this technology, see:
+* [Simple Network Management Protocol](/windows/desktop/snmp)
+

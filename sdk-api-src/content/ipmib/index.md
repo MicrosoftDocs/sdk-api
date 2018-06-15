@@ -2,7 +2,7 @@
 UID: NA:ipmib
 ms.assetid: 3247e3ce-6e49-3f90-a529-f2f72b8e8391
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: mib
 ## -description
 
 
-This header is used by mib. For more information, see:
+This header is used by Management Information Base. For more information, see:
 
 - [Management Information Base](../_mib/index.md)

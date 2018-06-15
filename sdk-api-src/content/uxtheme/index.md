@@ -2,7 +2,7 @@
 UID: NA:uxtheme
 ms.assetid: 6ca9ff0e-e465-3684-8ba2-beb75756b79e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: controls
 ## -description
 
 
-This header is used by controls. For more information, see:
+This header is used by Windows Controls. For more information, see:
 
 - [Windows Controls](../_controls/index.md)

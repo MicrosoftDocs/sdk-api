@@ -2,7 +2,7 @@
 UID: NA:gamingdeviceinformation
 ms.assetid: 8c71f935-bf26-32e3-bf34-165c7cef73fc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: gamingdvcinfo
 ## -description
 
 
-This header is used by gamingdvcinfo. For more information, see:
+This header is used by Gaming Device Information. For more information, see:
 
 - [Gaming Device Information](../_gamingdvcinfo/index.md)

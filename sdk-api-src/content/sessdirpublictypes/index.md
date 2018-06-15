@@ -2,7 +2,7 @@
 UID: NA:sessdirpublictypes
 ms.assetid: 5f270033-e013-3a22-892b-c87e56f63488
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: termserv
 ## -description
 
 
-This header is used by termserv. For more information, see:
+This header is used by Remote Desktop Services. For more information, see:
 
 - [Remote Desktop Services](../_termserv/index.md)

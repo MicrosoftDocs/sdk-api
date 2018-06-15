@@ -2,7 +2,7 @@
 UID: NA:srrestoreptapi
 ms.assetid: 0b824675-9c58-370f-8e3e-03c2bb18bc20
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: sr
 ## -description
 
 
-This header is used by sr. For more information, see:
+This header is used by System Restore. For more information, see:
 
 - [System Restore](../_sr/index.md)

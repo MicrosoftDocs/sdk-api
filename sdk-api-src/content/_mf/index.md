@@ -2,7 +2,7 @@
 UID: TP:mf
 ms.assetid: f37d0852-e606-3529-b146-65a564153343
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -37,4 +37,6 @@ To develop Microsoft Media Foundation, you need these headers:
  * [opmapi.h](../opmapi/index.md)
  * [wmcontainer.h](../wmcontainer/index.md)
 
-For the programming guide, see [Microsoft Media Foundation](/windows/desktop/mf).
+For programming guidance for this technology, see:
+* [Microsoft Media Foundation](/windows/desktop/medfound)
+

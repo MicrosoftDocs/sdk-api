@@ -2,7 +2,7 @@
 UID: NA:wsdxml
 ms.assetid: b0551964-abaf-3e3b-84e4-5052f6b2c81a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: ncd
 ## -description
 
 
-This header is used by ncd. For more information, see:
+This header is used by Other Devices Technologies. For more information, see:
 
-- [Function Discovery](../_ncd/index.md)
+- [Other Devices Technologies](../_ncd/index.md)

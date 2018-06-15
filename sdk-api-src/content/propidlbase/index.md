@@ -2,7 +2,7 @@
 UID: NA:propidlbase
 ms.assetid: 0bfbc614-51e7-3d64-9e9b-adcb839b500b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: stg
 ## -description
 
 
-This header is used by stg. For more information, see:
+This header is used by Structured Storage. For more information, see:
 
 - [Structured Storage](../_stg/index.md)

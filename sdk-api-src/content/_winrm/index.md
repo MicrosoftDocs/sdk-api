@@ -2,7 +2,7 @@
 UID: TP:winrm
 ms.assetid: 278db203-464f-3cc8-b97b-b01767a8cc07
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,4 +20,6 @@ To develop Windows Remote Management, you need these headers:
  * [wsman.h](../wsman/index.md)
  * [wsmandisp.h](../wsmandisp/index.md)
 
-For the programming guide, see [Windows Remote Management](/windows/desktop/winrm).
+For programming guidance for this technology, see:
+* [Windows Remote Management](/windows/desktop/winrm)
+

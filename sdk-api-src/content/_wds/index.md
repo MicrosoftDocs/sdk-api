@@ -2,7 +2,7 @@
 UID: TP:wds
 ms.assetid: a2f5b90c-451d-365d-a3fa-82d6ea954496
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,4 +24,6 @@ To develop Windows Deployment Services, you need these headers:
  * [wdstpdi.h](../wdstpdi/index.md)
  * [wdstptmgmt.h](../wdstptmgmt/index.md)
 
-For the programming guide, see [Windows Deployment Services](/windows/desktop/wds).
+For programming guidance for this technology, see:
+* [Windows Deployment Services](/windows/desktop/wds)
+

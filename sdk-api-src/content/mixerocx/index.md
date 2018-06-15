@@ -2,7 +2,7 @@
 UID: NA:mixerocx
 ms.assetid: 1fe0a743-6375-34d8-8948-df0932dbc340
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: dshow
 ## -description
 
 
-This header is used by dshow. For more information, see:
+This header is used by DirectShow. For more information, see:
 
 - [DirectShow](../_dshow/index.md)

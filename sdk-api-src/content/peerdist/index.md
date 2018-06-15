@@ -2,7 +2,7 @@
 UID: NA:peerdist
 ms.assetid: f294ca87-7c02-3c9b-92a9-8db8753da587
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: p2p
 ## -description
 
 
-This header is used by p2p. For more information, see:
+This header is used by Peer-to-Peer. For more information, see:
 
 - [Peer-to-Peer](../_p2p/index.md)

@@ -2,7 +2,7 @@
 UID: TP:fax
 ms.assetid: 990b9f1f-aeba-3600-b458-c0e0d71308fc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -26,4 +26,6 @@ To develop Fax Service, you need these headers:
  * [fxsutility.h](../fxsutility/index.md)
  * [winfax.h](../winfax/index.md)
 
-For the programming guide, see [Fax Service](/previous-versions/windows/desktop/fax).
+For programming guidance for this technology, see:
+* [Fax Service](/previous-versions/windows/desktop/fax)
+

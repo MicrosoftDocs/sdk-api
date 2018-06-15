@@ -3,5 +3,6 @@
   "headers": [
     "vdssys.h",
     "virtdisk.h"
-  ]
+  ],
+  "displayName": "Virtual Hard Disk"
 }

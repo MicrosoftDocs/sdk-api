@@ -2,7 +2,7 @@
 UID: NA:mapiunicodehelp
 ms.assetid: 934df035-3853-348e-9aea-890d961e71f7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: mapi
 ## -description
 
 
-This header is used by mapi. For more information, see:
+This header is used by Windows Messaging (MAPI). For more information, see:
 
 - [Windows Messaging (MAPI)](../_mapi/index.md)

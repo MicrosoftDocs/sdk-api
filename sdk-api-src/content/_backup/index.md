@@ -2,7 +2,7 @@
 UID: TP:backup
 ms.assetid: fba69533-b827-3423-a307-5b3ac1132271
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,4 +20,6 @@ To develop Backup, you need these headers:
  * [winbase.h](../winbase/index.md)
  * [winnt.h](../winnt/index.md)
 
-For the programming guide, see [Backup](/windows/desktop/backup).
+For programming guidance for this technology, see:
+* [Backup](/windows/desktop/backup)
+

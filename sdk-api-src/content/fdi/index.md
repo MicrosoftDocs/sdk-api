@@ -2,7 +2,7 @@
 UID: NA:fdi
 ms.assetid: f9849ada-fb50-32a4-8dd1-8f8676897816
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winprog
 ## -description
 
 
-This header is used by winprog. For more information, see:
+This header is used by Developer Notes. For more information, see:
 
-- [Using the Windows Headers](../_winprog/index.md)
+- [Developer Notes](../_winprog/index.md)

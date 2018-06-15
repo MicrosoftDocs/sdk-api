@@ -2,7 +2,7 @@
 UID: NA:frquery
 ms.assetid: efc8e2e5-4289-3407-8f98-aceb8c1222f6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wmi
 ## -description
 
 
-This header is used by wmi. For more information, see:
+This header is used by Windows Management Instrumentation. For more information, see:
 
 - [Windows Management Instrumentation](../_wmi/index.md)
