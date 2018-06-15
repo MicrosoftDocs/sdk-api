@@ -63,7 +63,7 @@ Gets an instance of a property description list interface for a specified proper
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated, Unicode string that identifies the property list. See <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring.md">IPropertySystem::GetPropertyDescriptionListFromString</a> for more information about the format of this parameter.
+Pointer to a null-terminated, Unicode string that identifies the property list. See <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring">IPropertySystem::GetPropertyDescriptionListFromString</a> for more information about the format of this parameter.
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ Reference to the interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist.md">IPropertyDescriptionList</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>.
 
 
 ## -returns
@@ -125,7 +125,7 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 
 
 
-This function calls the property subsystem implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring.md">IPropertySystem::GetPropertyDescriptionListFromString</a> to obtain a collection of properties provided as a semicolon-delimited property list string.
+This function calls the property subsystem implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring">IPropertySystem::GetPropertyDescriptionListFromString</a> to obtain a collection of properties provided as a semicolon-delimited property list string.
 
 We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error.
 

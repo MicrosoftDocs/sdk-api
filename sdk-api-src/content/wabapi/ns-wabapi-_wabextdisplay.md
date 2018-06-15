@@ -97,7 +97,7 @@ If your application uses named properties, and you want to get the named propert
 
 Type: <b>BOOL</b>
 
-Variable of type <b>BOOL</b> that specifies the read-only property on certain kinds of objects, such as the <a href="https://www.bing.com/search?q=VCARD_NAME">VCARD_NAME</a> attribute, <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap.md">LDAP</a> search results, and <a href="https://docs.microsoft.com/">one-off</a> MailUser. This member is relevant only for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt Interface</a>. If this flag is set to true, one's property sheet must set all its controls to a read-only or disabled mode, typically in response to the <a href="https://www.bing.com/search?q=WM_INITDIALOG">WM_INITDIALOG</a> message. Setting  controls to a read-only state makes the user experience more consistent.
+Variable of type <b>BOOL</b> that specifies the read-only property on certain kinds of objects, such as the <a href="https://www.bing.com/search?q=VCARD_NAME">VCARD_NAME</a> attribute, <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> search results, and <a href="https://docs.microsoft.com/">one-off</a> MailUser. This member is relevant only for <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt Interface</a>. If this flag is set to true, one's property sheet must set all its controls to a read-only or disabled mode, typically in response to the <a href="https://www.bing.com/search?q=WM_INITDIALOG">WM_INITDIALOG</a> message. Setting  controls to a read-only state makes the user experience more consistent.
 
 
 ### -field fDataChanged
@@ -123,7 +123,7 @@ Set when the WAB calls <a href="https://msdn.microsoft.com/library/windows/hardw
 
 #### WAB_DISPLAY_LDAPURL
 
-Indicates that <b>lpsz</b> contains the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap.md">LDAP</a> URL that is currently being displayed.
+Indicates that <b>lpsz</b> contains the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> URL that is currently being displayed.
 Sometimes the WAB will display a property sheet on a contact represented by a LDAP URL. While the contact to which the LDAP URL points will be wrapped into a WAB object and placed in <b>lpPropObj</b>, the property sheet may access the URL directly.
 
 

@@ -2,7 +2,7 @@
 UID: TP:cluswmi
 ms.assetid: 3b6837b5-f894-368b-839d-37d95fe1d98d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,6 @@ Overview of the Failover Cluster WMI Provider technology.
 
 The Failover Cluster WMI Provider technology is not associated with any headers.
 
-For the programming guide, see [Failover Cluster WMI Provider](/previous-versions/windows/desktop/cluswmi).
+For programming guidance for this technology, see:
+* [Failover Cluster WMI Provider](/previous-versions/windows/desktop/cluswmi)
 

@@ -2,7 +2,7 @@
 UID: TP:wingen
 ms.assetid: e9c62382-8b92-33aa-8f38-f0150c61496b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,6 @@ Overview of the Windows Genuine Advantage API technology.
 
 The Windows Genuine Advantage API technology is not associated with any headers.
 
-For the programming guide, see [Windows Genuine Advantage API](/previous-versions/windows/desktop/wingen).
+For programming guidance for this technology, see:
+* [Windows Genuine Advantage API](/previous-versions/windows/desktop/wingen)
 

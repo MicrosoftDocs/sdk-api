@@ -78,7 +78,7 @@ Setting <b>SelText</b> to a new value sets <a href="https://msdn.microsoft.com/6
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

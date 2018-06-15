@@ -2,7 +2,7 @@
 UID: TP:gamingdvcinfo
 ms.assetid: b4972891-4403-3035-b6d1-a021050f576f
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Gaming Device Information, you need these headers:
 
  * [gamingdeviceinformation.h](../gamingdeviceinformation/index.md)
 
-For the programming guide, see [Gaming Device Information](/previous-versions/windows/desktop/gamingdvcinfo).
+For programming guidance for this technology, see:
+* [Gaming Device Information](/previous-versions/windows/desktop/gamingdvcinfo)
 

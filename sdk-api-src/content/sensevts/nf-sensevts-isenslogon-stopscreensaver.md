@@ -111,11 +111,11 @@ SENS calls this method to notify an application that a screen saver is stopped.
 
 
 
-<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription.md">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty.md">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

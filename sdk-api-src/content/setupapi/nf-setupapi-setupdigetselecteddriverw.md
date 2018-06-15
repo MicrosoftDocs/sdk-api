@@ -62,7 +62,7 @@ The <b>SetupDiGetSelectedDriver</b> function retrieves the selected driver for a
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve a selected driver.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to retrieve a selected driver.
 
 
 ### -param DeviceInfoData [in, optional]

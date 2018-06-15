@@ -2,7 +2,7 @@
 UID: TP:input_touchinjection
 ms.assetid: 095df767-a299-390f-810e-ca89066d19a9
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,6 @@ Overview of the Touch Injection technology.
 
 The Touch Injection technology is not associated with any headers.
 
-For the programming guide, see [Touch Injection](/previous-versions/windows/desktop/input_touchinjection).
+For programming guidance for this technology, see:
+* [Touch Injection](/previous-versions/windows/desktop/input_touchinjection)
 

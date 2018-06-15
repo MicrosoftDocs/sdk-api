@@ -107,7 +107,7 @@ Indicates calling context does not have proper privileges.
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem.md">IPropertySystem</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
  
 
  

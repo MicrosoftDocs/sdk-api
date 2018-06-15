@@ -2,7 +2,7 @@
 UID: TP:intl
 ms.assetid: c8883f60-a6cc-3905-a03c-cf6c9d78580c
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -31,5 +31,6 @@ To develop Internationalization for Windows Applications, you need these headers
  * [usp10.h](../usp10/index.md)
  * [winnls.h](../winnls/index.md)
 
-For the programming guide, see [Internationalization for Windows Applications](/windows/desktop/intl).
+For programming guidance for this technology, see:
+* [Internationalization for Windows Applications](/windows/desktop/intl)
 

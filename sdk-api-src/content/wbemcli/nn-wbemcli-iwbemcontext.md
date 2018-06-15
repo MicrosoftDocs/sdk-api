@@ -193,7 +193,7 @@ Providers that support the use of
 <li>Any of the above combined with <b>VT_ARRAY</b></li>
 </ul>
 <div class="alert"><b>Note</b>  Only objects that support 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> can marshal their <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> methods in an 
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> can marshal their <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> methods in an 
 <b>IWbemContext</b> instance using a variant of type <b>VT_UNKNOWN</b>.</div>
 <div> </div>
 An 

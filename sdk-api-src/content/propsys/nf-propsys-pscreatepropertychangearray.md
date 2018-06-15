@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Creates a container for a set of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange.md">IPropertyChange</a> objects. This container can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
+Creates a container for a set of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> objects. This container can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Pointer to an array of <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPE
 
 ### -param rgflags [in, optional]
 
-Type: <b>const <a href="/windows/desktop/api/propsys/ne-propsys-pka_flags.md">PKA_FLAGS</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a>*</b>
 
-Pointer to an array of <a href="/windows/desktop/api/propsys/ne-propsys-pka_flags.md">PKA_FLAGS</a> values. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a> values. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param rgpropvar [in, optional]
@@ -98,7 +98,7 @@ Reference to the ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray.md">IPropertyChangeArray</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>.
 
 
 ## -returns
@@ -116,11 +116,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function creates a Component Object Model (COM) object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray.md">IPropertyChangeArray</a>. This object is a container for a set of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange.md">IPropertyChange</a> interfaces and can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
+This function creates a Component Object Model (COM) object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a>. This object is a container for a set of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> interfaces and can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
 
 You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://www.bing.com/search?q=PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
 
-A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray.md">IPropertyChangeArray</a> methods to insert or append additional changes.
+A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a> methods to insert or append additional changes.
 
 The parameters are tied together by their index value. For instance, for property rgpropkey[0], the new value rgpropvar[0] is applied as specified by rgflags[0]. The <i>cChanges</i> parameter states how many of these sets there are. Therefore, the number of elements in each array should be the same: ARRAYSIZE(rgpropkey) = ARRAYSIZE(rgflags) = ARRAYSIZE(rgpropvar) = cChanges.
 

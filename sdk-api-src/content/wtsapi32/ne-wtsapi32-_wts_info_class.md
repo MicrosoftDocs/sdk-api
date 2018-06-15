@@ -102,7 +102,7 @@ A null-terminated string that contains the name of the Remote Desktop Services s
        name of the Remote Desktop Services session. Each Remote Desktop Services session is associated with an interactive window 
        station. Because the only supported window station name for an interactive window station is 
        "WinSta0", each session is associated with its own "WinSta0" window station. For more information, see 
-      <a href="base.window_stations">Window Stations</a>.</div>
+      <a href="https://www.bing.com/search?q=Window+Stations">Window Stations</a>.</div>
 <div> </div>
 
 ### -field WTSDomainName

@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[CStdAsyncStubBuffer_Invoke is not supported and may be altered or unavailable in the future.]
 
-Implements the  <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-invoke.md">IRpcStubBuffer::Invoke</a> method. 
+Implements the  <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-invoke">IRpcStubBuffer::Invoke</a> method. 
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Implements the  <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-in
 
 ### -param pthis [in]
 
-Pointer to  the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer.md">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param _prpcmsg [in]
@@ -75,7 +75,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns
 
 ### -param _pRpcChannelBuffer [in]
 
-Interface pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer.md">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
+Interface pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
 
 
 ## -returns

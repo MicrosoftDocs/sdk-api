@@ -85,7 +85,7 @@ The <b>IRootStorage::SwitchToFile</b> method copies the file associated with the
 It is erroneous to call the 
 <b>SwitchToFile</b> method if the storage object or anything contained within it has been marshaled to another process. Before calling 
 <b>SwitchToFile</b>, the container must call the 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage.md">IPersistStorage::HandsOffStorage</a> method for any element within the storage object that is loaded or running. The <b>HandsOffStorage</b> method forces the element to release its storage pointers and enter the hands-off storage mode. The container must also release all pointers to streams or storages that are contained in this root storage. After the full save operation is completed, the container returns the contained elements to normal storage mode.
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a> method for any element within the storage object that is loaded or running. The <b>HandsOffStorage</b> method forces the element to release its storage pointers and enter the hands-off storage mode. The container must also release all pointers to streams or storages that are contained in this root storage. After the full save operation is completed, the container returns the contained elements to normal storage mode.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If you are implementing your own storage objects, the 
@@ -99,11 +99,11 @@ If you are implementing your own storage objects, the
 
 
 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage.md">IPersistStorage::HandsOffStorage</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a>
 
 
 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted.md">IPersistStorage::SaveCompleted</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a>
 
 
 

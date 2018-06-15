@@ -2,7 +2,7 @@
 UID: TP:ad
 ms.assetid: 97ddb8b6-a879-31af-8608-1d0a010a7697
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -29,5 +29,6 @@ To develop Active Directory Domain Services, you need these headers:
  * [objsel.h](../objsel/index.md)
  * [schedule.h](../schedule/index.md)
 
-For the programming guide, see [Active Directory Domain Services](/windows/desktop/ad).
+For programming guidance for this technology, see:
+* [Active Directory Domain Services](/windows/desktop/ad)
 

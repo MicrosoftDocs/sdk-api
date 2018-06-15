@@ -78,7 +78,7 @@ Setting the TextRTF property replaces the entire contents of a control with the 
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

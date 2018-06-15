@@ -2,7 +2,7 @@
 UID: TP:directdraw
 ms.assetid: 43e6d44d-8b53-399d-b068-b5e0d91fc439
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop DirectDraw, you need these headers:
 
  * [ddraw.h](../ddraw/index.md)
 
-For the programming guide, see [DirectDraw](/windows/desktop/directdraw).
+For programming guidance for this technology, see:
+* [DirectDraw](/windows/desktop/directdraw)
 

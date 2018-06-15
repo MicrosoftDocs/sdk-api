@@ -2,7 +2,7 @@
 UID: TP:winauto
 ms.assetid: 36f74dca-3718-33e7-a3b8-2c7b0e5e736b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,6 @@ To develop Windows Accessibility Features, you need these headers:
  * [uiautomationcore.h](../uiautomationcore/index.md)
  * [uiautomationcoreapi.h](../uiautomationcoreapi/index.md)
 
-For the programming guide, see [Windows Accessibility Features](/windows/desktop/winauto).
+For programming guidance for this technology, see:
+* [Windows Accessibility Features](/windows/desktop/winauto)
 

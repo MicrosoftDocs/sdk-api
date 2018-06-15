@@ -61,10 +61,10 @@ The
 
 The methods in this interface present your object's data as a contiguous sequence of bytes that you can read or write. There are also methods for committing and reverting changes on streams that are open in transacted mode and methods for restricting access to a range of bytes in the stream.
 
-Streams can remain open for long periods of time without consuming file-system resources. The <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
+Streams can remain open for long periods of time without consuming file-system resources. The <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
 
 Clients of asynchronous monikers can choose between a data-pull or data-push model for driving an asynchronous 
-<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage.md">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
 <a href="https://docs.microsoft.com/windows/desktop//com/url-monikers">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
 <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> and 
 <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> calls returned in <a href="https://www.bing.com/search?q=IBindStatusCallback::OnDataAvailable">IBindStatusCallback::OnDataAvailable</a> in these two download models:

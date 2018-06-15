@@ -234,7 +234,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="tablet.iinktablets">IInkTablets</a>
+<a href="https://www.bing.com/search?q=IInkTablets">IInkTablets</a>
 
 
 

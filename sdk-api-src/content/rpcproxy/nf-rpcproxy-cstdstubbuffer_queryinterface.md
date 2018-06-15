@@ -64,7 +64,7 @@ The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https:
 
 ### -param This [in]
 
-Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer.md">IRpcStubBuffer</a> object.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

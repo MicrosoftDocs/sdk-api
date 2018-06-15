@@ -68,9 +68,9 @@ Pointer to an instance of the <a href="https://msdn.microsoft.com/library/window
 
 ### -param ppd [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>*</b>
 
-Pointer to an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> interface, which represents the property in the property store.
+Pointer to an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface, which represents the property in the property store.
 
 
 ### -param ppropvar [out]

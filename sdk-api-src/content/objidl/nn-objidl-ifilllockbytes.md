@@ -124,11 +124,11 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint.md">IConnectionPoint</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer.md">IConnectionPointContainer</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
@@ -136,7 +136,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify.md">IProgressNotify</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
 
 
 

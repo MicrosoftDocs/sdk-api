@@ -175,7 +175,7 @@ Use this method to add one stroke to an <a href="https://msdn.microsoft.com/c7fb
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

@@ -2,7 +2,7 @@
 UID: NA:qnetwork
 ms.assetid: d78c8ba2-4d4a-339e-9f7a-20fed6653b9d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

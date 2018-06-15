@@ -127,7 +127,7 @@ You can use the <b>IGetClusterDataInfo</b> interface when
 <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
 </li>
 </ul>
-Failover Cluster Administrator passes in an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer as the 
+Failover Cluster Administrator passes in an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer as the 
      <i>piData</i> parameter for these methods. Use <i>piData</i> to call the 
      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for one of the 
      <b>IGetClusterDataInfo</b> methods.

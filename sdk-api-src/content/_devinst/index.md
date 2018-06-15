@@ -2,7 +2,7 @@
 UID: TP:devinst
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,6 @@ To develop Device and Driver Installation Reference, you need these headers:
  * [cfgmgr32.h](../cfgmgr32/index.md)
  * [newdev.h](../newdev/index.md)
 
-For the programming guide, see [Device and Driver Installation Reference](/windows/desktop/devinst).
+For programming guidance for this technology, see:
+* [Device and Driver Installation Reference](/windows/desktop/devinst)
 

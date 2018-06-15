@@ -2,7 +2,7 @@
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,5 +28,7 @@ To develop Tablet PC, you need these headers:
  * [tabflicks.h](../tabflicks/index.md)
  * [tpcshrd.h](../tpcshrd/index.md)
 
-For the programming guide, see [Tablet PC](/windows/desktop/tablet).
+For programming guidance for this technology, see:
+* [Mobile PC](/windows/desktop/mpc)
+* [Tablet PC](/windows/desktop/tablet)
 

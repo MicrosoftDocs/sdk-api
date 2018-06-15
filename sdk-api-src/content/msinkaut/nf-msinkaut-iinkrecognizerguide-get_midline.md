@@ -81,7 +81,7 @@ The value is 0 if the midline is not present.
 
 
 
-<a href="tablet.iinkrecognizerguide">IInkRecognizerGuide</a>
+<a href="https://www.bing.com/search?q=IInkRecognizerGuide">IInkRecognizerGuide</a>
 
 
 

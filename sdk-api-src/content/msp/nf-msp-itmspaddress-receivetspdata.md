@@ -64,7 +64,7 @@ The
 
 ### -param pMSPCall [in]
 
-Pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface of the MSP Call object.
+Pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the MSP Call object.
 
 
 ### -param pBuffer

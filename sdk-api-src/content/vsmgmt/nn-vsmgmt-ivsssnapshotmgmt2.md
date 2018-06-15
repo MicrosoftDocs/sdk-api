@@ -97,7 +97,7 @@ To obtain an instance of the <b>IVssSnapshotMgmt2</b>
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 

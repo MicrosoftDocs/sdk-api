@@ -128,7 +128,7 @@ The transformation applied in this method is a pure shear only if one of the par
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
 
 
 

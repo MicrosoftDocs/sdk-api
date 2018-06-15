@@ -98,7 +98,7 @@ On entry, the <i>lpolestm</i> parameter should be created and positioned just as
 <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
 
 For OLE 1 objects that use native data for their presentation, the 
-<b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update.md">IOleObject::Update</a> to get the presentation data so it can be written to storage.
+<b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> to get the presentation data so it can be written to storage.
 
 Applications that do not use the OLE default caching resources, but use the conversion resources, can use an alternate function, 
 <a href="https://msdn.microsoft.com/2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f">OleConvertOLESTREAMToIStorageEx</a>, which can specify the presentation data to convert. In the 

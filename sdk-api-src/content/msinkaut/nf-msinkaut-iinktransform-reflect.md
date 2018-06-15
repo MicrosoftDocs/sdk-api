@@ -128,7 +128,7 @@ An exception occurred inside the method.
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
 
 
 

@@ -74,7 +74,7 @@ Number of container paths in the <i>ContainerPaths</i> array.
 ### -param ContainerPaths [in]
 
 Array of paths to container files that must be read in order to restore the file specified in the 
-      <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles.md">IDedupBackupSupport::RestoreFiles</a> 
+      <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a> 
       call. Each element is a full path from the root directory of the volume to a container file.
 
 

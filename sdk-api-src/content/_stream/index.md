@@ -2,7 +2,7 @@
 UID: TP:stream
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,5 +17,6 @@ Overview of the Streaming media DDI reference technology.
 
 The Streaming media DDI reference technology is not associated with any headers.
 
-For the programming guide, see [Streaming media DDI reference](/windows/desktop/stream).
+For programming guidance for this technology, see:
+* [Streaming media DDI reference](/windows/desktop/stream)
 

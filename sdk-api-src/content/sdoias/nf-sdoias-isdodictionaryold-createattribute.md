@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>CreateAttribute</b> method creates a new attribute object and returns an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface to it.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface to it.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Specifies a value from the enumeration type
 ### -param ppAttributeObject [out]
 
 Pointer to a pointer to an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface pointer for the created attribute object.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer for the created attribute object.
 
 
 ## -returns

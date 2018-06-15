@@ -90,7 +90,7 @@ Type: <b>LCID*</b>
 
 ### -param ppWordBreaker [out]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 
               Receives a pointer to the word breaker used for this query. This parameter can be <b>NULL</b>.

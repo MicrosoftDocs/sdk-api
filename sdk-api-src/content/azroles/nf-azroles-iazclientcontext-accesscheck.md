@@ -96,7 +96,7 @@ Flags that will be passed in the call to <a href="https://msdn.microsoft.com/lib
 
 ### -param varInterfaces [in, optional]
 
-The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interfaces that will be made available to the BizRule script. This is a variant that contains either a <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/windows/desktop/08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds an <b>IDispatch</b> interface. Each entry in the array must match the corresponding element in the <i>varInterfaceNames</i> array. The default value is <b>VT_NULL</b>.
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that will be made available to the BizRule script. This is a variant that contains either a <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/windows/desktop/08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds an <b>IDispatch</b> interface. Each entry in the array must match the corresponding element in the <i>varInterfaceNames</i> array. The default value is <b>VT_NULL</b>.
 
 
 ### -param pvarResults [out]

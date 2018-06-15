@@ -2,7 +2,7 @@
 UID: TP:wes
 ms.assetid: c49b7cd9-494f-36c8-b0b1-606471929711
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop Windows Event Log, you need these headers:
 
  * [winevt.h](../winevt/index.md)
 
-For the programming guide, see [Windows Event Log](/windows/desktop/wes).
+For programming guidance for this technology, see:
+* [Windows Event Log](/windows/desktop/wes)
 

@@ -81,7 +81,7 @@ This property should only be changed if the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

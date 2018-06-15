@@ -86,7 +86,7 @@ Returns zero if the notification object does not exist or nonzero otherwise.
 
 
 
-An Active Directory Domain Services property sheet extension normally calls this function while processing the <a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> message.
+An Active Directory Domain Services property sheet extension normally calls this function while processing the <a href="https://www.bing.com/search?q=WM_INITDIALOG">WM_INITDIALOG</a> message.
 
 If the property sheet extension uses the <a href="https://msdn.microsoft.com/c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83">ADsPropShowErrorDialog</a> function, the extension should use <a href="https://msdn.microsoft.com/d0d26f32-1c15-4641-bdeb-0f464a510669">ADsPropSetHwndWithTitle</a> rather than <b>ADsPropSetHwnd</b>.
 
@@ -110,7 +110,7 @@ If the property sheet extension uses the <a href="https://msdn.microsoft.com/c7e
 
 
 
-<a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a>
+<a href="https://www.bing.com/search?q=WM_INITDIALOG">WM_INITDIALOG</a>
  
 
  

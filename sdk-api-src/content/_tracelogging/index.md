@@ -2,7 +2,7 @@
 UID: TP:tracelogging
 ms.assetid: 1bc44f9c-6d1d-3afa-9402-657cb5c8625e
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop TraceLogging, you need these headers:
  * [traceloggingactivity.h](../traceloggingactivity/index.md)
  * [traceloggingprovider.h](../traceloggingprovider/index.md)
 
-For the programming guide, see [TraceLogging](/windows/desktop/tracelogging).
+For programming guidance for this technology, see:
+* [TraceLogging](/windows/desktop/tracelogging)
 

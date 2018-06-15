@@ -2,7 +2,7 @@
 UID: TP:win32_tile_badge_notif
 ms.assetid: bf033213-8224-36c1-8e23-ab8119b3f34e
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Tiles, badges, and notifications for Classic desktop applications, yo
 
  * [notificationactivationcallback.h](../notificationactivationcallback/index.md)
 
-For the programming guide, see [Tiles, badges, and notifications for Classic desktop applications](/previous-versions/windows/desktop/win32_tile_badge_notif).
+For programming guidance for this technology, see:
+* [Tiles, badges, and notifications for Classic desktop applications](/previous-versions/windows/desktop/win32_tile_badge_notif)
 

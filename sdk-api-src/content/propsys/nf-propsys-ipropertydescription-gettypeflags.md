@@ -61,9 +61,9 @@ Gets a set of flags that describe the uses and capabilities of the property.
 
 ### -param mask [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags.md">PROPDESC_TYPE_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a></b>
 
-A mask that specifies which type flags to retrieve. A combination of values found in the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags.md">PROPDESC_TYPE_FLAGS</a> constants. To retrieve all type flags, pass <a href="https://www.bing.com/search?q=PDTF_MASK_ALL">PDTF_MASK_ALL</a>
+A mask that specifies which type flags to retrieve. A combination of values found in the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a> constants. To retrieve all type flags, pass <a href="https://www.bing.com/search?q=PDTF_MASK_ALL">PDTF_MASK_ALL</a>
 
 
 
@@ -76,9 +76,9 @@ A mask that specifies which type flags to retrieve. A combination of values foun
 
 #### - ppdtfFlags [out]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags.md">PROPDESC_TYPE_FLAGS</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a>*</b>
 
-When this method returns, contains a pointer to a value that consists of bitwise <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags.md">PROPDESC_TYPE_FLAGS</a> values.
+When this method returns, contains a pointer to a value that consists of bitwise <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a> values.
 
 
 ## -returns
@@ -110,7 +110,7 @@ For additional information on type flags, see the <i>canGroupBy</i>, <i>canStack
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 

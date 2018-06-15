@@ -129,7 +129,7 @@ The <b>wBeginDay</b>, <b>wBeginMonth</b>, and <b>wBeginYear</b> members of the
 A task can have any number of triggers associated with it. The times that the task will run are the union of all the triggers defined for that task.
 
 To update the task with these new trigger settings, applications must call the 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save.md">IPersistFile::Save</a> method after calling 
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method after calling 
 <b>SetTrigger</b>.
 
 
@@ -174,7 +174,7 @@ if (FAILED(hr))
 
 
 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save.md">IPersistFile::Save</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
 
 
 

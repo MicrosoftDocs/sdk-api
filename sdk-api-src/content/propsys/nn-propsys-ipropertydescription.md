@@ -266,9 +266,9 @@ Gets a value that indicates whether a property is canonical according to the def
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Do not implement this interface. There is only one implementation of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a> in the system; it is provided by the Shell. 
+Do not implement this interface. There is only one implementation of <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> in the system; it is provided by the Shell. 
 
-To obtain this interface, call <a href="https://www.bing.com/search?q=PSGetPropertyDescription">PSGetPropertyDescription</a>, <a href="https://www.bing.com/search?q=PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>, or <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionlist-getat.md">IPropertyDescriptionList::GetAt</a>.
+To obtain this interface, call <a href="https://www.bing.com/search?q=PSGetPropertyDescription">PSGetPropertyDescription</a>, <a href="https://www.bing.com/search?q=PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>, or <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionlist-getat">IPropertyDescriptionList::GetAt</a>.
 
 Only one property description exists for each property in the system.
 

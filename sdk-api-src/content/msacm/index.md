@@ -2,7 +2,7 @@
 UID: NA:msacm
 ms.assetid: c6b382c3-435b-3525-870a-634107a71508
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

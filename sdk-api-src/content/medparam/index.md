@@ -2,7 +2,7 @@
 UID: NA:medparam
 ms.assetid: 31b21ee7-146b-309c-836c-f7d4ebd67b25
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

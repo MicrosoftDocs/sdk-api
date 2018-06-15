@@ -87,7 +87,7 @@ When the <b>RasterOperation</b> property is set to anything other than <a href="
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

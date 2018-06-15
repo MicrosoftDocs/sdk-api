@@ -2,7 +2,7 @@
 UID: TP:mscs
 ms.assetid: 4a4e5260-2486-38d5-9a4b-e7c5cebf7cdf
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,5 +24,6 @@ To develop Windows Clustering, you need these headers:
  * [resapi.h](../resapi/index.md)
  * [smbclnt.h](../smbclnt/index.md)
 
-For the programming guide, see [Windows Clustering](/previous-versions/windows/desktop/mscs).
+For programming guidance for this technology, see:
+* [Windows Clustering](/previous-versions/windows/desktop/mscs)
 

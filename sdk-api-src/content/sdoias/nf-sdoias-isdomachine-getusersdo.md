@@ -76,10 +76,10 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c
 
 ### -param ppUserSDO [out]
 
-Pointer to a pointer that points to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface 
+Pointer to a pointer that points to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
       pointer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
-      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface to an 
+      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface to an 
       <a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> object for the specified user.
 
 

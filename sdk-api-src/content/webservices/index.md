@@ -2,7 +2,7 @@
 UID: NA:webservices
 ms.assetid: 4fc13355-6c50-32c3-a0e1-9a8c29fdafad
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

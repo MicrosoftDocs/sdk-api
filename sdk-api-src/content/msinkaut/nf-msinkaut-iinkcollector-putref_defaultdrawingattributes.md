@@ -125,7 +125,7 @@ To change the drawing attributes of a single stroke, use the <a href="https://ms
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

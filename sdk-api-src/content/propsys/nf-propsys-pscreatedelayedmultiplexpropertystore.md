@@ -61,9 +61,9 @@ Creates a read-only, delayed-binding property store that contains multiple prope
 
 ### -param flags
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags.md">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags.md">GETPROPERTYSTOREFLAGS</a> values. These values specify details of the created property store object.
+One or more <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> values. These values specify details of the created property store object.
 
 
 ### -param pdpsf
@@ -117,7 +117,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This function creates a Component Object Model (COM) object that implements <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a>, 
- <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>, and <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities.md">IPropertyStoreCapabilities</a>.
+ <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>, and <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a>.
 
 Applications must call this object from only one thread at a time.
 
@@ -137,7 +137,7 @@ In some cases, it might be beneficial to use <a href="https://www.bing.com/searc
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSCreateDelayedMultiplexPropertyStore">PSCreateDelayedMultiplexPropertyStore</a> in an implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorefactory-getpropertystore.md">IPropertyStoreFactory::GetPropertyStore</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSCreateDelayedMultiplexPropertyStore">PSCreateDelayedMultiplexPropertyStore</a> in an implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorefactory-getpropertystore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -231,7 +231,7 @@ HRESULT CMyFactory::GetDelayedPropertyStore(GETPROPERTYSTOREFLAGS flags,
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorefactory.md">IPropertyStoreFactory</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorefactory">IPropertyStoreFactory</a>
 
 
 

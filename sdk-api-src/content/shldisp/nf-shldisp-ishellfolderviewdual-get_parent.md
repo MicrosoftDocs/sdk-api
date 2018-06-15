@@ -61,7 +61,7 @@ Not implemented.
 
 ### -param ppid [out]
 
-Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>**</b>
 
 The application object.
 

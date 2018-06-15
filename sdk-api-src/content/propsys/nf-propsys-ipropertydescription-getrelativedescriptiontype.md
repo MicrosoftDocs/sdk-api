@@ -61,9 +61,9 @@ Gets the relative description type for a property description.
 
 ### -param prdt [out]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type.md">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to the relative description type value. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type.md">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
+When this method returns, contains a pointer to the relative description type value. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The information retrieved by this method comes from the <i>relativeDescriptionTy
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 

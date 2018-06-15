@@ -2,7 +2,7 @@
 UID: TP:msvs
 ms.assetid: 459a1035-086f-3028-856c-ee41bb56878c
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,6 @@ Overview of the Microsoft Virtual Server technology.
 
 The Microsoft Virtual Server technology is not associated with any headers.
 
-For the programming guide, see [Microsoft Virtual Server](/previous-versions/windows/desktop/msvs).
+For programming guidance for this technology, see:
+* [Microsoft Virtual Server](/previous-versions/windows/desktop/msvs)
 

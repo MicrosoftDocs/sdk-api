@@ -70,7 +70,7 @@ This property is read-only.
 
 
 
-<a href="tablet.iinkrecognizers">IInkRecognizers</a>
+<a href="https://www.bing.com/search?q=IInkRecognizers">IInkRecognizers</a>
 
 
 

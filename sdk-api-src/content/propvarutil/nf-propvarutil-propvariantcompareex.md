@@ -75,9 +75,9 @@ Reference to the second <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8
 
 ### -param unit [in]
 
-Type: <b><a href="/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit.md">PROPVAR_COMPARE_UNIT</a></b>
+Type: <b><a href="/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit">PROPVAR_COMPARE_UNIT</a></b>
 
-Specifies, where appropriate, one of the comparison units defined in <a href="/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit.md">PROPVAR_COMPARE_UNIT</a>.
+Specifies, where appropriate, one of the comparison units defined in <a href="/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit">PROPVAR_COMPARE_UNIT</a>.
 
 
 ### -param flags [in]

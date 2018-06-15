@@ -133,7 +133,7 @@ To set the criteria for the new trigger, call
 <a href="https://msdn.microsoft.com/2f445835-a409-4a03-b853-4e0b07ded1ea">ITaskTrigger::SetTrigger</a>.
 
 After creating a new trigger for a work item, applications must call the 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save.md">IPersistFile::Save</a> method to save the new trigger to disk.
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method to save the new trigger to disk.
 
 
 #### Examples
@@ -149,7 +149,7 @@ For an example of how to set the trigger criteria when creating a new trigger, s
 
 
 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save.md">IPersistFile::Save</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
 
 
 

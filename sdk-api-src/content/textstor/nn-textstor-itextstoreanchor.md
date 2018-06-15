@@ -324,7 +324,7 @@ Called by an application to indicate that it no longer requires notifications fr
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
@@ -339,7 +339,7 @@ Called by an application to indicate that it no longer requires notifications fr
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 

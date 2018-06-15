@@ -108,7 +108,7 @@ If the <b>Factoid</b> property is set, it is forwarded to the recognizer only if
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

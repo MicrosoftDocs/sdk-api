@@ -79,7 +79,7 @@ The <b>Enabled</b> property allows objects to be enabled or disabled at run time
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

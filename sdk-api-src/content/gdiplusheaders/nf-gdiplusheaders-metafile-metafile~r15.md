@@ -72,7 +72,7 @@ Creates a <a href="https://msdn.microsoft.com/1bccba1d-63e4-469d-a7b8-0f83ff7ebc
 <a href="https://msdn.microsoft.com/28d4fe40-b021-4b04-a6cb-55230aec4075">Metafile(IStream*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/28d4fe40-b021-4b04-a6cb-55230aec4075">Metafile::Metafile</a> object from an <a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a> interface for playback.
+Creates a <a href="https://msdn.microsoft.com/28d4fe40-b021-4b04-a6cb-55230aec4075">Metafile::Metafile</a> object from an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface for playback.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Creates a <a href="https://msdn.microsoft.com/7caf5e09-490c-4389-81a9-d495e56f86
 <a href="https://msdn.microsoft.com/82943279-26d5-4f42-af9b-c6007e5185ec">Metafile(IStream*,HDC,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/82943279-26d5-4f42-af9b-c6007e5185ec">Metafile::Metafile</a> object for recording to an <a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a> interface.
+Creates a <a href="https://msdn.microsoft.com/82943279-26d5-4f42-af9b-c6007e5185ec">Metafile::Metafile</a> object for recording to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ Creates a <a href="https://msdn.microsoft.com/7a59ca3d-7b74-4fc6-a9ea-c741578df6
 <a href="https://msdn.microsoft.com/0cef1deb-8f0e-460e-926d-f76a45a2016e">Metafile(IStream*,HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/0cef1deb-8f0e-460e-926d-f76a45a2016e">Metafile::Metafile</a> object for recording to an <a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a> interface.
+Creates a <a href="https://msdn.microsoft.com/0cef1deb-8f0e-460e-926d-f76a45a2016e">Metafile::Metafile</a> object for recording to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Creates a <a href="https://msdn.microsoft.com/0cef1deb-8f0e-460e-926d-f76a45a201
 <a href="https://msdn.microsoft.com/df4a2083-50f8-4ffa-9dbf-bfbeb2f35cb8">Metafile(IStream*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/df4a2083-50f8-4ffa-9dbf-bfbeb2f35cb8">Metafile::Metafile</a> object for recording to an <a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a> interface.
+Creates a <a href="https://msdn.microsoft.com/df4a2083-50f8-4ffa-9dbf-bfbeb2f35cb8">Metafile::Metafile</a> object for recording to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 </td>
 </tr>

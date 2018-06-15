@@ -62,7 +62,7 @@ The <b>SetupDiGetClassInstallParams</b> function retrieves class installation pa
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the class install parameters to retrieve.
+A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the class install parameters to retrieve.
 
 
 ### -param DeviceInfoData [in, optional]

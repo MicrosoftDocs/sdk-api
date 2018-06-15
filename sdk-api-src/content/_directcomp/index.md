@@ -2,7 +2,7 @@
 UID: TP:directcomp
 ms.assetid: efb19c94-b4cc-3005-83ee-8d631642e8f9
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,6 @@ To develop DirectComposition, you need these headers:
  * [dcompanimation.h](../dcompanimation/index.md)
  * [dcomptypes.h](../dcomptypes/index.md)
 
-For the programming guide, see [DirectComposition](/windows/desktop/directcomp).
+For programming guidance for this technology, see:
+* [DirectComposition](/windows/desktop/directcomp)
 

@@ -97,7 +97,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>.
 
 Type: <b>void**</b>
 
-When this function returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities.md">IPropertyStoreCapabilities</a>.
+When this function returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> or <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a>.
 
 
 ## -returns

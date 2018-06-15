@@ -93,7 +93,7 @@ The null-terminated Unicode string that specifies the <b>ADsPath</b> of the obje
 #### - ppbstrNewObject [out]
 
 Pointer to a pointer to the 
-     <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface on the moved
+     <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the moved
     object.
 
 
@@ -339,7 +339,7 @@ Cleanup:
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

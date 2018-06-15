@@ -93,7 +93,7 @@ To effectively enable High Contrast mode, you must set the ink collector's <a hr
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

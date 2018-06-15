@@ -59,7 +59,7 @@ The <b>IVssAsync</b> interface is returned to calling applications
 The <b>IVssAsync</b> interface permits an application to monitor and 
     control an asynchronous operation by waiting on its completion, querying its status, or canceling it.
 
-The calling application is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the 
     resources held by the returned <b>IVssAsync</b> interface when it is 
     no longer needed.
 

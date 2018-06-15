@@ -2,7 +2,7 @@
 UID: TP:dxmath
 ms.assetid: 31d9cfe2-2d9e-3607-827d-7ef612e38185
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,6 @@ To develop DirectXMath, you need these headers:
  * [directxmath.h](../directxmath/index.md)
  * [directxpackedvector.h](../directxpackedvector/index.md)
 
-For the programming guide, see [DirectXMath](/windows/desktop/dxmath).
+For programming guidance for this technology, see:
+* [DirectXMath](/windows/desktop/dxmath)
 

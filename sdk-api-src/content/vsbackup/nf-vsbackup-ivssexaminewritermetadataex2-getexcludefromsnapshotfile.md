@@ -143,7 +143,7 @@ The caller is out of memory or other system resources.
 
 
 
-The caller is responsible for calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method to release the resources of the returned 
+The caller is responsible for calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.

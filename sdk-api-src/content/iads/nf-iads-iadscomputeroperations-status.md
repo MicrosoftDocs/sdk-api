@@ -61,7 +61,7 @@ The <b>IADsComputerOperations::Status</b> method retrieves the status of a compu
 
 ### -param ppObject [out]
 
-Pointer to an  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface that reports the status code of computer operations. The status code is provider-specific.
+Pointer to an  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface that reports the status code of computer operations. The status code is provider-specific.
 
 
 ## -returns
@@ -88,7 +88,7 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

@@ -2,7 +2,7 @@
 UID: NA:wabapi
 ms.assetid: 03f7eea4-0c0d-3b20-9057-af11bd3c91b6
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

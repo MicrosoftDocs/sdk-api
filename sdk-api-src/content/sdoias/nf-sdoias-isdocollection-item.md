@@ -70,7 +70,7 @@ Pointer to a
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface for the object.
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the object.
 
 
 ## -returns

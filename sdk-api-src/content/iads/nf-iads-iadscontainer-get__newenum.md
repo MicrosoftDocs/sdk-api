@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for the container. The 
-  enumerator object implements the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface to enumerate the children of the container object.
+  enumerator object implements the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface to enumerate the children of the container object.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for
 
 #### - ppEnumerator [out]
 
-Pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -196,11 +196,11 @@ pEnum-&gt;Release();</pre>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

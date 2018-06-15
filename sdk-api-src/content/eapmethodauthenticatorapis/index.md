@@ -2,7 +2,7 @@
 UID: NA:eapmethodauthenticatorapis
 ms.assetid: 7fccf58f-472d-3712-a1fb-928d94acddbc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

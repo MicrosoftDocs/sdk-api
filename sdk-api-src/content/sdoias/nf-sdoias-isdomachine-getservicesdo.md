@@ -91,10 +91,10 @@ Remote Access Server
 
 ### -param ppServiceSDO [out]
 
-Pointer to a pointer that points to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface 
+Pointer to a pointer that points to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
       pointer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
-      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface for the 
+      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the 
       <a href="https://msdn.microsoft.com/c901ac9a-524a-498d-8b72-9afb26cf2c58">ISdoServiceControl</a> object.
 
 

@@ -2,7 +2,7 @@
 UID: TP:direct3d11
 ms.assetid: b11d0120-422b-381b-b4ce-ba3e6eb45625
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,5 +27,6 @@ To develop Direct3D 11 Graphics, you need these headers:
  * [d3d11shadertracing.h](../d3d11shadertracing/index.md)
  * [d3dcsx.h](../d3dcsx/index.md)
 
-For the programming guide, see [Direct3D 11 Graphics](/windows/desktop/direct3d11).
+For programming guidance for this technology, see:
+* [Direct3D 11 Graphics](/windows/desktop/direct3d11)
 

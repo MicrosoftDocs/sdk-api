@@ -2,7 +2,7 @@
 UID: TP:direct3dhlsl
 ms.assetid: 351c8dd2-97c5-39de-8ade-c55ddf3acc2c
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop HLSL, you need these headers:
 
  * [d3dcompiler.h](../d3dcompiler/index.md)
 
-For the programming guide, see [HLSL](/windows/desktop/direct3dhlsl).
+For programming guidance for this technology, see:
+* [HLSL](/windows/desktop/direct3dhlsl)
 

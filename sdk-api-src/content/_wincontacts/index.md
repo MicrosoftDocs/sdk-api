@@ -2,7 +2,7 @@
 UID: TP:wincontacts
 ms.assetid: e0e7bda2-6a92-33f7-a8e7-cf235874dd82
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Windows Contacts, you need these headers:
 
  * [icontact.h](../icontact/index.md)
 
-For the programming guide, see [Windows Contacts](/previous-versions/windows/desktop/wincontacts).
+For programming guidance for this technology, see:
+* [Windows Contacts](/previous-versions/windows/desktop/wincontacts)
 

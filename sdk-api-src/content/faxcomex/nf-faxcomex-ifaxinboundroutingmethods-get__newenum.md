@@ -61,9 +61,9 @@ The <b>IFaxInboundRoutingMethods::get__NewEnum</b> method returns a reference to
 
 ### -param ppUnk [out, retval]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-Address of a pointer to the enumerator object's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface for the collection.
+Address of a pointer to the enumerator object's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
 
 
 ## -returns

@@ -87,7 +87,7 @@ If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a 
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

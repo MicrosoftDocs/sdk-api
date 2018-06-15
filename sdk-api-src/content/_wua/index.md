@@ -2,7 +2,7 @@
 UID: TP:wua
 ms.assetid: 8285445c-2c5e-3d96-a56d-f25ac3be142a
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,8 @@ To develop Windows Update Agent API, you need these headers:
  * [wuapi.h](../wuapi/index.md)
  * [wuapicommon.h](../wuapicommon/index.md)
 
-For the programming guide, see [Windows Update Agent API](/windows/desktop/wua).
+For programming guidance for this technology, see:
+* [Windows Update Agent API](/windows/desktop/Wua_Sdk)
+* [Windows Update Agent (WUA) API Reference](/windows/desktop/Wua_Sdk)
+* [Using the Windows Update Agent API](/windows/desktop/Wua_Sdk)
 

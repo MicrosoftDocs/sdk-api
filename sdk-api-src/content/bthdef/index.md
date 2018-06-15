@@ -2,7 +2,7 @@
 UID: NA:bthdef
 ms.assetid: 74cdc63c-7f61-3f7d-814b-f814f7ef23fb
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

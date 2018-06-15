@@ -163,7 +163,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertykey.md">IPropertyDescription::GetPropertyKey</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertykey">IPropertyDescription::GetPropertyKey</a>
 
 
 

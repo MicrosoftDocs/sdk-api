@@ -80,7 +80,7 @@ Type: <b>UINT32</b>
 
 ### -param oldItem [in]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 
 					Pointer to the old item on remove or replace; otherwise <b>NULL</b>.
@@ -98,7 +98,7 @@ Type: <b>UINT32</b>
 
 ### -param newItem [in]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 
 					Pointer to the new item on insert, add, or replace; otherwise <b>NULL</b>.

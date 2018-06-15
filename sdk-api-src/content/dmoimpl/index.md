@@ -2,7 +2,7 @@
 UID: NA:dmoimpl
 ms.assetid: 5a9622e6-a7c0-30e6-aeeb-81d3ef481887
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

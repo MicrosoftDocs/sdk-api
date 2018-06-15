@@ -2,7 +2,7 @@
 UID: TP:wcn
 ms.assetid: 0f160390-e9fe-3eb7-acb4-311e3c3278c6
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Windows Connect Now, you need these headers:
  * [wcndevice.h](../wcndevice/index.md)
  * [wcntypes.h](../wcntypes/index.md)
 
-For the programming guide, see [Windows Connect Now](/windows/desktop/wcn).
+For programming guidance for this technology, see:
+* [Windows Connect Now](/windows/desktop/wcn)
 

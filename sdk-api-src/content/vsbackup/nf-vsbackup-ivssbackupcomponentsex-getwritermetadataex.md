@@ -200,7 +200,7 @@ This is in contrast to the information returned by
 <a href="https://msdn.microsoft.com/b99e7e41-1c88-462c-b6d8-734f7a6e24d4">GetWriterComponents</a> (during restore operations), which was stored in the Backup Components Document by calls to 
 the <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a> method.
 
-When the caller of this method is finished accessing the metadata, it must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a>.
+When the caller of this method is finished accessing the metadata, it must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>.
 
 
 

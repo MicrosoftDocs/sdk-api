@@ -69,7 +69,7 @@ The value is reserved.
 
 ### -field VDS_ASYNCOUT_CREATEVOLUME
 
-The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer for the newly 
+The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the newly 
       created <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>. For operation details, see the 
       <a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">IVdsPack::CreateVolume</a> method.
 
@@ -96,7 +96,7 @@ The operation adds a volume as a plex to the current volume. For operation detai
 
 ### -field VDS_ASYNCOUT_BREAKVOLUMEPLEX
 
-The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer for the 
+The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the 
       hidden <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>. For operation details, see the 
       <a href="https://msdn.microsoft.com/c7e42aa4-3233-40e9-b537-043eecd192ad">IVdsVolume::BreakPlex</a> method.
 
@@ -139,7 +139,7 @@ The operation creates a new partition on a basic disk. For operation details, se
 
 ### -field VDS_ASYNCOUT_CREATELUN
 
-The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer for the newly 
+The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the newly 
       created <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN object</a>. For operation details, see the 
       <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method.
 
@@ -152,7 +152,7 @@ The operation adds a LUN to the target LUN as a new plex. For operation details,
 
 ### -field VDS_ASYNCOUT_REMOVELUNPLEX
 
-The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer for the 
+The operation returns the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the 
       removed <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN object</a>. For operation details, see the 
       <a href="https://msdn.microsoft.com/9959c2a3-f282-4512-9d3f-da8842d5ee79">IVdsLun::RemovePlex</a> method.
 
@@ -195,7 +195,7 @@ The operation logs out from a target. For operation details, see the
 
 ### -field VDS_ASYNCOUT_CREATETARGET
 
-The operation returns the  <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface pointer 
+The operation returns the  <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer 
       for the newly created target object. For operation details, see the 
       <a href="https://msdn.microsoft.com/084a1f0e-0764-404a-bd9a-a724e4f12c5f">IVdsSubSystemIscsi::CreateTarget</a> method.
 
@@ -204,7 +204,7 @@ The operation returns the  <a href="/windows/desktop/api/unknwn/nn-unknwn-iunkno
 
 ### -field VDS_ASYNCOUT_CREATEPORTALGROUP
 
-The operation returns the  <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> interface pointer 
+The operation returns the  <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer 
       for the newly created portal group object. For operation details, see the 
       <a href="https://msdn.microsoft.com/c479b5ee-2e6a-4a3f-bd80-c3c25adac20f">IVdsIscsiTarget::CreatePortalGroup</a> method.
 

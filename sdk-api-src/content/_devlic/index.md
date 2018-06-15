@@ -2,7 +2,7 @@
 UID: TP:devlic
 ms.assetid: e6269e03-703c-34d5-9f95-03f3a0f3921e
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop Developer licensing, you need these headers:
 
  * [wsdevlicensing.h](../wsdevlicensing/index.md)
 
-For the programming guide, see [Developer licensing](/windows/desktop/devlic).
+For programming guidance for this technology, see:
+* [Developer licensing](/windows/desktop/devlic)
 

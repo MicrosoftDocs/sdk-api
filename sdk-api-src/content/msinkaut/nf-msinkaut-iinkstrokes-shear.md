@@ -130,7 +130,7 @@ This method throws an exception if the shear is non-invertible. The shear is non
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

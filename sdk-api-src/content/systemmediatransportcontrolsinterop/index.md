@@ -2,7 +2,7 @@
 UID: NA:systemmediatransportcontrolsinterop
 ms.assetid: fcfbb073-ac49-3b82-bfbf-200fe034062c
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

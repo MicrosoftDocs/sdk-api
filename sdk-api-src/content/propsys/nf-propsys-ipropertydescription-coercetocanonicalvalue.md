@@ -146,7 +146,7 @@ The coercion is performed in four steps, as follows:
 <li>Values of type <code>VT_FILETIME</code> prior to midnight 1601/01/02.</li>
 </ul>
 </li>
-<li>If the value is not of type <code>VT_EMPTY</code> after Step 1, it is converted to the type specified by the property description.  The type of a property description can be obtained using <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertytype.md">IPropertyDescription::GetPropertyType</a>. See <a href="https://www.bing.com/search?q=typeInfo">typeInfo</a> for information about how the property schema influences the type of a property description. Conversions are performed as follows:
+<li>If the value is not of type <code>VT_EMPTY</code> after Step 1, it is converted to the type specified by the property description.  The type of a property description can be obtained using <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertytype">IPropertyDescription::GetPropertyType</a>. See <a href="https://www.bing.com/search?q=typeInfo">typeInfo</a> for information about how the property schema influences the type of a property description. Conversions are performed as follows:
                         <ul>
 <li>Values of type <code>VT_LPWSTR, VT_BSTR</code>, or <code>VT_LPSTR</code> are converted to <code>VT_VECTOR | VT_LPWSTR</code> using <a href="https://www.bing.com/search?q=InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.</li>
 <li>All other conversions are performed using <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
@@ -254,7 +254,7 @@ The coercion is performed in four steps, as follows:
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 

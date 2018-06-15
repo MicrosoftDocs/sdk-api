@@ -2,7 +2,7 @@
 UID: NA:rtscom
 ms.assetid: f63dbd2d-b5ab-38ec-b3e6-85736d0810e3
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

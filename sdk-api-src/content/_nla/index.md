@@ -2,7 +2,7 @@
 UID: TP:nla
 ms.assetid: bab08dd3-cacc-3530-8910-b8ce6776ff7b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Network List Manager, you need these headers:
  * [netlistmgr.h](../netlistmgr/index.md)
  * [ondemandconnroutehelper.h](../ondemandconnroutehelper/index.md)
 
-For the programming guide, see [Network List Manager](/windows/desktop/nla).
+For programming guidance for this technology, see:
+* [Network List Manager](/windows/desktop/nla)
 

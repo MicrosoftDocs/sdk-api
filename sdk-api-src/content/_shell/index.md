@@ -2,7 +2,7 @@
 UID: TP:shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,5 +45,6 @@ To develop The Windows Shell, you need these headers:
  * [tlogstg.h](../tlogstg/index.md)
  * [userenv.h](../userenv/index.md)
 
-For the programming guide, see [The Windows Shell](/windows/desktop/shell).
+For programming guidance for this technology, see:
+* [The Windows Shell](/windows/desktop/shell)
 

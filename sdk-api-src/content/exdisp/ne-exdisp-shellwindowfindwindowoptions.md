@@ -64,7 +64,7 @@ req.product: Internet Explorer 5
 ### -field SWFO_NEEDDISPATCH
 
 
-            The window must have an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. 
+            The window must have an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. 
             
 
 

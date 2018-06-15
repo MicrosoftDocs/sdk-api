@@ -105,7 +105,7 @@ Displays percent groups.
 
 #### PDGR_ENUMERATED
 
-Displays percent groups returned by <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getenumtypelist.md">IPropertyDescription::GetEnumTypeList</a>.
+Displays percent groups returned by <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getenumtypelist">IPropertyDescription::GetEnumTypeList</a>.
 
 
 ## -returns
@@ -133,7 +133,7 @@ The information retrieved by this method comes from the <i>groupingRange</i> att
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 

@@ -273,7 +273,7 @@ The methods can be called in either the synchronous mode, the asynchronous mode,
 
 <ul>
 <li>
-As demonstrated in most of the WMI scripts presented thus far, you can use the VBScript <a href="47dd01cb-9468-481e-be7e-55f69a744635">GetObject</a> function in combination with the WMI moniker "winmgmts:". The following example is the simplest form of a WMI connection. The example connects to the default namespace (typically "Root\CIMv2") on the local computer:
+As demonstrated in most of the WMI scripts presented thus far, you can use the VBScript <a href="https://msdn.microsoft.com/library/windows/desktop/47dd01cb-9468-481e-be7e-55f69a744635">GetObject</a> function in combination with the WMI moniker "winmgmts:". The following example is the simplest form of a WMI connection. The example connects to the default namespace (typically "Root\CIMv2") on the local computer:
 
 <code>Set objSWbemServices = GetObject("winmgmts:")
 </code>

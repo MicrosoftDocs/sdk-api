@@ -85,7 +85,7 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

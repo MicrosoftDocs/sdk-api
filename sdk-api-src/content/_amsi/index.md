@@ -2,7 +2,7 @@
 UID: TP:amsi
 ms.assetid: 2e9afe53-8233-3700-b784-fd4779116249
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop Antimalware Scan Interface, you need these headers:
 
  * [amsi.h](../amsi/index.md)
 
-For the programming guide, see [Antimalware Scan Interface](/windows/desktop/amsi).
+For programming guidance for this technology, see:
+* [Antimalware Scan Interface](/windows/desktop/amsi)
 

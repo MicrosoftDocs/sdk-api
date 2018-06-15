@@ -70,7 +70,7 @@ The number of objects to return.
 
 ### -param ppObjectArray [out]
 
-The address of an array of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointers, which VDS initializes 
+The address of an array of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers, which VDS initializes 
       on return.
 
 
@@ -126,7 +126,7 @@ The specified number of returned objects is greater than the number of objects r
 
 
 
-To obtain object-specific interface pointers from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method.
+To obtain object-specific interface pointers from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method.
 
 
 

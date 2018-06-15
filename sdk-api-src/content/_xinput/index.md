@@ -2,7 +2,7 @@
 UID: TP:xinput
 ms.assetid: 5c8ac494-6872-3057-85f8-b67254b814c4
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop XInput Game Controller APIs, you need these headers:
 
  * [xinput.h](../xinput/index.md)
 
-For the programming guide, see [XInput Game Controller APIs](/windows/desktop/xinput).
+For programming guidance for this technology, see:
+* [XInput Game Controller APIs](/windows/desktop/xinput)
 

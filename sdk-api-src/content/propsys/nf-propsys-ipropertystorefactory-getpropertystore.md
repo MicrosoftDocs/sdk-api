@@ -61,10 +61,10 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags.md">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a></b>
 
 
-<a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags.md">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
+<a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
 
 
 ### -param pUnkFactory [in]

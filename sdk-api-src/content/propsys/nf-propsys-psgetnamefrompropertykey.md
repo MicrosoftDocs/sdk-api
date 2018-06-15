@@ -154,7 +154,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname.md">IPropertyDescription::GetCanonicalName</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname">IPropertyDescription::GetCanonicalName</a>
 
 
 

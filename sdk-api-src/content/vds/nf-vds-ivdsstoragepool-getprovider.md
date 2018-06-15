@@ -64,7 +64,7 @@ Returns the hardware provider that manages the <a href="https://msdn.microsoft.c
 
 ### -param ppProvider [out]
 
-The address of a variable that receives an <a href="https://msdn.microsoft.com/c09aa32f-d859-44b1-8656-973ba1b6a167">IVdsProvider</a> interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method.
+The address of a variable that receives an <a href="https://msdn.microsoft.com/c09aa32f-d859-44b1-8656-973ba1b6a167">IVdsProvider</a> interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 
 ## -returns

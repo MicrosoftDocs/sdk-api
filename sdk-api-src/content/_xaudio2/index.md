@@ -2,7 +2,7 @@
 UID: TP:xaudio2
 ms.assetid: f4dc61e6-fea4-3675-94bd-c29e3ea2b7f0
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -25,5 +25,6 @@ To develop XAudio2 APIs, you need these headers:
  * [xaudio2.h](../xaudio2/index.md)
  * [xaudio2fx.h](../xaudio2fx/index.md)
 
-For the programming guide, see [XAudio2 APIs](/windows/desktop/xaudio2).
+For programming guidance for this technology, see:
+* [XAudio2 APIs](/windows/desktop/xaudio2)
 

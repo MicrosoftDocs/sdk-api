@@ -86,7 +86,7 @@ Scroll bars are displayed only if the contents of the <a href="https://msdn.micr
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit.md">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

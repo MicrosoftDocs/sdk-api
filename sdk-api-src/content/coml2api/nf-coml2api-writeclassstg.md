@@ -87,7 +87,7 @@ This function returns HRESULT.
 The 
 <b>WriteClassStg</b> function writes a CLSID to the specified storage object so that it can be read by the 
 <a href="https://msdn.microsoft.com/90256fcd-54ce-48e1-aa12-d8f91cd4dfb1">ReadClassStg</a> function. Container applications typically call this function before calling the 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save.md">IPersistStorage::Save</a> method.
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method.
 
 
 

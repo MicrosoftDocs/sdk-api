@@ -154,7 +154,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For more information, see <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke.md">IDispatch::Invoke</a>.
+For more information, see <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
 
 
 

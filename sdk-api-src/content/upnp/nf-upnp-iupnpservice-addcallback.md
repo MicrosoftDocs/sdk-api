@@ -63,7 +63,7 @@ The
 ### -param pUnkCallback [in]
 
 Specifies the reference to the interface that contains the callback to register. The object referred to by <i>pUnkCallback</i> must either support the 
-<a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface.
+<a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 
 ## -returns
@@ -84,13 +84,13 @@ Do not call this method from within a callback; memory corruption occurs.
 If more than one callback is registered, the UPnP framework invokes the callbacks sequentially.
 
 The object referred to by <i>pUnkCallback</i> must either support the 
-<a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface. The 
+<a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The 
 <b>AddCallback</b> method first queries <i>pUnkCallback</i> for the 
 <b>IUPnPServiceCallback</b> interface. If this interface is not supported, the 
 <b>AddCallback</b> method then queries <i>pUnkCallback</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, both checks have failed and the 
 <b>AddCallback</b> method returns E_FAIL.
 
-If only <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> is supported, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597669">service object</a> invokes the callback by calling <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke.md">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This default <b>IDispatch</b> method is passed the same parameters as the 
+If only <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> is supported, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597669">service object</a> invokes the callback by calling <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This default <b>IDispatch</b> method is passed the same parameters as the 
 <a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a> method, but the first parameter passed is a string that indicates the reason the callback is invoked. Valid values are VARIABLE_UPDATE and SERVICE_INSTANCE_DIED.
 
 

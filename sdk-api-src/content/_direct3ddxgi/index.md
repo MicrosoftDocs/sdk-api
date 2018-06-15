@@ -2,7 +2,7 @@
 UID: TP:direct3ddxgi
 ms.assetid: 13788405-72f0-3653-b458-78589ede8b8a
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,5 +27,6 @@ To develop DXGI, you need these headers:
  * [dxgidebug.h](../dxgidebug/index.md)
  * [dxgiformat.h](../dxgiformat/index.md)
 
-For the programming guide, see [DXGI](/windows/desktop/direct3ddxgi).
+For programming guidance for this technology, see:
+* [DXGI](/windows/desktop/direct3ddxgi)
 

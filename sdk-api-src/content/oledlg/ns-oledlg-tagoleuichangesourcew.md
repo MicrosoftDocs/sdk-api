@@ -148,7 +148,7 @@ Resource handle for a custom dialog box. If this member is <b>NULL</b>, then the
 
 ### -field lpOFN
 
-Pointer to the <a href="_win32_OPENFILENAME_str">OPENFILENAME</a> structure, which contains information used by the operating system to initialize the system-defined <b>Open</b> or <b>Save As</b> dialog boxes.
+Pointer to the <a href="https://www.bing.com/search?q=OPENFILENAME">OPENFILENAME</a> structure, which contains information used by the operating system to initialize the system-defined <b>Open</b> or <b>Save As</b> dialog boxes.
 
 
 ### -field dwReserved1

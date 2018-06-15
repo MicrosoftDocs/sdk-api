@@ -94,7 +94,7 @@ Returns S_OK if successful, E_FAIL if this is a leaf node, or an error value oth
 
 
 
-The <i>riid</i> parameter must be the <b>GUID</b> of an <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a> or <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface or in the case of a negation node, IID_ICondition.
+The <i>riid</i> parameter must be the <b>GUID</b> of an <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> or <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface or in the case of a negation node, IID_ICondition.
 
 If the subcondition is a negation node, <i>ppv</i> is set to an enumeration of one element.
 

@@ -2,7 +2,7 @@
 UID: TP:htmlhelp
 ms.assetid: adfbbda2-b7ca-3f58-bd38-3aaccbf29126
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,6 @@ To develop Microsoft HTML Help 1.4, you need these headers:
  * [htmlhelp.h](../htmlhelp/index.md)
  * [infotech.h](../infotech/index.md)
 
-For the programming guide, see [Microsoft HTML Help 1.4](/previous-versions/windows/desktop/htmlhelp).
+For programming guidance for this technology, see:
+* [Microsoft HTML Help 1.4](/previous-versions/windows/desktop/htmlhelp)
 

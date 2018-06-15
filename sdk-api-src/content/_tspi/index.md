@@ -2,7 +2,7 @@
 UID: TP:tspi
 ms.assetid: 25d49024-854b-36e0-a4c3-b3f3ae117f62
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,5 +17,6 @@ Overview of the Telephony Service Provider technology.
 
 The Telephony Service Provider technology is not associated with any headers.
 
-For the programming guide, see [Telephony Service Provider](/windows/desktop/tspi).
+For programming guidance for this technology, see:
+* [Telephony Application Programming Interfaces](/windows/desktop/Tapi)
 

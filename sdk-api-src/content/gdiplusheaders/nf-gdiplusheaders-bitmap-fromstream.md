@@ -62,14 +62,14 @@ The <b>Bitmap::FromStream</b> method creates a
 
 ### -param stream [in]
 
-Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to an 
-					<a href="/windows/desktop/api/objidl/nn-objidl-istream.md">IStream</a>COMCOM interface. The implementation of 
+					<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>COMCOM interface. The implementation of 
 					IStream must include the 
-					<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek.md">IStream::Seek</a>, 
+					<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>, 
 					<b>Read</b>, and 
-					<a href="/windows/desktop/api/objidl/nf-objidl-istream-stat.md">IStream::Stat</a> methods. 
+					<a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods. 
 
 
 ### -param useEmbeddedColorManagement [in]

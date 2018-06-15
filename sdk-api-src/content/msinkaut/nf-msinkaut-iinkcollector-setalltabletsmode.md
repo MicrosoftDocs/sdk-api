@@ -153,7 +153,7 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

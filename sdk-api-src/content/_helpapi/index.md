@@ -2,7 +2,7 @@
 UID: TP:helpapi
 ms.assetid: 1b5f5d17-33ea-3fb2-9ebe-2acc1f3521bc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,6 @@ Overview of the Help API technology.
 
 The Help API technology is not associated with any headers.
 
-For the programming guide, see [Help API](/previous-versions/windows/desktop/helpapi).
+For programming guidance for this technology, see:
+* [Help API](/previous-versions/windows/desktop/helpapi)
 

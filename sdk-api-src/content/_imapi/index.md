@@ -2,7 +2,7 @@
 UID: TP:imapi
 ms.assetid: d5ee2b29-ba7f-3360-9fd6-16f32572a676
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,6 @@ To develop Image Mastering API, you need these headers:
  * [imapi2.h](../imapi2/index.md)
  * [imapi2fs.h](../imapi2fs/index.md)
 
-For the programming guide, see [Image Mastering API](/windows/desktop/imapi).
+For programming guidance for this technology, see:
+* [Image Mastering API](/windows/desktop/imapi)
 

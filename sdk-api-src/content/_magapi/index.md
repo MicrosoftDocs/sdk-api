@@ -2,7 +2,7 @@
 UID: TP:magapi
 ms.assetid: 19ca8483-79f5-3a9e-a85d-cd3f31a764c4
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Magnification API, you need these headers:
 
  * [magnification.h](../magnification/index.md)
 
-For the programming guide, see [Magnification API](/previous-versions/windows/desktop/magapi).
+For programming guidance for this technology, see:
+* [Magnification API](/previous-versions/windows/desktop/magapi)
 

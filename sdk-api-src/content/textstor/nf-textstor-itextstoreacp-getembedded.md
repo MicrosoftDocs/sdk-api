@@ -79,7 +79,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a> object.
+The object should be obtained as an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject.md">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 

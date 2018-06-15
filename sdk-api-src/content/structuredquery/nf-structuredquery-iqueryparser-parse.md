@@ -70,7 +70,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param pCustomProperties [in]
 
-Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown.md">IEnumUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>*</b>
 
 
           An enumeration of <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> objects, one for each custom property the application has recognized. This parameter can be <b>NULL</b>, which is equivalent to an empty enumeration.

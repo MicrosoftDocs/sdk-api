@@ -83,7 +83,7 @@ Antialiasing improves the quality of rendering by making ink appear smoother and
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

@@ -151,7 +151,7 @@ Coercion from the value's type to the property description's type was not possib
 
 
 
-This function is a wrapper around the system's implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue.md">IPropertyDescription::CoerceToCanonicalValue</a>.
+This function is a wrapper around the system's implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue">IPropertyDescription::CoerceToCanonicalValue</a>.
 
 Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="https://www.bing.com/search?q=System.Title">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
 
@@ -172,7 +172,7 @@ The coercion is performed in four steps, as follows:
 <li>Values of type VT_FILETIME prior to midnight 1601/01/02.</li>
 </ul>
 </li>
-<li>If the value is not of type VT_EMPTY after Step 1, it is converted to the type specified by the property description. The type of a property description can be obtained by calling <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertytype.md">IPropertyDescription::GetPropertyType</a>. For information on how the property schema influences the type of a property description, see <a href="https://www.bing.com/search?q=typeInfo">typeInfo</a>. Conversions are performed as follows:
+<li>If the value is not of type VT_EMPTY after Step 1, it is converted to the type specified by the property description. The type of a property description can be obtained by calling <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertytype">IPropertyDescription::GetPropertyType</a>. For information on how the property schema influences the type of a property description, see <a href="https://www.bing.com/search?q=typeInfo">typeInfo</a>. Conversions are performed as follows:
                         
                         <ul>
 <li>Values of type VT_LPWSTR, VT_BSTR, or VT_LPSTR are converted to VT_VECTOR | VT_LPWSTR using <a href="https://www.bing.com/search?q=InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.</li>
@@ -310,7 +310,7 @@ else
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 

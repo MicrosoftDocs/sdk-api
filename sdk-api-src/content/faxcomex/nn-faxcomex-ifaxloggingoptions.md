@@ -74,7 +74,7 @@ To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://ms
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 

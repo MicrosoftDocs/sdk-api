@@ -2,7 +2,7 @@
 UID: TP:dhcp
 ms.assetid: b6e81add-dd29-38a3-a1c3-f32ac92fded0
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -23,5 +23,6 @@ To develop Dynamic Host Configuration Protocol (DHCP), you need these headers:
  * [dhcpssdk.h](../dhcpssdk/index.md)
  * [dhcpv6csdk.h](../dhcpv6csdk/index.md)
 
-For the programming guide, see [Dynamic Host Configuration Protocol (DHCP)](/previous-versions/windows/desktop/dhcp).
+For programming guidance for this technology, see:
+* [Dynamic Host Configuration Protocol (DHCP)](/previous-versions/windows/desktop/dhcp)
 

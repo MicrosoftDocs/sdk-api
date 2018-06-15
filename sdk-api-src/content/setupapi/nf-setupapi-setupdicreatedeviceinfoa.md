@@ -62,12 +62,12 @@ The <b>SetupDiCreateDeviceInfo</b> function creates a new device information ele
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for the local computer.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for the local computer.
 
 
 ### -param DeviceName [in]
 
-A pointer to a NULL-terminated string that supplies either a full <a href="devinst.device_instance_ids">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
+A pointer to a NULL-terminated string that supplies either a full <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a> (for example, "Root\*PNP0500\0000") or a root-enumerated <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> without the enumerator prefix and instance identifier suffix (for example, "*PNP0500"). The root-enumerated device identifier can be used only if the DICD_GENERATE_ID flag is specified in the <i>CreationFlags</i> parameter.
 
 
 ### -param ClassGuid [in]
@@ -95,7 +95,7 @@ A variable of type DWORD that controls how the device information element is cre
 
 #### DICD_GENERATE_ID
 
-If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> and the system uses that ID to generate a full <a href="devinst.device_instance_ids">device instance ID</a> for the new device information element.
+If this flag is specified, <i>DeviceName</i> contains only a Root-enumerated <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> and the system uses that ID to generate a full <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a> for the new device information element.
 
 Call <b>SetupDiGetDeviceInstanceId</b> to retrieve the device instance ID that was generated for this device information element.
 

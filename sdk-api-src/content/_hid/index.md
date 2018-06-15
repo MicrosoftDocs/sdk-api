@@ -2,7 +2,7 @@
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,6 @@ To develop Human Interface Devices Reference, you need these headers:
  * [ntddkbd.h](../ntddkbd/index.md)
  * [ntddmou.h](../ntddmou/index.md)
 
-For the programming guide, see [Human Interface Devices Reference](/windows/desktop/hid).
+For programming guidance for this technology, see:
+* [Human Interface Devices Reference](/windows/desktop/hid)
 

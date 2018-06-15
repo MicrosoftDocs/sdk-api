@@ -61,9 +61,9 @@ Gets a value that describes how the property values are displayed when multiple 
 
 ### -param paggtype [out]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type.md">PROPDESC_AGGREGATION_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type">PROPDESC_AGGREGATION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type.md">PROPDESC_AGGREGATION_TYPE</a>.
+When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type">PROPDESC_AGGREGATION_TYPE</a>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The information retrieved by this method comes from the <i>aggregationType</i> a
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription.md">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 

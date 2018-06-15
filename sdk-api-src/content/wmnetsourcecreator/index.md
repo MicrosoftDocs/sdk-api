@@ -2,7 +2,7 @@
 UID: NA:wmnetsourcecreator
 ms.assetid: eb14f58a-2cb1-3a1a-aaa5-fc2ef1eb4bc0
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

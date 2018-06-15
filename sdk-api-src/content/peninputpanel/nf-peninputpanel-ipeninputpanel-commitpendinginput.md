@@ -137,7 +137,7 @@ Starting with Windows XP Tablet PC Edition 2005, if the <a href="https://msdn.mi
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

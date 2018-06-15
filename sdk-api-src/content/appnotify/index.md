@@ -2,7 +2,7 @@
 UID: NA:appnotify
 ms.assetid: 45609313-b9e2-311f-b1df-245a58f7dc1b
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

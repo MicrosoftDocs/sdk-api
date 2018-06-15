@@ -2,7 +2,7 @@
 UID: TP:netmon
 ms.assetid: 394d8a4e-56cf-3be1-b42d-c49d2b11070d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop Network Monitor, you need these headers:
 
  * [sql_1.h](../sql_1/index.md)
 
-For the programming guide, see [Network Monitor](/windows/desktop/netmon).
+For programming guidance for this technology, see:
+* [Network Monitor](/windows/desktop/NetMon2)
 

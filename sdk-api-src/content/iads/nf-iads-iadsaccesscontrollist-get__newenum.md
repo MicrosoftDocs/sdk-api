@@ -69,7 +69,7 @@ The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enume
 #### - ppEnumerator [out]
 
 Pointer to pointer to the <a href="_com_iunknown">IUnknown</a> interface used to retrieve
-      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a> interface on an enumerator object for the ACL.
+      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an enumerator object for the ACL.
 
 
 ## -returns
@@ -209,7 +209,7 @@ The following code example shows how to enumerate ACEs using <b>IADsAccessContro
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant.md">IEnumVARIANT</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
  
 
  

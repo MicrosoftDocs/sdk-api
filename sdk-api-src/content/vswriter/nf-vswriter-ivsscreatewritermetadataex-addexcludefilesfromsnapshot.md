@@ -202,7 +202,7 @@ The use of the <b>AddExcludeFilesFromSnapshot</b> method is optional. Writers sh
 
 This method is not a substitute for the <a href="https://msdn.microsoft.com/705bb666-9080-4b42-af58-9cc21fbf88cf">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">file sets</a> are excluded from backup.
 
-The caller is responsible for calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method to release the resources of the returned 
+The caller is responsible for calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

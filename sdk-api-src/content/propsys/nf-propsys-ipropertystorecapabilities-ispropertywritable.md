@@ -111,7 +111,7 @@ The property cannot be edited.
 
 
 
-The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities.md">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
+The Shell disables the editing of controls by the user as appropriate through this method. A handler that does not support <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecapabilities">IPropertyStoreCapabilities</a> is assumed to support writing of any property.
 
 
 

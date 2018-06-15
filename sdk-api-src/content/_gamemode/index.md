@@ -2,7 +2,7 @@
 UID: TP:gamemode
 ms.assetid: 7e85c2c5-8d7f-3617-a348-14e79b75cc10
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Game Mode, you need these headers:
 
  * [expandedresources.h](../expandedresources/index.md)
 
-For the programming guide, see [Game Mode](/previous-versions/windows/desktop/gamemode).
+For programming guidance for this technology, see:
+* [Game Mode](/previous-versions/windows/desktop/gamemode)
 

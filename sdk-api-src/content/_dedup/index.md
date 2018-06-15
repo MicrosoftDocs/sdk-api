@@ -2,7 +2,7 @@
 UID: TP:dedup
 ms.assetid: cd834ca0-b712-386c-8042-173e3d8c8820
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Data Deduplication API, you need these headers:
 
  * [ddpbackup.h](../ddpbackup/index.md)
 
-For the programming guide, see [Data Deduplication API](/previous-versions/windows/desktop/dedup).
+For programming guidance for this technology, see:
+* [Data Deduplication API](/previous-versions/windows/desktop/dedup)
 

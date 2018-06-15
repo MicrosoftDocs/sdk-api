@@ -68,9 +68,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT
 
 ### -param Folder [out, retval]
 
-Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>**</b>
 
-A reference to the window's <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a> interface, or <b>NULL</b> if the specified window was not found.
+A reference to the window's <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface, or <b>NULL</b> if the specified window was not found.
 
 
 ## -returns

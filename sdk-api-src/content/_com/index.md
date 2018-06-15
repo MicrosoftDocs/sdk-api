@@ -2,7 +2,7 @@
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,5 +49,6 @@ To develop Component Object Model (COM), you need these headers:
  * [winerror.h](../winerror/index.md)
  * [wtypesbase.h](../wtypesbase/index.md)
 
-For the programming guide, see [Component Object Model (COM)](/windows/desktop/com).
+For programming guidance for this technology, see:
+* [Component Object Model (COM)](/windows/desktop/com)
 

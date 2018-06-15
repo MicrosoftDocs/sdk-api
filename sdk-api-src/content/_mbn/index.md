@@ -2,7 +2,7 @@
 UID: TP:mbn
 ms.assetid: a50fdfaa-8786-3d51-8479-2ca7260c9904
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop Mobile Broadband, you need these headers:
 
  * [mbnapi.h](../mbnapi/index.md)
 
-For the programming guide, see [Mobile Broadband](/windows/desktop/mbn).
+For programming guidance for this technology, see:
+* [Mobile Broadband](/windows/desktop/mbn)
 

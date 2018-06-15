@@ -2,7 +2,7 @@
 UID: TP:lwef
 ms.assetid: 384117d0-d2cd-3434-b330-5f546ef90ab4
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -26,5 +26,6 @@ To develop Legacy Windows Environment Features, you need these headers:
  * [windowsdefender.h](../windowsdefender/index.md)
  * [wmiutils.h](../wmiutils/index.md)
 
-For the programming guide, see [Legacy Windows Environment Features](/windows/desktop/lwef).
+For programming guidance for this technology, see:
+* [Legacy Windows Environment Features](/windows/desktop/lwef)
 

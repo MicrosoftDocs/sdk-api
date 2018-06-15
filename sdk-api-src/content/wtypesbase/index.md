@@ -2,7 +2,7 @@
 UID: NA:wtypesbase
 ms.assetid: c91bcdcd-d270-3228-9533-a247caf52130
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

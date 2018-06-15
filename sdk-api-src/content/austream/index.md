@@ -2,7 +2,7 @@
 UID: NA:austream
 ms.assetid: 3fefa0e7-26b1-3fad-a71b-13aaab6c12e2
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

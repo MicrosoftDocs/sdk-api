@@ -2,7 +2,7 @@
 UID: TP:rdp
 ms.assetid: f2fdbe9c-5378-3329-bc7e-5993852bc608
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,6 @@ To develop Windows Desktop Sharing, you need these headers:
 
  * [rdpencomapi.h](../rdpencomapi/index.md)
 
-For the programming guide, see [Windows Desktop Sharing](/previous-versions/windows/desktop/rdp).
+For programming guidance for this technology, see:
+* [Windows Desktop Sharing](/previous-versions/windows/desktop/rdp)
 

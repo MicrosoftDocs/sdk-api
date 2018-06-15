@@ -67,7 +67,7 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in]
 
-A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="devinst.inf_classinstall32_section">INF ClassInstall32 section</a>.
+A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="https://www.bing.com/search?q=INF+ClassInstall32+section">INF ClassInstall32 section</a>.
 
 
 ### -param Flags [in]

@@ -89,7 +89,7 @@ To create a square pen tip, set the <b>PenTip</b> property to <a href="https://m
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

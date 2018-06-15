@@ -2,7 +2,7 @@
 UID: TP:search
 ms.assetid: b29ae40f-9b92-3070-8037-b6c4cfdc20bc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,6 @@ To develop Windows Search, you need these headers:
  * [structuredquerycondition.h](../structuredquerycondition/index.md)
  * [subsmgr.h](../subsmgr/index.md)
 
-For the programming guide, see [Windows Search](/windows/desktop/search).
+For programming guidance for this technology, see:
+* [Windows Search](/windows/desktop/search)
 

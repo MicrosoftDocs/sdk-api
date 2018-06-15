@@ -2,7 +2,7 @@
 UID: NA:ondemandconnroutehelper
 ms.assetid: 19bc0dc5-3115-393e-8c4b-33a92129b898
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

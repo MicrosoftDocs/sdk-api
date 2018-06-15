@@ -62,7 +62,7 @@ The <b>SetupDiGetDeviceInfoListDetail</b> function retrieves information associa
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve information.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to retrieve information.
 
 
 ### -param DeviceInfoSetDetailData [out]

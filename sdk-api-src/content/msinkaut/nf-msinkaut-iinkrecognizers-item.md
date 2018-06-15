@@ -237,7 +237,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="tablet.iinkrecognizers">IInkRecognizers</a>
+<a href="https://www.bing.com/search?q=IInkRecognizers">IInkRecognizers</a>
 
 
 

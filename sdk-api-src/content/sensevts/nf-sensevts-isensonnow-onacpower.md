@@ -108,11 +108,11 @@ SENS calls this method to notify your application that AC power has been activat
 
 
 
-<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription.md">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty.md">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

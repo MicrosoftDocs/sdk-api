@@ -133,7 +133,7 @@ When <b>CollectionMode</b> is set to <a href="https://msdn.microsoft.com/41928d0
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

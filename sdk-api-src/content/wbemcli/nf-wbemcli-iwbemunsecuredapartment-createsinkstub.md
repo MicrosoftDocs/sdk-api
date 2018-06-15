@@ -131,7 +131,7 @@ Reserved.
 
 Receives a pointer to a substitute object to be used in asynchronous 
       <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls. The user receives an 
-      <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer and must call 
+      <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer and must call 
       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for 
       <b>IID_WbemObjectSink</b> before using this object in asynchronous 
       <b>IWbemServices</b> calls.

@@ -61,10 +61,10 @@ Creates a simple property change.
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-pka_flags.md">PKA_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a></b>
 
 
-<a href="/windows/desktop/api/propsys/ne-propsys-pka_flags.md">PKA_FLAGS</a> flags.
+<a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a> flags.
 
 
 ### -param key [in]
@@ -92,7 +92,7 @@ Reference to a specified IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange.md">IPropertyChange</a> interface pointer.
+The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> interface pointer.
 
 
 ## -returns
@@ -110,7 +110,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Property changes can be placed into an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray.md">IPropertyChangeArray</a> which can then be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to modify the properties on an item.
+Property changes can be placed into an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a> which can then be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to modify the properties on an item.
 
 
 

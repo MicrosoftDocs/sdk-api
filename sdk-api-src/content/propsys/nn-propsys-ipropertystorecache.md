@@ -119,7 +119,7 @@ An implementation of this interface is provided by CLSID_InMemoryPropertyStore. 
 
                 
 
-CLSID_InMemoryPropertyStore implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecache.md">IPropertyStoreCache</a> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> so that it can store additional state information (<a href="/windows/desktop/api/propsys/ne-propsys-psc_state.md">PSC_STATE</a>) about each of the properties in the cache. This information can be useful for property handler implementers. It can also be useful in other scenarios where a cache of property values is needed.
+CLSID_InMemoryPropertyStore implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystorecache">IPropertyStoreCache</a> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> so that it can store additional state information (<a href="/windows/desktop/api/propsys/ne-propsys-psc_state">PSC_STATE</a>) about each of the properties in the cache. This information can be useful for property handler implementers. It can also be useful in other scenarios where a cache of property values is needed.
 
 
 

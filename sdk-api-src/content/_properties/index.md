@@ -2,7 +2,7 @@
 UID: TP:properties
 ms.assetid: ad4462be-c0de-3130-918e-217804db0bf6
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,6 @@ To develop Windows Property System, you need these headers:
  * [propvarutil.h](../propvarutil/index.md)
  * [shobjidl_core.h](../shobjidl_core/index.md)
 
-For the programming guide, see [Windows Property System](/windows/desktop/properties).
+For programming guidance for this technology, see:
+* [Windows Property System](/windows/desktop/properties)
 

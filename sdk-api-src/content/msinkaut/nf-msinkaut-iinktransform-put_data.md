@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
 
 
 

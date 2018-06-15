@@ -95,7 +95,7 @@ Use the property methods of <b>IADsPropertyEntry</b> to examine and manipulate i
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch.md">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

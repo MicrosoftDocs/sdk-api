@@ -87,7 +87,7 @@ If you set this property while collecting a stroke or strokes, the ink does not 
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

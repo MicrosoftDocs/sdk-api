@@ -2,7 +2,7 @@
 UID: TP:gdiplus
 ms.assetid: 7cb49be5-6f39-391f-a093-c2e9fa92c4fc
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -38,5 +38,6 @@ To develop GDI+, you need these headers:
  * [gdiplusstringformat.h](../gdiplusstringformat/index.md)
  * [gdiplustypes.h](../gdiplustypes/index.md)
 
-For the programming guide, see [GDI+](/windows/desktop/gdiplus).
+For programming guidance for this technology, see:
+* [GDI+](/windows/desktop/gdiplus)
 

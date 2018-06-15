@@ -2,7 +2,7 @@
 UID: TP:automat
 ms.assetid: fa0e9310-2f3a-3207-9d42-b2f8ad9f6315
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,5 +24,6 @@ To develop Automation, you need these headers:
  * [wia_xp.h](../wia_xp/index.md)
  * [wtypes.h](../wtypes/index.md)
 
-For the programming guide, see [Automation](/previous-versions/windows/desktop/automat).
+For programming guidance for this technology, see:
+* [Automation](/previous-versions/windows/desktop/automat)
 

@@ -74,7 +74,7 @@ The object type enumerated by <a href="https://msdn.microsoft.com/63997e08-b6d3-
 
 ### -param ppObjectUnk [out]
 
-The address of an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer for the object. When the pointer is no longer needed, the caller should release it by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method. 
+The address of an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the object. When the pointer is no longer needed, the caller should release it by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. 
 
 
 ## -returns

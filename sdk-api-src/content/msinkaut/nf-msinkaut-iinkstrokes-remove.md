@@ -190,7 +190,7 @@ After calling the <b>Remove</b> method, the strokes in the collection are reorde
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

@@ -72,7 +72,7 @@ A mask of type <a href="https://msdn.microsoft.com/0749eb01-c367-4290-a6c4-bbf0e
 
 ### -param fCopy [in]
 
-If <b>TRUE</b>, the command tree is copied, and the caller retains ownership of the command tree's memory. If <b>FALSE</b>, the provider takes the entire tree, without copying, and sets the caller's root pointer to a <b>NULL</b> pointer. When the command object needs to deallocate the tree, it will call <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free.md">IMalloc::Free</a> once for each node in the tree.
+If <b>TRUE</b>, the command tree is copied, and the caller retains ownership of the command tree's memory. If <b>FALSE</b>, the provider takes the entire tree, without copying, and sets the caller's root pointer to a <b>NULL</b> pointer. When the command object needs to deallocate the tree, it will call <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a> once for each node in the tree.
 
 
 

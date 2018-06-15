@@ -61,7 +61,7 @@ Notification method signaling a device service state change event from the Mobil
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice.md">IMbnDeviceService</a> object for which the event notification was received.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object for which the event notification was received.
 
 
 ### -param eventID [in]

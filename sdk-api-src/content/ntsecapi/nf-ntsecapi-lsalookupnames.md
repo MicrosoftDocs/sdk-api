@@ -148,7 +148,7 @@ All of the names were found and successfully translated.
  
 
 If the function fails, the return value is the following <b>NTSTATUS</b> value or one of the 
-<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop//SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

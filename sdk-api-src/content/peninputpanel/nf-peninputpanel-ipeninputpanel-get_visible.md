@@ -81,7 +81,7 @@ You can set the <b>Visible</b> property to <b>VARIANT_TRUE</b> only when the att
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

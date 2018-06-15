@@ -79,7 +79,7 @@ The GUID of the desired object.
 
 ### -param ppObjectUnk [out]
 
-A pointer to a buffer that receives the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown.md">IUnknown</a> pointer to the object. When the pointer is no longer needed, the caller should release it by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release.md">IUnknown::Release</a> method. 
+A pointer to a buffer that receives the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to the object. When the pointer is no longer needed, the caller should release it by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. 
 
 
 ## -returns

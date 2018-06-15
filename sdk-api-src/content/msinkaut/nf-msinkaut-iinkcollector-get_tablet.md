@@ -81,7 +81,7 @@ Accessing this property within certain message handlers can result in the underl
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

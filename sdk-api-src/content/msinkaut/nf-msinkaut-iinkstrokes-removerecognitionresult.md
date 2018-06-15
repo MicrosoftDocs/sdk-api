@@ -118,7 +118,7 @@ To set a recognition result on an <a href="https://msdn.microsoft.com/c7fb921c-0
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

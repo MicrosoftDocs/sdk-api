@@ -2,7 +2,7 @@
 UID: TP:sysmon
 ms.assetid: e50315b4-2438-36a1-bfa1-0741ed7a8d77
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,5 +19,6 @@ To develop System Monitor, you need these headers:
 
  * [isysmon.h](../isysmon/index.md)
 
-For the programming guide, see [System Monitor](/windows/desktop/sysmon).
+For programming guidance for this technology, see:
+* [System Monitor](/windows/desktop/sysmon)
 

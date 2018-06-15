@@ -2,7 +2,7 @@
 UID: NA:l2cmn
 ms.assetid: 1ebea135-cd59-3d5a-b055-9e5472a1c12d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
