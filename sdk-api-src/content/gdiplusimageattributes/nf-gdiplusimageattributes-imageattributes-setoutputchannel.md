@@ -169,7 +169,7 @@ VOID Example_SetOutputChannel(HDC hdc)
 </table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing five versions of one image: first in color, then in four different patterns of greyscale" src="images/imageattributessetoutputchannel.png"/>
+<img alt="Illustration showing five versions of one image: first in color, then in four different patterns of greyscale" src="/images/imageattributessetoutputchannel.png"/>
 
 <div class="code"></div>
 

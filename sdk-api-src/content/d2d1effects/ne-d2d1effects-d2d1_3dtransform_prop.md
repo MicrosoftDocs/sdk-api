@@ -89,7 +89,7 @@ Default value is D2D1_BORDER_MODE_SOFT.
               to the transformed 2D coordinate system.
             
 
-<img alt="3D Depth Matrix" src="images/3d_transform_matrix1.png"/>
+<img alt="3D Depth Matrix" src="/images/3d_transform_matrix1.png"/>
 
               Where:<dl>
 <dd>X, Y, Z = Input projection plane coordinates</dd>

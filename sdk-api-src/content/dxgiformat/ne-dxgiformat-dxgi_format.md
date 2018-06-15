@@ -196,7 +196,7 @@ A four-component, 32-bit unsigned-integer format that supports 10 bits for each 
 Three partial-precision floating-point numbers encoded into a single 32-bit value (a variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There are no sign bits, and there is a 5-bit biased (15) exponent for each channel, 6-bit mantissa  for R and G, and a 5-bit mantissa for B, as shown in the following illustration.<sup>5,7</sup>
 
-<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="images/R11G11B10_FLOAT.png"/>
+<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="/images/R11G11B10_FLOAT.png"/>
 
 
 ### -field DXGI_FORMAT_R8G8B8A8_TYPELESS
@@ -404,7 +404,7 @@ A single-component, 1-bit unsigned-normalized integer format that supports 1 bit
 Three partial-precision floating-point numbers encoded into a single 32-bit value all sharing the same 5-bit exponent (variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There is no sign bit, and there is a shared 5-bit biased (15) exponent and a 9-bit mantissa for each channel, as shown in the following illustration. <sup>2,6,7</sup>.
 
-<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="images/RGBE.png"/>
+<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="/images/RGBE.png"/>
 
 
 ### -field DXGI_FORMAT_R8G8_B8G8_UNORM
