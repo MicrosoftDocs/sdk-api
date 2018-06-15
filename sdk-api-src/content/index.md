@@ -119,7 +119,6 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_bits/index.md">Background Intelligent Transfer Service</a></p>
                         <p><a href="_cloudapi/index.md">Cloud Filter API</a></p>
                         <p><a href="_dataxchg/index.md">Data Exchange</a></p>
-                        <p><a href="_indexsrv/index.md">Indexing Service</a></p>
                         <p><a href="_vstor/index.md">Virtual Storage</a></p>
                         <p><a href="_fs/index.md">Data Access and Storage</a></p>
                     </div>
