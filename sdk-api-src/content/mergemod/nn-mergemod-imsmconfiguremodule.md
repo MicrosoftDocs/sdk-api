@@ -1,16 +1,16 @@
 ---
-UID: NN:weakreference.IWeakReference
-title: IWeakReference
+UID: NN:mergemod.IMsmConfigureModule
+title: IMsmConfigureModule
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: d0337fc1-bde2-48f5-b8f7-3b590aaa14ff
+ms.assetid: fef30909-38dc-4917-8a58-b368b690be8b
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: weakreference.h
+req.header: mergemod.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - weakreference.h
+ - mergemod.h
 api_name: 
- - IWeakReference
+ - IMsmConfigureModule
 product: Windows
 targetos: Windows
 ---
 
-# IWeakReference interface
+# IMsmConfigureModule interface
 
 ## -description
 
@@ -43,21 +43,21 @@ TBD
 
 
 ## -inheritance
-IWeakReference interits from IUnknown. 
+IMsmConfigureModule interits from IDispatch. 
 ## -members
 
-<p>IWeakReference has these methods.</p>
+<p>IMsmConfigureModule has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>ProvideTextData</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>ProvideIntegerData</td>
 		<td>TBD</td>
 	</tr>
 </table>

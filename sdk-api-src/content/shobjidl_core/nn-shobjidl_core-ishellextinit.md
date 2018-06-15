@@ -1,16 +1,16 @@
 ---
-UID: NN:weakreference.IWeakReference
-title: IWeakReference
+UID: NN:shobjidl_core.IShellExtInit
+title: IShellExtInit
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: d0337fc1-bde2-48f5-b8f7-3b590aaa14ff
+ms.assetid: addba5b7-1d3f-462e-aa4a-1a51b6f7334a
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: weakreference.h
+req.header: shobjidl_core.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - weakreference.h
+ - shobjidl_core.h
 api_name: 
- - IWeakReference
+ - IShellExtInit
 product: Windows
 targetos: Windows
 ---
 
-# IWeakReference interface
+# IShellExtInit interface
 
 ## -description
 
@@ -43,21 +43,17 @@ TBD
 
 
 ## -inheritance
-IWeakReference interits from IUnknown. 
+IShellExtInit interits from IUnknown. 
 ## -members
 
-<p>IWeakReference has these methods.</p>
+<p>IShellExtInit has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Resolve</td>
+		<td>Initialize</td>
 		<td>TBD</td>
 	</tr>
 </table>

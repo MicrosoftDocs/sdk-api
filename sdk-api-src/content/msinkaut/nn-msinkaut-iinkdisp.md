@@ -1,16 +1,16 @@
 ---
-UID: NN:rometadataapi.IMetaDataTables
-title: IMetaDataTables
+UID: NN:msinkaut.IInkDisp
+title: IInkDisp
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: db9b9606-b109-45f6-807f-1e406bfc1cfe
+ms.assetid: b81775f8-5b3f-4040-af35-9e8c619a4c2d
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: rometadataapi.h
+req.header: msinkaut.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - rometadataapi.h
+ - msinkaut.h
 api_name: 
- - IMetaDataTables
+ - IInkDisp
 product: Windows
 targetos: Windows
 ---
 
-# IMetaDataTables interface
+# IInkDisp interface
 
 ## -description
 
@@ -43,89 +43,113 @@ TBD
 
 
 ## -inheritance
-IMetaDataTables interits from IUnknown. 
+IInkDisp interits from IDispatch. 
 ## -members
 
-<p>IMetaDataTables has these methods.</p>
+<p>IInkDisp has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>GetStringHeapSize</td>
+		<td>get_Strokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlobHeapSize</td>
+		<td>get_ExtendedProperties</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuidHeapSize</td>
+		<td>get_Dirty</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserStringHeapSize</td>
+		<td>put_Dirty</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNumTables</td>
+		<td>get_CustomStrokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableIndex</td>
+		<td>GetBoundingBox</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableInfo</td>
+		<td>DeleteStrokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumnInfo</td>
+		<td>DeleteStroke</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetCodedTokenInfo</td>
+		<td>ExtractStrokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRow</td>
+		<td>ExtractWithRectangle</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumn</td>
+		<td>Clip</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetString</td>
+		<td>Clone</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlob</td>
+		<td>HitTestCircle</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuid</td>
+		<td>HitTestWithRectangle</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserString</td>
+		<td>HitTestWithLasso</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextString</td>
+		<td>NearestPoint</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextBlob</td>
+		<td>CreateStrokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextGuid</td>
+		<td>AddStrokesAtRectangle</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextUserString</td>
+		<td>Save</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>Load</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>CreateStroke</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>ClipboardCopyWithRectangle</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>ClipboardCopy</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>CanPaste</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>ClipboardPaste</td>
 		<td>TBD</td>
 	</tr>
 </table>

@@ -1,16 +1,16 @@
 ---
-UID: NN:weakreference.IWeakReference
-title: IWeakReference
+UID: NN:shobjidl_core.IContextMenu
+title: IContextMenu
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: d0337fc1-bde2-48f5-b8f7-3b590aaa14ff
+ms.assetid: 8d8ee727-edc5-4ce5-b6a4-d140a5da4211
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: weakreference.h
+req.header: shobjidl_core.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - weakreference.h
+ - shobjidl_core.h
 api_name: 
- - IWeakReference
+ - IContextMenu
 product: Windows
 targetos: Windows
 ---
 
-# IWeakReference interface
+# IContextMenu interface
 
 ## -description
 
@@ -43,21 +43,25 @@ TBD
 
 
 ## -inheritance
-IWeakReference interits from IUnknown. 
+IContextMenu interits from IUnknown. 
 ## -members
 
-<p>IWeakReference has these methods.</p>
+<p>IContextMenu has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>QueryContextMenu</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>InvokeCommand</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>GetCommandString</td>
 		<td>TBD</td>
 	</tr>
 </table>

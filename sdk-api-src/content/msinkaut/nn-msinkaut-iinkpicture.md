@@ -1,16 +1,16 @@
 ---
-UID: NN:rometadataapi.IMetaDataImport
-title: IMetaDataImport
+UID: NN:msinkaut.IInkPicture
+title: IInkPicture
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: 2a3a58fd-b923-4d99-b27e-dcce9948e4bf
+ms.assetid: af8f60e9-f520-469c-bb42-17bcec78c275
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: rometadataapi.h
+req.header: msinkaut.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - rometadataapi.h
+ - msinkaut.h
 api_name: 
- - IMetaDataImport
+ - IInkPicture
 product: Windows
 targetos: Windows
 ---
 
-# IMetaDataImport interface
+# IInkPicture interface
 
 ## -description
 
@@ -43,261 +43,249 @@ TBD
 
 
 ## -inheritance
-IMetaDataImport interits from IUnknown. 
+IInkPicture interits from IDispatch. 
 ## -members
 
-<p>IMetaDataImport has these methods.</p>
+<p>IInkPicture has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>CloseEnum</td>
+		<td>get_hWnd</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>CountEnum</td>
+		<td>get_DefaultDrawingAttributes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>ResetEnum</td>
+		<td>putref_DefaultDrawingAttributes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumTypeDefs</td>
+		<td>get_Renderer</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumInterfaceImpls</td>
+		<td>putref_Renderer</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumTypeRefs</td>
+		<td>get_Ink</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>FindTypeDefByName</td>
+		<td>putref_Ink</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetScopeProps</td>
+		<td>get_AutoRedraw</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetModuleFromScope</td>
+		<td>put_AutoRedraw</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTypeDefProps</td>
+		<td>get_CollectingInk</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetInterfaceImplProps</td>
+		<td>get_CollectionMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTypeRefProps</td>
+		<td>put_CollectionMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>ResolveTypeRef</td>
+		<td>get_DynamicRendering</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMembers</td>
+		<td>put_DynamicRendering</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMembersWithName</td>
+		<td>get_DesiredPacketDescription</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMethods</td>
+		<td>put_DesiredPacketDescription</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMethodsWithName</td>
+		<td>get_MouseIcon</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumFields</td>
+		<td>put_MouseIcon</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumFieldsWithName</td>
+		<td>putref_MouseIcon</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumParams</td>
+		<td>get_MousePointer</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMemberRefs</td>
+		<td>put_MousePointer</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMethodImpls</td>
+		<td>get_EditingMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumPermissionSets</td>
+		<td>put_EditingMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>FindMember</td>
+		<td>get_Selection</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>FindMethod</td>
+		<td>put_Selection</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>FindField</td>
+		<td>get_EraserMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>FindMemberRef</td>
+		<td>put_EraserMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetMethodProps</td>
+		<td>get_EraserWidth</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetMemberRefProps</td>
+		<td>put_EraserWidth</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumProperties</td>
+		<td>putref_Picture</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumEvents</td>
+		<td>put_Picture</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetEventProps</td>
+		<td>get_Picture</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumMethodSemantics</td>
+		<td>put_SizeMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetMethodSemantics</td>
+		<td>get_SizeMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetClassLayout</td>
+		<td>put_BackColor</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetFieldMarshal</td>
+		<td>get_BackColor</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRVA</td>
+		<td>get_Cursors</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetPermissionSetProps</td>
+		<td>get_MarginX</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetSigFromToken</td>
+		<td>put_MarginX</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetModuleRefProps</td>
+		<td>get_MarginY</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumModuleRefs</td>
+		<td>put_MarginY</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTypeSpecFromToken</td>
+		<td>get_Tablet</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNameFromToken</td>
+		<td>get_SupportHighContrastInk</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumUnresolvedMethods</td>
+		<td>put_SupportHighContrastInk</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserString</td>
+		<td>get_SupportHighContrastSelectionUI</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetPinvokeMap</td>
+		<td>put_SupportHighContrastSelectionUI</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumSignatures</td>
+		<td>HitTestSelection</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumTypeSpecs</td>
+		<td>SetGestureStatus</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumUserStrings</td>
+		<td>GetGestureStatus</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetParamForMethodIndex</td>
+		<td>GetWindowInputRectangle</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>EnumCustomAttributes</td>
+		<td>SetWindowInputRectangle</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetCustomAttributeProps</td>
+		<td>SetAllTabletsMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>FindTypeRef</td>
+		<td>SetSingleTabletIntegratedMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetMemberProps</td>
+		<td>GetEventInterest</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetFieldProps</td>
+		<td>SetEventInterest</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetPropertyProps</td>
+		<td>get_InkEnabled</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetParamProps</td>
+		<td>put_InkEnabled</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetCustomAttributeByName</td>
+		<td>get_Enabled</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>IsValidToken</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNestedClassProps</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNativeCallConvFromSig</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsGlobal</td>
+		<td>put_Enabled</td>
 		<td>TBD</td>
 	</tr>
 </table>

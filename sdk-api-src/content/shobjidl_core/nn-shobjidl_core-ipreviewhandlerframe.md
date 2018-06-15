@@ -1,16 +1,16 @@
 ---
-UID: NN:weakreference.IWeakReference
-title: IWeakReference
+UID: NN:shobjidl_core.IPreviewHandlerFrame
+title: IPreviewHandlerFrame
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: d0337fc1-bde2-48f5-b8f7-3b590aaa14ff
+ms.assetid: f953aa33-248d-4d2e-a954-6abf36a5491e
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: weakreference.h
+req.header: shobjidl_core.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - weakreference.h
+ - shobjidl_core.h
 api_name: 
- - IWeakReference
+ - IPreviewHandlerFrame
 product: Windows
 targetos: Windows
 ---
 
-# IWeakReference interface
+# IPreviewHandlerFrame interface
 
 ## -description
 
@@ -43,21 +43,21 @@ TBD
 
 
 ## -inheritance
-IWeakReference interits from IUnknown. 
+IPreviewHandlerFrame interits from IUnknown. 
 ## -members
 
-<p>IWeakReference has these methods.</p>
+<p>IPreviewHandlerFrame has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>GetWindowContext</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>TranslateAccelerator</td>
 		<td>TBD</td>
 	</tr>
 </table>

@@ -1,16 +1,16 @@
 ---
-UID: NN:rometadataapi.IMetaDataTables
-title: IMetaDataTables
+UID: NN:uianimation.IUIAnimationStoryboard2
+title: IUIAnimationStoryboard2
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: db9b9606-b109-45f6-807f-1e406bfc1cfe
+ms.assetid: 53a063ca-ec9f-43a3-a1a8-0753e1119822
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: rometadataapi.h
+req.header: uianimation.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - rometadataapi.h
+ - uianimation.h
 api_name: 
- - IMetaDataTables
+ - IUIAnimationStoryboard2
 product: Windows
 targetos: Windows
 ---
 
-# IMetaDataTables interface
+# IUIAnimationStoryboard2 interface
 
 ## -description
 
@@ -43,89 +43,85 @@ TBD
 
 
 ## -inheritance
-IMetaDataTables interits from IUnknown. 
+IUIAnimationStoryboard2 interits from IUnknown. 
 ## -members
 
-<p>IMetaDataTables has these methods.</p>
+<p>IUIAnimationStoryboard2 has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>GetStringHeapSize</td>
+		<td>AddTransition</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlobHeapSize</td>
+		<td>AddKeyframeAtOffset</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuidHeapSize</td>
+		<td>AddKeyframeAfterTransition</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserStringHeapSize</td>
+		<td>AddTransitionAtKeyframe</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNumTables</td>
+		<td>AddTransitionBetweenKeyframes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableIndex</td>
+		<td>RepeatBetweenKeyframes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableInfo</td>
+		<td>HoldVariable</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumnInfo</td>
+		<td>SetLongestAcceptableDelay</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetCodedTokenInfo</td>
+		<td>SetSkipDuration</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRow</td>
+		<td>Schedule</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumn</td>
+		<td>Conclude</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetString</td>
+		<td>Finish</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlob</td>
+		<td>Abandon</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuid</td>
+		<td>SetTag</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserString</td>
+		<td>GetTag</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextString</td>
+		<td>GetStatus</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextBlob</td>
+		<td>GetElapsedTime</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextGuid</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNextUserString</td>
+		<td>SetStoryboardEventHandler</td>
 		<td>TBD</td>
 	</tr>
 </table>

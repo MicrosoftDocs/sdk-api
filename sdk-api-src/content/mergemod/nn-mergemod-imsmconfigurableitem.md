@@ -1,16 +1,16 @@
 ---
-UID: NN:rdpappcontainerclient.IRemoteDesktopClientSettings
-title: IRemoteDesktopClientSettings
+UID: NN:mergemod.IMsmConfigurableItem
+title: IMsmConfigurableItem
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: 2a118f9b-d812-426d-852b-2d98ed61e010
+ms.assetid: 72b5d826-3ab1-49bd-b579-5de89e29c709
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: rdpappcontainerclient.h
+req.header: mergemod.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - rdpappcontainerclient.h
+ - mergemod.h
 api_name: 
- - IRemoteDesktopClientSettings
+ - IMsmConfigurableItem
 product: Windows
 targetos: Windows
 ---
 
-# IRemoteDesktopClientSettings interface
+# IMsmConfigurableItem interface
 
 ## -description
 
@@ -43,29 +43,53 @@ TBD
 
 
 ## -inheritance
-IRemoteDesktopClientSettings interits from IDispatch. 
+IMsmConfigurableItem interits from IDispatch. 
 ## -members
 
-<p>IRemoteDesktopClientSettings has these methods.</p>
+<p>IMsmConfigurableItem has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>ApplySettings</td>
+		<td>get_Name</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>RetrieveSettings</td>
+		<td>get_Format</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRdpProperty</td>
+		<td>get_Type</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>SetRdpProperty</td>
+		<td>get_Context</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>get_DefaultValue</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>get_Attributes</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>get_DisplayName</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>get_Description</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>get_HelpLocation</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>get_HelpKeyword</td>
 		<td>TBD</td>
 	</tr>
 </table>

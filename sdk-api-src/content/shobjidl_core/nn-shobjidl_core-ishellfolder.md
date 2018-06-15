@@ -1,16 +1,16 @@
 ---
-UID: NN:inspectable.IInspectable
-title: IInspectable
+UID: NN:shobjidl_core.IShellFolder
+title: IShellFolder
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: f11cd44c-7f9f-4164-b5c2-226d6d8ed820
+ms.assetid: 131ad279-7a23-44b0-ba0d-a55268bd77e6
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: inspectable.h
+req.header: shobjidl_core.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - inspectable.h
+ - shobjidl_core.h
 api_name: 
- - IInspectable
+ - IShellFolder
 product: Windows
 targetos: Windows
 ---
 
-# IInspectable interface
+# IShellFolder interface
 
 ## -description
 
@@ -43,25 +43,53 @@ TBD
 
 
 ## -inheritance
-IInspectable interits from IUnknown. 
+IShellFolder interits from IUnknown. 
 ## -members
 
-<p>IInspectable has these methods.</p>
+<p>IShellFolder has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>GetIids</td>
+		<td>ParseDisplayName</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRuntimeClassName</td>
+		<td>EnumObjects</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTrustLevel</td>
+		<td>BindToObject</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>BindToStorage</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>CompareIDs</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>CreateViewObject</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>GetAttributesOf</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>GetUIObjectOf</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>GetDisplayNameOf</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>SetNameOf</td>
 		<td>TBD</td>
 	</tr>
 </table>

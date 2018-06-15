@@ -1,16 +1,16 @@
 ---
-UID: NN:rometadataapi.IMetaDataTables
-title: IMetaDataTables
+UID: NN:msinkaut.IInkRecognizerContext
+title: IInkRecognizerContext
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: db9b9606-b109-45f6-807f-1e406bfc1cfe
+ms.assetid: 509c3b51-0969-4b75-8a2c-9b9000e9b2cd
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: rometadataapi.h
+req.header: msinkaut.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - rometadataapi.h
+ - msinkaut.h
 api_name: 
- - IMetaDataTables
+ - IInkRecognizerContext
 product: Windows
 targetos: Windows
 ---
 
-# IMetaDataTables interface
+# IInkRecognizerContext interface
 
 ## -description
 
@@ -43,89 +43,109 @@ TBD
 
 
 ## -inheritance
-IMetaDataTables interits from IUnknown. 
+IInkRecognizerContext interits from IDispatch. 
 ## -members
 
-<p>IMetaDataTables has these methods.</p>
+<p>IInkRecognizerContext has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>GetStringHeapSize</td>
+		<td>get_Strokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlobHeapSize</td>
+		<td>putref_Strokes</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuidHeapSize</td>
+		<td>get_CharacterAutoCompletionMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserStringHeapSize</td>
+		<td>put_CharacterAutoCompletionMode</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNumTables</td>
+		<td>get_Factoid</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableIndex</td>
+		<td>put_Factoid</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableInfo</td>
+		<td>get_Guide</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumnInfo</td>
+		<td>putref_Guide</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetCodedTokenInfo</td>
+		<td>get_PrefixText</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRow</td>
+		<td>put_PrefixText</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumn</td>
+		<td>get_SuffixText</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetString</td>
+		<td>put_SuffixText</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlob</td>
+		<td>get_RecognitionFlags</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuid</td>
+		<td>put_RecognitionFlags</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserString</td>
+		<td>get_WordList</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextString</td>
+		<td>putref_WordList</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextBlob</td>
+		<td>get_Recognizer</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextGuid</td>
+		<td>Recognize</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNextUserString</td>
+		<td>StopBackgroundRecognition</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>EndInkInput</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>BackgroundRecognize</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>BackgroundRecognizeWithAlternates</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>Clone</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>IsStringSupported</td>
 		<td>TBD</td>
 	</tr>
 </table>

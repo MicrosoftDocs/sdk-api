@@ -1,16 +1,16 @@
 ---
-UID: NN:rometadataapi.IMetaDataTables
-title: IMetaDataTables
+UID: NN:msinkaut.IInkRenderer
+title: IInkRenderer
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: db9b9606-b109-45f6-807f-1e406bfc1cfe
+ms.assetid: 8e12ad04-2d07-4d51-bc9c-6279a044f2db
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: rometadataapi.h
+req.header: msinkaut.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - rometadataapi.h
+ - msinkaut.h
 api_name: 
- - IMetaDataTables
+ - IInkRenderer
 product: Windows
 targetos: Windows
 ---
 
-# IMetaDataTables interface
+# IInkRenderer interface
 
 ## -description
 
@@ -43,89 +43,73 @@ TBD
 
 
 ## -inheritance
-IMetaDataTables interits from IUnknown. 
+IInkRenderer interits from IDispatch. 
 ## -members
 
-<p>IMetaDataTables has these methods.</p>
+<p>IInkRenderer has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>GetStringHeapSize</td>
+		<td>GetViewTransform</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlobHeapSize</td>
+		<td>SetViewTransform</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuidHeapSize</td>
+		<td>GetObjectTransform</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserStringHeapSize</td>
+		<td>SetObjectTransform</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetNumTables</td>
+		<td>Draw</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableIndex</td>
+		<td>DrawStroke</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetTableInfo</td>
+		<td>PixelToInkSpace</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumnInfo</td>
+		<td>InkSpaceToPixel</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetCodedTokenInfo</td>
+		<td>PixelToInkSpaceFromPoints</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetRow</td>
+		<td>InkSpaceToPixelFromPoints</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetColumn</td>
+		<td>Measure</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetString</td>
+		<td>MeasureStroke</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetBlob</td>
+		<td>Move</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetGuid</td>
+		<td>Rotate</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>GetUserString</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNextString</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNextBlob</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNextGuid</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNextUserString</td>
+		<td>ScaleTransform</td>
 		<td>TBD</td>
 	</tr>
 </table>

@@ -1,16 +1,16 @@
 ---
-UID: NN:weakreference.IWeakReference
-title: IWeakReference
+UID: NN:shobjidl_core.IPreviewHandler
+title: IPreviewHandler
 author: windows-sdk-content
 description: TBD
 tech.root:
-ms.assetid: d0337fc1-bde2-48f5-b8f7-3b590aaa14ff
+ms.assetid: d1502711-6715-4aaa-9b0b-075af5e5f490
 ms.author: windowssdkdev
 ms.date: 
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk
-req.header: weakreference.h
+req.header: shobjidl_core.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -28,14 +28,14 @@ topic_type:
 api_type: 
  - COM
 api_location: 
- - weakreference.h
+ - shobjidl_core.h
 api_name: 
- - IWeakReference
+ - IPreviewHandler
 product: Windows
 targetos: Windows
 ---
 
-# IWeakReference interface
+# IPreviewHandler interface
 
 ## -description
 
@@ -43,21 +43,41 @@ TBD
 
 
 ## -inheritance
-IWeakReference interits from IUnknown. 
+IPreviewHandler interits from IUnknown. 
 ## -members
 
-<p>IWeakReference has these methods.</p>
+<p>IPreviewHandler has these methods.</p>
 <table>
 	<tr>
 		<td>Method</td>
 		<td>Description</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>SetWindow</td>
 		<td>TBD</td>
 	</tr>
 	<tr>
-		<td>Resolve</td>
+		<td>SetRect</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>DoPreview</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>Unload</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>SetFocus</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>QueryFocus</td>
+		<td>TBD</td>
+	</tr>
+	<tr>
+		<td>TranslateAccelerator</td>
 		<td>TBD</td>
 	</tr>
 </table>
