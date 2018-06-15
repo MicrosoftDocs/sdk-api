@@ -61,14 +61,14 @@ Removes the metadata item that matches the given parameters.
 
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata schema property.
 
 
 ### -param pvarId [in]
 
-Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata id property.
 

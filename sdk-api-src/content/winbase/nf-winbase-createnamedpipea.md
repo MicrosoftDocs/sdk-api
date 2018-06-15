@@ -222,7 +222,7 @@ The caller will have write access to the named pipe's owner.
 </td>
 <td width="60%">
 The caller will have write access to the named pipe's SACL. For more information, see 
-<a href="security.access_control_lists_acls_">Access-Control Lists (ACLs)</a> and 
+<a href="https://www.bing.com/search?q=Access-Control+Lists+(ACLs)">Access-Control Lists (ACLs)</a> and 
 <a href="https://msdn.microsoft.com/88198243-dae5-49ac-9d54-bfae7a3a0b1a">SACL Access Right</a>.
 
 </td>

@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.5
 ## -description
 
 
-Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="2681e3cf-a251-4c9d-9474-fc320fedede8">IAddrBook</a>.
+Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://msdn.microsoft.com/library/windows/desktop/2681e3cf-a251-4c9d-9474-fc320fedede8">IAddrBook</a>.
 
 
 ## -parameters

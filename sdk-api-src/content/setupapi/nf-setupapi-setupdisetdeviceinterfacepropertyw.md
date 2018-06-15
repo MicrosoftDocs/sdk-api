@@ -62,7 +62,7 @@ The <b>SetupDiSetDeviceInterfaceProperty</b> function sets a device property of 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to set a device interface property.
+A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device interface for which to set a device interface property.
 
 
 ### -param DeviceInterfaceData [in]
@@ -240,7 +240,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
+<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="https://www.bing.com/search?q=unified+device+property+model">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetDeviceInterfaceProperty</b>. 
 

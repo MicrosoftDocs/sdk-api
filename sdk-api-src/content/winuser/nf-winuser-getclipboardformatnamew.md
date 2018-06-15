@@ -118,7 +118,7 @@ Using this function incorrectly might compromise the security of your program. F
 
 #### Examples
 
-For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>. 
+For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboard+Viewer">Example of a Clipboard Viewer</a>. 
 
 <div class="code"></div>
 

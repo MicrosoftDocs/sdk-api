@@ -109,7 +109,7 @@ When a property store is unserialized, the TSF manager creates an object from th
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -212,7 +212,7 @@ You should call <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c7
 
 #### Examples
 
-For an example, see <a href="using_icons.htm">Sharing Icon Resources</a>.
+For an example, see <a href="https://www.bing.com/search?q=Sharing+Icon+Resources">Sharing Icon Resources</a>.
 
 <div class="code"></div>
 

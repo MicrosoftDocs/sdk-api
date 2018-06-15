@@ -63,7 +63,7 @@ Gets a formatted, Unicode string representation of a property value stored in a 
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> that names the property whose value is being retrieved.
+Reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> that names the property whose value is being retrieved.
 
 
 ### -param propvar [in]
@@ -75,16 +75,16 @@ Reference to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc828
 
 ### -param pdfFlags [in]
 
-Type: <b><a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a></b>
 
-A flag that specifies the format to apply to the property string. See <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> for possible values.
+A flag that specifies the format to apply to the property string. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> for possible values.
 
 
 ### -param pwszText [out]
 
 Type: <b>LPWSTR</b>
 
-When the function returns, contains a pointer to the formatted value as a null-terminated, Unicode string. The calling application is responsible for allocating memory for the buffer before it calls <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a>.
+When the function returns, contains a pointer to the formatted value as a null-terminated, Unicode string. The calling application is responsible for allocating memory for the buffer before it calls <a href="https://www.bing.com/search?q=PSFormatForDisplay">PSFormatForDisplay</a>.
 
 
 ### -param cchText [in]
@@ -150,32 +150,32 @@ Indicates allocation failed.
 
 
 
-This function calls the schema subsystem's implementation of <a href="shell.IPropertySystem_FormatForDisplay">IPropertySystem::FormatForDisplay</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>. If the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> is not recognized by the schema subsystem, <b>IPropertySystem::FormatForDisplay</b> attempts to format the value according to the value's <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a>.
+This function calls the schema subsystem's implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplay">IPropertySystem::FormatForDisplay</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. If the <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> is not recognized by the schema subsystem, <b>IPropertySystem::FormatForDisplay</b> attempts to format the value according to the value's <a href="https://msdn.microsoft.com/library/windows/desktop/317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a>.
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSFormatPropertyValue">PSFormatPropertyValue</a>.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://www.bing.com/search?q=PSFormatPropertyValue">PSFormatPropertyValue</a>.
 
-The purpose of this function is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information on how the property description schema influences the formatting of the value, see the following topics:
+The purpose of this function is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information on how the property description schema influences the formatting of the value, see the following topics:
                 
                 
 
 <ul>
 <li>
-<a href="shell.propdesc_schema_displayInfo">displayInfo</a>
+<a href="https://www.bing.com/search?q=displayInfo">displayInfo</a>
 </li>
 <li>
-<a href="shell.propdesc_schema_stringFormat">stringFormat</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">stringFormat</a>
 </li>
 <li>
-<a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>
+<a href="https://www.bing.com/search?q=booleanFormat">booleanFormat</a>
 </li>
 <li>
-<a href="shell.propdesc_schema_numberFormat">numberFormat</a>
+<a href="https://www.bing.com/search?q=numberFormat">numberFormat</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>
 </li>
 <li>
-<a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>
+<a href="https://www.bing.com/search?q=enumeratedList">enumeratedList</a>
 </li>
 </ul>
  
@@ -185,7 +185,7 @@ The purpose of this function is to convert data into a string suitable for displ
 
 The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left-to-right (LTR) language is drawn on a right-to-left (RTL) window, or an RTL is drawn on a LTR window. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
-The following properties use special formats and are unaffected by the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>. Note that examples cited are for strings with a current locale set to English; typically, output is localized except where noted.
+The following properties use special formats and are unaffected by the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. Note that examples cited are for strings with a current locale set to English; typically, output is localized except where noted.
 
                 
 
@@ -308,7 +308,7 @@ If the property key does not correspond to a property description in any of the 
 </tr>
 <tr>
 <td>VT_FILETIME</td>
-<td>Date/time string as specified by <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
+<td>Date/time string as specified by <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
 </tr>
 <tr>
 <td>Numeric VARTYPE</td>
@@ -328,7 +328,7 @@ If the property key does not correspond to a property description in any of the 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a> to format a rating value.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSFormatForDisplay">PSFormatForDisplay</a> to format a rating value.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -363,11 +363,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.PSFormatForDisplayAlloc">PSFormatForDisplayAlloc</a>
+<a href="https://www.bing.com/search?q=PSFormatForDisplayAlloc">PSFormatForDisplayAlloc</a>
 
 
 
-<a href="shell.PSFormatPropertyValue">PSFormatPropertyValue</a>
+<a href="https://www.bing.com/search?q=PSFormatPropertyValue">PSFormatPropertyValue</a>
 
 
 

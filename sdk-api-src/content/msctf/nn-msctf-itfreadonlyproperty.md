@@ -133,7 +133,7 @@ An instance of this interface is obtained by using <a href="https://msdn.microso
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -390,7 +390,7 @@ A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e4
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="_win32_LoadString_cpp">LoadString</a> for the localized resources from the library.
+Unable to call <a href="https://www.bing.com/search?q=LoadString">LoadString</a> for the localized resources from the library.
 
 </td>
 </tr>

@@ -237,7 +237,7 @@ Note that granting certain access to untrusted users (such as SERVICE_CHANGE_CON
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Access+Control+Functions">Low-level Access Control Functions</a>
 
 
 

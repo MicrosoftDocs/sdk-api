@@ -143,7 +143,7 @@ Type: <b><a href="https://msdn.microsoft.com/c2b5863d-5773-4719-b1d0-2026f55fcef
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
@@ -157,7 +157,7 @@ Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 
-          For more info about using <b>CreateGeometryShaderWithStreamOutput</b>, see <a href="d3d10_graphics_programming_guide_output_stream_stage_getting_started.htm">Create a Geometry-Shader Object with Stream Output</a>.
+          For more info about using <b>CreateGeometryShaderWithStreamOutput</b>, see <a href="https://www.bing.com/search?q=Create+a+Geometry-Shader+Object+with+Stream+Output">Create a Geometry-Shader Object with Stream Output</a>.
         
 
 

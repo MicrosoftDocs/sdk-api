@@ -85,15 +85,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="mstv.idigitallocator_get_outerfecrate">get_OuterFECRate</a>
+<a href="https://www.bing.com/search?q=get_OuterFECRate">get_OuterFECRate</a>
 
 
 
-<a href="mstv.idigitallocator_put_innerfecrate">put_InnerFECRate</a>
+<a href="https://www.bing.com/search?q=put_InnerFECRate">put_InnerFECRate</a>
 
 
 
-<a href="mstv.idigitallocator_put_outerfec">put_OuterFEC</a>
+<a href="https://www.bing.com/search?q=put_OuterFEC">put_OuterFEC</a>
  
 
  

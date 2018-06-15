@@ -87,7 +87,7 @@ The value of this property is <b>NULL</b> if recognition has not been done or if
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

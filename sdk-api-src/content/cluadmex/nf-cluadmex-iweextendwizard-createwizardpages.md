@@ -66,9 +66,9 @@ Allows you to create wizard pages and add them to
 ### -param piData [in]
 
 
-<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard pages to be added. By calling 
-       <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> with the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -82,7 +82,7 @@ Allows you to create wizard pages and add them to
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="c_gly.htm">cluster object</a> for 
+Depending on the type of <a href="https://www.bing.com/search?q=cluster+object">cluster object</a> for 
        which the wizard page is being created, a pointer to one of the following interfaces is also available:
 
 <ul>
@@ -132,7 +132,7 @@ To add Wizard97 wizard pages, use the
 
 <ol>
 <li>Use <i>piData</i> to call 
-       <a href="_com_IUnknown_QueryInterface">QueryInterface</a> and retrieve an interface 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and retrieve an interface 
        pointer for the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 
@@ -140,7 +140,7 @@ To add Wizard97 wizard pages, use the
        extended, you should expect to receive errors when you attempt to call the methods.</li>
 <li>
 To create the page, call the function 
-       <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>. To produce pages 
+       <a href="https://www.bing.com/search?q=CreatePropertySheetPage">CreatePropertySheetPage</a>. To produce pages 
        that look like the pages provided by Cluster Administrator, each new property page should be no larger than 252 
        dialog units wide and 218 dialog units high, and should contain two standard controls:
 

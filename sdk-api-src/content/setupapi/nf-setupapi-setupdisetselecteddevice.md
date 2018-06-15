@@ -61,7 +61,7 @@ The <b>SetupDiSetSelectedDevice</b> function sets a device information element a
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element to set as the selected member of the device information set. 
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device information element to set as the selected member of the device information set. 
 
 
 ### -param DeviceInfoData [in]

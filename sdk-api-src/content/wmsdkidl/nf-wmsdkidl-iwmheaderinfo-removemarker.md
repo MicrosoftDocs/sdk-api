@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>RemoveMarker</b> method removes a <a href="wmformat_glossary.htm">marker</a> from the header section of the ASF file.
+The <b>RemoveMarker</b> method removes a <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">marker</a> from the header section of the ASF file.
 
 
 

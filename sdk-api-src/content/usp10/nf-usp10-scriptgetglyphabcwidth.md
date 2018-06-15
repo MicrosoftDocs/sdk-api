@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Retrieves the <a href="uniscribe_glossary.htm">ABC width</a> of a given glyph.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">ABC width</a> of a given glyph.
 
 
 ## -parameters

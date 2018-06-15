@@ -162,7 +162,7 @@ Use the <a href="https://msdn.microsoft.com/2682e7ba-dabd-497e-aea4-6d3f837f4f10
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

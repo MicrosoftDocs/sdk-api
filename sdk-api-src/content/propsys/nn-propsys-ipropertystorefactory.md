@@ -106,7 +106,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 
 
-<a href="shell.PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
+<a href="https://www.bing.com/search?q=PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
  
 
  

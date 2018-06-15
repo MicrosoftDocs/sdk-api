@@ -171,7 +171,7 @@ The flag is invalid.
 
 
 
-<a href="tablet.iinktablets">IInkTablets</a>
+<a href="https://www.bing.com/search?q=IInkTablets">IInkTablets</a>
 
 
 

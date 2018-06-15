@@ -126,7 +126,7 @@ For the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
 
 
 

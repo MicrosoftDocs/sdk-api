@@ -111,7 +111,7 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 
 
-<a href="database_functions.htm">Record Processing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
  
 
  

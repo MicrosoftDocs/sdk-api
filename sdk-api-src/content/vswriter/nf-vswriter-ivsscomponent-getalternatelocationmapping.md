@@ -192,7 +192,7 @@ Alternate location mappings are added to an
 <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> object by 
 <a href="https://msdn.microsoft.com/349ec124-f3f5-4142-8600-8d9f508c9bb2">IVssBackupComponents::AddAlternativeLocationMapping</a>.
 
-The caller must call <a href="_com_iunknown_release">IUnknown::Release</a> to release the system resources held by the <i>ppMapping</i> parameter when it is done with the 
+The caller must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the system resources held by the <i>ppMapping</i> parameter when it is done with the 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object that it points to.
 
 For more information on backup and restore file locations under VSS, see 

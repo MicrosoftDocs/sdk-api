@@ -93,7 +93,7 @@ If you change the panel by setting the <b>CurrentPanel</b> property before the <
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

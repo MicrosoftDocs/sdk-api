@@ -70,7 +70,7 @@ The text paragraph object to compare against.
 
 Type: <b>long*</b>
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that is <b>tomTrue</b> if the text paragraph objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
+A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that is <b>tomTrue</b> if the text paragraph objects have the same properties, or <b>tomFalse</b> if they don't. This parameter can be <b>NULL</b>. 
 
 
 ## -returns

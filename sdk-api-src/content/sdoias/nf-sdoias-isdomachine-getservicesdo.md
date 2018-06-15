@@ -70,7 +70,7 @@ Specifies a value from the <a href="https://msdn.microsoft.com/1eec69f9-b82e-48e
 ### -param bstrServiceName [in]
 
 Specifies a 
-      <a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> that contains the service 
+      <a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> that contains the service 
       name. This parameter is one of the following values.
 
 
@@ -91,10 +91,10 @@ Remote Access Server
 
 ### -param ppServiceSDO [out]
 
-Pointer to a pointer that points to an <a href="_com_iunknown">IUnknown</a> interface 
-      pointer. Use the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of this 
+Pointer to a pointer that points to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
+      pointer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
-      <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface for the 
+      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the 
       <a href="https://msdn.microsoft.com/c901ac9a-524a-498d-8b72-9afb26cf2c58">ISdoServiceControl</a> object.
 
 

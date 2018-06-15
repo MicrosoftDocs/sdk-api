@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt64">InitVariantFromInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromInt64">InitVariantFromInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromInt64">InitPropVariantFromInt64</a>
 
 
 
-<a href="shell.VariantToInt64">VariantToInt64</a>
+<a href="https://www.bing.com/search?q=VariantToInt64">VariantToInt64</a>
 
 
 
-<a href="shell.VariantToInt64WithDefault">VariantToInt64WithDefault</a>
+<a href="https://www.bing.com/search?q=VariantToInt64WithDefault">VariantToInt64WithDefault</a>
  
 
  

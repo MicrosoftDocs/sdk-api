@@ -93,7 +93,7 @@ Reserved for future use and is set to zero.
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
  
 
  

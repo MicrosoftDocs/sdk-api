@@ -63,7 +63,7 @@ Indicates whether the caller should use the <b>IPropertySetStorage</b> and <b>IP
 
 ### -field IFILTER_FLAGS_OLE_PROPERTIES
 
-The caller should use the <a href="_stg_ipropertysetstorage">IPropertySetStorage</a> and <a href="_stg_ipropertystorage">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="https://msdn.microsoft.com/5fb7219a-608c-43f8-a8e3-48bbf0218c6e">IFilter</a>.
+The caller should use the <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> and <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interfaces to locate additional properties. When this flag is set, properties available through COM enumerators should not be returned from <a href="https://msdn.microsoft.com/5fb7219a-608c-43f8-a8e3-48bbf0218c6e">IFilter</a>.
 
 
 ## -remarks
@@ -84,11 +84,11 @@ The <i>pdwFlags</i> parameter in the <a href="https://msdn.microsoft.com/5cb9b67
 
 
 
-<a href="_stg_ipropertysetstorage">IPropertySetStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
 
 
-<a href="_stg_ipropertystorage">IPropertyStorage</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
  
 
  

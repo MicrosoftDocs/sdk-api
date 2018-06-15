@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 The 
-<b>RasSetAutodialEnable</b> function enables or disables the AutoDial feature for a specified TAPI dialing location. For more information about TAPI dialing locations, see  <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a>  in the Platform Software Development Kit (SDK).
+<b>RasSetAutodialEnable</b> function enables or disables the AutoDial feature for a specified TAPI dialing location. For more information about TAPI dialing locations, see  <a href="https://www.bing.com/search?q=Telephony+Application+Programming+Interfaces+(TAPI)">Telephony Application Programming Interfaces (TAPI)</a>  in the Platform Software Development Kit (SDK).
 
 
 ## -parameters

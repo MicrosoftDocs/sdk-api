@@ -85,7 +85,7 @@ If the new position causes the panel to appear outside the boundary of the scree
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

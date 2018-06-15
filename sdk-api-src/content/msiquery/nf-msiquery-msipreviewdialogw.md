@@ -96,7 +96,7 @@ Supplying a null name in the
 
 
 
-<a href="database_functions.htm">User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">User Interface Functions</a>
  
 
  

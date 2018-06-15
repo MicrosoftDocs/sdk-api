@@ -63,13 +63,13 @@ The
 <a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>.
 
 For additional information, see 
-<a href="initiate_a_session_ovr.htm">Address Translation</a> and 
-<a href="address_ovr.htm">Dialable Addresses</a>.
+<a href="https://www.bing.com/search?q=Address+Translation">Address Translation</a> and 
+<a href="https://www.bing.com/search?q=Dialable+Addresses">Dialable Addresses</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -148,15 +148,15 @@ Invokes the control panel's telephony applet.
 
 
 
-<a href="initiate_a_session_ovr.htm">Address Translation</a>
+<a href="https://www.bing.com/search?q=Address+Translation">Address Translation</a>
 
 
 
-<a href="address_ovr.htm">Dialable Addresses</a>
+<a href="https://www.bing.com/search?q=Dialable+Addresses">Dialable Addresses</a>
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 

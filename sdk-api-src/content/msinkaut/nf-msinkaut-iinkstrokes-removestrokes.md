@@ -167,7 +167,7 @@ Unexpected parameter or property type.
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

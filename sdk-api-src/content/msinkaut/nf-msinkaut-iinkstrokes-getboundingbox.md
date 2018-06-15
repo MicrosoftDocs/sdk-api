@@ -167,7 +167,7 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

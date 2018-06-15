@@ -55,7 +55,7 @@ Defines additional methods that
     requesters can use to run backup and restore operations.
 
 To obtain an instance of the <b>IVssBackupComponentsEx2</b> 
-   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
+   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx2</b> constant as the interface identifier (IID) parameter.
 

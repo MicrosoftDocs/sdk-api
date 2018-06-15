@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-<a href="tablet.iinkrecognizerguide">IInkRecognizerGuide</a>
+<a href="https://www.bing.com/search?q=IInkRecognizerGuide">IInkRecognizerGuide</a>
 
 
 

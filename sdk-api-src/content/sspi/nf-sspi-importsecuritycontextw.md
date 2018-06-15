@@ -176,7 +176,7 @@ An error occurred that did not map to an SSPI error code.
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
  
 
  

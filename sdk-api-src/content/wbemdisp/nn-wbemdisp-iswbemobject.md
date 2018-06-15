@@ -69,7 +69,7 @@ The generic method and property names defined in this section always end with a 
 
 Note that 
 <b>SWbemObject</b> cannot be created using the VBScript 
-<a href="47dd01cb-9468-481e-be7e-55f69a744635">GetObject</a>.method. If you want to create a new, empty class use 
+<a href="https://msdn.microsoft.com/library/windows/desktop/47dd01cb-9468-481e-be7e-55f69a744635">GetObject</a>.method. If you want to create a new, empty class use 
 <a href="https://msdn.microsoft.com/3071aeb2-adab-47aa-a10c-9796766bb630">SWbemServices.Get</a> with an empty path parameter. This call returns an empty 
 <b>SWbemObject</b> object that can become a class. You can then supply a class name for the 
 <a href="https://msdn.microsoft.com/60123963-31be-4112-9d06-611b4c599fd4">Class</a> property of the 
@@ -117,7 +117,7 @@ WScript.Echo objInstancePath.Path
 </td>
 </tr>
 </table></span></div>
-  You can examine the repository with a viewing tool such as <a href="further_information.htm">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
+  You can examine the repository with a viewing tool such as <a href="https://www.bing.com/search?q=CIM+Studio">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
 
 
 ## -inheritance

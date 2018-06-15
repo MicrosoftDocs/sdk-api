@@ -87,7 +87,7 @@ An <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">Ink
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

@@ -124,7 +124,7 @@ The <b>Convert</b> button will be disabled on the general property page.
 
 ### -field lpPS
 
-Pointer to the standard property sheet header (<a href="_win32_PROPSHEETHEADER_cpp">PROPSHEETHEADER</a>), used for extensibility.
+Pointer to the standard property sheet header (<a href="https://www.bing.com/search?q=PROPSHEETHEADER">PROPSHEETHEADER</a>), used for extensibility.
 
 
 ### -field dwObject

@@ -131,7 +131,7 @@ The center point defaults to the origin.
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
 
 
 

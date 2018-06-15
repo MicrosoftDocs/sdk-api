@@ -85,7 +85,7 @@ The writing box provides a margin of error to users who write outside the drawn 
 
 
 
-<a href="tablet.iinkrecognizerguide">IInkRecognizerGuide</a>
+<a href="https://www.bing.com/search?q=IInkRecognizerGuide">IInkRecognizerGuide</a>
 
 
 

@@ -144,7 +144,7 @@ Calling <b>Refresh</b> while the pen input panel does not have focus will genera
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

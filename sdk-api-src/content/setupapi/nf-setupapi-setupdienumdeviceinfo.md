@@ -64,7 +64,7 @@ The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://msdn.micros
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for which to return an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents a device information element.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to return an <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">SP_DEVINFO_DATA</a> structure that represents a device information element.
 
 
 ### -param MemberIndex [in]

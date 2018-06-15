@@ -61,7 +61,7 @@ The <b>SetupDiCancelDriverInfoSearch</b> function cancels a driver list search t
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> for which a driver list is being built.
+A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which a driver list is being built.
 
 
 ## -returns

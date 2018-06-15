@@ -61,7 +61,7 @@ Notification method indicating that a query for the messages supported on a devi
 
 ### -param deviceService [in]
 
-The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the query was requested.
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the query was requested.
 
 
 ### -param commandIDList [in]

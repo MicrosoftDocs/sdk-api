@@ -116,7 +116,7 @@ The method failed.
 
 This method modifies the association database entry corresponding to the function instance from which the <a href="https://msdn.microsoft.com/52669dec-2fd7-4f3e-b322-e93d9da5984d">IPNPXDeviceAssociation</a> interface was obtained. 
 
-Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="function_discovery_glossary.htm">devnode</a>. Once the devnode has been created, the appropriate notification is sent. The following logic is used to determine the callback method used for notification:
+Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="https://www.bing.com/search?q=devnode">devnode</a>. Once the devnode has been created, the appropriate notification is sent. The following logic is used to determine the callback method used for notification:
 
 <ul>
 <li>If a PnP notification is received after the device is associated, then the <a href="https://msdn.microsoft.com/ab4d0fc6-de3f-49cf-b53c-573222a8bc89">IFunctionDiscoveryNotification::OnUpdate</a> method is called  with the <i>enumQueryUpdateAction</i> parameter set to  <b>QUA_ADD</b>. </li>

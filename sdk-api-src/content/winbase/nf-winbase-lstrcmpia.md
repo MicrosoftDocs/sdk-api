@@ -129,11 +129,11 @@ choice of comparison functions.
 
 
 
-<a href="winui._win32_CompareString">CompareString</a>
+<a href="https://www.bing.com/search?q=CompareString">CompareString</a>
 
 
 
-<a href="winui._win32_CompareStringEx">CompareStringEx</a>
+<a href="https://www.bing.com/search?q=CompareStringEx">CompareStringEx</a>
 
 
 

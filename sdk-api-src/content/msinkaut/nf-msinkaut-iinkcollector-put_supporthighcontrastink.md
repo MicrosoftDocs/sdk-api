@@ -91,7 +91,7 @@ Real-time ink application uses the COLOR_WINDOWTEXT color when the system is in 
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

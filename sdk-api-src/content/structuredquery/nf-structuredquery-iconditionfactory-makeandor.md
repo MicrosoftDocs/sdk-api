@@ -68,7 +68,7 @@ The <a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CO
 
 ### -param peuSubs [in]
 
-Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>*</b>
 
 A pointer to an enumeration of <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> objects, or <b>NULL</b> for an empty enumeration.
 

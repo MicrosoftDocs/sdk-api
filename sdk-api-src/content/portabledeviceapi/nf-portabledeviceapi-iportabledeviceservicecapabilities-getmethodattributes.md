@@ -83,7 +83,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-Possible attributes include the <a href="wpd_attributes.htm">WPD_METHOD_ATTRIBUTE_NAME</a>, <b>WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT</b>, <b>WPD_METHOD_ATTRIBUTE_ACCESS</b>, and <a href="wpd_method_attributes.htm">WPD_METHOD_ATTRIBUTE_PARAMETERS</a> properties.
+Possible attributes include the <a href="https://docs.microsoft.com/windows/desktop//wpd_sdk/wpd-attributes">WPD_METHOD_ATTRIBUTE_NAME</a>, <b>WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT</b>, <b>WPD_METHOD_ATTRIBUTE_ACCESS</b>, and <a href="https://docs.microsoft.com/windows/desktop//wpd_sdk/wpd-method-attributes">WPD_METHOD_ATTRIBUTE_PARAMETERS</a> properties.
       
 
 

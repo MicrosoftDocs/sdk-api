@@ -89,10 +89,10 @@ Reserved. This parameter must be 0.
 ### -param pVal [out]
 
 This <b>VARIANT</b> is filled with the value of the property. The method calls 
-       <a href="96aeb671-5528-4d3c-8e70-313716550b42">VariantInit</a> on this 
+       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> on this 
        <b>VARIANT</b>, so the caller should ensure that the <b>VARIANT</b> 
        is not active prior to the call. The caller must use 
-       <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when the value is no 
+       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when the value is no 
        longer required.
 
 You can set this parameter to <b>NULL</b> if the value is not required. If an error code 

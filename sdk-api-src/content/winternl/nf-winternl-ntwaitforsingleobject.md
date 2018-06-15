@@ -153,7 +153,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The wait was aborted to deliver a user <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Call (APC)</a> to the current thread.
+The wait was aborted to deliver a user <a href="https://docs.microsoft.com/windows/desktop//Sync/asynchronous-procedure-calls">Asynchronous Procedure Call (APC)</a> to the current thread.
 
 </td>
 </tr>

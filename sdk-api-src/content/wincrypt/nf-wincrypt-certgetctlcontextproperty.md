@@ -409,7 +409,7 @@ If the buffer specified by the <i>pvData</i> parameter is not large enough to ho
 
 
 
-<a href="cryptography_functions.htm">Extended Property Functions</a>
+<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
  
 
  

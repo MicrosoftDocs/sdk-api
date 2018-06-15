@@ -63,7 +63,7 @@ Defines the dimensions and style of a control in a dialog box. One or more of th
 
 Type: <b>DWORD</b>
 
-The style of the control. This member can be a combination of <a href="winui._win32_Window_Styles">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/aab0cd68-ede7-474b-8695-c75805669716">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
+The style of the control. This member can be a combination of <a href="https://www.bing.com/search?q=window+style+values">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/aab0cd68-ede7-474b-8695-c75805669716">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
 
 
 ### -field dwExtendedStyle

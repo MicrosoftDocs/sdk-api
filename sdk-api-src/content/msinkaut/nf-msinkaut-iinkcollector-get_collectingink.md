@@ -83,7 +83,7 @@ You can use the <b>CollectingInk</b> property to see if ink is being drawn on an
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

@@ -61,7 +61,7 @@ Inserts a change operation at the end of an array.
 
 ### -param ppropChange [in]
 
-Type: <b><a href="shell.IPropertyChange">IPropertyChange</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change.
 

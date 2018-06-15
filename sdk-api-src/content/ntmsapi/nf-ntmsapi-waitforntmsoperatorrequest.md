@@ -200,7 +200,7 @@ Typically, applications use the
 
 
 
-<a href="removable_storage_manager_functions.htm">Operator Request Functions</a>
+<a href="https://www.bing.com/search?q=Operator+Request+Functions">Operator Request Functions</a>
 
 
 

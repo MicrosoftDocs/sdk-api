@@ -98,7 +98,7 @@ Typically, an application that recognizes only one clipboard format would call t
 
 #### Examples
 
-For an example, see <a href="using_the_clipboard.htm">Pasting Information from the Clipboard</a>.
+For an example, see <a href="https://www.bing.com/search?q=Pasting+Information+from+the+Clipboard">Pasting Information from the Clipboard</a>.
 
 <div class="code"></div>
 

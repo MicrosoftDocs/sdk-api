@@ -83,7 +83,7 @@ When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Inpu
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

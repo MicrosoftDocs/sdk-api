@@ -93,21 +93,21 @@ This value must be <b>NULL</b> unless the swap chain was created with <a href="h
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Allows the application to request that the method return immediately when the driver reports that it cannot schedule a presentation. Valid values are 0, or any combination of <a href="d3dpresent.htm">D3DPRESENT_DONOTWAIT</a> or <a href="d3dpresent.htm">D3DPRESENT_LINEAR_CONTENT</a>.
+Allows the application to request that the method return immediately when the driver reports that it cannot schedule a presentation. Valid values are 0, or any combination of <a href="https://www.bing.com/search?q=D3DPRESENT_DONOTWAIT">D3DPRESENT_DONOTWAIT</a> or <a href="https://www.bing.com/search?q=D3DPRESENT_LINEAR_CONTENT">D3DPRESENT_LINEAR_CONTENT</a>.
     
 
 
 <ul>
 <li>If dwFlags = 0, this method behaves as it did prior to Direct3D 9. Present will spin until the hardware is free, without returning an error.</li>
-<li>If dwFlags = <a href="d3dpresent.htm">D3DPRESENT_DONOTWAIT</a>, and the hardware is busy processing or waiting for a vertical sync interval, the method will return D3DERR_WASSTILLDRAWING.</li>
-<li>If dwFlags = <a href="d3dpresent.htm">D3DPRESENT_LINEAR_CONTENT</a>, gamma correction is performed from linear space to sRGB for windowed swap chains. This flag will take effect only when the driver exposes <a href="https://msdn.microsoft.com/d9cd7388-3413-472d-aacb-0b8c9c60031a">D3DCAPS3_LINEAR_TO_SRGB_PRESENTATION</a> (see <a href="https://msdn.microsoft.com/d076140d-3e91-412a-b099-9baa52f8d7d8">Gamma (Direct3D 9)</a>). Appliations should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to fullscreen gamma behavior.</li>
+<li>If dwFlags = <a href="https://www.bing.com/search?q=D3DPRESENT_DONOTWAIT">D3DPRESENT_DONOTWAIT</a>, and the hardware is busy processing or waiting for a vertical sync interval, the method will return D3DERR_WASSTILLDRAWING.</li>
+<li>If dwFlags = <a href="https://www.bing.com/search?q=D3DPRESENT_LINEAR_CONTENT">D3DPRESENT_LINEAR_CONTENT</a>, gamma correction is performed from linear space to sRGB for windowed swap chains. This flag will take effect only when the driver exposes <a href="https://msdn.microsoft.com/d9cd7388-3413-472d-aacb-0b8c9c60031a">D3DCAPS3_LINEAR_TO_SRGB_PRESENTATION</a> (see <a href="https://msdn.microsoft.com/d076140d-3e91-412a-b099-9baa52f8d7d8">Gamma (Direct3D 9)</a>). Appliations should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to fullscreen gamma behavior.</li>
 </ul>
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_DEVICELOST, D3DERR_DRIVERINTERNALERROR, D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, E_OUTOFMEMORY.
 

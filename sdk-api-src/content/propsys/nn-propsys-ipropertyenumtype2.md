@@ -51,12 +51,12 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Exposes methods that extract data from enumeration information. <a href="shell.IPropertyEnumType2">IPropertyEnumType2</a> extends <a href="shell.IPropertyEnumType">IPropertyEnumType</a>.
+Exposes methods that extract data from enumeration information. <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype2">IPropertyEnumType2</a> extends <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType2</b> interface inherits from <a href="shell.IPropertyEnumType">IPropertyEnumType</a>. <b>IPropertyEnumType2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType2</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a>. <b>IPropertyEnumType2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,9 +85,9 @@ Retrieves the image reference associated with a property enumeration.
 
 
 
-This interface also provides the methods of the <a href="shell.IPropertyEnumType">IPropertyEnumType</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> interface, from which it inherits.
 
-For additional information, see <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.
+For additional information, see <a href="https://www.bing.com/search?q=enumeratedList">enumeratedList</a>.
 
 
 

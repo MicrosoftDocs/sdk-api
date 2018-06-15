@@ -83,7 +83,7 @@ You can also override the automatic positioning behavior of the <a href="https:/
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

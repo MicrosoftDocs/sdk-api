@@ -151,7 +151,7 @@ An exception occurred inside the method.
 
 
 
-<a href="tablet.iinkrectangle">IInkRectangle</a>
+<a href="https://www.bing.com/search?q=IInkRectangle">IInkRectangle</a>
 
 
 

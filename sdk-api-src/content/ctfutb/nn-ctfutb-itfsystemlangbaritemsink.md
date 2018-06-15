@@ -122,7 +122,7 @@ A system language bar menu is an object on the language bar that supports menu i
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

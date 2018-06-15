@@ -175,7 +175,7 @@ For more information on ink data, see <a href="https://msdn.microsoft.com/5a8c37
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

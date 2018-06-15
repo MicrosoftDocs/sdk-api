@@ -64,14 +64,14 @@ Notifies applications that hardware stretching is supported.
 
 Type: <b>UINT*</b>
 
-A bitfield of <a href="direct3ddxgi.dxgi_hardware_composition_support_flags">DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS</a> enumeration values describing which types of hardware composition are supported. The values are bitwise OR'd together.
+A bitfield of <a href="/windows/desktop/api/dxgi1_6/ne-dxgi1_6-dxgi_hardware_composition_support_flags">DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS</a> enumeration values describing which types of hardware composition are supported. The values are bitwise OR'd together.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns a code that indicates success or failure.
 
@@ -87,7 +87,7 @@ Returns a code that indicates success or failure.
 
 
 
-<a href="direct3ddxgi.dxgi_hardware_composition_support_flags">DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS enumeration</a>
+<a href="https://www.bing.com/search?q=DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS+enumeration">DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS enumeration</a>
 
 
 

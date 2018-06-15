@@ -75,7 +75,7 @@ A pointer to the
 ### -param ptd [in]
 
 A pointer to the 
-<a href="_ole_dvtargetdevice">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
 
 
 ## -returns
@@ -95,10 +95,10 @@ A pointer to the
 This function converts an OLE 1 object to an OLE 2 structured storage object. Use this function to update OLE 1 objects to OLE 2 objects when a new version of the object application supports OLE 2.
 
 On entry, the <i>lpolestm</i> parameter should be created and positioned just as it would be for an 
-<a href="_ole_oleloadfromstream">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
 
 For OLE 1 objects that use native data for their presentation, the 
-<b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="_ole_ioleobject_update">IOleObject::Update</a> to get the presentation data so it can be written to storage.
+<b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> to get the presentation data so it can be written to storage.
 
 Applications that do not use the OLE default caching resources, but use the conversion resources, can use an alternate function, 
 <a href="https://msdn.microsoft.com/2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f">OleConvertOLESTREAMToIStorageEx</a>, which can specify the presentation data to convert. In the 
@@ -143,11 +143,11 @@ hRes = OleLoad(pStgChild, &amp;IID_IOleObject, pClientSite, ppvObj);</pre>
 
 
 
-<a href="_com_coisole1class">CoIsOle1Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
 
 
 
-<a href="_ole_dvtargetdevice">DVTARGETDEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a>
 
 
 
@@ -163,11 +163,11 @@ hRes = OleLoad(pStgChild, &amp;IID_IOleObject, pClientSite, ppvObj);</pre>
 
 
 
-<a href="_ole_stgmedium">STGMEDIUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a>
 
 
 
-<a href="_ole_tymed">TYMED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagtymed">TYMED</a>
  
 
  

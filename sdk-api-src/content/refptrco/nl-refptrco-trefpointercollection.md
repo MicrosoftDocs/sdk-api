@@ -75,7 +75,7 @@ The <b>TRefPointerCollection</b> class is a container
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an item to a collection and calls the <a href="_com_iunknown_addref">AddRef</a> 
+Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count.
 
 </td>
@@ -113,7 +113,7 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
 </td>
 <td align="left" width="63%">
-Gets next item from the list and calls the <a href="_com_iunknown_addref">AddRef</a> 
+Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
      each time.)
 
@@ -153,7 +153,7 @@ The <b>TRefPointerCollection</b> class has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an item to a collection and calls the <a href="_com_iunknown_addref">AddRef</a> 
+Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count.
 
 </td>
@@ -191,7 +191,7 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
 </td>
 <td align="left" width="63%">
-Gets next item from the list and calls the <a href="_com_iunknown_addref">AddRef</a> 
+Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
      each time.)
 
@@ -215,7 +215,7 @@ Constructs a new <b>TRefPointerCollection</b> object.
 
 </td>
 </tr>
-</table>Adds an item to a collection and calls the <a href="_com_iunknown_addref">AddRef</a> 
+</table>Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count.
 
 Begins an enumeration of a collection. Call this method with the cursor to be initialized as a parameter 
@@ -225,7 +225,7 @@ Empties out the list, releasing all held pointers.
 
 Ends enumeration of a collection. Call this method when the enumerating operation is finished.
 
-Gets next item from the list and calls the <a href="_com_iunknown_addref">AddRef</a> 
+Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
      method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
      each time.)
 

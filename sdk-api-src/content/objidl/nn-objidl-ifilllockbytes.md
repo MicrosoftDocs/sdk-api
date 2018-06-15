@@ -120,15 +120,15 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="ie.BINDINFO_Structure">BINDINFO</a>
+<a href="https://www.bing.com/search?q=BINDINFO">BINDINFO</a>
 
 
 
-<a href="_com_iconnectionpoint">IConnectionPoint</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
@@ -136,7 +136,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="_com_iprogressnotify">IProgressNotify</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
 
 
 

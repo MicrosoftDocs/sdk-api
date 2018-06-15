@@ -116,7 +116,7 @@ The .idl file is compiled with the <a href="https://msdn.microsoft.com/dc5cafbb-
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="midl._oi">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
+The .idl file is compiled with the <a href="https://www.bing.com/search?q=/0i">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
 
 </td>
 </tr>

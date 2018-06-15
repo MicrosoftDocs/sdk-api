@@ -193,7 +193,7 @@ For the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0
 
 
 
-<a href="tablet.iinkcollector">IInkCollector</a>
+<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
 
 
 

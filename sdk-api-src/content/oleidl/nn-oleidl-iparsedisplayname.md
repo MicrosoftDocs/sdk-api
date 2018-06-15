@@ -105,7 +105,7 @@ Parses the specified display name and creates a corresponding moniker.
 
 
 
-<a href="_inet_MkParseDisplayNameEx_Function_cpp">MkParseDisplayNameEx</a>
+<a href="https://www.bing.com/search?q=MkParseDisplayNameEx">MkParseDisplayNameEx</a>
  
 
  

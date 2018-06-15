@@ -89,7 +89,7 @@ If the new position of the <a href="https://msdn.microsoft.com/ad63302e-b386-4b3
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
 
 
 

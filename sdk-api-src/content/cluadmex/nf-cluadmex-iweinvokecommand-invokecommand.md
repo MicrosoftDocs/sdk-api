@@ -72,9 +72,9 @@ Identifier of the menu item containing the command to perform. The identifier re
 ### -param piData [in]
 
 
-<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information associated with the 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information associated with the 
        command identified by <i>nCommandID</i>. By calling the 
-       <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method with the <i>piData</i> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method with the <i>piData</i> 
        pointer, the following interfaces are available:
 
 <ul>
@@ -88,7 +88,7 @@ Identifier of the menu item containing the command to perform. The identifier re
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="c_gly.htm">cluster object</a> to 
+Depending on the type of <a href="https://www.bing.com/search?q=cluster+object">cluster object</a> to 
        which the context menu item applies, a pointer to one of the following interfaces is also available:
 
 <ul>

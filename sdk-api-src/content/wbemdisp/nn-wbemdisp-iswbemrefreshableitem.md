@@ -187,7 +187,7 @@ Represents the parent
 
 
 The VBScript method 
-<a href="a953c6b8-88b3-45c4-93ca-6813c5385675">GetObject</a> cannot be used to create 
+<a href="https://msdn.microsoft.com/library/windows/desktop/a953c6b8-88b3-45c4-93ca-6813c5385675">GetObject</a> cannot be used to create 
 <b>SWbemRefreshableItem</b> objects directly.
 
 

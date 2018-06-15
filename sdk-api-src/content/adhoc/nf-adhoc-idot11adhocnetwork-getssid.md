@@ -62,7 +62,7 @@ Gets the SSID of the network.
 
 The SSID of the network.
 
-You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
+You must free this string using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 

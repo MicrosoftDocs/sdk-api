@@ -260,7 +260,7 @@ Places the menu item on a new line (for a menu bar) or in a new column (for a dr
 </dl>
 </td>
 <td width="60%">
-Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
+Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
 						<b>dwTypeData</b>   member contains an application-defined value.
 
 </td>
@@ -546,7 +546,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A bitmap that is drawn by the window that owns the menu. The application must process the <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> and <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> messages.
+A bitmap that is drawn by the window that owns the menu. The application must process the <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> and <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> messages.
 
 </td>
 </tr>
@@ -706,11 +706,11 @@ The <b>MENUITEMINFO</b> structure is used with the <a href="https://msdn.microso
 
 
 
-<a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a>
+<a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a>
 
 
 
-<a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a>
+<a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a>
  
 
  

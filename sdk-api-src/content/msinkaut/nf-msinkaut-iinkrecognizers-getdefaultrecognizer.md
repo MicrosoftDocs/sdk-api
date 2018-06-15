@@ -171,7 +171,7 @@ For more information about NLS, see <a href="https://msdn.microsoft.com/daf929b2
 
 
 
-<a href="tablet.iinkrecognizers">IInkRecognizers</a>
+<a href="https://www.bing.com/search?q=IInkRecognizers">IInkRecognizers</a>
 
 
 

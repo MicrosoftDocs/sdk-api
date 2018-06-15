@@ -128,7 +128,7 @@ The cookie in <i>ec</i> is invalid.
 
 
 
-<a href="ranges.htm">Anchor Gravity</a>
+<a href="https://www.bing.com/search?q=Anchor+Gravity">Anchor Gravity</a>
 
 
 

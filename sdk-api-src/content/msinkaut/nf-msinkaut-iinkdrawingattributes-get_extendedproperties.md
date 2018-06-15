@@ -78,7 +78,7 @@ Applications can use the ExtendedProperties property to access the custom data t
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

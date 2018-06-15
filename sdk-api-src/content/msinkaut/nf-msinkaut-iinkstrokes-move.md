@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
 
 
 

@@ -148,7 +148,7 @@ Insufficient memory to complete the operation.
 
 
 
-First, free any memory that is owned by pvargDest, such as <a href="28741D81-8404-4F85-95D3-5C209EC13835">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
+First, free any memory that is owned by pvargDest, such as <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear.md">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
 
 If pvargSrc is a VT_BSTR, a copy of the string is made. If pvargSrcis a VT_ARRAY, the entire array is copied. If pvargSrc is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count.
 

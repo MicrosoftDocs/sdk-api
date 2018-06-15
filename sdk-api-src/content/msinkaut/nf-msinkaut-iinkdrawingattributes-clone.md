@@ -185,7 +185,7 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://www.bing.com/search?q=IInkDrawingAttributes">IInkDrawingAttributes</a>
 
 
 

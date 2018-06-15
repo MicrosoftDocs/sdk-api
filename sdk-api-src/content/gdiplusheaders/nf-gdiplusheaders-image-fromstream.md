@@ -62,14 +62,14 @@ The <b>Image::FromStream</b> method creates a new
 
 ### -param stream [in]
 
-Type: <b><a href="_stg_istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to an 
-					<a href="_stg_istream">IStream</a> interface. The implementation of 
+					<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface. The implementation of 
 					IStream must include the 
-					<a href="_stg_istream_seek">IStream::Seek</a>, 
+					<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>, 
 					<b>Read</b>, and 
-					<a href="_stg_istream_stat">IStream::Stat</a> methods. 
+					<a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> methods. 
 
 
 ### -param useEmbeddedColorManagement [in]
@@ -106,7 +106,7 @@ This method returns a pointer to the new
 
 
 
-<a href="_stg_istream">IStream</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
@@ -130,7 +130,7 @@ This method returns a pointer to the new
 
 
 
-<a href="_stg_stgopenstorage">StgOpenStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>
  
 
  
