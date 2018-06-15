@@ -2,7 +2,7 @@
 UID: NA:authz
 ms.assetid: 09b42913-d051-3d7b-818e-5593f803d25c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: security
 ## -description
 
 
-This header is used by Security and Identity. For more information, see:
+This header is used by security. For more information, see:
 
-- [Security and Identity](../_security/index.md)
+- [Authentication](../_security/index.md)

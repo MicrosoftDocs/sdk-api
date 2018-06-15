@@ -129,7 +129,7 @@ After calling
 
 
 
-<a href="https://www.bing.com/search?q=Change+Detection+Functions">Change Detection Functions</a>
+<a href="removable_storage_manager_functions.htm">Change Detection Functions</a>
 
 
 

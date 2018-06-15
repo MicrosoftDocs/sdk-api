@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-      Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+      Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 
 ## -parameters
@@ -89,10 +89,10 @@ Type: <b>LPWSTR*</b>
 
 ### -param pValue [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 
-          Receives the associated <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> value, or <b>VT_EMPTY</b> if not available. This parameter can be <b>NULL</b>.
+          Receives the associated <a href="_stg_propvariant">PROPVARIANT</a> value, or <b>VT_EMPTY</b> if not available. This parameter can be <b>NULL</b>.
         
 
 

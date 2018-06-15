@@ -223,7 +223,7 @@ An error is not returned if a request or list of requests is not found.
 
 
 
-<a href="https://www.bing.com/search?q=Library+Control+Functions">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

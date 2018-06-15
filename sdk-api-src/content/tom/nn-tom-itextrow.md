@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextRow</b> interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call <a href="/windows/desktop/api/tom/nf-tom-itextrow-insert">ITextRow::Insert</a> for each different row configuration. 
+The <b>ITextRow</b> interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call <a href="itextrow_insert.htm">ITextRow::Insert</a> for each different row configuration. 
 
 
 ## -inheritance
@@ -492,12 +492,12 @@ Sets whether this row has right-to-left orientation.
 
 To select a table, a row, or a cell, use <a href="https://msdn.microsoft.com/67319d45-4ed3-4413-a725-8acb8666b7f3">ITextRange::Expand</a>, with the <i>Unit</i> parameter set to <b>tomTable</b>, <b>tomRow</b>, or <b>tomCell</b>, respectively. These units can also be used with the <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">ITextRange::Move</a> methods to navigate and select multiple rows or cells.
 
-Some of the <b>ITextRow</b> properties apply to the whole row, such as the row alignment. In addition, there are a number of properties, such as cell alignment, that apply to a cell with the index set via the <a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellindex">ITextRow::SetCellIndex</a> method. This cell is referred to as the active cell.
+Some of the <b>ITextRow</b> properties apply to the whole row, such as the row alignment. In addition, there are a number of properties, such as cell alignment, that apply to a cell with the index set via the <a href="itextrow_setcellindex.htm">ITextRow::SetCellIndex</a> method. This cell is referred to as the active cell.
 
 
-<b>ITextRow</b> works similarly to <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>, but doesn't modify the document until either the <a href="/windows/desktop/api/tom/nf-tom-itextrow-apply">ITextRow::Apply</a> or <a href="/windows/desktop/api/tom/nf-tom-itextrow-insert">ITextRow::Insert</a> methods are called. In addition, the row and cell parameters are always active, that is, they cannot have the value <b>tomDefault</b>.
+<b>ITextRow</b> works similarly to <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>, but doesn't modify the document until either the <a href="itextrow_apply.htm">ITextRow::Apply</a> or <a href="itextrow_insert.htm">ITextRow::Insert</a> methods are called. In addition, the row and cell parameters are always active, that is, they cannot have the value <b>tomDefault</b>.
 
-On initialization, the <b>ITextRow</b> object acquires the table row properties, if any, at the active end of the associated <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>. The <a href="/windows/desktop/api/tom/nf-tom-itextrow-reset">ITextRow::Reset</a> method can be used to update these properties to the current values for <b>ITextRange2</b> object.
+On initialization, the <b>ITextRow</b> object acquires the table row properties, if any, at the active end of the associated <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>. The <a href="itextrow_reset.htm">ITextRow::Reset</a> method can be used to update these properties to the current values for <b>ITextRange2</b> object.
 
 
 A rich edit control table consists of a sequence of table rows, which, in turn, consist of sequences of paragraphs. A table row starts with the special two-character delimiter paragraph U+FFF9 U+000D and ends with the two-character delimiter paragraph U+FFFB U+000D. Each cell is terminated by the cell mark U+0007, which is treated as a hard end-of-paragraph mark just as U+000D (CR) is. The table row and cell parameters are treated as special paragraph formatting of the table-row delimiters. The cell parameters are stored in an expanded version of the tabs array. This format allows tables to be nested within other tables and is allowed to go fifteen levels deep.

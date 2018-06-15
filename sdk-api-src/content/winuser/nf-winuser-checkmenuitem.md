@@ -166,7 +166,7 @@ The <i>uIDCheckItem</i> parameter identifies a item that opens a submenu or a co
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Simulating+Check+Boxes+in+a+Menu">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 

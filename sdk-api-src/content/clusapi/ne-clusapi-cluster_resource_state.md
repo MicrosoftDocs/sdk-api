@@ -54,7 +54,7 @@ req.irql:
 Describes the operational condition of a resource. These values are used by the 
     <a href="https://msdn.microsoft.com/c3897c96-743e-4753-8fef-b8defe4f2b00">GetClusterResourceState</a> function, the 
     <b>State</b> property of the 
-    <a href="https://www.bing.com/search?q=MSCluster_Resource">MSCluster_Resource</a> class, and the 
+    <a href="mscs.mscluster_resource">MSCluster_Resource</a> class, and the 
     <a href="https://msdn.microsoft.com/3bae66a8-cc45-49e6-acea-c506623b25bc">State</a> property of the 
     <a href="https://msdn.microsoft.com/c1b66495-c428-4ee4-94e2-263fd31f61ad">ClusResource</a> object.
 
@@ -92,7 +92,7 @@ The resource is not operational.
 
 ### -field ClusterResourceFailed
 
-The resource has <a href="https://www.bing.com/search?q=failed">failed</a>.
+The resource has <a href="f_gly.htm">failed</a>.
 
 
 ### -field ClusterResourcePending
@@ -132,7 +132,7 @@ The resource is in the process of going offline.
 
 
 
-<a href="https://www.bing.com/search?q=MSCluster_Resource">MSCluster_Resource</a>
+<a href="mscs.mscluster_resource">MSCluster_Resource</a>
 
 
 

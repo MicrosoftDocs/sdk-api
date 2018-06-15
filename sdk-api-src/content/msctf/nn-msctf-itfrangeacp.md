@@ -100,7 +100,7 @@ Sets the application character position and length of the range object.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

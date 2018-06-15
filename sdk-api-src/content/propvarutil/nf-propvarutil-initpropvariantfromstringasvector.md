@@ -95,7 +95,7 @@ If <i>psz</i> is <b>NULL</b> or contains no values, the <a href="https://msdn.mi
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -122,19 +122,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromStringArray">InitVariantFromStringArray</a>
+<a href="shell.InitVariantFromStringArray">InitVariantFromStringArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
  
 
  

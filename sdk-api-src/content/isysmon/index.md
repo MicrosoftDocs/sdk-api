@@ -2,7 +2,7 @@
 UID: NA:isysmon
 ms.assetid: 3ac65e31-6a89-3725-a3ff-b89ea7a661d5
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: sysmon
 ## -description
 
 
-This header is used by System Monitor. For more information, see:
+This header is used by sysmon. For more information, see:
 
 - [System Monitor](../_sysmon/index.md)

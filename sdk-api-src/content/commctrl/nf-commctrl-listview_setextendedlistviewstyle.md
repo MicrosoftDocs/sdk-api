@@ -89,7 +89,7 @@ For backward compatibility reasons, the <b>ListView_SetExtendedListViewStyle</b>
 <i>dwExMask</i>. To use the <i>dwExMask</i>
 value, use the <a href="https://msdn.microsoft.com/1beb06dc-060b-40d8-969c-fb0dfeac2861">ListView_SetExtendedListViewStyleEx</a> macro. 
 
-When you use this macro to set the <a href="https://www.bing.com/search?q=LVS_EX_CHECKBOXES">LVS_EX_CHECKBOXES</a> style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the 
+When you use this macro to set the <a href="Extended_list_view_styles.htm">LVS_EX_CHECKBOXES</a> style, any previously set state image index will be discarded. All check boxes will be initialized to the unchecked state. The state image index is contained in bits 12 through 15 of the 
 <b>state</b> member of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure.
 
 

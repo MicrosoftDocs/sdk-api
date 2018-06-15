@@ -2,7 +2,7 @@
 UID: NA:vmgenerationcounter
 ms.assetid: c9a85bb9-c109-36da-9be3-f8ea5a305a83
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: hyperv
 ## -description
 
 
-This header is used by Hyper-V management. For more information, see:
+This header is used by hyperv. For more information, see:
 
 - [Hyper-V management](../_hyperv/index.md)

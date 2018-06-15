@@ -2,7 +2,7 @@
 UID: NA:sensorsapi
 ms.assetid: 0e81ac43-89f3-3837-b085-d06594f4d8c9
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winsensors
 ## -description
 
 
-This header is used by Sensor API. For more information, see:
+This header is used by winsensors. For more information, see:
 
 - [Sensor API](../_winsensors/index.md)

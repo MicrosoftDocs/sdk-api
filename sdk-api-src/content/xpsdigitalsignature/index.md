@@ -2,7 +2,7 @@
 UID: NA:xpsdigitalsignature
 ms.assetid: b9a89344-8d0e-3f8a-b2ae-fb24c57e6061
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: xps
 ## -description
 
 
-This header is used by XPS Documents. For more information, see:
+This header is used by xps. For more information, see:
 
-- [XPS Documents](../_xps/index.md)
+- [Documents and Printing](../_xps/index.md)

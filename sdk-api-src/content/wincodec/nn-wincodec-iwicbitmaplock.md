@@ -114,7 +114,7 @@ Provides access to the <a href="https://docs.microsoft.com/">stride</a> value fo
 
 The bitmap lock is simply an abstraction for a rectangular memory window into the bitmap. For the simplest case, a system memory bitmap, this is simply a pointer to the top left corner of the rectangle and a stride value.
 
-To release the exclusive lock set by <a href="https://msdn.microsoft.com/2ab25a00-c89c-4a2c-8e12-8ce81cc21bca">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
+To release the exclusive lock set by <a href="https://msdn.microsoft.com/2ab25a00-c89c-4a2c-8e12-8ce81cc21bca">Lock</a> method and the associated <b>IWICBitmapLock</b> object, call <a href="_com_IUnknown_Release">IUnknown::Release</a> on the <b>IWICBitmapLock</b> object.
 
 
 

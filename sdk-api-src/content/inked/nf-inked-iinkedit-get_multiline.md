@@ -85,7 +85,7 @@ You can also add scroll bars to a larger <a href="https://msdn.microsoft.com/527
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

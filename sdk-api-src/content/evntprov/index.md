@@ -2,7 +2,7 @@
 UID: NA:evntprov
 ms.assetid: c5b8418f-4606-34af-bf66-6b8a29ff997b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: etw
 ## -description
 
 
-This header is used by Event Tracing. For more information, see:
+This header is used by etw. For more information, see:
 
 - [Event Tracing](../_etw/index.md)

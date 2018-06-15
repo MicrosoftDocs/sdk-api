@@ -119,7 +119,7 @@ An <b>ICspStatus</b> object contains information about a  cryptographic provider
 
 Because cryptographic providers typically support more than one algorithm, multiple <b>ICspStatus</b> objects may be created and returned when you call any of the preceding properties or methods that return a collection. This is shown by the following  illustration:
 
-<img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="/images/ICSPStatuses.png"/>
+<img alt="Structure of the ICspStatuses collection showing individual ICspStatus objects" src="images/ICSPStatuses.png"/>
 
 You can use the <a href="https://msdn.microsoft.com/56798477-ec12-47b6-a226-d20258677033">EnrollmentStatus</a> property on an <b>ICspStatus</b> object to retrieve an <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> object that defines the following properties:<ul>
 <li>The <a href="https://msdn.microsoft.com/library/windows/hardware/dn915285">Display</a> property specifies whether the provider/algorithm pair can be displayed in a user interface.</li>
@@ -131,7 +131,7 @@ You can use the <a href="https://msdn.microsoft.com/56798477-ec12-47b6-a226-d202
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspStatus</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICspStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -243,7 +243,7 @@ Specifies or retrieves the  position of the <b>ICspStatus</b> object in the <a h
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

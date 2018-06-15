@@ -96,7 +96,7 @@ Returns a minus one (–1) if the comparison time is before the <b>ThisUpdate</b
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

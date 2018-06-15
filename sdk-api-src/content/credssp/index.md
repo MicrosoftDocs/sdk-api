@@ -2,7 +2,7 @@
 UID: NA:credssp
 ms.assetid: 8421293d-4194-3d01-9cf0-93f8ed853f1b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: security
 ## -description
 
 
-This header is used by Security and Identity. For more information, see:
+This header is used by security. For more information, see:
 
-- [Security and Identity](../_security/index.md)
+- [Authentication](../_security/index.md)

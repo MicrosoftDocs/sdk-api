@@ -88,7 +88,7 @@ The <b>IProtocolHandlerSite</b> interface has these methods.
 
 
 
-When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">IProtocolHandlerSite::GetFilter</a> method.
+When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="search._search_IProtocolHandlerSite_GetFilter">IProtocolHandlerSite::GetFilter</a> method.
 
 
 

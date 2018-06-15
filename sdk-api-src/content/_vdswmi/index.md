@@ -2,7 +2,7 @@
 UID: TP:vdswmi
 ms.assetid: ae6821c9-59eb-3c66-aea2-099b0d06ded4
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,6 +18,4 @@ Overview of the Storage Volume Provider technology.
 
 The Storage Volume Provider technology is not associated with any headers.
 
-For programming guidance for this technology, see:
-* [Storage Volume Provider](/previous-versions/windows/desktop/vdswmi)
-
+For the programming guide, see [Storage Volume Provider](/previous-versions/windows/desktop/vdswmi).

@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[CStdStubBuffer_Connect is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_Connect</b> function implements the  <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
+The <b>CStdStubBuffer_Connect</b> function implements the  <a href="_com_irpcstubbuffer_connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ The <b>CStdStubBuffer_Connect</b> function implements the  <a href="/windows/des
 
 ### -param This [in]
 
-Pointer to  the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the server object. 
+Pointer to the <a href="_com_iunknown">IUnknown</a> interface of the server object. 
 
 
 ## -returns

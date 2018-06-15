@@ -2,7 +2,7 @@
 UID: NA:mscat
 ms.assetid: 0ccc0ad4-1626-30c5-b59d-db12f260faa0
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: security
 ## -description
 
 
-This header is used by Security and Identity. For more information, see:
+This header is used by security. For more information, see:
 
-- [Security and Identity](../_security/index.md)
+- [Authentication](../_security/index.md)

@@ -2,7 +2,7 @@
 UID: NA:imapi2
 ms.assetid: 42aa506c-a1cb-335a-8128-9e13f3895e8e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: imapi
 ## -description
 
 
-This header is used by Image Mastering API. For more information, see:
+This header is used by imapi. For more information, see:
 
 - [Image Mastering API](../_imapi/index.md)

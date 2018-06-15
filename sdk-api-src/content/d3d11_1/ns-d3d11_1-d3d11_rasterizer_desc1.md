@@ -152,7 +152,7 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 <li>Don't bind depth-stencil views.</li>
 <li>Disable depth testing.</li>
 <li>Ensure the shader doesn't output depth.</li>
-<li>If you have any render-target views bound (<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
+<li>If you have any render-target views bound (<a href="d3d11_bind_flag.htm">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
 <li>Don't operate the shader at sample frequency. Therefore, <a href="https://msdn.microsoft.com/e57cdb67-90b6-4d5d-967b-5de3a9bbaf78">ID3D11ShaderReflection::IsSampleFrequencyShader</a> returns <b>FALSE</b>.</li>
 </ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f">Configuring Depth-Stencil Functionality</a>.</div>
 <div> </div>
@@ -217,7 +217,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 </table>
  
 
-<div class="alert"><b>Note</b>  For <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
+<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
 <div> </div>
 
 <table>
@@ -251,7 +251,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 
 
-The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
+The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
 
 
 

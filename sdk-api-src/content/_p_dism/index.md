@@ -2,7 +2,7 @@
 UID: TP:p_dism
 ms.assetid: ea4ea73b-c9ad-330f-a31a-b0c80151437e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

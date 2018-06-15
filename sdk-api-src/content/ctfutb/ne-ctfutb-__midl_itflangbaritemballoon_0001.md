@@ -79,13 +79,13 @@ This balloon style is used to indicate that a command was not recognized.
 
 The following image shows an example of a balloon with the TF_LB_BALLOON_RECO style. 
 
-<img alt="TF_LB_BALLOON_RECO balloon" border="border" src="/images/Balloon_RECO.gif"/>
+<img alt="TF_LB_BALLOON_RECO balloon" border="border" src="images/Balloon_RECO.gif"/>
 The following image shows an example of a balloon with the TF_LB_BALLOON_SHOW style. 
 
-<img alt="TF_LB_BALLOON_SHOW balloon" border="border" src="/images/Balloon_SHOW.gif"/>
+<img alt="TF_LB_BALLOON_SHOW balloon" border="border" src="images/Balloon_SHOW.gif"/>
 The following image shows an example of a balloon with the TF_LB_BALLOON_MISS style. 
 
-<img alt="TF_LB_BALLOON_MISS balloon" border="border" src="/images/Balloon_MISS.gif"/>
+<img alt="TF_LB_BALLOON_MISS balloon" border="border" src="images/Balloon_MISS.gif"/>
 
 
 

@@ -277,7 +277,7 @@ If the service requires more time to clean up, it should send <b>STOP_PENDING</b
 
 
 
-Services can also use the <a href="https://www.bing.com/search?q=SetConsoleCtrlHandler">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
+Services can also use the <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
 
 
 #### Examples

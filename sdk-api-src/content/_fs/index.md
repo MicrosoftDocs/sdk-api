@@ -2,7 +2,7 @@
 UID: TP:fs
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -35,10 +35,4 @@ To develop Data Access and Storage, you need these headers:
  * [winefs.h](../winefs/index.md)
  * [wofapi.h](../wofapi/index.md)
 
-For programming guidance for this technology, see:
-* [Removable Storage Manager](/windows/desktop/Rsm)
-* [Common Log File System](/windows/desktop/Clfs)
-* [Local File Systems](/windows/desktop/FileIO)
-* [Kernel Transaction Manager](/windows/desktop/Ktm)
-* [Network Share Management](/windows/desktop/NetShare)
-
+For the programming guide, see [Data Access and Storage](/windows/desktop/fs).

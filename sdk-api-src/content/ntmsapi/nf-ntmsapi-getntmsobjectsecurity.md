@@ -222,7 +222,7 @@ RSM security uses the standard security descriptors and information members. Thi
 
 
 
-<a href="https://www.bing.com/search?q=Object+Management+Functions">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
 
 
 

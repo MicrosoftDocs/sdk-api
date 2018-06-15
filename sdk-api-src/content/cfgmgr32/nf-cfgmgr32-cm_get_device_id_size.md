@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Device_ID_Size</b> function retrieves the buffer size required to hold a <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on the local machine.
+The <b>CM_Get_Device_ID_Size</b> function retrieves the buffer size required to hold a <a href="devinst.device_instance_ids">device instance ID</a> for a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on the local machine.
 
 
 ## -parameters

@@ -90,7 +90,7 @@ Applies a change to a property value.
 
 
 
-<a href="https://www.bing.com/search?q=PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
+<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
  
 
  

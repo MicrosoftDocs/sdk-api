@@ -102,7 +102,7 @@ The cursor is not shown on the screen if the internal cursor display count is le
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Displaying+a+Cursor">Displaying a Cursor</a>.
+For an example, see <a href="using_cursors.htm">Displaying a Cursor</a>.
 
 <div class="code"></div>
 

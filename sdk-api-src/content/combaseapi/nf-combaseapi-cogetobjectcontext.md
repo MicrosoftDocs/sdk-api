@@ -137,7 +137,7 @@ Before this function can be called, the <a href="https://msdn.microsoft.com/ffb7
 
 For components running within COM applications, the following interfaces are supported for accessing context properties: <a href="https://msdn.microsoft.com/fa4c7d82-ec5d-43d6-914e-bba60ad19aa2">IComThreadingInfo</a>, <a href="https://msdn.microsoft.com/89c41d9c-186c-4927-990d-92aa501f7d35">IContext</a>, and <a href="https://msdn.microsoft.com/47af7b80-3419-4a40-8932-a5a27f297dc9">IContextCallback</a>.
 
-For components running within COM+ applications, the following interfaces are supported for accessing context properties: <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>, <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextactivity">IObjectContextActivity</a>, <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>, and <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>.
+For components running within COM+ applications, the following interfaces are supported for accessing context properties: <a href="_cos_IObjectContext">IObjectContext</a>, <a href="_cos_IObjectContextActivity">IObjectContextActivity</a>, <a href="_cos_IObjectContextInfo">IObjectContextInfo</a>, and <a href="_cos_IContextState">IContextState</a>.
 
 
 
@@ -147,7 +147,7 @@ For components running within COM+ applications, the following interfaces are su
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//cossdk/com--contexts-and-threading-models">Contexts and Threading Models</a>
+<a href="_cos_Contexts">Contexts and Threading Models</a>
  
 
  

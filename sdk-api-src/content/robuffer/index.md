@@ -2,7 +2,7 @@
 UID: NA:robuffer
 ms.assetid: d7bf6782-77e1-3cac-9e7c-7e1d4cd2f36e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winrt
 ## -description
 
 
-This header is used by Windows Runtime C++ reference. For more information, see:
+This header is used by winrt. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)

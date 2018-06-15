@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 The <b>CertGetIssuerCertificateFromStore</b> function retrieves the certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> for the first or next issuer of the specified subject certificate. The new 
-<a href="https://www.bing.com/search?q=Certificate+Chain+Verification+Functions">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
 
 
 ## -parameters
@@ -236,7 +236,7 @@ The hexadecimal values for <i>dwFlags</i> can be combined using a bitwise-<b>OR<
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Functions">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

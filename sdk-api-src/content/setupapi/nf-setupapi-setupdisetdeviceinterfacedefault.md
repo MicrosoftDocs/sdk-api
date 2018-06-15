@@ -61,7 +61,7 @@ The <b>SetupDiSetDeviceInterfaceDefault</b> function sets a device interface as 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device interface to set as the default for a device interface class. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface to set as the default for a device interface class. 
 
 
 ### -param DeviceInterfaceData [in, out]

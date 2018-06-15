@@ -2,7 +2,7 @@
 UID: TP:vpc
 ms.assetid: dd7271cc-ebc1-369a-9ee2-f14414a4a2f6
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,4 @@ Overview of the Windows Virtual PC technology.
 
 The Windows Virtual PC technology is not associated with any headers.
 
-For programming guidance for this technology, see:
-* [Windows Virtual PC](/windows/desktop/vpc)
-
+For the programming guide, see [Windows Virtual PC](/windows/desktop/vpc).

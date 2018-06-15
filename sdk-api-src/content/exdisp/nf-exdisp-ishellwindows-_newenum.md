@@ -63,7 +63,7 @@ Retrieves an enumerator for the collection of Shell windows.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
-When this method returns, contains an interface pointer to an object that implements the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
+When this method returns, contains an interface pointer to an object that implements the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface.
 
 
 ## -returns

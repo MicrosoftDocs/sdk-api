@@ -81,7 +81,7 @@ Setting this property equal to zero prevents the ink from being replaced by the 
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

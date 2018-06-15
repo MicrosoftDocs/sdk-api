@@ -220,7 +220,7 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
 
 
 
-<a href="https://www.bing.com/search?q=HRESULT_FROM_WIN32">HRESULT_FROM_WIN32</a>
+<a href="com.hresult_from_win32">HRESULT_FROM_WIN32</a>
 
 
 

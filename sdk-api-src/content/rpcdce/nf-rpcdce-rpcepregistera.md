@@ -191,7 +191,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 <ul>
 <li>Interface 
-<a href="https://www.bing.com/search?q=UUID">UUID</a>
+<a href="midl.uuid">UUID</a>
 </li>
 <li>Interface version (major and minor)</li>
 <li>Binding handle</li>

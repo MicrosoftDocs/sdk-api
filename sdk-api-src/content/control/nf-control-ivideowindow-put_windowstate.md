@@ -64,7 +64,7 @@ The <code>put_WindowState</code> method shows, hides, minimizes, or maximizes th
 
 ### -param WindowState [in]
 
-Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="https://www.bing.com/search?q=ShowWindow">ShowWindow</a> function. 
+Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="winui._win32_ShowWindow">ShowWindow</a> function. 
 
 
 ## -returns

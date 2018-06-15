@@ -2,7 +2,7 @@
 UID: NA:imagehlp
 ms.assetid: 1721db5b-f550-38d7-9e78-a802731ec92e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: base
 ## -description
 
 
-This header is used by System Services. For more information, see:
+This header is used by base. For more information, see:
 
-- [System Services](../_base/index.md)
+- [Error Handling](../_base/index.md)

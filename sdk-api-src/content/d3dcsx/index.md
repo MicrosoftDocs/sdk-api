@@ -2,7 +2,7 @@
 UID: NA:d3dcsx
 ms.assetid: 6a6139a0-1d5d-3d2b-ae59-29fa60b5d0a8
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: direct3d11
 ## -description
 
 
-This header is used by Direct3D 11 Graphics. For more information, see:
+This header is used by direct3d11. For more information, see:
 
 - [Direct3D 11 Graphics](../_direct3d11/index.md)

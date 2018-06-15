@@ -78,7 +78,7 @@ Setting the SelRTF property replaces any selected text in the <a href="https://m
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

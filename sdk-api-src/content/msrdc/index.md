@@ -2,7 +2,7 @@
 UID: NA:msrdc
 ms.assetid: 9b35c935-bd0c-30c6-bfec-6e68edbbdd03
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: rdc
 ## -description
 
 
-This header is used by Remote Differential Compression. For more information, see:
+This header is used by rdc. For more information, see:
 
 - [Remote Differential Compression](../_rdc/index.md)

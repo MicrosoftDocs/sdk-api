@@ -91,7 +91,7 @@ This function also returns any of the error values returned by the
 
 Most applications do not call the 
 <b>ReadClassStm</b> function directly. COM calls it before making a call to an object's 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a> implementation.
+<a href="_com_ipersiststream_load">IPersistStream::Load</a> implementation.
 
 
 

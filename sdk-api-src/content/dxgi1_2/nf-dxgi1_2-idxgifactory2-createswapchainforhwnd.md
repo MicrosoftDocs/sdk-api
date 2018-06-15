@@ -82,7 +82,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/0EE5683E-0623-4FD7-A77F-B64F
 
 ### -param pRestrictToOutput [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the output to restrict content to. You must also pass the <a href="https://www.bing.com/search?q=DXGI_PRESENT_RESTRICT_TO_OUTPUT">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. However, you can conditionally restrict content based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
+A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the output to restrict content to. You must also pass the <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. However, you can conditionally restrict content based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
 
 
 Set this parameter to <b>NULL</b> if you don't want to restrict content to an output target.
@@ -107,7 +107,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 </ul>
 
 
-<b>Platform Update for Windows 7:  </b><a href="/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_scaling">DXGI_SCALING_NONE</a> is not supported on Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed and causes <b>CreateSwapChainForHwnd</b> to return DXGI_ERROR_INVALID_CALL when called. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
+<b>Platform Update for Windows 7:  </b><a href="dxgi_scaling.htm">DXGI_SCALING_NONE</a> is not supported on Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed and causes <b>CreateSwapChainForHwnd</b> to return DXGI_ERROR_INVALID_CALL when called. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
 
 
 
@@ -134,7 +134,7 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 
 
-<a href="https://www.bing.com/search?q=For+best+performance,+use+DXGI+flip+model">For best performance, use DXGI flip model</a>
+<a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">For best performance, use DXGI flip model</a>
 
 
 

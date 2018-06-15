@@ -2,7 +2,7 @@
 UID: TP:mdmsettingsprov
 ms.assetid: cad0a72c-f837-3cab-8a58-a0d068bcf3b3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,6 +18,4 @@ Overview of the Mobile Device Management Settings Provider technology.
 
 The Mobile Device Management Settings Provider technology is not associated with any headers.
 
-For programming guidance for this technology, see:
-* [Mobile Device Management Settings Provider](/previous-versions/windows/desktop/mdmsettingsprov)
-
+For the programming guide, see [Mobile Device Management Settings Provider](/previous-versions/windows/desktop/mdmsettingsprov).

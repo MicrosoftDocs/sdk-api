@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

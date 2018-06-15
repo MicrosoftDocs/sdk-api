@@ -2,7 +2,7 @@
 UID: TP:buses
 ms.assetid: 7759b99f-4c43-36f8-a7e6-b99866828c68
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,6 +22,4 @@ To develop USB driver reference, you need these headers:
  * [winusb.h](../winusb/index.md)
  * [winusbio.h](../winusbio/index.md)
 
-For programming guidance for this technology, see:
-* [USB driver reference](/windows/desktop/usbref)
-
+For the programming guide, see [USB driver reference](/windows/desktop/buses).

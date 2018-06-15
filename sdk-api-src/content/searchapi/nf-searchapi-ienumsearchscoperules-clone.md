@@ -63,7 +63,7 @@ Creates a copy of this <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b9
 
 Type: <b><a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a>**</b>
 
-On return, contains a pointer to the cloned <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a> object. The calling application must free the new object by calling its <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+On return, contains a pointer to the cloned <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a> object. The calling application must free the new object by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
 
 
 ## -returns

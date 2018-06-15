@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-This macro has no effect on a combo box created with the <a href="https://www.bing.com/search?q=CBS_SIMPLE">CBS_SIMPLE</a> style.
+This macro has no effect on a combo box created with the <a href="Combo_Box_Styles.htm">CBS_SIMPLE</a> style.
 	
 
 

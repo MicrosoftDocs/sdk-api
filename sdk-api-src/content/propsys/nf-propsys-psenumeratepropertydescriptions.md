@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-A wrapper API that calls the schema subsystem's <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-enumeratepropertydescriptions">IPropertySystem::EnumeratePropertyDescriptions</a>. This function retrieves an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, to obtain either the entire list or a partial list of property descriptions in the system.
+A wrapper API that calls the schema subsystem's <a href="shell.IPropertySystem_EnumeratePropertyDescriptions">IPropertySystem::EnumeratePropertyDescriptions</a>. This function retrieves an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain either the entire list or a partial list of property descriptions in the system.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ A wrapper API that calls the schema subsystem's <a href="/windows/desktop/api/pr
 
 ### -param filterOn [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_enumfilter">PROPDESC_ENUMFILTER</a></b>
+Type: <b><a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a></b>
 
-The list to return. <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_enumfilter">PROPDESC_ENUMFILTER</a> shows the valid values for this method. 
+The list to return. <a href="shell.PROPDESC_ENUMFILTER">PROPDESC_ENUMFILTER</a> shows the valid values for this method. 
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ Reference to the  interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns

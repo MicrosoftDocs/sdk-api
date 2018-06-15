@@ -61,7 +61,7 @@ Notification method indicating that a device service <b>OpenDataSession</b> requ
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
 
 
 ### -param status [in]

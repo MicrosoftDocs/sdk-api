@@ -91,7 +91,7 @@ In general, the clipboard owner is the window that last placed data in clipboard
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboard+Viewer">Example of a Clipboard Viewer</a>.
+For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 

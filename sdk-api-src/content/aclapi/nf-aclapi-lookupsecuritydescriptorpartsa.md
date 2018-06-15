@@ -180,7 +180,7 @@ The <b>LookupSecurityDescriptorParts</b> function is intended for trusted server
 
 
 
-<a href="https://www.bing.com/search?q=Client/Server+Access+Control+Functions">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

@@ -72,9 +72,9 @@ A combination of <a href="https://msdn.microsoft.com/5D6C605C-079E-4487-8C58-783
 
 
 
-For hardware at Direct3D 10 and higher <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a>, the runtime sets both members identically.  For hardware at Direct3D 9.3 and lower feature levels, the runtime can set a lower precision support in the <b>PixelShaderMinPrecision</b> member than the <b>AllOtherShaderStagesMinPrecision</b> member; for 9.3 and lower, all other shader stages represent only the vertex shader.
+For hardware at Direct3D 10 and higher <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a>, the runtime sets both members identically.  For hardware at Direct3D 9.3 and lower feature levels, the runtime can set a lower precision support in the <b>PixelShaderMinPrecision</b> member than the <b>AllOtherShaderStagesMinPrecision</b> member; for 9.3 and lower, all other shader stages represent only the vertex shader.
 
-For more info about HLSL minimum precision, see <a href="https://docs.microsoft.com/windows/desktop//direct3d11/direct3d-11-1-features">using HLSL minimum precision</a>.
+For more info about HLSL minimum precision, see <a href="direct3d_11_1_features.htm">using HLSL minimum precision</a>.
 
 
 

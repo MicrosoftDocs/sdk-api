@@ -1,7 +1,6 @@
 {
   "tech": "audio",
   "headers": [
-    "ksmedia.h",
     "audioenginebaseapo.h",
     "mmreg.h",
     "mmsystem.h",

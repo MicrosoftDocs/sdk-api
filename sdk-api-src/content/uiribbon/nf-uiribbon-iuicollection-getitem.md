@@ -70,7 +70,7 @@ Type: <b>UINT32</b>
 
 ### -param item [out]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="_com_iunknown">IUnknown</a>**</b>
 
 
 					When this method returns, contains the address of a pointer variable that receives the item.

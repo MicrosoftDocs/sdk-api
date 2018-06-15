@@ -2,7 +2,7 @@
 UID: NA:joystickapi
 ms.assetid: 0160d399-eaff-3d4f-9b19-ae0d716465dd
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: multimedia
 ## -description
 
 
-This header is used by Windows Multimedia. For more information, see:
+This header is used by multimedia. For more information, see:
 
 - [Windows Multimedia](../_multimedia/index.md)

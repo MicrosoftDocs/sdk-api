@@ -2,7 +2,7 @@
 UID: NA:dmemmgr
 ms.assetid: 9b1577ca-eaf8-39a6-b4b9-4b30cc0e628e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: display
 ## -description
 
 
-This header is used by Display Devices Reference. For more information, see:
+This header is used by display. For more information, see:
 
 - [Display Devices Reference](../_display/index.md)

@@ -167,7 +167,7 @@ If the buffer specified by the <i>pbSignedAndEncryptedBlob</i> parameter is not 
 
 
 
-<a href="https://www.bing.com/search?q=Simplified+Message+Functions">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

@@ -71,9 +71,9 @@ Contains one of the <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-
 
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer of the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the retrieved attribute.
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer of the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the retrieved attribute.
 
-Any memory allocated for this parameter must be released with the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function when the data is no longer required.
+Any memory allocated for this parameter must be released with the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function when the data is no longer required.
 
 
 ## -returns
@@ -274,7 +274,7 @@ Set propVal = Nothing
 </td>
 </tr>
 </table></span></div>
-The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
+The following code example shows how to retrieve a property entry using the <b>GetPropertyItem</b> method. It assumes that the <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a> interface has been properly retrieved. For more information about how to load the property cache, see the <a href="iadspropertylist.htm">GetPropertyCache</a> example function  in  <b>IADsPropertyList</b>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -368,11 +368,11 @@ if(pEntry)
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
+<a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
  
 
  

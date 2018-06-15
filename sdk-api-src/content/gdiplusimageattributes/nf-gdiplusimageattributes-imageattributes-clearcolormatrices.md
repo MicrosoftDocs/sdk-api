@@ -203,7 +203,7 @@ VOID Example_SetClearColorMatrices(HDC hdc)
 </table></span></div>
 The following illustration shows the output of the preceding code.
 
-<img alt="Illustration showing four rows of four ellipses each; the ones drawn with a pen vary in color more than the filled ones" src="/images/imageattributesclearcolormatrices.png"/>
+<img alt="Illustration showing four rows of four ellipses each; the ones drawn with a pen vary in color more than the filled ones" src="images/imageattributesclearcolormatrices.png"/>
 
 <div class="code"></div>
 

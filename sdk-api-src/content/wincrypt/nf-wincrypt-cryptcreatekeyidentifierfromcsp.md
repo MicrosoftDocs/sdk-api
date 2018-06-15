@@ -147,7 +147,7 @@ For extended error information, call
 
 
 
-<a href="https://www.bing.com/search?q=Key+Identifier+Functions">Key Identifier Functions</a>
+<a href="cryptography_functions.htm">Key Identifier Functions</a>
  
 
  

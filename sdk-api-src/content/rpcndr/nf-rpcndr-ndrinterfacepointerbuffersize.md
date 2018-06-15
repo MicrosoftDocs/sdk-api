@@ -78,7 +78,7 @@ Pointer to the format string description.
 
 
 
-This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax">CoGetMarshalSizeMax</a>.
+This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_cogetmarshalsizemax">CoGetMarshalSizeMax</a>.
 
 <table>
 <tr>

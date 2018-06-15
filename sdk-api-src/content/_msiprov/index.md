@@ -2,7 +2,7 @@
 UID: TP:msiprov
 ms.assetid: abe8849e-63b1-3b32-9ba5-6645fd44f216
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,6 +18,4 @@ Overview of the Windows Installer Provider technology.
 
 The Windows Installer Provider technology is not associated with any headers.
 
-For programming guidance for this technology, see:
-* [Windows Installer Provider](/previous-versions/windows/desktop/msiprov)
-
+For the programming guide, see [Windows Installer Provider](/previous-versions/windows/desktop/msiprov).

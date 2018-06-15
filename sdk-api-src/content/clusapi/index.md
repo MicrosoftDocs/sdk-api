@@ -2,7 +2,7 @@
 UID: NA:clusapi
 ms.assetid: 47fdf8f4-e355-309c-96e9-61cc51a21f8f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: mscs
 ## -description
 
 
-This header is used by Windows Clustering. For more information, see:
+This header is used by mscs. For more information, see:
 
 - [Windows Clustering](../_mscs/index.md)

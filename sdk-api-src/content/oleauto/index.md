@@ -2,7 +2,7 @@
 UID: NA:oleauto
 ms.assetid: e26901c1-bc65-3702-b165-f54f14890afe
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: automat
 ## -description
 
 
-This header is used by Automation. For more information, see:
+This header is used by automat. For more information, see:
 
 - [Automation](../_automat/index.md)

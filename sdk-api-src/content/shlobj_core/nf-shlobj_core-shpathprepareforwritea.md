@@ -70,9 +70,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that specifies the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-enablemodeless">EnableModeless</a> method.
+A pointer to an <a href="_com_iunknown">IUnknown</a> interface that specifies the <a href="_ole_ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="_ole_ioleinplaceactiveobject_enablemodeless">EnableModeless</a> method.
 
 
 ### -param pszPath [in]

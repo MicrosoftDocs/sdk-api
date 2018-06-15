@@ -2,7 +2,7 @@
 UID: NA:msi
 ms.assetid: 2d56ac71-6310-3ead-a52c-c20d65287609
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: setup
 ## -description
 
 
-This header is used by Application Installation and Servicing. For more information, see:
+This header is used by setup. For more information, see:
 
-- [Application Installation and Servicing](../_setup/index.md)
+- [Setup API](../_setup/index.md)

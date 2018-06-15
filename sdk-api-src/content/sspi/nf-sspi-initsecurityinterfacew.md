@@ -83,7 +83,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

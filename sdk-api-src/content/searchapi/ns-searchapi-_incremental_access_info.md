@@ -68,7 +68,7 @@ Size of the file in bytes.
 
 ### -field ftLastModifiedTime
 
-Type: <b><a href="https://www.bing.com/search?q=FILETIME">FILETIME</a></b>
+Type: <b><a href="_com_FILETIME">FILETIME</a></b>
 
 Last time the file was modified.
 

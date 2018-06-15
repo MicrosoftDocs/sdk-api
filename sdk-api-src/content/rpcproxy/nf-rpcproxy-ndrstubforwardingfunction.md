@@ -66,7 +66,7 @@ TBD
 
 ### -param pChannel [in]
 
-Pointer to <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
+Pointer to <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
 
 
 ### -param pmsg

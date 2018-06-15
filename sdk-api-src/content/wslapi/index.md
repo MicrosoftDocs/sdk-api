@@ -2,7 +2,7 @@
 UID: NA:wslapi
 ms.assetid: 2121fef1-ac3f-3125-89eb-c62ad915f5a2
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: wsl
 ## -description
 
 
-This header is used by Windows Subsystem for Linux. For more information, see:
+This header is used by wsl. For more information, see:
 
 - [Windows Subsystem for Linux](../_wsl/index.md)

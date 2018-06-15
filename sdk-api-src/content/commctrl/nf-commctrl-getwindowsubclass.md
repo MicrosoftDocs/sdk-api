@@ -129,7 +129,7 @@ The subclass callback was not installed.
 
 
 
-To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://www.bing.com/search?q=Enabling+Visual+Styles">Enabling Visual Styles</a>.
+To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="_inet_cookbook_overview">Enabling Visual Styles</a>.
 
 
 

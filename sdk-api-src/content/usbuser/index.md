@@ -2,7 +2,7 @@
 UID: NA:usbuser
 ms.assetid: 4c366795-5d02-392f-8b00-48074d301df6
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: buses
 ## -description
 
 
-This header is used by USB driver reference. For more information, see:
+This header is used by buses. For more information, see:
 
 - [USB driver reference](../_buses/index.md)

@@ -77,7 +77,7 @@ TBD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Object ID. This value is usually <a href="https://www.bing.com/search?q=OBJID_CLIENT">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
+Object ID. This value is usually <a href="object_identifiers.htm">OBJID_CLIENT</a>, which is one of the object identifier constants, but it may be another object identifier.
 
 
 ### -param riid

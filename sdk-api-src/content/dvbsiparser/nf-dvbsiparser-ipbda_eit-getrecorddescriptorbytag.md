@@ -63,7 +63,7 @@ Searches a record in an event information table (EIT) from a Protected Broadcast
 
 
   Specifies the service record number, indexed from zero.
-  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
+  Call the <a href="mstv.ipda_eit_getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 
 

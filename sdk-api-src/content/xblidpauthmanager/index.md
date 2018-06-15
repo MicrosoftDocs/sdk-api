@@ -2,7 +2,7 @@
 UID: NA:xblidpauthmanager
 ms.assetid: 57ba1243-1819-34fc-a76e-420ecde785d9
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: xblidp
 ## -description
 
 
-This header is used by XblIdpAuthManager. For more information, see:
+This header is used by xblidp. For more information, see:
 
 - [XblIdpAuthManager](../_xblidp/index.md)

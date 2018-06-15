@@ -2,7 +2,7 @@
 UID: NA:wiavideo
 ms.assetid: 57911de0-f468-3a72-acb1-70d386d1447b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: wia
 ## -description
 
 
-This header is used by WIA. For more information, see:
+This header is used by wia. For more information, see:
 
 - [WIA](../_wia/index.md)

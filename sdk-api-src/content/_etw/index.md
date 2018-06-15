@@ -2,7 +2,7 @@
 UID: TP:etw
 ms.assetid: 74293fa7-68c7-3af9-9ada-3864addbc351
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -23,6 +23,4 @@ To develop Event Tracing, you need these headers:
  * [securitybaseapi.h](../securitybaseapi/index.md)
  * [tdh.h](../tdh/index.md)
 
-For programming guidance for this technology, see:
-* [Event Tracing](/windows/desktop/etw)
-
+For the programming guide, see [Event Tracing](/windows/desktop/etw).

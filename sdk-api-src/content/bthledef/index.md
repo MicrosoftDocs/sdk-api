@@ -2,7 +2,7 @@
 UID: NA:bthledef
 ms.assetid: b2e62dbb-cf11-3ce2-b529-ea228b3a8bd9
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: bltooth
 ## -description
 
 
-This header is used by Bluetooth Devices Reference. For more information, see:
+This header is used by bltooth. For more information, see:
 
 - [Bluetooth Devices Reference](../_bltooth/index.md)

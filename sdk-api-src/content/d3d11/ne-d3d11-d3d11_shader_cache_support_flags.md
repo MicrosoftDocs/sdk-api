@@ -77,7 +77,7 @@ Indicates that the driver supports an OS-managed shader cache that stores compil
 
 
 
-This enum is used by the <a href="https://www.bing.com/search?q=D3D_FEATURE_DATA_SHADER_CACHE">D3D_FEATURE_DATA_SHADER_CACHE</a> structure.
+This enum is used by the <a href="direct3d11d3d11_feature_data_shader_cache">D3D_FEATURE_DATA_SHADER_CACHE</a> structure.
 
 
 

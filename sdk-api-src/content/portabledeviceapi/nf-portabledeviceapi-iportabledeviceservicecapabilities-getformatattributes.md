@@ -83,7 +83,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//wpd_sdk/wpd-format-attributes">WPD_FORMAT_ATTRIBUTE_NAME</a> is an example of a commonly retrieved attribute.
+<a href="wpd_format_attributes.htm">WPD_FORMAT_ATTRIBUTE_NAME</a> is an example of a commonly retrieved attribute.
       
 
 

@@ -2,7 +2,7 @@
 UID: NA:gdipluscolor
 ms.assetid: b9bf4454-b16d-35ba-b437-3f291166884c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: gdiplus
 ## -description
 
 
-This header is used by GDI+. For more information, see:
+This header is used by gdiplus. For more information, see:
 
 - [GDI+](../_gdiplus/index.md)

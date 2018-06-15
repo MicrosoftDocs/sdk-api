@@ -2,7 +2,7 @@
 UID: NA:tapi
 ms.assetid: 02fee33b-32b4-3b18-98a7-0e1ee369b5e3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: tapi2
 ## -description
 
 
-This header is used by TAPI 2.2. For more information, see:
+This header is used by tapi2. For more information, see:
 
-- [TAPI 2.2](../_tapi2/index.md)
+- [Telephony Application Programming Interfaces](../_tapi2/index.md)

@@ -2,7 +2,7 @@
 UID: NA:dwrite_2
 ms.assetid: 8804b1ea-b645-30a9-955e-4424e89e813e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: directwrite
 ## -description
 
 
-This header is used by DirectWrite. For more information, see:
+This header is used by directwrite. For more information, see:
 
 - [DirectWrite](../_directwrite/index.md)

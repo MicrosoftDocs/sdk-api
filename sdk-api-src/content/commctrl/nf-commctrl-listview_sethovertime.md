@@ -85,7 +85,7 @@ The new amount of time, in milliseconds, that the mouse cursor must hover over a
 
 
 
-The hover time only affects list-view controls that have the <a href="https://www.bing.com/search?q=LVS_EX_TRACKSELECT">LVS_EX_TRACKSELECT</a>, <a href="https://www.bing.com/search?q=LVS_EX_ONECLICKACTIVATE">LVS_EX_ONECLICKACTIVATE</a>, or <a href="https://www.bing.com/search?q=LVS_EX_TWOCLICKACTIVATE">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
+The hover time only affects list-view controls that have the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a>, <a href="Extended_list_view_styles.htm">LVS_EX_ONECLICKACTIVATE</a>, or <a href="Extended_list_view_styles.htm">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
 
 
 

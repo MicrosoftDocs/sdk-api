@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 			The 
-<b>WPUPostMessage</b> function performs the standard Windows <a href="https://www.bing.com/search?q=PostMessage">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+<b>WPUPostMessage</b> function performs the standard Windows <a href="_win32_postmessage_cpp">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
 
 ## -parameters

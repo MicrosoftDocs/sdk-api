@@ -164,11 +164,11 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
+<a href="_iphlp_createipnetentry">CreateIpNetEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
+<a href="_iphlp_deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
@@ -176,7 +176,7 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
+<a href="_iphlp_setipnetentry">SetIpNetEntry</a>
  
 
  

@@ -2,7 +2,7 @@
 UID: NA:rectypes
 ms.assetid: 9ac12391-f7ce-3240-af68-f10a506f5355
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: tablet
 ## -description
 
 
-This header is used by Tablet PC. For more information, see:
+This header is used by tablet. For more information, see:
 
 - [Tablet PC](../_tablet/index.md)

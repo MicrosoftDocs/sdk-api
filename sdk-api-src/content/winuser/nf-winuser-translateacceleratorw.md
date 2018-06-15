@@ -134,7 +134,7 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+Accelerators+for+Font+Attributes">Creating Accelerators for Font Attributes</a>.
+For an example, see <a href="using_keyboard_accelerators.htm">Creating Accelerators for Font Attributes</a>.
 
 <div class="code"></div>
 

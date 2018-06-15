@@ -225,7 +225,7 @@ The following diagram shows the <a href="https://msdn.microsoft.com/141f1952-c1b
 
 
 
-<img alt="" src="/images/dbcmdtr1.png"/>
+<img alt="" src="images/dbcmdtr1.png"/>
 <div class="code"></div>
 
 

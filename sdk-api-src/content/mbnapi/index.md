@@ -2,7 +2,7 @@
 UID: NA:mbnapi
 ms.assetid: a9df3d02-5d8b-3f51-936d-f40bc611f763
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: mbn
 ## -description
 
 
-This header is used by Mobile Broadband. For more information, see:
+This header is used by mbn. For more information, see:
 
 - [Mobile Broadband](../_mbn/index.md)

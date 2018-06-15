@@ -2,7 +2,7 @@
 UID: TP:mdmreg
 ms.assetid: 4d87bfdb-f90b-391a-8117-d64350326fa4
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,6 +19,4 @@ To develop Mobile Device Management Registration, you need these headers:
 
  * [mdmregistration.h](../mdmregistration/index.md)
 
-For programming guidance for this technology, see:
-* [Mobile Device Management Registration](/windows/desktop/mdmreg)
-
+For the programming guide, see [Mobile Device Management Registration](/windows/desktop/mdmreg).

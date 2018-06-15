@@ -180,7 +180,7 @@ The following is a list of the notifications that may be sent.
 <td>
 <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
 </td>
-<td>Sent when the current selection has changed. A <a href="https://msdn.microsoft.com/9f5c0041-df07-44dc-b517-c01a8910560f">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="https://www.bing.com/search?q=ENM_SELCHANGE">ENM_SELCHANGE</a> mask.</td>
+<td>Sent when the current selection has changed. A <a href="https://msdn.microsoft.com/9f5c0041-df07-44dc-b517-c01a8910560f">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_SELCHANGE</a> mask.</td>
 </tr>
 <tr>
 <td>
@@ -198,8 +198,8 @@ The following is a list of the notifications that may be sent.
 <td>
 <a href="https://msdn.microsoft.com/59138736-6cc9-4a3f-95f3-ada9cbf253cb">EN_UPDATE</a>
 </td>
-<td>Sent before an edit control requests a redraw of altered data or text. No additional data is sent. This event is controlled through the <a href="https://www.bing.com/search?q=ENM_UPDATE">ENM_UPDATE</a> mask. 
-							<b>Rich Edit 2.0 and later:</b> The <a href="https://www.bing.com/search?q=ENM_UPDATE">ENM_UPDATE</a> mask is ignored and the <a href="https://msdn.microsoft.com/59138736-6cc9-4a3f-95f3-ada9cbf253cb">EN_UPDATE</a> notification code is always sent. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, the <b>ENM_UPDATE</b> mask controls this notification.
+<td>Sent before an edit control requests a redraw of altered data or text. No additional data is sent. This event is controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_UPDATE</a> mask. 
+							<b>Rich Edit 2.0 and later:</b> The <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_UPDATE</a> mask is ignored and the <a href="https://msdn.microsoft.com/59138736-6cc9-4a3f-95f3-ada9cbf253cb">EN_UPDATE</a> notification code is always sent. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, the <b>ENM_UPDATE</b> mask controls this notification.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ The following is a list of the notifications that may be sent.
 <td>
 <a href="https://msdn.microsoft.com/46307dee-3c5c-4020-9c2b-ec4638a0cea5">EN_VSCROLL</a>
 </td>
-<td>Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control, before the screen is updated. This is controlled through the <a href="https://www.bing.com/search?q=ENM_SCROLL">ENM_SCROLL</a> mask; no extra data is sent.</td>
+<td>Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control, before the screen is updated. This is controlled through the <a href="Rich_Edit_Control_Event_Mask_Flags.htm">ENM_SCROLL</a> mask; no extra data is sent.</td>
 </tr>
 </table>
  

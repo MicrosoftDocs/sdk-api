@@ -2,7 +2,7 @@
 UID: TP:direct2d
 ms.assetid: 43d8949c-ea1e-342c-bf43-cea67f63ae14
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -33,6 +33,4 @@ To develop Direct2D, you need these headers:
  * [d2d1svg.h](../d2d1svg/index.md)
  * [dcommon.h](../dcommon/index.md)
 
-For programming guidance for this technology, see:
-* [Direct2D](/windows/desktop/direct2d)
-
+For the programming guide, see [Direct2D](/windows/desktop/direct2d).

@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pMsg [out]
 
-Pointer to a <a href="https://www.bing.com/search?q=MSG">MSG</a> structure that receives message data.
+Pointer to a <a href="_win32_msg_str">MSG</a> structure that receives message data.
 
 
 ### -param hwnd [in]
@@ -145,11 +145,11 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 
-<a href="https://www.bing.com/search?q=MSG">MSG</a>
+<a href="_win32_msg_str">MSG</a>
 
 
 
-<a href="https://www.bing.com/search?q=PeekMessage">PeekMessage</a>
+<a href="_win32_peekmessage">PeekMessage</a>
  
 
  

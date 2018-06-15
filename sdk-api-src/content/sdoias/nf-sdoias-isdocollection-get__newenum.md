@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>get__NewEnum</b> method retrieves an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface for a Server Data Objects (SDO) collection.
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface for a Server Data Objects (SDO) collection.
 
 
 ## -parameters
@@ -64,8 +64,8 @@ The
 ### -param ppEnumVARIANT [out]
 
 Pointer to an 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. On successful return the <b>IUnknown</b> interface pointer, points to an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
+<a href="_com_iunknown">IUnknown</a> interface pointer. On successful return the <b>IUnknown</b> interface pointer, points to an 
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface.
 
 This parameter must not be <b>NULL</b>.
 

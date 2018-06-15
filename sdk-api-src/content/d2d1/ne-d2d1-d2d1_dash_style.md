@@ -108,7 +108,7 @@ The dash pattern is specified by an array of floating-point values.
 The following illustration shows several available dash styles. 
       
 
-<img alt="Illustration of available dash styles" src="/images/StrokeStyle_DashStyle.png"/>
+<img alt="Illustration of available dash styles" src="images/StrokeStyle_DashStyle.png"/>
 
 #### Examples
 

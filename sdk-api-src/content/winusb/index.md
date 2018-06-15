@@ -2,7 +2,7 @@
 UID: NA:winusb
 ms.assetid: bb5b82b6-ab7a-30ec-8968-30f7b74903cb
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/08/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: buses
 ## -description
 
 
-This header is used by USB driver reference. For more information, see:
+This header is used by buses. For more information, see:
 
 - [USB driver reference](../_buses/index.md)

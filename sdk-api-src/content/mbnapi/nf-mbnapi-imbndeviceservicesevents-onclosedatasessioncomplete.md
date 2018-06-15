@@ -61,7 +61,7 @@ Notification method indicating that a device service session <b>CloseDataSession
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> session object on which the <b>CloseDataSession</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the <b>CloseDataSession</b> was requested.
 
 
 ### -param status [in]

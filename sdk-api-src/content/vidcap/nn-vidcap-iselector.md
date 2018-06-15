@@ -108,7 +108,7 @@ Activates a source node.
 
 A kernel-streaming (KS) filter contains one or more <i>nodes</i>. Each node encapsulates a processing task that is applied to the stream. In the following diagram, nodes 1 and 2 are <i>source</i> nodes and node 3 is a <i>selector</i> node.
 
-<img alt="KsProxy nodes" border="0" src="/images/ksproxynodes.png"/>
+<img alt="KsProxy nodes" border="0" src="images/ksproxynodes.png"/>
 
 The source nodes represent input streams—for example, a camera or a tape transport. The selector node controls which stream is sent to the filter's output pin. To switch between inputs, an application would do the following:
 

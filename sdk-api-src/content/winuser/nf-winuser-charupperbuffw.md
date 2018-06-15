@@ -109,7 +109,7 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop//FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>. 
+For an example, see <a href="_win32_Creating_and_Using_a_Temporary_File">Creating and Using a Temporary File</a>. 
 
 
 
