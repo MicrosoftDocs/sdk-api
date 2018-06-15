@@ -2,7 +2,7 @@
 UID: NA:dot1x
 ms.assetid: 2a7bf8b9-273f-3795-823b-4358785e0159
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: nwifi
 ## -description
 
 
-This header is used by nwifi. For more information, see:
+This header is used by Native Wifi. For more information, see:
 
 - [Native Wifi](../_nwifi/index.md)

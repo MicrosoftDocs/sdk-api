@@ -2,7 +2,7 @@
 UID: TP:madcap
 ms.assetid: 9a065d27-3815-3bc9-8243-e48ad0b4be0d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,4 +20,6 @@ To develop Multicast Address Dynamic Client Allocation Protocol (MADCAP), you ne
 
  * [madcapcl.h](../madcapcl/index.md)
 
-For the programming guide, see [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](/previous-versions/windows/desktop/madcap).
+For programming guidance for this technology, see:
+* [Multicast Address Dynamic Client Allocation Protocol (MADCAP)](/previous-versions/windows/desktop/madcap)
+

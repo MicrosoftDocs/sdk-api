@@ -2,7 +2,7 @@
 UID: NA:imagetranscode
 ms.assetid: 7ffd173f-c94a-3b37-bbad-716c34aaa3b1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by shell. For more information, see:
+This header is used by The Windows Shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

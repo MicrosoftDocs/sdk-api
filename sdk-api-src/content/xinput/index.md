@@ -2,7 +2,7 @@
 UID: NA:xinput
 ms.assetid: f35006d7-b766-3947-88e4-f589a0517f91
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: xinput
 ## -description
 
 
-This header is used by xinput. For more information, see:
+This header is used by XInput Game Controller APIs. For more information, see:
 
 - [XInput Game Controller APIs](../_xinput/index.md)

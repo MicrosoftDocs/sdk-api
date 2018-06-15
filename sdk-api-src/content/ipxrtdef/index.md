@@ -2,7 +2,7 @@
 UID: NA:ipxrtdef
 ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: rras
 ## -description
 
 
-This header is used by rras. For more information, see:
+This header is used by Routing and Remote Access Service. For more information, see:
 
 - [Routing and Remote Access Service](../_rras/index.md)

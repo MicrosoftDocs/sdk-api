@@ -2,7 +2,7 @@
 UID: NA:msopc
 ms.assetid: c005e016-3d7c-3e5f-91d0-04af655f8499
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: opc
 ## -description
 
 
-This header is used by opc. For more information, see:
+This header is used by Packaging. For more information, see:
 
 - [Packaging](../_opc/index.md)

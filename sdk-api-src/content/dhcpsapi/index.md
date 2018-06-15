@@ -2,7 +2,7 @@
 UID: NA:dhcpsapi
 ms.assetid: d267af05-aa29-38b4-af7e-fb8a8b4524c3
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,6 +17,6 @@ tech.root: dhcp
 ## -description
 
 
-This header is used by dhcp. For more information, see:
+This header is used by Dynamic Host Configuration Protocol (DHCP). For more information, see:
 
 - [Dynamic Host Configuration Protocol (DHCP)](../_dhcp/index.md)

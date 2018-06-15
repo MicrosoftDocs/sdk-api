@@ -2,7 +2,7 @@
 UID: NA:comadmin
 ms.assetid: 17a15a0b-678d-3849-b9c7-84c46d53e47d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: cos
 ## -description
 
 
-This header is used by cos. For more information, see:
+This header is used by COM+ (Component Services). For more information, see:
 
 - [COM+ (Component Services)](../_cos/index.md)

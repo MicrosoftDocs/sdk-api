@@ -2,7 +2,7 @@
 UID: NA:printmanagerinterop
 ms.assetid: a7dd6937-534d-3b57-a486-d2bce92f7695
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: winrt
 ## -description
 
 
-This header is used by winrt. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)

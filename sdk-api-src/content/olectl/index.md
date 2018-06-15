@@ -2,7 +2,7 @@
 UID: NA:olectl
 ms.assetid: 45e30d9a-3704-39ca-81f2-259e91d1dffc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: automat
 ## -description
 
 
-This header is used by automat. For more information, see:
+This header is used by Automation. For more information, see:
 
 - [Automation](../_automat/index.md)

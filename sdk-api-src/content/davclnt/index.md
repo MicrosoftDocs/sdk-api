@@ -2,7 +2,7 @@
 UID: NA:davclnt
 ms.assetid: f2ee3235-5f26-3322-b679-ac82b3269950
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: webdav
 ## -description
 
 
-This header is used by webdav. For more information, see:
+This header is used by WebDAV. For more information, see:
 
 - [WebDAV](../_webdav/index.md)

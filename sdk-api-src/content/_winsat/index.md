@@ -2,7 +2,7 @@
 UID: TP:winsat
 ms.assetid: 0aeab50b-bfa8-3845-b2af-5a9d26d69145
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,6 @@ To develop Windows System Assessment Tool, you need these headers:
 
  * [winsatcominterfacei.h](../winsatcominterfacei/index.md)
 
-For the programming guide, see [Windows System Assessment Tool](/windows/desktop/winsat).
+For programming guidance for this technology, see:
+* [Windows System Assessment Tool](/windows/desktop/winsat)
+

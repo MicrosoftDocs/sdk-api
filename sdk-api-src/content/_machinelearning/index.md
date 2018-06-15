@@ -2,7 +2,7 @@
 UID: TP:machinelearning
 ms.assetid: 528d7026-7368-3c15-91e7-6246f06cf947
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,6 @@ To develop Windows Machine Learning, you need these headers:
 
  * [winml.h](../winml/index.md)
 
-For the programming guide, see [Windows Machine Learning](/windows/desktop/machinelearning).
+For programming guidance for this technology, see:
+* [Windows Machine Learning](/windows/desktop/machinelearning)
+

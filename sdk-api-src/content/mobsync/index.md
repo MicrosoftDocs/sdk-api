@@ -2,7 +2,7 @@
 UID: NA:mobsync
 ms.assetid: 15562484-2100-3efa-88e0-10761b091856
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: shell
 ## -description
 
 
-This header is used by shell. For more information, see:
+This header is used by The Windows Shell. For more information, see:
 
 - [The Windows Shell](../_shell/index.md)

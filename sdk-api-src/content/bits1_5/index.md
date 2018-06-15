@@ -2,7 +2,7 @@
 UID: NA:bits1_5
 ms.assetid: 715b7293-fb0c-3de9-a661-caa92278c4ca
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: bits
 ## -description
 
 
-This header is used by bits. For more information, see:
+This header is used by Background Intelligent Transfer Service. For more information, see:
 
 - [Background Intelligent Transfer Service](../_bits/index.md)

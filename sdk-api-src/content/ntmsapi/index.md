@@ -2,7 +2,7 @@
 UID: NA:ntmsapi
 ms.assetid: bfdbba3f-aac9-3590-b1f9-5c985ff4abcd
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: fs
 ## -description
 
 
-This header is used by fs. For more information, see:
+This header is used by Data Access and Storage. For more information, see:
 
-- [Removable Storage Manager](../_fs/index.md)
+- [Data Access and Storage](../_fs/index.md)

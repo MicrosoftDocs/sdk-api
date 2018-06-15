@@ -2,7 +2,7 @@
 UID: NA:naptypes
 ms.assetid: e50324ba-586f-3cfc-a612-55cd4b98b0d0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/15/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -16,6 +16,6 @@ tech.root: nap
 ## -description
 
 
-This header is used by nap. For more information, see:
+This header is used by Network Access Protection. For more information, see:
 
 - [Network Access Protection](../_nap/index.md)
