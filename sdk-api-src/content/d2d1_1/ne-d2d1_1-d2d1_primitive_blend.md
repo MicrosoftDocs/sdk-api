@@ -156,7 +156,7 @@ The resulting pixel values use the maximum of the source and destination pixel v
 </table>
  
 
-<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="images/PrimBlendDemo.png"/>
+<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="/images/PrimBlendDemo.png"/>
 An illustration of the primitive blend modes with varying opacity and backgrounds.
 
 

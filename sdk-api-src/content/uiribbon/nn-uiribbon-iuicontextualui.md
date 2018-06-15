@@ -111,7 +111,7 @@ The <a href="https://msdn.microsoft.com/08cc0514-0795-4e6b-b80c-33d920783032">Co
 
 The following screen shot shows the <a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a> with a <a href="https://msdn.microsoft.com/08cc0514-0795-4e6b-b80c-33d920783032">ContextMenu</a> and <a href="https://msdn.microsoft.com/bb50890d-554a-4add-a583-d4fd48b823bf">MiniToolbar</a>.
 
-<img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="images/Interfaces/IUIContextualUI_Concepts.png"/>
+<img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="/images/Interfaces/IUIContextualUI_Concepts.png"/>
 
 
 

@@ -153,7 +153,7 @@ The following example creates an
 The preceding code, along with a particular file, SampleMetafile2.emf, produced the following output. Note that the first attempt (upper-right) to draw 75 percent of the image shows only about 30 percent of the image.
 
 
-<img alt="Screen shot showing parts of three an ellipses: all of the first one, 30% of the second, and 75% of the third " src="images/imagegetbounds1.png"/>
+<img alt="Screen shot showing parts of three an ellipses: all of the first one, 30% of the second, and 75% of the third " src="/images/imagegetbounds1.png"/>
 <div class="code"></div>
 
 
