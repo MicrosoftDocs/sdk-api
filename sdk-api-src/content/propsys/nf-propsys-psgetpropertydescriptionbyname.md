@@ -77,7 +77,7 @@ Reference to the interface ID of the requested property.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>, <a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>, or  <a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>, or  <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionsearchinfo">IPropertyDescriptionSearchInfo</a>.
 
 
 
@@ -638,7 +638,7 @@ In addition to the new canonical names, callers can pass a legacy name for a pro
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -667,11 +667,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.IPropertySystem">IPropertySystem</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
 
 
 
-<a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>
+<a href="https://www.bing.com/search?q=PSGetPropertyDescription">PSGetPropertyDescription</a>
  
 
  

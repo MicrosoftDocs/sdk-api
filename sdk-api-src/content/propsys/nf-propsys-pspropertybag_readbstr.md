@@ -61,9 +61,9 @@ Reads a <b>BSTR</b> data value from a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
+Type: <b><a href="https://www.bing.com/search?q=IPropertyBag">IPropertyBag</a>*</b>
 
-A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="https://www.bing.com/search?q=IPropertyBag">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -75,7 +75,7 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
 
 When this function returns, contains a pointer to a <b>BSTR</b> property value.
 
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="shell.PSPropertyBag_WriteBSTR">PSPropertyBag_WriteBSTR</a>
+<a href="https://www.bing.com/search?q=PSPropertyBag_WriteBSTR">PSPropertyBag_WriteBSTR</a>
  
 
  

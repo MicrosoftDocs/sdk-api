@@ -78,7 +78,7 @@ Setting <b>SelStart</b> greater than the text length sets the property to the ex
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

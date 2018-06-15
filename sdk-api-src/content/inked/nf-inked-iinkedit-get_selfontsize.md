@@ -78,7 +78,7 @@ The <b>SelFontSize</b> property returns Null if the selected text contains diffe
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

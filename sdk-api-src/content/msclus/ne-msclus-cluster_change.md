@@ -137,7 +137,7 @@ The queue receives a notification when a new
 The queue receives a notification when the 
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a>, 
        <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a>, or 
-       <a href="p_gly.htm">possible owner</a> nodes of a resource change.
+       <a href="https://www.bing.com/search?q=possible+owner">possible owner</a> nodes of a resource change.
 
 
 ### -field CLUSTER_CHANGE_GROUP_STATE

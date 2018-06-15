@@ -78,7 +78,7 @@ You can use this property to determine if any characters are currently selected 
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

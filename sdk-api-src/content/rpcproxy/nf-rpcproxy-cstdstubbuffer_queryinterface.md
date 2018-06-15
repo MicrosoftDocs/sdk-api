@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[CStdStubBuffer_QueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
+The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="_com_i
 
 ### -param This [in]
 
-Pointer to the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

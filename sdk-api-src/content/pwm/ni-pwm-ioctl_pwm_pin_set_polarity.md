@@ -263,7 +263,7 @@ For overlapped operations, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc
 </table>
  
 
-Changing polarity is only allowed when the pin is stopped. You can tell whether the pin is stopped by using the <a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a> control code.
+Changing polarity is only allowed when the pin is stopped. You can tell whether the pin is stopped by using the <a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a> control code.
 
 Changing polarity while a pin is started can lead to glitches on some Pulse Width Modulation (PWM) controllers. If you want to change polarity, stop the pin first, change the polarity, and then start the pin. 
 

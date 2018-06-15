@@ -77,7 +77,7 @@ A pointer to the item data to add.
 
 
 
-Use this macro for a list box with an owner-drawn style but without the <a href="List_Box_Styles.htm">LBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>.
+Use this macro for a list box with an owner-drawn style but without the <a href="https://www.bing.com/search?q=LBS_HASSTRINGS">LBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>.
 	
 
 

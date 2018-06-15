@@ -120,7 +120,7 @@ If <i>hKey</i> is one of the predefined keys, use  the <a href="https://msdn.mic
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://www.bing.com/search?q=Low-level+Access+Control+Functions">Low-level Access Control Functions</a>
 
 
 

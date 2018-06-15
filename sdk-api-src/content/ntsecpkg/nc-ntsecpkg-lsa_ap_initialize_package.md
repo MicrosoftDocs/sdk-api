@@ -68,7 +68,7 @@ The identifier the LSA has assigned to the authentication package.
 
 Pointer to an 
 <a href="https://msdn.microsoft.com/2e144ce0-e8c9-457a-8b12-7d21dda6adf3">LSA_DISPATCH_TABLE</a> structure that contains the addresses of LSA functions that can be called by authentication packages. Your custom authentication package should save this information if it requires any of the functions described in 
-<a href="authentication_functions.htm">LSA Functions Called by Authentication Packages</a>.
+<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">LSA Functions Called by Authentication Packages</a>.
 
 
 ### -param Database [in, optional]

@@ -81,7 +81,7 @@ This property is run time only.
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

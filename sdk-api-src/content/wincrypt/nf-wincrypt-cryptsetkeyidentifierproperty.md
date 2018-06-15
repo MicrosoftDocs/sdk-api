@@ -163,7 +163,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="cryptography_functions.htm">Key Identifier Functions</a>
+<a href="https://www.bing.com/search?q=Key+Identifier+Functions">Key Identifier Functions</a>
  
 
  

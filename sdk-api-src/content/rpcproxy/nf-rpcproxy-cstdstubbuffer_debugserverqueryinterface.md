@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[CStdStubBuffer_DebugServerQueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a href="_com_irpcstubbuffer_debugserverqueryinterface">IRpcStubBuffer::DebugServerQueryInterface</a> method.
+The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">IRpcStubBuffer::DebugServerQueryInterface</a> method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a h
 
 ### -param This [in]
 
-Pointer to the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param ppv [out]

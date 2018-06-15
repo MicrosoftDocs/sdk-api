@@ -90,13 +90,13 @@ Resource class is unknown.
 ####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_STORAGE (1)
 
 Resource is a storage device, such as a 
-            <a href="p_gly.htm">Physical Disk resource</a>.
+            <a href="https://www.bing.com/search?q=Physical+Disk+resource">Physical Disk resource</a>.
 
 
 
 ####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_NETWORK (2)
 
-Resource is a <a href="n_gly.htm">network</a> device.
+Resource is a <a href="https://www.bing.com/search?q=network">network</a> device.
 
 
 
@@ -115,7 +115,7 @@ A mask value that further describes the resource class. The following value is v
 ###### DUMMYSTRUCTNAME.SubClass.CLUS_RESSUBCLASS_SHARED (0x80000000)
 
 Indicates that the resource manages a shared resource such as a disk on a shared 
-           <a href="s_gly.htm">SCSI</a> bus.
+           <a href="https://www.bing.com/search?q=SCSI">SCSI</a> bus.
 
 
 ### -field DUMMYUNIONNAME.li

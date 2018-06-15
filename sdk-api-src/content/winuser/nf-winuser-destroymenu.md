@@ -94,7 +94,7 @@ Before closing, an application must use the <b>DestroyMenu</b> function to destr
 
 #### Examples
 
-For an example, see <a href="using_menus.htm">Displaying a Shortcut Menu</a>.
+For an example, see <a href="https://www.bing.com/search?q=Displaying+a+Shortcut+Menu">Displaying a Shortcut Menu</a>.
 
 <div class="code"></div>
 

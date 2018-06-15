@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-A provider should use this property to expose style identifiers that are useful to client applications. For example, a provider might expose the <a href="uiauto_style_identifiers.htm">StyleId_Title</a> identifier for an element that represents the title of a presentation. A screen reader could then retrieve the <b>StyleId</b> property, discover that the element is a presentation title, and read the title to the user.
+A provider should use this property to expose style identifiers that are useful to client applications. For example, a provider might expose the <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-style-identifiers">StyleId_Title</a> identifier for an element that represents the title of a presentation. A screen reader could then retrieve the <b>StyleId</b> property, discover that the element is a presentation title, and read the title to the user.
 
 <h3><a id="List_Styles"></a><a id="list_styles"></a><a id="LIST_STYLES"></a>List Styles</h3>
 IDs for list styles are supported starting with Windows 8.1. 

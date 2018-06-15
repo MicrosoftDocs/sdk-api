@@ -106,7 +106,7 @@ Video decode statistics. Refer to <a href="direct3d12.d3d12_query_data_video_dec
 
 Use this query type to determine if a video was successfully decoded. If decoding fails due to insufficient BitRate or FrameRate parameters set during creation of the decode heap, then the status field of the query is set to D3D12_VIDEO_DECODE_STATUS_RATE_EXCEEDED and the query also contains new BitRate and FrameRate values that would succeed.
 
-This query type can only be performed on video decode command lists (<a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). This query type does not use <a href="direct3d12.id3d12videodecodecommandlist_beginquery">ID3D12VideoDecodeCommandList::BeginQuery</a>, only <a href="direct3d12.id3d12videodecodecommandlist_endquery">ID3D12VideoDecoeCommandList::EndQuery</a>. Statistics are recorded only for the most recent <a href="direct3d12.id3d12videodecodecommandlist_decodeframe">ID3D12VideoDecoeCommandList::DecodeFrame</a> call in the same command list.
+This query type can only be performed on video decode command lists (<a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). This query type does not use <a href="https://www.bing.com/search?q=ID3D12VideoDecodeCommandList::BeginQuery">ID3D12VideoDecodeCommandList::BeginQuery</a>, only <a href="https://www.bing.com/search?q=ID3D12VideoDecoeCommandList::EndQuery">ID3D12VideoDecoeCommandList::EndQuery</a>. Statistics are recorded only for the most recent <a href="https://www.bing.com/search?q=ID3D12VideoDecoeCommandList::DecodeFrame">ID3D12VideoDecoeCommandList::DecodeFrame</a> call in the same command list.
 
 
 ## -remarks

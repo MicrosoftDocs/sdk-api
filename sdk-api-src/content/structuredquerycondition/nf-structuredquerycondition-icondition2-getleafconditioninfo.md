@@ -63,7 +63,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param ppropkey [out, optional]
 
-Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
 
 
                     Receives the name of the property of the leaf condition as a PROPERTYKEY.

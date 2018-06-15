@@ -124,7 +124,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
+<a href="https://www.bing.com/search?q=InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
@@ -132,11 +132,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>
+<a href="https://www.bing.com/search?q=InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>
 
 
 
-<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
+<a href="https://www.bing.com/search?q=PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

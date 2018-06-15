@@ -68,15 +68,15 @@ Specifies the ID of the attribute.
 ### -param pValueIds [out]
 
 On successful return points to a 
-<a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="e305240e-9e11-4006-98cc-26f4932d2118">VT_EMPTY</a> variant.
+<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VT_EMPTY</a> variant.
 
 
 ### -param pValuesDesc [out]
 
 On successful return points to a 
-<a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="e305240e-9e11-4006-98cc-26f4932d2118">VT_EMPTY</a> variant.
+<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VT_EMPTY</a> variant.
 
 
 ## -returns

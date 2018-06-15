@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 The 
-<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="gloss_c.htm">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
+<b>IEnumWbemClassObject</b> interface is used to enumerate <a href="https://www.bing.com/search?q=Common+Information+Model">Common Information Model</a> (CIM) objects and is similar to a standard COM enumerator.
 
 An object of type 
 <b>IEnumWbemClassObject</b> is received from calls to the following methods:

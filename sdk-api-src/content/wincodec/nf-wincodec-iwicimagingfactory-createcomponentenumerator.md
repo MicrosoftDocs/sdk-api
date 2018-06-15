@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Creates an <a href="_com_IEnumUnknown">IEnumUnknown</a> object of the specified component types.
+Creates an <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> object of the specified component types.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The <a href="https://msdn.microsoft.com/52cc0860-6164-4400-8e81-03eb0c44904e">WI
 
 ### -param ppIEnumUnknown [out]
 
-Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>**</b>
 
 A pointer that receives a pointer to a new component enumerator.
 

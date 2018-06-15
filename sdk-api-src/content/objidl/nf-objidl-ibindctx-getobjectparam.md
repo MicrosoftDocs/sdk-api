@@ -61,7 +61,7 @@ Retrieves an interface pointer to the object associated with the specified key i
 
 ### -param pszKey [in]
 
-The <a href="_shell_STR_constants_cpp">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
+The <a href="https://www.bing.com/search?q=bind+context+string+key">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
 
 
 ### -param ppunk [out]

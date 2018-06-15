@@ -53,7 +53,7 @@ req.irql:
 
 Represents disk partition information.  The enumeration flags identify certain properties of a disk partition, 
     which is a 
-    <a href="s_gly.htm">storage class resource</a>.
+    <a href="https://www.bing.com/search?q=storage+class+resource">storage class resource</a>.
 
 
 ## -enum-fields

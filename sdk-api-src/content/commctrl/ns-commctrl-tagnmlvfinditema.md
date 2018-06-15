@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information the owner needs to find items requested by a <a href="List_View_Controls_Overview.htm">virtual list-view</a> control. This structure is used with the <a href="https://msdn.microsoft.com/5a3f9fed-0c57-46bf-b986-ea8b54290b5e">LVN_ODFINDITEM</a> notification code. 
+Contains information the owner needs to find items requested by a <a href="https://www.bing.com/search?q=virtual+list-view">virtual list-view</a> control. This structure is used with the <a href="https://msdn.microsoft.com/5a3f9fed-0c57-46bf-b986-ea8b54290b5e">LVN_ODFINDITEM</a> notification code. 
 
 
 ## -struct-fields

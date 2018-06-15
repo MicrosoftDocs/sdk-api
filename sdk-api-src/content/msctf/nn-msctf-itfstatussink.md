@@ -98,7 +98,7 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 

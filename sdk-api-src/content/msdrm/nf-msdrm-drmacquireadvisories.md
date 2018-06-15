@@ -59,7 +59,7 @@ unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRMAcquireAdvisories</b> function retrieves revocation lists required by a submitted license. Retrieved revocation lists are added to the user's permanent license store. A revocation list is a signed XrML document that specifies principals that have been revoked because they are no longer considered trustworthy or valid. These principals can include <a href="r_gly.htm">rights account certificates</a>, <a href="m_gly.htm">machine certificates</a>, code-signing certificates, manifests, and server licensor certificates, among other things.
+The <b>DRMAcquireAdvisories</b> function retrieves revocation lists required by a submitted license. Retrieved revocation lists are added to the user's permanent license store. A revocation list is a signed XrML document that specifies principals that have been revoked because they are no longer considered trustworthy or valid. These principals can include <a href="https://www.bing.com/search?q=rights+account+certificates">rights account certificates</a>, <a href="https://www.bing.com/search?q=machine+certificates">machine certificates</a>, code-signing certificates, manifests, and server licensor certificates, among other things.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ A handle to a license storage session created by using the <a href="https://msdn
 
 ### -param wszLicense [in]
 
-A pointer to a null-terminated Unicode string that contains the license that requires a revocation list. This can be any license or certificate (or certificate chain or concatenated licenses) that supports revocation lists, including <a href="e_gly.htm">end-user licenses</a>, <a href="r_gly.htm">rights account certificates</a>, or <a href="c_gly.htm">client licensor certificates</a>.
+A pointer to a null-terminated Unicode string that contains the license that requires a revocation list. This can be any license or certificate (or certificate chain or concatenated licenses) that supports revocation lists, including <a href="https://www.bing.com/search?q=end-user+licenses">end-user licenses</a>, <a href="https://www.bing.com/search?q=rights+account+certificates">rights account certificates</a>, or <a href="https://www.bing.com/search?q=client+licensor+certificates">client licensor certificates</a>.
 
 
 ### -param wszURL [in, optional]

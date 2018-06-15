@@ -63,7 +63,7 @@ Gets the value from the current item as
 
 ### -param Data [out]
 
-An array of BYTE pointers, allocated with <a href="_com_CoTaskMemAlloc">CoTaskMemAlloc</a>, of length DataSize.
+An array of BYTE pointers, allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, of length DataSize.
 
 
 ### -param DataSize [out]

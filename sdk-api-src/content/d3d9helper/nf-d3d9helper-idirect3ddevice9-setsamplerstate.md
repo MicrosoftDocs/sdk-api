@@ -63,7 +63,7 @@ Sets the sampler state value.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-The sampler stage index. For more info about sampler stage, see <a href="vertex_textures_in_vs_3_0.htm">Sampling Stage Registers in vs_3_0 (DirectX HLSL)</a>.
+The sampler stage index. For more info about sampler stage, see <a href="https://www.bing.com/search?q=Sampling+Stage+Registers+in+vs_3_0+(DirectX+HLSL)">Sampling Stage Registers in vs_3_0 (DirectX HLSL)</a>.
 
 
 ### -param Type [in]
@@ -84,7 +84,7 @@ State value to set. The meaning of this value is determined by the Type paramete
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 

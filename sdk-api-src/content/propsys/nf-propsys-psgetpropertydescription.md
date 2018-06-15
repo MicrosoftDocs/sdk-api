@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets an instance of a property description interface for a property specified by a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
+Gets an instance of a property description interface for a property specified by a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets an instance of a property description interface for a property specified by
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
+Reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ### -param riid [in]
@@ -77,7 +77,7 @@ Reference to the interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescription">IPropertyDescription</a>, <a href="shell.IPropertyDescriptionAliasInfo">IPropertyDescriptionAliasInfo</a>, or <a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>, or <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionsearchinfo">IPropertyDescriptionSearchInfo</a>.
 
 
 ## -returns
@@ -122,7 +122,7 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+The <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a> to get the property description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSGetPropertyDescription">PSGetPropertyDescription</a> to get the property description for the ratings property.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -170,11 +170,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>
+<a href="https://www.bing.com/search?q=PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>
 
 
 
-<a href="shell.PSGetPropertySystem">PSGetPropertySystem</a>
+<a href="https://www.bing.com/search?q=PSGetPropertySystem">PSGetPropertySystem</a>
  
 
  

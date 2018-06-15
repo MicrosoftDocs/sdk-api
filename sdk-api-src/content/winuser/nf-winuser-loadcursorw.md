@@ -294,7 +294,7 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 #### Examples
 
-For an example, see <a href="using_cursors.htm">Creating a Cursor</a>.
+For an example, see <a href="https://www.bing.com/search?q=Creating+a+Cursor">Creating a Cursor</a>.
 
 <div class="code"></div>
 

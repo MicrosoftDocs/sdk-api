@@ -109,11 +109,11 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="mstv.msvidwebdvd_constants">MSVidWebDVD Constants</a>
+<a href="https://www.bing.com/search?q=MSVidWebDVD+Constants">MSVidWebDVD Constants</a>
 
 
 
-<a href="mstv.msvidwebdvd_showmenu_method">ShowMenu</a>
+<a href="https://www.bing.com/search?q=ShowMenu">ShowMenu</a>
  
 
  

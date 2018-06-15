@@ -91,7 +91,7 @@ Called when display attribute information is updated.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

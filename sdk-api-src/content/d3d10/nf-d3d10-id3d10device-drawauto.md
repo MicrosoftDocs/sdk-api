@@ -90,7 +90,7 @@ This API does not support indexing or instancing.
 
 If an application needs to retrieve the size of the streaming-output buffer, it can query for statistics on streaming output by using <a href="https://msdn.microsoft.com/f50197d6-48ba-498e-8c1b-9b0ae08a8782">D3D10_QUERY_SO_STATISTICS</a>.
 
-Example of using DrawAuto can be found in the <a href="a64ea742-2d5e-999b-a2a1-47fc80a94fda">ParticlesGS Sample</a> and <a href="9d95fe06-a330-011c-d755-e0225efe0f02">PipesGS Sample</a>.
+Example of using DrawAuto can be found in the <a href="https://msdn.microsoft.com/library/windows/desktop/a64ea742-2d5e-999b-a2a1-47fc80a94fda">ParticlesGS Sample</a> and <a href="https://msdn.microsoft.com/library/windows/desktop/9d95fe06-a330-011c-d755-e0225efe0f02">PipesGS Sample</a>.
 
 
 

@@ -835,7 +835,7 @@ The <b>cStoreProvFunc</b>  member of the <a href="https://msdn.microsoft.com/dc6
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
 
 
 

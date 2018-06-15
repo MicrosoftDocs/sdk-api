@@ -74,7 +74,7 @@ Number of container paths in the <i>ContainerPaths</i> array.
 ### -param ContainerPaths [in]
 
 Array of paths to container files that must be read in order to restore the file specified in the 
-      <a href="dedup.idedupbackupsupport_restorefile">IDedupBackupSupport::RestoreFiles</a> 
+      <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a> 
       call. Each element is a full path from the root directory of the volume to a container file.
 
 
@@ -98,7 +98,7 @@ Pointer to a buffer that receives an array of
 This method can return standard <b>HRESULT</b> values, such as 
       <b>S_OK</b>. It can also return converted 
       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using the 
-      <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values 
       include the following.
 
 

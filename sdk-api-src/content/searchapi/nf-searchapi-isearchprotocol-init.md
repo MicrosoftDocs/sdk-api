@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-        After the protocol handler is <a href="7295a55b-12c7-4ed0-a7a4-9ecee16afdec">created</a>, this method is called to perform any initialization specific to the protocol handler. This method is not called again.  
+        After the protocol handler is <a href="https://msdn.microsoft.com/library/windows/desktop/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">created</a>, this method is called to perform any initialization specific to the protocol handler. This method is not called again.  
       
 
 

@@ -92,7 +92,7 @@ Resource class is unknown.
 
 
 <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">Resource</a> is a 
-         <a href="n_gly.htm">network</a> device.
+         <a href="https://www.bing.com/search?q=network">network</a> device.
 
 
 

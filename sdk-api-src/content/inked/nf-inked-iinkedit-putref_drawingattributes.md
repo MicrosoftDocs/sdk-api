@@ -83,7 +83,7 @@ This property is different from the <a href="https://msdn.microsoft.com/de8b2473
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

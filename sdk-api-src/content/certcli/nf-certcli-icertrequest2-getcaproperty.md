@@ -237,7 +237,7 @@ Hexadecimal string with ASCII and address/offset
 
 A pointer to a <b>VARIANT</b> that receives the requested property value.
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
 
 
 ## -returns

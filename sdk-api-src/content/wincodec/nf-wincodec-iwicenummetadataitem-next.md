@@ -68,21 +68,21 @@ The number of items to be retrieved.
 
 ### -param rgeltSchema [in, out]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items. This parameter is optional.
 
 
 ### -param rgeltId [in, out]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items.
 
 
 ### -param rgeltValue [in, out, optional]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 An array of enumerated items. This parameter is optional.
 

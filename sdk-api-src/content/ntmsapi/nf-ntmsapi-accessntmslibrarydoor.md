@@ -278,7 +278,7 @@ Some libraries provide no means for RSM to programmatically lock and unlock thei
 
 
 
-<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
+<a href="https://www.bing.com/search?q=Library+Control+Functions">Library Control Functions</a>
  
 
  

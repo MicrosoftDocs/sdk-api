@@ -314,7 +314,7 @@ The returned pointer is freed when passed as the <i>pPrevCrlContext</i> paramete
 
 
 
-<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
+<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
  
 
  

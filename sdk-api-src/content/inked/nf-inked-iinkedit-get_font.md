@@ -80,7 +80,7 @@ Use the <b>Font</b> property of an <a href="https://msdn.microsoft.com/52761cb2-
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

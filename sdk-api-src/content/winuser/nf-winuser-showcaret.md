@@ -95,7 +95,7 @@ The system provides one caret per queue. A window should create a caret only whe
 
 #### Examples
 
-For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</a>.
+For an example, see <a href="https://www.bing.com/search?q=Creating+and+Displaying+a+Caret">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 

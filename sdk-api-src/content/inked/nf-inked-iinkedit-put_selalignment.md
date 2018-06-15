@@ -80,7 +80,7 @@ If a selection spans multiple paragraphs with different alignment styles, the <b
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
 
 
 

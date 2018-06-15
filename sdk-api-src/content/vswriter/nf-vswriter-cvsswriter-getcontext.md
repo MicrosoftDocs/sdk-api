@@ -88,7 +88,7 @@ A requester can set the context for a shadow copy by calling
 <a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a>.
 
 
-<a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a> generates a number of events (<a href="vssgloss_p.htm">PrepareForSnapshot</a>, <a href="vssgloss_f.htm">Freeze</a>, <a href="vssgloss_t.htm">Thaw</a>, <a href="vssgloss_p.htm">PostSnapshot</a>), the first of which is <i>PrepareForSnapshot</i>.
+<a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a> generates a number of events (<a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-p">PrepareForSnapshot</a>, <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">Freeze</a>, <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-t">Thaw</a>, <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-p">PostSnapshot</a>), the first of which is <i>PrepareForSnapshot</i>.
 
 Therefore, if a writer is participating in a shadow copy operation, a definitive value of that shadow copy's context cannot be found when 
 <b>GetContext</b> is called prior to 

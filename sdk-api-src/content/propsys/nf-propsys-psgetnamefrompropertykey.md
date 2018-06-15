@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Retrieves the canonical name of the property, given its <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
+Retrieves the canonical name of the property, given its <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Retrieves the canonical name of the property, given its <a href="shell.PROPERTYK
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that identifies the requested property.
+Reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure that identifies the requested property.
 
 
 ### -param ppszCanonicalName [out]
@@ -104,7 +104,7 @@ The property's canonical name is obtained.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="shell.PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ It is the responsibility of the calling application to use <a href="https://msdn
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -154,19 +154,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.IPropertyDescription_GetCanonicalName">IPropertyDescription::GetCanonicalName</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname">IPropertyDescription::GetCanonicalName</a>
 
 
 
-<a href="shell.PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>
+<a href="https://www.bing.com/search?q=PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a>
 
 
 
-<a href="shell.PSGetPropertyKeyFromName">PSGetPropertyKeyFromName</a>
+<a href="https://www.bing.com/search?q=PSGetPropertyKeyFromName">PSGetPropertyKeyFromName</a>
 
 
 
-<a href="shell.PSStringFromPropertyKey">PSStringFromPropertyKey</a>
+<a href="https://www.bing.com/search?q=PSStringFromPropertyKey">PSStringFromPropertyKey</a>
  
 
  

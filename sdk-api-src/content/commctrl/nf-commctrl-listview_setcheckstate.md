@@ -88,7 +88,7 @@ The index of the item for which to set the check state.
 
 
 
-This macro should only be used for list-view controls with the <a href="Extended_list_view_styles.htm">LVS_EX_CHECKBOXES</a> style. 
+This macro should only be used for list-view controls with the <a href="https://www.bing.com/search?q=LVS_EX_CHECKBOXES">LVS_EX_CHECKBOXES</a> style. 
 
 
 

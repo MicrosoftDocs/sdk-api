@@ -64,7 +64,7 @@ Retrieves the current state of the specified controller.
 
 ### -param dwUserIndex [in]
 
-Index of the user's controller. Can be a value from 0 to 3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="getting_started_with_xinput.htm">Multiple Controllers</a>.
+Index of the user's controller. Can be a value from 0 to 3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://docs.microsoft.com/windows/desktop//xinput/getting-started-with-xinput">Multiple Controllers</a>.
 
 
 ### -param pState [out]

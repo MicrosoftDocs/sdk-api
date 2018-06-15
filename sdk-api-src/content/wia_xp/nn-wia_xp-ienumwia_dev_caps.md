@@ -124,7 +124,7 @@ The <a href="https://msdn.microsoft.com/172f9ba6-5ca8-4d42-ba6b-5e9e5606b67d">IE
 
 
 
-The <b>IEnumWIA_DEV_CAPS</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="_com_ienumxxxx">IEnumXXXX</a>.
+The <b>IEnumWIA_DEV_CAPS</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="https://www.bing.com/search?q=IEnumXXXX">IEnumXXXX</a>.
 
 Applications obtain a pointer to the <b>IEnumWIA_DEV_CAPS</b> interface by invoking the <a href="https://msdn.microsoft.com/3a54ce9b-d266-4ab2-8256-cd8cf76d6b2f">IWiaItem::EnumDeviceCapabilities</a> method.
 
@@ -168,7 +168,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface, like all Component Object Model (COM) in
 
 
 
-<a href="_com_ienumxxxx">IEnumXXXX</a>
+<a href="https://www.bing.com/search?q=IEnumXXXX">IEnumXXXX</a>
 
 
 

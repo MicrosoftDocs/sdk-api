@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-It is recommended that you set the process-default DPI awareness via application manifest. See <a href="hidpi.setting_the_default_dpi_awareness_for_a_process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://www.bing.com/search?q=Setting+the+default+DPI+awareness+for+a+process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
 Sets the current process to a specified dots per inch (dpi) awareness context. The DPI awareness contexts are from the <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> value.
 
@@ -85,7 +85,7 @@ This API is a more advanced version of the previously existing <a href="https://
 
 This method sets the default <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> for all threads within an application. Individual threads can have their DPI awareness changed from the default with the <a href="https://msdn.microsoft.com/95531BDC-3D45-4BB6-8C63-0D845C66B88F">SetThreadDpiAwarenessContext</a> method.
 
-<div class="alert"><b>Important</b>  <p class="note">In general, it is recommended to not use <b>SetProcessDpiAwarenessContext</b> to set the DPI awareness for your application. If possible, you should declare the DPI awareness for your application in the application manifest. For more information, see <a href="hidpi.setting_the_default_dpi_awareness_for_a_process">Setting the default DPI awareness for a process</a>.
+<div class="alert"><b>Important</b>  <p class="note">In general, it is recommended to not use <b>SetProcessDpiAwarenessContext</b> to set the DPI awareness for your application. If possible, you should declare the DPI awareness for your application in the application manifest. For more information, see <a href="https://www.bing.com/search?q=Setting+the+default+DPI+awareness+for+a+process">Setting the default DPI awareness for a process</a>.
 
 </div>
 <div> </div>
@@ -109,7 +109,7 @@ If the DPI awareness level is not set, the default value is <b>DPI_AWARENESS_CON
 
 
 
-<a href="hidpi.setting_the_default_dpi_awareness_for_a_process">Setting the default DPI awareness for a process</a>
+<a href="https://www.bing.com/search?q=Setting+the+default+DPI+awareness+for+a+process">Setting the default DPI awareness for a process</a>
  
 
  
