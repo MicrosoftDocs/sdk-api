@@ -152,7 +152,7 @@ Empty arguments display mask.
 </tr>
 <tr>
 <td width="40%"><a id="tomMathDocEmptyArgAuto_"></a><a id="tommathdocemptyargauto_"></a><a id="TOMMATHDOCEMPTYARGAUTO_"></a><dl>
-<dt><b><a href="tomconstants.htm">tomMathDocEmptyArgAuto </a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathDocEmptyArgAuto </a></b></dt>
 </dl>
 </td>
 <td width="60%">

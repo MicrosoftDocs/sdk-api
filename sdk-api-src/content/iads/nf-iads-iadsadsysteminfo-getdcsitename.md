@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:iads.IADsADSystemInfo.GetDCSiteName
 title: IADsADSystemInfo::GetDCSiteName
 author: windows-sdk-content
@@ -193,7 +193,7 @@ wscript.echo "Domain Controller site: " &amp; sys.GetDCSiteName(dc)
 
 
 
-<a href="ad.active_directory_core_concepts">Active Directory Core
+<a href="https://msdn.microsoft.com/en-us/library/aa772157.aspx">Active Directory Core
     Concepts</a>
 
 

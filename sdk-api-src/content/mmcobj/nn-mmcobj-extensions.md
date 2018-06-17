@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the <a href="T:System.Security.Cryptography.X509Certificates.X509ExtensionCollection">X509ExtensionCollection Class</a> in the <a href="https://www.bing.com/search?q=System.Security.Cryptography.X509Certificates">System.Security.Cryptography.X509Certificates</a> namespace.]
+<p class="CCE_Message">[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509extensioncollection(v=vs.110).aspx">X509ExtensionCollection Class</a> in the <a href="https://www.bing.com/search?q=System.Security.Cryptography.X509Certificates">System.Security.Cryptography.X509Certificates</a> namespace.]
 
 The <b>Extensions</b> object represents a collection of <a href="https://msdn.microsoft.com/cca3121d-0f0f-4de2-a225-6dd3910078d7">Extension</a> objects. Each <a href="https://msdn.microsoft.com/cca3121d-0f0f-4de2-a225-6dd3910078d7">Extension</a> object represents a single certificate extension.
 

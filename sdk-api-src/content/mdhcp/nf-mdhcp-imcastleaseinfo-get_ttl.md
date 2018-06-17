@@ -57,7 +57,7 @@ provides similar functionality.]
 
  The 
 <b>get_TTL</b> method obtains the 
-<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) value associated with this lease.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">time to live</a> (TTL) value associated with this lease.
 
 
 ## -parameters

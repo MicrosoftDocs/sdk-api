@@ -18,4 +18,4 @@ tech.root: automat
 
 This header is used by Automation. For more information, see:
 
-- [Automation](/previous-versions/windows/desktop/automat)
+- [Automation](/previous-versions/windows/desktop/_automat)

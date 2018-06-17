@@ -134,7 +134,7 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 
-<a href="../tapi3/address_ovr.htm">Dialable Addresses</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms726020(v=vs.85).aspx">Dialable Addresses</a>
 
 
 

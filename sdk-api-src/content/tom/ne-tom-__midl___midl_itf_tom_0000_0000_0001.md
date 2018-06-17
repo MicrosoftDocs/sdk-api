@@ -3,7 +3,7 @@ UID: NE:tom.__MIDL___MIDL_itf_tom_0000_0000_0001
 title: "__MIDL___MIDL_itf_tom_0000_0000_0001"
 author: windows-sdk-content
 description: Defines values that are used with the Text Object Model (TOM)&#32;API.
-old-location: controls\tomconstants.htm
+old-location: controls\https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx
 old-project: Controls
 ms.assetid: 041b0f07-3a7c-4ed9-9d1c-8373eacfb2ec
 ms.author: windowssdkdev
@@ -3091,26 +3091,26 @@ Enable recursive build up.
 
 Mask for specifying changes to make during math linearization (build down). It can be a combination of the following values. 
 
-<a href="tomconstants.htm">tomMathInsRowBefore</a>
-<a href="tomconstants.htm">tomMathInsRowAfter</a>
-<a href="tomconstants.htm">tomMathInsColBefore</a>
-<a href="tomconstants.htm">tomMathInsColAfter</a>
-<a href="tomconstants.htm">tomMathDeleteRow</a>
-<a href="tomconstants.htm">tomMathDeleteCol</a>
-<a href="tomconstants.htm">tomMathDeleteArg</a>
-<a href="tomconstants.htm">tomMathDeleteArg1</a>
-<a href="tomconstants.htm">tomMathDeleteArg2</a>
-<a href="tomconstants.htm">tomMathMakeFracLinear</a>
-<a href="tomconstants.htm">tomMathMakeFracStacked</a>
-<a href="tomconstants.htm">tomMathMakeFracSlashed</a>
-<a href="tomconstants.htm">tomMathMakeLeftSubSup</a>
-<a href="tomconstants.htm">tomMathMakeSubSup</a>
-<a href="tomconstants.htm">tomMathBackspace</a>
-<a href="tomconstants.htm">tomMathEnter</a>
-<a href="tomconstants.htm">tomMathShiftTab</a>
-<a href="tomconstants.htm">tomMathTab</a>
-<a href="tomconstants.htm">tomMathSubscript</a>
-<a href="tomconstants.htm">tomMathSuperscript</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathInsRowBefore</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathInsRowAfter</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathInsColBefore</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathInsColAfter</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathDeleteRow</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathDeleteCol</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathDeleteArg</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathDeleteArg1</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathDeleteArg2</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathMakeFracLinear</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathMakeFracStacked</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathMakeFracSlashed</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathMakeLeftSubSup</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathMakeSubSup</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathBackspace</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathEnter</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathShiftTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathTab</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathSubscript</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomMathSuperscript</a>
 
 #### - tomMathCollapseSel
 
@@ -3250,19 +3250,19 @@ The character is treated as part of the current operand.
 #### - tomTeX
 
 Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
-<dd><a href="tomconstants.htm">tomStyleDefault</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptScriptCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptScript</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScript</a></dd>
-<dd><a href="tomconstants.htm">tomStyleTextCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleText</a></dd>
-<dd><a href="tomconstants.htm">tomStyleDisplayCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleDisplay</a></dd>
-<dd><a href="tomconstants.htm">tomDecDecSize</a></dd>
-<dd><a href="tomconstants.htm">tomDecSize</a></dd>
-<dd><a href="tomconstants.htm">tomIncSize</a></dd>
-<dd><a href="tomconstants.htm">tomIncIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleDefault</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleScriptScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleScriptScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleTextCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleText</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleDisplayCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStyleDisplay</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomDecDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomIncIncSize</a></dd>
 </dl>
 
 

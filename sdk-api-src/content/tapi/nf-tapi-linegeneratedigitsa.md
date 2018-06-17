@@ -86,7 +86,7 @@ Pointer to a <b>null</b>-terminated character buffer that contains the digits to
 In addition, the comma (,)  is also a valid character. A comma injects an extra delay between the signaling of the previous and next digits it separates. The duration of this pause is configuration defined, and the line device capabilities indicate this duration. Multiple commas can be used to inject longer pauses. Invalid digits are ignored during the generation, rather than being reported as errors.
 
 The exclamation (!) is a valid character. This character causes a "hookflash" operation, as described for 
-<a href="../tapi3/address_ovr.htm">dialable addresses</a>.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms726020(v=vs.85).aspx">dialable addresses</a>.
 
 
 ### -param dwDuration

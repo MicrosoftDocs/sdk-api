@@ -90,7 +90,7 @@ Advertising scope is the world.
 
 
 Mapping between scope string value, enum value, and 
-<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) based on SDP Internet draft.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">time to live</a> (TTL) based on SDP Internet draft.
 
 <table>
 <tr>

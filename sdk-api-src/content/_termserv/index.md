@@ -20,7 +20,7 @@ To develop Remote Desktop Services, you need these headers:
  * [audioapotypes.h](../audioapotypes/index.md)
  * [cchannel.h](../cchannel/index.md)
  * [pchannel.h](../pchannel/index.md)
- * [rdpappcontainerclient.h](../rdpappcontainerclient/index.md)
+ * [rdpappcontainerclient.h](https://msdn.microsoft.com/en-us/library/aa383022.aspx)
  * [sbtsv.h](../sbtsv/index.md)
  * [sessdirpublictypes.h](../sessdirpublictypes/index.md)
  * [tsgauthenticationengine.h](../tsgauthenticationengine/index.md)

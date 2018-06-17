@@ -382,7 +382,7 @@ The inline object alignment, which can be one of these meanings depending on the
 <dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroWidth</a></dt>
 <dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroAscent</a></dt>
 <dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroDescent</a></dt>
-<dt><a href="tomconstants.htm">tomPhantomTransparent
+<dt><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomPhantomTransparent
 </a></dt>
 </dl>
 </td>
@@ -402,7 +402,7 @@ The inline object alignment, which can be one of these meanings depending on the
 <dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchCharBelow</a></dt>
 <dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchCharAbove</a></dt>
 <dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchBaseBelow</a></dt>
-<dt><a href="tomconstants.htm">tomStretchBaseAbove
+<dt><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStretchBaseAbove
 </a></dt>
 </dl>
 </td>

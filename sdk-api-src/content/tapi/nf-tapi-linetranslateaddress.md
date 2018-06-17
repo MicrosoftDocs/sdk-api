@@ -133,7 +133,7 @@ LINEERR_BADDEVICEID, LINEERR_INVALPOINTER, LINEERR_INCOMPATIBLEAPIVERSION, LINEE
 
 
 
-<a href="../tapi3/address_ovr.htm">Canonical Addresses</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms726020(v=vs.85).aspx">Canonical Addresses</a>
 
 
 

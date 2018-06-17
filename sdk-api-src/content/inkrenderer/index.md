@@ -18,4 +18,4 @@ tech.root: input_ink
 
 This header is used by Ink input. For more information, see:
 
-- [Ink input](/previous-versions/windows/desktop/input_ink)
+- [Ink input](https://msdn.microsoft.com/en-us/library/windows/desktop/mt592874(v=vs.85).aspx)

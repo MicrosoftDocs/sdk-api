@@ -65,7 +65,7 @@ The
 ### -param lpszDestAddress
 
 Pointer to a memory location where the <b>null</b>-terminated destination address of the call request is located. The address can use the 
-<a href="../tapi3/address_ovr.htm">canonical address</a> format. Validity of the specified address is not checked by this operation. The maximum length of the address is TAPIMAXDESTADDRESSSIZE characters, which includes the <b>NULL</b> terminator.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms726020(v=vs.85).aspx">canonical address</a> format. Validity of the specified address is not checked by this operation. The maximum length of the address is TAPIMAXDESTADDRESSSIZE characters, which includes the <b>NULL</b> terminator.
 
 
 ### -param lpszAppName

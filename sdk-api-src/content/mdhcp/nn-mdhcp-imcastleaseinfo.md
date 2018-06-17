@@ -145,7 +145,7 @@ Obtains a string representing the address of the multicast server granting this 
 </td>
 <td align="left" width="63%">
 Obtains the 
-<a href="../tapi2/t_tapgloss.htm">TTL</a> (time to live) value associated with this lease.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">TTL</a> (time to live) value associated with this lease.
 
 </td>
 </tr>

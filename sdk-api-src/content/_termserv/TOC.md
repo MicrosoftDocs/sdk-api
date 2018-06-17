@@ -14,7 +14,7 @@
 ## [Pchannel.h](../pchannel/index.md)
 ### [tagCHANNEL_DEF structure](../pchannel/ns-pchannel-tagchannel_def.md)
 ### [tagCHANNEL_PDU_HEADER structure](../pchannel/ns-pchannel-tagchannel_pdu_header.md)
-## [Rdpappcontainerclient.h](../rdpappcontainerclient/index.md)
+## [Rdpappcontainerclient.h](https://msdn.microsoft.com/en-us/library/aa383022.aspx)
 ### [IRemoteDesktopClient interface](../rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient.md)
 ### [IRemoteDesktopClient::Connect](../rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect.md)
 ### [IRemoteDesktopClient::DeleteSavedCredentials](../rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials.md)

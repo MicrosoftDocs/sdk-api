@@ -273,7 +273,6 @@ Using the Windows API, you can develop applications that run successfully on all
                         <p><a href="_cimwin32/index.md">CIMWin32 WMI Providers</a></p>
                         <p><a href="_hyperv/index.md">Hyper-V management</a></p>
                         <p><a href="_mdmreg/index.md">Mobile Device Management Registration</a></p>
-                        <p><a href="_ndisimplatcim/index.md">MsNetImPlatform Provider</a></p>
                         <p><a href="_nfswmi/index.md">WMI Provider for NFS</a></p>
                         <p><a href="_sr/index.md">System Restore</a></p>
                         <p><a href="_taskschd/index.md">Task Scheduler</a></p>
