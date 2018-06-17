@@ -2,7 +2,7 @@
 UID: NA:ole2
 ms.assetid: 1d9df7c1-fc0a-3201-b97a-ff59a0d4806f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: com
 
 This header is used by Component Object Model (COM). For more information, see:
 
-- [Component Object Model (COM)](../_com/index.md)
+- [Component Object Model (COM)](/windows/desktop/com)

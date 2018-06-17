@@ -2,7 +2,7 @@
 UID: NA:emptyvc
 ms.assetid: dc9171a7-acf9-3e6d-b584-9fdbd2cebd74
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: lwef
 
 This header is used by Legacy Windows Environment Features. For more information, see:
 
-- [Legacy Windows Environment Features](../_lwef/index.md)
+- [Legacy Windows Environment Features](/windows/desktop/lwef)

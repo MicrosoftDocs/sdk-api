@@ -2,7 +2,7 @@
 UID: NA:dpa_dsa
 ms.assetid: 7e3c9fef-2a50-3900-9159-5f808500813e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: controls
 
 This header is used by Windows Controls. For more information, see:
 
-- [Windows Controls](../_controls/index.md)
+- [Windows Controls](/windows/desktop/controls)

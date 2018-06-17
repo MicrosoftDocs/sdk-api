@@ -2,7 +2,7 @@
 UID: TP:netmgmt
 ms.assetid: 8945323d-7076-32b1-b620-104bd20964b6
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

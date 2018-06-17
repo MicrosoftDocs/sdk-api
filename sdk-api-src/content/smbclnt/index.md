@@ -2,7 +2,7 @@
 UID: NA:smbclnt
 ms.assetid: c410e4e9-03fd-3d67-a73f-60913950e2df
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: mscs
 
 This header is used by Windows Clustering. For more information, see:
 
-- [Windows Clustering](../_mscs/index.md)
+- [Windows Clustering](/previous-versions/windows/desktop/mscs)

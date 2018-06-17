@@ -2,7 +2,7 @@
 UID: TP:display
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,5 +27,5 @@ To develop Display Devices Reference, you need these headers:
  * [dxmini.h](../dxmini/index.md)
 
 For programming guidance for this technology, see:
-* [Display Devices Reference](/windows/desktop/display)
+* [Display Devices Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/display)
 

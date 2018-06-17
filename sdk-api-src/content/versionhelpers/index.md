@@ -2,7 +2,7 @@
 UID: NA:versionhelpers
 ms.assetid: 92defb9a-8bb0-348a-9465-c80575f46e76
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](../_base/index.md)
+- [System Services](/windows/desktop/base)

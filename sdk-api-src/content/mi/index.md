@@ -2,7 +2,7 @@
 UID: NA:mi
 ms.assetid: aac31f17-22ba-3534-a0bf-99947d893f79
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: wmi_v2
 
 This header is used by Windows Management Infrastructure (MI). For more information, see:
 
-- [Windows Management Infrastructure (MI)](../_wmi_v2/index.md)
+- [Windows Management Infrastructure (MI)](/previous-versions/windows/desktop/wmi_v2)

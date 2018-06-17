@@ -2,7 +2,7 @@
 UID: NA:rtworkq
 ms.assetid: 06c7fdc2-9333-3940-a5bd-7045b727547c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](../_base/index.md)
+- [System Services](/windows/desktop/base)

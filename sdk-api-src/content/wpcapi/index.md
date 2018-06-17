@@ -2,7 +2,7 @@
 UID: NA:wpcapi
 ms.assetid: aa101964-29d6-3a16-a9ba-b679c3b2f453
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: parcon
 
 This header is used by Parental Controls. For more information, see:
 
-- [Parental Controls](../_parcon/index.md)
+- [Parental Controls](/windows/desktop/parcon)

@@ -2,7 +2,7 @@
 UID: NA:ndattrib
 ms.assetid: b46801ad-3080-30d3-892e-f72e227339f1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: ndf
 
 This header is used by Network Diagnostics Framework. For more information, see:
 
-- [Network Diagnostics Framework](../_ndf/index.md)
+- [Network Diagnostics Framework](/windows/desktop/ndf)

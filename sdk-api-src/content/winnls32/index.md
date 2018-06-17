@@ -2,7 +2,7 @@
 UID: NA:winnls32
 ms.assetid: 9d85d13a-e95a-3710-b362-a95c1cb893e6
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winprog
 
 This header is used by Developer Notes. For more information, see:
 
-- [Developer Notes](../_winprog/index.md)
+- [Developer Notes](/windows/desktop/winprog)

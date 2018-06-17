@@ -2,7 +2,7 @@
 UID: NA:iptypes
 ms.assetid: 0f7dd978-af05-3b0d-b777-5418cffa0188
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: iphlp
 
 This header is used by IP Helper. For more information, see:
 
-- [IP Helper](../_iphlp/index.md)
+- [IP Helper](/windows/desktop/iphlp)

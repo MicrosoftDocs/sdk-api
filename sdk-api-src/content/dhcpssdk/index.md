@@ -2,7 +2,7 @@
 UID: NA:dhcpssdk
 ms.assetid: 9323c364-117e-30e2-b820-54802b5fa17c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: dhcp
 
 This header is used by Dynamic Host Configuration Protocol (DHCP). For more information, see:
 
-- [Dynamic Host Configuration Protocol (DHCP)](../_dhcp/index.md)
+- [Dynamic Host Configuration Protocol (DHCP)](/previous-versions/windows/desktop/dhcp)

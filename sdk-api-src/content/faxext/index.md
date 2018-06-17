@@ -2,7 +2,7 @@
 UID: NA:faxext
 ms.assetid: adfdde34-9f7f-33eb-a351-06b0bf1d2aa4
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: fax
 
 This header is used by Fax Service. For more information, see:
 
-- [Fax Service](../_fax/index.md)
+- [Fax Service](/previous-versions/windows/desktop/fax)

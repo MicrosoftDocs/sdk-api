@@ -2,7 +2,7 @@
 UID: TP:sidebar
 ms.assetid: 5b5f5c9e-0112-3ee8-962d-1fc7c54df431
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,5 @@ To develop Windows Sidebar, you need these headers:
  * [wbemcli.h](../wbemcli/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Sidebar](/previous-versions/windows/desktop/sidebar)
+* [Windows Sidebar](/previous-versions/windows/desktop/api/_sidebar/index)
 

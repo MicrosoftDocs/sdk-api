@@ -2,7 +2,7 @@
 UID: NA:wmdxva
 ms.assetid: 1c6817b8-67a7-3af0-a00a-34a7c68ccef2
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wmformat
 
 This header is used by Windows Media Format 11 SDK. For more information, see:
 
-- [Windows Media Format 11 SDK](../_wmformat/index.md)
+- [Windows Media Format 11 SDK](/windows/desktop/wmformat)

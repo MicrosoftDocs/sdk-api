@@ -2,7 +2,7 @@
 UID: NA:propidl
 ms.assetid: 35325608-666b-3821-b511-23a7a15f76f8
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: properties
 
 This header is used by Windows Property System. For more information, see:
 
-- [Windows Property System](../_properties/index.md)
+- [Windows Property System](/windows/desktop/properties)

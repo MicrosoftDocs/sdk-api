@@ -2,7 +2,7 @@
 UID: NA:perflib
 ms.assetid: 882c5ff2-079d-3e33-9d2a-f993faf213fd
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: perf
 
 This header is used by Performance Counters. For more information, see:
 
-- [Performance Counters](../_perf/index.md)
+- [Performance Counters](/windows/desktop/perf)

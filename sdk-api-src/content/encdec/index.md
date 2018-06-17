@@ -2,7 +2,7 @@
 UID: NA:encdec
 ms.assetid: f69c62a8-282e-30f5-84ac-d7caed8c1d85
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: mstv
 
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv/index.md)
+- [Microsoft TV Technologies](/previous-versions/windows/desktop/api/_mstv/index)

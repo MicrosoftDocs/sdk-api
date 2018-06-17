@@ -2,7 +2,7 @@
 UID: NA:wcmconfig
 ms.assetid: 95ac423c-bf97-334b-a8ff-0e284ec817e7
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: smi
 
 This header is used by Settings Management Infrastructure (SMI). For more information, see:
 
-- [Settings Management Infrastructure (SMI)](../_smi/index.md)
+- [Settings Management Infrastructure (SMI)](/previous-versions/windows/desktop/smi)

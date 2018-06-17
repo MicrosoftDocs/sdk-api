@@ -2,7 +2,7 @@
 UID: NA:mfmediaengine
 ms.assetid: 9dfb2fb5-fa8b-38bc-8b9d-e286a70fbc70
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: mf
 
 This header is used by Microsoft Media Foundation. For more information, see:
 
-- [Microsoft Media Foundation](../_mf/index.md)
+- [Microsoft Media Foundation](/windows/desktop/mf)

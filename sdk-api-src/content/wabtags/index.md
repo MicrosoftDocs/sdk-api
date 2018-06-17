@@ -2,7 +2,7 @@
 UID: NA:wabtags
 ms.assetid: 95712084-f6c7-32d3-90ec-060f4f56f1ba
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: wab
 
 This header is used by Windows Address Book. For more information, see:
 
-- [Windows Address Book](../_wab/index.md)
+- [Windows Address Book](/previous-versions/windows/desktop/wab)

@@ -2,7 +2,7 @@
 UID: NA:windows.media.core.interop
 ms.assetid: ac82089b-5833-36c5-961e-38216f91cd89
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrt
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](../_winrt/index.md)
+- [Windows Runtime C++ reference](/windows/desktop/winrt)

@@ -2,7 +2,7 @@
 UID: NA:wlanapi
 ms.assetid: c52fde82-91c5-3309-aa1a-665fe3afd5ad
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: nwifi
 
 This header is used by Native Wifi. For more information, see:
 
-- [Native Wifi](../_nwifi/index.md)
+- [Native Wifi](/windows/desktop/nwifi)

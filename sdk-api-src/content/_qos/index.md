@@ -2,7 +2,7 @@
 UID: TP:qos
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -30,5 +30,5 @@ To develop Quality of Service (QOS), you need these headers:
  * [winsock2.h](../winsock2/index.md)
 
 For programming guidance for this technology, see:
-* [Quality of Service (QOS)](/previous-versions/windows/desktop/qos)
+* [Quality of Service (QOS)](/previous-versions/windows/desktop/api/_qos/index)
 

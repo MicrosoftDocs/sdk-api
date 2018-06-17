@@ -2,7 +2,7 @@
 UID: TP:remoteassist
 ms.assetid: 0428476b-93a6-3bbc-b71e-e24fdda86703
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

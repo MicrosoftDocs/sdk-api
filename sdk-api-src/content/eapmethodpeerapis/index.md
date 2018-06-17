@@ -2,7 +2,7 @@
 UID: NA:eapmethodpeerapis
 ms.assetid: ecb62220-b7eb-3b8f-892d-f198488f2833
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: eaphost
 
 This header is used by Extensible Authentication Protocol Host. For more information, see:
 
-- [Extensible Authentication Protocol Host](../_eaphost/index.md)
+- [Extensible Authentication Protocol Host](/previous-versions/windows/desktop/eaphost)

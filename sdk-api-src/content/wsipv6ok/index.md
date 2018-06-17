@@ -2,7 +2,7 @@
 UID: NA:wsipv6ok
 ms.assetid: 37f26d23-2596-3f0e-add4-124f21eac266
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winsock
 
 This header is used by Windows Sockets 2. For more information, see:
 
-- [Windows Sockets 2](../_winsock/index.md)
+- [Windows Sockets 2](/windows/desktop/winsock)

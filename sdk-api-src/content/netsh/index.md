@@ -2,7 +2,7 @@
 UID: NA:netsh
 ms.assetid: 27853dd3-deab-3c04-b057-b805862bd855
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: netshell
 
 This header is used by NetShell. For more information, see:
 
-- [NetShell](../_netshell/index.md)
+- [NetShell](/previous-versions/windows/desktop/netshell)

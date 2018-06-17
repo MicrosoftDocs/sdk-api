@@ -2,7 +2,7 @@
 UID: NA:lmapibuf
 ms.assetid: b954c882-6e1d-3d59-b534-1d53c4b3e6c1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: netmgmt
 
 This header is used by Network Management. For more information, see:
 
-- [Network Management](../_netmgmt/index.md)
+- [Network Management](/windows/desktop/netmgmt)

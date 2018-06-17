@@ -2,7 +2,7 @@
 UID: TP:kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,5 @@ To develop Kernel-Mode Driver Reference, you need these headers:
  * [ntdef.h](../ntdef/index.md)
 
 For programming guidance for this technology, see:
-* [Kernel-Mode Driver Reference](/windows/desktop/kernel)
+* [Kernel-Mode Driver Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel)
 

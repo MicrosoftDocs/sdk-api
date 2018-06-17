@@ -2,7 +2,7 @@
 UID: NA:iads
 ms.assetid: 37322777-fb68-3a55-ad40-96f9b9258dd2
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: security
 
 This header is used by Security and Identity. For more information, see:
 
-- [Security and Identity](../_security/index.md)
+- [Security and Identity](/windows/desktop/security)

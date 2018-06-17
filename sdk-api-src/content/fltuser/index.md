@@ -2,7 +2,7 @@
 UID: NA:fltuser
 ms.assetid: 9960ef10-d342-395e-87c4-6b13f82ae703
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: ifsk
 
 This header is used by Installable file systems DDI reference. For more information, see:
 
-- [Installable file systems DDI reference](../_ifsk/index.md)
+- [Installable file systems DDI reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs)

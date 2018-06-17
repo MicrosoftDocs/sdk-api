@@ -2,7 +2,7 @@
 UID: NA:fontsub
 ms.assetid: 6833a040-f023-32b7-89ca-6053ded43f00
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: gdi
 
 This header is used by Windows GDI. For more information, see:
 
-- [Windows GDI](../_gdi/index.md)
+- [Windows GDI](/windows/desktop/gdi)

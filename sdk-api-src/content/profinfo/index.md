@@ -2,7 +2,7 @@
 UID: NA:profinfo
 ms.assetid: cb4cdb83-0353-3618-b576-37e40ef77b40
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: shell
 
 This header is used by The Windows Shell. For more information, see:
 
-- [The Windows Shell](../_shell/index.md)
+- [The Windows Shell](/windows/desktop/shell)

@@ -2,7 +2,7 @@
 UID: TP:battery
 ms.assetid: 7433fa8b-bcff-3cc7-a61e-27c29a2f632b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,5 @@ To develop Battery Devices Reference, you need these headers:
  * [batclass.h](../batclass/index.md)
 
 For programming guidance for this technology, see:
-* [Battery Devices Reference](/windows/desktop/battery)
+* [Battery Devices Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/battery)
 

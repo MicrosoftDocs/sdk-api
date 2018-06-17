@@ -2,7 +2,7 @@
 UID: TP:gdi
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,5 +27,5 @@ To develop Windows GDI, you need these headers:
 
 For programming guidance for this technology, see:
 * [Windows GDI](/windows/desktop/gdi)
-* [Documents and Printing](/windows/desktop/printdocs)
+* [Documents and Printing](https://msdn.microsoft.com/en-us/library/windows/desktop/ff686798(v=vs.85).aspx)
 

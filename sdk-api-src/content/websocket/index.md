@@ -2,7 +2,7 @@
 UID: NA:websocket
 ms.assetid: aea56bd7-1b37-3cb6-947e-696852041f02
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: websock
 
 This header is used by WebSocket Protocol Component API. For more information, see:
 
-- [WebSocket Protocol Component API](../_websock/index.md)
+- [WebSocket Protocol Component API](/windows/desktop/websock)

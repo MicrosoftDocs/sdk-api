@@ -2,7 +2,7 @@
 UID: NA:roerrorapi
 ms.assetid: 64b817c0-a6c6-3622-afda-8f70a35835b9
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrt
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](../_winrt/index.md)
+- [Windows Runtime C++ reference](/windows/desktop/winrt)

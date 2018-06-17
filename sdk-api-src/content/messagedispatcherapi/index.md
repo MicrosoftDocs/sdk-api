@@ -2,7 +2,7 @@
 UID: NA:messagedispatcherapi
 ms.assetid: a6b68246-129d-30af-8dfd-a41ca723f15f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: com
 
 This header is used by Component Object Model (COM). For more information, see:
 
-- [Component Object Model (COM)](../_com/index.md)
+- [Component Object Model (COM)](/windows/desktop/com)

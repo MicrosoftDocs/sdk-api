@@ -2,7 +2,7 @@
 UID: NA:ctffunc
 ms.assetid: 544f4680-8139-360e-a028-49b65c7f5c93
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: tsf
 
 This header is used by Text Services Framework. For more information, see:
 
-- [Text Services Framework](../_tsf/index.md)
+- [Text Services Framework](/windows/desktop/tsf)

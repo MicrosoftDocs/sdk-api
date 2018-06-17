@@ -2,7 +2,7 @@
 UID: NA:raseapif
 ms.assetid: e655ee18-e35d-3e45-a978-87a1288d8061
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: eap
 
 This header is used by Extensible Authentication Protocol. For more information, see:
 
-- [Extensible Authentication Protocol](../_eap/index.md)
+- [Extensible Authentication Protocol](/previous-versions/windows/desktop/eap)

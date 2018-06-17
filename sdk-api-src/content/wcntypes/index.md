@@ -2,7 +2,7 @@
 UID: NA:wcntypes
 ms.assetid: 8c51489e-b819-31c3-9ad5-afd92ca63608
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wcn
 
 This header is used by Windows Connect Now. For more information, see:
 
-- [Windows Connect Now](../_wcn/index.md)
+- [Windows Connect Now](/windows/desktop/wcn)

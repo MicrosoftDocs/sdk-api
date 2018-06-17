@@ -2,7 +2,7 @@
 UID: NA:notificationactivationcallback
 ms.assetid: bd43c3d1-f444-368e-89ce-2a1a2a9a0197
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: win32_tile_badge_notif
 
 This header is used by Tiles, badges, and notifications for Classic desktop applications. For more information, see:
 
-- [Tiles, badges, and notifications for Classic desktop applications](../_win32_tile_badge_notif/index.md)
+- [Tiles, badges, and notifications for Classic desktop applications](/previous-versions/windows/desktop/win32_tile_badge_notif)

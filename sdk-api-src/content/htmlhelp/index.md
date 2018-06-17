@@ -2,7 +2,7 @@
 UID: NA:htmlhelp
 ms.assetid: b629df63-ed88-35d2-810d-a309160c7f7d
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: htmlhelp
 
 This header is used by Microsoft HTML Help 1.4. For more information, see:
 
-- [Microsoft HTML Help 1.4](../_htmlhelp/index.md)
+- [Microsoft HTML Help 1.4](/previous-versions/windows/desktop/htmlhelp)

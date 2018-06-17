@@ -2,7 +2,7 @@
 UID: NA:gpedit
 ms.assetid: f8fa14ea-82f1-3d7a-b407-e1cfbaa9c44b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: policy
 
 This header is used by Group Policy API. For more information, see:
 
-- [Group Policy API](../_policy/index.md)
+- [Group Policy API](/previous-versions/windows/desktop/policy)

@@ -2,7 +2,7 @@
 UID: NA:ual
 ms.assetid: fa81b147-e0d7-36ae-8648-c11cf8644f80
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: ual
 
 This header is used by User Access Logging. For more information, see:
 
-- [User Access Logging](../_ual/index.md)
+- [User Access Logging](/previous-versions/windows/desktop/ual)

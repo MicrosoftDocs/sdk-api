@@ -2,7 +2,7 @@
 UID: NA:winperf
 ms.assetid: 0224ed0c-d13b-3116-b174-aad1f2d5f9ac
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: perf
 
 This header is used by Performance Counters. For more information, see:
 
-- [Performance Counters](../_perf/index.md)
+- [Performance Counters](/windows/desktop/perf)

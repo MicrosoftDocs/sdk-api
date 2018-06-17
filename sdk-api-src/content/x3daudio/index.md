@@ -2,7 +2,7 @@
 UID: NA:x3daudio
 ms.assetid: 07b380d5-6a4d-380a-b05e-6d9912f83b2b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: xaudio2
 
 This header is used by XAudio2 APIs. For more information, see:
 
-- [XAudio2 APIs](../_xaudio2/index.md)
+- [XAudio2 APIs](/windows/desktop/xaudio2)

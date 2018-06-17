@@ -2,7 +2,7 @@
 UID: NA:windowsx
 ms.assetid: 50044a11-4fd3-396d-8d3b-479f5a1f284d
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: controls
 
 This header is used by Windows Controls. For more information, see:
 
-- [Windows Controls](../_controls/index.md)
+- [Windows Controls](/windows/desktop/controls)

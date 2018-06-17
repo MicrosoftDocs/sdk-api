@@ -2,7 +2,7 @@
 UID: TP:xps
 ms.assetid: 047318b5-29f7-3069-a13a-0bf4c2391b71
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -25,5 +25,5 @@ To develop XPS Documents, you need these headers:
  * [xpsprint.h](../xpsprint/index.md)
 
 For programming guidance for this technology, see:
-* [Documents and Printing](/windows/desktop/printdocs)
+* [Documents and Printing](https://msdn.microsoft.com/en-us/library/windows/desktop/ff686798(v=vs.85).aspx)
 

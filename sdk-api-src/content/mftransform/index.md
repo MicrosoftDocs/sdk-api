@@ -2,7 +2,7 @@
 UID: NA:mftransform
 ms.assetid: 0d01b4e7-a8bd-3daf-a967-84a5905034fd
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: mf
 
 This header is used by Microsoft Media Foundation. For more information, see:
 
-- [Microsoft Media Foundation](../_mf/index.md)
+- [Microsoft Media Foundation](/windows/desktop/mf)

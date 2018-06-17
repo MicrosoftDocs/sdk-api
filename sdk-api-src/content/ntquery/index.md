@@ -2,7 +2,7 @@
 UID: NA:ntquery
 ms.assetid: 989477d6-2525-3cf7-ac0e-6da4977c5a5e
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: indexsrv
 
 This header is used by Indexing Service. For more information, see:
 
-- [Indexing Service](../_indexsrv/index.md)
+- [Indexing Service](/previous-versions/windows/desktop/api/_indexsrv/index)

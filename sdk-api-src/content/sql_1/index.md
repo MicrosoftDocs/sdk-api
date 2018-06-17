@@ -2,7 +2,7 @@
 UID: NA:sql_1
 ms.assetid: 26f85945-15b8-3979-a921-e06f86d2547a
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: netmon
 
 This header is used by Network Monitor. For more information, see:
 
-- [Network Monitor](../_netmon/index.md)
+- [Network Monitor](/windows/desktop/netmon)
