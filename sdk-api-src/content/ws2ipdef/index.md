@@ -2,7 +2,7 @@
 UID: NA:ws2ipdef
 ms.assetid: 0b5e9c34-d4cb-3d5e-adb7-89d7a9f8f532
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: iphlp
 
 This header is used by IP Helper. For more information, see:
 
-- [IP Helper](../_iphlp/index.md)
+- [IP Helper](/windows/desktop/iphlp)

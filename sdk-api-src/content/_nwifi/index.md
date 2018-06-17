@@ -2,7 +2,7 @@
 UID: TP:nwifi
 ms.assetid: 227f4254-b09f-375a-9c76-7690364582b1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,5 @@ To develop Native Wifi, you need these headers:
  * [wlanapi.h](../wlanapi/index.md)
 
 For programming guidance for this technology, see:
-* [Native Wifi](/windows/desktop/NativeWiFi)
+* [Native Wifi](/windows/desktop/nativewifi)
 

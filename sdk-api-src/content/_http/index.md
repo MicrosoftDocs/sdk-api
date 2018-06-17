@@ -2,7 +2,7 @@
 UID: TP:http
 ms.assetid: cfab313a-3f98-3ef1-aa82-fdcc1fc87df9
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,6 +21,6 @@ To develop Windows HTTP Services (WinHTTP), you need these headers:
  * [winhttp.h](../winhttp/index.md)
 
 For programming guidance for this technology, see:
-* [HTTP Server API](/windows/desktop/Http)
-* [Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp)
+* [HTTP Server API](/windows/desktop/http)
+* [Windows HTTP Services (WinHTTP)](/windows/desktop/winhttp)
 

@@ -2,7 +2,7 @@
 UID: NA:radialcontrollerinterop
 ms.assetid: d781c2b2-f7a0-3d61-9675-5e4e9726e48f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: input_radial
 
 This header is used by Radial controller input. For more information, see:
 
-- [Radial controller input](../_input_radial/index.md)
+- [Radial controller input](/previous-versions/windows/desktop/input_radial)

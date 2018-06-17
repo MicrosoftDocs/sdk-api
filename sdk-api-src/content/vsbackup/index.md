@@ -2,7 +2,7 @@
 UID: NA:vsbackup
 ms.assetid: 4bf4b5d4-5f59-3e33-9a22-07f505a006d7
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](../_base/index.md)
+- [System Services](/windows/desktop/base)

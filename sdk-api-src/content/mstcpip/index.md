@@ -2,7 +2,7 @@
 UID: NA:mstcpip
 ms.assetid: 5795aad3-d73f-3d60-acb3-db3855cccafa
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winsock
 
 This header is used by Windows Sockets 2. For more information, see:
 
-- [Windows Sockets 2](../_winsock/index.md)
+- [Windows Sockets 2](/windows/desktop/winsock)

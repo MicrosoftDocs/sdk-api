@@ -2,7 +2,7 @@
 UID: NA:winber
 ms.assetid: 7c6aa3f9-11ea-3c75-87c8-8c3cf028f197
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: ldap
 
 This header is used by Lightweight Directory Access Protocol. For more information, see:
 
-- [Lightweight Directory Access Protocol](../_ldap/index.md)
+- [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap)

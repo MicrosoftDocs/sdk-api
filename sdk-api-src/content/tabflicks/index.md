@@ -2,7 +2,7 @@
 UID: NA:tabflicks
 ms.assetid: f224c61b-8fb6-3ad9-badb-08ad2ecca395
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: tablet
 
 This header is used by Tablet PC. For more information, see:
 
-- [Tablet PC](../_tablet/index.md)
+- [Tablet PC](/windows/desktop/tablet)

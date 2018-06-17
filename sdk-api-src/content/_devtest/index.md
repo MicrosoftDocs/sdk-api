@@ -2,7 +2,7 @@
 UID: TP:devtest
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,5 @@ Overview of the Driver Development Tools Reference technology.
 The Driver Development Tools Reference technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Driver Development Tools Reference](/windows/desktop/devtest)
+* [Driver Development Tools Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest)
 

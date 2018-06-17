@@ -2,7 +2,7 @@
 UID: NA:virtdisk
 ms.assetid: a48ab29b-70df-3605-aa11-a93da33433d8
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: vhd
 
 This header is used by Virtual Hard Disk. For more information, see:
 
-- [Virtual Hard Disk](../_vhd/index.md)
+- [Virtual Hard Disk](/windows/desktop/vhd)

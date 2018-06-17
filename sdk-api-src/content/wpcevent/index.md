@@ -2,7 +2,7 @@
 UID: NA:wpcevent
 ms.assetid: 9a522c75-7a22-3cfb-a82e-bb1e411d03d5
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: parcon
 
 This header is used by Parental Controls. For more information, see:
 
-- [Parental Controls](../_parcon/index.md)
+- [Parental Controls](/windows/desktop/parcon)

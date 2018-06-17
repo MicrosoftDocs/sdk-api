@@ -2,7 +2,7 @@
 UID: NA:iketypes
 ms.assetid: 4cabed8b-566b-3f4d-93a7-04be3e62e55b
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: fwp
 
 This header is used by Windows Filtering Platform. For more information, see:
 
-- [Windows Filtering Platform](../_fwp/index.md)
+- [Windows Filtering Platform](/windows/desktop/fwp)

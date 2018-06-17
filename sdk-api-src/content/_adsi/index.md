@@ -2,7 +2,7 @@
 UID: TP:adsi
 ms.assetid: 534ca0a3-4d26-3e5d-a913-50ae21601fba
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,6 +20,6 @@ To develop Active Directory Service Interfaces, you need these headers:
  * [adshlp.h](../adshlp/index.md)
 
 For programming guidance for this technology, see:
-* [Active Directory Service Interfaces](/windows/desktop/ADSI)
-* [Glossary](/windows/desktop/DSGlossary)
+* [Active Directory Service Interfaces](/windows/desktop/adsi)
+* [Glossary](https://social.technet.microsoft.com/wiki/contents/articles/16757.active-directory-glossary.aspx)
 

@@ -2,7 +2,7 @@
 UID: NA:winioctl
 ms.assetid: b57381b4-a30b-3480-bb22-800166343283
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](../_base/index.md)
+- [System Services](/windows/desktop/base)

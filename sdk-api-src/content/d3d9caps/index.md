@@ -2,7 +2,7 @@
 UID: NA:d3d9caps
 ms.assetid: 9e673793-a9e8-36aa-ba1d-9887d36549c5
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: direct3d9
 
 This header is used by Direct3D 9 Graphics. For more information, see:
 
-- [Direct3D 9 Graphics](../_direct3d9/index.md)
+- [Direct3D 9 Graphics](/windows/desktop/direct3d9)

@@ -2,7 +2,7 @@
 UID: TP:tapi2
 ms.assetid: d4383253-bb9f-3e50-9472-7eb4b1e25b60
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,5 +20,5 @@ To develop TAPI 2.2, you need these headers:
  * [tapi.h](../tapi/index.md)
 
 For programming guidance for this technology, see:
-* [Telephony Application Programming Interfaces](/windows/desktop/Tapi)
+* [Telephony Application Programming Interfaces](/previous-versions/windows/desktop/api/_automat/index)
 

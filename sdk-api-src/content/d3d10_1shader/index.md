@@ -2,7 +2,7 @@
 UID: NA:d3d10_1shader
 ms.assetid: f090e6c5-5779-3039-9c63-603483f0fec0
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: direct3d10
 
 This header is used by Direct3D 10 Graphics. For more information, see:
 
-- [Direct3D 10 Graphics](../_direct3d10/index.md)
+- [Direct3D 10 Graphics](/windows/desktop/direct3d10)

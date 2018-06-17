@@ -2,7 +2,7 @@
 UID: NA:wdstci
 ms.assetid: 99907bac-e07a-38b4-afcd-be1c08ac8854
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wds
 
 This header is used by Windows Deployment Services. For more information, see:
 
-- [Windows Deployment Services](../_wds/index.md)
+- [Windows Deployment Services](/windows/desktop/wds)

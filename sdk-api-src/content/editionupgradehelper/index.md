@@ -2,7 +2,7 @@
 UID: NA:editionupgradehelper
 ms.assetid: e220ce67-0c29-3729-b009-d04e1c740663
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winprog
 
 This header is used by Developer Notes. For more information, see:
 
-- [Developer Notes](../_winprog/index.md)
+- [Developer Notes](/windows/desktop/winprog)

@@ -2,7 +2,7 @@
 UID: NA:msapofxproxy
 ms.assetid: 7d1ccc83-8d8e-360f-8bcc-fee9ee400c97
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: audio
 
 This header is used by Audio Devices DDI Reference. For more information, see:
 
-- [Audio Devices DDI Reference](../_audio/index.md)
+- [Audio Devices DDI Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio)

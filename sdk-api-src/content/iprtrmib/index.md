@@ -2,7 +2,7 @@
 UID: NA:iprtrmib
 ms.assetid: 70b4bda9-716f-335c-9f7c-f2413550adb3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: iphlp
 
 This header is used by IP Helper. For more information, see:
 
-- [IP Helper](../_iphlp/index.md)
+- [IP Helper](/windows/desktop/iphlp)

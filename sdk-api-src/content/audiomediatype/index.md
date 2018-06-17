@@ -2,7 +2,7 @@
 UID: NA:audiomediatype
 ms.assetid: a32832d5-ede2-3438-b5ba-e272f47e11a1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: audio
 
 This header is used by Audio Devices DDI Reference. For more information, see:
 
-- [Audio Devices DDI Reference](../_audio/index.md)
+- [Audio Devices DDI Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio)

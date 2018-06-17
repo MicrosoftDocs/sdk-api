@@ -2,7 +2,7 @@
 UID: NA:icontact
 ms.assetid: c62c671d-c967-3561-84d5-ca8e3fe1b2f6
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: wincontacts
 
 This header is used by Windows Contacts. For more information, see:
 
-- [Windows Contacts](../_wincontacts/index.md)
+- [Windows Contacts](/previous-versions/windows/desktop/wincontacts)

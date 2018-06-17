@@ -2,7 +2,7 @@
 UID: NA:refptrco
 ms.assetid: f80ad2b3-75e3-3de1-b71a-f841b474b6b3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wmi
 
 This header is used by Windows Management Instrumentation. For more information, see:
 
-- [Windows Management Instrumentation](../_wmi/index.md)
+- [Windows Management Instrumentation](/windows/desktop/wmi)

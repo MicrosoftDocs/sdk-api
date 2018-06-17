@@ -2,7 +2,7 @@
 UID: NA:tspubplugin2com
 ms.assetid: 188e3156-885e-3f73-873d-d6473a0c7833
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: termserv
 
 This header is used by Remote Desktop Services. For more information, see:
 
-- [Remote Desktop Services](../_termserv/index.md)
+- [Remote Desktop Services](/windows/desktop/termserv)

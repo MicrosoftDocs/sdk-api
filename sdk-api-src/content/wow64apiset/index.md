@@ -2,7 +2,7 @@
 UID: NA:wow64apiset
 ms.assetid: 29f82b2f-9e6c-375e-b7d1-eb5b5094ef7a
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](../_base/index.md)
+- [System Services](/windows/desktop/base)

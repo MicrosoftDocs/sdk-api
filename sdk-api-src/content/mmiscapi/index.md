@@ -2,7 +2,7 @@
 UID: NA:mmiscapi
 ms.assetid: eb97769d-c3e1-35d3-9bb8-e7b6bcb3bbed
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: multimedia
 
 This header is used by Windows Multimedia. For more information, see:
 
-- [Windows Multimedia](../_multimedia/index.md)
+- [Windows Multimedia](/windows/desktop/multimedia)

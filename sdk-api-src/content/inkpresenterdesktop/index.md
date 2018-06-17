@@ -2,7 +2,7 @@
 UID: NA:inkpresenterdesktop
 ms.assetid: 45556f03-b45f-35f6-aed6-0c56c4bda63f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: input_ink
 
 This header is used by Ink input. For more information, see:
 
-- [Ink input](../_input_ink/index.md)
+- [Ink input](/previous-versions/windows/desktop/input_ink)

@@ -2,7 +2,7 @@
 UID: TP:base
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,20 +67,20 @@ To develop System Services, you need these headers:
  * [wow64apiset.h](../wow64apiset/index.md)
 
 For programming guidance for this technology, see:
-* [Error Handling](/windows/desktop/Debug)
-* [Debug Help Library](/windows/desktop/Debug)
-* [Communications Resources](/windows/desktop/DevIO)
-* [Dynamic-Link Libraries](/windows/desktop/Dlls)
-* [Event Logging](/windows/desktop/EventLog)
+* [Error Handling](/windows/desktop/debug)
+* [Debug Help Library](/windows/desktop/debug)
+* [Communications Resources](/windows/desktop/devio)
+* [Dynamic-Link Libraries](/windows/desktop/dlls)
+* [Event Logging](/windows/desktop/eventlog)
 * [Interprocess Communications](/windows/desktop/ipc)
-* [Memory Management](/windows/desktop/Memory)
-* [Power Management](/windows/desktop/Power)
-* [Processes and Threads](/windows/desktop/ProcThread)
-* [Services](/windows/desktop/Services)
-* [System Shutdown](/windows/desktop/Shutdown)
-* [Synchronization](/windows/desktop/Sync)
-* [Windows System Information](/windows/desktop/SysInfo)
-* [Virtual Disk Service](/windows/desktop/VDS)
-* [VDS Reference](/windows/desktop/VDS)
-* [Volume Shadow Copy Service](/windows/desktop/VSS)
+* [Memory Management](/windows/desktop/memory)
+* [Power Management](/windows/desktop/power)
+* [Processes and Threads](/windows/desktop/procthread)
+* [Services](/windows/desktop/services)
+* [System Shutdown](/windows/desktop/shutdown)
+* [Synchronization](/windows/desktop/sync)
+* [Windows System Information](/windows/desktop/sysinfo)
+* [Virtual Disk Service](https://msdn.microsoft.com/en-us/library/windows/desktop/bb986750(v=vs.85).aspx)
+* [VDS Reference](https://msdn.microsoft.com/en-us/library/windows/desktop/bb986750(v=vs.85).aspx)
+* [Volume Shadow Copy Service](/windows/desktop/vss)
 

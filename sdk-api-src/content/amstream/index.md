@@ -2,7 +2,7 @@
 UID: NA:amstream
 ms.assetid: 1973f69c-90bf-398a-80a6-b6b22ddad994
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: dshow
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](../_dshow/index.md)
+- [DirectShow](/windows/desktop/dshow)

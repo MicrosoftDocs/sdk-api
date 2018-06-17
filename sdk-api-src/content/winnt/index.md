@@ -2,7 +2,7 @@
 UID: NA:winnt
 ms.assetid: 800710c2-56cd-36a6-a445-b2520f403001
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: backup
 
 This header is used by Backup. For more information, see:
 
-- [Backup](../_backup/index.md)
+- [Backup](/windows/desktop/backup)

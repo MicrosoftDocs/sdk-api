@@ -2,7 +2,7 @@
 UID: NA:netioapi
 ms.assetid: f65aa596-03b5-3fe2-b778-37604a4294d3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: iphlp
 
 This header is used by IP Helper. For more information, see:
 
-- [IP Helper](../_iphlp/index.md)
+- [IP Helper](/windows/desktop/iphlp)

@@ -2,7 +2,7 @@
 UID: NA:winsatcominterfacei
 ms.assetid: 76c75004-d546-3d55-9e2d-5744db03b8ab
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winsat
 
 This header is used by Windows System Assessment Tool. For more information, see:
 
-- [Windows System Assessment Tool](../_winsat/index.md)
+- [Windows System Assessment Tool](/windows/desktop/winsat)

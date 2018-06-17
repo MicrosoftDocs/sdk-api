@@ -2,7 +2,7 @@
 UID: TP:indexsrv
 ms.assetid: 45f6cbf9-5f8f-3f61-8756-c82b7e311782
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,5 +24,5 @@ To develop Indexing Service, you need these headers:
  * [ntquery.h](../ntquery/index.md)
 
 For programming guidance for this technology, see:
-* [Indexing Service](/previous-versions/windows/desktop/indexsrv)
+* [Indexing Service](/previous-versions/windows/desktop/api/_indexsrv/index)
 

@@ -2,7 +2,7 @@
 UID: NA:wininet
 ms.assetid: cfa0b87e-f033-358a-aa2b-383f900343b9
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winprog
 
 This header is used by Developer Notes. For more information, see:
 
-- [Developer Notes](../_winprog/index.md)
+- [Developer Notes](/windows/desktop/winprog)

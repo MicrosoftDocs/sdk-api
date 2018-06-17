@@ -2,7 +2,7 @@
 UID: NA:lpmapi
 ms.assetid: 54aff8d3-0546-33cb-ad37-052164689bac
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: qos
 
 This header is used by Quality of Service (QOS). For more information, see:
 
-- [Quality of Service (QOS)](../_qos/index.md)
+- [Quality of Service (QOS)](/previous-versions/windows/desktop/api/_qos/index)

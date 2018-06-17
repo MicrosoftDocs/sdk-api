@@ -2,7 +2,7 @@
 UID: NA:spellcheck
 ms.assetid: f76616ad-6324-32ad-b54a-894aef1cf4af
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: spellcheck
 
 This header is used by Spell Checker API. For more information, see:
 
-- [Spell Checker API](../_spellcheck/index.md)
+- [Spell Checker API](/previous-versions/windows/desktop/api/_spellcheck/index)

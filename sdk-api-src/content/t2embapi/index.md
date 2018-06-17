@@ -2,7 +2,7 @@
 UID: NA:t2embapi
 ms.assetid: 56646535-c93f-30ed-8193-2f68e356b508
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: gdi
 
 This header is used by Windows GDI. For more information, see:
 
-- [Windows GDI](../_gdi/index.md)
+- [Windows GDI](/windows/desktop/gdi)

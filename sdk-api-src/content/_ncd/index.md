@@ -2,7 +2,7 @@
 UID: TP:ncd
 ms.assetid: e1a7e0e3-7a4f-305f-9c8c-47beba62ae6d
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -32,6 +32,6 @@ To develop Other Devices Technologies, you need these headers:
  * [wsdxmldom.h](../wsdxmldom/index.md)
 
 For programming guidance for this technology, see:
-* [Function Discovery](/windows/desktop/FunDisc)
-* [Web Services on Devices](/windows/desktop/WsdApi)
+* [Function Discovery](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814070(v=vs.85).aspx)
+* [Web Services on Devices](/windows/desktop/wsdapi)
 

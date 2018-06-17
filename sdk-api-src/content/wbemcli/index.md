@@ -2,7 +2,7 @@
 UID: NA:wbemcli
 ms.assetid: 3329853a-ad21-3382-a214-ab37a51be85a
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: sidebar
 
 This header is used by Windows Sidebar. For more information, see:
 
-- [Windows Sidebar](../_sidebar/index.md)
+- [Windows Sidebar](/previous-versions/windows/desktop/api/_sidebar/index)

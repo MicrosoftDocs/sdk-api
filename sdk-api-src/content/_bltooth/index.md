@@ -2,7 +2,7 @@
 UID: TP:bltooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,5 @@ To develop Bluetooth Devices Reference, you need these headers:
  * [bthledef.h](../bthledef/index.md)
 
 For programming guidance for this technology, see:
-* [Bluetooth Devices Reference](/windows/desktop/bltooth)
+* [Bluetooth Devices Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/bluetooth/)
 

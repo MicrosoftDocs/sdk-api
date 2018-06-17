@@ -2,7 +2,7 @@
 UID: NA:identitycommon
 ms.assetid: ecfe21d1-b6bf-32d4-a8cf-93ffd4272965
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: security
 
 This header is used by Security and Identity. For more information, see:
 
-- [Security and Identity](../_security/index.md)
+- [Security and Identity](/windows/desktop/security)

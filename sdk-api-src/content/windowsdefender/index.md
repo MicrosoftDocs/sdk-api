@@ -2,7 +2,7 @@
 UID: NA:windowsdefender
 ms.assetid: 732e4cd7-396f-3741-9704-37e9d5720b2a
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: lwef
 
 This header is used by Legacy Windows Environment Features. For more information, see:
 
-- [Legacy Windows Environment Features](../_lwef/index.md)
+- [Legacy Windows Environment Features](/windows/desktop/lwef)

@@ -2,7 +2,7 @@
 UID: NA:icmpapi
 ms.assetid: 5b83b7d2-6c5a-3c65-852e-c8c1e9c9c0a4
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: iphlp
 
 This header is used by IP Helper. For more information, see:
 
-- [IP Helper](../_iphlp/index.md)
+- [IP Helper](/windows/desktop/iphlp)

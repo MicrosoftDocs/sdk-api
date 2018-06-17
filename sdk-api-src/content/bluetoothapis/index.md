@@ -2,7 +2,7 @@
 UID: NA:bluetoothapis
 ms.assetid: 7e6756ab-d600-3ad6-98c6-23228515bb5c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: bluetooth
 
 This header is used by Bluetooth. For more information, see:
 
-- [Bluetooth](../_bluetooth/index.md)
+- [Bluetooth](/windows/desktop/bluetooth)

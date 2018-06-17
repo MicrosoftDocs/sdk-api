@@ -2,7 +2,7 @@
 UID: TP:vstor
 ms.assetid: 7572d149-9532-3543-a1bd-0a81a813d12c
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,5 +18,5 @@ Overview of the Virtual Storage technology.
 The Virtual Storage technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Virtual Storage](/windows/desktop/vstor)
+* [Virtual Storage](https://msdn.microsoft.com/en-us/library/windows/desktop/dd323653(v=vs.85).aspx)
 

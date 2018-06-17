@@ -2,7 +2,7 @@
 UID: NA:shellscalingapi
 ms.assetid: d748591d-610c-3f80-98ea-e0680533f5c1
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: hidpi
 
 This header is used by High DPI. For more information, see:
 
-- [High DPI](../_hidpi/index.md)
+- [High DPI](/windows/desktop/hidpi)

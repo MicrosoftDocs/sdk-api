@@ -2,7 +2,7 @@
 UID: NA:functiondiscoveryapi
 ms.assetid: a3472a20-20e1-397a-8bf3-816b1cf1e6fd
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: ncd
 
 This header is used by Other Devices Technologies. For more information, see:
 
-- [Other Devices Technologies](../_ncd/index.md)
+- [Other Devices Technologies](/windows/desktop/ncd)

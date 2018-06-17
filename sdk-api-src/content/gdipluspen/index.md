@@ -2,7 +2,7 @@
 UID: NA:gdipluspen
 ms.assetid: e8cc414b-0375-3d05-a43d-1c37d63982c3
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: gdiplus
 
 This header is used by GDI+. For more information, see:
 
-- [GDI+](../_gdiplus/index.md)
+- [GDI+](/windows/desktop/gdiplus)

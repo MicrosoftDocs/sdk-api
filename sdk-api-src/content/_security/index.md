@@ -2,7 +2,7 @@
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,14 +76,14 @@ To develop Security and Identity, you need these headers:
  * [xenroll.h](../xenroll/index.md)
 
 For programming guidance for this technology, see:
-* [Authentication](/windows/desktop/SecAuthN)
-* [Authorization](/windows/desktop/SecAuthZ)
-* [Best Practices for the Security APIs](/windows/desktop/SecBP)
-* [Certificate Enrollment API](/windows/desktop/SecCertEnroll)
-* [Cryptography API: Next Generation](/windows/desktop/SecCNG)
-* [Cryptography](/windows/desktop/SecCrypto)
-* [Security Glossary](/windows/desktop/SecGloss)
-* [Security Management](/windows/desktop/SecMgmt)
-* [Security WMI Providers](/windows/desktop/SecProv)
-* [Software Licensing API](/windows/desktop/SecSLApi)
+* [Authentication](/windows/desktop/secauthn)
+* [Authorization](/windows/desktop/secauthz)
+* [Best Practices for the Security APIs](/windows/desktop/secbp)
+* [Certificate Enrollment API](/windows/desktop/seccertenroll)
+* [Cryptography API: Next Generation](/windows/desktop/seccng)
+* [Cryptography](/windows/desktop/seccrypto)
+* [Security Glossary](/windows/desktop/secgloss)
+* [Security Management](/windows/desktop/secmgmt)
+* [Security WMI Providers](/windows/desktop/secprov)
+* [Software Licensing API](/windows/desktop/secslapi)
 

@@ -2,7 +2,7 @@
 UID: NA:wuapi
 ms.assetid: 0fd48484-58f6-339c-971f-415c0f2d4678
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wua
 
 This header is used by Windows Update Agent API. For more information, see:
 
-- [Windows Update Agent API](../_wua/index.md)
+- [Windows Update Agent API](/windows/desktop/wua)

@@ -2,7 +2,7 @@
 UID: NA:winefs
 ms.assetid: ed616764-d220-3733-87e3-a22d2583f482
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: fs
 
 This header is used by Data Access and Storage. For more information, see:
 
-- [Data Access and Storage](../_fs/index.md)
+- [Data Access and Storage](/windows/desktop/fs)

@@ -2,7 +2,7 @@
 UID: NA:hstring
 ms.assetid: 9bd7916a-48da-39a9-aa05-550a15a1f6c4
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrt
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](../_winrt/index.md)
+- [Windows Runtime C++ reference](/windows/desktop/winrt)

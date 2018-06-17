@@ -2,7 +2,7 @@
 UID: NA:winsafer
 ms.assetid: a41919ee-07b9-3c9d-9b40-e3735e91f391
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: security
 
 This header is used by Security and Identity. For more information, see:
 
-- [Security and Identity](../_security/index.md)
+- [Security and Identity](/windows/desktop/security)

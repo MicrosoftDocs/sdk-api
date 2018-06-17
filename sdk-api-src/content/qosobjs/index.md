@@ -2,7 +2,7 @@
 UID: NA:qosobjs
 ms.assetid: 3a6805db-4bd5-3c71-be14-63083ccb7508
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: qos
 
 This header is used by Quality of Service (QOS). For more information, see:
 
-- [Quality of Service (QOS)](../_qos/index.md)
+- [Quality of Service (QOS)](/previous-versions/windows/desktop/api/_qos/index)

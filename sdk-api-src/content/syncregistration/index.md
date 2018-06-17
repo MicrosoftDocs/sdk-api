@@ -2,7 +2,7 @@
 UID: NA:syncregistration
 ms.assetid: 05194385-47f4-366f-94d1-ba46ad648cba
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: winsync
 
 This header is used by Windows Sync. For more information, see:
 
-- [Windows Sync](../_winsync/index.md)
+- [Windows Sync](/previous-versions/windows/desktop/winsync)

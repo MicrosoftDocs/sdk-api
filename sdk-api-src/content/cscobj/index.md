@@ -2,7 +2,7 @@
 UID: NA:cscobj
 ms.assetid: 9cc082e3-9819-3507-b9ff-9018d3ecc51f
 ms.author: windowssdkdev
-ms.date: 06/15/2018
+ms.date: 06/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -19,4 +19,4 @@ tech.root: of
 
 This header is used by Offline Files. For more information, see:
 
-- [Offline Files](../_of/index.md)
+- [Offline Files](/previous-versions/windows/desktop/of)
