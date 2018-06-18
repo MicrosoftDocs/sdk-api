@@ -2,7 +2,7 @@
 UID: NA:usp10
 ms.assetid: c0950729-82e0-39b8-bd02-08df109a66ad
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: intl
 
 This header is used by Internationalization for Windows Applications. For more information, see:
 
-- [Internationalization for Windows Applications](/windows/desktop/intl)
+- [Internationalization for Windows Applications](../_intl)

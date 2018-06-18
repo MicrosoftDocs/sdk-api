@@ -2,7 +2,7 @@
 UID: NA:wmdmlog
 ms.assetid: 768ad17d-dd13-3c63-9a41-66550e0f3b5e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wmdm
 
 This header is used by Windows Media Device Manager 11 SDK. For more information, see:
 
-- [Windows Media Device Manager 11 SDK](/windows/desktop/wmdm)
+- [Windows Media Device Manager 11 SDK](../_wmdm)

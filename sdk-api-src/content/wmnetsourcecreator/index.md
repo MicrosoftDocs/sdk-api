@@ -2,7 +2,7 @@
 UID: NA:wmnetsourcecreator
 ms.assetid: eb14f58a-2cb1-3a1a-aaa5-fc2ef1eb4bc0
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wmformat
 
 This header is used by Windows Media Format 11 SDK. For more information, see:
 
-- [Windows Media Format 11 SDK](/windows/desktop/wmformat)
+- [Windows Media Format 11 SDK](../_wmformat)

@@ -2,7 +2,7 @@
 UID: NA:sensapi
 ms.assetid: 554e8a9b-1a97-3bbf-93d0-109cf9b2cd09
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: sens
 
 This header is used by System Event Notification Service. For more information, see:
 
-- [System Event Notification Service](/windows/desktop/sens)
+- [System Event Notification Service](../_sens)

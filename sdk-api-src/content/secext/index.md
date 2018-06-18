@@ -2,7 +2,7 @@
 UID: NA:secext
 ms.assetid: 1930331a-062c-3f33-bc0a-73e6d8cda9ef
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](/windows/desktop/base)
+- [System Services](../_base)

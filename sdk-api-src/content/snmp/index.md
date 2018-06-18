@@ -2,7 +2,7 @@
 UID: NA:snmp
 ms.assetid: ee6e30d8-1567-383e-8ee8-89568a834400
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: snmp
 
 This header is used by Simple Network Management Protocol. For more information, see:
 
-- [Simple Network Management Protocol](/windows/desktop/snmp)
+- [Simple Network Management Protocol](../_snmp)

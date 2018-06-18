@@ -2,7 +2,7 @@
 UID: NA:realtimeapiset
 ms.assetid: 56954e94-5413-37c0-8652-f06fa37b14a7
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](/windows/desktop/base)
+- [System Services](../_base)

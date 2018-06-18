@@ -2,7 +2,7 @@
 UID: NA:winineti
 ms.assetid: 5bab60d1-106e-33c7-98c8-c939d66a155d
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wininet
 
 This header is used by Windows Internet. For more information, see:
 
-- [Windows Internet](/windows/desktop/wininet)
+- [Windows Internet](../_wininet)

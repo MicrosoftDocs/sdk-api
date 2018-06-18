@@ -2,13 +2,13 @@
 UID: NA:rendezvoussession
 ms.assetid: d76524da-6e39-368d-b19d-8e3686e62f27
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: remoteassist
+archived: true
 ---
 
 # Rendezvoussession.h header
@@ -19,4 +19,4 @@ tech.root: remoteassist
 
 This header is used by Remote Assistance. For more information, see:
 
-- [Remote Assistance](/previous-versions/windows/desktop/remoteassist)
+- [Remote Assistance](../_remoteassist)

@@ -2,13 +2,13 @@
 UID: NA:wnvapi
 ms.assetid: f882ce4a-20d7-339b-9fcd-bc37cfd92d99
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wnv
+archived: true
 ---
 
 # Wnvapi.h header
@@ -19,4 +19,4 @@ tech.root: wnv
 
 This header is used by Windows Network Virtualization. For more information, see:
 
-- [Windows Network Virtualization](/previous-versions/windows/desktop/wnv)
+- [Windows Network Virtualization](../_wnv)

@@ -2,7 +2,7 @@
 UID: NA:rpcdcep
 ms.assetid: 466566d5-c1f1-3a27-b263-0e94ec24f7b9
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: rpc
 
 This header is used by Remote Procedure Call (RPC). For more information, see:
 
-- [Remote Procedure Call (RPC)](/windows/desktop/rpc)
+- [Remote Procedure Call (RPC)](../_rpc)

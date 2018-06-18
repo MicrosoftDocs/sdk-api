@@ -2,13 +2,13 @@
 UID: NA:msdrmdefs
 ms.assetid: 1265dd49-2078-393e-b0a2-386a7ca10d38
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: rm
+archived: true
 ---
 
 # Msdrmdefs.h header
@@ -19,4 +19,4 @@ tech.root: rm
 
 This header is used by Active Directory Rights Management Services SDK. For more information, see:
 
-- [Active Directory Rights Management Services SDK](/previous-versions/windows/desktop/rm)
+- [Active Directory Rights Management Services SDK](../_rm)

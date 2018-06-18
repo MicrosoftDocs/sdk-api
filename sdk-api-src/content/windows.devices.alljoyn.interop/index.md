@@ -2,13 +2,13 @@
 UID: NA:windows.devices.alljoyn.interop
 ms.assetid: 2c766203-b990-32c4-bed9-d664aec33084
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: alljoyn
+archived: true
 ---
 
 # Windows.Devices.Alljoyn.Interop.h header
@@ -19,4 +19,4 @@ tech.root: alljoyn
 
 This header is used by AllJoyn API. For more information, see:
 
-- [AllJoyn API](/previous-versions/windows/desktop/api/_alljoyn/index)
+- [AllJoyn API](../_alljoyn)

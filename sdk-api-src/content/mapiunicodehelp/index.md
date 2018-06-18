@@ -2,13 +2,13 @@
 UID: NA:mapiunicodehelp
 ms.assetid: 934df035-3853-348e-9aea-890d961e71f7
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mapi
+archived: true
 ---
 
 # Mapiunicodehelp.h header
@@ -19,4 +19,4 @@ tech.root: mapi
 
 This header is used by Windows Messaging (MAPI). For more information, see:
 
-- [Windows Messaging (MAPI)](/previous-versions/windows/desktop/mapi)
+- [Windows Messaging (MAPI)](../_mapi)

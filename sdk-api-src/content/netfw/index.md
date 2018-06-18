@@ -2,13 +2,13 @@
 UID: NA:netfw
 ms.assetid: 93a8b9f0-44a4-3194-b24f-bb1328222e71
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ics
+archived: true
 ---
 
 # Netfw.h header
@@ -19,4 +19,4 @@ tech.root: ics
 
 This header is used by Windows Firewall Technologies. For more information, see:
 
-- [Windows Firewall Technologies](/previous-versions/windows/desktop/ics)
+- [Windows Firewall Technologies](../_ics)

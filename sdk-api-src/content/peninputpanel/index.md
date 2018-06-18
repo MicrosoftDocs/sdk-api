@@ -2,7 +2,7 @@
 UID: NA:peninputpanel
 ms.assetid: f4b8a2fb-55d9-372e-b532-d345653aef77
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: tablet
 
 This header is used by Tablet PC. For more information, see:
 
-- [Tablet PC](/windows/desktop/tablet)
+- [Tablet PC](../_tablet)

@@ -2,7 +2,7 @@
 UID: NA:uiautomationcoreapi
 ms.assetid: 1e52caa2-4757-3a0c-bfdb-77e25cb76c00
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winauto
 
 This header is used by Windows Accessibility Features. For more information, see:
 
-- [Windows Accessibility Features](/windows/desktop/winauto)
+- [Windows Accessibility Features](../_winauto)

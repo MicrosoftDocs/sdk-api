@@ -2,13 +2,13 @@
 UID: NA:qossp
 ms.assetid: 62b056ad-d1d1-3838-b97f-b948906c1f24
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: qos
+archived: true
 ---
 
 # Qossp.h header
@@ -19,4 +19,4 @@ tech.root: qos
 
 This header is used by Quality of Service (QOS). For more information, see:
 
-- [Quality of Service (QOS)](/previous-versions/windows/desktop/api/_qos/index)
+- [Quality of Service (QOS)](../_qos)

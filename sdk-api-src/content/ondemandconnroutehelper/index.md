@@ -2,7 +2,7 @@
 UID: NA:ondemandconnroutehelper
 ms.assetid: 19bc0dc5-3115-393e-8c4b-33a92129b898
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: nla
 
 This header is used by Network List Manager. For more information, see:
 
-- [Network List Manager](/windows/desktop/nla)
+- [Network List Manager](../_nla)

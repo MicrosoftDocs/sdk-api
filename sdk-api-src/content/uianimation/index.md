@@ -2,7 +2,7 @@
 UID: NA:uianimation
 ms.assetid: cce0348a-2b23-397d-8923-833fc1b60c0f
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: uianimation
 
 This header is used by Windows Animation Manager. For more information, see:
 
-- [Windows Animation Manager](/windows/desktop/uianimation)
+- [Windows Animation Manager](../_uianimation)

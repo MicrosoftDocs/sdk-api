@@ -2,7 +2,7 @@
 UID: NA:ddstream
 ms.assetid: 1d23506b-8b4d-39c9-ab8b-ebac7e7112fd
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: dshow
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](/windows/desktop/dshow)
+- [DirectShow](../_dshow)

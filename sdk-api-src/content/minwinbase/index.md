@@ -2,7 +2,7 @@
 UID: NA:minwinbase
 ms.assetid: 98fe10dc-6483-32eb-9941-22f7aea357c9
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: fs
 
 This header is used by Data Access and Storage. For more information, see:
 
-- [Data Access and Storage](/windows/desktop/fs)
+- [Data Access and Storage](../_fs)

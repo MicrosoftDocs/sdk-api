@@ -2,7 +2,7 @@
 UID: NA:propvarutil
 ms.assetid: 173e7dc2-fa66-3252-bba8-8ce0fd0d5b18
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: properties
 
 This header is used by Windows Property System. For more information, see:
 
-- [Windows Property System](/windows/desktop/properties)
+- [Windows Property System](../_properties)

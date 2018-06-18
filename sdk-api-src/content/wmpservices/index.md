@@ -2,7 +2,7 @@
 UID: NA:wmpservices
 ms.assetid: 941d3782-a212-301e-ae15-ab2ff18b55bd
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wmp
 
 This header is used by Windows Media Player SDK. For more information, see:
 
-- [Windows Media Player SDK](/windows/desktop/wmp)
+- [Windows Media Player SDK](../_wmp)

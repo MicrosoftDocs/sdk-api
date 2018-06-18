@@ -2,7 +2,7 @@
 UID: NA:directxcollision
 ms.assetid: 99342ae6-316f-3c01-8d39-173dd588aa1c
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: dxmath
 
 This header is used by DirectXMath. For more information, see:
 
-- [DirectXMath](/windows/desktop/dxmath)
+- [DirectXMath](../_dxmath)

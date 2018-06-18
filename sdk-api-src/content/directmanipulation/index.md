@@ -2,13 +2,13 @@
 UID: NA:directmanipulation
 ms.assetid: 4adf8ddb-e5c1-3879-be51-17c50edcc23b
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: directmanipulation
+archived: true
 ---
 
 # Directmanipulation.h header
@@ -19,4 +19,4 @@ tech.root: directmanipulation
 
 This header is used by Direct Manipulation. For more information, see:
 
-- [Direct Manipulation](/previous-versions/windows/desktop/directmanipulation)
+- [Direct Manipulation](../_directmanipulation)

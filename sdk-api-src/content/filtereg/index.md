@@ -2,7 +2,7 @@
 UID: NA:filtereg
 ms.assetid: 814e8113-3736-3b40-8bb2-49801048d0b9
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: search
 
 This header is used by Windows Search. For more information, see:
 
-- [Windows Search](/windows/desktop/search)
+- [Windows Search](../_search)

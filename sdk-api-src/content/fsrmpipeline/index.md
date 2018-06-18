@@ -2,13 +2,13 @@
 UID: NA:fsrmpipeline
 ms.assetid: 1100e59c-44eb-35fa-abbc-b0e9423b5969
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: fsrm
+archived: true
 ---
 
 # Fsrmpipeline.h header
@@ -19,4 +19,4 @@ tech.root: fsrm
 
 This header is used by File Server Resource Manager. For more information, see:
 
-- [File Server Resource Manager](/previous-versions/windows/desktop/fsrm)
+- [File Server Resource Manager](../_fsrm)

@@ -2,7 +2,7 @@
 UID: NA:ddkmapi
 ms.assetid: b6ffa318-6cae-316b-afea-e5809778bc2e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: display
 
 This header is used by Display Devices Reference. For more information, see:
 
-- [Display Devices Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/display)
+- [Display Devices Reference](../_display)

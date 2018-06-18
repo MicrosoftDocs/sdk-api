@@ -2,7 +2,7 @@
 UID: NA:commoncontrols
 ms.assetid: 5c8176d8-c245-3b46-a092-dfa1152a7c98
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: controls
 
 This header is used by Windows Controls. For more information, see:
 
-- [Windows Controls](/windows/desktop/controls)
+- [Windows Controls](../_controls)

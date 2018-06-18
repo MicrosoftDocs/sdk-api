@@ -2,13 +2,13 @@
 UID: NA:wsbapp
 ms.assetid: 25365414-f99f-3165-b2b0-c348a91b1253
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wsb
+archived: true
 ---
 
 # Wsbapp.h header
@@ -19,4 +19,4 @@ tech.root: wsb
 
 This header is used by Windows Server Backup. For more information, see:
 
-- [Windows Server Backup](/previous-versions/windows/desktop/wsb)
+- [Windows Server Backup](../_wsb)

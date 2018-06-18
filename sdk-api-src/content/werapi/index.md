@@ -2,7 +2,7 @@
 UID: NA:werapi
 ms.assetid: 742a570f-0083-381a-b67e-189ee442556e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wer
 
 This header is used by Windows Error Reporting. For more information, see:
 
-- [Windows Error Reporting](/windows/desktop/wer)
+- [Windows Error Reporting](../_wer)

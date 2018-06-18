@@ -2,7 +2,7 @@
 UID: NA:socketapi
 ms.assetid: 22dea50b-6621-3997-8b6d-dd5df9778d77
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winsock
 
 This header is used by Windows Sockets 2. For more information, see:
 
-- [Windows Sockets 2](/windows/desktop/winsock)
+- [Windows Sockets 2](../_winsock)

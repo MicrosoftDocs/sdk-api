@@ -2,7 +2,7 @@
 UID: NA:compressapi
 ms.assetid: 5d7b5e4a-a78c-3374-915d-49dc9509fde0
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: cmpapi
 
 This header is used by Compression API. For more information, see:
 
-- [Compression API](/windows/desktop/cmpapi)
+- [Compression API](../_cmpapi)

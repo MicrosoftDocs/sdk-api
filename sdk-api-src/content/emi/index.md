@@ -2,7 +2,7 @@
 UID: NA:emi
 ms.assetid: a3d844b2-70c5-310b-bb5f-9ca4f80b87ce
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: powermeter
 
 This header is used by Power Metering and Budgeting Reference. For more information, see:
 
-- [Power Metering and Budgeting Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/powermeter)
+- [Power Metering and Budgeting Reference](../_powermeter)

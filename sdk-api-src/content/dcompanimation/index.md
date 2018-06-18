@@ -2,7 +2,7 @@
 UID: NA:dcompanimation
 ms.assetid: 829b3736-320b-32aa-bac4-64a829d56247
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: directcomp
 
 This header is used by DirectComposition. For more information, see:
 
-- [DirectComposition](/windows/desktop/directcomp)
+- [DirectComposition](../_directcomp)

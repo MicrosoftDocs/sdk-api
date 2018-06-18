@@ -2,13 +2,13 @@
 UID: NA:sbe
 ms.assetid: 397e5057-fe32-3693-a12a-9d2f44573dd7
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mstv
+archived: true
 ---
 
 # Sbe.h header
@@ -19,4 +19,4 @@ tech.root: mstv
 
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](/previous-versions/windows/desktop/api/_mstv/index)
+- [Microsoft TV Technologies](../_mstv)

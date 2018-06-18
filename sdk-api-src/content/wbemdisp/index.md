@@ -2,7 +2,7 @@
 UID: NA:wbemdisp
 ms.assetid: 1d409fb1-dea2-3beb-af51-aa5733485c34
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wmi
 
 This header is used by Windows Management Instrumentation. For more information, see:
 
-- [Windows Management Instrumentation](/windows/desktop/wmi)
+- [Windows Management Instrumentation](../_wmi)

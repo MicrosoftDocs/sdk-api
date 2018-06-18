@@ -2,7 +2,7 @@
 UID: NA:rometadataapi
 ms.assetid: 90739179-8f2e-3d8d-9d7f-ecad767183cf
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrt
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](/windows/desktop/winrt)
+- [Windows Runtime C++ reference](../_winrt)

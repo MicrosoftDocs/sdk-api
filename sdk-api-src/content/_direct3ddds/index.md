@@ -2,7 +2,7 @@
 UID: TP:direct3ddds
 ms.assetid: cd797cdd-c2f6-33b6-b24e-c3bfa0be3f2b
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

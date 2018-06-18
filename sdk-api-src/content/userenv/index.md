@@ -2,7 +2,7 @@
 UID: NA:userenv
 ms.assetid: 9bc0312c-0381-3855-9cb0-72ac898bed1e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: shell
 
 This header is used by The Windows Shell. For more information, see:
 
-- [The Windows Shell](/windows/desktop/shell)
+- [The Windows Shell](../_shell)

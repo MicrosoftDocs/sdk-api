@@ -2,7 +2,7 @@
 UID: NA:photoacquire
 ms.assetid: 8578d389-ba4d-38b4-a2fd-3ab1943b6394
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: picacq
 
 This header is used by Picture Acquisition. For more information, see:
 
-- [Picture Acquisition](/windows/desktop/picacq)
+- [Picture Acquisition](../_picacq)

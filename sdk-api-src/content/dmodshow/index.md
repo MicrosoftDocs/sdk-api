@@ -2,7 +2,7 @@
 UID: NA:dmodshow
 ms.assetid: 5e688754-5233-34e2-ac36-4541282d7afa
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: dshow
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](/windows/desktop/dshow)
+- [DirectShow](../_dshow)

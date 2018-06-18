@@ -2,7 +2,7 @@
 UID: NA:manipulations
 ms.assetid: 64194f16-1b72-3e36-8291-029e4cb3f6bd
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wintouch
 
 This header is used by Touch Input. For more information, see:
 
-- [Touch Input](/windows/desktop/wintouch)
+- [Touch Input](../_wintouch)

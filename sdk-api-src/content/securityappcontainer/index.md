@@ -2,7 +2,7 @@
 UID: NA:securityappcontainer
 ms.assetid: 31527063-96fa-3a04-884d-1fbae6c1ed11
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: security
 
 This header is used by Security and Identity. For more information, see:
 
-- [Security and Identity](/windows/desktop/security)
+- [Security and Identity](../_security)

@@ -2,7 +2,7 @@
 UID: NA:wdsclientapi
 ms.assetid: fd49be50-414b-3ea2-aae1-e7001cc6271b
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wds
 
 This header is used by Windows Deployment Services. For more information, see:
 
-- [Windows Deployment Services](/windows/desktop/wds)
+- [Windows Deployment Services](../_wds)

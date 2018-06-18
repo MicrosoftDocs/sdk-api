@@ -2,7 +2,7 @@
 UID: NA:indexsrv
 ms.assetid: 9322b589-ec22-3f3d-9f92-5cc7ded5709b
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: indexsrv
 
 This header is used by Indexing Service. For more information, see:
 
-- [Indexing Service](/previous-versions/windows/desktop/api/_indexsrv/index)
+- [Indexing Service](../_indexsrv)

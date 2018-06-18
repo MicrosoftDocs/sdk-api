@@ -2,7 +2,7 @@
 UID: NA:tlhelp32
 ms.assetid: fdc911c8-e8cf-30ab-b7bc-44818efde7ab
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: toolhelp
 
 This header is used by Tool Help Library. For more information, see:
 
-- [Tool Help Library](/windows/desktop/toolhelp)
+- [Tool Help Library](../_toolhelp)

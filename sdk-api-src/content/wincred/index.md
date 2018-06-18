@@ -2,7 +2,7 @@
 UID: NA:wincred
 ms.assetid: 11a6470b-c995-3468-ae4e-04a53a00f405
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: security
 
 This header is used by Security and Identity. For more information, see:
 
-- [Security and Identity](/windows/desktop/security)
+- [Security and Identity](../_security)

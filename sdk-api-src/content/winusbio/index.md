@@ -2,7 +2,7 @@
 UID: NA:winusbio
 ms.assetid: 3d9a47a1-97e8-3b52-96b2-d61fa36c61af
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: buses
 
 This header is used by USB driver reference. For more information, see:
 
-- [USB driver reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/buses)
+- [USB driver reference](../_buses)

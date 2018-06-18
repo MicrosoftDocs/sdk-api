@@ -2,7 +2,7 @@
 UID: NA:traceloggingprovider
 ms.assetid: 9f0e53a0-c646-3851-b09a-e5e45c361a3c
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: tracelogging
 
 This header is used by TraceLogging. For more information, see:
 
-- [TraceLogging](/windows/desktop/tracelogging)
+- [TraceLogging](../_tracelogging)

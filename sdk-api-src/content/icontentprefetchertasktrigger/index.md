@@ -2,7 +2,7 @@
 UID: NA:icontentprefetchertasktrigger
 ms.assetid: a74c0e06-fa9c-3706-8f24-8070aa142a35
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wsw
 
 This header is used by Windows Web Services. For more information, see:
 
-- [Windows Web Services](/windows/desktop/wsw)
+- [Windows Web Services](../_wsw)

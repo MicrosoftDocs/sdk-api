@@ -2,13 +2,13 @@
 UID: NA:winsync
 ms.assetid: b0d60bdc-2a59-3623-a2d3-95bc90c02b81
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: winsync
+archived: true
 ---
 
 # Winsync.h header
@@ -19,4 +19,4 @@ tech.root: winsync
 
 This header is used by Windows Sync. For more information, see:
 
-- [Windows Sync](/previous-versions/windows/desktop/winsync)
+- [Windows Sync](../_winsync)

@@ -2,13 +2,13 @@
 UID: NA:rrascfg
 ms.assetid: 33fe5403-6b0a-3226-bec3-81a70b16d14e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: eap
+archived: true
 ---
 
 # Rrascfg.h header
@@ -19,4 +19,4 @@ tech.root: eap
 
 This header is used by Extensible Authentication Protocol. For more information, see:
 
-- [Extensible Authentication Protocol](/previous-versions/windows/desktop/eap)
+- [Extensible Authentication Protocol](../_eap)

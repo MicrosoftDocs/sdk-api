@@ -2,7 +2,7 @@
 UID: NA:rend
 ms.assetid: c1afc144-3799-37a1-9287-ce110baa1159
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: tapi3
 
 This header is used by Telephony Application Programming Interfaces. For more information, see:
 
-- [Telephony Application Programming Interfaces](/windows/desktop/tapi3)
+- [Telephony Application Programming Interfaces](../_tapi3)

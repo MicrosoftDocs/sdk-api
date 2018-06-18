@@ -2,7 +2,7 @@
 UID: NA:oledlg
 ms.assetid: 81c9c2f7-b96d-35c7-8dff-6f9d55ca81e4
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: com
 
 This header is used by Component Object Model (COM). For more information, see:
 
-- [Component Object Model (COM)](/windows/desktop/com)
+- [Component Object Model (COM)](../_com)

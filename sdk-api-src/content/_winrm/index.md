@@ -2,7 +2,7 @@
 UID: TP:winrm
 ms.assetid: 278db203-464f-3cc8-b97b-b01767a8cc07
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

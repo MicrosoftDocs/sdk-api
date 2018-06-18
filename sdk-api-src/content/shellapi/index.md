@@ -2,7 +2,7 @@
 UID: NA:shellapi
 ms.assetid: 5c77399b-7447-3462-b5ca-6a7010237ca8
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: menurc
 
 This header is used by Menus and Other Resources. For more information, see:
 
-- [Menus and Other Resources](/windows/desktop/menurc)
+- [Menus and Other Resources](../_menurc)

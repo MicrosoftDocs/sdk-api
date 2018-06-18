@@ -2,7 +2,7 @@
 UID: NA:wsdevlicensing
 ms.assetid: 9d35a75a-05d2-332f-aca6-77f462433962
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: devlic
 
 This header is used by Developer licensing. For more information, see:
 
-- [Developer licensing](/windows/desktop/devlic)
+- [Developer licensing](../_devlic)

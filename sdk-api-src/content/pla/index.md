@@ -2,13 +2,13 @@
 UID: NA:pla
 ms.assetid: db8643be-835b-3749-85d9-740e42f4d6c0
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: pla
+archived: true
 ---
 
 # Pla.h header
@@ -19,4 +19,4 @@ tech.root: pla
 
 This header is used by Performance Logs and Alerts. For more information, see:
 
-- [Performance Logs and Alerts](/previous-versions/windows/desktop/pla)
+- [Performance Logs and Alerts](../_pla)

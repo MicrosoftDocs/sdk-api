@@ -2,13 +2,13 @@
 UID: NA:mpeg2bits
 ms.assetid: 37fd74c2-5cd8-3b7c-8a05-3c6f72f309de
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mstv
+archived: true
 ---
 
 # Mpeg2Bits.h header
@@ -19,4 +19,4 @@ tech.root: mstv
 
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](/previous-versions/windows/desktop/api/_mstv/index)
+- [Microsoft TV Technologies](../_mstv)
