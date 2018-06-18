@@ -109,7 +109,7 @@ When the initial velocity is zero, the acceleration ratio is the fraction of the
 
 The following figures show the change in value for animation variables with different initial velocities during accelerate-decelerate transitions.
 
-<img alt="Diagram showing accelerate-decelerate transitions" src="Images/AccelerateDecelerateTransition.png"/>
+<img alt="Diagram showing accelerate-decelerate transitions" src="./images/AccelerateDecelerateTransition.png"/>
 <div class="alert"><b>Note</b>  d' in the figure on the right shows the time between the velocity reaching zero and the end of the transition.</div>
 <div> </div>
 

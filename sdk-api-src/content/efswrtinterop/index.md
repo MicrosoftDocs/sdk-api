@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: edp
 archived: true
+tech.root: edp
 ---
 
 # Efswrtinterop.h header

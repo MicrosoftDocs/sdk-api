@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fsrm
 archived: true
+tech.root: fsrm
 ---
 
 # Fsrmscreen.h header

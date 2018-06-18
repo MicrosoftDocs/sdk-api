@@ -15,7 +15,9 @@ ms.topic: portal
 
 Overview of the CIMWin32 WMI Providers technology.
 
-The CIMWin32 WMI Providers technology is not associated with any headers.
+To develop CIMWin32 WMI Providers, you need these headers:
+
+ * [sdoias.h](../sdoias/index.md)
 
 For programming guidance for this technology, see:
 * [CIMWin32 WMI Providers](/windows/desktop/cimwin32prov)

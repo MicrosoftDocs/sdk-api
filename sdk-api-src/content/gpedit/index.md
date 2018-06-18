@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: policy
 archived: true
+tech.root: policy
 ---
 
 # Gpedit.h header

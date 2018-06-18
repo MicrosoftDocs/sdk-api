@@ -101,7 +101,7 @@ During a cubic transition, the value of the animation variable changes from its 
 
 The figure below shows the effect on an animation variable over time during a cubic transition.
 
-<img alt="Diagram showing a cubic transition" src="Images/CubicTransition.png"/>
+<img alt="Diagram showing a cubic transition" src="./images/CubicTransition.png"/>
 
 
 

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: gpmc
 archived: true
+tech.root: gpmc
 ---
 
 # Gpmgmt.h header

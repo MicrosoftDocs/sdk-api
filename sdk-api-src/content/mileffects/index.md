@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wibe
 archived: true
+tech.root: wibe
 ---
 
 # Mileffects.h header

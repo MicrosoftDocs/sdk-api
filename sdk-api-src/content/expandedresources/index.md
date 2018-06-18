@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: gamemode
 archived: true
+tech.root: gamemode
 ---
 
 # Expandedresources.h header

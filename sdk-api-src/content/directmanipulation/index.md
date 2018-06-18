@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: directmanipulation
 archived: true
+tech.root: directmanipulation
 ---
 
 # Directmanipulation.h header

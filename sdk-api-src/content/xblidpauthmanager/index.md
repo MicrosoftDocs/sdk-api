@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: xblidp
 archived: true
+tech.root: xblidp
 ---
 
 # Xblidpauthmanager.h header

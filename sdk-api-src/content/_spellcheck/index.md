@@ -16,9 +16,7 @@ archived: true
 
 Overview of the Spell Checker API technology.
 
-To develop Spell Checker API, you need these headers:
-
- * [spellcheck.h](../spellcheck/index.md)
+The Spell Checker API technology is not associated with any headers.
 
 For programming guidance for this technology, see:
 * [Spell Checker API](/previous-versions/windows/desktop/api/_spellcheck/index)

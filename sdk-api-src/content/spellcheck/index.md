@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: spellcheck
+tech.root: intl
 ---
 
 # Spellcheck.h header
@@ -16,6 +16,6 @@ tech.root: spellcheck
 ## -description
 
 
-This header is used by Spell Checker API. For more information, see:
+This header is used by Internationalization for Windows Applications. For more information, see:
 
-- [Spell Checker API](../_spellcheck)
+- [Internationalization for Windows Applications](../_intl)

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mediatransport
 archived: true
+tech.root: mediatransport
 ---
 
 # Systemmediatransportcontrolsinterop.h header

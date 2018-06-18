@@ -108,7 +108,7 @@ For Oblique, the slant is achieved by performing a shear transformation on the c
 
 The following illustration shows the normal, italic, and oblique font styles for the Palatino Linotype font. Notice how the italic font style has a more flowing and visually appealing appearance than the oblique font style, which is simply created by skewing the normal font style version of the text.
 
-<img alt="Illustration of normal, italic, and oblique font styles" src="/images/FontStyle_for_Palatino.png"/>
+<img alt="Illustration of normal, italic, and oblique font styles" src="./images/FontStyle_for_Palatino.png"/>
 
 <div class="alert"><b>Note</b>   Values other than the ones defined in the enumeration are considered to be invalid, and they are rejected by font API functions.</div>
 <div> </div>

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: win32_tile_badge_notif
 archived: true
+tech.root: win32_tile_badge_notif
 ---
 
 # Notificationactivationcallback.h header

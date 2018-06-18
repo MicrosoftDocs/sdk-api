@@ -18,7 +18,6 @@ Overview of the Quality of Service (QOS) technology.
 
 To develop Quality of Service (QOS), you need these headers:
 
- * [infocard.h](../infocard/index.md)
  * [lpmapi.h](../lpmapi/index.md)
  * [ntddpsch.h](../ntddpsch/index.md)
  * [qos.h](../qos/index.md)
@@ -27,7 +26,6 @@ To develop Quality of Service (QOS), you need these headers:
  * [qospol.h](../qospol/index.md)
  * [qossp.h](../qossp/index.md)
  * [traffic.h](../traffic/index.md)
- * [winsock2.h](../winsock2/index.md)
 
 For programming guidance for this technology, see:
 * [Quality of Service (QOS)](/previous-versions/windows/desktop/api/_qos/index)

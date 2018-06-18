@@ -17,6 +17,7 @@ Overview of the Virtual Hard Disk technology.
 
 To develop Virtual Hard Disk, you need these headers:
 
+ * [vdssys.h](../vdssys/index.md)
  * [virtdisk.h](../virtdisk/index.md)
 
 For programming guidance for this technology, see:

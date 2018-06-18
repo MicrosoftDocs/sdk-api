@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: opc
 archived: true
+tech.root: opc
 ---
 
 # Msopc.h header

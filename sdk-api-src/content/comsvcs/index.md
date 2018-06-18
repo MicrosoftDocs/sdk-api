@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winmessenger
+tech.root: cos
 ---
 
 # Comsvcs.h header
@@ -16,6 +16,6 @@ tech.root: winmessenger
 ## -description
 
 
-This header is used by Windows Messenger. For more information, see:
+This header is used by COM+ (Component Services). For more information, see:
 
-- [Windows Messenger](../_winmessenger)
+- [COM+ (Component Services)](../_cos)

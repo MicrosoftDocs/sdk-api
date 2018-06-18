@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mstv
 archived: true
+tech.root: mstv
 ---
 
 # Mpeg2Bits.h header

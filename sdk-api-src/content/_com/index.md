@@ -35,6 +35,7 @@ To develop Component Object Model (COM), you need these headers:
  * [ocidl.h](../ocidl/index.md)
  * [ole.h](../ole/index.md)
  * [ole2.h](../ole2/index.md)
+ * [olectl.h](../olectl/index.md)
  * [oledlg.h](../oledlg/index.md)
  * [oleidl.h](../oleidl/index.md)
  * [roapi.h](../roapi/index.md)
@@ -47,6 +48,7 @@ To develop Component Object Model (COM), you need these headers:
  * [vbinterf.h](../vbinterf/index.md)
  * [winddi.h](../winddi/index.md)
  * [winerror.h](../winerror/index.md)
+ * [wtypes.h](../wtypes/index.md)
  * [wtypesbase.h](../wtypesbase/index.md)
 
 For programming guidance for this technology, see:

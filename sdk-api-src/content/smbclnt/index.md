@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mscs
 archived: true
+tech.root: mscs
 ---
 
 # Smbclnt.h header

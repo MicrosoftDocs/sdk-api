@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: windowssetupandmigration
 archived: true
+tech.root: windowssetupandmigration
 ---
 
 # Oobenotification.h header

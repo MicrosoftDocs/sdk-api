@@ -27,6 +27,7 @@ To develop The Windows Shell, you need these headers:
  * [intsafe.h](../intsafe/index.md)
  * [intshcut.h](../intshcut/index.md)
  * [mobsync.h](../mobsync/index.md)
+ * [ntquery.h](../ntquery/index.md)
  * [objectarray.h](../objectarray/index.md)
  * [pathcch.h](../pathcch/index.md)
  * [profinfo.h](../profinfo/index.md)

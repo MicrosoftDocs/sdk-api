@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: gamingdvcinfo
 archived: true
+tech.root: gamingdvcinfo
 ---
 
 # Gamingdeviceinformation.h header

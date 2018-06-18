@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: automat
 archived: true
+tech.root: automat
 ---
 
 # Oleauto.h header

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: indexsrv
 archived: true
+tech.root: indexsrv
 ---
 
 # Cmdtree.h header

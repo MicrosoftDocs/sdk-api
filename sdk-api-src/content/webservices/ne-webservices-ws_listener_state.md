@@ -85,7 +85,7 @@ The different states that a listener can be in.
                 The following are the state transitions for a Listener.
             
 
-<img alt="" src="/images/ListenerStates.png"/>
+<img alt="" src="./images/ListenerStates.png"/>
 
 
                 A listener will only move to <b>WS_LISTENER_STATE_FAULTED</b> 

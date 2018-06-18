@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: qos
+tech.root: security
 ---
 
 # Infocard.h header
@@ -16,6 +16,6 @@ tech.root: qos
 ## -description
 
 
-This header is used by Quality of Service (QOS). For more information, see:
+This header is used by Security and Identity. For more information, see:
 
-- [Quality of Service (QOS)](../_qos)
+- [Security and Identity](../_security)

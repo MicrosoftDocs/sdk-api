@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: input_intcontext
 archived: true
+tech.root: input_intcontext
 ---
 
 # Interactioncontext.h header

@@ -94,7 +94,7 @@ The value of the animation variable oscillates around the initial value over the
 
 The figure below shows the effect on an animation variable over time during a sinusoidal-velocity transition.
 
-<img alt="Diagram showing a sinusoidal-velocity transition" src="Images/SinusolidalTransitionFromVelocity.png"/>
+<img alt="Diagram showing a sinusoidal-velocity transition" src="./images/SinusolidalTransitionFromVelocity.png"/>
 
 
 

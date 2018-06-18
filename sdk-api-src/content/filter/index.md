@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: indexsrv
+tech.root: search
 ---
 
 # Filter.h header
@@ -16,6 +16,6 @@ tech.root: indexsrv
 ## -description
 
 
-This header is used by Indexing Service. For more information, see:
+This header is used by Windows Search. For more information, see:
 
-- [Indexing Service](../_indexsrv)
+- [Windows Search](../_search)

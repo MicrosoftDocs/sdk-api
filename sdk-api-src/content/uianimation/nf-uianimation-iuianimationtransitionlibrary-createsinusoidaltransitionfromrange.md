@@ -108,7 +108,7 @@ The value of the animation variable fluctuates between the specified minimum and
 
 The figure below shows the effect on an animation variable over time during a sinusoidal-range transition. Passing in the <b>UI_ANIMATION_SLOPE_INCREASING</b> enumeration value yields a wave like the solid curve shown in the figure, whereas the <b>UI_ANIMATION_SLOPE_DECREASING</b> value yields a wave like the dashed curve.
 
-<img alt="Diagram showing a sinusoidal-range transition" src="Images/SinusolidalTransitionFromRange.png"/>
+<img alt="Diagram showing a sinusoidal-range transition" src="./images/SinusolidalTransitionFromRange.png"/>
 
 
 

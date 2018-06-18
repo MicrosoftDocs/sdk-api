@@ -247,7 +247,7 @@ req.irql:
           A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.
         
 
-<img alt="Standard swizzle patterns" src="/images/d3d12_standardswizzle.png"/>
+<img alt="Standard swizzle patterns" src="./images/d3d12_standardswizzle.png"/>
 
           To demonstrate, consider the 2D 32bpp swizzle format above.
           This is represented by the following interleave masks, where bits on the left are most-significant:

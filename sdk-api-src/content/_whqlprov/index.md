@@ -16,9 +16,7 @@ archived: true
 
 Overview of the WhqlProvider Provider technology.
 
-To develop WhqlProvider Provider, you need these headers:
-
- * [sdoias.h](../sdoias/index.md)
+The WhqlProvider Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
 * [WhqlProvider Provider](/previous-versions/windows/desktop/api/_whqlprov/index)

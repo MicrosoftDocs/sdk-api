@@ -28,6 +28,7 @@ To develop Windows Sockets 2, you need these headers:
  * [sporder.h](../sporder/index.md)
  * [transportsettingcommon.h](../transportsettingcommon/index.md)
  * [winsock.h](../winsock/index.md)
+ * [winsock2.h](../winsock2/index.md)
  * [ws2atm.h](../ws2atm/index.md)
  * [ws2spi.h](../ws2spi/index.md)
  * [ws2tcpip.h](../ws2tcpip/index.md)

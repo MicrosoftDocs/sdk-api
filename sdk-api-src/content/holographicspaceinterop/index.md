@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mixedreality
 archived: true
+tech.root: mixedreality
 ---
 
 # Holographicspaceinterop.h header

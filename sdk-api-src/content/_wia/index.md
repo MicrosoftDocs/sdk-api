@@ -17,6 +17,7 @@ Overview of the WIA technology.
 
 To develop WIA, you need these headers:
 
+ * [wia_xp.h](../wia_xp/index.md)
  * [wiavideo.h](../wiavideo/index.md)
 
 For programming guidance for this technology, see:

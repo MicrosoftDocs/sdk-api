@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: alljoyn
 archived: true
+tech.root: alljoyn
 ---
 
 # Windows.Devices.Alljoyn.Interop.h header

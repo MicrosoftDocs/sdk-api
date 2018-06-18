@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mapi
 archived: true
+tech.root: mapi
 ---
 
 # Mapi.h header

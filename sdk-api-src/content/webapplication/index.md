@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: debug
 archived: true
+tech.root: debug
 ---
 
 # Webapplication.h header

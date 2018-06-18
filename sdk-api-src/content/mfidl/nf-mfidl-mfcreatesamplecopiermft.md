@@ -93,7 +93,7 @@ This MFT is useful in the following situation:
 </ul>
 The following diagram shows this situation with a media source and a media sink.
 
-<img alt="Diagram: Media Source points to a Sample; Media Sink points to a second Sample; Sample Copier points to an arrow from the first sample to the second" src="/images/SampleCopierMFT.gif"/>
+<img alt="Diagram: Media Source points to a Sample; Media Sink points to a second Sample; Sample Copier points to an arrow from the first sample to the second" src="./images/SampleCopierMFT.gif"/>
 
 In order for the media sink to receive data from the media source, the data must be copied into the media samples owned by the media sink. The sample copier can be used for this purpose.
 

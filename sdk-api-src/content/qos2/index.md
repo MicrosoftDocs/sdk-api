@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: qos
 archived: true
+tech.root: qos
 ---
 
 # Qos2.h header

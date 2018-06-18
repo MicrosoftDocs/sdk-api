@@ -16,9 +16,7 @@ archived: true
 
 Overview of the Windows Desktop Sharing technology.
 
-To develop Windows Desktop Sharing, you need these headers:
-
- * [rdpencomapi.h](../rdpencomapi/index.md)
+The Windows Desktop Sharing technology is not associated with any headers.
 
 For programming guidance for this technology, see:
 * [Windows Desktop Sharing](/previous-versions/windows/desktop/api/_rdp/index)

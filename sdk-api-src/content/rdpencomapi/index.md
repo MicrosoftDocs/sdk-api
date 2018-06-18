@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: rdp
+tech.root: termserv
 ---
 
 # Rdpencomapi.h header
@@ -16,6 +16,6 @@ tech.root: rdp
 ## -description
 
 
-This header is used by Windows Desktop Sharing. For more information, see:
+This header is used by Remote Desktop Services. For more information, see:
 
-- [Windows Desktop Sharing](../_rdp)
+- [Remote Desktop Services](../_termserv)

@@ -219,7 +219,7 @@ Type: <b><a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272a
 
 The following image shows the numbering of control points in a Coons patch.
 
-<img alt="Numbering of control points in a Coons patch" src="/images/coonspatch.png"/>
+<img alt="Numbering of control points in a Coons patch" src="./images/coonspatch.png"/>
 
 
 

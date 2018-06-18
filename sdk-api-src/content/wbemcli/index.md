@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: sidebar
+tech.root: termserv
 ---
 
 # Wbemcli.h header
@@ -16,6 +16,6 @@ tech.root: sidebar
 ## -description
 
 
-This header is used by Windows Sidebar. For more information, see:
+This header is used by Remote Desktop Services. For more information, see:
 
-- [Windows Sidebar](../_sidebar)
+- [Remote Desktop Services](../_termserv)

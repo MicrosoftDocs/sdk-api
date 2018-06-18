@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: proc_snap
 archived: true
+tech.root: proc_snap
 ---
 
 # Processsnapshot.h header

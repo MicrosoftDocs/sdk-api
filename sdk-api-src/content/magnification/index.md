@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: magapi
 archived: true
+tech.root: magapi
 ---
 
 # Magnification.h header
