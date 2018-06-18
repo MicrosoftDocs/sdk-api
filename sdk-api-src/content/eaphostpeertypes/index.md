@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: eaphost
 archived: true
+tech.root: eaphost
 ---
 
 # Eaphostpeertypes.h header

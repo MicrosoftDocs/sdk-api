@@ -83,7 +83,7 @@ Calls to <b>SetSkipDuration</b> fail if the storyboard has been scheduled.
 
 This diagram shows a skip duration, or offset, for a storyboard. 
 
-<img alt="Illustration of a storyboard offset" src="Images/SetSkipDuration.png"/>
+<img alt="Illustration of a storyboard offset" src="./images/SetSkipDuration.png"/>
 
 
 

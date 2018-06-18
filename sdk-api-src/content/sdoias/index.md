@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: whqlprov
+tech.root: cimwin32
 ---
 
 # Sdoias.h header
@@ -16,6 +16,6 @@ tech.root: whqlprov
 ## -description
 
 
-This header is used by WhqlProvider Provider. For more information, see:
+This header is used by CIMWin32 WMI Providers. For more information, see:
 
-- [WhqlProvider Provider](../_whqlprov)
+- [CIMWin32 WMI Providers](../_cimwin32)

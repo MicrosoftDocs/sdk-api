@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: netbios
 archived: true
+tech.root: netbios
 ---
 
 # Nb30.h header

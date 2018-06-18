@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: remoteassist
 archived: true
+tech.root: remoteassist
 ---
 
 # Rendezvoussession.h header

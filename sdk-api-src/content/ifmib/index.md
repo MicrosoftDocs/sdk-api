@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mib
 archived: true
+tech.root: mib
 ---
 
 # Ifmib.h header

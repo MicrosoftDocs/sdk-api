@@ -137,7 +137,7 @@ where x is the input time stamp, r is the rate, and xi is the x-intercept for th
 
 
 
-<img alt="A diagram showing the relation between input time stamps and output time stamps." src="/images/dvd_ratechange.png"/>
+<img alt="A diagram showing the relation between input time stamps and output time stamps." src="./images/dvd_ratechange.png"/>
 
 The decoder can calculate the x-intercept as follows. Given:
 
@@ -164,7 +164,7 @@ The unknown xi2 can be found by setting y = r2(x - xi2) = r1(x - xi1) and solvin
 
     xi2 = (r1 / r2)(xi1 - x) + x
 
-<img alt="A diagram showing the x intercept of the r2." src="/images/dvd_rate_change2.png"/>
+<img alt="A diagram showing the x intercept of the r2." src="./images/dvd_rate_change2.png"/>
 
 In the special case where playback is 1x at time 0, r1 = 1 and xi1 = 0.
 

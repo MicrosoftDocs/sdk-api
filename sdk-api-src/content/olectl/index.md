@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: automat
+tech.root: com
 ---
 
 # Olectl.h header
@@ -16,6 +16,6 @@ tech.root: automat
 ## -description
 
 
-This header is used by Automation. For more information, see:
+This header is used by Component Object Model (COM). For more information, see:
 
-- [Automation](../_automat)
+- [Component Object Model (COM)](../_com)

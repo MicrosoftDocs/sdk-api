@@ -106,7 +106,7 @@ The z position of the back of the box.
 
 The following diagram shows a 3D box, where the origin is the left, front, top corner.
 
-<img alt="Diagram of a 3D box, where the origin is the left, front, top corner" src="/images/d3d10_box.png"/>
+<img alt="Diagram of a 3D box, where the origin is the left, front, top corner" src="./images/d3d10_box.png"/>
 
 
 

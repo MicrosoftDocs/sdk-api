@@ -100,12 +100,12 @@ You call the <b>Dispatch</b> method to execute commands in a <a href="https://ms
 In the following illustration, assume a thread group with 50 threads where the size of the group is given by (5,5,2). A single thread is identified from a 
       thread group with 50 threads in it, using the vector (4,1,1).
 
-<img alt="Illustration of a single thread within a thread group of 50 threads" src="/images/d3d11_thread_group_1.png"/>
+<img alt="Illustration of a single thread within a thread group of 50 threads" src="./images/d3d11_thread_group_1.png"/>
 
 The following illustration shows the relationship between the parameters passed to <b>ID3D11DeviceContext::Dispatch</b>, Dispatch(5,3,2), the values specified in the <a href="https://msdn.microsoft.com/ec6b751c-d81c-4221-ae80-166d2a3707fe">numthreads</a> attribute, numthreads(10,8,3), and values that will passed to the compute shader for the thread-related system values 
 (<a href="https://msdn.microsoft.com/e793be10-7c83-478c-859a-4b0a2c537570">SV_GroupIndex</a>,<a href="https://msdn.microsoft.com/bad697f6-26d9-47cd-93e5-127621a161e8">SV_DispatchThreadID</a>,<a href="https://msdn.microsoft.com/be944592-c4ea-43c9-88bc-98a9a190a437">SV_GroupThreadID</a>,<a href="https://msdn.microsoft.com/1b90ca74-a2b6-4a5f-aa4a-1ec879360593">SV_GroupID</a>).
 
-<img alt="Illustration of the relationship between Dispatch, thread groups, and threads" src="/images/ThreadGroupIDs.png"/>
+<img alt="Illustration of the relationship between Dispatch, thread groups, and threads" src="./images/ThreadGroupIDs.png"/>
 
 
 

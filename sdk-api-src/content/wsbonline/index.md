@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wsb
 archived: true
+tech.root: wsb
 ---
 
 # Wsbonline.h header

@@ -19,9 +19,6 @@ Overview of the Indexing Service technology.
 To develop Indexing Service, you need these headers:
 
  * [cmdtree.h](../cmdtree/index.md)
- * [filter.h](../filter/index.md)
- * [indexsrv.h](../indexsrv/index.md)
- * [ntquery.h](../ntquery/index.md)
 
 For programming guidance for this technology, see:
 * [Indexing Service](/previous-versions/windows/desktop/api/_indexsrv/index)

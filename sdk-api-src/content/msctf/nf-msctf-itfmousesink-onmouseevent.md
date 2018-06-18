@@ -114,7 +114,7 @@ The caller should translate double-click events into multiple mouse button down 
 
 <i>uEdge</i> contains the offset, in characters, of the mouse position from the start of the text range. The mouse position is always rounded to the closest edge. Each edge is divided into four equal quadrants with two quadrants preceding the edge and two quadrants following the edge. <i>uQuadrant</i> contains the zero-based quadrant index of the mouse position. In the figure below, point "X" is in quadrant 2 of edge 1 and point "Y" is in quadrant 1 of edge 3.
 
-<img alt="Quadrant relationship to edge of a range of text" border="border" src="/images/mousedge.gif"/>
+<img alt="Quadrant relationship to edge of a range of text" border="border" src="./images/mousedge.gif"/>
 
 
 

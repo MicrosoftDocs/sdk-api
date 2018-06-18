@@ -114,7 +114,7 @@ During a cubic Bézier linear transition, the value of the animation variable ch
 
 The following figure shows the change in value over time for an animation variable during a cubic Bézier linear transition.
 
-<img alt="Diagram showing a cubic Bezier linear transition" src="Images/cubicbezierlineartransition.png"/>
+<img alt="Diagram showing a cubic Bezier linear transition" src="./images/cubicbezierlineartransition.png"/>
 
 
 

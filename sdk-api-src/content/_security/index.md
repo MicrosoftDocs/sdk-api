@@ -47,6 +47,7 @@ To develop Security and Identity, you need these headers:
  * [identitycommon.h](../identitycommon/index.md)
  * [identityprovider.h](../identityprovider/index.md)
  * [identitystore.h](../identitystore/index.md)
+ * [infocard.h](../infocard/index.md)
  * [lsalookup.h](../lsalookup/index.md)
  * [mscat.h](../mscat/index.md)
  * [mssip.h](../mssip/index.md)

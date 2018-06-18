@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: netshell
 archived: true
+tech.root: netshell
 ---
 
 # Netsh.h header

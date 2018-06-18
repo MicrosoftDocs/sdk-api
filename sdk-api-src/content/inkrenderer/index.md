@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: input_ink
+tech.root: tablet
 ---
 
 # Inkrenderer.h header
@@ -16,6 +16,6 @@ tech.root: input_ink
 ## -description
 
 
-This header is used by Ink input. For more information, see:
+This header is used by Tablet PC. For more information, see:
 
-- [Ink input](../_input_ink)
+- [Tablet PC](../_tablet)

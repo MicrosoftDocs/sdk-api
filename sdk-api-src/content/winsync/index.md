@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: winsync
 archived: true
+tech.root: winsync
 ---
 
 # Winsync.h header

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wmi_v2
 archived: true
+tech.root: wmi_v2
 ---
 
 # Mi.h header

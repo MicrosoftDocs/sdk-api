@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fax
 archived: true
+tech.root: fax
 ---
 
 # Fxsutility.h header

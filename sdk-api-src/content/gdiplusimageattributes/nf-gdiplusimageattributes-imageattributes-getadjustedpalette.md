@@ -158,7 +158,7 @@ VOID Example_GetAdjustedPalette(HDC hdc)
 </table></span></div>
 The following illustration shows the output of the preceding code. Note that the green in the original palette was changed to blue.
 
-<img alt="Illustration with two rows of colored rectangles; the last of which is green in Row 1, blue in Row 2" src="/images/imageattributesgetadjustedpalette.png"/>
+<img alt="Illustration with two rows of colored rectangles; the last of which is green in Row 1, blue in Row 2" src="./images/imageattributesgetadjustedpalette.png"/>
 
 <div class="code"></div>
 

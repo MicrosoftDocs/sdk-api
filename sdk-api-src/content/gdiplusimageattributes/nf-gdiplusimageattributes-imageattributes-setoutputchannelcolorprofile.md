@@ -184,7 +184,7 @@ VOID Example_SetOutputProfile(HDC hdc)
 </table></span></div>
 The preceding code, along with the files Mosaic2.bmp and Tekph600.icm, produced the following output.
 
-<img alt="Illustration showing four versions of one image: first in color, then in three different patterns of greyscale" src="/images/imageattributessetoutputprofile.png"/>
+<img alt="Illustration showing four versions of one image: first in color, then in three different patterns of greyscale" src="./images/imageattributessetoutputprofile.png"/>
 
 <div class="code"></div>
 

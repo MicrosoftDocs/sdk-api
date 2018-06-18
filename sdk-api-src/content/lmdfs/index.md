@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dfs
 archived: true
+tech.root: dfs
 ---
 
 # Lmdfs.h header

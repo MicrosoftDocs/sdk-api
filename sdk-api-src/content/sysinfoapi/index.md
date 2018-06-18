@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: sidebar
 archived: true
+tech.root: sidebar
 ---
 
 # Sysinfoapi.h header

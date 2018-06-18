@@ -15,7 +15,9 @@ ms.topic: portal
 
 Overview of the OpenGL technology.
 
-The OpenGL technology is not associated with any headers.
+To develop OpenGL, you need these headers:
+
+ * [gl.h](../gl/index.md)
 
 For programming guidance for this technology, see:
 * [OpenGL](/windows/desktop/opengl)

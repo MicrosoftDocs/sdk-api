@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: ixhr2
 archived: true
+tech.root: ixhr2
 ---
 
 # Msxml6.h header

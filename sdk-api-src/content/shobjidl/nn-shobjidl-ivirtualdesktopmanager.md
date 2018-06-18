@@ -107,7 +107,7 @@ The user can group a collection of windows together to create a virtual desktop.
 
 To support this concept, applications should avoid automatically switching the user from one virtual desktop to another. Only the user should instigate that change. In order to support this, newly created windows should appear on the currently active virtual desktop. In addition, if an application can reuse currently active windows, it should only reuse windows if they are on the currently active virtual desktop. Otherwise, a new window should be created.
 
-<img alt="Virtual desktop visualization" src="/images/VirtualDesktops.png"/>
+<img alt="Virtual desktop visualization" src="./images/VirtualDesktops.png"/>
 In the above image, the user has two virtual desktops and <b>VD2</b> is the currently active virtual desktop. If the user clicks a link in an outlook message, there's a URI activation that should open the link in an Internet Explorer window. If the user has configured IE to open links in the current window, it would normally use the currently open window. However, in this case, IE is on an inactive virtual desktop. In this scenario, IE should create a new window in the currently active virtual desktop.
 
 

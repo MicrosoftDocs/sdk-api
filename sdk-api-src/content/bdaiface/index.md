@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mstv
+tech.root: dshow
 ---
 
 # Bdaiface.h header
@@ -16,6 +16,6 @@ tech.root: mstv
 ## -description
 
 
-This header is used by Microsoft TV Technologies. For more information, see:
+This header is used by DirectShow. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv)
+- [DirectShow](../_dshow)

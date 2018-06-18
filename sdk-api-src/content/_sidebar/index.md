@@ -19,7 +19,6 @@ Overview of the Windows Sidebar technology.
 To develop Windows Sidebar, you need these headers:
 
  * [sysinfoapi.h](../sysinfoapi/index.md)
- * [wbemcli.h](../wbemcli/index.md)
 
 For programming guidance for this technology, see:
 * [Windows Sidebar](/previous-versions/windows/desktop/api/_sidebar/index)

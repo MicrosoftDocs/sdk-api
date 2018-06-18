@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: eap
 archived: true
+tech.root: eap
 ---
 
 # Rrascfg.h header

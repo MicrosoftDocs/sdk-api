@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: iscsidisc
 archived: true
+tech.root: iscsidisc
 ---
 
 # Iscsidsc.h header

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: tcui
 archived: true
+tech.root: tcui
 ---
 
 # Gamingtcui.h header

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wcs
 archived: true
+tech.root: wcs
 ---
 
 # Wcsplugin.h header

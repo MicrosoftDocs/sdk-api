@@ -18,6 +18,7 @@ Overview of the Tablet PC technology.
 To develop Tablet PC, you need these headers:
 
  * [inked.h](../inked/index.md)
+ * [inkrenderer.h](../inkrenderer/index.md)
  * [micaut.h](../micaut/index.md)
  * [msinkaut.h](../msinkaut/index.md)
  * [msinkaut15.h](../msinkaut15/index.md)

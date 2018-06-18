@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: stormgmt
+tech.root: vhd
 ---
 
 # Vdssys.h header
@@ -16,6 +16,6 @@ tech.root: stormgmt
 ## -description
 
 
-This header is used by Windows Storage Management API. For more information, see:
+This header is used by Virtual Hard Disk. For more information, see:
 
-- [Windows Storage Management API](../_stormgmt)
+- [Virtual Hard Disk](../_vhd)

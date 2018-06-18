@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: automat
+tech.root: wia
 ---
 
 # Wia_Xp.h header
@@ -16,6 +16,6 @@ tech.root: automat
 ## -description
 
 
-This header is used by Automation. For more information, see:
+This header is used by WIA. For more information, see:
 
-- [Automation](../_automat)
+- [WIA](../_wia)

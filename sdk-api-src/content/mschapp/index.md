@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mschap
 archived: true
+tech.root: mschap
 ---
 
 # Mschapp.h header

@@ -136,7 +136,7 @@ Destination colors are inverted according to a source mask.
 
 The figure here shows an example of each of the modes with images that have an opacity of 1.0 or 0.5. 
 
-<img alt="An example image of each of the modes with opacity set to 1.0 or 0.5." src="/images/composite_types.png"/>
+<img alt="An example image of each of the modes with opacity set to 1.0 or 0.5." src="./images/composite_types.png"/>
 
 There can be slightly different interpretations of these enumeration values depending on where the value is used.
 

@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wnv
 archived: true
+tech.root: wnv
 ---
 
 # Wnvapi.h header

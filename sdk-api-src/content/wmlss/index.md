@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wmlss
 archived: true
+tech.root: wmlss
 ---
 
 # Wmlss.h header

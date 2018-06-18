@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: input_radial
 archived: true
+tech.root: input_radial
 ---
 
 # Radialcontrollerinterop.h header

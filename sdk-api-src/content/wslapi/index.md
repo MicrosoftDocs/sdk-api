@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wsl
 archived: true
+tech.root: wsl
 ---
 
 # Wslapi.h header

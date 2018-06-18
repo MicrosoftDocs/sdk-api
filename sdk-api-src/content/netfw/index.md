@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: ics
 archived: true
+tech.root: ics
 ---
 
 # Netfw.h header

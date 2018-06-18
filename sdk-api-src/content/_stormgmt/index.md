@@ -16,9 +16,7 @@ archived: true
 
 Overview of the Windows Storage Management API technology.
 
-To develop Windows Storage Management API, you need these headers:
-
- * [vdssys.h](../vdssys/index.md)
+The Windows Storage Management API technology is not associated with any headers.
 
 For programming guidance for this technology, see:
 * [Windows Storage Management API](/previous-versions/windows/desktop/api/_stormgmt/index)

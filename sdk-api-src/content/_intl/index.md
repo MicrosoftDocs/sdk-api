@@ -26,6 +26,7 @@ To develop Internationalization for Windows Applications, you need these headers
  * [msime.h](../msime/index.md)
  * [msimeapi.h](../msimeapi/index.md)
  * [muiload.h](../muiload/index.md)
+ * [spellcheck.h](../spellcheck/index.md)
  * [spellcheckprovider.h](../spellcheckprovider/index.md)
  * [stringapiset.h](../stringapiset/index.md)
  * [usp10.h](../usp10/index.md)

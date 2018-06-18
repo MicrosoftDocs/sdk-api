@@ -7,8 +7,8 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wab
 archived: true
+tech.root: wab
 ---
 
 # Wabapi.h header

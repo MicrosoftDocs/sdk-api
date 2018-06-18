@@ -17,7 +17,9 @@ Overview of the Windows Search technology.
 
 To develop Windows Search, you need these headers:
 
+ * [filter.h](../filter/index.md)
  * [filtereg.h](../filtereg/index.md)
+ * [indexsrv.h](../indexsrv/index.md)
  * [structuredquery.h](../structuredquery/index.md)
  * [structuredquerycondition.h](../structuredquerycondition/index.md)
  * [subsmgr.h](../subsmgr/index.md)
