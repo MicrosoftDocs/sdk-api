@@ -2,7 +2,7 @@
 UID: TP:msvs
 ms.assetid: 459a1035-086f-3028-856c-ee41bb56878c
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

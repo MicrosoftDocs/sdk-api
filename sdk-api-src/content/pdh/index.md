@@ -2,7 +2,7 @@
 UID: NA:pdh
 ms.assetid: f9f7a796-b69f-3cfc-b821-db1e7ad8bd53
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: perf
 
 This header is used by Performance Counters. For more information, see:
 
-- [Performance Counters](/windows/desktop/perf)
+- [Performance Counters](../_perf)

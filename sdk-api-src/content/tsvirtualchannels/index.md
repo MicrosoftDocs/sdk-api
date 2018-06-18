@@ -2,7 +2,7 @@
 UID: NA:tsvirtualchannels
 ms.assetid: c0989acc-0a69-3eb8-b882-d7643ddb6c8e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: termserv
 
 This header is used by Remote Desktop Services. For more information, see:
 
-- [Remote Desktop Services](/windows/desktop/termserv)
+- [Remote Desktop Services](../_termserv)

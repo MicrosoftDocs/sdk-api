@@ -2,7 +2,7 @@
 UID: NA:cfgmgr32
 ms.assetid: ab99e470-13e6-3d96-9554-82cb2ffcfbaf
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: devinst
 
 This header is used by Device and Driver Installation Reference. For more information, see:
 
-- [Device and Driver Installation Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/install)
+- [Device and Driver Installation Reference](../_devinst)

@@ -2,7 +2,7 @@
 UID: NA:msacm
 ms.assetid: c6b382c3-435b-3525-870a-634107a71508
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: multimedia
 
 This header is used by Windows Multimedia. For more information, see:
 
-- [Windows Multimedia](/windows/desktop/multimedia)
+- [Windows Multimedia](../_multimedia)

@@ -2,7 +2,7 @@
 UID: NA:appnotify
 ms.assetid: 45609313-b9e2-311f-b1df-245a58f7dc1b
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: shell
 
 This header is used by The Windows Shell. For more information, see:
 
-- [The Windows Shell](/windows/desktop/shell)
+- [The Windows Shell](../_shell)

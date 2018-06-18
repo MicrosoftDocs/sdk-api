@@ -2,7 +2,7 @@
 UID: NA:winbio_adapter
 ms.assetid: b14ee319-c6d4-3d23-b828-1d9777a9ca03
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: secbiomet
 
 This header is used by Windows Biometric Framework. For more information, see:
 
-- [Windows Biometric Framework](/windows/desktop/secbiomet)
+- [Windows Biometric Framework](../_secbiomet)

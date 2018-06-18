@@ -2,7 +2,7 @@
 UID: NA:workspaceruntime
 ms.assetid: b31d3243-1e6d-3edc-9ef4-497efd12a2fd
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: termserv
 
 This header is used by Remote Desktop Services. For more information, see:
 
-- [Remote Desktop Services](/windows/desktop/termserv)
+- [Remote Desktop Services](../_termserv)

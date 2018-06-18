@@ -2,13 +2,13 @@
 UID: NA:mschapp
 ms.assetid: e31f3d03-846d-3fab-aaaa-517230a772e7
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mschap
+archived: true
 ---
 
 # Mschapp.h header
@@ -19,4 +19,4 @@ tech.root: mschap
 
 This header is used by MS-CHAP Password Management API. For more information, see:
 
-- [MS-CHAP Password Management API](/previous-versions/windows/desktop/mschap)
+- [MS-CHAP Password Management API](../_mschap)

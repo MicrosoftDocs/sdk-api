@@ -2,7 +2,7 @@
 UID: NA:videoacc
 ms.assetid: 13e308ee-c79d-328e-872a-7614ff20daeb
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: dshow
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](/windows/desktop/dshow)
+- [DirectShow](../_dshow)

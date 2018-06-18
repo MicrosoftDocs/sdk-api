@@ -2,13 +2,13 @@
 UID: NA:fxsutility
 ms.assetid: d49c47fb-9a4d-31ea-9397-3cc9357b111d
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: fax
+archived: true
 ---
 
 # Fxsutility.h header
@@ -19,4 +19,4 @@ tech.root: fax
 
 This header is used by Fax Service. For more information, see:
 
-- [Fax Service](/previous-versions/windows/desktop/fax)
+- [Fax Service](../_fax)

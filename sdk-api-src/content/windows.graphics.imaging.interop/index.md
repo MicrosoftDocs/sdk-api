@@ -2,7 +2,7 @@
 UID: NA:windows.graphics.imaging.interop
 ms.assetid: 79a1faa0-5343-3d8b-b1cb-77a394593ff1
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrt
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](/windows/desktop/winrt)
+- [Windows Runtime C++ reference](../_winrt)

@@ -2,7 +2,7 @@
 UID: NA:batclass
 ms.assetid: 09811379-f587-3506-b48b-4debc80ecdca
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: battery
 
 This header is used by Battery Devices Reference. For more information, see:
 
-- [Battery Devices Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/battery)
+- [Battery Devices Reference](../_battery)

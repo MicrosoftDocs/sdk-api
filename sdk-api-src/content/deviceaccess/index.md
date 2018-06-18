@@ -2,13 +2,13 @@
 UID: NA:deviceaccess
 ms.assetid: 4b0026e9-29ed-3ec0-a295-556fb87ed090
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: deviceaccess
+archived: true
 ---
 
 # Deviceaccess.h header
@@ -19,4 +19,4 @@ tech.root: deviceaccess
 
 This header is used by Device Access API. For more information, see:
 
-- [Device Access API](/previous-versions/windows/desktop/deviceaccess)
+- [Device Access API](../_deviceaccess)

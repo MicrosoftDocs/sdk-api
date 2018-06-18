@@ -2,7 +2,7 @@
 UID: TP:madcap
 ms.assetid: 9a065d27-3815-3bc9-8243-e48ad0b4be0d
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

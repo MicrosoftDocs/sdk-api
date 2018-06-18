@@ -2,7 +2,7 @@
 UID: NA:windef
 ms.assetid: d38cdf1b-ef65-394e-984c-8776732b0365
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: gdi
 
 This header is used by Windows GDI. For more information, see:
 
-- [Windows GDI](/windows/desktop/gdi)
+- [Windows GDI](../_gdi)

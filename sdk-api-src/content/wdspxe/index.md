@@ -2,7 +2,7 @@
 UID: NA:wdspxe
 ms.assetid: f05dc069-9f07-3cb9-bef6-a6d71a5d14fe
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wds
 
 This header is used by Windows Deployment Services. For more information, see:
 
-- [Windows Deployment Services](/windows/desktop/wds)
+- [Windows Deployment Services](../_wds)

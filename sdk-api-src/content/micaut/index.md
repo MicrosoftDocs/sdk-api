@@ -2,7 +2,7 @@
 UID: NA:micaut
 ms.assetid: 6d155966-c54b-38d6-aff1-6ea0a1fd3bf0
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: tablet
 
 This header is used by Tablet PC. For more information, see:
 
-- [Tablet PC](/windows/desktop/tablet)
+- [Tablet PC](../_tablet)

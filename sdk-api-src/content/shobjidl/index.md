@@ -2,7 +2,7 @@
 UID: NA:shobjidl
 ms.assetid: 78870113-d823-317f-858e-c902fa3bdd51
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: com
 
 This header is used by Component Object Model (COM). For more information, see:
 
-- [Component Object Model (COM)](/windows/desktop/com)
+- [Component Object Model (COM)](../_com)

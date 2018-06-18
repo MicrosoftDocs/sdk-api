@@ -2,7 +2,7 @@
 UID: NA:documenttarget
 ms.assetid: 0b7bf40d-d4f4-3d23-a23f-b05a91ee4700
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: xps
 
 This header is used by XPS Documents. For more information, see:
 
-- [XPS Documents](/windows/desktop/xps)
+- [XPS Documents](../_xps)

@@ -2,7 +2,7 @@
 UID: NA:xapofx
 ms.assetid: 2a4ab207-98fd-3586-b51f-03e5c1523aee
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: xaudio2
 
 This header is used by XAudio2 APIs. For more information, see:
 
-- [XAudio2 APIs](/windows/desktop/xaudio2)
+- [XAudio2 APIs](../_xaudio2)

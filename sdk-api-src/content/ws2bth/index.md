@@ -2,7 +2,7 @@
 UID: NA:ws2bth
 ms.assetid: e69b0459-ba2c-358e-a9e5-48377f62889b
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: bluetooth
 
 This header is used by Bluetooth. For more information, see:
 
-- [Bluetooth](/windows/desktop/bluetooth)
+- [Bluetooth](../_bluetooth)

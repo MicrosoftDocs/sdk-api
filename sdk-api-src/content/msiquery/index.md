@@ -2,7 +2,7 @@
 UID: NA:msiquery
 ms.assetid: 9a9d70d7-e5fb-3262-964b-62f94fd6201f
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: setup
 
 This header is used by Application Installation and Servicing. For more information, see:
 
-- [Application Installation and Servicing](/windows/desktop/setup)
+- [Application Installation and Servicing](../_setup)

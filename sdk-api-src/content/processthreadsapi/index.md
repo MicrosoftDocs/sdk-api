@@ -2,7 +2,7 @@
 UID: NA:processthreadsapi
 ms.assetid: 6e439d03-d612-3aad-a0fa-8a77449a3900
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](/windows/desktop/base)
+- [System Services](../_base)

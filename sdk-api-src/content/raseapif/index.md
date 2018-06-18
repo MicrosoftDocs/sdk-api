@@ -2,13 +2,13 @@
 UID: NA:raseapif
 ms.assetid: e655ee18-e35d-3e45-a978-87a1288d8061
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: eap
+archived: true
 ---
 
 # Raseapif.h header
@@ -19,4 +19,4 @@ tech.root: eap
 
 This header is used by Extensible Authentication Protocol. For more information, see:
 
-- [Extensible Authentication Protocol](/previous-versions/windows/desktop/eap)
+- [Extensible Authentication Protocol](../_eap)

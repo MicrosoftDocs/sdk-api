@@ -2,7 +2,7 @@
 UID: NA:dmusics
 ms.assetid: a30d8fed-43b7-3059-ad8a-ab084c81edf4
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: audio
 
 This header is used by Audio Devices DDI Reference. For more information, see:
 
-- [Audio Devices DDI Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio)
+- [Audio Devices DDI Reference](../_audio)

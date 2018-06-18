@@ -2,7 +2,7 @@
 UID: NA:portabledeviceapi
 ms.assetid: 3ed45925-7f08-3e59-8a9f-1fa770403c30
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wpdsdk
 
 This header is used by WPD Application Programming Interface. For more information, see:
 
-- [WPD Application Programming Interface](/windows/desktop/wpdsdk)
+- [WPD Application Programming Interface](../_wpdsdk)

@@ -2,7 +2,7 @@
 UID: TP:stg
 ms.assetid: a33edc05-7320-3955-9c15-3b5514e4ac75
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

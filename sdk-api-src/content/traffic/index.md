@@ -2,13 +2,13 @@
 UID: NA:traffic
 ms.assetid: 3b68caa4-02b0-3b3b-b132-3980a3c09514
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: qos
+archived: true
 ---
 
 # Traffic.h header
@@ -19,4 +19,4 @@ tech.root: qos
 
 This header is used by Quality of Service (QOS). For more information, see:
 
-- [Quality of Service (QOS)](/previous-versions/windows/desktop/api/_qos/index)
+- [Quality of Service (QOS)](../_qos)

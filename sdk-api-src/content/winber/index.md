@@ -2,13 +2,13 @@
 UID: NA:winber
 ms.assetid: 7c6aa3f9-11ea-3c75-87c8-8c3cf028f197
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ldap
+archived: true
 ---
 
 # Winber.h header
@@ -19,4 +19,4 @@ tech.root: ldap
 
 This header is used by Lightweight Directory Access Protocol. For more information, see:
 
-- [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap)
+- [Lightweight Directory Access Protocol](../_ldap)

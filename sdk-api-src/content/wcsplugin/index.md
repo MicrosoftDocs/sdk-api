@@ -2,13 +2,13 @@
 UID: NA:wcsplugin
 ms.assetid: cd24e38d-d9a9-3363-bc85-29c88508da9d
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: wcs
+archived: true
 ---
 
 # Wcsplugin.h header
@@ -19,4 +19,4 @@ tech.root: wcs
 
 This header is used by Windows Color System. For more information, see:
 
-- [Windows Color System](/previous-versions/windows/desktop/wcs)
+- [Windows Color System](../_wcs)

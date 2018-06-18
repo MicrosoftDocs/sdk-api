@@ -2,13 +2,13 @@
 UID: NA:ddpbackup
 ms.assetid: d497ed17-4414-3b69-8860-285cc60b5f53
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: dedup
+archived: true
 ---
 
 # Ddpbackup.h header
@@ -19,4 +19,4 @@ tech.root: dedup
 
 This header is used by Data Deduplication API. For more information, see:
 
-- [Data Deduplication API](/previous-versions/windows/desktop/dedup)
+- [Data Deduplication API](../_dedup)

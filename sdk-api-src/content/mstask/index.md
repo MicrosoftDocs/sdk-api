@@ -2,7 +2,7 @@
 UID: NA:mstask
 ms.assetid: ee24e518-a7b3-3029-9e89-3a815727ab3e
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: taskschd
 
 This header is used by Task Scheduler. For more information, see:
 
-- [Task Scheduler](/windows/desktop/taskschd)
+- [Task Scheduler](../_taskschd)

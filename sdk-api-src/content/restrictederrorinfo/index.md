@@ -2,7 +2,7 @@
 UID: NA:restrictederrorinfo
 ms.assetid: 3d529451-f4fd-33ef-be06-d7eae4b247e3
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrt
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [Windows Runtime C++ reference](/windows/desktop/winrt)
+- [Windows Runtime C++ reference](../_winrt)

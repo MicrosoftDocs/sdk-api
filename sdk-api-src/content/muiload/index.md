@@ -2,7 +2,7 @@
 UID: NA:muiload
 ms.assetid: 881ea66f-10cf-358e-9fdc-63c0e29b33ee
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: intl
 
 This header is used by Internationalization for Windows Applications. For more information, see:
 
-- [Internationalization for Windows Applications](/windows/desktop/intl)
+- [Internationalization for Windows Applications](../_intl)

@@ -2,7 +2,7 @@
 UID: NA:instance
 ms.assetid: abfa69f2-8124-3657-860a-1ad4f63027d0
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: setup
 
 This header is used by Application Installation and Servicing. For more information, see:
 
-- [Application Installation and Servicing](/windows/desktop/setup)
+- [Application Installation and Servicing](../_setup)

@@ -2,7 +2,7 @@
 UID: NA:errorrep
 ms.assetid: e736288e-b73c-3d88-b465-87413e1b606d
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: wer
 
 This header is used by Windows Error Reporting. For more information, see:
 
-- [Windows Error Reporting](/windows/desktop/wer)
+- [Windows Error Reporting](../_wer)

@@ -2,13 +2,13 @@
 UID: NA:infotech
 ms.assetid: 9708a16b-0bf1-3c57-a6b8-ec09e7b93605
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: htmlhelp
+archived: true
 ---
 
 # Infotech.h header
@@ -19,4 +19,4 @@ tech.root: htmlhelp
 
 This header is used by Microsoft HTML Help 1.4. For more information, see:
 
-- [Microsoft HTML Help 1.4](/previous-versions/windows/desktop/htmlhelp)
+- [Microsoft HTML Help 1.4](../_htmlhelp)

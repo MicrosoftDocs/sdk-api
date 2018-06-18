@@ -2,7 +2,7 @@
 UID: NA:qnetwork
 ms.assetid: d78c8ba2-4d4a-339e-9f7a-20fed6653b9d
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: dshow
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](/windows/desktop/dshow)
+- [DirectShow](../_dshow)

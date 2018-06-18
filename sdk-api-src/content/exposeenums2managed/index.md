@@ -2,7 +2,7 @@
 UID: NA:exposeenums2managed
 ms.assetid: 5cb45e6c-2148-3d2e-8f5d-3963b3bdcdee
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winprog
 
 This header is used by Developer Notes. For more information, see:
 
-- [Developer Notes](/windows/desktop/winprog)
+- [Developer Notes](../_winprog)

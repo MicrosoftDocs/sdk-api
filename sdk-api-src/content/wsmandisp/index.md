@@ -2,7 +2,7 @@
 UID: NA:wsmandisp
 ms.assetid: f9530b7e-e909-3279-8f5d-9bb8aad08c11
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: winrm
 
 This header is used by Windows Remote Management. For more information, see:
 
-- [Windows Remote Management](/windows/desktop/winrm)
+- [Windows Remote Management](../_winrm)

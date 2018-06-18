@@ -2,7 +2,7 @@
 UID: NA:shtypes
 ms.assetid: 87698e3d-1812-3379-ba5a-c5589ff36eed
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: shell
 
 This header is used by The Windows Shell. For more information, see:
 
-- [The Windows Shell](/windows/desktop/shell)
+- [The Windows Shell](../_shell)

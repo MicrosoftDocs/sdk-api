@@ -2,7 +2,7 @@
 UID: NA:rasshost
 ms.assetid: aa6c027b-df1d-3d8d-aa15-e2c9733f29b9
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: rras
 
 This header is used by Routing and Remote Access Service. For more information, see:
 
-- [Routing and Remote Access Service](/windows/desktop/rras)
+- [Routing and Remote Access Service](../_rras)

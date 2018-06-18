@@ -2,7 +2,7 @@
 UID: NA:vsadmin
 ms.assetid: 06dcee59-b6e3-3bcc-936b-905c2a845f5f
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: base
 
 This header is used by System Services. For more information, see:
 
-- [System Services](/windows/desktop/base)
+- [System Services](../_base)

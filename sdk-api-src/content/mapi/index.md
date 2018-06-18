@@ -2,13 +2,13 @@
 UID: NA:mapi
 ms.assetid: d94e049c-1d17-3bbe-b532-6eb19f1d1ed1
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mapi
+archived: true
 ---
 
 # Mapi.h header
@@ -19,4 +19,4 @@ tech.root: mapi
 
 This header is used by Windows Messaging (MAPI). For more information, see:
 
-- [Windows Messaging (MAPI)](/previous-versions/windows/desktop/mapi)
+- [Windows Messaging (MAPI)](../_mapi)

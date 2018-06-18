@@ -2,7 +2,7 @@
 UID: NA:immdev
 ms.assetid: 5b6a3964-dc81-322f-bed5-9efda946f817
 ms.author: windowssdkdev
-ms.date: 06/16/2018
+ms.date: 06/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,4 +18,4 @@ tech.root: intl
 
 This header is used by Internationalization for Windows Applications. For more information, see:
 
-- [Internationalization for Windows Applications](/windows/desktop/intl)
+- [Internationalization for Windows Applications](../_intl)
