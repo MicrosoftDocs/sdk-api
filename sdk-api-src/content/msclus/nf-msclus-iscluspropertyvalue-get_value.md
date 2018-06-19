@@ -57,8 +57,8 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Sets or retrieves 
-    the <a href="d_gly.htm">data value</a> of a 
-    <a href="p_gly.htm">property value</a>.
+    the <a href="/windows/desktop/dns/d-gly">data value</a> of a 
+    <a href="/windows/desktop/dns/p-gly">property value</a>.
 
 This property is read-only.
 

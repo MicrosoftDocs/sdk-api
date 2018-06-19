@@ -104,7 +104,7 @@ This method does not return a value.
 
 
 
-Any resources that the resource <a href="d_gly.htm">depends</a> 
+Any resources that the resource <a href="/windows/desktop/dns/d-gly">depends</a> 
     on are brought online first.
 
 

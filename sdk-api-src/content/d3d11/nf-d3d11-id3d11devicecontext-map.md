@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:d3d11.ID3D11DeviceContext.Map
 title: ID3D11DeviceContext::Map
 author: windows-sdk-content
@@ -160,7 +160,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52
             <a href="https://msdn.microsoft.com/060B9627-3A95-4DBD-B3E6-3989D8D9C79E">ID3D11DeviceContext3::ReadFromSubresource</a>.
           
 
-<h3><a id="No_Read_From_Write_Mapped"></a><a id="no_read_from_write_mapped"></a><a id="NO_READ_FROM_WRITE_MAPPED"></a>Don't read from a subresource mapped for writing</h3>
+<h3>Don't read from a subresource mapped for writing</h3>
 
             When you pass <a href="d3d11_map.htm">D3D11_MAP_WRITE</a>, <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP_WRITE_DISCARD</a>, or <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP_WRITE_NO_OVERWRITE</a> to the <i>MapType</i> parameter, you must ensure that your app does not read the subresource data to which the <b>pData</b> member of <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a> points because doing so can cause a significant performance penalty. The memory region to which <b>pData</b> points can be allocated with <a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">PAGE_WRITECOMBINE</a>, and your app must honor all restrictions that are associated with such memory.<div class="alert"><b>Note</b>  <p class="note">
                 Even the following C++ code can read from memory and trigger the performance penalty because the code can expand to the following x86 assembly code.

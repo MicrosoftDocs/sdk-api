@@ -72,7 +72,7 @@ You do not create the <a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94f
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

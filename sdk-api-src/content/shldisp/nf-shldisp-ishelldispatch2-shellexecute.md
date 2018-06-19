@@ -186,7 +186,7 @@ Open the application with its window in the default state specified by the appli
 
 #### - sFile [in]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a></b>
 
 A <b>String</b> that contains the name of the file on which <b>ShellExecute</b> will perform the action specified by <i>vOperation</i>.
 

@@ -103,7 +103,7 @@ For information about how to query which capabilities, or modes, are available f
 
 
 
-<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms696371(v=vs.85).aspx">IInkRecognizerContext</a>
 
 
 

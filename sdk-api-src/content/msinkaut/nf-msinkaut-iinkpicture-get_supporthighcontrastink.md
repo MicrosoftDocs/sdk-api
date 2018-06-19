@@ -91,7 +91,7 @@ Real-time ink application uses the COLOR_WINDOWTEXT color when the system is in 
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

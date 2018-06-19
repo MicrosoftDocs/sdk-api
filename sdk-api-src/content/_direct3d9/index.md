@@ -20,7 +20,7 @@ To develop Direct3D 9 Graphics, you need these headers:
  * [d3d9.h](../d3d9/index.md)
  * [d3d9caps.h](../d3d9caps/index.md)
  * [d3d9helper.h](../d3d9helper/index.md)
- * [d3d9types.h](../d3d9types/index.md)
+
 
 For programming guidance for this technology, see:
 * [Direct3D 9 Graphics](/windows/desktop/direct3d9)

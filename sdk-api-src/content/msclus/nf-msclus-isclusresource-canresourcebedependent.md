@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Determines if the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> can be 
-    <a href="d_gly.htm">dependent</a> on another resource.
+    <a href="/windows/desktop/dns/d-gly">dependent</a> on another resource.
 
 
 ## -parameters

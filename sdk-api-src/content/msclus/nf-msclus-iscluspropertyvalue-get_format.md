@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns or sets 
     the format (data type) of a 
-    <a href="p_gly.htm">property value</a>.
+    <a href="/windows/desktop/dns/p-gly">property value</a>.
 
 This property is read-only.
 

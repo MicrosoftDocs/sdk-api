@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 Registers a device with a MDM service, using the 
-    <a href="5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a>.
+    <a href="http://msdn.microsoft.com/5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a>.
 
 
 ## -parameters

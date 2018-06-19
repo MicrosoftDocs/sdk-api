@@ -168,7 +168,7 @@ The <a href="https://msdn.microsoft.com/0cc319af-cd0b-4089-928b-cae6c86f6f61">Re
 
 
 
-<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms696371(v=vs.85).aspx">IInkRecognizerContext</a>
 
 
 

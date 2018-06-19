@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="8F84D4F6-1852-4AD8-B174-F3FA37E5BBD6">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
+Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="http://msdn.microsofot.com/8F84D4F6-1852-4AD8-B174-F3FA37E5BBD6">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
 
 
 ## -parameters

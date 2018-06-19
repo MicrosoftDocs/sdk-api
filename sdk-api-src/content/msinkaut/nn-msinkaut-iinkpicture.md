@@ -6,7 +6,7 @@ description: TBD
 tech.root:
 ms.assetid: af8f60e9-f520-469c-bb42-17bcec78c275
 ms.author: windowssdkdev
-ms.date: 
+ms.date: 06/06/2018
 ms.topic: interface
 ms.prod: windows
 ms.technology: windows-sdk

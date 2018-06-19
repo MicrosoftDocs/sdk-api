@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winnls.SetThreadPreferredUILanguages
 title: SetThreadPreferredUILanguages function
 author: windows-sdk-content
@@ -218,7 +218,7 @@ Setting the MUI_CONSOLE_FILTER flag in the call to <b>SetThreadPreferredUILangua
 <div> </div>
 To change the code page, the application uses the <b>setlocale</b> function, or equivalent.
 
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+<h3>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

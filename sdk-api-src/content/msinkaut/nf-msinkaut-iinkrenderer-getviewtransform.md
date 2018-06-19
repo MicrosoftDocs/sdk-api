@@ -140,7 +140,7 @@ View transformation occurs after object transformation.
 
 
 
-<a href="tablet.iinkrenderer">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms699463(v=vs.85).aspx">IInkRenderer</a>
 
 
 

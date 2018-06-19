@@ -159,7 +159,7 @@ PT_STRING8
 
 #### bin
 
-<b>Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a></b>
+<b>Type: <b><a href="http://msdn.microsoft.com/7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a></b>
 </b>
 PT_BINARY
 

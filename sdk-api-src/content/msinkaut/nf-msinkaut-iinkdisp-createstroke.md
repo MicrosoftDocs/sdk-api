@@ -170,7 +170,7 @@ The minimum and maximum values of any point in the points array are LONG_MIN and
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
 
 
 

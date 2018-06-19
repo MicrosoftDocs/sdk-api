@@ -168,7 +168,7 @@ If an empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
 
 
 

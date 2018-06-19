@@ -83,7 +83,7 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

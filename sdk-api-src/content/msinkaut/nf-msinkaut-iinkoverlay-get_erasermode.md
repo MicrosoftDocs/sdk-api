@@ -85,7 +85,7 @@ This property only applies when the <a href="https://msdn.microsoft.com/3b734da3
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms698599(v=vs.85).aspx">IInkOverlay</a>
 
 
 

@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winnls.GetFileMUIInfo
 title: GetFileMUIInfo function
 author: windows-sdk-content
@@ -242,7 +242,7 @@ LPWSTR lpszLang = reinterpret_cast&lt;LPWSTR&gt;(&amp;(pFileMUIInfo-&gt;abBuffer
 </td>
 </tr>
 </table></span></div>
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+<h3>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

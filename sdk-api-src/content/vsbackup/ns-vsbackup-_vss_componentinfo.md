@@ -1,4 +1,4 @@
----
+﻿---
 UID: NS:vsbackup._VSS_COMPONENTINFO
 title: "_VSS_COMPONENTINFO"
 author: windows-sdk-content
@@ -210,7 +210,7 @@ By default, a component's selectability for restore is <b>false</b>. A writer ca
        this default when it adds the component to its Writer Metadata Document using 
        <a href="https://msdn.microsoft.com/fdbcbcea-d49e-49bc-9bb8-2210a9de02a4">IVssCreateWriterMetadata::AddComponent</a>.
 
-If the component was <a href="vssgloss_e.htm">explicitly 
+If the component was <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa384647(v=vs.85).aspx">explicitly 
        added</a> to the backup document, it can always be individually selected for restore, so this flag then has 
        no meaning. If the component was implicitly added to the backup document, then the 
        <b>bSelectableForRestore</b> flag determines whether the component can be individually 

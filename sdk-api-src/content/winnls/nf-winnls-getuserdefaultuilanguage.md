@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winnls.GetUserDefaultUILanguage
 title: GetUserDefaultUILanguage function
 author: windows-sdk-content
@@ -86,7 +86,7 @@ If the user UI language is part of a Language Interface Pack (LIP) and correspon
 
 <b>Windows Me, Windows 2000, Windows XP, Windows Server 2003:</b> The <b>GetUserDefaultUILanguage</b> function retrieves the language identifier for the current user language. If MUI is not installed on the operating system, the function retrieves the default computer user interface language.
 
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+<h3>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

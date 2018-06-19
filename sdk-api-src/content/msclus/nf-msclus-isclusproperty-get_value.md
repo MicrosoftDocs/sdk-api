@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Sets or retrieves the 
-    locally stored copy of the <a href="p_gly.htm">property value</a> 
+    locally stored copy of the <a href="/windows/desktop/dns/p-gly">property value</a> 
     of a <a href="https://msdn.microsoft.com/ba11ba7a-10f7-4f2c-99cd-d274912ad454">cluster object property</a>.
 
 This property is read-only.
@@ -85,7 +85,7 @@ For detailed information about the properties associated with
 
 For cluster object properties that contain multiple values, use 
     <a href="https://msdn.microsoft.com/894b4ce9-422e-481f-81a5-8cccae3140a6">ClusProperty.ValueCount</a> to find the number of 
-    <a href="p_gly.htm">property values</a>, and 
+    <a href="/windows/desktop/dns/p-gly">property values</a>, and 
     <a href="https://msdn.microsoft.com/53cff9ea-15e4-4408-8e25-23219b8cfe76">ClusProperty.Values</a> to obtain a 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> collection 
     containing the property values.

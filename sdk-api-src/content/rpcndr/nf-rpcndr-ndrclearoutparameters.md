@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:rpcndr.NdrClearOutParameters
 title: NdrClearOutParameters function
 author: windows-sdk-content
@@ -8,8 +8,7 @@ old-project: Rpc
 ms.assetid: f0ae23d5-3ec0-4e41-8c2c-5b6eb9bbb1b8
 ms.author: windowssdkdev
 ms.date: 05/30/2018
-ms.keywords: NdrClearOutParameters, NdrClearOutParameters
-, NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
+ms.keywords: NdrClearOutParameters, NdrClearOutParameters, NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr.NdrClearOutParameters
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function

@@ -124,7 +124,7 @@ To change the drawing attributes of a single stroke, use the <a href="https://ms
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

@@ -147,7 +147,7 @@ For instances:
 
 Receives a new <b>BSTR</b> that contains the property name. To prevent memory leaks 
       in the client process, the caller must call 
-      <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the name is no 
+      <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> when the name is no 
       longer required. You can set this parameter to <b>NULL</b> if the name is not required.
 
 

@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:azroles.IAzTask.get_BizRuleLanguage
 title: IAzTask::get_BizRuleLanguage
 author: windows-sdk-content
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 922f4fd8-f553-439c-b9ae-51a45a88adc7
 ms.author: windowssdkdev
 ms.date: 05/22/2018
-ms.keywords: ""JScript", "VBScript", AzTask object [Security],BizRuleLanguage property, BizRuleLanguage property [Security], BizRuleLanguage property [Security],AzTask object, BizRuleLanguage property [Security],IAzTask interface, IAzTask interface [Security],BizRuleLanguage property, IAzTask.BizRuleLanguage, IAzTask.get_BizRuleLanguage, IAzTask::BizRuleLanguage, IAzTask::get_BizRuleLanguage, IAzTask::put_BizRuleLanguage, azroles/IAzTask::BizRuleLanguage, azroles/IAzTask::get_BizRuleLanguage, azroles/IAzTask::put_BizRuleLanguage, get_BizRuleLanguage, security.iaztask_bizrulelanguage"
+ms.keywords: JScript, VBScript, AzTask object [Security],BizRuleLanguage property, BizRuleLanguage property [Security], BizRuleLanguage property [Security],AzTask object, BizRuleLanguage property [Security],IAzTask interface, IAzTask interface [Security],BizRuleLanguage property, IAzTask.BizRuleLanguage, IAzTask.get_BizRuleLanguage, IAzTask::BizRuleLanguage, IAzTask::get_BizRuleLanguage, IAzTask::put_BizRuleLanguage, azroles/IAzTask::BizRuleLanguage, azroles/IAzTask::get_BizRuleLanguage, azroles/IAzTask::put_BizRuleLanguage, get_BizRuleLanguage, security.iaztask_bizrulelanguage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method

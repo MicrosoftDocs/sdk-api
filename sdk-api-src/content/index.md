@@ -6,6 +6,7 @@ layout: LandingPage
 ms.prod: windows
 ms.topic: landing-page
 ms.date: 05/22/2018
+ms.technology: windows-sdk
 ms.author: windowssdkdev
 ---
 

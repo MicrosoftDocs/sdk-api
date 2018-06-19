@@ -167,7 +167,7 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
 
 
 

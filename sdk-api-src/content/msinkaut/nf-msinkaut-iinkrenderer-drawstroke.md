@@ -196,7 +196,7 @@ The <a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">In
 
 
 
-<a href="tablet.iinkrenderer">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms699463(v=vs.85).aspx">IInkRenderer</a>
 
 
 

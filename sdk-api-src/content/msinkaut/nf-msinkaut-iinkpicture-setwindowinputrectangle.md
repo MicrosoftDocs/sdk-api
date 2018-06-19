@@ -185,7 +185,7 @@ You cannot pass in a rectangle where the value of the <a href="https://msdn.micr
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

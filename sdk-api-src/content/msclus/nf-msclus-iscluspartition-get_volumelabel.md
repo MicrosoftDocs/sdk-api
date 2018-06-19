@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     volume label of a 
-    <a href="s_gly.htm">storage class resource</a> 
+    <a href="/windows/desktop/dns/s-gly">storage class resource</a> 
     partition.
 
 This property is read-only.

@@ -89,7 +89,7 @@ Using words longer than 256 characters will result in an E_POINTER exception whe
 
 
 
-<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms696371(v=vs.85).aspx">IInkRecognizerContext</a>
 
 
 

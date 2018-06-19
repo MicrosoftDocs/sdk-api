@@ -78,7 +78,7 @@ Applications can use the ExtendedProperties property to access the custom data t
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
 
 
 

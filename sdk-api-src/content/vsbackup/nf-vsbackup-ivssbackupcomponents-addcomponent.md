@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
 title: IVssBackupComponents::AddComponent
 author: windows-sdk-content
@@ -216,7 +216,7 @@ The object is a duplicate. A component with the same logical path and component 
 The <b>AddComponent</b> method has meaning only if 
     the backup operation takes place in component mode.
 
-Only <a href="vssgloss_s.htm">selectable for backup 
+Only <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa384667(v=vs.85).aspx">selectable for backup 
     components</a> and nonselectable for backup components with no selectable for backup ancestors should be added 
     to the Backup Components Document using 
     <b>AddComponent</b>.

@@ -1,8 +1,8 @@
----
+﻿---
 UID: NN:ocidl.IViewObjectEx
 title: IViewObjectEx
 author: windows-sdk-content
-description: An extension derived from IViewObject2 to provide support for:
+description: An extension derived from IViewObject2 to provide support for
 old-location: com\iviewobjectex.htm
 old-project: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b

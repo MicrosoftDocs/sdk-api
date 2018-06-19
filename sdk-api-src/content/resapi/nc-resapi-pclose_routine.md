@@ -1,4 +1,4 @@
----
+﻿---
 UID: NC:resapi.PCLOSE_ROUTINE
 title: PCLOSE_ROUTINE
 author: windows-sdk-content
@@ -95,7 +95,7 @@ For effective implementation strategies of the <b>Close</b>
 
 #### Examples
 
-See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/aa372246(v=vs.85).aspx">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

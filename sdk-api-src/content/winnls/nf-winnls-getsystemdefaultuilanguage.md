@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winnls.GetSystemDefaultUILanguage
 title: GetSystemDefaultUILanguage function
 author: windows-sdk-content
@@ -84,7 +84,7 @@ This function never returns a language identifier for a Language Interface Pack 
 
 Note that this function does not necessarily return the identifier for the first language in the system preferred UI languages list. Therefore the return might not match the first element retrieved by <a href="https://msdn.microsoft.com/2948b495-c400-4227-94fb-7c4f5171ecae">GetSystemPreferredUILanguages</a>.
 
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+<h3>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

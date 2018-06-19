@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winnls.GetProcessPreferredUILanguages
 title: GetProcessPreferredUILanguages function
 author: windows-sdk-content
@@ -148,7 +148,7 @@ as "0409" and en as "0009".
 
 <div class="alert"><b>Note</b>  Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID.</div>
 <div> </div>
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+<h3>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

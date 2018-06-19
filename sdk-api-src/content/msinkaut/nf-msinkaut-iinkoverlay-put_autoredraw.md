@@ -131,7 +131,7 @@ InkPicture controls inherited Invalidated and Paint events.
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms698599(v=vs.85).aspx">IInkOverlay</a>
 
 
 

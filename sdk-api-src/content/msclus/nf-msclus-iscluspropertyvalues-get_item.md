@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns a single 
-    <a href="p_gly.htm">property value</a> from a 
+    <a href="/windows/desktop/dns/p-gly">property value</a> from a 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

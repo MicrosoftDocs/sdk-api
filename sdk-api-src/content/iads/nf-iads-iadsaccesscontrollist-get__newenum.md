@@ -68,7 +68,7 @@ The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enume
 
 #### - ppEnumerator [out]
 
-Pointer to pointer to the <a href="_com_iunknown">IUnknown</a> interface used to retrieve
+Pointer to pointer to the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509.aspx">IUnknown</a> interface used to retrieve
       <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an enumerator object for the ACL.
 
 

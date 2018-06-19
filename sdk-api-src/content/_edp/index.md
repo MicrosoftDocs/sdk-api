@@ -23,5 +23,5 @@ To develop Windows Information Protection (WIP), you need these headers:
  * [srpapi.h](../srpapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Information Protection (WIP)](/previous-versions/windows/desktop/edp)
+* [Windows Information Protection (WIP)](https://msdn.microsoft.com/en-us/library/windows/desktop/mt759319.aspx)
 

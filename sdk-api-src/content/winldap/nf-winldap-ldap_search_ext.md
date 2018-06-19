@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winldap.ldap_search_ext
 title: ldap_search_ext function
 author: windows-sdk-content
@@ -179,7 +179,7 @@ Multithreading: Calls to <b>ldap_search_ext</b> are thread-safe.
 
 
 
-<a href="ad.change_notifications_in_active_directory">Change Notifications in Active Directory</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa772153(v=vs.85).aspx">Change Notifications in Active Directory</a>
 
 
 

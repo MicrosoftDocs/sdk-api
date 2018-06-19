@@ -97,7 +97,7 @@ This property applies only when the <a href="https://msdn.microsoft.com/5767f768
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

@@ -82,7 +82,7 @@ Reference to a <b>LONG</b> that receives the identifier for this particular sear
 
 #### - pUnkCallback [in]
 
-Reference to an <a href="_com_iunknown">IUnknown</a> interface object that specifies the callback that the UPnP framework must use to communicate the results of this asynchronous search.
+Reference to an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509.aspx">IUnknown</a> interface object that specifies the callback that the UPnP framework must use to communicate the results of this asynchronous search.
 
 The object referred to by <i>pUnkCallback</i> must support either the 
 <a href="https://msdn.microsoft.com/02f1220b-d400-469e-8a28-64871f7fcbe2">IUPnPDeviceFinderCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The object referred to by <i>pUnkCallback</i> might support the <a href="https://msdn.microsoft.com/b0d78121-35d0-4f33-b1e9-19e0b2c5b78f">IUPnPDeviceFinderAddCallbackWithInterface</a> interface, in addition to the <b>IUPnPDeviceFinderCallback</b> interface.

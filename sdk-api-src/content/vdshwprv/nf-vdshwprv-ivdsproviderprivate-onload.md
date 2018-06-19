@@ -123,7 +123,7 @@ The provider failed to initialize.
     VDS calls this method immediately after calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> method on a provider.
 
 
-    Implementers must implement this method. Invoke the  <a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a> method 
+    Implementers must implement this method. Invoke the  <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682521(v=vs.85).aspx">IUnknown::QueryInterface</a> method 
     to query for the <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> interface.
 
 

@@ -89,7 +89,7 @@ This method does not return a value.
 Removing a node from a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group's</a>
 <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection removes the node from the group's 
-    <a href="p_gly.htm">preferred owners</a> list.
+    <a href="/windows/desktop/dns/p-gly">preferred owners</a> list.
 
 
 

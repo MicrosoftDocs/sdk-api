@@ -172,7 +172,7 @@ If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a h
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
 
 
 

@@ -86,5 +86,5 @@ For programming guidance for this technology, see:
 * [Security Glossary](/windows/desktop/secgloss)
 * [Security Management](/windows/desktop/secmgmt)
 * [Security WMI Providers](/windows/desktop/secprov)
-* [Software Licensing API](/windows/desktop/secslapi)
+
 

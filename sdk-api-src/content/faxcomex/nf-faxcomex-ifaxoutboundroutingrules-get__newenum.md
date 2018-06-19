@@ -68,9 +68,9 @@ The <b>IFaxOutboundRoutingRules::get__NewEnum</b> method returns a reference to 
 
 #### - pUnk [out, retval]
 
-Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509.aspx">IUnknown</a>**</b>
 
- Receives an indirect pointer to the enumerator object <a href="_com_IUnknown">IUnknown</a> interface for this collection.
+ Receives an indirect pointer to the enumerator object <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509.aspx">IUnknown</a> interface for this collection.
 
 
 ## -returns

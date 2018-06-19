@@ -57,8 +57,8 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the number of 
-    <a href="d_gly.htm">data values</a> currently assigned to a 
-    <a href="p_gly.htm">property value</a>.
+    <a href="/windows/desktop/dns/d-gly">data values</a> currently assigned to a 
+    <a href="/windows/desktop/dns/p-gly">property value</a>.
 
 This property is read-only.
 

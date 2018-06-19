@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:peninputpanel.IPenInputPanel.MoveTo
 title: IPenInputPanel::MoveTo
 author: windows-sdk-content
@@ -145,7 +145,7 @@ You can also override the automatic positioning behavior of the <a href="https:/
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms701739(v=vs.85).aspx">IPenInputPanel</a>
 
 
 

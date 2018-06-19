@@ -185,7 +185,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/e9fa6807-6e2a-44e
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

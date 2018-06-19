@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the flags 
-    set for a <a href="s_gly.htm">storage class resource</a> 
+    set for a <a href="/windows/desktop/dns/s-gly">storage class resource</a> 
     partition.
 
 This property is read-only.

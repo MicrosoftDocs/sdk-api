@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns 
     flags describing the file system of a 
-    <a href="s_gly.htm">storage class resource</a> 
+    <a href="/windows/desktop/dns/s-gly">storage class resource</a> 
     partition.
 
 This property is read-only.

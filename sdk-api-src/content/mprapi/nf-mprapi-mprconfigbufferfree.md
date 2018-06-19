@@ -1,8 +1,8 @@
----
+﻿---
 UID: NF:mprapi.MprConfigBufferFree
 title: MprConfigBufferFree function
 author: windows-sdk-content
-description: The MprConfigBufferFree function frees buffers allocated by calls to the following functions:
+description: The MprConfigBufferFree function frees buffers allocated by calls to the following functions
 old-location: rras\mprconfigbufferfree.htm
 old-project: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62

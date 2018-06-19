@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:winnls.GetUserPreferredUILanguages
 title: GetUserPreferredUILanguages function
 author: windows-sdk-content
@@ -153,7 +153,7 @@ The language list retrieved by this function has the following characteristics:
 <li>The list contains one entry for each language, with no duplicate entries.</li>
 <li>If the list is empty or does not meet these validation criteria, the system preferred UI languages list is used instead.</li>
 </ul>
-<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
+<h3>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

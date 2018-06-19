@@ -112,7 +112,7 @@ Deletes the value at a specified property. Property modification
 <a href="https://msdn.microsoft.com/1a62c5d3-7052-4c10-90e7-25f616ac36b8">GetBinary</a>
 </td>
 <td align="left" width="63%">
-Retrieves the binary data of a property using an <a href="_stg_istream">IStream interface [Structured Storage]</a>. 
+Retrieves the binary data of a property using an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a>. 
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Retrieves the string value at a specified property into a caller-allocated buffe
 <a href="https://msdn.microsoft.com/432c2417-e762-47ff-b2ce-a244120f0545">SetBinary</a>
 </td>
 <td align="left" width="63%">
-Sets the binary data at a specified property to the contents of a specified <a href="_stg_istream">IStream interface [Structured Storage]</a>, 
+Sets the binary data at a specified property to the contents of a specified <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a>, 
 		which contains a null-terminated string (as MIME type) data. 
 
 </td>

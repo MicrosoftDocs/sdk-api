@@ -22,5 +22,5 @@ To develop Windows Sync, you need these headers:
  * [winsync.h](../winsync/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Sync](/previous-versions/windows/desktop/winsync)
+* [Windows Sync](https://msdn.microsoft.com/en-us/library/windows/desktop/dd317274.aspx)
 

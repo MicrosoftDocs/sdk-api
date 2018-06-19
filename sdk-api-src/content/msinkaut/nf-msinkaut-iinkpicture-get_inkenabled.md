@@ -132,7 +132,7 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

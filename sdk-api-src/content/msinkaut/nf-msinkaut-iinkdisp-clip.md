@@ -175,7 +175,7 @@ For more information on ink data, see <a href="https://msdn.microsoft.com/5a8c37
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
 
 
 

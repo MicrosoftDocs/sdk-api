@@ -192,7 +192,7 @@ You cannot pass in a rectangle where the value of the <a href="https://msdn.micr
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms698599(v=vs.85).aspx">IInkOverlay</a>
 
 
 

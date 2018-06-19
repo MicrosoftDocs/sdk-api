@@ -78,7 +78,7 @@ If successful, returns the string. If <i>psz</i> is a zero-length string, return
 
 
 
-You can free strings created with <b>SysAllocString</b> using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring.md">SysFreeString</a>.
+You can free strings created with <b>SysAllocString</b> using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 

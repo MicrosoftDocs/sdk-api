@@ -93,7 +93,7 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
 
 
 

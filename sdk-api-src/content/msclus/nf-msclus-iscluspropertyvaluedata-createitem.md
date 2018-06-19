@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Creates a <a href="d_gly.htm">data value</a> and adds it to to a 
+Creates a <a href="/windows/desktop/dns/d-gly">data value</a> and adds it to to a 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
     collection.
 
