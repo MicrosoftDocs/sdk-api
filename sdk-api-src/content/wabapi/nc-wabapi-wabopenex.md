@@ -1,4 +1,4 @@
----
+﻿---
 UID: NC:wabapi.WABOpenEx
 title: WABOpenEx
 author: windows-sdk-content
@@ -121,7 +121,7 @@ Pointer to a function that specifies the <a href="https://msdn.microsoft.com/727
 
 Type: <b>ALLOCATEMORE*</b>
 
-Pointer to a function that specifies the <a href="6e061485-9e8e-4d18-9559-a8fa4744b7f3">MAPIAllocateMore</a>-style allocation function. Set to <b>NULL</b> to use WAB internal routines.
+Pointer to a function that specifies the <a href="http://msdn.microsoft.com/6e061485-9e8e-4d18-9559-a8fa4744b7f3">MAPIAllocateMore</a>-style allocation function. Set to <b>NULL</b> to use WAB internal routines.
 
 
 #### - lpfnFreeBuffer
@@ -148,7 +148,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 This function calls the <a href="https://msdn.microsoft.com/68f2dcd5-9153-488a-ab9b-7cc03b09a87f">WABOpen</a> function, and the extra parameters <i>lpfnAllocateBuffer</i>, <i>lpfnAllocateMore</i>, and <i>lpfnFreeBuffer</i> are ignored.
 
-<i>WABOpenEx</i> is an extended version of <a href="https://msdn.microsoft.com/68f2dcd5-9153-488a-ab9b-7cc03b09a87f">WABOpen</a> that enables developers to specify the memory allocation functions used by WAB to return buffers to the client. If you pass one allocation routine, you must pass all three routines: <a href="https://msdn.microsoft.com/72734469-ac7c-4954-af70-c1ade2621bde">MAPIAllocateBuffer</a>, <a href="6e061485-9e8e-4d18-9559-a8fa4744b7f3">MAPIAllocateMore</a>, and <a href="a44b09e9-33c0-4466-b95c-a830093795d2">MAPIFreeBuffer</a>.
+<i>WABOpenEx</i> is an extended version of <a href="https://msdn.microsoft.com/68f2dcd5-9153-488a-ab9b-7cc03b09a87f">WABOpen</a> that enables developers to specify the memory allocation functions used by WAB to return buffers to the client. If you pass one allocation routine, you must pass all three routines: <a href="https://msdn.microsoft.com/72734469-ac7c-4954-af70-c1ade2621bde">MAPIAllocateBuffer</a>, <a href="6e061485-9e8e-4d18-9559-a8fa4744b7f3">MAPIAllocateMore</a>, and <a href="http://msdn.microsoft.com/a44b09e9-33c0-4466-b95c-a830093795d2">MAPIFreeBuffer</a>.
 
 If you do not need the extra memory allocation functionality of <i>WABOpenEx</i>, use <a href="https://msdn.microsoft.com/68f2dcd5-9153-488a-ab9b-7cc03b09a87f">WABOpen</a> instead.
 

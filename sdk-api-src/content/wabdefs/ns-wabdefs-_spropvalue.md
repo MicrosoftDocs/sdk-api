@@ -1,4 +1,4 @@
----
+﻿---
 UID: NS:wabdefs._SPropValue
 title: "_SPropValue"
 author: windows-sdk-content
@@ -247,7 +247,7 @@ PT_MV_SYSTIME
 
 #### MVbin
 
-<b>Type: <b><a href="31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a></b>
+<b>Type: <b><a href="http://msdn.microsoft.com/31fc6e1b-c2c1-4e74-a760-957a60005d1e">SBinaryArray</a></b>
 </b>
 PT_MV_BINARY
 

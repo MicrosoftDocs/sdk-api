@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:msclus.ISClusResource.ChangeResourceGroup
 title: ISClusResource::ChangeResourceGroup
 author: windows-sdk-content
@@ -95,7 +95,7 @@ This method does not return a value.
 Both groups must be hosted by the same node at the time the resource is moved.
 
 If the resource is involved in a 
-     <a href="/windows/desktop/dns/d-gly">dependency relationship</a> with one or more 
+     <a href="https://msdn.microsoft.com/en-us/library/aa369367(v=vs.85).aspx">dependency relationship</a> with one or more 
      resources, all the resources in the dependency tree will change to the new group as well. For example, in the 
      situation shown in the following diagram, changing resource B to group 2 will move the entire dependency tree 
      (resources A, X, and Y) to group 2.

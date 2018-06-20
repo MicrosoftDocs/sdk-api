@@ -1,4 +1,4 @@
----
+﻿---
 UID: NF:msclus.ISClusResDependencies.DeleteItem
 title: ISClusResDependencies::DeleteItem
 author: windows-sdk-content
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Removes 
     a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from the 
-    <a href="/windows/desktop/dns/d-gly">dependency</a> collection and deletes the resource from the 
+    <a href="https://msdn.microsoft.com/en-us/library/aa369367(v=vs.85).aspx">dependency</a> collection and deletes the resource from the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
 
 
