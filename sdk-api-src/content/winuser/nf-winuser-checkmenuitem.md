@@ -7,7 +7,7 @@ old-location: menurc\checkmenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuitem.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CheckMenuItem, CheckMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_UNCHECKED, _win32_CheckMenuItem, _win32_checkmenuitem_cpp, menurc.checkmenuitem, winui._win32_checkmenuitem, winuser/CheckMenuItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -166,7 +166,7 @@ The <i>uIDCheckItem</i> parameter identifies a item that opens a submenu or a co
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Simulating+Check+Boxes+in+a+Menu">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 

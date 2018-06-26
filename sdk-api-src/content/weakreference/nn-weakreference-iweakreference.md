@@ -2,66 +2,81 @@
 UID: NN:weakreference.IWeakReference
 title: IWeakReference
 author: windows-sdk-content
-description: TBD
-tech.root:
-ms.assetid: d0337fc1-bde2-48f5-b8f7-3b590aaa14ff
+description: Represents a weak reference to an object.
+old-location: winrt\iweakreference.htm
+old-project: WinRT
+ms.assetid: fae8bf21-2a38-4e98-9a11-89c548da9e95
 ms.author: windowssdkdev
-ms.date: 
-ms.topic: interface
+ms.date: 06/04/2018
+ms.keywords: IWeakReference, IWeakReference interface [Windows Runtime], IWeakReference interface [Windows Runtime],described, weakreference/IWeakReference, winrt.iweakreference
 ms.prod: windows
 ms.technology: windows-sdk
+ms.topic: interface
 req.header: weakreference.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: WeakReference.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
+tech.root: 
+req.typenames: WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
  - COM
-api_location: 
- - weakreference.h
-api_name: 
+api_location:
+ - WeakReference.h
+api_name:
  - IWeakReference
 product: Windows
 targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows Address Book 5.0
 ---
 
 # IWeakReference interface
 
+
 ## -description
 
-TBD
+
+Represents a weak reference to an object.
 
 
 ## -inheritance
-IWeakReference interits from IUnknown. 
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWeakReference</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWeakReference</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
-<p>IWeakReference has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>Resolve</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Resolve</td>
-		<td>TBD</td>
-	</tr>
-</table>
+The <b>IWeakReference</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/642e44f1-7090-4391-b56c-9ba203c30e37">Resolve</a>
+</td>
+<td align="left" width="63%">
+Resolves a weak reference by returning a strong reference to the specified object.
 
-## -remarks
+</td>
+</tr>
+</table> 
 
-## -see-also

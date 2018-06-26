@@ -151,7 +151,7 @@ Set outParam = process.ExecMethod_("StartService")</pre>
 </td>
 </tr>
 </table></span></div>
-Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="https://www.bing.com/search?q=provider+method">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
+Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
 
 <ul>
 <li>The <b>SWbemObject.ExecMethod_</b> method assumes the object represented by <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a> contains the method to execute. By contrast, <a href="https://msdn.microsoft.com/2637efdc-fde5-4a44-a41f-67e0fb0df19d">SWbemServices.ExecMethod</a> requires an object path. Use <b>SWbemObject.ExecMethod_</b> if you already have obtained the object whose method you want to execute.</li>

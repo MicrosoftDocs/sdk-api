@@ -1,0 +1,128 @@
+---
+UID: NF:sensorsapi.ISensor.SetEventInterest
+title: ISensor::SetEventInterest
+author: windows-sdk-content
+description: Specifies the list of sensor events to receive.
+old-location: winsensors_com_ref\isensor_seteventinterest.htm
+old-project: SensorsAPI
+ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensorsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: SensorConnectionType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.SetEventInterest
+product: Windows
+targetos: Windows
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
+req.product: ADAM
+---
+
+# ISensor::SetEventInterest
+
+
+## -description
+
+
+Specifies the list of sensor events to receive.
+
+
+## -parameters
+
+
+
+
+### -param pValues [in]
+
+Pointer to an array of <b>GUID</b>s. Each <b>GUID</b> represents an event to receive. Set to <b>NULL</b> to receive all data-updated events and all custom events.
+
+
+### -param count [in]
+
+The count of <b>GUID</b>s in the array pointed to by <i>pValues</i>. Set to zero when <i>pValues</i> is <b>NULL</b>.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Each sensor event is represented by a <b>GUID</b>. This method takes, as an array of <b>GUID</b>s, the list of events that you want to receive.
+
+
+#### Examples
+
+For an example of how to set event interest, see <a href="https://msdn.microsoft.com/0c396d54-cb2e-4b07-999f-3f4001db2a02">Using Sensor API Events</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/8324817e-c310-4b90-b5b4-c7e113e3502e">GetEventInterest</a>
+
+
+
+<a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a>
+ 
+
+ 
+

@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxRecipients.get_Item
 title: IFaxRecipients::get_Item
 author: windows-sdk-content
-description: The Item method returns a FaxRecipient object from the FaxRecipients collection.
-old-location: fax\_mfax_faxrecipients_item_cpp.htm
+description: The Item property returns a FaxRecipient object from the FaxRecipients collection.
+old-location: fax\_mfax_faxrecipients_item.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_0q7h_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_0q7h.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxRecipients interface [Fax Service],get_Item method, IFaxRecipients.get_Item, IFaxRecipients::get_Item, _mfax_faxrecipients.item_cpp, fax._mfax_faxrecipients_item_cpp, faxcomex/IFaxRecipients::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxRecipients interface
+ms.date: 06/12/2018
+ms.keywords: FaxRecipients object [Fax Service],Item property, FaxRecipients.Item, IFaxRecipients.get_Item, IFaxRecipients::get_Item, Item property [Fax Service], Item property [Fax Service],FaxRecipients object, _mfax_faxrecipients.item, fax._mfax_faxrecipients_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxRecipients.Item
  - IFaxRecipients.get_Item
 product: Windows
 targetos: Windows
@@ -51,37 +52,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> method returns a <a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a> collection. 
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/b0210d82-5d62-4192-a05c-455c9f3adf9b">FaxRecipients</a> collection. 
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param lIndex [in]
-
-Type: <b>LONG</b>
-
-A <b>LONG</b> value that specifies the item to retrieve from the fax recipient collection. Valid values for this parameter are in the range from 1 to <i>n</i>, where <i>n</i> is the number of recipients returned by a call to the <a href="https://msdn.microsoft.com/5607cb79-c790-40b9-bf3a-8c4e19dd136b">IFaxRecipients::get_Count</a> method. 
-
-
-### -param ppFaxRecipient [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/2c8073de-644e-4594-8e52-49d07e82d432">IFaxRecipient</a>**</b>
-
-Address of a pointer to a <a href="https://msdn.microsoft.com/2c8073de-644e-4594-8e52-49d07e82d432">IFaxRecipient</a> interface.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 
 ## -see-also

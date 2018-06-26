@@ -7,7 +7,7 @@ old-location: shell\UIntToInt.htm
 old-project: shell
 ms.assetid: c50f2147-1b18-42bf-a5ae-fa20d487c52d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: UIntToInt, UIntToInt function [Windows Shell], _shell_UIntToInt, intsafe/UIntToInt, shell.UIntToInt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\stringcchcatex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatex.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCatEx, StringCchCatEx function [Menus and Other Resources], StringCchCatExA, StringCchCatExW, _shell_StringCchCatEx, _shell_stringcchcatex_cpp, menurc.stringcchcatex, strsafe/StringCchCatEx, strsafe/StringCchCatExA, strsafe/StringCchCatExW, winui._shell_stringcchcatex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxServer.GetDeviceProviders
 title: IFaxServer::GetDeviceProviders
 author: windows-sdk-content
-description: The IFaxServer::GetDeviceProviders method creates a IFaxDeviceProviders interface, a collection of fax service providers (FSPs) that are currently registered with the fax service.
-old-location: fax\_mfax_faxserver_getdeviceproviders_cpp.htm
+description: The GetDeviceProviders method creates a FaxDeviceProviders object, a collection of fax service providers (FSPs) that are currently registered with the fax service.
+old-location: fax\_mfax_faxserver_getdeviceproviders.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_6xv7_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_6xv7.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetDeviceProviders, GetDeviceProviders method [Fax Service], GetDeviceProviders method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetDeviceProviders method, IFaxServer.GetDeviceProviders, IFaxServer::GetDeviceProviders, _mfax_faxserver.getdeviceproviders_cpp, fax._mfax_faxserver_getdeviceproviders_cpp, faxcomex/IFaxServer::GetDeviceProviders
+ms.date: 06/12/2018
+ms.keywords: FaxServer object [Fax Service],GetDeviceProviders method, FaxServer.GetDeviceProviders, GetDeviceProviders, GetDeviceProviders method [Fax Service], GetDeviceProviders method [Fax Service],FaxServer object, IFaxServer.GetDeviceProviders, IFaxServer::GetDeviceProviders, _mfax_faxserver.getdeviceproviders, fax._mfax_faxserver_getdeviceproviders
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxServer.GetDeviceProviders
  - IFaxServer.GetDeviceProviders
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxServer::GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a> interface, a collection of fax service providers (FSPs) that are currently registered with the fax service. You can use the <b>IFaxDeviceProviders</b> interface to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a> interfaces for them.
+The <b>GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a> object, a collection of fax service providers (FSPs) that are currently registered with the fax service. You can use the <b>FaxDeviceProviders</b> object to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a> objects for them.
 
 
 ## -parameters
@@ -59,20 +60,20 @@ The <b>IFaxServer::GetDeviceProviders</b> method creates a <a href="https://msdn
 
 
 
-### -param ppFaxDeviceProviders [out, retval]
+### -param ppFaxDeviceProviders
 
-Type: <b><a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a> interface.
+
+
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/3abb80d7-fedf-469d-b17a-604ca78f4b8b">FaxDeviceProviders</a> object.
 
 
 

@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
+req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,7 +54,7 @@ req.product: Windows UI
 The 
    <b>PostFinalCommitSnapshots</b> 
    method supports 
-   <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-a">auto-recover</a> shadow 
+   <a href="vssgloss_a.htm">auto-recover</a> shadow 
    copies. VSS calls this method to notify the provider that the volume will now be read-only until a requester calls <a href="https://msdn.microsoft.com/8c366f19-b10f-46cd-b5dc-cc3c77c5a008">IVssBackupComponents::BreakSnapshotSet</a>.
 
 
@@ -140,7 +140,7 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 This method was added in Windows Server 2003 to enable binary compatibility when the 
-    <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-a">auto-recover</a> feature was 
+    <a href="vssgloss_a.htm">auto-recover</a> feature was 
     introduced in Windows Server 2003 with Service Pack 1 (SP1).
 
 <div class="alert"><b>Note</b>  For Windows Server 2003, it is recommended that hardware providers implement this method using 

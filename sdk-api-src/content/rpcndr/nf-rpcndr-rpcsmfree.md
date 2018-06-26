@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcSmFree function
@@ -141,7 +141,7 @@ Note that the handle of the thread calling
 
 
 
-<a href="https://www.bing.com/search?q=midl_user_allocate">midl_user_allocate</a>
+<a href="https://msdn.microsoft.com/">midl_user_allocate</a>
  
 
  

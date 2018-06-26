@@ -61,7 +61,7 @@ Fired when the document being navigated to becomes visible and enters the naviga
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/office/aa209125.aspx">IHTMLWindow2</a>*</b>
+Type: <b><a href="_inet_IHTMLWindow2_Interface">IHTMLWindow2</a>*</b>
 
 The window or frame in which the navigation is occurred.
 

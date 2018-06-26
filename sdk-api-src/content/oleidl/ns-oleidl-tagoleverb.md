@@ -7,7 +7,7 @@ old-location: com\oleverb.htm
 old-project: com
 ms.assetid: 657e3cc3-67fb-4458-8dad-f2a31df1b631
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPOLEVERB, LPOLEVERB, LPOLEVERB structure pointer [COM], OLEVERB, OLEVERB structure [COM], _ole_OLEVERB, com.oleverb, oleidl/LPOLEVERB, oleidl/OLEVERB, tagOLEVERB"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOLEVERB structure
@@ -71,7 +71,7 @@ Pointer to a string that contains the verb's name.
 
 ### -field fuFlags
 
-In Windows, a group of flags taken from the flag constants beginning with MF_ defined in <a href="https://www.bing.com/search?q=AppendMenu">AppendMenu</a>. Containers should use these flags in building an object's verb menu. All Flags defined in <b>AppendMenu</b> are supported except for MF_BITMAP, MF_OWNERDRAW, and MF_POPUP.
+In Windows, a group of flags taken from the flag constants beginning with MF_ defined in <a href="_win32_AppendMenu">AppendMenu</a>. Containers should use these flags in building an object's verb menu. All Flags defined in <b>AppendMenu</b> are supported except for MF_BITMAP, MF_OWNERDRAW, and MF_POPUP.
 
 
 ### -field grfAttribs

@@ -7,7 +7,7 @@ old-location: mixedreality\ispatialinteractionmanagerinterop.htm
 old-project: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,6 +56,33 @@ req.product: Outlook Express 6.0
         <a href="http://go.microsoft.com/fwlink/p/?linkid=619132">archive</a> ]
 
 Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object and provides access to <b>SpatialInteractionManager</b> members for accessing user input from hands, motion controllers, and system voice commands.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialInteractionManagerInterop</b> interface has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>ISpatialInteractionManagerInterop</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE">GetForWindow</a>
+</td>
+<td align="left" width="63%">
+Retrieves a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object bound to the active application.
+
+</td>
+</tr>
+</table> 
 
 
 ## -see-also

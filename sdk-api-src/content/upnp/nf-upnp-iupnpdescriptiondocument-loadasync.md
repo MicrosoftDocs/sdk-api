@@ -68,7 +68,7 @@ Specifies the URL of the document to load. If the URL specified is a relative UR
 ### -param punkCallback [in]
 
 Reference to an <b>IUnknown</b> specifying the callback that the UPnP framework uses to notify the caller when the operation is complete. If the load operation did not fail immediately, this callback indicates whether or not the load operation succeeded or failed. The object referred to by <i>pUnkCallback</i> must support either the 
-<a href="https://msdn.microsoft.com/0c9071d8-2ec1-49fe-976d-0c63f9de8b61">IUPnPDescriptionDocumentCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
+<a href="https://msdn.microsoft.com/0c9071d8-2ec1-49fe-976d-0c63f9de8b61">IUPnPDescriptionDocumentCallback</a> interface or the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface.
 
 
 ## -returns
@@ -182,13 +182,13 @@ If the
 If this method is called from a Web page, the URL that the caller specifies must refer to the same server from which the Web page was loaded.
 
 The object referred to by <i>pUnkCallback</i> must either support the 
-<a href="https://msdn.microsoft.com/0c9071d8-2ec1-49fe-976d-0c63f9de8b61">IUPnPDescriptionDocumentCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The 
+<a href="https://msdn.microsoft.com/0c9071d8-2ec1-49fe-976d-0c63f9de8b61">IUPnPDescriptionDocumentCallback</a> interface or the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. The 
 <b>LoadAsync</b> method first queries <i>pUnkCallback</i> for the 
 <b>IUPnPDescriptionDocumentCallback</b> interface. If this interface is not supported, the 
 <b>LoadAsync</b> method then queries <i>pUnkCallback</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, both checks have failed and the 
 <b>LoadAsync</b> method returns E_FAIL.
 
-The callback based on <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> for the 
+The callback based on <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> for the 
 <b>LoadAsync</b> method works as a script function that takes one parameter. This parameter is the result of the load operation. If the parameter is zero, the load succeeded, and the user can retrieve device objects from the document. If the parameter is non-zero, it describes the error. The value is the same as the error code that the <a href="https://msdn.microsoft.com/02ae8af2-44f2-4b7c-a426-f2a26c43da37">IUPnPDescriptionDocument::Load</a> method returns.
 
 In Visual Basic Scripting Edition (VBScript) development software, the second argument must be<b>GetRef</b>(<i>funcname</i>), where <i>funcname</i> is the name of the callback subroutine.

@@ -1,0 +1,147 @@
+---
+UID: NC:winuser.TIMERPROC
+title: TIMERPROC
+author: windows-sdk-content
+description: An application-defined callback function that processes WM_TIMER messages. The TIMERPROC type defines a pointer to this callback function. TimerProc is a placeholder for the application-defined function name.
+old-location: winmsg\timerproc.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\timerproc.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: callback
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: WINUSB_PIPE_INFORMATION_EX, *PWINUSB_PIPE_INFORMATION_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winuser.h
+api_name:
+ - TimerProc
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# TIMERPROC callback function
+
+
+## -description
+
+
+An application-defined callback function that processes <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> messages. The 
+			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name. 
+
+
+## -parameters
+
+
+
+
+### -param Arg1
+
+
+### -param Arg2
+
+
+### -param Arg3
+
+
+### -param Arg4
+
+
+
+
+
+
+
+
+#### - dwTime [in]
+
+Type: <b>DWORD</b>
+
+The number of milliseconds that have elapsed since the system was started. This is the value returned by the <a href="https://msdn.microsoft.com/22201c82-a49a-4972-9f49-6baf6d23a1ea">GetTickCount</a> function. 
+
+
+#### - hwnd [in]
+
+Type: <b>HWND</b>
+
+A handle to the window associated with the timer. 
+
+
+#### - idEvent [in]
+
+Type: <b>UINT_PTR</b>
+
+The timer's identifier. 
+
+
+#### - uMsg [in]
+
+Type: <b>UINT</b>
+
+The <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message. 
+
+
+## -returns
+
+
+
+This function does not return a value. 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/d842abb3-e02d-41a2-b500-311fe04122e2">KillTimer</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564648">Timers</a>
+
+
+
+<a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a>
+ 
+
+ 
+

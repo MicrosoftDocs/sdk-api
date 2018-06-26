@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddControlItem.htm
 old-project: shell
 ms.assetid: 56d7d0df-0c3e-4bc3-b91e-3b191f5dad76
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: AddControlItem, AddControlItem method [Windows Shell], AddControlItem method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddControlItem method, IFileDialogCustomize.AddControlItem, IFileDialogCustomize::AddControlItem, shell.IFileDialogCustomize_AddControlItem, shell_IFileDialogCustomize_AddControlItem, shobjidl_core/IFileDialogCustomize::AddControlItem
 ms.prod: windows
 ms.technology: windows-sdk

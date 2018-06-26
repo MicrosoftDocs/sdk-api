@@ -7,7 +7,7 @@ old-location: menurc\menuiteminfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuiteminfo.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPMENUITEMINFOW, HBMMENU_CALLBACK, HBMMENU_MBAR_CLOSE, HBMMENU_MBAR_CLOSE_D, HBMMENU_MBAR_MINIMIZE, HBMMENU_MBAR_MINIMIZE_D, HBMMENU_MBAR_RESTORE, HBMMENU_POPUP_CLOSE, HBMMENU_POPUP_MAXIMIZE, HBMMENU_POPUP_MINIMIZE, HBMMENU_POPUP_RESTORE, HBMMENU_SYSTEM, LPMENUITEMINFO, LPMENUITEMINFO structure pointer [Menus and Other Resources], MENUITEMINFO, MENUITEMINFO structure [Menus and Other Resources], MENUITEMINFOA, MENUITEMINFOW, MFS_CHECKED, MFS_DEFAULT, MFS_DISABLED, MFS_ENABLED, MFS_GRAYED, MFS_HILITE, MFS_UNCHECKED, MFS_UNHILITE, MFT_BITMAP, MFT_MENUBARBREAK, MFT_MENUBREAK, MFT_OWNERDRAW, MFT_RADIOCHECK, MFT_RIGHTJUSTIFY, MFT_RIGHTORDER, MFT_SEPARATOR, MFT_STRING, MIIM_BITMAP, MIIM_CHECKMARKS, MIIM_DATA, MIIM_FTYPE, MIIM_ID, MIIM_STATE, MIIM_STRING, MIIM_SUBMENU, MIIM_TYPE, _win32_MENUITEMINFO_str, _win32_menuiteminfo_str_cpp, menurc.menuiteminfo, tagMENUITEMINFOW, winui._win32_menuiteminfo_str, winuser/LPMENUITEMINFO, winuser/MENUITEMINFO, winuser/MENUITEMINFOA, winuser/MENUITEMINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -260,7 +260,7 @@ Places the menu item on a new line (for a menu bar) or in a new column (for a dr
 </dl>
 </td>
 <td width="60%">
-Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
+Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
 						<b>dwTypeData</b>   member contains an application-defined value.
 
 </td>
@@ -546,7 +546,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A bitmap that is drawn by the window that owns the menu. The application must process the <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> and <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> messages.
+A bitmap that is drawn by the window that owns the menu. The application must process the <a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a> and <a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a> messages.
 
 </td>
 </tr>
@@ -706,11 +706,11 @@ The <b>MENUITEMINFO</b> structure is used with the <a href="https://msdn.microso
 
 
 
-<a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a>
+<a href="_win32_WM_DRAWITEM">WM_DRAWITEM</a>
 
 
 
-<a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a>
+<a href="_win32_WM_MEASUREITEM">WM_MEASUREITEM</a>
  
 
  

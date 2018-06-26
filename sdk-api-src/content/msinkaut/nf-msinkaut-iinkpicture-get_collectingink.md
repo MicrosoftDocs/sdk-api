@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_collectingink.htm
 old-project: tablet
 ms.assetid: 19fbe26e-02a4-4d05-a2e8-25d2f8ae1146
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],CollectingInk property, IInkPicture.CollectingInk, IInkPicture.get_CollectingInk, IInkPicture::CollectingInk, IInkPicture::get_CollectingInk, InkPicture.get_CollectingInk, get_CollectingInk, msinkaut/IInkPicture::CollectingInk, msinkaut/IInkPicture::get_CollectingInk, tablet.inkpicture_collectingink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ You can use the <b>CollectingInk</b> property to see if ink is being drawn on an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/aa514604.aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

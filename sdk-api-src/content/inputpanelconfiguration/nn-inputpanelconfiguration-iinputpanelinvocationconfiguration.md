@@ -7,7 +7,7 @@ old-location: shell\iinputpanelinvocationconfiguration.htm
 old-project: shell
 ms.assetid: 452F46B6-3B71-4818-A528-B2A215EC9E87
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IInputPanelInvocationConfiguration, IInputPanelInvocationConfiguration interface [Windows Shell], IInputPanelInvocationConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelInvocationConfiguration, shell.iinputpanelinvocationconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

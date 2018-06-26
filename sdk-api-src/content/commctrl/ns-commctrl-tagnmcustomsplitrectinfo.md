@@ -90,7 +90,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 
 
-This information is used to draw the button. The button must be of style <a href="https://www.bing.com/search?q=BS_SPLITBUTTON">BS_SPLITBUTTON</a> or <a href="https://www.bing.com/search?q=BS_DEFSPLITBUTTON">BS_DEFSPLITBUTTON</a>
+This information is used to draw the button. The button must be of style <a href="Button_Styles.htm">BS_SPLITBUTTON</a> or <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a>
 
 
 

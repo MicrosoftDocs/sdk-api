@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetNtmsUIOptionsW function
@@ -322,7 +322,7 @@ Note that there is no checking of destination strings. A call to with a destinat
 
 
 
-<a href="https://www.bing.com/search?q=Library+Control+Functions">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # LsaNtStatusToWinError function
@@ -80,7 +80,7 @@ The return value is the Windows error code that corresponds to the <i>Status</i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecMgmt/management-return-values">LSA Policy Function Return Values</a>
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: devinst\setupdisetclassinstallparams.htm
 old-project: devinst
 ms.assetid: a7f35e32-eaad-440b-8109-7320048ec7ba
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiSetClassInstallParams, SetupDiSetClassInstallParams function [Device and Driver Installation], SetupDiSetClassInstallParamsA, SetupDiSetClassInstallParamsW, devinst.setupdisetclassinstallparams, di-rtns_4bbd92e2-cdae-4b03-9b30-931b6155dc2c.xml, setupapi/SetupDiSetClassInstallParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiSetClassInstallParamsA function
@@ -62,7 +62,7 @@ The <b>SetupDiSetClassInstallParams</b> function sets or clears class install pa
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to set class install parameters.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to set class install parameters.
 
 
 ### -param DeviceInfoData [in, optional]

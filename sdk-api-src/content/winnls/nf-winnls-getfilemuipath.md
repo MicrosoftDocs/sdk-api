@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:winnls.GetFileMUIPath
 title: GetFileMUIPath function
 author: windows-sdk-content
@@ -289,7 +289,7 @@ The first call to the function determines that there are no resources for "ca-ES
 
 If the target file and its associated resource files are actually <a href="https://msdn.microsoft.com/2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0">Side-by-side enabled assemblies</a>, GetFileMUIPath cannot be used to retrieve the path to the resource file. Please refer to <a href="https://msdn.microsoft.com/fcadd7e8-cab8-43cb-9c67-af8ebe0e3a5b">Using Assemblies with a Multilanguage User Interface</a> for details on how to use Side-by-side assemblies with MUI support.
 
-<h3>C# Signature</h3>
+<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

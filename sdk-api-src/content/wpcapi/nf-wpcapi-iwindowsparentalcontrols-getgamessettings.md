@@ -7,7 +7,7 @@ old-location: parcon\iwindowsparentalcontrols_getgamessettings.htm
 old-project: parcon
 ms.assetid: 2604a53e-2a95-4edd-9fb0-8b0f7298dcc4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/12/2018
 ms.keywords: GetGamesSettings, GetGamesSettings method, GetGamesSettings method,IWindowsParentalControls interface, IWindowsParentalControls interface,GetGamesSettings method, IWindowsParentalControls.GetGamesSettings, IWindowsParentalControls::GetGamesSettings, parcon.iwindowsparentalcontrols_getgamessettings, wpcapi/IWindowsParentalControls::GetGamesSettings
 ms.prod: windows
 ms.technology: windows-sdk

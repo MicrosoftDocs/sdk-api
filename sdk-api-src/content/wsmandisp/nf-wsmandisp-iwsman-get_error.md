@@ -7,7 +7,7 @@ old-location: winrm\iwsman_error.htm
 old-project: WinRM
 ms.assetid: e85f2e93-9a56-47ca-9bf4-d677dbe07717
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],Error property, IWSMan.Error, IWSMan.get_Error, IWSMan::Error, IWSMan::get_Error, get_Error, winrm.iwsman_error, wsmandisp/IWSMan::Error, wsmandisp/IWSMan::get_Error
 ms.prod: windows
 ms.technology: windows-sdk

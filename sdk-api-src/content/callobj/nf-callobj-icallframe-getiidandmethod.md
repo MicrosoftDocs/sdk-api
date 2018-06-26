@@ -7,7 +7,7 @@ old-location: com\icallframe_getiidandmethod.htm
 old-project: com
 ms.assetid: 938798ef-ddc8-4182-9216-d130c4f0e4ae
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetIIDAndMethod, GetIIDAndMethod method [COM], GetIIDAndMethod method [COM],ICallFrame interface, ICallFrame interface [COM],GetIIDAndMethod method, ICallFrame.GetIIDAndMethod, ICallFrame::GetIIDAndMethod, _com_icallframe_getiidandmethod, callobj/ICallFrame::GetIIDAndMethod, com.icallframe_getiidandmethod
 ms.prod: windows
 ms.technology: windows-sdk

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _SEARCH_COLUMN_PROPERTIES structure
@@ -61,7 +61,7 @@ This structure is not implemented.
 
 ### -field Value
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a></b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a></b>
 
 The name of the column referenced in the ISearchQueryHelper::WriteProperties methods pColumns property array.
 

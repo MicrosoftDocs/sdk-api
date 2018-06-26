@@ -63,7 +63,7 @@ Determines whether changes can be made to this row.
 
 Type: <b>long*</b>
 
-A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> indicating whether the row can be edited. It is <b>tomTrue</b> only if the row can be edited. The <i>pB</i> paraemeter can be <b>NULL</b>.
+A <a href="About_Text_Object_Model.htm">tomBool</a> indicating whether the row can be edited. It is <b>tomTrue</b> only if the row can be edited. The <i>pB</i> paraemeter can be <b>NULL</b>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinfolistex.htm
 old-project: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiCreateDeviceInfoListEx, SetupDiCreateDeviceInfoListEx function [Device and Driver Installation], SetupDiCreateDeviceInfoListExA, SetupDiCreateDeviceInfoListExW, devinst.setupdicreatedeviceinfolistex, di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml, setupapi/SetupDiCreateDeviceInfoListEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiCreateDeviceInfoListExA function
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://www.bing.com/search?q=device+information+set">device information set</a> on a remote or a local computer and optionally associates the set with a device setup class .
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="devinst.device_information_sets">device information set</a> on a remote or a local computer and optionally associates the set with a device setup class .
 
 
 ## -parameters

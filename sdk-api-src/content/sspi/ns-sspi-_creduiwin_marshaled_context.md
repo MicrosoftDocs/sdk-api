@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Specifies credential information that has been serialized by using the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
+Specifies credential information that has been serialized by using the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -struct-fields

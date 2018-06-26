@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantCompareEx function
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Extends <a href="https://www.bing.com/search?q=PropVariantCompare">PropVariantCompare</a> by allowing the caller to compare two <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures based on specified comparison units and flags.
+Extends <a href="shell.PropVariantCompare">PropVariantCompare</a> by allowing the caller to compare two <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures based on specified comparison units and flags.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ Reference to the second <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8
 
 ### -param unit [in]
 
-Type: <b><a href="/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit">PROPVAR_COMPARE_UNIT</a></b>
+Type: <b><a href="shell.PROPVAR_COMPARE_UNIT">PROPVAR_COMPARE_UNIT</a></b>
 
-Specifies, where appropriate, one of the comparison units defined in <a href="/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit">PROPVAR_COMPARE_UNIT</a>.
+Specifies, where appropriate, one of the comparison units defined in <a href="shell.PROPVAR_COMPARE_UNIT">PROPVAR_COMPARE_UNIT</a>.
 
 
 ### -param flags [in]

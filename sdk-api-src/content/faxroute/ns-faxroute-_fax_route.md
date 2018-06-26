@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_route_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3gj6.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: "*PFAX_ROUTE, FAX_ROUTE, FAX_ROUTE structure [Fax Service], PFAX_ROUTE, PFAX_ROUTE structure pointer [Fax Service], _FAX_ROUTE, _mfax_fax_route_str, fax._mfax_fax_route_str, faxroute/FAX_ROUTE, faxroute/PFAX_ROUTE"
 ms.prod: windows
 ms.technology: windows-sdk

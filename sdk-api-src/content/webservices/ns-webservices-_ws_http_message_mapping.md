@@ -136,7 +136,7 @@ req.product: Windows Address Book 5.0
                 the headers of a message.
             
 
-<img alt="" src="./images/MappedHeaders.png"/>
+<img alt="" src="images/MappedHeaders.png"/>
 
 
                 When a message is received, the HTTP channel

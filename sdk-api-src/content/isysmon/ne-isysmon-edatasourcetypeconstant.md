@@ -7,7 +7,7 @@ old-location: sysmon\datasourcetypeconstants.htm
 old-project: SysMon
 ms.assetid: ea281ef6-a9bc-4e4f-bd05-642a9c48de73
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: DataSourceTypeConstants, DataSourceTypeConstants enumeration [SysMon], base.datasourcetypeconstants, eDataSourceTypeConstant, isysmon/DataSourceTypeConstants, isysmon/sysmonCurrentActivity, isysmon/sysmonLogFiles, isysmon/sysmonNullDataSource, isysmon/sysmonSqlLog, sysmon.datasourcetypeconstants, sysmonCurrentActivity, sysmonLogFiles, sysmonNullDataSource, sysmonSqlLog
 ms.prod: windows
 ms.technology: windows-sdk

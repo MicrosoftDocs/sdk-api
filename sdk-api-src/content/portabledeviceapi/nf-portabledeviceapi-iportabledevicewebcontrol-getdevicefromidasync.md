@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromIdAsync
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object asynchronously for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object asynchronously for a given WPD device identifier.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: shell\UIntToChar.htm
 old-project: shell
 ms.assetid: 161c3056-3d17-4273-899f-9dc4adb85fb0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: UIntToChar, UIntToChar function [Windows Shell], _shell_UIntToChar, intsafe/UIntToChar, shell.UIntToChar
 ms.prod: windows
 ms.technology: windows-sdk

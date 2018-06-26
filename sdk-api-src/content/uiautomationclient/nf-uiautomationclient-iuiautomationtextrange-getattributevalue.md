@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The type of value retrieved by this method depends on the <i>attr</i> parameter. 
-For example, calling <b>GetAttributeValue</b> with the <i>attr</i> parameter set to <a href="https://www.bing.com/search?q=UIA_FontNameAttributeId">UIA_FontNameAttributeId</a> returns a string that represents the font name of the text range,  while calling <b>GetAttributeValue</b> with <i>attr</i> set to <a href="https://www.bing.com/search?q=UIA_IsItalicAttributeId">UIA_IsItalicAttributeId</a> would return a boolean.
+For example, calling <b>GetAttributeValue</b> with the <i>attr</i> parameter set to <a href="uiauto_textattribute_ids.htm">UIA_FontNameAttributeId</a> returns a string that represents the font name of the text range,  while calling <b>GetAttributeValue</b> with <i>attr</i> set to <a href="uiauto_textattribute_ids.htm">UIA_IsItalicAttributeId</a> would return a boolean.
 
 
 

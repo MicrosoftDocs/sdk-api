@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DVDSPExt enumeration
@@ -144,11 +144,11 @@ The <b>DVDSPExt</b> enumeration type holds a value indicating the default DVD su
 
 
 
-<a href="https://www.bing.com/search?q=DefaultSubpictureLanguageExt">DefaultSubpictureLanguageExt</a>
+<a href="mstv.msvidwebdvd_defaultsubpicturelanguageext_property">DefaultSubpictureLanguageExt</a>
 
 
 
-<a href="https://www.bing.com/search?q=SelectDefaultSubpictureLanguage">SelectDefaultSubpictureLanguage</a>
+<a href="mstv.msvidwebdvd_selectdefaultsubpicturelanguage_method">SelectDefaultSubpictureLanguage</a>
 
 
 

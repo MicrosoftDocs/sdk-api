@@ -83,7 +83,7 @@ Returns the handle of the OID function set identified by <i>pszFuncName</i>, or 
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

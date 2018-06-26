@@ -83,7 +83,7 @@ Identifies options for resources.
             </div>
 <div> </div>
 <div class="alert"><b>Note</b>  
-              Starting with Windows 8, we recommend that you enable resource data sharing between two or more Direct3D devices by using a combination of the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_resource_misc_flag">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags instead.
+              Starting with Windows 8, we recommend that you enable resource data sharing between two or more Direct3D devices by using a combination of the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> and <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</a> flags instead.
             </div>
 <div> </div>
 

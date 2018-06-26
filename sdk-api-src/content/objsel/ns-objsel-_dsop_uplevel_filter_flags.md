@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _DSOP_UPLEVEL_FILTER_FLAGS structure
@@ -68,7 +68,7 @@ Filter flags to use for an up-level scope, regardless of whether it is a mixed o
 
 #### DSOP_FILTER_INCLUDE_ADVANCED_VIEW (1 (0x1))
 
-Includes objects that have the <a href="https://docs.microsoft.com/windows/desktop//ADSchema/a-showinadvancedviewonly">showInAdvancedViewOnly</a> attribute set to <b>TRUE</b>.
+Includes objects that have the <a href="ad.win2k_a_showinadvancedviewonly">showInAdvancedViewOnly</a> attribute set to <b>TRUE</b>.
 
 
 
@@ -80,7 +80,7 @@ Includes <a href="https://msdn.microsoft.com/library/windows/hardware/mt270121">
 
 #### DSOP_FILTER_BUILTIN_GROUPS (4 (0x4))
 
-Includes built-in <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> objects. Built-in groups are group objects with a <a href="https://docs.microsoft.com/windows/desktop//ADSchema/a-grouptype">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
+Includes built-in <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> objects. Built-in groups are group objects with a <a href="ad.win2k_a_grouptype">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
 
 
 
@@ -128,7 +128,7 @@ Includes security <a href="https://msdn.microsoft.com/library/windows/hardware/d
 
 #### DSOP_FILTER_CONTACTS (1024 (0x400))
 
-Includes <a href="https://docs.microsoft.com/windows/desktop//ADSchema/c-contact">contact</a> objects.
+Includes <a href="ad.win2k_c_contact">contact</a> objects.
 
 
 

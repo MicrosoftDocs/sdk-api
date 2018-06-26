@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxoutboundroutingrules_get__newenum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2a7h.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],get__NewEnum method, IFaxOutboundRoutingRules.get__NewEnum, IFaxOutboundRoutingRules::get__NewEnum, _mfax_ifaxoutboundroutingrules_get__newenum, fax._mfax_ifaxoutboundroutingrules_get__newenum, faxcomex/IFaxOutboundRoutingRules::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxOutboundRoutingRules interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ The <b>IFaxOutboundRoutingRules::get__NewEnum</b> method returns a reference to 
 
 #### - pUnk [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509.aspx">IUnknown</a>**</b>
+Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
 
- Receives an indirect pointer to the enumerator object <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680509.aspx">IUnknown</a> interface for this collection.
+ Receives an indirect pointer to the enumerator object <a href="_com_IUnknown">IUnknown</a> interface for this collection.
 
 
 ## -returns

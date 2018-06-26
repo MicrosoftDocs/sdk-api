@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToUInt32VectorAlloc function
@@ -132,7 +132,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToUInt32VectorAlloc">PropVariantToUInt32VectorAlloc</a> to access a <b>ULONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt32VectorAlloc">PropVariantToUInt32VectorAlloc</a> to access a <b>ULONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -161,23 +161,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>
+<a href="shell.InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetUInt32Elem">PropVariantGetUInt32Elem</a>
+<a href="shell.PropVariantGetUInt32Elem">PropVariantGetUInt32Elem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt32">PropVariantToUInt32</a>
+<a href="shell.PropVariantToUInt32">PropVariantToUInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt32Vector">PropVariantToUInt32Vector</a>
+<a href="shell.PropVariantToUInt32Vector">PropVariantToUInt32Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt32Array">VariantToUInt32Array</a>
+<a href="shell.VariantToUInt32Array">VariantToUInt32Array</a>
  
 
  

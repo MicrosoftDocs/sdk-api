@@ -95,9 +95,9 @@ A handle to the list-view control.
 
 
 
-If the list-view control has the <a href="https://www.bing.com/search?q=LVS_AUTOARRANGE">LVS_AUTOARRANGE</a> style, the list-view control is arranged after the position of the item is set. 
+If the list-view control has the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style, the list-view control is arranged after the position of the item is set. 
 
-On Windows Vista, calling this macro on a list-view control with the <a href="https://www.bing.com/search?q=LVS_AUTOARRANGE">LVS_AUTOARRANGE</a> style does nothing, and the return value is <b>FALSE</b>.
+On Windows Vista, calling this macro on a list-view control with the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style does nothing, and the return value is <b>FALSE</b>.
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSCreateSimplePropertyChange function
@@ -61,17 +61,17 @@ Creates a simple property change.
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a></b>
+Type: <b><a href="shell.PKA_FLAGS">PKA_FLAGS</a></b>
 
 
-<a href="/windows/desktop/api/propsys/ne-propsys-pka_flags">PKA_FLAGS</a> flags.
+<a href="shell.PKA_FLAGS">PKA_FLAGS</a> flags.
 
 
 ### -param key [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure.
+Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
 
 
 ### -param propvar [in]
@@ -92,7 +92,7 @@ Reference to a specified IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a> interface pointer.
+The address of an <a href="shell.IPropertyChange">IPropertyChange</a> interface pointer.
 
 
 ## -returns
@@ -110,7 +110,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Property changes can be placed into an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychangearray">IPropertyChangeArray</a> which can then be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to modify the properties on an item.
+Property changes can be placed into an <a href="shell.IPropertyChangeArray">IPropertyChangeArray</a> which can then be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to modify the properties on an item.
 
 
 

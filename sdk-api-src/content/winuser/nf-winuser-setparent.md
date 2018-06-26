@@ -1,0 +1,169 @@
+---
+UID: NF:winuser.SetParent
+title: SetParent function
+author: windows-sdk-content
+description: Changes the parent window of the specified child window.
+old-location: winmsg\setparent.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setparent.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: SetParent, SetParent function [Windows and Messages], _win32_SetParent, _win32_setparent_cpp, winmsg.setparent, winui._win32_setparent, winuser/SetParent
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetParent
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# SetParent function
+
+
+## -description
+
+
+Changes the parent window of the specified child window. 
+
+
+## -parameters
+
+
+
+
+### -param hWndChild [in]
+
+Type: <b>HWND</b>
+
+A handle to the child window. 
+
+
+### -param hWndNewParent [in, optional]
+
+Type: <b>HWND</b>
+
+A handle to the new parent window. If this parameter is <b>NULL</b>, the desktop window becomes the new parent window. 
+					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="window_features.htm">message-only window</a>. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>HWND</b>
+</strong>
+
+If the function succeeds, the return value is a handle to the previous parent window.
+
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+
+
+
+
+## -remarks
+
+
+
+An application can use the <b>SetParent</b> function to set the parent window of a pop-up, overlapped, or child window.
+
+If the window identified by the <i>hWndChild</i> parameter is visible, the system performs the appropriate redrawing and repainting. 
+
+For compatibility reasons, <b>SetParent</b> does not modify the <b>WS_CHILD</b> or <b>WS_POPUP</b> window styles of the window whose parent is being changed. Therefore, if <i>hWndNewParent</i> is <b>NULL</b>, you should also clear the <b>WS_CHILD</b> bit and set the <b>WS_POPUP</b> style after calling <b>SetParent</b>. Conversely, if <i>hWndNewParent</i> is not <b>NULL</b> and the window was previously a child of the desktop, you should clear the <b>WS_POPUP</b> style and set the <b>WS_CHILD</b> style before calling <b>SetParent</b>. 
+
+ When you change the parent of a window, you should synchronize the UISTATE of both windows. For more information, see <a href="https://msdn.microsoft.com/d8dfc2fe-c64f-4e7e-b021-127aa85d5dd6">WM_CHANGEUISTATE</a> and <a href="https://msdn.microsoft.com/cbdeeddd-59b2-4a73-bfe9-17647d32bcf3">WM_UPDATEUISTATE</a>. 
+
+Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild</i> are running in different DPI awareness modes. The table below outlines this behavior:
+
+<table>
+<tr>
+<th>Operation</th>
+<th>Windows 8.1</th>
+<th>Windows 10 (1607 and earlier)</th>
+<th>Windows 10 (1703 and later)</th>
+</tr>
+<tr>
+<td>SetParent (In-Proc) </td>
+<td>N/A </td>
+<td><b>Forced reset</b> 
+(of current process)</td>
+<td><b>Fail</b> 
+(ERROR_INVALID_STATE)</td>
+</tr>
+<tr>
+<td>SetParent (Cross-Proc) </td>
+<td><b>Forced reset</b> 
+(of child window's process)</td>
+<td><b>Forced reset</b> 
+(of child window's process)</td>
+<td><b>Forced reset</b> 
+(of child window's process)</td>
+</tr>
+</table>
+ 
+
+ For more information on DPI awareness, see <a href="https://msdn.microsoft.com/6C419EEF-D898-4B50-8D16-E65A594487AA">the Windows High DPI documentation.</a>
+
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/9e1991dd-e451-4f2a-ac9f-069acb8e89c2">GetParent</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+ 
+
+ 
+

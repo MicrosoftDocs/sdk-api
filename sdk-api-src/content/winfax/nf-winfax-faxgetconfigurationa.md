@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetconfiguration.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6nn2.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxGetConfiguration, FaxGetConfiguration function [Fax Service], FaxGetConfigurationA, FaxGetConfigurationW, _mfax_faxgetconfiguration, fax._mfax_faxgetconfiguration, winfax/FaxGetConfiguration, winfax/FaxGetConfigurationA, winfax/FaxGetConfigurationW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gpmc\igpmdomain2_createstartergpo.htm
 old-project: GPMC
 ms.assetid: 652ac85b-f488-4e27-81dd-1ffc5f9f42d6
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: CreateStarterGPO, CreateStarterGPO method [GPMC], CreateStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateStarterGPO method, IGPMDomain2.CreateStarterGPO, IGPMDomain2::CreateStarterGPO, gpmc.igpmdomain2_createstartergpo, gpmgmt/IGPMDomain2::CreateStarterGPO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gpmc\igpmdomain_getsom.htm
 old-project: GPMC
 ms.assetid: cbacd900-26ea-4554-97d8-8f33d2f5dd2b
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMDomain class [GPMC],GetSOM method, GetSOM, GetSOM method [GPMC], GetSOM method [GPMC],GPMDomain class, GetSOM method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetSOM method, IGPMDomain.GetSOM, IGPMDomain::GetSOM, _win32_igpmdomain_getsom, gpmc.igpmdomain_getsom, gpmgmt/IGPMDomain::GetSOM
 ms.prod: windows
 ms.technology: windows-sdk

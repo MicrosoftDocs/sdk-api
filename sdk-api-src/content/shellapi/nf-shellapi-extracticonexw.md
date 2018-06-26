@@ -2,20 +2,20 @@
 UID: NF:shellapi.ExtractIconExW
 title: ExtractIconExW function
 author: windows-sdk-content
-description: Creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
-old-location: menurc\extracticonex.htm
-old-project: menurc
-ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\extracticonex.htm
+description: The ExtractIconEx function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
+old-location: shell\ExtractIconEx.htm
+old-project: shell
+ms.assetid: 1c4d760a-79b5-4646-9cf2-6cd32c5d05ee
 ms.author: windowssdkdev
-ms.date: 05/24/2018
-ms.keywords: ExtractIconEx, ExtractIconEx function [Menus and Other Resources], ExtractIconExA, ExtractIconExW, _win32_ExtractIconEx, _win32_extracticonex_cpp, menurc.extracticonex, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW, winui._win32_extracticonex
+ms.date: 06/11/2018
+ms.keywords: ExtractIconEx, ExtractIconEx function [Windows Shell], ExtractIconExA, ExtractIconExW, _shell_ExtractIconEx, shell.ExtractIconEx, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,7 +43,7 @@ api_name:
  - ExtractIconExW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
+req.lib: 
 req.dll: Shell32.dll
 req.irql: 
 req.product: Internet Explorer 5.0
@@ -55,7 +55,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file. 
+The <b>ExtractIconEx</b> function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
 
 
 ## -parameters
@@ -67,40 +67,41 @@ Creates an array of handles to large or small icons extracted from the specified
 
 Type: <b>LPCTSTR</b>
 
-The name of an executable file, DLL, or icon file from which icons will be extracted. 
+Pointer to a null-terminated string that specifies the name of an executable file, DLL, or icon file from which icons will be extracted.
 
 
 ### -param nIconIndex [in]
 
 Type: <b>int</b>
 
-The zero-based index of the first icon to extract. For example, if this value is zero, the function extracts the first icon in the specified file. 
+Specifies the zero-based index of the first icon to extract. For example, if this value is zero, the function extracts the first icon in the specified file. 
+    
+                        
 
-If this value is –1 and <i>phiconLarge</i> and <i>phiconSmall</i> are both <b>NULL</b>, the function returns the total number of icons in the specified file. If the file is an executable file or DLL, the return value is the number of <b>RT_GROUP_ICON</b> resources. If the file is an .ico file, the return value is 1. 
+If this value is –1 and <i>phiconLarge</i> and <i>phiconSmall</i> are both <b>NULL</b>, the function returns the total number of icons in the specified file. If the file is an executable file or DLL, the return value is the number of RT_GROUP_ICON resources. If the file is an .ico file, the return value is 1.
 
-
-						 If this value is a negative number and either <i>phiconLarge</i> or <i>phiconSmall</i> is not <b>NULL</b>, the function begins by extracting the icon whose resource identifier is equal to the absolute value of <i>nIconIndex</i>. For example, use -3 to extract the icon whose resource identifier is 3. 
-
-
-### -param phiconLarge [out, optional]
-
-Type: <b>HICON*</b>
-
-An array of icon handles that receives handles to the large icons extracted from the file. If this parameter is <b>NULL</b>, no large icons are extracted from the file. 
+ If this value is a negative number and either <i>phiconLarge</i> or <i>phiconSmall</i> is not <b>NULL</b>, the function begins by extracting the icon whose resource identifier is equal to the absolute value of <i>nIconIndex</i>. For example, use -3 to extract the icon whose resource identifier is 3.
 
 
-### -param phiconSmall [out, optional]
+### -param phiconLarge [out]
 
 Type: <b>HICON*</b>
 
-An array of icon handles that receives handles to the small icons extracted from the file. If this parameter is <b>NULL</b>, no small icons are extracted from the file. 
+Pointer to an array of icon handles that receives handles to the large icons extracted from the file. If this parameter is <b>NULL</b>, no large icons are extracted from the file.
 
 
-### -param nIcons [in]
+### -param phiconSmall [out]
+
+Type: <b>HICON*</b>
+
+Pointer to an array of icon handles that receives handles to the small icons extracted from the file. If this parameter is <b>NULL</b>, no small icons are extracted from the file.
+
+
+### -param nIcons
 
 Type: <b>UINT</b>
 
-The number of icons to be extracted from the file. 
+The number of icons to extract from the file.
 
 
 ## -returns
@@ -109,7 +110,7 @@ The number of icons to be extracted from the file.
 
 Type: <b>UINT</b>
 
-If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b>NULL</b>, and the <i>phiconSmall</i> parameter is <b>NULL</b>, then the return value is the number of icons contained in the specified file. Otherwise, the return value is the number of icons successfully extracted from the file. 
+If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b>NULL</b>, and the <i>phiconSmall</i> parameter is <b>NULL</b>, then the return value is the number of icons contained in the specified file. Otherwise, the return value is the number of icons successfully extracted from the file.
 
 
 
@@ -118,9 +119,9 @@ If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b
 
 
 
-You must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function. 
+When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
 
-To retrieve the dimensions of the large and small icons, use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function with the <b>SM_CXICON</b>, <b>SM_CYICON</b>, <b>SM_CXSMICON</b>, and <b>SM_CYSMICON</b> flags.
+To retrieve the dimensions of the large and small icons, use this function with the SM_CXICON, SM_CYICON, SM_CXSMICON, and SM_CYSMICON flags.
 
 
 
@@ -130,23 +131,15 @@ To retrieve the dimensions of the large and small icons, use the <a href="https:
 
 
 
-<b>Conceptual</b>
+<a href="https://msdn.microsoft.com/157ce603-9988-4cae-a2cd-51db290268c3">ExtractAssociatedIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/f32260b0-917b-4406-aeee-34f71a7c7309">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/323c5e09-4e22-4a67-b8aa-5e5f369fb585">ExtractIcon</a>
-
-
-
-<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
-
-
-
-<b>Reference</b>
+<a href="https://msdn.microsoft.com/a0314423-79d6-416e-8be0-be946477da3e">ExtractIcon</a>
  
 
  

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdoCollection::Remove
@@ -63,7 +63,7 @@ The
 ### -param pItem [in]
 
 Pointer to an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface that specifies the item to remove.
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface that specifies the item to remove.
 
 This parameter must not be <b>NULL</b>.
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescription::GetEnumTypeList
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets an instance of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtypelist">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
+Gets an instance of an <a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
 
 
 ## -parameters
@@ -73,9 +73,9 @@ Gets an instance of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropert
 
 #### - ppenumList [out]
 
-Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtypelist">IPropertyEnumTypeList</a>**</b>
+Type: <b><a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a>**</b>
 
-When this method returns, contains the address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtypelist">IPropertyEnumTypeList</a> interface pointer.
+When this method returns, contains the address of an <a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a> interface pointer.
 
 
 ## -returns

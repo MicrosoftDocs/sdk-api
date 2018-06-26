@@ -1,8 +1,8 @@
-﻿---
+---
 UID: NF:winnls.GetUILanguageInfo
 title: GetUILanguageInfo function
 author: windows-sdk-content
-description: Retrieves a variety of information about an installed UI language
+description: Retrieves a variety of information about an installed UI language:
 old-location: intl\getuilanguageinfo.htm
 old-project: Intl
 ms.assetid: 7eb17073-f79a-4a87-a85b-94007e77888a
@@ -270,7 +270,7 @@ This function returns ERROR_INVALID_PARAMETER for any of the following:
 </ul>
 The ERROR_OBJECT_NAME_NOT_FOUND error code occurs if <i>pwmszLanguage</i> can be parsed, but is not valid. The code might also be returned for an invalid locale identifier, or if the first language in the input list is not an installed language, or if a fully localized language has defined a fallback language.
 
-<h3>C# Signature</h3>
+<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

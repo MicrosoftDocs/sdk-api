@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:msclus.ISClusPropertyValue.get_Data
 title: ISClusPropertyValue::get_Data
 author: windows-sdk-content
@@ -58,8 +58,8 @@ req.product: GDI+ 1.1
 
 Retrieves a 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
-    collection containing all of the <a href="https://msdn.microsoft.com/en-us/library/aa369367(v=vs.85).aspx">data values</a> associated 
-    with a <a href="/windows/desktop/dns/p-gly">property value</a>.
+    collection containing all of the <a href="d_gly.htm">data values</a> associated 
+    with a <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

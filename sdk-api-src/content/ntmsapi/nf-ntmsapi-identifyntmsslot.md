@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IdentifyNtmsSlot function
@@ -192,7 +192,7 @@ If the slot is empty the function returns ERROR_SUCCESS, but no new media record
 
 
 
-<a href="https://www.bing.com/search?q=Library+Control+Functions">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

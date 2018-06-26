@@ -78,9 +78,9 @@ A pointer to a null-terminated, Unicode buffer that contains location informatio
 
                     
 
-If <i>hinst</i> is non-<b>NULL</b>, <i>pszName</i>  specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="https://www.bing.com/search?q=MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro.
+If <i>hinst</i> is non-<b>NULL</b>, <i>pszName</i>  specifies the icon resource either by name or ordinal. This ordinal must be packaged by using the <a href="winui._win32_MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro.
 
-If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the identifier of a predefined icon to load. The following identifiers are recognized. To pass these constants to the <b>LoadIconWithScaleDown</b> function, use the <a href="https://www.bing.com/search?q=MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
+If <i>hinst</i> is <b>NULL</b>, <i>pszName</i> specifies either the name of a standalone icon (.ico) file or the identifier of a predefined icon to load. The following identifiers are recognized. To pass these constants to the <b>LoadIconWithScaleDown</b> function, use the <a href="winui._win32_MAKEINTRESOURCE">MAKEINTRESOURCE</a> macro. For example, to load the IDI_ERROR icon, pass <code>MAKEINTRESOURCE(IDI_ERROR)</code> as the <i>pszName</i> parameter and <b>NULL</b> as the <i>hinst</i> parameter.
 
 <table>
 <tr>

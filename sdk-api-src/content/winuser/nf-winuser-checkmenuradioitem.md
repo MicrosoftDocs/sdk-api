@@ -7,7 +7,7 @@ old-location: menurc\checkmenuradioitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuradioitem.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CheckMenuRadioItem, CheckMenuRadioItem function [Menus and Other Resources], _win32_CheckMenuRadioItem, _win32_checkmenuradioitem_cpp, menurc.checkmenuradioitem, winui._win32_checkmenuradioitem, winuser/CheckMenuRadioItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -144,7 +144,7 @@ For more information about menu item type and state flags, see the <a href="http
 
 #### Examples
 
-For an example, see Example of <a href="https://www.bing.com/search?q=Example+of+Using+Custom+Checkmark+Bitmaps">Example of Using Custom Checkmark Bitmaps</a>. 
+For an example, see Example of <a href="using_menus.htm">Example of Using Custom Checkmark Bitmaps</a>. 
 
 <div class="code"></div>
 

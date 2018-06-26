@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceManager::GetDeviceFriendlyName
@@ -143,7 +143,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="https://www.bing.com/search?q=WPD_OBJECT_NAME">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
+A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="object_properties.htm">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
 
 
 

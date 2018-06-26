@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_Unadvise.htm
 old-project: shell
 ms.assetid: 684b3e94-50b9-465e-b4c3-b244fc7209f5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IFileOperation interface [Windows Shell],Unadvise method, IFileOperation.Unadvise, IFileOperation::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileOperation interface, _shell_IFileOperation_Unadvise, shell.IFileOperation_Unadvise, shobjidl_core/IFileOperation::Unadvise
 ms.prod: windows
 ms.technology: windows-sdk

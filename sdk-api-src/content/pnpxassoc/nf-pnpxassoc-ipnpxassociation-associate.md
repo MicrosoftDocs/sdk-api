@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPNPXAssociation::Associate
@@ -111,7 +111,7 @@ The method failed.
 
 This method modifies the association database entry corresponding to the function instance from which the <a href="https://msdn.microsoft.com/03c1c4cb-fffb-4b4a-963a-200670062f4a">IPNPXAssociation</a> interface was obtained. 
 
-Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="https://www.bing.com/search?q=devnode">devnode</a>. The <b>Found New Hardware</b> wizard appears if user intervention is required to install a device driver after association.
+Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="function_discovery_glossary.htm">devnode</a>. The <b>Found New Hardware</b> wizard appears if user intervention is required to install a device driver after association.
 
 
 

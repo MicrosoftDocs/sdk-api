@@ -396,7 +396,7 @@ STK 9840.
 
 
 
-<a href="https://msdn.microsoft.com/38020a77-0340-4096-a2a8-d16eec5857e6">NTMS_MEDIATYPEINFORMATION</a>
+<a href="base.ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_getobject.htm
 old-project: com
 ms.assetid: 5d74b3ee-323d-43f9-8eab-0866432659de
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetObject method, IRunningObjectTable.GetObject, IRunningObjectTable::GetObject, _com_irunningobjecttable_getobject, com.irunningobjecttable_getobject, objidl/IRunningObjectTable::GetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRunningObjectTable::GetObject

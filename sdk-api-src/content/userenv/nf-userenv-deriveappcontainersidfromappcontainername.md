@@ -7,7 +7,7 @@ old-location: shell\deriveappcontainersidfromappcontainername.htm
 old-project: shell
 ms.assetid: 233EFA95-289D-4D55-9D56-0630C015ABC7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
 ms.prod: windows
 ms.technology: windows-sdk

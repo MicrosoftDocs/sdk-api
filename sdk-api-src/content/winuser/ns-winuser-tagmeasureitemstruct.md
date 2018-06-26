@@ -125,7 +125,7 @@ The identifier of the combo box or list box. This member is not used for a menu.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The identifier for a menu item or the position of a list box or combo box item. This value is specified for a list box only if it has the <a href="https://www.bing.com/search?q=LBS_OWNERDRAWVARIABLE">LBS_OWNERDRAWVARIABLE</a> style; this value is specified for a combo box only if it has the <a href="https://www.bing.com/search?q=CBS_OWNERDRAWVARIABLE">CBS_OWNERDRAWVARIABLE</a> style. 
+The identifier for a menu item or the position of a list box or combo box item. This value is specified for a list box only if it has the <a href="List_Box_Styles.htm">LBS_OWNERDRAWVARIABLE</a> style; this value is specified for a combo box only if it has the <a href="Combo_Box_Styles.htm">CBS_OWNERDRAWVARIABLE</a> style. 
 
 
 ### -field itemWidth

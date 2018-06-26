@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutboundRoutingRules.Add
 title: IFaxOutboundRoutingRules::Add
 author: windows-sdk-content
-description: The IFaxOutboundRoutingRules::Add method adds an outbound routing rule (IFaxOutboundRoutingRule interface) to the collection defined by the IFaxOutboundRoutingRules interface.
-old-location: fax\_mfax_faxoutboundroutingrules_add_cpp.htm
+description: The Add method adds an outbound routing rule (FaxOutboundRoutingRule object) to the FaxOutboundRoutingRules collection.
+old-location: fax\_mfax_faxoutboundroutingrules_add.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_50f8_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_50f8.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingRules interface, IFaxOutboundRoutingRules interface [Fax Service],Add method, IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add_cpp, fax._mfax_faxoutboundroutingrules_add_cpp, faxcomex/IFaxOutboundRoutingRules::Add
+ms.date: 06/12/2018
+ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service],Add method, FaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add, fax._mfax_faxoutboundroutingrules_add
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutboundRoutingRules.Add
  - IFaxOutboundRoutingRules.Add
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutboundRoutingRules::Add</b> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a> interface) to the collection defined by the <a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a> interface.
+The <b>Add</b> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object) to the <a href="https://msdn.microsoft.com/971819e1-a3cb-4e58-b533-fee15ccb4352">FaxOutboundRoutingRules</a> collection.
 
 
 ## -parameters
@@ -61,53 +62,53 @@ The <b>IFaxOutboundRoutingRules::Add</b> method adds an outbound routing rule (<
 
 ### -param lCountryCode
 
-Type: <b>long</b>
+Type: <b>Long</b>
 
-A <b>long</b> value that specifies the country/region code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/f064751c-d8c3-4a59-bd2d-3fb1f297af90">frrcANY_CODE</a> will add a rule that applies to any country/region code.
+A <b>Long</b> value that specifies the country/region code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/f064751c-d8c3-4a59-bd2d-3fb1f297af90">frrcANY_CODE</a> will add a rule that applies to any country/region code.
 
 
 ### -param lAreaCode
 
-Type: <b>long</b>
+Type: <b>Long</b>
 
-Specifies a <b>long</b> value that indicates the area code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/f064751c-d8c3-4a59-bd2d-3fb1f297af90">frrcANY_CODE</a> will add a rule that applies to any area code within the specified country/region code.
+Specifies a <b>Long</b> value that indicates the area code to associate with the outbound routing rule. Specifying <a href="https://msdn.microsoft.com/f064751c-d8c3-4a59-bd2d-3fb1f297af90">frrcANY_CODE</a> will add a rule that applies to any area code within the specified country/region code.
 
 
 ### -param bUseDevice
 
-Type: <b>VARIANT_BOOL</b>
+Type: <b>Boolean</b>
 
 Specifies a Boolean value that indicates whether the outbound routing rule points to a single fax device rather than to a group of devices.
 
 
 ### -param bstrGroupName
 
-Type: <b>BSTR</b>
+Type: <b>String</b>
 
-Specifies a null-terminated string that contains the name of the outbound routing group to which the new routing rule belongs. If <i>bUseDevice</i> is set to <b>TRUE</b>, this should be an empty string.
+Specifies a null-terminated string that contains the name of the outbound routing group to which the new routing rule belongs. If <i>bUseDevice</i> is set to <b>True</b>, this should be an empty string.
 
 
 ### -param lDeviceId
 
-Type: <b>long</b>
+Type: <b>Long</b>
 
-Specifies the device to associate with the outbound routing rule. If <i>bUseDevice</i> is set to <b>FALSE</b>, this parameter is ignored.
+Specifies the device to associate with the outbound routing rule. If <i>bUseDevice</i> is set to <b>False</b>, this parameter is ignored.
 
 
-### -param pFaxOutboundRoutingRule [out, retval]
+### -param pFaxOutboundRoutingRule
 
-Type: <b><a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a> interface.
+
+
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a> object.
 
 
 
@@ -116,7 +117,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://docs.microsoft.com/windows/desktop//Rpc/rpc-return-values">RPC Return Values</a>.
+This method can also return remote procedure call (RPC) return values. For more information, see <a href="_rpc_rpc_return_values">RPC Return Values</a>.
 
 To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
 
@@ -125,6 +126,10 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/971819e1-a3cb-4e58-b533-fee15ccb4352">FaxOutboundRoutingRules</a>
 
 
 

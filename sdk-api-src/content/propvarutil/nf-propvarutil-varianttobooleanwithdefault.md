@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # VariantToBooleanWithDefault function
@@ -94,12 +94,12 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type VT_BOOL, the function attempts to convert the value in the <b>VARIANT</b> into a <b>BOOL</b>.
 
-If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="https://www.bing.com/search?q=VariantToBooleanWithDefault">VariantToBooleanWithDefault</a> returns the default value provided by <i>fDefault</i>. See <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type VT_EMPTY or a conversion is not possible, then <a href="shell.VariantToBooleanWithDefault">VariantToBooleanWithDefault</a> returns the default value provided by <i>fDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToBooleanWithDefault">VariantToBooleanWithDefault</a> to access a <b>BOOL</b> value stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanWithDefault">VariantToBooleanWithDefault</a> to access a <b>BOOL</b> value stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -126,19 +126,19 @@ BOOL fValue = VariantToBooleanWithDefault(var, FALSE);
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromBoolean">InitVariantFromBoolean</a>
+<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToBoolean">PropVariantToBoolean</a>
+<a href="shell.PropVariantToBoolean">PropVariantToBoolean</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBoolean">VariantToBoolean</a>
+<a href="shell.VariantToBoolean">VariantToBoolean</a>
  
 
  

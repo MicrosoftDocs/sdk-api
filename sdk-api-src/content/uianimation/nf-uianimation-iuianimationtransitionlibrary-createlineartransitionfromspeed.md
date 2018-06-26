@@ -94,7 +94,7 @@ During a linear-speed transition, the value of the animation variable changes at
 
 The figure below shows the effect on an animation variable over time during a linear-speed transition.
 
-<img alt="Diagram showing the linear transition from speed" src="./images/LinearTransitionFromSpeed.png"/>
+<img alt="Diagram showing the linear transition from speed" src="Images/LinearTransitionFromSpeed.png"/>
 
 
 

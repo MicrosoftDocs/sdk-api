@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxServer.get_Activity
 title: IFaxServer::get_Activity
 author: windows-sdk-content
-description: The IFaxServer::get_Activity property creates a IFaxActivity interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
-old-location: fax\_mfax_faxserver_activity_cpp.htm
+description: The Activity property creates a FaxActivity configuration object. The object permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+old-location: fax\_mfax_faxserver_activity.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_2i9l.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: Activity property [Fax Service], Activity property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Activity property, IFaxServer.Activity, IFaxServer.get_Activity, IFaxServer::Activity, IFaxServer::get_Activity, _mfax_faxserver.activity_cpp, fax._mfax_faxserver_activity_cpp, faxcomex/IFaxServer::Activity, faxcomex/IFaxServer::get_Activity, get_Activity
+ms.date: 06/12/2018
+ms.keywords: Activity property [Fax Service], Activity property [Fax Service],FaxServer object, FaxServer object [Fax Service],Activity property, FaxServer.Activity, IFaxServer.get_Activity, IFaxServer::get_Activity, _mfax_faxserver.activity, fax._mfax_faxserver_activity, get_Activity
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.Activity
+ - FaxServer.Activity
  - IFaxServer.get_Activity
 product: Windows
 targetos: Windows
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxServer::get_Activity</b> property creates a <a href="https://msdn.microsoft.com/fa967b8f-ad6d-4fa6-a6d3-d7bbe901b51d">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+The <b>Activity</b> property creates a <a href="https://msdn.microsoft.com/5d3a10cb-64ef-4b20-a882-7f5e2738a8a0">FaxActivity</a> configuration object. The object permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 
 This property is read-only.
 

@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device preparing the tape. This handle is created by using the 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwOperation [in]
@@ -366,7 +366,7 @@ Some tape devices do not support certain tape operations. See your tape device d
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

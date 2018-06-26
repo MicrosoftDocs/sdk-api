@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_IncomingFaxesArePublic_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\incomingfaxesarepublic.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxConfiguration object [Fax Service],IncomingFaxesArePublic property, FaxConfiguration.IncomingFaxesArePublic, IFaxConfiguration.put_IncomingFaxesArePublic, IFaxConfiguration::put_IncomingFaxesArePublic, IncomingFaxesArePublic property [Fax Service], IncomingFaxesArePublic property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_IncomingFaxesArePublic, fax._mfax_FaxConfiguration_IncomingFaxesArePublic_vb, put_IncomingFaxesArePublic
 ms.prod: windows
 ms.technology: windows-sdk

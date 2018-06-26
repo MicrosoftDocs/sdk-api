@@ -7,7 +7,7 @@ old-location: menurc\setcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursorpos.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: SetCursorPos, SetCursorPos function [Menus and Other Resources], _win32_SetCursorPos, _win32_setcursorpos_cpp, menurc.setcursorpos, winui._win32_setcursorpos, winuser/SetCursorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -101,12 +101,12 @@ The cursor is a shared resource. A window should move the cursor only when the c
 
 The calling process must have <b>WINSTA_WRITEATTRIBUTES</b> access to the window station.
 
-The input desktop must be the current desktop when you call <b>SetCursorPos</b>. Call <a href="https://www.bing.com/search?q=OpenInputDesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://www.bing.com/search?q=SetThreadDesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
+The input desktop must be the current desktop when you call <b>SetCursorPos</b>. Call <a href="https://msdn.microsoft.com/023d421e-bf32-4e08-b5b3-b7b2ca6c4e00">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://msdn.microsoft.com/619c591f-54b7-4b61-aa07-fc57e05ee37a">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Using+the+Keyboard+to+Move+the+Cursor">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="using_cursors.htm">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: tablet\inkrecoguide.htm
 old-project: tablet
 ms.assetid: c35fcb28-f21f-427c-8d5f-6e6a73945956
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: DISPID_InkRecognizerGuide, DISPID_InkRecognizerGuide structure [Tablet PC], InkRecoGuide, InkRecoGuide structure [Tablet PC], _InkRecoGuide, c35fcb28-f21f-427c-8d5f-6e6a73945956, msinkaut/InkRecoGuide, tablet.inkrecoguide
 ms.prod: windows
 ms.technology: windows-sdk

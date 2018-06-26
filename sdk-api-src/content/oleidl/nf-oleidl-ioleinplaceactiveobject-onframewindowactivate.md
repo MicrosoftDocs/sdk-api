@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_onframewindowactivate.htm
 old-project: com
 ms.assetid: 6534ea03-5f1b-4d3e-b6d8-b8d478a0a144
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnFrameWindowActivate method, IOleInPlaceActiveObject.OnFrameWindowActivate, IOleInPlaceActiveObject::OnFrameWindowActivate, OnFrameWindowActivate, OnFrameWindowActivate method [COM], OnFrameWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_onframewindowactivate, com.ioleinplaceactiveobject_onframewindowactivate, oleidl/IOleInPlaceActiveObject::OnFrameWindowActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceActiveObject::OnFrameWindowActivate
@@ -78,7 +78,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://www.bing.com/search?q=GetMessage">GetMessage</a>
+<a href="_win32_GetMessage_cpp">GetMessage</a>
 
 
 
@@ -86,7 +86,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://www.bing.com/search?q=PeekMessage">PeekMessage</a>
+<a href="_win32_PeekMessage_cpp">PeekMessage</a>
  
 
  

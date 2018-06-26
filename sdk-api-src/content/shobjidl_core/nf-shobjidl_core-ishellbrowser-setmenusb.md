@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_SetMenuSB.htm
 old-project: shell
 ms.assetid: ae6fe864-7fa1-4c74-a27f-d428bdeccc3d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetMenuSB method, IShellBrowser.SetMenuSB, IShellBrowser::SetMenuSB, SetMenuSB, SetMenuSB method [Windows Shell], SetMenuSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetMenuSB, shell.IShellBrowser_SetMenuSB, shobjidl_core/IShellBrowser::SetMenuSB
 ms.prod: windows
 ms.technology: windows-sdk

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PRESOURCE_TYPE_CONTROL_ROUTINE callback function
@@ -127,7 +127,7 @@ Some control codes should be handled by the <a href="https://msdn.microsoft.com/
 
 #### Examples
 
-See <a href="https://www.bing.com/search?q=Resource+DLL+Examples">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

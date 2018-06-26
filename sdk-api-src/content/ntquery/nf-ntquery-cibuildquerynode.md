@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CIBuildQueryNode function
@@ -73,7 +73,7 @@ The operation to be performed on the node. See <a href="https://msdn.microsoft.c
 
 ### -param pvarPropertyValue
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
+A pointer to the <a href="_stg_propvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
 
 
 ### -param ppTree

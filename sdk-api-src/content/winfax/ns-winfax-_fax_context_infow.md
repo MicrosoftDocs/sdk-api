@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NS:winfax._FAX_CONTEXT_INFOW
 title: "_FAX_CONTEXT_INFOW"
 author: windows-sdk-content
@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_context_info_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7v5e.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: "*PFAX_CONTEXT_INFOW, FAX_CONTEXT_INFO, FAX_CONTEXT_INFO structure [Fax Service], FAX_CONTEXT_INFOA, FAX_CONTEXT_INFOW, PFAX_CONTEXT_INFO, PFAX_CONTEXT_INFO structure pointer [Fax Service], _FAX_CONTEXT_INFOW, _mfax_fax_context_info_str, fax._mfax_fax_context_info_str, winfax/FAX_CONTEXT_INFO, winfax/FAX_CONTEXT_INFOA, winfax/FAX_CONTEXT_INFOW, winfax/PFAX_CONTEXT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Specifies a variable that contains a null-terminated string that is the fax serv
 
 
 
-A fax client application can call the <a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a> function to retrieve the handle to a fax printer device context. The function returns the handle in a <b>FAX_CONTEXT_INFO</b> structure. The application must call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd183533(v=vs.85).aspx">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/d6e0afbd-6e64-487c-97fc-1e5cd5092d14">Printing a Fax to a Device Context</a>.
+A fax client application can call the <a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a> function to retrieve the handle to a fax printer device context. The function returns the handle in a <b>FAX_CONTEXT_INFO</b> structure. The application must call the <a href="_win32_DeleteDC">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/d6e0afbd-6e64-487c-97fc-1e5cd5092d14">Printing a Fax to a Device Context</a>.
 
 
 
@@ -96,11 +96,11 @@ A fax client application can call the <a href="https://msdn.microsoft.com/219cc7
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd183533(v=vs.85).aspx">DeleteDC</a>
+<a href="_win32_DeleteDC">DeleteDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd162594(v=vs.85).aspx">EndDoc</a>
+<a href="_win32_EndDoc">EndDoc</a>
 
 
 

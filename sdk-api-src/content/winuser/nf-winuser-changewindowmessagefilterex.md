@@ -1,0 +1,220 @@
+---
+UID: NF:winuser.ChangeWindowMessageFilterEx
+title: ChangeWindowMessageFilterEx function
+author: windows-sdk-content
+description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
+old-location: winmsg\changewindowmessagefilterex.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+ - ext-ms-win-ntuser-gui-l1-1-0.dll
+ - ext-ms-win-ntuser-gui-l1-1-1.dll
+ - ext-ms-win-ntuser-gui-l1-2-0.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+ - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+api_name:
+ - ChangeWindowMessageFilterEx
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# ChangeWindowMessageFilterEx function
+
+
+## -description
+
+
+Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
+
+
+## -parameters
+
+
+
+
+### -param hwnd
+
+TBD
+
+
+### -param message [in]
+
+Type: <b>UINT</b>
+
+The message that the message filter allows through or blocks.
+				
+
+
+### -param action [in]
+
+Type: <b>DWORD</b>
+
+The action to be performed, and can take one of the following values:
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MSGFLT_ALLOW"></a><a id="msgflt_allow"></a><dl>
+<dt><b>MSGFLT_ALLOW</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Allows the message through the filter. This enables the message to be received by 
+					<i>hWnd</i>, regardless of the source of the message, 
+					even it comes from a lower privileged process.
+					
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MSGFLT_DISALLOW"></a><a id="msgflt_disallow"></a><dl>
+<dt><b>MSGFLT_DISALLOW</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Blocks the message to be delivered to <i>hWnd</i> if it comes from a lower privileged process, 
+					unless the message is allowed process-wide by using the <a href="https://msdn.microsoft.com/a78357b4-5069-45f0-b082-66042c42a5fd">ChangeWindowMessageFilter</a> function 
+					or globally.
+					
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MSGFLT_RESET"></a><a id="msgflt_reset"></a><dl>
+<dt><b>MSGFLT_RESET</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Resets the window message filter for <i>hWnd</i> to the default.   Any message allowed
+					globally or process-wide will get through, but any message not included 
+					in those two categories, and which comes from a lower privileged process, will be blocked.
+					
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param pChangeFilterStruct [in, out, optional]
+
+Type: <b>PCHANGEFILTERSTRUCT</b>
+
+Optional pointer to a <a href="https://msdn.microsoft.com/03950cd1-c6db-45ca-ae5d-05b3de7843f6">CHANGEFILTERSTRUCT</a> structure.
+
+
+#### - hWnd [in]
+
+Type: <b>HWND</b>
+
+A handle to the window whose UIPI message filter is to be modified.
+				
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+
+			If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+				
+
+
+
+
+## -remarks
+
+
+
+UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.
+		You can use this function to allow specific messages to be delivered to a window even 
+		if the message originates from a process at a lower integrity level. Unlike the <a href="https://msdn.microsoft.com/a78357b4-5069-45f0-b082-66042c42a5fd">ChangeWindowMessageFilter</a> function, 
+		which controls the process message filter, the <b>ChangeWindowMessageFilterEx</b> function controls the window message filter. 
+		
+
+
+		An application may use the <a href="https://msdn.microsoft.com/a78357b4-5069-45f0-b082-66042c42a5fd">ChangeWindowMessageFilter</a> function to 
+		allow or block a message in a process-wide manner. 
+		If the message is allowed by either the process message filter 
+		or the window message filter, it will be delivered to the window.
+		
+
+
+		Note that processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowed to change the message filter. 
+		If those processes call this function, it will fail and generate the extended error code, <b>ERROR_ACCESS_DENIED</b>.
+		
+
+
+		Certain messages whose value is smaller than <b>WM_USER</b> are required to be passed through the filter, 
+		regardless of the filter setting. There will be no effect when you attempt to use this function to 
+		allow or block such messages. 
+		
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/a78357b4-5069-45f0-b082-66042c42a5fd">ChangeWindowMessageFilter</a>
+
+
+
+<b>Conceptual</b>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+ 
+
+ 
+

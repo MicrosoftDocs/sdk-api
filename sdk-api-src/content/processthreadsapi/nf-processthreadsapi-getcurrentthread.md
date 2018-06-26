@@ -49,7 +49,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GetCurrentThread function
@@ -100,7 +100,7 @@ Do not create a thread while impersonating a security context. The call will suc
 #### Examples
 
 For an example, see 
-<a href="https://www.bing.com/search?q=Checking+Client+Access">Checking Client Access</a>.
+<a href="security.checking_client_access">Checking Client Access</a>.
 
 <div class="code"></div>
 

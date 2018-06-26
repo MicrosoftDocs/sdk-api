@@ -7,7 +7,7 @@ old-location: winrm\wsman_sender_details.htm
 old-project: WinRM
 ms.assetid: f68a9f75-6808-4dfa-b40f-061da88ead3c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], _WSMAN_SENDER_DETAILS, winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
 ms.prod: windows
 ms.technology: windows-sdk

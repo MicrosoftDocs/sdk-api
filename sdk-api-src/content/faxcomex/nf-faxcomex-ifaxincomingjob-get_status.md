@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxIncomingJob.get_Status
 title: IFaxIncomingJob::get_Status
 author: windows-sdk-content
-description: Retrieves the Status property of a FaxIncomingJob object. The Status property is a number that indicates the current status of an inbound fax job in the job queue.
-old-location: fax\_mfax_faxincomingjob_status_cpp.htm
+description: The Status property is a number that indicates the current status of an inbound fax job in the job queue.
+old-location: fax\_mfax_faxincomingjob_status.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_1far_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinta_n_1far.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxIncomingJob interface [Fax Service],get_Status method, IFaxIncomingJob.get_Status, IFaxIncomingJob::get_Status, _mfax_faxincomingjob.status_cpp, fax._mfax_faxincomingjob_status_cpp, faxcomex/IFaxIncomingJob::get_Status, get_Status, get_Status method [Fax Service], get_Status method [Fax Service],IFaxIncomingJob interface
+ms.date: 06/12/2018
+ms.keywords: FaxIncomingJob object [Fax Service],Status property, FaxIncomingJob.Status, IFaxIncomingJob.get_Status, IFaxIncomingJob::get_Status, Status property [Fax Service], Status property [Fax Service],FaxIncomingJob object, _mfax_faxincomingjob.status, fax._mfax_faxincomingjob_status, get_Status
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxIncomingJob.Status
  - IFaxIncomingJob.get_Status
 product: Windows
 targetos: Windows
@@ -51,30 +52,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Retrieves the <b>Status</b> property of a <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object. The <b>Status</b> property is a number that indicates the current status of an inbound fax job in the job queue.
+The <b>Status</b> property is a number that indicates the current status of an inbound fax job in the job queue. 
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param pStatus [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a>*</b>
-
-Pointer to a value from the <a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a> enumeration that specifies the current status of an inbound fax job in the job queue.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 
 ## -see-also
@@ -82,15 +65,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a>
+<a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://msdn.microsoft.com/fdcb2c7c-f2ca-402d-9a76-b6231142d7f1">get_Status</a>
  
 
  

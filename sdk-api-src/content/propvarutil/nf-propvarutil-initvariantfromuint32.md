@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromUInt32 function
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromUInt32">InitVariantFromUInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt32">InitVariantFromUInt32</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,15 +124,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>
+<a href="shell.InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt32">VariantToUInt32</a>
+<a href="shell.VariantToUInt32">VariantToUInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt32WithDefault">VariantToUInt32WithDefault</a>
+<a href="shell.VariantToUInt32WithDefault">VariantToUInt32WithDefault</a>
  
 
  

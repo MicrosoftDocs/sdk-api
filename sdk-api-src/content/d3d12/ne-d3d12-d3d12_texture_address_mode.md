@@ -94,9 +94,9 @@ req.irql:
 
 
             Similar to 
-            <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE_MIRROR</a> 
+            <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_MIRROR</a> 
             and 
-            <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_address_mode">D3D12_TEXTURE_ADDRESS_MODE_CLAMP</a>.
+            <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_CLAMP</a>.
             Takes the absolute value of the texture coordinate (thus, mirroring around 0), and then clamps to the maximum value.
           
 

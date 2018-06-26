@@ -7,7 +7,7 @@ old-location: devinst\cm_get_resource_conflict_count.htm
 old-project: devinst
 ms.assetid: 758fbc4c-499f-492d-b64d-f80b1fc7ee25
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Get_Resource_Conflict_Count, CM_Get_Resource_Conflict_Count function [Device and Driver Installation], cfgmgr32/CM_Get_Resource_Conflict_Count, cfgmgrfn_ac18aaca-cd62-4629-a29e-c717b293e8c9.xml, devinst.cm_get_resource_conflict_count
 ms.prod: windows
 ms.technology: windows-sdk

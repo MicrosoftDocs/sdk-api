@@ -56,7 +56,7 @@ Represents a Windows Imaging Component (WIC) stream for referencing imaging and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream</a>. <b>IWICStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="_stg_istream">IStream</a>. <b>IWICStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

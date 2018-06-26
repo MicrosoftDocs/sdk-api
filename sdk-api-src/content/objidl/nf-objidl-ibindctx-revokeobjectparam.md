@@ -7,7 +7,7 @@ old-location: com\ibindctx_revokeobjectparam.htm
 old-project: com
 ms.assetid: e7dbf9c8-0ecf-4076-8bec-4da457c60cee
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectParam method, IBindCtx.RevokeObjectParam, IBindCtx::RevokeObjectParam, RevokeObjectParam, RevokeObjectParam method [COM], RevokeObjectParam method [COM],IBindCtx interface, _com_ibindctx_revokeobjectparam, com.ibindctx_revokeobjectparam, objidl/IBindCtx::RevokeObjectParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IBindCtx::RevokeObjectParam
@@ -61,7 +61,7 @@ Removes the specified key and its associated pointer from the bind context's str
 
 ### -param pszKey [in]
 
-The <a href="https://www.bing.com/search?q=bind+context+string+key">bind context string key</a> to be removed. Key string comparison is case-sensitive.
+The <a href="_shell_STR_constants_cpp">bind context string key</a> to be removed. Key string comparison is case-sensitive.
 
 
 ## -returns

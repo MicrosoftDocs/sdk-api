@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutgoingArchive.GetMessages
 title: IFaxOutgoingArchive::GetMessages
 author: windows-sdk-content
-description: The IFaxOutgoingArchive::GetMessages method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see IFaxOutgoingMessageIterator.
-old-location: fax\_mfax_faxoutgoingarchive_getmessages_cpp.htm
+description: The GetMessages method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see FaxOutgoingMessageIterator.
+old-location: fax\_mfax_faxoutgoingarchive_getmessages.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_20qb_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_20qb.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessages method, IFaxOutgoingArchive.GetMessages, IFaxOutgoingArchive::GetMessages, _mfax_faxoutgoingarchive.getmessages_cpp, fax._mfax_faxoutgoingarchive_getmessages_cpp, faxcomex/IFaxOutgoingArchive::GetMessages
+ms.date: 06/12/2018
+ms.keywords: FaxOutgoingArchive object [Fax Service],GetMessages method, FaxOutgoingArchive.GetMessages, GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],FaxOutgoingArchive object, IFaxOutgoingArchive.GetMessages, IFaxOutgoingArchive::GetMessages, _mfax_faxoutgoingarchive.getmessages, fax._mfax_faxoutgoingarchive_getmessages
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutgoingArchive.GetMessages
  - IFaxOutgoingArchive.GetMessages
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingArchive::GetMessages</b> method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see <a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>.
+The <b>GetMessages</b> method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see <a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a>.
 
 
 ## -parameters
@@ -61,27 +62,23 @@ The <b>IFaxOutgoingArchive::GetMessages</b> method returns a new iterator (archi
 
 ### -param lPrefetchSize
 
-Type: <b>long</b>
+Type: <b>Long</b>
 
-A <b>long</b> value that specifies the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
+A <b>Long</b> value that specifies the size of the prefetch buffer. This value determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
 
 
-### -param pFaxOutgoingMessageIterator [out, retval]
+### -param pFaxOutgoingMessageIterator
+
+
+
+
+
+
+#### - FaxOutgoingMessageIterator
 
 Type: <b><a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>**</b>
 
-An address of a pointer that receives the <a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a> interface.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+A <a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a> object.
 
 
 ## -remarks
@@ -98,7 +95,7 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/6bd3eb63-512e-4774-9bb7-f99d1293f2f3">IFaxOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/ffed51b3-0a07-4667-8d8d-5054362489c4">FaxOutgoingArchive</a>
 
 
 

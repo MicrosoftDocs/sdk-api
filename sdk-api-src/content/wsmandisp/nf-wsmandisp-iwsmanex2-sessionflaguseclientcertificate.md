@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex2_sessionflaguseclientcertificate.htm
 old-project: WinRM
 ms.assetid: 287e17b4-ca2f-4816-af26-b76b4e717c70
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManEx2 interface [Windows Remote Management],SessionFlagUseClientCertificate method, IWSManEx2.SessionFlagUseClientCertificate, IWSManEx2::SessionFlagUseClientCertificate, SessionFlagUseClientCertificate, SessionFlagUseClientCertificate method [Windows Remote Management], SessionFlagUseClientCertificate method [Windows Remote Management],IWSManEx2 interface, winrm.iwsmanex2_sessionflaguseclientcertificate, wsmandisp/IWSManEx2::SessionFlagUseClientCertificate
 ms.prod: windows
 ms.technology: windows-sdk

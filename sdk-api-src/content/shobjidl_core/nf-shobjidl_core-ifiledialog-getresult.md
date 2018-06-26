@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_GetResult.htm
 old-project: shell
 ms.assetid: 6572f172-8b66-4b42-b087-d0133595b380
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetResult, GetResult method [Windows Shell], GetResult method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetResult method, IFileDialog.GetResult, IFileDialog::GetResult, shell.IFileDialog_GetResult, shell_IFileDialog_GetResult, shobjidl_core/IFileDialog::GetResult
 ms.prod: windows
 ms.technology: windows-sdk

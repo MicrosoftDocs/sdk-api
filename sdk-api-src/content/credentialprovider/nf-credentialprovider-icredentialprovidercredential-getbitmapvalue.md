@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetBitmapValue.htm
 old-project: shell
 ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetBitmapValue, GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetBitmapValue method, ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
 ms.prod: windows
 ms.technology: windows-sdk

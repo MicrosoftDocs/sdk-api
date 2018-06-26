@@ -80,7 +80,7 @@ A value that represents  the running total count of v-blanks at which the last i
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A value that represents  the running total count of v-blanks when the scheduler last sampled the machine time by calling <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> and that have happened since the computer booted (for windowed mode, since the swap chain was created).
+A value that represents  the running total count of v-blanks when the scheduler last sampled the machine time by calling <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> and that have happened since the computer booted (for windowed mode, since the swap chain was created).
 
 
 ### -field SyncQPCTime
@@ -88,7 +88,7 @@ A value that represents  the running total count of v-blanks when the scheduler 
 Type: <b><a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a></b>
 
 A value that represents the high-resolution performance counter timer. 
-        This value is the same as the value returned by the <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> 
+        This value is the same as the value returned by the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> 
         function.
 
 
@@ -105,7 +105,7 @@ Reserved. Always returns 0.
 
 You initialize the <b>DXGI_FRAME_STATISTICS</b> structure with the <a href="https://msdn.microsoft.com/7ce4bf11-b314-4e82-8ad8-4a5e56b6e863">IDXGIOutput::GetFrameStatistics</a> or <a href="https://msdn.microsoft.com/c02b9e3b-5d59-4ed2-b373-2097c0e46f70">IDXGISwapChain::GetFrameStatistics</a> method.
 
-You can only use <a href="https://msdn.microsoft.com/c02b9e3b-5d59-4ed2-b373-2097c0e46f70">IDXGISwapChain::GetFrameStatistics</a> for swap chains that either use the flip presentation model or draw in full-screen mode. You set the <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value in the <b>SwapEffect</b> member of the <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a> structure to specify that the swap chain uses the flip presentation model.
+You can only use <a href="https://msdn.microsoft.com/c02b9e3b-5d59-4ed2-b373-2097c0e46f70">IDXGISwapChain::GetFrameStatistics</a> for swap chains that either use the flip presentation model or draw in full-screen mode. You set the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value in the <b>SwapEffect</b> member of the <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a> structure to specify that the swap chain uses the flip presentation model.
 
 The values in the <b>PresentCount</b> and <b>PresentRefreshCount</b> members indicate information about when a frame was presented on the display screen. You can use these values to determine whether a glitch occurred. The values in the <b>SyncRefreshCount</b> and <b>SyncQPCTime</b> members indicate timing information that you can use for audio and video synchronization or very precise animation. If the swap chain draws in full-screen mode, these values are based on when the computer booted. 
 If the swap chain draws in windowed mode, these values are based on when the swap chain is created.

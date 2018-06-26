@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -107,7 +107,7 @@ The <b>SetDlgItemText</b> function sends a <a href="https://msdn.microsoft.com/1
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Using+List+Boxes">Using List Boxes</a>. 
+For an example, see <a href="_win32_Using_List_Boxes">Using List Boxes</a>. 
 
 <div class="code"></div>
 

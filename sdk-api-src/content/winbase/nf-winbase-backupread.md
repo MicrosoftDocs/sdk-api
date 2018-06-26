@@ -62,7 +62,7 @@ req.product: Windows Address Book 5.0
 The <b>BackupRead</b> function can be used to back up 
     a file or directory, including the security information. The function reads data associated with a 
     specified file or directory into a buffer, which can then be written to the backup medium using the 
-    <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a> function.
+    <a href="base.writefile">WriteFile</a> function.
 
 
 ## -parameters
@@ -73,12 +73,12 @@ The <b>BackupRead</b> function can be used to back up
 ### -param hFile [in]
 
 Handle to the file or directory to be backed up. To obtain the handle, call the 
-      <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function. The SACLs are not read unless the 
+      <a href="base.createfile">CreateFile</a> function. The SACLs are not read unless the 
       file handle was created with the <b>ACCESS_SYSTEM_SECURITY</b> access right. For more 
-      information, see <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access 
+      information, see <a href="base.file_security_and_access_rights">File Security and Access 
       Rights</a>.
 
-The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
+The handle must be synchronous (nonoverlapped). This means that the <b>FILE_FLAG_OVERLAPPED</b> flag must not be set when <a href="base.createfile">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 
 The <b>BackupRead</b> function may fail if 
       <b>CreateFile</b> was called with the flag 

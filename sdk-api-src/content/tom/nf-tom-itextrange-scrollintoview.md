@@ -79,7 +79,7 @@ Flag specifying the end to scroll into view. It can be one of the following.
 </tr>
 <tr>
 <td width="40%"><a id="tomEnd"></a><a id="tomend"></a><a id="TOMEND"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomEnd</a></b></dt>
+<dt><b><a href="tomconstants.htm">tomEnd</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -89,7 +89,7 @@ Scrolls the end character position to appear on the bottom line.
 </tr>
 <tr>
 <td width="40%"><a id="tomStart"></a><a id="tomstart"></a><a id="TOMSTART"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStart</a></b></dt>
+<dt><b><a href="tomconstants.htm">tomStart</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -99,14 +99,14 @@ Scrolls the start character position to appear on the top line. (Default value).
 </tr>
 <tr>
 <td width="40%"><a id="tomNoUpScroll"></a><a id="tomnoupscroll"></a><a id="TOMNOUPSCROLL"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomNoUpScroll</a></b></dt>
+<dt><b><a href="tomconstants.htm">tomNoUpScroll</a></b></dt>
 </dl>
 </td>
 <td width="60%"></td>
 </tr>
 <tr>
 <td width="40%"><a id="tomNoVpScroll"></a><a id="tomnovpscroll"></a><a id="TOMNOVPSCROLL"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomNoVpScroll</a></b></dt>
+<dt><b><a href="tomconstants.htm">tomNoVpScroll</a></b></dt>
 </dl>
 </td>
 <td width="60%"></td>

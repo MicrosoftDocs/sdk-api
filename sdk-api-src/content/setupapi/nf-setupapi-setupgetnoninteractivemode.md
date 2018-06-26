@@ -7,7 +7,7 @@ old-location: devinst\setupgetnoninteractivemode.htm
 old-project: devinst
 ms.assetid: 0978851d-18a6-47a3-8ac9-0c03c469cbef
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupGetNonInteractiveMode, SetupGetNonInteractiveMode function [Device and Driver Installation], devinst.setupgetnoninteractivemode, setup-ref_c292cd64-d95d-4e1a-a28b-183ad013bbd3.xml, setupapi/SetupGetNonInteractiveMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupGetNonInteractiveMode function
@@ -74,7 +74,7 @@ The <b>SetupGetNonInteractiveMode</b> function returns the value of a SetupAPI n
 
 
 
-Installation applications and <a href="https://www.bing.com/search?q=co-installers">co-installers</a> can use this function to determine whether the current process can display interactive user interface elements such as dialog boxes. <a href="https://www.bing.com/search?q=SetupAPI">SetupAPI</a> runs a class installer or a co-installer either in an interactive or in a non-interactive process, depending on which <a href="https://www.bing.com/search?q=DIF+code">DIF code</a> SetupAPI is processing.
+Installation applications and <a href="devinst.writing_a_co_installer">co-installers</a> can use this function to determine whether the current process can display interactive user interface elements such as dialog boxes. <a href="devinst.setupapi">SetupAPI</a> runs a class installer or a co-installer either in an interactive or in a non-interactive process, depending on which <a href="devinst.handling_dif_codes">DIF code</a> SetupAPI is processing.
 
 An installation application can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552213">SetupSetNonInteractiveMode</a> to set the SetupAPI non-interactive flag that controls whether SetupAPI can display interactive user interface elements in the caller's context. 
 

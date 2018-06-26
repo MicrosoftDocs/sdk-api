@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Objsel.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IDsObjectPickerCredentials interface
@@ -56,7 +56,7 @@ The <b>IDsObjectPickerCredentials</b> interface
     object implementing this interface.
 
 To obtain an instance of this interface, call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> with the 
+    <a href="_com_iunknown_queryinterface">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
 
 

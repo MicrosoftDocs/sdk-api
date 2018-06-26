@@ -7,7 +7,7 @@ old-location: devinst\cm_set_class_property.htm
 old-project: devinst
 ms.assetid: BC026F97-4F4B-472F-83C0-FB5114AE1B7A
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Set_Class_Property, CM_Set_Class_Property function [Device and Driver Installation], CM_Set_Class_PropertyW, cfgmgr32/CM_Set_Class_Property, cfgmgr32/CM_Set_Class_PropertyW, devinst.cm_set_class_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Set_Class_Property</b> is part of the <a href="https://www.bing.com/search?q=Unified+Device+Property+Model">Unified Device Property Model</a>.
+<b>CM_Set_Class_Property</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

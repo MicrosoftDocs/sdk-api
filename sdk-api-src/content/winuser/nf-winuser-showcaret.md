@@ -7,7 +7,7 @@ old-location: menurc\showcaret.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\showcaret.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: ShowCaret, ShowCaret function [Menus and Other Resources], _win32_ShowCaret, _win32_showcaret_cpp, menurc.showcaret, winui._win32_showcaret, winuser/ShowCaret
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -95,7 +95,7 @@ The system provides one caret per queue. A window should create a caret only whe
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+and+Displaying+a+Caret">Creating and Displaying a Caret</a>.
+For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 

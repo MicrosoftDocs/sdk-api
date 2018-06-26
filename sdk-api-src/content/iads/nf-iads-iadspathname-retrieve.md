@@ -66,7 +66,7 @@ Specifies the format that the path should be retrieved in. This can be one of th
 
 ### -param pbstrADsPath [out]
 
-Contains a pointer to a <b>BSTR</b> value the receives the object path. The caller must free this memory with the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function when it is no longer required.
+Contains a pointer to a <b>BSTR</b> value the receives the object path. The caller must free this memory with the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function when it is no longer required.
 
 
 ## -returns
@@ -97,7 +97,7 @@ For more information and other return values, see  <a href="https://msdn.microso
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

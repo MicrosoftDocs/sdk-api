@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_refresh.htm
 old-project: tablet
 ms.assetid: 7f135184-76cc-4636-8c20-db29ca7d5540
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 7f135184-76cc-4636-8c20-db29ca7d5540, IPenInputPanel interface [Tablet PC],Refresh method, IPenInputPanel.Refresh, IPenInputPanel::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IPenInputPanel interface, peninputpanel/IPenInputPanel::Refresh, tablet.peninputpanel_refresh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::Refresh
@@ -144,7 +144,7 @@ Calling <b>Refresh</b> while the pen input panel does not have focus will genera
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

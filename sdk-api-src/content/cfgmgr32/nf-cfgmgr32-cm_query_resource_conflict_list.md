@@ -7,7 +7,7 @@ old-location: devinst\cm_query_resource_conflict_list.htm
 old-project: devinst
 ms.assetid: d8b86549-3687-42e8-a82f-0f2dbd70cf66
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Query_Resource_Conflict_List, CM_Query_Resource_Conflict_List function [Device and Driver Installation], cfgmgr32/CM_Query_Resource_Conflict_List, cfgmgrfn_1d52e544-49ce-4c1a-acc1-b59b7aaec790.xml, devinst.cm_query_resource_conflict_list
 ms.prod: windows
 ms.technology: windows-sdk

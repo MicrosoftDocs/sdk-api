@@ -7,7 +7,7 @@ old-location: gpmc\igpmmigrationtable_getentries.htm
 old-project: GPMC
 ms.assetid: 5de22bba-10f9-49f7-83f3-053f5e58b66e
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntries method, GetEntries, GetEntries method [GPMC], GetEntries method [GPMC],GPMMigrationTable class, GetEntries method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntries method, IGPMMigrationTable.GetEntries, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
 ms.prod: windows
 ms.technology: windows-sdk

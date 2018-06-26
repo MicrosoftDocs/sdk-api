@@ -134,23 +134,23 @@ Not supported. Must be set to <b>NULL</b>.
 
 Type: <b>LPFNABSDI</b>
 
-Pointer to a WAB function based on the <a href="https://msdn.microsoft.com/library/windows/desktop/bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> prototype (see MAPI documentation), or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
+Pointer to a WAB function based on the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> prototype (see MAPI documentation), or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
 
-Clients building an <b>ADRPARM</b> structure to pass to <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> must always set the <b>lpfnABSDI</b> member to <b>NULL</b>. If the <b>DIALOG_SDI</b> flag is set, WAB then sets it to a valid function before returning. Clients call this function from within their message loop to ensure that accelerators in the address book dialog box work. When the dialog box is dismissed and WAB calls the function to which the <b>lpfnDismiss</b> member points, clients should unhook the <a href="https://msdn.microsoft.com/library/windows/desktop/bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> function from their message loop.
+Clients building an <b>ADRPARM</b> structure to pass to <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> must always set the <b>lpfnABSDI</b> member to <b>NULL</b>. If the <b>DIALOG_SDI</b> flag is set, WAB then sets it to a valid function before returning. Clients call this function from within their message loop to ensure that accelerators in the address book dialog box work. When the dialog box is dismissed and WAB calls the function to which the <b>lpfnDismiss</b> member points, clients should unhook the <a href="bdaa0277-39c0-4975-8e6c-4ffcbb759996">ACCELERATEABSDI</a> function from their message loop.
 
 
 ### -field lpfnDismiss
 
 Type: <b>LPFNDISMISS</b>
 
-Pointer to a function based on the <a href="https://msdn.microsoft.com/library/windows/desktop/c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> (see MAPI documentation) prototype, or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set. WAB calls the DISMISSMODELESS function when the user dismisses the modeless address dialog box, informing a client calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> that the dialog box is no longer active.
+Pointer to a function based on the <a href="c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> (see MAPI documentation) prototype, or <b>NULL</b>. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set. WAB calls the DISMISSMODELESS function when the user dismisses the modeless address dialog box, informing a client calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt427295">Address</a> that the dialog box is no longer active.
 
 
 ### -field lpvDismissContext
 
 Type: <b>LPVOID</b>
 
-Pointer to the context information to be passed to the <a href="https://msdn.microsoft.com/library/windows/desktop/c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> function to which the <b>lpfnDismiss</b> member points. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
+Pointer to the context information to be passed to the <a href="c3573bf5-18df-4e80-a4b5-190fd9e771cd">DISMISSMODELESS</a> function to which the <b>lpfnDismiss</b> member points. This member applies only to the modeless version of the dialog box, as indicated by the <b>DIALOG_SDI</b> flag being set.
 
 
 ### -field lpszCaption

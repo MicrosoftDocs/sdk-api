@@ -79,7 +79,7 @@ The file must be opened with access
        rights that are compatible with the protection flags that the <i>flProtect</i> parameter 
        specifies. It is not required, but it is recommended that files you intend to map be opened for exclusive 
        access. For more information, see 
-       <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+       <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -477,8 +477,8 @@ The exception is related to remote files. Although the
     page is not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>) are not necessarily coherent.
+    (<a href="base.readfile">ReadFile</a> and 
+    <a href="base.writefile">WriteFile</a>) are not necessarily coherent.
 
 To fully close a file mapping object, an application must unmap all mapped views of the file mapping object by 
      calling the <a href="https://msdn.microsoft.com/2e9c3174-af48-4fa3-9f6a-fb62b23ed994">UnmapViewOfFile</a> function and then close 
@@ -607,7 +607,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -623,7 +623,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch3_AddToRecent.htm
 old-project: shell
 ms.assetid: aa5aef31-7f3f-4cc4-949d-1484de243ef3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: AddToRecent, AddToRecent method [Windows Shell], AddToRecent method [Windows Shell],IShellDispatch3 object, IShellDispatch3 object [Windows Shell],AddToRecent method, IShellDispatch3.AddToRecent, IShellDispatch3::AddToRecent, _shell_IShellDispatch3_AddToRecent, shell.IShellDispatch3_AddToRecent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ A <b>String</b> that contains the path of the file to add to the list of recentl
 
 ### -param bstrCategory [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the name of the category in which to place the file.
 

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # HSTRING_UserSize function

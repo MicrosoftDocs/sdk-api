@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_id_list_ex.htm
 old-project: devinst
 ms.assetid: 4f47e44c-a30b-4d50-9041-f84f7f209764
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Get_Device_ID_List_Ex, CM_Get_Device_ID_List_Ex function [Device and Driver Installation], CM_Get_Device_ID_List_ExW, cfgmgr32/CM_Get_Device_ID_List_Ex, cfgmgr32/CM_Get_Device_ID_List_ExW, cfgmgrfn_85ea1296-d9ef-46fd-8893-b44cd188ed6f.xml, devinst.cm_get_device_id_list_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.irql:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538415">CM_Get_Device_ID_List</a> instead.]
 
-The <b>CM_Get_Device_ID_List_Ex</b> function retrieves a list of <a href="https://www.bing.com/search?q=device+instance+IDs">device instance IDs</a> for the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a> on a local or a remote machine.
+The <b>CM_Get_Device_ID_List_Ex</b> function retrieves a list of <a href="devinst.device_instance_ids">device instance IDs</a> for the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a> on a local or a remote machine.
 
 
 ## -parameters

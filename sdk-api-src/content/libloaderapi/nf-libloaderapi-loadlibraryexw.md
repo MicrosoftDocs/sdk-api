@@ -395,8 +395,8 @@ You select these optional behaviors by setting the <i>dwFlags</i> parameter; if
 The calling process can use the handle returned by 
     <b>LoadLibraryEx</b> to identify the module in calls to the 
     <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, 
-    <a href="https://www.bing.com/search?q=FindResource">FindResource</a>, and 
-    <a href="https://www.bing.com/search?q=LoadResource">LoadResource</a> functions.
+    <a href="_win32_findresource_cpp">FindResource</a>, and 
+    <a href="_win32_loadresource_cpp">LoadResource</a> functions.
 
 To enable or disable error messages displayed by the loader during DLL loads, use the 
     <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function.
@@ -530,7 +530,7 @@ If <i>lpFileName</i> specifies an absolute path and <i>dwFlags</i> is
 
 The <a href="https://msdn.microsoft.com/c0c57554-3d98-487c-8bae-c594620d5a00">SetDllDirectory</a> function can be used to modify 
       the search path. This solution is better than using 
-      <a href="https://msdn.microsoft.com/02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd">SetCurrentDirectory</a> or hard-coding the full path 
+      <a href="base.setcurrentdirectory">SetCurrentDirectory</a> or hard-coding the full path 
       to the DLL. However, be aware that using 
       <b>SetDllDirectory</b> effectively disables safe DLL search 
       mode while the specified directory is in the search path and it is not thread safe. If possible, it is best to 
@@ -649,7 +649,7 @@ For an example, see
 
 
 
-<a href="https://www.bing.com/search?q=FindResource">FindResource</a>
+<a href="_win32_findresource_cpp">FindResource</a>
 
 
 
@@ -673,7 +673,7 @@ For an example, see
 
 
 
-<a href="https://www.bing.com/search?q=LoadResource">LoadResource</a>
+<a href="_win32_loadresource_cpp">LoadResource</a>
 
 
 

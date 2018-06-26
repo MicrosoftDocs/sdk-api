@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclasspropertykeys.htm
 old-project: devinst
 ms.assetid: 9b595fc5-f517-41f9-b7a8-a7811f658d57
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetClassPropertyKeys, SetupDiGetClassPropertyKeys function [Device and Driver Installation], devinst.setupdigetclasspropertykeys, di-rtns_7f87ef8b-8752-4cd4-9aca-811a83c99ccf.xml, setupapi/SetupDiGetClassPropertyKeys
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetClassPropertyKeys function
@@ -232,7 +232,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetClassPropertyKeys</b> is part of the <a href="https://www.bing.com/search?q=unified+device+property+model">unified device property model</a>. 
+<b>SetupDiGetClassPropertyKeys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
 
 A caller of <b>SetupDiGetClassPropertyKeys</b> must be a member of the Administrators group to retrieve device property keys for a device class. 
 

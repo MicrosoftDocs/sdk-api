@@ -241,7 +241,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

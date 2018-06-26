@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinterfacealias.htm
 old-project: devinst
 ms.assetid: eb36da2a-4ff1-4f2b-abc6-9bdaf491252f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetDeviceInterfaceAlias, SetupDiGetDeviceInterfaceAlias function [Device and Driver Installation], devinst.setupdigetdeviceinterfacealias, di-rtns_a9f0fc2b-7a4e-49fc-afc5-723a0120a5d7.xml, setupapi/SetupDiGetDeviceInterfaceAlias
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetDeviceInterfaceAlias function
@@ -61,7 +61,7 @@ The <b>SetupDiGetDeviceInterfaceAlias</b> function returns an alias of a specifi
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device interface for which to retrieve an alias. This handle is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>.
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface for which to retrieve an alias. This handle is typically returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551069">SetupDiGetClassDevs</a>.
 
 
 ### -param DeviceInterfaceData [in]

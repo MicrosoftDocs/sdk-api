@@ -7,7 +7,7 @@ old-location: shell\IColumnManager_SetColumnInfo.htm
 old-project: shell
 ms.assetid: 3a52d634-0ff0-4dbc-81cb-90cdffe4f6ae
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IColumnManager interface [Windows Shell],SetColumnInfo method, IColumnManager.SetColumnInfo, IColumnManager::SetColumnInfo, SetColumnInfo, SetColumnInfo method [Windows Shell], SetColumnInfo method [Windows Shell],IColumnManager interface, shell.IColumnManager_SetColumnInfo, shell_IColumnManager_SetColumnInfo, shobjidl_core/IColumnManager::SetColumnInfo
 ms.prod: windows
 ms.technology: windows-sdk

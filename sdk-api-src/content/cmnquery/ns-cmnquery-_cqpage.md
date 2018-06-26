@@ -90,7 +90,7 @@ Contains the identifier of the dialog resource in <b>hInstance</b>  used for the
 
 ### -field pDlgProc
 
-Pointer to the dialog box procedure. For more information, see <a href="https://www.bing.com/search?q=DialogProc">DialogProc</a>.
+Pointer to the dialog box procedure. For more information, see <a href="_win32_dialogproc_cpp">DialogProc</a>.
 
 
 ### -field lParam
@@ -111,7 +111,7 @@ An extension-defined 32-bit value passed in the <b>lParam</b> member of the <b>C
 
 
 
-<a href="https://www.bing.com/search?q=DialogProc">DialogProc</a>
+<a href="_win32_dialogproc_cpp">DialogProc</a>
 
 
 

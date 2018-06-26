@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -69,7 +69,7 @@ Retrieves data from the clipboard in a specified format. The clipboard must have
 
 Type: <b>UINT</b>
 
-A clipboard format. For a description of the standard clipboard formats, see <a href="https://www.bing.com/search?q=Standard+Clipboard+Formats">Standard Clipboard Formats</a>.
+A clipboard format. For a description of the standard clipboard formats, see <a href="clipboard_formats.htm">Standard Clipboard Formats</a>.
 
 
 ## -returns
@@ -95,12 +95,12 @@ An application can enumerate the available formats in advance by using the <a hr
 
 The clipboard controls the handle that the <b>GetClipboardData</b> function returns, not the application. The application should copy the data immediately. The application must not free the handle nor leave it locked. The application must not use the handle after the <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> or <a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a> function is called, or after the <a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a> function is called with the same clipboard format. 
 
-The system performs implicit data format conversions between certain clipboard formats when an application calls the <b>GetClipboardData</b> function. For example, if the <a href="https://www.bing.com/search?q=CF_OEMTEXT">CF_OEMTEXT</a> format is on the clipboard, a window can retrieve data in the <a href="https://www.bing.com/search?q=CF_TEXT">CF_TEXT</a> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="https://www.bing.com/search?q=Synthesized+Clipboard+Formats">Synthesized Clipboard Formats</a>. 
+The system performs implicit data format conversions between certain clipboard formats when an application calls the <b>GetClipboardData</b> function. For example, if the <a href="standard_clipboard_formats.htm">CF_OEMTEXT</a> format is on the clipboard, a window can retrieve data in the <a href="standard_clipboard_formats.htm">CF_TEXT</a> format. The format on the clipboard is converted to the requested format on demand. For more information, see <a href="clipboard_formats.htm">Synthesized Clipboard Formats</a>. 
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Copying+Information+to+the+Clipboard">Copying Information to the Clipboard</a>.
+For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 

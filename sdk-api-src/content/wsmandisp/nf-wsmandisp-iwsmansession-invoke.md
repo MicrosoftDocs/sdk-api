@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_invoke.htm
 old-project: WinRM
 ms.assetid: 3fdf769c-dc7e-4089-b781-be288855d5c1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Invoke method, IWSManSession.Invoke, IWSManSession::Invoke, Invoke, Invoke method [Windows Remote Management], Invoke method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_invoke, wsmandisp/IWSManSession::Invoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,10 +71,10 @@ The identifier of the resource to invoke a method.
 This parameter can contain one of the following:
 
 <ul>
-<li>URI with or without <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">selectors</a>.</li>
+<li>URI with or without <a href="windows_remote_management_glossary.htm">selectors</a>.</li>
 <li>
-<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object which may contain selectors,  <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">fragments</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/dn965779">options</a>.</li>
-<li><a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
+<a href="https://msdn.microsoft.com/0904b7eb-d4ce-46a7-bf58-452e7c0d41e9">ResourceLocator</a> object which may contain selectors,  <a href="windows_remote_management_glossary.htm">fragments</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/dn965779">options</a>.</li>
+<li><a href="windows_remote_management_glossary.htm">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
 </ul>
 
 ### -param parameters [in]

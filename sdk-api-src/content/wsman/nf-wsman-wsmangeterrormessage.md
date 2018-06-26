@@ -7,7 +7,7 @@ old-location: winrm\wsmangeterrormessage.htm
 old-project: WinRM
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
 ms.prod: windows
 ms.technology: windows-sdk

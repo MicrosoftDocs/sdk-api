@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_item.htm
 old-project: tablet
 ms.assetid: ecffbdf0-4b1c-46de-bc4c-c44812dae27a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Item method, IInkStrokes.Item, IInkStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkStrokes interface, ecffbdf0-4b1c-46de-bc4c-c44812dae27a, msinkaut/IInkStrokes::Item, tablet.inkstrokes_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -232,7 +232,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChangeArray::InsertAt
@@ -68,7 +68,7 @@ The index at which the change is inserted.
 
 ### -param ppropChange [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>*</b>
+Type: <b><a href="shell.IPropertyChange">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change.
 

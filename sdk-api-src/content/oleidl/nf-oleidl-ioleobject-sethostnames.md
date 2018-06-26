@@ -7,7 +7,7 @@ old-location: com\ioleobject_sethostnames.htm
 old-project: com
 ms.assetid: 38cccb3d-e198-4996-991b-6c56451d25e3
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleObject interface [COM],SetHostNames method, IOleObject.SetHostNames, IOleObject::SetHostNames, SetHostNames, SetHostNames method [COM], SetHostNames method [COM],IOleObject interface, _ole_ioleobject_sethostnames, com.ioleobject_sethostnames, oleidl/IOleObject::SetHostNames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleObject::SetHostNames

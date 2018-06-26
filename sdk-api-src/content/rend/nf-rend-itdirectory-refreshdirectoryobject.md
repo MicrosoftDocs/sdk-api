@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITDirectory::RefreshDirectoryObject
@@ -57,7 +57,7 @@ provides similar functionality.]
 
 The 
 <b>RefreshDirectoryObject</b> method refreshes the 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">time to live</a> (TTL) for an object on the server. Only applies to dynamic servers.
+<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) for an object on the server. Only applies to dynamic servers.
 
 
 ## -parameters

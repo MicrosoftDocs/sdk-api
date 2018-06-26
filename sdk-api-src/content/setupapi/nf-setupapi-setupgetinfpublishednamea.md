@@ -7,7 +7,7 @@ old-location: devinst\setupgetinfpublishedname.htm
 old-project: devinst
 ms.assetid: 0379f8f4-9761-4216-b4d5-5752b6dc33a5
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupGetInfPublishedName, SetupGetInfPublishedName function [Device and Driver Installation], SetupGetInfPublishedNameA, SetupGetInfPublishedNameW, devinst.setupgetinfpublishedname, setup-ref_c380d9fc-bc1c-4302-ba2b-b0bb7fde8d87.xml, setupapi/SetupGetInfPublishedName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupGetInfPublishedNameA function
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://www.bing.com/search?q=INF+file">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
+The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="devinst.overview_of_inf_files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
 
 
 ## -parameters

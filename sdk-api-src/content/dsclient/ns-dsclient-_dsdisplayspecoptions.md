@@ -100,13 +100,13 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 #### "admin"
 
-The extension was obtained from the <a href="https://docs.microsoft.com/windows/desktop//ADSchema/a-adminpropertypages">adminPropertyPages</a> attribute.
+The extension was obtained from the <a href="ad.win2k_a_adminpropertypages">adminPropertyPages</a> attribute.
 
 
 
 #### "shell"
 
-The extension was obtained from the <a href="https://docs.microsoft.com/windows/desktop//ADSchema/a-shellpropertypages">shellPropertyPages</a> attribute.
+The extension was obtained from the <a href="ad.win2k_a_shellpropertypages">shellPropertyPages</a> attribute.
 
 The following example shows how to use this member.
 

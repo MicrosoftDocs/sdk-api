@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_scrollrect.htm
 old-project: com
 ms.assetid: 1eeb1aee-8cd4-4d27-8b6f-f76305bbe69f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ScrollRect method, IOleInPlaceSiteWindowless.ScrollRect, IOleInPlaceSiteWindowless::ScrollRect, ScrollRect, ScrollRect method [COM], ScrollRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_scrollrect, com.ioleinplacesitewindowless_scrollrect, ocidl/IOleInPlaceSiteWindowless::ScrollRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceSiteWindowless::ScrollRect
@@ -99,7 +99,7 @@ Containers can implement this method in a variety of ways. However, all of them 
 
 The simplest way to implement this method consists in simply redrawing the rectangle to scroll.
 
-An added refinement to this simple implementation is to use the <a href="https://www.bing.com/search?q=ScrollDC">ScrollDC</a> function when the object requesting the scroll is opaque, the object has a solid background, and there are no overlapping objects.
+An added refinement to this simple implementation is to use the <a href="_win32_ScrollDC_cpp">ScrollDC</a> function when the object requesting the scroll is opaque, the object has a solid background, and there are no overlapping objects.
 
 More sophisticated implementations can use the following procedure:
 
@@ -107,7 +107,7 @@ More sophisticated implementations can use the following procedure:
 <li>Check whether the object is opaque and has a solid background, using <a href="https://msdn.microsoft.com/cf8ec90c-07bb-4f60-93c9-4cee3fb5a056">IViewObjectEx::GetViewStatus</a>. If not, simply invalidate the rectangle to scroll. An added refinement is to check whether the scrolling rectangle is entirely in the opaque region of a partially transparent object.</li>
 <li>Get the window device context.</li>
 <li>Clip out the opaque parts of any overlapping object returned by <a href="https://msdn.microsoft.com/ff060cd2-c7e4-4c12-842a-663415b80c17">IViewObjectEx::GetRect</a>.</li>
-<li>Finally, call the <a href="https://www.bing.com/search?q=ScrollDC">ScrollDC</a> function.</li>
+<li>Finally, call the <a href="_win32_ScrollDC_cpp">ScrollDC</a> function.</li>
 <li>Redraw the previously invalidated transparent parts of any overlapping object.</li>
 </ul>
 Regardless of the scrolling and clipping rectangle, only pixels contained in the object's site rectangle will be painted. The area uncovered by the scrolling operation is invalidated and redrawn immediately, before this method returns.

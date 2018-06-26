@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # peer_event_watchlist_changed_data_tag structure
@@ -76,7 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e7085
 
 The PEER_EVENT_WATCHLIST_CHANGED event is raised when the watch list is changed. The watch list is composed of the contacts that have <b>fWatch</b> set to true. If a new contact is added with <b>fWatch</b> set to true, or if an existing contact's <b>fWatch</b> is changed to true, the <b>changeType</b> member is set to PEER_CHANGE_ADDED. If <b>fWatch</b> is changed to false or if a contact is deleted, <b>changeType</b> is set to PEER_CHANGE_DELETED. 
 
-The p2phost.exe service must running to receive this event. P2phost.exe is launched when an application calls <a href="https://msdn.microsoft.com/db7daf08-8d79-493f-8df5-172dae498df0">PeerCollabRegisterEvent</a> on this event.
+The p2phost.exe service must running to receive this event. P2phost.exe is launched when an application calls <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a> on this event.
 
 
 

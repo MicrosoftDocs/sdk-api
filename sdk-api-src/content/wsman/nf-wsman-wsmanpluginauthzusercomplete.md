@@ -7,7 +7,7 @@ old-location: winrm\wsmanpluginauthzusercomplete.htm
 old-project: WinRM
 ms.assetid: f8897936-91fa-4b91-a13a-0ef0a52d780c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManPluginAuthzUserComplete, WSManPluginAuthzUserComplete function [Windows Remote Management], winrm.wsmanpluginauthzusercomplete, wsman/WSManPluginAuthzUserComplete
 ms.prod: windows
 ms.technology: windows-sdk

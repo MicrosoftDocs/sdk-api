@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_jobid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xwk.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxJob object [Fax Service],JobId property, FaxJob.JobId, IFaxJob.get_JobId, IFaxJob::get_JobId, JobId property [Fax Service], JobId property [Fax Service],FaxJob object, _mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid_vb, get_JobId
 ms.prod: windows
 ms.technology: windows-sdk

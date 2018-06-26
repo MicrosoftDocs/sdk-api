@@ -89,39 +89,6 @@ Sets an internal pointer to <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b
 </table> 
 
 
-## -members
-
-The <b>MethodContext</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc68eddb-7991-42bd-bc0e-4f5d890ca468">GetStatusObject</a>
-</td>
-<td align="left" width="63%">
-Gets an internal pointer to <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fe1f1af-61a9-490b-95e0-c3a3efe2392d">SetStatusObject</a>
-</td>
-<td align="left" width="63%">
-Sets an internal pointer to <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
-
-</td>
-</tr>
-</table>Gets an internal pointer to <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
-
-Sets an internal pointer to <a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
-
- 
-
-
 ## -remarks
 
 

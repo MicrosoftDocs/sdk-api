@@ -7,7 +7,7 @@ old-location: shell\GetFileNameFromBrowse.htm
 old-project: shell
 ms.assetid: 1f075051-18c8-4ec2-b010-f983ba2d3303
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetFileNameFromBrowse, GetFileNameFromBrowse function [Windows Shell], _win32_GetFileNameFromBrowse, shell.GetFileNameFromBrowse, shlobj_core/GetFileNameFromBrowse
 ms.prod: windows
 ms.technology: windows-sdk

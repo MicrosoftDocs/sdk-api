@@ -7,7 +7,7 @@ old-location: gpmc\igpmstartergpo_delete.htm
 old-project: GPMC
 ms.assetid: 1392326e-68f0-4d55-8a6b-3abbb60b51ee
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Delete method, IGPMStarterGPO.Delete, IGPMStarterGPO::Delete, gpmc.igpmstartergpo_delete, gpmgmt/IGPMStarterGPO::Delete
 ms.prod: windows
 ms.technology: windows-sdk

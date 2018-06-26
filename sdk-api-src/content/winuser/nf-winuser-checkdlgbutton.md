@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -103,7 +103,7 @@ Sets the button state to checked.
 </dl>
 </td>
 <td width="60%">
-Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="https://www.bing.com/search?q=BS_3STATE">BS_3STATE</a> or <a href="https://www.bing.com/search?q=BS_AUTO3STATE">BS_AUTO3STATE</a> style.
+Sets the button state to grayed, indicating an indeterminate state. Use this value only if the button has the <a href="Button_Styles.htm">BS_3STATE</a> or <a href="Button_Styles.htm">BS_AUTO3STATE</a> style.
 
 </td>
 </tr>

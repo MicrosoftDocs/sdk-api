@@ -730,7 +730,7 @@ Errors from the called function
 
 Properties are not stored inside a certificate. Typically, they are associated with a certificate after the certificate response is received and then saved with the certificate in the store. For security reasons, we recommend that you validate property values before saving  them and that you save only informational properties such as the <b>CERT_FRIENDLY_NAME_PROP_ID</b> value in user stores. All other property types should be saved in local computer stores.
 
-Your code can use a macro to evaluate the class of hash for a certificate context. For more information, see <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
+Your code can use a macro to evaluate the class of hash for a certificate context. For more information, see <a href="certsetcertificatecontextproperty.htm">CertSetCertificateContextProperty</a>.
 
 
 #### Examples
@@ -768,7 +768,7 @@ For examples that use this function, see
 
 
 
-<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

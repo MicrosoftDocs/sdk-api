@@ -7,7 +7,7 @@ old-location: shell\FolderItems3_Object.htm
 old-project: shell
 ms.assetid: e8ffe325-e6ae-4fa0-9824-22721c2d97c8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FolderItems3, FolderItems3 object [Windows Shell], FolderItems3 object [Windows Shell],described, _win32_FolderItems3_Object, shell.FolderItems3_Object, shldisp/FolderItems3
 ms.prod: windows
 ms.technology: windows-sdk

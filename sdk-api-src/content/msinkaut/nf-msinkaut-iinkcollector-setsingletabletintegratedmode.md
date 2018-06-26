@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_setsingletabletintegratedmode.htm
 old-project: tablet
 ms.assetid: 96787996-c0fd-455f-952e-90ddc8640253
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkCollector interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkCollector.SetSingleTabletIntegratedMode, IInkCollector::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetSingleTabletIntegratedMode, tablet.inkcollector_setsingletabletintegratedmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ When this method is called, the <a href="https://msdn.microsoft.com/6a939fd0-1e0
 
 
 
-<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
+<a href="tablet.iinkcollector">IInkCollector</a>
 
 
 

@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -242,7 +242,7 @@ If
 
 #### Examples
 
-For examples, see the following topics: <a href="https://www.bing.com/search?q=Creating+a+Directory+Listing+in+a+Single-selection+List+Box">Creating a Directory Listing in a Single-selection List Box</a> and <a href="https://www.bing.com/search?q=Creating+a+Multiple-selection+List+Box">Creating a Multiple-selection List Box</a>. 
+For examples, see the following topics: <a href="Using_List_Boxes.htm">Creating a Directory Listing in a Single-selection List Box</a> and <a href="Using_List_Boxes.htm">Creating a Multiple-selection List Box</a>. 
 
 <div class="code"></div>
 

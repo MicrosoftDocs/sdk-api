@@ -7,7 +7,7 @@ old-location: setup\msigetdatabasestate.htm
 old-project: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
  
 
  

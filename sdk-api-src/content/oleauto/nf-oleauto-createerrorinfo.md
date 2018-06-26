@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CreateErrorInfo function
@@ -110,7 +110,7 @@ Could not create the error object.
 
 
 
-This function returns a pointer to a generic error object, which you can use with <b>QueryInterface</b> on <a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a> to set its contents. You can then pass the resulting object to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>. The generic error object implements both <b>ICreateErrorInfo</b> and <a href="https://msdn.microsoft.com/4dda6909-2d9a-4727-ae0c-b5f90dcfa447">IErrorInfo</a>.
+This function returns a pointer to a generic error object, which you can use with <b>QueryInterface</b> on <a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a> to set its contents. You can then pass the resulting object to <a href="8EAACFAC-FC37-4EAA-870B-10B99D598D66">SetErrorInfo</a>. The generic error object implements both <b>ICreateErrorInfo</b> and <a href="https://msdn.microsoft.com/4dda6909-2d9a-4727-ae0c-b5f90dcfa447">IErrorInfo</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_copyto.htm
 old-project: GPMC
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],GPMGPO object, CopyTo method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],CopyTo method, IGPMGPO interface [GPMC],CopyTo method, IGPMGPO.CopyTo, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
 ms.prod: windows
 ms.technology: windows-sdk

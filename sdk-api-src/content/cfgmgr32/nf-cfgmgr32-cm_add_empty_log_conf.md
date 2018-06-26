@@ -7,7 +7,7 @@ old-location: devinst\cm_add_empty_log_conf.htm
 old-project: devinst
 ms.assetid: 9de0b04d-96be-4c93-b7af-09200fdcf807
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Add_Empty_Log_Conf, CM_Add_Empty_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Add_Empty_Log_Conf, cfgmgrfn_91cca29b-dad4-43a7-882c-0cc465811429.xml, devinst.cm_add_empty_log_conf
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Item
 title: IFaxOutboundRoutingGroups::get_Item
 author: windows-sdk-content
-description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.
-old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm
+description: The Item property returns a FaxOutboundRoutingGroup object from the FaxOutboundRoutingGroups collection.
+old-location: fax\_mfax_faxoutboundroutinggroups_item.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_8l9p_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_8l9p.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get_Item method, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, _mfax_faxoutboundroutinggroups.item_cpp, fax._mfax_faxoutboundroutinggroups_item_cpp, faxcomex/IFaxOutboundRoutingGroups::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingGroups interface
+ms.date: 06/12/2018
+ms.keywords: FaxOutboundRoutingGroups object [Fax Service],Item property, FaxOutboundRoutingGroups.Item, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutboundRoutingGroups object, _mfax_faxoutboundroutinggroups.item, fax._mfax_faxoutboundroutinggroups_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutboundRoutingGroups.Item
  - IFaxOutboundRoutingGroups.get_Item
 product: Windows
 targetos: Windows
@@ -51,44 +52,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroups::get_Item</b> method returns a <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface from the collection.
+The Item property returns a <a href="https://msdn.microsoft.com/894a58b7-3a5f-4723-abcb-764567e49e76">FaxOutboundRoutingGroup</a> object from the <a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a> collection.
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param vIndex [in]
-
-Type: <b>VARIANT</b>
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">Variant</a> that specifies the item to retrieve from the collection. 
-
-
-
-
-If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of the item to retrieve from the collection. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a unique name that identifies the outbound routing group to retrieve. Other types are not supported.
-
-
-
-### -param pFaxOutboundRoutingGroup [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>**</b>
-
-An address of a pointer that receives the <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 
 ## -remarks
@@ -104,6 +73,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/799a034c-c807-428c-8536-bc68dce5cd8e">FaxOutboundRoutingGroups</a>
 
 
 

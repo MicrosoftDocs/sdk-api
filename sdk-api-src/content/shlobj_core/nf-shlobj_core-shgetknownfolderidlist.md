@@ -7,7 +7,7 @@ old-location: shell\SHGetKnownFolderIDList.htm
 old-project: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
 ms.prod: windows
 ms.technology: windows-sdk

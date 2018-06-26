@@ -7,7 +7,7 @@ old-location: shell\IFileSystemBindData2_SetFileID.htm
 old-project: shell
 ms.assetid: d3da2a22-cd45-4f3f-afcc-183a20f60f15
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetFileID method, IFileSystemBindData2.SetFileID, IFileSystemBindData2::SetFileID, SetFileID, SetFileID method [Windows Shell], SetFileID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetFileID, shell.IFileSystemBindData2_SetFileID, shobjidl_core/IFileSystemBindData2::SetFileID
 ms.prod: windows
 ms.technology: windows-sdk

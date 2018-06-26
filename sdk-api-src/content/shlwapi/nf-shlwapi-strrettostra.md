@@ -7,7 +7,7 @@ old-location: shell\StrRetToStr.htm
 old-project: shell
 ms.assetid: 03b0dffb-8ef7-41da-9773-81ed55275802
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, StrRetToStrW, _win32_StrRetToStr, shell.StrRetToStr, shlwapi/StrRetToStr, shlwapi/StrRetToStrA, shlwapi/StrRetToStrW
 ms.prod: windows
 ms.technology: windows-sdk

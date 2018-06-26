@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_availableoperations_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxOutgoingJob object, FaxOutgoingJob object [Fax Service],AvailableOperations property, FaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_availableoperations_vb, get_AvailableOperations
 ms.prod: windows
 ms.technology: windows-sdk

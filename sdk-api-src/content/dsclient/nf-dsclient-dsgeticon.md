@@ -112,7 +112,7 @@ Contains the desired height, in pixels, of the icon. This function retrieves the
 
 
 
-Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="https://www.bing.com/search?q=DestroyIcon">DestroyIcon</a>.
+Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="_win32_destroyicon_cpp">DestroyIcon</a>.
 
 
 
@@ -122,7 +122,7 @@ Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller 
 
 
 
-<a href="https://www.bing.com/search?q=DestroyIcon">DestroyIcon</a>
+<a href="_win32_destroyicon_cpp">DestroyIcon</a>
 
 
 

@@ -87,10 +87,10 @@ The miter length is the distance from the intersection of the line walls on the 
 
 When using <b><b>LineJoinMiter</b></b> and the actual ratio exceeds the miter limit, the corner is clipped perpendicular to the miter at a distance from the inner corner that is the product of the miter limit and the pen width. 
 
-<img alt="Illustration showing two lines with a corner that is clipped: the outside walls of the lines do not meet at a point" src="./images/linejoinmiter.png"/>
+<img alt="Illustration showing two lines with a corner that is clipped: the outside walls of the lines do not meet at a point" src="images/linejoinmiter.png"/>
 When using <b><b>LineJoinMiterClipped</b></b> and the miter limit is exceeded, the join is drawn as if its type were <b><b>LineJoinBevel</b></b>; that is, when the line walls on the inside of the join meet, then a joining line is drawn between the line walls on the outside of the join.
 
-<img alt="Illustration showing two lines with a corner that is beveled" src="./images/linejoinbevel.png"/>
+<img alt="Illustration showing two lines with a corner that is beveled" src="images/linejoinbevel.png"/>
 
 
 

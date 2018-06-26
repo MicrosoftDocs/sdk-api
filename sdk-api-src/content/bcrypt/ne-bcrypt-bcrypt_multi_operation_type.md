@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="https://msdn.microsoft.com/5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5">BCryptProcessMultiOperations</a> function.
+The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a> function.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ A hash operation.
 
 
 
-<a href="https://msdn.microsoft.com/5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5">BCryptProcessMultiOperations</a>
+<a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a>
  
 
  

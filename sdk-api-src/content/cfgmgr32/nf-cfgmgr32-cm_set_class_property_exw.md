@@ -7,7 +7,7 @@ old-location: devinst\cm_set_class_property_exw.htm
 old-project: devinst
 ms.assetid: A2232661-DA67-40BB-81B9-0BC7851A6E25
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Set_Class_Property_ExW, CM_Set_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_Class_Property_ExW, devinst.cm_set_class_property_exw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Set_Class_Property_ExW</b> is part of the <a href="https://www.bing.com/search?q=Unified+Device+Property+Model">Unified Device Property Model</a>.
+<b>CM_Set_Class_Property_ExW</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

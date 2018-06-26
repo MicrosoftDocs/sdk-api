@@ -81,7 +81,7 @@ Returns S_OK upon successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/239E5731-4425-46D4-AFEC-F3E59258B1DF">IMFNetCrossOriginSupport</a>
+<a href="mf.imfnetcrossoriginsupport">IMFNetCrossOriginSupport</a>
  
 
  

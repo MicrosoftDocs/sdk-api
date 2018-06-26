@@ -7,7 +7,7 @@ old-location: com\cogetstandardmarshal.htm
 old-project: com
 ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
 ms.prod: windows
 ms.technology: windows-sdk

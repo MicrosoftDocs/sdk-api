@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_SetThumbnailTooltip.htm
 old-project: shell
 ms.assetid: 73b5b9de-4876-4cac-9e58-d2e7559724f7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailTooltip method, ITaskbarList3.SetThumbnailTooltip, ITaskbarList3::SetThumbnailTooltip, SetThumbnailTooltip, SetThumbnailTooltip method [Windows Shell], SetThumbnailTooltip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailTooltip, shell.ITaskbarList3_SetThumbnailTooltip, shobjidl_core/ITaskbarList3::SetThumbnailTooltip
 ms.prod: windows
 ms.technology: windows-sdk

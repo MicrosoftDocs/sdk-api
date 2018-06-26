@@ -7,7 +7,7 @@ old-location: menurc\getmenuiteminfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: GetMenuItemInfo, GetMenuItemInfo function [Menus and Other Resources], GetMenuItemInfoA, GetMenuItemInfoW, _win32_GetMenuItemInfo, _win32_getmenuiteminfo_cpp, menurc.getmenuiteminfo, winui._win32_getmenuiteminfo, winuser/GetMenuItemInfo, winuser/GetMenuItemInfoA, winuser/GetMenuItemInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -79,7 +79,7 @@ TBD
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://www.bing.com/search?q=Accessing+Menu+Items+Programmatically">Accessing Menu Items Programmatically</a> for more information. 
+The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="about_menus.htm">Accessing Menu Items Programmatically</a> for more information. 
 
 
 ### -param lpmii [in, out]
@@ -127,7 +127,7 @@ If the retrieved menu item is of some other type, then <b>GetMenuItemInfo</b> se
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+Owner-Drawn+Menu+Items">Example of Owner-Drawn Menu Items</a>.
+For an example, see <a href="using_menus.htm">Example of Owner-Drawn Menu Items</a>.
 
 <div class="code"></div>
 

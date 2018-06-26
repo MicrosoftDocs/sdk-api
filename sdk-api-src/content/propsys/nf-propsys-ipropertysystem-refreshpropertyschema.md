@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertySystem::RefreshPropertySchema
@@ -107,7 +107,7 @@ Indicates calling context does not have proper privileges.
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

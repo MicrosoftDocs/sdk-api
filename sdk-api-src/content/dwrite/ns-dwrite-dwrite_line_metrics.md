@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_line_metrics.htm
 old-project: DirectWrite
 ms.assetid: cb589949-2eba-4ebb-ada4-546802fb3d01
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/11/2018
 ms.keywords: DWRITE_LINE_METRICS, DWRITE_LINE_METRICS structure [Direct Write], directwrite.dwrite_line_metrics, dwrite/DWRITE_LINE_METRICS
 ms.prod: windows
 ms.technology: windows-sdk

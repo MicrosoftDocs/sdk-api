@@ -536,7 +536,7 @@ Use the  <a href="https://msdn.microsoft.com/a9896b34-b273-4be2-bea4-0fcecdf5bca
 
 The following diagram shows the various primitive types for a geometry shader object.
 
-<img alt="Illustration of the various primitive types for a geometry shader object" border="" src="./images/D3D11_GSInputs1.png"/>
+<img alt="Illustration of the various primitive types for a geometry shader object" border="" src="images/D3D11_GSInputs1.png"/>
 
 
 

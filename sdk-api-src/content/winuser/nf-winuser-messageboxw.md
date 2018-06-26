@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -130,7 +130,7 @@ The message box contains three push buttons: <b>Abort</b>, <b>Retry</b>, and <b>
 </dl>
 </td>
 <td width="60%">
- Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="https://docs.microsoft.com/windows/desktop//shell/wm-help">WM_HELP</a> message to the owner.
+ Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="_win32_WM_HELP">WM_HELP</a> message to the owner.
 
 </td>
 </tr>
@@ -421,7 +421,7 @@ To specify other options, use one or more of the following values.
 </dl>
 </td>
 <td width="60%">
- Same as desktop of the interactive window station. For more information, see <a href="https://docs.microsoft.com/windows/desktop//winstation/window-stations">Window Stations</a>.
+ Same as desktop of the interactive window station. For more information, see <a href="_win32_Window_Stations">Window Stations</a>.
 					
                     		
 					
@@ -488,7 +488,7 @@ The caller is a service notifying the user of an event. The function displays a 
 
 If this flag is set, the <i>hWnd</i> parameter must be <b>NULL</b>. This is so that the message box can appear on a desktop other than the desktop corresponding to the <i>hWnd</i>.
 
-For information on security considerations in regard to using this flag, see <a href="https://docs.microsoft.com/windows/desktop//Services/interactive-services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
+For information on security considerations in regard to using this flag, see <a href="_win32_interactive_services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
 
 </td>
 </tr>
@@ -639,19 +639,19 @@ The following system icons can be used in a message box by setting the <i>uType<
 <th>Flag values</th>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="./images/MB_ICONHAND.png"/></td>
+<td><img alt="Icon for MB_ICONHAND, MB_ICONSTOP, and MB_ICONERROR" src="images/MB_ICONHAND.png"/></td>
 <td><b>MB_ICONHAND</b>, <b>MB_ICONSTOP</b>, or <b>MB_ICONERROR</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONQUESTION" src="./images/MB_ICONQUESTION.png"/></td>
+<td><img alt="Icon for MB_ICONQUESTION" src="images/MB_ICONQUESTION.png"/></td>
 <td><b>MB_ICONQUESTION</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="./images/MB_ICONEXCLAMATION.png"/></td>
+<td><img alt="Icon for MB_ICONEXCLAMATION and MB_ICONWARNING" src="images/MB_ICONEXCLAMATION.png"/></td>
 <td><b>MB_ICONEXCLAMATION</b> or <b>MB_ICONWARNING</b></td>
 </tr>
 <tr>
-<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="./images/MB_ICONASTERISK.png"/></td>
+<td><img alt="Icon for MB_ICONASTERISK and MB_ICONINFORMATION" src="images/MB_ICONASTERISK.png"/></td>
 <td><b>MB_ICONASTERISK</b> or <b>MB_ICONINFORMATION</b></td>
 </tr>
 </table>
@@ -703,9 +703,9 @@ In the following example, the application displays a message box that prompts th
 </table></span></div>
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="./images/MessageBox_02.png"/>
+<img alt="Message box" src="images/MessageBox_02.png"/>
 
-For another message box example, see <a href="https://www.bing.com/search?q=Displaying+a+Message+Box">Displaying a Message Box</a>.
+For another message box example, see <a href="using_dialog_boxes.htm">Displaying a Message Box</a>.
 
 
 

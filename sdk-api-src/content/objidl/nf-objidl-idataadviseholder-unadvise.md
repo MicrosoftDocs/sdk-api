@@ -7,7 +7,7 @@ old-location: com\idataadviseholder_unadvise.htm
 old-project: com
 ms.assetid: baeb29fd-1dd2-4320-911d-b271b2250184
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IDataAdviseHolder interface [COM],Unadvise method, IDataAdviseHolder.Unadvise, IDataAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_unadvise, com.idataadviseholder_unadvise, objidl/IDataAdviseHolder::Unadvise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IDataAdviseHolder::Unadvise

@@ -7,7 +7,7 @@ old-location: menurc\stringcchcopyex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyex.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyEx, StringCchCopyEx function [Menus and Other Resources], StringCchCopyExA, StringCchCopyExW, _shell_StringCchCopyEx, _shell_stringcchcopyex_cpp, menurc.stringcchcopyex, strsafe/StringCchCopyEx, strsafe/StringCchCopyExA, strsafe/StringCchCopyExW, winui._shell_stringcchcopyex
 ms.prod: windows
 ms.technology: windows-sdk

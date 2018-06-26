@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_prepareforsync.htm
 old-project: shell
 ms.assetid: 82e70e75-a5d4-41b2-87c4-2a032628954d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],PrepareForSync method, ISyncMgrSynchronize.PrepareForSync, ISyncMgrSynchronize::PrepareForSync, PrepareForSync, PrepareForSync method [Windows Shell], PrepareForSync method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::PrepareForSync, shell.syncmgr_isyncmgrsynchronize_prepareforsync, syncmgr.isyncmgrsynchronize_prepareforsync
 ms.prod: windows
 ms.technology: windows-sdk

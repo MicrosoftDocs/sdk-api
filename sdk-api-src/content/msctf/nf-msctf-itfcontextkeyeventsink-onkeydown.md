@@ -60,12 +60,12 @@ req.product: GDI+ 1.1
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://www.bing.com/search?q=WM_KEYDOWN">WM_KEYDOWN</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYDOWN</a>.
 
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://www.bing.com/search?q=WM_KEYDOWN">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keyup">WM_KEYDOWN</a>.
 
 
 ### -param pfEaten [out]
@@ -110,7 +110,7 @@ The method was successful.
 
 
 
-<a href="https://www.bing.com/search?q=WM_KEYDOWN">WM_KEYDOWN</a>
+<a href="_win32_wm_keyup">WM_KEYDOWN</a>
  
 
  

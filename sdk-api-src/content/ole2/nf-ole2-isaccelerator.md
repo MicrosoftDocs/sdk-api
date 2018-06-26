@@ -7,7 +7,7 @@ old-location: com\isaccelerator.htm
 old-project: com
 ms.assetid: 2d09f81a-b422-4379-89c8-d50992ebb24c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IsAccelerator, IsAccelerator function [COM], _com_IsAccelerator, com.isaccelerator, ole2/IsAccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IsAccelerator function
@@ -92,11 +92,11 @@ If the message is for the object application, the return value is <b>TRUE</b>. I
 
 
 
-While an object is active in-place, the object always has first chance to translate the keystrokes into accelerators. If the keystroke corresponds to one of its accelerators, the object must not call the <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> function â€” even if its call to the <a href="https://www.bing.com/search?q=TranslateAccelerator">TranslateAccelerator</a> function fails. Failure to process keystrokes in this manner can lead to inconsistent behavior.
+While an object is active in-place, the object always has first chance to translate the keystrokes into accelerators. If the keystroke corresponds to one of its accelerators, the object must not call the <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> function â€” even if its call to the <a href="_win32_TranslateAccelerator_cpp">TranslateAccelerator</a> function fails. Failure to process keystrokes in this manner can lead to inconsistent behavior.
 
 If the keystroke is not one of the object's accelerators, then the object must call <a href="https://msdn.microsoft.com/c590efef-7f03-4ae6-a35f-eff2fc4da3d9">OleTranslateAccelerator</a> to let the container try its accelerator translation.
 
-The object's server can call <b>IsAccelerator</b> to determine if the accelerator message belongs to it. Some servers do accelerator translation on their own and do not call <a href="https://www.bing.com/search?q=TranslateAccelerator">TranslateAccelerator</a>. Those applications will not call <b>IsAccelerator</b>, because they already have the information.
+The object's server can call <b>IsAccelerator</b> to determine if the accelerator message belongs to it. Some servers do accelerator translation on their own and do not call <a href="_win32_TranslateAccelerator_cpp">TranslateAccelerator</a>. Those applications will not call <b>IsAccelerator</b>, because they already have the information.
 
 
 
@@ -111,7 +111,7 @@ The object's server can call <b>IsAccelerator</b> to determine if the accelerato
 
 
 
-<a href="https://www.bing.com/search?q=TranslateAccelerator">TranslateAccelerator</a>
+<a href="_win32_TranslateAccelerator_cpp">TranslateAccelerator</a>
  
 
  

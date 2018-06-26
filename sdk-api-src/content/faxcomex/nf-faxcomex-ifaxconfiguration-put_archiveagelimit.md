@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_ArchiveAgeLimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archiveagelimit.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],ArchiveAgeLimit property, FaxConfiguration.ArchiveAgeLimit, IFaxConfiguration.put_ArchiveAgeLimit, IFaxConfiguration::put_ArchiveAgeLimit, _mfax_IFaxConfiguration_ArchiveAgeLimit, fax._mfax_FaxConfiguration_ArchiveAgeLimit_vb, put_ArchiveAgeLimit
 ms.prod: windows
 ms.technology: windows-sdk

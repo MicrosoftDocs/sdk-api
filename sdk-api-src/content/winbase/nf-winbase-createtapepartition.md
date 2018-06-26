@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device where the new partition is to be created. This handle is created by using the 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 
 ### -param dwPartitionMethod [in]
@@ -338,7 +338,7 @@ Creating partitions reformats the tape. All previous information recorded on the
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

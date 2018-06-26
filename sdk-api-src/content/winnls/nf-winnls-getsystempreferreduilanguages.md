@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:winnls.GetSystemPreferredUILanguages
 title: GetSystemPreferredUILanguages function
 author: windows-sdk-content
@@ -182,7 +182,7 @@ If the MUI_MACHINE_LANGUAGE_SETTINGS flag is not set, the retrieved language lis
 <li>Each language is installed on the operating system.</li>
 <li>The list contains one entry for each language, with no duplicate entries.</li>
 </ul>
-<h3>C# Signature</h3>
+<h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChange::ApplyToPropVariant
@@ -89,11 +89,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>
+<a href="shell.IPropertyChange">IPropertyChange</a>
 
 
 
-<a href="https://www.bing.com/search?q=PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
+<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
  
 
  

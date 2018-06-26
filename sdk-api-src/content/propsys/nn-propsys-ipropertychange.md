@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChange interface
@@ -90,7 +90,7 @@ Applies a change to a property value.
 
 
 
-<a href="https://www.bing.com/search?q=PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
+<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderUserArray_GetAt.htm
 old-project: shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
 ms.prod: windows
 ms.technology: windows-sdk

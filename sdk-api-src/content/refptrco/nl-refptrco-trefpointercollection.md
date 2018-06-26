@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # TRefPointerCollection class
@@ -75,7 +75,7 @@ The <b>TRefPointerCollection</b> class is a container
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
+Adds an item to a collection and calls the <a href="_com_iunknown_addref">AddRef</a> 
      method to increment the reference count.
 
 </td>
@@ -113,7 +113,7 @@ Ends enumeration of a collection. Call this method when the enumerating operatio
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
 </td>
 <td align="left" width="63%">
-Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
+Gets next item from the list and calls the <a href="_com_iunknown_addref">AddRef</a> 
      method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
      each time.)
 
@@ -138,102 +138,6 @@ Constructs a new <b>TRefPointerCollection</b> object.
 </td>
 </tr>
 </table> 
-
-
-## -members
-
-The <b>TRefPointerCollection</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
-</td>
-<td align="left" width="63%">
-Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
-     method to increment the reference count.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f7879e8-0eeb-4768-a478-8effd4e355d3">BeginEnum</a>
-</td>
-<td align="left" width="63%">
-Begins an enumeration of a collection. Call this method with the cursor to be initialized as a parameter 
-     before enumerating the collection (REFPTRCOLLECTION_POSITION).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08f9dcc6-cb85-42aa-837b-ab8021f488c6">Empty</a>
-</td>
-<td align="left" width="63%">
-Empties out the list, releasing all held pointers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86dcfc2e-fc73-4030-a63f-5284c2123a21">EndEnum</a>
-</td>
-<td align="left" width="63%">
-Ends enumeration of a collection. Call this method when the enumerating operation is finished.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983418">GetNext</a>
-</td>
-<td align="left" width="63%">
-Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
-     method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
-     each time.)
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1">GetSize</a>
-</td>
-<td align="left" width="63%">
-Returns the number of items in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4fcfe31-49ce-434c-a6e4-cf60e0a435e6">TRefPointerCollection</a>
-</td>
-<td align="left" width="63%">
-Constructs a new <b>TRefPointerCollection</b> object.
-
-</td>
-</tr>
-</table>Adds an item to a collection and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
-     method to increment the reference count.
-
-Begins an enumeration of a collection. Call this method with the cursor to be initialized as a parameter 
-     before enumerating the collection (REFPTRCOLLECTION_POSITION).
-
-Empties out the list, releasing all held pointers.
-
-Ends enumeration of a collection. Call this method when the enumerating operation is finished.
-
-Gets next item from the list and calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> 
-     method to increment the reference count. (The user must release the pointer when done and pass in the same cursor 
-     each time.)
-
-Returns the number of items in the list.
-
-Constructs a new <b>TRefPointerCollection</b> object.
-
- 
 
 
 ## -remarks

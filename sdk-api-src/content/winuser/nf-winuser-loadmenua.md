@@ -7,7 +7,7 @@ old-location: menurc\loadmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenu.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: LoadMenu, LoadMenu function [Menus and Other Resources], LoadMenuA, LoadMenuW, _win32_LoadMenu, _win32_loadmenu_cpp, menurc.loadmenu, winui._win32_loadmenu, winuser/LoadMenu, winuser/LoadMenuA, winuser/LoadMenuW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -101,7 +101,7 @@ The <a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">De
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Displaying+a+Shortcut+Menu">Displaying a Shortcut Menu</a>
+For an example, see <a href="using_menus.htm">Displaying a Shortcut Menu</a>
 
 <div class="code"></div>
 

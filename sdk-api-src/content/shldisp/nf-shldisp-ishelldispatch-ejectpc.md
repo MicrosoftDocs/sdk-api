@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_EjectPC.htm
 old-project: shell
 ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: EjectPC, EjectPC method [Windows Shell], EjectPC method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],EjectPC method, IShellDispatch.EjectPC, IShellDispatch::EjectPC, shell.IShellDispatch_EjectPC
 ms.prod: windows
 ms.technology: windows-sdk

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_PIN_SET_POLARITY_INPUT structure
@@ -71,7 +71,7 @@ The desired polarity for the pin or channel as a <a href="https://msdn.microsoft
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

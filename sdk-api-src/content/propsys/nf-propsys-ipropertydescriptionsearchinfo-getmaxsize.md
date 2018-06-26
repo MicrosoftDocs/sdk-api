@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescriptionSearchInfo::GetMaxSize
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets the maximum size value from the property schema's <a href="https://www.bing.com/search?q=searchInfo">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets the maximum size value from the property schema's <a href="https://www.bing
 
 Type: <b>UINT*</b>
 
-Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="https://www.bing.com/search?q=searchInfo">searchInfo</a> element. The default is:
+Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="shell.propdesc_schema_searchInfo">searchInfo</a> element. The default is:
 
                     
 

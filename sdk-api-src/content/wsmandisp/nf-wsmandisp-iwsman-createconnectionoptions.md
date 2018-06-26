@@ -7,7 +7,7 @@ old-location: winrm\iwsman_createconnectionoptions.htm
 old-project: WinRM
 ms.assetid: e24813cb-b996-4712-803b-360c9bcfdee3
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: CreateConnectionOptions, CreateConnectionOptions method [Windows Remote Management], CreateConnectionOptions method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateConnectionOptions method, IWSMan.CreateConnectionOptions, IWSMan::CreateConnectionOptions, winrm.iwsman_createconnectionoptions, wsmandisp/IWSMan::CreateConnectionOptions
 ms.prod: windows
 ms.technology: windows-sdk

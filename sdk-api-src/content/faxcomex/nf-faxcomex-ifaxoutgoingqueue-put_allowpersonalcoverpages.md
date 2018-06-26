@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_allowpersonalcoverpages_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5cc3.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AllowPersonalCoverPages property, FaxOutgoingQueue.AllowPersonalCoverPages, IFaxOutgoingQueue.put_AllowPersonalCoverPages, IFaxOutgoingQueue::put_AllowPersonalCoverPages, _mfax_faxoutgoingqueue.allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages_vb, put_AllowPersonalCoverPages
 ms.prod: windows
 ms.technology: windows-sdk

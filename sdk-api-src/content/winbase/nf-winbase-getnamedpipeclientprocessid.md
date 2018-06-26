@@ -7,7 +7,7 @@ old-location: base\getnamedpipeclientprocessid.htm
 old-project: ipc
 ms.assetid: 7001eb89-3d91-44e3-b245-b19e8ab5f9fe
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: GetNamedPipeClientProcessId, GetNamedPipeClientProcessId function, base.getnamedpipeclientprocessid, winbase/GetNamedPipeClientProcessId
 ms.prod: windows
 ms.technology: windows-sdk

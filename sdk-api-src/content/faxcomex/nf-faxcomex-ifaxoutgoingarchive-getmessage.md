@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutgoingArchive.GetMessage
 title: IFaxOutgoingArchive::GetMessage
 author: windows-sdk-content
-description: The IFaxOutgoingArchive::GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.
-old-location: fax\_mfax_faxoutgoingarchive_getmessage_cpp.htm
+description: The GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.
+old-location: fax\_mfax_faxoutgoingarchive_getmessage.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_7did_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_7did.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessage method, IFaxOutgoingArchive.GetMessage, IFaxOutgoingArchive::GetMessage, _mfax_faxoutgoingarchive.getmessage_cpp, fax._mfax_faxoutgoingarchive_getmessage_cpp, faxcomex/IFaxOutgoingArchive::GetMessage
+ms.date: 06/12/2018
+ms.keywords: FaxOutgoingArchive object [Fax Service],GetMessage method, FaxOutgoingArchive.GetMessage, GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],FaxOutgoingArchive object, IFaxOutgoingArchive.GetMessage, IFaxOutgoingArchive::GetMessage, _mfax_faxoutgoingarchive.getmessage, fax._mfax_faxoutgoingarchive_getmessage
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutgoingArchive.GetMessage
  - IFaxOutgoingArchive.GetMessage
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingArchive::GetMessage</b> method returns a fax message from the archive of outbound faxes by using the fax message ID.
+The <b>GetMessage</b> method returns a fax message from the archive of outbound faxes by using the fax message ID.
 
 
 ## -parameters
@@ -61,25 +62,25 @@ The <b>IFaxOutgoingArchive::GetMessage</b> method returns a fax message from the
 
 ### -param bstrMessageId
 
-Type: <b>BSTR</b>
+Type: <b>String</b>
 
 Specifies a null-terminated string that contains the message ID of the fax to retrieve from the archive of outbound faxes.
 
 
-### -param pFaxOutgoingMessage [out, retval]
+### -param pFaxOutgoingMessage
 
-Type: <b><a href="https://msdn.microsoft.com/7423ccd1-5eb6-402f-99fb-2cbed386450a">IFaxOutgoingMessage</a>**</b>
 
-Address of a pointer that receives a <a href="https://msdn.microsoft.com/7423ccd1-5eb6-402f-99fb-2cbed386450a">IFaxOutgoingMessage</a> interface.
+
+
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a> object.
 
 
 

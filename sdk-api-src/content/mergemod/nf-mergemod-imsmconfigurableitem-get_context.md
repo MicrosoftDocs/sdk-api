@@ -2,13 +2,13 @@
 UID: NF:mergemod.IMsmConfigurableItem.get_Context
 title: IMsmConfigurableItem::get_Context
 author: windows-sdk-content
-description: The get_Context method retrieves the Context property of the ConfigurableItem object.
-old-location: setup\imsmconfigurableitem_get_context.htm
+description: The Context property returns the value from the Context column of the ModuleConfiguration table.
+old-location: setup\configurableitem_context.htm
 old-project: Msi
-ms.assetid: 90aa0ee2-a7eb-464c-8a8f-ed4bdf46990e
+ms.assetid: 27b94142-81cb-4ea7-aa73-c359cb50ce71
 ms.author: windowssdkdev
-ms.date: 05/29/2018
-ms.keywords: IMsmConfigurableItem interface,get_Context method, IMsmConfigurableItem.get_Context, IMsmConfigurableItem::get_Context, _msi_get_context_function, get_Context, get_Context method, get_Context method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Context, setup.imsmconfigurableitem_get_context
+ms.date: 06/08/2018
+ms.keywords: ConfigurableItem object,Context property, ConfigurableItem.Context, Context property, Context property,ConfigurableItem object, IMsmConfigurableItem.get_Context, IMsmConfigurableItem::get_Context, _msi_context_property, get_Context, setup.configurableitem_context
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
+ - ConfigurableItem.Context
  - IMsmConfigurableItem.get_Context
 product: Windows
 targetos: Windows
@@ -52,112 +53,11 @@ req.product: GDI+ 1.1
 
 
 The 
-<b>get_Context</b> method retrieves the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">Context</a> property of the 
-<a href="https://msdn.microsoft.com/bbd0d9bc-a463-4cd8-93ee-963dcee8efa6">ConfigurableItem</a> object.
+<b>Context</b> property returns the value from the Context column of the 
+<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>.
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param Context [out]
-
-A pointer to a location in memory with the context of a configurable item listed in the context column of the 
-<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer needed.
-
-
-## -returns
-
-
-
-This method can return one of these values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Invalid argument.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-No module is open.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Out of memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_FUNCTION_FAILED as HRESULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE as HRESULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
- 
-
- 
 

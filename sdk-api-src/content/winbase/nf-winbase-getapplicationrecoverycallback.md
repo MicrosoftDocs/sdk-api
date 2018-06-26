@@ -1,0 +1,137 @@
+---
+UID: NF:winbase.GetApplicationRecoveryCallback
+title: GetApplicationRecoveryCallback function
+author: windows-sdk-content
+description: Retrieves a pointer to the callback routine registered for the specified process. The address returned is in the virtual address space of the process.
+old-location: recovery\getapplicationrecoverycallback.htm
+old-project: Recovery
+ms.assetid: 974147de-1249-4062-a492-4db9646043c6
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetApplicationRecoveryCallback, GetApplicationRecoveryCallback function [Recovery], base.getapplicationrecoverycallback, recovery.getapplicationrecoverycallback, winbase/GetApplicationRecoveryCallback
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winbase.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: PRIORITY_HINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - GetApplicationRecoveryCallback
+product: Windows
+targetos: Windows
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# GetApplicationRecoveryCallback function
+
+
+## -description
+
+
+Retrieves  a pointer to the callback routine registered for the specified process. The address returned is in the virtual address space of the process.
+
+
+## -parameters
+
+
+
+
+### -param hProcess [in]
+
+A handle to the process. This handle must have the PROCESS_VM_READ access right.
+
+
+### -param pRecoveryCallback [out]
+
+A pointer to the recovery callback function. For more information, see <a href="https://msdn.microsoft.com/573b1adb-9d9e-4a58-8d02-2addb93626da">ApplicationRecoveryCallback</a>.
+
+
+### -param ppvParameter [out]
+
+A pointer to the callback parameter.
+
+
+### -param pdwPingInterval [out]
+
+The recovery ping interval, in 100-nanosecond intervals.
+
+
+### -param pdwFlags [out]
+
+Reserved for future use.
+
+
+## -returns
+
+
+
+This function returns <b>S_OK</b> on success or one of the following error codes.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The application did not register for recovery.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One or more parameters are not valid.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/4ff73c2c-a941-4626-ae40-cafbe6e50644">RegisterApplicationRecoveryCallback</a>
+ 
+
+ 
+

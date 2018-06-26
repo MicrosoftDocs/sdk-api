@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_topstring.htm
 old-project: tablet
 ms.assetid: 9f345372-0208-4c78-9da7-9b334c0f281e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 9f345372-0208-4c78-9da7-9b334c0f281e, IInkRecognitionResult interface [Tablet PC],TopString property, IInkRecognitionResult.TopString, IInkRecognitionResult.get_TopString, IInkRecognitionResult::TopString, IInkRecognitionResult::get_TopString, TopString property [Tablet PC], TopString property [Tablet PC],IInkRecognitionResult interface, get_TopString, msinkaut/IInkRecognitionResult::TopString, msinkaut/IInkRecognitionResult::get_TopString, tablet.iinkrecognitionresult_topstring
 ms.prod: windows
 ms.technology: windows-sdk

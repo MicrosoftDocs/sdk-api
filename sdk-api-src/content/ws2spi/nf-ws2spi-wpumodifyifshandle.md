@@ -94,7 +94,7 @@ Pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,7 +135,7 @@ There are several limitations a layered provider should observe if it takes this
 <a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a> to make sure the Windows Sockets SPI client's access to these functions is as efficient as possible.</li>
 <li>The provider cannot rely on its 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a> and 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a> and <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table.</li>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566309">WSPRecv</a> functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="base.readfile">ReadFile</a> and <a href="base.writefile">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table.</li>
 <li>The provider cannot rely on any ability to post-process overlapped I/O using 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566316">WSPSend</a>, 
 <a href="https://msdn.microsoft.com/9e788289-6545-4e5e-9d00-f284b2337fcd">WSPSendTo</a>, 

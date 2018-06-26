@@ -7,7 +7,7 @@ old-location: com\iglobalinterfacetable_revokeinterfacefromglobal.htm
 old-project: com
 ms.assetid: 202bf33a-5827-4cbf-b977-86167a9c633f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IGlobalInterfaceTable interface [COM],RevokeInterfaceFromGlobal method, IGlobalInterfaceTable.RevokeInterfaceFromGlobal, IGlobalInterfaceTable::RevokeInterfaceFromGlobal, RevokeInterfaceFromGlobal, RevokeInterfaceFromGlobal method [COM], RevokeInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_revokeinterfacefromglobal, com.iglobalinterfacetable_revokeinterfacefromglobal, objidlbase/IGlobalInterfaceTable::RevokeInterfaceFromGlobal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IGlobalInterfaceTable::RevokeInterfaceFromGlobal

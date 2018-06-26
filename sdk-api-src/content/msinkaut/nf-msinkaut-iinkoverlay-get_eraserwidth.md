@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_eraserwidth.htm
 old-project: tablet
 ms.assetid: d6200640-cf51-44d8-be5a-9dfa5ac36dbc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EraserWidth property, IInkOverlay.EraserWidth, IInkOverlay.get_EraserWidth, IInkOverlay::EraserWidth, IInkOverlay::get_EraserWidth, IInkOverlay::put_EraserWidth, InkOverlay.get_EraserWidth, InkOverlay.put_EraserWidth, d6200640-cf51-44d8-be5a-9dfa5ac36dbc, get_EraserWidth, msinkaut/IInkOverlay::EraserWidth, msinkaut/IInkOverlay::get_EraserWidth, msinkaut/IInkOverlay::put_EraserWidth, put_EraserWidth, tablet.inkoverlay_eraserwidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ This property applies only when the <a href="https://msdn.microsoft.com/3b734da3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms698599(v=vs.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

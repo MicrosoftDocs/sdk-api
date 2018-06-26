@@ -118,7 +118,7 @@ Takes previously serialized property data and applies it to a property object.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

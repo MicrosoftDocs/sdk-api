@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertySystem::UnregisterPropertySchema
@@ -113,7 +113,7 @@ Indicates calling context does not have proper privileges.
 
 Call this method when the file is being uninstalled from the machine. Typically, a setup application calls this method before or after uninstalling the .propdesc file. This method can be called after the file no longer exists.
 
-Call <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-refreshpropertyschema">IPropertySystem::RefreshPropertySchema</a> in order for the newly-unregistered schema files to be unincorporated from the search index and the schema subsystem cache.
+Call <a href="shell.IPropertySystem_RefreshPropertySchema">IPropertySystem::RefreshPropertySchema</a> in order for the newly-unregistered schema files to be unincorporated from the search index and the schema subsystem cache.
 
 This method fails with E_ACCESSDENIED if the calling context does not have proper privileges, which include write access to the local machine. It is the caller's responsibility to obtain privileges via least-privileged user account (LUA) mechanisms.
 
@@ -125,7 +125,7 @@ This method fails with E_ACCESSDENIED if the calling context does not have prope
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

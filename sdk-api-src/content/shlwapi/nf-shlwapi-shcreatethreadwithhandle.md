@@ -7,7 +7,7 @@ old-location: shell\SHCreateThreadWithHandle.htm
 old-project: shell
 ms.assetid: 22a3a97a-857f-46b8-a2e0-8f3a14f40322
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHCreateThreadWithHandle, SHCreateThreadWithHandle function [Windows Shell], _shell_SHCreateThreadWithHandle, shell.SHCreateThreadWithHandle, shlwapi/SHCreateThreadWithHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,7 +220,7 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
 
 
 
-<a href="https://www.bing.com/search?q=HRESULT_FROM_WIN32">HRESULT_FROM_WIN32</a>
+<a href="com.hresult_from_win32">HRESULT_FROM_WIN32</a>
 
 
 

@@ -197,7 +197,7 @@ Selection is read-only.
 
 
 
-To insert an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object instead of text, use <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
+To insert an <a href="_ole_idataobject">IDataObject</a> object instead of text, use <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
 
 
 
@@ -207,7 +207,7 @@ To insert an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataOb
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SubmitNtmsOperatorRequestA function
@@ -298,7 +298,7 @@ The NTMS_OPEREQ_MESSAGE value (in the <i>dwRequest</i> parameter) is the request
 
 
 
-<a href="https://www.bing.com/search?q=Operator+Request+Functions">Operator Request Functions</a>
+<a href="removable_storage_manager_functions.htm">Operator Request Functions</a>
 
 
 

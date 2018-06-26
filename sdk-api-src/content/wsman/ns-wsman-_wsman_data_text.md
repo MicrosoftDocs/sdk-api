@@ -7,7 +7,7 @@ old-location: winrm\wsman_data_text.htm
 old-project: WinRM
 ms.assetid: 463dcc6a-2a56-42a9-a778-7a634e5f977c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Management], _WSMAN_DATA_TEXT, winrm.wsman_data_text, wsman/WSMAN_DATA_TEXT
 ms.prod: windows
 ms.technology: windows-sdk

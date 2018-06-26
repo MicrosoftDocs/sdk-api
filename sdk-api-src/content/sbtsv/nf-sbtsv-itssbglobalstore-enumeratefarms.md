@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITsSbGlobalStore::EnumerateFarms
@@ -72,7 +72,7 @@ The count of farms retrieved.
 
 ### -param pVal [out]
 
-A pointer to an array of farm names. The number of elements in this array is specified by the <i>pdwCount</i> parameter. When you have finished using the array, free the allocated memory by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a> function.
+A pointer to an array of farm names. The number of elements in this array is specified by the <i>pdwCount</i> parameter. When you have finished using the array, free the allocated memory by calling the <a href="fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a> function.
 
 
 ## -returns

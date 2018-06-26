@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Runtimeobject.lib
 req.dll: Api-ms-win-core-winrt-error-l1-1-1.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RoReportUnhandledError function

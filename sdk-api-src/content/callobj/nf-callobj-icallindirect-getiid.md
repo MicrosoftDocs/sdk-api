@@ -7,7 +7,7 @@ old-location: com\icallindirect_getiid.htm
 old-project: com
 ms.assetid: 096bd49e-2fad-4558-98c7-c95e0dc43a65
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetIID, GetIID method [COM], GetIID method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetIID method, ICallIndirect.GetIID, ICallIndirect::GetIID, _com_icallindirect_getiid, callobj/ICallIndirect::GetIID, com.icallindirect_getiid
 ms.prod: windows
 ms.technology: windows-sdk

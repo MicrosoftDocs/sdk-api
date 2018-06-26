@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagskipcncheck.htm
 old-project: WinRM
 ms.assetid: cf364e3a-e532-48cf-9b88-fdc661e70ffa
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCNCheck method, IWSManEx.SessionFlagSkipCNCheck, IWSManEx::SessionFlagSkipCNCheck, SessionFlagSkipCNCheck, SessionFlagSkipCNCheck method [Windows Remote Management], SessionFlagSkipCNCheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcncheck, wsmandisp/IWSManEx::SessionFlagSkipCNCheck
 ms.prod: windows
 ms.technology: windows-sdk

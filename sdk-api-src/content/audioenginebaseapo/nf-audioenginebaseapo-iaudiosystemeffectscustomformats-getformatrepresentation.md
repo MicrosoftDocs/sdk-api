@@ -7,7 +7,7 @@ old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm
 old-project: audio
 ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/11/2018
 ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
 ms.prod: windows
 ms.technology: windows-sdk

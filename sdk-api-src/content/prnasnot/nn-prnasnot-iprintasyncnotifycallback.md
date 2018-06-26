@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPrintAsyncNotifyCallback interface

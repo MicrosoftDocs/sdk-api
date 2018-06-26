@@ -7,7 +7,7 @@ old-location: com\co_marshaling_context_attributes.htm
 old-project: com
 ms.assetid: EF020513-8E03-474C-BC14-9E9D6EFE7318
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CO_MARSHALING_CONTEXT_ATTRIBUTES, CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration [COM], CO_MARSHALING_SOURCE_IS_APP_CONTAINER, com.co_marshaling_context_attributes, objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES, objidl/CO_MARSHALING_SOURCE_IS_APP_CONTAINER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration

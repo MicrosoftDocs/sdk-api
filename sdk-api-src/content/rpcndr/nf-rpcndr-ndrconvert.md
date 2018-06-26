@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:rpcndr.NdrConvert
 title: NdrConvert function
 author: windows-sdk-content
@@ -8,7 +8,8 @@ old-project: Rpc
 ms.assetid: ee9952c3-04e1-4fc0-a1fb-d50bc60e87f6
 ms.author: windowssdkdev
 ms.date: 05/30/2018
-ms.keywords: NdrConvert, NdrConvert, NdrConvert function , rpc.ndrconvert, rpcndr
+ms.keywords: NdrConvert, NdrConvert
+, NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -42,7 +43,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrConvert function
@@ -102,7 +103,7 @@ This function has no return values. If an error occurs, the function throws one 
 
 
 
-The <b>NdrConvert</b> function is used by all <a href="https://www.bing.com/search?q=/Oi">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
+The <b>NdrConvert</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oi</a>, <b>/Oic</b>, and <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/Os</a> mode  stubs. 
 
 
 

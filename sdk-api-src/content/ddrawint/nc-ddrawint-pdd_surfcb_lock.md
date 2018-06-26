@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NC:ddrawint.PDD_SURFCB_LOCK
 title: PDD_SURFCB_LOCK
 author: windows-sdk-content
@@ -129,7 +129,7 @@ A driver running on an NT-based operating system
 	 <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> 
 	 for more information.
 
-<h3>NT Kernel's Implementation of DDLOCK_NOSYSLOCK</h3>
+<h3><a id="display.ddlock.NT_Kernels_Implementation_of_DDLOCK_NOSYSLOCK"></a><a id="display.ddlock.nt_kernels_implementation_of_ddlock_nosyslock"></a><a id="DISPLAY.DDLOCK.NT_KERNELS_IMPLEMENTATION_OF_DDLOCK_NOSYSLOCK"></a>NT Kernel's Implementation of DDLOCK_NOSYSLOCK</h3>
 Applications can use DirectDraw's and Direct3D's application programming interfaces (APIs) to obtain long-duration locks on video memory resources. Such locks are called "NOSYSLOCK" locks. These locks operate differently than typical video-memory locks as described in the following paragraphs. 
 
 After the DirectDraw runtime calls a driver's <i>DdLock</i> function with the DDLOCK_NOSYSLOCK flag specified in the <b>dwFlags</b> member of DD_LOCKDATA, the runtime examines the pointer to the surface contents returned by the driver. Instead of passing the driver-returned pointer directly to an application, the runtime creates a second user-mode mapping of video memory (both local and nonlocal) and calculates the equivalent virtual address within that mapping. This virtual address is known as the alias pointer to the memory lock. The runtime passes this alias-lock pointer to the application. The application uses this alias-lock pointer to read and write directly to video memory. Neither the application nor the driver is aware that it uses a different locked-memory pointer. 

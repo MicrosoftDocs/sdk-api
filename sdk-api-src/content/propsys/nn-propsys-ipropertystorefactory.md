@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyStoreFactory interface
@@ -106,7 +106,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 
 
-<a href="https://www.bing.com/search?q=PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
+<a href="shell.PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
  
 
  

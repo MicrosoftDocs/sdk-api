@@ -7,7 +7,7 @@ old-location: shell\IApplicationDestinations_RemoveDestination.htm
 old-project: shell
 ms.assetid: d1c33908-8450-4baf-8598-535a1941820c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestination method, IApplicationDestinations.RemoveDestination, IApplicationDestinations::RemoveDestination, RemoveDestination, RemoveDestination method [Windows Shell], RemoveDestination method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveDestination, shell.IApplicationDestinations_RemoveDestination, shobjidl_core/IApplicationDestinations::RemoveDestination
 ms.prod: windows
 ms.technology: windows-sdk

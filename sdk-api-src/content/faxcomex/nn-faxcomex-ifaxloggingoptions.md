@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxloggingoptions_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_70c3_cpp.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: IFaxLoggingOptions, IFaxLoggingOptions interface [Fax Service], IFaxLoggingOptions interface [Fax Service],described, _mfax_faxloggingoptions_cpp, fax._mfax_faxloggingoptions_cpp, faxcomex/IFaxLoggingOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ To create a <b>FaxLoggingOptions</b> object in C++, call the <a href="https://ms
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

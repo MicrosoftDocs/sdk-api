@@ -63,7 +63,7 @@ Starts at a specified end of a range and searches while the characters belong to
 
 Type: <b>VARIANT*</b>
 
-The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="https://www.bing.com/search?q=Character+Match+Sets">Character Match Sets</a>. 
+The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="About_Text_Object_Model.htm">Character Match Sets</a>. 
 
 
 ### -param Count

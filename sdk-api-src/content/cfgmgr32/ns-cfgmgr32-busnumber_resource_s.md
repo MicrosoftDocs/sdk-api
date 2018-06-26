@@ -7,7 +7,7 @@ old-location: devinst\busnumber_resource.htm
 old-project: devinst
 ms.assetid: 8dbf5499-8e43-4db9-b0ec-6536f1c6121c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: "*PBUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE structure [Device and Driver Installation], BusNumber_Resource_s, PBUSNUMBER_RESOURCE, PBUSNUMBER_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_RESOURCE, cfgmgr32/PBUSNUMBER_RESOURCE, cfgmgrst_5fb3a498-87c1-40c1-8169-4348f2fabe03.xml, devinst.busnumber_resource"
 ms.prod: windows
 ms.technology: windows-sdk

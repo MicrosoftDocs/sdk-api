@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IUrlAccessor::BindToStream
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-        Binds the item being processed to an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+        Binds the item being processed to an <a href="_stg_istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 
@@ -66,7 +66,7 @@ req.product: Rights Management Services client 1.0 or later
 Type: <b>IStream**</b>
 
 
-                Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream</a> that contains the item represented by the URL.
+                Receives the address of a pointer to the <a href="_stg_istream">IStream</a> that contains the item represented by the URL.
                 
 
 

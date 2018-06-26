@@ -2,20 +2,20 @@
 UID: NF:shellapi.ExtractAssociatedIconW
 title: ExtractAssociatedIconW function
 author: windows-sdk-content
-description: Retrieves a handle to an indexed icon found in a file or an icon found in an associated executable file.
-old-location: menurc\extractassociatedicon.htm
-old-project: menurc
-ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\extractassociatedicon.htm
+description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
+old-location: shell\ExtractAssociatedIcon.htm
+old-project: shell
+ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
-ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Menus and Other Resources], ExtractAssociatedIconA, ExtractAssociatedIconW, _win32_ExtractAssociatedIcon, _win32_extractassociatedicon_cpp, menurc.extractassociatedicon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW, winui._win32_extractassociatedicon
+ms.date: 06/11/2018
+ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,7 +43,7 @@ api_name:
  - ExtractAssociatedIconW
 product: Windows
 targetos: Windows
-req.lib: Shell32.lib
+req.lib: 
 req.dll: Shell32.dll
 req.irql: 
 req.product: Internet Explorer 5.0
@@ -55,7 +55,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Retrieves a handle to an indexed icon found in a file or an icon found in an associated executable file. 
+Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
 
 
 ## -parameters
@@ -63,11 +63,11 @@ Retrieves a handle to an indexed icon found in a file or an icon found in an ass
 
 
 
-### -param hInst
+### -param hInst [in]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the instance of the application calling the function. 
+A handle to the instance of the calling application.
 
 
 ### -param pszIconPath
@@ -86,14 +86,22 @@ TBD
 
 Type: <b>LPTSTR</b>
 
-The full path and file name of the file that contains the icon. The function extracts the icon handle from that file, or from an executable file associated with that file. If the icon handle is obtained from an executable file, the function stores the full path and file name of that executable in the string pointed to by <i>lpIconPath</i>. 
+Pointer to a string that, on entry, specifies the full path and file name of the file that contains the icon. The function extracts the icon handle from that file, or from an executable file associated with that file. 
+
+                    
+
+When this function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file) the function stores the full path and file name of that executable in the buffer pointed to by this parameter.
 
 
 #### - lpiIcon [in, out]
 
-Type: <b>WORD*</b>
+Type: <b>LPWORD</b>
 
-The index of the icon whose handle is to be obtained. If the icon handle is obtained from an executable file, the function stores the icon's identifier in this parameter. 
+Pointer to a <b>WORD</b> value that, on entry, specifies the index of the icon whose handle is to be obtained. 
+
+                    
+
+When the function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file), this value points to the icon's index in that file.
 
 
 ## -returns
@@ -102,7 +110,9 @@ The index of the icon whose handle is to be obtained. If the icon handle is obta
 
 Type: <b>HICON</b>
 
-If the function succeeds, the return value is an icon handle. If the icon is extracted from an associated executable file, the function stores the full path and file name of the executable file in the string pointed to by <i>lpIconPath</i>, and stores the icon's identifier in the variable pointed to by <i>lpiIcon</i>.
+If the function succeeds, the return value is an icon handle. If the icon is extracted from an associated executable file, the function stores the full path and file name of the executable file in the string pointed to by <i>lpIconPath</i>, and stores the icon's identifier in the <b>WORD</b> pointed to by <i>lpiIcon</i>.
+
+					
 
 If the function fails, the return value is <b>NULL</b>.
 
@@ -113,9 +123,9 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-You must destroy the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function. 
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
 
-The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in the file specified by <i>lpIconPath</i>. If the function cannot obtain the icon handle from that file, and the file has an associated executable file, it looks in that executable file for an icon. Associations with executable files are based on file name extensions, are stored in the per-user part of the registry, and can be defined using File Manager's Associate command. 
+The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in the file specified by <i>lpIconPath</i>. If the function cannot obtain the icon handle from that file, and the file has an associated executable file, it looks in that executable file for an icon. Associations with executable files are based on file name extensions and are stored in the per-user part of the registry.
 
 
 
@@ -125,19 +135,15 @@ The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in th
 
 
 
-<b>Conceptual</b>
+<a href="https://msdn.microsoft.com/f32260b0-917b-4406-aeee-34f71a7c7309">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/323c5e09-4e22-4a67-b8aa-5e5f369fb585">ExtractIcon</a>
+<a href="https://msdn.microsoft.com/a0314423-79d6-416e-8be0-be946477da3e">ExtractIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
-
-
-
-<b>Reference</b>
+<a href="https://msdn.microsoft.com/1c4d760a-79b5-4646-9cf2-6cd32c5d05ee">ExtractIconEx</a>
  
 
  

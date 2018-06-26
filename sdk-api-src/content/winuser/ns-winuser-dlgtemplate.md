@@ -63,7 +63,7 @@ Defines the dimensions and style of a dialog box. This structure, always the fir
 
 Type: <b>DWORD</b>
 
-The style of the dialog box. This member can be a combination of <a href="https://www.bing.com/search?q=window+style+values">window style values</a> (such as <b>WS_CAPTION</b> and <b>WS_SYSMENU</b>) and <a href="https://msdn.microsoft.com/C347A1C4-BCE2-48de-B646-8D4869C5B971">dialog box style values</a> (such as <b>DS_CENTER</b>).
+The style of the dialog box. This member can be a combination of <a href="winui._win32_Window_Styles">window style values</a> (such as <b>WS_CAPTION</b> and <b>WS_SYSMENU</b>) and <a href="https://msdn.microsoft.com/C347A1C4-BCE2-48de-B646-8D4869C5B971">dialog box style values</a> (such as <b>DS_CENTER</b>).
 
 If the style member includes the <b>DS_SETFONT</b> style, the header of the dialog box template contains additional data specifying the font to use for text in the client area and controls of the dialog box. The font data begins on the 
 						<b>WORD</b> boundary that follows the title array. The font data specifies a 16-bit point size value and a Unicode font name string. If possible, the system creates a font according to the specified values. Then the system sends a <a href="https://msdn.microsoft.com/7db6b8af-dbec-4c29-8bf7-d7e95d9813c3">WM_SETFONT</a> message to the dialog box and to each control to provide a handle to the font. If <b>DS_SETFONT</b> is not specified, the dialog box template does not include the font data. 

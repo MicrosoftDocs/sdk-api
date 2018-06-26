@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_POLARITY enumeration
@@ -76,11 +76,11 @@ Active Low.
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gpmc\igpmconstants.htm
 old-project: GPMC
 ms.assetid: e9137167-4a2d-4cc4-940e-20f9991c4187
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
 ms.prod: windows
 ms.technology: windows-sdk

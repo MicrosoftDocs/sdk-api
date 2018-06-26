@@ -7,7 +7,7 @@ old-location: shell\IDragSourceHelper_InitializeFromWindow.htm
 old-project: shell
 ms.assetid: 0bcdfe92-cec0-44f3-a345-5b560d52fae9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromWindow method, IDragSourceHelper.InitializeFromWindow, IDragSourceHelper::InitializeFromWindow, InitializeFromWindow, InitializeFromWindow method [Windows Shell], InitializeFromWindow method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromWindow, shell.IDragSourceHelper_InitializeFromWindow, shobjidl_core/IDragSourceHelper::InitializeFromWindow
 ms.prod: windows
 ms.technology: windows-sdk

@@ -121,7 +121,7 @@ For a shader-constant buffer; set pDstBox to <b>NULL</b>. It is not possible to 
 A resource cannot be used as a destination if:
 
 <ul>
-<li>the resource is created with <a href="https://www.bing.com/search?q=immutable">immutable</a> or <a href="https://www.bing.com/search?q=dynamic">dynamic</a> usage.</li>
+<li>the resource is created with <a href="d3d10_usage.htm">immutable</a> or <a href="d3d10_usage.htm">dynamic</a> usage.</li>
 <li>the resource is created as a <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">depth-stencil resource</a>.</li>
 <li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>).</li>
 </ul>
@@ -135,7 +135,7 @@ The performance of UpdateSubresource depends on whether or not there is contenti
 </ul>
 To better understand the source row pitch and source depth pitch parameters, consider the following illustration of a 3D volume texture.
 
-<img alt="Illustration of a 3D volume texture" src="./images/d3d10_pitches_conceptual.png"/>
+<img alt="Illustration of a 3D volume texture" src="images/d3d10_pitches_conceptual.png"/>
 
 Each block in this visual represents an element of data, and the size of each element is dependent on the resource's format. For example, if the resource format is DXGI_FORMAT_R32G32B32A32_FLOAT, then the size of each element would be 128 bits, or 16 bytes. This 3D volume texture has a width of two, a height of three, and a depth of four.
 
@@ -153,7 +153,7 @@ In the case of this example 3D volume texture where the size of each element is 
 </ul>
 The following illustration shows the resource as it is laid out in memory.
 
-<img alt="Illustration of a 3D volume texture in memory" src="./images/d3d10_pitches.png"/>
+<img alt="Illustration of a 3D volume texture in memory" src="images/d3d10_pitches.png"/>
 
 For example, the following code snippet shows how to specify a destination region in a 2D texture. Assume the destination texture is 512x512 and the operation will copy the data pointed to by pData to  [(120,100)..(200,220)] in the destination texture. Also assume that rowPitch has been initialized with the proper value (as explained above). Front and back are set to 0 and 1 respectively, because by having front equal to back, the box is technically empty.
 

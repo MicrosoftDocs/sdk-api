@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_getpropertyfromidlist_key.htm
 old-project: shell
 ms.assetid: 2BC0557F-57B2-4389-ABC6-9186A4FCF814
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyFromIDList method, CItemIDFactory.GetPropertyFromIDList, CItemIDFactory.GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT), CItemIDFactory::GetPropertyFromIDList, CItemIDFactory::GetPropertyFromIDList(PCUIDLIST_RELATIVE,PCWSTR,VARIANT), GetPropertyFromIDList, GetPropertyFromIDList method [Windows Shell], GetPropertyFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertyfromidlist_key, shidfact/CItemIDFactory::GetPropertyFromIDList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
+ - GetPropertyFromIDList.GetPropertyFromIDList
  - CItemIDFactory.GetPropertyFromIDList
 product: Windows
 targetos: Windows
@@ -103,6 +104,10 @@ This method is useful when using <a href="https://msdn.microsoft.com/f006828c-98
 
 
 <a href="https://msdn.microsoft.com/8C13F1AF-3328-40B8-B5F8-6CDF753A7FA7">CItemIDFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D">GetPropertyFromIDList</a>
 
 
 

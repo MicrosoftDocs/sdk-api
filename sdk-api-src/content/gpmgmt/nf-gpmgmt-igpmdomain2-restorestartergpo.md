@@ -7,7 +7,7 @@ old-location: gpmc\igpmdomain2_restorestartergpo.htm
 old-project: GPMC
 ms.assetid: e91a3540-7f1b-4843-9b5e-4dcd837dc0f8
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: IGPMDomain2 interface [GPMC],RestoreStarterGPO method, IGPMDomain2.RestoreStarterGPO, IGPMDomain2::RestoreStarterGPO, RestoreStarterGPO, RestoreStarterGPO method [GPMC], RestoreStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_restorestartergpo, gpmgmt/IGPMDomain2::RestoreStarterGPO
 ms.prod: windows
 ms.technology: windows-sdk

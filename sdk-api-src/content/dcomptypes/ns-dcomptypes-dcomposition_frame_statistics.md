@@ -76,7 +76,7 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 Type: <b><a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a></b>
 
-The current time as computed by the <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> function.
+The current time as computed by the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> function.
 
 
 ### -field timeFrequency

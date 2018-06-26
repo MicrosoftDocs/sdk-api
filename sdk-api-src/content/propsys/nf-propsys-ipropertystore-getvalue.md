@@ -7,7 +7,7 @@ old-location: audio\ipropertystore_getvalue.htm
 old-project: audio
 ms.assetid: 11204335-0f00-4af8-8787-93e91248e5bd
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/11/2018
 ms.keywords: GetValue, GetValue (IPropertyStore), GetValue method [Audio Devices], GetValue method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetValue method, IPropertyStore.GetValue, IPropertyStore::GetValue, audio.ipropertystore_getvalue, audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml, propsys/IPropertyStore::GetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Propsys.idl
 req.dll: 
 req.irql: All levels
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyStore::GetValue

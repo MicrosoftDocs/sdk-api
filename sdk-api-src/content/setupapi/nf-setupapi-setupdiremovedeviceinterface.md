@@ -7,7 +7,7 @@ old-location: devinst\setupdiremovedeviceinterface.htm
 old-project: devinst
 ms.assetid: 5eb92c58-150a-4e52-897f-e2a2da36743d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiRemoveDeviceInterface, SetupDiRemoveDeviceInterface function [Device and Driver Installation], devinst.setupdiremovedeviceinterface, di-rtns_8401d04f-f4a5-4214-88fe-2c1309978af9.xml, setupapi/SetupDiRemoveDeviceInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiRemoveDeviceInterface function
@@ -61,7 +61,7 @@ The <b>SetupDiRemoveDeviceInterface</b> function removes a registered device int
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
 
 
 ### -param DeviceInterfaceData [in, out]

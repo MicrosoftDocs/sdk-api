@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_transform.htm
 old-project: tablet
 ms.assetid: 910ae16d-be9a-422c-b9af-9a2df28df463
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Transform method, IInkStrokes.Transform, IInkStrokes::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokes interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokes::Transform, tablet.inkstrokes_transform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

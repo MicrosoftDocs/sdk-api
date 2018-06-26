@@ -1,0 +1,165 @@
+---
+UID: NF:mftransform.IMFDeviceTransform.GetInputCurrentType
+title: IMFDeviceTransform::GetInputCurrentType
+author: windows-sdk-content
+description: The GetInputCurrentType method gets the current media type for an input stream on this Media Foundation transform (MFT).
+old-location: stream\imfdevicetransform_getinputcurrenttype.htm
+old-project: stream
+ms.assetid: 8E2955AD-ECBD-4C24-972A-8F670DC08F0F
+ms.author: windowssdkdev
+ms.date: 05/18/2018
+ms.keywords: GetInputCurrentType, GetInputCurrentType method [Streaming Media Devices], GetInputCurrentType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputCurrentType method, IMFDeviceTransform.GetInputCurrentType, IMFDeviceTransform::GetInputCurrentType, mftransform/IMFDeviceTransform::GetInputCurrentType, stream.imfdevicetransform_getinputcurrenttype
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mftransform.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10, version 1703
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mftransform.h
+api_name:
+ - IMFDeviceTransform.GetInputCurrentType
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMFDeviceTransform::GetInputCurrentType
+
+
+## -description
+
+
+The <b>GetInputCurrentType</b> method gets the current media type for an input stream on this Media Foundation transform (MFT).
+
+
+## -parameters
+
+
+
+
+### -param dwInputStreamID [in]
+
+Input stream identifier. To get the list of stream identifiers, call <a href="https://msdn.microsoft.com/378A8E3F-8B1E-4C0B-9C30-FE78E1939422">IMFDeviceTransform::GetStreamIDs</a>.
+
+
+### -param pMediaType [out]
+
+Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface that represents the current type used by that stream.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include but not limited to values given in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Initialization succeeded
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_INVALIDREQUEST</b></dt>
+</dl>
+</td>
+<td width="60%">
+Device MFT could not  support the request at this time.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_INVALIDSTREAMNUMBER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The stream ID is not valid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_NO_MORE_TYPES</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no media type available with the specified index.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MF_E_TRANSFORM_TYPE_NOT_SET</b></dt>
+</dl>
+</td>
+<td width="60%">
+No media type has been set yet.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+If the specified input stream does not yet have a media type, the method returns <b>MF_E_TRANSFORM_TYPE_NOT_SET</b>. 
+
+<h3><a id="Implementation_notes"></a><a id="implementation_notes"></a><a id="IMPLEMENTATION_NOTES"></a>Implementation notes</h3>
+The MFT should return a clone of the media type, not a pointer to the original type. Otherwise, the caller might modify the type and alter the internal state of the MFT.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+ 
+
+ 
+

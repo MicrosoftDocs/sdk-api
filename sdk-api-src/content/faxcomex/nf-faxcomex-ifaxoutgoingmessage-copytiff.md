@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_copytiff_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_19eu.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],FaxOutgoingMessage object, FaxOutgoingMessage object [Fax Service],CopyTiff method, FaxOutgoingMessage.CopyTiff, IFaxOutgoingMessage.CopyTiff, IFaxOutgoingMessage::CopyTiff, _mfax_faxoutgoingmessage.copytiff, fax._mfax_faxoutgoingmessage_copytiff, fax._mfax_faxoutgoingmessage_copytiff_vb
 ms.prod: windows
 ms.technology: windows-sdk

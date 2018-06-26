@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSCreatePropertyStoreFromObject function
@@ -124,7 +124,7 @@ If the object pointed to by <i>punk</i> already supports <a href="https://msdn.m
 
 
 
-<a href="https://www.bing.com/search?q=PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="shell.PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

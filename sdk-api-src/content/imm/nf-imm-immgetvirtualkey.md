@@ -77,7 +77,7 @@ Handle to the window that receives the key message.
 
 
 
-If <a href="https://www.bing.com/search?q=TranslateMessage">TranslateMessage</a> has been called by the application, <b>ImmGetVirtualKey</b> returns VK_PROCESSKEY; otherwise, it returns the virtual key.
+If <a href="_win32_TranslateMessage">TranslateMessage</a> has been called by the application, <b>ImmGetVirtualKey</b> returns VK_PROCESSKEY; otherwise, it returns the virtual key.
 
 
 
@@ -88,7 +88,7 @@ If <a href="https://www.bing.com/search?q=TranslateMessage">TranslateMessage</a>
 
 Although the IME sets the virtual key value to VK_PROCESSKEY after processing a key input message, an application can recover the original virtual key value with the <b>ImmGetVirtualKey</b> function. This function is used only for key input messages containing the VK_PROCESSKEY value. Applications can only get the original virtual key by using this function after receiving 
 
-the <a href="https://www.bing.com/search?q=WM_KEYDOWN">WM_KEYDOWN</a> (VK_PROCESSKEY) message, and before <a href="https://www.bing.com/search?q=TranslateMessage">TranslateMessage</a> is called in its own 
+the <a href="_win32_WM_KEYDOWN">WM_KEYDOWN</a> (VK_PROCESSKEY) message, and before <a href="_win32_TranslateMessage">TranslateMessage</a> is called in its own 
 
 message loop.
 

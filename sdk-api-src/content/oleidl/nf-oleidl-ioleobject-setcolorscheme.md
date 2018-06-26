@@ -7,7 +7,7 @@ old-location: com\ioleobject_setcolorscheme.htm
 old-project: com
 ms.assetid: 655ba4ea-941d-4389-9ee8-756dfa3c5448
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleObject interface [COM],SetColorScheme method, IOleObject.SetColorScheme, IOleObject::SetColorScheme, SetColorScheme, SetColorScheme method [COM], SetColorScheme method [COM],IOleObject interface, _ole_ioleobject_setcolorscheme, com.ioleobject_setcolorscheme, oleidl/IOleObject::SetColorScheme
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleObject::SetColorScheme

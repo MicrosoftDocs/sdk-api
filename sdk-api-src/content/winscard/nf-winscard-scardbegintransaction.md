@@ -75,7 +75,7 @@ A reference value obtained from a previous call to
 
 						If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>.
 
-If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 If another process or thread has reset the card, SCARD_W_RESET_CARD is returned as expected.
 

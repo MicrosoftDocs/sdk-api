@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextgetdata.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4s0x.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtGetData, FaxExtGetData function [Fax Service], _mfax_faxextgetdata, fax._mfax_faxextgetdata, faxext/FaxExtGetData
 ms.prod: windows
 ms.technology: windows-sdk

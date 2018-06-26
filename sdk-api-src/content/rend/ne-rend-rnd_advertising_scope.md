@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RND_ADVERTISING_SCOPE enumeration
@@ -90,7 +90,7 @@ Advertising scope is the world.
 
 
 Mapping between scope string value, enum value, and 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">time to live</a> (TTL) based on SDP Internet draft.
+<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) based on SDP Internet draft.
 
 <table>
 <tr>

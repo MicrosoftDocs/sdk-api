@@ -7,7 +7,7 @@ old-location: edp\srpdisablepermissivemodefileencryption_.htm
 old-project: EDP
 ms.assetid: CB75BAFE-EB2A-43F2-8689-34E798C3B9F5
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveModeFileEncryption, SrpDisablePermissiveModeFileEncryption , SrpDisablePermissiveModeFileEncryption function, srpapi/SrpDisablePermissiveModeFileEncryption
 ms.prod: windows
 ms.technology: windows-sdk

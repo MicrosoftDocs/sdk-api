@@ -7,7 +7,7 @@ old-location: setup\msisetproperty.htm
 old-project: Msi
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ If the property is not defined, it is created by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstalldriverfiles.htm
 old-project: devinst
 ms.assetid: 55abcdd1-a33e-4100-a3dd-4d3a31158004
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiInstallDriverFiles, SetupDiInstallDriverFiles function [Device and Driver Installation], devinst.setupdiinstalldriverfiles, di-rtns_0790674a-71fa-469e-b716-d420fbf40e7b.xml, setupapi/SetupDiInstallDriverFiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiInstallDriverFiles function
@@ -61,7 +61,7 @@ The <b>SetupDiInstallDriverFiles</b> function is the default handler for the <a 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device information element that represents the device for which to install files. The device information set must not contain remote elements.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element that represents the device for which to install files. The device information set must not contain remote elements.
 
 
 ### -param DeviceInfoData [in]
@@ -84,7 +84,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The caller of <b>SetupDiInstallDriverFiles</b> must be a member of the Administrators group if this function is being used to install files. However, if this function is being used to build up a file queue, membership in the Administrators group is not required.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiInstallDriverFiles</b> and only in those situations where the class installer must perform driver file installation operations after <b>SetupDiInstallDriverFiles</b> completes the default driver file installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDriverFiles</b> when the installer processes a DIF_INSTALLDEVICEFILES request. For more information about calling the default handler, see <a href="https://www.bing.com/search?q=Calling+Default+DIF+Code+Handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiInstallDriverFiles</b> and only in those situations where the class installer must perform driver file installation operations after <b>SetupDiInstallDriverFiles</b> completes the default driver file installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDriverFiles</b> when the installer processes a DIF_INSTALLDEVICEFILES request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 The operation of <b>SetupDiInstallDriverFiles</b> is similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552039">SetupDiInstallDevice</a> function. However, this function performs only the file copy operations that are performed by <b>SetupDiInstallDevice</b>. 
 

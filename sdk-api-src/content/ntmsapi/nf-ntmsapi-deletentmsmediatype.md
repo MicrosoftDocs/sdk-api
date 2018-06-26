@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DeleteNtmsMediaType function
@@ -204,7 +204,7 @@ If there are no physical media objects of the specified media type in the RSM sy
 
 
 
-<a href="https://www.bing.com/search?q=Media+Services+Functions">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

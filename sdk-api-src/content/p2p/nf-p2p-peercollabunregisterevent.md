@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PeerCollabUnregisterEvent function
@@ -61,7 +61,7 @@ The <b>PeerCollabUnregisterEvent</b> function deregisters an application from no
 
 ### -param hPeerEvent [in]
 
-Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="https://msdn.microsoft.com/db7daf08-8d79-493f-8df5-172dae498df0">PeerCollabRegisterEvent</a>.
+Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ## -returns

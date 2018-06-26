@@ -7,7 +7,7 @@ old-location: menurc\indexfilepath.htm
 old-project: menurc
 ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mrmsupport.lib
 req.dll: Mrmsupport.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IndexFilePath function

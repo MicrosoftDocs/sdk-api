@@ -7,7 +7,7 @@ old-location: devinst\sp_detectdevice_params.htm
 old-project: devinst
 ms.assetid: 77682651-217f-4e3a-9d0e-0a93d315de53
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: "*PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS, PSP_DETECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_DETECTDEVICE_PARAMS, SP_DETECTDEVICE_PARAMS structure [Device and Driver Installation], _SP_DETECTDEVICE_PARAMS, devinst.sp_detectdevice_params, di-struct_6de1fd38-be9a-42e6-ae10-5825aef12880.xml, setupapi/PSP_DETECTDEVICE_PARAMS, setupapi/SP_DETECTDEVICE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _SP_DETECTDEVICE_PARAMS structure
@@ -66,7 +66,7 @@ An install request header that contains the size of the header and the DIF code 
 
 ### -field DetectProgressNotify
 
-A callback routine that displays a progress bar for the device detection operation. The callback routine is supplied by the <a href="https://www.bing.com/search?q=device+installation+component">device installation component</a> that sends the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543674">DIF_DETECT</a> request. The callback has the following prototype:
+A callback routine that displays a progress bar for the device detection operation. The callback routine is supplied by the <a href="devinst.device_installation_components">device installation component</a> that sends the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543674">DIF_DETECT</a> request. The callback has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -81,7 +81,7 @@ A callback routine that displays a progress bar for the device detection operati
 </td>
 </tr>
 </table></span></div>
-<i>ProgressNotifyParam</i> is an opaque "handle" that identifies the detection operation. This value is supplied by the <a href="https://www.bing.com/search?q=device+installation+component">device installation component</a> that sent the DIF_DETECT request. 
+<i>ProgressNotifyParam</i> is an opaque "handle" that identifies the detection operation. This value is supplied by the <a href="devinst.device_installation_components">device installation component</a> that sent the DIF_DETECT request. 
 
 <i>DetectComplete</i> is a value between 0 and 100 that indicates the percent completion. The class installer increments this value at various stages of its detection activities, to notify the user of its progress.
 

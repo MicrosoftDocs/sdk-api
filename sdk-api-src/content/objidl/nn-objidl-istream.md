@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IStream interface
@@ -61,13 +61,13 @@ The
 
 The methods in this interface present your object's data as a contiguous sequence of bytes that you can read or write. There are also methods for committing and reverting changes on streams that are open in transacted mode and methods for restricting access to a range of bytes in the stream.
 
-Streams can remain open for long periods of time without consuming file-system resources. The <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
+Streams can remain open for long periods of time without consuming file-system resources. The <a href="_com_iunknown_release">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
 
 Clients of asynchronous monikers can choose between a data-pull or data-push model for driving an asynchronous 
-<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
-<a href="https://docs.microsoft.com/windows/desktop//com/url-monikers">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
+<a href="_com_imoniker_bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
+<a href="_com_url_monikers">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
 <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> and 
-<a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> calls returned in <a href="https://www.bing.com/search?q=IBindStatusCallback::OnDataAvailable">IBindStatusCallback::OnDataAvailable</a> in these two download models:
+<a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> calls returned in <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> in these two download models:
 <table>
 <tr>
 <th>IStream method call</th>
@@ -76,17 +76,17 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 </tr>
 <tr>
 <td><b>Read</b> is called to read partial data (that is, not all the available data)</td>
-<td>Returns S_OK. The client must continue to read all available data before returning from <a href="https://www.bing.com/search?q=IBindStatusCallback::OnDataAvailable">IBindStatusCallback::OnDataAvailable</a> or else the bind operation is blocked. (that is, read until S_FALSE or E_PENDING is returned)</td>
-<td>Returns S_OK. Even if the client returns from <a href="https://www.bing.com/search?q=IBindStatusCallback::OnDataAvailable">IBindStatusCallback::OnDataAvailable</a> at this point the bind operation continues and <b>IBindStatusCallback::OnDataAvailable</b> will be called again repeatedly until the binding finishes.</td>
+<td>Returns S_OK. The client must continue to read all available data before returning from <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> or else the bind operation is blocked. (that is, read until S_FALSE or E_PENDING is returned)</td>
+<td>Returns S_OK. Even if the client returns from <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> at this point the bind operation continues and <b>IBindStatusCallback::OnDataAvailable</b> will be called again repeatedly until the binding finishes.</td>
 </tr>
 <tr>
 <td><b>Read</b> is called to read all the available data</td>
-<td>Returns E_PENDING if the bind operation has not completed, and <a href="https://www.bing.com/search?q=IBindStatusCallback::OnDataAvailable">IBindStatusCallback::OnDataAvailable</a> will be called again when more data is available.</td>
+<td>Returns E_PENDING if the bind operation has not completed, and <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> will be called again when more data is available.</td>
 <td>Same as data-pull model.</td>
 </tr>
 <tr>
 <td><b>Read</b> is called to read all the available data and the bind operation is over (end of file)</td>
-<td>Returns S_FALSE. There will be a subsequent call to <a href="https://www.bing.com/search?q=IBindStatusCallback::OnDataAvailable">IBindStatusCallback::OnDataAvailable</a> with the <i>grfBSC</i> flag set to BSCF_LASTDATANOTIFICATION.</td>
+<td>Returns S_FALSE. There will be a subsequent call to <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> with the <i>grfBSC</i> flag set to BSCF_LASTDATANOTIFICATION.</td>
 <td>Same as data-pull model.</td>
 </tr>
 <tr>
@@ -97,9 +97,9 @@ Clients of asynchronous monikers can choose between a data-pull or data-push mod
 </table> 
 
 For general information on this topic, see 
-<a href="https://docs.microsoft.com/windows/desktop//com/asynchronous-monikers">Asynchronous Monikers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop//com/data-pull-model-vs.-data-push-model">Data-Pull-Model versus Data Push-Model</a> for more specific information. Also, see 
-<a href="https://docs.microsoft.com/windows/desktop//com/managing-memory-allocation">Managing Memory Allocation</a> for details on COM's rules for managing memory.
+<a href="_com_asynchronous_monikers">Asynchronous Monikers</a> and 
+<a href="_com_data_pull_model_versus_data_push_model">Data-Pull-Model versus Data Push-Model</a> for more specific information. Also, see 
+<a href="_com_managing_memory_allocation">Managing Memory Allocation</a> for details on COM's rules for managing memory.
 
 
 ## -inheritance

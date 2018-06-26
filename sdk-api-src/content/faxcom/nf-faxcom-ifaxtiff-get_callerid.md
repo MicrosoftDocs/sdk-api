@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_callerid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_502s.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],FaxTiff object, FaxTiff object [Fax Service],CallerId property, FaxTiff.CallerId, IFaxTiff.get_CallerId, IFaxTiff::get_CallerId, _mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid_vb, get_CallerId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The <b>get_CallerId</b> method sets the <i>pVal</i> parameter to the string that
 
 The <b>CallerId</b> property is a string that identifies the calling device, if it is available. If the information is not available, <b>CallerId</b> is an empty string.
 
-The <b>get_CallerId</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+The <b>get_CallerId</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 
@@ -99,7 +99,7 @@ The <b>get_CallerId</b> method allocates the memory required for the buffer poin
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

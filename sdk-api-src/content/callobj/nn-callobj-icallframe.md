@@ -7,7 +7,7 @@ old-location: com\icallframe.htm
 old-project: com
 ms.assetid: 56a75123-f402-4187-af13-d31f72a5f094
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], ICallFrame interface [COM],described, _com_icallframe_interface, callobj/ICallFrame, com.icallframe
 ms.prod: windows
 ms.technology: windows-sdk

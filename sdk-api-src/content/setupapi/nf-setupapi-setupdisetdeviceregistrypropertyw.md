@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceregistryproperty.htm
 old-project: devinst
 ms.assetid: 2686f416-3eb5-4e6b-87c8-ab10608ab406
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiSetDeviceRegistryProperty, SetupDiSetDeviceRegistryProperty function [Device and Driver Installation], SetupDiSetDeviceRegistryPropertyA, SetupDiSetDeviceRegistryPropertyW, devinst.setupdisetdeviceregistryproperty, di-rtns_c3fa27e1-fbc6-4f82-ab1b-cbf3581c54e4.xml, setupapi/SetupDiSetDeviceRegistryProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiSetDeviceRegistryPropertyW function
@@ -62,7 +62,7 @@ The <b>SetupDiSetDeviceRegistryProperty</b> function sets a Plug and Play device
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device information element that represents the device for which to set a Plug and Play device property.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to set a Plug and Play device property.
 
 
 ### -param DeviceInfoData [in, out]

@@ -7,7 +7,7 @@ old-location: devinst\setupdirestartdevices.htm
 old-project: devinst
 ms.assetid: 38bb2e40-e522-4155-9d2c-f6aaeea70839
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiRestartDevices function
@@ -61,7 +61,7 @@ The <b>SetupDiRestartDevices</b> function restarts a specified device or, if nec
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the device information element that represents the device to restart. 
+A handle to a <a href="devinst.device_classes">device information set</a> that contains the device information element that represents the device to restart. 
 
 
 ### -param DeviceInfoData [in, out]

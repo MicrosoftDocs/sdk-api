@@ -7,7 +7,7 @@ old-location: menurc\lstrcmpi.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: "_win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,11 +129,11 @@ choice of comparison functions.
 
 
 
-<a href="https://www.bing.com/search?q=CompareString">CompareString</a>
+<a href="winui._win32_CompareString">CompareString</a>
 
 
 
-<a href="https://www.bing.com/search?q=CompareStringEx">CompareStringEx</a>
+<a href="winui._win32_CompareStringEx">CompareStringEx</a>
 
 
 

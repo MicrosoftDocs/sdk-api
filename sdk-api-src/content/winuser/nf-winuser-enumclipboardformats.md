@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -99,12 +99,12 @@ You must open the clipboard before enumerating its formats. Use the <a href="htt
 The
 				<b>EnumClipboardFormats</b> function enumerates formats in the order that they were placed on the clipboard. If you are copying information to the clipboard, add clipboard objects in order from the most descriptive clipboard format to the least descriptive clipboard format. If you are pasting information from the clipboard, retrieve the first clipboard format that you can handle. That will be the most descriptive clipboard format that you can handle.
 
-The system provides automatic type conversions for certain clipboard formats. In the case of such a format, this function enumerates the specified format, then enumerates the formats to which it can be converted. For more information, see <a href="https://www.bing.com/search?q=Standard+Clipboard+Formats">Standard Clipboard Formats</a>  and <a href="https://www.bing.com/search?q=Synthesized+Clipboard+Formats">Synthesized Clipboard Formats</a>.
+The system provides automatic type conversions for certain clipboard formats. In the case of such a format, this function enumerates the specified format, then enumerates the formats to which it can be converted. For more information, see <a href="clipboard_formats.htm">Standard Clipboard Formats</a>  and <a href="clipboard_formats.htm">Synthesized Clipboard Formats</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboard+Viewer">Example of a Clipboard Viewer</a>.
+For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 

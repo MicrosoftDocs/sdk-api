@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # LsaLookupNames2 function
@@ -172,7 +172,7 @@ All of the names were found and successfully translated.
  
 
 If the function fails, the return value is the following <b>NTSTATUS</b> value or one of the 
-<a href="https://docs.microsoft.com/windows/desktop//SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

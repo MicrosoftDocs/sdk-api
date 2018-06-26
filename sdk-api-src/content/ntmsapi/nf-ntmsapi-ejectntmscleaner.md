@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # EjectNtmsCleaner function
@@ -242,7 +242,7 @@ Ejected cleaner cartridges are not tracked in the offline library.
 
 
 
-<a href="https://www.bing.com/search?q=Cleaner+Management+Functions">Cleaner Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
 
 
 

@@ -150,7 +150,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://www.bing.com/search?q=Base+Cryptography+Functions">Base Cryptography Functions</a>
+<a href="cryptography_functions.htm">Base Cryptography Functions</a>
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NS:ifdef._NDIS_INTERFACE_INFORMATION
 title: "_NDIS_INTERFACE_INFORMATION"
 author: windows-sdk-content
@@ -7,7 +7,7 @@ old-location: netvista\ndis_interface_information_str.htm
 old-project: netvista
 ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: "*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_INTERFACE_INFORMATION, ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -215,7 +215,7 @@ The number of directed packets that are transmitted without errors on the interf
 
 The number of multicast/functional packets that are transmitted without errors on the interface.
      This number is the same as the value that an 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-multicast-frames-xmit">
+     <a href="netvista.oid_gen_multicast_frames_xmit">
      OID_GEN_MULTICAST_FRAMES_XMIT</a> OID query returns.
 
 
@@ -223,7 +223,7 @@ The number of multicast/functional packets that are transmitted without errors o
 
 The number of broadcast packets that are transmitted without errors on the interface. This number
      is the same as the value that an 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-broadcast-frames-xmit">
+     <a href="netvista.oid_gen_broadcast_frames_xmit">
      OID_GEN_BROADCAST_FRAMES_XMIT</a> OID query returns.
 
 
@@ -246,7 +246,7 @@ The number of packets that the interface discards. This number is the same as th
 
 The number of bytes in directed packets that are received without errors. This count is the same
      value that 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-directed-bytes-rcv">
+     <a href="netvista.oid_gen_directed_bytes_rcv">
      OID_GEN_DIRECTED_BYTES_RCV</a> returns.
 
 
@@ -254,7 +254,7 @@ The number of bytes in directed packets that are received without errors. This c
 
 The number of bytes in multicast/functional packets that are received without errors. This count
      is the same value that 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-multicast-bytes-rcv">
+     <a href="netvista.oid_gen_multicast_bytes_rcv">
      OID_GEN_MULTICAST_BYTES_RCV</a> returns.
 
 
@@ -262,7 +262,7 @@ The number of bytes in multicast/functional packets that are received without er
 
 The number of bytes in broadcast packets that are received without errors. This count is the same
      value that 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-broadcast-bytes-rcv">
+     <a href="netvista.oid_gen_broadcast_bytes_rcv">
      OID_GEN_BROADCAST_BYTES_RCV</a> returns.
 
 
@@ -270,7 +270,7 @@ The number of bytes in broadcast packets that are received without errors. This 
 
 The number of bytes in directed packets that are transmitted without errors. This count is the
      same value that 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-directed-bytes-xmit">
+     <a href="netvista.oid_gen_directed_bytes_xmit">
      OID_GEN_DIRECTED_BYTES_XMIT</a> returns.
 
 
@@ -278,7 +278,7 @@ The number of bytes in directed packets that are transmitted without errors. Thi
 
 The number of bytes in multicast/functional packets that are transmitted without errors. This
      count is the same value that 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-multicast-bytes-xmit">
+     <a href="netvista.oid_gen_multicast_bytes_xmit">
      OID_GEN_MULTICAST_BYTES_XMIT</a> returns.
 
 
@@ -286,7 +286,7 @@ The number of bytes in multicast/functional packets that are transmitted without
 
 The number of bytes in broadcast packets that are transmitted without errors. This count is the
      same value that 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-broadcast-bytes-xmit">
+     <a href="netvista.oid_gen_broadcast_bytes_xmit">
      OID_GEN_BROADCAST_BYTES_XMIT</a> returns.
 
 
@@ -327,7 +327,7 @@ To register as an interface provider, an NDIS driver calls the
 
 
 
-<a href="https://www.bing.com/search?q=Introduction+to+Network+Drivers">Introduction to Network Drivers</a>
+<a href="netvista.introduction_to_network_drivers">Introduction to Network Drivers</a>
 
 
 

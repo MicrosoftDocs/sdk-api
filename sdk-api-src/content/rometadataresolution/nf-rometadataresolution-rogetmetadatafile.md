@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: WinTypes.lib
 req.dll: WinTypes.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RoGetMetaDataFile function

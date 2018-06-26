@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToUInt16VectorAlloc function
@@ -132,7 +132,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToUInt16VectorAlloc">PropVariantToUInt16VectorAlloc</a> to access a <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt16VectorAlloc">PropVariantToUInt16VectorAlloc</a> to access a <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -161,23 +161,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt16Vector">InitPropVariantFromUInt16Vector</a>
+<a href="shell.InitPropVariantFromUInt16Vector">InitPropVariantFromUInt16Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetUInt16Elem">PropVariantGetUInt16Elem</a>
+<a href="shell.PropVariantGetUInt16Elem">PropVariantGetUInt16Elem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt16">PropVariantToUInt16</a>
+<a href="shell.PropVariantToUInt16">PropVariantToUInt16</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt16Vector">PropVariantToUInt16Vector</a>
+<a href="shell.PropVariantToUInt16Vector">PropVariantToUInt16Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt16Array">VariantToUInt16Array</a>
+<a href="shell.VariantToUInt16Array">VariantToUInt16Array</a>
  
 
  

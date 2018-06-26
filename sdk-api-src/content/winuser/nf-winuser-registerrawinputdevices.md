@@ -1,0 +1,138 @@
+---
+UID: NF:winuser.RegisterRawInputDevices
+title: RegisterRawInputDevices function
+author: windows-sdk-content
+description: Registers the devices that supply the raw input data.
+old-location: inputdev\registerrawinputdevices.htm
+old-project: inputdev
+ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\registerrawinputdevices.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: RegisterRawInputDevices, RegisterRawInputDevices function [Keyboard and Mouse Input], _win32_RegisterRawInputDevices, _win32_registerrawinputdevices_cpp, inputdev.registerrawinputdevices, winui._win32_registerrawinputdevices, winuser/RegisterRawInputDevices
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
+ - MinUser.dll
+api_name:
+ - RegisterRawInputDevices
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# RegisterRawInputDevices function
+
+
+## -description
+
+
+Registers the devices that supply the raw input data.
+
+
+## -parameters
+
+
+
+
+### -param pRawInputDevices [in]
+
+Type: <b>PCRAWINPUTDEVICE</b>
+
+An array of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input.
+
+
+### -param uiNumDevices [in]
+
+Type: <b>UINT</b>
+
+The number of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures pointed to by <i>pRawInputDevices</i>.
+
+
+### -param cbSize [in]
+
+Type: <b>UINT</b>
+
+The size, in bytes, of a <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure.
+
+
+## -returns
+
+
+
+Type: <b>BOOL</b>
+
+<b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. If the function fails, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for more information.
+
+
+
+
+## -remarks
+
+
+
+To receive <a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a> messages, an application must first register the raw input devices using <b>RegisterRawInputDevices</b>. By default, an application does not receive raw input.
+
+To receive <a href="https://msdn.microsoft.com/2f98d8ea-b47b-4dea-9c38-f9697b18053a">WM_INPUT_DEVICE_CHANGE</a> messages, an application must specify the  RIDEV_DEVNOTIFY flag for each device class that is specified by the usUsagePage and usUsage fields of the  <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure  .  By default, an application does not receive  <b>WM_INPUT_DEVICE_CHANGE</b> notifications for raw input device arrival and removal.
+
+If a <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
+            
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>
+ 
+
+ 
+

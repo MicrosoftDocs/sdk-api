@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selinksdisplaymode.htm
 old-project: tablet
 ms.assetid: c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInksDisplayMode property, IInkEdit.SelInksDisplayMode, IInkEdit.put_SelInksDisplayMode, IInkEdit::SelInksDisplayMode, IInkEdit::get_SelInksDisplayMode, IInkEdit::put_SelInksDisplayMode, Ink, InkEdit.get_SelInksDisplayMode, InkEdit.put_SelInksDisplayMode, SelInksDisplayMode property [Tablet PC], SelInksDisplayMode property [Tablet PC],IInkEdit interface, Text, c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1, get_SelInksDisplayMode, inked/IInkEdit::SelInksDisplayMode, inked/IInkEdit::get_SelInksDisplayMode, inked/IInkEdit::put_SelInksDisplayMode, put_SelInksDisplayMode, tablet.inkedit_selinksdisplaymode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ This property is run time only.
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

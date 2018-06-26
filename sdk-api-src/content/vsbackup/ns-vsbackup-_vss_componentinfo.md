@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NS:vsbackup._VSS_COMPONENTINFO
 title: "_VSS_COMPONENTINFO"
 author: windows-sdk-content
@@ -201,7 +201,7 @@ See <a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Wo
 Boolean that indicates (for component-mode operations) whether the component is selectable for restore. 
       <b>bSelectableForRestore</b> allows the requester to determine whether this component can be 
       individually selected for restore if it had earlier been 
-      <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-i">implicitly included</a> in the 
+      <a href="vssgloss_i.htm">implicitly included</a> in the 
       backup. The Boolean is <b>true</b> if the component is selectable for restore and 
       <b>false</b> if it is not.
       
@@ -210,7 +210,7 @@ By default, a component's selectability for restore is <b>false</b>. A writer ca
        this default when it adds the component to its Writer Metadata Document using 
        <a href="https://msdn.microsoft.com/fdbcbcea-d49e-49bc-9bb8-2210a9de02a4">IVssCreateWriterMetadata::AddComponent</a>.
 
-If the component was <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa384647(v=vs.85).aspx">explicitly 
+If the component was <a href="vssgloss_e.htm">explicitly 
        added</a> to the backup document, it can always be individually selected for restore, so this flag then has 
        no meaning. If the component was implicitly added to the backup document, then the 
        <b>bSelectableForRestore</b> flag determines whether the component can be individually 

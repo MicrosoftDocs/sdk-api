@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel_GetPath.htm
 old-project: shell
 ms.assetid: 2043a56a-cc03-4b05-a746-de4d11ac02e7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetPath method, IOpenControlPanel.GetPath, IOpenControlPanel::GetPath, _shell_IOpenControlPanel_GetPath, shell.IOpenControlPanel_GetPath, shobjidl_core/IOpenControlPanel::GetPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ If <i>pszName</i> points to the item's canonical name or <b>GUID</b>, then the p
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
+<a href="ffd6c6de-2c65-4ab1-b1fa-27abe6a10342">Developing for the Control Panel</a>
 
 
 

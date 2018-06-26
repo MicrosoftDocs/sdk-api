@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_strokes.htm
 old-project: tablet
 ms.assetid: af31559b-741e-4af2-8c35-9e34ad1af85f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Strokes property, IInkRecognizerContext.Strokes, IInkRecognizerContext.putref_Strokes, IInkRecognizerContext::Strokes, IInkRecognizerContext::get_Strokes, IInkRecognizerContext::putref_Strokes, InkRecognizerContext.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognizerContext interface, af31559b-741e-4af2-8c35-9e34ad1af85f, get_Strokes, msinkaut/IInkRecognizerContext::Strokes, msinkaut/IInkRecognizerContext::get_Strokes, msinkaut/IInkRecognizerContext::putref_Strokes, putref_Strokes, tablet.inkrecognizercontext_strokes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ To keep the <b>Strokes</b> property of the <a href="https://msdn.microsoft.com/2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms696371(v=vs.85).aspx">IInkRecognizerContext</a>
+<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
 
 
 

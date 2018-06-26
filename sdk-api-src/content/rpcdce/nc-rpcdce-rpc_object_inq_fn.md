@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RPC_OBJECT_INQ_FN callback function
@@ -63,7 +63,7 @@ The
 ### -param *ObjectUuid
 
 Pointer to the variable that specifies the object 
-<a href="https://www.bing.com/search?q=UUID">UUID</a> that is to be mapped to a type UUID.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> that is to be mapped to a type UUID.
 
 
 ### -param *TypeUuid

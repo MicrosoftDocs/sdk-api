@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdriverinstallparams.htm
 old-project: devinst
 ms.assetid: 7c5b0e3f-75cd-48e1-b84e-d81e4e4db7b2
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetDriverInstallParams, SetupDiGetDriverInstallParams function [Device and Driver Installation], SetupDiGetDriverInstallParamsA, SetupDiGetDriverInstallParamsW, devinst.setupdigetdriverinstallparams, di-rtns_b8e7fdca-3201-42f9-86b4-a8a97be8cb90.xml, setupapi/SetupDiGetDriverInstallParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetDriverInstallParamsW function
@@ -62,7 +62,7 @@ The <b>SetupDiGetDriverInstallParams</b> function retrieves driver installation 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a driver information element that represents the driver for which to retrieve installation parameters.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a driver information element that represents the driver for which to retrieve installation parameters.
 
 
 ### -param DeviceInfoData [in, optional]

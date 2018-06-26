@@ -7,7 +7,7 @@ old-location: menurc\drawicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawicon.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: DrawIcon, DrawIcon function [Menus and Other Resources], _win32_DrawIcon, _win32_drawicon_cpp, menurc.drawicon, winui._win32_drawicon, winuser/DrawIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -113,7 +113,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Displaying+an+Icon">Displaying an Icon</a>.
+For an example, see <a href="using_icons.htm">Displaying an Icon</a>.
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: devinst\sp_removedevice_params.htm
 old-project: devinst
 ms.assetid: 08d3a5c7-9350-4fb3-8476-fb22e34d7054
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: "*PSP_REMOVEDEVICE_PARAMS, PSP_REMOVEDEVICE_PARAMS, PSP_REMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_REMOVEDEVICE_PARAMS, SP_REMOVEDEVICE_PARAMS structure [Device and Driver Installation], _SP_REMOVEDEVICE_PARAMS, devinst.sp_removedevice_params, di-struct_a1c87aad-2f81-4545-a088-1dadc98372d7.xml, setupapi/PSP_REMOVEDEVICE_PARAMS, setupapi/SP_REMOVEDEVICE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _SP_REMOVEDEVICE_PARAMS structure

@@ -7,7 +7,7 @@ old-location: shell\DefScreenSaverProc.htm
 old-project: shell
 ms.assetid: eda5c4d4-0484-4c81-a699-5fedea0bd1c2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _win32_DefScreenSaverProc, scrnsave/DefScreenSaverProc, shell.DefScreenSaverProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Scrnsave.lib
 req.dll: None
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DefScreenSaverProc function

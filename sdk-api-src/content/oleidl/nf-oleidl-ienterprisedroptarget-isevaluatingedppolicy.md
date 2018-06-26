@@ -7,7 +7,7 @@ old-location: com\isevaluatingedppolicy_isevaluatingedppolicy.htm
 old-project: com
 ms.assetid: EB28FF02-E747-4898-AEEF-811BAF7A6DBC
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],IsEvaluatingEdpPolicy method, IEnterpriseDropTarget.IsEvaluatingEdpPolicy, IEnterpriseDropTarget::IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy method [COM], IsEvaluatingEdpPolicy method [COM],IEnterpriseDropTarget interface, com.isevaluatingedppolicy_isevaluatingedppolicy, com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync, oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnterpriseDropTarget::IsEvaluatingEdpPolicy

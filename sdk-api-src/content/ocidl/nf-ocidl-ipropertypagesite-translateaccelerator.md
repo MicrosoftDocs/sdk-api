@@ -7,7 +7,7 @@ old-location: com\ipropertypagesite_translateaccelerator.htm
 old-project: com
 ms.assetid: d2233022-e66e-448c-a921-92948c05016f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IPropertyPageSite interface [COM],TranslateAccelerator method, IPropertyPageSite.TranslateAccelerator, IPropertyPageSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPageSite interface, _ctrl_ipropertypagesite_translateaccelerator, com.ipropertypagesite_translateaccelerator, ocidl/IPropertyPageSite::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyPageSite::TranslateAccelerator
@@ -61,7 +61,7 @@ Passes a keystroke to the property frame for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=MSG">MSG</a> structure to be processed.
+A pointer to the <a href="_win32_MSG_str_cpp">MSG</a> structure to be processed.
 
 
 ## -returns

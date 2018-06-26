@@ -7,7 +7,7 @@ old-location: shell\Shell_GetImageLists.htm
 old-project: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<a href="https://www.bing.com/search?q=Image+Lists">Image Lists</a>
+<a href="_win32_Image_Lists">Image Lists</a>
 
 
 

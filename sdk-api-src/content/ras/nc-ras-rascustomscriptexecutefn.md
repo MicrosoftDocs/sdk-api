@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RasCustomScriptExecuteFn callback function
@@ -157,7 +157,7 @@ When RAS calls
 
 In some cases, the <b>szUserName</b> of the 
 <a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure will be an empty string. In these cases, the custom-scripting DLL should use the Unicode version of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getusernamea">GetUserName</a> function to obtain the name of the current user.
+<a href="_win32_getusername">GetUserName</a> function to obtain the name of the current user.
 
 
 

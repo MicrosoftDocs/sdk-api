@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RmShutdown function
@@ -91,7 +91,7 @@ Force unresponsive applications and services to shut down after the timeout peri
 </dl>
 </td>
 <td width="60%">
-Shut down applications if and only if all the applications have been registered for restart  using the <a href="https://www.bing.com/search?q=RegisterApplicationRestart">RegisterApplicationRestart</a> function. If any processes or services cannot be restarted, then no processes or services are shut down.
+Shut down applications if and only if all the applications have been registered for restart  using the <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a> function. If any processes or services cannot be restarted, then no processes or services are shut down.
 
 </td>
 </tr>
@@ -247,7 +247,7 @@ Installers should always restart application and services using the <a href="htt
 
 
 
-<a href="https://www.bing.com/search?q=RegisterApplicationRestart">RegisterApplicationRestart</a>
+<a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a>
 
 
 

@@ -117,7 +117,7 @@ A value that specifies an offset in the dash sequence.   A positive dash offset 
 
 The following illustration shows different <i>dashOffset</i> values for the same custom dash style.
 
-<img alt="Illustration of four dashes with the same style and different dashOffset values" src="./images/StrokeStyle_DashOffset.png"/>
+<img alt="Illustration of four dashes with the same style and different dashOffset values" src="images/StrokeStyle_DashOffset.png"/>
 
 
 

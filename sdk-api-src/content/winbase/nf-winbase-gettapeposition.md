@@ -63,7 +63,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to get the tape position. This handle is created by using 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
+<a href="base.createfile">CreateFile</a>.
 
 
 ### -param dwPositionType [in]
@@ -335,7 +335,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

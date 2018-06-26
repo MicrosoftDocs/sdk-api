@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_Activate.htm
 old-project: shell
 ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
 ms.prod: windows
 ms.technology: windows-sdk

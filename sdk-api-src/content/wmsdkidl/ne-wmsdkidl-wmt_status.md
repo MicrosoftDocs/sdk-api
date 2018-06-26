@@ -114,7 +114,7 @@ A reporting object is connecting to server.
 
 ### -field WMT_NO_RIGHTS
 
-There is no <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">license</a> and the content is protected by version 1 digital rights management.
+There is no <a href="wmformat_glossary.htm">license</a> and the content is protected by version 1 digital rights management.
 
 
 ### -field WMT_MISSING_CODEC
@@ -176,7 +176,7 @@ The current file's header object contains metadata attributes that are different
 
 ### -field WMT_BACKUPRESTORE_BEGIN
 
-A <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">license</a> backup or restore has started.
+A <a href="wmformat_glossary.htm">license</a> backup or restore has started.
 
 
 ### -field WMT_SOURCE_SWITCH
@@ -202,12 +202,12 @@ The file loaded in the reader object cannot be played without a security update.
 
 ### -field WMT_NO_RIGHTS_EX
 
-There is no <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">license</a> and the content is protected by version 7 digital rights management.
+There is no <a href="wmformat_glossary.htm">license</a> and the content is protected by version 7 digital rights management.
 
 
 ### -field WMT_BACKUPRESTORE_END
 
-A <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">license</a> backup or restore has finished.
+A <a href="wmformat_glossary.htm">license</a> backup or restore has finished.
 
 
 ### -field WMT_BACKUPRESTORE_CONNECTING

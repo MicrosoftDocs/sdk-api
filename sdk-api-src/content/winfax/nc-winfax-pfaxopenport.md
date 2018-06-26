@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxopenport.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_15ro.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxOpenPortA, FaxOpenPortW, PFAXOPENPORT, PFAXOPENPORT callback, PFAXOPENPORT callback function [Fax Service], PORT_OPEN_MODIFY, PORT_OPEN_QUERY, _mfax_faxopenport, fax._mfax_faxopenport, winfax/FaxOpenPortA, winfax/FaxOpenPortW, winfax/PFAXOPENPORT
 ms.prod: windows
 ms.technology: windows-sdk

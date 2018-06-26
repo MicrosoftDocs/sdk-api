@@ -7,7 +7,7 @@ old-location: menurc\enumresourcenames.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ The enumeration never includes duplicates: if resources with the same name are c
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+a+Resource+List">Creating a Resource List</a>.
+For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
 
 <div class="code"></div>
 

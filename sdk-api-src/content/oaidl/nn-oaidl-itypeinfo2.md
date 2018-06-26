@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITypeInfo2 interface
@@ -212,7 +212,7 @@ Binds to a specific member based on a known DISPID, where the member name is not
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221442(v=vs.85).aspx">Type Description Interfaces and Functions </a>
+<a href="387d44b7-407b-44a9-9239-a4cb20e88cac">Type Description Interfaces and Functions </a>
  
 
  

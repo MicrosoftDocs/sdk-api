@@ -1,0 +1,129 @@
+---
+UID: NF:tspi.TSPI_phoneNegotiateTSPIVersion
+title: TSPI_phoneNegotiateTSPIVersion function
+author: windows-sdk-content
+description: The TSPI_phoneNegotiateTSPIVersion function returns the highest SPI version the service provider can operate under for this device, given the range of possible SPI versions.
+old-location: tspi\tspi_phonenegotiatetspiversion.htm
+old-project: Tapi
+ms.assetid: a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TSPI_phoneNegotiateTSPIVersion, TSPI_phoneNegotiateTSPIVersion function [TAPI 2.2], _tspi_tspi_phonenegotiatetspiversion, tspi.tspi_phonenegotiatetspiversion, tspi/TSPI_phoneNegotiateTSPIVersion
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tspi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: AAAccountingData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_phoneNegotiateTSPIVersion
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TSPI_phoneNegotiateTSPIVersion function
+
+
+## -description
+
+
+The 
+<b>TSPI_phoneNegotiateTSPIVersion</b> function returns the highest SPI version the service provider can operate under for this device, given the range of possible SPI versions.
+
+
+## -parameters
+
+
+
+
+### -param dwDeviceID
+
+The phone device for which interface version negotiation is to be performed. Permitted values are strictly within the range of phone devices identifiers for this service provider; the value 
+<a href="https://msdn.microsoft.com/ce978913-47a1-4387-bd1b-1795aaf82dd7">INITIALIZE_NEGOTIATION</a> is never passed to this function.
+
+
+### -param dwLowVersion
+
+The lowest TSPI version number under which TAPI can operate. The most significant <b>WORD</b> is the major version number and the least significant <b>WORD</b> is the minor version number.
+
+
+### -param dwHighVersion
+
+The highest TSPI version number under which TAPI can operate. The most significant <b>WORD</b> is the major version number and the least significant <b>WORD</b> is the minor version number.
+
+
+### -param lpdwTSPIVersion
+
+A pointer to a <b>DWORD</b>. Upon a successful return from this function the service provider fills this location with the highest TSPI version number, within the range requested by the caller, under which the service provider can operate. The most-significant <b>WORD</b> is the major version number and the least-significant <b>WORD</b> is the minor version number. If the requested range does not overlap the range supported by the service provider, the function returns PHONEERR_INCOMPATIBLEAPIVERSION.
+
+
+## -returns
+
+
+
+Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+
+PHONEERR_INCOMPATIBLEAPIVERSION, PHONEERR_RESOURCEUNAVAIL, PHONEERR_NODRIVER, PHONEERR_OPERATIONFAILED, PHONEERR_NOMEM, PHONEERR_OPERATIONUNAVAIL.
+
+
+
+
+## -remarks
+
+
+
+The service provider returns PHONEERR_OPERATIONUNAVAIL if the operation is not available. However, if the service provider supports any phone devices, it must also support this function and the function must not return PHONEERR_OPERATIONUNAVAIL.
+
+TAPI calls this function early in the initialization sequence for each phone device.
+
+Negotiation of an extension version is done through the separate procedure 
+<a href="https://msdn.microsoft.com/03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e">TSPI_phoneNegotiateExtVersion</a>.
+
+The corresponding function at the TAPI level is an overloaded function that also retrieves the extension identifier, if any, supported by the service provider. At the TSPI level, retrieving the extension identifier is accomplished through a separate procedure, namely, 
+<a href="https://msdn.microsoft.com/c4c1c68f-0a48-40f2-8eb9-f54c3572578c">TSPI_phoneGetExtensionID</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ce978913-47a1-4387-bd1b-1795aaf82dd7">INITIALIZE_NEGOTIATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/c4c1c68f-0a48-40f2-8eb9-f54c3572578c">TSPI_phoneGetExtensionID</a>
+
+
+
+<a href="https://msdn.microsoft.com/03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e">TSPI_phoneNegotiateExtVersion</a>
+ 
+
+ 
+

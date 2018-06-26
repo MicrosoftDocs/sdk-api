@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescription::GetDefaultColumnWidth
@@ -81,7 +81,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The values retrieved by this method are originally set through the <i>defaultColumnWidth</i> attribute of the <a href="https://www.bing.com/search?q=displayInfo">displayInfo</a> element in the property's .propdesc file.
+The values retrieved by this method are originally set through the <i>defaultColumnWidth</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propdesc file.
 
 If no value is set in the .propdesc file or if the method fails, the value pointed to by <i>pcxChars</i> is 20 characters.
 
@@ -93,7 +93,7 @@ If no value is set in the .propdesc file or if the method fails, the value point
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumSTATSTG interface
@@ -118,7 +118,7 @@ Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-43
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
+<a href="_com_cogetmalloc">CoGetMalloc</a>
 
 
 

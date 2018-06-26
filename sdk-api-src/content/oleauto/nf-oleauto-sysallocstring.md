@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SysAllocString function
@@ -78,7 +78,7 @@ If successful, returns the string. If <i>psz</i> is a zero-length string, return
 
 
 
-You can free strings created with <b>SysAllocString</b> using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+You can free strings created with <b>SysAllocString</b> using <a href="8F230EE3-5F6E-4CB9-A910-9C90B754DCD3">SysFreeString</a>.
 
 
 

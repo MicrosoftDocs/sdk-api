@@ -121,7 +121,7 @@ The <i>pDialableAddress</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>pDialableAddress</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>pDialableAddress</i> parameter.
 			
 
 The availability of this value depends on the service provider. For example, on an address exposed by the Unimodem service provider, this method will return an empty string instead of a phone number.
@@ -138,7 +138,7 @@ The availability of this value depends on the service provider. For example, on 
 
 
 
-<a href="https://www.bing.com/search?q=Dialable+Addresses">Dialable Addresses</a>
+<a href="address_ovr.htm">Dialable Addresses</a>
 
 
 

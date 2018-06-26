@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSSgetAllDevices.htm
 old-project: WMLSS
 ms.assetid: 38dd73b1-fff2-40d3-877f-9ed3c8dfca5b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],getAllDevices method, IWindowsMediaLibrarySharingServices.getAllDevices, IWindowsMediaLibrarySharingServices::getAllDevices, getAllDevices, getAllDevices method [Windows Media Library Sharing Services], getAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSgetAllDevices, wmlss/IWindowsMediaLibrarySharingServices::getAllDevices
 ms.prod: windows
 ms.technology: windows-sdk

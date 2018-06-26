@@ -7,7 +7,7 @@ old-location: edp\enterprise_data_policies.htm
 old-project: EDP
 ms.assetid: BCD039C9-88F6-495C-9AE4-B80D06B2557B
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: EDP.enterprise_data_policies, ENTERPRISE_DATA_POLICIES, ENTERPRISE_DATA_POLICIES enumeration, ENTERPRISE_POLICY_ALLOWED, ENTERPRISE_POLICY_ENLIGHTENED, ENTERPRISE_POLICY_EXEMPT, ENTERPRISE_POLICY_NONE, srpapi/ENTERPRISE_DATA_POLICIES, srpapi/ENTERPRISE_POLICY_ALLOWED, srpapi/ENTERPRISE_POLICY_ENLIGHTENED, srpapi/ENTERPRISE_POLICY_EXEMPT, srpapi/ENTERPRISE_POLICY_NONE
 ms.prod: windows
 ms.technology: windows-sdk

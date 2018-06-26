@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_IsRestricted.htm
 old-project: shell
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],IsRestricted method, IShellDispatch2.IsRestricted, IShellDispatch2::IsRestricted, IsRestricted, IsRestricted method [Windows Shell], IsRestricted method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_IsRestricted, shell.IShellDispatch2_IsRestricted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,14 +78,14 @@ Retrieves a group's restriction setting from the registry.
 
 #### - sGroup [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the group name. This value is the name of a registry subkey under which to check for the restriction.
 
 
 #### - sRestriction [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the restriction whose value is to be retrieved.
 

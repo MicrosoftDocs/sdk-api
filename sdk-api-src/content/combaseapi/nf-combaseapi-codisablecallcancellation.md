@@ -7,7 +7,7 @@ old-location: com\codisablecallcancellation.htm
 old-project: com
 ms.assetid: 33d99eab-a0bf-4e4d-93a4-5c03c41cebbb
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CoDisableCallCancellation, CoDisableCallCancellation function [COM], _com_CoDisableCallCancellation, com.codisablecallcancellation, combaseapi/CoDisableCallCancellation
 ms.prod: windows
 ms.technology: windows-sdk

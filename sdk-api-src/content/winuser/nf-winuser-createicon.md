@@ -7,7 +7,7 @@ old-location: menurc\createicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createicon.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CreateIcon, CreateIcon function [Menus and Other Resources], _win32_CreateIcon, _win32_createicon_cpp, menurc.createicon, winui._win32_createicon, winuser/CreateIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -163,7 +163,7 @@ When you are finished using the icon, destroy it using the <a href="https://msdn
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+an+Icon">Creating an Icon</a>.
+For an example, see <a href="using_icons.htm">Creating an Icon</a>.
 
 <div class="code"></div>
 

@@ -7,7 +7,7 @@ old-location: menurc\getclipcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getclipcursor.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: GetClipCursor, GetClipCursor function [Menus and Other Resources], _win32_GetClipCursor, _win32_getclipcursor_cpp, menurc.getclipcursor, winui._win32_getclipcursor, winuser/GetClipCursor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -93,7 +93,7 @@ The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Confining+a+Cursor">Confining a Cursor</a>.
+For an example, see <a href="using_cursors.htm">Confining a Cursor</a>.
 
 <div class="code"></div>
 

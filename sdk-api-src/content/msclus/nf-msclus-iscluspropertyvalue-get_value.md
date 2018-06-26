@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:msclus.ISClusPropertyValue.get_Value
 title: ISClusPropertyValue::get_Value
 author: windows-sdk-content
@@ -57,8 +57,8 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Sets or retrieves 
-    the <a href="https://msdn.microsoft.com/en-us/library/aa369367(v=vs.85).aspx">data value</a> of a 
-    <a href="https://msdn.microsoft.com/en-us/library/aa371816(v=vs.85).aspx">property value</a>.
+    the <a href="d_gly.htm">data value</a> of a 
+    <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

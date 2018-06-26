@@ -7,7 +7,7 @@ old-location: menurc\translateaccelerator.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: TranslateAccelerator, TranslateAccelerator function [Menus and Other Resources], TranslateAcceleratorA, TranslateAcceleratorW, _win32_TranslateAccelerator, _win32_translateaccelerator_cpp, menurc.translateaccelerator, winui._win32_translateaccelerator, winuser/TranslateAccelerator, winuser/TranslateAcceleratorA, winuser/TranslateAcceleratorW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -134,7 +134,7 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+Accelerators+for+Font+Attributes">Creating Accelerators for Font Attributes</a>.
+For an example, see <a href="using_keyboard_accelerators.htm">Creating Accelerators for Font Attributes</a>.
 
 <div class="code"></div>
 

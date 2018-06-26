@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevinitialize.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8nhh.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxDevInitialize, FaxDevInitialize function [Fax Service], _mfax_faxdevinitialize, fax._mfax_faxdevinitialize, faxdev/FaxDevInitialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The fax service calls the <b>FaxDevInitialize</b> function each time the service
 
 Type: <b>HLINEAPP</b>
 
-Specifies a handle to the fax service's registration with TAPI. For more information, see the TAPI 2.x <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a> function.
+Specifies a handle to the fax service's registration with TAPI. For more information, see the TAPI 2.x <a href="_tapi2_lineinitializeex">lineInitializeEx</a> function.
 
 
 ### -param HeapHandle [in]
@@ -136,7 +136,7 @@ The FSP must supply the <a href="https://msdn.microsoft.com/6327605f-9c83-4eef-b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="_tapi2_lineinitializeex">lineInitializeEx</a>
  
 
  

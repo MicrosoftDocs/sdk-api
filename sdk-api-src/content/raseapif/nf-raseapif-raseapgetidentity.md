@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RasEapGetIdentity function
@@ -255,8 +255,8 @@ This function is called by the RAS function,
 
 If 
 <b>RasEapGetIdentity</b> displays a user interface, the user interface must support 
-<a href="https://www.bing.com/search?q=WM_COMMAND">WM_COMMAND</a> messages where 
-<a href="https://www.bing.com/search?q=LOWORD">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="_win32_wm_command_cpp">WM_COMMAND</a> messages where 
+<a href="_win32_loword_cpp">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

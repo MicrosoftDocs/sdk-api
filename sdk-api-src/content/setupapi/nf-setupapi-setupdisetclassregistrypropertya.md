@@ -7,7 +7,7 @@ old-location: devinst\setupdisetclassregistryproperty.htm
 old-project: devinst
 ms.assetid: 78457461-11ef-44ec-aa60-1adf4a48db8c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty function [Device and Driver Installation], SetupDiSetClassRegistryPropertyA, SetupDiSetClassRegistryPropertyW, devinst.setupdisetclassregistryproperty, di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml, setupapi/SetupDiSetClassRegistryProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiSetClassRegistryPropertyA function
@@ -93,7 +93,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 #### SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://www.bing.com/search?q=Installing+a+Filter+Driver">Installing a Filter Driver</a> and <a href="https://www.bing.com/search?q=INF+ClassInstall32+Section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>. For more information about how to install a class filter driver, see <a href="devinst.installing_a_filter_driver">Installing a Filter Driver</a> and <a href="devinst.inf_classinstall32_section">INF ClassInstall32 Section</a>. 
 
 
 
@@ -111,7 +111,7 @@ The caller supplies the device's security descriptor as a text string. For infor
 
 #### SPCRP_UPPERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="https://www.bing.com/search?q=Installing+a+Filter+Driver">Installing a Filter Driver</a> and <a href="https://www.bing.com/search?q=INF+ClassInstall32+Section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="devinst.installing_a_filter_driver">Installing a Filter Driver</a> and <a href="devinst.inf_classinstall32_section">INF ClassInstall32 Section</a>. 
 
 
 ### -param PropertyBuffer [in, optional]

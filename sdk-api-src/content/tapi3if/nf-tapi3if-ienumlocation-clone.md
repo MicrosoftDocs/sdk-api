@@ -131,8 +131,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/fc8c235c-92ec-448f-bbea-c93192d36beb">IEnumLocation</a> interface returned by <b>IEnumLocation::Clone</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/fc8c235c-92ec-448f-bbea-c93192d36beb">IEnumLocation</a> interface returned by <b>IEnumLocation::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumLocation</b> interface to free resources associated with it.
 
 

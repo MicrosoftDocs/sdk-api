@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -201,7 +201,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 
-<a href="https://www.bing.com/search?q=CreateDesktop">CreateDesktop</a>
+<a href="https://msdn.microsoft.com/c6ed40c5-13a9-4697-a727-730adc6a912d">CreateDesktop</a>
 
 
 

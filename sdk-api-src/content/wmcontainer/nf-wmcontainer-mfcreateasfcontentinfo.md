@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-Creates the <a href="https://docs.microsoft.com/windows/desktop//medfound/asf-file-structure">ASF Header Object</a> object.
+Creates the <a href="asf_file_structure.htm">ASF Header Object</a> object.
 
 
 

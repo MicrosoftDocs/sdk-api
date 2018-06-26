@@ -7,7 +7,7 @@ old-location: shell\IExpDispSupport_OnInvoke.htm
 old-project: shell
 ms.assetid: 92228340-2472-4920-90b7-ce46cab7406e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IExpDispSupport interface [Windows Shell],OnInvoke method, IExpDispSupport.OnInvoke, IExpDispSupport::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnInvoke, shell.IExpDispSupport_OnInvoke, zone_IExpDispSupport_OnInvoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,9 +113,9 @@ The member is changed by a reference assignment, rather than a value assignment.
 
 ### -param pdispparams
 
-Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagdispparams">DISPPARAMS</a>*</b>
+Type: <b><a href="a16e5a21-766e-4287-b039-13429aa78f8b">DISPPARAMS</a>*</b>
 
-A pointer to a <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagdispparams">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
+A pointer to a <a href="a16e5a21-766e-4287-b039-13429aa78f8b">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
 
 ### -param pVarResult
@@ -136,7 +136,7 @@ A pointer to a structure that contains exception information. This structure sho
 
 Type: <b>UINT*</b>
 
-The index within the <b>rgvarg</b> member of the <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagdispparams">DISPPARAMS</a> structure of the first argument that has an error. Arguments are stored in <b>rgvarg</b> in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to <b>NULL</b>.
+The index within the <b>rgvarg</b> member of the <a href="a16e5a21-766e-4287-b039-13429aa78f8b">DISPPARAMS</a> structure of the first argument that has an error. Arguments are stored in <b>rgvarg</b> in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND. This argument can be set to <b>NULL</b>.
 
 
 ## -returns
@@ -154,7 +154,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For more information, see <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
+For more information, see <a href="964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>.
 
 
 

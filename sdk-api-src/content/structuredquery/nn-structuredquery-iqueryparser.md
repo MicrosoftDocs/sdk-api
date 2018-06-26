@@ -165,7 +165,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://www.bing.com/search?q=Advanced+Query+Syntax">Advanced Query Syntax</a>
+<a href="search._search_2x_WDS_AqsReference">Advanced Query Syntax</a>
  
 
  

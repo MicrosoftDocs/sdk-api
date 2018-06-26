@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: DfLayout.lib
 req.dll: DfLayout.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # StgOpenLayoutDocfile function

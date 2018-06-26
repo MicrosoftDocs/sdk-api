@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ntquery.lib
 req.dll: Query.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # LoadIFilter function

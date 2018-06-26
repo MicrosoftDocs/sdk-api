@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinitializeeventqueue.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ip1.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ Both the <i>hWnd</i> and <i>CompletionPort</i> parameters are <b>NULL</b>, or bo
 </dl>
 </td>
 <td width="60%">
-The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="https://www.bing.com/search?q=WM_USER">WM_USER</a>.
+The <i>FaxHandle</i> parameter is <b>NULL</b>; or the <i>hWnd</i> parameter is specified but the <i>FaxHandle</i> parameter does not specify a connection with a local fax server; or the <i>MessageStart</i> parameter specifies a message in the range below <a href="_win32_WM_USER">WM_USER</a>.
 
 </td>
 </tr>

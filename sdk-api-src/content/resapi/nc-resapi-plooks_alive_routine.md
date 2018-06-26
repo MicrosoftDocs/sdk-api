@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PLOOKS_ALIVE_ROUTINE callback function
@@ -90,7 +90,7 @@ For effective implementation strategies of the
 
 #### Examples
 
-See <a href="https://www.bing.com/search?q=Resource+DLL+Examples">Resource DLL Examples</a>.
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

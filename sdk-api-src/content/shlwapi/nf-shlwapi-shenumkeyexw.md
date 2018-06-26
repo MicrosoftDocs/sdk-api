@@ -7,7 +7,7 @@ old-location: shell\SHEnumKeyEx.htm
 old-project: shell
 ms.assetid: 51bf9cf7-87bc-407c-b2ee-18db3cdfe1dc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHEnumKeyEx, SHEnumKeyEx function [Windows Shell], SHEnumKeyExA, SHEnumKeyExW, _win32_SHEnumKeyEx, shell.SHEnumKeyEx, shlwapi/SHEnumKeyEx, shlwapi/SHEnumKeyExA, shlwapi/SHEnumKeyExW
 ms.prod: windows
 ms.technology: windows-sdk

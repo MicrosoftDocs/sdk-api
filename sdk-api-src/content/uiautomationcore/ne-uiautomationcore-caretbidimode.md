@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Contains possible values for the <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-caretbidimode">CaretBidiMode</a> text attribute, which indicates whether the caret is in text that flows from left to right, or from right to left.
+Contains possible values for the <a href="uiauto_textattribute_ids.htm">CaretBidiMode</a> text attribute, which indicates whether the caret is in text that flows from left to right, or from right to left.
 
 
 ## -enum-fields

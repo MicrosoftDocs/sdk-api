@@ -94,7 +94,7 @@ A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI
 Specifies whether the full-screen display mode or the swap-chain back buffer is stereo. 
       <b>TRUE</b> if stereo; otherwise, <b>FALSE</b>. If you specify stereo, you 
       must also specify a flip-model swap chain (that is, a swap chain that has the 
-      <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
+      <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
       value set in the <b>SwapEffect</b> member).
 
 
@@ -129,7 +129,7 @@ A <a href="https://msdn.microsoft.com/7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE">DXGI
 A <a href="https://msdn.microsoft.com/211d53a9-1332-4e94-abd5-7df7f19094a6">DXGI_SWAP_EFFECT</a>-typed value 
       that describes the presentation model that is used by the swap chain and options for handling the contents of 
       the presentation buffer after presenting a surface. You must specify the 
-      <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
+      <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
       value when you call the 
       <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a> 
       method because this method supports only <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">flip 
@@ -166,7 +166,7 @@ In full-screen mode, there is a dedicated front buffer; in windowed mode, the de
 
 For a <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">flip-model</a> swap chain (that is, a swap 
      chain that has the 
-     <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
+     <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> 
      value set in the <b>SwapEffect</b> member), you must set the 
      <b>Format</b> member to 
      <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R16G16B16A16_FLOAT</a>, 

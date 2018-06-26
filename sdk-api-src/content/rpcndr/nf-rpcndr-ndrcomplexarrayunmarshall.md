@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:rpcndr.NdrComplexArrayUnmarshall
 title: NdrComplexArrayUnmarshall function
 author: windows-sdk-content
@@ -8,7 +8,7 @@ old-project: DevNotes
 ms.assetid: 2b702bec-e5f4-4bf3-a2d4-d4b901929e53
 ms.author: windowssdkdev
 ms.date: 06/04/2018
-ms.keywords: NdrComplexArrayUnmarshall, NdrComplexArrayUnmarshall function , rpcndr.NdrComplexArrayUnmarshall, winprog.ndrcomplexarrayunmarshall
+ms.keywords: NdrComplexArrayUnmarshall, NdrComplexArrayUnmarshall function [Windows API], rpcndr/NdrComplexArrayUnmarshall, winprog.ndrcomplexarrayunmarshall
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrComplexArrayUnmarshall function

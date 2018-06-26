@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescriptionList interface
@@ -98,9 +98,9 @@ Ordered lists of properties are used to select which properties are shown in var
 
 
 
-To get an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, obtain an <a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a> interface and call <a href="https://msdn.microsoft.com/443b95c9-0a9e-4ad5-8774-ad3b1b51c136">IShellItem2::GetPropertyDescriptionList</a>, or obtain the list in string form and call <a href="https://www.bing.com/search?q=PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>. 
+To get an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, obtain an <a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a> interface and call <a href="https://msdn.microsoft.com/443b95c9-0a9e-4ad5-8774-ad3b1b51c136">IShellItem2::GetPropertyDescriptionList</a>, or obtain the list in string form and call <a href="shell.PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>. 
 
-To obtain a property description list in string form, call <a href="https://msdn.microsoft.com/912b3653-340b-4186-b652-53d958534c1d">IShellItem2::GetString</a> with one of the PKEY_PropList keys.  For example, <code>PKEY_PropList_InfoTip</code> (<a href="https://www.bing.com/search?q=System.PropList.InfoTip">System.PropList.InfoTip</a>) will return the string form of a list of properties suitable for showing in an infotip.  If you are reading multiple values from an item, it is more efficient to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> with a PKEY_PropList key so that the item is not reopened multiple times.  See Property Lists for details on how to register a property list string for a file type.
+To obtain a property description list in string form, call <a href="https://msdn.microsoft.com/912b3653-340b-4186-b652-53d958534c1d">IShellItem2::GetString</a> with one of the PKEY_PropList keys.  For example, <code>PKEY_PropList_InfoTip</code> (<a href="shell.props_System_PropList_InfoTip">System.PropList.InfoTip</a>) will return the string form of a list of properties suitable for showing in an infotip.  If you are reading multiple values from an item, it is more efficient to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> with a PKEY_PropList key so that the item is not reopened multiple times.  See Property Lists for details on how to register a property list string for a file type.
 
 
 
@@ -110,7 +110,7 @@ To obtain a property description list in string form, call <a href="https://msdn
 
 
 
-<a href="https://www.bing.com/search?q=PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>
+<a href="shell.PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_areacode_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1git.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service],FaxOutboundRoutingRule object, FaxOutboundRoutingRule object [Fax Service],AreaCode property, FaxOutboundRoutingRule.AreaCode, IFaxOutboundRoutingRule.get_AreaCode, IFaxOutboundRoutingRule::get_AreaCode, _mfax_faxoutboundroutingrule.areacode, fax._mfax_faxoutboundroutingrule_areacode, fax._mfax_faxoutboundroutingrule_areacode_vb, get_AreaCode
 ms.prod: windows
 ms.technology: windows-sdk

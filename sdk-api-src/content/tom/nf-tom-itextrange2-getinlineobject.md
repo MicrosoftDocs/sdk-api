@@ -274,135 +274,135 @@ The inline object alignment, which can be one of these meanings depending on the
 <th>Meaning of Align Parameter</th>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomRuby</a></td>
+<td><a href="objecttype.htm">tomRuby</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyBelow</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlignCenter</a> (default)</dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlign010</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlign121</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlignLeft</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomRubyAlignRight</a></dt>
+<dt><a href="tomconstants.htm">tomRubyBelow</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlignCenter</a> (default)</dt>
+<dt><a href="tomconstants.htm">tomRubyAlign010</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlign121</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlignLeft</a></dt>
+<dt><a href="tomconstants.htm">tomRubyAlignRight</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBox</a></td>
+<td><a href="objecttype.htm">tomBox</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxAlignCenter</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceMask</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceDefault</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceUnary</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceBinary</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceRelational</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceSkip</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceOrd</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSpaceDifferential</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSizeText</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSizeScript</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSizeScriptScript</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoBreak</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomTransparentForPositioning</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomTransparentForSpacing</a></dt>
+<dt><a href="tomconstants.htm">tomBoxAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceMask</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceDefault</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceUnary</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceBinary</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceRelational</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceSkip</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceOrd</a></dt>
+<dt><a href="tomconstants.htm">tomSpaceDifferential</a></dt>
+<dt><a href="tomconstants.htm">tomSizeText</a></dt>
+<dt><a href="tomconstants.htm">tomSizeScript</a></dt>
+<dt><a href="tomconstants.htm">tomSizeScriptScript</a></dt>
+<dt><a href="tomconstants.htm">tomNoBreak</a></dt>
+<dt><a href="tomconstants.htm">tomTransparentForPositioning</a></dt>
+<dt><a href="tomconstants.htm">tomTransparentForSpacing</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBoxedFormula</a></td>
+<td><a href="objecttype.htm">tomBoxedFormula</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideTop</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideBottom</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideLeft</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxHideRight</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeH</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeV</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeTLBR</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBoxStrikeBLTR</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideTop</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideBottom</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideLeft</a></dt>
+<dt><a href="tomconstants.htm">tomBoxHideRight</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeH</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeV</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeTLBR</a></dt>
+<dt><a href="tomconstants.htm">tomBoxStrikeBLTR</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBrackets</a></td>
+<td><a href="objecttype.htm">tomBrackets</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignDefault</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignCenter</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomAlignMatchAscentDescent</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathVariant</a></dt>
+<dt><a href="tomconstants.htm">tomAlignDefault</a></dt>
+<dt><a href="tomconstants.htm">tomAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomAlignMatchAscentDescent</a></dt>
+<dt><a href="tomconstants.htm">tomMathVariant</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomEquationArray</a></td>
+<td><a href="objecttype.htm">tomEquationArray</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayLayoutWidth</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignMask</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignCenter</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignTopRow</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomEqArrayAlignBottomRow</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayLayoutWidth</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignMask</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignTopRow</a></dt>
+<dt><a href="tomconstants.htm">tomEqArrayAlignBottomRow</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomMatrix</a></td>
+<td><a href="objecttype.htm">tomMatrix</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignMask</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignCenter</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignTopRow</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMatrixAlignBottomRow</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowMatPlaceHldr</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignMask</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignCenter</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignTopRow</a></dt>
+<dt><a href="tomconstants.htm">tomMatrixAlignBottomRow</a></dt>
+<dt><a href="tomconstants.htm">tomShowMatPlaceHldr</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomNary</a></td>
+<td><a href="objecttype.htm">tomNary</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsDefault</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsUnderOver</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsSubSup</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUpperLimitAsSuperScript</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLimitsOpposite</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowLLimPlaceHldr</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowULimPlaceHldr</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomDontGrowWithContent</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomGrowWithContent</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsDefault</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsUnderOver</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsSubSup</a></dt>
+<dt><a href="tomconstants.htm">tomUpperLimitAsSuperScript</a></dt>
+<dt><a href="tomconstants.htm">tomLimitsOpposite</a></dt>
+<dt><a href="tomconstants.htm">tomShowLLimPlaceHldr</a></dt>
+<dt><a href="tomconstants.htm">tomShowULimPlaceHldr</a></dt>
+<dt><a href="tomconstants.htm">tomDontGrowWithContent</a></dt>
+<dt><a href="tomconstants.htm">tomGrowWithContent</a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomPhantom</a></td>
+<td><a href="objecttype.htm">tomPhantom</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomShow</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroWidth</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroAscent</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomPhantomZeroDescent</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomPhantomTransparent
+<dt><a href="tomconstants.htm">tomPhantomShow</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomZeroWidth</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomZeroAscent</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomZeroDescent</a></dt>
+<dt><a href="tomconstants.htm">tomPhantomTransparent
 </a></dt>
 </dl>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomRadical</a></td>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShowDegPlaceHldr</a></td>
+<td><a href="objecttype.htm">tomRadical</a></td>
+<td><a href="tomconstants.htm">tomShowDegPlaceHldr</a></td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubSup</a></td>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSubSupAlign</a></td>
+<td><a href="objecttype.htm">tomSubSup</a></td>
+<td><a href="tomconstants.htm">tomSubSupAlign</a></td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomStretchStack</a></td>
+<td><a href="objecttype.htm">tomStretchStack</a></td>
 <td>
 <dl>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchCharBelow</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchCharAbove</a></dt>
-<dt><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStretchBaseBelow</a></dt>
-<dt><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh768766.aspx">tomStretchBaseAbove
+<dt><a href="tomconstants.htm">tomStretchCharBelow</a></dt>
+<dt><a href="tomconstants.htm">tomStretchCharAbove</a></dt>
+<dt><a href="tomconstants.htm">tomStretchBaseBelow</a></dt>
+<dt><a href="tomconstants.htm">tomStretchBaseAbove
 </a></dt>
 </dl>
 </td>
@@ -425,43 +425,43 @@ The value for each object type is shown in the following table..  <table>
 <th>Meaning of align parameter</th>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomAccent</a></td>
+<td><a href="objecttype.htm">tomAccent</a></td>
 <td>Accent (U+0300—U+36F, U+20D0—U+20EF)</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBoxedFormula</a></td>
+<td><a href="objecttype.htm">tomBoxedFormula</a></td>
 <td>U+25AD for rectangle enclosure</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBrackets</a></td>
+<td><a href="objecttype.htm">tomBrackets</a></td>
 <td>Opening bracket. Default: U+0028.  </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBracketsWithSeps</a></td>
+<td><a href="objecttype.htm">tomBracketsWithSeps</a></td>
 <td>Opening bracket with separators. Default: U+0028</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomEquationArray</a></td>
+<td><a href="objecttype.htm">tomEquationArray</a></td>
 <td>U+2588</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomFraction</a></td>
+<td><a href="objecttype.htm">tomFraction</a></td>
 <td>Normal built-up fraction: U+002F; small numeric fraction: U+2298</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomFunctionApply</a></td>
+<td><a href="objecttype.htm">tomFunctionApply</a></td>
 <td>U+2061</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomLeftSubSup</a></td>
+<td><a href="objecttype.htm">tomLeftSubSup</a></td>
 <td>U+005E</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomLowerLimit</a></td>
+<td><a href="objecttype.htm">tomLowerLimit</a></td>
 <td>U+252C</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomMatrix</a></td>
+<td><a href="objecttype.htm">tomMatrix</a></td>
 <td>
 <dl>
 <dt>U+25A0: no enclosing brackets
@@ -476,19 +476,19 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomNary</a></td>
+<td><a href="objecttype.htm">tomNary</a></td>
 <td>n-ary symbol</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomOpChar</a></td>
+<td><a href="objecttype.htm">tomOpChar</a></td>
 <td>Internal use for no-build operators</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomOverbar</a></td>
+<td><a href="objecttype.htm">tomOverbar</a></td>
 <td>U+00AF</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomPhantom</a></td>
+<td><a href="objecttype.htm">tomPhantom</a></td>
 <td>
 <dl>
 <dt>U+27E1: full or custom phantom
@@ -509,7 +509,7 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomRadical</a></td>
+<td><a href="objecttype.htm">tomRadical</a></td>
 <td>
 <dl>
 <dt>U+221A: square or nth root
@@ -522,7 +522,7 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSlashedFraction</a></td>
+<td><a href="objecttype.htm">tomSlashedFraction</a></td>
 <td>
 <dl>
 <dt>U+2044: skewed fraction</dt>
@@ -532,17 +532,17 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomStack</a></td>
+<td><a href="objecttype.htm">tomStack</a></td>
 <td>U+00A6
 
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomStretchStack</a></td>
+<td><a href="objecttype.htm">tomStretchStack</a></td>
 <td>Horizontal stretch character (see <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> Appendix B for a list)</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubscript</a></td>
+<td><a href="objecttype.htm">tomSubscript</a></td>
 <td>U+005E
 
 
@@ -551,19 +551,19 @@ The value for each object type is shown in the following table..  <table>
 </td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubSup</a></td>
+<td><a href="objecttype.htm">tomSubSup</a></td>
 <td>U+005E</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSuperscript</a></td>
+<td><a href="objecttype.htm">tomSuperscript</a></td>
 <td>U+005F</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomUnderbar</a></td>
+<td><a href="objecttype.htm">tomUnderbar</a></td>
 <td>U+2581</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomUpperLimit</a></td>
+<td><a href="objecttype.htm">tomUpperLimit</a></td>
 <td>U+2534</td>
 </tr>
 </table>

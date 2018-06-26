@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyStoreFactory::GetPropertyStoreForKeys
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorefactory-getpropertystore">IPropertyStoreFactory::GetPropertyStore</a>.
+Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 
 ## -parameters
@@ -61,24 +61,24 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 ### -param rgKeys [in]
 
-Type: <b>const <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
-A pointer to an array of <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structures.
+A pointer to an array of <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structures.
 
 
 ### -param cKeys [in]
 
 Type: <b>UINT</b>
 
-The number of <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structures in the array pointed to by <i>rgKeys</i>.
+The number of <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structures in the array pointed to by <i>rgKeys</i>.
 
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
 
-<a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
+<a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
 
 
 ### -param riid [in]

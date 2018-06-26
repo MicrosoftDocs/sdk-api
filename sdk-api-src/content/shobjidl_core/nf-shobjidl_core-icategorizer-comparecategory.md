@@ -7,7 +7,7 @@ old-location: shell\ICategorizer_CompareCategory.htm
 old-project: shell
 ms.assetid: 25775fa5-595d-4911-9cd4-47fde429b923
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: CompareCategory, CompareCategory method [Windows Shell], CompareCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],CompareCategory method, ICategorizer.CompareCategory, ICategorizer::CompareCategory, inet_ICategorizer_CompareCategory, shell.ICategorizer_CompareCategory, shobjidl_core/ICategorizer::CompareCategory
 ms.prod: windows
 ms.technology: windows-sdk

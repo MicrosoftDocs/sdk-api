@@ -77,7 +77,7 @@ When you highlight a run of heterogeneously sized text, the Ribbon framework set
 
 The following screen shot shows the <b>Font grow</b> and <b>Font shrink</b> buttons on the <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a>.
 
-<img alt="Screen shot of the Font grow and Font shrink buttons on the FontControl." src="./images/Markup/FontControl_IncDec.png"/>
+<img alt="Screen shot of the Font grow and Font shrink buttons on the FontControl." src="images/Markup/FontControl_IncDec.png"/>
 
 
 

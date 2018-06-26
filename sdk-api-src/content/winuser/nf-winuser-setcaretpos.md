@@ -7,7 +7,7 @@ old-location: menurc\setcaretpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\setcaretpos.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: SetCaretPos, SetCaretPos function [Menus and Other Resources], _win32_SetCaretPos, _win32_setcaretpos_cpp, menurc.setcaretpos, winui._win32_setcaretpos, winuser/SetCaretPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -103,7 +103,7 @@ This API does not participate in DPI virtualization. The provided position is in
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+and+Displaying+a+Caret">Creating and Displaying a Caret</a>.
+For an example, see <a href="using_carets.htm">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 

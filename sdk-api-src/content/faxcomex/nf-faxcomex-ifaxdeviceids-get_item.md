@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxDeviceIds.get_Item
 title: IFaxDeviceIds::get_Item
 author: windows-sdk-content
-description: The IFaxDeviceIds::get_Item method represents a device ID from the FaxDeviceIds collection.
-old-location: fax\_mfax_faxdeviceids_item_cpp.htm
+description: The Item property represents a device ID from the FaxDeviceIds collection.
+old-location: fax\_mfax_faxdeviceids_item.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_0xt9_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinta_n_0xt9.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxDeviceIds interface [Fax Service],get_Item method, IFaxDeviceIds.get_Item, IFaxDeviceIds::get_Item, _mfax_faxdeviceids.item_cpp, fax._mfax_faxdeviceids_item_cpp, faxcomex/IFaxDeviceIds::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDeviceIds interface
+ms.date: 06/12/2018
+ms.keywords: FaxDeviceIds object [Fax Service],Item property, FaxDeviceIds.Item, IFaxDeviceIds.get_Item, IFaxDeviceIds.put_Item, IFaxDeviceIds::get_Item, Item property [Fax Service], Item property [Fax Service],FaxDeviceIds object, _mfax_faxdeviceids.item, fax._mfax_faxdeviceids_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,7 +36,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxDeviceIds.Item
  - IFaxDeviceIds.get_Item
+ - IFaxDeviceIds.put_Item
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,37 +53,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxDeviceIds::get_Item</b> method represents a device ID from the <a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a> collection.
+The <b>Item</b> property represents a device ID from the <a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a> collection.
+
+This property is read/write.
 
 
 ## -parameters
-
-
-
-
-### -param lIndex [in]
-
-Type: <b>long</b>
-
-A value specifying the item to retrieve from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of devices returned by a call to the <a href="https://msdn.microsoft.com/d47b51e0-d228-467b-acb3-b84e3cebb76d">IFaxDeviceIds::get_Count</a> method.
-
-
-### -param plDeviceId [out, retval]
-
-Type: <b>long*</b>
-
-Pointer to a value that receives the item requested.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 
 ## -see-also

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PeerCollabRegisterEvent function
@@ -61,7 +61,7 @@ The <b>PeerCollabRegisterEvent</b> function registers an application with the pe
 
 ### -param hEvent [in]
 
-Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="https://msdn.microsoft.com/ee410a47-91a6-48ed-8c05-128a141a5c98">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
+Handle created by CreateEvent that the application is signaled on  when an event is triggered.  When an application is signaled, it must call <a href="p2p.peercollabgeteventdata">PeerCollabGetEventData</a> to retrieve events until PEER_S_NO_EVENT_DATA is returned.
 
 
 ### -param cEventRegistration [in]
@@ -76,7 +76,7 @@ An array of <a href="https://msdn.microsoft.com/dfc55346-99ef-441e-ba49-e7463581
 
 ### -param phPeerEvent [out]
 
-The peer event handle returned by this function. This handle is passed to <a href="https://msdn.microsoft.com/ee410a47-91a6-48ed-8c05-128a141a5c98">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
+The peer event handle returned by this function. This handle is passed to <a href="p2p.peercollabgeteventdata">PeerCollabGetEventData</a> when a peer collaboration network event is raised on the peer.
 
 
 ## -returns
@@ -119,7 +119,7 @@ One of the arguments is invalid.
 </dl>
 </td>
 <td width="60%">
-An attempt was made to call <a href="https://msdn.microsoft.com/db7daf08-8d79-493f-8df5-172dae498df0">PeerCollabRegisterEvent</a> from an elevated process.
+An attempt was made to call <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a> from an elevated process.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ An application can call <b>PeerCollabRegisterEvent</b> multiple times, where eac
 
 
 
-<a href="https://msdn.microsoft.com/ee410a47-91a6-48ed-8c05-128a141a5c98">PeerCollabGetEventData</a>
+<a href="p2p.peercollabgeteventdata">PeerCollabGetEventData</a>
  
 
  

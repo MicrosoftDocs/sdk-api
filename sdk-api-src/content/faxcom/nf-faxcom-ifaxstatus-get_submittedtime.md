@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_submittedtime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_46n9.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxStatus object [Fax Service],SubmittedTime property, FaxStatus.SubmittedTime, IFaxStatus.get_SubmittedTime, IFaxStatus::get_SubmittedTime, SubmittedTime property [Fax Service], SubmittedTime property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime_vb, get_SubmittedTime
 ms.prod: windows
 ms.technology: windows-sdk

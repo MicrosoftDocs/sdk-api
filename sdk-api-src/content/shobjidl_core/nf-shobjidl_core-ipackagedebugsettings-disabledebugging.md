@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_DisableDebugging.htm
 old-project: shell
 ms.assetid: 102e57be-296e-44ec-8211-f2c2d5eae1e6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DisableDebugging, DisableDebugging method [Windows Shell], DisableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],DisableDebugging method, IPackageDebugSettings.DisableDebugging, IPackageDebugSettings::DisableDebugging, shell.IPackageDebugSettings_DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging
 ms.prod: windows
 ms.technology: windows-sdk

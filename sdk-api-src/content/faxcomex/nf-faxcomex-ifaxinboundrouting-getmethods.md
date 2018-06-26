@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxInboundRouting.GetMethods
 title: IFaxInboundRouting::GetMethods
 author: windows-sdk-content
-description: The IFaxInboundRouting::GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
-old-location: fax\_mfax_faxinboundrouting_getmethods_cpp.htm
+description: The GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
+old-location: fax\_mfax_faxinboundrouting_getmethods.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_2x9v_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinta_n_2x9v.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetMethods method, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods_cpp, fax._mfax_faxinboundrouting_getmethods_cpp, faxcomex/IFaxInboundRouting::GetMethods
+ms.date: 06/12/2018
+ms.keywords: FaxInboundRouting object [Fax Service],GetMethods method, FaxInboundRouting.GetMethods, GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],FaxInboundRouting object, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods, fax._mfax_faxinboundrouting_getmethods
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxInboundRouting.GetMethods
  - IFaxInboundRouting.GetMethods
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxInboundRouting::GetMethods</b> method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
+The <b>GetMethods</b> method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
 
 
 ## -parameters
@@ -66,20 +67,13 @@ The <b>IFaxInboundRouting::GetMethods</b> method retrieves the ordered collectio
 
 
 
-#### - ppFaxInboundRoutingMethods [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>**</b>
-
-Address of a pointer to an <a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a> interface.
-
-
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/5a00a56f-f82b-4e4b-b78f-d9f7417090c8">FaxInboundRoutingMethods</a> object.
 
 
 
@@ -100,7 +94,7 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/4cf71225-fcd8-4d2f-b8b3-acbb32708f3b">FaxInboundRouting</a>
 
 
 

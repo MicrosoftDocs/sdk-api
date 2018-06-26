@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxlinecallback.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xpn.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], PFAX_LINECALLBACK, PFAX_LINECALLBACK callback, _mfax_faxlinecallback, fax._mfax_faxlinecallback, faxdev/FaxLineCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ The FSP must register the <i>FaxLineCallback</i> callback function by passing it
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="_tapi2_lineinitializeex">lineInitializeEx</a>
  
 
  

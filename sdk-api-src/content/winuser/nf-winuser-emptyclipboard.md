@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -93,7 +93,7 @@ Before calling <b>EmptyClipboard</b>, an application must open the clipboard by 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Copying+Information+to+the+Clipboard">Copying Information to the Clipboard</a>.
+For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 

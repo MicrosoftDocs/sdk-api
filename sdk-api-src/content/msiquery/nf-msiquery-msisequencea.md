@@ -7,7 +7,7 @@ old-location: setup\msisequence.htm
 old-project: Msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiSequence, MsiSequence function, MsiSequenceA, MsiSequenceW, _msi_msisequence, msiquery/MsiSequence, msiquery/MsiSequenceA, msiquery/MsiSequenceW, setup.msisequence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ An action sequence containing any actions that update the system, such as the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
  
 
  

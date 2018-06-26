@@ -7,7 +7,7 @@ old-location: edp\srpdoespolicyallowappexecution_.htm
 old-project: EDP
 ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
 ms.prod: windows
 ms.technology: windows-sdk

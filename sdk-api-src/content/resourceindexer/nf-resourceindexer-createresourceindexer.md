@@ -7,7 +7,7 @@ old-location: menurc\createresourceindexer.htm
 old-project: menurc
 ms.assetid: 240C94B6-DF61-4C84-9047-9CD81A6FF4B4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Other Resources], menurc.createresourceindexer, resourceindexer/CreateResourceIndexer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mrmsupport.lib
 req.dll: Mrmsupport.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CreateResourceIndexer function

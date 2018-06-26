@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_getpreviewheight.htm
 old-project: tablet
 ms.assetid: 3b3404f5-b775-483f-b3a9-9467c937226b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: GetPreviewHeight, GetPreviewHeight method [Tablet PC], GetPreviewHeight method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPreviewHeight method, IMathInputControl.GetPreviewHeight, IMathInputControl::GetPreviewHeight, micaut/IMathInputControl::GetPreviewHeight, tablet.imathinputcontrol_getpreviewheight
 ms.prod: windows
 ms.technology: windows-sdk

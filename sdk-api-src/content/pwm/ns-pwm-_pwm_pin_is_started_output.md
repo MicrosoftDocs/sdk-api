@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_PIN_IS_STARTED_OUTPUT structure
@@ -71,7 +71,7 @@ The pin current signal generation state. A value of true means that the pin is s
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>
+<a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>
  
 
  

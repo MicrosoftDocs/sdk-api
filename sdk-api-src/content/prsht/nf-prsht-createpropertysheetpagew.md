@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CreatePropertySheetPageW function

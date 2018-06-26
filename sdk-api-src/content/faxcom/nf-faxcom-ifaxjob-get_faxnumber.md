@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_faxnumber_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_42wi.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxJob object [Fax Service],FaxNumber property, FaxJob.FaxNumber, FaxNumber property [Fax Service], FaxNumber property [Fax Service],FaxJob object, IFaxJob.get_FaxNumber, IFaxJob::get_FaxNumber, _mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber_vb, get_FaxNumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>FaxNumber</b> property contains an empty string.
 
-<b>FaxNumber</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+<b>FaxNumber</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 

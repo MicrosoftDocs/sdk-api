@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RtwqEndRegisterWorkQueueWithMMCSS function
@@ -85,7 +85,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Call this function when the <a href="https://www.bing.com/search?q=RtwqBeginRegisterWorkQueueWithMMCSSEx">RtwqBeginRegisterWorkQueueWithMMCSSEx</a> function completes asynchronously.
+Call this function when the <a href="base.rtwqbeginregisterworkqueuewithmmcssex">RtwqBeginRegisterWorkQueueWithMMCSSEx</a> function completes asynchronously.
 
 To unregister the work queue from the MMCSS class, call <a href="https://msdn.microsoft.com/1faa9661-9b65-472a-b1d5-c99b10b149e9">RtwqBeginUnregisterWorkQueueWithMMCSS</a>.
 

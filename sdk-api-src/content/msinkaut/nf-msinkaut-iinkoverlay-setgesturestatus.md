@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_setgesturestatus.htm
 old-project: tablet
 ms.assetid: c55e0b19-257e-423f-bf84-3b7a55dc370e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkOverlay, IInkOverlay interface [Tablet PC],SetGestureStatus method, IInkOverlay.SetGestureStatus, IInkOverlay::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetGestureStatus, tablet.inkoverlay_setgesturestatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ For the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms698599(v=vs.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

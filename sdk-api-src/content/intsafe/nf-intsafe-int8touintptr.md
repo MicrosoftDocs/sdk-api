@@ -7,7 +7,7 @@ old-location: shell\Int8ToUIntPtr.htm
 old-project: shell
 ms.assetid: 9b40adbe-c1df-4abd-b76e-839c04562d3d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: Int8ToUIntPtr, Int8ToUIntPtr function [Windows Shell], intsafe/Int8ToUIntPtr, shell.Int8ToUIntPtr
 ms.prod: windows
 ms.technology: windows-sdk

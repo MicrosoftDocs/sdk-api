@@ -7,7 +7,7 @@ old-location: shell\SizeTMult.htm
 old-project: shell
 ms.assetid: 078bc77b-6af3-4d13-8f98-5f52605fdf8d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.prod: windows
 ms.technology: windows-sdk

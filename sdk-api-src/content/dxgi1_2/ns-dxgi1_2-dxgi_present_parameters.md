@@ -91,7 +91,7 @@ The scroll rectangle and the list of dirty rectangles could overlap.  In this si
 
 The following diagram and coordinates illustrate this example.
 
-<img alt="Illustration of scroll and dirty rectangles overlapping" border="" src="./images/DXGIPresentParam.png"/>
+<img alt="Illustration of scroll and dirty rectangles overlapping" border="" src="images/DXGIPresentParam.png"/>
 <pre class="syntax" xml:space="preserve"><code>
 DirtyRectsCount = 2
 pDirtyRects[ 0 ] = { 10, 30, 40, 50 } // Video
@@ -105,7 +105,7 @@ The dashed rectangle shows the scroll rectangle in the current frame. The scroll
 The arrow shows the scroll offset. The scroll offset is specified by the <b>pScrollOffset</b> member.
 Filled rectangles show dirty rectangles that the application updated with new content. The filled rectangles are specified by the <b>DirtyRectsCount</b> and <b>pDirtyRects</b> members.
 
-The scroll rectangle and offset are not supported for the <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_DISCARD">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_SEQUENTIAL">DXGI_SWAP_EFFECT_SEQUENTIAL</a> present option. Dirty rectangles and scroll rectangle are not supported for multisampled swap chains.
+The scroll rectangle and offset are not supported for the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_DISCARD</a> or <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_SEQUENTIAL</a> present option. Dirty rectangles and scroll rectangle are not supported for multisampled swap chains.
 
 The actual implementation of composition and necessary bitblts is different for the bitblt model and the flip model. For more info about these models, see <a href="https://msdn.microsoft.com/E132DAF5-80B7-4C52-A760-3779CC140CE7">DXGI Flip Model</a>.
 

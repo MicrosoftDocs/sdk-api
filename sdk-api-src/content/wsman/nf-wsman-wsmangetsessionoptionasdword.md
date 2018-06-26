@@ -7,7 +7,7 @@ old-location: winrm\wsmangetsessionoptionasdword.htm
 old-project: WinRM
 ms.assetid: 73ff4a3a-89f7-4362-99fb-7423e3fd853f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function [Windows Remote Management], winrm.wsmangetsessionoptionasdword, wsman/WSManGetSessionOptionAsDword
 ms.prod: windows
 ms.technology: windows-sdk

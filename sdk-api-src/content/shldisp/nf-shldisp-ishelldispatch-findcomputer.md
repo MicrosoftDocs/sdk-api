@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_FindComputer.htm
 old-project: shell
 ms.assetid: 9B687A8A-BB29-49a0-8AE3-11A75FAF3257
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FindComputer, FindComputer method [Windows Shell], FindComputer method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],FindComputer method, IShellDispatch.FindComputer, IShellDispatch::FindComputer, shell.IShellDispatch_FindComputer
 ms.prod: windows
 ms.technology: windows-sdk

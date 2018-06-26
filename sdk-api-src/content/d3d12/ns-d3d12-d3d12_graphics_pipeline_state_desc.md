@@ -225,7 +225,7 @@ req.irql:
             Whether the linkage between the shader stages is correct.
           </li>
 <li>
-            If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_primitive_topology_type">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
+            If the <b>HS</b> and <b>DS</b> members are specified, the <b>PrimitiveTopologyType</b> member for topology type must be set to <a href="d3d12_primitive_topology_type.htm">D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH</a>.
           </li>
 <li>
             Whether sample frequency execution isn't allowed with the center multi-sample anti-aliasing (MSAA) pattern.

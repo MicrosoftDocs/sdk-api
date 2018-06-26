@@ -7,7 +7,7 @@ old-location: setup\msirecordisnull.htm
 old-project: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ The <i>iField</i> parameter is based on 1 (one).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

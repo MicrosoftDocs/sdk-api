@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_name_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1ep1.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxPort object [Fax Service],Name property, FaxPort.Name, IFaxPort.get_Name, IFaxPort::get_Name, Name property [Fax Service], Name property [Fax Service],FaxPort object, _mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name_vb, get_Name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ This property is read-only.
 Note that it is possible for multiple fax ports to have the same user-friendly 
 name. Use the <a href="https://msdn.microsoft.com/f7720dda-3635-4a23-9dc4-09cac4b6aa17">DeviceId</a> property to uniquely identify a fax port.
 
-<b>Name</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+<b>Name</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
 
 
 

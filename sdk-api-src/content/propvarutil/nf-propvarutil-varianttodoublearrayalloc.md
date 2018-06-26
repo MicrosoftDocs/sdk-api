@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # VariantToDoubleArrayAlloc function
@@ -102,7 +102,7 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToDoubleArrayAlloc">VariantToDoubleArrayAlloc</a> to access a <b>DOUBLE</b> array value in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDoubleArrayAlloc">VariantToDoubleArrayAlloc</a> to access a <b>DOUBLE</b> array value in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,19 +134,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
+<a href="shell.InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVectorAlloc">PropVariantToDoubleVectorAlloc</a>
+<a href="shell.PropVariantToDoubleVectorAlloc">PropVariantToDoubleVectorAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a>
+<a href="shell.VariantToDoubleArray">VariantToDoubleArray</a>
  
 
  

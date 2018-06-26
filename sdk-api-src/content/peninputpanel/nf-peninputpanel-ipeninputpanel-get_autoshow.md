@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_autoshow.htm
 old-project: tablet
 ms.assetid: c76533af-9b1d-413b-afa8-972ccfdce329
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: AutoShow property [Tablet PC], AutoShow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AutoShow property, IPenInputPanel.AutoShow, IPenInputPanel.get_AutoShow, IPenInputPanel::AutoShow, IPenInputPanel::get_AutoShow, IPenInputPanel::put_AutoShow, PenInputPanel.get_AutoShow, PenInputPanel.put_AutoShow, c76533af-9b1d-413b-afa8-972ccfdce329, get_AutoShow, peninputpanel/IPenInputPanel::AutoShow, peninputpanel/IPenInputPanel::get_AutoShow, peninputpanel/IPenInputPanel::put_AutoShow, put_AutoShow, tablet.peninputpanel_autoshow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::get_AutoShow
@@ -83,7 +83,7 @@ When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Inpu
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

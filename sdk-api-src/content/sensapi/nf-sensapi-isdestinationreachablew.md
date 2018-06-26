@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Sensapi.lib
 req.dll: Sensapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IsDestinationReachableW function

@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_line_breakpoint.htm
 old-project: DirectWrite
 ms.assetid: 6f2b26e9-95b3-4ac5-ba8e-7055f873d1da
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/11/2018
 ms.keywords: DWRITE_LINE_BREAKPOINT, DWRITE_LINE_BREAKPOINT structure [Direct Write], directwrite.dwrite_line_breakpoint, dwrite/DWRITE_LINE_BREAKPOINT
 ms.prod: windows
 ms.technology: windows-sdk

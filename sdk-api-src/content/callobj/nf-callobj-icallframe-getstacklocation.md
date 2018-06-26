@@ -7,7 +7,7 @@ old-location: com\icallframe_getstacklocation.htm
 old-project: com
 ms.assetid: 1e6b5e52-78bb-47cd-9019-efb5c0860a6d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetStackLocation, GetStackLocation method [COM], GetStackLocation method [COM],ICallFrame interface, ICallFrame interface [COM],GetStackLocation method, ICallFrame.GetStackLocation, ICallFrame::GetStackLocation, _com_icallframe_getstacklocation, callobj/ICallFrame::GetStackLocation, com.icallframe_getstacklocation
 ms.prod: windows
 ms.technology: windows-sdk

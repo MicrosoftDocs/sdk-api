@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_panose.htm
 old-project: DirectWrite
 ms.assetid: B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/11/2018
 ms.keywords: DWRITE_PANOSE, DWRITE_PANOSE union [Direct Write], directwrite.dwrite_panose, dwrite_1/DWRITE_PANOSE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/8CC6E653-FF82-4BBA-9DDE-F3F4960C4BBB">DWRI
 
 
 			
-		    The <a href="/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY_TEXT_DISPLAY</a> value (2) that specifies text display typeface classification.
+		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_TEXT_DISPLAY</a> value (2) that specifies text display typeface classification.
 
 
 ### -field text.serifStyle
@@ -147,7 +147,7 @@ A <a href="https://msdn.microsoft.com/EB526A2A-1E85-4A65-B485-4AE87F45C2A0">DWRI
 
 
 			
-		    The <a href="/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY_SCRIPT</a> value (3) that specifies script typeface classification.
+		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_SCRIPT</a> value (3) that specifies script typeface classification.
 
 
 ### -field script.toolKind
@@ -222,7 +222,7 @@ A <a href="https://msdn.microsoft.com/F6F56DEE-F981-40F8-8B35-ABFE7C82EA2C">DWRI
 
 
 			
-		    The <a href="/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY_DECORATIVE</a> value (4) that specifies decorative typeface classification.
+		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_DECORATIVE</a> value (4) that specifies decorative typeface classification.
 
 
 ### -field decorative.decorativeClass
@@ -293,7 +293,7 @@ A <a href="https://msdn.microsoft.com/A50F0296-D977-47C5-9E41-9567980B16A6">DWRI
 
 
 			
-		    The <a href="/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_panose_family">DWRITE_PANOSE_FAMILY_SYMBOL</a> value (5) that specifies symbol typeface classification.
+		    The <a href="dwrite_panose_family.htm">DWRITE_PANOSE_FAMILY_SYMBOL</a> value (5) that specifies symbol typeface classification.
 
 
 ### -field symbol.symbolKind

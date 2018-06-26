@@ -76,8 +76,8 @@ The restriction class for the user interface. This member can be one or more of 
 </td>
 <td width="60%">
 Prevents processes associated with the job from creating desktops and switching desktops using the 
-<a href="https://www.bing.com/search?q=CreateDesktop">CreateDesktop</a> and 
-<a href="https://www.bing.com/search?q=SwitchDesktop">SwitchDesktop</a> functions.
+<a href="https://msdn.microsoft.com/c6ed40c5-13a9-4697-a727-730adc6a912d">CreateDesktop</a> and 
+<a href="https://msdn.microsoft.com/401be515-ada9-42be-b8e8-4e86f513bb8d">SwitchDesktop</a> functions.
 
 </td>
 </tr>

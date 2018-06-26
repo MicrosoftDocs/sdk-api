@@ -7,7 +7,7 @@ old-location: shell\IWizardSite.htm
 old-project: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
 ms.prod: windows
 ms.technology: windows-sdk

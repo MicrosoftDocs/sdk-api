@@ -7,7 +7,7 @@ old-location: shell\IWebWizardExtension_SetErrorURL.htm
 old-project: shell
 ms.assetid: 4b7ba688-dfa0-45ee-a32f-08f24a7626d8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetErrorURL method, IWebWizardExtension.SetErrorURL, IWebWizardExtension::SetErrorURL, SetErrorURL, SetErrorURL method [Windows Shell], SetErrorURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetErrorURL, shell.IWebWizardExtension_SetErrorURL, shobjidl/IWebWizardExtension::SetErrorURL
 ms.prod: windows
 ms.technology: windows-sdk

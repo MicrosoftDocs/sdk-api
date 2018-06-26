@@ -7,7 +7,7 @@ old-location: shell\FolderItemVerbs_Item.htm
 old-project: shell
 ms.assetid: 65871926-0920-4ad6-82da-7aba0a3c0fab
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FolderItemVerbs object [Windows Shell],Item method, FolderItemVerbs.Item, FolderItemVerbs::Item, Item, Item method [Windows Shell], Item method [Windows Shell],FolderItemVerbs object, _win32_FolderItemVerbs_Item, shell.FolderItemVerbs_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 
 
-Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 Object that receives the <a href="https://msdn.microsoft.com/22f52e3f-875e-4dde-8875-3228639bc7f1">FolderItemVerb</a> object.
 

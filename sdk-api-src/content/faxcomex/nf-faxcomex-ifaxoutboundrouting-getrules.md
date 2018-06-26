@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutboundRouting.GetRules
 title: IFaxOutboundRouting::GetRules
 author: windows-sdk-content
-description: The IFaxOutboundRouting::GetRules method retrieves an interface that represents a collection of outbound routing groups.
-old-location: fax\_mfax_faxoutboundrouting_getrules_cpp.htm
+description: The GetRules method retrieves the collection of outbound routing groups.
+old-location: fax\_mfax_faxoutboundrouting_getrules.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_2v1v_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_2v1v.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetRules method, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
+ms.date: 06/12/2018
+ms.keywords: FaxOutboundRouting object [Fax Service],GetRules method, FaxOutboundRouting.GetRules, GetRules, GetRules method [Fax Service], GetRules method [Fax Service],FaxOutboundRouting object, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules, fax._mfax_faxoutboundrouting_getrules
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutboundRouting.GetRules
  - IFaxOutboundRouting.GetRules
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutboundRouting::GetRules</b> method retrieves an interface that represents a collection of outbound routing groups.
+The <b>GetRules</b> method retrieves the collection of outbound routing groups.
 
 
 ## -parameters
@@ -59,20 +60,20 @@ The <b>IFaxOutboundRouting::GetRules</b> method retrieves an interface that repr
 
 
 
-### -param pFaxOutboundRoutingRules [out, retval]
+### -param pFaxOutboundRoutingRules
 
-Type: <b><a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a>**</b>
 
-An address of a pointer that receives an <a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a> interface.
+
+
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/971819e1-a3cb-4e58-b533-fee15ccb4352">FaxOutboundRoutingRules</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/971819e1-a3cb-4e58-b533-fee15ccb4352">FaxOutboundRoutingRules</a> object.
 
 
 
@@ -88,6 +89,10 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/64ff05d6-6ebe-4155-96cd-7b925c979492">FaxOutboundRouting</a>
 
 
 

@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns flags associated with 
-    the <a href="/windows/desktop/dns/c-gly">cluster version</a>.
+    the <a href="c_gly.htm">cluster version</a>.
 
 This property is read-only.
 

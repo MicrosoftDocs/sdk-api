@@ -7,7 +7,7 @@ old-location: devinst\cm_locate_devnode_ex.htm
 old-project: devinst
 ms.assetid: 255d828c-5a71-4d53-80ee-b0a0b3e97414
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Locate_DevNode_Ex, CM_Locate_DevNode_Ex function [Device and Driver Installation], CM_Locate_DevNode_ExW, cfgmgr32/CM_Locate_DevNode_Ex, cfgmgr32/CM_Locate_DevNode_ExW, cfgmgrfn_33bc675e-9f3a-4485-ac79-1ce406cc43bf.xml, devinst.cm_locate_devnode_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.irql:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538742">CM_Locate_DevNode</a> instead.]
 
-The <b>CM_Locate_DevNode_Ex</b> function obtains a device instance handle to the device node that is associated with a specified <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a>, on a local machine or a remote machine.
+The <b>CM_Locate_DevNode_Ex</b> function obtains a device instance handle to the device node that is associated with a specified <a href="devinst.device_instance_ids">device instance ID</a>, on a local machine or a remote machine.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A pointer to the device instance handle that this function retrieves. The retrie
 
 ### -param pDeviceID [in, optional]
 
-A pointer to a NULL-terminated string representing a <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function supplies a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543194">device tree</a>.
+A pointer to a NULL-terminated string representing a <a href="devinst.device_instance_ids">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function supplies a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543194">device tree</a>.
 
 
 ### -param ulFlags [in]

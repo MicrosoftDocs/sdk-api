@@ -2,13 +2,13 @@
 UID: NF:mergemod.IMsmConfigurableItem.get_Attributes
 title: IMsmConfigurableItem::get_Attributes
 author: windows-sdk-content
-description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.
-old-location: setup\imsmconfigurableitem_get_attributes.htm
+description: The Attributes property returns the value from the Attributes column of the ModuleConfiguration table.
+old-location: setup\configurableitem_attributes.htm
 old-project: Msi
-ms.assetid: 347451e9-0623-4d31-a9f5-7cb95f234717
+ms.assetid: fb7336b7-28af-48c8-80b2-80c03948660a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
-ms.keywords: IMsmConfigurableItem interface,get_Attributes method, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_get_attributes_function, get_Attributes, get_Attributes method, get_Attributes method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Attributes, setup.imsmconfigurableitem_get_attributes
+ms.date: 06/08/2018
+ms.keywords: Attributes property, Attributes property,ConfigurableItem object, ConfigurableItem object,Attributes property, ConfigurableItem.Attributes, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_attributes_property_configurableitem_object_, get_Attributes, setup.configurableitem_attributes
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
+ - ConfigurableItem.Attributes
  - IMsmConfigurableItem.get_Attributes
 product: Windows
 targetos: Windows
@@ -52,112 +53,11 @@ req.product: GDI+ 1.1
 
 
 The 
-<b>get_Attributes</b> method retrieves the 
-<a href="https://msdn.microsoft.com/fb7336b7-28af-48c8-80b2-80c03948660a">Attributes</a> property of the 
-<a href="https://msdn.microsoft.com/bbd0d9bc-a463-4cd8-93ee-963dcee8efa6">ConfigurableItem</a> object.
+<b>Attributes</b> property returns the value from the Attributes column of the 
+<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>.
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param Attributes [out]
-
-A pointer to a location in memory with the format of a configurable item listed in the Attributes column of the 
-<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>.
-
-
-## -returns
-
-
-
-This method can return one of these values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Invalid argument.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-No module is open.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Out of memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_FUNCTION_FAILED as HRESULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE as HRESULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
- 
-
- 
 

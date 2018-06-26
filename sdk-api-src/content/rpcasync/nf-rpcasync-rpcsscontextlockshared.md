@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcSsContextLockShared function
@@ -136,11 +136,11 @@ The
 
 
 
-<a href="https://www.bing.com/search?q=context_handle">context_handle</a>
+<a href="https://msdn.microsoft.com/">context_handle</a>
 
 
 
-<a href="https://www.bing.com/search?q=context_handle_noserialize">context_handle_noserialize</a>
+<a href="https://msdn.microsoft.com/aff2484e-639b-41d2-94a9-f34ca4f2343c">context_handle_noserialize</a>
 
 
 

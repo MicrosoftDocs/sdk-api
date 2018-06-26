@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ServiceStart.htm
 old-project: shell
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ServiceStart method, IShellDispatch2.ServiceStart, IShellDispatch2::ServiceStart, ServiceStart, ServiceStart method [Windows Shell], ServiceStart method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ServiceStart, shell.IShellDispatch2_ServiceStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Starts a named service.
 
 #### - sServiceName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the name of the service.
 

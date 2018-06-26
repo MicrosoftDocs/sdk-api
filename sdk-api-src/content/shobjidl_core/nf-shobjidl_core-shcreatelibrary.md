@@ -7,7 +7,7 @@ old-location: shell\SHCreateLibrary.htm
 old-project: shell
 ms.assetid: 7e682a2e-5140-49ad-88de-ac681025aca4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHCreateLibrary, SHCreateLibrary function [Windows Shell], _shell_SHCreateLibrary, shell.SHCreateLibrary, shobjidl_core/SHCreateLibrary
 ms.prod: windows
 ms.technology: windows-sdk

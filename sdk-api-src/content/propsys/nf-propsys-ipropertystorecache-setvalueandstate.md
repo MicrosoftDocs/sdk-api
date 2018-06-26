@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyStoreCache::SetValueAndState
@@ -63,7 +63,7 @@ Sets value and state data for a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
 
 
 ### -param ppropvar [in]

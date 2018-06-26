@@ -7,7 +7,7 @@ old-location: menurc\lstrcpyn.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,7 +156,7 @@ Consider using <a href="https://msdn.microsoft.com/9cbf6ce6-ef45-4bb9-bc1f-a55db
 				being aware that, when copying to a pointer, the caller is responsible for 
 				passing in the size of the pointed-to memory in characters. 
 
-Review <a href="https://www.bing.com/search?q=Security+Considerations:+Windows+User+Interface">Security Considerations: Windows User Interface</a> before continuing.
+Review <a href="winui.sec_winui">Security Considerations: Windows User Interface</a> before continuing.
 
 
 

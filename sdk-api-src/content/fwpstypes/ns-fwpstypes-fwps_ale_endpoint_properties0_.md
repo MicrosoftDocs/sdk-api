@@ -7,7 +7,7 @@ old-location: netvista\fwps_ale_endpoint_properties0.htm
 old-project: netvista
 ms.assetid: 1dd5dbd1-b7a7-45a3-8cab-ea62c7eff35b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FWPS_ALE_ENDPOINT_PROPERTIES0, FWPS_ALE_ENDPOINT_PROPERTIES0 structure [Network Drivers Starting with Windows Vista], FWPS_ALE_ENDPOINT_PROPERTIES0_, fwpstypes/FWPS_ALE_ENDPOINT_PROPERTIES0, netvista.fwps_ale_endpoint_properties0, wfp_ref_3_struct_3_fwps_A-E_b528750a-0c8a-4406-81ab-30aa574fb215.xml
 ms.prod: windows
 ms.technology: windows-sdk

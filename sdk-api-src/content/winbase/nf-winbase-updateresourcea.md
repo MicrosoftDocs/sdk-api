@@ -7,7 +7,7 @@ old-location: menurc\updateresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\updateresource.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: UpdateResource, UpdateResource function [Menus and Other Resources], UpdateResourceA, UpdateResourceW, _win32_UpdateResource, _win32_updateresource_cpp, menurc.updateresource, winbase/UpdateResource, winbase/UpdateResourceA, winbase/UpdateResourceW, winui._win32_updateresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The resource type to be updated. Alternatively, rather than a pointer, this para
 
 decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258. 
 
-For a list of predefined resource types, see <a href="https://www.bing.com/search?q=Resource+Types">Resource Types</a>. 
+For a list of predefined resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. 
 
 
 ### -param lpName [in]
@@ -195,7 +195,7 @@ This function can update resources within modules that contain both code and res
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Updating+Resources">Updating Resources</a>.
+For an example, see <a href="using_resources.htm">Updating Resources</a>.
 
 <div class="code"></div>
 

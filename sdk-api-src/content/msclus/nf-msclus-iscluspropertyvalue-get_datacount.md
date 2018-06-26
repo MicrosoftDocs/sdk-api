@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:msclus.ISClusPropertyValue.get_DataCount
 title: ISClusPropertyValue::get_DataCount
 author: windows-sdk-content
@@ -57,8 +57,8 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the number of 
-    <a href="https://msdn.microsoft.com/en-us/library/aa369367(v=vs.85).aspx">data values</a> currently assigned to a 
-    <a href="https://msdn.microsoft.com/en-us/library/aa371816(v=vs.85).aspx">property value</a>.
+    <a href="d_gly.htm">data values</a> currently assigned to a 
+    <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

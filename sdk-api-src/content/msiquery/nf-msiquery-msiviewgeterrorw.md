@@ -7,7 +7,7 @@ old-location: setup\msiviewgeterror.htm
 old-project: Msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -489,7 +489,7 @@ Once MSIDBERROR_NOERROR is returned, no more validation errors remain. The MSIDB
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
 
 
 

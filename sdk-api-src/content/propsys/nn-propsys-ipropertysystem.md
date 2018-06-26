@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertySystem interface
@@ -157,7 +157,7 @@ Informs the schema subsystem of the removal of a property description schema (.p
 
 
 
-Many of the exported APIs (such as <a href="https://www.bing.com/search?q=PSGetPropertyDescription">PSGetPropertyDescription</a>) are simply wrappers around the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)
+Many of the exported APIs (such as <a href="shell.PSGetPropertyDescription">PSGetPropertyDescription</a>) are simply wrappers around the <a href="shell.IPropertySystem">IPropertySystem</a> methods. If your code calls a lot of these helper APIs in sequence, it may be worthwhile to instantiate a single <b>IPropertySystem</b> object, and call the methods directly, rather than calling the helper APIs. (To improve the performance, the helper APIs do obtain a cached instance of the <b>IPropertySystem</b> object.)
 
 
 

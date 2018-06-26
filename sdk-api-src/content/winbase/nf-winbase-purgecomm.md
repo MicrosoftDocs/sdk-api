@@ -66,7 +66,7 @@ Discards all characters from the output or input buffer of a specified communica
 ### -param hFile [in]
 
 A handle to the communications resource. The 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param dwFlags [in]
@@ -162,7 +162,7 @@ If a thread uses
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
  
 
  

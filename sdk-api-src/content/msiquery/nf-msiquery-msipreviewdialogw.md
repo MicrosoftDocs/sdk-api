@@ -7,7 +7,7 @@ old-location: setup\msipreviewdialog.htm
 old-project: Msi
 ms.assetid: 4017e122-8214-4158-ade3-5dac1fda428a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiPreviewDialog, MsiPreviewDialog function, MsiPreviewDialogA, MsiPreviewDialogW, _msi_msipreviewdialog, msiquery/MsiPreviewDialog, msiquery/MsiPreviewDialogA, msiquery/MsiPreviewDialogW, setup.msipreviewdialog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Supplying a null name in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">User Interface Functions</a>
+<a href="database_functions.htm">User Interface Functions</a>
  
 
  

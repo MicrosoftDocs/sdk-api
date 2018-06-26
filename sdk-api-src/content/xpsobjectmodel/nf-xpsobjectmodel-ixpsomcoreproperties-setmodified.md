@@ -121,7 +121,7 @@ The <b>modified</b> property contains the date and time the package was last cha
 
 
 
-<a href="https://www.bing.com/search?q=SYSTEMTIME">SYSTEMTIME</a>
+<a href="_win32_systemtime_str">SYSTEMTIME</a>
 
 
 

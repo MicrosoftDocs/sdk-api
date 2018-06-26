@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_pagecount_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6xv8.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxStatus object [Fax Service],PageCount property, FaxStatus.PageCount, IFaxStatus.get_PageCount, IFaxStatus::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_get_pagecount_vb, get_PageCount
 ms.prod: windows
 ms.technology: windows-sdk

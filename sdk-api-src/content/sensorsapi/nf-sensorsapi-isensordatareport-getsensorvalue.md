@@ -1,0 +1,147 @@
+---
+UID: NF:sensorsapi.ISensorDataReport.GetSensorValue
+title: ISensorDataReport::GetSensorValue
+author: windows-sdk-content
+description: Retrieves a single data field value from the data report.
+old-location: winsensors_com_ref\isensordatareport_getsensorvalue.htm
+old-project: SensorsAPI
+ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: sensorsapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: SensorConnectionType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorDataReport.GetSensorValue
+product: Windows
+targetos: Windows
+req.lib: Sensorsapi.lib
+req.dll: Sensorsapi.dll
+req.irql: 
+req.product: ADAM
+---
+
+# ISensorDataReport::GetSensorValue
+
+
+## -description
+
+
+Retrieves a single data field value from the data report.
+
+
+## -parameters
+
+
+
+
+### -param pKey [in]
+
+<b>REFPROPERTYKEY</b> indicating the data field to retrieve.
+
+
+### -param pValue [out]
+
+Address of a <b>PROPVARIANT</b> that receives the data field value.
+
+
+## -returns
+
+
+
+This method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)
+</b></dt>
+</dl>
+</td>
+<td width="60%">
+The data field was not found.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+NULL was passed in for pValue.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+Platform-defined data field <b>PROPERTYKEY</b>s are defined in Sensors.h.
+
+
+#### Examples
+
+For an example of how to retrieve a sensor data field value, see <a href="https://msdn.microsoft.com/4ae80816-5e53-4ed1-9300-4b38c22d65e2">Retrieving Sensor Data Values</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c677b956-e3ab-477c-b97b-aceec4e2d235">ISensorDataReport</a>
+ 
+
+ 
+

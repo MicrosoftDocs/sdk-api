@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToInt64Vector function
@@ -150,7 +150,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToInt64Vector">PropVariantToInt64Vector</a> to access an Int64 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt64Vector">PropVariantToInt64Vector</a> to access an Int64 vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -185,23 +185,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>
+<a href="shell.InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetInt64Elem">PropVariantGetInt64Elem</a>
+<a href="shell.PropVariantGetInt64Elem">PropVariantGetInt64Elem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt64">PropVariantToInt64</a>
+<a href="shell.PropVariantToInt64">PropVariantToInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt64VectorAlloc">PropVariantToInt64VectorAlloc</a>
+<a href="shell.PropVariantToInt64VectorAlloc">PropVariantToInt64VectorAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToInt64Array">VariantToInt64Array</a>
+<a href="shell.VariantToInt64Array">VariantToInt64Array</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo.htm
 old-project: com
 ms.assetid: 867bfd3e-b2d8-4bbe-b1bf-2356fb992a7c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IProvideClassInfo, IProvideClassInfo interface [COM], IProvideClassInfo interface [COM],described, _com_iprovideclassinfo, com.iprovideclassinfo, ocidl/IProvideClassInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IProvideClassInfo interface
@@ -86,7 +86,7 @@ Retrieves a pointer to the <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeI
 
 
 
-<a href="https://msdn.microsoft.com/333d0904-ffa2-4d25-878d-7422bcd40582">coclass</a>
+<a href="https://msdn.microsoft.com/">coclass</a>
  
 
  

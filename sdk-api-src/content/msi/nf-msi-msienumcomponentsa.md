@@ -7,7 +7,7 @@ old-location: setup\msienumcomponents.htm
 old-project: Msi
 ms.assetid: 8ca07b2a-7616-4b0d-be3e-3e500172e5ab
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiEnumComponents, MsiEnumComponents function, MsiEnumComponentsA, MsiEnumComponentsW, _msi_msienumcomponents, msi/MsiEnumComponents, msi/MsiEnumComponentsA, msi/MsiEnumComponentsW, setup.msienumcomponents
 ms.prod: windows
 ms.technology: windows-sdk

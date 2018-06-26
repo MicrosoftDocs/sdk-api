@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3p6b_cpp.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: IFaxJobStatus, IFaxJobStatus interface [Fax Service], IFaxJobStatus interface [Fax Service],described, _mfax_faxjobstatus_cpp, fax._mfax_faxjobstatus_cpp, faxcomex/IFaxJobStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ You do not create the <a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94f
 
 
 
-<a href="http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

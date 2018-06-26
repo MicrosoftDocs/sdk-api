@@ -7,7 +7,7 @@ old-location: gpmc\igpmwmifilter_getsecurityinfo.htm
 old-project: GPMC
 ms.assetid: c576c842-53ce-40af-8dba-4f15e25cf493
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMWMIFilter class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMWMIFilter class, GetSecurityInfo method [GPMC],IGPMWMIFilter interface, IGPMWMIFilter interface [GPMC],GetSecurityInfo method, IGPMWMIFilter.GetSecurityInfo, IGPMWMIFilter::GetSecurityInfo, _win32_igpmwmifilter_getsecurityinfo, gpmc.igpmwmifilter_getsecurityinfo, gpmgmt/IGPMWMIFilter::GetSecurityInfo
 ms.prod: windows
 ms.technology: windows-sdk

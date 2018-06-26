@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_SetTheme.htm
 old-project: shell
 ms.assetid: 0be91bde-ef05-4d64-9f94-91b9020586cb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetTheme method, IVisualProperties.SetTheme, IVisualProperties::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetTheme, shell.IVisualProperties_SetTheme, shobjidl/IVisualProperties::SetTheme
 ms.prod: windows
 ms.technology: windows-sdk

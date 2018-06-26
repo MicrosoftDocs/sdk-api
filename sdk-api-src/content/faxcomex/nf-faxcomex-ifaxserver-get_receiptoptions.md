@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxServer.get_ReceiptOptions
 title: IFaxServer::get_ReceiptOptions
 author: windows-sdk-content
-description: The IFaxServer::get_ReceiptOptions property creates a IFaxReceiptOptions configuration interface. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
-old-location: fax\_mfax_faxserver_receiptoptions_cpp.htm
+description: The ReceiptOptions property creates a FaxReceiptOptions configuration object. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
+old-location: fax\_mfax_faxserver_receiptoptions.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_9gxf_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_9gxf.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxServer interface [Fax Service],ReceiptOptions property, IFaxServer.ReceiptOptions, IFaxServer.get_ReceiptOptions, IFaxServer::ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service],IFaxServer interface, _mfax_faxserver.receiptoptions_cpp, fax._mfax_faxserver_receiptoptions_cpp, faxcomex/IFaxServer::ReceiptOptions, faxcomex/IFaxServer::get_ReceiptOptions, get_ReceiptOptions
+ms.date: 06/12/2018
+ms.keywords: FaxServer object [Fax Service],ReceiptOptions property, FaxServer.ReceiptOptions, IFaxServer.get_ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service],FaxServer object, _mfax_faxserver.receiptoptions, fax._mfax_faxserver_receiptoptions, get_ReceiptOptions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.ReceiptOptions
+ - FaxServer.ReceiptOptions
  - IFaxServer.get_ReceiptOptions
 product: Windows
 targetos: Windows
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxServer::get_ReceiptOptions</b> property creates a <a href="https://msdn.microsoft.com/95bcade2-eb0c-4e6f-8f3b-9d001f999992">IFaxReceiptOptions</a> configuration interface. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
+The <b>ReceiptOptions</b> property creates a <a href="https://msdn.microsoft.com/6c3d1358-6819-42e3-9be0-896ed7e2d463">FaxReceiptOptions</a> configuration object. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
 
 This property is read-only.
 

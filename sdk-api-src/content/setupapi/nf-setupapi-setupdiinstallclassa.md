@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstallclass.htm
 old-project: devinst
 ms.assetid: 6709936b-cd44-444a-a0c0-14b5ebce5226
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiInstallClass, SetupDiInstallClass function [Device and Driver Installation], SetupDiInstallClassA, SetupDiInstallClassW, devinst.setupdiinstallclass, di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml, setupapi/SetupDiInstallClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiInstallClassA function
@@ -67,7 +67,7 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in]
 
-A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="https://www.bing.com/search?q=INF+ClassInstall32+section">INF ClassInstall32 section</a>.
+A pointer to a NULL-terminated string that contains the name of the INF file that contains an <a href="devinst.inf_classinstall32_section">INF ClassInstall32 section</a>.
 
 
 ### -param Flags [in]

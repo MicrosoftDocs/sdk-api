@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf_lex.htm
 old-project: menurc
 ms.assetid: 36959df1-e972-45e1-9c20-2306d3466951
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchPrintf_lEx, StringCchPrintf_lEx function [Menus and Other Resources], StringCchPrintf_lExA, StringCchPrintf_lExW, menurc.stringcchprintf_lex, strsafe/StringCchPrintf_lEx, strsafe/StringCchPrintf_lExA, strsafe/StringCchPrintf_lExW
 ms.prod: windows
 ms.technology: windows-sdk

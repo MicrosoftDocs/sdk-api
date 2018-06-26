@@ -7,7 +7,7 @@ old-location: shell\IntToUInt8.htm
 old-project: shell
 ms.assetid: 4c3c8d81-d67b-4e5f-9606-2d21ddaf0786
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IntToByte, IntToUInt8, IntToUInt8 function [Windows Shell], intsafe/IntToUInt8, shell.IntToUInt8
 ms.prod: windows
 ms.technology: windows-sdk

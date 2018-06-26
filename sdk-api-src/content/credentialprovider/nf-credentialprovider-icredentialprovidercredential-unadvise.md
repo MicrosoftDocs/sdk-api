@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_UnAdvise.htm
 old-project: shell
 ms.assetid: 29e01ef4-3186-4f9a-9898-b7424bba2b61
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],UnAdvise method, ICredentialProviderCredential.UnAdvise, ICredentialProviderCredential::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::UnAdvise, shell.ICredentialProviderCredential_UnAdvise, shell_ICredentialProviderCredential_UnAdvise
 ms.prod: windows
 ms.technology: windows-sdk

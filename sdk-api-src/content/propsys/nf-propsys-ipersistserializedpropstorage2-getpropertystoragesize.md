@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageSize.htm
 old-project: shell
 ms.assetid: 90fe3148-457e-4d29-a117-b0b0e0df92c4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetPropertyStorageSize, GetPropertyStorageSize method [Windows Shell], GetPropertyStorageSize method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageSize method, IPersistSerializedPropStorage2.GetPropertyStorageSize, IPersistSerializedPropStorage2::GetPropertyStorageSize, _shell_IPersistSerializedPropStorage2_GetPropertyStorageSize, propsys/IPersistSerializedPropStorage2::GetPropertyStorageSize, shell.IPersistSerializedPropStorage2_GetPropertyStorageSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPersistSerializedPropStorage2::GetPropertyStorageSize

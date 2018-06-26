@@ -70,7 +70,7 @@ Contains the window handle of the query page.
 
 ### -param uMsg
 
-Contains a value that identifies the event that this function is called for. This can be one of the <a href="https://docs.microsoft.com/windows/desktop//AD/messages-communicated-through-user-interfaces">Common Query Page Messages</a>.
+Contains a value that identifies the event that this function is called for. This can be one of the <a href="messages_communicated_through_user_interfaces.htm">Common Query Page Messages</a>.
 
 
 ### -param wParam
@@ -105,7 +105,7 @@ The return value is the result of the message  and depends on the value of the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//AD/messages-communicated-through-user-interfaces">Common Query Page Messages</a>
+<a href="messages_communicated_through_user_interfaces.htm">Common Query Page Messages</a>
 
 
 

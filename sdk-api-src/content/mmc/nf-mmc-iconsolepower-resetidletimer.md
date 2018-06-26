@@ -1,0 +1,150 @@
+---
+UID: NF:mmc.IConsolePower.ResetIdleTimer
+title: IConsolePower::ResetIdleTimer
+author: windows-sdk-content
+description: The ResetIdleTimer method resets the specified power management idle timers.
+old-location: mmc\iconsolepower_resetidletimer.htm
+old-project: MMC
+ms.assetid: 83de4b7f-3214-4354-a4a0-721054e2e899
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],ResetIdleTimer method, IConsolePower.ResetIdleTimer, IConsolePower::ResetIdleTimer, ResetIdleTimer, ResetIdleTimer method [MMC], ResetIdleTimer method [MMC],IConsolePower interface, _slate_iconsolepower_resetidletimer, mmc.iconsolepower_resetidletimer, mmc/IConsolePower::ResetIdleTimer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mmc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: MMC_VIEW_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsolePower.ResetIdleTimer
+product: Windows
+targetos: Windows
+req.lib: Mmc.lib
+req.dll: Mmcndmgr.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IConsolePower::ResetIdleTimer
+
+
+## -description
+
+
+The 
+ResetIdleTimer method resets the specified power management idle timers.
+
+
+## -parameters
+
+
+
+
+### -param dwFlags [in]
+
+The flags used to reset idle timers. One or more of the following flags can be used. For more information, see 
+<a href="https://msdn.microsoft.com/9214ea84-7636-4a78-91fd-a5a5da8199a1">SetThreadExecutionState</a>.
+
+
+
+#### ES_DISPLAY_REQUIRED
+
+Resets the display (monitor) idle timer.
+
+
+
+#### ES_SYSTEM_REQUIRED
+
+Resets the system idle timer.
+
+
+## -returns
+
+
+
+If successful, the return value is S_OK. This method will return S_FALSE when invoked on a system that does not support power management. Other return values indicate an error code.
+
+
+
+
+## -remarks
+
+
+
+Call <b>IConsolePower::ResetIdleTimer</b> instead of calling 
+<a href="https://msdn.microsoft.com/9214ea84-7636-4a78-91fd-a5a5da8199a1">SetThreadExecutionState</a>. Snap-ins must not call the <b>SetThreadExecutionState</b> function directly, doing so causes conflicts if multiple snap-ins are running on the same thread. Instead, snap-ins should call 
+SetExecutionState. Resetting an idle timer causes it to start over in tracking the idle period. If a snap-in does not specify a continuous execution state by calling <a href="https://msdn.microsoft.com/1fbdc155-ea95-43b6-8aea-f47ff0c89859">IConsolePower::SetExecutionState</a>, it can periodically call 
+ResetIdleTimer to prolong the time before the system or display power-management routines are invoked.
+
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
+
+// Reset both the display and system idle timers.
+// pConsolePower was created previously by
+// the CoCreateInstance method.
+hr = pConsolePower-&gt;ResetIdleTimer(
+             ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED);
+switch (hr)
+{
+    case S_OK:
+        OutputDebugString(_T("ResetIdleTimer: Succeeded\n"));
+        break;
+
+    case S_FALSE:
+        // The system does not support power management.
+        OutputDebugString(_T("ResetIdleTimer: Unsupported\n"));
+        break;
+
+    default:
+        // Unexpected error occurred.
+        OutputDebugString(_T("ResetIdleTimer: Failure\n"));
+        break;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1fbdc155-ea95-43b6-8aea-f47ff0c89859">IConsolePower::SetExecutionState</a>
+
+
+
+<a href="https://msdn.microsoft.com/9214ea84-7636-4a78-91fd-a5a5da8199a1">SetThreadExecutionState</a>
+ 
+
+ 
+

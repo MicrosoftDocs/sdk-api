@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5kac.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service],Count property, FaxOutboundRoutingGroups.Count, IFaxOutboundRoutingGroups.get_Count, IFaxOutboundRoutingGroups::get_Count, _mfax_faxoutboundroutinggroups.count, fax._mfax_faxoutboundroutinggroups_count, fax._mfax_faxoutboundroutinggroups_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk

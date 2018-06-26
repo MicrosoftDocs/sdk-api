@@ -67,7 +67,7 @@ req.product: Windows Address Book 5.0
 
 The 
 <b>IWbemServices::CreateClassEnum</b> method returns an enumerator for all classes that satisfy selection criteria. The caller must use the returned enumerator to retrieve the class definitions, calling 
-<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IEnumWbemClassObject::Release</a>.
+<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> to obtain each class or blocks of classes. It finishes by calling <a href="_com_iunknown_release">IEnumWbemClassObject::Release</a>.
 <div class="alert"><b>Note</b>  It is not an error for the returned enumerator to have 0 (zero) elements.</div><div> </div>
 
 ## -parameters
@@ -133,7 +133,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 ### -param ppEnum [out]
 
-Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the pointer when it is no longer required.
+Receives the pointer to the enumerator. The returned object has a positive reference count. The caller must call <a href="_com_iunknown_release">Release</a> on the pointer when it is no longer required.
 
 
 ## -returns

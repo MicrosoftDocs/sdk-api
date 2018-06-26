@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IUrlAccessor interface
@@ -98,7 +98,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-        Binds the item being processed to an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+        Binds the item being processed to an <a href="_stg_istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 </td>

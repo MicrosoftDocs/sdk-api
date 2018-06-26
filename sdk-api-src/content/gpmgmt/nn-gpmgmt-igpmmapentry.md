@@ -7,7 +7,7 @@ old-location: gpmc\igpmmapentry.htm
 old-project: GPMC
 ms.assetid: 85a9bebf-0d96-4ec1-a0bf-37b262059067
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMMapEntry, IGPMMapEntry, IGPMMapEntry interface [GPMC], IGPMMapEntry interface [GPMC],described, gpmc.igpmmapentry, gpmgmt/IGPMMapEntry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <b>IGPMMapEntry</b> interface provides access to a map entry.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

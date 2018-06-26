@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_verticaloffset.htm
 old-project: tablet
 ms.assetid: ad4b00cc-5cb5-4c32-b837-b13a699ae7e6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IPenInputPanel interface [Tablet PC],VerticalOffset property, IPenInputPanel.VerticalOffset, IPenInputPanel.get_VerticalOffset, IPenInputPanel::VerticalOffset, IPenInputPanel::get_VerticalOffset, IPenInputPanel::put_VerticalOffset, PenInputPanel.get_VerticalOffset, PenInputPanel.put_VerticalOffset, VerticalOffset property [Tablet PC], VerticalOffset property [Tablet PC],IPenInputPanel interface, ad4b00cc-5cb5-4c32-b837-b13a699ae7e6, get_VerticalOffset, peninputpanel/IPenInputPanel::VerticalOffset, peninputpanel/IPenInputPanel::get_VerticalOffset, peninputpanel/IPenInputPanel::put_VerticalOffset, put_VerticalOffset, tablet.peninputpanel_verticaloffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::get_VerticalOffset
@@ -89,7 +89,7 @@ If the new position of the <a href="https://msdn.microsoft.com/ad63302e-b386-4b3
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

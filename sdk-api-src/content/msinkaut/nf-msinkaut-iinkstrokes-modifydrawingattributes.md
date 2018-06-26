@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_modifydrawingattributes.htm
 old-project: tablet
 ms.assetid: b249edd9-dfa4-4538-9764-a4365f9df527
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkStrokes interface [Tablet PC],ModifyDrawingAttributes method, IInkStrokes.ModifyDrawingAttributes, IInkStrokes::ModifyDrawingAttributes, ModifyDrawingAttributes, ModifyDrawingAttributes method [Tablet PC], ModifyDrawingAttributes method [Tablet PC],IInkStrokes interface, b249edd9-dfa4-4538-9764-a4365f9df527, msinkaut/IInkStrokes::ModifyDrawingAttributes, tablet.inkstrokes_modifydrawingattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,7 +138,7 @@ Unexpected parameter or property type.
 
 
 
-<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

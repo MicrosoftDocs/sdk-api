@@ -7,7 +7,7 @@ old-location: shell\IKnownFolderManager_FindFolderFromIDList.htm
 old-project: shell
 ms.assetid: fda3e390-e436-47ab-9339-2abf30b53ba9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FindFolderFromIDList, FindFolderFromIDList method [Windows Shell], FindFolderFromIDList method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FindFolderFromIDList method, IKnownFolderManager.FindFolderFromIDList, IKnownFolderManager::FindFolderFromIDList, _shell_IKnownFolderManager_FindFolderFromIDList, shell.IKnownFolderManager_FindFolderFromIDList, shobjidl_core/IKnownFolderManager::FindFolderFromIDList
 ms.prod: windows
 ms.technology: windows-sdk

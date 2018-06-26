@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PTGetPrintCapabilities function
@@ -112,7 +112,7 @@ The printer driver uses <i>pPrintTicket</i> values (when the value is not <b>NUL
 
 When the function returns, the seek position of <i>pPrintTicket</i> is at the end of the print ticket content and the seek position of <i>pCapabilities</i> is at the end of the stream. If the caller uses a memory stream for <i>pCapabilities</i>, such as a stream created by <a href="https://msdn.microsoft.com/413c107b-a943-4c02-9c00-aea708e876d7">CreateStreamOnHGlobal</a> , the caller is responsible for resetting the seek position before reading the data.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 

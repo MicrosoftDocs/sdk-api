@@ -7,7 +7,7 @@ old-location: com\progidfromclsid.htm
 old-project: com
 ms.assetid: a863cbc2-f8ab-468a-8254-b273077a6a2b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ProgIDFromCLSID, ProgIDFromCLSID function [COM], _com_ProgIDFromCLSID, com.progidfromclsid, combaseapi/ProgIDFromCLSID
 ms.prod: windows
 ms.technology: windows-sdk

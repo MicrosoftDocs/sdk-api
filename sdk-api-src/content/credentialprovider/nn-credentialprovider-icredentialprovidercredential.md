@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential.htm
 old-project: shell
 ms.assetid: ef9bb148-0b4e-4c13-b69d-3e63a5592e4a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], ICredentialProviderCredential interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential, shell.ICredentialProviderCredential, shell_ICredentialProviderCredential
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\setupdicanceldriverinfosearch.htm
 old-project: devinst
 ms.assetid: 847f1f5e-5634-44ea-b530-6136629f0471
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiCancelDriverInfoSearch, SetupDiCancelDriverInfoSearch function [Device and Driver Installation], devinst.setupdicanceldriverinfosearch, di-rtns_6cdb6cd3-5d8d-4af6-b747-b585d9c25df4.xml, setupapi/SetupDiCancelDriverInfoSearch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiCancelDriverInfoSearch function
@@ -61,7 +61,7 @@ The <b>SetupDiCancelDriverInfoSearch</b> function cancels a driver list search t
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which a driver list is being built.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which a driver list is being built.
 
 
 ## -returns

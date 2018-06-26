@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_isaccessallowed.htm
 old-project: com
 ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
 ms.prod: windows
 ms.technology: windows-sdk

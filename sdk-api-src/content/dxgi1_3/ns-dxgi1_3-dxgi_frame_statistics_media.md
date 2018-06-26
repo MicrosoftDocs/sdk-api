@@ -80,7 +80,7 @@ A value that represents  the running total count of v-blanks at which the last i
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A value that represents  the running total count of v-blanks when the scheduler last sampled the machine time by calling <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> and that have happened since the computer booted (for windowed mode, since the swap chain was created).
+A value that represents  the running total count of v-blanks when the scheduler last sampled the machine time by calling <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> and that have happened since the computer booted (for windowed mode, since the swap chain was created).
 
 
 ### -field SyncQPCTime
@@ -88,7 +88,7 @@ A value that represents  the running total count of v-blanks when the scheduler 
 Type: <b><a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a></b>
 
 A value that represents the high-resolution performance counter timer. 
-        This value is the same as the value returned by the <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> 
+        This value is the same as the value returned by the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> 
         function.
 
 

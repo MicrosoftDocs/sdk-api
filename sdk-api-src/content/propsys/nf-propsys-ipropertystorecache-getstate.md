@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyStoreCache::GetState
@@ -63,14 +63,14 @@ Gets the state of a specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
 
 
 ### -param pstate [out]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-psc_state">PSC_STATE</a>*</b>
+Type: <b><a href="shell.PSC_STATE">PSC_STATE</a>*</b>
 
-A pointer to a <a href="/windows/desktop/api/propsys/ne-propsys-psc_state">PSC_STATE</a> enumeration value.
+A pointer to a <a href="shell.PSC_STATE">PSC_STATE</a> enumeration value.
 
 
 ## -returns

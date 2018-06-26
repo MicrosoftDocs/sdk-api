@@ -7,7 +7,7 @@ old-location: com\ibindctx_registerobjectparam.htm
 old-project: com
 ms.assetid: 7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IBindCtx interface [COM],RegisterObjectParam method, IBindCtx.RegisterObjectParam, IBindCtx::RegisterObjectParam, RegisterObjectParam, RegisterObjectParam method [COM], RegisterObjectParam method [COM],IBindCtx interface, _com_ibindctx_registerobjectparam, com.ibindctx_registerobjectparam, objidl/IBindCtx::RegisterObjectParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IBindCtx::RegisterObjectParam
@@ -61,7 +61,7 @@ Associates an object with a string key in the bind context's string-keyed table 
 
 ### -param pszKey [in]
 
-The <a href="https://www.bing.com/search?q=bind+context+string+key">bind context string key</a> under which the object is being registered. Key string comparison is case-sensitive.
+The <a href="_shell_STR_constants_cpp">bind context string key</a> under which the object is being registered. Key string comparison is case-sensitive.
 
 
 ### -param punk [in]

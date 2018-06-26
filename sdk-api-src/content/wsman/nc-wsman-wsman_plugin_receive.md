@@ -7,7 +7,7 @@ old-location: winrm\wsman_plugin_receive.htm
 old-project: WinRM
 ms.assetid: 59dff87b-17d5-4875-ad24-1520a04b05d2
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_PLUGIN_RECEIVE, WSMAN_PLUGIN_RECEIVE callback, WSMAN_PLUGIN_RECEIVE callback function [Windows Remote Management], WSManPluginReceive, winrm.wsman_plugin_receive, wsman/WSMAN_PLUGIN_RECEIVE
 ms.prod: windows
 ms.technology: windows-sdk

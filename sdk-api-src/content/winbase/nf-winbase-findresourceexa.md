@@ -7,7 +7,7 @@ old-location: menurc\findresourceex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresourceex.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: FindResourceEx, FindResourceEx function [Menus and Other Resources], FindResourceExA, FindResourceExW, _win32_FindResourceEx, _win32_findresourceex_cpp, menurc.findresourceex, winbase/FindResourceEx, winbase/FindResourceExA, winbase/FindResourceExW, winui._win32_findresourceex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Type: <b>LPCTSTR</b>
 
 The resource type. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is the integer identifier of the given 
 
-resource type. For standard resource types, see <a href="https://www.bing.com/search?q=Resource+Types">Resource Types</a>. For more information, see the Remarks section below.
+resource type. For standard resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. For more information, see the Remarks section below.
 
 
 ### -param lpName [in]
@@ -195,7 +195,7 @@ String resources are stored in sections of up to 16 strings per section. The str
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+a+Resource+List">Creating a Resource List</a>.
+For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
 
 <div class="code"></div>
 

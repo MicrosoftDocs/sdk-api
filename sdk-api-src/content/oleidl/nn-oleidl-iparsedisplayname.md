@@ -7,7 +7,7 @@ old-location: com\iparsedisplayname.htm
 old-project: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IParseDisplayName interface
@@ -105,7 +105,7 @@ Parses the specified display name and creates a corresponding moniker.
 
 
 
-<a href="https://www.bing.com/search?q=MkParseDisplayNameEx">MkParseDisplayNameEx</a>
+<a href="_inet_MkParseDisplayNameEx_Function_cpp">MkParseDisplayNameEx</a>
  
 
  

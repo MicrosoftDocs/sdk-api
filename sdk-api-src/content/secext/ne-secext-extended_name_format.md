@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # EXTENDED_NAME_FORMAT enumeration
@@ -82,7 +82,7 @@ A "friendly" display name (for example, Jeff Smith). The display name is not nec
 ### -field NameUniqueId
 
 A GUID string that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
+<a href="_com_iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
 
 
 ### -field NameCanonical

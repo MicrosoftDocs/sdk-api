@@ -7,7 +7,7 @@ old-location: menurc\insertmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenu.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: InsertMenu, InsertMenu function [Menus and Other Resources], InsertMenuA, InsertMenuW, MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _win32_InsertMenu, _win32_insertmenu_cpp, menurc.insertmenu, winui._win32_insertmenu, winuser/InsertMenu, winuser/InsertMenuA, winuser/InsertMenuW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -207,7 +207,7 @@ Places the item on a new line (for menu bars) or in a new column (for a drop-dow
 </dl>
 </td>
 <td width="60%">
-Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
+Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
 
 </td>
 </tr>
@@ -297,7 +297,7 @@ Contains a bitmap handle.
 </dl>
 </td>
 <td width="60%">
-Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a> or <a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a> message sent when the menu item is created or its appearance is updated. 
+Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a> or <a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a> message sent when the menu item is created or its appearance is updated. 
 
 </td>
 </tr>
@@ -396,11 +396,11 @@ The following groups of flags cannot be used together:
 
 
 
-<a href="https://www.bing.com/search?q=WM_DRAWITEM">WM_DRAWITEM</a>
+<a href="controls._win32_WM_DRAWITEM">WM_DRAWITEM</a>
 
 
 
-<a href="https://www.bing.com/search?q=WM_MEASUREITEM">WM_MEASUREITEM</a>
+<a href="controls._win32_WM_MEASUREITEM">WM_MEASUREITEM</a>
  
 
  

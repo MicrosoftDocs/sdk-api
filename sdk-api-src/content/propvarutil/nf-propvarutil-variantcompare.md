@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # VariantCompare function
@@ -91,7 +91,7 @@ Type: <b>INT</b>
 
 
 
-<div class="alert"><b>Note</b>  This function does not support the comparison of different VARIANT types. If the types named in <i>var1</i> and <i>var2</i> are different, the results are undefined and should be ignored. Calling applications should ensure that they are comparing two of the same type before they call this function. The <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a> function can be used to convert the two structures to the same type.</div>
+<div class="alert"><b>Note</b>  This function does not support the comparison of different VARIANT types. If the types named in <i>var1</i> and <i>var2</i> are different, the results are undefined and should be ignored. Calling applications should ensure that they are comparing two of the same type before they call this function. The <a href="shell.PropVariantChangeType">PropVariantChangeType</a> function can be used to convert the two structures to the same type.</div>
 <div> </div>
 By default, VT_NULL / VT_EMPTY / 0-element vectors are considered to be less than any other vartype.
 

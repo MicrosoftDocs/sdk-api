@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2cc4.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxRecipients object, FaxRecipients object [Fax Service],Count property, FaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk

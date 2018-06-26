@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _RAS_AUTH_ATTRIBUTE_TYPE_ enumeration

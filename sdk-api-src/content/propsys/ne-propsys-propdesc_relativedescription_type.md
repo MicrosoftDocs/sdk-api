@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PROPDESC_RELATIVEDESCRIPTION_TYPE enumeration
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="https://www.bing.com/search?q=displayInfo">displayInfo</a> element.
+Describes the relative description type for a property description, as determined by the <i>relativeDescriptionType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element.
 
 
 ## -enum-fields

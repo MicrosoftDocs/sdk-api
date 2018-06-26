@@ -7,7 +7,7 @@ old-location: gpmc\igpm_getclientsideextensions.htm
 old-project: GPMC
 ms.assetid: 5bcf76f5-f216-4a33-9ac1-4cb98eb26db5
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPM object [GPMC],GetClientSideExtensions method, GetClientSideExtensions, GetClientSideExtensions method [GPMC], GetClientSideExtensions method [GPMC],GPM object, GetClientSideExtensions method [GPMC],IGPM interface, IGPM interface [GPMC],GetClientSideExtensions method, IGPM.GetClientSideExtensions, IGPM::GetClientSideExtensions, _win32_igpm_getclientsideextensions, gpmc.igpm_getclientsideextensions, gpmgmt/IGPM::GetClientSideExtensions
 ms.prod: windows
 ms.technology: windows-sdk

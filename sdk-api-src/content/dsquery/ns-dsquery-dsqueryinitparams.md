@@ -78,7 +78,7 @@ Uses features supported by the directory service administration tools, such as A
 
 #### DSQPF_ENABLEADVANCEDFEATURES
 
-Specifies advanced features in the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance passed to context menus and property pages.
+Specifies advanced features in the <a href="_ole_idataobject">IDataObject</a> instance passed to context menus and property pages.
 
 
 
@@ -161,7 +161,7 @@ This structure is specific to the <b>CLSID_DsQuery</b> query handler. This struc
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

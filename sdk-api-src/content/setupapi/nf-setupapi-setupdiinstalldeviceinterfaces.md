@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstalldeviceinterfaces.htm
 old-project: devinst
 ms.assetid: c47d83f6-9ae5-43a9-a6ed-b0441b490e8d
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiInstallDeviceInterfaces, SetupDiInstallDeviceInterfaces function [Device and Driver Installation], devinst.setupdiinstalldeviceinterfaces, di-rtns_8bb9c70f-c1be-45f6-af6c-243a750babb9.xml, setupapi/SetupDiInstallDeviceInterfaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiInstallDeviceInterfaces function
@@ -61,7 +61,7 @@ The <b>SetupDiInstallDeviceInterfaces</b> function is the default handler for th
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device information element that represents the device for which to install interfaces. The device information set must contain only elements for the local system.
+A pointer to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to install interfaces. The device information set must contain only elements for the local system.
 
 
 ### -param DeviceInfoData [in]
@@ -86,9 +86,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 The caller of <b>SetupDiInstallDeviceInterfaces</b> must be a member of the Administrators group. 
 
-<div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiInstallDeviceInterfaces</b> and only in those situations where the class installer must perform device interface installation operations after <b>SetupDiInstallDeviceInterfaces</b> completes the default device interface installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDeviceInterfaces</b>when the installer processes a DIF_INSTALLINTERFACES request. For more information about calling the default handler, see <a href="https://www.bing.com/search?q=Calling+Default+DIF+Code+Handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiInstallDeviceInterfaces</b> and only in those situations where the class installer must perform device interface installation operations after <b>SetupDiInstallDeviceInterfaces</b> completes the default device interface installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDeviceInterfaces</b>when the installer processes a DIF_INSTALLINTERFACES request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
-For information about INF file format, see <a href="https://www.bing.com/search?q=INF+File+Sections+and+Directives">INF File Sections and Directives</a>.
+For information about INF file format, see <a href="devinst.inf_file_sections_and_directives">INF File Sections and Directives</a>.
 
 
 

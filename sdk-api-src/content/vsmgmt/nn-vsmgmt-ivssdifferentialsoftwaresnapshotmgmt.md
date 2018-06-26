@@ -122,7 +122,7 @@ Queries volumes that support shadow copy storage  areas (including volumes with 
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: menurc\getmenustring.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustring.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: GetMenuString, GetMenuString function [Menus and Other Resources], GetMenuStringA, GetMenuStringW, MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuString, _win32_getmenustring_cpp, menurc.getmenustring, winui._win32_getmenustring, winuser/GetMenuString, winuser/GetMenuStringA, winuser/GetMenuStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -171,7 +171,7 @@ The <i>lpString</i> parameter is a <b>TCHAR</b> buffer, and <i>nMaxCount</i> is 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editable+Accelerators">Creating User Editable Accelerators</a>. 
+For an example, see <a href="using_keyboard_accelerators.htm">Creating User Editable Accelerators</a>. 
 
 <div class="code"></div>
 

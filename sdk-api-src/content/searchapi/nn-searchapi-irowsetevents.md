@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRowsetEvents interface
@@ -125,7 +125,7 @@ Indexer eventing is a new feature for Windows 7 that allows providers to receiv
 
 The <b>IRowsetEvents</b> interface is registered by connection point with an open indexer rowset.
 
-<b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="https://msdn.microsoft.com/library/windows/desktop/1e2f5e85-459e-4588-a6fa-4209d5a667c4">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset eventing.
+<b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="1e2f5e85-459e-4588-a6fa-4209d5a667c4">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset eventing.
 
 
 

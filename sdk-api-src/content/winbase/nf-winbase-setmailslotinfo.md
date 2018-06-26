@@ -7,7 +7,7 @@ old-location: base\setmailslotinfo.htm
 old-project: ipc
 ms.assetid: 4afcbbfb-fd04-4813-b139-4baffc2fdf3c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: MAILSLOT_WAIT_FOREVER, SetMailslotInfo, SetMailslotInfo function, _win32_setmailslotinfo, base.setmailslotinfo, winbase/SetMailslotInfo
 ms.prod: windows
 ms.technology: windows-sdk

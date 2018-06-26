@@ -7,7 +7,7 @@ old-location: com\ifont_get_hfont.htm
 old-project: com
 ms.assetid: 19bfd78a-0e81-45c3-a3b8-bc893669e9f5
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IFont interface [COM],get_hFont method, IFont.get_hFont, IFont::get_hFont, _ctrl_ifont_get_hfont, com.ifont_get_hfont, get_hFont, get_hFont method [COM], get_hFont method [COM],IFont interface, ocidl/IFont::get_hFont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IFont::get_hFont

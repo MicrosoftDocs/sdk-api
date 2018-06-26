@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Sfc.lib
 req.dll: Sfc.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SfcGetNextProtectedFile function

@@ -7,7 +7,7 @@ old-location: shell\getscalefactorfordevice.htm
 old-project: shell
 ms.assetid: 5F312914-03F6-42E0-80F9-761D854A81A3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ Use a scale factor of 1.8x.
 
 
 
-The default <a href="https://msdn.microsoft.com/DB42E7D5-4E42-4b78-89F8-0B76320E2C5F">DEVICE_SCALE_FACTOR</a> is <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>.
+The default <a href="https://msdn.microsoft.com/DB42E7D5-4E42-4b78-89F8-0B76320E2C5F">DEVICE_SCALE_FACTOR</a> is <a href="DEVICE_SCALE_FACTOR.htm">SCALE_100_PERCENT</a>.
 
 Use the scale factor that is returned to scale point values for fonts and pixel values.
 

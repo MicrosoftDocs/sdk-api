@@ -141,7 +141,7 @@ This member is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/11c833ee-a9f3-4d08-a6cd-0da62844c589">SymbolServerCallback</a>
+<a href="base.symbolservercallback">SymbolServerCallback</a>
  
 
  
