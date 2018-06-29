@@ -293,7 +293,7 @@ To get the certificate element use this syntax:
 
 
 
-<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
  
 
  

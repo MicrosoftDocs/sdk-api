@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="shell.PSPropertyBag_ReadBOOL">PSPropertyBag_ReadBOOL</a>
+<a href="https://msdn.microsoft.com/library/Ee845050(v=VS.85).aspx">PSPropertyBag_ReadBOOL</a>
  
 
  

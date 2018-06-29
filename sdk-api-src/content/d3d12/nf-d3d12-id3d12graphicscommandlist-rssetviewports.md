@@ -99,7 +99,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42
         
 
 
-          Which viewport to use is determined by the <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
+          Which viewport to use is determined by the <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
 <div class="alert"><b>Note</b>  

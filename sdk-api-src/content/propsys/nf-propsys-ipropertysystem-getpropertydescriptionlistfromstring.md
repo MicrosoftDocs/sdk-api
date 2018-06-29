@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
+Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns
@@ -127,7 +127,7 @@ Indicates <i>ppv</i> is <b>NULL</b>.
 
 The property description list string ("proplist") syntax consists of a sequence of canonical property names, with flags associated with each property name. The string starts with "prop:". The syntax looks like this: <code>prop:[flags]propertyname[endflags];</code>
 
-The flags are optional and can be any of those below. Note: These flags translate to the <a href="shell.PROPDESC_VIEW_FLAGS">PROPDESC_VIEW_FLAGS</a> enum.
+The flags are optional and can be any of those below. Note: These flags translate to the <a href="https://msdn.microsoft.com/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a> enum.
 
 <table class="clsStd">
 <tr>
@@ -239,7 +239,7 @@ For more information about property schemas, see
 
 
 
-<a href="shell.IPropertySystem">IPropertySystem</a>
+<a href="https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
  
 
  

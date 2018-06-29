@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in 
     subsequent versions.]
 
-Contains all of the <a href="p_gly.htm">data values</a> 
+Contains all of the <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">data values</a> 
     associated with a <i>property value</i>.
 
 

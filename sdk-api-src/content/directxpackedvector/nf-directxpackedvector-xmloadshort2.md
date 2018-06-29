@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/library/Ee420195(v=VS.85).aspx">XMSHORT2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/library/Ee420195(v=VS.85).aspx">XMSHORT2</a> structure to load. 
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 
 
-The <b>x</b> and <b>y</b> members of the <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> are converted to
+The <b>x</b> and <b>y</b> members of the <a href="https://msdn.microsoft.com/library/Ee420195(v=VS.85).aspx">XMSHORT2</a> are converted to
    single-precision format, and loaded into the corresponding members of the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. The
    <b>z</b> and <b>w</b> members of the returned <b>XMVECTOR</b> will be initialized to 0. The
    following pseudocode shows you the operation of this function:

@@ -70,7 +70,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>**</b>
 
 
                     Receives a pointer to the value of the parameter. 

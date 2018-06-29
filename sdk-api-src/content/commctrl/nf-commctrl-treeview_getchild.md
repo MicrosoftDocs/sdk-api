@@ -98,7 +98,7 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/2f013ffb-43dd-460f-824a-36fb67639834">TreeView_GetPrevSibling</a>
+<a href="https://msdn.microsoft.com/library/Bb773875(v=VS.85).aspx">TreeView_GetPrevSibling</a>
  
 
  

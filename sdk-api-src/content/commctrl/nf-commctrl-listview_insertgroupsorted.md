@@ -69,13 +69,13 @@ A handle to the list-view control.
 
 Type: <b>PLVINSERTGROUPSORTED</b>
 
-<a href="https://msdn.microsoft.com/0643dc9f-0890-4f17-ae65-0ef5a0679fb0">LVINSERTGROUPSORTED</a>
+<a href="https://msdn.microsoft.com/library/Bb774756(v=VS.85).aspx">LVINSERTGROUPSORTED</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_InsertGroupSorted</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ListView_InsertGroupSorted</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

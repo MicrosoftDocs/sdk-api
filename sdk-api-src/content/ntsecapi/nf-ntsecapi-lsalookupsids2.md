@@ -184,7 +184,7 @@ All of the SIDs were found and successfully translated.
  
 
 If the function fails, the return value is an <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
+<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

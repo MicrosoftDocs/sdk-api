@@ -93,7 +93,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Identical to  <a href="api_flags.htm">WININET_API_FLAG_ASYNC</a>.
+Identical to  <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_ASYNC</a>.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Identical to  <a href="api_flags.htm">WININET_API_FLAG_ASYNC</a>.
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="api_flags.htm">WININET_API_FLAG_SYNC</a>.
+Identical to <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_SYNC</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Identical to <a href="api_flags.htm">WININET_API_FLAG_SYNC</a>.
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="api_flags.htm">WININET_API_FLAG_USE_CONTEXT</a>.
+Identical to <a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">WININET_API_FLAG_USE_CONTEXT</a>.
 
 </td>
 </tr>

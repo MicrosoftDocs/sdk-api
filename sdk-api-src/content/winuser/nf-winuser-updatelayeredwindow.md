@@ -175,7 +175,7 @@ If <i>hdcSrc</i> is <b>NULL</b>, <i>dwFlags</i> should be zero.
 
 Type: <b>HWND</b>
 
-A handle to a layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function. 
+A handle to a layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function. 
 
 <b>Windows 8:  </b>The <b>WS_EX_LAYERED</b> style is supported for top-level windows and child windows. Previous Windows versions support <b>WS_EX_LAYERED</b> only for top-level windows.
 
@@ -200,15 +200,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 The source DC should contain the surface that defines the visible contents of the layered window. For example, you can select a bitmap into a device context obtained by calling the <a href="https://msdn.microsoft.com/6ddc3705-2995-41af-af94-258aed597e17">CreateCompatibleDC</a> function. 
 
-An application should call <a href="https://msdn.microsoft.com/81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d">SetLayout</a> on the <i>hdcSrc</i> device context to properly set the mirroring mode. <b>SetLayout</b> will properly mirror all drawing into an <b>HDC</b> while properly preserving text glyph and (optionally) bitmap direction order. It cannot modify drawing directly into the bits of a device-independent bitmap (DIB). For more information, see <a href="window_features.htm">Window Layout and Mirroring</a>.
+An application should call <a href="https://msdn.microsoft.com/81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d">SetLayout</a> on the <i>hdcSrc</i> device context to properly set the mirroring mode. <b>SetLayout</b> will properly mirror all drawing into an <b>HDC</b> while properly preserving text glyph and (optionally) bitmap direction order. It cannot modify drawing directly into the bits of a device-independent bitmap (DIB). For more information, see <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">Window Layout and Mirroring</a>.
 
 The <b>UpdateLayeredWindow</b> function maintains the window's appearance on the screen. The windows underneath a layered window do not need to be repainted when they are uncovered due to a call to <b>UpdateLayeredWindow</b>, because the system will automatically repaint them. This permits seamless animation of the layered window. 
 
-<b>UpdateLayeredWindow</b> always updates the entire window. To update part of a window, use the traditional <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> and set the blend value using <a href="https://msdn.microsoft.com/5654fa0c-33cf-4014-9d75-0d512fdffacd">SetLayeredWindowAttributes</a>.
+<b>UpdateLayeredWindow</b> always updates the entire window. To update part of a window, use the traditional <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> and set the blend value using <a href="https://msdn.microsoft.com/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a>.
 
 For best drawing performance by the layered window and any underlying windows, the layered window should be as small as possible. An application should also process the  message and re-create its layered windows when the display's color depth changes.
 
-For more information, see <a href="window_features.htm">Layered Windows</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">Layered Windows</a>. 
 
 
 
@@ -238,11 +238,11 @@ For more information, see <a href="window_features.htm">Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
 
 
 
@@ -250,7 +250,7 @@ For more information, see <a href="window_features.htm">Layered Windows</a>.
 
 
 
-<a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a>
+<a href="https://msdn.microsoft.com/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a>
 
 
 

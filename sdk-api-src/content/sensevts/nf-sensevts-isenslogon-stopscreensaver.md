@@ -111,7 +111,7 @@ SENS calls this method to notify an application that a screen saver is stopped.
 
 
 
-<a href="_cos_ieventsubscription">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 

@@ -93,7 +93,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -121,7 +121,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
+<a href="https://msdn.microsoft.com/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
 
 
 
@@ -129,7 +129,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.VariantToBuffer">VariantToBuffer</a>
+<a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
  
 
  

@@ -63,17 +63,17 @@ The <b>CStdStubBuffer_Invoke</b> function implements the  <a href="_com_irpcstub
 
 ### -param This [in]
 
-Pointer to the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
+Pointer to the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
 
 
 ### -param pRpcMsg [in]
 
-Pointer to the <a href="_com_rpcolemessage">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
+Pointer to the <a href="https://msdn.microsoft.com/library/ms691405(v=VS.85).aspx">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
 
 
 ### -param pRpcChannelBuffer [in]
 
-Interface pointer to an <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
+Interface pointer to an <a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> object. Channel used for communication between the client and server.
 
 
 ## -returns

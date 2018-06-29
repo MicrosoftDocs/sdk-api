@@ -66,7 +66,7 @@ Index of the profile to retrieve.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to an <a href="mf.imfsensorprofile">IMFSensorProfile</a> object that describes the specified sensor profile.
+On success, returns a double pointer to an <a href="https://msdn.microsoft.com/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a> object that describes the specified sensor profile.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a>
+<a href="https://msdn.microsoft.com/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
  
 
  

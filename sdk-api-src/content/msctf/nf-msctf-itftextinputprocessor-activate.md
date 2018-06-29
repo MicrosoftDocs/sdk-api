@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-TSF calls this method after creating an instance of a text service with a call to <a href="_com_cocreateinstance">CoCreateInstance</a>. This enables operations necessary to start the text service.
+TSF calls this method after creating an instance of a text service with a call to <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>. This enables operations necessary to start the text service.
 
 This method usually adds a reference to the thread manager for the session and advise sinks for events that involve the text service, such as change of focus, keystrokes, and window events. It also customizes the language bar for the text service.
 

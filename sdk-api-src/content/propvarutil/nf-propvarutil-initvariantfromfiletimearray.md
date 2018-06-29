@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_DATE variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromFileTimeArray">InitVariantFromFileTimeArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762324(v=VS.85).aspx">InitVariantFromFileTimeArray</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,7 +130,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>
  
 
  

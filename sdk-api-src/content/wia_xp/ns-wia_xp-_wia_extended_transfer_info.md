@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>WIA_EXTENDED_TRANSFER_INFO</b> structure specifies extended transfer information for the <a href="https://msdn.microsoft.com/268a5c3e-2717-40c3-9f24-cc490b1e593b">IWiaDataTransfer::idtGetExtendedTransferInfo</a> method.
+The <b>WIA_EXTENDED_TRANSFER_INFO</b> structure specifies extended transfer information for the <a href="https://msdn.microsoft.com/library/ms630153(v=VS.85).aspx">IWiaDataTransfer::idtGetExtendedTransferInfo</a> method.
 
 
 ## -struct-fields
@@ -71,21 +71,21 @@ Size of this structure.
 
 Type: <b>ULONG</b>
 
-Minimum buffer size the application should request in a call to <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a>.
+Minimum buffer size the application should request in a call to <a href="https://msdn.microsoft.com/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a>.
 
 
 ### -field ulOptimalBufferSize
 
 Type: <b>ULONG</b>
 
-Driver-recommended buffer size the application should request in a call to <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a>.
+Driver-recommended buffer size the application should request in a call to <a href="https://msdn.microsoft.com/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a>.
 
 
 ### -field ulMaxBufferSize
 
 Type: <b>ULONG</b>
 
-Driver-recommended maximum buffer size the application could request in a call to <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a>. Going over this limit is not detrimental, however, the driver can simply not use the whole buffer and limit each band of data to this maximum size.
+Driver-recommended maximum buffer size the application could request in a call to <a href="https://msdn.microsoft.com/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a>. Going over this limit is not detrimental, however, the driver can simply not use the whole buffer and limit each band of data to this maximum size.
 
 
 ### -field ulNumBuffers

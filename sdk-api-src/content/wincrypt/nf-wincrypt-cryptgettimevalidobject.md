@@ -61,7 +61,7 @@ The <b>CryptGetTimeValidObject</b> function retrieves a CRL, an OCSP response, o
 
 ### -param pszTimeValidOid [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the object being requested. If the <a href="_win32_hiword_cpp">HIWORD</a> of the <i>pszTimeValidOid</i> parameter is zero, the <a href="_win32_loword_cpp">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
+A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the object being requested. If the <a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a> of the <i>pszTimeValidOid</i> parameter is zero, the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
 
 
 This parameter can be one of the following values. For information about how these values affect the pvPara parameter, see the heading "For the pvPara parameter" in the Meaning column.

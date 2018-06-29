@@ -103,7 +103,7 @@ The default implementation of this method by the
 
 <b>OnPrepareBackup</b> provides a writer an opportunity to more finely select what will be backed up.
 
-Handling the <a href="vssgloss_p.htm">PrepareForBackup</a> event is the last opportunity for a writer to get access to metadata contained in the Backup Components Document prior to the shadow copy's creation.
+Handling the <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> event is the last opportunity for a writer to get access to metadata contained in the Backup Components Document prior to the shadow copy's creation.
 
 Therefore, 
 <b>OnPrepareBackup</b> provides an opportunity for the writer to make any final additions or updates to stored component information (using the 
@@ -111,7 +111,7 @@ Therefore,
 <a href="https://msdn.microsoft.com/96d0a581-87a5-4f97-b23f-08e90a805de1">IVssComponent::SetBackupMetadata</a> or 
 <a href="https://msdn.microsoft.com/2b329fa8-21ad-4de9-9857-52e14d51d429">IVssComponent::SetRestoreMetadata</a>.
 
-In addition, while handling the <a href="vssgloss_p.htm">PrepareForSnapshot</a> event provides another opportunity in the life cycle of a VSS backup operation to perform time-consuming operations (such as synchronizing data across multiple sites), 
+In addition, while handling the <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PrepareForSnapshot</a> event provides another opportunity in the life cycle of a VSS backup operation to perform time-consuming operations (such as synchronizing data across multiple sites), 
 <b>OnPrepareBackup</b> provides a chance for the writer to start such an operation asynchronously. Tasks like these must be completed prior to the return of 
 <a href="https://msdn.microsoft.com/a077323e-d04c-4bf7-8aa6-5028fa1c6e6b">CVssWriter::OnPrepareSnapshot</a>.
 
@@ -123,7 +123,7 @@ A requester generates a
 <b>IVssBackupComponents::PrepareForBackup</b>.
 
 If this method calls the <a href="https://msdn.microsoft.com/bea5ba9c-538b-453f-ae6d-12b94b8edeb6">CVssWriterEx2::GetSessionId</a>, <a href="https://msdn.microsoft.com/9fef9d77-dc0d-4ba0-a317-5c62355458f7">CVssWriter::SetWriterFailure</a>, or <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="writers.htm">Writer Event Handling</a>.
+<a href="https://msdn.microsoft.com/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
 
 
 

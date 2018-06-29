@@ -77,7 +77,7 @@ A null-terminated property name string.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that specifies the property key value to store in the property.
+A <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that specifies the property key value to store in the property.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="shell.PSPropertyBag_ReadPropertyKey">PSPropertyBag_ReadPropertyKey</a>
+<a href="https://msdn.microsoft.com/library/Ee845058(v=VS.85).aspx">PSPropertyBag_ReadPropertyKey</a>
  
 
  

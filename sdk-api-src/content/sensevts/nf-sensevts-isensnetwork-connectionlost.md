@@ -150,7 +150,7 @@ Filtering can be performed on the publisher property <i>ulConnectionLostType</i>
 
 
 
-<a href="_cos_ieventsubscription">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 

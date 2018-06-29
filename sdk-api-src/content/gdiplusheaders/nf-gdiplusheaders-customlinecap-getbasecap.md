@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a> object used as a cap at the end of a line along with this <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object.
+The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a> object used as a cap at the end of a line along with this <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a></b>
 </strong>
 
 This method returns the value of the line cap used at the base of the line.
@@ -78,11 +78,11 @@ This method returns the value of the line cap used at the base of the line.
 
 
 
-<a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a>
+<a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a>
+<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a>
  
 
  

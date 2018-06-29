@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the <a href="https://msdn.microsoft.com/1a7bf2f8-c7db-44a8-b234-0ffc498e9000">TVM_SETIMAGELIST</a> message explicitly. 
+Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773747(v=VS.85).aspx">TVM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -130,11 +130,11 @@ The tree-view control will not destroy the image list specified with this messag
 
 
 
-<a href="https://msdn.microsoft.com/bcf5eac8-cb07-4cf8-ad93-47319fc915a5">TVM_GETIMAGELIST</a>
+<a href="https://msdn.microsoft.com/library/Bb773585(v=VS.85).aspx">TVM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddc6ea66-b3b5-4501-92d4-9dbbc7b9e727">TreeView_GetImageList</a>
+<a href="https://msdn.microsoft.com/library/Bb773829(v=VS.85).aspx">TreeView_GetImageList</a>
  
 
  

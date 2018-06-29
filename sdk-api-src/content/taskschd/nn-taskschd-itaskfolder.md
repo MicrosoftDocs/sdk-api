@@ -217,7 +217,7 @@ Gets the path to where the folder is stored.
 
 
 
-<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
+<a href="https://msdn.microsoft.com/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
  
 
  

@@ -64,7 +64,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
 
 
 ### -param wszClass [in]

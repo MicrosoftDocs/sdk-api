@@ -99,6 +99,6 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-An application-defined value. If the <a href="https://msdn.microsoft.com/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://msdn.microsoft.com/00a8ce10-1fb2-488a-a6f9-1814f73f82bd">RB_PUSHCHEVRON</a> message, this member contains the message's 
+An application-defined value. If the <a href="https://msdn.microsoft.com/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://msdn.microsoft.com/library/Bb774506(v=VS.85).aspx">RB_PUSHCHEVRON</a> message, this member contains the message's 
 					<i>lAppValue</i> value. Otherwise, it is set to zero. 
 

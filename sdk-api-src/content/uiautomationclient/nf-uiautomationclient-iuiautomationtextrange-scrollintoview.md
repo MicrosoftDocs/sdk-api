@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The method respects both hidden and visible text. If the text range is hidden, the text control will scroll only if the hidden text has an anchor in the viewport. 
 
- A Microsoft UI Automation client can check text visibility by calling <a href="https://msdn.microsoft.com/7a77774e-7be0-473e-a0c9-e1aa108549e1">IUIAutomationTextRange::GetAttributeValue</a> with the <i>attr</i> parameter set to <a href="uiauto_textattribute_ids.htm">UIA_IsHiddenAttributeId</a>.  
+ A Microsoft UI Automation client can check text visibility by calling <a href="https://msdn.microsoft.com/7a77774e-7be0-473e-a0c9-e1aa108549e1">IUIAutomationTextRange::GetAttributeValue</a> with the <i>attr</i> parameter set to <a href="https://msdn.microsoft.com/library/Ee671662(v=VS.85).aspx">UIA_IsHiddenAttributeId</a>.  
 
 
 

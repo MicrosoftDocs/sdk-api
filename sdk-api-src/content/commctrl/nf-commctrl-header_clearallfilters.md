@@ -79,7 +79,7 @@ When all the filters are cleared, the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/d52e4636-9d08-42fc-8e64-e07245183c91">Header_ClearFilter</a>
+<a href="https://msdn.microsoft.com/library/Bb775377(v=VS.85).aspx">Header_ClearFilter</a>
  
 
  

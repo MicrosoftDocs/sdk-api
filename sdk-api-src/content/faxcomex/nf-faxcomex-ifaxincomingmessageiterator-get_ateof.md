@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
 
 
 
@@ -73,15 +73,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

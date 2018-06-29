@@ -96,7 +96,7 @@ If the function fails, the return value is zero.
 
 
 
-When this function is called, the system sends the <a href="_win32_wm_windowposchanging_cpp">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
+When this function is called, the system sends the <a href="https://msdn.microsoft.com/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
 
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
@@ -126,7 +126,7 @@ To obtain the window region of a window, call the <a href="https://msdn.microsof
 
 
 
-<a href="_win32_wm_windowposchanging_cpp">WM_WINDOWPOSCHANGING</a>
+<a href="https://msdn.microsoft.com/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a>
  
 
  

@@ -107,7 +107,7 @@ A pointer to a pointer to provider's copy of the <a href="https://msdn.microsoft
 
 
 
-<a href="cryptography_functions.htm">Callback Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
 
 
 

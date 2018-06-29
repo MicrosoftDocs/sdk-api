@@ -136,7 +136,7 @@ Returns the handle to a window that corresponds to the current document.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

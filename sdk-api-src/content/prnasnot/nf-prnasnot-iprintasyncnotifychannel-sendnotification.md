@@ -202,7 +202,7 @@ For a bidirectional channel, if a <b>SendNotification</b> call is made while the
 
 When multiple listeners exist for the same bidirectional channel, the initial notification sent on the channel will be delivered to all listeners. The first listener to reply will acquire the channel. Listeners calling <b>SendNotification</b> after the channel was acquired will fail with error CHANNEL_ACQUIRED.
 
-A listener receiving an initial notification on a bidirectional channel might not be interested in acquiring the channel. In this case the listener can call <a href="_com_iunknown_release">IUnknown::Release</a> method can be called. The <b>IUnknown::Release</b> method does not need to be called if <b>SendNotification</b> or <a href="https://msdn.microsoft.com/d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7">IPrintAsyncNotifyChannel::CloseChannel</a> methods are called.
+A listener receiving an initial notification on a bidirectional channel might not be interested in acquiring the channel. In this case the listener can call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method can be called. The <b>IUnknown::Release</b> method does not need to be called if <b>SendNotification</b> or <a href="https://msdn.microsoft.com/d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7">IPrintAsyncNotifyChannel::CloseChannel</a> methods are called.
 
 
 

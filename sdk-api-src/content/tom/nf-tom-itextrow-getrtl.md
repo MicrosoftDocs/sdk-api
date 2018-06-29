@@ -63,7 +63,7 @@ Gets whether this row has right-to-left orientation.
 
 Type: <b>long*</b>
 
- A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row has right-to-left orientation.
+ A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row has right-to-left orientation.
 
 
 ## -returns

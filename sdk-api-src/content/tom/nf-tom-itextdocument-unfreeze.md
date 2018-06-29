@@ -95,7 +95,7 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 
-<a href="https://msdn.microsoft.com/145cdaa0-b800-47da-a964-712e80287a3b">BeginEditCollection</a>
+<a href="https://msdn.microsoft.com/library/Bb787730(v=VS.85).aspx">BeginEditCollection</a>
 
 
 
@@ -103,11 +103,11 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 
-<a href="https://msdn.microsoft.com/39ddce52-589e-4dc4-a55c-48902c2fa51e">Freeze</a>
+<a href="https://msdn.microsoft.com/library/Bb773925(v=VS.85).aspx">Freeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
+<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -115,7 +115,7 @@ Note, if edit collection is active, screen updating is suppressed, even if the f
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

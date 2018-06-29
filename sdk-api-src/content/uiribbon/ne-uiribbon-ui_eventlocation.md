@@ -61,22 +61,22 @@ Identifies the locations where events associated with a Ribbon control can origi
 
 ### -field UI_EVENTLOCATION_Ribbon
 
-The <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a>.
+The <a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a>.
 
 
 ### -field UI_EVENTLOCATION_QAT
 
-The <a href="https://msdn.microsoft.com/59aa35c3-a844-46b3-b066-c9a321fb0891">QuickAccessToolbar</a>.
+The <a href="https://msdn.microsoft.com/library/Dd371713(v=VS.85).aspx">QuickAccessToolbar</a>.
 
 
 ### -field UI_EVENTLOCATION_ApplicationMenu
 
-The <a href="https://msdn.microsoft.com/815e0462-ea45-44b1-81bf-f5797b22e920">ApplicationMenu</a>.
+The <a href="https://msdn.microsoft.com/library/Dd371601(v=VS.85).aspx">ApplicationMenu</a>.
 
 
 ### -field UI_EVENTLOCATION_ContextPopup
 
-The <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>.
+The <a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">Co
 
 
 
-<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
 
 
 

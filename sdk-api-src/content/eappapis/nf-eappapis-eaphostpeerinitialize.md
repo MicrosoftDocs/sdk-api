@@ -77,7 +77,7 @@ The following call occurs within the <b>EapHostPeerInitialize</b> function:
 <code>CoInitializeEx(NULL, COINIT_MULTITHREADED);</code>
 
 The client should not initialize a conflicting COM environment.
-If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="_com_CoInitializeEx">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="_com_CoUninitialize">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
+If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="https://msdn.microsoft.com/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
 
 
 

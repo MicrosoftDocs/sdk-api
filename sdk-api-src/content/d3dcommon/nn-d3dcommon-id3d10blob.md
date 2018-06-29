@@ -71,7 +71,7 @@ The <b>ID3D10Blob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1633d3ae-6002-4248-89be-74fe2657d65f">GetBufferPointer</a>
+<a href="https://msdn.microsoft.com/library/Bb173508(v=VS.85).aspx">GetBufferPointer</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the data.
@@ -80,7 +80,7 @@ Get a pointer to the data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa47ec94-01e8-4e4b-a00a-2a0aca17c58a">GetBufferSize</a>
+<a href="https://msdn.microsoft.com/library/Bb173509(v=VS.85).aspx">GetBufferSize</a>
 </td>
 <td align="left" width="63%">
 Get the size.
@@ -94,7 +94,7 @@ Get the size.
 
 
 
-An <b>ID3D10Blob</b> is obtained by calling <a href="https://msdn.microsoft.com/bacc1d17-13e2-428c-9fd5-01c02406aa14">D3D10CreateBlob</a>.
+An <b>ID3D10Blob</b> is obtained by calling <a href="https://msdn.microsoft.com/library/Bb205085(v=VS.85).aspx">D3D10CreateBlob</a>.
 
 The  <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface is type defined in the  D3DCommon.h header file as a  <b>ID3D10Blob</b> interface, which is fully defined in the  D3DCommon.h header file. <b>ID3DBlob</b> is version neutral and can be used in code for any Direct3D version.
 
@@ -108,7 +108,7 @@ Blobs can be used as a data buffer, storing vertex, adjacency, and material info
 
 
 
-<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
  
 
  

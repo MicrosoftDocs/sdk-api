@@ -79,7 +79,7 @@ A pointer to the callback function to be executed in a non-I/O worker thread whe
 <a href="https://msdn.microsoft.com/ae1ad0f3-67df-4573-af22-7086f0470361">TerminateThread</a> function.
 
 For more information about the completion routine, see 
-<a href="base.fileiocompletionroutine">FileIOCompletionRoutine</a>.
+<a href="https://msdn.microsoft.com/library/Aa364052(v=VS.85).aspx">FileIOCompletionRoutine</a>.
 
 
 ### -param Flags [in]
@@ -120,7 +120,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 
-<a href="base.fileiocompletionroutine">FileIOCompletionRoutine</a>
+<a href="https://msdn.microsoft.com/library/Aa364052(v=VS.85).aspx">FileIOCompletionRoutine</a>
 
 
 

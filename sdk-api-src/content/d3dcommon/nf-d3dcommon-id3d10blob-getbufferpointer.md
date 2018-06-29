@@ -76,7 +76,7 @@ Returns a pointer.
 
 
 
-<a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173507(v=VS.85).aspx">ID3D10Blob Interface</a>
  
 
  

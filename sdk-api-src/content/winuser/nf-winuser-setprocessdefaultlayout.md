@@ -162,7 +162,7 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://msdn.microsoft.com/c6ddc7e8-aa64-4296-b10b-8f0e2f4612b8">GetProcessDefaultLayout</a>
+<a href="https://msdn.microsoft.com/library/ms633511(v=VS.85).aspx">GetProcessDefaultLayout</a>
 
 
 

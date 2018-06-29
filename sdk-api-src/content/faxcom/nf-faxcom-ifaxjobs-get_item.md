@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxJobs::get_Item</b> method returns a new <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
+The <b>IFaxJobs::get_Item</b> method returns a new <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>IFaxJobs::get_Item</b> method returns a new <a href="https://msdn.microso
 
 Type: <b>LONG</b>
 
-Specifies a <b>LONG</b> variable that indicates the fax job to retrieve. Valid values for this parameter are in the range from 1 to <i>n</i>, where <i>n</i> is the number of <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> objects returned by a call to the <a href="https://msdn.microsoft.com/476d4381-30b4-4749-b1ea-fbd28ca8148d">IFaxJobs::get_Count</a> method. 
+Specifies a <b>LONG</b> variable that indicates the fax job to retrieve. Valid values for this parameter are in the range from 1 to <i>n</i>, where <i>n</i> is the number of <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects returned by a call to the <a href="https://msdn.microsoft.com/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a> method. 
 
 
 ### -param pVal [out]
 
 Type: <b>VARIANT*</b>
 
-Receives a pointer to a <b>VARIANT</b> structure that receives an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/4c8376a4-dded-489e-a361-ce6edd0e17af">FaxJob</a> object. The method returns a <b>ppdispVal</b> member with a VT_DISPATCH data type.
+Receives a pointer to a <b>VARIANT</b> structure that receives an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object. The method returns a <b>ppdispVal</b> member with a VT_DISPATCH data type.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A fax client application can also access the <a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a> interface directly by calling the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.
+A fax client application can also access the <a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.
 
 
 
@@ -98,11 +98,11 @@ A fax client application can also access the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
@@ -110,19 +110,19 @@ A fax client application can also access the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a>
+<a href="https://msdn.microsoft.com/library/ms692310(v=VS.85).aspx">IFaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9e548c4-9381-4b7d-9a9d-55fbc59f198f">IFaxJobs</a>
+<a href="https://msdn.microsoft.com/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/476d4381-30b4-4749-b1ea-fbd28ca8148d">IFaxJobs::get_Count</a>
+<a href="https://msdn.microsoft.com/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a>
 
 
 
-<a href="_com_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

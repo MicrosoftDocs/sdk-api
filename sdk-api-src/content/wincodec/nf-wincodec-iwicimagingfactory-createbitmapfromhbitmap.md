@@ -112,11 +112,11 @@ For a non-palletized bitmap, set NULL for the <i>hPalette</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">GDI+ Bitmap class</a>
+<a href="https://msdn.microsoft.com/library/ms534420(v=VS.85).aspx">GDI+ Bitmap class</a>
 
 
 
-<a href="https://msdn.microsoft.com/9728a458-fd25-4edf-bf9e-c38766934dd4">GDI+ Bitmap.GetHBITMAP method</a>
+<a href="https://msdn.microsoft.com/library/ms536295(v=VS.85).aspx">GDI+ Bitmap.GetHBITMAP method</a>
 
 
 

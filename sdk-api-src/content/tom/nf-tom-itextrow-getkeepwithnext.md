@@ -63,7 +63,7 @@ Gets  whether this row should appear on the same page as the row that follows it
 
 Type: <b>long*</b>
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates whether this row should be kept on the same page as the following row.
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates whether this row should be kept on the same page as the following row.
 
 
 ## -returns

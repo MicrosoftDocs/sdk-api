@@ -55,13 +55,13 @@ req.product: Windows XP with SP1 and later
 
 Concatenates one  string to another string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbCatEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/6330483b-dc61-4bbf-8ee7-e91a93495bb2">StringCbCat</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCbCatEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/ms647495(v=VS.85).aspx">StringCbCat</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCbCatEx</b> is a replacement for the following functions:
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192489">strcat, wcscat, _tcsat</a></li>
 <li>
-<a href="https://msdn.microsoft.com/346f6c95-6ebe-4e73-8f29-2778cc813e36">lstrcat</a>
+<a href="https://msdn.microsoft.com/library/ms647487(v=VS.85).aspx">lstrcat</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/fd357462-83be-42a8-9f39-1e023bd5f86e">StrCat</a>
@@ -140,7 +140,7 @@ If the function succeeds, the low byte of <i>dwFlags</i> (0) is used to fill the
 </dl>
 </td>
 <td width="60%">
-Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>.
+Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://msdn.microsoft.com/library/ms647490(v=VS.85).aspx">lstrcpy</a>.
 
 </td>
 </tr>
@@ -284,15 +284,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://msdn.microsoft.com/6330483b-dc61-4bbf-8ee7-e91a93495bb2">StringCbCat</a>
+<a href="https://msdn.microsoft.com/library/ms647495(v=VS.85).aspx">StringCbCat</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad1cad70-c548-4b2f-b253-b0af5000df08">StringCbCatNEx</a>
+<a href="https://msdn.microsoft.com/library/ms647498(v=VS.85).aspx">StringCbCatNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b829dfa-6ede-47bd-b4d7-fcbf94a26c50">StringCchCatEx</a>
+<a href="https://msdn.microsoft.com/library/ms647520(v=VS.85).aspx">StringCchCatEx</a>
  
 
  

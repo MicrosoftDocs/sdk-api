@@ -63,12 +63,12 @@ The <b>CStdStubBuffer_Connect</b> function implements the  <a href="_com_irpcstu
 
 ### -param This [in]
 
-Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="_com_iunknown">IUnknown</a> interface of the server object. 
+Pointer to the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
 
 
 ## -returns

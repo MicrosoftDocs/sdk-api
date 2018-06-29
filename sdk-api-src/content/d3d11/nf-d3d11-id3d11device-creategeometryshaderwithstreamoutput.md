@@ -64,10 +64,10 @@ Creates a geometry shader that can write to streaming output buffers.
 Type: <b>const void*</b>
 
 
-            A pointer to the compiled geometry shader for a standard geometry shader plus stream output. For info on how to get this pointer, see <a href="https://msdn.microsoft.com/cff6f901-cb9b-44d5-a75b-9a4029a37215">Getting a Pointer to a Compiled Shader</a>.
+            A pointer to the compiled geometry shader for a standard geometry shader plus stream output. For info on how to get this pointer, see <a href="https://msdn.microsoft.com/library/Bb509703(v=VS.85).aspx">Getting a Pointer to a Compiled Shader</a>.
 
 
-              To create the stream output without using a geometry shader, pass a pointer to the output signature for the prior stage. To obtain this output signature, call the <a href="https://msdn.microsoft.com/25b5f9ef-16fe-4875-ab20-762360c3ee1b">D3DGetOutputSignatureBlob</a> compiler function. You can also pass a pointer to the compiled shader for the prior stage (for example, the <a href="direct3d11.d3d10_graphics_programming_guide_shader_stages">vertex-shader stage</a> or <a href="direct3d_11_advanced_stages_tessellation.htm">domain-shader stage</a>). This compiled shader provides the output signature for the data.
+              To create the stream output without using a geometry shader, pass a pointer to the output signature for the prior stage. To obtain this output signature, call the <a href="https://msdn.microsoft.com/library/Dd607331(v=VS.85).aspx">D3DGetOutputSignatureBlob</a> compiler function. You can also pass a pointer to the compiled shader for the prior stage (for example, the <a href="direct3d11.d3d10_graphics_programming_guide_shader_stages">vertex-shader stage</a> or <a href="https://msdn.microsoft.com/library/Ff476340(v=VS.85).aspx">domain-shader stage</a>). This compiled shader provides the output signature for the data.
             
 
 
@@ -143,7 +143,7 @@ Type: <b><a href="https://msdn.microsoft.com/c2b5863d-5773-4719-b1d0-2026f55fcef
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
@@ -157,7 +157,7 @@ Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 
-          For more info about using <b>CreateGeometryShaderWithStreamOutput</b>, see <a href="d3d10_graphics_programming_guide_output_stream_stage_getting_started.htm">Create a Geometry-Shader Object with Stream Output</a>.
+          For more info about using <b>CreateGeometryShaderWithStreamOutput</b>, see <a href="https://msdn.microsoft.com/library/Bb205122(v=VS.85).aspx">Create a Geometry-Shader Object with Stream Output</a>.
         
 
 

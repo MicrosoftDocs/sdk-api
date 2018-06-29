@@ -81,7 +81,7 @@ Handle to the tree-view control.
 
 
 
-This macro causes the <a href="https://msdn.microsoft.com/82eb9fcd-de10-4efb-8501-78c5af5e089e">TVN_ENDLABELEDIT</a> notification code to be sent to the parent window of the tree-view control. 
+This macro causes the <a href="https://msdn.microsoft.com/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a> notification code to be sent to the parent window of the tree-view control. 
 
 
 

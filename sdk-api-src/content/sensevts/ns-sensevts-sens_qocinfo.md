@@ -90,7 +90,7 @@ Speed of data coming in from the destination in bits per second.
 
 
 
-<a href="_cos_ieventsubscription">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 

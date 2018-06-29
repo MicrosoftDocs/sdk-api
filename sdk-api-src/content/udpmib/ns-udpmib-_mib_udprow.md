@@ -78,7 +78,7 @@ The port number of the UDP endpoint on the local computer. This member is stored
 
 
 
-The <a href="_iphlp_getudptable">GetUdpTable</a>
+The <a href="https://msdn.microsoft.com/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>
 			function retrieves the IPv4 UDP listener table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/83608d38-e352-483a-b284-2f9cb444e64f">MIB_UDPTABLE</a> structure. 
 
 An array of <b>MIB_UDPROW</b> structures are contained in the <b>MIB_UDPTABLE</b> structure.  
@@ -110,7 +110,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_getudptable">GetUdpTable</a>
+<a href="https://msdn.microsoft.com/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>
 
 
 

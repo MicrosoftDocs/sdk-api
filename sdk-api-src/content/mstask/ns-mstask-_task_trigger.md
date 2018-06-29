@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Defines the times to run a scheduled <a href="w.htm">work item</a>.
+Defines the times to run a scheduled <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
 
 
 ## -struct-fields
@@ -215,7 +215,7 @@ These times may include the start time, end time, duration, and modification fla
 
 
 
-<a href="trigger_interfaces.htm">Task Scheduler 2.0 Trigger Interfaces</a>
+<a href="https://msdn.microsoft.com/library/Aa383953(v=VS.85).aspx">Task Scheduler 2.0 Trigger Interfaces</a>
  
 
  

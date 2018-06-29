@@ -103,7 +103,7 @@ Specifies the actual confidence for this element. This can be one of the followi
 
 ### -field bstrText
 
-Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
+Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
 
 
 ## -see-also
@@ -116,7 +116,7 @@ Contains the display text for the element. If the spoken word is "two", the disp
 
 
 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

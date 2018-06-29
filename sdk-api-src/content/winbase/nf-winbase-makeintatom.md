@@ -87,27 +87,27 @@ Although the return value of the <b>MAKEINTATOM</b> macro is cast as an <b>LPTST
 
 
 
-<a href="https://msdn.microsoft.com/0712cd2e-397f-48e1-b3bd-ed0dd3155373">AddAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649056(v=VS.85).aspx">AddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/44c4fbdd-2206-4a6f-9bf1-5495407f6800">DeleteAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649057(v=VS.85).aspx">DeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/50b01772-660c-4421-8a6f-a6da5369bad4">GetAtomName</a>
+<a href="https://msdn.microsoft.com/library/ms649059(v=VS.85).aspx">GetAtomName</a>
 
 
 
-<a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9ccaa7e3d">GlobalAddAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/387f2dbf-39c3-4294-b77d-0439e296a000">GlobalDeleteAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ba8ea4d-7efe-4eb3-afea-c84ab6cacaea">GlobalGetAtomName</a>
+<a href="https://msdn.microsoft.com/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a>
 
 
 

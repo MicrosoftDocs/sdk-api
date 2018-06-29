@@ -327,7 +327,7 @@ This parameter signifies that the value is less than or equal to a reference val
 
 
 
-          The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+          The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>.
         
 
 

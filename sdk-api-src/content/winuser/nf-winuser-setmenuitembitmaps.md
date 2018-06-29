@@ -153,7 +153,7 @@ Use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e
 
 #### Examples
 
-For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -164,7 +164,7 @@ For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
  
 
  

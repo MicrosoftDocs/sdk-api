@@ -177,7 +177,7 @@ The caller does not have a read/write lock.
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

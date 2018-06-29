@@ -130,7 +130,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
       
 
 
-        The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="object_properties.htm">WPD_OBJECT_FORMAT</a> property of the new object.
+        The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="https://msdn.microsoft.com/library/ms221160(v=VS.85).aspx">WPD_OBJECT_FORMAT</a> property of the new object.
       
 
 
@@ -151,7 +151,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
 
 
 

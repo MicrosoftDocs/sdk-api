@@ -126,7 +126,7 @@ Zero-based index of the band affected by the notification. This will be -1 if no
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The style of the band. This is one or more of the RBBS_ styles detailed in the 
-					<b>fStyle</b> member of the <a href="https://msdn.microsoft.com/67a59093-f387-47e2-b3bf-b12a7707da31">REBARBANDINFO</a> structure. This member is only valid if 
+					<b>fStyle</b> member of the <a href="https://msdn.microsoft.com/library/Bb774393(v=VS.85).aspx">REBARBANDINFO</a> structure. This member is only valid if 
 					<b>dwMask</b> contains RBNM_STYLE. 
 
 

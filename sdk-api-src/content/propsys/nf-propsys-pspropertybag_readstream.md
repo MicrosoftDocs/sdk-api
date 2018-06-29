@@ -95,7 +95,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The caller of the <a href="shell.PSPropertyBag_ReadStream">PSPropertyBag_ReadStream</a> function needs to call a <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object returned by this function.
+The caller of the <a href="https://msdn.microsoft.com/library/Ee845063(v=VS.85).aspx">PSPropertyBag_ReadStream</a> function needs to call a <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object returned by this function.
 
 
 
@@ -109,7 +109,7 @@ The caller of the <a href="shell.PSPropertyBag_ReadStream">PSPropertyBag_ReadStr
 
 
 
-<a href="shell.PSPropertyBag_WriteStream">PSPropertyBag_WriteStream</a>
+<a href="https://msdn.microsoft.com/library/Ee845079(v=VS.85).aspx">PSPropertyBag_WriteStream</a>
  
 
  

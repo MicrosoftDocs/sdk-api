@@ -66,7 +66,7 @@ A set of flags that specify folder view options. The flags are independent of ea
 
 ### -field FWF_AUTOARRANGE
 
-0x00000001. Automatically arrange the elements in the view. This implies <a href="https://msdn.microsoft.com/8b57239b-112e-4fb6-b394-15501bd3f5b3">LVS_AUTOARRANGE</a> if the list-view control is used to implement the view.
+0x00000001. Automatically arrange the elements in the view. This implies <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_AUTOARRANGE</a> if the list-view control is used to implement the view.
 
 
 ### -field FWF_ABBREVIATEDNAMES
@@ -121,7 +121,7 @@ A set of flags that specify folder view options. The flags are independent of ea
 
 ### -field FWF_ALIGNLEFT
 
-0x00000800. The view should be left-aligned. This implies <a href="https://msdn.microsoft.com/8b57239b-112e-4fb6-b394-15501bd3f5b3">LVS_ALIGNLEFT</a> if the list-view control is used to implement the view.
+0x00000800. The view should be left-aligned. This implies <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_ALIGNLEFT</a> if the list-view control is used to implement the view.
 
 
 ### -field FWF_NOICONS

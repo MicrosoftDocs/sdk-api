@@ -115,7 +115,7 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 The default proxy configuration can be overridden for a WinHTTP session by calling 
 <a href="https://msdn.microsoft.com/bcf1da09-5787-4d2a-82ae-6965e27fa477">WinHttpSetOption</a> and specifying the 
-<a href="option_flags.htm">WINHTTP_OPTION_PROXY</a> flag.  
+<a href="https://msdn.microsoft.com/library/Aa384066(v=VS.85).aspx">WINHTTP_OPTION_PROXY</a> flag.  
 <b>WinHttpGetDefaultProxyConfiguration</b> does not retrieve the configuration for the current session.  It retrieves the configuration specified in the registry.
 
 If the registry contains a list of proxy servers, the 

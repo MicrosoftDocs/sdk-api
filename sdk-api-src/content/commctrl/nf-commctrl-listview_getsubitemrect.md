@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://msdn.microsoft.com/985876b2-6eb3-4c96-88ea-ddec67ef5b5a">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="List_view_window_styles.htm">LVS_REPORT</a> style. 
+Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://msdn.microsoft.com/library/Bb761075(v=VS.85).aspx">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_REPORT</a> style. 
 
 
 ## -parameters

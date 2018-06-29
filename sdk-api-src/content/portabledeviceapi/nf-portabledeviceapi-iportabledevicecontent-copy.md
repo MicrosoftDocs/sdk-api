@@ -151,7 +151,7 @@ The application does not have the rights to copy one of the specified objects.
 
 
 
-<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
  
 
  

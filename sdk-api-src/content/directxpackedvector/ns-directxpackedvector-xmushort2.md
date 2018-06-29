@@ -58,10 +58,10 @@ req.irql:
 
 
 	For a list of additional functionality such as constructors and operators that are available
-	using <code>XMUSHORT2</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/20e1c812-2c0b-483e-a9fd-e4188b04a024">XMUSHORT2 Extensions</a>.
+	using <code>XMUSHORT2</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/library/Ee415496(v=VS.85).aspx">XMUSHORT2 Extensions</a>.
 <div class="alert"><b>Note</b>  
 	See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -97,11 +97,11 @@ req.irql:
 
 
 <code>XMUSHORT2</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using
-	    <a href="https://msdn.microsoft.com/0404d49b-9bb8-43e7-8874-10612d5e54bf">XMLoadUShort2</a>.
+	    <a href="https://msdn.microsoft.com/library/Ee419945(v=VS.85).aspx">XMLoadUShort2</a>.
 	
 
 
-	    Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUSHORT2</code> with <a href="https://msdn.microsoft.com/b0b32dc8-4eb3-422e-9073-9cb607422831">XMStoreUShort2</a>.
+	    Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUSHORT2</code> with <a href="https://msdn.microsoft.com/library/Ee420387(v=VS.85).aspx">XMStoreUShort2</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -121,7 +121,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/20e1c812-2c0b-483e-a9fd-e4188b04a024">XMUSHORT2 Extensions</a>
+<a href="https://msdn.microsoft.com/library/Ee415496(v=VS.85).aspx">XMUSHORT2 Extensions</a>
  
 
  

@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> function. 
+The foreground process can call the <b>LockSetForegroundWindow</b> function to disable calls to the <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function. 
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The foreground process can call the <b>LockSetForegroundWindow</b> function to d
 
 Type: <b>UINT</b>
 
-Specifies whether to enable or disable calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>. This parameter can be one of the following values. 
+Specifies whether to enable or disable calls to <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>. This parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ Specifies whether to enable or disable calls to <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-Disables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>.
+Disables calls to <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Disables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e
 </dl>
 </td>
 <td width="60%">
-Enables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>.
+Enables calls to <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The system automatically enables calls to <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
+The system automatically enables calls to <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> if the user presses the ALT key or takes some action that causes the system itself to change the foreground window (for example, clicking a background window).
 
 This function is provided so applications can prevent other applications from making a foreground change that can interrupt its interaction with the user.
 
@@ -128,7 +128,7 @@ This function is provided so applications can prevent other applications from ma
 
 
 
-<a href="https://msdn.microsoft.com/2d20519e-4d21-4722-8e26-bab933763326">AllowSetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a>
 
 
 
@@ -140,7 +140,7 @@ This function is provided so applications can prevent other applications from ma
 
 
 
-<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
 
 
 

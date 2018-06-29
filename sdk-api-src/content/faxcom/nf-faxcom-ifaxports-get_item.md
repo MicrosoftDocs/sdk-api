@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxPorts::get_Item</b> method creates a <a href="https://msdn.microsoft.com/cc59452b-194e-4a68-955b-ac39cd5325ff">FaxPort</a> object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
+The <b>IFaxPorts::get_Item</b> method creates a <a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a> object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>IFaxPorts::get_Item</b> method creates a <a href="https://msdn.microsoft.
 
 Type: <b>LONG</b>
 
-Specifies a <b>LONG</b> variable that indicates the fax port to retrieve. Valid values for this parameter are in the range from 1 to <i>n</i>, where <i>n</i> is the number of fax ports returned by a call to the <a href="https://msdn.microsoft.com/57736284-43f4-4ac3-bb43-313e6ee4ea44">IFaxPorts::get_Count</a> method. 
+Specifies a <b>LONG</b> variable that indicates the fax port to retrieve. Valid values for this parameter are in the range from 1 to <i>n</i>, where <i>n</i> is the number of fax ports returned by a call to the <a href="https://msdn.microsoft.com/library/ms692338(v=VS.85).aspx">IFaxPorts::get_Count</a> method. 
 
 
 ### -param pVal [out]
 
 Type: <b>VARIANT*</b>
 
-Receives a pointer to a <b>VARIANT</b> structure that receives an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/cc59452b-194e-4a68-955b-ac39cd5325ff">FaxPort</a> object. The method returns a <b>ppdispVal</b> member with a VT_DISPATCH data type.
+Receives a pointer to a <b>VARIANT</b> structure that receives an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a> object. The method returns a <b>ppdispVal</b> member with a VT_DISPATCH data type.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A fax client application can also access the <a href="https://msdn.microsoft.com/abdd91dd-7734-411a-9b7c-0da312269e6d">IFaxPort</a> interface directly by calling the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxPort</b> interface pointer.
+A fax client application can also access the <a href="https://msdn.microsoft.com/library/ms691281(v=VS.85).aspx">IFaxPort</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxPort</b> interface pointer.
 
 
 
@@ -98,19 +98,19 @@ A fax client application can also access the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc59452b-194e-4a68-955b-ac39cd5325ff">FaxPort</a>
+<a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac1e4c87-ba3b-4b49-887c-ed392ddab455">FaxPorts</a>
+<a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a>
 
 
 
@@ -118,11 +118,11 @@ A fax client application can also access the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/e61b13b3-d86c-4f95-bf5a-6b0545a76d03">IFaxPorts</a>
+<a href="https://msdn.microsoft.com/library/ms690893(v=VS.85).aspx">IFaxPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/57736284-43f4-4ac3-bb43-313e6ee4ea44">IFaxPorts::get_Count</a>
+<a href="https://msdn.microsoft.com/library/ms692338(v=VS.85).aspx">IFaxPorts::get_Count</a>
  
 
  

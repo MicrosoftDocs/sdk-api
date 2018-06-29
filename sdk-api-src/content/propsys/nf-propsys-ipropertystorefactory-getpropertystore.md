@@ -61,10 +61,10 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 ### -param flags [in]
 
-Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
 
 
-<a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
+<a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
 
 
 ### -param pUnkFactory [in]

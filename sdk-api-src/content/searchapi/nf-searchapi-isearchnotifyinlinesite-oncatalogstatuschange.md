@@ -121,11 +121,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5837ccf6-1156-44a5-9135-3e3b47244f9d">ISearchNotifyInlineSite</a>
+<a href="https://msdn.microsoft.com/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/817550e2-a256-48d5-9fa6-1ea04f8b8589">Notifying the Index of Changes</a>
+<a href="https://msdn.microsoft.com/library/Bb266528(v=VS.85).aspx">Notifying the Index of Changes</a>
  
 
  

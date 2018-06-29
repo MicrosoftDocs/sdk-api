@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::GetCustomStartCap</b> method gets the custom start cap currently set for this 
-			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
+			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -62,11 +62,11 @@ The <b>Pen::GetCustomStartCap</b> method gets the custom start cap currently set
 
 ### -param customCap [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object that receives the start cap of this 
-					<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object. 
+					<a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object that receives the start cap of this 
+					<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object. 
 
 
 ## -returns
@@ -90,27 +90,27 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/0e75de3b-1006-4c8f-875c-eeb0782f24b0">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
+<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/fcc0c624-d60a-4c77-b7d0-3921f0b49471">Pen::GetCustomEndCap</a>
+<a href="https://msdn.microsoft.com/library/ms535022(v=VS.85).aspx">Pen::GetCustomEndCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7be905c-92fe-4a7e-9422-f60912461dc9">Pen::SetCustomEndCap</a>
+<a href="https://msdn.microsoft.com/library/ms535045(v=VS.85).aspx">Pen::SetCustomEndCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/23384bd0-94da-4c2a-9228-47cc0f0d18a7">Pen::SetCustomStartCap</a>
+<a href="https://msdn.microsoft.com/library/ms535046(v=VS.85).aspx">Pen::SetCustomStartCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
  
 
  

@@ -99,19 +99,19 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/79b8df1b-6fc5-455b-9d08-57d64bf6bffa">Loading and Displaying Metafiles</a>
+<a href="https://msdn.microsoft.com/library/ms533831(v=VS.85).aspx">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ea75699-c3c7-481e-b369-3bdc600b9713">MetafileHeader</a>
+<a href="https://msdn.microsoft.com/library/ms534480(v=VS.85).aspx">MetafileHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077">Metafiles</a>
+<a href="https://msdn.microsoft.com/library/ms536391(v=VS.85).aspx">Metafiles</a>
  
 
  

@@ -80,7 +80,7 @@ Adds an effect to the <b>IMILBitmapEffectGroup</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/322621d7-8bea-42af-a098-9b70dfd4ea52">GetInteriorInputConnector</a>
+<a href="https://msdn.microsoft.com/library/ms735289(v=VS.85).aspx">GetInteriorInputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input connector for an effect at the given index.
@@ -89,7 +89,7 @@ Retrieves the input connector for an effect at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdd16788-551d-4db2-9175-4962e0f9310c">GetInteriorOutputConnector</a>
+<a href="https://msdn.microsoft.com/library/ms735290(v=VS.85).aspx">GetInteriorOutputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output connector for an effect at the given index.

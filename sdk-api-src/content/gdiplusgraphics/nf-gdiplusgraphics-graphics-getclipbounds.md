@@ -65,19 +65,19 @@ GetClipBounds methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2863cb71-8913-40a2-8aac-2ac40e975ab4">GetClipBounds(Rect*)</a>
+<a href="https://msdn.microsoft.com/library/ms535948(v=VS.85).aspx">GetClipBounds(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2863cb71-8913-40a2-8aac-2ac40e975ab4">Graphics::GetClipBounds</a> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
+The <a href="https://msdn.microsoft.com/library/ms535948(v=VS.85).aspx">Graphics::GetClipBounds</a> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e33964c8-d643-420c-87d7-91fc561bcd1d">GetClipBounds(RectF*)</a>
+<a href="https://msdn.microsoft.com/library/ms535949(v=VS.85).aspx">GetClipBounds(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e33964c8-d643-420c-87d7-91fc561bcd1d">Graphics::GetClipBounds</a>
+The <a href="https://msdn.microsoft.com/library/ms535949(v=VS.85).aspx">Graphics::GetClipBounds</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 </td>

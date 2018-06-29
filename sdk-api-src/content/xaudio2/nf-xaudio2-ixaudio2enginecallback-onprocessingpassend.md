@@ -74,7 +74,7 @@ This method does not return a value.
 
 
 
-For information about the <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> interface methods, see the XAudio2 <a href="https://msdn.microsoft.com/5565438b-dbd4-e645-dd7b-93a17758d768">Callbacks</a> section.
+For information about the <a href="https://msdn.microsoft.com/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> interface methods, see the XAudio2 <a href="https://msdn.microsoft.com/5565438b-dbd4-e645-dd7b-93a17758d768">Callbacks</a> section.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -87,7 +87,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a>
+<a href="https://msdn.microsoft.com/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a>
 
 
 

@@ -61,9 +61,9 @@ Registers an open window as a Shell window; the window is specified by handle.
 
 ### -param pid [in]
 
-Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>*</b>
 
-The window's <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface.
+The window's <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
 
 
 ### -param hwnd [in]

@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Represents a factory that can instantiate a WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
+Represents a factory that can instantiate a WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object.
 
 
 ## -inheritance
@@ -75,7 +75,7 @@ The <b>IPortableDeviceDispatchFactory</b> interface has these methods.
 <a href="https://msdn.microsoft.com/80aa36cd-3831-4eb5-a5bb-a8e48f20fc62">GetDeviceDispatch</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
 
 </td>
 </tr>

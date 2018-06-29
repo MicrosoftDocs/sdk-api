@@ -127,7 +127,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="direct3d11.id3d11device5_unregisterdeviceremoved">UnregisterDeviceRemoved</a>
+<a href="https://msdn.microsoft.com/library/Mt589892(v=VS.85).aspx">UnregisterDeviceRemoved</a>
  
 
  

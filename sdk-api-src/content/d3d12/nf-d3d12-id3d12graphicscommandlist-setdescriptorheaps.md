@@ -93,7 +93,7 @@ Type: <b><a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD
 
 
 
-<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="recording_command_lists_and_bundles.htm">Creating and Recording Command Lists and Bundles</a>.
+<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="https://msdn.microsoft.com/library/Dn899205(v=VS.85).aspx">Creating and Recording Command Lists and Bundles</a>.
 
 
 #### Examples

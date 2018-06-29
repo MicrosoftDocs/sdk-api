@@ -197,7 +197,7 @@ The glyph is the image that appears on the part of the button that activates the
 
 
 
-<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons Overview</a>
+<a href="https://msdn.microsoft.com/library/Bb775943(v=VS.85).aspx">Buttons Overview</a>
  
 
  

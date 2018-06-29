@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-        Retrieves an enumeration of global <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for the loaded schema.
+        Retrieves an enumeration of global <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for the loaded schema.
       
 
 
@@ -75,7 +75,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-          Receives a pointer to an enumeration of the <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects. The calling application must release it by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
+          Receives a pointer to an enumeration of the <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
         
 
 

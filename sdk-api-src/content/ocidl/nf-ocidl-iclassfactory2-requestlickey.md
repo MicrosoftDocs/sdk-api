@@ -137,10 +137,10 @@ This class factory supports run-time licensing, but the current machine itself i
 The caller can save the license key for subsequent calls to <a href="https://msdn.microsoft.com/f33c7223-da7d-4582-9a23-7dc34be97a9f">IClassFactory2::CreateInstanceLic</a> to create objects on an otherwise unlicensed machine.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The caller must free the <b>BSTR</b> with the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function when the key is no longer needed. The value of <i>fRuntimeKeyAvail</i> is returned through a previous call to <a href="https://msdn.microsoft.com/e55d1089-b1df-4de0-9a19-cbd255b36126">IClassFactory2::GetLicInfo</a>.
+The caller must free the <b>BSTR</b> with the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function when the key is no longer needed. The value of <i>fRuntimeKeyAvail</i> is returned through a previous call to <a href="https://msdn.microsoft.com/e55d1089-b1df-4de0-9a19-cbd255b36126">IClassFactory2::GetLicInfo</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-This method allocates the <b>BSTR</b> key with <a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> or <a href="f98bff39-bc5f-4a81-85d7-d5228e20fbc8">SysAllocStringLen</a>, and the caller becomes responsible for this <b>BSTR</b> after this method returns successfully.
+This method allocates the <b>BSTR</b> key with <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> or <a href="https://msdn.microsoft.com/library/ms221639(v=VS.85).aspx">SysAllocStringLen</a>, and the caller becomes responsible for this <b>BSTR</b> after this method returns successfully.
 
 This method need not be implemented when a class factory does not support run-time license keys.
 

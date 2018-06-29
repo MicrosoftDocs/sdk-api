@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of a pointer to the interface specified by <i>riid</i>, usually <a href="shell.IPropertyChange">IPropertyChange</a>.
+The address of a pointer to the interface specified by <i>riid</i>, usually <a href="https://msdn.microsoft.com/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>.
 
 
 ## -returns

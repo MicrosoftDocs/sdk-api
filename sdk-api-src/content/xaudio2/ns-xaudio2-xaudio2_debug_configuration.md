@@ -51,7 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Contains the new global debug configuration for XAudio2. Used with the <a href="https://msdn.microsoft.com/765314AA-65CF-47B1-80B8-90C8B9C095B4">SetDebugConfiguration</a> function.
+Contains the new global debug configuration for XAudio2. Used with the <a href="https://msdn.microsoft.com/library/Ee418624(v=VS.85).aspx">SetDebugConfiguration</a> function.
 
 
 ## -struct-fields

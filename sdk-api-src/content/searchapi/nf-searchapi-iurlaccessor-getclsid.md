@@ -52,7 +52,7 @@ req.product: ADAM
 
 
 
-        Gets the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed.
+        Gets the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
         
 
 
@@ -66,7 +66,7 @@ req.product: ADAM
 Type: <b>CLSID*</b>
 
 
-                    Receives a pointer to the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed. 
+                    Receives a pointer to the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed. 
                 
 
 

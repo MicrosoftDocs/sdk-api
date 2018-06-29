@@ -295,7 +295,7 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
 
 
 

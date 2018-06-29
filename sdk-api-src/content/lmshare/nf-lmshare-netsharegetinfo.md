@@ -142,7 +142,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>buf</i> parameter points to a 
-<a href="fs.share_info_503">SHARE_INFO_503</a> structure. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name.
+<a href="https://msdn.microsoft.com/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -264,7 +264,7 @@ For interactive users (users who are logged on locally to the machine), no speci
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
 <a href="https://msdn.microsoft.com/37695195-fc33-499d-98c1-ccfd190cb2f9">IADsFileShare</a>.
 
-If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="fs.share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
+If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://msdn.microsoft.com/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 
 #### Examples
@@ -394,7 +394,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 
-<a href="fs.share_info_503">SHARE_INFO_503</a>
+<a href="https://msdn.microsoft.com/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a>
  
 
  

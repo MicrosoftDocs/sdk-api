@@ -80,7 +80,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-          When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="shell.IPropertyDescription">IPropertyDescription</a>.
+          When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>.
         
 
 

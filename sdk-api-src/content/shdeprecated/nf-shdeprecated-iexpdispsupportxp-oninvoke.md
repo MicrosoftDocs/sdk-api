@@ -89,9 +89,9 @@ Specifies flags describing the context of the call.
 
 ### -param pdispparams [in]
 
-Type: <b><a href="a16e5a21-766e-4287-b039-13429aa78f8b">DISPPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a>*</b>
 
-Specifies a pointer to a <a href="a16e5a21-766e-4287-b039-13429aa78f8b">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
 
 ### -param pVarResult [out]
@@ -112,7 +112,7 @@ Receives a pointer to a structure that contains exception information. This stru
 
 Type: <b>UINT*</b>
 
-Receives the index within the <b>rgvarg</b> member of the <a href="a16e5a21-766e-4287-b039-13429aa78f8b">DISPPARAMS</a> structure of the first argument that has an error.
+Receives the index within the <b>rgvarg</b> member of the <a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure of the first argument that has an error.
 
 
 ## -returns

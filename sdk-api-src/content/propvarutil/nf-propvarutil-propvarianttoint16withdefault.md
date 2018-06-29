@@ -90,7 +90,7 @@ Returns the extracted <b>short</b> value, or default.
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold an <b>Int16</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>SHORT</b> value for <b>Int16</b> properties.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_I2</b>, this helper function extracts the <b>Int16</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>SHORT</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="shell.PropVariantToInt16WithDefault">PropVariantToInt16WithDefault</a> will return the default provided by <i>iDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_I2</b>, this helper function extracts the <b>Int16</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>SHORT</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="https://msdn.microsoft.com/library/Bb776549(v=VS.85).aspx">PropVariantToInt16WithDefault</a> will return the default provided by <i>iDefault</i>. See <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
 
 
 
@@ -100,19 +100,19 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 
 
-<a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
 
 
 
-<a href="shell.VariantToInt16">VariantToInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb776604(v=VS.85).aspx">VariantToInt16</a>
  
 
  

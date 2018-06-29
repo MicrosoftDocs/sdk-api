@@ -67,18 +67,18 @@ A pointer to a string containing the variable name.
 
 ### -param pDesc
 
-Type: <b><a href="https://msdn.microsoft.com/8929f7d4-6fd0-4b48-b1d8-0b089d4c730d">D3D10_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172433(v=VS.85).aspx">D3D10_SHADER_INPUT_BIND_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/8929f7d4-6fd0-4b48-b1d8-0b089d4c730d">D3D10_SHADER_INPUT_BIND_DESC</a> structure that will be populated with resource binding information.
+Pointer to a <a href="https://msdn.microsoft.com/library/Bb172433(v=VS.85).aspx">D3D10_SHADER_INPUT_BIND_DESC</a> structure that will be populated with resource binding information.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -97,7 +97,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/344a0bf2-3ad8-4c58-b4d8-de386fdfd1c2">ID3D10ShaderReflection1 Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
  
 
  
