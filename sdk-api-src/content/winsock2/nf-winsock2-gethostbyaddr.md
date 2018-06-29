@@ -141,7 +141,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,7 +164,7 @@ An invalid argument was supplied. This error is returned if <b>AF_INET6</b> was 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -175,7 +175,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAHOST_NOT_FOUND">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +186,7 @@ Authoritative answer host not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSATRY_AGAIN">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ Nonauthoritative host not found, or server failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANO_RECOVERY">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ A nonrecoverable error occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANO_DATA">WSANO_DATA</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ Valid name, no data record of requested type.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEAFNOSUPPORT">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -241,7 +241,7 @@ The <i>type</i> specified is not supported by the Windows Sockets implementation
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -252,7 +252,7 @@ The <i>addr</i> parameter is not a valid part of the user address space, or the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINTR">WSAEINTR</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">

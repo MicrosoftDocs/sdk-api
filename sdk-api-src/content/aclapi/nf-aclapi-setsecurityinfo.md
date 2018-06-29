@@ -160,7 +160,7 @@ The <b>SetSecurityInfo</b> function does not reorder access-allowed or access-de
 
 
 
-<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

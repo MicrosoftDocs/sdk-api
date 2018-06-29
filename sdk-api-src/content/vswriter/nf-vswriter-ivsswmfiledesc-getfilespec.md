@@ -156,7 +156,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
+The caller must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
 
 
 

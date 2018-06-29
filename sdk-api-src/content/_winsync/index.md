@@ -2,7 +2,7 @@
 UID: TP:winsync
 ms.assetid: ee92abfb-a568-3036-bd81-7498365db57b
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,5 +22,5 @@ To develop Windows Sync, you need these headers:
  * [winsync.h](../winsync/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Sync](https://msdn.microsoft.com/en-us/library/windows/desktop/dd317274.aspx)
+* [Windows Sync](/previous-versions/windows/desktop/winsync)
 

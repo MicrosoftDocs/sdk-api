@@ -69,7 +69,7 @@ The
 <b>IWbemServices::CreateClassEnumAsync</b> method  returns an enumeration of all classes that the class provider supports. The class provider  creates each class definition from scratch and  only returns subclasses of the requested class. As an asynchronous method, 
 <b>CreateClassEnumAsync</b> returns a status message immediately and then updates the sink passed through the <i>pResponseHandler</i> parameter—if necessary.
 
-When a call succeeds, WMI calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the pointer <i>pResponseHandler</i>, returns immediately, and  then asynchronously calls <i>pResponseHandler</i>– &gt;
+When a call succeeds, WMI calls <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> on the pointer <i>pResponseHandler</i>, returns immediately, and  then asynchronously calls <i>pResponseHandler</i>– &gt;
 <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">Indicate</a> from another thread with class definitions until the query is satisfied.
 
 
@@ -221,7 +221,7 @@ The following code example shows how to implement
 </td>
 </tr>
 </table></span></div>
-In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="code"></div>
 

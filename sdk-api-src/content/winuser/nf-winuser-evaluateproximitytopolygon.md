@@ -1,0 +1,129 @@
+---
+UID: NF:winuser.EvaluateProximityToPolygon
+title: EvaluateProximityToPolygon function
+author: windows-sdk-content
+description: Returns the score of a polygon as the probable touch target (compared to all other polygons that intersect the touch contact area) and an adjusted touch point within the polygon.
+old-location: input_touchhittest\evaluateproximitytopolygon.htm
+old-project: Input_TouchHitTest
+ms.assetid: 443d12f2-9f26-4e1e-9bf3-cd97b4026399
+ms.author: windowssdkdev
+ms.date: 03/26/2018
+ms.keywords: EvaluateProximityToPolygon, EvaluateProximityToPolygon function, input_touchhittest.evaluateproximitytopolygon, touch_hittest.evaluateproximitytopolygon, winuser/EvaluateProximityToPolygon
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: None supported
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
+ - MinUser.dll
+api_name:
+ - EvaluateProximityToPolygon
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# EvaluateProximityToPolygon function
+
+
+## -description
+
+
+Returns the score of a polygon as the probable touch target (compared to all other polygons that intersect the touch contact area) and an adjusted touch point within the polygon.
+
+
+
+
+## -parameters
+
+
+
+
+### -param numVertices
+
+The number of vertices in the polygon. This value must be greater than or equal to 3.
+
+This value indicates the size of the array, as specified by the <i>controlPolygon</i> parameter. 
+
+
+### -param controlPolygon [in]
+
+The array of x-y screen coordinates that define the shape of the UI element. 
+
+The <i>numVertices</i> parameter specifies the number of coordinates. 
+
+
+### -param pHitTestingInput [in]
+
+The <a href="https://msdn.microsoft.com/d2103f6e-6aa9-4260-bef9-cfcbec35e675">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
+
+
+### -param pProximityEval [out]
+
+The <a href="https://msdn.microsoft.com/a26facc3-fe63-4657-9bd6-821dd89cb11d">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
+
+
+## -returns
+
+
+
+If this function succeeds, it returns TRUE.
+ 
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+
+
+
+
+
+## -remarks
+
+
+
+For consistency with Windows, frameworks that handle <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
+
+<ul>
+<li>Inclusion: If the touch point is within the boundaries of a control, the touch point is not changed. 
+</li>
+<li>Intersection: Include only controls that intersect the contact geometry. 
+</li>
+<li>Z-order: If more than one control intersects the contact geometry, and the controls overlap, the control that's highest in the z-order receives priority. 
+</li>
+<li>Ambiguity: If more than one control intersects the contact geometry, and the controls don't overlap, the control that's closest to the original touch point receives priority. </li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938561">Functions</a>
+ 
+
+ 
+

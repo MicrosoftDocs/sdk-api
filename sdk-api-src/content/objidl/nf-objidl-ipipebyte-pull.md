@@ -7,7 +7,7 @@ old-location: com\ipipebyte_pull.htm
 old-project: com
 ms.assetid: 07d4d4cd-de41-41bc-af71-ff12affcbbbe
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::Pull, Pull, Pull method [COM], Pull method [COM],IPipeByte interface, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPipeByte::Pull

@@ -62,21 +62,21 @@ req.irql:
 ### -field D3D_FEATURE_LEVEL_9_1
 
 
-            Targets features supported by <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.1 including shader model 2.
+            Targets features supported by <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1 including shader model 2.
           
 
 
 ### -field D3D_FEATURE_LEVEL_9_2
 
 
-            Targets features supported by <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.2 including shader model 2.
+            Targets features supported by <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.2 including shader model 2.
           
 
 
 ### -field D3D_FEATURE_LEVEL_9_3
 
 
-            Targets features supported by <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.3 including shader model 2.0b.
+            Targets features supported by <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.3 including shader model 2.0b.
           
 
 
@@ -128,7 +128,7 @@ req.irql:
 
 
           For an overview of
-          the capabilities of each feature level, see <a href="https://docs.microsoft.com/windows/desktop//direct3d11/overviews-direct3d-11-devices-downlevel-intro">Overview For Each Feature Level</a>.
+          the capabilities of each feature level, see <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">Overview For Each Feature Level</a>.
         
 
 

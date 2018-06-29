@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: WKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, *LPWKSTA_USER_INFO_1101
+req.typenames: LOCATION_REPORT_STATUS
 topic_type:
  - APIRef
  - kbSyntax
@@ -77,7 +77,7 @@ The <b>ILocationPower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c0145e0-974e-42b2-936e-9396f5c96e72">Connect</a>
+<a href="winlocation.ilocationpower_connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has connected.
@@ -86,7 +86,7 @@ Notify the location platform that an app has connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8bf9bc29-4e81-4d80-8de5-317678b34792">Disconnect</a>
+<a href="https://msdn.microsoft.com/library/ms689589(v=VS.85).aspx">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has disconnected.

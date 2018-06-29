@@ -54,8 +54,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			SaveAdd methods of the 
-			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> class. For a complete list of methods for the 
-			<b>Image</b> class, see <a href="https://msdn.microsoft.com/70dbe346-790c-47e3-8e85-6154fc340982">Image Methods</a>.
+			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete list of methods for the 
+			<b>Image</b> class, see <a href="https://msdn.microsoft.com/library/ms535366(v=VS.85).aspx">Image Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -64,20 +64,20 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03ebcd9f-83c9-4970-bc89-cfed876de44b">SaveAdd(EncoderParameters*)</a>
+<a href="https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx">SaveAdd(EncoderParameters*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/03ebcd9f-83c9-4970-bc89-cfed876de44b">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
+The <a href="https://msdn.microsoft.com/library/ms535408(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
 			<b>Save</b> method. Use this method to save selected frames from a multiple-frame image to another multiple-frame image.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59fe2954-84aa-4e3d-954e-d329ee60585d">SaveAdd(Image*,EncoderParameters*)</a>
+<a href="https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx">SaveAdd(Image*,EncoderParameters*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/59fe2954-84aa-4e3d-954e-d329ee60585d">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
+The <a href="https://msdn.microsoft.com/library/ms535409(v=VS.85).aspx">Image::SaveAdd</a> method adds a frame to a file or stream specified in a previous call to the 
 			<b>Save</b> method.
 
 </td>

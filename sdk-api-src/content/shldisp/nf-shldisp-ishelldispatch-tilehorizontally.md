@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_TileHorizontally.htm
 old-project: shell
 ms.assetid: 85785510-6B75-450a-A9BB-6C3B4F6194E2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellDispatch object [Windows Shell],TileHorizontally method, IShellDispatch.TileHorizontally, IShellDispatch::TileHorizontally, TileHorizontally, TileHorizontally method [Windows Shell], TileHorizontally method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TileHorizontally
 ms.prod: windows
 ms.technology: windows-sdk

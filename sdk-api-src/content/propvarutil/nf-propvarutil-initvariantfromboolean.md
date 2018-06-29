@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromBoolean function
@@ -97,7 +97,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromBoolean">InitVariantFromBoolean</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -125,15 +125,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
+<a href="https://msdn.microsoft.com/library/Bb762287(v=VS.85).aspx">InitPropVariantFromBoolean</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBoolean">VariantToBoolean</a>
+<a href="https://msdn.microsoft.com/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBooleanWithDefault">VariantToBooleanWithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776595(v=VS.85).aspx">VariantToBooleanWithDefault</a>
  
 
  

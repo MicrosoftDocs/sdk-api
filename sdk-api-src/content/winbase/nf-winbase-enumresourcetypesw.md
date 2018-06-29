@@ -7,7 +7,7 @@ old-location: menurc\enumresourcetypes.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypes.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: EnumResourceTypes, EnumResourceTypes function [Menus and Other Resources], EnumResourceTypesA, EnumResourceTypesW, _win32_EnumResourceTypes, _win32_enumresourcetypes_cpp, menurc.enumresourcetypes, winbase/EnumResourceTypes, winbase/EnumResourceTypesA, winbase/EnumResourceTypesW, winui._win32_enumresourcetypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows Address Book 5.0
 
 Enumerates resource types within a binary module. Starting with Windows Vista, this is typically a <a href="https://msdn.microsoft.com/4d8b769d-0830-4e4e-b284-ce0b21dfe5d4">language-neutral Portable Executable</a> (LN file), and the enumeration also includes resources from one of the corresponding language-specific resource files (.mui files)—if one exists—that contain localizable language resources. It is also possible to use <i>hModule</i> to specify a .mui file, in which case only that file is searched for resource types.
 
-Alternately, applications can call <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a>, which provides more precise control over which resource files to enumerate.
+Alternately, applications can call <a href="https://msdn.microsoft.com/library/ms648040(v=VS.85).aspx">EnumResourceTypesEx</a>, which provides more precise control over which resource files to enumerate.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ If this parameter is <b>NULL</b>, that is equivalent to passing in a handle to t
 
 Type: <b>ENUMRESTYPEPROC</b>
 
-A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="https://msdn.microsoft.com/98f957a8-18c7-46f3-989c-b2a019dff33f">EnumResTypeProc</a> function.
+A pointer to the callback function to be called for each enumerated resource type. For more information, see the <a href="https://msdn.microsoft.com/library/ms648041(v=VS.85).aspx">EnumResTypeProc</a> function.
 
 
 ### -param lParam [in]
@@ -114,7 +114,7 @@ The enumeration never includes duplicates: if a given resource type is contained
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+a+Resource+List">Creating a Resource List</a>.
+For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85).aspx">Creating a Resource List</a>.
 
 <div class="code"></div>
 
@@ -129,19 +129,19 @@ For an example, see <a href="https://www.bing.com/search?q=Creating+a+Resource+L
 
 
 
-<a href="https://msdn.microsoft.com/98f957a8-18c7-46f3-989c-b2a019dff33f">EnumResTypeProc</a>
+<a href="https://msdn.microsoft.com/library/ms648041(v=VS.85).aspx">EnumResTypeProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e47d8df-e3ce-4125-aa77-8098a060f4aa">EnumResourceLanguages</a>
+<a href="https://msdn.microsoft.com/library/ms648035(v=VS.85).aspx">EnumResourceLanguages</a>
 
 
 
-<a href="https://msdn.microsoft.com/f64c766c-735f-43b7-84f9-339313c98ad3">EnumResourceNames</a>
+<a href="https://msdn.microsoft.com/library/ms648037(v=VS.85).aspx">EnumResourceNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a>
+<a href="https://msdn.microsoft.com/library/ms648040(v=VS.85).aspx">EnumResourceTypesEx</a>
 
 
 
@@ -149,7 +149,7 @@ For an example, see <a href="https://www.bing.com/search?q=Creating+a+Resource+L
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="https://msdn.microsoft.com/library/ms632583(v=VS.85).aspx">Resources</a>
  
 
  

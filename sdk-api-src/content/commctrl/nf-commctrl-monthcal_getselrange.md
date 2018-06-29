@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/a0d0a0d5-a519-4495-a87a-2438c4590e4c">MCM_GETSELRANGE</a> message explicitly. 
+Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760985(v=VS.85).aspx">MCM_GETSELRANGE</a> message explicitly. 
 
 
 ## -parameters

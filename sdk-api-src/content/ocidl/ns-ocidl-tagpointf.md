@@ -7,7 +7,7 @@ old-location: com\pointf.htm
 old-project: com
 ms.assetid: 2b201df8-efee-4302-a93c-b514b982cf2b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF, tagPOINTF"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagPOINTF structure

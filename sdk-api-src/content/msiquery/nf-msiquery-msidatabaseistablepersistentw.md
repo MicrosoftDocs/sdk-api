@@ -7,7 +7,7 @@ old-location: setup\msidatabaseistablepersistent.htm
 old-project: Msi
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiDatabaseIsTablePersistent, MsiDatabaseIsTablePersistent function, MsiDatabaseIsTablePersistentA, MsiDatabaseIsTablePersistentW, _msi_msidatabaseistablepersistent, msiquery/MsiDatabaseIsTablePersistent, msiquery/MsiDatabaseIsTablePersistentA, msiquery/MsiDatabaseIsTablePersistentW, setup.msidatabaseistablepersistent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ This function returns MSICONDITION.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">General Database Access Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
  
 
  

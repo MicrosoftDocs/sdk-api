@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf_lex.htm
 old-project: menurc
 ms.assetid: 36959df1-e972-45e1-9c20-2306d3466951
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchPrintf_lEx, StringCchPrintf_lEx function [Menus and Other Resources], StringCchPrintf_lExA, StringCchPrintf_lExW, menurc.stringcchprintf_lex, strsafe/StringCchPrintf_lEx, strsafe/StringCchPrintf_lExA, strsafe/StringCchPrintf_lExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a> but includes a parameter for locale information.
+<b>StringCchPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a> but includes a parameter for locale information.
 
 
 ## -parameters

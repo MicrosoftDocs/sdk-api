@@ -7,7 +7,7 @@ old-location: parcon\iwpcgamessettings.htm
 old-project: parcon
 ms.assetid: 7509d9ef-d437-406a-8de6-39733499ca0a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/12/2018
 ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IWPCGamesSettings interface,described, parcon.iwpcgamessettings, wpcapi/IWPCGamesSettings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -75,7 +75,7 @@ TBD
 
 Type: <b>const LPMSGBOXPARAMS</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4fa1c91a-556f-4a1e-94f6-a2f9609e996c">MSGBOXPARAMS</a> structure that contains information used to display the message box. 
+A pointer to a <a href="https://msdn.microsoft.com/library/ms645402(v=VS.85).aspx">MSGBOXPARAMS</a> structure that contains information used to display the message box. 
 
 
 ## -returns
@@ -213,7 +213,7 @@ The <b>Yes</b> button was selected.
 
 
 
-When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <b>lpszText</b> and <b>lpszCaption</b> members of the <a href="https://msdn.microsoft.com/4fa1c91a-556f-4a1e-94f6-a2f9609e996c">MSGBOXPARAMS</a> structure should not be taken from a resource file, because an attempt to load the resource may fail. 
+When you use a system-modal message box to indicate that the system is low on memory, the strings pointed to by the <b>lpszText</b> and <b>lpszCaption</b> members of the <a href="https://msdn.microsoft.com/library/ms645402(v=VS.85).aspx">MSGBOXPARAMS</a> structure should not be taken from a resource file, because an attempt to load the resource may fail. 
 
 If you create a message box while a dialog box is present, use a handle to the dialog box as the <i>hWnd</i> parameter. The <i>hWnd</i> parameter should not identify a child window, such as a control in a dialog box. 
 
@@ -229,19 +229,19 @@ If you create a message box while a dialog box is present, use a handle to the d
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fa1c91a-556f-4a1e-94f6-a2f9609e996c">MSGBOXPARAMS</a>
+<a href="https://msdn.microsoft.com/library/ms645402(v=VS.85).aspx">MSGBOXPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>
+<a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/aca871a0-4767-4a7d-ab12-6eb7d03577ef">MessageBoxEx</a>
+<a href="https://msdn.microsoft.com/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>
 
 
 

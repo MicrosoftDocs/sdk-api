@@ -7,7 +7,7 @@ old-location: edp\protectfiletoenterpriseidentity.htm
 old-project: EDP
 ms.assetid: 91993A9E-AC1D-4F3E-BCFC-9DE79F1C2C8D
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: EDP.protectfiletoenterpriseidentity, ProtectFileToEnterpriseIdentity, ProtectFileToEnterpriseIdentity function, edpwin32/ProtectFileToEnterpriseIdentity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_width.htm
 old-project: tablet
 ms.assetid: 81173c64-5d8b-48ae-866c-5292814a97c0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 81173c64-5d8b-48ae-866c-5292814a97c0, IPenInputPanel interface [Tablet PC],Width property, IPenInputPanel.Width, IPenInputPanel.get_Width, IPenInputPanel::Width, IPenInputPanel::get_Width, PenInputPanel.get_Width, Width property [Tablet PC], Width property [Tablet PC],IPenInputPanel interface, get_Width, peninputpanel/IPenInputPanel::Width, peninputpanel/IPenInputPanel::get_Width, put_Width, tablet.peninputpanel_width
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::get_Width
@@ -87,7 +87,7 @@ Starting with Microsoft Windows XP Tablet PC Edition 2005, the Tablet PC Input P
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

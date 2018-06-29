@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PRESUTIL_GET_EXPAND_SZ_VALUE callback function
@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
     section. Support for this method was removed in Windows Server 2003. This function is not exported 
     from ResUtils.dll and programs or DLLs that statically link to it will not load.]
 
-Returns a <a href="https://www.bing.com/search?q=expandable+string">expandable string</a> value from the 
+Returns a <a href="https://msdn.microsoft.com/library/Aa368574(v=VS.85).aspx">expandable string</a> value from the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
 
 

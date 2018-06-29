@@ -62,7 +62,7 @@ Gets the current set of parameters.
 
 ### -param ppCurrentParameterSet [out]
 
-Type: <b><a href="https://www.bing.com/search?q=IPropertyBag2">IPropertyBag2</a>**</b>
+Type: <b><a href="_inet_IPropertyBag2_Interface_cpp">IPropertyBag2</a>**</b>
 
 A pointer that receives a pointer to the current set of parameters.
 

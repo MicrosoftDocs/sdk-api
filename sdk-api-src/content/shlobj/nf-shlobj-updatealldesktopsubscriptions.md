@@ -7,7 +7,7 @@ old-location: shell\UpdateAllDesktopSubscriptions.htm
 old-project: shell
 ms.assetid: 731bac41-ca1f-4bee-9314-28b5773eb694
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: UpdateAllDesktopSubscriptions, UpdateAllDesktopSubscriptions function [Windows Shell], _win32_UpdateAllDesktopSubscriptions, shell.UpdateAllDesktopSubscriptions, shlobj/UpdateAllDesktopSubscriptions
 ms.prod: windows
 ms.technology: windows-sdk

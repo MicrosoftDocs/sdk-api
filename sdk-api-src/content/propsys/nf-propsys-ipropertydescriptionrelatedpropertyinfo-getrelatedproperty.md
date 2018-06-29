@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Retrieves an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> object that represents the related property.
+Retrieves an <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> object that represents the related property.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A reference to the IID of the interface to retrieve through the <i>ppv</i> param
 
 Type: <b>void**</b>
 
-Receives the interface pointer requested in the parameter. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>.
+Receives the interface pointer requested in the parameter. This is typically <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ We recommend that you use the <a href="https://msdn.microsoft.com/268B59FA-44EB-
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionrelatedpropertyinfo">IPropertyDescriptionRelatedPropertyInfo</a>
+<a href="https://msdn.microsoft.com/library/Dd378276(v=VS.85).aspx">IPropertyDescriptionRelatedPropertyInfo</a>
 
 
 

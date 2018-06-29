@@ -7,7 +7,7 @@ old-location: com\oleuicanconvertoractivateas.htm
 old-project: com
 ms.assetid: 9ecd978e-eded-472b-8d45-525bae56bded
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # OleUICanConvertOrActivateAs function

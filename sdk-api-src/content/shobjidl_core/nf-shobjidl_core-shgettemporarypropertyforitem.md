@@ -7,7 +7,7 @@ old-location: shell\SHGetTemporaryPropertyForItem.htm
 old-project: shell
 ms.assetid: 53953a5a-04a2-4749-a03b-8cbd5ac889f1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHGetTemporaryPropertyForItem, SHGetTemporaryPropertyForItem function [Windows Shell], _shell_SHGetTemporaryPropertyForItem, shell.SHGetTemporaryPropertyForItem, shobjidl_core/SHGetTemporaryPropertyForItem
 ms.prod: windows
 ms.technology: windows-sdk

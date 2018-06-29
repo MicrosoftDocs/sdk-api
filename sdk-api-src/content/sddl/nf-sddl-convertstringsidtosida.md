@@ -50,7 +50,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ConvertStringSidToSidA function
@@ -137,7 +137,7 @@ Invalid SID.
 
 
 
-<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

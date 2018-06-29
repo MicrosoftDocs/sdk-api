@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_defaultinplacestate.htm
 old-project: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, get_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITextInputPanel::get_DefaultInPlaceState

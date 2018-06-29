@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_redoto.htm
 old-project: com
 ms.assetid: 1d5d0cb6-2c1b-49c8-8923-59845fa6231c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleUndoManager interface [COM],RedoTo method, IOleUndoManager.RedoTo, IOleUndoManager::RedoTo, RedoTo, RedoTo method [COM], RedoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_redoto, com.ioleundomanager_redoto, ocidl/IOleUndoManager::RedoTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleUndoManager::RedoTo

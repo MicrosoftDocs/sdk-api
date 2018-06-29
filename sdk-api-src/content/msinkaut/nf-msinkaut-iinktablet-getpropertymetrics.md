@@ -7,7 +7,7 @@ old-location: tablet\iinktablet_getpropertymetrics.htm
 old-project: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],GetPropertyMetrics method, IInkTablet.GetPropertyMetrics, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
 ms.prod: windows
 ms.technology: windows-sdk

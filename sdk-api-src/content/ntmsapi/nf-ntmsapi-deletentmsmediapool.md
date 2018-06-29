@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DeleteNtmsMediaPool function
@@ -202,7 +202,7 @@ Free, unrecognized, and import media pools are managed by RSM and cannot be dele
 
 
 
-<a href="https://www.bing.com/search?q=Media+Services+Functions">Media Services Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
 
 
 

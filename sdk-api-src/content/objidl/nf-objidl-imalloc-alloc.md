@@ -7,7 +7,7 @@ old-location: com\imalloc_alloc.htm
 old-project: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IMalloc interface [COM],Alloc method, IMalloc.Alloc, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IMalloc::Alloc

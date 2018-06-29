@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDevice interface
@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 
         The <b>IPortableDevice</b> interface provides access to a portable device.
 
-To create and open this interface, first call <a href="https://msdn.microsoft.com/library/windows/desktop/6f361b8b-490a-4ee9-88a9-129a0f0f91dd">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to open a connection to the device.
+To create and open this interface, first call <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a> to open a connection to the device.
 
 
 ## -inheritance

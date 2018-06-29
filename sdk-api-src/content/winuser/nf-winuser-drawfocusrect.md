@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -98,7 +98,7 @@ This function draws a rectangle that cannot be scrolled. To scroll an area conta
 
 #### Examples
 
-For an example, see "Creating an Owner-Drawn List Box" in <a href="https://www.bing.com/search?q=Using+List+Boxes">Using List Boxes</a>.
+For an example, see "Creating an Owner-Drawn List Box" in <a href="https://msdn.microsoft.com/library/Bb775148(v=VS.85).aspx">Using List Boxes</a>.
 
 <div class="code"></div>
 

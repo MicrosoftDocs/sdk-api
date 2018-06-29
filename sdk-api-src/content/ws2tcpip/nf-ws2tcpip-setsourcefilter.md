@@ -110,7 +110,7 @@ On success,  <b>setsourcefilter</b> returns NO_ERROR (0). Any nonzero return val
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

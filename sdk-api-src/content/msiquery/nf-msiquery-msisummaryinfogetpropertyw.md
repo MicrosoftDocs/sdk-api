@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfogetproperty.htm
 old-project: Msi
 ms.assetid: 7df4bd31-85a7-4b61-beaf-5c1f2117e6f5
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiSummaryInfoGetProperty, MsiSummaryInfoGetProperty function, MsiSummaryInfoGetPropertyA, MsiSummaryInfoGetPropertyW, _msi_msisummaryinfogetproperty, msiquery/MsiSummaryInfoGetProperty, msiquery/MsiSummaryInfoGetPropertyA, msiquery/MsiSummaryInfoGetPropertyW, setup.msisummaryinfogetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,7 +138,7 @@ The property information returned by the <b>MsiSummaryInfoGetProperty</b> functi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Summary Information Property Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
 
 
 

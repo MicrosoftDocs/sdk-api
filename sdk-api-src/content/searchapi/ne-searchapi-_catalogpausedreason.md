@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _CatalogPausedReason enumeration
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/22cd866e-8af7-428a-8036-43f5ac9ad099">ISearchCatalogManager::GetCatalogStatus</a> to determine the reason the catalog is paused.
+Used by <a href="https://msdn.microsoft.com/library/Bb231490(v=VS.85).aspx">ISearchCatalogManager::GetCatalogStatus</a> to determine the reason the catalog is paused.
 
 
 ## -enum-fields

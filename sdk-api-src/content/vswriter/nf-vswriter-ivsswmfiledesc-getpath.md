@@ -73,7 +73,7 @@ The address of a caller-allocated variable that receives a <b>NULL</b>-terminate
 
 
 The path can be a long or short file name and can use the prefix "\\?\". For more information, see 
-<a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+<a href="base.naming_a_file">Naming a File</a>.
 
 Users of this method need to check to determine whether this path ends with a backslash ("\").
 
@@ -161,7 +161,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-The caller must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the <i>pbstrPath</i> parameter.
+The caller must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrPath</i> parameter.
 
 
 

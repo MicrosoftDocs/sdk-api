@@ -55,7 +55,7 @@ The <b>ICertProperties</b> interface contains methods and properties that enable
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -166,7 +166,7 @@ Retrieves a property from the collection by index number.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_draw.htm
 old-project: tablet
 ms.assetid: 18f67080-ed56-43af-b0d6-8af35c2e871b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 18f67080-ed56-43af-b0d6-8af35c2e871b, Draw, Draw method [Tablet PC], Draw method [Tablet PC],IInkRenderer interface, IInkRenderer, IInkRenderer interface [Tablet PC],Draw method, IInkRenderer.Draw, IInkRenderer::Draw, msinkaut/IInkRenderer::Draw, tablet.inkrenderer_draw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ The <a href="https://msdn.microsoft.com/66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7">In
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms699463(v=vs.85).aspx">IInkRenderer</a>
+<a href="tablet.iinkrenderer">IInkRenderer</a>
 
 
 

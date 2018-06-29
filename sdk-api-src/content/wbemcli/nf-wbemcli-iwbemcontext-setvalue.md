@@ -80,11 +80,11 @@ Reserved. This parameter must be 0 (zero).
 ### -param pValue [in]
 
 Must point to a valid <b>VARIANT</b>, which is treated as read-only. The value in the <b>VARIANT</b> becomes the named context value. An entire 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object can be stored as well as a simple value by enclosing it in a <b>VARIANT</b> that uses the <b>VT_UNKNOWN</b> type. The caller must execute <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the 
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object can be stored as well as a simple value by enclosing it in a <b>VARIANT</b> that uses the <b>VT_UNKNOWN</b> type. The caller must execute <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> on the 
 <b>IWbemClassObject</b> object by asking for <b>IID_IUnknown</b>, and by using the returned pointer in the <b>VARIANT</b>.
 
 If <i>pValue</i> is to contain an embedded 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, the caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IWbemClassObject::QueryInterface</a> for <b>IID_IUnknown</b> and place the resulting pointer in the <b>VARIANT</b> by using a type of <b>VT_UNKNOWN</b>. The original embedded object is copied during the write operation, and so cannot be modified by the operation.
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, the caller must call <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IWbemClassObject::QueryInterface</a> for <b>IID_IUnknown</b> and place the resulting pointer in the <b>VARIANT</b> by using a type of <b>VT_UNKNOWN</b>. The original embedded object is copied during the write operation, and so cannot be modified by the operation.
 
 
 #### - strName [in]

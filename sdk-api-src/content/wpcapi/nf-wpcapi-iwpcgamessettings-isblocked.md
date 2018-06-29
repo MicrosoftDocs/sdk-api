@@ -7,7 +7,7 @@ old-location: parcon\iwpcgamessettings_isblocked.htm
 old-project: parcon
 ms.assetid: a8cdd3ca-8a0d-4e4a-8a54-eb3ddcab52ff
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/12/2018
 ms.keywords: IWPCGamesSettings interface,IsBlocked method, IWPCGamesSettings.IsBlocked, IWPCGamesSettings::IsBlocked, IsBlocked, IsBlocked method, IsBlocked method,IWPCGamesSettings interface, parcon.iwpcgamessettings_isblocked, wpcapi/IWPCGamesSettings::IsBlocked
 ms.prod: windows
 ms.technology: windows-sdk

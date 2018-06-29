@@ -7,7 +7,7 @@ old-location: com\idataadviseholder_sendondatachange.htm
 old-project: com
 ms.assetid: b7385116-2ec7-4e12-a2dc-c9029a38d8fd
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IDataAdviseHolder interface [COM],SendOnDataChange method, IDataAdviseHolder.SendOnDataChange, IDataAdviseHolder::SendOnDataChange, SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IDataAdviseHolder::SendOnDataChange

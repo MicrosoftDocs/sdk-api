@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagRPC_CALL_ATTRIBUTES_V2_A structure

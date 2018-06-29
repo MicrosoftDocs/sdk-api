@@ -7,7 +7,7 @@ old-location: com\datadir.htm
 old-project: com
 ms.assetid: 395d7511-f491-4d6c-9360-cae7e16e8524
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: DATADIR, DATADIR enumeration [COM], DATADIR_GET, DATADIR_SET, _ole_DATADIR, com.datadir, objidl/DATADIR, objidl/DATADIR_GET, objidl/DATADIR_SET, tagDATADIR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagDATADIR enumeration

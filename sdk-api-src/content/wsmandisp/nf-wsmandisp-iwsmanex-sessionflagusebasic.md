@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagusebasic.htm
 old-project: WinRM
 ms.assetid: 6b7457e2-1c19-4b33-bb38-5068f3c295cb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseBasic method, IWSManEx.SessionFlagUseBasic, IWSManEx::SessionFlagUseBasic, SessionFlagUseBasic, SessionFlagUseBasic method [Windows Remote Management], SessionFlagUseBasic method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusebasic, wsmandisp/IWSManEx::SessionFlagUseBasic
 ms.prod: windows
 ms.technology: windows-sdk

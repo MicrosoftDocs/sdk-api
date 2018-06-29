@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _endropfiles structure
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-			Contains information associated with an <a href="https://msdn.microsoft.com/fcae0ff8-ce37-4c71-b14c-cbd6429b4ab3">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message.
+			Contains information associated with an <a href="https://msdn.microsoft.com/library/Bb787966(v=VS.85).aspx">EN_DROPFILES</a> notification code. A rich edit control sends this notification code when it receives a <a href="https://msdn.microsoft.com/07dc2df7-4699-4e9c-b1a5-4ce877116268">WM_DROPFILES</a> message.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
             Notification header. 

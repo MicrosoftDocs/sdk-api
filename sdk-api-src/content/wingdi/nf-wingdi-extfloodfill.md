@@ -168,7 +168,7 @@ Only memory device contexts and devices that support raster-display operations s
 
 #### Examples
 
-For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://www.bing.com/search?q=Using+Menus">Using Menus</a>.
+For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Using Menus</a>.
 
 <div class="code"></div>
 

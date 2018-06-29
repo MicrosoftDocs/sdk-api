@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropSheet_IndexToId macro
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the <a href="https://msdn.microsoft.com/c153675a-360f-4916-aa0b-500636dd9022">PSM_INDEXTOID</a> message explicitly.
+Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774587(v=VS.85).aspx">PSM_INDEXTOID</a> message explicitly.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/c153675a-360f-4916-aa0b-500636dd9022">PSM_INDEXTOID</a>
+<a href="https://msdn.microsoft.com/library/Bb774587(v=VS.85).aspx">PSM_INDEXTOID</a>
  
 
  

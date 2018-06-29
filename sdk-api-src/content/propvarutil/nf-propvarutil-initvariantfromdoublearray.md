@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromDoubleArray function
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_R8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762322(v=VS.85).aspx">InitVariantFromDoubleArray</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDouble">InitVariantFromDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a>
+<a href="https://msdn.microsoft.com/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a>
  
 
  

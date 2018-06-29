@@ -7,7 +7,7 @@ old-location: tablet\inktablets_count.htm
 old-project: tablet
 ms.assetid: 6224871c-044e-478a-9635-6b2874bdcf45
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],Count property, IInkTablets.Count, IInkTablets.get_Count, IInkTablets::Count, IInkTablets::get_Count, InkTablets.get_Count, get_Count, msinkaut/IInkTablets::Count, msinkaut/IInkTablets::get_Count, tablet.inktablets_count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ This property is read-only.
 
 
 
-<a href="https://www.bing.com/search?q=IInkTablets">IInkTablets</a>
+<a href="tablet.iinktablets">IInkTablets</a>
 
 
 

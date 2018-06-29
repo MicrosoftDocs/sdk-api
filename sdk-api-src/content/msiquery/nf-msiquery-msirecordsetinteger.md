@@ -7,7 +7,7 @@ old-location: setup\msirecordsetinteger.htm
 old-project: Msi
 ms.assetid: d95105f0-afd6-4f56-94bd-ac8f49cb8f52
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiRecordSetInteger, MsiRecordSetInteger function, _msi_msirecordsetinteger, msiquery/MsiRecordSetInteger, setup.msirecordsetinteger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ To set a record integer field to <b>NULL_INTEGER</b>, set <i>iValue</i> to <b>MS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
  
 
  

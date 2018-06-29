@@ -62,7 +62,7 @@ The
 
 ### -field pNameMailbox
 
-A pointer to a string that represents the <a href="https://www.bing.com/search?q=fully+qualified+domain+name">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
+A pointer to a string that represents the <a href="https://msdn.microsoft.com/library/ms682135(v=VS.85).aspx">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
 
 
 ### -field pNameErrorsMailbox

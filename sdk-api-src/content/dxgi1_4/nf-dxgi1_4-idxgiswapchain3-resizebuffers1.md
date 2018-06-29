@@ -100,11 +100,11 @@ Type: <b>UINT</b>
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
 
-            A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the new format of the back buffer. 
-            Set this value to <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_UNKNOWN</a> to preserve the existing format of the back buffer. 
+            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the new format of the back buffer. 
+            Set this value to <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_UNKNOWN</a> to preserve the existing format of the back buffer. 
             The flip presentation model supports a more restricted set of formats than the bit-block transfer (bitblt) model.
           
 
@@ -114,7 +114,7 @@ Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c
 Type: <b>UINT</b>
 
 
-            A combination of <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are combined by using a bitwise OR operation.
+            A combination of <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG</a>-typed values that are combined by using a bitwise OR operation.
             The resulting value specifies options for swap-chain behavior.
           
 
@@ -145,11 +145,11 @@ Type: <b>IUnknown*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 
             Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
           
 
 
@@ -171,14 +171,14 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52
         
 
 
-          The only difference between <a href="https://msdn.microsoft.com/c70aaad0-e742-4ff1-9d25-80d171f3f9de">IDXGISwapChain::ResizeBuffers</a> in Windows 8 versus Windows 7 is with
-          flip presentation model swap chains that you create with the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
+          The only difference between <a href="https://msdn.microsoft.com/library/Bb174577(v=VS.85).aspx">IDXGISwapChain::ResizeBuffers</a> in Windows 8 versus Windows 7 is with
+          flip presentation model swap chains that you create with the <a href="https://msdn.microsoft.com/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> or DXGI_SWAP_EFFECT_FLIP_DISCARD value set.
           In Windows 8, you must call <b>ResizeBuffers</b> to realize a transition between full-screen mode and windowed mode;
-          otherwise, your next call to the <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a> method fails.
+          otherwise, your next call to the <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> method fails.
         
 
 
-          Also see the Remarks section in <a href="https://msdn.microsoft.com/c70aaad0-e742-4ff1-9d25-80d171f3f9de">IDXGISwapChain::ResizeBuffers</a>, all of which is relevant to <b>ResizeBuffers1</b>.
+          Also see the Remarks section in <a href="https://msdn.microsoft.com/library/Bb174577(v=VS.85).aspx">IDXGISwapChain::ResizeBuffers</a>, all of which is relevant to <b>ResizeBuffers1</b>.
         
 
 

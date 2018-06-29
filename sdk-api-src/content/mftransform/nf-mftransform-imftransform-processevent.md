@@ -188,7 +188,7 @@ req.product: GDI+ 1.1
         If an MFT does not hold back samples and does not need to examine any events, it can return <b>E_NOTIMPL</b>.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessEvent</b>. See <a href="https://docs.microsoft.com/windows/desktop//medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessEvent</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

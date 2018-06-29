@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchPersistentItemsChangedSink::OnItemsChanged
@@ -72,10 +72,10 @@ Type: <b>DWORD</b>
 
 ### -param DataChangeEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33b131fb-3565-4625-a6a9-6c7b4aef6860">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a>[]</b>
 
 
-                    An array of structures of type <a href="https://msdn.microsoft.com/33b131fb-3565-4625-a6a9-6c7b4aef6860">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
+                    An array of structures of type <a href="https://msdn.microsoft.com/library/Aa965373(v=VS.85).aspx">SEARCH_ITEM_PERSISTENT_CHANGE</a> identifying the details for each change.
                 
 
 

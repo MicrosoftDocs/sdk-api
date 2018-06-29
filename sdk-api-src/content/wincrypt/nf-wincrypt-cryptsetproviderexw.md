@@ -190,7 +190,7 @@ Most applications do not specify a CSP name when calling the
 
 
 
-<a href="https://www.bing.com/search?q=Service+Provider+Functions">Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
  
 
  

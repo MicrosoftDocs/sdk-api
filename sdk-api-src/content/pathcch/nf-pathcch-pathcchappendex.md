@@ -7,7 +7,7 @@ old-location: shell\PathCchAppendEx.htm
 old-project: shell
 ms.assetid: 5421c666-1c8a-4ae8-baba-9e6f69c877df
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchAppendEx, PathCchAppendEx function [Windows Shell], pathcch/PathCchAppendEx, shell.PathCchAppendEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PathCchAppendEx function

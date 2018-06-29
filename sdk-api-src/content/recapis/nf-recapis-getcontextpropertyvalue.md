@@ -7,7 +7,7 @@ old-location: tablet\getcontextpropertyvalue.htm
 old-project: tablet
 ms.assetid: e3f154ce-b4bf-4520-a4de-03cfe27ef9b0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: GetContextPropertyValue, GetContextPropertyValue function [Tablet PC], e3f154ce-b4bf-4520-a4de-03cfe27ef9b0, recapis/GetContextPropertyValue, tablet.getcontextpropertyvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GetContextPropertyValue function

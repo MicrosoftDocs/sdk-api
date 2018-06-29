@@ -1,0 +1,378 @@
+---
+UID: NF:winnetwk.WNetGetUniversalNameA
+title: WNetGetUniversalNameA function
+author: windows-sdk-content
+description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
+old-location: wnet\wnetgetuniversalname.htm
+old-project: WNet
+ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winnetwk.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: WNetGetUniversalNameW (Unicode) and WNetGetUniversalNameA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: WINML_VARIABLE_DESC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetUniversalName
+ - WNetGetUniversalNameA
+ - WNetGetUniversalNameW
+product: Windows
+targetos: Windows
+req.lib: Mpr.lib
+req.dll: Mpr.dll
+req.irql: 
+req.product: Windows Address Book 5.0
+---
+
+# WNetGetUniversalNameA function
+
+
+## -description
+
+
+The
+				<b>WNetGetUniversalName</b> function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
+
+
+## -parameters
+
+
+
+
+### -param lpLocalPath [in]
+
+A pointer to a constant null-terminated string that is a drive-based path for a network resource. 
+
+
+
+
+For example, if drive H has been mapped to a network drive share, and the network       resource of interest is a file named Sample.doc in the directory \Win32\Examples on that share, the drive-based path is H:\Win32\Examples\Sample.doc.
+
+
+### -param dwInfoLevel [in]
+
+The type of structure that the function stores in the buffer pointed to by the <i>lpBuffer</i> parameter. This parameter can be one of the following values defined in the <i>Winnetwk.h</i> header file.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="UNIVERSAL_NAME_INFO_LEVEL"></a><a id="universal_name_info_level"></a><dl>
+<dt><b>UNIVERSAL_NAME_INFO_LEVEL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function stores a 
+<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structure in the buffer.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="REMOTE_NAME_INFO_LEVEL"></a><a id="remote_name_info_level"></a><dl>
+<dt><b>REMOTE_NAME_INFO_LEVEL</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function stores a 
+<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> structure in the buffer.
+
+</td>
+</tr>
+</table>
+ 
+
+The 
+<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structure points to a Universal Naming Convention (UNC) name string.
+
+The 
+<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> structure points to a UNC name string and two additional connection information strings. For more information, see the following Remarks section.
+
+
+### -param lpBuffer [out]
+
+A pointer to a buffer that receives the structure specified by the <i>dwInfoLevel</i> parameter.
+
+
+### -param lpBufferSize [in, out]
+
+A pointer to a variable that specifies the size, in bytes, of the buffer pointed to by the <i>lpBuffer</i> parameter.
+
+If the function succeeds, it sets the variable pointed to by <i>lpBufferSize</i> to the number of bytes stored in the buffer. If the function fails because the buffer is too small, this location receives the required buffer size, and the function returns ERROR_MORE_DATA.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is NO_ERROR.
+
+If the function fails, the return value is a 
+<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_BAD_DEVICE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The string pointed to by the <i>lpLocalPath</i> parameter is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_CONNECTION_UNAVAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no current connection to the remote device, but there is a remembered (persistent) connection to it.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_EXTENDED_ERROR</b></dt>
+</dl>
+</td>
+<td width="60%">
+A network-specific error occurred. Use the 
+<a href="https://msdn.microsoft.com/8e13c467-adcf-4e97-b51a-1f5fc919b51e">WNetGetLastError</a> function to obtain a description of the error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_MORE_DATA</b></dt>
+</dl>
+</td>
+<td width="60%">
+The buffer pointed to by the <i>lpBuffer</i> parameter is too small. The function sets the variable pointed to by the <i>lpBufferSize</i> parameter to the required buffer size. More entries are available with subsequent calls.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_SUPPORTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>dwInfoLevel</i> parameter is set to UNIVERSAL_NAME_INFO_LEVEL, but the network provider does not support UNC names. (None of the network providers support this function.)
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_NET_OR_BAD_PATH</b></dt>
+</dl>
+</td>
+<td width="60%">
+None of the network providers recognize the local name as having a connection. However, the network is not available for at least one provider to whom the connection may belong.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NO_NETWORK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The network is unavailable.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_CONNECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The device specified by the <i>lpLocalPath</i> parameter is not redirected.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A universal form of a local drive-based path identifies a network resource in an unambiguous, computer-independent manner. The name can then be passed to processes on other computers, allowing those processes to obtain access to the resource.
+
+The 
+<b>WNetGetUniversalName</b> function currently supports one universal name form: universal naming convention (UNC) names, which look like the following:
+
+<pre class="syntax" xml:space="preserve"><code>\\servername\sharename\path\file 
+</code></pre>
+Using the example from the preceding description of the <i>lpLocalPath</i> parameter, if the shared network drive is on a server named COOLSERVER, and the share name is HOTSHARE, the UNC name for the network resource whose drive-based name is H:\Win32\Examples\Sample.doc would be the following:
+
+<pre class="syntax" xml:space="preserve"><code>\\coolserver\hotshare\win32\examples\sample.doc 
+</code></pre>
+The 
+<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structure contains a pointer to a UNC name string. The 
+<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> structure also contains a pointer to a UNC name string as well as pointers to two other useful strings. For example, a process can pass the 
+<b>REMOTE_NAME_INFO</b> structure's <b>lpszConnectionInfo</b> member to the 
+<a href="https://msdn.microsoft.com/faec728c-f19e-418c-9bdb-cde93e7d98fb">WNetAddConnection2</a> function to connect a local device to the network resource. Then the process can append the string pointed to by the <b>lpszRemainingPath</b> member to the local device string. The resulting string can be passed to functions that require a drive-based path.
+
+The <i>lpLocalPath</i> parameter does not have to specify a path or resource that is already present on a remote resource.  For example, the <i>lpLocalPath</i> parameter could specify and folder, a hieracrchy of folders, or a file that does not currently exist. The
+				<b>WNetGetUniversalName</b> function returns a more universal form of the name in these cases.
+
+The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified in the <i>lpBufferSize</i> parameter must be much larger than the size of the <a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> 
+		 or <a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structures. The buffer pointed to by the <i>lpBuffer</i> parameter must be large enough to store the UNC strings pointed to by the members in the <b>REMOTE_NAME_INFO</b> 
+		 or <b>UNIVERSAL_NAME_INFO</b> structures. If the buffer size is too small, then the function fails with ERROR_MORE_DATA and the variable pointed to by the <i>lpBufferSize</i> parameter indicates the required buffer size.
+
+<b>Windows Server 2003 and Windows XP:  </b>This function queries the MS-DOS device namespaces associated with a logon session because MS-DOS devices are identified by AuthenticationID. (An AuthenticationID is the 
+<a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
+<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
+<a href="https://msdn.microsoft.com/21a66050-3bab-4c70-9003-3b52e8c72b00">GetLogicalDrives</a> function. <b>GetLogicalDrives</b> does not return network drive letters created by a WNet function under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
+<a href="https://msdn.microsoft.com/7d802e9f-dc09-4e3d-b064-e9b57af396e2">Defining an MS-DOS Device Name</a>.
+
+
+#### Examples
+
+The following code sample illustrates how to use the 
+<b>WNetGetUniversalName</b> function to retrieve the universal UNC name strings associated with drive-based path for a network resource.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
+#define UNICODE
+#endif
+#pragma comment(lib, "mpr.lib")
+
+#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Winnetwk.h&gt;
+
+int wmain(int argc, wchar_t * argv[])
+{
+    DWORD dwRetVal;
+
+    WCHAR Buffer[1024];
+    DWORD dwBufferLength = 1024;
+       
+    UNIVERSAL_NAME_INFO * unameinfo;
+    REMOTE_NAME_INFO *remotenameinfo;
+    
+    wprintf(L"Calling WNetGetUniversalName with Local Path = %s\n", argv[1]);
+
+    unameinfo = (UNIVERSAL_NAME_INFO *) &amp;Buffer;
+    dwRetVal = WNetGetUniversalName(argv[1], UNIVERSAL_NAME_INFO_LEVEL, (LPVOID) unameinfo, &amp;dwBufferLength );
+    //
+    // If the call succeeds, print the user information.
+    //
+    if (dwRetVal == NO_ERROR) {
+
+        wprintf(L"WNetGetUniversalName returned success for InfoLevel=UNIVERSAL_NAME_INFO_LEVEL\n");
+        wprintf(L"\tUniversal name = %s\n", unameinfo-&gt;lpUniversalName);
+    }
+
+    else {
+        wprintf(L"WNetGetUser failed for InfoLevel=UNIVERSAL_NAME_INFO_LEVEL with error: %u\n", dwRetVal);
+    }
+
+
+    remotenameinfo = (REMOTE_NAME_INFO *) &amp;Buffer;
+    dwRetVal = WNetGetUniversalName(argv[1], REMOTE_NAME_INFO_LEVEL, 
+        (LPVOID) remotenameinfo, &amp;dwBufferLength );
+    //
+    // If the call succeeds, print the user information.
+    //
+    if (dwRetVal == NO_ERROR) {
+
+        wprintf(L"WNetGetUniversalName returned success for InfoLevel=REMOTE_NAME_INFO_LEVEL\n");
+        wprintf(L"\tUniversal name = %s\n", remotenameinfo-&gt;lpUniversalName);
+        wprintf(L"\tConnection name = %s\n", remotenameinfo-&gt;lpConnectionName);
+        wprintf(L"\tRemaining path = %s\n", remotenameinfo-&gt;lpRemainingPath);
+    }
+
+    else {
+        wprintf(L"WNetGetUser failed for InfoLevel=REMOTE_NAME_INFO_LEVEL with error: %u\n", dwRetVal);
+    }
+}
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ce57fecb-8b14-4514-a3fd-45d7ef6eee89">Determining the Location of a Share</a>
+
+
+
+<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/faec728c-f19e-418c-9bdb-cde93e7d98fb">WNetAddConnection2</a>
+
+
+
+<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows
+		  Networking (WNet) Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows
+		  Networking Functions</a>
+ 
+
+ 
+

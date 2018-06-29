@@ -103,7 +103,7 @@ Gets the current PIN state of the device.
 
 
 
-An application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
+An application can acquire this interface by calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
 
 
 

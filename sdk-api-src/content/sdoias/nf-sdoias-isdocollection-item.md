@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdoCollection::Item
@@ -64,13 +64,13 @@ The
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>. Store the name of the object in a 
-<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> in this <b>VARIANT</b>.
+<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> in this <b>VARIANT</b>.
 
 
 ### -param pItem [out]
 
 Pointer to an interface pointer that receives the address of an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the object.
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the object.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
+<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>
 
 
 

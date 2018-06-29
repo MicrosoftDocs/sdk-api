@@ -66,7 +66,7 @@ Number of effects in the effect chain for the voice.
 
 ### -field pEffectDescriptors
 
-Array of <a href="https://msdn.microsoft.com/d2c7c640-9f6a-4fc0-bc87-35570281cec5">XAUDIO2_EFFECT_DESCRIPTOR</a> structures containing pointers to XAPO instances.
+Array of <a href="https://msdn.microsoft.com/library/Ee419236(v=VS.85).aspx">XAUDIO2_EFFECT_DESCRIPTOR</a> structures containing pointers to XAPO instances.
 
 
 ## -remarks
@@ -88,19 +88,19 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/2E8163C6-60E9-4EA9-AD5A-A7F3C84FF6CF">IXAudio2::CreateMasteringVoice</a>
+<a href="https://msdn.microsoft.com/library/Hh405048(v=VS.85).aspx">IXAudio2::CreateMasteringVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/5F37327B-A749-4D2D-A664-7DC45A13FF9A">IXAudio2::CreateSourceVoice</a>
+<a href="https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/4073041D-19F8-44D7-BCCC-A9E0654B05D8">IXAudio2::CreateSubmixVoice</a>
+<a href="https://msdn.microsoft.com/library/Ee418608(v=VS.85).aspx">IXAudio2::CreateSubmixVoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/6CA630E6-66D5-495C-808D-79EE5E85D92B">IXAudio2Voice::SetEffectChain</a>
+<a href="https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx">IXAudio2Voice::SetEffectChain</a>
 
 
 

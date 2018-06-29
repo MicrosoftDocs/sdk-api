@@ -7,7 +7,7 @@ old-location: com\isynchronizeevent_seteventhandle.htm
 old-project: com
 ms.assetid: e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ISynchronizeEvent interface [COM],SetEventHandle method, ISynchronizeEvent.SetEventHandle, ISynchronizeEvent::SetEventHandle, SetEventHandle, SetEventHandle method [COM], SetEventHandle method [COM],ISynchronizeEvent interface, _com_isynchronizeevent_seteventhandle, com.isynchronizeevent_seteventhandle, objidlbase/ISynchronizeEvent::SetEventHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISynchronizeEvent::SetEventHandle

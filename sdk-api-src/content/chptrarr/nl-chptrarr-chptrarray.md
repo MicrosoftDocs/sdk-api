@@ -133,69 +133,6 @@ Gets the element at the specified index.
 </table> 
 
 
-## -members
-
-The <b>CHPtrArray</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
-</td>
-<td align="left" width="63%">
-Accesses an element in a <b>CHPtrArray</b> array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b9bcd3f-06d9-47f1-aecb-1c611c9866bd">GetSize</a>
-</td>
-<td align="left" width="63%">
-Obtains the pointer array size.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51de0ff1-e8e9-4484-80d6-51179ef82a51">RemoveAll</a>
-</td>
-<td align="left" width="63%">
-Removes all the <b>CHPtrArray</b> members from this array.
-
-</td>
-</tr>
-</table>Accesses an element in a <b>CHPtrArray</b> array.
-
-Obtains the pointer array size.
-
-Removes all the <b>CHPtrArray</b> members from this array.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHPtrArray</b> class has these operators.
-<table>
-<tr>
-<th align="left" width="37%">Operator</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544338">operator[]</a>
-</td>
-<td align="left" width="63%">
-Gets the element at the specified index.
-
-</td>
-</tr>
-</table>Gets the element at the specified index.
-
- 
-
-
 ## -remarks
 
 

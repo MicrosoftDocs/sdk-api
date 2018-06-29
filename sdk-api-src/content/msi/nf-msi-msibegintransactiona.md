@@ -7,7 +7,7 @@ old-location: setup\msibegintransaction.htm
 old-project: Msi
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiBeginTransaction, MsiBeginTransaction function [Setup API], MsiBeginTransactionA, MsiBeginTransactionW, msi/MsiBeginTransaction, msi/MsiBeginTransactionA, msi/MsiBeginTransactionW, setup.msibegintransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The  <b>MsiBeginTransaction</b> function starts <a href="https://www.bing.com/search?q=transaction+processing">transaction processing</a> of a multiple-package installation and returns an identifier for the transaction. The  <a href="https://msdn.microsoft.com/70912430-63d7-4087-858c-fb13f47008e2">MsiEndTransaction</a> function ends  the transaction.
+The  <b>MsiBeginTransaction</b> function starts <a href="https://msdn.microsoft.com/library/ms691785(v=VS.85).aspx">transaction processing</a> of a multiple-package installation and returns an identifier for the transaction. The  <a href="https://msdn.microsoft.com/70912430-63d7-4087-858c-fb13f47008e2">MsiEndTransaction</a> function ends  the transaction.
 
 <b><a href="https://msdn.microsoft.com/7256b759-3fb5-4195-b0e4-a1631327ebb7">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 

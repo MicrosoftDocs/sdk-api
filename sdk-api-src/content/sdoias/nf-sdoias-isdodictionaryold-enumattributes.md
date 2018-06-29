@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdoDictionaryOld::EnumAttributes
@@ -73,14 +73,14 @@ On input, a pointer to a <a href="https://msdn.microsoft.com/library/windows/har
        to enumerate.
 
 On output, pointer to a 
-       <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that contains the IDs of 
+       <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that contains the IDs of 
        the enumerated attributes.
 
 
 ### -param pValues [out]
 
 Pointer to a 
-      <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that contains 
+      <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that contains 
       the values of the enumerated attributes.
 
 
@@ -103,7 +103,7 @@ The parameters must not be <b>NULL</b>.
 
 If VT(Id) = VT_EMPTY then all the attributes are returned. Otherwise VT(Id) should be <b>VT_I4</b> and only the attributes designed are retrieved.
 
-When the method returns, Id is a <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
+When the method returns, Id is a <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
 
 
 

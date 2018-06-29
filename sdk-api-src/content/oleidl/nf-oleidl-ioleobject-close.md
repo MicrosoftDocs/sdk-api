@@ -7,7 +7,7 @@ old-location: com\ioleobject_close.htm
 old-project: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface, IOleObject interface [COM],Close method, IOleObject.Close, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleObject::Close

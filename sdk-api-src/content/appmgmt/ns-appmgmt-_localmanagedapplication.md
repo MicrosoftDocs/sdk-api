@@ -70,7 +70,7 @@ This is the user-friendly name of the group policy object (GPO) from which the a
 
 ### -field pszProductId
 
-This is a Unicode string that gives the <a href="https://www.bing.com/search?q=Windows+Installer">Windows Installer</a> product code GUID for the application.
+This is a Unicode string that gives the <a href="https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx">Windows Installer</a> product code GUID for the application.
 
 
 ### -field dwState

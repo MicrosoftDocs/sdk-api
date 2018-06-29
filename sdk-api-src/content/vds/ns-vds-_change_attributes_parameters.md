@@ -140,8 +140,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a result, the partition does not receive a drive letter, 
           does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by calls to 
-          <a href="https://msdn.microsoft.com/3eaf9903-ae20-47e7-b32c-943bf60e7bbd">FindFirstVolume</a> and 
-          <a href="https://msdn.microsoft.com/6ab4467a-f84a-403e-9327-b523ceead19f">FindNextVolume</a>. This ensures that applications 
+          <a href="https://msdn.microsoft.com/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
+          <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
 
 Despite its name, this attribute can be set for basic and dynamic disks.

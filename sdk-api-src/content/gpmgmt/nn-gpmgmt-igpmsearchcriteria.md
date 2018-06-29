@@ -7,7 +7,7 @@ old-location: gpmc\igpmsearchcriteria.htm
 old-project: GPMC
 ms.assetid: 6d24ffd1-987c-468f-a8cc-08992b7deb9d
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface [GPMC], IGPMSearchCriteria interface [GPMC],described, _win32_igpmsearchcriteria, gpmc.igpmsearchcriteria, gpmgmt/IGPMSearchCriteria
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSearchCriteria</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSearchCriteria</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSearchCriteria</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMSearchCriteria</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -89,7 +89,7 @@ Adds a criterion for search operations.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.5
 ## -description
 
 
-Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://msdn.microsoft.com/library/windows/desktop/2681e3cf-a251-4c9d-9474-fc320fedede8">IAddrBook</a>.
+Do not use. Provides access to the address book through a number of object interfaces. The root interface is <a href="https://msdn.microsoft.com/library/ms629649(v=VS.85).aspx">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://msdn.microsoft.com/library/ms629649(v=VS.85).aspx">IAddrBook</a>.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Do not use. Provides access to the address book through a number of object inter
 
 Type: <b>LPADRBOOK*</b>
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface returned by the function.
+Address of a pointer to the <a href="https://msdn.microsoft.com/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface returned by the function.
 
 
 ### -param lppWABObject
 
 Type: <b>LPWABOBJECT*</b>
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/cba6a6ae-79e5-4412-9e1e-ad0ef41b1862">IWABObject</a> interface returned by the function.
+Address of a pointer to the <a href="https://msdn.microsoft.com/library/ms629467(v=VS.85).aspx">IWABObject</a> interface returned by the function.
 
 
 ### -param lpWP
@@ -87,7 +87,7 @@ Reserved. Must be set to 0.
 
 Type: <b>LPWAB_PARAM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/0abed372-5972-4370-a3cb-d29d6aa68257">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms629458(v=VS.85).aspx">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
 
 
 ## -returns
@@ -106,7 +106,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/8c4df4c8-c386-4e63-8cd4-2c8d6a4f69a7">WABOpenEx</a>
+<a href="https://msdn.microsoft.com/library/ms629718(v=VS.85).aspx">WABOpenEx</a>
  
 
  

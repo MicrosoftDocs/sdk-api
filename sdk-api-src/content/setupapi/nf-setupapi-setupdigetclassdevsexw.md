@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdevsex.htm
 old-project: devinst
 ms.assetid: 9f13ffe1-1a60-4d9a-942d-63312ca9bc5b
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetClassDevsEx, SetupDiGetClassDevsEx function [Device and Driver Installation], SetupDiGetClassDevsExA, SetupDiGetClassDevsExW, devinst.setupdigetclassdevsex, di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml, setupapi/SetupDiGetClassDevsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetClassDevsExW function
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>SetupDiGetClassDevsEx</b> function returns a handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains requested device information elements for a local or a remote computer. 
+The <b>SetupDiGetClassDevsEx</b> function returns a handle to a <a href="devinst.device_information_sets">device information set</a> that contains requested device information elements for a local or a remote computer. 
 
 
 ## -parameters
@@ -75,7 +75,7 @@ An identifier (ID) of a Plug and Play (PnP) <a href="https://msdn.microsoft.com/
 
 </li>
 <li>
- A PnP <a href="https://www.bing.com/search?q=device+instance+IDs">device instance IDs</a>. When specifying a PnP device instance ID, DIGCF_DEVICEINTERFACE must be set in the Flags parameter.
+ A PnP <a href="devinst.device_instance_ids">device instance IDs</a>. When specifying a PnP device instance ID, DIGCF_DEVICEINTERFACE must be set in the Flags parameter.
 
 </li>
 </ul>
@@ -105,7 +105,7 @@ Return a list of installed devices for the specified device setup classes or dev
 
 #### DIGCF_DEVICEINTERFACE
 
-Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a>.
+Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="devinst.device_instance_ids">device instance ID</a>.
 
 
 
@@ -128,7 +128,7 @@ Return only devices that are a part of the current hardware profile.
 
 ### -param DeviceInfoSet [in, optional]
 
-The handle to an existing <a href="https://www.bing.com/search?q=device+information+set">device information set</a> to which <b>SetupDiGetClassDevsEx</b> adds the requested device information elements. This parameter is optional and can be set to <b>NULL</b>. For more information about using this parameter, see the following <b>Remarks</b> section. 
+The handle to an existing <a href="devinst.device_information_sets">device information set</a> to which <b>SetupDiGetClassDevsEx</b> adds the requested device information elements. This parameter is optional and can be set to <b>NULL</b>. For more information about using this parameter, see the following <b>Remarks</b> section. 
 
 
 ### -param MachineName [in, optional]
@@ -153,7 +153,7 @@ Return only the device that is associated with the system default device interfa
 
 ##### - Flags.DIGCF_DEVICEINTERFACE
 
-Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a>.
+Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="devinst.device_instance_ids">device instance ID</a>.
 
 
 ##### - Flags.DIGCF_PRESENT
@@ -170,7 +170,7 @@ Return only devices that are a part of the current hardware profile.
 
 
 
-If the operation succeeds, <b>SetupDiGetClassDevsEx</b> returns a handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the operation succeeds, <b>SetupDiGetClassDevsEx</b> returns a handle to a <a href="devinst.device_information_sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -251,7 +251,7 @@ To return only devices that are part of the current hardware profile, set the DI
 
 </li>
 <li>
-To return only a specific device, set the DIGCF_DEVICEINTERFACE flag and use the <i>Enumerator</i> parameter to supply the <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a> of the device<i>. </i>To include all possible devices, set <i>Enumerator</i> to <b>NULL</b>.
+To return only a specific device, set the DIGCF_DEVICEINTERFACE flag and use the <i>Enumerator</i> parameter to supply the <a href="devinst.device_instance_ids">device instance ID</a> of the device<i>. </i>To include all possible devices, set <i>Enumerator</i> to <b>NULL</b>.
 
 </li>
 </ul>
@@ -281,11 +281,11 @@ In an operation of this type, <b>SetupDiGetClassDevsEx</b> returns a device if t
 
 
 
-<a href="https://www.bing.com/search?q=Device+Information+Set">Device Information Set</a>
+<a href="devinst.device_information_sets">Device Information Set</a>
 
 
 
-<a href="https://www.bing.com/search?q=Device+Instance+IDs">Device Instance IDs</a>
+<a href="devinst.device_instance_ids">Device Instance IDs</a>
 
 
 

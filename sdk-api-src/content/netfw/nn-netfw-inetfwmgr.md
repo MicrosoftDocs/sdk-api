@@ -59,7 +59,7 @@ The <a href="https://msdn.microsoft.com/b99464c5-dabc-405a-ad3e-da06a6faef47">IN
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwMgr</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetFwMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -172,11 +172,11 @@ effect immediately.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

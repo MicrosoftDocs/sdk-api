@@ -3,12 +3,12 @@ UID: NF:faxcomex.IFaxInboundRouting.GetExtensions
 title: IFaxInboundRouting::GetExtensions
 author: windows-sdk-content
 description: The GetExtensions method retrieves the collection of inbound routing extensions registered with the fax service.
-old-location: fax\_mfax_faxinboundrouting_getextensions_cpp.htm
+old-location: fax\_mfax_faxinboundrouting_getextensions.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_80oj_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinta_n_80oj.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetExtensions, GetExtensions method [Fax Service], GetExtensions method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetExtensions method, IFaxInboundRouting.GetExtensions, IFaxInboundRouting::GetExtensions, _mfax_faxinboundrouting.getextensions_cpp, fax._mfax_faxinboundrouting_getextensions_cpp, faxcomex/IFaxInboundRouting::GetExtensions
+ms.date: 06/12/2018
+ms.keywords: FaxInboundRouting object [Fax Service],GetExtensions method, FaxInboundRouting.GetExtensions, GetExtensions, GetExtensions method [Fax Service], GetExtensions method [Fax Service],FaxInboundRouting object, IFaxInboundRouting.GetExtensions, IFaxInboundRouting::GetExtensions, _mfax_faxinboundrouting.getextensions, fax._mfax_faxinboundrouting_getextensions
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxInboundRouting.GetExtensions
  - IFaxInboundRouting.GetExtensions
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4">GetExtensions</a> method retrieves the collection of inbound routing extensions registered with the fax service.
+The <b>GetExtensions</b> method retrieves the collection of inbound routing extensions registered with the fax service.
 
 
 ## -parameters
@@ -66,20 +67,13 @@ The <a href="https://msdn.microsoft.com/ecd9a5bb-1624-4cfe-a2d9-b9a5ed722fc4">Ge
 
 
 
-#### - ppFaxInboundRoutingExtensions [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/6daf0614-c0d4-42ba-96de-60f35a39aff1">IFaxInboundRoutingExtensions</a>**</b>
-
-Address of a pointer to an <a href="https://msdn.microsoft.com/6daf0614-c0d4-42ba-96de-60f35a39aff1">IFaxInboundRoutingExtensions</a> interface.
-
-
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> object.
 
 
 
@@ -88,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -98,11 +92,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_gettabletfromtabletcontextid.htm
 old-project: tablet
 ms.assetid: be736eaf-8632-4e71-b1d8-c851a9d417e5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: GetTabletFromTabletContextId, GetTabletFromTabletContextId method [Tablet PC], GetTabletFromTabletContextId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTabletFromTabletContextId method, IRealTimeStylus.GetTabletFromTabletContextId, IRealTimeStylus::GetTabletFromTabletContextId, be736eaf-8632-4e71-b1d8-c851a9d417e5, rtscom/IRealTimeStylus::GetTabletFromTabletContextId, tablet.irealtimestylus_gettabletfromtabletcontextid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRealTimeStylus::GetTabletFromTabletContextId

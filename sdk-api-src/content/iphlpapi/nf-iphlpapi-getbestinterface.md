@@ -176,7 +176,7 @@ On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated inte
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_best_if">MIB_BEST_IF</a>
+<a href="https://msdn.microsoft.com/library/Aa366822(v=VS.85).aspx">MIB_BEST_IF</a>
 
 
 

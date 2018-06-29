@@ -76,7 +76,7 @@ A handle to the image list.
 
 
 
-The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://www.bing.com/search?q=LVS_SHAREIMAGELISTS">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
+The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
 
 
 

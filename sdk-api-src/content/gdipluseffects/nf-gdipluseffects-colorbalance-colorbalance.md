@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b80ab800">ColorBalance</a> object. 
+Creates a new <a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a new <a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b8
 
 
 
-<a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b80ab800">ColorBalance</a>
+<a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e2cc043-c3da-428e-b7a0-f2ad8a1eefbe">ColorBalance::SetParameters</a>
+<a href="https://msdn.microsoft.com/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/60e823da-d909-4e8c-ab2b-7f0d6d98620b">ColorBalanceParams</a>
+<a href="https://msdn.microsoft.com/library/ms534059(v=VS.85).aspx">ColorBalanceParams</a>
  
 
  

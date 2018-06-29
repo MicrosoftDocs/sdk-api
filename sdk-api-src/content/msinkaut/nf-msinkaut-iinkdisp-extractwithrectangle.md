@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_extractwithrectangle.htm
 old-project: tablet
 ms.assetid: b32467a8-a677-4a80-8029-d364e6e372c6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: ExtractWithRectangle, ExtractWithRectangle method [Tablet PC], ExtractWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractWithRectangle method, IInkDisp.ExtractWithRectangle, IInkDisp::ExtractWithRectangle, b32467a8-a677-4a80-8029-d364e6e372c6, msinkaut/IInkDisp::ExtractWithRectangle, tablet.inkdisp_extractwithrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,7 +198,7 @@ When the <i>extractFlags</i> parameter is <a href="https://msdn.microsoft.com/22
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

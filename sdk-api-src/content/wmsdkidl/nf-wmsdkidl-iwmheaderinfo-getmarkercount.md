@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetMarkerCount</b> method returns the number of <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">markers</a> currently in the header section of the ASF file.
+The <b>GetMarkerCount</b> method returns the number of <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">markers</a> currently in the header section of the ASF file.
 
 
 

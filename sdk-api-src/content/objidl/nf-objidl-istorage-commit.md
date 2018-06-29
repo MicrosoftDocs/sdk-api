@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IStorage::Commit
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-			The <b>Commit</b> method ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage. For nonroot storage objects in direct mode, this method has no effect. For a root storage, it reflects the changes in the actual device; for example, a file on disk. For a root storage object opened in direct mode, always call the <b>IStorage::Commit</b> method prior to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. <b>IStorage::Commit</b> flushes all memory buffers to the disk for a root storage in direct mode and will return an error code upon failure. Although <b>Release</b> also flushes memory buffers to disk, it has no capacity to return any error codes upon failure. Therefore, calling <b>Release</b> without first calling 
+			The <b>Commit</b> method ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage. For nonroot storage objects in direct mode, this method has no effect. For a root storage, it reflects the changes in the actual device; for example, a file on disk. For a root storage object opened in direct mode, always call the <b>IStorage::Commit</b> method prior to <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a>. <b>IStorage::Commit</b> flushes all memory buffers to the disk for a root storage in direct mode and will return an error code upon failure. Although <b>Release</b> also flushes memory buffers to disk, it has no capacity to return any error codes upon failure. Therefore, calling <b>Release</b> without first calling 
 <b>Commit</b> causes indeterminate results.
 
 

@@ -116,7 +116,7 @@ If the CTL is not sorted with the CERT_CREATE_CONTEXT_SORTED_FLAG flag set, an e
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+and+Certificate+Store+Maintenance+Functions">Certificate and Certificate Store Maintenance Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

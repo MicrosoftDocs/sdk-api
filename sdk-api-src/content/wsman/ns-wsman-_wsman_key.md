@@ -7,7 +7,7 @@ old-location: winrm\wsman_key.htm
 old-project: WinRM
 ms.assetid: dbd66ad3-3816-43a3-a8e4-403ff3847da0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_KEY, WSMAN_KEY structure [Windows Remote Management], _WSMAN_KEY, winrm.wsman_key, wsman/WSMAN_KEY
 ms.prod: windows
 ms.technology: windows-sdk

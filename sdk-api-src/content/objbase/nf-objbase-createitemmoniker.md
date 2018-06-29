@@ -7,7 +7,7 @@ old-location: com\createitemmoniker.htm
 old-project: com
 ms.assetid: 339919ed-660c-4239-825b-7fa96c48e5cd
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CreateItemMoniker, CreateItemMoniker function [COM], _com_CreateItemMoniker, com.createitemmoniker, objbase/CreateItemMoniker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CreateItemMoniker function

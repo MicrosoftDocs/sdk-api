@@ -67,18 +67,18 @@ Index into an array of depth-stencil-state descriptions. If there is only one de
 
 ### -param pDepthStencilDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5337bb50-95ce-47cd-bda5-2828bf3f85d0">D3D10_DEPTH_STENCIL_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb205036(v=VS.85).aspx">D3D10_DEPTH_STENCIL_DESC</a>*</b>
 
-A pointer to a depth-stencil-state description (see <a href="https://msdn.microsoft.com/5337bb50-95ce-47cd-bda5-2828bf3f85d0">D3D10_DEPTH_STENCIL_DESC</a>).
+A pointer to a depth-stencil-state description (see <a href="https://msdn.microsoft.com/library/Bb205036(v=VS.85).aspx">D3D10_DEPTH_STENCIL_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -97,7 +97,7 @@ Effect variables are saved in memory in the backing store; when a technique is a
 
 
 
-<a href="https://msdn.microsoft.com/b8d8fa74-c4fb-4143-a725-741b7d60e0ba">ID3D10EffectDepthStencilVariable Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173639(v=VS.85).aspx">ID3D10EffectDepthStencilVariable Interface</a>
  
 
  

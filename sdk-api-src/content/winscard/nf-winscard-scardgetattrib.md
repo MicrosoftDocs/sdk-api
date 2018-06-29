@@ -506,7 +506,7 @@ ERROR_NOT_SUPPORTED.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 </td>
 </tr>

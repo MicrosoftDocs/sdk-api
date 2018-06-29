@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSGetPropertyKeyFromName function
@@ -68,7 +68,7 @@ Pointer to a property name as a null-terminated, Unicode string.
 
 ### -param ppropkey [out]
 
-Type: <b><a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
 
 When this function returns, contains the requested property key.
 
@@ -131,12 +131,12 @@ The canonical property name does not exist in the schema subsystem cache.
 
 Property keys uniquely identify a property. For example, <code>PKEY_Keywords</code> corresponds to <code>System.Keywords</code>. This function succeeds only for properties registered as part of the property schema.
 
-See <a href="https://www.bing.com/search?q=PSGetPropertyDescriptionByName">PSGetPropertyDescriptionByName</a> for a list of legacy property names that are also supported by the function.
+See <a href="https://msdn.microsoft.com/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a> for a list of legacy property names that are also supported by the function.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSGetPropertyKeyFromName">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762081(v=VS.85).aspx">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -163,19 +163,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertykey">IPropertyDescription::GetPropertyKey</a>
+<a href="shell.IPropertyDescription_GetPropertyKey">IPropertyDescription::GetPropertyKey</a>
 
 
 
-<a href="https://www.bing.com/search?q=PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a>
+<a href="https://msdn.microsoft.com/library/Bb776502(v=VS.85).aspx">PSGetNameFromPropertyKey</a>
 
 
 
-<a href="https://www.bing.com/search?q=PSGetPropertyDescription">PSGetPropertyDescription</a>
+<a href="https://msdn.microsoft.com/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a>
 
 
 
-<a href="https://www.bing.com/search?q=PSPropertyKeyFromString">PSPropertyKeyFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>
  
 
  

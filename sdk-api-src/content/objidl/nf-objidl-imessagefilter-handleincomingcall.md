@@ -7,7 +7,7 @@ old-location: com\imessagefilter_handleincomingcall.htm
 old-project: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComingCall method [COM],IMessageFilter interface, IMessageFilter interface [COM],HandleInComingCall method, IMessageFilter.HandleInComingCall, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IMessageFilter::HandleInComingCall

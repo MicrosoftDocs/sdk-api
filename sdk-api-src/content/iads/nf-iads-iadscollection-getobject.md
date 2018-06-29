@@ -73,7 +73,7 @@ The null-terminated Unicode string that specifies the name of the item. This is 
 
 #### - pvarItem [in]
 
-Current value of the item. For an object, this corresponds to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the object.
+Current value of the item. For an object, this corresponds to the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
 
 
 ## -returns
@@ -184,11 +184,11 @@ Cleanup:
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
  
 
  

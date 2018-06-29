@@ -119,7 +119,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
         This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamLimits</b>. See <a href="https://docs.microsoft.com/windows/desktop//medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamLimits</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

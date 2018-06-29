@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RasGetErrorStringW function
@@ -100,7 +100,7 @@ Specifies the error value of interest. These are values returned by one of the R
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="https://www.bing.com/search?q=GetLastError">GetLastError</a> information set by the 
+If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="https://msdn.microsoft.com/library/ms629690(v=VS.85).aspx">GetLastError</a> information set by the 
 <b>RasGetErrorString</b> function.
 
 <table>
@@ -183,11 +183,11 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
+<a href="https://msdn.microsoft.com/library/Aa366574(v=VS.85).aspx">GlobalAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=LoadString">LoadString</a>
+<a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>
 
 
 

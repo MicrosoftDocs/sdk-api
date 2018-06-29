@@ -114,7 +114,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 If multiple threads access the same authorization store, a call to the  <b>GetAssignedScopesPage</b> method on one of the threads might not return accurate results if the other thread modifies the store.
 
-In  JScript, the returned <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> values must be converted to the JScript <a href="https://msdn.microsoft.com/library/windows/desktop/08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object.
+In  JScript, the returned <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> values must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object.
 
 
 

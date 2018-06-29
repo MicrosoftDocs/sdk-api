@@ -51,7 +51,7 @@ req.irql:
 
 
 The
-    <b>GetLocalManagedApplications</b> function can be run on the target computer to get  a list of managed applications on that computer. The function can also be called in the context of a user to get a list of managed applications for that user. This function only returns applications that can be installed by the <a href="https://www.bing.com/search?q=Windows+Installer">Windows Installer</a>.
+    <b>GetLocalManagedApplications</b> function can be run on the target computer to get  a list of managed applications on that computer. The function can also be called in the context of a user to get a list of managed applications for that user. This function only returns applications that can be installed by the <a href="https://msdn.microsoft.com/library/Cc185688(v=VS.85).aspx">Windows Installer</a>.
 
 
 ## -parameters

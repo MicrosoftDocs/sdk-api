@@ -7,7 +7,7 @@ old-location: menurc\deletemenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\deletemenu.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: DeleteMenu, DeleteMenu function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_DeleteMenu, _win32_deletemenu_cpp, menurc.deletemenu, winui._win32_deletemenu, winuser/DeleteMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -131,12 +131,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
+The application must call the <a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/377fb2cc-5b46-481a-8222-9291e504ae2c">Example of a Clipboard Viewer</a>.
+For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
@@ -151,11 +151,11 @@ For an example, see <a href="https://msdn.microsoft.com/377fb2cc-5b46-481a-8222-
 
 
 
-<a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 
@@ -163,7 +163,7 @@ For an example, see <a href="https://msdn.microsoft.com/377fb2cc-5b46-481a-8222-
 
 
 
-<a href="https://msdn.microsoft.com/9557d6dd-44a2-4c26-b939-8ae88b48956a">RemoveMenu</a>
+<a href="https://msdn.microsoft.com/library/ms647994(v=VS.85).aspx">RemoveMenu</a>
  
 
  

@@ -77,7 +77,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<div class="alert"><b>Note</b>  When the item is no longer required, call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> to free the resources associated with the item.</div>
+<div class="alert"><b>Note</b>  When the item is no longer required, call <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> to free the resources associated with the item.</div>
 <div> </div>
 
 

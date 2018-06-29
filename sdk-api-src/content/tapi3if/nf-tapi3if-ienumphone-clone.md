@@ -131,8 +131,8 @@ The method failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/fa12508d-6224-4e11-a4a3-5ce5fff7b735">IEnumPhone</a> interface returned by <b>IEnumPhone::Clone</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/fa12508d-6224-4e11-a4a3-5ce5fff7b735">IEnumPhone</a> interface returned by <b>IEnumPhone::Clone</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
 <b>IEnumPhone</b> interface to free resources associated with it.
 
 

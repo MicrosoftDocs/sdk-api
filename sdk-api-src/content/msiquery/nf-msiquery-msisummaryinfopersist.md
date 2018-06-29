@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfopersist.htm
 old-project: Msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ This function returns UINT.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Summary Information Property Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
 
 
 

@@ -70,7 +70,7 @@ Specifies the number of subdivision segments. If the number of segments is less 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
 
@@ -84,11 +84,11 @@ If the method succeeds, the return value is D3D_OK.
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/89b9beec-ce26-4a37-b0d2-eb59f86831c0">IDirect3DDevice9::GetNPatchMode</a>
+<a href="https://msdn.microsoft.com/library/Bb174395(v=VS.85).aspx">IDirect3DDevice9::GetNPatchMode</a>
  
 
  

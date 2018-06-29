@@ -7,7 +7,7 @@ old-location: edp\srpgetenterprisepolicy.htm
 old-project: EDP
 ms.assetid: BF31E36C-756E-4B4A-959B-4BA7517427CB
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy
 ms.prod: windows
 ms.technology: windows-sdk

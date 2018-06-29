@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # TRefPointerCollection::Add
@@ -86,7 +86,7 @@ If the method fails, it returns <b>FALSE</b>.
 
 
 
-The <b>Add</b> method calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on this pointer.
+The <b>Add</b> method calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on this pointer.
 
 
 

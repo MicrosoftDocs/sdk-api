@@ -66,7 +66,7 @@ Request context.
 
 ### -param error [in]
 
-An instance of a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> class.
+An instance of a <a href="https://msdn.microsoft.com/e57636aa-6e04-4159-8fe1-5cc14d193891">CIM_Error</a> class.
 
 
 ### -param flag [out]
@@ -97,7 +97,7 @@ A provider calls this function to send a CIM error instance to the client.  This
 
 
 
-<a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a>
+<a href="https://msdn.microsoft.com/e57636aa-6e04-4159-8fe1-5cc14d193891">CIM_Error</a>
 
 
 

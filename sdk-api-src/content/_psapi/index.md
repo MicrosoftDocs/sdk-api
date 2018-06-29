@@ -2,7 +2,7 @@
 UID: TP:psapi
 ms.assetid: 957b2319-c806-3914-844e-95dc41196ab4
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

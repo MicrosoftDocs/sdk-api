@@ -197,7 +197,7 @@ This method creates a copy of the range that it can use to restore the data in <
 
 
 
-<a href="https://www.bing.com/search?q=Ranges:+Clones+and+Backups">Ranges: Clones and Backups</a>
+<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
  
 
  

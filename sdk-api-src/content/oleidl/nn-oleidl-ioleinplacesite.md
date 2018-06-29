@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite.htm
 old-project: com
 ms.assetid: 6d37e022-8c19-48b3-affb-e0eca19b5e05
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceSite, IOleInPlaceSite interface [COM], IOleInPlaceSite interface [COM],described, _ole_ioleinplacesite, com.ioleinplacesite, oleidl/IOleInPlaceSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceSite interface

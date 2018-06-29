@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _formatrange structure
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> message.
+Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> message.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ An HDC for the target device to format for.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
 
-A HDC for the device to render to, if <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> is being used to send the output to a device.
+A HDC for the device to render to, if <a href="https://msdn.microsoft.com/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a> is being used to send the output to a device.
 
 
 ### -field rc
@@ -89,7 +89,7 @@ The entire area of a page on the rendering device. Units are measured in twips.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a></b>
 
 The range of characters to format.
 
@@ -111,7 +111,7 @@ The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a>
+<a href="https://msdn.microsoft.com/library/Bb788020(v=VS.85).aspx">EM_FORMATRANGE</a>
  
 
  

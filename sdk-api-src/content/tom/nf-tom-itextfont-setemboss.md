@@ -63,7 +63,7 @@ Sets whether characters are embossed.
 
 Type: <b>long</b>
 
-A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that can be one of the following.
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -162,11 +162,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/eeb1d10d-c326-4052-813b-ee435b88e835">GetEmboss</a>
+<a href="https://msdn.microsoft.com/library/Bb773945(v=VS.85).aspx">GetEmboss</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -174,7 +174,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

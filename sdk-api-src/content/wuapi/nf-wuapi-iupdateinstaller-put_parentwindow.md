@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-This property can be changed only by a user on the computer. This property can be accessed by using the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
+This property can be changed only by a user on the computer. This property can be accessed by using the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
 
 
 

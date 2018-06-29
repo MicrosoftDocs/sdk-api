@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescription::GetPropertyKey
@@ -61,9 +61,9 @@ Gets a structure that acts as a property's unique identifier.
 
 ### -param pkey [out]
 
-Type: <b><a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure.
+When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <a href="https://www.bing.com/search?q=propertyDescription">propertyDescription</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <a href="https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx">propertyDescription</a> element in the property's .propdesc file.
 
 
 
@@ -91,7 +91,7 @@ The information retrieved by this method comes from the <a href="https://www.bin
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

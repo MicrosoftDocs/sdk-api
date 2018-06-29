@@ -141,8 +141,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface returned by this method. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a> interface returned by this method. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
 <b>ITAddress</b> interface to free resources associated with it.
 
 

@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_move.htm
 old-project: tablet
 ms.assetid: a5cba79f-2ae8-43ed-bef5-1ec86da9470a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC],Move method, IInkRenderer.Move, IInkRenderer::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkRenderer interface, a5cba79f-2ae8-43ed-bef5-1ec86da9470a, msinkaut/IInkRenderer::Move, tablet.inkrenderer_move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms699463(v=vs.85).aspx">IInkRenderer</a>
+<a href="tablet.iinkrenderer">IInkRenderer</a>
 
 
 

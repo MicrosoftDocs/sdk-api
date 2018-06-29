@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/15ec26a1-645b-4a96-af66-1031e1a46c6c">DTM_GETIDEALSIZE</a> message explicitly.
+Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761757(v=VS.85).aspx">DTM_GETIDEALSIZE</a> message explicitly.
 
 
 ## -parameters

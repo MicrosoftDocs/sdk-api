@@ -126,7 +126,7 @@ Sends OOB data (stream-style socket such as SOCK_STREAM only.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEACCES">WSAEACCES</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -161,7 +161,7 @@ The requested address is a broadcast address, but the appropriate flag was not s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINTR">WSAEINTR</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -173,7 +173,7 @@ A blocking Windows Sockets 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -184,7 +184,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -195,7 +195,7 @@ The <i>buf</i> parameter is not completely contained in a valid part of the user
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETRESET">WSAENETRESET</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -206,7 +206,7 @@ The connection has been broken due to the keep-alive activity detecting a failur
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENOBUFS">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -217,7 +217,7 @@ No buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENOTCONN">WSAENOTCONN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -228,7 +228,7 @@ The socket is not connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -239,7 +239,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -250,7 +250,7 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAESHUTDOWN">WSAESHUTDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAESHUTDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -262,7 +262,7 @@ The socket has been shut down; it is not possible to send on a socket after
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEWOULDBLOCK">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -273,7 +273,7 @@ The socket is marked as nonblocking and the requested operation would block.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEMSGSIZE">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -284,7 +284,7 @@ The socket is message oriented, and the message is larger than the maximum suppo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEHOSTUNREACH">WSAEHOSTUNREACH</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEHOSTUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -295,7 +295,7 @@ The remote host cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -307,7 +307,7 @@ The socket has not been bound with
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAECONNABORTED">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -318,7 +318,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAECONNRESET">WSAECONNRESET</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -329,7 +329,7 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAETIMEDOUT">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -351,7 +351,7 @@ The
 <b>send</b> function is used to write outgoing data on a connected socket. 
 
 For message-oriented sockets (address family of <b>AF_INET</b> or <b>AF_INET6</b>, type of <b>SOCK_DGRAM</b>, and protocol of <b>IPPROTO_UDP</b>, for example), care must be taken not to exceed the maximum packet size of the underlying provider. The maximum message packet size for a provider can be obtained by calling <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> with the <i>optname</i> parameter set to <b>SO_MAX_MSG_SIZE</b> to retrieve the value of socket option. If the data is too long to pass atomically through the underlying protocol, the error 
-<a href="https://www.bing.com/search?q=WSAEMSGSIZE">WSAEMSGSIZE</a> is returned, and no data is transmitted.
+<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a> is returned, and no data is transmitted.
 
 The successful completion of a 
 <b>send</b> function does not indicate that the data was successfully delivered and received to the recipient. This function only indicates the data was successfully sent. 

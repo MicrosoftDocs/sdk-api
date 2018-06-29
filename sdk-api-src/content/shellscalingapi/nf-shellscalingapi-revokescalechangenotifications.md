@@ -7,7 +7,7 @@ old-location: shell\RevokeScaleChangeNotifications.htm
 old-project: shell
 ms.assetid: 95F1D147-D364-4b11-AE2B-CD1FCEA07B5D
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
 ms.prod: windows
 ms.technology: windows-sdk

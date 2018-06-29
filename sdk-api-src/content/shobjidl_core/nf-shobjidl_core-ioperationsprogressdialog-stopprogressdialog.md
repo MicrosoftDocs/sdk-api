@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_StopProgressDialog.htm
 old-project: shell
 ms.assetid: 1033b197-f11c-49ed-8186-914c1cb04250
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StopProgressDialog method, IOperationsProgressDialog.StopProgressDialog, IOperationsProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StopProgressDialog, shell.IOperationsProgressDialog_StopProgressDialog, shobjidl_core/IOperationsProgressDialog::StopProgressDialog
 ms.prod: windows
 ms.technology: windows-sdk

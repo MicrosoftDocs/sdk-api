@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_realtimestylusdisabled.htm
 old-project: tablet
 ms.assetid: 62425c21-62fb-4a29-b024-8d5dc237b430
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 62425c21-62fb-4a29-b024-8d5dc237b430, IStylusPlugin interface [Tablet PC],RealTimeStylusDisabled method, IStylusPlugin.RealTimeStylusDisabled, IStylusPlugin::RealTimeStylusDisabled, RealTimeStylusDisabled, RealTimeStylusDisabled method [Tablet PC], RealTimeStylusDisabled method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::RealTimeStylusDisabled, tablet.istylusplugin_realtimestylusdisabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IStylusPlugin::RealTimeStylusDisabled

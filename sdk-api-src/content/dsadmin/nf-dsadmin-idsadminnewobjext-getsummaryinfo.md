@@ -60,7 +60,7 @@ The <b>IDsAdminNewObjExt::GetSummaryInfo</b> method obtains a string that contai
 
 ### -param pBstrText [out]
 
-A pointer to a <b>BSTR</b> value that receives the summary text. To allocate this value, call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The caller must free this memory by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+A pointer to a <b>BSTR</b> value that receives the summary text. To allocate this value, call <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The caller must free this memory by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 ## -returns
@@ -90,11 +90,11 @@ Support of this method is optional. If the extension does not supply summary inf
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

@@ -77,9 +77,9 @@ The maximum number of back buffer frames that a driver can queue. The value is t
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>).
+Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="https://msdn.microsoft.com/library/Bb172554(v=VS.85).aspx">D3DERR</a>).
 
 
 
@@ -100,7 +100,7 @@ It is often beneficial for applications that have no user input (for example, vi
 
 
 
-<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
  
 
  

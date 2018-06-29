@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Retrieves the binary data of a property using an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a>. 
+Retrieves the binary data of a property using an <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>. 
 
 
 ## -parameters
@@ -98,7 +98,7 @@ On failure, contains the required size for <i>pszContentType</i>.
 
 Type: <b>IStream**</b>
 
-On success, contains a new <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a>. Use this to retrieve the binary data. 
+On success, contains a new <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>. Use this to retrieve the binary data. 
 
 
 ## -returns
@@ -121,7 +121,7 @@ Returns one of the following values:
 </dl>
 </td>
 <td width="60%">
-<i>ppStream</i> contains an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a>.  
+<i>ppStream</i> contains an <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>.  
 					Caller must release the reference. 
 
 </td>
@@ -187,7 +187,7 @@ To retrieve a single level property, set <i>pszPropertyName</i> to the property 
 
 To retrieve a value from a multi-value (hierarchical) property, include the desired index as part of <i>pszPropertyName</i> using the form: toplevel/secondlevel[1]/thirdlevel. NOTE: the first element of a set is index 1, so index [0] is invalid.
 
-For deleted properties, this method returns S_OK and an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa380034.aspx">IStream interface [Structured Storage]</a> of zero length. NOTE: For properties not of binary type, this method may return incorrect data in the IStream.
+For deleted properties, this method returns S_OK and an <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> of zero length. NOTE: For properties not of binary type, this method may return incorrect data in the IStream.
 
 
 

@@ -7,7 +7,7 @@ old-location: com\iviewobject_setadvise.htm
 old-project: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ADVF_ONLYONCE, ADVF_PRIMEFIRST, IViewObject interface [COM],SetAdvise method, IViewObject.SetAdvise, IViewObject::SetAdvise, SetAdvise, SetAdvise method [COM], SetAdvise method [COM],IViewObject interface, _ole_iviewobject_setadvise, com.iviewobject_setadvise, oleidl/IViewObject::SetAdvise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IViewObject::SetAdvise

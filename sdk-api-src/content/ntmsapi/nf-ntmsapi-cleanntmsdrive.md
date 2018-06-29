@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CleanNtmsDrive function
@@ -218,7 +218,7 @@ Queued cleaning requests are deleted when the service is restarted.
 
 
 
-<a href="https://www.bing.com/search?q=Cleaner+Management+Functions">Cleaner Management Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
 
 
 

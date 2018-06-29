@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # UpdateNtmsOmidInfo function
@@ -254,7 +254,7 @@ RSM uses this file system info as the OMID. The format utilities (LDM, explorer,
 
 
 
-<a href="https://www.bing.com/search?q=On-Media-Identifier+Management+Functions">On-Media-Identifier Management Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">On-Media-Identifier Management Functions</a>
  
 
  

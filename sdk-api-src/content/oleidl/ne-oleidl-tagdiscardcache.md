@@ -7,7 +7,7 @@ old-location: com\discardcache.htm
 old-project: com
 ms.assetid: 879caecd-8231-449b-8329-e627c85030bf
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: DISCARDCACHE, DISCARDCACHE enumeration [COM], DISCARDCACHE_NOSAVE, DISCARDCACHE_SAVEIFDIRTY, _ole_DISCARDCACHE, com.discardcache, oleidl/DISCARDCACHE, oleidl/DISCARDCACHE_NOSAVE, oleidl/DISCARDCACHE_SAVEIFDIRTY, tagDISCARDCACHE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagDISCARDCACHE enumeration

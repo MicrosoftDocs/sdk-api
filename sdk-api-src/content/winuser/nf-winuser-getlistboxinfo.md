@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -82,7 +82,7 @@ The return value is the number of items per column.
 
 
 
-<a href="https://msdn.microsoft.com/f7553df7-4309-49fc-9e4a-da9063e6b042">GetComboBoxInfo</a>
+<a href="https://msdn.microsoft.com/library/Bb775939(v=VS.85).aspx">GetComboBoxInfo</a>
  
 
  

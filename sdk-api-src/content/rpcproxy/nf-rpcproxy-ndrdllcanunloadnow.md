@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrDllCanUnloadNow function
@@ -61,7 +61,7 @@ The <b>NdrDllCanUnloadNow</b> function determines whether the DLL that implement
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h. 
+Pointer to the <a href="https://msdn.microsoft.com/library/ms695281(v=VS.85).aspx">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h. 
 
 
 ## -returns

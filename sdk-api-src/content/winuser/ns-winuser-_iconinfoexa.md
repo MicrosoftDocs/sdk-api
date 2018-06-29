@@ -7,7 +7,7 @@ old-location: menurc\iconinfoex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconinfoex.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: "*PICONINFOEXA, ICONINFOEX, ICONINFOEX structure [Menus and Other Resources], ICONINFOEXA, ICONINFOEXW, _ICONINFOEXA, _win32_ICONINFOEX, _win32_iconinfoex_cpp, menurc.iconinfoex, winui._win32_iconinfoex, winuser/ICONINFOEX, winuser/ICONINFOEXA, winuser/ICONINFOEXW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about an icon or a cursor. Extends <a href="https://msdn.microsoft.com/55559fac-b561-4fd0-98e6-bbb6fc610033">ICONINFO</a>. Used by <a href="https://msdn.microsoft.com/35af881a-0ae8-4fe2-be3f-d07b586f52ef">GetIconInfoEx</a>.
+Contains information about an icon or a cursor. Extends <a href="https://msdn.microsoft.com/library/ms648052(v=VS.85).aspx">ICONINFO</a>. Used by <a href="https://msdn.microsoft.com/library/ms648071(v=VS.85).aspx">GetIconInfoEx</a>.
 
 
 ## -struct-fields
@@ -107,7 +107,7 @@ A handle to the icon color bitmap. This member can be optional if this structure
 
 Type: <b>WORD</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/5ab25565-30a5-4d4f-bf41-2ce3948d6f2f">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> functions.
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://msdn.microsoft.com/library/ms648074(v=VS.85).aspx">LookupIconIdFromDirectoryEx</a> and <a href="https://msdn.microsoft.com/library/ms648046(v=VS.85).aspx">LoadResource</a> functions.
 
 
 ### -field szModName
@@ -133,15 +133,15 @@ The fully qualified path of the resource.
 
 
 
-<a href="https://msdn.microsoft.com/adef864c-22f5-4d72-adc7-02d9b7a09e86">CreateIconIndirect</a>
+<a href="https://msdn.microsoft.com/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/94cc619b-1ca8-4268-9af3-d10d221e093e">GetIconInfo</a>
+<a href="https://msdn.microsoft.com/library/ms648070(v=VS.85).aspx">GetIconInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
+<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 

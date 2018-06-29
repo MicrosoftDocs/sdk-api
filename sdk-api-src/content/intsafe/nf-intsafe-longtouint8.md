@@ -7,7 +7,7 @@ old-location: shell\LongToUInt8.htm
 old-project: shell
 ms.assetid: 46b20b7c-f822-4521-8598-73193da67d2c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: LongToByte, LongToUInt8, LongToUInt8 function [Windows Shell], intsafe/LongToUInt8, shell.LongToUInt8
 ms.prod: windows
 ms.technology: windows-sdk

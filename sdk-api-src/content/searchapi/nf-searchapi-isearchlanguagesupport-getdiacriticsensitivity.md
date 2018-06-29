@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchLanguageSupport::GetDiacriticSensitivity
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets the sensitivity of an implemented <a href="https://msdn.microsoft.com/a1d1f2e2-c11d-4774-b15f-5a67ce9d5340">ISearchLanguageSupport</a> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
+Gets the sensitivity of an implemented <a href="https://msdn.microsoft.com/library/Bb266440(v=VS.85).aspx">ISearchLanguageSupport</a> interface to diacritics.  A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 
 
 ## -parameters

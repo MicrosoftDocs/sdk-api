@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension_AddPages.htm
 old-project: shell
 ms.assetid: 2d9a5012-3b5e-4e55-984b-70a932bab569
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],AddPages method, IWizardExtension.AddPages, IWizardExtension::AddPages, _shell_IWizardExtension_AddPages, shell.IWizardExtension_AddPages, shobjidl/IWizardExtension::AddPages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 6.01
 ## -description
 
 
-Adds extension pages to the wizard by filling an array with handles to <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structures representing those pages.
+Adds extension pages to the wizard by filling an array with handles to <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures representing those pages.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Adds extension pages to the wizard by filling an array with handles to <a href="
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> handles that represent the wizard dialog pages. Handles to <b>PROPSHEETPAGE</b> structures for the extension pages are added to this array.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handles that represent the wizard dialog pages. Handles to <b>PROPSHEETPAGE</b> structures for the extension pages are added to this array.
 
 
 ### -param cPages [in]
@@ -112,7 +112,7 @@ g_iwe-&gt;AddPages(&amp;hpages[2], ARRAYSIZE(hpages)-2, &amp;nPages);</pre>
 </td>
 </tr>
 </table></span></div>
-Do not confuse wizard pages, which are <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structures, with hosted HTML pages. One wizard dialog page can host many sequential HTML pages. This method supplies the number of wizard dialog pages added by the wizard extension, not the number of server-side HTML pages which are displayed in it.
+Do not confuse wizard pages, which are <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structures, with hosted HTML pages. One wizard dialog page can host many sequential HTML pages. This method supplies the number of wizard dialog pages added by the wizard extension, not the number of server-side HTML pages which are displayed in it.
 
 
 

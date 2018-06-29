@@ -7,7 +7,7 @@ old-location: shell\PathCchRemoveFileSpec.htm
 old-project: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PathCchRemoveFileSpec function

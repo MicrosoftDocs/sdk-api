@@ -7,7 +7,7 @@ old-location: com\ipropertypagesite_getlocaleid.htm
 old-project: com
 ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetLocaleID, GetLocaleID method [COM], GetLocaleID method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetLocaleID method, IPropertyPageSite.GetLocaleID, IPropertyPageSite::GetLocaleID, _ctrl_ipropertypagesite_getlocaleid, com.ipropertypagesite_getlocaleid, ocidl/IPropertyPageSite::GetLocaleID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyPageSite::GetLocaleID

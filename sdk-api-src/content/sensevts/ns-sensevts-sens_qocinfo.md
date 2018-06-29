@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SENS_QOCINFO structure
@@ -90,11 +90,11 @@ Speed of data coming in from the destination in bits per second.
 
 
 
-<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
 
 
 
-<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

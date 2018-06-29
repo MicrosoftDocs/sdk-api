@@ -7,7 +7,7 @@ old-location: gpmc\igpmresult_overallstatus.htm
 old-project: GPMC
 ms.assetid: 814c59b7-47bc-4757-997e-95ca578f544a
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMResult class [GPMC],OverallStatus method, IGPMResult interface [GPMC],OverallStatus method, IGPMResult.OverallStatus, IGPMResult::OverallStatus, OverallStatus, OverallStatus method [GPMC], OverallStatus method [GPMC],GPMResult class, OverallStatus method [GPMC],IGPMResult interface, _win32_igpmresult_overallstatus, gpmc.igpmresult_overallstatus, gpmgmt/IGPMResult::OverallStatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -120,7 +120,7 @@ Pointer to an
 If the function succeeds, the return value is a handle for use with the service enumeration function.
 
 A <b>NULL</b> handle indicates no services exists with the specified criteria, or that the operation failed. For more information, call 
-<a href="https://www.bing.com/search?q=GetLastError">GetLastError</a> and check the error code against the table below.
+<a href="https://msdn.microsoft.com/library/ms629690(v=VS.85).aspx">GetLastError</a> and check the error code against the table below.
 
 <table>
 <tr>
@@ -172,7 +172,7 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://www.bing.com/search?q=GetLastError">GetLastError</a>
+<a href="https://msdn.microsoft.com/library/ms629690(v=VS.85).aspx">GetLastError</a>
 
 
 

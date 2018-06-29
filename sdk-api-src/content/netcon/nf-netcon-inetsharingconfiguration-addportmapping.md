@@ -113,13 +113,13 @@ Pointer to a pointer that, on successful return, points to an
 #### - pszwName [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a> variable that contains the name for this port mapping.
+<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name for this port mapping.
 
 
 #### - pszwTargetNameOrIPAddress [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a> variable that contains the name of the target computer for this port mapping. Specify either the target name or the target IP address, but not both.
+<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name of the target computer for this port mapping. Specify either the target name or the target IP address, but not both.
 
 
 ## -returns

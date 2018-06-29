@@ -7,7 +7,7 @@ old-location: gpmc\igpmwmifiltercollection.htm
 old-project: GPMC
 ms.assetid: 8f65e6f6-fca3-46b7-aa0d-804470feb5bb
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterCollection interface [GPMC], IGPMWMIFilterCollection interface [GPMC],described, _win32_igpmwmifiltercollection, gpmc.igpmwmifiltercollection, gpmgmt/IGPMWMIFilterCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMWMIFilterCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMWMIFilterCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMWMIFilterCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMWMIFilterCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -120,7 +120,7 @@ A specific WMI filter from the collection.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

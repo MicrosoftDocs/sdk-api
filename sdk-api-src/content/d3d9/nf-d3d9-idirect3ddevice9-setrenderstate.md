@@ -70,14 +70,14 @@ Device state variable that is being modified. This parameter can be any member o
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-New value for the device render state to be set. The meaning of this parameter is dependent on the value specified for <i>State</i>. For example, if <i>State</i> were D3DRS_SHADEMODE, the second parameter would be one member of the <a href="https://msdn.microsoft.com/ba4e0c62-b496-427b-a324-2fb560d153ba">D3DSHADEMODE</a> enumerated type. 
+New value for the device render state to be set. The meaning of this parameter is dependent on the value specified for <i>State</i>. For example, if <i>State</i> were D3DRS_SHADEMODE, the second parameter would be one member of the <a href="https://msdn.microsoft.com/library/Bb172605(v=VS.85).aspx">D3DSHADEMODE</a> enumerated type. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if one of the arguments is invalid.
 
@@ -89,15 +89,15 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ec6a1fd-d310-4316-a9e6-60378320ea12">IDirect3DDevice9::GetRenderState</a>
+<a href="https://msdn.microsoft.com/library/Bb174403(v=VS.85).aspx">IDirect3DDevice9::GetRenderState</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc94280-131f-47e8-8dd7-cea43dc6e6da">IDirect3DDevice9::SetTransform</a>
+<a href="https://msdn.microsoft.com/library/Bb174463(v=VS.85).aspx">IDirect3DDevice9::SetTransform</a>
  
 
  

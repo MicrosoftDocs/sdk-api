@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrClientCall2 function
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://www.bing.com/search?q=/Oicf">/Oicf</a> mode stub.
+The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall2</b> function is used by all <a href="https://www.bing.com/search?q=/Oicf">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 

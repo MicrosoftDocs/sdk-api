@@ -188,7 +188,7 @@ This member is optional and can be <b>NULL</b> if no value is available. If it i
 
 ### -field pwszName
 
-The name used to open a handle to an object created using the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> 
+The name used to open a handle to an object created using the <a href="base.createfile">CreateFile</a> 
       function. For example:
       
 

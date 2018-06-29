@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdescription.htm
 old-project: devinst
 ms.assetid: a9757c77-f873-4f75-be80-c4bd1d327299
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetClassDescription, SetupDiGetClassDescription function [Device and Driver Installation], SetupDiGetClassDescriptionA, SetupDiGetClassDescriptionW, devinst.setupdigetclassdescription, di-rtns_90458b4a-959d-4344-ae06-c88cbdbbfbdf.xml, setupapi/SetupDiGetClassDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetClassDescriptionW function

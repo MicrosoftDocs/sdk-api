@@ -7,7 +7,7 @@ old-location: shell\IPublishedApp2.htm
 old-project: shell
 ms.assetid: 07d10120-7a91-4ed8-a0af-6ebac10622e3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IPublishedApp2, IPublishedApp2 interface [Windows Shell], IPublishedApp2 interface [Windows Shell],described, _shell_IPublishedApp2, shappmgr/IPublishedApp2, shell.IPublishedApp2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPublishedApp2 interface

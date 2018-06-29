@@ -2,13 +2,13 @@
 UID: NN:wsmandisp.IWSManEnumerator
 title: IWSManEnumerator
 author: windows-sdk-content
-description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.
-old-location: winrm\iwsmanenumerator.htm
+description: Represents a stream of results returned from operations, such as a Pull operation.
+old-location: winrm\enumerator.htm
 old-project: WinRM
-ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
+ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
-ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
+ms.date: 06/08/2018
+ms.keywords: Enumerator, Enumerator object [Windows Remote Management], Enumerator object [Windows Remote Management],described, IWSManEnumerator, winrm.enumerator, wsman.enumerator, wsmandisp/Enumerator
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
+ - Enumerator
  - IWSManEnumerator
 product: Windows
 targetos: Windows
@@ -51,14 +52,12 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-    Represents a stream of results returned from  operations such as a WS-Management protocol <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">WS-Enumeration</a>:Enumerate operation.
-   
+Represents a stream of results returned from operations, such as a Pull operation. For example, the <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a> method returns multiple results.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEnumerator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWSManEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Enumerator</b> object has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -66,7 +65,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEnumerator</b> interfac
 
 ## -members
 
-The <b>IWSManEnumerator</b> interface has these methods.
+The <b>Enumerator</b> object has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
@@ -74,46 +73,37 @@ The <b>IWSManEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b181a4b-347c-4874-969c-9ca7d36ec788">ReadItem</a>
+<a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">ReadItem</a>
 </td>
 <td align="left" width="63%">
-Retrieves an item from the  resource and  returns an XML representation of the item.
+Retrieves an item from the resource and  returns an XML representation of the item.
 
 </td>
 </tr>
 </table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEnumerator</b> interface has these properties.
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Enumerator</b> object has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
 <th align="left" width="63%">Description</th>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d80028b0-04ff-4c6d-90f5-1c81141a956c">AtEndOfStream</a>
+<a href="https://msdn.microsoft.com/5e80674a-7889-4753-b0dd-4d7b44eba00a">AtEndOfStream</a>
 
-
-</td>
-<td align="left" width="10%">
-Read-only
 
 </td>
 <td align="left" width="63%">
-Indicates that the end of items in the <b>IWSManEnumerator</b> object has been reached by calls to <a href="https://msdn.microsoft.com/6b181a4b-347c-4874-969c-9ca7d36ec788">IWSManEnumerator::ReadItem</a>.
+Gets a Boolean value that indicates whether there are more items in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/21157b6b-3cbd-4fe5-8df0-470b2a2c87d7">Error</a>
+<a href="https://msdn.microsoft.com/08a6307b-3ed5-4d7f-aa22-a666d64371b5">Error</a>
 
-
-</td>
-<td align="left" width="10%">
-Read-only
 
 </td>
 <td align="left" width="63%">
@@ -128,12 +118,57 @@ Gets an XML representation of additional error information.
 
 
 
-The corresponding scripting object is <a href="https://msdn.microsoft.com/8d8b461d-06a7-4600-8b68-2faf741a394b">Enumerator</a>.
+To start an enumeration, use <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a>. To do a <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">WS-Enumeration:</a><a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">Pull</a> operation that continues reading items in the enumeration, use <a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">Enumerator.ReadItem</a>.
 
-To limit the number of items that are read, set the <a href="https://msdn.microsoft.com/883fc265-b84e-4757-a9b1-8c52174cb701">IWSManSession::BatchItems</a> property.
+The <b>Enumerator</b> object corresponds to the  <a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a> interface.
 
-Be aware that freeing the enumeration object clears pending enumeration requests.
 
+#### Examples
+
+The following VBScript code example enumerates all the disks on a remote computer specified by the fully qualified domain name (servername.domain.com). The DisplayOutput subroutine formats the data output in the same way as the WinRM.cmd tool.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Option Explicit
+
+Const RemoteComputer = "MIG50-64D.mig.net"
+
+Dim objWsman, objSession, strResource
+Dim objResultSet
+
+Set objWsman = CreateObject( "WSMan.Automation" )
+Set objSession = objWsman.CreateSession( "http://" _
+    &amp; RemoteComputer )
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" _
+     &amp; "wmi/root/cimv2/Win32_OperatingSystem"
+Dim iFlag
+iFlag = objWsman.EnumerationFlagReturnObjectAndEPR or _
+    objWsman.EnumerationFlagHierarchyDeep
+Set objResultSet = _
+    objSession.Enumerate( strResource, "", "",  iFlag)
+While Not objResultSet.AtEndOfStream
+    DisplayOutput( objResultSet.ReadItem ) 
+Wend
+
+
+'****************************************************
+' Displays WinRM XML message using built-in XSL
+'****************************************************
+Sub DisplayOutput( strWinRMXml )
+    Dim xmlFile, xslFile
+    Set xmlFile = CreateObject( "MSXml2.DOMDocument.3.0" ) 
+    Set xslFile = CreateObject( "MSXml2.DOMDocument.3.0" )
+    xmlFile.LoadXml( strWinRMXml )
+    xslFile.Load( "WsmTxt.xsl" )
+    Wscript.Echo xmlFile.TransformNode( xslFile ) 
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -142,7 +177,15 @@ Be aware that freeing the enumeration object clears pending enumeration requests
 
 
 
-<a href="https://msdn.microsoft.com/c996f074-f14b-4edd-80b7-8f4de4cbabb0">Windows Remote Management Reference</a>
+<a href="https://msdn.microsoft.com/c50c37bf-e19a-473b-8d27-ab3bb4ec86a0">Enumerating or Listing All of the Instances of a Resource</a>
+
+
+
+<a href="https://msdn.microsoft.com/fda2042a-8fca-4cd8-bb55-fd1c3591921e">Scripting in Windows Remote Management</a>
+
+
+
+<a href="https://msdn.microsoft.com/bd642669-554f-40ab-bd40-235013afa077">WinRM Scripting API</a>
  
 
  

@@ -85,7 +85,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
@@ -93,19 +93,19 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/7c2bfe54-3259-40d6-9eb4-1a8ad3dda477">Filling a Shape with a Hatch Pattern</a>
+<a href="https://msdn.microsoft.com/library/ms533857(v=VS.85).aspx">Filling a Shape with a Hatch Pattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>
+<a href="https://msdn.microsoft.com/library/ms534459(v=VS.85).aspx">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/00ed2e23-ab29-488e-a509-0ba84ad05bcc">HatchBrush::GetForegroundColor</a>
+<a href="https://msdn.microsoft.com/library/ms535448(v=VS.85).aspx">HatchBrush::GetForegroundColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/6321a75f-99cf-4e63-b498-168d4a8bb950">HatchStyle</a>
+<a href="https://msdn.microsoft.com/library/ms534127(v=VS.85).aspx">HatchStyle</a>
  
 
  

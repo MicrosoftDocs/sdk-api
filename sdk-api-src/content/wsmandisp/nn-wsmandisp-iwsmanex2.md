@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex2.htm
 old-project: WinRM
 ms.assetid: 4c398e10-3822-4042-8a43-1d7889ae6cac
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManEx2, IWSManEx2 interface [Windows Remote Management], IWSManEx2 interface [Windows Remote Management],described, winrm.iwsmanex2, wsmandisp/IWSManEx2
 ms.prod: windows
 ms.technology: windows-sdk

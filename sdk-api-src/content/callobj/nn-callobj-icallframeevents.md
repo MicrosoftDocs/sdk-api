@@ -7,7 +7,7 @@ old-location: com\icallframeevents.htm
 old-project: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Delivers method call notifications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameEvents</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ICallFrameEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallFrameEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

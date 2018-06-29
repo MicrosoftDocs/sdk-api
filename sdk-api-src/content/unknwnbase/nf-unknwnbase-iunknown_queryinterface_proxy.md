@@ -53,7 +53,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[IUnknown_QueryInterface_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>IUnknown_QueryInterface_Proxy</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method for all interface proxies.
+The <b>IUnknown_QueryInterface_Proxy</b> function implements the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method for all interface proxies.
 
 
 ## -parameters

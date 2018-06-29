@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrGetUserMarshalInfo function
@@ -146,11 +146,11 @@ For a full listing of the information returned by
 
 
 
-<a href="https://www.bing.com/search?q=user_marshal">user_marshal</a>
+<a href="https://msdn.microsoft.com/">user_marshal</a>
 
 
 
-<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a>
+<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>
  
 
  

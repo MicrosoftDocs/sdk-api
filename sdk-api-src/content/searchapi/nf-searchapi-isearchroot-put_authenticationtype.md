@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchRoot::put_AuthenticationType
@@ -61,9 +61,9 @@ Sets the type of authentication required to access the URLs under this search ro
 
 ### -param authType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a> enumeration that indicates the authentication type.
+A value from the <a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type.
 
 
 ## -returns

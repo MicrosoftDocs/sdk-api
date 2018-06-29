@@ -7,7 +7,7 @@ old-location: com\ifont_isequal.htm
 old-project: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IFont::IsEqual

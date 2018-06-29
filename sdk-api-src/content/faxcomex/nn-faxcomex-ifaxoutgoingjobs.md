@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjobs_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62yb_cpp.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: IFaxOutgoingJobs, IFaxOutgoingJobs interface [Fax Service], IFaxOutgoingJobs interface [Fax Service],described, _mfax_faxoutgoingjobs_cpp, fax._mfax_faxoutgoingjobs_cpp, faxcomex/IFaxOutgoingJobs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingJobs</b> interface describes a messaging collection that is used by a fax client application to manage the outbound fax jobs in a fax server's job queue. Each outbound job is represented by a <a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a> interface.
+The <b>IFaxOutgoingJobs</b> interface describes a messaging collection that is used by a fax client application to manage the outbound fax jobs in a fax server's job queue. Each outbound job is represented by a <a href="https://msdn.microsoft.com/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingJobs</b> interface inherits from the <a href="http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxOutgoingJobs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingJobs</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutgoingJobs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,19 +72,19 @@ The <b>IFaxOutgoingJobs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8293335-172e-4440-a7da-3e1f38a7e0b7">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/library/ms688558(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d8293335-172e-4440-a7da-3e1f38a7e0b7">IFaxOutgoingJobs::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxOutgoingJobs</b> collection.
+The <a href="https://msdn.microsoft.com/library/ms688558(v=VS.85).aspx">IFaxOutgoingJobs::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <b>IFaxOutgoingJobs</b> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c0077a4-7b80-454e-885b-c78ff3e94f26">get_Item</a>
+<a href="https://msdn.microsoft.com/library/ms689514(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6c0077a4-7b80-454e-885b-c78ff3e94f26">IFaxOutgoingJobs::get_Item</a> method returns a <a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a> interface from the <b>IFaxOutgoingJobs</b> interface.
+The <a href="https://msdn.microsoft.com/library/ms689514(v=VS.85).aspx">IFaxOutgoingJobs::get_Item</a> method returns a <a href="https://msdn.microsoft.com/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a> interface from the <b>IFaxOutgoingJobs</b> interface.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/904de452-446a-4dbf-9d32-b83f26a715bf">IFaxOutgoingJobs::get_Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
+The <a href="https://msdn.microsoft.com/library/ms689537(v=VS.85).aspx">IFaxOutgoingJobs::get_Count</a> property represents the number of objects in the <a href="https://msdn.microsoft.com/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The <a href="https://msdn.microsoft.com/904de452-446a-4dbf-9d32-b83f26a715bf">IF
 
 
 
-A default implementation of <b>IFaxOutgoingJobs</b> is provided as the <a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a> object.
+A default implementation of <b>IFaxOutgoingJobs</b> is provided as the <a href="https://msdn.microsoft.com/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a> object.
 
 
 

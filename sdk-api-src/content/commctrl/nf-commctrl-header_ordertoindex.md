@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/3c3289cc-0f47-4d02-b027-8848b7ec05d5">HDM_ORDERTOINDEX</a> message explicitly. 
+Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775355(v=VS.85).aspx">HDM_ORDERTOINDEX</a> message explicitly. 
 
 
 ## -parameters

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromDoubleVector function
@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_R8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,15 +130,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDouble">InitPropVariantFromDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb762291(v=VS.85).aspx">InitPropVariantFromDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
+<a href="https://msdn.microsoft.com/library/Bb762322(v=VS.85).aspx">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776539(v=VS.85).aspx">PropVariantToDoubleVector</a>
  
 
  

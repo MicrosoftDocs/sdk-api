@@ -54,7 +54,7 @@ req.product: Windows UI
 The <b>IVssExamineWriterMetadataEx</b> interface is a C++ (not COM) interface that provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface, passing 
    <b>IID_IVssExamineWriterMetadataEx</b> as the interface identifier (IID) parameter.
 

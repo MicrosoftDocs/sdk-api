@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRichEditOleCallback::QueryInsertObject
@@ -115,7 +115,7 @@ There was an invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/2c3ba341-f62f-4c95-9547-6d50fcf3d6b4">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
  
 
  

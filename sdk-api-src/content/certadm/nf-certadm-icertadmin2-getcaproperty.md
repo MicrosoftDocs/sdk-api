@@ -810,7 +810,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
+A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a>.
 
 
 ## -returns

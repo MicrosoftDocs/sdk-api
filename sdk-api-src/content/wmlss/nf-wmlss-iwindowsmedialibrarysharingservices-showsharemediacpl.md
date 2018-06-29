@@ -7,7 +7,7 @@ old-location: wmlss\IWMLSSshowShareMediaCPL.htm
 old-project: WMLSS
 ms.assetid: 38d185f3-f5d7-44e8-a36d-673594e3f80c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],showShareMediaCPL method, IWindowsMediaLibrarySharingServices.showShareMediaCPL, IWindowsMediaLibrarySharingServices::showShareMediaCPL, showShareMediaCPL, showShareMediaCPL method [Windows Media Library Sharing Services], showShareMediaCPL method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSshowShareMediaCPL, wmlss/IWindowsMediaLibrarySharingServices::showShareMediaCPL
 ms.prod: windows
 ms.technology: windows-sdk

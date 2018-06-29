@@ -61,7 +61,7 @@ Determines whether this text font object has the same properties as the specifie
 
 ### -param pFont
 
-Type: <b><a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>*</b>
 
 The text font object to compare against.
 
@@ -95,7 +95,7 @@ If the text font objects have the same properties, the method succeeds and retur
 
 
 
-The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUndefined</a>.
+The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUndefined</a>.
 
 
 
@@ -109,7 +109,7 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -117,7 +117,7 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

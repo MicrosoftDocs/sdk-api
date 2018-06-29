@@ -7,7 +7,7 @@ old-location: shell\IObjectArray.htm
 old-project: shell
 ms.assetid: ab0bb213-dc9c-4853-98d7-668e7ca76583
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IObjectArray interface

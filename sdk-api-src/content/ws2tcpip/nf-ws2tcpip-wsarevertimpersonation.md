@@ -78,7 +78,7 @@ Some possible error codes are listed below.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">

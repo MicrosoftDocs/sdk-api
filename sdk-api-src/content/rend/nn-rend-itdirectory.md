@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITDirectory interface
@@ -64,7 +64,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectory</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDirectory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDirectory</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITDirectory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -137,7 +137,7 @@ Creates an enumeration of directory objects of a given type and name.
 </td>
 <td align="left" width="63%">
 Gets the default 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">time to live</a> (TTL) for the objects created.
+<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) for the objects created.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Refreshes the TTL for an object on the server.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

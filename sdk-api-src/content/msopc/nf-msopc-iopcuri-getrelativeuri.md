@@ -109,7 +109,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://www.bing.com/search?q=CreateUri">CreateUri</a> function. 
+An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function. 
 
 </td>
 </tr>

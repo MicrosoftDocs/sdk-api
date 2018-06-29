@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -118,7 +118,7 @@ Using this function incorrectly might compromise the security of your program. F
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboard+Viewer">Example of a Clipboard Viewer</a>. 
+For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>. 
 
 <div class="code"></div>
 
@@ -129,7 +129,7 @@ For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboar
 
 
 
-<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
+<a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>
 
 
 
@@ -137,7 +137,7 @@ For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboar
 
 
 
-<a href="https://msdn.microsoft.com/eca6e3ca-46d1-4f1d-a13c-63542e8eb8bf">EnumClipboardFormats</a>
+<a href="https://msdn.microsoft.com/library/ms649038(v=VS.85).aspx">EnumClipboardFormats</a>
 
 
 
@@ -145,7 +145,7 @@ For an example, see <a href="https://www.bing.com/search?q=Example+of+a+Clipboar
 
 
 
-<a href="https://msdn.microsoft.com/892add91-a937-4602-86d2-5e5550a81872">RegisterClipboardFormat</a>
+<a href="https://msdn.microsoft.com/library/ms649049(v=VS.85).aspx">RegisterClipboardFormat</a>
  
 
  

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get an array of sampler states from the <a href="https://www.bing.com/search?q=geometry+shader">geometry shader</a> pipeline stage.
+Get an array of sampler states from the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader</a> pipeline stage.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ Number of samplers to get from the device. Each pipeline stage has a total of 16
 
 ### -param ppSamplers [out]
 
-Type: <b><a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>**</b>
 
-Arry of sampler-state pointers (see <a href="https://msdn.microsoft.com/5815f809-aec0-49b1-bcef-d04146551af9">ID3D10SamplerState</a>) to be returned by the device.
+Arry of sampler-state pointers (see <a href="https://msdn.microsoft.com/library/Bb173833(v=VS.85).aspx">ID3D10SamplerState</a>) to be returned by the device.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

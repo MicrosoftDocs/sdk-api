@@ -111,7 +111,7 @@ A pointer to the completion routine called when the send operation has been comp
 						If no error occurs and the send operation has completed immediately, 
 <b>WSASend</b> returns zero. In this case, the completion routine will have already been scheduled to be called once the calling thread is in the alertable state. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>. The error code 
-<a href="https://www.bing.com/search?q=WSA_IO_PENDING">WSA_IO_PENDING</a> indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that the overlapped operation was not successfully initiated and no completion indication will occur.
+<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a> indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that the overlapped operation was not successfully initiated and no completion indication will occur.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ A pointer to the completion routine called when the send operation has been comp
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAECONNABORTED">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +132,7 @@ The virtual circuit was terminated due to a time-out or other failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAECONNRESET">WSAECONNRESET</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ For a stream socket, the virtual circuit was reset by the remote side. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEFAULT">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -154,7 +154,7 @@ The <i>lpBuffers</i>, <i>lpNumberOfBytesSent</i>, <i>lpOverlapped</i>, <i>lpComp
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINTR">WSAEINTR</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ A blocking Windows Socket 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -177,7 +177,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINVAL">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -189,7 +189,7 @@ The socket has not been bound with
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEMSGSIZE">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -200,7 +200,7 @@ The socket is message oriented, and the message is larger than the maximum suppo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -211,7 +211,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETRESET">WSAENETRESET</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +222,7 @@ For a stream socket, the connection has been broken due to keep-alive activity d
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENOBUFS">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -233,7 +233,7 @@ The Windows Sockets provider reports a buffer deadlock.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENOTCONN">WSAENOTCONN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -244,7 +244,7 @@ The socket is not connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENOTSOCK">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -255,7 +255,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEOPNOTSUPP">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -266,7 +266,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAESHUTDOWN">WSAESHUTDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAESHUTDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -279,7 +279,7 @@ The socket has been shut down; it is not possible to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEWOULDBLOCK">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -292,7 +292,7 @@ Overlapped sockets: There are too many outstanding overlapped I/O requests. Nono
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -304,7 +304,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSA_IO_PENDING">WSA_IO_PENDING</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -315,7 +315,7 @@ An overlapped operation was successfully initiated and completion will be indica
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSA_OPERATION_ABORTED">WSA_OPERATION_ABORTED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_OPERATION_ABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -367,7 +367,7 @@ If this function is completed in an overlapped manner, it is the Winsock service
 <b>WSABUF</b> arrays pointed to by the <i>lpBuffers</i> parameter.
 
 For message-oriented sockets, do not exceed the maximum message size of the underlying provider, which can be obtained by getting the value of socket option <b>SO_MAX_MSG_SIZE</b>. If the data is too long to pass atomically through the underlying protocol the error 
-<a href="https://www.bing.com/search?q=WSAEMSGSIZE">WSAEMSGSIZE</a> is returned, and no data is transmitted.
+<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a> is returned, and no data is transmitted.
 
 <b>Windows Me/98/95:  </b>The <b>WSASend</b> function does not support more than 16 buffers.
 
@@ -393,7 +393,7 @@ The <i>dwFlags</i> parameter can be used to influence the behavior of the functi
 <tr>
 <td><b>MSG_PARTIAL</b></td>
 <td>Specifies that <i>lpBuffers</i> only contains a partial message. Be aware that the error code 
-<a href="https://www.bing.com/search?q=WSAEOPNOTSUPP">WSAEOPNOTSUPP</a> will be returned by transports that do not support partial message transmissions.</td>
+<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a> will be returned by transports that do not support partial message transmissions.</td>
 </tr>
 </table>
  
@@ -404,7 +404,7 @@ The <i>dwFlags</i> parameter can be used to influence the behavior of the functi
 If an overlapped operation completes immediately, 
 <b>WSASend</b> returns a value of zero and the <i>lpNumberOfBytesSent</i> parameter is updated with the number of bytes sent. If the overlapped operation is successfully initiated and will complete later, 
 <b>WSASend</b> returns SOCKET_ERROR and indicates error code 
-<a href="https://www.bing.com/search?q=WSA_IO_PENDING">WSA_IO_PENDING</a>. In this case, <i>lpNumberOfBytesSent</i> is not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in 
+<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a>. In this case, <i>lpNumberOfBytesSent</i> is not updated. When the overlapped operation completes the amount of data transferred is indicated either through the <i>cbTransferred</i> parameter in the completion routine (if specified), or through the <i>lpcbTransfer</i> parameter in 
 <a href="https://msdn.microsoft.com/3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4">WSAGetOverlappedResult</a>.
 
 <div class="alert"><b>Note</b>  All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. For more information, see <a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a>.</div>

@@ -83,7 +83,7 @@ Currently, a copy is not made of the context, and the returned context is the sa
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Revocation+List+Functions">Certificate Revocation List Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
  
 
  

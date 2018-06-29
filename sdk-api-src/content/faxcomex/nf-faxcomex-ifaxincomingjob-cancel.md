@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_cancel_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6g4s.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],Cancel method, FaxIncomingJob.Cancel, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cancel_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The <b>Cancel</b> method cancels the incoming fax job.
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_JOBS</a> access right. 
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farMANAGE_JOBS</a> access right. 
 
 
 
@@ -75,15 +75,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

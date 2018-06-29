@@ -7,7 +7,7 @@ old-location: shell\IUserNotification_SetBalloonInfo.htm
 old-project: shell
 ms.assetid: bd782a4b-fe3c-419b-ad55-ea3faf12e628
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetBalloonInfo method, IUserNotification.SetBalloonInfo, IUserNotification::SetBalloonInfo, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, SetBalloonInfo, SetBalloonInfo method [Windows Shell], SetBalloonInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetBalloonInfo, shell.IUserNotification_SetBalloonInfo, shobjidl_core/IUserNotification::SetBalloonInfo
 ms.prod: windows
 ms.technology: windows-sdk

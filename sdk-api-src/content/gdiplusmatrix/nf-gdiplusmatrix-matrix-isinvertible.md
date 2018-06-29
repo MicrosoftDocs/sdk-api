@@ -78,23 +78,23 @@ If this matrix is invertible, this method returns <b>TRUE</b>; otherwise, it ret
 
 
 
-<a href="https://msdn.microsoft.com/9f744c2a-f1f3-4a7e-ab0c-37aa1df01623">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
+<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/62215ae0-b095-42b2-911c-aa7607a8b61a">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d6ee1ae-c6b2-4dd3-a828-310f91fb9386">Matrix::Invert</a>
+<a href="https://msdn.microsoft.com/library/ms535303(v=VS.85).aspx">Matrix::Invert</a>
 
 
 
-<a href="https://msdn.microsoft.com/4acf3d70-f119-4a5b-a20d-8adea453556f">Transformations</a>
+<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
  
 
  

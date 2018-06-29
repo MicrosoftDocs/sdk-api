@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InjectNtmsCleaner function
@@ -260,7 +260,7 @@ If there is no NTMS_IEPORT object, a door access is performed. In this case, the
 
 
 
-<a href="https://www.bing.com/search?q=Cleaner+Management+Functions">Cleaner Management Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
 
 
 

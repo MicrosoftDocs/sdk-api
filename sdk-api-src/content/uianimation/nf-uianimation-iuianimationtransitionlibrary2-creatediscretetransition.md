@@ -100,7 +100,7 @@ During a discrete transition, the animation variable remains at the initial valu
 
 The following figure shows the change in value over time of an animation variable during a discrete transition.
 
-<img alt="Diagram showing a discrete transition" src="./images/DiscreteTransition.png"/>
+<img alt="Diagram showing a discrete transition" src="Images/DiscreteTransition.png"/>
 
 
 

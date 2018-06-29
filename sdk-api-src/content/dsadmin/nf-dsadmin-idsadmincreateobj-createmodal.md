@@ -60,7 +60,7 @@ The <b>IDsAdminCreateObj::CreateModal</b> method displays the object creation wi
 
 ### -param hwndParent [in]
 
-Contains the window handle of the owner of the wizard. This value cannot be <b>NULL</b>. Use the result of the <a href="https://www.bing.com/search?q=GetDesktopWindow">GetDesktopWindow</a> function if no parent window is available.
+Contains the window handle of the owner of the wizard. This value cannot be <b>NULL</b>. Use the result of the <a href="https://msdn.microsoft.com/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a> function if no parent window is available.
 
 
 ### -param ppADsObj [out]
@@ -86,7 +86,7 @@ Returns an OLE-defined error code or one of the following values.
 
 
 
-If the user cancels the object creation wizard, this method returns S_FALSE.  If <i>ppADsObj</i> is not <b>NULL</b>, <i>ppADsObj</i> receives a <b>NULL</b> value. Because of this, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro to determine if <i>ppADsObj</i> is valid should be avoided. Always test the contents of <i>ppADsObj</i> for a non-<b>NULL</b> value before using the interface pointer.
+If the user cancels the object creation wizard, this method returns S_FALSE.  If <i>ppADsObj</i> is not <b>NULL</b>, <i>ppADsObj</i> receives a <b>NULL</b> value. Because of this, the use of the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> macro to determine if <i>ppADsObj</i> is valid should be avoided. Always test the contents of <i>ppADsObj</i> for a non-<b>NULL</b> value before using the interface pointer.
 
 
 
@@ -96,7 +96,7 @@ If the user cancels the object creation wizard, this method returns S_FALSE.  If
 
 
 
-<a href="https://www.bing.com/search?q=GetDesktopWindow">GetDesktopWindow</a>
+<a href="https://msdn.microsoft.com/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
 
 
 
@@ -112,7 +112,7 @@ If the user cancels the object creation wizard, this method returns S_FALSE.  If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a>
+<a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a>
  
 
  

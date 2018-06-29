@@ -7,7 +7,7 @@ old-location: shell\IShellPropSheetExt.htm
 old-project: shell
 ms.assetid: 1671ad3e-c131-4de0-a213-b22c9966bae2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellPropSheetExt, IShellPropSheetExt interface [Windows Shell], IShellPropSheetExt interface [Windows Shell],described, _win32_IShellPropSheetExt, _win32_ishellpropsheetext_cpp, shell.IShellPropSheetExt, shobjidl_core/IShellPropSheetExt
 ms.prod: windows
 ms.technology: windows-sdk

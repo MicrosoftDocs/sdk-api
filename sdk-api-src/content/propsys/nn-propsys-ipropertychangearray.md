@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChangeArray interface
@@ -71,7 +71,7 @@ The <b>IPropertyChangeArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_Append">Append</a>
+<a href="https://msdn.microsoft.com/library/ms712591(v=VS.85).aspx">Append</a>
 </td>
 <td align="left" width="63%">
 Inserts a change operation at the end of an array.
@@ -80,7 +80,7 @@ Inserts a change operation at the end of an array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_AppendOrReplace">AppendOrReplace</a>
+<a href="https://msdn.microsoft.com/library/Bb775214(v=VS.85).aspx">AppendOrReplace</a>
 </td>
 <td align="left" width="63%">
 Replaces the first occurrence of a change that affects the same property key as the provided change.  If the property key is not already in the array, this method appends the change to the end of the array.
@@ -107,7 +107,7 @@ Gets the number of change operations in the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_InsertAt">InsertAt</a>
+<a href="https://msdn.microsoft.com/library/Dd372033(v=VS.85).aspx">InsertAt</a>
 </td>
 <td align="left" width="63%">
 Inserts a change operation into an array at the specified position.
@@ -116,7 +116,7 @@ Inserts a change operation into an array at the specified position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_IsKeyInArray">IsKeyInArray</a>
+<a href="https://msdn.microsoft.com/library/Bb775225(v=VS.85).aspx">IsKeyInArray</a>
 </td>
 <td align="left" width="63%">
 Specifies whether a particular property key exists in the change array.
@@ -139,7 +139,7 @@ Removes a specified change.
 
 
 
-Either call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with a class identifier (CLSID) of <b>CLSID_PropertyChangeArray</b> or call <a href="https://www.bing.com/search?q=PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a> to obtain a standard implementation of this interface. This is a container interface that allows multiple changes to be passed to a single file operation to prevent accessing a file multiple times.
+Either call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with a class identifier (CLSID) of <b>CLSID_PropertyChangeArray</b> or call <a href="https://msdn.microsoft.com/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a> to obtain a standard implementation of this interface. This is a container interface that allows multiple changes to be passed to a single file operation to prevent accessing a file multiple times.
 
 
 

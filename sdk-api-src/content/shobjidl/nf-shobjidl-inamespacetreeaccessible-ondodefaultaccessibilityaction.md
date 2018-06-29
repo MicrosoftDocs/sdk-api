@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction.htm
 old-project: shell
 ms.assetid: a6aa6588-6e3c-4229-8540-0aa5d85c0381
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnDoDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction, INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction method [Windows Shell], OnDoDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
 ms.prod: windows
 ms.technology: windows-sdk

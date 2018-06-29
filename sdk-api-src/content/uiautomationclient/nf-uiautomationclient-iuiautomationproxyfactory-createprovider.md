@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <i>idObject</i> parameter is normally <a href="https://www.bing.com/search?q=OBJID_CLIENT">OBJID_CLIENT</a>, and <i>idChild</i> is normally CHILDID_SELF. However, when the method is called in response to a registered WinEvent, these values are from the event, specifying the subelement that raised the event.
+The <i>idObject</i> parameter is normally <a href="https://msdn.microsoft.com/library/Aa377982(v=VS.85).aspx">OBJID_CLIENT</a>, and <i>idChild</i> is normally CHILDID_SELF. However, when the method is called in response to a registered WinEvent, these values are from the event, specifying the subelement that raised the event.
 
 
 

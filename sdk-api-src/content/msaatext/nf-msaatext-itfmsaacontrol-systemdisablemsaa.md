@@ -108,7 +108,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//WinAuto/microsoft-active-accessibility">Microsoft Active Accessibility</a>
+<a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
  
 
  

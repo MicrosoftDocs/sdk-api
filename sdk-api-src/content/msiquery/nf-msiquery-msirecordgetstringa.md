@@ -7,7 +7,7 @@ old-location: setup\msirecordgetstring.htm
 old-project: Msi
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiRecordGetString, MsiRecordGetString function, MsiRecordGetStringA, MsiRecordGetStringW, _msi_msirecordgetstring, msiquery/MsiRecordGetString, msiquery/MsiRecordGetStringA, msiquery/MsiRecordGetStringW, setup.msirecordgetstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
  
 
  

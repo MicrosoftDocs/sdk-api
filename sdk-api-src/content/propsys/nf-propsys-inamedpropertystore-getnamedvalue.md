@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_GetNamedValue.htm
 old-project: shell
 ms.assetid: d62fcacd-7af5-4618-9b76-bebb001bb827
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetNamedValue, GetNamedValue method [Windows Shell], GetNamedValue method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNamedValue method, INamedPropertyStore.GetNamedValue, INamedPropertyStore::GetNamedValue, _shell_INamedPropertyStore_GetNamedValue, propsys/INamedPropertyStore::GetNamedValue, shell.INamedPropertyStore_GetNamedValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # INamedPropertyStore::GetNamedValue

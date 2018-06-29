@@ -119,7 +119,7 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 
-<a href="https://www.bing.com/search?q=Basic+Access+Control+Functions">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

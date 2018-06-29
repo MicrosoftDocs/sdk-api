@@ -7,7 +7,7 @@ old-location: com\oleuipastespecial_struct.htm
 old-project: com
 ms.assetid: bb346fa7-03ae-458d-8488-64db7a9c48e1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPOLEUIPASTESPECIALA, *POLEUIPASTESPECIALA, HIDECHANGEICON, LPOLEUIPASTESPECIAL, LPOLEUIPASTESPECIAL structure pointer [COM], NOREFRESHDATAOBJECT, OLEUIPASTESPECIAL, OLEUIPASTESPECIAL structure [COM], OLEUIPASTESPECIALA, OLEUIPASTESPECIALW, POLEUIPASTESPECIAL, POLEUIPASTESPECIAL structure pointer [COM], PSF_CHECKDISPLAYASICON, PSF_DISABLEDISPLAYASICON, PSF_SELECTPASTE, PSF_SELECTPASTELINK, PSF_SHOWHELP, STAYONCLIPBOARDCHANGE, _ole_OLEUIPASTESPECIAL_str, com.oleuipastespecial_struct, oledlg/LPOLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIAL, oledlg/OLEUIPASTESPECIALA, oledlg/OLEUIPASTESPECIALW, oledlg/POLEUIPASTESPECIAL, tagOLEUIPASTESPECIALA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOLEUIPASTESPECIALA structure

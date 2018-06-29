@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToUInt64Vector function
@@ -150,7 +150,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToUInt64Vector">PropVariantToUInt64Vector</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776574(v=VS.85).aspx">PropVariantToUInt64Vector</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -185,23 +185,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
+<a href="https://msdn.microsoft.com/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetUInt64Elem">PropVariantGetUInt64Elem</a>
+<a href="https://msdn.microsoft.com/library/Bb776530(v=VS.85).aspx">PropVariantGetUInt64Elem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt64">PropVariantToUInt64</a>
+<a href="https://msdn.microsoft.com/library/Bb776573(v=VS.85).aspx">PropVariantToUInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt64VectorAlloc">PropVariantToUInt64VectorAlloc</a>
+<a href="https://msdn.microsoft.com/library/Bb776575(v=VS.85).aspx">PropVariantToUInt64VectorAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt64Array">VariantToUInt64Array</a>
+<a href="https://msdn.microsoft.com/library/Bb776632(v=VS.85).aspx">VariantToUInt64Array</a>
  
 
  

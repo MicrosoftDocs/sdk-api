@@ -7,7 +7,7 @@ old-location: gpmc\igpmstatusmsgcollection_get_count.htm
 old-project: GPMC
 ms.assetid: 6c2ba62c-94ad-47dd-9cdd-7792c027f962
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMStatusMsgCollection class, Count property [GPMC],IGPMStatusMsgCollection interface, GPMStatusMsgCollection class [GPMC],Count property, IGPMStatusMsgCollection interface [GPMC],Count property, IGPMStatusMsgCollection.Count, IGPMStatusMsgCollection.get_Count, IGPMStatusMsgCollection::Count, IGPMStatusMsgCollection::get_Count, _win32_igpmstatusmsgcollection_get_count, get_Count, gpmc.igpmstatusmsgcollection_get_count, gpmgmt/IGPMStatusMsgCollection::Count, gpmgmt/IGPMStatusMsgCollection::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

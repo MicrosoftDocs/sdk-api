@@ -7,7 +7,7 @@ old-location: devinst\setupdibuildclassinfolist.htm
 old-project: devinst
 ms.assetid: a01b1f8f-55af-4053-8c31-9329ef36f2ce
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiBuildClassInfoList, SetupDiBuildClassInfoList function [Device and Driver Installation], devinst.setupdibuildclassinfolist, di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml, setupapi/SetupDiBuildClassInfoList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiBuildClassInfoList function

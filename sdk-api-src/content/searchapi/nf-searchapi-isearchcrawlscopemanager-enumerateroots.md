@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchCrawlScopeManager::EnumerateRoots
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-            Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a> is aware.
+            Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> is aware.
         
 
 
@@ -63,10 +63,10 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param ppSearchRoots [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
 
 
-                    Returns a pointer to an <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> interface.
+                    Returns a pointer to an <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> interface.
                 
 
 

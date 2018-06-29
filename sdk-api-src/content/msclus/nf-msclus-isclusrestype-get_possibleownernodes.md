@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> specified as 
-    <a href="/windows/desktop/dns/p-gly">possible owners</a> of a 
+    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">possible owners</a> of a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>.
 
 This property is read-only.

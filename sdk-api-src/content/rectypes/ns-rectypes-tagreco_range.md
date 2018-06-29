@@ -7,7 +7,7 @@ old-location: tablet\reco_range.htm
 old-project: tablet
 ms.assetid: 212de1c5-b61e-4e6e-a781-cba63b820504
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE structure [Tablet PC], rectypes/RECO_RANGE, tablet.reco_range, tagRECO_RANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagRECO_RANGE structure

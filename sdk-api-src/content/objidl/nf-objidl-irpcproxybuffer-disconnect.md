@@ -7,7 +7,7 @@ old-location: com\irpcproxybuffer_disconnect.htm
 old-project: com
 ms.assetid: 4ead4a47-7089-472d-b489-b725329ea5ab
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcProxyBuffer interface, IRpcProxyBuffer interface [COM],Disconnect method, IRpcProxyBuffer.Disconnect, IRpcProxyBuffer::Disconnect, _com_irpcproxybuffer_disconnect, com.irpcproxybuffer_disconnect, objidlbase/IRpcProxyBuffer::Disconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRpcProxyBuffer::Disconnect

@@ -91,7 +91,7 @@ The handle obtained previously by a call to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +102,7 @@ The handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +113,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +131,7 @@ The operation is not supported. This error is returned if the namespace provider
 
 
 
-In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> and <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a>. The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace Providers should use the WSA_E_CANCELLED error code to maintain compatibility with the widest possible range of applications.
+In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> and <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_E_CANCELLED</a>. The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace Providers should use the WSA_E_CANCELLED error code to maintain compatibility with the widest possible range of applications.
 
 
 

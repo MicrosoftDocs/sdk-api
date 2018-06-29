@@ -7,7 +7,7 @@ old-location: com\ioleinplacesiteex_requestuiactivate.htm
 old-project: com
 ms.assetid: 60baefc0-eaf6-4d73-975c-987a7720955b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],RequestUIActivate method, IOleInPlaceSiteEx.RequestUIActivate, IOleInPlaceSiteEx::RequestUIActivate, RequestUIActivate, RequestUIActivate method [COM], RequestUIActivate method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_requestuiactivate, com.ioleinplacesiteex_requestuiactivate, ocidl/IOleInPlaceSiteEx::RequestUIActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceSiteEx::RequestUIActivate

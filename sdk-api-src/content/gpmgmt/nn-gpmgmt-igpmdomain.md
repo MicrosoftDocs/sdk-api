@@ -7,7 +7,7 @@ old-location: gpmc\igpmdomain.htm
 old-project: GPMC
 ms.assetid: c3639f07-7c8c-4440-ade4-b58abd2586d6
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain interface [GPMC],described, _win32_igpmdomain, gpmc.igpmdomain, gpmgmt/IGPMDomain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMDomain</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMDomain</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMDomain</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMDomain</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -206,7 +206,7 @@ The full DNS name of the domain controller. This is the domain controller with w
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

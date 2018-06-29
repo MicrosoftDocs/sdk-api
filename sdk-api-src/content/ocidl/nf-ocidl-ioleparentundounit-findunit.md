@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit_findunit.htm
 old-project: com
 ms.assetid: 096e6cc4-7843-49fa-b1d7-bce034d4b7ce
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: FindUnit, FindUnit method [COM], FindUnit method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],FindUnit method, IOleParentUndoUnit.FindUnit, IOleParentUndoUnit::FindUnit, _ole_ioleparentundounit_findunit, com.ioleparentundounit_findunit, ocidl/IOleParentUndoUnit::FindUnit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleParentUndoUnit::FindUnit

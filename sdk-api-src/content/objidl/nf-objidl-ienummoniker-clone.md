@@ -7,7 +7,7 @@ old-location: com\ienummoniker_clone.htm
 old-project: com
 ms.assetid: 6238e556-9ef4-42c7-95ba-12468cec6b52
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interface, IEnumMoniker interface [COM],Clone method, IEnumMoniker.Clone, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumMoniker::Clone

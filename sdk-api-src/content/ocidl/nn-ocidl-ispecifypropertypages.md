@@ -7,7 +7,7 @@ old-location: com\ispecifypropertypages.htm
 old-project: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISpecifyPropertyPages interface
@@ -56,7 +56,7 @@ Indicates that an object supports property pages. OLE property pages enable an o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpecifyPropertyPages</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>ISpecifyPropertyPages</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpecifyPropertyPages</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ISpecifyPropertyPages</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

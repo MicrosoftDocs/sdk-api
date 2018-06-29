@@ -103,7 +103,7 @@ The caller must call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
 
 
 

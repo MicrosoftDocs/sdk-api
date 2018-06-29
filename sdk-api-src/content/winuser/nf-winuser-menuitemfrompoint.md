@@ -7,7 +7,7 @@ old-location: menurc\menuitemfrompoint.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\menuitemfrompoint.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: MenuItemFromPoint, MenuItemFromPoint function [Menus and Other Resources], _win32_MenuItemFromPoint, _win32_menuitemfrompoint_cpp, menurc.menuitemfrompoint, winui._win32_menuitemfrompoint, winuser/MenuItemFromPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -96,7 +96,7 @@ Returns the zero-based position of the menu item at the specified location or -1
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
  
 
  

@@ -139,7 +139,7 @@ The backup components object is not initialized.
 
 
 
-<b>AbortBackup</b> generates an <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-a">Abort</a> event, which is handled by each instance of each writer through the 
+<b>AbortBackup</b> generates an <a href="https://msdn.microsoft.com/library/Aa384651(v=VS.85).aspx">Abort</a> event, which is handled by each instance of each writer through the 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">CVssWriter::OnAbort</a> method.
 
 

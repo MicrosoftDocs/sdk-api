@@ -60,18 +60,18 @@ Get a texture-buffer.
 
 ### -param ppTextureBuffer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>**</b>
 
-The address of a pointer to a shader-resource-view interface for accessing a texture buffer. See <a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView Interface</a>.
+The address of a pointer to a shader-resource-view interface for accessing a texture buffer. See <a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView Interface</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4
 
 
 
-<a href="https://msdn.microsoft.com/ab75de06-dbcd-42bb-9879-8602df7f558f">ID3D10EffectConstantBuffer Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173634(v=VS.85).aspx">ID3D10EffectConstantBuffer Interface</a>
  
 
  

@@ -89,7 +89,7 @@ During a constant transition, the value of an animation variable remains at the 
 
 The following figure shows the change in value for an animation variable over time during a constant-duration transition.
 
-<img alt="Diagram showing a constant-duration transition" src="./images/ConstantTransition.png"/>
+<img alt="Diagram showing a constant-duration transition" src="Images/ConstantTransition.png"/>
 
 
 

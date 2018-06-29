@@ -68,7 +68,7 @@ The query expression to the requested metadata block or item.
 
 ### -param pvarValue [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
 
 When this method returns, contains the metadata block or item requested.
 
@@ -120,7 +120,7 @@ If multiple blocks or items exist that are expressed by the same query expressio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>
+<a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: com\olecreatelinktofile.htm
 old-project: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCreateLinkToFile, com.olecreatelinktofile, ole2/OleCreateLinkToFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # OleCreateLinkToFile function

@@ -7,7 +7,7 @@ old-location: shell\DAD_DragEnterEx.htm
 old-project: shell
 ms.assetid: 32f98df7-e357-4d17-9e33-f162a6ffb7ed
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DAD_DragEnterEx, DAD_DragEnterEx function [Windows Shell], shell.DAD_DragEnterEx, shell_DAD_DragEnterEx, shlobj_core/DAD_DragEnterEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragEnterEx</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/e12d7dc5-75a0-4537-bfb7-071ff8dfe7d5">ImageList_DragEnter</a> instead.
+<p class="CCE_Message">[<b>DAD_DragEnterEx</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/library/Bb761526(v=VS.85).aspx">ImageList_DragEnter</a> instead.
       ]
 
 Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.

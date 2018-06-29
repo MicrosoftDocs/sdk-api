@@ -7,7 +7,7 @@ old-location: menurc\setmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenu.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: SetMenu, SetMenu function [Menus and Other Resources], _win32_SetMenu, _win32_setmenu_cpp, menurc.setmenu, winui._win32_setmenu, winuser/SetMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -92,7 +92,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The window is redrawn to reflect the menu change. A menu can be assigned to any window that is not a child window.
 
-The <b>SetMenu</b> function replaces the previous menu, if any, but it does not destroy it. An application should call the <a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a> function to accomplish this task. 
+The <b>SetMenu</b> function replaces the previous menu, if any, but it does not destroy it. An application should call the <a href="https://msdn.microsoft.com/library/ms647631(v=VS.85).aspx">DestroyMenu</a> function to accomplish this task. 
 
 
 
@@ -106,15 +106,15 @@ The <b>SetMenu</b> function replaces the previous menu, if any, but it does not 
 
 
 
-<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
+<a href="https://msdn.microsoft.com/library/ms647631(v=VS.85).aspx">DestroyMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86b20c6-9a4b-40b7-95d1-ffa57795f5e0">GetMenu</a>
+<a href="https://msdn.microsoft.com/library/ms647640(v=VS.85).aspx">GetMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 

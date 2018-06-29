@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Breaks a Unicode string into individually shapeable <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
+Breaks a Unicode string into individually shapeable <a href="https://msdn.microsoft.com/library/Dd374094(v=VS.85).aspx">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
 
 
 ## -parameters

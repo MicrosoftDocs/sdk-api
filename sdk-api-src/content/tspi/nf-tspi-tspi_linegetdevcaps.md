@@ -1,0 +1,151 @@
+---
+UID: NF:tspi.TSPI_lineGetDevCaps
+title: TSPI_lineGetDevCaps function
+author: windows-sdk-content
+description: The TSPI_lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
+old-location: tspi\tspi_linegetdevcaps.htm
+old-project: Tapi
+ms.assetid: 6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: TSPI_lineGetDevCaps, TSPI_lineGetDevCaps function [TAPI 2.2], _tspi_tspi_linegetdevcaps, tspi.tspi_linegetdevcaps, tspi/TSPI_lineGetDevCaps
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: tspi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: AAAccountingData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineGetDevCaps
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP with SP1 and later
+---
+
+# TSPI_lineGetDevCaps function
+
+
+## -description
+
+
+The 
+<b>TSPI_lineGetDevCaps</b> function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
+
+
+## -parameters
+
+
+
+
+### -param dwDeviceID
+
+The line device to be queried.
+
+
+### -param dwTSPIVersion
+
+The negotiated TSPI version number. This value has already been negotiated for this device through the 
+<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a> function.
+
+
+### -param dwExtVersion
+
+The negotiated extension version number. This value has already been negotiated for this device through the 
+<a href="https://msdn.microsoft.com/cd7cc421-3efb-4fe1-858c-4d894f4d9377">TSPI_lineNegotiateExtVersion</a> function. This parameter is not validated by TAPI when this function is called.
+
+
+### -param lpLineDevCaps
+
+A pointer to a variably sized structure of type 
+<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>. Upon successful completion of the request, this structure is filled with line device capabilities information.
+
+
+## -returns
+
+
+
+Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+
+LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_OPERATIONUNAVAIL, LINEERR_INCOMPATIBLEEXTVERSION, LINEERR_OPERATIONFAILED, LINEERR_NODRIVER, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM.
+
+
+
+
+## -remarks
+
+
+
+Line device identifier numbering for a service provider is sequential from the value set by the <i>dwLineDeviceIDBase</i> parameter that is passed to the 
+<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a> function.
+
+The <i>dwExtVersion</i> formal parameter indicates the version number of the requested extension information. If it is zero, no extension information is requested. If it is nonzero, it holds a value that was negotiated for this device with the 
+<a href="https://msdn.microsoft.com/cd7cc421-3efb-4fe1-858c-4d894f4d9377">TSPI_lineNegotiateExtVersion</a> function. The service provider fills in device- and vendor-specific extended information according to the extension version specified.
+
+The service provider fills in all the members of the 
+<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+
+The service provider must fill in all members of the 
+<a href="https://msdn.microsoft.com/54d36126-a032-4baa-8484-6ebeb9c4adf9">LINETERMCAPS</a> data structure or structures embedded in the varying part of the 
+<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> data structure.
+
+After the service provider returns from the 
+<b>TSPI_lineGetDevCaps</b> function, TAPI sets the <b>dwLinesStates</b> member of the 
+<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure as follows:
+
+<pre class="syntax" xml:space="preserve"><code>LINEDEVCAPS.dwLineStates |=
+    LINEDEVSTATE_OPEN |
+    LINEDEVSTATE_CLOSE |
+    LINEDEVSTATE_REINIT |
+    LINEDEVSTATE_TRANSLATECHANGE;</code></pre>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/54d36126-a032-4baa-8484-6ebeb9c4adf9">LINETERMCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/cd7cc421-3efb-4fe1-858c-4d894f4d9377">TSPI_lineNegotiateExtVersion</a>
+
+
+
+<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a>
+
+
+
+<a href="https://msdn.microsoft.com/6cb7817b-6df3-4a6a-a666-b41c2eb0b118">TSPI_providerInit</a>
+ 
+
+ 
+

@@ -80,12 +80,12 @@ The volume is active. That is, the <i>bootIndicator</i> value of the
 
 ### -field VDS_VF_READONLY
 
-The volume has a drive letter and a Mount Manager–assigned volume GUID name, and is enumerated by the <b>FindFirstVolume</b> and <a href="https://msdn.microsoft.com/6ab4467a-f84a-403e-9327-b523ceead19f">FindNextVolume</a> functions. However, the volume is read-only. This flag does not apply to CD-ROM or DVD devices.
+The volume has a drive letter and a Mount Manager–assigned volume GUID name, and is enumerated by the <b>FindFirstVolume</b> and <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions. However, the volume is read-only. This flag does not apply to CD-ROM or DVD devices.
 
 
 ### -field VDS_VF_HIDDEN
 
-The volume does not have a drive letter and a Mount Manager–assigned volume GUID name. The volume is not enumerated by the <b>FindFirstVolume</b> and <a href="https://msdn.microsoft.com/6ab4467a-f84a-403e-9327-b523ceead19f">FindNextVolume</a> functions. The volume can be opened by using its device name, and the opened volume can be read from or written to. An example of a volume device name is \\?\GLOBALROOT\Device\HarddiskVolumeX. This flag does not apply to CD-ROM or DVD devices.
+The volume does not have a drive letter and a Mount Manager–assigned volume GUID name. The volume is not enumerated by the <b>FindFirstVolume</b> and <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions. The volume can be opened by using its device name, and the opened volume can be read from or written to. An example of a volume device name is \\?\GLOBALROOT\Device\HarddiskVolumeX. This flag does not apply to CD-ROM or DVD devices.
 
 
 ### -field VDS_VF_CAN_EXTEND

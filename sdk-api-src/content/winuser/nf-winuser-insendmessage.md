@@ -1,0 +1,114 @@
+---
+UID: NF:winuser.InSendMessage
+title: InSendMessage function
+author: windows-sdk-content
+description: Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the SendMessage function.
+old-location: winmsg\insendmessage.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\insendmessage.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: InSendMessage, InSendMessage function [Windows and Messages], _win32_InSendMessage, _win32_insendmessage_cpp, winmsg.insendmessage, winui._win32_insendmessage, winuser/InSendMessage
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - InSendMessage
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# InSendMessage function
+
+
+## -description
+
+
+Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
+
+To obtain additional information about how the message was sent, use the <a href="https://msdn.microsoft.com/library/ms644942(v=VS.85).aspx">InSendMessageEx</a> function.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+If the window procedure is processing a message sent to it from another thread using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function, the return value is nonzero.
+
+If the window procedure is not processing a message sent to it from another thread using the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function, the return value is zero. 
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms644942(v=VS.85).aspx">InSendMessageEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a>
+ 
+
+ 
+

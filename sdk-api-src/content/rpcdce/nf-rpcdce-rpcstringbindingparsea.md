@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcStringBindingParseA function
@@ -113,7 +113,7 @@ Returns a pointer to a pointer to a <b>null</b>-terminated string representation
 #### - ObjectUuid
 
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an object 
-<a href="midl.uuid">UUID</a>. 
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. 
 
 
 

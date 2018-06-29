@@ -7,7 +7,7 @@ old-location: shell\PathCchRemoveBackslash.htm
 old-project: shell
 ms.assetid: 61afc20e-ee6c-46ad-a058-64c57de41ba4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: PathCchRemoveBackslash, PathCchRemoveBackslash function [Windows Shell], pathcch/PathCchRemoveBackslash, shell.PathCchRemoveBackslash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PathCchRemoveBackslash function

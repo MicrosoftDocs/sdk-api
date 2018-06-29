@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_move.htm
 old-project: tablet
 ms.assetid: 4754a211-b90c-453a-91b2-9f49ad31621d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokes interface [Tablet PC],Move method, IInkStrokes.Move, IInkStrokes::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Move, tablet.inkstrokes_move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://www.bing.com/search?q=IInkStrokes">IInkStrokes</a>
+<a href="tablet.iinkstrokes">IInkStrokes</a>
 
 
 

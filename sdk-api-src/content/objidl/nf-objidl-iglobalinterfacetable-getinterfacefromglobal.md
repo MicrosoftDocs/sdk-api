@@ -7,7 +7,7 @@ old-location: com\iglobalinterfacetable_getinterfacefromglobal.htm
 old-project: com
 ms.assetid: 3b37184d-c4e8-47b2-8f3f-008d3ea00759
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetInterfaceFromGlobal, GetInterfaceFromGlobal method [COM], GetInterfaceFromGlobal method [COM],IGlobalInterfaceTable interface, IGlobalInterfaceTable interface [COM],GetInterfaceFromGlobal method, IGlobalInterfaceTable.GetInterfaceFromGlobal, IGlobalInterfaceTable::GetInterfaceFromGlobal, _com_iglobalinterfacetable_getinterfacefromglobal, com.iglobalinterfacetable_getinterfacefromglobal, objidlbase/IGlobalInterfaceTable::GetInterfaceFromGlobal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IGlobalInterfaceTable::GetInterfaceFromGlobal

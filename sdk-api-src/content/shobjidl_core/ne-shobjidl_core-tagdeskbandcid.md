@@ -7,7 +7,7 @@ old-location: shell\DBID_Command_Flags.htm
 old-project: shell
 ms.assetid: 388e94de-a5c2-470e-ad33-dec3cfca2604
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DBID Command Flags, DBID_BANDINFOCHANGED, DBID_MAXIMIZEBAND, DBID_PUSHCHEVRON, DBID_SHOWONLY, shell.DBID_Command_Flags, shell_DBID_Command_Flags, shobjidl_core/DBID_BANDINFOCHANGED, shobjidl_core/DBID_MAXIMIZEBAND, shobjidl_core/DBID_PUSHCHEVRON, shobjidl_core/DBID_SHOWONLY, shobjidl_core/tagDESKBANDCID, tagDESKBANDCID, tagDESKBANDCID enumeration [Windows Shell]
 ms.prod: windows
 ms.technology: windows-sdk

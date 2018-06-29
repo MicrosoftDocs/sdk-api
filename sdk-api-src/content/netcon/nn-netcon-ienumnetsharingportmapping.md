@@ -129,7 +129,7 @@ To obtain an enumeration interface for port mappings, use the
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
 
 
 

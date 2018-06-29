@@ -7,7 +7,7 @@ old-location: winrm\wsmanrunshellcommand.htm
 old-project: WinRM
 ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManRunShellCommand, WSManRunShellCommand function [Windows Remote Management], winrm.wsmanrunshellcommand, wsman/WSManRunShellCommand
 ms.prod: windows
 ms.technology: windows-sdk

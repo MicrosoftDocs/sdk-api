@@ -53,7 +53,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://www.bing.com/search?q=Setting+the+default+DPI+awareness+for+a+process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://msdn.microsoft.com/C9488338-D863-45DF-B5CB-7ED9B869A5E2">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
 Sets the process-default DPI awareness level. This is equivalent to calling <a href="https://msdn.microsoft.com/EACD1784-BEFF-46C1-8665-CBC86A65833C">SetProcessDpiAwarenessContext</a> with the corresponding <a href="https://msdn.microsoft.com/BFD54A9F-642B-4A3A-BBB9-F3A80779251D">DPI_AWARENESS_CONTEXT</a> value.
 
@@ -122,7 +122,7 @@ The DPI awareness is already set, either by calling this API previously or throu
 
 
 
-It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://www.bing.com/search?q=Setting+the+default+DPI+awareness+for+a+process">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://msdn.microsoft.com/C9488338-D863-45DF-B5CB-7ED9B869A5E2">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
 Previous versions of Windows only had one DPI awareness value for the entire application. For those applications, the recommendation was to set the DPI awareness value in the manifest as described in <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a>. Under that recommendation, you were not supposed to use <b>SetProcessDpiAwareness</b> to update the DPI awareness. In fact, future calls  to this API would fail after the DPI awareness was set once. Now that DPI awareness is tied to a thread rather than an application, you can use this method to update the DPI awareness. However, consider using <a href="https://msdn.microsoft.com/95531BDC-3D45-4BB6-8C63-0D845C66B88F">SetThreadDpiAwarenessContext</a> instead.
 
@@ -150,7 +150,7 @@ If the DPI awareness level is not set, the default value is <b>PROCESS_DPI_UNAWA
 
 
 
-<a href="https://www.bing.com/search?q=Setting+the+default+DPI+awareness+for+a+process">Setting the default DPI awareness for a process</a>
+<a href="https://msdn.microsoft.com/C9488338-D863-45DF-B5CB-7ED9B869A5E2">Setting the default DPI awareness for a process</a>
  
 
  

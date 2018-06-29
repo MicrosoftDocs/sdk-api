@@ -7,7 +7,7 @@ old-location: winrm\wsman_certificate_details.htm
 old-project: WinRM
 ms.assetid: 82b723fd-c9bb-4ddd-bd2a-4b6d1186846b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_CERTIFICATE_DETAILS, WSMAN_CERTIFICATE_DETAILS structure [Windows Remote Management], _WSMAN_CERTIFICATE_DETAILS, winrm.wsman_certificate_details, wsman/WSMAN_CERTIFICATE_DETAILS
 ms.prod: windows
 ms.technology: windows-sdk

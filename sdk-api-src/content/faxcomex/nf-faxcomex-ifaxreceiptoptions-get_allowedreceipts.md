@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_allowedreceipts_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3xbn.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: AllowedReceipts property [Fax Service], AllowedReceipts property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AllowedReceipts property, FaxReceiptOptions.AllowedReceipts, IFaxReceiptOptions.get_AllowedReceipts, IFaxReceiptOptions::get_AllowedReceipts, _mfax_faxreceiptoptions.allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts_vb, get_AllowedReceipts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -73,15 +73,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/6c3d1358-6819-42e3-9be0-896ed7e2d463">FaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/95bcade2-eb0c-4e6f-8f3b-9d001f999992">IFaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4558e770-c6ae-4892-a2b3-40c59f6275fa">Setting Receipt Options</a>
+<a href="https://msdn.microsoft.com/library/ms693387(v=VS.85).aspx">Setting Receipt Options</a>
  
 
  

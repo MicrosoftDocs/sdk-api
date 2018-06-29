@@ -70,19 +70,19 @@ The paragraph font alignment state. It can be one of the following values.
 <th>Font Alignment States</th>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentAuto</a> (default)</td>
+<td><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomFontAlignmentAuto</a> (default)</td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentTop</a></td>
+<td><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomFontAlignmentTop</a></td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentBaseline</a></td>
+<td><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBaseline</a></td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentBottom</a></td>
+<td><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomFontAlignmentBottom</a></td>
 </tr>
 <tr>
-<td><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomFontAlignmentCenter</a></td>
+<td><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomFontAlignmentCenter</a></td>
 </tr>
 </table>
  

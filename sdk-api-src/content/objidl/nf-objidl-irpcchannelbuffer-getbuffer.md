@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer_getbuffer.htm
 old-project: com
 ms.assetid: 775a15df-8bcf-4c1b-a8b9-5c7c03106c09
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetBuffer, GetBuffer method [COM], GetBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetBuffer method, IRpcChannelBuffer.GetBuffer, IRpcChannelBuffer::GetBuffer, _com_irpcchannelbuffer_getbuffer, com.irpcchannelbuffer_getbuffer, objidlbase/IRpcChannelBuffer::GetBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRpcChannelBuffer::GetBuffer

@@ -7,7 +7,7 @@ old-location: com\ioleuiobjinfo_convertobject.htm
 old-project: com
 ms.assetid: 44611ed3-35de-4b20-adae-d3a28aa11944
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ConvertObject, ConvertObject method [COM], ConvertObject method [COM],IOleUIObjInfo interface, ConvertObject method [COM],IOleUIObjInfoA interface, ConvertObject method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],ConvertObject method, IOleUIObjInfo::ConvertObject, IOleUIObjInfoA interface [COM],ConvertObject method, IOleUIObjInfoA.ConvertObject, IOleUIObjInfoA::ConvertObject, IOleUIObjInfoW interface [COM],ConvertObject method, IOleUIObjInfoW::ConvertObject, _ole_IOleUIObjInfo_ConvertObject, com.ioleuiobjinfo_convertobject, oledlg/IOleUIObjInfo::ConvertObject, oledlg/IOleUIObjInfoA::ConvertObject, oledlg/IOleUIObjInfoW::ConvertObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleUIObjInfoA::ConvertObject

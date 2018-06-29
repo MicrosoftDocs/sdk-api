@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjobs_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6b5g.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutgoingJobs object, FaxOutgoingJobs object [Fax Service],Count property, FaxOutgoingJobs.Count, IFaxOutgoingJobs.get_Count, IFaxOutgoingJobs::get_Count, _mfax_faxoutgoingjobs.count, fax._mfax_faxoutgoingjobs_count, fax._mfax_faxoutgoingjobs_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
+The <b>Count</b> property represents the number of objects in the <a href="https://msdn.microsoft.com/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a> collection. This is the total number of outgoing jobs for the fax server.
 
 This property is read-only.
 
@@ -64,15 +64,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a>
+<a href="https://msdn.microsoft.com/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d666ce6-b027-4650-8835-eac445b376a9">IFaxOutgoingJobs</a>
+<a href="https://msdn.microsoft.com/library/ms689507(v=VS.85).aspx">IFaxOutgoingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

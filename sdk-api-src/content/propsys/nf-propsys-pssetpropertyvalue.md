@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSSetPropertyValue function
@@ -68,9 +68,9 @@ Pointer to an instance of the <a href="https://msdn.microsoft.com/library/window
 
 ### -param ppd [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>*</b>
 
-Pointer to an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface, which identifies the individual property.
+Pointer to an instance of the <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface, which identifies the individual property.
 
 
 ### -param propvar [in]
@@ -95,12 +95,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to write a property value to a store. If the calling code already has a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a> directly.
+This helper function is used to write a property value to a store. If the calling code already has a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a> directly.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PSSetPropertyValue">PSSetPropertyValue</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762088(v=VS.85).aspx">PSSetPropertyValue</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,7 +134,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=PSGetPropertyValue">PSGetPropertyValue</a>
+<a href="https://msdn.microsoft.com/library/Bb762083(v=VS.85).aspx">PSGetPropertyValue</a>
  
 
  

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Sens.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISensLogon2::PostShell

@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8_stopvoice.htm
 old-project: audio
 ms.assetid: 9DF47B73-B8D1-49C8-8839-7AB0700CC4CC
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/11/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],StopVoice method, IDirectMusicSynth8.StopVoice, IDirectMusicSynth8::StopVoice, StopVoice, StopVoice method [Audio Devices], StopVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_stopvoice, dmusics/IDirectMusicSynth8::StopVoice
 ms.prod: windows
 ms.technology: windows-sdk

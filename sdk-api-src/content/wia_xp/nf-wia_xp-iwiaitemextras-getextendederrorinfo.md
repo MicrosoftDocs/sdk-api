@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Applications must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
+Applications must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free the string to which <i>bstrErrorText</i> points.
 
 
 
@@ -93,7 +93,7 @@ Applications must call the <a href="/previous-versions/windows/desktop/api/oleau
 
 
 
-<a href="https://msdn.microsoft.com/b04f22dc-47d2-4434-82f9-4d6c618f31b3">IWiaItemExtras</a>
+<a href="https://msdn.microsoft.com/library/ms629975(v=VS.85).aspx">IWiaItemExtras</a>
  
 
  

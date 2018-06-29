@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_smtp_authentication_type_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1vot.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FAX_SMTP_AUTHENTICATION_TYPE_ENUM, FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration [Fax Service], _mfax_fax_smtp_authentication_type_enum, fax._mfax_fax_smtp_authentication_type_enum, faxcomex/FAX_SMTP_AUTHENTICATION_TYPE_ENUM, faxcomex/fsatANONYMOUS, faxcomex/fsatBASIC, faxcomex/fsatNTLM, fsatANONYMOUS, fsatBASIC, fsatNTLM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The server sends fax transmission receipts using an NTLM-authenticated SMTP prot
 
 
 
-<a href="https://msdn.microsoft.com/1624ad8c-07ca-4ab1-970c-fb0624903b81">IFaxReceiptOptions::get_AuthenticationType</a>
+<a href="https://msdn.microsoft.com/library/ms689591(v=VS.85).aspx">IFaxReceiptOptions::get_AuthenticationType</a>
  
 
  

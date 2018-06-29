@@ -81,7 +81,7 @@ The height of the output stream.
 
 ### -param OutputFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
 The format of the output stream.
 
@@ -111,7 +111,7 @@ A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/0EB
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

@@ -134,7 +134,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
+The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="base.createfile">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-Note that <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
+Note that <a href="base.createfile">CreateFile</a> or <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
 
 
@@ -263,15 +263,15 @@ Note that <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

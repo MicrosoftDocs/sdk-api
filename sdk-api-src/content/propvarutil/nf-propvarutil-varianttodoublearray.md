@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # VariantToDoubleArray function
@@ -141,7 +141,7 @@ If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VA
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a> to access a <b>DOUBLE</b> array stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -179,23 +179,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDoubleArray">InitVariantFromDoubleArray</a>
+<a href="https://msdn.microsoft.com/library/Bb762322(v=VS.85).aspx">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776539(v=VS.85).aspx">PropVariantToDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantGetDoubleElem">VariantGetDoubleElem</a>
+<a href="https://msdn.microsoft.com/library/Bb776582(v=VS.85).aspx">VariantGetDoubleElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDouble">VariantToDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArrayAlloc">VariantToDoubleArrayAlloc</a>
+<a href="https://msdn.microsoft.com/library/Bb776600(v=VS.85).aspx">VariantToDoubleArrayAlloc</a>
  
 
  

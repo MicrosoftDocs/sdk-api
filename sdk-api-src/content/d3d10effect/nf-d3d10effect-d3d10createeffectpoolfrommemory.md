@@ -76,30 +76,30 @@ Length of <i>pData</i>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Effect <a href="https://msdn.microsoft.com/434bcff8-47ea-480d-bc0b-44d3ed1f8cce">compile options</a>.
+Effect <a href="https://msdn.microsoft.com/library/Bb205176(v=VS.85).aspx">compile options</a>.
 
 
 ### -param pDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>*</b>
 
-A pointer to the device (see <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>).
+A pointer to the device (see <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>).
 
 
 ### -param ppEffectPool [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e64c9285-f4ee-4bed-a57d-8ccc3e6b3ba3">ID3D10EffectPool</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173667(v=VS.85).aspx">ID3D10EffectPool</a>**</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/e64c9285-f4ee-4bed-a57d-8ccc3e6b3ba3">ID3D10EffectPool Interface</a> that contains the effect pool.
+A pointer to the <a href="https://msdn.microsoft.com/library/Bb173667(v=VS.85).aspx">ID3D10EffectPool Interface</a> that contains the effect pool.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -108,9 +108,9 @@ Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4
 
 
 
-A pool is a shared location in memory. Effect variables that are located in a pool can be updated once, and the effect system will take care of updating each effect that uses that variable. To pool an effect variable, tell the effect to locate the variable in a pool when the effect is created, using a helper function such as <a href="https://msdn.microsoft.com/1418857e-bda1-4ffb-bbb9-dfa3709313b1">D3DX10CreateEffectFromFile</a>.
+A pool is a shared location in memory. Effect variables that are located in a pool can be updated once, and the effect system will take care of updating each effect that uses that variable. To pool an effect variable, tell the effect to locate the variable in a pool when the effect is created, using a helper function such as <a href="https://msdn.microsoft.com/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a>.
 
-For help compiling an effect, see <a href="https://msdn.microsoft.com/b8d8a0b7-b520-44e4-8691-6eb46202c092">Compile an Effect (Direct3D 10)</a>.
+For help compiling an effect, see <a href="https://msdn.microsoft.com/library/Bb205078(v=VS.85).aspx">Compile an Effect (Direct3D 10)</a>.
 
 
 
@@ -120,7 +120,7 @@ For help compiling an effect, see <a href="https://msdn.microsoft.com/b8d8a0b7-b
 
 
 
-<a href="https://msdn.microsoft.com/b76643f0-387f-49c6-80e5-4d7b406b4db7">Effect Functions (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/library/Bb205177(v=VS.85).aspx">Effect Functions (Direct3D 10)</a>
  
 
  

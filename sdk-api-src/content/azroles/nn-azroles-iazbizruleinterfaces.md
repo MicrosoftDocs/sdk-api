@@ -50,12 +50,12 @@ req.irql:
 ## -description
 
 
-The <b>IAzBizRuleInterfaces</b> interface provides methods and properties used to manage a list of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts.
+The <b>IAzBizRuleInterfaces</b> interface provides methods and properties used to manage a list of <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleInterfaces</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzBizRuleInterfaces</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleInterfaces</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzBizRuleInterfaces</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

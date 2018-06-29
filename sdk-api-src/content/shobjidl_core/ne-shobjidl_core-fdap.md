@@ -7,7 +7,7 @@ old-location: shell\FDAP.htm
 old-project: shell
 ms.assetid: 96865947-abd1-4045-9bb2-5839e9592ad2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FDAP, FDAP enumeration [Windows Shell], FDAP_BOTTOM, FDAP_TOP, _shell_FDAP, shell.FDAP, shobjidl_core/FDAP, shobjidl_core/FDAP_BOTTOM, shobjidl_core/FDAP_TOP
 ms.prod: windows
 ms.technology: windows-sdk

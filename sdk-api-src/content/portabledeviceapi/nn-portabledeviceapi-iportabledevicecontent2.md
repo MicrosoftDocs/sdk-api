@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceContent2 interface
@@ -56,7 +56,7 @@ The <b>IPortableDeviceContent2</b> interface defines additional methods that pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="https://msdn.microsoft.com/7a03c673-8e7f-41a4-81ba-88406af2762d">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

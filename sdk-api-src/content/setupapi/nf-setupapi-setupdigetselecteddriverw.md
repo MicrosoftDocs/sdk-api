@@ -7,7 +7,7 @@ old-location: devinst\setupdigetselecteddriver.htm
 old-project: devinst
 ms.assetid: dd3d9736-755c-497c-a523-18ca66557ae7
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetSelectedDriver, SetupDiGetSelectedDriver function [Device and Driver Installation], SetupDiGetSelectedDriverA, SetupDiGetSelectedDriverW, devinst.setupdigetselecteddriver, di-rtns_6ea54b58-1b3f-4437-afa0-501a23af3529.xml, setupapi/SetupDiGetSelectedDriver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetSelectedDriverW function
@@ -62,7 +62,7 @@ The <b>SetupDiGetSelectedDriver</b> function retrieves the selected driver for a
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to retrieve a selected driver.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve a selected driver.
 
 
 ### -param DeviceInfoData [in, optional]

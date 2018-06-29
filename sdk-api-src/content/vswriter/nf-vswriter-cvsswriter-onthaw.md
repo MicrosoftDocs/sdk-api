@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 The 
-<b>OnThaw</b> method is called by a writer following a <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-t">Thaw</a> event.
+<b>OnThaw</b> method is called by a writer following a <a href="https://msdn.microsoft.com/library/Aa384668(v=VS.85).aspx">Thaw</a> event.
 
 <b>OnThaw</b> is a pure virtual method. It is not implemented by the 
 <a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> base class, and must be implemented by derived classes.
@@ -94,7 +94,7 @@ Final updates by the writer to the backup components metadata and cleanup (such 
 Writers should never throw an exception from this method or any other <b>CVssWriter(Ex)::On<i>Xxx</i></b> callback method.
 
 If this method calls the <a href="https://msdn.microsoft.com/bea5ba9c-538b-453f-ae6d-12b94b8edeb6">CVssWriterEx2::GetSessionId</a>, <a href="https://msdn.microsoft.com/9fef9d77-dc0d-4ba0-a317-5c62355458f7">CVssWriter::SetWriterFailure</a>, or <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="https://www.bing.com/search?q=Writer+Event+Handling">Writer Event Handling</a>.
+<a href="https://msdn.microsoft.com/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
 
 
 

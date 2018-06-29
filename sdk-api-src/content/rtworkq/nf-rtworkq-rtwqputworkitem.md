@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RtwqPutWorkItem function
@@ -61,7 +61,7 @@ Puts an asynchronous operation on a work queue.
 
 ### -param dwQueue [in]
 
-The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To create a new work queue, call <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> or <a href="https://www.bing.com/search?q=RtwqAllocateWorkQueueEx">RtwqAllocateWorkQueueEx</a>. 
+The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To create a new work queue, call <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> or <a href="base.rtwqallocateworkqueueex">RtwqAllocateWorkQueueEx</a>. 
 
 
 ### -param lPriority [in]

@@ -7,7 +7,7 @@ old-location: devinst\setupdiclassnamefromguidex.htm
 old-project: devinst
 ms.assetid: 0d576df1-e259-4025-8ef0-a520f5680fa0
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiClassNameFromGuidEx, SetupDiClassNameFromGuidEx function [Device and Driver Installation], SetupDiClassNameFromGuidExA, SetupDiClassNameFromGuidExW, devinst.setupdiclassnamefromguidex, di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml, setupapi/SetupDiClassNameFromGuidEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiClassNameFromGuidExA function

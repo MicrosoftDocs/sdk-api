@@ -121,7 +121,7 @@ Binary format.
 
 A pointer to a <b>BSTR</b> that receives the CRL.
 
-When using this method, create a variable of <b>BSTR</b> type, set the variable to <b>NULL</b>, and pass the address of this variable in the <i>pbstrCRL</i> parameter. When you have finished using the <b>BSTR</b> variable, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> function.
+When using this method, create a variable of <b>BSTR</b> type, set the variable to <b>NULL</b>, and pass the address of this variable in the <i>pbstrCRL</i> parameter. When you have finished using the <b>BSTR</b> variable, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns

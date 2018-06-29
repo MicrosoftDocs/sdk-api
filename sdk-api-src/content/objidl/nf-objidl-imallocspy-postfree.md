@@ -7,7 +7,7 @@ old-location: com\imallocspy_postfree.htm
 old-project: com
 ms.assetid: b46b0b1e-6144-4bb8-84d5-9db5690b7421
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IMallocSpy interface [COM],PostFree method, IMallocSpy.PostFree, IMallocSpy::PostFree, PostFree, PostFree method [COM], PostFree method [COM],IMallocSpy interface, _com_imallocspy_postfree, com.imallocspy_postfree, objidl/IMallocSpy::PostFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IMallocSpy::PostFree

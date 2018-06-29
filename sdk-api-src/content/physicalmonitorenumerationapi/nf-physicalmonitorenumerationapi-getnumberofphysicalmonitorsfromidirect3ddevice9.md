@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function
@@ -63,7 +63,7 @@ req.product: Rights Management Services client 1.0 or later
 ### -param pDirect3DDevice9 [in]
 
 
-            Pointer to the <a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a> interface of the Direct3D device.
+            Pointer to the <a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of the Direct3D device.
           
 
 

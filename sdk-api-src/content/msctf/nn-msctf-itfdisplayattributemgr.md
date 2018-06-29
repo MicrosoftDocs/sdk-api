@@ -109,7 +109,7 @@ Called when a display attribute is changed.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

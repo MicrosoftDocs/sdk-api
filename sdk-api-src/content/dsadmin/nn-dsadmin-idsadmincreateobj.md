@@ -52,7 +52,7 @@ req.irql:
 
 The <b>IDsAdminCreateObj</b> interface is implemented by the system and used by an application or component to programmatically start a creation wizard for a specified object class.
 
-To obtain an instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsAdminCreateObj</b> class identifier as shown below.
+To obtain an instance of this interface, call <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsAdminCreateObj</b> class identifier as shown below.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -114,11 +114,11 @@ Initializes the
 
 
 
-<a href="https://www.bing.com/search?q=Admin+Interfaces+in+Active+Directory+Domain+Services">Admin Interfaces in Active Directory Domain Services</a>
+<a href="https://msdn.microsoft.com/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
 
 
 

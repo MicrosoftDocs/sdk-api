@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantCompare function
@@ -91,7 +91,7 @@ Type: <b>INT</b>
 
 
 
-Calling <a href="https://www.bing.com/search?q=PropVariantCompare">PropVariantCompare</a> is equivalent to calling <a href="https://www.bing.com/search?q=PropVariantCompareEx">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
+Calling <a href="https://msdn.microsoft.com/library/Bb776516(v=VS.85).aspx">PropVariantCompare</a> is equivalent to calling <a href="https://msdn.microsoft.com/library/Bb776517(v=VS.85).aspx">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
 
 This function compares only selected types, not all types.
 
@@ -109,7 +109,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantCompareEx">PropVariantCompareEx</a>
+<a href="https://msdn.microsoft.com/library/Bb776517(v=VS.85).aspx">PropVariantCompareEx</a>
  
 
  

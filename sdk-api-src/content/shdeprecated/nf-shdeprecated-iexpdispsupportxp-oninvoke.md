@@ -7,7 +7,7 @@ old-location: shell\IExpDispSupportXP_OnInvoke.htm
 old-project: shell
 ms.assetid: 92ae2e5c-466e-4f73-a2e3-7d040e756a50
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnInvoke method, IExpDispSupportXP.OnInvoke, IExpDispSupportXP::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnInvoke, shdeprecated/IExpDispSupportXP::OnInvoke, shell.IExpDispSupportXP_OnInvoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,9 +89,9 @@ Specifies flags describing the context of the call.
 
 ### -param pdispparams [in]
 
-Type: <b><a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagdispparams">DISPPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a>*</b>
 
-Specifies a pointer to a <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagdispparams">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for the number of elements in the arrays.
 
 
 ### -param pVarResult [out]
@@ -112,7 +112,7 @@ Receives a pointer to a structure that contains exception information. This stru
 
 Type: <b>UINT*</b>
 
-Receives the index within the <b>rgvarg</b> member of the <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagdispparams">DISPPARAMS</a> structure of the first argument that has an error.
+Receives the index within the <b>rgvarg</b> member of the <a href="https://msdn.microsoft.com/library/ms221416(v=VS.85).aspx">DISPPARAMS</a> structure of the first argument that has an error.
 
 
 ## -returns

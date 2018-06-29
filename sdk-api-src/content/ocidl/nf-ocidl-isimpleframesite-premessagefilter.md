@@ -7,7 +7,7 @@ old-location: com\isimpleframesite_premessagefilter.htm
 old-project: com
 ms.assetid: f308ea77-12e7-450b-8b0f-252f1d240388
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ISimpleFrameSite interface [COM],PreMessageFilter method, ISimpleFrameSite.PreMessageFilter, ISimpleFrameSite::PreMessageFilter, PreMessageFilter, PreMessageFilter method [COM], PreMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_premessagefilter, com.isimpleframesite_premessagefilter, ocidl/ISimpleFrameSite::PreMessageFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISimpleFrameSite::PreMessageFilter

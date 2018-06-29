@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumSearchScopeRules::Next
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Retrieves the specified number of <a href="https://msdn.microsoft.com/ace8d4f8-ffe0-45ff-8ba4-691efad23013">ISearchScopeRule</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a> elements.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ The number of elements to retrieve.
 
 ### -param pprgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ace8d4f8-ffe0-45ff-8ba4-691efad23013">ISearchScopeRule</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a>**</b>
 
-On return, contains a pointer to an array of <a href="https://msdn.microsoft.com/ace8d4f8-ffe0-45ff-8ba4-691efad23013">ISearchScopeRule</a> elements.
+On return, contains a pointer to an array of <a href="https://msdn.microsoft.com/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a> elements.
 
 
 ### -param pceltFetched [in, out]

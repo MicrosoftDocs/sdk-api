@@ -123,8 +123,8 @@ Insufficient memory exists to perform the operation.
 
 This method returns only the terminals selected on the substream. Other terminals may be selected on the stream or on other substreams within the stream; those terminals are not returned.
 
-TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/a364e466-1d10-402f-935d-ff2713522fed">IEnumTerminal</a> interface returned by <b>ITSubStream::EnumerateTerminals</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/a364e466-1d10-402f-935d-ff2713522fed">IEnumTerminal</a> interface returned by <b>ITSubStream::EnumerateTerminals</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
 <b>IEnumTerminal</b> interface to free resources associated with it.
 
 

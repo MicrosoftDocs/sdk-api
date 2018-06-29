@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetNtmsDeviceChangeDetection function
@@ -193,7 +193,7 @@ This function can also be used to poll for changed media in the specified device
 
 
 
-<a href="https://www.bing.com/search?q=Change+Detection+Functions">Change Detection Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
 
 
 

@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Converts the glyph <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">advance widths</a> for a specific font into logical widths.
+Converts the glyph <a href="https://msdn.microsoft.com/library/Dd374094(v=VS.85).aspx">advance widths</a> for a specific font into logical widths.
 
 
 ## -parameters

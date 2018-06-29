@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagDESCKIND enumeration
@@ -66,12 +66,12 @@ No match was found.
 
 ### -field DESCKIND_FUNCDESC
 
-A <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagfuncdesc">FUNCDESC</a> was returned.
+A <a href="https://msdn.microsoft.com/library/ms221425(v=VS.85).aspx">FUNCDESC</a> was returned.
 
 
 ### -field DESCKIND_VARDESC
 
-A <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvardesc">VARDESC</a> was returned.
+A <a href="https://msdn.microsoft.com/library/ms221391(v=VS.85).aspx">VARDESC</a> was returned.
 
 
 ### -field DESCKIND_TYPECOMP

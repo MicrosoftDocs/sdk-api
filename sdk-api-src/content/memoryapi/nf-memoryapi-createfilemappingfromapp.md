@@ -73,7 +73,7 @@ A handle to the file from which to create a file mapping object.
 The file must be opened with access rights that are compatible with the protection flags that the 
        <i>flProtect</i> parameter specifies. It is not required, but it is recommended that files 
        you intend to map be opened for exclusive access. For more information, see 
-       <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+       <a href="https://msdn.microsoft.com/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -398,8 +398,8 @@ The exception is related to remote files. Although
     not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>) are not necessarily coherent.
+    (<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> and 
+    <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>) are not necessarily coherent.
 
 Mapped views of a file mapping object maintain internal references to the object, and a file mapping object 
     does not close until all references to it are released. Therefore, to fully close a file mapping object, an 
@@ -460,7 +460,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
@@ -476,7 +476,7 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IDispatch::GetTypeInfo
@@ -125,7 +125,7 @@ The <i>iTInfo</i> parameter was not 0.
 
 
 
-<a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>
+<a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>
  
 
  

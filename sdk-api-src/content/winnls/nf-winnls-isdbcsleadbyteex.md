@@ -144,7 +144,7 @@ In general, instead of attempting low-level manipulation of code page data, appl
 
 Lead byte values are specific to each distinct DBCS. Some byte values can appear in a single code page as both the lead and trail byte of a DBCS character. Thus, <b>IsDBCSLeadByteEx</b> can only indicate a potential lead byte value.
 
-To make sense of a DBCS string, an application normally starts at the beginning of the string and scans forward, keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same character. To back up, the application should use <a href="https://www.bing.com/search?q=CharPrevExA">CharPrevExA</a> instead of attempting to develop its own algorithm.
+To make sense of a DBCS string, an application normally starts at the beginning of the string and scans forward, keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same character. To back up, the application should use <a href="https://msdn.microsoft.com/library/ms647472(v=VS.85).aspx">CharPrevExA</a> instead of attempting to develop its own algorithm.
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ClearVariantArray function
@@ -98,7 +98,7 @@ This function releases the memory and references held by each structure in the a
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=ClearVariantArray">ClearVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -122,11 +122,11 @@ ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://www.bing.com/search?q=ClearPropVariantArray">ClearPropVariantArray</a>
+<a href="https://msdn.microsoft.com/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=FreePropVariantArray">FreePropVariantArray</a>
+<a href="https://msdn.microsoft.com/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>
  
 
  

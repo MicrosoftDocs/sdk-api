@@ -204,7 +204,7 @@ You can use this method to configure an MFT after it is inserted into the proces
 </ul>
 If a decoder is present, it appears at index position zero.
 
-To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/processing-media-data-with-the-source-reader">Draining the Data Pipeline</a>.
+To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="https://msdn.microsoft.com/library/Dd389281(v=VS.85).aspx">Draining the Data Pipeline</a>.
 
 
 

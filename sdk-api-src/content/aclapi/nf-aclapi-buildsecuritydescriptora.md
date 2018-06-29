@@ -171,7 +171,7 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://www.bing.com/search?q=Client/Server+Access+Control+Functions">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

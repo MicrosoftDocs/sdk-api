@@ -7,7 +7,7 @@ old-location: winrm\wsmancallbackflags.htm
 old-project: WinRM
 ms.assetid: ce4c664d-bc69-415a-955d-7761f58a25e2
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_FLAG_CALLBACK_END_OF_OPERATION, WSMAN_FLAG_CALLBACK_END_OF_STREAM, WSManCallbackFlags, WSManCallbackFlags enumeration [Windows Remote Management], winrm.wsmancallbackflags, wsman/WSMAN_FLAG_CALLBACK_END_OF_OPERATION, wsman/WSMAN_FLAG_CALLBACK_END_OF_STREAM, wsman/WSManCallbackFlags
 ms.prod: windows
 ms.technology: windows-sdk

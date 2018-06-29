@@ -66,7 +66,7 @@ The number of points that are returned.
 
 ### -param pXYZColors [out]
 
-A pointer to an array of <a href="https://www.bing.com/search?q=XYZColorF">XYZColorF</a> structures.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/Dd372458(v=VS.85).aspx">XYZColorF</a> structures.
 
 
 ## -returns

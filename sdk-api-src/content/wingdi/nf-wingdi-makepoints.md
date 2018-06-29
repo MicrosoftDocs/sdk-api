@@ -81,7 +81,7 @@ The coordinates of a point. The x-coordinate is in the low-order word, and the y
 
 
 
-<a href="https://www.bing.com/search?q=GetMessagePos">GetMessagePos</a>
+<a href="https://msdn.microsoft.com/library/ms644938(v=VS.85).aspx">GetMessagePos</a>
 
 
 

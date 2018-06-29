@@ -7,7 +7,7 @@ old-location: shell\SHARDAPPIDINFOIDLIST.htm
 old-project: shell
 ms.assetid: 11c69ff9-b8a0-4168-8036-f45a9f7813ba
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHARDAPPIDINFOIDLIST, SHARDAPPIDINFOIDLIST structure [Windows Shell], _shell_SHARDAPPIDINFOIDLIST, shell.SHARDAPPIDINFOIDLIST, shlobj_core/SHARDAPPIDINFOIDLIST
 ms.prod: windows
 ms.technology: windows-sdk

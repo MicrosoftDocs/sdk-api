@@ -7,7 +7,7 @@ old-location: shell\DWordPtrMult.htm
 old-project: shell
 ms.assetid: 9f5beb13-17cd-44ef-a352-843d51304ab6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
 ms.prod: windows
 ms.technology: windows-sdk

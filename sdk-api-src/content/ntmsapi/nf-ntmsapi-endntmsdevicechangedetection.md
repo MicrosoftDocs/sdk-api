@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # EndNtmsDeviceChangeDetection function
@@ -139,7 +139,7 @@ Closing the Removable Storage Manager session also ends all device change detect
 
 
 
-<a href="https://www.bing.com/search?q=Change+Detection+Functions">Change Detection Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
 
 
 

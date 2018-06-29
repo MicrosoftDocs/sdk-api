@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _settextex structure
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a> message. 
+Specifies which code page (if any) to use in setting text, whether the text replaces all the text in the control or just the selection, and whether the undo state is to be preserved. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb774284(v=VS.85).aspx">EM_SETTEXTEX</a> message. 
 
 
 ## -struct-fields
@@ -138,7 +138,7 @@ The code page used to translate the text to Unicode. If <b>codepage</b> is 1200 
 
 
 
-<a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a>
+<a href="https://msdn.microsoft.com/library/Bb774284(v=VS.85).aspx">EM_SETTEXTEX</a>
  
 
  

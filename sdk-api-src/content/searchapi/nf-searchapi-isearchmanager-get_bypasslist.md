@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchManager::get_BypassList
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/93fc8bb8-9cec-4c3a-8a7f-a988e931f803">ISearchManager::SetProxy</a>.
+Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling <a href="https://msdn.microsoft.com/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a>.
         
 
 

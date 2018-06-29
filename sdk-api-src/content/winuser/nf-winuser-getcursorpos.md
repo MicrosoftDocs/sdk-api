@@ -7,7 +7,7 @@ old-location: menurc\getcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursorpos.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: GetCursorPos, GetCursorPos function [Menus and Other Resources], _win32_GetCursorPos, _win32_getcursorpos_cpp, menurc.getcursorpos, winui._win32_getcursorpos, winuser/GetCursorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -94,12 +94,12 @@ The cursor position is always specified in screen coordinates and is not affecte
 
 The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window station.
 
-The input desktop must be the current desktop when you call <b>GetCursorPos</b>. Call <a href="https://www.bing.com/search?q=OpenInputDesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://www.bing.com/search?q=SetThreadDesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
+The input desktop must be the current desktop when you call <b>GetCursorPos</b>. Call <a href="https://msdn.microsoft.com/023d421e-bf32-4e08-b5b3-b7b2ca6c4e00">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://msdn.microsoft.com/619c591f-54b7-4b61-aa07-fc57e05ee37a">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Using+the+Keyboard+to+Move+the+Cursor">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 
@@ -110,7 +110,7 @@ For an example, see <a href="https://www.bing.com/search?q=Using+the+Keyboard+to
 
 
 
-<a href="https://msdn.microsoft.com/bafaf206-cc53-4537-b7a5-2903fbfca893">ClipCursor</a>
+<a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a>
 
 
 
@@ -118,15 +118,15 @@ For an example, see <a href="https://www.bing.com/search?q=Using+the+Keyboard+to
 
 
 
-<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
+<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/4dea42e7-f78f-4e34-9e1d-e76123a209fc">GetCursorInfo</a>
+<a href="https://msdn.microsoft.com/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7244da5f-96f5-4cf6-acc3-697f8e4f7283">GetMessagePos</a>
+<a href="https://msdn.microsoft.com/library/ms644938(v=VS.85).aspx">GetMessagePos</a>
 
 
 
@@ -142,15 +142,15 @@ For an example, see <a href="https://www.bing.com/search?q=Using+the+Keyboard+to
 
 
 
-<a href="https://msdn.microsoft.com/69bb9f90-5366-4141-97b6-57e41b774614">SetCursor</a>
+<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/b17cf57f-dd96-4695-a51e-ee1e1f00f85f">SetCursorPos</a>
+<a href="https://msdn.microsoft.com/library/ms648394(v=VS.85).aspx">SetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/6712b6b7-bdb0-4078-ba38-7ad744bbf765">ShowCursor</a>
+<a href="https://msdn.microsoft.com/library/ms648396(v=VS.85).aspx">ShowCursor</a>
  
 
  

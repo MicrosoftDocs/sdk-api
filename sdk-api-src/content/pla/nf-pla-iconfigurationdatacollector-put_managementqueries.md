@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IConfigurationDataCollector::put_ManagementQueries
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-For details on writing WMI queries, see <a href="https://www.bing.com/search?q=WQL+(SQL+for+WMI)">WQL (SQL for WMI)</a>.
+For details on writing WMI queries, see <a href="https://msdn.microsoft.com/library/Aa394606(v=VS.85).aspx">WQL (SQL for WMI)</a>.
 
 
 

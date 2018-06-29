@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcServerUseProtseqEpExA function
@@ -220,7 +220,7 @@ For more information, see
 <a href="https://msdn.microsoft.com/a33b51e7-2ded-46bd-aadb-27cbd99e1029">Configuring the Registry for Port Allocations and Selective Binding</a>, and 
 <a href="https://msdn.microsoft.com/f1c8665b-3754-4c2e-b3ac-bba1f4b329e1">RPC Message Queuing</a> and the MIDL reference pages 
 <a href="https://msdn.microsoft.com/ec616bf5-a845-4e7e-9f39-20947d2074f7">message</a> and 
-<a href="https://www.bing.com/search?q=ncadg_mq">ncadg_mq</a>.
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>.
 
 
 

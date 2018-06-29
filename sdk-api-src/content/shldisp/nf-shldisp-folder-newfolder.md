@@ -7,7 +7,7 @@ old-location: shell\Folder_NewFolder.htm
 old-project: shell
 ms.assetid: 7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: Folder object [Windows Shell],NewFolder method, Folder.NewFolder, Folder::NewFolder, NewFolder, NewFolder method [Windows Shell], NewFolder method [Windows Shell],Folder object, _win32_Folder_NewFolder, shell.Folder_NewFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Creates a new folder.
 
 ### -param bName
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A string that specifies the name of the new folder.
 

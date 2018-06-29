@@ -63,7 +63,7 @@ Sets the East Asian "autospace alpha" state.
 
 Type: <b>long</b>
 
-A <a href="https://www.bing.com/search?q=tomBool">tomBool</a> value that can be one of the following.
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

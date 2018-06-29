@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_isrunning.htm
 old-project: com
 ms.assetid: 44564e70-b157-4f60-9b51-337613f6a4c9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IRunningObjectTable interface [COM],IsRunning method, IRunningObjectTable.IsRunning, IRunningObjectTable::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunningObjectTable interface, _com_irunningobjecttable_isrunning, com.irunningobjecttable_isrunning, objidl/IRunningObjectTable::IsRunning
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRunningObjectTable::IsRunning

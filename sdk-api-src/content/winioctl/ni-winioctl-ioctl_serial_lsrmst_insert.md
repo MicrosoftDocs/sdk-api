@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a> function.
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> function.
 
 When this line-status and modem-status data placement mode is enabled, status values are preceded in the data stream by an escape character. The user-definable escape character is set by the 
 <b>IOCTL_SERIAL_LSRMST_INSERT</b> control code. See the Remarks section for status value details.

@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithStream_Initialize.htm
 old-project: shell
 ms.assetid: 1e04c0a4-aa9b-4e2c-8307-525809ca903f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IInitializeWithStream interface [Windows Shell],Initialize method, IInitializeWithStream.Initialize, IInitializeWithStream::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithStream interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithStream::Initialize, shell.IInitializeWithStream_Initialize, shell_IInitializeWithStream_Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IInitializeWithStream::Initialize

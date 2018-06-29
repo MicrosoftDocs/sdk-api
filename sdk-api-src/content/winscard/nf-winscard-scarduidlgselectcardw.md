@@ -82,7 +82,7 @@ If the function successfully displays the
 						<b>Select Card</b> dialog box, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 
 

@@ -97,7 +97,7 @@ no error occurs, <b>WSCGetProviderPath32</b> returns zero. Otherwise, it returns
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_rendering_mode.htm
 old-project: DirectWrite
 ms.assetid: c6b2c15a-be22-49ce-affd-1369e23f4d6b
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/11/2018
 ms.keywords: DWRITE_RENDERING_MODE, DWRITE_RENDERING_MODE (Windows 8 and later)
     , DWRITE_RENDERING_MODE enumeration [Direct Write], DWRITE_RENDERING_MODE_ALIASED, DWRITE_RENDERING_MODE_DEFAULT, DWRITE_RENDERING_MODE_GDI_CLASSIC, DWRITE_RENDERING_MODE_GDI_NATURAL, DWRITE_RENDERING_MODE_NATURAL, DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE_OUTLINE, directwrite.dwrite_rendering_mode, dwrite/DWRITE_RENDERING_MODE, dwrite/DWRITE_RENDERING_MODE_ALIASED, dwrite/DWRITE_RENDERING_MODE_DEFAULT, dwrite/DWRITE_RENDERING_MODE_GDI_CLASSIC, dwrite/DWRITE_RENDERING_MODE_GDI_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, dwrite/DWRITE_RENDERING_MODE_OUTLINE
 ms.prod: windows
@@ -56,8 +56,7 @@ req.product: Windows Media Format 9 Series or later
       Represents a method of rendering glyphs.
       
 <div class="alert"><b>Note</b>  
-        This topic is about <b>DWRITE_RENDERING_MODE</b> in Windows 8 and later.  For info on the previous version see <a href="https://msdn.microsoft.com/CDC07FE8-9642-4CAC-934A-F5A95FB568CE">this topic</a>.
-      </div><div> </div>
+        This topic is about <b>DWRITE_RENDERING_MODE</b> in Windows 8 and later.  For info on the previous version see the Remarks section. </div><div> </div>
 
 ## -enum-fields
 
@@ -120,6 +119,29 @@ Specifies that rendering should bypass the rasterizer and use the outlines direc
 
 
 ### -field DWRITE_RENDERING_MODE_CLEARTYPE_NATURAL_SYMMETRIC
+
+
+
+
+## -remarks
+
+
+
+<h3><a id="DWRITE_RENDERING_MODE_previous_to_Windows_8"></a><a id="dwrite_rendering_mode_previous_to_windows_8"></a><a id="DWRITE_RENDERING_MODE_PREVIOUS_TO_WINDOWS_8"></a>DWRITE_RENDERING_MODE previous to Windows 8</h3>
+
+<pre class="syntax">enum DWRITE_RENDERING_MODE {
+  DWRITE_RENDERING_MODE_DEFAULT, 
+  DWRITE_RENDERING_MODE_ALIASED, 
+  DWRITE_RENDERING_MODE_CLEARTYPE_GDI_CLASSIC, 
+  DWRITE_RENDERING_MODE_CLEARTYPE_GDI_NATURAL, 
+  DWRITE_RENDERING_MODE_CLEARTYPE_NATURAL, 
+  DWRITE_RENDERING_MODE_CLEARTYPE_NATURAL_SYMMETRIC, 
+  DWRITE_RENDERING_MODE_OUTLINE 
+
+};</pre>
+
+
+
 
 
 

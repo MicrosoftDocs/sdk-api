@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _charformatw structure
@@ -56,7 +56,7 @@ req.product: Rights Management Services client 1.0 or later
 Contains information about character formatting in a rich edit control.
         
 
-<b>Rich Edit 2.0:</b> The <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
+<b>Rich Edit 2.0:</b> The <a href="https://msdn.microsoft.com/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/library/Bb788026(v=VS.85).aspx">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/library/Bb774230(v=VS.85).aspx">EM_SETCHARFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -283,7 +283,7 @@ Characters are underlined.
 </dl>
 </td>
 <td width="60%">
-Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code.
+Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code.
 
 </td>
 </tr>
@@ -349,19 +349,19 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a>
+<a href="https://msdn.microsoft.com/library/Bb788026(v=VS.85).aspx">EM_GETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a>
+<a href="https://msdn.microsoft.com/library/Bb774230(v=VS.85).aspx">EM_SETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
 
 
 

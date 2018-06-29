@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyEnumType::GetEnumType
@@ -69,25 +69,25 @@ When this method returns, contains a pointer to one of the values listed below t
 
 #### PET_DISCRETEVALUE (0)
 
-Use <a href="https://www.bing.com/search?q=GetDisplayText">GetDisplayText</a> and either <a href="https://www.bing.com/search?q=GetRangeMinValue">GetRangeMinValue</a> or <a href="https://www.bing.com/search?q=GetRangeSetValue">GetRangeSetValue</a>.
+Use <a href="https://msdn.microsoft.com/library/Bb761485(v=VS.85).aspx">GetDisplayText</a> and either <a href="https://msdn.microsoft.com/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a> or <a href="https://msdn.microsoft.com/library/Bb761491(v=VS.85).aspx">GetRangeSetValue</a>.
 
 
 
 #### PET_RANGEDVALUE (1)
 
-Use <a href="https://www.bing.com/search?q=GetDisplayText">GetDisplayText</a> and either <a href="https://www.bing.com/search?q=GetRangeMinValue">GetRangeMinValue</a> or <a href="https://www.bing.com/search?q=GetRangeSetValue">GetRangeSetValue</a>.
+Use <a href="https://msdn.microsoft.com/library/Bb761485(v=VS.85).aspx">GetDisplayText</a> and either <a href="https://msdn.microsoft.com/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a> or <a href="https://msdn.microsoft.com/library/Bb761491(v=VS.85).aspx">GetRangeSetValue</a>.
 
 
 
 #### PET_DEFAULTVALUE (2)
 
-Use <a href="https://www.bing.com/search?q=GetDisplayText">GetDisplayText</a>.
+Use <a href="https://msdn.microsoft.com/library/Bb761485(v=VS.85).aspx">GetDisplayText</a>.
 
 
 
 #### PET_ENDRANGE (3)
 
-Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a> or <a href="https://www.bing.com/search?q=GetRangeMinValue">GetRangeMinValue</a>.
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a> or <a href="https://msdn.microsoft.com/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For additional information, see <a href="https://www.bing.com/search?q=enumeratedList">enumeratedList</a>.
+For additional information, see <a href="https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
 
 
 

@@ -66,15 +66,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoAnimation</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLasVegasLights</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBlinkingBackground</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSparkleText</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingBlackAnts</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingRedAnts</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShimmer</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeDown</a>
-<a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeRight</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomNoAnimation</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomLasVegasLights</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomBlinkingBackground</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomSparkleText</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMarchingBlackAnts</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMarchingRedAnts</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomShimmer</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomWipeDown</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomWipeRight</a>
 
 ## -returns
 
@@ -126,7 +126,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -134,11 +134,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/e3edc0c9-0f75-4b6a-a4c4-b7659bbb89cf">SetAnimation</a>
+<a href="https://msdn.microsoft.com/library/Bb774127(v=VS.85).aspx">SetAnimation</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

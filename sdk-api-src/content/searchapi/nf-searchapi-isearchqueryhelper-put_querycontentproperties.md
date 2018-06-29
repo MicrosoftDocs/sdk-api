@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchQueryHelper::put_QueryContentProperties
@@ -84,9 +84,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Search terms may or may not be explicitly prefixed by a property ("author:Irina" or just "Irina"). If <i>SEARCH_ADVANCED_QUERY_SYNTAX</i> or <i>NO_QUERY_SYNTAX</i> is set in <a href="https://msdn.microsoft.com/4df77a77-10fd-411c-bd35-450ffdbc1da8">ISearchQueryHelper::put_QuerySyntax</a>, all search terms not prefixed by a property keyword are matched against the list of properties in <i>ppszContentProperties</i>.
+Search terms may or may not be explicitly prefixed by a property ("author:Irina" or just "Irina"). If <i>SEARCH_ADVANCED_QUERY_SYNTAX</i> or <i>NO_QUERY_SYNTAX</i> is set in <a href="https://msdn.microsoft.com/library/Bb231320(v=VS.85).aspx">ISearchQueryHelper::put_QuerySyntax</a>, all search terms not prefixed by a property keyword are matched against the list of properties in <i>ppszContentProperties</i>.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
 
 
 
@@ -96,19 +96,19 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b1df4af-6210-4bd8-949c-d0cc5f1afe5d">ISearchQueryHelper::get_QueryContentProperties</a>
+<a href="https://msdn.microsoft.com/library/Bb231305(v=VS.85).aspx">ISearchQueryHelper::get_QueryContentProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
 
 
 

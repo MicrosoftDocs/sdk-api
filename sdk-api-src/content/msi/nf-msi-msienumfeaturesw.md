@@ -7,7 +7,7 @@ old-location: setup\msienumfeatures.htm
 old-project: Msi
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
 ms.prod: windows
 ms.technology: windows-sdk

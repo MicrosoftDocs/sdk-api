@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Developers should use <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
+Developers should use <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
 
 
 ## -parameters

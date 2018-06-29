@@ -7,7 +7,7 @@ old-location: gpmc\igpmmigrationtable_deleteentry.htm
 old-project: GPMC
 ms.assetid: 712a6419-2f64-4657-993a-e7f6bfc1259e
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: DeleteEntry, DeleteEntry method [GPMC], DeleteEntry method [GPMC],GPMMigrationTable class, DeleteEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],DeleteEntry method, IGPMMigrationTable interface [GPMC],DeleteEntry method, IGPMMigrationTable.DeleteEntry, IGPMMigrationTable::DeleteEntry, gpmc.igpmmigrationtable_deleteentry, gpmgmt/IGPMMigrationTable::DeleteEntry
 ms.prod: windows
 ms.technology: windows-sdk

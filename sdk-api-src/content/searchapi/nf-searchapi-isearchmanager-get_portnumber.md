@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchManager::get_PortNumber
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-            Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the <a href="https://msdn.microsoft.com/93fc8bb8-9cec-4c3a-8a7f-a988e931f803">ISearchManager::SetProxy</a> method.
+            Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the <a href="https://msdn.microsoft.com/library/Bb231488(v=VS.85).aspx">ISearchManager::SetProxy</a> method.
 
 
 ## -parameters

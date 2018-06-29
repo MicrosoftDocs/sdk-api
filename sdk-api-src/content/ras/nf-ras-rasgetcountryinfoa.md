@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RasGetCountryInfoA function
@@ -56,7 +56,7 @@ req.product: Rights Management Services client 1.0 or later
 The 
 <b>RasGetCountryInfo</b> function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 
-For more information about country/region-specific dialing information and <a href="https://www.bing.com/search?q=Telephony+Application+Programming+Interface+(TAPI)">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
+For more information about country/region-specific dialing information and <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
 
 
 ## -parameters

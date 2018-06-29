@@ -7,7 +7,7 @@ old-location: tablet\inkedit_recognizer.htm
 old-project: tablet
 ms.assetid: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 531bc7f0-1a62-40c2-81f9-ceafe9388a0e, IInkEdit interface [Tablet PC],Recognizer property, IInkEdit.Recognizer, IInkEdit.get_Recognizer, IInkEdit::Recognizer, IInkEdit::get_Recognizer, IInkEdit::put_Recognizer, InkEdit.get_Recognizer, InkEdit.putref_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkEdit interface, get_Recognizer, inked/IInkEdit::Recognizer, inked/IInkEdit::get_Recognizer, inked/IInkEdit::put_Recognizer, putref_Recognizer, tablet.inkedit_recognizer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ If a factoid is used for the <a href="https://msdn.microsoft.com/52761cb2-4433-4
 
 
 
-<a href="/windows/desktop/api/inked/nn-inked-iinkedit">IInkEdit</a>
+<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

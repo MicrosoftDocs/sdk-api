@@ -2,7 +2,7 @@
 UID: NA:windows.ui.xaml.hosting.referencetracker
 ms.assetid: 2a725ab0-ccd3-39eb-9d42-341832c712bd
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

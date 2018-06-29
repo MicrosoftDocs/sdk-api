@@ -110,7 +110,7 @@ The method succeeded.
 The <b>creator</b> property describes  the entity that is primarily responsible for making the content of
 the resource.
 
-This method allocates the memory used by the string that is returned in <i>creator</i>.  If <i>creator</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>creator</i>.  If <i>creator</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
 
 
 

@@ -7,7 +7,7 @@ old-location: gpmc\igpmasynccancel.htm
 old-project: GPMC
 ms.assetid: 74b2bb04-6118-4fd1-83c0-3549db3f35f3
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMAsyncCancel, IGPMAsyncCancel, IGPMAsyncCancel interface [GPMC], IGPMAsyncCancel interface [GPMC],described, _win32_igpmasynccancel, gpmc.igpmasynccancel, gpmgmt/IGPMAsyncCancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ A pointer to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMAsyncCancel</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMAsyncCancel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMAsyncCancel</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMAsyncCancel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -101,7 +101,7 @@ the <a href="https://msdn.microsoft.com/db5d59a2-ab46-42f1-9637-6b342795c9f0">IG
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

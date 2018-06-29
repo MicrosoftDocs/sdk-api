@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CLAIMMEDIALABEL callback function
@@ -134,7 +134,7 @@ When a media label library uses the
 
 
 
-<a href="https://www.bing.com/search?q=Media+Label+Library+Functions">Media Label Library Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Media Label Library Functions</a>
 
 
 

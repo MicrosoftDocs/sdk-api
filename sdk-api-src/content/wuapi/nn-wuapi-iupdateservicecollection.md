@@ -59,7 +59,7 @@ Represents a list of <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tablet\igesturerecognizer_reset.htm
 old-project: tablet
 ms.assetid: 05676701-2977-453f-b2b9-7a256899e2b1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer interface [Tablet PC],Reset method, IGestureRecognizer.Reset, IGestureRecognizer::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IGestureRecognizer interface, rtscom/IGestureRecognizer::Reset, tablet.igesturerecognizer_reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IGestureRecognizer::Reset

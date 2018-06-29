@@ -73,7 +73,7 @@ The anchor has forward gravity.
 
 
 
-For more information about anchor gravity, see <a href="https://www.bing.com/search?q=Anchor+Gravity">Anchor Gravity</a>.
+For more information about anchor gravity, see <a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>.
 
 
 
@@ -83,7 +83,7 @@ For more information about anchor gravity, see <a href="https://www.bing.com/sea
 
 
 
-<a href="https://www.bing.com/search?q=Anchor+Gravity">Anchor Gravity</a>
+<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
 
 
 

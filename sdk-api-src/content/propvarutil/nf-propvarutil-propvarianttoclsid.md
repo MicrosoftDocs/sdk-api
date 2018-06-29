@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToCLSID function
@@ -101,12 +101,12 @@ This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 
 
-<a href="https://www.bing.com/search?q=PropVariantToCLSID">PropVariantToCLSID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single CLSID or GUID value. For instance, an application obtaining values from a property store can use this to safely extract the CLSID value for GUID properties.
+<a href="https://msdn.microsoft.com/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single CLSID or GUID value. For instance, an application obtaining values from a property store can use this to safely extract the CLSID value for GUID properties.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToCLSID">PropVariantToCLSID</a> to access a CLSID value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a> to access a CLSID value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -147,15 +147,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
+<a href="https://msdn.microsoft.com/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToGUID">PropVariantToGUID</a>
+<a href="https://msdn.microsoft.com/library/Bb776545(v=VS.85).aspx">PropVariantToGUID</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToGUID">VariantToGUID</a>
+<a href="https://msdn.microsoft.com/library/Bb776603(v=VS.85).aspx">VariantToGUID</a>
  
 
  

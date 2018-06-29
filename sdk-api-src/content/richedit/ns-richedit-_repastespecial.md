@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _repastespecial structure
@@ -108,7 +108,7 @@ Aspect data. If <b>dwAspect</b> is DVASPECT_ICON, this member contains the handl
 
 
 
-<a href="https://msdn.microsoft.com/b4b9c1a7-943d-4dc8-bcb9-054c984b82ba">EM_PASTESPECIAL</a>
+<a href="https://msdn.microsoft.com/library/Bb774214(v=VS.85).aspx">EM_PASTESPECIAL</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\ioleobject_getclientsite.htm
 old-project: com
 ms.assetid: bf26b989-445c-48d3-b279-29e4cef0ad97
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetClientSite, GetClientSite method [COM], GetClientSite method [COM],IOleObject interface, IOleObject interface [COM],GetClientSite method, IOleObject.GetClientSite, IOleObject::GetClientSite, _ole_ioleobject_getclientsite, com.ioleobject_getclientsite, oleidl/IOleObject::GetClientSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleObject::GetClientSite

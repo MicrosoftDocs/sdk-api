@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_recognitionflags.htm
 old-project: tablet
 ms.assetid: 71b02f99-4076-4c56-b88a-4201b7033411
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 71b02f99-4076-4c56-b88a-4201b7033411, IInkRecognizerContext interface [Tablet PC],RecognitionFlags property, IInkRecognizerContext.RecognitionFlags, IInkRecognizerContext.get_RecognitionFlags, IInkRecognizerContext::RecognitionFlags, IInkRecognizerContext::get_RecognitionFlags, IInkRecognizerContext::put_RecognitionFlags, InkRecognizerContext.get_RecognitionFlags, InkRecognizerContext.put_RecognitionFlags, RecognitionFlags property [Tablet PC], RecognitionFlags property [Tablet PC],IInkRecognizerContext interface, get_RecognitionFlags, msinkaut/IInkRecognizerContext::RecognitionFlags, msinkaut/IInkRecognizerContext::get_RecognitionFlags, msinkaut/IInkRecognizerContext::put_RecognitionFlags, put_RecognitionFlags, tablet.inkrecognizercontext_recognitionflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ For a list of modes that you can use, see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms696371(v=vs.85).aspx">IInkRecognizerContext</a>
+<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
 
 
 

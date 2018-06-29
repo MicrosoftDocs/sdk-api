@@ -7,7 +7,7 @@ old-location: com\coinvalidateremotemachinebindings.htm
 old-project: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchCatalogManager2::PrioritizeMatchingURLs
@@ -68,9 +68,9 @@ A string specifying the URL pattern that defines items that failed indexing and 
 
 ### -param dwPrioritizeFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/554d405e-c117-4597-9612-20cd6088ebef">PRIORITIZE_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/554d405e-c117-4597-9612-20cd6088ebef">PRIORITIZE_FLAGS</a> enumeration that specifies how to process items that the indexer has failed to index.
+A value from the <a href="https://msdn.microsoft.com/library/Cc142933(v=VS.85).aspx">PRIORITIZE_FLAGS</a> enumeration that specifies how to process items that the indexer has failed to index.
 
 
 ## -returns

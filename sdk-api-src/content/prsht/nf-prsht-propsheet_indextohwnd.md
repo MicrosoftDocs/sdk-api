@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropSheet_IndexToHwnd macro
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/93b46b4c-47f9-4ce8-8797-f3d4bd5248e9">PSM_INDEXTOHWND</a> message explicitly.
+Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774585(v=VS.85).aspx">PSM_INDEXTOHWND</a> message explicitly.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/a90c1ccc-f25e-476a-bdc5-f4fb568a3cb5">PropSheet_HwndToIndex</a>
+<a href="https://msdn.microsoft.com/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
  
 
  

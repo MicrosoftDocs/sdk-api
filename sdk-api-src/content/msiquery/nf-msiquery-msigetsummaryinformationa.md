@@ -7,7 +7,7 @@ old-location: setup\msigetsummaryinformation.htm
 old-project: Msi
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ To view the summary information of a patch using <b>MsiGetSummaryInformation</b>
 <b>MsiGetSummaryInformation</b> as the <i>hDatabase</i> parameter.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop//Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
+<a href="https://msdn.microsoft.com/b9e90ed4-fda8-4628-a713-67c651e1b572">MsiCloseHandle</a>. For more information see <a href="https://msdn.microsoft.com/library/Bb204770(v=VS.85).aspx">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://msdn.microsoft.com/ff48d995-fe6f-4d1b-898d-67574ed3c5b7">Windows Installer Best Practices</a>.
 
 If the function fails, you can obtain extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
 
@@ -122,7 +122,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Summary Information Property Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
 
 
 

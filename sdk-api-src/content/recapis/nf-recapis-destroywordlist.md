@@ -7,7 +7,7 @@ old-location: tablet\destroywordlist.htm
 old-project: tablet
 ms.assetid: 380e81a0-1df1-48b8-a582-a52badfc9ca6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 380e81a0-1df1-48b8-a582-a52badfc9ca6, DestroyWordList, DestroyWordList function [Tablet PC], recapis/DestroyWordList, tablet.destroywordlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DestroyWordList function

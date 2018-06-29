@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_dirty.htm
 old-project: tablet
 ms.assetid: 3399219f-96a5-4c66-8e41-89927ea1020d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 3399219f-96a5-4c66-8e41-89927ea1020d, Dirty property [Tablet PC], Dirty property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Dirty property, IInkDisp.Dirty, IInkDisp.get_Dirty, IInkDisp::Dirty, IInkDisp::get_Dirty, IInkDisp::put_Dirty, InkDisp.get_Dirty, InkDisp.put_Dirty, get_Dirty, msinkaut/IInkDisp::Dirty, msinkaut/IInkDisp::get_Dirty, msinkaut/IInkDisp::put_Dirty, put_Dirty, tablet.inkdisp_dirty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ After ink is saved, the dirty flag is automatically cleared and the value of thi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

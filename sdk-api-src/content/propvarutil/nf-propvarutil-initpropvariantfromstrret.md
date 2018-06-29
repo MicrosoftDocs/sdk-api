@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromStrRet function
@@ -102,7 +102,7 @@ Creates a VT_LPWSTR propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromStrRet">InitPropVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762308(v=VS.85).aspx">InitPropVariantFromStrRet</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -135,19 +135,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromStrRet">InitVariantFromStrRet</a>
+<a href="https://msdn.microsoft.com/library/Bb762337(v=VS.85).aspx">InitVariantFromStrRet</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
  
 
  

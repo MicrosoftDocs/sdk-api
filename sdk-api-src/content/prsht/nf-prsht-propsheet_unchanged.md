@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropSheet_UnChanged macro
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Informs a property sheet that information in a page has reverted to the previously saved state. You can use this macro or send the <a href="https://msdn.microsoft.com/61c15dec-40d0-4720-a117-4eed765c8819">PSM_UNCHANGED</a> message explicitly.
+Informs a property sheet that information in a page has reverted to the previously saved state. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774632(v=VS.85).aspx">PSM_UNCHANGED</a> message explicitly.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ Handle to the page that has reverted to the previously saved state.
 
 The property sheet disables the <b>Apply Now</b> button if no other pages have registered changes with the property sheet.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

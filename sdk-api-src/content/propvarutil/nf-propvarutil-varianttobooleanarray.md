@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # VariantToBooleanArray function
@@ -139,7 +139,7 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=VariantToBooleanArray">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -177,23 +177,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>
+<a href="https://msdn.microsoft.com/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToBooleanVector">PropVariantToBooleanVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantGetBooleanElem">VariantGetBooleanElem</a>
+<a href="https://msdn.microsoft.com/library/Bb776581(v=VS.85).aspx">VariantGetBooleanElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBoolean">VariantToBoolean</a>
+<a href="https://msdn.microsoft.com/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBooleanArrayAlloc">VariantToBooleanArrayAlloc</a>
+<a href="https://msdn.microsoft.com/library/Bb776594(v=VS.85).aspx">VariantToBooleanArrayAlloc</a>
  
 
  

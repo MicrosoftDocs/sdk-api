@@ -86,7 +86,7 @@ If <b>AddWizard97Page</b> is not
      <a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a> 
      methods. Before calling 
      <b>AddWizard97Page</b>, extensions must 
-     call the function <a href="https://www.bing.com/search?q=CreatePropertySheetPage">CreatePropertySheetPage</a> 
+     call the function <a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> 
      to retrieve a handle to pass in the <i>hpage</i> parameter.
 
 To add non-Wizard97 pages, use 

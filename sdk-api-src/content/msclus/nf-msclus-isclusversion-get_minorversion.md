@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:msclus.ISClusVersion.get_MinorVersion
 title: ISClusVersion::get_MinorVersion
 author: windows-sdk-content
@@ -72,7 +72,7 @@ This property is read-only.
 
 The <a href="https://msdn.microsoft.com/f4d81e0a-4f65-470b-9215-f1b91e582646">ClusVersion.MajorVersion</a> and 
     <b>MinorVersion</b> properties together form a 
-    complete Windows <a href="https://msdn.microsoft.com/en-us/library/aa373122(v=vs.85).aspx">version number</a>.
+    complete Windows <a href="https://msdn.microsoft.com/library/ms691788(v=VS.85).aspx">version number</a>.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>

@@ -173,7 +173,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://www.bing.com/search?q=Key+Identifier+Functions">Key Identifier Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Key Identifier Functions</a>
  
 
  

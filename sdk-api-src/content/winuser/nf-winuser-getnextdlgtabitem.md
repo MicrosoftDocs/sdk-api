@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Retrieves a handle to the first 
-		control that has the <a href="https://www.bing.com/search?q=WS_TABSTOP">WS_TABSTOP</a> 
+		control that has the <a href="https://msdn.microsoft.com/library/ms644995(v=VS.85).aspx">WS_TABSTOP</a> 
 		style that precedes (or follows) the specified control. 
 
 
@@ -95,7 +95,7 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the window handle 
 				of the previous (or next) control that has the 
-				<a href="https://www.bing.com/search?q=WS_TABSTOP">WS_TABSTOP</a> style set. 
+				<a href="https://msdn.microsoft.com/library/ms644995(v=VS.85).aspx">WS_TABSTOP</a> style set. 
 
 If the function fails, the return value is <b>NULL</b>. To get extended error 
 				information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -107,7 +107,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error
 
 
 
-The <b>GetNextDlgTabItem</b> function searches controls in the order (or reverse order) they were created in the dialog box template. The function returns the first control it locates that is visible, not disabled, and has the <a href="https://www.bing.com/search?q=WS_TABSTOP">WS_TABSTOP</a> style. If no such control exists, the function returns <i>hCtl</i>. 
+The <b>GetNextDlgTabItem</b> function searches controls in the order (or reverse order) they were created in the dialog box template. The function returns the first control it locates that is visible, not disabled, and has the <a href="https://msdn.microsoft.com/library/ms644995(v=VS.85).aspx">WS_TABSTOP</a> style. If no such control exists, the function returns <i>hCtl</i>. 
 
 If the search for the next control with the <b>WS_TABSTOP</b> style encounters a window with the <b>WS_EX_CONTROLPARENT</b> style, the system recursively searches the window's children.
 
@@ -123,15 +123,15 @@ If the search for the next control with the <b>WS_TABSTOP</b> style encounters a
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/c119d716-b07f-4644-9d51-da94fab3e516">GetDlgItem</a>
+<a href="https://msdn.microsoft.com/library/ms645481(v=VS.85).aspx">GetDlgItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/7677d5fa-a4bc-458c-a252-88f397407a07">GetNextDlgGroupItem</a>
+<a href="https://msdn.microsoft.com/library/ms645492(v=VS.85).aspx">GetNextDlgGroupItem</a>
 
 
 

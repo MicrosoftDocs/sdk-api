@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher_EnumApps.htm
 old-project: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IAppPublisher::EnumApps

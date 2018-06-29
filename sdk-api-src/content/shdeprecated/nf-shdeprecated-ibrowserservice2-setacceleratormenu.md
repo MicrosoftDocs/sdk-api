@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_SetAcceleratorMenu.htm
 old-project: shell
 ms.assetid: 64c7ce89-c3c5-4a09-aff2-57103ade671a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAcceleratorMenu method, IBrowserService2.SetAcceleratorMenu, IBrowserService2::SetAcceleratorMenu, SetAcceleratorMenu, SetAcceleratorMenu method [Windows Shell], SetAcceleratorMenu method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAcceleratorMenu, shell.IBrowserService2_SetAcceleratorMenu, zone_IBrowserService2_SetAcceleratorMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Deprecated. Implemented by a derived class to define menu accelerators that can 
 Type: <b>HACCEL</b>
 
 
-          A handle to an array of <a href="https://msdn.microsoft.com/9995bfc3-adc5-4a6d-b834-a96e1ceb6ea0">ACCEL</a> structures, each structure describing a keyboard mnemonic.
+          A handle to an array of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures, each structure describing a keyboard mnemonic.
         
 
 

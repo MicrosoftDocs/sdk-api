@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>IWMHeaderInfo2</b> interface exposes information about the <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">codecs</a> used to create the content in a file.
+The <b>IWMHeaderInfo2</b> interface exposes information about the <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">codecs</a> used to create the content in a file.
 
 The <b>IWMHeaderInfo2</b> interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object. To obtain a pointer to an instance, call the <b>QueryInterface</b> method of any other interface in the desired object.
 

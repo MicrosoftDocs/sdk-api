@@ -7,7 +7,7 @@ old-location: com\iolecontainer.htm
 old-project: com
 ms.assetid: 98549309-8ac8-4391-92ab-8a62269ff579
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleContainer, IOleContainer interface [COM], IOleContainer interface [COM],described, _ole_iolecontainer, com.iolecontainer, oleidl/IOleContainer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleContainer interface

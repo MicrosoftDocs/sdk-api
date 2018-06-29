@@ -226,7 +226,7 @@ if(!CertCloseStore(hSystemStore, 0))
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Store+Functions">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
  
 
  

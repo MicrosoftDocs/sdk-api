@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IUrlAccessor::AddRequestParameter
@@ -63,19 +63,19 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param pSpec [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropspec">PROPSPEC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>*</b>
 
 
-                Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropspec">PROPSPEC</a> structure containing the requested property.
+                Pointer to a <a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure containing the requested property.
                 
 
 
 ### -param pVar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
 
 
-                Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
+                Pointer to a <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
                 
 
 

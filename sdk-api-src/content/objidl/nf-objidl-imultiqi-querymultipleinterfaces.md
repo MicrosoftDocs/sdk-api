@@ -7,7 +7,7 @@ old-location: com\imultiqi_querymultipleinterfaces.htm
 old-project: com
 ms.assetid: 412f1d03-f40c-4451-9c99-1134c69c9989
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.QueryMultipleInterfaces, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM],IMultiQI interface, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IMultiQI::QueryMultipleInterfaces

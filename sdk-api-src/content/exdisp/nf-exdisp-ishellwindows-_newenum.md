@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_NewEnum.htm
 old-project: shell
 ms.assetid: e91b2be7-2be9-4460-9a2a-57090dcfc961
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellWindows interface [Windows Shell],_NewEnum method, IShellWindows._NewEnum, IShellWindows::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],IShellWindows interface, _win32_IShellWindows_NewEnum, exdisp/IShellWindows::_NewEnum, shell.IShellWindows_NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Retrieves an enumerator for the collection of Shell windows.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
-When this method returns, contains an interface pointer to an object that implements the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
+When this method returns, contains an interface pointer to an object that implements the <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface.
 
 
 ## -returns

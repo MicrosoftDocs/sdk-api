@@ -106,7 +106,7 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
+<a href="https://msdn.microsoft.com/library/ms694338(v=VS.85).aspx">OleLoad</a>
 
 
 

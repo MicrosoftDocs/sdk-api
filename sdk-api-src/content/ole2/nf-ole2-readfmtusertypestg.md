@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ReadFmtUserTypeStg function

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSUnregisterPropertySchema function
@@ -111,7 +111,7 @@ The calling context does not have proper privileges.
 
 
 
-This function is a wrapper for the schema subsystem's implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-unregisterpropertyschema">IPropertySystem::UnregisterPropertySchema</a>. Call this method when the file is being uninstalled from the computer. Typically, a setup application calls this method before or after uninstalling the .propdesc file. This method can be called after the file no longer exists.
+This function is a wrapper for the schema subsystem's implementation of <a href="shell.IPropertySystem_UnregisterPropertySchema">IPropertySystem::UnregisterPropertySchema</a>. Call this method when the file is being uninstalled from the computer. Typically, a setup application calls this method before or after uninstalling the .propdesc file. This method can be called after the file no longer exists.
 
 This function fails with a code of E_ACCESSDENIED if the calling context does not have proper privileges, which include write access to HKLM (HKEY_LOCAL_MACHINE). It is the responsibility of the calling application to obtain privileges through User Account Control (UAC) mechanisms.
 
@@ -123,7 +123,7 @@ This function fails with a code of E_ACCESSDENIED if the calling context does no
 
 
 
-<a href="https://www.bing.com/search?q=PSRegisterPropertySchema">PSRegisterPropertySchema</a>
+<a href="https://msdn.microsoft.com/library/Bb762087(v=VS.85).aspx">PSRegisterPropertySchema</a>
  
 
  

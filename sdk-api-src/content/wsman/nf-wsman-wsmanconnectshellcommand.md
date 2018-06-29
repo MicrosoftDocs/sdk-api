@@ -7,7 +7,7 @@ old-location: winrm\wsmanconnectshellcommand.htm
 old-project: WinRM
 ms.assetid: 860EC6F8-35A9-4C12-9247-4E14E6B1D66A
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManConnectShellCommand, WSManConnectShellCommand function [Windows Remote Management], winrm.wsmanconnectshellcommand, wsman/WSManConnectShellCommand
 ms.prod: windows
 ms.technology: windows-sdk

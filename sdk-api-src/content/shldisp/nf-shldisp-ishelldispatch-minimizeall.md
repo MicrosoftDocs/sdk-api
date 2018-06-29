@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_MinimizeAll.htm
 old-project: shell
 ms.assetid: 25DD56B0-221E-44a2-9FAD-FB358ADD7FF1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellDispatch object [Windows Shell],MinimizeAll method, IShellDispatch.MinimizeAll, IShellDispatch::MinimizeAll, MinimizeAll, MinimizeAll method [Windows Shell], MinimizeAll method [Windows Shell],IShellDispatch object, shell.IShellDispatch_MinimizeAll
 ms.prod: windows
 ms.technology: windows-sdk

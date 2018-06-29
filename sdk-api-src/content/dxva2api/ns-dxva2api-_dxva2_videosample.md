@@ -86,7 +86,7 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 ### -field SrcSurface
 
 
-            Pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
+            Pointer to the <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
           
 
 

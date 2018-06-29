@@ -68,7 +68,7 @@ Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-
 
 ### -field bstrText
 
-Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 ## -see-also
@@ -81,11 +81,11 @@ Contains a <b>BSTR</b> that contains the string for the balloon. This string mus
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_getformat.htm
 old-project: tablet
 ms.assetid: 8f894963-7075-46f4-8809-82d1aa7e13e7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [Tablet PC], GetFormat method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetFormat method, IInkLineInfo.GetFormat, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
 ms.prod: windows
 ms.technology: windows-sdk

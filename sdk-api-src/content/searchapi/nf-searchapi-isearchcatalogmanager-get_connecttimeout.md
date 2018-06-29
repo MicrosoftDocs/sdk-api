@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchCatalogManager::get_ConnectTimeout
@@ -63,7 +63,7 @@ Gets the connection time-out value for connecting to a store for indexing.
 
 Type: <b>DWORD*</b>
 
-Receives a pointer to the time-out value, in seconds, from the <a href="https://msdn.microsoft.com/f6032470-abfd-4808-921c-7fa687ed640f">TIMEOUT_INFO</a> structure.
+Receives a pointer to the time-out value, in seconds, from the <a href="https://msdn.microsoft.com/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure.
 
 
 ## -returns

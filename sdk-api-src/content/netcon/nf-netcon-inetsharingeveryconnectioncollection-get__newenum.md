@@ -64,7 +64,7 @@ The
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
+Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
 
 
 ## -returns

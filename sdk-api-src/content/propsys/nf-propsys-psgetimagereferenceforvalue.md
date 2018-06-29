@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSGetImageReferenceForValue function
@@ -63,7 +63,7 @@ Gets an instance of a property description interface for a specified property.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure that specifies the property.
+A reference to a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that specifies the property.
 
 
 ### -param propvar

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceCapabilities::Cancel
@@ -108,7 +108,7 @@ This method cancels all pending operations on the current device handle, which c
 
 
 
-<a href="https://msdn.microsoft.com/c292a509-f202-4136-bbf7-b4e82ef2b936">IPortableDeviceCapabilities Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
  
 
  

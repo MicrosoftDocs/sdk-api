@@ -88,12 +88,12 @@ A custom property must have one of the following data types specified by the <a 
 
 
 <ul>
-<li><a href="https://www.bing.com/search?q=UIAutomationType_Bool">UIAutomationType_Bool</a></li>
-<li><a href="https://www.bing.com/search?q=UIAutomationType_Double">UIAutomationType_Double</a></li>
-<li><a href="https://www.bing.com/search?q=UIAutomationType_Element">UIAutomationType_Element</a></li>
-<li><a href="https://www.bing.com/search?q=UIAutomationType_Int">UIAutomationType_Int</a></li>
-<li><a href="https://www.bing.com/search?q=UIAutomationType_Point">UIAutomationType_Point</a></li>
-<li><a href="https://www.bing.com/search?q=UIAutomationType_String">UIAutomationType_String</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Bool</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Double</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Element</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Int</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Point</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_String</a></li>
 </ul>
 
 

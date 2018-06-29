@@ -116,7 +116,7 @@ A handle to the established <a href="https://msdn.microsoft.com/ce589e18-02ac-42
 
 					If the function succeeds, the function returns SCARD_S_SUCCESS. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-return-values">Smart Card Return Values</a>. 
+If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>. 
 
 
 

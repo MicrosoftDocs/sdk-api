@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PERF_COUNTERSET_INFO structure
@@ -61,7 +61,7 @@ Defines information about a counter set that a provider uses.  The <a href="http
 
 ### -field CounterSetGuid
 
-GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="https://msdn.microsoft.com/">counterSet</a> element contains the GUID.
+GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="perf.counterset_element">counterSet</a> element contains the GUID.
 
 
 ### -field ProviderGuid

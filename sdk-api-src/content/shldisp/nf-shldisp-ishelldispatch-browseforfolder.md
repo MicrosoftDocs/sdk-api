@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_BrowseForFolder.htm
 old-project: shell
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: BrowseForFolder, BrowseForFolder method [Windows Shell], BrowseForFolder method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],BrowseForFolder method, IShellDispatch.BrowseForFolder, IShellDispatch::BrowseForFolder, shell.IShellDispatch_BrowseForFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ An <b>Integer</b> value that contains the options for the method. This can be ze
 
 #### - sTitle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221069.aspx">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
 

@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectGroupImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1d31921-1115-4027-bfa5-58d543602ac6">GetChildren</a>
+<a href="https://msdn.microsoft.com/library/ms735284(v=VS.85).aspx">GetChildren</a>
 </td>
 <td align="left" width="63%">
 Gets the children of the effect group.
@@ -80,7 +80,7 @@ Gets the children of the effect group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a53d96f4-92a9-4095-8ffa-154e65e4eb81">GetNumberChildren</a>
+<a href="https://msdn.microsoft.com/library/ms735285(v=VS.85).aspx">GetNumberChildren</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of children in an effect group.
@@ -89,7 +89,7 @@ Retrieves the number of children in an effect group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f68dc0e-5405-4275-9be8-714b4c799d23">Preprocess</a>
+<a href="https://msdn.microsoft.com/library/ms735287(v=VS.85).aspx">Preprocess</a>
 </td>
 <td align="left" width="63%">
 Pre-process the given render context.

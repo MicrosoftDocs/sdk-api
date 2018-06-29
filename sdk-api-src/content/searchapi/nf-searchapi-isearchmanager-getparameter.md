@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchManager::GetParameter
@@ -71,7 +71,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>**</b>
 
 
                     Returns a value in an undefined state as there are no properties currently defined to retrieve values from.

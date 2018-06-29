@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # LocateCatalogsA function
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Finds the catalog that indexes a directory.
 
@@ -219,7 +219,7 @@ for ( ULONG iBmk = 0; S_OK == hr; iBmk++ )
 
 
 
-<a href="https://msdn.microsoft.com/5129179c-71ca-4e89-86de-e4ba69aba2e4">SetCatalogState</a>
+<a href="https://msdn.microsoft.com/library/ms691047(v=VS.85).aspx">SetCatalogState</a>
  
 
  

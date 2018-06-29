@@ -7,7 +7,7 @@ old-location: devinst\setupdichangestate.htm
 old-project: devinst
 ms.assetid: 204c1366-1817-4cd1-a1fd-a4ad3e79b7cc
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiChangeState, SetupDiChangeState function [Device and Driver Installation], devinst.setupdichangestate, di-rtns_0749286d-9e78-4e2a-8bbf-483d698753ba.xml, setupapi/SetupDiChangeState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiChangeState function
@@ -62,7 +62,7 @@ The <b>SetupDiChangeState</b> function is the default handler for the <a href="h
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for the local computer. This set contains a device information element that represents the device whose state is to be changed. 
+A handle to a <a href="devinst.device_information_sets">device information set</a> for the local computer. This set contains a device information element that represents the device whose state is to be changed. 
 
 
 ### -param DeviceInfoData [in, out]
@@ -87,7 +87,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The caller of <b>SetupDiChangeState</b> must be a member of the Administrators group.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiChangeState</b> and only in those situations where the class installer must perform property change operations after <b>SetupDiChangeState</b> completes the default property change operation. In such situations, the class installer must directly call <b>SetupDiChangeState</b> when the installer processes a DIF_PROPERTYCHANGE request. For more information about calling the default handler, see <a href="https://www.bing.com/search?q=Calling+Default+DIF+Code+Handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiChangeState</b> and only in those situations where the class installer must perform property change operations after <b>SetupDiChangeState</b> completes the default property change operation. In such situations, the class installer must directly call <b>SetupDiChangeState</b> when the installer processes a DIF_PROPERTYCHANGE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 Callers of <b>SetupDiChangeState</b> must specify a DICS_<i>XXX</i> flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553315">SP_PROPCHANGE_PARAMS</a> for the device element that indicates the type of state change to perform on the device. Callers of this function must set the appropriate fields in the SP_PROPCHANGE_PARAMS and call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552122">SetupDiSetClassInstallParams</a> before calling this function.
 

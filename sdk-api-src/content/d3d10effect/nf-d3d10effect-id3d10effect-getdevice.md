@@ -60,18 +60,18 @@ Get the device that created the effect.
 
 ### -param ppDevice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>**</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4
 
 
 
-An effect is created for a specific device, by calling a function such as <a href="https://msdn.microsoft.com/1418857e-bda1-4ffb-bbb9-dfa3709313b1">D3DX10CreateEffectFromFile</a>.
+An effect is created for a specific device, by calling a function such as <a href="https://msdn.microsoft.com/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a>.
 
 
 
@@ -90,7 +90,7 @@ An effect is created for a specific device, by calling a function such as <a hre
 
 
 
-<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
  
 
  

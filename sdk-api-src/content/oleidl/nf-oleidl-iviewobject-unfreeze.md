@@ -7,7 +7,7 @@ old-location: com\iviewobject_unfreeze.htm
 old-project: com
 ms.assetid: 76f3c5f6-3f29-4a89-94e2-f77489e6a744
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, IViewObject::Unfreeze, Unfreeze, Unfreeze method [COM], Unfreeze method [COM],IViewObject interface, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IViewObject::Unfreeze

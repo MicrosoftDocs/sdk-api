@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IUrlAccessor4::ShouldIndexProperty
@@ -83,7 +83,7 @@ Returns S_FALSE if the property should not be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/e49bfd50-1743-41aa-b11b-c47b9355489f">IUrlAccessor4</a>
+<a href="https://msdn.microsoft.com/library/Dd183431(v=VS.85).aspx">IUrlAccessor4</a>
  
 
  

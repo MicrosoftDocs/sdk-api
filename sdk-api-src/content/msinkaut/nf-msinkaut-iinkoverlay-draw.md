@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_draw.htm
 old-project: tablet
 ms.assetid: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb, Draw, Draw method [Tablet PC], Draw method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],Draw method, IInkOverlay.Draw, IInkOverlay::Draw, msinkaut/IInkOverlay::Draw, tablet.inkoverlay_draw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms698599(v=vs.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

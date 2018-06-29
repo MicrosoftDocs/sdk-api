@@ -61,16 +61,16 @@ Gets the depth-stencil surface owned by the Direct3DDevice object.
 
 ### -param ppZStencilSurface [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface, representing the returned depth-stencil surface. 
+Address of a pointer to an <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface, representing the returned depth-stencil surface. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.If the device doesn't have a depth stencil buffer associated with it, the return value will be D3DERR_NOTFOUND. Otherwise, if the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -81,7 +81,7 @@ If the method succeeds, the return value is D3D_OK.If the device doesn't have a 
 
 
 
-Calling this method will increase the internal reference count on the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface. Failure to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when finished using this <b>IDirect3DSurface9</b> interface results in a memory leak.
+Calling this method will increase the internal reference count on the <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface. Failure to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when finished using this <b>IDirect3DSurface9</b> interface results in a memory leak.
 
 
 
@@ -91,11 +91,11 @@ Calling this method will increase the internal reference count on the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0ffb4fc-6428-44b1-9f9d-88a5fa88d712">IDirect3DDevice9::SetDepthStencilSurface</a>
+<a href="https://msdn.microsoft.com/library/Bb174431(v=VS.85).aspx">IDirect3DDevice9::SetDepthStencilSurface</a>
  
 
  

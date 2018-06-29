@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromUInt64Array function
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762343(v=VS.85).aspx">InitVariantFromUInt64Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
+<a href="https://msdn.microsoft.com/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromUInt64">InitVariantFromUInt64</a>
+<a href="https://msdn.microsoft.com/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt64Array">VariantToUInt64Array</a>
+<a href="https://msdn.microsoft.com/library/Bb776632(v=VS.85).aspx">VariantToUInt64Array</a>
  
 
  

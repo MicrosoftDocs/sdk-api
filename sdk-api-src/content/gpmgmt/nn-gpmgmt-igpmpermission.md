@@ -7,7 +7,7 @@ old-location: gpmc\igpmpermission.htm
 old-project: GPMC
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
 ms.prod: windows
 ms.technology: windows-sdk
@@ -333,7 +333,7 @@ For more information about security groups, see
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

@@ -71,7 +71,7 @@ The
 ### -param ppCapability [out]
 
 Capability value. The <b>BSTR</b> is allocated using 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceContent::Properties
@@ -132,7 +132,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/7a03c673-8e7f-41a4-81ba-88406af2762d">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
 
 
 

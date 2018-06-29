@@ -66,7 +66,7 @@ This property is read-only.
 
 Denying membership to an account in an application group does not prevent that account from being assigned to a role through a different application group, nor from being granted permission to a resource through assignment to any other role.
 
-In JScript, the returned <a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/windows/desktop/08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
+In JScript, the returned <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

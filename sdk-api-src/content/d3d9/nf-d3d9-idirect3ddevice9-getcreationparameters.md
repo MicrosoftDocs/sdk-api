@@ -61,16 +61,16 @@ Retrieves the creation parameters of the device.
 
 ### -param pParameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/7db5ef2b-6894-4113-b726-8b238bb4fb2f">D3DDEVICE_CREATION_PARAMETERS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172538(v=VS.85).aspx">D3DDEVICE_CREATION_PARAMETERS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/7db5ef2b-6894-4113-b726-8b238bb4fb2f">D3DDEVICE_CREATION_PARAMETERS</a> structure, describing the creation parameters of the device. 
+Pointer to a <a href="https://msdn.microsoft.com/library/Bb172538(v=VS.85).aspx">D3DDEVICE_CREATION_PARAMETERS</a> structure, describing the creation parameters of the device. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
 
@@ -84,7 +84,7 @@ D3DERR_INVALIDCALL is returned if the argument is invalid.
 
 
 
-You can query the AdapterOrdinal member of the returned <a href="https://msdn.microsoft.com/7db5ef2b-6894-4113-b726-8b238bb4fb2f">D3DDEVICE_CREATION_PARAMETERS</a> structure to retrieve the ordinal of the adapter represented by this device. 
+You can query the AdapterOrdinal member of the returned <a href="https://msdn.microsoft.com/library/Bb172538(v=VS.85).aspx">D3DDEVICE_CREATION_PARAMETERS</a> structure to retrieve the ordinal of the adapter represented by this device. 
 
 
 
@@ -94,7 +94,7 @@ You can query the AdapterOrdinal member of the returned <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

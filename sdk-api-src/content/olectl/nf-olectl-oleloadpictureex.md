@@ -7,7 +7,7 @@ old-location: com\oleloadpictureex.htm
 old-project: com
 ms.assetid: c903096f-f15f-4a36-8efc-20cf7102e77d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: OleLoadPictureEx, OleLoadPictureEx function [COM], _ole_OleLoadPictureEx, com.oleloadpictureex, olectl/OleLoadPictureEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # OleLoadPictureEx function

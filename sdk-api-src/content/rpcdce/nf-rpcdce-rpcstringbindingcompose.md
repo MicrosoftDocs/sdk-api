@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcStringBindingCompose function
@@ -65,7 +65,7 @@ The
 ### -param ObjUuid
 
 Pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://www.bing.com/search?q=UUID">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
 
 
 ### -param ProtSeq

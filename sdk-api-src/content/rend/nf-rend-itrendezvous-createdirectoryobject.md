@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITRendezvous::CreateDirectoryObject
@@ -148,8 +148,8 @@ Pointer is invalid.
 
 
 The application must use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://msdn.microsoft.com/a48644a4-43e2-4c52-84be-0cb5c49e6436">ITDirectoryObject</a> interface returned by <b>ITRendezvous::CreateDirectoryObject</b>. The application must call <b>Release</b> on the 

@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Posts a return code and an error message (in the form of a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> object) to the server in response to a request.
+Posts a return code and an error message (in the form of a <a href="https://msdn.microsoft.com/e57636aa-6e04-4159-8fe1-5cc14d193891">CIM_Error</a> object) to the server in response to a request.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A pointer to the request context.
 
 ### -param error [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> object to be posted to the server.
+A pointer to a <a href="https://msdn.microsoft.com/e57636aa-6e04-4159-8fe1-5cc14d193891">CIM_Error</a> object to be posted to the server.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 
 
-The <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a> instance that is returned in the <i>error</i> parameter can be compiled into your provider so you can initialize and then post it. Once an error has been posted, the context must not be used, as it becomes invalid at this point.
+The <a href="https://msdn.microsoft.com/e57636aa-6e04-4159-8fe1-5cc14d193891">CIM_Error</a> instance that is returned in the <i>error</i> parameter can be compiled into your provider so you can initialize and then post it. Once an error has been posted, the context must not be used, as it becomes invalid at this point.
 
 
 
@@ -92,7 +92,7 @@ The <a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CI
 
 
 
-<a href="https://msdn.microsoft.com/a7dc450d-7dbd-4097-a186-0e42f100fbfe">CIM_Error</a>
+<a href="https://msdn.microsoft.com/e57636aa-6e04-4159-8fe1-5cc14d193891">CIM_Error</a>
 
 
 

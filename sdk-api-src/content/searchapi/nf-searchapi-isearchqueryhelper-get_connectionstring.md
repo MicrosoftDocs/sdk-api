@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchQueryHelper::get_ConnectionString
@@ -70,7 +70,7 @@ Returns the OLE DB connection string for the Window Search index.
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to a null-terminated Unicode string that is a valid OLE DB connection string. This connection string can be used to initialize a connection to the Windows Search index and submit the SQL query returned by  <a href="https://msdn.microsoft.com/846c0c05-c227-487c-8512-7644b80db8d8">ISearchQueryHelper::GenerateSQLFromUserQuery</a>.
+Receives a pointer to a null-terminated Unicode string that is a valid OLE DB connection string. This connection string can be used to initialize a connection to the Windows Search index and submit the SQL query returned by  <a href="https://msdn.microsoft.com/library/Bb231302(v=VS.85).aspx">ISearchQueryHelper::GenerateSQLFromUserQuery</a>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 A connection string is a string version of the initialization properties needed to connect to a data store. The string can include such things as a data source, data source name, or user ID and password.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
 
 
 
@@ -100,15 +100,15 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
  
 
  

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IUrlAccessor::GetLastModified
@@ -63,10 +63,10 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param pftLastModified [out]
 
-Type: <b><a href="https://www.bing.com/search?q=FILETIME">FILETIME</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a>*</b>
 
 
-                Receives a pointer to a variable of type <a href="https://www.bing.com/search?q=FILETIME">FILETIME</a> identifying the time stamp when the URL was last modified.
+                Receives a pointer to a variable of type <a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a> identifying the time stamp when the URL was last modified.
                 
 
 

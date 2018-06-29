@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus3.htm
 old-project: tablet
 ms.assetid: 93eabb45-0b0e-495f-9b64-43ad8060b958
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], IRealTimeStylus3 interface [Tablet PC],described, rtscom/IRealTimeStylus3, tablet.irealtimestylus3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRealTimeStylus3 interface

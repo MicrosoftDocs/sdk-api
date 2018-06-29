@@ -7,7 +7,7 @@ old-location: setup\msiqueryfeaturestate.htm
 old-project: Msi
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiQueryFeatureState, MsiQueryFeatureState function, MsiQueryFeatureStateA, MsiQueryFeatureStateW, _msi_msiqueryfeaturestate, msi/MsiQueryFeatureState, msi/MsiQueryFeatureStateA, msi/MsiQueryFeatureStateW, setup.msiqueryfeaturestate
 ms.prod: windows
 ms.technology: windows-sdk

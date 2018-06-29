@@ -7,7 +7,7 @@ old-location: winrm\wsman_data_binary.htm
 old-project: WinRM
 ms.assetid: 35beedc3-30c6-4e04-bc27-bb9eb21256fe
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], _WSMAN_DATA_BINARY, winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
 ms.prod: windows
 ms.technology: windows-sdk

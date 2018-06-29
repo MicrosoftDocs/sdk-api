@@ -401,7 +401,7 @@ For examples that use this function, see  <a href="https://msdn.microsoft.com/a2
 
 
 
-<a href="https://www.bing.com/search?q=Data+Encryption+and+Decryption+Functions">Data Encryption and Decryption Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
  
 
  

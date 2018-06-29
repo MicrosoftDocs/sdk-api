@@ -115,7 +115,7 @@ CERT_STORE_PROV_WRITE_ADD_FLAG is set when this function is called by the follow
 
 
 
-<a href="https://www.bing.com/search?q=Callback+Functions">Callback Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: gpmc\igpmwmifilter_getquerylist.htm
 old-project: GPMC
 ms.assetid: ea20dc00-fb6d-44dc-81ad-e9aa2040f3ed
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMWMIFilter class [GPMC],GetQueryList method, GetQueryList, GetQueryList method [GPMC], GetQueryList method [GPMC],GPMWMIFilter class, GetQueryList method [GPMC],IGPMWMIFilter interface, IGPMWMIFilter interface [GPMC],GetQueryList method, IGPMWMIFilter.GetQueryList, IGPMWMIFilter::GetQueryList, _win32_igpmwmifilter_getquerylist, gpmc.igpmwmifilter_getquerylist, gpmgmt/IGPMWMIFilter::GetQueryList
 ms.prod: windows
 ms.technology: windows-sdk

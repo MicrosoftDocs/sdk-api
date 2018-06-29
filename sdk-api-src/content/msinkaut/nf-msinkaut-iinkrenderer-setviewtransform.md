@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_setviewtransform.htm
 old-project: tablet
 ms.assetid: b1850d41-4523-4a2b-a7ae-6b85d1ae9a97
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IInkRenderer interface [Tablet PC],SetViewTransform method, IInkRenderer.SetViewTransform, IInkRenderer::SetViewTransform, SetViewTransform, SetViewTransform method [Tablet PC], SetViewTransform method [Tablet PC],IInkRenderer interface, b1850d41-4523-4a2b-a7ae-6b85d1ae9a97, msinkaut/IInkRenderer::SetViewTransform, tablet.inkrenderer_setviewtransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ View transformation occurs after object transformation.
 The pen width is calculated by multiplying the specified pen width (or default of 53, if unspecified) by the square root of the determinant of the view transform.
 
 It is problematic to call this method in response to SENT message.  Test whether you are processing a SENT message
-			  by calling <a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
+			  by calling <a href="https://msdn.microsoft.com/library/ms644942(v=VS.85).aspx">InSendMesssageEx</a> and then POST the message to yourself if the message was SENT.
 
 
 
@@ -167,7 +167,7 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms699463(v=vs.85).aspx">IInkRenderer</a>
+<a href="tablet.iinkrenderer">IInkRenderer</a>
 
 
 

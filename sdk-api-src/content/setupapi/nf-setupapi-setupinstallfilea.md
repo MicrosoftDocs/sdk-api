@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupInstallFileA function
@@ -134,7 +134,7 @@ Examines each file being copied to see if its version resources indicate that it
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://www.bing.com/search?q=VS_FIXEDFILEINFO">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="https://msdn.microsoft.com/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not newer or equal in version, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy operation. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_setinplaceposition.htm
 old-project: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 49bb1a89-7064-4822-866f-739434043869, ITextInputPanel interface [Tablet PC],SetInPlacePosition method, ITextInputPanel.SetInPlacePosition, ITextInputPanel::SetInPlacePosition, SetInPlacePosition, SetInPlacePosition method [Tablet PC], SetInPlacePosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlacePosition, tablet.itextinputpanel_setinplaceposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITextInputPanel::SetInPlacePosition

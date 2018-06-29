@@ -90,7 +90,7 @@ During an instantaneous transition,
 
 The figure below shows the effect on an animation variable over time during an instantaneous transition.
 
-<img alt="Diagram showing an instantaneous transition" src="./images/InstantaneousTransition.png"/>
+<img alt="Diagram showing an instantaneous transition" src="Images/InstantaneousTransition.png"/>
 
 
 

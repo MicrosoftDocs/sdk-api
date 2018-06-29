@@ -7,7 +7,7 @@ old-location: shell\SHILCreateFromPath.htm
 old-project: shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
 ms.prod: windows
 ms.technology: windows-sdk

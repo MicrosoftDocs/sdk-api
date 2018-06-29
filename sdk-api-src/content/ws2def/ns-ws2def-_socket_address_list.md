@@ -7,7 +7,7 @@ old-location: netvista\socket_address_list.htm
 old-project: netvista
 ms.assetid: b005200b-b0c2-4f19-8765-cd26fbfc0cff
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: "*LPSOCKET_ADDRESS_LIST, *PSOCKET_ADDRESS_LIST, LPSOCKET_ADDRESS_LIST, LPSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista], PSOCKET_ADDRESS_LIST, PSOCKET_ADDRESS_LIST structure pointer [Network Drivers Starting with Windows Vista], SOCKET_ADDRESS_LIST, SOCKET_ADDRESS_LIST structure [Network Drivers Starting with Windows Vista], _SOCKET_ADDRESS_LIST, netvista.socket_address_list, ws2def/LPSOCKET_ADDRESS_LIST, ws2def/PSOCKET_ADDRESS_LIST, ws2def/SOCKET_ADDRESS_LIST, wskref_7bca89ec-9ce8-4046-9bf6-fcaa01a37b21.xml"
 ms.prod: windows
 ms.technology: windows-sdk

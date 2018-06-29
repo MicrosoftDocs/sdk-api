@@ -7,7 +7,7 @@ old-location: tablet\inktransform_settransform.htm
 old-project: tablet
 ms.assetid: 5b734703-4117-4668-b881-4ba4e1c65189
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 5b734703-4117-4668-b881-4ba4e1c65189, IInkTransform interface [Tablet PC],SetTransform method, IInkTransform.SetTransform, IInkTransform::SetTransform, SetTransform, SetTransform method [Tablet PC], SetTransform method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::SetTransform, tablet.inktransform_settransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,7 +143,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
+<a href="tablet.iinktransform">IInkTransform</a>
 
 
 

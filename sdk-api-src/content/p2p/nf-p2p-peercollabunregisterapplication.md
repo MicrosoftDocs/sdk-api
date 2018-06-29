@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PeerCollabUnregisterApplication function
@@ -152,7 +152,7 @@ To unregister the application for all users, the caller of this API must be elev
 
 
 
-<a href="https://msdn.microsoft.com/962982a6-171f-4c13-ae03-84698482dea4">PeerCollabRegisterApplication</a>
+<a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
  
 
  

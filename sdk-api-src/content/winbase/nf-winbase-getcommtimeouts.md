@@ -66,7 +66,7 @@ Retrieves the time-out parameters for all read and write operations on a specifi
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpCommTimeouts [out]
@@ -115,7 +115,7 @@ For more information about time-out values for communications devices, see the
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

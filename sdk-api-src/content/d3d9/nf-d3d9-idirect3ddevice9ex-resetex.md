@@ -61,9 +61,9 @@ Resets the type, size, and format of the swap chain with all other surfaces pers
 
 ### -param pPresentationParameters [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a> structure, describing the new presentation parameters. This value cannot be <b>NULL</b>. 
+Pointer to a <a href="https://msdn.microsoft.com/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a> structure, describing the new presentation parameters. This value cannot be <b>NULL</b>. 
     
 
 
@@ -73,14 +73,14 @@ When this method returns:
 
 <ul>
 <li>BackBufferCount, BackBufferWidth, and BackBufferHeight are set to zero.</li>
-<li>BackBufferFormat is set to <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a> for windowed mode only; a full-screen mode must specify a format.</li>
+<li>BackBufferFormat is set to <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> for windowed mode only; a full-screen mode must specify a format.</li>
 </ul>
 
 ### -param pFullscreenDisplayMode [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a> structure that describes the properties of the desired display mode. This value must be provided for fullscreen applications, but can be <b>NULL</b> for windowed applications.
+Pointer to a <a href="https://msdn.microsoft.com/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a> structure that describes the properties of the desired display mode. This value must be provided for fullscreen applications, but can be <b>NULL</b> for windowed applications.
 		
 
 
@@ -88,13 +88,13 @@ Pointer to a <a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c8
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-The method can return: D3D_OK, D3DERR_DEVICELOST or D3DERR_DEVICEHUNG (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>).
+The method can return: D3D_OK, D3DERR_DEVICELOST or D3DERR_DEVICEHUNG (see <a href="https://msdn.microsoft.com/library/Bb172554(v=VS.85).aspx">D3DERR</a>).
 
 
 
-If this method returns D3DERR_DEVICELOST or D3DERR_DEVICEHUNG then the application can only call <b>IDirect3DDevice9Ex::ResetEx</b>, <a href="https://msdn.microsoft.com/89a9b112-5f0a-4e57-9b8e-48b3a76a09ce">IDirect3DDevice9Ex::CheckDeviceState</a> or release the interface pointer; any other API call will cause an exception.
+If this method returns D3DERR_DEVICELOST or D3DERR_DEVICEHUNG then the application can only call <b>IDirect3DDevice9Ex::ResetEx</b>, <a href="https://msdn.microsoft.com/library/Bb174338(v=VS.85).aspx">IDirect3DDevice9Ex::CheckDeviceState</a> or release the interface pointer; any other API call will cause an exception.
 
 
 
@@ -103,7 +103,7 @@ If this method returns D3DERR_DEVICELOST or D3DERR_DEVICEHUNG then the applicati
 
 
 
-If a call to <b>IDirect3DDevice9Ex::ResetEx</b> fails, the device will be placed in the lost state (as indicated by a return value of D3DERR_DEVICELOST from a call to <a href="https://msdn.microsoft.com/89a9b112-5f0a-4e57-9b8e-48b3a76a09ce">IDirect3DDevice9Ex::CheckDeviceState</a>). Refer to <b>IDirect3DDevice9Ex::CheckDeviceState</b> and <a href="https://msdn.microsoft.com/3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5">Lost Device Behavior Changes</a> for further information concerning the use of <b>IDirect3DDevice9Ex::ResetEx</b> in the context of lost devices.
+If a call to <b>IDirect3DDevice9Ex::ResetEx</b> fails, the device will be placed in the lost state (as indicated by a return value of D3DERR_DEVICELOST from a call to <a href="https://msdn.microsoft.com/library/Bb174338(v=VS.85).aspx">IDirect3DDevice9Ex::CheckDeviceState</a>). Refer to <b>IDirect3DDevice9Ex::CheckDeviceState</b> and <a href="https://msdn.microsoft.com/library/Bb219800(v=VS.85).aspx">Lost Device Behavior Changes</a> for further information concerning the use of <b>IDirect3DDevice9Ex::ResetEx</b> in the context of lost devices.
 
 Unlike previous versions of DirectX, calling <b>IDirect3DDevice9Ex::ResetEx</b> does not cause surfaces, textures or state information to be lost.
 
@@ -115,11 +115,11 @@ Applications can expect messages to be sent to them during this call (for exampl
 
 A call to <b>IDirect3DDevice9Ex::ResetEx</b> will fail if called on a different thread than that used to create the device being reset.
 
-D3DFMT_UNKNOWN can be specified for the windowed mode back buffer format when calling <a href="https://msdn.microsoft.com/7182c5ea-40ca-4cf8-a33e-b22984fc9349">IDirect3D9Ex::CreateDeviceEx</a>, <b>IDirect3DDevice9Ex::ResetEx</b>, and <a href="https://msdn.microsoft.com/d41b36f6-8481-47f8-bd38-8f51bc9ff9b8">IDirect3DDevice9::CreateAdditionalSwapChain</a>. This means the application does not have to query the current desktop format before calling <b>IDirect3D9Ex::CreateDeviceEx</b> for windowed mode. For full-screen mode, the back buffer format must be specified. Setting BackBufferCount equal to zero (BackBufferCount = 0) results in one back buffer.
+D3DFMT_UNKNOWN can be specified for the windowed mode back buffer format when calling <a href="https://msdn.microsoft.com/library/Bb174302(v=VS.85).aspx">IDirect3D9Ex::CreateDeviceEx</a>, <b>IDirect3DDevice9Ex::ResetEx</b>, and <a href="https://msdn.microsoft.com/library/Bb174354(v=VS.85).aspx">IDirect3DDevice9::CreateAdditionalSwapChain</a>. This means the application does not have to query the current desktop format before calling <b>IDirect3D9Ex::CreateDeviceEx</b> for windowed mode. For full-screen mode, the back buffer format must be specified. Setting BackBufferCount equal to zero (BackBufferCount = 0) results in one back buffer.
 
-When trying to reset more than one display adapter in a group, set pPresentationParameters to point to an array of <a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a> structures, one for each display in the adapter group.
+When trying to reset more than one display adapter in a group, set pPresentationParameters to point to an array of <a href="https://msdn.microsoft.com/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a> structures, one for each display in the adapter group.
 
-If a multihead device was created with <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE_ADAPTERGROUP_DEVICE</a>, <b>IDirect3DDevice9Ex::ResetEx</b> requires an array of <a href="https://msdn.microsoft.com/d677aeb7-a188-4ddc-b8c9-48e13676e9c8">D3DPRESENT_PARAMETERS</a> structures wherein each structure must specify a full-screen display. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
+If a multihead device was created with <a href="https://msdn.microsoft.com/library/Bb172527(v=VS.85).aspx">D3DCREATE_ADAPTERGROUP_DEVICE</a>, <b>IDirect3DDevice9Ex::ResetEx</b> requires an array of <a href="https://msdn.microsoft.com/library/Bb172588(v=VS.85).aspx">D3DPRESENT_PARAMETERS</a> structures wherein each structure must specify a full-screen display. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
 
 
 
@@ -129,7 +129,7 @@ If a multihead device was created with <a href="https://msdn.microsoft.com/91387
 
 
 
-<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
  
 
  

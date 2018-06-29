@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlFolderCapabilities.htm
 old-project: shell
 ms.assetid: 2a5580f6-42cb-46c7-9507-a59d36b2cd91
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: INameSpaceTreeControlFolderCapabilities, INameSpaceTreeControlFolderCapabilities interface [Windows Shell], INameSpaceTreeControlFolderCapabilities interface [Windows Shell],described, _shell_INameSpaceTreeControlFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

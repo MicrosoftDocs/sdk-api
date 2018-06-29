@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_attachededitwindow.htm
 old-project: tablet
 ms.assetid: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AttachedEditWindow property, IPenInputPanel.AttachedEditWindow, IPenInputPanel.put_AttachedEditWindow, IPenInputPanel::AttachedEditWindow, IPenInputPanel::get_AttachedEditWindow, IPenInputPanel::put_AttachedEditWindow, PenInputPanel.get_AttachedEditWindow, PenInputPanel.put_AttachedEditWindow, get_AttachedEditWindow, peninputpanel/IPenInputPanel::AttachedEditWindow, peninputpanel/IPenInputPanel::get_AttachedEditWindow, peninputpanel/IPenInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.peninputpanel_attachededitwindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::put_AttachedEditWindow
@@ -83,7 +83,7 @@ The window handle of an object may change.
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

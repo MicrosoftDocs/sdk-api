@@ -65,7 +65,7 @@ Unlocks index data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -77,15 +77,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/df1b7898-6c6b-410b-8ff9-e56625584fdc">IDirect3DIndexBuffer9</a>
+<a href="https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7fa912c-d31b-452a-b1ec-c19025b0daeb">IDirect3DIndexBuffer9::Lock</a>
+<a href="https://msdn.microsoft.com/library/Bb205867(v=VS.85).aspx">IDirect3DIndexBuffer9::Lock</a>
 
 
 
-<a href="https://msdn.microsoft.com/baa60cd1-a1f0-4dbe-b934-aeb1a5c6b784">Index Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
  
 
  

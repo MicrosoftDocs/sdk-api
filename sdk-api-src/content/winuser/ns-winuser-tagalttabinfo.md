@@ -1,0 +1,146 @@
+---
+UID: NS:winuser.tagALTTABINFO
+title: tagALTTABINFO
+author: windows-sdk-content
+description: Contains status information for the application-switching (ALT+TAB) window.
+old-location: winmsg\alttabinfo.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\alttabinfo.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: "*LPALTTABINFO, *PALTTABINFO, ALTTABINFO, ALTTABINFO structure [Windows and Messages], LPALTTABINFO, LPALTTABINFO structure pointer [Windows and Messages], PALTTABINFO, PALTTABINFO structure pointer [Windows and Messages], _win32_ALTTABINFO_str, _win32_alttabinfo_str_cpp, tagALTTABINFO, winmsg.alttabinfo, winui._win32_alttabinfo_str, winuser/ALTTABINFO, winuser/LPALTTABINFO, winuser/PALTTABINFO"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: ALTTABINFO, *PALTTABINFO, *LPALTTABINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - ALTTABINFO
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# tagALTTABINFO structure
+
+
+## -description
+
+
+Contains status information for the application-switching (ALT+TAB) window.
+
+
+## -struct-fields
+
+
+
+
+### -field cbSize
+
+Type: <b>DWORD</b>
+
+The size, in bytes, of the structure. The caller must set this to <code>sizeof(ALTTABINFO)</code>. 
+
+
+### -field cItems
+
+Type: <b>int</b>
+
+The number of items in the window. 
+
+
+### -field cColumns
+
+Type: <b>int</b>
+
+The number of columns in the window. 
+
+
+### -field cRows
+
+Type: <b>int</b>
+
+The number of rows in the window. 
+
+
+### -field iColFocus
+
+Type: <b>int</b>
+
+The column of the item that has the focus. 
+
+
+### -field iRowFocus
+
+Type: <b>int</b>
+
+The row of the item that has the focus. 
+
+
+### -field cxItem
+
+Type: <b>int</b>
+
+The width of each icon in the application-switching window. 
+
+
+### -field cyItem
+
+Type: <b>int</b>
+
+The height of each icon in the application-switching window. 
+
+
+### -field ptStart
+
+Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a></b>
+
+The top-left corner of the first icon. 
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms633501(v=VS.85).aspx">GetAltTabInfo</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt637455">Windows</a>
+ 
+
+ 
+

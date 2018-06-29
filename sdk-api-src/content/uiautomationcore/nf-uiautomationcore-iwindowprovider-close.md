@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IWindowProvider::Close</b> must return immediately without blocking.
         
 
-<b>IWindowProvider::Close</b> raises the <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-event-ids">UIA_Window_WindowClosedEventId</a> 
+<b>IWindowProvider::Close</b> raises the <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_Window_WindowClosedEventId</a> 
         event. 
         If possible, the event should be raised after the control has completed its associated action. 
         

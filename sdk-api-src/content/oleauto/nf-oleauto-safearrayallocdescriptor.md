@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SafeArrayAllocDescriptor function
@@ -125,7 +125,7 @@ The array could not be locked.
 
 
 
-This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdata">SafeArrayAllocData</a> to allocate memory for the array elements.
+This function allows the creation of safe arrays that contain elements with data types other than those provided by <a href="https://msdn.microsoft.com/library/ms221234(v=VS.85).aspx">SafeArrayCreate</a>. After creating an array descriptor using <b>SafeArrayAllocDescriptor</b>, set the element size in the array descriptor, an call <a href="https://msdn.microsoft.com/library/ms221468(v=VS.85).aspx">SafeArrayAllocData</a> to allocate memory for the array elements.
 
 
 #### Examples

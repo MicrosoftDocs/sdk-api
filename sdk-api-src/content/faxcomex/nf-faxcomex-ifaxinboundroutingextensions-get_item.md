@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get_Item
 title: IFaxInboundRoutingExtensions::get_Item
 author: windows-sdk-content
-description: The IFaxInboundRoutingExtensions::get_Item method returns a IFaxInboundRoutingExtension interface from the IFaxInboundRoutingExtensions collection.
-old-location: fax\_mfax_faxinboundroutingextensions_item_cpp.htm
+description: The Item property returns a FaxInboundRoutingExtension object from the FaxInboundRoutingExtensions collection.
+old-location: fax\_mfax_faxinboundroutingextensions_item.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinta_n_9mwd_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinta_n_9mwd.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxInboundRoutingExtensions interface [Fax Service],get_Item method, IFaxInboundRoutingExtensions.get_Item, IFaxInboundRoutingExtensions::get_Item, _mfax_faxinboundroutingextensions.item_cpp, fax._mfax_faxinboundroutingextensions_item_cpp, faxcomex/IFaxInboundRoutingExtensions::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingExtensions interface
+ms.date: 06/12/2018
+ms.keywords: FaxInboundRoutingExtensions object [Fax Service],Item property, FaxInboundRoutingExtensions.Item, IFaxInboundRoutingExtensions.get_Item, IFaxInboundRoutingExtensions::get_Item, Item property [Fax Service], Item property [Fax Service],FaxInboundRoutingExtensions object, _mfax_faxinboundroutingextensions.item, fax._mfax_faxinboundroutingextensions_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxInboundRoutingExtensions.Item
  - IFaxInboundRoutingExtensions.get_Item
 product: Windows
 targetos: Windows
@@ -51,48 +52,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxInboundRoutingExtensions::get_Item</b> method returns a <a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a> interface from the <a href="https://msdn.microsoft.com/6daf0614-c0d4-42ba-96de-60f35a39aff1">IFaxInboundRoutingExtensions</a> collection.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a> object from the <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> collection.
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param vIndex [in]
-
-Type: <b>VARIANT</b>
-
-<b>VARIANT</b> that specifies the item to retrieve from the collection. 
-
-                    
-
-If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of the item to retrieve from the collection. The index is 1-based. If this parameter is type VT_BSTR, the parameter is a string containing the unique name of the fax routing extension to retrieve. Other types are not supported.
-
-
-### -param pFaxInboundRoutingExtension
-
-
-
-
-
-
-#### - ppFaxInboundRoutingExtension [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a>**</b>
-
-Address of a pointer to an <a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a> interface.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 
 ## -see-also
@@ -100,11 +65,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6daf0614-c0d4-42ba-96de-60f35a39aff1">IFaxInboundRoutingExtensions</a>
+<a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

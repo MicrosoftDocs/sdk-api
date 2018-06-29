@@ -57,7 +57,7 @@ Defines additional methods for reporting and retrieving component-level writer e
 The <b>IVssComponentEx2</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method of the 
+   interface, call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> interface and pass 
    the <b>IID_IVssComponentEx2</b> constant as the interface identifier (IID) parameter.
 

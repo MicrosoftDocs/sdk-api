@@ -102,7 +102,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 The figure below shows the effect on an animation variable over time during a parabolic-acceleration transition.
 
-<img alt="Diagram showing a parabolic-acceleration transition" src="./images/ParabolicTransitionFromAcceleration.png"/>
+<img alt="Diagram showing a parabolic-acceleration transition" src="Images/ParabolicTransitionFromAcceleration.png"/>
 
 
 

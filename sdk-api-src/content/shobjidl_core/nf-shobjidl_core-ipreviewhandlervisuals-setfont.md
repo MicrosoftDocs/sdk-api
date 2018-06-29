@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandlerVisuals_SetFont.htm
 old-project: shell
 ms.assetid: f329e2ad-ec79-4542-b7ef-ff38bda6e8cc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetFont method, IPreviewHandlerVisuals.SetFont, IPreviewHandlerVisuals::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetFont, shell.IPreviewHandlerVisuals_SetFont, shobjidl_core/IPreviewHandlerVisuals::SetFont
 ms.prod: windows
 ms.technology: windows-sdk

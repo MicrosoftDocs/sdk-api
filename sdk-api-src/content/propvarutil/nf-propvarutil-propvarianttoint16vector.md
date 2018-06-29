@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToInt16Vector function
@@ -183,23 +183,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
+<a href="https://msdn.microsoft.com/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetInt16Elem">PropVariantGetInt16Elem</a>
+<a href="https://msdn.microsoft.com/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt16">PropVariantToInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt16VectorAlloc">PropVariantToInt16VectorAlloc</a>
+<a href="https://msdn.microsoft.com/library/Bb776548(v=VS.85).aspx">PropVariantToInt16VectorAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToInt16Array">VariantToInt16Array</a>
+<a href="https://msdn.microsoft.com/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
  
 
  

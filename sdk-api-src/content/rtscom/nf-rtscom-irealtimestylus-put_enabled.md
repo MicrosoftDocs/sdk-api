@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_enabled.htm
 old-project: tablet
 ms.assetid: e96e27d7-b453-49a7-b684-b3dd5f94c378
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],Enabled property, IRealTimeStylus.Enabled, IRealTimeStylus.get_Enabled, IRealTimeStylus.put_Enabled, IRealTimeStylus::Enabled, IRealTimeStylus::get_Enabled, IRealTimeStylus::put_Enabled, e96e27d7-b453-49a7-b684-b3dd5f94c378, put_Enabled, rtscom/IRealTimeStylus::Enabled, rtscom/IRealTimeStylus::get_Enabled, rtscom/IRealTimeStylus::put_Enabled, tablet.irealtimestylus_enabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRealTimeStylus::put_Enabled

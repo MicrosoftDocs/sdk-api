@@ -7,7 +7,7 @@ old-location: base\createnamedpipe.htm
 old-project: ipc
 ms.assetid: 00d79639-3f14-4964-90f3-9462a23e68df
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: ACCESS_SYSTEM_SECURITY, CreateNamedPipe, CreateNamedPipe function, CreateNamedPipeA, CreateNamedPipeW, FILE_FLAG_FIRST_PIPE_INSTANCE, FILE_FLAG_OVERLAPPED, FILE_FLAG_WRITE_THROUGH, PIPE_ACCEPT_REMOTE_CLIENTS, PIPE_ACCESS_DUPLEX, PIPE_ACCESS_INBOUND, PIPE_ACCESS_OUTBOUND, PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_REJECT_REMOTE_CLIENTS, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, PIPE_WAIT, WRITE_DAC, WRITE_OWNER, _win32_createnamedpipe, base.createnamedpipe, winbase/CreateNamedPipe, winbase/CreateNamedPipeA, winbase/CreateNamedPipeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ This parameter must specify one of the following pipe access modes. The same mod
 </td>
 <td width="60%">
 The pipe is bi-directional; both server and client processes can read from and write to the pipe. This mode gives the server the equivalent of <b>GENERIC_READ</b> and <b>GENERIC_WRITE</b> access to the pipe. The client can specify <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b>, or both, when it connects to the pipe using the 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
 </td>
 </tr>
@@ -173,10 +173,10 @@ Write-through mode is enabled. This mode affects only write operations on byte-t
 </td>
 <td width="60%">
 Overlapped mode is enabled. If this mode is enabled, functions performing read, write, and connect operations that may take a significant time to be completed can return immediately. This mode enables the thread that started the operation to perform other operations while the time-consuming operation executes in the background. For example, in overlapped mode, a thread can handle simultaneous input and output (I/O) operations on multiple instances of a pipe or perform simultaneous read and write operations on the same pipe handle. If overlapped mode is not enabled, functions performing read, write, and connect operations on the pipe handle do not return until the operation is finished. The 
-<a href="https://msdn.microsoft.com/6c1a4de1-6cae-4c35-bfba-0bc252fadbd9">ReadFileEx</a> and 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a> functions can only be used with a pipe handle in overlapped mode. The 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>, 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>, 
+<a href="https://msdn.microsoft.com/library/Aa365468(v=VS.85).aspx">ReadFileEx</a> and 
+<a href="https://msdn.microsoft.com/library/Aa365748(v=VS.85).aspx">WriteFileEx</a> functions can only be used with a pipe handle in overlapped mode. The 
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>, 
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>, 
 <a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>, and 
 <a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a> functions can execute either synchronously or as overlapped operations.
 
@@ -222,7 +222,7 @@ The caller will have write access to the named pipe's owner.
 </td>
 <td width="60%">
 The caller will have write access to the named pipe's SACL. For more information, see 
-<a href="https://www.bing.com/search?q=Access-Control+Lists+(ACLs)">Access-Control Lists (ACLs)</a> and 
+<a href="security.access_control_lists_acls_">Access-Control Lists (ACLs)</a> and 
 <a href="https://msdn.microsoft.com/88198243-dae5-49ac-9d54-bfae7a3a0b1a">SACL Access Right</a>.
 
 </td>
@@ -317,8 +317,8 @@ One of the following wait modes can be specified. Different instances of the sam
 </td>
 <td width="60%">
 Blocking mode is enabled. When the pipe handle is specified in the 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>, 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>, or 
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>, 
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>, or 
 <a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a> function, the operations are not completed until there is data to read, all data is written, or a client is connected. Use of this mode can mean waiting indefinitely in some situations for a client process to perform an action.
 
 </td>
@@ -330,7 +330,7 @@ Blocking mode is enabled. When the pipe handle is specified in the
 </dl>
 </td>
 <td width="60%">
-Nonblocking mode is enabled. In this mode, <a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>, <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>, and 
+Nonblocking mode is enabled. In this mode, <a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>, <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>, and 
 <a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a> always return immediately.
 
 Note that nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0 and should not be used to achieve asynchronous I/O with named pipes. For more information on asynchronous pipe I/O, see 
@@ -459,7 +459,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
@@ -471,11 +471,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1a4de1-6cae-4c35-bfba-0bc252fadbd9">ReadFileEx</a>
+<a href="https://msdn.microsoft.com/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>
 
 
 
@@ -491,11 +491,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a>
+<a href="https://msdn.microsoft.com/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>
  
 
  

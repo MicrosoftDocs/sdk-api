@@ -2,13 +2,13 @@
 UID: NF:wsmandisp.IWSManConnectionOptions.put_Password
 title: IWSManConnectionOptions::put_Password
 author: windows-sdk-content
-description: Sets the password of a local or a domain account on the remote computer.
-old-location: winrm\iwsmanconnectionoptions_password.htm
+description: Sets the password of a local or a domain account on the remote computer. This property determines the password for authentication.
+old-location: winrm\connectionoptions_password.htm
 old-project: WinRM
-ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4
+ms.assetid: 61ba54b6-7da0-423e-b5b2-c4dd8aacd042
 ms.author: windowssdkdev
-ms.date: 05/16/2018
-ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],IWSManConnectionOptions interface, put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
+ms.date: 06/08/2018
+ms.keywords: ConnectionOptions object [Windows Remote Management],Password property, ConnectionOptions.Password, IWSManConnectionOptions.get_Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],ConnectionOptions object, put_Password, winrm.connectionoptions_password, wsman.connectionoptions_password
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,7 +36,8 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManConnectionOptions.Password
+ - ConnectionOptions.Password
+ - IWSManConnectionOptions.get_Password
  - IWSManConnectionOptions.put_Password
 product: Windows
 targetos: Windows
@@ -52,12 +53,44 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Sets the password of a local or a domain account on the remote computer.  For more information, see <a href="https://msdn.microsoft.com/97a13b07-ae7a-4d2f-8841-77a22c91b204">Authentication for Remote Connections</a>.
+Sets the password of a local or a domain account on the remote computer. This property determines the password for authentication. For more information, see <a href="https://msdn.microsoft.com/97a13b07-ae7a-4d2f-8841-77a22c91b204">Authentication for Remote Connections</a>.
 
-This property is write-only.
+This property is read/write.
 
 
 ## -parameters
+
+
+## -remarks
+
+
+
+Be aware that you cannot retrieve the password. The password can only be set with this property.
+
+If you create a <a href="https://msdn.microsoft.com/7a87a5f7-78ed-452c-9b9f-ad48811a3339">ConnectionOptions</a> object and use a user name and password to connect to Windows Remote Management, then the <b>WSManFlagCredUserNamePassword</b> flag should be set on the call to <a href="https://msdn.microsoft.com/299d9a95-bd30-414c-996d-6633e8b7ce52">WSMan.CreateSession</a>.
+
+For more information about setting passwords, see the Remarks section in <a href="https://msdn.microsoft.com/7a87a5f7-78ed-452c-9b9f-ad48811a3339">ConnectionOptions</a>.
+
+
+#### Examples
+
+The following code example creates a <a href="https://msdn.microsoft.com/7a87a5f7-78ed-452c-9b9f-ad48811a3339">ConnectionOptions</a> object and sets the <b>Password</b>.
+
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>' Create a WSMan object. 
+Set objWsman = CreateObject( "WSMAN.Automation" )
+' Create a ConnectionOptions object
+Set objOptions = objWSMan.CreateConnectionOptions
+objOptions.Password = "&lt;password&gt;"</pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
@@ -65,11 +98,7 @@ This property is write-only.
 
 
 
-<a href="https://msdn.microsoft.com/61ba54b6-7da0-423e-b5b2-c4dd8aacd042">ConnectionOptions.Password</a>
-
-
-
-<a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a>
+<a href="https://msdn.microsoft.com/7a87a5f7-78ed-452c-9b9f-ad48811a3339">ConnectionOptions</a>
  
 
  

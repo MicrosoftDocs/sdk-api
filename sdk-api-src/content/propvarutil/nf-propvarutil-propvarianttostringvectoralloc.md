@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToStringVectorAlloc function
@@ -142,7 +142,7 @@ If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -187,23 +187,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetStringElem">PropVariantGetStringElem</a>
+<a href="https://msdn.microsoft.com/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToStringArray">VariantToStringArray</a>
+<a href="https://msdn.microsoft.com/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
  
 
  

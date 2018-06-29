@@ -7,7 +7,7 @@ old-location: com\cogetinstancefromfile.htm
 old-project: com
 ms.assetid: f8a22f5f-a21f-49e7-bd6c-ca987206ee46
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: ComBase.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CoGetInstanceFromFile function

@@ -62,7 +62,7 @@ The default implementation of <a href="https://msdn.microsoft.com/8c700357-0cb4-
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

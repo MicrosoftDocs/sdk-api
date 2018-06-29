@@ -81,7 +81,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 

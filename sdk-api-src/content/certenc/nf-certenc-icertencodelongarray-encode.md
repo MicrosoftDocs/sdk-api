@@ -74,7 +74,7 @@ Before calling the <b>Encode</b> method, you must call the
 
 #### - pbstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded <b>LONG</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that will contain the encoded <b>LONG</b> array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the largest possible bounding rectangle that constitutes the "hit zone" for a specified part of an item. Use this macro or send the <a href="https://msdn.microsoft.com/4fa5d167-9649-4346-89c2-8a48e8d4d2f6">TVM_GETITEMPARTRECT</a> message explicitly.
+Retrieves the largest possible bounding rectangle that constitutes the "hit zone" for a specified part of an item. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773606(v=VS.85).aspx">TVM_GETITEMPARTRECT</a> message explicitly.
 
 
 ## -parameters

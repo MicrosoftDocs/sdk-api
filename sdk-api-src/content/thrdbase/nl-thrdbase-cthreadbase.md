@@ -137,88 +137,11 @@ Provides thread safety by indicating the end of a data write operation when the 
 <a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
 </td>
 <td align="left" width="63%">
-Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
+Virtual function called by <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> when the reference count reaches zero.
 
 </td>
 </tr>
 </table> 
-
-
-## -members
-
-The <b>CThreadBase</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5c4f714-b411-4a5f-af2b-0bf7ce3c9e70">BeginRead</a>
-</td>
-<td align="left" width="63%">
-Provides thread safety for WMI provider data access when the provider is built on the WMI Provider Framework.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51ae6b39-b524-4bf9-ac71-45c812ad1680">BeginWrite</a>
-</td>
-<td align="left" width="63%">
-Provides thread safety for WMI provider operations that write data when the provider is built on the WMI Provider Framework.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43909501-0a65-4728-9a26-30b8391a33c5">CThreadBase</a>
-</td>
-<td align="left" width="63%">
-Initializes a new instance of <b>CThreadBase</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e34fa8bc-f667-4fca-9282-9ca8038f3e75">EndRead</a>
-</td>
-<td align="left" width="63%">
-Provides thread safety by indicating the end of a data read operation when the provider is built on the WMI Provider Framework.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b57bcc0-f8ca-412a-87d9-9afeb5ac8446">EndWrite</a>
-</td>
-<td align="left" width="63%">
-Provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a17a379d-60ba-4a76-8900-58fabadad5ea">OnFinalRelease</a>
-</td>
-<td align="left" width="63%">
-Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
-
-</td>
-</tr>
-</table>Provides thread safety for WMI provider data access when the provider is built on the WMI Provider Framework.
-
-Provides thread safety for WMI provider operations that write data when the provider is built on the WMI Provider Framework.
-
-Initializes a new instance of <b>CThreadBase</b>.
-
-Provides thread safety by indicating the end of a data read operation when the provider is built on the WMI Provider Framework.
-
-Provides thread safety by indicating the end of a data write operation when the provider is built on the WMI Provider Framework.
-
-Virtual function called by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero.
-
- 
 
 
 ## -remarks

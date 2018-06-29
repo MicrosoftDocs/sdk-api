@@ -131,16 +131,16 @@ If the object being extended is not a resource, queries for
 <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
 </li>
 </ul>
-Failover Cluster Administrator passes in an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer, 
+Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for one of the 
+     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> for one of the 
      <b>IGetClusterResourceInfo</b> methods.
 
 Use the <b>IGetClusterResourceInfo</b> interface only 
      in the context of a resource extension. Do not obtain other information interfaces, such as 
      <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterResourceInfo</b> interface. While 
-     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> will return a valid interface, 
+     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> will return a valid interface, 
      the operation is not valid in the context of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, 
      and the result is an interface that represents no real cluster object.
 

@@ -58,7 +58,7 @@ Use a source voice to submit audio data to the XAudio2 processing pipeline.You m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2SourceVoice</b> interface inherits from <a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>. <b>IXAudio2SourceVoice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2SourceVoice</b> interface inherits from <a href="https://msdn.microsoft.com/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>. <b>IXAudio2SourceVoice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IXAudio2SourceVoice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/457F95F5-1A93-4918-8EC1-43851D25CB31">Discontinuity </a>
+<a href="https://msdn.microsoft.com/library/Ee418464(v=VS.85).aspx">Discontinuity </a>
 </td>
 <td align="left" width="63%">
 Notifies an XAudio2 voice that no more buffers are coming after the last one that is currently in its queue.
@@ -82,7 +82,7 @@ Notifies an XAudio2 voice that no more buffers are coming after the last one tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4C65F991-2796-4D06-A02A-91708D805731">ExitLoop</a>
+<a href="https://msdn.microsoft.com/library/Ee418465(v=VS.85).aspx">ExitLoop</a>
 </td>
 <td align="left" width="63%">
 Stops looping the voice when it reaches the end of the current loop region. 
@@ -91,7 +91,7 @@ Stops looping the voice when it reaches the end of the current loop region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/623DADA3-2E61-4997-8DFC-EFEC2716FCDE">FlushSourceBuffers</a>
+<a href="https://msdn.microsoft.com/library/Ee418466(v=VS.85).aspx">FlushSourceBuffers</a>
 </td>
 <td align="left" width="63%">
 Removes all pending audio buffers from the voice queue.
@@ -100,7 +100,7 @@ Removes all pending audio buffers from the voice queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5A87D428-9C2D-4B89-B817-360C13F60145">GetFrequencyRatio</a>
+<a href="https://msdn.microsoft.com/library/Ee418467(v=VS.85).aspx">GetFrequencyRatio</a>
 </td>
 <td align="left" width="63%">
 Returns the frequency adjustment ratio of the voice.
@@ -109,7 +109,7 @@ Returns the frequency adjustment ratio of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6F466C04-D5AD-4B66-A806-9B379582D4DF">GetState</a>
+<a href="https://msdn.microsoft.com/library/Hh405047(v=VS.85).aspx">GetState</a>
 </td>
 <td align="left" width="63%">
 Returns the voice's current cursor position data.
@@ -118,7 +118,7 @@ Returns the voice's current cursor position data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58D458C3-528B-4696-8A24-2D66B93695C3">SetFrequencyRatio</a>
+<a href="https://msdn.microsoft.com/library/Ee418469(v=VS.85).aspx">SetFrequencyRatio</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency adjustment ratio of the voice.
@@ -127,7 +127,7 @@ Sets the frequency adjustment ratio of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27413C97-12C6-4BCF-9F78-36116C84EECC">SetSourceSampleRate</a>
+<a href="https://msdn.microsoft.com/library/Ee418470(v=VS.85).aspx">SetSourceSampleRate</a>
 </td>
 <td align="left" width="63%">
 Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.
@@ -154,7 +154,7 @@ Stops consumption of audio by the current voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D4A1FB27-12F6-41A0-9ACF-3F13EBB27165">SubmitSourceBuffer</a>
+<a href="https://msdn.microsoft.com/library/Ee418473(v=VS.85).aspx">SubmitSourceBuffer</a>
 </td>
 <td align="left" width="63%">
 Adds a new audio buffer to the voice queue.
@@ -191,7 +191,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
 
 
 

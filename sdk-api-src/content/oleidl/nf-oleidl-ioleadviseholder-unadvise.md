@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_unadvise.htm
 old-project: com
 ms.assetid: 620bc43f-dfc7-48b7-a574-ca7287ffa42f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleAdviseHolder interface [COM],Unadvise method, IOleAdviseHolder.Unadvise, IOleAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleAdviseHolder::Unadvise

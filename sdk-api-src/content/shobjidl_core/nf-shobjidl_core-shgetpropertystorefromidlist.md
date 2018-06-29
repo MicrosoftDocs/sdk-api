@@ -68,9 +68,9 @@ A pointer to an item ID list.
 
 ### -param flags [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more values from the <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
+One or more values from the <a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
 
 
 ### -param riid [in]

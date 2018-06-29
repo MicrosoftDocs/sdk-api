@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxServer.get_InboundRouting
 title: IFaxServer::get_InboundRouting
 author: windows-sdk-content
-description: The IFaxServer::get_InboundRouting property creates a IFaxInboundRouting configuration interface. The interface permits access to an inbound fax routing extension and its methods.
-old-location: fax\_mfax_faxserver_inboundrouting_cpp.htm
+description: The InboundRouting property creates a FaxInboundRouting configuration object. The object permits access to an inbound fax routing extension and its methods.
+old-location: fax\_mfax_faxserver_inboundrouting.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_1w4n_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_1w4n.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxServer interface [Fax Service],InboundRouting property, IFaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.inboundrouting_cpp, fax._mfax_faxserver_inboundrouting_cpp, faxcomex/IFaxServer::InboundRouting, faxcomex/IFaxServer::get_InboundRouting, get_InboundRouting
+ms.date: 06/12/2018
+ms.keywords: FaxServer object [Fax Service],InboundRouting property, FaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.inboundrouting, fax._mfax_faxserver_inboundrouting, get_InboundRouting
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.InboundRouting
+ - FaxServer.InboundRouting
  - IFaxServer.get_InboundRouting
 product: Windows
 targetos: Windows
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+The <b>InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a> configuration object. The object permits access to an inbound fax routing extension and its methods.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

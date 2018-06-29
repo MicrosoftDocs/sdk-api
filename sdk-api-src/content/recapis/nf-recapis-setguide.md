@@ -7,7 +7,7 @@ old-location: tablet\setguide.htm
 old-project: tablet
 ms.assetid: 3ca3c743-83f9-46b0-851a-cba6e4ed980a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 3ca3c743-83f9-46b0-851a-cba6e4ed980a, SetGuide, SetGuide function [Tablet PC], recapis/SetGuide, tablet.setguide
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetGuide function

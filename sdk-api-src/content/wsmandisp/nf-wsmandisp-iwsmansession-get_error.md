@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_error.htm
 old-project: WinRM
 ms.assetid: 9fa89b5d-60c3-4a0d-9d4b-62a266e884aa
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Error property, IWSManSession.Error, IWSManSession.get_Error, IWSManSession::Error, IWSManSession::get_Error, get_Error, winrm.iwsmansession_error, wsmandisp/IWSManSession::Error, wsmandisp/IWSManSession::get_Error
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\msienablelog.htm
 old-project: Msi
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: INSTALLLOGATTRIBUTES_APPEND, INSTALLLOGATTRIBUTES_FLUSHEACHLINE, INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_EXTRADEBUG, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_INFO, INSTALLLOGMODE_LOGONLYONERROR, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROPERTYDUMP, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_USER, INSTALLLOGMODE_VERBOSE, INSTALLLOGMODE_WARNING, MsiEnableLog, MsiEnableLog function, MsiEnableLogA, MsiEnableLogW, _msi_msienablelog, msi/MsiEnableLog, msi/MsiEnableLogA, msi/MsiEnableLogW, setup.msienablelog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -251,7 +251,7 @@ If this value is set, the installer appends the existing log specified by <i>szL
 </td>
 <td width="60%">
 Forces the log buffer to be flushed after each line. If this value is not set, the installer flushes the log buffer after 20 lines by calling 
-<a href="https://msdn.microsoft.com/0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6">FlushFileBuffers</a>.
+<a href="https://msdn.microsoft.com/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>.
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ The path to the log file location must already exist when using this function. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/installer-function-reference">Interface and Logging Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
 
 
 

@@ -65,7 +65,7 @@ You can use the <b>IADsContainer</b> interface to either
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -160,7 +160,7 @@ Contains the number of directory objects in the container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932766">Filter</a>
+<a href="https://msdn.microsoft.com/library/Hh707480(v=VS.85).aspx">Filter</a>
 
 
 </td>
@@ -343,7 +343,7 @@ pCls-&gt;Release();
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

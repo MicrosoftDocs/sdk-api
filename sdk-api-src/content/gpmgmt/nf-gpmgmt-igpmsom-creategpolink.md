@@ -7,7 +7,7 @@ old-location: gpmc\igpmsom_creategpolink.htm
 old-project: GPMC
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [GPMC],GPMSOM class, CreateGPOLink method [GPMC],IGPMSOM interface, GPMSOM class [GPMC],CreateGPOLink method, IGPMSOM interface [GPMC],CreateGPOLink method, IGPMSOM.CreateGPOLink, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
 ms.prod: windows
 ms.technology: windows-sdk

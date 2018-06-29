@@ -56,7 +56,7 @@ The <b>IADsSecurityUtility</b> interface is used to get, set, or retrieve the se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSecurityUtility</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsSecurityUtility</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsSecurityUtility</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsSecurityUtility</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -164,7 +164,7 @@ For more information and a code example that shows how to use the <b>IADsSecurit
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

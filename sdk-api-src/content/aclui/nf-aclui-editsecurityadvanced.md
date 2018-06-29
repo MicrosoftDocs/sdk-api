@@ -96,7 +96,7 @@ If the function fails, any other <b>HRESULT</b> value indicates an error. For a 
 
 
 
-<a href="https://www.bing.com/search?q=Access+Control+Editor+Functions">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Access Control Editor Functions</a>
 
 
 

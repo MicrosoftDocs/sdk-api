@@ -101,7 +101,7 @@ The text color is used to draw the face of each character written by the <a href
 
 #### Examples
 
-For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://www.bing.com/search?q=Using+Menus">Using Menus</a>.
+For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Using Menus</a>.
 
 <div class="code"></div>
 

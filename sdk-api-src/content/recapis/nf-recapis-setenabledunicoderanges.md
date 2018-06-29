@@ -7,7 +7,7 @@ old-location: tablet\setenabledunicoderanges.htm
 old-project: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetEnabledUnicodeRanges function [Tablet PC], recapis/SetEnabledUnicodeRanges, tablet.setenabledunicoderanges
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetEnabledUnicodeRanges function

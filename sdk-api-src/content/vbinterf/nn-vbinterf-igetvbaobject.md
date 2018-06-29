@@ -7,7 +7,7 @@ old-location: com\igetvbaobject.htm
 old-project: com
 ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Gets access to the <a href="https://msdn.microsoft.com/6b05c0c7-6f38-42cf-bf7b-2
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetVBAObject</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IGetVBAObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetVBAObject</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGetVBAObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToDoubleVectorAlloc function
@@ -102,7 +102,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a> to access a double vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776539(v=VS.85).aspx">PropVariantToDoubleVector</a> to access a double vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -146,23 +146,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetDoubleElem">PropVariantGetDoubleElem</a>
+<a href="https://msdn.microsoft.com/library/Bb776520(v=VS.85).aspx">PropVariantGetDoubleElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVector">PropVariantToDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776539(v=VS.85).aspx">PropVariantToDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a>
+<a href="https://msdn.microsoft.com/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a>
  
 
  

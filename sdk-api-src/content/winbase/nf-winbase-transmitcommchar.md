@@ -66,7 +66,7 @@ Transmits a specified character ahead of any pending data in the output buffer o
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param cChar [in]
@@ -114,7 +114,7 @@ If the device is not transmitting,
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 

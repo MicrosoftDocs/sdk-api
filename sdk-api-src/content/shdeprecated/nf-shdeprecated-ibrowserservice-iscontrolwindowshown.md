@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_IsControlWindowShown.htm
 old-project: shell
 ms.assetid: fbbb83ce-be7c-4763-b2c4-2a05a460cbd6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService interface [Windows Shell],IsControlWindowShown method, IBrowserService.IsControlWindowShown, IBrowserService::IsControlWindowShown, IsControlWindowShown, IsControlWindowShown method [Windows Shell], IsControlWindowShown method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::IsControlWindowShown, shell.IBrowserService_IsControlWindowShown, zone_IBrowserService_IsControlWindowShown
 ms.prod: windows
 ms.technology: windows-sdk

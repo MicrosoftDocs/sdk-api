@@ -178,7 +178,7 @@ This setting can be overridden if a file is added to the Backup Components Docum
 If a file is added as a differenced file, the writer establishes criteria by which the requester should decide 
     whether or not to actually copy a file to a backup medium. A writer typically adds differenced files to the Backup 
     Components Document for inclusion in a backup 
-    <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-p">PostSnapshot</a> event (see 
+    <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event (see 
     <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>). See 
     <a href="https://msdn.microsoft.com/e9529aad-cf93-4b4c-811c-0ff0b708de6c">Incremental and Differential Backups</a> 
     for details.
@@ -189,7 +189,7 @@ When a writer sets a shadow copy-required value of the
     shadow copy-required value can be backed up from the original volume.
 
 Writers set <b>VSS_FILE_SPEC_BACKUP_TYPE</b> values 
-    while handling an <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-i">Identify</a> event (see 
+    while handling an <a href="https://msdn.microsoft.com/library/Aa384659(v=VS.85).aspx">Identify</a> event (see 
     <a href="https://msdn.microsoft.com/542d479a-695a-4b1f-94e7-f2ffa08440b7">CVssWriter::OnIdentify</a>).
 
 A bit mask (or bitwise OR) of 

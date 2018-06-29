@@ -7,7 +7,7 @@ old-location: gpmc\igpmstatusmessage.htm
 old-project: GPMC
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMessage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStatusMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMessage</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMStatusMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -153,7 +153,7 @@ Name of the policy setting that was being processed when the message was generat
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

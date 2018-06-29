@@ -57,8 +57,8 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the 
-    number of <a href="/windows/desktop/dns/p-gly">property values</a> associated with 
-    a <a href="/windows/desktop/dns/c-gly">cluster object</a> property.
+    number of <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property values</a> associated with 
+    a <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster object</a> property.
 
 This property is read-only.
 

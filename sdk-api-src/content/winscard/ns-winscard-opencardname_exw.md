@@ -240,7 +240,7 @@ A handle of the connected card (either through an internal dialog box connect or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//SecAuthN/authentication-return-values">Smart Card Return Values</a>
+<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>
  
 
  

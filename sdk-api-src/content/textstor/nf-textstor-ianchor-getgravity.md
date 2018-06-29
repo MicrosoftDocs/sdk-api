@@ -108,7 +108,7 @@ The <i>pgravity</i> pointer is invalid.
 
 
 
-<a href="https://www.bing.com/search?q=Anchor+Gravity">Anchor Gravity</a>
+<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
 
 
 

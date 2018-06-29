@@ -7,7 +7,7 @@ old-location: devinst\setupgetthreadlogtoken.htm
 old-project: devinst
 ms.assetid: a4d870d0-2a1a-4319-9e52-e5bf469c4cdf
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupGetThreadLogToken, SetupGetThreadLogToken function [Device and Driver Installation], devinst.setupgetthreadlogtoken, setupapi/SetupGetThreadLogToken, setupapilog-ref_2d342787-8c0e-4198-85cc-e64d51e98abb.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupGetThreadLogToken function
@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://www.bing.com/search?q=log+token">log token</a> for the thread from which this function was called.
+The <b>SetupGetThreadLogToken</b> function retrieves the <a href="devinst.log_tokens">log token</a> for the thread from which this function was called.
 
 
 ## -parameters
@@ -79,9 +79,9 @@ The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://www.bi
 
 To set a log token for a thread, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552216">SetupSetThreadLogToken</a>. 
 
-For more information about log tokens, see <a href="https://www.bing.com/search?q=Log+Tokens">Log Tokens</a>.
+For more information about log tokens, see <a href="devinst.log_tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://www.bing.com/search?q=Setting+and+Getting+a+Log+Token+for+a+Thread">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>.
 
 
 
@@ -91,11 +91,11 @@ For more information about using log tokens, see <a href="https://www.bing.com/s
 
 
 
-<a href="https://www.bing.com/search?q=Log+Tokens">Log Tokens</a>
+<a href="devinst.log_tokens">Log Tokens</a>
 
 
 
-<a href="https://www.bing.com/search?q=Setting+and+Getting+a+Log+Token+for+a+Thread">Setting and Getting a Log Token for a Thread</a>
+<a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>
 
 
 

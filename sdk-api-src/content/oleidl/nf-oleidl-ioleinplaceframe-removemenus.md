@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_removemenus.htm
 old-project: com
 ms.assetid: 92d9fcda-8ede-4f38-ad56-59c4a75fe45a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceFrame interface [COM],RemoveMenus method, IOleInPlaceFrame.RemoveMenus, IOleInPlaceFrame::RemoveMenus, RemoveMenus, RemoveMenus method [COM], RemoveMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_removemenus, com.ioleinplaceframe_removemenus, oleidl/IOleInPlaceFrame::RemoveMenus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceFrame::RemoveMenus
@@ -61,7 +61,7 @@ Removes a container's menu elements from the composite menu.
 
 ### -param hmenuShared [in]
 
-A handle to the in-place composite menu that was constructed by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a> and the <a href="https://www.bing.com/search?q=InsertMenu">InsertMenu</a> function.
+A handle to the in-place composite menu that was constructed by calls to <a href="https://msdn.microsoft.com/659ea109-c2c1-4146-aed2-60b1ce853d89">IOleInPlaceFrame::InsertMenus</a> and the <a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a> function.
 
 
 ## -returns
@@ -128,7 +128,7 @@ This method is called by the object application while it is being UI-deactivated
 
 
 
-<a href="https://www.bing.com/search?q=InsertMenu">InsertMenu</a>
+<a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a>
  
 
  

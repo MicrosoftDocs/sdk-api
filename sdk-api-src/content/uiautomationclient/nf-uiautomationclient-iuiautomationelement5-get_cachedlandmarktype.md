@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement5">IUIAutomationElement5</a>
+<a href="https://msdn.microsoft.com/library/Mt798233(v=VS.85).aspx">IUIAutomationElement5</a>
  
 
  

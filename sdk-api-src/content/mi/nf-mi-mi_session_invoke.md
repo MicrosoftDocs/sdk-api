@@ -68,7 +68,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="https://www.bing.com/search?q=flags">flags</a>.
+      <a href="https://msdn.microsoft.com/library/JJ653875(v=VS.85).aspx">flags</a>.
 
 
 ### -param options [in, optional]

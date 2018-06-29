@@ -172,7 +172,7 @@ Custom interpolators can be reused across applications, but it is recommended th
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop//UIAnimation/custom-interpolator-sample">Custom Interpolator Sample</a>.
+For an example, see <a href="https://msdn.microsoft.com/library/Dd940513(v=VS.85).aspx">Custom Interpolator Sample</a>.
 
 <div class="code"></div>
 

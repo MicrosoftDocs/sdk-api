@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxroutegetroutinginfo.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3t2n.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxRouteGetRoutingInfo, FaxRouteGetRoutingInfo function [Fax Service], _mfax_faxroutegetroutinginfo, fax._mfax_faxroutegetroutinginfo, faxroute/FaxRouteGetRoutingInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,15 +114,15 @@ The fax service calls the <b>FaxRouteGetRoutingInfo</b> function twice. On the f
 
 
 
-<a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/339f7fb6-64eb-403e-91be-210501042a25">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c18c63d-e30e-4308-9b3a-d1ec4546a0f3">FaxRouteSetRoutingInfo</a>
+<a href="https://msdn.microsoft.com/library/ms692913(v=VS.85).aspx">FaxRouteSetRoutingInfo</a>
  
 
  

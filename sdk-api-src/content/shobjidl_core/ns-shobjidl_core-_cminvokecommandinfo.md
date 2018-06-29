@@ -7,7 +7,7 @@ old-location: shell\CMINVOKECOMMANDINFO.htm
 old-project: shell
 ms.assetid: 1da79d98-5a2f-4c43-aab2-8ae7c3b345b2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: "*LPCMINVOKECOMMANDINFO, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_SHIFT_DOWN, CMINVOKECOMMANDINFO, CMINVOKECOMMANDINFO structure [Windows Shell], PCCMINVOKECOMMANDINFO, PCCMINVOKECOMMANDINFO structure pointer [Windows Shell], _CMINVOKECOMMANDINFO, _win32_CMINVOKECOMMANDINFO, shell.CMINVOKECOMMANDINFO, shobjidl_core/CMINVOKECOMMANDINFO, shobjidl_core/PCCMINVOKECOMMANDINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -180,7 +180,7 @@ This is not a fixed set; new canonical verbs can be invented by context menu han
 
 If a canonical verb exists and a menu handler does not implement the canonical verb, it must return a failure code to enable the next handler to be able to handle this verb. Failing to do this will break functionality in the system including <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>.
 
-Alternatively, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(offset) where <i>offset</i> is the menu-identifier offset of the command to carry out. Implementations can use the <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a> macro to detect that this alternative is being employed. The Shell uses this alternative when the user chooses a menu command.
+Alternatively, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>(offset) where <i>offset</i> is the menu-identifier offset of the command to carry out. Implementations can use the <a href="https://msdn.microsoft.com/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a> macro to detect that this alternative is being employed. The Shell uses this alternative when the user chooses a menu command.
 
 
 ### -field lpParameters
@@ -201,7 +201,7 @@ An optional working directory name. This member is always <b>NULL</b> for menu i
 
 Type: <b>int</b>
 
-A set of SW_ values to pass to the <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> function if the command displays a window or starts an application.
+A set of SW_ values to pass to the <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> function if the command displays a window or starts an application.
 
 
 ### -field dwHotKey

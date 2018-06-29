@@ -63,7 +63,7 @@ req.irql:
 ### -field SemanticName
 
 
-            A per-parameter string that identifies how the data will be used. For more info, see <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">Semantics</a>.
+            A per-parameter string that identifies how the data will be used. For more info, see <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">Semantics</a>.
           
 
 

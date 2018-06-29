@@ -87,7 +87,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
          A reversal transition smoothly changes direction over the specified duration. The final value will be the same as the initial value and the final velocity will be the negative of the initial velocity. The folllowing figure shows such a reversal transition.
 
-<img alt="Diagram showing a reversal transition" src="./images/ReversalTransition.png"/>
+<img alt="Diagram showing a reversal transition" src="Images/ReversalTransition.png"/>
 
 
 

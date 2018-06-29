@@ -65,9 +65,9 @@ The
 ### -param hFile [in]
 
 Handle to the file or directory. This handle is created by using the 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+<a href="base.createfile">CreateFile</a> function.
 
-The handle must be synchronous (nonoverlapped). This means that the FILE_FLAG_OVERLAPPED flag must not be set when <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
+The handle must be synchronous (nonoverlapped). This means that the FILE_FLAG_OVERLAPPED flag must not be set when <a href="base.createfile">CreateFile</a> is called. This function does not validate that the handle it receives is synchronous, so it does not return an error code for a synchronous handle, but calling it with an asynchronous (overlapped) handle can result in subtle errors that are very difficult to debug.
 
 
 ### -param dwLowBytesToSeek [in]
@@ -130,7 +130,7 @@ Applications use the <b>BackupSeek</b> function to skip portions of a data strea
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
  
 
  

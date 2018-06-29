@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clipboardcopy.htm
 old-project: tablet
 ms.assetid: ad62c9b3-6df6-445b-9085-7cd5c4b6b31f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: ClipboardCopy, ClipboardCopy method [Tablet PC], ClipboardCopy method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopy method, IInkDisp.ClipboardCopy, IInkDisp::ClipboardCopy, ad62c9b3-6df6-445b-9085-7cd5c4b6b31f, msinkaut/IInkDisp::ClipboardCopy, tablet.inkdisp_clipboardcopy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ If an empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

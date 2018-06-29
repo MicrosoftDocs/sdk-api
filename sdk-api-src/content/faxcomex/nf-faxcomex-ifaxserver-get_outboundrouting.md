@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxServer.get_OutboundRouting
 title: IFaxServer::get_OutboundRouting
 author: windows-sdk-content
-description: The IFaxServer::get_OutboundRouting property creates a IFaxOutboundRouting configuration interface. The interface permits users to configure outbound routing groups and rules.
-old-location: fax\_mfax_faxserver_outboundrouting_cpp.htm
+description: The OutboundRouting property creates a FaxOutboundRouting configuration object. The object permits users to configure outbound routing groups and rules.
+old-location: fax\_mfax_faxserver_outboundrouting.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_6y1z_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_6y1z.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxServer interface [Fax Service],OutboundRouting property, IFaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.outboundrouting_cpp, fax._mfax_faxserver_outboundrouting_cpp, faxcomex/IFaxServer::OutboundRouting, faxcomex/IFaxServer::get_OutboundRouting, get_OutboundRouting
+ms.date: 06/12/2018
+ms.keywords: FaxServer object [Fax Service],OutboundRouting property, FaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.outboundrouting, fax._mfax_faxserver_outboundrouting, get_OutboundRouting
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer.OutboundRouting
+ - FaxServer.OutboundRouting
  - IFaxServer.get_OutboundRouting
 product: Windows
 targetos: Windows
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxServer::get_OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/47e35e11-b288-47c6-bfed-3af7716e7d6b">IFaxOutboundRouting</a> configuration interface. The interface permits users to configure outbound routing groups and rules.
+The <b>OutboundRouting</b> property creates a <a href="https://msdn.microsoft.com/library/ms690136(v=VS.85).aspx">FaxOutboundRouting</a> configuration object. The object permits users to configure outbound routing groups and rules.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/b5d59fec-2802-40bd-8ce4-748137f30fb2">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
+This property is not supported in Windows XP, and will return the error: <a href="https://msdn.microsoft.com/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>. 
 
 
 
@@ -74,15 +74,15 @@ This property is not supported in Windows XP, and will return the error: <a hre
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

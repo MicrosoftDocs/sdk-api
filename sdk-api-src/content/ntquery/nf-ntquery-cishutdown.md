@@ -7,7 +7,7 @@ old-location: shell\CIShutdown.htm
 old-project: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Query.dll (version 5.1 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CIShutdown function

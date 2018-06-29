@@ -7,7 +7,7 @@ old-location: com\advf.htm
 old-project: com
 ms.assetid: e1ad9c17-e492-4891-bf1d-cbac48ce537a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ADVF, ADVF enumeration [COM], ADVFCACHE_FORCEBUILTIN, ADVFCACHE_NOHANDLER, ADVFCACHE_ONSAVE, ADVF_DATAONSTOP, ADVF_NODATA, ADVF_ONLYONCE, ADVF_PRIMEFIRST, _ole_ADVF, com.advf, objidl/ADVF, objidl/ADVFCACHE_FORCEBUILTIN, objidl/ADVFCACHE_NOHANDLER, objidl/ADVFCACHE_ONSAVE, objidl/ADVF_DATAONSTOP, objidl/ADVF_NODATA, objidl/ADVF_ONLYONCE, objidl/ADVF_PRIMEFIRST, tagADVF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagADVF enumeration

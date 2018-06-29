@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface4_getglyphimageformats_overload.htm
 old-project: DirectWrite
 ms.assetid: bbbb399a-fdcd-5e08-4c50-1bec4784d696
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/11/2018
 ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats methods [Direct Write], IDWriteFontFace4::GetGlyphImageFormats, directwrite.idwritefontface4_getglyphimageformats_overload, dwrite_3/GetGlyphImageFormats
 ms.prod: windows
 ms.technology: windows-sdk

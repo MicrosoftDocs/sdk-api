@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # __MIDL___MIDL_itf_rdpencomapi_0000_0000_0006 enumeration

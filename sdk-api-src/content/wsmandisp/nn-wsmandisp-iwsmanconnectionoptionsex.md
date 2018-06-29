@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex.htm
 old-project: WinRM
 ms.assetid: aa47c9bf-6c7d-41c2-a29b-929600ee371a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManConnectionOptionsEx, IWSManConnectionOptionsEx interface [Windows Remote Management], IWSManConnectionOptionsEx interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex, wsmandisp/IWSManConnectionOptionsEx
 ms.prod: windows
 ms.technology: windows-sdk

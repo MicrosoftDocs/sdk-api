@@ -7,7 +7,7 @@ old-location: shell\IShellItem_GetAttributes.htm
 old-project: shell
 ms.assetid: d8d48b4b-979e-48ed-9e57-279fd6fad5cc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetAttributes method, IShellItem.GetAttributes, IShellItem::GetAttributes, _win32_IShellItem_GetAttributes, shell.IShellItem_GetAttributes, shobjidl_core/IShellItem::GetAttributes
 ms.prod: windows
 ms.technology: windows-sdk

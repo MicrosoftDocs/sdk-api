@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_height.htm
 old-project: tablet
 ms.assetid: 5815f184-1ae4-4617-9aa6-acf727aff202
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 5815f184-1ae4-4617-9aa6-acf727aff202, Height property [Tablet PC], Height property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Height property, IPenInputPanel.Height, IPenInputPanel.get_Height, IPenInputPanel::Height, IPenInputPanel::get_Height, PenInputPanel.get_Height, get_Height, peninputpanel/IPenInputPanel::Height, peninputpanel/IPenInputPanel::get_Height, tablet.peninputpanel_height
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::get_Height
@@ -83,7 +83,7 @@ Starting with Microsoft Windows XP Tablet PC Edition 2005, the Tablet PC Input P
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

@@ -147,7 +147,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms726020(v=vs.85).aspx">Dialable Addresses</a>
+<a href="../tapi3/address_ovr.htm">Dialable Addresses</a>
 
 
 

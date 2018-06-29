@@ -7,7 +7,7 @@ old-location: winrm\wsmanpluginreportcontext.htm
 old-project: WinRM
 ms.assetid: 8bdfeabf-1028-4ddb-8953-455bbc2a1a1e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManPluginReportContext, WSManPluginReportContext function [Windows Remote Management], winrm.wsmanpluginreportcontext, wsman/WSManPluginReportContext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_Scale.htm
 old-project: shell
 ms.assetid: ebcc9cc1-b6ee-4fb9-9125-54d6a9ee9434
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IShellImageData interface [Windows Shell],Scale method, IShellImageData.Scale, IShellImageData::Scale, Scale, Scale method [Windows Shell], Scale method [Windows Shell],IShellImageData interface, _shell_IShellImageData_Scale, shell.IShellImageData_Scale, shimgdata/IShellImageData::Scale
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ The vertical (y) dimension. If this value is 0, the y dimension is set to a scal
 
 ### -param hints [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
+A member of the <a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
 
 
 ## -returns

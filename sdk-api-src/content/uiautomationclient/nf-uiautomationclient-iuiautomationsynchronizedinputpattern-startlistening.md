@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="https://www.bing.com/search?q=UIA_InputReachedTargetEventId">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="https://www.bing.com/search?q=UIA_InputReachedOtherElementEventId">UIA_InputReachedOtherElementEventId</a> or <a href="https://www.bing.com/search?q=UIA_InputDiscardedEventId">UIA_InputDiscardedEventId</a> event.
+When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_InputReachedOtherElementEventId</a> or <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_InputDiscardedEventId</a> event.
 
 After receiving input of the specified type, the provider stops checking for input and continues as normal.
 

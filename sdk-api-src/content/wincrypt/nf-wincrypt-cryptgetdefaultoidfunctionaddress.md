@@ -123,7 +123,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://www.bing.com/search?q=OID+Support+Functions">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

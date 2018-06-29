@@ -120,7 +120,7 @@ If a character does not exist in the current font, it is assigned the width of t
 
 #### Examples
 
-For an example, see "Displaying Keyboard Input" in <a href="https://www.bing.com/search?q=Using+Keyboard+Input">Using Keyboard Input</a>.
+For an example, see "Displaying Keyboard Input" in <a href="https://msdn.microsoft.com/library/ms646268(v=VS.85).aspx">Using Keyboard Input</a>.
 
 <div class="code"></div>
 

@@ -138,7 +138,7 @@ Use password control.
 </dl>
 </td>
 <td width="60%">
-Turn off IME operation (see <a href="https://www.bing.com/search?q=ES_NOIME">ES_NOIME</a>).
+Turn off IME operation (see <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">ES_NOIME</a>).
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Turn off IME operation (see <a href="https://www.bing.com/search?q=ES_NOIME">ES_
 </dl>
 </td>
 <td width="60%">
-The rich edit host handles IME operation (see <a href="https://www.bing.com/search?q=ES_SELFIME">ES_SELFIME</a>) .
+The rich edit host handles IME operation (see <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>) .
 
 </td>
 </tr>

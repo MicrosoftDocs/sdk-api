@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdo::get__NewEnum
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>get__NewEnum</b> method retrieves an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface for the Server Data Objects (SDO) properties.
+<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface for the Server Data Objects (SDO) properties.
 
 
 ## -parameters
@@ -64,9 +64,9 @@ The
 ### -param ppEnumVARIANT [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
-its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method to obtain an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface.
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer. Use this <b>IUnknown</b> interface pointer with 
+its <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method to obtain an 
+<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface.
 
 
 ## -returns
@@ -94,7 +94,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
 
 
 

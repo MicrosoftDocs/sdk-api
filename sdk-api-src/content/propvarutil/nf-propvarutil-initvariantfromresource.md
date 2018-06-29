@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromResource function
@@ -100,7 +100,7 @@ Creates a VT_BSTR variant. If the resource does not exist, this function initial
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromResource">InitVariantFromResource</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762334(v=VS.85).aspx">InitVariantFromResource</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,23 +131,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromResource">InitPropVariantFromResource</a>
+<a href="https://msdn.microsoft.com/library/Bb762304(v=VS.85).aspx">InitPropVariantFromResource</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromString">InitVariantFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d878af7-a7b1-4d24-89ff-c567e4a8accd">LoadString</a>
+<a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToString">VariantToString</a>
+<a href="https://msdn.microsoft.com/library/Bb776617(v=VS.85).aspx">VariantToString</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToStringWithDefault">VariantToStringWithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776621(v=VS.85).aspx">VariantToStringWithDefault</a>
  
 
  

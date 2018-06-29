@@ -116,10 +116,10 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://msdn.microsoft.com/4131CCED-3B76-4569-B0A7-111E4E9215EF">Access UEFI firmware variables from a Universal Windows App</a>
+Starting with Windows 10, version 1803, Universal Windows apps can read and write UEFI firmware variables. See <a href="https://msdn.microsoft.com/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>
  for details.
 
-To read a UEFI firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="https://msdn.microsoft.com/4131CCED-3B76-4569-B0A7-111E4E9215EF">Access UEFI firmware variables from a Universal Windows App</a>
+To read a UEFI firmware environment variable, the user account that the app is running under must have the <a href="https://msdn.microsoft.com/library/windows/desktop/bb530716(v=vs.85).aspx">SE_SYSTEM_ENVIRONMENT_NAME</a> privilege. A Universal Windows app must be run from an administrator account and follow the requirements outlined in <a href="https://msdn.microsoft.com/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>
 .
 
 Starting with Windows 10, version 1803, reading Unified Extensible Firmware Interface (UEFI) variables is also supported from User-Mode Driver Framework (UMDF) drivers. Writing UEFI variables from UMDF drivers is not supported.
@@ -139,7 +139,7 @@ If you are creating a backup application, you can use this function to save all 
 
 
 
-<a href="https://msdn.microsoft.com/4131CCED-3B76-4569-B0A7-111E4E9215EF">Access UEFI firmware variables from a Universal Windows App</a>
+<a href="https://msdn.microsoft.com/library/Mt829375(v=VS.85).aspx">Access UEFI firmware variables from a Universal Windows App</a>
 
 
 

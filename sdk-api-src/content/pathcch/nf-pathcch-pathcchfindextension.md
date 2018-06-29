@@ -7,7 +7,7 @@ old-location: shell\PathCchFindExtension.htm
 old-project: shell
 ms.assetid: dac6cf02-7b53-449c-b788-4a7b6d1622ed
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: PathCchFindExtension, PathCchFindExtension function [Windows Shell], pathcch/PathCchFindExtension, shell.PathCchFindExtension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PathCchFindExtension function

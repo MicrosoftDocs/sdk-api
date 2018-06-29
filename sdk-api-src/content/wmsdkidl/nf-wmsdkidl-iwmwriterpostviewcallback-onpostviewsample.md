@@ -92,7 +92,7 @@ Sample duration, in 100-nanosecond units. This will usually be 10000 (1 millisec
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>

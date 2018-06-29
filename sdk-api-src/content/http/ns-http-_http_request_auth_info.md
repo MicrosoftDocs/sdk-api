@@ -70,7 +70,7 @@ If the authentication status is not <b>HttpAuthStatusSuccess</b>, applications s
 
 ### -field SecStatus
 
-A <a href="https://www.bing.com/search?q=SECURITY_STATUS">SECURITY_STATUS</a> value that indicates the security failure status when the <b>AuthStatus</b> member   is <b>HttpAuthStatusFailure</b>.
+A <a href="security.acceptsecuritycontext">SECURITY_STATUS</a> value that indicates the security failure status when the <b>AuthStatus</b> member   is <b>HttpAuthStatusFailure</b>.
 
 
 ### -field Flags
@@ -127,7 +127,7 @@ The type of context in the <b>PackedContext</b> member.
 
 The security context for the authentication type.
 
-Applications can query the attributes of the packed context by calling the SSPI <a href="https://www.bing.com/search?q=QueryContextAttributes">QueryContextAttributes</a> API. However, applications must acquire a  credential handle for the security package for the indicated AuthType.
+Applications can query the attributes of the packed context by calling the SSPI <a href="security.querycontextattributes">QueryContextAttributes</a> API. However, applications must acquire a  credential handle for the security package for the indicated AuthType.
 
 Application should call the SSPI <a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> API to free the serialized context when it is no longer required.
 
@@ -166,7 +166,7 @@ Context Attributes
 
  The <b>ContextAttributes</b> member is provided for SSPI based schemes. For example, SSPI applications can determine whether <b>ASC_RET_MUTUAL_AUTH</b> is set for a mutually authenticated session.
 
-The HTTP Server API does not provide the expiration time for the context in the <b>PackedContext</b> member. Applications may require the expiration time  in specific  circumstances, for example, when NTLM credential caching is enabled and the application queries for the expiration time for a cached context. If the server application requires the expiration time for the underlying client context associated with the access token, it can receive the packed context and call <a href="https://www.bing.com/search?q=QueryContextAttributes">QueryContextAttributes</a> with the  <b>SECPKG_ATTR_LIFESPAN</b>.
+The HTTP Server API does not provide the expiration time for the context in the <b>PackedContext</b> member. Applications may require the expiration time  in specific  circumstances, for example, when NTLM credential caching is enabled and the application queries for the expiration time for a cached context. If the server application requires the expiration time for the underlying client context associated with the access token, it can receive the packed context and call <a href="security.querycontextattributes">QueryContextAttributes</a> with the  <b>SECPKG_ATTR_LIFESPAN</b>.
 
 Mutual Authentication Data
 

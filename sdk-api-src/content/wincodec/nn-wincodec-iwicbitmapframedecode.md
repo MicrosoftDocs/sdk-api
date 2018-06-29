@@ -104,7 +104,7 @@ Retrieves a small preview of the frame, if supported by the codec.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/f6a44610-0d30-420e-aaf9-c7f436f3c195">AITCodec Sample CODEC</a>
+<a href="f6a44610-0d30-420e-aaf9-c7f436f3c195">AITCodec Sample CODEC</a>
 
 
 

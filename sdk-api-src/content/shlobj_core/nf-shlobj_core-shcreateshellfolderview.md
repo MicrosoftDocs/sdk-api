@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellFolderView.htm
 old-project: shell
 ms.assetid: f2948a6d-84a5-456b-b328-ba76dba46e9d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows Shell], _win32_SHCreateShellFolderView, shell.SHCreateShellFolderView, shlobj_core/SHCreateShellFolderView
 ms.prod: windows
 ms.technology: windows-sdk

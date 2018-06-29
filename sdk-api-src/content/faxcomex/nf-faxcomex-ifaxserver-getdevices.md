@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxServer.GetDevices
 title: IFaxServer::GetDevices
 author: windows-sdk-content
-description: The IFaxServer::GetDevices method creates a IFaxDevices interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
-old-location: fax\_mfax_faxserver_getdevices_cpp.htm
+description: The GetDevices method creates a FaxDevices object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+old-location: fax\_mfax_faxserver_getdevices.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_7hrn_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_7hrn.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetDevices method, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices_cpp, fax._mfax_faxserver_getdevices_cpp, faxcomex/IFaxServer::GetDevices
+ms.date: 06/12/2018
+ms.keywords: FaxServer object [Fax Service],GetDevices method, FaxServer.GetDevices, GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],FaxServer object, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices, fax._mfax_faxserver_getdevices
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxServer.GetDevices
  - IFaxServer.GetDevices
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxServer::GetDevices</b> method creates a <a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a> interface, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+The <b>GetDevices</b> method creates a <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
 
 
 ## -parameters
@@ -59,20 +60,20 @@ The <b>IFaxServer::GetDevices</b> method creates a <a href="https://msdn.microso
 
 
 
-### -param ppFaxDevices [out, retval]
+### -param ppFaxDevices
 
-Type: <b><a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a> interface.
+
+
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> object.
 
 
 
@@ -81,9 +82,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You can use the <a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a> interface to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a> interfaces for them.
+You can use the <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> object to enumerate the fax devices associated with a connected fax server and to create <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> objects for them.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -93,15 +94,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

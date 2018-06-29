@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RoGetParameterizedTypeInstanceIID function

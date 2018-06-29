@@ -7,7 +7,7 @@ old-location: gpmc\igpmmigrationtable.htm
 old-project: GPMC
 ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <b>IGPMMigrationTable</b> interface provides an interface to a migration tab
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMigrationTable</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMMigrationTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMigrationTable</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMMigrationTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -150,7 +150,7 @@ Validates the migration table.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

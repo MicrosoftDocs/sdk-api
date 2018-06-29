@@ -257,7 +257,7 @@ An array of certificate enrollment Web service URLs for a specific CA configurat
 
 #### - pbstrOut [out, retval]
 
-A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns

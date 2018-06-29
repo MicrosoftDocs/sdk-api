@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumPortableDeviceObjectIDs::Next
@@ -72,7 +72,7 @@ req.product: Rights Management Services client 1.0 or later
 ### -param pObjIDs [in, out]
 
 
-            An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="https://msdn.microsoft.com/library/windows/desktop/4fe971c6-8611-453d-b69b-f02c17cf17d4">CoTaskMemFree</a>.
+            An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
           
 
 

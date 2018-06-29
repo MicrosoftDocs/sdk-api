@@ -7,7 +7,7 @@ old-location: com\iblockinglock_lock.htm
 old-project: com
 ms.assetid: 35657795-2f18-4738-b0b5-8d03e0e4179d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IBlockingLock interface [COM],Lock method, IBlockingLock.Lock, IBlockingLock::Lock, Lock, Lock method [COM], Lock method [COM],IBlockingLock interface, _com_iblockinglock_lock, com.iblockinglock_lock, objidl/IBlockingLock::Lock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IBlockingLock::Lock

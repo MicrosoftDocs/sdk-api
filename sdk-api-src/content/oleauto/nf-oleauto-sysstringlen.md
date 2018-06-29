@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SysStringLen function
@@ -84,7 +84,7 @@ The number of characters in <i>bstr</i>, not including the terminating null char
 
 
 
-The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a> function used to allocate the BSTR.
+The returned value may be different from <b>strlen</b>(bstr) if the BSTR contains embedded Null characters. This function always returns the number of characters specified in the cch parameter of the <a href="https://msdn.microsoft.com/library/ms221639(v=VS.85).aspx">SysAllocStringLen</a> function used to allocate the BSTR.
 
 
 

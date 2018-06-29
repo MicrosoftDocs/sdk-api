@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PeerCollabInviteContact function
@@ -142,7 +142,7 @@ This API ensures the peer that receives the invitation is the contact specified 
 A toast will appear for the recipient of the invitation. This toast will be converted to a dialog box in which the user can accept or decline the invitation. When the invitation is successfully accepted, the collaborative application is launched on the recipient's machine.
 
 
-To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="https://msdn.microsoft.com/962982a6-171f-4c13-ae03-84698482dea4">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
+To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
 
 
 If the recipient is accepting invitations only from trusted contacts, then the sender of the invite must be added to the contact store of the recipient machine. The sender must be added to the contact store before the invitation attempt. To add a contact to the contact store, call <a href="https://msdn.microsoft.com/0e4ba039-2016-487d-b4df-e96648db1a05">PeerCollabAddContact</a>. 

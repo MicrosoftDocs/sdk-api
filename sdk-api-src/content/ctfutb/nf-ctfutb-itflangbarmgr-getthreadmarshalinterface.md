@@ -83,11 +83,11 @@ This method does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler">CoCreateFreeThreadedMarshaler</a>
+<a href="https://msdn.microsoft.com/library/ms694500(v=VS.85).aspx">CoCreateFreeThreadedMarshaler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
+<a href="https://msdn.microsoft.com/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>
 
 
 

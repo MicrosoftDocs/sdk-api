@@ -89,7 +89,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="https://www.bing.com/search?q=failed">failed</a>.
+The resource has <a href="https://msdn.microsoft.com/library/ms682135(v=VS.85).aspx">failed</a>.
 
 
 

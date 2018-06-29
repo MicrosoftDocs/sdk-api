@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_tabletadded.htm
 old-project: tablet
 ms.assetid: fbc971ad-7cfb-4f75-8d63-a210a7967424
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],TabletAdded method, IStylusPlugin.TabletAdded, IStylusPlugin::TabletAdded, TabletAdded, TabletAdded method [Tablet PC], TabletAdded method [Tablet PC],IStylusPlugin interface, fbc971ad-7cfb-4f75-8d63-a210a7967424, rtscom/IStylusPlugin::TabletAdded, tablet.istylusplugin_tabletadded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IStylusPlugin::TabletAdded

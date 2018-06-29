@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-<div class="alert"><b>Note</b>  <b>D3DGetOutputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://msdn.microsoft.com/cf9cea53-e7a3-4473-bfdf-0cdeb8370974">D3DGetBlobPart</a> with the <a href="/windows/desktop/api/d3dcompiler/ne-d3dcompiler-d3d_blob_part">D3D_BLOB_OUTPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the output signature from a compilation result.
+<div class="alert"><b>Note</b>  <b>D3DGetOutputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://msdn.microsoft.com/cf9cea53-e7a3-4473-bfdf-0cdeb8370974">D3DGetBlobPart</a> with the <a href="https://msdn.microsoft.com/library/Ff728720(v=VS.85).aspx">D3D_BLOB_OUTPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the output signature from a compilation result.
 
 
 ## -parameters

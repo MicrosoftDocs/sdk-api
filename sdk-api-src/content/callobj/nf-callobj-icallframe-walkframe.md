@@ -7,7 +7,7 @@ old-location: com\icallframe_walkframe.htm
 old-project: com
 ms.assetid: 64e4967b-6b54-4416-ae10-04987f13d39a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ICallFrame interface [COM],WalkFrame method, ICallFrame.WalkFrame, ICallFrame::WalkFrame, WalkFrame, WalkFrame method [COM], WalkFrame method [COM],ICallFrame interface, _com_icallframe_walkframe, callobj/ICallFrame::WalkFrame, com.icallframe_walkframe
 ms.prod: windows
 ms.technology: windows-sdk

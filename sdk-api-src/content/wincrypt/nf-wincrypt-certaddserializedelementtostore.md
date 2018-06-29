@@ -339,7 +339,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+and+Certificate+Store+Maintenance+Functions">Certificate and Certificate Store Maintenance Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

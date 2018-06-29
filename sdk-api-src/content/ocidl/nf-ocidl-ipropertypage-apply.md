@@ -7,7 +7,7 @@ old-location: com\ipropertypage_apply.htm
 old-project: com
 ms.assetid: af0a1b49-54c3-453f-bd6a-70b63d625acb
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Apply, Apply method [COM], Apply method [COM],IPropertyPage interface, IPropertyPage interface [COM],Apply method, IPropertyPage.Apply, IPropertyPage::Apply, _ctrl_ipropertypage_apply, com.ipropertypage_apply, ocidl/IPropertyPage::Apply
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyPage::Apply

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromString function
@@ -93,7 +93,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromString">InitPropVariantFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -120,23 +120,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromString">InitVariantFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
  
 
  

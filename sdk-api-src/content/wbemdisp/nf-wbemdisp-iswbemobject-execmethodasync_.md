@@ -143,7 +143,7 @@ This method has no return values. If the call is successful, an
 
 
 
-Use the <b>SWbemObject.ExecMethodAsync_</b> method as an alternative to direct access for executing a <a href="https://www.bing.com/search?q=provider+method">provider method</a> when you cannot execute  a method directly. For example, if your method has out parameters, use the <b>SWbemObject.ExecMethodAsync_</b> method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see 
+Use the <b>SWbemObject.ExecMethodAsync_</b> method as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/library/JJ819822(v=VS.85).aspx">provider method</a> when you cannot execute  a method directly. For example, if your method has out parameters, use the <b>SWbemObject.ExecMethodAsync_</b> method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 
 This call returns immediately.  The requested objects and status are returned to the caller through callbacks delivered to the sink that is specified in <i>objWbemSink</i>. To process each object when it arrives, create an <i>objWbemSink</i>.<a href="https://msdn.microsoft.com/14110ee7-a808-4786-b695-2ce54189d826">OnObjectReady</a> event subroutine. After all the objects are returned, you can perform final processing in your implementation of the  <i>objWbemSink</i>.<a href="https://msdn.microsoft.com/2723185d-5b8b-4cc7-ada3-51c3275272a9">OnCompleted</a> event.

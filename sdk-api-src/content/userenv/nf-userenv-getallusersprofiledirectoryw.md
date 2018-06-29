@@ -7,7 +7,7 @@ old-location: shell\GetAllUsersProfileDirectory.htm
 old-project: shell
 ms.assetid: bd08947a-df57-4dd9-b9ba-a01b315bfdf1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetAllUsersProfileDirectory, GetAllUsersProfileDirectory function [Windows Shell], GetAllUsersProfileDirectoryA, GetAllUsersProfileDirectoryW, _shell_GetAllUsersProfileDirectory, shell.GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectory, userenv/GetAllUsersProfileDirectoryA, userenv/GetAllUsersProfileDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromInt16 function
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromInt16">InitPropVariantFromInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,19 +124,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
+<a href="https://msdn.microsoft.com/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromInt16">InitVariantFromInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt16">PropVariantToInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToInt16WithDefault">PropVariantToInt16WithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776549(v=VS.85).aspx">PropVariantToInt16WithDefault</a>
  
 
  

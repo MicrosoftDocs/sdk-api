@@ -7,7 +7,7 @@ old-location: shell\IsEqualPropertyKey.htm
 old-project: shell
 ms.assetid: 89218de5-95c8-440a-bde1-e4a0bc0d0549
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IsEqualPropertyKey, IsEqualPropertyKey macro [Windows Shell], _shell_IsEqualPropertyKey, propkeydef/IsEqualPropertyKey, shell.IsEqualPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IsEqualPropertyKey macro

@@ -7,7 +7,7 @@ old-location: setup\msigettargetpath.htm
 old-project: Msi
 ms.assetid: cad0e1c1-3f3a-4438-8b85-ea146c943579
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiGetTargetPath, MsiGetTargetPath function, MsiGetTargetPathA, MsiGetTargetPathW, _msi_msigettargetpath, msiquery/MsiGetTargetPath, msiquery/MsiGetTargetPathA, msiquery/MsiGetTargetPathW, setup.msigettargetpath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer Location Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer Location Functions</a>
 
 
 

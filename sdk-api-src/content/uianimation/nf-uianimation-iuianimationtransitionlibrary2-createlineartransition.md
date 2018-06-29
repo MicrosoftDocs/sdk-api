@@ -95,7 +95,7 @@ During a linear transition, the value of the animation variable transitions line
 
 The following figure shows the change in value over time of an animation variable during a linear transition.
 
-<img alt="Diagram showing a linear transition" src="./images/LinearTransition.png"/>
+<img alt="Diagram showing a linear transition" src="Images/LinearTransition.png"/>
 
 
 

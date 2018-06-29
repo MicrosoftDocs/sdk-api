@@ -7,7 +7,7 @@ old-location: setup\ivalidate_setstatus.htm
 old-project: Msi
 ms.assetid: 523334f1-4a82-4981-9c77-fffd2b5b561e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IValidate interface,SetStatus method, IValidate.SetStatus, IValidate::SetStatus, SetStatus, SetStatus method, SetStatus method,IValidate interface, evalcom2/IValidate::SetStatus, setup.ivalidate_setstatus
 ms.prod: windows
 ms.technology: windows-sdk

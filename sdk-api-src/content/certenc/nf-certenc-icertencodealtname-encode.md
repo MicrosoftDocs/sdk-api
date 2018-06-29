@@ -74,7 +74,7 @@ Before using this method, you must call both the
 
 #### - pbstrBinary [out]
 
-A pointer to a <b>BSTR</b> that receives the ASN.1-encoded alternate name extension. When done, call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> to free <i>pbstrBinary</i>.
+A pointer to a <b>BSTR</b> that receives the ASN.1-encoded alternate name extension. When done, call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free <i>pbstrBinary</i>.
 
 
 ## -returns

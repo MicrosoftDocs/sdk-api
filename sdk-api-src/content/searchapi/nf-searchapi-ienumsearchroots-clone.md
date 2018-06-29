@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumSearchRoots::Clone
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Creates a copy of the <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> object with the same contents and state as the current one.
+Creates a copy of the <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object with the same contents and state as the current one.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a copy of the <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e6
 
 ### -param ppenum [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
 
-Returns a pointer to the new <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+Returns a pointer to the new <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
                 
 
 

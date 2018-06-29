@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CObjectPathParser class
@@ -115,47 +115,4 @@ Converts a structure that contains the parsed path to a string.
 </td>
 </tr>
 </table> 
-
-
-## -members
-
-The <b>CObjectPathParser</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9164d7b2-15b8-4b73-ab8c-68ed45692ea0">Free</a>
-</td>
-<td align="left" width="63%">Overloaded. Releases the memory that contains the path.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c39dbef5-9050-487a-8e06-17087753330d">Parse</a>
-</td>
-<td align="left" width="63%">
-Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6135b808-b9eb-4ba0-9eb8-e7a59993ae34">UnParse</a>
-</td>
-<td align="left" width="63%">
-Converts a structure that contains the parsed path to a string.
-
-</td>
-</tr>
-</table>Releases the memory that contains the path.
-
-Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others.
-
-Converts a structure that contains the parsed path to a string.
-
- 
 

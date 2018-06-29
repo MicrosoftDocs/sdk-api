@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRichEditOle::ImportDataObject
@@ -77,7 +77,7 @@ Clipboard format to use. A value of zero will use the best available format.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HGLOBAL</a></b>
 
-Handle to a metafile containing the icon view of an object. The handle is used only if the <b>DVASPECT_ICON</b> display aspect is required by a <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">Paste Special</a> operation. 
+Handle to a metafile containing the icon view of an object. The handle is used only if the <b>DVASPECT_ICON</b> display aspect is required by a <a href="_ole_OleUIPasteSpecial">Paste Special</a> operation. 
 
 
 ## -returns
@@ -126,7 +126,7 @@ There was not enough memory to do the operation.
 
 
 
-<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
  
 
  

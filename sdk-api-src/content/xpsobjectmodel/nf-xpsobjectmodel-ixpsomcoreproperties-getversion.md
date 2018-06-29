@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>version</b> property contains the resource's version number.
 
-This method allocates the memory used by the string that is returned in <i>version</i>.  If <i>version</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>version</i>.  If <i>version</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
 
 
 

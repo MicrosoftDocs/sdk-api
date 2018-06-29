@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_PIN_GET_POLARITY_OUTPUT structure
@@ -71,11 +71,11 @@ Contains a polarity value to return.
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/D818E512-5E50-4CF2-AF22-1A4AB07679A6">PWM_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/Mt843932(v=VS.85).aspx">PWM_POLARITY</a>
  
 
  

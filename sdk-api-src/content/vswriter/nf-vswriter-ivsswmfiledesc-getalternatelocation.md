@@ -160,7 +160,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
-The caller must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the <i>pbstrAlternateLocation</i> parameter.
+The caller must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrAlternateLocation</i> parameter.
 
 The interpretation of the alternate location returned by 
 <b>GetAlternateLocation</b> differs depending on the method used to retrieve the 

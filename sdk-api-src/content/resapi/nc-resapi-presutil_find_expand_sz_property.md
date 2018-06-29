@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback function
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Locates an <a href="https://www.bing.com/search?q=expandable+string">expandable string</a> property in a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>. The <b>PRESUTIL_FIND_EXPAND_SZ_PROPERTY</b> type defines a pointer to this function.
+Locates an <a href="https://msdn.microsoft.com/library/Aa368574(v=VS.85).aspx">expandable string</a> property in a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>. The <b>PRESUTIL_FIND_EXPAND_SZ_PROPERTY</b> type defines a pointer to this function.
 
 
 ## -parameters

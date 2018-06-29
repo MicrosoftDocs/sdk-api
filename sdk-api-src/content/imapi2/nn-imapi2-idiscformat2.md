@@ -1,8 +1,19 @@
-﻿---
+---
 UID: NN:imapi2.IDiscFormat2
 title: IDiscFormat2
 author: windows-sdk-content
-description: This is a base interface. Use the following interfaces which inherit this interface: IDiscFormat2Data IDiscFormat2Erase IDiscFormat2TrackAtOnce IDiscFormat2RawCD
+description: This is a base interface. Use the following interfaces which inherit this interface:\_
+
+IDiscFormat2Data
+
+
+IDiscFormat2Erase
+
+
+IDiscFormat2TrackAtOnce
+
+
+IDiscFormat2RawCD
 old-location: imapi\idiscformat2.htm
 old-project: imapi
 ms.assetid: c0bc2e8b-bd60-4c97-bd86-41963b20b1a3
@@ -70,7 +81,7 @@ This is a base interface. Use the following interfaces which inherit this interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2</b> interface inherits from the <a href="http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDiscFormat2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDiscFormat2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

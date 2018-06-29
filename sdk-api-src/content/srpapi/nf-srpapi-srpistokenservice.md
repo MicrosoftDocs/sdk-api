@@ -7,7 +7,7 @@ old-location: edp\srpistokenservice.htm
 old-project: EDP
 ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService function, srpapi/SrpIsTokenService
 ms.prod: windows
 ms.technology: windows-sdk

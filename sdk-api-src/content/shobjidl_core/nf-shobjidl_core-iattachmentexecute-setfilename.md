@@ -7,7 +7,7 @@ old-location: shell\IAttachmentExecute_SetFileName.htm
 old-project: shell
 ms.assetid: 52dc823f-4429-4c1f-8906-9e4ee3f8158e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetFileName method, IAttachmentExecute.SetFileName, IAttachmentExecute::SetFileName, SetFileName, SetFileName method [Windows Shell], SetFileName method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetFileName, shell.IAttachmentExecute_SetFileName, shobjidl_core/IAttachmentExecute::SetFileName
 ms.prod: windows
 ms.technology: windows-sdk

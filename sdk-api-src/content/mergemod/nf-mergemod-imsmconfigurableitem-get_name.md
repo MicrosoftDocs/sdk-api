@@ -2,13 +2,13 @@
 UID: NF:mergemod.IMsmConfigurableItem.get_Name
 title: IMsmConfigurableItem::get_Name
 author: windows-sdk-content
-description: The get_Name method retrieves the Name property of the ConfigurableItem object.
-old-location: setup\imsmconfigurableitem_get_name.htm
+description: The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.
+old-location: setup\configurableitem_name.htm
 old-project: Msi
-ms.assetid: 310fcf76-457b-43d0-b33b-181b32480042
+ms.assetid: c28f508f-0788-4b60-a383-65c508ceef5f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
-ms.keywords: IMsmConfigurableItem interface,get_Name method, IMsmConfigurableItem.get_Name, IMsmConfigurableItem::get_Name, _msi_get_name_function, get_Name, get_Name method, get_Name method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Name, setup.imsmconfigurableitem_get_name
+ms.date: 06/08/2018
+ms.keywords: ConfigurableItem object,Name property, ConfigurableItem.Name, IMsmConfigurableItem.get_Name, IMsmConfigurableItem::get_Name, Name property, Name property,ConfigurableItem object, _msi_name_property, get_Name, setup.configurableitem_name
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
+ - ConfigurableItem.Name
  - IMsmConfigurableItem.get_Name
 product: Windows
 targetos: Windows
@@ -52,112 +53,10 @@ req.product: GDI+ 1.1
 
 
 The 
-<b>get_Name</b> method retrieves the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a> property of the 
-<a href="https://msdn.microsoft.com/bbd0d9bc-a463-4cd8-93ee-963dcee8efa6">ConfigurableItem</a> object.
+<b>Name</b> property of the <a href="https://msdn.microsoft.com/bbd0d9bc-a463-4cd8-93ee-963dcee8efa6">ConfigurableItem</a> object returns the value from the Name column of the ModuleConfiguration table.
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param Name [out]
-
-A pointer to a location in memory with the name of a configurable item as listed in the Name column of the 
-<a href="https://msdn.microsoft.com/3b77cc23-c104-4adc-868c-3aa2b5794bc7">ModuleConfiguration table</a>. The client must free the <b>BSTR</b> when it is no longer needed.
-
-
-## -returns
-
-
-
-This method can return one of these values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Invalid argument.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-No module is open.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Out of memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_FUNCTION_FAILED as HRESULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE as HRESULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
- 
-
- 
 

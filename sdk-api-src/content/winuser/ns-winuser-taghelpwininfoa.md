@@ -7,7 +7,7 @@ old-location: shell\HELPWININFO_str.htm
 old-project: shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: "*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,7 +174,7 @@ The name of the window.
 
 Windows Help divides the display into 1024 units in both the X and Y directions. To create a secondary window that fills the upper-left quadrant of the display, for example, an application would specify zero for the <b>x</b> and <b>y</b> members and 512 for the <b>dx</b> and <b>dy</b> members.
 
-To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="https://msdn.microsoft.com/library/windows/desktop/70826d03-3451-41e4-bebb-a820ae66d53f">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
+To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="70826d03-3451-41e4-bebb-a820ae66d53f">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
 
                 
 

@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_defaultpanel.htm
 old-project: tablet
 ms.assetid: 2b0ff320-02ce-4b23-ae47-91504c93ac24
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 2b0ff320-02ce-4b23-ae47-91504c93ac24, DefaultPanel property [Tablet PC], DefaultPanel property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],DefaultPanel property, IPenInputPanel.DefaultPanel, IPenInputPanel.put_DefaultPanel, IPenInputPanel::DefaultPanel, IPenInputPanel::get_DefaultPanel, IPenInputPanel::put_DefaultPanel, PenInputPanel.get_DefaultPanel, PenInputPanel.put_DefaultPanel, get_DefaultPanel, peninputpanel/IPenInputPanel::DefaultPanel, peninputpanel/IPenInputPanel::get_DefaultPanel, peninputpanel/IPenInputPanel::put_DefaultPanel, put_DefaultPanel, tablet.peninputpanel_defaultpanel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPenInputPanel::put_DefaultPanel
@@ -97,7 +97,7 @@ If you re-attach the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf
 
 
 
-<a href="https://www.bing.com/search?q=IPenInputPanel">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

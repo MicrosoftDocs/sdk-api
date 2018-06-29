@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection_Clear.htm
 old-project: shell
 ms.assetid: b32ce885-aafe-4c81-8e7a-74f67fa15180
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: Clear, Clear method [Windows Shell], Clear method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],Clear method, IObjectCollection.Clear, IObjectCollection::Clear, _shell_IObjectCollection_Clear, objectarray/IObjectCollection::Clear, shell.IObjectCollection_Clear
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IObjectCollection::Clear

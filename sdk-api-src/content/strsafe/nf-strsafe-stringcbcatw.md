@@ -7,7 +7,7 @@ old-location: menurc\stringcbcat.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcat.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: StringCbCat, StringCbCat function [Menus and Other Resources], StringCbCatA, StringCbCatW, _shell_StringCbCat, _shell_stringcbcat_cpp, menurc.stringcbcat, strsafe/StringCbCat, strsafe/StringCbCatA, strsafe/StringCbCatW, winui._shell_stringcbcat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192489">strcat, wcscat, _tcsat</a></li>
 <li>
-<a href="https://msdn.microsoft.com/346f6c95-6ebe-4e73-8f29-2778cc813e36">lstrcat</a>
+<a href="https://msdn.microsoft.com/library/ms647487(v=VS.85).aspx">lstrcat</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/fd357462-83be-42a8-9f39-1e023bd5f86e">StrCat</a>
@@ -183,7 +183,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/db9f0731-0f7b-4018-ad07-1abe0bfe71e8">StringCbCatEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/library/ms647496(v=VS.85).aspx">StringCbCatEx</a> if you require the handling of null string pointer values.
 
 
 
@@ -197,15 +197,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/db9f0731-0f7b-4018-ad07-1abe0bfe71e8">StringCbCatEx</a>
+<a href="https://msdn.microsoft.com/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/56ef4ada-52df-48dd-a5e1-f62311be7592">StringCbCatN</a>
+<a href="https://msdn.microsoft.com/library/ms647497(v=VS.85).aspx">StringCbCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/72ddb6ab-8167-4213-815b-bd15b62d6123">StringCchCat</a>
+<a href="https://msdn.microsoft.com/library/ms647518(v=VS.85).aspx">StringCchCat</a>
  
 
  

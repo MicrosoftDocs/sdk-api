@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds a string to a list box. If the list box does not have the <a href="https://www.bing.com/search?q=LBS_SORT">LBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a> message explicitly.
+Adds a string to a list box. If the list box does not have the <a href="https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx">LBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>.
 	
 
 

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/a14331a8-217d-48c6-9489-fb90c4d31b91">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
+Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774883(v=VS.85).aspx">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
 
 
 ## -parameters

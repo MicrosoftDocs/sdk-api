@@ -7,7 +7,7 @@ old-location: shell\IThumbnailProvider.htm
 old-project: shell
 ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
 ms.prod: windows
 ms.technology: windows-sdk

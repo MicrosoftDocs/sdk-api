@@ -7,7 +7,7 @@ old-location: com\idataobject_getdatahere.htm
 old-project: com
 ms.assetid: 802fc49a-21c2-4490-9b00-1359ce9c325f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetDataHere, GetDataHere method [COM], GetDataHere method [COM],IDataObject interface, IDataObject interface [COM],GetDataHere method, IDataObject.GetDataHere, IDataObject::GetDataHere, _ole_idataobject_getdatahere, com.idataobject_getdatahere, objidl/IDataObject::GetDataHere
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IDataObject::GetDataHere

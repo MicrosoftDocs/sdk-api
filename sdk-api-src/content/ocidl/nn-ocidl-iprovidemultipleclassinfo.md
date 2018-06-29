@@ -7,7 +7,7 @@ old-location: com\iprovidemultipleclassinfo.htm
 old-project: com
 ms.assetid: 87407830-b34b-4d4e-a5cc-551f47cffb75
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], IProvideMultipleClassInfo interface [COM],described, _com_iprovidemultipleclassinfo, com.iprovidemultipleclassinfo, ocidl/IProvideMultipleClassInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IProvideMultipleClassInfo interface

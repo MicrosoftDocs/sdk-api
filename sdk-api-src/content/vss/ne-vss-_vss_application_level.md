@@ -55,7 +55,7 @@ The <b>VSS_APPLICATION_LEVEL</b> enumeration indicates
     the application level, the point in the course of the creation of a shadow copy that a writer is notified of a 
     freeze.
 
-VSS first sends a <a href="https://docs.microsoft.com/windows/desktop//VSS/vssgloss-f">Freeze</a> event to writers 
+VSS first sends a <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">Freeze</a> event to writers 
     initialized with <b>VSS_APP_FRONT_END</b> (called front-end level applications), then to 
     writers initialized with <b>VSS_APP_BACK_END</b> (called back-end level applications), and 
     finally to writers initialized with <b>VSS_APP_SYSTEM</b> (called system-level 

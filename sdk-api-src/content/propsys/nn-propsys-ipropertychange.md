@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChange interface
@@ -71,7 +71,7 @@ The <b>IPropertyChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChange_ApplyToPropVariant">ApplyToPropVariant</a>
+<a href="https://msdn.microsoft.com/library/Bb775242(v=VS.85).aspx">ApplyToPropVariant</a>
 </td>
 <td align="left" width="63%">
 Applies a change to a property value.
@@ -90,7 +90,7 @@ Applies a change to a property value.
 
 
 
-<a href="https://www.bing.com/search?q=PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
+<a href="https://msdn.microsoft.com/library/Bb776494(v=VS.85).aspx">PSCreateSimplePropertyChange</a>
  
 
  

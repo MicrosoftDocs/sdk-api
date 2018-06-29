@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchCrawlScopeManager::AddRoot
@@ -63,10 +63,10 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param pSearchRoot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>*</b>
 
 
-                    An <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> describing the new search root to add.
+                    An <a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> describing the new search root to add.
                 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DVDMenuIDConstants enumeration
@@ -109,11 +109,11 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="https://www.bing.com/search?q=MSVidWebDVD+Constants">MSVidWebDVD Constants</a>
+<a href="mstv.msvidwebdvd_constants">MSVidWebDVD Constants</a>
 
 
 
-<a href="https://www.bing.com/search?q=ShowMenu">ShowMenu</a>
+<a href="https://msdn.microsoft.com/library/Dd376389(v=VS.85).aspx">ShowMenu</a>
  
 
  

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChangeArray::GetAt
@@ -77,7 +77,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of a pointer to the interface specified by <i>riid</i>, usually <a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>.
+The address of a pointer to the interface specified by <i>riid</i>, usually <a href="https://msdn.microsoft.com/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>.
 
 
 ## -returns

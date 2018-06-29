@@ -7,7 +7,7 @@ old-location: com\olewhichmk.htm
 old-project: com
 ms.assetid: 3774c868-c312-4e7c-aa57-cdb13000a87c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: OLEWHICHMK, OLEWHICHMK enumeration [COM], OLEWHICHMK_CONTAINER, OLEWHICHMK_OBJFULL, OLEWHICHMK_OBJREL, _ole_OLEWHICHMK, com.olewhichmk, oleidl/OLEWHICHMK, oleidl/OLEWHICHMK_CONTAINER, oleidl/OLEWHICHMK_OBJFULL, oleidl/OLEWHICHMK_OBJREL, tagOLEWHICHMK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOLEWHICHMK enumeration

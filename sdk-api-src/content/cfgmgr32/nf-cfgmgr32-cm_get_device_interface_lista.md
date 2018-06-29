@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_list.htm
 old-project: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Get_Device_Interface_List, CM_Get_Device_Interface_List function [Device and Driver Installation], CM_Get_Device_Interface_ListA, CM_Get_Device_Interface_ListW, cfgmgr32/CM_Get_Device_Interface_List, cfgmgr32/CM_Get_Device_Interface_ListA, cfgmgr32/CM_Get_Device_Interface_ListW, cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml, devinst.cm_get_device_interface_list
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Supplies a GUID that identifies a device interface class.
 
 ### -param pDeviceID [in, optional]
 
-Caller-supplied pointer to a NULL-terminated string that represents a <a href="https://www.bing.com/search?q=device+instance+ID">device instance ID</a>. If specified, the function retrieves device interfaces that are supported by the device for the specified class. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves all interfaces that belong to the specified class.
+Caller-supplied pointer to a NULL-terminated string that represents a <a href="devinst.device_instance_ids">device instance ID</a>. If specified, the function retrieves device interfaces that are supported by the device for the specified class. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves all interfaces that belong to the specified class.
 
 
 ### -param Buffer [out]

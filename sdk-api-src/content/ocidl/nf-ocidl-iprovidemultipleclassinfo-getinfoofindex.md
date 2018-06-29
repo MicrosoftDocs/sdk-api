@@ -7,7 +7,7 @@ old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
 old-project: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetInfoOfIndex method, IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IProvideMultipleClassInfo::GetInfoOfIndex
@@ -123,7 +123,7 @@ Indicates a request for <i>piidSource</i> information.
 
 ### -param pptiCoClass [out]
 
-The <a href="https://msdn.microsoft.com/333d0904-ffa2-4d25-878d-7422bcd40582">coclass</a> type information for the requested contributor. See <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>.
+The <a href="https://msdn.microsoft.com/">coclass</a> type information for the requested contributor. See <a href="https://msdn.microsoft.com/library/ms221696(v=VS.85).aspx">ITypeInfo</a>.
 
 
 ### -param pdwTIFlags [out]

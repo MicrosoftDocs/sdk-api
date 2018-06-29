@@ -281,7 +281,7 @@ Returns a <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac
 </td>
 <td align="left" width="63%">
 Returns a <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> object describing the 
-     <a href="/windows/desktop/dns/c-gly">cluster version</a>.
+     <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster version</a>.
 
 </td>
 </tr>

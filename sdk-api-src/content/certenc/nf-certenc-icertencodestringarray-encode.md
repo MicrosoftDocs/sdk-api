@@ -73,7 +73,7 @@ Use the <a href="https://msdn.microsoft.com/35799b54-2c04-4bb4-a227-d2902b2379ec
 
 #### - pbstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded string array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that will contain the encoded string array. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns

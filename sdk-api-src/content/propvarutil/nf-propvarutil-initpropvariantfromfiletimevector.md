@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromFileTimeVector function
@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_FILETIME propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,15 +131,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
+<a href="https://msdn.microsoft.com/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromFileTimeArray">InitVariantFromFileTimeArray</a>
+<a href="https://msdn.microsoft.com/library/Bb762324(v=VS.85).aspx">InitVariantFromFileTimeArray</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a>
  
 
  

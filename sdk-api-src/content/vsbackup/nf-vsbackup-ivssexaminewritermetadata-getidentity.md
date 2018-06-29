@@ -169,7 +169,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 An 
 <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface might be from stored writer state information (created by a call to 

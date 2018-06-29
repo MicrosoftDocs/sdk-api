@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRDPSRAPIApplication interface
@@ -59,7 +59,7 @@ Groups the sharable windows within a process. Each application object contains a
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyEnumType interface
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Exposes methods that extract data from enumeration information. <a href="/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> gives access to the <a href="https://msdn.microsoft.com/c8cc040e-fcce-43a0-98c1-db2b2c616ac3">enum</a> and <a href="https://www.bing.com/search?q=enumRange">enumRange</a> elements in the <a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">property schema</a> in a programmatic way at run time.
+Exposes methods that extract data from enumeration information. <a href="https://msdn.microsoft.com/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> gives access to the <a href="https://msdn.microsoft.com/c8cc040e-fcce-43a0-98c1-db2b2c616ac3">enum</a> and <a href="https://msdn.microsoft.com/library/Bb773873(v=VS.85).aspx">enumRange</a> elements in the <a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">property schema</a> in a programmatic way at run time.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IPropertyEnumType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumType_GetDisplayText">GetDisplayText</a>
+<a href="https://msdn.microsoft.com/library/Bb761485(v=VS.85).aspx">GetDisplayText</a>
 </td>
 <td align="left" width="63%">
 Gets display text from an enumeration information structure.
@@ -80,7 +80,7 @@ Gets display text from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumType_GetEnumType">GetEnumType</a>
+<a href="https://msdn.microsoft.com/library/Bb761487(v=VS.85).aspx">GetEnumType</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration type from an enumeration information structure.
@@ -89,7 +89,7 @@ Gets an enumeration type from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumType_GetRangeMinValue">GetRangeMinValue</a>
+<a href="https://msdn.microsoft.com/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a>
 </td>
 <td align="left" width="63%">
 Gets a minimum value from an enumeration information structure.
@@ -98,7 +98,7 @@ Gets a minimum value from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumType_GetRangeSetValue">GetRangeSetValue</a>
+<a href="https://msdn.microsoft.com/library/Bb761491(v=VS.85).aspx">GetRangeSetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a set value from an enumeration information structure.
@@ -121,7 +121,7 @@ Gets a value from an enumeration information structure.
 
 
 
-For additional information, see <a href="https://www.bing.com/search?q=enumeratedList">enumeratedList</a>.
+For additional information, see <a href="https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
 
 
 

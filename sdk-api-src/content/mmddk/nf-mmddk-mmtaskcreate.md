@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
+req.typenames: MMC_SNAPIN_PROPERTY
 topic_type:
  - APIRef
  - kbSyntax

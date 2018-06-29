@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromDouble function
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromDouble">InitPropVariantFromDouble</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762291(v=VS.85).aspx">InitPropVariantFromDouble</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,19 +124,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromDouble">InitVariantFromDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleWithDefault">PropVariantToDoubleWithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776541(v=VS.85).aspx">PropVariantToDoubleWithDefault</a>
  
 
  

@@ -65,7 +65,7 @@ The <b>SetQuality</b> method specifies the quality setting for the video stream.
 
 ### -param dwQuality [in]
 
-<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">frame rate</a>) to 100 (maximum image quality).
+<b>DWORD</b> specifying the quality setting, in the range from zero (maximum <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">frame rate</a>) to 100 (maximum image quality).
 
 
 ## -returns

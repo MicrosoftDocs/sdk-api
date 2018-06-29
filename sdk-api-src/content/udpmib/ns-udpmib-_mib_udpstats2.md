@@ -92,7 +92,7 @@ The number of entries in the UDP listener table.
 
 
 The 
-			<a href="https://www.bing.com/search?q=GetUdpStatisticsEx2">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
+			<a href="https://msdn.microsoft.com/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
 
 
 
@@ -102,11 +102,11 @@ The
 
 
 
-<a href="https://www.bing.com/search?q=GetTcpStatisticsEx2">GetTcpStatisticsEx2</a>
+<a href="https://msdn.microsoft.com/library/Mt803265(v=VS.85).aspx">GetTcpStatisticsEx2</a>
 
 
 
-<a href="https://www.bing.com/search?q=GetUdpStatisticsEx2">GetUdpStatisticsEx2</a>
+<a href="https://msdn.microsoft.com/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a>
 
 
 

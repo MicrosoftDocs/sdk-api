@@ -7,7 +7,7 @@ old-location: setup\msienumclientsex.htm
 old-project: Msi
 ms.assetid: f7677202-1b3d-4039-86d3-242c3ce984e4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumClientsEx, MsiEnumClientsEx function [Setup API], MsiEnumClientsExA, MsiEnumClientsExW, NULL, User SID, msi/MsiEnumClientsEx, msi/MsiEnumClientsExA, msi/MsiEnumClientsExW, s-1-1-0, setup.msienumclientsex
 ms.prod: windows
 ms.technology: windows-sdk

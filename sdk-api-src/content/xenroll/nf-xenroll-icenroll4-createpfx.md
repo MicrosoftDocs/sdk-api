@@ -71,7 +71,7 @@ A password for the PFX-format message. This value can be empty or <b>NULL</b> to
 
 ### -param pstrPFX [out]
 
-A pointer to a <b>BSTR</b> that receives the base64-encoded PFX format certificate information. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the base64-encoded PFX format certificate information. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns

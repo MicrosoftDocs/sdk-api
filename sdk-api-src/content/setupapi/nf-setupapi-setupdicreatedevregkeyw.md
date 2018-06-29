@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedevregkey.htm
 old-project: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and Driver Installation], SetupDiCreateDevRegKeyA, SetupDiCreateDevRegKeyW, devinst.setupdicreatedevregkey, di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml, setupapi/SetupDiCreateDevRegKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiCreateDevRegKeyW function
@@ -62,7 +62,7 @@ The <b>SetupDiCreateDevRegKey</b> function creates a registry key for device-spe
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device information element that represents the device for which to create a registry key. 
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to create a registry key. 
 
 
 ### -param DeviceInfoData [in]
@@ -115,7 +115,7 @@ Create a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e6
 
 ### -param InfHandle [in, optional]
 
-The handle to an open INF file that contains an <a href="https://www.bing.com/search?q=INF+DDInstall+section">INF DDInstall section</a> to be executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfSectionName</i> must be specified as well.
+The handle to an open INF file that contains an <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> to be executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfSectionName</i> must be specified as well.
 
 
 ### -param InfSectionName [in, optional]

@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection.htm
 old-project: shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IObjectCollection interface

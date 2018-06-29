@@ -64,7 +64,7 @@ The
 ### -param ppNumber [out]
 
 Phone number that was gathered. The <b>BSTR</b> is allocated using 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> and should be deallocated by the client.
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> and should be deallocated by the client.
 
 
 ## -returns

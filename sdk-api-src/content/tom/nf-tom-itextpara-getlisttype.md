@@ -314,7 +314,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 Values above 32 correspond to Unicode values for bullets. 
 
-The mobile Microsoft Office version of the rich edit control uses <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomIgnoreNumberStyle</a> to suppress setting the style.
+The mobile Microsoft Office version of the rich edit control uses <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomIgnoreNumberStyle</a> to suppress setting the style.
 
 The following Microsoft Visual Basic for Applications (VBA) example numbers the paragraphs in a range, starting with the number 2 and following the numbers with a period.
             
@@ -330,7 +330,7 @@ The following Microsoft Visual Basic for Applications (VBA) example numbers the 
 </td>
 </tr>
 </table></span></div>
-For an example of <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
+For an example of <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
 
 
 
@@ -344,11 +344,11 @@ For an example of <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom
 
 
 
-<a href="https://msdn.microsoft.com/e797f494-bc34-4529-a773-22d1ebfe1250">GetListStart</a>
+<a href="https://msdn.microsoft.com/library/Bb773987(v=VS.85).aspx">GetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -356,15 +356,15 @@ For an example of <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom
 
 
 
-<a href="https://msdn.microsoft.com/1ba2346a-b56a-4eda-a6f9-0563e71c9cbd">SetListStart</a>
+<a href="https://msdn.microsoft.com/library/Bb774175(v=VS.85).aspx">SetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f9adb67-e4d6-41c9-b360-efbcead7befc">SetListType</a>
+<a href="https://msdn.microsoft.com/library/Bb787786(v=VS.85).aspx">SetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

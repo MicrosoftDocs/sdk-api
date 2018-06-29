@@ -256,7 +256,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Trust+List+Functions">Certificate Trust List Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
  
 
  

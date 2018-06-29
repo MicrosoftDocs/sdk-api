@@ -7,7 +7,7 @@ old-location: setup\msirecordcleardata.htm
 old-project: Msi
 ms.assetid: 61fc362e-2b8e-4ce4-83e2-bade40fb96bc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ This function returns UINT.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
  
 
  

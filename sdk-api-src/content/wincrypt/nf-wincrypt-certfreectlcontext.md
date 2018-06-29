@@ -89,7 +89,7 @@ The function always returns <b>TRUE</b>.
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Trust+List+Functions">Certificate Trust List Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
  
 
  

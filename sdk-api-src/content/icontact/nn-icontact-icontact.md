@@ -108,18 +108,18 @@ Classes that implement this interface often also implement these interfaces:
 
 <ul>
 <li>
-<a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>: Enables the contact 
+<a href="https://msdn.microsoft.com/library/ms687223(v=VS.85).aspx">IPersistFile</a>: Enables the contact 
             to be loaded from a file. Use this interface when loading a contact to get full support 
             in <a href="https://msdn.microsoft.com/b06f7d25-03ae-4630-9aa9-09cfbcecc416">CommitChanges</a> to change conflict detection.</li>
 <li>
-<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>: Provides methods for saving and 
+<a href="https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx">IPersistStream</a>: Provides methods for saving and 
 			loading objects that use a simple serial stream for their storage needs.</li>
 <li>
-<a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>: Enables the contact to be saved 
-			or loaded from a stream. Use <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a> to create a 
+<a href="https://msdn.microsoft.com/library/ms682273(v=VS.85).aspx">IPersistStreamInit</a>: Enables the contact to be saved 
+			or loaded from a stream. Use <a href="https://msdn.microsoft.com/library/ms690234(v=VS.85).aspx">IPersistStreamInit::InitNew</a> to create a 
 			new <b>IContact</b>. 
-			Note: loading a contact with <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> does 
-			not give you the locking and conflict detection that <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-load">IPersistFile::Load</a> 
+			Note: loading a contact with <a href="https://msdn.microsoft.com/library/ms690091(v=VS.85).aspx">IPersistStream</a> does 
+			not give you the locking and conflict detection that <a href="https://msdn.microsoft.com/library/ms687284(v=VS.85).aspx">IPersistFile::Load</a> 
 			and <a href="https://msdn.microsoft.com/b06f7d25-03ae-4630-9aa9-09cfbcecc416">CommitChanges</a> do.</li>
 <li>
 <a href="https://msdn.microsoft.com/c9c0d73d-4c39-4f7c-9bc6-46d764f157bd">IContactProperties</a>: Enables manipulation of contact properties.</li>

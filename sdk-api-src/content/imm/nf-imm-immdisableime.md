@@ -86,11 +86,11 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 
 
-The application must call this function before the first top-level window in the thread receives the <a href="https://www.bing.com/search?q=WM_CREATE">WM_CREATE</a> message. Thus, the application must call this function in one of the following places:
+The application must call this function before the first top-level window in the thread receives the <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. Thus, the application must call this function in one of the following places:
 
 <ul>
-<li>Any time before calling <a href="https://www.bing.com/search?q=CreateWindow">CreateWindow</a> to create the first top-level window</li>
-<li>In the <a href="https://www.bing.com/search?q=WM_NCCREATE">WM_NCCREATE</a> handler for first top-level window</li>
+<li>Any time before calling <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create the first top-level window</li>
+<li>In the <a href="https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a> handler for first top-level window</li>
 </ul>
 
 

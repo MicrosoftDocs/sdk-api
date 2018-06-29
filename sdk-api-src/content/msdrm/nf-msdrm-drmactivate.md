@@ -59,7 +59,7 @@ unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRMActivate</b> function obtains a lockbox and <a href="https://www.bing.com/search?q=machine+certificate">machine certificate</a> for a machine or a <a href="https://www.bing.com/search?q=rights+account+certificate">rights account certificate</a> for a user. 
+The <b>DRMActivate</b> function obtains a lockbox and <a href="https://msdn.microsoft.com/library/Ff951645(v=VS.85).aspx">machine certificate</a> for a machine or a <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> for a user. 
 
 
 ## -parameters
@@ -100,7 +100,7 @@ The application callback function specified in the <a href="https://msdn.microso
 
 #### DRM_ACTIVATE_TEMPORARY
 
-Acquire a temporary <a href="https://www.bing.com/search?q=rights+account+certificate">rights account certificate</a> (RAC). A temporary RAC is only good for a short period of time, but it is stored in the permanent license store. This flag is ignored in nonsilent activation; for more information,  see Remarks.
+Acquire a temporary <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> (RAC). A temporary RAC is only good for a short period of time, but it is stored in the permanent license store. This flag is ignored in nonsilent activation; for more information,  see Remarks.
 
 
 
@@ -164,7 +164,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-If an application attempts to activate a user on a computer that has not yet been activated, the function will fail. We recommend that an application call <a href="https://msdn.microsoft.com/f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa">DRMIsActivated</a> before calling this function to determine the activation status of the computer. Activating a machine that is already activated will overwrite the existing lockbox and machine certificate. Activating a user a second time will add an additional <a href="https://www.bing.com/search?q=rights+account+certificate">rights account certificate</a> to the computer. A user needs to activate a particular computer only once, although updates in the lockbox architecture may require downloading and activating a new lockbox.
+If an application attempts to activate a user on a computer that has not yet been activated, the function will fail. We recommend that an application call <a href="https://msdn.microsoft.com/f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa">DRMIsActivated</a> before calling this function to determine the activation status of the computer. Activating a machine that is already activated will overwrite the existing lockbox and machine certificate. Activating a user a second time will add an additional <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> to the computer. A user needs to activate a particular computer only once, although updates in the lockbox architecture may require downloading and activating a new lockbox.
 
 There are several options in activation.<table>
 <tr>
@@ -181,7 +181,7 @@ There are several options in activation.<table>
 </tr>
 <tr>
 <td>Temporary or permanent</td>
-<td>This applies only to a <a href="https://www.bing.com/search?q=rights+account+certificate">rights account certificate</a> (RAC), not to a machine certificate. Permanent activation is the default. Temporary is specified by the <b>DRM_ACTIVATE_TEMPORARY</b> flag. When you acquire a temporary RAC by using the <b>DRM_ACTIVATE_TEMPORARY</b> flag, the RAC is stored in the permanent license store, though it will expire shortly. The default validity time for a temporary RAC is 15 minutes, although this can be changed by the AD RMS service's administrator. To avoid cluttering the license store with expired RACs, you should delete a temporary RAC when ending a client session.</td>
+<td>This applies only to a <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> (RAC), not to a machine certificate. Permanent activation is the default. Temporary is specified by the <b>DRM_ACTIVATE_TEMPORARY</b> flag. When you acquire a temporary RAC by using the <b>DRM_ACTIVATE_TEMPORARY</b> flag, the RAC is stored in the permanent license store, though it will expire shortly. The default validity time for a temporary RAC is 15 minutes, although this can be changed by the AD RMS service's administrator. To avoid cluttering the license store with expired RACs, you should delete a temporary RAC when ending a client session.</td>
 </tr>
 </table>
  

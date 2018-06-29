@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7">IMFSensorProfile</a>
+<a href="https://msdn.microsoft.com/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a>
  
 
  

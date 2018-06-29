@@ -90,7 +90,7 @@ Use <b>CoTaskMemFree</b> to free the string.
 
 
 
-<a href="https://msdn.microsoft.com/239E5731-4425-46D4-AFEC-F3E59258B1DF">IMFNetCrossOriginSupport</a>
+<a href="https://msdn.microsoft.com/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
  
 
  

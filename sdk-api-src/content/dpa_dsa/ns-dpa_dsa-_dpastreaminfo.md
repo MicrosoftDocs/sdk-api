@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains a stream item used by the <a href="https://msdn.microsoft.com/b5910ac3-9066-49d8-8cb3-796de22428d3">PFNDPASTREAM</a> callback function. 
+Contains a stream item used by the <a href="https://msdn.microsoft.com/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> callback function. 
 
 
 ## -struct-fields

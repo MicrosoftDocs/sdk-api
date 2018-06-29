@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _RPC_ASYNC_NOTIFICATION_INFO structure
@@ -91,19 +91,19 @@ Handle to the I/O completion port.
 ### -field IOC.dwNumberOfBytesTransferred
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
+<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
 
 
 ### -field IOC.dwCompletionKey
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpCompletionKey</i> parameter of the 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
+<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
 
 
 ### -field IOC.lpOverlapped
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpOverlapped</i> parameter of the 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
+<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
 
 
 ### -field HWND

@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstylusasyncplugin.htm
 old-project: tablet
 ms.assetid: 229e14f6-e0b1-40e0-a58e-daf1ba08cd1f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 229e14f6-e0b1-40e0-a58e-daf1ba08cd1f, GetStylusAsyncPlugin, GetStylusAsyncPlugin method [Tablet PC], GetStylusAsyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusAsyncPlugin method, IRealTimeStylus.GetStylusAsyncPlugin, IRealTimeStylus::GetStylusAsyncPlugin, rtscom/IRealTimeStylus::GetStylusAsyncPlugin, tablet.irealtimestylus_getstylusasyncplugin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRealTimeStylus::GetStylusAsyncPlugin

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Gets the address of a pointer to the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface, which contains additional sort column values.
+Gets the address of a pointer to the <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface, which contains additional sort column values.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Gets the address of a pointer to the <a href="/windows/desktop/api/propsys/nn-pr
 
 Type: <b>REFIID</b>
 
-A reference to the identifier of the requested <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface.
+A reference to the identifier of the requested <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface.
 
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the address of a pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface.
+When this method returns successfully, contains the address of a pointer to an <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface.
 
 
 ## -returns
@@ -101,11 +101,11 @@ The following is an example usage for this method. When sorting by System.Author
 
 
 
-<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>
+<a href="https://msdn.microsoft.com/library/Bb761517(v=VS.85).aspx">IPropertyDescriptionAliasInfo</a>
 
 
 
-<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
+<a href="shell.IPropertyDescriptionAliasInfo_GetSortByAlias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
  
 
  

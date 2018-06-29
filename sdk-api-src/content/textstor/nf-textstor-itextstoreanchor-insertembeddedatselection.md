@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
+The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
 
 
 ## -parameters
@@ -197,7 +197,7 @@ Clients must use this method to insert an object into a text stream, since a <a 
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcEpRegisterA function
@@ -191,7 +191,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 <ul>
 <li>Interface 
-<a href="https://www.bing.com/search?q=UUID">UUID</a>
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>
 </li>
 <li>Interface version (major and minor)</li>
 <li>Binding handle</li>

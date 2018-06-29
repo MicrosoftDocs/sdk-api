@@ -51,7 +51,7 @@ req.irql:
 
 
 The <b>DDSURFACEDESC2</b> structure contains a description of a surface. This structure is used to pass surface parameters to the <a href="https://msdn.microsoft.com/4f27e36f-d04f-43ce-9a3d-64c352c8f8d8">IDirectDraw7::CreateSurface</a> and <a href="https://msdn.microsoft.com/541bd833-20c4-4b47-a3ed-c29f228a0626">IDirectDrawSurface7::SetSurfaceDesc</a> methods. It is also used to retrieve information about a surface in calls to <a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">IDirectDrawSurface7::Lock</a> and <a href="https://msdn.microsoft.com/4c36685e-8eb7-4d91-a479-8f099d5e712b">IDirectDrawSurface7::GetSurfaceDesc</a>. The relevant members differ for each potential type of surface.
-<div class="alert"><b>Note</b>  Rather than use this structure to decode files with the DirectDraw Surface (DDS) file format (.dds), you should use an alternative structure that does not rely on Ddraw.h. For more information about alternative structures for DDS, see <a href="https://msdn.microsoft.com/b0f3a1af-e816-4d64-93d9-51e510423869">DDS</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  Rather than use this structure to decode files with the DirectDraw Surface (DDS) file format (.dds), you should use an alternative structure that does not rely on Ddraw.h. For more information about alternative structures for DDS, see <a href="https://msdn.microsoft.com/library/Bb943990(v=VS.85).aspx">DDS</a>.</div><div> </div>
 
 ## -struct-fields
 
@@ -283,7 +283,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS
 
 ### -field dwTextureStage
 
-Stage identifier that is used to bind a texture to a specific stage in a multitexture cascade 3-D device. Although not required for all hardware, you should set this member for best performance on the largest variety of 3-D accelerators. Hardware that requires explicitly assigned textures exposes the D3DDEVCAPS_SEPARATETEXTUREMEMORIES 3-D device capability in the <b>DEVCAPS</b> member of the <a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a> structure that is filled by the <a href="https://msdn.microsoft.com/9ac080df-963b-4e29-b200-f74ff3bb6db8">GetDeviceCaps</a> method.
+Stage identifier that is used to bind a texture to a specific stage in a multitexture cascade 3-D device. Although not required for all hardware, you should set this member for best performance on the largest variety of 3-D accelerators. Hardware that requires explicitly assigned textures exposes the D3DDEVCAPS_SEPARATETEXTUREMEMORIES 3-D device capability in the <b>DEVCAPS</b> member of the <a href="https://msdn.microsoft.com/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure that is filled by the <a href="https://msdn.microsoft.com/library/Bb174320(v=VS.85).aspx">GetDeviceCaps</a> method.
 
 
 #### - DUMMYUNIONNAMEN(1)

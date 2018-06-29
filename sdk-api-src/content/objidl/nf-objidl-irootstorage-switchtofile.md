@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRootStorage::SwitchToFile
@@ -85,11 +85,11 @@ The <b>IRootStorage::SwitchToFile</b> method copies the file associated with the
 It is erroneous to call the 
 <b>SwitchToFile</b> method if the storage object or anything contained within it has been marshaled to another process. Before calling 
 <b>SwitchToFile</b>, the container must call the 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a> method for any element within the storage object that is loaded or running. The <b>HandsOffStorage</b> method forces the element to release its storage pointers and enter the hands-off storage mode. The container must also release all pointers to streams or storages that are contained in this root storage. After the full save operation is completed, the container returns the contained elements to normal storage mode.
+<a href="_com_ipersiststorage_handsoffstorage">IPersistStorage::HandsOffStorage</a> method for any element within the storage object that is loaded or running. The <b>HandsOffStorage</b> method forces the element to release its storage pointers and enter the hands-off storage mode. The container must also release all pointers to streams or storages that are contained in this root storage. After the full save operation is completed, the container returns the contained elements to normal storage mode.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If you are implementing your own storage objects, the 
-<a href="https://msdn.microsoft.com/cf92c62f-ef65-46b1-8f41-f2b31ff52044">IRootStorage</a> methods (including <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>) must not consume additional memory or file handles.
+<a href="https://msdn.microsoft.com/cf92c62f-ef65-46b1-8f41-f2b31ff52044">IRootStorage</a> methods (including <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a>, <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a>, and <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a>) must not consume additional memory or file handles.
 
 
 
@@ -99,11 +99,11 @@ If you are implementing your own storage objects, the
 
 
 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">IPersistStorage::HandsOffStorage</a>
+<a href="_com_ipersiststorage_handsoffstorage">IPersistStorage::HandsOffStorage</a>
 
 
 
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a>
+<a href="_com_ipersiststorage_savecompleted">IPersistStorage::SaveCompleted</a>
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromInt32 function
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromInt32">InitVariantFromInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762329(v=VS.85).aspx">InitVariantFromInt32</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromInt32">InitPropVariantFromInt32</a>
+<a href="https://msdn.microsoft.com/library/Bb762299(v=VS.85).aspx">InitPropVariantFromInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToInt32">VariantToInt32</a>
+<a href="https://msdn.microsoft.com/library/Bb776608(v=VS.85).aspx">VariantToInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToInt32WithDefault">VariantToInt32WithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776611(v=VS.85).aspx">VariantToInt32WithDefault</a>
  
 
  

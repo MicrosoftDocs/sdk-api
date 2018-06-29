@@ -2,7 +2,7 @@
 UID: NA:wsrm
 ms.assetid: d9bff2f1-464e-38cd-a1bc-ab6aaf47e3c4
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

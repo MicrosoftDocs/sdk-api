@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _INCREMENTAL_ACCESS_INFO structure
@@ -68,7 +68,7 @@ Size of the file in bytes.
 
 ### -field ftLastModifiedTime
 
-Type: <b><a href="https://www.bing.com/search?q=FILETIME">FILETIME</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
 
 Last time the file was modified.
 

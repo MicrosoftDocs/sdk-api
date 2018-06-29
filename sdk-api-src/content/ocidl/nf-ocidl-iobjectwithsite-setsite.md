@@ -7,7 +7,7 @@ old-location: com\iobjectwithsite_setsite.htm
 old-project: com
 ms.assetid: 5e95b2a6-85b3-4899-9e23-54ed9e69e821
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IObjectWithSite interface [COM],SetSite method, IObjectWithSite.SetSite, IObjectWithSite::SetSite, SetSite, SetSite method [COM], SetSite method [COM],IObjectWithSite interface, _ole_iobjectwithsite_setsite, com.iobjectwithsite_setsite, ocidl/IObjectWithSite::SetSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IObjectWithSite::SetSite

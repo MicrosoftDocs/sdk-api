@@ -238,7 +238,7 @@ Removes a text service from TSF.
 
 
 
-To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
+To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
 
 
 #### Examples

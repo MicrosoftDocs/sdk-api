@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PTConvertPrintTicketToDevMode function
@@ -127,7 +127,7 @@ The buffer in the returned <i>ppDevmode</i> should be released with <a href="htt
 
 Values of <i>pPrintTicket</i> that are outside of the <i>scope</i> are ignored. For example, if the scope is only a single page, then job-wide settings and document-wide settings are ignored. Job scope includes document scope and page scope. Document scope includes page scope.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 

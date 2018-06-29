@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_dev_status_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_0wz6.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FAX_DEV_STATUS, FAX_DEV_STATUS structure [Fax Service], PFAX_DEV_STATUS, PFAX_DEV_STATUS structure pointer [Fax Service], _FAX_DEV_STATUS, _mfax_fax_dev_status_str, fax._mfax_fax_dev_status_str, faxdev/FAX_DEV_STATUS, faxdev/PFAX_DEV_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>FAX_DEV_STATUS</b> structure contains status and identification informati
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_DEV_STATUS</b> structure. Before responding to the <a href="https://msdn.microsoft.com/03e347c9-6f22-4cf7-b72b-05ff282015f0">FaxDevReportStatus</a> function, the FSP must set this member to <b>sizeof</b>(<b>FAX_DEV_STATUS</b>).
+Specifies the size, in bytes, of the <b>FAX_DEV_STATUS</b> structure. Before responding to the <a href="https://msdn.microsoft.com/library/ms684542(v=VS.85).aspx">FaxDevReportStatus</a> function, the FSP must set this member to <b>sizeof</b>(<b>FAX_DEV_STATUS</b>).
 
 
 ### -field StatusId
@@ -137,7 +137,7 @@ Specifies a fax status code or value. This can be a predefined fax status code (
 </tr>
 <tr>
 <td>FS_USER_ABORT</td>
-<td>The FSP has canceled the transmission. Cancellation can result from a call to the <a href="https://msdn.microsoft.com/7c74f3a5-c494-4b68-94cc-2885a44fdc47">FaxDevAbortOperation</a> function. FSPs can also provide a UI for cancellation of fax transmissions.</td>
+<td>The FSP has canceled the transmission. Cancellation can result from a call to the <a href="https://msdn.microsoft.com/library/ms684537(v=VS.85).aspx">FaxDevAbortOperation</a> function. FSPs can also provide a UI for cancellation of fax transmissions.</td>
 </tr>
 <tr>
 <td>FS_ANSWERED</td>
@@ -174,7 +174,7 @@ Specifies the number of the page in the fax transmission that the FSP is receivi
 
 Type: <b>LPWSTR</b>
 
-Pointer to a null-terminated Unicode character string that specifies an identifier of the remote fax device that is connected with the current call to either the <a href="https://msdn.microsoft.com/3f37c113-2971-4092-8753-b0d30b8ce6c1">FaxDevReceive</a> or <a href="https://msdn.microsoft.com/9ec25812-658f-4d64-85c4-8ab66be5d93e">FaxDevSend</a> function.
+Pointer to a null-terminated Unicode character string that specifies an identifier of the remote fax device that is connected with the current call to either the <a href="https://msdn.microsoft.com/library/ms684535(v=VS.85).aspx">FaxDevReceive</a> or <a href="https://msdn.microsoft.com/library/ms684544(v=VS.85).aspx">FaxDevSend</a> function.
 				
 
 If the operation is sending a fax, the identifier specifies the CSID of the remote device; if the operation is receiving a fax, the identifier specifies the TSID of the remote device.
@@ -257,23 +257,23 @@ The fax service allocates the memory for the strings pointed to by the <b>CSI</b
 
 
 
-<a href="https://msdn.microsoft.com/4c823cde-c37b-4078-8a83-e58176f80392">Fax Service Provider Structures</a>
+<a href="https://msdn.microsoft.com/library/ms684540(v=VS.85).aspx">Fax Service Provider Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f37c113-2971-4092-8753-b0d30b8ce6c1">FaxDevReceive</a>
+<a href="https://msdn.microsoft.com/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/03e347c9-6f22-4cf7-b72b-05ff282015f0">FaxDevReportStatus</a>
+<a href="https://msdn.microsoft.com/library/ms684542(v=VS.85).aspx">FaxDevReportStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ec25812-658f-4d64-85c4-8ab66be5d93e">FaxDevSend</a>
+<a href="https://msdn.microsoft.com/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_send_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxPort object [Fax Service],Send property, FaxPort.Send, IFaxPort.get_Send, IFaxPort::get_Send, Send property [Fax Service], Send property [Fax Service],FaxPort object, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send_vb, get_Send
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,23 +75,23 @@ The <b>Send</b> property returns a value of TRUE if the fax port is enabled to s
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/7888d042-7d85-4921-b233-f6e95e0c80d9">FaxPort</a>
+<a href="https://msdn.microsoft.com/library/ms690315(v=VS.85).aspx">FaxPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdd91dd-7734-411a-9b7c-0da312269e6d">IFaxPort</a>
+<a href="https://msdn.microsoft.com/library/ms691281(v=VS.85).aspx">IFaxPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/e61b13b3-d86c-4f95-bf5a-6b0545a76d03">IFaxPorts</a>
+<a href="https://msdn.microsoft.com/library/ms690893(v=VS.85).aspx">IFaxPorts</a>
  
 
  

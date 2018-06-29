@@ -61,7 +61,7 @@ removes the specified profile based on the specified profile ID.
 
 ### -param ProfileId [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/29BF454E-60DD-4709-A1B2-2A46C3BD3F42">SENSORPROFILEID</a> of the profile to remove.
+Pointer to the <a href="https://msdn.microsoft.com/library/Mt845826(v=VS.85).aspx">SENSORPROFILEID</a> of the profile to remove.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/406EDC3F-39AD-41E0-A8AA-E4476C93F353">IMFSensorProfileCollection</a>
+<a href="https://msdn.microsoft.com/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
  
 
  

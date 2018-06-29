@@ -7,7 +7,7 @@ old-location: menurc\stringcbvprintf_l.htm
 old-project: menurc
 ms.assetid: e3e39151-03f7-4d85-91a0-d353122e6b4b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: StringCbVPrintf_l, StringCbVPrintf_l function [Menus and Other Resources], StringCbVPrintf_lA, StringCbVPrintf_lW, menurc.stringcbvprintf_l, strsafe/StringCbVPrintf_l, strsafe/StringCbVPrintf_lA, strsafe/StringCbVPrintf_lW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a> but includes a parameter for locale information.
+<b>StringCbVPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters

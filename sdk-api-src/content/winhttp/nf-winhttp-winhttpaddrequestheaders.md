@@ -234,7 +234,7 @@ The
 The name and value of request headers added with this function are validated.  Headers must be well formed. For more information about valid HTTP headers, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.  If an invalid header is used, this function fails and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
-<a href="https://www.bing.com/search?q=ERROR_INVALID_PARAMETER">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
+<a href="https://msdn.microsoft.com/library/ms689904(v=VS.85).aspx">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 
 If you are sending a Date: request header, you can use the <a href="https://msdn.microsoft.com/8d55e3bb-0b86-41d9-ba39-62feb2acc707">WinHttpTimeFromSystemTime</a> function to create structure for the header.
 

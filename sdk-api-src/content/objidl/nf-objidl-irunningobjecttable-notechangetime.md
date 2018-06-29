@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_notechangetime.htm
 old-project: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunningObjectTable.NoteChangeTime, IRunningObjectTable::NoteChangeTime, NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM],IRunningObjectTable interface, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRunningObjectTable::NoteChangeTime

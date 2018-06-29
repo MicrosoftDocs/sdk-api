@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_geteventinterest.htm
 old-project: tablet
 ms.assetid: 532a798e-b434-4730-8c20-7ec60255f170
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInterest method [Tablet PC], GetEventInterest method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetEventInterest method, IInkCollector.GetEventInterest, IInkCollector::GetEventInterest, msinkaut/IInkCollector::GetEventInterest, tablet.inkcollector_geteventinterest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ An exception occurred during processing.
 
 
 
-<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
+<a href="tablet.iinkcollector">IInkCollector</a>
 
 
 

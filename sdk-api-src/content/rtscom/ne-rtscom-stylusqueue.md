@@ -7,7 +7,7 @@ old-location: tablet\stylusqueue.htm
 old-project: tablet
 ms.assetid: 245f1c78-a6e9-4138-bddb-c0c890583aea
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 245f1c78-a6e9-4138-bddb-c0c890583aea, AsyncStylusQueue, AsyncStylusQueueImmediate, StylusQueue, StylusQueue enumeration [Tablet PC], SyncStylusQueue, rtscom/AsyncStylusQueue, rtscom/AsyncStylusQueueImmediate, rtscom/StylusQueue, rtscom/SyncStylusQueue, tablet.stylusqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # StylusQueue enumeration

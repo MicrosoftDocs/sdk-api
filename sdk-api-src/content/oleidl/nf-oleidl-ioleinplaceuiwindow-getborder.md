@@ -7,7 +7,7 @@ old-location: com\ioleinplaceuiwindow_getborder.htm
 old-project: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPlaceUIWindow interface, IOleInPlaceUIWindow interface [COM],GetBorder method, IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceUIWindow::GetBorder
@@ -123,7 +123,7 @@ The <b>IOleInPlaceUIWindow::GetBorder</b> function, when called on a document or
 
 If the object is to install these tools, it should negotiate space for the tools within this rectangle using <a href="https://msdn.microsoft.com/fd477b1d-e9a5-4b99-adf1-8e62de975730">IOleInPlaceUIWindow::RequestBorderSpace</a> and then call <a href="https://msdn.microsoft.com/7c806a02-db6d-444e-a049-22c4ae2b19b0">IOleInPlaceUIWindow::SetBorderSpace</a> to get this space allocated.
 
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::GetBorder</b>, do not make calls to the <a href="https://www.bing.com/search?q=PeekMessage">PeekMessage</a> or <a href="https://www.bing.com/search?q=GetMessage">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>GetBorder</b>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::GetBorder</b>, do not make calls to the <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>GetBorder</b>.</div>
 <div> </div>
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyChangeArray::Append
@@ -61,7 +61,7 @@ Inserts a change operation at the end of an array.
 
 ### -param ppropChange [in]
 
-Type: <b><a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>*</b>
 
 A pointer to the interface that contains the change.
 

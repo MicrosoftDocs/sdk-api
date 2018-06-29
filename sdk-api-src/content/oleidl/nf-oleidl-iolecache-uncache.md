@@ -7,7 +7,7 @@ old-location: com\iolecache_uncache.htm
 old-project: com
 ms.assetid: a6a57bdd-190f-485b-9b46-cbfc1a1d29a6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleCache interface [COM],Uncache method, IOleCache.Uncache, IOleCache::Uncache, Uncache, Uncache method [COM], Uncache method [COM],IOleCache interface, _ole_iolecache_uncache, com.iolecache_uncache, oleidl/IOleCache::Uncache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleCache::Uncache

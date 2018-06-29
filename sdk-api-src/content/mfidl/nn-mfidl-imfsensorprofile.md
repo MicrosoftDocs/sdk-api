@@ -71,7 +71,7 @@ The <b>IMFSensorProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1D1EAD84-5053-47B2-9366-EEBE8681970F">AddBlockedControl</a>
+<a href="https://msdn.microsoft.com/library/Mt845822(v=VS.85).aspx">AddBlockedControl</a>
 </td>
 <td align="left" width="63%">
     Adds the specified blocked control .
@@ -80,7 +80,7 @@ The <b>IMFSensorProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D79C83AA-A105-4320-80D8-F7A3753DF4C4">AddProfileFilter</a>
+<a href="https://msdn.microsoft.com/library/Mt845823(v=VS.85).aspx">AddProfileFilter</a>
 </td>
 <td align="left" width="63%">
 Adds a profile filter to the specified media stream.
@@ -89,7 +89,7 @@ Adds a profile filter to the specified media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EBBDCC39-8FF9-421B-867D-0AD950C2DDF5">GetProfileId</a>
+<a href="https://msdn.microsoft.com/library/Mt845824(v=VS.85).aspx">GetProfileId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sensor profile ID.
@@ -98,7 +98,7 @@ Retrieves the sensor profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9535AF14-A6DF-49E9-B264-734B96A3DC29">IsMediaTypeSupported</a>
+<a href="https://msdn.microsoft.com/library/Mt845825(v=VS.85).aspx">IsMediaTypeSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if a media stream supports the specified media type.

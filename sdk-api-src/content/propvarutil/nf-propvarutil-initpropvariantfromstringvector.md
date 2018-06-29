@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromStringVector function
@@ -96,19 +96,19 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromString">InitVariantFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
  
 
  

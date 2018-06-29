@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRichEditOleCallback::GetClipboardData
@@ -61,7 +61,7 @@ Allows the client to supply its own clipboard object.
 
 ### -param lpchrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>*</b>
 
 The clipboard object range. 
 
@@ -128,11 +128,11 @@ Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the ric
 
 
 
-<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
+<a href="https://msdn.microsoft.com/library/Bb787885(v=VS.85).aspx">CHARRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c3ba341-f62f-4c95-9547-6d50fcf3d6b4">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
 
 
 

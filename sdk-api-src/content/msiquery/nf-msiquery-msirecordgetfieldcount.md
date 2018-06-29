@@ -7,7 +7,7 @@ old-location: setup\msirecordgetfieldcount.htm
 old-project: Msi
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiRecordGetFieldCount, MsiRecordGetFieldCount function, _msi_msirecordgetfieldcount, msiquery/MsiRecordGetFieldCount, setup.msirecordgetfieldcount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ The count returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
  
 
  

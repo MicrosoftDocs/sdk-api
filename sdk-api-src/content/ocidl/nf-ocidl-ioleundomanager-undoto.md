@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_undoto.htm
 old-project: com
 ms.assetid: 49c98126-4b99-449e-b08c-f21f98c7c56a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleUndoManager interface [COM],UndoTo method, IOleUndoManager.UndoTo, IOleUndoManager::UndoTo, UndoTo, UndoTo method [COM], UndoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_undoto, com.ioleundomanager_undoto, ocidl/IOleUndoManager::UndoTo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleUndoManager::UndoTo

@@ -7,7 +7,7 @@ old-location: tablet\getcontextpreferenceflags.htm
 old-project: tablet
 ms.assetid: 0804cd56-7baf-4b93-97b5-4131118b72b6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: GetContextPreferenceFlags, GetContextPreferenceFlags function [Tablet PC], recapis/GetContextPreferenceFlags, tablet.getcontextpreferenceflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GetContextPreferenceFlags function

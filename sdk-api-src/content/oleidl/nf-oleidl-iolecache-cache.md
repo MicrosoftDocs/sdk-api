@@ -7,7 +7,7 @@ old-location: com\iolecache_cache.htm
 old-project: com
 ms.assetid: 2a86063a-3ee6-4fc2-a6e0-6e9ffa658348
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Cache, Cache method [COM], Cache method [COM],IOleCache interface, IOleCache interface [COM],Cache method, IOleCache.Cache, IOleCache::Cache, _ole_iolecache_cache, com.iolecache_cache, oleidl/IOleCache::Cache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleCache::Cache

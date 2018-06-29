@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_CONTROLLER_INFO structure
@@ -86,7 +86,7 @@ The maximum supported output signal period, in picoseconds, for the controller. 
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>
+<a href="https://msdn.microsoft.com/library/Mt826476(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_INFO</a>
  
 
  

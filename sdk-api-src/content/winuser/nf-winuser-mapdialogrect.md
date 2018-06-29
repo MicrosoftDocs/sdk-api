@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -100,7 +100,7 @@ left   = MulDiv(left,   baseunitX, 4);
 right  = MulDiv(right,  baseunitX, 4);
 top    = MulDiv(top,    baseunitY, 8);
 bottom = MulDiv(bottom, baseunitY, 8);</code></pre>
-If the dialog box template has the <a href="https://www.bing.com/search?q=DS_SETFONT">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template. 
+If the dialog box template has the <a href="https://msdn.microsoft.com/library/ms644994(v=VS.85).aspx">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template. 
 
 
 
@@ -114,11 +114,11 @@ If the dialog box template has the <a href="https://www.bing.com/search?q=DS_SET
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fe38fd1-8781-407b-8750-7112c94fb866">GetDialogBaseUnits</a>
+<a href="https://msdn.microsoft.com/library/ms645475(v=VS.85).aspx">GetDialogBaseUnits</a>
 
 
 

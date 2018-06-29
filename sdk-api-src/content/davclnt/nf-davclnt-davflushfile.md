@@ -65,7 +65,7 @@ Flushes the data from the local version of a remote file to the WebDAV server.
 A handle to an open file on a WebDAV server.
 
 The file handle must have the GENERIC_WRITE access right. For more information, see 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+<a href="https://msdn.microsoft.com/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
 
 
 ## -returns
@@ -97,11 +97,11 @@ This function does not flush encrypted files. If <i>hFile</i> is a handle to an 
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6">FlushFileBuffers</a>
+<a href="https://msdn.microsoft.com/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>
 
 
 

@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     serial number of a 
-    <a href="/windows/desktop/dns/s-gly">storage class resource</a> 
+    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a> 
     partition.
 
 This property is read-only.

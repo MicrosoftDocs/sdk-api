@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-The <b>TreeView_Expand</b> macro expands or collapses the list of child items associated with the specified parent item, if any. You can use this macro or send the <a href="https://msdn.microsoft.com/d6c2e5b2-ce36-4c2b-b527-91c6de56e305">TVM_EXPAND</a> message explicitly. 
+The <b>TreeView_Expand</b> macro expands or collapses the list of child items associated with the specified parent item, if any. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a> message explicitly. 
 
 
 ## -parameters
@@ -81,7 +81,7 @@ TBD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Action flag. For a list of possible values, see the description of the <i>flag</i> parameter in <a href="https://msdn.microsoft.com/d6c2e5b2-ce36-4c2b-b527-91c6de56e305">TVM_EXPAND</a>. 
+Action flag. For a list of possible values, see the description of the <i>flag</i> parameter in <a href="https://msdn.microsoft.com/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a>. 
 
 
 #### - hItem
@@ -104,9 +104,9 @@ Handle to a tree-view control.
 
 Expanding a node that is already expanded, or collapsing a node that is already collapsed is considered a successful operation and the macro returns a nonzero value. Attempting to expand or collapse a node that has no children is considered a failure and the return value is zero. 
 
-When an item is first expanded by a <a href="https://msdn.microsoft.com/d6c2e5b2-ce36-4c2b-b527-91c6de56e305">TVM_EXPAND</a> message, the action generates <a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/18d9d61d-6ec5-4d3b-9c02-36d0e61ed232">TVN_ITEMEXPANDED</a> notification codes and the item's <a href="https://www.bing.com/search?q=TVIS_EXPANDEDONCE">TVIS_EXPANDEDONCE</a> state flag is set. As long as this state flag remains set, subsequent <b>TVM_EXPAND</b> messages do not generate TVN_ITEMEXPANDING or TVN_ITEMEXPANDED notifications. To reset the <b>TVIS_EXPANDEDONCE</b> state flag, you must send a <b>TVM_EXPAND</b> message with the TVE_COLLAPSE and TVE_COLLAPSERESET flags set. Attempting to explicitly set <b>TVIS_EXPANDEDONCE</b> will result in unpredictable behavior.
+When an item is first expanded by a <a href="https://msdn.microsoft.com/library/Bb773568(v=VS.85).aspx">TVM_EXPAND</a> message, the action generates <a href="https://msdn.microsoft.com/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes and the item's <a href="https://msdn.microsoft.com/library/Bb759985(v=VS.85).aspx">TVIS_EXPANDEDONCE</a> state flag is set. As long as this state flag remains set, subsequent <b>TVM_EXPAND</b> messages do not generate TVN_ITEMEXPANDING or TVN_ITEMEXPANDED notifications. To reset the <b>TVIS_EXPANDEDONCE</b> state flag, you must send a <b>TVM_EXPAND</b> message with the TVE_COLLAPSE and TVE_COLLAPSERESET flags set. Attempting to explicitly set <b>TVIS_EXPANDEDONCE</b> will result in unpredictable behavior.
 
-The expand operation may fail if the owner of the treeview control denies the operation in response to a <a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a> notification.
+The expand operation may fail if the owner of the treeview control denies the operation in response to a <a href="https://msdn.microsoft.com/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> notification.
 
 
 

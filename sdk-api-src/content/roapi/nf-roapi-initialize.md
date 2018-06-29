@@ -7,7 +7,7 @@ old-location: com\initialize.htm
 old-project: com
 ms.assetid: 615E552B-46EF-4D94-BF60-A44885731F75
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Initialize, Initialize function [COM], com.initialize, roapi/Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # Initialize function

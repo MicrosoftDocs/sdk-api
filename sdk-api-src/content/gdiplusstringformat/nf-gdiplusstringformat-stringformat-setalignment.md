@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::SetAlignment</b> method sets the character alignment of this 
-			<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string. 
+			<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string. 
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>StringFormat::SetAlignment</b> method sets the character alignment of thi
 
 ### -param align [in]
 
-Type: <b><a href="https://msdn.microsoft.com/d395f6b4-8d8a-41b1-9c49-6fc2f005ca5d">StringAlignment</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534177(v=VS.85).aspx">StringAlignment</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/d395f6b4-8d8a-41b1-9c49-6fc2f005ca5d">StringAlignment</a> enumeration that specifies how a string is aligned in reference to the bounding rectangle. 
+Element of the <a href="https://msdn.microsoft.com/library/ms534177(v=VS.85).aspx">StringAlignment</a> enumeration that specifies how a string is aligned in reference to the bounding rectangle. 
 
 
 ## -returns
@@ -86,11 +86,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
+<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+<a href="https://msdn.microsoft.com/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
@@ -98,11 +98,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/d395f6b4-8d8a-41b1-9c49-6fc2f005ca5d">StringAlignment</a>
+<a href="https://msdn.microsoft.com/library/ms534177(v=VS.85).aspx">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
+<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>
  
 
  

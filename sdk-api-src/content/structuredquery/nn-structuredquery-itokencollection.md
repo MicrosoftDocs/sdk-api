@@ -73,7 +73,7 @@ The <b>ITokenCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29f34228-4e9c-4d43-9888-37f04505d312">GetToken</a>
+<a href="https://msdn.microsoft.com/library/Bb231299(v=VS.85).aspx">GetToken</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position, length, and any overriding string of an individual token.
@@ -82,7 +82,7 @@ Retrieves the position, length, and any overriding string of an individual token
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f58d43e2-5488-4d2a-907b-62799a2f0615">NumberOfTokens</a>
+<a href="https://msdn.microsoft.com/library/Bb231301(v=VS.85).aspx">NumberOfTokens</a>
 </td>
 <td align="left" width="63%">
 

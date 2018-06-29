@@ -2,7 +2,7 @@
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -38,6 +38,7 @@ To develop Component Object Model (COM), you need these headers:
  * [olectl.h](../olectl/index.md)
  * [oledlg.h](../oledlg/index.md)
  * [oleidl.h](../oleidl/index.md)
+ * [roapi.h](../roapi/index.md)
  * [rpcdce.h](../rpcdce/index.md)
  * [shobjidl.h](../shobjidl/index.md)
  * [txlogpub.h](../txlogpub/index.md)

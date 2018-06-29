@@ -87,7 +87,7 @@ Defines an information message.
 
 
 
-Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/78eb4b2c-ec22-4d30-befc-bf253d8768ba">D3D10_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/223f9a01-4507-4877-bd86-c5b9cb441d7a">ID3D10InfoQueue::AddApplicationMessage</a>.
+Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/library/Bb173780(v=VS.85).aspx">ID3D10InfoQueue::AddApplicationMessage</a>.
 
 
 
@@ -97,7 +97,7 @@ Use these values to allow or deny message categories to pass through the storage
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

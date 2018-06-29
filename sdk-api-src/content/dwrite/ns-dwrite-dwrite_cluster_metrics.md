@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_cluster_metrics.htm
 old-project: DirectWrite
 ms.assetid: 738b7f15-fcc5-4960-ac1f-ca530c448271
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/11/2018
 ms.keywords: DWRITE_CLUSTER_METRICS, DWRITE_CLUSTER_METRICS structure [Direct Write], directwrite.dwrite_cluster_metrics, dwrite/DWRITE_CLUSTER_METRICS
 ms.prod: windows
 ms.technology: windows-sdk

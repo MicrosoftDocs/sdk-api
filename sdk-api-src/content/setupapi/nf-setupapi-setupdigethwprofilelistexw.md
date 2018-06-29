@@ -7,7 +7,7 @@ old-location: devinst\setupdigethwprofilelistex.htm
 old-project: devinst
 ms.assetid: add700ee-48aa-47dd-8b55-6338dea05bfb
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetHwProfileListEx, SetupDiGetHwProfileListEx function [Device and Driver Installation], SetupDiGetHwProfileListExA, SetupDiGetHwProfileListExW, devinst.setupdigethwprofilelistex, di-rtns_ef3bbf07-27d9-48fc-86a2-1bdfc10cbc33.xml, setupapi/SetupDiGetHwProfileListEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetHwProfileListExW function

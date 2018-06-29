@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver2_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\faxinto_z_ifaxserver2_cpp.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: IFaxServer2, IFaxServer2 interface [Fax Service], IFaxServer2 interface [Fax Service],described, _mfax_faxserver2_cpp, fax._mfax_faxserver2_cpp, faxcomex/IFaxServer2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,14 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Inherits all the functionality of the <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a> interface and adds read-only properties for the server's configuration, account management, security objects, and the current account. 
+Inherits all the functionality of the <a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a> interface and adds read-only properties for the server's configuration, account management, security objects, and the current account. 
 
 
 ## -remarks
 
 
 
-In Windows Vista and later, the <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object provides a default implementation of the interface.
+In Windows Vista and later, the <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object provides a default implementation of the interface.
 
 
 

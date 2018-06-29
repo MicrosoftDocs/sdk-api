@@ -7,7 +7,7 @@ old-location: com\oleuibusy.htm
 old-project: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # OleUIBusyA function
@@ -390,7 +390,7 @@ A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e4
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://www.bing.com/search?q=LoadString">LoadString</a> for the localized resources from the library.
+Unable to call <a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a> for the localized resources from the library.
 
 </td>
 </tr>

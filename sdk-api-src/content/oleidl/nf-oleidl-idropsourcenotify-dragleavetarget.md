@@ -7,7 +7,7 @@ old-location: com\idropsourcenotify_dragleavetarget.htm
 old-project: com
 ms.assetid: 6267db46-92ce-43b8-8e3f-ffd7d2b8a2e8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: DragLeaveTarget, DragLeaveTarget method [COM], DragLeaveTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragLeaveTarget method, IDropSourceNotify.DragLeaveTarget, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IDropSourceNotify::DragLeaveTarget

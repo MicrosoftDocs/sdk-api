@@ -7,7 +7,7 @@ old-location: com\ienumconnections_skip.htm
 old-project: com
 ms.assetid: bf875481-74cf-4e29-af81-b1546fb00002
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumConnections interface [COM],Skip method, IEnumConnections.Skip, IEnumConnections::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnections interface, _com_ienumconnections_skip, com.ienumconnections_skip, ocidl/IEnumConnections::Skip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumConnections::Skip

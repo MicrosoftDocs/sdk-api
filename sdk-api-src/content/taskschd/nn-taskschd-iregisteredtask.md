@@ -313,7 +313,7 @@ Gets the XML-formatted registration information for the registered task.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
+<a href="https://msdn.microsoft.com/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
  
 
  

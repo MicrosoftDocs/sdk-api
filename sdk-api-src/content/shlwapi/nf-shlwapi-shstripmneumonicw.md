@@ -7,7 +7,7 @@ old-location: shell\SHStripMneumonic.htm
 old-project: shell
 ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStripMneumonicA, SHStripMneumonicW, _win32_SHStripMneumonic, shell.SHStripMneumonic, shlwapi/SHStripMneumonic, shlwapi/SHStripMneumonicA, shlwapi/SHStripMneumonicW
 ms.prod: windows
 ms.technology: windows-sdk

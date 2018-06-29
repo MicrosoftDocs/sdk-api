@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # peer_collab_event_registration_tag structure
@@ -62,7 +62,7 @@ The <b>PEER_COLLAB_EVENT_REGISTRATION</b> structure contains the data used by a 
 ### -field eventType
 
 
-<a href="https://msdn.microsoft.com/2266c518-d383-4f37-9494-d57a3f780ced">PEER_COLLAB_EVENT_TYPE</a> enumeration value that specifies the type of peer collaboration network event for which to register.
+<a href="https://msdn.microsoft.com/library/Aa371332(v=VS.85).aspx">PEER_COLLAB_EVENT_TYPE</a> enumeration value that specifies the type of peer collaboration network event for which to register.
 
 
 ### -field pInstance
@@ -86,7 +86,7 @@ When <b></b>this member is set, notification will be sent only for the specific 
 
 
 
-<a href="https://msdn.microsoft.com/2266c518-d383-4f37-9494-d57a3f780ced">PEER_COLLAB_EVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/Aa371332(v=VS.85).aspx">PEER_COLLAB_EVENT_TYPE</a>
 
 
 

@@ -67,7 +67,7 @@ A string that contains the name of the new <a href="https://msdn.microsoft.com/d
 
 The address of a pointer to the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object that this method creates.
 
-When you have finished using this <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object, release it by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+When you have finished using this <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object, release it by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: com\stgmedium.htm
 old-project: com
 ms.assetid: 5d05819a-10db-4d8e-91e4-8a7c05885cde
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPSTGMEDIUM, ASYNC_STGMEDIUM, LPSTGMEDIUM, LPSTGMEDIUM structure pointer [COM], STGMEDIUM, STGMEDIUM structure [COM], _ole_STGMEDIUM, com.stgmedium, objidl/LPSTGMEDIUM, objidl/STGMEDIUM, tagSTGMEDIUM, uSTGMEDIUM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagSTGMEDIUM structure

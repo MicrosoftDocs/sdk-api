@@ -70,9 +70,9 @@ Current GPU priority. Valid values range from -7 to 7.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>).
+Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="https://msdn.microsoft.com/library/Bb172554(v=VS.85).aspx">D3DERR</a>).
 
 
 
@@ -81,9 +81,9 @@ Possible return values include: D3D_OK or D3DERR_DEVICEREMOVED (see <a href="htt
 
 
 
-Use <a href="https://msdn.microsoft.com/aa9dd95e-74ce-4f48-bd60-8cabc2013377">IDirect3DDevice9Ex::SetGPUThreadPriority</a> to set the priority of a thread.
+Use <a href="https://msdn.microsoft.com/library/Bb174346(v=VS.85).aspx">IDirect3DDevice9Ex::SetGPUThreadPriority</a> to set the priority of a thread.
 
-This method will retrieve the priority of the thread stored with the Direct3D device even if it was created with the <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE_PUREDEVICE</a> flag.
+This method will retrieve the priority of the thread stored with the Direct3D device even if it was created with the <a href="https://msdn.microsoft.com/library/Bb172527(v=VS.85).aspx">D3DCREATE_PUREDEVICE</a> flag.
 
 
 
@@ -93,7 +93,7 @@ This method will retrieve the priority of the thread stored with the Direct3D de
 
 
 
-<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
  
 
  

@@ -81,7 +81,7 @@ Returns the class name if the operation was successful and <b>NULL</b> otherwise
 
 
 
-It is the developer's responsibility to call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the <b>BSTR</b> returned by this method to avoid a memory leak.
+It is the developer's responsibility to call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> on the <b>BSTR</b> returned by this method to avoid a memory leak.
 
 
 

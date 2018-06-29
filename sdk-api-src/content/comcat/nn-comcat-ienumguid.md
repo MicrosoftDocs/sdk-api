@@ -7,7 +7,7 @@ old-location: com\ienumguid.htm
 old-project: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Enables clients to enumerate through a collection of class IDs for COM classes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGUID</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumGUID</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumGUID</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumGUID</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

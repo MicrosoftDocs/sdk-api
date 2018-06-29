@@ -7,7 +7,7 @@ old-location: devinst\setupdiopenclassregkey.htm
 old-project: devinst
 ms.assetid: 22afdbd4-91fc-44c6-ad16-0c3c1adf8c70
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiOpenClassRegKey, SetupDiOpenClassRegKey function [Device and Driver Installation], devinst.setupdiopenclassregkey, di-rtns_2bdb6a33-58be-4799-af21-40f807a9fab8.xml, setupapi/SetupDiOpenClassRegKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiOpenClassRegKey function

@@ -299,7 +299,7 @@ If <i>rgpvContext</i>[2] is found to be revoked, the <b>dwIndex</b> member of <i
 
 
 
-<a href="https://www.bing.com/search?q=Data+Management+Functions">Data Management Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
  
 
  

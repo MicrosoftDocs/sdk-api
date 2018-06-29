@@ -7,7 +7,7 @@ old-location: gpmc\igpmwmifiltercollection_get__newenum.htm
 old-project: GPMC
 ms.assetid: acba6a75-9338-49b8-b04b-829f527d92ce
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: IGPMWMIFilterCollection interface [GPMC],get__NewEnum method, IGPMWMIFilterCollection.get__NewEnum, IGPMWMIFilterCollection::get__NewEnum, _win32_igpmwmifiltercollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMWMIFilterCollection interface, gpmc.igpmwmifiltercollection_get__newenum, gpmgmt/IGPMWMIFilterCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

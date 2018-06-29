@@ -61,7 +61,7 @@ The <b>IADsAccessControlList::CopyAccessList</b> method copies every access cont
 
 ### -param ppAccessControlList [out]
 
-Address of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
+Address of an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
 
 
 ## -returns
@@ -79,7 +79,7 @@ For more information about  other return values, see  <a href="https://msdn.micr
 
 
 
-The caller must call <b>Release</b> on the copy of ACEs through their <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointers.
+The caller must call <b>Release</b> on the copy of ACEs through their <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> pointers.
 
 
 #### Examples

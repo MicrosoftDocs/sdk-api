@@ -1,0 +1,178 @@
+---
+UID: NF:winuser.SetTimer
+title: SetTimer function
+author: windows-sdk-content
+description: Creates a timer with the specified time-out value.
+old-location: winmsg\settimer.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\settimer.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: SetTimer, SetTimer function [Windows and Messages], _win32_SetTimer, _win32_settimer_cpp, winmsg.settimer, winui._win32_settimer, winuser/SetTimer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetTimer
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# SetTimer function
+
+
+## -description
+
+
+Creates a timer with the specified time-out value.
+
+
+## -parameters
+
+
+
+
+### -param hWnd [in, optional]
+
+Type: <b>HWND</b>
+
+A handle to the window to be associated with the timer. This window must be owned by the calling thread. If a <b>NULL</b> value for <i>hWnd</i> is passed in along with an <i>nIDEvent</i> of an existing timer, that timer will be replaced in the same way that an existing non-NULL <i>hWnd</i> timer will be.
+
+
+### -param nIDEvent [in]
+
+Type: <b>UINT_PTR</b>
+
+A nonzero timer identifier. If the <i>hWnd</i> parameter is <b>NULL</b>, and the <i>nIDEvent</i> does not match an existing timer then it is ignored and a new timer ID is generated. If the <i>hWnd</i> parameter is not <b>NULL</b> and the window specified by <i>hWnd</i> already has a timer with the value <i>nIDEvent</i>, then the existing timer is replaced by the new timer. When <b>SetTimer</b> replaces a timer, the timer is reset. Therefore, a message will be sent after the current time-out value elapses, but the previously set time-out value is ignored. If the call is not intended to replace an existing timer, <i>nIDEvent</i> should be 0 if the <i>hWnd</i> is <b>NULL</b>.
+
+
+
+### -param uElapse [in]
+
+Type: <b>UINT</b>
+
+The time-out value, in milliseconds.
+
+ If <i>uElapse</i> is less than <b>USER_TIMER_MINIMUM</b> (0x0000000A), the timeout is set to <b>USER_TIMER_MINIMUM</b>. If <i>uElapse</i> is greater than <b>USER_TIMER_MAXIMUM</b> (0x7FFFFFFF), the timeout is set to <b>USER_TIMER_MAXIMUM</b>.
+
+
+### -param lpTimerFunc [in, optional]
+
+Type: <b>TIMERPROC</b>
+
+A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>UINT_PTR</b>
+</strong>
+
+If the function succeeds and the <i>hWnd</i> parameter is <b>NULL</b>, the return value is an integer identifying the new timer. An application can pass this value to the <a href="https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx">KillTimer</a> function to destroy the timer.
+
+If the function succeeds and the <i>hWnd</i> parameter is not <b>NULL</b>, then the return value is a nonzero integer. An application can pass the value of the <i>nIDEvent</i> parameter to the <a href="https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx">KillTimer</a> function to destroy the timer.
+
+If the function fails to create a timer, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+An application can process <a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages by including a <b>WM_TIMER</b> case statement in the window procedure or by specifying a <a href="https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx">TimerProc</a> callback function when creating the timer. When you specify a <b>TimerProc</b> callback function, the default window procedure calls the callback function when it processes <b>WM_TIMER</b>. Therefore, you need to dispatch messages in the calling thread, even when you use <b>TimerProc</b> instead of processing <b>WM_TIMER</b>.
+
+The <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message contains the value of the <i>nIDEvent</i> parameter. 
+
+The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Another window can have its own timer which has the same identifier as a timer owned by another window. The timers are distinct. 
+
+<b>SetTimer</b> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
+			
+
+
+#### Examples
+
+For an example, see <a href="https://msdn.microsoft.com/library/ms644901(v=VS.85).aspx">Creating a Timer</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms644903(v=VS.85).aspx">KillTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>
+
+
+
+<b>Reference</b>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/ms686289(VS.85).aspx">SetWaitableTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx">TimerProc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564648">Timers</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: com\isurrogate_loaddllserver.htm
 old-project: com
 ms.assetid: 18727dee-392d-4f88-b1de-35da8a5887b6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: ISurrogate interface [COM],LoadDllServer method, ISurrogate.LoadDllServer, ISurrogate::LoadDllServer, LoadDllServer, LoadDllServer method [COM], LoadDllServer method [COM],ISurrogate interface, _com_isurrogate_loaddllserver, com.isurrogate_loaddllserver, objidlbase/ISurrogate::LoadDllServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISurrogate::LoadDllServer

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSStringFromPropertyKey function
@@ -63,7 +63,7 @@ Creates a string that identifies a property from that property's key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a> structure that identifies a property.
+Reference to a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that identifies a property.
 
 
 ### -param psz [out]
@@ -100,7 +100,7 @@ The string format retrieved is <code>"{propkey.fmtid} propkey.pid"</code>. For e
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates the use of <a href="https://www.bing.com/search?q=PSPropertyKeyFromString">PSPropertyKeyFromString</a>.
+The following example, to be included as part of a larger program, demonstrates the use of <a href="https://msdn.microsoft.com/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -127,11 +127,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a>
+<a href="https://msdn.microsoft.com/library/Bb776502(v=VS.85).aspx">PSGetNameFromPropertyKey</a>
 
 
 
-<a href="https://www.bing.com/search?q=PSPropertyKeyFromString">PSPropertyKeyFromString</a>
+<a href="https://msdn.microsoft.com/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex2_proxyieconfig.htm
 old-project: WinRM
 ms.assetid: 4aa2bf90-c0e8-400a-a8c7-35656cb3c021
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyIEConfig method, IWSManConnectionOptionsEx2.ProxyIEConfig, IWSManConnectionOptionsEx2::ProxyIEConfig, ProxyIEConfig, ProxyIEConfig method [Windows Remote Management], ProxyIEConfig method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyieconfig, wsmandisp/IWSManConnectionOptionsEx2::ProxyIEConfig
 ms.prod: windows
 ms.technology: windows-sdk

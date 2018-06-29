@@ -7,7 +7,7 @@ old-location: shell\SHELLEXECUTEINFO.htm
 old-project: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: "*LPSHELLEXECUTEINFOA, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOA, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -212,7 +212,7 @@ After the new process is created, wait for the process to become idle before ret
 
 #### SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)
 
-The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="https://www.bing.com/search?q=IServiceProvider">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
+The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="_inet_iserviceprovider_interface">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 
@@ -412,7 +412,7 @@ A handle to the registry key for the file type. The access rights for this regis
 
 Type: <b>DWORD</b>
 
-A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/b2c7e6ca-da71-440b-a05e-17f2da419d18">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
+A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/library/ms646284(v=VS.85).aspx">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
 
 
 ### -field DUMMYUNIONNAME

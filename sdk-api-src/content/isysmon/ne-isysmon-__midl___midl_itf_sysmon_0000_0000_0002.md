@@ -7,7 +7,7 @@ old-location: sysmon\sysmondatatype.htm
 old-project: SysMon
 ms.assetid: 5855fffc-1113-4047-b55a-601e45a08a5e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/11/2018
 ms.keywords: SysmonDataType, SysmonDataType enumeration [SysMon], __MIDL___MIDL_itf_sysmon_0000_0000_0002, base.sysmondatatype, isysmon/SysmonDataType, isysmon/sysmonDataAvg, isysmon/sysmonDataCount, isysmon/sysmonDataMax, isysmon/sysmonDataMin, isysmon/sysmonDataTime, sysmon.sysmondatatype, sysmonDataAvg, sysmonDataCount, sysmonDataMax, sysmonDataMin, sysmonDataTime
 ms.prod: windows
 ms.technology: windows-sdk

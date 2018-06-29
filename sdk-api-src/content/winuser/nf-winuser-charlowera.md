@@ -7,7 +7,7 @@ old-location: menurc\charlower.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlower.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CharLower, CharLower function [Menus and Other Resources], CharLowerA, CharLowerW, _win32_CharLower, _win32_charlower_cpp, menurc.charlower, winui._win32_charlower, winuser/CharLower, winuser/CharLowerA, winuser/CharLowerW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -108,15 +108,15 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 
-<a href="https://msdn.microsoft.com/3a678c1b-76a5-4a08-8a13-dfc400492bba">CharLowerBuff</a>
+<a href="https://msdn.microsoft.com/library/ms647468(v=VS.85).aspx">CharLowerBuff</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a101fb6-8b90-479b-93dc-3f768e9b952a">CharUpper</a>
+<a href="https://msdn.microsoft.com/library/ms647474(v=VS.85).aspx">CharUpper</a>
 
 
 
-<a href="https://msdn.microsoft.com/774619cf-ed37-4342-b265-8125693fede5">CharUpperBuff</a>
+<a href="https://msdn.microsoft.com/library/ms647475(v=VS.85).aspx">CharUpperBuff</a>
 
 
 

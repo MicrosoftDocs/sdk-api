@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITDirectory::EnumerateDirectoryObjects
@@ -137,8 +137,8 @@ This method is not implemented.
 
 
 The application must use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 TAPI calls the <b>AddRef</b> method on the 
 <a href="https://msdn.microsoft.com/328183cd-a80b-4f1f-9e5e-9f466a4e4b43">IEnumDirectoryObject</a> interface returned by <b>ITDirectory::EnumerateDirectoryObjects</b>. The application must call <b>Release</b> on the 

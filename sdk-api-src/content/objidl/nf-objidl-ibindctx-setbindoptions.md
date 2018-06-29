@@ -7,7 +7,7 @@ old-location: com\ibindctx_setbindoptions.htm
 old-project: com
 ms.assetid: 9dcce48e-567e-42b4-8df2-2bc861cb5fcb
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IBindCtx interface [COM],SetBindOptions method, IBindCtx.SetBindOptions, IBindCtx::SetBindOptions, SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM],IBindCtx interface, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IBindCtx::SetBindOptions

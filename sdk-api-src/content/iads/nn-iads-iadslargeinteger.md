@@ -248,7 +248,7 @@ The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bi
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

@@ -65,7 +65,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the name of the relationship as a Unicode string. The calling application must free the returned string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to the name of the relationship as a Unicode string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
 
 
 ## -returns

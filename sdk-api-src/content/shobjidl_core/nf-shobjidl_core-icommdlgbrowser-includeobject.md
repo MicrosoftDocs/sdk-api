@@ -7,7 +7,7 @@ old-location: shell\ICommDlgBrowser_IncludeObject.htm
 old-project: shell
 ms.assetid: f483dda2-5384-42b5-97ca-c7c6793d19a7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],IncludeObject method, ICommDlgBrowser.IncludeObject, ICommDlgBrowser::IncludeObject, IncludeObject, IncludeObject method [Windows Shell], IncludeObject method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_IncludeObject, shell.ICommDlgBrowser_IncludeObject, shobjidl_core/ICommDlgBrowser::IncludeObject
 ms.prod: windows
 ms.technology: windows-sdk

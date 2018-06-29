@@ -7,7 +7,7 @@ old-location: com\oleuipastespecial.htm
 old-project: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # OleUIPasteSpecialA function
@@ -329,7 +329,7 @@ A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e4
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://www.bing.com/search?q=LoadString">LoadString</a> to get localized resources from the library.
+Unable to call <a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a> to get localized resources from the library.
 
 </td>
 </tr>

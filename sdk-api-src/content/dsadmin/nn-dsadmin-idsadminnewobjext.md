@@ -130,7 +130,7 @@ Enables the object creation wizard extension to write its data into the object.
 
 
 
-<a href="https://www.bing.com/search?q=Admin+Interfaces+in+Active+Directory+Domain+Services">Admin Interfaces in Active Directory Domain Services</a>
+<a href="https://msdn.microsoft.com/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
 
 
 

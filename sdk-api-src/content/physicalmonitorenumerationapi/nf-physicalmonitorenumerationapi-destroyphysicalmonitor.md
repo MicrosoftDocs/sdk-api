@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DestroyPhysicalMonitor function

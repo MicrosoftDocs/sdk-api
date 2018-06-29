@@ -7,7 +7,7 @@ old-location: netvista\net_if_media_connect_state.htm
 old-project: netvista
 ms.assetid: 5af5e050-4b2b-45a9-8549-3a3818d7b06f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: "*PNET_IF_MEDIA_CONNECT_STATE, MediaConnectStateConnected, MediaConnectStateDisconnected, MediaConnectStateUnknown, NET_IF_MEDIA_CONNECT_STATE, NET_IF_MEDIA_CONNECT_STATE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_MEDIA_CONNECT_STATE, PNET_IF_MEDIA_CONNECT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_IF_MEDIA_CONNECT_STATE, ifdef/MediaConnectStateConnected, ifdef/MediaConnectStateDisconnected, ifdef/MediaConnectStateUnknown, ifdef/NET_IF_MEDIA_CONNECT_STATE, ifdef/PNET_IF_MEDIA_CONNECT_STATE, net_if_enums_ref_567021be-60dc-4356-bc88-1430769b9ac8.xml, netvista.net_if_media_connect_state"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 
 
 The NET_IF_MEDIA_CONNECT_STATE enumeration type specifies the 
-  <a href="https://www.bing.com/search?q=NDIS+network+interface">NDIS network interface</a> connection
+  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> connection
   state.
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _NDR_USER_MARSHAL_INFO_LEVEL1 structure
@@ -53,8 +53,8 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>NDR_USER_MARSHAL_INFO_LEVEL1</b> structure holds information about the state of an RPC call that can be passed to 
-<a href="https://www.bing.com/search?q=wire_marshal">wire_marshal</a> and 
-<a href="https://www.bing.com/search?q=user_marshal">user_marshal</a> helper functions.
+<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a> and 
+<a href="https://msdn.microsoft.com/">user_marshal</a> helper functions.
 
 
 ## -struct-fields

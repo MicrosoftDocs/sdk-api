@@ -7,7 +7,7 @@ old-location: com\ipersiststreaminit_isdirty.htm
 old-project: com
 ms.assetid: 2b84818d-0d9d-4f55-8031-b4336baa6c09
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IPersistStreamInit interface [COM],IsDirty method, IPersistStreamInit.IsDirty, IPersistStreamInit::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_isdirty, com.ipersiststreaminit_isdirty, ocidl/IPersistStreamInit::IsDirty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPersistStreamInit::IsDirty

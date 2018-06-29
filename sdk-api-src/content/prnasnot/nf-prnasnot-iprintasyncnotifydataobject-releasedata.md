@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Prnasnot.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPrintAsyncNotifyDataObject::ReleaseData
@@ -78,7 +78,7 @@ For more information about COM error codes, see <a href="https://msdn.microsoft.
 
 Listening applications must call this method when they have finished consuming the notification data.
 
-The <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a> interface must be implemented in a way that ensures that a call of <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> does not free the object if a listening application has not finished consuming the object's data. Accordingly, if a call to <b>Release</b> occurs when an application has called <a href="https://msdn.microsoft.com/c6272583-6907-4c9f-b0c8-4d788e0b2173">AcquireData</a> but has not yet called <b>ReleaseData</b>, then the object must not be freed. For this reason, we recommend that <b>AcquireData</b> use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> to increment the object's reference count, and that <b>ReleaseData</b> decrement the count.
+The <a href="https://msdn.microsoft.com/fd0e1f30-c54e-418c-8081-664edebaad61">IPrintAsyncNotifyDataObject</a> interface must be implemented in a way that ensures that a call of <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> does not free the object if a listening application has not finished consuming the object's data. Accordingly, if a call to <b>Release</b> occurs when an application has called <a href="https://msdn.microsoft.com/c6272583-6907-4c9f-b0c8-4d788e0b2173">AcquireData</a> but has not yet called <b>ReleaseData</b>, then the object must not be freed. For this reason, we recommend that <b>AcquireData</b> use <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">IUnknown::AddRef</a> to increment the object's reference count, and that <b>ReleaseData</b> decrement the count.
 
 
 

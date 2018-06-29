@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/4a6055d3-1cc1-4c3d-a5f6-006617ff3bce">LVM_GETFOOTERITEMRECT</a> message explicitly.
+Gets the coordinates of a  footer for a specified item in a list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774929(v=VS.85).aspx">LVM_GETFOOTERITEMRECT</a> message explicitly.
 
 
 ## -parameters

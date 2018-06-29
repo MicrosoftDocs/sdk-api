@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: VSS_MGMT_OBJECT_UNION, *PVSS_MGMT_OBJECT_UNION
+req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -133,7 +133,7 @@ Ensure the provider is ready to quickly commit the prepared LUNs.
 </td>
 <td align="left" width="63%">
 Called after the applications are unfrozen to allow the writers to 
-     <a href="vssgloss_a.htm">auto-recover</a> any components so 
+     <a href="https://msdn.microsoft.com/library/Aa384651(v=VS.85).aspx">auto-recover</a> any components so 
      that they can be used when they are read-only.
 
 </td>

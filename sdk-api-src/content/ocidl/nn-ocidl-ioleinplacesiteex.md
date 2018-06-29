@@ -7,7 +7,7 @@ old-location: com\ioleinplacesiteex.htm
 old-project: com
 ms.assetid: d93e6d23-7867-43e4-8ab9-efe609362c18
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], IOleInPlaceSiteEx interface [COM],described, _ole_ioleinplacesiteex, com.ioleinplacesiteex, ocidl/IOleInPlaceSiteEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceSiteEx interface

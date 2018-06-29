@@ -7,7 +7,7 @@ old-location: com\ifont_put_size.htm
 old-project: com
 ms.assetid: 1c39a7dc-553b-41b7-8b66-1a5980493dce
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IFont interface [COM],put_Size method, IFont.put_Size, IFont::put_Size, _ctrl_ifont_put_size, com.ifont_put_size, ocidl/IFont::put_Size, put_Size, put_Size method [COM], put_Size method [COM],IFont interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IFont::put_Size

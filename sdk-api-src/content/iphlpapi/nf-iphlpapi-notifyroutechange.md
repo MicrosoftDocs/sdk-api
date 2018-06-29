@@ -159,7 +159,7 @@ If the caller specifies a handle variable and an
 <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a>
+<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/213c48e8-bb21-43ed-9c00-2a5cf8ac25f0">I/O Completion Ports</a>

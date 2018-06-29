@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnItemStateChanged.htm
 old-project: shell
 ms.assetid: 0154d97b-44db-40bf-a202-e97ba318555f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemStateChanged method, INameSpaceTreeControlEvents.OnItemStateChanged, INameSpaceTreeControlEvents::OnItemStateChanged, OnItemStateChanged, OnItemStateChanged method [Windows Shell], OnItemStateChanged method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemStateChanged, shell.INameSpaceTreeControlEvents_OnItemStateChanged, shobjidl/INameSpaceTreeControlEvents::OnItemStateChanged
 ms.prod: windows
 ms.technology: windows-sdk

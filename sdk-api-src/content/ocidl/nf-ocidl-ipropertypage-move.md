@@ -7,7 +7,7 @@ old-location: com\ipropertypage_move.htm
 old-project: com
 ms.assetid: 305857c2-cb3a-4a56-9db3-b986b278bd02
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IPropertyPage interface [COM],Move method, IPropertyPage.Move, IPropertyPage::Move, Move, Move method [COM], Move method [COM],IPropertyPage interface, _ctrl_ipropertypage_move, com.ipropertypage_move, ocidl/IPropertyPage::Move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyPage::Move

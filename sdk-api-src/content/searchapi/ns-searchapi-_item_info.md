@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _ITEM_INFO structure
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Contains information passed to the <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
+Contains information passed to the <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object about the current item; for example, the application name and catalog name.
 
 
 ## -struct-fields

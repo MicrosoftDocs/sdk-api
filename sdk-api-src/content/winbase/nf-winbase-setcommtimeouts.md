@@ -66,7 +66,7 @@ Sets the time-out parameters for all read and write operations on a specified co
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ### -param lpCommTimeouts [in]
@@ -108,19 +108,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1a4de1-6cae-4c35-bfba-0bc252fadbd9">ReadFileEx</a>
+<a href="https://msdn.microsoft.com/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a>
+<a href="https://msdn.microsoft.com/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>
  
 
  

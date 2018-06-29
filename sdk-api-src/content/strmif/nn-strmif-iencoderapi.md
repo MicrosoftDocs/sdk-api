@@ -217,7 +217,7 @@ The following table describes the expected behavior of an encoder under extremel
 
 
 
-<a href="https://msdn.microsoft.com/3d19152f-17a3-4576-a2a2-5b827d9ca8d1">Encoder API</a>
+<a href="https://msdn.microsoft.com/library/Dd375602(v=VS.85).aspx">Encoder API</a>
  
 
  

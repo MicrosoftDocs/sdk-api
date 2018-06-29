@@ -125,61 +125,6 @@ Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.
 </table> 
 
 
-## -members
-
-The <b>WBEMTimeSpan</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
-</td>
-<td align="left" width="63%">
-Sets the time span to INVALID_TIME.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5db5a7a-0590-4598-bde7-e90cfc7cd932">GetBSTR</a>
-</td>
-<td align="left" width="63%">
-Gets the time span as a <b>BSTR</b> in WMI time span format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58ea0741-1927-4cbf-abfb-059e4490accc">GetTime</a>
-</td>
-<td align="left" width="63%">
-Returns the time span as a 64-bit integer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/855b4c2f-5379-4dd9-9638-072e256e955a">IsOk</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.
-
-</td>
-</tr>
-</table>Sets the time span to INVALID_TIME.
-
-Gets the time span as a <b>BSTR</b> in WMI time span format.
-
-Returns the time span as a 64-bit integer.
-
-Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.
-
- 
-
-
 ## -see-also
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RtmHoldDestination function

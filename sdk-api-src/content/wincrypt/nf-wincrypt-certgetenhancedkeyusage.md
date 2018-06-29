@@ -157,7 +157,7 @@ If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid fo
 
 
 
-<a href="https://www.bing.com/search?q=Enhanced+Key+Usage+Functions">Enhanced Key Usage Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
  
 
  

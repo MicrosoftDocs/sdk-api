@@ -7,7 +7,7 @@ old-location: setup\msiinstallmissingcomponent.htm
 old-project: Msi
 ms.assetid: 81b44b77-e972-409c-b933-8fcae8887266
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiInstallMissingComponent, MsiInstallMissingComponent function, MsiInstallMissingComponentA, MsiInstallMissingComponentW, _msi_msiinstallmissingcomponent, msi/MsiInstallMissingComponent, msi/MsiInstallMissingComponentA, msi/MsiInstallMissingComponentW, setup.msiinstallmissingcomponent
 ms.prod: windows
 ms.technology: windows-sdk

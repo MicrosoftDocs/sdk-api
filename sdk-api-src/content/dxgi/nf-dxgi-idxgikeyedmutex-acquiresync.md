@@ -81,7 +81,7 @@ The time-out interval, in milliseconds. This method will return if the interval 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Return S_OK if successful.
 
@@ -104,7 +104,7 @@ If the owning device attempted to create another keyed mutex on the same shared 
 The <b>AcquireSync</b> method creates a lock to a surface that is shared between multiple devices, allowing only one device to render to a surface at a time.  
       This method uses a key to determine which device currently has exclusive access to the surface.
 
-When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="https://msdn.microsoft.com/bdcb4e87-0285-4e96-a7ce-e08a43d3a4cb">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
+When a surface is created using the <b>D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> value of the <a href="https://msdn.microsoft.com/library/Bb172412(v=VS.85).aspx">D3D10_RESOURCE_MISC_FLAG</a> enumeration, 
       you must call the <b>AcquireSync</b> method before rendering to the surface.  You must call the <a href="https://msdn.microsoft.com/324741c9-33f2-4420-8c3f-4984e2ca0962">ReleaseSync</a> method when you are done 
       rendering to a surface.
 

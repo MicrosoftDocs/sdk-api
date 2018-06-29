@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NS:eaptypes._EapUsernamePasswordCredential
 title: "_EapUsernamePasswordCredential"
 author: windows-sdk-content
@@ -66,7 +66,7 @@ A NULL-terminated Unicode string that contains the username that needs authentic
 
 ### -field password
 
-A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the **CredProtect** function. The EAP method must use the <a href="https://msdn.microsoft.com/7a22fb2b-edfc-45f2-b2d2-729f3761584d">CredUnprotect</a> function to retrieve the unencrypted password.
+A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the <a href="https://msdn.microsoft.com/library/Aa374803(v=VS.85).aspx">CredProtect</a> function. The EAP method must use the <a href="https://msdn.microsoft.com/7a22fb2b-edfc-45f2-b2d2-729f3761584d">CredUnprotect</a> function to retrieve the unencrypted password.
 
 
 ## -see-also

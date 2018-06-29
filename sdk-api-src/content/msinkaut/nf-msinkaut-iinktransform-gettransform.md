@@ -7,7 +7,7 @@ old-location: tablet\inktransform_gettransform.htm
 old-project: tablet
 ms.assetid: d6aec579-7fa4-4cfb-8f63-2810b0c40103
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: GetTransform, GetTransform method [Tablet PC], GetTransform method [Tablet PC],IInkTransform interface, IInkTransform interface [Tablet PC],GetTransform method, IInkTransform.GetTransform, IInkTransform::GetTransform, d6aec579-7fa4-4cfb-8f63-2810b0c40103, msinkaut/IInkTransform::GetTransform, tablet.inktransform_gettransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,7 +157,7 @@ An <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">Ink
 
 
 
-<a href="https://www.bing.com/search?q=IInkTransform">IInkTransform</a>
+<a href="tablet.iinktransform">IInkTransform</a>
 
 
 

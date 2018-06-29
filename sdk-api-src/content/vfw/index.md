@@ -2,7 +2,7 @@
 UID: NA:vfw
 ms.assetid: 84b00537-6030-36ab-8d3a-4a3fd59cba5c
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

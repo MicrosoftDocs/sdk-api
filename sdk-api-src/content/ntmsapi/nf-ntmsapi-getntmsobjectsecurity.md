@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GetNtmsObjectSecurity function
@@ -222,7 +222,7 @@ RSM security uses the standard security descriptors and information members. Thi
 
 
 
-<a href="https://www.bing.com/search?q=Object+Management+Functions">Object Management Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
 
 
 

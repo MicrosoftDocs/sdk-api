@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromBoolean function
@@ -95,7 +95,7 @@ Note that the <i>boolVal</i> member specifically initialized by this function is
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762287(v=VS.85).aspx">InitPropVariantFromBoolean</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,15 +124,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromBoolean">InitVariantFromBoolean</a>
+<a href="https://msdn.microsoft.com/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToBoolean">PropVariantToBoolean</a>
+<a href="https://msdn.microsoft.com/library/Bb776531(v=VS.85).aspx">PropVariantToBoolean</a>
  
 
  

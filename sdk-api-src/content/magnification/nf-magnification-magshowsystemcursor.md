@@ -86,7 +86,7 @@ This function does not associate a reference count with the visibility state of 
 
 The system cursor is always magnified when it is shown while the full-screen magnifier is active. 
 
-When used with a magnifier control, calls to <b>MagShowSystemCursor</b> have no effect on the magnified system cursor. The visibility of the magnified system cursor depends on whether the magnifier control has the <a href="https://www.bing.com/search?q=MS_SHOWMAGNIFIEDCURSOR">MS_SHOWMAGNIFIEDCURSOR</a> style. If it has this style, the magnifier control displays the magnified system cursor, along with the magnified screen content, whenever the system cursor enters the source rectangle.
+When used with a magnifier control, calls to <b>MagShowSystemCursor</b> have no effect on the magnified system cursor. The visibility of the magnified system cursor depends on whether the magnifier control has the <a href="https://msdn.microsoft.com/library/Hh162712(v=VS.85).aspx">MS_SHOWMAGNIFIEDCURSOR</a> style. If it has this style, the magnifier control displays the magnified system cursor, along with the magnified screen content, whenever the system cursor enters the source rectangle.
 
 
 #### Examples

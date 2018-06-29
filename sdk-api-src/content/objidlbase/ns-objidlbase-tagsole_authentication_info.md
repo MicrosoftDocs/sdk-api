@@ -7,7 +7,7 @@ old-location: com\sole_authentication_info.htm
 old-project: com
 ms.assetid: 23beb1b1-e4b7-4282-9868-5caf40a69a61
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO structure pointer [COM], SOLE_AUTHENTICATION_INFO, SOLE_AUTHENTICATION_INFO structure [COM], _com_SOLE_AUTHENTICATION_INFO, com.sole_authentication_info, objidlbase/PSOLE_AUTHENTICATION_INFO, objidlbase/SOLE_AUTHENTICATION_INFO, tagSOLE_AUTHENTICATION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagSOLE_AUTHENTICATION_INFO structure

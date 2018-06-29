@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdoMachine::Attach
@@ -64,7 +64,7 @@ The
 ### -param bstrComputerName [in]
 
 Specifies a 
-<a href="https://msdn.microsoft.com/library/windows/desktop/1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that contains the name of the computer to which to attach. If this parameter specifies a <b>NULL</b> string, the local computer is attached.
+<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a> variable that contains the name of the computer to which to attach. If this parameter specifies a <b>NULL</b> string, the local computer is attached.
 
 
 ## -returns

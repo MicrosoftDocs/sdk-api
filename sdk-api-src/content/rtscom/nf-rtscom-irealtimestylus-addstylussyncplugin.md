@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_addstylussyncplugin.htm
 old-project: tablet
 ms.assetid: db38e39a-27ba-42ca-8748-b5e9c4db18f7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: AddStylusSyncPlugin, AddStylusSyncPlugin method [Tablet PC], AddStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddStylusSyncPlugin method, IRealTimeStylus.AddStylusSyncPlugin, IRealTimeStylus::AddStylusSyncPlugin, db38e39a-27ba-42ca-8748-b5e9c4db18f7, rtscom/IRealTimeStylus::AddStylusSyncPlugin, tablet.irealtimestylus_addstylussyncplugin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRealTimeStylus::AddStylusSyncPlugin

@@ -158,7 +158,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must free the memory used by the returned string by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller must free the memory used by the returned string by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 A dependency does not indicate an order of preference between the component with the documented dependencies and the components it depends on. A dependency merely indicates that the component and the components it depends on must always be backed up or restored together.
 

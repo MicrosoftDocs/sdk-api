@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdoDictionaryOld::CreateAttribute
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 The 
 <b>CreateAttribute</b> method creates a new attribute object and returns an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface to it.
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to it.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Specifies a value from the enumeration type
 ### -param ppAttributeObject [out]
 
 Pointer to a pointer to an 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer for the created attribute object.
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer for the created attribute object.
 
 
 ## -returns

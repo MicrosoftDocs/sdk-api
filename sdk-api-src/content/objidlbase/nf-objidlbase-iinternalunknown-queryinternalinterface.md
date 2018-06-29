@@ -7,7 +7,7 @@ old-location: com\iinternalunknown_queryinternalinterface.htm
 old-project: com
 ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IInternalUnknown.QueryInternalInterface, IInternalUnknown::QueryInternalInterface, QueryInternalInterface, QueryInternalInterface method [COM], QueryInternalInterface method [COM],IInternalUnknown interface, _com_iinternalunknown_queryinternalinterface, com.iinternalunknown_queryinternalinterface, objidlbase/IInternalUnknown::QueryInternalInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IInternalUnknown::QueryInternalInterface

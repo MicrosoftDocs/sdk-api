@@ -7,7 +7,7 @@ old-location: com\oleupdate.htm
 old-project: com
 ms.assetid: 1945d4a2-dd1f-453e-ab7e-093f26171c84
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration pointer [COM], OLEUPDATE, OLEUPDATE enumeration [COM], OLEUPDATE_ALWAYS, OLEUPDATE_ONCALL, POLEUPDATE, POLEUPDATE enumeration pointer [COM], _ole_OLEUPDATE, com.oleupdate, ole/LPOLEUPDATE, ole/OLEUPDATE, ole/OLEUPDATE_ALWAYS, ole/OLEUPDATE_ONCALL, ole/POLEUPDATE, tagOLEUPDATE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOLEUPDATE enumeration

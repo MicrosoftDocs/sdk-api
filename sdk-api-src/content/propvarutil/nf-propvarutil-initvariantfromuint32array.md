@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromUInt32Array function
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI4 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromUInt32Array">InitVariantFromUInt32Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762341(v=VS.85).aspx">InitVariantFromUInt32Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>
+<a href="https://msdn.microsoft.com/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromUInt32">InitVariantFromUInt32</a>
+<a href="https://msdn.microsoft.com/library/Bb762340(v=VS.85).aspx">InitVariantFromUInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt32Array">VariantToUInt32Array</a>
+<a href="https://msdn.microsoft.com/library/Bb776628(v=VS.85).aspx">VariantToUInt32Array</a>
  
 
  

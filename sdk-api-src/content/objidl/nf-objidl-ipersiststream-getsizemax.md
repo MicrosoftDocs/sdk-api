@@ -7,7 +7,7 @@ old-location: com\ipersiststream_getsizemax.htm
 old-project: com
 ms.assetid: ef9f0afe-b7e5-4b88-b59d-1371ffeaacb8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStream interface, IPersistStream interface [COM],GetSizeMax method, IPersistStream.GetSizeMax, IPersistStream::GetSizeMax, _com_ipersiststream_getsizemax, com.ipersiststream_getsizemax, objidl/IPersistStream::GetSizeMax
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPersistStream::GetSizeMax

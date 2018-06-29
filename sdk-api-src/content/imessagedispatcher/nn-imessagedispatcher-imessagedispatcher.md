@@ -7,7 +7,7 @@ old-location: com\imessagedispatcher.htm
 old-project: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Callback interface implemented by components that need to perform special proces
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageDispatcher</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IMessageDispatcher</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageDispatcher</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IMessageDispatcher</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

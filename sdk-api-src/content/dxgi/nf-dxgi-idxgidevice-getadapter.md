@@ -62,18 +62,18 @@ Returns the adapter for the specified device.
 
 ### -param pAdapter [out]
 
-Type: <b><a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>**</b>
 
-The address of an <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> interface pointer to the adapter.  This parameter must not be <b>NULL</b>.
+The address of an <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> interface pointer to the adapter.  This parameter must not be <b>NULL</b>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> that indicates failure. If the <i>pAdapter</i> parameter is <b>NULL</b> this method returns E_INVALIDARG.
+Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> that indicates failure. If the <i>pAdapter</i> parameter is <b>NULL</b> this method returns E_INVALIDARG.
 
 
 
@@ -96,7 +96,7 @@ If the <b>GetAdapter</b> method succeeds, the reference count on the adapter int
 
 
 
-<a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>
+<a href="https://msdn.microsoft.com/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>
  
 
  

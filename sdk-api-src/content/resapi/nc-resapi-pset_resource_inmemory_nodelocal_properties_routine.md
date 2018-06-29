@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function

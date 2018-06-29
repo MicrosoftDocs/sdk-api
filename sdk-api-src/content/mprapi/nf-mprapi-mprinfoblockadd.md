@@ -125,7 +125,7 @@ The <i>lpHeader</i>, <i>lplpNewHeader</i>, or <i>lpItemData</i> parameter is <b>
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ After adding an information block, obtain the new size of the information header
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 

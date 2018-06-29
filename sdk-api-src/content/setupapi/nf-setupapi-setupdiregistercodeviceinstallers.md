@@ -7,7 +7,7 @@ old-location: devinst\setupdiregistercodeviceinstallers.htm
 old-project: devinst
 ms.assetid: 75d0275b-9eb8-45ec-ac8e-b18d59e0c011
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiRegisterCoDeviceInstallers, SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation], devinst.setupdiregistercodeviceinstallers, di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml, setupapi/SetupDiRegisterCoDeviceInstallers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiRegisterCoDeviceInstallers function
@@ -61,7 +61,7 @@ The <b>SetupDiRegisterCoDeviceInstallers</b> function is the default handler for
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device information element that represents the device for which to register co-installers. The device information set must not contain any remote elements.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to register co-installers. The device information set must not contain any remote elements.
 
 
 ### -param DeviceInfoData [in]
@@ -84,9 +84,9 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 The caller of <b>SetupDiRegisterCoDeviceInstallers</b> must be a member of the Administrators group.
 
-<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterCoDeviceInstallers</b> and only in those situations where the class installer must perform co-installer registration operations after <b>SetupDiRegisterCoDeviceInstallers</b> completes the default co-installer registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterCoDeviceInstallers</b> when the installer processes a DIF_REGISTER_COINSTALLERS request. For more information about calling the default handler, see <a href="https://www.bing.com/search?q=Calling+Default+DIF+Code+Handlers">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiRegisterCoDeviceInstallers</b> and only in those situations where the class installer must perform co-installer registration operations after <b>SetupDiRegisterCoDeviceInstallers</b> completes the default co-installer registration operation. In such situations, the class installer must directly call <b>SetupDiRegisterCoDeviceInstallers</b> when the installer processes a DIF_REGISTER_COINSTALLERS request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
-<b>SetupDiRegisterCoDeviceInstallers</b> reads the INF file for the device specified by <i>DeviceInfoData</i> and creates registry entries to register any device-specific co-installers listed in the INF file. Co-installers are listed in an <a href="https://www.bing.com/search?q=INF+DDInstall.CoInstallers+section">INF DDInstall.CoInstallers section</a>. This function also copies the files for the co-installers, unless the DI_NOFILECOPY flag is set. 
+<b>SetupDiRegisterCoDeviceInstallers</b> reads the INF file for the device specified by <i>DeviceInfoData</i> and creates registry entries to register any device-specific co-installers listed in the INF file. Co-installers are listed in an <a href="devinst.inf_ddinstall_coinstallers_section">INF DDInstall.CoInstallers section</a>. This function also copies the files for the co-installers, unless the DI_NOFILECOPY flag is set. 
 
 If there is no driver selected, or the device has an INF file for Windows 9x or Millennium Edition, this function does not register any co-installers.
 
@@ -94,7 +94,7 @@ Registering a new device-specific co-installer invalidates the Device Installer'
 
 This function only registers device-specific co-installers, not class co-installers. 
 
-For more information about how to write and register device-specific co-installers, see <a href="https://www.bing.com/search?q=Writing+a+Co-installer">Writing a Co-installer</a>.
+For more information about how to write and register device-specific co-installers, see <a href="devinst.writing_a_co_installer">Writing a Co-installer</a>.
 
 The device information set specified by <i>DeviceInfoSet</i> must only contain elements on the local computer.
 

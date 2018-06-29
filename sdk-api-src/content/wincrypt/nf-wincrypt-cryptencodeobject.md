@@ -192,7 +192,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://www.bing.com/search?q=Object+Encoding+and+Decoding+Functions">Object Encoding and Decoding Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
  
 
  

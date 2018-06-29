@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GETPROPERTYSTOREFLAGS enumeration
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Indicates flags that modify the property store object retrieved by methods that create a property store, such as <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> or <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystorefactory-getpropertystore">IPropertyStoreFactory::GetPropertyStore</a>.
+Indicates flags that modify the property store object retrieved by methods that create a property store, such as <a href="https://msdn.microsoft.com/706b2551-a9b0-4368-babb-e54cea6d297e">IShellItem2::GetPropertyStore</a> or <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
 
 
 ## -enum-fields
@@ -189,7 +189,7 @@ Include only properties from the file's secondary stream.
 
 ### -field GPS_MASK_VALID
 
-Mask for valid <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values.
+Mask for valid <a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values.
 
 
 ## -remarks

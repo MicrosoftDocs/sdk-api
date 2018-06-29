@@ -89,10 +89,10 @@ Reserved. This parameter must be 0.
 ### -param pVal [out]
 
 This <b>VARIANT</b> is filled with the value of the property. The method calls 
-       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> on this 
+       <a href="https://msdn.microsoft.com/library/ms221402(v=VS.85).aspx">VariantInit</a> on this 
        <b>VARIANT</b>, so the caller should ensure that the <b>VARIANT</b> 
        is not active prior to the call. The caller must use 
-       <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when the value is no 
+       <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> when the value is no 
        longer required.
 
 You can set this parameter to <b>NULL</b> if the value is not required. If an error code 
@@ -147,7 +147,7 @@ For instances:
 
 Receives a new <b>BSTR</b> that contains the property name. To prevent memory leaks 
       in the client process, the caller must call 
-      <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221481.aspx">SysFreeString</a> when the name is no 
+      <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the name is no 
       longer required. You can set this parameter to <b>NULL</b> if the name is not required.
 
 

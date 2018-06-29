@@ -122,7 +122,7 @@ A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f
       
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a 
-       <a href="base.desktop_security_and_access_rights">security descriptor</a> for the new 
+       <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">security descriptor</a> for the new 
        event. If <i>lpTransactionAttributes</i> is <b>NULL</b>, the object gets 
        a default security descriptor. The access control lists (ACL) in the default security descriptor for a 
        transaction come from the primary or impersonation token of the creator.

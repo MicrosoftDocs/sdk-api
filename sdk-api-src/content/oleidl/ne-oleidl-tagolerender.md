@@ -7,7 +7,7 @@ old-location: com\olerender.htm
 old-project: com
 ms.assetid: bab871ba-4ec4-49fd-854a-585732b91290
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPOLERENDER, LPOLERENDER, LPOLERENDER enumeration pointer [COM], OLERENDER, OLERENDER enumeration [COM], OLERENDER_ASIS, OLERENDER_DRAW, OLERENDER_FORMAT, OLERENDER_NONE, _ole_OLERENDER, com.olerender, oleidl/LPOLERENDER, oleidl/OLERENDER, oleidl/OLERENDER_ASIS, oleidl/OLERENDER_DRAW, oleidl/OLERENDER_FORMAT, oleidl/OLERENDER_NONE, tagOLERENDER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOLERENDER enumeration

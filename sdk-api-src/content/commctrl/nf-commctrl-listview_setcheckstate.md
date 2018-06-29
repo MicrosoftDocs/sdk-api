@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/aecd14dd-cfd0-4c7c-bddc-f65022de68c9">LVM_SETITEMSTATE</a> message explicitly.
+Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761196(v=VS.85).aspx">LVM_SETITEMSTATE</a> message explicitly.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The index of the item for which to set the check state.
 
 
 
-This macro should only be used for list-view controls with the <a href="https://www.bing.com/search?q=LVS_EX_CHECKBOXES">LVS_EX_CHECKBOXES</a> style. 
+This macro should only be used for list-view controls with the <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_CHECKBOXES</a> style. 
 
 
 
@@ -98,7 +98,7 @@ This macro should only be used for list-view controls with the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/b90900f1-833b-418c-8ddc-76c0743b77f9">ListView_SetItemState</a>
+<a href="https://msdn.microsoft.com/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a>
  
 
  

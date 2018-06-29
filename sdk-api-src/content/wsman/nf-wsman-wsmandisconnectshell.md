@@ -7,7 +7,7 @@ old-location: winrm\wsmandisconnectshell.htm
 old-project: WinRM
 ms.assetid: 018F6E37-477B-4823-8597-CF80367EEB88
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManDisconnectShell, WSManDisconnectShell function [Windows Remote Management], winrm.wsmandisconnectshell, wsman/WSManDisconnectShell
 ms.prod: windows
 ms.technology: windows-sdk

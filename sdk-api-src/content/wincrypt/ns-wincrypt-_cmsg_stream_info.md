@@ -157,7 +157,7 @@ A pointer to the argument to pass to the callback function. Typically, this is u
 
 
 Messages can be so large that processing them all at once by storing the whole message in memory can be difficult, if not impossible. It is possible to process large messages without encountering memory limitations by streaming the data that is to be processed into manageable sized blocks. The 
-<a href="https://www.bing.com/search?q=low-level+message+functions">low-level message functions</a> can be used with streaming to encode or decode a message. Any level of nesting of messages is supported when streaming to encode and streaming to decode.
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">low-level message functions</a> can be used with streaming to encode or decode a message. Any level of nesting of messages is supported when streaming to encode and streaming to decode.
 
 The input message to be processed as a stream feeds into 
 <a href="https://msdn.microsoft.com/d27d75f0-1646-4926-b375-59e52b00326c">CryptMsgUpdate</a> one block at a time, with the application determining the size of the block. As the streamed message is processed for encoding or decoding, the resulting output data is passed back to the application through an application-specified callback function that is specified by the <b>pfnStreamOutput</b> member.

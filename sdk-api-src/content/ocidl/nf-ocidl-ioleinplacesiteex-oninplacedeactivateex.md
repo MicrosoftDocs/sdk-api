@@ -7,7 +7,7 @@ old-location: com\ioleinplacesiteex_oninplacedeactivateex.htm
 old-project: com
 ms.assetid: c3c68b46-adca-4f8d-86c2-075b72f7c656
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceDeactivateEx method, IOleInPlaceSiteEx.OnInPlaceDeactivateEx, IOleInPlaceSiteEx::OnInPlaceDeactivateEx, IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx, OnInPlaceDeactivateEx, OnInPlaceDeactivateEx method [COM], OnInPlaceDeactivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplacedeactivateex, com.ioleinplacesiteex_oninplacedeactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceSiteEx::OnInPlaceDeactivateEx

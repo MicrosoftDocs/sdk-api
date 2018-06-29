@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore_GetNameCount.htm
 old-project: shell
 ms.assetid: 74bba1bf-e003-40bb-9118-4d647f78e409
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # INamedPropertyStore::GetNameCount

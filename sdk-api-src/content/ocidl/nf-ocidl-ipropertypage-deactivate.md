@@ -7,7 +7,7 @@ old-location: com\ipropertypage_deactivate.htm
 old-project: com
 ms.assetid: 545f7c3d-3c6f-42c2-b472-3da3bc184200
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Deactivate, Deactivate method [COM], Deactivate method [COM],IPropertyPage interface, IPropertyPage interface [COM],Deactivate method, IPropertyPage.Deactivate, IPropertyPage::Deactivate, _ctrl_ipropertypage_deactivate, com.ipropertypage_deactivate, ocidl/IPropertyPage::Deactivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyPage::Deactivate

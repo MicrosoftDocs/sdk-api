@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_requestnewobjectlayout.htm
 old-project: com
 ms.assetid: 68867ddd-fad0-4eef-8e5c-8198366e8e64
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleClientSite interface [COM],RequestNewObjectLayout method, IOleClientSite.RequestNewObjectLayout, IOleClientSite::RequestNewObjectLayout, RequestNewObjectLayout, RequestNewObjectLayout method [COM], RequestNewObjectLayout method [COM],IOleClientSite interface, _ole_ioleclientsite_requestnewobjectlayout, com.ioleclientsite_requestnewobjectlayout, oleidl/IOleClientSite::RequestNewObjectLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleClientSite::RequestNewObjectLayout

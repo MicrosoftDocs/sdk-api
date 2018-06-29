@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_oninplaceactivate.htm
 old-project: com
 ms.assetid: e5744911-1ea6-4482-988d-8def16229f4c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceActivate method, IOleInPlaceSite.OnInPlaceActivate, IOleInPlaceSite::OnInPlaceActivate, OnInPlaceActivate, OnInPlaceActivate method [COM], OnInPlaceActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplaceactivate, com.ioleinplacesite_oninplaceactivate, oleidl/IOleInPlaceSite::OnInPlaceActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleInPlaceSite::OnInPlaceActivate

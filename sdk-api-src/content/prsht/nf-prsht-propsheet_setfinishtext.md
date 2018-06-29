@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropSheet_SetFinishText macro
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://msdn.microsoft.com/fa89c6d7-9ab7-4e7c-ba08-d665420492a3">PSM_SETFINISHTEXT</a> message explicitly.
+Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774615(v=VS.85).aspx">PSM_SETFINISHTEXT</a> message explicitly.
 
 
 ## -parameters

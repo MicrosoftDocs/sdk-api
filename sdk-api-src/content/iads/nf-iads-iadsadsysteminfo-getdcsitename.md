@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:iads.IADsADSystemInfo.GetDCSiteName
 title: IADsADSystemInfo::GetDCSiteName
 author: windows-sdk-content
@@ -89,7 +89,7 @@ This method supports the standard <b>HRESULT</b> return values. For more informa
 
 
 
-An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://www.bing.com/search?q=Active+Directory+Core+Concepts">Active Directory Core Concepts</a>.
+An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="ad.active_directory_core_concepts">Active Directory Core Concepts</a>.
 
 
 #### Examples
@@ -193,7 +193,7 @@ wscript.echo "Domain Controller site: " &amp; sys.GetDCSiteName(dc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/aa772157.aspx">Active Directory Core
+<a href="ad.active_directory_core_concepts">Active Directory Core
     Concepts</a>
 
 

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceCapabilities::GetFunctionalObjects
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-        The <a href="https://msdn.microsoft.com/c292a509-f202-4136-bbf7-b4e82ef2b936">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
+        The <a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
       
 
 
@@ -129,7 +129,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/c292a509-f202-4136-bbf7-b4e82ef2b936">IPortableDeviceCapabilities Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
 
 
 

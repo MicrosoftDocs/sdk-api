@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromUInt64 function
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromUInt64">InitPropVariantFromUInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762313(v=VS.85).aspx">InitPropVariantFromUInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromUInt64">InitVariantFromUInt64</a>
+<a href="https://msdn.microsoft.com/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt64">PropVariantToUInt64</a>
+<a href="https://msdn.microsoft.com/library/Bb776573(v=VS.85).aspx">PropVariantToUInt64</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt64WithDefault">PropVariantToUInt64WithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776576(v=VS.85).aspx">PropVariantToUInt64WithDefault</a>
  
 
  

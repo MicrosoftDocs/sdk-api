@@ -7,7 +7,7 @@ old-location: com\ibindctx_getobjectparam.htm
 old-project: com
 ms.assetid: 8f423495-7a34-4901-968e-1fe204680d8a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetObjectParam, GetObjectParam method [COM], GetObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],GetObjectParam method, IBindCtx.GetObjectParam, IBindCtx::GetObjectParam, _com_ibindctx_getobjectparam, com.ibindctx_getobjectparam, objidl/IBindCtx::GetObjectParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IBindCtx::GetObjectParam
@@ -61,7 +61,7 @@ Retrieves an interface pointer to the object associated with the specified key i
 
 ### -param pszKey [in]
 
-The <a href="https://www.bing.com/search?q=bind+context+string+key">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
+The <a href="_shell_STR_constants_cpp">bind context string key</a> to be searched for. Key string comparison is case-sensitive.
 
 
 ### -param ppunk [out]

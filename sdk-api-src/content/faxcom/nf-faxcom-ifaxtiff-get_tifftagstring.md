@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_tifftagstring_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pif.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxTiff object [Fax Service],TiffTagString property, FaxTiff.TiffTagString, IFaxTiff.get_TiffTagString, IFaxTiff::get_TiffTagString, TiffTagString property [Fax Service], TiffTagString property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring_vb, get_TiffTagString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Retrieves the <b>TiffTagString</b> property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object. The <b>TiffTagString</b> property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).
+Retrieves the <b>TiffTagString</b> property for a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object. The <b>TiffTagString</b> property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).
 
 This property is read/write.
 
@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-For more information about Tagged Image File Format Class F (TIFF Class F) files, see <a href="https://msdn.microsoft.com/d7840c10-6059-40ed-9040-50eefefc7349">Fax Image Format</a>. For current information about TIFF tags, or for the list of valid TIFF tag numbers, contact Adobe Systems Incorporated.
+For more information about Tagged Image File Format Class F (TIFF Class F) files, see <a href="https://msdn.microsoft.com/library/ms693440(v=VS.85).aspx">Fax Image Format</a>. For current information about TIFF tags, or for the list of valid TIFF tag numbers, contact Adobe Systems Incorporated.
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/70acd518-4058-4146-bbdf-50108d0c7e3f">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>get_TiffTagString</b> method sets the <i>pVal</i> parameter to a string that represents the value of the TIFF tag, if it is available. If the information is not available, the method returns "Unavailable".
 
@@ -75,7 +75,7 @@ You can call the <b>get_TiffTagString</b> to retrieve information about any TIFF
 
 The <b>TiffTagString</b> property contains information about any TIFF tag, including those that the fax service does not support. Note that this property only contains information for the first page of a TIFF file.
 
-The <b>get_TiffTagString</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/a8371d98-8a66-484a-9179-4894ae0a7dfc">Freeing Fax Resources</a>.
+The <b>get_TiffTagString</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 
@@ -85,23 +85,23 @@ The <b>get_TiffTagString</b> method allocates the memory required for the buffer
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/98d385be-cebb-428e-92f7-22a1fc814c3c">FaxTiff</a>
+<a href="https://msdn.microsoft.com/library/ms690285(v=VS.85).aspx">FaxTiff</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4c46893-502d-4d5c-a895-837cffc014e4">IFaxTiff</a>
+<a href="https://msdn.microsoft.com/library/ms691802(v=VS.85).aspx">IFaxTiff</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

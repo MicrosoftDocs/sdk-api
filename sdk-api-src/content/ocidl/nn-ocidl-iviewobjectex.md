@@ -1,13 +1,13 @@
-﻿---
+---
 UID: NN:ocidl.IViewObjectEx
 title: IViewObjectEx
 author: windows-sdk-content
-description: An extension derived from IViewObject2 to provide support for
+description: An extension derived from IViewObject2 to provide support for:
 old-location: com\iviewobjectex.htm
 old-project: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IViewObjectEx interface

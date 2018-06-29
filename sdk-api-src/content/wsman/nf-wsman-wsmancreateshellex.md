@@ -7,7 +7,7 @@ old-location: winrm\wsmancreateshellex.htm
 old-project: WinRM
 ms.assetid: A339FC95-2235-4102-A0FC-7FB01132B7A1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: WSManCreateShellEx, WSManCreateShellEx function [Windows Remote Management], winrm.wsmancreateshellex, wsman/WSManCreateShellEx
 ms.prod: windows
 ms.technology: windows-sdk

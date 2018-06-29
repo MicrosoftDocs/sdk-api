@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellItemArrayFromIDLists.htm
 old-project: shell
 ms.assetid: af462941-8c23-4f48-baf5-1ead9739a2c5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: SHCreateShellItemArrayFromIDLists, SHCreateShellItemArrayFromIDLists function [Windows Shell], _shell_SHCreateShellItemArrayFromIDLists, shell.SHCreateShellItemArrayFromIDLists, shobjidl_core/SHCreateShellItemArrayFromIDLists
 ms.prod: windows
 ms.technology: windows-sdk

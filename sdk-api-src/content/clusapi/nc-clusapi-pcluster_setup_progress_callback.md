@@ -327,7 +327,7 @@ TBD
 
 The <b>PCLUSTER_SETUP_PROGRESS_CALLBACK</b> type defines a pointer to this function.
 
-The <a href="https://www.bing.com/search?q=MSCluster_EventClusterCallback">MSCluster_EventClusterCallback</a> 
+The <a href="https://msdn.microsoft.com/library/Cc325746(v=VS.85).aspx">MSCluster_EventClusterCallback</a> 
      MOF class is used in a similar manner.
 
 
@@ -366,7 +366,7 @@ The <a href="https://www.bing.com/search?q=MSCluster_EventClusterCallback">MSClu
 
 
 
-<a href="https://www.bing.com/search?q=MSCluster_EventClusterCallback">MSCluster_EventClusterCallback</a>
+<a href="https://msdn.microsoft.com/library/Cc325746(v=VS.85).aspx">MSCluster_EventClusterCallback</a>
  
 
  

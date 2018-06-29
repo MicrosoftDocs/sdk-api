@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the  <a href="https://msdn.microsoft.com/d59f017e-df32-4826-954d-9ba338282d0d">Task Scheduler 2.0 Enumerated Types</a> instead.] ]
 
-Defines the types of <a href="https://www.bing.com/search?q=triggers">triggers</a> associated with a task.
+Defines the types of <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">triggers</a> associated with a task.
 
 
 ## -enum-fields
@@ -122,7 +122,7 @@ When this value is specified, the
 
 ### -field TASK_EVENT_TRIGGER_ON_IDLE
 
-Trigger is set to run the task if the system remains idle for the amount of time specified by the <a href="i.htm">idle wait time</a> of the task. 
+Trigger is set to run the task if the system remains idle for the amount of time specified by the <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">idle wait time</a> of the task. 
 
 
 

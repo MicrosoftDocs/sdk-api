@@ -7,7 +7,7 @@ old-location: audio\iaudioprocessingobject_getregistrationproperties.htm
 old-project: audio
 ms.assetid: A0D0BAA9-7942-4952-AC9D-087EE7FE6DD0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/11/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetRegistrationProperties method, IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
 ms.prod: windows
 ms.technology: windows-sdk

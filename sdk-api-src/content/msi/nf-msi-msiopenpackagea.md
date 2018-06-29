@@ -7,7 +7,7 @@ old-location: setup\msiopenpackage.htm
 old-project: Msi
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage
 ms.prod: windows
 ms.technology: windows-sdk

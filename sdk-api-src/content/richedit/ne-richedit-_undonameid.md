@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _undonameid enumeration
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Contains values that indicate types of rich edit control actions that can be undone or redone. The <a href="https://msdn.microsoft.com/8649236f-32dc-45d3-847e-c9f65ffba44c">EM_GETREDONAME</a> and <a href="https://msdn.microsoft.com/43351909-f8bc-425a-9d9b-655e3b47eb75">EM_GETUNDONAME</a> messages use this enumeration type to return a value. 
+Contains values that indicate types of rich edit control actions that can be undone or redone. The <a href="https://msdn.microsoft.com/library/Bb774186(v=VS.85).aspx">EM_GETREDONAME</a> and <a href="https://msdn.microsoft.com/library/Bb774202(v=VS.85).aspx">EM_GETUNDONAME</a> messages use this enumeration type to return a value. 
 
 
 ## -enum-fields
@@ -100,11 +100,11 @@ Automatic table insertion; for example, typing +---+---+&lt;Enter&gt; to insert 
 
 
 
-<a href="https://msdn.microsoft.com/8649236f-32dc-45d3-847e-c9f65ffba44c">EM_GETREDONAME</a>
+<a href="https://msdn.microsoft.com/library/Bb774186(v=VS.85).aspx">EM_GETREDONAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/43351909-f8bc-425a-9d9b-655e3b47eb75">EM_GETUNDONAME</a>
+<a href="https://msdn.microsoft.com/library/Bb774202(v=VS.85).aspx">EM_GETUNDONAME</a>
 
 
 

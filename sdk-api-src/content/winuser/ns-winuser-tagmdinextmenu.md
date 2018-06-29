@@ -7,7 +7,7 @@ old-location: menurc\mdinextmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\mdinextmenu.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPMDINEXTMENU, *PMDINEXTMENU, MDINEXTMENU, MDINEXTMENU structure [Menus and Other Resources], PMDINEXTMENU, PMDINEXTMENU structure pointer [Menus and Other Resources], _win32_MDINEXTMENU_str, _win32_mdinextmenu_str_cpp, menurc.mdinextmenu, tagMDINEXTMENU, winui._win32_mdinextmenu_str, winuser/MDINEXTMENU, winuser/PMDINEXTMENU"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ A handle to the window to receive the menu notification messages.
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 
@@ -97,7 +97,7 @@ A handle to the window to receive the menu notification messages.
 
 
 
-<a href="https://msdn.microsoft.com/3fa50fd3-47a6-4dae-9ceb-2abb6626e0a6">WM_NEXTMENU</a>
+<a href="https://msdn.microsoft.com/library/ms647612(v=VS.85).aspx">WM_NEXTMENU</a>
  
 
  

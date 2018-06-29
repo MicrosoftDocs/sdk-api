@@ -7,7 +7,7 @@ old-location: com\icancelmethodcalls_cancel.htm
 old-project: com
 ms.assetid: 3c3fdcec-10f1-4fbf-af93-582e7390decf
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls interface, ICancelMethodCalls interface [COM],Cancel method, ICancelMethodCalls.Cancel, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ICancelMethodCalls::Cancel

@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::SetLineJoin</b> method sets the line join for this 
-			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
+			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -62,10 +62,10 @@ The <b>Pen::SetLineJoin</b> method sets the line join for this
 
 ### -param lineJoin [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7fd13263-10c9-45b1-99b4-a8da574a26f3">LineJoin</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a></b>
 
 Element of the 
-					<a href="https://msdn.microsoft.com/7fd13263-10c9-45b1-99b4-a8da574a26f3">LineJoin</a> enumeration that specifies the join style used at the end of a line segment that meets another line segment. 
+					<a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a> enumeration that specifies the join style used at the end of a line segment that meets another line segment. 
 
 
 ## -returns
@@ -89,39 +89,39 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/4ec3e76a-2531-4869-a5b0-c595198e8345">Joining Lines</a>
+<a href="https://msdn.microsoft.com/library/ms533853(v=VS.85).aspx">Joining Lines</a>
 
 
 
-<a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a>
+<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
+<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba247773-7e9f-4130-a14c-42c3153e4da5">Pen::GetEndCap</a>
+<a href="https://msdn.microsoft.com/library/ms535029(v=VS.85).aspx">Pen::GetEndCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/4024524a-f139-4ec5-8788-b071658b8374">Pen::GetStartCap</a>
+<a href="https://msdn.microsoft.com/library/ms535034(v=VS.85).aspx">Pen::GetStartCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea29dcf3-7c3e-44bd-957b-0e7c46592de3">Pen::SetEndCap</a>
+<a href="https://msdn.microsoft.com/library/ms535051(v=VS.85).aspx">Pen::SetEndCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e52ce66-a567-42b9-ae47-2957ac3e0723">Pen::SetLineCap</a>
+<a href="https://msdn.microsoft.com/library/ms535052(v=VS.85).aspx">Pen::SetLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8289147-5154-4780-ae8f-65427093aaa3">Pen::SetStartCap</a>
+<a href="https://msdn.microsoft.com/library/ms535055(v=VS.85).aspx">Pen::SetStartCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
  
 
  

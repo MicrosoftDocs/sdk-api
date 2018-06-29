@@ -7,7 +7,7 @@ old-location: shell\FDE_OVERWRITE_RESPONSE.htm
 old-project: shell
 ms.assetid: 2f278004-7f86-4b08-a724-bb95606c5d51
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: FDEOR_ACCEPT, FDEOR_DEFAULT, FDEOR_REFUSE, FDE_OVERWRITE_RESPONSE, FDE_OVERWRITE_RESPONSE enumeration [Windows Shell], shell.FDE_OVERWRITE_RESPONSE, shell_FDE_OVERWRITE_RESPONSE, shobjidl_core/FDEOR_ACCEPT, shobjidl_core/FDEOR_DEFAULT, shobjidl_core/FDEOR_REFUSE, shobjidl_core/FDE_OVERWRITE_RESPONSE
 ms.prod: windows
 ms.technology: windows-sdk

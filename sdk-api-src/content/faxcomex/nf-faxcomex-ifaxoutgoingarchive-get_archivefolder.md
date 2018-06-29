@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_archivefolder_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service],ArchiveFolder property, FaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.get_ArchiveFolder, IFaxOutgoingArchive::get_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_archivefolder_vb, get_ArchiveFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,9 +63,9 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows, get the  <a href="https://msdn.microsoft.com/42fb8a22-0404-404f-b761-c8b8783f98a3">FaxConfiguration.ArchiveLocation</a> property from the <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object.</div>
+<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows, get the  <a href="https://msdn.microsoft.com/42fb8a22-0404-404f-b761-c8b8783f98a3">FaxConfiguration.ArchiveLocation</a> property from the <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object.</div>
 <div> </div>
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -75,23 +75,23 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffed51b3-0a07-4667-8d8d-5054362489c4">FaxOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bd3eb63-512e-4774-9bb7-f99d1293f2f3">IFaxOutgoingArchive</a>
+<a href="https://msdn.microsoft.com/library/ms688636(v=VS.85).aspx">IFaxOutgoingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/68f6c0f2-ea06-401c-9021-c50940f8cd7a">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693472(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -66,9 +66,9 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 A zero-based buffer index. 
 
-If the swap chain's swap effect is <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_DISCARD">DXGI_SWAP_EFFECT_DISCARD</a>, this method can only access the first buffer; for this situation, set the index to zero.
+If the swap chain's swap effect is <a href="https://msdn.microsoft.com/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_DISCARD</a>, this method can only access the first buffer; for this situation, set the index to zero.
 
-If the swap chain's swap effect is either <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_SEQUENTIAL">DXGI_SWAP_EFFECT_SEQUENTIAL</a> or <a href="https://www.bing.com/search?q=DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>, only the swap chain's zero-index buffer can be read from and written to. The swap chain's buffers with indexes greater than zero can only be read from; so if you call the <a href="https://msdn.microsoft.com/d5e44fba-14d9-4c30-b9b8-e3143aabcee4">IDXGIResource::GetUsage</a> method for such buffers, they have the <a href="https://www.bing.com/search?q=DXGI_USAGE_READ_ONLY">DXGI_USAGE_READ_ONLY</a> flag set.
+If the swap chain's swap effect is either <a href="https://msdn.microsoft.com/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_SEQUENTIAL</a> or <a href="https://msdn.microsoft.com/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a>, only the swap chain's zero-index buffer can be read from and written to. The swap chain's buffers with indexes greater than zero can only be read from; so if you call the <a href="https://msdn.microsoft.com/library/Bb174563(v=VS.85).aspx">IDXGIResource::GetUsage</a> method for such buffers, they have the <a href="https://msdn.microsoft.com/library/Bb173078(v=VS.85).aspx">DXGI_USAGE_READ_ONLY</a> flag set.
 
 
 ### -param riid [in]
@@ -89,9 +89,9 @@ A pointer to a back-buffer interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
 
 
 
@@ -101,7 +101,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4
 
 
 
-<a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>
+<a href="https://msdn.microsoft.com/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>
  
 
  

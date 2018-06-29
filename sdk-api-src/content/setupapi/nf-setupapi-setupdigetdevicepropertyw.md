@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceproperty.htm
 old-project: devinst
 ms.assetid: eac31612-e80b-44ad-b4d4-a4aa014e833f
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetDeviceProperty, SetupDiGetDeviceProperty function [Device and Driver Installation], SetupDiGetDevicePropertyW, devinst.setupdigetdeviceproperty, di-rtns_e079700c-c7b8-43ef-992b-68156a693b41.xml, setupapi/SetupDiGetDeviceProperty, setupapi/SetupDiGetDevicePropertyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: SetupAPI.lib
 req.dll: SetupAPI.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetDevicePropertyW function
@@ -65,7 +65,7 @@ The <b>SetupDiGetDeviceProperty</b> function retrieves a device instance propert
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains a device instance for which to retrieve a device instance property.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a device instance for which to retrieve a device instance property.
 
 
 ### -param DeviceInfoData [in]
@@ -247,7 +247,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiGetDeviceProperty</b> is part of the <a href="https://www.bing.com/search?q=unified+device+property+model">unified device property model</a>.
+<b>SetupDiGetDeviceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceProperty</b>.
 

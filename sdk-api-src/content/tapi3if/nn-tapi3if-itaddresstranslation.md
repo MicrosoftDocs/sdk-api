@@ -63,13 +63,13 @@ The
 <a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>.
 
 For additional information, see 
-<a href="https://www.bing.com/search?q=Address+Translation">Address Translation</a> and 
-<a href="https://www.bing.com/search?q=Dialable+Addresses">Dialable Addresses</a>.
+<a href="https://msdn.microsoft.com/library/ms728172(v=VS.85).aspx">Address Translation</a> and 
+<a href="https://msdn.microsoft.com/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -148,15 +148,15 @@ Invokes the control panel's telephony applet.
 
 
 
-<a href="https://www.bing.com/search?q=Address+Translation">Address Translation</a>
+<a href="https://msdn.microsoft.com/library/ms728172(v=VS.85).aspx">Address Translation</a>
 
 
 
-<a href="https://www.bing.com/search?q=Dialable+Addresses">Dialable Addresses</a>
+<a href="https://msdn.microsoft.com/library/ms726017(v=VS.85).aspx">Dialable Addresses</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

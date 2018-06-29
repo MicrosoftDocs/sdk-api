@@ -7,7 +7,7 @@ old-location: netvista\l2_notification_data.htm
 old-project: netvista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: "*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], _L2_NOTIFICATION_DATA, l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://www.bing.com/search?q=WLAN+Universal+Windows+driver+model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="netvista.wifi_universal_driver_model">WLAN Universal Windows driver model</a>.</div><div> </div>The L2_NOTIFICATION_DATA structure is used by the IHV Extensions DLL to send notifications to any
   service or applications that has registered for the notification.
 
 

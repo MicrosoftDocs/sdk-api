@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdeviceids_get__newenum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gj1.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],get__NewEnum method, IFaxDeviceIds.get__NewEnum, IFaxDeviceIds::get__NewEnum, _mfax_ifaxdeviceids_get__newenum, fax._mfax_ifaxdeviceids_get__newenum, faxcomex/IFaxDeviceIds::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxDeviceIds interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxDeviceIds::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a> collection.
+The <b>IFaxDeviceIds::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>IFaxDeviceIds::get__NewEnum</b> method returns a reference to an enumerat
 
 ### -param ppUnk [out, retval]
 
-Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
 
-Receives an indirect pointer to the enumerator object's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
+Receives an indirect pointer to the enumerator object's <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the collection.
 
 
 ## -returns
@@ -91,11 +91,11 @@ In Microsoft Visual Basic, you do not need to use the corresponding <b>_NewEnum<
 
 
 
-<a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba11f07-3796-4910-98f7-541a32519c41">IFaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
  
 
  

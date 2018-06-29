@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PSPropertyBag_ReadPropertyKey function
@@ -61,9 +61,9 @@ Reads the property key of a property in a specified property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://www.bing.com/search?q=IPropertyBag">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://www.bing.com/search?q=IPropertyBag">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -75,7 +75,7 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://www.bing.com/search?q=PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
 
 When this function returns, contains a pointer to a property key value.
 
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://www.bing.com/search?q=PSPropertyBag_WritePropertyKey">PSPropertyBag_WritePropertyKey</a>
+<a href="https://msdn.microsoft.com/library/Ee845075(v=VS.85).aspx">PSPropertyBag_WritePropertyKey</a>
  
 
  

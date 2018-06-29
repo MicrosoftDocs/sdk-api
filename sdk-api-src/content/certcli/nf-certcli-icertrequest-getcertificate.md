@@ -153,7 +153,7 @@ For example, to retrieve a binary certificate with complete certificate chain in
 
 A pointer to the <b>BSTR</b> that contains the certificate, in the specified format.
 
-When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
 
 
 ## -returns

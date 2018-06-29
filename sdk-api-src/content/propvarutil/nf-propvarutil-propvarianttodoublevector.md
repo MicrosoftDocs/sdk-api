@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToDoubleVector function
@@ -153,23 +153,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetDoubleElem">PropVariantGetDoubleElem</a>
+<a href="https://msdn.microsoft.com/library/Bb776520(v=VS.85).aspx">PropVariantGetDoubleElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://msdn.microsoft.com/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToDoubleVectorAlloc">PropVariantToDoubleVectorAlloc</a>
+<a href="https://msdn.microsoft.com/library/Bb776540(v=VS.85).aspx">PropVariantToDoubleVectorAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToDoubleArray">VariantToDoubleArray</a>
+<a href="https://msdn.microsoft.com/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a>
  
 
  

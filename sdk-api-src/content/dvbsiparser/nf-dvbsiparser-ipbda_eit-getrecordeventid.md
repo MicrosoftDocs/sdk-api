@@ -63,7 +63,7 @@ Receives the unique identifier from an event record in an event information tabl
 
 
   Specifies the service record number, indexed from zero.
-  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
+  Call the <a href="https://msdn.microsoft.com/library/Dd694799(v=VS.85).aspx">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 
 

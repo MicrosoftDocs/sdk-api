@@ -62,8 +62,8 @@ The <b>put_NumberOfEntriesCallback</b> method enables the NAT application with U
 ### -param pUnk [in]
 
 Pointer to an object that supports either the 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface or the 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. See the Remarks section for more information.
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface or the 
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. See the Remarks section for more information.
 
 
 ## -returns
@@ -178,10 +178,10 @@ The method failed for unknown reasons.
 
 
 The object referred to by <i>pUnk</i> must either support the 
-<a href="https://msdn.microsoft.com/c64e5ce3-78f6-4f51-8ae1-c871c4716d26">INATNumberOfEntriesCallback</a> interface or the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
+<a href="https://msdn.microsoft.com/c64e5ce3-78f6-4f51-8ae1-c871c4716d26">INATNumberOfEntriesCallback</a> interface or the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. The NAT first queries <i>pUnk</i> for the 
 <b>INATNumberOfEntriesCallback</b> interface. If this interface is not supported, the NAT queries <i>pUnk</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, the <b>NumberOfEntriesCallback</b> method returns E_FAIL.
 
-If only <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
+If only <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> is supported, the NAT invokes the callback by calling <a href="https://msdn.microsoft.com/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This <b>IDispatch</b> method is passed the same parameters as the 
 <a href="https://msdn.microsoft.com/c64e5ce3-78f6-4f51-8ae1-c871c4716d26">INATNumberOfEntriesCallback</a> method, except that the first parameter passed is a string that indicates the reason the callback is invoked.
 
 
@@ -192,7 +192,7 @@ If only <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

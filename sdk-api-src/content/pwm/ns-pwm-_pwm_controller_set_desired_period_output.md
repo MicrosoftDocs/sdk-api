@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure
@@ -71,7 +71,7 @@ The effective output signal period, in picoseconds, of the controller.
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
+<a href="https://msdn.microsoft.com/library/Mt826478(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
  
 
  

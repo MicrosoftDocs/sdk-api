@@ -7,7 +7,7 @@ old-location: devinst\setupdiremovedevice.htm
 old-project: devinst
 ms.assetid: 1070f6cc-e5de-4f4e-8325-b412751e9fb3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiRemoveDevice, SetupDiRemoveDevice function [Device and Driver Installation], devinst.setupdiremovedevice, di-rtns_ab1e54f4-687d-4db2-8799-c33c1e0e3d25.xml, setupapi/SetupDiRemoveDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiRemoveDevice function
@@ -61,7 +61,7 @@ The <b>SetupDiRemoveDevice</b> function is the default handler for the <a href="
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for the local system that contains a device information element that represents the device to remove.
+A handle to a <a href="devinst.device_information_sets">device information set</a> for the local system that contains a device information element that represents the device to remove.
 
 
 ### -param DeviceInfoData [in, out]
@@ -88,7 +88,7 @@ Device removal is either global to all hardware profiles or specific to one hard
 
 The caller of <b>SetupDiRemoveDevice</b> must be a member of the Administrators group.
 
-<div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiRemoveDevice </b>and only in those situations where the class installer must perform device removal operations after <b>SetupDiRemoveDevice </b>completes the default device removal operation. In such situations, the class installer must directly call <b>SetupDiRemoveDevice</b> when the installer processes a DIF_REMOVE request. For more information about calling the default handler, see <a href="https://www.bing.com/search?q=Calling+Default+DIF+Code+Handlers">Calling Default DIF Code Handlers</a>. </div>
+<div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiRemoveDevice </b>and only in those situations where the class installer must perform device removal operations after <b>SetupDiRemoveDevice </b>completes the default device removal operation. In such situations, the class installer must directly call <b>SetupDiRemoveDevice</b> when the installer processes a DIF_REMOVE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>. </div>
 <div> </div>
 
 

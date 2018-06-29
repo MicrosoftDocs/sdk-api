@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRichEditOle::GetClientSite
@@ -82,7 +82,7 @@ Returns <b>S_OK</b> on success, or a failure code otherwise. <b>E_OUTOFMEMORY</b
 
 
 
-<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
  
 
  

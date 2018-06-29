@@ -7,7 +7,7 @@ old-location: com\iexternalconnection_addconnection.htm
 old-project: com
 ms.assetid: 7439cb16-1da3-4fab-a16d-519f9ce1053a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IExternalConnection::AddConnection

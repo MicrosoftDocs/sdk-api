@@ -7,7 +7,7 @@ old-location: shell\IKnownFolder_GetShellItem.htm
 old-project: shell
 ms.assetid: a42c0a20-9c72-48d3-8432-15b73ff211d2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetShellItem method, IKnownFolder.GetShellItem, IKnownFolder::GetShellItem, _shell_IKnownFolder_GetShellItem, shell.IKnownFolder_GetShellItem, shobjidl_core/IKnownFolder::GetShellItem
 ms.prod: windows
 ms.technology: windows-sdk

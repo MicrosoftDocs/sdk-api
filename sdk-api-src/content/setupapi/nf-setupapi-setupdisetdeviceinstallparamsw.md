@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceinstallparams.htm
 old-project: devinst
 ms.assetid: 20384538-e124-41f7-94a6-c0fb9f5fe6a0
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiSetDeviceInstallParams, SetupDiSetDeviceInstallParams function [Device and Driver Installation], SetupDiSetDeviceInstallParamsA, SetupDiSetDeviceInstallParamsW, devinst.setupdisetdeviceinstallparams, di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml, setupapi/SetupDiSetDeviceInstallParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiSetDeviceInstallParamsW function
@@ -62,7 +62,7 @@ The <b>SetupDiSetDeviceInstallParams</b> function sets device installation param
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> for which to set device installation parameters.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to set device installation parameters.
 
 
 ### -param DeviceInfoData [in, optional]

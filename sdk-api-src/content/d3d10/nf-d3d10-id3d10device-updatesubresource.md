@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The CPU copies data from memory to a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> created in non-mappable memory. See remarks.
+The CPU copies data from memory to a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a> created in non-mappable memory. See remarks.
 
 
 ## -parameters
@@ -61,23 +61,23 @@ The CPU copies data from memory to a <a href="https://msdn.microsoft.com/c5238a2
 
 ### -param pDstResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>*</b>
 
-A pointer to the destination resource (see <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>).
+A pointer to the destination resource (see <a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>).
 
 
 ### -param DstSubresource [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A zero-based index, that identifies the destination subresource. See <a href="https://msdn.microsoft.com/48079797-b5c8-487b-a343-a5623b780350">D3D10CalcSubresource</a> for more details.
+A zero-based index, that identifies the destination subresource. See <a href="https://msdn.microsoft.com/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> for more details.
 
 
 ### -param pDstBox [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/90289ea8-7fa0-47b0-ad3f-43bde1718da1">D3D10_BOX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/library/Bb204895(v=VS.85).aspx">D3D10_BOX</a>*</b>
 
-A box that defines the portion of the destination subresource to copy the resource data into. Coordinates are in bytes for buffers and in texels for textures. If <b>NULL</b>, the data is written to the destination subresource with no offset. The dimensions of the source must fit the destination (see <a href="https://msdn.microsoft.com/90289ea8-7fa0-47b0-ad3f-43bde1718da1">D3D10_BOX</a>).
+A box that defines the portion of the destination subresource to copy the resource data into. Coordinates are in bytes for buffers and in texels for textures. If <b>NULL</b>, the data is written to the destination subresource with no offset. The dimensions of the source must fit the destination (see <a href="https://msdn.microsoft.com/library/Bb204895(v=VS.85).aspx">D3D10_BOX</a>).
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>UpdateSubresource</b> doesn't perform an update operation.
 
@@ -121,9 +121,9 @@ For a shader-constant buffer; set pDstBox to <b>NULL</b>. It is not possible to 
 A resource cannot be used as a destination if:
 
 <ul>
-<li>the resource is created with <a href="https://www.bing.com/search?q=immutable">immutable</a> or <a href="https://www.bing.com/search?q=dynamic">dynamic</a> usage.</li>
-<li>the resource is created as a <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">depth-stencil resource</a>.</li>
-<li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>).</li>
+<li>the resource is created with <a href="https://msdn.microsoft.com/library/Bb172499(v=VS.85).aspx">immutable</a> or <a href="https://msdn.microsoft.com/library/Bb172499(v=VS.85).aspx">dynamic</a> usage.</li>
+<li>the resource is created as a <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">depth-stencil resource</a>.</li>
+<li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a>).</li>
 </ul>
 When UpdateSubresource returns, the application is free to change or even free the data pointed to by pSrcData because the method has already copied/snapped away the original contents.
 
@@ -219,11 +219,11 @@ Direct3D 10.1 enables depth-stencil resources to be used as either a source or d
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>
+<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
  
 
  

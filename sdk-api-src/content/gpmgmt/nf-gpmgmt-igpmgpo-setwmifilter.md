@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_setwmifilter.htm
 old-project: GPMC
 ms.assetid: bd086bae-9436-4612-95d6-56fe431d2c51
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMGPO class [GPMC],SetWMIFilter method, IGPMGPO interface [GPMC],SetWMIFilter method, IGPMGPO.SetWMIFilter, IGPMGPO::SetWMIFilter, SetWMIFilter, SetWMIFilter method [GPMC], SetWMIFilter method [GPMC],GPMGPO class, SetWMIFilter method [GPMC],IGPMGPO interface, _win32_igpmgpo_setwmifilter, gpmc.igpmgpo_setwmifilter, gpmgmt/IGPMGPO::SetWMIFilter
 ms.prod: windows
 ms.technology: windows-sdk

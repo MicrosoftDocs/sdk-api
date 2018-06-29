@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutgoingQueue.GetJob
 title: IFaxOutgoingQueue::GetJob
 author: windows-sdk-content
-description: The IFaxOutgoingQueue::GetJob method returns an outbound fax job in the job queue according to its ID.
-old-location: fax\_mfax_faxoutgoingqueue_getjob_cpp.htm
+description: The GetJob method returns an outbound fax job in the job queue according to its ID.
+old-location: fax\_mfax_faxoutgoingqueue_getjob.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_3w6a_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_3w6a.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],GetJob method, IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob_cpp, fax._mfax_faxoutgoingqueue_getjob_cpp, faxcomex/IFaxOutgoingQueue::GetJob
+ms.date: 06/12/2018
+ms.keywords: FaxOutgoingQueue object [Fax Service],GetJob method, FaxOutgoingQueue.GetJob, GetJob, GetJob method [Fax Service], GetJob method [Fax Service],FaxOutgoingQueue object, IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob, fax._mfax_faxoutgoingqueue_getjob
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutgoingQueue.GetJob
  - IFaxOutgoingQueue.GetJob
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingQueue::GetJob</b> method returns an outbound fax job in the job queue according to its ID.
+The <b>GetJob</b> method returns an outbound fax job in the job queue according to its ID.
 
 
 ## -parameters
@@ -61,25 +62,25 @@ The <b>IFaxOutgoingQueue::GetJob</b> method returns an outbound fax job in the j
 
 ### -param bstrJobId [in]
 
-Type: <b>BSTR</b>
+Type: <b>String</b>
 
 Specifies the job ID. 
 
 
-### -param pFaxOutgoingJob [out, retval]
+### -param pFaxOutgoingJob
 
-Type: <b><a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>**</b>
 
-The address of a pointer that receives a <a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a> object. 
+
+
 
 
 ## -returns
 
 
 
-Type: <b>HRESULT</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>**</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+A <a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object.
 
 
 
@@ -88,9 +89,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> or <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_JOBS</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> or <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a> access right.
 
-With the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> access right, users can use this method only for their own faxes. With the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_JOBS</a> access right, users can use this method for all faxes on the server.
+With the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> access right, users can use this method only for their own faxes. With the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a> access right, users can use this method for all faxes on the server.
 
 
 
@@ -100,11 +101,15 @@ With the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a2553
 
 
 
-<a href="https://msdn.microsoft.com/bad77c9e-2ae5-41a6-ace3-b4b92eb66cc2">FaxOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/library/ms687528(v=VS.85).aspx">FaxOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a6fede7-3fb8-495a-a8b1-81b53a701a16">IFaxOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/library/ms687529(v=VS.85).aspx">IFaxOutgoingQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms693393(v=VS.85).aspx">Managing Outgoing Jobs</a>
  
 
  

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CStdAsyncStubBuffer_Connect function
@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[CStdAsyncStubBuffer_Connect is not supported and may be altered or unavailable in the future.]
 
-Implements the  <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
+Implements the  <a href="_com_irpcstubbuffer_connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ Implements the  <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-co
 
 ### -param pthis [in]
 
-Pointer to  the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the server object. 
+Pointer to the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
 
 
 ## -returns

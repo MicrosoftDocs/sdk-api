@@ -7,7 +7,7 @@ old-location: com\cocancelcall.htm
 old-project: com
 ms.assetid: 1707261c-2d8d-4f35-865d-61c8870c0624
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CoCancelCall, CoCancelCall function [COM], _com_CoCancelCall, com.cocancelcall, combaseapi/CoCancelCall
 ms.prod: windows
 ms.technology: windows-sdk

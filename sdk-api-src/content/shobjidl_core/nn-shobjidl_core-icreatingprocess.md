@@ -7,7 +7,7 @@ old-location: shell\icreatingprocess.htm
 old-project: shell
 ms.assetid: 68B89E8C-2868-4F33-87A5-66A2FEFC0441
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: ICreatingProcess, ICreatingProcess interface [Windows Shell], ICreatingProcess interface [Windows Shell],described, shell.icreatingprocess, shobjidl_core/ICreatingProcess
 ms.prod: windows
 ms.technology: windows-sdk

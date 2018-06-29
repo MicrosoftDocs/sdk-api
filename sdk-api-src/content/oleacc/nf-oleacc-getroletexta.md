@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # GetRoleTextA function

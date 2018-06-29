@@ -73,11 +73,11 @@ Do not call this macro unless the call to
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_IO_PENDING</b>, indicating that the overlapped I/O has started.
 
 To cancel all pending asynchronous I/O operations, use the 
-<a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a> function. The <b>CancelIo</b> function only cancels operations issued by the calling thread for the specified file handle. I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABORTED</b>.
+<a href="https://msdn.microsoft.com/library/Aa363791(v=VS.85).aspx">CancelIo</a> function. The <b>CancelIo</b> function only cancels operations issued by the calling thread for the specified file handle. I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABORTED</b>.
 
 To get more details about a completed I/O operation, call the 
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or 
-<a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
+<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function.
 
 
 
@@ -87,7 +87,7 @@ To get more details about a completed I/O operation, call the
 
 
 
-<a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a>
+<a href="https://msdn.microsoft.com/library/Aa363791(v=VS.85).aspx">CancelIo</a>
 
 
 
@@ -99,7 +99,7 @@ To get more details about a completed I/O operation, call the
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
@@ -111,7 +111,7 @@ To get more details about a completed I/O operation, call the
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToUInt32WithDefault function
@@ -90,12 +90,12 @@ Returns extracted <b>ULONG</b> value, or default.
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a <b>ULONG</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>ULONG</b> value for <b>UInt32</b> properties.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_UI4</b>, this helper function extracts the <b>ULONG</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>ULONG</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="https://www.bing.com/search?q=PropVariantToUInt32WithDefault">PropVariantToUInt32WithDefault</a> will return the default provided by <i>ulDefault</i>. See <a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_UI4</b>, this helper function extracts the <b>ULONG</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>ULONG</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="https://msdn.microsoft.com/library/Bb776572(v=VS.85).aspx">PropVariantToUInt32WithDefault</a> will return the default provided by <i>ulDefault</i>. See <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToUInt32WithDefault">PropVariantToUInt32WithDefault</a> to access a <b>ULONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776572(v=VS.85).aspx">PropVariantToUInt32WithDefault</a> to access a <b>ULONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -126,19 +126,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>
+<a href="https://msdn.microsoft.com/library/Bb762311(v=VS.85).aspx">InitPropVariantFromUInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt32">PropVariantToUInt32</a>
+<a href="https://msdn.microsoft.com/library/Bb776569(v=VS.85).aspx">PropVariantToUInt32</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToUInt32">VariantToUInt32</a>
+<a href="https://msdn.microsoft.com/library/Bb776627(v=VS.85).aspx">VariantToUInt32</a>
  
 
  

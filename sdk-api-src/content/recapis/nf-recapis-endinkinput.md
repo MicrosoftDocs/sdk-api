@@ -7,7 +7,7 @@ old-location: tablet\endinkinput.htm
 old-project: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # EndInkInput function

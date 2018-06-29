@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToFileTime function
@@ -117,7 +117,7 @@ The source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=PropVariantToFileTime">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a> to access a FILETIME value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -156,19 +156,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
+<a href="https://msdn.microsoft.com/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
+<a href="https://msdn.microsoft.com/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToFileTime">VariantToFileTime</a>
+<a href="https://msdn.microsoft.com/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
  
 
  

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRDPSRAPIAttendeeManager interface
@@ -70,7 +70,7 @@ The lifetime of the objects in this collection is controlled by the network laye
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

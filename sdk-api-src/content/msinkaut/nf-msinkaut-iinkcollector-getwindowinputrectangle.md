@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_getwindowinputrectangle.htm
 old-project: tablet
 ms.assetid: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetWindowInputRectangle method, IInkCollector.GetWindowInputRectangle, IInkCollector::GetWindowInputRectangle, msinkaut/IInkCollector::GetWindowInputRectangle, tablet.inkcollector_getwindowinputrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,7 +147,7 @@ If you call <b>GetWindowInputRectangle</b> before you call the <a href="https://
 
 
 
-<a href="https://www.bing.com/search?q=IInkCollector">IInkCollector</a>
+<a href="tablet.iinkcollector">IInkCollector</a>
 
 
 

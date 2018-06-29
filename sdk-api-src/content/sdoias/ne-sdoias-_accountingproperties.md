@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _ACCOUNTINGPROPERTIES enumeration
@@ -151,7 +151,7 @@ Not used.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/335e8f55-c313-423e-a301-8ef6a38c5b05">Automation Types</a>
+<a href="https://msdn.microsoft.com/library/ms221134(v=VS.85).aspx">Automation Types</a>
 
 
 

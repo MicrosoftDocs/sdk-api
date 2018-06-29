@@ -116,7 +116,7 @@ The call is not implemented. This error is returned if <b>ProviderInfoAudit</b> 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -244,7 +244,7 @@ The TDI feature is deprecated and will be removed in future versions of Microsof
     Windows. Depending on how you use TDI, use either the Winsock Kernel (WSK) or Windows Filtering Platform
     (WFP). For more information about WFP and WSK, see 
     
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2">Windows Filtering
+<a href="netvista.windows_filtering_platform_callout_drivers2">Windows Filtering
     Platform</a> and 
     
 <a href="https://msdn.microsoft.com/90264a3d-f002-4205-8e15-9060644117a3">Winsock Kernel</a>. For a Windows Core Networking

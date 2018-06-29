@@ -7,7 +7,7 @@ old-location: com\iadvisesinkex_onviewstatuschange.htm
 old-project: com
 ms.assetid: 9d5129aa-341c-4c69-8c0c-b7c3e62a57c1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IAdviseSinkEx interface [COM],OnViewStatusChange method, IAdviseSinkEx.OnViewStatusChange, IAdviseSinkEx::OnViewStatusChange, OnViewStatusChange, OnViewStatusChange method [COM], OnViewStatusChange method [COM],IAdviseSinkEx interface, _ole_iadvisesinkex_onviewstatuschange, com.iadvisesinkex_onviewstatuschange, ocidl/IAdviseSinkEx::OnViewStatusChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IAdviseSinkEx::OnViewStatusChange

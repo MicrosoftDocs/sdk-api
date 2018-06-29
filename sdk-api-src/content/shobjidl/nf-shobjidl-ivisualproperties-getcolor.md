@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_GetColor.htm
 old-project: shell
 ms.assetid: 538ac798-7722-434f-88bd-a7655d4c470c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetColor, GetColor method [Windows Shell], GetColor method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetColor method, IVisualProperties.GetColor, IVisualProperties::GetColor, _shell_IVisualProperties_GetColor, shell.IVisualProperties_GetColor, shobjidl/IVisualProperties::GetColor
 ms.prod: windows
 ms.technology: windows-sdk

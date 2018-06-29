@@ -7,7 +7,7 @@ old-location: devinst\cm_register_notification.htm
 old-project: devinst
 ms.assetid: 15847F9C-9F2A-453F-9EF8-0AF63CFF93C9
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Register_Notification, CM_Register_Notification function [Device and Driver Installation], cfgmgr32/CM_Register_Notification, devinst.cm_register_notification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the P
 #### Examples
 
 For an example, see 
-     <a href="https://www.bing.com/search?q=Registering+for+Notification+of+Device+Interface+Arrival+and+Device+Removal">Registering for Notification of Device Interface Arrival and Device Removal</a>.
+     <a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a>.
 
 <div class="code"></div>
 
@@ -176,7 +176,7 @@ For an example, see
 
 
 
-<a href="https://www.bing.com/search?q=Registering+for+Notification+of+Device+Interface+Arrival+and+Device+Removal">Registering for Notification of Device Interface Arrival and Device Removal</a>
+<a href="devinst.registering_for_notification_of_device_interface_arrival_and_device_removal">Registering for Notification of Device Interface Arrival and Device Removal</a>
 
 
 

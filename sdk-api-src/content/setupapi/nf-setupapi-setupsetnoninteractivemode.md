@@ -7,7 +7,7 @@ old-location: devinst\setupsetnoninteractivemode.htm
 old-project: devinst
 ms.assetid: 5858547d-cd0e-4067-a94b-fff58b4f1334
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupSetNonInteractiveMode, SetupSetNonInteractiveMode function [Device and Driver Installation], devinst.setupsetnoninteractivemode, setup-ref_6afe961a-ba91-4ab8-b296-39308b6413c7.xml, setupapi/SetupSetNonInteractiveMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupSetNonInteractiveMode function
@@ -77,7 +77,7 @@ The Boolean value of the non-interactive flag. If <i>NonInteractive</i> is set t
 
 
 
-Installation applications and <a href="https://www.bing.com/search?q=co-installers">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
+Installation applications and <a href="devinst.writing_a_co_installer">co-installers</a> can use this function to control whether SetupAPI can display interactive user interface elements, such as dialog boxes, in the caller's context. 
 
 An installation application or an installer can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552207">SetupGetNonInteractiveMode</a> to retrieve the current value of the non-interactive flag. 
 

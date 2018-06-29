@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IUrlAccessor::GetCLSID
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-        Gets the <a href="https://docs.microsoft.com/windows/desktop//com/clsid-key-hklm">CLSID</a> for the document type of the URL item being processed.
+        Gets the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
         
 
 
@@ -66,7 +66,7 @@ req.product: Rights Management Services client 1.0 or later
 Type: <b>CLSID*</b>
 
 
-                    Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop//com/clsid-key-hklm">CLSID</a> for the document type of the URL item being processed. 
+                    Receives a pointer to the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed. 
                 
 
 

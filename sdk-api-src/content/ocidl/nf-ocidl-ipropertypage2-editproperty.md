@@ -7,7 +7,7 @@ old-location: com\ipropertypage2_editproperty.htm
 old-project: com
 ms.assetid: a41d2d50-6484-43d0-a41c-1cfa3bfdbe8e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: EditProperty, EditProperty method [COM], EditProperty method [COM],IPropertyPage2 interface, IPropertyPage2 interface [COM],EditProperty method, IPropertyPage2.EditProperty, IPropertyPage2::EditProperty, _ctrl_ipropertypage2_editproperty, com.ipropertypage2_editproperty, ocidl/IPropertyPage2::EditProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyPage2::EditProperty

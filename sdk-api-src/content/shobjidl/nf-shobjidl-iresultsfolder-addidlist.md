@@ -7,7 +7,7 @@ old-location: shell\IResultsFolder_AddIDList.htm
 old-project: shell
 ms.assetid: 0514fe4d-87d3-4665-a35b-9f9788fc169d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: AddIDList, AddIDList method [Windows Shell], AddIDList method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddIDList method, IResultsFolder.AddIDList, IResultsFolder::AddIDList, _shell_IResultsFolder_AddIDList, shell.IResultsFolder_AddIDList, shobjidl/IResultsFolder::AddIDList
 ms.prod: windows
 ms.technology: windows-sdk

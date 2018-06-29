@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://docs.microsoft.com/windows/desktop//wmformat/wmformat-glossary">marker</a>.
+The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">marker</a>.
 
 
 

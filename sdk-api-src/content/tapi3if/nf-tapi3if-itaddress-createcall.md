@@ -157,8 +157,8 @@ The <i>ppCall</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 When the address type is LINEADDRESSTYPE_SDP, the application should call the 
 <a href="https://msdn.microsoft.com/a3f849ac-bda9-4937-bf3b-bce8df20cbf0">ITSDP::get_IsValid</a> method on <i>pDestAddress</i> to verify that the SDP information contained is properly constructed according to RFC 2327.

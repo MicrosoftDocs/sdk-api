@@ -1,0 +1,98 @@
+---
+UID: NF:winuser.GET_DEVICE_LPARAM
+title: GET_DEVICE_LPARAM macro
+author: windows-sdk-content
+description: Retrieves the input device type from the specified LPARAM value.
+old-location: inputdev\get_device_lparam.htm
+old-project: inputdev
+ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_device_lparam.htm
+ms.author: windowssdkdev
+ms.date: 02/15/2018
+ms.keywords: GET_DEVICE_LPARAM, GET_DEVICE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_DEVICE_LPARAM, _win32_get_device_lparam_cpp, inputdev.get_device_lparam, winui._win32_get_device_lparam, winuser/GET_DEVICE_LPARAM
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: macro
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - GET_DEVICE_LPARAM
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# GET_DEVICE_LPARAM macro
+
+
+## -description
+
+
+Retrieves the input device type from the specified 
+			<b>LPARAM</b> value.
+
+
+## -parameters
+
+
+
+
+### -param lParam
+
+The value to be converted. 
+
+
+## -remarks
+
+
+
+This macro is identical to the <a href="https://msdn.microsoft.com/library/ms646252(v=VS.85).aspx">GET_MOUSEORKEY_LPARAM</a> macro.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Conceptual</b>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms646252(v=VS.85).aspx">GET_MOUSEORKEY_LPARAM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+
+
+
+<b>Reference</b>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: com\ifont_put_underline.htm
 old-project: com
 ms.assetid: c763c050-cf69-4c9d-83a9-66ccc1d4376c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IFont interface [COM],put_Underline method, IFont.put_Underline, IFont::put_Underline, _ctrl_ifont_put_underline, com.ifont_put_underline, ocidl/IFont::put_Underline, put_Underline, put_Underline method [COM], put_Underline method [COM],IFont interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IFont::put_Underline

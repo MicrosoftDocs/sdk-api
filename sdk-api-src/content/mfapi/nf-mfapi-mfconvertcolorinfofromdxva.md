@@ -95,7 +95,7 @@ This function sets the following fields in the <a href="https://msdn.microsoft.c
 <li><b>videoInfo.MFVideoTransferMatrix</b></li>
 <li><b>videoInfo.SourceChromaSubsampling</b></li>
 </ul>
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://docs.microsoft.com/windows/desktop//medfound/media-foundation-headers-and-libraries">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

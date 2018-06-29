@@ -74,7 +74,7 @@ The <b>capCreateCaptureWindow</b> function creates a capture window.
 ### -param dwStyle
 
 
-            Window styles used for the capture window. Window styles are described with the <a href="https://www.bing.com/search?q=CreateWindowEx">CreateWindowEx</a> function.
+            Window styles used for the capture window. Window styles are described with the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
           
 
 

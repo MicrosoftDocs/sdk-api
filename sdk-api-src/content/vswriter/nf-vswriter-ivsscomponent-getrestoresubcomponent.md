@@ -162,7 +162,7 @@ The specified item was not found.
 
 
 
-The caller should free the memory held by the <i>pbstrLogicalPath</i> and <i>pbstrComponentName</i> parameters by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrLogicalPath</i> and <i>pbstrComponentName</i> parameters by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 

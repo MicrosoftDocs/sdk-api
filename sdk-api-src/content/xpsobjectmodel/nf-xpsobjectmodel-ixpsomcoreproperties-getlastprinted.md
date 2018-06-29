@@ -121,7 +121,7 @@ The <b>lastPrinted</b> property contains the date and time the package was last 
 
 
 
-<a href="https://www.bing.com/search?q=SYSTEMTIME">SYSTEMTIME</a>
+<a href="https://msdn.microsoft.com/library/ms724950(v=VS.85).aspx">SYSTEMTIME</a>
 
 
 

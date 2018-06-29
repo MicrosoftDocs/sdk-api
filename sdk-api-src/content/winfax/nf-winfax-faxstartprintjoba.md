@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxstartprintjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3dwi.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/12/2018
 ms.keywords: FaxStartPrintJob, FaxStartPrintJob function [Fax Service], FaxStartPrintJobA, FaxStartPrintJobW, _mfax_faxstartprintjob, fax._mfax_faxstartprintjob, winfax/FaxStartPrintJob, winfax/FaxStartPrintJobA, winfax/FaxStartPrintJobW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,9 +81,9 @@ Pointer to a constant null-terminated character string that contains the name of
 
 ### -param PrintInfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d0123f3d-4593-409e-a810-0fc4c699de81">FAX_PRINT_INFO</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/library/ms691942(v=VS.85).aspx">FAX_PRINT_INFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/d0123f3d-4593-409e-a810-0fc4c699de81">FAX_PRINT_INFO</a> structure that contains the information necessary for the fax server to print the fax transmission. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and delivery report information. For more information, see the following Remarks section.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms691942(v=VS.85).aspx">FAX_PRINT_INFO</a> structure that contains the information necessary for the fax server to print the fax transmission. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and delivery report information. For more information, see the following Remarks section.
 
 
 ### -param FaxJobId [out]
@@ -97,7 +97,7 @@ Pointer to a <b>DWORD</b> variable to receive the print spooler's unique ID for 
 
 Type: <b>PFAX_CONTEXT_INFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/6eef1d9e-0107-4882-884b-8ba78c4e73c4">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://msdn.microsoft.com/a48d4eb2-2b49-4379-a281-e5465de1af94">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://www.bing.com/search?q=Device+Contexts">Device Contexts</a> and the <a href="https://www.bing.com/search?q=Printing+and+Print+Spooler+Reference">Printing and Print Spooler Reference</a>.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://msdn.microsoft.com/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://msdn.microsoft.com/library/Dd183553(v=VS.85).aspx">Device Contexts</a> and the <a href="_win32_Printing_and_Print_Spooler_Reference">Printing and Print Spooler Reference</a>.
 
 
 ## -returns
@@ -133,7 +133,7 @@ One or both of the <i>PrintInfo</i> or <i>FaxContextInfo</i> parameters are <b>N
 </dl>
 </td>
 <td width="60%">
-The <b>RecipientNumber</b> member of the <a href="https://msdn.microsoft.com/d0123f3d-4593-409e-a810-0fc4c699de81">FAX_PRINT_INFO</a> structure is <b>NULL</b>; or the <b>OutputFileName</b> member is <b>NULL</b> and the <b>RecipientNumber</b> member is not specified.
+The <b>RecipientNumber</b> member of the <a href="https://msdn.microsoft.com/library/ms691942(v=VS.85).aspx">FAX_PRINT_INFO</a> structure is <b>NULL</b>; or the <b>OutputFileName</b> member is <b>NULL</b> and the <b>RecipientNumber</b> member is not specified.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ An error occurred during memory allocation.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a> was not called first, hence there was no <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> call.
+<a href="https://msdn.microsoft.com/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> was not called first, hence there was no <a href="https://msdn.microsoft.com/library/Dd145114(v=VS.85).aspx">StartDoc</a> call.
 
 </td>
 </tr>
@@ -181,15 +181,15 @@ An error occurred during memory allocation.
 
 
 
-The function returns a handle to a device context. The handle is used by the <a href="https://msdn.microsoft.com/a48d4eb2-2b49-4379-a281-e5465de1af94">FaxPrintCoverPage</a> function, and by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a> and other Win32 Windows Graphics Device Interface (GDI) functions.
+The function returns a handle to a device context. The handle is used by the <a href="https://msdn.microsoft.com/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function, and by the <a href="https://msdn.microsoft.com/library/Dd162456(v=VS.85).aspx">AbortDoc</a>, <a href="https://msdn.microsoft.com/library/Dd162594(v=VS.85).aspx">EndDoc</a>, <a href="https://msdn.microsoft.com/library/Dd183533(v=VS.85).aspx">DeleteDC</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a>, <a href="https://msdn.microsoft.com/library/Dd162596(v=VS.85).aspx">EndPage</a> and other Win32 Windows Graphics Device Interface (GDI) functions.
 
-<div class="alert"><b>Note</b>  The application must also call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a> function to complete the print job, and call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/d6e0afbd-6e64-487c-97fc-1e5cd5092d14">Printing a Fax to a Device Context</a>.</div>
+<div class="alert"><b>Note</b>  The application must also call the <a href="https://msdn.microsoft.com/library/Dd162456(v=VS.85).aspx">AbortDoc</a> function or the <a href="https://msdn.microsoft.com/library/Dd162594(v=VS.85).aspx">EndDoc</a> function to complete the print job, and call the <a href="https://msdn.microsoft.com/library/Dd183533(v=VS.85).aspx">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/library/ms690908(v=VS.85).aspx">Printing a Fax to a Device Context</a>.</div>
 <div> </div>
-A fax client application should not call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure specific to the fax printer of interest.
+A fax client application should not call the <a href="https://msdn.microsoft.com/library/Dd183490(v=VS.85).aspx">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="https://msdn.microsoft.com/library/Dd183565(v=VS.85).aspx">DEVMODE</a> structure specific to the fax printer of interest.
 
-The change prevents the display of the Fax Send Wizard that collects information from the user. The fax server uses the data in the <a href="https://msdn.microsoft.com/d0123f3d-4593-409e-a810-0fc4c699de81">FAX_PRINT_INFO</a> structure pointed to by the <i>PrintInfo</i> parameter to print the fax transmission. This structure contains data the Fax Send Wizard would have collected, had the wizard been displayed.
+The change prevents the display of the Fax Send Wizard that collects information from the user. The fax server uses the data in the <a href="https://msdn.microsoft.com/library/ms691942(v=VS.85).aspx">FAX_PRINT_INFO</a> structure pointed to by the <i>PrintInfo</i> parameter to print the fax transmission. This structure contains data the Fax Send Wizard would have collected, had the wizard been displayed.
 
-A fax client application must call the <b>FaxStartPrintJob</b> function before calling the <a href="https://msdn.microsoft.com/a48d4eb2-2b49-4379-a281-e5465de1af94">FaxPrintCoverPage</a> function to print a cover page with a fax job.
+A fax client application must call the <b>FaxStartPrintJob</b> function before calling the <a href="https://msdn.microsoft.com/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a> function to print a cover page with a fax job.
 
 
 
@@ -199,39 +199,39 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>
+<a href="https://msdn.microsoft.com/library/Dd162456(v=VS.85).aspx">AbortDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
+<a href="https://msdn.microsoft.com/library/Dd183565(v=VS.85).aspx">DEVMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
+<a href="https://msdn.microsoft.com/library/Dd183533(v=VS.85).aspx">DeleteDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>
+<a href="https://msdn.microsoft.com/library/Dd162594(v=VS.85).aspx">EndDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eef1d9e-0107-4882-884b-8ba78c4e73c4">FAX_CONTEXT_INFO</a>
+<a href="https://msdn.microsoft.com/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0123f3d-4593-409e-a810-0fc4c699de81">FAX_PRINT_INFO</a>
+<a href="https://msdn.microsoft.com/library/ms691942(v=VS.85).aspx">FAX_PRINT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/a48d4eb2-2b49-4379-a281-e5465de1af94">FaxPrintCoverPage</a>
+<a href="https://msdn.microsoft.com/library/ms692378(v=VS.85).aspx">FaxPrintCoverPage</a>
  
 
  

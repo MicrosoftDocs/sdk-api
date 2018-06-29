@@ -124,7 +124,7 @@ One (or more) required parameters is <b>NULL</b>, or no block of type <i>dwInfoT
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The call failed. Use
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 

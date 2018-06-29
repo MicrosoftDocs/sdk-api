@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PeerCollabGetEventData function
@@ -61,7 +61,7 @@ The <b>PeerCollabGetEventData</b> function obtains the data associated with a pe
 
 ### -param hPeerEvent [in]
 
-The peer collaboration network event handle obtained by a call to <a href="https://msdn.microsoft.com/db7daf08-8d79-493f-8df5-172dae498df0">PeerCollabRegisterEvent</a>.
+The peer collaboration network event handle obtained by a call to <a href="https://msdn.microsoft.com/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
 
 
 ### -param ppEventData [out]

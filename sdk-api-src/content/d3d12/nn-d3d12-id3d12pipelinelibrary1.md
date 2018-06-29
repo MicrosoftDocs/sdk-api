@@ -89,7 +89,7 @@ Retrieves the requested PSO from the library. The pipeline stream description is
 
 
 
-<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary">ID3D12PipelineLibrary</a>
+<a href="https://msdn.microsoft.com/library/Mt709145(v=VS.85).aspx">ID3D12PipelineLibrary</a>
  
 
  

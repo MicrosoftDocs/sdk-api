@@ -169,7 +169,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 

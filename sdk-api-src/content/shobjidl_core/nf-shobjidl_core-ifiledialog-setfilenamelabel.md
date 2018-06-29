@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetFileNameLabel.htm
 old-project: shell
 ms.assetid: 4dc456c4-e06a-4bbf-b7c3-a6f93b46a044
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileNameLabel method, IFileDialog.SetFileNameLabel, IFileDialog::SetFileNameLabel, SetFileNameLabel, SetFileNameLabel method [Windows Shell], SetFileNameLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileNameLabel, shell_IFileDialog_SetFileNameLabel, shobjidl_core/IFileDialog::SetFileNameLabel
 ms.prod: windows
 ms.technology: windows-sdk

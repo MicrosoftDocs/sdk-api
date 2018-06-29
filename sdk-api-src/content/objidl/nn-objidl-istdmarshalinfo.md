@@ -7,7 +7,7 @@ old-location: com\istdmarshalinfo.htm
 old-project: com
 ms.assetid: f034436f-e24e-4b99-9fb9-b0400d3ebb72
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IStdMarshalInfo, IStdMarshalInfo interface [COM], IStdMarshalInfo interface [COM],described, _com_istdmarshalinfo, com.istdmarshalinfo, objidlbase/IStdMarshalInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IStdMarshalInfo interface
@@ -56,7 +56,7 @@ Retrieves the CLSID identifying the handler to be used in the destination proces
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStdMarshalInfo</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IStdMarshalInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStdMarshalInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IStdMarshalInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

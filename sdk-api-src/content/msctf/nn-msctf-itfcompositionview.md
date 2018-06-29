@@ -100,7 +100,7 @@ Obtains a range object that contains the text covered by the composition.
 
 
 
-<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

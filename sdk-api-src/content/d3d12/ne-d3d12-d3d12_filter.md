@@ -150,92 +150,92 @@ Use anisotropic interpolation for minification, magnification, and mip-level sam
 
 ### -field D3D12_FILTER_MINIMUM_MIN_MAG_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_MAG_POINT_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_POINT_MAG_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_POINT_MAG_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_POINT_MAG_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_LINEAR_MAG_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_LINEAR_MAG_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_LINEAR_MAG_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_MAG_LINEAR_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_MIN_MAG_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_MIP_LINEAR</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MINIMUM_ANISOTROPIC
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_ANISOTROPIC</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_ANISOTROPIC</a> and instead of filtering them return the minimum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the minimum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_MAG_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_MAG_POINT_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_POINT_MAG_LINEAR_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_POINT_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_POINT_MAG_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_POINT_MAG_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_POINT_MAG_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_LINEAR_MAG_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_LINEAR_MAG_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_LINEAR_MAG_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_LINEAR_MAG_POINT_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_LINEAR_MAG_POINT_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_MAG_LINEAR_MIP_POINT
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_LINEAR_MIP_POINT</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_MIN_MAG_MIP_LINEAR
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_MIN_MAG_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_MIN_MAG_MIP_LINEAR</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ### -field D3D12_FILTER_MAXIMUM_ANISOTROPIC
 
-Fetch the same set of texels as <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_filter">D3D12_FILTER_ANISOTROPIC</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
+Fetch the same set of texels as <a href="https://msdn.microsoft.com/library/Dn770367(v=VS.85).aspx">D3D12_FILTER_ANISOTROPIC</a> and instead of filtering them return the maximum of the texels.  Texels that are weighted 0 during filtering aren't counted towards the maximum.  You can query support for this filter type from the <b>MinMaxFiltering</b> member in the <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a> structure.
 
 
 ## -remarks
@@ -309,16 +309,16 @@ Also note the following defines:
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa0">Sample</a>
+<a href="https://msdn.microsoft.com/library/Bb509695(v=VS.85).aspx">Sample</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">SampleCmp</a> or <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">SampleCmpLevelZero</a>
+<a href="https://msdn.microsoft.com/library/Bb509696(v=VS.85).aspx">SampleCmp</a> or <a href="https://msdn.microsoft.com/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a>
 </td>
 </tr>
 </table>
  
 
-Comparison filters only work with textures that have the following formats: <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS</a>, <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32_FLOAT</a>, <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R24_UNORM_X8_TYPELESS</a>, <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R16_UNORM</a>.
+Comparison filters only work with textures that have the following formats: <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS</a>, <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R32_FLOAT</a>, <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R24_UNORM_X8_TYPELESS</a>, <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R16_UNORM</a>.
 
 
 

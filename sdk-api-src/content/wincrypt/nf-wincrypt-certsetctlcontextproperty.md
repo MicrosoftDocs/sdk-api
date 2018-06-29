@@ -404,7 +404,7 @@ See
 
 
 
-<a href="https://www.bing.com/search?q=Extended+Property+Functions">Extended Property Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
  
 
  

@@ -67,7 +67,7 @@ Suspends character transmission for a specified communications device and places
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function returns this handle.
+<a href="base.createfile">CreateFile</a> function returns this handle.
 
 
 ## -returns
@@ -99,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="base.createfile">CreateFile</a>
  
 
  

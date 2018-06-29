@@ -7,7 +7,7 @@ old-location: com\cofiletimenow.htm
 old-project: com
 ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CoFileTimeNow function

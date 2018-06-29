@@ -210,7 +210,7 @@ else
 
 
 
-<a href="https://www.bing.com/search?q=Key+Generation+and+Exchange+Functions">Key Generation and Exchange Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
  
 
  

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CStdStubBuffer2_CountRefs function
@@ -65,7 +65,7 @@ Implements the <a href="https://msdn.microsoft.com/0a2a629a-b935-47a2-a4c6-ba9f2
 
 ### -param pthis [in]
 
-Pointer to  the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
 
 
 ## -returns

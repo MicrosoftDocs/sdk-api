@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrStubGetBuffer function
@@ -88,11 +88,11 @@ This function has no return value. Throws an exception upon error.
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
+<a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>
 
 
 
-<a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
+<a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>
  
 
  

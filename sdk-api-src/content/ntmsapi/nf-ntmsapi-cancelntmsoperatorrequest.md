@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CancelNtmsOperatorRequest function
@@ -168,7 +168,7 @@ The operator request has been canceled.
 
 
 
-<a href="https://www.bing.com/search?q=Operator+Request+Functions">Operator Request Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
 
 
 

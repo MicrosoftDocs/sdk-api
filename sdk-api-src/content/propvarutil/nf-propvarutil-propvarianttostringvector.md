@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PropVariantToStringVector function
@@ -201,23 +201,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantGetStringElem">PropVariantGetStringElem</a>
+<a href="https://msdn.microsoft.com/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToStringVectorAlloc">PropVariantToStringVectorAlloc</a>
+<a href="https://msdn.microsoft.com/library/Bb776562(v=VS.85).aspx">PropVariantToStringVectorAlloc</a>
 
 
 
-<a href="https://www.bing.com/search?q=VariantToStringArray">VariantToStringArray</a>
+<a href="https://msdn.microsoft.com/library/Bb776619(v=VS.85).aspx">VariantToStringArray</a>
  
 
  

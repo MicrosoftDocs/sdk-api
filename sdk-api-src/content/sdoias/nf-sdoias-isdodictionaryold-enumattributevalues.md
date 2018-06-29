@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISdoDictionaryOld::EnumAttributeValues
@@ -68,15 +68,15 @@ Specifies the ID of the attribute.
 ### -param pValueIds [out]
 
 On successful return points to a 
-<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VT_EMPTY</a> variant.
+<a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="https://msdn.microsoft.com/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
 
 
 ### -param pValuesDesc [out]
 
 On successful return points to a 
-<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VT_EMPTY</a> variant.
+<a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="https://msdn.microsoft.com/library/ms221627(v=VS.85).aspx">VT_EMPTY</a> variant.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: menurc\getcaretpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\getcaretpos.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: GetCaretPos, GetCaretPos function [Menus and Other Resources], _win32_GetCaretPos, _win32_getcaretpos_cpp, menurc.getcaretpos, winui._win32_getcaretpos, winuser/GetCaretPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -100,7 +100,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
+<a href="https://msdn.microsoft.com/library/ms646968(v=VS.85).aspx">Carets</a>
 
 
 
@@ -120,7 +120,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://msdn.microsoft.com/0a8d4ca6-d409-4468-b29a-552adbea0918">SetCaretPos</a>
+<a href="https://msdn.microsoft.com/library/ms648405(v=VS.85).aspx">SetCaretPos</a>
  
 
  

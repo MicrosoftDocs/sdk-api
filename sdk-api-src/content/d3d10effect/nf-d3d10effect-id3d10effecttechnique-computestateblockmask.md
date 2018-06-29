@@ -60,18 +60,18 @@ Compute a state-block mask to allow/prevent state changes.
 
 ### -param pStateBlockMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-A pointer to a state-block mask (see <a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>).
+A pointer to a state-block mask (see <a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4
 
 
 
-<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>
  
 
  

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitVariantFromGUIDAsBuffer function
@@ -93,7 +93,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -121,7 +121,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
+<a href="https://msdn.microsoft.com/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
 
 
 
@@ -129,7 +129,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=VariantToBuffer">VariantToBuffer</a>
+<a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
  
 
  

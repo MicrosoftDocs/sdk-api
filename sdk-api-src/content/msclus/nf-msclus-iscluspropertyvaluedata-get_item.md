@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:msclus.ISClusPropertyValueData.get_Item
 title: ISClusPropertyValueData::get_Item
 author: windows-sdk-content
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns a 
-    single <a href="https://msdn.microsoft.com/en-us/library/aa369367(v=vs.85).aspx">data value</a> from a 
+    single <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">data value</a> from a 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
     collection.
 

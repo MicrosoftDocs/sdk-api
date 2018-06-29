@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ExportNtmsDatabase function
@@ -172,7 +172,7 @@ This function creates a subdirectory called Export and places the consistent fil
 
 
 
-<a href="https://www.bing.com/search?q=Database+Backup+and+Recovery+Functions">Database Backup and Recovery Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Database Backup and Recovery Functions</a>
 
 
 

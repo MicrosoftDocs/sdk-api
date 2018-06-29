@@ -7,7 +7,7 @@ old-location: gpmc\igpmbackup_delete.htm
 old-project: GPMC
 ms.assetid: 096f10ca-1528-4ce7-a135-6fc0007e3374
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMBackup class, Delete method [GPMC],IGPMBackup interface, GPMBackup class [GPMC],Delete method, IGPMBackup interface [GPMC],Delete method, IGPMBackup.Delete, IGPMBackup::Delete, _win32_igpmbackup_delete, gpmc.igpmbackup_delete, gpmgmt/IGPMBackup::Delete
 ms.prod: windows
 ms.technology: windows-sdk

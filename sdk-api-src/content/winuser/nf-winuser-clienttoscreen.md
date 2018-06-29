@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -103,7 +103,7 @@ All coordinates are device coordinates.
 
 #### Examples
 
-For an example, see "Drawing Lines with the Mouse" in <a href="https://www.bing.com/search?q=Using+Mouse+Input">Using Mouse Input</a>.
+For an example, see "Drawing Lines with the Mouse" in <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85).aspx">Using Mouse Input</a>.
 
 <div class="code"></div>
 

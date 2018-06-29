@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # LsaAddAccountRights function
@@ -92,7 +92,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the 
-<a href="https://docs.microsoft.com/windows/desktop//SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

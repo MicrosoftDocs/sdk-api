@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer.htm
 old-project: com
 ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRpcStubBuffer interface
@@ -56,7 +56,7 @@ Controls the RPC stub used to marshal data between COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcStubBuffer</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcStubBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

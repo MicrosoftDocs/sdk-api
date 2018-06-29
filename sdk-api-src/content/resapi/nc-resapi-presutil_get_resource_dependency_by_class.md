@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback function
@@ -100,7 +100,7 @@ Do not call  <i>ResUtilGetResourceDependencyByClass</i> from any resource DLL en
 
 #### Examples
 
-As the following example illustrates, if you know that resource A depends on a <a href="https://www.bing.com/search?q=storage+class+resource">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
+As the following example illustrates, if you know that resource A depends on a <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

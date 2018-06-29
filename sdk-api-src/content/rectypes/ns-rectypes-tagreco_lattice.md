@@ -7,7 +7,7 @@ old-location: tablet\reco_lattice.htm
 old-project: tablet
 ms.assetid: 0fab8928-1632-4011-9d1d-2be5f6c5f22d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 0fab8928-1632-4011-9d1d-2be5f6c5f22d, RECO_LATTICE, RECO_LATTICE structure [Tablet PC], rectypes/RECO_LATTICE, tablet.reco_lattice, tagRECO_LATTICE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagRECO_LATTICE structure

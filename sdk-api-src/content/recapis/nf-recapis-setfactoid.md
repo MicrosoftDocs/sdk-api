@@ -7,7 +7,7 @@ old-location: tablet\setfactoid.htm
 old-project: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetFactoid function

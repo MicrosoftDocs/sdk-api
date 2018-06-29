@@ -143,7 +143,7 @@ A pointer to a <b>VARIANT</b> that receives the value of the retrieved property.
 
 
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> function.
 
 
 ## -returns

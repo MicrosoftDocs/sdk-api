@@ -83,7 +83,7 @@ In a multithreaded environment,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSANOTINITIALISED">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +95,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAENETDOWN">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://www.bing.com/search?q=WSAEINPROGRESS">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">

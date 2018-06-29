@@ -134,7 +134,7 @@ Applications are advised to use <a href="https://msdn.microsoft.com/be686d56-c24
 
 
 
-<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
  
 
  

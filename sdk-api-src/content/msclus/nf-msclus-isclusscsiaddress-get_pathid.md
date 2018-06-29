@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the 
-    <a href="/windows/desktop/dns/s-gly">SCSI</a> path ID of the 
+    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> path ID of the 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 This property is read-only.

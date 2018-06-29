@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDevice::GetPnPDeviceID
@@ -115,7 +115,7 @@ The <a href="https://msdn.microsoft.com/d505fc34-9b6d-417a-a53e-e74773dcc8a4">IP
 
 
 
-        After the application is through using the string returned by this method, it must call the <a href="https://msdn.microsoft.com/library/windows/desktop/4fe971c6-8611-453d-b69b-f02c17cf17d4">CoTaskMemFree</a> function to free the string.
+        After the application is through using the string returned by this method, it must call the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free the string.
       
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPropertyDescriptionSearchInfo interface
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-      Exposes search-related information for a property. The information provided by this interface comes from the <a href="https://www.bing.com/search?q=propertyDescription">propertyDescription</a> schema, <a href="https://www.bing.com/search?q=searchInfo">searchInfo</a> element for a given property. This information is used by the Windows Search Indexer. Most calling applications will not need to call this interface.
+      Exposes search-related information for a property. The information provided by this interface comes from the <a href="https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx">propertyDescription</a> schema, <a href="https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx">searchInfo</a> element for a given property. This information is used by the Windows Search Indexer. Most calling applications will not need to call this interface.
 
 
 ## -inheritance
@@ -72,7 +72,7 @@ The <b>IPropertyDescriptionSearchInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyDescriptionSearchInfo_GetColumnIndexType">GetColumnIndexType</a>
+<a href="https://msdn.microsoft.com/library/Bb761497(v=VS.85).aspx">GetColumnIndexType</a>
 </td>
 <td align="left" width="63%">
 Determines the how the current property is indexed.
@@ -81,16 +81,16 @@ Determines the how the current property is indexed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyDescriptionSearchInfo_GetMaxSize">GetMaxSize</a>
+<a href="https://msdn.microsoft.com/library/Bb761499(v=VS.85).aspx">GetMaxSize</a>
 </td>
 <td align="left" width="63%">
-Gets the maximum size value from the property schema's <a href="https://www.bing.com/search?q=searchInfo">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx">searchInfo</a> element.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyDescriptionSearchInfo_GetProjectionString">GetProjectionString</a>
+<a href="https://msdn.microsoft.com/library/Bb761501(v=VS.85).aspx">GetProjectionString</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to a string containing the canonical name of the item.
@@ -99,10 +99,10 @@ Returns a pointer to a string containing the canonical name of the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyDescriptionSearchInfo_GetSearchInfoFlags">GetSearchInfoFlags</a>
+<a href="https://msdn.microsoft.com/library/Bb761503(v=VS.85).aspx">GetSearchInfoFlags</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
+Gets the <a href="https://msdn.microsoft.com/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
 
 </td>
 </tr>
@@ -114,11 +114,11 @@ Gets the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>
 
 
 
-<a href="https://www.bing.com/search?q=propertyDescription">propertyDescription</a>
+<a href="https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx">propertyDescription</a>
 
 
 
-<a href="https://www.bing.com/search?q=searchInfo">searchInfo</a>
+<a href="https://msdn.microsoft.com/library/Bb773885(v=VS.85).aspx">searchInfo</a>
  
 
  

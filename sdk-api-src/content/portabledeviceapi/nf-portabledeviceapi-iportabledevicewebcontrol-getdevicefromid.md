@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromId
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A Windows Store app can obtain the PnP identifier of a WPD device by using <a hr
 
 ### -param ppDevice [out, retval]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://www.bing.com/search?q=Device">Device</a> object.
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object.
 
 
 

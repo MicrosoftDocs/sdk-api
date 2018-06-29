@@ -1,0 +1,95 @@
+---
+UID: NS:mmc._MMC_FILTERDATA
+title: "_MMC_FILTERDATA"
+author: windows-sdk-content
+description: The MMC_FILTERDATA structure is introduced in MMC 1.2.
+old-location: mmc\mmc_filterdata.htm
+old-project: MMC
+ms.assetid: 312d27b8-cfca-48fd-8d39-b0f504421d2d
+ms.author: windowssdkdev
+ms.date: 03/23/2018
+ms.keywords: MMC_FILTERDATA, MMC_FILTERDATA structure [MMC], _MMC_FILTERDATA, _slate_mmc_filterdata, mmc.mmc_filterdata, mmc/MMC_FILTERDATA
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: mmc.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: MMC_FILTERDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - MMC_FILTERDATA
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# _MMC_FILTERDATA structure
+
+
+## -description
+
+
+The 
+MMC_FILTERDATA structure is introduced in MMC 1.2.
+
+The 
+MMC_FILTERDATA structure is used by the 
+<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">IHeaderCtrl2::GetColumnFilter</a> and 
+<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">IHeaderCtrl2::SetColumnFilter</a> methods to retrieve and set the filter value of a column in a filtered list view.
+
+
+## -struct-fields
+
+
+
+
+### -field pszText
+
+When a snap-in sets a text filter value, pszText points to the filter string to set and cchTextMax sets the maximum length of the filter string that the user can type into the filter field. When a snap-in reads a text filter value, pszText points to a buffer to receive the text and cchTextMax gives the length of the buffer.
+
+
+### -field cchTextMax
+
+For more information, see the description for pszText.
+
+
+### -field lValue
+
+When a snap-in sets a numeric filter value, lValue contains the filter value. The filter field converts the value to a string and places it in the filter control. When a snap-in reads a numeric filter value, the current filter value is converted to binary and returned in lValue.
+
+
+## -remarks
+
+
+
+A numeric filter value can be used when the column it is filtering has only numeric values rather than arbitrary text strings. The advantage of using a numeric filter is that the filter handles the conversion between the binary and text when setting and reading the filter value. Also the filter control only allows a user to type numeric characters into a numeric filter.
+
+When handling a text filter, lValue is ignored. Similarly, when handling a numeric filter, pszText and cchTextMax are ignored.
+
+For both setting and reading filter values, the snap-in owns the 
+MMC_FILTERDATA structure and any text buffer.
+
+
+

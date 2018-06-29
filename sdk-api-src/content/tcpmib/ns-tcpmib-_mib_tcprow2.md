@@ -509,7 +509,7 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a>
+<a href="https://msdn.microsoft.com/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a>
 
 
 

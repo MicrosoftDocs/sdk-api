@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Contains possible values for the <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-textattribute-ids">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
+Contains possible values for the <a href="https://msdn.microsoft.com/library/Ee671662(v=VS.85).aspx">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 
 
 ## -enum-fields

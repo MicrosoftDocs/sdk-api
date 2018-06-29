@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 For virtual lists, the element returned may be a placeholder. <a href="https://msdn.microsoft.com/ec69f0d2-a643-4f1b-892a-0d90f79afe72">IVirtualizedItemProvider::Realize</a> can then be used to make the item fully available.
 
-The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-automation-element-propids">UIA_NamePropertyId</a> and, if appropriate, <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-automation-element-propids">UIA_AutomationIdPropertyId</a> and <a href="https://docs.microsoft.com/windows/desktop//WinAuto/uiauto-control-pattern-propids">UIA_SelectionItemIsSelectedPropertyId</a>.
+The method returns E_INVALIDARG if searching by the specified property is not supported. Most containers should support <a href="https://msdn.microsoft.com/library/Ee684017(v=VS.85).aspx">UIA_NamePropertyId</a> and, if appropriate, <a href="https://msdn.microsoft.com/library/Ee684017(v=VS.85).aspx">UIA_AutomationIdPropertyId</a> and <a href="https://msdn.microsoft.com/library/Ee671200(v=VS.85).aspx">UIA_SelectionItemIsSelectedPropertyId</a>.
 
 If <i>propertyId</i> is 0, all items are a match. This value can be  used
 with <i>pStartAfter</i> equalling <b>NULL</b> to get the first item, and then to get successive

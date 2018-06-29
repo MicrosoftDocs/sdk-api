@@ -482,7 +482,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getifentry">GetIfEntry</a>
+<a href="https://msdn.microsoft.com/library/Aa365939(v=VS.85).aspx">GetIfEntry</a>
 
 
 

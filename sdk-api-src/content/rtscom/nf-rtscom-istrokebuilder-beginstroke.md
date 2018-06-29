@@ -7,7 +7,7 @@ old-location: tablet\istrokebuilder_beginstroke.htm
 old-project: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IStrokeBuilder::BeginStroke

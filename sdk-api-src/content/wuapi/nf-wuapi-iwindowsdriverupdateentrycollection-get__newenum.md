@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Gets an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface that is used to enumerate the collection.
+Gets an <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface that is used to enumerate the collection.
 
 This property is read-only.
 

@@ -7,7 +7,7 @@ old-location: com\ioleuilinkcontainer_setlinksource.htm
 old-project: com
 ms.assetid: c76723e8-e895-4ba1-9ba1-7e56a44cc5f2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkSource method, IOleUILinkContainer::SetLinkSource, IOleUILinkContainerA interface [COM],SetLinkSource method, IOleUILinkContainerA.SetLinkSource, IOleUILinkContainerA::SetLinkSource, IOleUILinkContainerW interface [COM],SetLinkSource method, IOleUILinkContainerW::SetLinkSource, SetLinkSource, SetLinkSource method [COM], SetLinkSource method [COM],IOleUILinkContainer interface, SetLinkSource method [COM],IOleUILinkContainerA interface, SetLinkSource method [COM],IOleUILinkContainerW interface, com.ioleuilinkcontainer_setlinksource, ole_IOleUILinkContainer_SetLinkSource, oledlg/IOleUILinkContainer::SetLinkSource, oledlg/IOleUILinkContainerA::SetLinkSource, oledlg/IOleUILinkContainerW::SetLinkSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleUILinkContainerA::SetLinkSource

@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Add
 title: IFaxOutboundRoutingGroups::Add
 author: windows-sdk-content
-description: The IFaxOutboundRoutingGroups::Add method adds an outbound routing group to the collection represented by the IFaxOutboundRoutingGroups interface.
-old-location: fax\_mfax_faxoutboundroutinggroups_add_cpp.htm
+description: The Add method adds an outbound routing group to the FaxOutboundRoutingGroups collection.
+old-location: fax\_mfax_faxoutboundroutinggroups_add.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_35r8_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_35r8.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Add method, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add_cpp, fax._mfax_faxoutboundroutinggroups_add_cpp, faxcomex/IFaxOutboundRoutingGroups::Add
+ms.date: 06/12/2018
+ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service],Add method, FaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add, fax._mfax_faxoutboundroutinggroups_add
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutboundRoutingGroups.Add
  - IFaxOutboundRoutingGroups.Add
 product: Windows
 targetos: Windows
@@ -51,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutboundRoutingGroups::Add</b> method adds an outbound routing group to the collection represented by the <a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a> interface.
+The <b>Add</b> method adds an outbound routing group to the <a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a> collection.
 
 
 ## -parameters
@@ -59,36 +60,32 @@ The <b>IFaxOutboundRoutingGroups::Add</b> method adds an outbound routing group 
 
 
 
-### -param bstrName [in]
+### -param bstrName
 
-Type: <b>BSTR</b>
+Type: <b>String</b>
 
 Null-terminated string that indicates the name of the group to add. Note that you cannot add the special <b>All Devices</b> routing group.
 
 
-### -param pFaxOutboundRoutingGroup [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>**</b>
-
-Address of a pointer that receives a <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface.
-
-
-## -returns
+### -param pFaxOutboundRoutingGroup
 
 
 
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
+#### - FaxOutboundRoutingGroup
+
+Type: <b><a href="https://msdn.microsoft.com/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a>**</b>
+
+A <a href="https://msdn.microsoft.com/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a> object.
 
 
 ## -remarks
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 
 
 
@@ -98,11 +95,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>
+<a href="https://msdn.microsoft.com/library/ms689211(v=VS.85).aspx">FaxOutboundRoutingGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

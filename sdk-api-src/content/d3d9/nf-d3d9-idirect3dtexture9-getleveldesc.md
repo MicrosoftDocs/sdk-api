@@ -68,16 +68,16 @@ Identifies a level of the texture resource. This method returns a surface descri
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/fad8ffdb-36e5-4695-b343-e1315357c31a">D3DSURFACE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/fad8ffdb-36e5-4695-b343-e1315357c31a">D3DSURFACE_DESC</a> structure, describing the returned level. 
+Pointer to a <a href="https://msdn.microsoft.com/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a> structure, describing the returned level. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/windows/desktop/455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if one of the arguments is invalid.
 
@@ -89,7 +89,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/fcea1048-1d9b-409f-9b5a-cdf85c30c76e">IDirect3DTexture9</a>
+<a href="https://msdn.microsoft.com/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>
  
 
  

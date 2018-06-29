@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PROXY_ACCESS enumeration
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a> to state proxy use.
+Used by <a href="https://msdn.microsoft.com/library/Bb231485(v=VS.85).aspx">ISearchManager</a> to state proxy use.
 
 
 ## -enum-fields

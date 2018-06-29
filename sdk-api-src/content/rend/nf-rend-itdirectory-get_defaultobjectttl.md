@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITDirectory::get_DefaultObjectTTL
@@ -57,7 +57,7 @@ provides similar functionality.]
 
 The 
 <b>get_DefaultObjectTTL</b> method gets the default 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms737262.aspx">time to live</a> (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
+<a href="../tapi2/t_tapgloss.htm">time to live</a> (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
 
 
 ## -parameters

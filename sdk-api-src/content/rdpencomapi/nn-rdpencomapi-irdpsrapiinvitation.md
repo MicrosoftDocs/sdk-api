@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRDPSRAPIInvitation interface
@@ -68,7 +68,7 @@ An attendee can join a session if the invitation list contains and invitation wi
 
 
 
-<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 
-    Saves the list of <a href="/windows/desktop/dns/p-gly">preferred owner</a>
+    Saves the list of <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">preferred owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> to the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
 

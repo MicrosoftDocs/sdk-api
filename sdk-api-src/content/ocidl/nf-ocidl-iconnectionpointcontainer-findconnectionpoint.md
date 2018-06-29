@@ -7,7 +7,7 @@ old-location: com\iconnectionpointcontainer_findconnectionpoint.htm
 old-project: com
 ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnectionPoint method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],FindConnectionPoint method, IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IConnectionPointContainer::FindConnectionPoint

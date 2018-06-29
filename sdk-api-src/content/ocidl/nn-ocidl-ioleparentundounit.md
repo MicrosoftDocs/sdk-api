@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit.htm
 old-project: com
 ms.assetid: 4407d673-286a-4221-ae35-09b9865161f8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IOleParentUndoUnit, IOleParentUndoUnit interface [COM], IOleParentUndoUnit interface [COM],described, _ole_ioleparentundounit, com.ioleparentundounit, ocidl/IOleParentUndoUnit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleParentUndoUnit interface

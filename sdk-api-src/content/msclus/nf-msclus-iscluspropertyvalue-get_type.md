@@ -55,7 +55,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns or sets the 
-    type of a <a href="/windows/desktop/dns/p-gly">property value</a>.
+    type of a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a>.
 
 This property is read-only.
 

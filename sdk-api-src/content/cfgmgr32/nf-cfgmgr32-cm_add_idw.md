@@ -7,7 +7,7 @@ old-location: devinst\cm_add_id.htm
 old-project: devinst
 ms.assetid: 0a2da246-7803-45cb-baee-351726dbcf15
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: CM_Add_ID, CM_Add_ID function [Device and Driver Installation], CM_Add_IDW, cfgmgr32/CM_Add_ID, cfgmgr32/CM_Add_IDW, cfgmgrfn_70bf6b8b-4ab4-47aa-b24e-873af6a3712c.xml, devinst.cm_add_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Add_ID</b> function appends a specified <a href="https://msdn.microsoft.com/3e8e18fc-d577-4406-8225-048813c4cb9e">device ID</a> (if not already present) to a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance's</a> <a href="https://www.bing.com/search?q=hardware+ID">hardware ID</a> list or <a href="https://www.bing.com/search?q=compatible+ID">compatible ID</a> list.
+The <b>CM_Add_ID</b> function appends a specified <a href="devinst.device_ids">device ID</a> (if not already present) to a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance's</a> <a href="devinst.hardware_ids">hardware ID</a> list or <a href="devinst.compatible_ids">compatible ID</a> list.
 
 
 ## -parameters

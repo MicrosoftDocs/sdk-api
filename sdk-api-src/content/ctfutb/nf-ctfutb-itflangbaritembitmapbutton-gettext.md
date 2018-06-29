@@ -59,7 +59,7 @@ req.irql:
 
 ### -param pbstrText [out]
 
-Pointer to a <b>BSTR</b> value that receives the string for the language bar item. This string must be allocated using the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> function. The caller must free this buffer when it is no longer required by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+Pointer to a <b>BSTR</b> value that receives the string for the language bar item. This string must be allocated using the <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller must free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 
 ## -returns
@@ -121,11 +121,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
+<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
 
 
 
-<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

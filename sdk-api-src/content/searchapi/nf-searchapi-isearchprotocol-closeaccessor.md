@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchProtocol::CloseAccessor
@@ -52,7 +52,7 @@ req.product: Rights Management Services client 1.0 or later
 
 
 
-        Closes a previously created <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object. 
+        Closes a previously created <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. 
         
 
 
@@ -63,10 +63,10 @@ req.product: Rights Management Services client 1.0 or later
 
 ### -param pAccessor [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>*</b>
 
 
-                    Pointer to the <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object that was used to process the current URL item. 
+                    Pointer to the <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object that was used to process the current URL item. 
                 
 
 
@@ -86,11 +86,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-              The protocol host will release the <i>pAccessor</i> pointer passed to this method when this method returns. Use this method to release any resources associated with the <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object, freeing it for reuse by the protocol handler.
+              The protocol host will release the <i>pAccessor</i> pointer passed to this method when this method returns. Use this method to release any resources associated with the <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object, freeing it for reuse by the protocol handler.
             
 
 
-              Accessors can be created and maintained in a pool, as resources to be used by protocol handlers when needed, and this might improve performance. If you are implementing a pool of <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> objects, use <a href="_com_IUnknown_AddRef">IUnknown::AddRef</a> to add an <b>IUrlAccessor</b> to your pool.
+              Accessors can be created and maintained in a pool, as resources to be used by protocol handlers when needed, and this might improve performance. If you are implementing a pool of <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects, use <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">IUnknown::AddRef</a> to add an <b>IUrlAccessor</b> to your pool.
             
 
 

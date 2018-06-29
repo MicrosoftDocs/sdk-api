@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://msdn.microsoft.com/8778dcc9-51d0-4ab8-8fc1-2eebcdf12c35">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://msdn.microsoft.com/1ab497ca-023f-4c26-b92d-b441a0d7b90c">EM_SETRECTNP</a> message explicitly.
+Sets the formatting rectangle of a multiline edit control. This macro is equivalent to <a href="https://msdn.microsoft.com/library/Bb849156(v=VS.85).aspx">Edit_SetRect</a>, except that it does not redraw the edit control window. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761659(v=VS.85).aspx">EM_SETRECTNP</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 <b>Rich Edit 3.0 and later.</b> This macro does not have full functionality, because it does not set the WPARAM of the message.
 
-For more information, see <a href="https://msdn.microsoft.com/1ab497ca-023f-4c26-b92d-b441a0d7b90c">EM_SETRECTNP</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb761659(v=VS.85).aspx">EM_SETRECTNP</a>.
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITraceDataProviderCollection interface
@@ -62,7 +62,7 @@ To populate the collection with registered providers, call the <a href="https://
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProviderCollection</b> interface inherits from the <a href="http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITraceDataProviderCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProviderCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITraceDataProviderCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

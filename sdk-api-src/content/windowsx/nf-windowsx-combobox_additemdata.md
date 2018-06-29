@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds item data to the list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a> message explicitly.
+Adds item data to the list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to the item data to add.
 
 
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://www.bing.com/search?q=CBS_HASSTRINGS">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>.
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>.
 	
 
 

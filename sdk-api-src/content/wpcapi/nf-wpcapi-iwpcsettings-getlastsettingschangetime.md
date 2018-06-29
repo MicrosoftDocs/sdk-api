@@ -7,7 +7,7 @@ old-location: parcon\iwpcsettings_getlastsettingschangetime.htm
 old-project: parcon
 ms.assetid: 6fe5be0c-e6fa-481d-a28d-c5b15257b901
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/12/2018
 ms.keywords: GetLastSettingsChangeTime, GetLastSettingsChangeTime method, GetLastSettingsChangeTime method,IWPCSettings interface, IWPCSettings interface,GetLastSettingsChangeTime method, IWPCSettings.GetLastSettingsChangeTime, IWPCSettings::GetLastSettingsChangeTime, parcon.iwpcsettings_getlastsettingschangetime, wpcapi/IWPCSettings::GetLastSettingsChangeTime
 ms.prod: windows
 ms.technology: windows-sdk

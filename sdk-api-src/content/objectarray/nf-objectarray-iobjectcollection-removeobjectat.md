@@ -7,7 +7,7 @@ old-location: shell\IObjectCollection_RemoveObjectAt.htm
 old-project: shell
 ms.assetid: a0e526c0-a374-4952-8fe1-2a5aa53d9c41
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IObjectCollection interface [Windows Shell],RemoveObjectAt method, IObjectCollection.RemoveObjectAt, IObjectCollection::RemoveObjectAt, RemoveObjectAt, RemoveObjectAt method [Windows Shell], RemoveObjectAt method [Windows Shell],IObjectCollection interface, _shell_IObjectCollection_RemoveObjectAt, objectarray/IObjectCollection::RemoveObjectAt, shell.IObjectCollection_RemoveObjectAt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IObjectCollection::RemoveObjectAt

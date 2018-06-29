@@ -175,7 +175,7 @@ On Windows Vista and later, the <b>CreateProxyArpEnry</b> function can only be 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_proxyarp">MIB_PROXYARP</a>
+<a href="https://msdn.microsoft.com/library/Aa366886(v=VS.85).aspx">MIB_PROXYARP</a>
  
 
  

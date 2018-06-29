@@ -7,7 +7,7 @@ old-location: winrm\iwsman.htm
 old-project: WinRM
 ms.assetid: 4e5acfa6-9883-4716-ac69-92161c926c66
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSMan, IWSMan interface [Windows Remote Management], IWSMan interface [Windows Remote Management],described, winrm.iwsman, wsmandisp/IWSMan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Provides methods and properties used to create a session, represented by a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object. Any Windows Remote Management operations require creation of a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> that connects to a remote computer, <a href="https://docs.microsoft.com/windows/desktop//WinRM/windows-remote-management-glossary">base management controller</a> (BMC), or the local computer. Operations include getting, writing, or enumerating data, or invoking methods.
+Provides methods and properties used to create a session, represented by a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object. Any Windows Remote Management operations require creation of a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> that connects to a remote computer, <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">base management controller</a> (BMC), or the local computer. Operations include getting, writing, or enumerating data, or invoking methods.
 
 
 ## -inheritance

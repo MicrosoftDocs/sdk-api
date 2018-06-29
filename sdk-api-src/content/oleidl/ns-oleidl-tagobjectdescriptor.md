@@ -7,7 +7,7 @@ old-location: com\objectdescriptor.htm
 old-project: com
 ms.assetid: 5865e16b-c1a5-4bfd-8d94-c2f8f73b1205
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPLINKSRCDESCRIPTOR, *LPOBJECTDESCRIPTOR, *PLINKSRCDESCRIPTOR, *POBJECTDESCRIPTOR, LINKSRCDESCRIPTOR, LPOBJECTDESCRIPTOR, LPOBJECTDESCRIPTOR structure pointer [COM], OBJECTDESCRIPTOR, OBJECTDESCRIPTOR structure [COM], POBJECTDESCRIPTOR, POBJECTDESCRIPTOR structure pointer [COM], _ole_OBJECTDESCRIPTOR, com.objectdescriptor, oleidl/LPOBJECTDESCRIPTOR, oleidl/OBJECTDESCRIPTOR, oleidl/POBJECTDESCRIPTOR, tagOBJECTDESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOBJECTDESCRIPTOR structure

@@ -76,11 +76,11 @@ Returns <b>TRUE</b> if successful;   otherwise, <b>FALSE</b>.
 
 Windows Store app brokers such as explorer.exe should call this function in Windows Store app UI threads to ensure that only IMEs that are compatible with  Windows Store apps are made available.  Those Windows Store app threads that don't require IME input should call <a href="https://msdn.microsoft.com/c563fc24-3c56-40ac-8539-8336d5231537">ImmDisableIME</a> to disable IMM entirely for that thread.
 
-The app must call this function before the first top-level window in the thread receives the <a href="https://www.bing.com/search?q=WM_CREATE">WM_CREATE</a> message. Thus, the app must call this function in one of the following places:
+The app must call this function before the first top-level window in the thread receives the <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. Thus, the app must call this function in one of the following places:
 
 <ul>
-<li>Any time before  <a href="https://www.bing.com/search?q=CreateWindow">CreateWindow</a> is called to create the first top-level window.</li>
-<li>In the <a href="https://www.bing.com/search?q=WM_NCCREATE">WM_NCCREATE</a> handler for the first top-level window.</li>
+<li>Any time before  <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> is called to create the first top-level window.</li>
+<li>In the <a href="https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a> handler for the first top-level window.</li>
 </ul>
 
 

@@ -7,7 +7,7 @@ old-location: menurc\charprev.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprev.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CharPrev, CharPrev function [Menus and Other Resources], CharPrevA, CharPrevW, _win32_CharPrev, _win32_charprev_cpp, menurc.charprev, winui._win32_charprev, winuser/CharPrev, winuser/CharPrevA, winuser/CharPrevW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -98,7 +98,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-When called as an ANSI function, <b>CharPrev</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/887a11c3-57fb-4407-a842-957e20931610">CharPrevExA</a> specifies a code-page to use.
+When called as an ANSI function, <b>CharPrev</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/library/ms647472(v=VS.85).aspx">CharPrevExA</a> specifies a code-page to use.
 
 
 			This function works with default "user" expectations of characters when dealing with diacritics. For example:
@@ -115,15 +115,15 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/23be5ba3-bc2e-4c5b-95d2-b36dc24007ae">CharNext</a>
+<a href="https://msdn.microsoft.com/library/ms647469(v=VS.85).aspx">CharNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/0501744a-83a5-4ac4-b934-3e794fe940c0">CharNextExA</a>
+<a href="https://msdn.microsoft.com/library/ms647470(v=VS.85).aspx">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/887a11c3-57fb-4407-a842-957e20931610">CharPrevExA</a>
+<a href="https://msdn.microsoft.com/library/ms647472(v=VS.85).aspx">CharPrevExA</a>
 
 
 

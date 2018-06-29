@@ -1,4 +1,4 @@
-﻿---
+---
 UID: NF:ras.RasValidateEntryNameW
 title: RasValidateEntryNameW function
 author: windows-sdk-content
@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
 ms.author: windowssdkdev
 ms.date: 05/23/2018
-ms.keywords: RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname
+ms.keywords: "*, /, :, <, >, ?, RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, \, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname, |"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RasValidateEntryNameW function

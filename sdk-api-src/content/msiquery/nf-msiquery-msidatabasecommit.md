@@ -7,7 +7,7 @@ old-location: setup\msidatabasecommit.htm
 old-project: Msi
 ms.assetid: bc42b90b-51db-4e13-af2f-4942923badf6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiDatabaseCommit, MsiDatabaseCommit function, _msi_msidatabasecommit, msiquery/MsiDatabaseCommit, setup.msidatabasecommit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">General Database Access Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
  
 
  

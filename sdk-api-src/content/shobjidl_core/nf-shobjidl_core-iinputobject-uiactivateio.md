@@ -7,7 +7,7 @@ old-location: shell\IInputObject_UIActivateIO.htm
 old-project: shell
 ms.assetid: a725863e-4814-4aa7-99c6-7e7141db214d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IInputObject interface [Windows Shell],UIActivateIO method, IInputObject.UIActivateIO, IInputObject::UIActivateIO, UIActivateIO, UIActivateIO method [Windows Shell], UIActivateIO method [Windows Shell],IInputObject interface, _win32_IInputObject_UIActivateIO, shell.IInputObject_UIActivateIO, shobjidl_core/IInputObject::UIActivateIO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,10 +68,10 @@ Indicates if the object is being activated or deactivated. If this value is nonz
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
 
 
-          A pointer to an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure that contains the message that caused the activation change. This value may be <b>NULL</b>.
+          A pointer to an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the message that caused the activation change. This value may be <b>NULL</b>.
         
 
 

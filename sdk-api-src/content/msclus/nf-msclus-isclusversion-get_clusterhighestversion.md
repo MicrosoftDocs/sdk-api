@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns a value containing the highest version of the 
-    <a href="/windows/desktop/dns/c-gly">Cluster service</a> with which the current 
+    <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">Cluster service</a> with which the current 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> is compatible.
 
 This property is read-only.

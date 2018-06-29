@@ -7,7 +7,7 @@ old-location: com\oleuiobjectprops_struct.htm
 old-project: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPOLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS, tagOLEUIOBJECTPROPSW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagOLEUIOBJECTPROPSW structure
@@ -124,7 +124,7 @@ The <b>Convert</b> button will be disabled on the general property page.
 
 ### -field lpPS
 
-Pointer to the standard property sheet header (<a href="https://www.bing.com/search?q=PROPSHEETHEADER">PROPSHEETHEADER</a>), used for extensibility.
+Pointer to the standard property sheet header (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a>), used for extensibility.
 
 
 ### -field dwObject

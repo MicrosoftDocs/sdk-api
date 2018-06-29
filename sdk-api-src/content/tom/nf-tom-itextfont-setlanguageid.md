@@ -133,12 +133,12 @@ Insufficient memory.
 
 
 
-If the high nibble of  <i>Value</i> is <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomCharset</a>, set the <i>charrep</i> from the <i>charset</i> in the low byte and the pitch and family from the next byte. See also <a href="https://msdn.microsoft.com/6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a">ITextFont2::SetCharRep</a>. 
+If the high nibble of  <i>Value</i> is <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomCharset</a>, set the <i>charrep</i> from the <i>charset</i> in the low byte and the pitch and family from the next byte. See also <a href="https://msdn.microsoft.com/6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a">ITextFont2::SetCharRep</a>. 
 
-If the high nibble of <i>Value</i> is <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomCharRepFromLcid</a>, set the <i>charrep</i> from the LCID and set the LCID as well. See <a href="https://msdn.microsoft.com/422f94bc-44ef-44db-be8c-50fe1acc2320">ITextFont::GetLanguageID</a> for more information. 
+If the high nibble of <i>Value</i> is <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomCharRepFromLcid</a>, set the <i>charrep</i> from the LCID and set the LCID as well. See <a href="https://msdn.microsoft.com/library/Bb773975(v=VS.85).aspx">ITextFont::GetLanguageID</a> for more information. 
 
 
-To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.microsoft.com/dd7a8a16-6cb5-40ee-8f5f-e51e68785d93">ITextRange2::SetText2</a> and set the <a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLanguageTag</a> and <i>bstr</i> with the language tag.
+To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.microsoft.com/dd7a8a16-6cb5-40ee-8f5f-e51e68785d93">ITextRange2::SetText2</a> and set the <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomLanguageTag</a> and <i>bstr</i> with the language tag.
 
 
 
@@ -152,11 +152,11 @@ To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/422f94bc-44ef-44db-be8c-50fe1acc2320">GetLanguageID</a>
+<a href="https://msdn.microsoft.com/library/Bb773975(v=VS.85).aspx">GetLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -164,7 +164,7 @@ To set the BCP-47 language tag, such as "en-US", call <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

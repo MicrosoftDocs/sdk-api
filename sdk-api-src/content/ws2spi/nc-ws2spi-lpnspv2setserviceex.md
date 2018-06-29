@@ -178,7 +178,7 @@ A pointer to the client session.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -189,7 +189,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -200,7 +200,7 @@ The calling routine does not have sufficient privileges to install the service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -211,7 +211,7 @@ One or more parameters were invalid, or missing, for this provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +222,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSASERVICE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -311,7 +311,7 @@ When the  <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, thi
 
 When using <b>SERVICE_MULTIPLE</b>, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a <b>RNRSERVICE_DEREGISTER</b> request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
 
- If the <b>NSPv2SetServiceEx</b> function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented <b>NSPv2SetServiceEx</b> function in the <a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a> structure should point be to the stub function. 
+ If the <b>NSPv2SetServiceEx</b> function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented <b>NSPv2SetServiceEx</b> function in the <a href="https://msdn.microsoft.com/22a4ee47-030b-4aee-b9b1-c9e33b3e4fce">NSPV2_ROUTINE</a> structure should point be to the stub function. 
 
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
 The following table lists <a href="https://msdn.microsoft.com/ffe71de0-3561-481f-b81f-835c6c3a3ee4">WSAQUERYSET2</a> member names and describes how service property data is represented. Members labeled as optional and dependent on the requirements of the NSPv2 provider may be supplied as a <b>NULL</b> pointer when unused by the namespace provider.

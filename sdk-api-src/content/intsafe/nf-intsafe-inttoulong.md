@@ -7,7 +7,7 @@ old-location: shell\IntToULong.htm
 old-project: shell
 ms.assetid: 060915cf-d7a2-48ef-b2b6-303f2cc86c94
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: IntToDWord, IntToULong, IntToULong function [Windows Shell], _shell_IntToULong, intsafe/IntToULong, shell.IntToULong
 ms.prod: windows
 ms.technology: windows-sdk

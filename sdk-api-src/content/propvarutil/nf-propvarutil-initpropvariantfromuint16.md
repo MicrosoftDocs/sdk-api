@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # InitPropVariantFromUInt16 function
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://www.bing.com/search?q=InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://www.bing.com/search?q=InitVariantFromUInt16">InitVariantFromUInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt16">PropVariantToUInt16</a>
+<a href="https://msdn.microsoft.com/library/Bb776565(v=VS.85).aspx">PropVariantToUInt16</a>
 
 
 
-<a href="https://www.bing.com/search?q=PropVariantToUInt16WithDefault">PropVariantToUInt16WithDefault</a>
+<a href="https://msdn.microsoft.com/library/Bb776568(v=VS.85).aspx">PropVariantToUInt16WithDefault</a>
  
 
  

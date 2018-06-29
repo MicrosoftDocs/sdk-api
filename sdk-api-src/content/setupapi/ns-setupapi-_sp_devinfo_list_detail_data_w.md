@@ -7,7 +7,7 @@ old-location: devinst\sp_devinfo_list_detail_data.htm
 old-project: devinst
 ms.assetid: 03e6c137-5a7f-443d-878f-5e5c6642dde9
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: "*PSP_DEVINFO_LIST_DETAIL_DATA_W, PSP_DEVINFO_LIST_DETAIL_DATA, PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA, SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA_W, _SP_DEVINFO_LIST_DETAIL_DATA_W, devinst.sp_devinfo_list_detail_data, di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml, setupapi/PSP_DEVINFO_LIST_DETAIL_DATA, setupapi/SP_DEVINFO_LIST_DETAIL_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _SP_DEVINFO_LIST_DETAIL_DATA_W structure

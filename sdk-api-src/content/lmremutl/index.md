@@ -2,7 +2,7 @@
 UID: NA:lmremutl
 ms.assetid: 6dbfa2ac-8656-3e83-b53f-e924776baec6
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

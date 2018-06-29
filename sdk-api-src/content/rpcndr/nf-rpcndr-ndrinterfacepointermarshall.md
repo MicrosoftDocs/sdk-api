@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # NdrInterfacePointerMarshall function
@@ -78,7 +78,7 @@ Pointer to the format string description.
 
 
 
-Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>.
+Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>.
 
 <table>
 <tr>

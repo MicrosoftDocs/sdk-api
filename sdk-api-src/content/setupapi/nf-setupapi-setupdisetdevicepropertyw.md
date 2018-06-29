@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceproperty.htm
 old-project: devinst
 ms.assetid: c03c51ba-3027-4be9-8869-6d7dbeac2428
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiSetDeviceProperty, SetupDiSetDeviceProperty function [Device and Driver Installation], SetupDiSetDevicePropertyW, devinst.setupdisetdeviceproperty, di-rtns_ee591571-7fc2-4a2b-a893-ba8d43cc0ed4.xml, setupapi/SetupDiSetDeviceProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiSetDevicePropertyW function
@@ -62,7 +62,7 @@ The <b>SetupDiSetDeviceProperty</b> function sets a device instance property.
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a>. This device information set contains a device information element that represents the device instance for which to set a device instance property. 
+A handle to a <a href="devinst.device_information_sets">device information set</a>. This device information set contains a device information element that represents the device instance for which to set a device instance property. 
 
 
 ### -param DeviceInfoData [in]
@@ -240,7 +240,7 @@ The caller does not have Administrator privileges.
 
 
 
-<b>SetupDiSetDeviceProperty</b> is part of the <a href="https://www.bing.com/search?q=unified+device+property+model">unified device property model</a>. 
+<b>SetupDiSetDeviceProperty</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetDeviceProperty</b>. 
 

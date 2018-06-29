@@ -164,7 +164,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarValue [out]
 
-A pointer to value of <b>VARIANT</b> type that contains the data column. This method fails if <i>pvarValue</i> is <b>NULL</b>. Upon successful completion of this method, <i>pvarValue</i> contains the data in the  column. The caller is responsible for calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> when done with this data.
+A pointer to value of <b>VARIANT</b> type that contains the data column. This method fails if <i>pvarValue</i> is <b>NULL</b>. Upon successful completion of this method, <i>pvarValue</i> contains the data in the  column. The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> when done with this data.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: devinst\setupdisetselecteddriver.htm
 old-project: devinst
 ms.assetid: 791df876-9037-405b-b899-eea2b577d923
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiSetSelectedDriver, SetupDiSetSelectedDriver function [Device and Driver Installation], SetupDiSetSelectedDriverA, SetupDiSetSelectedDriverW, devinst.setupdisetselecteddriver, di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml, setupapi/SetupDiSetSelectedDriver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiSetSelectedDriverW function
@@ -62,7 +62,7 @@ The <b>SetupDiSetSelectedDriver</b> function sets, or resets, the selected drive
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the driver list from which to select a driver for a device information element or for the device information set.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the driver list from which to select a driver for a device information element or for the device information set.
 
 
 ### -param DeviceInfoData [in, out]

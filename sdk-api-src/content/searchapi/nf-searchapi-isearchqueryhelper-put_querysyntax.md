@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchQueryHelper::put_QuerySyntax
@@ -61,9 +61,9 @@ Sets the syntax of the query.
 
 ### -param querySyntax [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a0331339-9df0-4190-b7ae-977572b49c2d">SEARCH_QUERY_SYNTAX</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a></b>
 
-Flag that specifies the search query syntax. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/a0331339-9df0-4190-b7ae-977572b49c2d">SEARCH_QUERY_SYNTAX</a> enumerated type.
+Flag that specifies the search query syntax. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a> enumerated type.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The allowed syntaxes are Simple, Natural Query Syntax (NQS), and Advanced Query Syntax (AQS). If not set, the default query syntax is SEARCH_ADVANCED_QUERY_SYNTAX.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
 
 
 
@@ -93,23 +93,23 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/72802fbc-6684-40e3-9df5-a81e2c4bc1c2">ISearchQueryHelper::get_QuerySyntax</a>
+<a href="https://msdn.microsoft.com/library/Bb231310(v=VS.85).aspx">ISearchQueryHelper::get_QuerySyntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0331339-9df0-4190-b7ae-977572b49c2d">SEARCH_QUERY_SYNTAX</a>
+<a href="https://msdn.microsoft.com/library/Aa965704(v=VS.85).aspx">SEARCH_QUERY_SYNTAX</a>
  
 
  

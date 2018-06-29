@@ -1,14 +1,15 @@
-﻿---
+---
 UID: NF:rpcproxy.CStdStubBuffer_QueryInterface
 title: CStdStubBuffer_QueryInterface function
 author: windows-sdk-content
-description: The CStdStubBuffer_QueryInterface function implements the IRpcStubBuffer.QueryInterface method.
+description: The CStdStubBuffer_QueryInterface function implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdstubbuffer_queryinterface.htm
 old-project: Rpc
 ms.assetid: 7afb828d-7de9-4fa7-a869-fad694328206
 ms.author: windowssdkdev
 ms.date: 05/30/2018
-ms.keywords: CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface function, rpc.cstdstubbuffer_queryinterface, rpcproxy.CStdStubBuffer_QueryInterface
+ms.keywords: CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface
+, CStdStubBuffer_QueryInterface function [RPC], rpc.cstdstubbuffer_queryinterface, rpcproxy/CStdStubBuffer_QueryInterface
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -42,7 +43,7 @@ targetos: Windows
 req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # CStdStubBuffer_QueryInterface function
@@ -53,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[CStdStubBuffer_QueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
+The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::QueryInterface</a> method.
 
 
 ## -parameters
@@ -63,7 +64,7 @@ The <b>CStdStubBuffer_QueryInterface</b> function implements the <a href="https:
 
 ### -param This [in]
 
-Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object.
+Pointer to the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

@@ -64,9 +64,9 @@ Sets the underline position mode.
 Type: <b>long</b>
 
 The new underline position mode. It can be one of the following values.<ul>
-<li><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUnderlinePositionAuto</a> (the default)</li>
-<li><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUnderlinePositionBelow</a></li>
-<li><a href="/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUnderlinePositionAbove</a></li>
+<li><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAuto</a> (the default)</li>
+<li><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionBelow</a></li>
+<li><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAbove</a></li>
 </ul>
 
 

@@ -7,7 +7,7 @@ old-location: setup\msirecorddatasize.htm
 old-project: Msi
 ms.assetid: e0e4e842-697f-43fa-8012-dd911bf3eebc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MsiRecordDataSize, MsiRecordDataSize function, _msi_msirecorddatasize, msiquery/MsiRecordDataSize, setup.msirecorddatasize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ If the data is in stream format, the function returns the byte count.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Record Processing Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagusenegotiate.htm
 old-project: WinRM
 ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/08/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
 ms.prod: windows
 ms.technology: windows-sdk

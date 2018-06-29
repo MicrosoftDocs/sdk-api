@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ITypeLib interface
@@ -193,7 +193,7 @@ General information, including a user-readable name for the library and help for
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms221442(v=vs.85).aspx">Type Description Interfaces and Functions </a>
+<a href="https://msdn.microsoft.com/library/ms221442(v=VS.85).aspx">Type Description Interfaces and Functions </a>
  
 
  

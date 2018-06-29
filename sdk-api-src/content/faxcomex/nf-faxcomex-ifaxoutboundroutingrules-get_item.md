@@ -2,13 +2,13 @@
 UID: NF:faxcomex.IFaxOutboundRoutingRules.get_Item
 title: IFaxOutboundRoutingRules::get_Item
 author: windows-sdk-content
-description: The IFaxOutboundRoutingRules::get_Item method returns a IFaxOutboundRoutingRule interface from the IFaxOutboundRoutingRules interface using the routing rule's index.
-old-location: fax\_mfax_faxoutboundroutingrules_item_cpp.htm
+description: The Item property returns a FaxOutboundRoutingRule object from the FaxOutboundRoutingRules collection using the routing rule's index.
+old-location: fax\_mfax_faxoutboundroutingrules_item.htm
 old-project: Fax
-ms.assetid: VS|fax|~\fax\faxinto_z_73xp_cpp.htm
+ms.assetid: VS|fax|~\fax\faxinto_z_73xp.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],get_Item method, IFaxOutboundRoutingRules.get_Item, IFaxOutboundRoutingRules::get_Item, _mfax_faxoutboundroutingrules.item_cpp, fax._mfax_faxoutboundroutingrules_item_cpp, faxcomex/IFaxOutboundRoutingRules::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingRules interface
+ms.date: 06/12/2018
+ms.keywords: FaxOutboundRoutingRules object [Fax Service],Item property, FaxOutboundRoutingRules.Item, IFaxOutboundRoutingRules.get_Item, IFaxOutboundRoutingRules::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutboundRoutingRules object, _mfax_faxoutboundroutingrules.item, fax._mfax_faxoutboundroutingrules_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -36,6 +36,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
+ - FaxOutboundRoutingRules.Item
  - IFaxOutboundRoutingRules.get_Item
 product: Windows
 targetos: Windows
@@ -51,37 +52,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutboundRoutingRules::get_Item</b> method returns a <a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a> interface from the <a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a> interface using the routing rule's index.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object from the <a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
+
+This property is read-only.
 
 
 ## -parameters
-
-
-
-
-### -param lIndex [in]
-
-Type: <b>long</b>
-
-A <b>long</b> value that specifies the outbound routing rule to retrieve from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of items returned by a call to the <a href="https://msdn.microsoft.com/3add9157-b82a-4046-ad20-f6a29f92257e">IFaxOutboundRoutingRules::get_Count</a> method.
-
-
-### -param pFaxOutboundRoutingRule [out, retval]
-
-Type: <b><a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>**</b>
-
-An address of a pointer that receives the <a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a> interface.
-
-
-## -returns
-
-
-
-Type: <b>HRESULT</b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 
 ## -see-also
@@ -89,11 +65,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a>
+<a href="https://msdn.microsoft.com/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/35bb803d-fce4-46a3-825a-ec3a5138ed67">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gpmc\igpmgpo_makeaclconsistent.htm
 old-project: GPMC
 ms.assetid: 936e7795-e5ab-4014-86df-6b74ab122b11
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 06/11/2018
 ms.keywords: GPMGPO class [GPMC],MakeACLConsistent method, IGPMGPO interface [GPMC],MakeACLConsistent method, IGPMGPO.MakeACLConsistent, IGPMGPO::MakeACLConsistent, MakeACLConsistent, MakeACLConsistent method [GPMC], MakeACLConsistent method [GPMC],GPMGPO class, MakeACLConsistent method [GPMC],IGPMGPO interface, gpmc.igpmgpo_makeaclconsistent, gpmgmt/IGPMGPO::MakeACLConsistent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Makes <a href="https://www.bing.com/search?q=ACLs">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="https://msdn.microsoft.com/4a4f2d87-bfaa-453a-9dbe-de19ba1d1953">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
+Makes <a href="security.access_control_lists_acls_">ACLs</a> consistent on the Directory Service and the system  volume folder (SysVol) of the GPO. <a href="https://msdn.microsoft.com/4a4f2d87-bfaa-453a-9dbe-de19ba1d1953">IsACLConsistent</a> can be used to check for consistency of ACLs between the Directory Service and system volume folder (SysVol).
 
 
 ## -parameters

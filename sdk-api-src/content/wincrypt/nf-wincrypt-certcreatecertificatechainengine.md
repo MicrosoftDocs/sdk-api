@@ -97,7 +97,7 @@ The <i>phChainEngine</i> parameter returns the chain engine handle.
 
 
 
-<a href="https://www.bing.com/search?q=Certificate+Chain+Verification+Functions">Certificate Chain Verification Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
 
 
 

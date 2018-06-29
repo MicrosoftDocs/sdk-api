@@ -7,7 +7,7 @@ old-location: menurc\createacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: CreateAcceleratorTable, CreateAcceleratorTable function [Menus and Other Resources], CreateAcceleratorTableA, CreateAcceleratorTableW, _win32_CreateAcceleratorTable, _win32_createacceleratortable_cpp, menurc.createacceleratortable, winui._win32_createacceleratortable, winuser/CreateAcceleratorTable, winuser/CreateAcceleratorTableA, winuser/CreateAcceleratorTableW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: AR_STATE, *PAR_STATE
+req.typenames: POINTER_DEVICE_TYPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -81,14 +81,14 @@ TBD
 
 Type: <b>int</b>
 
-The number of <a href="https://msdn.microsoft.com/9995bfc3-adc5-4a6d-b834-a96e1ceb6ea0">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
+The number of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
 
 
 #### - lpaccl [in]
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://msdn.microsoft.com/9995bfc3-adc5-4a6d-b834-a96e1ceb6ea0">ACCEL</a> structures that describes the accelerator table.
+An array of <a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a> structures that describes the accelerator table.
 
 
 ## -returns
@@ -106,12 +106,12 @@ If the function succeeds, the return value is the handle to the created accelera
 
 
 
-Before an application closes, it can use the <a href="https://msdn.microsoft.com/17fd308f-c1ad-41aa-ae65-72e22a7500f3">DestroyAcceleratorTable</a> function to destroy any accelerator tables that it created by using the <b>CreateAcceleratorTable</b> function.
+Before an application closes, it can use the <a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a> function to destroy any accelerator tables that it created by using the <b>CreateAcceleratorTable</b> function.
 
 
 #### Examples
 
-For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editable+Accelerators">Creating User Editable Accelerators</a>.
+For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85).aspx">Creating User Editable Accelerators</a>.
 
 <div class="code"></div>
 
@@ -122,7 +122,7 @@ For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editabl
 
 
 
-<a href="https://msdn.microsoft.com/9995bfc3-adc5-4a6d-b834-a96e1ceb6ea0">ACCEL</a>
+<a href="https://msdn.microsoft.com/library/ms646340(v=VS.85).aspx">ACCEL</a>
 
 
 
@@ -130,19 +130,19 @@ For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editabl
 
 
 
-<a href="https://msdn.microsoft.com/9dd87782-aa38-44eb-a35d-3d990cece223">CopyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/library/ms646364(v=VS.85).aspx">CopyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/17fd308f-c1ad-41aa-ae65-72e22a7500f3">DestroyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb5e268d-8e38-4682-a736-ecf9bcc34acd">Keyboard Accelerators</a>
+<a href="https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
 
 
 
@@ -150,7 +150,7 @@ For an example, see <a href="https://www.bing.com/search?q=Creating+User+Editabl
 
 
 
-<a href="https://msdn.microsoft.com/0d8a970c-68b2-45e6-8702-2490029c1e1d">TranslateAccelerator</a>
+<a href="https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx">TranslateAccelerator</a>
  
 
  

@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Generates glyph <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">advance width</a> and two-dimensional offset information from the output of <a href="https://msdn.microsoft.com/073ba94a-ebfa-42f5-9d90-d5693dc25703">ScriptShape</a>.
+Generates glyph <a href="https://msdn.microsoft.com/library/Dd374094(v=VS.85).aspx">advance width</a> and two-dimensional offset information from the output of <a href="https://msdn.microsoft.com/073ba94a-ebfa-42f5-9d90-d5693dc25703">ScriptShape</a>.
 
 
 ## -parameters
@@ -104,7 +104,7 @@ Optional. Pointer to an array of <a href="https://msdn.microsoft.com/63fa8741-c8
 
 ### -param pABC [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structure in which this function retrieves the <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">ABC width</a> for the entire <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">run</a>.
+Pointer to an <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structure in which this function retrieves the <a href="https://msdn.microsoft.com/library/Dd374094(v=VS.85).aspx">ABC width</a> for the entire <a href="https://msdn.microsoft.com/library/windows/hardware/ff569516">run</a>.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The function returns E_PENDING if the script cache specified by the <i>psc</i> p
 
 See <a href="https://msdn.microsoft.com/e1adc567-0445-4deb-8634-25653f82127c">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
-The composite ABC width for the whole item identifies how much the glyphs <a href="https://docs.microsoft.com/windows/desktop//Intl/uniscribe-glossary">overhang</a> to the left of the start position and to the right of the length implied by the sum of the advance widths. The total advance width of the line is exactly abcA+abcB+abcC. The abcA and abcC values are maintained as proportions of the cell height represented in 8 bits and are thus roughly +/-1 percent. The total width retrieved, which is the sum of the abcA+abcB+abcC values indicated by <i>piAdvance</i>, is accurate to the resolution of the TrueType shaping engine.
+The composite ABC width for the whole item identifies how much the glyphs <a href="https://msdn.microsoft.com/library/Dd374094(v=VS.85).aspx">overhang</a> to the left of the start position and to the right of the length implied by the sum of the advance widths. The total advance width of the line is exactly abcA+abcB+abcC. The abcA and abcC values are maintained as proportions of the cell height represented in 8 bits and are thus roughly +/-1 percent. The total width retrieved, which is the sum of the abcA+abcB+abcC values indicated by <i>piAdvance</i>, is accurate to the resolution of the TrueType shaping engine.
 
 All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in the <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
 

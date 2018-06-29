@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassinstallparams.htm
 old-project: devinst
 ms.assetid: 4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetClassInstallParams, SetupDiGetClassInstallParams function [Device and Driver Installation], SetupDiGetClassInstallParamsA, SetupDiGetClassInstallParamsW, devinst.setupdigetclassinstallparams, di-rtns_2f7d5019-6b09-4dc0-8640-8a452d01e6da.xml, setupapi/SetupDiGetClassInstallParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetClassInstallParamsW function
@@ -62,7 +62,7 @@ The <b>SetupDiGetClassInstallParams</b> function retrieves class installation pa
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the class install parameters to retrieve.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the class install parameters to retrieve.
 
 
 ### -param DeviceInfoData [in, optional]

@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IPortableDevice::Content
@@ -65,7 +65,7 @@ req.product: Rights Management Services client 1.0 or later
 ### -param ppContent [out]
 
 
-            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/7a03c673-8e7f-41a4-81ba-88406af2762d">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
+            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
           
 
 

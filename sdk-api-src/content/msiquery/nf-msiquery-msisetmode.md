@@ -7,7 +7,7 @@ old-location: setup\msisetmode.htm
 old-project: Msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ This function returns UINT.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop//Msi/database-functions">Installer State Access Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
  
 
  

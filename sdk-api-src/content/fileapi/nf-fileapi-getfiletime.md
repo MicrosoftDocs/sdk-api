@@ -94,8 +94,8 @@ A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec91
 
 A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure to 
       receive the date and time the file or directory was last written to, truncated, or overwritten (for example, 
-      with <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a> or 
-      <a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a>). This date and time is not updated when 
+      with <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> or 
+      <a href="https://msdn.microsoft.com/library/Aa365531(v=VS.85).aspx">SetEndOfFile</a>). This date and time is not updated when 
       file attributes or security descriptors are changed. This parameter can be <b>NULL</b> if the 
       application does not require this information.
 

@@ -7,7 +7,7 @@ old-location: parcon\iwindowsparentalcontrols.htm
 old-project: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/12/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Enables access to all settings interfaces of the Minimum Compliance API.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControls</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWindowsParentalControls</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControls</b> interface inherits from <a href="parcon.iwindowsparentalcontrolscore">IWindowsParentalControlsCore</a>. <b>IWindowsParentalControls</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

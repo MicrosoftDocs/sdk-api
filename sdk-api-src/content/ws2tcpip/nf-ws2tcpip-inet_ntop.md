@@ -145,7 +145,7 @@ If the function fails, the extended error code returned by <a href="https://msdn
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop//WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">

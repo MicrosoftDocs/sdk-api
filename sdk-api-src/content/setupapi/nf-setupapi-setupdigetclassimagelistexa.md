@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassimagelistex.htm
 old-project: devinst
 ms.assetid: f9cf7904-3fda-4f7f-bb05-3634fd1c9af3
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiGetClassImageListEx, SetupDiGetClassImageListEx function [Device and Driver Installation], SetupDiGetClassImageListExA, SetupDiGetClassImageListExW, devinst.setupdigetclassimagelistex, di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml, setupapi/SetupDiGetClassImageListEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiGetClassImageListExA function

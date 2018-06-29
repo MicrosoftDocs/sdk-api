@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT structure
@@ -71,7 +71,7 @@ The current PWM signal duty cycle, as a PWM_PERCENTAGE, which is a ULONGLONG val
 
 
 
-<a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_get_active_duty_cycle_percentage">IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
+<a href="https://msdn.microsoft.com/library/Mt843915(v=VS.85).aspx">IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
  
 
  

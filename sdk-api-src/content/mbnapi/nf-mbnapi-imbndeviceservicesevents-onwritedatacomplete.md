@@ -61,7 +61,7 @@ Notification method indicating that a device service session <b>Write</b> reques
 
 ### -param deviceService [in]
 
-The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> session object on which the <b>Write</b> was requested.
+The <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the <b>Write</b> was requested.
 
 
 ### -param status [in]

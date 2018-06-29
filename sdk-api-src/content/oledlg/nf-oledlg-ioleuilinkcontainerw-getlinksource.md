@@ -7,7 +7,7 @@ old-location: com\ioleuilinkcontainer_getlinksource.htm
 old-project: com
 ms.assetid: 10f1bc84-cc09-4a41-8f55-21314338f636
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetLinkSource, GetLinkSource method [COM], GetLinkSource method [COM],IOleUILinkContainer interface, GetLinkSource method [COM],IOleUILinkContainerA interface, GetLinkSource method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkSource method, IOleUILinkContainer::GetLinkSource, IOleUILinkContainerA interface [COM],GetLinkSource method, IOleUILinkContainerA::GetLinkSource, IOleUILinkContainerW interface [COM],GetLinkSource method, IOleUILinkContainerW.GetLinkSource, IOleUILinkContainerW::GetLinkSource, _ole_IOleUILinkContainer_GetLinkSource, com.ioleuilinkcontainer_getlinksource, oledlg/IOleUILinkContainer::GetLinkSource, oledlg/IOleUILinkContainerA::GetLinkSource, oledlg/IOleUILinkContainerW::GetLinkSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IOleUILinkContainerW::GetLinkSource

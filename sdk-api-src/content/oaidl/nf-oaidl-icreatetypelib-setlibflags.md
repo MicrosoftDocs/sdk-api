@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ICreateTypeLib::SetLibFlags
@@ -140,7 +140,7 @@ The state of the type library is not valid for this operation.
 
 
 
-Valid <i>uLibFlags</i> values are listed in <a href="/previous-versions/windows/desktop/api/oaidl/ne-oaidl-taglibflags">LIBFLAGS</a>. 
+Valid <i>uLibFlags</i> values are listed in <a href="https://msdn.microsoft.com/library/ms221149(v=VS.85).aspx">LIBFLAGS</a>. 
 
 
 

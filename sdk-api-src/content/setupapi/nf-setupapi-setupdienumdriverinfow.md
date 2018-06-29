@@ -7,7 +7,7 @@ old-location: devinst\setupdienumdriverinfo.htm
 old-project: devinst
 ms.assetid: c4a66d0c-e9a9-41f8-87df-576795667b5c
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 06/08/2018
 ms.keywords: SetupDiEnumDriverInfo, SetupDiEnumDriverInfo function [Device and Driver Installation], SetupDiEnumDriverInfoA, SetupDiEnumDriverInfoW, devinst.setupdienumdriverinfo, di-rtns_8d84a225-9dac-4ab3-8c9a-5048284d82be.xml, setupapi/SetupDiEnumDriverInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # SetupDiEnumDriverInfoW function
@@ -62,7 +62,7 @@ The <b>SetupDiEnumDriverInfo</b> function enumerates the members of a driver lis
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://www.bing.com/search?q=device+information+set">device information set</a> that contains the driver list to enumerate.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the driver list to enumerate.
 
 
 ### -param DeviceInfoData [in, optional]

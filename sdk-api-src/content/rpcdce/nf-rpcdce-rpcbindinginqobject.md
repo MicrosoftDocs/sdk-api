@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # RpcBindingInqObject function
@@ -68,7 +68,7 @@ Client or server binding handle.
 ### -param ObjectUuid
 
 Returns a pointer to the object 
-<a href="https://www.bing.com/search?q=UUID">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The binding handle was invalid.
 
 An application calls the 
 <b>RpcBindingInqObject</b> function to see the object 
-<a href="https://www.bing.com/search?q=UUID">UUID</a> associated with a client or server binding handle.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> associated with a client or server binding handle.
 
 
 

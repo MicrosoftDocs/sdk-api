@@ -7,7 +7,7 @@ old-location: com\apttype.htm
 old-project: com
 ms.assetid: eae95b1f-3883-4334-aa7e-84e71e05fb24
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: APTTYPE, APTTYPE enumeration [COM], APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, APTTYPE_STA, _APTTYPE, _com_APTTYPE, com.apttype, objidlbase/APTTYPE, objidlbase/APTTYPE_CURRENT, objidlbase/APTTYPE_MAINSTA, objidlbase/APTTYPE_MTA, objidlbase/APTTYPE_NA, objidlbase/APTTYPE_STA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _APTTYPE enumeration

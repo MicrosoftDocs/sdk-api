@@ -7,7 +7,7 @@ old-location: com\ienumformatetc.htm
 old-project: com
 ms.assetid: 4d180fdd-2d58-4d26-9242-6552dda0d3e6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC interface [COM],described, _ole_ienumformatetc, com.ienumformatetc, objidl/IEnumFORMATETC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IEnumFORMATETC interface
@@ -56,7 +56,7 @@ Enumerates the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFORMATETC</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumFORMATETC</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFORMATETC</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumFORMATETC</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

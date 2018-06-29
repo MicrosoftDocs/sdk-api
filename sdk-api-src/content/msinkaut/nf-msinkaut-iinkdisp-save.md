@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_save.htm
 old-project: tablet
 ms.assetid: 31da19a7-207f-4f11-9b0f-7402e9727f59
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerializedFormat, Gif, IInkDisp interface [Tablet PC],Save method, IInkDisp.Save, IInkDisp::Save, IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkSerializedFormat, Save, Save method [Tablet PC], Save method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Save, tablet.inkdisp_save
 ms.prod: windows
 ms.technology: windows-sdk
@@ -301,7 +301,7 @@ Occurs if you attempt to save an empty Ink object in GIF format.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms704893(v=vs.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # DestroyPropertySheetPage function
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function.
+Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://msdn.microsoft.com/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function.
 
 
 ## -parameters

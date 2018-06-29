@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # ISearchManager2::CreateCatalog
@@ -68,9 +68,9 @@ Name of catalog to create. Can be any name selected by the caller, must contain 
 
 ### -param ppCatalogManager [out]
 
-Type: <b><a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a>**</b>
 
-On success a reference to the created catalog is returned as an <a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalogManager</a> interface pointer. The Release() must be called on this interface after the calling application has finished using it.
+On success a reference to the created catalog is returned as an <a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalogManager</a> interface pointer. The Release() must be called on this interface after the calling application has finished using it.
 
 
 ## -returns
@@ -123,7 +123,7 @@ FAILED HRESULT: Failure creating catalog or invalid arguments passed.
 
 
 Called to create a new catalog in the Windows Search indexer.
-After creation, the methods on the returned  <a href="https://msdn.microsoft.com/098e0574-53af-4b52-99e7-659f98b914ae">ISearchCatalog</a> manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results.
+After creation, the methods on the returned  <a href="https://msdn.microsoft.com/library/Bb266414(v=VS.85).aspx">ISearchCatalog</a> manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results.
 See the â€œManaging the Indexâ€ documentation for more info: http://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx 
 
 

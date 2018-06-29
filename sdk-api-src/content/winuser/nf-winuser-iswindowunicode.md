@@ -1,0 +1,107 @@
+---
+UID: NF:winuser.IsWindowUnicode
+title: IsWindowUnicode function
+author: windows-sdk-content
+description: Determines whether the specified window is a native Unicode window.
+old-location: winmsg\iswindowunicode.htm
+old-project: winmsg
+ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowunicode.htm
+ms.author: windowssdkdev
+ms.date: 03/29/2018
+ms.keywords: IsWindowUnicode, IsWindowUnicode function [Windows and Messages], _win32_IsWindowUnicode, _win32_iswindowunicode_cpp, winmsg.iswindowunicode, winui._win32_iswindowunicode, winuser/IsWindowUnicode
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: winuser.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: POINTER_DEVICE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - IsWindowUnicode
+product: Windows
+targetos: Windows
+req.lib: User32.lib
+req.dll: User32.dll
+req.irql: 
+req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
+---
+
+# IsWindowUnicode function
+
+
+## -description
+
+
+Determines whether the specified window is a native Unicode window. 
+
+
+## -parameters
+
+
+
+
+### -param hWnd [in]
+
+Type: <b>HWND</b>
+
+A handle to the window to be tested. 
+
+
+## -returns
+
+
+
+Type: <strong>Type: <b>BOOL</b>
+</strong>
+
+If the window is a native Unicode window, the return value is nonzero.
+
+If the window is not a native Unicode window, the return value is zero. The window is a native ANSI window.
+
+
+
+
+## -remarks
+
+
+
+The character set of a window is determined by the use of the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. If the window class was registered with the ANSI version of <b>RegisterClass</b> (<b>RegisterClassA</b>), the character set of the window is ANSI. If the window class was registered with the Unicode version of <b>RegisterClass</b> (<b>RegisterClassW</b>), the character set of the window is Unicode. 
+
+The system does automatic two-way translation (Unicode to ANSI) for window messages. For example, if an ANSI window message is sent to a window that uses the Unicode character set, the system translates that message into a Unicode message before calling the window procedure. The system calls <b>IsWindowUnicode</b> to determine whether to translate the message. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+ 
+
+ 
+

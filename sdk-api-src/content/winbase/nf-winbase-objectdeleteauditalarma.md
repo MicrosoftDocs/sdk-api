@@ -132,7 +132,7 @@ The <b>ObjectDeleteAuditAlarm</b> function requires the calling application to h
 
 
 
-<a href="https://www.bing.com/search?q=Client/Server+Access+Control+Functions">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

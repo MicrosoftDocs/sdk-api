@@ -7,7 +7,7 @@ old-location: com\iobjectwithsite_getsite.htm
 old-project: com
 ms.assetid: f88ef2b1-63c3-4307-a5e1-b9104c8aef29
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: GetSite, GetSite method [COM], GetSite method [COM],IObjectWithSite interface, IObjectWithSite interface [COM],GetSite method, IObjectWithSite.GetSite, IObjectWithSite::GetSite, _ole_iobjectwithsite_getsite, com.iobjectwithsite_getsite, ocidl/IObjectWithSite::GetSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IObjectWithSite::GetSite

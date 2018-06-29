@@ -7,7 +7,7 @@ old-location: menurc\tpmparams.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\tpmparams.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPTPMPARAMS, LPTPMPARAMS, LPTPMPARAMS structure pointer [Menus and Other Resources], TPMPARAMS, TPMPARAMS structure [Menus and Other Resources], _win32_TPMPARAMS_str, _win32_tpmparams_str_cpp, menurc.tpmparams, tagTPMPARAMS, winui._win32_tpmparams_str, winuser/LPTPMPARAMS, winuser/TPMPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains extended parameters for the <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a> function.
+Contains extended parameters for the <a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> function.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 
@@ -90,7 +90,7 @@ The rectangle to be excluded when positioning the window, in screen coordinates.
 
 
 
-<a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>
+<a href="https://msdn.microsoft.com/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
  
 
  

@@ -76,7 +76,7 @@ A pointer to a table of TCP connections implemented as an array of
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>
+The <a href="https://msdn.microsoft.com/library/Aa366026(v=VS.85).aspx">GetTcpTable</a>
 			function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <b>MIB_TCPTABLE</b> structure. An array of <a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> structures are contained in the <b>MIB_TCPTABLE</b> structure. 
 
 

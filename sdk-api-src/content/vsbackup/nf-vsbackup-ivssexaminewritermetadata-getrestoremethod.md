@@ -197,7 +197,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
 
 A file should always be restored to its alternate location mapping if either of the following is true:
 

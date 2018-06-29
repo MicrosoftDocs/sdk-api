@@ -7,7 +7,7 @@ old-location: com\imarshal_releasemarshaldata.htm
 old-project: com
 ms.assetid: c58c7768-9200-4370-930c-89a6c6d2b430
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IMarshal interface [COM],ReleaseMarshalData method, IMarshal.ReleaseMarshalData, IMarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],IMarshal interface, _com_imarshal_releasemarshaldata, com.imarshal_releasemarshaldata, objidlbase/IMarshal::ReleaseMarshalData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IMarshal::ReleaseMarshalData

@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
- Retrieves a string that describes the <a href="/windows/desktop/api/mstask/ns-mstask-_monthlydow">work item</a> trigger.
+ Retrieves a string that describes the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a> trigger.
 
 
 ## -parameters

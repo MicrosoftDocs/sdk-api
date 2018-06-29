@@ -7,7 +7,7 @@ old-location: tablet\reco_attrs.htm
 old-project: tablet
 ms.assetid: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/12/2018
 ms.keywords: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d, RECO_ATTRS, RECO_ATTRS structure [Tablet PC], rectypes/RECO_ATTRS, tablet.reco_attrs, tagRECO_ATTRS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # tagRECO_ATTRS structure

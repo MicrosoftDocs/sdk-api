@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_GetIcon.htm
 old-project: shell
 ms.assetid: e39bd663-3f2d-4b72-9882-1313ee457844
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/11/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetIcon method, IShellLibrary.GetIcon, IShellLibrary::GetIcon, _shell_IShellLibrary_GetIcon, shell.IShellLibrary_GetIcon, shobjidl_core/IShellLibrary::GetIcon
 ms.prod: windows
 ms.technology: windows-sdk

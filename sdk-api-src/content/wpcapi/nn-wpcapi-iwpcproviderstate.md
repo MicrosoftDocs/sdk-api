@@ -7,7 +7,7 @@ old-location: parcon\iwpcproviderstate.htm
 old-project: parcon
 ms.assetid: a5cd14df-8e64-4f34-801c-9901c7d215f9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 06/12/2018
 ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState interface,described, parcon.iwpcproviderstate, wpcapi/IWPCProviderState
 ms.prod: windows
 ms.technology: windows-sdk

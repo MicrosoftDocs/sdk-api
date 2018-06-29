@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # _AUTHENTICATION_INFO structure
@@ -69,9 +69,9 @@ Size of the structure, in bytes.
 
 ### -field atAuthenticationType
 
-Type: <b><a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a></b>
 
-Flag to describe the type of authentication. For a list of possible values, see the <a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a> enumerated type.
+Flag to describe the type of authentication. For a list of possible values, see the <a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumerated type.
 
 
 ### -field pcwszUser

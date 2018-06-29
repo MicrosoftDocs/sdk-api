@@ -7,7 +7,7 @@ old-location: com\bindmoniker.htm
 old-project: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # BindMoniker function

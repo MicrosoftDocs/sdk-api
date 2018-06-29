@@ -81,7 +81,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>
+<a href="https://msdn.microsoft.com/library/Aa365953(v=VS.85).aspx">GetIpForwardTable</a>
 
 
 

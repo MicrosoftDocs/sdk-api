@@ -7,7 +7,7 @@ old-location: com\irpcoptions_set.htm
 old-project: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 06/08/2018
 ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 or later
+req.product: ADAM
 ---
 
 # IRpcOptions::Set
