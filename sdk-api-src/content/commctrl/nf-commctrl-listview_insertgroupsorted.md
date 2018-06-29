@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Inserts a group into an ordered list of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/8ad1660b-8b64-4f02-ac1b-b7edeeea38ab">LVM_INSERTGROUPSORTED</a> message explicitly. 
+Inserts a group into an ordered list of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a> message explicitly. 
 
 
 ## -parameters

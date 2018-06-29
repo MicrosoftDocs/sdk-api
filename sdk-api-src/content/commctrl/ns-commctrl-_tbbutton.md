@@ -62,7 +62,7 @@ Contains information about a button in a toolbar.
 
 Type: <b>int</b>
 
-Zero-based index of the button image. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/ed6e4141-2bf8-4a92-8349-f3833c87fcf3">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
+Zero-based index of the button image. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.

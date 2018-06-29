@@ -67,7 +67,7 @@ A string that contains the name of the new <a href="https://msdn.microsoft.com/5
 
 The address of a pointer to the <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object that this method creates.
 
-When you have finished using this <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object, release it by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
+When you have finished using this <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object, release it by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

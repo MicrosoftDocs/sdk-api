@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Ends the editing of a tree-view item's label. You can use this macro or send the <a href="https://msdn.microsoft.com/68de2020-9311-4958-859a-de55f5e41fcf">TVM_ENDEDITLABELNOW</a> message explicitly. 
+Ends the editing of a tree-view item's label. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773564(v=VS.85).aspx">TVM_ENDEDITLABELNOW</a> message explicitly. 
 
 
 ## -parameters

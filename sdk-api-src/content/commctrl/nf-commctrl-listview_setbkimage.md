@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/8fdd363c-ac12-498b-80b7-aaa5741cfd76">LVM_SETBKIMAGE</a> message explicitly.
+Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message explicitly.
 
 
 ## -parameters

@@ -97,7 +97,7 @@ The
 
 
 
-<a href="_ole_olesave">OleSave</a>
+<a href="https://msdn.microsoft.com/library/ms691490(v=VS.85).aspx">OleSave</a>
 
 
 

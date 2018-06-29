@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the text of the note associated with a command link button. You can use this macro or send the <a href="https://msdn.microsoft.com/ddaf4227-1316-49b5-abf0-00215472c46c">BCM_GETNOTE</a> message explicitly.
+Gets the text of the note associated with a command link button. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775965(v=VS.85).aspx">BCM_GETNOTE</a> message explicitly.
 
 
 ## -parameters

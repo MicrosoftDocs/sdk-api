@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Opens an AVI clip and displays its first frame in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4">ACM_OPEN</a> message explicitly. 
+Opens an AVI clip and displays its first frame in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly. 
 
 
 ## -parameters
@@ -94,7 +94,7 @@ If this parameter is <b>NULL</b>, the system closes the AVI file that was previo
 
 
 
-You can only open silent AVI clips. <a href="https://msdn.microsoft.com/87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4">ACM_OPEN</a> and <b>Animate_Open</b> will fail if <i>lpszName</i> specifies an AVI clip that contains sound. 
+You can only open silent AVI clips. <a href="https://msdn.microsoft.com/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> and <b>Animate_Open</b> will fail if <i>lpszName</i> specifies an AVI clip that contains sound. 
 
 You can use <a href="https://msdn.microsoft.com/e5997bda-2eb0-452b-a9c3-11ca7110d0fb">Animate_Close</a> to close an AVI file or AVI resource that was previously opened for the specified animation control. 
 

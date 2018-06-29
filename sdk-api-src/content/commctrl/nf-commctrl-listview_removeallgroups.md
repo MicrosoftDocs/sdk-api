@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes all groups from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/b8971f35-dc04-4729-8ac1-8cabbc86caa6">LVM_REMOVEALLGROUPS</a> message explicitly. 
+Removes all groups from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761147(v=VS.85).aspx">LVM_REMOVEALLGROUPS</a> message explicitly. 
 
 
 ## -parameters

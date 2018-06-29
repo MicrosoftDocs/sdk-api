@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/b63f13f1-6e66-4770-af84-30bcdb241727">LVM_EDITLABEL</a> message explicitly. 
+Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774898(v=VS.85).aspx">LVM_EDITLABEL</a> message explicitly. 
 
 
 ## -parameters

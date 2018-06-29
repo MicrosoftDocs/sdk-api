@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the <a href="https://msdn.microsoft.com/783a5e23-d1cb-4523-a6d2-b2cf93fa7f62">LVM_ENABLEGROUPVIEW</a> message explicitly. 
+Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774900(v=VS.85).aspx">LVM_ENABLEGROUPVIEW</a> message explicitly. 
 
 
 ## -parameters

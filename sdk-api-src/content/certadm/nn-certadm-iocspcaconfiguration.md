@@ -62,7 +62,7 @@ Microsoft provides a default implementation of this interface in the <b>OCSPCACo
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

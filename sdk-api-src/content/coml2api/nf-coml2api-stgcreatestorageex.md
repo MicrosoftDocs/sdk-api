@@ -154,8 +154,8 @@ A pointer to an interface pointer variable that receives a pointer for an interf
 
 
 This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
-<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
-<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
+<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
+<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
 
 
 
@@ -199,7 +199,7 @@ Specifying STGM_SIMPLE provides a much faster implementation of a compound file 
 The simple mode does not support all the methods on 
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>. Specifically, in simple mode, supported 
 <b>IStorage</b> methods are <a href="https://msdn.microsoft.com/168f5ac9-8a72-4356-82a4-de3a7ec72c05">CreateStream</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>, and 
-<a href="https://msdn.microsoft.com/02ab2708-fc8b-4941-939a-a819cf823108">SetClass</a> as well as the COM <a href="_com_iunknown">IUnknown</a> methods of <a href="_com_iunknown_queryinterface">QueryInterface</a>, <a href="_com_iunknown_addref">AddRef</a> and <a href="_com_iunknown_release">Release</a>. In addition, 
+<a href="https://msdn.microsoft.com/02ab2708-fc8b-4941-939a-a819cf823108">SetClass</a> as well as the COM <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> methods of <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a>, <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> and <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a>. In addition, 
 <a href="https://msdn.microsoft.com/f6a1fba4-0444-4de3-a838-2d339878fe24">SetElementTimes</a> is supported with a <b>NULL</b> name, allowing applications to set times on a root storage. All the other methods of 
 <b>IStorage</b> return STG_E_INVALIDFUNCTION.
 

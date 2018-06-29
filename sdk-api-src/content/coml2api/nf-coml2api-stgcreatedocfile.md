@@ -95,8 +95,8 @@ A pointer to the location of the
 
 
 <b>StgCreateDocfile</b> can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
-<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
-<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
+<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
+<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
 
 
 

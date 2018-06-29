@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the minimum size required to display a full month in a month calendar control. Size information is presented in the form of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. You can use this macro or send the <a href="https://msdn.microsoft.com/f0378338-4809-48e9-9387-ed8b79356f95">MCM_GETMINREQRECT</a> message explicitly. 
+Retrieves the minimum size required to display a full month in a month calendar control. Size information is presented in the form of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760978(v=VS.85).aspx">MCM_GETMINREQRECT</a> message explicitly. 
 
 
 ## -parameters
