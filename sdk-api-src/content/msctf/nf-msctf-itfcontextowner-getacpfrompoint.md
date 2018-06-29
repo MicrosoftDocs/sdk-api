@@ -134,7 +134,7 @@ The application has not calculated a text layout.
 
 
 
-<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="images/ACPFig01.gif"/>
+<img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="./images/ACPFig01.gif"/>
 Use the illustration to determine the character position returned based on the flags used in the <i>dwFlags</i> parameter.
 
 <b>Point 1

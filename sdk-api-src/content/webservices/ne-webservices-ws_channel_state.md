@@ -88,7 +88,7 @@ The different states that a channel can be in.
                 The following are the state transitions for a channel.
             
 
-<img alt="" src="images/ChannelStates.png"/>
+<img alt="" src="./images/ChannelStates.png"/>
 
 
                 A channel may move to the <b>WS_CHANNEL_STATE_FAULTED</b> 

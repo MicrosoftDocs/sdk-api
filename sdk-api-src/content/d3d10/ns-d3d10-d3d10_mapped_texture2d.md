@@ -80,15 +80,15 @@ This structure is used in a call to <a href="https://msdn.microsoft.com/40d0d246
 
 To illustrate the row pitch, assume an uncompressed 2D texture with mipmap levels, as shown in the following illustration.
 
-<img alt="Illustration of an uncompressed 2D texture with mipmap levels" src="images/d3d10_resource_texture2d.png"/>
+<img alt="Illustration of an uncompressed 2D texture with mipmap levels" src="./images/d3d10_resource_texture2d.png"/>
 
 Visualize the top-level texture drawn in a single plane like the following illustration.
 
-<img alt="Illustration of a single plane" src="images/d3d10_2d_texture_conceptual.png"/>
+<img alt="Illustration of a single plane" src="./images/d3d10_2d_texture_conceptual.png"/>
 
 However, the actual layout of each element in memory looks more like the following illustration.
 
-<img alt="Illustration of the row pitch in memory" src="images/d3d10_2d_texture_memory.png"/>
+<img alt="Illustration of the row pitch in memory" src="./images/d3d10_2d_texture_memory.png"/>
 
 For this example, the row pitch encompasses 5 elements (one row), whose size would be five times the number of bytes per element.
 
