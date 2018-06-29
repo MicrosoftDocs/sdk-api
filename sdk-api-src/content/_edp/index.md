@@ -2,7 +2,7 @@
 UID: TP:edp
 ms.assetid: 13bd1e1d-a2d1-3fd8-be4b-3200f4a9456f
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -23,5 +23,5 @@ To develop Windows Information Protection (WIP), you need these headers:
  * [srpapi.h](../srpapi/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Information Protection (WIP)](https://msdn.microsoft.com/en-us/library/windows/desktop/mt759319.aspx)
+* [Windows Information Protection (WIP)](/previous-versions/windows/desktop/edp)
 

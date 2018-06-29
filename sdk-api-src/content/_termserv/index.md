@@ -2,7 +2,7 @@
 UID: TP:termserv
 ms.assetid: b47fd481-db98-36bc-9504-61dba2bfa2a1
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -20,6 +20,7 @@ To develop Remote Desktop Services, you need these headers:
  * [audioapotypes.h](../audioapotypes/index.md)
  * [cchannel.h](../cchannel/index.md)
  * [pchannel.h](../pchannel/index.md)
+ * [rdpappcontainerclient.h](../rdpappcontainerclient/index.md)
  * [rdpencomapi.h](../rdpencomapi/index.md)
  * [sbtsv.h](../sbtsv/index.md)
  * [sessdirpublictypes.h](../sessdirpublictypes/index.md)

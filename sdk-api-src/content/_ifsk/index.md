@@ -2,7 +2,7 @@
 UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

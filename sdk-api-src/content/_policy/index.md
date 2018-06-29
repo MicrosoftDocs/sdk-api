@@ -2,7 +2,7 @@
 UID: TP:policy
 ms.assetid: 5cc02d60-54b0-3330-8ff8-1b2f6e1f8c31
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,5 +21,5 @@ To develop Group Policy API, you need these headers:
  * [gpedit.h](../gpedit/index.md)
 
 For programming guidance for this technology, see:
-* [Group Policy API](https://msdn.microsoft.com/en-us/library/aa374177(v=vs.85).aspx)
+* [Group Policy API](/previous-versions/windows/desktop/policy)
 

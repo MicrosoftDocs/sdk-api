@@ -2,7 +2,7 @@
 UID: NA:traffic
 ms.assetid: 3b68caa4-02b0-3b3b-b132-3980a3c09514
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

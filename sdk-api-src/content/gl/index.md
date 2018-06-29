@@ -2,7 +2,7 @@
 UID: NA:gl
 ms.assetid: cc47c53a-5e41-3902-9302-723c8557b9bd
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

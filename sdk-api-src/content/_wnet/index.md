@@ -2,7 +2,7 @@
 UID: TP:wnet
 ms.assetid: 65604794-a7a0-34a4-8073-0694baf923aa
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

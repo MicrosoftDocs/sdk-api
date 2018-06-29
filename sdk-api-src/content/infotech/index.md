@@ -2,7 +2,7 @@
 UID: NA:infotech
 ms.assetid: 9708a16b-0bf1-3c57-a6b8-ec09e7b93605
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

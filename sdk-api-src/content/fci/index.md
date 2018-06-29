@@ -2,7 +2,7 @@
 UID: NA:fci
 ms.assetid: 0fb5c2fb-bad0-32fe-8fae-68194a526367
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

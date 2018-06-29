@@ -2,7 +2,7 @@
 UID: NA:gdiplusimagecodec
 ms.assetid: 2c993eda-61ad-3703-968b-521048f0cea3
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 06/29/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
