@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Provides access to the <a href="p_gly.htm">possible owner</a>
+Provides access to the <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>.
 

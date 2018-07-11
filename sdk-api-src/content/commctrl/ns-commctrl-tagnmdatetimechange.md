@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://msdn.microsoft.com/65cdd8fb-1f07-4447-b503-d40fdfa37202">DTN_DATETIMECHANGE</a> notification code. 
+Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb761737(v=VS.85).aspx">DTN_DATETIMECHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,16 +60,16 @@ Contains information about a change that has taken place in a date and time pick
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field dwFlags
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A value that indicates if the control was set to "no date" status (for <a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> only). This flag also specifies whether the contents of the <b>st</b> member are valid and contain current time information. This value can be one of the following: 
+A value that indicates if the control was set to "no date" status (for <a href="https://msdn.microsoft.com/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> only). This flag also specifies whether the contents of the <b>st</b> member are valid and contain current time information. This value can be one of the following: 
 
 <table>
 <tr>
@@ -82,7 +82,7 @@ A value that indicates if the control was set to "no date" status (for <a href="
 </dl>
 </td>
 <td width="60%">
-The control is set to "no date" status. The "no date" status applies only to controls that are set to the <a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> style.
+The control is set to "no date" status. The "no date" status applies only to controls that are set to the <a href="https://msdn.microsoft.com/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style.
 
 </td>
 </tr>

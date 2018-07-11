@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the number of items in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/1fbe44fc-8b9d-4bfa-a8bb-06817eecf064">LB_GETCOUNT</a> message explicitly.
+Gets the number of items in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775195(v=VS.85).aspx">LB_GETCOUNT</a> message explicitly.
 
 
 

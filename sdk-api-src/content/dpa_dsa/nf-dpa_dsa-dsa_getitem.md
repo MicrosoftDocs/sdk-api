@@ -116,7 +116,7 @@ Using the element pointer that this function retrieves, you can modify the data 
 
 
 
-<a href="https://msdn.microsoft.com/2e25edf8-9973-49ec-bc6c-b0dc48560832">DSA_GetItemPtr</a>
+<a href="https://msdn.microsoft.com/library/Bb775661(v=VS.85).aspx">DSA_GetItemPtr</a>
  
 
  

@@ -83,7 +83,7 @@ Reference to the desired interface ID.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://msdn.microsoft.com/950CA48D-A1DB-448D-B2A0-BCBD17FAC316">IImageList2</a>, which provides the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://msdn.microsoft.com/library/Bb761419(v=VS.85).aspx">IImageList2</a>, which provides the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a> method.
 
 
 ## -returns

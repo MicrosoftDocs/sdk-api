@@ -181,7 +181,7 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

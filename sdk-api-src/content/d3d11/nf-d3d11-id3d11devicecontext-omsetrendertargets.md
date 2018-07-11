@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
+Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
 
 
 ## -parameters
@@ -110,7 +110,7 @@ If any subresources are also currently bound for reading in a different stage or
 If the render-target views were created from an array resource type, all of the render-target views must have the same array size.  
       This restriction also applies to the depth-stencil view, its array size must match that of the render-target views being bound.
 
-The pixel shader must be able to simultaneously render to at least eight separate render targets. All of these render targets must access the same type of resource: <a href="https://msdn.microsoft.com/7f552b9b-c5fb-4bc2-a7ae-61983379db38">Buffer</a>, <a href="https://msdn.microsoft.com/5f6fd0e4-a73e-4d13-b3a0-c884b7912581">Texture1D</a>, <a href="https://msdn.microsoft.com/3d793423-3d79-48c1-aa78-f9d93b79e0b6">Texture1DArray</a>, <a href="https://msdn.microsoft.com/e4f9cfd8-65e6-4375-8f87-736bca32cad4">Texture2D</a>, <a href="https://msdn.microsoft.com/78ab2feb-4d67-4f6f-bffe-48d55183ce28">Texture2DArray</a>, <a href="https://msdn.microsoft.com/a3640aac-b503-4716-8bc6-105e96bea03c">Texture3D</a>, or <a href="https://msdn.microsoft.com/e8cb483a-d831-4942-b6fe-61dd5edb1813">TextureCube</a>. All render targets must have the same size in all dimensions (width and height, and depth for 3D or array size for *Array types). If render targets use multisample anti-aliasing, all bound render targets and depth buffer must be the same form of multisample resource (that is, the sample counts must be the same). Each render target can have a different data format. These render target formats are not required to have identical bit-per-element counts.
+The pixel shader must be able to simultaneously render to at least eight separate render targets. All of these render targets must access the same type of resource: <a href="https://msdn.microsoft.com/7f552b9b-c5fb-4bc2-a7ae-61983379db38">Buffer</a>, <a href="https://msdn.microsoft.com/5f6fd0e4-a73e-4d13-b3a0-c884b7912581">Texture1D</a>, <a href="https://msdn.microsoft.com/3d793423-3d79-48c1-aa78-f9d93b79e0b6">Texture1DArray</a>, <a href="https://msdn.microsoft.com/e4f9cfd8-65e6-4375-8f87-736bca32cad4">Texture2D</a>, <a href="https://msdn.microsoft.com/78ab2feb-4d67-4f6f-bffe-48d55183ce28">Texture2DArray</a>, <a href="https://msdn.microsoft.com/a3640aac-b503-4716-8bc6-105e96bea03c">Texture3D</a>, or <a href="https://msdn.microsoft.com/library/Bb509700(v=VS.85).aspx">TextureCube</a>. All render targets must have the same size in all dimensions (width and height, and depth for 3D or array size for *Array types). If render targets use multisample anti-aliasing, all bound render targets and depth buffer must be the same form of multisample resource (that is, the sample counts must be the same). Each render target can have a different data format. These render target formats are not required to have identical bit-per-element counts.
 
 Any combination of the eight slots for render targets can have a render target set or not set.
 

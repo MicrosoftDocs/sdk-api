@@ -121,7 +121,7 @@ The requested property does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/09200749-bd1d-4266-895e-29e21525bac2">IITPropList</a>
+<a href="https://msdn.microsoft.com/library/ms670040(v=VS.85).aspx">IITPropList</a>
  
 
  

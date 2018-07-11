@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/e0e42a81-67be-4d40-88c8-77398b068617">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/3b43430f-b55f-43ec-8558-baf5c953064f">SBM_GETSCROLLINFO</a> message). 
+The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function (or <a href="https://msdn.microsoft.com/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a> message). 
 
 
 ## -struct-fields
@@ -174,7 +174,7 @@ Specifies the position of the scroll box.
 
 Type: <b>int</b>
 
-Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function ignores this member. 
+Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function ignores this member. 
 
 
 ## -see-also
@@ -182,7 +182,7 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 
-<a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>
+<a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
 
 
 
@@ -190,15 +190,15 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 
-<a href="https://msdn.microsoft.com/3b43430f-b55f-43ec-8558-baf5c953064f">SBM_GETSCROLLINFO</a>
+<a href="https://msdn.microsoft.com/library/Bb787563(v=VS.85).aspx">SBM_GETSCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0e42a81-67be-4d40-88c8-77398b068617">SBM_SETSCROLLINFO</a>
+<a href="https://msdn.microsoft.com/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>
+<a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
  
 
  

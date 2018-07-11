@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/064d04b2-d74e-4a80-aec6-97a3c53fc4fb">LVM_GETHOTCURSOR</a> message explicitly. 
+Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774938(v=VS.85).aspx">LVM_GETHOTCURSOR</a> message explicitly. 
 
 
 ## -parameters
@@ -78,7 +78,7 @@ A handle to a list-view control.
 
 
 
-A list-view control uses hot tracking and hover selection when the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a> style is set. 
+A list-view control uses hot tracking and hover selection when the <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_TRACKSELECT</a> style is set. 
 
 
 

@@ -278,7 +278,7 @@ The queue receives a notification when a resource is deleted.
 The queue receives a notification when the 
          <a href="https://msdn.microsoft.com/library/windows/hardware/ff542598">properties</a>, 
          <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a>, or 
-         <a href="p_gly.htm">possible owner</a> nodes of a resource change.
+         <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">possible owner</a> nodes of a resource change.
 
 
 

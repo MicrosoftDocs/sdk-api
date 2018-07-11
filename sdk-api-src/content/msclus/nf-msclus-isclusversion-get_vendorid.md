@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns vendor 
-    information about the <a href="c_gly.htm">Cluster service</a> installed on 
+    information about the <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">Cluster service</a> installed on 
     the local <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
 
 This property is read-only.

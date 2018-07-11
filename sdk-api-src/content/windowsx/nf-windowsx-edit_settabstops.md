@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the <a href="https://msdn.microsoft.com/d6fe2828-4ae9-4652-ace0-2f71e146f777">EM_SETTABSTOPS</a> message explicitly.
+Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761663(v=VS.85).aspx">EM_SETTABSTOPS</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ A pointer to an array of unsigned integers specifying the tab stops, in dialog t
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/d6fe2828-4ae9-4652-ace0-2f71e146f777">EM_SETTABSTOPS</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb761663(v=VS.85).aspx">EM_SETTABSTOPS</a>.
 
 
 

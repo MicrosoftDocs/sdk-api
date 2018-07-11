@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 The 
 <b>IS_SPECIAL_DATAOBJECT</b> macro determines whether an <b>LPDATAOBJECT</b> passed by MMC in a call to the snap-in's 
 Notify method is a special type of data object instead of a pointer to an actual 
-<a href="_ole_idataobject">IDataObject</a> object.
+<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object.
 
 
 ## -parameters

@@ -71,7 +71,7 @@ A handle to the current window.
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
 
-          A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the outer object's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> automation interface.
+          A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the outer object's <a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> automation interface.
         
 
 

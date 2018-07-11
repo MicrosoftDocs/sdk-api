@@ -70,7 +70,7 @@ A value that specifies the snapin-provided unique identifier for the scope item.
 
 A pointer to the address of a string that specifies the view to display for the specified 
       <i>cookie</i>. The callee (snap-in) allocates the view type string using the COM API function 
-      <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+      <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
       <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
 
 The string that is returned depends on the view type:
@@ -258,7 +258,7 @@ This method can return one of these values.
 
 
 The callee (snap-in) allocates the view type string using COM API function 
-    <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+    <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
     <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
 
 MMC calls <b>GetResultViewType</b> when a 
@@ -292,7 +292,7 @@ A <a href="https://msdn.microsoft.com/3b48fb0b-d2c7-41e6-a5bf-277e6f92488b">cook
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/95b7d07a-594b-4096-afbb-4dab77bdc41d">CB_LIMITTEXT</a> message explicitly.
+Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775877(v=VS.85).aspx">CB_LIMITTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ The maximum number of characters.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/95b7d07a-594b-4096-afbb-4dab77bdc41d">CB_LIMITTEXT</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb775877(v=VS.85).aspx">CB_LIMITTEXT</a>.
 
 
 

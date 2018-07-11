@@ -88,15 +88,15 @@ fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/58cc052d-31af-4410-81b9-defbad08a1dc">Clipping</a>
+<a href="https://msdn.microsoft.com/library/ms536360(v=VS.85).aspx">Clipping</a>
 
 
 
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/b46ce1d3-c2b5-4dbf-86b7-2e6f52ab2787">GetClipBounds Methods</a>
+<a href="https://msdn.microsoft.com/library/ms535780(v=VS.85).aspx">GetClipBounds Methods</a>
 
 
 
@@ -104,7 +104,7 @@ fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/f3fcb50c-30c3-4a57-ab99-ebe7d05ede8f">Graphics::ResetClip</a>
+<a href="https://msdn.microsoft.com/library/ms535802(v=VS.85).aspx">Graphics::ResetClip</a>
 
 
 
@@ -112,7 +112,7 @@ fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/e8348373-da79-4d33-8bea-d594985493d4">SetClip Methods</a>
+<a href="https://msdn.microsoft.com/library/ms535789(v=VS.85).aspx">SetClip Methods</a>
  
 
  

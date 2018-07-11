@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the insertion mark in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/35441807-406a-408c-ad89-6dd40c907e3c">TVM_SETINSERTMARK</a> message explicitly. 
+Sets the insertion mark in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773753(v=VS.85).aspx">TVM_SETINSERTMARK</a> message explicitly. 
 
 
 ## -parameters

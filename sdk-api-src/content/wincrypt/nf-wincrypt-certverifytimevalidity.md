@@ -99,7 +99,7 @@ A pointer to the
 
 
 
-<a href="cryptography_functions.htm">Data Management Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
  
 
  

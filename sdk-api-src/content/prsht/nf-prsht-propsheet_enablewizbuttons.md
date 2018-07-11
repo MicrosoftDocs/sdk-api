@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4">PSM_ENABLEWIZBUTTONS</a> message explicitly.
+Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774577(v=VS.85).aspx">PSM_ENABLEWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters

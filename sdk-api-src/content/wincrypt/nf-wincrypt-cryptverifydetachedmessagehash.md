@@ -187,7 +187,7 @@ If the buffer specified by the <i>pbComputedHash</i> parameter is not large enou
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
  
 
  

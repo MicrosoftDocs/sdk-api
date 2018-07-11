@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains image list statistics. Used by <a href="https://msdn.microsoft.com/D6402FCB-8E84-4F46-9B88-C0AFCEA66A9A">GetStatistics</a>.
+Contains image list statistics. Used by <a href="https://msdn.microsoft.com/library/Bb761417(v=VS.85).aspx">GetStatistics</a>.
 
 
 ## -struct-fields

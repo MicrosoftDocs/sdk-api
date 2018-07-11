@@ -51,7 +51,7 @@ req.irql:
 
 
 
-		Sets the background color for an image list. This method only functions if you add an icon to the image list or use the <a href="https://msdn.microsoft.com/e4953332-e351-4f75-a128-bed98ab9adb4">IImageList::AddMasked</a> method to add a black and white bitmap. Without a mask, the entire image draws, and the background color is not visible. 
+		Sets the background color for an image list. This method only functions if you add an icon to the image list or use the <a href="https://msdn.microsoft.com/library/Bb761438(v=VS.85).aspx">IImageList::AddMasked</a> method to add a black and white bitmap. Without a mask, the entire image draws, and the background color is not visible. 
 		
 
 
@@ -64,7 +64,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-The background color to set. If this parameter is set to CLR_NONE, then images draw transparently using the <a href="https://msdn.microsoft.com/e4953332-e351-4f75-a128-bed98ab9adb4">mask</a>.
+The background color to set. If this parameter is set to CLR_NONE, then images draw transparently using the <a href="https://msdn.microsoft.com/library/Bb761438(v=VS.85).aspx">mask</a>.
 
 
 ### -param pclr [out]
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use <b>IImageList::SetBkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>IImageList::SetBkColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

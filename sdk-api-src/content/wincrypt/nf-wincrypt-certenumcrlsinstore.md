@@ -152,7 +152,7 @@ A duplicate of the CRL <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
 
 
 

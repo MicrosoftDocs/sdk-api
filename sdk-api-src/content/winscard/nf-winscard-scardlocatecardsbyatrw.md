@@ -118,7 +118,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 Error code. For more information, see 
-<a href="authentication_return_values.htm">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 </td>
 </tr>

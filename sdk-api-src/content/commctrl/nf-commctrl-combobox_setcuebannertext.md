@@ -86,7 +86,7 @@ The cue banner is text that is displayed in the edit control of a combo box when
 
 
 
-<a href="https://msdn.microsoft.com/7102beff-7f67-4e4e-a32b-9ccae1522ebd">Combo Box Features</a>
+<a href="https://msdn.microsoft.com/library/Bb775793(v=VS.85).aspx">Combo Box Features</a>
  
 
  

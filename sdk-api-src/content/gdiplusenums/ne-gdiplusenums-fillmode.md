@@ -52,9 +52,9 @@ req.product: GDI+ 1.0
 
 
 The <b>FillMode</b> enumeration specifies how to fill areas that are formed when a path or curve intersects itself. This enumeration is used by several methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class, including 
-			<a href="https://msdn.microsoft.com/378f0d34-7328-45e5-9f55-826bdaed3aab">FillClosedCurve</a> and 
-			<a href="https://msdn.microsoft.com/e7cc93ab-c1e6-40e7-8888-f6bbffa42a00">FillPolygon</a>, and by the constructors of the 
-			<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class.
+			<a href="https://msdn.microsoft.com/library/ms535765(v=VS.85).aspx">FillClosedCurve</a> and 
+			<a href="https://msdn.microsoft.com/library/ms535770(v=VS.85).aspx">FillPolygon</a>, and by the constructors of the 
+			<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ Specifies that areas are filled according to the nonzero winding rule. According
 
 
 
-<a href="https://msdn.microsoft.com/378f0d34-7328-45e5-9f55-826bdaed3aab">FillClosedCurve Methods</a>
+<a href="https://msdn.microsoft.com/library/ms535765(v=VS.85).aspx">FillClosedCurve Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7cc93ab-c1e6-40e7-8888-f6bbffa42a00">FillPolygon Methods</a>
+<a href="https://msdn.microsoft.com/library/ms535770(v=VS.85).aspx">FillPolygon Methods</a>
 
 
 
@@ -89,7 +89,7 @@ Specifies that areas are filled according to the nonzero winding rule. According
 
 
 
-<a href="https://msdn.microsoft.com/933dd879-480c-4b8a-965a-1656382d849a">GraphicsPath Constructors</a>
+<a href="https://msdn.microsoft.com/library/ms535523(v=VS.85).aspx">GraphicsPath Constructors</a>
  
 
  

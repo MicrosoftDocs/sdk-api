@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/b3817e62-f533-46a0-a437-2bd55f8b4ad8">ImageList_Remove</a> function to remove all of the images from an image list. 
+Calls the <a href="https://msdn.microsoft.com/library/Bb761564(v=VS.85).aspx">ImageList_Remove</a> function to remove all of the images from an image list. 
 
 
 ## -parameters

@@ -82,7 +82,7 @@ This property is read-only at run time.
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

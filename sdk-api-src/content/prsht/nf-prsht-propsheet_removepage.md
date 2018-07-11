@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Removes a page from a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/2f387e97-4db4-4ad5-8600-7325da674e33">PSM_REMOVEPAGE</a> message explicitly.
+Removes a page from a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774605(v=VS.85).aspx">PSM_REMOVEPAGE</a> message explicitly.
 
 
 ## -parameters
@@ -91,43 +91,43 @@ Handle to the property sheet.
 
 An application can specify the page to be removed by assigning a value to either <i>index</i> or <i>hpage</i>. If values are assigned to both <i>index</i> and <i>hpage</i>, <i>hpage</i> takes precedence.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the <b>PropSheet_RemovePage</b> macro in your implementation of <a href="https://msdn.microsoft.com/a1f77ead-99c7-4874-8c32-289775c86458">PropSheetPageProc</a> or while handling the following notifications and Windows messages.
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the <b>PropSheet_RemovePage</b> macro in your implementation of <a href="https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a> or while handling the following notifications and Windows messages.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/18da6bdb-9409-49b6-8116-580fedd99a02">PSN_APPLY</a>
+<a href="https://msdn.microsoft.com/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/470cd6ff-73ad-451a-a861-4d3324a8a8db">PSN_KILLACTIVE</a>
+<a href="https://msdn.microsoft.com/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/75448852-8a5e-41a7-92b6-00692e771a06">PSN_RESET</a>
+<a href="https://msdn.microsoft.com/library/Bb774566(v=VS.85).aspx">PSN_RESET</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0cf918b7-9f0d-4dec-8df1-a1d2d8ac6463">PSN_SETACTIVE</a>
+<a href="https://msdn.microsoft.com/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a>
+<a href="https://msdn.microsoft.com/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/bc4f4718-1dab-48db-ae3b-5a81a7be2644">WM_INITDIALOG</a>
+<a href="https://msdn.microsoft.com/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
 </li>
 </ul>
-If you need to modify a property sheet page while you are handling one of these messages or while <a href="https://msdn.microsoft.com/a1f77ead-99c7-4874-8c32-289775c86458">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
+If you need to modify a property sheet page while you are handling one of these messages or while <a href="https://msdn.microsoft.com/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a> is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 
 The following notifications are also affected by property sheet modification.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/784f92e7-6f10-40fc-b513-bea022f13ae1">PSN_WIZBACK</a>
+<a href="https://msdn.microsoft.com/library/Bb774570(v=VS.85).aspx">PSN_WIZBACK</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ff5be154-f2d1-403d-8f22-8f6cacfb66b1">PSN_WIZNEXT</a>
+<a href="https://msdn.microsoft.com/library/Bb774572(v=VS.85).aspx">PSN_WIZNEXT</a>
 </li>
 </ul>
-You can add or remove pages in response to these notifications, provided that you return (via DWL_MSGRESULT) a nonzero value to specify the desired new page. Note, however, that if you remove a page that is located before the current page (that has a smaller index than the current page), <a href="https://msdn.microsoft.com/470cd6ff-73ad-451a-a861-4d3324a8a8db">PSN_KILLACTIVE</a> might be sent to the wrong page.
+You can add or remove pages in response to these notifications, provided that you return (via DWL_MSGRESULT) a nonzero value to specify the desired new page. Note, however, that if you remove a page that is located before the current page (that has a smaller index than the current page), <a href="https://msdn.microsoft.com/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> might be sent to the wrong page.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

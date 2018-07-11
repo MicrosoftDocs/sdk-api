@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves a pointer to the <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> interface for the object's type information. The type information for an object corresponds to the object's <a href="https://msdn.microsoft.com/">coclass</a> entry in a type library.
+Retrieves a pointer to the <a href="https://msdn.microsoft.com/library/ms221696(v=VS.85).aspx">ITypeInfo</a> interface for the object's type information. The type information for an object corresponds to the object's <a href="https://msdn.microsoft.com/">coclass</a> entry in a type library.
 
 
 
@@ -62,7 +62,7 @@ Retrieves a pointer to the <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeI
 
 ### -param ppTI [out]
 
-A pointer to an <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> pointer variable that receives the interface pointer to the object's type information. The caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the returned interface pointer if this method returns successfully.
+A pointer to an <a href="https://msdn.microsoft.com/library/ms221696(v=VS.85).aspx">ITypeInfo</a> pointer variable that receives the interface pointer to the object's type information. The caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the returned interface pointer if this method returns successfully.
 
 
 ## -returns

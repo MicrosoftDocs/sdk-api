@@ -99,11 +99,11 @@ When using <b><b>LineJoinMiterClipped</b></b> and the miter limit is exceeded, t
 
 
 
-<a href="https://msdn.microsoft.com/277824b0-fa76-4b7b-97a0-c2be79a4b06f">Pen::SetLineJoin</a>
+<a href="https://msdn.microsoft.com/library/ms535053(v=VS.85).aspx">Pen::SetLineJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fd2ac24-40e6-49a6-a514-1233e2075f45">Pen::SetMiterLimit</a>
+<a href="https://msdn.microsoft.com/library/ms535054(v=VS.85).aspx">Pen::SetMiterLimit</a>
  
 
  

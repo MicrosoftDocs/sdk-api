@@ -128,7 +128,7 @@ The <b>SetFileSecurity</b> function is successful only if the following conditio
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Low-level Access Control Functions</a>
 
 
 

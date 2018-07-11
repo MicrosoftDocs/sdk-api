@@ -184,7 +184,7 @@ Currently on NTMS_LM_MOUNT, requests are sorted using the order number.
 
 
 
-<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
 
 
 

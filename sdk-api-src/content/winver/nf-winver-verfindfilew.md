@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> function. 
+Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://msdn.microsoft.com/library/ms647462(v=VS.85).aspx">VerInstallFile</a> function. 
 
 
 ## -parameters
@@ -266,11 +266,11 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a>
+<a href="https://msdn.microsoft.com/library/ms647462(v=VS.85).aspx">VerInstallFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
+<a href="https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx">Version Information</a>
  
 
  

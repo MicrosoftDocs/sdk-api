@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the byte 
-    size of a <a href="p_gly.htm">property value</a>.
+    size of a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a>.
 
 This property is read-only.
 

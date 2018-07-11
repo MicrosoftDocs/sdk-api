@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/5ddea541-c8e0-4357-b08e-3b5e64be377f">PSM_GETTABCONTROL</a> message explicitly.
+Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774580(v=VS.85).aspx">PSM_GETTABCONTROL</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Handle to the property sheet.
 
 
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

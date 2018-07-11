@@ -60,7 +60,7 @@ Extends the <a href="https://msdn.microsoft.com/464b05e3-06da-44b9-b4a6-c64452fc
 
 This interface is implemented by a Microsoft UI Automation provider.
 
-Providers should raise an event of type <a href="uiauto_event_ids.htm">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
+Providers should raise an event of type <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
 
 
 When selecting from a list or 2D grid there are primary pieces of information that ATs would like to better read to their end users.  Using Excel as a primary example, there are 4 main pieces of information necessary for the AT to provide a good experience:  

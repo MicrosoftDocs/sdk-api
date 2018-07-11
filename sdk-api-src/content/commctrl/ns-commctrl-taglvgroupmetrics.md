@@ -209,19 +209,19 @@ The width of a border determines the margins of the area within which items are 
 
 
 
-<a href="https://msdn.microsoft.com/75e7da66-50c6-4834-ae66-e43b8f9b0b34">LVM_GETGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/library/Bb774934(v=VS.85).aspx">LVM_GETGROUPMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/268b478d-da1f-4efe-9ee9-af3f12e089ee">LVM_SETGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/library/Bb761168(v=VS.85).aspx">LVM_SETGROUPMETRICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/dea34509-b785-4e45-a11a-d0a2e157b6d0">ListView_GetGroupMetrics</a>
+<a href="https://msdn.microsoft.com/library/Bb761284(v=VS.85).aspx">ListView_GetGroupMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/236799ba-3049-4bf8-ae28-0b1a064d3587">ListView_SetGroupMetrics</a>
+<a href="https://msdn.microsoft.com/library/Bb775080(v=VS.85).aspx">ListView_SetGroupMetrics</a>
 
 
 

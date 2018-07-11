@@ -110,7 +110,7 @@ This method cancels all pending operations on the current device handle, which c
 
 
 
-<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
  
 
  

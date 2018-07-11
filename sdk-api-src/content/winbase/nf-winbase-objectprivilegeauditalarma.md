@@ -137,7 +137,7 @@ The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="http
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

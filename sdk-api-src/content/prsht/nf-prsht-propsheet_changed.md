@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Informs a property sheet that information in a page has changed. You can use this macro or send the <a href="https://msdn.microsoft.com/b092969f-31dc-4e3c-9100-d15f1bdd5aa5">PSM_CHANGED</a> message explicitly.
+Informs a property sheet that information in a page has changed. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774576(v=VS.85).aspx">PSM_CHANGED</a> message explicitly.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ Handle to the page that has changed.
 
 The property sheet enables the <b>Apply</b> button.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ]
 
 
-The <b>GenerateKeySeed</b> method generates a <a href="wmformat_glossary.htm">DRM</a> key seed.
+The <b>GenerateKeySeed</b> method generates a <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">DRM</a> key seed.
 
 
 

@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Specifies the format of the buffer. Used by <a href="https://msdn.microsoft.com/ca7204b3-3166-4911-96f9-16a0f59ecb09">BeginBufferedAnimation</a> and <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
+Specifies the format of the buffer. Used by <a href="https://msdn.microsoft.com/library/Bb773252(v=VS.85).aspx">BeginBufferedAnimation</a> and <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Specifies the format of the buffer. Used by <a href="https://msdn.microsoft.com/
 
 ### -field BPBF_COMPATIBLEBITMAP
 
-Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a> or <a href="https://msdn.microsoft.com/ca7204b3-3166-4911-96f9-16a0f59ecb09">BeginBufferedAnimation</a>—typically, this is the display device.
+Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a> or <a href="https://msdn.microsoft.com/library/Bb773252(v=VS.85).aspx">BeginBufferedAnimation</a>—typically, this is the display device.
 
 
 ### -field BPBF_DIB

@@ -74,7 +74,7 @@ The index will associate indexes with the nearest data object, or compressed sam
 
 ### -field WMT_IT_NEAREST_CLEAN_POINT
 
-The index will associate indexes with the nearest <a href="wmformat_glossary.htm">cleanpoint</a>, or video key frame, in the Windows Media file. This is the default index type.
+The index will associate indexes with the nearest <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">cleanpoint</a>, or video key frame, in the Windows Media file. This is the default index type.
 
 
 ## -see-also
