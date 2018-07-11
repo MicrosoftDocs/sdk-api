@@ -107,7 +107,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 The relationships between the input and output parameters of  <i>ResUtilAddUnknownProperties</i> are illustrated in the following diagram:
 
-<img alt="" border="0" src="images/resutil.png"/>
+<img alt="" border="0" src="./images/resutil.png"/>
 The  <i>ResUtilAddUnknownProperties</i> utility function enumerates the properties stored in the cluster database (under <i>hkeyClusterKey</i>) and looks for corresponding properties in the property table (<i>pPropertyTable</i>). Each property that is listed in the cluster database but not listed in the property table is added to the property list (<i>pOutPropertyList</i>).
 
 
