@@ -4,10 +4,10 @@ title: HttpReceiveClientCertificate function
 author: windows-sdk-content
 description: The HttpReceiveClientCertificate function is used by a server application to retrieve a client SSL certificate or channel binding token (CBT).
 old-location: http\httpreceiveclientcertificate.htm
-old-project: Http
+old-project: http
 ms.assetid: f0cf7b77-2868-4142-a663-32d6ea7df9e9
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HTTP_RECEIVE_SECURE_CHANNEL_TOKEN, HttpReceiveClientCertificate, HttpReceiveClientCertificate function [HTTP], _http_httpreceiveclientcertificate, http.httpreceiveclientcertificate, http/HttpReceiveClientCertificate
 ms.prod: windows
 ms.technology: windows-sdk

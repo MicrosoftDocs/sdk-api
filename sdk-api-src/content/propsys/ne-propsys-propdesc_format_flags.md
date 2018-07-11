@@ -7,7 +7,7 @@ old-location: properties\PROPDESC_FORMAT_FLAGS.htm
 old-project: properties
 ms.assetid: 4425d97f-2530-40d4-ba1a-06bc85f2f567
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PDFF_ALWAYSKB, PDFF_DEFAULT, PDFF_FILENAME, PDFF_HIDEDATE, PDFF_HIDETIME, PDFF_LONGDATE, PDFF_LONGTIME, PDFF_NOAUTOREADINGORDER, PDFF_PREFIXNAME, PDFF_READONLY, PDFF_RELATIVEDATE, PDFF_RESERVED_RIGHTTOLEFT, PDFF_SHORTDATE, PDFF_SHORTTIME, PDFF_USEEDITINVITATION, PROPDESC_FORMAT_FLAGS, PROPDESC_FORMAT_FLAGS enumeration [Windows Properties], _shell_PROPDESC_FORMAT_FLAGS, properties.PROPDESC_FORMAT_FLAGS, propsys/PDFF_ALWAYSKB, propsys/PDFF_DEFAULT, propsys/PDFF_FILENAME, propsys/PDFF_HIDEDATE, propsys/PDFF_HIDETIME, propsys/PDFF_LONGDATE, propsys/PDFF_LONGTIME, propsys/PDFF_NOAUTOREADINGORDER, propsys/PDFF_PREFIXNAME, propsys/PDFF_READONLY, propsys/PDFF_RELATIVEDATE, propsys/PDFF_RESERVED_RIGHTTOLEFT, propsys/PDFF_SHORTDATE, propsys/PDFF_SHORTTIME, propsys/PDFF_USEEDITINVITATION, propsys/PROPDESC_FORMAT_FLAGS, shell.PROPDESC_FORMAT_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Used by property description helper functions, such as <a href="https://msdn.microsoft.com/library/Bb776496(v=VS.85).aspx">PSFormatForDisplay</a>, to indicate the format of a property string.
+Used by property description helper functions, such as <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a>, to indicate the format of a property string.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ Use the format settings specified in the property's .propdesc file.
 
 ### -field PDFF_PREFIXNAME
 
-Precede the value with the property's display name. If the <i>hideLabelPrefix</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx">labelInfo</a> element in the property's .propinfo file is set to <b>true</b>, then this flag is ignored.
+Precede the value with the property's display name. If the <i>hideLabelPrefix</i> attribute of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propinfo file is set to <b>true</b>, then this flag is ignored.
 
 
 ### -field PDFF_FILENAME
@@ -76,7 +76,7 @@ Treat the string as a file name.
 
 ### -field PDFF_ALWAYSKB
 
-Byte sizes are always displayed in KB, regardless of size. This enables clean alignment of the values in the column. This flag applies only to properties that have been declared as type <b>Integer</b> in the <i>displayType</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propinfo file. This flag overrides the <a href="https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx">numberFormat</a> setting.
+Byte sizes are always displayed in KB, regardless of size. This enables clean alignment of the values in the column. This flag applies only to properties that have been declared as type <b>Integer</b> in the <i>displayType</i> attribute of the <a href="shell.propdesc_schema_displayInfo">displayInfo</a> element in the property's .propinfo file. This flag overrides the <a href="shell.propdesc_schema_numberFormat">numberFormat</a> setting.
 
 
 ### -field PDFF_RESERVED_RIGHTTOLEFT

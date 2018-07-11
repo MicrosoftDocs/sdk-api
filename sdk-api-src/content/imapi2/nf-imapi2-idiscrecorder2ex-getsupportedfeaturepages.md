@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getsupportedfeaturepages.htm
 old-project: imapi
 ms.assetid: 64fa8ef5-1298-4fd1-b89d-371f13e50d8c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: GetSupportedFeaturePages, GetSupportedFeaturePages method [IMAPI], GetSupportedFeaturePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedFeaturePages method, IDiscRecorder2Ex.GetSupportedFeaturePages, IDiscRecorder2Ex::GetSupportedFeaturePages, imapi.idiscrecorder2ex_getsupportedfeaturepages, imapi2/IDiscRecorder2Ex::GetSupportedFeaturePages
 ms.prod: windows
 ms.technology: windows-sdk

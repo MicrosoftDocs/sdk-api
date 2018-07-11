@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0_
 author: windows-sdk-content
 description: Contains information that describes an IKE/AuthIP Quick Mode (QM) failure.
 old-location: fwp\fwpm_net_event_ikeext_qm_failure0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_QM_FAILURE0, FWPM_NET_EVENT_IKEEXT_QM_FAILURE0 structure [Filtering], FWPM_NET_EVENT_IKEEXT_QM_FAILURE0_, fwp.fwpm_net_event_ikeext_qm_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_QM_FAILURE0
 ms.prod: windows
 ms.technology: windows-sdk

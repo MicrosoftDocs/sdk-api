@@ -7,7 +7,7 @@ old-location: automat\varcyabs.htm
 old-project: automat
 ms.assetid: 72ab02df-69e8-40ab-884c-6b23ce5dc6ce
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarCyAbs, VarCyAbs function [Automation], _oa96_VarCyAbs, automat.varcyabs, oleauto/VarCyAbs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: hid\idirectinputjoyconfig8_settypeinfo.htm
 old-project: hid
 ms.assetid: 5649ff3d-b7af-489b-b6d0-1252ee4ceb76
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 05/01/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetTypeInfo method, IDirectInputJoyConfig8.SetTypeInfo, IDirectInputJoyConfig8::SetTypeInfo, SetTypeInfo, SetTypeInfo method [Human Input Devices], SetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_7cfc73ae-57b7-45a0-8466-c52fe481b980.xml, dinputd/IDirectInputJoyConfig8::SetTypeInfo, hid.idirectinputjoyconfig8_settypeinfo
 ms.prod: windows
 ms.technology: windows-sdk

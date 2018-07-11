@@ -7,7 +7,7 @@ old-location: mf\imftranscodesinkinfoprovider_setoutputfile.htm
 old-project: medfound
 ms.assetid: 048d1822-9349-4d49-a468-c89bc9c51583
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputFile method, IMFTranscodeSinkInfoProvider.SetOutputFile, IMFTranscodeSinkInfoProvider::SetOutputFile, SetOutputFile, SetOutputFile method [Media Foundation], SetOutputFile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputfile, mfidl/IMFTranscodeSinkInfoProvider::SetOutputFile
 ms.prod: windows
 ms.technology: windows-sdk

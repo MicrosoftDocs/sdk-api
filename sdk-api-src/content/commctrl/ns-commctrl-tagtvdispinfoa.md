@@ -4,10 +4,10 @@ title: tagTVDISPINFOA
 author: windows-sdk-content
 description: Contains and receives display information for a tree-view item. This structure is identical to the TV_DISPINFO structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTVDISPINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMTVDISPINFOA, LPNMTVDISPINFO, LPNMTVDISPINFO structure pointer [Windows Controls], NMTVDISPINFO, NMTVDISPINFO structure [Windows Controls], NMTVDISPINFOA, NMTVDISPINFOW, TVIF_CHILDREN, TVIF_IMAGE, TVIF_SELECTEDIMAGE, TVIF_TEXT, _win32_NMTVDISPINFO, _win32_NMTVDISPINFO_cpp, commctrl/LPNMTVDISPINFO, commctrl/NMTVDISPINFO, commctrl/NMTVDISPINFOA, commctrl/NMTVDISPINFOW, controls.NMTVDISPINFO, controls._win32_NMTVDISPINFO, tagTVDISPINFOA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,18 +63,18 @@ Contains and receives display information for a tree-view item. This structure i
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field item
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that identifies and contains information about the tree-view item. The 
+<a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure that identifies and contains information about the tree-view item. The 
 					<b>mask</b> member of the <b>TVITEM</b> structure specifies which information is being set or retrieved. It can be one or more of the following values: 
 
 <table>
@@ -123,8 +123,8 @@ The
 <td width="60%">
 The 
 						<b>pszText</b> member specifies the new item text or the address of a buffer that is to receive the item text. If the structure is receiving item text, you typically copy the text to the buffer pointed to by the 
-						<b>pszText</b> member of the <a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure. However, you can return a string in the 
-						<b>pszText</b> member instead. If you do so, you cannot change or delete the string until the corresponding item text is deleted or until two additional <a href="https://msdn.microsoft.com/library/Bb773518(v=VS.85).aspx">TVN_GETDISPINFO</a> notification codes have been sent. 
+						<b>pszText</b> member of the <a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure. However, you can return a string in the 
+						<b>pszText</b> member instead. If you do so, you cannot change or delete the string until the corresponding item text is deleted or until two additional <a href="https://msdn.microsoft.com/2dfe41d8-1164-481b-ac07-8faba43c562a">TVN_GETDISPINFO</a> notification codes have been sent. 
 
 </td>
 </tr>
@@ -141,11 +141,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773551(v=VS.85).aspx">TVN_SETDISPINFO</a>
+<a href="https://msdn.microsoft.com/40fa61bc-c043-4001-ada9-b627d68bd737">TVN_SETDISPINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://msdn.microsoft.com/23ff9dc1-3d92-4e94-8df5-7a645039ce27">WM_NOTIFY</a>
  
 
  

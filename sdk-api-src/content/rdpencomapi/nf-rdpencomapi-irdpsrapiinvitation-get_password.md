@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitation::get_Password
 author: windows-sdk-content
 description: The password string.
 old-location: rdp\irdpsrapiinvitation_password.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 53d55a81-73c3-4196-b23e-b4719a1ceced
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Password property, IRDPSRAPIInvitation.Password, IRDPSRAPIInvitation.get_Password, IRDPSRAPIInvitation::Password, IRDPSRAPIInvitation::get_Password, Password property [RDP], Password property [RDP],IRDPSRAPIInvitation interface, Password property [RDP],RDPSRAPIInvitation object, RDPSRAPIInvitation object [RDP],Password property, get_Password, rdp.irdpsrapiinvitation_password, rdpencomapi/IRDPSRAPIInvitation::Password, rdpencomapi/IRDPSRAPIInvitation::get_Password
 ms.prod: windows
 ms.technology: windows-sdk

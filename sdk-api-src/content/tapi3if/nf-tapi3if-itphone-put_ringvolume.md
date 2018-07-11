@@ -4,10 +4,10 @@ title: ITPhone::put_RingVolume
 author: windows-sdk-content
 description: The put_RingVolume method requests that the phone change its ring volume.
 old-location: tapi3\itphone_put_ringvolume.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 858ca6a8-a53b-4858-b4b0-985230ec8ea0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_RingVolume method, ITPhone.put_RingVolume, ITPhone::put_RingVolume, _tapi3_itphone_put_ringvolume, put_RingVolume, put_RingVolume method [TAPI 2.2], put_RingVolume method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_ringvolume, tapi3if/ITPhone::put_RingVolume
 ms.prod: windows
 ms.technology: windows-sdk

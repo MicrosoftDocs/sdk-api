@@ -4,10 +4,10 @@ title: ZombifyActCtx function
 author: windows-sdk-content
 description: The ZombifyActCtx function deactivates the specified activation context, but does not deallocate it.
 old-location: setup\zombifyactctx.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: f421350a-66b5-4c5a-9e4c-ef69dbe39e7c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: ZombifyActCtx, ZombifyActCtx function [Side-by-side Assemblies], _win32_zombifyactctx, setup.zombifyactctx, winbase/ZombifyActCtx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_QUERY_SYNTAX.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_query_syntax.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: SEARCH_ADVANCED_QUERY_SYNTAX, SEARCH_NATURAL_QUERY_SYNTAX, SEARCH_NO_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX enumeration [search], _SEARCH_QUERY_SYNTAX, _search_SEARCH_QUERY_SYNTAX, search._search_SEARCH_QUERY_SYNTAX, searchapi/SEARCH_ADVANCED_QUERY_SYNTAX, searchapi/SEARCH_NATURAL_QUERY_SYNTAX, searchapi/SEARCH_NO_QUERY_SYNTAX, searchapi/SEARCH_QUERY_SYNTAX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Specifies the type of query syntax.
 
 
 
-This enumerated type is used by the <a href="https://msdn.microsoft.com/library/Bb231310(v=VS.85).aspx">ISearchQueryHelper::get_QuerySyntax</a> and <a href="https://msdn.microsoft.com/library/Bb231320(v=VS.85).aspx">ISearchQueryHelper::put_QuerySyntax</a> methods.
+This enumerated type is used by the <a href="https://msdn.microsoft.com/72802fbc-6684-40e3-9df5-a81e2c4bc1c2">ISearchQueryHelper::get_QuerySyntax</a> and <a href="https://msdn.microsoft.com/4df77a77-10fd-411c-bd35-450ffdbc1da8">ISearchQueryHelper::put_QuerySyntax</a> methods.
 
 <div class="alert"><b>Note</b>   In Windows 7, the names are prefixed with SQS_ instead of SEARCH_.</div>
 <div> </div>

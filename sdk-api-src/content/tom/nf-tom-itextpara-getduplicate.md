@@ -4,10 +4,10 @@ title: ITextPara::GetDuplicate
 author: windows-sdk-content
 description: Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an ITextPara object.
 old-location: controls\ITextPara_GetDuplicate.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetduplicate.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetDuplicate method, ITextPara.GetDuplicate, ITextPara::GetDuplicate, _win32_ITextPara_GetDuplicate, _win32_ITextPara_GetDuplicate_cpp, controls.ITextPara_GetDuplicate, controls._win32_ITextPara_GetDuplicate, tom/ITextPara::GetDuplicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an <a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a> object.
+Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a duplicate of the specified paragraph format object. The duplicate prop
 
 ### -param ppPara
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>**</b>
 
-The duplicate <a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a> object. 
+The duplicate <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object. 
 
 
 ## -returns
@@ -138,7 +138,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -146,11 +146,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787851(v=VS.85).aspx">SetDuplicate</a>
+<a href="https://msdn.microsoft.com/054e3a0b-6a73-4830-b382-ea4f520bab03">SetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

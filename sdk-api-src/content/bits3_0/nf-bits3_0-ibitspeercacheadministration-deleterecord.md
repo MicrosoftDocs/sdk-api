@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::DeleteRecord
 author: windows-sdk-content
 description: Deletes a record and file from the cache. This method uses the record's identifier to identify the record to delete.
 old-location: bits\ibitspeercacheadministration_deleterecord.htm
-old-project: Bits
+old-project: bits
 ms.assetid: c86199c3-9fe7-4d8f-8b33-b12b65b94e54
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteRecord method, IBitsPeerCacheAdministration.DeleteRecord, IBitsPeerCacheAdministration::DeleteRecord, bits.ibitspeercacheadministration_deleterecord, bits3_0/IBitsPeerCacheAdministration::DeleteRecord
 ms.prod: windows
 ms.technology: windows-sdk

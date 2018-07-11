@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_CLUSTER_FROM_NODE
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a node.
 old-location: mscs\getclusterfromnode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8cc0f881-fbf2-452c-a044-58939f4e01ea
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_FROM_NODE, PCLUSAPI_GET_CLUSTER_FROM_NODE callback, PCLUSAPI_GET_CLUSTER_FROM_NODE callback function [Failover Cluster], _wolf_getclusterfromnode, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE, mscs.getclusterfromnode
 ms.prod: windows
 ms.technology: windows-sdk

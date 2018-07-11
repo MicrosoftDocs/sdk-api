@@ -4,10 +4,10 @@ title: IAzApplicationGroup::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazapplicationgroup_addpropertyitem.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 7a7a11ad-42f9-4d3f-8d55-6e8b3e1bea7e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzApplicationGroup object, AddPropertyItem method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddPropertyItem method, IAzApplicationGroup interface [Security],AddPropertyItem method, IAzApplicationGroup.AddPropertyItem, IAzApplicationGroup::AddPropertyItem, azroles/IAzApplicationGroup::AddPropertyItem, security.iazapplicationgroup_addpropertyitem
 ms.prod: windows
 ms.technology: windows-sdk

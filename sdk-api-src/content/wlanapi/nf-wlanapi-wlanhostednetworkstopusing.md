@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkstopusing.htm
 old-project: NativeWiFi
 ms.assetid: 36b5ed93-33c4-4ade-a6d9-0d240854a5ef
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanHostedNetworkStopUsing, WlanHostedNetworkStopUsing function [NativeWIFI], nwifi.wlanhostednetworkstopusing, wlanapi/WlanHostedNetworkStopUsing
 ms.prod: windows
 ms.technology: windows-sdk

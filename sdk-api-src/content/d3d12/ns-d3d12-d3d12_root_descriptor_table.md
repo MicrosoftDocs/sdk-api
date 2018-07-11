@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_descriptor_table.htm
 old-project: direct3d12
 ms.assetid: 5A0A04AB-2053-40E0-9CD5-E344BFE9001E
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE, D3D12_ROOT_DESCRIPTOR_TABLE structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE, direct3d12.d3d12_descriptor_table_layout, direct3d12.d3d12_root_descriptor_table
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ req.irql:
         member of
         <a href="https://msdn.microsoft.com/CC1DFE85-7F83-4551-86C6-1AFDF746FC92">D3D12_ROOT_PARAMETER</a>.
         Use a
-        <b>D3D12_ROOT_DESCRIPTOR_TABLE</b> when you set <b>D3D12_ROOT_PARAMETER</b>'s <b>SlotType</b> member to <a href="https://msdn.microsoft.com/library/Dn879478(v=VS.85).aspx">D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE</a>.
+        <b>D3D12_ROOT_DESCRIPTOR_TABLE</b> when you set <b>D3D12_ROOT_PARAMETER</b>'s <b>SlotType</b> member to <a href="d3d12_root_parameter_type.htm">D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE</a>.
       
 
 

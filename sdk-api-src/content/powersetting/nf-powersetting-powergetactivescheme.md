@@ -4,10 +4,10 @@ title: PowerGetActiveScheme function
 author: windows-sdk-content
 description: Retrieves the active power scheme and returns a GUID that identifies the scheme.
 old-location: base\powergetactivescheme.htm
-old-project: Power
+old-project: power
 ms.assetid: cd72562c-8987-40c1-89c7-04a95b5f1fd0
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme
 ms.prod: windows
 ms.technology: windows-sdk

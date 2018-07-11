@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmap_setpalette.htm
 old-project: wic
 ms.assetid: a46c968e-9ff0-479e-8f98-0d2fbbc5d6b0
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],SetPalette method, IWICBitmap.SetPalette, IWICBitmap::SetPalette, SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setpalette, wic._wic_codec_iwicbitmap_setpalette, wincodec/IWICBitmap::SetPalette
 ms.prod: windows
 ms.technology: windows-sdk

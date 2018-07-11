@@ -7,7 +7,7 @@ old-location: search\_search_IRelationship_MetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\metadata.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IRelationship interface [search],MetaData method, IRelationship.MetaData, IRelationship::MetaData, MetaData, MetaData method [search], MetaData method [search],IRelationship interface, _search_IRelationship_MetaData, search._search_IRelationship_MetaData, structuredquery/IRelationship::MetaData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this relationship.
+          Retrieves an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for this relationship.
         
 
 
@@ -75,7 +75,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-                Receives a pointer to the enumeration of <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects. There may be multiple pairs with the same key (or the same value).
+                Receives a pointer to the enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects. There may be multiple pairs with the same key (or the same value).
             
 
 

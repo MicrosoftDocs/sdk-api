@@ -4,10 +4,10 @@ title: IAzClientContext2::GetAssignedScopesPage
 author: windows-sdk-content
 description: Retrieves a list of the scopes in which the client represented by the current IAzClientContext2 object is assigned to at least one role.
 old-location: security\iazclientcontext2_getassignedscopespage.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 496dd834-37d9-41f6-a552-39c558dd60b3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AZ_CLIENT_CONTEXT_SKIP_LDAP_QUERY, GetAssignedScopesPage, GetAssignedScopesPage method [Security], GetAssignedScopesPage method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],GetAssignedScopesPage method, IAzClientContext2.GetAssignedScopesPage, IAzClientContext2::GetAssignedScopesPage, azroles/IAzClientContext2::GetAssignedScopesPage, security.iazclientcontext2_getassignedscopespage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 If multiple threads access the same authorization store, a call to the  <b>GetAssignedScopesPage</b> method on one of the threads might not return accurate results if the other thread modifies the store.
 
-In  JScript, the returned <a href="https://msdn.microsoft.com/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> values must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object.
+In  JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> values must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object.
 
 
 

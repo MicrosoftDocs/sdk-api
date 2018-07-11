@@ -4,10 +4,10 @@ title: SymGetTypeFromNameW function
 author: windows-sdk-content
 description: Retrieves a type index for the specified type name.
 old-location: base\symgettypefromname.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 3a48365f-3b8a-493d-9fd9-dde77be9ced2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymGetTypeFromName, SymGetTypeFromName function, SymGetTypeFromNameW, _win32_symgettypefromname, base.symgettypefromname, dbghelp/SymGetTypeFromName, dbghelp/SymGetTypeFromNameW
 ms.prod: windows
 ms.technology: windows-sdk

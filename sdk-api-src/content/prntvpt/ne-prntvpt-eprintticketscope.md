@@ -7,7 +7,7 @@ old-location: gdi\eprintticketscope.htm
 old-project: printdocs
 ms.assetid: 7a817f43-c8da-4df1-91c8-6bb1c93c3abc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: EPrintTicketScope, EPrintTicketScope enumeration [Windows GDI], _win32_EPrintTicketScope, gdi.eprintticketscope, kPTDocumentScope, kPTJobScope, kPTPageScope, prntvpt/EPrintTicketScope, prntvpt/kPTDocumentScope, prntvpt/kPTJobScope, prntvpt/kPTPageScope
 ms.prod: windows
 ms.technology: windows-sdk

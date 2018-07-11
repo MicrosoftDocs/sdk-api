@@ -4,10 +4,10 @@ title: "_BLUETOOTH_AUTHENTICATION_REQUIREMENTS"
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration specifies the 'Man in the Middle' protection required for authentication.
 old-location: bluetooth\bluetooth_authentication_requirements.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AUTHENTICATION_REQUIREMENTS, AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], BLUETOOTH_AUTHENTICATION_REQUIREMENTS, BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], MITMProtectionNotDefined, MITMProtectionNotRequired, MITMProtectionNotRequiredBonding, MITMProtectionNotRequiredGeneralBonding, MITMProtectionRequired, MITMProtectionRequiredBonding, MITMProtectionRequiredGeneralBonding, _AUTHENTICATION_REQUIREMENTS, _BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetooth.bluetooth_authentication_requirements, bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetoothapis/MITMProtectionNotDefined, bluetoothapis/MITMProtectionNotRequired, bluetoothapis/MITMProtectionNotRequiredBonding, bluetoothapis/MITMProtectionNotRequiredGeneralBonding, bluetoothapis/MITMProtectionRequired, bluetoothapis/MITMProtectionRequiredBonding, bluetoothapis/MITMProtectionRequiredGeneralBonding
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IGPEInformation::PolicyChanged
 author: windows-sdk-content
 description: The PolicyChanged method informs the Group Policy Object Editor that policy settings have changed.
 old-location: policy\igpeinformation_policychanged.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 4c36fbcb-2adb-4c32-87d3-efcd55dbaf3e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: IGPEInformation interface [Group Policy],PolicyChanged method, IGPEInformation.PolicyChanged, IGPEInformation::PolicyChanged, PolicyChanged, PolicyChanged method [Group Policy], PolicyChanged method [Group Policy],IGPEInformation interface, _win32_igpeinformation_policychanged, gpedit/IGPEInformation::PolicyChanged, policy.igpeinformation_policychanged
 ms.prod: windows
 ms.technology: windows-sdk

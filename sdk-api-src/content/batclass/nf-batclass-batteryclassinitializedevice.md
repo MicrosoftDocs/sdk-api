@@ -7,7 +7,7 @@ old-location: battery\batteryclassinitializedevice.htm
 old-project: battery
 ms.assetid: 0af685a5-f5c2-4448-b8b2-f5cd9ed77047
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 02/16/2018
 ms.keywords: BatteryClassInitializeDevice, BatteryClassInitializeDevice routine [Battery Devices], bat-rtn_19921d6e-cd86-40ad-86e3-acfc01fd8a56.xml, batclass/BatteryClassInitializeDevice, battery.batteryclassinitializedevice
 ms.prod: windows
 ms.technology: windows-sdk

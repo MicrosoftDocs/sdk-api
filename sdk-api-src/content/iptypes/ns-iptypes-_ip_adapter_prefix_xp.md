@@ -4,10 +4,10 @@ title: "_IP_ADAPTER_PREFIX_XP"
 author: windows-sdk-content
 description: Stores an IP address prefix.
 old-location: iphlp\ip_adapter_prefix.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 680b412d-2352-421d-ae58-dcf34ee6cf31
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PIP_ADAPTER_PREFIX, *PIP_ADAPTER_PREFIX_XP, IP_ADAPTER_PREFIX, IP_ADAPTER_PREFIX structure [IP Helper], IP_ADAPTER_PREFIX_XP, PIP_ADAPTER_PREFIX, PIP_ADAPTER_PREFIX structure pointer [IP Helper], _IP_ADAPTER_PREFIX_XP, iphlp.ip_adapter_prefix, iptypes/IP_ADAPTER_PREFIX, iptypes/PIP_ADAPTER_PREFIX"
 ms.prod: windows
 ms.technology: windows-sdk

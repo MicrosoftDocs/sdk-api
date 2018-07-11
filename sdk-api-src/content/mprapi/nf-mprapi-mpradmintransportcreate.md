@@ -4,10 +4,10 @@ title: MprAdminTransportCreate function
 author: windows-sdk-content
 description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.
 old-location: rras\mpradmintransportcreate.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
 ms.prod: windows
 ms.technology: windows-sdk

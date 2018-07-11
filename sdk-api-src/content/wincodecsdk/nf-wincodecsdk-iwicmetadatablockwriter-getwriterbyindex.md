@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockwriter_getwriterbyindex.htm
 old-project: wic
 ms.assetid: 14c8acb1-484a-46ad-8a38-79a4b1cfe0d1
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetWriterByIndex, GetWriterByIndex method [Windows Imaging Component], GetWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],GetWriterByIndex method, IWICMetadataBlockWriter.GetWriterByIndex, IWICMetadataBlockWriter::GetWriterByIndex, _wic_codec_iwicmetadatablockwriter_getwriterbyindex, wic._wic_codec_iwicmetadatablockwriter_getwriterbyindex, wincodecsdk/IWICMetadataBlockWriter::GetWriterByIndex
 ms.prod: windows
 ms.technology: windows-sdk

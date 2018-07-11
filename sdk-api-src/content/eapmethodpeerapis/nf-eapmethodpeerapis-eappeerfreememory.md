@@ -4,10 +4,10 @@ title: EapPeerFreeMemory function
 author: windows-sdk-content
 description: Releases all memory associated with an opaque user interface context data buffer.
 old-location: eaphost\eappeerfreememory.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: 544d999c-d857-4ca5-b5f8-b15780fc7019
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapPeerFreeMemory, EapPeerFreeMemory function [EAPHost], eaphost.eappeerfreememory, eapmethodpeerapis/EapPeerFreeMemory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetTcp6Table2 function
 author: windows-sdk-content
 description: Retrieves the TCP connection table for IPv6.
 old-location: iphlp\gettcp6table2.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 435b9198-b921-407c-9441-31cfe77c03f1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetTcp6Table2, GetTcp6Table2 function [IP Helper], iphlp.gettcp6table2, iphlpapi/GetTcp6Table2
 ms.prod: windows
 ms.technology: windows-sdk

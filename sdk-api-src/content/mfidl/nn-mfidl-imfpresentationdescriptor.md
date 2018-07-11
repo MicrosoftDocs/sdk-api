@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor.htm
 old-project: medfound
 ms.assetid: db03e212-7021-433e-84dc-410b2cf7af87
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFPresentationDescriptor, IMFPresentationDescriptor interface [Media Foundation], IMFPresentationDescriptor interface [Media Foundation],described, db03e212-7021-433e-84dc-410b2cf7af87, mf.imfpresentationdescriptor, mfidl/IMFPresentationDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

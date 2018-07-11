@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc::get_SignatureInformation
 author: windows-sdk-content
 description: Retrieves the IX509SignatureInformation object that contains information about the primary signature used to sign the certificate request.
 old-location: security\ix509certificaterequestcmc_signatureinformation_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: cd5353b4-b1dd-495f-ae75-c6e14edbb8f9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SignatureInformation property, IX509CertificateRequestCmc.SignatureInformation, IX509CertificateRequestCmc.get_SignatureInformation, IX509CertificateRequestCmc::SignatureInformation, IX509CertificateRequestCmc::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SignatureInformation, certenroll/IX509CertificateRequestCmc::get_SignatureInformation, get_SignatureInformation, security.ix509certificaterequestcmc_signatureinformation_property
 ms.prod: windows
 ms.technology: windows-sdk

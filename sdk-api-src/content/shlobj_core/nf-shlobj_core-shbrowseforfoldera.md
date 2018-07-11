@@ -7,7 +7,7 @@ old-location: shell\SHBrowseForFolder.htm
 old-project: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHBrowseForFolder, SHBrowseForFolder function [Windows Shell], SHBrowseForFolderA, SHBrowseForFolderW, _win32_SHBrowseForFolder, shell.SHBrowseForFolder, shlobj_core/SHBrowseForFolder, shlobj_core/SHBrowseForFolderA, shlobj_core/SHBrowseForFolderW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -321,7 +321,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646960(v=VS.85).aspx">Open and Save as Dialog Boxes</a>
+<a href="_win32_open_and_save_as_dialog_boxes">Open and Save as Dialog Boxes</a>
  
 
  

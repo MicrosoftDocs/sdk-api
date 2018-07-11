@@ -4,10 +4,10 @@ title: INetSharingPortMapping::Disable
 author: windows-sdk-content
 description: The Disable method disables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_disable.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 110d9c9b-189c-4529-b960-2722d9037c7c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Disable, Disable method [ICS/ICF], Disable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Disable method, INetSharingPortMapping.Disable, INetSharingPortMapping::Disable, _ics_inetsharingportmapping_disable, ics.inetsharingportmapping_disable, netcon/INetSharingPortMapping::Disable
 ms.prod: windows
 ms.technology: windows-sdk

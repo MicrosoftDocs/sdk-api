@@ -4,10 +4,10 @@ title: ImageGetCertificateHeader function
 author: windows-sdk-content
 description: Retrieves the header of the specified certificate, up to, but not including, the section offset array.
 old-location: base\imagegetcertificateheader.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceeventcallback_onevent.htm
 old-project: wpd_sdk
 ms.assetid: 14659de0-5cea-458a-bf57-fe8b071c778a
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: IPortableDeviceEventCallback interface [Windows Portable Devices SDK],OnEvent method, IPortableDeviceEventCallback.OnEvent, IPortableDeviceEventCallback::OnEvent, IPortableDeviceEventCallbackOnEvent, OnEvent, OnEvent method [Windows Portable Devices SDK], OnEvent method [Windows Portable Devices SDK],IPortableDeviceEventCallback interface, portabledeviceapi/IPortableDeviceEventCallback::OnEvent, wpdsdk.iportabledeviceeventcallback_onevent
 ms.prod: windows
 ms.technology: windows-sdk

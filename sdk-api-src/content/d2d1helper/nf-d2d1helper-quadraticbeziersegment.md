@@ -4,10 +4,10 @@ title: QuadraticBezierSegment function
 author: windows-sdk-content
 description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.
 old-location: direct2d\quadraticbeziersegment.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 9b72e367-85dd-4a1f-a67e-34fc4b078ebe
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: QuadraticBezierSegment, QuadraticBezierSegment function [Direct2D], d2d1helper/QuadraticBezierSegment, direct2d.quadraticbeziersegment
 ms.prod: windows
 ms.technology: windows-sdk

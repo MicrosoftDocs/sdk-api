@@ -4,10 +4,10 @@ title: HttpCreateUrlGroup function
 author: windows-sdk-content
 description: Creates a URL Group under the specified server session.
 old-location: http\httpcreateurlgroup.htm
-old-project: Http
+old-project: http
 ms.assetid: 6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpCreateUrlGroup, HttpCreateUrlGroup function [HTTP], http.httpcreateurlgroup, http/HttpCreateUrlGroup
 ms.prod: windows
 ms.technology: windows-sdk

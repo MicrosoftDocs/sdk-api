@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkqueryproperty.htm
 old-project: NativeWiFi
 ms.assetid: bab05629-c921-4639-94db-25f77742dbd3
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanHostedNetworkQueryProperty, WlanHostedNetworkQueryProperty function [NativeWIFI], nwifi.wlanhostednetworkqueryproperty, wlanapi/WlanHostedNetworkQueryProperty
 ms.prod: windows
 ms.technology: windows-sdk

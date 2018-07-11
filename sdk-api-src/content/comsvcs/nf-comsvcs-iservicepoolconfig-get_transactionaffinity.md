@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_get_transactionaffinity.htm
 old-project: cossdk
 ms.assetid: ac227f22-1ed3-4c75-8469-e8635e2d2849
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_TransactionAffinity method, IServicePoolConfig.get_TransactionAffinity, IServicePoolConfig::get_TransactionAffinity, comsvcs/IServicePoolConfig::get_TransactionAffinity, cos.iservicepoolconfig_get_transactionaffinity, get_TransactionAffinity, get_TransactionAffinity method [COM+], get_TransactionAffinity method [COM+],IServicePoolConfig interface
 ms.prod: windows
 ms.technology: windows-sdk

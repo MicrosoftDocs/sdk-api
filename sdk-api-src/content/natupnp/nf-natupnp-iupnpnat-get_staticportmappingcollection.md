@@ -4,10 +4,10 @@ title: IUPnPNAT::get_StaticPortMappingCollection
 author: windows-sdk-content
 description: The get_StaticPortMappingCollection method retrieves an interface for the collection of static port mappings on the NAT used by the local computer.
 old-location: ics\iupnpnat_get_staticportmappingcollection.htm
-old-project: ICS
+old-project: ics
 ms.assetid: ba4d0735-f04e-47d1-a54c-e01cf338d737
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_StaticPortMappingCollection method, IUPnPNAT.get_StaticPortMappingCollection, IUPnPNAT::get_StaticPortMappingCollection, _ics_iupnpnat_get_staticportmappingcollection, get_StaticPortMappingCollection, get_StaticPortMappingCollection method [ICS/ICF], get_StaticPortMappingCollection method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_staticportmappingcollection, natupnp/IUPnPNAT::get_StaticPortMappingCollection
 ms.prod: windows
 ms.technology: windows-sdk

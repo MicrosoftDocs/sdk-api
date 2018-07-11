@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_ENUM
 author: windows-sdk-content
 description: Enumerates the cluster objects in a cluster, returning the name of one object with each call.
 old-location: mscs\clusterenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a7511ac6-04cb-407b-90aa-3382c5160cb6
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_ENUM_ALL, CLUSTER_ENUM_GROUP, CLUSTER_ENUM_INTERNAL_NETWORK, CLUSTER_ENUM_NETINTERFACE, CLUSTER_ENUM_NETWORK, CLUSTER_ENUM_NODE, CLUSTER_ENUM_RESOURCE, CLUSTER_ENUM_RESTYPE, CLUSTER_ENUM_SHARED_VOLUME_RESOURCE, PCLUSAPI_CLUSTER_ENUM, PCLUSAPI_CLUSTER_ENUM callback, PCLUSAPI_CLUSTER_ENUM callback function [Failover Cluster], _wolf_clusterenum, clusapi/PCLUSAPI_CLUSTER_ENUM, mscs.clusterenum
 ms.prod: windows
 ms.technology: windows-sdk

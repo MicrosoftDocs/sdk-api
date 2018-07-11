@@ -7,7 +7,7 @@ old-location: input_intcontext\setinertiaparameterinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 5b228339-3830-407f-a8ea-55f40156cc32
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: SetInertiaParameterInteractionContext, SetInertiaParameterInteractionContext function, input_intcontext.setinertiaparameterinteractioncontext, interactioncontext.setinertiaparameterinteractioncontext, interactioncontext/SetInertiaParameterInteractionContext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\wtsgetactiveconsolesessionid.htm
 old-project: TermServ
 ms.assetid: 9aa43cfa-9518-428b-95a1-004fa23df90b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WTSGetActiveConsoleSessionId, WTSGetActiveConsoleSessionId function [Remote Desktop Services], _win32_wtsgetactiveconsolesessionid, termserv.wtsgetactiveconsolesessionid, winbase/WTSGetActiveConsoleSessionId
 ms.prod: windows
 ms.technology: windows-sdk

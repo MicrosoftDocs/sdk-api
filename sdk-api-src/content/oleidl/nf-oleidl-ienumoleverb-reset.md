@@ -7,7 +7,7 @@ old-location: com\ienumoleverb_reset.htm
 old-project: com
 ms.assetid: 612a364a-e7c2-4efd-b55c-1050891f5e22
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumOLEVERB interface [COM],Reset method, IEnumOLEVERB.Reset, IEnumOLEVERB::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_reset, com.ienumoleverb_reset, oleidl/IEnumOLEVERB::Reset
 ms.prod: windows
 ms.technology: windows-sdk

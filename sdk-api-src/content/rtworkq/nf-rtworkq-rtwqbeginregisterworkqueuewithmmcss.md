@@ -7,7 +7,7 @@ old-location: base\rtwqbeginregisterworkqueuewithmmcss.htm
 old-project: ProcThread
 ms.assetid: 3012EFE9-437A-4B60-98DD-7602CD9A9E76
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqBeginRegisterWorkQueueWithMMCSS, RtwqBeginRegisterWorkQueueWithMMCSS function, base.rtwqbeginregisterworkqueuewithmmcss, rtworkq/RtwqBeginRegisterWorkQueueWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_getsingleitemexceptions.htm
 old-project: winsync
 ms.assetid: d224d2b8-343d-48f9-ac87-cd6e8682987a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
 ms.prod: windows
 ms.technology: windows-sdk

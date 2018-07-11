@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemballoon.htm
 old-project: TSF
 ms.assetid: 619a6f21-fbac-455c-a702-0302ce13112b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], ITfLangBarItemBalloon interface [Text Services Framework],described, _tsf_itflangbaritemballoon_ref, ctfutb/ITfLangBarItemBalloon, tsf.itflangbaritemballoon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ A language bar balloon acts as a pop-up notification on the language bar.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

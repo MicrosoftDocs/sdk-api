@@ -4,10 +4,10 @@ title: PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET
 author: windows-sdk-content
 description: Deletes the specified groupset from the cluster.
 old-location: mscs\deleteclustergroupcollection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8787d61b-7a80-404c-985f-1ad4ba01acf0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, mscs.deleteclustergroupcollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\INamespaceWalkCB_FoundItem.htm
 old-project: shell
 ms.assetid: d9f86764-6365-432e-9216-57fede3aec83
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: FoundItem, FoundItem method [Windows Shell], FoundItem method [Windows Shell],INamespaceWalkCB interface, INamespaceWalkCB interface [Windows Shell],FoundItem method, INamespaceWalkCB.FoundItem, INamespaceWalkCB::FoundItem, _win32_INamespaceWalkCB_FoundItem, shell.INamespaceWalkCB_FoundItem, shobjidl_core/INamespaceWalkCB::FoundItem
 ms.prod: windows
 ms.technology: windows-sdk

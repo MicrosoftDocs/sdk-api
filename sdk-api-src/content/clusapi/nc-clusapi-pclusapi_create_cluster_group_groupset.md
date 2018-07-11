@@ -4,10 +4,10 @@ title: PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET
 author: windows-sdk-content
 description: Adds a groupset to a cluster and returns a handle to the newly added groupset.
 old-location: mscs\createclustergroupcollection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection
 ms.prod: windows
 ms.technology: windows-sdk

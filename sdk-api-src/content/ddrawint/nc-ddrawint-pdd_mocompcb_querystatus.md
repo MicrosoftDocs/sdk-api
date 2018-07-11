@@ -7,7 +7,7 @@ old-location: display\ddmocompquerystatus.htm
 old-project: display
 ms.assetid: af62d169-665a-43d2-ac0c-cc8ce6ce42d0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DdMoCompQueryStatus, DdMoCompQueryStatus callback function [Display Devices], PDD_MOCOMPCB_QUERYSTATUS, PDD_MOCOMPCB_QUERYSTATUS callback, ddfncs_8610d619-2c4f-41b4-8b28-4451019063b7.xml, ddrawint/DdMoCompQueryStatus, display.ddmocompquerystatus
 ms.prod: windows
 ms.technology: windows-sdk

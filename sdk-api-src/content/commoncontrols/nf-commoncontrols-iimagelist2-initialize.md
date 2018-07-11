@@ -4,10 +4,10 @@ title: IImageList2::Initialize
 author: windows-sdk-content
 description: Initializes an image list.
 old-location: controls\IImageList2_Initialize.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\initialize.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: IImageList2 interface [Windows Controls],Initialize method, IImageList2.Initialize, IImageList2::Initialize, Initialize, Initialize method [Windows Controls], Initialize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Initialize, _shell_IImageList2_Initialize_cpp, commoncontrols/IImageList2::Initialize, controls.IImageList2_Initialize, controls._shell_IImageList2_Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Height, in pixels, of each image.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/library/Bb775232(v=VS.85).aspx">Image List Creation Flags</a>. 
+A combination of <a href="https://msdn.microsoft.com/DFEB1934-DB7F-4151-97F9-DDB2BCCC782A">Image List Creation Flags</a>. 
 
 
 ### -param cInitial [in]

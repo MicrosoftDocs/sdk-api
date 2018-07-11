@@ -4,10 +4,10 @@ title: PRESUTIL_VERIFY_PROPERTY_TABLE
 author: windows-sdk-content
 description: Uses a property table to verify that a property list is correctly formatted.
 old-location: mscs\resutilverifypropertytable.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE callback, PRESUTIL_VERIFY_PROPERTY_TABLE callback function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE
 ms.prod: windows
 ms.technology: windows-sdk

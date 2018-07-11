@@ -4,10 +4,10 @@ title: GetTapeParameters function
 author: windows-sdk-content
 description: Retrieves information that describes the tape or the tape drive.
 old-location: backup\gettapeparameters.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
 ms.prod: windows
 ms.technology: windows-sdk

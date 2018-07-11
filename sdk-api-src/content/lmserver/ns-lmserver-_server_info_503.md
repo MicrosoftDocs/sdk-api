@@ -4,10 +4,10 @@ title: "_SERVER_INFO_503"
 author: windows-sdk-content
 description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.
 old-location: netmgmt\server_info_503_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: c6ad20ed-9f2b-4cbe-ac2e-a57acf1b32ea
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSERVER_INFO_503, *PSERVER_INFO_503, LPSERVER_INFO_503, LPSERVER_INFO_503 structure pointer [Network Management], PSERVER_INFO_503, PSERVER_INFO_503 structure pointer [Network Management], SERVER_INFO_503, SERVER_INFO_503 structure [Network Management], _SERVER_INFO_503, _win32_server_info_503_str, lmserver/LPSERVER_INFO_503, lmserver/PSERVER_INFO_503, lmserver/SERVER_INFO_503, netmgmt.server_info_503_str"
 ms.prod: windows
 ms.technology: windows-sdk

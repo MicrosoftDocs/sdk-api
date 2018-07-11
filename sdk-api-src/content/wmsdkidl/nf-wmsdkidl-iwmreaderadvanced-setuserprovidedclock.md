@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setuserprovidedclock.htm
 old-project: wmformat
 ms.assetid: 1f29beea-1da4-41e0-a68d-93af3b1f55ed
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetUserProvidedClock method, IWMReaderAdvanced.SetUserProvidedClock, IWMReaderAdvanced::SetUserProvidedClock, IWMReaderAdvancedSetUserProvidedClock, SetUserProvidedClock, SetUserProvidedClock method [windows Media Format], SetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setuserprovidedclock, wmsdkidl/IWMReaderAdvanced::SetUserProvidedClock
 ms.prod: windows
 ms.technology: windows-sdk

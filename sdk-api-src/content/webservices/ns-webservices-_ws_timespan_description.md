@@ -7,7 +7,7 @@ old-location: wsw\ws_timespan_description.htm
 old-project: wsw
 ms.assetid: 8c74c30e-6793-490b-bc36-b7c60ef35232
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_TIMESPAN_DESCRIPTION, WS_TIMESPAN_DESCRIPTION structure [Web Services for Windows], _WS_TIMESPAN_DESCRIPTION, webservices/WS_TIMESPAN_DESCRIPTION, wsw.ws_timespan_description
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dlgbox\senddlgitemmessage.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\senddlgitemmessage.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: SendDlgItemMessage, SendDlgItemMessage function [Dialog Boxes], SendDlgItemMessageA, SendDlgItemMessageW, _win32_SendDlgItemMessage, _win32_senddlgitemmessage_cpp, dlgbox.senddlgitemmessage, winui._win32_senddlgitemmessage, winuser/SendDlgItemMessage, winuser/SendDlgItemMessageA, winuser/SendDlgItemMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -84,7 +84,7 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/21a4d40b-52da-49e4-a374-afc4927e96e8">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -125,7 +125,7 @@ Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the speci
 
 
 			
-			For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
+			For an example, see <a href="using_dialog_boxes.htm">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -140,7 +140,7 @@ Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the speci
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
 
 
 

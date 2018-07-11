@@ -7,7 +7,7 @@ old-location: security\saslacceptsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TdhCloseDecodingHandle function
 author: windows-sdk-content
 description: Frees any resources associated with the input decoding handle.
 old-location: etw\tdhclosedecodinghandle.htm
-old-project: ETW
+old-project: etw
 ms.assetid: f3cf6b1e-c970-4b91-aa54-370d46a6e86a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: TdhCloseDecodingHandle, TdhCloseDecodingHandle function [ETW], etw.tdhclosedecodinghandle, tdh/TdhCloseDecodingHandle
 ms.prod: windows
 ms.technology: windows-sdk

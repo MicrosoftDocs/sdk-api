@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: B14084F5-2686-4522-8024-71A07541CFE2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TpSetCallbackCleanupGroup, TpSetCallbackCleanupGroup function, base.tpsetcallbackcleanupgroup, winnt/TpSetCallbackCleanupGroup
 ms.prod: windows
 ms.technology: windows-sdk

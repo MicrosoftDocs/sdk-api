@@ -7,7 +7,7 @@ old-location: winsync\ienumsingleitemexceptions_next.htm
 old-project: winsync
 ms.assetid: a9605eaa-2b68-4bc6-9dcf-c2bebc4e6f1b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Next method, IEnumSingleItemExceptions.Next, IEnumSingleItemExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_next, winsync/IEnumSingleItemExceptions::Next
 ms.prod: windows
 ms.technology: windows-sdk

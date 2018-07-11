@@ -7,7 +7,7 @@ old-location: mf\dxva2floattofixed.htm
 old-project: medfound
 ms.assetid: 2537e691-2137-4e4b-90a0-6749a6ceb144
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2FloatToFixed function [Media Foundation], dxva2api/DXVA2FloatToFixed, mf.dxva2floattofixed
 ms.prod: windows
 ms.technology: windows-sdk

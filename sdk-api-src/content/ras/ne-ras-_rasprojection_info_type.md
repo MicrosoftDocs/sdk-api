@@ -4,10 +4,10 @@ title: "_RASPROJECTION_INFO_TYPE"
 author: windows-sdk-content
 description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.
 old-location: rras\rasprojection_info_type.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: ac288100-a346-4d9b-9bf4-8144372f54a3
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: PROJECTION_INFO_TYPE_IKEv2, PROJECTION_INFO_TYPE_PPP, RASPROJECTION_INFO_TYPE, RASPROJECTION_INFO_TYPE enumeration [RAS], _RASPROJECTION_INFO_TYPE, ras/PROJECTION_INFO_TYPE_IKEv2, ras/PROJECTION_INFO_TYPE_PPP, ras/RASPROJECTION_INFO_TYPE, rras.rasprojection_info_type
 ms.prod: windows
 ms.technology: windows-sdk

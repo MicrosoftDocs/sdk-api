@@ -7,7 +7,7 @@ old-location: tablet\inkedit_mousepointer.htm
 old-project: tablet
 ms.assetid: a5d9a6cc-d777-4619-b28b-17cc79584171
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkEdit interface [Tablet PC],MousePointer property, IInkEdit.MousePointer, IInkEdit.get_MousePointer, IInkEdit::MousePointer, IInkEdit::get_MousePointer, IInkEdit::put_MousePointer, InkEdit.get_MousePointer, InkEdit.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkEdit interface, get_MousePointer, inked/IInkEdit::MousePointer, inked/IInkEdit::get_MousePointer, inked/IInkEdit::put_MousePointer, put_MousePointer, tablet.inkedit_mousepointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

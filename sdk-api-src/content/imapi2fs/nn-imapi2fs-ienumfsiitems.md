@@ -7,7 +7,7 @@ old-location: imapi\ienumfsiitems.htm
 old-project: imapi
 ms.assetid: f3186af1-4056-4cb5-aac4-5253ee6dbc01
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems interface [IMAPI],described, imapi.ienumfsiitems, imapi2fs/IEnumFsiItems
 ms.prod: windows
 ms.technology: windows-sdk

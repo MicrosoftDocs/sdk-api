@@ -4,10 +4,10 @@ title: ITextFont2::SetOldNumbers
 author: windows-sdk-content
 description: Sets whether old-style numbers are active.
 old-location: controls\itextfont2_setoldnumbers.htm
-old-project: Controls
+old-project: controls
 ms.assetid: f510781e-ede9-41dc-ae69-3b0ca52a6773
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetOldNumbers method, ITextFont2.SetOldNumbers, ITextFont2::SetOldNumbers, SetOldNumbers, SetOldNumbers method [Windows Controls], SetOldNumbers method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoldnumbers, tom/ITextFont2::SetOldNumbers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets whether old-style numbers are active.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

@@ -4,10 +4,10 @@ title: ISClusResTypes::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the ClusResTypes collection.
 old-location: mscs\clusrestypes_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d85c3506-5da7-46c8-8458-0ee0ef47a0e7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],Refresh method, ClusResTypes.Refresh, ISClusResTypes.Refresh, ISClusResTypes::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResTypes collection, _wolf_clusrestypes.refresh, mscs.clusrestypes_refresh
 ms.prod: windows
 ms.technology: windows-sdk

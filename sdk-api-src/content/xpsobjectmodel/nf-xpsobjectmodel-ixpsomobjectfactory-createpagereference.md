@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createpagereference.htm
 old-project: printdocs
 ms.assetid: 037a7926-def4-4be3-b7c5-3c4c588e75ae
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CreatePageReference, CreatePageReference method [XPS Documents and Packaging], CreatePageReference method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageReference method, IXpsOMObjectFactory.CreatePageReference, IXpsOMObjectFactory::CreatePageReference, xps.ixpsomobjectfactory_createpagereference, xpsobjectmodel/IXpsOMObjectFactory::CreatePageReference
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\capdrivergetcaps.htm
 old-project: Multimedia
 ms.assetid: 2ca3a1b1-1d88-480f-b079-82da111c4565
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "_win32_capDriverGetCaps, capDriverGetCaps, capDriverGetCaps macro [Windows Multimedia], multimedia.capdrivergetcaps, vfw/capDriverGetCaps"
 ms.prod: windows
 ms.technology: windows-sdk

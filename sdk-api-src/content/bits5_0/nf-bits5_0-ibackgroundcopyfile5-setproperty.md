@@ -4,10 +4,10 @@ title: IBackgroundCopyFile5::SetProperty
 author: windows-sdk-content
 description: Sets a generic property of a BITS file transfer.
 old-location: bits\ibackgroundcopyfile5_setproperty.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 7a5809ef-e84f-4566-a5fa-fd63b1dfd15c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgroundCopyFile5.SetProperty, IBackgroundCopyFile5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyFile5 interface, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
 ms.prod: windows
 ms.technology: windows-sdk

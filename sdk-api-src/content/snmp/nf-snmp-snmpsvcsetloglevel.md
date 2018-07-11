@@ -4,10 +4,10 @@ title: SnmpSvcSetLogLevel function
 author: windows-sdk-content
 description: The SnmpSvcSetLogLevel function adjusts the level of detail of the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcsetloglevel.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 735eb056-1e2a-49d0-9613-10a326afb872
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SNMP_LOG_ERROR, SNMP_LOG_FATAL, SNMP_LOG_SILENT, SNMP_LOG_TRACE, SNMP_LOG_VERBOSE, SNMP_LOG_WARNING, SnmpSvcSetLogLevel, SnmpSvcSetLogLevel function [SNMP], _snmp_snmpsvcsetloglevel, snmp.snmpsvcsetloglevel, snmp/SnmpSvcSetLogLevel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablecurvechangehandler2.htm
 old-project: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
 ms.prod: windows
 ms.technology: windows-sdk

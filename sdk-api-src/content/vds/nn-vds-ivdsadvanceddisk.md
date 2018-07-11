@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk
 author: windows-sdk-content
 description: Creates and deletes partitions, and modifies partition attributes.
 old-location: base\ivdsadvanceddisk.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,7 +177,7 @@ Retrieves information about all partitions on the current disk.
 <li>Partitions associated with hidden volumes, which you can format and assign a drive letter to, but which host no user data. Instead, the system uses these partitions for booting, recovery, and so on. The partitions include OEM partitions, ESP partitions on GPT disks, and Unknown partitions. You cannot use the <a href="https://msdn.microsoft.com/a02ee0a6-ac29-406c-9fc0-4f632d32424f">IVdsVolume</a> or <a href="https://msdn.microsoft.com/4c8a63bd-ae2f-4157-92f9-aefc592c7d4f">IVdsVolumeMF</a> interfaces to format these partitions. Instead, use the <b>IVdsAdvancedDisk</b> interface, which exposes the <a href="https://msdn.microsoft.com/92a79b87-7385-40d9-aa20-e4724b241e59">AssignDriveLetter</a>, <a href="https://msdn.microsoft.com/1df6bf7e-0155-463c-85e2-c879557bc044">DeleteDriveLetter</a>, and <a href="https://msdn.microsoft.com/9b7015c2-a85d-4a56-8aec-208933640185">FormatPartition</a> methods.
 
 </li>
-<li>Partitions that do not fall into the preceding two categories hold user data, files, and the installed operating system for the user. These partitions are always volumes; you can format them, assign  drive letters to them, and enumerate through them with the <a href="https://msdn.microsoft.com/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a> functions.</li>
+<li>Partitions that do not fall into the preceding two categories hold user data, files, and the installed operating system for the user. These partitions are always volumes; you can format them, assign  drive letters to them, and enumerate through them with the <a href="base.findfirstvolume">FindFirstVolume</a> and <a href="base.findnextvolume">FindNextVolume</a> functions.</li>
 </ul>
 
 In general, dynamic providers  do not map volumes to partitions. The exceptions are system volumes, boot volumes, and volumes for which the caller explicitly requests this mapping. 

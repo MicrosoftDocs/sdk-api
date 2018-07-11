@@ -7,7 +7,7 @@ old-location: stream\facerectinfoblobheader.htm
 old-project: stream
 ms.assetid: BDDC33C2-CD2D-4F97-AAD1-DF69250F60B3
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.keywords: FaceRectInfoBlobHeader, FaceRectInfoBlobHeader structure [Streaming Media Devices], mfapi/FaceRectInfoBlobHeader, stream.facerectinfoblobheader, tagFaceRectInfoBlobHeader
 ms.prod: windows
 ms.technology: windows-sdk

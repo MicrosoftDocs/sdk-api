@@ -4,10 +4,10 @@ title: "_CREATE_PARTITION_PARAMETERS"
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\create_partition_parameters.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 7c0311df-0995-4100-babb-481fa3f7dd71
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CREATE_PARTITION_PARAMETERS, CREATE_PARTITION_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED, PARTITION_ENTRY_UNUSED_GUID, PARTITION_EXTENDED, PARTITION_FAT32, PARTITION_FAT32_XINT13, PARTITION_FAT_12, PARTITION_FAT_16, PARTITION_HUGE, PARTITION_IFS, PARTITION_LDM, PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_NTFT, PARTITION_OS2BOOTMGR, PARTITION_PREP, PARTITION_SYSTEM_GUID, PARTITION_UNIX, PARTITION_XENIX_1, PARTITION_XENIX_2, PARTITION_XINT13, PARTITION_XINT13_EXTENDED, _CREATE_PARTITION_PARAMETERS, base.create_partition_parameters, vds/CREATE_PARTITION_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -351,8 +351,8 @@ The data partition type that is created and recognized by Windows.
 
 Only partitions of this type can be assigned drive letters, 
            receive volume GUID paths,  host mounted folders (also called volume mount points) and be enumerated by calls to 
-           <a href="https://msdn.microsoft.com/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-           <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>.
+           <a href="base.findfirstvolume">FindFirstVolume</a> and 
+           <a href="base.findnextvolume">FindNextVolume</a>.
 
 This value can be set only for basic disks, with one exception. If both PARTITION_BASIC_DATA_GUID and GPT_ATTRIBUTE_PLATFORM_REQUIRED are set for a partition on a basic disk that is subsequently converted to a dynamic disk, the partition remains a basic partition, even though the rest of the disk is a dynamic disk. This is because the partition is considered to be an OEM partition on a GPT disk.
 
@@ -461,8 +461,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a 
           result, the partition does not receive a drive letter, does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by 
-          calls to  <a href="https://msdn.microsoft.com/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-          <a href="https://msdn.microsoft.com/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>. This ensures that applications 
+          calls to  <a href="base.findfirstvolume">FindFirstVolume</a> and 
+          <a href="base.findnextvolume">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
          
 

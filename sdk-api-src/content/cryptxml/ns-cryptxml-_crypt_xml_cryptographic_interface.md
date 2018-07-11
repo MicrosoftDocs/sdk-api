@@ -4,10 +4,10 @@ title: "_CRYPT_XML_CRYPTOGRAPHIC_INTERFACE"
 author: windows-sdk-content
 description: Exposes the implemented CryptXML functions.
 old-location: security\crypt_xml_cryptographic_interface.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 55585a57-be3e-492d-bf56-4e2456572161
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, *PCRYPT_XML_CRYPTO_PROVIDER, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, CRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure [Security], PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE structure pointer [Security], _CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, cryptxml/CRYPT_XML_CRYPTOGRAPHIC_INTERFACE, cryptxml/PCRYPT_XML_CRYPTOGRAPHIC_INTERFACE, security.crypt_xml_cryptographic_interface"
 ms.prod: windows
 ms.technology: windows-sdk

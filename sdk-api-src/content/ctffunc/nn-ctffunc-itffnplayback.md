@@ -7,7 +7,7 @@ old-location: tsf\itffnplayback.htm
 old-project: TSF
 ms.assetid: e9a0d1a3-70c9-4816-8cd4-f2574392953e
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], ITfFnPlayBack interface [Text Services Framework],described, _tsf_itffnplayback_ref, ctffunc/ITfFnPlayBack, tsf.itffnplayback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ Obtains the range of text for a word or phrase that contains audio data.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

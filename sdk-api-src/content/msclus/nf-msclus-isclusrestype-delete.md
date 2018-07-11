@@ -4,10 +4,10 @@ title: ISClusResType::Delete
 author: windows-sdk-content
 description: Deletes the resource type from the cluster and unregisters the type with the Cluster service.
 old-location: mscs\clusrestype_delete.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b71789a5-7e88-418e-acf4-f28f60b03e3a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResType object [Failover Cluster],Delete method, ClusResType.Delete, Delete, Delete method [Failover Cluster], Delete method [Failover Cluster],ClusResType object, ISClusResType.Delete, ISClusResType::Delete, _wolf_clusrestype.delete, mscs.clusrestype_delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 Deletes the 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> from the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and unregisters the type with the 
-    <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">Cluster service</a>.
+    <a href="c_gly.htm">Cluster service</a>.
 
 
 ## -parameters

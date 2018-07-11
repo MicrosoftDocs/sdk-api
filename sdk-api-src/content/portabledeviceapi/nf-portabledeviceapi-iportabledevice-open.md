@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_open.htm
 old-project: wpd_sdk
 ms.assetid: d505fc34-9b6d-417a-a53e-e74773dcc8a4
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Open method, IPortableDevice.Open, IPortableDevice::Open, IPortableDeviceOpen, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Open, wpdsdk.iportabledevice_open
 ms.prod: windows
 ms.technology: windows-sdk

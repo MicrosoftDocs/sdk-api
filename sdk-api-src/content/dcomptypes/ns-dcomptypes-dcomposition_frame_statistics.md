@@ -7,7 +7,7 @@ old-location: directcomp\dcomposition_frame_statistics.htm
 old-project: directcomp
 ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: DCOMPOSITION_FRAME_STATISTICS, DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition], PDCOMPOSITION_FRAME_STATISTICS, PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition], dcomptypes/DCOMPOSITION_FRAME_STATISTICS, dcomptypes/PDCOMPOSITION_FRAME_STATISTICS, directcomp.dcomposition_frame_statistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ The time stamp of the last batch of commands to be processed by the composition 
 
 ### -field currentCompositionRate
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a></b>
 
 The rate at which the composition engine is producing frames, in frames per second.
 
@@ -76,7 +76,7 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 Type: <b><a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a></b>
 
-The current time as computed by the <a href="https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function.
+The current time as computed by the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> function.
 
 
 ### -field timeFrequency

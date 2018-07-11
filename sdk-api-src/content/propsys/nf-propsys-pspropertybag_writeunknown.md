@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteUnknown.htm
 old-project: properties
 ms.assetid: D96643E7-9A14-4410-BD2C-A264B74E0590
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_WriteUnknown, PSPropertyBag_WriteUnknown function [Windows Properties], properties.PSPropertyBag_WriteUnknown, propsys/PSPropertyBag_WriteUnknown, shell.PSPropertyBag_WriteUnknown, shell_PSPropertyBag_WriteUnknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845066(v=VS.85).aspx">PSPropertyBag_ReadUnknown</a>
+<a href="shell.PSPropertyBag_ReadUnknown">PSPropertyBag_ReadUnknown</a>
  
 
  

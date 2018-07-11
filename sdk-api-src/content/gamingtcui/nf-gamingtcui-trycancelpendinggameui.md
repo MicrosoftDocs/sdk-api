@@ -7,7 +7,7 @@ old-location: tcui\trycancelpendinggameui.htm
 old-project: tcui
 ms.assetid: 620159FC-AC62-4568-8354-D15BCAEEEEB2
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui/TryCancelPendingGameUI, tcui.trycancelpendinggameui
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\setipv4sourcefilter.htm
 old-project: WinSock
 ms.assetid: C296D050-9195-42B5-8EBE-C6004F2DA855
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: setipv4sourcefilter, setipv4sourcefilter function [Winsock], winsock.setipv4sourcefilter, ws2tcpip/setipv4sourcefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ On success,  <b>setipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

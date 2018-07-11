@@ -4,10 +4,10 @@ title: lineSwapHold function
 author: windows-sdk-content
 description: The lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 old-location: tapi2\lineswaphold.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 9e575c82-301c-4505-b400-faf4dc291ff8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold"
 ms.prod: windows
 ms.technology: windows-sdk

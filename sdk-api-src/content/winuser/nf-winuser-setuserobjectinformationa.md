@@ -7,7 +7,7 @@ old-location: winstation\setuserobjectinformation.htm
 old-project: winstation
 ms.assetid: 42ce6946-1659-41a3-8ba7-21588583b4bd
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: SetUserObjectInformation, SetUserObjectInformation function [Windows Stations and Desktops], SetUserObjectInformationA, SetUserObjectInformationW, UOI_FLAGS, UOI_TIMERPROC_EXCEPTION_SUPPRESSION, _win32_setuserobjectinformation, base.setuserobjectinformation, winstation.setuserobjectinformation, winuser/SetUserObjectInformation, winuser/SetUserObjectInformationA, winuser/SetUserObjectInformationW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -96,13 +96,13 @@ Sets the object's handle flags. The <i>pvInfo</i> parameter must point to a
 </dl>
 </td>
 <td width="60%">
-Sets the exception handling behavior when calling <a href="https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx">TimerProc</a>.
+Sets the exception handling behavior when calling <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a>.
  <i>hObj</i> must be the process handle returned by the <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> function.
  
 
-The <i>pvInfo</i> parameter must point to a BOOL.  If TRUE, Windows will enclose its calls to <a href="https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx">TimerProc</a> with an exception handler that consumes and discards all exceptions. This has been the default behavior since Windows 2000, although that may change in future versions of Windows.  
+The <i>pvInfo</i> parameter must point to a BOOL.  If TRUE, Windows will enclose its calls to <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a> with an exception handler that consumes and discards all exceptions. This has been the default behavior since Windows 2000, although that may change in future versions of Windows.  
 
-If <i>pvInfo</i>  points to FALSE, Windows will not enclose its calls to <a href="https://msdn.microsoft.com/library/ms644907(v=VS.85).aspx">TimerProc</a> with an exception handler. A setting of FALSE is recommended.  Otherwise, the application could behave unpredictably, and could be more vulnerable to security exploits.
+If <i>pvInfo</i>  points to FALSE, Windows will not enclose its calls to <a href="https://msdn.microsoft.com/5c36a8b5-90c7-466d-b832-e28539e6d64e">TimerProc</a> with an exception handler. A setting of FALSE is recommended.  Otherwise, the application could behave unpredictably, and could be more vulnerable to security exploits.
 
 </td>
 </tr>

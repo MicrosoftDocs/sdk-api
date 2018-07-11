@@ -7,7 +7,7 @@ old-location: security\msv1_0subauthenticationroutinegeneric.htm
 old-project: SecAuthN
 ms.assetid: 78F51B69-DCFA-47D0-84C5-B44C79D50DAF
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRoutineGeneric function [Security], security.msv1_0subauthenticationroutinegeneric, subauth/Msv1_0SubAuthenticationRoutineGeneric
 ms.prod: windows
 ms.technology: windows-sdk

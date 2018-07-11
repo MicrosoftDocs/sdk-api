@@ -4,10 +4,10 @@ title: GetClusterKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a cluster.
 old-location: mscs\getclusterkey.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: ddec12fc-6d4d-411d-ab24-6fb60175ba7b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetClusterKey, GetClusterKey function [Failover Cluster], _wolf_getclusterkey, clusapi/GetClusterKey, mscs.getclusterkey
 ms.prod: windows
 ms.technology: windows-sdk

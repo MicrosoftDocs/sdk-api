@@ -7,7 +7,7 @@ old-location: cos\icatalogobject.htm
 old-project: cossdk
 ms.assetid: fe3f7452-57b2-4f9e-9b48-5dedfe519ac1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: ICatalogObject, ICatalogObject interface [COM+], ICatalogObject interface [COM+],described, _cos_ICatalogObject_Interface, comadmin/ICatalogObject, cos.icatalogobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <a href="https://msdn.microsoft.com/47c9dcfd-81fc-495c-848a-8c2b655e8fce">IC
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -4,10 +4,10 @@ title: "_MPRAPI_ADMIN_DLL_CALLBACKS"
 author: windows-sdk-content
 description: The MPRAPI_ADMIN_DLL_CALLBACKS structure is used by the MprAdminInitializeDllEx function to register the callback function pointers.
 old-location: rras\mprapi_admin_dll_callbacks.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: b36036e3-1aee-41e6-b777-98455b04e44b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: "*PMPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS, MPRAPI_ADMIN_DLL_CALLBACKS structure [RAS], MPRAPI_ADMIN_DLL_VERSION_1, MPRAPI_ADMIN_DLL_VERSION_2, PMPRAPI_ADMIN_DLL_CALLBACKS, PMPRAPI_ADMIN_DLL_CALLBACKS structure pointer [RAS], _MPRAPI_ADMIN_DLL_CALLBACKS, mprapi/MPRAPI_ADMIN_DLL_CALLBACKS, mprapi/PMPRAPI_ADMIN_DLL_CALLBACKS, rras.mprapi_admin_dll_callbacks"
 ms.prod: windows
 ms.technology: windows-sdk

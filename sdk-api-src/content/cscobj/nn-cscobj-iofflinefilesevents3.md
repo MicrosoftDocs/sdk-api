@@ -4,10 +4,10 @@ title: IOfflineFilesEvents3
 author: windows-sdk-content
 description: Used to report events associated with transparently cached items.
 old-location: of\iofflinefilesevents3.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: f68c2c0c-e4f7-4048-99c9-761f98928157
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], IOfflineFilesEvents3 interface [Offline Files],described, cscobj/IOfflineFilesEvents3, of.iofflinefilesevents3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict.htm
 old-project: winsync
 ms.assetid: b0089d3d-a1e6-4662-9e79-4c0b22c08d7f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], IChangeConflict interface [Windows Sync],described, winsync.ichangeconflict, winsync/IChangeConflict
 ms.prod: windows
 ms.technology: windows-sdk

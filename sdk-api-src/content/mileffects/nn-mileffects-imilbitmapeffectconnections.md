@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnections.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\imilbitmapeffectconnections.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectConnections, IMILBitmapEffectConnections interface [WPF Bitmap Effects], IMILBitmapEffectConnections interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnections, mileffects/IMILBitmapEffectConnections, wibe._wibe_imilbitmapeffectconnections
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectConnections</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735312(v=VS.85).aspx">GetInputConnector</a>
+<a href="https://msdn.microsoft.com/96f8b4e5-2c51-40c6-8081-3703fce98fb9">GetInputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input connector associated with the given pin index.
@@ -80,7 +80,7 @@ Retrieves the input connector associated with the given pin index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735313(v=VS.85).aspx">GetOutputConnector</a>
+<a href="https://msdn.microsoft.com/2449e385-5c70-426f-80d0-ec24b35a3067">GetOutputConnector</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output connector associated with the given pin index.

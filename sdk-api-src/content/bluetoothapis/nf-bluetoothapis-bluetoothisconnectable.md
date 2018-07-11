@@ -4,10 +4,10 @@ title: BluetoothIsConnectable function
 author: windows-sdk-content
 description: The BluetoothIsConnectable function determines whether a Bluetooth radio or radios is connectable.
 old-location: bluetooth\bluetoothisconnectable.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: e20ad938-cab4-4017-95bf-8d6843f048eb
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BluetoothIsConnectable, BluetoothIsConnectable function [Bluetooth], bluetooth.bluetoothisconnectable, bluetoothapis/BluetoothIsConnectable
 ms.prod: windows
 ms.technology: windows-sdk

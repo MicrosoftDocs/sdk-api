@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX
 author: windows-sdk-content
 description: Opens a handle to the group enumeration.
 old-location: mscs\clustergroupopenenumex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1BEF74A2-8230-4698-A3B7-FC2AA495D294
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, mscs.clustergroupopenenumex
 ms.prod: windows
 ms.technology: windows-sdk

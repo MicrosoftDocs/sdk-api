@@ -7,7 +7,7 @@ old-location: shell\OpenRegStream.htm
 old-project: shell
 ms.assetid: e1e35c94-84ac-4aa1-b2a1-47b37a7f224e
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: OpenRegStream, OpenRegStream function [Windows Shell], STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_OpenRegStream, shell.OpenRegStream, shlobj_core/OpenRegStream
 ms.prod: windows
 ms.technology: windows-sdk

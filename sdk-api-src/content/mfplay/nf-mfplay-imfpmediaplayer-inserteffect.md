@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_inserteffect.htm
 old-project: medfound
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWSDiscoveryProviderNotify::SearchComplete
 author: windows-sdk-content
 description: Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
 old-location: ncd\iwsdiscoveryprovidernotify_searchcomplete.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: a125a7b3-6887-42e2-b421-d0e27973d8ee
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchComplete method, IWSDiscoveryProviderNotify.SearchComplete, IWSDiscoveryProviderNotify::SearchComplete, SearchComplete, SearchComplete method, SearchComplete method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchcomplete, wsddisco/IWSDiscoveryProviderNotify::SearchComplete
 ms.prod: windows
 ms.technology: windows-sdk

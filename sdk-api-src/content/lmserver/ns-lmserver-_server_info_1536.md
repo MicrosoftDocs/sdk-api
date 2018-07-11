@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1536"
 author: windows-sdk-content
 description: The SERVER_INFO_1536 structure specifies whether the server allows clients to use opportunistic locks (oplocks) on files.
 old-location: netmgmt\server_info_1536_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: f16db9b3-c425-4c1e-8491-b2d7e5203420
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSERVER_INFO_1536, *PSERVER_INFO_1536, LPSERVER_INFO_1536, LPSERVER_INFO_1536 structure pointer [Network Management], PSERVER_INFO_1536, PSERVER_INFO_1536 structure pointer [Network Management], SERVER_INFO_1536, SERVER_INFO_1536 structure [Network Management], _SERVER_INFO_1536, _win32_server_info_1536_str, lmserver/LPSERVER_INFO_1536, lmserver/PSERVER_INFO_1536, lmserver/SERVER_INFO_1536, netmgmt.server_info_1536_str"
 ms.prod: windows
 ms.technology: windows-sdk

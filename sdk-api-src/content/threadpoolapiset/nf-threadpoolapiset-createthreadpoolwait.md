@@ -7,7 +7,7 @@ old-location: base\createthreadpoolwait.htm
 old-project: ProcThread
 ms.assetid: ba19f5f9-d4b0-4865-9609-95e7697d61c0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CreateThreadpoolWait, CreateThreadpoolWait function, base.createthreadpoolwait, threadpoolapiset/CreateThreadpoolWait, winbase/CreateThreadpoolWait
 ms.prod: windows
 ms.technology: windows-sdk

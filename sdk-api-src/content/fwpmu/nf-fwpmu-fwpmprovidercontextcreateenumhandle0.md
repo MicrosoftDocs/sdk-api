@@ -4,10 +4,10 @@ title: FwpmProviderContextCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of provider contexts.
 old-location: fwp\fwpmprovidercontextcreateenumhandle0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 3b660e3a-fba6-4466-aa82-eb90c27ae004
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmProviderContextCreateEnumHandle0, FwpmProviderContextCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercontextcreateenumhandle0_func, fwpmu/FwpmProviderContextCreateEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

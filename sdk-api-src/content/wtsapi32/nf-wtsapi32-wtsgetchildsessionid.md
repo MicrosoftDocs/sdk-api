@@ -7,7 +7,7 @@ old-location: termserv\wtsgetchildsessionid.htm
 old-project: TermServ
 ms.assetid: EA78660C-438D-458C-B723-ED1C8AA60FA5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WTSGetChildSessionId, WTSGetChildSessionId function [Remote Desktop Services], termserv.wtsgetchildsessionid, wtsapi32/WTSGetChildSessionId
 ms.prod: windows
 ms.technology: windows-sdk

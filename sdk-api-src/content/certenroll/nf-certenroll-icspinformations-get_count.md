@@ -4,10 +4,10 @@ title: ICspInformations::get_Count
 author: windows-sdk-content
 description: Retrieves the number of ICspInformation objects in the collection.
 old-location: security\icspinformations_count_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 7221e564-07c4-47ab-bb32-c1e94406eab9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Count property [Security], Count property [Security],ICspInformations interface, ICspInformations interface [Security],Count property, ICspInformations.Count, ICspInformations.get_Count, ICspInformations::Count, ICspInformations::get_Count, certenroll/ICspInformations::Count, certenroll/ICspInformations::get_Count, get_Count, security.icspinformations_count_property
 ms.prod: windows
 ms.technology: windows-sdk

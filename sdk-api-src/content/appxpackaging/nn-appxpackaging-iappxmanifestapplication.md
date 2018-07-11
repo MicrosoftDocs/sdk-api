@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestapplication.htm
 old-project: appxpkg
 ms.assetid: 16FC78D1-7387-4C90-9F63-BCFA110BC487
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], IAppxManifestApplication interface [App packaging and management],described, appxpackaging/IAppxManifestApplication, appxpkg.iappxmanifestapplication
 ms.prod: windows
 ms.technology: windows-sdk

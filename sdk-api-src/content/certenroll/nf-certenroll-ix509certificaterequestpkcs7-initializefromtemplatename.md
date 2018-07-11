@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs7::InitializeFromTemplateName
 author: windows-sdk-content
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestpkcs7_initializefromtemplatename_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: d6c15fcb-1883-4d87-af29-721102676535
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs7.InitializeFromTemplateName, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NN:d3dcommon.ID3D10Blob
 title: ID3D10Blob
 author: windows-sdk-content
-description: This interface is used to return arbitrary length data.
-old-location: direct3d10\id3d10blob.htm
-old-project: direct3d10
-ms.assetid: VS|directx_sdk|~\id3d10blob.htm
+description: This interface is used to return arbitrary-length data.
+old-location: direct3d11\id3d10blob.htm
+old-project: direct3d11
+ms.assetid: 7E97B8EB-E674-4B90-9B9B-202552DBD95C
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: 45a3b1ec-c6a6-dde6-52cf-6833c6a062ee, ID3D10Blob, ID3D10Blob interface [Direct3D 10], ID3D10Blob interface [Direct3D 10],described, d3dcommon/ID3D10Blob, direct3d10.id3d10blob
+ms.date: 06/26/2018
+ms.keywords: ID3D10Blob, ID3D10Blob interface [Direct3D 11], ID3D10Blob interface [Direct3D 11],described, d3dcommon/ID3D10Blob, direct3d11.id3d10blob
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: interface
@@ -34,13 +34,12 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+ - d3dcommon.h
 api_name:
  - ID3D10Blob
 product: Windows
 targetos: Windows
-req.lib: D3D10.lib
+req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
@@ -51,7 +50,9 @@ req.irql:
 ## -description
 
 
-This interface is used to return arbitrary length data.
+
+          This interface is used to return arbitrary-length data.
+        
 
 
 ## -inheritance
@@ -71,19 +72,23 @@ The <b>ID3D10Blob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173508(v=VS.85).aspx">GetBufferPointer</a>
+<a href="https://msdn.microsoft.com/21ABCED3-388E-41AD-B557-DA8707128B01">GetBufferPointer</a>
 </td>
 <td align="left" width="63%">
-Get a pointer to the data.
+
+          Gets a pointer to the data.
+        
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173509(v=VS.85).aspx">GetBufferSize</a>
+<a href="https://msdn.microsoft.com/E98833B1-07F7-4015-86C6-B9335529FC29">GetBufferSize</a>
 </td>
 <td align="left" width="63%">
-Get the size.
+
+          Gets the size.
+        
 
 </td>
 </tr>
@@ -94,11 +99,15 @@ Get the size.
 
 
 
-An <b>ID3D10Blob</b> is obtained by calling <a href="https://msdn.microsoft.com/library/Bb205085(v=VS.85).aspx">D3D10CreateBlob</a>.
 
-The  <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface is type defined in the  D3DCommon.h header file as a  <b>ID3D10Blob</b> interface, which is fully defined in the  D3DCommon.h header file. <b>ID3DBlob</b> is version neutral and can be used in code for any Direct3D version.
+          The <a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a> interface is type-defined in the D3DCommon.h header file as a <b>ID3D10Blob</b> interface, which is fully defined in the D3DCommon.h header file.
+          <b>ID3DBlob</b> is version-neutral and can be used in code for any Direct3D version.
+        
 
-Blobs can be used as a data buffer, storing vertex, adjacency, and material information during mesh optimization and loading operations. Also, these objects are used to return object code and error messages in APIs that compile vertex, geometry and pixel shaders.
+
+          Blobs can be used as a data buffer, storing vertex, adjacency, and material information during mesh optimization and loading operations.
+          Also, these objects are used to return object code and error messages in APIs that compile vertex, geometry and pixel shaders.
+        
 
 
 
@@ -108,7 +117,15 @@ Blobs can be used as a data buffer, storing vertex, adjacency, and material info
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/d228c3c2-e2ff-4723-aec1-5c3ce82c321d">Common Version Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/f6a04778-1ab9-4935-98b8-f814c6b4ebac">ID3DBlob</a>
+
+
+
+<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
  
 
  

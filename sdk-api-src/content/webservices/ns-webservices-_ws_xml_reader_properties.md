@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_properties.htm
 old-project: wsw
 ms.assetid: 5373c8d3-9201-417e-99d9-cc0d15a35ea6
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_READER_PROPERTIES, WS_XML_READER_PROPERTIES structure [Web Services for Windows], _WS_XML_READER_PROPERTIES, webservices/WS_XML_READER_PROPERTIES, wsw.ws_xml_reader_properties
 ms.prod: windows
 ms.technology: windows-sdk

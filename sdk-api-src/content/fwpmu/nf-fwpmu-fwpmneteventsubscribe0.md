@@ -4,10 +4,10 @@ title: FwpmNetEventSubscribe0 function
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding a particular net event.
 old-location: fwp\fwpmneteventsubscribe0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: a2671600-c231-46c8-966d-f444fbdfa944
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmNetEventSubscribe0, FwpmNetEventSubscribe0 function [Filtering], fwp.fwpmneteventsubscribe0, fwpmu/FwpmNetEventSubscribe0
 ms.prod: windows
 ms.technology: windows-sdk

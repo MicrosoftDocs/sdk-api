@@ -7,7 +7,7 @@ old-location: search\_search_IProtocolHandlerSite_search_IProtocolHandlerSite_Ge
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\getfilter.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetFilter, GetFilter method [search], GetFilter method [search],IProtocolHandlerSite interface, IProtocolHandlerSite interface [search],GetFilter method, IProtocolHandlerSite.GetFilter, IProtocolHandlerSite::GetFilter, _search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp, searchapi/IProtocolHandlerSite::GetFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 
 
 
-        Retrieves the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>according to the supplied parameters.     
+        Retrieves the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>according to the supplied parameters.     
         
 
 
@@ -65,28 +65,28 @@ req.product: ADAM
 
 Type: <b>CLSID*</b>
 
-Pointer to the CLSID of the document type from the registry. This is used for items with embedded documents to indicate the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>to use for that embedded document.
+Pointer to the CLSID of the document type from the registry. This is used for items with embedded documents to indicate the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>to use for that embedded document.
 
 
 ### -param pcwszContentType [in]
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated Unicode string that contains the type of the document. This is used to retrieve <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a><b>s</b> that are mapped according to MIME type.
+Pointer to a null-terminated Unicode string that contains the type of the document. This is used to retrieve <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a><b>s</b> that are mapped according to MIME type.
 
 
 ### -param pcwszExtension [in]
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated Unicode string that contains the file name extension, without the preceding period. This is used to retrieve <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>objects that are mapped according to the file name extension.
+Pointer to a null-terminated Unicode string that contains the file name extension, without the preceding period. This is used to retrieve <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>objects that are mapped according to the file name extension.
 
 
 ### -param ppFilter [out]
 
 Type: <b>IFilter**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>that the protocol handler uses.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>that the protocol handler uses.
 
 
 ## -returns
@@ -104,9 +104,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method queries the Filter Host to identify the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>object to use for the URL item.
+This method queries the Filter Host to identify the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>object to use for the URL item.
 
-The choice of filter is based on the file name extension, a CLSID that identifies the file's content type in the registry, or on the MIME content type. You need to provide only one of the three parameters to this method. If you provide multiple parameters, they are tested in the following order: <i>pcwszContentType</i>, <i>pclsidObj</i>, <i>pcwszExtension</i>. The first valid parameter is used to select the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>; the others are ignored.
+The choice of filter is based on the file name extension, a CLSID that identifies the file's content type in the registry, or on the MIME content type. You need to provide only one of the three parameters to this method. If you provide multiple parameters, they are tested in the following order: <i>pcwszContentType</i>, <i>pclsidObj</i>, <i>pcwszExtension</i>. The first valid parameter is used to select the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>; the others are ignored.
 
 
 

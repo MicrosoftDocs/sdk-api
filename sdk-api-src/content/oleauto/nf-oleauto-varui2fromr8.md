@@ -7,7 +7,7 @@ old-location: automat\varui2fromr8.htm
 old-project: automat
 ms.assetid: cbec8935-a160-4a93-bc12-8b82efbf486c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarUI2FromR8, VarUI2FromR8 function [Automation], _oa96_VarUI2FromR8, automat.varui2fromr8, oleauto/VarUI2FromR8
 ms.prod: windows
 ms.technology: windows-sdk

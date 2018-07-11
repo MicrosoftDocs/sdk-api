@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofilecollection.htm
 old-project: medfound
 ms.assetid: 406EDC3F-39AD-41E0-A8AA-E4476C93F353
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSensorProfileCollection, IMFSensorProfileCollection interface [Media Foundation], IMFSensorProfileCollection interface [Media Foundation],described, mf.imfsensorprofilecollection, mfidl/IMFSensorProfileCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IMFSensorProfileCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845817(v=VS.85).aspx">AddProfile</a>
+<a href="mf.imfsensorprofilecollection_addprofile">AddProfile</a>
 </td>
 <td align="left" width="63%">
 Adds the specified profile to the collection.
@@ -80,7 +80,7 @@ Adds the specified profile to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845818(v=VS.85).aspx">FindProfile</a>
+<a href="mf.imfsensorprofilecollection_findprofile">FindProfile</a>
 </td>
 <td align="left" width="63%">
 Finds a profile based on the specified profile ID.
@@ -89,7 +89,7 @@ Finds a profile based on the specified profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845819(v=VS.85).aspx">GetProfile</a>
+<a href="mf.imfsensorprofilecollection_getprofile">GetProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified profile.
@@ -98,7 +98,7 @@ Retrieves the specified profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845820(v=VS.85).aspx">RemoveProfile</a>
+<a href="mf.imfsensorprofilecollection_removeprofile">RemoveProfile</a>
 </td>
 <td align="left" width="63%">
 removes the specified profile based on the specified profile ID.
@@ -107,7 +107,7 @@ removes the specified profile based on the specified profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt845821(v=VS.85).aspx">RemoveProfileByIndex</a>
+<a href="mf.imfsensorprofilecollection_removeprofilebyindex">RemoveProfileByIndex</a>
 </td>
 <td align="left" width="63%">
         Removes a profile based on the specified index.

@@ -7,7 +7,7 @@ old-location: gdi\pie.htm
 old-project: gdi
 ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
 ms.prod: windows
 ms.technology: windows-sdk

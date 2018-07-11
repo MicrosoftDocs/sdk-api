@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_removetree.htm
 old-project: imapi
 ms.assetid: d0aad985-306c-41a2-9711-9265a4f492c5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],RemoveTree method, IFsiDirectoryItem.RemoveTree, IFsiDirectoryItem::RemoveTree, RemoveTree, RemoveTree method [IMAPI], RemoveTree method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_removetree, imapi2fs/IFsiDirectoryItem::RemoveTree
 ms.prod: windows
 ms.technology: windows-sdk

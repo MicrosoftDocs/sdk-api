@@ -4,10 +4,10 @@ title: CloseClusterGroupSet function
 author: windows-sdk-content
 description: Closes a groupset handle returned from OpenClusterGroupSet.
 old-location: mscs\closeclustergroupcollection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 017f0c40-023d-4b22-90ec-037122718830
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CloseClusterGroupSet, CloseClusterGroupSet function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, PCLUSAPI_CLOSE_CLUSTER_GROUP_SET function [Failover Cluster], clusapi/CloseClusterGroupSet, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, mscs.closeclustergroupcollection
 ms.prod: windows
 ms.technology: windows-sdk

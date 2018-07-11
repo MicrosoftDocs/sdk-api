@@ -4,10 +4,10 @@ title: DiskQuotaUserInformation
 author: windows-sdk-content
 description: Represents the per-user quota information.
 old-location: fs\diskquota_user_information_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 8929faab-e15e-47a0-af9e-b64684272cb7
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PDISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION, DISKQUOTA_USER_INFORMATION structure [Files], DiskQuotaUserInformation, PDISKQUOTA_USER_INFORMATION, PDISKQUOTA_USER_INFORMATION structure pointer [Files], _win32_diskquota_user_information_str, base.diskquota_user_information_str, dskquota/DISKQUOTA_USER_INFORMATION, dskquota/PDISKQUOTA_USER_INFORMATION, fs.diskquota_user_information_str"
 ms.prod: windows
 ms.technology: windows-sdk

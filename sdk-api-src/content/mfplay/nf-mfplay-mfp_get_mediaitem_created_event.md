@@ -7,7 +7,7 @@ old-location: mf\mfp_get_mediaitem_created_event.htm
 old-project: medfound
 ms.assetid: 16187a19-6ea9-461a-a785-d302056c41ef
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFP_GET_MEDIAITEM_CREATED_EVENT, MFP_GET_MEDIAITEM_CREATED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_created_event, mfplay/MFP_GET_MEDIAITEM_CREATED_EVENT
 ms.prod: windows
 ms.technology: windows-sdk

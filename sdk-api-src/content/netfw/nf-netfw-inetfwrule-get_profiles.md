@@ -4,10 +4,10 @@ title: INetFwRule::get_Profiles
 author: windows-sdk-content
 description: Specifies the profiles to which the rule belongs.
 old-location: ics\inetfwrule_profiles.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 98e40140-1df2-439a-9c83-a50f82f65e24
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Profiles property, INetFwRule.Profiles, INetFwRule.get_Profiles, INetFwRule::Profiles, INetFwRule::get_Profiles, INetFwRule::put_Profiles, Profiles property [ICS/ICF], Profiles property [ICS/ICF],INetFwRule interface, get_Profiles, ics.inetfwrule_profiles, netfw/INetFwRule::Profiles, netfw/INetFwRule::get_Profiles, netfw/INetFwRule::put_Profiles
 ms.prod: windows
 ms.technology: windows-sdk

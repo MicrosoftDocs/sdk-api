@@ -4,10 +4,10 @@ title: ISClusResource::AddResourceNode
 author: windows-sdk-content
 description: Adds a new node to the list of possible nodes that can host the resource.
 old-location: mscs\clusresource_addresourcenode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 98727cb1-238f-4bd8-b83a-e3838f824a16
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AddResourceNode, AddResourceNode method [Failover Cluster], AddResourceNode method [Failover Cluster],ClusResource class, ClusResource class [Failover Cluster],AddResourceNode method, ClusResource.AddResourceNode, ISClusResource.AddResourceNode, ISClusResource::AddResourceNode, _wolf_clusresource.addresourcenode, mscs.clusresource_addresourcenode
 ms.prod: windows
 ms.technology: windows-sdk

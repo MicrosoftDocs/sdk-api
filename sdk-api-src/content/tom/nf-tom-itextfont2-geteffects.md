@@ -4,10 +4,10 @@ title: ITextFont2::GetEffects
 author: windows-sdk-content
 description: Gets the character format effects.
 old-location: controls\itextfont2_geteffects.htm
-old-project: Controls
+old-project: controls
 ms.assetid: a182df7e-2024-48fc-9767-7110ffff0b4c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetEffects method, ITextFont2.GetEffects, ITextFont2::GetEffects, controls.itextfont2_geteffects, tom/ITextFont2::GetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -212,7 +212,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
+If the  <a href="tomconstants.htm">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
 
 
 

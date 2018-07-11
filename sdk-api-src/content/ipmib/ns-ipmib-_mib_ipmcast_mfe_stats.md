@@ -4,10 +4,10 @@ title: "_MIB_IPMCAST_MFE_STATS"
 author: windows-sdk-content
 description: Stores the statistics associated with a Multicast Forwarding Entry (MFE).
 old-location: mib\mib_ipmcast_mfe_stats.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 8e277c8d-db7a-4710-87af-ea5311123a71
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS structure [MIB], PMIB_IPMCAST_MFE_STATS, PMIB_IPMCAST_MFE_STATS structure pointer [MIB], _MIB_IPMCAST_MFE_STATS, _mpr_mib_ipmcast_mfe_stats, ipmib/MIB_IPMCAST_MFE_STATS, ipmib/PMIB_IPMCAST_MFE_STATS, iprtrmib/MIB_IPMCAST_MFE_STATS, iprtrmib/PMIB_IPMCAST_MFE_STATS, mib.mib_ipmcast_mfe_stats, rras.mib_ipmcast_mfe_stats"
 ms.prod: windows
 ms.technology: windows-sdk

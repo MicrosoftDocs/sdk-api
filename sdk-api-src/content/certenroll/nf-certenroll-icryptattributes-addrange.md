@@ -4,10 +4,10 @@ title: ICryptAttributes::AddRange
 author: windows-sdk-content
 description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.
 old-location: security\icryptattributes_addrange_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
 ms.prod: windows
 ms.technology: windows-sdk

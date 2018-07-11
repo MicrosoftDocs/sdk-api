@@ -7,7 +7,7 @@ old-location: opc\iopcrelationship.htm
 old-project: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], IOpcRelationship interface [Open Packaging Conventions],described, msopc/IOpcRelationship, opc.iopcrelationship
 ms.prod: windows
 ms.technology: windows-sdk

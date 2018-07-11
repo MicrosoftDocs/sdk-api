@@ -4,10 +4,10 @@ title: ISClusPropertyValues::CreateItem
 author: windows-sdk-content
 description: Creates a property value and adds it to the ClusPropertyValues collection.
 old-location: mscs\cluspropertyvalues_createitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b7175a46-3e0c-4d71-b435-589a145a56f3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValues collection [Failover Cluster],CreateItem method, ClusPropertyValues.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusPropertyValues collection, ISClusPropertyValues.CreateItem, ISClusPropertyValues::CreateItem, _wolf_cluspropertyvalues.createitem, mscs.cluspropertyvalues_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Creates 
-    a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a> and adds it to the 
+    a <a href="p_gly.htm">property value</a> and adds it to the 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

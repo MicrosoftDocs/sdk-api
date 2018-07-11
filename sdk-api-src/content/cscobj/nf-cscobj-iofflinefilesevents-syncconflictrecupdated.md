@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::SyncConflictRecUpdated
 author: windows-sdk-content
 description: Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecupdated.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: adf13e95-bcb0-4f84-bbb9-9648f90f3be8
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecUpdated method, IOfflineFilesEvents.SyncConflictRecUpdated, IOfflineFilesEvents::SyncConflictRecUpdated, SyncConflictRecUpdated, SyncConflictRecUpdated method [Offline Files], SyncConflictRecUpdated method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecUpdated, of.iofflinefilesevents_syncconflictrecupdated
 ms.prod: windows
 ms.technology: windows-sdk

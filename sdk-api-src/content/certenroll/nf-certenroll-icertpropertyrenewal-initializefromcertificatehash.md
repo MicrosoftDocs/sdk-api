@@ -4,10 +4,10 @@ title: ICertPropertyRenewal::InitializeFromCertificateHash
 author: windows-sdk-content
 description: Initializes the object from the new certificate.
 old-location: security\icertpropertyrenewal_initializefromcertificatehash_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 87e0eabf-7a4a-4ff2-a9ce-6482f119cafd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyRenewal interface [Security],InitializeFromCertificateHash method, ICertPropertyRenewal.InitializeFromCertificateHash, ICertPropertyRenewal::InitializeFromCertificateHash, InitializeFromCertificateHash, InitializeFromCertificateHash method [Security], InitializeFromCertificateHash method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::InitializeFromCertificateHash, security.icertpropertyrenewal_initializefromcertificatehash_method
 ms.prod: windows
 ms.technology: windows-sdk

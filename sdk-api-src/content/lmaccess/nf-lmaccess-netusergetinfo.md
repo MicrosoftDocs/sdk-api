@@ -4,10 +4,10 @@ title: NetUserGetInfo function
 author: windows-sdk-content
 description: The NetUserGetInfo function retrieves information about a particular user account on a server.
 old-location: netmgmt\netusergetinfo.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
 ms.prod: windows
 ms.technology: windows-sdk

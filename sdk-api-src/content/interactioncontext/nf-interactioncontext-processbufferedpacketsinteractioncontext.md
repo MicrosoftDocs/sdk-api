@@ -7,7 +7,7 @@ old-location: input_intcontext\processbufferedpacketsinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 52bbeae9-70ab-403c-a035-de2acc2e0599
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext
 ms.prod: windows
 ms.technology: windows-sdk

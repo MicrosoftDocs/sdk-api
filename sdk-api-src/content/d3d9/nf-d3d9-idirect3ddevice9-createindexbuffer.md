@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createindexbuffer.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createindexbuffer.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 532a9cb1-de3a-0873-68d0-511852df653f, CreateIndexBuffer, CreateIndexBuffer method [Direct3D 9], CreateIndexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateIndexBuffer method, IDirect3DDevice9.CreateIndexBuffer, IDirect3DDevice9::CreateIndexBuffer, d3d9helper/IDirect3DDevice9::CreateIndexBuffer, direct3d9.idirect3ddevice9__createindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,14 +70,14 @@ Size of the index buffer, in bytes.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Usage can be 0, which indicates no usage value. However, if usage is desired, use a combination of one or more <a href="https://msdn.microsoft.com/library/Bb172625(v=VS.85).aspx">D3DUSAGE</a> constants. It is good practice to match the usage parameter in CreateIndexBuffer with the behavior flags in <a href="https://msdn.microsoft.com/library/Bb174313(v=VS.85).aspx">IDirect3D9::CreateDevice</a>. For more information, see Remarks. 
+Usage can be 0, which indicates no usage value. However, if usage is desired, use a combination of one or more <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">D3DUSAGE</a> constants. It is good practice to match the usage parameter in CreateIndexBuffer with the behavior flags in <a href="https://msdn.microsoft.com/22ad1d16-c1cc-4591-8311-daf6cf9924bb">IDirect3D9::CreateDevice</a>. For more information, see Remarks. 
 
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, describing the format of the index buffer. For more information, see Remarks. The valid settings are the following: 
+Member of the <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a> enumerated type, describing the format of the index buffer. For more information, see Remarks. The valid settings are the following: 
 
 
 
@@ -112,30 +112,30 @@ Indices are 32 bits each.
 
 ### -param Pool [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx">D3DPOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b">D3DPOOL</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/library/Bb172584(v=VS.85).aspx">D3DPOOL</a> enumerated type, describing a valid memory class into which to place the resource. 
+Member of the <a href="https://msdn.microsoft.com/29720b5f-16d7-4bd9-a7bd-e4dbfb00070b">D3DPOOL</a> enumerated type, describing a valid memory class into which to place the resource. 
 
 
 ### -param ppIndexBuffer [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/df1b7898-6c6b-410b-8ff9-e56625584fdc">IDirect3DIndexBuffer9</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/library/Bb205865(v=VS.85).aspx">IDirect3DIndexBuffer9</a> interface, representing the created index buffer resource. 
+Address of a pointer to an <a href="https://msdn.microsoft.com/df1b7898-6c6b-410b-8ff9-e56625584fdc">IDirect3DIndexBuffer9</a> interface, representing the created index buffer resource. 
 
 
 ### -param pSharedHandle [in]
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">HANDLE</a>*</b>
 
-This parameter can be used in Direct3D 9 for Windows Vista to <a href="https://msdn.microsoft.com/library/Bb219800(v=VS.85).aspx">share resources</a>; set it to <b>NULL</b> to not share a resource. This parameter is not used in Direct3D 9 for operating systems earlier than Windows Vista; set it to <b>NULL</b>. 
+This parameter can be used in Direct3D 9 for Windows Vista to <a href="https://msdn.microsoft.com/3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5">share resources</a>; set it to <b>NULL</b> to not share a resource. This parameter is not used in Direct3D 9 for operating systems earlier than Windows Vista; set it to <b>NULL</b>. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, D3DXERR_INVALIDDATA, E_OUTOFMEMORY. 
 
@@ -148,9 +148,9 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 Index buffers are memory resources used to hold indices, they are similar to both surfaces and vertex buffers. The use of index buffers enables Direct3D to avoid unnecessary data copying and to place the buffer in the optimal memory type for the expected usage.
 
-To use index buffers, create an index buffer, lock it, fill it with indices, unlock it, pass it to <a href="https://msdn.microsoft.com/library/Bb174435(v=VS.85).aspx">IDirect3DDevice9::SetIndices</a>, set up the vertices, set up the vertex shader, and call <a href="https://msdn.microsoft.com/library/Bb174369(v=VS.85).aspx">IDirect3DDevice9::DrawIndexedPrimitive</a> for rendering.
+To use index buffers, create an index buffer, lock it, fill it with indices, unlock it, pass it to <a href="https://msdn.microsoft.com/b27403da-9079-4f97-8520-c2617b53e059">IDirect3DDevice9::SetIndices</a>, set up the vertices, set up the vertex shader, and call <a href="https://msdn.microsoft.com/535a261a-ca4f-432b-9126-f46c44dc8430">IDirect3DDevice9::DrawIndexedPrimitive</a> for rendering.
 
-The MaxVertexIndex member of the <a href="https://msdn.microsoft.com/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure indicates the types of index buffers that are valid for rendering.
+The MaxVertexIndex member of the <a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a> structure indicates the types of index buffers that are valid for rendering.
 
 
 
@@ -160,15 +160,15 @@ The MaxVertexIndex member of the <a href="https://msdn.microsoft.com/library/Bb1
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205866(v=VS.85).aspx">IDirect3DIndexBuffer9::GetDesc</a>
+<a href="https://msdn.microsoft.com/33c33c28-b57a-4e52-a29b-9117bd60460b">IDirect3DIndexBuffer9::GetDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174595(v=VS.85).aspx">Index Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/baa60cd1-a1f0-4dbe-b934-aeb1a5c6b784">Index Buffers (Direct3D 9)</a>
  
 
  

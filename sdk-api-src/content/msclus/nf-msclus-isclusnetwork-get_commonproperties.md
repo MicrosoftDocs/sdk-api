@@ -4,10 +4,10 @@ title: ISClusNetwork::get_CommonProperties
 author: windows-sdk-content
 description: Read/write common properties of a network.
 old-location: mscs\clusnetwork_commonproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9aa28f82-0063-4716-88f7-350d957e6e1f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetwork object [Failover Cluster],CommonProperties property, ClusNetwork.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],ClusNetwork object, ISClusNetwork.get_CommonProperties, ISClusNetwork::get_CommonProperties, _wolf_clusnetwork.commonproperties, get_CommonProperties, mscs.clusnetwork_commonproperties
 ms.prod: windows
 ms.technology: windows-sdk

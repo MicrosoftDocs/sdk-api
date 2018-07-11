@@ -7,7 +7,7 @@ old-location: gdi\setstretchbltmode.htm
 old-project: gdi
 ms.assetid: 3e5a48dc-ccd5-41ea-a24b-5c40213abf38
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: BLACKONWHITE, COLORONCOLOR, HALFTONE, STRETCH_ANDSCANS, STRETCH_DELETESCANS, STRETCH_HALFTONE, STRETCH_ORSCANS, SetStretchBltMode, SetStretchBltMode function [Windows GDI], WHITEONBLACK, _win32_SetStretchBltMode, gdi.setstretchbltmode, wingdi/SetStretchBltMode
 ms.prod: windows
 ms.technology: windows-sdk

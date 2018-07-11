@@ -7,7 +7,7 @@ old-location: security\kerb_smart_card_unlock_logon.htm
 old-project: SecAuthN
 ms.assetid: 5fcd61f6-d93d-4047-b472-8b44f9681907
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*PKERB_SMART_CARD_UNLOCK_LOGON, KERB_SMART_CARD_UNLOCK_LOGON, KERB_SMART_CARD_UNLOCK_LOGON structure [Security], PKERB_SMART_CARD_UNLOCK_LOGON, PKERB_SMART_CARD_UNLOCK_LOGON structure pointer [Security], _KERB_SMART_CARD_UNLOCK_LOGON, ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON, ntsecapi/PKERB_SMART_CARD_UNLOCK_LOGON, security.kerb_smart_card_unlock_logon"
 ms.prod: windows
 ms.technology: windows-sdk

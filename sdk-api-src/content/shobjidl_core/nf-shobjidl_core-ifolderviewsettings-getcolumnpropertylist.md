@@ -7,7 +7,7 @@ old-location: shell\IFolderViewSettings_GetColumnPropertyList.htm
 old-project: shell
 ms.assetid: 30678ace-e6b2-4655-b92f-fc8a1899e3e0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetColumnPropertyList, GetColumnPropertyList method [Windows Shell], GetColumnPropertyList method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetColumnPropertyList method, IFolderViewSettings.GetColumnPropertyList, IFolderViewSettings::GetColumnPropertyList, _shell_IFolderViewSettings_GetColumnPropertyList, shell.IFolderViewSettings_GetColumnPropertyList, shobjidl_core/IFolderViewSettings::GetColumnPropertyList
 ms.prod: windows
 ms.technology: windows-sdk

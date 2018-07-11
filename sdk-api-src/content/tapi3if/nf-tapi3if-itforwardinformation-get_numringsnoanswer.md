@@ -4,10 +4,10 @@ title: ITForwardInformation::get_NumRingsNoAnswer
 author: windows-sdk-content
 description: The get_NumRingsNoAnswer method retrieves the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_get_numringsnoanswer.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: bfd46f8b-6501-43ca-b3bd-35394526d5ce
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_NumRingsNoAnswer method, ITForwardInformation.get_NumRingsNoAnswer, ITForwardInformation::get_NumRingsNoAnswer, _tapi3_itforwardinformation_get_numringsnoanswer, get_NumRingsNoAnswer, get_NumRingsNoAnswer method [TAPI 2.2], get_NumRingsNoAnswer method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_numringsnoanswer, tapi3if/ITForwardInformation::get_NumRingsNoAnswer
 ms.prod: windows
 ms.technology: windows-sdk

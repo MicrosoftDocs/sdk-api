@@ -4,10 +4,10 @@ title: OfflineClusterResourceEx function
 author: windows-sdk-content
 description: Extends the OfflineClusterResource method.
 old-location: mscs\offlineclusterresourceex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8AE70F5F-349B-40D1-830B-A135D4364B83
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSAPI_RESOURCE_OFFLINE_FORCE_WITH_TERMINATION, CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_DELETED, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_RESTARTED, CLUSAPI_RESOURCE_OFFLINE_REASON_MOVING, CLUSAPI_RESOURCE_OFFLINE_REASON_NONE, CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED, CLUSAPI_RESOURCE_OFFLINE_REASON_SHUTTING_DOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_UNKNOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_USER_REQUESTED, OfflineClusterResourceEx, OfflineClusterResourceEx function [Failover Cluster], clusapi/OfflineClusterResourceEx, mscs.offlineclusterresourceex
 ms.prod: windows
 ms.technology: windows-sdk

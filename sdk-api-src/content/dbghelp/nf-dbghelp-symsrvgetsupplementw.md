@@ -4,10 +4,10 @@ title: SymSrvGetSupplementW function
 author: windows-sdk-content
 description: Retrieves the specified file from the supplement for a symbol store.
 old-location: base\symsrvgetsupplement.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 ms.prod: windows
 ms.technology: windows-sdk

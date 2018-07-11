@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_setrecorderproperties.htm
 old-project: imapi
 ms.assetid: 8da0add7-6a9d-46f4-b34c-7ea9aa0b7d3a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscRecorder interface [IMAPI],SetRecorderProperties method, IDiscRecorder.SetRecorderProperties, IDiscRecorder::SetRecorderProperties, SetRecorderProperties, SetRecorderProperties method [IMAPI], SetRecorderProperties method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_setrecorderproperties, base.idiscrecorder_setrecorderproperties, imapi.idiscrecorder_setrecorderproperties, imapi/IDiscRecorder::SetRecorderProperties
 ms.prod: windows
 ms.technology: windows-sdk

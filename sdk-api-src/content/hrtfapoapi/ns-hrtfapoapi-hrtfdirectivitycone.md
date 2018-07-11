@@ -7,7 +7,7 @@ old-location: xaudio2\hrtfdirectivitycone.htm
 old-project: xaudio2
 ms.assetid: 88679E17-285A-41C1-87A5-C37AF66F327F
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: HrtfDirectivityCone, HrtfDirectivityCone structure [XAudio2 Audio Mixing APIs], PHrtfDirectivityCone, PHrtfDirectivityCone structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivityCone, hrtfapoapi/PHrtfDirectivityCone, xaudio2.hrtfdirectivitycone
 ms.prod: windows
 ms.technology: windows-sdk

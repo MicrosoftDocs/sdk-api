@@ -4,10 +4,10 @@ title: NetLocalGroupEnum function
 author: windows-sdk-content
 description: The NetLocalGroupEnum function returns information about each local group account on the specified server.
 old-location: netmgmt\netlocalgroupenum.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
 ms.prod: windows
 ms.technology: windows-sdk

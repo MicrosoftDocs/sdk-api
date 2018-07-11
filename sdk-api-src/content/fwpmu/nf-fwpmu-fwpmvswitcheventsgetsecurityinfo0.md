@@ -4,10 +4,10 @@ title: FwpmvSwitchEventsGetSecurityInfo0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a vSwitch event.
 old-location: fwp\fwpmvswitcheventsgetsecurityinfo0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 20183a71-f750-4131-8d29-80a0624f8b8d
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmvSwitchEventsGetSecurityInfo0, FwpmvSwitchEventsGetSecurityInfo0 function [Filtering], fwp.fwpmvswitcheventsgetsecurityinfo0, fwpmu/FwpmvSwitchEventsGetSecurityInfo0
 ms.prod: windows
 ms.technology: windows-sdk

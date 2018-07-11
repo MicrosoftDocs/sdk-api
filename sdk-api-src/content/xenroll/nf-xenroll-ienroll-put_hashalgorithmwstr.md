@@ -4,10 +4,10 @@ title: IEnroll::put_HashAlgorithmWStr
 author: windows-sdk-content
 description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS #10 certification request.
 old-location: security\ienroll4_hashalgorithmwstr.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: c359c4c8-f53d-48f1-a2ac-9275751b48dc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security],IEnroll interface, IEnroll interface [Security],HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll.put_HashAlgorithmWStr, IEnroll::HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, put_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr
 ms.prod: windows
 ms.technology: windows-sdk

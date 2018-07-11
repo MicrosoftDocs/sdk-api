@@ -7,7 +7,7 @@ old-location: wsw\wsresetmessage.htm
 old-project: wsw
 ms.assetid: 90a62cc8-a7e0-4451-8490-f6384bf3e7b6
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsResetMessage, WsResetMessage function [Web Services for Windows], webservices/WsResetMessage, wsw.wsresetmessage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TBMETRICS
 author: windows-sdk-content
 description: Defines the metrics of a toolbar that are used to shrink or expand toolbar items.
 old-location: controls\TBMETRICS.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbmetrics.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPTBMETRICS, LPTBMETRICS, LPTBMETRICS structure pointer [Windows Controls], TBMETRICS, TBMETRICS structure [Windows Controls], commctrl/LPTBMETRICS, commctrl/TBMETRICS, controls.TBMETRICS, controls.inet_TBMETRICS, inet_TBMETRICS, inet_TBMETRICS_cpp"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ Height of the space between toolbar buttons.
 
 The metrics specified by <b>TBMETRICS</b> structure are used to size the non-animating buttons on a toolbar. Button can shrink or expand so that all visible items fit on the window.
 
-The padding values are used to create a blank area between the edge of the button and the button's image and/or text. Where and how much padding is actually applied depends on the type of the button and whether it has an image. The horizontal padding is applied to both the right and left of the button, and the vertical padding is applied to both the top and bottom of the button. Padding is only applied to buttons that have the <a href="https://msdn.microsoft.com/library/Bb760439(v=VS.85).aspx">TBSTYLE_AUTOSIZE</a> style.
+The padding values are used to create a blank area between the edge of the button and the button's image and/or text. Where and how much padding is actually applied depends on the type of the button and whether it has an image. The horizontal padding is applied to both the right and left of the button, and the vertical padding is applied to both the top and bottom of the button. Padding is only applied to buttons that have the <a href="Toolbar_Control_and_Button_Styles.htm">TBSTYLE_AUTOSIZE</a> style.
 
 Although values for <b>cxBarPad</b> and <b>cyBarPad</b> can be set and retrieved they currently have no effect and are not used.
 

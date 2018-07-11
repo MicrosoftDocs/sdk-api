@@ -4,10 +4,10 @@ title: WriteFmtUserTypeStg function
 author: windows-sdk-content
 description: The WriteFmtUserTypeStg function writes a clipboard format and user type to the storage object.
 old-location: stg\writefmtusertypestg.htm
-old-project: Stg
+old-project: stg
 ms.assetid: ef60493c-164e-4633-a248-05c4afade937
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Storage], _stg_writefmtusertypestg, ole2/WriteFmtUserTypeStg, stg.writefmtusertypestg
 ms.prod: windows
 ms.technology: windows-sdk

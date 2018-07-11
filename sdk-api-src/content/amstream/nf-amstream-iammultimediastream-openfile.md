@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_openfile.htm
 old-project: DirectShow
 ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
 ms.prod: windows
 ms.technology: windows-sdk

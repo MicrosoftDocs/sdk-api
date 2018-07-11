@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setimpersonationtype.htm
 old-project: wmi_v2
 ms.assetid: f52370cb-b26c-4f0f-9869-1207c906e4e8
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_DestinationOptions_SetImpersonationType, MI_DestinationOptions_SetImpersonationType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetImpersonationType, wmi_v2.mi_destinationoptions_setimpersonationtype
 ms.prod: windows
 ms.technology: windows-sdk

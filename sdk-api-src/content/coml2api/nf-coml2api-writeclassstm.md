@@ -4,10 +4,10 @@ title: WriteClassStm function
 author: windows-sdk-content
 description: The WriteClassStm function stores the specified CLSID in the stream.
 old-location: stg\writeclassstm.htm
-old-project: Stg
+old-project: stg
 ms.assetid: c08bfbc8-f7ac-4534-8c98-c732c6daa2f7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: WriteClassStm, WriteClassStm function [Structured Storage], _stg_writeclassstm, coml2api/WriteClassStm, stg.writeclassstm
 ms.prod: windows
 ms.technology: windows-sdk

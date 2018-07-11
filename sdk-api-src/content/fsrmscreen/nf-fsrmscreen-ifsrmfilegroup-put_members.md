@@ -4,10 +4,10 @@ title: IFsrmFileGroup::put_Members
 author: windows-sdk-content
 description: Retrieves or sets the filename patterns that determine the files that are included in the file group.
 old-location: fsrm\ifsrmfilegroup_members.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 242a86ab-9dec-4106-9a49-70c12cc6de91
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Members property, IFsrmFileGroup.Members, IFsrmFileGroup.put_Members, IFsrmFileGroup::Members, IFsrmFileGroup::get_Members, IFsrmFileGroup::put_Members, Members property [File Server Resource Manager], Members property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_members, fsrm.ifsrmfilegroup_members, fsrmscreen/IFsrmFileGroup::Members, fsrmscreen/IFsrmFileGroup::get_Members, fsrmscreen/IFsrmFileGroup::put_Members, put_Members
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NCryptEnumAlgorithms function
 author: windows-sdk-content
 description: Obtains the names of the algorithms that are supported by the specified key storage provider.
 old-location: security\ncryptenumalgorithms_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_CIPHER_OPERATION, NCRYPT_HASH_OPERATION, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_OPERATION, NCRYPT_SILENT_FLAG, NCryptEnumAlgorithms, NCryptEnumAlgorithms function [Security], ncrypt/NCryptEnumAlgorithms, security.ncryptenumalgorithms_func
 ms.prod: windows
 ms.technology: windows-sdk

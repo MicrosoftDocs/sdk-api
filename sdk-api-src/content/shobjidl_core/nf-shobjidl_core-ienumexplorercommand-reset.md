@@ -7,7 +7,7 @@ old-location: shell\IEnumExplorerCommand_Reset.htm
 old-project: shell
 ms.assetid: 296ff94a-81ec-49ac-95a3-92c7ca76c9bf
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Reset method, IEnumExplorerCommand.Reset, IEnumExplorerCommand::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Reset, shell.IEnumExplorerCommand_Reset, shobjidl_core/IEnumExplorerCommand::Reset
 ms.prod: windows
 ms.technology: windows-sdk

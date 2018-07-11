@@ -7,7 +7,7 @@ old-location: com\extconn.htm
 old-project: com
 ms.assetid: 95c7de47-9f81-4316-99b8-0f5f0aa54d65
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: EXTCONN, EXTCONN enumeration [COM], EXTCONN_CALLABLE, EXTCONN_STRONG, EXTCONN_WEAK, _com_EXTCONN, com.extconn, objidlbase/EXTCONN, objidlbase/EXTCONN_CALLABLE, objidlbase/EXTCONN_STRONG, objidlbase/EXTCONN_WEAK, tagEXTCONN
 ms.prod: windows
 ms.technology: windows-sdk

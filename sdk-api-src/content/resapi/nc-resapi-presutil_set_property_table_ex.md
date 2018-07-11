@@ -4,10 +4,10 @@ title: PRESUTIL_SET_PROPERTY_TABLE_EX
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table.
 old-location: mscs\resutilsetpropertytableex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX callback, PRESUTIL_SET_PROPERTY_TABLE_EX callback function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX
 ms.prod: windows
 ms.technology: windows-sdk

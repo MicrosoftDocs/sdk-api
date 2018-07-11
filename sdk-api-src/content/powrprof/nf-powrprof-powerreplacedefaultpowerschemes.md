@@ -4,10 +4,10 @@ title: PowerReplaceDefaultPowerSchemes function
 author: windows-sdk-content
 description: Replaces the default power schemes with the current user's power schemes.
 old-location: base\powerreplacedefaultpowerschemes.htm
-old-project: Power
+old-project: power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
 ms.prod: windows
 ms.technology: windows-sdk

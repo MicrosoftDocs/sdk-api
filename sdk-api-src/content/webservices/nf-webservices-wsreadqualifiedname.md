@@ -7,7 +7,7 @@ old-location: wsw\wsreadqualifiedname.htm
 old-project: wsw
 ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
 ms.prod: windows
 ms.technology: windows-sdk

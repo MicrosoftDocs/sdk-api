@@ -7,7 +7,7 @@ old-location: tsf\iuimanagereventsink_onwindowclosing.htm
 old-project: TSF
 ms.assetid: 1350286D-522D-4549-B69C-31874352AEAD
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosing method, IUIManagerEventSink.OnWindowClosing, IUIManagerEventSink::OnWindowClosing, OnWindowClosing, OnWindowClosing method [Text Services Framework], OnWindowClosing method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosing, tsf.iuimanagereventsink_onwindowclosing
 ms.prod: windows
 ms.technology: windows-sdk

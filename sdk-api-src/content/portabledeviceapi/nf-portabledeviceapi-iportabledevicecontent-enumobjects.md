@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_enumobjects.htm
 old-project: wpd_sdk
 ms.assetid: 72526019-58c9-4a18-a925-e0a900f3e35a
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Portable Devices SDK], EnumObjects method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],EnumObjects method, IPortableDeviceContent.EnumObjects, IPortableDeviceContent::EnumObjects, IPortableDeviceContentEnumObjects, portabledeviceapi/IPortableDeviceContent::EnumObjects, wpdsdk.iportabledevicecontent_enumobjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
  
 
  

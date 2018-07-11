@@ -7,7 +7,7 @@ old-location: gdi\palettergb.htm
 old-project: gdi
 ms.assetid: affe6d0f-2827-4de1-a21e-8fdcdad85fc5
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: PALETTERGB, PALETTERGB macro [Windows GDI], _win32_PALETTERGB, gdi.palettergb, wingdi/PALETTERGB
 ms.prod: windows
 ms.technology: windows-sdk

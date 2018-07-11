@@ -4,10 +4,10 @@ title: tagNMITEMACTIVATE
 author: windows-sdk-content
 description: Contains information about an LVN_ITEMACTIVATE notification code.
 old-location: controls\NMITEMACTIVATE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmitemactivate.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMITEMACTIVATE, LPNMITEMACTIVATE, LPNMITEMACTIVATE structure pointer [Windows Controls], LVKF_ALT, LVKF_CONTROL, LVKF_SHIFT, NMITEMACTIVATE, NMITEMACTIVATE structure [Windows Controls], _win32_NMITEMACTIVATE, _win32_NMITEMACTIVATE_cpp, commctrl/LPNMITEMACTIVATE, commctrl/NMITEMACTIVATE, controls.NMITEMACTIVATE, controls._win32_NMITEMACTIVATE, tagNMITEMACTIVATE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/library/Bb774843(v=VS.85).aspx">LVN_ITEMACTIVATE</a> notification code. 
+Contains information about an <a href="https://msdn.microsoft.com/475c8e6a-8e2e-4182-8ccc-a4bc6fc891a8">LVN_ITEMACTIVATE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information about an <a href="https://msdn.microsoft.com/library/Bb7748
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field iItem
@@ -99,7 +99,7 @@ Old item state. This member is zero for notification codes that do not use it.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Set of flags that indicate the item attributes that have changed. This member is zero for notifications that do not use it. Otherwise, it can have the same values as the 
-					<b>mask</b> member of the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
+					<b>mask</b> member of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure. 
 
 
 ### -field ptAction

@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a node enumeration handle.
 old-location: mscs\clusternodegetenumcount.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: bec31b84-a4fd-48a3-b465-ceebb1f61028
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clusternodegetenumcount, clusapi/PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT, mscs.clusternodegetenumcount
 ms.prod: windows
 ms.technology: windows-sdk

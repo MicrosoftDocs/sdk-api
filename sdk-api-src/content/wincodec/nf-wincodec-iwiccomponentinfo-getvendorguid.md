@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo_getvendorguid.htm
 old-project: wic
 ms.assetid: e1ef7bac-6845-4e7f-8cb6-bb3270b344d6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetVendorGUID, GetVendorGUID method [Windows Imaging Component], GetVendorGUID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetVendorGUID method, IWICComponentInfo.GetVendorGUID, IWICComponentInfo::GetVendorGUID, _wic_codec_iwiccomponentinfo_getvendorguid, wic._wic_codec_iwiccomponentinfo_getvendorguid, wincodec/IWICComponentInfo::GetVendorGUID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DRMDecode function
 author: windows-sdk-content
 description: Decodes a string encoded with a common algorithm, such as base64.
 old-location: rm\drmdecode.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 380f9770-1d0c-453a-b737-04740608d7a7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMDecode, DRMDecode function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecode, rm.drmdecode
 ms.prod: windows
 ms.technology: windows-sdk

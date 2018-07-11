@@ -4,10 +4,10 @@ title: ISClusResDependencies::get_Item
 author: windows-sdk-content
 description: Retrieves a single resource from a ClusResDependencies collection.
 old-location: mscs\clusresdependencies_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9f455180-433c-4beb-9470-0db1976ffac1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResDependencies class [Failover Cluster],Item property, ClusResDependencies.Item, ISClusResDependencies.get_Item, ISClusResDependencies::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResDependencies class, _wolf_clusresdependencies.item, get_Item, mscs.clusresdependencies_item
 ms.prod: windows
 ms.technology: windows-sdk

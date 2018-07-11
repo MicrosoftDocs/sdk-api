@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicgifgraphiccontrolextensionproperties.htm
 old-project: wic
 ms.assetid: 32fbf62d-0479-4ead-8246-6c757467ccaa
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: WICGifGraphicControlExtensionDelay, WICGifGraphicControlExtensionDisposal, WICGifGraphicControlExtensionProperties, WICGifGraphicControlExtensionProperties enumeration [Windows Imaging Component], WICGifGraphicControlExtensionTransparencyFlag, WICGifGraphicControlExtensionTransparentColorIndex, WICGifGraphicControlExtensionUserInputFlag, _wic_codec_wicgifgraphiccontrolextensionproperties, wic._wic_codec_wicgifgraphiccontrolextensionproperties, wincodec/WICGifGraphicControlExtensionDelay, wincodec/WICGifGraphicControlExtensionDisposal, wincodec/WICGifGraphicControlExtensionProperties, wincodec/WICGifGraphicControlExtensionTransparencyFlag, wincodec/WICGifGraphicControlExtensionTransparentColorIndex, wincodec/WICGifGraphicControlExtensionUserInputFlag
 ms.prod: windows
 ms.technology: windows-sdk

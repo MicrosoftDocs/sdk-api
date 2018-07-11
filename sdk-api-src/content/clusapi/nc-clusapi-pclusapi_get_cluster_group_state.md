@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_CLUSTER_GROUP_STATE
 author: windows-sdk-content
 description: Returns the current state of a group.
 old-location: mscs\getclustergroupstate.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE callback, PCLUSAPI_GET_CLUSTER_GROUP_STATE callback function [Failover Cluster], _wolf_getclustergroupstate, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
 ms.prod: windows
 ms.technology: windows-sdk

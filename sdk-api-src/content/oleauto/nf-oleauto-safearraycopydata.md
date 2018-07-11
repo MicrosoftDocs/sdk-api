@@ -7,7 +7,7 @@ old-location: automat\safearraycopydata.htm
 old-project: automat
 ms.assetid: 32c1fc4f-3fe0-490f-b5af-640514a8cecc
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SafeArrayCopyData, SafeArrayCopyData function [Automation], _oa96_SafeArrayCopyData, automat.safearraycopydata, oleauto/SafeArrayCopyData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="https://msdn.microsoft.com/library/ms221451(v=VS.85).aspx">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
+Copies the source array to the specified target array after releasing any resources in the target array. This is similar to <a href="8F84D4F6-1852-4AD8-B174-F3FA37E5BBD6">SafeArrayCopy</a>, except that the target array has to be set up by the caller. The target is not allocated or reallocated.
 
 
 ## -parameters

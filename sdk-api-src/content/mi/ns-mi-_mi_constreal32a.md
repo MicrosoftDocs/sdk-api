@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constreal32a.htm
 old-project: wmi_v2
 ms.assetid: faffc6a4-bbb2-47f3-b1f3-c8bd1cdadc9f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_ConstReal32A, MI_ConstReal32A structure [Windows Management Infrastructure (MI)], _MI_ConstReal32A, mi/MI_ConstReal32A, wmi._mi_constreal32a, wmi_v2.mi_constreal32a
 ms.prod: windows
 ms.technology: windows-sdk

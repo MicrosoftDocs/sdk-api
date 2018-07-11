@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiribbon_savesettingstostream.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\savesettingstostream.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIRibbon interface [Windows Ribbon],SaveSettingsToStream method, IUIRibbon.SaveSettingsToStream, IUIRibbon::SaveSettingsToStream, SaveSettingsToStream, SaveSettingsToStream method [Windows Ribbon], SaveSettingsToStream method [Windows Ribbon],IUIRibbon interface, scenicintent_IUIRibbon_SaveSettingsToStream, uiribbon/IUIRibbon::SaveSettingsToStream, windowsribbon.windowsribbon_iuiribbon_savesettingstostream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,19 +100,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371360(v=VS.85).aspx">IUIRibbon</a>
+<a href="https://msdn.microsoft.com/6a43f17b-dbf6-4c5b-818f-c0dde896de99">IUIRibbon</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371361(v=VS.85).aspx">IUIRibbon::LoadSettingsFromStream</a>
+<a href="https://msdn.microsoft.com/537f185e-c793-4e4b-81b9-354ede39ab5b">IUIRibbon::LoadSettingsFromStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee264330(v=VS.85).aspx">Persisting Ribbon State</a>
+<a href="https://msdn.microsoft.com/f59e36be-8e3d-454a-b93c-9fc5fc5ecb47">Persisting Ribbon State</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

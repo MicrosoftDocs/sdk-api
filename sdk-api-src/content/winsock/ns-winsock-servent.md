@@ -7,7 +7,7 @@ old-location: winsock\servent_2.htm
 old-project: WinSock
 ms.assetid: 8696b854-4d37-4d1b-8383-169b5dc7a2ae
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent"
 ms.prod: windows
 ms.technology: windows-sdk

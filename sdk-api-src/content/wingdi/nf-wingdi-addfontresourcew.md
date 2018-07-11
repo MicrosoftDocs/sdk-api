@@ -7,7 +7,7 @@ old-location: gdi\addfontresource.htm
 old-project: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a network enumeration handle.
 old-location: mscs\clusternetworkgetenumcount.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b3397d85-4e9a-4ee8-ba81-25185e2d46fd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clusternetworkgetenumcount, clusapi/PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT, mscs.clusternetworkgetenumcount
 ms.prod: windows
 ms.technology: windows-sdk

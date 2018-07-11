@@ -4,10 +4,10 @@ title: PeerCollabAsyncInviteContact function
 author: windows-sdk-content
 description: Sends an invitation to a trusted peer contact to join the sender's peer collaboration activity over a secured connection. The availability of the invitation response is updated through an asynchronous event.
 old-location: p2p\peercollabasyncinvitecontact.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 2101e16e-ee05-417f-835b-c00cba7f6576
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,7 +160,7 @@ This API ensures the peer that receives the invitation is the contact specified 
 A toast will appear for the recipient of the invitation. This toast will be converted to a dialog box in which the user can accept or decline the invitation. When the invitation is successfully accepted, the collaborative application is launched on the recipient's machine.
 
 
-To successfully receive the invitation the application must be registered on the recipient's machine using <a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
+To successfully receive the invitation the application must be registered on the recipient's machine using <a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
 
 
 The <a href="https://msdn.microsoft.com/f9471e51-5eec-4927-bd12-7d362f5101ee">PeerCollabGetInvitiationResponse</a> function will return PEER_E_CONNECTION_FAILED if the contact to which the invitation is being sent is not accepting invitations.

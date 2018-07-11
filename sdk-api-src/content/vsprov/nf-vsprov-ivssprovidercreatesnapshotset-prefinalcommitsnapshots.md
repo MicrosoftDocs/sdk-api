@@ -4,10 +4,10 @@ title: IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 author: windows-sdk-content
 description: Enables providers to support auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_prefinalcommitsnapshots.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 6d6895b9-6e6c-4c4c-b7c9-a4eff771567a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 The 
    <b>PreFinalCommitSnapshots</b> 
    method enables providers to support 
-   <a href="https://msdn.microsoft.com/library/Aa384651(v=VS.85).aspx">auto-recover</a> shadow 
+   <a href="vssgloss_a.htm">auto-recover</a> shadow 
    copies. If the shadow copy has the <b>VSS_VOLSNAP_ATTR_AUTORECOVER</b> flag set in 
    the context, the volume can receive a large number of writes during the auto-recovery operation.
 
@@ -141,7 +141,7 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 This method was added to enable binary compatibility when the 
-    <a href="https://msdn.microsoft.com/library/Aa384651(v=VS.85).aspx">auto-recover</a> feature was introduced in 
+    <a href="vssgloss_a.htm">auto-recover</a> feature was introduced in 
     Windows Server 2003 with Service Pack 1 (SP1).
 
 <div class="alert"><b>Note</b>  For Windows Server 2003, it is recommended that hardware providers implement this method using 

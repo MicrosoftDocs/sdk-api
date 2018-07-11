@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getmonitorfrequency.htm
 old-project: directdraw
 ms.assetid: 13f8e5c2-b957-43ce-9fc8-5554c2321bdd
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: GetMonitorFrequency, GetMonitorFrequency method [DirectDraw], GetMonitorFrequency method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetMonitorFrequency method, IDirectDraw7.GetMonitorFrequency, IDirectDraw7::GetMonitorFrequency, ddraw/IDirectDraw7::GetMonitorFrequency, directdraw.idirectdraw7_getmonitorfrequency
 ms.prod: windows
 ms.technology: windows-sdk

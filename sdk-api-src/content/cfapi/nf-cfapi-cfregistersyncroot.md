@@ -7,7 +7,7 @@ old-location: cloudapi\cfregistersyncroot.htm
 old-project: cfApi
 ms.assetid: FAD56873-8812-42DC-9975-9507F73BD9E3
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfRegisterSyncRoot, CfRegisterSyncRoot function, cfapi/CfRegisterSyncRoot, cloudApi.cfregistersyncroot
 ms.prod: windows
 ms.technology: windows-sdk

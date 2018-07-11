@@ -4,10 +4,10 @@ title: "_STD_ALERT"
 author: windows-sdk-content
 description: The STD_ALERT structure contains the time and date when a significant event occurred.
 old-location: netmgmt\std_alert_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: daa4594f-e59e-4f05-8183-677bee4ea446
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, LPSTD_ALERT, LPSTD_ALERT structure pointer [Network Management], PSTD_ALERT, PSTD_ALERT structure pointer [Network Management], STD_ALERT, STD_ALERT structure [Network Management], _STD_ALERT, _win32_std_alert_str, lmalert/LPSTD_ALERT, lmalert/PSTD_ALERT, lmalert/STD_ALERT, netmgmt.std_alert_str"
 ms.prod: windows
 ms.technology: windows-sdk

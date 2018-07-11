@@ -4,10 +4,10 @@ title: RasHangUpA function
 author: windows-sdk-content
 description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle.
 old-location: rras\rashangup.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
 ms.prod: windows
 ms.technology: windows-sdk

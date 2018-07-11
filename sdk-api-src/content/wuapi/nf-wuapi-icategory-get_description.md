@@ -4,10 +4,10 @@ title: ICategory::get_Description
 author: windows-sdk-content
 description: Gets the description of the category.
 old-location: wua\icategory_description.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: ef22db9f-2ac8-4f20-b898-774dd9b1ce8f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],Description property, ICategory.Description, ICategory.get_Description, ICategory::Description, ICategory::get_Description, get_Description, wua.icategory_description, wuapi/ICategory::Description, wuapi/ICategory::get_Description
 ms.prod: windows
 ms.technology: windows-sdk

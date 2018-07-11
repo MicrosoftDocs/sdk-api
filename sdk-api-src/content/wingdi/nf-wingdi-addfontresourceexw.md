@@ -7,7 +7,7 @@ old-location: gdi\addfontresourceex.htm
 old-project: gdi
 ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW"
 ms.prod: windows
 ms.technology: windows-sdk

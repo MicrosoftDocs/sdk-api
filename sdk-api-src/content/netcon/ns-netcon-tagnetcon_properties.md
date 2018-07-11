@@ -4,10 +4,10 @@ title: tagNETCON_PROPERTIES
 author: windows-sdk-content
 description: The NETCON_PROPERTIES structure stores values that describe the properties of a network connection.
 old-location: ics\netcon_properties.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES, tagNETCON_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

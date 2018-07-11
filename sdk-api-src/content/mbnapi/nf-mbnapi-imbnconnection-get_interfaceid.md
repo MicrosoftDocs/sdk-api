@@ -7,7 +7,7 @@ old-location: mbn\imbnconnection_interfaceid.htm
 old-project: mbn
 ms.assetid: c98f1f69-1df1-4d72-8df4-166284dcb880
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnConnection interface [Microsoft Broadband Networks],InterfaceID property, IMbnConnection.InterfaceID, IMbnConnection.get_InterfaceID, IMbnConnection::InterfaceID, IMbnConnection::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnConnection interface, get_InterfaceID, mbn.imbnconnection_interfaceid, mbnapi/IMbnConnection::InterfaceID, mbnapi/IMbnConnection::get_InterfaceID
 ms.prod: windows
 ms.technology: windows-sdk

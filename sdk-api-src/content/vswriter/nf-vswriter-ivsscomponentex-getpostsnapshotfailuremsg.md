@@ -4,10 +4,10 @@ title: IVssComponentEx::GetPostSnapshotFailureMsg
 author: windows-sdk-content
 description: Returns the PostSnapshot failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getpostsnapshotfailuremsg.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetPostSnapshotFailureMsg, GetPostSnapshotFailureMsg method, GetPostSnapshotFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPostSnapshotFailureMsg method, IVssComponentEx.GetPostSnapshotFailureMsg, IVssComponentEx::GetPostSnapshotFailureMsg, base.ivsscomponentex_getpostsnapshotfailuremsg, vswriter/IVssComponentEx::GetPostSnapshotFailureMsg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message string that a writer has  set for a given component.
+Returns the <a href="vssgloss_p.htm">PostSnapshot</a> failure message string that a writer has  set for a given component.
 
 Both writers and requesters can call this method. Writers should call this method after the <a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a> asynchronous operation has completed.
 
@@ -65,7 +65,7 @@ Both writers and requesters can call this method. Writers should call this metho
 ### -param pbstrFailureMsg [out]
 
 A pointer to a null-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> 
+      while processing a <a href="vssgloss_p.htm">PostSnapshot</a> 
       event.
 
 
@@ -98,7 +98,7 @@ The failure message was successfully obtained.
 </dl>
 </td>
 <td width="60%">
-No <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message was set for the component.
+No <a href="vssgloss_p.htm">PostSnapshot</a> failure message was set for the component.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The caller is out of memory or other system resources.
 
 
 
-The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 

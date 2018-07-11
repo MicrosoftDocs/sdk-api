@@ -4,10 +4,10 @@ title: BCryptFreeBuffer function
 author: windows-sdk-content
 description: Used to free memory that was allocated by one of the CNG functions.
 old-location: security\bcryptfreebuffer_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 0ee83ca1-2fe6-4ff2-823e-888b3e66f310
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptFreeBuffer, BCryptFreeBuffer function [Security], bcrypt/BCryptFreeBuffer, security.bcryptfreebuffer_func
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TSPI_phoneGetDevCaps function
 author: windows-sdk-content
 description: The TSPI_phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
 old-location: tspi\tspi_phonegetdevcaps.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d929ed39-ba1d-4eae-9667-86d904ba96a8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_phoneGetDevCaps, TSPI_phoneGetDevCaps function [TAPI 2.2], _tspi_tspi_phonegetdevcaps, tspi.tspi_phonegetdevcaps, tspi/TSPI_phoneGetDevCaps
 ms.prod: windows
 ms.technology: windows-sdk

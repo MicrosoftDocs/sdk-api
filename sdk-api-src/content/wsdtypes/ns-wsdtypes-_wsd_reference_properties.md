@@ -4,10 +4,10 @@ title: "_WSD_REFERENCE_PROPERTIES"
 author: windows-sdk-content
 description: Specifies additional data used to uniquely identify an endpoint.
 old-location: ncd\wsd_reference_properties_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 7573683c-e02c-488d-be2f-f549113e78d9
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_REFERENCE_PROPERTIES, WSD_REFERENCE_PROPERTIES structure, _WSD_REFERENCE_PROPERTIES, ncd.wsd_reference_properties_struct, wsdtypes/WSD_REFERENCE_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

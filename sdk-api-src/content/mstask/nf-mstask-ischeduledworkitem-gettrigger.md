@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetTrigger
 author: windows-sdk-content
 description: Retrieves a task trigger.
 old-location: taskschd\ischeduledworkitem_gettrigger.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: f99b342c-9233-43e3-93f1-88586e975608
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTrigger method, IScheduledWorkItem.GetTrigger, IScheduledWorkItem::GetTrigger, _msb_ischeduledworkitem_gettrigger, mstask/IScheduledWorkItem::GetTrigger, taskschd.ischeduledworkitem_gettrigger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves a task <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger</a>.
+Retrieves a task <a href="t.htm">trigger</a>.
 
 
 ## -parameters

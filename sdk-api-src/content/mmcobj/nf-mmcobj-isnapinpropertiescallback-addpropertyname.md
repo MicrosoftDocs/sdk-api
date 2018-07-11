@@ -4,10 +4,10 @@ title: ISnapinPropertiesCallback::AddPropertyName
 author: windows-sdk-content
 description: The AddPropertyName method adds a property, by name, for the snap-in to use.
 old-location: mmc\isnapinpropertiescallback_addpropertyname.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 44f2536b-c224-4704-b99a-6e7ef21961bc
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: AddPropertyName, AddPropertyName method [MMC], AddPropertyName method [MMC],ISnapinPropertiesCallback interface, ISnapinPropertiesCallback interface [MMC],AddPropertyName method, ISnapinPropertiesCallback.AddPropertyName, ISnapinPropertiesCallback::AddPropertyName, MMC_PROP_CHANGEAFFECTSUI, MMC_PROP_MODIFIABLE, MMC_PROP_PERSIST, MMC_PROP_REMOVABLE, _slate_isnapinpropertiescallback_addpropertyname, mmc.isnapinpropertiescallback_addpropertyname, mmcobj/ISnapinPropertiesCallback::AddPropertyName
 ms.prod: windows
 ms.technology: windows-sdk

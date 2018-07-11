@@ -4,10 +4,10 @@ title: PowerIsSettingRangeDefined function
 author: windows-sdk-content
 description: Queries whether the specified power setting represents a range of possible values.
 old-location: base\powerissettingrangedefined.htm
-old-project: Power
+old-project: power
 ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
 ms.prod: windows
 ms.technology: windows-sdk

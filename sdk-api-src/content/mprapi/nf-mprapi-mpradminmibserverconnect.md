@@ -4,10 +4,10 @@ title: MprAdminMIBServerConnect function
 author: windows-sdk-content
 description: The MprAdminMIBServerConnect function establishes a connection to the router being administered. This call should be made before any other calls to the server. The handle returned by this function is used in subsequent MIB calls.
 old-location: rras\mpradminmibserverconnect.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 8d8cba34-e5d3-42ae-9724-361802f21410
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminMIBServerConnect, MprAdminMIBServerConnect function [RAS], _mpr_mpradminmibserverconnect, mprapi/MprAdminMIBServerConnect, rras.mpradminmibserverconnect
 ms.prod: windows
 ms.technology: windows-sdk

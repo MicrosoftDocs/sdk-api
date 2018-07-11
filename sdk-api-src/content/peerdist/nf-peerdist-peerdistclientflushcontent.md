@@ -4,10 +4,10 @@ title: PeerDistClientFlushContent function
 author: windows-sdk-content
 description: The PeerDistClientFlushContent function allows a client to remove content added to the local cache with the PeerDistClientAddData function using the associated PEERDIST_CONTENT_TAG.
 old-location: p2p\peerdistclientflushcontent.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
 ms.prod: windows
 ms.technology: windows-sdk

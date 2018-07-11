@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLog_hResult.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\hresult.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaLog interface [WIA],hResult method, IWiaLog.hResult, IWiaLog::hResult, _wia_IWiaLog_hResult, hResult, hResult method [WIA], hResult method [WIA],IWiaLog interface, wia._wia_IWiaLog_hResult, wia_xp/IWiaLog::hResult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVssWMComponent::GetFile
 author: windows-sdk-content
 description: The GetFile method obtains a file descriptor associated with a file group.
 old-location: base\ivsswmcomponent_getfile.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 55956a05-59b8-4197-8496-03903b6e0faa
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetFile, GetFile method [VSS], GetFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetFile method, IVssWMComponent.GetFile, IVssWMComponent::GetFile, _win32_ivsswmcomponent_getfile, base.ivsswmcomponent_getfile, vsbackup/IVssWMComponent::GetFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ The specified file does not exist.
 
 
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> to release system resources held by the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

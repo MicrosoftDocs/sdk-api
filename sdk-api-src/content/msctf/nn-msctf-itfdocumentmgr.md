@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr.htm
 old-project: TSF
 ms.assetid: e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], ITfDocumentMgr interface [Text Services Framework],described, _tsf_itfdocumentmgr_ref, msctf/ITfDocumentMgr, tsf.itfdocumentmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,7 +142,7 @@ Adds a context to the top of the context stack.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

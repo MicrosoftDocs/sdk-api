@@ -4,10 +4,10 @@ title: ITCallHub::get_NumCalls
 author: windows-sdk-content
 description: The get_NumCalls method gets the number of calls currently in the CallHub.
 old-location: tapi3\itcallhub_get_numcalls.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 52313969-ce8e-43da-8844-b4d0834dd446
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_NumCalls method, ITCallHub.get_NumCalls, ITCallHub::get_NumCalls, _tapi3_itcallhub_get_numcalls, get_NumCalls, get_NumCalls method [TAPI 2.2], get_NumCalls method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_numcalls, tapi3if/ITCallHub::get_NumCalls
 ms.prod: windows
 ms.technology: windows-sdk

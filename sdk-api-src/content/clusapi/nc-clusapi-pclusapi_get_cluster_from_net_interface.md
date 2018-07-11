@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a network interface.
 old-location: mscs\getclusterfromnetinterface.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7c6c6883-0d88-4162-a70d-cb6f1153226e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE callback, PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE callback function [Failover Cluster], _wolf_getclusterfromnetinterface, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE, mscs.getclusterfromnetinterface
 ms.prod: windows
 ms.technology: windows-sdk

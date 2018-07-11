@@ -4,10 +4,10 @@ title: NdrGetUserMarshalInfo function
 author: windows-sdk-content
 description: The NdrGetUserMarshalInfo function provides additional information to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndrgetusermarshalinfo.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 772979eb-eb1c-4e41-91bf-f64766898c8a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ For a full listing of the information returned by
 
 
 
-<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>
+<a href="https://msdn.microsoft.com/">wire_marshal</a>
  
 
  

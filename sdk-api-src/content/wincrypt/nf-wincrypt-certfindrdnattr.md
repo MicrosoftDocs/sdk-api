@@ -4,10 +4,10 @@ title: CertFindRDNAttr function
 author: windows-sdk-content
 description: The CertFindRDNAttr function finds the first RDN attribute identified by its object identifier (OID) in a list of the Relative Distinguished Names (RDN).
 old-location: security\certfindrdnattr.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 31f82a02-e90a-48de-857a-9fbb03048b5c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_certfindrdnattr, security.certfindrdnattr, wincrypt/CertFindRDNAttr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Returns a pointer to the attribute, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

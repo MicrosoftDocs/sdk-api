@@ -4,10 +4,10 @@ title: ISCluster::get_ResourceTypes
 author: windows-sdk-content
 description: Returns a ClusResTypes collection providing access to the resource types in a cluster.
 old-location: mscs\cluster_resourcetypes.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 73a9ca85-0da2-4978-965a-47bdee4ded6c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Cluster object [Failover Cluster],ResourceTypes property, Cluster.ResourceTypes, ISCluster.get_ResourceTypes, ISCluster::get_ResourceTypes, ResourceTypes property [Failover Cluster], ResourceTypes property [Failover Cluster],Cluster object, _wolf_cluster.resourcetypes, get_ResourceTypes, mscs.cluster_resourcetypes
 ms.prod: windows
 ms.technology: windows-sdk

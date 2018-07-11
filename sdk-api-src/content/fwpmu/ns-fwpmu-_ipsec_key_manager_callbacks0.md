@@ -4,10 +4,10 @@ title: "_IPSEC_KEY_MANAGER_CALLBACKS0"
 author: windows-sdk-content
 description: Specifies the set of callbacks which should be invoked by IPsec at various stages of SA negotiation.
 old-location: fwp\ipsec_key_manager_callbacks0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 736ea54d-ca17-4cb5-bcb2-95b4377f321c
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], _IPSEC_KEY_MANAGER_CALLBACKS0, fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
 ms.prod: windows
 ms.technology: windows-sdk

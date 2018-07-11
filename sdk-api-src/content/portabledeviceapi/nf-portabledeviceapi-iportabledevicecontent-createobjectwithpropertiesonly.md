@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesonly.htm
 old-project: wpd_sdk
 ms.assetid: 0695d3d6-1f0d-45b4-8461-a76d759b6c09
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: CreateObjectWithPropertiesOnly, CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK], CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesOnly method, IPortableDeviceContent.CreateObjectWithPropertiesOnly, IPortableDeviceContent::CreateObjectWithPropertiesOnly, IPortableDeviceContentCreateObjectWithPropertiesOnly, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesOnly, wpdsdk.iportabledevicecontent_createobjectwithpropertiesonly
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
       
 
 
-        The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="https://msdn.microsoft.com/library/ms221160(v=VS.85).aspx">WPD_OBJECT_FORMAT</a> property of the new object.
+        The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="object_properties.htm">WPD_OBJECT_FORMAT</a> property of the new object.
       
 
 
@@ -151,7 +151,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

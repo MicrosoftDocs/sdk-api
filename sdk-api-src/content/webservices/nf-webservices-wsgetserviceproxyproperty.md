@@ -7,7 +7,7 @@ old-location: wsw\wsgetserviceproxyproperty.htm
 old-project: wsw
 ms.assetid: 4fb4124f-5beb-426a-890f-3a8fe236411f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsGetServiceProxyProperty, WsGetServiceProxyProperty function [Web Services for Windows], webservices/WsGetServiceProxyProperty, wsw.wsgetserviceproxyproperty
 ms.prod: windows
 ms.technology: windows-sdk

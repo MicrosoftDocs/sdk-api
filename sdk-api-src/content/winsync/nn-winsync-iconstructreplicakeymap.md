@@ -7,7 +7,7 @@ old-location: winsync\iconstructreplicakeymap.htm
 old-project: winsync
 ms.assetid: 742b5606-5d24-4494-9f96-e381af1145db
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows Sync], IConstructReplicaKeyMap interface [Windows Sync],described, winsync.iconstructreplicakeymap, winsync/IConstructReplicaKeyMap
 ms.prod: windows
 ms.technology: windows-sdk

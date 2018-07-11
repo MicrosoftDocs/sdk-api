@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation.htm
 old-project: WMDM
 ms.assetid: 7277a8fe-3006-4456-b2e7-6041d3324f35
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], IWMDMOperation interface [windows Media Device Manager],described, IWMDMOperationInterface, mswmdm/IWMDMOperation, wmdm.iwmdmoperation
 ms.prod: windows
 ms.technology: windows-sdk

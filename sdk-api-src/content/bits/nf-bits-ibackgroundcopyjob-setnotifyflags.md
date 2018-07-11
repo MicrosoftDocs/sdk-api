@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetNotifyFlags
 author: windows-sdk-content
 description: Specifies the type of event notification you want to receive, such as job transferred events.
 old-location: bits\ibackgroundcopyjob_setnotifyflags.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 24aa6445-d7bd-4825-9121-402e63ae6f69
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_FILE_RANGES_TRANSFERRED, BG_NOTIFY_FILE_TRANSFERRED, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, IBackgroundCopyJob interface [BITS],SetNotifyFlags method, IBackgroundCopyJob.SetNotifyFlags, IBackgroundCopyJob::SetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [BITS], SetNotifyFlags method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyflags, bits.ibackgroundcopyjob_setnotifyflags, bits/IBackgroundCopyJob::SetNotifyFlags
 ms.prod: windows
 ms.technology: windows-sdk

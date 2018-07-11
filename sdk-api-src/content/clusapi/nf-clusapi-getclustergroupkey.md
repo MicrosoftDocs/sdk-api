@@ -4,10 +4,10 @@ title: GetClusterGroupKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a group.
 old-location: mscs\getclustergroupkey.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 86f34e31-f240-485f-a5b6-e4de922b8d97
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetClusterGroupKey, GetClusterGroupKey function [Failover Cluster], _wolf_getclustergroupkey, clusapi/GetClusterGroupKey, mscs.getclustergroupkey
 ms.prod: windows
 ms.technology: windows-sdk

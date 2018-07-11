@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolortransform_initialize.htm
 old-project: wic
 ms.assetid: 572a014b-10f9-4b76-9090-04ac13edfc3d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICColorTransform interface [Windows Imaging Component],Initialize method, IWICColorTransform.Initialize, IWICColorTransform::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICColorTransform interface, _wic_codec_iwiccolortransform_initialize, wic._wic_codec_iwiccolortransform_initialize, wincodec/IWICColorTransform::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

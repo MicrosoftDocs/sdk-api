@@ -4,10 +4,10 @@ title: GetEnabledXStateFeatures function
 author: windows-sdk-content
 description: Gets a mask of enabled XState features on x86 or x64 processors.
 old-location: base\getenabledxstatefeatures.htm
-old-project: Debug
+old-project: debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
 ms.prod: windows
 ms.technology: windows-sdk

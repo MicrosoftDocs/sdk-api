@@ -4,10 +4,10 @@ title: IMsmMerge2::MergeEx
 author: windows-sdk-content
 description: The MergeEx method executes a merge of the current database and current module.
 old-location: setup\imsmmerge2_mergeex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: fdfd950f-cba9-4b87-ae07-c3d3b127f69d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: IMsmMerge2 interface,MergeEx method, IMsmMerge2.MergeEx, IMsmMerge2::MergeEx, MergeEx, MergeEx method, MergeEx method,IMsmMerge2 interface, _msi_mergeex_function, mergemod/IMsmMerge2::MergeEx, setup.imsmmerge2_mergeex
 ms.prod: windows
 ms.technology: windows-sdk

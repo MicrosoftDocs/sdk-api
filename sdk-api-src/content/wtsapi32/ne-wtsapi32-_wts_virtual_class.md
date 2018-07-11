@@ -7,7 +7,7 @@ old-location: termserv\wts_virtual_class.htm
 old-project: TermServ
 ms.assetid: ca7bb0ff-f5af-477f-a610-563071554234
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WTSVirtualClientData, WTSVirtualFileHandle, WTS_VIRTUAL_CLASS, WTS_VIRTUAL_CLASS enumeration [Remote Desktop Services], _WTS_VIRTUAL_CLASS, _win32_wts_virtual_class, termserv.wts_virtual_class, wtsapi32/WTSVirtualClientData, wtsapi32/WTSVirtualFileHandle, wtsapi32/WTS_VIRTUAL_CLASS
 ms.prod: windows
 ms.technology: windows-sdk

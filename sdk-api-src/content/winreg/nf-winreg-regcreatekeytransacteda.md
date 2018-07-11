@@ -4,10 +4,10 @@ title: RegCreateKeyTransactedA function
 author: windows-sdk-content
 description: Creates the specified registry key and associates it with a transaction.
 old-location: base\regcreatekeytransacted.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -245,7 +245,7 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 
 
-When a key is created using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using <b>RegCreateKeyTransacted</b> or <a href="https://msdn.microsoft.com/11663ed2-d17c-4f08-be7b-9b591271fbcd">RegOpenKeyTransacted</a> with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="https://msdn.microsoft.com/library/Bb986748(v=VS.85).aspx">Kernel Transaction Manager</a>.
+When a key is created using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using <b>RegCreateKeyTransacted</b> or <a href="https://msdn.microsoft.com/11663ed2-d17c-4f08-be7b-9b591271fbcd">RegOpenKeyTransacted</a> with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="fs.ktm_start_page">Kernel Transaction Manager</a>.
 
 Note that subsequent operations on subkeys of this key are not automatically transacted. Therefore,  <a href="https://msdn.microsoft.com/41fde6a5-647c-4293-92b8-74be54fa4136">RegDeleteKeyEx</a> does not perform a transacted delete operation. Instead, use the <a href="https://msdn.microsoft.com/4c67e08b-4338-4441-8300-6b6ed31d4b21">RegDeleteKeyTransacted</a> function to perform a transacted delete operation.
 

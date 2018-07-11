@@ -4,10 +4,10 @@ title: PSTARTUP_EX_ROUTINE
 author: windows-sdk-content
 description: Loads a resource DLL, returning a structure that contains a function table and a version number.
 old-location: mscs\startupex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\destroymenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\destroymenu.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: DestroyMenu, DestroyMenu function [Menus and Other Resources], _win32_DestroyMenu, _win32_destroymenu_cpp, menurc.destroymenu, winui._win32_destroymenu, winuser/DestroyMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -94,7 +94,7 @@ Before closing, an application must use the <b>DestroyMenu</b> function to destr
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Displaying a Shortcut Menu</a>.
+For an example, see <a href="using_menus.htm">Displaying a Shortcut Menu</a>.
 
 <div class="code"></div>
 
@@ -109,15 +109,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647624(v=VS.85).aspx">CreateMenu</a>
+<a href="https://msdn.microsoft.com/dd7e59f6-7d31-46d3-9606-0f9346ff2979">CreateMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647629(v=VS.85).aspx">DeleteMenu</a>
+<a href="https://msdn.microsoft.com/0054bf62-cb70-4d6e-805d-58206fa2d297">DeleteMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -125,11 +125,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647994(v=VS.85).aspx">RemoveMenu</a>
+<a href="https://msdn.microsoft.com/9557d6dd-44a2-4c26-b939-8ae88b48956a">RemoveMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a>
  
 
  

@@ -4,10 +4,10 @@ title: PGET_INTERFACE_INFO
 author: windows-sdk-content
 description: The GetInterfaceInfo function gets the configuration information kept by the routing protocol for a specific interface.
 old-location: rras\getinterfaceinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: ec662772-f864-4108-b676-3fa501b3b927
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: GetInterfaceInfo, PGET_INTERFACE_INFO, PGET_INTERFACE_INFO callback, PGET_INTERFACE_INFO callback function [RAS], _mpr_getinterfaceinfo, routprot/PGET_INTERFACE_INFO, rras.getinterfaceinfo
 ms.prod: windows
 ms.technology: windows-sdk

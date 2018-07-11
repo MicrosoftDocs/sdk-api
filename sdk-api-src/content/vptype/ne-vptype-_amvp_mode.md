@@ -7,7 +7,7 @@ old-location: dshow\amvp_mode.htm
 old-project: DirectShow
 ms.assetid: 73d63ca2-17fb-4e27-9ea5-62686117254a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: AMVP_MODE, AMVP_MODE , AMVP_MODE enumeration [DirectShow], AMVP_MODEEnumeration, AMVP_MODE_BOBINTERLEAVED, AMVP_MODE_SKIPEVEN, AMVP_MODE_SKIPODD, AMVP_MODE_WEAVE, MODE_BOBNONINTERLEAVED, _AMVP_MODE, dshow.amvp_mode, vptype/AMVP_MODE, vptype/AMVP_MODE_BOBINTERLEAVED, vptype/AMVP_MODE_SKIPEVEN, vptype/AMVP_MODE_SKIPODD, vptype/AMVP_MODE_WEAVE, vptype/MODE_BOBNONINTERLEAVED
 ms.prod: windows
 ms.technology: windows-sdk

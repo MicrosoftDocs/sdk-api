@@ -7,7 +7,7 @@ old-location: machinelearning\winml_binding_type.htm
 old-project: MachineLearning
 ms.assetid: 482DA039-2A91-4030-966A-6BFB2C9564C0
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: MachineLearning.winml_binding_type, WINML_BINDING_IMAGE, WINML_BINDING_MAP, WINML_BINDING_RESOURCE, WINML_BINDING_SEQUENCE, WINML_BINDING_TENSOR, WINML_BINDING_TYPE, WINML_BINDING_TYPE enumeration, WINML_BINDING_UNDEFINED, winml/WINML_BINDING_IMAGE, winml/WINML_BINDING_MAP, winml/WINML_BINDING_RESOURCE, winml/WINML_BINDING_SEQUENCE, winml/WINML_BINDING_TENSOR, winml/WINML_BINDING_TYPE, winml/WINML_BINDING_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk

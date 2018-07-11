@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectsamplervariable_getbackingstore.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getbackingstore.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 4dc77fe0-2533-5324-1a51-b4e1cde4e16d, GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectSamplerVariable interface, ID3D10EffectSamplerVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectSamplerVariable.GetBackingStore, ID3D10EffectSamplerVariable::GetBackingStore, d3d10effect/ID3D10EffectSamplerVariable::GetBackingStore, direct3d10.id3d10effectsamplervariable_getbackingstore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,18 +67,18 @@ Index into an array of sampler descriptions. If there is only one sampler variab
 
 ### -param pSamplerDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172415(v=VS.85).aspx">D3D10_SAMPLER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b97db311-de57-45f3-a6dd-8af768b2680d">D3D10_SAMPLER_DESC</a>*</b>
 
-A pointer to a sampler description (see <a href="https://msdn.microsoft.com/library/Bb172415(v=VS.85).aspx">D3D10_SAMPLER_DESC</a>).
+A pointer to a sampler description (see <a href="https://msdn.microsoft.com/b97db311-de57-45f3-a6dd-8af768b2680d">D3D10_SAMPLER_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -88,7 +88,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173677(v=VS.85).aspx">ID3D10EffectSamplerVariable Interface</a>
+<a href="https://msdn.microsoft.com/1eb8a3be-bf0c-479c-8a59-07a08fb2dc26">ID3D10EffectSamplerVariable Interface</a>
  
 
  

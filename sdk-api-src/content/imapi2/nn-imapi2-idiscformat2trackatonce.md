@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce.htm
 old-project: imapi
 ms.assetid: 27f2d248-1c83-4784-82f9-75ce0a038b87
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], IDiscFormat2TrackAtOnce interface [IMAPI],described, imapi.idiscformat2trackatonce, imapi2/IDiscFormat2TrackAtOnce
 ms.prod: windows
 ms.technology: windows-sdk

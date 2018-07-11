@@ -4,10 +4,10 @@ title: FwpmTransactionBegin0 function
 author: windows-sdk-content
 description: Begins an explicit transaction within the current session.
 old-location: fwp\fwpmtransactionbegin0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 9eaf1101-7cf3-4eb2-9ca0-47108a5c80c7
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_TXN_READ_ONLY, FwpmTransactionBegin0, FwpmTransactionBegin0 function [Filtering], fwp.fwpmtransactionbegin0_func, fwpmu/FwpmTransactionBegin0
 ms.prod: windows
 ms.technology: windows-sdk

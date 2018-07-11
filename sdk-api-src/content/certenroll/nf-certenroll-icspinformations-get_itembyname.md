@@ -4,10 +4,10 @@ title: ICspInformations::get_ItemByName
 author: windows-sdk-content
 description: Retrieves an ICspInformation object from the collection by name.
 old-location: security\icspinformations_itembyname_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: cf90f136-0318-40b5-9378-5c6f386e996f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICspInformations interface [Security],ItemByName property, ICspInformations.ItemByName, ICspInformations.get_ItemByName, ICspInformations::ItemByName, ICspInformations::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByName, certenroll/ICspInformations::get_ItemByName, get_ItemByName, security.icspinformations_itembyname_property
 ms.prod: windows
 ms.technology: windows-sdk

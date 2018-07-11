@@ -4,10 +4,10 @@ title: "_TRANSPORTCLIENT_SESSION_INFO"
 author: windows-sdk-content
 description: This structure is used by the PFN_WdsTransportClientSessionStartEx callback function.
 old-location: wds\transportclient_session_info.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 21c96849-e122-4c4b-9d12-9f1c24908ac2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: "*PTRANSPORTCLIENT_SESSION_INFO, PTRANSPORTCLIENT_SESSION_INFO, PTRANSPORTCLIENT_SESSION_INFO structure pointer [Windows Deployment Services], TRANSPORTCLIENT_SESSION_INFO, TRANSPORTCLIENT_SESSION_INFO structure [Windows Deployment Services], _TRANSPORTCLIENT_SESSION_INFO, wds.transportclient_session_info, wdstci/PTRANSPORTCLIENT_SESSION_INFO, wdstci/TRANSPORTCLIENT_SESSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

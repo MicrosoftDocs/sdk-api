@@ -4,10 +4,10 @@ title: INetFwProducts::Register
 author: windows-sdk-content
 description: The Register method registers a third-party firewall product.
 old-location: ics\inetfwproducts_register.htm
-old-project: ICS
+old-project: ics
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Register method, INetFwProducts.Register, INetFwProducts::Register, Register, Register method [ICS/ICF], Register method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_register, netfw/INetFwProducts::Register
 ms.prod: windows
 ms.technology: windows-sdk

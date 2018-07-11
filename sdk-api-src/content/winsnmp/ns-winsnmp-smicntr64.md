@@ -4,10 +4,10 @@ title: smiCNTR64
 author: windows-sdk-content
 description: The WinSNMP smiCNTR64 structure contains a 64-bit unsigned integer value. The structure represents a 64-bit counter.
 old-location: snmp\smicntr64_str.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 224b162c-a9b3-4b71-a9ed-b15a51934498
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*smiLPCNTR64, _snmp_smicntr64_str, smiCNTR64, smiCNTR64 structure [SNMP], smiLPCNTR64, smiLPCNTR64 structure pointer [SNMP], snmp.smicntr64_str, winsnmp/smiCNTR64, winsnmp/smiLPCNTR64"
 ms.prod: windows
 ms.technology: windows-sdk

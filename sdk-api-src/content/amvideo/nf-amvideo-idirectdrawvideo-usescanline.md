@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_usescanline.htm
 old-project: DirectShow
 ms.assetid: 8378582d-ef82-47ff-a801-934c900ac328
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseScanLine method, IDirectDrawVideo.UseScanLine, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline
 ms.prod: windows
 ms.technology: windows-sdk

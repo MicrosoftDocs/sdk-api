@@ -4,10 +4,10 @@ title: IAlternativeName::InitializeFromRawData
 author: windows-sdk-content
 description: Initializes the object from a Digital Signature Algorithm (DSA) GUID, an X.500 directory name, or an Internet Protocol (IP) address contained in a Distinguished Encoding Rules (DER) encoded byte array.
 old-location: security\ialternativename_initializefromrawdata_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 1559801c-ec62-471e-851f-f67219565cd1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromRawData method, IAlternativeName.InitializeFromRawData, IAlternativeName::InitializeFromRawData, InitializeFromRawData, InitializeFromRawData method [Security], InitializeFromRawData method [Security],IAlternativeName interface, XCN_CERT_ALT_NAME_DIRECTORY_NAME, XCN_CERT_ALT_NAME_GUID, XCN_CERT_ALT_NAME_IP_ADDRESS, certenroll/IAlternativeName::InitializeFromRawData, security.ialternativename_initializefromrawdata_method
 ms.prod: windows
 ms.technology: windows-sdk

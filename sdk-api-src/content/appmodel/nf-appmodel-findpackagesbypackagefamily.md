@@ -7,7 +7,7 @@ old-location: appxpkg\findpackagesbypackagefamily.htm
 old-project: appxpkg
 ms.assetid: D52E98BD-726F-4AC0-A034-02896B1D1687
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: FindPackagesByPackageFamily, FindPackagesByPackageFamily function [App packaging and management], appmodel/FindPackagesByPackageFamily, appxpkg.findpackagesbypackagefamily
 ms.prod: windows
 ms.technology: windows-sdk

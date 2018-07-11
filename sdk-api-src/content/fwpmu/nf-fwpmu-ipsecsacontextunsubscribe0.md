@@ -4,10 +4,10 @@ title: IPsecSaContextUnsubscribe0 function
 author: windows-sdk-content
 description: Is used to cancel an IPsec security association (SA) change subscription and stop receiving change notifications.
 old-location: fwp\ipsecsacontextunsubscribe0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 9f82eefb-2a72-4a9c-8bf3-b3e3d466741f
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecSaContextUnsubscribe0, IPsecSaContextUnsubscribe0 function [Filtering], fwp.ipsecsacontextunsubscribe0, fwpmu/IPsecSaContextUnsubscribe0
 ms.prod: windows
 ms.technology: windows-sdk

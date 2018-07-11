@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmapbutton.htm
 old-project: TSF
 ms.assetid: 29fcc913-fcc7-4321-918b-2c354dd751ff
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], ITfLangBarItemBitmapButton interface [Text Services Framework],described, _tsf_itflangbaritembitmapbutton_ref, ctfutb/ITfLangBarItemBitmapButton, tsf.itflangbaritembitmapbutton
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,7 +156,7 @@ A language bar bitmap button functions as a button item on the language bar that
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

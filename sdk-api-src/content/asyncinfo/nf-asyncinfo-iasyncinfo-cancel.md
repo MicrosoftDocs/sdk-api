@@ -7,7 +7,7 @@ old-location: winrt\iasyncinfo_cancel.htm
 old-project: WinRT
 ms.assetid: f011c6e3-dd8f-4f77-8f06-be2a3fb1e0f0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: Cancel, Cancel method [Windows Runtime], Cancel method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Cancel method, IAsyncInfo.Cancel, IAsyncInfo::Cancel, asyncinfo/IAsyncInfo::Cancel, winrt.iasyncinfo_cancel
 ms.prod: windows
 ms.technology: windows-sdk

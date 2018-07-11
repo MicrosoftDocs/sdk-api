@@ -4,10 +4,10 @@ title: ListView_GetOrigin macro
 author: windows-sdk-content
 description: Gets the current view origin for a list-view control. You can use this macro or send the LVM_GETORIGIN message explicitly.
 old-location: controls\ListView_GetOrigin.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getorigin.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetOrigin, ListView_GetOrigin macro [Windows Controls], _win32_ListView_GetOrigin, _win32_ListView_GetOrigin_cpp, commctrl/ListView_GetOrigin, controls.ListView_GetOrigin, controls._win32_ListView_GetOrigin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761063(v=VS.85).aspx">LVM_GETORIGIN</a> message explicitly. 
+Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/913c8339-fbe4-43c8-a997-5a972920dc3b">LVM_GETORIGIN</a> message explicitly. 
 
 
 ## -parameters

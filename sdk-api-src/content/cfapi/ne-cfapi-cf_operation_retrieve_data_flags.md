@@ -7,7 +7,7 @@ old-location: cloudapi\cf_operation_retrieve_data_flags.htm
 old-project: cfApi
 ms.assetid: A233B2E8-B350-495A-9688-3795790F23EF
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_OPERATION_RETRIEVE_DATA_FLAGS, CF_OPERATION_RETRIEVE_DATA_FLAGS enumeration, CF_OPERATION_RETRIEVE_DATA_FLAG_NONE, cfapi/CF_OPERATION_RETRIEVE_DATA_FLAGS, cfapi/CF_OPERATION_RETRIEVE_DATA_FLAG_NONE, cloudApi.cf_operation_retrieve_data_flags
 ms.prod: windows
 ms.technology: windows-sdk

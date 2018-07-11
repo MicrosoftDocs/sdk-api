@@ -4,10 +4,10 @@ title: D2D1_COLORMANAGEMENT_ALPHA_MODE
 author: windows-sdk-content
 description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
 old-location: direct2d\d2d1_colormanagement_alpha_mode.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1_COLORMANAGEMENT_ALPHA_MODE, D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration [Direct2D], D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, direct2d.d2d1_colormanagement_alpha_mode
 ms.prod: windows
 ms.technology: windows-sdk

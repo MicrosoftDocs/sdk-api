@@ -4,10 +4,10 @@ title: IVssComponent::GetComponentName
 author: windows-sdk-content
 description: The GetComponentName method returns the logical name of this component.
 old-location: base\ivsscomponent_getcomponentname.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller should free the memory held by the <i>pwszName</i> parameter by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pwszName</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 

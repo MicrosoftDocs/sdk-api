@@ -4,10 +4,10 @@ title: INetFwOpenPorts::Add
 author: windows-sdk-content
 description: Opens a new port and adds it to the collection.
 old-location: ics\inetfwopenports_add.htm
-old-project: ICS
+old-project: ics
 ms.assetid: fd97333d-9bd5-4ab2-9189-75a7f7f52622
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Add method, INetFwOpenPorts.Add, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add
 ms.prod: windows
 ms.technology: windows-sdk

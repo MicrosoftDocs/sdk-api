@@ -4,10 +4,10 @@ title: Icmp6ParseReplies function
 author: windows-sdk-content
 description: The Icmp6ParseReplies function parses the reply buffer provided and returns an IPv6 ICMPv6 echo response reply if found.
 old-location: iphlp\icmp6parsereplies.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: b4d63ffd-37ad-4901-b017-205fb15381e7
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: Icmp6ParseReplies, Icmp6ParseReplies function [IP Helper], icmpapi/Icmp6ParseReplies, iphlp.icmp6parsereplies
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm
 old-project: imapi
 ms.assetid: dfdf4116-0402-4c90-8b9b-0758fd0bb973
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_pssetshaderresources.htm
 old-project: direct3d11
 ms.assetid: acccbde4-68d0-4c76-bf77-643884af1bbe
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 321c7b79-1c69-8b42-8a25-c6a5965c84d5, ID3D11DeviceContext interface [Direct3D 11],PSSetShaderResources method, ID3D11DeviceContext.PSSetShaderResources, ID3D11DeviceContext::PSSetShaderResources, PSSetShaderResources, PSSetShaderResources method [Direct3D 11], PSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetShaderResources, direct3d11.id3d11devicecontext_pssetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk

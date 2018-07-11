@@ -7,7 +7,7 @@ old-location: xps\ixpsommatrixtransform_clone.htm
 old-project: printdocs
 ms.assetid: 088e758c-5839-4560-955c-98c8a1ee99ae
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],Clone method, IXpsOMMatrixTransform.Clone, IXpsOMMatrixTransform::Clone, xps.ixpsommatrixtransform_clone, xpsobjectmodel/IXpsOMMatrixTransform::Clone
 ms.prod: windows
 ms.technology: windows-sdk

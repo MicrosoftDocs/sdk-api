@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createshaderresourceview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createshaderresourceview.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 0714089a-e113-6e43-f46d-91d40fd54005, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 10], CreateShaderResourceView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateShaderResourceView method, ID3D10Device.CreateShaderResourceView, ID3D10Device::CreateShaderResourceView, d3d10/ID3D10Device::CreateShaderResourceView, direct3d10.id3d10device_createshaderresourceview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,32 +61,32 @@ Create a shader-resource <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -param pResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">resource</a> that will serve as input to a shader. This resource must have been created with the <a href="https://msdn.microsoft.com/library/Bb204891(v=VS.85).aspx">D3D10_BIND_SHADER_RESOURCE</a> flag.
+Pointer to the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">resource</a> that will serve as input to a shader. This resource must have been created with the <a href="https://msdn.microsoft.com/3bbefc3b-ad05-499b-bbec-f370bf08a7f4">D3D10_BIND_SHADER_RESOURCE</a> flag.
 
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172437(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/41abc41f-2b51-4901-9e1a-22631ed271cc">D3D10_SHADER_RESOURCE_VIEW_DESC</a>*</b>
 
-Pointer to a shader-resource-view description (see <a href="https://msdn.microsoft.com/library/Bb172437(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC</a>). Set this parameter to <b>NULL</b> to create a view that accesses the entire resource (using the format the resource was created with).
+Pointer to a shader-resource-view description (see <a href="https://msdn.microsoft.com/41abc41f-2b51-4901-9e1a-22631ed271cc">D3D10_SHADER_RESOURCE_VIEW_DESC</a>). Set this parameter to <b>NULL</b> to create a view that accesses the entire resource (using the format the resource was created with).
 
 
 ### -param ppSRView [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
+Address of a pointer to an <a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView</a>. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return S_FALSE if the other input parameters pass validation).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-A resource is made up of one or more <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresources</a>, a view identifies which subresources to allow the pipeline to access. In addition, each resource is bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">shader stages</a> using the following API methods: <a href="https://msdn.microsoft.com/library/Bb173629(v=VS.85).aspx">VSSetShaderResources</a>, <a href="https://msdn.microsoft.com/library/Bb173583(v=VS.85).aspx">GSSetShaderResources</a> and <a href="https://msdn.microsoft.com/library/Bb173606(v=VS.85).aspx">PSSetShaderResources</a>.
+A resource is made up of one or more <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresources</a>, a view identifies which subresources to allow the pipeline to access. In addition, each resource is bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">shader stages</a> using the following API methods: <a href="https://msdn.microsoft.com/8481e388-3cfe-43e3-b58e-fea989d942ba">VSSetShaderResources</a>, <a href="https://msdn.microsoft.com/8e012e31-b161-4564-9acf-243d99366092">GSSetShaderResources</a> and <a href="https://msdn.microsoft.com/88b1515b-f070-4725-a844-30575a1800d4">PSSetShaderResources</a>.
 
 Since a view is fully typed, this means that typeless resources become fully typed when bound to the pipeline.
 
@@ -107,7 +107,7 @@ Since a view is fully typed, this means that typeless resources become fully typ
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

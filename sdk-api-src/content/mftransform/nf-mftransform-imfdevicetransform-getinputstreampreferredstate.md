@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getinputstreampreferredstate.htm
 old-project: stream
 ms.assetid: 56334B73-DCBC-4999-9685-2489D6C15E2E
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [Streaming Media Devices], GetInputStreamPreferredState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamPreferredState method, IMFDeviceTransform.GetInputStreamPreferredState, IMFDeviceTransform::GetInputStreamPreferredState, mftransform/IMFDeviceTransform::GetInputStreamPreferredState, stream.imfdevicetransform_getinputstreampreferredstate
 ms.prod: windows
 ms.technology: windows-sdk

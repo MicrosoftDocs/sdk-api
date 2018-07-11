@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_copy_flags.htm
 old-project: direct3d11
 ms.assetid: 2141A053-931B-42F2-BC8C-AAE9F4739ED7
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3D11_COPY_DISCARD, D3D11_COPY_FLAGS, D3D11_COPY_FLAGS enumeration [Direct3D 11], D3D11_COPY_NO_OVERWRITE, d3d11_1/D3D11_COPY_DISCARD, d3d11_1/D3D11_COPY_FLAGS, d3d11_1/D3D11_COPY_NO_OVERWRITE, direct3d11.d3d11_copy_flags
 ms.prod: windows
 ms.technology: windows-sdk

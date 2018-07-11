@@ -7,7 +7,7 @@ old-location: tsf\ianchor_shiftto.htm
 old-project: TSF
 ms.assetid: a0fb9a08-3f46-4d2f-8887-e80dc0bade1b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: IAnchor interface [Text Services Framework],ShiftTo method, IAnchor.ShiftTo, IAnchor::ShiftTo, ShiftTo, ShiftTo method [Text Services Framework], ShiftTo method [Text Services Framework],IAnchor interface, textstor/IAnchor::ShiftTo, tsf.ianchor_shiftto
 ms.prod: windows
 ms.technology: windows-sdk

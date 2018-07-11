@@ -7,7 +7,7 @@ old-location: winmsg\getdesktopwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getdesktopwindow.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetDesktopWindow, GetDesktopWindow function [Windows and Messages], _win32_GetDesktopWindow, _win32_getdesktopwindow_cpp, winmsg.getdesktopwindow, winui._win32_getdesktopwindow, winuser/GetDesktopWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -92,7 +92,7 @@ The return value is a handle to the desktop window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
 
 
 

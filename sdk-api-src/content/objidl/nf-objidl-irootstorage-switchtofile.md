@@ -4,10 +4,10 @@ title: IRootStorage::SwitchToFile
 author: windows-sdk-content
 description: The SwitchToFile method copies the current file associated with the storage object to a new file.
 old-location: stg\irootstorage_switchtofile.htm
-old-project: Stg
+old-project: stg
 ms.assetid: d482b51a-7159-4aab-ac5e-3f1878d426b2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: IRootStorage interface [Structured Storage],SwitchToFile method, IRootStorage.SwitchToFile, IRootStorage::SwitchToFile, SwitchToFile, SwitchToFile method [Structured Storage], SwitchToFile method [Structured Storage],IRootStorage interface, _stg_irootstorage_switchtofile, objidl/IRootStorage::SwitchToFile, stg.irootstorage_switchtofile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ It is erroneous to call the
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If you are implementing your own storage objects, the 
-<a href="https://msdn.microsoft.com/cf92c62f-ef65-46b1-8f41-f2b31ff52044">IRootStorage</a> methods (including <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a>, <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a>, and <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a>) must not consume additional memory or file handles.
+<a href="https://msdn.microsoft.com/cf92c62f-ef65-46b1-8f41-f2b31ff52044">IRootStorage</a> methods (including <a href="_com_iunknown_queryinterface">QueryInterface</a>, <a href="_com_iunknown_addref">AddRef</a>, and <a href="_com_iunknown_release">Release</a>) must not consume additional memory or file handles.
 
 
 

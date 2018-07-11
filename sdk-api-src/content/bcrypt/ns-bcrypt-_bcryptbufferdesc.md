@@ -4,10 +4,10 @@ title: "_BCryptBufferDesc"
 author: windows-sdk-content
 description: Used to receieve a collection of NCryptBuffer structures.
 old-location: security\ncryptbufferdesc_struct.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: ae4673ab-81cd-4604-bafa-8d8c66003aba
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: "*PBCryptBufferDesc, BCryptBufferDesc, NCRYPTBUFFER_VERSION, NCryptBufferDesc, NCryptBufferDesc structure [Security], PNCryptBufferDesc, PNCryptBufferDesc structure pointer [Security], _BCryptBufferDesc, bcrypt/NCryptBufferDesc, bcrypt/PNCryptBufferDesc, security.ncryptbufferdesc_struct"
 ms.prod: windows
 ms.technology: windows-sdk

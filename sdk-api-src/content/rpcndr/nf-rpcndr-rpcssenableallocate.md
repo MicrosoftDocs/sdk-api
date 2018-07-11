@@ -4,10 +4,10 @@ title: RpcSsEnableAllocate function
 author: windows-sdk-content
 description: The RpcSsEnableAllocate function establishes the stub memory&#8211;management environment.
 old-location: rpc\rpcssenableallocate.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 18060ed2-2250-47c7-8579-238edea44c66
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcSsEnableAllocate, RpcSsEnableAllocate function [RPC], _rpc_rpcssenableallocate, rpc.rpcssenableallocate, rpcndr/RpcSsEnableAllocate
 ms.prod: windows
 ms.technology: windows-sdk

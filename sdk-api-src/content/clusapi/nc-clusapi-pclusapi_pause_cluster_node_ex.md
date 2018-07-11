@@ -4,10 +4,10 @@ title: PCLUSAPI_PAUSE_CLUSTER_NODE_EX
 author: windows-sdk-content
 description: Requests that a node temporarily suspends its cluster activity.
 old-location: mscs\pauseclusternodeex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, mscs.pauseclusternodeex
 ms.prod: windows
 ms.technology: windows-sdk

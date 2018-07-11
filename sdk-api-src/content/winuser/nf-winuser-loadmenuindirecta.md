@@ -7,7 +7,7 @@ old-location: menurc\loadmenuindirect.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenuindirect.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: LoadMenuIndirect, LoadMenuIndirect function [Menus and Other Resources], LoadMenuIndirectA, LoadMenuIndirectW, _win32_LoadMenuIndirect, _win32_loadmenuindirect_cpp, menurc.loadmenuindirect, winui._win32_loadmenuindirect, winuser/LoadMenuIndirect, winuser/LoadMenuIndirectA, winuser/LoadMenuIndirectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -65,7 +65,7 @@ Loads the specified menu template in memory.
 
 Type: <b>const MENUTEMPLATE*</b>
 
-A pointer to a menu template or an extended menu template. A menu template consists of a <a href="https://msdn.microsoft.com/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a> structure followed by one or more contiguous <a href="https://msdn.microsoft.com/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structures. An extended menu template consists of a <a href="https://msdn.microsoft.com/library/ms647567(v=VS.85).aspx">MENUEX_TEMPLATE_HEADER</a> structure followed by one or more contiguous <a href="https://msdn.microsoft.com/library/ms647569(v=VS.85).aspx">MENUEX_TEMPLATE_ITEM</a> structures. 
+A pointer to a menu template or an extended menu template. A menu template consists of a <a href="https://msdn.microsoft.com/7dd21370-9e26-4086-9ba1-98e79966c336">MENUITEMTEMPLATEHEADER</a> structure followed by one or more contiguous <a href="https://msdn.microsoft.com/9329aee3-83be-4409-98f4-e135f39c0f01">MENUITEMTEMPLATE</a> structures. An extended menu template consists of a <a href="https://msdn.microsoft.com/df763349-7127-482e-8613-74e68addde5d">MENUEX_TEMPLATE_HEADER</a> structure followed by one or more contiguous <a href="https://msdn.microsoft.com/f6e2fd0a-16b8-48e3-8597-341085a7adbd">MENUEX_TEMPLATE_ITEM</a> structures. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-For both the ANSI and the Unicode version of this function, the strings in the <a href="https://msdn.microsoft.com/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structure must be Unicode strings. 
+For both the ANSI and the Unicode version of this function, the strings in the <a href="https://msdn.microsoft.com/9329aee3-83be-4409-98f4-e135f39c0f01">MENUITEMTEMPLATE</a> structure must be Unicode strings. 
 
 
 
@@ -99,27 +99,27 @@ For both the ANSI and the Unicode version of this function, the strings in the <
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://msdn.microsoft.com/806297e1-0ee4-4471-a98a-598c1b48c0de">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647567(v=VS.85).aspx">MENUEX_TEMPLATE_HEADER</a>
+<a href="https://msdn.microsoft.com/df763349-7127-482e-8613-74e68addde5d">MENUEX_TEMPLATE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647569(v=VS.85).aspx">MENUEX_TEMPLATE_ITEM</a>
+<a href="https://msdn.microsoft.com/f6e2fd0a-16b8-48e3-8597-341085a7adbd">MENUEX_TEMPLATE_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a>
+<a href="https://msdn.microsoft.com/9329aee3-83be-4409-98f4-e135f39c0f01">MENUITEMTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a>
+<a href="https://msdn.microsoft.com/7dd21370-9e26-4086-9ba1-98e79966c336">MENUITEMTEMPLATEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

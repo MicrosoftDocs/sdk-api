@@ -7,7 +7,7 @@ old-location: tablet\inkedit_usemouseforinput.htm
 old-project: tablet
 ms.assetid: e4a425db-6a81-494d-818f-50a53d8c124b
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkEdit interface [Tablet PC],UseMouseForInput property, IInkEdit.UseMouseForInput, IInkEdit.put_UseMouseForInput, IInkEdit::UseMouseForInput, IInkEdit::get_UseMouseForInput, IInkEdit::put_UseMouseForInput, InkEdit.get_UseMouseForInput, InkEdit.put_UseMouseForInput, UseMouseForInput property [Tablet PC], UseMouseForInput property [Tablet PC],IInkEdit interface, e4a425db-6a81-494d-818f-50a53d8c124b, get_UseMouseForInput, inked/IInkEdit::UseMouseForInput, inked/IInkEdit::get_UseMouseForInput, inked/IInkEdit::put_UseMouseForInput, put_UseMouseForInput, tablet.inkedit_usemouseforinput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ This property should only be changed if the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2dataeventargs_get_currentaction.htm
 old-project: imapi
 ms.assetid: ad7db1a4-7ea8-46d7-8c4f-e7b9fb232f63
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2DataEventArgs.get_CurrentAction, IDiscFormat2DataEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_currentaction, imapi2/IDiscFormat2DataEventArgs::get_CurrentAction
 ms.prod: windows
 ms.technology: windows-sdk

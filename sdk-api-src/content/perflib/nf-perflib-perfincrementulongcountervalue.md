@@ -4,10 +4,10 @@ title: PerfIncrementULongCounterValue function
 author: windows-sdk-content
 description: Increments the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 old-location: perf\perfincrementulongcountervalue.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 002162a0-d782-4648-949e-178985fd1d44
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PerfIncrementULongCounterValue, PerfIncrementULongCounterValue function [Perf], perf.perfincrementulongcountervalue, perflib/PerfIncrementULongCounterValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getstreamselection.htm
 old-project: medfound
 ms.assetid: 93EA1E19-4333-484D-96C8-3244F7C040EF
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamSelection method, IMFMediaEngineEx.GetStreamSelection, IMFMediaEngineEx::GetStreamSelection, TRUE, mf.imfmediaengineex_getstreamselection, mfmediaengine/IMFMediaEngineEx::GetStreamSelection
 ms.prod: windows
 ms.technology: windows-sdk

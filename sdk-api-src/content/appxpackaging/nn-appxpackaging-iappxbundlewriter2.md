@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlewriter2.htm
 old-project: appxpkg
 ms.assetid: FD9EAF80-8449-4016-91A9-2299711C3D48
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxBundleWriter2, IAppxBundleWriter2 interface [App packaging and management], IAppxBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter2, appxpkg.iappxbundlewriter2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NCryptStreamOpenToUnprotectEx function
 author: windows-sdk-content
 description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
 old-location: security\ncryptstreamopentounprotectex.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 8E607F4F-4A0F-4796-8F40-D232687815AF
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx function [Security], ncryptprotect/NCryptStreamOpenToUnprotectEx, security.ncryptstreamopentounprotectex
 ms.prod: windows
 ms.technology: windows-sdk

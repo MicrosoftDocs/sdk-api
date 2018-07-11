@@ -4,10 +4,10 @@ title: PRESUTIL_DUP_STRING
 author: windows-sdk-content
 description: Duplicates a null-terminated Unicode string.
 old-location: mscs\resutildupstring.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING callback, PRESUTIL_DUP_STRING callback function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING
 ms.prod: windows
 ms.technology: windows-sdk

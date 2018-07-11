@@ -4,10 +4,10 @@ title: IGroupPolicyObject::GetRegistryKey
 author: windows-sdk-content
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified GPO section.
 old-location: policy\igrouppolicyobject_getregistrykey.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 6d46aeb4-8675-4746-9b80-46a0def184b8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetRegistryKey method, IGroupPolicyObject.GetRegistryKey, IGroupPolicyObject::GetRegistryKey, _win32_igrouppolicyobject_getregistrykey, gpedit/IGroupPolicyObject::GetRegistryKey, policy.igrouppolicyobject_getregistrykey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusPartition::get_FileSystemFlags
 author: windows-sdk-content
 description: Flags describing the file system of a storage class resource partition.
 old-location: mscs\cluspartition_filesystemflags.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 311e011a-3617-4659-b6cc-777cd57384d7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPartition object [Failover Cluster],FileSystemFlags property, ClusPartition.FileSystemFlags, FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, FileSystemFlags property [Failover Cluster], FileSystemFlags property [Failover Cluster],ClusPartition object, ISClusPartition.get_FileSystemFlags, ISClusPartition::get_FileSystemFlags, _wolf_cluspartition.filesystemflags, get_FileSystemFlags, mscs.cluspartition_filesystemflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns 
     flags describing the file system of a 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a> 
+    <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

@@ -7,7 +7,7 @@ old-location: dataxchg\ddefreestringhandle.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddefreestringhandle.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DdeFreeStringHandle, DdeFreeStringHandle function [Data Exchange], _win32_DdeFreeStringHandle, _win32_ddefreestringhandle_cpp, dataxchg.ddefreestringhandle, ddeml/DdeFreeStringHandle, winui._win32_ddefreestringhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Frees a string handle in the calling application.
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function. 
 
 
 ### -param hsz [in]
 
 Type: <b>HSZ</b>
 
-A handle to the string handle to be freed. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> function. 
+A handle to the string handle to be freed. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a> function. 
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function fails, the return value is zero.
 
 
 
-An application can free string handles it creates with <a href="https://msdn.microsoft.com/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> but should not free those that the system passed to the application's Dynamic Data Exchange (DDE) callback function or those returned in the <a href="https://msdn.microsoft.com/library/ms648731(v=VS.85).aspx">CONVINFO</a> structure by the <a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a> function. 
+An application can free string handles it creates with <a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a> but should not free those that the system passed to the application's Dynamic Data Exchange (DDE) callback function or those returned in the <a href="https://msdn.microsoft.com/fb90f16f-d17c-4123-b821-602e8a5d25b1">CONVINFO</a> structure by the <a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a> function. 
 
 
 
@@ -99,7 +99,7 @@ An application can free string handles it creates with <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648731(v=VS.85).aspx">CONVINFO</a>
+<a href="https://msdn.microsoft.com/fb90f16f-d17c-4123-b821-602e8a5d25b1">CONVINFO</a>
 
 
 
@@ -107,31 +107,31 @@ An application can free string handles it creates with <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648744(v=VS.85).aspx">DdeCmpStringHandles</a>
+<a href="https://msdn.microsoft.com/87586deb-7862-4a52-8787-cb14edc4e053">DdeCmpStringHandles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a>
+<a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648758(v=VS.85).aspx">DdeKeepStringHandle</a>
+<a href="https://msdn.microsoft.com/ecef0207-061c-451a-a911-1b821bbe099d">DdeKeepStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>
+<a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648763(v=VS.85).aspx">DdeQueryString</a>
+<a href="https://msdn.microsoft.com/d2130568-b72f-467d-b4c5-a09a3e55110d">DdeQueryString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

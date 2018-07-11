@@ -4,10 +4,10 @@ title: IPolicyQualifiers::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ipolicyqualifiers_itembyindex.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 89d6ce10-8425-4ee9-a957-88f9a2daba74
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IPolicyQualifiers interface [Security],ItemByIndex property, IPolicyQualifiers.ItemByIndex, IPolicyQualifiers.get_ItemByIndex, IPolicyQualifiers::ItemByIndex, IPolicyQualifiers::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::ItemByIndex, certenroll/IPolicyQualifiers::get_ItemByIndex, get_ItemByIndex, security.ipolicyqualifiers_itembyindex
 ms.prod: windows
 ms.technology: windows-sdk

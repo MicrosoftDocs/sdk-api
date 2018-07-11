@@ -7,7 +7,7 @@ old-location: gdi\isrectempty.htm
 old-project: gdi
 ms.assetid: 9deeed4f-304e-47a3-8259-ed7bc3815fd7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IsRectEmpty, IsRectEmpty function [Windows GDI], _win32_IsRectEmpty, gdi.isrectempty, winuser/IsRectEmpty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

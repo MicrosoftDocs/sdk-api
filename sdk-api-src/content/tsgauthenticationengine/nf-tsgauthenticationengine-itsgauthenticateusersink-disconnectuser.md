@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticateusersink_disconnectuser.htm
 old-project: TermServ
 ms.assetid: 03385453-066d-40a9-bcbb-9623e4fdfadc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DisconnectUser, DisconnectUser method [Remote Desktop Services], DisconnectUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, ITSGAuthenticateUserSink interface [Remote Desktop Services],DisconnectUser method, ITSGAuthenticateUserSink.DisconnectUser, ITSGAuthenticateUserSink::DisconnectUser, termserv.itsgauthenticateusersink_disconnectuser, tsgauthenticationengine/ITSGAuthenticateUserSink::DisconnectUser
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\getnamedpipeclientcomputername.htm
 old-project: ipc
 ms.assetid: 8daa97fe-0ef7-4ada-a99c-aff487ad27e5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW
 ms.prod: windows
 ms.technology: windows-sdk

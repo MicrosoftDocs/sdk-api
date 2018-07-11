@@ -4,10 +4,10 @@ title: ImageList_SetBkColor function
 author: windows-sdk-content
 description: Sets the background color for an image list. This function only works if you add an icon or use ImageList_AddMasked with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible.
 old-location: controls\ImageList_SetBkColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ImageList_SetBkColor, ImageList_SetBkColor function [Windows Controls], _win32_ImageList_SetBkColor, _win32_ImageList_SetBkColor_cpp, commctrl/ImageList_SetBkColor, controls.ImageList_SetBkColor, controls._win32_ImageList_SetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the background color for an image list. This function only works if you add an icon or use <a href="https://msdn.microsoft.com/library/Bb761514(v=VS.85).aspx">ImageList_AddMasked</a> with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible. 
+Sets the background color for an image list. This function only works if you add an icon or use <a href="https://msdn.microsoft.com/ea3a3365-a453-4029-9556-f17275d373ea">ImageList_AddMasked</a> with a black and white bitmap. Without a mask, the entire image is drawn; hence the background color is not visible. 
 
 
 ## -parameters

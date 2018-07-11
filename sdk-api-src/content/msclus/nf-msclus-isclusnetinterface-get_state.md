@@ -4,10 +4,10 @@ title: ISClusNetInterface::get_State
 author: windows-sdk-content
 description: State of a network interface.
 old-location: mscs\clusnetinterface_state.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 3bc6bec3-bfe4-4ab4-8ad3-c42eba6d7cba
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetInterface object [Failover Cluster],State property, ClusNetInterface.State, ClusterNetInterfaceFailed, ClusterNetInterfaceStateUnknown, ClusterNetInterfaceUnavailable, ClusterNetInterfaceUnreachable, ClusterNetInterfaceUp, ISClusNetInterface.get_State, ISClusNetInterface::get_State, State property [Failover Cluster], State property [Failover Cluster],ClusNetInterface object, _wolf_clusnetinterface.state, get_State, mscs.clusnetinterface_state
 ms.prod: windows
 ms.technology: windows-sdk

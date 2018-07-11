@@ -7,7 +7,7 @@ old-location: search\_search_IStemmer_GetLicenseToUse.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlicensetouse.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the license information for this <a href="https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation.
+Gets the license information for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets the license information for this <a href="https://msdn.microsoft.com/librar
 
 Type: <b>const WCHAR**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation.
 
 
 ## -returns

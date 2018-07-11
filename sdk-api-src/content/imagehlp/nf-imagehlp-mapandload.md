@@ -4,10 +4,10 @@ title: MapAndLoad function
 author: windows-sdk-content
 description: Maps an image and preloads data from the mapped file.
 old-location: base\mapandload.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 42d5ea46-4b89-4d93-b9a9-18c2855df193
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: MapAndLoad, MapAndLoad function, _win32_mapandload, base.mapandload, imagehlp/MapAndLoad
 ms.prod: windows
 ms.technology: windows-sdk

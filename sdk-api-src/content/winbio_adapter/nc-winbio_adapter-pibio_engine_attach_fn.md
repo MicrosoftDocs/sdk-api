@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_ATTACH_FN
 author: windows-sdk-content
 description: Adds an engine adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\engineadapterattach.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: e797952b-c7dd-41ad-9536-97d7ce1a7a5d
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterAttach, EngineAdapterAttach callback function [Windows Biometric Framework API], PIBIO_ENGINE_ATTACH_FN, PIBIO_ENGINE_ATTACH_FN callback, secbiomet.engineadapterattach, winbio_adapter/EngineAdapterAttach
 ms.prod: windows
 ms.technology: windows-sdk

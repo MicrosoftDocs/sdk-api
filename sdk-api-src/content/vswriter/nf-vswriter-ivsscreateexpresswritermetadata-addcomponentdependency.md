@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::AddComponentDependency
 author: windows-sdk-content
 description: Allows an express writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component (possibly managed by another writer) must be backed up and restored with it.
 old-location: base\ivsscreateexpresswritermetadata_addcomponentdependency.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 1d7e28de-8bb7-4ab4-bcdd-554d47007233
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponentDependency method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponentDependency method, IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
 ms.prod: windows
 ms.technology: windows-sdk

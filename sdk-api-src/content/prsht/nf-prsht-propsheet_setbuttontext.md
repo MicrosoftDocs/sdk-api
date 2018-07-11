@@ -4,10 +4,10 @@ title: PropSheet_SetButtonText macro
 author: windows-sdk-content
 description: Sets the text of a button in an Aero wizard. You can use this macro or send the PSM_SETBUTTONTEXT message explicitly.
 old-location: controls\PropSheet_SetButtonText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setbuttontext.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetButtonText, PropSheet_SetButtonText macro [Windows Controls], _win32_PropSheet_SetButtonText, _win32_PropSheet_SetButtonText_cpp, controls.PropSheet_SetButtonText, controls._win32_PropSheet_SetButtonText, prsht/PropSheet_SetButtonText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774609(v=VS.85).aspx">PSM_SETBUTTONTEXT</a> message explicitly.
+Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/30b7afd1-5094-430f-9c48-d87832d96050">PSM_SETBUTTONTEXT</a> message explicitly.
 
 
 ## -parameters

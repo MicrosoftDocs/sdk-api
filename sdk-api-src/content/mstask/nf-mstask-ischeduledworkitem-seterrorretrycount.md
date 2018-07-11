@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetErrorRetryCount
 author: windows-sdk-content
 description: Sets the number of times Task Scheduler will try to run the work item again if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretrycount.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: f2c5bafb-a792-4653-87ab-677daec9b10f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryCount method, IScheduledWorkItem.SetErrorRetryCount, IScheduledWorkItem::SetErrorRetryCount, SetErrorRetryCount, SetErrorRetryCount method [Task Scheduler], SetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretrycount, mstask/IScheduledWorkItem::SetErrorRetryCount, taskschd.ischeduledworkitem_seterrorretrycount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the number of times Task Scheduler will try to run the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a> again if an error occurs. This method is not implemented.
+Sets the number of times Task Scheduler will try to run the <a href="w.htm">work item</a> again if an error occurs. This method is not implemented.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: IFsrmStorageModuleImplementation::SaveProperties
 author: windows-sdk-content
 description: Instructs the storage module to save properties associated with a file.
 old-location: fsrm\ifsrmstoragemoduleimplementation_saveproperties.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 4d31db26-9d03-46f3-a902-401f9e0d9767
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],SaveProperties method, IFsrmStorageModuleImplementation.SaveProperties, IFsrmStorageModuleImplementation::SaveProperties, SaveProperties, SaveProperties method [File Server Resource Manager], SaveProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_saveproperties, fsrm.ifsrmstoragemoduleimplementation_saveproperties, fsrmpipeline/IFsrmStorageModuleImplementation::SaveProperties
 ms.prod: windows
 ms.technology: windows-sdk

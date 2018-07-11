@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_removeeffect.htm
 old-project: medfound
 ms.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, IMFPMediaPlayer.RemoveEffect, IMFPMediaPlayer::RemoveEffect, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
 ms.prod: windows
 ms.technology: windows-sdk

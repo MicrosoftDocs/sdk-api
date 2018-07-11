@@ -2,13 +2,13 @@
 UID: NE:d3dcommon._D3D_INCLUDE_TYPE
 title: "_D3D_INCLUDE_TYPE"
 author: windows-sdk-content
-description: Values that indicate the location of a shader #include file.
-old-location: direct3d11\d3d_include_type.htm
-old-project: direct3d11
-ms.assetid: 98f0b0dd-9ff8-4321-a9ea-2deabc9529f2
+description: Flags for indicating the location of an include file.
+old-location: direct3d10\d3d10_include_type.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_include_type.htm
 ms.author: windowssdkdev
-ms.date: 04/06/2018
-ms.keywords: D3D10_INCLUDE_LOCAL, D3D10_INCLUDE_SYSTEM, D3D_INCLUDE_FORCE_DWORD, D3D_INCLUDE_LOCAL, D3D_INCLUDE_SYSTEM, D3D_INCLUDE_TYPE, D3D_INCLUDE_TYPE enumeration [Direct3D 11], _D3D_INCLUDE_TYPE, d3dcommon/D3D10_INCLUDE_LOCAL, d3dcommon/D3D10_INCLUDE_SYSTEM, d3dcommon/D3D_INCLUDE_FORCE_DWORD, d3dcommon/D3D_INCLUDE_LOCAL, d3dcommon/D3D_INCLUDE_SYSTEM, d3dcommon/D3D_INCLUDE_TYPE, direct3d11.d3d_include_type
+ms.date: 06/29/2018
+ms.keywords: 4574facf-f245-365e-364b-b7710c758cdb, D3D10_INCLUDE_FORCE_DWORD, D3D10_INCLUDE_LOCAL, D3D10_INCLUDE_SYSTEM, D3D10_INCLUDE_TYPE, D3D10_INCLUDE_TYPE enumeration [Direct3D 10], D3D_INCLUDE_TYPE, LPD3D10_INCLUDE_TYPE, LPD3D10_INCLUDE_TYPE enumeration pointer [Direct3D 10], _D3D_INCLUDE_TYPE, d3d10shader/D3D10_INCLUDE_FORCE_DWORD, d3d10shader/D3D10_INCLUDE_LOCAL, d3d10shader/D3D10_INCLUDE_SYSTEM, d3d10shader/D3D10_INCLUDE_TYPE, d3d10shader/LPD3D10_INCLUDE_TYPE, d3dcommon/D3D10_INCLUDE_FORCE_DWORD, d3dcommon/D3D10_INCLUDE_LOCAL, d3dcommon/D3D10_INCLUDE_SYSTEM, d3dcommon/D3D10_INCLUDE_TYPE, d3dcommon/LPD3D10_INCLUDE_TYPE, direct3d10.d3d10_include_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -34,9 +34,10 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - D3DCommon.h
+ - D3D10Shader.h
+ - d3dcommon.h
 api_name:
- - D3D_INCLUDE_TYPE
+ - D3D10_INCLUDE_TYPE
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Values that indicate the location of a shader #include file. 
+Flags for indicating the location of an include file.
 
 
 ## -enum-fields
@@ -60,12 +61,8 @@ Values that indicate the location of a shader #include file.
 
 ### -field D3D_INCLUDE_LOCAL
 
-The local directory.
-
 
 ### -field D3D_INCLUDE_SYSTEM
-
-The system directory.
 
 
 ### -field D3D10_INCLUDE_LOCAL
@@ -80,17 +77,31 @@ The system directory.
 
 ### -field D3D_INCLUDE_FORCE_DWORD
 
-Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. 
 
-Do not use this value.
+
+
+#### - D3D10_INCLUDE_FORCE_DWORD
+
+Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 
 
 ## -remarks
 
 
 
-You pass a <b>D3D_INCLUDE_TYPE</b>-typed value to the  <i>IncludeType</i> parameter in a call to the  <a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">ID3DInclude::Open</a> method to indicate the location of the #include file.
+The   <b>D3D10_INCLUDE_TYPE</b> enumeration is type defined in the  D3D10Shader.h header file as a <a href="https://msdn.microsoft.com/98f0b0dd-9ff8-4321-a9ea-2deabc9529f2">D3D_INCLUDE_TYPE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+typedef D3D_INCLUDE_TYPE D3D10_INCLUDE_TYPE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -99,15 +110,11 @@ You pass a <b>D3D_INCLUDE_TYPE</b>-typed value to the  <i>IncludeType</i> parame
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/98f0b0dd-9ff8-4321-a9ea-2deabc9529f2">D3D_INCLUDE_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">ID3DInclude::Open</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

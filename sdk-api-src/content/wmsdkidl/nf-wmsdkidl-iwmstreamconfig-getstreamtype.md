@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_getstreamtype.htm
 old-project: wmformat
 ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
 ms.prod: windows
 ms.technology: windows-sdk

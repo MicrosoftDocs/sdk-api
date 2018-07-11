@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetDocument
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getdocument.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 3ade4232-147b-4e56-b45c-e692d08cfcdc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetDocument method, IVssExamineWriterMetadata.GetDocument, IVssExamineWriterMetadata::GetDocument, _win32_ivssexaminewritermetadata_getdocument, base.ivssexaminewritermetadata_getdocument, vsbackup/IVssExamineWriterMetadata::GetDocument
 ms.prod: windows
 ms.technology: windows-sdk

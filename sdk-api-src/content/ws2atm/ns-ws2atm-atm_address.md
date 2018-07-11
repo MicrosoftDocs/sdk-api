@@ -7,7 +7,7 @@ old-location: winsock\atm_address_2.htm
 old-project: WinSock
 ms.assetid: 794d4070-45d7-41c3-8229-660ba3c5f72a
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: ATM_ADDRESS, ATM_ADDRESS structure [Winsock], ATM_CALLED_PARTY_NUMBER_IE, ATM_CALLED_PARTY_SUBADDRESS_IE, ATM_CALLING_PARTY_SUBADDRESS_IE, _win32_atm_address_2, winsock.atm_address_2, ws2atm/ATM_ADDRESS
 ms.prod: windows
 ms.technology: windows-sdk

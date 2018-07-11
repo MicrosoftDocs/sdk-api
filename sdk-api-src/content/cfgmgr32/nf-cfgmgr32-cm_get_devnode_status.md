@@ -7,7 +7,7 @@ old-location: devinst\cm_get_devnode_status.htm
 old-project: devinst
 ms.assetid: 7347c142-8bcf-43b3-aef0-5f99e2873560
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: CM_Get_DevNode_Status, CM_Get_DevNode_Status function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Status, cfgmgrfn_ac924e13-1a2f-4e48-90fe-1020faf1a0df.xml, devinst.cm_get_devnode_status
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleobject_advise.htm
 old-project: com
 ms.assetid: 6a68c9e9-6e06-4def-89a5-18e184e76a26
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleObject interface, IOleObject interface [COM],Advise method, IOleObject.Advise, IOleObject::Advise, _ole_ioleobject_advise, com.ioleobject_advise, oleidl/IOleObject::Advise
 ms.prod: windows
 ms.technology: windows-sdk

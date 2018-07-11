@@ -4,10 +4,10 @@ title: AccessCheckByTypeResultListAndAuditAlarmByHandleA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client that the calling thread is impersonating.
 old-location: security\accesscheckbytyperesultlistandauditalarmbyhandle.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/15/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -247,7 +247,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

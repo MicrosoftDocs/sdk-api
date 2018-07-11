@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplatforminfo.htm
 old-project: cfApi
 ms.assetid: BCF51702-87C1-405B-A3FF-98F5D0DDA8D5
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfGetPlatformInfo, CfGetPlatformInfo function, cfapi/CfGetPlatformInfo, cloudApi.cfgetplatforminfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CreateAssemblyNameObject function
 author: windows-sdk-content
 description: The CreateAssemblyNameObject function obtains an instance of the IAssemblyName interface.
 old-location: setup\createassemblynameobject.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 1290a0b3-28f9-46fb-a98f-40b43bc0df1a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: CreateAssemblyNameObject, CreateAssemblyNameObject function [Side-by-side Assemblies], setup.createassemblynameobject, winsxs/CreateAssemblyNameObject
 ms.prod: windows
 ms.technology: windows-sdk

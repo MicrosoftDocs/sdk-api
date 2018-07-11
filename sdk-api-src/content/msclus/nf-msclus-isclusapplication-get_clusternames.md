@@ -4,10 +4,10 @@ title: ISClusApplication::get_ClusterNames
 author: windows-sdk-content
 description: Names of all the clusters in a domain.
 old-location: mscs\clusapplication_clusternames.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5c4d64e1-d8cb-4abb-b157-3ecdf02a6219
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterNames property [Failover Cluster], ClusterNames property [Failover Cluster],ISClusApplication object, ISClusApplication object [Failover Cluster],ClusterNames property, ISClusApplication.ClusterNames, ISClusApplication.get_ClusterNames, ISClusApplication::get_ClusterNames, _wolf_clusapplication.clusternames, get_ClusterNames, mscs.clusapplication_clusternames
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmp\iwmpdvd_resume.htm
 old-project: WMP
 ms.assetid: c0817edb-49af-48b8-82d0-a8c0a827f290
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],resume method, IWMPDVD.resume, IWMPDVD::resume, IWMPDVDresume, resume, resume method [Windows Media Player], resume method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_resume, wmp/IWMPDVD::resume
 ms.prod: windows
 ms.technology: windows-sdk

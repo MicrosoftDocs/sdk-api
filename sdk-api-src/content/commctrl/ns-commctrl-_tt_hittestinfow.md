@@ -4,10 +4,10 @@ title: "_TT_HITTESTINFOW"
 author: windows-sdk-content
 description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
 old-location: controls\TTHITTESTINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tthittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPTTHITTESTINFOW, LPHITTESTINFO, LPHITTESTINFO structure pointer [Windows Controls], TTHITTESTINFO, TTHITTESTINFO structure [Windows Controls], TTHITTESTINFOA, TTHITTESTINFOW, _TT_HITTESTINFOW, _win32_TTHITTESTINFO, _win32_TTHITTESTINFO_cpp, commctrl/LPHITTESTINFO, commctrl/TTHITTESTINFO, commctrl/TTHITTESTINFOA, commctrl/TTHITTESTINFOW, controls.TTHITTESTINFO, controls._win32_TTHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,10 +76,10 @@ Client coordinates of the point to test.
 
 ### -field ti
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb760256(v=VS.85).aspx">TOOLINFO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/82ca63f3-b99d-4371-877a-f96ed2ad8f34">TOOLINFO</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb760256(v=VS.85).aspx">TOOLINFO</a> structure. If the point specified by 
+<a href="https://msdn.microsoft.com/82ca63f3-b99d-4371-877a-f96ed2ad8f34">TOOLINFO</a> structure. If the point specified by 
 					<b>pt</b> is in the tool specified by 
 					<b>hwnd</b>, this structure receives information about the tool. The 
 					<b>cbSize</b> member of this structure must be filled in before sending this message. 
@@ -89,7 +89,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Bb760256(v=VS.85).aspx">TOO
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/Bb760399(v=VS.85).aspx">TTM_HITTEST</a> message. 
+This structure is used with the <a href="https://msdn.microsoft.com/d4dcc29b-c64c-41b8-a153-300df68ecdf5">TTM_HITTEST</a> message. 
 
 
 

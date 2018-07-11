@@ -4,10 +4,10 @@ title: ClusterRegGetBatchNotification function
 author: windows-sdk-content
 description: Fetches the batch notification.
 old-location: mscs\clusterreggetbatchnotification.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, clusapi/ClusterRegGetBatchNotification, mscs.clusterreggetbatchnotification
 ms.prod: windows
 ms.technology: windows-sdk

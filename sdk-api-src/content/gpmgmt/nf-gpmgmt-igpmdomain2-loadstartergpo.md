@@ -4,10 +4,10 @@ title: IGPMDomain2::LoadStarterGPO
 author: windows-sdk-content
 description: Opens a Starter Group Policy object (GPO) cabinet (CAB) file and imports it into the domain.
 old-location: gpmc\igpmdomain2_loadstartergpo.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 3375ecaf-6128-4bc0-9cfc-e9b00bf4b70a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IGPMDomain2 interface [GPMC],LoadStarterGPO method, IGPMDomain2.LoadStarterGPO, IGPMDomain2::LoadStarterGPO, LoadStarterGPO, LoadStarterGPO method [GPMC], LoadStarterGPO method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_loadstartergpo, gpmgmt/IGPMDomain2::LoadStarterGPO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfasyncresult_setstatus.htm
 old-project: medfound
 ms.assetid: 79dec067-ba54-435b-8744-9a6f43dd416d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Media Foundation],SetStatus method, IMFAsyncResult.SetStatus, IMFAsyncResult::SetStatus, SetStatus, SetStatus method [Media Foundation], SetStatus method [Media Foundation],IMFAsyncResult interface, mf.imfasyncresult_setstatus, mfobjects/IMFAsyncResult::SetStatus
 ms.prod: windows
 ms.technology: windows-sdk

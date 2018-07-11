@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory_createcontext.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createcontext.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: CreateContext, CreateContext method [WPF Bitmap Effects], CreateContext method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateContext method, IMILBitmapEffectFactory.CreateContext, IMILBitmapEffectFactory::CreateContext, _wibe_imilbitmapeffectfactory_createcontext, mileffects/IMILBitmapEffectFactory::CreateContext, wibe._wibe_imilbitmapeffectfactory_createcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> object.
+Creates an <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates an <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">I
 
 ### -param ppContext [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: "__MIDL_IBackgroundCopyJob2_0002"
 author: windows-sdk-content
 description: The BG_AUTH_SCHEME enumeration defines the constant values that specify the authentication scheme to use when a proxy or server requests user authentication.
 old-location: bits\bg_auth_scheme.htm
-old-project: Bits
+old-project: bits
 ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BG_AUTH_SCHEME, BG_AUTH_SCHEME enumeration [BITS], BG_AUTH_SCHEME_BASIC, BG_AUTH_SCHEME_DIGEST, BG_AUTH_SCHEME_NEGOTIATE, BG_AUTH_SCHEME_NTLM, BG_AUTH_SCHEME_PASSPORT, __MIDL_IBackgroundCopyJob2_0002, _drz_bg_auth_scheme, bits.bg_auth_scheme, bits1_5/BG_AUTH_SCHEME, bits1_5/BG_AUTH_SCHEME_BASIC, bits1_5/BG_AUTH_SCHEME_DIGEST, bits1_5/BG_AUTH_SCHEME_NEGOTIATE, bits1_5/BG_AUTH_SCHEME_NTLM, bits1_5/BG_AUTH_SCHEME_PASSPORT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\irecoverableerror_getprovider.htm
 old-project: winsync
 ms.assetid: 48ecfc21-ab30-45c7-879b-c2487288419f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetProvider, GetProvider method [Windows Sync], GetProvider method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetProvider method, IRecoverableError.GetProvider, IRecoverableError::GetProvider, winsync.irecoverableerror_getprovider, winsync/IRecoverableError::GetProvider
 ms.prod: windows
 ms.technology: windows-sdk

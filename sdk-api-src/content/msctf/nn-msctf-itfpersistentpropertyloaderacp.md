@@ -7,7 +7,7 @@ old-location: tsf\itfpersistentpropertyloaderacp.htm
 old-project: TSF
 ms.assetid: 7d7af737-6241-43a9-946e-6a03a423b20f
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfPersistentPropertyLoaderACP, ITfPersistentPropertyLoaderACP interface [Text Services Framework], ITfPersistentPropertyLoaderACP interface [Text Services Framework],described, _tsf_itfpersistentpropertyloaderacp_ref, msctf/ITfPersistentPropertyLoaderACP, tsf.itfpersistentpropertyloaderacp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Called to load a property.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

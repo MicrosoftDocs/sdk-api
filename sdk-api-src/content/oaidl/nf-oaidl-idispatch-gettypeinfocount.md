@@ -7,7 +7,7 @@ old-location: automat\idispatch_gettypeinfocount.htm
 old-project: automat
 ms.assetid: da876d53-cb8a-465c-a43e-c0eb272e2a12
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],IAccessible interface, GetTypeInfoCount method [Automation],IDispatch interface, IAccessible interface [Automation],GetTypeInfoCount method, IAccessible::GetTypeInfoCount, IDispatch interface [Automation],GetTypeInfoCount method, IDispatch.GetTypeInfoCount, IDispatch::GetTypeInfoCount, _oa96_IDispatch::GetTypeInfoCount, automat.idispatch_gettypeinfocount, oaidl/IAccessible::GetTypeInfoCount, oaidl/IDispatch::GetTypeInfoCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_setissideways.htm
 old-project: printdocs
 ms.assetid: 67866971-fe2b-4354-a7e9-a43678443790
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetIsSideways method, IXpsOMGlyphsEditor.SetIsSideways, IXpsOMGlyphsEditor::SetIsSideways, SetIsSideways, SetIsSideways method [XPS Documents and Packaging], SetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, TRUE, xps.ixpsomglyphseditor_setissideways, xpsobjectmodel/IXpsOMGlyphsEditor::SetIsSideways
 ms.prod: windows
 ms.technology: windows-sdk

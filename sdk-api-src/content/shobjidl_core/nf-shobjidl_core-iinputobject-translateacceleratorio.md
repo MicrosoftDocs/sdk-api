@@ -7,7 +7,7 @@ old-location: shell\IInputObject_TranslateAcceleratorIO.htm
 old-project: shell
 ms.assetid: e075556a-2910-41ee-a8f3-3fba1cd55a35
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IInputObject interface [Windows Shell],TranslateAcceleratorIO method, IInputObject.TranslateAcceleratorIO, IInputObject::TranslateAcceleratorIO, TranslateAcceleratorIO, TranslateAcceleratorIO method [Windows Shell], TranslateAcceleratorIO method [Windows Shell],IInputObject interface, _win32_IInputObject_TranslateAcceleratorIO, shell.IInputObject_TranslateAcceleratorIO, shobjidl_core/IInputObject::TranslateAcceleratorIO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Enables the object to process keyboard accelerators.
 Type: <b>LPMSG</b>
 
 
-          The address of an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the keyboard message that is being translated.
+          The address of an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure that contains the keyboard message that is being translated.
         
 
 

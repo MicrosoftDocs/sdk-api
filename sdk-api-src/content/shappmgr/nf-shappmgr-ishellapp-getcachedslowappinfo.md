@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetCachedSlowAppInfo.htm
 old-project: shell
 ms.assetid: 655edc51-0967-4b94-9eef-da213e735e0a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetCachedSlowAppInfo, GetCachedSlowAppInfo method [Windows Shell], GetCachedSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetCachedSlowAppInfo method, IShellApp.GetCachedSlowAppInfo, IShellApp::GetCachedSlowAppInfo, inet_IShellApp_GetCachedSlowAppInfo, shappmgr/IShellApp::GetCachedSlowAppInfo, shell.IShellApp_GetCachedSlowAppInfo
 ms.prod: windows
 ms.technology: windows-sdk

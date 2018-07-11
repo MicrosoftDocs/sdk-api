@@ -7,7 +7,7 @@ old-location: winmsg\bsminfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messageandmessagequeuestructures\bsminfo.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: "*PBSMINFO, BSMINFO, BSMINFO structure [Windows and Messages], PBSMINFO, PBSMINFO structure pointer [Windows and Messages], _win32_BSMINFO_str, _win32_bsminfo_str_cpp, winmsg.bsminfo, winui._win32_bsminfo_str, winuser/BSMINFO, winuser/PBSMINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about a window that denied a request from <a href="https://msdn.microsoft.com/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a>. 
+Contains information about a window that denied a request from <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a>. 
 
 
 ## -struct-fields
@@ -71,14 +71,14 @@ The size, in bytes, of this structure.
 Type: <b>HDESK</b>
 
 A desktop handle to the window specified by 
-					<b>hwnd</b>. This value is returned only if <a href="https://msdn.microsoft.com/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a> specifies <b>BSF_RETURNHDESK</b> and <b>BSF_QUERY</b>. 
+					<b>hwnd</b>. This value is returned only if <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a> specifies <b>BSF_RETURNHDESK</b> and <b>BSF_QUERY</b>. 
 
 
 ### -field hwnd
 
 Type: <b>HWND</b>
 
-A handle to the window that denied the request. This value is returned if <a href="https://msdn.microsoft.com/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a> specifies <b>BSF_QUERY</b>. 
+A handle to the window that denied the request. This value is returned if <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a> specifies <b>BSF_QUERY</b>. 
 
 
 ### -field luid
@@ -93,7 +93,7 @@ A locally unique identifier (LUID) for the window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a>
+<a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a>
 
 
 
@@ -101,7 +101,7 @@ A locally unique identifier (LUID) for the window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 

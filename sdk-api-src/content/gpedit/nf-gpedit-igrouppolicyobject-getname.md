@@ -4,10 +4,10 @@ title: IGroupPolicyObject::GetName
 author: windows-sdk-content
 description: The GetName method retrieves the unique GPO name.
 old-location: policy\igrouppolicyobject_getname.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 1374c01c-aba3-48f5-8a42-7139873d8f7c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetName method, IGroupPolicyObject.GetName, IGroupPolicyObject::GetName, _win32_igrouppolicyobject_getname, gpedit/IGroupPolicyObject::GetName, policy.igrouppolicyobject_getname
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteULONGLONG.htm
 old-project: properties
 ms.assetid: 37854C80-00B9-465c-88D9-619695D418CD
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function [Windows Properties], properties.PSPropertyBag_WriteULONGLONG, propsys/PSPropertyBag_WriteULONGLONG, shell.PSPropertyBag_WriteULONGLONG, shell_PSPropertyBag_WriteULONGLONG
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845065(v=VS.85).aspx">PSPropertyBag_ReadULONGLONG</a>
+<a href="shell.PSPropertyBag_ReadULONGLONG">PSPropertyBag_ReadULONGLONG</a>
  
 
  

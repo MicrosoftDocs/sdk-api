@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_type_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_type_desc.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_SHADER_TYPE_DESC, D3D10_SHADER_TYPE_DESC structure [Direct3D 10], _D3D10_SHADER_TYPE_DESC, b18f1523-7db4-ff5b-d9ab-04f0e773c99b, d3d10shader/D3D10_SHADER_TYPE_DESC, direct3d10.d3d10_shader_type_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,16 +60,16 @@ Describes a shader-variable type.
 
 ### -field Class
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172440(v=VS.85).aspx">D3D10_SHADER_VARIABLE_CLASS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e638c059-9c92-43fe-9fae-8a0cf535af8f">D3D10_SHADER_VARIABLE_CLASS</a></b>
 
-Identifies the variable class as one of scalar, vector, matrix or object. See <a href="https://msdn.microsoft.com/library/Bb172440(v=VS.85).aspx">D3D10_SHADER_VARIABLE_CLASS</a>.
+Identifies the variable class as one of scalar, vector, matrix or object. See <a href="https://msdn.microsoft.com/e638c059-9c92-43fe-9fae-8a0cf535af8f">D3D10_SHADER_VARIABLE_CLASS</a>.
 
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172443(v=VS.85).aspx">D3D10_SHADER_VARIABLE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/fac84252-ec19-4fc9-9171-143b63347888">D3D10_SHADER_VARIABLE_TYPE</a></b>
 
-The variable type. See <a href="https://msdn.microsoft.com/library/Bb172443(v=VS.85).aspx">D3D10_SHADER_VARIABLE_TYPE</a>.
+The variable type. See <a href="https://msdn.microsoft.com/fac84252-ec19-4fc9-9171-143b63347888">D3D10_SHADER_VARIABLE_TYPE</a>.
 
 
 ### -field Rows
@@ -111,7 +111,7 @@ Offset, in bytes, between the start of the parent structure and this variable.
 
 
 
-Get a shader-variable-type description by calling <a href="https://msdn.microsoft.com/library/Bb173841(v=VS.85).aspx">ID3D10ShaderReflectionType::GetDesc</a>.
+Get a shader-variable-type description by calling <a href="https://msdn.microsoft.com/aafee47e-0b34-44af-9228-044be6eb1b53">ID3D10ShaderReflectionType::GetDesc</a>.
 
 
 
@@ -121,7 +121,7 @@ Get a shader-variable-type description by calling <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

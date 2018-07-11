@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplaceholderinfo.htm
 old-project: cfApi
 ms.assetid: D82269CF-8056-46CF-9832-AAE8767A854B
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfGetPlaceholderInfo, CfGetPlaceholderInfo function, cfapi/CfGetPlaceholderInfo, cloudApi.cfgetplaceholderinfo
 ms.prod: windows
 ms.technology: windows-sdk

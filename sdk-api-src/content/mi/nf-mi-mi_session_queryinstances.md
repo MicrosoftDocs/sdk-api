@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_queryinstances.htm
 old-project: wmi_v2
 ms.assetid: 69b36e68-2a3a-41df-9af3-de791db9d9f1
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Session_QueryInstances, MI_Session_QueryInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_QueryInstances, wmi_v2.mi_session_queryinstances
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcNsBindingUnexportPnPW function
 author: windows-sdk-content
 description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
 old-location: rpc\rpcnsbindingunexportpnp.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVssEnumMgmtObject
 author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenummgmtobject.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IVssEnumMgmtObject</b> interface contains
     methods to iterate over and perform other operations on a list of enumerated objects.
 
 The calling application is responsible for calling 
-    <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> to release the resources held by the 
+    <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources held by the 
     returned <b>IVssEnumMgmtObject</b> when it is no longer 
     needed. It may also need to call <b>IUnknown::Release</b> to 
     release temporary objects (such as strings) returned during enumeration.
@@ -123,7 +123,7 @@ Skips the specified number of objects.</p> (Inherited from <b>IVssEnumMgmtObject
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

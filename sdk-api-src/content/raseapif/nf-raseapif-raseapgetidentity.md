@@ -4,10 +4,10 @@ title: RasEapGetIdentity function
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
 old-location: eap\raseapgetidentity.htm
-old-project: EAP
+old-project: eap
 ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_MACHINE_AUTH, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PREVIEW, RAS_EAP_FLAG_ROUTER, RasEapGetIdentity, RasEapGetIdentity callback, RasEapGetIdentity callback function [EAP], _eap_raseapgetidentity, eap.raseapgetidentity, raseapif/RasEapGetIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -255,8 +255,8 @@ This function is called by the RAS function,
 
 If 
 <b>RasEapGetIdentity</b> displays a user interface, the user interface must support 
-<a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="_win32_wm_command_cpp">WM_COMMAND</a> messages where 
+<a href="_win32_loword_cpp">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

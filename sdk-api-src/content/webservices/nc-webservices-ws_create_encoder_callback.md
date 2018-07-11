@@ -7,7 +7,7 @@ old-location: wsw\ws_create_encoder_callback.htm
 old-project: wsw
 ms.assetid: 47a68722-0c99-478a-b1ce-2982287e6a74
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_CREATE_ENCODER_CALLBACK, WS_CREATE_ENCODER_CALLBACK callback, WS_CREATE_ENCODER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_ENCODER_CALLBACK, wsw.ws_create_encoder_callback
 ms.prod: windows
 ms.technology: windows-sdk

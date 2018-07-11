@@ -7,7 +7,7 @@ old-location: termserv\itssbplacementnotifysink_onqueryenvironmentcompleted.htm
 old-project: TermServ
 ms.assetid: 937982aa-7655-4681-ba6c-94201743c90c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbPlacementNotifySink interface [Remote Desktop Services],OnQueryEnvironmentCompleted method, ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted, ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted method [Remote Desktop Services], OnQueryEnvironmentCompleted method [Remote Desktop Services],ITsSbPlacementNotifySink interface, sbtsv/ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, termserv.itssbplacementnotifysink_onqueryenvironmentcompleted
 ms.prod: windows
 ms.technology: windows-sdk

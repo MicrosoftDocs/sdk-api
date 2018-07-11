@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_getdeviceremovedreason.htm
 old-project: direct3d11
 ms.assetid: 9e09c954-5c61-49fd-b25a-87dc0051a84d
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 09615373-9ecd-296a-1d5f-ef9f2b085826, GetDeviceRemovedReason, GetDeviceRemovedReason method [Direct3D 11], GetDeviceRemovedReason method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetDeviceRemovedReason method, ID3D11Device.GetDeviceRemovedReason, ID3D11Device::GetDeviceRemovedReason, d3d11/ID3D11Device::GetDeviceRemovedReason, direct3d11.id3d11device_getdeviceremovedreason
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Get the reason why the device was removed.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Possible return values include: 
 
@@ -79,7 +79,7 @@ Possible return values include:
 <li>DXGI_ERROR_INVALID_CALL</li>
 <li>S_OK</li>
 </ul>
-For more detail on these return codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+For more detail on these return codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

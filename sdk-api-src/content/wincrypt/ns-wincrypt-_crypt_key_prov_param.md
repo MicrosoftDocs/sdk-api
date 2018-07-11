@@ -4,10 +4,10 @@ title: "_CRYPT_KEY_PROV_PARAM"
 author: windows-sdk-content
 description: Contains information about a key container parameter.
 old-location: security\crypt_key_prov_param.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3731708f-0ce9-42bf-ace9-5ed671be113a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM, CRYPT_KEY_PROV_PARAM structure [Security], PCRYPT_KEY_PROV_PARAM, PCRYPT_KEY_PROV_PARAM structure pointer [Security], _CRYPT_KEY_PROV_PARAM, _crypto2_crypt_key_prov_param, security.crypt_key_prov_param, wincrypt/CRYPT_KEY_PROV_PARAM, wincrypt/PCRYPT_KEY_PROV_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk

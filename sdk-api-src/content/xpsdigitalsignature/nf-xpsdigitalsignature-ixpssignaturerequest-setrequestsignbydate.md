@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_setrequestsignbydate.htm
 old-project: printdocs
 ms.assetid: b7048b34-17f8-4df4-b1c6-6c6e6250f02a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestSignByDate method, IXpsSignatureRequest.SetRequestSignByDate, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::Open
 author: windows-sdk-content
 description: Puts the session in an active state.
 old-location: rdp\irdpsrapisharingsession_open.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 2c97a37d-5862-4ad3-9029-481ea0a789e0
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Open method, IRDPSRAPISharingSession.Open, IRDPSRAPISharingSession2 interface [RDP],Open method, IRDPSRAPISharingSession2::Open, IRDPSRAPISharingSession::Open, Open, Open method [RDP], Open method [RDP],IRDPSRAPISharingSession interface, Open method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_open, rdpencomapi/IRDPSRAPISharingSession2::Open, rdpencomapi/IRDPSRAPISharingSession::Open
 ms.prod: windows
 ms.technology: windows-sdk

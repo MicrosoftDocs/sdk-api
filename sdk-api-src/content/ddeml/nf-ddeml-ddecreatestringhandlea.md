@@ -7,7 +7,7 @@ old-location: dataxchg\ddecreatestringhandle.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecreatestringhandle.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DdeCreateStringHandle, DdeCreateStringHandle function [Data Exchange], DdeCreateStringHandleA, DdeCreateStringHandleW, _win32_DdeCreateStringHandle, _win32_ddecreatestringhandle_cpp, dataxchg.ddecreatestringhandle, ddeml/DdeCreateStringHandle, ddeml/DdeCreateStringHandleA, ddeml/DdeCreateStringHandleW, winui._win32_ddecreatestringhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Creates a handle that identifies the specified string. A Dynamic Data Exchange (
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function. 
 
 
 ### -param psz [in]
@@ -78,7 +78,7 @@ The null-terminated string for which a handle is to be created. This string can 
 
 Type: <b>int</b>
 
-The code page to be used to render the string. This value should be either <b>CP_WINANSI</b> (the default code page) or CP_WINUNICODE, depending on whether the ANSI or Unicode version of <a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a> was called by the client application. 
+The code page to be used to render the string. This value should be either <b>CP_WINANSI</b> (the default code page) or CP_WINUNICODE, depending on whether the ANSI or Unicode version of <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> was called by the client application. 
 
 
 ## -returns
@@ -91,7 +91,7 @@ If the function succeeds, the return value is a string handle.
 
 If the function fails, the return value is 0L. 
 
-The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/ea7d758e-bf88-49a9-a51f-9be26376a1ed">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -102,9 +102,9 @@ The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLa
 
 The value of a string handle is not related to the case of the string it identifies. 
 
-When an application either creates a string handle or receives one in the callback function and then uses the <a href="https://msdn.microsoft.com/library/ms648758(v=VS.85).aspx">DdeKeepStringHandle</a> function to keep it, the application must free that string handle when it is no longer needed. 
+When an application either creates a string handle or receives one in the callback function and then uses the <a href="https://msdn.microsoft.com/ecef0207-061c-451a-a911-1b821bbe099d">DdeKeepStringHandle</a> function to keep it, the application must free that string handle when it is no longer needed. 
 
-An instance-specific string handle cannot be mapped from string handle to string and back to string handle. This is shown in the following example, in which the <a href="https://msdn.microsoft.com/library/ms648763(v=VS.85).aspx">DdeQueryString</a> function creates a string from a string handle and <b>DdeCreateStringHandle</b> creates a string handle from that string, but the two handles are not the same: 
+An instance-specific string handle cannot be mapped from string handle to string and back to string handle. This is shown in the following example, in which the <a href="https://msdn.microsoft.com/d2130568-b72f-467d-b4c5-a09a3e55110d">DdeQueryString</a> function creates a string from a string handle and <b>DdeCreateStringHandle</b> creates a string handle from that string, but the two handles are not the same: 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -135,31 +135,31 @@ hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI);
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648740(v=VS.85).aspx">DdeAccessData</a>
+<a href="https://msdn.microsoft.com/7695d435-3bb4-4041-8992-9155efa8911e">DdeAccessData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648744(v=VS.85).aspx">DdeCmpStringHandles</a>
+<a href="https://msdn.microsoft.com/87586deb-7862-4a52-8787-cb14edc4e053">DdeCmpStringHandles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648753(v=VS.85).aspx">DdeFreeStringHandle</a>
+<a href="https://msdn.microsoft.com/93228467-345b-4ff1-942e-2d75a53bce65">DdeFreeStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648758(v=VS.85).aspx">DdeKeepStringHandle</a>
+<a href="https://msdn.microsoft.com/ecef0207-061c-451a-a911-1b821bbe099d">DdeKeepStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648763(v=VS.85).aspx">DdeQueryString</a>
+<a href="https://msdn.microsoft.com/d2130568-b72f-467d-b4c5-a09a3e55110d">DdeQueryString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl_addbacklink.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\addbacklink.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: AddBackLink, AddBackLink method [WPF Bitmap Effects], AddBackLink method [WPF Bitmap Effects],IMILBitmapEffectOutputConnectorImpl interface, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],AddBackLink method, IMILBitmapEffectOutputConnectorImpl.AddBackLink, IMILBitmapEffectOutputConnectorImpl::AddBackLink, _wibe_imilbitmapeffectoutputconnectorimpl_addbacklink, mileffects/IMILBitmapEffectOutputConnectorImpl::AddBackLink, wibe._wibe_imilbitmapeffectoutputconnectorimpl_addbacklink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pConnection [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>*</b>
 
 
 ## -returns

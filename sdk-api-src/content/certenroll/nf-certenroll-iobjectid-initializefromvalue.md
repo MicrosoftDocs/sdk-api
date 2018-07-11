@@ -4,10 +4,10 @@ title: IObjectId::InitializeFromValue
 author: windows-sdk-content
 description: Initializes the object from a string that contains a dotted decimal object identifier (OID).
 old-location: security\iobjectid_initializefromvalue_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2bb2ee69-02c3-41b9-a67b-036c7154a44e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IObjectId interface [Security],InitializeFromValue method, IObjectId.InitializeFromValue, IObjectId::InitializeFromValue, InitializeFromValue, InitializeFromValue method [Security], InitializeFromValue method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromValue, security.iobjectid_initializefromvalue_method
 ms.prod: windows
 ms.technology: windows-sdk

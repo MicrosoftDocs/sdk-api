@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyDescriptionListFromString.htm
 old-project: properties
 ms.assetid: 348253ed-46ac-4643-bbf8-2d286ae97f07
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionListFromString function [Windows Properties], properties.PSGetPropertyDescriptionListFromString, propsys/PSGetPropertyDescriptionListFromString, shell.PSGetPropertyDescriptionListFromString, shell_PSGetPropertyDescriptionListFromString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Reference to the interface ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a>.
 
 
 ## -returns
@@ -134,7 +134,7 @@ For more information about property schemas, see <a href="shell.Building_Propert
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762079(v=VS.85).aspx">PSGetPropertyDescriptionListFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyDescriptionListFromString">PSGetPropertyDescriptionListFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

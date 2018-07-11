@@ -4,10 +4,10 @@ title: IOCTL_CHANGER_EXCHANGE_MEDIUM
 author: windows-sdk-content
 description: Moves a piece of media from a source element to one destination, and the piece of media originally in the first destination to a second destination.
 old-location: base\ioctl_changer_exchange_medium.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 40550df0-9da4-4b02-bd57-23eae78c68df
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 ms.prod: windows
 ms.technology: windows-sdk

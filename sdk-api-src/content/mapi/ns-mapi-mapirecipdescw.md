@@ -4,10 +4,10 @@ title: MapiRecipDescW
 author: windows-sdk-content
 description: A MapiRecipDescW structure contains information about a message sender or recipient.
 old-location: mapi\mapirecipdescw.htm
-old-project: WindowsMAPI
+old-project: windowsmapi
 ms.assetid: 70050D1A-DA06-4D3B-90AF-F997E3B332EB
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*lpMapiRecipDescW, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDescW, MapiRecipDescW structure, lpMapiRecipDescW, lpMapiRecipDescW structure pointer, mapi.mapirecipdescw, mapi/MapiRecipDescW, mapi/lpMapiRecipDescW"
 ms.prod: windows
 ms.technology: windows-sdk

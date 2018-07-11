@@ -4,10 +4,10 @@ title: WofGetDriverVersion function
 author: windows-sdk-content
 description: Used to query the version of the driver used to support a particular provider.
 old-location: fs\wofgetdriverversion.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: F142903A-329D-40E3-A233-F013C26EC1EA
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofgetdriverversion, wofapi/WofGetDriverVersion
 ms.prod: windows
 ms.technology: windows-sdk

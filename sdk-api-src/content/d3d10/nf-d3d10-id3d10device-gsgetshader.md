@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gsgetshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshader.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: GSGetShader, GSGetShader method [Direct3D 10], GSGetShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetShader method, ID3D10Device.GSGetShader, ID3D10Device::GSGetShader, cdbac92b-f473-124b-66e8-4af3395c926a, d3d10/ID3D10Device::GSGetShader, direct3d10.id3d10device_gsgetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the geometry shader currently set on the device.
 
 ### -param ppGeometryShader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/ffe713b9-93d6-4e0a-9cf6-014ac6b8a692">ID3D10GeometryShader</a>**</b>
 
-Address of a pointer to a geometry shader (see <a href="https://msdn.microsoft.com/library/Bb173774(v=VS.85).aspx">ID3D10GeometryShader</a>) to be returned by the method.
+Address of a pointer to a geometry shader (see <a href="https://msdn.microsoft.com/ffe713b9-93d6-4e0a-9cf6-014ac6b8a692">ID3D10GeometryShader</a>) to be returned by the method.
 
 
 ## -returns
@@ -89,7 +89,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

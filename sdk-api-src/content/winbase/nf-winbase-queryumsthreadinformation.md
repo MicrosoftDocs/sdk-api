@@ -7,7 +7,7 @@ old-location: base\queryumsthreadinformation.htm
 old-project: ProcThread
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
 ms.prod: windows
 ms.technology: windows-sdk

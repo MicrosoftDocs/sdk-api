@@ -7,7 +7,7 @@ old-location: hidpi\dialog_dpi_change_behaviors.htm
 old-project: hidpi
 ms.assetid: 26248777-E95F-49BE-82D6-7237FAEE0627
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 03/30/2018
 ms.keywords: DDC_DEFAULT, DDC_DISABLE_ALL, DDC_DISABLE_CONTROL_RELAYOUT, DDC_DISABLE_RESIZE, DIALOG_DPI_CHANGE_BEHAVIORS, DIALOG_DPI_CHANGE_BEHAVIORS enumeration [High DPI], hidpi.dialog_dpi_change_behaviors, winuser/DDC_DEFAULT, winuser/DDC_DISABLE_ALL, winuser/DDC_DISABLE_CONTROL_RELAYOUT, winuser/DDC_DISABLE_RESIZE, winuser/DIALOG_DPI_CHANGE_BEHAVIORS
 ms.prod: windows
 ms.technology: windows-sdk

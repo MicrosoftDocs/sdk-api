@@ -7,7 +7,7 @@ old-location: properties\PSRefreshPropertySchema.htm
 old-project: properties
 ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
 ms.prod: windows
 ms.technology: windows-sdk

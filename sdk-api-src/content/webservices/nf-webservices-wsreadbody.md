@@ -7,7 +7,7 @@ old-location: wsw\wsreadbody.htm
 old-project: wsw
 ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\ddvideoportgetbandwidth.htm
 old-project: display
 ms.assetid: 4b9cfec1-a599-47a5-878e-2cde6b3b780a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DdVideoPortGetBandwidth, DdVideoPortGetBandwidth callback function [Display Devices], PDD_VPORTCB_GETBANDWIDTH, PDD_VPORTCB_GETBANDWIDTH callback, ddfncs_e47d95f4-8b95-4344-a1d0-f036007ac802.xml, ddrawint/DdVideoPortGetBandwidth, display.ddvideoportgetbandwidth
 ms.prod: windows
 ms.technology: windows-sdk

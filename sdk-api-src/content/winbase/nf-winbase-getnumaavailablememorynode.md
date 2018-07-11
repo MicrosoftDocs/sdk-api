@@ -7,7 +7,7 @@ old-location: base\getnumaavailablememorynode.htm
 old-project: ProcThread
 ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
 ms.prod: windows
 ms.technology: windows-sdk

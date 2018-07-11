@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage3.htm
 old-project: imapi
 ms.assetid: ffe343fa-2837-41f7-b7e0-097788fb5d4e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], IFileSystemImage3 interface [IMAPI],described, imapi.ifilesystemimage3, imapi2fs/IFileSystemImage3
 ms.prod: windows
 ms.technology: windows-sdk

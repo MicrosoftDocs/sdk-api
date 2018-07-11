@@ -4,10 +4,10 @@ title: ITaskTrigger::SetTrigger
 author: windows-sdk-content
 description: The SetTrigger method sets the trigger criteria for a task trigger.
 old-location: taskschd\itasktrigger_settrigger.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 2f445835-a409-4a03-b853-4e0b07ded1ea
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>SetTrigger</b> method sets the trigger criteria for a task <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger</a>.
+<b>SetTrigger</b> method sets the trigger criteria for a task <a href="t.htm">trigger</a>.
 
 
 ## -parameters

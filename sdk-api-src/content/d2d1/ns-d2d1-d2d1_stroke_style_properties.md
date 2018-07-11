@@ -4,10 +4,10 @@ title: D2D1_STROKE_STYLE_PROPERTIES
 author: windows-sdk-content
 description: Describes the stroke that outlines a shape.
 old-location: direct2d\D2D1_STROKE_STYLE_PROPERTIES.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 67f3701f-febd-4afe-803e-c5d9dbcd1b21
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1_STROKE_STYLE_PROPERTIES, D2D1_STROKE_STYLE_PROPERTIES structure [Direct2D], d2d1/D2D1_STROKE_STYLE_PROPERTIES, direct2d.D2D1_STROKE_STYLE_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ A value that specifies an offset in the dash sequence.   A positive dash offset 
 
 The following illustration shows different <i>dashOffset</i> values for the same custom dash style.
 
-<img alt="Illustration of four dashes with the same style and different dashOffset values" src="./images/StrokeStyle_DashOffset.png"/>
+<img alt="Illustration of four dashes with the same style and different dashOffset values" src="images/StrokeStyle_DashOffset.png"/>
 
 
 

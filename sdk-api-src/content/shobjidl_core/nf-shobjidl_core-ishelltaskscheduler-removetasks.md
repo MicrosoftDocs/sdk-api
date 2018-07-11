@@ -7,7 +7,7 @@ old-location: shell\IShellTaskScheduler_RemoveTasks.htm
 old-project: shell
 ms.assetid: a160cfcf-f989-4a7c-9da0-97d658c151b9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],RemoveTasks method, IShellTaskScheduler.RemoveTasks, IShellTaskScheduler::RemoveTasks, RemoveTasks, RemoveTasks method [Windows Shell], RemoveTasks method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_RemoveTasks, shell.IShellTaskScheduler_RemoveTasks, shobjidl_core/IShellTaskScheduler::RemoveTasks
 ms.prod: windows
 ms.technology: windows-sdk

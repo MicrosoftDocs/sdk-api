@@ -4,10 +4,10 @@ title: "_SI_PAGE_TYPE"
 author: windows-sdk-content
 description: Contains values that indicate the types of property pages in an access control editor property sheet.
 old-location: security\si_page_type.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 122b2dcb-5557-4692-a0d6-4a0accf71740
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: SI_PAGE_ADVPERM, SI_PAGE_AUDIT, SI_PAGE_EFFECTIVE, SI_PAGE_OWNER, SI_PAGE_PERM, SI_PAGE_TAKEOWNERSHIP, SI_PAGE_TYPE, SI_PAGE_TYPE enumeration [Security], _SI_PAGE_TYPE, _win32_si_page_type_str, aclui/SI_PAGE_ADVPERM, aclui/SI_PAGE_AUDIT, aclui/SI_PAGE_EFFECTIVE, aclui/SI_PAGE_OWNER, aclui/SI_PAGE_PERM, aclui/SI_PAGE_TAKEOWNERSHIP, aclui/SI_PAGE_TYPE, security.si_page_type
 ms.prod: windows
 ms.technology: windows-sdk

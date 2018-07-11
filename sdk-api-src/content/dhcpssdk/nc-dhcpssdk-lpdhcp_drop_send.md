@@ -4,10 +4,10 @@ title: LPDHCP_DROP_SEND
 author: windows-sdk-content
 description: The DhcpPktDropHook function is called by Microsoft DHCP Server when a DHCP packet is dropped, or a packet is completely processed.
 old-location: dhcp\dhcppktdrophook.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpPktDropHook, DhcpPktDropHook callback function [DHCP], LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/DhcpPktDropHook
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IDataObjectProvider_SetDataObject.htm
 old-project: shell
 ms.assetid: 4A7787E5-8C16-4cd2-B46F-67F6F636989B
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IDataObjectProvider interface [Windows Shell],SetDataObject method, IDataObjectProvider.SetDataObject, IDataObjectProvider::SetDataObject, SetDataObject, SetDataObject method [Windows Shell], SetDataObject method [Windows Shell],IDataObjectProvider interface, shell.IDataObjectProvider_SetDataObject, shobjidl_core/IDataObjectProvider::SetDataObject
 ms.prod: windows
 ms.technology: windows-sdk

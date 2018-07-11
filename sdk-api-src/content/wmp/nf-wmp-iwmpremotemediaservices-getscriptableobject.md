@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices_getscriptableobject.htm
 old-project: WMP
 ms.assetid: c2e313fd-cbf6-4b0f-8eb0-1097af53e77a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetScriptableObject, GetScriptableObject method [Windows Media Player], GetScriptableObject method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetScriptableObject method, IWMPRemoteMediaServices.GetScriptableObject, IWMPRemoteMediaServices::GetScriptableObject, IWMPRemoteMediaServicesGetScriptableObject, wmp.iwmpremotemediaservices_getscriptableobject, wmp/IWMPRemoteMediaServices::GetScriptableObject
 ms.prod: windows
 ms.technology: windows-sdk

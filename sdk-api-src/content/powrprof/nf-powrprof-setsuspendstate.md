@@ -4,10 +4,10 @@ title: SetSuspendState function
 author: windows-sdk-content
 description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).
 old-location: base\setsuspendstate.htm
-old-project: Power
+old-project: power
 ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, base.setsuspendstate, powrprof/SetSuspendState
 ms.prod: windows
 ms.technology: windows-sdk

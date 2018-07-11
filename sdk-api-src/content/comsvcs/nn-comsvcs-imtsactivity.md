@@ -7,7 +7,7 @@ old-location: cos\imtsactivity.htm
 old-project: cossdk
 ms.assetid: a45b29f0-d3f1-4593-9df5-4f6d617b93fa
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IMTSActivity, IMTSActivity interface [COM+], IMTSActivity interface [COM+],described, _cos_IMTSActivity, comsvcs/IMTSActivity, cos.imtsactivity
 ms.prod: windows
 ms.technology: windows-sdk

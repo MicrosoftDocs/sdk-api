@@ -7,7 +7,7 @@ old-location: automat\idispatch_gettypeinfo.htm
 old-project: automat
 ms.assetid: cc1ec9aa-6c40-4e70-819c-a7c6dd6b8c99
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IDispatch interface, GetTypeInfo method [Automation],IWebBrowser2 interface, IDispatch interface [Automation],GetTypeInfo method, IDispatch.GetTypeInfo, IDispatch::GetTypeInfo, IWebBrowser2 interface [Automation],GetTypeInfo method, IWebBrowser2::GetTypeInfo, _oa96_IDispatch::GetTypeInfo, automat.idispatch_gettypeinfo, oaidl/IDispatch::GetTypeInfo, oaidl/IWebBrowser2::GetTypeInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ The <i>iTInfo</i> parameter was not 0.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>
+<a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>
  
 
  

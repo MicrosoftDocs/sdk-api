@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreushort2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUShort2(XMUSHORT2@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMStoreUShort2, XMStoreUShort2, XMStoreUShort2 method [DirectX Math Support APIs], dxmath.xmstoreushort2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a>.
 
 
 ## -parameters

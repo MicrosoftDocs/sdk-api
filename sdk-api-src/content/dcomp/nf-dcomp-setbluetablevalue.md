@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue_over
 old-project: directcomp
 ms.assetid: 9c7098d5-17aa-3154-02a7-7acf972a212d
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionTableTransferEffect::SetBlueTableValue, SetBlueTableValue, SetBlueTableValue methods [DirectComposition], dcomp/SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

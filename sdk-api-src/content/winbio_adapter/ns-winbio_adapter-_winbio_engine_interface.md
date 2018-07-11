@@ -4,10 +4,10 @@ title: "_WINBIO_ENGINE_INTERFACE"
 author: windows-sdk-content
 description: Contains pointers to your custom engine adapter functions.
 old-location: secbiomet\winbio_engine_interface.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 04429f64-ae41-4c26-a777-bdb7aa92b685
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: "*PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE, PWINBIO_ENGINE_INTERFACE structure pointer [Windows Biometric Framework API], WINBIO_ENGINE_INTERFACE, WINBIO_ENGINE_INTERFACE structure [Windows Biometric Framework API], _WINBIO_ENGINE_INTERFACE, secbiomet.winbio_engine_interface, winbio_adapter/PWINBIO_ENGINE_INTERFACE, winbio_adapter/WINBIO_ENGINE_INTERFACE"
 ms.prod: windows
 ms.technology: windows-sdk

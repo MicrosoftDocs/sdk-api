@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionList_GetAt.htm
 old-project: properties
 ms.assetid: ab4967b8-6650-49fa-b6d5-d72688b080db
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetAt method, IPropertyDescriptionList.GetAt, IPropertyDescriptionList::GetAt, _shell_IPropertyDescriptionList_GetAt, properties.IPropertyDescriptionList_GetAt, propsys/IPropertyDescriptionList::GetAt, shell.IPropertyDescriptionList_GetAt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-          When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>.
+          When this method returns, contains the interface pointer requested in <i>riid</i>. Typically, this is <a href="shell.IPropertyDescription">IPropertyDescription</a>.
         
 
 

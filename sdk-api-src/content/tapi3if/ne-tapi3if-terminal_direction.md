@@ -4,10 +4,10 @@ title: TERMINAL_DIRECTION
 author: windows-sdk-content
 description: The TERMINAL_DIRECTION enumeration is used to describe the direction of the media stream with respect to the local computer or the directional capabilities of a terminal.
 old-location: tapi3\terminal_direction.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 55ef9df3-1b85-439b-8ecb-28e5069390b9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TD_BIDIRECTIONAL, TD_CAPTURE, TD_MULTITRACK_MIXED, TD_NONE, TD_RENDER, TERMINAL_DIRECTION, TERMINAL_DIRECTION enumeration [TAPI 2.2], _tapi3_terminal_direction, tapi3.terminal_direction, tapi3if/TD_BIDIRECTIONAL, tapi3if/TD_CAPTURE, tapi3if/TD_MULTITRACK_MIXED, tapi3if/TD_NONE, tapi3if/TD_RENDER, tapi3if/TERMINAL_DIRECTION
 ms.prod: windows
 ms.technology: windows-sdk

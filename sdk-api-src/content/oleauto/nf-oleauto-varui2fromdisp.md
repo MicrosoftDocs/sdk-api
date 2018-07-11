@@ -7,7 +7,7 @@ old-location: automat\varui2fromdisp.htm
 old-project: automat
 ms.assetid: fe3f90f3-b3ee-4542-b897-05becdd743e9
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarUI2FromDisp, VarUI2FromDisp function [Automation], _oa96_VarUI2FromDisp, automat.varui2fromdisp, oleauto/VarUI2FromDisp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioclient_getsupportedaudioobjectformatenumera
 old-project: CoreAudio
 ms.assetid: CB152D8C-DE3A-4224-A6CC-DF1BFF1A3ABA
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetSupportedAudioObjectFormatEnumerator, GetSupportedAudioObjectFormatEnumerator method [Core Audio], GetSupportedAudioObjectFormatEnumerator method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetSupportedAudioObjectFormatEnumerator method, ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator, ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator, coreaudio.ispatialaudioclient_getsupportedaudioobjectformatenumerator, spatialaudioclient/ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

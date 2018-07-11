@@ -4,10 +4,10 @@ title: IOCSPProperty
 author: windows-sdk-content
 description: Represents a name-value pair for OCSPServiceProperties or ProviderProperties.
 old-location: security\iocspproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 854848f0-ea89-4c25-a8a5-40f1e4d229be
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security],described, certadm/IOCSPProperty, security.iocspproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The default implementation of <a href="https://msdn.microsoft.com/8c700357-0cb4-
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

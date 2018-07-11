@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_map_flag.htm
 old-project: direct3d11
 ms.assetid: 986400c4-2a81-4d43-9564-d26eeaf7bd28
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 629d7d2f-642f-963f-2dce-b5f72d629978, D3D11_MAP_FLAG, D3D11_MAP_FLAG enumeration [Direct3D 11], D3D11_MAP_FLAG_DO_NOT_WAIT, d3d11/D3D11_MAP_FLAG, d3d11/D3D11_MAP_FLAG_DO_NOT_WAIT, direct3d11.d3d11_map_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Specifies how the CPU should respond when an application calls the <a href="http
 
 ### -field D3D11_MAP_FLAG_DO_NOT_WAIT
 
-Specifies that <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> should return DXGI_ERROR_WAS_STILL_DRAWING when the GPU blocks the CPU from accessing a resource. For more information about this error code, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Specifies that <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> should return DXGI_ERROR_WAS_STILL_DRAWING when the GPU blocks the CPU from accessing a resource. For more information about this error code, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 ## -remarks

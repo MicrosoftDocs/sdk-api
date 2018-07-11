@@ -4,10 +4,10 @@ title: IPolicyQualifiers::get_Count
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ipolicyqualifiers_count_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: d13f7a1c-5b2b-4a0d-a84e-d5c58f107575
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Count property [Security], Count property [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Count property, IPolicyQualifiers.Count, IPolicyQualifiers.get_Count, IPolicyQualifiers::Count, IPolicyQualifiers::get_Count, certenroll/IPolicyQualifiers::Count, certenroll/IPolicyQualifiers::get_Count, get_Count, security.ipolicyqualifiers_count_property
 ms.prod: windows
 ms.technology: windows-sdk

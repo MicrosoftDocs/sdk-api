@@ -4,10 +4,10 @@ title: TSPI_lineSetAppSpecific function
 author: windows-sdk-content
 description: The TSPI_lineSetAppSpecific function sets the application-specific field of the specified call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetappspecific.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: aa09b03d-5e72-4db5-b21a-87841fbce70b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_lineSetAppSpecific, TSPI_lineSetAppSpecific function [TAPI 2.2], _tspi_tspi_linesetappspecific, tspi.tspi_linesetappspecific, tspi/TSPI_lineSetAppSpecific
 ms.prod: windows
 ms.technology: windows-sdk

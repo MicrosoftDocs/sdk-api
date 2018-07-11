@@ -4,10 +4,10 @@ title: IWebProxy::get_UserName
 author: windows-sdk-content
 description: Gets and sets the user name to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_username.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebProxy.UserName, IWebProxy.get_UserName, IWebProxy::UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent],IWebProxy interface, get_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
 ms.prod: windows
 ms.technology: windows-sdk

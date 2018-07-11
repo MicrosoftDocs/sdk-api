@@ -4,10 +4,10 @@ title: SetNibTransform function
 author: windows-sdk-content
 description: Sets the transform to apply to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_setnibtransform_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: e2caee05-192c-1ea5-103c-e1d44e8c30a8
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: ID2D1InkStyle::SetNibTransform, SetNibTransform, SetNibTransform methods [Direct2D], d2d1_3/SetNibTransform, direct2d.id2d1inkstyle_setnibtransform_overload
 ms.prod: windows
 ms.technology: windows-sdk

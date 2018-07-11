@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_getdiscinformation.htm
 old-project: imapi
 ms.assetid: 4f2888cb-3f9e-4dc3-ba9a-c13a0a46f731
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: GetDiscInformation, GetDiscInformation method [IMAPI], GetDiscInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDiscInformation method, IDiscRecorder2Ex.GetDiscInformation, IDiscRecorder2Ex::GetDiscInformation, imapi.idiscrecorder2ex_getdiscinformation, imapi2/IDiscRecorder2Ex::GetDiscInformation
 ms.prod: windows
 ms.technology: windows-sdk

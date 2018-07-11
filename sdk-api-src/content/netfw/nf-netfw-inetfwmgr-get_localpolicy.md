@@ -4,10 +4,10 @@ title: INetFwMgr::get_LocalPolicy
 author: windows-sdk-content
 description: Retrieves the local firewall policy.
 old-location: ics\inetfwmgr_localpolicy.htm
-old-project: ICS
+old-project: ics
 ms.assetid: ec32c591-d677-4251-90c8-1bd4fa516245
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],LocalPolicy property, INetFwMgr.LocalPolicy, INetFwMgr.get_LocalPolicy, INetFwMgr::LocalPolicy, INetFwMgr::get_LocalPolicy, LocalPolicy property [ICS/ICF], LocalPolicy property [ICS/ICF],INetFwMgr interface, get_LocalPolicy, ics.inetfwmgr_localpolicy, netfw/INetFwMgr::LocalPolicy, netfw/INetFwMgr::get_LocalPolicy
 ms.prod: windows
 ms.technology: windows-sdk

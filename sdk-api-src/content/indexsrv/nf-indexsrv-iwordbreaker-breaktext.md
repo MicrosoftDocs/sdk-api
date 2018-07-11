@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker_BreakText.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Parses text to identify words and phrases and provides the results to the <a hre
 
 ### -param pTextSource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231254(v=VS.85).aspx">TEXT_SOURCE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1462f158-4af0-428d-93d0-0829039519c2">TEXT_SOURCE</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb231254(v=VS.85).aspx">TEXT_SOURCE</a> structure that contains Unicode text.
+Pointer to a <a href="https://msdn.microsoft.com/1462f158-4af0-428d-93d0-0829039519c2">TEXT_SOURCE</a> structure that contains Unicode text.
 
 
 ### -param pWordSink [in]
@@ -129,7 +129,7 @@ Because word breakers more commonly parse for words than phrases, you should opt
 
 The <a href="https://msdn.microsoft.com/220FCAE5-D22D-45ED-9689-E78C0D8E0BB3">IWordSink</a> object holds the words and their alternative forms for the word breaker. Alternative forms of words, if they exist, are put in the <b>IWordSink</b> object first, by using the <b>WordSink::PutAltWord</b> method, and the root word is added last, by using the <b>WordSink::PutWord</b> method.
 
-Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="https://msdn.microsoft.com/library/Bb231254(v=VS.85).aspx">TEXT_SOURCE</a> structure, to replenish the source text. The <b>IWordBreaker::BreakText</b> method must handle all <b>pfnFillTextBuffer</b> return values. If an error occurs, finish processing the text in the buffer before handling the error.
+Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="https://msdn.microsoft.com/1462f158-4af0-428d-93d0-0829039519c2">TEXT_SOURCE</a> structure, to replenish the source text. The <b>IWordBreaker::BreakText</b> method must handle all <b>pfnFillTextBuffer</b> return values. If an error occurs, finish processing the text in the buffer before handling the error.
 
 
 
@@ -139,11 +139,11 @@ Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
+<a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231254(v=VS.85).aspx">TEXT_SOURCE</a>
+<a href="https://msdn.microsoft.com/1462f158-4af0-428d-93d0-0829039519c2">TEXT_SOURCE</a>
  
 
  

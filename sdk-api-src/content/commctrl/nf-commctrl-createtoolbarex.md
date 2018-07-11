@@ -4,10 +4,10 @@ title: CreateToolbarEx function
 author: windows-sdk-content
 description: Creates a toolbar window and adds the specified buttons to the toolbar.
 old-location: controls\CreateToolbarEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createtoolbarex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: CreateToolbarEx, CreateToolbarEx function [Windows Controls], _win32_CreateToolbarEx, _win32_CreateToolbarEx_cpp, commctrl/CreateToolbarEx, controls.CreateToolbarEx, controls._win32_CreateToolbarEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 Creates a toolbar window and adds the specified buttons to the toolbar. 
 			
-<div class="alert"><b>Note</b>   This function is deprecated, because it does not support all features of toolbars. Use <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> instead. For examples, see <a href="https://msdn.microsoft.com/library/Bb760446(v=VS.85).aspx">Using Toolbar Controls</a>.</div><div> </div>
+<div class="alert"><b>Note</b>   This function is deprecated, because it does not support all features of toolbars. Use <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> instead. For examples, see <a href="https://msdn.microsoft.com/5e52049c-58b4-478c-92ee-ea2f16534f6c">Using Toolbar Controls</a>.</div><div> </div>
 
 ## -parameters
 
@@ -70,7 +70,7 @@ Handle to the parent window for the toolbar.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Window styles for the toolbar. The <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">WS_CHILD</a> style is included by default. This parameter can also include a combination of styles as discussed in <a href="https://msdn.microsoft.com/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>. 
+Window styles for the toolbar. The <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">WS_CHILD</a> style is included by default. This parameter can also include a combination of styles as discussed in <a href="https://msdn.microsoft.com/75dc0c2c-6d1d-4b13-b0df-2cc541a9b1bb">Toolbar Control and Button Styles</a>. 
 
 
 ### -param wID
@@ -108,7 +108,7 @@ Resource identifier for the bitmap resource. If
 
 Type: <b>LPCTBBUTTON</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structures that contain information about the buttons to add to the toolbar. 
+Pointer to an array of <a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structures that contain information about the buttons to add to the toolbar. 
 
 
 ### -param iNumButtons
@@ -150,7 +150,7 @@ Height, in pixels, of the button images to add to the buttons in the toolbar.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Size of a <a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure. 
+Size of a <a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structure. 
 
 
 ## -returns

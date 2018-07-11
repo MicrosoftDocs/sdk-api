@@ -4,10 +4,10 @@ title: IPropertySheetProvider
 author: windows-sdk-content
 description: The IPropertySheetProvider interface implements Windows property sheets as COM objects.
 old-location: mmc\ipropertysheetprovider.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: c63d5d5f-a334-4367-8a1e-252b4eb5b50d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: IPropertySheetProvider, IPropertySheetProvider interface [MMC], IPropertySheetProvider interface [MMC],described, _slate_ipropertysheetprovider, mmc.ipropertysheetprovider, mmc/IPropertySheetProvider
 ms.prod: windows
 ms.technology: windows-sdk

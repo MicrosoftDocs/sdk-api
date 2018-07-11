@@ -4,10 +4,10 @@ title: IRDPSRAPIFrameBuffer
 author: windows-sdk-content
 description: Provides data about the frame buffer size and format and allows the contents to be retrieved.
 old-location: rdp\irdpsrapiframebuffer.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Applications can get a pointer to this interface from the <b>FrameBuffer</b> pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIFrameBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRDPSRAPIFrameBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIFrameBuffer</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IRDPSRAPIFrameBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

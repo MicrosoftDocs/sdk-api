@@ -4,10 +4,10 @@ title: EapPeerQueryInteractiveUIInputFields function
 author: windows-sdk-content
 description: Defines the implementation of an EAP method API that provides the input fields for interactive UI components to be raised on the supplicant.
 old-location: eaphost\eappeerqueryinteractiveuiinputfields.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: 7019e13f-d5ad-40ba-8e70-8ded4b136d6c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapPeerQueryInteractiveUIInputFields, EapPeerQueryInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryinteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryInteractiveUIInputFields
 ms.prod: windows
 ms.technology: windows-sdk

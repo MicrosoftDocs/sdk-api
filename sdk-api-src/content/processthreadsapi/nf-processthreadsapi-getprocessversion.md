@@ -7,7 +7,7 @@ old-location: base\getprocessversion.htm
 old-project: ProcThread
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
 ms.prod: windows
 ms.technology: windows-sdk

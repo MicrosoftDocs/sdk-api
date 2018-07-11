@@ -7,7 +7,7 @@ old-location: mf\imfsamistyle_getstylecount.htm
 old-project: medfound
 ms.assetid: 161cd457-9fab-4ebb-b8b8-f87326d67c66
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 161cd457-9fab-4ebb-b8b8-f87326d67c66, GetStyleCount, GetStyleCount method [Media Foundation], GetStyleCount method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetStyleCount method, IMFSAMIStyle.GetStyleCount, IMFSAMIStyle::GetStyleCount, mf.imfsamistyle_getstylecount, mfidl/IMFSAMIStyle::GetStyleCount
 ms.prod: windows
 ms.technology: windows-sdk

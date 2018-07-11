@@ -4,10 +4,10 @@ title: "_USER_MODALS_INFO_1007"
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1007 structure contains domain controller information.
 old-location: netmgmt\user_modals_info_1007_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: aa6425eb-576c-4f6f-b9c9-96d9535bc7d6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1007, *PUSER_MODALS_INFO_1007, LPUSER_MODALS_INFO_1007, LPUSER_MODALS_INFO_1007 structure pointer [Network Management], PUSER_MODALS_INFO_1007, PUSER_MODALS_INFO_1007 structure pointer [Network Management], USER_MODALS_INFO_1007, USER_MODALS_INFO_1007 structure [Network Management], _USER_MODALS_INFO_1007, _win32_user_modals_info_1007_str, lmaccess/LPUSER_MODALS_INFO_1007, lmaccess/PUSER_MODALS_INFO_1007, lmaccess/USER_MODALS_INFO_1007, netmgmt.user_modals_info_1007_str"
 ms.prod: windows
 ms.technology: windows-sdk

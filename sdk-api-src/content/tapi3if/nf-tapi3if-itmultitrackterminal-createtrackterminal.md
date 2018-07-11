@@ -4,10 +4,10 @@ title: ITMultiTrackTerminal::CreateTrackTerminal
 author: windows-sdk-content
 description: The CreateTrackTerminal method creates a multitrack terminal that can handle a given media type or types and media direction.
 old-location: tapi3\itmultitrackterminal_createtrackterminal.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: fe853de7-5a22-4b49-aca0-e2e2a8c3e1d7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CreateTrackTerminal, CreateTrackTerminal method [TAPI 2.2], CreateTrackTerminal method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],CreateTrackTerminal method, ITMultiTrackTerminal.CreateTrackTerminal, ITMultiTrackTerminal::CreateTrackTerminal, _tapi3_itmultitrackterminal_createtrackterminal, tapi3.itmultitrackterminal_createtrackterminal, tapi3if/ITMultiTrackTerminal::CreateTrackTerminal
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing_mappropertytopage.htm
 old-project: com
 ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPerPropertyBrowsing.MapPropertyToPage, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM],IPerPropertyBrowsing interface, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
 ms.prod: windows
 ms.technology: windows-sdk

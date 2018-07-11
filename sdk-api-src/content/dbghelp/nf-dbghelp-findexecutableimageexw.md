@@ -4,10 +4,10 @@ title: FindExecutableImageExW function
 author: windows-sdk-content
 description: Locates the specified executable file.
 old-location: base\findexecutableimageex.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 7571e168-2e91-4c97-9139-8225d28cc399
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: FindExecutableImageEx, FindExecutableImageEx function, FindExecutableImageExW, _win32_findexecutableimageex, base.findexecutableimageex, dbghelp/FindExecutableImageEx, dbghelp/FindExecutableImageExW
 ms.prod: windows
 ms.technology: windows-sdk

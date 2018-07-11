@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager2.htm
 old-project: directmanipulation
 ms.assetid: 094C6C7D-F973-45AC-9B83-43DB9D46AF23
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IDirectManipulationManager2, IDirectManipulationManager2 interface [Direct Manipulation], IDirectManipulationManager2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager2, directmanipulation/IDirectManipulationManager2
 ms.prod: windows
 ms.technology: windows-sdk

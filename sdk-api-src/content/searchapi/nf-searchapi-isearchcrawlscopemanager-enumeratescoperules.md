@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_EnumerateScopeRules.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumeratescoperules.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: EnumerateScopeRules, EnumerateScopeRules method [search], EnumerateScopeRules method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],EnumerateScopeRules method, ISearchCrawlScopeManager.EnumerateScopeRules, ISearchCrawlScopeManager::EnumerateScopeRules, _search_ISearchCrawlScopeManager_EnumerateScopeRules, search._search_ISearchCrawlScopeManager_EnumerateScopeRules, searchapi/ISearchCrawlScopeManager::EnumerateScopeRules
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 
 
 
-          Returns an enumeration of all the scope rules of which this instance of the <a href="https://msdn.microsoft.com/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface is aware.
+          Returns an enumeration of all the scope rules of which this instance of the <a href="https://msdn.microsoft.com/8b731941-f1f6-402e-8cee-3c493e3c369d">ISearchCrawlScopeManager</a> interface is aware.
         
 
 
@@ -63,10 +63,10 @@ req.product: ADAM
 
 ### -param ppSearchScopeRules [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a>**</b>
 
 
-          Returns a pointer to an <a href="https://msdn.microsoft.com/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> interface.
+          Returns a pointer to an <a href="https://msdn.microsoft.com/9e285532-8f03-4572-b908-a67abd842268">IEnumSearchScopeRules</a> interface.
         
 
 

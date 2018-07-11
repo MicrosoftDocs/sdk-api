@@ -7,7 +7,7 @@ old-location: wintouch\_imanipulationevents_manipulationdelta.htm
 old-project: wintouch
 ms.assetid: bebac896-c48d-4e6e-98ce-4b7d1dec101c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], ManipulationDelta method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationDelta method, _IManipulationEvents.ManipulationDelta, _IManipulationEvents::ManipulationDelta, manipulations/_IManipulationEvents::ManipulationDelta, wintouch._imanipulationevents_manipulationdelta
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_panrelative.htm
 old-project: DirectShow
 ms.assetid: 31affca6-e9e9-4715-aea4-0a39ce100556
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_PanRelative method, ICameraControl.getRange_PanRelative, ICameraControl::getRange_PanRelative, ICameraControlgetRange_PanRelative, dshow.icameracontrol_getrange_panrelative, getRange_PanRelative, getRange_PanRelative method [DirectShow], getRange_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_PanRelative
 ms.prod: windows
 ms.technology: windows-sdk

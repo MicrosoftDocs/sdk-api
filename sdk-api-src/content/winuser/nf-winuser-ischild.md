@@ -7,7 +7,7 @@ old-location: winmsg\ischild.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ischild.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: IsChild, IsChild function [Windows and Messages], _win32_IsChild, _win32_ischild_cpp, winmsg.ischild, winui._win32_ischild, winuser/IsChild
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -106,7 +106,7 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633528(v=VS.85).aspx">IsWindow</a>
+<a href="https://msdn.microsoft.com/bd70f81a-e576-4937-bd9b-eac2939b2817">IsWindow</a>
 
 
 
@@ -114,7 +114,7 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633541(v=VS.85).aspx">SetParent</a>
+<a href="https://msdn.microsoft.com/a13f1cfc-dedc-4190-826f-b29b731e76df">SetParent</a>
 
 
 

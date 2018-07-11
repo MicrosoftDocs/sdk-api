@@ -4,10 +4,10 @@ title: IDsAdminNewObjExt::SetObject
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.
 old-location: ad\idsadminnewobjext_setobject.htm
-old-project: AD
+old-project: ad
 ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The <b>IDsAdminNewObjExt::SetObject</b> method provides the object creation exte
 
 ### -param pADsObj [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface for the object. This parameter may be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">IUnknown::AddRef</a> or <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a>.
+Pointer to an <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a> interface for the object. This parameter may be <b>NULL</b>. If this object is to be kept beyond the scope of this method, the reference count must be incremented by calling <a href="_com_iunknown_addref">IUnknown::AddRef</a> or <a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>.
 
 
 ## -returns
@@ -85,11 +85,11 @@ The method should always return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">IUnknown::AddRef</a>
+<a href="_com_iunknown_addref">IUnknown::AddRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a>
+<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>
  
 
  

@@ -4,10 +4,10 @@ title: ISClusResGroup::get_PrivateProperties
 author: windows-sdk-content
 description: Read/write private properties of a group.
 old-location: mscs\clusresgroup_privateproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 79988509-16fb-4d75-96fa-7659d1831c34
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],PrivateProperties property, ClusResGroup.PrivateProperties, ISClusResGroup.get_PrivateProperties, ISClusResGroup::get_PrivateProperties, PrivateProperties property [Failover Cluster], PrivateProperties property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.privateproperties, get_PrivateProperties, mscs.clusresgroup_privateproperties
 ms.prod: windows
 ms.technology: windows-sdk

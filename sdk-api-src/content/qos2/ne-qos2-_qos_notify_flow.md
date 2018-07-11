@@ -4,10 +4,10 @@ title: "_QOS_NOTIFY_FLOW"
 author: windows-sdk-content
 description: The QOS_NOTIFY_FLOW enumeration specifies the circumstances that must be present for the QOSNotifyFlow function to send a notification.
 old-location: qos\qos_notify_flow.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 96072c6e-8282-4373-bb0b-14fbeb5573c3
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW enumeration pointer [QOS], QOSNotifyAvailable, QOSNotifyCongested, QOSNotifyUncongested, QOS_NOTIFY_FLOW, QOS_NOTIFY_FLOW enumeration [QOS], _QOS_NOTIFY_FLOW, qos.qos_notify_flow, qos2/PQOS_NOTIFY_FLOW, qos2/QOSNotifyAvailable, qos2/QOSNotifyCongested, qos2/QOSNotifyUncongested, qos2/QOS_NOTIFY_FLOW"
 ms.prod: windows
 ms.technology: windows-sdk

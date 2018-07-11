@@ -4,10 +4,10 @@ title: BCryptDuplicateHash function
 author: windows-sdk-content
 description: Duplicates an existing hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptduplicatehash_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 451ff5dc-b66a-4e8e-a327-28b4ee618b74
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func
 ms.prod: windows
 ms.technology: windows-sdk

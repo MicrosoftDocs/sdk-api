@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createenvironmentobject.htm
 old-project: TermServ
 ms.assetid: 11570f40-979e-4caf-81af-f8d16ec61391
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: CreateEnvironmentObject, CreateEnvironmentObject method [Remote Desktop Services], CreateEnvironmentObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentObject method, ITsSbProvider.CreateEnvironmentObject, ITsSbProvider::CreateEnvironmentObject, sbtsv/ITsSbProvider::CreateEnvironmentObject, termserv.itssbprovider_createenvironmentobject
 ms.prod: windows
 ms.technology: windows-sdk

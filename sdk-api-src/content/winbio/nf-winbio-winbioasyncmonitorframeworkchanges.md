@@ -4,10 +4,10 @@ title: WinBioAsyncMonitorFrameworkChanges function
 author: windows-sdk-content
 description: Starts an asynchronous monitor of changes to the biometric framework.
 old-location: secbiomet\winbioasyncmonitorframeworkchanges.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 4BA91B17-DA7D-456C-A815-ED25A3C5D74A
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WINBIO_FRAMEWORK_CHANGE_UNIT, WinBioAsyncMonitorFrameworkChanges, WinBioAsyncMonitorFrameworkChanges function [Windows Biometric Framework API], secbiomet.winbioasyncmonitorframeworkchanges, winbio/WinBioAsyncMonitorFrameworkChanges
 ms.prod: windows
 ms.technology: windows-sdk

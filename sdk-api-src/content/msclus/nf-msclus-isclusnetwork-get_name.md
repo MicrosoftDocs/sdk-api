@@ -4,10 +4,10 @@ title: ISClusNetwork::get_Name
 author: windows-sdk-content
 description: Name of a network.
 old-location: mscs\clusnetwork_name.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9c55b269-21e0-4183-a653-608c80f48f99
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetwork object [Failover Cluster],Name property, ClusNetwork.Name, ISClusNetwork.get_Name, ISClusNetwork.put_Name, ISClusNetwork::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusNetwork object, _wolf_clusnetwork.name, get_Name, mscs.clusnetwork_name
 ms.prod: windows
 ms.technology: windows-sdk

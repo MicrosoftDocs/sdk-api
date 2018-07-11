@@ -4,10 +4,10 @@ title: IX509AttributeExtensions
 author: windows-sdk-content
 description: Defines methods and properties that initialize and retrieve certificate extensions in a certificate request.
 old-location: security\ix509attributeextensions.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: d216bcfd-50be-4445-87a5-d1cb223aa70c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509AttributeExtensions, IX509AttributeExtensions interface [Security], IX509AttributeExtensions interface [Security],described, certenroll/IX509AttributeExtensions, security.ix509attributeextensions
 ms.prod: windows
 ms.technology: windows-sdk

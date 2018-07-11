@@ -4,10 +4,10 @@ title: PRESUTIL_SET_BINARY_VALUE
 author: windows-sdk-content
 description: Sets a binary value in the cluster database.
 old-location: mscs\resutilsetbinaryvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 6a32169c-af14-40f4-ac45-f9923da544ca
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_SET_BINARY_VALUE, PRESUTIL_SET_BINARY_VALUE callback, PRESUTIL_SET_BINARY_VALUE callback function [Failover Cluster], _wolf_resutilsetbinaryvalue, mscs.resutilsetbinaryvalue, resapi/PRESUTIL_SET_BINARY_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

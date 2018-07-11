@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_gettypeflags.htm
 old-project: automat
 ms.assetid: a240caf6-f7a2-41c4-9950-f0d2df1f3e2d
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmon\addproperty.htm
 old-project: NetMon2
 ms.assetid: 7aa9af0a-2434-4331-a244-a743dd430dcf
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: AddProperty, AddProperty function [Network Monitor], _netmon_addproperty, netmon.addproperty, sql_1/AddProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-The <b>AddProperty</b> function adds one property to the parser <a href="https://msdn.microsoft.com/library/ms709215(v=VS.85).aspx">property database</a>.
+The <b>AddProperty</b> function adds one property to the parser <a href="p.htm">property database</a>.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ If the function is unsuccessful, the return value is <b>NULL</b>.
 
 
 The <b>AddProperty</b> function should be called only when implementing the 
-<a href="https://msdn.microsoft.com/b8a2752d-30a6-48f2-90b3-b1430ae983d2">Register</a> function. The parser uses <b>AddProperty</b> to add a property to the <a href="https://msdn.microsoft.com/library/ms709215(v=VS.85).aspx">property database</a> of the protocol. Properties are added to the database one property at a time.
+<a href="https://msdn.microsoft.com/b8a2752d-30a6-48f2-90b3-b1430ae983d2">Register</a> function. The parser uses <b>AddProperty</b> to add a property to the <a href="p.htm">property database</a> of the protocol. Properties are added to the database one property at a time.
 
 <b>AddProperty</b> must be called after calling 
 <a href="https://msdn.microsoft.com/0a3be6ae-d7ce-4315-b4f2-b46bcfa25b69">CreatePropertyDatabase</a>. If <b>AddProperty</b> is called before the property database is created, Network Monitor returns the NMERR_NO_PROPERTY_DATABASE error.

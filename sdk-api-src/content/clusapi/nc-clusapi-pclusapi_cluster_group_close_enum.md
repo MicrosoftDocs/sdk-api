@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM
 author: windows-sdk-content
 description: Closes a group enumeration handle.
 old-location: mscs\clustergroupcloseenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9bdab6b9-a54d-4166-988c-effdeb2ab254
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM callback function [Failover Cluster], _wolf_clustergroupcloseenum, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM, mscs.clustergroupcloseenum
 ms.prod: windows
 ms.technology: windows-sdk

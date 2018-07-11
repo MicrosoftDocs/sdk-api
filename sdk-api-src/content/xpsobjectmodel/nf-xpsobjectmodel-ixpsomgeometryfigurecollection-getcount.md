@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_getcount.htm
 old-project: printdocs
 ms.assetid: 119e36b6-08c4-4578-9f93-cedeac14b2cc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGeometryFigureCollection.GetCount, IXpsOMGeometryFigureCollection::GetCount, xps.ixpsomgeometryfigurecollection_getcount, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_encryptionblt.htm
 old-project: medfound
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ Allocate the destination surface (<i>pDstSurface</i>) as follows:
 <li>Add padding to accommodate the values of <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>.</li>
 <li>Allocate a buffer in system memory, with size equal to <i>SysMemSize</i> (including padding). </li>
 <li>If the address of the system memory buffer is not aligned to the value of <b>BufferAlignmentStart</b>, calculate a memory-aligned pointer that is an offset from the start of the buffer.</li>
-<li>Call <a href="https://msdn.microsoft.com/library/Bb509712(v=VS.85).aspx">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the destination surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
+<li>Call <a href="https://msdn.microsoft.com/03fd24f4-9db2-4763-b7c7-85c6d05c3c77">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the destination surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
 </ol>
 This method has the following limitations:
 
@@ -120,7 +120,7 @@ This method has the following limitations:
 <li>The protected surface cannot be multisampled.</li>
 <li>The method does not support stretching or colorspace conversion.</li>
 </ul>
-If you lock the destination surface, the stride reported in the <a href="https://msdn.microsoft.com/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
+If you lock the destination surface, the stride reported in the <a href="https://msdn.microsoft.com/ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
 
 
 

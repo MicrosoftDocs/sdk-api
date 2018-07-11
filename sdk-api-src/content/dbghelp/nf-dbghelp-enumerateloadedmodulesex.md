@@ -4,10 +4,10 @@ title: EnumerateLoadedModulesEx function
 author: windows-sdk-content
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodulesex.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 4d3d7460-7a84-4d8b-8cea-c6773beac237
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: EnumerateLoadedModulesEx, EnumerateLoadedModulesEx function, EnumerateLoadedModulesExW, base.enumerateloadedmodulesex, dbghelp/EnumerateLoadedModulesEx, dbghelp/EnumerateLoadedModulesExW
 ms.prod: windows
 ms.technology: windows-sdk

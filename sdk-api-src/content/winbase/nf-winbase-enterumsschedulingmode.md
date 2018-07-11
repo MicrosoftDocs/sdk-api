@@ -7,7 +7,7 @@ old-location: base\enterumsschedulingmode.htm
 old-project: ProcThread
 ms.assetid: 792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: EnterUmsSchedulingMode, EnterUmsSchedulingMode function, base.enterumsschedulingmode, winbase/EnterUmsSchedulingMode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_desc.htm
 old-project: medfound
 ms.assetid: 668D994C-B875-4666-B940-1052A6DE6AA1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: D3D11_VIDEO_DECODER_DESC, D3D11_VIDEO_DECODER_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_DESC, mf.d3d11_video_decoder_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ The height of the video frame, in pixels.
 
 ### -field OutputFormat
 
-The output surface format, specified as a <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value.
+The output surface format, specified as a <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> value.
 
 
 ## -see-also

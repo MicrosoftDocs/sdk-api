@@ -4,10 +4,10 @@ title: GetTcpStatistics function
 author: windows-sdk-content
 description: The GetTcpStatistics function retrieves the TCP statistics for the local computer.
 old-location: iphlp\gettcpstatistics.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
 ms.prod: windows
 ms.technology: windows-sdk

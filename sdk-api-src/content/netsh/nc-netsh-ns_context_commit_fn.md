@@ -4,10 +4,10 @@ title: NS_CONTEXT_COMMIT_FN
 author: windows-sdk-content
 description: Is the commit function for helpers.
 old-location: netshell\ns_context_commit_fn.htm
-old-project: NetShell
+old-project: netshell
 ms.assetid: 2380cd4e-5e41-4bfb-874c-50be09044c85
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: NETSH_COMMIT, NETSH_FLUSH, NETSH_SAVE, NETSH_UNCOMMIT, NS_CONTEXT_COMMIT_FN, NS_CONTEXT_COMMIT_FN callback, NS_CONTEXT_COMMIT_FN callback function [NetShell], SampleCommit, _netsh_ns_context_commit_fn, netsh/NS_CONTEXT_COMMIT_FN, netshell.ns_context_commit_fn
 ms.prod: windows
 ms.technology: windows-sdk

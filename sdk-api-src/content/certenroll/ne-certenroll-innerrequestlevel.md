@@ -4,10 +4,10 @@ title: InnerRequestLevel
 author: windows-sdk-content
 description: Specifies the containment level of a certificate request within a PKCS #7 or Certificate Management over CMS (CMC) request.
 old-location: security\innerrequestlevel_enum.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 57b16024-5347-4218-90a7-d85e403aacf0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: InnerRequestLevel, InnerRequestLevel enumeration [Security], LevelInnermost, LevelNext, certenroll/InnerRequestLevel, certenroll/LevelInnermost, certenroll/LevelNext, security.innerrequestlevel_enum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_CLUS_CHKDSK_INFO"
 author: windows-sdk-content
 description: Represents information about a Chkdsk operation.
 old-location: mscs\clus_chkdsk_info.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 455DD59C-B54D-4B42-B661-2E3994E69718
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*PCLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO structure [Failover Cluster], PCLUS_CHKDSK_INFO, PCLUS_CHKDSK_INFO structure pointer [Failover Cluster], _CLUS_CHKDSK_INFO, clusapi/CLUS_CHKDSK_INFO, clusapi/PCLUS_CHKDSK_INFO, mscs.clus_chkdsk_info"
 ms.prod: windows
 ms.technology: windows-sdk

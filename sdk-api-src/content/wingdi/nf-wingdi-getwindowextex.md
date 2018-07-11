@@ -7,7 +7,7 @@ old-location: gdi\getwindowextex.htm
 old-project: gdi
 ms.assetid: 17f41fcb-c9a4-4b7e-acde-73450044413e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetWindowExtEx, GetWindowExtEx function [Windows GDI], _win32_GetWindowExtEx, gdi.getwindowextex, wingdi/GetWindowExtEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_setcore.htm
 old-project: WMP
 ms.assetid: 6b6e6878-1d9d-4f45-94a9-316e86da85df
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetCore method, IWMPPluginUI.SetCore, IWMPPluginUI::SetCore, IWMPPluginUISetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setcore, wmpplug/IWMPPluginUI::SetCore
 ms.prod: windows
 ms.technology: windows-sdk

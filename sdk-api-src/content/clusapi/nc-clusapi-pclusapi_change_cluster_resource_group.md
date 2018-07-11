@@ -4,10 +4,10 @@ title: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP
 author: windows-sdk-content
 description: Moves a resource from one group to another.
 old-location: mscs\changeclusterresourcegroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Do not call <i>ChangeClusterResourceGroup</i>
     in the following diagram, changing resource B to group 2 will move the entire dependency tree (resources A, X, and 
     Y) .
 
-<img alt="" border="0" src="./images/resmove.png"/>
+<img alt="" border="0" src="images/resmove.png"/>
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
     <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a> and 

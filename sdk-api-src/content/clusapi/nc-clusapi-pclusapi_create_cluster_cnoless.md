@@ -4,10 +4,10 @@ title: PCLUSAPI_CREATE_CLUSTER_CNOLESS
 author: windows-sdk-content
 description: Creates a cluster without cluster name and IP Address resources.
 old-location: mscs\createclustercnoless.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS callback, PCLUSAPI_CREATE_CLUSTER_CNOLESS callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
 old-project: wpd_sdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ req.product: ADAM
 ### -param pObjIDs [in, out]
 
 
-            An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+            An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="4fe971c6-8611-453d-b69b-f02c17cf17d4">CoTaskMemFree</a>.
           
 
 

@@ -7,7 +7,7 @@ old-location: winsock\wsaprotocolchain_2.htm
 old-project: WinSock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _WSAPROTOCOLCHAIN, _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN"
 ms.prod: windows
 ms.technology: windows-sdk

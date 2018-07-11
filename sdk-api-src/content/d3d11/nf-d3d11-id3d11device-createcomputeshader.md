@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createcomputeshader.htm
 old-project: direct3d11
 ms.assetid: 4ee0f4f5-48dc-4d5a-b159-c1b7f72e5367
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: CreateComputeShader, CreateComputeShader method [Direct3D 11], CreateComputeShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateComputeShader method, ID3D11Device.CreateComputeShader, ID3D11Device::CreateComputeShader, a7f41890-fbe0-bb14-c192-0d0199550830, d3d11/ID3D11Device::CreateComputeShader, direct3d11.id3d11device_createcomputeshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/33a43253-ada2-408
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  
         See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.

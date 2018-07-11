@@ -7,7 +7,7 @@ old-location: winmsg\openicon.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\openicon.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: OpenIcon, OpenIcon function [Windows and Messages], _win32_OpenIcon, _win32_openicon_cpp, winmsg.openicon, winui._win32_openicon, winuser/OpenIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -84,7 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>OpenIcon</b> sends a <a href="https://msdn.microsoft.com/library/ms632640(v=VS.85).aspx">WM_QUERYOPEN</a> message to the given window. 
+<b>OpenIcon</b> sends a <a href="https://msdn.microsoft.com/6e14d5fd-6598-4d2e-a463-2b153c9c2aa3">WM_QUERYOPEN</a> message to the given window. 
 
 
 
@@ -94,7 +94,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632678(v=VS.85).aspx">CloseWindow</a>
+<a href="https://msdn.microsoft.com/6bb41c24-458a-42ee-9e60-592e20881e06">CloseWindow</a>
 
 
 
@@ -102,7 +102,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633527(v=VS.85).aspx">IsIconic</a>
+<a href="https://msdn.microsoft.com/a2f0ff67-e625-4f42-9d8f-e81f52c597e8">IsIconic</a>
 
 
 
@@ -110,7 +110,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 

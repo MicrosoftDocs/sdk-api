@@ -4,10 +4,10 @@ title: IGPMSOM::GetInheritedGPOLinks
 author: windows-sdk-content
 description: Returns a GPOLinksCollection object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains).
 old-location: gpmc\igpmsom_getinheritedgpolinks.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 545ab05a-b25e-40a7-b002-6935587764a5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMSOM class [GPMC],GetInheritedGPOLinks method, GetInheritedGPOLinks, GetInheritedGPOLinks method [GPMC], GetInheritedGPOLinks method [GPMC],GPMSOM class, GetInheritedGPOLinks method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetInheritedGPOLinks method, IGPMSOM.GetInheritedGPOLinks, IGPMSOM::GetInheritedGPOLinks, _win32_igpmsom_getinheritedgpolinks, gpmc.igpmsom_getinheritedgpolinks, gpmgmt/IGPMSOM::GetInheritedGPOLinks
 ms.prod: windows
 ms.technology: windows-sdk

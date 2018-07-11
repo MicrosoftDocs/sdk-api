@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0002"
 author: windows-sdk-content
 description: Defines values for the reasons why an attendee was disconnected from the session.
 old-location: rdp\attendee_disconnect_reason.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 2fbe5df8-54da-49b2-a9b8-275e838c6d39
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: ATTENDEE_DISCONNECT_REASON, ATTENDEE_DISCONNECT_REASON enumeration [RDP], ATTENDEE_DISCONNECT_REASON_APP, ATTENDEE_DISCONNECT_REASON_CLI, ATTENDEE_DISCONNECT_REASON_ERR, ATTENDEE_DISCONNECT_REASON_MAX, ATTENDEE_DISCONNECT_REASON_MIN, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0002, rdp.attendee_disconnect_reason, rdpencomapi/ATTENDEE_DISCONNECT_REASON, rdpencomapi/ATTENDEE_DISCONNECT_REASON_APP, rdpencomapi/ATTENDEE_DISCONNECT_REASON_CLI, rdpencomapi/ATTENDEE_DISCONNECT_REASON_ERR, rdpencomapi/ATTENDEE_DISCONNECT_REASON_MAX, rdpencomapi/ATTENDEE_DISCONNECT_REASON_MIN
 ms.prod: windows
 ms.technology: windows-sdk

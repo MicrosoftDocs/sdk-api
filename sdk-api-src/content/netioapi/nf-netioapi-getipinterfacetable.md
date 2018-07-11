@@ -4,10 +4,10 @@ title: GetIpInterfaceTable function
 author: windows-sdk-content
 description: Retrieves the IP interface entries on the local computer.
 old-location: iphlp\getipinterfacetable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 09f2bbff-3281-41ae-878f-61c5afa20ec5
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpInterfaceTable, GetIpInterfaceTable function [IP Helper], iphlp.getipinterfacetable, netioapi/GetIpInterfaceTable
 ms.prod: windows
 ms.technology: windows-sdk

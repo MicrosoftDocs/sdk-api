@@ -4,10 +4,10 @@ title: ISCluster::Open
 author: windows-sdk-content
 description: Opens a connection to a cluster.
 old-location: mscs\cluster_open.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1f5d9f49-1169-45f2-9f3d-11ce9d8db5ef
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Cluster object [Failover Cluster],Open method, Cluster.Open, ISCluster.Open, ISCluster::Open, Open, Open method [Failover Cluster], Open method [Failover Cluster],Cluster object, _wolf_cluster.open, mscs.cluster_open
 ms.prod: windows
 ms.technology: windows-sdk

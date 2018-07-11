@@ -7,7 +7,7 @@ old-location: winsync\ienumclockvector_reset.htm
 old-project: winsync
 ms.assetid: cf61db66-c621-486a-a70a-5d24d3cf74da
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IEnumClockVector interface [Windows Sync],Reset method, IEnumClockVector.Reset, IEnumClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumClockVector interface, winsync.ienumclockvector_reset, winsync/IEnumClockVector::Reset
 ms.prod: windows
 ms.technology: windows-sdk

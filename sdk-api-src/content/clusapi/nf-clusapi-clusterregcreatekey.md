@@ -4,10 +4,10 @@ title: ClusterRegCreateKey function
 author: windows-sdk-content
 description: Creates a specified cluster database key. If the key already exists in the database, ClusterRegCreateKey opens it without making changes.
 old-location: mscs\clusterregcreatekey.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a5e924bd-9336-45c8-b2c9-48291f8db774
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ACCESS_SYSTEM_SECURITY, ClusterRegCreateKey, ClusterRegCreateKey function [Failover Cluster], DELETE, KEY_ALL_ACCESS, KEY_CREATE_LINK, KEY_ENUMERATE_SUB_KEYS, KEY_EXECUTE, KEY_NOTIFY, KEY_QUERY_VALUE, KEY_READ, KEY_SET_VALUE, KEY_WRITE, READ_CONTROL, REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_NON_VOLATILE, WRITE_DAC, WRITE_OWNER, _wolf_clusterregcreatekey, clusapi/ClusterRegCreateKey, mscs.clusterregcreatekey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnumNetworks::get__NewEnum
 author: windows-sdk-content
 description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworks collection.
 old-location: nla\ienumnetworks_get__newenum.htm
-old-project: NLA
+old-project: nla
 ms.assetid: ddff98c2-669d-4f8d-9584-b8590705c2f0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],get__NewEnum method, IEnumNetworks.get__NewEnum, IEnumNetworks::get__NewEnum, get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::get__NewEnum, nla.ienumnetworks_get__newenum
 ms.prod: windows
 ms.technology: windows-sdk

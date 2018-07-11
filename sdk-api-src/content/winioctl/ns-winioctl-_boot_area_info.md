@@ -4,10 +4,10 @@ title: "_BOOT_AREA_INFO"
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_BOOT_AREA_INFO control code.
 old-location: fs\boot_area_info.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e6ec156d-6a20-4b00-89fb-a27421fffbc0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Files], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Files], _BOOT_AREA_INFO, fs.boot_area_info, winioctl/BOOT_AREA_INFO, winioctl/PBOOT_AREA_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

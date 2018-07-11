@@ -4,10 +4,10 @@ title: WSManInitialize function
 author: windows-sdk-content
 description: Initializes the Windows Remote Management Client API.
 old-location: winrm\wsmaninitialize.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 5aa1f451-0d12-4079-9477-1971fc084df2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: WSManInitialize, WSManInitialize function [Windows Remote Management], winrm.wsmaninitialize, wsman/WSManInitialize
 ms.prod: windows
 ms.technology: windows-sdk

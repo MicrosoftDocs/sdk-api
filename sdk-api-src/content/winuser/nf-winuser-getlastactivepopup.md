@@ -7,7 +7,7 @@ old-location: winmsg\getlastactivepopup.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getlastactivepopup.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetLastActivePopup, GetLastActivePopup function [Windows and Messages], _win32_GetLastActivePopup, _win32_getlastactivepopup_cpp, winmsg.getlastactivepopup, winui._win32_getlastactivepopup, winuser/GetLastActivePopup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -90,7 +90,7 @@ The return value identifies the most recently active pop-up window. The return v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632670(v=VS.85).aspx">AnyPopup</a>
+<a href="https://msdn.microsoft.com/dcbe94e2-3087-42e2-aaf3-3b998240057e">AnyPopup</a>
 
 
 
@@ -102,7 +102,7 @@ The return value identifies the most recently active pop-up window. The return v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx">ShowOwnedPopups</a>
+<a href="https://msdn.microsoft.com/ca4cd67b-6db1-43a9-8918-1400fef2ea1e">ShowOwnedPopups</a>
 
 
 

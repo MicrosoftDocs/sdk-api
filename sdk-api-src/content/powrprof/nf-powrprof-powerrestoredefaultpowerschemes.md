@@ -4,10 +4,10 @@ title: PowerRestoreDefaultPowerSchemes function
 author: windows-sdk-content
 description: Replaces the power schemes for the system with default power schemes. All current power schemes and settings are deleted and replaced with the default system power schemes.
 old-location: base\powerrestoredefaultpowerschemes.htm
-old-project: Power
+old-project: power
 ms.assetid: 6d0a6167-34de-439b-afb4-2536c715905c
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromStrRet.htm
 old-project: properties
 ms.assetid: 8e9542a9-9ed0-4e44-b9b1-32b31151bd8e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromStrRet, InitVariantFromStrRet function [Windows Properties], _shell_InitVariantFromStrRet, properties.InitVariantFromStrRet, propvarutil/InitVariantFromStrRet, shell.InitVariantFromStrRet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Creates a VT_BSTR variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762337(v=VS.85).aspx">InitVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -133,15 +133,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776617(v=VS.85).aspx">VariantToString</a>
+<a href="shell.VariantToString">VariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776621(v=VS.85).aspx">VariantToStringWithDefault</a>
+<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
  
 
  

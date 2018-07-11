@@ -7,7 +7,7 @@ old-location: winmsg\createwindowex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindowex.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: CreateWindowEx, CreateWindowEx function [Windows and Messages], CreateWindowExA, CreateWindowExW, _win32_CreateWindowEx, _win32_createwindowex_cpp, winmsg.createwindowex, winui._win32_createwindowex, winuser/CreateWindowEx, winuser/CreateWindowExA, winuser/CreateWindowExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -63,7 +63,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> function. For more information about creating a window and for full descriptions of the other parameters of <b>CreateWindowEx</b>, see <b>CreateWindow</b>. 
+Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> function. For more information about creating a window and for full descriptions of the other parameters of <b>CreateWindowEx</b>, see <b>CreateWindow</b>. 
 
 
 ## -parameters
@@ -82,21 +82,21 @@ The extended window style of the window being created. For a list of possible va
 
 Type: <b>LPCTSTR</b>
 
-A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined <a href="https://msdn.microsoft.com/library/ms633574(v=VS.85).aspx">system class</a> names. 
+A <b>null</b>-terminated string or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. If <i>lpClassName</i> is a string, it specifies the window class name. The class name can be any name registered with <b>RegisterClass</b> or <b>RegisterClassEx</b>, provided that the module that registers the class is also the module that creates the window. The class name can also be any of the predefined <a href="about_window_classes.htm">system class</a> names. 
 
 
 ### -param lpWindowName [in, optional]
 
 Type: <b>LPCTSTR</b>
 
-The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>". 
+The window name. If the window style specifies a title bar, the window title pointed to by <i>lpWindowName</i> is displayed in the title bar. When using <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> to create controls, such as buttons, check boxes, and static controls, use <i>lpWindowName</i> to specify the text of the control. When creating a static control with the <b>SS_ICON</b> style, use <i>lpWindowName</i> to specify the icon name or identifier. To specify an identifier, use the syntax "#<i>num</i>". 
 
 
 ### -param dwStyle [in]
 
 Type: <b>DWORD</b>
 
-The style of the window being created. This parameter can be a combination of the <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">window style values</a>, plus the control styles indicated in the Remarks section. 
+The style of the window being created. This parameter can be a combination of the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window style values</a>, plus the control styles indicated in the Remarks section. 
 
 
 ### -param X
@@ -129,7 +129,7 @@ Type: <b>HWND</b>
 
 A handle to the parent or owner window of the window being created. To create a child window or an owned window, supply a valid window handle. This parameter is optional for pop-up windows.
 
- To create a <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">message-only window</a>, supply <b>HWND_MESSAGE</b> or a handle to an existing message-only window.
+ To create a <a href="window_features.htm">message-only window</a>, supply <b>HWND_MESSAGE</b> or a handle to an existing message-only window.
 
 
 ### -param hMenu [in, optional]
@@ -150,9 +150,9 @@ A handle to the instance of the module to be associated with the window.
 
 Type: <b>LPVOID</b>
 
-Pointer to a value to be passed to the window through the <a href="https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure (<b>lpCreateParams</b> member) pointed to by the <i>lParam</i> param of the <b>WM_CREATE</b> message.  This message is sent to the created window by this function before it returns.
+Pointer to a value to be passed to the window through the <a href="https://msdn.microsoft.com/2d67fed4-43de-4151-b124-b710ea64e8a6">CREATESTRUCT</a> structure (<b>lpCreateParams</b> member) pointed to by the <i>lParam</i> param of the <b>WM_CREATE</b> message.  This message is sent to the created window by this function before it returns.
 
-If an application calls <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create a MDI client window, <i>lpParam</i> should point to a <a href="https://msdn.microsoft.com/library/ms632602(v=VS.85).aspx">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="https://msdn.microsoft.com/library/ms644910(v=VS.85).aspx">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
+If an application calls <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> to create a MDI client window, <i>lpParam</i> should point to a <a href="https://msdn.microsoft.com/795396d0-4d3b-4e55-b339-cf02cdfd9b46">CLIENTCREATESTRUCT</a> structure. If an MDI client window calls <b>CreateWindow</b> to create an MDI child window, <i>lpParam</i> should point to a <a href="https://msdn.microsoft.com/aac21a17-4302-4174-9d72-15366d964094">MDICREATESTRUCT</a> structure. <i>lpParam</i> may be <b>NULL</b> if no additional data is needed.
 
 
 #### - x [in]
@@ -169,7 +169,7 @@ Type: <b>int</b>
 The initial vertical position of the window. For an overlapped or pop-up window, the <i>y</i> parameter is the initial y-coordinate of the window's upper-left corner, in screen coordinates. For a child window, <i>y</i> is the initial y-coordinate of the upper-left corner of the child window relative to the upper-left corner of the parent window's client area. For a list box <i>y</i> is the initial y-coordinate of the upper-left corner of the list box's client area relative to the upper-left corner of the parent window's client area. 
 
 
-If an overlapped window is created with the <b>WS_VISIBLE</b> style bit set and the <i>x</i> parameter is set to <b>CW_USEDEFAULT</b>, then the <i>y</i> parameter determines how the window is shown. If the <i>y</i> parameter is <b>CW_USEDEFAULT</b>, then the window manager calls <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> with the <b>SW_SHOW</b> flag after the window has been created. If the <i>y</i> parameter is some other value, then the window manager calls <b>ShowWindow</b> with that value as the <i>nCmdShow</i> parameter.
+If an overlapped window is created with the <b>WS_VISIBLE</b> style bit set and the <i>x</i> parameter is set to <b>CW_USEDEFAULT</b>, then the <i>y</i> parameter determines how the window is shown. If the <i>y</i> parameter is <b>CW_USEDEFAULT</b>, then the window manager calls <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with the <b>SW_SHOW</b> flag after the window has been created. If the <i>y</i> parameter is some other value, then the window manager calls <b>ShowWindow</b> with that value as the <i>nCmdShow</i> parameter.
 
 
 ## -returns
@@ -189,7 +189,7 @@ This function typically fails for one of the following reasons:
 <li>an invalid parameter value</li>
 <li>the system class was registered by a different module</li>
 <li>The <b>WH_CBT</b> hook is installed and returns a failure code</li>
-<li>if one of the controls in the dialog template is not registered, or its window window procedure fails <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> or <a href="https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a>
+<li>if one of the controls in the dialog template is not registered, or its window window procedure fails <a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a> or <a href="https://msdn.microsoft.com/5dd0eda3-83a6-4077-a7a3-e371c9413b0f">WM_NCCREATE</a>
 </li>
 </ul>
 
@@ -199,13 +199,13 @@ This function typically fails for one of the following reasons:
 
 
 
-The <b>CreateWindowEx</b> function sends <a href="https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a>, <a href="https://msdn.microsoft.com/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a>, and <a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a> messages to the window being created. 
+The <b>CreateWindowEx</b> function sends <a href="https://msdn.microsoft.com/5dd0eda3-83a6-4077-a7a3-e371c9413b0f">WM_NCCREATE</a>, <a href="https://msdn.microsoft.com/d2d5825e-02a5-44b8-8615-55b7259d24ba">WM_NCCALCSIZE</a>, and <a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a> messages to the window being created. 
 
 If the created window is a child window, its default position is at the bottom of the Z-order. If the created window is a top-level window, its default position is at the top of the Z-order (but beneath all topmost windows unless the created window is itself topmost).
 
 For information on controlling whether the Taskbar displays a button for the created window, see <a href="_win32_Taskbar">Managing Taskbar Buttons</a>. 
 
-For information on removing a window, see the <a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function.
+For information on removing a window, see the <a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a> function.
 
 The following predefined control classes can be specified in the <i>lpClassName</i> parameter. Note the corresponding control styles you can use in the <i>dwStyle</i> parameter. 
 
@@ -219,7 +219,7 @@ The following predefined control classes can be specified in the <i>lpClassName<
 <td>
 Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545234">Buttons</a>.
 
-For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">Button Styles</a>.
+For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Button_Styles">Button Styles</a>.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ For a table of the button styles you can specify in the <i>dwStyle</i> parameter
 <td>
 Designates a control consisting of a list box and a selection field similar to an edit control. When using this style, an application should either display the list box at all times or enable a drop-down list box. If the list box is visible, typing characters into the selection field highlights the first list box entry that matches the characters typed. Conversely, selecting an item in the list box displays the selected text in the selection field. For more information, see <a href="_win32_Combo_Boxes">Combo Boxes</a>.
 
-For a table of the combo box styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">Combo Box Styles</a>.
+For a table of the combo box styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Combo_Box_Styles">Combo Box Styles</a>.
 
 </td>
 </tr>
@@ -237,29 +237,29 @@ For a table of the combo box styles you can specify in the <i>dwStyle</i> parame
 <td>
 Designates a rectangular child window into which the user can type text from the keyboard. The user selects the control and gives it the keyboard focus by clicking it or moving to it by pressing the TAB key. The user can type text when the edit control displays a flashing caret; use the mouse to move the cursor, select characters to be replaced, or position the cursor for inserting characters; or use the  key to delete characters. For more information, see <a href="_win32_Edit_Controls">Edit Controls</a>.
 
-For a table of the edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb775464(v=VS.85).aspx">Edit Control Styles</a>.
+For a table of the edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Edit_Control_Styles">Edit Control Styles</a>.
 
 </td>
 </tr>
 <tr>
 <td><b>LISTBOX</b></td>
 <td>
-Designates a list of character strings. Specify this control whenever an application must present a list of names, such as filenames, from which the user can choose. The user can select a string by clicking it. A selected string is highlighted, and a notification message is passed to the parent window. For more information, see <a href="https://msdn.microsoft.com/library/Dn742407(v=VS.85).aspx">List Boxes</a>.
+Designates a list of character strings. Specify this control whenever an application must present a list of names, such as filenames, from which the user can choose. The user can select a string by clicking it. A selected string is highlighted, and a notification message is passed to the parent window. For more information, see <a href="_win32_List_Boxes">List Boxes</a>.
 
-For a table of the list box styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb775149(v=VS.85).aspx">List Box Styles</a>.
+For a table of the list box styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_List_Box_Styles">List Box Styles</a>.
 
 </td>
 </tr>
 <tr>
 <td><b>MDICLIENT</b></td>
-<td>Designates an MDI client window. This window receives messages that control the MDI application's child windows. The recommended style bits are <b>WS_CLIPCHILDREN</b> and <b>WS_CHILD</b>. Specify the <b>WS_HSCROLL</b> and <b>WS_VSCROLL</b> styles to create an MDI client window that allows the user to scroll MDI child windows into view. For more information, see <a href="https://msdn.microsoft.com/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>. </td>
+<td>Designates an MDI client window. This window receives messages that control the MDI application's child windows. The recommended style bits are <b>WS_CLIPCHILDREN</b> and <b>WS_CHILD</b>. Specify the <b>WS_HSCROLL</b> and <b>WS_VSCROLL</b> styles to create an MDI client window that allows the user to scroll MDI child windows into view. For more information, see <a href="https://msdn.microsoft.com/beb41067-91ed-4f63-af8f-1000ba82a3b1">Multiple Document Interface</a>. </td>
 </tr>
 <tr>
 <td><b>RichEdit</b></td>
 <td>
 Designates a Microsoft Rich Edit 1.0 control. This window lets the user view and edit text with character and paragraph formatting, and can include embedded Component Object Model (COM) objects. For more information, see <a href="_win32_Rich_Edit_Controls">Rich Edit Controls</a>.
 
-For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">Rich Edit Control Styles</a>.
+For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Rich_Edit_Control_Styles">Rich Edit Control Styles</a>.
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ For a table of the rich edit control styles you can specify in the <i>dwStyle</i
 <td>
 Designates a Microsoft Rich Edit 2.0 control. This controls let the user view and edit text with character and paragraph formatting, and can include embedded COM objects. For more information, see <a href="_win32_Rich_Edit_Controls">Rich Edit Controls</a>.
 
-For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">Rich Edit Control Styles</a>.
+For a table of the rich edit control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Rich_Edit_Control_Styles">Rich Edit Control Styles</a>.
 
 </td>
 </tr>
@@ -277,7 +277,7 @@ For a table of the rich edit control styles you can specify in the <i>dwStyle</i
 <td>
 Designates a rectangle that contains a scroll box and has direction arrows at both ends. The scroll bar sends a notification message to its parent window whenever the user clicks the control. The parent window is responsible for updating the position of the scroll box, if necessary. For more information, see <a href="_win32_Scroll_Bars">Scroll Bars</a>.
 
-For a table of the scroll bar control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb787533(v=VS.85).aspx">Scroll Bar Control Styles</a>.
+For a table of the scroll bar control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Scroll_Bar_Control_Styles">Scroll Bar Control Styles</a>.
 
 </td>
 </tr>
@@ -286,14 +286,14 @@ For a table of the scroll bar control styles you can specify in the <i>dwStyle</
 <td>
 Designates a simple text field, box, or rectangle used to label, box, or separate other controls. Static controls take no input and provide no output. For more information, see <a href="_win32_Static_Controls">Static Controls</a>. 
 
-For a table of the static control styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/library/Bb760773(v=VS.85).aspx">Static Control Styles</a>.
+For a table of the static control styles you can specify in the <i>dwStyle</i> parameter, see <a href="_win32_Static_Control_Styles">Static Control Styles</a>.
 
 </td>
 </tr>
 </table>
  
 
-The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activation by the system. To prevent queue activation when the user clicks on the window, you must process the <a href="https://msdn.microsoft.com/library/ms645612(v=VS.85).aspx">WM_MOUSEACTIVATE</a> message appropriately. To bring the window to the foreground or to activate it programmatically, use <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> or <a href="https://msdn.microsoft.com/library/ms646311(v=VS.85).aspx">SetActiveWindow</a>. Returning <b>FALSE</b> to <a href="https://msdn.microsoft.com/library/ms632633(v=VS.85).aspx">WM_NCACTIVATE</a> prevents the window from losing queue activation. However, the return value is ignored at activation time.
+The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activation by the system. To prevent queue activation when the user clicks on the window, you must process the <a href="https://msdn.microsoft.com/335c0819-a655-4dd1-9511-1f148b87271c">WM_MOUSEACTIVATE</a> message appropriately. To bring the window to the foreground or to activate it programmatically, use <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> or <a href="https://msdn.microsoft.com/3a761bd3-5eba-4263-b670-405d91996a89">SetActiveWindow</a>. Returning <b>FALSE</b> to <a href="https://msdn.microsoft.com/d25732b9-b9ab-4754-a4cf-002d32e3945e">WM_NCACTIVATE</a> prevents the window from losing queue activation. However, the return value is ignored at activation time.
 
  With <b>WS_EX_COMPOSITED</b> set, all descendants of a window get bottom-to-top painting order using double-buffering. Bottom-to-top painting order allows a descendent window to have translucency (alpha) and transparency (color-key) effects, but only if the descendent window also has the <b>WS_EX_TRANSPARENT</b> bit set. Double-buffering allows the window and its descendents to be painted without flicker. 
 
@@ -305,15 +305,15 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644908(v=VS.85).aspx">About the Multiple Document Interface</a>
+<a href="https://msdn.microsoft.com/35dff281-3b11-4954-85cf-a0f1c9ed346a">About the Multiple Document Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632602(v=VS.85).aspx">CLIENTCREATESTRUCT</a>
+<a href="https://msdn.microsoft.com/795396d0-4d3b-4e55-b339-cf02cdfd9b46">CLIENTCREATESTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a>
+<a href="https://msdn.microsoft.com/2d67fed4-43de-4151-b124-b710ea64e8a6">CREATESTRUCT</a>
 
 
 
@@ -321,15 +321,15 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
+<a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646291(v=VS.85).aspx">EnableWindow</a>
+<a href="https://msdn.microsoft.com/6913efcd-4d12-4396-a4ae-f1fd6335f7a8">EnableWindow</a>
 
 
 
@@ -341,43 +341,43 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646311(v=VS.85).aspx">SetActiveWindow</a>
+<a href="https://msdn.microsoft.com/3a761bd3-5eba-4263-b670-405d91996a89">SetActiveWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
+<a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a>
+<a href="https://msdn.microsoft.com/d2d5825e-02a5-44b8-8615-55b7259d24ba">WM_NCCALCSIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a>
+<a href="https://msdn.microsoft.com/5dd0eda3-83a6-4077-a7a3-e371c9413b0f">WM_NCCREATE</a>
 
 
 
@@ -385,7 +385,7 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh454920(v=VS.85).aspx">WM_PARENTNOTIFY</a>
+<a href="https://msdn.microsoft.com/4170fbee-211c-4cee-bf19-311f2fd0490f">WM_PARENTNOTIFY</a>
 
 
 

@@ -4,10 +4,10 @@ title: IWdsTransportNamespace::Clone
 author: windows-sdk-content
 description: Copies the information from this namespace object into a new, unregistered namespace object in memory.
 old-location: wds\iwdstransportnamespace_clone.htm
-old-project: Wds
+old-project: wds
 ms.assetid: bc7eb27e-8bbb-414a-bfc2-25cc762b451d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Clone method, IWdsTransportNamespace.Clone, IWdsTransportNamespace::Clone, wds.iwdstransportnamespace_clone, wdstptmgmt/IWdsTransportNamespace::Clone
 ms.prod: windows
 ms.technology: windows-sdk

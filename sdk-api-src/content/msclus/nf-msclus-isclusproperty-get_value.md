@@ -4,10 +4,10 @@ title: ISClusProperty::get_Value
 author: windows-sdk-content
 description: Locally stored copy of the property value of a cluster object property.
 old-location: mscs\clusproperty_value.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 415458fc-0902-421f-ac00-ee46e24dc8ee
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperty object [Failover Cluster],Value property, ClusProperty.Value, ISClusProperty.get_Value, ISClusProperty::get_Value, Value property [Failover Cluster], Value property [Failover Cluster],ClusProperty object, _wolf_clusproperty.value, get_Value, mscs.clusproperty_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Sets or retrieves the 
-    locally stored copy of the <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a> 
+    locally stored copy of the <a href="p_gly.htm">property value</a> 
     of a <a href="https://msdn.microsoft.com/ba11ba7a-10f7-4f2c-99cd-d274912ad454">cluster object property</a>.
 
 This property is read-only.
@@ -85,7 +85,7 @@ For detailed information about the properties associated with
 
 For cluster object properties that contain multiple values, use 
     <a href="https://msdn.microsoft.com/894b4ce9-422e-481f-81a5-8cccae3140a6">ClusProperty.ValueCount</a> to find the number of 
-    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property values</a>, and 
+    <a href="p_gly.htm">property values</a>, and 
     <a href="https://msdn.microsoft.com/53cff9ea-15e4-4408-8e25-23219b8cfe76">ClusProperty.Values</a> to obtain a 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> collection 
     containing the property values.

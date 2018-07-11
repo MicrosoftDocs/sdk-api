@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_setstartpoint.htm
 old-project: printdocs
 ms.assetid: d9885c3d-06a0-4d25-81fc-cf0ef466a797
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMGeometryFigure.SetStartPoint, IXpsOMGeometryFigure::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::SetStartPoint
 ms.prod: windows
 ms.technology: windows-sdk

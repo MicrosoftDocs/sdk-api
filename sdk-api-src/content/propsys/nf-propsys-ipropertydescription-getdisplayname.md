@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetDisplayName.htm
 old-project: properties
 ms.assetid: 54ee12a4-15fe-454b-8233-297e98bc8a22
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Properties], GetDisplayName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayName method, IPropertyDescription.GetDisplayName, IPropertyDescription::GetDisplayName, properties.IPropertyDescription_GetDisplayName, propsys/IPropertyDescription::GetDisplayName, shell.IPropertyDescription_GetDisplayName, shell_IPropertyDescription_GetDisplayName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ Memory allocation failed.
 
 
 
-The information retrieved by this method comes from the <i>singularLabel</i> and <i>pluralLabel</i> attributes of the <a href="https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx">labelInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>singularLabel</i> and <i>pluralLabel</i> attributes of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propdesc file.
 
 It is the responsibility of the calling application to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string referred to by <i>ppszDisplayName</i> when it is no longer needed.
 
@@ -141,7 +141,7 @@ It is the responsibility of the calling application to use <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

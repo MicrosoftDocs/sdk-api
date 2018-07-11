@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_filter_data.htm
 old-project: medfound
 ms.assetid: 2f70222d-f87a-49a5-8da5-15dfa2807cd7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: DXVAHD_STREAM_STATE_FILTER_DATA, DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_FILTER_DATA, dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA, mf.dxvahd_stream_state_filter_data
 ms.prod: windows
 ms.technology: windows-sdk

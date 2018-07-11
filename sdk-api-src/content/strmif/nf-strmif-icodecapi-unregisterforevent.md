@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_unregisterforevent.htm
 old-project: DirectShow
 ms.assetid: d6f48379-664a-498f-8872-2272778588db
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: ICodecAPI interface [DirectShow],UnregisterForEvent method, ICodecAPI.UnregisterForEvent, ICodecAPI::UnregisterForEvent, ICodecAPIUnregisterForEvent, UnregisterForEvent, UnregisterForEvent method [DirectShow], UnregisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_unregisterforevent, strmif/ICodecAPI::UnregisterForEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertificatePolicy::Initialize
 author: windows-sdk-content
 description: Initializes the object from an object identifier (OID).
 old-location: security\icertificatepolicy_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 995b344b-ed1f-47e4-a7c6-0d638ed9ec23
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

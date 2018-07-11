@@ -7,7 +7,7 @@ old-location: opc\iopcrelationship_gettargetmode.htm
 old-project: OPC
 ms.assetid: 5fb103c9-cb73-46b3-9102-6811d6673faf
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetTargetMode, GetTargetMode method [Open Packaging Conventions], GetTargetMode method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetMode method, IOpcRelationship.GetTargetMode, IOpcRelationship::GetTargetMode, msopc/IOpcRelationship::GetTargetMode, opc.iopcrelationship_gettargetmode
 ms.prod: windows
 ms.technology: windows-sdk

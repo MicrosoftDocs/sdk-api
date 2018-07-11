@@ -4,10 +4,10 @@ title: Int32x32To64 macro
 author: windows-sdk-content
 description: Multiplies two signed 32-bit integers, returning a signed 64-bit integer result.
 old-location: winprog\int32x32to64.htm
-old-project: WinProg
+old-project: winprog
 ms.assetid: 5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: Int32x32To64, Int32x32To64 macro [Windows API], _win32_int32x32to64, winnt/Int32x32To64, winprog.int32x32to64
 ms.prod: windows
 ms.technology: windows-sdk

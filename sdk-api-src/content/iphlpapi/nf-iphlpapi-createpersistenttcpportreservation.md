@@ -4,10 +4,10 @@ title: CreatePersistentTcpPortReservation function
 author: windows-sdk-content
 description: Creates a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\createpersistenttcpportreservation.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
 ms.prod: windows
 ms.technology: windows-sdk

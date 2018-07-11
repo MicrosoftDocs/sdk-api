@@ -7,7 +7,7 @@ old-location: dataxchg\packddelparam.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\packddelparam.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackDDElParam, _win32_packddelparam_cpp, dataxchg.packddelparam, dde/PackDDElParam, winui._win32_packddelparam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
 
 
 
@@ -120,7 +120,7 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649004(v=VS.85).aspx">FreeDDElParam</a>
+<a href="https://msdn.microsoft.com/166cd1ed-2885-4275-8d92-76ae5344dd92">FreeDDElParam</a>
 
 
 
@@ -128,11 +128,11 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://msdn.microsoft.com/069ac8ee-3d92-4969-8c6b-78a8a0c76721">ReuseDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a>
+<a href="https://msdn.microsoft.com/a7da276f-0e29-4abc-86cf-ac1fd23d84b0">UnpackDDElParam</a>
  
 
  

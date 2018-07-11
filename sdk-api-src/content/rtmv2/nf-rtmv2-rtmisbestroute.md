@@ -4,10 +4,10 @@ title: RtmIsBestRoute function
 author: windows-sdk-content
 description: The RtmIsBestRoute function returns the set of views in which the specified route is the best route to a destination.
 old-location: rras\rtmisbestroute.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
 ms.prod: windows
 ms.technology: windows-sdk

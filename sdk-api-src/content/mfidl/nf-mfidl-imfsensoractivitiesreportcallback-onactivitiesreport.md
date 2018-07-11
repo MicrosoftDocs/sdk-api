@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitiesreportcallback_onactivitiesreport.htm
 old-project: medfound
 ms.assetid: B4D2332C-757F-4A2A-A12B-81BB503B02A4
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnActivitiesReport method, IMFSensorActivitiesReportCallback.OnActivitiesReport, IMFSensorActivitiesReportCallback::OnActivitiesReport, OnActivitiesReport, OnActivitiesReport method [Media Foundation], OnActivitiesReport method [Media Foundation],IMFSensorActivitiesReportCallback interface, mf.imfsensoractivitiesreportcallback_onactivitiesreport, mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport
 ms.prod: windows
 ms.technology: windows-sdk

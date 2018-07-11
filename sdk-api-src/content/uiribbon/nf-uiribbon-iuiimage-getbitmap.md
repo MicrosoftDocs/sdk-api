@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiimage_getbitmap.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\getbitmap.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: GetBitmap, GetBitmap method [Windows Ribbon], GetBitmap method [Windows Ribbon],IUIImage interface, IUIImage interface [Windows Ribbon],GetBitmap method, IUIImage.GetBitmap, IUIImage::GetBitmap, scenicintent_IUIImage_GetBitmap, uiribbon/IUIImage::GetBitmap, windowsribbon.windowsribbon_iuiimage_getbitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>IUIImage::GetBitmap</b> is called on image property callback triggered by <a href="https://msdn.microsoft.com/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>. 
+<b>IUIImage::GetBitmap</b> is called on image property callback triggered by <a href="https://msdn.microsoft.com/6f6f6815-5523-42d9-a6b2-a21dd26756c0">InvalidateUICommand</a>. 
 
 
 
@@ -92,15 +92,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a>
+<a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371365(v=VS.85).aspx">IUIImageFromBitmap</a>
+<a href="https://msdn.microsoft.com/f2b98d96-895e-40aa-9969-98bf1c0c8e5f">IUIImageFromBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

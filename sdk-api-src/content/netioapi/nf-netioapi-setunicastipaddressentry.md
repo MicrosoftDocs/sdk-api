@@ -4,10 +4,10 @@ title: SetUnicastIpAddressEntry function
 author: windows-sdk-content
 description: Sets the properties of an existing unicast IP address entry on the local computer.
 old-location: iphlp\setunicastipaddressentry.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 906a3895-2e42-4bed-90a3-7c10487d76cb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: SetUnicastIpAddressEntry, SetUnicastIpAddressEntry function [IP Helper], iphlp.setunicastipaddressentry, netioapi/SetUnicastIpAddressEntry
 ms.prod: windows
 ms.technology: windows-sdk

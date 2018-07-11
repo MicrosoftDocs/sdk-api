@@ -4,10 +4,10 @@ title: ClusterGroupSetEnum function
 author: windows-sdk-content
 description: Returns the next enumerable object.
 old-location: mscs\clustergroupcollectionenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterGroupCollectionEnum, ClusterGroupCollectionEnum function [Failover Cluster], ClusterGroupSetEnum, clusapi/ClusterGroupCollectionEnum, mscs.clustergroupcollectionenum
 ms.prod: windows
 ms.technology: windows-sdk

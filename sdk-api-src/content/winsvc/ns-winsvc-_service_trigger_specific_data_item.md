@@ -4,10 +4,10 @@ title: "_SERVICE_TRIGGER_SPECIFIC_DATA_ITEM"
 author: windows-sdk-content
 description: Contains trigger-specific data for a service trigger event.
 old-location: base\service_trigger_specific_data_item.htm
-old-project: Services
+old-project: services
 ms.assetid: 670e6c49-bbc0-4af6-9e47-6c89801ebb45
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: "*PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure pointer, SERVICE_TRIGGER_DATA_TYPE_BINARY, SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ALL, SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ANY, SERVICE_TRIGGER_DATA_TYPE_LEVEL, SERVICE_TRIGGER_DATA_TYPE_STRING, SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure, _SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, base.service_trigger_specific_data_item, winsvc/PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getdecoderinfo.htm
 old-project: wic
 ms.assetid: 45bcdcda-c45a-4646-a511-3a16d3fda262
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetDecoderInfo, GetDecoderInfo method [Windows Imaging Component], GetDecoderInfo method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetDecoderInfo method, IWICBitmapDecoder.GetDecoderInfo, IWICBitmapDecoder::GetDecoderInfo, _wic_codec_iwicbitmapdecoder_getdecoderinfo, wic._wic_codec_iwicbitmapdecoder_getdecoderinfo, wincodec/IWICBitmapDecoder::GetDecoderInfo
 ms.prod: windows
 ms.technology: windows-sdk

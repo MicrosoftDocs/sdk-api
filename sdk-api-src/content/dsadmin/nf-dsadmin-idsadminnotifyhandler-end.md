@@ -4,10 +4,10 @@ title: IDsAdminNotifyHandler::End
 author: windows-sdk-content
 description: The IDsAdminNotifyHandler::End method is called after the notification event has occurred. This method is called even if the notification process is canceled.
 old-location: ad\idsadminnotifyhandler_end.htm
-old-project: AD
+old-project: ad
 ms.assetid: 6ff92b54-fa2c-4f45-8f40-e9c884e9cf7e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: End, End method [Active Directory], End method [Active Directory],IDsAdminNotifyHandler interface, IDsAdminNotifyHandler interface [Active Directory],End method, IDsAdminNotifyHandler.End, IDsAdminNotifyHandler::End, _glines_idsadminnotifyhandler_end, ad.idsadminnotifyhandler__end, ad.idsadminnotifyhandler_end, dsadmin/IDsAdminNotifyHandler::End
 ms.prod: windows
 ms.technology: windows-sdk

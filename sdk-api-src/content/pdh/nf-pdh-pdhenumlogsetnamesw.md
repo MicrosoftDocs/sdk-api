@@ -4,10 +4,10 @@ title: PdhEnumLogSetNamesW function
 author: windows-sdk-content
 description: Enumerates the names of the log sets within the DSN.
 old-location: perf\pdhenumlogsetnames.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
 ms.prod: windows
 ms.technology: windows-sdk

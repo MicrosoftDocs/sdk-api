@@ -4,10 +4,10 @@ title: IDownloadProgress
 author: windows-sdk-content
 description: Represents the progress of an asynchronous download operation.
 old-location: wua\idownloadprogress.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 773de760-5fde-4975-ba8d-d20b3affb4a7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IDownloadProgress, IDownloadProgress interface [Windows Update Agent], IDownloadProgress interface [Windows Update Agent],described, wua.idownloadprogress, wuapi/IDownloadProgress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Represents the progress of an asynchronous download operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgress</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDownloadProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDownloadProgress</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IDownloadProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

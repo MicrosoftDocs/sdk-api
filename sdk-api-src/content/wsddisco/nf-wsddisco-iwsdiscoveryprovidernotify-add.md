@@ -4,10 +4,10 @@ title: IWSDiscoveryProviderNotify::Add
 author: windows-sdk-content
 description: Provides information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
 old-location: ncd\iwsdiscoveryprovidernotify_add.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 4e36157f-444d-4e59-bc30-c6def9c51cea
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: Add, Add method, Add method,IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,Add method, IWSDiscoveryProviderNotify.Add, IWSDiscoveryProviderNotify::Add, ncd.iwsdiscoveryprovidernotify_add, wsddisco/IWSDiscoveryProviderNotify::Add
 ms.prod: windows
 ms.technology: windows-sdk

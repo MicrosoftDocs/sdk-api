@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetFlags
 author: windows-sdk-content
 description: Sets the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_setflags.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 640ba3c7-ed9d-4c4c-82fd-34fc777172c2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetFlags method, IScheduledWorkItem.SetFlags, IScheduledWorkItem::SetFlags, SetFlags, SetFlags method [Task Scheduler], SetFlags method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setflags, mstask/IScheduledWorkItem::SetFlags, taskschd.ischeduledworkitem_setflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the flags that modify the behavior of any type of <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
+Sets the flags that modify the behavior of any type of <a href="w.htm">work item</a>.
 
 
 ## -parameters
@@ -121,13 +121,13 @@ The work item causes the system to be resumed, or awakened, if the system is run
 
 #### TASK_FLAG_KILL_ON_IDLE_END
 
-The work item terminates if the computer makes an idle to non-idle transition while the work item is running. The computer is not considered idle until the <b>IdleWait</b> triggers' time elapses with no user input. For information regarding idle triggers, see <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">Idle Trigger</a>.
+The work item terminates if the computer makes an idle to non-idle transition while the work item is running. The computer is not considered idle until the <b>IdleWait</b> triggers' time elapses with no user input. For information regarding idle triggers, see <a href="i.htm">Idle Trigger</a>.
 
 
 
 #### TASK_FLAG_RESTART_ON_IDLE_RESUME
 
-The work item starts again if the computer makes a non-idle to idle transition before all the work item's <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task_triggers</a> elapse. (Use this flag in conjunction with TASK_FLAG_KILL_ON_IDLE_END.)
+The work item starts again if the computer makes a non-idle to idle transition before all the work item's <a href="t.htm">task_triggers</a> elapse. (Use this flag in conjunction with TASK_FLAG_KILL_ON_IDLE_END.)
 
 
 

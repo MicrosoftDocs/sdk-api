@@ -4,10 +4,10 @@ title: IVdsDisk2
 author: windows-sdk-content
 description: Provides a method to set the SAN mode of a disk to offline or online.
 old-location: base\ivdsdisk2.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 9fb8a08e-412d-415a-aa27-cc0180599903
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsDisk2, IVdsDisk2 interface, IVdsDisk2 interface,described, base.ivdsdisk2, vds/IVdsDisk2
 ms.prod: windows
 ms.technology: windows-sdk

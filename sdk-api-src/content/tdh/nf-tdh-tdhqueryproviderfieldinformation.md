@@ -4,10 +4,10 @@ title: TdhQueryProviderFieldInformation function
 author: windows-sdk-content
 description: Retrieves information for the specified field from the event descriptions for those field values that match the given value.
 old-location: etw\tdhqueryproviderfieldinformation_func.htm
-old-project: ETW
+old-project: etw
 ms.assetid: ca3c1519-0b86-4bdb-b027-9c662df5466e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation function [ETW], etw.tdhqueryproviderfieldinformation_func, tdh.tdhqueryproviderfieldinformation_func, tdh/TdhQueryProviderFieldInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmclientconnections2_getclientinfo.htm
 old-project: wmformat
 ms.assetid: 39731e6a-cfd7-48c5-9107-bf5373dfeb4a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format],IWMClientConnections2 interface, IWMClientConnections2 interface [windows Media Format],GetClientInfo method, IWMClientConnections2.GetClientInfo, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
 ms.prod: windows
 ms.technology: windows-sdk

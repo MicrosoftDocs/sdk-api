@@ -7,7 +7,7 @@ old-location: cloudapi\cfhydrateplaceholder.htm
 old-project: cfApi
 ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder
 ms.prod: windows
 ms.technology: windows-sdk

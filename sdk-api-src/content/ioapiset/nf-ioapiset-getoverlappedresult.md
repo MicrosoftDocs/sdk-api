@@ -4,10 +4,10 @@ title: GetOverlappedResult function
 author: windows-sdk-content
 description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device.
 old-location: base\getoverlappedresult.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,8 @@ Retrieves the results of an overlapped operation on the specified file, named pi
 ### -param hFile [in]
 
 A handle to the file, named pipe, or communications device. This is the same handle that was specified when the overlapped operation was started by a call to the 
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>, 
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>, 
+<a href="base.readfile">ReadFile</a>, 
+<a href="base.writefile">WriteFile</a>, 
 <a href="https://msdn.microsoft.com/50f6680f-900e-4411-a849-ec9a911c9e32">ConnectNamedPipe</a>, 
 <a href="https://msdn.microsoft.com/79afcb18-babb-453e-8618-81b43ecb24c4">TransactNamedPipe</a>, 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, or 
@@ -139,7 +139,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa363791(v=VS.85).aspx">CancelIo</a>
+<a href="base.cancelio">CancelIo</a>
 
 
 
@@ -171,7 +171,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -187,7 +187,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

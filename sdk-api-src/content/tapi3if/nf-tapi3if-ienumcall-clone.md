@@ -4,10 +4,10 @@ title: IEnumCall::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcall_clone.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 738ee6c6-f287-4c20-a179-6950e7af5591
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCall interface, IEnumCall interface [TAPI 2.2],Clone method, IEnumCall.Clone, IEnumCall::Clone, _tapi3_ienumcall_clone, tapi3.ienumcall_clone, tapi3if/IEnumCall::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/418c1005-98f0-406f-a85c-c08adb269b9f">IEnumCall</a> interface returned by <b>IEnumCall::Clone</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/418c1005-98f0-406f-a85c-c08adb269b9f">IEnumCall</a> interface returned by <b>IEnumCall::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumCall</b> interface to free resources associated with it.
 
 

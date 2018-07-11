@@ -4,10 +4,10 @@ title: "_MIB_TCPROW_LH"
 author: windows-sdk-content
 description: Contains information that descibes an IPv4 TCP connection.
 old-location: mib\mib_tcprow.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 36364854-caa8-4652-be8e-f741b36d9fd7
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_TCPROW, *PMIB_TCPROW_LH, MIB_TCPROW, MIB_TCPROW structure [MIB], MIB_TCPROW_LH, MIB_TCPROW_W2K, MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW, PMIB_TCPROW structure pointer [MIB], _MIB_TCPROW_LH, _mpr_mib_tcprow, iprtrmib/MIB_TCPROW, iprtrmib/PMIB_TCPROW, mib.mib_tcprow, rras.mib_tcprow, tcpmib/MIB_TCPROW, tcpmib/PMIB_TCPROW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -272,7 +272,7 @@ The maximum size of an IP port number is 16 bits, so only the lower 16 bits shou
 The <a href="https://msdn.microsoft.com/e90c5aa0-3126-489b-af44-bf86cb45a6d1">GetTcpTable</a>
 			function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structure. 
 
-An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="https://msdn.microsoft.com/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a> function.
+An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="_iphlp_settcpentry">SetTcpEntry</a> function.
 
   The <b>dwState</b> member indicates the state of the TCP entry in a TCP state diagram. A TCP connection progresses through a series of states during its
   lifetime.  The states are:  LISTEN, SYN-SENT, SYN-RECEIVED,
@@ -524,7 +524,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a>
+<a href="_iphlp_settcpentry">SetTcpEntry</a>
 
 
 

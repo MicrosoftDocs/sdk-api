@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM
 author: windows-sdk-content
 description: Enumerates a resource type's possible owner nodes or resources.
 old-location: mscs\clusterresourcetypeenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM callback function [Failover Cluster], _wolf_clusterresourcetypeenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_ENUM, mscs.clusterresourcetypeenum
 ms.prod: windows
 ms.technology: windows-sdk

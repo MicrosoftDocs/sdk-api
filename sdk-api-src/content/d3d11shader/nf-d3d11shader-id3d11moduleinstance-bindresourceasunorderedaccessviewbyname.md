@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance_bindresourceasunorderedaccessviewb
 old-project: direct3d11
 ms.assetid: B9A9BA35-7CAB-411D-8168-B126CB8C3139
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: BindResourceAsUnorderedAccessViewByName, BindResourceAsUnorderedAccessViewByName method [Direct3D 11], BindResourceAsUnorderedAccessViewByName method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceAsUnorderedAccessViewByName method, ID3D11ModuleInstance.BindResourceAsUnorderedAccessViewByName, ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessViewByName, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessviewbyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The number of slots for rebinding.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns:
 

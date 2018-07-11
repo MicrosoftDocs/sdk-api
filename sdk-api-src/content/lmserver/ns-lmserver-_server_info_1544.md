@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1544"
 author: windows-sdk-content
 description: The SERVER_INFO_1544 structure specifies the initial number of tree connections to be allocated in the connection table.
 old-location: netmgmt\server_info_1544_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 11a985b0-b092-44f0-83b9-4628a01db00e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSERVER_INFO_1544, *PSERVER_INFO_1544, LPSERVER_INFO_1544, LPSERVER_INFO_1544 structure pointer [Network Management], PSERVER_INFO_1544, PSERVER_INFO_1544 structure pointer [Network Management], SERVER_INFO_1544, SERVER_INFO_1544 structure [Network Management], _SERVER_INFO_1544, _win32_server_info_1544_str, lmserver/LPSERVER_INFO_1544, lmserver/PSERVER_INFO_1544, lmserver/SERVER_INFO_1544, netmgmt.server_info_1544_str"
 ms.prod: windows
 ms.technology: windows-sdk

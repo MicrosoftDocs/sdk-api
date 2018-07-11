@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::get_GroupID
 author: windows-sdk-content
 description: Use the get_GroupID method to retrieve the group's identifier.
 old-location: bits\ibackgroundcopygroup_get_groupid.htm
-old-project: Bits
+old-project: bits
 ms.assetid: fde4dfb9-002b-436e-96c1-a893a95dcacc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],get_GroupID method, IBackgroundCopyGroup.get_GroupID, IBackgroundCopyGroup::get_GroupID, bits.ibackgroundcopygroup_get_groupid, get_GroupID, get_GroupID method [BITS], get_GroupID method [BITS],IBackgroundCopyGroup interface, qmgr/IBackgroundCopyGroup::get_GroupID
 ms.prod: windows
 ms.technology: windows-sdk

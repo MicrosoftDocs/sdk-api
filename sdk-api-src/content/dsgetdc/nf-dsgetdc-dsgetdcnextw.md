@@ -4,10 +4,10 @@ title: DsGetDcNextW function
 author: windows-sdk-content
 description: Retrieves the next domain controller in a domain controller enumeration operation.
 old-location: ad\dsgetdcnext.htm
-old-project: AD
+old-project: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
 ms.prod: windows
 ms.technology: windows-sdk

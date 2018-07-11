@@ -7,7 +7,7 @@ old-location: gdi\extfloodfill.htm
 old-project: gdi
 ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ Only memory device contexts and devices that support raster-display operations s
 
 #### Examples
 
-For an example, see "Adding Lines and Graphs to a Menu" in <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Adding Lines and Graphs to a Menu" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

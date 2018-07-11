@@ -4,10 +4,10 @@ title: ISClusNodes::get_Count
 author: windows-sdk-content
 description: Number of objects in the ClusNodes collection.
 old-location: mscs\clusnodes_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4447f636-f1be-4175-ac26-0c0beb4dac01
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNodes collection [Failover Cluster],Count property, ClusNodes.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusNodes collection, ISClusNodes.get_Count, ISClusNodes::get_Count, _wolf_clusnodes.count, get_Count, mscs.clusnodes_count
 ms.prod: windows
 ms.technology: windows-sdk

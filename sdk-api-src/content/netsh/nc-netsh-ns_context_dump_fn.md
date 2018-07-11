@@ -4,10 +4,10 @@ title: NS_CONTEXT_DUMP_FN
 author: windows-sdk-content
 description: Is the dump function for helpers.
 old-location: netshell\ns_context_dump_fn.htm
-old-project: NetShell
+old-project: netshell
 ms.assetid: 4833c65d-1de3-4a02-9489-6e82a6145e28
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: NS_CONTEXT_DUMP_FN, NS_CONTEXT_DUMP_FN callback, NS_CONTEXT_DUMP_FN callback function [NetShell], _netsh_ns_context_dump_fn, netsh/NS_CONTEXT_DUMP_FN, netshell.ns_context_dump_fn
 ms.prod: windows
 ms.technology: windows-sdk

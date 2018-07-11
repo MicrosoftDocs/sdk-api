@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_uav_flags.htm
 old-project: direct3d12
 ms.assetid: D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_BUFFER_UAV_FLAGS, D3D12_BUFFER_UAV_FLAGS enumeration, D3D12_BUFFER_UAV_FLAG_NONE, D3D12_BUFFER_UAV_FLAG_RAW, d3d12/D3D12_BUFFER_UAV_FLAGS, d3d12/D3D12_BUFFER_UAV_FLAG_NONE, d3d12/D3D12_BUFFER_UAV_FLAG_RAW, direct3d12.d3d12_buffer_uav_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Identifies unordered-access view options for a buffer resource.
 ### -field D3D12_BUFFER_UAV_FLAG_RAW
 
 
-            Resource contains raw, unstructured data.  Requires the UAV format to be <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R32_TYPELESS</a>.
+            Resource contains raw, unstructured data.  Requires the UAV format to be <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_R32_TYPELESS</a>.
             For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Raw Views of Buffers</a>.
           
 

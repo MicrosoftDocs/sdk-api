@@ -4,10 +4,10 @@ title: IDsAdminNotifyHandler::Begin
 author: windows-sdk-content
 description: The IDsAdminNotifyHandler::Begin method is called when an event that the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when IDsAdminNotifyHandler::Initialize is called.
 old-location: ad\idsadminnotifyhandler_begin.htm
-old-project: AD
+old-project: ad
 ms.assetid: 443fe344-6545-45bd-8e2f-85347505d407
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: Begin, Begin method [Active Directory], Begin method [Active Directory],IDsAdminNotifyHandler interface, DSA_NOTIFY_DEL, DSA_NOTIFY_FLAG_ADDITIONAL_DATA, DSA_NOTIFY_FLAG_FORCE_ADDITIONAL_DATA, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Begin method, IDsAdminNotifyHandler.Begin, IDsAdminNotifyHandler::Begin, _glines_idsadminnotifyhandler_begin, ad.idsadminnotifyhandler__begin, ad.idsadminnotifyhandler_begin, dsadmin/IDsAdminNotifyHandler::Begin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,12 +89,12 @@ One or more properties of an object is  modified.
 
 ### -param pArg1 [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that supports the <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> clipboard format. The contents of the data object will vary depending on  the value of <i>uEvent</i>. For more information, see the Remarks section.
+Pointer to an <a href="_ole_idataobject">IDataObject</a> interface that supports the <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> clipboard format. The contents of the data object will vary depending on  the value of <i>uEvent</i>. For more information, see the Remarks section.
 
 
 ### -param pArg2 [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that supports the <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> clipboard format. The value of this parameter and the contents of the data object will vary depending on the value of <i>uEvent</i>. For more information, see the Remarks section.
+Pointer to an <a href="_ole_idataobject">IDataObject</a> interface that supports the <a href="https://msdn.microsoft.com/9be96d2a-6545-4986-b47b-1eab6a02ac26">CFSTR_DSOBJECTNAMES</a> clipboard format. The value of this parameter and the contents of the data object will vary depending on the value of <i>uEvent</i>. For more information, see the Remarks section.
 
 
 ### -param puFlags [out]
@@ -116,7 +116,7 @@ If this flag is set, the entry  for this notification handler in the confirmatio
 
 ### -param pBstr [out]
 
-Pointer to a <b>BSTR</b> that receives a string that contains  the name and/or description of the notification handler. This string  is displayed in the confirmation dialog box. This string must be allocated by calling the <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller must free this string when it is no longer required. If this parameter receives <b>NULL</b> or an empty string, the notification handler is not added to the confirmation dialog box and <a href="https://msdn.microsoft.com/ac0b9da5-b0e3-4280-ae9c-602e28c907b1">IDsAdminNotifyHandler::Notify</a> is not called.
+Pointer to a <b>BSTR</b> that receives a string that contains  the name and/or description of the notification handler. This string  is displayed in the confirmation dialog box. This string must be allocated by calling the <a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> function. The caller must free this string when it is no longer required. If this parameter receives <b>NULL</b> or an empty string, the notification handler is not added to the confirmation dialog box and <a href="https://msdn.microsoft.com/ac0b9da5-b0e3-4280-ae9c-602e28c907b1">IDsAdminNotifyHandler::Notify</a> is not called.
 
 
 ## -returns
@@ -176,7 +176,7 @@ The value and contents of <i>pArg1</i> and <i>pArg2</i> vary depending upon the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
@@ -188,7 +188,7 @@ The value and contents of <i>pArg1</i> and <i>pArg2</i> vary depending upon the 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>
  
 
  

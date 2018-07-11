@@ -4,10 +4,10 @@ title: CryptVerifyCertificateSignature function
 author: windows-sdk-content
 description: Verifies the signature of a certificate, certificate revocation list (CRL), or certificate request by using the public key in a CERT_PUBLIC_KEY_INFO structure.
 old-location: security\cryptverifycertificatesignature.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ac13a1dd-3ca9-470e-8d8f-d79d7d057f45
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptVerifyCertificateSignature, CryptVerifyCertificateSignature function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignature, security.cryptverifycertificatesignature, wincrypt/CryptVerifyCertificateSignature
 ms.prod: windows
 ms.technology: windows-sdk

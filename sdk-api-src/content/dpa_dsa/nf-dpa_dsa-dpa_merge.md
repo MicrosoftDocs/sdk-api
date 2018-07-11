@@ -4,10 +4,10 @@ title: DPA_Merge function
 author: windows-sdk-content
 description: Combines the contents of two dynamic pointer arrays (DPAs).
 old-location: controls\DPA_Merge.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_merge.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DPAM_INTERSECT, DPAM_NORMAL, DPAM_SORTED, DPAM_UNION, DPA_Merge, DPA_Merge function [Windows Controls], _shell_DPA_Merge, _shell_DPA_Merge_cpp, controls.DPA_Merge, controls._shell_DPA_Merge, dpa_dsa/DPA_Merge
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ The arrays are presorted; skip sorting. If this flag is not set, the arrays are 
 </dl>
 </td>
 <td width="60%">
-The final array consists of all of the elements originally present in <i>hdpaDest</i>. If any of those elements are also found in <i>hdpaSrc</i>, those elements are merged in the final array. The <a href="https://msdn.microsoft.com/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a> callback function is called with the DPAMM_MERGE message.
+The final array consists of all of the elements originally present in <i>hdpaDest</i>. If any of those elements are also found in <i>hdpaSrc</i>, those elements are merged in the final array. The <a href="https://msdn.microsoft.com/88b6e213-d39e-4c48-acd4-772e164ab175">PFNDPAMERGE</a> callback function is called with the DPAMM_MERGE message.
 
                         
 
@@ -118,7 +118,7 @@ When this flag is set, the final size of the array at <i>hdpaDest</i> is the sam
 </dl>
 </td>
 <td width="60%">
-The final array is the union of all elements in both arrays. Elements found in both arrays are merged in the final array. Elements found in only one array or the other are added as found. When this flag is set, the <a href="https://msdn.microsoft.com/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_INSERT message. 
+The final array is the union of all elements in both arrays. Elements found in both arrays are merged in the final array. Elements found in only one array or the other are added as found. When this flag is set, the <a href="https://msdn.microsoft.com/88b6e213-d39e-4c48-acd4-772e164ab175">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_INSERT message. 
 
                         
 
@@ -133,7 +133,7 @@ The final size of the array is at least the size of the larger of <i>hdpaDest</i
 </dl>
 </td>
 <td width="60%">
-Only elements found in both <i>hdpaSrc</i> and <i>hdpaDest</i> are merged to form the final array. When this flag is set, the <a href="https://msdn.microsoft.com/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_DELETE message. 
+Only elements found in both <i>hdpaSrc</i> and <i>hdpaDest</i> are merged to form the final array. When this flag is set, the <a href="https://msdn.microsoft.com/88b6e213-d39e-4c48-acd4-772e164ab175">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_DELETE message. 
 
                         
 
@@ -154,9 +154,9 @@ The <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PF
 
 ### -param pfnMerge [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/88b6e213-d39e-4c48-acd4-772e164ab175">PFNDPAMERGE</a></b>
 
-The <a href="https://msdn.microsoft.com/library/Bb775721(v=VS.85).aspx">PFNDPAMERGE</a> callback function that merges the contents when an element is found in both DPAs and is found to be the same item by <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a>.
+The <a href="https://msdn.microsoft.com/88b6e213-d39e-4c48-acd4-772e164ab175">PFNDPAMERGE</a> callback function that merges the contents when an element is found in both DPAs and is found to be the same item by <a href="https://msdn.microsoft.com/b2b03db5-e595-4778-b51a-0087d663b026">PFNDPACOMPARE</a>.
 
 
 ### -param lParam [in]

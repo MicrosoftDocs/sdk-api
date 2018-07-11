@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorenumerator_clone.htm
 old-project: OPC
 ms.assetid: 3eaf4b51-201d-43de-a9b7-408306992629
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipSelectorEnumerator.Clone, IOpcRelationshipSelectorEnumerator::Clone, msopc/IOpcRelationshipSelectorEnumerator::Clone, opc.iopcrelationshipselectorenumerator_clone
 ms.prod: windows
 ms.technology: windows-sdk

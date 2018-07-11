@@ -4,10 +4,10 @@ title: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency that matches a specified resource class. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyclass.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7c2bd24a-8034-4a5f-8218-0a23d5e29b07
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback function [Failover Cluster], _wolf_resutilgetresourcedependencybyclass, mscs.resutilgetresourcedependencybyclass, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Do not call  <i>ResUtilGetResourceDependencyByClass</i> from any resource DLL en
 
 #### Examples
 
-As the following example illustrates, if you know that resource A depends on a <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
+As the following example illustrates, if you know that resource A depends on a <a href="s_gly.htm">storage class resource</a>, you can use  <i>ResUtilGetResourceDependencyByClass</i> to obtain a handle to the storage class resource without knowing anything else about it.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -4,10 +4,10 @@ title: IOfflineFilesEvents3::TransparentCacheItemNotify
 author: windows-sdk-content
 description: Reports that an action has been performed on a transparently cached item.
 old-location: of\iofflinefilesevents3_transparentcacheitemnotify.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 59bd7a71-0189-4c4d-a737-e6a3f09a533d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],TransparentCacheItemNotify method, IOfflineFilesEvents3.TransparentCacheItemNotify, IOfflineFilesEvents3::TransparentCacheItemNotify, TransparentCacheItemNotify, TransparentCacheItemNotify method [Offline Files], TransparentCacheItemNotify method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::TransparentCacheItemNotify, of.iofflinefilesevents3_transparentcacheitemnotify
 ms.prod: windows
 ms.technology: windows-sdk

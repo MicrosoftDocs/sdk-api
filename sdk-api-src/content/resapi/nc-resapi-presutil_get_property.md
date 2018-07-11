@@ -4,10 +4,10 @@ title: PRESUTIL_GET_PROPERTY
 author: windows-sdk-content
 description: Returns a specified property from the cluster database. The PRESUTIL_GET_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: f1c6f69c-fc64-4e64-9543-449fc8780eef
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_PROPERTY, PRESUTIL_GET_PROPERTY callback, PRESUTIL_GET_PROPERTY callback function [Failover Cluster], _wolf_resutilgetproperty, mscs.resutilgetproperty, resapi/PRESUTIL_GET_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

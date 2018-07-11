@@ -7,7 +7,7 @@ old-location: gdi\setmetargn.htm
 old-project: gdi
 ms.assetid: 79f5dc01-bdec-4844-be94-1f9cf5bfd712
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: SetMetaRgn, SetMetaRgn function [Windows GDI], _win32_SetMetaRgn, gdi.setmetargn, wingdi/SetMetaRgn
 ms.prod: windows
 ms.technology: windows-sdk

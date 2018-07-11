@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_settimeformat.htm
 old-project: DirectShow
 ms.assetid: b6f64f8a-67b8-4297-8f0d-389001fa1681
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetTimeFormat method, IMediaSeeking.SetTimeFormat, IMediaSeeking::SetTimeFormat, IMediaSeekingSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_settimeformat, strmif/IMediaSeeking::SetTimeFormat
 ms.prod: windows
 ms.technology: windows-sdk

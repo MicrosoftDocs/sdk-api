@@ -4,10 +4,10 @@ title: ISdoCollection::Remove
 author: windows-sdk-content
 description: The Remove method removes the specified item from the collection.
 old-location: nps\SDO_isdocollection_remove.htm
-old-project: Nps
+old-project: nps
 ms.assetid: f390377d-b78e-4548-9602-c0eb363765c7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Remove method, ISdoCollection.Remove, ISdoCollection::Remove, Remove, Remove method [Network Policy Server], Remove method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_remove, nps.SDO_isdocollection_remove, sdo.isdocollection_remove, sdoias/ISdoCollection::Remove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pItem [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface that specifies the item to remove.
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface that specifies the item to remove.
 
 This parameter must not be <b>NULL</b>.
 

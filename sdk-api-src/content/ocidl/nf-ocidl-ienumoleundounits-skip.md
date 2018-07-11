@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_skip.htm
 old-project: com
 ms.assetid: 53c5356d-525a-485f-9618-37efe21be687
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Skip method, IEnumOleUndoUnits.Skip, IEnumOleUndoUnits::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_skip, com.ienumoleundounits_skip, ocidl/IEnumOleUndoUnits::Skip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_processinput.htm
 old-project: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
 ms.prod: windows
 ms.technology: windows-sdk

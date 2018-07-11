@@ -4,10 +4,10 @@ title: GetExplicitEntriesFromAclW function
 author: windows-sdk-content
 description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL).
 old-location: security\getexplicitentriesfromacl.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Security], GetExplicitEntriesFromAclA, GetExplicitEntriesFromAclW, _win32_getexplicitentriesfromacl, aclapi/GetExplicitEntriesFromAcl, aclapi/GetExplicitEntriesFromAclA, aclapi/GetExplicitEntriesFromAclW, security.getexplicitentriesfromacl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,7 +142,7 @@ For a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

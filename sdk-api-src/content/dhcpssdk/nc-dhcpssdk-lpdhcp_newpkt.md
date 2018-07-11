@@ -4,10 +4,10 @@ title: LPDHCP_NEWPKT
 author: windows-sdk-content
 description: The DhcpNewPktHook function is called by Microsoft DHCP Server shortly after it receives a DHCP packet slated for processing.
 old-location: dhcp\dhcpnewpkthook.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 2bff8750-aeb2-4164-9a6e-4239a6736beb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, LPDHCP_NEWPKT callback, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
 ms.prod: windows
 ms.technology: windows-sdk

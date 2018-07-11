@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetCanonicalName.htm
 old-project: properties
 ms.assetid: 861c3b48-77cf-4f72-b85f-a6f921571dd7
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Properties], GetCanonicalName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetCanonicalName method, IPropertyDescription.GetCanonicalName, IPropertyDescription::GetCanonicalName, properties.IPropertyDescription_GetCanonicalName, propsys/IPropertyDescription::GetCanonicalName, shell.IPropertyDescription_GetCanonicalName, shell_IPropertyDescription_GetCanonicalName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <i>name</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx">propertyDescription</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>name</i> attribute of the <a href="shell.propdesc_schema_propertyDescription">propertyDescription</a> element in the property's .propdesc file.
 
 
               It is the responsibility of the calling application to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string referred to by <i>ppszName</i> when it is no longer needed.
@@ -95,7 +95,7 @@ The information retrieved by this method comes from the <i>name</i> attribute of
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

@@ -4,10 +4,10 @@ title: IX509PolicyServerListManager::Remove
 author: windows-sdk-content
 description: Removes an IX509PolicyServerUrl object from the collection by index number.
 old-location: security\ix509policyserverlistmanager_remove.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: c2e59087-a62b-4013-9a16-fedd03b2c286
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],Remove method, IX509PolicyServerListManager.Remove, IX509PolicyServerListManager::Remove, Remove, Remove method [Security], Remove method [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::Remove, security.ix509policyserverlistmanager_remove
 ms.prod: windows
 ms.technology: windows-sdk

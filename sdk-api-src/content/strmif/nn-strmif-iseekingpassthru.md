@@ -7,7 +7,7 @@ old-location: dshow\iseekingpassthru.htm
 old-project: DirectShow
 ms.assetid: a22f2723-b44e-4c7e-8508-db5c6af5b1d6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow],described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
 ms.prod: windows
 ms.technology: windows-sdk

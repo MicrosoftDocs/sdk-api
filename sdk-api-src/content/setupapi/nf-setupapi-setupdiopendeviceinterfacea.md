@@ -7,7 +7,7 @@ old-location: devinst\setupdiopendeviceinterface.htm
 old-project: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
 ms.prod: windows
 ms.technology: windows-sdk

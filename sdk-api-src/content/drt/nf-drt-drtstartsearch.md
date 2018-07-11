@@ -4,10 +4,10 @@ title: DrtStartSearch function
 author: windows-sdk-content
 description: The DrtStartSearch function searches the DRT for a key using criteria specified in the DRT_SEARCH_INFO structure.
 old-location: p2p\drtstartsearch.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: d43634d5-eb0a-4f84-9248-977c544db984
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
 ms.prod: windows
 ms.technology: windows-sdk

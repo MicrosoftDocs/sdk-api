@@ -4,10 +4,10 @@ title: ListBox_SelectItemData macro
 author: windows-sdk-content
 description: Searches a list box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.
 old-location: controls\ListBox_SelectItemData.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectitemdata.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListBox_SelectItemData, ListBox_SelectItemData macro [Windows Controls], _win32_ListBox_SelectItemData, _win32_ListBox_SelectItemData_cpp, controls.ListBox_SelectItemData, controls._win32_ListBox_SelectItemData, windowsx/ListBox_SelectItemData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Searches a list box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761327(v=VS.85).aspx">LB_SELECTSTRING</a> message explicitly.
+Searches a list box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/fd443ade-665d-439a-8951-3d9fed50695b">LB_SELECTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The item data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761327(v=VS.85).aspx">LB_SELECTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/fd443ade-665d-439a-8951-3d9fed50695b">LB_SELECTSTRING</a>.
 	
 
 

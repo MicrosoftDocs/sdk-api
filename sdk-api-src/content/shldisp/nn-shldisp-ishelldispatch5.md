@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch5.htm
 old-project: shell
 ms.assetid: 9170340a-0f11-4ec9-877d-fb7fef9888b2
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellDispatch5, IShellDispatch5 object [Windows Shell], IShellDispatch5 object [Windows Shell],described, _shell_IShellDispatch5, shell.IShellDispatch5, shldisp/IShellDispatch5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Displays your open windows in a 3D stack that you can flip through.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

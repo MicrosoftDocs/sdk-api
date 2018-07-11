@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::put_AuthFlags
 author: windows-sdk-content
 description: Specifies and retrieves a value that indicates the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_authflags.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: c59387e3-2160-480a-beef-8e9dae064a1a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AuthFlags property [Security], AuthFlags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],AuthFlags property, IX509PolicyServerUrl.AuthFlags, IX509PolicyServerUrl.put_AuthFlags, IX509PolicyServerUrl::AuthFlags, IX509PolicyServerUrl::get_AuthFlags, IX509PolicyServerUrl::put_AuthFlags, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509PolicyServerUrl::AuthFlags, certenroll/IX509PolicyServerUrl::get_AuthFlags, certenroll/IX509PolicyServerUrl::put_AuthFlags, put_AuthFlags, security.ix509policyserverurl_authflags
 ms.prod: windows
 ms.technology: windows-sdk

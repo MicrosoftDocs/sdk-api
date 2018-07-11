@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_unicode_range.htm
 old-project: DirectWrite
 ms.assetid: 93DC235F-7E61-44CE-A949-8ABBD1D62CFF
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: DWRITE_UNICODE_RANGE, DWRITE_UNICODE_RANGE structure [Direct Write], directwrite.dwrite_unicode_range, dwrite_1/DWRITE_UNICODE_RANGE
 ms.prod: windows
 ms.technology: windows-sdk

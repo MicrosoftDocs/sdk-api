@@ -7,7 +7,7 @@ old-location: automat\varcycmpr8.htm
 old-project: automat
 ms.assetid: 391ace93-7f08-4fa3-a897-1f4012fe631b
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarCyCmpR8, VarCyCmpR8 function [Automation], _oa96_VarCyCmpR8, automat.varcycmpr8, oleauto/VarCyCmpR8
 ms.prod: windows
 ms.technology: windows-sdk

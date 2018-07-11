@@ -61,7 +61,7 @@ The <b>Region::GetRegionScansCount</b> method gets the number of rectangles that
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
 
 Pointer to a matrix that is used to transform the region. 
 
@@ -82,7 +82,7 @@ This method returns an integer that indicates the number of rectangles that appr
 
 
 
-The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://msdn.microsoft.com/library/ms534778(v=VS.85).aspx">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
+The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://msdn.microsoft.com/8a9bfbef-9a9c-40f8-9262-62691ae4362d">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
 
 
 #### Examples
@@ -136,7 +136,7 @@ The following example creates a region from a path and gets a set of rectangles 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
@@ -148,7 +148,7 @@ The following example creates a region from a path and gets a set of rectangles 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534778(v=VS.85).aspx">Region::GetRegionScans Methods</a>
+<a href="https://msdn.microsoft.com/8a9bfbef-9a9c-40f8-9262-62691ae4362d">Region::GetRegionScans Methods</a>
  
 
  

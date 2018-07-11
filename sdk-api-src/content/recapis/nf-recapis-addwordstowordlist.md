@@ -7,7 +7,7 @@ old-location: tablet\addwordstowordlist.htm
 old-project: tablet
 ms.assetid: 8487bdad-c927-44dc-b757-40a0aba285ca
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsToWordList function [Tablet PC], recapis/AddWordsToWordList, tablet.addwordstowordlist
 ms.prod: windows
 ms.technology: windows-sdk

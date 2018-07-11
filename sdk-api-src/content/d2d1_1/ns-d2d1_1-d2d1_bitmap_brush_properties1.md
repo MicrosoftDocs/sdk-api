@@ -4,10 +4,10 @@ title: D2D1_BITMAP_BRUSH_PROPERTIES1
 author: windows-sdk-content
 description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
 old-location: direct2d\d2d1_bitmap_brush_properties1.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 0FECAD03-C35C-4729-9BBE-40DE11B34068
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1_BITMAP_BRUSH_PROPERTIES1, D2D1_BITMAP_BRUSH_PROPERTIES1 structure [Direct2D], d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1, direct2d.d2d1_bitmap_brush_properties1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ A value that describes how the brush vertically tiles those areas that extend pa
 
 ### -field interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a></b>
 
 A value that specifies how the bitmap is interpolated when it is scaled or rotated.
 

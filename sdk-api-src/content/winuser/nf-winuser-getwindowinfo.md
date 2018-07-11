@@ -7,7 +7,7 @@ old-location: winmsg\getwindowinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowinfo.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetWindowInfo, GetWindowInfo function [Windows and Messages], _win32_GetWindowInfo, _win32_getwindowinfo_cpp, winmsg.getwindowinfo, winui._win32_getwindowinfo, winuser/GetWindowInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -77,7 +77,7 @@ A handle to the window whose information is to be retrieved.
 
 Type: <b>PWINDOWINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms632610(v=VS.85).aspx">WINDOWINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(WINDOWINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/c905e2e4-2b8d-453f-9f81-85e67a0d381f">WINDOWINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(WINDOWINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -110,7 +110,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632610(v=VS.85).aspx">WINDOWINFO</a>
+<a href="https://msdn.microsoft.com/c905e2e4-2b8d-453f-9f81-85e67a0d381f">WINDOWINFO</a>
 
 
 

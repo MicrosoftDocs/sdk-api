@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresourcecollection_insertat.htm
 old-project: printdocs
 ms.assetid: 46bb3a49-f875-4b52-98f4-cec475f46019
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMImageResourceCollection.InsertAt, IXpsOMImageResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_insertat, xpsobjectmodel/IXpsOMImageResourceCollection::InsertAt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUPnPAddressFamilyControl::SetAddressFamily
 author: windows-sdk-content
 description: The SetAddressFamily method sets the address family flag of the Device Finder object, which uses this flag to filter the devices found.
 old-location: upnp\iupnpaddressfamilycontrol_setaddressfamily.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPAddressFamilyControl interface [UPnP APIs],SetAddressFamily method, IUPnPAddressFamilyControl.SetAddressFamily, IUPnPAddressFamilyControl::SetAddressFamily, SetAddressFamily, SetAddressFamily method [UPnP APIs], SetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_setaddressfamily, upnp/IUPnPAddressFamilyControl::SetAddressFamily
 ms.prod: windows
 ms.technology: windows-sdk

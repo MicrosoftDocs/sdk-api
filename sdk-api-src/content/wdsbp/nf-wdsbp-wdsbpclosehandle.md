@@ -4,10 +4,10 @@ title: WdsBpCloseHandle function
 author: windows-sdk-content
 description: Closes the specified handle.
 old-location: wds\wdsbpclosehandle.htm
-old-project: Wds
+old-project: wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
 ms.prod: windows
 ms.technology: windows-sdk

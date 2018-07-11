@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession2::get_FrameBuffer
 author: windows-sdk-content
 description: Gets a frame buffer for this session.
 old-location: rdp\irdpsrapisharingsession2_framebuffer.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 2547b317-0c1b-429c-81d4-7cb97e1cc3e0
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: FrameBuffer property [RDP], FrameBuffer property [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],FrameBuffer property, IRDPSRAPISharingSession2.FrameBuffer, IRDPSRAPISharingSession2.get_FrameBuffer, IRDPSRAPISharingSession2::FrameBuffer, IRDPSRAPISharingSession2::get_FrameBuffer, get_FrameBuffer, rdp.irdpsrapisharingsession2_framebuffer, rdpencomapi/IRDPSRAPISharingSession2::FrameBuffer, rdpencomapi/IRDPSRAPISharingSession2::get_FrameBuffer
 ms.prod: windows
 ms.technology: windows-sdk

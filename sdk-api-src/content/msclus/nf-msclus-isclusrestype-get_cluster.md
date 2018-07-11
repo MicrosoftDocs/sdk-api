@@ -4,10 +4,10 @@ title: ISClusResType::get_Cluster
 author: windows-sdk-content
 description: Returns the Cluster object associated with the resource type.
 old-location: mscs\clusrestype_cluster.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: bc9808fb-e517-4d59-a506-07abb9cecd4e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResType object [Failover Cluster],Cluster property, ClusResType.Cluster, Cluster property [Failover Cluster], Cluster property [Failover Cluster],ClusResType object, ISClusResType.get_Cluster, ISClusResType::get_Cluster, _wolf_clusrestype.cluster, get_Cluster, mscs.clusrestype_cluster
 ms.prod: windows
 ms.technology: windows-sdk

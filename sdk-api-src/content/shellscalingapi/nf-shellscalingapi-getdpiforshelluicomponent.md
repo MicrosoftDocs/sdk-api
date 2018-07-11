@@ -7,7 +7,7 @@ old-location: shell\getdpiforshelluicomponent.htm
 old-project: shell
 ms.assetid: D5198497-DBD5-439E-809C-A36211C2774C
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetDpiForShellUIComponent, GetDpiForShellUiComponent, GetDpiForShellUiComponent function [Windows Shell], shell.getdpiforshelluicomponent, shellscalingapi/GetDpiForShellUiComponent
 ms.prod: windows
 ms.technology: windows-sdk

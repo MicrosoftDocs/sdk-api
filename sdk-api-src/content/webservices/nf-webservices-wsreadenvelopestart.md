@@ -7,7 +7,7 @@ old-location: wsw\wsreadenvelopestart.htm
 old-project: wsw
 ms.assetid: f2b20e6b-fac0-47b0-8ce9-ad06dc93f0e6
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsReadEnvelopeStart, WsReadEnvelopeStart function [Web Services for Windows], webservices/WsReadEnvelopeStart, wsw.wsreadenvelopestart
 ms.prod: windows
 ms.technology: windows-sdk

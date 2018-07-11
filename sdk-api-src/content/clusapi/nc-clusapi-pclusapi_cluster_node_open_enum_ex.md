@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX
 author: windows-sdk-content
 description: Opens an enumerator that can iterate through the network interfaces or groups that are installed on a node.
 old-location: mscs\clusternodeopenenumex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetConvertStg function
 author: windows-sdk-content
 description: The GetConvertStg function returns the current value of the convert bit for the specified storage object.
 old-location: stg\getconvertstg.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
 ms.prod: windows
 ms.technology: windows-sdk

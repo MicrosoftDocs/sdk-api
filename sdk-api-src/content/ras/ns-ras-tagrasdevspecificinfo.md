@@ -4,10 +4,10 @@ title: tagRASDEVSPECIFICINFO
 author: windows-sdk-content
 description: Used to send a cookie for server validation and bypass point-to-point (PPP) authentication.
 old-location: rras\rasdevspecificinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo, tagRASDEVSPECIFICINFO"
 ms.prod: windows
 ms.technology: windows-sdk

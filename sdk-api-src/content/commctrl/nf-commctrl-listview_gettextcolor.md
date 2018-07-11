@@ -4,10 +4,10 @@ title: ListView_GetTextColor macro
 author: windows-sdk-content
 description: Gets the text color of a list-view control. You can use this macro or send the LVM_GETTEXTCOLOR message explicitly.
 old-location: controls\ListView_GetTextColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettextcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetTextColor, ListView_GetTextColor macro [Windows Controls], _win32_ListView_GetTextColor, _win32_ListView_GetTextColor_cpp, commctrl/ListView_GetTextColor, controls.ListView_GetTextColor, controls._win32_ListView_GetTextColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761079(v=VS.85).aspx">LVM_GETTEXTCOLOR</a> message explicitly. 
+Gets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/51685e61-dd0a-4c21-8c66-31cf72c2b3e4">LVM_GETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters

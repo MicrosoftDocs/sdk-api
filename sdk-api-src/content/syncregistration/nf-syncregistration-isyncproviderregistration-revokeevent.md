@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_revokeevent.htm
 old-project: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
 ms.prod: windows
 ms.technology: windows-sdk

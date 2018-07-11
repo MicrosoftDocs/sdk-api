@@ -4,10 +4,10 @@ title: IBITSExtensionSetup::DisableBITSUploads
 author: windows-sdk-content
 description: Use the DisableBITSUploads method to disable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
 old-location: bits\ibitsextensionsetup_disablebitsuploads.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 3d439054-a751-4f63-9e82-223d1ce9c551
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: DisableBITSUploads, DisableBITSUploads method [BITS], DisableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],DisableBITSUploads method, IBITSExtensionSetup.DisableBITSUploads, IBITSExtensionSetup::DisableBITSUploads, _drz_ibitsextensionsetup_disablebitsuploads, bits.ibitsextensionsetup_disablebitsuploads, bitscfg/IBITSExtensionSetup::DisableBITSUploads
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagHYPOTHESIS
 author: windows-sdk-content
 description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.
 old-location: ndf\hypothesis.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS, tagHYPOTHESIS"
 ms.prod: windows
 ms.technology: windows-sdk

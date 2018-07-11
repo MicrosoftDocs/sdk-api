@@ -4,10 +4,10 @@ title: "_DFS_INFO_6"
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, GUID, time-out, namespace/root/link properties, metadata size, number of targets, and information about each target of the root or link.
 old-location: dfs\dfs_info_6.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: 96a9c5eb-f79f-4577-b320-ebacff84fcc4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPDFS_INFO_6, *PDFS_INFO_6, DFS_INFO_6, DFS_INFO_6 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_6, LPDFS_INFO_6 structure pointer [Distributed File System], PDFS_INFO_6, PDFS_INFO_6 structure pointer [Distributed File System], _DFS_INFO_6, dfs.dfs_info_6, fs.dfs_info_6, lmdfs/DFS_INFO_6, lmdfs/LPDFS_INFO_6, lmdfs/PDFS_INFO_6, netmgmt.dfs_info_6"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipselectorset.htm
 old-project: OPC
 ms.assetid: cb23cbe2-764c-47e4-bd32-2791ddde9eee
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcRelationshipSelectorSet, IOpcRelationshipSelectorSet interface [Open Packaging Conventions], IOpcRelationshipSelectorSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorSet, opc.iopcrelationshipselectorset
 ms.prod: windows
 ms.technology: windows-sdk

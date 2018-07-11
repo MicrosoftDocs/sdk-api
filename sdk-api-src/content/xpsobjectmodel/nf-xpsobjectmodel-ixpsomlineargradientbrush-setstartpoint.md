@@ -7,7 +7,7 @@ old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm
 old-project: printdocs
 ms.assetid: f2e40d75-c0de-4cba-850d-0c8c328e2950
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMLinearGradientBrush.SetStartPoint, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint
 ms.prod: windows
 ms.technology: windows-sdk

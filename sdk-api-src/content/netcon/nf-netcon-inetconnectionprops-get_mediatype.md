@@ -4,10 +4,10 @@ title: INetConnectionProps::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_mediatype.htm
-old-project: ICS
+old-project: ics
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
 ms.prod: windows
 ms.technology: windows-sdk

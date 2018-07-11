@@ -4,10 +4,10 @@ title: ISignerCertificates::Add
 author: windows-sdk-content
 description: Adds an ISignerCertificate object to the collection.
 old-location: security\isignercertificates_add_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Add method, ISignerCertificates.Add, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
 ms.prod: windows
 ms.technology: windows-sdk

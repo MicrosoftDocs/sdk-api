@@ -2,13 +2,13 @@
 UID: NF:d3dcommon.ID3D10Blob.GetBufferPointer
 title: ID3D10Blob::GetBufferPointer
 author: windows-sdk-content
-description: Get a pointer to the data.
-old-location: direct3d10\id3d10blob_getbufferpointer.htm
-old-project: direct3d10
-ms.assetid: VS|directx_sdk|~\id3d10blob_getbufferpointer.htm
+description: Gets a pointer to the data.
+old-location: direct3d11\id3d10blob_getbufferpointer.htm
+old-project: direct3d11
+ms.assetid: 21ABCED3-388E-41AD-B557-DA8707128B01
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: 85ab9d71-7135-d4b0-3d58-5c56a845845f, GetBufferPointer, GetBufferPointer method [Direct3D 10], GetBufferPointer method [Direct3D 10],ID3D10Blob interface, ID3D10Blob interface [Direct3D 10],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d10.id3d10blob_getbufferpointer
+ms.date: 06/26/2018
+ms.keywords: GetBufferPointer, GetBufferPointer method [Direct3D 11], GetBufferPointer method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d11.id3d10blob_getbufferpointer
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -34,7 +34,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3DCommon.h
+ - d3dcommon.h
 api_name:
  - ID3D10Blob.GetBufferPointer
 product: Windows
@@ -50,7 +50,9 @@ req.irql:
 ## -description
 
 
-Get a pointer to the data.
+
+          Gets a pointer to the data.
+        
 
 
 ## -parameters
@@ -66,7 +68,9 @@ Get a pointer to the data.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPVOID</a></b>
 
-Returns a pointer.
+
+            Returns a pointer.
+          
 
 
 
@@ -76,7 +80,7 @@ Returns a pointer.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173507(v=VS.85).aspx">ID3D10Blob Interface</a>
+<a href="https://msdn.microsoft.com/7E97B8EB-E674-4B90-9B9B-202552DBD95C">ID3D10Blob</a>
  
 
  

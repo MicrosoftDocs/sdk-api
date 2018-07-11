@@ -7,7 +7,7 @@ old-location: cos\ieventobjectcollection_count.htm
 old-project: cossdk
 ms.assetid: eb4558e3-60bb-4fcb-b998-b812e76bd8d0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: Count property [COM+], Count property [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Count property, IEventObjectCollection.Count, IEventObjectCollection.get_Count, IEventObjectCollection::Count, IEventObjectCollection::get_Count, cos.ieventobjectcollection_count, eventsys/IEventObjectCollection::Count, eventsys/IEventObjectCollection::get_Count, get_Count
 ms.prod: windows
 ms.technology: windows-sdk

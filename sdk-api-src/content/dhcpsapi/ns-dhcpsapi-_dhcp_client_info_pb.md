@@ -4,10 +4,10 @@ title: "_DHCP_CLIENT_INFO_PB"
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_PB structure defines information about a DHCPv4 client, including filter status information and any policies that resulted in the IPv4 address assignment.
 old-location: dhcp\dhcp_client_info_pb.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 3ee224fb-650f-4468-848b-960424202ac3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_PB, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLINED, ADDRESS_STATE_DOOM, ADDRESS_STATE_OFFERED, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_RESERVATION_FLAG, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_PB, DHCP_CLIENT_INFO_PB structure [DHCP], FILTER_STATUS_FULL_MATCH_IN_ALLOW_LIST, FILTER_STATUS_FULL_MATCH_IN_DENY_LIST, FILTER_STATUS_NONE, FILTER_STATUS_WILDCARD_MATCH_IN_ALLOW_LIST, FILTER_STATUS_WILDCARD_MATCH_IN_DENY_LIST, LPDHCP_CLIENT_INFO_PB, LPDHCP_CLIENT_INFO_PB structure pointer [DHCP], _DHCP_CLIENT_INFO_PB, dhcp.dhcp_client_info_pb, dhcpsapi/DHCP_CLIENT_INFO_PB, dhcpsapi/LPDHCP_CLIENT_INFO_PB"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcNsGroupMbrInqNextW function
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
 old-location: rpc\rpcnsgroupmbrinqnext.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
 ms.prod: windows
 ms.technology: windows-sdk

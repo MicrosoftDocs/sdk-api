@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport_issameorigin.htm
 old-project: medfound
 ms.assetid: E19294E1-92F5-4387-8C9E-FC0F9F9E46E3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFNetCrossOriginSupport interface [Media Foundation],IsSameOrigin method, IMFNetCrossOriginSupport.IsSameOrigin, IMFNetCrossOriginSupport::IsSameOrigin, IsSameOrigin, IsSameOrigin method [Media Foundation], IsSameOrigin method [Media Foundation],IMFNetCrossOriginSupport interface, mf.imfnetcrossoriginsupport_issameorigin, mfidl/IMFNetCrossOriginSupport::IsSameOrigin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Returns S_OK upon successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="mf.imfnetcrossoriginsupport">IMFNetCrossOriginSupport</a>
  
 
  

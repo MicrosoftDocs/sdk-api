@@ -7,7 +7,7 @@ old-location: base\rtwqlockworkqueue.htm
 old-project: ProcThread
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RasEnumEntriesW function
 author: windows-sdk-content
 description: The RasEnumEntries function lists all entry names in a remote access phone book.
 old-location: rras\rasenumentries.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
 ms.prod: windows
 ms.technology: windows-sdk

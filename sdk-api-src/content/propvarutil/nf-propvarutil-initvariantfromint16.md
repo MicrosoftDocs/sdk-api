@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt16.htm
 old-project: properties
 ms.assetid: 8ccb09bf-a2d2-4637-b8b1-e7abe83b846d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromInt16, InitVariantFromInt16 function [Windows Properties], _shell_InitVariantFromInt16, properties.InitVariantFromInt16, propvarutil/InitVariantFromInt16, shell.InitVariantFromInt16
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>
+<a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776604(v=VS.85).aspx">VariantToInt16</a>
+<a href="shell.VariantToInt16">VariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776607(v=VS.85).aspx">VariantToInt16WithDefault</a>
+<a href="shell.VariantToInt16WithDefault">VariantToInt16WithDefault</a>
  
 
  

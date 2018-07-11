@@ -7,7 +7,7 @@ old-location: shell\UrlCanonicalize.htm
 old-project: shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCanonicalize, UrlCanonicalize function [Windows Shell], UrlCanonicalizeA, UrlCanonicalizeW, _win32_UrlCanonicalize, shell.UrlCanonicalize, shlwapi/UrlCanonicalize, shlwapi/UrlCanonicalizeA, shlwapi/UrlCanonicalizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,7 +174,7 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
  
 
  

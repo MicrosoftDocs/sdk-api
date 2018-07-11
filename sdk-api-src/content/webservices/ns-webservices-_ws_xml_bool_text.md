@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_bool_text.htm
 old-project: wsw
 ms.assetid: 2f40b717-f94e-49d2-b79c-d8a5e86bebe6
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_BOOL_TEXT, WS_XML_BOOL_TEXT structure [Web Services for Windows], _WS_XML_BOOL_TEXT, webservices/WS_XML_BOOL_TEXT, wsw.ws_xml_bool_text
 ms.prod: windows
 ms.technology: windows-sdk

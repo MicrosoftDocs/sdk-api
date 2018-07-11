@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_volumename.htm
 old-project: imapi
 ms.assetid: afb87eb1-5d14-413a-8830-2612920eac3d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_VolumeName method, IFileSystemImage.put_VolumeName, IFileSystemImage::put_VolumeName, imapi.ifilesystemimage_put_volumename, imapi2fs/IFileSystemImage::put_VolumeName, put_VolumeName, put_VolumeName method [IMAPI], put_VolumeName method [IMAPI],IFileSystemImage interface
 ms.prod: windows
 ms.technology: windows-sdk

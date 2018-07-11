@@ -4,10 +4,10 @@ title: ListView_HitTestEx macro
 author: windows-sdk-content
 description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly.
 old-location: controls\ListView_HitTestEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittestex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_HitTestEx, ListView_HitTestEx macro [Windows Controls], _shell_ListView_HitTestEx, _shell_ListView_HitTestEx_cpp, commctrl/ListView_HitTestEx, controls.ListView_HitTestEx, controls._shell_ListView_HitTestEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Determines which list-view item, if any, is at a specified position. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761099(v=VS.85).aspx">LVM_HITTEST</a> message explicitly. 
+Determines which list-view item, if any, is at a specified position. You can use this macro or send the <a href="https://msdn.microsoft.com/81df4ed1-30bd-4b63-9cb9-5163cb7cf52c">LVM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774754(v=VS.85).aspx">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
+A pointer to an <a href="https://msdn.microsoft.com/1906cc92-e6e6-470c-86d5-042578833391">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
 
 
 ## -remarks

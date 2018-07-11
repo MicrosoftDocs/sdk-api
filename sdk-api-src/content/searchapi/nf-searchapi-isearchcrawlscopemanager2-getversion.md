@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager2_GetVersion.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\getversion.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetVersion, GetVersion method [search], GetVersion method [search],ISearchCrawlScopeManager2 interface, ISearchCrawlScopeManager2 interface [search],GetVersion method, ISearchCrawlScopeManager2.GetVersion, ISearchCrawlScopeManager2::GetVersion, _search_ISearchCrawlScopeManager2_GetVersion, search._search_ISearchCrawlScopeManager2_GetVersion, searchapi/ISearchCrawlScopeManager2::GetVersion
 ms.prod: windows
 ms.technology: windows-sdk

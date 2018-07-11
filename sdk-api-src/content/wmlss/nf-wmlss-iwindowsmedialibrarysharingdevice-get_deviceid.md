@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDevice::get_DeviceID
 author: windows-sdk-content
 description: The get_DeviceID method retrieves the device ID.
 old-location: wmlss\IWMLSDeviceget_DeviceID.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: cdf12bcd-3b41-42a6-818b-26294389d4b3
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_DeviceID method, IWindowsMediaLibrarySharingDevice.get_DeviceID, IWindowsMediaLibrarySharingDevice::get_DeviceID, get_DeviceID, get_DeviceID method [Windows Media Library Sharing Services], get_DeviceID method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_DeviceID, wmlss/IWindowsMediaLibrarySharingDevice::get_DeviceID
 ms.prod: windows
 ms.technology: windows-sdk

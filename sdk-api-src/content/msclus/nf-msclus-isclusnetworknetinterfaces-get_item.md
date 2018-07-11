@@ -4,10 +4,10 @@ title: ISClusNetworkNetInterfaces::get_Item
 author: windows-sdk-content
 description: Single network interface from a ClusNetworkNetInterfaces collection.
 old-location: mscs\clusnetworknetinterfaces_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 17eeed87-ca6f-4894-bb4a-eeda8cdcfec9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetworkNetInterfaces collection [Failover Cluster],Item property, ClusNetworkNetInterfaces.Item, ISClusNetworkNetInterfaces.get_Item, ISClusNetworkNetInterfaces::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusNetworkNetInterfaces collection, _wolf_clusnetworknetinterfaces.item, get_Item, mscs.clusnetworknetinterfaces_item
 ms.prod: windows
 ms.technology: windows-sdk

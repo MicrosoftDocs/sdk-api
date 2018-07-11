@@ -4,10 +4,10 @@ title: NetDfsGetInfo function
 author: windows-sdk-content
 description: Retrieves information about a specified Distributed File System (DFS) root or link in a DFS namespace.
 old-location: dfs\netdfsgetinfo.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: bbb2f24d-1c49-4016-a16b-60fde4a78193
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: 1, 100, 150, 2, 3, 4, 5, 50, 6, 7, 8, 9, NetDfsGetInfo, NetDfsGetInfo function [Distributed File System], _win32_netdfsgetinfo, dfs.netdfsgetinfo, fs.netdfsgetinfo, lmdfs/NetDfsGetInfo, netmgmt.netdfsgetinfo
 ms.prod: windows
 ms.technology: windows-sdk

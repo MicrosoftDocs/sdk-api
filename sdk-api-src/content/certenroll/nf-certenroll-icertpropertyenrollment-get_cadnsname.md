@@ -4,10 +4,10 @@ title: ICertPropertyEnrollment::get_CADnsName
 author: windows-sdk-content
 description: Retrieves the Domain Naming System (DNS) name of the certification authority (CA).
 old-location: security\icertpropertyenrollment_cadnsname_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 5b388cfe-e0b1-4b57-bf6c-81f9ab65ffcf
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: CADnsName property [Security], CADnsName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CADnsName property, ICertPropertyEnrollment.CADnsName, ICertPropertyEnrollment.get_CADnsName, ICertPropertyEnrollment::CADnsName, ICertPropertyEnrollment::get_CADnsName, certenroll/ICertPropertyEnrollment::CADnsName, certenroll/ICertPropertyEnrollment::get_CADnsName, get_CADnsName, security.icertpropertyenrollment_cadnsname_property
 ms.prod: windows
 ms.technology: windows-sdk

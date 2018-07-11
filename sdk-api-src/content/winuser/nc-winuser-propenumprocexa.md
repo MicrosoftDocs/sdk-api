@@ -7,7 +7,7 @@ old-location: winmsg\propenumprocex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\propenumprocex.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: PropEnumProcEx, PropEnumProcEx callback, PropEnumProcEx callback function [Windows and Messages], PropEnumProcExA, PropEnumProcExW, _win32_PropEnumProcEx, _win32_propenumprocex_cpp, winmsg.propenumprocex, winui._win32_propenumprocex, winuser/PropEnumProcEx, winuser/PropEnumProcExA, winuser/PropEnumProcExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Application-defined callback function used with the <a href="https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> function. The function receives property entries from a window's property list. The PROPENUMPROCEX type defines a pointer to this callback function. <b>PropEnumProcEx</b> is a placeholder for the application-defined function name. 
+Application-defined callback function used with the <a href="https://msdn.microsoft.com/a23e75be-f403-481e-ad5a-c8c59b632416">EnumPropsEx</a> function. The function receives property entries from a window's property list. The PROPENUMPROCEX type defines a pointer to this callback function. <b>PropEnumProcEx</b> is a placeholder for the application-defined function name. 
 
 
 ## -parameters
@@ -83,7 +83,7 @@ Application-defined callback function used with the <a href="https://msdn.micros
 
 Type: <b>ULONG_PTR</b>
 
-Application-defined data. This is the value that was specified as the <i>lParam</i> parameter of the call to <a href="https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> that initiated the enumeration. 
+Application-defined data. This is the value that was specified as the <i>lParam</i> parameter of the call to <a href="https://msdn.microsoft.com/a23e75be-f403-481e-ad5a-c8c59b632416">EnumPropsEx</a> that initiated the enumeration. 
 
 
 #### - hData [in]
@@ -104,7 +104,7 @@ A handle to the window whose property list is being enumerated.
 
 Type: <b>LPTSTR</b>
 
-The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://msdn.microsoft.com/library/ms633568(v=VS.85).aspx">SetProp</a> function. 
+The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://msdn.microsoft.com/f447edbe-58a1-47e5-8efd-0acb10063ace">SetProp</a> function. 
 
 
 ## -returns
@@ -128,7 +128,7 @@ Return <b>FALSE</b> to stop the property list enumeration.
 The following restrictions apply to this callback function: 
 
 <ul>
-<li>The callback function can call the <a href="https://msdn.microsoft.com/library/ms633567(v=VS.85).aspx">RemoveProp</a> function. However, <b>RemoveProp</b> can remove only the property passed to the callback function through the callback function's parameters. </li>
+<li>The callback function can call the <a href="https://msdn.microsoft.com/02852980-a2fd-47c6-82f3-fccc135e8fb2">RemoveProp</a> function. However, <b>RemoveProp</b> can remove only the property passed to the callback function through the callback function's parameters. </li>
 <li>The callback function should not attempt to add properties. </li>
 </ul>
 
@@ -143,7 +143,7 @@ The following restrictions apply to this callback function:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx">EnumPropsEx</a>
+<a href="https://msdn.microsoft.com/a23e75be-f403-481e-ad5a-c8c59b632416">EnumPropsEx</a>
 
 
 
@@ -151,15 +151,15 @@ The following restrictions apply to this callback function:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633567(v=VS.85).aspx">RemoveProp</a>
+<a href="https://msdn.microsoft.com/02852980-a2fd-47c6-82f3-fccc135e8fb2">RemoveProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633568(v=VS.85).aspx">SetProp</a>
+<a href="https://msdn.microsoft.com/f447edbe-58a1-47e5-8efd-0acb10063ace">SetProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://msdn.microsoft.com/c39902d3-5907-4aa9-b839-d2d67d273990">Window Properties</a>
  
 
  

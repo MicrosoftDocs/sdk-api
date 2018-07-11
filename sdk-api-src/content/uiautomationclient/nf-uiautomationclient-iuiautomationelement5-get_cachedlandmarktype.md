@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement5_CachedLandmarkType.htm
 old-project: WinAuto
 ms.assetid: 47F4E3F4-F669-4512-B2E8-355BAE135335
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CachedLandmarkType property [Windows Accessibility], CachedLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CachedLandmarkType property, IUIAutomationElement5.CachedLandmarkType, IUIAutomationElement5.get_CachedLandmarkType, IUIAutomationElement5::CachedLandmarkType, IUIAutomationElement5::get_CachedLandmarkType, get_CachedLandmarkType, uiautomationclient/IUIAutomationElement5::CachedLandmarkType, uiautomationclient/IUIAutomationElement5::get_CachedLandmarkType, winauto.uiauto_IUIAutomationElement5_CachedLandmarkType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt798233(v=VS.85).aspx">IUIAutomationElement5</a>
+<a href="winauto.iuiautomationelement5">IUIAutomationElement5</a>
  
 
  

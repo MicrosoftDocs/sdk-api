@@ -4,10 +4,10 @@ title: IEventTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task when a system event occurs.
 old-location: taskschd\ieventtrigger.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 23b7ecb9-d2bb-441a-8c93-126c833f99b9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrigger interface [Task Scheduler],described, event trigger [Task Scheduler],interface, taskschd.ieventtrigger, taskschd/IEventTrigger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

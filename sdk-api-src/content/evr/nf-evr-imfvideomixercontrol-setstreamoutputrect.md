@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
 old-project: medfound
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ Pointer to an <a href="https://msdn.microsoft.com/c1dd42ca-64a0-4f30-82e1-eda3f4
 
 The following diagram shows how the EVR mixes substreams.
 
-<img alt="Diagram showing an image, then that image inside a larger output rectangle, then a portion of the image in a source rectangle" border="" src="./images/d87d365f-a004-4896-ad03-48cd28449403.gif"/>
+<img alt="Diagram showing an image, then that image inside a larger output rectangle, then a portion of the image in a source rectangle" border="" src="images/d87d365f-a004-4896-ad03-48cd28449403.gif"/>
 The output rectangle for the stream is specified by calling <b>SetStreamOutputRect</b>. The source rectangle is specified by calling <a href="https://msdn.microsoft.com/5dc789b7-e206-4f1d-a0b2-12cb98ce4184">IMFVideoDisplayControl::SetVideoPosition</a>. The mixer applies the output rectangle first, when it mixes the streams into a single bounding rectangle. This bounding rectangle is called <i>composition space</i>. Then the presenter applies the source rectangle to the composited image.
 
 

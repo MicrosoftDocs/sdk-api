@@ -7,7 +7,7 @@ old-location: dshow\imediasample_gettime.htm
 old-project: DirectShow
 ms.assetid: f5e95ef3-a101-41c4-8947-f099fcd2490e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetTime method, IMediaSample.GetTime, IMediaSample::GetTime, IMediaSampleGetTime, dshow.imediasample_gettime, strmif/IMediaSample::GetTime
 ms.prod: windows
 ms.technology: windows-sdk

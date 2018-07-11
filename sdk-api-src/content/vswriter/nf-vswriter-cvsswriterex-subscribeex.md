@@ -4,10 +4,10 @@ title: CVssWriterEx::SubscribeEx
 author: windows-sdk-content
 description: Causes the writer to subscribe to VSS events.
 old-location: base\cvsswriterex_subscribeex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CVssWriterEx interface,SubscribeEx method, CVssWriterEx.SubscribeEx, CVssWriterEx::SubscribeEx, SubscribeEx, SubscribeEx method, SubscribeEx method,CVssWriterEx interface, base.cvsswriterex_subscribeex, vswriter/CVssWriterEx::SubscribeEx
 ms.prod: windows
 ms.technology: windows-sdk

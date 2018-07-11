@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX
 author: windows-sdk-content
 description: Returns the number of cluster objects that are associated with a cluster enumeration handle.
 old-location: mscs\clustergetenumcountex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: EC66C1CF-4CAA-41C6-ABA1-BB576F0293F4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX callback, PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX, mscs.clustergetenumcountex
 ms.prod: windows
 ms.technology: windows-sdk

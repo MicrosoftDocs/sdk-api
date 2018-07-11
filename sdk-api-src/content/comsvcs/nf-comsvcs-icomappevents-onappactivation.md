@@ -7,7 +7,7 @@ old-location: cos\icomappevents_onappactivation.htm
 old-project: cossdk
 ms.assetid: 4561d15a-6c1b-48e7-9697-87dfb51f877c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppActivation method, IComAppEvents.OnAppActivation, IComAppEvents::OnAppActivation, OnAppActivation, OnAppActivation method [COM+], OnAppActivation method [COM+],IComAppEvents interface, _dtc_IComAppEvents_OnAppActivation, comsvcs/IComAppEvents::OnAppActivation, cos.icomappevents_onappactivation
 ms.prod: windows
 ms.technology: windows-sdk

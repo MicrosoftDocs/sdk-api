@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__disconnect.htm
 old-project: WMP
 ms.assetid: 6fa2f206-1eea-4a25-91b3-bba0cde7f8ce
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: Disconnect, Disconnect method [Windows Media Player], Disconnect method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Disconnect method, IWMPEvents.Disconnect, IWMPEvents::Disconnect, IWMPEventsDisconnect, wmp.iwmpevents_iwmpevents__disconnect, wmp/IWMPEvents::Disconnect
 ms.prod: windows
 ms.technology: windows-sdk

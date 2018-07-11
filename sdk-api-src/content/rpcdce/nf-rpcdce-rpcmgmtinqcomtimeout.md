@@ -4,10 +4,10 @@ title: RpcMgmtInqComTimeout function
 author: windows-sdk-content
 description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtinqcomtimeout.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpcmgmtinqcomtimeout, rpc.rpcmgmtinqcomtimeout, rpcdce/RpcMgmtInqComTimeout
 ms.prod: windows
 ms.technology: windows-sdk

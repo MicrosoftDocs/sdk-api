@@ -4,10 +4,10 @@ title: IBackgroundCopyJob4::SetMaximumDownloadTime
 author: windows-sdk-content
 description: Sets the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_setmaximumdownloadtime.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 9e29c082-5bd1-465a-8853-aea81a593db6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyJob4 interface [BITS],SetMaximumDownloadTime method, IBackgroundCopyJob4.SetMaximumDownloadTime, IBackgroundCopyJob4::SetMaximumDownloadTime, SetMaximumDownloadTime, SetMaximumDownloadTime method [BITS], SetMaximumDownloadTime method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setmaximumdownloadtime, bits3_0/IBackgroundCopyJob4::SetMaximumDownloadTime
 ms.prod: windows
 ms.technology: windows-sdk

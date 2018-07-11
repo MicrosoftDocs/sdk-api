@@ -4,10 +4,10 @@ title: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2
 author: windows-sdk-content
 description: Registers an event type with a notification port by adding the notification key to the event type.
 old-location: mscs\registerclusternotifyv2.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: DCBE285A-7386-4922-8599-19149FEBBD9F
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 callback, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, mscs.registerclusternotifyv2
 ms.prod: windows
 ms.technology: windows-sdk

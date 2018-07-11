@@ -4,10 +4,10 @@ title: TOKENBINDING_EXTENSION_FORMAT
 author: windows-sdk-content
 description: Specifies the formats that are available to interpret extension data.
 old-location: security\tokenbinding_extension_format.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: EBF14890-3F7D-4814-93E1-570E81E05DF2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumeration [Security], TOKENBINDING_EXTENSION_FORMAT_UNDEFINED, security.tokenbinding_extension_format, tokenbinding/TOKENBINDING_EXTENSION_FORMAT, tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk

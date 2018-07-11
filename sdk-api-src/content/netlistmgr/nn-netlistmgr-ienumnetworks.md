@@ -4,10 +4,10 @@ title: IEnumNetworks
 author: windows-sdk-content
 description: The IEnumNetworks interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the INetworkListManager interface.
 old-location: nla\ienumnetworks.htm
-old-project: NLA
+old-project: nla
 ms.assetid: ce2b65e5-89fe-48c9-aa00-373406891d02
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IEnumNetworks, IEnumNetworks interface [Network Awareness], IEnumNetworks interface [Network Awareness],described, netlistmgr/IEnumNetworks, nla.ienumnetworks
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IStringCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\istringcollection__newenum.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

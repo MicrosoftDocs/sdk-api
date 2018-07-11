@@ -4,10 +4,10 @@ title: PCLUSAPI_MOVE_CLUSTER_GROUP
 author: windows-sdk-content
 description: Moves a group and all of its resources from one node to another.
 old-location: mscs\moveclustergroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 32408600-5118-47fb-890b-9c31faef2299
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_MOVE_CLUSTER_GROUP, PCLUSAPI_MOVE_CLUSTER_GROUP callback, PCLUSAPI_MOVE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_moveclustergroup, clusapi/PCLUSAPI_MOVE_CLUSTER_GROUP, mscs.moveclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

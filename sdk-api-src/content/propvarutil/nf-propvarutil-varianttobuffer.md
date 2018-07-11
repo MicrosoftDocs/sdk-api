@@ -7,7 +7,7 @@ old-location: properties\VariantToBuffer.htm
 old-project: properties
 ms.assetid: 2d310156-c274-4aaf-aee2-ac311a952889
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToBuffer, VariantToBuffer function [Windows Properties], _shell_VariantToBuffer, properties.VariantToBuffer, propvarutil/VariantToBuffer, shell.VariantToBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,14 +140,14 @@ This function is used when the calling application expects a <a href="https://ms
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
 
-If the stored value has fewer than <i>cb</i> bytes, then <a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> fails and the buffer is not modified.
+If the stored value has fewer than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> fails and the buffer is not modified.
 
-If the value has more than <i>cb</i> bytes, then <a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> succeeds and truncates the value.
+If the value has more than <i>cb</i> bytes, then <a href="shell.VariantToBuffer">VariantToBuffer</a> succeeds and truncates the value.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a> to access a structure that has been stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -185,11 +185,11 @@ if (VariantGetElementCount(var) == sizeof(WIN32_FIND_DATAW))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>
+<a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

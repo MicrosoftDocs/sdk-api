@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRow.htm
 old-project: WinAuto
 ms.assetid: fe597d79-db19-46a2-8487-6bc4b6e2a885
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CurrentRow property [Windows Accessibility], CurrentRow property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentRow property, IUIAutomationGridItemPattern.CurrentRow, IUIAutomationGridItemPattern.get_CurrentRow, IUIAutomationGridItemPattern::CurrentRow, IUIAutomationGridItemPattern::get_CurrentRow, get_CurrentRow, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRow, uiauto_IUIAutomationGridItemPattern_CurrentRow, uiautomationclient/IUIAutomationGridItemPattern::CurrentRow, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRow, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRow
 ms.prod: windows
 ms.technology: windows-sdk

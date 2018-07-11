@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
 author: windows-sdk-content
 description: Accepts a raw biometric sample and extracts a feature set.
 old-location: secbiomet\engineadapteracceptsampledata.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: fa6c5aa4-a9f4-421e-bc43-ced7fade4144
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterAcceptSampleData, EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN, PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback, secbiomet.engineadapteracceptsampledata, winbio_adapter/EngineAdapterAcceptSampleData
 ms.prod: windows
 ms.technology: windows-sdk

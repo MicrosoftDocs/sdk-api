@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressgetformat.htm
 old-project: Multimedia
 ms.assetid: c45ff664-03f0-4cda-9ffd-fb7ea2656e43
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: ICDecompressGetFormat, ICDecompressGetFormat macro [Windows Multimedia], _win32_ICDecompressGetFormat, multimedia.icdecompressgetformat, vfw/ICDecompressGetFormat
 ms.prod: windows
 ms.technology: windows-sdk

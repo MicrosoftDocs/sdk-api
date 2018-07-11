@@ -4,10 +4,10 @@ title: FreeMibTable function
 author: windows-sdk-content
 description: Frees the buffer allocated by the functions that return tables of network interfaces, addresses, and routes (GetIfTable2 and GetAnycastIpAddressTable, for example).
 old-location: iphlp\freemibtable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 31c8cdc4-73c7-4e82-8226-c90320046199
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable, netioapi/FreeMibTable
 ms.prod: windows
 ms.technology: windows-sdk

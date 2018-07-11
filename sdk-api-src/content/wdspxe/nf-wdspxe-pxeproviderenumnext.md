@@ -4,10 +4,10 @@ title: PxeProviderEnumNext function
 author: windows-sdk-content
 description: Enumerates registered providers.
 old-location: wds\pxeproviderenumnext.htm
-old-project: Wds
+old-project: wds
 ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
 ms.prod: windows
 ms.technology: windows-sdk

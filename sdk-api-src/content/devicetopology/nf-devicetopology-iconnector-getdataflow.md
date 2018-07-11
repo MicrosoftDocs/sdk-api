@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector_getdataflow.htm
 old-project: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
 ms.prod: windows
 ms.technology: windows-sdk

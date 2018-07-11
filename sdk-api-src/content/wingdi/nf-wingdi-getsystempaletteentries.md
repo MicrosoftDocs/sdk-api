@@ -7,7 +7,7 @@ old-location: gdi\getsystempaletteentries.htm
 old-project: gdi
 ms.assetid: 67bb0adf-ae7f-48d5-bc62-82ece45aeee6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetSystemPaletteEntries, GetSystemPaletteEntries function [Windows GDI], _win32_GetSystemPaletteEntries, gdi.getsystempaletteentries, wingdi/GetSystemPaletteEntries
 ms.prod: windows
 ms.technology: windows-sdk

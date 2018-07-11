@@ -4,10 +4,10 @@ title: RtmGetEntityMethods function
 author: windows-sdk-content
 description: The RtmGetEntityMethods function queries the specified client to determine which methods are available for another client to invoke.
 old-location: rras\rtmgetentitymethods.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 186f4a55-d46b-42ab-b092-dc036b011594
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmGetEntityMethods, RtmGetEntityMethods function [RAS], _rtmv2ref_rtmgetentitymethods, rras.rtmgetentitymethods, rtmv2/RtmGetEntityMethods
 ms.prod: windows
 ms.technology: windows-sdk

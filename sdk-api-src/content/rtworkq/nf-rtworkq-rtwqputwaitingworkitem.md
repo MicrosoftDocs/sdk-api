@@ -7,7 +7,7 @@ old-location: base\rtwqputwaitingworkitem.htm
 old-project: ProcThread
 ms.assetid: 7cc7dd44-0949-49f7-8a8f-cc309650b763
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqPutWaitingWorkItem, RtwqPutWaitingWorkItem function, base.rtwqputwaitingworkitem, rtworkq/RtwqPutWaitingWorkItem
 ms.prod: windows
 ms.technology: windows-sdk

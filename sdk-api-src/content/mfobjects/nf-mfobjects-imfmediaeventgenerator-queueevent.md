@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventgenerator_queueevent.htm
 old-project: medfound
 ms.assetid: 3bc33665-1385-41e1-9ad0-991fc93e91c0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 3bc33665-1385-41e1-9ad0-991fc93e91c0, IMFMediaEventGenerator interface [Media Foundation],QueueEvent method, IMFMediaEventGenerator.QueueEvent, IMFMediaEventGenerator::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventGenerator interface, mf.imfmediaeventgenerator_queueevent, mfobjects/IMFMediaEventGenerator::QueueEvent
 ms.prod: windows
 ms.technology: windows-sdk

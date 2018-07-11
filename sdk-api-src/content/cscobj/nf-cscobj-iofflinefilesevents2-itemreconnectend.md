@@ -4,10 +4,10 @@ title: IOfflineFilesEvents2::ItemReconnectEnd
 author: windows-sdk-content
 description: Reports that the Offline Files service has completed its attempt to reconnect all offline scopes.
 old-location: of\iofflinefilesevents2_itemreconnectend.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 929d6556-69cb-4863-a665-236603fcd88b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectEnd method, IOfflineFilesEvents2.ItemReconnectEnd, IOfflineFilesEvents2::ItemReconnectEnd, ItemReconnectEnd, ItemReconnectEnd method [Offline Files], ItemReconnectEnd method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectEnd, of.iofflinefilesevents2_itemreconnectend
 ms.prod: windows
 ms.technology: windows-sdk

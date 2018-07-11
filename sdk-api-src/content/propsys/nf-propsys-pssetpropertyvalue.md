@@ -7,7 +7,7 @@ old-location: properties\PSSetPropertyValue.htm
 old-project: properties
 ms.assetid: b4f8c50d-93cd-4371-88b0-6ce58f023981
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSSetPropertyValue, PSSetPropertyValue function [Windows Properties], _shell_PSSetPropertyValue, properties.PSSetPropertyValue, propsys/PSSetPropertyValue, shell.PSSetPropertyValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Pointer to an instance of the <a href="https://msdn.microsoft.com/library/window
 
 ### -param ppd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>*</b>
+Type: <b><a href="shell.IPropertyDescription">IPropertyDescription</a>*</b>
 
-Pointer to an instance of the <a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface, which identifies the individual property.
+Pointer to an instance of the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface, which identifies the individual property.
 
 
 ### -param propvar [in]
@@ -95,12 +95,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to write a property value to a store. If the calling code already has a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a> directly.
+This helper function is used to write a property value to a store. If the calling code already has a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a> directly.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762088(v=VS.85).aspx">PSSetPropertyValue</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSSetPropertyValue">PSSetPropertyValue</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,7 +134,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762083(v=VS.85).aspx">PSGetPropertyValue</a>
+<a href="shell.PSGetPropertyValue">PSGetPropertyValue</a>
  
 
  

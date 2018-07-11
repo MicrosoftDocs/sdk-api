@@ -88,7 +88,7 @@ GDI+ supports custom metadata for JPEG, PNG, and GIF image files.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534468(v=VS.85).aspx">ImageItemData</a>
+<a href="https://msdn.microsoft.com/56316228-9cae-46d5-bfef-bbd523aabd2b">ImageItemData</a>
  
 
  

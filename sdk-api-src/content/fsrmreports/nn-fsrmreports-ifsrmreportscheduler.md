@@ -4,10 +4,10 @@ title: IFsrmReportScheduler
 author: windows-sdk-content
 description: Used to manage scheduled tasks for report jobs and file management jobs.
 old-location: fsrm\ifsrmreportscheduler.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage scheduled tasks for report jobs and file management jobs.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmReportScheduler</b> as the class identifier and 
     <code>__uuidof(IFsrmReportScheduler)</code> as the interface identifier. 
     For an example, see <a href="https://msdn.microsoft.com/7994bf40-cc9d-4519-a0d4-d48d7ec10fda">Scheduling a Report Job</a>.
@@ -66,7 +66,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReportScheduler</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmReportScheduler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReportScheduler</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmReportScheduler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

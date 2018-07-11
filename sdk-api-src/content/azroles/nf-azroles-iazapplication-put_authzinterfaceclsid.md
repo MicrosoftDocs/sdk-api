@@ -4,10 +4,10 @@ title: IAzApplication::put_AuthzInterfaceClsid
 author: windows-sdk-content
 description: Sets or retrieves the class identifier (CLSID) of the interface that the user interface (UI) uses to perform application-specific operations.
 old-location: security\iazapplication_authzinterfaceclsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: d3dddd9c-a715-4697-bcca-ba12cead3b61
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid property [Security],AzApplication object, AuthzInterfaceClsid property [Security],IAzApplication interface, AzApplication object [Security],AuthzInterfaceClsid property, IAzApplication interface [Security],AuthzInterfaceClsid property, IAzApplication.AuthzInterfaceClsid, IAzApplication.put_AuthzInterfaceClsid, IAzApplication::AuthzInterfaceClsid, IAzApplication::get_AuthzInterfaceClsid, IAzApplication::put_AuthzInterfaceClsid, azroles/IAzApplication::AuthzInterfaceClsid, azroles/IAzApplication::get_AuthzInterfaceClsid, azroles/IAzApplication::put_AuthzInterfaceClsid, put_AuthzInterfaceClsid, security.iazapplication_authzinterfaceclsid
 ms.prod: windows
 ms.technology: windows-sdk

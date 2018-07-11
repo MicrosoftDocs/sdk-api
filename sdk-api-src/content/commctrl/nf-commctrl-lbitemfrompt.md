@@ -4,10 +4,10 @@ title: LBItemFromPt function
 author: windows-sdk-content
 description: Retrieves the index of the item at the specified point in a list box.
 old-location: controls\LBItemFromPt.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\lbitemfrompt.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: LBItemFromPt, LBItemFromPt function [Windows Controls], _win32_LBItemFromPt, _win32_LBItemFromPt_cpp, commctrl/LBItemFromPt, controls.LBItemFromPt, controls._win32_LBItemFromPt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Returns the item identifier if the point is over a list item, or -1 otherwise.
 
 
 
-The <b>LBItemFromPt</b> function only scrolls the list box if a minimum amount of time has passed since it last did so. Timing prevents the list box from scrolling too quickly if the function is called repeatedly in rapid succession—for example, when <a href="https://msdn.microsoft.com/library/Bb761721(v=VS.85).aspx">DL_DRAGGING</a> notification codes or <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages are processed. 
+The <b>LBItemFromPt</b> function only scrolls the list box if a minimum amount of time has passed since it last did so. Timing prevents the list box from scrolling too quickly if the function is called repeatedly in rapid succession—for example, when <a href="https://msdn.microsoft.com/87fc4c24-8e88-4e3c-8f54-ecc7f80de5d7">DL_DRAGGING</a> notification codes or <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> messages are processed. 
 
 If the specified point is outside the client area of the list box and 
 				<i>bAutoScroll</i> is <b>TRUE</b>, the function scrolls the list box instead of returning an item identifier. 

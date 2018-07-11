@@ -4,10 +4,10 @@ title: INetworkConnection::GetAdapterId
 author: windows-sdk-content
 description: The GetAdapterID method returns the ID of the network adapter used by this connection.
 old-location: nla\inetworkconnection_getadapterid.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 69711dea-e0dd-4c1e-a83f-1f06d4259b35
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetAdapterId, GetAdapterId method [Network Awareness], GetAdapterId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetAdapterId method, INetworkConnection.GetAdapterId, INetworkConnection::GetAdapterId, netlistmgr/INetworkConnection::GetAdapterId, nla.inetworkconnection_getadapterid
 ms.prod: windows
 ms.technology: windows-sdk

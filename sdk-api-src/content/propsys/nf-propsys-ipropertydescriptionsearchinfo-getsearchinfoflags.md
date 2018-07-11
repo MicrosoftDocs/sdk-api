@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionSearchInfo_GetSearchInfoFlags.htm
 old-project: properties
 ms.assetid: 37abf6c3-700b-4dbe-9701-c40a3d254a8c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetSearchInfoFlags, GetSearchInfoFlags method [Windows Properties], GetSearchInfoFlags method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetSearchInfoFlags method, IPropertyDescriptionSearchInfo.GetSearchInfoFlags, IPropertyDescriptionSearchInfo::GetSearchInfoFlags, _shell_IPropertyDescriptionSearchInfo_GetSearchInfoFlags, properties.IPropertyDescriptionSearchInfo_GetSearchInfoFlags, propsys/IPropertyDescriptionSearchInfo::GetSearchInfoFlags, shell.IPropertyDescriptionSearchInfo_GetSearchInfoFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
+Gets the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Gets the <a href="https://msdn.microsoft.com/library/Bb762588(v=VS.85).aspx">PRO
 
 ### -param ppdsiFlags [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a>*</b>
+Type: <b><a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>*</b>
 
-When this method returns successfully, contains a pointer to the <a href="https://msdn.microsoft.com/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
+When this method returns successfully, contains a pointer to the <a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a> associated with the property.
 
 
 ## -returns
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761505(v=VS.85).aspx">IPropertyDescriptionSearchInfo</a>
+<a href="shell.IPropertyDescriptionSearchInfo">IPropertyDescriptionSearchInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762588(v=VS.85).aspx">PROPDESC_SEARCHINFO_FLAGS</a>
+<a href="shell.PROPDESC_SEARCHINFO_FLAGS">PROPDESC_SEARCHINFO_FLAGS</a>
  
 
  

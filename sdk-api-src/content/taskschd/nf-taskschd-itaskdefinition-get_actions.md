@@ -4,10 +4,10 @@ title: ITaskDefinition::get_Actions
 author: windows-sdk-content
 description: Gets or sets a collection of actions performed by the task.
 old-location: taskschd\itaskdefinition_actions.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 24c00a2a-9b1e-4ef2-a28d-9faf39d53a06
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: Actions property [Task Scheduler], Actions property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Actions property, ITaskDefinition.Actions, ITaskDefinition.get_Actions, ITaskDefinition::Actions, ITaskDefinition::get_Actions, ITaskDefinition::put_Actions, get_Actions, taskschd.itaskdefinition_actions, taskschd/ITaskDefinition::Actions, taskschd/ITaskDefinition::get_Actions, taskschd/ITaskDefinition::put_Actions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\getwindowrect.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowrect.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetWindowRect, GetWindowRect function [Windows and Messages], _win32_GetWindowRect, _win32_getwindowrect_cpp, winmsg.getwindowrect, winui._win32_getwindowrect, winuser/GetWindowRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -106,7 +106,7 @@ In conformance with conventions for the <a href="https://msdn.microsoft.com/libr
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Initializing a Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -121,7 +121,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633503(v=VS.85).aspx">GetClientRect</a>
+<a href="https://msdn.microsoft.com/3746920a-8333-411c-a0f2-4e44b9cce973">GetClientRect</a>
 
 
 
@@ -133,7 +133,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArrayAlloc.htm
 old-project: properties
 ms.assetid: 6a623ee0-d99e-47db-82f9-9008c618a526
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToBooleanArrayAlloc, VariantToBooleanArrayAlloc function [Windows Properties], _shell_VariantToBooleanArrayAlloc, properties.VariantToBooleanArrayAlloc, propvarutil/VariantToBooleanArrayAlloc, shell.VariantToBooleanArrayAlloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776594(v=VS.85).aspx">VariantToBooleanArrayAlloc</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanArrayAlloc">VariantToBooleanArrayAlloc</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,15 +134,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>
+<a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
+<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
  
 
  

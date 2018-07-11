@@ -4,10 +4,10 @@ title: PTERMINATE_ROUTINE
 author: windows-sdk-content
 description: Immediately marks a resource as unavailable for use without waiting for cleanup processing to be completed.
 old-location: mscs\terminate.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\setthreaddescription.htm
 old-project: ProcThread
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
 ms.prod: windows
 ms.technology: windows-sdk

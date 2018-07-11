@@ -4,10 +4,10 @@ title: ClusterResourceControlAsUser function
 author: windows-sdk-content
 description: Initiates an operation affecting a resource.
 old-location: mscs\clusterresourcecontrolasuser.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
 ms.prod: windows
 ms.technology: windows-sdk

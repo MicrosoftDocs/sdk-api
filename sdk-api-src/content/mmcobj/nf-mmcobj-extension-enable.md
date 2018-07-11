@@ -4,10 +4,10 @@ title: Extension::Enable
 author: windows-sdk-content
 description: The Enable method enables or disables the extension.
 old-location: mmc\extension_enable.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 7e060b12-880d-4639-8571-63e237446847
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: Enable, Enable method [MMC], Enable method [MMC],Extension interface, Enable method [MMC],Extension object, Extension interface [MMC],Enable method, Extension object [MMC],Enable method, Extension.Enable, Extension::Enable, _slate_extension.enable_method, mmc.extension_enable
 ms.prod: windows
 ms.technology: windows-sdk

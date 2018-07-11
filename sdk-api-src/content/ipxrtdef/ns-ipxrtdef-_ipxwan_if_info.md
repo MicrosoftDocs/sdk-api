@@ -4,10 +4,10 @@ title: "_IPXWAN_IF_INFO"
 author: windows-sdk-content
 description: The IPXWAN_IF_INFO structure stores the administrative state for an IPX WAN interface.
 old-location: rras\ipxwan_if_info.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: "*PIPXWAN_IF_INFO, IPXWAN_IF_INFO, IPXWAN_IF_INFO structure [RAS], PIPXWAN_IF_INFO, PIPXWAN_IF_INFO structure pointer [RAS], _IPXWAN_IF_INFO, _mpr_ipxwan_if_info, ipxrtdef/IPXWAN_IF_INFO, ipxrtdef/PIPXWAN_IF_INFO, rras.ipxwan_if_info"
 ms.prod: windows
 ms.technology: windows-sdk

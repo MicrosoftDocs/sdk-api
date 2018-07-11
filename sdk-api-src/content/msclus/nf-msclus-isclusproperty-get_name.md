@@ -4,10 +4,10 @@ title: ISClusProperty::get_Name
 author: windows-sdk-content
 description: Name of a cluster object property.
 old-location: mscs\clusproperty_name.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b2d2f8b2-5bfe-4ed9-a746-79490806d85e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperty object [Failover Cluster],Name property, ClusProperty.Name, ISClusProperty.get_Name, ISClusProperty::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusProperty object, _wolf_clusproperty.name, get_Name, mscs.clusproperty_name
 ms.prod: windows
 ms.technology: windows-sdk

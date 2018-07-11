@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getresolveactionforchangeunit.htm
 old-project: winsync
 ms.assetid: 206ee654-e8a6-4b71-b933-3380dc4ed0ad
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetResolveActionForChangeUnit, GetResolveActionForChangeUnit method [Windows Sync], GetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetResolveActionForChangeUnit method, IChangeConflict.GetResolveActionForChangeUnit, IChangeConflict::GetResolveActionForChangeUnit, winsync.ichangeconflict_getresolveactionforchangeunit, winsync/IChangeConflict::GetResolveActionForChangeUnit
 ms.prod: windows
 ms.technology: windows-sdk

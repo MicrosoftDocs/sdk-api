@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_ENUM_TEMPLATE0_
 author: windows-sdk-content
 description: Used for enumerating net events.
 old-location: fwp\fwpm_net_event_enum_template0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 79711b24-e092-4a36-810a-6acad279eb90
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_CONDITION_ALE_APP_ID, FWPM_CONDITION_ALE_USER_ID, FWPM_CONDITION_IP_LOCAL_ADDRESS, FWPM_CONDITION_IP_LOCAL_PORT, FWPM_CONDITION_IP_PROTOCOL, FWPM_CONDITION_IP_REMOTE_ADDRESS, FWPM_CONDITION_IP_REMOTE_PORT, FWPM_CONDITION_SCOPE_ID, FWPM_NET_EVENT_ENUM_TEMPLATE0, FWPM_NET_EVENT_ENUM_TEMPLATE0 structure [Filtering], FWPM_NET_EVENT_ENUM_TEMPLATE0_, fwp.fwpm_net_event_enum_template0, fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
 ms.prod: windows
 ms.technology: windows-sdk

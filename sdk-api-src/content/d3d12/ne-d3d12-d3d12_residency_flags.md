@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_residency_flags.htm
 old-project: direct3d12
 ms.assetid: 87AC193A-4754-4E92-A08C-082C3C1513D6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_RESIDENCY_FLAGS, D3D12_RESIDENCY_FLAGS enumeration, D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET, D3D12_RESIDENCY_FLAG_NONE, d3d12/D3D12_RESIDENCY_FLAGS, d3d12/D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET, d3d12/D3D12_RESIDENCY_FLAG_NONE, direct3d12.d3d12_residency_flags
 ms.prod: windows
 ms.technology: windows-sdk

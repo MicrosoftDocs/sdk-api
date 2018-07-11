@@ -4,10 +4,10 @@ title: NetWkstaTransportEnum function
 author: windows-sdk-content
 description: The NetWkstaTransportEnum function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
 old-location: netmgmt\netwkstatransportenum.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 08bd22a9-00a7-4563-9353-c070ca9b2500
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, NetWkstaTransportEnum, NetWkstaTransportEnum function [Network Management], _win32_netwkstatransportenum, lmwksta/NetWkstaTransportEnum, netmgmt.netwkstatransportenum
 ms.prod: windows
 ms.technology: windows-sdk

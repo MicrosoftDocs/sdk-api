@@ -7,7 +7,7 @@ old-location: direct3d11\d3d_feature_level.htm
 old-project: direct3d11
 ms.assetid: afbc1a02-1730-4502-af15-b668412d664c
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 8da2f171-7790-4f89-b422-ce3f6be0762e, D3D_FEATURE_LEVEL, D3D_FEATURE_LEVEL enumeration [Direct3D 11], D3D_FEATURE_LEVEL_10_0, D3D_FEATURE_LEVEL_10_1, D3D_FEATURE_LEVEL_11_0, D3D_FEATURE_LEVEL_11_1, D3D_FEATURE_LEVEL_12_0, D3D_FEATURE_LEVEL_12_1, D3D_FEATURE_LEVEL_9_1, D3D_FEATURE_LEVEL_9_2, D3D_FEATURE_LEVEL_9_3, d3dcommon/D3D_FEATURE_LEVEL, d3dcommon/D3D_FEATURE_LEVEL_10_0, d3dcommon/D3D_FEATURE_LEVEL_10_1, d3dcommon/D3D_FEATURE_LEVEL_11_0, d3dcommon/D3D_FEATURE_LEVEL_11_1, d3dcommon/D3D_FEATURE_LEVEL_12_0, d3dcommon/D3D_FEATURE_LEVEL_12_1, d3dcommon/D3D_FEATURE_LEVEL_9_1, d3dcommon/D3D_FEATURE_LEVEL_9_2, d3dcommon/D3D_FEATURE_LEVEL_9_3, direct3d11.d3d_feature_level
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,21 +62,21 @@ req.irql:
 ### -field D3D_FEATURE_LEVEL_9_1
 
 
-            Targets features supported by <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1 including shader model 2.
+            Targets features supported by <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1 including shader model 2.
           
 
 
 ### -field D3D_FEATURE_LEVEL_9_2
 
 
-            Targets features supported by <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.2 including shader model 2.
+            Targets features supported by <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.2 including shader model 2.
           
 
 
 ### -field D3D_FEATURE_LEVEL_9_3
 
 
-            Targets features supported by <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.3 including shader model 2.0b.
+            Targets features supported by <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.3 including shader model 2.0b.
           
 
 
@@ -128,7 +128,7 @@ req.irql:
 
 
           For an overview of
-          the capabilities of each feature level, see <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">Overview For Each Feature Level</a>.
+          the capabilities of each feature level, see <a href="overviews_direct3d_11_devices_downlevel_intro.htm">Overview For Each Feature Level</a>.
         
 
 

@@ -4,10 +4,10 @@ title: TcSetFlowA function
 author: windows-sdk-content
 description: The TcSetFlow function sets individual parameters for a given flow.
 old-location: qos\tcsetflow.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
 ms.prod: windows
 ms.technology: windows-sdk

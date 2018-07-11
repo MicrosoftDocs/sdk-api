@@ -4,10 +4,10 @@ title: DSCOLUMN
 author: windows-sdk-content
 description: The DSCOLUMN structure represents a column in the directory services query dialog box. An array of this structure is contained in the DSQUERYPARAMS structure.
 old-location: ad\dscolumn.htm
-old-project: AD
+old-project: ad
 ms.assetid: b948b114-dd66-4e79-bdd0-559a13a7c644
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPDSCOLUMN, DSCOLUMN, DSCOLUMN structure [Active Directory], DSCOLUMNPROP_ADSPATH, DSCOLUMNPROP_OBJECTCLASS, LPDSCOLUMN, LPDSCOLUMN structure pointer [Active Directory], _glines_dscolumn, ad.dscolumn, dsquery/DSCOLUMN, dsquery/LPDSCOLUMN"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Reserved.
 
 ### -field fmt
 
-Contains one of the list view column formatting values that indicates how the column is displayed. The possible values are defined for the <b>fmt</b> member of the <a href="https://msdn.microsoft.com/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure.
+Contains one of the list view column formatting values that indicates how the column is displayed. The possible values are defined for the <b>fmt</b> member of the <a href="_win32_lvcolumn_cpp">LVCOLUMN</a> structure.
 
 
 ### -field cx
@@ -76,7 +76,7 @@ Contains the width, in pixels, of the column.
 
 ### -field idsName
 
-Contains the string table identifier for the column header string. To retrieve this string, call  <a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a> with the <b>hInstance</b> member of the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure and this member for the string identifier.
+Contains the string table identifier for the column header string. To retrieve this string, call  <a href="_win32_loadstring_cpp">LoadString</a> with the <b>hInstance</b> member of the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure and this member for the string identifier.
 
 
 ### -field offsetProperty
@@ -120,11 +120,11 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a>
+<a href="_win32_lvcolumn_cpp">LVCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647486(v=VS.85).aspx">LoadString</a>
+<a href="_win32_loadstring_cpp">LoadString</a>
  
 
  

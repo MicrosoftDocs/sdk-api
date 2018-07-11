@@ -7,7 +7,7 @@ old-location: gdi\stretchblt.htm
 old-project: gdi
 ms.assetid: 5130c88e-08e8-4faa-a1cb-a8106c86cea0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: StretchBlt, StretchBlt function [Windows GDI], _win32_StretchBlt, gdi.stretchblt, wingdi/StretchBlt
 ms.prod: windows
 ms.technology: windows-sdk

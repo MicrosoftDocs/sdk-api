@@ -4,10 +4,10 @@ title: PD2D1_EFFECT_FACTORY
 author: windows-sdk-content
 description: Describes the implementation of an effect.
 old-location: direct2d\pd2d1_effect_factory.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: PD2D1_EFFECT_FACTORY, PD2D1_EFFECT_FACTORY callback, PD2D1_EFFECT_FACTORY callback function [Direct2D], d2d1_1/PD2D1_EFFECT_FACTORY, direct2d.pd2d1_effect_factory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBackgroundCopyFile6::RequestFileRanges
 author: windows-sdk-content
 description: Adds a new set of file ranges to be prioritized for download.
 old-location: bits\ibackgroundcopyfile6_requestfileranges.htm
-old-project: Bits
+old-project: bits
 ms.assetid: C36BDE94-03AC-4F06-B17B-B8729226F8AC
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyFile6 interface [BITS],RequestFileRanges method, IBackgroundCopyFile6.RequestFileRanges, IBackgroundCopyFile6::RequestFileRanges, RequestFileRanges, RequestFileRanges method [BITS], RequestFileRanges method [BITS],IBackgroundCopyFile6 interface, bits.ibackgroundcopyfile6_requestfileranges, bits10_1/IBackgroundCopyFile6::RequestFileRanges
 ms.prod: windows
 ms.technology: windows-sdk

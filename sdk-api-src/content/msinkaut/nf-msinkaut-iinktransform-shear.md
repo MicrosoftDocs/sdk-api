@@ -7,7 +7,7 @@ old-location: tablet\inktransform_shear.htm
 old-project: tablet
 ms.assetid: 4a3d828e-33cc-435f-9276-7c3304cca71d
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 4a3d828e-33cc-435f-9276-7c3304cca71d, IInkTransform interface [Tablet PC],Shear method, IInkTransform.Shear, IInkTransform::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Shear, tablet.inktransform_shear
 ms.prod: windows
 ms.technology: windows-sdk

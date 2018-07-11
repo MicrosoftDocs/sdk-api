@@ -4,10 +4,10 @@ title: IDsAdminNewObjExt::AddPages
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::AddPages method is called to enable the object creation wizard extension to add the desired pages to the wizard.
 old-location: ad\idsadminnewobjext_addpages.htm
-old-project: AD
+old-project: ad
 ms.assetid: 4e16385f-b38a-4961-95ec-c81fd538ae2b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],AddPages method, IDsAdminNewObjExt.AddPages, IDsAdminNewObjExt::AddPages, _glines_idsadminnewobjext_addpages, ad.idsadminnewobjext__addpages, ad.idsadminnewobjext_addpages, dsadmin/IDsAdminNewObjExt::AddPages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ Pointer to a function that the object creation wizard extension calls to add a p
 </td>
 </tr>
 </table></span></div>
-<i>hPage</i> contains the handle of the wizard page created by calling <a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
+<i>hPage</i> contains the handle of the wizard page created by calling <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>.
 
 <i>lParam</i> is the <i>lParam</i> value passed to <b>AddPages</b>.
 
@@ -96,7 +96,7 @@ If the method is successful,
 
 
 
-For each page, the wizard extension adds to the wizard, the extension fills in a <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure, calls the <a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function to create the page handle and then calls the <i>lpfnAddPage</i> function with the page handle and <i>lParam</i>.
+For each page, the wizard extension adds to the wizard, the extension fills in a <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure, calls the <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a> function to create the page handle and then calls the <i>lpfnAddPage</i> function with the page handle and <i>lParam</i>.
 
 This method is identical in format and operation to the <a href="_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp">IShellPropSheetExt::AddPages</a> method.
 
@@ -108,7 +108,7 @@ This method is identical in format and operation to the <a href="_win32_ishellpr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
+<a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>
 
 
 
@@ -120,7 +120,7 @@ This method is identical in format and operation to the <a href="_win32_ishellpr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a>
+<a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a>
  
 
  

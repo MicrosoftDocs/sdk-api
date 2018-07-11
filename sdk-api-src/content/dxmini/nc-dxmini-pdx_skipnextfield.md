@@ -7,7 +7,7 @@ old-location: display\dxskipnextfield.htm
 old-project: display
 ms.assetid: da19c8dc-fef5-41e6-b032-2a0ae05a73da
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DxSkipNextField, DxSkipNextField callback function [Display Devices], PDX_SKIPNEXTFIELD, PDX_SKIPNEXTFIELD callback, VideoMiniPort_DxApiFunctions_417d791c-4050-4c35-aecb-bbf62e8a3e2f.xml, display.dxskipnextfield, dxmini/DxSkipNextField
 ms.prod: windows
 ms.technology: windows-sdk

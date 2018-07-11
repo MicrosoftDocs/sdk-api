@@ -4,10 +4,10 @@ title: IPolicyQualifier::InitializeEncode
 author: windows-sdk-content
 description: Initializes the object from a string and a value that identifies the qualifier type.
 old-location: security\ipolicyqualifier_initializeencode_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: fc8b5916-0557-4f9b-8478-169a3dd9cebc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IPolicyQualifier interface [Security],InitializeEncode method, IPolicyQualifier.InitializeEncode, IPolicyQualifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IPolicyQualifier interface, PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/IPolicyQualifier::InitializeEncode, security.ipolicyqualifier_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

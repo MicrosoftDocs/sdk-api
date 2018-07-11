@@ -4,10 +4,10 @@ title: "_HTTP_AUTH_STATUS"
 author: windows-sdk-content
 description: Defines the authentication state of a request.
 old-location: http\http_auth_status.htm
-old-project: Http
+old-project: http
 ms.assetid: 1290fbbe-6c8e-40dc-b47c-32976d85afca
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS enumeration [HTTP], HTTP_AUTH_STATUS, HTTP_AUTH_STATUS enumeration [HTTP], HttpAuthStatusFailure, HttpAuthStatusNotAuthenticated, HttpAuthStatusSuccess, _HTTP_AUTH_STATUS, http.http_auth_status, http/*PHTTP_AUTH_STATUS, http/HTTP_AUTH_STATUS, http/HttpAuthStatusFailure, http/HttpAuthStatusNotAuthenticated, http/HttpAuthStatusSuccess"
 ms.prod: windows
 ms.technology: windows-sdk

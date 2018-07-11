@@ -7,7 +7,7 @@ old-location: com\ieventpublisher.htm
 old-project: com
 ms.assetid: 132b79c8-d7f4-49c1-87c7-9bdf311ae697
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], IEventPublisher interface [COM],described, _com_ieventpublisher, com.ieventpublisher, eventsys/IEventPublisher
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Registers, modifies, removes, and provides information about an event publisher.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventPublisher</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventPublisher</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventPublisher</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEventPublisher</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

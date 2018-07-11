@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getsignatureid.htm
 old-project: printdocs
 ms.assetid: ebcb9f75-c9da-4559-9a9f-915b166801bf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [XPS Documents and Packaging], GetSignatureId method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignatureId method, IXpsSigningOptions.GetSignatureId, IXpsSigningOptions::GetSignatureId, xps.ixpssigningoptions_getsignatureid, xpsdigitalsignature/IXpsSigningOptions::GetSignatureId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-This method allocates the memory used by the string that is returned in <i>signatureId</i>.  If <i>signatureId</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free the memory.
+This method allocates the memory used by the string that is returned in <i>signatureId</i>.  If <i>signatureId</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function to free the memory.
 
 The default value of the signature ID is an empty string.
 

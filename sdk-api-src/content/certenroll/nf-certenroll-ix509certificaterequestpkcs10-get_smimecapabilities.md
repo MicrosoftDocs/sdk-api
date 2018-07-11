@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10::get_SmimeCapabilities
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that tells the Encode method whether to create an IX509ExtensionSmimeCapabilities collection that identifies the encryption capabilities supported by the computer.
 old-location: security\ix509certificaterequestpkcs10_smimecapabilities_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 5aa027d7-3c31-4b70-92a5-d15d2c410366
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],SmimeCapabilities property, IX509CertificateRequestPkcs10.SmimeCapabilities, IX509CertificateRequestPkcs10.get_SmimeCapabilities, IX509CertificateRequestPkcs10::SmimeCapabilities, IX509CertificateRequestPkcs10::get_SmimeCapabilities, IX509CertificateRequestPkcs10::put_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::get_SmimeCapabilities, certenroll/IX509CertificateRequestPkcs10::put_SmimeCapabilities, get_SmimeCapabilities, security.ix509certificaterequestpkcs10_smimecapabilities_property
 ms.prod: windows
 ms.technology: windows-sdk

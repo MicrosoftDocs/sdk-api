@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationhost.htm
 old-project: debug_wwahost
 ms.assetid: ac0ace8e-3f83-44be-baee-560c5472aa08
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windows Store apps], IWebApplicationHost interface [Debugging Windows Store apps],described, debug.iwebapplicationhost, webapplication/IWebApplicationHost
 ms.prod: windows
 ms.technology: windows-sdk

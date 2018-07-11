@@ -4,10 +4,10 @@ title: IRichEditUiaInformation::IsVisible
 author: windows-sdk-content
 description: Indicates whether a windowless rich edit control is currently visible.
 old-location: controls\irichedituiainformation_isvisible.htm
-old-project: Controls
+old-project: controls
 ms.assetid: E989851B-E03C-42A2-A088-E89DF986D7AC
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: IRichEditUiaInformation interface [Windows Controls],IsVisible method, IRichEditUiaInformation.IsVisible, IRichEditUiaInformation::IsVisible, IsVisible, IsVisible method [Windows Controls], IsVisible method [Windows Controls],IRichEditUiaInformation interface, controls.irichedituiainformation_isvisible, textserv/IRichEditUiaInformation::IsVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Returns S_OK if the windowless rich edit control is visible, or S_FALSE otherwis
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://msdn.microsoft.com/89C4DF55-F889-4ED6-8812-E2244A9F7BB8">IRichEditUiaInformation</a>
  
 
  

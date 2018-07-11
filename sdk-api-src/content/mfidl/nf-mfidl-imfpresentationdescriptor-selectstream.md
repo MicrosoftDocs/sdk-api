@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor_selectstream.htm
 old-project: medfound
 ms.assetid: 3f0eaace-9d85-4999-bb3f-34c268dfea2c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 3f0eaace-9d85-4999-bb3f-34c268dfea2c, IMFPresentationDescriptor interface [Media Foundation],SelectStream method, IMFPresentationDescriptor.SelectStream, IMFPresentationDescriptor::SelectStream, SelectStream, SelectStream method [Media Foundation], SelectStream method [Media Foundation],IMFPresentationDescriptor interface, mf.imfpresentationdescriptor_selectstream, mfidl/IMFPresentationDescriptor::SelectStream
 ms.prod: windows
 ms.technology: windows-sdk

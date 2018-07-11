@@ -7,7 +7,7 @@ old-location: search\_search_ISearchViewChangedSink.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\isearchviewchangedsink.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchViewChangedSink, ISearchViewChangedSink interface [search], ISearchViewChangedSink interface [search],described, _search_ISearchViewChangedSink, search._search_ISearchViewChangedSink, searchapi/ISearchViewChangedSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>ISearchViewChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231453(v=VS.85).aspx">OnChange</a>
+<a href="https://msdn.microsoft.com/d5582b55-5cf5-4d55-b7ec-3624f4a75249">OnChange</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

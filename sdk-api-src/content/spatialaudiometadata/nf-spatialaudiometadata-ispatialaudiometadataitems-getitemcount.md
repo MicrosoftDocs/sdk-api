@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems_getitemcount.htm
 old-project: CoreAudio
 ms.assetid: 168FDDA7-FB87-47B3-A7BC-88398663A7DD
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetItemCount, GetItemCount method [Core Audio], GetItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetItemCount method, ISpatialAudioMetadataItems.GetItemCount, ISpatialAudioMetadataItems::GetItemCount, coreaudio.ispatialaudiometadataitems_getitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetItemCount
 ms.prod: windows
 ms.technology: windows-sdk

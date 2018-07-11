@@ -7,7 +7,7 @@ old-location: cos\coleaveservicedomain.htm
 old-project: cossdk
 ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
 ms.prod: windows
 ms.technology: windows-sdk

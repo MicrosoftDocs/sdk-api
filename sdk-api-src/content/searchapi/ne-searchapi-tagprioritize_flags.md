@@ -7,7 +7,7 @@ old-location: search\_search_PRIORITIZE_FLAGS.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\prioritize_flags.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRIORITIZE_FLAGS, PRIORITIZE_FLAGS enumeration [search], PRIORITIZE_FLAG_IGNOREFAILURECOUNT, PRIORITIZE_FLAG_RETRYFAILEDITEMS, _search_PRIORITIZE_FLAGS, search._search_PRIORITIZE_FLAGS, searchapi/PRIORITIZE_FLAGS, searchapi/PRIORITIZE_FLAG_IGNOREFAILURECOUNT, searchapi/PRIORITIZE_FLAG_RETRYFAILEDITEMS, tagPRIORITIZE_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/library/Cc288278(v=VS.85).aspx">PrioritizeMatchingURLs</a> to specify how to process items the indexer has previously failed to index.
+Used by <a href="https://msdn.microsoft.com/ac8f8952-79a4-490e-bb62-6e2902e47b6e">PrioritizeMatchingURLs</a> to specify how to process items the indexer has previously failed to index.
 
 
 ## -enum-fields
@@ -78,7 +78,7 @@ Indicates that the indexer should continue to reattempt indexing items regardles
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd318747(v=VS.85).aspx">IRowsetPrioritization</a>
+<a href="https://msdn.microsoft.com/82dce1fa-9bc5-4744-966e-1e7aa6fc3e05">IRowsetPrioritization</a>
 
 
 
@@ -86,15 +86,15 @@ Indicates that the indexer should continue to reattempt indexing items regardles
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd797839(v=VS.85).aspx">PRIORITY_LEVEL</a>
+<a href="https://msdn.microsoft.com/d172ae7f-a495-4ea4-9d7d-ca8065f8d3cb">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd368861(v=VS.85).aspx">ROWSETEVENT_ITEMSTATE</a>
+<a href="https://msdn.microsoft.com/2df331c6-9048-4720-b582-0025461134c1">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd368862(v=VS.85).aspx">ROWSETEVENT_TYPE</a>
+<a href="https://msdn.microsoft.com/c9fb74f6-8aed-4450-9bc4-d9f5c3e835a4">ROWSETEVENT_TYPE</a>
 
 
 
@@ -102,7 +102,7 @@ Indicates that the indexer should continue to reattempt indexing items regardles
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc465173(v=VS.85).aspx">Rowset Properties</a>
+<a href="https://msdn.microsoft.com/71aa0ad6-ef34-47ee-945f-04bda20bf8a4">Rowset Properties</a>
  
 
  

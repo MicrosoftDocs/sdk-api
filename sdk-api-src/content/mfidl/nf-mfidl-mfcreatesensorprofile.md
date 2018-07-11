@@ -7,7 +7,7 @@ old-location: mf\mfcreatesensorprofile.htm
 old-project: medfound
 ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Any optional constraints to be put on the profile.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to the <a href="https://msdn.microsoft.com/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a> containing the sensor profile.
+On success, returns a double pointer to the <a href="mf.imfsensorprofile">IMFSensorProfile</a> containing the sensor profile.
 
 
 ## -returns

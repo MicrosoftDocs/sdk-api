@@ -7,7 +7,7 @@ old-location: winauto\getstatetext.htm
 old-project: WinAuto
 ms.assetid: 2a136883-870e-48c3-b182-1cdc64768894
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetStateText, GetStateText function [Windows Accessibility], GetStateTextA, GetStateTextW, _msaa_GetStateText, msaa.getstatetext, oleacc/GetStateText, oleacc/GetStateTextA, oleacc/GetStateTextW, winauto.getstatetext
 ms.prod: windows
 ms.technology: windows-sdk

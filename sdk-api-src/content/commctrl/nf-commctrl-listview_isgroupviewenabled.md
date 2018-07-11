@@ -4,10 +4,10 @@ title: ListView_IsGroupViewEnabled macro
 author: windows-sdk-content
 description: Checks whether the list-view control has group view enabled. You can use this macro or send the LVM_ISGROUPVIEWENABLED message explicitly.
 old-location: controls\ListView_IsGroupViewEnabled.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isgroupviewenabled.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_IsGroupViewEnabled, ListView_IsGroupViewEnabled macro [Windows Controls], _win32_ListView_IsGroupViewEnabled, _win32_ListView_IsGroupViewEnabled_cpp, commctrl/ListView_IsGroupViewEnabled, controls.ListView_IsGroupViewEnabled, controls._win32_ListView_IsGroupViewEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 Checks whether the list-view control has group view
  
-         enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761133(v=VS.85).aspx">LVM_ISGROUPVIEWENABLED</a> message explicitly. 
+         enabled. You can use this macro or send the <a href="https://msdn.microsoft.com/7c6ffa1f-300c-4e5e-900f-93a41e06c951">LVM_ISGROUPVIEWENABLED</a> message explicitly. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_IsGroupViewEnabled</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_IsGroupViewEnabled</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

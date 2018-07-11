@@ -4,10 +4,10 @@ title: FwpmNetEventEnum1 function
 author: windows-sdk-content
 description: Returns the next page of results from the network event enumerator.
 old-location: fwp\fwpmneteventenum1.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: b320ab18-2713-479c-a635-da3c5a3e1d10
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmNetEventEnum1, FwpmNetEventEnum1 function [Filtering], fwp.fwpmneteventenum1, fwpmu/FwpmNetEventEnum1
 ms.prod: windows
 ms.technology: windows-sdk

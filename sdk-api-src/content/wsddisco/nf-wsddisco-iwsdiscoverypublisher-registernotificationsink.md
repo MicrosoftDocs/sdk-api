@@ -4,10 +4,10 @@ title: IWSDiscoveryPublisher::RegisterNotificationSink
 author: windows-sdk-content
 description: Attaches a callback notification sink to the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_registernotificationsink_method.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 75a6c593-298b-45b4-bde5-2a383b7581cc
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterNotificationSink method, IWSDiscoveryPublisher.RegisterNotificationSink, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
 ms.prod: windows
 ms.technology: windows-sdk

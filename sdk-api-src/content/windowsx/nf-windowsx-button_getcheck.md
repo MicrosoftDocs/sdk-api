@@ -4,10 +4,10 @@ title: Button_GetCheck macro
 author: windows-sdk-content
 description: Gets the check state of a radio button or check box. You can use this macro or send the BM_GETCHECK message explicitly.
 old-location: controls\Button_GetCheck.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getcheck.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_Button_GetCheck, _win32_Button_GetCheck_cpp, controls.Button_GetCheck, controls._win32_Button_GetCheck, windowsx/Button_GetCheck
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the check state of a radio button or check box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775986(v=VS.85).aspx">BM_GETCHECK</a> message explicitly. 
+Gets the check state of a radio button or check box. You can use this macro or send the <a href="https://msdn.microsoft.com/a25b2c8d-0b32-4807-bfb4-e277675924f1">BM_GETCHECK</a> message explicitly. 
 
 
 

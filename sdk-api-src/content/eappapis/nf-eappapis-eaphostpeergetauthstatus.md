@@ -4,10 +4,10 @@ title: EapHostPeerGetAuthStatus function
 author: windows-sdk-content
 description: Obtains the supplicant's current EAP authentication status from EAPHost.
 old-location: eaphost\eaphostpeergetauthstatus.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthStatus, EapHostPeerGetAuthStatus, EapHostPeerGetAuthStatus function [EAPHost], EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeergetauthstatus, eappapis/EapHostPeerGetAuthStatus
 ms.prod: windows
 ms.technology: windows-sdk

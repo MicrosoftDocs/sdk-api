@@ -4,10 +4,10 @@ title: "_DHCP_SUBNET_INFO_V6"
 author: windows-sdk-content
 description: Contains information about an IPv6 subnet.
 old-location: dhcp\dhcp_subnet_info_v6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: cd60f9d0-3ac3-4661-aefe-ddb9052db3e1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6 structure [DHCP], PDHCP_SUBNET_INFO_V6, PDHCP_SUBNET_INFO_V6 structure pointer [DHCP], _DHCP_SUBNET_INFO_V6, dhcp.dhcp_subnet_info_v6, dhcpsapi/DHCP_SUBNET_INFO_V6, dhcpsapi/PDHCP_SUBNET_INFO_V6"
 ms.prod: windows
 ms.technology: windows-sdk

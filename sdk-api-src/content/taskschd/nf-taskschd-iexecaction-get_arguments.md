@@ -4,10 +4,10 @@ title: IExecAction::get_Arguments
 author: windows-sdk-content
 description: Gets or sets the arguments associated with the command-line operation.
 old-location: taskschd\iexecaction_arguments.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 623b3ffb-ff0f-46bf-ae3d-146e38c8bbc8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: Arguments property [Task Scheduler], Arguments property [Task Scheduler],IExecAction interface, IExecAction interface [Task Scheduler],Arguments property, IExecAction.Arguments, IExecAction.get_Arguments, IExecAction::Arguments, IExecAction::get_Arguments, IExecAction::put_Arguments, get_Arguments, taskschd.iexecaction_arguments, taskschd/IExecAction::Arguments, taskschd/IExecAction::get_Arguments, taskschd/IExecAction::put_Arguments
 ms.prod: windows
 ms.technology: windows-sdk

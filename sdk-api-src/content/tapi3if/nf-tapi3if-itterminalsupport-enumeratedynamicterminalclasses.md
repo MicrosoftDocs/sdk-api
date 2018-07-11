@@ -4,10 +4,10 @@ title: ITTerminalSupport::EnumerateDynamicTerminalClasses
 author: windows-sdk-content
 description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.
 old-location: tapi3\itterminalsupport_enumeratedynamicterminalclasses.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 1dcb9163-306b-42fc-afb4-41b33d7e2d40
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: EnumerateDynamicTerminalClasses, EnumerateDynamicTerminalClasses method [TAPI 2.2], EnumerateDynamicTerminalClasses method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],EnumerateDynamicTerminalClasses method, ITTerminalSupport.EnumerateDynamicTerminalClasses, ITTerminalSupport::EnumerateDynamicTerminalClasses, _tapi3_itterminalsupport_enumeratedynamicterminalclasses, tapi3.itterminalsupport_enumeratedynamicterminalclasses, tapi3if/ITTerminalSupport::EnumerateDynamicTerminalClasses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,8 +125,8 @@ Insufficient memory exists to perform the operation.
 An application calls this method to find out which dynamic terminal classes are supported by this address in a call to 
 <a href="https://msdn.microsoft.com/2a2a037a-753c-4dd4-b6ce-10b69f2e2421">ITTerminalSupport::CreateTerminal</a>.
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe">IEnumTerminalClass</a> interface returned by <b>ITTerminalSupport::EnumerateDynamicTerminalClasses</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/1da0a82a-fde4-440c-ac6c-e9b85a7ec3fe">IEnumTerminalClass</a> interface returned by <b>ITTerminalSupport::EnumerateDynamicTerminalClasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumTerminalClass</b> interface to free resources associated with it.
 
 

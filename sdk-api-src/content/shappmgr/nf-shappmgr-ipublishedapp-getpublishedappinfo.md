@@ -7,7 +7,7 @@ old-location: shell\IPublishedApp_GetPublishedAppInfo.htm
 old-project: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell],IPublishedApp interface, IPublishedApp interface [Windows Shell],GetPublishedAppInfo method, IPublishedApp.GetPublishedAppInfo, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
 ms.prod: windows
 ms.technology: windows-sdk

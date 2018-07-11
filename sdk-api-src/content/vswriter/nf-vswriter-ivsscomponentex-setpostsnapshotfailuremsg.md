@@ -4,10 +4,10 @@ title: IVssComponentEx::SetPostSnapshotFailureMsg
 author: windows-sdk-content
 description: Sets a PostSnapshot failure message string for a component.
 old-location: base\ivsscomponentex_setpostsnapshotfailuremsg.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 7cf4e512-d557-4187-b489-5cca76c0560f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssComponentEx interface,SetPostSnapshotFailureMsg method, IVssComponentEx.SetPostSnapshotFailureMsg, IVssComponentEx::SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg method, SetPostSnapshotFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setpostsnapshotfailuremsg, vswriter/IVssComponentEx::SetPostSnapshotFailureMsg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Sets a <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message string for a component.
+Sets a <a href="vssgloss_p.htm">PostSnapshot</a> failure message string for a component.
 
 This method can only be called by a writer's <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a> method.
 
@@ -65,7 +65,7 @@ This method can only be called by a writer's <a href="https://msdn.microsoft.com
 ### -param wszFailureMsg [in]
 
 The address of a caller-allocated <b>NULL</b>-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> 
+      while processing a <a href="vssgloss_p.htm">PostSnapshot</a> 
       event.
 
 

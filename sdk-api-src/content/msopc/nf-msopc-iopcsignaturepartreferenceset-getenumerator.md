@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreferenceset_getenumerator.htm
 old-project: OPC
 ms.assetid: 5b345fe9-55b3-447c-9b5b-64ab292ab734
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignaturePartReferenceSet.GetEnumerator, IOpcSignaturePartReferenceSet::GetEnumerator, msopc/IOpcSignaturePartReferenceSet::GetEnumerator, opc.iopcsignaturepartreferenceset_getenumerator
 ms.prod: windows
 ms.technology: windows-sdk

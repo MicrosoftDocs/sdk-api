@@ -7,7 +7,7 @@ old-location: intl\loadstringbyreference.htm
 old-project: Intl
 ms.assetid: 4E0470ED-512F-4B76-A3E4-31C8B269CD5C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: LoadStringByReference, LoadStringByReference function [Internationalization for Windows Applications], intl.loadstringbyreference, winnls/LoadStringByReference
 ms.prod: windows
 ms.technology: windows-sdk

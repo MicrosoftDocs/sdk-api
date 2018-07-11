@@ -4,10 +4,10 @@ title: IOfflineFilesSuspendInfo::IsSuspended
 author: windows-sdk-content
 description: Determines whether an item is suspended.
 old-location: of\iofflinefilessuspendinfo_issuspended.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 6f29793f-3b34-4280-b375-3739aefd74db
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesSuspendInfo interface [Offline Files],IsSuspended method, IOfflineFilesSuspendInfo.IsSuspended, IOfflineFilesSuspendInfo::IsSuspended, IsSuspended, IsSuspended method [Offline Files], IsSuspended method [Offline Files],IOfflineFilesSuspendInfo interface, cscobj/IOfflineFilesSuspendInfo::IsSuspended, of.iofflinefilessuspendinfo_issuspended
 ms.prod: windows
 ms.technology: windows-sdk

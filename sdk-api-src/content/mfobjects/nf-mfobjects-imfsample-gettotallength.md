@@ -7,7 +7,7 @@ old-location: mf\imfsample_gettotallength.htm
 old-project: medfound
 ms.assetid: e0dfc1d2-ec78-4d1c-992d-3a876b600ca6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetTotalLength method, IMFSample.GetTotalLength, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: FIXED_INFO_W2KSP1
 author: windows-sdk-content
 description: The FIXED_INFO structure contains information that is the same across all the interfaces on a computer.
 old-location: iphlp\fixed_info.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO, FIXED_INFO structure [IP Helper], FIXED_INFO_W2KSP1, HYBRID_NODETYPE, MIXED_NODETYPE, PEER_TO_PEER_NODETYPE, PFIXED_INFO, PFIXED_INFO structure pointer [IP Helper], _iphlp_fixed_info, iphlp.fixed_info, iptypes/FIXED_INFO, iptypes/PFIXED_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

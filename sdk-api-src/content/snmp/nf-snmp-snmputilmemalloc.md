@@ -4,10 +4,10 @@ title: SnmpUtilMemAlloc function
 author: windows-sdk-content
 description: The SnmpUtilMemAlloc function allocates dynamic memory from the process heap. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilmemalloc.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 85e293da-4c5b-4b32-9b86-e63074d37274
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpUtilMemAlloc, SnmpUtilMemAlloc function [SNMP], _snmp_snmputilmemalloc, snmp.snmputilmemalloc, snmp/SnmpUtilMemAlloc
 ms.prod: windows
 ms.technology: windows-sdk

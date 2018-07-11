@@ -7,7 +7,7 @@ old-location: com\ienumoledocumentviews_next.htm
 old-project: com
 ms.assetid: a58131bf-88ff-4661-9047-2d70b5e7931b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Next method, IEnumOleDocumentViews.Next, IEnumOleDocumentViews::Next, Next, Next method [COM], Next method [COM],IEnumOleDocumentViews interface, com.ienumoledocumentviews_next, docobj/IEnumOleDocumentViews::Next
 ms.prod: windows
 ms.technology: windows-sdk

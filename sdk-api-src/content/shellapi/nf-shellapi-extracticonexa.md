@@ -7,7 +7,7 @@ old-location: shell\ExtractIconEx.htm
 old-project: shell
 ms.assetid: 1c4d760a-79b5-4646-9cf2-6cd32c5d05ee
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ExtractIconEx, ExtractIconEx function [Windows Shell], ExtractIconExA, ExtractIconExW, _shell_ExtractIconEx, shell.ExtractIconEx, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b
 
 
 
-When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
 
 To retrieve the dimensions of the large and small icons, use this function with the SM_CXICON, SM_CYICON, SM_CXSMICON, and SM_CYSMICON flags.
 

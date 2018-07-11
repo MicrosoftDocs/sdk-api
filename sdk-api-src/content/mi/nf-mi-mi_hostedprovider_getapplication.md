@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_hostedprovider_getapplication.htm
 old-project: wmi_v2
 ms.assetid: 26afde05-6ef6-4044-b8a1-fad2a3bb4385
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_HostedProvider_GetApplication, MI_HostedProvider_GetApplication function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_GetApplication, wmi_v2.mi_hostedprovider_getapplication
 ms.prod: windows
 ms.technology: windows-sdk

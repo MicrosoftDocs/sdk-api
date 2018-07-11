@@ -4,10 +4,10 @@ title: MsiSummaryInfoSetPropertyW function
 author: windows-sdk-content
 description: The MsiSummaryInfoSetProperty function sets a single summary information property.
 old-location: setup\msisummaryinfosetproperty.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ Specifies the text value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="database_functions.htm">Summary Information Property Functions</a>
 
 
 

@@ -4,10 +4,10 @@ title: ISClusProperty::get_Format
 author: windows-sdk-content
 description: The format (data type) of a cluster object property.
 old-location: mscs\clusproperty_format.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 259aba6f-b1a6-422d-859b-8e6c95895ab5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, CLUSPROP_FORMAT_EXPANDED_SZ, CLUSPROP_FORMAT_EXPAND_SZ, CLUSPROP_FORMAT_FILETIME, CLUSPROP_FORMAT_LARGE_INTEGER, CLUSPROP_FORMAT_LONG, CLUSPROP_FORMAT_MULTI_SZ, CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, CLUSPROP_FORMAT_SZ, CLUSPROP_FORMAT_ULARGE_INTEGER, CLUSPROP_FORMAT_UNKNOWN, CLUSPROP_FORMAT_USER, CLUSPROP_FORMAT_WORD, ClusProperty object [Failover Cluster],Format property, ClusProperty.Format, Format property [Failover Cluster], Format property [Failover Cluster],ClusProperty object, ISClusProperty.get_Format, ISClusProperty::get_Format, _wolf_clusproperty.format, get_Format, mscs.clusproperty_format
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NCryptFreeBuffer function
 author: windows-sdk-content
 description: Releases a block of memory allocated by a CNG key storage provider.
 old-location: security\ncryptfreebuffer_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 15f19999-cf64-4a30-b38d-9372066add0a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: NCryptFreeBuffer, NCryptFreeBuffer function [Security], ncrypt/NCryptFreeBuffer, security.ncryptfreebuffer_func
 ms.prod: windows
 ms.technology: windows-sdk

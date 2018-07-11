@@ -4,10 +4,10 @@ title: SdpQueryUuidUnion
 author: windows-sdk-content
 description: The SdpQueryUuidUnion union contains the UUID on which to perform an SDP query. Used in conjunction with the SdpQueryUuid structure.
 old-location: bluetooth\sdpqueryuuidunion.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
 ms.prod: windows
 ms.technology: windows-sdk

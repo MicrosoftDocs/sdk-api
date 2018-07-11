@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader2_getcontentgroupmap.htm
 old-project: appxpkg
 ms.assetid: 992DE709-F4E6-475D-A533-AFFB7FE7A53C
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetContentGroupMap, GetContentGroupMap method [App packaging and management], GetContentGroupMap method [App packaging and management],IAppxPackageReader2 interface, IAppxPackageReader2 interface [App packaging and management],GetContentGroupMap method, IAppxPackageReader2.GetContentGroupMap, IAppxPackageReader2::GetContentGroupMap, appxpackaging/IAppxPackageReader2::GetContentGroupMap, appxpkg.iappxpackagereader2_getcontentgroupmap
 ms.prod: windows
 ms.technology: windows-sdk

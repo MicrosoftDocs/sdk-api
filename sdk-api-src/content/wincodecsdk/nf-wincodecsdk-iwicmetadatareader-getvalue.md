@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader_getvalue.htm
 old-project: wic
 ms.assetid: 7ae1328d-cda7-4522-9bcf-2c4b16fd6984
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetValue, GetValue method [Windows Imaging Component], GetValue method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValue method, IWICMetadataReader.GetValue, IWICMetadataReader::GetValue, _wic_codec_iwicmetadatareader_getvalue, wic._wic_codec_iwicmetadatareader_getvalue, wincodecsdk/IWICMetadataReader::GetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,21 +61,21 @@ Gets the metadata item value.
 
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata item's schema property.
 
 
 ### -param pvarId [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata item's id.
 
 
 ### -param pvarValue [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer that receives the metadata value.
 

@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalancing.htm
 old-project: TermServ
 ms.assetid: 2dc9dd37-0dc1-4b73-bcac-9fb3d1158b54
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbLoadBalancing, ITsSbLoadBalancing interface [Remote Desktop Services], ITsSbLoadBalancing interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalancing, termserv.itssbloadbalancing
 ms.prod: windows
 ms.technology: windows-sdk

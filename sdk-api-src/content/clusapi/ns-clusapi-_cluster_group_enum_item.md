@@ -4,10 +4,10 @@ title: "_CLUSTER_GROUP_ENUM_ITEM"
 author: windows-sdk-content
 description: Contains the properties of a cluster group.
 old-location: mscs\cluster_group_enum_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: B6436F83-2A10-4E93-8141-9BCFF744E41B
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*PCLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM, CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], PCLUSTER_GROUP_ENUM_ITEM, PCLUSTER_GROUP_ENUM_ITEM structure pointer [Failover Cluster], _CLUSTER_GROUP_ENUM_ITEM, _CLUSTER_GROUP_ENUM_ITEM structure [Failover Cluster], clusapi/CLUSTER_GROUP_ENUM_ITEM, clusapi/PCLUSTER_GROUP_ENUM_ITEM, clusapi/_CLUSTER_GROUP_ENUM_ITEM, msclus/CLUSTER_GROUP_ENUM_ITEM, msclus/PCLUSTER_GROUP_ENUM_ITEM, msclus/_CLUSTER_GROUP_ENUM_ITEM, mscs.cluster_group_enum_item"
 ms.prod: windows
 ms.technology: windows-sdk

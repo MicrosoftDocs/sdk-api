@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker_GetLicenseToUse.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\getlicensetouse.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IWordBreaker interface, IWordBreaker interface [search],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _search_IWordBreaker_GetLicenseToUse, indexsrv/IWordBreaker::GetLicenseToUse, search._search_IWordBreaker_GetLicenseToUse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> interface.
+Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> interface.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets a pointer to the license information for this implementation of the <a href
 
 Type: <b>WCHAR const**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation.
 
 
 ## -returns

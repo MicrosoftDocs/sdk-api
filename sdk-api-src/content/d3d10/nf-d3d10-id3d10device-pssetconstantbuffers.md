@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_pssetconstantbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetconstantbuffers.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],PSSetConstantBuffers method, ID3D10Device.PSSetConstantBuffers, ID3D10Device::PSSetConstantBuffers, PSSetConstantBuffers, PSSetConstantBuffers method [Direct3D 10], PSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetConstantBuffers, direct3d10.id3d10device_pssetconstantbuffers, e734dbaf-deb3-e52f-f92f-645994c1bd7d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Set the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
 
 
 ## -parameters
@@ -75,9 +75,9 @@ Number of buffers to set.
 
 ### -param ppConstantBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>*</b>
 
-Array of constant buffers (see <a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>) being given to the device.
+Array of constant buffers (see <a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>) being given to the device.
 
 
 ## -returns
@@ -103,7 +103,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

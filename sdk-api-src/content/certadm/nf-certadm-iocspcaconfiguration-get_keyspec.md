@@ -4,10 +4,10 @@ title: IOCSPCAConfiguration::get_KeySpec
 author: windows-sdk-content
 description: Gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content.
 old-location: security\iocspcaconfiguration_keyspec_method.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 86f1e52f-bce2-497c-98e7-848ffc3243a0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],KeySpec property, IOCSPCAConfiguration.KeySpec, IOCSPCAConfiguration.get_KeySpec, IOCSPCAConfiguration::KeySpec, IOCSPCAConfiguration::get_KeySpec, KeySpec property [Security], KeySpec property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::KeySpec, certadm/IOCSPCAConfiguration::get_KeySpec, get_KeySpec, security.iocspcaconfiguration_keyspec_method
 ms.prod: windows
 ms.technology: windows-sdk

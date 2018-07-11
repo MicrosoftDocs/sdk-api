@@ -7,7 +7,7 @@ old-location: iscsidisc\getiscsiikeinfo.htm
 old-project: iSCSIDisc
 ms.assetid: 81576452-47bf-4732-a09f-dd1f9e2689c9
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/14/2018
 ms.keywords: GetIScsiIKEInfoA, GetIscsiIKEInfo, GetIscsiIKEInfo function [iSCSI Discovery Library API], GetIscsiIKEInfoA, GetIscsiIKEInfoW, iscsidisc.getiscsiikeinfo, iscsidsc/GetIscsiIKEInfo, iscsidsc/GetIscsiIKEInfoA, iscsidsc/GetIscsiIKEInfoW
 ms.prod: windows
 ms.technology: windows-sdk

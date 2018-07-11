@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_geturl.htm
 old-project: medfound
 ms.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetURL method, IMFPMediaItem.GetURL, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
 ms.prod: windows
 ms.technology: windows-sdk

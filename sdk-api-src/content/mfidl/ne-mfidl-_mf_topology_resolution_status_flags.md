@@ -7,7 +7,7 @@ old-location: mf\mf_topology_resolution_status_flags.htm
 old-project: medfound
 ms.assetid: e2746378-cf01-4a41-af02-9c3089671120
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE, MF_OPTIONAL_NODE_REJECTED_PROTECTED_PROCESS, MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS, MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS enumeration [Media Foundation], MF_TOPOLOGY_RESOLUTION_SUCCEEDED, _MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS, e2746378-cf01-4a41-af02-9c3089671120, mf.mf_topology_resolution_status_flags, mfidl/MF_OPTIONAL_NODE_REJECTED_MEDIA_TYPE, mfidl/MF_OPTIONAL_NODE_REJECTED_PROTECTED_PROCESS, mfidl/MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS, mfidl/MF_TOPOLOGY_RESOLUTION_SUCCEEDED
 ms.prod: windows
 ms.technology: windows-sdk

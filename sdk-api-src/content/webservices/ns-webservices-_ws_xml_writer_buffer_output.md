@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_buffer_output.htm
 old-project: wsw
 ms.assetid: 46c0595c-9aa5-47cf-931a-8dc35e265fa0
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_WRITER_BUFFER_OUTPUT, WS_XML_WRITER_BUFFER_OUTPUT structure [Web Services for Windows], _WS_XML_WRITER_BUFFER_OUTPUT, webservices/WS_XML_WRITER_BUFFER_OUTPUT, wsw.ws_xml_writer_buffer_output
 ms.prod: windows
 ms.technology: windows-sdk

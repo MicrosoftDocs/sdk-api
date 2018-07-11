@@ -4,10 +4,10 @@ title: ISClusNode::get_PrivateROProperties
 author: windows-sdk-content
 description: Read-only private properties of a node.
 old-location: mscs\clusnode_privateroproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 146471dd-49f9-442c-a888-148fd86c4050
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNode object [Failover Cluster],PrivateROProperties property, ClusNode.PrivateROProperties, ISClusNode.get_PrivateROProperties, ISClusNode::get_PrivateROProperties, PrivateROProperties property [Failover Cluster], PrivateROProperties property [Failover Cluster],ClusNode object, _wolf_clusnode.privateroproperties, get_PrivateROProperties, mscs.clusnode_privateroproperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IX509NameValuePairs::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IX509NameValuePair objects in the collection.
 old-location: security\ix509namevaluepairs_count_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 52bbd5af-4bd7-4520-b4cd-6a3d92485322
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Count property [Security], Count property [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Count property, IX509NameValuePairs.Count, IX509NameValuePairs.get_Count, IX509NameValuePairs::Count, IX509NameValuePairs::get_Count, certenroll/IX509NameValuePairs::Count, certenroll/IX509NameValuePairs::get_Count, get_Count, security.ix509namevaluepairs_count_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_getframeheader.htm
 old-project: wic
 ms.assetid: CE29251F-C2E2-422B-B6BD-034D6B479009
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetFrameHeader, GetFrameHeader method [Windows Imaging Component], GetFrameHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetFrameHeader method, IWICJpegFrameDecode.GetFrameHeader, IWICJpegFrameDecode::GetFrameHeader, wic.iwicjpegframedecode_getframeheader, wincodec/IWICJpegFrameDecode::GetFrameHeader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A pointer that receives the frame header data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 

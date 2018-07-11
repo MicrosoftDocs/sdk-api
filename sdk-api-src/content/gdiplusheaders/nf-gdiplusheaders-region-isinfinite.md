@@ -95,15 +95,15 @@ If this region is infinite, this method returns <b>TRUE</b>; otherwise, it retur
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534770(v=VS.85).aspx">Region::IsEmpty</a>
+<a href="https://msdn.microsoft.com/72366100-1aec-464e-8d87-0dc88413d7cb">Region::IsEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534772(v=VS.85).aspx">Region::MakeEmpty</a>
+<a href="https://msdn.microsoft.com/9330da9b-99e9-4c24-988d-72def7fe2345">Region::MakeEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534773(v=VS.85).aspx">Region::MakeInfinite</a>
+<a href="https://msdn.microsoft.com/8962df07-6f76-4b50-8dc4-aff358e7f72d">Region::MakeInfinite</a>
 
 
 

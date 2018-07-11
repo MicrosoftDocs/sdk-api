@@ -4,10 +4,10 @@ title: ConvertInterfaceAliasToLuid function
 author: windows-sdk-content
 description: Converts an interface alias name for a network interface to the locally unique identifier (LUID) for the interface.
 old-location: iphlp\convertinterfacealiastoluid.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 7fa80938-d475-4ace-b463-a53aac26e88b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: ConvertInterfaceAliasToLuid, ConvertInterfaceAliasToLuid function [IP Helper], iphlp.convertinterfacealiastoluid, netioapi/ConvertInterfaceAliasToLuid
 ms.prod: windows
 ms.technology: windows-sdk

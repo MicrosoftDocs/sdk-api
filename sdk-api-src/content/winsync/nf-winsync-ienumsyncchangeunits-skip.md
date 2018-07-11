@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchangeunits_skip.htm
 old-project: winsync
 ms.assetid: d483a4bb-9b9e-4641-bc18-133381dc2a48
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Skip method, IEnumSyncChangeUnits.Skip, IEnumSyncChangeUnits::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_skip, winsync/IEnumSyncChangeUnits::Skip
 ms.prod: windows
 ms.technology: windows-sdk

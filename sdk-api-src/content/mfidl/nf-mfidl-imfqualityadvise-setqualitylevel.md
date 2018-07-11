@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise_setqualitylevel.htm
 old-project: medfound
 ms.assetid: f788fd7d-65fc-4917-8d5d-cfaf35a013e7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFQualityAdvise interface [Media Foundation],SetQualityLevel method, IMFQualityAdvise.SetQualityLevel, IMFQualityAdvise::SetQualityLevel, SetQualityLevel, SetQualityLevel method [Media Foundation], SetQualityLevel method [Media Foundation],IMFQualityAdvise interface, f788fd7d-65fc-4917-8d5d-cfaf35a013e7, mf.imfqualityadvise_setqualitylevel, mfidl/IMFQualityAdvise::SetQualityLevel
 ms.prod: windows
 ms.technology: windows-sdk

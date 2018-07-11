@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString
 author: windows-sdk-content
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
 ms.prod: windows
 ms.technology: windows-sdk

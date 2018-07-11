@@ -4,10 +4,10 @@ title: DRMRepair function
 author: windows-sdk-content
 description: Repairs a client machine by deleting certificates previously created for the machine or user.
 old-location: rm\drmrepair.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: d3abebcd-1200-417c-a0ec-64768b3c320a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMRepair, DRMRepair function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRepair, rm.drmrepair
 ms.prod: windows
 ms.technology: windows-sdk

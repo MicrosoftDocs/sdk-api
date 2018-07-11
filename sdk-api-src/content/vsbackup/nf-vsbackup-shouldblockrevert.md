@@ -4,10 +4,10 @@ title: ShouldBlockRevert function
 author: windows-sdk-content
 description: Checks the registry for writers that should block revert operations on the specified volume.
 old-location: base\shouldblockrevert.htm
-old-project: VSS
+old-project: vss
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert
 ms.prod: windows
 ms.technology: windows-sdk

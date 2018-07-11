@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setrotation.htm
 old-project: wic
 ms.assetid: 1eba6004-d22e-4168-9207-358c072c3a17
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRotation method, IWICDevelopRaw.SetRotation, IWICDevelopRaw::SetRotation, SetRotation, SetRotation method [Windows Imaging Component], SetRotation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrotation, wic._wic_codec_iwicdevelopraw_setrotation, wincodec/IWICDevelopRaw::SetRotation
 ms.prod: windows
 ms.technology: windows-sdk

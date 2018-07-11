@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationnavigationevents_navigateerror.htm
 old-project: debug_wwahost
 ms.assetid: 1c6e34e8-e14f-4b6c-ad83-140a7141cf64
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateError method, IWebApplicationNavigationEvents.NavigateError, IWebApplicationNavigationEvents::NavigateError, NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError
 ms.prod: windows
 ms.technology: windows-sdk

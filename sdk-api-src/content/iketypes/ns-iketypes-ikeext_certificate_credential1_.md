@@ -4,10 +4,10 @@ title: IKEEXT_CERTIFICATE_CREDENTIAL1_
 author: windows-sdk-content
 description: Is used to store credential information specific to certificate authentication.
 old-location: fwp\ikeext_certificate_credential1.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 78ae9cfe-2a4f-48cd-9a4f-fd5193df0ed0
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL1, IKEEXT_CERTIFICATE_CREDENTIAL1 structure [Filtering], IKEEXT_CERTIFICATE_CREDENTIAL1_, IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT, fwp.ikeext_certificate_credential1, iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1
 ms.prod: windows
 ms.technology: windows-sdk

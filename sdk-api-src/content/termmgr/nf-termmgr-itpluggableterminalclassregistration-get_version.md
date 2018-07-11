@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassRegistration::get_Version
 author: windows-sdk-content
 description: The get_Version method gets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_get_version.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2ce4345b-7d8e-4142-a4ee-df1e8b613a25
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Version method, ITPluggableTerminalClassRegistration.get_Version, ITPluggableTerminalClassRegistration::get_Version, _tapi3_itpluggableterminalclassregistration_get_version, get_Version, get_Version method [TAPI 2.2], get_Version method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_version, termmgr/ITPluggableTerminalClassRegistration::get_Version
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pVersion [out]
 
 The <b>BSTR</b> representation of the terminal version. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

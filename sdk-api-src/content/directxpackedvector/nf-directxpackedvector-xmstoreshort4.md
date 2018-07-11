@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreshort4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreShort4(XMSHORT4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMStoreShort4, XMStoreShort4, XMStoreShort4 method [DirectX Math Support APIs], dxmath.xmstoreshort4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/library/Ee420202(v=VS.85).aspx">XMSHORT4</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/49DAD98F-14D6-45B9-9D30-0EC553BB32EF">XMSHORT4</a>.
 
 
 ## -parameters

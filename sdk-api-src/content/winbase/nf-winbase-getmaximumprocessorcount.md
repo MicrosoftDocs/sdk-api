@@ -7,7 +7,7 @@ old-location: base\getmaximumprocessorcount.htm
 old-project: ProcThread
 ms.assetid: 71ce4fb4-ef63-4750-a842-bbfb1a5b0543
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetMaximumProcessorCount, GetMaximumProcessorCount function, base.getmaximumprocessorcount, winbase/GetMaximumProcessorCount
 ms.prod: windows
 ms.technology: windows-sdk

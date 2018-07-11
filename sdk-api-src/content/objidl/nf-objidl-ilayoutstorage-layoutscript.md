@@ -4,10 +4,10 @@ title: ILayoutStorage::LayoutScript
 author: windows-sdk-content
 description: The LayoutScript method provides explicit directions for reordering the storages, streams, and controls in a compound file to match the order in which they are accessed during the download.
 old-location: stg\ilayoutstorage_layoutscript.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 22ae3485-15d9-47e4-988e-fb760e67595b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],LayoutScript method, ILayoutStorage.LayoutScript, ILayoutStorage::LayoutScript, LayoutScript, LayoutScript method [Structured Storage], LayoutScript method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_layoutscript, objidl/ILayoutStorage::LayoutScript, stg.ilayoutstorage_layoutscript
 ms.prod: windows
 ms.technology: windows-sdk

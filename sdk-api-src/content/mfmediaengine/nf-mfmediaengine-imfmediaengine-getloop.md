@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getloop.htm
 old-project: medfound
 ms.assetid: EBAB4E73-164D-4AE5-87A4-0D37C10071E9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetLoop, GetLoop method [Media Foundation], GetLoop method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetLoop method, IMFMediaEngine.GetLoop, IMFMediaEngine::GetLoop, mf.imfmediaengine_getloop, mfmediaengine/IMFMediaEngine::GetLoop
 ms.prod: windows
 ms.technology: windows-sdk

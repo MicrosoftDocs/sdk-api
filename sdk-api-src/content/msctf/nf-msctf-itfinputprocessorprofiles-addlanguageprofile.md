@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles_addlanguageprofile.htm
 old-project: TSF
 ms.assetid: d132bff1-24de-4e43-859b-2425ba7de8f0
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: AddLanguageProfile, AddLanguageProfile method [Text Services Framework], AddLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],AddLanguageProfile method, ITfInputProcessorProfiles.AddLanguageProfile, ITfInputProcessorProfiles::AddLanguageProfile, _tsf_itfinputprocessorprofiles_addlanguageprofile_ref, msctf/ITfInputProcessorProfiles::AddLanguageProfile, tsf.itfinputprocessorprofiles_addlanguageprofile
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getsensordevicemode.htm
 old-project: medfound
 ms.assetid: 21594884-DAA5-450C-855D-E800FE164C5E
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode
 ms.prod: windows
 ms.technology: windows-sdk

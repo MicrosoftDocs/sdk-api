@@ -4,10 +4,10 @@ title: INetworkConnectionCost
 author: windows-sdk-content
 description: To query current network cost and data plan status associated with a connection.
 old-location: nla\inetworkconnectcost.htm
-old-project: NLA
+old-project: nla
 ms.assetid: D04A5C34-6E5D-4F5B-B54D-3FDF7A936D9E
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], INetworkConnectionCost interface [Network Awareness],described, netlistmgr/INetworkConnectionCost, nla.inetworkconnectcost
 ms.prod: windows
 ms.technology: windows-sdk

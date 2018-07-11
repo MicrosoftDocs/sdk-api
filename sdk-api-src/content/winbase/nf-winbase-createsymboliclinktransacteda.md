@@ -4,10 +4,10 @@ title: CreateSymbolicLinkTransactedA function
 author: windows-sdk-content
 description: Creates a symbolic link as a transacted operation.
 old-location: fs\createsymboliclinktransacted.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e440b940-129b-4638-a0b5-8f516687c74e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: CreateSymbolicLinkTransacted, CreateSymbolicLinkTransacted function [Files], CreateSymbolicLinkTransactedA, CreateSymbolicLinkTransactedW, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclinktransacted, winbase/CreateSymbolicLinkTransacted, winbase/CreateSymbolicLinkTransactedA, winbase/CreateSymbolicLinkTransactedW
 ms.prod: windows
 ms.technology: windows-sdk

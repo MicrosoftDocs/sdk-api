@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_getsession.htm
 old-project: wmi_v2
 ms.assetid: 710ccbc5-956c-4bb3-b93b-f61a449c08ef
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Operation_GetSession, MI_Operation_GetSession function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetSession, wmi_v2.mi_operation_getsession
 ms.prod: windows
 ms.technology: windows-sdk

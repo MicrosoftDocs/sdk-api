@@ -7,7 +7,7 @@ old-location: wsw\ws_service_security_identities.htm
 old-project: wsw
 ms.assetid: d38f0efd-2570-4db1-b4f7-113a45fe4449
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_SERVICE_SECURITY_IDENTITIES, WS_SERVICE_SECURITY_IDENTITIES structure [Web Services for Windows], _WS_SERVICE_SECURITY_IDENTITIES, webservices/WS_SERVICE_SECURITY_IDENTITIES, wsw.ws_service_security_identities
 ms.prod: windows
 ms.technology: windows-sdk

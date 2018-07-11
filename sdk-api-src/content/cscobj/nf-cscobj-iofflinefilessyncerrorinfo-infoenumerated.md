@@ -4,10 +4,10 @@ title: IOfflineFilesSyncErrorInfo::InfoEnumerated
 author: windows-sdk-content
 description: Indicates whether information was queried for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoenumerated.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: d2e8ae5b-92e7-4284-a02f-6eb3ab288376
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated method, IOfflineFilesSyncErrorInfo.InfoEnumerated, IOfflineFilesSyncErrorInfo::InfoEnumerated, InfoEnumerated, InfoEnumerated method [Offline Files], InfoEnumerated method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated, of.iofflinefilessyncerrorinfo_infoenumerated
 ms.prod: windows
 ms.technology: windows-sdk

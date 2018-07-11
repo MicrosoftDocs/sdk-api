@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanagerlanguage_getuserlanguageid.htm
 old-project: wmformat
 ms.assetid: 92d18ac9-8f68-47c6-91d7-de7653df69a6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
 ms.prod: windows
 ms.technology: windows-sdk

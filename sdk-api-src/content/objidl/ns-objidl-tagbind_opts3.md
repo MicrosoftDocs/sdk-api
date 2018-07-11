@@ -7,7 +7,7 @@ old-location: com\bind_opts3.htm
 old-project: com
 ms.assetid: 7e668313-229a-4d04-b8a2-d5072c87a5b5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "*LPBIND_OPTS3, BIND_OPTS3, BIND_OPTS3 structure [COM], LPBIND_OPTS3, LPBIND_OPTS3 structure pointer [COM], _com_BIND_OPTS3, com.bind_opts3, objidl/BIND_OPTS3, objidl/LPBIND_OPTS3, tagBIND_OPTS3"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Contains parameters used during a moniker-binding operation.
 
 ### -field hwnd
 
-A handle to the window that becomes the owner of the elevation UI, if applicable. If <b>hwnd</b> is <b>NULL</b>, COM will call the <a href="https://msdn.microsoft.com/library/ms646292(v=VS.85).aspx">GetActiveWindow</a> function to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a <b>BIND_OPTS3</b> structure. In this case, COM will try to use the window associated with the script thread.
+A handle to the window that becomes the owner of the elevation UI, if applicable. If <b>hwnd</b> is <b>NULL</b>, COM will call the <a href="_win32_GetActiveWindow_cpp">GetActiveWindow</a> function to find a window handle associated with the current thread. This case might occur if the client is a script, which cannot fill in a <b>BIND_OPTS3</b> structure. In this case, COM will try to use the window associated with the script thread.
 
 
 

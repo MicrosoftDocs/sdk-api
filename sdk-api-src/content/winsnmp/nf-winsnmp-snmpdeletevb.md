@@ -4,10 +4,10 @@ title: SnmpDeleteVb function
 author: windows-sdk-content
 description: The WinSNMP SnmpDeleteVb function removes a variable binding entry from a variable bindings list.
 old-location: snmp\snmpdeletevb.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: b6f8a61a-493c-4626-9134-f8badce678c4
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpDeleteVb, SnmpDeleteVb function [SNMP], _snmp_snmpdeletevb, snmp.snmpdeletevb, winsnmp/SnmpDeleteVb
 ms.prod: windows
 ms.technology: windows-sdk

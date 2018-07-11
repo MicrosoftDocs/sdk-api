@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_getcertificateset.htm
 old-project: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
 ms.prod: windows
 ms.technology: windows-sdk

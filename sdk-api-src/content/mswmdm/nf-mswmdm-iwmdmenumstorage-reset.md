@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumstorage_reset.htm
 old-project: WMDM
 ms.assetid: 1c582374-cbec-4b7c-b46b-9a0dd8b028d6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Reset method, IWMDMEnumStorage.Reset, IWMDMEnumStorage::Reset, IWMDMEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Reset, wmdm.iwmdmenumstorage_reset
 ms.prod: windows
 ms.technology: windows-sdk

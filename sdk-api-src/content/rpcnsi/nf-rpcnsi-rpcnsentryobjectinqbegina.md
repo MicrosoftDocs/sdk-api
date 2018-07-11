@@ -4,10 +4,10 @@ title: RpcNsEntryObjectInqBeginA function
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqbegin.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcNsEntryObjectInqBegin, RpcNsEntryObjectInqBegin function [RPC], RpcNsEntryObjectInqBeginA, RpcNsEntryObjectInqBeginW, _rpc_rpcnsentryobjectinqbegin, rpc.rpcnsentryobjectinqbegin, rpcnsi/RpcNsEntryObjectInqBegin, rpcnsi/RpcNsEntryObjectInqBeginA, rpcnsi/RpcNsEntryObjectInqBeginW
 ms.prod: windows
 ms.technology: windows-sdk

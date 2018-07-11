@@ -7,7 +7,7 @@ old-location: com\ienumunknown.htm
 old-project: com
 ms.assetid: 5aaed96f-39c1-4201-80d0-a2a8a177b65e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], IEnumUnknown interface [COM],described, _com_ienumunknown, com.ienumunknown, objidlbase/IEnumUnknown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Enumerates objects with the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumUnknown</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumUnknown</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumUnknown</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumUnknown</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

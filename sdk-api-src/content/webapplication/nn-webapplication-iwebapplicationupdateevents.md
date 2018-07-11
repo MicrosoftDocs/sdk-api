@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationupdateevents.htm
 old-project: debug_wwahost
 ms.assetid: C1ED87B6-CC24-48CF-BC9F-FF702A0903E8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface [Debugging Windows Store apps], IWebApplicationUpdateEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationupdateevents, webapplication/IWebApplicationUpdateEvents
 ms.prod: windows
 ms.technology: windows-sdk

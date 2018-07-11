@@ -7,7 +7,7 @@ old-location: mbn\imbnconnection_disconnect.htm
 old-project: mbn
 ms.assetid: bc7f28db-499d-41be-a2cc-b4940a5bccd6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: Disconnect, Disconnect method [Microsoft Broadband Networks], Disconnect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Disconnect method, IMbnConnection.Disconnect, IMbnConnection::Disconnect, mbn.imbnconnection_disconnect, mbnapi/IMbnConnection::Disconnect
 ms.prod: windows
 ms.technology: windows-sdk

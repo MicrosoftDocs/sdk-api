@@ -4,10 +4,10 @@ title: WinBioEnrollSelect function
 author: windows-sdk-content
 description: Specifies the individual that you want to enroll when data that represents multiple individuals is present in the sample buffer. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrollselect.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 9C06B976-9B60-43B6-B68B-255A6882912B
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioEnrollSelect, WinBioEnrollSelect function [Windows Biometric Framework API], secbiomet.winbioenrollselect, winbio/WinBioEnrollSelect
 ms.prod: windows
 ms.technology: windows-sdk

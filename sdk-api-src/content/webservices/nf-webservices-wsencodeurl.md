@@ -7,7 +7,7 @@ old-location: wsw\wsencodeurl.htm
 old-project: wsw
 ms.assetid: 8253b062-072b-4d37-8b82-407df1bea6b4
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsEncodeUrl, WsEncodeUrl function [Web Services for Windows], webservices/WsEncodeUrl, wsw.wsencodeurl
 ms.prod: windows
 ms.technology: windows-sdk

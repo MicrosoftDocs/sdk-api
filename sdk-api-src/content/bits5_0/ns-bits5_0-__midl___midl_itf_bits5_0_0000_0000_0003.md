@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0003"
 author: windows-sdk-content
 description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 old-location: bits\bits_job_property_value.htm
-old-project: Bits
+old-project: bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0003, bits.bits_job_property_value, bits.bits_job_property_value_union, bits5_0/BITS_JOB_PROPERTY_VALUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>BITS_JOB_PROPERTY_VALUE</b> union provides the
 
 This value is returned when using the enum property ID 
       <b>BITS_JOB_PROPERTY_ID_COST_FLAGS</b> and is applied as the 
-      <a href="https://msdn.microsoft.com/library/Hh446785(v=VS.85).aspx">transfer policy</a> on the BITS job.
+      <a href="bits_job_transfer_policy.htm">transfer policy</a> on the BITS job.
 
 This value is also used when using the <b>BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS</b> to specify the minimum notification interval.
 

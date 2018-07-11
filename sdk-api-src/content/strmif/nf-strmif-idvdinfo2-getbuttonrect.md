@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getbuttonrect.htm
 old-project: DirectShow
 ms.assetid: 8825979c-2a98-462a-acf9-939c81ece89a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetButtonRect, GetButtonRect method [DirectShow], GetButtonRect method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonRect method, IDvdInfo2.GetButtonRect, IDvdInfo2::GetButtonRect, IDvdInfo2GetButtonRect, dshow.idvdinfo2_getbuttonrect, strmif/IDvdInfo2::GetButtonRect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX
 author: windows-sdk-content
 description: Returns handles to the core, &#32;Network Name, IP Address, and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX type defines a pointer to this function.
 old-location: mscs\resutilgetcoreclusterresourcesex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: F6C576C1-5D34-41EB-95A4-BC8F78F02414
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback function [Failover Cluster], mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX
 ms.prod: windows
 ms.technology: windows-sdk

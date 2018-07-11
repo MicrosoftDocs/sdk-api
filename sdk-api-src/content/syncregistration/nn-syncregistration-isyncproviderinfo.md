@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderinfo.htm
 old-project: winsync
 ms.assetid: fe50e34c-6499-4c1e-b891-7b4f797510f2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyncProviderInfo interface [Windows Sync],described, syncregistration/ISyncProviderInfo, winsync.isyncproviderinfo
 ms.prod: windows
 ms.technology: windows-sdk

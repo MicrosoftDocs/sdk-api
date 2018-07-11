@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection.htm
 old-project: direct3d12
 ms.assetid: 145F2CCB-C076-42BE-8AF4-74349CDF6B02
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12ShaderReflection, ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,described, d3d12shader/ID3D12ShaderReflection, direct3d12.id3d12shaderreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -288,7 +288,7 @@ The <b>ID3D12ShaderReflection</b> interface has these methods.
 
 
             An <b>ID3D12ShaderReflection</b> interface can be retrieved for a shader by using 
-				<a href="https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.  
+				<a href="https://msdn.microsoft.com/601cc907-2878-4c9b-bc48-0575fd4479e8">D3DReflect</a>.  
           
 
 

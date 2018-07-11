@@ -4,10 +4,10 @@ title: INetFwProfile::get_Services
 author: windows-sdk-content
 description: Retrieves the collection of services of the profile.
 old-location: ics\inetfwprofile_services.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 38b32f8e-9aeb-4f63-9880-f393cce185fb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],Services property, INetFwProfile.Services, INetFwProfile.get_Services, INetFwProfile::Services, INetFwProfile::get_Services, Services property [ICS/ICF], Services property [ICS/ICF],INetFwProfile interface, get_Services, ics.inetfwprofile_services, netfw/INetFwProfile::Services, netfw/INetFwProfile::get_Services
 ms.prod: windows
 ms.technology: windows-sdk

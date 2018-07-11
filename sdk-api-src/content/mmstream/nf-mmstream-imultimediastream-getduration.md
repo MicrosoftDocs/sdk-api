@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_getduration.htm
 old-project: DirectShow
 ms.assetid: 4d8104ec-aa2a-4151-bb7f-53611d4a71f2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetDuration method, IMultiMediaStream.GetDuration, IMultiMediaStream::GetDuration, IMultiMediaStreamGetDuration, dshow.imultimediastream_getduration, mmstream/IMultiMediaStream::GetDuration
 ms.prod: windows
 ms.technology: windows-sdk

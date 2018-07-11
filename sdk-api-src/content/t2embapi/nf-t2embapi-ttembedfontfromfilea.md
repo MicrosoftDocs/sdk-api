@@ -7,7 +7,7 @@ old-location: gdi\ttembedfontfromfilea.htm
 old-project: gdi
 ms.assetid: 8bd742e7-e51c-468e-a963-4a90be21a815
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFontFromFileA, TTEmbedFontFromFileA function [Windows GDI], _win32_TTEmbedFontFromFileA, gdi.ttembedfontfromfilea, t2embapi/TTEmbedFontFromFileA
 ms.prod: windows
 ms.technology: windows-sdk

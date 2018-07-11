@@ -7,7 +7,7 @@ old-location: tsf\tf_da_linestyle.htm
 old-project: TSF
 ms.assetid: 36ea6359-e25a-4b23-8d9d-961d743268ab
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: TF_DA_LINESTYLE, TF_DA_LINESTYLE enumeration [Text Services Framework], TF_LS_DASH, TF_LS_DOT, TF_LS_NONE, TF_LS_SOLID, TF_LS_SQUIGGLE, __MIDL___MIDL_itf_msctf_0000_0070_0001, _tsf_tf_da_linestyle_ref, msctf/TF_DA_LINESTYLE, msctf/TF_LS_DASH, msctf/TF_LS_DOT, msctf/TF_LS_NONE, msctf/TF_LS_SOLID, msctf/TF_LS_SQUIGGLE, tsf.tf_da_linestyle
 ms.prod: windows
 ms.technology: windows-sdk

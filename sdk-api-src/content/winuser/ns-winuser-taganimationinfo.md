@@ -7,7 +7,7 @@ old-location: winmsg\animationinfo_str.htm
 old-project: winmsg
 ms.assetid: 37f2e434-d98a-42f5-b9a8-90f93768faae
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPANIMATIONINFO, ANIMATIONINFO, ANIMATIONINFO structure [Windows and Messages], LPANIMATIONINFO, LPANIMATIONINFO structure pointer [Windows and Messages], _win32_animationinfo_str, animationinfo_str_cpp, base.animationinfo_str, tagANIMATIONINFO, winmsg.animationinfo_str, winui.animationinfo_str, winuser/ANIMATIONINFO, winuser/LPANIMATIONINFO"
 ms.prod: windows
 ms.technology: windows-sdk

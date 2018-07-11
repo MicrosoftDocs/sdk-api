@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::ItemRenamed
 author: windows-sdk-content
 description: Reports that the path for an item in the Offline Files cache has been renamed.
 old-location: of\iofflinefilesevents_itemrenamed.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: f1a678dd-9a02-41da-90d4-930c0d366a36
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemRenamed method, IOfflineFilesEvents.ItemRenamed, IOfflineFilesEvents::ItemRenamed, ItemRenamed, ItemRenamed method [Offline Files], ItemRenamed method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemRenamed, of.iofflinefilesevents_itemrenamed
 ms.prod: windows
 ms.technology: windows-sdk

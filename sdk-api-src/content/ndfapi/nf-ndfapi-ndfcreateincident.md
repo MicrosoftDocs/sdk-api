@@ -4,10 +4,10 @@ title: NdfCreateIncident function
 author: windows-sdk-content
 description: To test the NDF functionality incorporated into their application.
 old-location: ndf\ndfcreateincident.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: NdfCreateIncident, NdfCreateIncident function [NDF], ndf.ndfcreateincident, ndfapi/NdfCreateIncident
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\lsasetinformationpolicy.htm
 old-project: SecAuthN
 ms.assetid: 2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: LsaSetInformationPolicy, LsaSetInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyPrimaryDomainInformation, _lsa_lsasetinformationpolicy, ntsecapi/LsaSetInformationPolicy, security.lsasetinformationpolicy
 ms.prod: windows
 ms.technology: windows-sdk

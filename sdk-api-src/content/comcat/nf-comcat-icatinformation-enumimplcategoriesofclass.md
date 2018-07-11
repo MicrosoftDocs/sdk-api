@@ -7,7 +7,7 @@ old-location: com\icatinformation_enumimplcategoriesofclass.htm
 old-project: com
 ms.assetid: 82d938b0-c05d-4bd9-b33f-c7944ed1399b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: EnumImplCategoriesOfClass, EnumImplCategoriesOfClass method [COM], EnumImplCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumImplCategoriesOfClass method, ICatInformation.EnumImplCategoriesOfClass, ICatInformation::EnumImplCategoriesOfClass, _com_icatinformation_enumimplcategoriesofclass, com.icatinformation_enumimplcategoriesofclass, comcat/ICatInformation::EnumImplCategoriesOfClass
 ms.prod: windows
 ms.technology: windows-sdk

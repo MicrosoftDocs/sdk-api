@@ -7,7 +7,7 @@ old-location: opc\opc_stream_io_mode.htm
 old-project: OPC
 ms.assetid: cf72ddcf-5472-451f-bfa8-94f549dc9246
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: OPC_STREAM_IO_MODE, OPC_STREAM_IO_MODE enumeration [Open Packaging Conventions], OPC_STREAM_IO_READ, OPC_STREAM_IO_WRITE, __MIDL___MIDL_itf_msopc_0000_0002_0003, msopc/OPC_STREAM_IO_MODE, msopc/OPC_STREAM_IO_READ, msopc/OPC_STREAM_IO_WRITE, opc.opc_stream_io_mode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_selfintersections.htm
 old-project: tablet
 ms.assetid: d3b97071-d0bd-4910-93a4-409241e427eb
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],SelfIntersections property, IInkStrokeDisp.SelfIntersections, IInkStrokeDisp.get_SelfIntersections, IInkStrokeDisp::SelfIntersections, IInkStrokeDisp::get_SelfIntersections, SelfIntersections property [Tablet PC], SelfIntersections property [Tablet PC],IInkStrokeDisp interface, d3b97071-d0bd-4910-93a4-409241e427eb, get_SelfIntersections, msinkaut/IInkStrokeDisp::SelfIntersections, msinkaut/IInkStrokeDisp::get_SelfIntersections, tablet.iinkstrokedisp_selfintersections
 ms.prod: windows
 ms.technology: windows-sdk

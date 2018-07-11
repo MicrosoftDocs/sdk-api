@@ -7,7 +7,7 @@ old-location: winmsg\setforegroundwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setforegroundwindow.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: SetForegroundWindow, SetForegroundWindow function [Windows and Messages], _win32_SetForegroundWindow, _win32_setforegroundwindow_cpp, winmsg.setforegroundwindow, winui._win32_setforegroundwindow, winuser/SetForegroundWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -107,15 +107,15 @@ If the window was not brought to the foreground, the return value is zero.
 <li>There is no foreground process.</li>
 <li>The process is being debugged.</li>
 <li>The foreground process is not a Modern Application or the Start Screen.</li>
-<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>).</li>
+<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a>).</li>
 <li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>).</li>
 <li>No menus are active.</li>
 </ul>
 An application cannot force a window to the foreground while the user is working with another window. Instead, Windows flashes the taskbar button of the window to notify the user.
 
-A process that can set the foreground window can enable another process to set the foreground window by calling the <a href="https://msdn.microsoft.com/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a> function. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified. 
+A process that can set the foreground window can enable another process to set the foreground window by calling the <a href="https://msdn.microsoft.com/2d20519e-4d21-4722-8e26-bab933763326">AllowSetForegroundWindow</a> function. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified. 
 
-The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the <a href="https://msdn.microsoft.com/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a> function. 
+The foreground process can disable calls to <b>SetForegroundWindow</b> by calling the <a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a> function. 
 
 
 
@@ -125,7 +125,7 @@ The foreground process can disable calls to <b>SetForegroundWindow</b> by callin
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/2d20519e-4d21-4722-8e26-bab933763326">AllowSetForegroundWindow</a>
 
 
 
@@ -137,11 +137,11 @@ The foreground process can disable calls to <b>SetForegroundWindow</b> by callin
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633505(v=VS.85).aspx">GetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/ee30a5fc-a229-4b84-b1f7-2d071d641a22">GetForegroundWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a>
 
 
 
@@ -153,7 +153,7 @@ The foreground process can disable calls to <b>SetForegroundWindow</b> by callin
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646311(v=VS.85).aspx">SetActiveWindow</a>
+<a href="https://msdn.microsoft.com/3a761bd3-5eba-4263-b670-405d91996a89">SetActiveWindow</a>
 
 
 

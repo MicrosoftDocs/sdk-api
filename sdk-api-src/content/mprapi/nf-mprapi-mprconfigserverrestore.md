@@ -4,10 +4,10 @@ title: MprConfigServerRestore function
 author: windows-sdk-content
 description: The MprConfigServerRestore function restores the router-manager, interface, and phone-book configuration from a backup created by a previous call to MprConfigServerBackup.
 old-location: rras\mprconfigserverrestore.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 1489ce8a-4f9d-4cf0-8729-b24e8c571557
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigServerRestore, MprConfigServerRestore function [RAS], _mpr_mprconfigserverrestore, mprapi/MprConfigServerRestore, rras.mprconfigserverrestore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

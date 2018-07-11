@@ -4,10 +4,10 @@ title: PeerDistStartup function
 author: windows-sdk-content
 description: PeerDistStartup function creates a new Peer Distribution instance handle which must be passed to all other Peer Distribution APIs.
 old-location: p2p\peerdiststartup.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 62d4f139-ab18-4d65-bda5-1cf09d7ddab9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerDistStartup, PeerDistStartup function [Peer Networking], p2p.peerdiststartup, peerdist/PeerDistStartup
 ms.prod: windows
 ms.technology: windows-sdk

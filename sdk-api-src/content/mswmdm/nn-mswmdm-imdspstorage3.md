@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage3.htm
 old-project: WMDM
 ms.assetid: 5ff674a1-a0b9-43b6-b8b7-9a5c67b3f919
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IMDSPStorage3, IMDSPStorage3 interface [windows Media Device Manager], IMDSPStorage3 interface [windows Media Device Manager],described, IMDSPStorage3Interface, mswmdm/IMDSPStorage3, wmdm.imdspstorage3
 ms.prod: windows
 ms.technology: windows-sdk

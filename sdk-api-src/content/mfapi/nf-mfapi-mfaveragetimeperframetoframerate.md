@@ -7,7 +7,7 @@ old-location: mf\mfaveragetimeperframetoframerate.htm
 old-project: medfound
 ms.assetid: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29, MFAverageTimePerFrameToFrameRate, MFAverageTimePerFrameToFrameRate function [Media Foundation], mf.mfaveragetimeperframetoframerate, mfapi/MFAverageTimePerFrameToFrameRate
 ms.prod: windows
 ms.technology: windows-sdk

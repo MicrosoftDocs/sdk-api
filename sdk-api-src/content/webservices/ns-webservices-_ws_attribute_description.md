@@ -7,7 +7,7 @@ old-location: wsw\ws_attribute_description.htm
 old-project: wsw
 ms.assetid: 23a97842-2d9f-438a-89a7-2dd0e381a019
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_ATTRIBUTE_DESCRIPTION, WS_ATTRIBUTE_DESCRIPTION structure [Web Services for Windows], _WS_ATTRIBUTE_DESCRIPTION, webservices/WS_ATTRIBUTE_DESCRIPTION, wsw.ws_attribute_description
 ms.prod: windows
 ms.technology: windows-sdk

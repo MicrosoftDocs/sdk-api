@@ -7,7 +7,7 @@ old-location: mdmreg\isdeviceregisteredwithmanagement.htm
 old-project: MDMReg
 ms.assetid: 7f8b4965-0acd-4e64-8756-37e7bf96ab6e
 ms.author: windowssdkdev
-ms.date: 02/20/2018
+ms.date: 02/21/2018
 ms.keywords: IsDeviceRegisteredWithManagement, IsDeviceRegisteredWithManagement function [MDM Registration], mdmreg.isdeviceregisteredwithmanagement, mdmregistration/IsDeviceRegisteredWithManagement
 ms.prod: windows
 ms.technology: windows-sdk

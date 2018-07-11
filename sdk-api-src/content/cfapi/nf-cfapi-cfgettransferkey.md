@@ -7,7 +7,7 @@ old-location: cloudapi\cfgettransferkey.htm
 old-project: cfApi
 ms.assetid: 07DDC46A-0C10-4677-A4B0-5A0406BBDAB7
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfGetTransferKey, CfGetTransferKey function, cfapi/CfGetTransferKey, cloudApi.cfgettransferkey
 ms.prod: windows
 ms.technology: windows-sdk

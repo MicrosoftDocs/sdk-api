@@ -7,7 +7,7 @@ old-location: opc\iopcparturi_compareparturi.htm
 old-project: OPC
 ms.assetid: b97890f8-dc9d-494f-82f9-3d32c09f5d67
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: ComparePartUri, ComparePartUri method [Open Packaging Conventions], ComparePartUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],ComparePartUri method, IOpcPartUri.ComparePartUri, IOpcPartUri::ComparePartUri, msopc/IOpcPartUri::ComparePartUri, opc.iopcparturi_compareparturi
 ms.prod: windows
 ms.technology: windows-sdk

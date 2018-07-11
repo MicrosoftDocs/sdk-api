@@ -4,10 +4,10 @@ title: ICertPropertyFriendlyName::Initialize
 author: windows-sdk-content
 description: Initializes the object from the certificate display name.
 old-location: security\icertpropertyfriendlyname_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: fb9a8108-f3d1-4a5c-bf3f-00002c085012
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyFriendlyName interface [Security],Initialize method, ICertPropertyFriendlyName.Initialize, ICertPropertyFriendlyName::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyFriendlyName interface, certenroll/ICertPropertyFriendlyName::Initialize, security.icertpropertyfriendlyname_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

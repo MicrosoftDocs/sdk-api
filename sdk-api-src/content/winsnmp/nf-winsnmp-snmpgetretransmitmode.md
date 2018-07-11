@@ -4,10 +4,10 @@ title: SnmpGetRetransmitMode function
 author: windows-sdk-content
 description: The WinSNMP SnmpGetRetransmitMode function returns the current setting of the retransmission mode to a WinSNMP application.
 old-location: snmp\snmpgetretransmitmode.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 8df40980-56e2-485f-87e0-42878b320e4e
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpGetRetransmitMode, SnmpGetRetransmitMode function [SNMP], _snmp_snmpgetretransmitmode, snmp.snmpgetretransmitmode, winsnmp/SnmpGetRetransmitMode
 ms.prod: windows
 ms.technology: windows-sdk

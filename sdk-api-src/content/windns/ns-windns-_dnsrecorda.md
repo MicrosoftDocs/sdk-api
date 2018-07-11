@@ -4,10 +4,10 @@ title: "_DnsRecordA"
 author: windows-sdk-content
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm
-old-project: DNS
+old-project: dns
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: DNS_RECORD, DNS_RECORD structure [DNS], PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD
 ms.prod: windows
 ms.technology: windows-sdk

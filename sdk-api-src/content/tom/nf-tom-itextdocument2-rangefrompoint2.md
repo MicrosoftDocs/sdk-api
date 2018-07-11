@@ -4,10 +4,10 @@ title: ITextDocument2::RangeFromPoint2
 author: windows-sdk-content
 description: Retrieves the degenerate range at (or nearest to) a particular point on the screen.
 old-location: controls\itextdocument2_rangefrompoint2.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 3212c6cc-a1fb-44ca-aba9-2234414e7a39
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],RangeFromPoint2 method, ITextDocument2.RangeFromPoint2, ITextDocument2::RangeFromPoint2, RangeFromPoint2, RangeFromPoint2 method [Windows Controls], RangeFromPoint2 method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_rangefrompoint2, tom/ITextDocument2::RangeFromPoint2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The y-coordinate of a point, in screen coordinates.
 
 Type: <b>long</b>
 
-The alignment type of the specified point. For a list of valid values, see <a href="https://msdn.microsoft.com/library/Bb774003(v=VS.85).aspx">ITextRange::GetPoint</a>.
+The alignment type of the specified point. For a list of valid values, see <a href="https://msdn.microsoft.com/67bb38d8-d96d-4d17-876d-4cadc39adece">ITextRange::GetPoint</a>.
 
 
 ### -param ppRange [out, retval]

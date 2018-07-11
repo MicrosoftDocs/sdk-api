@@ -7,7 +7,7 @@ old-location: shell\SHGetImageList.htm
 old-project: shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHGetImageList, SHGetImageList function [Windows Shell], SHIL_EXTRALARGE, SHIL_JUMBO, SHIL_LARGE, SHIL_LAST, SHIL_SMALL, SHIL_SYSSMALL, _shell_SHGetImageList, shell.SHGetImageList, shellapi/SHGetImageList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ TBD
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/library/Bb761490(v=VS.85).aspx">IImageList</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a>.
 
 
 ## -returns
@@ -138,9 +138,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The <a href="https://msdn.microsoft.com/library/Bb761490(v=VS.85).aspx">IImageList</a> pointer type, such as that returned in the <i>ppv</i> parameter, can be cast as an <b>HIMAGELIST</b> as needed; for example, for use in a list view. Conversely, an <b>HIMAGELIST</b> can be cast as a pointer to an <b>IImageList</b>.
+The <a href="https://msdn.microsoft.com/02e397a4-22fa-49fb-8103-376aa5ebc77a">IImageList</a> pointer type, such as that returned in the <i>ppv</i> parameter, can be cast as an <b>HIMAGELIST</b> as needed; for example, for use in a list view. Conversely, an <b>HIMAGELIST</b> can be cast as a pointer to an <b>IImageList</b>.
 
-As of Windows Vista, <b>SHIL_SMALL</b>, <b>SHIL_LARGE</b>, and <b>SHIL_EXTRALARGE</b> scale with dots per inch (dpi) if the process is marked as dpi-aware. To set these types to be dpi-aware, call <a href="https://msdn.microsoft.com/library/ms633543(v=VS.85).aspx">SetProcessDPIAware</a>. <b>SHIL_JUMBO</b> is fixed at 256 pixels regardless of the dpi-aware setting.
+As of Windows Vista, <b>SHIL_SMALL</b>, <b>SHIL_LARGE</b>, and <b>SHIL_EXTRALARGE</b> scale with dots per inch (dpi) if the process is marked as dpi-aware. To set these types to be dpi-aware, call <a href="https://msdn.microsoft.com/d9344028-3429-400c-8872-6545757c0494">SetProcessDPIAware</a>. <b>SHIL_JUMBO</b> is fixed at 256 pixels regardless of the dpi-aware setting.
 
 
 

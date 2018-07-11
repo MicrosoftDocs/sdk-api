@@ -4,10 +4,10 @@ title: PeerGraphValidateDeferredRecords function
 author: windows-sdk-content
 description: The PeerGraphValidateDeferredRecords function indicates to the Peer Graphing Infrastructure that it is time to resubmit any deferred records for the security module to validate.
 old-location: p2p\peergraphvalidatedeferredrecords.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: a9a48d8a-f31e-4526-bd09-826f04a564b1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGraphValidateDeferredRecords, PeerGraphValidateDeferredRecords function [Peer Networking], p2p.peergraphvalidatedeferredrecords, p2p/PeerGraphValidateDeferredRecords
 ms.prod: windows
 ms.technology: windows-sdk

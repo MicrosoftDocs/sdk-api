@@ -4,10 +4,10 @@ title: ISClusResource::get_MaintenanceMode
 author: windows-sdk-content
 description: The maintenance mode state of a disk resource.
 old-location: mscs\clusresource_maintenancemode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: aa39b401-bf18-48c5-83bb-e192efe1ef41
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource interface [Failover Cluster],MaintenanceMode property, ClusResource::MaintenanceMode, ISClusResource.get_MaintenanceMode, ISClusResource.put_MaintenanceMode, ISClusResource::get_MaintenanceMode, MaintenanceMode property [Failover Cluster], MaintenanceMode property [Failover Cluster],ClusResource interface, get_MaintenanceMode, mscs.clusresource_maintenancemode
 ms.prod: windows
 ms.technology: windows-sdk

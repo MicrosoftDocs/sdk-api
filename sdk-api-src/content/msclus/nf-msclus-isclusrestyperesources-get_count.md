@@ -4,10 +4,10 @@ title: ISClusResTypeResources::get_Count
 author: windows-sdk-content
 description: Returns the number of objects in the collection (the number of resources of a particular type in the cluster).
 old-location: mscs\clusrestyperesources_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: ccd8739e-9309-4630-92cd-5b2894eb416a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],Count property, ClusResTypeResources.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResTypeResources class, ISClusResTypeResources.get_Count, ISClusResTypeResources::get_Count, _wolf_clusrestyperesources.count, get_Count, mscs.clusrestyperesources_count
 ms.prod: windows
 ms.technology: windows-sdk

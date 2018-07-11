@@ -7,7 +7,7 @@ old-location: dlgbox\iprintdialogservices_getcurrentprintername.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentprintername.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: GetCurrentPrinterName, GetCurrentPrinterName function, GetCurrentPrinterName method [Dialog Boxes], GetCurrentPrinterName method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentPrinterName method, IPrintDialogServices::GetCurrentPrinterName, _win32_IPrintDialogServices_GetCurrentPrinterName, _win32_iprintdialogservices_getcurrentprintername_cpp, commdlg/IPrintDialogServices::GetCurrentPrinterName, dlgbox.iprintdialogservices_getcurrentprintername, winui._win32_iprintdialogservices_getcurrentprintername
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the name of the currently selected printer, for use with <a href="https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>.
+Retrieves the name of the currently selected printer, for use with <a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
 
 
 
@@ -109,11 +109,11 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646897(v=VS.85).aspx">IPrintDialogServices</a>
+<a href="https://msdn.microsoft.com/f8572f39-bccd-40ed-b556-3cac19920f15">IPrintDialogServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646942(v=VS.85).aspx">PrintDlgEx</a>
+<a href="https://msdn.microsoft.com/b7863533-9b97-4921-9d9c-3490958bfc81">PrintDlgEx</a>
 
 
 

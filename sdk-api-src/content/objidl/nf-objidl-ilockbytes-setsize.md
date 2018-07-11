@@ -4,10 +4,10 @@ title: ILockBytes::SetSize
 author: windows-sdk-content
 description: The SetSize method changes the size of the byte array.
 old-location: stg\ilockbytes_setsize.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 13b3237b-d113-4505-b397-b06916368fef
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: ILockBytes interface [Structured Storage],SetSize method, ILockBytes.SetSize, ILockBytes::SetSize, SetSize, SetSize method [Structured Storage], SetSize method [Structured Storage],ILockBytes interface, _stg_ilockbytes_setsize, objidl/ILockBytes::SetSize, stg.ilockbytes_setsize
 ms.prod: windows
 ms.technology: windows-sdk

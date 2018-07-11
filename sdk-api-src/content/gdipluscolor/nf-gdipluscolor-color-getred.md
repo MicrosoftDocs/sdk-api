@@ -82,11 +82,11 @@ This method returns the red component of this color.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536251(v=VS.85).aspx">Color::GetR</a>
+<a href="https://msdn.microsoft.com/70051577-5f60-4b4c-8d0c-9b285edbd77c">Color::GetR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
  
 
  

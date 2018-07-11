@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestproperties.htm
 old-project: appxpkg
 ms.assetid: 5DA0A805-13D3-4977-8EFB-45E8B51AAF60
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxManifestProperties, IAppxManifestProperties interface [App packaging and management], IAppxManifestProperties interface [App packaging and management],described, appxpackaging/IAppxManifestProperties, appxpkg.iappxmanifestproperties
 ms.prod: windows
 ms.technology: windows-sdk

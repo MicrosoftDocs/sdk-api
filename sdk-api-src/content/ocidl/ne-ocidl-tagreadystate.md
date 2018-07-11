@@ -7,7 +7,7 @@ old-location: dshow\readystate_property.htm
 old-project: DirectShow
 ms.assetid: e43b0fa4-4a5a-4492-a6a9-bf271f58e11b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: READYSTATE, READYSTATE enumeration [DirectShow], READYSTATE_COMPLETE, READYSTATE_INTERACTIVE, READYSTATE_LOADED, READYSTATE_LOADING, READYSTATE_UNINITIALIZED, ReadyState Property, ReadyStateProperty, dshow.readystate_property, ocidl/READYSTATE_COMPLETE, ocidl/READYSTATE_INTERACTIVE, ocidl/READYSTATE_LOADED, ocidl/READYSTATE_LOADING, ocidl/READYSTATE_UNINITIALIZED, ocidl/tagREADYSTATE, tagREADYSTATE, tagREADYSTATE enumeration [DirectShow]
 ms.prod: windows
 ms.technology: windows-sdk

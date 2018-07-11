@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createremotedictionaryresource.htm
 old-project: printdocs
 ms.assetid: 3f3f10f0-803a-49e2-bb62-ac4124cb375a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CreateRemoteDictionaryResource, CreateRemoteDictionaryResource method [XPS Documents and Packaging], CreateRemoteDictionaryResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRemoteDictionaryResource method, IXpsOMObjectFactory.CreateRemoteDictionaryResource, IXpsOMObjectFactory::CreateRemoteDictionaryResource, xps.ixpsomobjectfactory_createremotedictionaryresource, xpsobjectmodel/IXpsOMObjectFactory::CreateRemoteDictionaryResource
 ms.prod: windows
 ms.technology: windows-sdk

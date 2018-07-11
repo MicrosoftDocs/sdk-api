@@ -4,10 +4,10 @@ title: DsFreeNameResultA function
 author: windows-sdk-content
 description: Frees the memory held by a DS_NAME_RESULT structure.
 old-location: ad\dsfreenameresult.htm
-old-project: AD
+old-project: ad
 ms.assetid: 210650a6-70b9-4d4f-b99a-106afd3fe615
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsFreeNameResultA, DsFreeNameResultW, _glines_dsfreenameresult, ad.dsfreenameresult, ntdsapi/DsFreeNameResult, ntdsapi/DsFreeNameResultA, ntdsapi/DsFreeNameResultW
 ms.prod: windows
 ms.technology: windows-sdk

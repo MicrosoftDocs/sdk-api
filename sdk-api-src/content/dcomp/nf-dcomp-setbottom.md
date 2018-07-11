@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setbottom_overloaded.htm
 old-project: directcomp
 ms.assetid: 5C80AA94-AE61-4F12-86C8-6474ADD455B1
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionRectangleClip::SetBottom, SetBottom, SetBottom methods [DirectComposition], dcomp/SetBottom, directcomp.idcompositionrectangleclip_setbottom_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

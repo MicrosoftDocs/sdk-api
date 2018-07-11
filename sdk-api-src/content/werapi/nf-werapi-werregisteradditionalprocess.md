@@ -7,7 +7,7 @@ old-location: wer\werregisteradditionalprocess.htm
 old-project: wer
 ms.assetid: F4E44C22-6BE1-4512-80F6-1B6741E3ADBB
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess
 ms.prod: windows
 ms.technology: windows-sdk

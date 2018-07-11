@@ -4,10 +4,10 @@ title: ITextFont::GetSubscript
 author: windows-sdk-content
 description: Gets whether characters are displayed as subscript.
 old-location: controls\ITextFont_GetSubscript.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetSubscript, GetSubscript method [Windows Controls], GetSubscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSubscript method, ITextFont.GetSubscript, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets whether characters are displayed as subscript.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -131,7 +131,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a href="https://msdn.microsoft.com/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure.
 
 
 
@@ -141,7 +141,7 @@ This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787883(v=VS.85).aspx">CHARFORMAT2</a>
+<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
 
 
 
@@ -149,7 +149,7 @@ This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -157,11 +157,11 @@ This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787828(v=VS.85).aspx">SetSubscript</a>
+<a href="https://msdn.microsoft.com/077f8962-4ce2-4dc0-9222-a93dbb2ed83b">SetSubscript</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

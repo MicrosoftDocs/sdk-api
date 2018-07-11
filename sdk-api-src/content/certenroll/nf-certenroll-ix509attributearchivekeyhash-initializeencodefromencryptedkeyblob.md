@@ -4,10 +4,10 @@ title: IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob
 author: windows-sdk-content
 description: Initializes the attribute from an encrypted private key.
 old-location: security\ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2101f15f-b71b-4dea-8ec8-2d3c1926ae15
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509AttributeArchiveKeyHash interface [Security],InitializeEncodeFromEncryptedKeyBlob method, IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob, IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob, InitializeEncodeFromEncryptedKeyBlob, InitializeEncodeFromEncryptedKeyBlob method [Security], InitializeEncodeFromEncryptedKeyBlob method [Security],IX509AttributeArchiveKeyHash interface, certenroll/IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob, security.ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmClassificationRule::put_Value
 author: windows-sdk-content
 description: The value that this rule will set the property to.
 old-location: fsrm\ifsrmclassificationrule_value.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: c243cf7a-23f5-4d81-acea-9bf6ed66967d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],Value property, IFsrmClassificationRule.Value, IFsrmClassificationRule.put_Value, IFsrmClassificationRule::Value, IFsrmClassificationRule::get_Value, IFsrmClassificationRule::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_value, fsrm.ifsrmclassificationrule_value, fsrmpipeline/IFsrmClassificationRule::Value, fsrmpipeline/IFsrmClassificationRule::get_Value, fsrmpipeline/IFsrmClassificationRule::put_Value, put_Value
 ms.prod: windows
 ms.technology: windows-sdk

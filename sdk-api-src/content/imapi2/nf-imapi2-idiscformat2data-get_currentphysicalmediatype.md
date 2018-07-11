@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_currentphysicalmediatype.htm
 old-project: imapi
 ms.assetid: 6b9a80fc-6ef5-4102-9361-313d33f182ab
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2Data.get_CurrentPhysicalMediaType, IDiscFormat2Data::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentphysicalmediatype, imapi2/IDiscFormat2Data::get_CurrentPhysicalMediaType
 ms.prod: windows
 ms.technology: windows-sdk

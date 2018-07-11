@@ -4,10 +4,10 @@ title: StgOpenStorage function
 author: windows-sdk-content
 description: Opens an existing root storage object in the file system.
 old-location: stg\stgopenstorage.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 5ff18dc8-b24f-42bb-8c32-efc4d3696687
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: StgOpenStorage, StgOpenStorage function [Structured Storage], _stg_stgopenstorage, coml2api/StgOpenStorage, stg.stgopenstorage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,8 @@ A pointer to a
 
 
 						The <b>StgOpenStorage</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

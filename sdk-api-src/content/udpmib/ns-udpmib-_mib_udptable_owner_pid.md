@@ -4,10 +4,10 @@ title: "_MIB_UDPTABLE_OWNER_PID"
 author: windows-sdk-content
 description: Contains the User Datagram Protocol (UDP) listener table for IPv4 on the local computer. The table also includes the process ID (PID) that issued the call to the bind function for each UDP endpoint.
 old-location: mib\mib_udptable_owner_pid.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 7c51a1e4-1e07-4fb1-8db3-e48229f12aca
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID structure [MIB], PMIB_UDPTABLE_OWNER_PID, PMIB_UDPTABLE_OWNER_PID structure pointer [MIB], _MIB_UDPTABLE_OWNER_PID, iprtrmib/MIB_UDPTABLE_OWNER_PID, iprtrmib/PMIB_UDPTABLE_OWNER_PID, mib.mib_udptable_owner_pid, udpmib/MIB_UDPTABLE_OWNER_PID, udpmib/PMIB_UDPTABLE_OWNER_PID"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>
+<a href="_iphlp_getudptable">GetUdpTable</a>
 
 
 

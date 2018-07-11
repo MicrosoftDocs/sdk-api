@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetRestoreOptions
 author: windows-sdk-content
 description: The SetRestoreOptions method sets a string of private, or writer-dependent, restore parameters for a writer component.
 old-location: base\ivssbackupcomponents_setrestoreoptions.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 4a872594-dcd8-463d-9f6b-6bc40c17df38
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreOptions method, IVssBackupComponents.SetRestoreOptions, IVssBackupComponents::SetRestoreOptions, SetRestoreOptions, SetRestoreOptions method [VSS], SetRestoreOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestoreoptions, base.ivssbackupcomponents_setrestoreoptions, vsbackup/IVssBackupComponents::SetRestoreOptions
 ms.prod: windows
 ms.technology: windows-sdk

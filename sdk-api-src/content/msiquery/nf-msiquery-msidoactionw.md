@@ -4,10 +4,10 @@ title: MsiDoActionW function
 author: windows-sdk-content
 description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
 old-location: setup\msidoaction.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ Actions that update the system, such as the
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
  
 
  

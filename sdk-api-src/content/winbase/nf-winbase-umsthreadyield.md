@@ -7,7 +7,7 @@ old-location: base\umsthreadyield.htm
 old-project: ProcThread
 ms.assetid: d7c94ed5-9536-4c39-8658-27e4237cc9ba
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: UmsThreadYield, UmsThreadYield function, base.umsthreadyield, winbase/UmsThreadYield
 ms.prod: windows
 ms.technology: windows-sdk

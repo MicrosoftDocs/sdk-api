@@ -4,10 +4,10 @@ title: ISmimeCapability::get_BitCount
 author: windows-sdk-content
 description: Retrieves the length, in bits, of the encryption key.
 old-location: security\ismimecapability_bitcount_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 582f5d85-9045-4c6f-a4c0-869e6f9e9b9e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCapability interface, ISmimeCapability interface [Security],BitCount property, ISmimeCapability.BitCount, ISmimeCapability.get_BitCount, ISmimeCapability::BitCount, ISmimeCapability::get_BitCount, certenroll/ISmimeCapability::BitCount, certenroll/ISmimeCapability::get_BitCount, get_BitCount, security.ismimecapability_bitcount_property
 ms.prod: windows
 ms.technology: windows-sdk

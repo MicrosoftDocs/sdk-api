@@ -7,7 +7,7 @@ old-location: mf\imfcdmsuspendnotify_begin.htm
 old-project: medfound
 ms.assetid: 5cf3d249-3d8b-4596-9d8b-e7b95a270eff
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: Begin, Begin method [Media Foundation], Begin method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],Begin method, IMFCdmSuspendNotify.Begin, IMFCdmSuspendNotify::Begin, mf.imfcdmsuspendnotify_begin, mfmediaengine/IMFCdmSuspendNotify::Begin
 ms.prod: windows
 ms.technology: windows-sdk

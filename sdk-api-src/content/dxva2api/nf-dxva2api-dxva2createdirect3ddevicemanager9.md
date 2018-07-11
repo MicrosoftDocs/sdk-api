@@ -7,7 +7,7 @@ old-location: mf\dxva2createdirect3ddevicemanager9.htm
 old-project: medfound
 ms.assetid: b06e9c68-80ee-4997-bcf7-f05879aa5776
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager9 function [Media Foundation], b06e9c68-80ee-4997-bcf7-f05879aa5776, dxva2api/DXVA2CreateDirect3DDeviceManager9, mf.dxva2createdirect3ddevicemanager9
 ms.prod: windows
 ms.technology: windows-sdk

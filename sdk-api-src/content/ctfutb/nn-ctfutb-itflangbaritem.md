@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritem.htm
 old-project: TSF
 ms.assetid: 16612641-2bff-4e6f-a955-85793021a20b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfLangBarItem, ITfLangBarItem interface [Text Services Framework], ITfLangBarItem interface [Text Services Framework],described, _tsf_itflangbaritem_ref, ctfutb/ITfLangBarItem, tsf.itflangbaritem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ Called to show or hide the language bar item.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: cloudapi\cfsetcorrelationvector.htm
 old-project: cfApi
 ms.assetid: B9B05D24-BEE5-4BE6-95D5-C28466D69543
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfSetCorrelationVector, CfSetCorrelationVector function, cfapi/CfSetCorrelationVector, cloudApi.cfsetcorrelationvector
 ms.prod: windows
 ms.technology: windows-sdk

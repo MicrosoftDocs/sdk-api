@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12descriptorheap_getcpudescriptorhandleforheapstart
 old-project: direct3d12
 ms.assetid: 80C41537-1579-4166-A7F9-FB2478ECDE77
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetCPUDescriptorHandleForHeapStart, GetCPUDescriptorHandleForHeapStart method, GetCPUDescriptorHandleForHeapStart method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetCPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap.GetCPUDescriptorHandleForHeapStart, ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart, d3d12/ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart, direct3d12.id3d12descriptorheap_getcpudescriptorhandleforheapstart
 ms.prod: windows
 ms.technology: windows-sdk

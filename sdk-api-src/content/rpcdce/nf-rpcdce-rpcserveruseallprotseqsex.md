@@ -4,10 +4,10 @@ title: RpcServerUseAllProtseqsEx function
 author: windows-sdk-content
 description: The RpcServerUseAllProtseqsEx function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsex.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 4fc2ccbe-1b01-4157-b3e7-2c61397d78f7
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcServerUseAllProtseqsEx, RpcServerUseAllProtseqsEx function [RPC], _rpc_rpcserveruseallprotseqsex, rpc.rpcserveruseallprotseqsex, rpcdce/RpcServerUseAllProtseqsEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -181,7 +181,7 @@ For each protocol sequence registered by a server, the RPC run-time library crea
 <a href="https://msdn.microsoft.com/3165e4f6-8869-4eff-af65-53e85f78a949">ncacn_at_dsp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/">ncacn_http</a>
+<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
 </li>
 </ul>
 </div>

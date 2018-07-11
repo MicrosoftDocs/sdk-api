@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dcubetexture9__lockrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__lockrect.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 1f5618d3-63b7-c0fc-9b6e-44b99c39650c, IDirect3DCubeTexture9 interface [Direct3D 9],LockRect method, IDirect3DCubeTexture9.LockRect, IDirect3DCubeTexture9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DCubeTexture9 interface, d3d9helper/IDirect3DCubeTexture9::LockRect, direct3d9.idirect3dcubetexture9__lockrect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Locks a rectangle on a cube texture resource.
 
 ### -param FaceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx">D3DCUBEMAP_FACES</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6d18b410-6f22-4202-86ae-6b3ef85e6f69">D3DCUBEMAP_FACES</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/library/Bb172528(v=VS.85).aspx">D3DCUBEMAP_FACES</a> enumerated type, identifying a cube map face. 
+Member of the <a href="https://msdn.microsoft.com/6d18b410-6f22-4202-86ae-6b3ef85e6f69">D3DCUBEMAP_FACES</a> enumerated type, identifying a cube map face. 
 
 
 ### -param Level [in]
@@ -75,9 +75,9 @@ Specifies a level of a mipmapped cube texture.
 
 ### -param pLockedRect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6">D3DLOCKED_RECT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a> structure, describing the region to lock. 
+Pointer to a <a href="https://msdn.microsoft.com/ee5d2ea6-bf98-4b09-bc67-b808ffcb23c6">D3DLOCKED_RECT</a> structure, describing the region to lock. 
 
 
 ### -param pRect [in]
@@ -103,14 +103,14 @@ Combination of zero or more locking flags that describe the type of lock to perf
 </ul>
 
 
-You may not specify a subrect when using D3DLOCK_DISCARD. For a description of the flags, see <a href="https://msdn.microsoft.com/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
+You may not specify a subrect when using D3DLOCK_DISCARD. For a description of the flags, see <a href="https://msdn.microsoft.com/46a611bd-a1ec-4967-b68d-72661d1b5cad">D3DLOCK</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if one or more of the arguments is invalid.
 
@@ -121,11 +121,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-For performance reasons, dirty regions are only recorded for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DCubeTexture9::LockRect</b> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. See <a href="https://msdn.microsoft.com/library/Bb205858(v=VS.85).aspx">IDirect3DDevice9::UpdateTexture</a> for more information.
+For performance reasons, dirty regions are only recorded for level zero of a texture. Dirty regions are automatically recorded when <b>IDirect3DCubeTexture9::LockRect</b> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. See <a href="https://msdn.microsoft.com/79be31d9-0dd2-416c-b58c-9b3b7777c65c">IDirect3DDevice9::UpdateTexture</a> for more information.
 
-Cube textures created with D3DPOOL_DEFAULT are not lockable. Cube textures created in video memory are lockable when created with <a href="https://msdn.microsoft.com/library/Bb172625(v=VS.85).aspx">USAGE_DYNAMIC</a>.
+Cube textures created with D3DPOOL_DEFAULT are not lockable. Cube textures created in video memory are lockable when created with <a href="https://msdn.microsoft.com/c8823c39-8f17-441c-a42b-de3d7ec02f75">USAGE_DYNAMIC</a>.
 
-The only lockable format for a depth-stencil texture is <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFMT_D16_LOCKABLE</a>.
+The only lockable format for a depth-stencil texture is <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFMT_D16_LOCKABLE</a>.
 
 
 
@@ -135,19 +135,19 @@ The only lockable format for a depth-stencil texture is <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174329(v=VS.85).aspx">IDirect3DCubeTexture9</a>
+<a href="https://msdn.microsoft.com/59e400ae-d2ec-425c-9adf-49cb5a24c808">IDirect3DCubeTexture9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174330(v=VS.85).aspx">IDirect3DCubeTexture9::AddDirtyRect</a>
+<a href="https://msdn.microsoft.com/377536bd-c55c-4ec8-a07c-5addd8e84c3a">IDirect3DCubeTexture9::AddDirtyRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174332(v=VS.85).aspx">IDirect3DCubeTexture9::GetLevelDesc</a>
+<a href="https://msdn.microsoft.com/0b3efd79-cd69-4eea-af3a-4aa4d3f79e97">IDirect3DCubeTexture9::GetLevelDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174335(v=VS.85).aspx">IDirect3DCubeTexture9::UnlockRect</a>
+<a href="https://msdn.microsoft.com/3e444bdc-c555-465d-84a8-96aef32d3e77">IDirect3DCubeTexture9::UnlockRect</a>
  
 
  

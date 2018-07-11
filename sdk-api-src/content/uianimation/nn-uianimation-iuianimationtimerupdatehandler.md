@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerupdatehandler.htm
 old-project: UIAnimation
 ms.assetid: f155ed12-d493-48a0-9bdf-0e1e79cbcd38
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationTimerUpdateHandler, IUIAnimationTimerUpdateHandler interface [Windows Animation], IUIAnimationTimerUpdateHandler interface [Windows Animation],described, uianimation.iuianimationtimerupdatehandler, uianimation/IUIAnimationTimerUpdateHandler
 ms.prod: windows
 ms.technology: windows-sdk

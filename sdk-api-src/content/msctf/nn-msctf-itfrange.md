@@ -7,7 +7,7 @@ old-location: tsf\itfrange.htm
 old-project: TSF
 ms.assetid: b8889f7d-3228-4ecc-8d24-c04234d3101e
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ITfRange interface [Text Services Framework],described, _tsf_itfrange_ref, msctf/ITfRange, tsf.itfrange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -349,7 +349,7 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

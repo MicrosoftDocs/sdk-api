@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParserManager_SetOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\setoption.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IQueryParserManager interface [search],SetOption method, IQueryParserManager.SetOption, IQueryParserManager::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParserManager interface, _search_IQueryParserManager_SetOption, search._search_IQueryParserManager_SetOption, structuredquery/IQueryParserManager::SetOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Changes a single option in this <a href="https://msdn.microsoft.com/library/Bb231349(v=VS.85).aspx">IQueryParserManager</a> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
+Changes a single option in this <a href="https://msdn.microsoft.com/ff1941e1-03f0-4fdb-a34b-61da4055f569">IQueryParserManager</a> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Changes a single option in this <a href="https://msdn.microsoft.com/library/Bb23
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965700(v=VS.85).aspx">QUERY_PARSER_MANAGER_OPTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ad19e452-f457-4cd6-9d41-c9a61d94a685">QUERY_PARSER_MANAGER_OPTION</a></b>
 
-The <a href="https://msdn.microsoft.com/library/Aa965700(v=VS.85).aspx">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
+The <a href="https://msdn.microsoft.com/ad19e452-f457-4cd6-9d41-c9a61d94a685">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
 
 
 ### -param pOptionValue [in]

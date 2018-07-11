@@ -4,10 +4,10 @@ title: PFREE_CLUSTER_CRYPT
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclustercrypt.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT callback, PFREE_CLUSTER_CRYPT callback function [Failover Cluster], mscs.freeclustercrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.prod: windows
 ms.technology: windows-sdk

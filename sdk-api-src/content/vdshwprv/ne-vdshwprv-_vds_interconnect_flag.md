@@ -4,10 +4,10 @@ title: "_VDS_INTERCONNECT_FLAG"
 author: windows-sdk-content
 description: Defines the set of interconnect types that subsystems can support.
 old-location: base\vds_interconnect_flag.htm
-old-project: VDS
+old-project: vds
 ms.assetid: ada895cb-1ff0-43df-8cd5-8ebc70cb97e2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "*PVDS_INTERCONNECT_FLAG, VDS_INTERCONNECT_FLAG, VDS_INTERCONNECT_FLAG enumeration, VDS_ITF_FIBRE_CHANNEL, VDS_ITF_ISCSI, VDS_ITF_PCI_RAID, VDS_ITF_SAS, _VDS_INTERCONNECT_FLAG, base.vds_interconnect_flag, vds/VDS_INTERCONNECT_FLAG, vds/VDS_ITF_FIBRE_CHANNEL, vds/VDS_ITF_ISCSI, vds/VDS_ITF_PCI_RAID, vds/VDS_ITF_SAS, vdshwprv/VDS_INTERCONNECT_FLAG, vdshwprv/VDS_ITF_FIBRE_CHANNEL, vdshwprv/VDS_ITF_ISCSI, vdshwprv/VDS_ITF_PCI_RAID, vdshwprv/VDS_ITF_SAS"
 ms.prod: windows
 ms.technology: windows-sdk

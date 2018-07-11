@@ -7,7 +7,7 @@ old-location: wsw\wsgetxmlattribute.htm
 old-project: wsw
 ms.assetid: dca29f9b-a218-4764-bf7e-98a027c4336d
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsGetXmlAttribute, WsGetXmlAttribute function [Web Services for Windows], webservices/WsGetXmlAttribute, wsw.wsgetxmlattribute
 ms.prod: windows
 ms.technology: windows-sdk

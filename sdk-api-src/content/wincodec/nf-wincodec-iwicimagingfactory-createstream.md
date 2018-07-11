@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createstream.htm
 old-project: wic
 ms.assetid: 1c2ecaf0-5222-4f9b-96fb-5d2da72d11d4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CreateStream, CreateStream method [Windows Imaging Component], CreateStream method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateStream method, IWICImagingFactory.CreateStream, IWICImagingFactory::CreateStream, _wic_codec_iwicimagingfactory_createstream, wic._wic_codec_iwicimagingfactory_createstream, wincodec/IWICImagingFactory::CreateStream
 ms.prod: windows
 ms.technology: windows-sdk

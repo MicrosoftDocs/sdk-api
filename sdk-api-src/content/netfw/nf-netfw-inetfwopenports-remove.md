@@ -4,10 +4,10 @@ title: INetFwOpenPorts::Remove
 author: windows-sdk-content
 description: Closes a port and removes it from the collection.
 old-location: ics\inetfwopenports_remove.htm
-old-project: ICS
+old-project: ics
 ms.assetid: e3719087-f7b9-4780-a030-0c568248080d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.Remove, INetFwOpenPorts::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
 ms.prod: windows
 ms.technology: windows-sdk

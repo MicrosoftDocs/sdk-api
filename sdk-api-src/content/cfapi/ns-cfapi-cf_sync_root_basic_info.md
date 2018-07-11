@@ -7,7 +7,7 @@ old-location: cloudapi\cf_sync_root_basic_info.htm
 old-project: cfApi
 ms.assetid: 7499D9DD-BAF6-449A-A34E-CEAE3EE10543
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_SYNC_ROOT_BASIC_INFO, CF_SYNC_ROOT_BASIC_INFO structure, cfapi/CF_SYNC_ROOT_BASIC_INFO, cloudApi.cf_sync_root_basic_info
 ms.prod: windows
 ms.technology: windows-sdk

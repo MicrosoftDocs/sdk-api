@@ -4,10 +4,10 @@ title: DRMCreateUser function
 author: windows-sdk-content
 description: Creates a user that will be granted a right.
 old-location: rm\drmcreateuser.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: e5679f4f-23e7-40af-9f45-d2077643da98
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateUser, DRMCreateUser function [Active Directory Rights Management Services SDK 1.0], Federation, Internal, Passport, Unspecified, Windows, msdrm/DRMCreateUser, rm.drmcreateuser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ A null-terminated string that identifies a user or group of users (see Remarks).
 ### -param wszUserId [in]
 
 A null-terminated string that identifies a user that will be granted a right. This parameter can be a 
-       Passport ID (PUID), Windows ID <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">security ID</a> (SID), or 
+       Passport ID (PUID), Windows ID <a href="s_gly.htm">security ID</a> (SID), or 
        <b>NULL</b>. If this parameter is <b>NULL</b>, 
        <i>wszUserIdType</i> must contain "Unspecified". This ID is verified by the 
        Active Directory Rights Management Services system. For more information about possible values for this 

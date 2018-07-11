@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_destruct.htm
 old-project: wmi_v2
 ms.assetid: 2ecbf165-0918-489c-8e70-b48c31263aed
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Instance_Destruct, MI_Instance_Destruct function [Windows Management Infrastructure (MI)], mi/MI_Instance_Destruct, wmi_v2.mi_instance_destruct
 ms.prod: windows
 ms.technology: windows-sdk

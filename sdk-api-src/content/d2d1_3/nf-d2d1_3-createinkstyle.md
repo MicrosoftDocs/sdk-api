@@ -4,10 +4,10 @@ title: CreateInkStyle function
 author: windows-sdk-content
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
 old-location: direct2d\id2d1devicecontext2_createinkstyle_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 647cf483-c650-4a6a-a1cd-272f3af0e6b6
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: CreateInkStyle, CreateInkStyle methods [Direct2D], ID2D1DeviceContext2::CreateInkStyle, d2d1_3/CreateInkStyle, direct2d.id2d1devicecontext2_createinkstyle_overload
 ms.prod: windows
 ms.technology: windows-sdk

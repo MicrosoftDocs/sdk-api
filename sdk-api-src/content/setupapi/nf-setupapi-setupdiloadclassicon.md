@@ -7,7 +7,7 @@ old-location: devinst\setupdiloadclassicon.htm
 old-project: devinst
 ms.assetid: f239e207-fb51-4641-a64c-7d8ffa767e18
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiLoadClassIcon, SetupDiLoadClassIcon function [Device and Driver Installation], devinst.setupdiloadclassicon, di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml, setupapi/SetupDiLoadClassIcon
 ms.prod: windows
 ms.technology: windows-sdk

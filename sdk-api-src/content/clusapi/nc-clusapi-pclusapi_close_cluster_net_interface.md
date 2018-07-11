@@ -4,10 +4,10 @@ title: PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE
 author: windows-sdk-content
 description: Closes a network interface handle.
 old-location: mscs\closeclusternetinterface.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE callback, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE callback function [Failover Cluster], _wolf_closeclusternetinterface, clusapi/PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, mscs.closeclusternetinterface
 ms.prod: windows
 ms.technology: windows-sdk

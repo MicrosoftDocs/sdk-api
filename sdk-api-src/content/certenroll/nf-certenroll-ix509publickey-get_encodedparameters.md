@@ -4,10 +4,10 @@ title: IX509PublicKey::get_EncodedParameters
 author: windows-sdk-content
 description: Retrieves a byte array that contains the parameters associated with the public key algorithm.
 old-location: security\ix509publickey_encodedparameters_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: f7c7bf0a-0b66-4676-9448-f74937823f90
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: EncodedParameters property [Security], EncodedParameters property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedParameters property, IX509PublicKey.EncodedParameters, IX509PublicKey.get_EncodedParameters, IX509PublicKey::EncodedParameters, IX509PublicKey::get_EncodedParameters, certenroll/IX509PublicKey::EncodedParameters, certenroll/IX509PublicKey::get_EncodedParameters, get_EncodedParameters, security.ix509publickey_encodedparameters_property
 ms.prod: windows
 ms.technology: windows-sdk

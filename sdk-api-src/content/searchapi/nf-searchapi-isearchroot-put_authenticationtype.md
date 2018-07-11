@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_AuthenticationType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_authenticationtype.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchRoot interface [search],put_AuthenticationType method, ISearchRoot.put_AuthenticationType, ISearchRoot::put_AuthenticationType, _search_ISearchRoot_put_AuthenticationType, put_AuthenticationType, put_AuthenticationType method [search], put_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_put_AuthenticationType, searchapi/ISearchRoot::put_AuthenticationType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Sets the type of authentication required to access the URLs under this search ro
 
 ### -param authType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type.
+A value from the <a href="https://msdn.microsoft.com/430a8631-6ee9-460c-a05c-d930001e1974">AUTH_TYPE</a> enumeration that indicates the authentication type.
 
 
 ## -returns

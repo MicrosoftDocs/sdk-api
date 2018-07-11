@@ -4,10 +4,10 @@ title: RasEapInvokeInteractiveUI function
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapInvokeInteractiveUI function to display a dialog to obtain authentication data from the user.
 old-location: eap\raseapinvokeinteractiveui.htm
-old-project: EAP
+old-project: eap
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,8 +135,8 @@ A pointer to the data returned from the interactive UI is passed back to the aut
 <a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a> function.
 
 The interactive user interface must support 
-<a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="_win32_wm_command_cpp">WM_COMMAND</a> messages where 
+<a href="_win32_loword_cpp">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

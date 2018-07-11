@@ -7,7 +7,7 @@ old-location: base\rtwqunlockplatform.htm
 old-project: ProcThread
 ms.assetid: 8f1e00fb-863a-49e6-a0e3-a3491637b47b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqUnlockPlatform, RtwqUnlockPlatform function, base.rtwqunlockplatform, rtworkq/RtwqUnlockPlatform
 ms.prod: windows
 ms.technology: windows-sdk

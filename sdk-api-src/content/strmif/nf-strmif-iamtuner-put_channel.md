@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_put_channel.htm
 old-project: DirectShow
 ms.assetid: 47ad4288-d855-41cd-b8a2-7b3733a87b41
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Channel method, IAMTuner.put_Channel, IAMTuner::put_Channel, IAMTunerput_Channel, dshow.iamtuner_put_channel, put_Channel, put_Channel method [DirectShow], put_Channel method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Channel
 ms.prod: windows
 ms.technology: windows-sdk

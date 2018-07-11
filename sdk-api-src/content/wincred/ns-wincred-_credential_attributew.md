@@ -7,7 +7,7 @@ old-location: security\credential_attribute.htm
 old-project: SecAuthN
 ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*PCREDENTIAL_ATTRIBUTEW, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEW, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _CREDENTIAL_ATTRIBUTEW, _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk

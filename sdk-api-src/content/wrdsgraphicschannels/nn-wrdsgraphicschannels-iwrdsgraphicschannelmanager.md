@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelmanager.htm
 old-project: TermServ
 ms.assetid: 629589cb-9879-491d-a224-6ae2ce8b0ea3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsGraphicsChannelManager, IWRdsGraphicsChannelManager interface [Remote Desktop Services], IWRdsGraphicsChannelManager interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelmanager, wrdsgraphicschannels/IWRdsGraphicsChannelManager
 ms.prod: windows
 ms.technology: windows-sdk

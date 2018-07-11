@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue_ove
 old-project: directcomp
 ms.assetid: 6f4e04e0-1ec6-a475-264e-d64f68e23fb9
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionTableTransferEffect::SetAlphaTableValue, SetAlphaTableValue, SetAlphaTableValue methods [DirectComposition], dcomp/SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

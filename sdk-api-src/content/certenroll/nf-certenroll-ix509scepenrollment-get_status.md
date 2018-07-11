@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::get_Status
 author: windows-sdk-content
 description: Gets the status of the request.
 old-location: security\ix509scepenrollment_status.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 252d7767-fc48-4d7d-9fcd-6312b5b78611
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Status property, IX509SCEPEnrollment.Status, IX509SCEPEnrollment.get_Status, IX509SCEPEnrollment::Status, IX509SCEPEnrollment::get_Status, Status property [Security], Status property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Status, certenroll/IX509SCEPEnrollment::get_Status, get_Status, security.ix509scepenrollment_status
 ms.prod: windows
 ms.technology: windows-sdk

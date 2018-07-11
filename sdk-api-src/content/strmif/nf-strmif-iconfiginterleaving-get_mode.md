@@ -7,7 +7,7 @@ old-location: dshow\iconfiginterleaving_get_mode.htm
 old-project: DirectShow
 ms.assetid: 02136798-1c49-4181-ad08-d128f580dbd4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Mode method, IConfigInterleaving.get_Mode, IConfigInterleaving::get_Mode, IConfigInterleavingget_Mode, dshow.iconfiginterleaving_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Mode
 ms.prod: windows
 ms.technology: windows-sdk

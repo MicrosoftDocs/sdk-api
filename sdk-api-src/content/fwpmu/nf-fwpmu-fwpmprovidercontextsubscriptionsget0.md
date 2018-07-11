@@ -4,10 +4,10 @@ title: FwpmProviderContextSubscriptionsGet0 function
 author: windows-sdk-content
 description: Retrieves an array of all the current provider context change notification subscriptions.
 old-location: fwp\fwpmprovidercontextsubscriptionsget0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 68c8c360-3b12-4a7c-8a68-5128139a862a
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmProviderContextSubscriptionsGet0, FwpmProviderContextSubscriptionsGet0 function [Filtering], fwp.fwpmprovidercontextsubscriptionsget0_func, fwpmu/FwpmProviderContextSubscriptionsGet0
 ms.prod: windows
 ms.technology: windows-sdk

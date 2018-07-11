@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_GetCanonicalName.htm
 old-project: shell
 ms.assetid: c0f2fc66-98f5-404f-9d82-0290ed235ac0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Shell], GetCanonicalName method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetCanonicalName method, IExplorerCommand.GetCanonicalName, IExplorerCommand::GetCanonicalName, _shell_IExplorerCommand_GetCanonicalName, shell.IExplorerCommand_GetCanonicalName, shobjidl_core/IExplorerCommand::GetCanonicalName
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\flscallback.htm
 old-project: ProcThread
 ms.assetid: d05a6550-7fec-44e6-9b38-dfafff7895c8
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: FlsCallback, FlsCallback callback function, PFLS_CALLBACK_FUNCTION, PFLS_CALLBACK_FUNCTION callback, _win32_flscallback, base.flscallback, winnt/FlsCallback
 ms.prod: windows
 ms.technology: windows-sdk

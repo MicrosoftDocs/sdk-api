@@ -4,10 +4,10 @@ title: ITextDocument::Undo
 author: windows-sdk-content
 description: Performs a specified number of undo operations.
 old-location: controls\ITextDocument_Undo.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\undo.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextDocument interface [Windows Controls],Undo method, ITextDocument.Undo, ITextDocument::Undo, Undo, Undo method [Windows Controls], Undo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,11 +102,11 @@ If all of the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774101(v=VS.85).aspx">Redo</a>
+<a href="https://msdn.microsoft.com/45d8c366-a50a-4a0f-96c8-aa31629e280f">Redo</a>
 
 
 
@@ -114,7 +114,7 @@ If all of the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -4,10 +4,10 @@ title: RpcNsBindingLookupDone function
 author: windows-sdk-content
 description: The RpcNsBindingLookupDone function signifies that a client has finished looking for compatible servers and deletes the lookup context.
 old-location: rpc\rpcnsbindinglookupdone.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: bf272b29-8594-428a-947c-cc91ddfb4538
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcNsBindingLookupDone, RpcNsBindingLookupDone function [RPC], _rpc_rpcnsbindinglookupdone, rpc.rpcnsbindinglookupdone, rpcnsi/RpcNsBindingLookupDone
 ms.prod: windows
 ms.technology: windows-sdk

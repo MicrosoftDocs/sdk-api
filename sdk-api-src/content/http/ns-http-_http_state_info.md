@@ -4,10 +4,10 @@ title: "_HTTP_STATE_INFO"
 author: windows-sdk-content
 description: Used to enable or disable a Server Session or URL Group.
 old-location: http\http_state_info.htm
-old-project: Http
+old-project: http
 ms.assetid: 736ae89b-a4fb-4962-ae68-9aaccd869c88
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_STATE_INFO, *PHTTP_STATE_INFO structure [HTTP], HTTP_STATE_INFO, HTTP_STATE_INFO structure [HTTP], _HTTP_STATE_INFO, http.http_state_info, http/*PHTTP_STATE_INFO, http/HTTP_STATE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

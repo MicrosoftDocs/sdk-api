@@ -4,10 +4,10 @@ title: SymEnumSourceFileTokens function
 author: windows-sdk-content
 description: Enumerates all individual entries in a module's source server data, if available.
 old-location: base\symenumsourcefiletokens.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 0377ef07-bf9f-4938-8fc4-ae14373db590
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymEnumSourceFileTokens, SymEnumSourceFileTokens function, base.symenumsourcefiletokens, dbghelp/SymEnumSourceFileTokens
 ms.prod: windows
 ms.technology: windows-sdk

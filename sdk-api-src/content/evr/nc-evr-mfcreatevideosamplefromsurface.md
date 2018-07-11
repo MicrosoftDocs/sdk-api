@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideosamplefromsurface.htm
 old-project: medfound
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
 ms.prod: windows
 ms.technology: windows-sdk

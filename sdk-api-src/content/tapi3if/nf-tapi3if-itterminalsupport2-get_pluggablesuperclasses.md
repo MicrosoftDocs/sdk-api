@@ -4,10 +4,10 @@ title: ITTerminalSupport2::get_PluggableSuperclasses
 author: windows-sdk-content
 description: The get_PluggableSuperclasses method returns a collection of ITPluggableTerminalSuperclassInfo superclass information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggablesuperclasses.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 6d66aeca-5ac2-4019-b326-71c3bfb6d28e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableSuperclasses method, ITTerminalSupport2.get_PluggableSuperclasses, ITTerminalSupport2::get_PluggableSuperclasses, _tapi3_itterminalsupport2_get_pluggablesuperclasses, get_PluggableSuperclasses, get_PluggableSuperclasses method [TAPI 2.2], get_PluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, tapi3.itterminalsupport2_get_pluggablesuperclasses, tapi3if/ITTerminalSupport2::get_PluggableSuperclasses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,8 +125,8 @@ The <i>pVariant</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/f9226af1-90e7-4317-af73-e1563883e2b6">ITPluggableTerminalSuperclassInfo</a> interface returned by <b>ITTerminalSupport2::get_PluggableSuperclasses</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/f9226af1-90e7-4317-af73-e1563883e2b6">ITPluggableTerminalSuperclassInfo</a> interface returned by <b>ITTerminalSupport2::get_PluggableSuperclasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <a href="https://msdn.microsoft.com/f9226af1-90e7-4317-af73-e1563883e2b6">ITPluggableTerminalSuperclassInfo</a> interface to free resources associated with it.
 
 

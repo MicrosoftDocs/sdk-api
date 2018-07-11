@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_get_baseurl.htm
 old-project: WMP
 ms.assetid: 2e4a2696-624f-4c6f-8947-2fe0b457332c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_baseURL method, IWMPSettings.get_baseURL, IWMPSettings::get_baseURL, IWMPSettingsget_baseURL, get_baseURL, get_baseURL method [Windows Media Player], get_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_baseurl, wmp/IWMPSettings::get_baseURL
 ms.prod: windows
 ms.technology: windows-sdk

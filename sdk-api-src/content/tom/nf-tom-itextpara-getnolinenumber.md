@@ -4,10 +4,10 @@ title: ITextPara::GetNoLineNumber
 author: windows-sdk-content
 description: Determines whether paragraph numbering is enabled.
 old-location: controls\ITextPara_GetNoLineNumber.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getnolinenumber.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetNoLineNumber, GetNoLineNumber method [Windows Controls], GetNoLineNumber method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetNoLineNumber method, ITextPara.GetNoLineNumber, ITextPara::GetNoLineNumber, _win32_ITextPara_GetNoLineNumber, _win32_ITextPara_GetNoLineNumber_cpp, controls.ITextPara_GetNoLineNumber, controls._win32_ITextPara_GetNoLineNumber, tom/ITextPara::GetNoLineNumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ Paragraph numbering is when the paragraphs of a range are numbered. The number a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -172,11 +172,11 @@ Paragraph numbering is when the paragraphs of a range are numbered. The number a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787790(v=VS.85).aspx">SetNoLineNumber</a>
+<a href="https://msdn.microsoft.com/d4c8d079-f832-4030-98eb-4a07cb7a8f05">SetNoLineNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassInfo::get_TerminalClass
 author: windows-sdk-content
 description: The get_TerminalClass method gets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassinfo_get_terminalclass.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 7dfa6cf8-23b8-4959-ba39-6efda1d71562
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_TerminalClass method, ITPluggableTerminalClassInfo.get_TerminalClass, ITPluggableTerminalClassInfo::get_TerminalClass, _tapi3_itpluggableterminalclassinfo_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_terminalclass, tapi3if/ITPluggableTerminalClassInfo::get_TerminalClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 
  The <b>BSTR</b> representation of the terminal's 
 <a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">terminal class</a>. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. It should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. It should be deallocated by the client.
 
 
 ## -returns

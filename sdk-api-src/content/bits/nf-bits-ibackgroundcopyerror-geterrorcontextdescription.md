@@ -4,10 +4,10 @@ title: IBackgroundCopyError::GetErrorContextDescription
 author: windows-sdk-content
 description: Retrieves the description of the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterrorcontextdescription.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 87f5ae62-c171-4637-bebb-3a5c5aa546b3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetErrorContextDescription, GetErrorContextDescription method [BITS], GetErrorContextDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorContextDescription method, IBackgroundCopyError.GetErrorContextDescription, IBackgroundCopyError::GetErrorContextDescription, _drz_ibackgroundcopyerror_geterrorcontextdescription, bits.ibackgroundcopyerror_geterrorcontextdescription, bits/IBackgroundCopyError::GetErrorContextDescription
 ms.prod: windows
 ms.technology: windows-sdk

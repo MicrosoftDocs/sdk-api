@@ -4,10 +4,10 @@ title: ListBox_FindItemData macro
 author: windows-sdk-content
 description: Finds the first item in a list box that has the specified item data. You can use this macro or send the LB_FINDSTRING message explicitly.
 old-location: controls\ListBox_FindItemData.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_finditemdata.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListBox_FindItemData, ListBox_FindItemData macro [Windows Controls], _win32_ListBox_FindItemData, _win32_ListBox_FindItemData_cpp, controls.ListBox_FindItemData, controls._win32_ListBox_FindItemData, windowsx/ListBox_FindItemData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Finds the first item in a list box that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775187(v=VS.85).aspx">LB_FINDSTRING</a> message explicitly.
+Finds the first item in a list box that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/1b7f25a7-0892-4d12-b3e3-21180d9ddfb1">LB_FINDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775187(v=VS.85).aspx">LB_FINDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/1b7f25a7-0892-4d12-b3e3-21180d9ddfb1">LB_FINDSTRING</a>.
 	
 
 

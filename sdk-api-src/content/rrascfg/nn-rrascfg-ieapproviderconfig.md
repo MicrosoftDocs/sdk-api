@@ -4,10 +4,10 @@ title: IEAPProviderConfig
 author: windows-sdk-content
 description: UI for EAP provider.
 old-location: eap\ieapproviderconfig.htm
-old-project: EAP
+old-project: eap
 ms.assetid: 1e0283b7-ceb3-4c8a-99d9-1a1f1eb5eeb0
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], IEAPProviderConfig interface [EAP],described, _eap_ieapproviderconfig, eap.ieapproviderconfig, rrascfg/IEAPProviderConfig
 ms.prod: windows
 ms.technology: windows-sdk

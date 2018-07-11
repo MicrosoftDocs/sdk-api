@@ -7,7 +7,7 @@ old-location: mf\imfsensorprocessactivity_getprocessid.htm
 old-project: medfound
 ms.assetid: E4277F4B-8CBB-4910-991B-1234AFEB49B3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId
 ms.prod: windows
 ms.technology: windows-sdk

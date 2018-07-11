@@ -7,7 +7,7 @@ old-location: multimedia\acmdriverpriority.htm
 old-project: Multimedia
 ms.assetid: 62ab009e-b8fe-4b92-ba0f-a98cd761307b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "_win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority"
 ms.prod: windows
 ms.technology: windows-sdk

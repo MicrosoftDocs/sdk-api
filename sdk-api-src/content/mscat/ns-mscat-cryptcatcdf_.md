@@ -4,10 +4,10 @@ title: CRYPTCATCDF_
 author: windows-sdk-content
 description: Contains information used to create a signed catalog file (.cat) from a catalog definition file (CDF).
 old-location: security\cryptcatcdf.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 15d5710a-d4df-4e45-b161-5d4f7509ba29
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CRYPTCATCDF, CRYPTCATCDF structure [Security], CRYPTCATCDF_, mscat/CRYPTCATCDF, security.cryptcatcdf
 ms.prod: windows
 ms.technology: windows-sdk

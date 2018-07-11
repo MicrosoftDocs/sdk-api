@@ -4,10 +4,10 @@ title: IVssBackupComponents::PreRestore
 author: windows-sdk-content
 description: The PreRestore method will cause VSS to generate a PreRestore event, signaling writers to prepare for an upcoming restore operation.
 old-location: base\ivssbackupcomponents_prerestore.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 7a4c8869-9655-49a7-818b-98a08103f4b4
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssBackupComponents interface [VSS],PreRestore method, IVssBackupComponents.PreRestore, IVssBackupComponents::PreRestore, PreRestore, PreRestore method [VSS], PreRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prerestore, base.ivssbackupcomponents_prerestore, vsbackup/IVssBackupComponents::PreRestore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 
 The 
 <b>PreRestore</b> method will cause VSS to generate a 
-<a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
+<a href="vssgloss_p.htm">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
 
 
 ## -parameters
@@ -158,7 +158,7 @@ Special consideration should be given to EFI systems when the requester has sele
 <li>You are restoring to an EFI system disk whose partitioning has changed since the last ASR backup.</li>
 <li>You are restoring to a different physical drive than the one from which the backup was taken.</li>
 </ul>
-Failure to perform this disk-cleaning step may result in unexpected results during <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PreRestore</a>.
+Failure to perform this disk-cleaning step may result in unexpected results during <a href="vssgloss_p.htm">PreRestore</a>.
 
 For more information about the ASR writer, see <a href="https://msdn.microsoft.com/e20a303d-9440-42be-b383-85f6fad89157">In-Box VSS Writers</a>.
 

@@ -7,7 +7,7 @@ old-location: com\olequerycreatefromdata.htm
 old-project: com
 ms.assetid: 58fffb8c-9726-4801-84ce-6fb670b865c8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleQueryCreateFromData, OleQueryCreateFromData function [COM], _ole_OleQueryCreateFromData, com.olequerycreatefromdata, ole2/OleQueryCreateFromData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TabCtrl_DeleteItem macro
 author: windows-sdk-content
 description: Removes an item from a tab control. You can use this macro or send the TCM_DELETEITEM message explicitly.
 old-location: controls\TabCtrl_DeleteItem.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TabCtrl_DeleteItem, TabCtrl_DeleteItem macro [Windows Controls], _win32_TabCtrl_DeleteItem, _win32_TabCtrl_DeleteItem_cpp, commctrl/TabCtrl_DeleteItem, controls.TabCtrl_DeleteItem, controls._win32_TabCtrl_DeleteItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760577(v=VS.85).aspx">TCM_DELETEITEM</a> message explicitly. 
+Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/54bfa446-580a-4ea7-b5e9-9429f4ee1c2b">TCM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters

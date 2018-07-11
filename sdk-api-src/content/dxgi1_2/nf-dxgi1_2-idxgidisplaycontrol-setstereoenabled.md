@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidisplaycontrol_SetStereoEnabled.htm
 old-project: direct3ddxgi
 ms.assetid: 4A449444-287D-4F1D-9A86-F6165C38048F
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],SetStereoEnabled method, IDXGIDisplayControl.SetStereoEnabled, IDXGIDisplayControl::SetStereoEnabled, SetStereoEnabled, SetStereoEnabled method [DXGI], SetStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_SetStereoEnabled, dxgi1_2/IDXGIDisplayControl::SetStereoEnabled
 ms.prod: windows
 ms.technology: windows-sdk

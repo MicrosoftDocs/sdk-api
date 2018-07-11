@@ -7,7 +7,7 @@ old-location: tsf\ienumtfpropertyvalue_clone.htm
 old-project: TSF
 ms.assetid: 10c21ea3-a984-4dde-afb4-715a5273fd03
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfPropertyValue interface, IEnumTfPropertyValue interface [Text Services Framework],Clone method, IEnumTfPropertyValue.Clone, IEnumTfPropertyValue::Clone, _tsf_ienumtfpropertyvalue_clone_ref, msctf/IEnumTfPropertyValue::Clone, tsf.ienumtfpropertyvalue_clone
 ms.prod: windows
 ms.technology: windows-sdk

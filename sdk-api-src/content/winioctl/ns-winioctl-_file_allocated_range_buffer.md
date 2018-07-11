@@ -4,10 +4,10 @@ title: "_FILE_ALLOCATED_RANGE_BUFFER"
 author: windows-sdk-content
 description: Indicates a range of bytes in a file.
 old-location: fs\file_allocated_range_buffer_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e9c7d757-df29-4419-baba-56beb41623bf
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PFILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER structure [Files], PFILE_ALLOCATED_RANGE_BUFFER, PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files], _FILE_ALLOCATED_RANGE_BUFFER, _win32_file_allocated_range_buffer_str, base.file_allocated_range_buffer_str, fs.file_allocated_range_buffer_str, winioctl/FILE_ALLOCATED_RANGE_BUFFER, winioctl/PFILE_ALLOCATED_RANGE_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

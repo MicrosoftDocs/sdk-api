@@ -4,10 +4,10 @@ title: GetInheritanceSourceW function
 author: windows-sdk-content
 description: Returns information about the source of inherited access control entries (ACEs) in an access control list (ACL).
 old-location: security\getinheritancesource.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: ccc1702b-e414-4831-ae8b-fd92499bec94
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], GetInheritanceSourceA, GetInheritanceSourceW, _win32_getinheritancesource, aclapi/GetInheritanceSource, aclapi/GetInheritanceSourceA, aclapi/GetInheritanceSourceW, security.getinheritancesource
 ms.prod: windows
 ms.technology: windows-sdk

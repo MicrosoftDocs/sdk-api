@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\rendertargetbitmapoptions.htm
 old-project: xaml_diagnostics
 ms.assetid: 02A22436-A11B-4417-9832-1AB0B0FB1FA3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: RenderTarget, RenderTargetAndChildren, RenderTargetBitmapOptions, RenderTargetBitmapOptions enumeration, xaml_diagnostics.rendertargetbitmapoptions, xamlom/RenderTarget, xamlom/RenderTargetAndChildren, xamlom/RenderTargetBitmapOptions
 ms.prod: windows
 ms.technology: windows-sdk

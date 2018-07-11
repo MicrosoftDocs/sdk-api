@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clipboardpaste.htm
 old-project: tablet
 ms.assetid: c2760791-4238-45a9-a561-a48a55d6444b
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: ClipboardPaste, ClipboardPaste method [Tablet PC], ClipboardPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardPaste method, IInkDisp.ClipboardPaste, IInkDisp::ClipboardPaste, c2760791-4238-45a9-a561-a48a55d6444b, msinkaut/IInkDisp::ClipboardPaste, tablet.inkdisp_clipboardpaste
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,7 +137,7 @@ An exception occurred inside the method.
 
 
 
-An error is returned if an unexpected error occurs while accessing the <a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>. If no error occurs but the Clipboard does not contain a format that can be pasted into <b>ink</b> -either <b>ink serialized format (ISF)</b> or a <b>text ink object (tInk)</b> -then <b>NULL</b> is returned and no exception is thrown. For more information about the Clipboard, see Clipboard in MSDN&lt;entity type="reg"/&gt;
+An error is returned if an unexpected error occurs while accessing the <a href="winui._win32_Clipboard">Clipboard</a>. If no error occurs but the Clipboard does not contain a format that can be pasted into <b>ink</b> -either <b>ink serialized format (ISF)</b> or a <b>text ink object (tInk)</b> -then <b>NULL</b> is returned and no exception is thrown. For more information about the Clipboard, see Clipboard in MSDN&lt;entity type="reg"/&gt;
 
 
 

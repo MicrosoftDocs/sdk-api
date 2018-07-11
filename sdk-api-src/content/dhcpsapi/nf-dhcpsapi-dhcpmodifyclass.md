@@ -4,10 +4,10 @@ title: DhcpModifyClass function
 author: windows-sdk-content
 description: Modifies a DHCP class defined on the server.
 old-location: dhcp\dhcpmodifyclass.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 4ee8897f-d49a-4b60-a26e-e7e11c088353
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpModifyClass, DhcpModifyClass function [DHCP], dhcp.dhcpmodifyclass, dhcpsapi/DhcpModifyClass
 ms.prod: windows
 ms.technology: windows-sdk

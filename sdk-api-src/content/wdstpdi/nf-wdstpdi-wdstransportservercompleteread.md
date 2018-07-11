@@ -4,10 +4,10 @@ title: WdsTransportServerCompleteRead function
 author: windows-sdk-content
 description: Provides status of read operation.
 old-location: wds\wdstransportservercompleteread.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 0f98305d-4173-4d6f-9132-f1fcc12364ed
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsTransportServerCompleteRead, WdsTransportServerCompleteRead function [Windows Deployment Services], wds.wdstransportservercompleteread, wdstpdi/WdsTransportServerCompleteRead
 ms.prod: windows
 ms.technology: windows-sdk

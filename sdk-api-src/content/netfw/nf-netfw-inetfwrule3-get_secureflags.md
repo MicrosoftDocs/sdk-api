@@ -4,10 +4,10 @@ title: INetFwRule3::get_SecureFlags
 author: windows-sdk-content
 description: Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the NET_FW_AUTHENTICATE_TYPE enumeration.
 old-location: ics\inetfwrule3_secureflags.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 3efb3491-f030-4a0a-bfbd-ab18fd424a38
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],SecureFlags property, INetFwRule3.SecureFlags, INetFwRule3.get_SecureFlags, INetFwRule3::SecureFlags, INetFwRule3::get_SecureFlags, INetFwRule3::put_SecureFlags, SecureFlags property [ICS/ICF], SecureFlags property [ICS/ICF],INetFwRule3 interface, get_SecureFlags, ics.inetfwrule3_secureflags, netfw/INetFwRule3::SecureFlags, netfw/INetFwRule3::get_SecureFlags, netfw/INetFwRule3::put_SecureFlags
 ms.prod: windows
 ms.technology: windows-sdk

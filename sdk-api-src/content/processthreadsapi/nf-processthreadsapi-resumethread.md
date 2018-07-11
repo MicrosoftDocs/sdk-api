@@ -7,7 +7,7 @@ old-location: base\resumethread.htm
 old-project: ProcThread
 ms.assetid: ffc4e474-635b-4bf7-a68f-073899fb3fde
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: ResumeThread, ResumeThread function, _win32_resumethread, base.resumethread, processthreadsapi/ResumeThread, winbase/ResumeThread
 ms.prod: windows
 ms.technology: windows-sdk

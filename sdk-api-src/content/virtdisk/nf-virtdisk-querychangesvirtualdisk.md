@@ -7,7 +7,7 @@ old-location: vhd\querychangesvirtualdisk.htm
 old-project: VStor
 ms.assetid: 633FA684-5CC6-4615-B62C-54C60B38E652
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: QueryChangesVirtualDisk, QueryChangesVirtualDisk function [VHD], vdssys/QueryChangesVirtualDisk, vhd.querychangesvirtualdisk, virtdisk/QueryChangesVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk

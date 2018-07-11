@@ -4,10 +4,10 @@ title: RESPONSEBODY_Renew
 author: windows-sdk-content
 description: Represents a WS-Eventing Renew response message.
 old-location: ncd\responsebody_renew_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 3fe288b6-bb84-4b8f-b973-b2309c60c28e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: RESPONSEBODY_Renew, RESPONSEBODY_Renew structure, ncd.responsebody_renew_struct, wsdtypes/RESPONSEBODY_Renew
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

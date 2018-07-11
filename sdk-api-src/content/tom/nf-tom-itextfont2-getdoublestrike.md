@@ -4,10 +4,10 @@ title: ITextFont2::GetDoubleStrike
 author: windows-sdk-content
 description: Gets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_getdoublestrike.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 9e599c29-4b47-4043-b9c7-75a736ca64fa
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetDoubleStrike, GetDoubleStrike method [Windows Controls], GetDoubleStrike method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDoubleStrike method, ITextFont2.GetDoubleStrike, ITextFont2::GetDoubleStrike, controls.itextfont2_getdoublestrike, tom/ITextFont2::GetDoubleStrike
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets whether characters are displayed with double horizontal lines through the c
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

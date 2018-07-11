@@ -4,10 +4,10 @@ title: IX509EnrollmentStatus::put_Error
 author: windows-sdk-content
 description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
 old-location: security\ix509enrollmentstatus_error_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 397ed934-5ec8-4653-ada4-e966f68cbbf2
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Error property [Security], Error property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],Error property, IX509EnrollmentStatus.Error, IX509EnrollmentStatus.put_Error, IX509EnrollmentStatus::Error, IX509EnrollmentStatus::get_Error, IX509EnrollmentStatus::put_Error, certenroll/IX509EnrollmentStatus::Error, certenroll/IX509EnrollmentStatus::get_Error, certenroll/IX509EnrollmentStatus::put_Error, put_Error, security.ix509enrollmentstatus_error_property
 ms.prod: windows
 ms.technology: windows-sdk

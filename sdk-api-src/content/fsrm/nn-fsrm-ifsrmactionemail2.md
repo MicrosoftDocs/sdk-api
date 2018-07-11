@@ -4,10 +4,10 @@ title: IFsrmActionEmail2
 author: windows-sdk-content
 description: Used to limit the number of expired files listed in the email notification.
 old-location: fsrm\ifsrmactionemail2.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 278ef98d-fb1d-42a4-a740-07c5e713a230
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmActionEmail2, IFsrmActionEmail2 interface [File Server Resource Manager], IFsrmActionEmail2 interface [File Server Resource Manager],described, fs.ifsrmactionemail2, fsrm.ifsrmactionemail2, fsrm/IFsrmActionEmail2
 ms.prod: windows
 ms.technology: windows-sdk

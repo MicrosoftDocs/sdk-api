@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile_getuncompressedsize.htm
 old-project: appxpkg
 ms.assetid: 35D3EADC-F8EF-4D8F-8016-2E30976965EC
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetUncompressedSize, GetUncompressedSize method [App packaging and management], GetUncompressedSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetUncompressedSize method, IAppxBlockMapFile.GetUncompressedSize, IAppxBlockMapFile::GetUncompressedSize, appxpackaging/IAppxBlockMapFile::GetUncompressedSize, appxpkg.iappxblockmapfile_getuncompressedsize
 ms.prod: windows
 ms.technology: windows-sdk

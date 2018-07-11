@@ -7,7 +7,7 @@ old-location: shell\SHReplaceFromPropSheetExtArray.htm
 old-project: shell
 ms.assetid: a8bdde44-d668-46c4-9e58-7a45b775fe09
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The ID of the page to replace.
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb760805(v=VS.85).aspx">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
+A pointer to an <a href="https://msdn.microsoft.com/37673813-89dc-4624-a58b-fe5f44df46c6">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
 
 
 ### -param lParam

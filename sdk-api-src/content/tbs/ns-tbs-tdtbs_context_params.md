@@ -4,10 +4,10 @@ title: tdTBS_CONTEXT_PARAMS
 author: windows-sdk-content
 description: Specifies the version of the TBS context implementation.
 old-location: tbs\tbs_context_params.htm
-old-project: TBS
+old-project: tbs
 ms.assetid: 1b2093b3-6e5e-4289-9b1b-48027ded0fac
 ms.author: windowssdkdev
-ms.date: 03/01/2018
+ms.date: 03/02/2018
 ms.keywords: "*PTBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS structure [TBS], tbs.tbs_context_params, tbs/TBS_CONTEXT_PARAMS, tdTBS_CONTEXT_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnumStream
 author: windows-sdk-content
 description: The IEnumStream interface provides COM-standard enumeration methods for the ITStream interface. The ITStreamControl::EnumerateStreams and ITParticipant::EnumerateStreams methods return a pointer to IEnumStream.
 old-location: tapi3\ienumstream.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 52e8c040-8bc5-4c9c-a697-ec05164adea2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IEnumStream, IEnumStream interface [TAPI 2.2], IEnumStream interface [TAPI 2.2],described, _tapi3_ienumstream, tapi3.ienumstream, tapi3if/IEnumStream
 ms.prod: windows
 ms.technology: windows-sdk

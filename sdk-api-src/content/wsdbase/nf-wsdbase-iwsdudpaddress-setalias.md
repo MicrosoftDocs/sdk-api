@@ -4,10 +4,10 @@ title: IWSDUdpAddress::SetAlias
 author: windows-sdk-content
 description: Sets the alias for the discovery address.
 old-location: ncd\iwsdudpaddress_setalias.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 2156f271-cad4-4160-8d1f-bc44dc7b0e9f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: IWSDUdpAddress interface,SetAlias method, IWSDUdpAddress.SetAlias, IWSDUdpAddress::SetAlias, SetAlias, SetAlias method, SetAlias method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setalias, wsdbase/IWSDUdpAddress::SetAlias
 ms.prod: windows
 ms.technology: windows-sdk

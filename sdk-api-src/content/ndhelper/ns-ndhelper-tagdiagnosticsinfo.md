@@ -4,10 +4,10 @@ title: tagDiagnosticsInfo
 author: windows-sdk-content
 description: The DiagnosticsInfo structure contains the estimate of diagnosis time, and flags for invocation.
 old-location: ndf\diagnosticsinfo.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: c84cc4ef-ff47-447e-b216-b704cb02719a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo, tagDiagnosticsInfo"
 ms.prod: windows
 ms.technology: windows-sdk

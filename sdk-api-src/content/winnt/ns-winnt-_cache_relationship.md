@@ -7,7 +7,7 @@ old-location: base\cache_relationship.htm
 old-project: ProcThread
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP"
 ms.prod: windows
 ms.technology: windows-sdk

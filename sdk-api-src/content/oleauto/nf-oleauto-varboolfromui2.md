@@ -7,7 +7,7 @@ old-location: automat\varboolfromui2.htm
 old-project: automat
 ms.assetid: 2ee04e9d-0a6b-4fc7-b572-51e943aa1daf
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarBoolFromUI2, VarBoolFromUI2 function [Automation], _oa96_VarBoolFromUI2, automat.varboolfromui2, oleauto/VarBoolFromUI2
 ms.prod: windows
 ms.technology: windows-sdk

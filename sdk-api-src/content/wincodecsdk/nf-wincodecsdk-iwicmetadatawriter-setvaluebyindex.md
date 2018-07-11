@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriter_setvaluebyindex.htm
 old-project: wic
 ms.assetid: 012ef661-c1cf-48fd-a748-223fa965f9a9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValueByIndex method, IWICMetadataWriter.SetValueByIndex, IWICMetadataWriter::SetValueByIndex, SetValueByIndex, SetValueByIndex method [Windows Imaging Component], SetValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvaluebyindex, wic._wic_codec_iwicmetadatawriter_setvaluebyindex, wincodecsdk/IWICMetadataWriter::SetValueByIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,21 +68,21 @@ The index to place the metadata item.
 
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the schema property of the metadata item.
 
 
 ### -param pvarId [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the id property of the metadata item.
 
 
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata value to set at the given index.
 

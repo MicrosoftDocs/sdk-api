@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_deletepartnership.htm
 old-project: WMP
 ms.assetid: ecb525b4-c804-47e6-8d6c-7d943010077a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],deletePartnership method, IWMPSyncDevice.deletePartnership, IWMPSyncDevice::deletePartnership, IWMPSyncDevicedeletePartnership, deletePartnership, deletePartnership method [Windows Media Player], deletePartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_deletepartnership, wmp/IWMPSyncDevice::deletePartnership
 ms.prod: windows
 ms.technology: windows-sdk

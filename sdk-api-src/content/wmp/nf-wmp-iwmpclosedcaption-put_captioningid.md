@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_put_captioningid.htm
 old-project: WMP
 ms.assetid: 46736a28-e05d-404c-8bad-a51ac58435f0
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_captioningId method, IWMPClosedCaption.put_captioningId, IWMPClosedCaption::put_captioningId, IWMPClosedCaptionput_captioningId, put_captioningId, put_captioningId method [Windows Media Player], put_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_captioningid, wmp/IWMPClosedCaption::put_captioningId
 ms.prod: windows
 ms.technology: windows-sdk

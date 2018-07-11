@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_getflags.htm
 old-project: medfound
 ms.assetid: 97809620-57ad-48f1-94ba-a2e121cdfee6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 97809620-57ad-48f1-94ba-a2e121cdfee6, GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetFlags method, IMFASFIndexer.GetFlags, IMFASFIndexer::GetFlags, mf.imfasfindexer_getflags, wmcontainer/IMFASFIndexer::GetFlags
 ms.prod: windows
 ms.technology: windows-sdk

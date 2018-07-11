@@ -4,10 +4,10 @@ title: "_CSV_CONTROL_OP"
 author: windows-sdk-content
 description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
 old-location: fs\csv_control_op.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 77A2106F-2C07-4A30-BA46-651F74032609
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PCSV_CONTROL_OP, CSV_CONTROL_OP, CSV_CONTROL_OP enumeration [Files], CsvControlMdsPath, CsvControlQueryFileRevision, CsvControlQueryRedirectState, CsvControlStartRedirectFile, CsvControlStopRedirectFile, PCSV_CONTROL_OP, PCSV_CONTROL_OP enumeration pointer [Files], _CSV_CONTROL_OP, fs.csv_control_op, winioctl/CSV_CONTROL_OP, winioctl/CsvControlMdsPath, winioctl/CsvControlQueryFileRevision, winioctl/CsvControlQueryRedirectState, winioctl/CsvControlStartRedirectFile, winioctl/CsvControlStopRedirectFile, winioctl/PCSV_CONTROL_OP"
 ms.prod: windows
 ms.technology: windows-sdk

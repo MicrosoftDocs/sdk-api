@@ -4,10 +4,10 @@ title: TabCtrl_SetMinTabWidth macro
 author: windows-sdk-content
 description: Sets the minimum width of items in a tab control. You can use this macro or send the TCM_SETMINTABWIDTH message explicitly.
 old-location: controls\TabCtrl_SetMinTabWidth.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setmintabwidth.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TabCtrl_SetMinTabWidth, TabCtrl_SetMinTabWidth macro [Windows Controls], _win32_TabCtrl_SetMinTabWidth, _win32_TabCtrl_SetMinTabWidth_cpp, commctrl/TabCtrl_SetMinTabWidth, controls.TabCtrl_SetMinTabWidth, controls._win32_TabCtrl_SetMinTabWidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760637(v=VS.85).aspx">TCM_SETMINTABWIDTH</a> message explicitly. 
+Sets the minimum width of items in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/c0be3d4e-774c-4233-820f-01ffbb69ecf0">TCM_SETMINTABWIDTH</a> message explicitly. 
 
 
 ## -parameters

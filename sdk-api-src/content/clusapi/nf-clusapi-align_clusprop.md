@@ -4,10 +4,10 @@ title: ALIGN_CLUSPROP macro
 author: windows-sdk-content
 description: Aligns structures properly within value lists.
 old-location: mscs\align_clusprop.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: af7c9d39-b76f-494d-af5d-7e0baf0ace2d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ALIGN_CLUSPROP, ALIGN_CLUSPROP macro [Failover Cluster], _wolf_align_clusprop, clusapi/ALIGN_CLUSPROP, mscs.align_clusprop
 ms.prod: windows
 ms.technology: windows-sdk

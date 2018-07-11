@@ -4,10 +4,10 @@ title: ICryptAttribute
 author: windows-sdk-content
 description: The ICryptAttribute interface represents a cryptographic attribute in a certificate request. A collection of these attributes is contained in the CertificateRequestInfo structure of a PKCS #10 request as shown by the following example syntax.
 old-location: security\icryptattribute.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2aefde1b-0f77-4a88-8851-5bacd363900b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttribute interface [Security],described, certenroll/ICryptAttribute, security.icryptattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ AttributeSetValue ::= SET OF ANY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttribute</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttribute</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -176,7 +176,7 @@ Retrieves an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

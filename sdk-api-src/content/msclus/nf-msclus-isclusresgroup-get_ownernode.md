@@ -4,10 +4,10 @@ title: ISClusResGroup::get_OwnerNode
 author: windows-sdk-content
 description: Returns the node currently hosting a group.
 old-location: mscs\clusresgroup_ownernode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d42e2f2e-5a67-4e9e-9e54-34f514c0a8f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],OwnerNode property, ClusResGroup.OwnerNode, ISClusResGroup.get_OwnerNode, ISClusResGroup::get_OwnerNode, OwnerNode property [Failover Cluster], OwnerNode property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.ownernode, get_OwnerNode, mscs.clusresgroup_ownernode
 ms.prod: windows
 ms.technology: windows-sdk

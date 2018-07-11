@@ -4,10 +4,10 @@ title: IX509ExtensionTemplateName::InitializeDecode
 author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensiontemplatename_initializedecode_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 05fb275c-75b2-4619-8d6a-c6c9868d9765
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509ExtensionTemplateName interface [Security],InitializeDecode method, IX509ExtensionTemplateName.InitializeDecode, IX509ExtensionTemplateName::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionTemplateName interface, certenroll/IX509ExtensionTemplateName::InitializeDecode, security.ix509extensiontemplatename_initializedecode_method
 ms.prod: windows
 ms.technology: windows-sdk

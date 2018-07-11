@@ -4,10 +4,10 @@ title: Icmp6CreateFile function
 author: windows-sdk-content
 description: The Icmp6CreateFile function opens a handle on which IPv6 ICMP echo requests can be issued.
 old-location: iphlp\icmp6createfile.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 2ddb23d8-a4e6-47c4-a552-2815ccaf055f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
 ms.prod: windows
 ms.technology: windows-sdk

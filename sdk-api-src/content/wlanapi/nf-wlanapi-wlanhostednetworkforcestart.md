@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkforcestart.htm
 old-project: NativeWiFi
 ms.assetid: d3e3b44f-ff52-4062-b54d-a0e3f2cf7785
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanHostedNetworkForceStart, WlanHostedNetworkForceStart function [NativeWIFI], nwifi.wlanhostednetworkforcestart, wlanapi/WlanHostedNetworkForceStart
 ms.prod: windows
 ms.technology: windows-sdk

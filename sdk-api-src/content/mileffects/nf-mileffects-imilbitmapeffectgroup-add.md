@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroup_add.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\add.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: Add, Add method [WPF Bitmap Effects], Add method [WPF Bitmap Effects],IMILBitmapEffectGroup interface, IMILBitmapEffectGroup interface [WPF Bitmap Effects],Add method, IMILBitmapEffectGroup.Add, IMILBitmapEffectGroup::Add, _wibe_imilbitmapeffectgroup_add, mileffects/IMILBitmapEffectGroup::Add, wibe._wibe_imilbitmapeffectgroup_add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Adds an effect to the <a href="https://msdn.microsoft.com/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>.
+Adds an effect to the <a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Adds an effect to the <a href="https://msdn.microsoft.com/library/ms735291(v=VS.
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>*</b>
 
 A pointer to the effect to add to the group.
 

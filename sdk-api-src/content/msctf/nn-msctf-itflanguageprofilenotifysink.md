@@ -7,7 +7,7 @@ old-location: tsf\itflanguageprofilenotifysink.htm
 old-project: TSF
 ms.assetid: c0c8d02a-cc3f-4c1c-96e9-516f49b868e6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfLanguageProfileNotifySink, ITfLanguageProfileNotifySink interface [Text Services Framework], ITfLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itflanguageprofilenotifysink_ref, msctf/ITfLanguageProfileNotifySink, tsf.itflanguageprofilenotifysink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ Called after the language profile has changed.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

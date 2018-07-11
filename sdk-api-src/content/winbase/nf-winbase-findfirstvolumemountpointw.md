@@ -4,10 +4,10 @@ title: FindFirstVolumeMountPointW function
 author: windows-sdk-content
 description: Retrieves the name of a mounted folder on the specified volume.
 old-location: fs\findfirstvolumemountpoint.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
 ms.prod: windows
 ms.technology: windows-sdk

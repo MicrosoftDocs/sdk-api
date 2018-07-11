@@ -4,10 +4,10 @@ title: ITextRange::MoveEnd
 author: windows-sdk-content
 description: Moves the end position of the range.
 old-location: controls\ITextRange_MoveEnd.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveend.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveEnd method, ITextRange.MoveEnd, ITextRange::MoveEnd, MoveEnd, MoveEnd method [Windows Controls], MoveEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveEnd, _win32_ITextRange_MoveEnd_cpp, controls.ITextRange_MoveEnd, controls._win32_ITextRange_MoveEnd, tom/ITextRange::MoveEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Moves the end position of the range.
 
 Type: <b>long</b>
 
-The units by which to move the end of the range. The default value is <b>tomCharacter</b>. For a list of the other unit values, see <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
+The units by which to move the end of the range. The default value is <b>tomCharacter</b>. For a list of the other unit values, see <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
 
 
 ### -param Count
@@ -129,7 +129,7 @@ If the new end position precedes the old start position, the new start position 
 
 The motion described by <b>ITextRange::MoveEnd</b> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> and <a href="https://msdn.microsoft.com/library/Bb774064(v=VS.85).aspx">ITextRange::Move</a>.
+For more information, see <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> and <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">ITextRange::Move</a>.
 
 
 
@@ -143,11 +143,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/Bb774058(v
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>
 
 
 
@@ -155,7 +155,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/Bb774058(v
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

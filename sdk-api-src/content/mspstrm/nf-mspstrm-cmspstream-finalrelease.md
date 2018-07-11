@@ -4,10 +4,10 @@ title: CMSPStream::FinalRelease
 author: windows-sdk-content
 description: The FinalRelease method releases the filter graph pointers.
 old-location: tapi3\cmspstream_finalrelease.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5609cf47-ad80-438f-9527-ac3093eaef45
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],FinalRelease method, CMSPStream.FinalRelease, CMSPStream::FinalRelease, FinalRelease, FinalRelease method [TAPI 2.2], FinalRelease method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_finalrelease, mspstrm/CMSPStream::FinalRelease, tapi3.cmspstream_finalrelease
 ms.prod: windows
 ms.technology: windows-sdk

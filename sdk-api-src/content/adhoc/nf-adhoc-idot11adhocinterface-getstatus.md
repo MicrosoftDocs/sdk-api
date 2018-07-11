@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface_getstatus.htm
 old-project: NativeWiFi
 ms.assetid: 54e271dc-b710-4229-9682-2919af6cd998
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetStatus method, IDot11AdHocInterface.GetStatus, IDot11AdHocInterface::GetStatus, adhoc/IDot11AdHocInterface::GetStatus, nwifi.idot11adhocinterface_getstatus
 ms.prod: windows
 ms.technology: windows-sdk

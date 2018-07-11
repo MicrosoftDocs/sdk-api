@@ -7,7 +7,7 @@ old-location: shell\SHRegCloseUSKey.htm
 old-project: shell
 ms.assetid: 1e9900d6-8411-4e6b-a9c0-006f378a2625
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHRegCloseUSKey, SHRegCloseUSKey function [Windows Shell], _win32_SHRegCloseUSKey, shell.SHRegCloseUSKey, shlwapi/SHRegCloseUSKey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IBandSite_EnumBands.htm
 old-project: shell
 ms.assetid: d92ead78-9d58-48fe-ad93-33b2dbcbda68
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: EnumBands, EnumBands method [Windows Shell], EnumBands method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],EnumBands method, IBandSite.EnumBands, IBandSite::EnumBands, _win32_IBandSite_EnumBands, shell.IBandSite_EnumBands, shobjidl_core/IBandSite::EnumBands
 ms.prod: windows
 ms.technology: windows-sdk

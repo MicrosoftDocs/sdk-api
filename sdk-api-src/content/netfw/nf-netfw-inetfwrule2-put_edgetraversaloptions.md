@@ -4,10 +4,10 @@ title: INetFwRule2::put_EdgeTraversalOptions
 author: windows-sdk-content
 description: This property can be used to access the edge properties of a firewall rule defined by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2_edgetraversaloptions.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 99dfbe4c-dac5-4d04-890c-dbb32f07e556
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: EdgeTraversalOptions property [ICS/ICF], EdgeTraversalOptions property [ICS/ICF],INetFwRule2 interface, INetFwRule2 interface [ICS/ICF],EdgeTraversalOptions property, INetFwRule2.EdgeTraversalOptions, INetFwRule2.put_EdgeTraversalOptions, INetFwRule2::EdgeTraversalOptions, INetFwRule2::get_EdgeTraversalOptions, INetFwRule2::put_EdgeTraversalOptions, ics.inetfwrule2_edgetraversaloptions, netfw/INetFwRule2::EdgeTraversalOptions, netfw/INetFwRule2::get_EdgeTraversalOptions, netfw/INetFwRule2::put_EdgeTraversalOptions, put_EdgeTraversalOptions
 ms.prod: windows
 ms.technology: windows-sdk

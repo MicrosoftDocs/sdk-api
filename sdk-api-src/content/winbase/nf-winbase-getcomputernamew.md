@@ -4,10 +4,10 @@ title: GetComputerNameW function
 author: windows-sdk-content
 description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 old-location: base\getcomputername.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
 ms.prod: windows
 ms.technology: windows-sdk

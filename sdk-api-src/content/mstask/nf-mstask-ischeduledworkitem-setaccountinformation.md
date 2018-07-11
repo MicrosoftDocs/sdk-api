@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetAccountInformation
 author: windows-sdk-content
 description: Sets the account name and password used to run the work item.
 old-location: taskschd\ischeduledworkitem_setaccountinformation.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: fae1299f-2f3f-48cf-91d9-1057ce62172b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the account name and password used to run the <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
+Sets the account name and password used to run the <a href="w.htm">work item</a>.
 
 
 ## -parameters

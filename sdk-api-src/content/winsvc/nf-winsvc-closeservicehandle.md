@@ -4,10 +4,10 @@ title: CloseServiceHandle function
 author: windows-sdk-content
 description: Closes a handle to a service control manager or service object.
 old-location: base\closeservicehandle.htm
-old-project: Services
+old-project: services
 ms.assetid: 6cf25994-4939-4aff-af38-5ffc8fc606ae
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservicehandle, base.closeservicehandle, winsvc/CloseServiceHandle
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_TASK_TRIGGER_TYPE"
 author: windows-sdk-content
 description: Defines the types of triggers associated with a task.
 old-location: taskschd\task_trigger_type.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 07cba55c-47af-4879-b7be-12952763e016
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: "*PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE enumeration pointer [Task Scheduler], TASK_EVENT_TRIGGER_AT_LOGON, TASK_EVENT_TRIGGER_AT_SYSTEMSTART, TASK_EVENT_TRIGGER_ON_IDLE, TASK_TIME_TRIGGER_DAILY, TASK_TIME_TRIGGER_MONTHLYDATE, TASK_TIME_TRIGGER_MONTHLYDOW, TASK_TIME_TRIGGER_ONCE, TASK_TIME_TRIGGER_WEEKLY, TASK_TRIGGER_TYPE, TASK_TRIGGER_TYPE enumeration [Task Scheduler], _TASK_TRIGGER_TYPE, _msb_task_trigger_type, mstask/PTASK_TRIGGER_TYPE, mstask/TASK_EVENT_TRIGGER_AT_LOGON, mstask/TASK_EVENT_TRIGGER_AT_SYSTEMSTART, mstask/TASK_EVENT_TRIGGER_ON_IDLE, mstask/TASK_TIME_TRIGGER_DAILY, mstask/TASK_TIME_TRIGGER_MONTHLYDATE, mstask/TASK_TIME_TRIGGER_MONTHLYDOW, mstask/TASK_TIME_TRIGGER_ONCE, mstask/TASK_TIME_TRIGGER_WEEKLY, mstask/TASK_TRIGGER_TYPE, taskschd.task_trigger_type"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the  <a href="https://msdn.microsoft.com/d59f017e-df32-4826-954d-9ba338282d0d">Task Scheduler 2.0 Enumerated Types</a> instead.] ]
 
-Defines the types of <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">triggers</a> associated with a task.
+Defines the types of <a href="t.htm">triggers</a> associated with a task.
 
 
 ## -enum-fields
@@ -122,7 +122,7 @@ When this value is specified, the
 
 ### -field TASK_EVENT_TRIGGER_ON_IDLE
 
-Trigger is set to run the task if the system remains idle for the amount of time specified by the <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">idle wait time</a> of the task. 
+Trigger is set to run the task if the system remains idle for the amount of time specified by the <a href="i.htm">idle wait time</a> of the task. 
 
 
 

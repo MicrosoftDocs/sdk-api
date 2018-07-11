@@ -4,10 +4,10 @@ title: SnmpUtilMemFree function
 author: windows-sdk-content
 description: The SnmpUtilMemFree function frees the specified memory object. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilmemfree.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 57cf0398-d2c1-4dd9-ad77-0c453412034a
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpUtilMemFree, SnmpUtilMemFree function [SNMP], _snmp_snmputilmemfree, snmp.snmputilmemfree, snmp/SnmpUtilMemFree
 ms.prod: windows
 ms.technology: windows-sdk

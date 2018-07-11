@@ -7,7 +7,7 @@ old-location: properties\SHGetPropertyStoreFromParsingName.htm
 old-project: properties
 ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ A pointer to a <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfc
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more values from the <a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
+One or more values from the <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
 
 
 ### -param riid [in]

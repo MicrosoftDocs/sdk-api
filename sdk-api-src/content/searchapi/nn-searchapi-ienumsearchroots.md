@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\ienumsearchroots.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], IEnumSearchRoots interface [search],described, _search_IEnumSearchRoots, search._search_IEnumSearchRoots, searchapi/IEnumSearchRoots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Creates a copy of the <b>IEnumSearchRoots</b> object with the same contents and 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
 </td>
 <td align="left" width="63%">
-Retrieves the specified number of <a href="https://msdn.microsoft.com/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> elements.
         
 
 </td>
@@ -93,7 +93,7 @@ Retrieves the specified number of <a href="https://msdn.microsoft.com/library/Bb
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">IEnumSearchRoots::Next</a> retrieves from the beginning.
         
 
 </td>
@@ -127,7 +127,7 @@ Moves the internal counter to the beginning of the list so a subsequent call to 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/7d65d00a-7294-4718-b593-89394b2e416f">Using the Crawl Scope Manager</a>
  
 
  

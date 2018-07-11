@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorlogrecords_get_count.htm
 old-project: cossdk
 ms.assetid: 51acc910-a38a-4747-bf99-b468f7ffddd1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_Count method, ICrmMonitorLogRecords.get_Count, ICrmMonitorLogRecords::get_Count, _dtc_ICrmMonitorLogRecords_Count, comsvcs/ICrmMonitorLogRecords::get_Count, cos.icrmmonitorlogrecords_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorLogRecords interface
 ms.prod: windows
 ms.technology: windows-sdk

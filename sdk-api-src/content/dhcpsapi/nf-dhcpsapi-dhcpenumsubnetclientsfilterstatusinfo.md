@@ -4,10 +4,10 @@ title: DhcpEnumSubnetClientsFilterStatusInfo function
 author: windows-sdk-content
 description: Enumerates all of the DHCP clients serviced on the specified subnet, and includes link-layer filter status for each of them.
 old-location: dhcp\dhcpenumsubnetclientsfilterstatusinfo.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: a88455ca-ba64-46d0-af8f-be90c57d96f3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpEnumSubnetClientsFilterStatusInfo, DhcpEnumSubnetClientsFilterStatusInfo function [DHCP], dhcp.dhcpenumsubnetclientsfilterstatusinfo, dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
 ms.prod: windows
 ms.technology: windows-sdk

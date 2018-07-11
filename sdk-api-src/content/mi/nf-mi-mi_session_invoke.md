@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_invoke.htm
 old-project: wmi_v2
 ms.assetid: 46bce0cc-9795-47af-8318-4250dc3d5c6e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Session_Invoke, MI_Session_Invoke function [Windows Management Infrastructure (MI)], mi/MI_Session_Invoke, wmi_v2.mi_session_invoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="https://msdn.microsoft.com/library/JJ653875(v=VS.85).aspx">flags</a>.
+      <a href="mi_flags.htm">flags</a>.
 
 
 ### -param options [in, optional]

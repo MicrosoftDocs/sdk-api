@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromInt16Vector.htm
 old-project: properties
 ms.assetid: 487204af-152e-4e39-808f-492dae7cadee
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitPropVariantFromInt16Vector, InitPropVariantFromInt16Vector function [Windows Properties], properties.InitPropVariantFromInt16Vector, propvarutil/InitPropVariantFromInt16Vector, shell.InitPropVariantFromInt16Vector, shell_InitPropVariantFromInt16Vector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_I2 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,15 +130,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>
+<a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
+<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776547(v=VS.85).aspx">PropVariantToInt16Vector</a>
+<a href="shell.PropVariantToInt16Vector">PropVariantToInt16Vector</a>
  
 
  

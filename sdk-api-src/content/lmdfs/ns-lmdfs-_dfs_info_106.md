@@ -4,10 +4,10 @@ title: "_DFS_INFO_106"
 author: windows-sdk-content
 description: Contains the storage state and priority for a DFS root target or link target. This structure is only for use with the NetDfsSetInfo function.
 old-location: dfs\dfs_info_106.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: 12c114e4-f978-4423-85a8-ec0cf9c9e8c5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPDFS_INFO_106, *PDFS_INFO_106, DFS_INFO_106, DFS_INFO_106 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_INFO_106, LPDFS_INFO_106 structure pointer [Distributed File System], PDFS_INFO_106, PDFS_INFO_106 structure pointer [Distributed File System], _DFS_INFO_106, dfs.dfs_info_106, fs.dfs_info_106, lmdfs/DFS_INFO_106, lmdfs/LPDFS_INFO_106, lmdfs/PDFS_INFO_106, netmgmt.dfs_info_106"
 ms.prod: windows
 ms.technology: windows-sdk

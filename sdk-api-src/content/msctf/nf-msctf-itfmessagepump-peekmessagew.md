@@ -7,7 +7,7 @@ old-location: tsf\itfmessagepump_peekmessagew.htm
 old-project: TSF
 ms.assetid: 05a3a7e1-4b83-4257-bfe8-7f79405ff02a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageW method, ITfMessagePump.PeekMessageW, ITfMessagePump::PeekMessageW, PeekMessageW, PeekMessageW method [Text Services Framework], PeekMessageW method [Text Services Framework],ITfMessagePump interface, _tsf_itfmessagepump_peekmessagew_ref, msctf/ITfMessagePump::PeekMessageW, tsf.itfmessagepump_peekmessagew
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pMsg [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that receives message data.
+Pointer to a <a href="_win32_msg_str">MSG</a> structure that receives message data.
 
 
 ### -param hwnd [in]
@@ -145,11 +145,11 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="_win32_msg_str">MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="_win32_peekmessage">PeekMessage</a>
  
 
  

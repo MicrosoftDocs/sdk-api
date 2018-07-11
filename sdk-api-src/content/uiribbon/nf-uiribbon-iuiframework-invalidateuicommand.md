@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_invalidateuicommand.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\invalidateuicommand.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],InvalidateUICommand method, IUIFramework.InvalidateUICommand, IUIFramework::InvalidateUICommand, InvalidateUICommand, InvalidateUICommand method [Windows Ribbon], InvalidateUICommand method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_InvalidateUICommand, uiribbon/IUIFramework::InvalidateUICommand, windowsribbon.windowsribbon_iuiframework_invalidateuicommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,10 +72,10 @@ Type: <b>UINT32</b>
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371573(v=VS.85).aspx">UI_INVALIDATIONS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">UI_INVALIDATIONS</a></b>
 
 
-					Identifies which <a href="https://msdn.microsoft.com/library/Dd371573(v=VS.85).aspx">aspect</a> of a command to invalidate.
+					Identifies which <a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">aspect</a> of a command to invalidate.
 					
 
 <div class="alert"><b>Note</b>  
@@ -142,7 +142,7 @@ When a Command value is invalidated (<i>flags</i> contains UI_INVALIDATIONS_VALU
 
 
 				If <b>IUIFramework::InvalidateUICommand</b> is called multiple times
-				and the <a href="https://msdn.microsoft.com/library/Dd371573(v=VS.85).aspx">UI_INVALIDATIONS</a> 
+				and the <a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">UI_INVALIDATIONS</a> 
 				value passed in each call specifies overlapping properties, such as <b>UI_INVALIDATIONS_STATE</b> 
 				and <b>UI_INVALIDATIONS_ALLPROPERTIES</b>, then only one callback to the host application is created.
 			
@@ -155,15 +155,15 @@ When a Command value is invalidated (<i>flags</i> contains UI_INVALIDATIONS_VALU
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371573(v=VS.85).aspx">UI_INVALIDATIONS</a>
+<a href="https://msdn.microsoft.com/e3476cac-f088-46fd-bb4a-8a02e17461ed">UI_INVALIDATIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

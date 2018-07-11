@@ -7,7 +7,7 @@ old-location: termserv\snapshotencodingtype.htm
 old-project: TermServ
 ms.assetid: 529FDC80-3B4D-4B9A-90D6-054B05E68367
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: SnapshotEncodingDataUri, SnapshotEncodingType, SnapshotEncodingType enumeration [Remote Desktop Services], __MIDL_IRemoteDesktopClientActions_0002, rdpappcontainerclient/SnapshotEncodingDataUri, rdpappcontainerclient/SnapshotEncodingType, termserv.snapshotencodingtype
 ms.prod: windows
 ms.technology: windows-sdk

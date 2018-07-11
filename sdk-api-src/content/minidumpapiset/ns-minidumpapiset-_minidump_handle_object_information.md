@@ -4,10 +4,10 @@ title: "_MINIDUMP_HANDLE_OBJECT_INFORMATION"
 author: windows-sdk-content
 description: Contains object-specific information for a handle.
 old-location: base\minidump_handle_object_information.htm
-old-project: Debug
+old-project: debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION, MINIDUMP_HANDLE_OBJECT_INFORMATION structure, _MINIDUMP_HANDLE_OBJECT_INFORMATION, base.minidump_handle_object_information, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

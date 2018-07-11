@@ -7,7 +7,7 @@ old-location: cos\icrmmonitor.htm
 old-project: cossdk
 ms.assetid: ead5f782-8512-4387-b8f3-7be960f35bbe
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [COM+],described, _dtc_ICrmMonitor_Interface, comsvcs/ICrmMonitor, cos.icrmmonitor
 ms.prod: windows
 ms.technology: windows-sdk

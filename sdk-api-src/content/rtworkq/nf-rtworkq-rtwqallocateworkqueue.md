@@ -7,7 +7,7 @@ old-location: base\rtwqallocateworkqueue.htm
 old-project: ProcThread
 ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Create a work queue without a message loop. Using this flag is equivalent to cal
 </dl>
 </td>
 <td width="60%">
-Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> and <a href="https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
+Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> and <a href="https://msdn.microsoft.com/6d5e2d1d-dcd2-48ce-a8ba-99bd5dbdfb21">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
 
 </td>
 </tr>

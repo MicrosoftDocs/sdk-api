@@ -4,10 +4,10 @@ title: IWdsTransportClient::get_Session
 author: windows-sdk-content
 description: Receives the transport session to which the WDS client is joined.
 old-location: wds\iwdstransportclient_session.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 19aac2c4-c724-493f-a4e9-a396a1d32f15
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Session property, IWdsTransportClient.Session, IWdsTransportClient.get_Session, IWdsTransportClient::Session, IWdsTransportClient::get_Session, Session property [Windows Deployment Services], Session property [Windows Deployment Services],IWdsTransportClient interface, get_Session, wds.iwdstransportclient_session, wdstptmgmt/IWdsTransportClient::Session, wdstptmgmt/IWdsTransportClient::get_Session
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_getinterface.htm
 old-project: NativeWiFi
 ms.assetid: 3c14c7fd-625b-48f7-b404-50da0db170f9
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: GetInterface, GetInterface method [NativeWIFI], GetInterface method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetInterface method, IDot11AdHocNetwork.GetInterface, IDot11AdHocNetwork::GetInterface, adhoc/IDot11AdHocNetwork::GetInterface, nwifi.idot11adhocnetwork_getinterface
 ms.prod: windows
 ms.technology: windows-sdk

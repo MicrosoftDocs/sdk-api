@@ -4,10 +4,10 @@ title: "_SERVICE_TIMECHANGE_INFO"
 author: windows-sdk-content
 description: Contains system time change settings.
 old-location: base\service_timechange_info.htm
-old-project: Services
+old-project: services
 ms.assetid: 452b0678-dfea-4128-9236-273323b519f0
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: "*PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO structure pointer, SERVICE_TIMECHANGE_INFO, SERVICE_TIMECHANGE_INFO structure, _SERVICE_TIMECHANGE_INFO, base.service_timechange_info, winsvc/PSERVICE_TIMECHANGE_INFO, winsvc/SERVICE_TIMECHANGE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

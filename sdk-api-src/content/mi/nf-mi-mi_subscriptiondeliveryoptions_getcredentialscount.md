@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialscount.htm
 old-project: wmi_v2
 ms.assetid: 6d9286ac-70e0-4290-8cbf-11514510dcdb
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsCount, MI_SubscriptionDeliveryOptions_GetCredentialsCount function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsCount, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialscount
 ms.prod: windows
 ms.technology: windows-sdk

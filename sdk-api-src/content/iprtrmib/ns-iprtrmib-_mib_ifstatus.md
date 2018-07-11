@@ -4,10 +4,10 @@ title: "_MIB_IFSTATUS"
 author: windows-sdk-content
 description: Stores status information for a particular interface.
 old-location: mib\mib_ifstatus.htm
-old-project: MIB
+old-project: mib
 ms.assetid: ab5afe84-1e14-4ffd-9bf6-f3b319554608
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_IFSTATUS, MIB_IFSTATUS, MIB_IFSTATUS structure [MIB], PMIB_IFSTATUS, PMIB_IFSTATUS structure pointer [MIB], _MIB_IFSTATUS, _mpr_mib_ifstatus, iprtrmib/MIB_IFSTATUS, iprtrmib/PMIB_IFSTATUS, mib.mib_ifstatus, rras.mib_ifstatus"
 ms.prod: windows
 ms.technology: windows-sdk

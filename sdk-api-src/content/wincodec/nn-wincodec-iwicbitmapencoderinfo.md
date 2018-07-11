@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoderinfo.htm
 old-project: wic
 ms.assetid: 152b0dd2-1e5e-47fc-b6eb-a4c042e65047
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICBitmapEncoderInfo, IWICBitmapEncoderInfo interface [Windows Imaging Component], IWICBitmapEncoderInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapencoderinfo, wic._wic_codec_iwicbitmapencoderinfo, wincodec/IWICBitmapEncoderInfo
 ms.prod: windows
 ms.technology: windows-sdk

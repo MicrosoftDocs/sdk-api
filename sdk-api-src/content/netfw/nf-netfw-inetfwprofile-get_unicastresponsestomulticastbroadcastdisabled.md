@@ -4,10 +4,10 @@ title: INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwprofile_unicastresponsestomulticastbroadcastdisabled.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 61a0c65e-8dfa-4f3e-a28f-141a72065123
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],UnicastResponsesToMulticastBroadcastDisabled property, INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile.get_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF],INetFwProfile interface, get_UnicastResponsesToMulticastBroadcastDisabled, ics.inetfwprofile_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
 ms.prod: windows
 ms.technology: windows-sdk

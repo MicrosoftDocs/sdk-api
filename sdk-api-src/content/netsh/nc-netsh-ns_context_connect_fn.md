@@ -4,10 +4,10 @@ title: NS_CONTEXT_CONNECT_FN
 author: windows-sdk-content
 description: Is the connect function for helpers.
 old-location: netshell\ns_context_connect_fn.htm
-old-project: NetShell
+old-project: netshell
 ms.assetid: bbdc4a1c-4deb-44d0-bd87-0f3fce4d9883
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: NS_CONTEXT_CONNECT_FN, NS_CONTEXT_CONNECT_FN callback, NS_CONTEXT_CONNECT_FN callback function [NetShell], SampleConnect, _netsh_ns_context_connect_fn, netsh/NS_CONTEXT_CONNECT_FN, netshell.ns_context_connect_fn
 ms.prod: windows
 ms.technology: windows-sdk

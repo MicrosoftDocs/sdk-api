@@ -4,10 +4,10 @@ title: QOSCloseHandle function
 author: windows-sdk-content
 description: The QOSCloseHandle function closes a handle returned by the QOSCreateHandle function.
 old-location: qos\qosclosehandle.htm
-old-project: QOS
+old-project: qos
 ms.assetid: e9e8e467-616c-419e-952d-2c9e93044a2f
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, qos2/QOSCloseHandle
 ms.prod: windows
 ms.technology: windows-sdk

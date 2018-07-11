@@ -63,7 +63,7 @@ The <b>Font::GetFamily</b> method gets the font family on which this font is bas
 
 Type: <b>FontFamily*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a> object that receives the font family. 
+Pointer to a <a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> object that receives the font family. 
 
 
 ## -returns
@@ -87,15 +87,15 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

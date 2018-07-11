@@ -4,10 +4,10 @@ title: PRESUTIL_GET_SZ_PROPERTY
 author: windows-sdk-content
 description: Retrieves a string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetszproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY callback, PRESUTIL_GET_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilgetszproperty, mscs.resutilgetszproperty, resapi/PRESUTIL_GET_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

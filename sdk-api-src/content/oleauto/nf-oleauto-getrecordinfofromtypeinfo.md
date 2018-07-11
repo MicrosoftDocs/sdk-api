@@ -7,7 +7,7 @@ old-location: automat\getrecordinfofromtypeinfo.htm
 old-project: automat
 ms.assetid: 9bf2803f-7a6c-4574-80d2-4069f5b81057
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetRecordInfoFromTypeInfo, GetRecordInfoFromTypeInfo function [Automation], _oa96_GetRecordInfoFromTypeInfo, automat.getrecordinfofromtypeinfo, oleauto/GetRecordInfoFromTypeInfo
 ms.prod: windows
 ms.technology: windows-sdk

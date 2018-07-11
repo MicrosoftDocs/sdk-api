@@ -4,10 +4,10 @@ title: IX509Enrollment2::InitializeFromTemplate
 author: windows-sdk-content
 description: Initializes the enrollment object by using a template.
 old-location: security\ix509enrollment2_initializefromtemplate.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: aa260ff7-d55b-4fda-88e2-2f1d68cc41e1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509Enrollment2 interface [Security],InitializeFromTemplate method, IX509Enrollment2.InitializeFromTemplate, IX509Enrollment2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::InitializeFromTemplate, security.ix509enrollment2_initializefromtemplate
 ms.prod: windows
 ms.technology: windows-sdk

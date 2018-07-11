@@ -4,10 +4,10 @@ title: ITAMMediaFormat::put_MediaFormat
 author: windows-sdk-content
 description: The put_MediaFormat method sets the media format.
 old-location: tapi3\itammediaformat_put_mediaformat.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],put_MediaFormat method, ITAMMediaFormat.put_MediaFormat, ITAMMediaFormat::put_MediaFormat, _tapi3_itammediaformat_put_mediaformat, put_MediaFormat, put_MediaFormat method [TAPI 2.2], put_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_put_mediaformat, tapi3ds/ITAMMediaFormat::put_MediaFormat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\sysstringbytelen.htm
 old-project: automat
 ms.assetid: 2a150503-f474-41b8-90dd-fbbc955bea99
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SysStringByteLen, SysStringByteLen function [Automation], _oa96_SysStringByteLen, automat.sysstringbytelen, oleauto/SysStringByteLen
 ms.prod: windows
 ms.technology: windows-sdk

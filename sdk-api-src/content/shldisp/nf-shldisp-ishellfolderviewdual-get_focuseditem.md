@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_FocusedItem.htm
 old-project: shell
 ms.assetid: e3e70cbe-51df-4749-8c6c-f3a43b33c436
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_FocusedItem method, IShellFolderViewDual.get_FocusedItem, IShellFolderViewDual::get_FocusedItem, _shell_IShellFolderViewDual_get_FocusedItem, get_FocusedItem, get_FocusedItem method [Windows Shell], get_FocusedItem method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_FocusedItem, shldisp/IShellFolderViewDual::get_FocusedItem
 ms.prod: windows
 ms.technology: windows-sdk

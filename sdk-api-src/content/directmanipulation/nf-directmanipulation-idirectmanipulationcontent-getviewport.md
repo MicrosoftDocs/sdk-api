@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcontent_getviewport.htm
 old-project: directmanipulation
 ms.assetid: b03545d2-73a4-4638-818a-34f5957408e4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetViewport, GetViewport method [Direct Manipulation], GetViewport method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetViewport method, IDirectManipulationContent.GetViewport, IDirectManipulationContent::GetViewport, directmanipulation.idirectmanipulationcontent_getviewport, directmanipulation/IDirectManipulationContent::GetViewport
 ms.prod: windows
 ms.technology: windows-sdk

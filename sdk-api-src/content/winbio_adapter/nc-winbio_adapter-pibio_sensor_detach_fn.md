@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_DETACH_FN
 author: windows-sdk-content
 description: Releases adapter specific resources attached to the pipeline.
 old-location: secbiomet\sensoradapterdetach.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 58124c44-4343-44c1-84a2-c03455d68199
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_SENSOR_DETACH_FN, PIBIO_SENSOR_DETACH_FN callback, SensorAdapterDetach, SensorAdapterDetach callback function [Windows Biometric Framework API], secbiomet.sensoradapterdetach, winbio_adapter/SensorAdapterDetach
 ms.prod: windows
 ms.technology: windows-sdk

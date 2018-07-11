@@ -7,7 +7,7 @@ old-location: winsock\htonl_2.htm
 old-project: WinSock
 ms.assetid: e3a18c5e-7efb-43d9-9abc-9d573bbb1923
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "_win32_htonl_2, htonl, htonl function [Winsock], winsock.htonl_2, winsock/htonl"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\iappdomainhelper.htm
 old-project: cossdk
 ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Binds a managed object to an application domain, which is an isolated environmen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppDomainHelper</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAppDomainHelper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppDomainHelper</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAppDomainHelper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

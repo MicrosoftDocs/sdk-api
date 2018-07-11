@@ -7,7 +7,7 @@ old-location: cloudapi\cfupdateplaceholder.htm
 old-project: cfApi
 ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePlaceholder, cloudApi.cfupdateplaceholder
 ms.prod: windows
 ms.technology: windows-sdk

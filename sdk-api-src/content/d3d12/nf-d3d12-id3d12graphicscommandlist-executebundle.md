@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_executebundle.htm
 old-project: direct3d12
 ms.assetid: B8AE4448-041D-47F6-9F0F-AE74FFEF6E41
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ExecuteBundle, ExecuteBundle method, ExecuteBundle method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteBundle method, ID3D12GraphicsCommandList.ExecuteBundle, ID3D12GraphicsCommandList::ExecuteBundle, d3d12/ID3D12GraphicsCommandList::ExecuteBundle, direct3d12.id3d12graphicscommandlist_executebundle
 ms.prod: windows
 ms.technology: windows-sdk

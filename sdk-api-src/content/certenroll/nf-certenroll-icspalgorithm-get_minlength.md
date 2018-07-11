@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_MinLength
 author: windows-sdk-content
 description: Retrieves the minimum permitted length for a key.
 old-location: security\icspalgorithm_minlength_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
 ms.prod: windows
 ms.technology: windows-sdk

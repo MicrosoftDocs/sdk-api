@@ -4,10 +4,10 @@ title: IX509CertificateRequest::Encode
 author: windows-sdk-content
 description: Signs and encodes a certificate request and creates a key pair if one does not exist.
 old-location: security\ix509certificaterequest_encode_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 098788f4-539f-420b-a4e1-65625dd56ca1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Encode, Encode method [Security], Encode method [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],Encode method, IX509CertificateRequest.Encode, IX509CertificateRequest::Encode, certenroll/IX509CertificateRequest::Encode, security.ix509certificaterequest_encode_method
 ms.prod: windows
 ms.technology: windows-sdk

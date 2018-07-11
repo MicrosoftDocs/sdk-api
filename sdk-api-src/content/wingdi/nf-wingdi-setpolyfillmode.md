@@ -7,7 +7,7 @@ old-location: gdi\setpolyfillmode.htm
 old-project: gdi
 ms.assetid: 233926c4-2658-405d-89b6-05ece844623d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ALTERNATE, SetPolyFillMode, SetPolyFillMode function [Windows GDI], WINDING, _win32_SetPolyFillMode, gdi.setpolyfillmode, wingdi/SetPolyFillMode
 ms.prod: windows
 ms.technology: windows-sdk

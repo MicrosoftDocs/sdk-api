@@ -7,7 +7,7 @@ old-location: wsw\wssetheader.htm
 old-project: wsw
 ms.assetid: 34671c47-d21e-47c4-9fb0-10b036fb4f70
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsSetHeader, WsSetHeader function [Web Services for Windows], webservices/WsSetHeader, wsw.wssetheader
 ms.prod: windows
 ms.technology: windows-sdk

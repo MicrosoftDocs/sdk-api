@@ -4,10 +4,10 @@ title: ITLocationInfo::get_LocationName
 author: windows-sdk-content
 description: The get_LocationName method gets the location name.
 old-location: tapi3\itlocationinfo_get_locationname.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2bd86295-8240-477d-90aa-f3061666c5e6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocationName method, ITLocationInfo.get_LocationName, ITLocationInfo::get_LocationName, _tapi3_itlocationinfo_get_locationname, get_LocationName, get_LocationName method [TAPI 2.2], get_LocationName method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_locationname, tapi3if/ITLocationInfo::get_LocationName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppLocationName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppLocationName</i> parameter.
 			
 
 The value that this method returns corresponds to the <b>dwLocationNameSize</b> and <b>dwLocationNameOffset</b> members of TAPI 2's 

@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_setinputtype.htm
 old-project: DirectShow
 ms.assetid: 6b466fe4-97a0-46f9-9e4b-461ee66095f1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputType method, IMediaObject.SetInputType, IMediaObject::SetInputType, IMediaObjectSetInputType, SetInputType, SetInputType method [DirectShow], SetInputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputtype, mediaobj/IMediaObject::SetInputType
 ms.prod: windows
 ms.technology: windows-sdk

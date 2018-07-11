@@ -7,7 +7,7 @@ old-location: input_intcontext\destroyinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 871b35be-ccda-4a74-b516-e1e7f852782d
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: DestroyInteractionContext, DestroyInteractionContext function, input_intcontext.destroyinteractioncontext, interactioncontext.destroyinteractioncontext, interactioncontext/DestroyInteractionContext
 ms.prod: windows
 ms.technology: windows-sdk

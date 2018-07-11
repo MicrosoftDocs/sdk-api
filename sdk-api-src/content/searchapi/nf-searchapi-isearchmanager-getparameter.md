@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_GetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchManager interface, ISearchManager interface [search],GetParameter method, ISearchManager.GetParameter, ISearchManager::GetParameter, _search_ISearchManager_GetParameter, search._search_ISearchManager_GetParameter, searchapi/ISearchManager::GetParameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>**</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>**</b>
 
 
                     Returns a value in an undefined state as there are no properties currently defined to retrieve values from.

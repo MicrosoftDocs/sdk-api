@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_addsourcefilter.htm
 old-project: DirectShow
 ms.assetid: b0d59a47-23a7-4e59-adfa-e01945a5d014
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: AddSourceFilter, AddSourceFilter method [DirectShow], AddSourceFilter method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],AddSourceFilter method, IMediaControl.AddSourceFilter, IMediaControl::AddSourceFilter, IMediaControlAddSourceFilter, control/IMediaControl::AddSourceFilter, dshow.imediacontrol_addsourcefilter
 ms.prod: windows
 ms.technology: windows-sdk

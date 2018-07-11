@@ -7,7 +7,7 @@ old-location: security\iidentitystore_getat.htm
 old-project: SecAuthN
 ms.assetid: c62212bf-852b-43fb-9abf-b85f4d15b305
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetAt method, IIdentityStore.GetAt, IIdentityStore::GetAt, identitystore/IIdentityStore::GetAt, security.iidentitystore_getat
 ms.prod: windows
 ms.technology: windows-sdk

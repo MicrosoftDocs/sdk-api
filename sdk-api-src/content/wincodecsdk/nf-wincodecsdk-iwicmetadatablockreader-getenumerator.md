@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockreader_getenumerator.htm
 old-project: wic
 ms.assetid: 81441e25-f124-4978-830d-2ade9cde6917
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataBlockReader.GetEnumerator, IWICMetadataBlockReader::GetEnumerator, _wic_codec_iwicmetadatablockreader_getenumerator, wic._wic_codec_iwicmetadatablockreader_getenumerator, wincodecsdk/IWICMetadataBlockReader::GetEnumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Retrieves an enumeration of <a href="https://msdn.microsoft.com/0495ecf1-128a-45
 
 ### -param ppIEnumMetadata [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>**</b>
+Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>**</b>
 
 When this method returns, contains a pointer to an enumeration of <a href="https://msdn.microsoft.com/0495ecf1-128a-4576-8420-0e79f1454015">IWICMetadataReader</a> objects.
 

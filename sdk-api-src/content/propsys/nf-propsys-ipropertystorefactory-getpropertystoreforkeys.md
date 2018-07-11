@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm
 old-project: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStoreForKeys method, IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,24 +61,24 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 ### -param rgKeys [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structures.
+A pointer to an array of <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structures.
 
 
 ### -param cKeys [in]
 
 Type: <b>UINT</b>
 
-The number of <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structures in the array pointed to by <i>rgKeys</i>.
+The number of <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structures in the array pointed to by <i>rgKeys</i>.
 
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
+<a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
 
 
 ### -param riid [in]

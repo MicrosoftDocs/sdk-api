@@ -4,10 +4,10 @@ title: PRESUTIL_FIND_MULTI_SZ_PROPERTY
 author: windows-sdk-content
 description: Locates a multiple string property in a property list. The PRESUTIL_FIND_MULTI_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindmultiszproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_FIND_MULTI_SZ_PROPERTY, PRESUTIL_FIND_MULTI_SZ_PROPERTY callback, PRESUTIL_FIND_MULTI_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindmultiszproperty, mscs.resutilfindmultiszproperty, resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dstateblock9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dstateblock9.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 4d36b0db-f60c-4be1-3a29-4484c05de1bb, IDirect3DStateBlock9, IDirect3DStateBlock9 interface [Direct3D 9], IDirect3DStateBlock9 interface [Direct3D 9],described, d3d9helper/IDirect3DStateBlock9, direct3d9.idirect3dstateblock9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDirect3DStateBlock9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205889(v=VS.85).aspx">Apply</a>
+<a href="https://msdn.microsoft.com/cb3a5ddb-eb09-4e95-954d-2a4acea80e4b">Apply</a>
 </td>
 <td align="left" width="63%">
 Apply the state block to the current device state.
@@ -80,7 +80,7 @@ Apply the state block to the current device state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205890(v=VS.85).aspx">Capture</a>
+<a href="https://msdn.microsoft.com/da31beba-89b4-48a9-909c-cf505ac758a4">Capture</a>
 </td>
 <td align="left" width="63%">
 Capture the current value of states that are included in a stateblock.

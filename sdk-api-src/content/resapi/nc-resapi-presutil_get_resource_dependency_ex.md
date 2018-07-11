@@ -4,10 +4,10 @@ title: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencyex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8F5BB021-83FB-44CD-94B4-33FC8E398C5B
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX callback function [Failover Cluster], mscs.resutilgetresourcedependencyex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_EX
 ms.prod: windows
 ms.technology: windows-sdk

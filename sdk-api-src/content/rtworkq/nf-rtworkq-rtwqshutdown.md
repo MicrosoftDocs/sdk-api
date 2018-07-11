@@ -7,7 +7,7 @@ old-location: base\rtwqshutdown.htm
 old-project: ProcThread
 ms.assetid: 806c4142-b628-4ea0-b5e2-d2b4ead73c04
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqShutdown, RtwqShutdown function, base.rtwqshutdown, rtworkq/RtwqShutdown
 ms.prod: windows
 ms.technology: windows-sdk

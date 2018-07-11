@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_decrypt.htm
 old-project: wmformat
 ms.assetid: c477c1f9-0264-4d3f-8670-f0c52df9e6a6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Decrypt method, IWMSecureChannel.WMSC_Decrypt, IWMSecureChannel::WMSC_Decrypt, WMSC_Decrypt, WMSC_Decrypt method [windows Media Format], WMSC_Decrypt method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_decrypt, wmsecure/IWMSecureChannel::WMSC_Decrypt
 ms.prod: windows
 ms.technology: windows-sdk

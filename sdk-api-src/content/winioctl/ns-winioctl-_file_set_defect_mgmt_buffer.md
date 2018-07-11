@@ -4,10 +4,10 @@ title: "_FILE_SET_DEFECT_MGMT_BUFFER"
 author: windows-sdk-content
 description: Specifies the defect management state to be set.
 old-location: fs\file_set_defect_mgmt_buffer.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 4a2ee2d5-8886-4472-85b7-de029eeffd55
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PFILE_SET_DEFECT_MGMT_BUFFER, FILE_SET_DEFECT_MGMT_BUFFER, FILE_SET_DEFECT_MGMT_BUFFER structure [Files], PFILE_SET_DEFECT_MGMT_BUFFER, PFILE_SET_DEFECT_MGMT_BUFFER structure pointer [Files], _FILE_SET_DEFECT_MGMT_BUFFER, fs.file_set_defect_mgmt_buffer, winioctl/FILE_SET_DEFECT_MGMT_BUFFER, winioctl/PFILE_SET_DEFECT_MGMT_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

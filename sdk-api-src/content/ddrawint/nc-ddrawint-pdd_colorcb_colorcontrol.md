@@ -7,7 +7,7 @@ old-location: display\ddcontrolcolor.htm
 old-project: display
 ms.assetid: 626fdd37-bebb-47b7-9899-7cf0dc2bd1ba
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DdControlColor, DdControlColor callback function [Display Devices], PDD_COLORCB_COLORCONTROL, PDD_COLORCB_COLORCONTROL callback, ddfncs_c79505e9-282b-469f-ae35-19a9644aecae.xml, ddrawint/DdControlColor, display.ddcontrolcolor
 ms.prod: windows
 ms.technology: windows-sdk

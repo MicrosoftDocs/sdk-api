@@ -7,7 +7,7 @@ old-location: automat\varbstrfromi1.htm
 old-project: automat
 ms.assetid: a11d772c-aace-4d8f-93b3-8425a4888848
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarBstrFromI1, VarBstrFromI1 function [Automation], _oa96_VarBstrFromI1, automat.varbstrfromi1, oleauto/VarBstrFromI1
 ms.prod: windows
 ms.technology: windows-sdk

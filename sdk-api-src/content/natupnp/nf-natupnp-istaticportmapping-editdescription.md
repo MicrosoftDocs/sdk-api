@@ -4,10 +4,10 @@ title: IStaticPortMapping::EditDescription
 author: windows-sdk-content
 description: The EditDescription method sets the description property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editdescription.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 6bfa6242-298e-4835-9eda-fdc6a88d848f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: EditDescription, EditDescription method [ICS/ICF], EditDescription method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditDescription method, IStaticPortMapping.EditDescription, IStaticPortMapping::EditDescription, _ics_istaticportmapping_editdescription, ics.istaticportmapping_editdescription, natupnp/IStaticPortMapping::EditDescription
 ms.prod: windows
 ms.technology: windows-sdk

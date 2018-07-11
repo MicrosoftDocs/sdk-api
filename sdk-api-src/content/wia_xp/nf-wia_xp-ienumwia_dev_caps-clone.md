@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_CAPS_Clone.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_caps\clone.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_DEV_CAPS interface, IEnumWIA_DEV_CAPS interface [WIA],Clone method, IEnumWIA_DEV_CAPS.Clone, IEnumWIA_DEV_CAPS::Clone, _wia_IEnumWIA_DEV_CAPS_Clone, wia._wia_IEnumWIA_DEV_CAPS_Clone, wia_xp/IEnumWIA_DEV_CAPS::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IEnumWIA_DEV_CAPS::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface and sends back a pointer to it.
+The <b>IEnumWIA_DEV_CAPS::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> interface and sends back a pointer to it.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>IEnumWIA_DEV_CAPS::Clone</b> method creates an additional instance of the
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a>**</b>
 
-Contains the address of a pointer to the instance of <a href="https://msdn.microsoft.com/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> that <b>IEnumWIA_DEV_CAPS::Clone</b> creates.
+Contains the address of a pointer to the instance of <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> that <b>IEnumWIA_DEV_CAPS::Clone</b> creates.
 
 
 ## -returns

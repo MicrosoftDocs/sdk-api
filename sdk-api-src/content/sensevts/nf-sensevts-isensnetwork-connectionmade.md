@@ -126,7 +126,7 @@ Filtering can be performed on the publisher property <i>ulConnectionMadeType</i>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 

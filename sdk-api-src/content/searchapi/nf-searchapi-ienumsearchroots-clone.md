@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots_Clone.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\clone.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchRoots interface, IEnumSearchRoots interface [search],Clone method, IEnumSearchRoots.Clone, IEnumSearchRoots::Clone, _search_IEnumSearchRoots_Clone, search._search_IEnumSearchRoots_Clone, searchapi/IEnumSearchRoots::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Creates a copy of the <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object with the same contents and state as the current one.
+Creates a copy of the <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> object with the same contents and state as the current one.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a copy of the <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.
 
 ### -param ppenum [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a>**</b>
 
-Returns a pointer to the new <a href="https://msdn.microsoft.com/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+Returns a pointer to the new <a href="https://msdn.microsoft.com/4fac0cf0-165d-45f2-8e63-02f0c8eae431">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
                 
 
 

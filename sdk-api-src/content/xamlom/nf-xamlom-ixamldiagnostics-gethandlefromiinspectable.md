@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ixamldiagnostics_gethandlefromiinspectable.htm
 old-project: xaml_diagnostics
 ms.assetid: 334497D9-11ED-4002-AEAB-0454EB62E53C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetHandleFromIInspectable, GetHandleFromIInspectable method, GetHandleFromIInspectable method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetHandleFromIInspectable method, IXamlDiagnostics.GetHandleFromIInspectable, IXamlDiagnostics::GetHandleFromIInspectable, xaml_diagnostics.ixamldiagnostics_gethandlefromiinspectable, xamlom/IXamlDiagnostics::GetHandleFromIInspectable
 ms.prod: windows
 ms.technology: windows-sdk

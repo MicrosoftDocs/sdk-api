@@ -4,10 +4,10 @@ title: BluetoothSdpEnumAttributes function
 author: windows-sdk-content
 description: The BluetoothSdpEnumAttributes function enumerates through the SDP record stream, and calls the callback function for each attribute in the record.
 old-location: bluetooth\bluetoothsdpenumattributes.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 3113db03-a32f-47ad-a442-3769f41ee8e7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BluetoothSdpEnumAttributes, BluetoothSdpEnumAttributes function [Bluetooth], bluetooth.bluetoothsdpenumattributes, bluetoothapis/BluetoothSdpEnumAttributes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\iquerysolution.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IQuerySolution, IQuerySolution interface [search], IQuerySolution interface [search],described, _search_IQuerySolution, search._search_IQuerySolution, structuredquery/IQuerySolution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Windows XP with SP1 and later
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="https://msdn.microsoft.com/c678fa37-8673-4da7-9c23-9a7f478dc1b0">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IQuerySolution</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231343(v=VS.85).aspx">GetErrors</a>
+<a href="https://msdn.microsoft.com/50eead1a-5eb9-4bc9-ba54-c6dc77284f4d">GetErrors</a>
 </td>
 <td align="left" width="63%">
 
@@ -84,7 +84,7 @@ The <b>IQuerySolution</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231344(v=VS.85).aspx">GetLexicalData</a>
+<a href="https://msdn.microsoft.com/4c615e9c-0e15-475d-831f-3bbb896c6e85">GetLexicalData</a>
 </td>
 <td align="left" width="63%">
 
@@ -95,7 +95,7 @@ The <b>IQuerySolution</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231345(v=VS.85).aspx">GetQuery</a>
+<a href="https://msdn.microsoft.com/ef03828a-ac31-4e73-a8bb-44f0b1963107">GetQuery</a>
 </td>
 <td align="left" width="63%">
 

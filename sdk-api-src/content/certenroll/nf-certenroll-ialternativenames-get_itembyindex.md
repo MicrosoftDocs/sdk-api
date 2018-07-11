@@ -4,10 +4,10 @@ title: IAlternativeNames::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ialternativenames_itembyindex_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 778ea065-9a92-4244-be16-23e716ccbb8a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IAlternativeNames interface [Security],ItemByIndex property, IAlternativeNames.ItemByIndex, IAlternativeNames.get_ItemByIndex, IAlternativeNames::ItemByIndex, IAlternativeNames::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::ItemByIndex, certenroll/IAlternativeNames::get_ItemByIndex, get_ItemByIndex, security.ialternativenames_itembyindex_property
 ms.prod: windows
 ms.technology: windows-sdk

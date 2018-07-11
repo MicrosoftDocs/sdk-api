@@ -7,7 +7,7 @@ old-location: mf\imfdxgibuffer_getresource.htm
 old-project: medfound
 ms.assetid: E8FF3346-D60A-4FF9-AF3E-673397EA6E6A
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetResource, GetResource method [Media Foundation], GetResource method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetResource method, IMFDXGIBuffer.GetResource, IMFDXGIBuffer::GetResource, mf.imfdxgibuffer_getresource, mfobjects/IMFDXGIBuffer::GetResource
 ms.prod: windows
 ms.technology: windows-sdk

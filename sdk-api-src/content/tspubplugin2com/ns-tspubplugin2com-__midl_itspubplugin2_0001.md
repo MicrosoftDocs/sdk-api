@@ -7,7 +7,7 @@ old-location: termserv\pluginresource2fileassociation.htm
 old-project: TermServ
 ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: "__MIDL_ItsPubPlugin2_0001, pluginResource2FileAssociation, pluginResource2FileAssociation structure [Remote Desktop Services], termserv.pluginresource2fileassociation, tspubplugin2com/pluginResource2FileAssociation"
 ms.prod: windows
 ms.technology: windows-sdk

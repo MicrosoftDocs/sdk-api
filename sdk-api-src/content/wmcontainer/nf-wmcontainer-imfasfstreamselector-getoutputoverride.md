@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getoutputoverride.htm
 old-project: medfound
 ms.assetid: 64413669-bcb9-47fa-9362-b3f6831e55fb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 64413669-bcb9-47fa-9362-b3f6831e55fb, GetOutputOverride, GetOutputOverride method [Media Foundation], GetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputOverride method, IMFASFStreamSelector.GetOutputOverride, IMFASFStreamSelector::GetOutputOverride, mf.imfasfstreamselector_getoutputoverride, wmcontainer/IMFASFStreamSelector::GetOutputOverride
 ms.prod: windows
 ms.technology: windows-sdk

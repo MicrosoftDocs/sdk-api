@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_setduration.htm
 old-project: medfound
 ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetDuration method, IMFMediaSourceExtension.SetDuration, IMFMediaSourceExtension::SetDuration, SetDuration, SetDuration method [Media Foundation], SetDuration method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setduration, mfmediaengine/IMFMediaSourceExtension::SetDuration
 ms.prod: windows
 ms.technology: windows-sdk

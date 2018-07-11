@@ -7,7 +7,7 @@ old-location: dshow\ivpnotify2_setvpsyncmaster.htm
 old-project: DirectShow
 ms.assetid: ef1075a6-f31b-4ad8-b31a-66ca68d2c068
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVPNotify2 interface [DirectShow],SetVPSyncMaster method, IVPNotify2.SetVPSyncMaster, IVPNotify2::SetVPSyncMaster, IVPNotify2SetVPSyncMaster, SetVPSyncMaster, SetVPSyncMaster method [DirectShow], SetVPSyncMaster method [DirectShow],IVPNotify2 interface, dshow.ivpnotify2_setvpsyncmaster, vpnotify/IVPNotify2::SetVPSyncMaster
 ms.prod: windows
 ms.technology: windows-sdk

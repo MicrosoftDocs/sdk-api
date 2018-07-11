@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_GetRelationship.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getrelationship.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetRelationship, GetRelationship method [search], GetRelationship method [search],IEntity interface, IEntity interface [search],GetRelationship method, IEntity.GetRelationship, IEntity::GetRelationship, _search_IEntity_GetRelationship, search._search_IEntity_GetRelationship, structuredquery/IEntity::GetRelationship
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Retrieves the <a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a> object for this entity as requested by name.
+          Retrieves the <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a> object for this entity as requested by name.
         
 
 
@@ -72,10 +72,10 @@ Type: <b>LPCWSTR</b>
 
 ### -param pRelationship [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a>**</b>
 
 
-                Receives the address of a pointer to the requested <a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a> object, or <b>NULL</b> if this entity has no relationship with the name specified.
+                Receives the address of a pointer to the requested <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a> object, or <b>NULL</b> if this entity has no relationship with the name specified.
             
 
 

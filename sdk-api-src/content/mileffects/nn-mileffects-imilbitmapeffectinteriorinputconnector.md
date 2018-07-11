@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\imilbitmapeffectinteriorinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectInteriorInputConnector, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinteriorinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,10 +71,10 @@ The <b>IMILBitmapEffectInteriorInputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735270(v=VS.85).aspx">GetInputConnector</a>
+<a href="https://msdn.microsoft.com/46d6f1d6-0653-45a8-8199-c0a202ba6946">GetInputConnector</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a> associated with the interior connector.
+Gets the <a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a> associated with the interior connector.
 
 </td>
 </tr>

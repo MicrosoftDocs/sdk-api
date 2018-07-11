@@ -4,10 +4,10 @@ title: ITAddress::Forward
 author: windows-sdk-content
 description: The Forward method forwards calls destined for the address according to the forwarding instructions contained in ITForwardInformation. If pForwardInfo is set to NULL, forwarding is canceled.
 old-location: tapi3\itaddress_forward.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 4f070b50-db9a-49e8-a0f3-e448c5dee144
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Forward, Forward method [TAPI 2.2], Forward method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],Forward method, ITAddress.Forward, ITAddress::Forward, _tapi3_itaddress_forward, tapi3.itaddress_forward, tapi3if/ITAddress::Forward
 ms.prod: windows
 ms.technology: windows-sdk

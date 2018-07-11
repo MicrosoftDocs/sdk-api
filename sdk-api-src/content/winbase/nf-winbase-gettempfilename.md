@@ -4,10 +4,10 @@ title: GetTempFileName function
 author: windows-sdk-content
 description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
 old-location: fs\gettempfilename.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
 ms.prod: windows
 ms.technology: windows-sdk

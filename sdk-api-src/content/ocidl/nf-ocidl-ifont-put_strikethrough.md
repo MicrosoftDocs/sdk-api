@@ -7,7 +7,7 @@ old-location: com\ifont_put_strikethrough.htm
 old-project: com
 ms.assetid: 32b9c3aa-4c89-441e-9b41-0ac6d8a52bba
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IFont interface [COM],put_Strikethrough method, IFont.put_Strikethrough, IFont::put_Strikethrough, _ctrl_ifont_put_strikethrough, com.ifont_put_strikethrough, ocidl/IFont::put_Strikethrough, put_Strikethrough, put_Strikethrough method [COM], put_Strikethrough method [COM],IFont interface
 ms.prod: windows
 ms.technology: windows-sdk

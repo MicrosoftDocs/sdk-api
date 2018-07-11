@@ -4,10 +4,10 @@ title: PRESUTIL_RESOURCE_TYPES_EQUAL
 author: windows-sdk-content
 description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcetypesequal.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL callback, PRESUTIL_RESOURCE_TYPES_EQUAL callback function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL
 ms.prod: windows
 ms.technology: windows-sdk

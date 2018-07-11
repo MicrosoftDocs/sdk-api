@@ -7,7 +7,7 @@ old-location: wer\werregisterapplocaldump.htm
 old-project: wer
 ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
 ms.prod: windows
 ms.technology: windows-sdk

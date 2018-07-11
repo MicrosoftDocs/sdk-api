@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice.htm
 old-project: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player],described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerCollabGetAppLaunchInfo function
 author: windows-sdk-content
 description: Obtains the peer application launch information, including the contact name, the peer endpoint, and the invitation request.
 old-location: p2p\peercollabgetapplaunchinfo.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 266a7d80-b4bc-42f2-ba76-a69cab9e2c12
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabGetAppLaunchInfo, PeerCollabGetAppLaunchInfo function [Peer Networking], p2p.peercollabgetapplaunchinfo, p2p/PeerCollabGetAppLaunchInfo
 ms.prod: windows
 ms.technology: windows-sdk

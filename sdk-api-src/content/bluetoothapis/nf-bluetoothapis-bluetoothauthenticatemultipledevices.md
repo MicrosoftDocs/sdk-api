@@ -4,10 +4,10 @@ title: BluetoothAuthenticateMultipleDevices function
 author: windows-sdk-content
 description: Enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.
 old-location: bluetooth\bluetoothauthenticatemultipledevices.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BluetoothAuthenticateMultipleDevices, BluetoothAuthenticateMultipleDevices function [Bluetooth], bluetooth.bluetoothauthenticatemultipledevices, bluetoothapis/BluetoothAuthenticateMultipleDevices
 ms.prod: windows
 ms.technology: windows-sdk

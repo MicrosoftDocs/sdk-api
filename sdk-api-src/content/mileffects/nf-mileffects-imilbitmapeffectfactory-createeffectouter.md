@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory_createeffectouter.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffectouter.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: CreateEffectOuter, CreateEffectOuter method [WPF Bitmap Effects], CreateEffectOuter method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateEffectOuter method, IMILBitmapEffectFactory.CreateEffectOuter, IMILBitmapEffectFactory::CreateEffectOuter, _wibe_imilbitmapeffectfactory_createeffectouter, mileffects/IMILBitmapEffectFactory::CreateEffectOuter, wibe._wibe_imilbitmapeffectfactory_createeffectouter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an outer <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Creates an outer <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates an outer <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).a
 
 ### -param ppEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>**</b>
 
-A pointer that receives a pointer to the new <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+A pointer that receives a pointer to the new <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object.
 
 
 ## -returns

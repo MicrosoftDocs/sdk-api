@@ -4,10 +4,10 @@ title: ComboBox_ShowDropdown macro
 author: windows-sdk-content
 description: Shows or hides the list in a combo box. You can use this macro or send the CB_SHOWDROPDOWN message explicitly.
 old-location: controls\ComboBox_ShowDropdown.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ComboBox_ShowDropdown, ComboBox_ShowDropdown macro [Windows Controls], _win32_ComboBox_ShowDropdown, _win32_ComboBox_ShowDropdown_cpp, controls.ComboBox_ShowDropdown, controls._win32_ComboBox_ShowDropdown, windowsx/ComboBox_ShowDropdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Shows or hides the list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775919(v=VS.85).aspx">CB_SHOWDROPDOWN</a> message explicitly.
+Shows or hides the list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/32b995d7-eed6-4173-8525-0d356dea39b3">CB_SHOWDROPDOWN</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-This macro has no effect on a combo box created with the <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">CBS_SIMPLE</a> style.
+This macro has no effect on a combo box created with the <a href="Combo_Box_Styles.htm">CBS_SIMPLE</a> style.
 	
 
 

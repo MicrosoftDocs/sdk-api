@@ -7,7 +7,7 @@ old-location: winrt\windowsinspectstring2.htm
 old-project: WinRT
 ms.assetid: 6A359C2A-21A3-4DCD-B40A-B983E790AC3C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runtime], winrt.windowsinspectstring2, winstring/WindowsInspectString2
 ms.prod: windows
 ms.technology: windows-sdk

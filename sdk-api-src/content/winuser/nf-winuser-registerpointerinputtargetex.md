@@ -7,7 +7,7 @@ old-location: winauto\registerpointerinputtargetex.htm
 old-project: WinAuto
 ms.assetid: E2B3D097-36E5-4444-B9DF-B3D38F1FEF48
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: RegisterPointerInputTargetEx, RegisterPointerInputTargetEx function [Windows Accessibility], winauto.registerpointerinputtargetex, winuser/RegisterPointerInputTargetEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

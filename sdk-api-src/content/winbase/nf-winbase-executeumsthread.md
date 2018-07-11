@@ -7,7 +7,7 @@ old-location: base\executeumsthread.htm
 old-project: ProcThread
 ms.assetid: e4265351-e8e9-4878-bd42-93258b4cd1a0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread, winbase/ExecuteUmsThread
 ms.prod: windows
 ms.technology: windows-sdk

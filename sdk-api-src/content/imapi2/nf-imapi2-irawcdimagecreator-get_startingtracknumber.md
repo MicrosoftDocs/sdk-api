@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_startingtracknumber.htm
 old-project: imapi
 ms.assetid: 307ef0b4-80b2-46c1-acca-1ce5d2222eb7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_StartingTrackNumber method, IRawCDImageCreator.get_StartingTrackNumber, IRawCDImageCreator::get_StartingTrackNumber, get_StartingTrackNumber, get_StartingTrackNumber method [IMAPI], get_StartingTrackNumber method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_startingtracknumber, imapi2/IRawCDImageCreator::get_StartingTrackNumber
 ms.prod: windows
 ms.technology: windows-sdk

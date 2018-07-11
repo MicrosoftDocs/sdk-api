@@ -7,7 +7,7 @@ old-location: tsf\itffnconfigure.htm
 old-project: TSF
 ms.assetid: af23e668-9c00-4e53-89b6-c8be85ae961b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfFnConfigure, ITfFnConfigure interface [Text Services Framework], ITfFnConfigure interface [Text Services Framework],described, _tsf_itffnconfigure_ref, ctffunc/ITfFnConfigure, tsf.itffnconfigure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 The <b>ITfFnConfigure</b> interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
 
-The Text Services control panel application obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a> and IID_ITfFnConfigure.
+The Text Services control panel application obtains an instance of this interface by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the class identifier passed to <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a> and IID_ITfFnConfigure.
 
 
 ## -inheritance
@@ -87,7 +87,7 @@ Called when the user opens the Text Services control panel application, selects 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
+<a href="_com_cocreateinstance">CoCreateInstance</a>
 
 
 
@@ -102,7 +102,7 @@ Called when the user opens the Text Services control panel application, selects 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

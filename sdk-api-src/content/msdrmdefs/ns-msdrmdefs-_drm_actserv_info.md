@@ -4,10 +4,10 @@ title: "_DRM_ACTSERV_INFO"
 author: windows-sdk-content
 description: The DRM_ACTSERV_INFO structure stores information about the activation server.
 old-location: rm\drm_actserv_info.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 2ea83a08-ab86-4635-8684-519808430ce9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRM_ACTSERV_INFO, DRM_ACTSERV_INFO structure [Active Directory Rights Management Services SDK 1.0], _DRM_ACTSERV_INFO, msdrmdefs/DRM_ACTSERV_INFO, rm.drm_actserv_info
 ms.prod: windows
 ms.technology: windows-sdk

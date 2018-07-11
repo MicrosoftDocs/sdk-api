@@ -4,10 +4,10 @@ title: "_SERVER_INFO_1512"
 author: windows-sdk-content
 description: The SERVER_INFO_1512 structure contains the maximum size of nonpaged memory that the specified server can allocate at a particular time.
 old-location: netmgmt\server_info_1512_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 5b01079a-90b8-453d-b0dd-f8a2a2f34014
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSERVER_INFO_1512, *PSERVER_INFO_1512, LPSERVER_INFO_1512, LPSERVER_INFO_1512 structure pointer [Network Management], PSERVER_INFO_1512, PSERVER_INFO_1512 structure pointer [Network Management], SERVER_INFO_1512, SERVER_INFO_1512 structure [Network Management], _SERVER_INFO_1512, _win32_server_info_1512_str, lmserver/LPSERVER_INFO_1512, lmserver/PSERVER_INFO_1512, lmserver/SERVER_INFO_1512, netmgmt.server_info_1512_str"
 ms.prod: windows
 ms.technology: windows-sdk

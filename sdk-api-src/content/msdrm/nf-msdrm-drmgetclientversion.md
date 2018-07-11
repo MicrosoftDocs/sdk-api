@@ -4,10 +4,10 @@ title: DRMGetClientVersion function
 author: windows-sdk-content
 description: Returns the version number of the Active Directory Rights Management Services client software and whether the hierarchy is for Production or Pre-production purposes.
 old-location: rm\drmgetclientversion.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 51f15900-4d7a-414e-ab2a-9120cd23a03b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMGetClientVersion, DRMGetClientVersion function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetClientVersion, rm.drmgetclientversion
 ms.prod: windows
 ms.technology: windows-sdk

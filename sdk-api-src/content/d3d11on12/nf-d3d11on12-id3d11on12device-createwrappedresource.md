@@ -7,7 +7,7 @@ old-location: direct3d12\id3d11on12device_createwrappedresource.htm
 old-project: direct3d12
 ms.assetid: 83B37B0A-9965-40F6-A5B1-8B4DC21BC455
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: CreateWrappedResource, CreateWrappedResource method, CreateWrappedResource method,ID3D11On12Device interface, ID3D11On12Device interface,CreateWrappedResource method, ID3D11On12Device.CreateWrappedResource, ID3D11On12Device::CreateWrappedResource, d3d11on12/ID3D11On12Device::CreateWrappedResource, direct3d12.id3d11on12device_createwrappedresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.

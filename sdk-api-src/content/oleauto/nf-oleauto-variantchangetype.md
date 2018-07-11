@@ -7,7 +7,7 @@ old-location: automat\variantchangetype.htm
 old-project: automat
 ms.assetid: 48a51e32-95d7-4eeb-8106-f5043ffa2fd1
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VARIANT_ALPHABOOL, VARIANT_LOCALBOOL, VARIANT_NOUSEROVERRIDE, VARIANT_NOVALUEPROP, VariantChangeType, VariantChangeType function [Automation], _oa96_VariantChangeType, automat.variantchangetype, oleauto/VariantChangeType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -223,7 +223,7 @@ Insufficient memory to complete the operation.
 
 The <b>VariantChangeType</b> function handles coercions between the fundamental types (including numeric-to-string and string-to-numeric coercions). The <i>pvarSrc</i> argument is changed during the conversion process. For example, if the source variant is of type VT_BOOL and the destination is of type VT_UINT, the <i>pvarSrc</i> argument is first converted to VT_I2 and then the conversion proceeds. A variant that has VT_BYREF set is coerced to a value by obtaining the referenced value. An object is coerced to a value by invoking the object's <b>Value</b> property (DISPID_VALUE). 
 
-Typically, the implementor of <a href="https://msdn.microsoft.com/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a> determines which member is being accessed, and then calls <b>VariantChangeType</b> to get the value of one or more arguments. For example, if the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> call specifies a <b>SetTitle</b> member that takes one string argument, the implementor would call <b>VariantChangeType</b> to attempt to coerce the argument to VT_BSTR. If <b>VariantChangeType</b> does not return an error, the argument could then be obtained directly from the <b>bstrVal</b> field of the VARIANTARG. If <b>VariantChangeType</b> returns DISP_E_TYPEMISMATCH, the implementor would set *<i>puArgErr</i> to 0 (indicating the argument in error) and return DISP_E_TYPEMISMATCH from <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">Invoke</a>.
+Typically, the implementor of <a href="964ADE8E-9D8A-4D32-BD47-AA678912A54D">IDispatch::Invoke</a> determines which member is being accessed, and then calls <b>VariantChangeType</b> to get the value of one or more arguments. For example, if the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> call specifies a <b>SetTitle</b> member that takes one string argument, the implementor would call <b>VariantChangeType</b> to attempt to coerce the argument to VT_BSTR. If <b>VariantChangeType</b> does not return an error, the argument could then be obtained directly from the <b>bstrVal</b> field of the VARIANTARG. If <b>VariantChangeType</b> returns DISP_E_TYPEMISMATCH, the implementor would set *<i>puArgErr</i> to 0 (indicating the argument in error) and return DISP_E_TYPEMISMATCH from <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">Invoke</a>.
 
 Arrays of one type cannot be converted to arrays of another type with this function.
 

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition_startcomposition.htm
 old-project: TSF
 ms.assetid: aab84e6c-39c7-438e-b4f0-1d174473aa02
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfContextComposition interface [Text Services Framework],StartComposition method, ITfContextComposition.StartComposition, ITfContextComposition::StartComposition, StartComposition, StartComposition method [Text Services Framework], StartComposition method [Text Services Framework],ITfContextComposition interface, _tsf_itfcontextcomposition_startcomposition_ref, msctf/ITfContextComposition::StartComposition, tsf.itfcontextcomposition_startcomposition
 ms.prod: windows
 ms.technology: windows-sdk

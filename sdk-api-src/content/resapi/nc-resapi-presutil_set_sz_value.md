@@ -4,10 +4,10 @@ title: PRESUTIL_SET_SZ_VALUE
 author: windows-sdk-content
 description: Sets a string value in the cluster database. The PRESUTIL_SET_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetszvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b9227df3-0693-4b0f-99de-d10fa3d7acf5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE callback, PRESUTIL_SET_SZ_VALUE callback function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

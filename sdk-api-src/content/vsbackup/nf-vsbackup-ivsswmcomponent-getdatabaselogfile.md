@@ -4,10 +4,10 @@ title: IVssWMComponent::GetDatabaseLogFile
 author: windows-sdk-content
 description: The GetDatabaseLogFile method obtains a file descriptor for the log file associated with the specified database backup component.
 old-location: base\ivsswmcomponent_getdatabaselogfile.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 8aaab68a-27e3-4e76-8116-530001b504a3
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetDatabaseLogFile, GetDatabaseLogFile method [VSS], GetDatabaseLogFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseLogFile method, IVssWMComponent.GetDatabaseLogFile, IVssWMComponent::GetDatabaseLogFile, _win32_ivsswmcomponent_getdatabaselogfile, base.ivsswmcomponent_getdatabaselogfile, vsbackup/IVssWMComponent::GetDatabaseLogFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -172,7 +172,7 @@ The specified database log file does not exist.
 
 
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> to release system resources held by the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

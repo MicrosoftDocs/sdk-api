@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_memcpy_dest.htm
 old-project: direct3d12
 ms.assetid: B85B7B60-FA34-4A4D-B1A7-D54884956E83
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_MEMCPY_DEST, D3D12_MEMCPY_DEST structure, d3d12/D3D12_MEMCPY_DEST, direct3d12.d3d12_memcpy_dest
 ms.prod: windows
 ms.technology: windows-sdk

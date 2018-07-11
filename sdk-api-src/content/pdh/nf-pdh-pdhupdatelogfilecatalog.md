@@ -4,10 +4,10 @@ title: PdhUpdateLogFileCatalog function
 author: windows-sdk-content
 description: Synchronizes the information in the log file catalog with the performance data in the log file.
 old-location: perf\pdhupdatelogfilecatalog.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog
 ms.prod: windows
 ms.technology: windows-sdk

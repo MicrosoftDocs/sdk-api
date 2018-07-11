@@ -7,7 +7,7 @@ old-location: battery\batteryminisetstatusnotify.htm
 old-project: battery
 ms.assetid: ec463202-4c08-475a-b612-73413f1376fc
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 02/16/2018
 ms.keywords: BCLASS_SET_STATUS_NOTIFY_CALLBACK, BCLASS_SET_STATUS_NOTIFY_CALLBACK callback, BatteryMiniSetStatusNotify, BatteryMiniSetStatusNotify callback function [Battery Devices], bat-mini_a7e948a0-2fe9-4727-88e1-9eb27272789d.xml, batclass/BatteryMiniSetStatusNotify, battery.batteryminisetstatusnotify
 ms.prod: windows
 ms.technology: windows-sdk

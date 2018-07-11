@@ -4,10 +4,10 @@ title: ICertificateAttestationChallenge::DecryptChallenge
 author: windows-sdk-content
 description: Decrypts the challenge from the Certificate Management over CMS (CMC) response and creates a re-encrypted response to send to the CA.
 old-location: security\icertificateattestationchallenge_decryptchallenge.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChallenge method [Security],ICertificateAttestationChallenge interface, ICertificateAttestationChallenge interface [Security],DecryptChallenge method, ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge
 ms.prod: windows
 ms.technology: windows-sdk

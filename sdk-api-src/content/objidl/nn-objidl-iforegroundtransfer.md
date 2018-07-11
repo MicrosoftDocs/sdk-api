@@ -7,7 +7,7 @@ old-location: com\iforegroundtransfer.htm
 old-project: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Transfers the foreground window to the process hosting the COM server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IForegroundTransfer</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IForegroundTransfer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IForegroundTransfer</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IForegroundTransfer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

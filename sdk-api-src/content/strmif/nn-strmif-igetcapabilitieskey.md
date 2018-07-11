@@ -7,7 +7,7 @@ old-location: dshow\igetcapabilitieskey.htm
 old-project: DirectShow
 ms.assetid: 97a9112f-7b7b-4a7e-8f40-bdb148d413c8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IGetCapabilitiesKey, IGetCapabilitiesKey interface [DirectShow], IGetCapabilitiesKey interface [DirectShow],described, IGetCapabilitiesKeyInterface, dshow.igetcapabilitieskey, strmif/IGetCapabilitiesKey
 ms.prod: windows
 ms.technology: windows-sdk

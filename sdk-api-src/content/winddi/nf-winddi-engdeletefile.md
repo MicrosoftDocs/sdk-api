@@ -7,7 +7,7 @@ old-location: display\engdeletefile.htm
 old-project: display
 ms.assetid: 2ed030cf-6d26-4bde-8d63-83fd6848ec0d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile
 ms.prod: windows
 ms.technology: windows-sdk

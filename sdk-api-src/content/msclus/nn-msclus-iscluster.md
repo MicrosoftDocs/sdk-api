@@ -4,10 +4,10 @@ title: ISCluster
 author: windows-sdk-content
 description: Enables operations on the cluster and provides access to all of the objects in the cluster.
 old-location: mscs\cluster_object.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4a765dce-c823-4a79-8608-ff41feec8a39
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Cluster, Cluster object [Failover Cluster], Cluster object [Failover Cluster],described, ISCluster, _wolf_cluster_object, msclus/Cluster, mscs.cluster_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -281,7 +281,7 @@ Returns a <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac
 </td>
 <td align="left" width="63%">
 Returns a <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> object describing the 
-     <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster version</a>.
+     <a href="c_gly.htm">cluster version</a>.
 
 </td>
 </tr>

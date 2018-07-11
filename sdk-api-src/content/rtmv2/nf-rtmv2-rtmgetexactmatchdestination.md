@@ -4,10 +4,10 @@ title: RtmGetExactMatchDestination function
 author: windows-sdk-content
 description: The RtmGetExactMatchDestination function searches the routing table for a destination that exactly matches the specified network address and subnet mask. If an exact match is found, the information for that destination is returned.
 old-location: rras\rtmgetexactmatchdestination.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 0cbb24f4-30f4-41be-aea2-36474760d374
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmGetExactMatchDestination, RtmGetExactMatchDestination function [RAS], _rtmv2ref_rtmgetexactmatchdestination, rras.rtmgetexactmatchdestination, rtmv2/RtmGetExactMatchDestination
 ms.prod: windows
 ms.technology: windows-sdk

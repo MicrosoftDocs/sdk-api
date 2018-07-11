@@ -4,10 +4,10 @@ title: CreateDirectoryExW function
 author: windows-sdk-content
 description: Creates a new directory with the attributes of a specified template directory.
 old-location: fs\createdirectoryex.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: CreateDirectoryEx, CreateDirectoryEx function [Files], CreateDirectoryExA, CreateDirectoryExW, _win32_createdirectoryex, base.createdirectoryex, fs.createdirectoryex, winbase/CreateDirectoryEx, winbase/CreateDirectoryExA, winbase/CreateDirectoryExW
 ms.prod: windows
 ms.technology: windows-sdk

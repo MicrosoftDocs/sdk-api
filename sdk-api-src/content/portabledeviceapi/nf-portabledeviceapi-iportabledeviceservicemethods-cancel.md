@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemethods_cancel.htm
 old-project: wpd_sdk
 ms.assetid: 03281c4f-4dba-4ac4-af5d-d700c914ed01
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceServiceMethods.Cancel, IPortableDeviceServiceMethods::Cancel, portabledeviceapi/IPortableDeviceServiceMethods::Cancel, wpdsdk.iportabledeviceservicemethods_cancel
 ms.prod: windows
 ms.technology: windows-sdk

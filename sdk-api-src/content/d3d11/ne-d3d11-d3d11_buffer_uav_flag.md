@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_buffer_uav_flag.htm
 old-project: direct3d11
 ms.assetid: 13cf0083-c61a-478d-94bd-00dec4cf27b7
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 5103c5e7-101e-9c1a-35cc-e3c97e30a9d5, D3D11_BUFFER_UAV_FLAG, D3D11_BUFFER_UAV_FLAG enumeration [Direct3D 11], D3D11_BUFFER_UAV_FLAG_APPEND, D3D11_BUFFER_UAV_FLAG_COUNTER, D3D11_BUFFER_UAV_FLAG_RAW, d3d11/D3D11_BUFFER_UAV_FLAG, d3d11/D3D11_BUFFER_UAV_FLAG_APPEND, d3d11/D3D11_BUFFER_UAV_FLAG_COUNTER, d3d11/D3D11_BUFFER_UAV_FLAG_RAW, direct3d11.d3d11_buffer_uav_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Identifies unordered-access view options for a buffer resource.
 ### -field D3D11_BUFFER_UAV_FLAG_RAW
 
 Resource contains raw, unstructured data.  Requires the UAV format to be DXGI_FORMAT_R32_TYPELESS.
-        For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+        For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
 
 
 ### -field D3D11_BUFFER_UAV_FLAG_APPEND

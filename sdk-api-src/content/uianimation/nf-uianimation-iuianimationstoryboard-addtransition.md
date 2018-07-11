@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_addtransition.htm
 old-project: UIAnimation
 ms.assetid: c3213e5d-c8f5-406a-bc44-9de7a740b070
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransition method, IUIAnimationStoryboard.AddTransition, IUIAnimationStoryboard::AddTransition, uianimation.iuianimationstoryboard_addtransition, uianimation/IUIAnimationStoryboard::AddTransition
 ms.prod: windows
 ms.technology: windows-sdk

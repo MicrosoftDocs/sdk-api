@@ -4,10 +4,10 @@ title: IPsecSaContextExpire0 function
 author: windows-sdk-content
 description: Indicates that an IPsec security association (SA) context should be expired.
 old-location: fwp\ipsecsacontextexpire0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
 ms.prod: windows
 ms.technology: windows-sdk

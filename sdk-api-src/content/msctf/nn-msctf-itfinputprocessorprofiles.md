@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles.htm
 old-project: TSF
 ms.assetid: 9fa722a4-1e3f-4845-aea7-3b24b517f2a5
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ITfInputProcessorProfiles interface [Text Services Framework],described, _tsf_itfinputprocessorprofiles_ref, msctf/ITfInputProcessorProfiles, tsf.itfinputprocessorprofiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -238,7 +238,7 @@ Removes a text service from TSF.
 
 
 
-To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
+To obtain a pointer to this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with CLSID_TF_InputProcessorProfiles.
 
 
 #### Examples

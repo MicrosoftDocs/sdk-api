@@ -4,10 +4,10 @@ title: ICertEncodeBitString
 author: windows-sdk-content
 description: Provides methods for handling bit strings used in certificate extensions.
 old-location: security\icertencodebitstring.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeBitString</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeBitString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeBitString</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeBitString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

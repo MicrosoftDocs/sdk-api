@@ -4,10 +4,10 @@ title: DRMGetRevocationPoint function
 author: windows-sdk-content
 description: Retrieves information about the revocation point for an issuance license.
 old-location: rm\drmgetrevocationpoint.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 11197e77-0b7f-4972-83a1-a82aa5cef0dd
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMGetRevocationPoint, DRMGetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRevocationPoint, rm.drmgetrevocationpoint
 ms.prod: windows
 ms.technology: windows-sdk

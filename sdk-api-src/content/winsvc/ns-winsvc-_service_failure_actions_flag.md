@@ -4,10 +4,10 @@ title: "_SERVICE_FAILURE_ACTIONS_FLAG"
 author: windows-sdk-content
 description: Contains the failure actions flag setting of a service. This setting determines when failure actions are to be executed.
 old-location: base\service_failure_actions_flag.htm
-old-project: Services
+old-project: services
 ms.assetid: 49736b26-9565-4d56-abcd-1585b692ff12
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG structure pointer, SERVICE_FAILURE_ACTIONS_FLAG, SERVICE_FAILURE_ACTIONS_FLAG structure, _SERVICE_FAILURE_ACTIONS_FLAG, base.service_failure_actions_flag, winsvc/LPSERVICE_FAILURE_ACTIONS_FLAG, winsvc/SERVICE_FAILURE_ACTIONS_FLAG"
 ms.prod: windows
 ms.technology: windows-sdk

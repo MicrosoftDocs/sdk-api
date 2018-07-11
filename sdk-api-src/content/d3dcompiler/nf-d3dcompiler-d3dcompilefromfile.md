@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcompilefromfile.htm
 old-project: direct3dhlsl
 ms.assetid: 09F1DB4F-C279-4E25-8A1C-34272EB62C07
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 06/18/2018
 ms.keywords: D3DCompileFromFile, D3DCompileFromFile function [HLSL], d3dcompiler/D3DCompileFromFile, direct3dhlsl.d3dcompilefromfile
 ms.prod: windows
 ms.technology: windows-sdk

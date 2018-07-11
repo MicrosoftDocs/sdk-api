@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a resource_type enumeration handle.
 old-location: mscs\clusterresourcetypegetenumcount.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1960dc1a-778e-4bad-b6ad-07c0a8547cc6
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clusterresourcetypegetenumcount, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_GET_ENUM_COUNT, mscs.clusterresourcetypegetenumcount
 ms.prod: windows
 ms.technology: windows-sdk

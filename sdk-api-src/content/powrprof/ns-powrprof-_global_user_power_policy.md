@@ -4,10 +4,10 @@ title: "_GLOBAL_USER_POWER_POLICY"
 author: windows-sdk-content
 description: Contains global user power policy settings that apply to all power schemes for a user.
 old-location: base\global_user_power_policy_str.htm
-old-project: Power
+old-project: power
 ms.assetid: 0e89ae66-a889-4929-b028-125fcef5c89c
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PGLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY structure, PGLOBAL_USER_POWER_POLICY, PGLOBAL_USER_POWER_POLICY structure pointer, _GLOBAL_USER_POWER_POLICY, _win32_global_user_power_policy_str, base.global_user_power_policy_str, powrprof/GLOBAL_USER_POWER_POLICY, powrprof/PGLOBAL_USER_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

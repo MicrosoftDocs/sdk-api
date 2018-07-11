@@ -7,7 +7,7 @@ old-location: com\codisconnectobject.htm
 old-project: com
 ms.assetid: 4293316a-bafe-4fca-ad6a-68d8e99c8fba
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoDisconnectObject, CoDisconnectObject function [COM], _com_CoDisconnectObject, com.codisconnectobject, combaseapi/CoDisconnectObject
 ms.prod: windows
 ms.technology: windows-sdk

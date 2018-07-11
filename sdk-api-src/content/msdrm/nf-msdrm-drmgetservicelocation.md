@@ -4,10 +4,10 @@ title: DRMGetServiceLocation function
 author: windows-sdk-content
 description: Retrieves the URL of a server that can perform various rights management services, such as activation or license acquisition.
 old-location: rm\drmgetservicelocation.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: f7cbc3ba-009f-4a35-999e-139d41961fd9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMGetServiceLocation, DRMGetServiceLocation function [Active Directory Rights Management Services SDK 1.0], DRM_SERVICE_LOCATION_ENTERPRISE, DRM_SERVICE_LOCATION_INTERNET, DRM_SERVICE_TYPE_ACTIVATION, DRM_SERVICE_TYPE_CERTIFICATION, DRM_SERVICE_TYPE_CLIENTLICENSOR, DRM_SERVICE_TYPE_PUBLISHING, DRM_SERVICE_TYPE_SILENT, msdrm/DRMGetServiceLocation, rm.drmgetservicelocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,19 +86,19 @@ Retrieve the computer activation service.
 
 #### DRM_SERVICE_TYPE_CERTIFICATION
 
-Retrieve the <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> service.
+Retrieve the <a href="r_gly.htm">rights account certificate</a> service.
 
 
 
 #### DRM_SERVICE_TYPE_CLIENTLICENSOR
 
-Retrieve the <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">client licensor certificates</a> service (for offline publishing).
+Retrieve the <a href="c_gly.htm">client licensor certificates</a> service (for offline publishing).
 
 
 
 #### DRM_SERVICE_TYPE_PUBLISHING
 
-Retrieve the <a href="https://msdn.microsoft.com/library/Ff951644(v=VS.85).aspx">issuance license</a> signing service (for online publishing).
+Retrieve the <a href="i_gly.htm">issuance license</a> signing service (for online publishing).
 
 
 
@@ -241,7 +241,7 @@ Beginning with RMS v1.0 SP1, this value can only be used to discover a certifica
 
 The application is responsible for allocating and freeing memory for the retrieved data. To find the buffer size required, call the function with <b>NULL</b> in the <i>wszServiceURL</i> parameter. The buffer size will be passed back to you  through the <i>puServiceURLLength</i> parameter.
 
-For a service discovery code example, see <a href="https://msdn.microsoft.com/69cc6ad7-cd5d-445c-9150-a7fcf5562afa">OnlineSigning_GetServiceURL.cpp</a>. There is no service discovery for acquiring <a href="https://msdn.microsoft.com/library/Aa368574(v=VS.85).aspx">end-user licenses</a> because this information can be stored in the <a href="https://msdn.microsoft.com/library/Ff951644(v=VS.85).aspx">issuance license</a> used to acquire the <i>end-user license</i>.
+For a service discovery code example, see <a href="https://msdn.microsoft.com/69cc6ad7-cd5d-445c-9150-a7fcf5562afa">OnlineSigning_GetServiceURL.cpp</a>. There is no service discovery for acquiring <a href="e_gly.htm">end-user licenses</a> because this information can be stored in the <a href="i_gly.htm">issuance license</a> used to acquire the <i>end-user license</i>.
 
 
 

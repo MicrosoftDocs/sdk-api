@@ -4,10 +4,10 @@ title: PMGM_RPF_CALLBACK
 author: windows-sdk-content
 description: The PMGM_RPF_CALLBACK callback is a call into a routing protocol to determine if a given packet was received on the correct interface.
 old-location: rras\pmgm_rpf_callback.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 114a44c2-e352-45b9-9842-cfb369072c84
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM_RPF_CALLBACK callback function [RAS], _mpr_pmgm_rpf_callback, mgm/PMGM_RPF_CALLBACK, rras.pmgm_rpf_callback
 ms.prod: windows
 ms.technology: windows-sdk

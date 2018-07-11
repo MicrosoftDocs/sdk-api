@@ -4,10 +4,10 @@ title: IAlternativeName::get_RawData
 author: windows-sdk-content
 description: Retrieves the Distinguished Encoding Rules (DER) encoded byte array that contains the name.
 old-location: security\ialternativename_rawdata_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 7385654d-03f8-4796-a95c-000fa8ab65a3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IAlternativeName interface [Security],RawData property, IAlternativeName.RawData, IAlternativeName.get_RawData, IAlternativeName::RawData, IAlternativeName::get_RawData, RawData property [Security], RawData property [Security],IAlternativeName interface, certenroll/IAlternativeName::RawData, certenroll/IAlternativeName::get_RawData, get_RawData, security.ialternativename_rawdata_property
 ms.prod: windows
 ms.technology: windows-sdk

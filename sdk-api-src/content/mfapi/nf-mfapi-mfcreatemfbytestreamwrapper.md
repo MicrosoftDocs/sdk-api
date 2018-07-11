@@ -7,7 +7,7 @@ old-location: mf\mfcreatemfbytestreamwrapper.htm
 old-project: medfound
 ms.assetid: F6A9603D-39C8-4039-BAA0-81557CE29078
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFCreateMFByteStreamWrapper, MFCreateMFByteStreamWrapper function [Media Foundation], mf.mfcreatemfbytestreamwrapper, mfapi/MFCreateMFByteStreamWrapper
 ms.prod: windows
 ms.technology: windows-sdk

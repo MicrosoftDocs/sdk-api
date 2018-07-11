@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyConditionFla
 old-project: WinAuto
 ms.assetid: 509013fa-61d7-4330-b32f-3ae70dc01e74
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyConditionFlags property, IUIAutomationPropertyCondition.PropertyConditionFlags, IUIAutomationPropertyCondition.get_PropertyConditionFlags, IUIAutomationPropertyCondition::PropertyConditionFlags, IUIAutomationPropertyCondition::get_PropertyConditionFlags, PropertyConditionFlags property [Windows Accessibility], PropertyConditionFlags property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyConditionFlags, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags, uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags, uiautomationclient/IUIAutomationPropertyCondition::PropertyConditionFlags, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyConditionFlags, winauto.uiauto_IUIAutomationPropertyCondition_PropertyConditionFlags
 ms.prod: windows
 ms.technology: windows-sdk

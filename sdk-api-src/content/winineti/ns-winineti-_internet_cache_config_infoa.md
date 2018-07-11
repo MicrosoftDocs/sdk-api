@@ -4,10 +4,10 @@ title: "_INTERNET_CACHE_CONFIG_INFOA"
 author: windows-sdk-content
 description: Contains information about the configuration of the Internet cache.
 old-location: wininet\internet_cache_config_info.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 39019a94-6f14-4758-86f7-aba598e23d2e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*LPINTERNET_CACHE_CONFIG_INFOA, INTERNET_CACHE_CONFIG_INFO, INTERNET_CACHE_CONFIG_INFO structure [WinINet], INTERNET_CACHE_CONFIG_INFOA, PINTERNET_CACHE_CONFIG_INFO, PINTERNET_CACHE_CONFIG_INFO structure pointer [WinINet], _INTERNET_CACHE_CONFIG_INFOA, wininet.internet_cache_config_info, winineti/INTERNET_CACHE_CONFIG_INFO, winineti/PINTERNET_CACHE_CONFIG_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

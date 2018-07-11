@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_put_uimode.htm
 old-project: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,20 +90,20 @@ The <b>put_uiMode</b> method specifies a value indicating which controls are sho
 <tr>
 <td>none</td>
 <td>Windows Media Player is embedded without controls, and with only the video or visualization window displayed.</td>
-<td><img alt='uiMode="none" with audio' border="0" src="./images/uimode_none_audio_v11.png"/></td>
-<td><img alt='uiMode="none" with video' border="0" src="./images/uimode_none_video_v11.png"/></td>
+<td><img alt='uiMode="none" with audio' border="0" src="images/uimode_none_audio_v11.png"/></td>
+<td><img alt='uiMode="none" with video' border="0" src="images/uimode_none_video_v11.png"/></td>
 </tr>
 <tr>
 <td>mini</td>
 <td>Windows Media Player is embedded with the status window, play/pause, stop, mute, and volume controls shown in addition to the video or visualization window.</td>
-<td><img alt='uiMode="mini" with audio' border="0" src="./images/uimode_mini_audio_v11.png"/></td>
-<td><img alt='uiMode="mini" with video' border="0" src="./images/uimode_mini_video_v11.png"/></td>
+<td><img alt='uiMode="mini" with audio' border="0" src="images/uimode_mini_audio_v11.png"/></td>
+<td><img alt='uiMode="mini" with video' border="0" src="images/uimode_mini_video_v11.png"/></td>
 </tr>
 <tr>
 <td>full</td>
 <td>Default. Windows Media Player is embedded with the status window, seek bar, play/pause, stop, mute, next, previous, fast forward, fast reverse, and volume controls in addition to the video or visualization window.</td>
-<td><img alt='uiMode="full" with audio' border="0" src="./images/uimode_full_audio_v11.png"/></td>
-<td><img alt='uiMode="full" with video' border="0" src="./images/uimode_full_video_v11.png"/></td>
+<td><img alt='uiMode="full" with audio' border="0" src="images/uimode_full_audio_v11.png"/></td>
+<td><img alt='uiMode="full" with video' border="0" src="images/uimode_full_video_v11.png"/></td>
 </tr>
 <tr>
 <td>custom</td>

@@ -7,7 +7,7 @@ old-location: ifsk\filterinstancefindnext.htm
 old-project: ifsk
 ms.assetid: c7305378-1de8-4db0-89a2-2ac342a17620
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 04/17/2018
 ms.keywords: FilterInstanceFindNext, FilterInstanceFindNext function [Installable File System Drivers], FltWin32ApiRef_35023bec-f16b-4ac0-ad0f-f3550e8cfafd.xml, fltuser/FilterInstanceFindNext, ifsk.filterinstancefindnext
 ms.prod: windows
 ms.technology: windows-sdk

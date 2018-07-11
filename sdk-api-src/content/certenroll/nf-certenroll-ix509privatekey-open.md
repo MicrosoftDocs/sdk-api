@@ -4,10 +4,10 @@ title: IX509PrivateKey::Open
 author: windows-sdk-content
 description: Opens an existing private key.
 old-location: security\ix509privatekey_open_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 965e3bf8-22b9-4015-8fb2-102c5f7b1cb5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509PrivateKey interface [Security],Open method, IX509PrivateKey.Open, IX509PrivateKey::Open, Open, Open method [Security], Open method [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Open, security.ix509privatekey_open_method
 ms.prod: windows
 ms.technology: windows-sdk

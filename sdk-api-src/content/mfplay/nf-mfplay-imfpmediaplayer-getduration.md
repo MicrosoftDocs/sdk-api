@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getduration.htm
 old-project: medfound
 ms.assetid: 7d201035-6946-4a46-bc66-b9e78006a04a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetDuration method, IMFPMediaPlayer.GetDuration, IMFPMediaPlayer::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getduration, mfplay/IMFPMediaPlayer::GetDuration
 ms.prod: windows
 ms.technology: windows-sdk

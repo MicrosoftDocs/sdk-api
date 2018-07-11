@@ -4,10 +4,10 @@ title: PCLUSAPI_SetClusterName
 author: windows-sdk-content
 description: Sets the name for a cluster.
 old-location: mscs\setclustername.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_SetClusterName, PCLUSAPI_SetClusterName callback, PCLUSAPI_SetClusterName callback function [Failover Cluster], _wolf_setclustername, clusapi/PCLUSAPI_SetClusterName, mscs.setclustername
 ms.prod: windows
 ms.technology: windows-sdk

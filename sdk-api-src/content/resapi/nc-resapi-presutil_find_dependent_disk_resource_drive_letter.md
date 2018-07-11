@@ -4,10 +4,10 @@ title: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER
 author: windows-sdk-content
 description: Retrieves the drive letter associated with a Physical Disk dependency of a resource. The PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER type defines a pointer to this function.
 old-location: mscs\resutilfinddependentdiskresourcedriveletter.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8f2187e3-6bb7-4756-af2b-a28857581bcb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER callback, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER callback function [Failover Cluster], _wolf_resutilfinddependentdiskresourcedriveletter, mscs.resutilfinddependentdiskresourcedriveletter, resapi/PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_CLOSE_DATABASE_FN
 author: windows-sdk-content
 description: Closes the database associated with the pipeline and frees all related resources.
 old-location: secbiomet\storageadapterclosedatabase.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: ddb8d0b8-e975-4ee2-bb8c-423b1304c467
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_CLOSE_DATABASE_FN, PIBIO_STORAGE_CLOSE_DATABASE_FN callback, StorageAdapterCloseDatabase, StorageAdapterCloseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapterclosedatabase, winbio_adapter/StorageAdapterCloseDatabase
 ms.prod: windows
 ms.technology: windows-sdk

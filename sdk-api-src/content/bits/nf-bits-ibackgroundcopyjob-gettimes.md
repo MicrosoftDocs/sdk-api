@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetTimes
 author: windows-sdk-content
 description: Retrieves job-related time stamps, such as the time that the job was created or last modified.
 old-location: bits\ibackgroundcopyjob_gettimes.htm
-old-project: Bits
+old-project: bits
 ms.assetid: acc29cc2-b437-4799-9cdb-388a60f117e9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetTimes method, IBackgroundCopyJob.GetTimes, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
 ms.prod: windows
 ms.technology: windows-sdk

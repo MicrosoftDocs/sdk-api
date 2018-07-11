@@ -4,10 +4,10 @@ title: NCryptSignHash function
 author: windows-sdk-content
 description: Creates a signature of a hash value.
 old-location: security\ncryptsignhash_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
 ms.prod: windows
 ms.technology: windows-sdk

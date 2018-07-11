@@ -7,7 +7,7 @@ old-location: input_sourceid\input_message_origin_id.htm
 old-project: Input_SourceId
 ms.assetid: 5637bf3a-9fd8-4c89-acd0-4e0e47c0a3bf
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: IMO_HARDWARE, IMO_INJECTED, IMO_SYSTEM, IMO_UNAVAILABLE, INPUT_MESSAGE_ORIGIN_ID, INPUT_MESSAGE_ORIGIN_ID enumeration, input_sourceid.input_message_origin_id, inputsourceid.input_message_origin_id, tagINPUT_MESSAGE_ORIGIN_ID, winuser/IMO_HARDWARE, winuser/IMO_INJECTED, winuser/IMO_SYSTEM, winuser/IMO_UNAVAILABLE, winuser/INPUT_MESSAGE_ORIGIN_ID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ For more information about the <b>UIAccess</b> attribute and application manifes
 
 ### -field IMO_INJECTED
 
-The input message has been injected (through the <a href="https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
+The input message has been injected (through the <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> function) by an application that doesn't have the <b>UIAccess</b> attribute set to TRUE in its manifest file.
 
 
 ### -field IMO_SYSTEM

@@ -4,10 +4,10 @@ title: INetFwServiceRestriction::RestrictService
 author: windows-sdk-content
 description: The RestrictService method turns service restriction on or off for a given service.
 old-location: ics\inetfwservicerestriction_restrictservice.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 5695bcb7-a83a-4581-8f46-00e85273b160
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],RestrictService method, INetFwServiceRestriction.RestrictService, INetFwServiceRestriction::RestrictService, RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
 ms.prod: windows
 ms.technology: windows-sdk

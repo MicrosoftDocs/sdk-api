@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_initializefrombitmap.htm
 old-project: wic
 ms.assetid: f17d0f16-729e-466c-902f-61398daf2921
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromBitmap method, IWICPalette.InitializeFromBitmap, IWICPalette::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Imaging Component], InitializeFromBitmap method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrombitmap, wic._wic_codec_iwicpalette_initializefrombitmap, wincodec/IWICPalette::InitializeFromBitmap
 ms.prod: windows
 ms.technology: windows-sdk

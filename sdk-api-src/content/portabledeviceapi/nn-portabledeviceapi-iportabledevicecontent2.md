@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent2.htm
 old-project: wpd_sdk
 ms.assetid: 73bf9a24-7fdc-4483-ad37-28d887d146d9
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: IPortableDeviceContent2, IPortableDeviceContent2 interface [Windows Portable Devices SDK], IPortableDeviceContent2 interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent2, wpdsdk.iportabledevicecontent2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IPortableDeviceContent2</b> interface defines additional methods that pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

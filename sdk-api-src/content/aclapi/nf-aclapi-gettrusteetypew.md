@@ -4,10 +4,10 @@ title: GetTrusteeTypeW function
 author: windows-sdk-content
 description: Retrieves the trustee type from the specified TRUSTEE structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 old-location: security\gettrusteetype.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ A pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

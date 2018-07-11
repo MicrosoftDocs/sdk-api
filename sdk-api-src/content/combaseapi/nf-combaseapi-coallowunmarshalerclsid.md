@@ -7,7 +7,7 @@ old-location: com\coallowunmarshalerclsid.htm
 old-project: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoAllowUnmarshalerCLSID, CoAllowUnmarshalerCLSID function [COM], com.coallowunmarshalerclsid, combaseapi/CoAllowUnmarshalerCLSID
 ms.prod: windows
 ms.technology: windows-sdk

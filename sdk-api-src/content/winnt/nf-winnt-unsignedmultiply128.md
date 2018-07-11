@@ -4,10 +4,10 @@ title: UnsignedMultiply128 function
 author: windows-sdk-content
 description: Multiplies two unsigned 64-bit integers to produce an unsigned 128-bit integer.
 old-location: winprog\unsignedmultiply128.htm
-old-project: WinProg
+old-project: winprog
 ms.assetid: C9F8D594-3E25-4494-835F-A873045FE83F
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: UnsignedMultiply128, UnsignedMultiply128 function [Windows API], winnt/UnsignedMultiply128, winprog.unsignedmultiply128
 ms.prod: windows
 ms.technology: windows-sdk

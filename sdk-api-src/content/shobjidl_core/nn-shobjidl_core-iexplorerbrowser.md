@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser.htm
 old-project: shell
 ms.assetid: da2cf5d4-5a68-4d18-807b-b9d4e2712c10
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IExplorerBrowser, IExplorerBrowser interface [Windows Shell], IExplorerBrowser interface [Windows Shell],described, _shell_IExplorerBrowser, shell.IExplorerBrowser, shobjidl_core/IExplorerBrowser
 ms.prod: windows
 ms.technology: windows-sdk

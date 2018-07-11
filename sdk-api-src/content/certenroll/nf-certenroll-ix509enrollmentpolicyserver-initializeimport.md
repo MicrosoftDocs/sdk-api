@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::InitializeImport
 author: windows-sdk-content
 description: Initializes the certificate enrollment policy (CEP) server from a collection of templates and object identifiers.
 old-location: security\ix509enrollmentpolicyserver_initializeimport.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b397f57f-e01e-4c2b-8338-892f56b76c9e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],InitializeImport method, IX509EnrollmentPolicyServer.InitializeImport, IX509EnrollmentPolicyServer::InitializeImport, InitializeImport, InitializeImport method [Security], InitializeImport method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::InitializeImport, security.ix509enrollmentpolicyserver_initializeimport
 ms.prod: windows
 ms.technology: windows-sdk

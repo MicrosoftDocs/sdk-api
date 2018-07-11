@@ -4,10 +4,10 @@ title: TcQueryInterface function
 author: windows-sdk-content
 description: The TcQueryInterface function queries traffic control for related per-interface parameters.
 old-location: qos\tcqueryinterface.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
 ms.prod: windows
 ms.technology: windows-sdk

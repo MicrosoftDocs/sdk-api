@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_oncontrolinfochanged.htm
 old-project: com
 ms.assetid: d9e915c0-3443-4464-9e3e-e1fbfe37e838
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IOleControlSite interface [COM],OnControlInfoChanged method, IOleControlSite.OnControlInfoChanged, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
 ms.prod: windows
 ms.technology: windows-sdk

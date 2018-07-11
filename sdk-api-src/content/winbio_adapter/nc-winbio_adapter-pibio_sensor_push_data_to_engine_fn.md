@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN
 author: windows-sdk-content
 description: Makes the current contents of the sample buffer available to the engine adapter.
 old-location: secbiomet\sensoradapterpushdatatoengine.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback, SensorAdapterPushDataToEngine, SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API], WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.sensoradapterpushdatatoengine, winbio_adapter/SensorAdapterPushDataToEngine
 ms.prod: windows
 ms.technology: windows-sdk

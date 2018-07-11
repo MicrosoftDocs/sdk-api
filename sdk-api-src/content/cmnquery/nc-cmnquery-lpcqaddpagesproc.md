@@ -4,10 +4,10 @@ title: LPCQADDPAGESPROC
 author: windows-sdk-content
 description: Called by a query form extension to add a page to a query form in the query dialog box.
 old-location: ad\cqaddpagesproc.htm
-old-project: AD
+old-project: ad
 ms.assetid: 2b62c1aa-ace7-4083-8eb3-7c5c499762c9
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
 ms.prod: windows
 ms.technology: windows-sdk

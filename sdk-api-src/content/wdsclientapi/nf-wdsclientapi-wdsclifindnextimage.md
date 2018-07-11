@@ -4,10 +4,10 @@ title: WdsCliFindNextImage function
 author: windows-sdk-content
 description: Advances the reference of a find handle to the next image stored on a WDS server.
 old-location: wds\wdsclifindnextimage.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 15f2a00b-30bd-4736-b236-db847eec1779
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsCliFindNextImage, WdsCliFindNextImage function [Windows Deployment Services], wds.wdsclifindnextimage, wdsclientapi/WdsCliFindNextImage
 ms.prod: windows
 ms.technology: windows-sdk

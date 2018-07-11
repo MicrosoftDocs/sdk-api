@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -71,7 +71,7 @@ Determines whether a key is up or down at the time the function is called, and w
 
 Type: <b>int</b>
 
-The virtual-key code. For more information, see <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">Virtual Key Codes</a>.
+The virtual-key code. For more information, see <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">Virtual Key Codes</a>.
 
 You can use left- and right-distinguishing constants to specify certain keys. See the Remarks section for further information.
 
@@ -159,7 +159,7 @@ Right-menu key.
 </table>
  
 
-These left- and right-distinguishing constants are only available when you call the <a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>, <b>GetAsyncKeyState</b>, <a href="https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx">GetKeyState</a>, and <a href="https://msdn.microsoft.com/library/ms646306(v=VS.85).aspx">MapVirtualKey</a> functions.
+These left- and right-distinguishing constants are only available when you call the <a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>, <b>GetAsyncKeyState</b>, <a href="https://msdn.microsoft.com/41c7bcc7-0a14-420c-b338-7ca13c95b7b8">GetKeyState</a>, and <a href="https://msdn.microsoft.com/d287c66d-def1-4794-a95b-fa7c93e7bd35">MapVirtualKey</a> functions.
 
 
 
@@ -173,11 +173,11 @@ These left- and right-distinguishing constants are only available when you call 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx">GetKeyState</a>
+<a href="https://msdn.microsoft.com/41c7bcc7-0a14-420c-b338-7ca13c95b7b8">GetKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>
 
 
 
@@ -185,11 +185,11 @@ These left- and right-distinguishing constants are only available when you call 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646306(v=VS.85).aspx">MapVirtualKey</a>
+<a href="https://msdn.microsoft.com/d287c66d-def1-4794-a95b-fa7c93e7bd35">MapVirtualKey</a>
 
 
 
@@ -201,7 +201,7 @@ These left- and right-distinguishing constants are only available when you call 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
+<a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>
  
 
  

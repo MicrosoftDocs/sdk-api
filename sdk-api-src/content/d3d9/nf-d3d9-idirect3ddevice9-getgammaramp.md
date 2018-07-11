@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getgammaramp.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getgammaramp.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: GetGammaRamp, GetGammaRamp method [Direct3D 9], GetGammaRamp method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetGammaRamp method, IDirect3DDevice9.GetGammaRamp, IDirect3DDevice9::GetGammaRamp, b52b118d-254d-ca5b-efc0-a7e22cf186ef, d3d9helper/IDirect3DDevice9::GetGammaRamp, direct3d9.idirect3ddevice9__getgammaramp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ An unsigned integer specifying the swap chain.
 
 ### -param pRamp [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c596f47a-6c09-4b97-ab2f-b1da3d851aa4">D3DGAMMARAMP</a>*</b>
 
-Pointer to an application-supplied <a href="https://msdn.microsoft.com/library/Bb172561(v=VS.85).aspx">D3DGAMMARAMP</a> structure to fill with the gamma correction ramp. 
+Pointer to an application-supplied <a href="https://msdn.microsoft.com/c596f47a-6c09-4b97-ab2f-b1da3d851aa4">D3DGAMMARAMP</a> structure to fill with the gamma correction ramp. 
 
 
 ## -returns
@@ -87,15 +87,15 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174434(v=VS.85).aspx">IDirect3DDevice9::SetGammaRamp</a>
+<a href="https://msdn.microsoft.com/ad44b71a-f391-49bb-963d-705f6dd9325c">IDirect3DDevice9::SetGammaRamp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>
+<a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a>
  
 
  

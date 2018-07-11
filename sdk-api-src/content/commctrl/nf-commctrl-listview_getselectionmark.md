@@ -4,10 +4,10 @@ title: ListView_GetSelectionMark macro
 author: windows-sdk-content
 description: Gets the selection mark from a list-view control. You can use this macro or explicitly send the LVM_GETSELECTIONMARK message.
 old-location: controls\ListView_GetSelectionMark.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectionmark.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetSelectionMark, ListView_GetSelectionMark macro [Windows Controls], _win32_ListView_GetSelectionMark, _win32_ListView_GetSelectionMark_cpp, commctrl/ListView_GetSelectionMark, controls.ListView_GetSelectionMark, controls._win32_ListView_GetSelectionMark
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/library/Bb761071(v=VS.85).aspx">LVM_GETSELECTIONMARK</a> message. 
+Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/21daf7d7-1217-4608-93f9-c390546f1591">LVM_GETSELECTIONMARK</a> message. 
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The selection mark is the item index from which a multiple selection starts.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775112(v=VS.85).aspx">ListView_SetSelectionMark</a>
+<a href="https://msdn.microsoft.com/75cb06d0-3d6f-4523-b912-3c12e368f17e">ListView_SetSelectionMark</a>
  
 
  

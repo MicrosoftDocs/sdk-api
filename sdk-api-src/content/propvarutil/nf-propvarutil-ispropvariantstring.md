@@ -7,7 +7,7 @@ old-location: properties\IsPropVariantString.htm
 old-project: properties
 ms.assetid: 3f580098-6bfb-41bd-b43d-986ee00b9c75
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IsPropVariantString, IsPropVariantString function [Windows Properties], properties.IsPropVariantString, propvarutil/IsPropVariantString, shell.IsPropVariantString, shell_IsPropVariantString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Returns <b>TRUE</b> if <i>propvar</i> is a VT_LPWSTR or VT_BSTR <a href="https:/
 
 
 
-If this function returns <b>TRUE</b>, the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure referenced in <i>propvar</i> contains a Unicode string. To retrieve it, call <a href="https://msdn.microsoft.com/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a> as shown here:
+If this function returns <b>TRUE</b>, the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure referenced in <i>propvar</i> contains a Unicode string. To retrieve it, call <a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a> as shown here:
 
                 
 

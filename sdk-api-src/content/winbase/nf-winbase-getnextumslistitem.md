@@ -7,7 +7,7 @@ old-location: base\getnextumslistitem.htm
 old-project: ProcThread
 ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
 ms.prod: windows
 ms.technology: windows-sdk

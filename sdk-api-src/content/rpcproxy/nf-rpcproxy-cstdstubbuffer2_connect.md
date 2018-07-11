@@ -4,10 +4,10 @@ title: CStdStubBuffer2_Connect function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdstubbuffer2_connect.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: ED3BA34C-1BAE-4CA0-A701-C64B8B9E717E
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: CStdStubBuffer2_Connect, CStdStubBuffer2_Connect function [RPC], rpc.cstdstubbuffer2_connect, rpcproxy/CStdStubBuffer2_Connect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,12 +65,12 @@ Implements the  <a href="_com_irpcstubbuffer_connect">IRpcStubBuffer::Connect</a
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
+Pointer to the <a href="_com_iunknown">IUnknown</a> interface of the server object. 
 
 
 ## -returns

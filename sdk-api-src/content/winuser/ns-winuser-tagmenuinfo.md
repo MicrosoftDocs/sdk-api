@@ -7,7 +7,7 @@ old-location: menurc\menuinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "*LPMENUINFO, LPMENUINFO, LPMENUINFO structure pointer [Menus and Other Resources], MENUINFO, MENUINFO structure [Menus and Other Resources], MIM_APPLYTOSUBMENUS, MIM_BACKGROUND, MIM_HELPID, MIM_MAXHEIGHT, MIM_MENUDATA, MIM_STYLE, MNS_AUTODISMISS, MNS_CHECKORBMP, MNS_DRAGDROP, MNS_MODELESS, MNS_NOCHECK, MNS_NOTIFYBYPOS, _win32_MENUINFO_str, _win32_menuinfo_str_cpp, const *LPCMENUINFO, const *LPCMENUINFO structure [Menus and Other Resources], menurc.menuinfo, tagMENUINFO, winui._win32_menuinfo_str, winuser/LPMENUINFO, winuser/MENUINFO, winuser/const *LPCMENUINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Indicates the members to be retrieved or set (except for <b>MIM_APPLYTOSUBMENUS<
 </dl>
 </td>
 <td width="60%">
-Settings apply to the menu and all of its submenus. <a href="https://msdn.microsoft.com/library/ms647997(v=VS.85).aspx">SetMenuInfo</a> uses this flag and <a href="https://msdn.microsoft.com/library/ms647977(v=VS.85).aspx">GetMenuInfo</a> ignores this flag
+Settings apply to the menu and all of its submenus. <a href="https://msdn.microsoft.com/2b133f55-316f-42a1-bf8f-52a2a93f540a">SetMenuInfo</a> uses this flag and <a href="https://msdn.microsoft.com/4e862a08-6c21-4690-b9b4-1b4479b9301b">GetMenuInfo</a> ignores this flag
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ The same space is reserved for the check mark and the bitmap. If the check mark 
 </dl>
 </td>
 <td width="60%">
-Menu items are OLE drop targets or drag sources. Menu owner receives <a href="https://msdn.microsoft.com/library/ms647606(v=VS.85).aspx">WM_MENUDRAG</a> and <a href="https://msdn.microsoft.com/library/ms647607(v=VS.85).aspx">WM_MENUGETOBJECT</a> messages.
+Menu items are OLE drop targets or drag sources. Menu owner receives <a href="https://msdn.microsoft.com/99e8f490-ef1e-4964-a3a1-47030a88f10c">WM_MENUDRAG</a> and <a href="https://msdn.microsoft.com/08348e43-3d21-4543-b624-5504575efced">WM_MENUGETOBJECT</a> messages.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ No space is reserved to the left of an item for a check mark. The item can still
 </dl>
 </td>
 <td width="60%">
-Menu owner receives a <a href="https://msdn.microsoft.com/library/ms647603(v=VS.85).aspx">WM_MENUCOMMAND</a> message instead of a <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message when the user makes a selection. <b>MNS_NOTIFYBYPOS</b> is a menu header style and has no effect when applied to individual sub menus.
+Menu owner receives a <a href="https://msdn.microsoft.com/1ed702ef-8d32-4d4c-a68a-ffd199112ced">WM_MENUCOMMAND</a> message instead of a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> message when the user makes a selection. <b>MNS_NOTIFYBYPOS</b> is a menu header style and has no effect when applied to individual sub menus.
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ An application-defined value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus Overview</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus Overview</a>
  
 
  

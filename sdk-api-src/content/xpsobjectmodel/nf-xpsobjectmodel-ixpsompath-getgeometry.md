@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getgeometry.htm
 old-project: printdocs
 ms.assetid: c4a99bf6-09d8-426a-8878-1126578c4518
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometry method, IXpsOMPath.GetGeometry, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
 ms.prod: windows
 ms.technology: windows-sdk

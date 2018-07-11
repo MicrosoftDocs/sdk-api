@@ -7,7 +7,7 @@ old-location: shell\ULongToShort.htm
 old-project: shell
 ms.assetid: e6af3c05-03e3-4c55-9730-710fe282dbf3
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: DWordToShort, ULongToShort, ULongToShort function [Windows Shell], _shell_ULongToShort, intsafe/ULongToShort, shell.ULongToShort
 ms.prod: windows
 ms.technology: windows-sdk

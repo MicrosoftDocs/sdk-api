@@ -4,10 +4,10 @@ title: TrimCache function
 author: windows-sdk-content
 description: Trims the populated regions of the image source cache to just the specified rectangle.
 old-location: direct2d\id2d1imagesourcefromwic_trimcache_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 04e6e010-3642-6775-8a95-f20ff0461b09
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: ID2D1ImageSourceFromWic::TrimCache, TrimCache, TrimCache methods [Direct2D], d2d1_3/TrimCache, direct2d.id2d1imagesourcefromwic_trimcache_overload
 ms.prod: windows
 ms.technology: windows-sdk

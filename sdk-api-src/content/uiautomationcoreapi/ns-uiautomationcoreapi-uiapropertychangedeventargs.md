@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaPropertyChangedEventArgsStruct.htm
 old-project: WinAuto
 ms.assetid: d401b971-441e-4a09-9b9a-6725a00154cb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaPropertyChangedEventArgs, UiaPropertyChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaPropertyChangedEventArgsStruct, uiauto_UiaPropertyChangedEventArgsStruct, uiautomationcoreapi/UiaPropertyChangedEventArgs, winauto.uiauto_UiaPropertyChangedEventArgsStruct
 ms.prod: windows
 ms.technology: windows-sdk

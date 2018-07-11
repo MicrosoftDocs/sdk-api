@@ -7,7 +7,7 @@ old-location: winmsg\iswindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindow.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: IsWindow, IsWindow function [Windows and Messages], _win32_IsWindow, _win32_iswindow_cpp, winmsg.iswindow, winui._win32_iswindow, winuser/IsWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -99,7 +99,7 @@ A thread should not use <b>IsWindow</b> for a window that it did not create beca
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -114,11 +114,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646303(v=VS.85).aspx">IsWindowEnabled</a>
+<a href="https://msdn.microsoft.com/a4001dd3-1534-4a36-bc12-4631a265a77b">IsWindowEnabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633530(v=VS.85).aspx">IsWindowVisible</a>
+<a href="https://msdn.microsoft.com/6d64e6c4-80b3-48c1-bd1b-00eb3bbbcf4d">IsWindowVisible</a>
 
 
 

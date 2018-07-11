@@ -4,10 +4,10 @@ title: ICertView::GetColumnIndex
 author: windows-sdk-content
 description: Retrieves the zero-based index of a column.
 old-location: security\icertview2_getcolumnindex.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex, GetColumnIndex method [Security], GetColumnIndex method [Security],CCertView object, GetColumnIndex method [Security],ICertView interface, GetColumnIndex method [Security],ICertView2 interface, ICertView interface [Security],GetColumnIndex method, ICertView.GetColumnIndex, ICertView2 interface [Security],GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_setsegments.htm
 old-project: printdocs
 ms.assetid: 4e2a1a80-1eda-458f-b711-de56df7a98ac
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSegments method, IXpsOMGeometryFigure.SetSegments, IXpsOMGeometryFigure::SetSegments, SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: FwpmNetEventUnsubscribe0 function
 author: windows-sdk-content
 description: Is used to cancel a net event subscription and stop receiving notifications.
 old-location: fwp\fwpmneteventunsubscribe0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: e7d6faba-c280-4867-a9d9-d1bf28e831ef
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmNetEventUnsubscribe0, FwpmNetEventUnsubscribe0 function [Filtering], fwp.fwpmneteventunsubscribe0, fwpmu/FwpmNetEventUnsubscribe0
 ms.prod: windows
 ms.technology: windows-sdk

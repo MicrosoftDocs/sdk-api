@@ -4,10 +4,10 @@ title: IGPM2::GetBackupDirEx
 author: windows-sdk-content
 description: For a Group Policy object (GPO), the GetBackupDirEx method creates and returns a GPMBackupDirEx object, which you can use to access a GPMBackup or GPMBackupCollection object.
 old-location: gpmc\igpm2_getbackupdirex.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 2fe4ea93-6668-4534-b72e-71b1062db627
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GetBackupDirEx, GetBackupDirEx method [GPMC], GetBackupDirEx method [GPMC],IGPM2 interface, IGPM2 interface [GPMC],GetBackupDirEx method, IGPM2.GetBackupDirEx, IGPM2::GetBackupDirEx, gpmc.igpm2_getbackupdirex, gpmgmt/IGPM2::GetBackupDirEx
 ms.prod: windows
 ms.technology: windows-sdk

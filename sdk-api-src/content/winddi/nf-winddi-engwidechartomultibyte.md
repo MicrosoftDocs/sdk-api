@@ -7,7 +7,7 @@ old-location: display\engwidechartomultibyte.htm
 old-project: display
 ms.assetid: db0ae856-f414-4ae9-9bc9-c719581873fd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: EngWideCharToMultiByte, EngWideCharToMultiByte function [Display Devices], display.engwidechartomultibyte, gdifncs_04d04a1a-7a81-47f7-958b-47ea8f52f421.xml, winddi/EngWideCharToMultiByte
 ms.prod: windows
 ms.technology: windows-sdk

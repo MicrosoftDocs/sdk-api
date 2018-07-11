@@ -4,10 +4,10 @@ title: ldap_add_s function
 author: windows-sdk-content
 description: The ldap_add_s function initiates a synchronous add operation that adds an entry to a tree. The parent of the entry being added must already exist or the parent must be empty (equal to the root distinguished name) for an add operation to succeed.
 old-location: ldap\ldap_add_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 83ad8c35-92c4-4d73-93f5-f470655e8db5
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_add_s, ldap.ldap__add__s, ldap.ldap_add_s, ldap_add_s, ldap_add_s function [LDAP], ldap_add_sA, ldap_add_sW, winldap/ldap_add_s, winldap/ldap_add_sA, winldap/ldap_add_sW"
 ms.prod: windows
 ms.technology: windows-sdk

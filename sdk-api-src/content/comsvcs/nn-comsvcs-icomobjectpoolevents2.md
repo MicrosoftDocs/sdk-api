@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents2.htm
 old-project: cossdk
 ms.assetid: f1891d8b-e3d0-4378-ac67-c2c0ddd65602
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IComObjectPoolEvents2, IComObjectPoolEvents2 interface [COM+], IComObjectPoolEvents2 interface [COM+],described, _dtc_IComObjectPoolEvents2, comsvcs/IComObjectPoolEvents2, cos.icomobjectpoolevents2
 ms.prod: windows
 ms.technology: windows-sdk

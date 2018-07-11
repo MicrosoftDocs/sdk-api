@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_CLUSTER_NETWORK_ID
 author: windows-sdk-content
 description: Returns the identifier of a network.
 old-location: mscs\getclusternetworkid.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 25091883-12fa-41b6-9ac0-70bc22db3f05
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_NETWORK_ID, PCLUSAPI_GET_CLUSTER_NETWORK_ID callback, PCLUSAPI_GET_CLUSTER_NETWORK_ID callback function [Failover Cluster], _wolf_getclusternetworkid, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_ID, mscs.getclusternetworkid
 ms.prod: windows
 ms.technology: windows-sdk

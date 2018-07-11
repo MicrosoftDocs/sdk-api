@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_settype.htm
 old-project: medfound
 ms.assetid: 58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 58fc1c27-0a7d-48bb-b5a4-ab299c5e0ac6, IMFASFMutualExclusion interface [Media Foundation],SetType method, IMFASFMutualExclusion.SetType, IMFASFMutualExclusion::SetType, SetType, SetType method [Media Foundation], SetType method [Media Foundation],IMFASFMutualExclusion interface, mf.imfasfmutualexclusion_settype, wmcontainer/IMFASFMutualExclusion::SetType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextnotify_trackremoved.htm
 old-project: medfound
 ms.assetid: 6C88C832-5C18-4196-B142-4E398D498A36
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackRemoved method, IMFTimedTextNotify.TrackRemoved, IMFTimedTextNotify::TrackRemoved, TrackRemoved, TrackRemoved method [Media Foundation], TrackRemoved method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackremoved, mfmediaengine/IMFTimedTextNotify::TrackRemoved
 ms.prod: windows
 ms.technology: windows-sdk

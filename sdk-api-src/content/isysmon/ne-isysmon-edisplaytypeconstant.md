@@ -4,10 +4,10 @@ title: eDisplayTypeConstant
 author: windows-sdk-content
 description: Determines how the performance counter data is graphed, for example, as a line graph or a histogram.
 old-location: sysmon\displaytypeconstants.htm
-old-project: SysMon
+old-project: sysmon
 ms.assetid: c0f991cc-c547-4d4c-ae8f-9f672e11f010
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: DisplayTypeConstants, DisplayTypeConstants enumeration [SysMon], base.displaytypeconstants, eDisplayTypeConstant, isysmon/DisplayTypeConstants, isysmon/sysmonChartArea, isysmon/sysmonChartStackedArea, isysmon/sysmonHistogram, isysmon/sysmonLineGraph, isysmon/sysmonReport, sysmon.displaytypeconstants, sysmonChartArea, sysmonChartStackedArea, sysmonHistogram, sysmonLineGraph, sysmonReport
 ms.prod: windows
 ms.technology: windows-sdk

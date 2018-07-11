@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpreprocess_beginpreprocessingpass.htm
 old-project: wmformat
 ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: BeginPreprocessingPass, BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],BeginPreprocessingPass method, IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
 ms.prod: windows
 ms.technology: windows-sdk

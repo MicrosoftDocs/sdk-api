@@ -4,10 +4,10 @@ title: ScopeNamespace::Expand
 author: windows-sdk-content
 description: The Expand method causes the specified node to be expanded.
 old-location: mmc\scopenamespace_expand.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 63d77fb3-c9e2-4046-b8c8-8304913c9126
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],ScopeNamespace interface, Expand method [MMC],ScopeNamespace object, ScopeNamespace interface [MMC],Expand method, ScopeNamespace object [MMC],Expand method, ScopeNamespace.Expand, ScopeNamespace::Expand, _slate_scopenamespace.expand_method, mmc.scopenamespace_expand
 ms.prod: windows
 ms.technology: windows-sdk

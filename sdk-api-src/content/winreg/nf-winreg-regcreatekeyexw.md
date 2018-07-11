@@ -4,10 +4,10 @@ title: RegCreateKeyExW function
 author: windows-sdk-content
 description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
 old-location: base\regcreatekeyex.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW
 ms.prod: windows
 ms.technology: windows-sdk

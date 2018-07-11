@@ -7,7 +7,7 @@ old-location: mf\_mfdepthmeasurement.htm
 old-project: medfound
 ms.assetid: CCE34279-A52C-4F6E-9E8E-679F76187B3B
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: DistanceToFocalPlane, DistanceToOpticalCenter, MFDepthMeasurement, _MFDepthMeasurement, _MFDepthMeasurement enumeration [Media Foundation], mf._mfdepthmeasurement, mfapi/DistanceToFocalPlane, mfapi/DistanceToOpticalCenter, mfapi/_MFDepthMeasurement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,13 +75,13 @@ The measurement is the distance to the optical center.
 
 
 
-Use a value from this enumeration with the <a href="https://msdn.microsoft.com/library/Mt846675(v=VS.85).aspx">MF_MT_DEPTH_MEASUREMENT</a> attribute.
+Use a value from this enumeration with the <a href="mf.mf_mt_depth_measurement">MF_MT_DEPTH_MEASUREMENT</a> attribute.
 
 The distance to focal plane is typically easier to consume in a 3D Euclidian coordinate system.
 
-<img alt="Illustration of DistanceToFocalPlane" src="./images/distance_to_focal_plane.png"/>
+<img alt="Illustration of DistanceToFocalPlane" src="images/distance_to_focal_plane.png"/>
 The distance to focal center format is typically raw data from sensor such as time of flight cameras.
 
-<img alt="Illustration of DistanceToOpticalCenter" src="./images/distance_to_optical_center.png"/>
+<img alt="Illustration of DistanceToOpticalCenter" src="images/distance_to_optical_center.png"/>
 
 

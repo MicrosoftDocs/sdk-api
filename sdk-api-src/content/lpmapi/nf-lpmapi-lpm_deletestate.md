@@ -4,10 +4,10 @@ title: LPM_DeleteState function
 author: windows-sdk-content
 description: The LPM_DeleteState function is called by the PCM to delete the LPMs' RSVP state information.
 old-location: qos\lpm_deletestate.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 54251572-22a6-4652-a88c-7ed696911c18
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: ADM_CTRL_FAILED, FLOW_DURATION, LPM_DeleteState, LPM_DeleteState callback, LPM_DeleteState callback function [QOS], RCVD_PATH_TEAR, RCVD_RESV_TEAR, STATE_TIMEOUT, _gqos_lpm_deletestate, lpmapi/LPM_DeleteState, qos.lpm_deletestate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IkeextSaDestroyEnumHandle0 function
 author: windows-sdk-content
 description: Frees a handle returned by IkeextSaCreateEnumHandle0.
 old-location: fwp\ikeextsadestroyenumhandle0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: b9351d74-bc0b-4423-9f21-5f3be8608b8a
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IkeextSaDestroyEnumHandle0, IkeextSaDestroyEnumHandle0 function [Filtering], fwp.ikeextsadestroyenumhandle0, fwpmu/IkeextSaDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

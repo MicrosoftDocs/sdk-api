@@ -4,10 +4,10 @@ title: FindFirstFileExW function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
 old-location: fs\findfirstfileex.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FIND_FIRST_EX_LARGE_FETCH, FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY, FindFirstFileEx, FindFirstFileEx function [Files], FindFirstFileExA, FindFirstFileExW, _win32_findfirstfileex, base.findfirstfileex, fileapi/FindFirstFileEx, fileapi/FindFirstFileExA, fileapi/FindFirstFileExW, fs.findfirstfileex, winbase/FindFirstFileEx, winbase/FindFirstFileExA, winbase/FindFirstFileExW
 ms.prod: windows
 ms.technology: windows-sdk

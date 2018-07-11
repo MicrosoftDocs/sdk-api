@@ -4,10 +4,10 @@ title: PFREEMEM
 author: windows-sdk-content
 description: The PFREEMEM function is a memory-freeing function provided by the PCM.
 old-location: qos\pfreemem.htm
-old-project: QOS
+old-project: qos
 ms.assetid: b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
 ms.prod: windows
 ms.technology: windows-sdk

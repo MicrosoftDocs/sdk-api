@@ -7,7 +7,7 @@ old-location: mbn\mbn_register_mode.htm
 old-project: mbn
 ms.assetid: be64aa55-5a31-4909-9f34-634f7b14fc30
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: MBN_REGISTER_MODE, MBN_REGISTER_MODE enumeration [Microsoft Broadband Networks], MBN_REGISTER_MODE_AUTOMATIC, MBN_REGISTER_MODE_MANUAL, MBN_REGISTER_MODE_NONE, mbn.mbn_register_mode, mbnapi/MBN_REGISTER_MODE, mbnapi/MBN_REGISTER_MODE_AUTOMATIC, mbnapi/MBN_REGISTER_MODE_MANUAL, mbnapi/MBN_REGISTER_MODE_NONE
 ms.prod: windows
 ms.technology: windows-sdk

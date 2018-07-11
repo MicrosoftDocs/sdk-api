@@ -7,7 +7,7 @@ old-location: machinelearning\winml_resource_binding_desc.htm
 old-project: MachineLearning
 ms.assetid: 14008D12-1F46-4629-A7A3-190EA2B4DC76
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: MachineLearning.winml_resource_binding_desc, PWINML_RESOURCE_BINDING_DESC, PWINML_RESOURCE_BINDING_DESC structure pointer, WINML_RESOURCE_BINDING_DESC, WINML_RESOURCE_BINDING_DESC structure, winml/PWINML_RESOURCE_BINDING_DESC, winml/WINML_RESOURCE_BINDING_DESC
 ms.prod: windows
 ms.technology: windows-sdk

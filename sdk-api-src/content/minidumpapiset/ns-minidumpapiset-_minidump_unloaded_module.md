@@ -4,10 +4,10 @@ title: "_MINIDUMP_UNLOADED_MODULE"
 author: windows-sdk-content
 description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.
 old-location: base\minidump_unloaded_module_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: d2ae58fa-561c-4135-a757-88598ebda57a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE, MINIDUMP_UNLOADED_MODULE structure, PMINIDUMP_UNLOADED_MODULE, PMINIDUMP_UNLOADED_MODULE structure pointer, _MINIDUMP_UNLOADED_MODULE, _win32_minidump_unloaded_module_str, base.minidump_unloaded_module_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE, minidumpapiset/PMINIDUMP_UNLOADED_MODULE"
 ms.prod: windows
 ms.technology: windows-sdk

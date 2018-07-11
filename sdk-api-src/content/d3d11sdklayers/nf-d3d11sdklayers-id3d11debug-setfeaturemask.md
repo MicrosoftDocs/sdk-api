@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11debug_setfeaturemask.htm
 old-project: direct3d11
 ms.assetid: 60f9da61-dc97-4b6d-b187-df3605ad9336
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 3ffbf56d-c151-9ef4-e7f6-03fca9a9b5a0, ID3D11Debug interface [Direct3D 11],SetFeatureMask method, ID3D11Debug.SetFeatureMask, ID3D11Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 11], SetFeatureMask method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetFeatureMask, direct3d11.id3d11debug_setfeaturemask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A combination of feature-mask flags that are combined by using a bitwise OR oper
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
@@ -81,7 +81,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760
 
 
 
-<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
+<div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
 Setting one of the following feature-mask flags will cause a rendering-operation method (listed below) to do some extra task when called. 
 
@@ -96,7 +96,7 @@ Setting one of the following feature-mask flags will cause a rendering-operation
 </tr>
 <tr>
 <td>D3D11_DEBUG_FEATURE_PRESENT_PER_RENDER_OP (0x4)</td>
-<td>Runtime will call <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>. Presentation of render buffers will occur according to the settings established by prior calls to <a href="https://msdn.microsoft.com/554d56e7-8901-4b39-bc1e-6db6496263c8">ID3D11Debug::SetSwapChain</a> and <a href="https://msdn.microsoft.com/72489871-819a-4f75-a3ad-03f93f5c7761">ID3D11Debug::SetPresentPerRenderOpDelay</a>.</td>
+<td>Runtime will call <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a>. Presentation of render buffers will occur according to the settings established by prior calls to <a href="https://msdn.microsoft.com/554d56e7-8901-4b39-bc1e-6db6496263c8">ID3D11Debug::SetSwapChain</a> and <a href="https://msdn.microsoft.com/72489871-819a-4f75-a3ad-03f93f5c7761">ID3D11Debug::SetPresentPerRenderOpDelay</a>.</td>
 </tr>
 </table>
  
@@ -185,7 +185,7 @@ The following flag is supported by the Direct3D 11.2 runtime.
 </table>
  
 
-By default (that is, without D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION set), the debug layer validates the proper usage of all tile mappings for <a href="https://msdn.microsoft.com/library/Dn312084(v=VS.85).aspx">tiled resources</a> for bound resources for every operation performed on the device context (for example, draw, copy, and so on).  Depending on the size of the tiled resources used (if any), this validation can be processor intensive and slow.  Apps might want to initially run with tiled resource tile mapping validation on; then, when they determine that the calling pattern is safe, they can disable the validation by setting D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION.
+By default (that is, without D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION set), the debug layer validates the proper usage of all tile mappings for <a href="direct3d_11_2_features.htm">tiled resources</a> for bound resources for every operation performed on the device context (for example, draw, copy, and so on).  Depending on the size of the tiled resources used (if any), this validation can be processor intensive and slow.  Apps might want to initially run with tiled resource tile mapping validation on; then, when they determine that the calling pattern is safe, they can disable the validation by setting D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION.
 
 If D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION is set when a tiled resource is created, the debug layer never performs the tracking of tile mapping for that resource for its entire lifetime.  Alternatively, if D3D11_DEBUG_FEATURE_DISABLE_TILED_RESOURCE_MAPPING_TRACKING_AND_VALIDATION is set for any given device context method call (like draw or copy calls) involving tiled resources, the debug layer skips all tile mapping validation for the call.
 

@@ -7,7 +7,7 @@ old-location: mf\imfsample_removebufferbyindex.htm
 old-project: medfound
 ms.assetid: fc7b5a46-a127-4d75-a9a5-382d9d65a426
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveBufferByIndex method, IMFSample.RemoveBufferByIndex, IMFSample::RemoveBufferByIndex, RemoveBufferByIndex, RemoveBufferByIndex method [Media Foundation], RemoveBufferByIndex method [Media Foundation],IMFSample interface, fc7b5a46-a127-4d75-a9a5-382d9d65a426, mf.imfsample_removebufferbyindex, mfobjects/IMFSample::RemoveBufferByIndex
 ms.prod: windows
 ms.technology: windows-sdk

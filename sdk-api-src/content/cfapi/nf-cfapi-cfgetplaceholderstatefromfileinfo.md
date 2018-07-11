@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm
 old-project: cfApi
 ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfGetPlaceholderStateFromFileInfo, CfGetPlaceholderStateFromFileInfo function, cfapi/CfGetPlaceholderStateFromFileInfo, cloudApi.cfgetplaceholderstatefromfileinfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_input_element_desc.htm
 old-project: direct3d12
 ms.assetid: FDE49FD5-9F7D-4A57-9AE9-F167AF39B06C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_INPUT_ELEMENT_DESC, D3D12_INPUT_ELEMENT_DESC structure, d3d12/D3D12_INPUT_ELEMENT_DESC, direct3d12.d3d12_input_element_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,12 +72,12 @@ The semantic index for the element. A semantic index modifies a semantic, with a
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the format of the element data.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the format of the element data.
 
 
 ### -field InputSlot
 
-An integer value that identifies the input-assembler. For more info, see <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">Input Slots</a>. Valid values are between 0 and 15. 
+An integer value that identifies the input-assembler. For more info, see <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">Input Slots</a>. Valid values are between 0 and 15. 
 
 
 ### -field AlignedByteOffset

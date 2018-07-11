@@ -4,10 +4,10 @@ title: TabCtrl_GetExtendedStyle macro
 author: windows-sdk-content
 description: Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the TCM_GETEXTENDEDSTYLE message explicitly.
 old-location: controls\TabCtrl_GetExtendedStyle.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TabCtrl_GetExtendedStyle, TabCtrl_GetExtendedStyle macro [Windows Controls], _win32_TabCtrl_GetExtendedStyle, _win32_TabCtrl_GetExtendedStyle_cpp, commctrl/TabCtrl_GetExtendedStyle, controls.TabCtrl_GetExtendedStyle, controls._win32_TabCtrl_GetExtendedStyle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760585(v=VS.85).aspx">TCM_GETEXTENDEDSTYLE</a> message explicitly. 
+Retrieves the extended styles that are currently in use for the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/983ffcbe-0d8d-4686-83de-fc564744390f">TCM_GETEXTENDEDSTYLE</a> message explicitly. 
 
 
 ## -parameters

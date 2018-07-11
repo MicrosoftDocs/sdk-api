@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionresult.htm
 old-project: tablet
 ms.assetid: d1a71976-2825-48d2-812c-fd2336cd4c1d
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkDivisionResult, IInkDivisionResult interface [Tablet PC], IInkDivisionResult interface [Tablet PC],described, d1a71976-2825-48d2-812c-fd2336cd4c1d, msinkaut15/IInkDivisionResult, tablet.iinkdivisionresult
 ms.prod: windows
 ms.technology: windows-sdk

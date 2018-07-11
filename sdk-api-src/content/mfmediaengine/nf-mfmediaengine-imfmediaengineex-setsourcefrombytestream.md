@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setsourcefrombytestream.htm
 old-project: medfound
 ms.assetid: F643383E-AABA-4F32-BCE9-0AA4FD635A0F
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetSourceFromByteStream method, IMFMediaEngineEx.SetSourceFromByteStream, IMFMediaEngineEx::SetSourceFromByteStream, SetSourceFromByteStream, SetSourceFromByteStream method [Media Foundation], SetSourceFromByteStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setsourcefrombytestream, mfmediaengine/IMFMediaEngineEx::SetSourceFromByteStream
 ms.prod: windows
 ms.technology: windows-sdk

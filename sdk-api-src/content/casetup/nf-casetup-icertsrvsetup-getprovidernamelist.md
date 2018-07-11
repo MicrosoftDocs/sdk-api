@@ -4,10 +4,10 @@ title: ICertSrvSetup::GetProviderNameList
 author: windows-sdk-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
 old-location: security\icertsrvsetup_getprovidernamelist.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
 ms.prod: windows
 ms.technology: windows-sdk

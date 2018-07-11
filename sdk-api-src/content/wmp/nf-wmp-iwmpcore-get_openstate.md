@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_openstate.htm
 old-project: WMP
 ms.assetid: 66c7e52a-d7b4-4c37-a863-fb42f5415c0a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_openState method, IWMPCore.get_openState, IWMPCore::get_openState, IWMPCoreget_openState, get_openState, get_openState method [Windows Media Player], get_openState method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_openstate, wmp/IWMPCore::get_openState
 ms.prod: windows
 ms.technology: windows-sdk

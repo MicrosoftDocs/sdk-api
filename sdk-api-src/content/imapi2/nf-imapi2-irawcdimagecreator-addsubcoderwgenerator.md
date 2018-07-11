@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_addsubcoderwgenerator.htm
 old-project: imapi
 ms.assetid: b952d31e-812e-41b0-98b0-0f9afbe4b01e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: AddSubcodeRWGenerator, AddSubcodeRWGenerator method [IMAPI], AddSubcodeRWGenerator method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSubcodeRWGenerator method, IRawCDImageCreator.AddSubcodeRWGenerator, IRawCDImageCreator::AddSubcodeRWGenerator, imapi.irawcdimagecreator_addsubcoderwgenerator, imapi2/IRawCDImageCreator::AddSubcodeRWGenerator
 ms.prod: windows
 ms.technology: windows-sdk

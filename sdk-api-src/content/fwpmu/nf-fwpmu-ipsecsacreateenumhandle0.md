@@ -4,10 +4,10 @@ title: IPsecSaCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of Internet Protocol Security (IPsec) security association (SA) objects.
 old-location: fwp\ipsecsacreateenumhandle0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 473935d9-362f-417c-a366-f683d97d9a18
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecSaCreateEnumHandle0, IPsecSaCreateEnumHandle0 function [Filtering], fwp.ipsecsacreateenumhandle0_func, fwpmu/IPsecSaCreateEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

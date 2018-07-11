@@ -4,10 +4,10 @@ title: DS_REPSYNCALL_SYNCA
 author: windows-sdk-content
 description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function.
 old-location: ad\ds_repsyncall_sync.htm
-old-project: AD
+old-project: ad
 ms.assetid: 54a6695e-3493-428b-9e8d-7f781e7b3961
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PDS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNC, DS_REPSYNCALL_SYNC structure [Active Directory], DS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNCW, PDS_REPSYNCALL_SYNC, PDS_REPSYNCALL_SYNC structure pointer [Active Directory], _glines_ds_repsyncall_sync, ad.ds__repsyncall__sync, ad.ds_repsyncall_sync, ntdsapi/DS_REPSYNCALL_SYNC, ntdsapi/DS_REPSYNCALL_SYNCA, ntdsapi/DS_REPSYNCALL_SYNCW, ntdsapi/PDS_REPSYNCALL_SYNC"
 ms.prod: windows
 ms.technology: windows-sdk

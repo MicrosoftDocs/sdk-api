@@ -4,10 +4,10 @@ title: ldap_parse_referenceW function
 author: windows-sdk-content
 description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.
 old-location: ldap\ldap_parse_reference.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 106db7dd-ee1e-48c9-9357-e14d4f8e8782
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_parse_reference, ldap.ldap__parse__reference, ldap.ldap_parse_reference, ldap_parse_reference, ldap_parse_reference function [LDAP], ldap_parse_referenceA, ldap_parse_referenceW, winldap/ldap_parse_reference, winldap/ldap_parse_referenceA, winldap/ldap_parse_referenceW"
 ms.prod: windows
 ms.technology: windows-sdk

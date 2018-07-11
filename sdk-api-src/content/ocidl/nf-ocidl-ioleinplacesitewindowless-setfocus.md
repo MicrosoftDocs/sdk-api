@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_setfocus.htm
 old-project: com
 ms.assetid: 1ea9bade-5e41-49a0-a770-3a5cfc56d0f6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetFocus method, IOleInPlaceSiteWindowless.SetFocus, IOleInPlaceSiteWindowless::SetFocus, SetFocus, SetFocus method [COM], SetFocus method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setfocus, com.ioleinplacesitewindowless_setfocus, ocidl/IOleInPlaceSiteWindowless::SetFocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,11 +96,11 @@ Keyboard focus was denied to the object.
 
 
 
-A windowless object calls this method whenever a windowed object would call the <a href="https://msdn.microsoft.com/library/Dd376983(v=VS.85).aspx">SetFocus</a> function. Through this call, the windowless object obtains the keyboard focus and can respond to window messages. Normally, this call is made during the UI activation process and within the notification methods <a href="https://msdn.microsoft.com/8333d707-4d34-4a87-9990-b25597ffa9fc">IOleInPlaceActiveObject::OnDocWindowActivate</a> with <b>TRUE</b> and <a href="https://msdn.microsoft.com/6534ea03-5f1b-4d3e-b6d8-b8d478a0a144">IOleInPlaceActiveObject::OnFrameWindowActivate</a> with <b>TRUE</b>.
+A windowless object calls this method whenever a windowed object would call the <a href="_win32_SetFocus_cpp">SetFocus</a> function. Through this call, the windowless object obtains the keyboard focus and can respond to window messages. Normally, this call is made during the UI activation process and within the notification methods <a href="https://msdn.microsoft.com/8333d707-4d34-4a87-9990-b25597ffa9fc">IOleInPlaceActiveObject::OnDocWindowActivate</a> with <b>TRUE</b> and <a href="https://msdn.microsoft.com/6534ea03-5f1b-4d3e-b6d8-b8d478a0a144">IOleInPlaceActiveObject::OnFrameWindowActivate</a> with <b>TRUE</b>.
 
 In response to this call, the container sets the Windows focus to the window being used to get keyboard messages (usually the container window) and redirects any subsequent keyboard messages to the windowless object that requested the focus.
 
-A windowless object also calls the <b>IOleInPlaceSiteWindowless::SetFocus</b> method with the <i>fFocus</i> parameter set to <b>FALSE</b> to release the keyboard focus without assigning it to any other object. In this case, the container must call the <a href="https://msdn.microsoft.com/library/Dd376983(v=VS.85).aspx">SetFocus</a> function with a <b>NULL</b> parameter so that no window has the focus.
+A windowless object also calls the <b>IOleInPlaceSiteWindowless::SetFocus</b> method with the <i>fFocus</i> parameter set to <b>FALSE</b> to release the keyboard focus without assigning it to any other object. In this case, the container must call the <a href="_win32_SetFocus_cpp">SetFocus</a> function with a <b>NULL</b> parameter so that no window has the focus.
 
 
 

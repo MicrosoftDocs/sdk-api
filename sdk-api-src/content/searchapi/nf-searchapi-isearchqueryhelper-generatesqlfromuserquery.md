@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_GenerateSQLFromUserQuery.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\generatesqlfromuserquery.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GenerateSQLFromUserQuery, GenerateSQLFromUserQuery method [search], GenerateSQLFromUserQuery method [search],ISearchQueryHelper interface, ISearchQueryHelper interface [search],GenerateSQLFromUserQuery method, ISearchQueryHelper.GenerateSQLFromUserQuery, ISearchQueryHelper::GenerateSQLFromUserQuery, _search_ISearchQueryHelper_GenerateSQLFromUserQuery, search._search_ISearchQueryHelper_GenerateSQLFromUserQuery, searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,11 +93,11 @@ This method generates SQL in the following form:
 <pre class="syntax" xml:space="preserve"><code>SELECT &lt;QuerySelectColumns&gt; FROM &lt;CatalogName that created query helper&gt;
     WHERE &lt;Result of interpreting the User query passed into this function according to QuerySyntax&gt;
           [ AND|OR &lt;QueryWhereRestrictions&gt;]</code></pre>
-The SQL generation uses the settings specified in <a href="https://msdn.microsoft.com/library/Bb231321(v=VS.85).aspx">ISearchQueryHelper::put_QueryTermExpansion</a>, <a href="https://msdn.microsoft.com/library/Bb231315(v=VS.85).aspx">ISearchQueryHelper::put_QueryContentProperties</a>, and <a href="https://msdn.microsoft.com/library/Bb231314(v=VS.85).aspx">ISearchQueryHelper::put_QueryContentLocale</a>.
+The SQL generation uses the settings specified in <a href="https://msdn.microsoft.com/edcc8a86-b677-4f84-aa6f-90ada895dbcc">ISearchQueryHelper::put_QueryTermExpansion</a>, <a href="https://msdn.microsoft.com/75d4882c-305a-4035-9c8c-e72de3c6812f">ISearchQueryHelper::put_QueryContentProperties</a>, and <a href="https://msdn.microsoft.com/e444ad37-6bbd-4408-882b-815193a098bf">ISearchQueryHelper::put_QueryContentLocale</a>.
 
-<b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> uses regional locale settings. However, <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> does not use the regional locale settings. As a result, there are inconsistencies in the SQL returned from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> and <b>ISearchQueryHelper</b> for region specific settings such as  date formats. For example, if you set the locale for date/time to something other than the system locale, such as en-CA if the system locale is en-US, and enter <code>Toybox -m -i "date:3/7/2008" -Y -s</code>, the SQL returned will differ. The SQL from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> will have parsed 3/7/2008 according to en-CA (seeking items dated 3rd of July, 2008) while the SQL from <b>ISearchQueryHelper</b> will have parsed 3/7/2008 according to en-US (seeking items dated 7th of March, 2008).
+<b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> uses regional locale settings. However, <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a> does not use the regional locale settings. As a result, there are inconsistencies in the SQL returned from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> and <b>ISearchQueryHelper</b> for region specific settings such as  date formats. For example, if you set the locale for date/time to something other than the system locale, such as en-CA if the system locale is en-US, and enter <code>Toybox -m -i "date:3/7/2008" -Y -s</code>, the SQL returned will differ. The SQL from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> will have parsed 3/7/2008 according to en-CA (seeking items dated 3rd of July, 2008) while the SQL from <b>ISearchQueryHelper</b> will have parsed 3/7/2008 according to en-US (seeking items dated 7th of March, 2008).
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
 
 
 
@@ -107,19 +107,19 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231310(v=VS.85).aspx">ISearchQueryHelper::get_QuerySyntax</a>
+<a href="https://msdn.microsoft.com/72802fbc-6684-40e3-9df5-a81e2c4bc1c2">ISearchQueryHelper::get_QuerySyntax</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
  
 
  

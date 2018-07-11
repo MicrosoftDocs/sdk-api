@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getinputavailabletype.htm
 old-project: stream
 ms.assetid: 7F3DA67A-AC31-43A5-83AF-7744F6AA5810
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.keywords: GetInputAvailableType, GetInputAvailableType method [Streaming Media Devices], GetInputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputAvailableType method, IMFDeviceTransform.GetInputAvailableType, IMFDeviceTransform::GetInputAvailableType, mftransform/IMFDeviceTransform::GetInputAvailableType, stream.imfdevicetransform_getinputavailabletype
 ms.prod: windows
 ms.technology: windows-sdk

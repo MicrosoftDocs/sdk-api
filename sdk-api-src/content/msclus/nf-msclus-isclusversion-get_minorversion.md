@@ -4,10 +4,10 @@ title: ISClusVersion::get_MinorVersion
 author: windows-sdk-content
 description: Returns the decimal portion of the version of the operating system installed on the local node.
 old-location: mscs\clusversion_minorversion.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c335922c-ac62-4b37-bafb-b29d58545c85
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusVersion object [Failover Cluster],MinorVersion property, ClusVersion.MinorVersion, ISClusVersion.get_MinorVersion, ISClusVersion::get_MinorVersion, MinorVersion property [Failover Cluster], MinorVersion property [Failover Cluster],ClusVersion object, _wolf_clusversion.minorversion, get_MinorVersion, mscs.clusversion_minorversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ This property is read-only.
 
 The <a href="https://msdn.microsoft.com/f4d81e0a-4f65-470b-9215-f1b91e582646">ClusVersion.MajorVersion</a> and 
     <b>MinorVersion</b> properties together form a 
-    complete Windows <a href="https://msdn.microsoft.com/library/ms691788(v=VS.85).aspx">version number</a>.
+    complete Windows <a href="v_gly.htm">version number</a>.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>

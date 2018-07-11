@@ -4,10 +4,10 @@ title: EapHostPeerCredentialsXml2Blob function
 author: windows-sdk-content
 description: Generates the credentials BLOB.
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob function [EAPHost], eaphost.eaphostpeercredentialsxml2blob, eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
 ms.prod: windows
 ms.technology: windows-sdk

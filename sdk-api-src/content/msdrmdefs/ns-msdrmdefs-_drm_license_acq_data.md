@@ -4,10 +4,10 @@ title: "_DRM_LICENSE_ACQ_DATA"
 author: windows-sdk-content
 description: Holds license acquisition data during nonsilent license acquisition.
 old-location: rm\drm_license_acq_data.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: c8f4ba99-5711-495f-9820-f604cc9e20f7
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRM_LICENSE_ACQ_DATA, DRM_LICENSE_ACQ_DATA structure [Active Directory Rights Management Services SDK 1.0], _DRM_LICENSE_ACQ_DATA, msdrmdefs/DRM_LICENSE_ACQ_DATA, rm.drm_license_acq_data
 ms.prod: windows
 ms.technology: windows-sdk

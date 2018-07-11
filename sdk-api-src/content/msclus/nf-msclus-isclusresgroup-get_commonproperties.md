@@ -4,10 +4,10 @@ title: ISClusResGroup::get_CommonProperties
 author: windows-sdk-content
 description: Read/write common properties of a group.
 old-location: mscs\clusresgroup_commonproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 08c280a6-96c5-4e40-be42-4c798684482f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],CommonProperties property, ClusResGroup.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],ClusResGroup class, ISClusResGroup.get_CommonProperties, ISClusResGroup::get_CommonProperties, _wolf_clusresgroup.commonproperties, get_CommonProperties, mscs.clusresgroup_commonproperties
 ms.prod: windows
 ms.technology: windows-sdk

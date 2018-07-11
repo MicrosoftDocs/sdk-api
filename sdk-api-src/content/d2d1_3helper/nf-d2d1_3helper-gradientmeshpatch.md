@@ -4,10 +4,10 @@ title: GradientMeshPatch function
 author: windows-sdk-content
 description: Creates a D2D1_GRADIENT_MESH_PATCH structure that contains the given control points, colors, and boundary flags.
 old-location: direct2d\gradientmeshpatch.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 78d2af9d-e158-29ce-ea6e-67b2d22925a1
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: GradientMeshPatch, GradientMeshPatch function [Direct2D], d2d1_3helper/GradientMeshPatch, direct2d.gradientmeshpatch
 ms.prod: windows
 ms.technology: windows-sdk

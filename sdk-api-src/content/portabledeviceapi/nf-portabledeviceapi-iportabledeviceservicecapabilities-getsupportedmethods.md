@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethods.htm
 old-project: wpd_sdk
 ms.assetid: 60201d12-5a49-4d84-9dae-b04cbb144d8f
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: GetSupportedMethods, GetSupportedMethods method [Windows Portable Devices SDK], GetSupportedMethods method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethods method, IPortableDeviceServiceCapabilities.GetSupportedMethods, IPortableDeviceServiceCapabilities::GetSupportedMethods, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods
 ms.prod: windows
 ms.technology: windows-sdk

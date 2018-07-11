@@ -4,10 +4,10 @@ title: WinHttpCreateProxyResolver function
 author: windows-sdk-content
 description: Creates a handle for use by WinHttpGetProxyForUrlEx.
 old-location: http\winhttpcreateproxyresolver.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 8d0058b5-964d-4bd8-b689-582875fc1d6e
 ms.author: windowssdkdev
-ms.date: 03/08/2018
+ms.date: 03/09/2018
 ms.keywords: WinHttpCreateProxyResolver, WinHttpCreateProxyResolver function [WinHTTP], http.winhttpcreateproxyresolver, winhttp/WinHttpCreateProxyResolver
 ms.prod: windows
 ms.technology: windows-sdk

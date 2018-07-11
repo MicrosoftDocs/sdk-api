@@ -4,10 +4,10 @@ title: D2D1_STROKE_TRANSFORM_TYPE
 author: windows-sdk-content
 description: Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.
 old-location: direct2d\__d2d1_stroke_transform_type.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 99c2c5c8-49ce-4865-befa-e9f92905a260
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1_STROKE_TRANSFORM_TYPE, D2D1_STROKE_TRANSFORM_TYPE enumeration [Direct2D], D2D1_STROKE_TRANSFORM_TYPE_FIXED, D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, D2D1_STROKE_TRANSFORM_TYPE_NORMAL, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_FIXED, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_NORMAL, direct2d.__d2d1_stroke_transform_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,10 +96,10 @@ It is important to distinguish between the geometry being stroked and the shape 
 
 Here is an illustration of a stroke with dashing and a skew and stretch transform.
 
-<img alt="An illustration of a stroke with dashing and a skew and stretch transform." src="./images/skewedstroke.png"/>
+<img alt="An illustration of a stroke with dashing and a skew and stretch transform." src="images/skewedstroke.png"/>
 And here is an illustration of a fixed width stroke which does not get transformed.
 
-<img alt="An illustration of a fixed width stroke which does not get transformed." src="./images/fixedwidthstroke.png"/>
+<img alt="An illustration of a fixed width stroke which does not get transformed." src="images/fixedwidthstroke.png"/>
 
 
 

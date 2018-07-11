@@ -7,7 +7,7 @@ old-location: wsw\wsgetheader.htm
 old-project: wsw
 ms.assetid: ff6e639f-715d-4a4f-b0ef-35202aa54dc5
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsGetHeader, WsGetHeader function [Web Services for Windows], webservices/WsGetHeader, wsw.wsgetheader
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeSignedInteger.htm
 old-project: properties
 ms.assetid: 8d5510c6-6c1c-4cc5-85a6-00514278029d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IsVarTypeSignedInteger, IsVarTypeSignedInteger function [Windows Properties], _shell_IsVarTypeSignedInteger, properties.IsVarTypeSignedInteger, propvarutil/IsVarTypeSignedInteger, shell.IsVarTypeSignedInteger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Returns whether a <a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a signed integer.
+Returns whether a <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> is a signed integer.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Returns whether a <a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).
 
 ### -param vt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
-Specifies the <a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a> being queried.
+Specifies the <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> being queried.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Specifies the <a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a signed integer; otherwise, <b>FALSE</b>.
+Returns <b>TRUE</b> if <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> is a signed integer; otherwise, <b>FALSE</b>.
 
 
 

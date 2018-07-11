@@ -4,10 +4,10 @@ title: tagSTGOPTIONS
 author: windows-sdk-content
 description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
 old-location: stg\stgoptions.htm
-old-project: Stg
+old-project: stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions, tagSTGOPTIONS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380364(v=VS.85).aspx">Compound File Implementation Limits</a>
+<a href="structured_storage_interfaces.htm">Compound File Implementation Limits</a>
 
 
 

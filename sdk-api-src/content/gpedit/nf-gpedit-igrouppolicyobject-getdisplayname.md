@@ -4,10 +4,10 @@ title: IGroupPolicyObject::GetDisplayName
 author: windows-sdk-content
 description: The GetDisplayName method retrieves the display name for the GPO.
 old-location: policy\igrouppolicyobject_getdisplayname.htm
-old-project: Policy
+old-project: policy
 ms.assetid: a16592c3-8fa1-4859-b379-ef31999a3fdd
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDisplayName method, IGroupPolicyObject.GetDisplayName, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
 ms.prod: windows
 ms.technology: windows-sdk

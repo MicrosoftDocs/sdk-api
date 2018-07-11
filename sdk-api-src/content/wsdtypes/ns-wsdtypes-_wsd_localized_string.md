@@ -4,10 +4,10 @@ title: "_WSD_LOCALIZED_STRING"
 author: windows-sdk-content
 description: Represents a single localized string.
 old-location: ncd\wsd_localized_string_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: c90cc459-a10d-4b2b-81bc-96e562755b6c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_LOCALIZED_STRING, WSD_LOCALIZED_STRING structure, _WSD_LOCALIZED_STRING, ncd.wsd_localized_string_struct, wsdtypes/WSD_LOCALIZED_STRING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

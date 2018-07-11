@@ -4,10 +4,10 @@ title: ISClusDisk::get_DiskNumber
 author: windows-sdk-content
 description: Disk number of a Physical Disk.
 old-location: mscs\clusdisk_disknumber.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: f55fd6aa-8707-4a62-8e6c-259d7bf52d0d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusDisk object [Failover Cluster],DiskNumber property, ClusDisk.DiskNumber, DiskNumber property [Failover Cluster], DiskNumber property [Failover Cluster],ClusDisk object, ISClusDisk.get_DiskNumber, ISClusDisk::get_DiskNumber, _wolf_clusdisk.disknumber, get_DiskNumber, mscs.clusdisk_disknumber
 ms.prod: windows
 ms.technology: windows-sdk

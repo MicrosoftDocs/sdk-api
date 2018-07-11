@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectdepthstencilviewvariable_setdepthstencilarr
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_setdepthstencilarray.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 19d677a4-86e6-d451-5d65-7ab228f247d5, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],SetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray, ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, SetDepthStencilArray, SetDepthStencilArray method [Direct3D 10], SetDepthStencilArray method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, d3d10effect/ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_setdepthstencilarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Set an array of depth-stencil-view resources.
 
 ### -param ppResources [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b88f3b61-4549-4ef7-9dda-0c2ed247d2f1">ID3D10DepthStencilView</a>**</b>
 
-A pointer to an array of depth-stencil-view interfaces. See <a href="https://msdn.microsoft.com/library/Bb173526(v=VS.85).aspx">ID3D10DepthStencilView Interface</a>.
+A pointer to an array of depth-stencil-view interfaces. See <a href="https://msdn.microsoft.com/b88f3b61-4549-4ef7-9dda-0c2ed247d2f1">ID3D10DepthStencilView Interface</a>.
 
 
 ### -param Offset [in]
@@ -83,9 +83,9 @@ The number of elements in the array.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173642(v=VS.85).aspx">ID3D10EffectDepthStencilViewVariable Interface</a>
+<a href="https://msdn.microsoft.com/4d945731-aab6-40ac-8c07-d9a480c13a9c">ID3D10EffectDepthStencilViewVariable Interface</a>
  
 
  

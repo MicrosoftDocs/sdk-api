@@ -7,7 +7,7 @@ old-location: tsf\itfuielementmgr.htm
 old-project: TSF
 ms.assetid: 7b4d3f4e-bf30-45c6-8709-88b71b25d333
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], ITfUIElementMgr interface [Text Services Framework],described, _tsf_itfuielementmgr_ref, msctf/ITfUIElementMgr, tsf.itfuielementmgr
 ms.prod: windows
 ms.technology: windows-sdk

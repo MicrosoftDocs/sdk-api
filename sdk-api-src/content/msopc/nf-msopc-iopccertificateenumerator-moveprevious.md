@@ -7,7 +7,7 @@ old-location: opc\iopccertificateenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 564c391c-8c73-4dd8-b713-3a5309708fd6
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcCertificateEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcCertificateEnumerator.MovePrevious, IOpcCertificateEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcCertificateEnumerator interface, msopc/IOpcCertificateEnumerator::MovePrevious, opc.iopccertificateenumerator_moveprevious
 ms.prod: windows
 ms.technology: windows-sdk

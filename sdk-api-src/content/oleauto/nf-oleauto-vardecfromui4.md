@@ -7,7 +7,7 @@ old-location: automat\vardecfromui4.htm
 old-project: automat
 ms.assetid: 16cc817f-f232-49ec-aa16-34e518d5cb31
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDecFromUI4, VarDecFromUI4 function [Automation], _oa96_VarDecFromUI4, automat.vardecfromui4, oleauto/VarDecFromUI4
 ms.prod: windows
 ms.technology: windows-sdk

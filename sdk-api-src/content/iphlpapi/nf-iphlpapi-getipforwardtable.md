@@ -4,10 +4,10 @@ title: GetIpForwardTable function
 author: windows-sdk-content
 description: The GetIpForwardTable function retrieves the IPv4 routing table.
 old-location: iphlp\getipforwardtable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 5d645353-7c87-4f8a-b7fd-149675a94743
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetIpForwardTable, GetIpForwardTable function [IP Helper], _iphlp_getipforwardtable, iphlp.getipforwardtable, iphlpapi/GetIpForwardTable
 ms.prod: windows
 ms.technology: windows-sdk

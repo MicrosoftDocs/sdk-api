@@ -4,10 +4,10 @@ title: PRESUTIL_IS_PATH_VALID
 author: windows-sdk-content
 description: Checks whether a path is syntactically valid.
 old-location: mscs\resutilispathvalid.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_IS_PATH_VALID, PRESUTIL_IS_PATH_VALID callback, PRESUTIL_IS_PATH_VALID callback function [Failover Cluster], _wolf_resutilispathvalid, mscs.resutilispathvalid, resapi/PRESUTIL_IS_PATH_VALID
 ms.prod: windows
 ms.technology: windows-sdk

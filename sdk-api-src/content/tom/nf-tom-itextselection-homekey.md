@@ -4,10 +4,10 @@ title: ITextSelection::HomeKey
 author: windows-sdk-content
 description: Generalizes the functionality of the Home key.
 old-location: controls\ITextSelection_HomeKey.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -180,7 +180,7 @@ Failure for some other reason.
 
 
 
-The <b>ITextSelection::HomeKey</b> and <a href="https://msdn.microsoft.com/library/Bb787752(v=VS.85).aspx">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
+The <b>ITextSelection::HomeKey</b> and <a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
 
 <b>tomLine</b> mimics the Home or End key behavior 
 				<i>without</i> the Ctrl key pressed, while <b>tomStory</b> mimics the behavior 
@@ -190,10 +190,10 @@ The <b>ITextSelection::HomeKey</b> and <a href="https://msdn.microsoft.com/libra
 				<code>HomeKey(tomStory)</code> converts the selection into an insertion point at the beginning of the associated story, while <b>HomeKey</b>(tomStory, tomExtend) moves the active end of the selection to the beginning of the story and leaves the other end where it was.
 
 The <b>HomeKey</b> and 
-				<b>EndKey</b> methods are logical methods like the <a href="https://msdn.microsoft.com/library/Bb774064(v=VS.85).aspx">Move</a> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, <b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, <b>HomeKey</b> and 
-				<a href="https://msdn.microsoft.com/library/Bb787752(v=VS.85).aspx">EndKey</a> methods are different than the <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">ITextSelection::MoveLeft</a> and <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">ITextSelection::MoveRight</a> methods. Also, note that the <b>HomeKey</b> method is quite different from the 
+				<b>EndKey</b> methods are logical methods like the <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, <b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, <b>HomeKey</b> and 
+				<a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a> methods are different than the <a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">ITextSelection::MoveLeft</a> and <a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">ITextSelection::MoveRight</a> methods. Also, note that the <b>HomeKey</b> method is quite different from the 
 				<b>Start</b> property, which is the cp at the beginning of the selection. <b>HomeKey</b> and 
-				<b>EndKey</b> also differ from the <a href="https://msdn.microsoft.com/library/Bb787835(v=VS.85).aspx">StartOf</a> and <a href="https://msdn.microsoft.com/library/Bb787769(v=VS.85).aspx">EndOf</a> methods in that they extend from the active end, whereas 
+				<b>EndKey</b> also differ from the <a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a> and <a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a> methods in that they extend from the active end, whereas 
 				<b>StartOf</b> extends from Start and 
 				<b>EndOf</b> extends from End.
 
@@ -209,27 +209,27 @@ The <b>HomeKey</b> and
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787752(v=VS.85).aspx">EndKey</a>
+<a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787769(v=VS.85).aspx">EndOf</a>
+<a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a>
 
 
 
@@ -237,11 +237,11 @@ The <b>HomeKey</b> and
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787835(v=VS.85).aspx">StartOf</a>
+<a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

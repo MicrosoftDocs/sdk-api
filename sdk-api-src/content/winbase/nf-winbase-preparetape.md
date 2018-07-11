@@ -4,10 +4,10 @@ title: PrepareTape function
 author: windows-sdk-content
 description: Prepares the tape to be accessed or removed.
 old-location: backup\preparetape.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 13aacf38-b0ae-4f4d-ada9-42c61490be7e
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PrepareTape, PrepareTape function [Backup], TAPE_FORMAT, TAPE_LOAD, TAPE_LOCK, TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _win32_preparetape, backup.preparetape, base.preparetape, winbase/PrepareTape
 ms.prod: windows
 ms.technology: windows-sdk

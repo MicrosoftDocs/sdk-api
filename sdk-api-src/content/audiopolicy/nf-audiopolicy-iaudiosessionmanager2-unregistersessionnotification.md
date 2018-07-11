@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2_unregistersessionnotification.htm
 old-project: CoreAudio
 ms.assetid: 0c334963-2b60-4eb1-b8a2-c9ed0d21bd5e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterSessionNotification method, IAudioSessionManager2.UnregisterSessionNotification, IAudioSessionManager2::UnregisterSessionNotification, UnregisterSessionNotification, UnregisterSessionNotification method [Core Audio], UnregisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterSessionNotification, coreaudio.iaudiosessionmanager2_unregistersessionnotification
 ms.prod: windows
 ms.technology: windows-sdk

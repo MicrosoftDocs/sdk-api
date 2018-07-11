@@ -4,10 +4,10 @@ title: tagNMREBAR
 author: windows-sdk-content
 description: Contains information used in handling various rebar notifications.
 old-location: controls\NMREBAR.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebar.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMREBAR, LPNMREBAR, LPNMREBAR structure pointer [Windows Controls], NMREBAR, NMREBAR structure [Windows Controls], RBNM_ID, RBNM_LPARAM, RBNM_STYLE, _win32_NMREBAR, _win32_NMREBAR_cpp, commctrl/LPNMREBAR, commctrl/NMREBAR, controls.NMREBAR, controls._win32_NMREBAR, tagNMREBAR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,10 +60,10 @@ Contains information used in handling various rebar notifications.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field dwMask
@@ -126,7 +126,7 @@ Zero-based index of the band affected by the notification. This will be -1 if no
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The style of the band. This is one or more of the RBBS_ styles detailed in the 
-					<b>fStyle</b> member of the <a href="https://msdn.microsoft.com/library/Bb774393(v=VS.85).aspx">REBARBANDINFO</a> structure. This member is only valid if 
+					<b>fStyle</b> member of the <a href="https://msdn.microsoft.com/67a59093-f387-47e2-b3bf-b12a7707da31">REBARBANDINFO</a> structure. This member is only valid if 
 					<b>dwMask</b> contains RBNM_STYLE. 
 
 

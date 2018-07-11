@@ -7,7 +7,7 @@ old-location: gdi\getmetafilebitsex.htm
 old-project: gdi
 ms.assetid: 6ca6de2e-79cb-4503-a0d7-f616b8e383eb
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetMetaFileBitsEx, GetMetaFileBitsEx function [Windows GDI], _win32_GetMetaFileBitsEx, gdi.getmetafilebitsex, wingdi/GetMetaFileBitsEx
 ms.prod: windows
 ms.technology: windows-sdk

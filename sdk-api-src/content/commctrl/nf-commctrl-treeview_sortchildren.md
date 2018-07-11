@@ -4,10 +4,10 @@ title: TreeView_SortChildren macro
 author: windows-sdk-content
 description: Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the TVM_SORTCHILDREN message explicitly.
 old-location: controls\TreeView_SortChildren.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_sortchildren.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_SortChildren, TreeView_SortChildren macro [Windows Controls], _win32_TreeView_SortChildren, _win32_TreeView_SortChildren_cpp, commctrl/TreeView_SortChildren, controls.TreeView_SortChildren, controls._win32_TreeView_SortChildren
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773782(v=VS.85).aspx">TVM_SORTCHILDREN</a> message explicitly. 
+Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/c18bcd5f-c083-46ee-873b-d3100b0d7b04">TVM_SORTCHILDREN</a> message explicitly. 
 
 
 ## -parameters
@@ -98,7 +98,7 @@ Handle to the tree-view control.
 
 
 
-		This message alphabetizes the tree items using <a href="https://msdn.microsoft.com/library/ms647489(v=VS.85).aspx">lstrcmpi</a> on the item name. You can use the <a href="https://msdn.microsoft.com/library/Bb773785(v=VS.85).aspx">TVM_SORTCHILDRENCB</a> message to customize the ordering behavior.
+		This message alphabetizes the tree items using <a href="https://msdn.microsoft.com/7edd4896-04d3-4b71-9ce6-d64149d683e0">lstrcmpi</a> on the item name. You can use the <a href="https://msdn.microsoft.com/1669e576-5e57-49f6-8097-7d6547306014">TVM_SORTCHILDRENCB</a> message to customize the ordering behavior.
 		
 
 

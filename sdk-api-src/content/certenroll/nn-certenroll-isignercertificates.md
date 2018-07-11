@@ -4,10 +4,10 @@ title: ISignerCertificates
 author: windows-sdk-content
 description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.
 old-location: security\isignercertificates.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>ISignerCertificates</b> interface defines the following methods and prope
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -160,7 +160,7 @@ Retrieves an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65b
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

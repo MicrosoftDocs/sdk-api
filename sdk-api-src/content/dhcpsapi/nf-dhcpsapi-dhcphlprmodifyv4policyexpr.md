@@ -4,10 +4,10 @@ title: DhcpHlprModifyV4PolicyExpr function
 author: windows-sdk-content
 description: Modifies the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprmodifyv4policyexpr.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 5d6818f9-4e44-4f24-a489-84defd1117c0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr
 ms.prod: windows
 ms.technology: windows-sdk

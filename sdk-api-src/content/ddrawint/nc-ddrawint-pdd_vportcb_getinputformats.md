@@ -7,7 +7,7 @@ old-location: display\ddvideoportgetinputformats.htm
 old-project: display
 ms.assetid: aac34116-a6a2-4d00-b0c4-87fac786b68d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DdVideoPortGetInputFormats, DdVideoPortGetInputFormats callback function [Display Devices], PDD_VPORTCB_GETINPUTFORMATS, PDD_VPORTCB_GETINPUTFORMATS callback, ddfncs_0dc8b987-a259-4778-8cbc-1fbb7a1169bd.xml, ddrawint/DdVideoPortGetInputFormats, display.ddvideoportgetinputformats
 ms.prod: windows
 ms.technology: windows-sdk

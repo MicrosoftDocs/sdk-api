@@ -4,10 +4,10 @@ title: INetFwOpenPort::put_Port
 author: windows-sdk-content
 description: Specifiess the host-ordered port number for this port.
 old-location: ics\inetfwopenport_port.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 6e179f11-76c3-4403-9b42-2faad56629ed
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Port property, INetFwOpenPort.Port, INetFwOpenPort.put_Port, INetFwOpenPort::Port, INetFwOpenPort::get_Port, INetFwOpenPort::put_Port, Port property [ICS/ICF], Port property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_port, netfw/INetFwOpenPort::Port, netfw/INetFwOpenPort::get_Port, netfw/INetFwOpenPort::put_Port, put_Port
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusResTypePossibleOwnerNodes::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the ClusResTypePossibleOwnerNodes collection.
 old-location: mscs\clusrestypepossibleownernodes_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: f7e8f244-8265-4000-8c83-1ce4f6c0998f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypePossibleOwnerNodes class [Failover Cluster],Refresh method, ClusResTypePossibleOwnerNodes.Refresh, ISClusResTypePossibleOwnerNodes.Refresh, ISClusResTypePossibleOwnerNodes::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResTypePossibleOwnerNodes class, _wolf_clusrestypepossibleownernodes.refresh, mscs.clusrestypepossibleownernodes_refresh
 ms.prod: windows
 ms.technology: windows-sdk

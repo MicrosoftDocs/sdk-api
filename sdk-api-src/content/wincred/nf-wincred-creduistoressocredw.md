@@ -7,7 +7,7 @@ old-location: security\creduistoressocredw.htm
 old-project: SecAuthN
 ms.assetid: 2c57c943-bcf7-405c-be0a-a3d1991f3004
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: CredUIStoreSSOCredW, CredUIStoreSSOCredW function [Security], security.creduistoressocredw, wincred/CredUIStoreSSOCredW
 ms.prod: windows
 ms.technology: windows-sdk

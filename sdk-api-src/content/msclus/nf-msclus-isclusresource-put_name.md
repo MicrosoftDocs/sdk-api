@@ -4,10 +4,10 @@ title: ISClusResource::put_Name
 author: windows-sdk-content
 description: The name of a resource.
 old-location: mscs\clusresource_name.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9ed3c032-3ad0-4001-9dcf-9d0d0fa0c79a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],Name property, ClusResource.Name, ISClusResource.get_Name, ISClusResource.put_Name, ISClusResource::put_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusResource class, _wolf_clusresource.name, mscs.clusresource_name, put_Name
 ms.prod: windows
 ms.technology: windows-sdk

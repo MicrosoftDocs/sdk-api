@@ -7,7 +7,7 @@ old-location: mf\ievrtrustedvideoplugin_canconstrict.htm
 old-project: medfound
 ms.assetid: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 16bb31c3-51f7-4d9b-946c-f366fb6e5dee, CanConstrict, CanConstrict method [Media Foundation], CanConstrict method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],CanConstrict method, IEVRTrustedVideoPlugin.CanConstrict, IEVRTrustedVideoPlugin::CanConstrict, evr/IEVRTrustedVideoPlugin::CanConstrict, mf.ievrtrustedvideoplugin_canconstrict
 ms.prod: windows
 ms.technology: windows-sdk

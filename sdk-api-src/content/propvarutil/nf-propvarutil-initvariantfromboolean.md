@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromBoolean.htm
 old-project: properties
 ms.assetid: 155af0c9-bc1a-4d57-a2fc-dc22a0b1abe3
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromBoolean, InitVariantFromBoolean function [Windows Properties], _shell_InitVariantFromBoolean, properties.InitVariantFromBoolean, propvarutil/InitVariantFromBoolean, shell.InitVariantFromBoolean
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -125,15 +125,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762287(v=VS.85).aspx">InitPropVariantFromBoolean</a>
+<a href="shell.InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776592(v=VS.85).aspx">VariantToBoolean</a>
+<a href="shell.VariantToBoolean">VariantToBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776595(v=VS.85).aspx">VariantToBooleanWithDefault</a>
+<a href="shell.VariantToBooleanWithDefault">VariantToBooleanWithDefault</a>
  
 
  

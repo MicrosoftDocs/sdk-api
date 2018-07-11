@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setaxisz_overloaded.htm
 old-project: directcomp
 ms.assetid: 1A96FA00-20FE-4876-B7DF-2B833B17E925
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionRotateTransform3D::SetAxisZ, SetAxisZ, SetAxisZ methods [DirectComposition], dcomp/SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

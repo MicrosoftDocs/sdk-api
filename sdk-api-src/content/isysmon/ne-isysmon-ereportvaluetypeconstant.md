@@ -4,10 +4,10 @@ title: eReportValueTypeConstant
 author: windows-sdk-content
 description: Determines if the Histogram and Report views graph the last value sampled or a calculated value using values from the sampling period, such as the average or minimum value.
 old-location: sysmon\reportvaluetypeconstants.htm
-old-project: SysMon
+old-project: sysmon
 ms.assetid: 63287889-3928-4abf-a04d-6790fd70df83
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: ReportValueTypeConstants, ReportValueTypeConstants enumeration [SysMon], base.reportvaluetypeconstants, eReportValueTypeConstant, isysmon/ReportValueTypeConstants, isysmon/sysmonAverage, isysmon/sysmonCurrentValue, isysmon/sysmonDefaultValue, isysmon/sysmonMaximum, isysmon/sysmonMinimum, sysmon.reportvaluetypeconstants, sysmonAverage, sysmonCurrentValue, sysmonDefaultValue, sysmonMaximum, sysmonMinimum
 ms.prod: windows
 ms.technology: windows-sdk

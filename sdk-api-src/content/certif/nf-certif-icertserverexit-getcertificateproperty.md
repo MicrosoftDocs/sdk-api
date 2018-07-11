@@ -4,10 +4,10 @@ title: ICertServerExit::GetCertificateProperty
 author: windows-sdk-content
 description: Returns a named property from a certificate.
 old-location: security\icertserverexit_getcertificateproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerExit object, GetCertificateProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateProperty method, ICertServerExit.GetCertificateProperty, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -455,7 +455,7 @@ Binary data
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="https://msdn.microsoft.com/library/ms221097(v=VS.85).aspx">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> is stored as a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a>  encoded X.509 certificate.
+A pointer to a <b>VARIANT</b> that will contain the property value. The returned value is encoded as a <b>BSTR</b>. Use the <a href="2a150503-f474-41b8-90dd-fbbc955bea99">SysStringByteLen</a> function to retrieve the length of the <b>BSTR</b>.  The binary <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> is stored as a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a>  encoded X.509 certificate.
 
 
 ## -returns

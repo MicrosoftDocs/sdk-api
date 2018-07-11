@@ -4,10 +4,10 @@ title: ICspInformations::GetCspStatusFromProviderName
 author: windows-sdk-content
 description: Retrieves an ICspStatus object for a legacy provider by provider name and supported key operations.
 old-location: security\icspinformations_getcspstatusfromprovidername_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetCspStatusFromProviderName, GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusFromProviderName method, ICspInformations.GetCspStatusFromProviderName, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
 ms.prod: windows
 ms.technology: windows-sdk

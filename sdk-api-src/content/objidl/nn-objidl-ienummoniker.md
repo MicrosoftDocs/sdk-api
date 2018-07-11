@@ -7,7 +7,7 @@ old-location: com\ienummoniker.htm
 old-project: com
 ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Enumerates the components of a moniker or the monikers in a table of monikers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMoniker</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumMoniker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMoniker</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumMoniker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

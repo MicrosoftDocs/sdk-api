@@ -7,7 +7,7 @@ old-location: menurc\stringcchcopy.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopy.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: StringCchCopy, StringCchCopy function [Menus and Other Resources], StringCchCopyA, StringCchCopyW, _shell_StringCchCopy, _shell_stringcchcopy_cpp, menurc.stringcchcopy, strsafe/StringCchCopy, strsafe/StringCchCopyA, strsafe/StringCchCopyW, winui._shell_stringcchcopy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Copies one string to another. The size of the destination buffer is provided to 
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192494">strcpy, wcscpy, _tcscpy</a></li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms647490(v=VS.85).aspx">lstrcpy</a>
+<a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/83d1a8dc-fc43-4b06-b36c-c9c91d779d25">StrCpy</a>
@@ -155,7 +155,7 @@ Compared to  the functions it replaces, <b>StringCchCopy</b> provides additional
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/0965b0f6-9588-4944-98d8-3aca3a3029fc">StringCchCopyEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchCopy</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use.
 
@@ -195,11 +195,11 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
+<a href="https://msdn.microsoft.com/00c99f3e-106b-46a2-afae-517b32b7a960">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
+<a href="https://msdn.microsoft.com/0965b0f6-9588-4944-98d8-3aca3a3029fc">StringCchCopyEx</a>
  
 
  

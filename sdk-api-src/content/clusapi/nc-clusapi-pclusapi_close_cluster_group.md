@@ -4,10 +4,10 @@ title: PCLUSAPI_CLOSE_CLUSTER_GROUP
 author: windows-sdk-content
 description: Closes a group handle.
 old-location: mscs\closeclustergroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5bbacf45-2e1a-402a-8592-c8f60034c4ad
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_GROUP, PCLUSAPI_CLOSE_CLUSTER_GROUP callback, PCLUSAPI_CLOSE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_closeclustergroup, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP, mscs.closeclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

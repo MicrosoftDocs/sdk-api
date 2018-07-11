@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_parameter_desc.htm
 old-project: direct3d12
 ms.assetid: CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_PARAMETER_DESC, D3D12_PARAMETER_DESC structure, _D3D12_PARAMETER_DESC, d3d12shader/D3D12_PARAMETER_DESC, direct3d12.d3d12_parameter_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ req.irql:
 ### -field SemanticName
 
 
-            The HLSL <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
+            The HLSL <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
           
 
 

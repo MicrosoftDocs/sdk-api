@@ -4,10 +4,10 @@ title: MprAdminConnectionClearStats function
 author: windows-sdk-content
 description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
 old-location: rras\mpradminconnectionclearstats.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,8 +157,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminConnectionClearStats</b> rather than 
 <b>MprAdminConnectionClearStats</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

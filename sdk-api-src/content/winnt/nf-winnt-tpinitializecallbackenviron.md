@@ -7,7 +7,7 @@ old-location: base\tpinitializecallbackenviron.htm
 old-project: ProcThread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TpInitializeCallbackEnviron, TpInitializeCallbackEnviron function, base.tpinitializecallbackenviron, winnt/TpInitializeCallbackEnviron
 ms.prod: windows
 ms.technology: windows-sdk

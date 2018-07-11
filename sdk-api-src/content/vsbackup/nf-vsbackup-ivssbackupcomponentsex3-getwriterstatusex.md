@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx3::GetWriterStatusEx
 author: windows-sdk-content
 description: Returns extended status information for the specified writer.
 old-location: base\ivssbackupcomponentsex3_getwriterstatusex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: ab2be2c0-04bb-4a56-a636-ebd2c06e844a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetWriterStatusEx, GetWriterStatusEx method, GetWriterStatusEx method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetWriterStatusEx method, IVssBackupComponentsEx3.GetWriterStatusEx, IVssBackupComponentsEx3::GetWriterStatusEx, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivssbackupcomponentsex3_getwriterstatusex, vsbackup/IVssBackupComponentsEx3::GetWriterStatusEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -302,7 +302,7 @@ A requester must call the asynchronous operation
 If this method returns VSS_E_WRITERERROR_PARTIAL_FAILURE, the requester should use the <a href="https://msdn.microsoft.com/a5d739d3-9169-4b25-a590-35703e77dacc">IVssComponentEx2::GetFailure</a> method to retrieve the component-level errors.
 
 When the caller has finished accessing the status information returned by this method, it should call 
-    <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the 
+    <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory held by the 
     <i>pbstrWriter</i> and <i>pbstrApplicationMessage</i> parameters.
 
 

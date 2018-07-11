@@ -4,10 +4,10 @@ title: ITask::GetApplicationName
 author: windows-sdk-content
 description: This method retrieves the name of the application that the task is associated with.
 old-location: taskschd\itask_getapplicationname.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the name of the application that the <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task</a> is associated with.
+This method retrieves the name of the application that the <a href="t.htm">task</a> is associated with.
 
 
 ## -parameters

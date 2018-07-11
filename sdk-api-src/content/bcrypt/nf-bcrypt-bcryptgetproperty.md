@@ -4,10 +4,10 @@ title: BCryptGetProperty function
 author: windows-sdk-content
 description: Retrieves the value of a named property for a CNG object.
 old-location: security\bcryptgetproperty_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
 ms.prod: windows
 ms.technology: windows-sdk

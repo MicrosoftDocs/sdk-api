@@ -4,10 +4,10 @@ title: WSManSetSessionOption function
 author: windows-sdk-content
 description: Sets an extended set of options for the session.
 old-location: winrm\wsmansetsessionoption.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: e6d21412-49c5-4e04-974d-28e0165ddb69
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: WSManSetSessionOption, WSManSetSessionOption function [Windows Remote Management], winrm.wsmansetsessionoption, wsman/WSManSetSessionOption
 ms.prod: windows
 ms.technology: windows-sdk

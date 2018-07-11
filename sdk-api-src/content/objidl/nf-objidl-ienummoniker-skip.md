@@ -7,7 +7,7 @@ old-location: com\ienummoniker_skip.htm
 old-project: com
 ms.assetid: 90df5bc4-6bb0-44bf-b675-d4a93d4680ce
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumMoniker interface [COM],Skip method, IEnumMoniker.Skip, IEnumMoniker::Skip, Skip, Skip method [COM], Skip method [COM],IEnumMoniker interface, _ole_ienummoniker_skip, com.ienummoniker_skip, objidl/IEnumMoniker::Skip
 ms.prod: windows
 ms.technology: windows-sdk

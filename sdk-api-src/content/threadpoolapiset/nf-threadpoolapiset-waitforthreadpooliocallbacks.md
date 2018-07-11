@@ -7,7 +7,7 @@ old-location: base\waitforthreadpooliocallbacks.htm
 old-project: ProcThread
 ms.assetid: 68dc640d-8678-441d-88bd-01284d98a251
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: WaitForThreadpoolIoCallbacks, WaitForThreadpoolIoCallbacks function, base.waitforthreadpooliocallbacks, threadpoolapiset/WaitForThreadpoolIoCallbacks, winbase/WaitForThreadpoolIoCallbacks
 ms.prod: windows
 ms.technology: windows-sdk

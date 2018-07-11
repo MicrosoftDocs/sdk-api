@@ -7,7 +7,7 @@ old-location: gdi\createhalftonepalette.htm
 old-project: gdi
 ms.assetid: ba9dfa0c-98df-4922-acba-d00e9b4b0fb0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreateHalftonePalette, CreateHalftonePalette function [Windows GDI], _win32_CreateHalftonePalette, gdi.createhalftonepalette, wingdi/CreateHalftonePalette
 ms.prod: windows
 ms.technology: windows-sdk

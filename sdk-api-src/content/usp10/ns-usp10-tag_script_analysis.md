@@ -7,7 +7,7 @@ old-location: intl\script_analysis.htm
 old-project: Intl
 ms.assetid: c673d5cc-c4ca-4238-8090-55abe3db324b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: FALSE, SCRIPT_ANALYSIS, SCRIPT_ANALYSIS structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_ANALYSIS_str, intl.script_analysis, tag_SCRIPT_ANALYSIS, usp10/SCRIPT_ANALYSIS
 ms.prod: windows
 ms.technology: windows-sdk

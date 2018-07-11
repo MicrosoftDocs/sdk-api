@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr_getitemsstatus.htm
 old-project: TSF
 ms.assetid: bf0bbbd5-63ca-4f2e-afee-e0c47d6e3d7b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetItemsStatus, GetItemsStatus method [Text Services Framework], GetItemsStatus method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemsStatus method, ITfLangBarItemMgr.GetItemsStatus, ITfLangBarItemMgr::GetItemsStatus, _tsf_itflangbaritemmgr_getitemsstatus_ref, ctfutb/ITfLangBarItemMgr::GetItemsStatus, tsf.itflangbaritemmgr_getitemsstatus
 ms.prod: windows
 ms.technology: windows-sdk

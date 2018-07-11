@@ -7,7 +7,7 @@ old-location: xps\ixpsomcolorprofileresourcecollection_getcount.htm
 old-project: printdocs
 ms.assetid: 798ac7ed-1221-4985-b325-d588133ad59c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

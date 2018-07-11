@@ -4,10 +4,10 @@ title: IPSEC_ADDRESS_INFO0_
 author: windows-sdk-content
 description: Is used to store mobile additional address information.
 old-location: fwp\ipsec_address_info0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: ad6a271f-6513-44ac-aa9a-14811b32a06b
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_ADDRESS_INFO0, IPSEC_ADDRESS_INFO0 structure [Filtering], IPSEC_ADDRESS_INFO0_, fwp.ipsec_address_info0, ipsectypes/IPSEC_ADDRESS_INFO0
 ms.prod: windows
 ms.technology: windows-sdk

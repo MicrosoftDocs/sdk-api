@@ -7,7 +7,7 @@ old-location: intl\immgetstatuswindowpos.htm
 old-project: Intl
 ms.assetid: 785d8523-14a7-4443-8326-34ca197b1cff
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmGetStatusWindowPos, imm/ImmGetStatusWindowPos, intl.immgetstatuswindowpos
 ms.prod: windows
 ms.technology: windows-sdk

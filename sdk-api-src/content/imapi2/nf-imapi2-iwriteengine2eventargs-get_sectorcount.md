@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs_get_sectorcount.htm
 old-project: imapi
 ms.assetid: b23c81c2-792e-45fc-b862-6daf5b1a6fd1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_SectorCount method, IWriteEngine2EventArgs.get_SectorCount, IWriteEngine2EventArgs::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_sectorcount, imapi2/IWriteEngine2EventArgs::get_SectorCount
 ms.prod: windows
 ms.technology: windows-sdk

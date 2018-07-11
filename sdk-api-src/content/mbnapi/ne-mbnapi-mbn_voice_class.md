@@ -7,7 +7,7 @@ old-location: mbn\mbn_voice_class.htm
 old-project: mbn
 ms.assetid: d2654e97-4020-449f-9622-39392309d6f3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: MBN_VOICE_CLASS, MBN_VOICE_CLASS enumeration [Microsoft Broadband Networks], MBN_VOICE_CLASS_NONE, MBN_VOICE_CLASS_NO_VOICE, MBN_VOICE_CLASS_SEPARATE_VOICE_DATA, MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA, mbn.mbn_voice_class, mbnapi/MBN_VOICE_CLASS, mbnapi/MBN_VOICE_CLASS_NONE, mbnapi/MBN_VOICE_CLASS_NO_VOICE, mbnapi/MBN_VOICE_CLASS_SEPARATE_VOICE_DATA, mbnapi/MBN_VOICE_CLASS_SIMULTANEOUS_VOICE_DATA
 ms.prod: windows
 ms.technology: windows-sdk

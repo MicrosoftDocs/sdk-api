@@ -4,10 +4,10 @@ title: ldap_compare function
 author: windows-sdk-content
 description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
 old-location: ldap\ldap_compare.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW"
 ms.prod: windows
 ms.technology: windows-sdk

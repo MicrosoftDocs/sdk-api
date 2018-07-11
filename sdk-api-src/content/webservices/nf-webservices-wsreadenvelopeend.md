@@ -7,7 +7,7 @@ old-location: wsw\wsreadenvelopeend.htm
 old-project: wsw
 ms.assetid: 1252fa10-d19a-4335-8dc5-f230141eef79
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsReadEnvelopeEnd, WsReadEnvelopeEnd function [Web Services for Windows], webservices/WsReadEnvelopeEnd, wsw.wsreadenvelopeend
 ms.prod: windows
 ms.technology: windows-sdk

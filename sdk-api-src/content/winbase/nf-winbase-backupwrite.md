@@ -4,10 +4,10 @@ title: BackupWrite function
 author: windows-sdk-content
 description: Restore a file or directory that was backed up using BackupRead.
 old-location: backup\backupwrite.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 92befb48-68eb-4af3-b58a-c5e17bf14098
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: BackupWrite, BackupWrite function [Backup], _win32_backupwrite, backup.backupwrite, base.backupwrite, winbase/BackupWrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ req.product: Windows Address Book 5.0
 The <b>BackupWrite</b> function can be used to 
     restore a file or directory that was backed up using 
     <a href="https://msdn.microsoft.com/47d13662-af70-4c76-9fb6-3835e329ae5f">BackupRead</a>. Use the 
-    <a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> function to get a stream of data from the backup 
+    <a href="base.readfile">ReadFile</a> function to get a stream of data from the backup 
     medium, then use <b>BackupWrite</b> to write the data to the specified file or 
     directory.
 
@@ -159,7 +159,7 @@ If the function fails, the return value is zero, indicating that an I/O error oc
 
 This function is not intended for use in restoring files encrypted under the 
     <a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">Encrypted File System</a>. Use 
-    <a href="https://msdn.microsoft.com/library/Aa365746(v=VS.85).aspx">WriteEncryptedFileRaw</a> for that purpose.
+    <a href="base.writeencryptedfileraw">WriteEncryptedFileRaw</a> for that purpose.
 
 The data read from the backup medium must be substreams separated by 
     <a href="https://msdn.microsoft.com/8beb4315-ec0e-4f6f-abfe-369094f7bedd">WIN32_STREAM_ID</a> structures.
@@ -190,7 +190,7 @@ The <b>BACKUP_LINK</b> stream type lets you restore files with hard links.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365746(v=VS.85).aspx">WriteEncryptedFileRaw</a>
+<a href="base.writeencryptedfileraw">WriteEncryptedFileRaw</a>
  
 
  

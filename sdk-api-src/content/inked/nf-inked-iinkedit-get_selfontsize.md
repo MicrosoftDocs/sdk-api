@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selfontsize.htm
 old-project: tablet
 ms.assetid: a6e3de31-e821-4f14-a3ec-f4ea0ed6f339
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelFontSize property, IInkEdit.SelFontSize, IInkEdit.get_SelFontSize, IInkEdit::SelFontSize, IInkEdit::get_SelFontSize, IInkEdit::put_SelFontSize, InkEdit.get_SelFontSize, InkEdit.put_SelFontSize, SelFontSize property [Tablet PC], SelFontSize property [Tablet PC],IInkEdit interface, get_SelFontSize, inked/IInkEdit::SelFontSize, inked/IInkEdit::get_SelFontSize, inked/IInkEdit::put_SelFontSize, put_SelFontSize, tablet.inkedit_selfontsize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The <b>SelFontSize</b> property returns Null if the selected text contains diffe
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

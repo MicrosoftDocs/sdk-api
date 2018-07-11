@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getfinalvectorvalue.htm
 old-project: UIAnimation
 ms.assetid: 2794B65F-0461-4E0F-832D-CEC9BEE60B6E
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetFinalVectorValue, GetFinalVectorValue method [Windows Animation], GetFinalVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetFinalVectorValue method, IUIAnimationVariable2.GetFinalVectorValue, IUIAnimationVariable2::GetFinalVectorValue, uianimation.iuianimationvariable2_getfinalvectorvalue, uianimation/IUIAnimationVariable2::GetFinalVectorValue
 ms.prod: windows
 ms.technology: windows-sdk

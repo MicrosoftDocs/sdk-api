@@ -7,7 +7,7 @@ old-location: mf\imfsslcertificatemanager_endgetclientcertificate.htm
 old-project: medfound
 ms.assetid: 25cd2ab0-7f58-4bd5-b594-75a3acbdc2d9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: EndGetClientCertificate, EndGetClientCertificate method [Media Foundation], EndGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],EndGetClientCertificate method, IMFSSLCertificateManager.EndGetClientCertificate, IMFSSLCertificateManager::EndGetClientCertificate, mf.imfsslcertificatemanager_endgetclientcertificate, mfidl/IMFSSLCertificateManager::EndGetClientCertificate
 ms.prod: windows
 ms.technology: windows-sdk

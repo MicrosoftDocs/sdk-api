@@ -4,10 +4,10 @@ title: IX509ExtensionKeyUsage::get_KeyUsage
 author: windows-sdk-content
 description: Retrieves the restrictions placed on the public key.
 old-location: security\ix509extensionkeyusage_keyusage_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: ddb23d36-342f-4bd1-9936-72b025c4a03b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],KeyUsage property, IX509ExtensionKeyUsage.KeyUsage, IX509ExtensionKeyUsage.get_KeyUsage, IX509ExtensionKeyUsage::KeyUsage, IX509ExtensionKeyUsage::get_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::KeyUsage, certenroll/IX509ExtensionKeyUsage::get_KeyUsage, get_KeyUsage, security.ix509extensionkeyusage_keyusage_property
 ms.prod: windows
 ms.technology: windows-sdk

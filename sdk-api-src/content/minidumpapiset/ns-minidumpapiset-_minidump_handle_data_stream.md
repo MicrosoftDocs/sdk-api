@@ -4,10 +4,10 @@ title: "_MINIDUMP_HANDLE_DATA_STREAM"
 author: windows-sdk-content
 description: Represents the header for a handle data stream.
 old-location: base\minidump_handle_data_stream_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 5674df6b-77e0-4bca-8349-8217388902ed
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM, MINIDUMP_HANDLE_DATA_STREAM structure, PMINIDUMP_HANDLE_DATA_STREAM, PMINIDUMP_HANDLE_DATA_STREAM structure pointer, _MINIDUMP_HANDLE_DATA_STREAM, _win32_minidump_handle_data_stream_str, base.minidump_handle_data_stream_str, minidumpapiset/MINIDUMP_HANDLE_DATA_STREAM, minidumpapiset/PMINIDUMP_HANDLE_DATA_STREAM"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IKEEXT_INTEGRITY_ALGORITHM0_
 author: windows-sdk-content
 description: Stores the IKE/AuthIP hash algorithm.
 old-location: fwp\ikeext_integrity_algorithm0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 231d6ed9-ad41-488c-ad8b-ba64ae73f5b9
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IKEEXT_INTEGRITY_ALGORITHM0, IKEEXT_INTEGRITY_ALGORITHM0 structure [Filtering], IKEEXT_INTEGRITY_ALGORITHM0_, fwp.ikeext_integrity_algorithm0, iketypes/IKEEXT_INTEGRITY_ALGORITHM0
 ms.prod: windows
 ms.technology: windows-sdk

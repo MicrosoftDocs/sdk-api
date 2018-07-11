@@ -4,10 +4,10 @@ title: ITStreamControl::get_Streams
 author: windows-sdk-content
 description: The get_Streams method creates a collection of media streams currently available on the call. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateStreams method.
 old-location: tapi3\itstreamcontrol_get_streams.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 4d001f5a-7731-47b9-8c68-e4dd2d0bf02f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],get_Streams method, ITStreamControl.get_Streams, ITStreamControl::get_Streams, _tapi3_itstreamcontrol_get_streams, get_Streams, get_Streams method [TAPI 2.2], get_Streams method [TAPI 2.2],ITStreamControl interface, tapi3.itstreamcontrol_get_streams, tapi3if/ITStreamControl::get_Streams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,8 +122,8 @@ The <i>pVariant</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface returned by <b>ITStreamControl::get_Stream</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface returned by <b>ITStreamControl::get_Stream</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITStream</b> interface to free resources associated with it.
 
 

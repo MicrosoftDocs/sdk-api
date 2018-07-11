@@ -4,10 +4,10 @@ title: EapMethodAuthenticatorSetAttributes function
 author: windows-sdk-content
 description: Provides updated EAP authentication attributes to set on the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorsetattributes.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapMethodAuthenticatorSetAttributes, EapMethodAuthenticatorSetAttributes function [EAPHost], eaphost.eapmethodauthenticatorsetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes
 ms.prod: windows
 ms.technology: windows-sdk

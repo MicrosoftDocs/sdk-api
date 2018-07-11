@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_pssetshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetshader.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],PSSetShader method, ID3D10Device.PSSetShader, ID3D10Device::PSSetShader, PSSetShader, PSSetShader method [Direct3D 10], PSSetShader method [Direct3D 10],ID3D10Device interface, b8f271c1-e769-e3d0-3526-6f08dae50a2a, d3d10/ID3D10Device::PSSetShader, direct3d10.id3d10device_pssetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Sets a pixel shader to the device.
 
 ### -param pPixelShader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173821(v=VS.85).aspx">ID3D10PixelShader</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c2b255ca-cffb-4e24-9395-a4cb727bf421">ID3D10PixelShader</a>*</b>
 
-Pointer to a pixel shader (see <a href="https://msdn.microsoft.com/library/Bb173821(v=VS.85).aspx">ID3D10PixelShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
+Pointer to a pixel shader (see <a href="https://msdn.microsoft.com/c2b255ca-cffb-4e24-9395-a4cb727bf421">ID3D10PixelShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
 
 
 ## -returns
@@ -89,7 +89,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

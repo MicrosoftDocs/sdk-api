@@ -78,38 +78,38 @@ Integer that specifies the number of values in the
 
 ### -param font [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object that specifies the family name, size, and style of the font that is to be applied to the string. 
+Pointer to a <a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object that specifies the family name, size, and style of the font that is to be applied to the string. 
 
 
 ### -param brush [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a> object that is used to fill the string. 
+Pointer to a <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object that is used to fill the string. 
 
 
 ### -param positions [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
 
-If the DriverStringOptionsRealizedAdvance flag is set, <i>positions</i> is a pointer to a <a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a> object that specifies the position of the first glyph. Otherwise, <i>positions</i> is an array of <b>PointF</b> objects, each of which specifies the origin of an individual glyph. 
+If the DriverStringOptionsRealizedAdvance flag is set, <i>positions</i> is a pointer to a <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> object that specifies the position of the first glyph. Otherwise, <i>positions</i> is an array of <b>PointF</b> objects, each of which specifies the origin of an individual glyph. 
 
 
 ### -param flags [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the options for the appearance of the string. This value must be an element of the <a href="https://msdn.microsoft.com/library/ms534108(v=VS.85).aspx">DriverStringOptions</a> enumeration or the result of a bitwise 
+Integer that specifies the options for the appearance of the string. This value must be an element of the <a href="https://msdn.microsoft.com/5cf327d5-5ffa-4f10-994a-2e5153b36dd7">DriverStringOptions</a> enumeration or the result of a bitwise 
 					<b>OR</b> applied to two or more of these elements. 
 
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object that specifies the transformation matrix to apply to each value in the 
+Pointer to a <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object that specifies the transformation matrix to apply to each value in the 
 					<i>text</i> array. 
 
 
@@ -134,7 +134,7 @@ If the method fails, it returns one of the other elements of the
 
 
 This method does not support the handling of complex scripts and assumes that the client has set up all text layout in some other way. This method is useful for creating owner-drawn menu items. The client should use the 
-				<a href="https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx">DrawString Methods</a> method for general purposes.
+				<a href="https://msdn.microsoft.com/b3568ed9-e359-4916-a83d-7553c021d197">DrawString Methods</a> method for general purposes.
 
 
 
@@ -144,19 +144,19 @@ This method does not support the handling of complex scripts and assumes that th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a>
+<a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/b3568ed9-e359-4916-a83d-7553c021d197">DrawString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534108(v=VS.85).aspx">DriverStringOptions</a>
+<a href="https://msdn.microsoft.com/5cf327d5-5ffa-4f10-994a-2e5153b36dd7">DriverStringOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 
@@ -164,15 +164,15 @@ This method does not support the handling of complex scripts and assumes that th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535798(v=VS.85).aspx">Graphics::MeasureDriverString</a>
+<a href="https://msdn.microsoft.com/f68ee34e-84e9-4af1-b5f7-018b875d80ad">Graphics::MeasureDriverString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
  
 
  

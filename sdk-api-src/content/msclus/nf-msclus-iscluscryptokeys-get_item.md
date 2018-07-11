@@ -4,10 +4,10 @@ title: ISClusCryptoKeys::get_Item
 author: windows-sdk-content
 description: Single crypto key from a ClusCryptoKeys collection.
 old-location: mscs\cluscryptokeys_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: f76aa7e4-1f4c-48dd-b8c1-1210f141f0cd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusCryptoKeys class [Failover Cluster],Item property, ClusCryptoKeys.Item, ISClusCryptoKeys.get_Item, ISClusCryptoKeys::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusCryptoKeys class, _wolf_cluscryptokeys.item, get_Item, mscs.cluscryptokeys_item
 ms.prod: windows
 ms.technology: windows-sdk

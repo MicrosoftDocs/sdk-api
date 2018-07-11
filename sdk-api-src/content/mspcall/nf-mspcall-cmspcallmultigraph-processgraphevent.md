@@ -4,10 +4,10 @@ title: CMSPCallMultiGraph::ProcessGraphEvent
 author: windows-sdk-content
 description: The ProcessGraphEvent method (as defined in MSPCall.h) is called on the MSP worker thread.
 old-location: tapi3\cmspcallmultigraph_processgraphevent.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2b41a8ac-8aa1-47d0-ad90-f6f177895149
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],ProcessGraphEvent method, CMSPCallMultiGraph.ProcessGraphEvent, CMSPCallMultiGraph::ProcessGraphEvent, ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_processgraphevent, mspcall/CMSPCallMultiGraph::ProcessGraphEvent, tapi3.cmspcallmultigraph_processgraphevent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\getalttabinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getalttabinfo.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetAltTabInfo, GetAltTabInfo function [Windows and Messages], GetAltTabInfoA, GetAltTabInfoW, _win32_GetAltTabInfo, _win32_getalttabinfo_cpp, winmsg.getalttabinfo, winui._win32_getalttabinfo, winuser/GetAltTabInfo, winuser/GetAltTabInfoA, winuser/GetAltTabInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -79,7 +79,7 @@ The index of the icon in the application-switching window. If the <i>pszItemText
 
 Type: <b>PALTTABINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms632601(v=VS.85).aspx">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
+A pointer to an <a href="https://msdn.microsoft.com/56c37b16-1708-48a4-8e2c-54f98aad0cf7">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
 
 
 ### -param pszItemText [out, optional]
@@ -124,7 +124,7 @@ The application-switching window enables you to switch to the most recently used
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632601(v=VS.85).aspx">ALTTABINFO</a>
+<a href="https://msdn.microsoft.com/56c37b16-1708-48a4-8e2c-54f98aad0cf7">ALTTABINFO</a>
 
 
 

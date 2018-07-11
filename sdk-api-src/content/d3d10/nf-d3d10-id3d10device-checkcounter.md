@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_checkcounter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkcounter.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 16cb87e3-fdfa-0b39-e72e-a725642eb2ba, CheckCounter, CheckCounter method [Direct3D 10], CheckCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckCounter method, ID3D10Device.CheckCounter, ID3D10Device::CheckCounter, d3d10/ID3D10Device::CheckCounter, direct3d10.id3d10device_checkcounter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Get the type, name, units of measure, and a description of an existing counter.
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://msdn.microsoft.com/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>). Specifies which counter information is to be retrieved about.
+Pointer to a counter description (see <a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>). Specifies which counter information is to be retrieved about.
 
 
 ### -param pType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204907(v=VS.85).aspx">D3D10_COUNTER_TYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c3cd1aaf-e59b-4a75-b329-18fbd3d72eba">D3D10_COUNTER_TYPE</a>*</b>
 
-Pointer to the data type of a counter (see <a href="https://msdn.microsoft.com/library/Bb204907(v=VS.85).aspx">D3D10_COUNTER_TYPE</a>). Specifies the data type of the counter being retrieved.
+Pointer to the data type of a counter (see <a href="https://msdn.microsoft.com/c3cd1aaf-e59b-4a75-b329-18fbd3d72eba">D3D10_COUNTER_TYPE</a>). Specifies the data type of the counter being retrieved.
 
 
 ### -param pActiveCounters [out]
@@ -126,9 +126,9 @@ Length of the string returned to szDescription. Can be <b>NULL</b>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -147,7 +147,7 @@ Length parameters can be <b>NULL</b>, which indicates the application is not int
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

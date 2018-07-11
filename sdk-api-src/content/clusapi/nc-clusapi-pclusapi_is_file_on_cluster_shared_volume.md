@@ -4,10 +4,10 @@ title: PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME
 author: windows-sdk-content
 description: Specifies whether the file is on the cluster shared volume.
 old-location: mscs\isfileonclustersharedvolume.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: BEE71433-3408-47AA-A7EB-5E212ABC1023
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME callback, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME callback function [Failover Cluster], clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, mscs.isfileonclustersharedvolume
 ms.prod: windows
 ms.technology: windows-sdk

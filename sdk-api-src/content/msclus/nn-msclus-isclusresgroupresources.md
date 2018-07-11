@@ -4,10 +4,10 @@ title: ISClusResGroupResources
 author: windows-sdk-content
 description: Provides access to the resources that are current members of a group and allows a resource to be added to or deleted from the group.
 old-location: mscs\clusresgroupresources_collection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9ea90beb-86ae-4026-94bb-175e593da8fa
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupResources, ClusResGroupResources collection [Failover Cluster], ClusResGroupResources collection [Failover Cluster],described, ISClusResGroupResources, _wolf_clusresgroupresources_collection, msclus/ClusResGroupResources, mscs.clusresgroupresources_collection
 ms.prod: windows
 ms.technology: windows-sdk

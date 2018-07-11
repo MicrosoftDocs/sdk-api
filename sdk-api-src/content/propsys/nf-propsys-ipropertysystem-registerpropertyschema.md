@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_RegisterPropertySchema.htm
 old-project: properties
 ms.assetid: 752cc873-3fa8-4e05-97e7-41e90f059e4f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySchema method, IPropertySystem.RegisterPropertySchema, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ If a failure is encountered that prevents a property description from getting lo
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

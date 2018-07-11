@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_Clone.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],ICondition interface, ICondition interface [search],Clone method, ICondition.Clone, ICondition::Clone, _search_ICondition_Clone, search._search_ICondition_Clone, structuredquerycondition/ICondition::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-      Creates a deep copy of this <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> object.
+      Creates a deep copy of this <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> object.
 
 
 ## -parameters
@@ -62,10 +62,10 @@ req.product: Windows XP with SP1 and later
 
 ### -param ppc [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>**</b>
 
 
-                Receives a pointer to the clone of this <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>.
+                Receives a pointer to the clone of this <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>.
             
 
 
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-        Because there are no methods for modifying an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>, there are few occasions when this method is necessary. In many cases it is adequate to call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method on the <b>ICondition</b> to obtain an additional reference to the same object.
+        Because there are no methods for modifying an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>, there are few occasions when this method is necessary. In many cases it is adequate to call the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method on the <b>ICondition</b> to obtain an additional reference to the same object.
       
 
 
@@ -96,19 +96,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
 
 
 

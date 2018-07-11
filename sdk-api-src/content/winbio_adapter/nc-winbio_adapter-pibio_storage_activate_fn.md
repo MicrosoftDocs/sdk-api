@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_ACTIVATE_FN
 author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any work needed to bring the storage component out of an idle state.
 old-location: secbiomet\storageadapteractivate.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 2E9B5191-94F2-4954-BE3A-78803ABBAD07
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_ACTIVATE_FN, PIBIO_STORAGE_ACTIVATE_FN callback, StorageAdapterActivate, StorageAdapterActivate callback function [Windows Biometric Framework API], secbiomet.storageadapteractivate, winbio_adapter/StorageAdapterActivate
 ms.prod: windows
 ms.technology: windows-sdk

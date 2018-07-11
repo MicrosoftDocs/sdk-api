@@ -4,10 +4,10 @@ title: SymGetModuleBase function
 author: windows-sdk-content
 description: Retrieves the base address of the module that contains the specified address.
 old-location: base\symgetmodulebase64.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 964d0fdb-d982-4509-8c49-0ad0a3491226
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymGetModuleBase, SymGetModuleBase function, SymGetModuleBase64, SymGetModuleBase64 function, _win32_symgetmodulebase64, base.symgetmodulebase64, dbghelp/SymGetModuleBase, dbghelp/SymGetModuleBase64
 ms.prod: windows
 ms.technology: windows-sdk

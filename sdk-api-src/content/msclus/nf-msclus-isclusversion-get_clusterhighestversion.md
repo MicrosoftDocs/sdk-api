@@ -4,10 +4,10 @@ title: ISClusVersion::get_ClusterHighestVersion
 author: windows-sdk-content
 description: Returns a value containing the highest version of the Cluster service with which the current cluster is compatible.
 old-location: mscs\clusversion_clusterhighestversion.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 016d6c19-1f24-4c04-8665-092ebb9464b7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusVersion object [Failover Cluster],ClusterHighestVersion property, ClusVersion.ClusterHighestVersion, ClusterHighestVersion property [Failover Cluster], ClusterHighestVersion property [Failover Cluster],ClusVersion object, ISClusVersion.get_ClusterHighestVersion, ISClusVersion::get_ClusterHighestVersion, _wolf_clusversion.clusterhighestversion, get_ClusterHighestVersion, mscs.clusversion_clusterhighestversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns a value containing the highest version of the 
-    <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">Cluster service</a> with which the current 
+    <a href="c_gly.htm">Cluster service</a> with which the current 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> is compatible.
 
 This property is read-only.

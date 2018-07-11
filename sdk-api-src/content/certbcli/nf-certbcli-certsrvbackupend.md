@@ -4,10 +4,10 @@ title: CertSrvBackupEnd function
 author: windows-sdk-content
 description: Ends a Certificate Services backup session.
 old-location: security\certsrvbackupend.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ebf87af3-df45-4440-9881-e2926b0c4f08
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertSrvBackupEnd, CertSrvBackupEnd function [Security], _certsrv_certsrvbackupend, certbcli/CertSrvBackupEnd, security.certsrvbackupend
 ms.prod: windows
 ms.technology: windows-sdk

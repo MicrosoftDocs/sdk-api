@@ -7,7 +7,7 @@ old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
 old-project: medfound
 ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetChainedLicenseResponse, GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation],IMFDRMNetHelper interface, IMFDRMNetHelper interface [Media Foundation],GetChainedLicenseResponse method, IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
 ms.prod: windows
 ms.technology: windows-sdk

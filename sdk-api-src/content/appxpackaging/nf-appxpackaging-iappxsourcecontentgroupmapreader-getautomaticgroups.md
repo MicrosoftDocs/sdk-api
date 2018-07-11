@@ -7,7 +7,7 @@ old-location: appxpkg\iappxsourcecontentgroupmapreader_getautomaticgroups.htm
 old-project: appxpkg
 ms.assetid: DA6D0BEB-75ED-49B8-82A8-0B7C53E5C3C9
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxSourceContentGroupMapReader interface, IAppxSourceContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxSourceContentGroupMapReader.GetAutomaticGroups, IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxsourcecontentgroupmapreader_getautomaticgroups
 ms.prod: windows
 ms.technology: windows-sdk

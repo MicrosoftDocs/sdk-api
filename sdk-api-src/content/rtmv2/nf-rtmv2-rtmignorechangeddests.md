@@ -4,10 +4,10 @@ title: RtmIgnoreChangedDests function
 author: windows-sdk-content
 description: The RtmIgnoreChangedDests function skips the next change for each destination if it has already occurred.
 old-location: rras\rtmignorechangeddests.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 9e0b4311-deba-45d6-b1c2-a1b661f25d0f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmIgnoreChangedDests, RtmIgnoreChangedDests function [RAS], _rtmv2ref_rtmignorechangeddests, rras.rtmignorechangeddests, rtmv2/RtmIgnoreChangedDests
 ms.prod: windows
 ms.technology: windows-sdk

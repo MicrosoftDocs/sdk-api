@@ -7,7 +7,7 @@ old-location: security\old_large_integer.htm
 old-project: SecAuthN
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], _OLD_LARGE_INTEGER, security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER"
 ms.prod: windows
 ms.technology: windows-sdk

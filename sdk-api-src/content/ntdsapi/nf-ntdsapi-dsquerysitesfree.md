@@ -4,10 +4,10 @@ title: DsQuerySitesFree function
 author: windows-sdk-content
 description: Frees the memory allocated by the DsQuerySitesByCost function.
 old-location: ad\dsquerysitesfree.htm
-old-project: AD
+old-project: ad
 ms.assetid: 810caa4f-8275-4ad8-ad3e-72061fc073dd
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsQuerySitesFree, DsQuerySitesFree function [Active Directory], ad.dsquerysitesfree, ntdsapi/DsQuerySitesFree
 ms.prod: windows
 ms.technology: windows-sdk

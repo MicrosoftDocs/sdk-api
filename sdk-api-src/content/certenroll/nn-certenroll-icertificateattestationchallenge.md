@@ -4,10 +4,10 @@ title: ICertificateAttestationChallenge
 author: windows-sdk-content
 description: Allows applications to decrypt a key attestation challenge received from a server.
 old-location: security\icertificateattestationchallenge.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], ICertificateAttestationChallenge interface [Security],described, certenroll/ICertificateAttestationChallenge, security.icertificateattestationchallenge
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Allows applications to decrypt a key attestation challenge received from a serve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateAttestationChallenge</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertificateAttestationChallenge</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateAttestationChallenge</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertificateAttestationChallenge</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -7,7 +7,7 @@ old-location: shell\UIntMult.htm
 old-project: shell
 ms.assetid: c469417c-c774-4946-b873-cc2845417655
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsafe/UIntMult, shell.UIntMult
 ms.prod: windows
 ms.technology: windows-sdk

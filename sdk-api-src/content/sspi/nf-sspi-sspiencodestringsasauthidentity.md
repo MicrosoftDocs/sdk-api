@@ -7,7 +7,7 @@ old-location: security\sspiencodestringsasauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 0aea2f00-fcf1-4c4e-a22f-a669dd4fb294
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk

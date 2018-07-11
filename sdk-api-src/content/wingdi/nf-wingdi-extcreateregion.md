@@ -7,7 +7,7 @@ old-location: gdi\extcreateregion.htm
 old-project: gdi
 ms.assetid: 4dcff824-eb1d-425c-b246-db4ace2c6518
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ExtCreateRegion, ExtCreateRegion function [Windows GDI], _win32_ExtCreateRegion, gdi.extcreateregion, wingdi/ExtCreateRegion
 ms.prod: windows
 ms.technology: windows-sdk

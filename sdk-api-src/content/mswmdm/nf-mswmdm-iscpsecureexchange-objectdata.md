@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecureexchange_objectdata.htm
 old-project: WMDM
 ms.assetid: 825539e4-9162-40b7-bae0-336e728fb34e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],ObjectData method, ISCPSecureExchange.ObjectData, ISCPSecureExchange::ObjectData, ISCPSecureExchangeObjectData, ObjectData, ObjectData method [windows Media Device Manager], ObjectData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::ObjectData, wmdm.iscpsecureexchange_objectdata
 ms.prod: windows
 ms.technology: windows-sdk

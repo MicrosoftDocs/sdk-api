@@ -4,10 +4,10 @@ title: "_PWM_POLARITY"
 author: windows-sdk-content
 description: Represents the Pulse Width Modulation (PWM) signal level polarity with respect to the duty cycle.
 old-location: base\pwm_polarity.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: D818E512-5E50-4CF2-AF22-1A4AB07679A6
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: PWM_ACTIVE_HIGH, PWM_ACTIVE_LOW, PWM_POLARITY, PWM_POLARITY enumeration, _PWM_POLARITY, base.pwm_polarity, pwm/PWM_ACTIVE_HIGH, pwm/PWM_ACTIVE_LOW, pwm/PWM_POLARITY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,11 +76,11 @@ Active Low.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843916(v=VS.85).aspx">IOCTL_PWM_PIN_GET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_get_polarity">IOCTL_PWM_PIN_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843919(v=VS.85).aspx">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

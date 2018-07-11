@@ -7,7 +7,7 @@ old-location: tsf\itfrangebackup_restore.htm
 old-project: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, ITfRangeBackup.Restore, ITfRangeBackup::Restore, Restore, Restore method [Text Services Framework], Restore method [Text Services Framework],ITfRangeBackup interface, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="ranges.htm">Ranges: Clones and Backups</a>
  
 
  

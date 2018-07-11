@@ -4,10 +4,10 @@ title: IX509PublicKey::ComputeKeyIdentifier
 author: windows-sdk-content
 description: Creates an identifier from a 160-bit SHA-1 hash of the public key.
 old-location: security\ix509publickey_computekeyidentifier_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b2e471c7-1087-46a2-8938-5d3cea44f7f7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dxmath\xmloadubyten2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByteN2(const XMUBYTEN2)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByteN2, XMLoadUByteN2, XMLoadUByteN2 method [DirectX Math Support APIs], dxmath.xmloadubyten2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/library/Hh404729(v=VS.85).aspx">XMUBYTEN2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/e6faa9a7-fedc-45cb-8480-df179ad3bd86">XMUBYTEN2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/library/Hh404729(v=VS.85).aspx">XMU
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/library/Hh404729(v=VS.85).aspx">XMUBYTEN2</a> structure to load. This parameter must point to cached
+Address of the <a href="https://msdn.microsoft.com/e6faa9a7-fedc-45cb-8480-df179ad3bd86">XMUBYTEN2</a> structure to load. This parameter must point to cached
         memory.
 
 

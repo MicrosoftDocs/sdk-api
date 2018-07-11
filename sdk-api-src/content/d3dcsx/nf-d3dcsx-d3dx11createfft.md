@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createfft.htm
 old-project: direct3d11
 ms.assetid: 9a386221-b3ed-421d-aa98-933f7d267bdd
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3DX11CreateFFT, D3DX11CreateFFT function [Direct3D 11], ca8c0d76-37a0-9faf-2e44-4ead20994182, d3dcsx/D3DX11CreateFFT, direct3d11.d3dx11createfft
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ Type: <b><a href="https://msdn.microsoft.com/6979aea4-5121-4a65-85f6-4b575308371
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             One of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.

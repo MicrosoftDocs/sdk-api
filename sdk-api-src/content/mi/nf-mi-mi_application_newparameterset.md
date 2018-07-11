@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newparameterset.htm
 old-project: wmi_v2
 ms.assetid: 9704ad73-78af-4d75-8da6-f327193ea0fa
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Application_NewParameterSet, MI_Application_NewParameterSet function [Windows Management Infrastructure (MI)], mi/MI_Application_NewParameterSet, wmi_v2.mi_application_newparameterset
 ms.prod: windows
 ms.technology: windows-sdk

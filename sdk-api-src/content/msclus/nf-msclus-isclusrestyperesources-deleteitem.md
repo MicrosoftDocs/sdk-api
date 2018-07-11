@@ -4,10 +4,10 @@ title: ISClusResTypeResources::DeleteItem
 author: windows-sdk-content
 description: Deletes a resource from the cluster and removes it from a ClusResTypeResources collection.
 old-location: mscs\clusrestyperesources_deleteitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: be221cf6-0f27-48b2-bb87-5c7200841cd7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],DeleteItem method, ClusResTypeResources.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResTypeResources class, ISClusResTypeResources.DeleteItem, ISClusResTypeResources::DeleteItem, _wolf_clusrestyperesources.deleteitem, mscs.clusrestyperesources_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk

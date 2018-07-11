@@ -4,10 +4,10 @@ title: IOCSPAdmin::SetConfiguration
 author: windows-sdk-content
 description: Updates a responder service with configuration changes.
 old-location: security\iocspadmin_setconfiguration_method.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
 ms.prod: windows
 ms.technology: windows-sdk

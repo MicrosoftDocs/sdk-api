@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetRestoreMethod
 author: windows-sdk-content
 description: The GetRestoreMethod method returns information about how a writer wants its data to be restored.
 old-location: base\ivssexaminewritermetadata_getrestoremethod.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -197,7 +197,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the <i>pbstrUserProcedure</i> and <i>pbstrService</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A file should always be restored to its alternate location mapping if either of the following is true:
 

@@ -7,7 +7,7 @@ old-location: cmpapi\compress.htm
 old-project: cmpapi
 ms.assetid: 0e32501c-5213-43e6-88ca-1e424181d7a2
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
 ms.prod: windows
 ms.technology: windows-sdk

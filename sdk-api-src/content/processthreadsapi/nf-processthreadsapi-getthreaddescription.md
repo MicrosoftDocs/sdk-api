@@ -7,7 +7,7 @@ old-location: base\getthreaddescription.htm
 old-project: ProcThread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.prod: windows
 ms.technology: windows-sdk

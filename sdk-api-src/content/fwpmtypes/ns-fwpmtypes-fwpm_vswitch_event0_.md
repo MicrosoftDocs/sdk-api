@@ -4,10 +4,10 @@ title: FWPM_VSWITCH_EVENT0_
 author: windows-sdk-content
 description: Contains information about a vSwitch event.
 old-location: fwp\fwpm_vswitch_event0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: bd25f66a-511a-470d-a33a-5e73d8b802c2
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_VSWITCH_EVENT0, FWPM_VSWITCH_EVENT0 structure [Filtering], FWPM_VSWITCH_EVENT0_, fwp.fwpm_vswitch_event0, fwpmtypes/FWPM_VSWITCH_EVENT0
 ms.prod: windows
 ms.technology: windows-sdk

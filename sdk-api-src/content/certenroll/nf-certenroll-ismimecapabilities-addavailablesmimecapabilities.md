@@ -4,10 +4,10 @@ title: ISmimeCapabilities::AddAvailableSmimeCapabilities
 author: windows-sdk-content
 description: Adds ISmimeCapability objects to the collection by identifying the encryption algorithms supported by the default RSA cryptographic provider.
 old-location: security\ismimecapabilities_addavailablesmimecapabilities_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b3b087e7-9934-4d29-a516-db5bba824774
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AddAvailableSmimeCapabilities, AddAvailableSmimeCapabilities method [Security], AddAvailableSmimeCapabilities method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddAvailableSmimeCapabilities method, ISmimeCapabilities.AddAvailableSmimeCapabilities, ISmimeCapabilities::AddAvailableSmimeCapabilities, certenroll/ISmimeCapabilities::AddAvailableSmimeCapabilities, security.ismimecapabilities_addavailablesmimecapabilities_method
 ms.prod: windows
 ms.technology: windows-sdk

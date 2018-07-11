@@ -7,7 +7,7 @@ old-location: base\createthreadpool.htm
 old-project: ProcThread
 ms.assetid: cc00d7bf-ac52-44ff-a6a8-76c8eaace5e6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CreateThreadpool, CreateThreadpool function, base.createthreadpool, threadpoolapiset/CreateThreadpool, winbase/CreateThreadpool
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicommandhandler.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\iuicommandhandler.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUICommandHandler, IUICommandHandler interface [Windows Ribbon], IUICommandHandler interface [Windows Ribbon],described, scenicintent_IUICommandHandler, uiribbon/IUICommandHandler, windowsribbon.windowsribbon_iuicommandhandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Responds to execute events on Commands bound to the Command handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371494(v=VS.85).aspx">UpdateProperty</a>
+<a href="https://msdn.microsoft.com/47acd4d3-6841-4a19-99ff-d36fe78c2e93">UpdateProperty</a>
 </td>
 <td align="left" width="63%">
 
@@ -100,7 +100,7 @@ Responds to execute events on Commands bound to the Command handler.
 
 				For each Command in a View, the Ribbon framework requires a corresponding Command handler in 
 				the host application. A new handler or an existing handler must be bound to the Command through 
-				the <a href="https://msdn.microsoft.com/library/Dd371531(v=VS.85).aspx">IUIApplication::OnCreateUICommand</a> notification method.
+				the <a href="https://msdn.microsoft.com/13e03acd-1a1e-48f9-b413-5a24d8b784d0">IUIApplication::OnCreateUICommand</a> notification method.
 			
 
 
@@ -119,7 +119,7 @@ Responds to execute events on Commands bound to the Command handler.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

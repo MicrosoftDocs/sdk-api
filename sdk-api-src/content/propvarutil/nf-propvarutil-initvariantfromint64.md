@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt64.htm
 old-project: properties
 ms.assetid: 3c5254a6-b498-40b0-acd3-0ffa7fd93104
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromInt64, InitVariantFromInt64 function [Windows Properties], _shell_InitVariantFromInt64, properties.InitVariantFromInt64, propvarutil/InitVariantFromInt64, shell.InitVariantFromInt64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762331(v=VS.85).aspx">InitVariantFromInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt64">InitVariantFromInt64</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762301(v=VS.85).aspx">InitPropVariantFromInt64</a>
+<a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776612(v=VS.85).aspx">VariantToInt64</a>
+<a href="shell.VariantToInt64">VariantToInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776615(v=VS.85).aspx">VariantToInt64WithDefault</a>
+<a href="shell.VariantToInt64WithDefault">VariantToInt64WithDefault</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataTransfer_idtGetData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetdata.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetData method, IWiaDataTransfer.idtGetData, IWiaDataTransfer::idtGetData, _wia_IWiaDataTransfer_idtGetData, idtGetData, idtGetData method [WIA], idtGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetData, wia_xp/IWiaDataTransfer::idtGetData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ Pointer to the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c0
 
 ### -param pIWiaDataCallback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c2414d68-604f-4ae7-8808-7931240b1d26">IWiaDataCallback</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface. 
+Pointer to the <a href="https://msdn.microsoft.com/c2414d68-604f-4ae7-8808-7931240b1d26">IWiaDataCallback</a> interface. 
 
 
 ## -returns
@@ -126,11 +126,11 @@ This method will return a value specified in <a href="https://msdn.microsoft.com
 
 
 
-In most respects, this method operates identically to the <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> method. The primary difference is that <b>IWiaDataTransfer::idtGetData</b> provides an additional parameter for a pointer to the <a href="https://msdn.microsoft.com/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface. Applications use this optional parameter to obtain status notifications during the data transfer. If no status notifications are needed, it should be set to zero.
+In most respects, this method operates identically to the <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> method. The primary difference is that <b>IWiaDataTransfer::idtGetData</b> provides an additional parameter for a pointer to the <a href="https://msdn.microsoft.com/c2414d68-604f-4ae7-8808-7931240b1d26">IWiaDataCallback</a> interface. Applications use this optional parameter to obtain status notifications during the data transfer. If no status notifications are needed, it should be set to zero.
 
 The format of the data transfer is determined by the values of the item's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551553">WIA_IPA_FORMAT</a> and <b>WIA_IPA_TYMED</b> properties. The application sets these properties with calls to the <a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">IWiaPropertyStorage::WriteMultiple</a> method.
 
-Unlike the <a href="https://msdn.microsoft.com/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a> method, <b>IWiaDataTransfer::idtGetData</b> transfers a complete file from a WIA device to an application rather than just a single band of data. The <i>pMedium</i> parameter is a pointer to the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure which contains information on the storage medium to be used for the data transfer. Programs use the <i>pIWiaDataCallback</i> parameter to pass this method a pointer to the <a href="https://msdn.microsoft.com/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface. Periodically, this method will use the interface pointer to invoke the <a href="https://msdn.microsoft.com/library/ms630156(v=VS.85).aspx">BandedDataCallback</a> method and provide the application with status information about the data transfer in progress.
+Unlike the <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a> method, <b>IWiaDataTransfer::idtGetData</b> transfers a complete file from a WIA device to an application rather than just a single band of data. The <i>pMedium</i> parameter is a pointer to the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure which contains information on the storage medium to be used for the data transfer. Programs use the <i>pIWiaDataCallback</i> parameter to pass this method a pointer to the <a href="https://msdn.microsoft.com/c2414d68-604f-4ae7-8808-7931240b1d26">IWiaDataCallback</a> interface. Periodically, this method will use the interface pointer to invoke the <a href="https://msdn.microsoft.com/3f7fc88e-187e-41b1-a958-1f06ed81cb8f">BandedDataCallback</a> method and provide the application with status information about the data transfer in progress.
 
 Pass <b>NULL</b> as the value of the <b>lpszFileName</b> member of the <i>pMedium</i> structure to allow WIA to determine the file name and location for the new file. Upon return, the <b>lpszFileName</b> member of the <i>pMedium</i> structure contains the location and name of the new file.
 

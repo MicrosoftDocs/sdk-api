@@ -4,10 +4,10 @@ title: ResUtilLeftPaxosIsLessThanRight function
 author: windows-sdk-content
 description: Indicates whether a specified Paxos tag contains older cluster configuration information than another specified Paxos tag.
 old-location: mscs\resutilleftpaxosislessthanright.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 01CBFC67-02D0-439D-BE4E-EA0A2448FDEE
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ResUtilLeftPaxosIsLessThanRight, ResUtilLeftPaxosIsLessThanRight function [Failover Cluster], mscs.resutilleftpaxosislessthanright, resapi/ResUtilLeftPaxosIsLessThanRight
 ms.prod: windows
 ms.technology: windows-sdk

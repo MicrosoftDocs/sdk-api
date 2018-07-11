@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_flags.htm
 old-project: SecAuthN
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*PSecPkgContext_Flags, PSecPkgContext_Flags, PSecPkgContext_Flags structure pointer [Security], SecPkgContext_Flags, SecPkgContext_Flags structure [Security], _SecPkgContext_Flags, security.secpkgcontext_flags, sspi/PSecPkgContext_Flags, sspi/SecPkgContext_Flags"
 ms.prod: windows
 ms.technology: windows-sdk

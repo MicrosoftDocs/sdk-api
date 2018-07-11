@@ -7,7 +7,7 @@ old-location: com\ifont.htm
 old-project: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ In addition, the font object supports <a href="https://msdn.microsoft.com/8a002d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFont</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IFont</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFont</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IFont</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

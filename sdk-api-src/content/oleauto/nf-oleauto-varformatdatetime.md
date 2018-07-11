@@ -7,7 +7,7 @@ old-location: automat\varformatdatetime.htm
 old-project: automat
 ms.assetid: ae97d984-fc08-4e4d-a711-9ceb38aebe1e
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarFormatDateTime, VarFormatDateTime function [Automation], _oa96_VarFormatDateTime, automat.varformatdatetime, oleauto/VarFormatDateTime
 ms.prod: windows
 ms.technology: windows-sdk

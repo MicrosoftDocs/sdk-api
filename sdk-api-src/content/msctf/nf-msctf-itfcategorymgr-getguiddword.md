@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_getguiddword.htm
 old-project: TSF
 ms.assetid: 016d77b5-fc08-4d2b-a9c4-50ae7926a057
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDWORD method, ITfCategoryMgr.GetGUIDDWORD, ITfCategoryMgr::GetGUIDDWORD, _tsf_itfcategorymgr_getguiddword_ref, msctf/ITfCategoryMgr::GetGUIDDWORD, tsf.itfcategorymgr_getguiddword
 ms.prod: windows
 ms.technology: windows-sdk

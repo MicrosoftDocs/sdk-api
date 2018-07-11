@@ -7,7 +7,7 @@ old-location: base\startupinfoex.htm
 old-project: ProcThread
 ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPSTARTUPINFOEXW, LPSTARTUPINFOEX, LPSTARTUPINFOEX structure pointer, STARTUPINFOEX, STARTUPINFOEX structure, STARTUPINFOEXA, STARTUPINFOEXW, _STARTUPINFOEXA, _STARTUPINFOEXW, base.startupinfoex, winbase/LPSTARTUPINFOEX, winbase/STARTUPINFOEX, winbase/STARTUPINFOEXA, winbase/STARTUPINFOEXW"
 ms.prod: windows
 ms.technology: windows-sdk

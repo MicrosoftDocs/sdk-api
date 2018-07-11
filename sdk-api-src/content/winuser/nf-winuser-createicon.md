@@ -7,7 +7,7 @@ old-location: menurc\createicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createicon.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CreateIcon, CreateIcon function [Menus and Other Resources], _win32_CreateIcon, _win32_createicon_cpp, menurc.createicon, winui._win32_createicon, winuser/CreateIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -158,12 +158,12 @@ The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height 
 </table>
  
 
-When you are finished using the icon, destroy it using the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+When you are finished using the icon, destroy it using the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85).aspx">Creating an Icon</a>.
+For an example, see <a href="using_icons.htm">Creating an Icon</a>.
 
 <div class="code"></div>
 
@@ -182,7 +182,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648051(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
 
 
 

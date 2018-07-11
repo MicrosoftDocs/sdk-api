@@ -4,10 +4,10 @@ title: ITaskFolder::GetSecurityDescriptor
 author: windows-sdk-content
 description: Gets the security descriptor for the folder.
 old-location: taskschd\itaskfolder_getsecuritydescriptor.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 9360746e-0f6d-40cb-9135-b12bd8b7d760
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetSecurityDescriptor method, ITaskFolder.GetSecurityDescriptor, ITaskFolder::GetSecurityDescriptor, taskschd.itaskfolder_getsecuritydescriptor, taskschd/ITaskFolder::GetSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

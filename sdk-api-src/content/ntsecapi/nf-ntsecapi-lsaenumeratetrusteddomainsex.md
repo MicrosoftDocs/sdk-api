@@ -4,10 +4,10 @@ title: LsaEnumerateTrustedDomainsEx function
 author: windows-sdk-content
 description: Returns information about the domains trusted by the local system.
 old-location: security\lsaenumeratetrusteddomainsex.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 4a203bff-c3e1-4d95-b556-617dc8c2e8c2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ Preferred maximum length, in bytes, of returned data. This is not a hard upper l
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an  <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

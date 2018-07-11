@@ -7,7 +7,7 @@ old-location: com\olecreate.htm
 old-project: com
 ms.assetid: 00b7edd2-8e2e-4e0a-91a6-d966f6c8d456
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
 ms.prod: windows
 ms.technology: windows-sdk

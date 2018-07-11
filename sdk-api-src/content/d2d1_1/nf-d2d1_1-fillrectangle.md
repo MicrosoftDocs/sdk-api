@@ -4,10 +4,10 @@ title: FillRectangle function
 author: windows-sdk-content
 description: Paints the interior of the specified rectangle.
 old-location: direct2d\id2d1rendertarget_fillrectangle.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 08e498f9-b564-4da6-ba9b-bff08964ce08
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: FillRectangle, FillRectangle methods [Direct2D], ID2D1RenderTarget::FillRectangle, d2d1_1/FillRectangle, direct2d.id2d1rendertarget_fillrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
-<img alt="Illustration of two rectangles on a grid background" src="./images/drawrectangleexample_small.png"/>
+<img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

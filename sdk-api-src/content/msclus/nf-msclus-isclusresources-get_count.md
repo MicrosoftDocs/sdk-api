@@ -4,10 +4,10 @@ title: ISClusResources::get_Count
 author: windows-sdk-content
 description: Returns the number of objects in the ClusResources collection.
 old-location: mscs\clusresources_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 6c9ff4bd-8474-4e88-b70e-bc9e661382ab
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResources collection [Failover Cluster],Count property, ClusResources.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResources collection, ISClusResources.get_Count, ISClusResources::get_Count, _wolf_clusresources.count, get_Count, mscs.clusresources_count
 ms.prod: windows
 ms.technology: windows-sdk

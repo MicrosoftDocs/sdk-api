@@ -7,7 +7,7 @@ old-location: multimedia\capgetstatus.htm
 old-project: Multimedia
 ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "_win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus"
 ms.prod: windows
 ms.technology: windows-sdk

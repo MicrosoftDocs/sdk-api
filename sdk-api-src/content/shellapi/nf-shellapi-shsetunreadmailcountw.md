@@ -7,7 +7,7 @@ old-location: shell\SHSetUnreadMailCount.htm
 old-project: shell
 ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
 ms.prod: windows
 ms.technology: windows-sdk

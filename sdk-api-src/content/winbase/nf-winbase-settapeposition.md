@@ -4,10 +4,10 @@ title: SetTapePosition function
 author: windows-sdk-content
 description: Sets the tape position on the specified device.
 old-location: backup\settapeposition.htm
-old-project: Backup
+old-project: backup
 ms.assetid: e1962aa5-c187-4fef-886c-36a8b096829f
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SetTapePosition, SetTapePosition function [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _win32_settapeposition, backup.settapeposition, base.settapeposition, winbase/SetTapePosition
 ms.prod: windows
 ms.technology: windows-sdk

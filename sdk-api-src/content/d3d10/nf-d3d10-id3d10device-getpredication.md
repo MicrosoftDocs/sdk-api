@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_getpredication.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getpredication.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 7e48b41e-557d-8a50-cf4b-b3309c77e0af, GetPredication, GetPredication method [Direct3D 10], GetPredication method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetPredication method, ID3D10Device.GetPredication, ID3D10Device::GetPredication, d3d10/ID3D10Device::GetPredication, direct3d10.id3d10device_getpredication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the rendering predicate state.
 
 ### -param ppPredicate [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173822(v=VS.85).aspx">ID3D10Predicate</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/baf387c4-dd7a-4a05-a118-839499caec24">ID3D10Predicate</a>**</b>
 
-Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/library/Bb173822(v=VS.85).aspx">ID3D10Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
+Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/baf387c4-dd7a-4a05-a118-839499caec24">ID3D10Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
 
 
 ### -param pPredicateValue [out]
@@ -96,7 +96,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

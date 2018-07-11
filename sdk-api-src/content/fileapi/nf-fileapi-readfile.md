@@ -4,10 +4,10 @@ title: ReadFile function
 author: windows-sdk-content
 description: Reads data from the specified file or input/output (I/O) device. Reads occur at the position specified by the file pointer if supported by the device.
 old-location: fs\readfile.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 4ad4580d-c002-44a4-a5f6-757e83ed8732
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
 ms.prod: windows
 ms.technology: windows-sdk

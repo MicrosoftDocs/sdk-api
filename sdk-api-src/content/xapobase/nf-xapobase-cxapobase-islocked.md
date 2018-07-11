@@ -7,7 +7,7 @@ old-location: xaudio2\cxapobase_islocked.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.IsLocked
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],IsLocked method, CXAPOBase.IsLocked, CXAPOBase::IsLocked, IsLocked, IsLocked method [XAudio2 Audio Mixing APIs], IsLocked method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::IsLocked, xaudio2.cxapobase_islocked
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,11 +86,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415236(v=VS.85).aspx">CXAPOBase</a>
+<a href="https://msdn.microsoft.com/C55C4597-F379-462E-94FE-D7CF2004D8F4">CXAPOBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a>
 
 
 

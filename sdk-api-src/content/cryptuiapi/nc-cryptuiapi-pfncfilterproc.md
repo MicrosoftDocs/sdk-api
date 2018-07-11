@@ -4,10 +4,10 @@ title: PFNCFILTERPROC
 author: windows-sdk-content
 description: An application-defined callback function that filters the certificates that appear in the digital signature wizard that are displayed by the CryptUIWizDigitalSign function.
 old-location: security\pfncfilterproc.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ced0f35c-7e22-4d19-8352-0bfa37ff1a4b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
 ms.prod: windows
 ms.technology: windows-sdk

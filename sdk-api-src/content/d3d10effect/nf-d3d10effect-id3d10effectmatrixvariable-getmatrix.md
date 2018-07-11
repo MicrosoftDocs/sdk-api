@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectmatrixvariable_getmatrix.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrix.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 8baccad6-5b3e-375b-03b1-1df72b40ebfb, GetMatrix, GetMatrix method [Direct3D 10], GetMatrix method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrix method, ID3D10EffectMatrixVariable.GetMatrix, ID3D10EffectMatrixVariable::GetMatrix, d3d10effect/ID3D10EffectMatrixVariable::GetMatrix, direct3d10.id3d10effectmatrixvariable_getmatrix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ A pointer to the first element in a matrix.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173647(v=VS.85).aspx">ID3D10EffectMatrixVariable Interface</a>
+<a href="https://msdn.microsoft.com/82ffcc6e-9a92-4d72-a397-0a66600ad508">ID3D10EffectMatrixVariable Interface</a>
  
 
  

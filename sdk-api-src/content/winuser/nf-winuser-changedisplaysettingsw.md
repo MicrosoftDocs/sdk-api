@@ -7,7 +7,7 @@ old-location: gdi\changedisplaysettings.htm
 old-project: gdi
 ms.assetid: 208bf1cc-c03c-4d03-92e4-32fcf856b4d8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: 0, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, ChangeDisplaySettings, ChangeDisplaySettings function [Windows GDI], ChangeDisplaySettingsA, ChangeDisplaySettingsW, _win32_ChangeDisplaySettings, gdi.changedisplaysettings, winuser/ChangeDisplaySettings, winuser/ChangeDisplaySettingsA, winuser/ChangeDisplaySettingsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

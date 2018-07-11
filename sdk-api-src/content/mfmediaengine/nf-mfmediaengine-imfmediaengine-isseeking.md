@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_isseeking.htm
 old-project: medfound
 ms.assetid: B314D5E7-EBD4-42CF-9E86-206ABC3027A0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsSeeking method, IMFMediaEngine.IsSeeking, IMFMediaEngine::IsSeeking, IsSeeking, IsSeeking method [Media Foundation], IsSeeking method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isseeking, mfmediaengine/IMFMediaEngine::IsSeeking
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGrou
 author: windows-sdk-content
 description: The put_internetMediaSharingSecurityGroup method specifies the name of the security group that is used to authenticate connections coming in over the Internet.
 old-location: wmlss\IWMLSSput_internetMediaSharingSecurityGroup.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: 4195fee6-5a4a-4ed0-b433-99932d28579f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
 ms.prod: windows
 ms.technology: windows-sdk

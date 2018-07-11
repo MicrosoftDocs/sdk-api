@@ -4,10 +4,10 @@ title: "_RADIUS_CODE"
 author: windows-sdk-content
 description: The RADIUS_CODE enumeration type enumerates the possible RADIUS packet codes.
 old-location: nps\IAS_radius_code.htm
-old-project: Nps
+old-project: nps
 ms.assetid: cb971643-82ca-4302-a961-9d567da04c27
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: RADIUS_CODE, RADIUS_CODE enumeration [Network Policy Server], _RADIUS_CODE, _ias_radius_code, authif/RADIUS_CODE, authif/rcAccessAccept, authif/rcAccessChallenge, authif/rcAccessReject, authif/rcAccessRequest, authif/rcAccountingRequest, authif/rcAccountingResponse, authif/rcDiscard, authif/rcUnknown, ias.radius_code, nps.IAS_radius_code, rcAccessAccept, rcAccessChallenge, rcAccessReject, rcAccessRequest, rcAccountingRequest, rcAccountingResponse, rcDiscard, rcUnknown
 ms.prod: windows
 ms.technology: windows-sdk

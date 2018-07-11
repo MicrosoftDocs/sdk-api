@@ -7,7 +7,7 @@ old-location: mdmreg\ismanagementregistrationallowed.htm
 old-project: MDMReg
 ms.assetid: 138f567d-4c50-4e13-be10-269eb44f9fe5
 ms.author: windowssdkdev
-ms.date: 02/20/2018
+ms.date: 02/21/2018
 ms.keywords: IsManagementRegistrationAllowed, IsManagementRegistrationAllowed function [MDM Registration], mdmreg.ismanagementregistrationallowed, mdmregistration/IsManagementRegistrationAllowed
 ms.prod: windows
 ms.technology: windows-sdk

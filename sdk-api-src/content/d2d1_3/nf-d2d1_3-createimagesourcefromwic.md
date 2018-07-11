@@ -4,10 +4,10 @@ title: CreateImageSourceFromWic function
 author: windows-sdk-content
 description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: af02630d-a9ca-f5b4-6f2a-31a73ef603e5
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: CreateImageSourceFromWic, CreateImageSourceFromWic methods [Direct2D], ID2D1DeviceContext2::CreateImageSourceFromWic, d2d1_3/CreateImageSourceFromWic, direct2d.id2d1devicecontext2_createimagesourcefromwic_overload
 ms.prod: windows
 ms.technology: windows-sdk

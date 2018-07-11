@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\getclusterfromgroupset.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9d0669e3-8f4a-45f3-a2cc-c118bddcd791
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET callback, PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP_GROUPSET, mscs.getclusterfromgroupset
 ms.prod: windows
 ms.technology: windows-sdk

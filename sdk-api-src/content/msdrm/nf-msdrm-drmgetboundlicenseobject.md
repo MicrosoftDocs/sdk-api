@@ -4,10 +4,10 @@ title: DRMGetBoundLicenseObject function
 author: windows-sdk-content
 description: Returns an object from a bound license.
 old-location: rm\drmgetboundlicenseobject.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: d1be0668-fb5a-4541-92dc-34255ba3fdad
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMGetBoundLicenseObject, DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObject, rm.drmgetboundlicenseobject
 ms.prod: windows
 ms.technology: windows-sdk

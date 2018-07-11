@@ -4,10 +4,10 @@ title: "_VDS_ISCSI_PORTAL_PROP"
 author: windows-sdk-content
 description: Defines the properties of an iSCSI portal.
 old-location: base\vds_iscsi_portal_prop.htm
-old-project: VDS
+old-project: vds
 ms.assetid: da2d19ca-88a8-4a6a-bbe7-98a9d8af5b1b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "*PVDS_ISCSI_PORTAL_PROP, VDS_ISCSI_PORTAL_PROP, VDS_ISCSI_PORTAL_PROP structure [VDS], _VDS_ISCSI_PORTAL_PROP, base.vds_iscsi_portal_prop, vds/VDS_ISCSI_PORTAL_PROP, vdshwprv/VDS_ISCSI_PORTAL_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accnavigate.htm
 old-project: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,7 +190,7 @@ The <b>accNavigate</b> method retrieves UI elements that have a defined screen l
 
 This method does not change the selection or focus. To change the focus or to select an object, use <a href="https://msdn.microsoft.com/ae55831c-0dfa-4901-b241-27e2cdf1035f">IAccessible::accSelect</a>.
 
-To prevent looping when traversing screen elements, <b>accNavigate</b> returns S_FALSE with VT_EMPTY when you specify <a href="https://msdn.microsoft.com/library/Dd373600(v=VS.85).aspx">NAVDIR_NEXT</a> on the last element, or <a href="https://msdn.microsoft.com/library/Dd373600(v=VS.85).aspx">NAVDIR_PREVIOUS</a> on the first element.
+To prevent looping when traversing screen elements, <b>accNavigate</b> returns S_FALSE with VT_EMPTY when you specify <a href="navigation_constants.htm">NAVDIR_NEXT</a> on the last element, or <a href="navigation_constants.htm">NAVDIR_PREVIOUS</a> on the first element.
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
@@ -245,7 +245,7 @@ Then, call <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a9
 </table>
  
 
-The following table describes navigation flags <a href="https://msdn.microsoft.com/library/Dd373600(v=VS.85).aspx">NAVDIR_FIRSTCHILD</a> and <a href="https://msdn.microsoft.com/library/Dd373600(v=VS.85).aspx">NAVDIR_LASTCHILD</a>. It does not include entries for navigating to a first or last child when the starting point is a simple element because simple elements cannot have children.
+The following table describes navigation flags <a href="navigation_constants.htm">NAVDIR_FIRSTCHILD</a> and <a href="navigation_constants.htm">NAVDIR_LASTCHILD</a>. It does not include entries for navigating to a first or last child when the starting point is a simple element because simple elements cannot have children.
 
 <table>
 <tr>

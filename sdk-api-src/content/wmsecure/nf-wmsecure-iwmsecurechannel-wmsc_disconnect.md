@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_disconnect.htm
 old-project: wmformat
 ms.assetid: 13956668-2fd3-45ac-a96c-7dfc5c8fcb26
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Disconnect method, IWMSecureChannel.WMSC_Disconnect, IWMSecureChannel::WMSC_Disconnect, WMSC_Disconnect, WMSC_Disconnect method [windows Media Format], WMSC_Disconnect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_disconnect, wmsecure/IWMSecureChannel::WMSC_Disconnect
 ms.prod: windows
 ms.technology: windows-sdk

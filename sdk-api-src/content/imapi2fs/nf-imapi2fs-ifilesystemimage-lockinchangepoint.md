@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_lockinchangepoint.htm
 old-project: imapi
 ms.assetid: ae5d659c-5da7-4478-b65f-64cbe227dbc5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFileSystemImage interface [IMAPI],LockInChangePoint method, IFileSystemImage.LockInChangePoint, IFileSystemImage::LockInChangePoint, LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
 ms.prod: windows
 ms.technology: windows-sdk

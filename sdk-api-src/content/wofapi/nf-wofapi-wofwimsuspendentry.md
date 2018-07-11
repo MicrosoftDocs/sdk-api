@@ -4,10 +4,10 @@ title: WofWimSuspendEntry function
 author: windows-sdk-content
 description: Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with WofWimUpdateEntry.
 old-location: fs\wofwimsuspendentry.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 1F3DA0FF-37B5-4DEE-BEA0-7A0E63F3E97D
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: WofWimSuspendEntry, WofWimSuspendEntry function [Files], fs.wofwimsuspendentry, wofapi/WofWimSuspendEntry
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt64Array.htm
 old-project: properties
 ms.assetid: 67886e29-c3dd-4bfd-b53f-761c16daaf63
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromUInt64Array, InitVariantFromUInt64Array function [Windows Properties], _shell_InitVariantFromUInt64Array, properties.InitVariantFromUInt64Array, propvarutil/InitVariantFromUInt64Array, shell.InitVariantFromUInt64Array
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI8 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762343(v=VS.85).aspx">InitVariantFromUInt64Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt64Array">InitVariantFromUInt64Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762314(v=VS.85).aspx">InitPropVariantFromUInt64Vector</a>
+<a href="shell.InitPropVariantFromUInt64Vector">InitPropVariantFromUInt64Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>
+<a href="shell.InitVariantFromUInt64">InitVariantFromUInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776632(v=VS.85).aspx">VariantToUInt64Array</a>
+<a href="shell.VariantToUInt64Array">VariantToUInt64Array</a>
  
 
  

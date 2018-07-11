@@ -4,10 +4,10 @@ title: tagLVHITTESTINFO
 author: windows-sdk-content
 description: Contains information about a hit test.
 old-location: controls\LVHITTESTINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvhittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPLVHITTESTINFO, LPLVHITTESTINFO, LPLVHITTESTINFO structure pointer [Windows Controls], LVHITTESTINFO, LVHITTESTINFO structure [Windows Controls], LVHT_ABOVE, LVHT_BELOW, LVHT_EX_FOOTER, LVHT_EX_GROUP, LVHT_EX_GROUP_BACKGROUND, LVHT_EX_GROUP_COLLAPSE, LVHT_EX_GROUP_FOOTER, LVHT_EX_GROUP_HEADER, LVHT_EX_GROUP_STATEICON, LVHT_EX_GROUP_SUBSETLINK, LVHT_EX_ONCONTENTS, LVHT_NOWHERE, LVHT_ONITEMICON, LVHT_ONITEMLABEL, LVHT_ONITEMSTATEICON, LVHT_TOLEFT, LVHT_TORIGHT, _win32_LVHITTESTINFO, _win32_LVHITTESTINFO_cpp, commctrl/LPLVHITTESTINFO, commctrl/LVHITTESTINFO, controls.LVHITTESTINFO, controls._win32_LVHITTESTINFO, tagLVHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 
 
 
-      Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/library/Bb761099(v=VS.85).aspx">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/library/Bb761229(v=VS.85).aspx">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
+      Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/81df4ed1-30bd-4b63-9cb9-5163cb7cf52c">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/1468febb-af0d-4c04-b0b1-cda5ec77aa2c">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
 			<b>LVHITTESTINFO</b> structure. 
 
 

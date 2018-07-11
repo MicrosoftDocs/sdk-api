@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumcustomattributes.htm
 old-project: WinRT
 ms.assetid: d5ecb71e-a52f-421b-aab9-48efcc77ec2f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: EnumCustomAttributes, EnumCustomAttributes method [Windows Runtime], EnumCustomAttributes method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumCustomAttributes method, IMetaDataImport.EnumCustomAttributes, IMetaDataImport::EnumCustomAttributes, rometadataapi/IMetaDataImport::EnumCustomAttributes, winrt.imetadataimport_enumcustomattributes
 ms.prod: windows
 ms.technology: windows-sdk

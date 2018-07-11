@@ -7,7 +7,7 @@ old-location: winmsg\setprocessdefaultlayout.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setprocessdefaultlayout.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: LAYOUT_RTL, SetProcessDefaultLayout, SetProcessDefaultLayout function [Windows and Messages], _win32_SetProcessDefaultLayout, _win32_setprocessdefaultlayout_cpp, winmsg.setprocessdefaultlayout, winui._win32_setprocessdefaultlayout, winuser/SetProcessDefaultLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -162,7 +162,7 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633511(v=VS.85).aspx">GetProcessDefaultLayout</a>
+<a href="https://msdn.microsoft.com/c6ddc7e8-aa64-4296-b10b-8f0e2f4612b8">GetProcessDefaultLayout</a>
 
 
 

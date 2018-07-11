@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_unmap.htm
 old-project: direct3d12
 ms.assetid: EB0E3936-47CC-4FDC-BF17-A506AC8E4C15
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12Resource interface,Unmap method, ID3D12Resource.Unmap, ID3D12Resource::Unmap, Unmap, Unmap method, Unmap method,ID3D12Resource interface, d3d12/ID3D12Resource::Unmap, direct3d12.id3d12resource_unmap
 ms.prod: windows
 ms.technology: windows-sdk

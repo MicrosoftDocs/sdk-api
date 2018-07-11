@@ -4,10 +4,10 @@ title: INetSharingPortMappingCollection
 author: windows-sdk-content
 description: The INetSharingPortMappingCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate port mappings.
 old-location: ics\inetsharingportmappingcollection.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 09b91df1-b9ef-41b1-b739-65d95f5d60b1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetSharingPortMappingCollection, INetSharingPortMappingCollection interface [ICS/ICF], INetSharingPortMappingCollection interface [ICS/ICF],described, _ics_inetsharingportmappingcollection, ics.inetsharingportmappingcollection, netcon/INetSharingPortMappingCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingPortMappingCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetSharingPortMappingCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingPortMappingCollection</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>INetSharingPortMappingCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

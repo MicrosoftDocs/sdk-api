@@ -7,7 +7,7 @@ old-location: tsf\itfreadinginformationuielement_geterrorindex.htm
 old-project: TSF
 ms.assetid: c31bfbe7-c31a-485a-a122-14215d661ce7
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetErrorIndex, GetErrorIndex method [Text Services Framework], GetErrorIndex method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetErrorIndex method, ITfReadingInformationUIElement.GetErrorIndex, ITfReadingInformationUIElement::GetErrorIndex, msctf/ITfReadingInformationUIElement::GetErrorIndex, tsf.iitfreadinginformationuielement_geterrorindex, tsf.itfreadinginformationuielement_geterrorindex
 ms.prod: windows
 ms.technology: windows-sdk

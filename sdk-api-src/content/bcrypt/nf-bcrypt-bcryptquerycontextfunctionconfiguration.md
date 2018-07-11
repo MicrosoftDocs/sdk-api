@@ -4,10 +4,10 @@ title: BCryptQueryContextFunctionConfiguration function
 author: windows-sdk-content
 description: Obtains the cryptographic function configuration information for an existing CNG context.
 old-location: security\bcryptquerycontextfunctionconfiguration.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 4eea9efe-bf45-4926-86fc-9b12b6d292cd
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionConfiguration, BCryptQueryContextFunctionConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionConfiguration, security.bcryptquerycontextfunctionconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

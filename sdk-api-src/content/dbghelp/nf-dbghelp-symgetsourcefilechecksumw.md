@@ -4,10 +4,10 @@ title: SymGetSourceFileChecksumW function
 author: windows-sdk-content
 description: Retrieves the specified source file checksum from the source server.
 old-location: base\symgetsourcefilechecksum.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 6F45FEC4-AFB9-4612-A840-B806034F33E2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymGetSourceFileChecksum, SymGetSourceFileChecksum function, SymGetSourceFileChecksumW, base.symgetsourcefilechecksum, dbghelp/SymGetSourceFileChecksum, dbghelp/SymGetSourceFileChecksumW
 ms.prod: windows
 ms.technology: windows-sdk

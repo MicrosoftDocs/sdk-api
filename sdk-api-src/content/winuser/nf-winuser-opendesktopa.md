@@ -7,7 +7,7 @@ old-location: winstation\opendesktop.htm
 old-project: winstation
 ms.assetid: 7f805f47-1737-4f4b-a74a-9c1423b65f2c
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenDesktop, OpenDesktop function [Windows Stations and Desktops], OpenDesktopA, OpenDesktopW, _win32_opendesktop, base.opendesktop, winstation.opendesktop, winuser/OpenDesktop, winuser/OpenDesktopA, winuser/OpenDesktopW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

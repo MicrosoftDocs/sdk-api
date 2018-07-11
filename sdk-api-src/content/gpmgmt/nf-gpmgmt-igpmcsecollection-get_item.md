@@ -4,10 +4,10 @@ title: IGPMCSECollection::get_Item
 author: windows-sdk-content
 description: Given an index, returns a client-side extension from the collection.
 old-location: gpmc\igpmcsecollection_get_item.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 537ec04c-cea4-4878-a03d-131c1bac4155
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMCSECollection object [GPMC],Item property, IGPMCSECollection interface [GPMC],Item property, IGPMCSECollection.Item, IGPMCSECollection.get_Item, IGPMCSECollection::Item, IGPMCSECollection::get_Item, Item property [GPMC], Item property [GPMC],GPMCSECollection object, Item property [GPMC],IGPMCSECollection interface, _win32_igpmcsecollection_get_item, get_Item, gpmc.igpmcsecollection_get_item, gpmgmt/IGPMCSECollection::Item, gpmgmt/IGPMCSECollection::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

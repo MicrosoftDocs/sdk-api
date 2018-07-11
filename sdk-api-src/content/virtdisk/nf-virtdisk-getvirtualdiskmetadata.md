@@ -7,7 +7,7 @@ old-location: vstor\getvirtualdiskmetadata.htm
 old-project: VStor
 ms.assetid: 5dc5cf6e-c218-4aca-a574-499441bd1c12
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetVirtualDiskMetadata, GetVirtualDiskMetadata function [Virtual Storage], virtdisk/GetVirtualDiskMetadata, vstor.getvirtualdiskmetadata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListBox_GetHorizontalExtent macro
 author: windows-sdk-content
 description: Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the LB_GETHORIZONTALEXTENT message explicitly.
 old-location: controls\ListBox_GetHorizontalExtent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gethorizontalextent.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListBox_GetHorizontalExtent, ListBox_GetHorizontalExtent macro [Windows Controls], _win32_ListBox_GetHorizontalExtent, _win32_ListBox_GetHorizontalExtent_cpp, controls.ListBox_GetHorizontalExtent, controls._win32_ListBox_GetHorizontalExtent, windowsx/ListBox_GetHorizontalExtent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775200(v=VS.85).aspx">LB_GETHORIZONTALEXTENT</a> message explicitly.
+Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the <a href="https://msdn.microsoft.com/52461724-c06a-436a-ac95-94c5189ba37e">LB_GETHORIZONTALEXTENT</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775200(v=VS.85).aspx">LB_GETHORIZONTALEXTENT</a>.
+For more information, see <a href="https://msdn.microsoft.com/52461724-c06a-436a-ac95-94c5189ba37e">LB_GETHORIZONTALEXTENT</a>.
 	
 
 

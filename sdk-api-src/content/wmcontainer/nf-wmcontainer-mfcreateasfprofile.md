@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfprofile.htm
 old-project: medfound
 ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
 ms.prod: windows
 ms.technology: windows-sdk

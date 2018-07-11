@@ -4,10 +4,10 @@ title: ICertificatePolicies::Clear
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\icertificatepolicies_clear_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 842c06a7-bf70-45e5-8f65-edaa075a8f3e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Clear method, ICertificatePolicies.Clear, ICertificatePolicies::Clear, certenroll/ICertificatePolicies::Clear, security.icertificatepolicies_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_BLUETOOTH_IO_CAPABILITY"
 author: windows-sdk-content
 description: BLUETOOTH_IO_CAPABILITY enumeration defines the input/output capabilities of a Bluetooth Device.
 old-location: bluetooth\bluetooth_io_capability.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BLUETOOTH_IO_CAPABILITY, BLUETOOTH_IO_CAPABILITY enumeration [Bluetooth], BLUETOOTH_IO_CAPABILITY_DISPLAYONLY, BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO, BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY, BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT, BLUETOOTH_IO_CAPABILITY_UNDEFINED, _BLUETOOTH_IO_CAPABILITY, bluetooth.bluetooth_io_capability, bluetoothapis/BLUETOOTH_IO_CAPABILITY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYONLY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO, bluetoothapis/BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT, bluetoothapis/BLUETOOTH_IO_CAPABILITY_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk

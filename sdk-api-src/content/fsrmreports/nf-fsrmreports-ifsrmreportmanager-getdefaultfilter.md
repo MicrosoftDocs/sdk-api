@@ -4,10 +4,10 @@ title: IFsrmReportManager::GetDefaultFilter
 author: windows-sdk-content
 description: Retrieves the default report filter value that is used with the specified report type.
 old-location: fsrm\ifsrmreportmanager_getdefaultfilter.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 5f3a587e-c3a8-47ee-80ac-afa0824a4585
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetDefaultFilter method, GetDefaultFilter, GetDefaultFilter method [File Server Resource Manager], GetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, GetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetDefaultFilter method, IFsrmReportManager.GetDefaultFilter, IFsrmReportManager::GetDefaultFilter, fs.ifsrmreportmanager_getdefaultfilter, fsrm.ifsrmreportmanager_getdefaultfilter, fsrmreports/IFsrmReportManager::GetDefaultFilter
 ms.prod: windows
 ms.technology: windows-sdk

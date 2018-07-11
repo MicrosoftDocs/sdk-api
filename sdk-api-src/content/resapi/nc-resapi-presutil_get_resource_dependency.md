@@ -4,10 +4,10 @@ title: PRESUTIL_GET_RESOURCE_DEPENDENCY
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependency.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: eee267b4-4272-4938-b061-02990ec528f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY, PRESUTIL_GET_RESOURCE_DEPENDENCY callback, PRESUTIL_GET_RESOURCE_DEPENDENCY callback function [Failover Cluster], _wolf_resutilgetresourcedependency, mscs.resutilgetresourcedependency, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY
 ms.prod: windows
 ms.technology: windows-sdk

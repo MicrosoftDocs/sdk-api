@@ -7,7 +7,7 @@ old-location: shell\SHMessageBoxCheck.htm
 old-project: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ A pointer to a null-terminated string that contains the title of the message box
 
 Type: <b>UINT</b>
 
-The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
+The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
 
 
 You must specify the buttons to be displayed by setting one and only one of the following flags.

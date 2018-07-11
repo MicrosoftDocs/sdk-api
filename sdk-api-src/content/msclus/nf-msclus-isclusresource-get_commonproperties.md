@@ -4,10 +4,10 @@ title: ISClusResource::get_CommonProperties
 author: windows-sdk-content
 description: Read/write common properties of a resource.
 old-location: mscs\clusresource_commonproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 14f80d93-541c-4893-8aa6-7b4ba90ecdea
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],CommonProperties property, ClusResource.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],ClusResource class, ISClusResource.get_CommonProperties, ISClusResource::get_CommonProperties, _wolf_clusresource.commonproperties, get_CommonProperties, mscs.clusresource_commonproperties
 ms.prod: windows
 ms.technology: windows-sdk

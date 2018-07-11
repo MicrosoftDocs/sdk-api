@@ -4,10 +4,10 @@ title: ISClusResGroup::get_PreferredOwnerNodes
 author: windows-sdk-content
 description: Returns a ClusResGroupPreferredOwnerNodes collection providing access to all nodes on which a group prefers to run.
 old-location: mscs\clusresgroup_preferredownernodes.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5e2872a4-72db-4cd8-9fce-34c1bd701706
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],PreferredOwnerNodes property, ClusResGroup.PreferredOwnerNodes, ISClusResGroup.get_PreferredOwnerNodes, ISClusResGroup::get_PreferredOwnerNodes, PreferredOwnerNodes property [Failover Cluster], PreferredOwnerNodes property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.preferredownernodes, get_PreferredOwnerNodes, mscs.clusresgroup_preferredownernodes
 ms.prod: windows
 ms.technology: windows-sdk

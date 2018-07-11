@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItemExtras_Escape.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\escape.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: Escape, Escape method [WIA], Escape method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],Escape method, IWiaItemExtras.Escape, IWiaItemExtras::Escape, _wia_IWiaItemExtras_Escape, wia._wia_IWiaItemExtras_Escape, wia_xp/IWiaItemExtras::Escape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629975(v=VS.85).aspx">IWiaItemExtras</a>
+<a href="https://msdn.microsoft.com/b04f22dc-47d2-4434-82f9-4d6c618f31b3">IWiaItemExtras</a>
  
 
  

@@ -4,10 +4,10 @@ title: CryptUIWizFreeDigitalSignContext function
 author: windows-sdk-content
 description: Frees the CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure allocated by the CryptUIWizDigitalSign function.
 old-location: security\cryptuiwizfreedigitalsigncontext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
 ms.prod: windows
 ms.technology: windows-sdk

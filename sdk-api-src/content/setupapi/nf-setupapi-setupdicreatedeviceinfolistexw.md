@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinfolistex.htm
 old-project: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiCreateDeviceInfoListEx, SetupDiCreateDeviceInfoListEx function [Device and Driver Installation], SetupDiCreateDeviceInfoListExA, SetupDiCreateDeviceInfoListExW, devinst.setupdicreatedeviceinfolistex, di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml, setupapi/SetupDiCreateDeviceInfoListEx
 ms.prod: windows
 ms.technology: windows-sdk

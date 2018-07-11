@@ -7,7 +7,7 @@ old-location: gdi\setbitmapdimensionex.htm
 old-project: gdi
 ms.assetid: 23960533-de71-4bff-a43f-75e5fe38fbec
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: SetBitmapDimensionEx, SetBitmapDimensionEx function [Windows GDI], _win32_SetBitmapDimensionEx, gdi.setbitmapdimensionex, wingdi/SetBitmapDimensionEx
 ms.prod: windows
 ms.technology: windows-sdk

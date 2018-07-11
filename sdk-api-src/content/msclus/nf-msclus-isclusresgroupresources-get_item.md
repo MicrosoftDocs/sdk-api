@@ -4,10 +4,10 @@ title: ISClusResGroupResources::get_Item
 author: windows-sdk-content
 description: Returns a single resource from the ClusResGroupResources collection.
 old-location: mscs\clusresgroupresources_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5eba54e1-5c55-46b0-97b9-0104cfb4134c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupResources class [Failover Cluster],Item property, ClusResGroupResources.Item, ISClusResGroupResources.get_Item, ISClusResGroupResources::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResGroupResources class, _wolf_clusresgroupresources.item, get_Item, mscs.clusresgroupresources_item
 ms.prod: windows
 ms.technology: windows-sdk

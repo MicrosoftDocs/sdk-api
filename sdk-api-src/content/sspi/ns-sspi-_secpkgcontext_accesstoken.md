@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_accesstoken.htm
 old-project: SecAuthN
 ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], _SecPkgContext_AccessToken, security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken"
 ms.prod: windows
 ms.technology: windows-sdk

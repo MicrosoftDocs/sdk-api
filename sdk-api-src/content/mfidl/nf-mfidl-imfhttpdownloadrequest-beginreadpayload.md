@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
 old-project: medfound
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload
 ms.prod: windows
 ms.technology: windows-sdk

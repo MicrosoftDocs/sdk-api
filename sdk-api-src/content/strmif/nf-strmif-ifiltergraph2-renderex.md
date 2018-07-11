@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph2_renderex.htm
 old-project: DirectShow
 ms.assetid: b169c784-2ce3-47dc-ad64-3e4c96483f34
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2.RenderEx, IFilterGraph2::RenderEx, IFilterGraph2RenderEx, RenderEx, RenderEx method [DirectShow], RenderEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_renderex, strmif/IFilterGraph2::RenderEx
 ms.prod: windows
 ms.technology: windows-sdk

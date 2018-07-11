@@ -7,7 +7,7 @@ old-location: base\getautorotationstate.htm
 old-project: ProcThread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetAutoRotationState, GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getautorotationstate, winuser/GetDisplayAutoRotationPreferences
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

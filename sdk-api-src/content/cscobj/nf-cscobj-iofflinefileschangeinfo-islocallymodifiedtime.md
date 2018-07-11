@@ -4,10 +4,10 @@ title: IOfflineFilesChangeInfo::IsLocallyModifiedTime
 author: windows-sdk-content
 description: Determines whether one or more of an item's time values were modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifiedtime.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 7b88bf6d-f5a7-48e3-8c0a-41a8f6fba91f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedTime method, IOfflineFilesChangeInfo.IsLocallyModifiedTime, IOfflineFilesChangeInfo::IsLocallyModifiedTime, IsLocallyModifiedTime, IsLocallyModifiedTime method [Offline Files], IsLocallyModifiedTime method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedTime, of.iofflinefileschangeinfo_islocallymodifiedtime
 ms.prod: windows
 ms.technology: windows-sdk

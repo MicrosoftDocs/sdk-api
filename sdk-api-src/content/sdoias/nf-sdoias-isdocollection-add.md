@@ -4,10 +4,10 @@ title: ISdoCollection::Add
 author: windows-sdk-content
 description: The Add method adds an item to the Server Data Objects (SDO) collection.
 old-location: nps\SDO_isdocollection_add.htm
-old-project: Nps
+old-project: nps
 ms.assetid: a575b224-9827-47f3-a819-bd793200c901
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Add, Add method [Network Policy Server], Add method [Network Policy Server],ISdoCollection interface, ISdoCollection interface [Network Policy Server],Add method, ISdoCollection.Add, ISdoCollection::Add, _sdo_isdocollection_add, nps.SDO_isdocollection_add, sdo.isdocollection_add, sdoias/ISdoCollection::Add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ If the <i>bstrName</i> parameter is not specified, <b>ISdoCollection::Add</b> ob
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>
+<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>
 
 
 

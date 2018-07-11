@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement8_CurrentHeadingLevel.htm
 old-project: WinAuto
 ms.assetid: 0D93F1BA-E95A-436F-82EC-4191AD5D9074
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CurrentHeadingLevel property [Windows Accessibility], CurrentHeadingLevel property [Windows Accessibility],IUIAutomationElement8 interface, IUIAutomationElement8 interface [Windows Accessibility],CurrentHeadingLevel property, IUIAutomationElement8.CurrentHeadingLevel, IUIAutomationElement8.get_CurrentHeadingLevel, IUIAutomationElement8::CurrentHeadingLevel, IUIAutomationElement8::get_CurrentHeadingLevel, get_CurrentHeadingLevel, uiautomationclient/IUIAutomationElement8::CurrentHeadingLevel, uiautomationclient/IUIAutomationElement8::get_CurrentHeadingLevel, winauto.uiauto_IUIAutomationElement8_CurrentHeadingLevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt829378(v=VS.85).aspx">IUIAutomationElement8</a>
+<a href="winauto.iuiautomationelement8">IUIAutomationElement8</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\cogetcancelobject.htm
 old-project: com
 ms.assetid: d38161af-d662-4430-99b7-6563efda6f4e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoGetCancelObject, CoGetCancelObject function [COM], _com_CoGetCancelObject, com.cogetcancelobject, combaseapi/CoGetCancelObject
 ms.prod: windows
 ms.technology: windows-sdk

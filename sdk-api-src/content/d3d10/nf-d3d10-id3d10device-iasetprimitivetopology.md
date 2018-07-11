@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iasetprimitivetopology.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetprimitivetopology.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 574e830c-3db9-ca52-4b41-1b3e8224137a, IASetPrimitiveTopology, IASetPrimitiveTopology method [Direct3D 10], IASetPrimitiveTopology method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetPrimitiveTopology method, ID3D10Device.IASetPrimitiveTopology, ID3D10Device::IASetPrimitiveTopology, d3d10/ID3D10Device::IASetPrimitiveTopology, direct3d10.id3d10device_iasetprimitivetopology
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Bind information about the <a href="https://msdn.microsoft.com/library/Bb205124(v=VS.85).aspx">primitive type</a>, and data order that describes input data for the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input assembler</a> stage.
+Bind information about the <a href="https://msdn.microsoft.com/357ad085-fd91-4420-abc3-1c57e8cbb517">primitive type</a>, and data order that describes input data for the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input assembler</a> stage.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Bind information about the <a href="https://msdn.microsoft.com/library/Bb205124(
 
 ### -param Topology [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a33b5406-bead-4513-96ef-bb442a18564e">D3D10_PRIMITIVE_TOPOLOGY</a></b>
 
-The type of primitive and ordering of the primitive data (see <a href="https://msdn.microsoft.com/library/Bb205334(v=VS.85).aspx">D3D10_PRIMITIVE_TOPOLOGY</a>).
+The type of primitive and ordering of the primitive data (see <a href="https://msdn.microsoft.com/a33b5406-bead-4513-96ef-bb442a18564e">D3D10_PRIMITIVE_TOPOLOGY</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

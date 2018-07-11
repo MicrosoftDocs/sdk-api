@@ -4,10 +4,10 @@ title: ITBasicCallControl::HandoffDirect
 author: windows-sdk-content
 description: The HandoffDirect method hands off the call to another application. This indicates that the application no longer requires ownership of the call.
 old-location: tapi3\itbasiccallcontrol_handoffdirect.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: HandoffDirect, HandoffDirect method [TAPI 2.2], HandoffDirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffDirect method, ITBasicCallControl.HandoffDirect, ITBasicCallControl::HandoffDirect, _tapi3_itbasiccallcontrol_handoffdirect, tapi3.itbasiccallcontrol_handoffdirect, tapi3if/ITBasicCallControl::HandoffDirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,8 +129,8 @@ If the receiving application has not opened the line for the media types involve
 <a href="https://msdn.microsoft.com/b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95">Disconnect</a>.
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pApplicationName</i> parameter and use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pApplicationName</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 
 

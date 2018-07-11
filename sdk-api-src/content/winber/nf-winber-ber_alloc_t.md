@@ -4,10 +4,10 @@ title: ber_alloc_t function
 author: windows-sdk-content
 description: Allocates and constructs a new BerElement structure.
 old-location: ldap\ber_alloc_t.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 2a6fd54a-5ef7-49e3-98dd-da26bd98f89b
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.ber__alloc__t, ldap.ber_alloc_t, winber/ber_alloc_t"
 ms.prod: windows
 ms.technology: windows-sdk

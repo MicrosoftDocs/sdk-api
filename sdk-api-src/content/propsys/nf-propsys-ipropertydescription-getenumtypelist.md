@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetEnumTypeList.htm
 old-project: properties
 ms.assetid: ab6c41c2-d85c-4ff9-9061-043303eb1a83
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetEnumTypeList, GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEnumTypeList method, IPropertyDescription.GetEnumTypeList, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an instance of an <a href="https://msdn.microsoft.com/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
+Gets an instance of an <a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
 
 
 ## -parameters
@@ -73,9 +73,9 @@ Gets an instance of an <a href="https://msdn.microsoft.com/library/Bb761483(v=VS
 
 #### - ppenumList [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a>**</b>
+Type: <b><a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a>**</b>
 
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a> interface pointer.
+When this method returns, contains the address of an <a href="shell.IPropertyEnumTypeList">IPropertyEnumTypeList</a> interface pointer.
 
 
 ## -returns

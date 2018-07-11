@@ -7,7 +7,7 @@ old-location: security\encryptmessage__digest_.htm
 old-project: SecAuthN
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -286,7 +286,7 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

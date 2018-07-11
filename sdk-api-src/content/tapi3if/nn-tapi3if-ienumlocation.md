@@ -4,10 +4,10 @@ title: IEnumLocation
 author: windows-sdk-content
 description: The IEnumLocation interface provides COM-standard enumeration methods for the ITLocationInfo interface. The ITAddressTranslation::EnumerateLocations method returns a pointer to IEnumLocation.
 old-location: tapi3\ienumlocation.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: fc8c235c-92ec-448f-bbea-c93192d36beb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IEnumLocation, IEnumLocation interface [TAPI 2.2], IEnumLocation interface [TAPI 2.2],described, _tapi3_ienumlocation, tapi3.ienumlocation, tapi3if/IEnumLocation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_char_array_description.htm
 old-project: wsw
 ms.assetid: 3a489963-9ed3-40ca-be42-485415e7fa4a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_CHAR_ARRAY_DESCRIPTION, WS_CHAR_ARRAY_DESCRIPTION structure [Web Services for Windows], _WS_CHAR_ARRAY_DESCRIPTION, webservices/WS_CHAR_ARRAY_DESCRIPTION, wsw.ws_char_array_description
 ms.prod: windows
 ms.technology: windows-sdk

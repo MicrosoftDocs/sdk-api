@@ -4,10 +4,10 @@ title: IX509Extensions::AddRange
 author: windows-sdk-content
 description: Adds a range of IX509Extension objects to the collection.
 old-location: security\ix509extensions_addrange_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: e2e11b36-966b-497a-a199-41364314d287
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX509Extensions interface, IX509Extensions interface [Security],AddRange method, IX509Extensions.AddRange, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_SC_ACTION"
 author: windows-sdk-content
 description: Represents an action that the service control manager can perform.
 old-location: base\sc_action_str.htm
-old-project: Services
+old-project: services
 ms.assetid: e2c355a6-affe-46bf-a3e6-f8c420422d46
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPSC_ACTION, LPSC_ACTION, LPSC_ACTION structure pointer, SC_ACTION, SC_ACTION structure, SC_ACTION_NONE, SC_ACTION_REBOOT, SC_ACTION_RESTART, SC_ACTION_RUN_COMMAND, _SC_ACTION, _win32_sc_action_str, base.sc_action_str, winsvc/LPSC_ACTION, winsvc/SC_ACTION"
 ms.prod: windows
 ms.technology: windows-sdk

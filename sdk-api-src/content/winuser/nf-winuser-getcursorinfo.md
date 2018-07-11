@@ -7,7 +7,7 @@ old-location: menurc\getcursorinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursorinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: GetCursorInfo, GetCursorInfo function [Menus and Other Resources], _win32_GetCursorInfo, _win32_getcursorinfo_cpp, menurc.getcursorinfo, winui._win32_getcursorinfo, winuser/GetCursorInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -71,7 +71,7 @@ Retrieves information about the global cursor.
 
 Type: <b>PCURSORINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms648381(v=VS.85).aspx">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/acd66f67-c95d-49fa-8f61-fdae3c86b432">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -92,7 +92,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648381(v=VS.85).aspx">CURSORINFO</a>
+<a href="https://msdn.microsoft.com/acd66f67-c95d-49fa-8f61-fdae3c86b432">CURSORINFO</a>
 
 
 
@@ -100,11 +100,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
 
 
 

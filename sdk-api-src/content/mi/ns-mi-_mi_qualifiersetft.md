@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifiersetft.htm
 old-project: wmi_v2
 ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_QualifierSetFT, MI_QualifierSetFT structure [Windows Management Infrastructure (MI)], _MI_QualifierSetFT, mi/MI_QualifierSetFT, wmi_v2.mi_qualifiersetft
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertRequest::GetCACertificate
 author: windows-sdk-content
 description: Returns the certification authority (CA) certificate for the Certificate Services server.
 old-location: security\icertrequest2_getcacertificate.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 711fdcec-0a07-4559-a577-1eb73053dd38
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertRequest object [Security],GetCACertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, GetCACertificate, GetCACertificate method [Security], GetCACertificate method [Security],CCertRequest object, GetCACertificate method [Security],ICertRequest interface, GetCACertificate method [Security],ICertRequest2 interface, GetCACertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCACertificate method, ICertRequest.GetCACertificate, ICertRequest2 interface [Security],GetCACertificate method, ICertRequest2::GetCACertificate, ICertRequest3 interface [Security],GetCACertificate method, ICertRequest3::GetCACertificate, ICertRequest::GetCACertificate, certcli/ICertRequest2::GetCACertificate, certcli/ICertRequest3::GetCACertificate, certcli/ICertRequest::GetCACertificate, security.icertrequest2_getcacertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,7 +162,7 @@ A pointer to the <b>BSTR</b> that contains the CA certificate for the Certificat
 
 Upon successful completion of this method, *<i>pstrCertificate</i> is set to the <b>BSTR</b> that contains the CA certificate. To use this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrCertificate</i>.
 
-  When you have finished using *<i>pstrCertificate</i>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+  When you have finished using *<i>pstrCertificate</i>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 

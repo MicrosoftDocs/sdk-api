@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcreateblob.htm
 old-project: direct3dhlsl
 ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 06/18/2018
 ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreateBlob, direct3dhlsl.d3dcreateblob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler function. Therefore, you are no longer required to create and use an arbitrary length data buffer by using the  <a href="https://msdn.microsoft.com/library/Bb205085(v=VS.85).aspx">D3D10CreateBlob</a> function that is contained in D3d10.dll.
+The latest D3dcompiler_nn.dll contains the <b>D3DCreateBlob</b> compiler function. Therefore, you are no longer required to create and use an arbitrary length data buffer by using the  <a href="https://msdn.microsoft.com/bacc1d17-13e2-428c-9fd5-01c02406aa14">D3D10CreateBlob</a> function that is contained in D3d10.dll.
 
 
 

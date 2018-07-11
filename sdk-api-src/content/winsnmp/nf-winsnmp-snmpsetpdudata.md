@@ -4,10 +4,10 @@ title: SnmpSetPduData function
 author: windows-sdk-content
 description: The WinSNMP SnmpSetPduData function updates selected data fields in the specified SNMP protocol data unit (PDU).
 old-location: snmp\snmpsetpdudata.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 113c67b4-65d7-418d-9600-d1545e1cb0fb
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpSetPduData, SnmpSetPduData function [SNMP], _snmp_snmpsetpdudata, snmp.snmpsetpdudata, winsnmp/SnmpSetPduData
 ms.prod: windows
 ms.technology: windows-sdk

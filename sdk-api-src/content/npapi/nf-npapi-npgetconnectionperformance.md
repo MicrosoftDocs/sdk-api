@@ -7,7 +7,7 @@ old-location: security\npgetconnectionperformance.htm
 old-project: SecAuthN
 ms.assetid: 8ab9fa3b-50f4-492d-a352-8e215b2d62c1
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: NPGetConnectionPerformance, NPGetConnectionPerformance function [Security], _mnp_npgetconnectionperformance, npapi/NPGetConnectionPerformance, security.npgetconnectionperformance
 ms.prod: windows
 ms.technology: windows-sdk

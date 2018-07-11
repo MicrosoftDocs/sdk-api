@@ -7,7 +7,7 @@ old-location: com\ipersiststream.htm
 old-project: com
 ms.assetid: 97ea64ee-d950-4872-add6-1f532a6eb33f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream interface [COM],described, _com_ipersiststream, com.ipersiststream, objidl/IPersistStream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: BuildCommDCBA function
 author: windows-sdk-content
 description: Fills a specified DCB structure with values specified in a device-control string.
 old-location: base\buildcommdcb.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
 ms.prod: windows
 ms.technology: windows-sdk

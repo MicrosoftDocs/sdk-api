@@ -7,7 +7,7 @@ old-location: mf\mfcreatesequencersegmentoffset.htm
 old-project: medfound
 ms.assetid: 5999af23-03a6-4fd9-8a56-23179164ff32
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 5999af23-03a6-4fd9-8a56-23179164ff32, MFCreateSequencerSegmentOffset, MFCreateSequencerSegmentOffset function [Media Foundation], mf.mfcreatesequencersegmentoffset, mfidl/MFCreateSequencerSegmentOffset
 ms.prod: windows
 ms.technology: windows-sdk

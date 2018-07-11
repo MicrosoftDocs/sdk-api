@@ -7,7 +7,7 @@ old-location: gdi\xps_job_completion.htm
 old-project: printdocs
 ms.assetid: a0bfb708-033a-4493-a878-0ebdcaae672f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: XPS_JOB_CANCELLED, XPS_JOB_COMPLETED, XPS_JOB_COMPLETION, XPS_JOB_COMPLETION enumeration [Windows GDI], XPS_JOB_FAILED, XPS_JOB_IN_PROGRESS, __MIDL___MIDL_itf_xpsprint_0000_0000_0001, gdi.xps_job_completion, xpsprint/XPS_JOB_CANCELLED, xpsprint/XPS_JOB_COMPLETED, xpsprint/XPS_JOB_COMPLETION, xpsprint/XPS_JOB_FAILED, xpsprint/XPS_JOB_IN_PROGRESS
 ms.prod: windows
 ms.technology: windows-sdk

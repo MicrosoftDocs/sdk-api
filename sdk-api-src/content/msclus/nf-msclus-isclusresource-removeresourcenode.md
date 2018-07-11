@@ -4,10 +4,10 @@ title: ISClusResource::RemoveResourceNode
 author: windows-sdk-content
 description: Removes a node from the list of possible nodes that can host the resource.
 old-location: mscs\clusresource_removeresourcenode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4ec493da-4524-4015-8aa7-fb4a8c3d78de
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],RemoveResourceNode method, ClusResource.RemoveResourceNode, ISClusResource.RemoveResourceNode, ISClusResource::RemoveResourceNode, RemoveResourceNode, RemoveResourceNode method [Failover Cluster], RemoveResourceNode method [Failover Cluster],ClusResource class, _wolf_clusresource.removeresourcenode, mscs.clusresource_removeresourcenode
 ms.prod: windows
 ms.technology: windows-sdk

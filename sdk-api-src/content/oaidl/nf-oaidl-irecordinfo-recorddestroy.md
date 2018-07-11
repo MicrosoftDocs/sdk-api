@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_recorddestroy.htm
 old-project: automat
 ms.assetid: 36faf2f6-ecb5-4d6f-a05d-a37ae21a8f07
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IRecordInfo interface [Automation],RecordDestroy method, IRecordInfo.RecordDestroy, IRecordInfo::RecordDestroy, RecordDestroy, RecordDestroy method [Automation], RecordDestroy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordDestroy, automat.irecordinfo_recorddestroy, oaidl/IRecordInfo::RecordDestroy
 ms.prod: windows
 ms.technology: windows-sdk

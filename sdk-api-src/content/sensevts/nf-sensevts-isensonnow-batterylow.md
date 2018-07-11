@@ -115,7 +115,7 @@ SENS calls this method to notify an application that a computer is using battery
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 

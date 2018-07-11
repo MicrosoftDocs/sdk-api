@@ -4,10 +4,10 @@ title: IX509EndorsementKey::AddCertificate
 author: windows-sdk-content
 description: Add an endorsement key certificate to the key storage provider (KSP) that supports endorsement keys.
 old-location: security\ix509endorsementkey_addcertificate.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 24621d53-c435-43e9-b709-619908f09f3b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AddCertificate, AddCertificate method [Security], AddCertificate method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],AddCertificate method, IX509EndorsementKey.AddCertificate, IX509EndorsementKey::AddCertificate, certenroll/IX509EndorsementKey::AddCertificate, security.ix509endorsementkey_addcertificate
 ms.prod: windows
 ms.technology: windows-sdk

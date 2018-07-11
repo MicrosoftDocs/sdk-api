@@ -4,10 +4,10 @@ title: FlushFileBuffers function
 author: windows-sdk-content
 description: Flushes the buffers of a specified file and causes all buffered data to be written to a file.
 old-location: fs\flushfilebuffers.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers
 ms.prod: windows
 ms.technology: windows-sdk

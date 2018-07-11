@@ -4,10 +4,10 @@ title: tagHelperAttributeInfo
 author: windows-sdk-content
 description: The HelperAttributeInfo structure contains the name of the helper attribute and its type.
 old-location: ndf\helperattributeinfo.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: a4de3031-7199-4537-a97e-f33059383d6b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo,*PHelperAttributeInfo, HelperAttributeInfo,*PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo, tagHelperAttributeInfo"
 ms.prod: windows
 ms.technology: windows-sdk

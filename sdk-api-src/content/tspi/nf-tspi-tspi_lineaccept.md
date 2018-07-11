@@ -4,10 +4,10 @@ title: TSPI_lineAccept function
 author: windows-sdk-content
 description: The TSPI_lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
 old-location: tspi\tspi_lineaccept.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2690992b-b155-4ae9-816a-e5fafaffa033
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_lineAccept, TSPI_lineAccept function [TAPI 2.2], _tspi_tspi_lineaccept, tspi.tspi_lineaccept, tspi/TSPI_lineAccept
 ms.prod: windows
 ms.technology: windows-sdk

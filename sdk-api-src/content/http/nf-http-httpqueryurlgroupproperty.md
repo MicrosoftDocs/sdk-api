@@ -4,10 +4,10 @@ title: HttpQueryUrlGroupProperty function
 author: windows-sdk-content
 description: Queries a property on the specified URL Group.
 old-location: http\httpqueryurlgroupproperty.htm
-old-project: Http
+old-project: http
 ms.assetid: f3e8fde0-5a78-46aa-8c6c-cea957d12356
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpQueryUrlGroupProperty, HttpQueryUrlGroupProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryurlgroupproperty, http/HttpQueryUrlGroupProperty
 ms.prod: windows
 ms.technology: windows-sdk

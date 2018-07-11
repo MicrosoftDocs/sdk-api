@@ -7,7 +7,7 @@ old-location: wmp\iwmpfoldermonitorservices_add.htm
 old-project: WMP
 ms.assetid: f12bbc31-ce9d-4d0c-af1e-9078e7948eeb
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],add method, IWMPFolderMonitorServices.add, IWMPFolderMonitorServices::add, IWMPFolderMonitorServicesadd, add, add method [Windows Media Player], add method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_add, wmp/IWMPFolderMonitorServices::add
 ms.prod: windows
 ms.technology: windows-sdk

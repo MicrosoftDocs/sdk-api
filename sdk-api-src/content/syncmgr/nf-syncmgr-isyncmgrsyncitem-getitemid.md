@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemID.htm
 old-project: shell
 ms.assetid: 2add1902-1258-49ed-ad44-35d28d0776c1
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemID method, ISyncMgrSyncItem.GetItemID, ISyncMgrSyncItem::GetItemID, _shell_ISyncMgrSyncItem_GetItemID, shell.ISyncMgrSyncItem_GetItemID, syncmgr/ISyncMgrSyncItem::GetItemID
 ms.prod: windows
 ms.technology: windows-sdk

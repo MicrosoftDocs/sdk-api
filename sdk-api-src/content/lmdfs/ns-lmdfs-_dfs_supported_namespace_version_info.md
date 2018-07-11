@@ -4,10 +4,10 @@ title: "_DFS_SUPPORTED_NAMESPACE_VERSION_INFO"
 author: windows-sdk-content
 description: Contains version information for a DFS namespace.
 old-location: dfs\dfs_supported_namespace_version_info.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: ee75c500-70c6-4dce-9d38-36cacd695746
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_NAMESPACE_CAPABILITY_ABDE, DFS_SUPPORTED_NAMESPACE_VERSION_INFO, DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure [Distributed File System], PDFS_SUPPORTED_NAMESPACE_VERSION_INFO, PDFS_SUPPORTED_NAMESPACE_VERSION_INFO structure pointer [Distributed File System], _DFS_SUPPORTED_NAMESPACE_VERSION_INFO, dfs.dfs_supported_namespace_version_info, fs.dfs_supported_namespace_version_info, lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO, lmdfs/PDFS_SUPPORTED_NAMESPACE_VERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

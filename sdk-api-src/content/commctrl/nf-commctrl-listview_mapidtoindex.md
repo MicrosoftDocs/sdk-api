@@ -4,10 +4,10 @@ title: ListView_MapIDToIndex macro
 author: windows-sdk-content
 description: Maps the ID of an item to an index. You can use this macro or send the LVM_MAPIDTOINDEX message explicitly.
 old-location: controls\ListView_MapIDToIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapidtoindex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_MapIDToIndex, ListView_MapIDToIndex macro [Windows Controls], _win32_ListView_MapIDToIndex, _win32_ListView_MapIDToIndex_cpp, commctrl/ListView_MapIDToIndex, controls.ListView_MapIDToIndex, controls._win32_ListView_MapIDToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Maps the ID of an item to an index. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761137(v=VS.85).aspx">LVM_MAPIDTOINDEX</a> message explicitly. 
+Maps the ID of an item to an index. You can use this macro or send the <a href="https://msdn.microsoft.com/1082b7c6-c399-473d-aa4a-2b75e9bd2ab0">LVM_MAPIDTOINDEX</a> message explicitly. 
 
 
 ## -parameters
@@ -85,16 +85,16 @@ You use this ID to guarantee uniqueness during the existence of the list-view co
 		
 
 
-		To uniquely identify an item, take the index that returns from a call, such as <a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">IComponent::GetDisplayInfo</a>, and call <a href="https://msdn.microsoft.com/library/Bb761139(v=VS.85).aspx">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
+		To uniquely identify an item, take the index that returns from a call, such as <a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">IComponent::GetDisplayInfo</a>, and call <a href="https://msdn.microsoft.com/d0486e21-2703-4289-abb0-f5f9c7b60b40">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
 		
 
 If you need to know the index of an item after creating an ID, call
-<a href="https://msdn.microsoft.com/library/Bb761137(v=VS.85).aspx">LVM_MAPIDTOINDEX</a> with the unique ID and it returns the most current index.
+<a href="https://msdn.microsoft.com/1082b7c6-c399-473d-aa4a-2b75e9bd2ab0">LVM_MAPIDTOINDEX</a> with the unique ID and it returns the most current index.
 
 <div class="alert"><b>Note</b>  In a multithreaded environment, you can only be sure the correct index is returned
 on the thread that hosts the list-view control, not on background threads.</div>
 <div> </div>
-To use <b>ListView_MapIDToIndex</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_MapIDToIndex</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

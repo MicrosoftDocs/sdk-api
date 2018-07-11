@@ -4,10 +4,10 @@ title: PRESUTIL_SET_DWORD_VALUE
 author: windows-sdk-content
 description: Sets a numeric value in the cluster database. The PRESUTIL_SET_DWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetdwordvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: e8b4393b-84f7-4440-92b5-fd7fa2be96a2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_SET_DWORD_VALUE, PRESUTIL_SET_DWORD_VALUE callback, PRESUTIL_SET_DWORD_VALUE callback function [Failover Cluster], _wolf_resutilsetdwordvalue, mscs.resutilsetdwordvalue, resapi/PRESUTIL_SET_DWORD_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITTAPIObjectEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets information concerning an asynchronous event notification. The application uses TAPIOBJECT_EVENT to determine what type of event is being signaled.
 old-location: tapi3\ittapiobjectevent_get_event.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5ae4362f-6987-461e-928f-9478e37e0380
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Event method, ITTAPIObjectEvent.get_Event, ITTAPIObjectEvent::get_Event, _tapi3_ittapiobjectevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_event, tapi3if/ITTAPIObjectEvent::get_Event
 ms.prod: windows
 ms.technology: windows-sdk

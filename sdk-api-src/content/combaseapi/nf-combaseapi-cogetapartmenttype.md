@@ -7,7 +7,7 @@ old-location: com\cogetapartmenttype.htm
 old-project: com
 ms.assetid: ab0b6008-397f-4210-ba26-1a041b709722
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusDisks::get_Item
 author: windows-sdk-content
 description: ClusDisk object that represents a single disk from a ClusDisks collection.
 old-location: mscs\clusdisks_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4199a230-1e1d-45d5-b93b-5f12b58c8f35
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusDisks class [Failover Cluster],Item property, ClusDisks.Item, ISClusDisks.get_Item, ISClusDisks::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusDisks class, _wolf_clusdisks.item, get_Item, mscs.clusdisks_item
 ms.prod: windows
 ms.technology: windows-sdk

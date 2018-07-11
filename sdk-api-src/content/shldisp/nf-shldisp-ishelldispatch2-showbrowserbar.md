@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ShowBrowserBar.htm
 old-project: shell
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ShowBrowserBar method, IShellDispatch2.ShowBrowserBar, IShellDispatch2::ShowBrowserBar, ShowBrowserBar, ShowBrowserBar method [Windows Shell], ShowBrowserBar method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ShowBrowserBar, shell.IShellDispatch2_ShowBrowserBar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Displays a browser bar.
 
 #### - sCLSID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the string form of the CLSID of the browser bar to be displayed. The object must be registered as an Explorer Bar object with a CATID_InfoBand component category. For further information, see <a href="https://msdn.microsoft.com/4bf46b3f-f833-42e0-baf7-21bfa9e6d890">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>.
 

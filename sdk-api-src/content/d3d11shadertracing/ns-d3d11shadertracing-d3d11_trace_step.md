@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_step.htm
 old-project: direct3d11
 ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STEP, direct3d11.d3d11_trace_step
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ If the <b>NumRegistersWritten</b> member is 0, examine this member although this
 
 ### -field OpcodeType
 
-A number that specifies the type of instruction (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">add</a>, <a href="https://msdn.microsoft.com/library/Bb509628(v=VS.85).aspx">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
+A number that specifies the type of instruction (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">add</a>, <a href="https://msdn.microsoft.com/9945388a-d802-4dbe-bdb7-4eadb8751c39">mul</a>, and so on). You can ignore this member if you do not know the number for the instruction type. This member offers a minor convenience at the cost of bloating the trace slightly.  You can use the <b>ID</b> member and map back to the original shader code to retrieve the full information about the instruction.
 
 
 ### -field CurrentGlobalCycle

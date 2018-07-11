@@ -4,10 +4,10 @@ title: LookupPersistentTcpPortReservation function
 author: windows-sdk-content
 description: Looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\lookuppersistenttcpportreservation.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
 ms.prod: windows
 ms.technology: windows-sdk

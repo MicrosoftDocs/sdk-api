@@ -4,10 +4,10 @@ title: DnsRecordSetCompare function
 author: windows-sdk-content
 description: The DnsRecordSetCompare function compares two RR sets.
 old-location: dns\dnsrecordsetcompare.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 008cf2ba-ccb2-430a-85d9-68d424b6938f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: DnsRecordSetCompare, DnsRecordSetCompare function [DNS], _dns_dnsrecordsetcompare, dns.dnsrecordsetcompare, windns/DnsRecordSetCompare
 ms.prod: windows
 ms.technology: windows-sdk

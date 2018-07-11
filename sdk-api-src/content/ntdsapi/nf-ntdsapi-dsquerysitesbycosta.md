@@ -4,10 +4,10 @@ title: DsQuerySitesByCostA function
 author: windows-sdk-content
 description: Gets the communication cost between one site and one or more other sites.
 old-location: ad\dsquerysitesbycost.htm
-old-project: AD
+old-project: ad
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
 ms.prod: windows
 ms.technology: windows-sdk

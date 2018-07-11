@@ -7,7 +7,7 @@ old-location: com\imallocspy_prefree.htm
 old-project: com
 ms.assetid: 528eedac-e8cc-4dc7-8287-c023ebefb72c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IMallocSpy interface [COM],PreFree method, IMallocSpy.PreFree, IMallocSpy::PreFree, PreFree, PreFree method [COM], PreFree method [COM],IMallocSpy interface, _com_imallocspy_prefree, com.imallocspy_prefree, objidl/IMallocSpy::PreFree
 ms.prod: windows
 ms.technology: windows-sdk

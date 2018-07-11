@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_loadui.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\loadui.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],LoadUI method, IUIFramework.LoadUI, IUIFramework::LoadUI, LoadUI, LoadUI method [Windows Ribbon], LoadUI method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_LoadUI, uiribbon/IUIFramework::LoadUI, windowsribbon.windowsribbon_iuiframework_loadui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,11 +97,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://msdn.microsoft.com/library/Dd371368(v=VS.85).aspx">IUIFramework::Destroy</a> is called in between. 
+<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://msdn.microsoft.com/0f1b8caa-32be-4b1e-b298-094a6cd3fb46">IUIFramework::Destroy</a> is called in between. 
 			
 
 
-<a href="https://msdn.microsoft.com/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a> and <a href="https://msdn.microsoft.com/library/Dd371537(v=VS.85).aspx">OnViewChanged</a> 
+<a href="https://msdn.microsoft.com/13e03acd-1a1e-48f9-b413-5a24d8b784d0">OnCreateUICommand</a> and <a href="https://msdn.microsoft.com/9672131d-bc7a-4e7b-935e-cd38dff2bb5c">OnViewChanged</a> 
 				are called during the execution of <b>IUIFramework::LoadUI</b>.
 			
 
@@ -189,23 +189,23 @@ bool InitializeFramework(HWND hWnd)
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd316930(v=VS.85).aspx">Compiling Ribbon Markup</a>
+<a href="https://msdn.microsoft.com/ef9fea92-8c67-461d-9d74-2e259e407fb0">Compiling Ribbon Markup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a>
+<a href="https://msdn.microsoft.com/bb6525dd-7e05-40e0-bdcc-c66f31a99f46">IUIFramework::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371591(v=VS.85).aspx">Markup Elements</a>
+<a href="https://msdn.microsoft.com/70d7c357-8614-4883-97ae-6fce4fe7dcc4">Markup Elements</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

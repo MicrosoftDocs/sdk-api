@@ -7,7 +7,7 @@ old-location: mf\mfinitvideoformat_rgb.htm
 old-project: medfound
 ms.assetid: 4c437f26-6fe1-477d-9955-bc900215aa59
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 4c437f26-6fe1-477d-9955-bc900215aa59, MFInitVideoFormat_RGB, MFInitVideoFormat_RGB function [Media Foundation], mf.mfinitvideoformat_rgb, mfapi/MFInitVideoFormat_RGB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
         In general, you should avoid calling this function. If you know all of the format details, you can fill in the <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure without this function. If you do not know all of the format details, attributes are preferable to using the <b>MFVIDEOFORMAT</b> structure.
       
 
-<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://msdn.microsoft.com/library/Ee663600(v=VS.85).aspx">Library Changes in Windows 7</a>.</div>
+<div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="media_foundation_headers_and_libraries.htm">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
 

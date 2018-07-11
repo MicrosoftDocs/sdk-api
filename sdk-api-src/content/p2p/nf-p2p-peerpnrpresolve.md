@@ -4,10 +4,10 @@ title: PeerPnrpResolve function
 author: windows-sdk-content
 description: Obtains the endpoint address(es) registered for a specific peer name.
 old-location: p2p\peerpnrpresolve.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: dd66ab38-bb3e-46f5-943a-bcdae90acae0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerPnrpResolve, PeerPnrpResolve function [Peer Networking], p2p.peerpnrpresolve, p2p/PeerPnrpResolve
 ms.prod: windows
 ms.technology: windows-sdk

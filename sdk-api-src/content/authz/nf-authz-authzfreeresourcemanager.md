@@ -4,10 +4,10 @@ title: AuthzFreeResourceManager function
 author: windows-sdk-content
 description: Frees a resource manager object.
 old-location: security\authzfreeresourcemanager.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

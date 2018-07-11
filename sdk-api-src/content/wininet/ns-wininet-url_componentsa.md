@@ -4,10 +4,10 @@ title: URL_COMPONENTSA
 author: windows-sdk-content
 description: Contains the constituent parts of a URL. This structure is used with the InternetCrackUrl and InternetCreateUrl functions.
 old-location: wininet\url_components.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: faebdd29-f746-486b-b779-cceeecac9163
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*LPURL_COMPONENTSA, LPURL_COMPONENTS, LPURL_COMPONENTS structure pointer [WinINet], URL_COMPONENTS, URL_COMPONENTS structure [WinINet], URL_COMPONENTSA, URL_COMPONENTSW, _inet_url_components_structure, wininet.url_components, wininet/LPURL_COMPONENTS, wininet/URL_COMPONENTS, wininet/URL_COMPONENTSA, wininet/URL_COMPONENTSW"
 ms.prod: windows
 ms.technology: windows-sdk

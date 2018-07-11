@@ -4,10 +4,10 @@ title: WinHttpAddRequestHeaders function
 author: windows-sdk-content
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: http\winhttpaddrequestheaders.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
 ms.author: windowssdkdev
-ms.date: 03/08/2018
+ms.date: 03/09/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -234,7 +234,7 @@ The
 The name and value of request headers added with this function are validated.  Headers must be well formed. For more information about valid HTTP headers, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.  If an invalid header is used, this function fails and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
-<a href="https://msdn.microsoft.com/library/ms689904(v=VS.85).aspx">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
+<a href="error_messages.htm">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 
 If you are sending a Date: request header, you can use the <a href="https://msdn.microsoft.com/8d55e3bb-0b86-41d9-ba39-62feb2acc707">WinHttpTimeFromSystemTime</a> function to create structure for the header.
 

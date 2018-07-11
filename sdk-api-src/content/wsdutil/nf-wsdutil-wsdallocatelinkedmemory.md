@@ -4,10 +4,10 @@ title: WSDAllocateLinkedMemory function
 author: windows-sdk-content
 description: Allocates a linked memory block.
 old-location: ncd\wsdallocatelinkedmemory_func.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 2608985f-56aa-4223-b76d-85ebe3b080fb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsdallocatelinkedmemory_func, wsdutil/WSDAllocateLinkedMemory
 ms.prod: windows
 ms.technology: windows-sdk

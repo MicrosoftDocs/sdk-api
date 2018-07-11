@@ -7,7 +7,7 @@ old-location: mf\imfdrmnethelper.htm
 old-project: medfound
 ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
 ms.prod: windows
 ms.technology: windows-sdk

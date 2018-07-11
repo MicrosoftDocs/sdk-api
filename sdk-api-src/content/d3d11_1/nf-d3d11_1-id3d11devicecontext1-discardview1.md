@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_discardview1.htm
 old-project: direct3d11
 ms.assetid: C478F696-D0D7-4ABB-8BCD-5C528CC13814
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: DiscardView1, DiscardView1 method [Direct3D 11], DiscardView1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],DiscardView1 method, ID3D11DeviceContext1.DiscardView1, ID3D11DeviceContext1::DiscardView1, d3d11_1/ID3D11DeviceContext1::DiscardView1, direct3d11.id3d11devicecontext1_discardview1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Discards the specified elements in a resource view from the device context.
 Type: <b><a href="https://msdn.microsoft.com/060973b4-bf7d-4be2-b087-85a5b1bca905">ID3D11View</a>*</b>
 
 
-            A pointer to the <a href="https://msdn.microsoft.com/060973b4-bf7d-4be2-b087-85a5b1bca905">ID3D11View</a> interface for the resource view to discard. The resource that underlies the view must have been created with usage <a href="https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx">D3D11_USAGE_DEFAULT</a> or <a href="https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx">D3D11_USAGE_DYNAMIC</a>, otherwise the runtime drops the call to <b>DiscardView1</b>; if the debug layer is enabled, the runtime returns an error message.
+            A pointer to the <a href="https://msdn.microsoft.com/060973b4-bf7d-4be2-b087-85a5b1bca905">ID3D11View</a> interface for the resource view to discard. The resource that underlies the view must have been created with usage <a href="d3d11_usage.htm">D3D11_USAGE_DEFAULT</a> or <a href="d3d11_usage.htm">D3D11_USAGE_DYNAMIC</a>, otherwise the runtime drops the call to <b>DiscardView1</b>; if the debug layer is enabled, the runtime returns an error message.
           
 
 

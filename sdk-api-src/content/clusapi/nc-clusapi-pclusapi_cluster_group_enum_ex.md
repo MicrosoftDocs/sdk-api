@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_GROUP_ENUM_EX
 author: windows-sdk-content
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX callback, PCLUSAPI_CLUSTER_GROUP_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
 ms.prod: windows
 ms.technology: windows-sdk

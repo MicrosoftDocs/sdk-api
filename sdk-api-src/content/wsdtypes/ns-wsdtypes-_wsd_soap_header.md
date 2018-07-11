@@ -4,10 +4,10 @@ title: "_WSD_SOAP_HEADER"
 author: windows-sdk-content
 description: Provides SOAP header data for the WSD_SOAP_MESSAGE structure.
 old-location: ncd\wsd_soap_header_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 6a0f0fd3-486e-45b3-bac6-e241bce8e2dc
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_SOAP_HEADER, WSD_SOAP_HEADER structure, _WSD_SOAP_HEADER, ncd.wsd_soap_header_struct, wsdtypes/WSD_SOAP_HEADER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

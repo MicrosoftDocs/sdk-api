@@ -4,10 +4,10 @@ title: EnsureCached function
 author: windows-sdk-content
 description: Loads image data into caches of image sources if that data is not already cached.
 old-location: direct2d\id2d1imagesourcefromwic_ensurecached_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 9addc82b-7446-1f2c-5666-f817b8b5707d
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: EnsureCached, EnsureCached methods [Direct2D], ID2D1ImageSourceFromWic::EnsureCached, d2d1_3/EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached_overload
 ms.prod: windows
 ms.technology: windows-sdk

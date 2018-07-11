@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops_clone.htm
 old-project: com
 ms.assetid: 0bf7f7da-9e40-49bd-9bd0-d2fcdfc2f517
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Clone method, IEnumContextProps.Clone, IEnumContextProps::Clone, _com_ienumcontextprops_clone, com.ienumcontextprops_clone, objidlbase/IEnumContextProps::Clone
 ms.prod: windows
 ms.technology: windows-sdk

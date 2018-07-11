@@ -4,10 +4,10 @@ title: tagLIFE_TIME
 author: windows-sdk-content
 description: The LIFE_TIME structure contains a start time and an end time.
 old-location: ndf\life_time.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 31f038fb-08c1-4057-af61-f3912cfcd4f0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*PLIFE_TIME, LIFE_TIME, LIFE_TIME structure [NDF], LIFE_TIME,*PLIFE_TIME, LIFE_TIME,*PLIFE_TIME structure [NDF], ndattrib/LIFE_TIME, ndf.life_time, tagLIFE_TIME"
 ms.prod: windows
 ms.technology: windows-sdk

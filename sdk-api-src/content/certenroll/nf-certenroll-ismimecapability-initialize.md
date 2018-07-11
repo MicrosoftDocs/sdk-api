@@ -4,10 +4,10 @@ title: ISmimeCapability::Initialize
 author: windows-sdk-content
 description: Initializes the object from a symmetric encryption algorithm object identifier (OID) and an optional key length.
 old-location: security\ismimecapability_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: d972121d-ecfa-4a79-9322-dd0d0b81ba68
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISmimeCapability interface [Security],Initialize method, ISmimeCapability.Initialize, ISmimeCapability::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISmimeCapability interface, certenroll/ISmimeCapability::Initialize, security.ismimecapability_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\createpen.htm
 old-project: gdi
 ms.assetid: 882facd2-7e06-48f6-82e4-f20e4d5adc92
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreatePen, CreatePen function [Windows GDI], PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_INSIDEFRAME, PS_NULL, PS_SOLID, _win32_CreatePen, gdi.createpen, wingdi/CreatePen
 ms.prod: windows
 ms.technology: windows-sdk

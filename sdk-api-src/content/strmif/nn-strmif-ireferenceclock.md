@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock.htm
 old-project: DirectShow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
 ms.prod: windows
 ms.technology: windows-sdk

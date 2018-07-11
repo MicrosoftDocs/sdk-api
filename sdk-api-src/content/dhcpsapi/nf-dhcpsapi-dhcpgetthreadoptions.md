@@ -4,10 +4,10 @@ title: DhcpGetThreadOptions function
 author: windows-sdk-content
 description: The DhcpGetThreadOptions function retrieves the current thread options as set by DhcpSetThreadOptions.
 old-location: dhcp\dhcpgetthreadoptions.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 2ba4b971-467c-47a6-8c4d-8e41b7874c80
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpGetThreadOptions, DhcpGetThreadOptions function [DHCP], dhcp.dhcpgetthreadoptions, dhcpsapi/DhcpGetThreadOptions
 ms.prod: windows
 ms.technology: windows-sdk

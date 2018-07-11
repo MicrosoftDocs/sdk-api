@@ -4,10 +4,10 @@ title: NetValidatePasswordPolicy function
 author: windows-sdk-content
 description: The NetValidatePasswordPolicy function allows an application to check password compliance against an application-provided account database and verify that passwords meet the complexity, aging, minimum length, and history reuse requirements of a password policy.
 old-location: netmgmt\netvalidatepasswordpolicy.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: be5ce51b-6568-49c8-954d-7b0d4bcb8611
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePasswordPolicy, NetValidatePasswordPolicy function [Network Management], NetValidatePasswordReset, lmaccess/NetValidatePasswordPolicy, netmgmt.netvalidatepasswordpolicy
 ms.prod: windows
 ms.technology: windows-sdk

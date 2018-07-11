@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry_gettransform.htm
 old-project: printdocs
 ms.assetid: 2247aa7b-28b3-459e-b565-d52a6cff7323
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransform method, IXpsOMGeometry.GetTransform, IXpsOMGeometry::GetTransform, xps.ixpsomgeometry_gettransform, xpsobjectmodel/IXpsOMGeometry::GetTransform
 ms.prod: windows
 ms.technology: windows-sdk

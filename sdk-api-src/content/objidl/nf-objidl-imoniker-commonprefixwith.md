@@ -7,7 +7,7 @@ old-location: com\imoniker_commonprefixwith.htm
 old-project: com
 ms.assetid: ef2a3191-7b7c-4e51-ab55-cf601f444561
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith method [COM],IMoniker interface, IMoniker interface [COM],CommonPrefixWith method, IMoniker.CommonPrefixWith, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
 ms.prod: windows
 ms.technology: windows-sdk

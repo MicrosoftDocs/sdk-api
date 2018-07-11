@@ -7,7 +7,7 @@ old-location: mf\dxva2_videosample.htm
 old-project: medfound
 ms.assetid: 040ade10-8573-4375-829d-938efa750a12
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 040ade10-8573-4375-829d-938efa750a12, DXVA2_SampleData_RFF, DXVA2_SampleData_RFF_TFF_Present, DXVA2_SampleData_TFF, DXVA2_VideoSample, DXVA2_VideoSample structure [Media Foundation], _DXVA2_VideoSample, dxva2api/DXVA2_VideoSample, mf.dxva2_videosample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Specifies an input sample for the <a href="https://msdn.microsoft.com/4a199ad3-6
 ### -field SrcSurface
 
 
-            Pointer to the <a href="https://msdn.microsoft.com/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
+            Pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
           
 
 

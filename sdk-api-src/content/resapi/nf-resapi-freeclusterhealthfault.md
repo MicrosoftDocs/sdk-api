@@ -4,10 +4,10 @@ title: FreeClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclusterhealthfault.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5a79d105-dd15-4205-99e6-b389b2adeed5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: FreeClusterHealthFault, FreeClusterHealthFault function [Failover Cluster], mscs.freeclusterhealthfault, resapi/FreeClusterHealthFault
 ms.prod: windows
 ms.technology: windows-sdk

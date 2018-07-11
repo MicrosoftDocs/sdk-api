@@ -4,10 +4,10 @@ title: FwpmEngineOpen0 function
 author: windows-sdk-content
 description: Opens a session to the filter engine.
 old-location: fwp\fwpmengineopen0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
 ms.prod: windows
 ms.technology: windows-sdk

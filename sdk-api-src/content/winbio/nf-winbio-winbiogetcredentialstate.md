@@ -4,10 +4,10 @@ title: WinBioGetCredentialState function
 author: windows-sdk-content
 description: Retrieves a value that specifies whether credentials have been set for the specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiogetcredentialstate.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 738b7efb-c796-4f64-95e3-feaaa50ac673
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WINBIO_CREDENTIAL_NOT_SET, WINBIO_CREDENTIAL_PASSWORD, WINBIO_CREDENTIAL_SET, WinBioGetCredentialState, WinBioGetCredentialState function [Windows Biometric Framework API], secbiomet.winbiogetcredentialstate, winbio/WinBioGetCredentialState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\wlan_hosted_network_data_peer_state_change.htm
 old-project: NativeWiFi
 ms.assetid: 476b903d-7c87-4734-8a42-c8b75d292fb5
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE structure [NativeWIFI], _WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, nwifi.wlan_hosted_network_data_peer_state_change, wlanapi/PWLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE"
 ms.prod: windows
 ms.technology: windows-sdk

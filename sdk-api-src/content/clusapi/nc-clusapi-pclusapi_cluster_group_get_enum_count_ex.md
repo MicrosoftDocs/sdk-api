@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX
 author: windows-sdk-content
 description: Returns the number of elements in the enumeration.
 old-location: mscs\clustergroupgetenumcountex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 28FCEC17-78C6-4902-BC4C-832BE3347380
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX callback, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, mscs.clustergroupgetenumcountex
 ms.prod: windows
 ms.technology: windows-sdk

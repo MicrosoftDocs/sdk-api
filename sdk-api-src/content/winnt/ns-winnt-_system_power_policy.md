@@ -4,10 +4,10 @@ title: "_SYSTEM_POWER_POLICY"
 author: windows-sdk-content
 description: Contains information about the current system power policy.
 old-location: base\system_power_policy_str.htm
-old-project: Power
+old-project: power
 ms.assetid: 0e73e94d-e529-46fb-b3e5-a79ba2c05713
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY structure pointer, SYSTEM_POWER_POLICY, SYSTEM_POWER_POLICY structure, _SYSTEM_POWER_POLICY, _win32_system_power_policy_str, base.system_power_policy_str, winnt/PSYSTEM_POWER_POLICY, winnt/SYSTEM_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

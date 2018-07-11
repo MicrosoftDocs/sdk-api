@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getvariablebyindex
 old-project: direct3d12
 ms.assetid: F7083A4D-ADD4-4C6F-A031-ABF16A3C351C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetVariableByIndex, GetVariableByIndex method, GetVariableByIndex method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetVariableByIndex method, ID3D12ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetVariableByIndex, direct3d12.id3d12shaderreflectionconstantbuffer_getvariablebyindex
 ms.prod: windows
 ms.technology: windows-sdk

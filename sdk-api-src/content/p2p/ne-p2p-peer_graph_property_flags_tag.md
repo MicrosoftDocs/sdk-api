@@ -4,10 +4,10 @@ title: peer_graph_property_flags_tag
 author: windows-sdk-content
 description: The PEER_GRAPH_PROPERTY_FLAGS enumeration specifies properties of a peer graph.
 old-location: p2p\peer_graph_property_flags.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 0e4f273f-7b6f-4aac-8fee-c0295479ee78
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, PEER_GRAPH_PROPERTY_FLAGS, PEER_GRAPH_PROPERTY_FLAGS enumeration [Peer Networking], PEER_GRAPH_PROPERTY_HEARTBEATS, p2p.peer_graph_property_flags, p2p/PEER_GRAPH_PROPERTY_DEFER_EXPIRATION, p2p/PEER_GRAPH_PROPERTY_FLAGS, p2p/PEER_GRAPH_PROPERTY_HEARTBEATS, peer_graph_property_flags_tag
 ms.prod: windows
 ms.technology: windows-sdk

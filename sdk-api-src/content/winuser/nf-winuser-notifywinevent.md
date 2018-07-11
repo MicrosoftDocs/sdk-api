@@ -7,7 +7,7 @@ old-location: winauto\notifywinevent.htm
 old-project: WinAuto
 ms.assetid: 08e74d45-95b6-44c2-a2e0-5ba6ffdcd56a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _msaa_NotifyWinEvent, msaa.notifywinevent, winauto.notifywinevent, winuser/NotifyWinEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

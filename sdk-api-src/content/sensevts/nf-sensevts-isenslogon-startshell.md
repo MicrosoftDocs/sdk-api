@@ -111,7 +111,7 @@ SENS calls this method to notify an application that the shell is started.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 

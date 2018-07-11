@@ -7,7 +7,7 @@ old-location: security\npcloseenum.htm
 old-project: SecAuthN
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
 ms.prod: windows
 ms.technology: windows-sdk

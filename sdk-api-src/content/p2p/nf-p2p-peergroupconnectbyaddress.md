@@ -4,10 +4,10 @@ title: PeerGroupConnectByAddress function
 author: windows-sdk-content
 description: Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.
 old-location: p2p\peergroupconnectbyaddress.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress
 ms.prod: windows
 ms.technology: windows-sdk

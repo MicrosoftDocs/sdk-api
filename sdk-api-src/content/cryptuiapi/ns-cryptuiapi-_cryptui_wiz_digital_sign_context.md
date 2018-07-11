@@ -4,10 +4,10 @@ title: "_CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT"
 author: windows-sdk-content
 description: Used with the CryptUIWizDigitalSign function to contain information about a BLOB.
 old-location: security\cryptui_wiz_digital_sign_context.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3e4eb745-0c28-4ce5-870b-d24565ef0cae
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT, security.cryptui_wiz_digital_sign_context"
 ms.prod: windows
 ms.technology: windows-sdk

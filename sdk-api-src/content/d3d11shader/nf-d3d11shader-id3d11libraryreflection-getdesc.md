@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11libraryreflection_getdesc.htm
 old-project: direct3d11
 ms.assetid: F23FEED8-94A3-4A87-8B4F-1D55BD47AF5F
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11LibraryReflection interface, ID3D11LibraryReflection interface [Direct3D 11],GetDesc method, ID3D11LibraryReflection.GetDesc, ID3D11LibraryReflection::GetDesc, d3d11shader/ID3D11LibraryReflection::GetDesc, direct3d11.id3d11libraryreflection_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A pointer to a <a href="https://msdn.microsoft.com/A4AC9733-DB17-4855-AEB0-3DA78
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

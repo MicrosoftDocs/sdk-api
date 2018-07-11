@@ -4,10 +4,10 @@ title: IGetClusterDataInfo::GetClusterHandle
 author: windows-sdk-content
 description: Returns a handle to the cluster.
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetClusterHandle, GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterHandle method, IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
 ms.prod: windows
 ms.technology: windows-sdk

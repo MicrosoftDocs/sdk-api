@@ -7,7 +7,7 @@ old-location: mf\mfshutdownobject.htm
 old-project: medfound
 ms.assetid: a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfpreservedkeynotifysink.htm
 old-project: TSF
 ms.assetid: 0bf786b5-efcd-4c58-835b-47e7adf9be63
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework],described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ Preserved keys are keyboard shortcuts that an application or TSF text service ca
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

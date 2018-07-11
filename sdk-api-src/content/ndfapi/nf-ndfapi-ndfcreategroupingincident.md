@@ -4,10 +4,10 @@ title: NdfCreateGroupingIncident function
 author: windows-sdk-content
 description: Creates a session to diagnose peer-to-peer grouping functionality issues.
 old-location: ndf\ndfcreategroupingincident.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 308aa998-5940-4fbd-8bf6-bb14bc907a3f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: NdfCreateGroupingIncident, NdfCreateGroupingIncident function [NDF], ndf.ndfcreategroupingincident, ndfapi/NdfCreateGroupingIncident
 ms.prod: windows
 ms.technology: windows-sdk

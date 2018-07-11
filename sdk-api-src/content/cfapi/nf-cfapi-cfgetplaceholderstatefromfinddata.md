@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetplaceholderstatefromfinddata.htm
 old-project: cfApi
 ms.assetid: 1A8104BC-E9D1-4846-B91F-4CBEDB1FC542
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfGetPlaceholderStateFromFindData, CfGetPlaceholderStateFromFindData function, cfapi/CfGetPlaceholderStateFromFindData, cloudApi.cfgetplaceholderstatefromfinddata
 ms.prod: windows
 ms.technology: windows-sdk

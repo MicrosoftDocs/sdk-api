@@ -7,7 +7,7 @@ old-location: opc\opc_write_flags.htm
 old-project: OPC
 ms.assetid: 12006b4a-98e1-4761-bce3-32b83b54a2cb
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: OPC_WRITE_DEFAULT, OPC_WRITE_FLAGS, OPC_WRITE_FLAGS enumeration [Open Packaging Conventions], OPC_WRITE_FORCE_ZIP32, __MIDL___MIDL_itf_msopc_0000_0002_0005, msopc/OPC_WRITE_DEFAULT, msopc/OPC_WRITE_FLAGS, msopc/OPC_WRITE_FORCE_ZIP32, opc.opc_write_flags
 ms.prod: windows
 ms.technology: windows-sdk

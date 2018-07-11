@@ -4,10 +4,10 @@ title: ICertRequest
 author: windows-sdk-content
 description: Provides communications between a client or intermediary application and Certificate services.
 old-location: security\icertrequest.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 2f371aa6-492e-41ba-8455-66e9d5f5da44
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertRequest, ICertRequest interface [Security], ICertRequest interface [Security],described, _certsrv_icertrequest, certcli/ICertRequest, security.icertrequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertRequest</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

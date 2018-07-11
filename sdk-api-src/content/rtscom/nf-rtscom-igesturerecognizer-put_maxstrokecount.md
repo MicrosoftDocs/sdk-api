@@ -7,7 +7,7 @@ old-location: tablet\igesturerecognizer_maxstrokecount.htm
 old-project: tablet
 ms.assetid: d7f40294-437a-4d5c-9389-1798102d0d8f
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IGestureRecognizer interface [Tablet PC],MaxStrokeCount property, IGestureRecognizer.MaxStrokeCount, IGestureRecognizer.get_MaxStrokeCount, IGestureRecognizer.put_MaxStrokeCount, IGestureRecognizer::MaxStrokeCount, IGestureRecognizer::get_MaxStrokeCount, IGestureRecognizer::put_MaxStrokeCount, MaxStrokeCount property [Tablet PC], MaxStrokeCount property [Tablet PC],IGestureRecognizer interface, d7f40294-437a-4d5c-9389-1798102d0d8f, put_MaxStrokeCount, rtscom/IGestureRecognizer::MaxStrokeCount, rtscom/IGestureRecognizer::get_MaxStrokeCount, rtscom/IGestureRecognizer::put_MaxStrokeCount, tablet.igesturerecognizer_maxstrokecount
 ms.prod: windows
 ms.technology: windows-sdk

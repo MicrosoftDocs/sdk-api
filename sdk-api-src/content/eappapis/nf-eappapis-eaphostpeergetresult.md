@@ -4,10 +4,10 @@ title: EapHostPeerGetResult function
 author: windows-sdk-content
 description: Obtains the authentication result for the specified EAP authentication session.
 old-location: eaphost\eaphostpeergetresult.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: e1f0fc05-d9cd-4a37-ba74-89ac9948a292
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostPeerGetResult, EapHostPeerGetResult function [EAPHost], eaphost.eaphostpeergetresult, eappapis/EapHostPeerGetResult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_HTTP_TRANSPORT_ADDRESS"
 author: windows-sdk-content
 description: Specifies the addresses (local and remote) used for a particular HTTP connection.
 old-location: http\http_transport_address.htm
-old-project: Http
+old-project: http
 ms.assetid: 2dac2817-c911-4ca1-afb1-32147a16ad4c
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS structure [HTTP], PHTTP_TRANSPORT_ADDRESS, PHTTP_TRANSPORT_ADDRESS structure pointer [HTTP], _HTTP_TRANSPORT_ADDRESS, _http_http_transport_address, http.http_transport_address, http/HTTP_TRANSPORT_ADDRESS, http/PHTTP_TRANSPORT_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

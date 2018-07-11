@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants.htm
 old-project: cossdk
 ms.assetid: 44b80062-b2bb-4c34-b9e1-31229c8e40ca
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: ICrmCompensatorVariants, ICrmCompensatorVariants interface [COM+], ICrmCompensatorVariants interface [COM+],described, _dtc_ICrmCompensatorVariants_Interface, comsvcs/ICrmCompensatorVariants, cos.icrmcompensatorvariants
 ms.prod: windows
 ms.technology: windows-sdk

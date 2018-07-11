@@ -4,10 +4,10 @@ title: "_DHCP_ALL_OPTION_VALUES_PB"
 author: windows-sdk-content
 description: The DHCP_ALL_OPTION_VALUES_PB structure defines the set of all option values for a DHCP server within a scope.
 old-location: dhcp\dhcp_all_option_values_pb.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 5b43263a-fea1-452b-9981-a0f2cf1c8cf0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_ALL_OPTION_VALUES_PB, DHCP_ALL_OPTION_VALUES_PB, DHCP_ALL_OPTION_VALUES_PB structure [DHCP], LPDHCP_ALL_OPTION_VALUES_PB, LPDHCP_ALL_OPTION_VALUES_PB structure pointer [DHCP], _DHCP_ALL_OPTION_VALUES_PB, dhcp.dhcp_all_option_values_pb, dhcpsapi/DHCP_ALL_OPTION_VALUES_PB, dhcpsapi/LPDHCP_ALL_OPTION_VALUES_PB"
 ms.prod: windows
 ms.technology: windows-sdk

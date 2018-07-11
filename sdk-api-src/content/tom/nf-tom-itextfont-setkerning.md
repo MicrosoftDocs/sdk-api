@@ -4,10 +4,10 @@ title: ITextFont::SetKerning
 author: windows-sdk-content
 description: Sets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_SetKerning.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkerning.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetKerning method, ITextFont.SetKerning, ITextFont::SetKerning, SetKerning, SetKerning method [Windows Controls], SetKerning method [Windows Controls],ITextFont interface, _win32_ITextFont_SetKerning, _win32_ITextFont_SetKerning_cpp, controls.ITextFont_SetKerning, controls._win32_ITextFont_SetKerning, tom/ITextFont::SetKerning
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,11 +147,11 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773973(v=VS.85).aspx">GetKerning</a>
+<a href="https://msdn.microsoft.com/c7af7356-ada6-424c-bd8f-32c40a8c095c">GetKerning</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -159,7 +159,7 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

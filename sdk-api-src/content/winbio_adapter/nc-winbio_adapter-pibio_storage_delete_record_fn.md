@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_DELETE_RECORD_FN
 author: windows-sdk-content
 description: Deletes one or more templates from the database.
 old-location: secbiomet\storageadapterdeleterecord.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: f1939410-1c1e-42e4-98d6-d8866d313ca1
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_DELETE_RECORD_FN, PIBIO_STORAGE_DELETE_RECORD_FN callback, StorageAdapterDeleteRecord, StorageAdapterDeleteRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterdeleterecord, winbio_adapter/StorageAdapterDeleteRecord
 ms.prod: windows
 ms.technology: windows-sdk

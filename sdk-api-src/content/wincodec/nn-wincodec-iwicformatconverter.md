@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicformatconverter.htm
 old-project: wic
 ms.assetid: d558aaa7-5962-424c-9e83-363fba09ad50
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICFormatConverter, IWICFormatConverter interface [Windows Imaging Component], IWICFormatConverter interface [Windows Imaging Component],described, _wic_codec_iwicformatconverter, wic._wic_codec_iwicformatconverter, wincodec/IWICFormatConverter
 ms.prod: windows
 ms.technology: windows-sdk

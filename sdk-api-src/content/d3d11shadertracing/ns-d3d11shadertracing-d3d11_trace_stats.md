@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_stats.htm
 old-project: direct3d11
 ms.assetid: E4E44F7F-3760-490D-9BA3-677F63B93AA6
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3D11_TRACE_STATS, D3D11_TRACE_STATS structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STATS, direct3d11.d3d11_trace_stats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -184,7 +184,7 @@ A value that specifies whether this trace is for a pixel shader that outputs the
 ### -field GSInputPrimitive
 
 
-            A <a href="https://msdn.microsoft.com/9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9">D3D11_TRACE_GS_INPUT_PRIMITIVE</a>-typed value that identifies the type of geometry shader input primitive. That is, this value identifies:  {point, line, triangle, line_adj, triangle_adj} or the number of vertices: 1, 2, 3, 4, or 6 respectively. For example, for a line, input v[][#] is actually v[2][#]. For vertex shaders and pixel shaders, set this member to <a href="https://msdn.microsoft.com/library/Hh404529(v=VS.85).aspx">D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED</a>.
+            A <a href="https://msdn.microsoft.com/9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9">D3D11_TRACE_GS_INPUT_PRIMITIVE</a>-typed value that identifies the type of geometry shader input primitive. That is, this value identifies:  {point, line, triangle, line_adj, triangle_adj} or the number of vertices: 1, 2, 3, 4, or 6 respectively. For example, for a line, input v[][#] is actually v[2][#]. For vertex shaders and pixel shaders, set this member to <a href="d3d11_trace_gs_input_primitive.htm">D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED</a>.
           
 
 
@@ -202,7 +202,7 @@ A value that specifies whether this trace is for a geometry shader that inputs t
             
 
 
-              The <a href="https://msdn.microsoft.com/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a> value is available through a call to the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a> method.
+              The <a href="d3d11_trace_register_type.htm">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a> value is available through a call to the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a> method.
             
 
 
@@ -219,8 +219,8 @@ A value that specifies whether this trace is for a geometry shader that inputs t
             
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a></li>
-<li><a href="https://msdn.microsoft.com/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
+<li><a href="d3d11_trace_register_type.htm">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a></li>
+<li><a href="d3d11_trace_register_type.htm">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
 </ul>
 
 #### - PixelPosition[ 4 ][ 2 ]

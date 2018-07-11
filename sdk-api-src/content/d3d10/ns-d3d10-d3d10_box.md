@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_box.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_box.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_BOX, D3D10_BOX structure [Direct3D 10], a02d025c-3b75-5cb1-2b68-a6c9d6261bf1, d3d10/D3D10_BOX, direct3d10.d3d10_box
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ The z position of the back of the box.
 
 The following diagram shows a 3D box, where the origin is the left, front, top corner.
 
-<img alt="Diagram of a 3D box, where the origin is the left, front, top corner" src="./images/d3d10_box.png"/>
+<img alt="Diagram of a 3D box, where the origin is the left, front, top corner" src="images/d3d10_box.png"/>
 
 
 
@@ -115,7 +115,7 @@ The following diagram shows a 3D box, where the origin is the left, front, top c
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

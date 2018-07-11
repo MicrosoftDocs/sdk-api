@@ -7,7 +7,7 @@ old-location: search\_search_IQuerySolution_GetErrors.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Identifies parts of the input string that the parser did not recognize or did not use when constructing the <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> condition tree.
+          Identifies parts of the input string that the parser did not recognize or did not use when constructing the <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> condition tree.
         
 
 
@@ -75,7 +75,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-          Receives a pointer to an enumeration of zero or more <a href="https://msdn.microsoft.com/library/Bb231336(v=VS.85).aspx">IRichChunk</a> objects, each describing one parsing error.
+          Receives a pointer to an enumeration of zero or more <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> objects, each describing one parsing error.
         
 
 
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
  
-        Each parsing error is represented by an <a href="https://msdn.microsoft.com/library/Bb231336(v=VS.85).aspx">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://msdn.microsoft.com/library/Aa965707(v=VS.85).aspx">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
+        Each parsing error is represented by an <a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a> object in which the position information reflects token counts. The <b>IRichChunk</b> object <i>ppsz</i> string is <b>NULL</b>, and the <i>pValue</i> is a <a href="_stg_propvariant">PROPVARIANT</a> that contains a <b>lVal</b> identifying the <a href="https://msdn.microsoft.com/abc76a8c-ee72-469a-85a0-75c12ee4e5d9">STRUCTURED_QUERY_PARSE_ERROR</a> enumeration.
       
 
 

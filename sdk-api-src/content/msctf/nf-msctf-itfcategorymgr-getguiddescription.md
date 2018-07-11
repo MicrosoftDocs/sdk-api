@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_getguiddescription.htm
 old-project: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetGUIDDescription, GetGUIDDescription method [Text Services Framework], GetGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDescription method, ITfCategoryMgr.GetGUIDDescription, ITfCategoryMgr::GetGUIDDescription, _tsf_itfcategorymgr_getguiddescription_ref, msctf/ITfCategoryMgr::GetGUIDDescription, tsf.itfcategorymgr_getguiddescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Specifies the GUID to obtain the description for.
 
 ### -param pbstrDesc [out]
 
-Pointer to a <b>BSTR</b> value that receives the description string. Allocate using <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The caller must free this memory using <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Pointer to a <b>BSTR</b> value that receives the description string. Allocate using <a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The caller must free this memory using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 Pointer to a <b>BSTR</b> value that receives the description string. This must be allocated using <b>SysAllocString</b>. The caller must free this memory using <b>SysFreeString</b> when it is no longer required.
 

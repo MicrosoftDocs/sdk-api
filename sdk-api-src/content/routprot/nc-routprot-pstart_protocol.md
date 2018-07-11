@@ -4,10 +4,10 @@ title: PSTART_PROTOCOL
 author: windows-sdk-content
 description: The StartProtocol function initializes the routing protocol's functionality.
 old-location: rras\startprotocol.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 8c1c0173-5abf-4e44-a633-16742fd2a4c0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: PSTART_PROTOCOL, PSTART_PROTOCOL callback, StartProtocol, StartProtocol callback function [RAS], _mpr_startprotocol, routprot/StartProtocol, rras.startprotocol
 ms.prod: windows
 ms.technology: windows-sdk

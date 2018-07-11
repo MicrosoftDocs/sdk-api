@@ -7,7 +7,7 @@ old-location: tcui\showprofilecardui.htm
 old-project: tcui
 ms.assetid: 1BFC3B4B-4E48-4FAF-8B52-6E04EB72A064
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: ShowProfileCardUI, ShowProfileCardUI function, gamingtcui/ShowProfileCardUI, tcui.showprofilecardui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

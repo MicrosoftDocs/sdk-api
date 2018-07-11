@@ -7,7 +7,7 @@ old-location: wsw\wswriteenvelopeend.htm
 old-project: wsw
 ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsWriteEnvelopeEnd, WsWriteEnvelopeEnd function [Web Services for Windows], webservices/WsWriteEnvelopeEnd, wsw.wswriteenvelopeend
 ms.prod: windows
 ms.technology: windows-sdk

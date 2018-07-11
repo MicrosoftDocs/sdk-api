@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysession_get_sessionid.htm
 old-project: medfound
 ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_SessionId method, IMFMediaKeySession.get_SessionId, IMFMediaKeySession::get_SessionId, get_SessionId, get_SessionId method [Media Foundation], get_SessionId method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_sessionid, mfmediaengine/IMFMediaKeySession::get_SessionId
 ms.prod: windows
 ms.technology: windows-sdk

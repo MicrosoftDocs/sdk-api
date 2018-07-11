@@ -4,10 +4,10 @@ title: INetworkConnectionEvents::NetworkConnectionConnectivityChanged
 author: windows-sdk-content
 description: The NetworkConnectionConnectivityChanged method notifies a client when connectivity change events occur on a network connection level.
 old-location: nla\inetworkconnectionevents_networkconnectionconnectivitychanged.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 0b245a6e-918c-41de-b33e-87723491e900
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: INetworkConnectionEvents interface [Network Awareness],NetworkConnectionConnectivityChanged method, INetworkConnectionEvents.NetworkConnectionConnectivityChanged, INetworkConnectionEvents::NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged, NetworkConnectionConnectivityChanged method [Network Awareness], NetworkConnectionConnectivityChanged method [Network Awareness],INetworkConnectionEvents interface, netlistmgr/INetworkConnectionEvents::NetworkConnectionConnectivityChanged, nla.inetworkconnectionevents_networkconnectionconnectivitychanged
 ms.prod: windows
 ms.technology: windows-sdk

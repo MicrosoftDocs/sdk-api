@@ -4,10 +4,10 @@ title: NdfCreatePnrpIncident function
 author: windows-sdk-content
 description: Creates a session to diagnose issues with the Peer Name Resolution Protocol (PNRP) service.
 old-location: ndf\ndfcreatepnrpincident.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: e9ee6433-89b9-4b95-b02c-2778e009220c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.ndfcreatepnrpincident, ndfapi/NdfCreatePnrpIncident
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagSTGMOVE
 author: windows-sdk-content
 description: Indicate whether a storage element is to be moved or copied.
 old-location: stg\stgmove.htm
-old-project: Stg
+old-project: stg
 ms.assetid: f55c376b-f150-406a-b960-f096c2deeff1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: STGMOVE, STGMOVE enumeration [Structured Storage], STGMOVE_COPY, STGMOVE_MOVE, STGMOVE_SHALLOWCOPY, _stg_stgmove, stg.stgmove, tagSTGMOVE, wtypes/STGMOVE, wtypes/STGMOVE_COPY, wtypes/STGMOVE_MOVE, wtypes/STGMOVE_SHALLOWCOPY
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DHCPV6_STATELESS_PARAM_TYPE
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.
 old-location: dhcp\dhcpv6_stateless_param_type.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 8670c69b-1fc0-4b60-b5cc-a616d56c9319
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DHCPV6_STATELESS_PARAM_TYPE, DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP], DhcpStatelessPurgeInterval, DhcpStatelessStatus, dhcp.dhcpv6_stateless_param_type, dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE, dhcpsapi/DhcpStatelessPurgeInterval, dhcpsapi/DhcpStatelessStatus
 ms.prod: windows
 ms.technology: windows-sdk

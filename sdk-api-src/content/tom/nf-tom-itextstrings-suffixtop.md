@@ -4,10 +4,10 @@ title: ITextStrings::SuffixTop
 author: windows-sdk-content
 description: Suffixes a string to the top string in the collection.
 old-location: controls\itextstrings_suffixtop.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 66f4e5c6-e97b-48a5-9c71-3efb1eba12d6
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextStrings interface [Windows Controls],SuffixTop method, ITextStrings.SuffixTop, ITextStrings::SuffixTop, SuffixTop, SuffixTop method [Windows Controls], SuffixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_suffixtop, tom/ITextStrings::SuffixTop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusNode::get_Cluster
 author: windows-sdk-content
 description: Cluster object providing access to the cluster associated with a node.
 old-location: mscs\clusnode_cluster.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: fd0e7191-0df5-465e-b867-2c395447ebc9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNode object [Failover Cluster],Cluster property, ClusNode.Cluster, Cluster property [Failover Cluster], Cluster property [Failover Cluster],ClusNode object, ISClusNode.get_Cluster, ISClusNode::get_Cluster, _wolf_clusnode.cluster, get_Cluster, mscs.clusnode_cluster
 ms.prod: windows
 ms.technology: windows-sdk

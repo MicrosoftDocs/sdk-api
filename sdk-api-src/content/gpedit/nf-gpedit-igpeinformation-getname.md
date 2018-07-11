@@ -4,10 +4,10 @@ title: IGPEInformation::GetName
 author: windows-sdk-content
 description: The GetName method retrieves the unique name for the GPO. This value is usually a GUID.
 old-location: policy\igpeinformation_getname.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 94112a6e-cd8a-4fb7-9c37-86a1b7713ddb
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetName method, IGPEInformation.GetName, IGPEInformation::GetName, _win32_igpeinformation_getname, gpedit/IGPEInformation::GetName, policy.igpeinformation_getname
 ms.prod: windows
 ms.technology: windows-sdk

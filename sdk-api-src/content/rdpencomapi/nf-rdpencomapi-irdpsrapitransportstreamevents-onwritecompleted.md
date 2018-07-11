@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamEvents::OnWriteCompleted
 author: windows-sdk-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that a write operation has completed.
 old-location: rdp\irdpsrapitransportstreamevents_onwritecompleted.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 19d99eba-e7ee-4bdc-8a9f-2cac97d17dea
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnWriteCompleted method, IRDPSRAPITransportStreamEvents.OnWriteCompleted, IRDPSRAPITransportStreamEvents::OnWriteCompleted, OnWriteCompleted, OnWriteCompleted method [RDP], OnWriteCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onwritecompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
 ms.prod: windows
 ms.technology: windows-sdk

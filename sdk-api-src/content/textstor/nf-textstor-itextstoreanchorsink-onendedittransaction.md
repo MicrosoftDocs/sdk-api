@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onendedittransaction.htm
 old-project: TSF
 ms.assetid: fe7610b3-02f0-491a-8c55-f9dc9843073b
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreAnchorSink.OnEndEditTransaction, ITextStoreAnchorSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onendedittransaction_ref, textstor/ITextStoreAnchorSink::OnEndEditTransaction, tsf.itextstoreanchorsink_onendedittransaction
 ms.prod: windows
 ms.technology: windows-sdk

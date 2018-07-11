@@ -4,10 +4,10 @@ title: Button_SetDropDownState macro
 author: windows-sdk-content
 description: Sets the drop down state for a specified button with style of BS_SPLITBUTTON. Use this macro or send the BCM_SETDROPDOWNSTATE message explicitly.
 old-location: controls\Button_SetDropDownState.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setdropdownstate.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Controls], _shell_Button_SetDropDownState, _shell_Button_SetDropDownState_cpp, commctrl/Button_SetDropDownState, controls.Button_SetDropDownState, controls._shell_Button_SetDropDownState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the drop down state for a specified button with style of <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775973(v=VS.85).aspx">BCM_SETDROPDOWNSTATE</a> message explicitly. 
+Sets the drop down state for a specified button with style of <a href="Button_Styles.htm">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://msdn.microsoft.com/725deff4-0bcb-497d-a6cf-e9c98b05f16e">BCM_SETDROPDOWNSTATE</a> message explicitly. 
 
 
 ## -parameters

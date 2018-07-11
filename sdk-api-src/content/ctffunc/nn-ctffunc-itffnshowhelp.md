@@ -7,7 +7,7 @@ old-location: tsf\itffnshowhelp.htm
 old-project: TSF
 ms.assetid: d5d60767-95f3-4ed0-b61e-58e06d1e1a98
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfFnShowHelp, ITfFnShowHelp interface [Text Services Framework], ITfFnShowHelp interface [Text Services Framework],described, _tsf_itffnshowhelp_ref, ctffunc/ITfFnShowHelp, tsf.itffnshowhelp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ The TSF manager obtains the help menu text by calling the text service's <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

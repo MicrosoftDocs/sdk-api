@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm
 old-project: TermServ
 ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
 ms.prod: windows
 ms.technology: windows-sdk

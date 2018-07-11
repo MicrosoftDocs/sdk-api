@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingproviderenabled.htm
 old-project: tracelogging
 ms.assetid: 3ECA1A19-CFDD-4B14-AF88-0180C9B65F00
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 04/27/2018
 ms.keywords: TraceLoggingProviderEnabled, TraceLoggingProviderEnabled function, tracelogging.traceloggingproviderenabled, traceloggingprovider/TraceLoggingProviderEnabled
 ms.prod: windows
 ms.technology: windows-sdk

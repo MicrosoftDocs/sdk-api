@@ -4,10 +4,10 @@ title: PeerCollabUnregisterApplication function
 author: windows-sdk-content
 description: Unregisters the specific applications of a peer from the local computer.
 old-location: p2p\peercollabunregisterapplication.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabUnregisterApplication, PeerCollabUnregisterApplication function [Peer Networking], p2p.peercollabunregisterapplication, p2p/PeerCollabUnregisterApplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ To unregister the application for all users, the caller of this API must be elev
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
+<a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>
  
 
  

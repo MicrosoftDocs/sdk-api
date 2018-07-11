@@ -4,10 +4,10 @@ title: PRESUTIL_FREE_PARAMETER_BLOCK
 author: windows-sdk-content
 description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
 old-location: mscs\resutilfreeparameterblock.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK callback, PRESUTIL_FREE_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK
 ms.prod: windows
 ms.technology: windows-sdk

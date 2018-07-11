@@ -4,10 +4,10 @@ title: PWINBIO_ENROLL_CAPTURE_CALLBACK
 author: windows-sdk-content
 description: Called by the Windows Biometric Framework to return results from the asynchronous WinBioEnrollCaptureWithCallback function.
 old-location: secbiomet\pwinbio_enroll_capture_callback.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: B43C8A68-4D39-4275-891C-2DFE97DC4D64
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PWINBIO_ENROLL_CAPTURE_CALLBACK, PWINBIO_ENROLL_CAPTURE_CALLBACK function, PWINBIO_ENROLL_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_enroll_capture_callback, winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

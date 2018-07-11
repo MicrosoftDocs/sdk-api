@@ -4,10 +4,10 @@ title: TreeView_GetUnicodeFormat macro
 author: windows-sdk-content
 description: Retrieves the Unicode character format flag for the control. You can use this macro or send the TVM_GETUNICODEFORMAT message explicitly.
 old-location: controls\TreeView_GetUnicodeFormat.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_GetUnicodeFormat, TreeView_GetUnicodeFormat macro [Windows Controls], _win32_TreeView_GetUnicodeFormat, _win32_TreeView_GetUnicodeFormat_cpp, commctrl/TreeView_GetUnicodeFormat, controls.TreeView_GetUnicodeFormat, controls._win32_TreeView_GetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773730(v=VS.85).aspx">TVM_GETUNICODEFORMAT</a> message explicitly. 
+Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/d95f61b6-9ec1-4471-b24b-efe141428747">TVM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760135(v=VS.85).aspx">TreeView_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/2a12ee6f-678b-459b-84ec-1c48e1d5925a">TreeView_SetUnicodeFormat</a>
  
 
  

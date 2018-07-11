@@ -4,10 +4,10 @@ title: tagUiInfo
 author: windows-sdk-content
 description: The UiInfo structure is used to display repair messages to the user.
 old-location: ndf\uiinfo.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo, tagUiInfo"
 ms.prod: windows
 ms.technology: windows-sdk

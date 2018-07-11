@@ -4,10 +4,10 @@ title: PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY
 author: windows-sdk-content
 description: Removes a groupset from a groupset's dependency expression.
 old-location: mscs\removeclustergroupcollectiondependency.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1a9dcc3f-e73a-4f14-a418-b1c62a0c98c2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback, PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.removeclustergroupcollectiondependency
 ms.prod: windows
 ms.technology: windows-sdk

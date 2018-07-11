@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2submixvoice.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2submixvoice.IXAudio2SubmixVoice
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: IXAudio2SubmixVoice, IXAudio2SubmixVoice interface [XAudio2 Audio Mixing APIs], IXAudio2SubmixVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2submixvoice, xaudio2/IXAudio2SubmixVoice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ A submix voice is used primarily for performance improvements and effects proces
 Data buffers cannot be submitted directly to submix voices and will not be audible unless submitted to a mastering voice. A submix voice can be used to ensure that a particular set of voice data is converted to the same format and/or to have a particular effect chain processed on the collective result. 
 
 
-IXAudio2SubmixVoice inherits directly from <a href="https://msdn.microsoft.com/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>, but does not implement methods specific to submix voices. The interface type exists solely because some of the base class methods are implemented differently for submix voices. Having a separate type for these voices helps client code to distinguish the different voice types and to benefit from C++ type safety.
+IXAudio2SubmixVoice inherits directly from <a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>, but does not implement methods specific to submix voices. The interface type exists solely because some of the base class methods are implemented differently for submix voices. Having a separate type for these voices helps client code to distinguish the different voice types and to benefit from C++ type safety.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -79,7 +79,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
 
 
 

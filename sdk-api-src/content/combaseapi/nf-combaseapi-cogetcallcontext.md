@@ -7,7 +7,7 @@ old-location: com\cogetcallcontext.htm
 old-project: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
 ms.prod: windows
 ms.technology: windows-sdk

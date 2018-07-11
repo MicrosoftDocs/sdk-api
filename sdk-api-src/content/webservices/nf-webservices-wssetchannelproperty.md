@@ -7,7 +7,7 @@ old-location: wsw\wssetchannelproperty.htm
 old-project: wsw
 ms.assetid: 0bf3ec1b-c711-4c26-9c54-5d0184c89871
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsSetChannelProperty, WsSetChannelProperty function [Web Services for Windows], webservices/WsSetChannelProperty, wsw.wssetchannelproperty
 ms.prod: windows
 ms.technology: windows-sdk

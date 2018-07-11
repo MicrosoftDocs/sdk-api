@@ -7,7 +7,7 @@ old-location: gdi\closemetafile.htm
 old-project: gdi
 ms.assetid: 8e50457a-8ef8-4e71-8c56-38cfb277f57d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CloseMetaFile, CloseMetaFile function [Windows GDI], _win32_CloseMetaFile, gdi.closemetafile, wingdi/CloseMetaFile
 ms.prod: windows
 ms.technology: windows-sdk

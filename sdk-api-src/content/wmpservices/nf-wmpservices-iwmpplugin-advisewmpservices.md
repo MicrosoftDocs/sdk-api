@@ -7,7 +7,7 @@ old-location: wmp\iwmpplugin_advisewmpservices.htm
 old-project: WMP
 ms.assetid: 203b9363-1363-48be-8ba6-8b152ae9a92f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: AdviseWMPServices, AdviseWMPServices method [Windows Media Player], AdviseWMPServices method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],AdviseWMPServices method, IWMPPlugin.AdviseWMPServices, IWMPPlugin::AdviseWMPServices, IWMPPluginAdviseWMPServicesDSP, wmp.iwmpplugin_advisewmpservices, wmpservices/IWMPPlugin::AdviseWMPServices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PCLUSAPI_FAIL_CLUSTER_RESOURCE
 author: windows-sdk-content
 description: Initiates a resource failure.
 old-location: mscs\failclusterresource.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: fcf0226e-4dd0-4c13-86eb-bc87e461234c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_FAIL_CLUSTER_RESOURCE, PCLUSAPI_FAIL_CLUSTER_RESOURCE callback, PCLUSAPI_FAIL_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_failclusterresource, clusapi/PCLUSAPI_FAIL_CLUSTER_RESOURCE, mscs.failclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

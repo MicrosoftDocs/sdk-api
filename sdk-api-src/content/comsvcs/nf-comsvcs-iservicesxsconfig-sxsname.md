@@ -7,7 +7,7 @@ old-location: cos\iservicesxsconfig_sxsname.htm
 old-project: cossdk
 ms.assetid: 622632ba-1287-4303-a9dd-4fb870e43786
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsName method, IServiceSxsConfig.SxsName, IServiceSxsConfig::SxsName, SxsName, SxsName method [COM+], SxsName method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsName, comsvcs/IServiceSxsConfig::SxsName, cos.iservicesxsconfig_sxsname
 ms.prod: windows
 ms.technology: windows-sdk

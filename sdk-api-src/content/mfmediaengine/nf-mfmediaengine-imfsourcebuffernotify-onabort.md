@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify_onabort.htm
 old-project: medfound
 ms.assetid: 65d8bbb3-e683-4a9d-acb2-023932d3e44d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnAbort method, IMFSourceBufferNotify.OnAbort, IMFSourceBufferNotify::OnAbort, OnAbort, OnAbort method [Media Foundation], OnAbort method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onabort, mfmediaengine/IMFSourceBufferNotify::OnAbort
 ms.prod: windows
 ms.technology: windows-sdk

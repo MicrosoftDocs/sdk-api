@@ -4,10 +4,10 @@ title: RsopResetPolicySettingStatus function
 author: windows-sdk-content
 description: The RSoPResetPolicySettingStatus function unlinks the RSOP_PolicySettingStatus instance from its RSOP_PolicySetting instance.
 old-location: policy\rsopresetpolicysettingstatus.htm
-old-project: Policy
+old-project: policy
 ms.assetid: fd849efe-1ee7-4034-aea2-1a2bdb5e46bc
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RSoPResetPolicySettingStatus, RSoPResetPolicySettingStatus function [Group Policy], RsopResetPolicySettingStatus, _win32_rsopresetpolicysettingstatus, policy.rsopresetpolicysettingstatus, userenv/RSoPResetPolicySettingStatus
 ms.prod: windows
 ms.technology: windows-sdk

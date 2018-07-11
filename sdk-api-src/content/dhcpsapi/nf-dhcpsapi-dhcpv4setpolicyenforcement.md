@@ -4,10 +4,10 @@ title: DhcpV4SetPolicyEnforcement function
 author: windows-sdk-content
 description: Sets the policy enforcement state of the server or the specified IPv4 subnet on the DHCP Server.
 old-location: dhcp\dhcpv4setpolicyenforcement.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 1e87942a-3ee1-442a-a56a-8e63b3003d3b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpV4SetPolicyEnforcement, DhcpV4SetPolicyEnforcement function [DHCP], dhcp.dhcpv4setpolicyenforcement, dhcpsapi/DhcpV4SetPolicyEnforcement
 ms.prod: windows
 ms.technology: windows-sdk

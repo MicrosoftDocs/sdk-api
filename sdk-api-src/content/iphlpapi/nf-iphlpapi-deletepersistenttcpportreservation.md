@@ -4,10 +4,10 @@ title: DeletePersistentTcpPortReservation function
 author: windows-sdk-content
 description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\deletepersistenttcpportreservation.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 533F8B35-6EC1-43BB-B8E6-EB086A9C646C
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: DeletePersistentTcpPortReservation, DeletePersistentTcpPortReservation function [IP Helper], iphlp.deletepersistenttcpportreservation, iphlpapi/DeletePersistentTcpPortReservation
 ms.prod: windows
 ms.technology: windows-sdk

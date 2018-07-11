@@ -4,10 +4,10 @@ title: PRESUTIL_FIND_ULARGEINTEGER_PROPERTY
 author: windows-sdk-content
 description: Gets a large integer property value from a property list. The PRESUTIL_FIND_ULARGEINTEGER_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindulargeintegerproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: BA4DD6F0-07DB-4601-B8EB-E79B49F2829F
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_FIND_ULARGEINTEGER_PROPERTY, PRESUTIL_FIND_ULARGEINTEGER_PROPERTY callback, PRESUTIL_FIND_ULARGEINTEGER_PROPERTY callback function [Failover Cluster], mscs.resutilfindulargeintegerproperty, resapi/PRESUTIL_FIND_ULARGEINTEGER_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

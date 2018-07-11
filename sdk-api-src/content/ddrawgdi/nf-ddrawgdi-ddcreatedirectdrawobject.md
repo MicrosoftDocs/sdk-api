@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedirectdrawobject.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DdCreateDirectDrawObject, DdCreateDirectDrawObject function [Windows API], GdiEntry1, _dxgkernel_ddcreatedirectdrawobject, ddrawgdi/DdCreateDirectDrawObject, ddrawgdi/GdiEntry1, winprog._dxgkernel_ddcreatedirectdrawobject, winui._dxgkernel_ddcreatedirectdrawobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: DDPIXELFORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -56,7 +56,7 @@ req.irql:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/library/ms648484(v=VS.85).aspx">NtGdiDdCreateDirectDrawObject</a> function and creates a kernel-side representation of the Microsoft DirectDraw object. A handle to this representation will be stored in <i>pDirectDrawGlobal</i>-&gt;hDD.
+Wrapper for the <a href="https://msdn.microsoft.com/e380f948-35a0-4cf0-9b69-ab2bd4f9a161">NtGdiDdCreateDirectDrawObject</a> function and creates a kernel-side representation of the Microsoft DirectDraw object. A handle to this representation will be stored in <i>pDirectDrawGlobal</i>-&gt;hDD.
 
 
 <b>GdiEntry1</b> is defined as an alias for this function.
@@ -104,7 +104,7 @@ DirectDraw and
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

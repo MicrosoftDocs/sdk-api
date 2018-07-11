@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10stateblockmaskdifference.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskdifference.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 73eee0fa-79d7-c0e4-893e-efe3c0927f3f, D3D10StateBlockMaskDifference, D3D10StateBlockMaskDifference function [Direct3D 10], d3d10effect/D3D10StateBlockMaskDifference, direct3d10.d3d10stateblockmaskdifference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,21 +60,21 @@ Combine two state-block masks with a bitwise XOR.
 
 ### -param pA [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-State block mask on the left side of the bitwise XOR operation. See <a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>.
+State block mask on the left side of the bitwise XOR operation. See <a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>.
 
 
 ### -param pB [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>*</b>
 
 State block mask on the right side of the bitwise XOR operation.
 
 
 ### -param pResult [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3188002c-a49f-4991-8fd5-75b31de8b790">D3D10_STATE_BLOCK_MASK</a>*</b>
 
 The result of the bitwise XOR operation.
 
@@ -83,9 +83,9 @@ The result of the bitwise XOR operation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,11 +95,11 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/012577cd-970e-43bc-996e-3be7c2283b60">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
+<a href="https://msdn.microsoft.com/b76643f0-387f-49c6-80e5-4d7b406b4db7">Effect Functions</a>
  
 
  

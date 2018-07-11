@@ -7,7 +7,7 @@ old-location: imapi\iburnverification.htm
 old-project: imapi
 ms.assetid: 3a410ab8-dfc3-4c30-a198-3888ed750a6d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IBurnVerification, IBurnVerification interface [IMAPI], IBurnVerification interface [IMAPI],described, imapi.iburnverification, imapi2/IBurnVerification
 ms.prod: windows
 ms.technology: windows-sdk

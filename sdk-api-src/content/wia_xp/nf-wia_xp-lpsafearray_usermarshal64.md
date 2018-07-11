@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_usermarshal64.htm
 old-project: automat
 ms.assetid: 532CE1FB-FDE0-491A-90D2-CC6F45DB7FDF
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: LPSAFEARRAY_UserMarshal64, LPSAFEARRAY_UserMarshal64 function [Automation], automat.lpsafearray_usermarshal64, wia_xp/LPSAFEARRAY_UserMarshal64
 ms.prod: windows
 ms.technology: windows-sdk

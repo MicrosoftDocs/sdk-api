@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_bootimageoptions.htm
 old-project: imapi
 ms.assetid: b9721313-a2b0-4d91-af10-7932bd2d01be
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_BootImageOptions method, IFileSystemImage.get_BootImageOptions, IFileSystemImage::get_BootImageOptions, get_BootImageOptions, get_BootImageOptions method [IMAPI], get_BootImageOptions method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_bootimageoptions, imapi2fs/IFileSystemImage::get_BootImageOptions
 ms.prod: windows
 ms.technology: windows-sdk

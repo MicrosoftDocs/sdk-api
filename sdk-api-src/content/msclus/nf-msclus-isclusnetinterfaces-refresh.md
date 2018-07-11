@@ -4,10 +4,10 @@ title: ISClusNetInterfaces::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the ClusNetInterfaces collection.
 old-location: mscs\clusnetinterfaces_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8164c708-3889-4368-8112-62e8213e7fb7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetInterfaces collection [Failover Cluster],Refresh method, ClusNetInterfaces.Refresh, ISClusNetInterfaces.Refresh, ISClusNetInterfaces::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusNetInterfaces collection, _wolf_clusnetinterfaces.refresh, mscs.clusnetinterfaces_refresh
 ms.prod: windows
 ms.technology: windows-sdk

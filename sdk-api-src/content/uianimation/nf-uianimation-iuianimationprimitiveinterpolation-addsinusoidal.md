@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprimitiveinterpolation_addsinusoidal.htm
 old-project: UIAnimation
 ms.assetid: AF2BD96D-45A2-415B-A1BD-320C43F50360
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: AddSinusoidal, AddSinusoidal method [Windows Animation], AddSinusoidal method [Windows Animation],IUIAnimationPrimitiveInterpolation interface, IUIAnimationPrimitiveInterpolation interface [Windows Animation],AddSinusoidal method, IUIAnimationPrimitiveInterpolation.AddSinusoidal, IUIAnimationPrimitiveInterpolation::AddSinusoidal, uianimation.iuianimationprimitiveinterpolation_addsinusoidal, uianimation/IUIAnimationPrimitiveInterpolation::AddSinusoidal
 ms.prod: windows
 ms.technology: windows-sdk

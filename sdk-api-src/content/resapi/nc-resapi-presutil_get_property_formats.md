@@ -4,10 +4,10 @@ title: PRESUTIL_GET_PROPERTY_FORMATS
 author: windows-sdk-content
 description: Returns a property format list describing the format of a specified set of properties. The PRESUTIL_GET_PROPERTY_FORMATS type defines a pointer to this function.
 old-location: mscs\resutilgetpropertyformats.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 034c7a4f-4219-47ea-afb0-a7c634d1b544
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_FORMATS, PRESUTIL_GET_PROPERTY_FORMATS callback, PRESUTIL_GET_PROPERTY_FORMATS callback function [Failover Cluster], _wolf_resutilgetpropertyformats, mscs.resutilgetpropertyformats, resapi/PRESUTIL_GET_PROPERTY_FORMATS
 ms.prod: windows
 ms.technology: windows-sdk

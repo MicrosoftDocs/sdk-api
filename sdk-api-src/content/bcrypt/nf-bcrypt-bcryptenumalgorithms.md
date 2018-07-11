@@ -4,10 +4,10 @@ title: BCryptEnumAlgorithms function
 author: windows-sdk-content
 description: Gets a list of the registered algorithm identifiers.
 old-location: security\bcryptenumalgorithms_func.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 7fa227c0-2b80-49ab-8a19-72f8444d5507
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, BCRYPT_CIPHER_OPERATION, BCRYPT_HASH_OPERATION, BCRYPT_RNG_OPERATION, BCRYPT_SECRET_AGREEMENT_OPERATION, BCRYPT_SIGNATURE_OPERATION, BCryptEnumAlgorithms, BCryptEnumAlgorithms function [Security], bcrypt/BCryptEnumAlgorithms, security.bcryptenumalgorithms_func
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBackgroundCopyFile3::GetValidationState
 author: windows-sdk-content
 description: Gets the current validation state of this file.
 old-location: bits\ibackgroundcopyfile3_getvalidationstate.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 705644e2-fd15-4225-b26a-e75c2dd2f6e3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetValidationState, GetValidationState method [BITS], GetValidationState method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetValidationState method, IBackgroundCopyFile3.GetValidationState, IBackgroundCopyFile3::GetValidationState, bits.ibackgroundcopyfile3_getvalidationstate, bits3_0/IBackgroundCopyFile3::GetValidationState
 ms.prod: windows
 ms.technology: windows-sdk

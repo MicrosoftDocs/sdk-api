@@ -4,10 +4,10 @@ title: PRESUTIL_ENUM_PROPERTIES
 author: windows-sdk-content
 description: Enumerates the property names of a cluster object. The PRESUTIL_ENUM_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1b3a6326-c0da-470a-9cd5-19daa9d48ccd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES callback, PRESUTIL_ENUM_PROPERTIES callback function [Failover Cluster], _wolf_resutilenumproperties, mscs.resutilenumproperties, resapi/PRESUTIL_ENUM_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

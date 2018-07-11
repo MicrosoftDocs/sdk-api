@@ -4,10 +4,10 @@ title: PropSheet_IndexToHwnd macro
 author: windows-sdk-content
 description: Takes the index of a property sheet page and returns its window handle. You can use this macro or send the PSM_INDEXTOHWND message explicitly.
 old-location: controls\PropSheet_IndexToHwnd.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextohwnd.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: PropSheet_IndexToHwnd, PropSheet_IndexToHwnd macro [Windows Controls], _win32_PropSheet_IndexToHwnd, _win32_PropSheet_IndexToHwnd_cpp, controls.PropSheet_IndexToHwnd, controls._win32_PropSheet_IndexToHwnd, prsht/PropSheet_IndexToHwnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774585(v=VS.85).aspx">PSM_INDEXTOHWND</a> message explicitly.
+Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/93b46b4c-47f9-4ce8-8797-f3d4bd5248e9">PSM_INDEXTOHWND</a> message explicitly.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
+<a href="https://msdn.microsoft.com/a90c1ccc-f25e-476a-bdc5-f4fb568a3cb5">PropSheet_HwndToIndex</a>
  
 
  

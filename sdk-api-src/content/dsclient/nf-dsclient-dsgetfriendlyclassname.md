@@ -4,10 +4,10 @@ title: DsGetFriendlyClassName function
 author: windows-sdk-content
 description: Retrieves the localized name for an object class.
 old-location: ad\dsgetfriendlyclassname.htm
-old-project: AD
+old-project: ad
 ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
 ms.prod: windows
 ms.technology: windows-sdk

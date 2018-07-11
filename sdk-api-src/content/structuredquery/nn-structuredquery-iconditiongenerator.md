@@ -7,7 +7,7 @@ old-location: search\_search_IConditionGenerator.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\iconditiongenerator.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search],described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The <b>IConditionGenerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231378(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://msdn.microsoft.com/f8aeb9d8-929a-411d-bb55-80e569cacc06">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
 This method attempts to produce a phrase that, when recognized by this instance of <b>IConditionGenerator</b>, represents the type and value pair for an entity, relationship, or named entity.
@@ -82,7 +82,7 @@ This method attempts to produce a phrase that, when recognized by this instance 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231379(v=VS.85).aspx">GenerateForLeaf</a>
+<a href="https://msdn.microsoft.com/940107e4-4f80-4eb8-8199-cfdfe989b8eb">GenerateForLeaf</a>
 </td>
 <td align="left" width="63%">
 
@@ -104,11 +104,11 @@ This method attempts to produce a phrase that, when recognized by this instance 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231382(v=VS.85).aspx">RecognizeNamedEntities</a>
+<a href="https://msdn.microsoft.com/7af06731-4976-4bd8-8f06-3ff422b33980">RecognizeNamedEntities</a>
 </td>
 <td align="left" width="63%">
 
-            Identifies named entities in an input string, and creates a collection containing them. The value of each named entity is expressed as a string, which is then used by <a href="https://msdn.microsoft.com/library/Bb231379(v=VS.85).aspx">IConditionGenerator::GenerateForLeaf</a>. The string can contain any data and be in any format, because it is not examined by any other components.
+            Identifies named entities in an input string, and creates a collection containing them. The value of each named entity is expressed as a string, which is then used by <a href="https://msdn.microsoft.com/940107e4-4f80-4eb8-8199-cfdfe989b8eb">IConditionGenerator::GenerateForLeaf</a>. The string can contain any data and be in any format, because it is not examined by any other components.
 	    
 
 </td>
@@ -120,7 +120,7 @@ This method attempts to produce a phrase that, when recognized by this instance 
 
 
 
-When an object that supports <b>IConditionGenerator</b> has been registered with a query parser as a semantic type T (using the <a href="https://msdn.microsoft.com/library/Bb231358(v=VS.85).aspx">IQueryParser::SetMultiOption</a> method with the <a href="https://msdn.microsoft.com/library/Aa965706(v=VS.85).aspx">SQMO_GENERATOR_FOR_TYPE</a> constant), and that query parser is about to generate a leaf condition node with semantic type T, the query parser first calls the <a href="https://msdn.microsoft.com/library/Bb231379(v=VS.85).aspx">IConditionGenerator::GenerateForLeaf</a> method of the condition generator. If that method returns S_OK, the returned condition tree (which need not be a leaf node) is used. If it returns S_FALSE, then normal processing ia resumed, which generates a leaf node.
+When an object that supports <b>IConditionGenerator</b> has been registered with a query parser as a semantic type T (using the <a href="https://msdn.microsoft.com/3f1d1bed-65b9-4eec-84a0-d77719bc9540">IQueryParser::SetMultiOption</a> method with the <a href="https://msdn.microsoft.com/c2f2a664-255f-4eec-89be-fc7562f4a788">SQMO_GENERATOR_FOR_TYPE</a> constant), and that query parser is about to generate a leaf condition node with semantic type T, the query parser first calls the <a href="https://msdn.microsoft.com/940107e4-4f80-4eb8-8199-cfdfe989b8eb">IConditionGenerator::GenerateForLeaf</a> method of the condition generator. If that method returns S_OK, the returned condition tree (which need not be a leaf node) is used. If it returns S_FALSE, then normal processing ia resumed, which generates a leaf node.
 
 A query parser has condition generators preregistered for the known semantic types representing numbers, Booleans, date/time and file paths.
 
@@ -132,27 +132,27 @@ A query parser has condition generators preregistered for the known semantic typ
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
+<a href="https://msdn.microsoft.com/5fa88dc1-8ca3-4247-8bad-bba8be2ad734">CONDITION_CREATION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
+<a href="https://msdn.microsoft.com/c678fa37-8673-4da7-9c23-9a7f478dc1b0">IConditionFactory</a>
 
 
 

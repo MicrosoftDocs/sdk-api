@@ -4,10 +4,10 @@ title: SnmpExtensionQuery function
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionQuery function to resolve SNMP requests that contain variables within one or more of the SNMP extension agent's registered MIB subtrees. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionquery.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 5ca25e1d-d0aa-490e-a591-57b25a77b1da
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpExtensionQuery, SnmpExtensionQuery callback, SnmpExtensionQuery callback function [SNMP], _snmp_snmpextensionquery, snmp.snmpextensionquery, snmp/SnmpExtensionQuery
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_REMEDIATIONSERVERGROUPPROPERTIES"
 author: windows-sdk-content
 description: The values of the REMEDIATIONSERVERGROUPPROPERTIES enumeration type enumerate the properties of a remediation server group.
 old-location: nps\SDO_remediationservergroupproperties.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 9491305f-647d-462b-ad8b-2b7b26d3a1a5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVERGROUP_SERVERS_COLLECTION, REMEDIATIONSERVERGROUPPROPERTIES, REMEDIATIONSERVERGROUPPROPERTIES enumeration [Network Policy Server], _REMEDIATIONSERVERGROUPPROPERTIES, nps.SDO_remediationservergroupproperties, sdo.remediationservergroupproperties, sdoias/PROPERTY_REMEDIATIONSERVERGROUP_SERVERS_COLLECTION, sdoias/REMEDIATIONSERVERGROUPPROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

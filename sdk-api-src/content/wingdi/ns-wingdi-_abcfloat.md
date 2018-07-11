@@ -7,7 +7,7 @@ old-location: gdi\abcfloat.htm
 old-project: gdi
 ms.assetid: 540bb00c-f0e2-4ddd-98d1-cf3ed86b6ce0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*LPABCFLOAT, *NPABCFLOAT, *PABCFLOAT, ABCFLOAT, ABCFLOAT structure [Windows GDI], PABCFLOAT, PABCFLOAT structure pointer [Windows GDI], _ABCFLOAT, _win32_ABCFLOAT_str, gdi.abcfloat, wingdi/ABCFLOAT, wingdi/PABCFLOAT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\setmenuitembitmaps.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuitembitmaps.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, SetMenuItemBitmaps, SetMenuItemBitmaps function [Menus and Other Resources], _win32_SetMenuItemBitmaps, _win32_setmenuitembitmaps_cpp, menurc.setmenuitembitmaps, winui._win32_setmenuitembitmaps, winuser/SetMenuItemBitmaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -153,7 +153,7 @@ Use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -164,7 +164,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
  
 
  

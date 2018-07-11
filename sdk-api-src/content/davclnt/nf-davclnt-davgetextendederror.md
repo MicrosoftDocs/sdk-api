@@ -4,10 +4,10 @@ title: DavGetExtendedError function
 author: windows-sdk-content
 description: Retrieves the extended error code information that the WebDAV server returned for the previous failed I/O operation.
 old-location: webdav\davgetextendederror.htm
-old-project: WebDAV
+old-project: webdav
 ms.assetid: 939b6163-b7ae-4ab7-9bcc-a02cbf34ca63
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
 ms.prod: windows
 ms.technology: windows-sdk

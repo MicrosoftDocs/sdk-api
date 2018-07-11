@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_rssetviewports.htm
 old-project: direct3d12
 ms.assetid: 1ACFD260-1CE5-484C-83DD-021E8D895EBB
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetViewports method, ID3D12GraphicsCommandList.RSSetViewports, ID3D12GraphicsCommandList::RSSetViewports, RSSetViewports, RSSetViewports method, RSSetViewports method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetViewports, direct3d12.id3d12graphicscommandlist_rssetviewports
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42
         
 
 
-          Which viewport to use is determined by the <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
+          Which viewport to use is determined by the <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
 <div class="alert"><b>Note</b>  

@@ -4,10 +4,10 @@ title: "_VDS_PARTITION_FLAG"
 author: windows-sdk-content
 description: Defines a set of valid flags for a partition.
 old-location: base\vds_partition_flag.htm
-old-project: VDS
+old-project: vds
 ms.assetid: d6ac5769-d0bc-4a4e-93c0-e9c83303ec4c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: VDS_PARTITION_FLAG, VDS_PARTITION_FLAG enumeration [VDS], VDS_PTF_SYSTEM, _VDS_PARTITION_FLAG, base.vds_partition_flag, vds/VDS_PARTITION_FLAG, vds/VDS_PTF_SYSTEM
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IResultOwnerData::SortItems
 author: windows-sdk-content
 description: Sorts the items of a virtual result list.
 old-location: mmc\iresultownerdata_sortitems.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 5326e935-cb6c-4f76-8c9b-87d910dbbb0d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: IResultOwnerData interface [MMC],SortItems method, IResultOwnerData.SortItems, IResultOwnerData::SortItems, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, SortItems, SortItems method [MMC], SortItems method [MMC],IResultOwnerData interface, _slate_iresultownerdata_sortitems, mmc.iresultownerdata_sortitems, mmc/IResultOwnerData::SortItems
 ms.prod: windows
 ms.technology: windows-sdk

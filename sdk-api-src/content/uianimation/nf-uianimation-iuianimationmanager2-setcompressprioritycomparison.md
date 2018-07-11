@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_setcompressprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: A754A307-AFFB-4E43-862D-C2FBC85E6C74
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetCompressPriorityComparison method, IUIAnimationManager2.SetCompressPriorityComparison, IUIAnimationManager2::SetCompressPriorityComparison, SetCompressPriorityComparison, SetCompressPriorityComparison method [Windows Animation], SetCompressPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setcompressprioritycomparison, uianimation/IUIAnimationManager2::SetCompressPriorityComparison
 ms.prod: windows
 ms.technology: windows-sdk

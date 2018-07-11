@@ -7,7 +7,7 @@ old-location: shell\LongPtrSub.htm
 old-project: shell
 ms.assetid: f6e35f6a-9af1-4e14-82c0-0f96ecf01c15
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: LongPtrSub, LongPtrSub function [Windows Shell], intsafe/LongPtrSub, shell.LongPtrSub
 ms.prod: windows
 ms.technology: windows-sdk

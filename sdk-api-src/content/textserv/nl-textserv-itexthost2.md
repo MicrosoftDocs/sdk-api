@@ -4,10 +4,10 @@ title: ITextHost2
 author: windows-sdk-content
 description: The ITextHost2 interface extends the ITextHost interface.
 old-location: controls\itexthost2.htm
-old-project: Controls
+old-project: controls
 ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 interface [Windows Controls],described, controls.itexthost2, textserv/ITextHost2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextHost2</b> interface extends the <a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://msdn.microsoft.com/library/Bb787617(v=VS.85).aspx">ITextServices</a> and <a href="https://msdn.microsoft.com/B5DC90BA-F9A5-45DC-8C8A-784380C38769">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
+The <b>ITextHost2</b> interface extends the <a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a> and <a href="https://msdn.microsoft.com/B5DC90BA-F9A5-45DC-8C8A-784380C38769">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +92,7 @@ Notifies the text host that text services have been freed.
 <a href="https://msdn.microsoft.com/3D704159-795A-4BD6-B699-EC311D9B780C">TxGetEastAsianFlags</a>
 </td>
 <td align="left" width="63%">
-Gets whether IME input is allowed and whether the edit styles include <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>.
+Gets whether IME input is allowed and whether the edit styles include <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Retrieves the window styles and extended windows styles of the text host window.
 <a href="https://msdn.microsoft.com/24051A4F-70CD-4147-B623-BC818F3F9AF2">TxIsDoubleClickPending</a>
 </td>
 <td align="left" width="63%">
-Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/370aa19e-4939-4ac3-9c0b-137a9792e52a">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ Shows or hides the  caret during the drop portion of a drag-and-drop operation (
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicmetadatacreationoptions.htm
 old-project: wic
 ms.assetid: 41fece55-1ce4-455a-99b5-5ff0ecd27e07
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: WICMetadataCreationAllowUnknown, WICMetadataCreationDefault, WICMetadataCreationFailUnknown, WICMetadataCreationMask, WICMetadataCreationOptions, WICMetadataCreationOptions enumeration [Windows Imaging Component], _wic_codec_wicmetadatacreationoptions, wic._wic_codec_wicmetadatacreationoptions, wincodecsdk/WICMetadataCreationAllowUnknown, wincodecsdk/WICMetadataCreationDefault, wincodecsdk/WICMetadataCreationFailUnknown, wincodecsdk/WICMetadataCreationMask, wincodecsdk/WICMetadataCreationOptions
 ms.prod: windows
 ms.technology: windows-sdk

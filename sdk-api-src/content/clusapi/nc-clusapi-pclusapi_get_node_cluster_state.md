@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_NODE_CLUSTER_STATE
 author: windows-sdk-content
 description: Determines whether the Cluster service is installed and running on a node.
 old-location: mscs\getnodeclusterstate.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 67534bc8-f19e-4330-850a-788a7f031f5b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNotRunning, ClusterStateRunning, PCLUSAPI_GET_NODE_CLUSTER_STATE, PCLUSAPI_GET_NODE_CLUSTER_STATE callback, PCLUSAPI_GET_NODE_CLUSTER_STATE callback function [Failover Cluster], _wolf_getnodeclusterstate, clusapi/PCLUSAPI_GET_NODE_CLUSTER_STATE, mscs.getnodeclusterstate
 ms.prod: windows
 ms.technology: windows-sdk

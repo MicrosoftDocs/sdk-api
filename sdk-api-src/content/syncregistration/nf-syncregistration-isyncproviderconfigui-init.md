@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderconfigui_init.htm
 old-project: winsync
 ms.assetid: c4705bc9-c5ab-46f9-ace8-7e96c16dfb75
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],Init method, ISyncProviderConfigUI.Init, ISyncProviderConfigUI::Init, Init, Init method [Windows Sync], Init method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
 ms.prod: windows
 ms.technology: windows-sdk

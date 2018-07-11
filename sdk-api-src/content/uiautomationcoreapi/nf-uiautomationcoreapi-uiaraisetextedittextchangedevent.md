@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseTextEditTextChangedEventFunction.htm
 old-project: WinAuto
 ms.assetid: 19E7C2C1-D0D5-672F-FC6F-8E1B8CC19819
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaRaiseTextEditTextChangedEvent, UiaRaiseTextEditTextChangedEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseTextEditTextChangedEvent, winauto.uiauto_UiaRaiseTextEditTextChangedEventFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The type of text-edit change that occurred.
 
 ### -param pChangedData [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Ee684093(v=VS.85).aspx">SAFEARRAY</a>*</b>
+Type: <b><a href="uiauto_WorkingWithSafeArrays.htm">SAFEARRAY</a>*</b>
 
 The event data. Should be assignable as a <b>VAR</b> of type <b>VT_BSTR</b>.
 

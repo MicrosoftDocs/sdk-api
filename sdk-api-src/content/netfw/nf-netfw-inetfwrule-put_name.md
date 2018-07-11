@@ -4,10 +4,10 @@ title: INetFwRule::put_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this rule.
 old-location: ics\inetfwrule_name.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.put_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name, put_Name
 ms.prod: windows
 ms.technology: windows-sdk

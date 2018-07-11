@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_sessionkey.htm
 old-project: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], _SecPkgContext_SessionKey, security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey"
 ms.prod: windows
 ms.technology: windows-sdk

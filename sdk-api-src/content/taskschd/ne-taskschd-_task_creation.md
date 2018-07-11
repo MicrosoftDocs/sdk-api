@@ -4,10 +4,10 @@ title: "_TASK_CREATION"
 author: windows-sdk-content
 description: Defines how the Task Scheduler service creates, updates, or disables the task.
 old-location: taskschd\taskcreation.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: e8da4d76-25c8-4209-a75b-c77217c366d4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_CREATION, TASK_CREATION enumeration [Task Scheduler], TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_UPDATE, TASK_VALIDATE_ONLY, _TASK_CREATION, taskschd.taskcreation, taskschd/TASK_CREATE, taskschd/TASK_CREATE_OR_UPDATE, taskschd/TASK_CREATION, taskschd/TASK_DISABLE, taskschd/TASK_DONT_ADD_PRINCIPAL_ACE, taskschd/TASK_IGNORE_REGISTRATION_TRIGGERS, taskschd/TASK_UPDATE, taskschd/TASK_VALIDATE_ONLY
 ms.prod: windows
 ms.technology: windows-sdk

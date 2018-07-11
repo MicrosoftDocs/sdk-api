@@ -7,7 +7,7 @@ old-location: netvista\ndis_interface_information_str.htm
 old-project: netvista
 ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/13/2018
 ms.keywords: "*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_INTERFACE_INFORMATION, ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str"
 ms.prod: windows
 ms.technology: windows-sdk

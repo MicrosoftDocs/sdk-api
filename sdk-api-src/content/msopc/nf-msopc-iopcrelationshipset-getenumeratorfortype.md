@@ -7,7 +7,7 @@ old-location: opc\iopcrelationshipset_getenumeratorfortype.htm
 old-project: OPC
 ms.assetid: 5b389660-f74d-48ae-a16b-5822661f0015
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetEnumeratorForType, GetEnumeratorForType method [Open Packaging Conventions], GetEnumeratorForType method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetEnumeratorForType method, IOpcRelationshipSet.GetEnumeratorForType, IOpcRelationshipSet::GetEnumeratorForType, msopc/IOpcRelationshipSet::GetEnumeratorForType, opc.iopcrelationshipset_getenumeratorfortype
 ms.prod: windows
 ms.technology: windows-sdk

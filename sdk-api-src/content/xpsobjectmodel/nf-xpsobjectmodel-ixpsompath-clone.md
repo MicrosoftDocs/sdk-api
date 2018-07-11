@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_clone.htm
 old-project: printdocs
 ms.assetid: 4602f9fe-6001-4a5a-8870-f2a6e97ccc55
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],Clone method, IXpsOMPath.Clone, IXpsOMPath::Clone, xps.ixpsompath_clone, xpsobjectmodel/IXpsOMPath::Clone
 ms.prod: windows
 ms.technology: windows-sdk

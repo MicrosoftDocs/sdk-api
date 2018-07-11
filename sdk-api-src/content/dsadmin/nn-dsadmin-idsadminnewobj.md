@@ -4,10 +4,10 @@ title: IDsAdminNewObj
 author: windows-sdk-content
 description: The IDsAdminNewObj interface is used by a primary or secondary object creation wizard extension to obtain page count data and to control the command buttons in the wizard.
 old-location: ad\idsadminnewobj.htm
-old-project: AD
+old-project: ad
 ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Enables or disables the "Next" command button in the wizard for a specific page.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
+<a href="ad.admin_interfaes_in_active_directory_domain_services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 

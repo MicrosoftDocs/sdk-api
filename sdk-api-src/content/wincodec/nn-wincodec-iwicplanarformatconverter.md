@@ -7,7 +7,7 @@ old-location: wic\iwicplanarformatconverter.htm
 old-project: wic
 ms.assetid: 07258A07-84AA-4DC2-B2E3-14A43AED5617
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICPlanarFormatConverter, IWICPlanarFormatConverter interface [Windows Imaging Component], IWICPlanarFormatConverter interface [Windows Imaging Component],described, wic.iwicplanarformatconverter, wincodec/IWICPlanarFormatConverter
 ms.prod: windows
 ms.technology: windows-sdk

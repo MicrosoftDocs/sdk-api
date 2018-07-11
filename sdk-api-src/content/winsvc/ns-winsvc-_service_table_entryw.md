@@ -4,10 +4,10 @@ title: "_SERVICE_TABLE_ENTRYW"
 author: windows-sdk-content
 description: Specifies the ServiceMain function for a service that can run in the calling process. It is used by the StartServiceCtrlDispatcher function.
 old-location: base\service_table_entry_str.htm
-old-project: Services
+old-project: services
 ms.assetid: dd40c4f0-cbbe-429f-91c0-3ba141dab702
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPSERVICE_TABLE_ENTRYW, LPSERVICE_TABLE_ENTRY, LPSERVICE_TABLE_ENTRY structure pointer, SERVICE_TABLE_ENTRY, SERVICE_TABLE_ENTRY structure, SERVICE_TABLE_ENTRYA, SERVICE_TABLE_ENTRYW, _SERVICE_TABLE_ENTRYW, _win32_service_table_entry_str, base.service_table_entry_str, winsvc/LPSERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRYA, winsvc/SERVICE_TABLE_ENTRYW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\vardecfromi4.htm
 old-project: automat
 ms.assetid: 577d0420-4a1c-4733-bf3b-4c20c1591d2f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDecFromI4, VarDecFromI4 function [Automation], _oa96_VarDecFromI4, automat.vardecfromi4, oleauto/VarDecFromI4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TdhCleanupPayloadEventFilterDescriptor function
 author: windows-sdk-content
 description: Frees the aggregated structure of payload filters created using the TdhAggregatePayloadFilters function.
 old-location: etw\tdhcleanuppayloadeventfilterdescriptor.htm
-old-project: ETW
+old-project: etw
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DsAddressToSiteNamesW function
 author: windows-sdk-content
 description: Obtains the site names corresponding to the specified addresses.
 old-location: ad\dsaddresstositenames.htm
-old-project: AD
+old-project: ad
 ms.assetid: 4d70dbee-be33-4d2a-a200-3696443fa853
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsAddressToSiteNames, DsAddressToSiteNames function [Active Directory], DsAddressToSiteNamesA, DsAddressToSiteNamesW, _glines_dsaddresstositenames, ad.dsaddresstositenames, dsgetdc/DsAddressToSiteNames, dsgetdc/DsAddressToSiteNamesA, dsgetdc/DsAddressToSiteNamesW
 ms.prod: windows
 ms.technology: windows-sdk

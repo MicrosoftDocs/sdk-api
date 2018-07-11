@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth.htm
 old-project: audio
 ms.assetid: 08f1056a-fead-475b-a13a-ee11b9709241
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], IDirectMusicSynth interface [Audio Devices],described, audio.idirectmusicsynth, audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml, dmusics/IDirectMusicSynth
 ms.prod: windows
 ms.technology: windows-sdk

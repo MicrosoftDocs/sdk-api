@@ -7,7 +7,7 @@ old-location: shell\ASSOCIATIONLEVEL.htm
 old-project: shell
 ms.assetid: 846ce9f4-092a-420d-be73-0951efc4368f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: AL_EFFECTIVE, AL_MACHINE, AL_USER, ASSOCIATIONLEVEL, ASSOCIATIONLEVEL enumeration [Windows Shell], _shell_ASSOCIATIONLEVEL, shell.ASSOCIATIONLEVEL, shobjidl_core/AL_EFFECTIVE, shobjidl_core/AL_MACHINE, shobjidl_core/AL_USER, shobjidl_core/ASSOCIATIONLEVEL
 ms.prod: windows
 ms.technology: windows-sdk

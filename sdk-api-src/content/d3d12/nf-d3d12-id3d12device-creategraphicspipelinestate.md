@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_creategraphicspipelinestate.htm
 old-project: direct3d12
 ms.assetid: E35FCC4A-7527-4A6C-8569-0801A06AA427
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: CreateGraphicsPipelineState, CreateGraphicsPipelineState method, CreateGraphicsPipelineState method,ID3D12Device interface, ID3D12Device interface,CreateGraphicsPipelineState method, ID3D12Device.CreateGraphicsPipelineState, ID3D12Device::CreateGraphicsPipelineState, d3d12/ID3D12Device::CreateGraphicsPipelineState, direct3d12.id3d12device_creategraphicspipelinestate, direct3d12.id3d12device_createpipelinestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
               This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the pipeline state object.

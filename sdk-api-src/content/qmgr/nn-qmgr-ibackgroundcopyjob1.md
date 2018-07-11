@@ -4,10 +4,10 @@ title: IBackgroundCopyJob1
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob1 interface to add files to the job and retrieve the job's status.
 old-location: bits\ibackgroundcopyjob1.htm
-old-project: Bits
+old-project: bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgroundCopyJob1 interface [BITS],described, bits.ibackgroundcopyjob1, qmgr/IBackgroundCopyJob1
 ms.prod: windows
 ms.technology: windows-sdk

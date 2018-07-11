@@ -7,7 +7,7 @@ old-location: dwm\dwmrendergesture.htm
 old-project: dwm
 ms.assetid: 2daad062-dd7f-4a0b-a31e-134980f5bebd
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmRenderGesture, DwmRenderGesture function [Desktop Window Manager], dwm.dwmrendergesture, dwmapi/DwmRenderGesture
 ms.prod: windows
 ms.technology: windows-sdk

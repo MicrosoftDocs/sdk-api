@@ -4,10 +4,10 @@ title: ISClusProperties::Refresh
 author: windows-sdk-content
 description: Reads the cluster database and updates the data in the ClusProperties collection to reflect the current cluster data.
 old-location: mscs\clusproperties_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 900c9401-e8f4-423a-80df-598f5edb2935
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperties collection [Failover Cluster],Refresh method, ClusProperties.Refresh, ISClusProperties.Refresh, ISClusProperties::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusProperties collection, _wolf_clusproperties.refresh, mscs.clusproperties_refresh
 ms.prod: windows
 ms.technology: windows-sdk

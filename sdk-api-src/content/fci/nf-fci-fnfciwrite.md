@@ -7,7 +7,7 @@ old-location: winprog\fnfciwrite.htm
 old-project: DevNotes
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
 ms.prod: windows
 ms.technology: windows-sdk

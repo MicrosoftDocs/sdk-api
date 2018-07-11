@@ -4,10 +4,10 @@ title: RpcMgmtSetComTimeout function
 author: windows-sdk-content
 description: The RpcMgmtSetComTimeout function sets the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtsetcomtimeout.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 3ea6fe6a-2064-4f53-852a-041281b62bbd
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcMgmtSetComTimeout, RpcMgmtSetComTimeout function [RPC], _rpc_rpcmgmtsetcomtimeout, rpc.rpcmgmtsetcomtimeout, rpcdce/RpcMgmtSetComTimeout
 ms.prod: windows
 ms.technology: windows-sdk

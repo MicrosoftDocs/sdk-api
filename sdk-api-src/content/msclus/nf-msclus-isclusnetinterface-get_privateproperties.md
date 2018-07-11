@@ -4,10 +4,10 @@ title: ISClusNetInterface::get_PrivateProperties
 author: windows-sdk-content
 description: Read/write private properties of a network interface.
 old-location: mscs\clusnetinterface_privateproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b3f2e618-037d-46d2-8dad-2bcfc206e134
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetInterface object [Failover Cluster],PrivateProperties property, ClusNetInterface.PrivateProperties, ISClusNetInterface.get_PrivateProperties, ISClusNetInterface::get_PrivateProperties, PrivateProperties property [Failover Cluster], PrivateProperties property [Failover Cluster],ClusNetInterface object, _wolf_clusnetinterface.privateproperties, get_PrivateProperties, mscs.clusnetinterface_privateproperties
 ms.prod: windows
 ms.technology: windows-sdk

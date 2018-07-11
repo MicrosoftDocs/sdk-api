@@ -4,10 +4,10 @@ title: ITaskSettings2
 author: windows-sdk-content
 description: Provides the extended settings that the Task Scheduler uses to run the task.
 old-location: taskschd\itasksettings2.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: ea08e599-5d4a-4919-abed-c35fe0977f3f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITaskSettings2, ITaskSettings2 interface [Task Scheduler], ITaskSettings2 interface [Task Scheduler],described, taskschd.itasksettings2, taskschd/ITaskSettings2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getstreamcount.htm
 old-project: medfound
 ms.assetid: EEEF5D71-22C4-4050-9088-8BAC554EB66E
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamMediaTypeManager.GetStreamCount, IMFMuxStreamMediaTypeManager::GetStreamCount, mf.imfmuxstreammediatypemanager_getstreamcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -66,10 +66,10 @@ The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode curren
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a></b>
 </strong>
 
-This method returns an element of the <a href="https://msdn.microsoft.com/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
+This method returns an element of the <a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object.
 
 
@@ -84,7 +84,7 @@ This method returns an element of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/0e17e35a-de55-4dda-9708-01002b41301d">PixelOffsetMode</a>
  
 
  

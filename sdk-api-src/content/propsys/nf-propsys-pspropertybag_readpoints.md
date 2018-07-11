@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadPOINTS.htm
 old-project: properties
 ms.assetid: 60ED145A-7712-43b7-A2AD-C366DD32E19E
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_ReadPOINTS, PSPropertyBag_ReadPOINTS function [Windows Properties], properties.PSPropertyBag_ReadPOINTS, propsys/PSPropertyBag_ReadPOINTS, shell.PSPropertyBag_ReadPOINTS, shell_PSPropertyBag_ReadPOINTS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845074(v=VS.85).aspx">PSPropertyBag_WritePOINTS</a>
+<a href="shell.PSPropertyBag_WritePOINTS">PSPropertyBag_WritePOINTS</a>
  
 
  

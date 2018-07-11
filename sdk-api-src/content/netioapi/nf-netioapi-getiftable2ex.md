@@ -4,10 +4,10 @@ title: GetIfTable2Ex function
 author: windows-sdk-content
 description: Retrieves the MIB-II interface table.
 old-location: iphlp\getiftable2ex.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: d8663894-50b1-4ca2-a1f4-6ca0970795a7
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetIfTable2Ex, GetIfTable2Ex function [IP Helper], MibIfTableNormal, MibIfTableRaw, iphlp.getiftable2ex, netioapi/GetIfTable2Ex
 ms.prod: windows
 ms.technology: windows-sdk

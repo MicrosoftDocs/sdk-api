@@ -2,21 +2,21 @@
 UID: NS:dcommon.D2D_VECTOR_3F
 title: D2D_VECTOR_3F
 author: windows-sdk-content
-description: A 3D vector that consists of three single-precision floating-point values (x, y, z).
-old-location: direct2d\d2d_vector_3f.htm
-old-project: Direct2D
-ms.assetid: B25AE930-F747-4F4C-93BC-9647F414E76B
+description: A vector of 3 FLOAT values (x, y, z).
+old-location: direct2d\d2d1_vector_3f.htm
+old-project: direct2d
+ms.assetid: 469A4FFC-6B5B-4C88-B6A5-23AFD41B885A
 ms.author: windowssdkdev
-ms.date: 04/20/2018
-ms.keywords: D2D_VECTOR_3F, D2D_VECTOR_3F structure [Direct2D], dcommon/D2D_VECTOR_3F, direct2d.d2d_vector_3f
+ms.date: 07/02/2018
+ms.keywords: D2D1_VECTOR_3F, D2D1_VECTOR_3F structure [Direct2D], D2D_VECTOR_3F, D2D_VECTOR_3F structure [Direct2D], d2d1_1/D2D1_VECTOR_3F, dcommon/D2D1_VECTOR_3F, direct2d.d2d1_vector_3f
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
-req.include-header: D2d1.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -34,6 +34,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
+ - D2D1_1.h
  - dcommon.h
 api_name:
  - D2D_VECTOR_3F
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-A 3D vector that consists of three single-precision floating-point values (x, y, z).
+A vector of 3 FLOAT values (x, y, z).
 
 
 ## -struct-fields
@@ -60,21 +61,15 @@ A 3D vector that consists of three single-precision floating-point values (x, y,
 
 ### -field x
 
-Type: <b>FLOAT</b>
-
 The x value of the vector.
 
 
 ### -field y
 
-Type: <b>FLOAT</b>
-
 The y value of the vector.
 
 
 ### -field z
-
-Type: <b>FLOAT</b>
 
 The z value of the vector.
 

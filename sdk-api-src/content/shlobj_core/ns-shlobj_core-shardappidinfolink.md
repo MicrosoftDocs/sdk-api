@@ -7,7 +7,7 @@ old-location: shell\SHARDAPPIDINFOLINK.htm
 old-project: shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
 ms.prod: windows
 ms.technology: windows-sdk

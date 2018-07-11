@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::put_GenerateAudits
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\azauthorizationstore_generateaudits.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: e9362ae0-488d-4b6b-9a7b-c70fd85042ca
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzAuthorizationStore object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzAuthorizationStore object, GenerateAudits property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],GenerateAudits property, IAzAuthorizationStore.GenerateAudits, IAzAuthorizationStore.put_GenerateAudits, IAzAuthorizationStore::GenerateAudits, IAzAuthorizationStore::get_GenerateAudits, IAzAuthorizationStore::put_GenerateAudits, azroles/IAzAuthorizationStore::GenerateAudits, azroles/IAzAuthorizationStore::get_GenerateAudits, azroles/IAzAuthorizationStore::put_GenerateAudits, put_GenerateAudits, security.azauthorizationstore_generateaudits
 ms.prod: windows
 ms.technology: windows-sdk

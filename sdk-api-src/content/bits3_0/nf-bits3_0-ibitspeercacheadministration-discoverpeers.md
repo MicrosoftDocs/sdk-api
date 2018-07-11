@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::DiscoverPeers
 author: windows-sdk-content
 description: Generates a list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_discoverpeers.htm
-old-project: Bits
+old-project: bits
 ms.assetid: c83632c2-5d01-48ab-93ef-961778c2379a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: DiscoverPeers, DiscoverPeers method [BITS], DiscoverPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DiscoverPeers method, IBitsPeerCacheAdministration.DiscoverPeers, IBitsPeerCacheAdministration::DiscoverPeers, bits.ibitspeercacheadministration_discoverpeers, bits3_0/IBitsPeerCacheAdministration::DiscoverPeers
 ms.prod: windows
 ms.technology: windows-sdk

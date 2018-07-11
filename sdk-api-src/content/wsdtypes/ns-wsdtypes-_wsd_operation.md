@@ -4,10 +4,10 @@ title: "_WSD_OPERATION"
 author: windows-sdk-content
 description: Describes an operation as defined by WSDL in terms of one or two messages.
 old-location: ncd\wsd_operation_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, _WSD_OPERATION, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

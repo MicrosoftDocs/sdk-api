@@ -4,10 +4,10 @@ title: ITAgent::EnumerateAgentSessions
 author: windows-sdk-content
 description: The EnumerateAgentSessions method enumerates the current agent sessions. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_AgentSessions method.
 old-location: tapi3\itagent_enumerateagentsessions.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 6b639a41-c866-49ad-bc33-1215da7c8a19
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: EnumerateAgentSessions, EnumerateAgentSessions method [TAPI 2.2], EnumerateAgentSessions method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],EnumerateAgentSessions method, ITAgent.EnumerateAgentSessions, ITAgent::EnumerateAgentSessions, _tapi3_itagent_enumerateagentsessions, tapi3.itagent_enumerateagentsessions, tapi3cc/ITAgent::EnumerateAgentSessions
 ms.prod: windows
 ms.technology: windows-sdk

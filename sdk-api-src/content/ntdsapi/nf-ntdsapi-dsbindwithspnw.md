@@ -4,10 +4,10 @@ title: DsBindWithSpnW function
 author: windows-sdk-content
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
 old-location: ad\dsbindwithspn.htm
-old-project: AD
+old-project: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
 ms.prod: windows
 ms.technology: windows-sdk

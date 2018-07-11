@@ -4,10 +4,10 @@ title: "_POLICYSETTINGSTATUSINFO"
 author: windows-sdk-content
 description: The POLICYSETTINGSTATUSINFO structure provides information about a policy-setting event.
 old-location: policy\policysettingstatusinfo_str.htm
-old-project: Policy
+old-project: policy
 ms.assetid: f86dbd35-9180-43f1-ad66-7dba31e1fc89
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: "*LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO structure pointer [Group Policy], POLICYSETTINGSTATUSINFO, POLICYSETTINGSTATUSINFO structure [Group Policy], RSOPApplied, RSOPFailed, RSOPIgnored, RSOPSubsettingFailed, RSOPUnspecified, _POLICYSETTINGSTATUSINFO, _win32_policysettingstatusinfo_str, policy.policysettingstatusinfo_str, userenv/LPPOLICYSETTINGSTATUSINFO, userenv/POLICYSETTINGSTATUSINFO"
 ms.prod: windows
 ms.technology: windows-sdk

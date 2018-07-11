@@ -7,7 +7,7 @@ old-location: properties\PropVariantToVariant.htm
 old-project: properties
 ms.assetid: 34907419-47ae-4f8f-8ce6-5f5e9b098488
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToVariant, PropVariantToVariant function [Windows Properties], properties.PropVariantToVariant, propvarutil/PropVariantToVariant, shell.PropVariantToVariant, shell_PropVariantToVariant
 ms.prod: windows
 ms.technology: windows-sdk

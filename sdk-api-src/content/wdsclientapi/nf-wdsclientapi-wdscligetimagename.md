@@ -4,10 +4,10 @@ title: WdsCliGetImageName function
 author: windows-sdk-content
 description: Returns the name of the current image.
 old-location: wds\wdscligetimagename.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 09bcd4c1-ce80-4338-a457-80c46b17015a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsCliGetImageName, WdsCliGetImageName function [Windows Deployment Services], wds.wdscligetimagename, wdsclientapi/WdsCliGetImageName
 ms.prod: windows
 ms.technology: windows-sdk

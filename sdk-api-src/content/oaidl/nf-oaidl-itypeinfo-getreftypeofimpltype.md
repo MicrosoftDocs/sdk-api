@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_getreftypeofimpltype.htm
 old-project: automat
 ms.assetid: aec61a9a-fa4f-42cd-a74b-100cdf2c2624
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetRefTypeOfImplType, GetRefTypeOfImplType method [Automation], GetRefTypeOfImplType method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeOfImplType method, ITypeInfo.GetRefTypeOfImplType, ITypeInfo::GetRefTypeOfImplType, _oa96_ITypeInfo_GetRefTypeOfImplType, automat.itypeinfo_getreftypeofimpltype, oaidl/ITypeInfo::GetRefTypeOfImplType
 ms.prod: windows
 ms.technology: windows-sdk

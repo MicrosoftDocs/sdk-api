@@ -4,10 +4,10 @@ title: ICryptAttributes::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_itembyindex_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 327a41ee-60ed-44a0-bfd8-96b328b4fcb6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICryptAttributes interface [Security],ItemByIndex property, ICryptAttributes.ItemByIndex, ICryptAttributes.get_ItemByIndex, ICryptAttributes::ItemByIndex, ICryptAttributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::ItemByIndex, certenroll/ICryptAttributes::get_ItemByIndex, get_ItemByIndex, security.icryptattributes_itembyindex_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IcmpSendEcho2Ex function
 author: windows-sdk-content
 description: Sends an IPv4 ICMP echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the ICMP responses, if any.
 old-location: iphlp\icmpsendecho2ex.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 7b2b2cae-650f-4ecb-aa2e-a55ee4026999
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: IcmpSendEcho2Ex, IcmpSendEcho2Ex function [IP Helper], icmpapi/IcmpSendEcho2Ex, iphlp.icmpsendecho2ex
 ms.prod: windows
 ms.technology: windows-sdk

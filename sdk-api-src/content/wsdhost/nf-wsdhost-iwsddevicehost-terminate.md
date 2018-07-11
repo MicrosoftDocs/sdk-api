@@ -4,10 +4,10 @@ title: IWSDDeviceHost::Terminate
 author: windows-sdk-content
 description: Terminates the host and releases any attached services.
 old-location: ncd\iwsddevicehost_terminate.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 2a8df6fb-2834-44f4-9f25-454dcc2ff660
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: IWSDDeviceHost interface,Terminate method, IWSDDeviceHost.Terminate, IWSDDeviceHost::Terminate, Terminate, Terminate method, Terminate method,IWSDDeviceHost interface, ncd.iwsddevicehost_terminate, wsdhost/IWSDDeviceHost::Terminate
 ms.prod: windows
 ms.technology: windows-sdk

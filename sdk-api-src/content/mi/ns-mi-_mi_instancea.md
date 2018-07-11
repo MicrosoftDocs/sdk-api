@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instancea.htm
 old-project: wmi_v2
 ms.assetid: f25514cb-8a2c-43a0-b6c6-b08266d3ee5c
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_InstanceA, MI_InstanceA structure [Windows Management Infrastructure (MI)], _MI_InstanceA, mi/MI_InstanceA, wmi._mi_instancea, wmi_v2.mi_instancea
 ms.prod: windows
 ms.technology: windows-sdk

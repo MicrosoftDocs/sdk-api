@@ -4,10 +4,10 @@ title: ListView_IsItemVisible macro
 author: windows-sdk-content
 description: Indicates whether an item in the list-view control is visible. Use this macro or send the LVM_ISITEMVISIBLE message explicitly.
 old-location: controls\ListView_IsItemVisible.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isitemvisible.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Controls], _shell_ListView_IsItemVisible, _shell_ListView_IsItemVisible_cpp, commctrl/ListView_IsItemVisible, controls.ListView_IsItemVisible, controls._shell_ListView_IsItemVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761135(v=VS.85).aspx">LVM_ISITEMVISIBLE</a> message explicitly.
+Indicates whether an item in the list-view control is visible. Use this macro or send the <a href="https://msdn.microsoft.com/355be527-e2b9-46be-96a0-951d72216d92">LVM_ISITEMVISIBLE</a> message explicitly.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: shell\IShellRunDll.htm
 old-project: shell
 ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
 ms.prod: windows
 ms.technology: windows-sdk

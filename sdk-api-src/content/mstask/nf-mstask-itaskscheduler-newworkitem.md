@@ -4,10 +4,10 @@ title: ITaskScheduler::NewWorkItem
 author: windows-sdk-content
 description: The NewWorkItem method creates a new work item, allocating space for the work item and retrieving its address.
 old-location: taskschd\itaskscheduler_newworkitem.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 1fbd65ae-0b54-4175-bf26-4226b1aabdc1
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITaskScheduler.NewWorkItem, ITaskScheduler::NewWorkItem, NewWorkItem, NewWorkItem method [Task Scheduler], NewWorkItem method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_newworkitem, mstask/ITaskScheduler::NewWorkItem, taskschd.itaskscheduler_newworkitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>NewWorkItem</b> method creates a new <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>, allocating space for the work item and retrieving its address.
+<b>NewWorkItem</b> method creates a new <a href="w.htm">work item</a>, allocating space for the work item and retrieving its address.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX
 author: windows-sdk-content
 description: Sets properties in the cluster database from a parameter block.
 old-location: mscs\resutilsetpropertyparameterblockex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX callback, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX callback function [Failover Cluster], _wolf_resutilsetpropertyparameterblockex, mscs.resutilsetpropertyparameterblockex, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX
 ms.prod: windows
 ms.technology: windows-sdk

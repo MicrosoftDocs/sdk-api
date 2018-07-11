@@ -4,10 +4,10 @@ title: ISClusResource::get_Dependencies
 author: windows-sdk-content
 description: dependencies of a resource.
 old-location: mscs\clusresource_dependencies.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 33539a29-1533-44fa-853d-9d4f1b3f1cca
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],Dependencies property, ClusResource.Dependencies, Dependencies property [Failover Cluster], Dependencies property [Failover Cluster],ClusResource class, ISClusResource.get_Dependencies, ISClusResource::get_Dependencies, _wolf_clusresource.dependencies, get_Dependencies, mscs.clusresource_dependencies
 ms.prod: windows
 ms.technology: windows-sdk

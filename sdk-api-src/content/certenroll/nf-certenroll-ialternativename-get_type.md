@@ -4,10 +4,10 @@ title: IAlternativeName::get_Type
 author: windows-sdk-content
 description: Retrieves the alternative name type.
 old-location: security\ialternativename_type_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
 ms.prod: windows
 ms.technology: windows-sdk

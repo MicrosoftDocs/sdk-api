@@ -4,10 +4,10 @@ title: "_MIB_IFNUMBER"
 author: windows-sdk-content
 description: Stores the number of interfaces on a particular computer.
 old-location: mib\mib_ifnumber.htm
-old-project: MIB
+old-project: mib
 ms.assetid: cdab8d39-b0f9-462c-ac5e-ae0c420df067
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_IFNUMBER, MIB_IFNUMBER, MIB_IFNUMBER structure [MIB], PMIB_IFNUMBER, PMIB_IFNUMBER structure pointer [MIB], _MIB_IFNUMBER, _mpr_mib_ifnumber, ifmib/MIB_IFNUMBER, ifmib/PMIB_IFNUMBER, iprtrmib/MIB_IFNUMBER, iprtrmib/PMIB_IFNUMBER, mib.mib_ifnumber, rras.mib_ifnumber"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext3_flush1.htm
 old-project: direct3d11
 ms.assetid: DBDA19C3-EC4E-4C12-B1ED-A92E5CE28CED
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: Flush1, Flush1 method [Direct3D 11], Flush1 method [Direct3D 11],ID3D11DeviceContext3 interface, ID3D11DeviceContext3 interface [Direct3D 11],Flush1 method, ID3D11DeviceContext3.Flush1, ID3D11DeviceContext3::Flush1, d3d11_3/ID3D11DeviceContext3::Flush1, direct3d11.id3d11devicecontext3_flush1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Type: <b>HANDLE</b>
 
 <b>Flush1</b> operates asynchronously, therefore it can return either before or after the GPU finishes executing the queued graphics commands, which will eventually complete.
               To create an event query, you can call <a href="https://msdn.microsoft.com/ad09a309-862f-462d-8268-62e44397c298">ID3D11Device::CreateQuery</a> with the
-              value <a href="https://msdn.microsoft.com/library/Ff476191(v=VS.85).aspx">D3D11_QUERY_EVENT</a> value.
+              value <a href="d3d11_query.htm">D3D11_QUERY_EVENT</a> value.
               To determine when the GPU is finished processing the graphics commands,
               you can then use that event query in a call to <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a>.
             

@@ -7,7 +7,7 @@ old-location: com\idataobject.htm
 old-project: com
 ms.assetid: 8a002deb-2727-456c-8078-a9b0d5893ed4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IDataObject, IDataObject interface [COM], IDataObject interface [COM],described, _ole_idataobject, com.idataobject, objidl/IDataObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The term <i>data object</i> is used to mean any object that supports an implemen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObject</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IDataObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataObject</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IDataObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

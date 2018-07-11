@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN
 author: windows-sdk-content
 description: Retrieves a copy of the most recently processed feature set or template from the engine in a standard biometric information record.
 old-location: secbiomet\engineadapterexportenginedata.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 9ac11720-7dbf-4479-b2c5-78cd53494e21
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterExportEngineData, EngineAdapterExportEngineData callback function [Windows Biometric Framework API], PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN, PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback, WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.engineadapterexportenginedata, winbio_adapter/EngineAdapterExportEngineData
 ms.prod: windows
 ms.technology: windows-sdk

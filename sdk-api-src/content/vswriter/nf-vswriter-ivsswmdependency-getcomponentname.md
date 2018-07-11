@@ -4,10 +4,10 @@ title: IVssWMDependency::GetComponentName
 author: windows-sdk-content
 description: The GetComponentName method retrieves the name of a component that the current component depends on in an explicit writer-component dependency.
 old-location: base\ivsswmdependency_getcomponentname.htm
-old-project: VSS
+old-project: vss
 ms.assetid: b0115a42-3c74-41a0-8062-0f20123780fe
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetComponentName method, IVssWMDependency.GetComponentName, IVssWMDependency::GetComponentName, _win32_ivsswmdependency_getcomponentname, base.ivsswmdependency_getcomponentname, vswriter/IVssWMDependency::GetComponentName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,7 +158,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must free the memory used by the returned string by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the returned string by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A dependency does not indicate an order of preference between the component with the documented dependencies and the components it depends on. A dependency merely indicates that the component and the components it depends on must always be backed up or restored together.
 

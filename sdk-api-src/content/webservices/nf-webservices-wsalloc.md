@@ -7,7 +7,7 @@ old-location: wsw\wsalloc.htm
 old-project: wsw
 ms.assetid: 633b6a11-09ba-48a7-a1ad-940846c65d79
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/WsAlloc, wsw.wsalloc
 ms.prod: windows
 ms.technology: windows-sdk

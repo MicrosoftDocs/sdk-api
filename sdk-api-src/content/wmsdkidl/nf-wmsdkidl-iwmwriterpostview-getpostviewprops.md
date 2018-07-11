@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_getpostviewprops.htm
 old-project: wmformat
 ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
 ms.prod: windows
 ms.technology: windows-sdk

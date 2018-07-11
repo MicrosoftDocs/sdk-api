@@ -7,7 +7,7 @@ old-location: tsf\ienumtflanguageprofiles_reset.htm
 old-project: TSF
 ms.assetid: 30be7551-f326-4132-814a-a896b148f2fe
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Reset method, IEnumTfLanguageProfiles.Reset, IEnumTfLanguageProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_reset_ref, msctf/IEnumTfLanguageProfiles::Reset, tsf.ienumtflanguageprofiles_reset
 ms.prod: windows
 ms.technology: windows-sdk

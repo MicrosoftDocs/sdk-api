@@ -4,10 +4,10 @@ title: PCLUSTER_ENCRYPT
 author: windows-sdk-content
 description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterencrypt.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT callback, PCLUSTER_ENCRYPT callback function [Failover Cluster], mscs.clusterencrypt, resapi/PCLUSTER_ENCRYPT
 ms.prod: windows
 ms.technology: windows-sdk

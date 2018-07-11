@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder_getdisplaynames.htm
 old-project: imapi
 ms.assetid: 0f20cae4-3f9c-49bb-9b82-13351b889a31
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: GetDisplayNames, GetDisplayNames method [IMAPI], GetDisplayNames method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetDisplayNames method, IDiscRecorder.GetDisplayNames, IDiscRecorder::GetDisplayNames, _win32_idiscrecorder_getdisplaynames, base.idiscrecorder_getdisplaynames, imapi.idiscrecorder_getdisplaynames, imapi/IDiscRecorder::GetDisplayNames
 ms.prod: windows
 ms.technology: windows-sdk

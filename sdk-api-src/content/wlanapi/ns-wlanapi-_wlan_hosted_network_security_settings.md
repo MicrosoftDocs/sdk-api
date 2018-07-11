@@ -7,7 +7,7 @@ old-location: nwifi\wlan_hosted_network_security_settings.htm
 old-project: NativeWiFi
 ms.assetid: b86beb10-52e5-4bc0-95fe-08307f8d1ccd
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, WLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure [NativeWIFI], _WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, nwifi.wlan_hosted_network_security_settings, wlanapi/PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS"
 ms.prod: windows
 ms.technology: windows-sdk

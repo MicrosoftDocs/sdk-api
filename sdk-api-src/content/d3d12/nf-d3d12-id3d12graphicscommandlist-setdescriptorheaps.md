@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setdescriptorheaps.htm
 old-project: direct3d12
 ms.assetid: EE475B68-1DCA-44D4-994E-717D40F47DFA
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetDescriptorHeaps method, ID3D12GraphicsCommandList.SetDescriptorHeaps, ID3D12GraphicsCommandList::SetDescriptorHeaps, SetDescriptorHeaps, SetDescriptorHeaps method, SetDescriptorHeaps method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps, direct3d12.id3d12graphicscommandlist_setdescriptorheaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ Type: <b><a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD
 
 
 
-<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="https://msdn.microsoft.com/library/Dn899205(v=VS.85).aspx">Creating and Recording Command Lists and Bundles</a>.
+<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="recording_command_lists_and_bundles.htm">Creating and Recording Command Lists and Bundles</a>.
 
 
 #### Examples

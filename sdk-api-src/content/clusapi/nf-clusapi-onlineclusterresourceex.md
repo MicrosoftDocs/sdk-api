@@ -4,10 +4,10 @@ title: OnlineClusterResourceEx function
 author: windows-sdk-content
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresourceex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8A41D266-0FBD-4063-9C79-E22924129989
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM, OnlineClusterResourceEx, OnlineClusterResourceEx function [Failover Cluster], clusapi/OnlineClusterResourceEx, mscs.onlineclusterresourceex
 ms.prod: windows
 ms.technology: windows-sdk

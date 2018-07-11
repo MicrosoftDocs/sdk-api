@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturepartreference_gettransformmethod.htm
 old-project: OPC
 ms.assetid: 74cf5d3b-a350-4574-972d-1907562aece5
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignaturePartReference.GetTransformMethod, IOpcSignaturePartReference::GetTransformMethod, msopc/IOpcSignaturePartReference::GetTransformMethod, opc.iopcsignaturepartreference_gettransformmethod
 ms.prod: windows
 ms.technology: windows-sdk

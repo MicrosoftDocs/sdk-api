@@ -7,7 +7,7 @@ old-location: wsw\wscreatechannel.htm
 old-project: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
 ms.prod: windows
 ms.technology: windows-sdk

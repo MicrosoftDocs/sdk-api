@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_processtime.htm
 old-project: wintouch
 ms.assetid: 06132573-e198-4b2c-922b-3eeda53ac10b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],ProcessTime method, IInertiaProcessor.ProcessTime, IInertiaProcessor::ProcessTime, ProcessTime, ProcessTime method [Windows Touch], ProcessTime method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::ProcessTime, wintouch.iinertiaprocessor_processtime
 ms.prod: windows
 ms.technology: windows-sdk

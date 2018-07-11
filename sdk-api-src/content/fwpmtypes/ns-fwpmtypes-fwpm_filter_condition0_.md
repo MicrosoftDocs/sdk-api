@@ -4,10 +4,10 @@ title: FWPM_FILTER_CONDITION0_
 author: windows-sdk-content
 description: Expresses a filter condition that must be true for the action to be taken.
 old-location: fwp\fwpm_filter_condition0_struct.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], FWPM_FILTER_CONDITION0_, fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
 ms.prod: windows
 ms.technology: windows-sdk

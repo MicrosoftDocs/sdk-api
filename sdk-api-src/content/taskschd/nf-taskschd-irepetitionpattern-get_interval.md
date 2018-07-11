@@ -4,10 +4,10 @@ title: IRepetitionPattern::get_Interval
 author: windows-sdk-content
 description: Gets or sets the amount of time between each restart of the task.
 old-location: taskschd\irepetitionpattern_interval.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],Interval property, IRepetitionPattern.Interval, IRepetitionPattern.get_Interval, IRepetitionPattern::Interval, IRepetitionPattern::get_Interval, IRepetitionPattern::put_Interval, Interval property [Task Scheduler], Interval property [Task Scheduler],IRepetitionPattern interface, get_Interval, taskschd.irepetitionpattern_interval, taskschd/IRepetitionPattern::Interval, taskschd/IRepetitionPattern::get_Interval, taskschd/IRepetitionPattern::put_Interval
 ms.prod: windows
 ms.technology: windows-sdk

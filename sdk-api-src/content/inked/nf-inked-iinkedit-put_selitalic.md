@@ -7,7 +7,7 @@ old-location: tablet\inkedit_selitalic.htm
 old-project: tablet
 ms.assetid: ea6f6495-d740-4aad-8310-7ce43f36cd93
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelItalic property, IInkEdit.SelItalic, IInkEdit.put_SelItalic, IInkEdit::SelItalic, IInkEdit::get_SelItalic, IInkEdit::put_SelItalic, InkEdit.get_SelItalic, InkEdit.put_SelItalic, SelItalic property [Tablet PC], SelItalic property [Tablet PC],IInkEdit interface, get_SelItalic, inked/IInkEdit::SelItalic, inked/IInkEdit::get_SelItalic, inked/IInkEdit::put_SelItalic, put_SelItalic, tablet.inkedit_selitalic
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

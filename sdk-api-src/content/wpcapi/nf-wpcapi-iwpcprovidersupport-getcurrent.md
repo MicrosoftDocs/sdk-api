@@ -7,7 +7,7 @@ old-location: parcon\iwpcprovidersupport_getcurrent.htm
 old-project: parcon
 ms.assetid: 36496cba-229c-45bb-9608-04fb4b1955ae
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/13/2018
 ms.keywords: GetCurrent, GetCurrent method, GetCurrent method,IWPCProviderSupport interface, IWPCProviderSupport interface,GetCurrent method, IWPCProviderSupport.GetCurrent, IWPCProviderSupport::GetCurrent, parcon.iwpcprovidersupport_getcurrent, wpcapi/IWPCProviderSupport::GetCurrent
 ms.prod: windows
 ms.technology: windows-sdk

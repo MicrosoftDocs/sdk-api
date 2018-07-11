@@ -4,10 +4,10 @@ title: "_QOS_TRAFFIC_CLASS"
 author: windows-sdk-content
 description: The traffic control object QOS_TRAFFIC_CLASS is used to override the default UserPriority value ascribed to packets that classify the traffic of a given flow.
 old-location: qos\qos_traffic_class.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 60c6492f-ddcf-401c-8121-2349b89eb223
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS structure pointer [QOS], QOS_TRAFFIC_CLASS, QOS_TRAFFIC_CLASS structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NONCONFORMING, SERVICETYPE_QUALITATIVE, _QOS_TRAFFIC_CLASS, _gqos_qos_traffic_class, qos.qos_traffic_class, qosobjs/LPQOS_TRAFFIC_CLASS, qosobjs/QOS_TRAFFIC_CLASS"
 ms.prod: windows
 ms.technology: windows-sdk

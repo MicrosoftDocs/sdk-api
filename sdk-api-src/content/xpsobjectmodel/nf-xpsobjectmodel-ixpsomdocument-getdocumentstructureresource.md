@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument_getdocumentstructureresource.htm
 old-project: printdocs
 ms.assetid: 372aa8fd-efbb-4196-9137-4a9581c69f6c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetDocumentStructureResource, GetDocumentStructureResource method [XPS Documents and Packaging], GetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetDocumentStructureResource method, IXpsOMDocument.GetDocumentStructureResource, IXpsOMDocument::GetDocumentStructureResource, xps.ixpsomdocument_getdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::GetDocumentStructureResource
 ms.prod: windows
 ms.technology: windows-sdk

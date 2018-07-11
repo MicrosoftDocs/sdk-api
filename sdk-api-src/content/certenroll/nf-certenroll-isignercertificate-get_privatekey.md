@@ -4,10 +4,10 @@ title: ISignerCertificate::get_PrivateKey
 author: windows-sdk-content
 description: Retrieves the private key associated with the ISignerCertificate object.
 old-location: security\isignercertificate_privatekey_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 047a22ba-9817-45b7-aa9a-356245d2b824
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISignerCertificate interface [Security],PrivateKey property, ISignerCertificate.PrivateKey, ISignerCertificate.get_PrivateKey, ISignerCertificate::PrivateKey, ISignerCertificate::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::PrivateKey, certenroll/ISignerCertificate::get_PrivateKey, get_PrivateKey, security.isignercertificate_privatekey_property
 ms.prod: windows
 ms.technology: windows-sdk

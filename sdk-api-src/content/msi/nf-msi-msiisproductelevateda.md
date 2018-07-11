@@ -4,10 +4,10 @@ title: MsiIsProductElevatedA function
 author: windows-sdk-content
 description: The MsiIsProductElevated function returns whether or not the product is managed.
 old-location: setup\msiisproductelevated.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
 ms.prod: windows
 ms.technology: windows-sdk

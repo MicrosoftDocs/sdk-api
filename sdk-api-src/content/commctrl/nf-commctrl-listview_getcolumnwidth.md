@@ -4,10 +4,10 @@ title: ListView_GetColumnWidth macro
 author: windows-sdk-content
 description: Gets the width of a column in report or list view. You can use this macro or send the LVM_GETCOLUMNWIDTH message explicitly.
 old-location: controls\ListView_GetColumnWidth.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnwidth.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetColumnWidth, ListView_GetColumnWidth macro [Windows Controls], _win32_ListView_GetColumnWidth, _win32_ListView_GetColumnWidth_cpp, commctrl/ListView_GetColumnWidth, controls.ListView_GetColumnWidth, controls._win32_ListView_GetColumnWidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774915(v=VS.85).aspx">LVM_GETCOLUMNWIDTH</a> message explicitly. 
+Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/06e8ec36-3bc5-4516-ac29-17c36fb6d962">LVM_GETCOLUMNWIDTH</a> message explicitly. 
 
 
 ## -parameters

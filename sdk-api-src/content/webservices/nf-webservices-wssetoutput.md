@@ -7,7 +7,7 @@ old-location: wsw\wssetoutput.htm
 old-project: wsw
 ms.assetid: f0b47817-0ad1-408c-a6da-9a7b0fb2e34b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsSetOutput, WsSetOutput function [Web Services for Windows], webservices/WsSetOutput, wsw.wssetoutput
 ms.prod: windows
 ms.technology: windows-sdk

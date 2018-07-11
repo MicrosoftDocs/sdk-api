@@ -4,10 +4,10 @@ title: IX509Enrollment::get_EnrollmentContext
 author: windows-sdk-content
 description: Retrieves an enrollment context that identifies whether the certificate is intended for a computer or an end-user.
 old-location: security\ix509enrollment_enrollmentcontext_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 48bfe2cd-1d17-42a9-8068-b635fd220911
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: EnrollmentContext property [Security], EnrollmentContext property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],EnrollmentContext property, IX509Enrollment.EnrollmentContext, IX509Enrollment.get_EnrollmentContext, IX509Enrollment::EnrollmentContext, IX509Enrollment::get_EnrollmentContext, certenroll/IX509Enrollment::EnrollmentContext, certenroll/IX509Enrollment::get_EnrollmentContext, get_EnrollmentContext, security.ix509enrollment_enrollmentcontext_property
 ms.prod: windows
 ms.technology: windows-sdk

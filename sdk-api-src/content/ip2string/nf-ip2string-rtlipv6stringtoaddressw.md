@@ -4,10 +4,10 @@ title: RtlIpv6StringToAddressW function
 author: windows-sdk-content
 description: Converts a string representation of an IPv6 address to a binary IPv6 address.
 old-location: iphlp\rtlipv6stringtoaddress.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: RtlIpv6StringToAddress, RtlIpv6StringToAddress function [IP Helper], RtlIpv6StringToAddressA, RtlIpv6StringToAddressW, ip2string/RtlIpv6StringToAddress, ip2string/RtlIpv6StringToAddressA, ip2string/RtlIpv6StringToAddressW, iphlp.rtlipv6stringtoaddress
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_Messages
 author: windows-sdk-content
 description: A list of the error messages that have been added to the bag.
 old-location: fsrm\ifsrmpropertybag_messages.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 3aa6bc28-03bb-40ea-8c56-94133c8eeb54
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],Messages property, IFsrmPropertyBag.Messages, IFsrmPropertyBag.get_Messages, IFsrmPropertyBag::Messages, IFsrmPropertyBag::get_Messages, Messages property [File Server Resource Manager], Messages property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_messages, fsrm.ifsrmpropertybag_messages, fsrmpipeline/IFsrmPropertyBag::Messages, fsrmpipeline/IFsrmPropertyBag::get_Messages, get_Messages
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
 author: windows-sdk-content
 description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT callback function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\importsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,7 +176,7 @@ An error occurred that did not map to an SSPI error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

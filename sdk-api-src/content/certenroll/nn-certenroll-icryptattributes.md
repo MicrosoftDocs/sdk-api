@@ -4,10 +4,10 @@ title: ICryptAttributes
 author: windows-sdk-content
 description: The ICryptAttributes interface contains methods and properties that enable you to manage a collection of ICryptAttribute objects.
 old-location: security\icryptattributes.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: beedb57c-1c89-4d16-8514-046e3071fd1e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICryptAttributes, ICryptAttributes interface [Security], ICryptAttributes interface [Security],described, certenroll/ICryptAttributes, security.icryptattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>ICryptAttributes</b> interface contains methods and properties that enabl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttributes</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICryptAttributes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttributes</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICryptAttributes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -172,7 +172,7 @@ Retrieves an <a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd36
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

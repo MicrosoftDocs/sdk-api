@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition_shiftstart.htm
 old-project: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftStart method, ITfComposition.ShiftStart, ITfComposition::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftstart_ref, msctf/ITfComposition::ShiftStart, tsf.itfcomposition_shiftstart
 ms.prod: windows
 ms.technology: windows-sdk

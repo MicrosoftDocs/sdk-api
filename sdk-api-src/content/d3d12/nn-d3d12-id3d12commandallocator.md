@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandallocator.htm
 old-project: direct3d12
 ms.assetid: ADC494E6-1698-415D-90C5-F99FCD4C5309
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
 ms.prod: windows
 ms.technology: windows-sdk

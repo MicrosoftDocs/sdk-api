@@ -7,7 +7,7 @@ old-location: dshow\iammediatypestream_getformat.htm
 old-project: DirectShow
 ms.assetid: 9f00fe45-df4b-4787-980c-9fe434a8ab7e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetFormat method, IAMMediaTypeStream.GetFormat, IAMMediaTypeStream::GetFormat, IAMMediaTypeStreamGetFormat, amstream/IAMMediaTypeStream::GetFormat, dshow.iammediatypestream_getformat
 ms.prod: windows
 ms.technology: windows-sdk

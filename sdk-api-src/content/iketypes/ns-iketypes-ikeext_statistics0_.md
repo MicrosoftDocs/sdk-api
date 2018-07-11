@@ -4,10 +4,10 @@ title: IKEEXT_STATISTICS0_
 author: windows-sdk-content
 description: Stores various IKE/AuthIP statistics.
 old-location: fwp\ikeext_statistics0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: aefacc39-92a5-4d73-ac3c-0b5bf1407a90
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IKEEXT_STATISTICS0, IKEEXT_STATISTICS0 structure [Filtering], IKEEXT_STATISTICS0_, fwp.ikeext_statistics0, iketypes/IKEEXT_STATISTICS0
 ms.prod: windows
 ms.technology: windows-sdk

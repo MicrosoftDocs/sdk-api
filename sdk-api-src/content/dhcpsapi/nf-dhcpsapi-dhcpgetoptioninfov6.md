@@ -4,10 +4,10 @@ title: DhcpGetOptionInfoV6 function
 author: windows-sdk-content
 description: The DhcpGetOptionInfoV6 function returns information on a specific DHCP option.
 old-location: dhcp\dhcpgetoptioninfov6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: e5c2399e-099b-464d-9a60-b930287bb985
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionInfoV6, DhcpGetOptionInfoV6 function [DHCP], dhcp.dhcpgetoptioninfov6, dhcpsapi/DhcpGetOptionInfoV6
 ms.prod: windows
 ms.technology: windows-sdk

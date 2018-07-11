@@ -7,7 +7,7 @@ old-location: security\credunpackauthenticationbuffer.htm
 old-project: SecAuthN
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
 ms.prod: windows
 ms.technology: windows-sdk

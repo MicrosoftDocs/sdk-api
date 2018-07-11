@@ -4,10 +4,10 @@ title: WdsTransportServerRegisterCallback function
 author: windows-sdk-content
 description: Registers a provider callback with the multicast server.
 old-location: wds\wdstransportserverregistercallback.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 565ceb6c-0e44-4c71-8b67-092cd33d088e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallback function [Windows Deployment Services], wds.wdstransportserverregistercallback, wdstpdi/WdsTransportServerRegisterCallback
 ms.prod: windows
 ms.technology: windows-sdk

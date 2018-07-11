@@ -4,10 +4,10 @@ title: GetPwrCapabilities function
 author: windows-sdk-content
 description: Retrieves information about the system power capabilities.
 old-location: base\getpwrcapabilities.htm
-old-project: Power
+old-project: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

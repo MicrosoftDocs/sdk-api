@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5_createfence.htm
 old-project: direct3d11
 ms.assetid: B4AA9E0D-AAF4-4632-A98F-A3212764D5E1
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: CreateFence, CreateFence method [Direct3D 11], CreateFence method [Direct3D 11],ID3D11Device5 interface, ID3D11Device5 interface [Direct3D 11],CreateFence method, ID3D11Device5.CreateFence, ID3D11Device5::CreateFence, d3d11_4/ID3D11Device5::CreateFence, direct3d11.id3d11device5_createfence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt589892(v=VS.85).aspx">UnregisterDeviceRemoved</a>
+<a href="direct3d11.id3d11device5_unregisterdeviceremoved">UnregisterDeviceRemoved</a>
  
 
  

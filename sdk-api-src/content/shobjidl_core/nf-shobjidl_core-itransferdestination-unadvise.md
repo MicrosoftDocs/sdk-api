@@ -7,7 +7,7 @@ old-location: shell\ITransferDestination_Unadvise.htm
 old-project: shell
 ms.assetid: ecc3d32b-50cb-48d3-90c2-aba4614f863d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ITransferDestination interface [Windows Shell],Unadvise method, ITransferDestination.Unadvise, ITransferDestination::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],ITransferDestination interface, _shell_ITransferDestination_Unadvise, shell.ITransferDestination_Unadvise, shobjidl_core/ITransferDestination::Unadvise
 ms.prod: windows
 ms.technology: windows-sdk

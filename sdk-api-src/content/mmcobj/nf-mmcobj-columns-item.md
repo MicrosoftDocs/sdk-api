@@ -4,10 +4,10 @@ title: Columns::Item
 author: windows-sdk-content
 description: The Item method returns the Column object at a specified index.
 old-location: mmc\columns_item.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: d5e69022-dad6-426d-8d98-5b6039088687
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: Columns interface [MMC],Item method, Columns object [MMC],Item method, Columns.Item, Columns::Item, Item, Item method [MMC], Item method [MMC],Columns interface, Item method [MMC],Columns object, _slate_columns.item_method, mmc.columns_item
 ms.prod: windows
 ms.technology: windows-sdk

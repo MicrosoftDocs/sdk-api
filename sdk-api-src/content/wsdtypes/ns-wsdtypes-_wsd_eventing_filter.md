@@ -4,10 +4,10 @@ title: "_WSD_EVENTING_FILTER"
 author: windows-sdk-content
 description: Represents an event filter used in WS-Eventing Subscribe messages.
 old-location: ncd\wsd_eventing_filter.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: e702aca8-9784-4e51-988b-f4311573c700
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_EVENTING_FILTER, WSD_EVENTING_FILTER structure, _WSD_EVENTING_FILTER, http://schemas.xmlsoap.org/ws/2006/02/devprof/Action, ncd.wsd_eventing_filter, wsdtypes/WSD_EVENTING_FILTER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

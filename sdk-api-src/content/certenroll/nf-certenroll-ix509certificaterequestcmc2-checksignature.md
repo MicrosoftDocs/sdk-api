@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc2::CheckSignature
 author: windows-sdk-content
 description: Verifies that the certificate request has been signed and that the signature is valid.
 old-location: security\ix509certificaterequestcmc2_checksignature.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 55051bcd-0002-4a0e-874e-8b09e196a838
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, CheckSignature, CheckSignature method [Security], CheckSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckSignature method, IX509CertificateRequestCmc2.CheckSignature, IX509CertificateRequestCmc2::CheckSignature, certenroll/IX509CertificateRequestCmc2::CheckSignature, security.ix509certificaterequestcmc2_checksignature
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusApplication::OpenCluster
 author: windows-sdk-content
 description: Opens a connection to a cluster.
 old-location: mscs\clusapplication_opencluster.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2501e921-5b0a-429f-aa7f-56191ab9795b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISClusApplication object [Failover Cluster],OpenCluster method, ISClusApplication.OpenCluster, ISClusApplication::OpenCluster, OpenCluster, OpenCluster method [Failover Cluster], OpenCluster method [Failover Cluster],ISClusApplication object, _wolf_clusapplication.opencluster, mscs.clusapplication_opencluster
 ms.prod: windows
 ms.technology: windows-sdk

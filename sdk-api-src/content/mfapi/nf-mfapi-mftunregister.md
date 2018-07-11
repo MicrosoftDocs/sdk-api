@@ -7,7 +7,7 @@ old-location: mf\mftunregister.htm
 old-project: medfound
 ms.assetid: 2e63a098-5b83-4ea9-8149-4972f8ed0944
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister function [Media Foundation], mf.mftunregister, mfapi/MFTUnregister
 ms.prod: windows
 ms.technology: windows-sdk

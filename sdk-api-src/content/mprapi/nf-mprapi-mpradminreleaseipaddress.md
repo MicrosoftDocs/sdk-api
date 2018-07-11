@@ -4,10 +4,10 @@ title: MprAdminReleaseIpAddress function
 author: windows-sdk-content
 description: The MprAdminReleaseIpAddress function is called when a user disconnects and the user's IP address is about to be released.
 old-location: rras\mpradminreleaseipaddress.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 7a1570a9-b43f-4603-a5ed-6d078a5bbb7c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdminReleaseIpAddress callback function [RAS], _mpr_mpradminreleaseipaddress, mprapi/MprAdminReleaseIpAddress, rras.mpradminreleaseipaddress
 ms.prod: windows
 ms.technology: windows-sdk

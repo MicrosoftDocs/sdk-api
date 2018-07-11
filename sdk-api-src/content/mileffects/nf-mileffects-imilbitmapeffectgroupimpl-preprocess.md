@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroupimpl_preprocess.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\preprocess.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],Preprocess method, IMILBitmapEffectGroupImpl.Preprocess, IMILBitmapEffectGroupImpl::Preprocess, Preprocess, Preprocess method [WPF Bitmap Effects], Preprocess method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, _wibe_imilbitmapeffectgroupimpl_preprocess, mileffects/IMILBitmapEffectGroupImpl::Preprocess, wibe._wibe_imilbitmapeffectgroupimpl_preprocess
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Pre-process the given render context.
 
 ### -param pContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> to process.
+A pointer to the <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a> to process.
 
 
 ## -returns

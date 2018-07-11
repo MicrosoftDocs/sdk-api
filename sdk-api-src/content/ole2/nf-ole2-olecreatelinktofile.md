@@ -7,7 +7,7 @@ old-location: com\olecreatelinktofile.htm
 old-project: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCreateLinkToFile, com.olecreatelinktofile, ole2/OleCreateLinkToFile
 ms.prod: windows
 ms.technology: windows-sdk

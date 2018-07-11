@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumTypeList.htm
 old-project: properties
 ms.assetid: 5df237a8-6468-43ee-870c-11b39e5e9dd9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], IPropertyEnumTypeList interface [Windows Properties],described, properties.IPropertyEnumTypeList, propsys/IPropertyEnumTypeList, shell.IPropertyEnumTypeList, shell_IPropertyEnumTypeList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IPropertyEnumTypeList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761476(v=VS.85).aspx">FindMatchingIndex</a>
+<a href="shell.IPropertyEnumTypeList_FindMatchingIndex">FindMatchingIndex</a>
 </td>
 <td align="left" width="63%">
 Compares the specified property value against the enumerated values in a list and returns the matching index.
@@ -83,13 +83,13 @@ Compares the specified property value against the enumerated values in a list an
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> object at the specified index in the list.
+Gets the <a href="shell.IPropertyEnumType">IPropertyEnumType</a> object at the specified index in the list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761479(v=VS.85).aspx">GetConditionAt</a>
+<a href="shell.IPropertyEnumTypeList_GetConditionAt">GetConditionAt</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.

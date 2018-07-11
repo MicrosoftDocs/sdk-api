@@ -4,10 +4,10 @@ title: tagWINHTTP_CREDS_EX
 author: windows-sdk-content
 description: Contains user credential information used for server and proxy authentication.
 old-location: http\winhttp_creds_ex.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad
 ms.author: windowssdkdev
-ms.date: 03/08/2018
+ms.date: 03/09/2018
 ms.keywords: "*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, PWINHTTP_CREDS_EX structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS_EX, WINHTTP_CREDS_EX structure [HTTP], http.winhttp_creds_ex, tagWINHTTP_CREDS_EX, winhttp/PWINHTTP_CREDS_EX, winhttp/WINHTTP_CREDS_EX"
 ms.prod: windows
 ms.technology: windows-sdk

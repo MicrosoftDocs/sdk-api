@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents_ondatareceived.htm
 old-project: TermServ
 ms.assetid: ac202fa0-6277-440a-8292-a785bbc78730
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataReceived method, IWRdsGraphicsChannelEvents.OnDataReceived, IWRdsGraphicsChannelEvents::OnDataReceived, OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatareceived, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataReceived
 ms.prod: windows
 ms.technology: windows-sdk

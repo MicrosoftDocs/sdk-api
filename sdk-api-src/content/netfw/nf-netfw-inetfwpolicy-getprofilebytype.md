@@ -4,10 +4,10 @@ title: INetFwPolicy::GetProfileByType
 author: windows-sdk-content
 description: Retrieves the profile of the requested type.
 old-location: ics\inetfwpolicy_getprofilebytype.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetProfileByType, GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],GetProfileByType method, INetFwPolicy.GetProfileByType, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
 ms.prod: windows
 ms.technology: windows-sdk

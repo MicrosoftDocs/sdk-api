@@ -7,7 +7,7 @@ old-location: com\cowait_flags.htm
 old-project: com
 ms.assetid: e6f8300c-f74b-4383-8ee5-519a0ed0b358
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: COWAIT_ALERTABLE, COWAIT_DISPATCH_CALLS, COWAIT_DISPATCH_WINDOW_MESSAGES, COWAIT_FLAGS, COWAIT_FLAGS enumeration [COM], COWAIT_INPUTAVAILABLE, COWAIT_WAITALL, _com_COWAIT_FLAGS, com.cowait_flags, combaseapi/COWAIT_ALERTABLE, combaseapi/COWAIT_DISPATCH_CALLS, combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES, combaseapi/COWAIT_FLAGS, combaseapi/COWAIT_INPUTAVAILABLE, combaseapi/COWAIT_WAITALL, tagCOWAIT_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ If set, the call to <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-
 
 ### -field COWAIT_INPUTAVAILABLE
 
-If set, the call to <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-167a71b52860">CoWaitForMultipleHandles</a> will return S_OK  if input exists for the queue, even if the input has been seen (but not removed) using a call to another function, such as <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>.
+If set, the call to <a href="https://msdn.microsoft.com/3eeecd34-aa94-4a48-8b41-167a71b52860">CoWaitForMultipleHandles</a> will return S_OK  if input exists for the queue, even if the input has been seen (but not removed) using a call to another function, such as <a href="_win32_PeekMessage_cpp">PeekMessage</a>.
 
 
 ### -field COWAIT_DISPATCH_CALLS

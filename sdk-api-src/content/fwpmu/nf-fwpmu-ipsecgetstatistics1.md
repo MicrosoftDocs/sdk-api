@@ -4,10 +4,10 @@ title: IPsecGetStatistics1 function
 author: windows-sdk-content
 description: Retrieves Internet Protocol Security (IPsec) statistics.
 old-location: fwp\ipsecgetstatistics1_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: cb95167c-224f-4c78-a0a2-8268f766aa05
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecGetStatistics1, IPsecGetStatistics1 function [Filtering], fwp.ipsecgetstatistics1_func, fwpmu/IPsecGetStatistics1
 ms.prod: windows
 ms.technology: windows-sdk

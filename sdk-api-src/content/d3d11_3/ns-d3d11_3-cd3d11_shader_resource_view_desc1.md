@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_resource_view_desc1.htm
 old-project: direct3d11
 ms.assetid: 051F58C1-E3F3-4205-B834-7A14FEDFED2C
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1, direct3d11.d3d11_shader_resource_view_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,12 +72,12 @@ A <a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D1
 
 #### - BufferEx
 
-A <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a> structure that views the resource as a raw buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+A <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a> structure that views the resource as a raw buffer. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
 
 
 #### - Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
 
 
 #### - Texture1D

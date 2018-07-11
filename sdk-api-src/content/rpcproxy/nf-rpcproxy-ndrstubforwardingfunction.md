@@ -4,10 +4,10 @@ title: NdrStubForwardingFunction function
 author: windows-sdk-content
 description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
 old-location: rpc\ndrstubforwardingfunction.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ TBD
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
+Pointer to <a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
 
 
 ### -param pmsg
@@ -86,7 +86,7 @@ Pointer to an <a href="https://msdn.microsoft.com/fd014622-97b3-4f76-8bc3-10821a
 
 #### - pThis [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>, for the DCOM interface.  
+Pointer to an instance of the CStdStubBuffer object, implementing <a href="_com_irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  
 
 
 ## -returns

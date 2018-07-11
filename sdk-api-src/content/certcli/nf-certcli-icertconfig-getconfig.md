@@ -4,10 +4,10 @@ title: ICertConfig::GetConfig
 author: windows-sdk-content
 description: Retrieves the configuration string for a Certificate Services server. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getconfig.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3a35b2a0-f8e4-496d-b76a-a7310842cc4c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CC_DEFAULTCONFIG, CC_FIRSTCONFIG, CC_LOCALACTIVECONFIG, CC_LOCALCONFIG, CC_UIPICKCONFIG, CC_UIPICKCONFIGSKIPLOCALCA, CCertConfig object [Security],GetConfig method, GetConfig, GetConfig method [Security], GetConfig method [Security],CCertConfig object, GetConfig method [Security],ICertConfig interface, GetConfig method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetConfig method, ICertConfig.GetConfig, ICertConfig2 interface [Security],GetConfig method, ICertConfig2::GetConfig, ICertConfig::GetConfig, _certsrv_icertconfig_getconfig, certcli/ICertConfig2::GetConfig, certcli/ICertConfig::GetConfig, security.icertconfig2_getconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,7 +150,7 @@ Displays a user interface that allows the user to select a certification authori
 
 #### - pbstrOut [out]
 
-A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free <i>pbstrOut</i>.
+A pointer to a <b>BSTR</b> that contains the configuration. When you have finished using the configuration, call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to free <i>pbstrOut</i>.
 
 
 ## -returns

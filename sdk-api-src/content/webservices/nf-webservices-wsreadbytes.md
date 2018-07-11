@@ -7,7 +7,7 @@ old-location: wsw\wsreadbytes.htm
 old-project: wsw
 ms.assetid: 02cff29c-7d39-4df2-8eb1-506f93959a1e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsReadBytes, WsReadBytes function [Web Services for Windows], webservices/WsReadBytes, wsw.wsreadbytes
 ms.prod: windows
 ms.technology: windows-sdk

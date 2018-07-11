@@ -4,10 +4,10 @@ title: PLOG_EVENT_ROUTINE
 author: windows-sdk-content
 description: Records an event in the cluster log.
 old-location: mscs\logevent.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: LOG_ERROR, LOG_INFORMATION, LOG_SEVERE, LOG_WARNING, LogEvent, LogEvent callback, LogEvent callback function [Failover Cluster], PLOG_EVENT_ROUTINE, PLOG_EVENT_ROUTINE callback function [Failover Cluster], _wolf_logevent, mscs.logevent, resapi/LogEvent, resapi/PLOG_EVENT_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

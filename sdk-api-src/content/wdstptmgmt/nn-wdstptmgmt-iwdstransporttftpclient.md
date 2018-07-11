@@ -4,10 +4,10 @@ title: IWdsTransportTftpClient
 author: windows-sdk-content
 description: This interface is used to specify information of a TFTP client session currently active in the server.
 old-location: wds\iwdstransporttftpclient.htm
-old-project: Wds
+old-project: wds
 ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
 ms.prod: windows
 ms.technology: windows-sdk

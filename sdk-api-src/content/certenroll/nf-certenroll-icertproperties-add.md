@@ -4,10 +4,10 @@ title: ICertProperties::Add
 author: windows-sdk-content
 description: Adds a property to the collection.
 old-location: security\icertproperties_add_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
 ms.prod: windows
 ms.technology: windows-sdk

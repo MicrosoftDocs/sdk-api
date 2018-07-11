@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_activate.htm
 old-project: audio
 ms.assetid: 9efdb079-ed24-43b4-844b-344571399de7
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Activate method, IDirectMusicSynth.Activate, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
 ms.prod: windows
 ms.technology: windows-sdk

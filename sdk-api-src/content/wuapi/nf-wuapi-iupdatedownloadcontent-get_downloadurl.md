@@ -4,10 +4,10 @@ title: IUpdateDownloadContent::get_DownloadUrl
 author: windows-sdk-content
 description: Gets the location of the download content on the server that hosts the update.
 old-location: wua\iupdatedownloadcontent_downloadurl.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: bcdc751c-6af6-49f0-93da-c73b2091d7f6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: DownloadUrl property [Windows Update Agent], DownloadUrl property [Windows Update Agent],IUpdateDownloadContent interface, IUpdateDownloadContent interface [Windows Update Agent],DownloadUrl property, IUpdateDownloadContent.DownloadUrl, IUpdateDownloadContent.get_DownloadUrl, IUpdateDownloadContent::DownloadUrl, IUpdateDownloadContent::get_DownloadUrl, get_DownloadUrl, wua.iupdatedownloadcontent_downloadurl, wuapi/IUpdateDownloadContent::DownloadUrl, wuapi/IUpdateDownloadContent::get_DownloadUrl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MODEMDEVCAPS"
 author: windows-sdk-content
 description: Contains information about the capabilities of a modem.
 old-location: base\modemdevcaps_str.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 7e9e37c7-416d-4550-87e3-7412cff9a49e
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPMODEMDEVCAPS, *PMODEMDEVCAPS, DIALOPTION_BILLING, DIALOPTION_DIALTONE, DIALOPTION_QUIET, LPMODEMDEVCAPS, LPMODEMDEVCAPS structure pointer, MDMSPKRFLAG_CALLSETUP, MDMSPKRFLAG_DIAL, MDMSPKRFLAG_OFF, MDMSPKRFLAG_ON, MDMVOLFLAG_HIGH, MDMVOLFLAG_LOW, MDMVOLFLAG_MEDIUM, MDM_BLIND_DIAL, MDM_CCITT_OVERRIDE, MDM_CELLULAR, MDM_COMPRESSION, MDM_DIAGNOSTICS, MDM_ERROR_CONTROL, MDM_FLOWCONTROL_HARD, MDM_FLOWCONTROL_SOFT, MDM_FORCED_EC, MDM_SPEED_ADJUST, MDM_TONE_DIAL, MDM_V23_OVERRIDE, MODEMDEVCAPS, MODEMDEVCAPS structure, PMODEMDEVCAPS, PMODEMDEVCAPS structure pointer, _MODEMDEVCAPS, _win32_modemdevcaps_str, base.modemdevcaps_str, mcx/LPMODEMDEVCAPS, mcx/MODEMDEVCAPS, mcx/PMODEMDEVCAPS"
 ms.prod: windows
 ms.technology: windows-sdk

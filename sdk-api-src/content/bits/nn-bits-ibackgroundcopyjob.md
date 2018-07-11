@@ -4,10 +4,10 @@ title: IBackgroundCopyJob
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob interface to add files to the job, set the priority level of the job, determine the state of the job, and to start and stop the job.
 old-location: bits\ibackgroundcopyjob.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS],described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
 ms.prod: windows
 ms.technology: windows-sdk

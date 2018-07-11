@@ -4,10 +4,10 @@ title: DRMCreateEnablingPrincipal function
 author: windows-sdk-content
 description: Creates an enabling principal needed to bind to a license.
 old-location: rm\drmcreateenablingprincipal.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ A pointer to a <a href="https://msdn.microsoft.com/8b7f22e0-586e-4950-94fe-868b3
 
 ### -param wszCredentials [in]
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://msdn.microsoft.com/library/ms682864(v=VS.85).aspx">rights account certificate</a> of the current user.
+A pointer to a null-terminated Unicode string that contains the <a href="r_gly.htm">rights account certificate</a> of the current user.
 
 
 ### -param phEnablingPrincipal

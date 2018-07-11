@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetCountryRegion
 author: windows-sdk-content
 description: Retrieves the two-letter country or region code.
 old-location: winlocation_com_ref\icivicaddressreport_getcountryregion.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 1bcf7939-e047-412f-874d-18bb5e93e5ec
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetCountryRegion, GetCountryRegion method [WinLocation], GetCountryRegion method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCountryRegion method, ICivicAddressReport.GetCountryRegion, ICivicAddressReport::GetCountryRegion, WinLocation_COM_Ref.icivicaddressreport_getcountryregion, locationapi/ICivicAddressReport::GetCountryRegion, winlocation.icivicaddressreport_getcountry
 ms.prod: windows
 ms.technology: windows-sdk

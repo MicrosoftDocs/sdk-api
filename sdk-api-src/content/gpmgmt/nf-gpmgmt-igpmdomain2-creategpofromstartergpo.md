@@ -4,10 +4,10 @@ title: IGPMDomain2::CreateGPOFromStarterGPO
 author: windows-sdk-content
 description: Creates and retrieves a GPMGPO object from a GPMStarterGPO object.
 old-location: gpmc\igpmdomain2_creategpofromstartergpo.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 3a74f763-a9f5-4e93-94fb-7ef2a116c82b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: CreateGPOFromStarterGPO, CreateGPOFromStarterGPO method [GPMC], CreateGPOFromStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateGPOFromStarterGPO method, IGPMDomain2.CreateGPOFromStarterGPO, IGPMDomain2::CreateGPOFromStarterGPO, gpmc.igpmdomain2_creategpofromstartergpo, gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
 ms.prod: windows
 ms.technology: windows-sdk

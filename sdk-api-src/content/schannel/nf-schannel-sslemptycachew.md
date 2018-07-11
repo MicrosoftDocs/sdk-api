@@ -7,7 +7,7 @@ old-location: security\sslemptycache.htm
 old-project: SecAuthN
 ms.assetid: c914d4e3-657e-45ef-ace8-2cea900a8a76
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\wlansetprofileposition.htm
 old-project: NativeWiFi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition
 ms.prod: windows
 ms.technology: windows-sdk

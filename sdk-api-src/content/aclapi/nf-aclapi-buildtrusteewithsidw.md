@@ -4,10 +4,10 @@ title: BuildTrusteeWithSidW function
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
 old-location: security\buildtrusteewithsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ TRUSTEE_IS_UNKNOWN
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

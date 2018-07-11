@@ -4,10 +4,10 @@ title: IObjectId
 author: windows-sdk-content
 description: Represents an object identifier (OID).
 old-location: security\iobjectid.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: bc6608e3-cae7-4992-b599-06bc04cc8ad7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IObjectId, IObjectId interface [Security], IObjectId interface [Security],described, certenroll/IObjectId, security.iobjectid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ All of the methods used to initialize an <b>IObjectId</b> object call the Crypto
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectId</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IObjectId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectId</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IObjectId</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -216,7 +216,7 @@ Retrieves a string that contains the dotted decimal object identifier.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

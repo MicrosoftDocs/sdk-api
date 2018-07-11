@@ -4,10 +4,10 @@ title: IVssComponentEx::GetRestoreName
 author: windows-sdk-content
 description: Obtains the logical name assigned to a component that is being restored.
 old-location: base\ivsscomponentex_getrestorename.htm
-old-project: VSS
+old-project: vss
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ The caller is out of memory or other system resources.
 
 The <a href="https://msdn.microsoft.com/a8334b28-9328-49f4-bf92-f43c556781bf">GetRestoreName</a> method can only be called during a restore operation.
 
-If the call to <a href="https://msdn.microsoft.com/a8334b28-9328-49f4-bf92-f43c556781bf">GetRestoreName</a> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrName</i> parameter by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <a href="https://msdn.microsoft.com/a8334b28-9328-49f4-bf92-f43c556781bf">GetRestoreName</a> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrName</i> parameter by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 A writer indicates that it supports this method by setting the <b>VSS_BS_RESTORE_RENAME</b> flag in its backup schema mask.
 

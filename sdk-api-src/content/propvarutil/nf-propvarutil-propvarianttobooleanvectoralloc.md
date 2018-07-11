@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBooleanVectorAlloc.htm
 old-project: properties
 ms.assetid: 241f43b6-5ff0-4ce6-b0a4-59dc9cb6cf8f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToBooleanVectorAlloc, PropVariantToBooleanVectorAlloc function [Windows Properties], _shell_PropVariantToBooleanVectorAlloc, properties.PropVariantToBooleanVectorAlloc, propvarutil/PropVariantToBooleanVectorAlloc, shell.PropVariantToBooleanVectorAlloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,7 +132,7 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776533(v=VS.85).aspx">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToBooleanVectorAlloc">PropVariantToBooleanVectorAlloc</a> to access a Boolean vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -164,19 +164,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776506(v=VS.85).aspx">IsPropVariantVector</a>
+<a href="shell.IsPropVariantVector">IsPropVariantVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776519(v=VS.85).aspx">PropVariantGetBooleanElem</a>
+<a href="shell.PropVariantGetBooleanElem">PropVariantGetBooleanElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
  
 
  

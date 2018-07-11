@@ -7,7 +7,7 @@ old-location: xps\ixpsomparturicollection_getat.htm
 old-project: printdocs
 ms.assetid: 9d7fcc13-13f5-494d-b6b2-d1180902ec08
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPartUriCollection.GetAt, IXpsOMPartUriCollection::GetAt, xps.ixpsomparturicollection_getat, xpsobjectmodel/IXpsOMPartUriCollection::GetAt
 ms.prod: windows
 ms.technology: windows-sdk

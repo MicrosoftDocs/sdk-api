@@ -4,10 +4,10 @@ title: IWdsTransportCollection::get_Item
 author: windows-sdk-content
 description: Receives a pointer to the object that matches the specified index.
 old-location: wds\iwdstransportcollection_item.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 4849923f-7463-46ee-9ec8-d2d5bcefd5ad
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],Item property, IWdsTransportCollection.Item, IWdsTransportCollection.get_Item, IWdsTransportCollection::Item, IWdsTransportCollection::get_Item, IWdsTransportCollection::put_Item, Item property [Windows Deployment Services], Item property [Windows Deployment Services],IWdsTransportCollection interface, get_Item, wds.iwdstransportcollection_item, wdstptmgmt/IWdsTransportCollection::Item, wdstptmgmt/IWdsTransportCollection::get_Item, wdstptmgmt/IWdsTransportCollection::put_Item
 ms.prod: windows
 ms.technology: windows-sdk

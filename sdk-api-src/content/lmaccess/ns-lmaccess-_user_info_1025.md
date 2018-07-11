@@ -4,10 +4,10 @@ title: "_USER_INFO_1025"
 author: windows-sdk-content
 description: The USER_INFO_1025 structure contains the code page for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1025_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 85e3584f-8245-47e3-9e48-5c43db51be0f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPUSER_INFO_1025, *PUSER_INFO_1025, LPUSER_INFO_1025, LPUSER_INFO_1025 structure pointer [Network Management], PUSER_INFO_1025, PUSER_INFO_1025 structure pointer [Network Management], USER_INFO_1025, USER_INFO_1025 structure [Network Management], _USER_INFO_1025, _win32_user_info_1025_str, lmaccess/LPUSER_INFO_1025, lmaccess/PUSER_INFO_1025, lmaccess/USER_INFO_1025, netmgmt.user_info_1025_str"
 ms.prod: windows
 ms.technology: windows-sdk

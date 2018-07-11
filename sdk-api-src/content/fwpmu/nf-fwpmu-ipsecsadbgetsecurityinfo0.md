@@ -4,10 +4,10 @@ title: IPsecSaDbGetSecurityInfo0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for the IPsec security association (SA) database.
 old-location: fwp\ipsecsadbgetsecurityinfo0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 19121de3-91bc-4dca-94f8-599a43bb1e68
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecSaDbGetSecurityInfo0, IPsecSaDbGetSecurityInfo0 function [Filtering], fwp.ipsecsadbgetsecurityinfo0, fwpmu/IPsecSaDbGetSecurityInfo0
 ms.prod: windows
 ms.technology: windows-sdk

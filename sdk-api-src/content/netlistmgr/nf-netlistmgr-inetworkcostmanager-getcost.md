@@ -4,10 +4,10 @@ title: INetworkCostManager::GetCost
 author: windows-sdk-content
 description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getcost.htm
-old-project: NLA
+old-project: nla
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
 ms.prod: windows
 ms.technology: windows-sdk

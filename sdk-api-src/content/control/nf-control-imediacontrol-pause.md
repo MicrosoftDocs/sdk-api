@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_pause.htm
 old-project: DirectShow
 ms.assetid: cfb875b7-cc4e-4ae2-8379-964d0e3ceb04
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause
 ms.prod: windows
 ms.technology: windows-sdk

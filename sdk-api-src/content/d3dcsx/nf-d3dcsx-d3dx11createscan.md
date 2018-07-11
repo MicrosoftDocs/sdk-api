@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createscan.htm
 old-project: direct3d11
 ms.assetid: daaa6913-a952-4f89-8a17-17e690ad8883
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 084772c2-3360-63d5-fb00-82f536323a9d, D3DX11CreateScan, D3DX11CreateScan function [Direct3D 11], d3dcsx/D3DX11CreateScan, direct3d11.d3dx11createscan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Type: <b><a href="https://msdn.microsoft.com/f57401b9-fa1e-4470-a974-825749773f9
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             The return value is one of the values listed in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.

@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationauthoringmode_authoringclientbinary.htm
 old-project: debug_wwahost
 ms.assetid: ff75658a-af5a-42d7-be88-b3bc0daed5e2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: AuthoringClientBinary property [Debugging Windows Store apps], AuthoringClientBinary property [Debugging Windows Store apps],IWebApplicationAuthoringMode interface, IWebApplicationAuthoringMode interface [Debugging Windows Store apps],AuthoringClientBinary property, IWebApplicationAuthoringMode.AuthoringClientBinary, IWebApplicationAuthoringMode.get_AuthoringClientBinary, IWebApplicationAuthoringMode::AuthoringClientBinary, IWebApplicationAuthoringMode::get_AuthoringClientBinary, debug.iwebapplicationauthoringmode_authoringclientbinary, get_AuthoringClientBinary, webapplication/IWebApplicationAuthoringMode::AuthoringClientBinary, webapplication/IWebApplicationAuthoringMode::get_AuthoringClientBinary
 ms.prod: windows
 ms.technology: windows-sdk

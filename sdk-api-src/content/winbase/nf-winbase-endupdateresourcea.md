@@ -7,7 +7,7 @@ old-location: menurc\endupdateresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\endupdateresource.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: EndUpdateResource, EndUpdateResource function [Menus and Other Resources], EndUpdateResourceA, EndUpdateResourceW, _win32_EndUpdateResource, _win32_endupdateresource_cpp, menurc.endupdateresource, winbase/EndUpdateResource, winbase/EndUpdateResourceA, winbase/EndUpdateResourceW, winui._win32_endupdateresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Commits or discards changes made prior to a call to <a href="https://msdn.microsoft.com/library/ms648049(v=VS.85).aspx">UpdateResource</a>.
+Commits or discards changes made prior to a call to <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Commits or discards changes made prior to a call to <a href="https://msdn.micros
 
 Type: <b>HANDLE</b>
 
-A module handle returned by the <a href="https://msdn.microsoft.com/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a> function, and used by <a href="https://msdn.microsoft.com/library/ms648049(v=VS.85).aspx">UpdateResource</a>, referencing the file to be updated. 
+A module handle returned by the <a href="https://msdn.microsoft.com/7702a24d-b786-47ae-9d7e-d047fbb50a7e">BeginUpdateResource</a> function, and used by <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a>, referencing the file to be updated. 
 
 
 ### -param fDiscard [in]
@@ -94,14 +94,14 @@ successful resource updates are made to the file. To get extended error informat
 
 
 
-Before you call this function, make sure all file handles other than the one returned by <a href="https://msdn.microsoft.com/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a> are closed.
+Before you call this function, make sure all file handles other than the one returned by <a href="https://msdn.microsoft.com/7702a24d-b786-47ae-9d7e-d047fbb50a7e">BeginUpdateResource</a> are closed.
 
-This function can update resources within modules that contain both code and resources. There are restrictions on resource updates in LN files and .mui files, both of which contain Resource Configuration data; details of the restrictions are in the reference for the <a href="https://msdn.microsoft.com/library/ms648049(v=VS.85).aspx">UpdateResource</a> function.
+This function can update resources within modules that contain both code and resources. There are restrictions on resource updates in LN files and .mui files, both of which contain Resource Configuration data; details of the restrictions are in the reference for the <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85).aspx">Updating Resources</a>.
+For an example, see <a href="using_resources.htm">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -112,7 +112,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a>
+<a href="https://msdn.microsoft.com/7702a24d-b786-47ae-9d7e-d047fbb50a7e">BeginUpdateResource</a>
 
 
 
@@ -124,11 +124,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648008(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648049(v=VS.85).aspx">UpdateResource</a>
+<a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a>
  
 
  

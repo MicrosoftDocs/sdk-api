@@ -7,7 +7,7 @@ old-location: opc\iopcpartenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: 54759fcb-858f-434c-92e9-6164f3d972fb
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcPartEnumerator interface, IOpcPartEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcPartEnumerator.GetCurrent, IOpcPartEnumerator::GetCurrent, msopc/IOpcPartEnumerator::GetCurrent, opc.iopcpartenumerator_getcurrent
 ms.prod: windows
 ms.technology: windows-sdk

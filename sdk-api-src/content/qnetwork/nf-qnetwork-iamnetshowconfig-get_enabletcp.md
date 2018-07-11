@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_enabletcp.htm
 old-project: DirectShow
 ms.assetid: b4282f84-e05b-407f-9425-0690783957c4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableTCP method, IAMNetShowConfig.get_EnableTCP, IAMNetShowConfig::get_EnableTCP, IAMNetShowConfigget_EnableTCP, dshow.iamnetshowconfig_get_enabletcp, get_EnableTCP, get_EnableTCP method [DirectShow], get_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableTCP
 ms.prod: windows
 ms.technology: windows-sdk

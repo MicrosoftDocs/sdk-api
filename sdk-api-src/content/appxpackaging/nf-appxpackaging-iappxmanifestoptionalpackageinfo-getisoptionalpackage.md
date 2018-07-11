@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestoptionalpackageinfo_getisoptionalpackage.htm
 old-project: appxpkg
 ms.assetid: E52E411C-0A3E-4DA3-B25D-14E761FEF676
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetIsOptionalPackage, GetIsOptionalPackage method [App packaging and management], GetIsOptionalPackage method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetIsOptionalPackage method, IAppxManifestOptionalPackageInfo.GetIsOptionalPackage, IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpkg.iappxmanifestoptionalpackageinfo_getisoptionalpackage
 ms.prod: windows
 ms.technology: windows-sdk

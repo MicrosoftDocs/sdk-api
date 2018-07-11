@@ -4,10 +4,10 @@ title: IStorage::CreateStream
 author: windows-sdk-content
 description: Creates and opens a stream object with the specified name contained in this storage object.
 old-location: stg\istorage_createstream.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 168f5ac9-8a72-4356-82a4-de3a7ec72c05
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: CreateStream, CreateStream method [Structured Storage], CreateStream method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStream method, IStorage.CreateStream, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
 ms.prod: windows
 ms.technology: windows-sdk

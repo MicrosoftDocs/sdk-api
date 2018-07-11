@@ -4,10 +4,10 @@ title: "_CREATEFILE2_EXTENDED_PARAMETERS"
 author: windows-sdk-content
 description: Contains optional extended parameters for CreateFile2.
 old-location: fs\createfile2_extended_parameters.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: efe68dfc-f13d-47de-9443-30404977e26f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*LPCREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, CREATEFILE2_EXTENDED_PARAMETERS, CREATEFILE2_EXTENDED_PARAMETERS structure [Files], FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_INTEGRITY_STREAM, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OPEN_REQUIRING_OPLOCK, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, LPCREATEFILE2_EXTENDED_PARAMETERS, LPCREATEFILE2_EXTENDED_PARAMETERS structure pointer [Files], PCREATEFILE2_EXTENDED_PARAMETERS, PCREATEFILE2_EXTENDED_PARAMETERS structure pointer [Files], SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, _CREATEFILE2_EXTENDED_PARAMETERS, fileapi/CREATEFILE2_EXTENDED_PARAMETERS, fileapi/LPCREATEFILE2_EXTENDED_PARAMETERS, fileapi/PCREATEFILE2_EXTENDED_PARAMETERS, fs.createfile2_extended_parameters"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -322,7 +322,7 @@ The file is being opened and an opportunistic lock (oplock) on the file is being
          the create with a last error code of <b>ERROR_CANNOT_BREAK_OPLOCK</b> if the result would 
          be to break an existing oplock.
 
-If you use this flag  and your call to the <a href="https://msdn.microsoft.com/cd7a81f3-60ee-443a-99f3-a4c8afd365e7">CreateFile2</a> function successfully returns, the first operation you should perform on the file handle is to request an oplock by calling the <a href="https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx">DeviceIOControl</a> function and then pass in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a> or one of the other <a href="https://msdn.microsoft.com/1595c03e-9f6d-456c-8164-fafba06bbd79">Opportunistic Lock Operations</a>.  If you perform other file system operations with the file handle before requesting an oplock, a deadlock might occur.<div class="alert"><b>Note</b>  You can safely call the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function on the file handle without first requesting an oplock.</div>
+If you use this flag  and your call to the <a href="https://msdn.microsoft.com/cd7a81f3-60ee-443a-99f3-a4c8afd365e7">CreateFile2</a> function successfully returns, the first operation you should perform on the file handle is to request an oplock by calling the <a href="devio.deviceiocontrol">DeviceIOControl</a> function and then pass in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a> or one of the other <a href="https://msdn.microsoft.com/1595c03e-9f6d-456c-8164-fafba06bbd79">Opportunistic Lock Operations</a>.  If you perform other file system operations with the file handle before requesting an oplock, a deadlock might occur.<div class="alert"><b>Note</b>  You can safely call the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function on the file handle without first requesting an oplock.</div>
 <div> </div>
 
 

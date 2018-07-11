@@ -7,7 +7,7 @@ old-location: tsf\itfcontext.htm
 old-project: TSF
 ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -262,7 +262,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

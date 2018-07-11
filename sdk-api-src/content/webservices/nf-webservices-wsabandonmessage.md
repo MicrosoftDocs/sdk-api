@@ -7,7 +7,7 @@ old-location: wsw\wsabandonmessage.htm
 old-project: wsw
 ms.assetid: b8f5da50-d296-4550-8810-114d1f0e810b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsAbandonMessage, WsAbandonMessage function [Web Services for Windows], webservices/WsAbandonMessage, wsw.wsabandonmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
                 state diagram:
             
 
-<img alt="" src="./images/AbandonMessage.png"/>
+<img alt="" src="images/AbandonMessage.png"/>
 
 
                 For read operations, an application typically calls <b>WsAbandonMessage</b> when it is unnecessary for the application to continue reading the 

@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_next.htm
 old-project: WMDM
 ms.assetid: 7874912a-6350-445c-a7c8-0f885d756aa0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Next method, IMDSPEnumStorage.Next, IMDSPEnumStorage::Next, IMDSPEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Next, wmdm.imdspenumstorage_next
 ms.prod: windows
 ms.technology: windows-sdk

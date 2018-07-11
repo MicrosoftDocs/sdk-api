@@ -4,10 +4,10 @@ title: ICertAdmin
 author: windows-sdk-content
 description: Provides administration functionality for properly authorized clients.
 old-location: security\icertadmin.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertAdmin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertAdmin</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertAdmin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

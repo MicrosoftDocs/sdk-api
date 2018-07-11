@@ -4,10 +4,10 @@ title: ITaskNamedValueCollection::Clear
 author: windows-sdk-content
 description: Clears the entire collection of name-value pairs.
 old-location: taskschd\itasknamedvaluecollection_clear.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: ac6ac365-5315-49d4-b67a-9c840a2caf51
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Clear method, ITaskNamedValueCollection.Clear, ITaskNamedValueCollection::Clear, taskschd.itasknamedvaluecollection_clear, taskschd/ITaskNamedValueCollection::Clear
 ms.prod: windows
 ms.technology: windows-sdk

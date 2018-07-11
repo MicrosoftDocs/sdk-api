@@ -4,10 +4,10 @@ title: PCLUSAPI_PAUSE_CLUSTER_NODE
 author: windows-sdk-content
 description: Requests that a node temporarily suspend its cluster activity. The PCLUSAPI_PAUSE_CLUSTER_NODE type defines a pointer to this function.
 old-location: mscs\pauseclusternode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 23b4ff74-f72f-4227-9b69-ff36fa6ed55b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE, PCLUSAPI_PAUSE_CLUSTER_NODE callback, PCLUSAPI_PAUSE_CLUSTER_NODE callback function [Failover Cluster], _wolf_pauseclusternode, clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE, mscs.pauseclusternode
 ms.prod: windows
 ms.technology: windows-sdk

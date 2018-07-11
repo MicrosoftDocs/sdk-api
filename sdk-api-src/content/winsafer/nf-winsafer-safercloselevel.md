@@ -4,10 +4,10 @@ title: SaferCloseLevel function
 author: windows-sdk-content
 description: Closes a SAFER_LEVEL_HANDLE that was opened by using the SaferIdentifyLevel function or the SaferCreateLevel function.
 old-location: security\safercloselevel.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 8daffb35-5bb0-45b3-aff1-a8ea6a142ba5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: SaferCloseLevel, SaferCloseLevel function [Security], _mnp_safercloselevel, security.safercloselevel, winsafer/SaferCloseLevel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\roinspectcapturedstackbacktrace.htm
 old-project: WinRT
 ms.assetid: 2C5B04DD-888B-4400-A01D-CDF9DD870584
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: RoInspectCapturedStackBackTrace, RoInspectCapturedStackBackTrace function [Windows Runtime], roerrorapi/RoInspectCapturedStackBackTrace, winrt.roinspectcapturedstackbacktrace
 ms.prod: windows
 ms.technology: windows-sdk

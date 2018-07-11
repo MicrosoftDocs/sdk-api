@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_repaintvideo.htm
 old-project: DirectShow
 ms.assetid: 7a25301c-00e4-4f54-a34d-416a52daeaa7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],RepaintVideo method, IVMRWindowlessControl9.RepaintVideo, IVMRWindowlessControl9::RepaintVideo, IVMRWindowlessControl9RepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_repaintvideo, vmr9/IVMRWindowlessControl9::RepaintVideo
 ms.prod: windows
 ms.technology: windows-sdk

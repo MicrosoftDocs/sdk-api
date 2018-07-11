@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_Type
 author: windows-sdk-content
 description: The Type property returns the value from the Type column of the ModuleConfiguration table .
 old-location: setup\configurableitem_type.htm
-old-project: Msi
+old-project: msi
 ms.assetid: af2cb859-2e9d-4bca-867b-cdc61d9758cd
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: ConfigurableItem object,Type property, ConfigurableItem.Type, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, Type property, Type property,ConfigurableItem object, _msi_type_property_configurableitem_object_, get_Type, setup.configurableitem_type
 ms.prod: windows
 ms.technology: windows-sdk

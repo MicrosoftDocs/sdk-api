@@ -4,10 +4,10 @@ title: tagNMDATETIMESTRINGW
 author: windows-sdk-content
 description: Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the DTN_USERSTRING notification code.
 old-location: controls\NMDATETIMESTRING.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimestring.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMDATETIMESTRINGW, LPNMDATETIMESTRING, LPNMDATETIMESTRING structure pointer [Windows Controls], NMDATETIMESTRING, NMDATETIMESTRING structure [Windows Controls], NMDATETIMESTRINGA, NMDATETIMESTRINGW, _win32_NMDATETIMESTRING, _win32_NMDATETIMESTRING_cpp, commctrl/LPNMDATETIMESTRING, commctrl/NMDATETIMESTRING, commctrl/NMDATETIMESTRINGA, commctrl/NMDATETIMESTRINGW, controls.NMDATETIMESTRING, controls._win32_NMDATETIMESTRING, tagNMDATETIMESTRINGW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the <a href="https://msdn.microsoft.com/library/Bb761745(v=VS.85).aspx">DTN_USERSTRING</a> notification code. 
+Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the <a href="https://msdn.microsoft.com/a5b13582-323b-4804-912c-a988d902547d">DTN_USERSTRING</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Contains information specific to an edit operation that has taken place in a dat
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field pszUserString
@@ -78,7 +78,7 @@ The address of the zero-terminated string that the user entered.
 
 Type: <b><a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a></b>
 
-A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that must be filled in by the owner when handling the <a href="https://msdn.microsoft.com/library/Bb761745(v=VS.85).aspx">DTN_USERSTRING</a> notification code. 
+A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure that must be filled in by the owner when handling the <a href="https://msdn.microsoft.com/a5b13582-323b-4804-912c-a988d902547d">DTN_USERSTRING</a> notification code. 
 
 
 ### -field dwFlags
@@ -86,5 +86,5 @@ A <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYST
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The return field. Set this member to GDT_VALID to indicate that the 
-					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="https://msdn.microsoft.com/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style only). 
+					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> style only). 
 

@@ -4,10 +4,10 @@ title: IPSEC_STATISTICS1_
 author: windows-sdk-content
 description: Is the top-level of the IPsec statistics structures.
 old-location: fwp\ipsec_statistics1_struct.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: d61d8eb5-1b0b-419e-a248-58541db8906b
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_STATISTICS1, IPSEC_STATISTICS1 structure [Filtering], IPSEC_STATISTICS1_, fwp.ipsec_statistics1_struct, ipsectypes/IPSEC_STATISTICS1
 ms.prod: windows
 ms.technology: windows-sdk

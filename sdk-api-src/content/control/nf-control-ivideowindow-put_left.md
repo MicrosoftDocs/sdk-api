@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_left.htm
 old-project: DirectShow
 ms.assetid: a614ee46-49cf-40e4-a1f7-b3b3b7065175
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Left method, IVideoWindow.put_Left, IVideoWindow::put_Left, IVideoWindowput_Left, control/IVideoWindow::put_Left, dshow.ivideowindow_put_left, put_Left, put_Left method [DirectShow], put_Left method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

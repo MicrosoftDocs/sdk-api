@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntime_evaluatemodel.htm
 old-project: MachineLearning
 ms.assetid: F96A1CCD-02BD-4E93-830D-9975A03658E2
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: EvaluateModel, EvaluateModel method, EvaluateModel method,IWinMLRuntime interface, IWinMLRuntime interface,EvaluateModel method, IWinMLRuntime.EvaluateModel, IWinMLRuntime::EvaluateModel, MachineLearning.iwinmlruntime_evaluatemodel, winml/IWinMLRuntime::EvaluateModel
 ms.prod: windows
 ms.technology: windows-sdk

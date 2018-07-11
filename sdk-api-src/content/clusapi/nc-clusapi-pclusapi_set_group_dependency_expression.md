@@ -4,10 +4,10 @@ title: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION
 author: windows-sdk-content
 description: Sets the dependency expression for a cluster group.
 old-location: mscs\setgroupdependencyexpression.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4cf98bed-77fd-4c6a-98c1-ce602e1895f9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION callback, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION callback function [Failover Cluster], clusapi/PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, mscs.setgroupdependencyexpression
 ms.prod: windows
 ms.technology: windows-sdk

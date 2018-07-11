@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicesession.htm
 old-project: WMDM
 ms.assetid: 37a57fbe-d0f8-44ee-b6c5-2c6a34e12f2b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], IWMDMDeviceSession interface [windows Media Device Manager],described, IWMDMDeviceSessionInterface, mswmdm/IWMDMDeviceSession, wmdm.iwmdmdevicesession
 ms.prod: windows
 ms.technology: windows-sdk

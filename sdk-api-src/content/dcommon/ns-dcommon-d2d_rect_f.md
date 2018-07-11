@@ -4,10 +4,10 @@ title: D2D_RECT_F
 author: windows-sdk-content
 description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
 old-location: direct2d\D2D_RECT_F.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 84bd7ab0-f273-46f8-b261-86cd1d7f3868
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1_RECT_F, D2D_RECT_F, D2D_RECT_F structure [Direct2D], dcommon/D2D_RECT_F, direct2d.D2D_RECT_F
 ms.prod: windows
 ms.technology: windows-sdk

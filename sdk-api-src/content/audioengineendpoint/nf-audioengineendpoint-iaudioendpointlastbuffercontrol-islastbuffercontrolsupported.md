@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointlastbuffercontrol_islastbuffercontrolsuppo
 old-project: CoreAudio
 ms.assetid: 9ee7095a-957f-429d-b19d-df90246f8608
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],IsLastBufferControlSupported method, IAudioEndpointLastBufferControl.IsLastBufferControlSupported, IAudioEndpointLastBufferControl::IsLastBufferControlSupported, IsLastBufferControlSupported, IsLastBufferControlSupported method [Core Audio], IsLastBufferControlSupported method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::IsLastBufferControlSupported, coreaudio.iaudioendpointlastbuffercontrol_islastbuffercontrolsupported
 ms.prod: windows
 ms.technology: windows-sdk

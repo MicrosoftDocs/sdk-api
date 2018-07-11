@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10multithread_setmultithreadprotected.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_setmultithreadprotected.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 22302703-e7e4-5872-896b-8c2360171b16, ID3D10Multithread interface [Direct3D 10],SetMultithreadProtected method, ID3D10Multithread.SetMultithreadProtected, ID3D10Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 10], SetMultithreadProtected method [Direct3D 10],ID3D10Multithread interface, d3d10/ID3D10Multithread::SetMultithreadProtected, direct3d10.id3d10multithread_setmultithreadprotected
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ True if multithreading was turned on prior to calling this method, false otherwi
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173816(v=VS.85).aspx">ID3D10Multithread Interface</a>
+<a href="https://msdn.microsoft.com/ff4890fe-25a3-4515-b20d-45f68637e7b3">ID3D10Multithread Interface</a>
  
 
  

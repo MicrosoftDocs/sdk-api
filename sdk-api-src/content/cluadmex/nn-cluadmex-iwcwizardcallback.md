@@ -4,10 +4,10 @@ title: IWCWizardCallback
 author: windows-sdk-content
 description: The IWCWizardCallback interface is called by a Failover Cluster Administrator extension to add a property page to a Failover Cluster Administrator Wizard and to manage navigation.
 old-location: mscs\iwcwizardcallback.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 0d5f45c4-6091-4ea4-875a-69be7f1258db
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], IWCWizardCallback interface [Failover Cluster],described, _wolf_iwcwizardcallback, cluadmex/IWCWizardCallback, mscs.iwcwizardcallback
 ms.prod: windows
 ms.technology: windows-sdk

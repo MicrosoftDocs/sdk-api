@@ -7,7 +7,7 @@ old-location: winsync\iasynchronousdataretriever_revokecallback.htm
 old-project: winsync
 ms.assetid: bb7b1457-03aa-47e0-9e61-6195706a0fcd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback method, IAsynchronousDataRetriever.RevokeCallback, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
 ms.prod: windows
 ms.technology: windows-sdk

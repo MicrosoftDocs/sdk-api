@@ -4,10 +4,10 @@ title: HttpReadFragmentFromCache function
 author: windows-sdk-content
 description: The HttpReadFragmentFromCache function retrieves a response fragment having a specified name from the HTTP Server API cache.
 old-location: http\httpreadfragmentfromcache.htm
-old-project: Http
+old-project: http
 ms.assetid: 2f066e1d-035f-4c1c-b854-de4a6ef58a58
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpReadFragmentFromCache, HttpReadFragmentFromCache function [HTTP], _http_httpreadfragmentfromcache, http.httpreadfragmentfromcache, http/HttpReadFragmentFromCache
 ms.prod: windows
 ms.technology: windows-sdk

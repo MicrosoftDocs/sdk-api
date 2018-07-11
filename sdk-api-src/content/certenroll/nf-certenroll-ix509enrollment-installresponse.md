@@ -4,10 +4,10 @@ title: IX509Enrollment::InstallResponse
 author: windows-sdk-content
 description: Installs a certificate chain on the end-entity computer.
 old-location: security\ix509enrollment_installresponse_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 4ad33092-71c4-4ae1-a3a6-cef376d04c2d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment interface [Security],InstallResponse method, IX509Enrollment.InstallResponse, IX509Enrollment::InstallResponse, InstallResponse, InstallResponse method [Security], InstallResponse method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InstallResponse, security.ix509enrollment_installresponse_method
 ms.prod: windows
 ms.technology: windows-sdk

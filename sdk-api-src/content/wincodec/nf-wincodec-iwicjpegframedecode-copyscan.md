@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_copyscan.htm
 old-project: wic
 ms.assetid: 19579C0B-AB96-424D-B433-6A88BE64A434
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CopyScan, CopyScan method [Windows Imaging Component], CopyScan method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],CopyScan method, IWICJpegFrameDecode.CopyScan, IWICJpegFrameDecode::CopyScan, wic.iwicjpegframedecode_copyscan, wincodec/IWICJpegFrameDecode::CopyScan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ A pointer that receives the size of the scan data actually copied into <i>pbScan
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method can return one of these values.
 

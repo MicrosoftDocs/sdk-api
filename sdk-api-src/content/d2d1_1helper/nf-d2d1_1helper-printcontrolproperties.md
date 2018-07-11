@@ -4,10 +4,10 @@ title: PrintControlProperties function
 author: windows-sdk-content
 description: Returns a filled D2D1_PRINT_CONTROL_PROPERTIES structure.
 old-location: direct2d\printcontrolproperties.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 0AD341B6-DA74-417B-9F2F-20557B090F49
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: PrintControlProperties, PrintControlProperties function [Direct2D], d2d1_1helper/PrintControlProperties, direct2d.printcontrolproperties
 ms.prod: windows
 ms.technology: windows-sdk

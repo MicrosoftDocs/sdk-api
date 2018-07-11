@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader_getblockmap.htm
 old-project: appxpkg
 ms.assetid: FEBCA2E4-9B32-499B-AD31-9D90525A42DB
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetBlockMap method, IAppxPackageReader.GetBlockMap, IAppxPackageReader::GetBlockMap, appxpackaging/IAppxPackageReader::GetBlockMap, appxpkg.iappxpackagereader_getblockmap
 ms.prod: windows
 ms.technology: windows-sdk

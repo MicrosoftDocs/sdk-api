@@ -4,10 +4,10 @@ title: IX509CertificateTemplates::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IX509CertificateTemplate objects in the collection.
 old-location: security\ix509certificatetemplates_count.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 92183bf8-fa1a-4377-a659-cc7ab3e2ca41
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Count property [Security], Count property [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Count property, IX509CertificateTemplates.Count, IX509CertificateTemplates.get_Count, IX509CertificateTemplates::Count, IX509CertificateTemplates::get_Count, certenroll/IX509CertificateTemplates::Count, certenroll/IX509CertificateTemplates::get_Count, get_Count, security.ix509certificatetemplates_count
 ms.prod: windows
 ms.technology: windows-sdk

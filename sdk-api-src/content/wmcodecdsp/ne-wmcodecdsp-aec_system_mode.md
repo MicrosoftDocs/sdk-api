@@ -7,7 +7,7 @@ old-location: mf\aec_system_modeenumeration.htm
 old-project: medfound
 ms.assetid: 637cccba-a2d0-41f4-ac50-eac7e7e29b6b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: ADAPTIVE_ARRAY_AND_AEC, ADAPTIVE_ARRAY_ONLY, AEC_SYSTEM_MODE, AEC_SYSTEM_MODE enumeration [Media Foundation], MODE_NOT_SET, OPTIBEAM_ARRAY_AND_AEC, OPTIBEAM_ARRAY_ONLY, SINGLE_CHANNEL_AEC, SINGLE_CHANNEL_NSAGC, codecapi.aec_system_modeenumeration, mf.aec_system_modeenumeration, wmcodecdsp/ADAPTIVE_ARRAY_AND_AEC, wmcodecdsp/ADAPTIVE_ARRAY_ONLY, wmcodecdsp/AEC_SYSTEM_MODE, wmcodecdsp/MODE_NOT_SET, wmcodecdsp/OPTIBEAM_ARRAY_AND_AEC, wmcodecdsp/OPTIBEAM_ARRAY_ONLY, wmcodecdsp/SINGLE_CHANNEL_AEC, wmcodecdsp/SINGLE_CHANNEL_NSAGC
 ms.prod: windows
 ms.technology: windows-sdk

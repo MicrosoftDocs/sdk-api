@@ -4,10 +4,10 @@ title: ISClusDisk::get_Partitions
 author: windows-sdk-content
 description: ClusPartitions collection containing partition information about a Physical Disk.
 old-location: mscs\clusdisk_partitions.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d0a6ec99-c7c8-4746-aaa7-ee70a2e8f355
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusDisk object [Failover Cluster],Partitions property, ClusDisk.Partitions, ISClusDisk.get_Partitions, ISClusDisk::get_Partitions, Partitions property [Failover Cluster], Partitions property [Failover Cluster],ClusDisk object, _wolf_clusdisk.partitions, get_Partitions, mscs.clusdisk_partitions
 ms.prod: windows
 ms.technology: windows-sdk

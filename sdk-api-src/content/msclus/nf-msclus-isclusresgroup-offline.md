@@ -4,10 +4,10 @@ title: ISClusResGroup::Offline
 author: windows-sdk-content
 description: Takes a group &#32; offline.
 old-location: mscs\clusresgroup_offline.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: ca4b8bd9-26fb-40f6-86f7-bbd1514fc9ac
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Offline method, ClusResGroup.Offline, ISClusResGroup.Offline, ISClusResGroup::Offline, Offline, Offline method [Failover Cluster], Offline method [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.offline, mscs.clusresgroup_offline
 ms.prod: windows
 ms.technology: windows-sdk

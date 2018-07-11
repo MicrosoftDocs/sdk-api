@@ -4,10 +4,10 @@ title: DNS_MINFO_DATAA
 author: windows-sdk-content
 description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
 old-location: dns\dns_minfo_data.htm
-old-project: DNS
+old-project: dns
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*PDNS_MINFO_DATA, *PDNS_MINFO_DATAA, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAA, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The
 
 ### -field pNameMailbox
 
-A pointer to a string that represents the <a href="https://msdn.microsoft.com/library/ms682135(v=VS.85).aspx">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
+A pointer to a string that represents the <a href="f_gly.htm">fully qualified domain name</a> (FQDN) of the mailbox responsible for the mailing list or mailbox specified in the record's owner name.
 
 
 ### -field pNameErrorsMailbox

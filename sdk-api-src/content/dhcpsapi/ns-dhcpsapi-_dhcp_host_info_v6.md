@@ -4,10 +4,10 @@ title: "_DHCP_HOST_INFO_V6"
 author: windows-sdk-content
 description: Contains network information about a DHCPv6 server (host), such as its IPv6 address and name.
 old-location: dhcp\dhcp_host_info_v6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 7473bbcd-d032-4f44-96e8-e08f050c08a3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6, DHCP_HOST_INFO_V6 structure [DHCP], PDHCP_HOST_INFO_V6, PDHCP_HOST_INFO_V6 structure pointer [DHCP], _DHCP_HOST_INFO_V6, dhcp.dhcp_host_info_v6, dhcpsapi/DHCP_HOST_INFO_V6, dhcpsapi/PDHCP_HOST_INFO_V6"
 ms.prod: windows
 ms.technology: windows-sdk

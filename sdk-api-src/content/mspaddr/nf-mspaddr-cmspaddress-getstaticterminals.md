@@ -4,10 +4,10 @@ title: CMSPAddress::GetStaticTerminals
 author: windows-sdk-content
 description: The GetStaticTerminals method is called by our wrapper methods ( get_StaticTerminals and EnumerateStaticTerminals) to get an array of static terminals that can be used on this address.
 old-location: tapi3\cmspaddress_getstaticterminals.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 8fffc00d-a783-47bc-a081-fe2116060da0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetStaticTerminals method, CMSPAddress.GetStaticTerminals, CMSPAddress::GetStaticTerminals, GetStaticTerminals, GetStaticTerminals method [TAPI 2.2], GetStaticTerminals method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getstaticterminals, mspaddr/CMSPAddress::GetStaticTerminals, tapi3.cmspaddress_getstaticterminals
 ms.prod: windows
 ms.technology: windows-sdk

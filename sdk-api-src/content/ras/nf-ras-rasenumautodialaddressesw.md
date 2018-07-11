@@ -4,10 +4,10 @@ title: RasEnumAutodialAddressesW function
 author: windows-sdk-content
 description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
 old-location: rras\rasenumautodialaddresses.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
 ms.prod: windows
 ms.technology: windows-sdk

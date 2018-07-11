@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_beginreceiveresponse.htm
 old-project: medfound
 ms.assetid: 6D5DB091-426B-4E89-8657-0BDC6427B23A
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getstatus.htm
 old-project: WMDM
 ms.assetid: 572b5de6-62d7-450f-851f-d09b1864a86c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetStatus method, IMDSPStorageGlobals.GetStatus, IMDSPStorageGlobals::GetStatus, IMDSPStorageGlobalsGetStatus, mswmdm/IMDSPStorageGlobals::GetStatus, wmdm.imdspstorageglobals_getstatus
 ms.prod: windows
 ms.technology: windows-sdk

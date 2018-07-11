@@ -4,10 +4,10 @@ title: IS_ADSPEC_BODY
 author: windows-sdk-content
 description: The IS_ADSPEC_BODY structure contains Integrated Services Adspec information.
 old-location: qos\is_adspec_body.htm
-old-project: QOS
+old-project: qos
 ms.assetid: f788e094-0b50-4104-be15-3593f53120c5
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: IS_ADSPEC_BODY, IS_ADSPEC_BODY structure [QOS], lpmapi/IS_ADSPEC_BODY, qos.is_adspec_body
 ms.prod: windows
 ms.technology: windows-sdk

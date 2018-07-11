@@ -7,7 +7,7 @@ old-location: base\group_affinity.htm
 old-project: ProcThread
 ms.assetid: 76009431-9139-4c03-9c7b-0c4bb5f0cb83
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure, PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer, _GROUP_AFFINITY, base.group_affinity, winnt/GROUP_AFFINITY, winnt/PGROUP_AFFINITY"
 ms.prod: windows
 ms.technology: windows-sdk

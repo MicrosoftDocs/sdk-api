@@ -7,7 +7,7 @@ old-location: xps\xps_line_cap.htm
 old-project: printdocs
 ms.assetid: 63ee8c2d-e7c5-4453-9555-25896dc13870
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: XPS_LINE_CAP, XPS_LINE_CAP enumeration [XPS Documents and Packaging], XPS_LINE_CAP_FLAT, XPS_LINE_CAP_ROUND, XPS_LINE_CAP_SQUARE, XPS_LINE_CAP_TRIANGLE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0005, xps.xps_line_cap, xpsobjectmodel/XPS_LINE_CAP, xpsobjectmodel/XPS_LINE_CAP_FLAT, xpsobjectmodel/XPS_LINE_CAP_ROUND, xpsobjectmodel/XPS_LINE_CAP_SQUARE, xpsobjectmodel/XPS_LINE_CAP_TRIANGLE
 ms.prod: windows
 ms.technology: windows-sdk

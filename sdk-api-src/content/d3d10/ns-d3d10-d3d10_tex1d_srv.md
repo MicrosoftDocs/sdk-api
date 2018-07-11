@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_srv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_srv.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_TEX1D_SRV, D3D10_TEX1D_SRV structure [Direct3D 10], d3d10/D3D10_TEX1D_SRV, d4d7de7d-f574-5d27-4164-a30ae50fa54b, direct3d10.d3d10_tex1d_srv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">subresource</a> from a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">1D texture</a> to use in a shader-resource view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> from a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">1D texture</a> to use in a shader-resource view.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Number of mipmap levels to use.
 
 
 
-This structure is one member of a shader-resource-view description (see <a href="https://msdn.microsoft.com/library/Bb172437(v=VS.85).aspx">D3D10_SHADER_RESOURCE_VIEW_DESC</a>).
+This structure is one member of a shader-resource-view description (see <a href="https://msdn.microsoft.com/41abc41f-2b51-4901-9e1a-22631ed271cc">D3D10_SHADER_RESOURCE_VIEW_DESC</a>).
 
 
 
@@ -86,7 +86,7 @@ This structure is one member of a shader-resource-view description (see <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

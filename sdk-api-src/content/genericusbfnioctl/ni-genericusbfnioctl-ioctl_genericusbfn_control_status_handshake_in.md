@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_control_status_handshake_in.htm
 old-project: usbref
 ms.assetid: A01233F3-3C5F-4184-9AAA-7391BFD2EB02
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_in, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_IN
 ms.prod: windows
 ms.technology: windows-sdk

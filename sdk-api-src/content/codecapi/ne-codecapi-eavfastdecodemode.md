@@ -7,7 +7,7 @@ old-location: dshow\eavfastdecodemode.htm
 old-project: DirectShow
 ms.assetid: 526A52A8-4B48-43AE-A8B2-EE800C6BAE8F
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: codecapi/eAVFastDecodeMode, codecapi/eVideoDecodeCompliant, codecapi/eVideoDecodeDisableLF, codecapi/eVideoDecodeFastest, codecapi/eVideoDecodeOptimalLF, dshow.eavfastdecodemode, eAVFastDecodeMode, eAVFastDecodeMode enumeration [DirectShow], eVideoDecodeCompliant, eVideoDecodeDisableLF, eVideoDecodeFastest, eVideoDecodeOptimalLF
 ms.prod: windows
 ms.technology: windows-sdk

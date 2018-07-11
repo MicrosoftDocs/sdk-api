@@ -4,10 +4,10 @@ title: UnregisterGPNotification function
 author: windows-sdk-content
 description: The UnregisterGPNotification function unregisters the specified policy-notification handle from receiving policy change notifications.
 old-location: policy\unregistergpnotification.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 39ac1361-0160-44e3-8b99-ff50978cc425
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: UnregisterGPNotification, UnregisterGPNotification function [Group Policy], _win32_unregistergpnotification, policy.unregistergpnotification, userenv/UnregisterGPNotification
 ms.prod: windows
 ms.technology: windows-sdk

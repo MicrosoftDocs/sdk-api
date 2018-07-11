@@ -4,10 +4,10 @@ title: "_HTTP_LOGGING_TYPE"
 author: windows-sdk-content
 description: Defines the type of logging that is performed.
 old-location: http\http_logging_type.htm
-old-project: Http
+old-project: http
 ms.assetid: 74a32957-7305-4f2b-a509-7d6aa11d2052
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE enumeration [HTTP], HTTP_LOGGING_TYPE, HTTP_LOGGING_TYPE enumeration [HTTP], HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, _HTTP_LOGGING_TYPE, http.http_logging_type, http/*PHTTP_LOGGING_TYPE, http/HTTP_LOGGING_TYPE, http/HttpLoggingTypeIIS, http/HttpLoggingTypeNCSA, http/HttpLoggingTypeRaw, http/HttpLoggingTypeW3C"
 ms.prod: windows
 ms.technology: windows-sdk

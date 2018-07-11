@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsessionprovider.htm
 old-project: medfound
 ms.assetid: 4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFHttpDownloadSessionProvider, IMFHttpDownloadSessionProvider interface [Media Foundation], IMFHttpDownloadSessionProvider interface [Media Foundation],described, mf.imfhttpdownloadsessionprovider, mfidl/IMFHttpDownloadSessionProvider
 ms.prod: windows
 ms.technology: windows-sdk

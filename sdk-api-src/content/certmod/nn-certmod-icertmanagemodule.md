@@ -4,10 +4,10 @@ title: ICertManageModule
 author: windows-sdk-content
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
 old-location: security\icertmanagemodule.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The <b>ICertManageModule</b> interface is provided to retrieve information about
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

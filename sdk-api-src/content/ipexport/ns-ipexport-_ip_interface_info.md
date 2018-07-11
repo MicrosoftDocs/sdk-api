@@ -4,10 +4,10 @@ title: "_IP_INTERFACE_INFO"
 author: windows-sdk-content
 description: The IP_INTERFACE_INFO structure contains a list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\ip_interface_info.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 287a4574-0a0f-4f20-932b-22bb6f40401d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structure [IP Helper], PIP_INTERFACE_INFO, PIP_INTERFACE_INFO structure pointer [IP Helper], _IP_INTERFACE_INFO, _iphlp_ip_interface_info, ipexport/IP_INTERFACE_INFO, ipexport/PIP_INTERFACE_INFO, iphlp.ip_interface_info"
 ms.prod: windows
 ms.technology: windows-sdk

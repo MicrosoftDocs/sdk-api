@@ -7,7 +7,7 @@ old-location: display\engfreeprivateusermem.htm
 old-project: display
 ms.assetid: 098bba48-849e-4a35-801c-9573bc5c33f5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: EngFreePrivateUserMem, EngFreePrivateUserMem function [Display Devices], display.engfreeprivateusermem, gdifncs_debf1b76-d783-4b91-832e-c95c2c41af76.xml, winddi/EngFreePrivateUserMem
 ms.prod: windows
 ms.technology: windows-sdk

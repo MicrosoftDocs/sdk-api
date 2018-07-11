@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_GetResourceDescription.htm
 old-project: shell
 ms.assetid: f5e20d50-510d-4d30-903e-6953846957a9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetResourceDescription, GetResourceDescription method [Windows Shell], GetResourceDescription method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetResourceDescription method, IShellItemResources.GetResourceDescription, IShellItemResources::GetResourceDescription, _shell_IShellItemResources_GetResourceDescription, shell.IShellItemResources_GetResourceDescription, shobjidl_core/IShellItemResources::GetResourceDescription
 ms.prod: windows
 ms.technology: windows-sdk

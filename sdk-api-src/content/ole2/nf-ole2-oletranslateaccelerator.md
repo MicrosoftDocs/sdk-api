@@ -7,7 +7,7 @@ old-location: com\oletranslateaccelerator.htm
 old-project: com
 ms.assetid: c590efef-7f03-4ae6-a35f-eff2fc4da3d9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleTranslateAccelerator, OleTranslateAccelerator function [COM], _ole_OleTranslateAccelerator, com.oletranslateaccelerator, ole2/OleTranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Pointer to an <a href="https://msdn.microsoft.com/e09445d2-61e5-4691-b51e-746e0c
 
 ### -param lpmsg [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure containing the keystroke.
+Pointer to an <a href="_win32_MSG_str_cpp">MSG</a> structure containing the keystroke.
 
 
 ## -returns

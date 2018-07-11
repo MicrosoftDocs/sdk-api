@@ -7,7 +7,7 @@ old-location: dxmath\xmloadbyte2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByte2(const XMBYTE2)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMLoadByte2, XMLoadByte2, XMLoadByte2 method [DirectX Math Support APIs], dxmath.xmloadbyte2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/library/Hh437840(v=VS.85).aspx">XMBYTE2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/library/Hh437840(v=VS.85).aspx">XMB
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/library/Hh437840(v=VS.85).aspx">XMBYTE2</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a> structure to load. 
 
 
 ## -returns

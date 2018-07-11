@@ -4,10 +4,10 @@ title: IPSEC_TRAFFIC_STATISTICS1_
 author: windows-sdk-content
 description: Stores IPsec traffic statistics.
 old-location: fwp\ipsec_traffic_statistics1_struct.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 3b25d98a-9216-4e74-91fc-cc8658e12d9b
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_TRAFFIC_STATISTICS1, IPSEC_TRAFFIC_STATISTICS1 structure [Filtering], IPSEC_TRAFFIC_STATISTICS1_, fwp.ipsec_traffic_statistics1_struct, ipsectypes/IPSEC_TRAFFIC_STATISTICS1
 ms.prod: windows
 ms.technology: windows-sdk

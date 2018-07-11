@@ -4,10 +4,10 @@ title: SymEnumSourceLines function
 author: windows-sdk-content
 description: Enumerates all source lines in a module.
 old-location: base\symenumsourcelines.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 395dd97b-4d0b-4f55-80af-38fc748c924a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymEnumSourceLines, SymEnumSourceLines function, SymEnumSourceLinesW, base.symenumsourcelines, dbghelp/SymEnumSourceLines, dbghelp/SymEnumSourceLinesW
 ms.prod: windows
 ms.technology: windows-sdk

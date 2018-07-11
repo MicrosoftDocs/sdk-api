@@ -4,10 +4,10 @@ title: PRESUTIL_SET_QWORD_VALUE
 author: windows-sdk-content
 description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetqwordvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_SET_QWORD_VALUE, PRESUTIL_SET_QWORD_VALUE callback, PRESUTIL_SET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilsetqwordvalue, resapi/PRESUTIL_SET_QWORD_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

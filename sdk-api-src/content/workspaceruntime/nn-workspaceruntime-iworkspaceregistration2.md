@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceregistration2.htm
 old-project: TermServ
 ms.assetid: b677863a-c8cc-4ed8-aea4-16de1cba21c4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWorkspaceRegistration2, IWorkspaceRegistration2 interface [Remote Desktop Services], IWorkspaceRegistration2 interface [Remote Desktop Services],described, termserv.iworkspaceregistration2, workspaceruntime/IWorkspaceRegistration2
 ms.prod: windows
 ms.technology: windows-sdk

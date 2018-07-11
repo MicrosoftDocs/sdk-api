@@ -4,10 +4,10 @@ title: PeerGraphGetNextItem function
 author: windows-sdk-content
 description: Obtains the next item or items in an enumeration created by a call to the following functions.
 old-location: p2p\peergraphgetnextitem.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
 ms.prod: windows
 ms.technology: windows-sdk

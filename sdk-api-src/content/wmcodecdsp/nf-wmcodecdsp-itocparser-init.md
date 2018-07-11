@@ -7,7 +7,7 @@ old-location: mf\itocparser_init.htm
 old-project: medfound
 ms.assetid: 8d7a9bda-56e8-4b42-ace5-4d6cf5d52b59
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: ITocParser interface [Media Foundation],Init method, ITocParser.Init, ITocParser::Init, Init, Init method [Media Foundation], Init method [Media Foundation],ITocParser interface, codecapi.itocparser_init, mf.itocparser_init, wmcodecdsp/ITocParser::Init
 ms.prod: windows
 ms.technology: windows-sdk

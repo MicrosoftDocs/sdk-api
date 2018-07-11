@@ -7,7 +7,7 @@ old-location: automat\unregistertypelib.htm
 old-project: automat
 ms.assetid: 36c763f0-562c-4fc8-9449-b37e993d5f5c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: UnRegisterTypeLib, UnRegisterTypeLib function [Automation], _oa96_UnRegisterTypeLib, automat.unregistertypelib, oleauto/UnRegisterTypeLib
 ms.prod: windows
 ms.technology: windows-sdk

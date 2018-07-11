@@ -4,10 +4,10 @@ title: DRMGetProcAddress function
 author: windows-sdk-content
 description: Returns the address of a function in a library. It is the secure version of the GetProcAddress function.
 old-location: rm\drmgetprocaddress.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 4ce2adac-f6d3-4760-984e-08a0d11a30d1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMGetProcAddress, DRMGetProcAddress function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetProcAddress, rm.drmgetprocaddress
 ms.prod: windows
 ms.technology: windows-sdk

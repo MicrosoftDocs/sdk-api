@@ -7,7 +7,7 @@ old-location: automat\sysallocstring.htm
 old-project: automat
 ms.assetid: 9e0437a2-9b4a-4576-88b0-5cb9d08ca29b
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SysAllocString, SysAllocString function [Automation], _oa96_SysAllocString, automat.sysallocstring, oleauto/SysAllocString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ If successful, returns the string. If <i>psz</i> is a zero-length string, return
 
 
 
-You can free strings created with <b>SysAllocString</b> using <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+You can free strings created with <b>SysAllocString</b> using <a href="8F230EE3-5F6E-4CB9-A910-9C90B754DCD3">SysFreeString</a>.
 
 
 

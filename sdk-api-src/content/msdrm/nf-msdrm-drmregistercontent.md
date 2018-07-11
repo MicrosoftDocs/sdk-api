@@ -4,10 +4,10 @@ title: DRMRegisterContent function
 author: windows-sdk-content
 description: Informs the Active Directory Rights Management Services (AD RMS) client that an AD RMS-protected document is being or is no longer being displayed.
 old-location: rm\drmregistercontent.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: ddf1ef8d-f509-43c0-87bd-9ea393a7231a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMRegisterContent, DRMRegisterContent function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterContent, rm.drmregistercontent
 ms.prod: windows
 ms.technology: windows-sdk

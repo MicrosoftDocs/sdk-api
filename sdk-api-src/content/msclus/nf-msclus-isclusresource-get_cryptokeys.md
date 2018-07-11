@@ -4,10 +4,10 @@ title: ISClusResource::get_CryptoKeys
 author: windows-sdk-content
 description: ClusCryptoKeys collection containing the checkpointed crypto keys for the resource.
 old-location: mscs\clusresource_cryptokeys.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 14f75dc0-6d6e-4b70-9481-d00132f2b87b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],CryptoKeys property, ClusResource.CryptoKeys, CryptoKeys property [Failover Cluster], CryptoKeys property [Failover Cluster],ClusResource class, ISClusResource.get_CryptoKeys, ISClusResource::get_CryptoKeys, _wolf_clusresource.cryptokeys, get_CryptoKeys, mscs.clusresource_cryptokeys
 ms.prod: windows
 ms.technology: windows-sdk

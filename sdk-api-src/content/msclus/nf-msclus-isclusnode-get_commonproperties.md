@@ -4,10 +4,10 @@ title: ISClusNode::get_CommonProperties
 author: windows-sdk-content
 description: Read/write common properties of a node.
 old-location: mscs\clusnode_commonproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 976be45f-39dd-46ee-b558-026afa129b21
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNode object [Failover Cluster],CommonProperties property, ClusNode.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],ClusNode object, ISClusNode.get_CommonProperties, ISClusNode::get_CommonProperties, _wolf_clusnode.commonproperties, get_CommonProperties, mscs.clusnode_commonproperties
 ms.prod: windows
 ms.technology: windows-sdk

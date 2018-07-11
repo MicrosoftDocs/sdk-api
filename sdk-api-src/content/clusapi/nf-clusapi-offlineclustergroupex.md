@@ -4,10 +4,10 @@ title: OfflineClusterGroupEx function
 author: windows-sdk-content
 description: Extends the OfflineClusterGroup method.
 old-location: mscs\offlineclustergroupex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
 ms.prod: windows
 ms.technology: windows-sdk

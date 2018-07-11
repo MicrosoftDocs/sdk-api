@@ -4,10 +4,10 @@ title: "_CRYPT_TIMESTAMP_CONTEXT"
 author: windows-sdk-content
 description: Contains both the encoded and decoded representations of a time stamp token.
 old-location: security\crypt_timestamp_context.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 2831b2a9-0f84-4e41-a666-5903fc882965
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT structure [Security], PCRYPT_TIMESTAMP_CONTEXT, PCRYPT_TIMESTAMP_CONTEXT structure pointer [Security], _CRYPT_TIMESTAMP_CONTEXT, security.crypt_timestamp_context, wincrypt/CRYPT_TIMESTAMP_CONTEXT, wincrypt/PCRYPT_TIMESTAMP_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

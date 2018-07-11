@@ -4,10 +4,10 @@ title: TreeView_GetBkColor macro
 author: windows-sdk-content
 description: Retrieves the current background color of the control. You can use this macro or send the TVM_GETBKCOLOR message explicitly.
 old-location: controls\TreeView_GetBkColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_GetBkColor, TreeView_GetBkColor macro [Windows Controls], _win32_TreeView_GetBkColor, _win32_TreeView_GetBkColor_cpp, commctrl/TreeView_GetBkColor, controls.TreeView_GetBkColor, controls._win32_TreeView_GetBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773570(v=VS.85).aspx">TVM_GETBKCOLOR</a> message explicitly.
+Retrieves the current background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/1b9eea90-54cd-47b9-befa-ec0128a0230f">TVM_GETBKCOLOR</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760036(v=VS.85).aspx">TreeView_SetBkColor</a>
+<a href="https://msdn.microsoft.com/7cc839f8-3c60-432f-b3bd-f6a027aa5dbc">TreeView_SetBkColor</a>
  
 
  

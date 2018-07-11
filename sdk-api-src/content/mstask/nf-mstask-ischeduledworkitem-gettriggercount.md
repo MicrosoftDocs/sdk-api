@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetTriggerCount
 author: windows-sdk-content
 description: Retrieves the number of triggers for the current work item.
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetTriggerCount, GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerCount method, IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the number of <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">triggers</a> for the current <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work item</a>.
+Retrieves the number of <a href="t.htm">triggers</a> for the current <a href="w.htm">work item</a>.
 
 
 ## -parameters

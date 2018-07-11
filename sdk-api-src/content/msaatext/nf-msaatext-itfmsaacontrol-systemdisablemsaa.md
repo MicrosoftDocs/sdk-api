@@ -7,7 +7,7 @@ old-location: tsf\itfmsaacontrol_systemdisablemsaa.htm
 old-project: TSF
 ms.assetid: 344cabbb-286e-415d-980f-349fb637a78d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemDisableMSAA method, ITfMSAAControl.SystemDisableMSAA, ITfMSAAControl::SystemDisableMSAA, SystemDisableMSAA, SystemDisableMSAA method [Text Services Framework], SystemDisableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemDisableMSAA, tsf.itfmsaacontrol_systemdisablemsaa
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
  
 
  

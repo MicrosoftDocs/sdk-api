@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemsink.htm
 old-project: TSF
 ms.assetid: 1734a011-1ee8-4afd-ace8-334eeaf14518
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfLangBarItemSink, ITfLangBarItemSink interface [Text Services Framework], ITfLangBarItemSink interface [Text Services Framework],described, _tsf_itflangbaritemsink_ref, ctfutb/ITfLangBarItemSink, tsf.itflangbaritemsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Notifies the language bar of a change in a language bar item.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

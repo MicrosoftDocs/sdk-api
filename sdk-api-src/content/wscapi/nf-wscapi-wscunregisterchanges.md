@@ -7,7 +7,7 @@ old-location: winprog\wscunregisterchanges.htm
 old-project: DevNotes
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: FreeInterfaceContextTable function
 author: windows-sdk-content
 description: This function frees the interface context table retrieved using the GetInterfaceContextTableForHostName function.
 old-location: nla\freeinterfacecontexttable.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
 ms.prod: windows
 ms.technology: windows-sdk

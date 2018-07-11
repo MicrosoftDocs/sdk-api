@@ -4,10 +4,10 @@ title: IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
 author: windows-sdk-content
 description: Specifies the collection of rules and relevant property definitions the classifier should expect to process.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_userulesanddefinitions.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 8fbca8c4-7021-4183-b8f7-a32082da17fc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],UseRulesAndDefinitions method, IFsrmClassifierModuleImplementation.UseRulesAndDefinitions, IFsrmClassifierModuleImplementation::UseRulesAndDefinitions, UseRulesAndDefinitions, UseRulesAndDefinitions method [File Server Resource Manager], UseRulesAndDefinitions method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrm.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrmpipeline/IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_ReservedNotSupportedValue.htm
 old-project: WinAuto
 ms.assetid: 00162b3c-fab8-4559-83c0-d8c6731441c3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedNotSupportedValue property, IUIAutomation.ReservedNotSupportedValue, IUIAutomation.get_ReservedNotSupportedValue, IUIAutomation::ReservedNotSupportedValue, IUIAutomation::get_ReservedNotSupportedValue, ReservedNotSupportedValue property [Windows Accessibility], ReservedNotSupportedValue property [Windows Accessibility],IUIAutomation interface, get_ReservedNotSupportedValue, uiauto.uiauto_IUIAutomation_ReservedNotSupportedValue, uiauto_IUIAutomation_ReservedNotSupportedValue, uiautomationclient/IUIAutomation::ReservedNotSupportedValue, uiautomationclient/IUIAutomation::get_ReservedNotSupportedValue, winauto.uiauto_IUIAutomation_ReservedNotSupportedValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WinBioVerifyWithCallback function
 author: windows-sdk-content
 description: Asynchronously captures a biometric sample and determines whether the sample corresponds to the specified user identity.
 old-location: secbiomet\winbioverifywithcallback.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 4ea03163-062a-4abf-837a-b12b03ada375
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioVerifyWithCallback, WinBioVerifyWithCallback function [Windows Biometric Framework API], secbiomet.winbioverifywithcallback, winbio/WinBioVerifyWithCallback
 ms.prod: windows
 ms.technology: windows-sdk

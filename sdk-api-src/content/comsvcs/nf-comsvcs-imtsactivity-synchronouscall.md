@@ -7,7 +7,7 @@ old-location: cos\imtsactivity_synchronouscall.htm
 old-project: cossdk
 ms.assetid: 4f69956b-fdb3-47c4-9a19-e9f39a8d5e06
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IMTSActivity interface [COM+],SynchronousCall method, IMTSActivity.SynchronousCall, IMTSActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IMTSActivity interface, _cos_IMTSActivity_SynchronousCall, comsvcs/IMTSActivity::SynchronousCall, cos.imtsactivity_synchronouscall
 ms.prod: windows
 ms.technology: windows-sdk

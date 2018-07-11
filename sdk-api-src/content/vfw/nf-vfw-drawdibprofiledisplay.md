@@ -7,7 +7,7 @@ old-location: multimedia\drawdibprofiledisplay.htm
 old-project: Multimedia
 ms.assetid: 51f8b1a2-26e2-40d3-bbc0-5c6c1b482014
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
 ms.prod: windows
 ms.technology: windows-sdk

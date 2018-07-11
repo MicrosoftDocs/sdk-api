@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider
 author: windows-sdk-content
 description: Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.
 old-location: base\ivsssoftwaresnapshotprovider.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ Sets a property for a shadow copy.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

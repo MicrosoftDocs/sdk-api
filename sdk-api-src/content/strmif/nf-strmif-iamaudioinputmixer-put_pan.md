@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_pan.htm
 old-project: DirectShow
 ms.assetid: eb0528e0-81d0-45a3-831a-8cf3ff1232b6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Pan method, IAMAudioInputMixer.put_Pan, IAMAudioInputMixer::put_Pan, IAMAudioInputMixerput_Pan, dshow.iamaudioinputmixer_put_pan, put_Pan, put_Pan method [DirectShow], put_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Pan
 ms.prod: windows
 ms.technology: windows-sdk

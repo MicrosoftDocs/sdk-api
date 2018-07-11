@@ -4,10 +4,10 @@ title: INetFwIcmpSettings::put_AllowInboundTimestampRequest
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundtimestamprequest.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 6898527d-8556-46ae-b6e4-b1157323d14e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AllowInboundTimestampRequest property [ICS/ICF], AllowInboundTimestampRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundTimestampRequest property, INetFwIcmpSettings.AllowInboundTimestampRequest, INetFwIcmpSettings.put_AllowInboundTimestampRequest, INetFwIcmpSettings::AllowInboundTimestampRequest, INetFwIcmpSettings::get_AllowInboundTimestampRequest, INetFwIcmpSettings::put_AllowInboundTimestampRequest, ics.inetfwicmpsettings_allowinboundtimestamprequest, netfw/INetFwIcmpSettings::AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::get_AllowInboundTimestampRequest, netfw/INetFwIcmpSettings::put_AllowInboundTimestampRequest, put_AllowInboundTimestampRequest
 ms.prod: windows
 ms.technology: windows-sdk

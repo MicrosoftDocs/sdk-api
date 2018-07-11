@@ -4,10 +4,10 @@ title: IRDPSRAPITcpConnectionInfo
 author: windows-sdk-content
 description: Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side.
 old-location: rdp\irdpsrapitcpconnectioninfo.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Supports the methods to retrieve the TCP connection information on the viewer an
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

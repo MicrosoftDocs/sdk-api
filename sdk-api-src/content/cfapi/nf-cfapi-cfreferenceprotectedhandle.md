@@ -7,7 +7,7 @@ old-location: cloudapi\cfreferenceprotectedhandle.htm
 old-project: cfApi
 ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IGPMRSOP::ReleaseQueryResults
 author: windows-sdk-content
 description: Releases the WMI namespace allocated by calls to the IGPMRSOP::CreateQueryResults method and by calls to the IGPM::GetRSOP method.
 old-location: gpmc\igpmrsop_releasequeryresults.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: c2bf9050-4db0-4bf0-a063-0076ba191ff6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMRSOP class [GPMC],ReleaseQueryResults method, IGPMRSOP interface [GPMC],ReleaseQueryResults method, IGPMRSOP.ReleaseQueryResults, IGPMRSOP::ReleaseQueryResults, ReleaseQueryResults, ReleaseQueryResults method [GPMC], ReleaseQueryResults method [GPMC],GPMRSOP class, ReleaseQueryResults method [GPMC],IGPMRSOP interface, _win32_igpmrsop_releasequeryresults, gpmc.igpmrsop_releasequeryresults, gpmgmt/IGPMRSOP::ReleaseQueryResults
 ms.prod: windows
 ms.technology: windows-sdk

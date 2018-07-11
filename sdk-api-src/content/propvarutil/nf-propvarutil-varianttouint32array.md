@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32Array.htm
 old-project: properties
 ms.assetid: 506a02f8-6390-44a0-9f14-bfc8fb7ad180
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToUInt32Array, VariantToUInt32Array function [Windows Properties], _shell_VariantToUInt32Array, properties.VariantToUInt32Array, propvarutil/VariantToUInt32Array, shell.VariantToUInt32Array
 ms.prod: windows
 ms.technology: windows-sdk

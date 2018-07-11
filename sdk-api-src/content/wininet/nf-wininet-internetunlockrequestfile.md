@@ -4,10 +4,10 @@ title: InternetUnlockRequestFile function
 author: windows-sdk-content
 description: Unlocks a file that was locked using InternetLockRequestFile.
 old-location: wininet\internetunlockrequestfile.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 356f7277-66ef-450f-ab5a-0303d0b1d807
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: InternetUnlockRequestFile, InternetUnlockRequestFile function [WinINet], _inet_internetunlockrequestfile_function, wininet.internetunlockrequestfile, wininet/InternetUnlockRequestFile
 ms.prod: windows
 ms.technology: windows-sdk

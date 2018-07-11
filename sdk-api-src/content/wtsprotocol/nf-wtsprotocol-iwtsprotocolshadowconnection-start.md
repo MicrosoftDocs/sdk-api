@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolshadowconnection_start.htm
 old-project: TermServ
 ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Start method, IWTSProtocolShadowConnection.Start, IWTSProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_start, wtsprotocol/IWTSProtocolShadowConnection::Start
 ms.prod: windows
 ms.technology: windows-sdk

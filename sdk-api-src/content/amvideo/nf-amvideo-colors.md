@@ -7,7 +7,7 @@ old-location: dshow\colors.htm
 old-project: DirectShow
 ms.assetid: 32541ee4-53ef-4f0a-b823-bb475a93a195
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
 ms.prod: windows
 ms.technology: windows-sdk

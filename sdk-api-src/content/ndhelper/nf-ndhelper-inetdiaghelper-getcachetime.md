@@ -4,10 +4,10 @@ title: INetDiagHelper::GetCacheTime
 author: windows-sdk-content
 description: Specifies the time when cached results of a diagnosis and repair operation have expired.
 old-location: ndf\inetdiaghelpe_getcachetime.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 0298bf84-374e-438f-8141-3298e1004c1b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetCacheTime, GetCacheTime method [NDF], GetCacheTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetCacheTime method, INetDiagHelper.GetCacheTime, INetDiagHelper::GetCacheTime, ndf.inetdiaghelpe_getcachetime, ndhelper/INetDiagHelper::GetCacheTime
 ms.prod: windows
 ms.technology: windows-sdk

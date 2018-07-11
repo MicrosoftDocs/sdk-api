@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworkquerystatus.htm
 old-project: NativeWiFi
 ms.assetid: 896cff65-74ec-41d5-89e3-95fa85fd54cd
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanHostedNetworkQueryStatus, WlanHostedNetworkQueryStatus function [NativeWIFI], nwifi.wlanhostednetworkquerystatus, wlanapi/WlanHostedNetworkQueryStatus
 ms.prod: windows
 ms.technology: windows-sdk

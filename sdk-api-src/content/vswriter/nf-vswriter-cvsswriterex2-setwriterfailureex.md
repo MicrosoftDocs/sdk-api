@@ -4,10 +4,10 @@ title: CVssWriterEx2::SetWriterFailureEx
 author: windows-sdk-content
 description: Sets extended error information to indicate that the writer has encountered a problem with participating in a VSS operation.
 old-location: base\cvsswriterex2_setwriterfailureex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c049a016-6546-4e72-90e8-46be8c2f7764
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CVssWriterEx2 interface,SetWriterFailureEx method, CVssWriterEx2.SetWriterFailureEx, CVssWriterEx2::SetWriterFailureEx, S_OK, SetWriterFailureEx, SetWriterFailureEx method, SetWriterFailureEx method,CVssWriterEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.cvsswriterex2_setwriterfailureex, vswriter/CVssWriterEx2::SetWriterFailureEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,7 +182,7 @@ This method cannot be called from <a href="https://msdn.microsoft.com/542d479a-6
 To report component-level errors, writers should use the <a href="https://msdn.microsoft.com/f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1">IVssComponentEx2::SetFailure</a> method.
 
 If a writer's event handler (such as <a href="https://msdn.microsoft.com/2aff5e87-4053-46a0-a7fb-7411e76166ba">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+<a href="writers.htm">Writer Event Handling</a>.
 
 
 

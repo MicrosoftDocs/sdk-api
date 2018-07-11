@@ -4,10 +4,10 @@ title: FtpGetFileSize function
 author: windows-sdk-content
 description: Retrieves the file size of the requested FTP resource.
 old-location: wininet\ftpgetfilesize.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: f6cc696b-55b6-4d21-9401-fbb15062d0b4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: FtpGetFileSize, FtpGetFileSize function [WinINet], _inet_ftpgetfilesize_function, wininet.ftpgetfilesize, wininet/FtpGetFileSize
 ms.prod: windows
 ms.technology: windows-sdk

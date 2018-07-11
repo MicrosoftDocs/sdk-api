@@ -7,7 +7,7 @@ old-location: com\ienumoleverb_clone.htm
 old-project: com
 ms.assetid: b93eafa0-c9c5-4d3f-a9a0-c5ca95df5b03
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOLEVERB interface, IEnumOLEVERB interface [COM],Clone method, IEnumOLEVERB.Clone, IEnumOLEVERB::Clone, _ole_ienumoleverb_clone, com.ienumoleverb_clone, oleidl/IEnumOLEVERB::Clone
 ms.prod: windows
 ms.technology: windows-sdk

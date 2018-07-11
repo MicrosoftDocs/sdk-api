@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromGUIDAsBuffer.htm
 old-project: properties
 ms.assetid: c46c1263-527a-4a64-b4c9-4c4779b271c7
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromGUIDAsBuffer, InitVariantFromGUIDAsBuffer function [Windows Properties], properties.InitVariantFromGUIDAsBuffer, propvarutil/InitVariantFromGUIDAsBuffer, shell.InitVariantFromGUIDAsBuffer, shell_InitVariantFromGUIDAsBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -121,7 +121,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
@@ -129,7 +129,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
+<a href="shell.VariantToBuffer">VariantToBuffer</a>
  
 
  

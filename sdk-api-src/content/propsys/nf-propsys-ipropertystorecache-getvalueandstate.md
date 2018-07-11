@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCache_GetValueAndState.htm
 old-project: properties
 ms.assetid: eb8866c9-fc14-42c0-aaed-bd192ca25cf6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetValueAndState, GetValueAndState method [Windows Properties], GetValueAndState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetValueAndState method, IPropertyStoreCache.GetValueAndState, IPropertyStoreCache::GetValueAndState, properties.IPropertyStoreCache_GetValueAndState, propsys/IPropertyStoreCache::GetValueAndState, shell.IPropertyStoreCache_GetValueAndState, shell_IPropertyStoreCache_GetValueAndState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets value and state data for a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure identifying the property.
+A reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure identifying the property.
 
 
 ### -param ppropvar [out]
@@ -75,9 +75,9 @@ A pointer to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc828
 
 ### -param pstate [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762531(v=VS.85).aspx">PSC_STATE</a>*</b>
+Type: <b><a href="shell.PSC_STATE">PSC_STATE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb762531(v=VS.85).aspx">PSC_STATE</a> enumeration value declaring the current state of the property.
+A pointer to a <a href="shell.PSC_STATE">PSC_STATE</a> enumeration value declaring the current state of the property.
 
 
 ## -returns

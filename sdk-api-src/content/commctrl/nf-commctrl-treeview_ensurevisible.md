@@ -4,10 +4,10 @@ title: TreeView_EnsureVisible macro
 author: windows-sdk-content
 description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the TVM_ENSUREVISIBLE message explicitly.
 old-location: controls\TreeView_EnsureVisible.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Controls], _win32_TreeView_EnsureVisible, _win32_TreeView_EnsureVisible_cpp, commctrl/TreeView_EnsureVisible, controls.TreeView_EnsureVisible, controls._win32_TreeView_EnsureVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773566(v=VS.85).aspx">TVM_ENSUREVISIBLE</a> message explicitly. 
+Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the <a href="https://msdn.microsoft.com/7053438a-f9ca-4c4c-9da6-46b99fe1e4f8">TVM_ENSUREVISIBLE</a> message explicitly. 
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Handle to the tree-view control.
 
 
 
-If the <b>TreeView_EnsureVisible</b> macro expands the parent item, the parent window receives the <a href="https://msdn.microsoft.com/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes. 
+If the <b>TreeView_EnsureVisible</b> macro expands the parent item, the parent window receives the <a href="https://msdn.microsoft.com/5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/18d9d61d-6ec5-4d3b-9c02-36d0e61ed232">TVN_ITEMEXPANDED</a> notification codes. 
 
 
 

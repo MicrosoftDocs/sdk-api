@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_int32_text.htm
 old-project: wsw
 ms.assetid: 23ca9a0c-dbfb-449a-b1ef-44c6eae6c82f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_INT32_TEXT, WS_XML_INT32_TEXT structure [Web Services for Windows], _WS_XML_INT32_TEXT, webservices/WS_XML_INT32_TEXT, wsw.ws_xml_int32_text
 ms.prod: windows
 ms.technology: windows-sdk

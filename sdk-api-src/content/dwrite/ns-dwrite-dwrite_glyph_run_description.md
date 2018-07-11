@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_glyph_run_description.htm
 old-project: DirectWrite
 ms.assetid: 0fb25253-274a-42b7-8491-525d0550ce39
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: DWRITE_GLYPH_RUN_DESCRIPTION, DWRITE_GLYPH_RUN_DESCRIPTION structure [Direct Write], directwrite.dwrite_glyph_run_description, dwrite/DWRITE_GLYPH_RUN_DESCRIPTION
 ms.prod: windows
 ms.technology: windows-sdk

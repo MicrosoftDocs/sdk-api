@@ -7,7 +7,7 @@ old-location: dataxchg\monhszstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monhszstruct.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMONHSZSTRUCTW, MH_CLEANUP, MH_CREATE, MH_DELETE, MH_KEEP, MONHSZSTRUCT, MONHSZSTRUCT structure [Data Exchange], MONHSZSTRUCTA, MONHSZSTRUCTW, PMONHSZSTRUCT, PMONHSZSTRUCT structure pointer [Data Exchange], _win32_MONHSZSTRUCT_str, _win32_monhszstruct_str_cpp, dataxchg.monhszstruct_str, ddeml/MONHSZSTRUCT, ddeml/MONHSZSTRUCTA, ddeml/MONHSZSTRUCTW, ddeml/PMONHSZSTRUCT, tagMONHSZSTRUCTW, winui._win32_monhszstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The action being performed on the string identified by the <b>hsz</b> member.
 </dl>
 </td>
 <td width="60%">
-An application is freeing its DDE resources, causing the system to delete string handles the application had created. (The application called the <a href="https://msdn.microsoft.com/library/ms648767(v=VS.85).aspx">DdeUninitialize</a> function.)
+An application is freeing its DDE resources, causing the system to delete string handles the application had created. (The application called the <a href="https://msdn.microsoft.com/0997c135-c915-4a9c-953c-80657589795e">DdeUninitialize</a> function.)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ An application is freeing its DDE resources, causing the system to delete string
 </dl>
 </td>
 <td width="60%">
-An application is creating a string handle. (The application called the <a href="https://msdn.microsoft.com/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> function.)
+An application is creating a string handle. (The application called the <a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a> function.)
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ An application is creating a string handle. (The application called the <a href=
 </dl>
 </td>
 <td width="60%">
-An application is deleting a string handle. (The application called the <a href="https://msdn.microsoft.com/library/ms648753(v=VS.85).aspx">DdeFreeStringHandle</a> function.)
+An application is deleting a string handle. (The application called the <a href="https://msdn.microsoft.com/93228467-345b-4ff1-942e-2d75a53bce65">DdeFreeStringHandle</a> function.)
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ An application is deleting a string handle. (The application called the <a href=
 </dl>
 </td>
 <td width="60%">
-An application is increasing the usage count of a string handle. (The application called the <a href="https://msdn.microsoft.com/library/ms648758(v=VS.85).aspx">DdeKeepStringHandle</a> function.)
+An application is increasing the usage count of a string handle. (The application called the <a href="https://msdn.microsoft.com/ecef0207-061c-451a-a911-1b821bbe099d">DdeKeepStringHandle</a> function.)
 
 </td>
 </tr>
@@ -163,27 +163,27 @@ Pointer to the string identified by the <b>hsz</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648733(v=VS.85).aspx">MONCBSTRUCT</a>
+<a href="https://msdn.microsoft.com/65bea5e0-ab86-4e00-9dbf-9809aab18616">MONCBSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648734(v=VS.85).aspx">MONCONVSTRUCT</a>
+<a href="https://msdn.microsoft.com/24fe9042-7b9f-4139-a9b5-d8c72529d897">MONCONVSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
+<a href="https://msdn.microsoft.com/4e7647a0-c41e-4ec9-b441-01538e83aca3">MONERRSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
+<a href="https://msdn.microsoft.com/db02a191-677b-4fae-88ec-c2b500249837">MONLINKSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648738(v=VS.85).aspx">MONMSGSTRUCT</a>
+<a href="https://msdn.microsoft.com/7d971b35-0c88-42c3-83b9-93d5de6c95f9">MONMSGSTRUCT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: com\icontinuecallback_fcontinueprinting.htm
 old-project: com
 ms.assetid: 9031809a-8e5b-48d9-8af9-4a1a07532406
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: FContinuePrinting, FContinuePrinting method [COM], FContinuePrinting method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinuePrinting method, IContinueCallback.FContinuePrinting, IContinueCallback::FContinuePrinting, _com_icontinuecallback_fcontinueprinting, com.icontinuecallback_fcontinueprinting, docobj/IContinueCallback::FContinuePrinting
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MAPIDELETEMAIL
 author: windows-sdk-content
 description: The MAPIDeleteMail function deletes a message.
 old-location: mapi\mapideletemail.htm
-old-project: WindowsMAPI
+old-project: windowsmapi
 ms.assetid: b149ef88-de0e-4a99-9150-7250d2b9540a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
 ms.prod: windows
 ms.technology: windows-sdk

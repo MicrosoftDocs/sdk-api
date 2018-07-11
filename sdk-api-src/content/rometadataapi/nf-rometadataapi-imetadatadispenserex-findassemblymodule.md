@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenserex_findassemblymodule.htm
 old-project: WinRT
 ms.assetid: 258d670b-6a94-4151-8746-a3df69677c5b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: FindAssemblyModule, FindAssemblyModule method [Windows Runtime], FindAssemblyModule method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],FindAssemblyModule method, IMetaDataDispenserEx.FindAssemblyModule, IMetaDataDispenserEx::FindAssemblyModule, rometadataapi/IMetaDataDispenserEx::FindAssemblyModule, winrt.imetadatadispenserex_findassemblymodule
 ms.prod: windows
 ms.technology: windows-sdk

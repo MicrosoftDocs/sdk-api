@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::get_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the operation.
 old-location: security\azauthorizationstore_description.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 79ef0e2f-3178-4310-832c-b0eea06cf1b0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzAuthorizationStore object [Security],Description property, Description property [Security], Description property [Security],AzAuthorizationStore object, Description property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Description property, IAzAuthorizationStore.Description, IAzAuthorizationStore.get_Description, IAzAuthorizationStore::Description, IAzAuthorizationStore::get_Description, IAzAuthorizationStore::put_Description, azroles/IAzAuthorizationStore::Description, azroles/IAzAuthorizationStore::get_Description, azroles/IAzAuthorizationStore::put_Description, get_Description, security.azauthorizationstore_description
 ms.prod: windows
 ms.technology: windows-sdk

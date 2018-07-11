@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_uav.htm
 old-project: direct3d11
 ms.assetid: 2b090290-5250-4c92-9e1d-5e8a33dc2c4d
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 65641581-384e-db89-9ea9-db917e580788, D3D11_TEX2D_UAV, D3D11_TEX2D_UAV structure [Direct3D 11], d3d11/D3D11_TEX2D_UAV, direct3d11.d3d11_tex2d_uav
 ms.prod: windows
 ms.technology: windows-sdk

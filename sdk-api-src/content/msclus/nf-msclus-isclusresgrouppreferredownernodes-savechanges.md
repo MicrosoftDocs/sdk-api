@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::SaveChanges
 author: windows-sdk-content
 description: Saves the list of preferred owner &#32; nodes to the cluster database.
 old-location: mscs\clusresgrouppreferredownernodes_savechanges.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a345174f-be29-41bf-bb0a-398d9719f55f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],SaveChanges method, ClusResGroupPreferredOwnerNodes.SaveChanges, ISClusResGroupPreferredOwnerNodes.SaveChanges, ISClusResGroupPreferredOwnerNodes::SaveChanges, SaveChanges, SaveChanges method [Failover Cluster], SaveChanges method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.savechanges, mscs.clusresgrouppreferredownernodes_savechanges
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 
-    Saves the list of <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">preferred owner</a>
+    Saves the list of <a href="p_gly.htm">preferred owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> to the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
 

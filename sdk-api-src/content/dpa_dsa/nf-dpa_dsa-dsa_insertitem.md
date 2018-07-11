@@ -4,10 +4,10 @@ title: DSA_InsertItem function
 author: windows-sdk-content
 description: Inserts a new item into a dynamic structure array (DSA). If necessary, the DSA expands to accommodate the new item.
 old-location: controls\DSA_InsertItem.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DSA_InsertItem, DSA_InsertItem function [Windows Controls], _win32_DSA_InsertItem, _win32_DSA_InsertItem_cpp, controls.DSA_InsertItem, controls._win32_DSA_InsertItem, dpa_dsa/DSA_InsertItem
 ms.prod: windows
 ms.technology: windows-sdk

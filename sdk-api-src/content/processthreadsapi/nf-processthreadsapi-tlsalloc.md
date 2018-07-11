@@ -7,7 +7,7 @@ old-location: base\tlsalloc.htm
 old-project: ProcThread
 ms.assetid: cbb3d832-cd92-4875-8366-6b69be7a536f
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TlsAlloc, TlsAlloc function, _win32_tlsalloc, base.tlsalloc, processthreadsapi/TlsAlloc, winbase/TlsAlloc
 ms.prod: windows
 ms.technology: windows-sdk

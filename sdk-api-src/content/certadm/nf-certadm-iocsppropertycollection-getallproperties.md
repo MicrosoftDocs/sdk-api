@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::GetAllProperties
 author: windows-sdk-content
 description: Gets all properties in a property set.
 old-location: security\iocsppropertycollection_getallproperties_method.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllProperties method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],GetAllProperties method, IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method
 ms.prod: windows
 ms.technology: windows-sdk

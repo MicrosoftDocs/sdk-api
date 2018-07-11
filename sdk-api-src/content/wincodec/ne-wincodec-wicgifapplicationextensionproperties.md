@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicgifapplicationextensionproperties.htm
 old-project: wic
 ms.assetid: e60da197-2510-4a13-91e3-896d6027ee57
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: WICGifApplicationExtensionApplication, WICGifApplicationExtensionData, WICGifApplicationExtensionProperties, WICGifApplicationExtensionProperties enumeration [Windows Imaging Component], _wic_codec_wicgifapplicationextensionproperties, wic._wic_codec_wicgifapplicationextensionproperties, wincodec/WICGifApplicationExtensionApplication, wincodec/WICGifApplicationExtensionData, wincodec/WICGifApplicationExtensionProperties
 ms.prod: windows
 ms.technology: windows-sdk

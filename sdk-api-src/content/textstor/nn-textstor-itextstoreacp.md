@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp.htm
 old-project: TSF
 ms.assetid: 21e011f7-6791-4eb9-85c9-18bd10107119
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], ITextStoreACP interface [Text Services Framework],described, _tsf_itextstoreacp_ref, textstor/ITextStoreACP, tsf.itextstoreacp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -313,7 +313,7 @@ Called by the application to indicate that the application no longer requires no
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

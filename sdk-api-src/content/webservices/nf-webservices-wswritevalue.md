@@ -7,7 +7,7 @@ old-location: wsw\wswritevalue.htm
 old-project: wsw
 ms.assetid: c7b9d014-89b5-4959-b49e-ee2cdeb41f7c
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsWriteValue, WsWriteValue function [Web Services for Windows], webservices/WsWriteValue, wsw.wswritevalue
 ms.prod: windows
 ms.technology: windows-sdk

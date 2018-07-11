@@ -4,10 +4,10 @@ title: GetUdpTable function
 author: windows-sdk-content
 description: Retrieves the IPv4 User Datagram Protocol (UDP) listener table.
 old-location: iphlp\getudptable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\msv1_0subauthenticationfilter.htm
 old-project: SecAuthN
 ms.assetid: d7162830-8cab-4ec1-afcb-7892f5e435d3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationFilter, Msv1_0SubAuthenticationFilter function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationfilter, security.msv1_0subauthenticationfilter, subauth/Msv1_0SubAuthenticationFilter
 ms.prod: windows
 ms.technology: windows-sdk

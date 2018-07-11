@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_getdefaultpropertycollection.htm
 old-project: com
 ms.assetid: ca5d116a-b995-4311-9c58-6b957fca6b53
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: GetDefaultPropertyCollection, GetDefaultPropertyCollection method [COM], GetDefaultPropertyCollection method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultPropertyCollection method, IEventPublisher.GetDefaultPropertyCollection, IEventPublisher::GetDefaultPropertyCollection, _com_ieventpublisher_getdefaultpropertycollection, com.ieventpublisher_getdefaultpropertycollection, eventsys/IEventPublisher::GetDefaultPropertyCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Creates a collection object that enumerates the properties contained in the prop
 
 ### -param collection [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms682833(v=VS.85).aspx">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
+A pointer to an <a href="_cos_IEventObjectCollection">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

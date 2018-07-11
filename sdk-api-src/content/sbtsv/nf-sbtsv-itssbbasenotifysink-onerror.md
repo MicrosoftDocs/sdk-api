@@ -7,7 +7,7 @@ old-location: termserv\itssbbasenotifysink_onerror.htm
 old-project: TermServ
 ms.assetid: d8101644-51b4-45a8-8696-7dbb28aaaf0b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbBaseNotifySink interface [Remote Desktop Services],OnError method, ITsSbBaseNotifySink.OnError, ITsSbBaseNotifySink::OnError, OnError, OnError method [Remote Desktop Services], OnError method [Remote Desktop Services],ITsSbBaseNotifySink interface, sbtsv/ITsSbBaseNotifySink::OnError, termserv.itssbbasenotifysink_onerror
 ms.prod: windows
 ms.technology: windows-sdk

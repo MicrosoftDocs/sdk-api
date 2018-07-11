@@ -4,10 +4,10 @@ title: SnmpVarBind
 author: windows-sdk-content
 description: The SnmpVarBind structure represents an SNMP variable binding. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\snmpvarbind_str.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 40f9930d-93d1-45eb-aa3a-499947004fcf
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpVarBind, SnmpVarBind structure [SNMP], _snmp_snmpvarbind_str, snmp.snmpvarbind_str, snmp/SnmpVarBind
 ms.prod: windows
 ms.technology: windows-sdk

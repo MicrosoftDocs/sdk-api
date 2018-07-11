@@ -4,10 +4,10 @@ title: lineGetProviderListA function
 author: windows-sdk-content
 description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.
 old-location: tapi2\linegetproviderlist.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist"
 ms.prod: windows
 ms.technology: windows-sdk

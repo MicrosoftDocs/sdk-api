@@ -7,7 +7,7 @@ old-location: winmsg\enumwindows.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumwindows.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: EnumWindows, EnumWindows function [Windows and Messages], _win32_EnumWindows, _win32_enumwindows_cpp, winmsg.enumwindows, winui._win32_enumwindows, winuser/EnumWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -73,7 +73,7 @@ Enumerates all top-level windows on the screen by passing the handle to each win
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a>. 
+A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/59612860-91f2-4319-b601-6ee511e6ebd8">EnumWindowsProc</a>. 
 
 
 ### -param lParam [in]
@@ -94,7 +94,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-If <a href="https://msdn.microsoft.com/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a> returns zero, the return value is also zero. In this case, the callback function should call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to obtain a meaningful error code to be returned to the caller of <b>EnumWindows</b>.
+If <a href="https://msdn.microsoft.com/59612860-91f2-4319-b601-6ee511e6ebd8">EnumWindowsProc</a> returns zero, the return value is also zero. In this case, the callback function should call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to obtain a meaningful error code to be returned to the caller of <b>EnumWindows</b>.
 
 
 
@@ -105,7 +105,7 @@ If <a href="https://msdn.microsoft.com/library/ms633498(v=VS.85).aspx">EnumWindo
 
 The <b>EnumWindows</b> function does not enumerate child windows, with the exception of a few top-level windows owned by the system that have the <b>WS_CHILD</b> style.
 
-This function is more reliable than calling the <a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a> function in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
+This function is more reliable than calling the <a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a> function in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
 
 <div class="alert"><b>Note</b>  For Windows 8 and later, <b>EnumWindows</b> enumerates only top-level windows of desktop apps.</div>
 <div> </div>
@@ -121,15 +121,15 @@ This function is more reliable than calling the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633494(v=VS.85).aspx">EnumChildWindows</a>
+<a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a>
+<a href="https://msdn.microsoft.com/59612860-91f2-4319-b601-6ee511e6ebd8">EnumWindowsProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
 
 
 

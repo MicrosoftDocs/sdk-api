@@ -7,7 +7,7 @@ old-location: mf\itoccollection_removeentrybyindex.htm
 old-project: medfound
 ms.assetid: 1fc6abad-2e9b-47f5-8b00-48ae480f3dd8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: ITocCollection interface [Media Foundation],RemoveEntryByIndex method, ITocCollection.RemoveEntryByIndex, ITocCollection::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocCollection interface, codecapi.itoccollection_removeentrybyindex, mf.itoccollection_removeentrybyindex, wmcodecdsp/ITocCollection::RemoveEntryByIndex
 ms.prod: windows
 ms.technology: windows-sdk

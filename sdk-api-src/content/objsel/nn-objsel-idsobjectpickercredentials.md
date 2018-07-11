@@ -4,10 +4,10 @@ title: IDsObjectPickerCredentials
 author: windows-sdk-content
 description: The IDsObjectPickerCredentials interface allows you to override credentials for the IDsObjectPicker object implementing this interface.
 old-location: ad\idsobjectpickercredentials.htm
-old-project: AD
+old-project: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IDsObjectPickerCredentials</b> interface
     object implementing this interface.
 
 To obtain an instance of this interface, call 
-    <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> with the 
+    <a href="_com_iunknown_queryinterface">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
 
 

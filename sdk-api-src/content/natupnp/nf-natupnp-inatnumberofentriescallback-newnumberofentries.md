@@ -4,10 +4,10 @@ title: INATNumberOfEntriesCallback::NewNumberOfEntries
 author: windows-sdk-content
 description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.
 old-location: ics\inatnumberofentriescallback_newnumberofentries.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INATNumberOfEntriesCallback interface [ICS/ICF],NewNumberOfEntries method, INATNumberOfEntriesCallback.NewNumberOfEntries, INATNumberOfEntriesCallback::NewNumberOfEntries, NewNumberOfEntries, NewNumberOfEntries method [ICS/ICF], NewNumberOfEntries method [ICS/ICF],INATNumberOfEntriesCallback interface, _ics_inatnumberofentriescallback_newnumberofentries, ics.inatnumberofentriescallback_newnumberofentries, natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries
 ms.prod: windows
 ms.technology: windows-sdk

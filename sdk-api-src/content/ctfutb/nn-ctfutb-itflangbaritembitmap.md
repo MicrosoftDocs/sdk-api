@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmap.htm
 old-project: TSF
 ms.assetid: 3bae0422-625e-4f7d-9845-5353ad3ff335
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfLangBarItemBitmap, ITfLangBarItemBitmap interface [Text Services Framework], ITfLangBarItemBitmap interface [Text Services Framework],described, _tsf_itflangbaritembitmap_ref, ctfutb/ITfLangBarItemBitmap, tsf.itflangbaritembitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ A language bar bitmap functions as a static item on the language bar that displa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

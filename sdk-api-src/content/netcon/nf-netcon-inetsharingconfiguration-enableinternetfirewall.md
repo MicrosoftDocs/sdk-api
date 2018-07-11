@@ -4,10 +4,10 @@ title: INetSharingConfiguration::EnableInternetFirewall
 author: windows-sdk-content
 description: The EnableInternetFirewall methods enables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_enableinternetfirewall.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 9805f6bf-ee06-469f-9b2f-e48caa582d1a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: EnableInternetFirewall, EnableInternetFirewall method [ICS/ICF], EnableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableInternetFirewall method, INetSharingConfiguration.EnableInternetFirewall, INetSharingConfiguration::EnableInternetFirewall, _ics_inetsharingconfiguration_enableinternetfirewall, ics.inetsharingconfiguration_enableinternetfirewall, netcon/INetSharingConfiguration::EnableInternetFirewall
 ms.prod: windows
 ms.technology: windows-sdk

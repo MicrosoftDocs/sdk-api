@@ -4,10 +4,10 @@ title: ITCallingCard::get_CardName
 author: windows-sdk-content
 description: The get_CardName method gets the friendly name for the calling card.
 old-location: tapi3\itcallingcard_get_cardname.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d971d5ef-30d0-42a4-9a23-5b1388a0cb26
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_CardName method, ITCallingCard.get_CardName, ITCallingCard::get_CardName, _tapi3_itcallingcard_get_cardname, get_CardName, get_CardName method [TAPI 2.2], get_CardName method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_cardname, tapi3if/ITCallingCard::get_CardName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCardName</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppCardName</i> parameter.
 			
 
 

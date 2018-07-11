@@ -7,7 +7,7 @@ old-location: iscsidisc\logoutiscsitarget.htm
 old-project: iSCSIDisc
 ms.assetid: c49ad2e2-3f06-48e7-bf38-6074f9a6bcad
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/14/2018
 ms.keywords: LogoutIScsiTarget, LogoutIscsiTarget, LogoutIscsiTarget function [iSCSI Discovery Library API], iscsidisc.logoutiscsitarget, iscsidsc/LogoutIscsiTarget
 ms.prod: windows
 ms.technology: windows-sdk

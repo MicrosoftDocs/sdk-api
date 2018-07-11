@@ -4,10 +4,10 @@ title: peer_group_status_tag
 author: windows-sdk-content
 description: The PEER_GROUP_STATUS flags indicate whether or not the peer group has connections present.
 old-location: p2p\peer_group_status.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: ed3fa9a6-5180-419f-b5d1-02889bbcdd0d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PEER_GROUP_STATUS, PEER_GROUP_STATUS enumeration [Peer Networking], PEER_GROUP_STATUS_HAS_CONNECTIONS, PEER_GROUP_STATUS_LISTENING, p2p.peer_group_status, p2p/ PEER_GROUP_STATUS, p2p/PEER_GROUP_STATUS_HAS_CONNECTIONS, p2p/PEER_GROUP_STATUS_LISTENING, peer_group_status_tag
 ms.prod: windows
 ms.technology: windows-sdk

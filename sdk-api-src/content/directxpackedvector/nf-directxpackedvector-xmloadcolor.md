@@ -7,7 +7,7 @@ old-location: dxmath\xmloadcolor.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadColor(const XMCOLOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMLoadColor, XMLoadColor, XMLoadColor method [DirectX Math Support APIs], dxmath.xmloadcolor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/library/Ee419292(v=VS.85).aspx">XMCOLOR</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/library/Ee419292(v=VS.85).aspx">XMC
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/library/Ee419292(v=VS.85).aspx">XMCOLOR</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a> structure to load. 
 
 
 ## -returns

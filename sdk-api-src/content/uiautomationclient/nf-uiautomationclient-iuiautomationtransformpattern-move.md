@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern_Move.htm
 old-project: WinAuto
 ms.assetid: 6529de7b-cb7d-4e18-b274-bc6bf003f912
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Move method, IUIAutomationTransformPattern.Move, IUIAutomationTransformPattern::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Move, uiauto_IUIAutomationTransformPattern_Move, uiautomationclient/IUIAutomationTransformPattern::Move, winauto.uiauto_IUIAutomationTransformPattern_Move
 ms.prod: windows
 ms.technology: windows-sdk

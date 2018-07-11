@@ -7,7 +7,7 @@ old-location: base\rtwqallocateserialworkqueue.htm
 old-project: ProcThread
 ms.assetid: e2021bf3-40d8-4697-b82f-eebee2140a6e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqAllocateSerialWorkQueue, RtwqAllocateSerialWorkQueue function, base.rtwqallocateserialworkqueue, rtworkq/RtwqAllocateSerialWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk

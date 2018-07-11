@@ -4,10 +4,10 @@ title: ISClusScsiAddress::get_TargetId
 author: windows-sdk-content
 description: Returns the SCSI target ID of the Physical Disk.
 old-location: mscs\clusscsiaddress_targetid.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 878c9914-2706-4aaf-9b44-2c2a7ca2e067
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusScsiAddress object [Failover Cluster],TargetId property, ClusScsiAddress.TargetId, ISClusScsiAddress.get_TargetId, ISClusScsiAddress::get_TargetId, TargetId property [Failover Cluster], TargetId property [Failover Cluster],ClusScsiAddress object, _wolf_clusscsiaddress.targetid, get_TargetId, mscs.clusscsiaddress_targetid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> target ID of the 
+    <a href="s_gly.htm">SCSI</a> target ID of the 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 This property is read-only.

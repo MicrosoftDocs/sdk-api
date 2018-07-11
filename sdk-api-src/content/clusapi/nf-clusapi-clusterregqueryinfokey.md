@@ -4,10 +4,10 @@ title: ClusterRegQueryInfoKey function
 author: windows-sdk-content
 description: Returns information about a cluster database key.
 old-location: mscs\clusterregqueryinfokey.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey
 ms.prod: windows
 ms.technology: windows-sdk

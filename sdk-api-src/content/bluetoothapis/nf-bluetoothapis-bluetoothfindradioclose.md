@@ -4,10 +4,10 @@ title: BluetoothFindRadioClose function
 author: windows-sdk-content
 description: The BluetoothFindRadioClose function closes the enumeration handle associated with finding Bluetooth radios.
 old-location: bluetooth\bluetoothfindradioclose.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BluetoothFindRadioClose, BluetoothFindRadioClose function [Bluetooth], bluetooth.bluetoothfindradioclose, bluetoothapis/BluetoothFindRadioClose
 ms.prod: windows
 ms.technology: windows-sdk

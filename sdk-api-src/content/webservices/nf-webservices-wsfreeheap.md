@@ -7,7 +7,7 @@ old-location: wsw\wsfreeheap.htm
 old-project: wsw
 ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
 ms.prod: windows
 ms.technology: windows-sdk

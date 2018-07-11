@@ -7,7 +7,7 @@ old-location: base\createfiber.htm
 old-project: ProcThread
 ms.assetid: 3e44776b-7ef2-43fb-a2ae-e8ab7e20644b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
 ms.prod: windows
 ms.technology: windows-sdk

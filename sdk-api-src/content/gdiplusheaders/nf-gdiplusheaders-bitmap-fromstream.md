@@ -62,10 +62,10 @@ The <b>Bitmap::FromStream</b> method creates a
 
 ### -param stream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a>*</b>
+Type: <b><a href="_stg_istream">IStream</a>*</b>
 
 Pointer to an 
-					<a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a>COMCOM interface. The implementation of 
+					<a href="_stg_istream">IStream</a>COMCOM interface. The implementation of 
 					IStream must include the 
 					<a href="_stg_istream_seek">IStream::Seek</a>, 
 					<b>Read</b>, and 
@@ -102,15 +102,15 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/ddde257c-41a6-4f6e-8d81-10d66c60085c">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/57e3bf33-5490-4f4a-addf-356ef8f1aeed">Using Images, Bitmaps, and Metafiles</a>
  
 
  

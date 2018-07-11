@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffect_getparenteffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getparenteffect.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetParentEffect, GetParentEffect method [WPF Bitmap Effects], GetParentEffect method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetParentEffect method, IMILBitmapEffect.GetParentEffect, IMILBitmapEffect::GetParentEffect, _wibe_imilbitmapeffect_getparenteffect, mileffects/IMILBitmapEffect::GetParentEffect, wibe._wibe_imilbitmapeffect_getparenteffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Gets a parent of the effect.
 
 ### -param ppParentEffect [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>.
+A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a>.
 
 
 ## -returns

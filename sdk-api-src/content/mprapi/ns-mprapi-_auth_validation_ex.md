@@ -4,10 +4,10 @@ title: "_AUTH_VALIDATION_EX"
 author: windows-sdk-content
 description: Used for enabling clients to bypass Point-to-Point (PPP) authentication during Secure Socket Tunneling Protocol (SSTP) connection establishment.
 old-location: rras\auth_validation_ex.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 17e78379-a9f8-4aab-aff3-aa9b21eb629c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: AUTH_VALIDATION_EX, AUTH_VALIDATION_EX structure [RAS], PAUTH_VALIDATION_EX, PAUTH_VALIDATION_EX structure pointer [RAS], _AUTH_VALIDATION_EX, mprapi/AUTH_VALIDATION_EX, mprapi/PAUTH_VALIDATION_EX, rras.auth_validation_ex
 ms.prod: windows
 ms.technology: windows-sdk

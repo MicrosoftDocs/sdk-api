@@ -4,10 +4,10 @@ title: NdfCreateInboundIncident function
 author: windows-sdk-content
 description: Creates a session to diagnose inbound connectivity for a specific application or service.
 old-location: ndf\ndfcreateinboundincident.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 8cc2c605-96b6-4eca-9e18-f3296187a28f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll,-32752, NDF_INBOUND_FLAG_EDGETRAVERSAL, NDF_INBOUND_FLAG_HEALTHCHECK, NdfCreateInboundIncident, NdfCreateInboundIncident function [NDF], ndf.ndfcreateinboundincident, ndfapi/NdfCreateInboundIncident"
 ms.prod: windows
 ms.technology: windows-sdk

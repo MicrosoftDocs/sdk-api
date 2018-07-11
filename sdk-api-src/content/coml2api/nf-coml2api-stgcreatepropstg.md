@@ -4,10 +4,10 @@ title: StgCreatePropStg function
 author: windows-sdk-content
 description: Creates and opens a property set in a specified storage or stream object.
 old-location: stg\stgcreatepropstg.htm
-old-project: Stg
+old-project: stg
 ms.assetid: fc171888-3723-4894-a356-1b234352c4e8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: StgCreatePropStg, StgCreatePropStg function [Structured Storage], _stg_stgcreatepropstg, coml2api/StgCreatePropStg, stg.stgcreatepropstg
 ms.prod: windows
 ms.technology: windows-sdk

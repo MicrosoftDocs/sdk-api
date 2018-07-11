@@ -4,10 +4,10 @@ title: SetNetScheduleAccountInformation function
 author: windows-sdk-content
 description: The SetNetScheduleAccountInformation function sets the AT Service account name and password. The AT Service account name and password are used as the credentials for scheduled jobs created with NetScheduleJobAdd.
 old-location: netmgmt\setnetscheduleaccountinformation.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: e45cc3d6-f0dd-4c24-967e-4db08078d15e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: SetNetScheduleAccountInformation, SetNetScheduleAccountInformation function [Network Management], atacct/SetNetScheduleAccountInformation, netmgmt.setnetscheduleaccountinformation
 ms.prod: windows
 ms.technology: windows-sdk

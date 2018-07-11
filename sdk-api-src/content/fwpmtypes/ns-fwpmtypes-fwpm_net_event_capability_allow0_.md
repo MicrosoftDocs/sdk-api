@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_CAPABILITY_ALLOW0_
 author: windows-sdk-content
 description: Contains information about network traffic allowed in relation to an app container network capability.
 old-location: fwp\fwpm_net_event_capability_allow0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: e53e92e5-f7fa-4457-8681-754b50b24273
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_NET_EVENT_CAPABILITY_ALLOW0, FWPM_NET_EVENT_CAPABILITY_ALLOW0 structure [Filtering], FWPM_NET_EVENT_CAPABILITY_ALLOW0_, fwp.fwpm_net_event_capability_allow0, fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0
 ms.prod: windows
 ms.technology: windows-sdk

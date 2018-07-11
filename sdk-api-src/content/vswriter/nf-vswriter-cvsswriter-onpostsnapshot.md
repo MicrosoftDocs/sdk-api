@@ -4,10 +4,10 @@ title: CVssWriter::OnPostSnapshot
 author: windows-sdk-content
 description: The OnPostSnapshot method is called by a writer following a PostSnapshot event.
 old-location: base\cvsswriter_onpostsnapshot.htm
-old-project: VSS
+old-project: vss
 ms.assetid: d97d4246-882e-49c3-a214-d8d3887c1508
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnapshot, CVssWriter::OnPostSnapshot, OnPostSnapshot, OnPostSnapshot method [VSS], OnPostSnapshot method [VSS],CVssWriter class, _win32_cvsswriter_onpostsnapshot, base.cvsswriter_onpostsnapshot, vswriter/CVssWriter::OnPostSnapshot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 The <b>OnPostSnapshot</b> method is called by a 
-    writer following a <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> 
+    writer following a <a href="vssgloss_p.htm">PostSnapshot</a> 
     event.
 
 <b>OnPostSnapshot</b> is a virtual method. It is 
@@ -125,7 +125,7 @@ To retrieve the volume name of the shadow copy of a volume, perform the followin
 <li>Call the <a href="https://msdn.microsoft.com/ac0beefe-0afd-45da-b1bb-1bd960b4b0f0">CVssWriter::GetSnapshotDeviceName</a> to retrieve the name of the shadow copy volume.</li>
 </ol>
 If this method calls the <a href="https://msdn.microsoft.com/bea5ba9c-538b-453f-ae6d-12b94b8edeb6">CVssWriterEx2::GetSessionId</a>, <a href="https://msdn.microsoft.com/9fef9d77-dc0d-4ba0-a317-5c62355458f7">CVssWriter::SetWriterFailure</a>, or <a href="https://msdn.microsoft.com/c049a016-6546-4e72-90e8-46be8c2f7764">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa384993(v=VS.85).aspx">Writer Event Handling</a>.
+<a href="writers.htm">Writer Event Handling</a>.
 
 
 

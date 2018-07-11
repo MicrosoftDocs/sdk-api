@@ -7,7 +7,7 @@ old-location: nwifi\onex_status.htm
 old-project: NativeWiFi
 ms.assetid: 2c19c65b-0943-4561-a28f-0104e1cbd229
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: "*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PONEX_STATUS, PONEX_STATUS structure pointer [NativeWIFI], _ONEX_STATUS, dot1x/ONEX_STATUS, dot1x/PONEX_STATUS, nwifi.onex_status"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_metadata_state.htm
 old-project: wsw
 ms.assetid: 4d2b8c31-d5ff-4b96-9aaf-57e59d075431
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_METADATA_STATE, WS_METADATA_STATE enumeration [Web Services for Windows], WS_METADATA_STATE_CREATED, WS_METADATA_STATE_FAULTED, WS_METADATA_STATE_RESOLVED, webservices/WS_METADATA_STATE, webservices/WS_METADATA_STATE_CREATED, webservices/WS_METADATA_STATE_FAULTED, webservices/WS_METADATA_STATE_RESOLVED, wsw.ws_metadata_state
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ The initial state of the metadata object.
                 cause state transitions in the metadata object.
             
 
-<img alt="" src="./images/MetadataStates.png"/>
+<img alt="" src="images/MetadataStates.png"/>
 
 
 

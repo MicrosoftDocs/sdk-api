@@ -4,10 +4,10 @@ title: ISnapinHelp::GetHelpTopic
 author: windows-sdk-content
 description: Enables a snap-in to add its compiled HTML Help file to the MMC Help collection file.
 old-location: mmc\isnapinhelp_gethelptopic.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 2F7E987F-1E1E-4C9E-9B26-D7BB8F5A05DD
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: GetHelpTopic, GetHelpTopic method [MMC], GetHelpTopic method [MMC],ISnapinHelp interface, ISnapinHelp interface [MMC],GetHelpTopic method, ISnapinHelp.GetHelpTopic, ISnapinHelp::GetHelpTopic, mmc.isnapinhelp_gethelptopic, mmc/ISnapinHelp::GetHelpTopic
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ Allocate the <i>lpCompiledHelpFile</i> string with the COM API function <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300864(v=VS.85).aspx">ISnapinHelp</a>
+<a href="https://msdn.microsoft.com/baf2dc0e-c53e-44d5-b79a-f77118e2f798">ISnapinHelp</a>
 
 
 

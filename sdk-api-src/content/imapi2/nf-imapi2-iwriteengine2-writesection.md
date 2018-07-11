@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_writesection.htm
 old-project: imapi
 ms.assetid: a6158984-04d3-4919-8a67-fc860b4b3a47
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],WriteSection method, IWriteEngine2.WriteSection, IWriteEngine2::WriteSection, WriteSection, WriteSection method [IMAPI], WriteSection method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_writesection, imapi2/IWriteEngine2::WriteSection
 ms.prod: windows
 ms.technology: windows-sdk

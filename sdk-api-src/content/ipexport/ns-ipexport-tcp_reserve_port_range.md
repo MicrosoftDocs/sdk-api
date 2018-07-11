@@ -4,10 +4,10 @@ title: tcp_reserve_port_range
 author: windows-sdk-content
 description: The TCP_RESERVE_PORT_RANGE structure specifies a TCP port range to reserve.
 old-location: iphlp\tcp_reserve_port_range.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 3a64000b-9862-4958-888c-2114c124a9d5
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PTCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE, TCP_RESERVE_PORT_RANGE structure [IP Helper], ipexport/TCP_RESERVE_PORT_RANGE, iphlp.tcp_reserve_port_range, tcp_reserve_port_range"
 ms.prod: windows
 ms.technology: windows-sdk

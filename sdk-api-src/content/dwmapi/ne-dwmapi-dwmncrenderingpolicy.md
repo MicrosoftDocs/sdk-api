@@ -7,7 +7,7 @@ old-location: dwm\dwmncrenderingpolicy.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmncrenderingpolicy.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Window Manager], DWMNCRP_DISABLED, DWMNCRP_ENABLED, DWMNCRP_LAST, DWMNCRP_USEWINDOWSTYLE, _udwm_dwmncrenderingpolicy, _udwm_dwmncrenderingpolicy_cpp, dwm.dwmncrenderingpolicy, dwmapi/DWMNCRENDERINGPOLICY, dwmapi/DWMNCRP_DISABLED, dwmapi/DWMNCRP_ENABLED, dwmapi/DWMNCRP_LAST, dwmapi/DWMNCRP_USEWINDOWSTYLE, winui._udwm_dwmncrenderingpolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Flags used by the <a href="https://msdn.microsoft.com/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to specify the non-client area rendering policy.
+Flags used by the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to specify the non-client area rendering policy.
 
 
 ## -enum-fields
@@ -76,14 +76,14 @@ The non-client area rendering is enabled; the window style is ignored.
 
 ### -field DWMNCRP_LAST
 
-The maximum recognized <a href="https://msdn.microsoft.com/library/Aa969529(v=VS.85).aspx">DWMNCRENDERINGPOLICY</a> value, used for validation purposes.
+The maximum recognized <a href="https://msdn.microsoft.com/b02f9157-55cc-4965-9836-2b359f3dade5">DWMNCRENDERINGPOLICY</a> value, used for validation purposes.
 
 
 ## -remarks
 
 
 
-To use a <b>DWMNCRENDERINGPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://msdn.microsoft.com/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to <b>DWMWA_NCRENDERING_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMNCRENDERINGPOLICY</b> value.
+To use a <b>DWMNCRENDERINGPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://msdn.microsoft.com/51f6544a-edc4-4d0c-b39a-277a8dcbe94f">DwmSetWindowAttribute</a> function to <b>DWMWA_NCRENDERING_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMNCRENDERINGPOLICY</b> value.
 
 
 

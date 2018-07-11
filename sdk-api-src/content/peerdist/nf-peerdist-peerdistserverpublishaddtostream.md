@@ -4,10 +4,10 @@ title: PeerDistServerPublishAddToStream function
 author: windows-sdk-content
 description: PeerDistServerPublishAddToStream function adds data to the publishing stream.
 old-location: p2p\peerdistserverpublishaddtostream.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 296e21b9-9488-408a-b470-bbde1a18e6f0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerDistServerPublishAddToStream, PeerDistServerPublishAddToStream function [Peer Networking], p2p.peerdistserverpublishaddtostream, peerdist/PeerDistServerPublishAddToStream
 ms.prod: windows
 ms.technology: windows-sdk

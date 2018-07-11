@@ -7,7 +7,7 @@ old-location: imapi\idiscmasterprogressevents.htm
 old-project: imapi
 ms.assetid: 68f7edbd-4a06-4e8d-a562-21a65767aff6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], IDiscMasterProgressEvents interface [IMAPI],described, _win32_idiscmasterprogressevents, base.idiscmasterprogressevents, imapi.idiscmasterprogressevents, imapi/IDiscMasterProgressEvents
 ms.prod: windows
 ms.technology: windows-sdk

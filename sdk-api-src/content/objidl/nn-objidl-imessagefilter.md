@@ -7,7 +7,7 @@ old-location: com\imessagefilter.htm
 old-project: com
 ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Provides COM servers and applications with the ability to selectively handle inc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IMessageFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageFilter</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IMessageFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -89,8 +89,8 @@ If this matrix is not invertible, the method fails and returns InvalidParameter.
 
 
 The following example passes the address of a 
-						<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object to the 
-						<a href="https://msdn.microsoft.com/library/ms535818(v=VS.85).aspx">SetTransform</a> method of a 
+						<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object to the 
+						<a href="https://msdn.microsoft.com/458b62ad-04f0-4202-92db-b1fcf43b3ffa">SetTransform</a> method of a 
 						<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object and then draws a rectangle. The rectangle is translated 30 units right and 20 units down by the world transformation of the 
 						<b>Graphics</b> object. The code calls the <b>Matrix::Invert</b> method of the 
 						<b>Matrix</b> object and sets the world transformation of the 
@@ -126,23 +126,23 @@ The following example passes the address of a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536395(v=VS.85).aspx">Global and Local Transformations</a>
+<a href="https://msdn.microsoft.com/9f744c2a-f1f3-4a7e-ab0c-37aa1df01623">Global and Local Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536397(v=VS.85).aspx">Matrix Representation of Transformations</a>
+<a href="https://msdn.microsoft.com/62215ae0-b095-42b2-911c-aa7607a8b61a">Matrix Representation of Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535305(v=VS.85).aspx">Matrix::IsInvertible</a>
+<a href="https://msdn.microsoft.com/7104f46b-3a3d-4185-9369-cfd89864de61">Matrix::IsInvertible</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/4acf3d70-f119-4a5b-a20d-8adea453556f">Transformations</a>
  
 
  

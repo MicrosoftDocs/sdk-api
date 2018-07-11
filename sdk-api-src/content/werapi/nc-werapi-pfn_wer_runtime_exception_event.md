@@ -7,7 +7,7 @@ old-location: wer\outofprocessexceptioneventcallback.htm
 old-project: wer
 ms.assetid: 22033278-2be3-4621-b618-3ccd21fb4cdd
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: OutOfProcessExceptionEventCallback, OutOfProcessExceptionEventCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT, PFN_WER_RUNTIME_EXCEPTION_EVENT callback, wer.outofprocessexceptioneventcallback, werapi/OutOfProcessExceptionEventCallback
 ms.prod: windows
 ms.technology: windows-sdk

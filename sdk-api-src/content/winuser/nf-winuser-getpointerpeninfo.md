@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerpeninfo.htm
 old-project: InputMsg
 ms.assetid: 5f1f7252-a4aa-4b06-94c9-2aa365cf0100
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/09/2018
 ms.keywords: GetPointerPenInfo, GetPointerPenInfo function [Input Messages and Notifications], inputmsg.getpointerpeninfo, winuser/GetPointerPenInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: "_FILESHARE_CHANGE_ENUM"
 author: windows-sdk-content
 description: Contains the possible change events that are used by the FILESHARE_CHANGE structure to describe an entry in a file share event notification list.
 old-location: mscs\fileshare_change_enum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 36139a95-141c-4f44-9627-9ed6c3fed0c5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*PFILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_ENUM, FILESHARE_CHANGE_ENUM enumeration [Failover Cluster], FILESHARE_CHANGE_MODIFY, FILESHARE_CHANGE_NONE, _FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_ADD, clusapi/FILESHARE_CHANGE_DEL, clusapi/FILESHARE_CHANGE_ENUM, clusapi/FILESHARE_CHANGE_MODIFY, clusapi/FILESHARE_CHANGE_NONE, mscs.fileshare_change_enum"
 ms.prod: windows
 ms.technology: windows-sdk

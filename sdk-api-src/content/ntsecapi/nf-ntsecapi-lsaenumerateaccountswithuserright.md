@@ -4,10 +4,10 @@ title: LsaEnumerateAccountsWithUserRight function
 author: windows-sdk-content
 description: Returns the accounts in the database of a Local Security Authority (LSA) Policy object that hold a specified privilege.
 old-location: security\lsaenumerateaccountswithuserright.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ If this parameter is <b>NULL</b>, the function enumerates all accounts in the LS
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

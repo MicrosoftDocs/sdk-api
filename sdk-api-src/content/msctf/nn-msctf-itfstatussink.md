@@ -7,7 +7,7 @@ old-location: tsf\itfstatussink.htm
 old-project: TSF
 ms.assetid: 5fc37251-938b-4581-bb54-816749b17001
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], ITfStatusSink interface [Text Services Framework],described, _tsf_itfstatussink_ref, msctf/ITfStatusSink, tsf.itfstatussink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ Receives a notification when one of the dynamic flags of the TF_STATUS structure
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

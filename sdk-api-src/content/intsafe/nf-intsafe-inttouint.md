@@ -7,7 +7,7 @@ old-location: shell\IntToUInt.htm
 old-project: shell
 ms.assetid: 54fe3370-648a-40ab-856b-d34c0c033141
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IntToUInt, IntToUInt function [Windows Shell], _shell_IntToUInt, intsafe/IntToUInt, shell.IntToUInt
 ms.prod: windows
 ms.technology: windows-sdk

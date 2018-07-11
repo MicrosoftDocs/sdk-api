@@ -7,7 +7,7 @@ old-location: com\ipropertypage_getpageinfo.htm
 old-project: com
 ms.assetid: 3cb7168c-bb05-4e01-a73b-11a52c5e690b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPropertyPage interface, IPropertyPage interface [COM],GetPageInfo method, IPropertyPage.GetPageInfo, IPropertyPage::GetPageInfo, _ctrl_ipropertypage_getpageinfo, com.ipropertypage_getpageinfo, ocidl/IPropertyPage::GetPageInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_setmessagecountlimit.htm
 old-project: direct3d11
 ms.assetid: 59ed198c-65a5-4d78-867a-ba4527ad23c2
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 56bf62b4-6ca7-b852-eada-d18cbf109706, ID3D11InfoQueue interface [Direct3D 11],SetMessageCountLimit method, ID3D11InfoQueue.SetMessageCountLimit, ID3D11InfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [Direct3D 11], SetMessageCountLimit method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetMessageCountLimit, direct3d11.id3d11infoqueue_setmessagecountlimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Maximum number of messages that can be added to the message queue. -1 means no l
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

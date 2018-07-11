@@ -4,10 +4,10 @@ title: PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST
 author: windows-sdk-content
 description: Sets the preferred node list for a group.
 old-location: mscs\setclustergroupnodelist.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 663ccafe-0456-406e-a50d-e17e6d85a9a1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST callback, PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST callback function [Failover Cluster], _wolf_setclustergroupnodelist, clusapi/PCLUSAPI_SET_CLUSTER_GROUP_NODE_LIST, mscs.setclustergroupnodelist
 ms.prod: windows
 ms.technology: windows-sdk

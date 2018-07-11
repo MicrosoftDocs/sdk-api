@@ -4,10 +4,10 @@ title: ICertPropertyBackedUp::Initialize
 author: windows-sdk-content
 description: Initializes the object from a Boolean value and a date.
 old-location: security\icertpropertybackedup_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2ca941a6-898d-4955-b334-ffc15e10b330
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],Initialize method, ICertPropertyBackedUp.Initialize, ICertPropertyBackedUp::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::Initialize, security.icertpropertybackedup_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wscheckmustunderstandheaders.htm
 old-project: wsw
 ms.assetid: 28ca98e5-911b-436d-a592-781b832ca6cc
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsCheckMustUnderstandHeaders, WsCheckMustUnderstandHeaders function [Web Services for Windows], webservices/WsCheckMustUnderstandHeaders, wsw.wscheckmustunderstandheaders
 ms.prod: windows
 ms.technology: windows-sdk

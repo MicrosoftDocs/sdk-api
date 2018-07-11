@@ -7,7 +7,7 @@ old-location: winprog\getfeaturevariant.htm
 old-project: DevNotes
 ms.assetid: CEB545DB-321A-4FE6-B182-DC7F6B37D665
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: GetFeatureVariant, GetFeatureVariant function [Windows API], featurestagingapi/GetFeatureVariant, winprog.getfeaturevariant
 ms.prod: windows
 ms.technology: windows-sdk

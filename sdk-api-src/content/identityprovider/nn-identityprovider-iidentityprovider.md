@@ -7,7 +7,7 @@ old-location: security\iidentityprovider.htm
 old-project: SecAuthN
 ms.assetid: 0f23e369-1501-4e72-94d1-dadb9dac5be6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: IIdentityProvider, IIdentityProvider interface [Security], IIdentityProvider interface [Security],described, identityprovider/IIdentityProvider, security.iidentityprovider
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN
 author: windows-sdk-content
 description: Receives notification about a change in the computer power state and prepares the storage adapter accordingly.
 old-location: secbiomet\storageadapternotifypowerchange.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 22c2ce7b-6e30-40e1-bbe8-f0e479ddcc77
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback, StorageAdapterNotifyPowerChange, StorageAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.storageadapternotifypowerchange, winbio_adapter/StorageAdapterNotifyPowerChange
 ms.prod: windows
 ms.technology: windows-sdk

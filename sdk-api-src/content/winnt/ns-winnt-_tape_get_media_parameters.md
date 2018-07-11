@@ -4,10 +4,10 @@ title: "_TAPE_GET_MEDIA_PARAMETERS"
 author: windows-sdk-content
 description: Describes the tape in the tape drive. It is used by the GetTapeParameters function.
 old-location: backup\tape_get_media_parameters_str.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 931355e5-30f5-4984-80c2-5d63772c4592
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Backup], TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Backup], _TAPE_GET_MEDIA_PARAMETERS, _win32_tape_get_media_parameters_str, backup.tape_get_media_parameters_str, base.tape_get_media_parameters_str, winnt/PTAPE_GET_MEDIA_PARAMETERS, winnt/TAPE_GET_MEDIA_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

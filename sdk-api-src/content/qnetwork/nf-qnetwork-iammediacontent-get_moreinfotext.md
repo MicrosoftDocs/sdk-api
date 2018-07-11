@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_moreinfotext.htm
 old-project: DirectShow
 ms.assetid: 4a511c86-0a3a-48d3-8a3a-2ab52ff7dcea
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoText method, IAMMediaContent.get_MoreInfoText, IAMMediaContent::get_MoreInfoText, IAMMediaContentget_MoreInfoText, dshow.iammediacontent_get_moreinfotext, get_MoreInfoText, get_MoreInfoText method [DirectShow], get_MoreInfoText method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoText
 ms.prod: windows
 ms.technology: windows-sdk

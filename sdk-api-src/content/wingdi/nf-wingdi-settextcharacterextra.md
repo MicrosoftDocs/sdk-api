@@ -7,7 +7,7 @@ old-location: gdi\settextcharacterextra.htm
 old-project: gdi
 ms.assetid: 83b7d225-4fb9-4c75-bc4a-e1bea7f901f1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: SetTextCharacterExtra, SetTextCharacterExtra function [Windows GDI], _win32_SetTextCharacterExtra, gdi.settextcharacterextra, wingdi/SetTextCharacterExtra
 ms.prod: windows
 ms.technology: windows-sdk

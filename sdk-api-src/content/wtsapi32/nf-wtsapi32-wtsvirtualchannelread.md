@@ -7,7 +7,7 @@ old-location: termserv\wtsvirtualchannelread.htm
 old-project: TermServ
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
 ms.prod: windows
 ms.technology: windows-sdk

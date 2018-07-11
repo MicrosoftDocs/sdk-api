@@ -7,7 +7,7 @@ old-location: gdi\createpenindirect.htm
 old-project: gdi
 ms.assetid: 638c0294-9a8f-44ed-a791-1be152cd92dd
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
 ms.prod: windows
 ms.technology: windows-sdk

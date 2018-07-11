@@ -7,7 +7,7 @@ old-location: search\_search_PROXY_ACCESS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\proxy_access.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PROXY_ACCESS, PROXY_ACCESS enumeration [search], PROXY_ACCESS_DIRECT, PROXY_ACCESS_PRECONFIG, PROXY_ACCESS_PROXY, _PROXY_ACCESS, _search_PROXY_ACCESS, search._search_PROXY_ACCESS, searchapi/PROXY_ACCESS, searchapi/PROXY_ACCESS_DIRECT, searchapi/PROXY_ACCESS_PRECONFIG, searchapi/PROXY_ACCESS_PROXY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/library/Bb231485(v=VS.85).aspx">ISearchManager</a> to state proxy use.
+Used by <a href="https://msdn.microsoft.com/23aeb0f6-857e-490c-9ede-11c0955a45c9">ISearchManager</a> to state proxy use.
 
 
 ## -enum-fields

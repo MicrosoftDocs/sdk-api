@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_ADD_RECORD_FN
 author: windows-sdk-content
 description: Adds a template to the database.
 old-location: secbiomet\storageadapteraddrecord.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 889664e2-00e8-49b4-9754-4ca72dd44bbd
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_ADD_RECORD_FN, PIBIO_STORAGE_ADD_RECORD_FN callback, StorageAdapterAddRecord, StorageAdapterAddRecord callback function [Windows Biometric Framework API], secbiomet.storageadapteraddrecord, winbio_adapter/StorageAdapterAddRecord
 ms.prod: windows
 ms.technology: windows-sdk

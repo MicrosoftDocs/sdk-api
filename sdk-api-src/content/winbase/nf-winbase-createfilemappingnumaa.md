@@ -4,10 +4,10 @@ title: CreateFileMappingNumaA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
 old-location: base\createfilemappingnuma.htm
-old-project: Memory
+old-project: memory
 ms.assetid: d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: CreateFileMappingNuma, CreateFileMappingNuma function, CreateFileMappingNumaA, CreateFileMappingNumaW, NUMA_NO_PREFERRED_NODE, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingnuma, winbase/CreateFileMappingNuma, winbase/CreateFileMappingNumaA, winbase/CreateFileMappingNumaW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The file must be opened with access
        rights that are compatible with the protection flags that the <i>flProtect</i> parameter 
        specifies. It is not required, but it is recommended that files you intend to map be opened for exclusive 
        access. For more information, see 
-       <a href="https://msdn.microsoft.com/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+       <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -477,8 +477,8 @@ The exception is related to remote files. Although the
     page is not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>) are not necessarily coherent.
+    (<a href="base.readfile">ReadFile</a> and 
+    <a href="base.writefile">WriteFile</a>) are not necessarily coherent.
 
 To fully close a file mapping object, an application must unmap all mapped views of the file mapping object by 
      calling the <a href="https://msdn.microsoft.com/2e9c3174-af48-4fa3-9f6a-fb62b23ed994">UnmapViewOfFile</a> function and then close 
@@ -607,7 +607,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -623,7 +623,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

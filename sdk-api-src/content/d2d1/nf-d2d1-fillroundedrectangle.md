@@ -4,10 +4,10 @@ title: FillRoundedRectangle function
 author: windows-sdk-content
 description: Paints the interior of the specified rounded rectangle.
 old-location: direct2d\id2d1rendertarget_fillroundedrectangle.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], ID2D1RenderTarget::FillRoundedRectangle, d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses the <a href="https://msdn.microsoft.com/d718c355-ffd8-4a7f-90f3-9a10d37a19c8">DrawRoundedRectangle</a> and <b>FillRoundedRectangle</b> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
-<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="./images/drawroundedrectangle_scr.png"/>
+<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -4,10 +4,10 @@ title: MoveClusterGroupEx function
 author: windows-sdk-content
 description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.
 old-location: mscs\moveclustergroupex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSAPI_GROUP_MOVE_FAILBACK, CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START, CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_MOVE_QUEUE_ENABLED, CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR, MoveClusterGroupEx, MoveClusterGroupEx function [Failover Cluster], clusapi/MoveClusterGroupEx, mscs.moveclustergroupex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\iinkcursors.htm
 old-project: tablet
 ms.assetid: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 3ae7dbc4-e5a2-4916-a1cc-651659a008fc, IInkCursors, IInkCursors interface [Tablet PC], IInkCursors interface [Tablet PC],described, msinkaut/IInkCursors, tablet.iinkcursors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Specifies the cursor to return at the known index into the collection.
 
 </td>
 <td align="left" width="63%">
-Gets either the <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
+Gets either the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/5aaed96f-39c1-4201-80d0-a2a8a177b65e">IEnumUnknown</a> enumerator interface for the collection. Use this property to retrieve each object in the collection.
 
 The <b>_NewEnum</b>
          property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces. 

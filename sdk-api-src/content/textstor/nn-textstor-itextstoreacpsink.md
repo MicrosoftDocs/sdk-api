@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink.htm
 old-project: TSF
 ms.assetid: d7e5a04f-7159-436e-a522-4cb63063aeef
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], ITextStoreACPSink interface [Text Services Framework],described, _tsf_itextstoreacpsink_ref, textstor/ITextStoreACPSink, tsf.itextstoreacpsink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ Called when the text of a document changes.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

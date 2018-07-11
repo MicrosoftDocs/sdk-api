@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_importcomponents.htm
 old-project: cossdk
 ms.assetid: a7ae28f9-6be6-4774-974a-a5d7f3ebbc02
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportComponents method, ICOMAdminCatalog2.ImportComponents, ICOMAdminCatalog2::ImportComponents, ImportComponents, ImportComponents method [COM+], ImportComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportComponents, comadmin/ICOMAdminCatalog2::ImportComponents, cos.icomadmincatalog2_importcomponents
 ms.prod: windows
 ms.technology: windows-sdk

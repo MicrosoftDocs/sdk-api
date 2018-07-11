@@ -4,10 +4,10 @@ title: ListView_Arrange macro
 author: windows-sdk-content
 description: Arranges items in icon view. You can use this macro or send the LVM_ARRANGE message explicitly.
 old-location: controls\ListView_Arrange.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_arrange.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: LVA_ALIGNLEFT, LVA_ALIGNTOP, LVA_DEFAULT, LVA_SNAPTOGRID, ListView_Arrange, ListView_Arrange macro [Windows Controls], _win32_ListView_Arrange, _win32_ListView_Arrange_cpp, commctrl/ListView_Arrange, controls.ListView_Arrange, controls._win32_ListView_Arrange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Arranges items in icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774884(v=VS.85).aspx">LVM_ARRANGE</a> message explicitly.
+Arranges items in icon view. You can use this macro or send the <a href="https://msdn.microsoft.com/f7dbcdd2-3cc9-4bae-827e-8bac3b49486c">LVM_ARRANGE</a> message explicitly.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ One of the following values that specifies alignment:
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_ALIGNLEFT</a> style instead.
+Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNLEFT</a> style instead.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Not implemented. Apply the <a href="https://msdn.microsoft.com/library/Bb774739(
 </dl>
 </td>
 <td width="60%">
-Not implemented. Apply the <a href="https://msdn.microsoft.com/library/Bb774739(v=VS.85).aspx">LVS_ALIGNTOP</a> style instead.
+Not implemented. Apply the <a href="List_view_window_styles.htm">LVS_ALIGNTOP</a> style instead.
 
 </td>
 </tr>

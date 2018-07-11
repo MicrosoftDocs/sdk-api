@@ -4,10 +4,10 @@ title: RasGetConnectionStatistics function
 author: windows-sdk-content
 description: The RasGetConnectionStatistics function retrieves accumulated connection statistics for the specified connection.
 old-location: rras\rasgetconnectionstatistics.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 2db03535-c2bd-4e04-a86f-e68fe5c1f805
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RAS], _ras_rasgetconnectionstatistics, ras/RasGetConnectionStatistics, rras.rasgetconnectionstatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,7 +125,7 @@ The function could not allocate sufficient memory to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

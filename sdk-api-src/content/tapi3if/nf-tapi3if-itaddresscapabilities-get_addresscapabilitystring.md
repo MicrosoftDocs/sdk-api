@@ -4,10 +4,10 @@ title: ITAddressCapabilities::get_AddressCapabilityString
 author: windows-sdk-content
 description: The get_AddressCapabilityString method gets the capability string for a given ADDRESS_CAPABILITY_STRING.
 old-location: tapi3\itaddresscapabilities_get_addresscapabilitystring.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 9ec4c25e-700b-4aed-97ff-e7cb420fdf96
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapabilityString method, ITAddressCapabilities.get_AddressCapabilityString, ITAddressCapabilities::get_AddressCapabilityString, _tapi3_itaddresscapabilities_get_addresscapabilitystring, get_AddressCapabilityString, get_AddressCapabilityString method [TAPI 2.2], get_AddressCapabilityString method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapabilitystring, tapi3if/ITAddressCapabilities::get_AddressCapabilityString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppCapabilityString</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppCapabilityString</i> parameter.
 			
 
 

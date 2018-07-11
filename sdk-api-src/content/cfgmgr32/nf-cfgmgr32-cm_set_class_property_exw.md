@@ -7,7 +7,7 @@ old-location: devinst\cm_set_class_property_exw.htm
 old-project: devinst
 ms.assetid: A2232661-DA67-40BB-81B9-0BC7851A6E25
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: CM_Set_Class_Property_ExW, CM_Set_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_Class_Property_ExW, devinst.cm_set_class_property_exw
 ms.prod: windows
 ms.technology: windows-sdk

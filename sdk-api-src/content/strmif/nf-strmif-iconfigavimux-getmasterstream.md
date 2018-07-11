@@ -7,7 +7,7 @@ old-location: dshow\iconfigavimux_getmasterstream.htm
 old-project: DirectShow
 ms.assetid: 2085a510-16d5-4a82-b372-824026203ef6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetMasterStream, GetMasterStream method [DirectShow], GetMasterStream method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetMasterStream method, IConfigAviMux.GetMasterStream, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream
 ms.prod: windows
 ms.technology: windows-sdk

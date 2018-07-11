@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getvideoswapchainhandle.htm
 old-project: medfound
 ms.assetid: 23AE2296-F0BF-4060-9849-F6A0E0C13B86
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetVideoSwapchainHandle, GetVideoSwapchainHandle method [Media Foundation], GetVideoSwapchainHandle method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetVideoSwapchainHandle method, IMFMediaEngineEx.GetVideoSwapchainHandle, IMFMediaEngineEx::GetVideoSwapchainHandle, mf.imfmediaengineex_getvideoswapchainhandle, mfmediaengine/IMFMediaEngineEx::GetVideoSwapchainHandle
 ms.prod: windows
 ms.technology: windows-sdk

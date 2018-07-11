@@ -4,10 +4,10 @@ title: IVssEnumMgmtObject::Clone
 author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumMgmtObject enumerator object.
 old-location: base\ivssenummgmtobject_clone.htm
-old-project: VSS
+old-project: vss
 ms.assetid: f957052a-5511-4f00-b864-1f03ead2ba58
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumMgmtObject interface, IVssEnumMgmtObject interface [VSS],Clone method, IVssEnumMgmtObject.Clone, IVssEnumMgmtObject::Clone, base.ivssenummgmtobject_clone, vsmgmt/IVssEnumMgmtObject::Clone
 ms.prod: windows
 ms.technology: windows-sdk

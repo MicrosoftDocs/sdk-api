@@ -4,10 +4,10 @@ title: ISClusResource::get_Disk
 author: windows-sdk-content
 description: ClusDisk object providing access to information about the disk.
 old-location: mscs\clusresource_disk.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4f85a491-3cb7-409a-a7fb-9fc0f896e787
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],Disk property, ClusResource.Disk, Disk property [Failover Cluster], Disk property [Failover Cluster],ClusResource class, ISClusResource.get_Disk, ISClusResource::get_Disk, _wolf_clusresource.disk, get_Disk, mscs.clusresource_disk
 ms.prod: windows
 ms.technology: windows-sdk

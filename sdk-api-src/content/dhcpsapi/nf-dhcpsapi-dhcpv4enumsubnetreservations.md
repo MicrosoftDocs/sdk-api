@@ -4,10 +4,10 @@ title: DhcpV4EnumSubnetReservations function
 author: windows-sdk-content
 description: Enumerates the reservations for a specific DHCP IPv4 subnet.
 old-location: dhcp\dhcpv4enumsubnetreservations.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 6eebc858-7ffe-4bf3-b318-3a5ad16c9827
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpV4EnumSubnetReservations, DhcpV4EnumSubnetReservations function [DHCP], dhcp.dhcpv4enumsubnetreservations, dhcpsapi/DhcpV4EnumSubnetReservations
 ms.prod: windows
 ms.technology: windows-sdk

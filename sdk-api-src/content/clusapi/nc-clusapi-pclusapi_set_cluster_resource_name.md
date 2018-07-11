@@ -4,10 +4,10 @@ title: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME
 author: windows-sdk-content
 description: Sets the name for a resource.
 old-location: mscs\setclusterresourcename.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME callback, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME callback function [Failover Cluster], _wolf_setclusterresourcename, clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, mscs.setclusterresourcename
 ms.prod: windows
 ms.technology: windows-sdk

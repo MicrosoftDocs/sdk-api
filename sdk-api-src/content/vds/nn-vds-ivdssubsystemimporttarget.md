@@ -4,10 +4,10 @@ title: IVdsSubSystemImportTarget
 author: windows-sdk-content
 description: Provides methods to query and configure the default VSS import target for the subsystem.
 old-location: base\ivdssubsystemimporttarget.htm
-old-project: VDS
+old-project: vds
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
 ms.prod: windows
 ms.technology: windows-sdk

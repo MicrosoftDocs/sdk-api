@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenser_definescope.htm
 old-project: WinRT
 ms.assetid: 5b7a5e73-e7ef-427a-baa4-3f0defd566a3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: DefineScope, DefineScope method [Windows Runtime], DefineScope method [Windows Runtime],IMetaDataDispenser interface, IMetaDataDispenser interface [Windows Runtime],DefineScope method, IMetaDataDispenser.DefineScope, IMetaDataDispenser::DefineScope, rometadataapi/IMetaDataDispenser::DefineScope, winrt.imetadatadispenser_definescope
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\imilbitmapeffectoutputconnectorimpl.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectOutputConnectorImpl, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnectorimpl, mileffects/IMILBitmapEffectOutputConnectorImpl, wibe._wibe_imilbitmapeffectoutputconnectorimpl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,13 +71,13 @@ The <b>IMILBitmapEffectOutputConnectorImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735261(v=VS.85).aspx">AddBackLink</a>
+<a href="https://msdn.microsoft.com/a771bcea-399b-44d1-9dcf-a31eff87ea93">AddBackLink</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735264(v=VS.85).aspx">RemoveBackLink</a>
+<a href="https://msdn.microsoft.com/5f446328-49f4-4a57-ab47-c6e082e92e7d">RemoveBackLink</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
@@ -88,7 +88,7 @@ The <b>IMILBitmapEffectOutputConnectorImpl</b> interface has these methods.
 
 
 
-This interface must be implemented if an effect also implements <a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>.
+This interface must be implemented if an effect also implements <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>.
 
 
 

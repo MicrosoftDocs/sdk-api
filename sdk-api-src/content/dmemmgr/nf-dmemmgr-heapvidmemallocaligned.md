@@ -7,7 +7,7 @@ old-location: display\heapvidmemallocaligned.htm
 old-project: display
 ms.assetid: efd004d5-58fc-4721-9a74-d018cb3e5de9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: HeapVidMemAllocAligned, HeapVidMemAllocAligned function [Display Devices], display.heapvidmemallocaligned, dmemmgr/HeapVidMemAllocAligned, gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml
 ms.prod: windows
 ms.technology: windows-sdk

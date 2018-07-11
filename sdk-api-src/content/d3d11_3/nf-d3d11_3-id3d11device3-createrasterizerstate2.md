@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createrasterizerstate2.htm
 old-project: direct3d11
 ms.assetid: 42BA8F50-7D86-4411-AE05-74F492761DBD
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: CreateRasterizerState2, CreateRasterizerState2 method [Direct3D 11], CreateRasterizerState2 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateRasterizerState2 method, ID3D11Device3.CreateRasterizerState2, ID3D11Device3::CreateRasterizerState2, d3d11_3/ID3D11Device3::CreateRasterizerState2, direct3d11.id3d11device3_createrasterizerstate2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a memory block that receives a pointer to a <a href="https://msdn.m
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
 

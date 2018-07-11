@@ -4,10 +4,10 @@ title: SnmpMgrOpen function
 author: windows-sdk-content
 description: The SnmpMgrOpen function initializes communications sockets and data structures, allowing communications with the specified SNMP agent. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgropen.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: e2827352-f1aa-477e-933c-942c73cea487
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpMgrOpen, SnmpMgrOpen function [SNMP], _snmp_snmpmgropen, mgmtapi/SnmpMgrOpen, snmp.snmpmgropen
 ms.prod: windows
 ms.technology: windows-sdk

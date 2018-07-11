@@ -4,10 +4,10 @@ title: IOfflineFilesSyncErrorInfo::GetSyncOperation
 author: windows-sdk-content
 description: Retrieves a value indicating the type of sync operation that was being performed when the error was encountered.
 old-location: of\iofflinefilessyncerrorinfo_getsyncoperation.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 21973fb8-26f9-40a0-bb9a-d9c5ff6924e7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: GetSyncOperation, GetSyncOperation method [Offline Files], GetSyncOperation method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetSyncOperation method, IOfflineFilesSyncErrorInfo.GetSyncOperation, IOfflineFilesSyncErrorInfo::GetSyncOperation, cscobj/IOfflineFilesSyncErrorInfo::GetSyncOperation, of.iofflinefilessyncerrorinfo_getsyncoperation
 ms.prod: windows
 ms.technology: windows-sdk

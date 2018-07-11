@@ -7,7 +7,7 @@ old-location: nwifi\wfd_open_session_complete_callback.htm
 old-project: NativeWiFi
 ms.assetid: 2CB91D70-920A-4D97-B96D-B264F59150AC
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: ERROR_INVALID_PARAMETER, ERROR_INVALID_STATE, ERROR_SERVICE_NOT_ACTIVE, RPC_STATUS, WFD_OPEN_SESSION_COMPLETE_CALLBACK, WFD_OPEN_SESSION_COMPLETE_CALLBACK callback, WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function [NativeWIFI], nwifi.wfd_open_session_complete_callback, wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

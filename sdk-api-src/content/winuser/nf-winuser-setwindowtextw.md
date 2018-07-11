@@ -7,7 +7,7 @@ old-location: winmsg\setwindowtext.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowtext.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: SetWindowText, SetWindowText function [Windows and Messages], SetWindowTextA, SetWindowTextW, _win32_SetWindowText, _win32_setwindowtext_cpp, winmsg.setwindowtext, winui._win32_setwindowtext, winuser/SetWindowText, winuser/SetWindowTextA, winuser/SetWindowTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -103,16 +103,16 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If the target window is owned by the current process, <b>SetWindowText</b> causes a <a href="https://msdn.microsoft.com/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a> message to be sent to the specified window or control. If the control is a list box control created with the <b>WS_CAPTION</b> style, however, <b>SetWindowText</b> sets the text for the control, not for the list box entries. 
+If the target window is owned by the current process, <b>SetWindowText</b> causes a <a href="https://msdn.microsoft.com/1b48c309-6903-4139-bf42-e8526963e681">WM_SETTEXT</a> message to be sent to the specified window or control. If the control is a list box control created with the <b>WS_CAPTION</b> style, however, <b>SetWindowText</b> sets the text for the control, not for the list box entries. 
 
-To set the text of a control in another process, send the <a href="https://msdn.microsoft.com/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a> message directly instead of calling <b>SetWindowText</b>. 
+To set the text of a control in another process, send the <a href="https://msdn.microsoft.com/1b48c309-6903-4139-bf42-e8526963e681">WM_SETTEXT</a> message directly instead of calling <b>SetWindowText</b>. 
 
 The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x09). Tab characters are displayed as vertical bar (|) characters. 
 
 
 #### Examples
 
- For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
+ For an example, see <a href="using_messages_and_message_queues.htm">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -127,7 +127,7 @@ The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x0
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a>
+<a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a>
 
 
 
@@ -135,7 +135,7 @@ The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x0
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632644(v=VS.85).aspx">WM_SETTEXT</a>
+<a href="https://msdn.microsoft.com/1b48c309-6903-4139-bf42-e8526963e681">WM_SETTEXT</a>
 
 
 

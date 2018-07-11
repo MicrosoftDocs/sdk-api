@@ -4,10 +4,10 @@ title: MulDiv function
 author: windows-sdk-content
 description: Multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
 old-location: winprog\muldiv.htm
-old-project: WinProg
+old-project: winprog
 ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_deserializer.htm
 old-project: wmi_v2
 ms.assetid: 0d2d8f3b-9567-418f-a789-a34b85c114fd
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Deserializer, MI_Deserializer structure [Windows Management Infrastructure (MI)], _MI_Deserializer, mi/MI_Deserializer, wmi_v2.mi_deserializer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -64,7 +64,7 @@ The <b>LinearGradientBrush::SetGammaCorrection</b> method specifies whether gamm
 Type: <b>BOOL</b>
 
 Boolean value that specifies whether gamma correction occurs during rendering. <b>TRUE</b> specifies that gamma correction is enabled, and <b>FALSE</b> specifies that gamma correction is not enabled. By default, gamma correction is disabled during construction of a 
-					<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> object. 
+					<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a> object. 
 
 
 ## -returns
@@ -101,11 +101,11 @@ Gamma correction is often done to match the intensity contrast of the gradient t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535330(v=VS.85).aspx">LinearGradientBrush::GetGammaCorrection</a>
+<a href="https://msdn.microsoft.com/4d233fee-8999-4a35-92c9-1d8197fb0452">LinearGradientBrush::GetGammaCorrection</a>
 
 
 

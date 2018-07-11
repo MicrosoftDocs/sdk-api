@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaEventRemoveWindowFunction.htm
 old-project: WinAuto
 ms.assetid: 5c989cbf-b55a-4576-bacc-6e9955d4707f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Accessibility], uiauto.uiauto_UiaEventRemoveWindowFunction, uiauto_UiaEventRemoveWindowFunction, uiautomationcoreapi/UiaEventRemoveWindow, winauto.uiauto_UiaEventRemoveWindowFunction
 ms.prod: windows
 ms.technology: windows-sdk

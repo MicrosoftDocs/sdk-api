@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchanges_reset.htm
 old-project: winsync
 ms.assetid: d13bee6b-ef8e-4245-89b6-d381618bdd09
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Reset method, IEnumSyncChanges.Reset, IEnumSyncChanges::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_reset, winsync/IEnumSyncChanges::Reset
 ms.prod: windows
 ms.technology: windows-sdk

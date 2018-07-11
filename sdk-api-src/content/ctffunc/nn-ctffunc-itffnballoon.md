@@ -7,7 +7,7 @@ old-location: tsf\itffnballoon.htm
 old-project: TSF
 ms.assetid: 9b79526b-b7e1-41a2-b32e-88124347d77d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfFnBalloon, ITfFnBalloon interface [Text Services Framework], ITfFnBalloon interface [Text Services Framework],described, _tsf_itffnballoon_ref, ctffunc/ITfFnBalloon, tsf.itffnballoon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Changes the style and text of a language bar balloon item.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

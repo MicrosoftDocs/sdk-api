@@ -4,10 +4,10 @@ title: "_WSD_HOST_METADATA"
 author: windows-sdk-content
 description: Provides metadata for all services hosted by a device.
 old-location: ncd\wsd_host_metadata_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: da774582-3b27-470d-9b6a-ac2b106a47b9
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_HOST_METADATA, WSD_HOST_METADATA structure, _WSD_HOST_METADATA, ncd.wsd_host_metadata_struct, wsdtypes/WSD_HOST_METADATA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

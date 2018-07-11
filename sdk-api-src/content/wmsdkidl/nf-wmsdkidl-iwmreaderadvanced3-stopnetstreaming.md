@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced3_stopnetstreaming.htm
 old-project: wmformat
 ms.assetid: e323f967-02d5-4472-a9b3-cb8a2b80070e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StopNetStreaming method, IWMReaderAdvanced3.StopNetStreaming, IWMReaderAdvanced3::StopNetStreaming, IWMReaderAdvanced3StopNetStreaming, StopNetStreaming, StopNetStreaming method [windows Media Format], StopNetStreaming method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_stopnetstreaming, wmsdkidl/IWMReaderAdvanced3::StopNetStreaming
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DsGetRdnW function
 author: windows-sdk-content
 description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
 old-location: ad\dsgetrdnw.htm
-old-project: AD
+old-project: ad
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsGetRdnW, DsGetRdnW function [Active Directory], ad.dsgetrdnw, dsparse/DsGetRdnW
 ms.prod: windows
 ms.technology: windows-sdk

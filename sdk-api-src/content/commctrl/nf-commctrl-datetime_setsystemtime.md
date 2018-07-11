@@ -4,10 +4,10 @@ title: DateTime_SetSystemtime macro
 author: windows-sdk-content
 description: Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the DTM_SETSYSTEMTIME message explicitly.
 old-location: controls\DateTime_SetSystemtime.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Controls], GDT_NONE, GDT_VALID, _win32_DateTime_SetSystemtime, _win32_DateTime_SetSystemtime_cpp, commctrl/DateTime_SetSystemtime, controls.DateTime_SetSystemtime, controls._win32_DateTime_SetSystemtime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761782(v=VS.85).aspx">DTM_SETSYSTEMTIME</a> message explicitly. 
+Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://msdn.microsoft.com/aab023ac-22ef-485b-be2f-2aa76dfcf57f">DTM_SETSYSTEMTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -105,7 +105,7 @@ Set the DTP control according to the data within the <a href="https://msdn.micro
 </td>
 <td width="60%">
 Set the DTP control to "no date" and clear its check box. When this flag is specified, 
-						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="https://msdn.microsoft.com/library/Bb761728(v=VS.85).aspx">DTS_SHOWNONE</a> style. 
+						<i>lpSysTime</i> is ignored. This flag applies only to DTP controls that are set to the <a href="Date_and_Time_Picker_Control_Styles.htm">DTS_SHOWNONE</a> style. 
 
 </td>
 </tr>

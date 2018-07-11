@@ -4,10 +4,10 @@ title: DhcpSetFilterV4 function
 author: windows-sdk-content
 description: Enables or disables the allow and deny lists on a DHCP server.
 old-location: dhcp\dhcpsetfilterv4.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 4a67ad11-1f24-4ab6-b5f7-e51c97562037
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpSetFilterV4, DhcpSetFilterV4 function [DHCP], dhcp.dhcpsetfilterv4, dhcpsapi/DhcpSetFilterV4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_setserverdrainmode.htm
 old-project: TermServ
 ms.assetid: E0213889-7CC9-446A-9EFF-7C8B02E4A35D
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerDrainMode method, ITsSbResourcePluginStore.SetServerDrainMode, ITsSbResourcePluginStore::SetServerDrainMode, SetServerDrainMode, SetServerDrainMode method [Remote Desktop Services], SetServerDrainMode method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerDrainMode, termserv.itssbresourcepluginstore_setserverdrainmode
 ms.prod: windows
 ms.technology: windows-sdk

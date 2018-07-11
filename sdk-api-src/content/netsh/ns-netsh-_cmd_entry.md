@@ -4,10 +4,10 @@ title: "_CMD_ENTRY"
 author: windows-sdk-content
 description: Defines a helper command.
 old-location: netshell\cmd_entry.htm
-old-project: NetShell
+old-project: netshell
 ms.assetid: 299962c8-8f93-4b22-a232-8230eb64cc12
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: "*PCMD_ENTRY, CMD_ENTRY, CMD_ENTRY structure [NetShell], PCMD_ENTRY, PCMD_ENTRY structure pointer [NetShell], _CMD_ENTRY, _netsh_cmd_entry, netsh/CMD_ENTRY, netsh/PCMD_ENTRY, netshell.cmd_entry"
 ms.prod: windows
 ms.technology: windows-sdk

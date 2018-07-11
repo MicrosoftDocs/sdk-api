@@ -7,7 +7,7 @@ old-location: wsw\wsaddmappedheader.htm
 old-project: wsw
 ms.assetid: f91dac8e-606e-4a9f-a598-8f8136c6b386
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsAddMappedHeader, WsAddMappedHeader function [Web Services for Windows], webservices/WsAddMappedHeader, wsw.wsaddmappedheader
 ms.prod: windows
 ms.technology: windows-sdk

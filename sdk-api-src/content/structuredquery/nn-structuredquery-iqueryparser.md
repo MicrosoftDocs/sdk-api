@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search],described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Provides methods to parse an input string into an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object.
+          Provides methods to parse an input string into an <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> object.
         
 
 
@@ -83,7 +83,7 @@ The <b>IQueryParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231352(v=VS.85).aspx">GetSchemaProvider</a>
+<a href="https://msdn.microsoft.com/18006c38-e620-40c4-9e94-e11d8636ef35">GetSchemaProvider</a>
 </td>
 <td align="left" width="63%">
 
@@ -94,16 +94,16 @@ The <b>IQueryParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231354(v=VS.85).aspx">Parse</a>
+<a href="https://msdn.microsoft.com/2ca6ddfa-821c-4d84-abbf-61d25b633180">Parse</a>
 </td>
 <td align="left" width="63%">
-Parses an input string that contains Structured Query keywords and/or contents to produce an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object.
+Parses an input string that contains Structured Query keywords and/or contents to produce an <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231355(v=VS.85).aspx">ParsePropertyValue</a>
+<a href="https://msdn.microsoft.com/f430f685-6700-4d62-84d2-b5269c704569">ParsePropertyValue</a>
 </td>
 <td align="left" width="63%">
 Parses a condition for a specified property. 
@@ -112,7 +112,7 @@ Parses a condition for a specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231356(v=VS.85).aspx">RestatePropertyValueToString</a>
+<a href="https://msdn.microsoft.com/1fa0270f-2f13-4469-bc54-7f8562789959">RestatePropertyValueToString</a>
 </td>
 <td align="left" width="63%">
 Restates a specified property for a condition as a query string. 
@@ -121,7 +121,7 @@ Restates a specified property for a condition as a query string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231357(v=VS.85).aspx">RestateToString</a>
+<a href="https://msdn.microsoft.com/9d9f57c7-43a0-4898-8495-aa10f0c87bf6">RestateToString</a>
 </td>
 <td align="left" width="63%">
 Restates a condition as a structured query string. If the condition was the result of parsing an original query string, the keywords of that query string are used to a great extent. If not, default keywords are used.
@@ -130,7 +130,7 @@ Restates a condition as a structured query string. If the condition was the resu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231358(v=VS.85).aspx">SetMultiOption</a>
+<a href="https://msdn.microsoft.com/3f1d1bed-65b9-4eec-84a0-d77719bc9540">SetMultiOption</a>
 </td>
 <td align="left" width="63%">
 
@@ -140,7 +140,7 @@ Restates a condition as a structured query string. If the condition was the resu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231359(v=VS.85).aspx">SetOption</a>
+<a href="https://msdn.microsoft.com/a7c2d4d7-7ccf-4daa-b4d5-cf23ed1e88b4">SetOption</a>
 </td>
 <td align="left" width="63%">
 
@@ -165,7 +165,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965711(v=VS.85).aspx">Advanced Query Syntax</a>
+<a href="search._search_2x_WDS_AqsReference">Advanced Query Syntax</a>
  
 
  

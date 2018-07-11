@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype_isoftype.htm
 old-project: direct3d11
 ms.assetid: 8fa1e926-a3d1-4664-b96d-b393ea74b7c5
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 46169c40-2e82-364b-2721-507603e99749, ID3D11ShaderReflectionType interface [Direct3D 11],IsOfType method, ID3D11ShaderReflectionType.IsOfType, ID3D11ShaderReflectionType::IsOfType, IsOfType, IsOfType method [Direct3D 11], IsOfType method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::IsOfType, direct3d11.id3d11shaderreflectiontype_isoftype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e2036
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if object being queried is equal to or inherits from the type in the <i>pType</i> parameter; otherwise returns S_FALSE.
 

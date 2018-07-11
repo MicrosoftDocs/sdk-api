@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_setexposurecompensation.htm
 old-project: wic
 ms.assetid: 57ee5b96-2e49-415c-b1a8-41436a761b23
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetExposureCompensation method, IWICDevelopRaw.SetExposureCompensation, IWICDevelopRaw::SetExposureCompensation, SetExposureCompensation, SetExposureCompensation method [Windows Imaging Component], SetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setexposurecompensation, wic._wic_codec_iwicdevelopraw_setexposurecompensation, wincodec/IWICDevelopRaw::SetExposureCompensation
 ms.prod: windows
 ms.technology: windows-sdk

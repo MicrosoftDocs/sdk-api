@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackthreadpool.htm
 old-project: ProcThread
 ms.assetid: A1BED20A-9DB5-4B5A-B1AD-60454176AB1D
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TpSetCallbackThreadpool, TpSetCallbackThreadpool function, base.tpsetcallbackthreadpool, winnt/TpSetCallbackThreadpool
 ms.prod: windows
 ms.technology: windows-sdk

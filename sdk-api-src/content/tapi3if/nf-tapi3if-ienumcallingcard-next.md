@@ -4,10 +4,10 @@ title: IEnumCallingCard::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallingcard_next.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: df0b4591-581b-4949-9212-ff4c92eec12c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Next method, IEnumCallingCard.Next, IEnumCallingCard::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_next, tapi3.ienumcallingcard_next, tapi3if/IEnumCallingCard::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/09787cd2-56b5-4ed2-8783-f3c53ce2cc66">ITCallingCard</a> interface returned by <b>IEnumCallingCard::Next</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/09787cd2-56b5-4ed2-8783-f3c53ce2cc66">ITCallingCard</a> interface returned by <b>IEnumCallingCard::Next</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITCallingCard</b> interface to free resources associated with it.
 
 

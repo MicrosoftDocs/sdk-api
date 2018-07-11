@@ -4,10 +4,10 @@ title: ICryptAttribute::InitializeFromObjectId
 author: windows-sdk-content
 description: Initializes a cryptographic attribute by using an object identifier.
 old-location: security\icryptattribute_initializefromobjectid_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6825cca7-c3a5-46a8-9be5-851344629929
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromObjectId method, ICryptAttribute.InitializeFromObjectId, ICryptAttribute::InitializeFromObjectId, InitializeFromObjectId, InitializeFromObjectId method [Security], InitializeFromObjectId method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromObjectId, security.icryptattribute_initializefromobjectid_method
 ms.prod: windows
 ms.technology: windows-sdk

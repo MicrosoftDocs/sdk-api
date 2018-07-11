@@ -4,10 +4,10 @@ title: IFsrmFileScreenTemplate::CopyTemplate
 author: windows-sdk-content
 description: Copies the property values of the specified template to this template.
 old-location: fsrm\ifsrmfilescreentemplate_copytemplate.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: c6c69f15-9a7c-43f4-9d68-a54c333453f5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmFileScreenTemplate interface, IFsrmFileScreenTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmFileScreenTemplate.CopyTemplate, IFsrmFileScreenTemplate::CopyTemplate, fs.ifsrmfilescreentemplate_copytemplate, fsrm.ifsrmfilescreentemplate_copytemplate, fsrmscreen/IFsrmFileScreenTemplate::CopyTemplate
 ms.prod: windows
 ms.technology: windows-sdk

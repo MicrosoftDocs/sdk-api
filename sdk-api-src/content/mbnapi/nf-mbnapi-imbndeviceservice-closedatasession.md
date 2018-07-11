@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_closedatasession.htm
 old-project: mbn
 ms.assetid: E00322FC-05DF-4342-A182-E1F4F40FBD60
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Networks], CloseDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseDataSession method, IMbnDeviceService.CloseDataSession, IMbnDeviceService::CloseDataSession, mbn.imbndeviceservice_closedatasession, mbnapi/IMbnDeviceService::CloseDataSession
 ms.prod: windows
 ms.technology: windows-sdk

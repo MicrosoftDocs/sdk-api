@@ -7,7 +7,7 @@ old-location: tsf\tsgravity.htm
 old-project: TSF
 ms.assetid: 12ec85b9-e65f-485d-8e42-164d2a988356
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: TS_GR_BACKWARD, TS_GR_FORWARD, TsGravity, TsGravity enumeration [Text Services Framework], __MIDL_IAnchor_0001, _tsf_tsgravity_ref, textstor/TS_GR_BACKWARD, textstor/TS_GR_FORWARD, textstor/TsGravity, tsf.tsgravity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,12 @@ Elements of the <b>TsGravity</b> enumeration specify the gravity type associated
 
 ### -field TS_GR_BACKWARD
 
-The anchor has backward gravity. For more information about anchor gravity, see <a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Ranges</a>.
+The anchor has backward gravity. For more information about anchor gravity, see <a href="ranges.htm">Ranges</a>.
 
 
 ### -field TS_GR_FORWARD
 
-The anchor has forward gravity. For more information about anchor gravity, see <a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Ranges</a>.
+The anchor has forward gravity. For more information about anchor gravity, see <a href="ranges.htm">Ranges</a>.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ The anchor has forward gravity. For more information about anchor gravity, see <
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 

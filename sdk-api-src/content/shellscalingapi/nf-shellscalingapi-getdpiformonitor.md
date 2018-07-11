@@ -7,7 +7,7 @@ old-location: hidpi\getdpiformonitor.htm
 old-project: hidpi
 ms.assetid: AB741D14-0BA1-4C33-91D8-1331BE96DE95
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 03/30/2018
 ms.keywords: GetDpiForMonitor, GetDpiForMonitor function [High DPI], hidpi.getdpiformonitor, shellscalingapi/GetDpiForMonitor
 ms.prod: windows
 ms.technology: windows-sdk

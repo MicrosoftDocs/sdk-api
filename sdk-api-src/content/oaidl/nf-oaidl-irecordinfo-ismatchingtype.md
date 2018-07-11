@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_ismatchingtype.htm
 old-project: automat
 ms.assetid: 3db29912-3864-4750-b255-77dcffe711cf
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IRecordInfo interface [Automation],IsMatchingType method, IRecordInfo.IsMatchingType, IRecordInfo::IsMatchingType, IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation],IRecordInfo interface, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
 ms.prod: windows
 ms.technology: windows-sdk

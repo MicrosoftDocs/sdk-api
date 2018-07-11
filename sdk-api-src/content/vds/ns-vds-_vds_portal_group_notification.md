@@ -4,10 +4,10 @@ title: "_VDS_PORTAL_GROUP_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of iSCSI portal events.
 old-location: base\vds_portal_group_notification.htm
-old-project: VDS
+old-project: vds
 ms.assetid: db4f947b-996f-4aa0-aed6-0190f00ca58a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: VDS_NF_PORTAL_GROUP_ARRIVE, VDS_NF_PORTAL_GROUP_DEPART, VDS_NF_PORTAL_GROUP_MODIFY, VDS_PORTAL_GROUP_NOTIFICATION, VDS_PORTAL_GROUP_NOTIFICATION structure [VDS], _VDS_PORTAL_GROUP_NOTIFICATION, base.vds_portal_group_notification, vds/_VDS_PORTAL_GROUP_NOTIFICATION, vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_getmixformat.htm
 old-project: CoreAudio
 ms.assetid: 63f3e593-3904-44f9-a912-78c6c98e7597
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetMixFormat, GetMixFormat method [Core Audio], GetMixFormat method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetMixFormat method, IAudioClient.GetMixFormat, IAudioClient::GetMixFormat, IAudioClientGetMixFormat, audioclient/IAudioClient::GetMixFormat, coreaudio.iaudioclient_getmixformat
 ms.prod: windows
 ms.technology: windows-sdk

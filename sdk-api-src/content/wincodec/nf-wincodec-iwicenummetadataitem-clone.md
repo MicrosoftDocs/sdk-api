@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicenummetadataitem_clone.htm
 old-project: wic
 ms.assetid: 08477910-027e-497d-a3e7-16e92f1a53e9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: Clone, Clone method [Windows Imaging Component], Clone method [Windows Imaging Component],IWICEnumMetadataItem interface, IWICEnumMetadataItem interface [Windows Imaging Component],Clone method, IWICEnumMetadataItem.Clone, IWICEnumMetadataItem::Clone, _wic_codec_iwicenummetadataitem_clone, wic._wic_codec_iwicenummetadataitem_clone, wincodec/IWICEnumMetadataItem::Clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListView_SetGroupState macro
 author: windows-sdk-content
 description: Sets the state for a specified group.
 old-location: controls\ListView_SetGroupState.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupstate.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_SetGroupState, ListView_SetGroupState macro [Windows Controls], _shell_ListView_SetGroupState, _shell_ListView_SetGroupState_cpp, commctrl/ListView_SetGroupState, controls.ListView_SetGroupState, controls._shell_ListView_SetGroupState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,14 @@ A handle to the list-view control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the group by <b>iGroupId</b> (see <a href="https://msdn.microsoft.com/library/Bb774769(v=VS.85).aspx">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a> structure).
 
 
 ### -param dwMask [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the state values to set or clear. This is a combination of the flags listed for the <b>state</b> member of <a href="https://msdn.microsoft.com/library/Bb774769(v=VS.85).aspx">LVGROUP</a>.
+Specifies the state values to set or clear. This is a combination of the flags listed for the <b>state</b> member of <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a>.
 
 
 ### -param dwState [in]
@@ -90,9 +90,9 @@ Specifies the state values to set. States that are not included here but are inc
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
-You can also set the group state by using <a href="https://msdn.microsoft.com/library/Bb775079(v=VS.85).aspx">ListView_SetGroupInfo</a>.
+You can also set the group state by using <a href="https://msdn.microsoft.com/97fb6a7e-9265-4faa-aab1-f45f87f4e76e">ListView_SetGroupInfo</a>.
 
 
 

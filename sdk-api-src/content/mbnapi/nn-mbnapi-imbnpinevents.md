@@ -7,7 +7,7 @@ old-location: mbn\imbnpinevents.htm
 old-project: mbn
 ms.assetid: 4bdaa4e5-880e-4d1f-aec1-36811a0f21c1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnPinEvents, IMbnPinEvents interface [Microsoft Broadband Networks], IMbnPinEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinevents, mbnapi/IMbnPinEvents
 ms.prod: windows
 ms.technology: windows-sdk

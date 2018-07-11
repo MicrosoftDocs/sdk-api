@@ -4,10 +4,10 @@ title: PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD
 author: windows-sdk-content
 description: Changes the password for the Cluster service user account on all available cluster nodes.
 old-location: mscs\setclusterserviceaccountpassword.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD callback, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD callback function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, mscs.setclusterserviceaccountpassword
 ms.prod: windows
 ms.technology: windows-sdk

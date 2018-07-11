@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlmodel_getdescription.htm
 old-project: MachineLearning
 ms.assetid: 57B05316-8E6B-4490-B181-EB1717B15E31
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: GetDescription, GetDescription method, GetDescription method,IWinMLModel interface, IWinMLModel interface,GetDescription method, IWinMLModel.GetDescription, IWinMLModel::GetDescription, MachineLearning.iwinmlmodel_getdescription, winml/IWinMLModel::GetDescription
 ms.prod: windows
 ms.technology: windows-sdk

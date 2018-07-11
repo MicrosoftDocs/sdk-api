@@ -4,10 +4,10 @@ title: TokenBindingGetKeyTypesClient function
 author: windows-sdk-content
 description: Retrieves a list of the key types that the client device supports.
 old-location: security\tokenbindinggetkeytypesclient.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 583687B6-5A87-4616-A5EE-4FECFF06749E
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: TokenBindingGetKeyTypesClient, TokenBindingGetKeyTypesClient function [Security], security.tokenbindinggetkeytypesclient, tokenbinding/TokenBindingGetKeyTypesClient
 ms.prod: windows
 ms.technology: windows-sdk

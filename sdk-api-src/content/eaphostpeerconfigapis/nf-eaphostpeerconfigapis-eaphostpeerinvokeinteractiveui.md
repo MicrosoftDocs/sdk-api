@@ -4,10 +4,10 @@ title: EapHostPeerInvokeInteractiveUI function
 author: windows-sdk-content
 description: Raises an interactive user interface used to get credentials from the user.
 old-location: eaphost\eaphostpeerinvokeinteractiveui.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: a4a46b77-f8ab-4062-b966-1590ea9e46d2
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostPeerInvokeInteractiveUI, EapHostPeerInvokeInteractiveUI function [EAPHost], eaphost.eaphostpeerinvokeinteractiveui, eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 
 Raises an interactive user interface used to get credentials from the user. For example, this function can be used to raise a UI that retrieves credentials from a smart card, and prompts the user to enter the corresponding PIN.
 
-<b>EapHostPeerInvokeInteractiveUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://msdn.microsoft.com/library/ms678543(v=VS.85).aspx">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://msdn.microsoft.com/library/ms688715(v=VS.85).aspx">CoUninitialize</a> must be called before exiting.
+<b>EapHostPeerInvokeInteractiveUI</b> must be called on threads that have COM initialized for <a href="Http://go.microsoft.com/fwlink/p/?linkid=83881">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="_com_CoInitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="_com_CoUninitialize">CoUninitialize</a> must be called before exiting.
 
 
 ## -parameters

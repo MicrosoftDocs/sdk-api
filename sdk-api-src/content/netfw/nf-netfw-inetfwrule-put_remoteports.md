@@ -4,10 +4,10 @@ title: INetFwRule::put_RemotePorts
 author: windows-sdk-content
 description: Specifies the list of remote ports for this rule.
 old-location: ics\inetfwrule_remoteports.htm
-old-project: ICS
+old-project: ics
 ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.put_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts, put_RemotePorts
 ms.prod: windows
 ms.technology: windows-sdk

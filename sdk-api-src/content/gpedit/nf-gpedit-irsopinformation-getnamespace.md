@@ -4,10 +4,10 @@ title: IRSOPInformation::GetNamespace
 author: windows-sdk-content
 description: The GetNameSpace method retrieves the namespace from which the RSoP data is being displayed.
 old-location: policy\irsopinformation_getnamespace.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 3575072c-88d7-482c-bc8b-dca9f6d68577
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetNameSpace method [Group Policy], GetNameSpace method [Group Policy],IRSOPInformation interface, GetNamespace, IRSOPInformation interface [Group Policy],GetNameSpace method, IRSOPInformation.GetNamespace, IRSOPInformation::GetNameSpace, IRSOPInformation::GetNamespace, _win32_irsopinformation_getnamespace, gpedit/IRSOPInformation::GetNameSpace, policy.irsopinformation_getnamespace
 ms.prod: windows
 ms.technology: windows-sdk

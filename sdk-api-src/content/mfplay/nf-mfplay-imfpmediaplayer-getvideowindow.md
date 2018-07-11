@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getvideowindow.htm
 old-project: medfound
 ms.assetid: 313e3a87-3dad-4cfb-ad37-1018cb03a707
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoWindow method, IMFPMediaPlayer.GetVideoWindow, IMFPMediaPlayer::GetVideoWindow, mf.imfpmediaplayer_getvideowindow, mfplay/IMFPMediaPlayer::GetVideoWindow
 ms.prod: windows
 ms.technology: windows-sdk

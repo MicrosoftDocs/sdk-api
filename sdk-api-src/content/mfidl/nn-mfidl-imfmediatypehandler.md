@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler.htm
 old-project: medfound
 ms.assetid: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], IMFMediaTypeHandler interface [Media Foundation],described, mf.imfmediatypehandler, mfidl/IMFMediaTypeHandler
 ms.prod: windows
 ms.technology: windows-sdk

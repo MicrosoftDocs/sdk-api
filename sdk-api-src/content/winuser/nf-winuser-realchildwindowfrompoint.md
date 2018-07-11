@@ -7,7 +7,7 @@ old-location: winmsg\realchildwindowfrompoint.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\realchildwindowfrompoint.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: RealChildWindowFromPoint, RealChildWindowFromPoint function [Windows and Messages], _win32_RealChildWindowFromPoint, _win32_realchildwindowfrompoint_cpp, winmsg.realchildwindowfrompoint, winui._win32_realchildwindowfrompoint, winuser/RealChildWindowFromPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -91,7 +91,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<b>RealChildWindowFromPoint</b> treats <b>HTTRANSPARENT</b> areas of a standard control differently from other areas of the control; it returns the child window behind a transparent part of a control. In contrast, <a href="https://msdn.microsoft.com/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a> treats <b>HTTRANSPARENT</b> areas of a control the same as other areas. For example, if the point is in a transparent area of a groupbox, <b>RealChildWindowFromPoint</b> returns the child window behind a groupbox, whereas <b>ChildWindowFromPoint</b> returns the groupbox. However, both APIs return a static field, even though it, too, returns <b>HTTRANSPARENT</b>.
+<b>RealChildWindowFromPoint</b> treats <b>HTTRANSPARENT</b> areas of a standard control differently from other areas of the control; it returns the child window behind a transparent part of a control. In contrast, <a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a> treats <b>HTTRANSPARENT</b> areas of a control the same as other areas. For example, if the point is in a transparent area of a groupbox, <b>RealChildWindowFromPoint</b> returns the child window behind a groupbox, whereas <b>ChildWindowFromPoint</b> returns the groupbox. However, both APIs return a static field, even though it, too, returns <b>HTTRANSPARENT</b>.
 
 
 
@@ -101,7 +101,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a>
 
 
 

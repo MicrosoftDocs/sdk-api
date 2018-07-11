@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntime_createevaluationcontext.htm
 old-project: MachineLearning
 ms.assetid: 629D49AF-0AD9-4741-9A59-4B83F521723A
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: CreateEvaluationContext, CreateEvaluationContext method, CreateEvaluationContext method,IWinMLRuntime interface, IWinMLRuntime interface,CreateEvaluationContext method, IWinMLRuntime.CreateEvaluationContext, IWinMLRuntime::CreateEvaluationContext, MachineLearning.iwinmlruntime_createevaluationcontext, winml/IWinMLRuntime::CreateEvaluationContext
 ms.prod: windows
 ms.technology: windows-sdk

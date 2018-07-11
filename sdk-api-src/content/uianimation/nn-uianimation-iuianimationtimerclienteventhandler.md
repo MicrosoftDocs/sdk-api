@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerclienteventhandler.htm
 old-project: UIAnimation
 ms.assetid: 8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationTimerClientEventHandler, IUIAnimationTimerClientEventHandler interface [Windows Animation], IUIAnimationTimerClientEventHandler interface [Windows Animation],described, uianimation.iuianimationtimerclienteventhandler, uianimation/IUIAnimationTimerClientEventHandler
 ms.prod: windows
 ms.technology: windows-sdk

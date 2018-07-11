@@ -4,10 +4,10 @@ title: RpcBindingSetAuthInfoW function
 author: windows-sdk-content
 description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
 old-location: rpc\rpcbindingsetauthinfo.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: InternetFindNextFileW function
 author: windows-sdk-content
 description: Continues a file search started as a result of a previous call to FtpFindFirstFile.Windows XP and Windows Server 2003 R2 and earlier:  Or continues a file search as a result of a previous call to GopherFindFirstFile.
 old-location: wininet\internetfindnextfile.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 7c53e399-b8a5-4cc0-9ef6-88d9a525d87f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: InternetFindNextFile, InternetFindNextFile function [WinINet], InternetFindNextFileA, InternetFindNextFileW, _inet_internetfindnextfile_function, wininet.internetfindnextfile, wininet/InternetFindNextFile, wininet/InternetFindNextFileA, wininet/InternetFindNextFileW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_GET_RECORD_COUNT_FN
 author: windows-sdk-content
 description: Retrieves the number of template records in the pipeline result set.
 old-location: secbiomet\storageadaptergetrecordcount.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: dc7891c3-33f7-498c-acb1-4687909debb7
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_GET_RECORD_COUNT_FN, PIBIO_STORAGE_GET_RECORD_COUNT_FN callback, StorageAdapterGetRecordCount, StorageAdapterGetRecordCount callback function [Windows Biometric Framework API], secbiomet.storageadaptergetrecordcount, winbio_adapter/StorageAdapterGetRecordCount
 ms.prod: windows
 ms.technology: windows-sdk

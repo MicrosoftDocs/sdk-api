@@ -4,10 +4,10 @@ title: "_WSD_RESOLVE"
 author: windows-sdk-content
 description: Represents a Resolve message.
 old-location: ncd\wsd_resolve_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: f969f249-6c1e-4c0c-8da6-ec7069b06e20
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_RESOLVE, WSD_RESOLVE structure, _WSD_RESOLVE, ncd.wsd_resolve_struct, wsdtypes/WSD_RESOLVE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

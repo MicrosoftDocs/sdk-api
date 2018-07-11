@@ -4,10 +4,10 @@ title: IOfflineFilesSetting::GetPolicy
 author: windows-sdk-content
 description: Retrieves a policy associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpolicy.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: b7f7f8f5-2640-4770-a7ba-230cca8a9575
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: GetPolicy, GetPolicy method [Offline Files], GetPolicy method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicy method, IOfflineFilesSetting.GetPolicy, IOfflineFilesSetting::GetPolicy, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicy, of.iofflinefilessetting_getpolicy
 ms.prod: windows
 ms.technology: windows-sdk

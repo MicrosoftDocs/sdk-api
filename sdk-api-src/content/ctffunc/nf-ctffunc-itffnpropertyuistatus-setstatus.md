@@ -7,7 +7,7 @@ old-location: tsf\itffnpropertyuistatus_setstatus.htm
 old-project: TSF
 ms.assetid: 817329fb-521a-426a-88d8-b36ee161b6b9
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfFnPropertyUIStatus interface [Text Services Framework],SetStatus method, ITfFnPropertyUIStatus.SetStatus, ITfFnPropertyUIStatus::SetStatus, SetStatus, SetStatus method [Text Services Framework], SetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, _tsf_itffnpropertyuistatus_setstatus_ref, ctffunc/ITfFnPropertyUIStatus::SetStatus, tsf.itffnpropertyuistatus_setstatus
 ms.prod: windows
 ms.technology: windows-sdk

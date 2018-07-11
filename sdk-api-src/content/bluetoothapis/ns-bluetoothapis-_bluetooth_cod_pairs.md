@@ -4,10 +4,10 @@ title: "_BLUETOOTH_COD_PAIRS"
 author: windows-sdk-content
 description: The BLUETOOTH_COD_PAIRS structure provides for specification and retrieval of Bluetooth Class Of Device (COD) information.
 old-location: bluetooth\bluetooth_cod_pairs.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _BLUETOOTH_COD_PAIRS, _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
 ms.prod: windows
 ms.technology: windows-sdk

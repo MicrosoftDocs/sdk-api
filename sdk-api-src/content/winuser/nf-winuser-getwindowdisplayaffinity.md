@@ -7,7 +7,7 @@ old-location: winmsg\getwindowdisplayaffinity.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowdisplayaffinity.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetWindowDisplayAffinity, GetWindowDisplayAffinity function [Windows and Messages], _win32_GetWindowDisplayAffinity, _win32_getwindowdisplayaffinity_cpp, winmsg.getwindowdisplayaffinity, winui._win32_getwindowdisplayaffinity, winuser/GetWindowDisplayAffinity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -108,15 +108,15 @@ This function succeeds only when the window is layered and Desktop Windows Manag
 		
 
 
-		This function and <a href="https://msdn.microsoft.com/library/Dd375340(v=VS.85).aspx">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
+		This function and <a href="https://msdn.microsoft.com/fb6c50e1-3051-4881-bd94-46c1206ff4ab">SetWindowDisplayAffinity</a> are designed to support the window content protection feature unique to Windows 7. This feature enables applications to protect their
 		own onscreen window content from being captured or copied via a specific set of public operating system features 
 		and APIs. However, it works only when the Desktop Window Manager (DWM) is composing the desktop. 
 		
 
 
 		It is important to note that unlike a security feature or an implementation of Digital Rights Management (DRM), there is no guarantee that 
-		 using <a href="https://msdn.microsoft.com/library/Dd375340(v=VS.85).aspx">SetWindowDisplayAffinity</a> 
-		and <b>GetWindowDisplayAffinity</b>, and other necessary functions such as <a href="https://msdn.microsoft.com/library/Aa969518(v=VS.85).aspx">DwmIsCompositionEnabled</a>, will strictly protect windowed content, as in the case where someone takes a photograph of the screen.
+		 using <a href="https://msdn.microsoft.com/fb6c50e1-3051-4881-bd94-46c1206ff4ab">SetWindowDisplayAffinity</a> 
+		and <b>GetWindowDisplayAffinity</b>, and other necessary functions such as <a href="https://msdn.microsoft.com/31edec77-9869-4585-838d-93b2fcab31a5">DwmIsCompositionEnabled</a>, will strictly protect windowed content, as in the case where someone takes a photograph of the screen.
 		
 
 

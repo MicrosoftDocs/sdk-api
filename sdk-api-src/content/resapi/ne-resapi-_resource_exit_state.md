@@ -4,10 +4,10 @@ title: "_RESOURCE_EXIT_STATE"
 author: windows-sdk-content
 description: Enumerates the possible exit states of a resource.
 old-location: mscs\resource_exit_state.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d1b9fd8f-7d49-4396-8f0c-6db8fad5749e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: RESOURCE_EXIT_STATE, RESOURCE_EXIT_STATE enumeration [Failover Cluster], ResourceExitStateContinue, ResourceExitStateMax, ResourceExitStateTerminate, _RESOURCE_EXIT_STATE, mscs.resource_exit_state, resapi/RESOURCE_EXIT_STATE, resapi/ResourceExitStateContinue, resapi/ResourceExitStateMax, resapi/ResourceExitStateTerminate
 ms.prod: windows
 ms.technology: windows-sdk

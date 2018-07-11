@@ -7,7 +7,7 @@ old-location: mf\imfmediaerror_seterrorcode.htm
 old-project: medfound
 ms.assetid: 0CEFC8A5-CCEA-43CF-80AB-C9862B0DAEDA
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaError interface [Media Foundation],SetErrorCode method, IMFMediaError.SetErrorCode, IMFMediaError::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaError interface, mf.imfmediaerror_seterrorcode, mfmediaengine/IMFMediaError::SetErrorCode
 ms.prod: windows
 ms.technology: windows-sdk

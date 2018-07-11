@@ -4,10 +4,10 @@ title: IEnumCERTVIEWROW::EnumCertViewAttribute
 author: windows-sdk-content
 description: Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewattribute.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 53a70f66-3805-429e-8ef6-01b00b666b72
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: EnumCertViewAttribute, EnumCertViewAttribute method [Security], EnumCertViewAttribute method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewAttribute method, IEnumCERTVIEWROW.EnumCertViewAttribute, IEnumCERTVIEWROW::EnumCertViewAttribute, _certsrv_ienumcertviewrow_enumcertviewattribute, certview/IEnumCERTVIEWROW::EnumCertViewAttribute, security.ienumcertviewrow_enumcertviewattribute
 ms.prod: windows
 ms.technology: windows-sdk

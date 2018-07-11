@@ -4,10 +4,10 @@ title: MprAdminInterfaceDisconnect function
 author: windows-sdk-content
 description: The MprAdminInterfaceDisconnect function disconnects a connected WAN interface.
 old-location: rras\mpradmininterfacedisconnect.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 32499e2f-9c67-4314-adbf-75482a9d511e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminInterfaceDisconnect, MprAdminInterfaceDisconnect function [RAS], _mpr_mpradmininterfacedisconnect, mprapi/MprAdminInterfaceDisconnect, rras.mpradmininterfacedisconnect
 ms.prod: windows
 ms.technology: windows-sdk

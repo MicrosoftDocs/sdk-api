@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getformattedtext.htm
 old-project: TSF
 ms.assetid: 2b104b0a-b900-4acb-801e-d9716e3a0146
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetFormattedText method, ITextStoreAnchor.GetFormattedText, ITextStoreAnchor::GetFormattedText, textstor/ITextStoreAnchor::GetFormattedText, tsf.itextstoreanchor_getformattedtext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Anchor position at which to end retrieval of formatted text.
 
 ### -param ppDataObject [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object that contains the formatted text.
+Pointer to the <a href="_ole_idataobject">IDataObject</a> object that contains the formatted text.
 
 
 ## -returns
@@ -149,7 +149,7 @@ Text, embedded objects, and any formatting are wrapped into a single <b>IDataObj
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

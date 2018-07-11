@@ -4,10 +4,10 @@ title: IX509EnrollmentWebClassFactory
 author: windows-sdk-content
 description: Can be used to create any of the following objects on a webpage.
 old-location: security\ix509enrollmentwebclassfactory.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: f779c197-8467-481a-abf5-d3fd3ac90ba7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509EnrollmentWebClassFactory, IX509EnrollmentWebClassFactory interface [Security], IX509EnrollmentWebClassFactory interface [Security],described, certenroll/IX509EnrollmentWebClassFactory, security.ix509enrollmentwebclassfactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ The <a href="https://msdn.microsoft.com/e865e499-1bfe-45c3-aeb3-3936f9173fd5">Cr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentWebClassFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509EnrollmentWebClassFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentWebClassFactory</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509EnrollmentWebClassFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -153,7 +153,7 @@ Can be used to create an object from a webpage.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

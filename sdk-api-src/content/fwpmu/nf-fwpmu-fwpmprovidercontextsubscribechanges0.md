@@ -4,10 +4,10 @@ title: FwpmProviderContextSubscribeChanges0 function
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding changes in a particular provider context.
 old-location: fwp\fwpmprovidercontextsubscribechanges0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: cd8c9ec5-c93c-45e5-8a91-88bd89e465d7
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmProviderContextSubscribeChanges0, FwpmProviderContextSubscribeChanges0 function [Filtering], fwp.fwpmprovidercontextsubscribechanges0_func, fwpmu/FwpmProviderContextSubscribeChanges0
 ms.prod: windows
 ms.technology: windows-sdk

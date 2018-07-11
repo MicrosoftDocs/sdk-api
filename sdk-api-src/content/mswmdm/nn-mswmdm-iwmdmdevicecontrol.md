@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol.htm
 old-project: WMDM
 ms.assetid: e7b58957-4795-461f-ae3d-fb80e6711c9f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMDeviceControl, IWMDMDeviceControl interface [windows Media Device Manager], IWMDMDeviceControl interface [windows Media Device Manager],described, IWMDMDeviceControlInterface, mswmdm/IWMDMDeviceControl, wmdm.iwmdmdevicecontrol
 ms.prod: windows
 ms.technology: windows-sdk

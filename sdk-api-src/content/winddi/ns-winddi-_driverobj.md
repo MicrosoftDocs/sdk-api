@@ -7,7 +7,7 @@ old-location: display\driverobj.htm
 old-project: display
 ms.assetid: 313ee1bf-ee0c-4283-b5e1-5bbabb944a4a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DRIVEROBJ, DRIVEROBJ structure [Display Devices], _DRIVEROBJ, display.driverobj, grstrcts_8b5c3216-cbe0-4ddf-97b3-c54b39f996cb.xml, winddi/DRIVEROBJ
 ms.prod: windows
 ms.technology: windows-sdk

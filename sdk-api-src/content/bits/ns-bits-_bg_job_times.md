@@ -4,10 +4,10 @@ title: "_BG_JOB_TIMES"
 author: windows-sdk-content
 description: The BG_JOB_TIMES structure provides job-related time stamps.
 old-location: bits\bg_job_times.htm
-old-project: Bits
+old-project: bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _BG_JOB_TIMES, _drz_bg_job_times, bits.bg_job_times, bits/BG_JOB_TIMES
 ms.prod: windows
 ms.technology: windows-sdk

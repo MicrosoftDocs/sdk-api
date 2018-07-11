@@ -4,10 +4,10 @@ title: NetDfsRemoveRootTarget function
 author: windows-sdk-content
 description: Removes a DFS root target from a domain-based DFS namespace. If the root target is the last root target in the DFS namespace, this function removes the DFS namespace. This function can also be used to remove a stand-alone DFS namespace.
 old-location: dfs\netdfsremoveroottarget.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: 9a8c78f4-3170-4568-940c-1c51aebad3ae
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DFS_FORCE_REMOVE, NetDfsRemoveRootTarget, NetDfsRemoveRootTarget function [Distributed File System], dfs.netdfsremoveroottarget, fs.netdfsremoveroottarget, lmdfs/NetDfsRemoveRootTarget
 ms.prod: windows
 ms.technology: windows-sdk

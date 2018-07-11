@@ -7,7 +7,7 @@ old-location: wsw\wsgetsecuritycontextproperty.htm
 old-project: wsw
 ms.assetid: 7ef32fbe-0b50-4ede-96af-075137df340d
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
 ms.prod: windows
 ms.technology: windows-sdk

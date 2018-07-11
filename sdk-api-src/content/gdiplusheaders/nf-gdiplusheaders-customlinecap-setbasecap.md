@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CustomLineCap::SetBaseCap</b> method sets the <a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a> that appears as part of this <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a> at the end of a line.
+The <b>CustomLineCap::SetBaseCap</b> method sets the <a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a> that appears as part of this <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> at the end of a line.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>CustomLineCap::SetBaseCap</b> method sets the <a href="https://msdn.micro
 
 ### -param baseCap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a> enumeration that specifies the line cap used on the ends of the line to be drawn. 
+Element of the <a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a> enumeration that specifies the line cap used on the ends of the line to be drawn. 
 
 
 ## -returns
@@ -85,19 +85,19 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a>
+<a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a>
+<a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 

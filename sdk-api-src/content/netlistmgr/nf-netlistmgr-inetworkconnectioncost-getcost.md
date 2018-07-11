@@ -4,10 +4,10 @@ title: INetworkConnectionCost::GetCost
 author: windows-sdk-content
 description: GetCost method retrieves the network cost associated with a connection.
 old-location: nla\inetworkconnectioncost_getcost.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 66D5FC1A-054C-406E-BEC3-CA62EA09CDF1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetCost method, INetworkConnectionCost.GetCost, INetworkConnectionCost::GetCost, netlistmgr/INetworkConnectionCost::GetCost, nla.inetworkconnectioncost_getcost
 ms.prod: windows
 ms.technology: windows-sdk

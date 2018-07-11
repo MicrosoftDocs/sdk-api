@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_openmoniker.htm
 old-project: DirectShow
 ms.assetid: ccfed197-6637-4283-9996-56049da49b84
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenMoniker method, IAMMultiMediaStream.OpenMoniker, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
 ms.prod: windows
 ms.technology: windows-sdk

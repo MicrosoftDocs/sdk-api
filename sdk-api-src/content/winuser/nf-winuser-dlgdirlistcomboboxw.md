@@ -4,10 +4,10 @@ title: DlgDirListComboBoxW function
 author: windows-sdk-content
 description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
 old-location: controls\DlgDirListComboBox.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirListComboBox, DlgDirListComboBox function [Windows Controls], DlgDirListComboBoxA, DlgDirListComboBoxW, _win32_DlgDirListComboBox, _win32_DlgDirListComboBox_cpp, controls.DlgDirListComboBox, controls._win32_DlgDirListComboBox, winuser/DlgDirListComboBox, winuser/DlgDirListComboBoxA, winuser/DlgDirListComboBoxW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -192,7 +192,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the combo box. If this flag is not set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
+If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/5357de37-1e44-4e4a-bdae-b5a386032dd4">PostMessage</a> function to send messages to the combo box. If this flag is not set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function.
 
 </td>
 </tr>
@@ -221,11 +221,11 @@ If the function fails, the return value is zero. For example, if the string spec
 
 If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes the current directory to the specified directory before filling the combo box. The text of the static control identified by the	<i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
 
-<b>DlgDirListComboBox</b> sends the <a href="https://msdn.microsoft.com/library/Bb775878(v=VS.85).aspx">CB_RESETCONTENT</a> and <a href="https://msdn.microsoft.com/library/Bb775832(v=VS.85).aspx">CB_DIR</a> messages to the combo box. 
+<b>DlgDirListComboBox</b> sends the <a href="https://msdn.microsoft.com/55203c34-87ca-46e9-a914-a480d43ccadd">CB_RESETCONTENT</a> and <a href="https://msdn.microsoft.com/6082d12c-0af4-4a99-98c0-6a98d171f4d8">CB_DIR</a> messages to the combo box. 
 
 Microsoft Windows NT 4.0 and later: If <i>uFiletype</i> includes the DDL_DIRECTORY flag and <i>lpPathSpec</i> specifies a first-level directory, such as C:\TEMP, the combo box will always include a ".." entry for the root directory. This is true even if the root directory has hidden or system attributes and the DDL_HIDDEN and DDL_SYSTEM flags are not specified. The root directory of an NTFS volume has hidden and system attributes. 
 
-<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writeable buffer, or a buffer without a null-termination. You should review the <a href="https://msdn.microsoft.com/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writeable buffer, or a buffer without a null-termination. You should review the <a href="https://msdn.microsoft.com/d5396fa1-452e-40e1-beaf-ae04690048f1">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 Microsoft Windows NT 4.0 and later: The list displays long file names, if any.
 
@@ -241,11 +241,11 @@ Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft L
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761366(v=VS.85).aspx">DlgDirList</a>
+<a href="https://msdn.microsoft.com/dd261232-4f6e-437c-b3d7-f1980e47a14b">DlgDirList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775937(v=VS.85).aspx">DlgDirSelectComboBoxEx</a>
+<a href="https://msdn.microsoft.com/c7b1e071-1e36-4903-8fb1-dab2ee7af519">DlgDirSelectComboBoxEx</a>
 
 
 

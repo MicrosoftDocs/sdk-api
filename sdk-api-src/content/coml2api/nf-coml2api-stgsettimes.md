@@ -4,10 +4,10 @@ title: StgSetTimes function
 author: windows-sdk-content
 description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.
 old-location: stg\stgsettimes.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgsettimes, coml2api/StgSetTimes, stg.stgsettimes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,8 @@ Pointer to the new value for the modification time.
 
 
 The <b>StgSetTimes</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>.
 
 
 

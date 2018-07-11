@@ -7,7 +7,7 @@ old-location: dwm\dwmunregisterthumbnail.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmunregisterthumbnail.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmUnregisterThumbnail, DwmUnregisterThumbnail function [Desktop Window Manager], _udwm_dwmunregisterthumbnail, _udwm_dwmunregisterthumbnail_cpp, dwm.dwmunregisterthumbnail, dwmapi/DwmUnregisterThumbnail, winui._udwm_dwmunregisterthumbnail
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Removes a Desktop Window Manager (DWM) thumbnail relationship created by the <a href="https://msdn.microsoft.com/library/Aa969521(v=VS.85).aspx">DwmRegisterThumbnail</a> function.
+Removes a Desktop Window Manager (DWM) thumbnail relationship created by the <a href="https://msdn.microsoft.com/0105b167-9cf0-420d-88a1-2b99cabb4734">DwmRegisterThumbnail</a> function.
 
 
 ## -parameters
@@ -87,19 +87,19 @@ Unregistering DWM thumbnail relationships must be done within the process that r
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
+<a href="https://msdn.microsoft.com/6d71fcda-0cf0-463c-8c60-0415109d154f">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
+<a href="https://msdn.microsoft.com/fb1e0f1e-a6db-4961-bfa5-9c2218f8c950">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969520(v=VS.85).aspx">DwmQueryThumbnailSourceSize</a>
+<a href="https://msdn.microsoft.com/279be12c-e993-46e2-aaf8-19747809cb41">DwmQueryThumbnailSourceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969526(v=VS.85).aspx">DwmUpdateThumbnailProperties</a>
+<a href="https://msdn.microsoft.com/02c40cda-b87c-44c5-bcc5-3d0e83b7b14b">DwmUpdateThumbnailProperties</a>
  
 
  

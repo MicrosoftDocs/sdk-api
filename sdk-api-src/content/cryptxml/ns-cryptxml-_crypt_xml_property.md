@@ -4,10 +4,10 @@ title: "_CRYPT_XML_PROPERTY"
 author: windows-sdk-content
 description: Contains information about a CryptXML property.
 old-location: security\crypt_xml_property.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 287c205a-56ba-40ae-a664-9bccef2e9655
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY, CRYPT_XML_PROPERTY structure [Security], PCRYPT_XML_PROPERTY, PCRYPT_XML_PROPERTY structure pointer [Security], _CRYPT_XML_PROPERTY, cryptxml/CRYPT_XML_PROPERTY, cryptxml/PCRYPT_XML_PROPERTY, security.crypt_xml_property"
 ms.prod: windows
 ms.technology: windows-sdk

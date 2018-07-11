@@ -4,10 +4,10 @@ title: NetEnumerateServiceAccounts function
 author: windows-sdk-content
 description: Enumerates the standalone managed service accounts (sMSA) on the specified server.
 old-location: security\netenumerateserviceaccounts.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 048116b6-1bae-4dcc-9bd0-a466c395e5d8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: NetEnumerateServiceAccounts, NetEnumerateServiceAccounts function [Security], lmaccess/NetEnumerateServiceAccounts, security.netenumerateserviceaccounts
 ms.prod: windows
 ms.technology: windows-sdk

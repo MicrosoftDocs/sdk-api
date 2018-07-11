@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Help.htm
 old-project: shell
 ms.assetid: 9460C87E-6703-4df6-A84C-8D394E0E6703
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: Help, Help method [Windows Shell], Help method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Help method, IShellDispatch.Help, IShellDispatch::Help, shell.IShellDispatch_Help
 ms.prod: windows
 ms.technology: windows-sdk

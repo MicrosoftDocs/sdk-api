@@ -7,7 +7,7 @@ old-location: automat\safearrayunaccessdata.htm
 old-project: automat
 ms.assetid: 61b482cb-f0a3-4efb-9a68-f373f241e89a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SafeArrayUnaccessData, SafeArrayUnaccessData function [Automation], _oa96_SafeArrayUnaccessData, automat.safearrayunaccessdata, oleauto/SafeArrayUnaccessData
 ms.prod: windows
 ms.technology: windows-sdk

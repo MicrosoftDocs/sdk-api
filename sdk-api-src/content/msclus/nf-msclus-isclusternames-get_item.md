@@ -4,10 +4,10 @@ title: ISClusterNames::get_Item
 author: windows-sdk-content
 description: Returns a name of a cluster from the ClusterNames collection.
 old-location: mscs\clusternames_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c54eceef-4814-4161-8ad6-9323fdb16503
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISClusterNames collection [Failover Cluster],Item property, ISClusterNames.Item, ISClusterNames.get_Item, ISClusterNames::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ISClusterNames collection, _wolf_clusternames.item, get_Item, mscs.clusternames_item
 ms.prod: windows
 ms.technology: windows-sdk

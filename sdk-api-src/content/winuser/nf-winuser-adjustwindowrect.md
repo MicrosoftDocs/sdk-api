@@ -7,7 +7,7 @@ old-location: winmsg\adjustwindowrect.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\adjustwindowrect.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: AdjustWindowRect, AdjustWindowRect function [Windows and Messages], _win32_AdjustWindowRect, _win32_adjustwindowrect_cpp, winmsg.adjustwindowrect, winui._win32_adjustwindowrect, winuser/AdjustWindowRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -51,9 +51,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Calculates the required size of the window rectangle, based on the desired client-rectangle size. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> function to create a window whose client area is the desired size.
+Calculates the required size of the window rectangle, based on the desired client-rectangle size. The window rectangle can then be passed to the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> function to create a window whose client area is the desired size.
 
-To specify an extended window style, use the <a href="https://msdn.microsoft.com/library/ms632667(v=VS.85).aspx">AdjustWindowRectEx</a> function.
+To specify an extended window style, use the <a href="https://msdn.microsoft.com/213b0892-7fb5-46fe-b873-24cb6c3ffca2">AdjustWindowRectEx</a> function.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
+The <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window style</a> of the window whose required size is to be calculated. Note that you cannot specify the <b>WS_OVERLAPPED</b> style. 
 
 
 ### -param bMenu [in]
@@ -114,7 +114,7 @@ The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>W
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632667(v=VS.85).aspx">AdjustWindowRectEx</a>
+<a href="https://msdn.microsoft.com/213b0892-7fb5-46fe-b873-24cb6c3ffca2">AdjustWindowRectEx</a>
 
 
 
@@ -122,7 +122,7 @@ The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>W
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
 
 
 

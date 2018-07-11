@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingunregister.htm
 old-project: tracelogging
 ms.assetid: 4A0217E4-D633-4A6F-B1EE-6A3B2A644DBB
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 04/27/2018
 ms.keywords: TraceLoggingUnregister, TraceLoggingUnregister function, tracelogging.traceloggingunregister, traceloggingprovider/TraceLoggingUnregister
 ms.prod: windows
 ms.technology: windows-sdk

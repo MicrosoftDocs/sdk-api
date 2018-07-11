@@ -4,10 +4,10 @@ title: "_DHCP_BOOTP_IP_RANGE"
 author: windows-sdk-content
 description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.
 old-location: dhcp\dhcp_bootp_ip_range.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE structure [DHCP], LPDHCP_BOOT_IP_RANGE, LPDHCP_BOOT_IP_RANGE structure pointer [DHCP], _DHCP_BOOTP_IP_RANGE, dhcp.dhcp_bootp_ip_range, dhcpsapi/LPDHCP_BOOT_IP_RANGE, dhcpsapi/_DHCP_BOOTP_IP_RANGE"
 ms.prod: windows
 ms.technology: windows-sdk

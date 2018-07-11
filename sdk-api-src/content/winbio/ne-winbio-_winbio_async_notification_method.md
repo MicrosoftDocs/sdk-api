@@ -4,10 +4,10 @@ title: "_WINBIO_ASYNC_NOTIFICATION_METHOD"
 author: windows-sdk-content
 description: Defines constants that specify how completion notifications for asynchronous operations are to be delivered to the client application.
 old-location: secbiomet\winbio_async_notification_method.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 3256B178-DF12-4448-B775-CE419F793597
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: "*PWINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD, WINBIO_ASYNC_NOTIFICATION_METHOD enumeration [Windows Biometric Framework API], WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, WINBIO_ASYNC_NOTIFY_MESSAGE, WINBIO_ASYNC_NOTIFY_NONE, _WINBIO_ASYNC_NOTIFICATION_METHOD, secbiomet.winbio_async_notification_method, winbio/WINBIO_ASYNC_NOTIFICATION_METHOD, winbio/WINBIO_ASYNC_NOTIFY_CALLBACK, winbio/WINBIO_ASYNC_NOTIFY_MAXIMUM_VALUE, winbio/WINBIO_ASYNC_NOTIFY_MESSAGE, winbio/WINBIO_ASYNC_NOTIFY_NONE"
 ms.prod: windows
 ms.technology: windows-sdk

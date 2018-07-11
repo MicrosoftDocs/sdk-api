@@ -4,10 +4,10 @@ title: "_DHCP_MIB_INFO"
 author: windows-sdk-content
 description: Defines information returned from the DHCP-specific SNMP Management Information Block (MIB) about the current DHCP service.
 old-location: dhcp\dhcp_mib_info.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 58f3e3a3-8246-48ff-be45-20a7eed1ed0e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_MIB_INFO, DHCP_MIB_INFO, DHCP_MIB_INFO structure [DHCP], LPDHCP_MIB_INFO, LPDHCP_MIB_INFO structure pointer [DHCP], _DHCP_MIB_INFO, dhcp.dhcp_mib_info, dhcpsapi/LPDHCP_MIB_INFO, dhcpsapi/_DHCP_MIB_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

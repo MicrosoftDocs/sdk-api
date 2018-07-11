@@ -4,10 +4,10 @@ title: INetFwRemoteAdminSettings::get_Enabled
 author: windows-sdk-content
 description: Indicates whether remote administration is enabled..
 old-location: ics\inetfwremoteadminsettings_enabled.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 3f8affb4-0f71-4687-836b-f4fc484a258d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRemoteAdminSettings interface, INetFwRemoteAdminSettings interface [ICS/ICF],Enabled property, INetFwRemoteAdminSettings.Enabled, INetFwRemoteAdminSettings.get_Enabled, INetFwRemoteAdminSettings::Enabled, INetFwRemoteAdminSettings::get_Enabled, INetFwRemoteAdminSettings::put_Enabled, get_Enabled, ics.inetfwremoteadminsettings_enabled, netfw/INetFwRemoteAdminSettings::Enabled, netfw/INetFwRemoteAdminSettings::get_Enabled, netfw/INetFwRemoteAdminSettings::put_Enabled
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_FsrmPropertyBagField"
 author: windows-sdk-content
 description: Describes the type of property bag.
 old-location: fsrm\fsrmpropertybagfield.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 7a8cd6a6-7933-4190-b4fc-1b1cd653bd14
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FsrmPropertyBagField, FsrmPropertyBagField enumeration [File Server Resource Manager], FsrmPropertyBagField_AccessVolume, FsrmPropertyBagField_VolumeGuidName, _FsrmPropertyBagField, fs.fsrmpropertybagfield, fsrm.fsrmpropertybagfield, fsrmenums/FsrmPropertyBagField, fsrmenums/FsrmPropertyBagField_AccessVolume, fsrmenums/FsrmPropertyBagField_VolumeGuidName
 ms.prod: windows
 ms.technology: windows-sdk

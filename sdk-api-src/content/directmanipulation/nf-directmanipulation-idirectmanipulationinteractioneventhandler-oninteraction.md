@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationinteractioneventhandler_onin
 old-project: directmanipulation
 ms.assetid: 75822986-5691-4E2B-B6DB-A91D98B39BE8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IDirectManipulationInteractionEventHandler interface [Direct Manipulation],OnInteraction method, IDirectManipulationInteractionEventHandler.OnInteraction, IDirectManipulationInteractionEventHandler::OnInteraction, OnInteraction, OnInteraction method [Direct Manipulation], OnInteraction method [Direct Manipulation],IDirectManipulationInteractionEventHandler interface, directmanipulation.idirectmanipulationinteractioneventhandler_oninteraction, directmanipulation/IDirectManipulationInteractionEventHandler::OnInteraction
 ms.prod: windows
 ms.technology: windows-sdk

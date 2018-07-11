@@ -7,7 +7,7 @@ old-location: display\htui_devicecoloradjustment.htm
 old-project: display
 ms.assetid: 063320e3-b103-4c9a-ae82-790e5b768dc9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: HTUI_DeviceColorAdjustment, HTUI_DeviceColorAdjustment function [Display Devices], display.htui_devicecoloradjustment, gdifncs_4f705094-588c-47ce-ac45-f0d2744ce5d2.xml, winddi/HTUI_DeviceColorAdjustment
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: Button_SetTextMargin macro
 author: windows-sdk-content
 description: Sets the margins for drawing text in a button control. You can use this macro or send the BCM_SETTEXTMARGIN message explicitly.
 old-location: controls\Button_SetTextMargin.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settextmargin.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Button_SetTextMargin, Button_SetTextMargin macro [Windows Controls], _win32_Button_SetTextMargin, _win32_Button_SetTextMargin_cpp, commctrl/Button_SetTextMargin, controls.Button_SetTextMargin, controls._win32_Button_SetTextMargin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the margins for drawing text in a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775982(v=VS.85).aspx">BCM_SETTEXTMARGIN</a> message explicitly. 
+Sets the margins for drawing text in a button control. You can use this macro or send the <a href="https://msdn.microsoft.com/0798b1c5-7db4-46c6-8881-4c847abc7460">BCM_SETTEXTMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-		To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
+		To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.
 
 
 

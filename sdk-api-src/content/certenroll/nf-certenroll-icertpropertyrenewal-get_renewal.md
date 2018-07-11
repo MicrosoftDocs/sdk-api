@@ -4,10 +4,10 @@ title: ICertPropertyRenewal::get_Renewal
 author: windows-sdk-content
 description: Retrieves the SHA-1 hash of the new certificate.
 old-location: security\icertpropertyrenewal_renewal_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal.get_Renewal, ICertPropertyRenewal::Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal, security.icertpropertyrenewal_renewal_property
 ms.prod: windows
 ms.technology: windows-sdk

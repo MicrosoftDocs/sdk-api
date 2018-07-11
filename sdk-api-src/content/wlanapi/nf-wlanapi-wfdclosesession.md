@@ -7,7 +7,7 @@ old-location: nwifi\wfdclosesession.htm
 old-project: NativeWiFi
 ms.assetid: DEAF32C9-64A6-419A-A466-DE2313AE534C
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WFDCloseSession, WFDCloseSession function [NativeWIFI], nwifi.wfdclosesession, wlanapi/WFDCloseSession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_security_description.htm
 old-project: wsw
 ms.assetid: b9490f00-877c-4d9f-b361-eaca343cdee0
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_SECURITY_DESCRIPTION, WS_SECURITY_DESCRIPTION structure [Web Services for Windows], _WS_SECURITY_DESCRIPTION, webservices/WS_SECURITY_DESCRIPTION, wsw.ws_security_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ The count of elements in the properties array.
 The figure below illustrates the structure of a security description.
             
 
-<img alt="" src="./images/SecurityDescription.png"/>
+<img alt="" src="images/SecurityDescription.png"/>
 
 
 

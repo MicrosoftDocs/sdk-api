@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2.htm
 old-project: DirectShow
 ms.assetid: da30d3dc-feec-4f54-b2db-a771ce404286
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IDvdInfo2 interface [DirectShow],described, IDvdInfo2Interface, dshow.idvdinfo2, strmif/IDvdInfo2
 ms.prod: windows
 ms.technology: windows-sdk

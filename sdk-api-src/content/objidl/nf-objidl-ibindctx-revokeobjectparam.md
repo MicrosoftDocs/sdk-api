@@ -7,7 +7,7 @@ old-location: com\ibindctx_revokeobjectparam.htm
 old-project: com
 ms.assetid: e7dbf9c8-0ecf-4076-8bec-4da457c60cee
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectParam method, IBindCtx.RevokeObjectParam, IBindCtx::RevokeObjectParam, RevokeObjectParam, RevokeObjectParam method [COM], RevokeObjectParam method [COM],IBindCtx interface, _com_ibindctx_revokeobjectparam, com.ibindctx_revokeobjectparam, objidl/IBindCtx::RevokeObjectParam
 ms.prod: windows
 ms.technology: windows-sdk

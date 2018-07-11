@@ -7,7 +7,7 @@ old-location: winsock\protoent_2.htm
 old-project: WinSock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
 ms.prod: windows
 ms.technology: windows-sdk

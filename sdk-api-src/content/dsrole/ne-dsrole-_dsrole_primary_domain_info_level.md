@@ -4,10 +4,10 @@ title: "_DSROLE_PRIMARY_DOMAIN_INFO_LEVEL"
 author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to specify the type of data to retrieve.
 old-location: ad\dsrole_primary_domain_info_level.htm
-old-project: AD
+old-project: ad
 ms.assetid: c8b141b1-d5fa-4ec9-8899-a1b0f6a4ce1d
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, DSROLE_PRIMARY_DOMAIN_INFO_LEVEL enumeration [Active Directory], DsRoleOperationState, DsRolePrimaryDomainInfoBasic, DsRoleUpgradeStatus, _DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, ad.dsrole_primary_domain_info_level, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, dsrole/DsRoleOperationState, dsrole/DsRolePrimaryDomainInfoBasic, dsrole/DsRoleUpgradeStatus
 ms.prod: windows
 ms.technology: windows-sdk

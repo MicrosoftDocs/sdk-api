@@ -4,10 +4,10 @@ title: PeerGroupDeleteRecord function
 author: windows-sdk-content
 description: The PeerGroupDeleteRecord function deletes a record from a peer group. The creator, as well as any other member in an administrative role may delete a specific record.
 old-location: p2p\peergroupdeleterecord.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: e80fbf7f-2193-4a45-8a7f-46707ae4acfe
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGroupDeleteRecord, PeerGroupDeleteRecord function [Peer Networking], p2p.peergroupdeleterecord, p2p/PeerGroupDeleteRecord
 ms.prod: windows
 ms.technology: windows-sdk

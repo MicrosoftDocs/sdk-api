@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandlist.htm
 old-project: direct3d12
 ms.assetid: 4C615D7D-6DBC-4EDA-8D72-271EC53047BF
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: CreateCommandList, CreateCommandList method, CreateCommandList method,ID3D12Device interface, ID3D12Device interface,CreateCommandList method, ID3D12Device.CreateCommandList, ID3D12Device::CreateCommandList, d3d12/ID3D12Device::CreateCommandList, direct3d12.id3d12device_createcommandlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
               This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command list.

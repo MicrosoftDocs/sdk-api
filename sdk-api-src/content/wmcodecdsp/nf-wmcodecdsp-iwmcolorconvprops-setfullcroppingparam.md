@@ -7,7 +7,7 @@ old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
 old-project: medfound
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/ IWMColorConvProps::SetFullCroppingParam
 ms.prod: windows
 ms.technology: windows-sdk

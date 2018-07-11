@@ -7,7 +7,7 @@ old-location: multimedia\avistreamstart.htm
 old-project: Multimedia
 ms.assetid: d4c66732-f777-44c7-9d61-88b721e150c1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: AVIStreamStart, AVIStreamStart function [Windows Multimedia], _win32_AVIStreamStart, multimedia.avistreamstart, vfw/AVIStreamStart
 ms.prod: windows
 ms.technology: windows-sdk

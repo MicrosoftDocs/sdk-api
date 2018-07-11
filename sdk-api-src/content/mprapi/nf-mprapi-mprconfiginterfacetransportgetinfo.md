@@ -4,10 +4,10 @@ title: MprConfigInterfaceTransportGetInfo function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportGetInfo function retrieves the configuration information for the specified client on the specified interface.
 old-location: rras\mprconfiginterfacetransportgetinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigInterfaceTransportGetInfo, MprConfigInterfaceTransportGetInfo function [RAS], _mpr_mprconfiginterfacetransportgetinfo, mprapi/MprConfigInterfaceTransportGetInfo, rras.mprconfiginterfacetransportgetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,7 +169,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ If the <i>ppInterfaceInfo</i> parameter is <b>NULL</b>,
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

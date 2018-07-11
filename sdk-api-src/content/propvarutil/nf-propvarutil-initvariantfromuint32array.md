@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt32Array.htm
 old-project: properties
 ms.assetid: b08e61bc-8b76-4baf-acf7-9eb97e521b65
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromUInt32Array, InitVariantFromUInt32Array function [Windows Properties], _shell_InitVariantFromUInt32Array, properties.InitVariantFromUInt32Array, propvarutil/InitVariantFromUInt32Array, shell.InitVariantFromUInt32Array
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI4 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762341(v=VS.85).aspx">InitVariantFromUInt32Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt32Array">InitVariantFromUInt32Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>
+<a href="shell.InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762340(v=VS.85).aspx">InitVariantFromUInt32</a>
+<a href="shell.InitVariantFromUInt32">InitVariantFromUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776628(v=VS.85).aspx">VariantToUInt32Array</a>
+<a href="shell.VariantToUInt32Array">VariantToUInt32Array</a>
  
 
  

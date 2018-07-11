@@ -7,7 +7,7 @@ old-location: multimedia\capsetscrollpos.htm
 old-project: Multimedia
 ms.assetid: a5af0d75-ae9f-41f2-90cb-8ede7c2f454a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "_win32_capSetScrollPos, capSetScrollPos, capSetScrollPos macro [Windows Multimedia], multimedia.capsetscrollpos, vfw/capSetScrollPos"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_WINHTTP_WEB_SOCKET_BUFFER_TYPE"
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_BUFFER_TYPE enumeration includes types of WebSocket buffers.
 old-location: http\winhttp_web_socket_buffer_type.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 9d730a6e-d05f-48ad-beec-cba6cc5cb17c
 ms.author: windowssdkdev
-ms.date: 03/08/2018
+ms.date: 03/09/2018
 ms.keywords: WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WINHTTP_WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, WINHTTP_WEB_SOCKET_BUFFER_TYPE, WINHTTP_WEB_SOCKET_BUFFER_TYPE enumeration [HTTP], WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE, WINHTTP_WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, WINHTTP_WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE, _WINHTTP_WEB_SOCKET_BUFFER_TYPE, http.winhttp_web_socket_buffer_type, winhttp/WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

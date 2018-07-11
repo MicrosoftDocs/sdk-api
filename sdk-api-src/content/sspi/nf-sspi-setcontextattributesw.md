@@ -7,7 +7,7 @@ old-location: security\setcontextattributes.htm
 old-project: SecAuthN
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SECPKG_ATTR_APP_DATA, SECPKG_ATTR_DTLS_MTU, SECPKG_ATTR_EAP_PRF_INFO, SECPKG_ATTR_EARLY_START, SECPKG_ATTR_KEYING_MATERIAL_INFO, SetContextAttributes, SetContextAttributes function [Security], SetContextAttributesA, SetContextAttributesW, security.setcontextattributes, sspi/SetContextAttributes, sspi/SetContextAttributesA, sspi/SetContextAttributesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/library/Mt829323(v=VS.85).aspx">SecPkgContext_EarlyStart</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="security.secpkgcontext_earlystart">SecPkgContext_EarlyStart</a> structure.
 
 Sets the False Start feature. See  the <a href="https://blogs.windows.com/msedgedev/2016/06/15/building-a-faster-and-more-secure-web-with-tcp-fast-open-tls-false-start-and-tls-1-3/">Building a faster and more secure web</a> blog post for information on this feature.
 
@@ -141,7 +141,7 @@ Valid values are between 200 bytes and 64 kilobytes. The default DTLS MTU value 
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/library/Mt803267(v=VS.85).aspx">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="security.secpkgcontext_keyingmaterialinfo">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
 
 This attribute is supported only by the Schannel security package in Windows 10 and Windows Server 2016 or later versions.
 

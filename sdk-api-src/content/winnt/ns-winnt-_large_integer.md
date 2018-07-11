@@ -4,10 +4,10 @@ title: "_LARGE_INTEGER"
 author: windows-sdk-content
 description: Represents a 64-bit signed integer value.
 old-location: winprog\large_integer_str.htm
-old-project: WinProg
+old-project: winprog
 ms.assetid: 6a2985b6-5baf-49ab-af28-67c1374557ea
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PLARGE_INTEGER, LARGE_INTEGER, LARGE_INTEGER union [Windows API], PLARGE_INTEGER, PLARGE_INTEGER union pointer [Windows API], _LARGE_INTEGER, _win32_large_integer_str, winnt/LARGE_INTEGER, winnt/PLARGE_INTEGER, winprog.large_integer_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Represents a 64-bit signed integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://msdn.microsoft.com/52fafae2-003c-4eae-b6e1-a49f69db204e">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://msdn.microsoft.com/">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 

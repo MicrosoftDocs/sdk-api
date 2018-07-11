@@ -4,10 +4,10 @@ title: DNS_NAPTR_DATAW
 author: windows-sdk-content
 description: The DNS_NAPTR_DATA structure represents a Naming Authority Pointer (NAPTR) DNS Resource Record (RR) as specified in RFC 2915.
 old-location: dns\dns_naptr_data.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAW, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAW, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_getdictionary.htm
 old-project: printdocs
 ms.assetid: f32b534e-92bf-4e80-9ac1-b2577e076bed
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionary method, IXpsOMCanvas.GetDictionary, IXpsOMCanvas::GetDictionary, xps.ixpsomcanvas_getdictionary, xpsobjectmodel/IXpsOMCanvas::GetDictionary
 ms.prod: windows
 ms.technology: windows-sdk

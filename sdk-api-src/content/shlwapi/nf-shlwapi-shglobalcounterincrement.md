@@ -7,7 +7,7 @@ old-location: shell\SHGlobalCounterIncrement.htm
 old-project: shell
 ms.assetid: 088efa01-b070-4384-b17a-311aefb0737c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHGlobalCounterIncrement, SHGlobalCounterIncrement function [Windows Shell], _shell_SHGlobalCounterIncrement, shell.SHGlobalCounterIncrement, shlwapi/SHGlobalCounterIncrement
 ms.prod: windows
 ms.technology: windows-sdk

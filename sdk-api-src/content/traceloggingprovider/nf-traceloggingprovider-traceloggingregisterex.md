@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingregisterex.htm
 old-project: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 04/27/2018
 ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
 ms.prod: windows
 ms.technology: windows-sdk

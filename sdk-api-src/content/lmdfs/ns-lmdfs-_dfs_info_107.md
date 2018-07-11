@@ -4,10 +4,10 @@ title: "_DFS_INFO_107"
 author: windows-sdk-content
 description: Contains information about a DFS root or link, including the comment, state, time-out, property flags, and link reparse point security descriptor.
 old-location: dfs\dfs_info_107.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: 38afc682-bb37-42ad-9e92-a1b0aa277f29
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPDFS_INFO_107, *PDFS_INFO_107, DFS_INFO_107, DFS_INFO_107 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, PDFS_INFO_107, PDFS_INFO_107 structure pointer [Distributed File System], _DFS_INFO_107, dfs.dfs_info_107, fs.dfs_info_107, lmdfs/DFS_INFO_107, lmdfs/PDFS_INFO_107"
 ms.prod: windows
 ms.technology: windows-sdk

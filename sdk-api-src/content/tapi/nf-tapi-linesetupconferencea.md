@@ -4,10 +4,10 @@ title: lineSetupConferenceA function
 author: windows-sdk-content
 description: The lineSetupConference function sets up a conference call for the addition of the third party.
 old-location: tapi2\linesetupconference.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 13bf81c6-f7f6-4fd4-b546-15e58f7bc618
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linesetupconference, lineSetupConference, lineSetupConference function [TAPI 2.2], lineSetupConferenceA, lineSetupConferenceW, tapi/lineSetupConference, tapi/lineSetupConferenceA, tapi/lineSetupConferenceW, tapi2.linesetupconference"
 ms.prod: windows
 ms.technology: windows-sdk

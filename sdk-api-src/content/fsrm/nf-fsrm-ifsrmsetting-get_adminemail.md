@@ -4,10 +4,10 @@ title: IFsrmSetting::get_AdminEmail
 author: windows-sdk-content
 description: Retrieves or sets the email address for the administrator.
 old-location: fsrm\ifsrmsetting_adminemail.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 5985f697-f982-481c-896e-e6c3834f645d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail property [File Server Resource Manager],FsrmSetting class, AdminEmail property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],AdminEmail property, IFsrmSetting interface [File Server Resource Manager],AdminEmail property, IFsrmSetting.AdminEmail, IFsrmSetting.get_AdminEmail, IFsrmSetting::AdminEmail, IFsrmSetting::get_AdminEmail, IFsrmSetting::put_AdminEmail, fs.ifsrmsetting_adminemail, fsrm.ifsrmsetting_adminemail, fsrm/IFsrmSetting::AdminEmail, fsrm/IFsrmSetting::get_AdminEmail, fsrm/IFsrmSetting::put_AdminEmail, get_AdminEmail
 ms.prod: windows
 ms.technology: windows-sdk

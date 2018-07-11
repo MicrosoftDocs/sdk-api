@@ -4,10 +4,10 @@ title: BCryptQueryContextConfiguration function
 author: windows-sdk-content
 description: Retrieves the current configuration for the specified CNG context.
 old-location: security\bcryptquerycontextconfiguration.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

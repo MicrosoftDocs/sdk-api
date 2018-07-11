@@ -7,7 +7,7 @@ old-location: winstation\getprocesswindowstation.htm
 old-project: winstation
 ms.assetid: f8929122-d277-4260-b2a7-5e76eb3ca876
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: GetProcessWindowStation, GetProcessWindowStation function [Windows Stations and Desktops], _win32_getprocesswindowstation, base.getprocesswindowstation, winstation.getprocesswindowstation, winuser/GetProcessWindowStation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

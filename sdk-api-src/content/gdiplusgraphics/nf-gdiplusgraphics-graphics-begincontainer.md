@@ -95,22 +95,22 @@ This method returns a value that identifies the container.
 Use this method to create nested graphics containers. Graphics containers are used to retain graphics state, such as transformations, clipping regions, and various rendering properties.
 
 The <b>Graphics::BeginContainer</b> method returns a value of type 
-				<a href="https://msdn.microsoft.com/library/ms536334(v=VS.85).aspx">GraphicsContainer</a>. When you have finished using a container, pass that value to the <a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method. The 
+				<a href="https://msdn.microsoft.com/98b9fa12-02e7-42bf-9cbd-03ee696188f6">GraphicsContainer</a>. When you have finished using a container, pass that value to the <a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a> method. The 
 				GraphicsContainer data type is defined in Gdiplusenums.h.
 
 When you call the <b>Graphics::BeginContainer</b> method of a 
 				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object, an information block that holds the state of the 
-				<b>Graphics</b> object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method, the information block is removed from the stack and is used to restore the 
+				<b>Graphics</b> object is put on a stack. The <b>Graphics::BeginContainer</b> method returns a value that identifies that information block. When you pass the identifying value to the <a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a> method, the information block is removed from the stack and is used to restore the 
 				<b>Graphics</b> object to the state it was in at the time of the <b>Graphics::BeginContainer</b> call.
 
-Containers can be nested; that is, you can call the <b>Graphics::BeginContainer</b> method several times before you call the <a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
+Containers can be nested; that is, you can call the <b>Graphics::BeginContainer</b> method several times before you call the <a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a> method. Each time you call the <b>Graphics::BeginContainer</b> method, an information block is put on the stack, and you receive an identifier for the information block. When you pass one of those identifiers to the <b>Graphics::EndContainer</b> method, the 
 				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object is returned to the state it was in at the time of the <b>Graphics::BeginContainer</b> call that returned that particular identifier. The information block placed on the stack by that <b>Graphics::BeginContainer</b> call is removed from the stack, and all information blocks placed on that stack after that <b>Graphics::BeginContainer</b> call are also removed.
 
-Calls to the <a href="https://msdn.microsoft.com/library/ms535806(v=VS.85).aspx">Graphics::Save</a> method place information blocks on the same stack as calls to the <b>Graphics::BeginContainer</b> method. Just as an <a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="https://msdn.microsoft.com/library/ms535804(v=VS.85).aspx">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
+Calls to the <a href="https://msdn.microsoft.com/fb281046-e995-44a4-a45f-72a85f1d5c5f">Graphics::Save</a> method place information blocks on the same stack as calls to the <b>Graphics::BeginContainer</b> method. Just as an <a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a> call is paired with a <b>Graphics::BeginContainer</b> call, a <a href="https://msdn.microsoft.com/34058862-9b3f-4ad4-bf57-904bbea50c4d">Graphics::Restore</a> call is paired with a <b>Graphics::Save</b> call.
 
-<div class="alert"><b>Caution</b>  When you call <a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>, all information blocks placed on the stack (by <a href="https://msdn.microsoft.com/library/ms535806(v=VS.85).aspx">Graphics::Save</a> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::BeginContainer</b> are removed from the stack. Likewise, when you call <a href="https://msdn.microsoft.com/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>, all information blocks placed on the stack (by <b>Graphics::Save</b> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::Save</b> are removed from the stack.</div>
+<div class="alert"><b>Caution</b>  When you call <a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a>, all information blocks placed on the stack (by <a href="https://msdn.microsoft.com/fb281046-e995-44a4-a45f-72a85f1d5c5f">Graphics::Save</a> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::BeginContainer</b> are removed from the stack. Likewise, when you call <a href="https://msdn.microsoft.com/34058862-9b3f-4ad4-bf57-904bbea50c4d">Graphics::Restore</a>, all information blocks placed on the stack (by <b>Graphics::Save</b> or by <b>Graphics::BeginContainer</b>) after the corresponding call to <b>Graphics::Save</b> are removed from the stack.</div>
 <div> </div>
-For more information about graphics containers, see <a href="https://msdn.microsoft.com/library/ms533848(v=VS.85).aspx">Nested Graphics Containers</a>.
+For more information about graphics containers, see <a href="https://msdn.microsoft.com/f3fce8ef-903a-4b9d-b76c-562739d02eb3">Nested Graphics Containers</a>.
 
 
 #### Examples
@@ -168,23 +168,23 @@ The following example sets a clipping region for a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536334(v=VS.85).aspx">Graphics Containers</a>
+<a href="https://msdn.microsoft.com/98b9fa12-02e7-42bf-9cbd-03ee696188f6">Graphics Containers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>
+<a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
+<a href="https://msdn.microsoft.com/34058862-9b3f-4ad4-bf57-904bbea50c4d">Graphics::Restore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
+<a href="https://msdn.microsoft.com/fb281046-e995-44a4-a45f-72a85f1d5c5f">Graphics::Save</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533813(v=VS.85).aspx">Using Graphics Containers</a>
+<a href="https://msdn.microsoft.com/721d0c1c-d105-4d9f-b5e9-6ca407b28c4e">Using Graphics Containers</a>
  
 
  

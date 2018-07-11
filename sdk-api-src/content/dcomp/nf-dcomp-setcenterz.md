@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setcenterz_overloaded.ht
 old-project: directcomp
 ms.assetid: 7FF293B6-8FAE-4277-8C07-EBD4E819E2A0
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionRotateTransform3D::SetCenterZ, SetCenterZ, SetCenterZ methods [DirectComposition], dcomp/SetCenterZ, directcomp.idcompositionrotatetransform3d_setcenterz_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

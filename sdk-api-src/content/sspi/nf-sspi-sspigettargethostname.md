@@ -7,7 +7,7 @@ old-location: security\sspigettargethostname.htm
 old-project: SecAuthN
 ms.assetid: 84570dfc-1890-4b82-b411-1f9eaa75537b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], security.sspigettargethostname, sspi/SspiGetTargetHostName
 ms.prod: windows
 ms.technology: windows-sdk

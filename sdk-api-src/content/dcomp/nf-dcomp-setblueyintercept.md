@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept_ove
 old-project: directcomp
 ms.assetid: 34bff151-4844-73fa-8e7e-9a542373b820
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionLinearTransferEffect::SetBlueYIntercept, SetBlueYIntercept, SetBlueYIntercept methods [DirectComposition], dcomp/SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

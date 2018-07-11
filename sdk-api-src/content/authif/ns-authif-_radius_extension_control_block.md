@@ -4,10 +4,10 @@ title: "_RADIUS_EXTENSION_CONTROL_BLOCK"
 author: windows-sdk-content
 description: The RADIUS_EXTENSION_CONTROL_BLOCK structure provides information about the current RADIUS request. It also provides functions for obtaining the attributes associated with the request, and for setting the disposition of the request.
 old-location: nps\IAS_radius_extension_control_block.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 13ff0645-d3f8-4220-a5bc-11bb515bca95
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: "*PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK structure pointer [Network Policy Server], RADIUS_EXTENSION_CONTROL_BLOCK, RADIUS_EXTENSION_CONTROL_BLOCK structure [Network Policy Server], _RADIUS_EXTENSION_CONTROL_BLOCK, _ias_radius_extension_control_block, authif/PRADIUS_EXTENSION_CONTROL_BLOCK, authif/RADIUS_EXTENSION_CONTROL_BLOCK, ias.radius_extension_control_block, nps.IAS_radius_extension_control_block"
 ms.prod: windows
 ms.technology: windows-sdk

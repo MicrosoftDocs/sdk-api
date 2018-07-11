@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectimpl_getoutputbitmapsource.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getoutputbitmapsource.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetOutputBitmapSource, GetOutputBitmapSource method [WPF Bitmap Effects], GetOutputBitmapSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetOutputBitmapSource method, IMILBitmapEffectImpl.GetOutputBitmapSource, IMILBitmapEffectImpl::GetOutputBitmapSource, _wibe_imilbitmapeffectimpl_getoutputbitmapsource, mileffects/IMILBitmapEffectImpl::GetOutputBitmapSource, wibe._wibe_imilbitmapeffectimpl_getoutputbitmapsource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,9 +68,9 @@ The index of the of the output bitmap source.
 
 ### -param pRenderContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+A pointer to the <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>.
 
 
 ### -param pfModifyInPlace [in, out]
@@ -84,7 +84,7 @@ A value that indicates whether to modify in-place.
 
 Type: <b>IWICBitmapSource**</b>
 
-A pointer that receives a pointer to the output <a href="https://msdn.microsoft.com/library/Ee690171(v=VS.85).aspx">IWICBitmapSource Interface</a>.
+A pointer that receives a pointer to the output <a href="_wic_codec_iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 
 ## -returns

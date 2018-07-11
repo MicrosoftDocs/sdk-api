@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WritePOINTL.htm
 old-project: properties
 ms.assetid: 881A9D35-DF77-44d1-86DF-D6BC97AC0DD4
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_WritePOINTL, PSPropertyBag_WritePOINTL function [Windows Properties], properties.PSPropertyBag_WritePOINTL, propsys/PSPropertyBag_WritePOINTL, shell.PSPropertyBag_WritePOINTL, shell_PSPropertyBag_WritePOINTL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845056(v=VS.85).aspx">PSPropertyBag_ReadPOINTL</a>
+<a href="shell.PSPropertyBag_ReadPOINTL">PSPropertyBag_ReadPOINTL</a>
  
 
  

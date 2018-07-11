@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiimagefrombitmap_createimage.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\createimage.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: CreateImage, CreateImage method [Windows Ribbon], CreateImage method [Windows Ribbon],IUIImageFromBitmap interface, IUIImageFromBitmap interface [Windows Ribbon],CreateImage method, IUIImageFromBitmap.CreateImage, IUIImageFromBitmap::CreateImage, scenicintent_IUIImageFromBitmap_CreateImage, uiribbon/IUIImageFromBitmap::CreateImage, windowsribbon.windowsribbon_iuiimagefrombitmap_createimage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a> object from a bitmap image.
+Creates an <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object from a bitmap image.
 
 
 ## -parameters
@@ -70,10 +70,10 @@ Type: <b>HBITMAP</b>
 
 ### -param options [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371576(v=VS.85).aspx">UI_OWNERSHIP</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0feb95ce-1ec9-4ff0-81f2-921e5ae57065">UI_OWNERSHIP</a></b>
 
 
-					The <a href="https://msdn.microsoft.com/library/Dd371576(v=VS.85).aspx">ownership conditions</a> under which 
+					The <a href="https://msdn.microsoft.com/0feb95ce-1ec9-4ff0-81f2-921e5ae57065">ownership conditions</a> under which 
 					an image is created.
 					
 
@@ -87,7 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Dd371576(v=VS.85).aspx">UI_
 <td>
 					If <b>UI_OWNERSHIP_TRANSFER</b> is specified as the value of 
 				<i>options</i>, then the Ribbon framework owns 
-					the handle to the bitmap (HBITMAP) through the <a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a> object and 
+					the handle to the bitmap (HBITMAP) through the <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object and 
 					releases it when the framework no longer requires it.
 				<div class="alert"><b>Note</b>  
 					This option prevents the Ribbon host application from safely referencing the same HBITMAP 
@@ -116,10 +116,10 @@ Type: <b><a href="https://msdn.microsoft.com/library/Dd371576(v=VS.85).aspx">UI_
 
 ### -param image [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a>**</b>
 
 
-					When this method returns, contains the address of a pointer variable that receives the <a href="https://msdn.microsoft.com/library/Dd371367(v=VS.85).aspx">IUIImage</a> object. 
+					When this method returns, contains the address of a pointer variable that receives the <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object. 
 				
 
 
@@ -170,11 +170,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371365(v=VS.85).aspx">IUIImageFromBitmap</a>
+<a href="https://msdn.microsoft.com/f2b98d96-895e-40aa-9969-98bf1c0c8e5f">IUIImageFromBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

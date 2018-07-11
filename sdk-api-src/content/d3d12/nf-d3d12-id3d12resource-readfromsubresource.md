@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_readfromsubresource.htm
 old-project: direct3d12
 ms.assetid: A1F61217-A383-49BF-B675-FBC7F6D015DB
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12Resource interface,ReadFromSubresource method, ID3D12Resource.ReadFromSubresource, ID3D12Resource::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method, ReadFromSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::ReadFromSubresource, direct3d12.id3d12resource_readfromsubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/DD3973CC-043E-486E-9403-B46D8
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.

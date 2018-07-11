@@ -4,10 +4,10 @@ title: "_ADMIN_OTHER_INFO"
 author: windows-sdk-content
 description: The ADMIN_OTHER_INFO structure contains error message information. The NetAlertRaise and NetAlertRaiseEx functions use the ADMIN_OTHER_INFO structure to specify information when raising an administrator's interrupting message.
 old-location: netmgmt\admin_other_info_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 43119dcf-7d04-4e3b-b1dc-20e814fbdc2f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPADMIN_OTHER_INFO, *PADMIN_OTHER_INFO, ADMIN_OTHER_INFO, ADMIN_OTHER_INFO structure [Network Management], LPADMIN_OTHER_INFO, LPADMIN_OTHER_INFO structure pointer [Network Management], PADMIN_OTHER_INFO, PADMIN_OTHER_INFO structure pointer [Network Management], _ADMIN_OTHER_INFO, _win32_admin_other_info_str, lmalert/ADMIN_OTHER_INFO, lmalert/LPADMIN_OTHER_INFO, lmalert/PADMIN_OTHER_INFO, netmgmt.admin_other_info_str"
 ms.prod: windows
 ms.technology: windows-sdk

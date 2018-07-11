@@ -7,7 +7,7 @@ old-location: shell\IEnumResources_Reset.htm
 old-project: shell
 ms.assetid: 0b3f38d2-80fe-4242-a99d-5d82f9dd50e9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IEnumResources interface [Windows Shell],Reset method, IEnumResources.Reset, IEnumResources::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Reset, shell.IEnumResources_Reset, shobjidl_core/IEnumResources::Reset
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NetServerComputerNameAdd function
 author: windows-sdk-content
 description: The NetServerComputerNameAdd function enumerates the transports on which the specified server is active, and binds the emulated server name to each of the transports.
 old-location: netmgmt\netservercomputernameadd.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 0789fbfe-be91-4849-a31c-1e1a6ae1e70d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetServerComputerNameAdd, NetServerComputerNameAdd function [Network Management], _win32_netservercomputernameadd, lmserver/NetServerComputerNameAdd, netmgmt.netservercomputernameadd
 ms.prod: windows
 ms.technology: windows-sdk

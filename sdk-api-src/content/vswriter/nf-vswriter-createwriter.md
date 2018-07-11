@@ -4,10 +4,10 @@ title: CreateWriter function
 author: windows-sdk-content
 description: This function is reserved for system use.
 old-location: base\createwriter.htm
-old-project: VSS
+old-project: vss
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
 ms.prod: windows
 ms.technology: windows-sdk

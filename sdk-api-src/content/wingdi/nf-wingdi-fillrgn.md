@@ -7,7 +7,7 @@ old-location: gdi\fillrgn.htm
 old-project: gdi
 ms.assetid: c4e0eca5-442b-462b-a4f2-0c628b6d3d38
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: FillRgn, FillRgn function [Windows GDI], _win32_FillRgn, gdi.fillrgn, wingdi/FillRgn
 ms.prod: windows
 ms.technology: windows-sdk

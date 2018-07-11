@@ -4,10 +4,10 @@ title: ICspStatus::get_EnrollmentStatus
 author: windows-sdk-content
 description: Retrieves an IX509EnrollmentStatus object that contains information about the certificate enrollment.
 old-location: security\icspstatus_enrollmentstatus_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 56798477-ec12-47b6-a226-d20258677033
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: EnrollmentStatus property [Security], EnrollmentStatus property [Security],ICspStatus interface, ICspStatus interface [Security],EnrollmentStatus property, ICspStatus.EnrollmentStatus, ICspStatus.get_EnrollmentStatus, ICspStatus::EnrollmentStatus, ICspStatus::get_EnrollmentStatus, certenroll/ICspStatus::EnrollmentStatus, certenroll/ICspStatus::get_EnrollmentStatus, get_EnrollmentStatus, security.icspstatus_enrollmentstatus_property
 ms.prod: windows
 ms.technology: windows-sdk

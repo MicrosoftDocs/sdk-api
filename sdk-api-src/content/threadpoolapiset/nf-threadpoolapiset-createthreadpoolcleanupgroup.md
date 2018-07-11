@@ -7,7 +7,7 @@ old-location: base\createthreadpoolcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: 668593fe-2ed1-418d-8cd5-5fac61826ea1
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CreateThreadpoolCleanupGroup, CreateThreadpoolCleanupGroup function, base.createthreadpoolcleanupgroup, threadpoolapiset/CreateThreadpoolCleanupGroup, winbase/CreateThreadpoolCleanupGroup
 ms.prod: windows
 ms.technology: windows-sdk

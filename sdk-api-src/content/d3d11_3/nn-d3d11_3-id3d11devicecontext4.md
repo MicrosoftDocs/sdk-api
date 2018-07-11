@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext4.htm
 old-project: direct3d11
 ms.assetid: 9A4B737C-C0A8-4319-A9CA-8172E992774D
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: ID3D11DeviceContext4, ID3D11DeviceContext4 interface [Direct3D 11], ID3D11DeviceContext4 interface [Direct3D 11],described, d3d11_3/ID3D11DeviceContext4, direct3d11.id3d11devicecontext4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 
 The device context interface represents a device context; it is used to render commands. <b>ID3D11DeviceContext4</b> adds new methods to those in <a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a>.
-<div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Creators Update, is the latest version of the <a href="https://msdn.microsoft.com/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> interface. Applications targetting Windows 10 Creators Update should use this interface instead of earlier versions.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Creators Update, is the latest version of the <a href="direct3d11.id3d12devicecontext">ID3D11DeviceContext</a> interface. Applications targetting Windows 10 Creators Update should use this interface instead of earlier versions.</div><div> </div>
 
 ## -inheritance
 

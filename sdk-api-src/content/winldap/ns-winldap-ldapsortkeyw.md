@@ -4,10 +4,10 @@ title: ldapsortkeyW
 author: windows-sdk-content
 description: The LDAPSortKey structure stores sorting criteria for use by sort controls.
 old-location: ldap\ldapsortkey.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "*PLDAPSortKeyW, LDAPSortKey, LDAPSortKey structure [LDAP], LDAPSortKeyA, LDAPSortKeyW, PLDAPSortKey, PLDAPSortKey structure pointer [LDAP], _ldap_ldapsortkey, ldap.ldapsortkey, ldapsortkeyW, winldap/LDAPSortKey, winldap/LDAPSortKeyA, winldap/LDAPSortKeyW, winldap/PLDAPSortKey"
 ms.prod: windows
 ms.technology: windows-sdk

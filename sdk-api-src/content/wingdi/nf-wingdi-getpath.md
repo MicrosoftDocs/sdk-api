@@ -7,7 +7,7 @@ old-location: gdi\getpath.htm
 old-project: gdi
 ms.assetid: 2dc7736a-03fc-4623-a566-6c3e368da174
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetPath, GetPath function [Windows GDI], PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, _win32_GetPath, gdi.getpath, wingdi/GetPath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure contains specific configuration information about the Bluetooth device responding to an authentication request.
 old-location: bluetooth\bluetooth_authentication_callback_params.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: e9c703c1-7981-4c34-a96e-0123d3655e55
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure [Bluetooth], PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, bluetooth.bluetooth_authentication_callback_params, bluetoothapis/BLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS, bluetoothapis/PBLUETOOTH_AUTHENTICATION_CALLBACK_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

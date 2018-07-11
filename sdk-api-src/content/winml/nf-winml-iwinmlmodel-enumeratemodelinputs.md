@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlmodel_enumeratemodelinputs.htm
 old-project: MachineLearning
 ms.assetid: A87B24B0-9463-4022-9054-08F3D7BA5034
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: EnumerateModelInputs, EnumerateModelInputs method, EnumerateModelInputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelInputs method, IWinMLModel.EnumerateModelInputs, IWinMLModel::EnumerateModelInputs, MachineLearning.iwinmlmodel_enumeratemodelinputs, winml/IWinMLModel::EnumerateModelInputs
 ms.prod: windows
 ms.technology: windows-sdk

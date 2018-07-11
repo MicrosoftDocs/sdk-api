@@ -4,10 +4,10 @@ title: IAssemblyCache
 author: windows-sdk-content
 description: The IAssemblyCache interface can be used to install, uninstall, or query a side-by-side assembly. An instance of IAssemblyCache is obtained by calling the CreateAssemblyCache function.
 old-location: setup\iassemblycache.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 6c411ae7-5a8f-47ca-a9c1-e23000f64620
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: IAssemblyCache, IAssemblyCache interface [Side-by-side Assemblies], IAssemblyCache interface [Side-by-side Assemblies],described, setup.iassemblycache, winsxs/IAssemblyCache
 ms.prod: windows
 ms.technology: windows-sdk

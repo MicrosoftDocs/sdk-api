@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_addtransitionatkeyframe.htm
 old-project: UIAnimation
 ms.assetid: F4DAB833-E857-4FD8-87E2-8F32AF460F90
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransitionAtKeyframe method, IUIAnimationStoryboard2.AddTransitionAtKeyframe, IUIAnimationStoryboard2::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard2_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard2::AddTransitionAtKeyframe
 ms.prod: windows
 ms.technology: windows-sdk

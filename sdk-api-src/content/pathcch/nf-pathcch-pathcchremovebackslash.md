@@ -7,7 +7,7 @@ old-location: shell\PathCchRemoveBackslash.htm
 old-project: shell
 ms.assetid: 61afc20e-ee6c-46ad-a058-64c57de41ba4
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: PathCchRemoveBackslash, PathCchRemoveBackslash function [Windows Shell], pathcch/PathCchRemoveBackslash, shell.PathCchRemoveBackslash
 ms.prod: windows
 ms.technology: windows-sdk

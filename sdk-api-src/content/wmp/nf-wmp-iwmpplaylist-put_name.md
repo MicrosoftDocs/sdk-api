@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_put_name.htm
 old-project: WMP
 ms.assetid: 749dae2f-d9c3-4bbb-9a2f-042388f5ce0c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],put_name method, IWMPPlaylist.put_name, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TreeView_GetImageList macro
 author: windows-sdk-content
 description: Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the TVM_GETIMAGELIST message explicitly.
 old-location: controls\TreeView_GetImageList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_GetImageList, TreeView_GetImageList macro [Windows Controls], _win32_TreeView_GetImageList, _win32_TreeView_GetImageList_cpp, commctrl/TreeView_GetImageList, controls.TreeView_GetImageList, controls._win32_TreeView_GetImageList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773585(v=VS.85).aspx">TVM_GETIMAGELIST</a> message explicitly. 
+Retrieves the handle to the normal or state image list associated with a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/bcf5eac8-cb07-4cf8-ad93-47319fc915a5">TVM_GETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -110,7 +110,7 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760056(v=VS.85).aspx">TreeView_SetImageList</a>
+<a href="https://msdn.microsoft.com/72748b47-0797-4607-8c0b-ba88d2f20c24">TreeView_SetImageList</a>
  
 
  

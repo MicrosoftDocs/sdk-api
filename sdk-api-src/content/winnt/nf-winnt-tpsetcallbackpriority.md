@@ -7,7 +7,7 @@ old-location: base\tpsetcallbackpriority.htm
 old-project: ProcThread
 ms.assetid: 3A2DA8CA-D5F2-442A-B152-11AB28681B5B
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, TpSetCallbackPriority, TpSetCallbackPriority function, base.tpsetcallbackpriority, winnt/TpSetCallbackPriority
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\icreatetypelib_setname.htm
 old-project: automat
 ms.assetid: b533d2a1-f008-4345-8545-aebe14aa44f5
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetName method, ICreateTypeLib.SetName, ICreateTypeLib::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetName, automat.icreatetypelib_setname, oaidl/ICreateTypeLib::SetName
 ms.prod: windows
 ms.technology: windows-sdk

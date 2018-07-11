@@ -7,7 +7,7 @@ old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER_STORAGE.htm
 old-project: tracelogging
 ms.assetid: C7244C95-5F02-4336-ADFF-876514665C87
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 04/27/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER_STORAGE, TRACELOGGING_DEFINE_PROVIDER_STORAGE macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE, tracelogging.traceloggingproviderstorage, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE
 ms.prod: windows
 ms.technology: windows-sdk

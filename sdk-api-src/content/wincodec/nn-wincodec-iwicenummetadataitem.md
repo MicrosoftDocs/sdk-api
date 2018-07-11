@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicenummetadataitem.htm
 old-project: wic
 ms.assetid: 4fe0e47f-9ef4-4aa1-a3ae-578b3759f9ef
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICEnumMetadataItem, IWICEnumMetadataItem interface [Windows Imaging Component], IWICEnumMetadataItem interface [Windows Imaging Component],described, _wic_codec_iwicenummetadataitem, wic._wic_codec_iwicenummetadataitem, wincodec/IWICEnumMetadataItem
 ms.prod: windows
 ms.technology: windows-sdk

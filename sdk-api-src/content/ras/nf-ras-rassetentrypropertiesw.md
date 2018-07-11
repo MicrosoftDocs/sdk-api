@@ -4,10 +4,10 @@ title: RasSetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ The structure might be followed by an array of null-terminated alternate phone n
 
 Pointer to a buffer that specifies device-specific configuration information. This is opaque TAPI device 
       configuration information. For more information about TAPI device configuration, see the 
-      <a href="https://msdn.microsoft.com/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a> function in 
+      <a href="_tapi2_linegetdevconfig">lineGetDevConfig</a> function in 
       <a href="_tapi3_telephony_application_programming_interfaces">Telephony Application Programming Interfaces (TAPI)</a> 
       in the Platform SDK.
       
@@ -226,7 +226,7 @@ When setting properties for an all-users connection, if the calling application 
     non-<b>NULL</b> value for the phone-book parameter, <i>lpszPhonebook</i>, 
     the phone-book file must be located in the phone-book directory beneath the all-users application data path. To 
     obtain the correct location for the phone-book file, first call 
-    <a href="https://msdn.microsoft.com/library/Bb762181(v=VS.85).aspx">SHGetFolderPath</a> with a 
+    <a href="_win32_shgetfolderpath_cpp">SHGetFolderPath</a> with a 
     <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value of <b>CSIDL_COMMON_APPDATA</b>. 
     <b>SHGetFolderPath</b> returns the all-users 
     application data path. Append the following string to this path:

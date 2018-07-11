@@ -4,10 +4,10 @@ title: IAlternativeName::get_StrValue
 author: windows-sdk-content
 description: Retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).
 old-location: security\ialternativename_strvalue_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property
 ms.prod: windows
 ms.technology: windows-sdk

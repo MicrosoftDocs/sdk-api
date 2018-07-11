@@ -7,7 +7,7 @@ old-location: amsi\amsiopensession.htm
 old-project: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
 ms.prod: windows
 ms.technology: windows-sdk

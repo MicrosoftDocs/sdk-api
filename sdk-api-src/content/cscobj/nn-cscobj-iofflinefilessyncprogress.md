@@ -4,10 +4,10 @@ title: IOfflineFilesSyncProgress
 author: windows-sdk-content
 description: Used to report progress back to the caller during synchronization and synchronization-related operations.
 old-location: of\iofflinefilessyncprogress.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 7fc5ff29-be9d-4fad-96a8-94058bb708fa
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesSyncProgress, IOfflineFilesSyncProgress interface [Offline Files], IOfflineFilesSyncProgress interface [Offline Files],described, cscobj/IOfflineFilesSyncProgress, of.iofflinefilessyncprogress
 ms.prod: windows
 ms.technology: windows-sdk

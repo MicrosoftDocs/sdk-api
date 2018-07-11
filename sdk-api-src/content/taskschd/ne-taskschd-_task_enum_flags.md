@@ -4,10 +4,10 @@ title: "_TASK_ENUM_FLAGS"
 author: windows-sdk-content
 description: Defines how the Task Scheduler enumerates through registered tasks.
 old-location: taskschd\task_enum_flags.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: c77e597b-c8d9-426c-aa9d-7bb8536b349a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: TASK_ENUM_FLAGS, TASK_ENUM_FLAGS enumeration [Task Scheduler], TASK_ENUM_HIDDEN, _TASK_ENUM_FLAGS, taskschd.task_enum_flags, taskschd/TASK_ENUM_FLAGS, taskschd/TASK_ENUM_HIDDEN
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DrtGetEventData function
 author: windows-sdk-content
 description: DrtGetEventData function retrieves event data associated with a signaled event.
 old-location: p2p\drtgeteventdata.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
 ms.prod: windows
 ms.technology: windows-sdk

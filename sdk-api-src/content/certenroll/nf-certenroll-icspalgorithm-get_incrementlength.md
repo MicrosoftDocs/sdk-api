@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_IncrementLength
 author: windows-sdk-content
 description: Retrieves a value, in bits, that can be used to determine valid incremental key lengths for algorithms that support multiple key sizes.
 old-location: security\icspalgorithm_incrementlength_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAlgorithm.IncrementLength, ICspAlgorithm.get_IncrementLength, ICspAlgorithm::IncrementLength, ICspAlgorithm::get_IncrementLength, IncrementLength property [Security], IncrementLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::IncrementLength, certenroll/ICspAlgorithm::get_IncrementLength, get_IncrementLength, security.icspalgorithm_incrementlength_property
 ms.prod: windows
 ms.technology: windows-sdk

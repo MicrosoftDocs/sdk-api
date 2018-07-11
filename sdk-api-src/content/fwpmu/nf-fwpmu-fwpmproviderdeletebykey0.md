@@ -4,10 +4,10 @@ title: FwpmProviderDeleteByKey0 function
 author: windows-sdk-content
 description: Removes a provider from the system.
 old-location: fwp\fwpmproviderdeletebykey0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmProviderDeleteByKey0, FwpmProviderDeleteByKey0 function [Filtering], fwp.fwpmproviderdeletebykey0_func, fwpmu/FwpmProviderDeleteByKey0
 ms.prod: windows
 ms.technology: windows-sdk

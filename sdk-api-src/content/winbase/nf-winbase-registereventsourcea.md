@@ -4,10 +4,10 @@ title: RegisterEventSourceA function
 author: windows-sdk-content
 description: Retrieves a registered handle to the specified event log.
 old-location: base\registereventsource.htm
-old-project: EventLog
+old-project: eventlog
 ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSourceA, RegisterEventSourceW, _win32_registereventsource, base.registereventsource, winbase/RegisterEventSource, winbase/RegisterEventSourceA, winbase/RegisterEventSourceW
 ms.prod: windows
 ms.technology: windows-sdk

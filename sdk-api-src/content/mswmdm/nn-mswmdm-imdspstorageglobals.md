@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals.htm
 old-project: WMDM
 ms.assetid: 70653352-a467-4197-93e3-e8fb45f99d34
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], IMDSPStorageGlobals interface [windows Media Device Manager],described, IMDSPStorageGlobalsInterface, mswmdm/IMDSPStorageGlobals, wmdm.imdspstorageglobals
 ms.prod: windows
 ms.technology: windows-sdk

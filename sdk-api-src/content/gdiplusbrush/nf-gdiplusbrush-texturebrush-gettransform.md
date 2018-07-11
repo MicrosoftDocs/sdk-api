@@ -61,9 +61,9 @@ The <b>TextureBrush::GetTransform</b> method gets the transformation matrix of t
 
 ### -param matrix [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> object that receives the transformation matrix. 
+Pointer to a <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object that receives the transformation matrix. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx"
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
@@ -136,35 +136,35 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536332(v=VS.85).aspx">Coordinate Systems and Transformations</a>
+<a href="https://msdn.microsoft.com/735a9b62-d913-4d06-83bf-86ae093a0dc1">Coordinate Systems and Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533858(v=VS.85).aspx">Filling a Shape with an Image Texture</a>
+<a href="https://msdn.microsoft.com/12e1e132-a93f-4438-8a1d-9036a43a8fd8">Filling a Shape with an Image Texture</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a>
+<a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534532(v=VS.85).aspx">TextureBrush::ResetTransform</a>
+<a href="https://msdn.microsoft.com/9843531d-7894-4d2f-b9da-b807ae307e4f">TextureBrush::ResetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534538(v=VS.85).aspx">TextureBrush::SetTransform</a>
+<a href="https://msdn.microsoft.com/ba1ecf7c-58ea-4832-b9b2-fce884180805">TextureBrush::SetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/4acf3d70-f119-4a5b-a20d-8adea453556f">Transformations</a>
  
 
  

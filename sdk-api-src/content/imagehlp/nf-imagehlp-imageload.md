@@ -4,10 +4,10 @@ title: ImageLoad function
 author: windows-sdk-content
 description: Maintains a list of loaded DLLs.
 old-location: base\imageload.htm
-old-project: Debug
+old-project: debug
 ms.assetid: e88e6417-a805-43c2-9f47-5180228cf175
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ImageLoad, ImageLoad function, _win32_imageload, base.imageload, imagehlp/ImageLoad
 ms.prod: windows
 ms.technology: windows-sdk

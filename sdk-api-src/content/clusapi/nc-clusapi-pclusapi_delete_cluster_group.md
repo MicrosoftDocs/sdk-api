@@ -4,10 +4,10 @@ title: PCLUSAPI_DELETE_CLUSTER_GROUP
 author: windows-sdk-content
 description: Removes an offline and empty group from a cluster.
 old-location: mscs\deleteclustergroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_GROUP, PCLUSAPI_DELETE_CLUSTER_GROUP callback, PCLUSAPI_DELETE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_deleteclustergroup, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP, mscs.deleteclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

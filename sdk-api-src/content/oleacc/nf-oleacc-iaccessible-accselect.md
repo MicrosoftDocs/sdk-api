@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accselect.htm
 old-project: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ The specified object is not selected.
 </dl>
 </td>
 <td width="60%">
-An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="https://msdn.microsoft.com/library/Dd373634(v=VS.85).aspx">SELFLAG_EXTENDSELECTION</a>, <a href="https://msdn.microsoft.com/library/Dd373634(v=VS.85).aspx">SELFLAG_ADDSELECTION</a>, and <a href="https://msdn.microsoft.com/library/Dd373634(v=VS.85).aspx">SELFLAG_REMOVESELECTION</a>.
+An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="selflag.htm">SELFLAG_EXTENDSELECTION</a>, <a href="selflag.htm">SELFLAG_ADDSELECTION</a>, and <a href="selflag.htm">SELFLAG_REMOVESELECTION</a>.
 
 </td>
 </tr>

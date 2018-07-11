@@ -4,10 +4,10 @@ title: PeerGroupGetEventData function
 author: windows-sdk-content
 description: The PeerGroupGetEventData function allows an application to retrieve the data returned by a grouping event.
 old-location: p2p\peergroupgeteventdata.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: bc742c09-190d-412e-ae1a-f1350b3748f5
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGroupGetEventData, PeerGroupGetEventData function [Peer Networking], p2p.peergroupgeteventdata, p2p/PeerGroupGetEventData
 ms.prod: windows
 ms.technology: windows-sdk

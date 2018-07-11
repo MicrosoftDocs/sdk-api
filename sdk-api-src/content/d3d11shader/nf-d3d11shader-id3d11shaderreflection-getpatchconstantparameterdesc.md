@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getpatchconstantparameterdesc.ht
 old-project: direct3d11
 ms.assetid: 91a1a3ac-1dd4-4d91-aaea-196a99d5d684
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: GetPatchConstantParameterDesc, GetPatchConstantParameterDesc method [Direct3D 11], GetPatchConstantParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetPatchConstantParameterDesc method, ID3D11ShaderReflection.GetPatchConstantParameterDesc, ID3D11ShaderReflection::GetPatchConstantParameterDesc, a1d3c039-54af-ae32-0c02-c7d90751aacc, d3d11shader/ID3D11ShaderReflection::GetPatchConstantParameterDesc, direct3d11.id3d11shaderreflection_getpatchconstantparameterdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ A pointer to a shader-input-signature description. See <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

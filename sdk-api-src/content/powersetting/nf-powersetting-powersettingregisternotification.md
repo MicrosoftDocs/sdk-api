@@ -4,10 +4,10 @@ title: PowerSettingRegisterNotification function
 author: windows-sdk-content
 description: Registers to receive notification when a power setting changes.
 old-location: base\powersettingregisternotification.htm
-old-project: Power
+old-project: power
 ms.assetid: 0fbca717-2367-4407-8094-3eb2b717b59c
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification
 ms.prod: windows
 ms.technology: windows-sdk

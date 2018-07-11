@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder.htm
 old-project: shell
 ms.assetid: d37d4ca5-93a0-4090-b657-9b23d5df875c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IPersistFolder, IPersistFolder interface [Windows Shell], IPersistFolder interface [Windows Shell],described, _win32_IPersistFolder, _win32_IPersistFolder_cpp, shell.IPersistFolder, shobjidl_core/IPersistFolder
 ms.prod: windows
 ms.technology: windows-sdk

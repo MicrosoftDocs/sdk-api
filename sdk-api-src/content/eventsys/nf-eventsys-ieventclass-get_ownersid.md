@@ -7,7 +7,7 @@ old-location: cos\ieventclass_ownersid.htm
 old-project: cossdk
 ms.assetid: 3e1b91db-ee1f-42cd-a59d-69cec08f1a91
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IEventClass interface [COM+],OwnerSID property, IEventClass.OwnerSID, IEventClass.get_OwnerSID, IEventClass::OwnerSID, IEventClass::get_OwnerSID, IEventClass::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventClass interface, cos.ieventclass_ownersid, eventsys/IEventClass::OwnerSID, eventsys/IEventClass::get_OwnerSID, eventsys/IEventClass::put_OwnerSID, get_OwnerSID
 ms.prod: windows
 ms.technology: windows-sdk

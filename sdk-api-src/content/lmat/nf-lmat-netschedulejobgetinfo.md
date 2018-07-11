@@ -4,10 +4,10 @@ title: NetScheduleJobGetInfo function
 author: windows-sdk-content
 description: The NetScheduleJobGetInfo function retrieves information about a particular job queued on a specified computer. This function requires that the schedule service be started.
 old-location: netmgmt\netschedulejobgetinfo.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 44589715-edab-4737-9e49-6f491fd44c28
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetScheduleJobGetInfo, NetScheduleJobGetInfo function [Network Management], _win32_netschedulejobgetinfo, lmat/NetScheduleJobGetInfo, netmgmt.netschedulejobgetinfo
 ms.prod: windows
 ms.technology: windows-sdk

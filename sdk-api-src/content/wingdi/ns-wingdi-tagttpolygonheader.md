@@ -7,7 +7,7 @@ old-location: gdi\ttpolygonheader.htm
 old-project: gdi
 ms.assetid: eea54aeb-7847-4393-87fa-86de93017be8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*LPTTPOLYGONHEADER, LPTTPOLYGONHEADER, LPTTPOLYGONHEADER structure pointer [Windows GDI], TTPOLYGONHEADER, TTPOLYGONHEADER structure [Windows GDI], _win32_TTPOLYGONHEADER_str, gdi.ttpolygonheader, tagTTPOLYGONHEADER, wingdi/LPTTPOLYGONHEADER, wingdi/TTPOLYGONHEADER"
 ms.prod: windows
 ms.technology: windows-sdk

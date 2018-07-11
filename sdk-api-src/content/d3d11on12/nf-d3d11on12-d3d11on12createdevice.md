@@ -7,7 +7,7 @@ old-location: direct3d12\d3d11on12createdevice.htm
 old-project: direct3d12
 ms.assetid: 6FC2CB44-4AA8-4E89-9E9B-ED1C3C9C64CC
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -182,7 +182,7 @@ Type: <b>D3D_FEATURE_LEVEL*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
             This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> that are documented for
@@ -191,7 +191,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
           
 
 
-            This method returns <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_SDK_COMPONENT_MISSING</a>
+            This method returns <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_SDK_COMPONENT_MISSING</a>
             if you specify <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE_DEBUG</a>
             in <i>Flags</i>
             and the incorrect version of the <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">debug layer</a> is installed on your computer.

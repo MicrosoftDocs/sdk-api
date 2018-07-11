@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asdepthstencilview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asdepthstencilview.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: AsDepthStencilView, AsDepthStencilView method [Direct3D 10], AsDepthStencilView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsDepthStencilView method, ID3D10EffectVariable.AsDepthStencilView, ID3D10EffectVariable::AsDepthStencilView, cdd98874-51c7-7e0f-20f6-4efe28164ae0, d3d10effect/ID3D10EffectVariable::AsDepthStencilView, direct3d10.id3d10effectvariable_asdepthstencilview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Get a depth-stencil-view variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173642(v=VS.85).aspx">ID3D10EffectDepthStencilViewVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4d945731-aab6-40ac-8c07-d9a480c13a9c">ID3D10EffectDepthStencilViewVariable</a>*</b>
 
-A pointer to a depth-stencil-view variable. See <a href="https://msdn.microsoft.com/library/Bb173642(v=VS.85).aspx">ID3D10EffectDepthStencilViewVariable Interface</a>.
+A pointer to a depth-stencil-view variable. See <a href="https://msdn.microsoft.com/4d945731-aab6-40ac-8c07-d9a480c13a9c">ID3D10EffectDepthStencilViewVariable Interface</a>.
 
 
 
@@ -77,7 +77,7 @@ A pointer to a depth-stencil-view variable. See <a href="https://msdn.microsoft.
 
 This method returns a version of the effect variable that has been specialized to a depth-stencil-view variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain depth-stencil-view data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>.
 
 
 
@@ -87,7 +87,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

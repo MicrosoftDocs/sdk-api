@@ -4,10 +4,10 @@ title: WdsCliCancelTransfer function
 author: windows-sdk-content
 description: Cancels a WDS transfer operation.
 old-location: wds\wdsclicanceltransfer.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 8d138b95-4be1-4f53-ac15-21503408954b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsCliCancelTransfer, WdsCliCancelTransfer function [Windows Deployment Services], wds.wdsclicanceltransfer, wdsclientapi/WdsCliCancelTransfer
 ms.prod: windows
 ms.technology: windows-sdk

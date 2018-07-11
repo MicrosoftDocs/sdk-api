@@ -4,10 +4,10 @@ title: MapiFileDesc
 author: windows-sdk-content
 description: A MapiFileDesc structure contains information about a file containing a message attachment stored as a temporary file.
 old-location: mapi\mapifiledesc.htm
-old-project: WindowsMAPI
+old-project: windowsmapi
 ms.assetid: c2193551-85c3-4293-b632-d6c8ab84800a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*lpMapiFileDesc, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDesc, MapiFileDesc structure, lpMapiFileDesc, lpMapiFileDesc structure pointer, mapi.mapifiledesc, mapi/MapiFileDesc, mapi/lpMapiFileDesc"
 ms.prod: windows
 ms.technology: windows-sdk

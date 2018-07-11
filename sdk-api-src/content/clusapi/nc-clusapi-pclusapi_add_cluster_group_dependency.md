@@ -4,10 +4,10 @@ title: PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY
 author: windows-sdk-content
 description: Adds a dependency between two cluster groups.
 old-location: mscs\addclustergroupdependency.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 595921d5-cca0-49fc-b1f5-55af2c73ed74
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY callback, PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_DEPENDENCY, mscs.addclustergroupdependency
 ms.prod: windows
 ms.technology: windows-sdk

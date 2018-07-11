@@ -7,7 +7,7 @@ old-location: shell\LongToInt.htm
 old-project: shell
 ms.assetid: fb7ee73a-78f1-43cd-aa00-b11f1ee25c49
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: LongToInt, LongToInt function [Windows Shell], _shell_LongToInt, intsafe/LongToInt, shell.LongToInt
 ms.prod: windows
 ms.technology: windows-sdk

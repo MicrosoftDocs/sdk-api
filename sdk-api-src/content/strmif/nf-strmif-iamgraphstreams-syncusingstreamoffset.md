@@ -7,7 +7,7 @@ old-location: dshow\iamgraphstreams_syncusingstreamoffset.htm
 old-project: DirectShow
 ms.assetid: 1a61da3a-3933-4543-b733-1b8a60929e43
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SyncUsingStreamOffset method, IAMGraphStreams.SyncUsingStreamOffset, IAMGraphStreams::SyncUsingStreamOffset, IAMGraphStreamsSyncUsingStreamOffset, SyncUsingStreamOffset, SyncUsingStreamOffset method [DirectShow], SyncUsingStreamOffset method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_syncusingstreamoffset, strmif/IAMGraphStreams::SyncUsingStreamOffset
 ms.prod: windows
 ms.technology: windows-sdk

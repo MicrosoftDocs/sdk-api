@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_requestattrsatposition.htm
 old-project: TSF
 ms.assetid: d0f20507-005b-409d-90d5-5817b7d95f19
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreAnchor.RequestAttrsAtPosition, ITextStoreAnchor::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestAttrsAtPosition, tsf.itextstoreanchor_requestattrsatposition
 ms.prod: windows
 ms.technology: windows-sdk

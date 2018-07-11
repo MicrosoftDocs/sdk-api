@@ -4,10 +4,10 @@ title: ListBox_ResetContent macro
 author: windows-sdk-content
 description: Removes all items from a list box. You can use this macro or send the LB_RESETCONTENT message explicitly.
 old-location: controls\ListBox_ResetContent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_resetcontent.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListBox_ResetContent, ListBox_ResetContent macro [Windows Controls], _win32_ListBox_ResetContent, _win32_ListBox_ResetContent_cpp, controls.ListBox_ResetContent, controls._win32_ListBox_ResetContent, windowsx/ListBox_ResetContent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Removes all items from a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761325(v=VS.85).aspx">LB_RESETCONTENT</a> message explicitly.
+Removes all items from a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/3865e45e-62da-457a-801c-2f9a61687022">LB_RESETCONTENT</a> message explicitly.
 
 
 ## -parameters

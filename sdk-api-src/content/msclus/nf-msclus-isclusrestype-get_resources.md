@@ -4,10 +4,10 @@ title: ISClusResType::get_Resources
 author: windows-sdk-content
 description: Returns a ClusResTypeResources collection providing access to the resources of a particular type in the cluster.
 old-location: mscs\clusrestype_resources.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2fa27a3c-c340-478a-af05-1583efb420b4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResType object [Failover Cluster],Resources property, ClusResType.Resources, ISClusResType.get_Resources, ISClusResType::get_Resources, Resources property [Failover Cluster], Resources property [Failover Cluster],ClusResType object, _wolf_clusrestype.resources, get_Resources, mscs.clusrestype_resources
 ms.prod: windows
 ms.technology: windows-sdk

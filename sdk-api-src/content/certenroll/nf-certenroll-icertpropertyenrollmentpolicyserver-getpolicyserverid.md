@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerId
 author: windows-sdk-content
 description: Retrieves a string that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverid.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: e0cd9f41-d697-4c27-9aff-a37de62d1bad
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerId method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerId, ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, security.icertpropertyenrollmentpolicyserver_getpolicyserverid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
 author: windows-sdk-content
 description: Sets the shadow copy protection level for an original volume or a shadow copy storage area volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel, SetVolumeProtectLevel, SetVolumeProtectLevel method, SetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
 ms.prod: windows
 ms.technology: windows-sdk

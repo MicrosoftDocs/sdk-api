@@ -4,10 +4,10 @@ title: TSPI_providerGenericDialogData function
 author: windows-sdk-content
 description: The TSPI_providerGenericDialogData function delivers to the service provider data that was sent from the UI DLL running in an application context through the TUISPIDLLCALLBACK function.
 old-location: tspi\tspi_providergenericdialogdata.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: f48d1995-c775-4ae6-9af8-5f5f5c4f4ebe
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_providerGenericDialogData, TSPI_providerGenericDialogData function [TAPI 2.2], _tspi_tspi_providergenericdialogdata, tspi.tspi_providergenericdialogdata, tspi/TSPI_providerGenericDialogData
 ms.prod: windows
 ms.technology: windows-sdk

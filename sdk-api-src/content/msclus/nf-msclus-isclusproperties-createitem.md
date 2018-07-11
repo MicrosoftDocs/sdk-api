@@ -4,10 +4,10 @@ title: ISClusProperties::CreateItem
 author: windows-sdk-content
 description: Creates a ClusProperty object and adds it to the ClusProperties collection.
 old-location: mscs\clusproperties_createitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8df57999-5866-4005-9825-fefb827c876d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperties collection [Failover Cluster],CreateItem method, ClusProperties.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusProperties collection, ISClusProperties.CreateItem, ISClusProperties::CreateItem, _wolf_clusproperties.createitem, mscs.clusproperties_createitem
 ms.prod: windows
 ms.technology: windows-sdk

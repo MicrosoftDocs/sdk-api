@@ -7,7 +7,7 @@ old-location: wsw\ws_subject_name_cert_credential.htm
 old-project: wsw
 ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_SUBJECT_NAME_CERT_CREDENTIAL, WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows], _WS_SUBJECT_NAME_CERT_CREDENTIAL, webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL, wsw.ws_subject_name_cert_credential
 ms.prod: windows
 ms.technology: windows-sdk

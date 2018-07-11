@@ -4,10 +4,10 @@ title: BCryptCreateMultiHash function
 author: windows-sdk-content
 description: The BCryptCreateMultiHash function creates a multi-hash state that allows for the parallel computation of multiple hash operations.
 old-location: security\bcryptcreatemultihash.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: AAF91460-AEFB-4E16-91EA-4A60272B3839
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>BCryptCreateMultiHash</b> function creates a multi-hash state that allows for the parallel computation of multiple hash operations. This multi-hash state is used by the <a href="https://msdn.microsoft.com/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a> function. The multi-hash state can be thought of as an array of hash objects, each of which is equivalent to one created by <a href="https://msdn.microsoft.com/deb02f67-f3d3-4542-8245-fd4982c3190b">BCryptCreateHash</a>.
+The <b>BCryptCreateMultiHash</b> function creates a multi-hash state that allows for the parallel computation of multiple hash operations. This multi-hash state is used by the <a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a> function. The multi-hash state can be thought of as an array of hash objects, each of which is equivalent to one created by <a href="https://msdn.microsoft.com/deb02f67-f3d3-4542-8245-fd4982c3190b">BCryptCreateHash</a>.
 
  Parallel computations can greatly increase overall throughput, at the expense of increased latency for individual computations.
 
@@ -70,7 +70,7 @@ The algorithm handle used for all of the hash states in the multi-hash array. Th
 
 ### -param phHash [out]
 
-A pointer to a <b>BCRYPT_HASH_HANDLE</b> value that receives a handle that represents the multi-hash state. This handle is used in subsequent operations such as <a href="https://msdn.microsoft.com/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a>. When you have finished using this handle, release it by passing it to the <a href="https://msdn.microsoft.com/067dac61-98b9-478c-ac4d-e141961865e9">BCryptDestroyHash</a> function.
+A pointer to a <b>BCRYPT_HASH_HANDLE</b> value that receives a handle that represents the multi-hash state. This handle is used in subsequent operations such as <a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a>. When you have finished using this handle, release it by passing it to the <a href="https://msdn.microsoft.com/067dac61-98b9-478c-ac4d-e141961865e9">BCryptDestroyHash</a> function.
 
 
 ### -param nHashes [in]
@@ -82,7 +82,7 @@ The number of elements in the array. The multi-hash state that this function cre
 
 A pointer to a buffer that receives the multi-hash state. 
 
-The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> members of the <a href="https://msdn.microsoft.com/library/Mt845767(v=VS.85).aspx">BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</a> structure. The value is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
+The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> members of the <a href="security.bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</a> structure. The value is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
 
 If <i>pbHashObject</i> is <b>NULL</b> and <i>cbHashObject</i> has a value of zero (0), the object buffer is automatically allocated.
 
@@ -145,7 +145,7 @@ Multi-hashing is not supported for HMAC-MD2, HMAC-MD4, and GMAC.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt845767(v=VS.85).aspx">BCRYPT_MULTI_OBJECT_LENGTH</a>
+<a href="security.bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH</a>
 
 
 
@@ -169,7 +169,7 @@ Multi-hashing is not supported for HMAC-MD2, HMAC-MD4, and GMAC.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt845764(v=VS.85).aspx">BCryptProcessMultiOperations</a>
+<a href="security.bcryptprocessmultioperation">BCryptProcessMultiOperations</a>
 
 
 

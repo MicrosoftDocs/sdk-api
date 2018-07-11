@@ -4,10 +4,10 @@ title: ITextRange2::SetFont2
 author: windows-sdk-content
 description: Sets the character formatting attributes of the range.
 old-location: controls\itextrange2_setfont2.htm
-old-project: Controls
+old-project: controls
 ms.assetid: ff3c2bf3-efb8-454e-b0e2-e65afeb1a091
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetFont2 method, ITextRange2.SetFont2, ITextRange2::SetFont2, SetFont2, SetFont2 method [Windows Controls], SetFont2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setfont2, tom/ITextRange2::SetFont2
 ms.prod: windows
 ms.technology: windows-sdk

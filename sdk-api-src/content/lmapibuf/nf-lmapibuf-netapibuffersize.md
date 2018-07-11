@@ -4,10 +4,10 @@ title: NetApiBufferSize function
 author: windows-sdk-content
 description: The NetApiBufferSize function returns the size, in bytes, of a buffer allocated by a call to the NetApiBufferAllocate function.
 old-location: netmgmt\netapibuffersize.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 0c28feeb-00a3-4ad5-b85f-96326515fae2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetApiBufferSize, NetApiBufferSize function [Network Management], _win32_netapibuffersize, lmapibuf/NetApiBufferSize, netmgmt.netapibuffersize
 ms.prod: windows
 ms.technology: windows-sdk

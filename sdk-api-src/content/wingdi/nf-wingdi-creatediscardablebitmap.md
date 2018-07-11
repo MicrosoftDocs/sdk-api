@@ -7,7 +7,7 @@ old-location: gdi\creatediscardablebitmap.htm
 old-project: gdi
 ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
 ms.prod: windows
 ms.technology: windows-sdk

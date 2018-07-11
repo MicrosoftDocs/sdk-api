@@ -4,10 +4,10 @@ title: SET_APP_INSTANCE_CSV_FLAGS
 author: windows-sdk-content
 description: Sets the flags that affect connections from the application instance.
 old-location: mscs\setappinstancecsvflags.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS callback, SET_APP_INSTANCE_CSV_FLAGS callback function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

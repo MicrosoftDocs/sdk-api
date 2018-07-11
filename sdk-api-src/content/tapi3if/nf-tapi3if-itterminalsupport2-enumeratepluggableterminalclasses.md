@@ -4,10 +4,10 @@ title: ITTerminalSupport2::EnumeratePluggableTerminalClasses
 author: windows-sdk-content
 description: The EnumeratePluggableTerminalClasses method enumerates the pluggable terminal classes registered under a given superclass.
 old-location: tapi3\itterminalsupport2_enumeratepluggableterminalclasses.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: e8a10b1b-b08e-49b2-bfc6-9f8f4dbc1248
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: EnumeratePluggableTerminalClasses, EnumeratePluggableTerminalClasses method [TAPI 2.2], EnumeratePluggableTerminalClasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableTerminalClasses method, ITTerminalSupport2.EnumeratePluggableTerminalClasses, ITTerminalSupport2::EnumeratePluggableTerminalClasses, _tapi3_itterminalsupport2_enumeratepluggableterminalclasses, tapi3.itterminalsupport2_enumeratepluggableterminalclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableTerminalClasses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,8 +145,8 @@ The <i>ppClassEnumerator</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/72c0db41-8391-4923-8961-6aefce9886c4">IEnumPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableTerminalClasses</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/72c0db41-8391-4923-8961-6aefce9886c4">IEnumPluggableTerminalClassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableTerminalClasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumPluggableTerminalClassInfo</b> interface to free resources associated with it.
 
 

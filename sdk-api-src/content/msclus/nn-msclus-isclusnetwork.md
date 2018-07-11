@@ -4,10 +4,10 @@ title: ISClusNetwork
 author: windows-sdk-content
 description: Enables operations on a network, its properties, and related objects.
 old-location: mscs\clusnetwork_object.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d51e9872-eb86-4b0e-b417-1a2e5ac6ee9c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetwork, ClusNetwork object [Failover Cluster], ClusNetwork object [Failover Cluster],described, ISClusNetwork, _wolf_clusnetwork_object, msclus/ClusNetwork, mscs.clusnetwork_object
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptSignMessage function
 author: windows-sdk-content
 description: The CryptSignMessage function creates a hash of the specified content, signs the hash, and then encodes both the original message content and the signed hash.
 old-location: security\cryptsignmessage.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -186,7 +186,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

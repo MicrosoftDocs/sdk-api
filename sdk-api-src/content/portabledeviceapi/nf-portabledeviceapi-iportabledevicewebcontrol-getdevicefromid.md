@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
 old-project: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 04/06/2018
 ms.keywords: GetDeviceFromId, GetDeviceFromId method [WPD Automation], GetDeviceFromId method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromId method, IPortableDeviceWebControl.GetDeviceFromId, IPortableDeviceWebControl::GetDeviceFromId, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId, wpdauto.iportabledevicewebcontrol_getdevicefromid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A Windows Store app can obtain the PnP identifier of a WPD device by using <a hr
 
 ### -param ppDevice [out, retval]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://msdn.microsoft.com/library/ms630493(v=VS.85).aspx">Device</a> object.
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
 
 
 

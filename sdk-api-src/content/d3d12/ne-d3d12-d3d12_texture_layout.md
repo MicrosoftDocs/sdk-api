@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_texture_layout.htm
 old-project: direct3d12
 ms.assetid: 1C61B658-9CA1-493C-8DBC-86313D0D302F
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_TEXTURE_LAYOUT, D3D12_TEXTURE_LAYOUT enumeration, D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, D3D12_TEXTURE_LAYOUT_ROW_MAJOR, D3D12_TEXTURE_LAYOUT_UNKNOWN, d3d12/D3D12_TEXTURE_LAYOUT, d3d12/D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_ROW_MAJOR, d3d12/D3D12_TEXTURE_LAYOUT_UNKNOWN, direct3d12.d3d12_texture_layout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -225,7 +225,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAG</a>_ALLOW_DEPTH_STENCIL
               </li>
 <li>
-                Formats within the <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>_R32G32B32_TYPELESS group
+                Formats within the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>_R32G32B32_TYPELESS group
               </li>
 </ul>
 
@@ -247,7 +247,7 @@ req.irql:
           A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.
         
 
-<img alt="Standard swizzle patterns" src="./images/d3d12_standardswizzle.png"/>
+<img alt="Standard swizzle patterns" src="images/d3d12_standardswizzle.png"/>
 
           To demonstrate, consider the 2D 32bpp swizzle format above.
           This is represented by the following interleave masks, where bits on the left are most-significant:
