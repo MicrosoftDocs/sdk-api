@@ -8,6 +8,5 @@
     "tcpmib.h",
     "ifmib.h",
     "udpmib.h"
-  ],
-  "displayName": "Management Information Base"
+  ]
 }

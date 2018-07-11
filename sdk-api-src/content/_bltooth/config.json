@@ -4,6 +4,5 @@
     "bluetoothapis.h",
     "bluetoothleapis.h",
     "bthledef.h"
-  ],
-  "displayName": "Bluetooth Devices Reference"
+  ]
 }

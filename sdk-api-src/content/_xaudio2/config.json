@@ -8,6 +8,5 @@
     "hrtfapoapi.h",
     "xapo.h",
     "x3daudio.h"
-  ],
-  "displayName": "XAudio2 APIs"
+  ]
 }

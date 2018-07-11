@@ -2,13 +2,13 @@
 UID: NA:magnification
 ms.assetid: cb8295d2-6c8b-3365-8953-0b38039c6e5c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: magapi
+archived: true
 ---
 
 # Magnification.h header

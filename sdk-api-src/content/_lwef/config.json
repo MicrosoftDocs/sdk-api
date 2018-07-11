@@ -15,6 +15,5 @@
     "provider.h",
     "mpclient.h",
     "windowsdefender.h"
-  ],
-  "displayName": "Legacy Windows Environment Features"
+  ]
 }

@@ -5,6 +5,5 @@
     "wingdi.h",
     "icm.h",
     "wcsplugin.h"
-  ],
-  "displayName": "Windows Color System"
+  ]
 }

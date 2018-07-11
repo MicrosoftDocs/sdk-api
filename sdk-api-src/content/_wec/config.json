@@ -2,6 +2,5 @@
   "tech": "wec",
   "headers": [
     "evcoll.h"
-  ],
-  "displayName": "Windows Event Collector"
+  ]
 }

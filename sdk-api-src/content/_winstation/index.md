@@ -2,7 +2,7 @@
 UID: TP:winstation
 ms.assetid: 3a5e52d7-77fd-394a-945f-244406c46175
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

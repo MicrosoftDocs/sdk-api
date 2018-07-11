@@ -11,6 +11,5 @@
     "audiomediatype.h",
     "baseaudioprocessingobject.h",
     "msapofxproxy.h"
-  ],
-  "displayName": "Audio Devices DDI Reference"
+  ]
 }

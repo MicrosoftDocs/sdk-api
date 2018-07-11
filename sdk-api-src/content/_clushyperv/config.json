@@ -3,6 +3,5 @@
   "headers": [
     "dbdaoint.h",
     "sdoias.h"
-  ],
-  "displayName": "Failover Clustering Hyper-V WMI Provider"
+  ]
 }

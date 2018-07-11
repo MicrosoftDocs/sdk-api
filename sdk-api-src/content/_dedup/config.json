@@ -2,6 +2,5 @@
   "tech": "dedup",
   "headers": [
     "ddpbackup.h"
-  ],
-  "displayName": "Data Deduplication API"
+  ]
 }

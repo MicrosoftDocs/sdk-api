@@ -5,6 +5,5 @@
     "ndhelper.h",
     "ndattributils.h",
     "ndfapi.h"
-  ],
-  "displayName": "Network Diagnostics Framework"
+  ]
 }

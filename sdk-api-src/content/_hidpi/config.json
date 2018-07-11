@@ -5,6 +5,5 @@
     "uxtheme.h",
     "windef.h",
     "shellscalingapi.h"
-  ],
-  "displayName": "High DPI"
+  ]
 }

@@ -17,6 +17,5 @@
     "mmeapi.h",
     "minwindef.h",
     "corecrt_io.h"
-  ],
-  "displayName": "Windows Multimedia"
+  ]
 }

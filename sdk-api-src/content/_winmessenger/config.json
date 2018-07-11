@@ -7,6 +7,5 @@
     "comsvcs.h",
     "msgrpriv.h",
     "sessions.h"
-  ],
-  "displayName": "Windows Messenger"
+  ]
 }

@@ -36,6 +36,5 @@
     "roapi.h",
     "guiddef.h",
     "winddi.h"
-  ],
-  "displayName": "Component Object Model (COM)"
+  ]
 }

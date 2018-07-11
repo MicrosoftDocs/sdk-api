@@ -2,7 +2,7 @@
 UID: NA:comadmin
 ms.assetid: 17a15a0b-678d-3849-b9c7-84c46d53e47d
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

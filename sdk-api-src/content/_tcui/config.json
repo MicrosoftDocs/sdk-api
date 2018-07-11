@@ -2,6 +2,5 @@
   "tech": "tcui",
   "headers": [
     "gamingtcui.h"
-  ],
-  "displayName": "Title Callable UI"
+  ]
 }

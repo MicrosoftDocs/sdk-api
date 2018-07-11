@@ -2,6 +2,5 @@
   "tech": "wibe",
   "headers": [
     "mileffects.h"
-  ],
-  "displayName": "WPF Bitmap Effects"
+  ]
 }

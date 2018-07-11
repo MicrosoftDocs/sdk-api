@@ -21,6 +21,5 @@
     "dxmini.h",
     "dmemmgr.h",
     "dvp.h"
-  ],
-  "displayName": "Display Devices Reference"
+  ]
 }

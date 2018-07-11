@@ -4,6 +4,5 @@
     "wingdi.h",
     "gl.h",
     "glu.h"
-  ],
-  "displayName": "OpenGL"
+  ]
 }

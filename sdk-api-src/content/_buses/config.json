@@ -5,6 +5,5 @@
     "usbuser.h",
     "winusb.h",
     "winusbio.h"
-  ],
-  "displayName": "USB driver reference"
+  ]
 }

@@ -8,6 +8,5 @@
     "fsrmpipeline.h",
     "fsrmreports.h",
     "fsrmscreen.h"
-  ],
-  "displayName": "File Server Resource Manager"
+  ]
 }

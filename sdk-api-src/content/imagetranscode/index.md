@@ -2,7 +2,7 @@
 UID: NA:imagetranscode
 ms.assetid: 7ffd173f-c94a-3b37-bbad-716c34aaa3b1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

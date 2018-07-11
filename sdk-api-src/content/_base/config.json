@@ -76,6 +76,5 @@
     "vsbackup.h",
     "vsadmin.h",
     "vsprov.h"
-  ],
-  "displayName": "System Services"
+  ]
 }

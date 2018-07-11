@@ -2,7 +2,7 @@
 UID: NA:ws2spi
 ms.assetid: e90d9d07-d570-3d59-8a01-5128ebd3716d
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:wmcodecdsp
 ms.assetid: 75f67bd6-f134-3f81-8b6c-463ec552fd28
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

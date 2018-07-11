@@ -3,6 +3,5 @@
   "headers": [
     "commctrl.h",
     "winuser.h"
-  ],
-  "displayName": "Keyboard and Mouse Input"
+  ]
 }

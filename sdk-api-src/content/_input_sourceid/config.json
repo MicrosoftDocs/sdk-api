@@ -2,6 +2,5 @@
   "tech": "input_sourceid",
   "headers": [
     "winuser.h"
-  ],
-  "displayName": "Input Source Identification"
+  ]
 }

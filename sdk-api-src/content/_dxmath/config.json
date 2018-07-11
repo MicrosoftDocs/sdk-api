@@ -6,6 +6,5 @@
     "directxmathvector.inl",
     "directxcollision.h",
     "directxpackedvector.h"
-  ],
-  "displayName": "DirectXMath"
+  ]
 }

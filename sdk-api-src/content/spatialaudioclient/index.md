@@ -2,7 +2,7 @@
 UID: NA:spatialaudioclient
 ms.assetid: 0857548c-508b-3d0b-a26a-fcb1ab7fad07
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

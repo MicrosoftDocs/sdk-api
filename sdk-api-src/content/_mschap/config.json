@@ -2,6 +2,5 @@
   "tech": "mschap",
   "headers": [
     "mschapp.h"
-  ],
-  "displayName": "MS-CHAP Password Management API"
+  ]
 }

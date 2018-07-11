@@ -2,6 +2,5 @@
   "tech": "netshell",
   "headers": [
     "netsh.h"
-  ],
-  "displayName": "NetShell"
+  ]
 }

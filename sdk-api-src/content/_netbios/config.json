@@ -2,6 +2,5 @@
   "tech": "netbios",
   "headers": [
     "nb30.h"
-  ],
-  "displayName": "NetBIOS"
+  ]
 }

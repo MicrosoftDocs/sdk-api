@@ -2,7 +2,7 @@
 UID: NA:lmalert
 ms.assetid: 76daede2-19e4-3ac4-811c-fea6754b08df
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

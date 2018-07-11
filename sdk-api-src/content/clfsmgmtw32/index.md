@@ -2,7 +2,7 @@
 UID: NA:clfsmgmtw32
 ms.assetid: 31590a65-d681-39f5-91e5-6df5efb582fb
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

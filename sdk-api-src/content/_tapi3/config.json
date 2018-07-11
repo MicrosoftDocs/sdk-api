@@ -19,6 +19,5 @@
     "mspaddr.h",
     "mspcall.h",
     "mspstrm.h"
-  ],
-  "displayName": "Telephony Application Programming Interfaces"
+  ]
 }

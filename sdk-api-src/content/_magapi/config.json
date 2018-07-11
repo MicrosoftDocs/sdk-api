@@ -2,6 +2,5 @@
   "tech": "magapi",
   "headers": [
     "magnification.h"
-  ],
-  "displayName": "Magnification API"
+  ]
 }

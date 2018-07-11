@@ -2,13 +2,13 @@
 UID: NA:ntddpsch
 ms.assetid: 3fd316fd-6cd6-36da-9bff-dbea56a85fe8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: qos
+archived: true
 ---
 
 # Ntddpsch.h header

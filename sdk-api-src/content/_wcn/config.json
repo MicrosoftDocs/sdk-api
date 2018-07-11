@@ -3,6 +3,5 @@
   "headers": [
     "wcntypes.h",
     "wcndevice.h"
-  ],
-  "displayName": "Windows Connect Now"
+  ]
 }

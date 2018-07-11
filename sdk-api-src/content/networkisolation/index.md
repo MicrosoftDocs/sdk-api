@@ -2,13 +2,13 @@
 UID: NA:networkisolation
 ms.assetid: 55e73823-3246-3e0a-a178-a0f2a351565c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ics
+archived: true
 ---
 
 # Networkisolation.h header

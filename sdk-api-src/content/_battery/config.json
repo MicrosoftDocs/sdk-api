@@ -3,6 +3,5 @@
   "headers": [
     "poclass.h",
     "batclass.h"
-  ],
-  "displayName": "Battery Devices Reference"
+  ]
 }

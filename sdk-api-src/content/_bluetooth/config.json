@@ -5,6 +5,5 @@
     "bthdef.h",
     "ws2bth.h",
     "bthsdpdef.h"
-  ],
-  "displayName": "Bluetooth"
+  ]
 }

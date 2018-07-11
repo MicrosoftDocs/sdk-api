@@ -2,7 +2,7 @@
 UID: NA:tvout
 ms.assetid: e37193da-c19f-3d92-91b0-3046737bc748
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

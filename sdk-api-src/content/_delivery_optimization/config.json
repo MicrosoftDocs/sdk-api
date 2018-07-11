@@ -2,6 +2,5 @@
   "tech": "delivery_optimization",
   "headers": [
     "deliveryoptimization.h"
-  ],
-  "displayName": "Delivery Optimization (DO)"
+  ]
 }

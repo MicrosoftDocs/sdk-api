@@ -2,13 +2,13 @@
 UID: NA:deviceaccess
 ms.assetid: 4b0026e9-29ed-3ec0-a295-556fb87ed090
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: deviceaccess
+archived: true
 ---
 
 # Deviceaccess.h header

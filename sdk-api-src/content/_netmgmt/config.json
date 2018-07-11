@@ -13,6 +13,5 @@
     "lmserver.h",
     "lmuse.h",
     "lmwksta.h"
-  ],
-  "displayName": "Network Management"
+  ]
 }

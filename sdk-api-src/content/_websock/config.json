@@ -2,6 +2,5 @@
   "tech": "websock",
   "headers": [
     "websocket.h"
-  ],
-  "displayName": "WebSocket Protocol Component API"
+  ]
 }

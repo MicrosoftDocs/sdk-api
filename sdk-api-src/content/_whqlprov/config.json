@@ -2,6 +2,5 @@
   "tech": "whqlprov",
   "headers": [
     "sdoias.h"
-  ],
-  "displayName": "WhqlProvider Provider"
+  ]
 }

@@ -5,6 +5,5 @@
     "webservices.h",
     "webservicesdebug.h",
     "icontentprefetchertasktrigger.h"
-  ],
-  "displayName": "Windows Web Services"
+  ]
 }

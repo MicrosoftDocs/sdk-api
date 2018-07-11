@@ -6,6 +6,5 @@
     "msoeapi.h",
     "imnxport.h",
     "oerules.h"
-  ],
-  "displayName": "Windows Mail (formerly Outlook Express)"
+  ]
 }

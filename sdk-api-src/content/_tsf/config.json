@@ -11,6 +11,5 @@
     "ctfspui.h",
     "msctfmonitorapi.h",
     "tsattrid.h"
-  ],
-  "displayName": "Text Services Framework"
+  ]
 }

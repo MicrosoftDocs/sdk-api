@@ -2,6 +2,5 @@
   "tech": "powermeter",
   "headers": [
     "emi.h"
-  ],
-  "displayName": "Power Metering and Budgeting Reference"
+  ]
 }

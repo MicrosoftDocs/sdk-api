@@ -26,6 +26,5 @@
     "in6addr.h",
     "transportsettingcommon.h",
     "sporder.h"
-  ],
-  "displayName": "Windows Sockets 2"
+  ]
 }

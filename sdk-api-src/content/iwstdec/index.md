@@ -2,7 +2,7 @@
 UID: NA:iwstdec
 ms.assetid: 3cef44f3-0935-3fc3-9048-baf11c564081
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
